@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: giving and taking</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-giving-and-taking">Core verbs: giving and taking<a class="hash" href="#core-verbs-giving-and-taking" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of giving and taking — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="provide">provide<a class="hash" href="#provide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈvaɪd/ &middot; <em>pruh-VYD</em></dd><dt>Русский</dt><dd>обеспечивать, предоставлять, предоставить</dd><dt>Forms</dt><dd><em>provide</em> &middot; <em>provided</em> &middot; <em>provided</em></dd><dt>Third person</dt><dd><em>provides</em> &middot; <strong>-ing form:</strong> <em>providing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>provide lunch</em>), intransitive (<em>provide for a family</em>)</dd><dt>Contrast</dt><dd>Two patterns, both with a preposition: <em>provide</em> someone <strong>with</strong> something, or <em>provide</em> something <strong>for</strong> someone. Never <em>provide me a pen</em>.</dd></dl>
+<p>To give someone what they need or ask for.</p>
+<ol><li>The school <em>provides</em> free lunch to every student.</li><li>They <em>provided</em> blankets after the storm.</li><li>We are <em>providing</em> transportation for the out-of-town guests.</li></ol>
+<hr>
+<h3 id="donate">donate<a class="hash" href="#donate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdoʊneɪt/ &middot; <em>DOH-nayt</em></dd><dt>Русский</dt><dd>жертвовать, пожертвовать, сдавать</dd><dt>Forms</dt><dd><em>donate</em> &middot; <em>donated</em> &middot; <em>donated</em></dd><dt>Third person</dt><dd><em>donates</em> &middot; <strong>-ing form:</strong> <em>donating</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>donate money</em>), intransitive (<em>please donate</em>)</dd></dl>
+<p>To give money, goods, or blood to a charity or other organization.</p>
+<ol><li>Many families <em>donate</em> clothes in December.</li><li>He <em>donated</em> his old laptop to the library.</li><li>They have been <em>donating</em> blood twice a year since college.</li></ol>
+<hr>
+<h3 id="contribute">contribute<a class="hash" href="#contribute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtrɪbjuːt/ &middot; <em>kuhn-TRIB-yoot</em></dd><dt>Русский</dt><dd>вносить вклад, жертвовать, внести</dd><dt>Forms</dt><dd><em>contribute</em> &middot; <em>contributed</em> &middot; <em>contributed</em></dd><dt>Third person</dt><dd><em>contributes</em> &middot; <strong>-ing form:</strong> <em>contributing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>contribute an article</em>), intransitive (<em>everyone contributed</em>)</dd><dt>Contrast</dt><dd>Stress is on the second syllable — kuhn-TRIB-yoot, not CON-tri-byoot — and the money goes <strong>to</strong> something: <em>contribute to a fund</em>.</dd></dl>
+<p>To give money, effort, or ideas as your part of something shared.</p>
+<ol><li>Everyone at work <em>contributes</em> five dollars a month.</li><li>She <em>contributed</em> two hundred dollars to the relief fund.</li><li>He has <em>contributed</em> three articles to the magazine this year.</li></ol>
+<hr>
+<h3 id="hand">hand<a class="hash" href="#hand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hænd/ &middot; <em>HAND</em></dd><dt>Русский</dt><dd>передавать, вручать, передать</dd><dt>Forms</dt><dd><em>hand</em> &middot; <em>handed</em> &middot; <em>handed</em></dd><dt>Third person</dt><dd><em>hands</em> &middot; <strong>-ing form:</strong> <em>handing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To pass something to someone using your hands.</p>
+<ol><li>Please <em>hand</em> me the scissors.</li><li>He <em>handed</em> the keys to his brother without a word.</li><li>The waiter is <em>handing</em> each guest a menu.</li></ol>
+<hr>
+<h3 id="share">share<a class="hash" href="#share" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɛr/ &middot; <em>SHAIR</em></dd><dt>Русский</dt><dd>делить, делиться, поделиться</dd><dt>Forms</dt><dd><em>share</em> &middot; <em>shared</em> &middot; <em>shared</em></dd><dt>Third person</dt><dd><em>shares</em> &middot; <strong>-ing form:</strong> <em>sharing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>share a room</em>), intransitive (<em>children learn to share</em>)</dd><dt>Contrast</dt><dd>You <em>share</em> something <strong>with</strong> a person: <em>share the pizza with me</em>, not <em>share me the pizza</em>.</dd></dl>
+<p>To have or use something together with someone else, or to give part of it away.</p>
+<ol><li>The two boys <em>share</em> a bedroom.</li><li>She <em>shared</em> her notes with the whole class.</li><li>They have been <em>sharing</em> a car since March.</li></ol>
+<hr>
+<h3 id="issue">issue<a class="hash" href="#issue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪʃuː/ &middot; <em>ISH-oo</em></dd><dt>Русский</dt><dd>выдавать, выдать, выпускать</dd><dt>Forms</dt><dd><em>issue</em> &middot; <em>issued</em> &middot; <em>issued</em></dd><dt>Third person</dt><dd><em>issues</em> &middot; <strong>-ing form:</strong> <em>issuing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give out something official, such as a document, a permit, or a statement.</p>
+<ol><li>The office <em>issues</em> parking permits on Mondays.</li><li>The court <em>issued</em> a warrant that same afternoon.</li><li>They are <em>issuing</em> refunds to everyone who paid the old rate.</li></ol>
+<hr>
+<h3 id="grant">grant<a class="hash" href="#grant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrænt/ &middot; <em>GRANT</em></dd><dt>Русский</dt><dd>предоставлять, предоставить, даровать</dd><dt>Forms</dt><dd><em>grant</em> &middot; <em>granted</em> &middot; <em>granted</em></dd><dt>Third person</dt><dd><em>grants</em> &middot; <strong>-ing form:</strong> <em>granting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American /æ/: GRANT rhymes with <em>ant</em>, not with the British /ɑː/.</dd></dl>
+<p>To give someone something officially, especially permission or a right.</p>
+<ol><li>The city <em>grants</em> permits to only ten vendors a year.</li><li>The judge <em>granted</em> the request without comment.</li><li>He was <em>granted</em> citizenship last spring.</li></ol>
+<hr>
+<h3 id="award">award<a class="hash" href="#award" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈwɔːrd/ &middot; <em>uh-WAWRD</em></dd><dt>Русский</dt><dd>присуждать, присудить, награждать</dd><dt>Forms</dt><dd><em>award</em> &middot; <em>awarded</em> &middot; <em>awarded</em></dd><dt>Third person</dt><dd><em>awards</em> &middot; <strong>-ing form:</strong> <em>awarding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give someone a prize, a sum of money, or a contract as an official decision.</p>
+<ol><li>They <em>award</em> one full scholarship a year.</li><li>The jury <em>awarded</em> her two million dollars.</li><li>He has been <em>awarded</em> three patents since 2019.</li></ol>
+<hr>
+<h3 id="allot">allot<a class="hash" href="#allot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlɑːt/ &middot; <em>uh-LAHT</em></dd><dt>Русский</dt><dd>выделять, отводить, отвести</dd><dt>Forms</dt><dd><em>allot</em> &middot; <em>allotted</em> &middot; <em>allotted</em></dd><dt>Third person</dt><dd><em>allots</em> &middot; <strong>-ing form:</strong> <em>allotting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Stress on the last syllable doubles the <em>t</em>: <em>allotted</em>, <em>allotting</em>.</dd></dl>
+<p>To give each person or purpose a fixed amount or share.</p>
+<ol><li>They <em>allot</em> each speaker ten minutes.</li><li>The school <em>allotted</em> us two parking spaces.</li><li>Only an hour was <em>allotted</em> for questions.</li></ol>
+<hr>
+<h3 id="dispense">dispense<a class="hash" href="#dispense" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈspɛns/ &middot; <em>di-SPENS</em></dd><dt>Русский</dt><dd>раздавать, выдавать, выдать</dd><dt>Forms</dt><dd><em>dispense</em> &middot; <em>dispensed</em> &middot; <em>dispensed</em></dd><dt>Third person</dt><dd><em>dispenses</em> &middot; <strong>-ing form:</strong> <em>dispensing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give out measured amounts of something, especially medicine or supplies.</p>
+<ol><li>The machine <em>dispenses</em> coffee, tea, and hot chocolate.</li><li>The nurse <em>dispensed</em> the medication herself.</li><li>They are <em>dispensing</em> free masks at the entrance.</li></ol>
+<hr>
+<h3 id="submit">submit<a class="hash" href="#submit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səbˈmɪt/ &middot; <em>suhb-MIT</em></dd><dt>Русский</dt><dd>подавать, представлять, подать</dd><dt>Forms</dt><dd><em>submit</em> &middot; <em>submitted</em> &middot; <em>submitted</em></dd><dt>Third person</dt><dd><em>submits</em> &middot; <strong>-ing form:</strong> <em>submitting</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>submit a form</em>), intransitive (<em>he refused to submit</em>)</dd><dt>Contrast</dt><dd>Stress on the last syllable doubles the <em>t</em>: <em>submitted</em>, <em>submitting</em>.</dd></dl>
+<p>To hand in a document or piece of work for someone to consider.</p>
+<ol><li>You <em>submit</em> the application online.</li><li>She <em>submitted</em> her résumé on Tuesday.</li><li>He has <em>submitted</em> the same essay twice.</li></ol>
+<hr>
+<h3 id="surrender">surrender<a class="hash" href="#surrender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈrɛndər/ &middot; <em>suh-REN-dur</em></dd><dt>Русский</dt><dd>сдавать, отдавать, сдаваться</dd><dt>Forms</dt><dd><em>surrender</em> &middot; <em>surrendered</em> &middot; <em>surrendered</em></dd><dt>Third person</dt><dd><em>surrenders</em> &middot; <strong>-ing form:</strong> <em>surrendering</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>surrender your passport</em>), intransitive (<em>the soldiers surrendered</em>)</dd></dl>
+<p>To give something up to someone else, especially because you are forced to.</p>
+<ol><li>You must <em>surrender</em> your license at the front desk.</li><li>The driver <em>surrendered</em> his keys without arguing.</li><li>They are <em>surrendering</em> the property to the bank next month.</li></ol>
+<hr>
+<h3 id="sacrifice">sacrifice<a class="hash" href="#sacrifice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsækrəfaɪs/ &middot; <em>SAK-ruh-fyss</em></dd><dt>Русский</dt><dd>жертвовать, пожертвовать</dd><dt>Forms</dt><dd><em>sacrifice</em> &middot; <em>sacrificed</em> &middot; <em>sacrificed</em></dd><dt>Third person</dt><dd><em>sacrifices</em> &middot; <strong>-ing form:</strong> <em>sacrificing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>sacrifice a weekend</em>), intransitive (<em>parents sacrifice</em>)</dd><dt>Contrast</dt><dd>The ending is /faɪs/ with an <em>s</em> sound — SAK-ruh-fyss, not "-fyze".</dd></dl>
+<p>To give up something you value in order to get or protect something else.</p>
+<ol><li>Parents often <em>sacrifice</em> their own plans for their kids.</li><li>She <em>sacrificed</em> a whole weekend to finish the project.</li><li>He has <em>sacrificed</em> a lot for that career.</li></ol>
+<hr>
+<h3 id="devote">devote<a class="hash" href="#devote" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈvoʊt/ &middot; <em>di-VOHT</em></dd><dt>Русский</dt><dd>посвящать, посвятить, отдавать</dd><dt>Forms</dt><dd><em>devote</em> &middot; <em>devoted</em> &middot; <em>devoted</em></dd><dt>Third person</dt><dd><em>devotes</em> &middot; <strong>-ing form:</strong> <em>devoting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Devote</em> something <strong>to</strong> something: <em>devoted his life to teaching</em>.</dd></dl>
+<p>To give your time, money, or effort entirely to one thing.</p>
+<ol><li>They <em>devote</em> every Sunday to family.</li><li>He <em>devoted</em> thirty years to that school.</li><li>She is <em>devoting</em> her savings to the trip.</li></ol>
+<hr>
+<h3 id="dedicate">dedicate<a class="hash" href="#dedicate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛdɪkeɪt/ &middot; <em>DED-i-kayt</em></dd><dt>Русский</dt><dd>посвящать, посвятить</dd><dt>Forms</dt><dd><em>dedicate</em> &middot; <em>dedicated</em> &middot; <em>dedicated</em></dd><dt>Third person</dt><dd><em>dedicates</em> &middot; <strong>-ing form:</strong> <em>dedicating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To set something aside for one purpose, or to name a work in someone's honor.</p>
+<ol><li>They <em>dedicate</em> one small room to storage.</li><li>The author <em>dedicated</em> the book to her mother.</li><li>A bench has been <em>dedicated</em> to him in the park.</li></ol>
+<hr>
+<h3 id="entrust">entrust<a class="hash" href="#entrust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtrʌst/ &middot; <em>in-TRUST</em></dd><dt>Русский</dt><dd>доверять, вверять, доверить</dd><dt>Forms</dt><dd><em>entrust</em> &middot; <em>entrusted</em> &middot; <em>entrusted</em></dd><dt>Third person</dt><dd><em>entrusts</em> &middot; <strong>-ing form:</strong> <em>entrusting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Two patterns: <em>entrust</em> someone <strong>with</strong> something, or <em>entrust</em> something <strong>to</strong> someone.</dd></dl>
+<p>To give something or someone into another person's care, trusting them with it.</p>
+<ol><li>I would <em>entrust</em> him with anything.</li><li>She <em>entrusted</em> the money to her sister.</li><li>The files were <em>entrusted</em> to a lawyer downtown.</li></ol>
+<hr>
+<h3 id="confer">confer<a class="hash" href="#confer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈfɜːr/ &middot; <em>kuhn-FUR</em></dd><dt>Русский</dt><dd>присваивать, присвоить, даровать</dd><dt>Forms</dt><dd><em>confer</em> &middot; <em>conferred</em> &middot; <em>conferred</em></dd><dt>Third person</dt><dd><em>confers</em> &middot; <strong>-ing form:</strong> <em>conferring</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>confer a degree</em>), intransitive (<em>confer with a colleague</em>)</dd><dt>Contrast</dt><dd>Stress on the last syllable doubles the <em>r</em>: <em>conferred</em>, <em>conferring</em>.</dd></dl>
+<p>To grant someone an honor, a title, or a right formally.</p>
+<ol><li>The university <em>confers</em> degrees in May.</li><li>The title was <em>conferred</em> on him in 1998.</li><li>The judges are <em>conferring</em> before they announce a winner.</li></ol>
+<hr>
+<h3 id="gift">gift<a class="hash" href="#gift" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɪft/ &middot; <em>GIFT</em></dd><dt>Русский</dt><dd>дарить, подарить</dd><dt>Forms</dt><dd><em>gift</em> &middot; <em>gifted</em> &middot; <em>gifted</em></dd><dt>Third person</dt><dd><em>gifts</em> &middot; <strong>-ing form:</strong> <em>gifting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give something to someone as a present, with no payment expected.</p>
+<ol><li>Her parents <em>gift</em> the kids books every birthday.</li><li>A neighbor <em>gifted</em> us a set of kitchen chairs.</li><li>The land was <em>gifted</em> to the town in 1970.</li></ol>
+<hr>
+<h3 id="treat">treat<a class="hash" href="#treat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/triːt/ &middot; <em>TREET</em></dd><dt>Русский</dt><dd>угощать, угостить</dd><dt>Forms</dt><dd><em>treat</em> &middot; <em>treated</em> &middot; <em>treated</em></dd><dt>Third person</dt><dd><em>treats</em> &middot; <strong>-ing form:</strong> <em>treating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Treat</em> someone <strong>to</strong> something: <em>treated us to coffee</em>.</dd></dl>
+<p>To pay for something enjoyable for someone else as a gift.</p>
+<ol><li>Let me <em>treat</em> you to lunch.</li><li>Her uncle <em>treated</em> everyone to ice cream.</li><li>He is <em>treating</em> the whole team to dinner tonight.</li></ol>
+<hr>
+<h3 id="tip">tip<a class="hash" href="#tip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪp/ &middot; <em>TIP</em></dd><dt>Русский</dt><dd>давать чаевые, дать на чай</dd><dt>Forms</dt><dd><em>tip</em> &middot; <em>tipped</em> &middot; <em>tipped</em></dd><dt>Third person</dt><dd><em>tips</em> &middot; <strong>-ing form:</strong> <em>tipping</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>tip the driver</em>), intransitive (<em>Americans tip well</em>)</dd><dt>Contrast</dt><dd>Short vowel plus one consonant doubles it: <em>tipped</em>, <em>tipping</em>.</dd></dl>
+<p>To give a server, driver, or other worker extra money for their service.</p>
+<ol><li>Americans usually <em>tip</em> about twenty percent.</li><li>We <em>tipped</em> the driver ten dollars.</li><li>She is <em>tipping</em> in cash tonight.</li></ol>
+<hr>
+<h3 id="reward">reward<a class="hash" href="#reward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈwɔːrd/ &middot; <em>ri-WAWRD</em></dd><dt>Русский</dt><dd>вознаграждать, вознаградить</dd><dt>Forms</dt><dd><em>reward</em> &middot; <em>rewarded</em> &middot; <em>rewarded</em></dd><dt>Third person</dt><dd><em>rewards</em> &middot; <strong>-ing form:</strong> <em>rewarding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give someone something in return for good work or good behavior.</p>
+<ol><li>Good schools <em>reward</em> effort, not just talent.</li><li>The company <em>rewarded</em> her with a bonus.</li><li>Honest work is rarely <em>rewarded</em> that quickly.</li></ol>
+<hr>
+<h3 id="compensate">compensate<a class="hash" href="#compensate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmpənseɪt/ &middot; <em>KAHM-puhn-sayt</em></dd><dt>Русский</dt><dd>возмещать, компенсировать, возместить</dd><dt>Forms</dt><dd><em>compensate</em> &middot; <em>compensated</em> &middot; <em>compensated</em></dd><dt>Third person</dt><dd><em>compensates</em> &middot; <strong>-ing form:</strong> <em>compensating</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>compensate the workers</em>), intransitive (<em>compensate for a loss</em>)</dd></dl>
+<p>To pay someone money to make up for a loss, injury, or inconvenience.</p>
+<ol><li>The airline will <em>compensate</em> passengers for the delay.</li><li>They <em>compensated</em> him for the damage to his fence.</li><li>Nothing is <em>compensating</em> us for the lost weekend.</li></ol>
+<hr>
+<h3 id="reimburse">reimburse<a class="hash" href="#reimburse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːɪmˈbɜːrs/ &middot; <em>ree-im-BURS</em></dd><dt>Русский</dt><dd>возмещать расходы, компенсировать, возместить</dd><dt>Forms</dt><dd><em>reimburse</em> &middot; <em>reimbursed</em> &middot; <em>reimbursed</em></dd><dt>Third person</dt><dd><em>reimburses</em> &middot; <strong>-ing form:</strong> <em>reimbursing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To pay someone back money they have already spent.</p>
+<ol><li>The company <em>reimburses</em> travel costs within reason.</li><li>They <em>reimbursed</em> me two weeks after I sent the receipts.</li><li>Her tuition is being <em>reimbursed</em> by her employer.</li></ol>
+<hr>
+<h3 id="refund">refund<a class="hash" href="#refund" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfʌnd/ &middot; <em>ri-FUND</em></dd><dt>Русский</dt><dd>возвращать деньги, вернуть, возместить</dd><dt>Forms</dt><dd><em>refund</em> &middot; <em>refunded</em> &middot; <em>refunded</em></dd><dt>Third person</dt><dd><em>refunds</em> &middot; <strong>-ing form:</strong> <em>refunding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is ri-FUND /rɪˈfʌnd/; the noun <em>a refund</em> is REE-fund /ˈriːfʌnd/.</dd></dl>
+<p>To give a customer back the money they paid.</p>
+<ol><li>They <em>refund</em> the deposit at checkout.</li><li>The store <em>refunded</em> the full price without asking questions.</li><li>My ticket has not been <em>refunded</em> yet.</li></ol>
+<hr>
+<h3 id="convey">convey<a class="hash" href="#convey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈveɪ/ &middot; <em>kuhn-VAY</em></dd><dt>Русский</dt><dd>передавать, передать</dd><dt>Forms</dt><dd><em>convey</em> &middot; <em>conveyed</em> &middot; <em>conveyed</em></dd><dt>Third person</dt><dd><em>conveys</em> &middot; <strong>-ing form:</strong> <em>conveying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>A vowel before the <em>y</em> keeps it: <em>conveys</em>, <em>conveyed</em> — not <em>convies</em>, <em>convied</em>.</dd></dl>
+<p>To pass something on to someone, especially a message, a feeling, or property.</p>
+<ol><li>Please <em>convey</em> my thanks to your parents.</li><li>The letter <em>conveyed</em> the news as gently as possible.</li><li>Nothing in his voice was <em>conveying</em> anger.</li></ol>
+<hr>
+<h3 id="fetch">fetch<a class="hash" href="#fetch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɛtʃ/ &middot; <em>FECH</em></dd><dt>Русский</dt><dd>приносить, принести, сходить за</dd><dt>Forms</dt><dd><em>fetch</em> &middot; <em>fetched</em> &middot; <em>fetched</em></dd><dt>Third person</dt><dd><em>fetches</em> &middot; <strong>-ing form:</strong> <em>fetching</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To go somewhere, pick something up, and bring it back.</p>
+<ol><li>Would you <em>fetch</em> a chair from the kitchen?</li><li>The dog <em>fetched</em> the stick every single time.</li><li>She is <em>fetching</em> water from the pump out back.</li></ol>
+<hr>
+<h3 id="exchange">exchange<a class="hash" href="#exchange" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪksˈtʃeɪndʒ/ &middot; <em>iks-CHAYNJ</em></dd><dt>Русский</dt><dd>обменивать, обмениваться, обменять</dd><dt>Forms</dt><dd><em>exchange</em> &middot; <em>exchanged</em> &middot; <em>exchanged</em></dd><dt>Third person</dt><dd><em>exchanges</em> &middot; <strong>-ing form:</strong> <em>exchanging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Exchange</em> one thing <strong>for</strong> another: <em>exchanged the shirt for a jacket</em>.</dd></dl>
+<p>To give one thing and receive another in its place.</p>
+<ol><li>You can <em>exchange</em> it for a larger size.</li><li>They <em>exchanged</em> phone numbers at the party.</li><li>We have been <em>exchanging</em> letters for almost ten years.</li></ol>
+<hr>
+<h3 id="swap">swap<a class="hash" href="#swap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɑːp/ &middot; <em>SWAHP</em></dd><dt>Русский</dt><dd>менять, обмениваться, поменяться</dd><dt>Forms</dt><dd><em>swap</em> &middot; <em>swapped</em> &middot; <em>swapped</em></dd><dt>Third person</dt><dd><em>swaps</em> &middot; <strong>-ing form:</strong> <em>swapping</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Short vowel plus one consonant doubles it: <em>swapped</em>, <em>swapping</em>.</dd></dl>
+<p>To trade one thing for another, usually informally.</p>
+<ol><li>Let's <em>swap</em> seats — I can't see the board.</li><li>They <em>swapped</em> shifts without telling the manager.</li><li>The kids are <em>swapping</em> stickers again.</li></ol>
+<hr>
+<h3 id="trade">trade<a class="hash" href="#trade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/treɪd/ &middot; <em>TRAYD</em></dd><dt>Русский</dt><dd>обменивать, менять, торговать</dd><dt>Forms</dt><dd><em>trade</em> &middot; <em>traded</em> &middot; <em>traded</em></dd><dt>Third person</dt><dd><em>trades</em> &middot; <strong>-ing form:</strong> <em>trading</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>trade cards</em>), intransitive (<em>the store trades in antiques</em>)</dd></dl>
+<p>To give something to someone and get something of theirs in return.</p>
+<ol><li>I'll <em>trade</em> you my sandwich for your apple.</li><li>He <em>traded</em> his bike for an old guitar.</li><li>They are <em>trading</em> baseball cards at recess.</li></ol>
+<hr>
+<h3 id="deposit">deposit<a class="hash" href="#deposit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈpɑːzɪt/ &middot; <em>di-PAH-zit</em></dd><dt>Русский</dt><dd>вносить, класть на счёт, внести</dd><dt>Forms</dt><dd><em>deposit</em> &middot; <em>deposited</em> &middot; <em>deposited</em></dd><dt>Third person</dt><dd><em>deposits</em> &middot; <strong>-ing form:</strong> <em>depositing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Stress is on the middle syllable, so nothing doubles: <em>deposited</em>, <em>depositing</em>.</dd></dl>
+<p>To put money into a bank account, or to place something somewhere for safekeeping.</p>
+<ol><li>I <em>deposit</em> my paycheck every other Friday.</li><li>She <em>deposited</em> the check from her phone.</li><li>The refund has already been <em>deposited</em>.</li></ol>
+<hr>
+<h3 id="forward">forward<a class="hash" href="#forward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrwərd/ &middot; <em>FAWR-wurd</em></dd><dt>Русский</dt><dd>пересылать, переслать</dd><dt>Forms</dt><dd><em>forward</em> &middot; <em>forwarded</em> &middot; <em>forwarded</em></dd><dt>Third person</dt><dd><em>forwards</em> &middot; <strong>-ing form:</strong> <em>forwarding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To send on a letter, message, or email to someone else.</p>
+<ol><li>Please <em>forward</em> the email to my manager.</li><li>He <em>forwarded</em> the message to the whole team by mistake.</li><li>Her mail is being <em>forwarded</em> to the new address.</li></ol>
+<hr>
+<h3 id="post">post<a class="hash" href="#post" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/poʊst/ &middot; <em>POHST</em></dd><dt>Русский</dt><dd>публиковать, размещать, выложить</dd><dt>Forms</dt><dd><em>post</em> &middot; <em>posted</em> &middot; <em>posted</em></dd><dt>Third person</dt><dd><em>posts</em> &middot; <strong>-ing form:</strong> <em>posting</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>post a photo</em>), intransitive (<em>he posts every day</em>)</dd></dl>
+<p>To put a notice, message, or picture where others can see it, especially online.</p>
+<ol><li>They <em>post</em> the schedule every Sunday night.</li><li>She <em>posted</em> the photos about an hour ago.</li><li>He has been <em>posting</em> about the sale all week.</li></ol>
+<hr>
+<h3 id="divide">divide<a class="hash" href="#divide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈvaɪd/ &middot; <em>di-VYD</em></dd><dt>Русский</dt><dd>делить, разделить, распределять</dd><dt>Forms</dt><dd><em>divide</em> &middot; <em>divided</em> &middot; <em>divided</em></dd><dt>Third person</dt><dd><em>divides</em> &middot; <strong>-ing form:</strong> <em>dividing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>divide the cake</em>), intransitive (<em>the road divides here</em>)</dd><dt>Contrast</dt><dd><em>Divide</em> something <strong>between</strong> two people, <strong>among</strong> three or more.</dd></dl>
+<p>To separate something into parts and give each part to someone.</p>
+<ol><li>We always <em>divide</em> the check evenly.</li><li>She <em>divided</em> the cake into eight pieces.</li><li>The money is being <em>divided</em> among the four cousins.</li></ol>
+<hr>
+<h3 id="ration">ration<a class="hash" href="#ration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræʃən/ &middot; <em>RASH-uhn</em></dd><dt>Русский</dt><dd>нормировать, выдавать по норме, экономить</dd><dt>Forms</dt><dd><em>ration</em> &middot; <em>rationed</em> &middot; <em>rationed</em></dd><dt>Third person</dt><dd><em>rations</em> &middot; <strong>-ing form:</strong> <em>rationing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>n</em> never doubles: <em>rationed</em>, <em>rationing</em>.</dd></dl>
+<p>To give out something scarce in small fixed amounts.</p>
+<ol><li>We <em>ration</em> the water on long hikes.</li><li>The government <em>rationed</em> sugar during the war.</li><li>They are <em>rationing</em> the last of the fuel.</li></ol>
+<hr>
+<h3 id="guarantee">guarantee<a class="hash" href="#guarantee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɡɛrənˈtiː/ &middot; <em>gair-uhn-TEE</em></dd><dt>Русский</dt><dd>гарантировать, ручаться, поручиться</dd><dt>Forms</dt><dd><em>guarantee</em> &middot; <em>guaranteed</em> &middot; <em>guaranteed</em></dd><dt>Third person</dt><dd><em>guarantees</em> &middot; <strong>-ing form:</strong> <em>guaranteeing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Silent <em>u</em> after the <em>g</em>, and the <em>-ee</em> just takes a <em>d</em>: <em>guaranteed</em>, but <em>guaranteeing</em> keeps all three <em>e</em>s.</dd></dl>
+<p>To promise that something will happen or that a product will work.</p>
+<ol><li>We <em>guarantee</em> delivery in two business days.</li><li>The shop <em>guaranteed</em> the repair for a full year.</li><li>Nothing is <em>guaranteed</em> in this business.</li></ol>
+<hr>
+<h3 id="volunteer">volunteer<a class="hash" href="#volunteer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvɑːlənˈtɪr/ &middot; <em>vah-luhn-TEER</em></dd><dt>Русский</dt><dd>вызваться, предлагать помощь, работать добровольцем</dd><dt>Forms</dt><dd><em>volunteer</em> &middot; <em>volunteered</em> &middot; <em>volunteered</em></dd><dt>Third person</dt><dd><em>volunteers</em> &middot; <strong>-ing form:</strong> <em>volunteering</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>volunteer your time</em>), intransitive (<em>she volunteers at the shelter</em>)</dd></dl>
+<p>To offer your time or help freely, without being asked or paid.</p>
+<ol><li>Several parents <em>volunteer</em> at the book fair.</li><li>He <em>volunteered</em> to drive everyone home.</li><li>She has been <em>volunteering</em> at the animal shelter since June.</li></ol>
+<hr>
+<h3 id="credit">credit<a class="hash" href="#credit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɛdɪt/ &middot; <em>KRED-it</em></dd><dt>Русский</dt><dd>зачислять, зачислить, приписывать</dd><dt>Forms</dt><dd><em>credit</em> &middot; <em>credited</em> &middot; <em>credited</em></dd><dt>Third person</dt><dd><em>credits</em> &middot; <strong>-ing form:</strong> <em>crediting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Stress is on the first syllable, so the <em>t</em> never doubles: <em>credited</em>, <em>crediting</em>.</dd></dl>
+<p>To add money to someone's account.</p>
+<ol><li>They <em>credit</em> the refund to your card automatically.</li><li>The store <em>credited</em> my account the next day.</li><li>Twenty dollars has been <em>credited</em> to your balance.</li></ol>
+<hr>
+<h3 id="finance">finance<a class="hash" href="#finance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪnæns/ &middot; <em>FY-nans</em></dd><dt>Русский</dt><dd>финансировать, профинансировать</dd><dt>Forms</dt><dd><em>finance</em> &middot; <em>financed</em> &middot; <em>financed</em></dd><dt>Third person</dt><dd><em>finances</em> &middot; <strong>-ing form:</strong> <em>financing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To supply the money for something large, often as a loan.</p>
+<ol><li>Banks <em>finance</em> most projects of this size.</li><li>They <em>financed</em> the car over five years.</li><li>The building is being <em>financed</em> by the state.</li></ol>
+<hr>
+<h3 id="sponsor">sponsor<a class="hash" href="#sponsor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɑːnsər/ &middot; <em>SPAHN-sur</em></dd><dt>Русский</dt><dd>спонсировать, финансировать, поддерживать</dd><dt>Forms</dt><dd><em>sponsor</em> &middot; <em>sponsored</em> &middot; <em>sponsored</em></dd><dt>Third person</dt><dd><em>sponsors</em> &middot; <strong>-ing form:</strong> <em>sponsoring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To pay for an event, a team, or a person, usually in return for publicity.</p>
+<ol><li>Local businesses <em>sponsor</em> the team every season.</li><li>A bank <em>sponsored</em> the concert last summer.</li><li>They are <em>sponsoring</em> three students this year.</li></ol>
+<hr>
+<h3 id="allow">allow<a class="hash" href="#allow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlaʊ/ &middot; <em>uh-LAU</em></dd><dt>Русский</dt><dd>позволять, разрешать, разрешить</dd><dt>Forms</dt><dd><em>allow</em> &middot; <em>allowed</em> &middot; <em>allowed</em></dd><dt>Third person</dt><dd><em>allows</em> &middot; <strong>-ing form:</strong> <em>allowing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Allowed</em> sounds exactly like <em>aloud</em>: <em>they allowed him to speak</em>, but <em>read it aloud</em>.</dd></dl>
+<p>To let someone have or do something.</p>
+<ol><li>They <em>allow</em> dogs on the patio.</li><li>The teacher <em>allowed</em> us an extra day.</li><li>Photography is not <em>allowed</em> inside the museum.</li></ol>
+<hr>
+<h3 id="release">release<a class="hash" href="#release" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈliːs/ &middot; <em>ri-LEESS</em></dd><dt>Русский</dt><dd>выпускать, освобождать, выпустить</dd><dt>Forms</dt><dd><em>release</em> &middot; <em>released</em> &middot; <em>released</em></dd><dt>Third person</dt><dd><em>releases</em> &middot; <strong>-ing form:</strong> <em>releasing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Written <em>-ase</em> but pronounced <em>-eess</em> /iːs/, not <em>-eez</em>.</dd></dl>
+<p>To let something or someone go, or to make something available to the public.</p>
+<ol><li>They <em>release</em> the results on Friday.</li><li>The hospital <em>released</em> him after two days.</li><li>The album is being <em>released</em> in March.</li></ol>
+<hr>
+<h3 id="waive">waive<a class="hash" href="#waive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪv/ &middot; <em>WAYV</em></dd><dt>Русский</dt><dd>отказываться от, не взимать, отменить</dd><dt>Forms</dt><dd><em>waive</em> &middot; <em>waived</em> &middot; <em>waived</em></dd><dt>Third person</dt><dd><em>waives</em> &middot; <strong>-ing form:</strong> <em>waiving</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Sounds exactly like <em>wave</em>, but the spellings split: you <em>waive a fee</em> and <em>wave your hand</em>.</dd></dl>
+<p>To choose not to demand a fee, a rule, or a right you are entitled to.</p>
+<ol><li>They will <em>waive</em> the application fee for students.</li><li>The bank <em>waived</em> the charge after I called.</li><li>Late fees are being <em>waived</em> this month.</li></ol>
+<hr>
+<h3 id="forfeit">forfeit<a class="hash" href="#forfeit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrfɪt/ &middot; <em>FAWR-fit</em></dd><dt>Русский</dt><dd>лишаться, терять право, утратить</dd><dt>Forms</dt><dd><em>forfeit</em> &middot; <em>forfeited</em> &middot; <em>forfeited</em></dd><dt>Third person</dt><dd><em>forfeits</em> &middot; <strong>-ing form:</strong> <em>forfeiting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>ei</em> is only /ɪ/: FAWR-fit, not "for-FEET".</dd></dl>
+<p>To lose or give up something as a penalty for breaking a rule or agreement.</p>
+<ol><li>You <em>forfeit</em> the deposit if you cancel late.</li><li>They <em>forfeited</em> the game when only four players showed up.</li><li>He has <em>forfeited</em> his right to appeal.</li></ol>
+<hr>
+<h3 id="receive">receive<a class="hash" href="#receive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsiːv/ &middot; <em>ri-SEEV</em></dd><dt>Русский</dt><dd>получать, получить</dd><dt>Forms</dt><dd><em>receive</em> &middot; <em>received</em> &middot; <em>received</em></dd><dt>Third person</dt><dd><em>receives</em> &middot; <strong>-ing form:</strong> <em>receiving</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>i</em> before <em>e</em> except after <em>c</em>: rec<strong>ei</strong>ve, not <em>recieve</em>.</dd></dl>
+<p>To get something that is sent or given to you.</p>
+<ol><li>We <em>receive</em> about fifty applications a week.</li><li>She <em>received</em> the package yesterday.</li><li>He has <em>received</em> no answer at all.</li></ol>
+<hr>
+<h3 id="obtain">obtain<a class="hash" href="#obtain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əbˈteɪn/ &middot; <em>uhb-TAYN</em></dd><dt>Русский</dt><dd>получать, добывать, получить</dd><dt>Forms</dt><dd><em>obtain</em> &middot; <em>obtained</em> &middot; <em>obtained</em></dd><dt>Third person</dt><dd><em>obtains</em> &middot; <strong>-ing form:</strong> <em>obtaining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To get something, especially by effort or through an official process.</p>
+<ol><li>You <em>obtain</em> the form at the front desk.</li><li>They <em>obtained</em> a copy of the contract.</li><li>The permit was <em>obtained</em> in a single afternoon.</li></ol>
+<hr>
+<h3 id="gain">gain<a class="hash" href="#gain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡeɪn/ &middot; <em>GAYN</em></dd><dt>Русский</dt><dd>получать, приобретать, набирать</dd><dt>Forms</dt><dd><em>gain</em> &middot; <em>gained</em> &middot; <em>gained</em></dd><dt>Third person</dt><dd><em>gains</em> &middot; <strong>-ing form:</strong> <em>gaining</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>gain access</em>), intransitive (<em>the stock gained today</em>)</dd></dl>
+<p>To get something useful, or to increase in amount.</p>
+<ol><li>Members <em>gain</em> access to the entire library.</li><li>He <em>gained</em> fifteen pounds over the winter.</li><li>She is <em>gaining</em> confidence every week.</li></ol>
+<hr>
+<h3 id="attain">attain<a class="hash" href="#attain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈteɪn/ &middot; <em>uh-TAYN</em></dd><dt>Русский</dt><dd>достигать, добиваться, достичь</dd><dt>Forms</dt><dd><em>attain</em> &middot; <em>attained</em> &middot; <em>attained</em></dd><dt>Third person</dt><dd><em>attains</em> &middot; <strong>-ing form:</strong> <em>attaining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To reach or achieve something you have worked toward.</p>
+<ol><li>Few runners ever <em>attain</em> that kind of speed.</li><li>She <em>attained</em> the rank of captain at thirty.</li><li>The goal has not been <em>attained</em> yet.</li></ol>
+<hr>
+<h3 id="collect">collect<a class="hash" href="#collect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈlɛkt/ &middot; <em>kuh-LEKT</em></dd><dt>Русский</dt><dd>собирать, собрать, коллекционировать</dd><dt>Forms</dt><dd><em>collect</em> &middot; <em>collected</em> &middot; <em>collected</em></dd><dt>Third person</dt><dd><em>collects</em> &middot; <strong>-ing form:</strong> <em>collecting</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>collect the fares</em>), intransitive (<em>water collects in the basement</em>)</dd></dl>
+<p>To gather things together, or to obtain money that is owed.</p>
+<ol><li>He <em>collects</em> old road maps.</li><li>The driver <em>collected</em> the fares at the door.</li><li>They are <em>collecting</em> donations in the lobby.</li></ol>
+<hr>
+<h3 id="gather">gather<a class="hash" href="#gather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæðər/ &middot; <em>GATH-ur</em></dd><dt>Русский</dt><dd>собирать, собираться, собрать</dd><dt>Forms</dt><dd><em>gather</em> &middot; <em>gathered</em> &middot; <em>gathered</em></dd><dt>Third person</dt><dd><em>gathers</em> &middot; <strong>-ing form:</strong> <em>gathering</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>gather the papers</em>), intransitive (<em>a crowd gathered</em>)</dd></dl>
+<p>To bring things or people together into one place.</p>
+<ol><li>Squirrels <em>gather</em> nuts all through the fall.</li><li>A crowd <em>gathered</em> outside the courthouse.</li><li>We are <em>gathering</em> signatures for the petition.</li></ol>
+<hr>
+<h3 id="amass">amass<a class="hash" href="#amass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmæs/ &middot; <em>uh-MAS</em></dd><dt>Русский</dt><dd>накапливать, копить, накопить</dd><dt>Forms</dt><dd><em>amass</em> &middot; <em>amassed</em> &middot; <em>amassed</em></dd><dt>Third person</dt><dd><em>amasses</em> &middot; <strong>-ing form:</strong> <em>amassing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To collect a very large amount of something over time.</p>
+<ol><li>Few people <em>amass</em> that kind of wealth honestly.</li><li>He <em>amassed</em> a collection of ten thousand records.</li><li>They have <em>amassed</em> enough evidence to file charges.</li></ol>
+<hr>
+<h3 id="accumulate">accumulate<a class="hash" href="#accumulate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkjuːmjəleɪt/ &middot; <em>uh-KYOO-myuh-layt</em></dd><dt>Русский</dt><dd>накапливать, скапливаться, накопить</dd><dt>Forms</dt><dd><em>accumulate</em> &middot; <em>accumulated</em> &middot; <em>accumulated</em></dd><dt>Third person</dt><dd><em>accumulates</em> &middot; <strong>-ing form:</strong> <em>accumulating</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>accumulate debt</em>), intransitive (<em>dust accumulates</em>)</dd><dt>Contrast</dt><dd>Double <em>c</em>, single <em>m</em>: a<strong>cc</strong>umulate.</dd></dl>
+<p>To gather up more and more of something over a period of time.</p>
+<ol><li>Dust <em>accumulates</em> fast in this room.</li><li>She <em>accumulated</em> six weeks of unused vacation.</li><li>Snow has been <em>accumulating</em> since midnight.</li></ol>
+<hr>
+<h3 id="hoard">hoard<a class="hash" href="#hoard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɔːrd/ &middot; <em>HAWRD</em></dd><dt>Русский</dt><dd>копить, запасать, накапливать</dd><dt>Forms</dt><dd><em>hoard</em> &middot; <em>hoarded</em> &middot; <em>hoarded</em></dd><dt>Third person</dt><dd><em>hoards</em> &middot; <strong>-ing form:</strong> <em>hoarding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Sounds like <em>horde</em> (<em>a horde of tourists</em>), but <em>hoard</em> is the verb for storing things away.</dd></dl>
+<p>To collect and hide away a large supply of something, often more than you need.</p>
+<ol><li>Some shoppers <em>hoard</em> bottled water before a storm.</li><li>He <em>hoarded</em> newspapers for forty years.</li><li>People were <em>hoarding</em> canned food that spring.</li></ol>
+<hr>
+<h3 id="reserve">reserve<a class="hash" href="#reserve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈzɜːrv/ &middot; <em>ri-ZURV</em></dd><dt>Русский</dt><dd>резервировать, бронировать, забронировать</dd><dt>Forms</dt><dd><em>reserve</em> &middot; <em>reserved</em> &middot; <em>reserved</em></dd><dt>Third person</dt><dd><em>reserves</em> &middot; <strong>-ing form:</strong> <em>reserving</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To arrange for something to be kept for you to use later.</p>
+<ol><li>They <em>reserve</em> the front row for family.</li><li>I <em>reserved</em> a table for seven o'clock.</li><li>That whole section is <em>reserved</em>.</li></ol>
+<hr>
+<h3 id="inherit">inherit<a class="hash" href="#inherit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈhɛrɪt/ &middot; <em>in-HER-it</em></dd><dt>Русский</dt><dd>наследовать, унаследовать</dd><dt>Forms</dt><dd><em>inherit</em> &middot; <em>inherited</em> &middot; <em>inherited</em></dd><dt>Third person</dt><dd><em>inherits</em> &middot; <strong>-ing form:</strong> <em>inheriting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Stress is in the middle, so nothing doubles: <em>inherited</em>, <em>inheriting</em>.</dd></dl>
+<p>To receive money, property, or traits from someone who has died or come before you.</p>
+<ol><li>The children <em>inherit</em> everything equally.</li><li>She <em>inherited</em> the farm from her grandfather.</li><li>He has <em>inherited</em> his father's temper.</li></ol>
+<hr>
+<h3 id="harvest">harvest<a class="hash" href="#harvest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrvɪst/ &middot; <em>HAHR-vist</em></dd><dt>Русский</dt><dd>собирать урожай, убирать, собрать</dd><dt>Forms</dt><dd><em>harvest</em> &middot; <em>harvested</em> &middot; <em>harvested</em></dd><dt>Third person</dt><dd><em>harvests</em> &middot; <strong>-ing form:</strong> <em>harvesting</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>harvest the corn</em>), intransitive (<em>they harvest in October</em>)</dd></dl>
+<p>To gather a crop when it is ripe.</p>
+<ol><li>They <em>harvest</em> the corn in late September.</li><li>We <em>harvested</em> four bushels of apples in one afternoon.</li><li>The wheat is being <em>harvested</em> right now.</li></ol>
+<hr>
+<h3 id="reap">reap<a class="hash" href="#reap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːp/ &middot; <em>REEP</em></dd><dt>Русский</dt><dd>пожинать, получать, пожать</dd><dt>Forms</dt><dd><em>reap</em> &middot; <em>reaped</em> &middot; <em>reaped</em></dd><dt>Third person</dt><dd><em>reaps</em> &middot; <strong>-ing form:</strong> <em>reaping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To receive the results of something you did earlier, good or bad.</p>
+<ol><li>Investors <em>reap</em> the profits, not the workers.</li><li>She <em>reaped</em> the benefits of all those early mornings.</li><li>They are still <em>reaping</em> rewards from that one decision.</li></ol>
+<hr>
+<h3 id="seize">seize<a class="hash" href="#seize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/siːz/ &middot; <em>SEEZ</em></dd><dt>Русский</dt><dd>захватывать, конфисковать, схватить</dd><dt>Forms</dt><dd><em>seize</em> &middot; <em>seized</em> &middot; <em>seized</em></dd><dt>Third person</dt><dd><em>seizes</em> &middot; <strong>-ing form:</strong> <em>seizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>An exception to "i before e": s<strong>ei</strong>ze, not <em>sieze</em>.</dd></dl>
+<p>To take something quickly and by force, or to take it by legal authority.</p>
+<ol><li>Customs officers sometimes <em>seize</em> packages like this.</li><li>Police <em>seized</em> the car as evidence.</li><li>The property is being <em>seized</em> by the bank.</li></ol>
+<hr>
+<h3 id="capture">capture<a class="hash" href="#capture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæptʃər/ &middot; <em>KAP-chur</em></dd><dt>Русский</dt><dd>захватывать, поймать, запечатлеть</dd><dt>Forms</dt><dd><em>capture</em> &middot; <em>captured</em> &middot; <em>captured</em></dd><dt>Third person</dt><dd><em>captures</em> &middot; <strong>-ing form:</strong> <em>capturing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To catch and hold a person, an animal, or a moment.</p>
+<ol><li>These traps <em>capture</em> the mice alive.</li><li>The photo <em>captured</em> the whole street at sunrise.</li><li>Two of them were <em>captured</em> near the border.</li></ol>
+<hr>
+<h3 id="grab">grab<a class="hash" href="#grab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡræb/ &middot; <em>GRAB</em></dd><dt>Русский</dt><dd>хватать, схватить</dd><dt>Forms</dt><dd><em>grab</em> &middot; <em>grabbed</em> &middot; <em>grabbed</em></dd><dt>Third person</dt><dd><em>grabs</em> &middot; <strong>-ing form:</strong> <em>grabbing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Short vowel plus one consonant doubles it: <em>grabbed</em>, <em>grabbing</em>.</dd></dl>
+<p>To take hold of something quickly and roughly.</p>
+<ol><li><em>Grab</em> a coat — it's colder than it looks.</li><li>He <em>grabbed</em> my arm before I slipped.</li><li>She is <em>grabbing</em> coffee on the way in.</li></ol>
+<hr>
+<h3 id="snatch">snatch<a class="hash" href="#snatch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snætʃ/ &middot; <em>SNACH</em></dd><dt>Русский</dt><dd>выхватывать, вырывать, выхватить</dd><dt>Forms</dt><dd><em>snatch</em> &middot; <em>snatched</em> &middot; <em>snatched</em></dd><dt>Third person</dt><dd><em>snatches</em> &middot; <strong>-ing form:</strong> <em>snatching</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To take something suddenly and rudely out of someone's hands.</p>
+<ol><li>Gulls will <em>snatch</em> food right out of your hand.</li><li>Someone <em>snatched</em> her purse on the platform.</li><li>The dog is <em>snatching</em> bread off the counter again.</li></ol>
+<hr>
+<h3 id="confiscate">confiscate<a class="hash" href="#confiscate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnfəskeɪt/ &middot; <em>KAHN-fuh-skayt</em></dd><dt>Русский</dt><dd>конфисковать, изымать, отобрать</dd><dt>Forms</dt><dd><em>confiscate</em> &middot; <em>confiscated</em> &middot; <em>confiscated</em></dd><dt>Third person</dt><dd><em>confiscates</em> &middot; <strong>-ing form:</strong> <em>confiscating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To take someone's property away officially, as a punishment or for safety.</p>
+<ol><li>Teachers here <em>confiscate</em> phones during tests.</li><li>The guard <em>confiscated</em> his lighter at the gate.</li><li>Anything sharp is <em>confiscated</em> at security.</li></ol>
+<hr>
+<h3 id="retrieve">retrieve<a class="hash" href="#retrieve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈtriːv/ &middot; <em>ri-TREEV</em></dd><dt>Русский</dt><dd>извлекать, доставать, вернуть</dd><dt>Forms</dt><dd><em>retrieve</em> &middot; <em>retrieved</em> &middot; <em>retrieved</em></dd><dt>Third person</dt><dd><em>retrieves</em> &middot; <strong>-ing form:</strong> <em>retrieving</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>ie</em>, not <em>ei</em> — retr<strong>ie</strong>ve, even though <em>receive</em> goes the other way.</dd></dl>
+<p>To get something back from the place where it was left or stored.</p>
+<ol><li>The app <em>retrieves</em> your old messages.</li><li>He <em>retrieved</em> the ball from the neighbor's roof.</li><li>She is <em>retrieving</em> her coat from the closet.</li></ol>
+<hr>
+<h3 id="recover">recover<a class="hash" href="#recover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈkʌvər/ &middot; <em>ri-KUV-ur</em></dd><dt>Русский</dt><dd>возвращать, находить, вернуть</dd><dt>Forms</dt><dd><em>recover</em> &middot; <em>recovered</em> &middot; <em>recovered</em></dd><dt>Third person</dt><dd><em>recovers</em> &middot; <strong>-ing form:</strong> <em>recovering</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>recover the bikes</em>), intransitive (<em>he recovered slowly</em>)</dd></dl>
+<p>To get back something that was lost, stolen, or spent.</p>
+<ol><li>Divers sometimes <em>recover</em> things from the bottom of the lake.</li><li>Police <em>recovered</em> the stolen bikes two blocks away.</li><li>Two of the paintings have been <em>recovered</em>.</li></ol>
+<hr>
+<h3 id="reclaim">reclaim<a class="hash" href="#reclaim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈkleɪm/ &middot; <em>ri-KLAYM</em></dd><dt>Русский</dt><dd>возвращать себе, истребовать, вернуть</dd><dt>Forms</dt><dd><em>reclaim</em> &middot; <em>reclaimed</em> &middot; <em>reclaimed</em></dd><dt>Third person</dt><dd><em>reclaims</em> &middot; <strong>-ing form:</strong> <em>reclaiming</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To get back something that was taken from you or given up.</p>
+<ol><li>You can <em>reclaim</em> the tax at the airport.</li><li>She <em>reclaimed</em> the land after a ten-year fight.</li><li>The city is <em>reclaiming</em> the old rail yard.</li></ol>
+<hr>
+<h3 id="adopt">adopt<a class="hash" href="#adopt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdɑːpt/ &middot; <em>uh-DAHPT</em></dd><dt>Русский</dt><dd>усыновлять, удочерять, брать, принять</dd><dt>Forms</dt><dd><em>adopt</em> &middot; <em>adopted</em> &middot; <em>adopted</em></dd><dt>Third person</dt><dd><em>adopts</em> &middot; <strong>-ing form:</strong> <em>adopting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Not <em>adapt</em>: you <em>adopt</em> a child, but you <em>adapt</em> to the cold. Nothing doubles: <em>adopted</em>, <em>adopting</em>.</dd></dl>
+<p>To take a child or an animal into your family permanently, or to take up an idea as your own.</p>
+<ol><li>Many families <em>adopt</em> through this agency.</li><li>They <em>adopted</em> a dog from the county shelter.</li><li>She was <em>adopted</em> as a baby.</li></ol>
+<hr>
+<h3 id="embrace">embrace<a class="hash" href="#embrace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈbreɪs/ &middot; <em>im-BRAYSS</em></dd><dt>Русский</dt><dd>обнимать, принимать, охотно принять</dd><dt>Forms</dt><dd><em>embrace</em> &middot; <em>embraced</em> &middot; <em>embraced</em></dd><dt>Third person</dt><dd><em>embraces</em> &middot; <strong>-ing form:</strong> <em>embracing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To hug someone, or to accept an idea eagerly.</p>
+<ol><li>Younger shoppers <em>embrace</em> the new payment app.</li><li>He <em>embraced</em> his brother at the gate.</li><li>The idea has been <em>embraced</em> by both parties.</li></ol>
+<hr>
+<h3 id="pocket">pocket<a class="hash" href="#pocket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːkɪt/ &middot; <em>PAH-kit</em></dd><dt>Русский</dt><dd>класть в карман, присваивать, прикарманить</dd><dt>Forms</dt><dd><em>pocket</em> &middot; <em>pocketed</em> &middot; <em>pocketed</em></dd><dt>Third person</dt><dd><em>pockets</em> &middot; <strong>-ing form:</strong> <em>pocketing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Stress is on the first syllable, so the <em>t</em> never doubles: <em>pocketed</em>, <em>pocketing</em>.</dd></dl>
+<p>To put money in your pocket, especially money you should not keep.</p>
+<ol><li>Middlemen <em>pocket</em> most of the difference.</li><li>He <em>pocketed</em> the change without counting it.</li><li>She is <em>pocketing</em> half the profit.</li></ol>
+<hr>
+<h3 id="borrow">borrow<a class="hash" href="#borrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːroʊ/ &middot; <em>BAH-roh</em></dd><dt>Русский</dt><dd>брать взаймы, одалживать, занять</dd><dt>Forms</dt><dd><em>borrow</em> &middot; <em>borrowed</em> &middot; <em>borrowed</em></dd><dt>Third person</dt><dd><em>borrows</em> &middot; <strong>-ing form:</strong> <em>borrowing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You <em>borrow</em> <strong>from</strong> someone; they <em>lend</em> <strong>to</strong> you. Russian <em>одолжить</em> covers both directions, English does not.</dd></dl>
+<p>To take something for a while and give it back later.</p>
+<ol><li>Students can <em>borrow</em> six books at a time.</li><li>I <em>borrowed</em> his car for the weekend.</li><li>She has been <em>borrowing</em> money from her sister for months.</li></ol>
+<hr>
+<h3 id="lease">lease<a class="hash" href="#lease" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːs/ &middot; <em>LEESS</em></dd><dt>Русский</dt><dd>арендовать, сдавать в аренду, взять в аренду</dd><dt>Forms</dt><dd><em>lease</em> &middot; <em>leased</em> &middot; <em>leased</em></dd><dt>Third person</dt><dd><em>leases</em> &middot; <strong>-ing form:</strong> <em>leasing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Ends in /s/, not /z/ — LEESS, rhyming with <em>piece</em>.</dd></dl>
+<p>To rent property or equipment under a long written contract.</p>
+<ol><li>Most drivers here <em>lease</em> their cars.</li><li>The company <em>leased</em> two floors downtown.</li><li>The land is being <em>leased</em> to a solar farm.</li></ol>
+<hr>
+<h3 id="loan">loan<a class="hash" href="#loan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/loʊn/ &middot; <em>LOHN</em></dd><dt>Русский</dt><dd>одалживать, давать в долг, одолжить</dd><dt>Forms</dt><dd><em>loan</em> &middot; <em>loaned</em> &middot; <em>loaned</em></dd><dt>Third person</dt><dd><em>loans</em> &middot; <strong>-ing form:</strong> <em>loaning</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Americans use <em>loan</em> as a verb where the British prefer <em>lend</em>. It sounds like <em>lone</em>.</dd></dl>
+<p>To let someone use your money or property for a while.</p>
+<ol><li>Neighbors <em>loan</em> each other tools all the time.</li><li>He <em>loaned</em> me two hundred dollars until payday.</li><li>The painting is <em>loaned</em> to the museum every fall.</li></ol>
+<hr>
+<h3 id="charge">charge<a class="hash" href="#charge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɑːrdʒ/ &middot; <em>CHAHRJ</em></dd><dt>Русский</dt><dd>брать плату, взимать, назначать цену</dd><dt>Forms</dt><dd><em>charge</em> &middot; <em>charged</em> &middot; <em>charged</em></dd><dt>Third person</dt><dd><em>charges</em> &middot; <strong>-ing form:</strong> <em>charging</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>charge a fee</em>), intransitive (<em>they charge by the hour</em>)</dd><dt>Contrast</dt><dd><em>Charge</em> someone <strong>for</strong> something, and <em>charge</em> it <strong>to</strong> a card.</dd></dl>
+<p>To ask someone for a particular amount of money for goods or a service.</p>
+<ol><li>They <em>charge</em> five dollars for parking.</li><li>The plumber <em>charged</em> us double on a Sunday.</li><li>You are being <em>charged</em> a monthly fee.</li></ol>
+<hr>
+<h3 id="owe">owe<a class="hash" href="#owe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊ/ &middot; <em>OH</em></dd><dt>Русский</dt><dd>быть должным, задолжать</dd><dt>Forms</dt><dd><em>owe</em> &middot; <em>owed</em> &middot; <em>owed</em></dd><dt>Third person</dt><dd><em>owes</em> &middot; <strong>-ing form:</strong> <em>owing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>w</em> is silent — <em>owe</em> is just /oʊ/, like <em>oh</em>. Add <em>-d</em> for <em>owed</em>, but drop the <em>e</em> for <em>owing</em>.</dd></dl>
+<p>To have to pay someone money you have not paid yet.</p>
+<ol><li>I <em>owe</em> my sister forty dollars.</li><li>He <em>owed</em> the bank more than he made in a year.</li><li>They still have not paid what is <em>owed</em>.</li></ol>
+<hr>
+<h3 id="deprive">deprive<a class="hash" href="#deprive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈpraɪv/ &middot; <em>di-PRYV</em></dd><dt>Русский</dt><dd>лишать, лишить</dd><dt>Forms</dt><dd><em>deprive</em> &middot; <em>deprived</em> &middot; <em>deprived</em></dd><dt>Third person</dt><dd><em>deprives</em> &middot; <strong>-ing form:</strong> <em>depriving</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Deprive</em> someone <strong>of</strong> something — the <em>of</em> is not optional.</dd></dl>
+<p>To take away from someone something they need or are entitled to.</p>
+<ol><li>Long shifts <em>deprive</em> nurses of sleep.</li><li>The new rule <em>deprived</em> him of a hearing.</li><li>They were <em>deprived</em> of clean water for a week.</li></ol>
+<hr>
+<h3 id="rob">rob<a class="hash" href="#rob" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɑːb/ &middot; <em>RAHB</em></dd><dt>Русский</dt><dd>грабить, ограбить, обворовать</dd><dt>Forms</dt><dd><em>rob</em> &middot; <em>robbed</em> &middot; <em>robbed</em></dd><dt>Third person</dt><dd><em>robs</em> &middot; <strong>-ing form:</strong> <em>robbing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Short vowel plus one consonant doubles it: <em>robbed</em>, <em>robbing</em>. You <em>rob</em> a person or a bank, but you <em>steal</em> a thing.</dd></dl>
+<p>To take money or property from a person or place by force or threat.</p>
+<ol><li>They <em>rob</em> the same stretch of highway every winter.</li><li>Two men <em>robbed</em> the store right at closing.</li><li>He has been <em>robbed</em> twice this year.</li></ol>
+<hr>
+<h3 id="deduct">deduct<a class="hash" href="#deduct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈdʌkt/ &middot; <em>di-DUKT</em></dd><dt>Русский</dt><dd>вычитать, удерживать, вычесть</dd><dt>Forms</dt><dd><em>deduct</em> &middot; <em>deducted</em> &middot; <em>deducted</em></dd><dt>Third person</dt><dd><em>deducts</em> &middot; <strong>-ing form:</strong> <em>deducting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To take an amount away from a total, especially from a payment.</p>
+<ol><li>They <em>deduct</em> taxes from every paycheck.</li><li>The hotel <em>deducted</em> the deposit from the bill.</li><li>Union dues are <em>deducted</em> automatically.</li></ol>
+<hr>
+<h3 id="save">save<a class="hash" href="#save" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/seɪv/ &middot; <em>SAYV</em></dd><dt>Русский</dt><dd>копить, откладывать, экономить</dd><dt>Forms</dt><dd><em>save</em> &middot; <em>saved</em> &middot; <em>saved</em></dd><dt>Third person</dt><dd><em>saves</em> &middot; <strong>-ing form:</strong> <em>saving</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>save money</em>), intransitive (<em>they save for retirement</em>)</dd></dl>
+<p>To keep money or things instead of spending or using them.</p>
+<ol><li>We <em>save</em> about three hundred dollars a month.</li><li>She <em>saved</em> for two years to buy it.</li><li>They have been <em>saving</em> every coupon in a drawer.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

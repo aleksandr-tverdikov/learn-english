@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: technology</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-technology">Core verbs: technology<a class="hash" href="#core-verbs-technology" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of technology — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="open">open<a class="hash" href="#open" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊpən/ &middot; <em>OH-puhn</em></dd><dt>Русский</dt><dd>открывать, открыть; запускать, запустить (программу)</dd><dt>Forms</dt><dd><em>open</em> &middot; <em>opened</em> &middot; <em>opened</em></dd><dt>Third person</dt><dd><em>opens</em> &middot; <strong>-ing form:</strong> <em>opening</em></dd><dt>Transitivity</dt><dd>both — transitive (open the app), intransitive (the file opens slowly)</dd><dt>Contrast</dt><dd>No doubled n: opened, opening. The stress is on the first syllable, so the consonant stays single.</dd></dl>
+<p>To make a file, app, or window appear on a screen so you can use it.</p>
+<ol><li><em>Open</em> the app and sign in with your email.</li><li>I <em>opened</em> the attachment and my laptop froze.</li><li>The file is <em>opening</em> - give it a second.</li></ol>
+<hr>
+<h3 id="close">close<a class="hash" href="#close" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kloʊz/ &middot; <em>KLOHZ</em></dd><dt>Русский</dt><dd>закрывать, закрыть</dd><dt>Forms</dt><dd><em>close</em> &middot; <em>closed</em> &middot; <em>closed</em></dd><dt>Third person</dt><dd><em>closes</em> &middot; <strong>-ing form:</strong> <em>closing</em></dd><dt>Transitivity</dt><dd>both — transitive (close the window), intransitive (the app closed by itself)</dd><dt>Contrast</dt><dd>The verb ends in a z sound (KLOHZ). The adjective close, meaning near, ends in an s sound (KLOHS).</dd></dl>
+<p>To make a file, window, or program stop being open.</p>
+<ol><li><em>Close</em> the other tabs to speed up the browser.</li><li>He <em>closed</em> the laptop without saving the file.</li><li>The app keeps <em>closing</em> on its own.</li></ol>
+<hr>
+<h3 id="minimize">minimize<a class="hash" href="#minimize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪnɪmaɪz/ &middot; <em>MIN-uh-myz</em></dd><dt>Русский</dt><dd>сворачивать, свернуть (окно); минимизировать</dd><dt>Forms</dt><dd><em>minimize</em> &middot; <em>minimized</em> &middot; <em>minimized</em></dd><dt>Third person</dt><dd><em>minimizes</em> &middot; <strong>-ing form:</strong> <em>minimizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American spelling uses -ize: minimize, minimized. British writing has minimise.</dd></dl>
+<p>To shrink a window down to the taskbar without closing it.</p>
+<ol><li><em>Minimize</em> the window instead of closing it.</li><li>She <em>minimized</em> the chat and went back to her spreadsheet.</li><li>He was <em>minimizing</em> every window one by one.</li></ol>
+<hr>
+<h3 id="maximize">maximize<a class="hash" href="#maximize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæksɪmaɪz/ &middot; <em>MAK-suh-myz</em></dd><dt>Русский</dt><dd>разворачивать, развернуть (окно на весь экран); максимизировать</dd><dt>Forms</dt><dd><em>maximize</em> &middot; <em>maximized</em> &middot; <em>maximized</em></dd><dt>Third person</dt><dd><em>maximizes</em> &middot; <strong>-ing form:</strong> <em>maximizing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a window fill the whole screen.</p>
+<ol><li><em>Maximize</em> the video before the call starts.</li><li>He <em>maximized</em> the window and the text got bigger.</li><li>I have <em>maximized</em> both windows and they still overlap.</li></ol>
+<hr>
+<h3 id="resize">resize<a class="hash" href="#resize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈsaɪz/ &middot; <em>ree-SYZ</em></dd><dt>Русский</dt><dd>изменять размер, изменить размер</dd><dt>Forms</dt><dd><em>resize</em> &middot; <em>resized</em> &middot; <em>resized</em></dd><dt>Third person</dt><dd><em>resizes</em> &middot; <strong>-ing form:</strong> <em>resizing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a picture or a window bigger or smaller.</p>
+<ol><li><em>Resize</em> the photo before you upload it.</li><li>She <em>resized</em> the logo to fit the header.</li><li>I am <em>resizing</em> the window so both files fit.</li></ol>
+<hr>
+<h3 id="reload">reload<a class="hash" href="#reload" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈloʊd/ &middot; <em>ree-LOHD</em></dd><dt>Русский</dt><dd>перезагружать, перезагрузить (страницу); загружать заново</dd><dt>Forms</dt><dd><em>reload</em> &middot; <em>reloaded</em> &middot; <em>reloaded</em></dd><dt>Third person</dt><dd><em>reloads</em> &middot; <strong>-ing form:</strong> <em>reloading</em></dd><dt>Transitivity</dt><dd>both — transitive (reload the page), intransitive (the page reloaded by itself)</dd></dl>
+<p>To load a page or a file again.</p>
+<ol><li><em>Reload</em> the page if the video will not play.</li><li>The browser <em>reloaded</em> and lost everything I had typed.</li><li>It has been <em>reloading</em> for two minutes.</li></ol>
+<hr>
+<h3 id="toggle">toggle<a class="hash" href="#toggle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːɡəl/ &middot; <em>TAH-guhl</em></dd><dt>Русский</dt><dd>переключать, переключить (между двумя состояниями)</dd><dt>Forms</dt><dd><em>toggle</em> &middot; <em>toggled</em> &middot; <em>toggled</em></dd><dt>Third person</dt><dd><em>toggles</em> &middot; <strong>-ing form:</strong> <em>toggling</em></dd><dt>Transitivity</dt><dd>both — transitive (toggle the setting), intransitive (toggle between the two views)</dd><dt>Contrast</dt><dd>Drop the -e before -ing: toggling.</dd></dl>
+<p>To switch a setting on or off, or to move back and forth between two options.</p>
+<ol><li><em>Toggle</em> dark mode in the settings menu.</li><li>He <em>toggled</em> the switch and the screen went black.</li><li>She was <em>toggling</em> between two spreadsheets all morning.</li></ol>
+<hr>
+<h3 id="compress">compress<a class="hash" href="#compress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈprɛs/ &middot; <em>kuhm-PRESS</em></dd><dt>Русский</dt><dd>сжимать, сжать (файл); архивировать</dd><dt>Forms</dt><dd><em>compress</em> &middot; <em>compressed</em> &middot; <em>compressed</em></dd><dt>Third person</dt><dd><em>compresses</em> &middot; <strong>-ing form:</strong> <em>compressing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Third person adds -es after -ss: compresses.</dd></dl>
+<p>To make a file smaller so that it takes less space or sends faster.</p>
+<ol><li><em>Compress</em> the folder before you email it.</li><li>He <em>compressed</em> the video and lost some quality.</li><li>The app is <em>compressing</em> two hundred photos.</li></ol>
+<hr>
+<h3 id="extract">extract<a class="hash" href="#extract" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstrækt/ &middot; <em>ik-STRAKT</em></dd><dt>Русский</dt><dd>извлекать, извлечь; распаковывать, распаковать</dd><dt>Forms</dt><dd><em>extract</em> &middot; <em>extracted</em> &middot; <em>extracted</em></dd><dt>Third person</dt><dd><em>extracts</em> &middot; <strong>-ing form:</strong> <em>extracting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is ik-STRAKT; the noun extract (a short passage) is EK-strakt.</dd></dl>
+<p>To pull files or data out of an archive or a larger set.</p>
+<ol><li><em>Extract</em> the folder to your desktop.</li><li>The tool <em>extracted</em> every email address from the page.</li><li>It is <em>extracting</em> three thousand files.</li></ol>
+<hr>
+<h3 id="encrypt">encrypt<a class="hash" href="#encrypt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈkrɪpt/ &middot; <em>in-KRIPT</em></dd><dt>Русский</dt><dd>шифровать, зашифровать</dd><dt>Forms</dt><dd><em>encrypt</em> &middot; <em>encrypted</em> &middot; <em>encrypted</em></dd><dt>Third person</dt><dd><em>encrypts</em> &middot; <strong>-ing form:</strong> <em>encrypting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To turn data into code so that only the right person can read it.</p>
+<ol><li><em>Encrypt</em> the folder before you put it in the cloud.</li><li>The app <em>encrypted</em> the messages end to end.</li><li>All of our backups are <em>encrypted</em>.</li></ol>
+<hr>
+<h3 id="decrypt">decrypt<a class="hash" href="#decrypt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diːˈkrɪpt/ &middot; <em>dee-KRIPT</em></dd><dt>Русский</dt><dd>расшифровывать, расшифровать; дешифровать</dd><dt>Forms</dt><dd><em>decrypt</em> &middot; <em>decrypted</em> &middot; <em>decrypted</em></dd><dt>Third person</dt><dd><em>decrypts</em> &middot; <strong>-ing form:</strong> <em>decrypting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To turn coded data back into a readable form.</p>
+<ol><li>Only the key can <em>decrypt</em> the file.</li><li>They <em>decrypted</em> the message in under an hour.</li><li>The program is <em>decrypting</em> the archive now.</li></ol>
+<hr>
+<h3 id="index">index<a class="hash" href="#index" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪndɛks/ &middot; <em>IN-deks</em></dd><dt>Русский</dt><dd>индексировать, проиндексировать</dd><dt>Forms</dt><dd><em>index</em> &middot; <em>indexed</em> &middot; <em>indexed</em></dd><dt>Third person</dt><dd><em>indexes</em> &middot; <strong>-ing form:</strong> <em>indexing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Third person adds -es after -x: indexes.</dd></dl>
+<p>To list and organize data so that it can be searched quickly.</p>
+<ol><li>Search engines <em>index</em> millions of pages a day.</li><li>Google <em>indexed</em> the new site within a week.</li><li>The database is still <em>indexing</em>.</li></ol>
+<hr>
+<h3 id="query">query<a class="hash" href="#query" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɪri/ &middot; <em>KWEER-ee</em></dd><dt>Русский</dt><dd>запрашивать, запросить; делать запрос</dd><dt>Forms</dt><dd><em>query</em> &middot; <em>queried</em> &middot; <em>queried</em></dd><dt>Third person</dt><dd><em>queries</em> &middot; <strong>-ing form:</strong> <em>querying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Consonant + y, so the y changes: queries, queried. The -ing form keeps it: querying.</dd></dl>
+<p>To ask a database or a system for particular information.</p>
+<ol><li>You can <em>query</em> the database straight from the browser.</li><li>He <em>queried</em> the server and got an empty result.</li><li>The script is <em>querying</em> three tables at once.</li></ol>
+<hr>
+<h3 id="cache">cache<a class="hash" href="#cache" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæʃ/ &middot; <em>KASH</em></dd><dt>Русский</dt><dd>кэшировать, закэшировать; сохранять в кэш</dd><dt>Forms</dt><dd><em>cache</em> &middot; <em>cached</em> &middot; <em>cached</em></dd><dt>Third person</dt><dd><em>caches</em> &middot; <strong>-ing form:</strong> <em>caching</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Cache is pronounced exactly like cash, not ka-SHAY.</dd></dl>
+<p>To store data for a short time so that it loads faster the next time.</p>
+<ol><li>Browsers <em>cache</em> images to save time.</li><li>The page was <em>cached</em>, so I saw yesterday's price.</li><li>The app is <em>caching</em> the whole playlist.</li></ol>
+<hr>
+<h3 id="embed">embed<a class="hash" href="#embed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈbɛd/ &middot; <em>im-BED</em></dd><dt>Русский</dt><dd>встраивать, встроить (видео, код)</dd><dt>Forms</dt><dd><em>embed</em> &middot; <em>embedded</em> &middot; <em>embedded</em></dd><dt>Third person</dt><dd><em>embeds</em> &middot; <strong>-ing form:</strong> <em>embedding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Double the d: embedded, embedding.</dd></dl>
+<p>To put a video, a map, or a piece of code inside a page or a document.</p>
+<ol><li>You can <em>embed</em> the video right in the post.</li><li>She <em>embedded</em> a map on the contact page.</li><li>He is <em>embedding</em> the font in the file.</li></ol>
+<hr>
+<h3 id="digitize">digitize<a class="hash" href="#digitize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪdʒɪtaɪz/ &middot; <em>DIJ-uh-tyz</em></dd><dt>Русский</dt><dd>оцифровывать, оцифровать</dd><dt>Forms</dt><dd><em>digitize</em> &middot; <em>digitized</em> &middot; <em>digitized</em></dd><dt>Third person</dt><dd><em>digitizes</em> &middot; <strong>-ing form:</strong> <em>digitizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American -ize; British writing has digitise.</dd></dl>
+<p>To turn paper documents, photos, or tapes into computer files.</p>
+<ol><li>The library wants to <em>digitize</em> every old map.</li><li>We <em>digitized</em> the family videos last summer.</li><li>They have been <em>digitizing</em> records since 2019.</li></ol>
+<hr>
+<h3 id="disconnect">disconnect<a class="hash" href="#disconnect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪskəˈnɛkt/ &middot; <em>dis-kuh-NEKT</em></dd><dt>Русский</dt><dd>отключать, отключить; разъединять, разъединить</dd><dt>Forms</dt><dd><em>disconnect</em> &middot; <em>disconnected</em> &middot; <em>disconnected</em></dd><dt>Third person</dt><dd><em>disconnects</em> &middot; <strong>-ing form:</strong> <em>disconnecting</em></dd><dt>Transitivity</dt><dd>both — transitive (disconnect the drive), intransitive (my phone keeps disconnecting)</dd><dt>Contrast</dt><dd>You disconnect FROM a network.</dd></dl>
+<p>To break the link between a device and a network or another device.</p>
+<ol><li><em>Disconnect</em> the drive before you pull the cable.</li><li>The call <em>disconnected</em> after two minutes.</li><li>My laptop keeps <em>disconnecting</em> from the Wi-Fi.</li></ol>
+<hr>
+<h3 id="reconnect">reconnect<a class="hash" href="#reconnect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːkəˈnɛkt/ &middot; <em>ree-kuh-NEKT</em></dd><dt>Русский</dt><dd>переподключать, переподключить; снова соединять, соединиться</dd><dt>Forms</dt><dd><em>reconnect</em> &middot; <em>reconnected</em> &middot; <em>reconnected</em></dd><dt>Third person</dt><dd><em>reconnects</em> &middot; <strong>-ing form:</strong> <em>reconnecting</em></dd><dt>Transitivity</dt><dd>both — transitive (reconnect the printer), intransitive (the call reconnected on its own)</dd></dl>
+<p>To join a device or a call back to a network after it was cut off.</p>
+<ol><li>Try to <em>reconnect</em> to the other network.</li><li>He <em>reconnected</em> the printer and it worked again.</li><li>The app is <em>reconnecting</em>.</li></ol>
+<hr>
+<h3 id="unplug">unplug<a class="hash" href="#unplug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌnˈplʌɡ/ &middot; <em>un-PLUG</em></dd><dt>Русский</dt><dd>отключать от сети, отключить; выдёргивать из розетки</dd><dt>Forms</dt><dd><em>unplug</em> &middot; <em>unplugged</em> &middot; <em>unplugged</em></dd><dt>Third person</dt><dd><em>unplugs</em> &middot; <strong>-ing form:</strong> <em>unplugging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Double the g: unplugged, unplugging.</dd></dl>
+<p>To pull a plug or a cable out of a socket or a device.</p>
+<ol><li><em>Unplug</em> the router for ten seconds.</li><li>Someone <em>unplugged</em> the monitor.</li><li>He is <em>unplugging</em> every cable to find the bad one.</li></ol>
+<hr>
+<h3 id="recharge">recharge<a class="hash" href="#recharge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈtʃɑːrdʒ/ &middot; <em>ree-CHARJ</em></dd><dt>Русский</dt><dd>перезаряжать, перезарядить; подзаряжать, подзарядить</dd><dt>Forms</dt><dd><em>recharge</em> &middot; <em>recharged</em> &middot; <em>recharged</em></dd><dt>Third person</dt><dd><em>recharges</em> &middot; <strong>-ing form:</strong> <em>recharging</em></dd><dt>Transitivity</dt><dd>both — transitive (recharge the battery), intransitive (the case recharges in an hour)</dd><dt>Contrast</dt><dd>Third person adds -es after -ge: recharges.</dd></dl>
+<p>To fill a battery with power again.</p>
+<ol><li><em>Recharge</em> the battery overnight.</li><li>I <em>recharged</em> the headphones in the car.</li><li>The power bank is <em>recharging</em>.</li></ol>
+<hr>
+<h3 id="power">power<a class="hash" href="#power" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaʊər/ &middot; <em>POW-ur</em></dd><dt>Русский</dt><dd>питать (энергией), обеспечивать питанием</dd><dt>Forms</dt><dd><em>power</em> &middot; <em>powered</em> &middot; <em>powered</em></dd><dt>Third person</dt><dd><em>powers</em> &middot; <strong>-ing form:</strong> <em>powering</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Power up and power down are separate phrasal verbs.</dd></dl>
+<p>To supply a device with the electricity it needs to run.</p>
+<ol><li>Two small batteries <em>power</em> the whole sensor.</li><li>The old model was <em>powered</em> by a wall adapter.</li><li>One cable is <em>powering</em> both screens.</li></ol>
+<hr>
+<h3 id="switch">switch<a class="hash" href="#switch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɪtʃ/ &middot; <em>SWICH</em></dd><dt>Русский</dt><dd>переключать, переключить; менять, поменять</dd><dt>Forms</dt><dd><em>switch</em> &middot; <em>switched</em> &middot; <em>switched</em></dd><dt>Third person</dt><dd><em>switches</em> &middot; <strong>-ing form:</strong> <em>switching</em></dd><dt>Transitivity</dt><dd>both — transitive (switch the setting), intransitive (we switched to a new provider)</dd><dt>Contrast</dt><dd>Third person adds -es after -ch: switches. You switch TO a new plan and switch FROM the old one.</dd></dl>
+<p>To change from one thing, setting, or service to another.</p>
+<ol><li><em>Switch</em> the phone to airplane mode.</li><li>We <em>switched</em> to a cheaper carrier last year.</li><li>She is <em>switching</em> between four browser tabs.</li></ol>
+<hr>
+<h3 id="boot">boot<a class="hash" href="#boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/buːt/ &middot; <em>BOOT</em></dd><dt>Русский</dt><dd>загружаться, загрузиться (о компьютере); загружать систему</dd><dt>Forms</dt><dd><em>boot</em> &middot; <em>booted</em> &middot; <em>booted</em></dd><dt>Third person</dt><dd><em>boots</em> &middot; <strong>-ing form:</strong> <em>booting</em></dd><dt>Transitivity</dt><dd>both — transitive (boot the machine from a USB drive), intransitive (the laptop boots in ten seconds)</dd></dl>
+<p>To start a computer so that the operating system loads.</p>
+<ol><li>The old tower takes a full minute to <em>boot</em>.</li><li>He <em>booted</em> the laptop from a USB stick.</li><li>The machine is still <em>booting</em>.</li></ol>
+<hr>
+<h3 id="reboot">reboot<a class="hash" href="#reboot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈbuːt/ &middot; <em>ree-BOOT</em></dd><dt>Русский</dt><dd>перезагружать, перезагрузить</dd><dt>Forms</dt><dd><em>reboot</em> &middot; <em>rebooted</em> &middot; <em>rebooted</em></dd><dt>Third person</dt><dd><em>reboots</em> &middot; <strong>-ing form:</strong> <em>rebooting</em></dd><dt>Transitivity</dt><dd>both — transitive (reboot the router), intransitive (the server rebooted overnight)</dd></dl>
+<p>To start a computer or device again after shutting it down.</p>
+<ol><li><em>Reboot</em> the router and try again.</li><li>I <em>rebooted</em> the laptop three times.</li><li>The server is <em>rebooting</em>.</li></ol>
+<hr>
+<h3 id="restart">restart<a class="hash" href="#restart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈstɑːrt/ &middot; <em>ree-START</em></dd><dt>Русский</dt><dd>перезапускать, перезапустить</dd><dt>Forms</dt><dd><em>restart</em> &middot; <em>restarted</em> &middot; <em>restarted</em></dd><dt>Third person</dt><dd><em>restarts</em> &middot; <strong>-ing form:</strong> <em>restarting</em></dd><dt>Transitivity</dt><dd>both — transitive (restart the app), intransitive (the phone restarted by itself)</dd></dl>
+<p>To stop a program or a device and start it again right away.</p>
+<ol><li><em>Restart</em> the app after the update.</li><li>She <em>restarted</em> the computer and the error disappeared.</li><li>It has been <em>restarting</em> for five minutes.</li></ol>
+<hr>
+<h3 id="livestream">livestream<a class="hash" href="#livestream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪvstriːm/ &middot; <em>LYV-streem</em></dd><dt>Русский</dt><dd>вести прямую трансляцию, транслировать в прямом эфире</dd><dt>Forms</dt><dd><em>livestream</em> &middot; <em>livestreamed</em> &middot; <em>livestreamed</em></dd><dt>Third person</dt><dd><em>livestreams</em> &middot; <strong>-ing form:</strong> <em>livestreaming</em></dd><dt>Transitivity</dt><dd>both — transitive (livestream the ceremony), intransitive (she livestreams every Friday)</dd><dt>Contrast</dt><dd>Written as one word or as live-stream; both are common. The first part rhymes with five, not with give.</dd></dl>
+<p>To broadcast an event over the internet while it is happening.</p>
+<ol><li>They <em>livestream</em> every home game.</li><li>She <em>livestreamed</em> the wedding for relatives abroad.</li><li>He is <em>livestreaming</em> from the parking lot.</li></ol>
+<hr>
+<h3 id="buffer">buffer<a class="hash" href="#buffer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌfər/ &middot; <em>BUF-ur</em></dd><dt>Русский</dt><dd>буферизовать, подгружать (данные заранее)</dd><dt>Forms</dt><dd><em>buffer</em> &middot; <em>buffered</em> &middot; <em>buffered</em></dd><dt>Third person</dt><dd><em>buffers</em> &middot; <strong>-ing form:</strong> <em>buffering</em></dd><dt>Transitivity</dt><dd>both — transitive (the player buffers a few seconds of video), intransitive (the stream keeps buffering)</dd></dl>
+<p>To load part of a video or a song in advance so that it plays without stopping.</p>
+<ol><li>A weak connection makes every video <em>buffer</em>.</li><li>The stream <em>buffered</em> twice during the final.</li><li>It keeps <em>buffering</em> right at the good part.</li></ol>
+<hr>
+<h3 id="lag">lag<a class="hash" href="#lag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læɡ/ &middot; <em>LAG</em></dd><dt>Русский</dt><dd>тормозить, подтормаживать; отставать, отстать</dd><dt>Forms</dt><dd><em>lag</em> &middot; <em>lagged</em> &middot; <em>lagged</em></dd><dt>Third person</dt><dd><em>lags</em> &middot; <strong>-ing form:</strong> <em>lagging</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Double the g: lagged, lagging.</dd></dl>
+<p>To respond slowly, so that the picture or the sound falls behind.</p>
+<ol><li>The video will <em>lag</em> on this connection.</li><li>The audio <em>lagged</em> about half a second behind.</li><li>My screen is <em>lagging</em> badly today.</li></ol>
+<hr>
+<h3 id="transmit">transmit<a class="hash" href="#transmit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænsˈmɪt/ &middot; <em>trans-MIT</em></dd><dt>Русский</dt><dd>передавать, передать (сигнал, данные)</dd><dt>Forms</dt><dd><em>transmit</em> &middot; <em>transmitted</em> &middot; <em>transmitted</em></dd><dt>Third person</dt><dd><em>transmits</em> &middot; <strong>-ing form:</strong> <em>transmitting</em></dd><dt>Transitivity</dt><dd>both — transitive (transmit the data), intransitive (the beacon transmits every hour)</dd><dt>Contrast</dt><dd>Double the t: transmitted, transmitting - the stress falls on the last syllable.</dd></dl>
+<p>To send data or a signal from one place to another.</p>
+<ol><li>The sensor can <em>transmit</em> data over a mile.</li><li>The station <em>transmitted</em> the warning at noon.</li><li>The device has been <em>transmitting</em> all night.</li></ol>
+<hr>
+<h3 id="route">route<a class="hash" href="#route" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ruːt/ &middot; <em>ROOT</em></dd><dt>Русский</dt><dd>направлять, направить (трафик, звонок); маршрутизировать</dd><dt>Forms</dt><dd><em>route</em> &middot; <em>routed</em> &middot; <em>routed</em></dd><dt>Third person</dt><dd><em>routes</em> &middot; <strong>-ing form:</strong> <em>routing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Most Americans say ROOT, like the root of a tree; ROWT is also heard. The -ing form keeps the e: routing.</dd></dl>
+<p>To send data, calls, or traffic along a particular path.</p>
+<ol><li>The system <em>routes</em> every call through one server.</li><li>They <em>routed</em> the traffic around the damaged cable.</li><li>It is <em>routing</em> my request to the wrong office.</li></ol>
+<hr>
+<h3 id="ping">ping<a class="hash" href="#ping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪŋ/ &middot; <em>PING</em></dd><dt>Русский</dt><dd>пинговать (проверять связь); писать, написать (короткое сообщение)</dd><dt>Forms</dt><dd><em>ping</em> &middot; <em>pinged</em> &middot; <em>pinged</em></dd><dt>Third person</dt><dd><em>pings</em> &middot; <strong>-ing form:</strong> <em>pinging</em></dd><dt>Transitivity</dt><dd>both — transitive (ping me when you land), intransitive (the phone pings all day)</dd></dl>
+<p>To send a short signal or message to a device or a person.</p>
+<ol><li><em>Ping</em> me when the file is ready.</li><li>I <em>pinged</em> the server and got no answer.</li><li>My phone has been <em>pinging</em> every two minutes.</li></ol>
+<hr>
+<h3 id="mirror">mirror<a class="hash" href="#mirror" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪrər/ &middot; <em>MEER-ur</em></dd><dt>Русский</dt><dd>дублировать (экран), зеркалировать</dd><dt>Forms</dt><dd><em>mirror</em> &middot; <em>mirrored</em> &middot; <em>mirrored</em></dd><dt>Third person</dt><dd><em>mirrors</em> &middot; <strong>-ing form:</strong> <em>mirroring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To show the picture from one screen on another, or to keep an identical copy of data.</p>
+<ol><li>You can <em>mirror</em> your phone to the TV.</li><li>He <em>mirrored</em> the laptop screen onto the projector.</li><li>The second drive is <em>mirroring</em> everything in real time.</li></ol>
+<hr>
+<h3 id="tether">tether<a class="hash" href="#tether" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛðər/ &middot; <em>TETH-ur</em></dd><dt>Русский</dt><dd>раздавать интернет с телефона, использовать телефон как модем</dd><dt>Forms</dt><dd><em>tether</em> &middot; <em>tethered</em> &middot; <em>tethered</em></dd><dt>Third person</dt><dd><em>tethers</em> &middot; <strong>-ing form:</strong> <em>tethering</em></dd><dt>Transitivity</dt><dd>both — transitive (tether the laptop to your phone), intransitive (we tethered all week)</dd><dt>Contrast</dt><dd>You tether one device TO another.</dd></dl>
+<p>To connect a computer to the internet through a phone's data connection.</p>
+<ol><li>You can <em>tether</em> the laptop to your phone.</li><li>He <em>tethered</em> for a week while the cable was out.</li><li>She is <em>tethering</em> from her phone right now.</li></ol>
+<hr>
+<h3 id="uninstall">uninstall<a class="hash" href="#uninstall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌnɪnˈstɔːl/ &middot; <em>un-in-STAWL</em></dd><dt>Русский</dt><dd>удалять (программу), удалить; деинсталлировать</dd><dt>Forms</dt><dd><em>uninstall</em> &middot; <em>uninstalled</em> &middot; <em>uninstalled</em></dd><dt>Third person</dt><dd><em>uninstalls</em> &middot; <strong>-ing form:</strong> <em>uninstalling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The base already ends in -ll, so the forms look heavy but are regular: uninstalled, uninstalling.</dd></dl>
+<p>To remove a program from a computer or a phone.</p>
+<ol><li><em>Uninstall</em> the app and install it again.</li><li>I <em>uninstalled</em> three games to free up space.</li><li>It is <em>uninstalling</em> the old version now.</li></ol>
+<hr>
+<h3 id="reinstall">reinstall<a class="hash" href="#reinstall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːɪnˈstɔːl/ &middot; <em>ree-in-STAWL</em></dd><dt>Русский</dt><dd>переустанавливать, переустановить</dd><dt>Forms</dt><dd><em>reinstall</em> &middot; <em>reinstalled</em> &middot; <em>reinstalled</em></dd><dt>Third person</dt><dd><em>reinstalls</em> &middot; <strong>-ing form:</strong> <em>reinstalling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To install a program or a system again after removing it.</p>
+<ol><li><em>Reinstall</em> the driver and reboot.</li><li>He <em>reinstalled</em> the whole operating system.</li><li>She has <em>reinstalled</em> the app twice today.</li></ol>
+<hr>
+<h3 id="downgrade">downgrade<a class="hash" href="#downgrade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaʊnɡreɪd/ &middot; <em>DOWN-grayd</em></dd><dt>Русский</dt><dd>понижать версию, понизить; переходить на более дешёвый тариф</dd><dt>Forms</dt><dd><em>downgrade</em> &middot; <em>downgraded</em> &middot; <em>downgraded</em></dd><dt>Third person</dt><dd><em>downgrades</em> &middot; <strong>-ing form:</strong> <em>downgrading</em></dd><dt>Transitivity</dt><dd>both — transitive (downgrade the software), intransitive (we downgraded to the free plan)</dd><dt>Contrast</dt><dd>The opposite of upgrade. Drop the -e before -ing: downgrading.</dd></dl>
+<p>To move to a lower, cheaper, or older version of software or a plan.</p>
+<ol><li>You can <em>downgrade</em> the plan at any time.</li><li>He <em>downgraded</em> to the free account.</li><li>They are <em>downgrading</em> the software to last year's build.</li></ol>
+<hr>
+<h3 id="debug">debug<a class="hash" href="#debug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdiːˈbʌɡ/ &middot; <em>dee-BUG</em></dd><dt>Русский</dt><dd>отлаживать, отладить; искать и исправлять ошибки</dd><dt>Forms</dt><dd><em>debug</em> &middot; <em>debugged</em> &middot; <em>debugged</em></dd><dt>Third person</dt><dd><em>debugs</em> &middot; <strong>-ing form:</strong> <em>debugging</em></dd><dt>Transitivity</dt><dd>both — transitive (debug the code), intransitive (he debugs all day)</dd><dt>Contrast</dt><dd>Double the g: debugged, debugging.</dd></dl>
+<p>To find and fix the errors in a program.</p>
+<ol><li>It takes longer to <em>debug</em> the code than to write it.</li><li>She <em>debugged</em> the payment form in one afternoon.</li><li>He has been <em>debugging</em> the same function for days.</li></ol>
+<hr>
+<h3 id="simulate">simulate<a class="hash" href="#simulate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmjəleɪt/ &middot; <em>SIM-yuh-layt</em></dd><dt>Русский</dt><dd>моделировать, смоделировать; имитировать</dd><dt>Forms</dt><dd><em>simulate</em> &middot; <em>simulated</em> &middot; <em>simulated</em></dd><dt>Third person</dt><dd><em>simulates</em> &middot; <strong>-ing form:</strong> <em>simulating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To use a computer to copy the way something works in real life.</p>
+<ol><li>The program can <em>simulate</em> a whole flight.</li><li>They <em>simulated</em> the crash a thousand times.</li><li>The lab is <em>simulating</em> next week's storm.</li></ol>
+<hr>
+<h3 id="emulate">emulate<a class="hash" href="#emulate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛmjəleɪt/ &middot; <em>EM-yuh-layt</em></dd><dt>Русский</dt><dd>эмулировать; имитировать работу (другой системы)</dd><dt>Forms</dt><dd><em>emulate</em> &middot; <em>emulated</em> &middot; <em>emulated</em></dd><dt>Third person</dt><dd><em>emulates</em> &middot; <strong>-ing form:</strong> <em>emulating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make one system behave exactly like another.</p>
+<ol><li>This app can <em>emulate</em> an old game console.</li><li>The software <em>emulated</em> Windows well enough to run the program.</li><li>It is <em>emulating</em> a printer that no longer exists.</li></ol>
+<hr>
+<h3 id="compute">compute<a class="hash" href="#compute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpjuːt/ &middot; <em>kuhm-PYOOT</em></dd><dt>Русский</dt><dd>вычислять, вычислить; рассчитывать, рассчитать</dd><dt>Forms</dt><dd><em>compute</em> &middot; <em>computed</em> &middot; <em>computed</em></dd><dt>Third person</dt><dd><em>computes</em> &middot; <strong>-ing form:</strong> <em>computing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To work out a result by calculation, usually with a machine.</p>
+<ol><li>The server can <em>compute</em> the route in a second.</li><li>The model <em>computed</em> a ninety percent chance of rain.</li><li>It is <em>computing</em> the totals for all fifty states.</li></ol>
+<hr>
+<h3 id="optimize">optimize<a class="hash" href="#optimize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːptɪmaɪz/ &middot; <em>AHP-tuh-myz</em></dd><dt>Русский</dt><dd>оптимизировать; улучшать, улучшить</dd><dt>Forms</dt><dd><em>optimize</em> &middot; <em>optimized</em> &middot; <em>optimized</em></dd><dt>Third person</dt><dd><em>optimizes</em> &middot; <strong>-ing form:</strong> <em>optimizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American -ize; British writing has optimise.</dd></dl>
+<p>To change something so that it works as well or as fast as possible.</p>
+<ol><li><em>Optimize</em> the images or the page will crawl.</li><li>They <em>optimized</em> the app for older phones.</li><li>He has been <em>optimizing</em> the database all week.</li></ol>
+<hr>
+<h3 id="scale">scale<a class="hash" href="#scale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skeɪl/ &middot; <em>SKAYL</em></dd><dt>Русский</dt><dd>масштабировать; расширять, расширить (до больших объёмов)</dd><dt>Forms</dt><dd><em>scale</em> &middot; <em>scaled</em> &middot; <em>scaled</em></dd><dt>Third person</dt><dd><em>scales</em> &middot; <strong>-ing form:</strong> <em>scaling</em></dd><dt>Transitivity</dt><dd>both — transitive (scale the image), intransitive (the service scales to millions of users)</dd><dt>Contrast</dt><dd>Drop the -e before -ing: scaling.</dd></dl>
+<p>To change something in size, or to grow so as to handle much more work.</p>
+<ol><li>The design has to <em>scale</em> to any screen size.</li><li>They <em>scaled</em> the service to ten million users.</li><li>The company is <em>scaling</em> faster than it can hire.</li></ol>
+<hr>
+<h3 id="integrate">integrate<a class="hash" href="#integrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntɪɡreɪt/ &middot; <em>IN-tuh-grayt</em></dd><dt>Русский</dt><dd>интегрировать; объединять, объединить (системы)</dd><dt>Forms</dt><dd><em>integrate</em> &middot; <em>integrated</em> &middot; <em>integrated</em></dd><dt>Third person</dt><dd><em>integrates</em> &middot; <strong>-ing form:</strong> <em>integrating</em></dd><dt>Transitivity</dt><dd>both — transitive (integrate the two systems), intransitive (the app integrates with your calendar)</dd><dt>Contrast</dt><dd>Integrate WITH another system, or integrate one thing INTO another.</dd></dl>
+<p>To make two systems work together as one.</p>
+<ol><li>The app can <em>integrate</em> with your calendar.</li><li>They <em>integrated</em> the payment system last month.</li><li>We are <em>integrating</em> the two databases.</li></ol>
+<hr>
+<h3 id="configure">configure<a class="hash" href="#configure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈfɪɡjər/ &middot; <em>kuhn-FIG-yur</em></dd><dt>Русский</dt><dd>настраивать, настроить; конфигурировать</dd><dt>Forms</dt><dd><em>configure</em> &middot; <em>configured</em> &middot; <em>configured</em></dd><dt>Third person</dt><dd><em>configures</em> &middot; <strong>-ing form:</strong> <em>configuring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Drop the -e before -ing: configuring.</dd></dl>
+<p>To set up a device or a program so that it works the way you want.</p>
+<ol><li><em>Configure</em> the printer before you leave.</li><li>He <em>configured</em> the router for the whole office.</li><li>She is <em>configuring</em> the new laptops.</li></ol>
+<hr>
+<h3 id="personalize">personalize<a class="hash" href="#personalize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrsənəlaɪz/ &middot; <em>PUR-suh-nuh-lyz</em></dd><dt>Русский</dt><dd>персонализировать; настраивать под себя, настроить</dd><dt>Forms</dt><dd><em>personalize</em> &middot; <em>personalized</em> &middot; <em>personalized</em></dd><dt>Third person</dt><dd><em>personalizes</em> &middot; <strong>-ing form:</strong> <em>personalizing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To change settings or content so that they fit one particular person.</p>
+<ol><li>You can <em>personalize</em> the home screen.</li><li>The store <em>personalized</em> every email with my name.</li><li>The app is <em>personalizing</em> your feed.</li></ol>
+<hr>
+<h3 id="prototype">prototype<a class="hash" href="#prototype" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊtətaɪp/ &middot; <em>PROH-tuh-typ</em></dd><dt>Русский</dt><dd>создавать прототип, создать прототип; прототипировать</dd><dt>Forms</dt><dd><em>prototype</em> &middot; <em>prototyped</em> &middot; <em>prototyped</em></dd><dt>Third person</dt><dd><em>prototypes</em> &middot; <strong>-ing form:</strong> <em>prototyping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To build a rough first version of a product in order to test the idea.</p>
+<ol><li>We can <em>prototype</em> the app in a week.</li><li>They <em>prototyped</em> three different layouts.</li><li>She is <em>prototyping</em> the checkout screen.</li></ol>
+<hr>
+<h3 id="innovate">innovate<a class="hash" href="#innovate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnəveɪt/ &middot; <em>IN-uh-vayt</em></dd><dt>Русский</dt><dd>внедрять новшества; придумывать новое</dd><dt>Forms</dt><dd><em>innovate</em> &middot; <em>innovated</em> &middot; <em>innovated</em></dd><dt>Third person</dt><dd><em>innovates</em> &middot; <strong>-ing form:</strong> <em>innovating</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To create new methods, ideas, or products.</p>
+<ol><li>Small teams often <em>innovate</em> faster than big ones.</li><li>The company <em>innovated</em> early and took the market.</li><li>They have been <em>innovating</em> in battery design for years.</li></ol>
+<hr>
+<h3 id="access">access<a class="hash" href="#access" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæksɛs/ &middot; <em>AK-ses</em></dd><dt>Русский</dt><dd>получать доступ, получить доступ; заходить, зайти (в систему)</dd><dt>Forms</dt><dd><em>access</em> &middot; <em>accessed</em> &middot; <em>accessed</em></dd><dt>Third person</dt><dd><em>accesses</em> &middot; <strong>-ing form:</strong> <em>accessing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb takes a direct object: access the file. Only the noun takes to: access to the file.</dd></dl>
+<p>To open or reach data, a file, or an account.</p>
+<ol><li>You can <em>access</em> the files from any device.</li><li>Someone <em>accessed</em> my account from another country.</li><li>He is <em>accessing</em> the server remotely.</li></ol>
+<hr>
+<h3 id="authenticate">authenticate<a class="hash" href="#authenticate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːˈθɛntɪkeɪt/ &middot; <em>aw-THEN-tuh-kayt</em></dd><dt>Русский</dt><dd>аутентифицировать; подтверждать личность, подтвердить</dd><dt>Forms</dt><dd><em>authenticate</em> &middot; <em>authenticated</em> &middot; <em>authenticated</em></dd><dt>Third person</dt><dd><em>authenticates</em> &middot; <strong>-ing form:</strong> <em>authenticating</em></dd><dt>Transitivity</dt><dd>both — transitive (authenticate the user), intransitive (the device authenticates in a second)</dd></dl>
+<p>To prove that a user or a device is who it claims to be.</p>
+<ol><li>The app will <em>authenticate</em> you with your fingerprint.</li><li>The system <em>authenticated</em> the login in a second.</li><li>It is <em>authenticating</em> your device now.</li></ol>
+<hr>
+<h3 id="validate">validate<a class="hash" href="#validate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvælɪdeɪt/ &middot; <em>VAL-uh-dayt</em></dd><dt>Русский</dt><dd>проверять (на корректность), проверить; подтверждать, подтвердить</dd><dt>Forms</dt><dd><em>validate</em> &middot; <em>validated</em> &middot; <em>validated</em></dd><dt>Third person</dt><dd><em>validates</em> &middot; <strong>-ing form:</strong> <em>validating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To check that data or a document is correct and acceptable.</p>
+<ol><li>The form will <em>validate</em> the email address.</li><li>The system <em>validated</em> the card and charged it.</li><li>It is <em>validating</em> the file against the template.</li></ol>
+<hr>
+<h3 id="lock">lock<a class="hash" href="#lock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɑːk/ &middot; <em>LAHK</em></dd><dt>Русский</dt><dd>блокировать, заблокировать (экран); запирать, запереть</dd><dt>Forms</dt><dd><em>lock</em> &middot; <em>locked</em> &middot; <em>locked</em></dd><dt>Third person</dt><dd><em>locks</em> &middot; <strong>-ing form:</strong> <em>locking</em></dd><dt>Transitivity</dt><dd>both — transitive (lock the screen), intransitive (the phone locks after a minute)</dd></dl>
+<p>To stop something from being used or changed without a key, a code, or a password.</p>
+<ol><li><em>Lock</em> your screen when you leave the desk.</li><li>He <em>locked</em> the file so that nobody could edit it.</li><li>The phone is <em>locking</em> itself every thirty seconds.</li></ol>
+<hr>
+<h3 id="unlock">unlock<a class="hash" href="#unlock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈlɑːk/ &middot; <em>un-LAHK</em></dd><dt>Русский</dt><dd>разблокировать, разблокировывать; открывать доступ</dd><dt>Forms</dt><dd><em>unlock</em> &middot; <em>unlocked</em> &middot; <em>unlocked</em></dd><dt>Third person</dt><dd><em>unlocks</em> &middot; <strong>-ing form:</strong> <em>unlocking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To open something that was locked, or to make a hidden feature available.</p>
+<ol><li><em>Unlock</em> the phone with your face.</li><li>She <em>unlocked</em> the front door from the app.</li><li>Finishing the level has <em>unlocked</em> two new maps.</li></ol>
+<hr>
+<h3 id="activate">activate<a class="hash" href="#activate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæktɪveɪt/ &middot; <em>AK-tuh-vayt</em></dd><dt>Русский</dt><dd>активировать; включать, включить</dd><dt>Forms</dt><dd><em>activate</em> &middot; <em>activated</em> &middot; <em>activated</em></dd><dt>Third person</dt><dd><em>activates</em> &middot; <strong>-ing form:</strong> <em>activating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a service, a card, or a feature start working.</p>
+<ol><li><em>Activate</em> the SIM card before your flight.</li><li>He <em>activated</em> the alarm from his phone.</li><li>They are <em>activating</em> the new accounts today.</li></ol>
+<hr>
+<h3 id="deactivate">deactivate<a class="hash" href="#deactivate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diːˈæktɪveɪt/ &middot; <em>dee-AK-tuh-vayt</em></dd><dt>Русский</dt><dd>деактивировать; отключать, отключить (аккаунт)</dd><dt>Forms</dt><dd><em>deactivate</em> &middot; <em>deactivated</em> &middot; <em>deactivated</em></dd><dt>Third person</dt><dd><em>deactivates</em> &middot; <strong>-ing form:</strong> <em>deactivating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To turn off an account or a feature so that it stops working.</p>
+<ol><li>You can <em>deactivate</em> the account without deleting it.</li><li>She <em>deactivated</em> her profile for a month.</li><li>He is <em>deactivating</em> the old key cards.</li></ol>
+<hr>
+<h3 id="enable">enable<a class="hash" href="#enable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈneɪbəl/ &middot; <em>ih-NAY-buhl</em></dd><dt>Русский</dt><dd>включать, включить (функцию); разрешать, разрешить</dd><dt>Forms</dt><dd><em>enable</em> &middot; <em>enabled</em> &middot; <em>enabled</em></dd><dt>Third person</dt><dd><em>enables</em> &middot; <strong>-ing form:</strong> <em>enabling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Drop the -e before -ing: enabling.</dd></dl>
+<p>To turn a setting or a feature on.</p>
+<ol><li><em>Enable</em> two-factor login in the settings.</li><li>I <em>enabled</em> notifications and now the phone never stops.</li><li>Location sharing has been <em>enabled</em> by default.</li></ol>
+<hr>
+<h3 id="disable">disable<a class="hash" href="#disable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈeɪbəl/ &middot; <em>dis-AY-buhl</em></dd><dt>Русский</dt><dd>отключать, отключить (функцию); выключать, выключить</dd><dt>Forms</dt><dd><em>disable</em> &middot; <em>disabled</em> &middot; <em>disabled</em></dd><dt>Third person</dt><dd><em>disables</em> &middot; <strong>-ing form:</strong> <em>disabling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To turn a setting or a feature off.</p>
+<ol><li><em>Disable</em> the pop-ups and the site is readable.</li><li>He <em>disabled</em> the camera in the settings.</li><li>The update has <em>disabled</em> my printer.</li></ol>
+<hr>
+<h3 id="spam">spam<a class="hash" href="#spam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spæm/ &middot; <em>SPAM</em></dd><dt>Русский</dt><dd>спамить, засыпать сообщениями; рассылать спам</dd><dt>Forms</dt><dd><em>spam</em> &middot; <em>spammed</em> &middot; <em>spammed</em></dd><dt>Third person</dt><dd><em>spams</em> &middot; <strong>-ing form:</strong> <em>spamming</em></dd><dt>Transitivity</dt><dd>both — transitive (spam the group chat), intransitive (they spam all day)</dd><dt>Contrast</dt><dd>Double the m: spammed, spamming.</dd></dl>
+<p>To send someone a lot of unwanted messages.</p>
+<ol><li>Please do not <em>spam</em> the group chat.</li><li>They <em>spammed</em> every address on the list.</li><li>He is <em>spamming</em> the comments with links.</li></ol>
+<hr>
+<h3 id="mute">mute<a class="hash" href="#mute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mjuːt/ &middot; <em>MYOOT</em></dd><dt>Русский</dt><dd>выключать звук, выключить звук; отключать уведомления</dd><dt>Forms</dt><dd><em>mute</em> &middot; <em>muted</em> &middot; <em>muted</em></dd><dt>Third person</dt><dd><em>mutes</em> &middot; <strong>-ing form:</strong> <em>muting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Drop the -e before -ing: muting.</dd></dl>
+<p>To turn off the sound of a device, a call, or a conversation.</p>
+<ol><li><em>Mute</em> yourself when you are not speaking.</li><li>He <em>muted</em> the group chat for a week.</li><li>She is <em>muting</em> every notification before bed.</li></ol>
+<hr>
+<h3 id="unmute">unmute<a class="hash" href="#unmute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌnˈmjuːt/ &middot; <em>un-MYOOT</em></dd><dt>Русский</dt><dd>включать звук обратно, включить звук</dd><dt>Forms</dt><dd><em>unmute</em> &middot; <em>unmuted</em> &middot; <em>unmuted</em></dd><dt>Third person</dt><dd><em>unmutes</em> &middot; <strong>-ing form:</strong> <em>unmuting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To turn the sound back on.</p>
+<ol><li><em>Unmute</em> yourself - we cannot hear you.</li><li>He <em>unmuted</em> the call and his dog was barking.</li><li>She has <em>unmuted</em> the thread.</li></ol>
+<hr>
+<h3 id="unsubscribe">unsubscribe<a class="hash" href="#unsubscribe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌnsəbˈskraɪb/ &middot; <em>un-suhb-SKRYB</em></dd><dt>Русский</dt><dd>отписываться, отписаться (от рассылки)</dd><dt>Forms</dt><dd><em>unsubscribe</em> &middot; <em>unsubscribed</em> &middot; <em>unsubscribed</em></dd><dt>Third person</dt><dd><em>unsubscribes</em> &middot; <strong>-ing form:</strong> <em>unsubscribing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You unsubscribe FROM a list.</dd></dl>
+<p>To stop receiving emails or content from a service you signed up for.</p>
+<ol><li><em>Unsubscribe</em> at the bottom of the email.</li><li>I <em>unsubscribed</em> from forty newsletters in one evening.</li><li>He has <em>unsubscribed</em> and the mail still keeps coming.</li></ol>
+<hr>
+<h3 id="dial">dial<a class="hash" href="#dial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪəl/ &middot; <em>DY-uhl</em></dd><dt>Русский</dt><dd>набирать номер, набрать номер</dd><dt>Forms</dt><dd><em>dial</em> &middot; <em>dialed</em> &middot; <em>dialed</em></dd><dt>Third person</dt><dd><em>dials</em> &middot; <strong>-ing form:</strong> <em>dialing</em></dd><dt>Transitivity</dt><dd>both — transitive (dial the number), intransitive (dial slowly)</dd><dt>Contrast</dt><dd>American English keeps one l: dialed, dialing. British writing has dialled, dialling.</dd></dl>
+<p>To enter a phone number in order to make a call.</p>
+<ol><li><em>Dial</em> the extension after the beep.</li><li>He <em>dialed</em> the wrong number twice.</li><li>She is <em>dialing</em> in from the airport.</li></ol>
+<hr>
+<h3 id="google">google<a class="hash" href="#google" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡuːɡəl/ &middot; <em>GOO-guhl</em></dd><dt>Русский</dt><dd>гуглить, погуглить; искать в интернете</dd><dt>Forms</dt><dd><em>google</em> &middot; <em>googled</em> &middot; <em>googled</em></dd><dt>Third person</dt><dd><em>googles</em> &middot; <strong>-ing form:</strong> <em>googling</em></dd><dt>Transitivity</dt><dd>both — transitive (google the address), intransitive (just google and see)</dd><dt>Contrast</dt><dd>As a verb it is written in lowercase, and the -e is dropped: googling.</dd></dl>
+<p>To look something up on the internet with a search engine.</p>
+<ol><li><em>Google</em> it before you call support.</li><li>I <em>googled</em> the error message and found the fix.</li><li>He was <em>googling</em> her name the whole flight.</li></ol>
+<hr>
+<h3 id="surf">surf<a class="hash" href="#surf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɜːrf/ &middot; <em>SURF</em></dd><dt>Русский</dt><dd>сёрфить (в интернете), бродить по сайтам</dd><dt>Forms</dt><dd><em>surf</em> &middot; <em>surfed</em> &middot; <em>surfed</em></dd><dt>Third person</dt><dd><em>surfs</em> &middot; <strong>-ing form:</strong> <em>surfing</em></dd><dt>Transitivity</dt><dd>both — transitive (surf the web), intransitive (he surfed for hours)</dd></dl>
+<p>To move from page to page on the internet with no fixed goal.</p>
+<ol><li>They <em>surf</em> the web instead of working.</li><li>She <em>surfed</em> the net until two in the morning.</li><li>He has been <em>surfing</em> real estate listings all week.</li></ol>
+<hr>
+<h3 id="screenshot">screenshot<a class="hash" href="#screenshot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskriːnʃɑːt/ &middot; <em>SKREEN-shaht</em></dd><dt>Русский</dt><dd>делать скриншот, сделать скриншот; скриншотить</dd><dt>Forms</dt><dd><em>screenshot</em> &middot; <em>screenshotted</em> &middot; <em>screenshotted</em></dd><dt>Third person</dt><dd><em>screenshots</em> &middot; <strong>-ing form:</strong> <em>screenshotting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Double the t: screenshotted, screenshotting. In formal writing, take a screenshot is safer.</dd></dl>
+<p>To save a picture of what is on your screen.</p>
+<ol><li><em>Screenshot</em> the confirmation page.</li><li>She <em>screenshotted</em> the whole conversation.</li><li>He is <em>screenshotting</em> every message as proof.</li></ol>
+<hr>
+<h3 id="rank">rank<a class="hash" href="#rank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræŋk/ &middot; <em>RANK</em></dd><dt>Русский</dt><dd>ранжировать; занимать место (в рейтинге)</dd><dt>Forms</dt><dd><em>rank</em> &middot; <em>ranked</em> &middot; <em>ranked</em></dd><dt>Third person</dt><dd><em>ranks</em> &middot; <strong>-ing form:</strong> <em>ranking</em></dd><dt>Transitivity</dt><dd>both — transitive (the algorithm ranks the results), intransitive (the site ranks first)</dd></dl>
+<p>To put items in order by importance, or to hold a place in such an order.</p>
+<ol><li>Search engines <em>rank</em> pages by hundreds of signals.</li><li>The site <em>ranked</em> third for that keyword.</li><li>The app is <em>ranking</em> higher every month.</li></ol>
+<hr>
+<h3 id="alert">alert<a class="hash" href="#alert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlɜːrt/ &middot; <em>uh-LURT</em></dd><dt>Русский</dt><dd>предупреждать, предупредить; оповещать, оповестить</dd><dt>Forms</dt><dd><em>alert</em> &middot; <em>alerted</em> &middot; <em>alerted</em></dd><dt>Third person</dt><dd><em>alerts</em> &middot; <strong>-ing form:</strong> <em>alerting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You alert someone TO a problem.</dd></dl>
+<p>To warn someone about something quickly.</p>
+<ol><li>The app will <em>alert</em> you when the price drops.</li><li>The system <em>alerted</em> the whole team at 3 a.m.</li><li>It has been <em>alerting</em> us every hour since then.</li></ol>
+<hr>
+<h3 id="prompt">prompt<a class="hash" href="#prompt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɑːmpt/ &middot; <em>PRAHMPT</em></dd><dt>Русский</dt><dd>предлагать (ввести), запрашивать; подсказывать, подсказать</dd><dt>Forms</dt><dd><em>prompt</em> &middot; <em>prompted</em> &middot; <em>prompted</em></dd><dt>Third person</dt><dd><em>prompts</em> &middot; <strong>-ing form:</strong> <em>prompting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Prompt someone TO do something, or prompt someone FOR information.</dd></dl>
+<p>To ask a user on screen to do something, or to give a system an instruction.</p>
+<ol><li>The site will <em>prompt</em> you for a code.</li><li>It <em>prompted</em> me to change my password.</li><li>The app keeps <em>prompting</em> me to rate it.</li></ol>
+<hr>
+<h3 id="interact">interact<a class="hash" href="#interact" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntərˈækt/ &middot; <em>in-tur-AKT</em></dd><dt>Русский</dt><dd>взаимодействовать; общаться</dd><dt>Forms</dt><dd><em>interact</em> &middot; <em>interacted</em> &middot; <em>interacted</em></dd><dt>Third person</dt><dd><em>interacts</em> &middot; <strong>-ing form:</strong> <em>interacting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You interact WITH someone or something.</dd></dl>
+<p>To act on each other, or to communicate with a person or a system.</p>
+<ol><li>Children <em>interact</em> with screens before they can read.</li><li>The two programs <em>interacted</em> badly and the system froze.</li><li>He has been <em>interacting</em> with customers all day.</li></ol>
+<hr>
+<h3 id="glitch">glitch<a class="hash" href="#glitch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡlɪtʃ/ &middot; <em>GLICH</em></dd><dt>Русский</dt><dd>сбоить, давать сбой; глючить</dd><dt>Forms</dt><dd><em>glitch</em> &middot; <em>glitched</em> &middot; <em>glitched</em></dd><dt>Third person</dt><dd><em>glitches</em> &middot; <strong>-ing form:</strong> <em>glitching</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Third person adds -es after -ch: glitches.</dd></dl>
+<p>To fail or behave strangely for a short time.</p>
+<ol><li>Cheap screens <em>glitch</em> in the cold.</li><li>The payment page <em>glitched</em> and charged me twice.</li><li>The video keeps <em>glitching</em> at the same spot.</li></ol>
+<hr>
+<h3 id="overheat">overheat<a class="hash" href="#overheat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈhiːt/ &middot; <em>oh-vur-HEET</em></dd><dt>Русский</dt><dd>перегреваться, перегреться; перегревать, перегреть</dd><dt>Forms</dt><dd><em>overheat</em> &middot; <em>overheated</em> &middot; <em>overheated</em></dd><dt>Third person</dt><dd><em>overheats</em> &middot; <strong>-ing form:</strong> <em>overheating</em></dd><dt>Transitivity</dt><dd>both — transitive (the sun overheated the phone), intransitive (the laptop overheats)</dd></dl>
+<p>To become, or to make something become, too hot to work safely.</p>
+<ol><li>Old laptops <em>overheat</em> under any real load.</li><li>The phone <em>overheated</em> in the car.</li><li>The battery is <em>overheating</em> again.</li></ol>
+<hr>
+<h3 id="eject">eject<a class="hash" href="#eject" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈdʒɛkt/ &middot; <em>ih-JEKT</em></dd><dt>Русский</dt><dd>извлекать, извлечь (диск, флешку); безопасно отключать</dd><dt>Forms</dt><dd><em>eject</em> &middot; <em>ejected</em> &middot; <em>ejected</em></dd><dt>Third person</dt><dd><em>ejects</em> &middot; <strong>-ing form:</strong> <em>ejecting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a disk or a drive come out safely.</p>
+<ol><li><em>Eject</em> the drive before you pull it out.</li><li>He <em>ejected</em> the card and the photos were gone.</li><li>The laptop is <em>ejecting</em> the disc.</li></ol>
+<hr>
+<h3 id="unlink">unlink<a class="hash" href="#unlink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈlɪŋk/ &middot; <em>un-LINGK</em></dd><dt>Русский</dt><dd>отвязывать, отвязать (аккаунт); разрывать связь</dd><dt>Forms</dt><dd><em>unlink</em> &middot; <em>unlinked</em> &middot; <em>unlinked</em></dd><dt>Third person</dt><dd><em>unlinks</em> &middot; <strong>-ing form:</strong> <em>unlinking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To break the connection between two accounts, files, or devices.</p>
+<ol><li><em>Unlink</em> the card before you close the account.</li><li>He <em>unlinked</em> his email from the old profile.</li><li>She has <em>unlinked</em> every app from her calendar.</li></ol>
+<hr>
+<h3 id="shuffle">shuffle<a class="hash" href="#shuffle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʌfəl/ &middot; <em>SHUF-uhl</em></dd><dt>Русский</dt><dd>перемешивать, перемешать (в случайном порядке)</dd><dt>Forms</dt><dd><em>shuffle</em> &middot; <em>shuffled</em> &middot; <em>shuffled</em></dd><dt>Third person</dt><dd><em>shuffles</em> &middot; <strong>-ing form:</strong> <em>shuffling</em></dd><dt>Transitivity</dt><dd>both — transitive (shuffle the playlist), intransitive (the app shuffles automatically)</dd><dt>Contrast</dt><dd>Drop the -e before -ing: shuffling.</dd></dl>
+<p>To put songs, cards, or files into a random order.</p>
+<ol><li><em>Shuffle</em> the playlist - I know it by heart.</li><li>The app <em>shuffled</em> the same five songs all night.</li><li>It is <em>shuffling</em> my whole library.</li></ol>
+<hr>
+<h3 id="network">network<a class="hash" href="#network" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɛtwɜːrk/ &middot; <em>NET-wurk</em></dd><dt>Русский</dt><dd>объединять в сеть, объединить в сеть</dd><dt>Forms</dt><dd><em>network</em> &middot; <em>networked</em> &middot; <em>networked</em></dd><dt>Third person</dt><dd><em>networks</em> &middot; <strong>-ing form:</strong> <em>networking</em></dd><dt>Transitivity</dt><dd>both — transitive (network the office printers), intransitive (the machines network over Wi-Fi)</dd></dl>
+<p>To connect computers or devices so that they can share data.</p>
+<ol><li>We can <em>network</em> all four printers.</li><li>They <em>networked</em> the two offices last year.</li><li>Every machine is <em>networked</em> through one switch.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

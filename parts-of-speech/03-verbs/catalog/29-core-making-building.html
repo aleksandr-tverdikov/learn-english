@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: making and building</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-making-and-building">Core verbs: making and building<a class="hash" href="#core-verbs-making-and-building" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of making and building — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="create">create<a class="hash" href="#create" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kriˈeɪt/ &middot; <em>kree-AYT</em></dd><dt>Русский</dt><dd>создавать, создать</dd><dt>Forms</dt><dd><em>create</em> &middot; <em>created</em> &middot; <em>created</em></dd><dt>Third person</dt><dd><em>creates</em> &middot; <strong>-ing form:</strong> <em>creating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make something that did not exist before.</p>
+<ol><li>Let's <em>create</em> a shared folder for the photos.</li><li>She <em>created</em> the logo in a single afternoon.</li><li>The new rules have <em>created</em> a lot of confusion.</li></ol>
+<hr>
+<h3 id="construct">construct<a class="hash" href="#construct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈstrʌkt/ &middot; <em>kuhn-STRUKT</em></dd><dt>Русский</dt><dd>строить, построить, сооружать</dd><dt>Forms</dt><dd><em>construct</em> &middot; <em>constructed</em> &middot; <em>constructed</em></dd><dt>Third person</dt><dd><em>constructs</em> &middot; <strong>-ing form:</strong> <em>constructing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To build something large by putting its parts together.</p>
+<ol><li>The city plans to <em>construct</em> a new bridge.</li><li>Workers <em>constructed</em> the stage in two days.</li><li>They are <em>constructing</em> a bike path along the river.</li></ol>
+<hr>
+<h3 id="assemble">assemble<a class="hash" href="#assemble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsɛmbəl/ &middot; <em>uh-SEM-buhl</em></dd><dt>Русский</dt><dd>собирать, собрать; монтировать</dd><dt>Forms</dt><dd><em>assemble</em> &middot; <em>assembled</em> &middot; <em>assembled</em></dd><dt>Third person</dt><dd><em>assembles</em> &middot; <strong>-ing form:</strong> <em>assembling</em></dd><dt>Transitivity</dt><dd>both — transitive (assemble a bookshelf), intransitive (a crowd assembled)</dd></dl>
+<p>To put the parts of something together, or to gather in one place.</p>
+<ol><li>The desk is easy to <em>assemble</em>.</li><li>We <em>assembled</em> the grill without the instructions.</li><li>A crowd was <em>assembling</em> outside the store.</li></ol>
+<hr>
+<h3 id="generate">generate<a class="hash" href="#generate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛnəreɪt/ &middot; <em>JEN-uh-rayt</em></dd><dt>Русский</dt><dd>производить, вырабатывать; порождать</dd><dt>Forms</dt><dd><em>generate</em> &middot; <em>generated</em> &middot; <em>generated</em></dd><dt>Third person</dt><dd><em>generates</em> &middot; <strong>-ing form:</strong> <em>generating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To produce power, heat, or a result.</p>
+<ol><li>Solar panels <em>generate</em> power even on cloudy days.</li><li>The post <em>generated</em> hundreds of comments.</li><li>The mill is <em>generating</em> its own electricity.</li></ol>
+<hr>
+<h3 id="form">form<a class="hash" href="#form" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔːrm/ &middot; <em>FORM</em></dd><dt>Русский</dt><dd>формировать, образовывать, образовать</dd><dt>Forms</dt><dd><em>form</em> &middot; <em>formed</em> &middot; <em>formed</em></dd><dt>Third person</dt><dd><em>forms</em> &middot; <strong>-ing form:</strong> <em>forming</em></dd><dt>Transitivity</dt><dd>both — transitive (form the dough into a ball), intransitive (ice formed on the window)</dd></dl>
+<p>To give something a shape, or to come into existence as a shape.</p>
+<ol><li><em>Form</em> the dough into a ball.</li><li>Ice <em>formed</em> on the inside of the windows.</li><li>A line was <em>forming</em> at the door.</li></ol>
+<hr>
+<h3 id="craft">craft<a class="hash" href="#craft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kræft/ &middot; <em>KRAFT</em></dd><dt>Русский</dt><dd>изготавливать вручную, мастерить</dd><dt>Forms</dt><dd><em>craft</em> &middot; <em>crafted</em> &middot; <em>crafted</em></dd><dt>Third person</dt><dd><em>crafts</em> &middot; <strong>-ing form:</strong> <em>crafting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make something carefully by hand, with skill.</p>
+<ol><li>They <em>craft</em> every guitar by hand.</li><li>He <em>crafted</em> the table from a single oak plank.</li><li>The bowls are <em>crafted</em> in a small studio upstate.</li></ol>
+<hr>
+<h3 id="fabricate">fabricate<a class="hash" href="#fabricate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæbrɪkeɪt/ &middot; <em>FAB-rih-kayt</em></dd><dt>Русский</dt><dd>изготавливать, изготовить (деталь); фабриковать</dd><dt>Forms</dt><dd><em>fabricate</em> &middot; <em>fabricated</em> &middot; <em>fabricated</em></dd><dt>Third person</dt><dd><em>fabricates</em> &middot; <strong>-ing form:</strong> <em>fabricating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>About metal, <em>fabricate</em> means to make; about a story it means to invent a lie — <em>he fabricated the whole report</em>.</dd></dl>
+<p>To make a part or structure out of raw material, usually metal.</p>
+<ol><li>The shop can <em>fabricate</em> the bracket in steel.</li><li>They <em>fabricated</em> the parts from a drawing.</li><li>The panels are being <em>fabricated</em> off-site.</li></ol>
+<hr>
+<h3 id="erect">erect<a class="hash" href="#erect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈrɛkt/ &middot; <em>ih-REKT</em></dd><dt>Русский</dt><dd>возводить, возвести; устанавливать</dd><dt>Forms</dt><dd><em>erect</em> &middot; <em>erected</em> &middot; <em>erected</em></dd><dt>Third person</dt><dd><em>erects</em> &middot; <strong>-ing form:</strong> <em>erecting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put up a structure so that it stands upright.</p>
+<ol><li>The crew will <em>erect</em> the scaffolding tomorrow.</li><li>They <em>erected</em> a tent in the backyard.</li><li>A statue has been <em>erected</em> in the square.</li></ol>
+<hr>
+<h3 id="mold">mold<a class="hash" href="#mold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/moʊld/ &middot; <em>MOHLD</em></dd><dt>Русский</dt><dd>формовать, лепить, вылепить</dd><dt>Forms</dt><dd><em>mold</em> &middot; <em>molded</em> &middot; <em>molded</em></dd><dt>Third person</dt><dd><em>molds</em> &middot; <strong>-ing form:</strong> <em>molding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American spelling is <em>mold</em>, <em>molded</em>; British spells it <em>mould</em>, <em>moulded</em>.</dd></dl>
+<p>To press a soft material into a shape.</p>
+<ol><li><em>Mold</em> the clay while it is still soft.</li><li>She <em>molded</em> the handle with her thumbs.</li><li>The plastic is <em>molded</em> in one piece.</li></ol>
+<hr>
+<h3 id="sketch">sketch<a class="hash" href="#sketch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɛtʃ/ &middot; <em>SKECH</em></dd><dt>Русский</dt><dd>делать набросок, набрасывать, набросать</dd><dt>Forms</dt><dd><em>sketch</em> &middot; <em>sketched</em> &middot; <em>sketched</em></dd><dt>Third person</dt><dd><em>sketches</em> &middot; <strong>-ing form:</strong> <em>sketching</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To draw something quickly and roughly.</p>
+<ol><li>Can you <em>sketch</em> the idea for me?</li><li>He <em>sketched</em> the whole building on a napkin.</li><li>She was <em>sketching</em> the bridge from the far bank.</li></ol>
+<hr>
+<h3 id="model">model<a class="hash" href="#model" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːdəl/ &middot; <em>MAH-duhl</em></dd><dt>Русский</dt><dd>моделировать, лепить модель; создавать макет</dd><dt>Forms</dt><dd><em>model</em> &middot; <em>modeled</em> &middot; <em>modeled</em></dd><dt>Third person</dt><dd><em>models</em> &middot; <strong>-ing form:</strong> <em>modeling</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>American keeps one <em>l</em>: <em>modeled, modeling</em>; British doubles it: <em>modelled</em>.</dd></dl>
+<p>To make a small or virtual version of something in order to study it.</p>
+<ol><li>Engineers <em>model</em> the airflow before building anything.</li><li>He <em>modeled</em> the house in clay.</li><li>They are <em>modeling</em> the new wing in 3D.</li></ol>
+<hr>
+<h3 id="outline">outline<a class="hash" href="#outline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtlaɪn/ &middot; <em>OWT-lyn</em></dd><dt>Русский</dt><dd>намечать, набрасывать в общих чертах, обрисовать</dd><dt>Forms</dt><dd><em>outline</em> &middot; <em>outlined</em> &middot; <em>outlined</em></dd><dt>Third person</dt><dd><em>outlines</em> &middot; <strong>-ing form:</strong> <em>outlining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To describe the main parts of a plan without the details.</p>
+<ol><li>Let me <em>outline</em> the job in three steps.</li><li>She <em>outlined</em> the project at the meeting.</li><li>The stages are <em>outlined</em> on page two.</li></ol>
+<hr>
+<h3 id="install">install<a class="hash" href="#install" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈstɔːl/ &middot; <em>in-STAWL</em></dd><dt>Русский</dt><dd>устанавливать, установить; монтировать</dd><dt>Forms</dt><dd><em>install</em> &middot; <em>installed</em> &middot; <em>installed</em></dd><dt>Third person</dt><dd><em>installs</em> &middot; <strong>-ing form:</strong> <em>installing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Two <em>l</em>'s all the way through: <em>install, installed, installing</em>.</dd></dl>
+<p>To put equipment in place so that it is ready to use.</p>
+<ol><li>They can <em>install</em> the dishwasher on Friday.</li><li>We <em>installed</em> the shelves ourselves.</li><li>The software is still <em>installing</em>.</li></ol>
+<hr>
+<h3 id="weld">weld<a class="hash" href="#weld" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛld/ &middot; <em>WELD</em></dd><dt>Русский</dt><dd>сваривать, сварить</dd><dt>Forms</dt><dd><em>weld</em> &middot; <em>welded</em> &middot; <em>welded</em></dd><dt>Third person</dt><dd><em>welds</em> &middot; <strong>-ing form:</strong> <em>welding</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To join pieces of metal by melting their edges together.</p>
+<ol><li>He can <em>weld</em> aluminum.</li><li>The frame was <em>welded</em>, not bolted.</li><li>She is <em>welding</em> the joint right now.</li></ol>
+<hr>
+<h3 id="solder">solder<a class="hash" href="#solder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːdər/ &middot; <em>SAH-dur</em></dd><dt>Русский</dt><dd>паять, припаять</dd><dt>Forms</dt><dd><em>solder</em> &middot; <em>soldered</em> &middot; <em>soldered</em></dd><dt>Third person</dt><dd><em>solders</em> &middot; <strong>-ing form:</strong> <em>soldering</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>In American English the <em>l</em> is silent: SAH-dur.</dd></dl>
+<p>To join small metal parts with melted soft metal.</p>
+<ol><li>You have to <em>solder</em> the wire to the board.</li><li>He <em>soldered</em> the connection back together.</li><li>She was <em>soldering</em> when the power went out.</li></ol>
+<hr>
+<h3 id="nail">nail<a class="hash" href="#nail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/neɪl/ &middot; <em>NAYL</em></dd><dt>Русский</dt><dd>прибивать гвоздями, приколотить</dd><dt>Forms</dt><dd><em>nail</em> &middot; <em>nailed</em> &middot; <em>nailed</em></dd><dt>Third person</dt><dd><em>nails</em> &middot; <strong>-ing form:</strong> <em>nailing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fasten something with nails.</p>
+<ol><li><em>Nail</em> the board to the post.</li><li>They <em>nailed</em> the sign above the door.</li><li>The trim was <em>nailed</em> in place yesterday.</li></ol>
+<hr>
+<h3 id="screw">screw<a class="hash" href="#screw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skruː/ &middot; <em>SKROO</em></dd><dt>Русский</dt><dd>привинчивать, прикручивать, прикрутить</dd><dt>Forms</dt><dd><em>screw</em> &middot; <em>screwed</em> &middot; <em>screwed</em></dd><dt>Third person</dt><dd><em>screws</em> &middot; <strong>-ing form:</strong> <em>screwing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fasten something with screws, or to turn it into place.</p>
+<ol><li><em>Screw</em> the plate onto the wall.</li><li>He <em>screwed</em> the legs onto the table.</li><li>The bracket is <em>screwed</em> into a stud.</li></ol>
+<hr>
+<h3 id="bolt">bolt<a class="hash" href="#bolt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/boʊlt/ &middot; <em>BOHLT</em></dd><dt>Русский</dt><dd>скреплять болтами, прикручивать болтами</dd><dt>Forms</dt><dd><em>bolt</em> &middot; <em>bolted</em> &middot; <em>bolted</em></dd><dt>Third person</dt><dd><em>bolts</em> &middot; <strong>-ing form:</strong> <em>bolting</em></dd><dt>Transitivity</dt><dd>both — transitive (bolt the rack to the floor), intransitive (the horse bolted)</dd></dl>
+<p>To fasten something with bolts.</p>
+<ol><li>We'll <em>bolt</em> the shelf to the studs.</li><li>They <em>bolted</em> the frame together in an hour.</li><li>The machine is <em>bolted</em> to the concrete floor.</li></ol>
+<hr>
+<h3 id="glue">glue<a class="hash" href="#glue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡluː/ &middot; <em>GLOO</em></dd><dt>Русский</dt><dd>клеить, склеивать, склеить</dd><dt>Forms</dt><dd><em>glue</em> &middot; <em>glued</em> &middot; <em>glued</em></dd><dt>Third person</dt><dd><em>glues</em> &middot; <strong>-ing form:</strong> <em>gluing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>e</em> drops before <em>-ing</em>: <em>glue → gluing</em>, not glueing.</dd></dl>
+<p>To stick things together with glue.</p>
+<ol><li><em>Glue</em> the two halves and clamp them.</li><li>She <em>glued</em> the handle back on.</li><li>He is <em>gluing</em> the last strip of veneer.</li></ol>
+<hr>
+<h3 id="tape">tape<a class="hash" href="#tape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/teɪp/ &middot; <em>TAYP</em></dd><dt>Русский</dt><dd>заклеивать скотчем, приклеивать лентой</dd><dt>Forms</dt><dd><em>tape</em> &middot; <em>taped</em> &middot; <em>taped</em></dd><dt>Third person</dt><dd><em>tapes</em> &middot; <strong>-ing form:</strong> <em>taping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To stick or cover something with tape.</p>
+<ol><li><em>Tape</em> the edges before you paint.</li><li>He <em>taped</em> the box shut.</li><li>She is <em>taping</em> the seams.</li></ol>
+<hr>
+<h3 id="staple">staple<a class="hash" href="#staple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪpəl/ &middot; <em>STAY-puhl</em></dd><dt>Русский</dt><dd>скреплять степлером, прикреплять скобами</dd><dt>Forms</dt><dd><em>staple</em> &middot; <em>stapled</em> &middot; <em>stapled</em></dd><dt>Third person</dt><dd><em>staples</em> &middot; <strong>-ing form:</strong> <em>stapling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fasten something with staples.</p>
+<ol><li><em>Staple</em> the pages together.</li><li>He <em>stapled</em> the insulation to the studs.</li><li>The fabric is <em>stapled</em> to the underside of the seat.</li></ol>
+<hr>
+<h3 id="stitch">stitch<a class="hash" href="#stitch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɪtʃ/ &middot; <em>STICH</em></dd><dt>Русский</dt><dd>шить, сшивать, сшить; прострочить</dd><dt>Forms</dt><dd><em>stitch</em> &middot; <em>stitched</em> &middot; <em>stitched</em></dd><dt>Third person</dt><dd><em>stitches</em> &middot; <strong>-ing form:</strong> <em>stitching</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To join cloth or leather with a needle and thread.</p>
+<ol><li>She can <em>stitch</em> the seam by hand.</li><li>They <em>stitched</em> leather straps onto the bag.</li><li>He was <em>stitching</em> a patch onto his jacket.</li></ol>
+<hr>
+<h3 id="drill">drill<a class="hash" href="#drill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drɪl/ &middot; <em>DRIL</em></dd><dt>Русский</dt><dd>сверлить, просверлить</dd><dt>Forms</dt><dd><em>drill</em> &middot; <em>drilled</em> &middot; <em>drilled</em></dd><dt>Third person</dt><dd><em>drills</em> &middot; <strong>-ing form:</strong> <em>drilling</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make a round hole with a drill.</p>
+<ol><li><em>Drill</em> a small hole first.</li><li>He <em>drilled</em> four holes in the wrong place.</li><li>She is <em>drilling</em> into brick.</li></ol>
+<hr>
+<h3 id="hammer">hammer<a class="hash" href="#hammer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæmər/ &middot; <em>HAM-ur</em></dd><dt>Русский</dt><dd>забивать молотком, бить молотком</dd><dt>Forms</dt><dd><em>hammer</em> &middot; <em>hammered</em> &middot; <em>hammered</em></dd><dt>Third person</dt><dd><em>hammers</em> &middot; <strong>-ing form:</strong> <em>hammering</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To hit something with a hammer, or to shape it by hitting.</p>
+<ol><li><em>Hammer</em> the nail flush with the board.</li><li>He <em>hammered</em> the dent out of the fender.</li><li>Someone was <em>hammering</em> upstairs all morning.</li></ol>
+<hr>
+<h3 id="plaster">plaster<a class="hash" href="#plaster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæstər/ &middot; <em>PLAS-tur</em></dd><dt>Русский</dt><dd>штукатурить, оштукатурить</dd><dt>Forms</dt><dd><em>plaster</em> &middot; <em>plastered</em> &middot; <em>plastered</em></dd><dt>Third person</dt><dd><em>plasters</em> &middot; <strong>-ing form:</strong> <em>plastering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cover a wall or ceiling with a smooth layer of plaster.</p>
+<ol><li>They will <em>plaster</em> the ceiling next week.</li><li>The walls were <em>plastered</em> and painted.</li><li>He is <em>plastering</em> over the old cracks.</li></ol>
+<hr>
+<h3 id="tile">tile<a class="hash" href="#tile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪl/ &middot; <em>TYL</em></dd><dt>Русский</dt><dd>облицовывать плиткой, класть плитку</dd><dt>Forms</dt><dd><em>tile</em> &middot; <em>tiled</em> &middot; <em>tiled</em></dd><dt>Third person</dt><dd><em>tiles</em> &middot; <strong>-ing form:</strong> <em>tiling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cover a surface with tiles.</p>
+<ol><li>We want to <em>tile</em> the bathroom floor.</li><li>They <em>tiled</em> the shower in plain white.</li><li>He is <em>tiling</em> the backsplash this weekend.</li></ol>
+<hr>
+<h3 id="pave">pave<a class="hash" href="#pave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/peɪv/ &middot; <em>PAYV</em></dd><dt>Русский</dt><dd>мостить, асфальтировать, заасфальтировать</dd><dt>Forms</dt><dd><em>pave</em> &middot; <em>paved</em> &middot; <em>paved</em></dd><dt>Third person</dt><dd><em>paves</em> &middot; <strong>-ing form:</strong> <em>paving</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cover a road or path with a hard surface.</p>
+<ol><li>The city will <em>pave</em> the alley in June.</li><li>They <em>paved</em> the driveway last fall.</li><li>The road is being <em>paved</em> one lane at a time.</li></ol>
+<hr>
+<h3 id="wire">wire<a class="hash" href="#wire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪər/ &middot; <em>WY-ur</em></dd><dt>Русский</dt><dd>монтировать проводку, подключать провода</dd><dt>Forms</dt><dd><em>wire</em> &middot; <em>wired</em> &middot; <em>wired</em></dd><dt>Third person</dt><dd><em>wires</em> &middot; <strong>-ing form:</strong> <em>wiring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put electrical wiring into a building or a device.</p>
+<ol><li>An electrician has to <em>wire</em> the new outlets.</li><li>He <em>wired</em> the garage himself.</li><li>The house was <em>wired</em> in the 1950s.</li></ol>
+<hr>
+<h3 id="frame">frame<a class="hash" href="#frame" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/freɪm/ &middot; <em>FRAYM</em></dd><dt>Русский</dt><dd>сооружать каркас; вставлять в раму</dd><dt>Forms</dt><dd><em>frame</em> &middot; <em>framed</em> &middot; <em>framed</em></dd><dt>Third person</dt><dd><em>frames</em> &middot; <strong>-ing form:</strong> <em>framing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To build the supporting structure of something, or to put it in a frame.</p>
+<ol><li>They will <em>frame</em> the walls tomorrow.</li><li>The crew <em>framed</em> the second floor in three days.</li><li>He is <em>framing</em> the drawing for her birthday.</li></ol>
+<hr>
+<h3 id="paint">paint<a class="hash" href="#paint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/peɪnt/ &middot; <em>PAYNT</em></dd><dt>Русский</dt><dd>красить, покрасить; рисовать красками</dd><dt>Forms</dt><dd><em>paint</em> &middot; <em>painted</em> &middot; <em>painted</em></dd><dt>Third person</dt><dd><em>paints</em> &middot; <strong>-ing form:</strong> <em>painting</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To cover a surface with paint, or to make a picture with paint.</p>
+<ol><li>We should <em>paint</em> the porch before winter.</li><li>She <em>painted</em> the door a deep green.</li><li>They have <em>painted</em> the whole apartment.</li></ol>
+<hr>
+<h3 id="sand">sand<a class="hash" href="#sand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sænd/ &middot; <em>SAND</em></dd><dt>Русский</dt><dd>шлифовать наждаком, зачищать, отшлифовать</dd><dt>Forms</dt><dd><em>sand</em> &middot; <em>sanded</em> &middot; <em>sanded</em></dd><dt>Third person</dt><dd><em>sands</em> &middot; <strong>-ing form:</strong> <em>sanding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a surface smooth by rubbing it with sandpaper.</p>
+<ol><li><em>Sand</em> the edges before you stain them.</li><li>He <em>sanded</em> the floor down to bare wood.</li><li>She is <em>sanding</em> the last coat smooth.</li></ol>
+<hr>
+<h3 id="polish">polish<a class="hash" href="#polish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːlɪʃ/ &middot; <em>PAH-lish</em></dd><dt>Русский</dt><dd>полировать, отполировать</dd><dt>Forms</dt><dd><em>polish</em> &middot; <em>polished</em> &middot; <em>polished</em></dd><dt>Third person</dt><dd><em>polishes</em> &middot; <strong>-ing form:</strong> <em>polishing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is PAH-lish; <em>Polish</em>, meaning from Poland, is POH-lish.</dd></dl>
+<p>To rub a surface until it shines.</p>
+<ol><li><em>Polish</em> the brass with a soft cloth.</li><li>He <em>polished</em> the counter until it shone.</li><li>She is <em>polishing</em> the finished bowl.</li></ol>
+<hr>
+<h3 id="varnish">varnish<a class="hash" href="#varnish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɑːrnɪʃ/ &middot; <em>VAR-nish</em></dd><dt>Русский</dt><dd>покрывать лаком, лакировать, отлакировать</dd><dt>Forms</dt><dd><em>varnish</em> &middot; <em>varnished</em> &middot; <em>varnished</em></dd><dt>Third person</dt><dd><em>varnishes</em> &middot; <strong>-ing form:</strong> <em>varnishing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put a clear hard coating on wood.</p>
+<ol><li><em>Varnish</em> the table after it dries.</li><li>He <em>varnished</em> the deck chairs last summer.</li><li>The wood has been <em>varnished</em> twice.</li></ol>
+<hr>
+<h3 id="seal">seal<a class="hash" href="#seal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/siːl/ &middot; <em>SEEL</em></dd><dt>Русский</dt><dd>герметизировать, заделывать, заделать</dd><dt>Forms</dt><dd><em>seal</em> &middot; <em>sealed</em> &middot; <em>sealed</em></dd><dt>Third person</dt><dd><em>seals</em> &middot; <strong>-ing form:</strong> <em>sealing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To close a gap or cover a surface so that nothing gets through.</p>
+<ol><li><em>Seal</em> the gap with caulk.</li><li>They <em>sealed</em> the concrete before winter.</li><li>The joints are <em>sealed</em> with silicone.</li></ol>
+<hr>
+<h3 id="coat">coat<a class="hash" href="#coat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊt/ &middot; <em>KOHT</em></dd><dt>Русский</dt><dd>покрывать слоем, наносить покрытие, покрыть</dd><dt>Forms</dt><dd><em>coat</em> &middot; <em>coated</em> &middot; <em>coated</em></dd><dt>Third person</dt><dd><em>coats</em> &middot; <strong>-ing form:</strong> <em>coating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cover a surface with a thin layer of something.</p>
+<ol><li><em>Coat</em> the pan with oil first.</li><li>The frame was <em>coated</em> in black enamel.</li><li>They are <em>coating</em> the pipes with rubber.</li></ol>
+<hr>
+<h3 id="spray">spray<a class="hash" href="#spray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spreɪ/ &middot; <em>SPRAY</em></dd><dt>Русский</dt><dd>распылять, опрыскивать, покрасить из баллончика</dd><dt>Forms</dt><dd><em>spray</em> &middot; <em>sprayed</em> &middot; <em>sprayed</em></dd><dt>Third person</dt><dd><em>sprays</em> &middot; <strong>-ing form:</strong> <em>spraying</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>A vowel before the <em>y</em> keeps it: <em>sprayed, spraying</em> — not spraied.</dd></dl>
+<p>To send liquid over a surface in very small drops.</p>
+<ol><li><em>Spray</em> the primer in thin layers.</li><li>He <em>sprayed</em> the chairs matte black.</li><li>She is <em>spraying</em> the frame outside.</li></ol>
+<hr>
+<h3 id="stain">stain<a class="hash" href="#stain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/steɪn/ &middot; <em>STAYN</em></dd><dt>Русский</dt><dd>морить, тонировать (дерево); пачкать</dd><dt>Forms</dt><dd><em>stain</em> &middot; <em>stained</em> &middot; <em>stained</em></dd><dt>Third person</dt><dd><em>stains</em> &middot; <strong>-ing form:</strong> <em>staining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To color wood with a liquid that soaks in.</p>
+<ol><li>We'll <em>stain</em> the shelves walnut.</li><li>He <em>stained</em> the deck a dark gray.</li><li>The boards are <em>stained</em> but not sealed.</li></ol>
+<hr>
+<h3 id="insulate">insulate<a class="hash" href="#insulate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnsəleɪt/ &middot; <em>IN-suh-layt</em></dd><dt>Русский</dt><dd>утеплять, утеплить; изолировать</dd><dt>Forms</dt><dd><em>insulate</em> &middot; <em>insulated</em> &middot; <em>insulated</em></dd><dt>Third person</dt><dd><em>insulates</em> &middot; <strong>-ing form:</strong> <em>insulating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cover something so that heat, cold, or electricity cannot pass through.</p>
+<ol><li>They need to <em>insulate</em> the attic.</li><li>We <em>insulated</em> the crawl space last year.</li><li>The pipes are <em>insulated</em> with foam.</li></ol>
+<hr>
+<h3 id="sculpt">sculpt<a class="hash" href="#sculpt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skʌlpt/ &middot; <em>SKULPT</em></dd><dt>Русский</dt><dd>лепить, вылепить; ваять</dd><dt>Forms</dt><dd><em>sculpt</em> &middot; <em>sculpted</em> &middot; <em>sculpted</em></dd><dt>Third person</dt><dd><em>sculpts</em> &middot; <strong>-ing form:</strong> <em>sculpting</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make a figure by shaping clay, stone, or wax.</p>
+<ol><li>She can <em>sculpt</em> a face in an afternoon.</li><li>He <em>sculpted</em> the figure out of wax.</li><li>The artist is <em>sculpting</em> a horse in clay.</li></ol>
+<hr>
+<h3 id="chisel">chisel<a class="hash" href="#chisel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɪzəl/ &middot; <em>CHIZ-uhl</em></dd><dt>Русский</dt><dd>вырезать стамеской, высекать, выдолбить</dd><dt>Forms</dt><dd><em>chisel</em> &middot; <em>chiseled</em> &middot; <em>chiseled</em></dd><dt>Third person</dt><dd><em>chisels</em> &middot; <strong>-ing form:</strong> <em>chiseling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American keeps one <em>l</em>: <em>chiseled, chiseling</em>; British doubles it: <em>chiselled</em>.</dd></dl>
+<p>To cut wood or stone with a chisel.</p>
+<ol><li><em>Chisel</em> out the waste between the lines.</li><li>He <em>chiseled</em> the joints by hand.</li><li>She is <em>chiseling</em> the date into the stone.</li></ol>
+<hr>
+<h3 id="forge">forge<a class="hash" href="#forge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔːrdʒ/ &middot; <em>FORJ</em></dd><dt>Русский</dt><dd>ковать, выковать</dd><dt>Forms</dt><dd><em>forge</em> &middot; <em>forged</em> &middot; <em>forged</em></dd><dt>Third person</dt><dd><em>forges</em> &middot; <strong>-ing form:</strong> <em>forging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Forge</em> also means to fake a signature or a document.</dd></dl>
+<p>To shape hot metal by hammering it.</p>
+<ol><li>They still <em>forge</em> the blades by hand.</li><li>The hinges were <em>forged</em>, not cast.</li><li>He is <em>forging</em> a hook out of scrap steel.</li></ol>
+<hr>
+<h3 id="fold">fold<a class="hash" href="#fold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/foʊld/ &middot; <em>FOHLD</em></dd><dt>Русский</dt><dd>складывать, сложить; сгибать</dd><dt>Forms</dt><dd><em>fold</em> &middot; <em>folded</em> &middot; <em>folded</em></dd><dt>Third person</dt><dd><em>folds</em> &middot; <strong>-ing form:</strong> <em>folding</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To bend something over on itself.</p>
+<ol><li><em>Fold</em> the metal along the score line.</li><li>She <em>folded</em> the sheet into a paper box.</li><li>The legs are <em>folded</em> flat for storage.</li></ol>
+<hr>
+<h3 id="flatten">flatten<a class="hash" href="#flatten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflætən/ &middot; <em>FLAT-uhn</em></dd><dt>Русский</dt><dd>разравнивать, расплющивать, сплющить</dd><dt>Forms</dt><dd><em>flatten</em> &middot; <em>flattened</em> &middot; <em>flattened</em></dd><dt>Third person</dt><dd><em>flattens</em> &middot; <strong>-ing form:</strong> <em>flattening</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make something flat, or to become flat.</p>
+<ol><li><em>Flatten</em> the board with a hand plane.</li><li>The press <em>flattened</em> the sheet in one pass.</li><li>He is <em>flattening</em> the seams with a roller.</li></ol>
+<hr>
+<h3 id="stretch">stretch<a class="hash" href="#stretch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/strɛtʃ/ &middot; <em>STRECH</em></dd><dt>Русский</dt><dd>растягивать, натягивать, растянуть</dd><dt>Forms</dt><dd><em>stretch</em> &middot; <em>stretched</em> &middot; <em>stretched</em></dd><dt>Third person</dt><dd><em>stretches</em> &middot; <strong>-ing form:</strong> <em>stretching</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To pull something so that it becomes longer or tighter.</p>
+<ol><li><em>Stretch</em> the canvas over the frame.</li><li>She <em>stretched</em> the fabric and stapled it down.</li><li>The screen is <em>stretched</em> tight.</li></ol>
+<hr>
+<h3 id="crush">crush<a class="hash" href="#crush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krʌʃ/ &middot; <em>KRUSH</em></dd><dt>Русский</dt><dd>дробить, измельчать, раздавить</dd><dt>Forms</dt><dd><em>crush</em> &middot; <em>crushed</em> &middot; <em>crushed</em></dd><dt>Third person</dt><dd><em>crushes</em> &middot; <strong>-ing form:</strong> <em>crushing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To press something so hard that it breaks into pieces or loses its shape.</p>
+<ol><li>The mill <em>crushes</em> the stone into gravel.</li><li>The box was <em>crushed</em> in shipping.</li><li>They are <em>crushing</em> old concrete for the base.</li></ol>
+<hr>
+<h3 id="sharpen">sharpen<a class="hash" href="#sharpen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːrpən/ &middot; <em>SHAR-puhn</em></dd><dt>Русский</dt><dd>точить, заточить, наточить</dd><dt>Forms</dt><dd><em>sharpen</em> &middot; <em>sharpened</em> &middot; <em>sharpened</em></dd><dt>Third person</dt><dd><em>sharpens</em> &middot; <strong>-ing form:</strong> <em>sharpening</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a blade or a point sharp.</p>
+<ol><li><em>Sharpen</em> the chisel before you start.</li><li>He <em>sharpened</em> every blade in the shop.</li><li>She is <em>sharpening</em> the saw teeth by hand.</li></ol>
+<hr>
+<h3 id="trim">trim<a class="hash" href="#trim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trɪm/ &middot; <em>TRIM</em></dd><dt>Русский</dt><dd>подрезать, обрезать, подстричь</dd><dt>Forms</dt><dd><em>trim</em> &middot; <em>trimmed</em> &middot; <em>trimmed</em></dd><dt>Third person</dt><dd><em>trims</em> &middot; <strong>-ing form:</strong> <em>trimming</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>m</em> doubles: <em>trim → trimmed, trimming</em>.</dd></dl>
+<p>To cut a small amount off something to make it neat or to make it fit.</p>
+<ol><li><em>Trim</em> the edge with a sharp knife.</li><li>He <em>trimmed</em> the door so it would close.</li><li>She is <em>trimming</em> the excess off the seam.</li></ol>
+<hr>
+<h3 id="chop">chop<a class="hash" href="#chop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɑːp/ &middot; <em>CHAHP</em></dd><dt>Русский</dt><dd>рубить, нарубить; нарезать</dd><dt>Forms</dt><dd><em>chop</em> &middot; <em>chopped</em> &middot; <em>chopped</em></dd><dt>Third person</dt><dd><em>chops</em> &middot; <strong>-ing form:</strong> <em>chopping</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>p</em> doubles: <em>chop → chopped, chopping</em>.</dd></dl>
+<p>To cut something with hard strokes of an axe or knife.</p>
+<ol><li><em>Chop</em> the boards into short lengths.</li><li>He <em>chopped</em> the kindling before dark.</li><li>She is <em>chopping</em> onions for the stew.</li></ol>
+<hr>
+<h3 id="slice">slice<a class="hash" href="#slice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slaɪs/ &middot; <em>SLYS</em></dd><dt>Русский</dt><dd>нарезать ломтями, отрезать, разрезать</dd><dt>Forms</dt><dd><em>slice</em> &middot; <em>sliced</em> &middot; <em>sliced</em></dd><dt>Third person</dt><dd><em>slices</em> &middot; <strong>-ing form:</strong> <em>slicing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cut something into thin flat pieces.</p>
+<ol><li><em>Slice</em> the veneer as thin as you can.</li><li>He <em>sliced</em> the pipe with a hacksaw.</li><li>She is <em>slicing</em> the bread now.</li></ol>
+<hr>
+<h3 id="attach">attach<a class="hash" href="#attach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtætʃ/ &middot; <em>uh-TACH</em></dd><dt>Русский</dt><dd>прикреплять, прикрепить; присоединять</dd><dt>Forms</dt><dd><em>attach</em> &middot; <em>attached</em> &middot; <em>attached</em></dd><dt>Third person</dt><dd><em>attaches</em> &middot; <strong>-ing form:</strong> <em>attaching</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You attach one thing <strong>to</strong> another: <em>attach the shelf to the wall</em>.</dd></dl>
+<p>To fix one thing onto another.</p>
+<ol><li><em>Attach</em> the bracket with two screws.</li><li>He <em>attached</em> the legs to the seat.</li><li>The label is <em>attached</em> to the underside.</li></ol>
+<hr>
+<h3 id="connect">connect<a class="hash" href="#connect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈnɛkt/ &middot; <em>kuh-NEKT</em></dd><dt>Русский</dt><dd>соединять, соединить; подключать</dd><dt>Forms</dt><dd><em>connect</em> &middot; <em>connected</em> &middot; <em>connected</em></dd><dt>Third person</dt><dd><em>connects</em> &middot; <strong>-ing form:</strong> <em>connecting</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>Connect one thing <strong>to</strong> another, or two things <strong>with</strong> a part.</dd></dl>
+<p>To join two things so that something can pass between them.</p>
+<ol><li><em>Connect</em> the red wire to the terminal.</li><li>He <em>connected</em> the hose to the pump.</li><li>The two rooms are <em>connected</em> by a short hallway.</li></ol>
+<hr>
+<h3 id="join">join<a class="hash" href="#join" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɔɪn/ &middot; <em>JOYN</em></dd><dt>Русский</dt><dd>соединять, соединить; скреплять</dd><dt>Forms</dt><dd><em>join</em> &middot; <em>joined</em> &middot; <em>joined</em></dd><dt>Third person</dt><dd><em>joins</em> &middot; <strong>-ing form:</strong> <em>joining</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To put two pieces together so that they become one.</p>
+<ol><li><em>Join</em> the boards with glue and dowels.</li><li>The pipes were <em>joined</em> with a metal collar.</li><li>He is <em>joining</em> the two halves right now.</li></ol>
+<hr>
+<h3 id="link">link<a class="hash" href="#link" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɪŋk/ &middot; <em>LINGK</em></dd><dt>Русский</dt><dd>связывать, соединять, соединить</dd><dt>Forms</dt><dd><em>link</em> &middot; <em>linked</em> &middot; <em>linked</em></dd><dt>Third person</dt><dd><em>links</em> &middot; <strong>-ing form:</strong> <em>linking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To connect two things so that they work or move together.</p>
+<ol><li>A short chain <em>links</em> the two gates.</li><li>They <em>linked</em> the shed to the house wiring.</li><li>The buildings are <em>linked</em> by a covered walkway.</li></ol>
+<hr>
+<h3 id="fasten">fasten<a class="hash" href="#fasten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæsən/ &middot; <em>FAS-uhn</em></dd><dt>Русский</dt><dd>закреплять, скреплять, застёгивать</dd><dt>Forms</dt><dd><em>fasten</em> &middot; <em>fastened</em> &middot; <em>fastened</em></dd><dt>Third person</dt><dd><em>fastens</em> &middot; <strong>-ing form:</strong> <em>fastening</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The <em>t</em> is silent: FAS-uhn, like <em>listen</em> and <em>soften</em>.</dd></dl>
+<p>To close or fix something firmly in place.</p>
+<ol><li><em>Fasten</em> the panel with four bolts.</li><li>She <em>fastened</em> the strap around the load.</li><li>The lid is <em>fastened</em> with a latch.</li></ol>
+<hr>
+<h3 id="tighten">tighten<a class="hash" href="#tighten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪtən/ &middot; <em>TY-tuhn</em></dd><dt>Русский</dt><dd>затягивать, подтягивать, затянуть</dd><dt>Forms</dt><dd><em>tighten</em> &middot; <em>tightened</em> &middot; <em>tightened</em></dd><dt>Third person</dt><dd><em>tightens</em> &middot; <strong>-ing form:</strong> <em>tightening</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make something tighter or firmer.</p>
+<ol><li><em>Tighten</em> the screws a quarter turn.</li><li>He <em>tightened</em> the belt until it stopped slipping.</li><li>She is <em>tightening</em> the last bolt.</li></ol>
+<hr>
+<h3 id="loosen">loosen<a class="hash" href="#loosen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈluːsən/ &middot; <em>LOO-suhn</em></dd><dt>Русский</dt><dd>ослаблять, откручивать, ослабить</dd><dt>Forms</dt><dd><em>loosen</em> &middot; <em>loosened</em> &middot; <em>loosened</em></dd><dt>Third person</dt><dd><em>loosens</em> &middot; <strong>-ing form:</strong> <em>loosening</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The <em>s</em> is /s/, not /z/: LOO-suhn. Compare <em>lose</em>, which ends in /z/.</dd></dl>
+<p>To make something less tight.</p>
+<ol><li><em>Loosen</em> the nut before you pull the wheel.</li><li>He <em>loosened</em> the clamp too soon.</li><li>The joint has <em>loosened</em> over the years.</li></ol>
+<hr>
+<h3 id="mount">mount<a class="hash" href="#mount" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maʊnt/ &middot; <em>MOWNT</em></dd><dt>Русский</dt><dd>монтировать, устанавливать, закрепить</dd><dt>Forms</dt><dd><em>mount</em> &middot; <em>mounted</em> &middot; <em>mounted</em></dd><dt>Third person</dt><dd><em>mounts</em> &middot; <strong>-ing form:</strong> <em>mounting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fix something onto a wall, a stand, or a support.</p>
+<ol><li><em>Mount</em> the TV at eye level.</li><li>They <em>mounted</em> the camera on a pole.</li><li>The shelf is <em>mounted</em> with hidden brackets.</li></ol>
+<hr>
+<h3 id="anchor">anchor<a class="hash" href="#anchor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋkər/ &middot; <em>ANG-kur</em></dd><dt>Русский</dt><dd>закреплять, крепить анкером, зафиксировать</dd><dt>Forms</dt><dd><em>anchor</em> &middot; <em>anchored</em> &middot; <em>anchored</em></dd><dt>Third person</dt><dd><em>anchors</em> &middot; <strong>-ing form:</strong> <em>anchoring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>ch</em> is /k/: ANG-kur.</dd></dl>
+<p>To fix something firmly so that it cannot move.</p>
+<ol><li><em>Anchor</em> the post in concrete.</li><li>The railing was <em>anchored</em> to the deck joists.</li><li>They are <em>anchoring</em> the frame to the slab.</li></ol>
+<hr>
+<h3 id="secure">secure<a class="hash" href="#secure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈkjʊr/ &middot; <em>sih-KYUR</em></dd><dt>Русский</dt><dd>закреплять, закрепить, зафиксировать</dd><dt>Forms</dt><dd><em>secure</em> &middot; <em>secured</em> &middot; <em>secured</em></dd><dt>Third person</dt><dd><em>secures</em> &middot; <strong>-ing form:</strong> <em>securing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fasten something so that it stays in place.</p>
+<ol><li><em>Secure</em> the load with two straps.</li><li>He <em>secured</em> the ladder to the roof rack.</li><li>The panels are <em>secured</em> with clips.</li></ol>
+<hr>
+<h3 id="thread">thread<a class="hash" href="#thread" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θrɛd/ &middot; <em>THRED</em></dd><dt>Русский</dt><dd>продевать, вдевать, протянуть</dd><dt>Forms</dt><dd><em>thread</em> &middot; <em>threaded</em> &middot; <em>threaded</em></dd><dt>Third person</dt><dd><em>threads</em> &middot; <strong>-ing form:</strong> <em>threading</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Here <em>ea</em> is /ɛ/: THRED rhymes with <em>red</em>, not with <em>read</em> the noun.</dd></dl>
+<p>To pass something long and thin through a hole or a narrow space.</p>
+<ol><li><em>Thread</em> the cable through the hole.</li><li>She <em>threaded</em> the wire behind the wall.</li><li>He is <em>threading</em> the bolt into the nut.</li></ol>
+<hr>
+<h3 id="pin">pin<a class="hash" href="#pin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪn/ &middot; <em>PIN</em></dd><dt>Русский</dt><dd>прикалывать, закреплять булавкой, приколоть</dd><dt>Forms</dt><dd><em>pin</em> &middot; <em>pinned</em> &middot; <em>pinned</em></dd><dt>Third person</dt><dd><em>pins</em> &middot; <strong>-ing form:</strong> <em>pinning</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>n</em> doubles: <em>pin → pinned, pinning</em>.</dd></dl>
+<p>To fasten something with a pin, or to hold it against a surface.</p>
+<ol><li><em>Pin</em> the pattern to the fabric.</li><li>She <em>pinned</em> the hem before sewing it.</li><li>The plan is <em>pinned</em> to the wall of the shop.</li></ol>
+<hr>
+<h3 id="clamp">clamp<a class="hash" href="#clamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klæmp/ &middot; <em>KLAMP</em></dd><dt>Русский</dt><dd>зажимать, фиксировать струбциной, зажать</dd><dt>Forms</dt><dd><em>clamp</em> &middot; <em>clamped</em> &middot; <em>clamped</em></dd><dt>Third person</dt><dd><em>clamps</em> &middot; <strong>-ing form:</strong> <em>clamping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To hold something tightly with a clamp.</p>
+<ol><li><em>Clamp</em> the joint until the glue sets.</li><li>He <em>clamped</em> the board to the bench.</li><li>The pieces are <em>clamped</em> overnight.</li></ol>
+<hr>
+<h3 id="reinforce">reinforce<a class="hash" href="#reinforce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːɪnˈfɔːrs/ &middot; <em>ree-in-FORS</em></dd><dt>Русский</dt><dd>укреплять, усиливать, усилить</dd><dt>Forms</dt><dd><em>reinforce</em> &middot; <em>reinforced</em> &middot; <em>reinforced</em></dd><dt>Third person</dt><dd><em>reinforces</em> &middot; <strong>-ing form:</strong> <em>reinforcing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make something stronger by adding material or support.</p>
+<ol><li>We should <em>reinforce</em> the shelf with a center support.</li><li>They <em>reinforced</em> the floor with steel beams.</li><li>The corners are <em>reinforced</em> with metal plates.</li></ol>
+<hr>
+<h3 id="fix">fix<a class="hash" href="#fix" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪks/ &middot; <em>FIKS</em></dd><dt>Русский</dt><dd>чинить, починить; исправлять</dd><dt>Forms</dt><dd><em>fix</em> &middot; <em>fixed</em> &middot; <em>fixed</em></dd><dt>Third person</dt><dd><em>fixes</em> &middot; <strong>-ing form:</strong> <em>fixing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make something work again after it has broken.</p>
+<ol><li>Can you <em>fix</em> the hinge?</li><li>He <em>fixed</em> the leak with a rubber washer.</li><li>The heater is being <em>fixed</em> today.</li></ol>
+<hr>
+<h3 id="repair">repair<a class="hash" href="#repair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈpɛr/ &middot; <em>rih-PAIR</em></dd><dt>Русский</dt><dd>ремонтировать, чинить, отремонтировать</dd><dt>Forms</dt><dd><em>repair</em> &middot; <em>repaired</em> &middot; <em>repaired</em></dd><dt>Third person</dt><dd><em>repairs</em> &middot; <strong>-ing form:</strong> <em>repairing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put something damaged back into good condition.</p>
+<ol><li>They can <em>repair</em> the roof in a day.</li><li>The crack was <em>repaired</em> with epoxy.</li><li>He is <em>repairing</em> the fence this morning.</li></ol>
+<hr>
+<h3 id="mend">mend<a class="hash" href="#mend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɛnd/ &middot; <em>MEND</em></dd><dt>Русский</dt><dd>чинить, штопать, зашить</dd><dt>Forms</dt><dd><em>mend</em> &middot; <em>mended</em> &middot; <em>mended</em></dd><dt>Third person</dt><dd><em>mends</em> &middot; <strong>-ing form:</strong> <em>mending</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To repair something small, especially clothing or a tear.</p>
+<ol><li>She can <em>mend</em> almost anything.</li><li>He <em>mended</em> the net with a loop of twine.</li><li>The sleeve has been <em>mended</em> twice.</li></ol>
+<hr>
+<h3 id="restore">restore<a class="hash" href="#restore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈstɔːr/ &middot; <em>rih-STOR</em></dd><dt>Русский</dt><dd>реставрировать, восстанавливать, восстановить</dd><dt>Forms</dt><dd><em>restore</em> &middot; <em>restored</em> &middot; <em>restored</em></dd><dt>Third person</dt><dd><em>restores</em> &middot; <strong>-ing form:</strong> <em>restoring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To bring something old back to its original condition.</p>
+<ol><li>They plan to <em>restore</em> the old mill.</li><li>He <em>restored</em> the truck over four winters.</li><li>The windows are being <em>restored</em> one at a time.</li></ol>
+<hr>
+<h3 id="renovate">renovate<a class="hash" href="#renovate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛnəveɪt/ &middot; <em>REN-uh-vayt</em></dd><dt>Русский</dt><dd>ремонтировать, обновлять, отремонтировать</dd><dt>Forms</dt><dd><em>renovate</em> &middot; <em>renovated</em> &middot; <em>renovated</em></dd><dt>Third person</dt><dd><em>renovates</em> &middot; <strong>-ing form:</strong> <em>renovating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To repair and modernize a building or a room.</p>
+<ol><li>They want to <em>renovate</em> the kitchen.</li><li>We <em>renovated</em> the upstairs bathroom last spring.</li><li>The building is being <em>renovated</em> floor by floor.</li></ol>
+<hr>
+<h3 id="remodel">remodel<a class="hash" href="#remodel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈmɑːdəl/ &middot; <em>ree-MAH-duhl</em></dd><dt>Русский</dt><dd>перестраивать, перепланировать, переделать</dd><dt>Forms</dt><dd><em>remodel</em> &middot; <em>remodeled</em> &middot; <em>remodeled</em></dd><dt>Third person</dt><dd><em>remodels</em> &middot; <strong>-ing form:</strong> <em>remodeling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American keeps one <em>l</em>: <em>remodeled, remodeling</em>. <em>Remodel</em> is the everyday American word where the British say <em>do up</em> or <em>convert</em>.</dd></dl>
+<p>To change the structure or layout of a room or building.</p>
+<ol><li>They are going to <em>remodel</em> the basement.</li><li>We <em>remodeled</em> the whole first floor.</li><li>The store has been <em>remodeled</em> twice since 2010.</li></ol>
+<hr>
+<h3 id="upgrade">upgrade<a class="hash" href="#upgrade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌpɡreɪd/ &middot; <em>UP-grayd</em></dd><dt>Русский</dt><dd>модернизировать, обновлять, улучшить</dd><dt>Forms</dt><dd><em>upgrade</em> &middot; <em>upgraded</em> &middot; <em>upgraded</em></dd><dt>Third person</dt><dd><em>upgrades</em> &middot; <strong>-ing form:</strong> <em>upgrading</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To replace something with a newer or better version.</p>
+<ol><li>We should <em>upgrade</em> the wiring.</li><li>They <em>upgraded</em> the furnace last winter.</li><li>The kitchen has been fully <em>upgraded</em>.</li></ol>
+<hr>
+<h3 id="patch">patch<a class="hash" href="#patch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pætʃ/ &middot; <em>PACH</em></dd><dt>Русский</dt><dd>латать, заделывать, залатать</dd><dt>Forms</dt><dd><em>patch</em> &middot; <em>patched</em> &middot; <em>patched</em></dd><dt>Third person</dt><dd><em>patches</em> &middot; <strong>-ing form:</strong> <em>patching</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cover a hole with a piece of material.</p>
+<ol><li><em>Patch</em> the hole before you paint.</li><li>He <em>patched</em> the drywall with mesh tape.</li><li>The roof has been <em>patched</em> three times.</li></ol>
+<hr>
+<h3 id="modify">modify<a class="hash" href="#modify" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːdɪfaɪ/ &middot; <em>MAH-dih-fy</em></dd><dt>Русский</dt><dd>изменять, модифицировать, видоизменить</dd><dt>Forms</dt><dd><em>modify</em> &middot; <em>modified</em> &middot; <em>modified</em></dd><dt>Third person</dt><dd><em>modifies</em> &middot; <strong>-ing form:</strong> <em>modifying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>-y</em> changes: <em>modifies, modified</em>, but <em>modifying</em> keeps it.</dd></dl>
+<p>To change part of something so that it works differently.</p>
+<ol><li>We can <em>modify</em> the design to fit.</li><li>They <em>modified</em> the frame to take a bigger motor.</li><li>The plans are being <em>modified</em> again.</li></ol>
+<hr>
+<h3 id="alter">alter<a class="hash" href="#alter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːltər/ &middot; <em>AWL-tur</em></dd><dt>Русский</dt><dd>изменять, переделывать, изменить</dd><dt>Forms</dt><dd><em>alter</em> &middot; <em>altered</em> &middot; <em>altered</em></dd><dt>Third person</dt><dd><em>alters</em> &middot; <strong>-ing form:</strong> <em>altering</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd><em>Alter</em>, to change, sounds the same as <em>altar</em>, the table in a church.</dd></dl>
+<p>To change something, usually slightly.</p>
+<ol><li>Do not <em>alter</em> the drawings without telling me.</li><li>She <em>altered</em> the jacket to fit.</li><li>The plan has been <em>altered</em> twice.</li></ol>
+<hr>
+<h3 id="adjust">adjust<a class="hash" href="#adjust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdʒʌst/ &middot; <em>uh-JUST</em></dd><dt>Русский</dt><dd>регулировать, настраивать, отрегулировать</dd><dt>Forms</dt><dd><em>adjust</em> &middot; <em>adjusted</em> &middot; <em>adjusted</em></dd><dt>Third person</dt><dd><em>adjusts</em> &middot; <strong>-ing form:</strong> <em>adjusting</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To move or change something a little so that it is right.</p>
+<ol><li><em>Adjust</em> the hinge until the door closes.</li><li>He <em>adjusted</em> the legs to level the table.</li><li>She is <em>adjusting</em> the belt tension.</li></ol>
+<hr>
+<h3 id="dismantle">dismantle<a class="hash" href="#dismantle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈmæntəl/ &middot; <em>dis-MAN-tuhl</em></dd><dt>Русский</dt><dd>разбирать, демонтировать, разобрать</dd><dt>Forms</dt><dd><em>dismantle</em> &middot; <em>dismantled</em> &middot; <em>dismantled</em></dd><dt>Third person</dt><dd><em>dismantles</em> &middot; <strong>-ing form:</strong> <em>dismantling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To take a machine or structure apart piece by piece.</p>
+<ol><li>We have to <em>dismantle</em> the bed to move it.</li><li>They <em>dismantled</em> the scaffolding in an hour.</li><li>The press is being <em>dismantled</em> for parts.</li></ol>
+<hr>
+<h3 id="demolish">demolish<a class="hash" href="#demolish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈmɑːlɪʃ/ &middot; <em>dih-MAH-lish</em></dd><dt>Русский</dt><dd>сносить, снести, разрушать</dd><dt>Forms</dt><dd><em>demolish</em> &middot; <em>demolished</em> &middot; <em>demolished</em></dd><dt>Third person</dt><dd><em>demolishes</em> &middot; <strong>-ing form:</strong> <em>demolishing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To knock a building down on purpose.</p>
+<ol><li>The city will <em>demolish</em> the old garage.</li><li>They <em>demolished</em> the wall in one morning.</li><li>The building has already been <em>demolished</em>.</li></ol>
+<hr>
+<h3 id="print">print<a class="hash" href="#print" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪnt/ &middot; <em>PRINT</em></dd><dt>Русский</dt><dd>печатать, напечатать, распечатать</dd><dt>Forms</dt><dd><em>print</em> &middot; <em>printed</em> &middot; <em>printed</em></dd><dt>Third person</dt><dd><em>prints</em> &middot; <strong>-ing form:</strong> <em>printing</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To produce words or images on paper with a machine.</p>
+<ol><li>Can you <em>print</em> two copies?</li><li>She <em>printed</em> the labels this morning.</li><li>The shop is <em>printing</em> the posters now.</li></ol>
+<hr>
+<h3 id="publish">publish<a class="hash" href="#publish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌblɪʃ/ &middot; <em>PUB-lish</em></dd><dt>Русский</dt><dd>издавать, публиковать, опубликовать</dd><dt>Forms</dt><dd><em>publish</em> &middot; <em>published</em> &middot; <em>published</em></dd><dt>Third person</dt><dd><em>publishes</em> &middot; <strong>-ing form:</strong> <em>publishing</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To produce a book, article, or post and make it available to the public.</p>
+<ol><li>They <em>publish</em> four books a year.</li><li>He <em>published</em> the plans online for free.</li><li>The article was <em>published</em> last week.</li></ol>
+<hr>
+<h3 id="bake">bake<a class="hash" href="#bake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/beɪk/ &middot; <em>BAYK</em></dd><dt>Русский</dt><dd>печь, запекать, испечь; обжигать</dd><dt>Forms</dt><dd><em>bake</em> &middot; <em>baked</em> &middot; <em>baked</em></dd><dt>Third person</dt><dd><em>bakes</em> &middot; <strong>-ing form:</strong> <em>baking</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To cook or harden something with dry heat in an oven.</p>
+<ol><li><em>Bake</em> the clay at three hundred degrees.</li><li>She <em>baked</em> two loaves this morning.</li><li>The tiles are <em>baking</em> in the kiln.</li></ol>
+<hr>
+<h3 id="brew">brew<a class="hash" href="#brew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bruː/ &middot; <em>BROO</em></dd><dt>Русский</dt><dd>варить (пиво), заваривать, сварить</dd><dt>Forms</dt><dd><em>brew</em> &middot; <em>brewed</em> &middot; <em>brewed</em></dd><dt>Third person</dt><dd><em>brews</em> &middot; <strong>-ing form:</strong> <em>brewing</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make beer, or to make coffee or tea with hot water.</p>
+<ol><li>They <em>brew</em> their own beer in the garage.</li><li>He <em>brewed</em> a batch last weekend.</li><li>The coffee is still <em>brewing</em>.</li></ol>
+<hr>
+<h3 id="mix">mix<a class="hash" href="#mix" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪks/ &middot; <em>MIKS</em></dd><dt>Русский</dt><dd>смешивать, смешать; замешивать</dd><dt>Forms</dt><dd><em>mix</em> &middot; <em>mixed</em> &middot; <em>mixed</em></dd><dt>Third person</dt><dd><em>mixes</em> &middot; <strong>-ing form:</strong> <em>mixing</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>A verb ending in <em>-x</em> takes <em>-es</em>: <em>mixes</em>.</dd></dl>
+<p>To put substances together so that they become one.</p>
+<ol><li><em>Mix</em> the concrete in small batches.</li><li>He <em>mixed</em> the paint by hand.</li><li>She is <em>mixing</em> the mortar now.</li></ol>
+<hr>
+<h3 id="stir">stir<a class="hash" href="#stir" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɜːr/ &middot; <em>STUR</em></dd><dt>Русский</dt><dd>размешивать, помешивать, размешать</dd><dt>Forms</dt><dd><em>stir</em> &middot; <em>stirred</em> &middot; <em>stirred</em></dd><dt>Third person</dt><dd><em>stirs</em> &middot; <strong>-ing form:</strong> <em>stirring</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The <em>r</em> doubles: <em>stir → stirred, stirring</em>.</dd></dl>
+<p>To move a liquid or mixture around with a stick or spoon.</p>
+<ol><li><em>Stir</em> the paint before you use it.</li><li>He <em>stirred</em> the mixture until it was smooth.</li><li>She is <em>stirring</em> the glue into the sawdust.</li></ol>
+<hr>
+<h3 id="knead">knead<a class="hash" href="#knead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/niːd/ &middot; <em>NEED</em></dd><dt>Русский</dt><dd>месить, замешивать, вымесить</dd><dt>Forms</dt><dd><em>knead</em> &middot; <em>kneaded</em> &middot; <em>kneaded</em></dd><dt>Third person</dt><dd><em>kneads</em> &middot; <strong>-ing form:</strong> <em>kneading</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>k</em> is silent, so <em>knead</em> sounds exactly like <em>need</em>.</dd></dl>
+<p>To press and fold dough or clay with your hands.</p>
+<ol><li><em>Knead</em> the dough for ten minutes.</li><li>He <em>kneaded</em> the clay to get the air out.</li><li>She is <em>kneading</em> the bread on the counter.</li></ol>
+<hr>
+<h3 id="package">package<a class="hash" href="#package" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpækɪdʒ/ &middot; <em>PAK-ij</em></dd><dt>Русский</dt><dd>упаковывать, фасовать, упаковать</dd><dt>Forms</dt><dd><em>package</em> &middot; <em>packaged</em> &middot; <em>packaged</em></dd><dt>Third person</dt><dd><em>packages</em> &middot; <strong>-ing form:</strong> <em>packaging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put a product into a box or wrapper for sale or shipping.</p>
+<ol><li>They <em>package</em> each lamp in foam.</li><li>The kits were <em>packaged</em> by hand.</li><li>We are <em>packaging</em> the last orders now.</li></ol>
+<hr>
+<h3 id="label">label<a class="hash" href="#label" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪbəl/ &middot; <em>LAY-buhl</em></dd><dt>Русский</dt><dd>маркировать, подписывать, наклеивать этикетку</dd><dt>Forms</dt><dd><em>label</em> &middot; <em>labeled</em> &middot; <em>labeled</em></dd><dt>Third person</dt><dd><em>labels</em> &middot; <strong>-ing form:</strong> <em>labeling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American keeps one <em>l</em>: <em>labeled, labeling</em>; British writes <em>labelled</em>.</dd></dl>
+<p>To put a name or a mark on something so it can be identified.</p>
+<ol><li><em>Label</em> every wire before you cut it.</li><li>He <em>labeled</em> the boxes by room.</li><li>The jars are <em>labeled</em> with the date.</li></ol>
+<hr>
+<h3 id="program">program<a class="hash" href="#program" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊɡræm/ &middot; <em>PROH-gram</em></dd><dt>Русский</dt><dd>программировать, запрограммировать; настраивать</dd><dt>Forms</dt><dd><em>program</em> &middot; <em>programmed</em> &middot; <em>programmed</em></dd><dt>Third person</dt><dd><em>programs</em> &middot; <strong>-ing form:</strong> <em>programming</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>Americans write the base form <em>program</em>, but still double the <em>m</em>: <em>programmed, programming</em>.</dd></dl>
+<p>To give a machine or a computer a set of instructions.</p>
+<ol><li>You can <em>program</em> the thermostat from your phone.</li><li>He <em>programmed</em> the machine to cut the same shape every time.</li><li>She is <em>programming</em> the controller tonight.</li></ol>
+<hr>
+<h3 id="code">code<a class="hash" href="#code" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊd/ &middot; <em>KOHD</em></dd><dt>Русский</dt><dd>программировать, писать код, написать код</dd><dt>Forms</dt><dd><em>code</em> &middot; <em>coded</em> &middot; <em>coded</em></dd><dt>Third person</dt><dd><em>codes</em> &middot; <strong>-ing form:</strong> <em>coding</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To write the instructions that make a program work.</p>
+<ol><li>She can <em>code</em> the whole interface herself.</li><li>He <em>coded</em> the first version in a weekend.</li><li>They are <em>coding</em> the new checkout page.</li></ol>
+<hr>
+<h3 id="mark">mark<a class="hash" href="#mark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːrk/ &middot; <em>MARK</em></dd><dt>Русский</dt><dd>отмечать, размечать, разметить</dd><dt>Forms</dt><dd><em>mark</em> &middot; <em>marked</em> &middot; <em>marked</em></dd><dt>Third person</dt><dd><em>marks</em> &middot; <strong>-ing form:</strong> <em>marking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To draw a line or sign on something to show where to cut or drill.</p>
+<ol><li><em>Mark</em> the studs with a pencil.</li><li>He <em>marked</em> the cut line with tape.</li><li>The centers are <em>marked</em> on the drawing.</li></ol>
+<hr>
+<h3 id="align">align<a class="hash" href="#align" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlaɪn/ &middot; <em>uh-LYN</em></dd><dt>Русский</dt><dd>выравнивать, совмещать, выровнять</dd><dt>Forms</dt><dd><em>align</em> &middot; <em>aligned</em> &middot; <em>aligned</em></dd><dt>Third person</dt><dd><em>aligns</em> &middot; <strong>-ing form:</strong> <em>aligning</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The <em>g</em> is silent: uh-LYN.</dd></dl>
+<p>To put two or more things in a straight line, or in the right position.</p>
+<ol><li><em>Align</em> the holes before you push the pin in.</li><li>He <em>aligned</em> the doors so the gaps matched.</li><li>The panels are not <em>aligned</em>.</li></ol>
+<hr>
+<h3 id="level">level<a class="hash" href="#level" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛvəl/ &middot; <em>LEV-uhl</em></dd><dt>Русский</dt><dd>выравнивать, нивелировать, выровнять</dd><dt>Forms</dt><dd><em>level</em> &middot; <em>leveled</em> &middot; <em>leveled</em></dd><dt>Third person</dt><dd><em>levels</em> &middot; <strong>-ing form:</strong> <em>leveling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American keeps one <em>l</em>: <em>leveled, leveling</em>; British writes <em>levelled</em>.</dd></dl>
+<p>To make a surface flat and horizontal.</p>
+<ol><li><em>Level</em> the base before you set the post.</li><li>They <em>leveled</em> the ground with a rake.</li><li>He is <em>leveling</em> the washer with a wrench.</li></ol>
+<hr>
+<h3 id="position">position<a class="hash" href="#position" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈzɪʃən/ &middot; <em>puh-ZISH-uhn</em></dd><dt>Русский</dt><dd>располагать, размещать, разместить</dd><dt>Forms</dt><dd><em>position</em> &middot; <em>positioned</em> &middot; <em>positioned</em></dd><dt>Third person</dt><dd><em>positions</em> &middot; <strong>-ing form:</strong> <em>positioning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put something in a particular place on purpose.</p>
+<ol><li><em>Position</em> the brace under the beam.</li><li>He <em>positioned</em> the lamp over the bench.</li><li>The speakers are <em>positioned</em> in the corners.</li></ol>
+<hr>
+<h3 id="stack">stack<a class="hash" href="#stack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stæk/ &middot; <em>STAK</em></dd><dt>Русский</dt><dd>складывать в стопку, штабелировать, сложить</dd><dt>Forms</dt><dd><em>stack</em> &middot; <em>stacked</em> &middot; <em>stacked</em></dd><dt>Third person</dt><dd><em>stacks</em> &middot; <strong>-ing form:</strong> <em>stacking</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To put things one on top of another.</p>
+<ol><li><em>Stack</em> the boards with spacers between them.</li><li>He <em>stacked</em> the bricks along the wall.</li><li>The crates are <em>stacked</em> three high.</li></ol>
+<hr>
+<h3 id="equip">equip<a class="hash" href="#equip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈkwɪp/ &middot; <em>ih-KWIP</em></dd><dt>Русский</dt><dd>оснащать, оборудовать, оснастить</dd><dt>Forms</dt><dd><em>equip</em> &middot; <em>equipped</em> &middot; <em>equipped</em></dd><dt>Third person</dt><dd><em>equips</em> &middot; <strong>-ing form:</strong> <em>equipping</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>p</em> doubles: <em>equip → equipped, equipping</em>.</dd></dl>
+<p>To supply a place or a person with the tools needed for a job.</p>
+<ol><li>They <em>equip</em> every van with a full tool kit.</li><li>The shop was <em>equipped</em> with two lathes.</li><li>We are <em>equipping</em> the lab this month.</li></ol>
+<hr>
+<h3 id="furnish">furnish<a class="hash" href="#furnish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrnɪʃ/ &middot; <em>FUR-nish</em></dd><dt>Русский</dt><dd>обставлять мебелью, меблировать, обставить</dd><dt>Forms</dt><dd><em>furnish</em> &middot; <em>furnished</em> &middot; <em>furnished</em></dd><dt>Third person</dt><dd><em>furnishes</em> &middot; <strong>-ing form:</strong> <em>furnishing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put furniture into a room or a house.</p>
+<ol><li>It will cost a lot to <em>furnish</em> the whole house.</li><li>They <em>furnished</em> the apartment from thrift stores.</li><li>The place was already <em>furnished</em> when we moved in.</li></ol>
+<hr>
+<h3 id="decorate">decorate<a class="hash" href="#decorate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛkəreɪt/ &middot; <em>DEK-uh-rayt</em></dd><dt>Русский</dt><dd>украшать, оформлять, украсить</dd><dt>Forms</dt><dd><em>decorate</em> &middot; <em>decorated</em> &middot; <em>decorated</em></dd><dt>Third person</dt><dd><em>decorates</em> &middot; <strong>-ing form:</strong> <em>decorating</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make something look better by adding color or ornament.</p>
+<ol><li>Let's <em>decorate</em> the room in warm colors.</li><li>She <em>decorated</em> the cake with fresh berries.</li><li>The hall was <em>decorated</em> for the party.</li></ol>
+<hr>
+<h3 id="dye">dye<a class="hash" href="#dye" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/daɪ/ &middot; <em>DY</em></dd><dt>Русский</dt><dd>красить, окрашивать (ткань), покрасить</dd><dt>Forms</dt><dd><em>dye</em> &middot; <em>dyed</em> &middot; <em>dyed</em></dd><dt>Third person</dt><dd><em>dyes</em> &middot; <strong>-ing form:</strong> <em>dyeing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Dyeing</em> keeps the <em>e</em>; <em>dying</em>, from <em>die</em>, does not.</dd></dl>
+<p>To change the color of cloth, hair, or leather with a colored liquid.</p>
+<ol><li>You can <em>dye</em> the fabric a darker blue.</li><li>She <em>dyed</em> the cotton with onion skins.</li><li>He is <em>dyeing</em> the wool in a big pot.</li></ol>
+<hr>
+<h3 id="copy">copy<a class="hash" href="#copy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpi/ &middot; <em>KAH-pee</em></dd><dt>Русский</dt><dd>копировать, скопировать; переписывать</dd><dt>Forms</dt><dd><em>copy</em> &middot; <em>copied</em> &middot; <em>copied</em></dd><dt>Third person</dt><dd><em>copies</em> &middot; <strong>-ing form:</strong> <em>copying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>A consonant before <em>-y</em> changes it: <em>copies, copied</em>, but <em>copying</em> keeps the <em>y</em>.</dd></dl>
+<p>To make something exactly like an original.</p>
+<ol><li><em>Copy</em> the pattern onto stiff paper.</li><li>He <em>copied</em> the joint from an old chair.</li><li>She is <em>copying</em> the drawing to scale.</li></ol>
+<hr>
+<h3 id="customize">customize<a class="hash" href="#customize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌstəmaɪz/ &middot; <em>KUS-tuh-myz</em></dd><dt>Русский</dt><dd>настраивать под заказ, дорабатывать, доработать</dd><dt>Forms</dt><dd><em>customize</em> &middot; <em>customized</em> &middot; <em>customized</em></dd><dt>Third person</dt><dd><em>customizes</em> &middot; <strong>-ing form:</strong> <em>customizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American spells it <em>-ize</em>; the British often write <em>customise</em>.</dd></dl>
+<p>To change something so that it suits one particular person or use.</p>
+<ol><li>You can <em>customize</em> the handles.</li><li>They <em>customized</em> the van for long trips.</li><li>Every bike is <em>customized</em> for the rider.</li></ol>
+<hr>
+<h3 id="tailor">tailor<a class="hash" href="#tailor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪlər/ &middot; <em>TAY-lur</em></dd><dt>Русский</dt><dd>подгонять, приспосабливать, адаптировать</dd><dt>Forms</dt><dd><em>tailor</em> &middot; <em>tailored</em> &middot; <em>tailored</em></dd><dt>Third person</dt><dd><em>tailors</em> &middot; <strong>-ing form:</strong> <em>tailoring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You tailor something <strong>to</strong> a person or a need.</dd></dl>
+<p>To make or change something so that it fits an exact need.</p>
+<ol><li>We can <em>tailor</em> the design to your space.</li><li>He <em>tailored</em> the jacket to fit her shoulders.</li><li>The course is <em>tailored</em> to beginners.</li></ol>
+<hr>
+<h3 id="refine">refine<a class="hash" href="#refine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfaɪn/ &middot; <em>rih-FYN</em></dd><dt>Русский</dt><dd>дорабатывать, совершенствовать, доработать</dd><dt>Forms</dt><dd><em>refine</em> &middot; <em>refined</em> &middot; <em>refined</em></dd><dt>Third person</dt><dd><em>refines</em> &middot; <strong>-ing form:</strong> <em>refining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To improve something by making small careful changes.</p>
+<ol><li>We can <em>refine</em> the shape later.</li><li>She <em>refined</em> the prototype three times.</li><li>The process has been <em>refined</em> over many years.</li></ol>
+<hr>
+<h3 id="compose">compose<a class="hash" href="#compose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpoʊz/ &middot; <em>kuhm-POHZ</em></dd><dt>Русский</dt><dd>сочинять, составлять, сочинить</dd><dt>Forms</dt><dd><em>compose</em> &middot; <em>composed</em> &middot; <em>composed</em></dd><dt>Third person</dt><dd><em>composes</em> &middot; <strong>-ing form:</strong> <em>composing</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make a whole by putting parts together, especially music or writing.</p>
+<ol><li>He can <em>compose</em> a tune in an hour.</li><li>She <em>composed</em> the piece for four voices.</li><li>The image is <em>composed</em> of thousands of small tiles.</li></ol>
+<hr>
+<h3 id="harden">harden<a class="hash" href="#harden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrdən/ &middot; <em>HAR-duhn</em></dd><dt>Русский</dt><dd>затвердевать, твердеть; закалять, закалить</dd><dt>Forms</dt><dd><em>harden</em> &middot; <em>hardened</em> &middot; <em>hardened</em></dd><dt>Third person</dt><dd><em>hardens</em> &middot; <strong>-ing form:</strong> <em>hardening</em></dd><dt>Transitivity</dt><dd>both — transitive (harden the steel), intransitive (the glue hardened overnight)</dd></dl>
+<p>To become hard, or to make something hard.</p>
+<ol><li>Heat will <em>harden</em> the steel.</li><li>The resin <em>hardened</em> overnight.</li><li>The clay is <em>hardening</em> faster than we expected.</li></ol>
+<hr>
+<h3 id="strengthen">strengthen<a class="hash" href="#strengthen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstrɛŋθən/ &middot; <em>STRENG-thuhn</em></dd><dt>Русский</dt><dd>укреплять, усиливать, укрепить</dd><dt>Forms</dt><dd><em>strengthen</em> &middot; <em>strengthened</em> &middot; <em>strengthened</em></dd><dt>Third person</dt><dd><em>strengthens</em> &middot; <strong>-ing form:</strong> <em>strengthening</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make something stronger, or to become stronger.</p>
+<ol><li>Two braces will <em>strengthen</em> the frame.</li><li>They <em>strengthened</em> the bridge deck last year.</li><li>The mix is <em>strengthening</em> as it cures.</li></ol>
+<hr>
+<h3 id="widen">widen<a class="hash" href="#widen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪdən/ &middot; <em>WY-duhn</em></dd><dt>Русский</dt><dd>расширять, расширить</dd><dt>Forms</dt><dd><em>widen</em> &middot; <em>widened</em> &middot; <em>widened</em></dd><dt>Third person</dt><dd><em>widens</em> &middot; <strong>-ing form:</strong> <em>widening</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make something wider, or to become wider.</p>
+<ol><li>They plan to <em>widen</em> the doorway.</li><li>The crew <em>widened</em> the road by six feet.</li><li>The crack is <em>widening</em> every winter.</li></ol>
+<hr>
+<h3 id="shorten">shorten<a class="hash" href="#shorten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɔːrtən/ &middot; <em>SHOR-tuhn</em></dd><dt>Русский</dt><dd>укорачивать, укоротить, сократить</dd><dt>Forms</dt><dd><em>shorten</em> &middot; <em>shortened</em> &middot; <em>shortened</em></dd><dt>Third person</dt><dd><em>shortens</em> &middot; <strong>-ing form:</strong> <em>shortening</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make something shorter.</p>
+<ol><li><em>Shorten</em> the legs by an inch.</li><li>He <em>shortened</em> the cord and put a new plug on it.</li><li>The curtains have been <em>shortened</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

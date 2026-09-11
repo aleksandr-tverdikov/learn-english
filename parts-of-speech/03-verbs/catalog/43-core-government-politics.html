@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: government</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-government">Core verbs: government<a class="hash" href="#core-verbs-government" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of government — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="elect">elect<a class="hash" href="#elect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlɛkt/ &middot; <em>i-LEKT</em></dd><dt>Русский</dt><dd>избирать, избрать; выбирать</dd><dt>Forms</dt><dd><em>elect</em> &middot; <em>elected</em> &middot; <em>elected</em></dd><dt>Third person</dt><dd><em>elects</em> &middot; <strong>-ing form:</strong> <em>electing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You are <em>elected</em> <strong>to</strong> an office and <em>elected</em> <strong>as</strong> something: elected to the council, elected as chairman.</dd></dl>
+<p>To choose someone for a public office by voting.</p>
+<ol><li>Americans <em>elect</em> a president every four years.</li><li>She was <em>elected</em> to the state senate in 2022.</li><li>The district has never <em>elected</em> a Democrat.</li></ol>
+<hr>
+<h3 id="nominate">nominate<a class="hash" href="#nominate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɑːmɪneɪt/ &middot; <em>NAH-muh-nayt</em></dd><dt>Русский</dt><dd>выдвигать, выдвинуть (кандидатуру); номинировать</dd><dt>Forms</dt><dd><em>nominate</em> &middot; <em>nominated</em> &middot; <em>nominated</em></dd><dt>Third person</dt><dd><em>nominates</em> &middot; <strong>-ing form:</strong> <em>nominating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You <em>nominate</em> someone <strong>for</strong> a post or <strong>as</strong> a candidate.</dd></dl>
+<p>To officially name someone as a candidate for an office or an honor.</p>
+<ol><li>Each party will <em>nominate</em> a candidate in the summer.</li><li>The president <em>nominated</em> her for a federal judgeship.</li><li>He has been <em>nominated</em> three times and lost twice.</li></ol>
+<hr>
+<h3 id="poll">poll<a class="hash" href="#poll" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/poʊl/ &middot; <em>POHL</em></dd><dt>Русский</dt><dd>опрашивать, проводить опрос; набирать (голоса в опросах)</dd><dt>Forms</dt><dd><em>poll</em> &middot; <em>polled</em> &middot; <em>polled</em></dd><dt>Third person</dt><dd><em>polls</em> &middot; <strong>-ing form:</strong> <em>polling</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>poll</em> likely voters), intransitive (she is <em>polling</em> at 40 percent)</dd><dt>Contrast</dt><dd>The verb <em>poll</em> sounds exactly like <em>pole</em>.</dd></dl>
+<p>To ask a sample of people what they think, or to score a certain result in such a survey.</p>
+<ol><li>Networks <em>poll</em> voters right outside the precinct.</li><li>The paper <em>polled</em> a thousand adults last week.</li><li>He is <em>polling</em> well in the suburbs.</li></ol>
+<hr>
+<h3 id="govern">govern<a class="hash" href="#govern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌvərn/ &middot; <em>GUV-urn</em></dd><dt>Русский</dt><dd>править, управлять (страной)</dd><dt>Forms</dt><dd><em>govern</em> &middot; <em>governed</em> &middot; <em>governed</em></dd><dt>Third person</dt><dd><em>governs</em> &middot; <strong>-ing form:</strong> <em>governing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>govern</em> a country), intransitive (it is harder to <em>govern</em>)</dd><dt>Contrast</dt><dd>The o sounds like the u in <em>cup</em>: GUV-urn, not GOH-vurn.</dd></dl>
+<p>To officially control and run a country, a state, or a city.</p>
+<ol><li>It is easier to campaign than to <em>govern</em>.</li><li>The party <em>governed</em> for twelve years.</li><li>The island has been <em>governed</em> from the mainland since 1898.</li></ol>
+<hr>
+<h3 id="inaugurate">inaugurate<a class="hash" href="#inaugurate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈnɔːɡjəreɪt/ &middot; <em>i-NAW-gyuh-rayt</em></dd><dt>Русский</dt><dd>торжественно вводить в должность; открывать (официально)</dd><dt>Forms</dt><dd><em>inaugurate</em> &middot; <em>inaugurated</em> &middot; <em>inaugurated</em></dd><dt>Third person</dt><dd><em>inaugurates</em> &middot; <strong>-ing form:</strong> <em>inaugurating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put someone into office with a formal public ceremony.</p>
+<ol><li>The state will <em>inaugurate</em> its new governor in January.</li><li>He was <em>inaugurated</em> on a cold, rainy Monday.</li><li>The country has <em>inaugurated</em> four presidents in six years.</li></ol>
+<hr>
+<h3 id="reign">reign<a class="hash" href="#reign" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪn/ &middot; <em>RAYN</em></dd><dt>Русский</dt><dd>царствовать, править (о монархе)</dd><dt>Forms</dt><dd><em>reign</em> &middot; <em>reigned</em> &middot; <em>reigned</em></dd><dt>Third person</dt><dd><em>reigns</em> &middot; <strong>-ing form:</strong> <em>reigning</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>reign</em> (rule) sounds exactly like <em>rain</em> and <em>rein</em>, and it is spelled with -eign.</dd></dl>
+<p>To rule as a king or a queen.</p>
+<ol><li>Few monarchs <em>reign</em> for more than fifty years.</li><li>She <em>reigned</em> for seven decades.</li><li>He had <em>reigned</em> only a year when the war began.</li></ol>
+<hr>
+<h3 id="empower">empower<a class="hash" href="#empower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈpaʊər/ &middot; <em>im-POW-ur</em></dd><dt>Русский</dt><dd>уполномочивать, уполномочить; наделять правом</dd><dt>Forms</dt><dd><em>empower</em> &middot; <em>empowered</em> &middot; <em>empowered</em></dd><dt>Third person</dt><dd><em>empowers</em> &middot; <strong>-ing form:</strong> <em>empowering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give a person or a body the legal power to do something.</p>
+<ol><li>The law <em>empowers</em> the governor to call out the guard.</li><li>Congress <em>empowered</em> the agency to write the rules.</li><li>Local boards have been <em>empowered</em> to set their own budgets.</li></ol>
+<hr>
+<h3 id="convene">convene<a class="hash" href="#convene" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈviːn/ &middot; <em>kuhn-VEEN</em></dd><dt>Русский</dt><dd>созывать, созвать; собираться, собраться (о заседании)</dd><dt>Forms</dt><dd><em>convene</em> &middot; <em>convened</em> &middot; <em>convened</em></dd><dt>Third person</dt><dd><em>convenes</em> &middot; <strong>-ing form:</strong> <em>convening</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>convene</em> a session), intransitive (the committee <em>convenes</em> Monday)</dd></dl>
+<p>To call a formal meeting, or to come together for one.</p>
+<ol><li>The legislature will <em>convene</em> in January.</li><li>The governor <em>convened</em> a special session.</li><li>The panel has <em>convened</em> twice this month.</li></ol>
+<hr>
+<h3 id="chair">chair<a class="hash" href="#chair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɛr/ &middot; <em>CHAIR</em></dd><dt>Русский</dt><dd>председательствовать, возглавлять (комитет)</dd><dt>Forms</dt><dd><em>chair</em> &middot; <em>chaired</em> &middot; <em>chaired</em></dd><dt>Third person</dt><dd><em>chairs</em> &middot; <strong>-ing form:</strong> <em>chairing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Same word as the piece of furniture; as a verb it means to run a meeting.</dd></dl>
+<p>To lead a committee or a meeting as its head.</p>
+<ol><li>She will <em>chair</em> the committee next session.</li><li>He <em>chaired</em> the hearing for six straight hours.</li><li>The panel is <em>chaired</em> by a retired judge.</li></ol>
+<hr>
+<h3 id="control">control<a class="hash" href="#control" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtroʊl/ &middot; <em>kuhn-TROHL</em></dd><dt>Русский</dt><dd>контролировать, управлять; владеть большинством</dd><dt>Forms</dt><dd><em>control</em> &middot; <em>controlled</em> &middot; <em>controlled</em></dd><dt>Third person</dt><dd><em>controls</em> &middot; <strong>-ing form:</strong> <em>controlling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The l doubles before an ending, in American English too: <em>control → controlled → controlling</em>.</dd></dl>
+<p>To have the power to decide what an institution or a place does.</p>
+<ol><li>One party will <em>control</em> both chambers next year.</li><li>Rebels <em>controlled</em> the capital for a week.</li><li>Prices here are <em>controlled</em> by the state.</li></ol>
+<hr>
+<h3 id="legislate">legislate<a class="hash" href="#legislate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛdʒɪsleɪt/ &middot; <em>LEJ-is-layt</em></dd><dt>Русский</dt><dd>издавать законы, законодательствовать</dd><dt>Forms</dt><dd><em>legislate</em> &middot; <em>legislated</em> &middot; <em>legislated</em></dd><dt>Third person</dt><dd><em>legislates</em> &middot; <strong>-ing form:</strong> <em>legislating</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>legislate</em> a higher wage), intransitive (Congress cannot <em>legislate</em> on it)</dd></dl>
+<p>To make laws.</p>
+<ol><li>Congress cannot <em>legislate</em> good manners.</li><li>The state <em>legislated</em> a higher minimum wage.</li><li>Term limits were <em>legislated</em> in the 1990s.</li></ol>
+<hr>
+<h3 id="filibuster">filibuster<a class="hash" href="#filibuster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪləbʌstər/ &middot; <em>FIL-uh-bus-tur</em></dd><dt>Русский</dt><dd>устраивать обструкцию, затягивать обсуждение</dd><dt>Forms</dt><dd><em>filibuster</em> &middot; <em>filibustered</em> &middot; <em>filibustered</em></dd><dt>Third person</dt><dd><em>filibusters</em> &middot; <strong>-ing form:</strong> <em>filibustering</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>filibuster</em> the bill), intransitive (they <em>filibustered</em> all night)</dd></dl>
+<p>To delay or stop a vote in the US Senate by talking at great length.</p>
+<ol><li>A senator can <em>filibuster</em> almost any bill.</li><li>They <em>filibustered</em> for eleven hours straight.</li><li>The nomination is being <em>filibustered</em> by two members.</li></ol>
+<hr>
+<h3 id="implement">implement<a class="hash" href="#implement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmpləmɛnt/ &middot; <em>IM-pluh-ment</em></dd><dt>Русский</dt><dd>осуществлять, осуществить; внедрять, проводить в жизнь</dd><dt>Forms</dt><dd><em>implement</em> &middot; <em>implemented</em> &middot; <em>implemented</em></dd><dt>Third person</dt><dd><em>implements</em> &middot; <strong>-ing form:</strong> <em>implementing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is IM-pluh-ment; the noun (a tool) ends in a schwa: IM-pluh-muhnt.</dd></dl>
+<p>To put a law, a plan, or a decision into practice.</p>
+<ol><li>The state will <em>implement</em> the new rules in June.</li><li>They <em>implemented</em> the program in three stages.</li><li>The law has been <em>implemented</em> very unevenly.</li></ol>
+<hr>
+<h3 id="lobby">lobby<a class="hash" href="#lobby" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːbi/ &middot; <em>LAH-bee</em></dd><dt>Русский</dt><dd>лоббировать; добиваться (принятия решения)</dd><dt>Forms</dt><dd><em>lobby</em> &middot; <em>lobbied</em> &middot; <em>lobbied</em></dd><dt>Third person</dt><dd><em>lobbies</em> &middot; <strong>-ing form:</strong> <em>lobbying</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>lobby</em> Congress), intransitive (<em>lobby</em> for a change)</dd><dt>Contrast</dt><dd>The -y follows a consonant: <em>lobbies</em>, <em>lobbied</em>, but <em>lobbying</em>. You <em>lobby</em> <strong>for</strong> what you want and <strong>against</strong> what you oppose.</dd></dl>
+<p>To try to persuade lawmakers to vote the way you want.</p>
+<ol><li>Farm groups <em>lobby</em> hard every spring.</li><li>The industry <em>lobbied</em> against the new rule.</li><li>They have been <em>lobbying</em> Congress for years.</li></ol>
+<hr>
+<h3 id="exempt">exempt<a class="hash" href="#exempt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɛmpt/ &middot; <em>ig-ZEMPT</em></dd><dt>Русский</dt><dd>освобождать, освободить (от налога, обязанности)</dd><dt>Forms</dt><dd><em>exempt</em> &middot; <em>exempted</em> &middot; <em>exempted</em></dd><dt>Third person</dt><dd><em>exempts</em> &middot; <strong>-ing form:</strong> <em>exempting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The x sounds like gz: ig-ZEMPT. You <em>exempt</em> someone <strong>from</strong> something.</dd></dl>
+<p>To officially free someone from a duty, a tax, or a rule.</p>
+<ol><li>The bill would <em>exempt</em> small farms from the rule.</li><li>Churches <em>exempted</em> themselves from the fee for years.</li><li>Nobody has been <em>exempted</em> from the new requirement.</li></ol>
+<hr>
+<h3 id="privatize">privatize<a class="hash" href="#privatize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪvətaɪz/ &middot; <em>PRY-vuh-tyz</em></dd><dt>Русский</dt><dd>приватизировать</dd><dt>Forms</dt><dd><em>privatize</em> &middot; <em>privatized</em> &middot; <em>privatized</em></dd><dt>Third person</dt><dd><em>privatizes</em> &middot; <strong>-ing form:</strong> <em>privatizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>privatize</em>; British <em>privatise</em>.</dd></dl>
+<p>To sell a state-owned service or industry to private owners.</p>
+<ol><li>Some lawmakers want to <em>privatize</em> the postal service.</li><li>The country <em>privatized</em> its railways in the 1990s.</li><li>Water supplies have been <em>privatized</em> in several cities.</li></ol>
+<hr>
+<h3 id="immigrate">immigrate<a class="hash" href="#immigrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmɪɡreɪt/ &middot; <em>IM-i-grayt</em></dd><dt>Русский</dt><dd>иммигрировать, переселяться (в страну)</dd><dt>Forms</dt><dd><em>immigrate</em> &middot; <em>immigrated</em> &middot; <em>immigrated</em></dd><dt>Third person</dt><dd><em>immigrates</em> &middot; <strong>-ing form:</strong> <em>immigrating</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>immigrate</em> <strong>to</strong> the country you move into; you <em>emigrate</em> <strong>from</strong> the one you leave.</dd></dl>
+<p>To come into a country in order to live there permanently.</p>
+<ol><li>Thousands <em>immigrate</em> legally every month.</li><li>Her grandparents <em>immigrated</em> in 1912.</li><li>He has <em>immigrated</em> to Canada with his family.</li></ol>
+<hr>
+<h3 id="emigrate">emigrate<a class="hash" href="#emigrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛmɪɡreɪt/ &middot; <em>EM-i-grayt</em></dd><dt>Русский</dt><dd>эмигрировать, выезжать (из страны)</dd><dt>Forms</dt><dd><em>emigrate</em> &middot; <em>emigrated</em> &middot; <em>emigrated</em></dd><dt>Third person</dt><dd><em>emigrates</em> &middot; <strong>-ing form:</strong> <em>emigrating</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>emigrate</em> <strong>from</strong> the country you leave; <em>immigrate</em> <strong>to</strong> the one you enter.</dd></dl>
+<p>To leave your own country in order to live in another.</p>
+<ol><li>Many young engineers <em>emigrate</em> every year.</li><li>They <em>emigrated</em> from Ireland after the war.</li><li>Half the family has <em>emigrated</em> already.</li></ol>
+<hr>
+<h3 id="limit">limit<a class="hash" href="#limit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪmɪt/ &middot; <em>LIM-it</em></dd><dt>Русский</dt><dd>ограничивать, ограничить</dd><dt>Forms</dt><dd><em>limit</em> &middot; <em>limited</em> &middot; <em>limited</em></dd><dt>Third person</dt><dd><em>limits</em> &middot; <strong>-ing form:</strong> <em>limiting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The stress is on the first syllable, so the t does not double: <em>limited</em>, <em>limiting</em>.</dd></dl>
+<p>To set a maximum on how much of something is allowed.</p>
+<ol><li>Several states <em>limit</em> campaign donations.</li><li>The chair <em>limited</em> debate to two hours.</li><li>Terms are <em>limited</em> to eight years in this state.</li></ol>
+<hr>
+<h3 id="support">support<a class="hash" href="#support" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈpɔːrt/ &middot; <em>suh-PORT</em></dd><dt>Русский</dt><dd>поддерживать, поддержать; выступать за</dd><dt>Forms</dt><dd><em>support</em> &middot; <em>supported</em> &middot; <em>supported</em></dd><dt>Third person</dt><dd><em>supports</em> &middot; <strong>-ing form:</strong> <em>supporting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To be in favor of a person, a policy, or a plan.</p>
+<ol><li>Most voters <em>support</em> the measure.</li><li>She <em>supported</em> the bill in committee and on the floor.</li><li>The proposal is <em>supported</em> by both parties.</li></ol>
+<hr>
+<h3 id="influence">influence<a class="hash" href="#influence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnfluəns/ &middot; <em>IN-floo-uhns</em></dd><dt>Русский</dt><dd>влиять, повлиять; оказывать влияние</dd><dt>Forms</dt><dd><em>influence</em> &middot; <em>influenced</em> &middot; <em>influenced</em></dd><dt>Third person</dt><dd><em>influences</em> &middot; <strong>-ing form:</strong> <em>influencing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb takes a direct object: you <em>influence</em> someone, not "influence on" someone.</dd></dl>
+<p>To have an effect on what someone decides or how something turns out.</p>
+<ol><li>Big donors <em>influence</em> which bills get a hearing.</li><li>Foreign money <em>influenced</em> the last campaign.</li><li>The vote was <em>influenced</em> by one long speech.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

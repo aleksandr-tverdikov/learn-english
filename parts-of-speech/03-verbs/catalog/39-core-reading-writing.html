@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: reading and writing</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-reading-and-writing">Core verbs: reading and writing<a class="hash" href="#core-verbs-reading-and-writing" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of reading and writing — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="preview">preview<a class="hash" href="#preview" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpriːvjuː/ &middot; <em>PREE-vyoo</em></dd><dt>Русский</dt><dd>просматривать заранее, предварительно просмотреть</dd><dt>Forms</dt><dd><em>preview</em> &middot; <em>previewed</em> &middot; <em>previewed</em></dd><dt>Third person</dt><dd><em>previews</em> &middot; <strong>-ing form:</strong> <em>previewing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To look at something before it is finished or made public.</p>
+<ol><li>You can <em>preview</em> the first chapter for free.</li><li>The teacher <em>previewed</em> the test questions with the class.</li><li>I'm <em>previewing</em> the slides before I print them.</li></ol>
+<hr>
+<h3 id="decipher">decipher<a class="hash" href="#decipher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈsaɪfər/ &middot; <em>di-SY-fur</em></dd><dt>Русский</dt><dd>разбирать (написанное), расшифровывать</dd><dt>Forms</dt><dd><em>decipher</em> &middot; <em>deciphered</em> &middot; <em>deciphered</em></dd><dt>Third person</dt><dd><em>deciphers</em> &middot; <strong>-ing form:</strong> <em>deciphering</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Spelled with <em>ph</em>: <em>decipher</em>, never <em>decypher</em>.</dd></dl>
+<p>To work out what something badly written or unclear says.</p>
+<ol><li>I can't <em>decipher</em> my own handwriting.</li><li>She finally <em>deciphered</em> the doctor's note.</li><li>We spent an hour <em>deciphering</em> a letter from 1890.</li></ol>
+<hr>
+<h3 id="decode">decode<a class="hash" href="#decode" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diːˈkoʊd/ &middot; <em>dee-KOHD</em></dd><dt>Русский</dt><dd>расшифровывать, декодировать</dd><dt>Forms</dt><dd><em>decode</em> &middot; <em>decoded</em> &middot; <em>decoded</em></dd><dt>Third person</dt><dd><em>decodes</em> &middot; <strong>-ing form:</strong> <em>decoding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To work out the meaning of something written in code or in an unfamiliar form.</p>
+<ol><li>Children learn to <em>decode</em> words before they read fluently.</li><li>He <em>decoded</em> the message in under an hour.</li><li>She is <em>decoding</em> her grandmother's shorthand.</li></ol>
+<hr>
+<h3 id="scroll">scroll<a class="hash" href="#scroll" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skroʊl/ &middot; <em>SKROHL</em></dd><dt>Русский</dt><dd>прокручивать, листать (на экране)</dd><dt>Forms</dt><dd><em>scroll</em> &middot; <em>scrolled</em> &middot; <em>scrolled</em></dd><dt>Third person</dt><dd><em>scrolls</em> &middot; <strong>-ing form:</strong> <em>scrolling</em></dd><dt>Transitivity</dt><dd>both — transitive (scroll the page), intransitive (scroll down)</dd></dl>
+<p>To move text or images up or down on a screen.</p>
+<ol><li><em>Scroll</em> down to the comments.</li><li>He <em>scrolled</em> through the article looking for the quote.</li><li>She was <em>scrolling</em> on her phone all evening.</li></ol>
+<hr>
+<h3 id="click">click<a class="hash" href="#click" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɪk/ &middot; <em>KLIK</em></dd><dt>Русский</dt><dd>щёлкать, кликать (мышью)</dd><dt>Forms</dt><dd><em>click</em> &middot; <em>clicked</em> &middot; <em>clicked</em></dd><dt>Third person</dt><dd><em>clicks</em> &middot; <strong>-ing form:</strong> <em>clicking</em></dd><dt>Transitivity</dt><dd>both — transitive (click the link), intransitive (click on the icon)</dd><dt>Contrast</dt><dd>You <em>click on</em> a link or simply <em>click</em> it; both are normal American usage.</dd></dl>
+<p>To press a button on a mouse or a spot on a screen to choose something.</p>
+<ol><li><em>Click</em> the blue link at the bottom of the page.</li><li>I <em>clicked</em> on the ad by mistake.</li><li>Stop <em>clicking</em> — the page is still loading.</li></ol>
+<hr>
+<h3 id="refresh">refresh<a class="hash" href="#refresh" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfrɛʃ/ &middot; <em>ri-FRESH</em></dd><dt>Русский</dt><dd>обновлять (страницу), перезагружать</dd><dt>Forms</dt><dd><em>refresh</em> &middot; <em>refreshed</em> &middot; <em>refreshed</em></dd><dt>Third person</dt><dd><em>refreshes</em> &middot; <strong>-ing form:</strong> <em>refreshing</em></dd><dt>Transitivity</dt><dd>both — transitive (refresh the page), intransitive (the feed refreshes every minute)</dd><dt>Contrast</dt><dd>Third person adds <em>-es</em> after <em>sh</em>: <em>refreshes</em>.</dd></dl>
+<p>To load the newest version of a page or a list.</p>
+<ol><li><em>Refresh</em> the page and the table will load.</li><li>I <em>refreshed</em> my inbox every five minutes.</li><li>The app is <em>refreshing</em> the headlines automatically.</li></ol>
+<hr>
+<h3 id="bookmark">bookmark<a class="hash" href="#bookmark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊkmɑːrk/ &middot; <em>BUUK-mahrk</em></dd><dt>Русский</dt><dd>добавлять в закладки, закладывать страницу</dd><dt>Forms</dt><dd><em>bookmark</em> &middot; <em>bookmarked</em> &middot; <em>bookmarked</em></dd><dt>Third person</dt><dd><em>bookmarks</em> &middot; <strong>-ing form:</strong> <em>bookmarking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To save a page so that you can find it again easily.</p>
+<ol><li><em>Bookmark</em> this recipe before you close the tab.</li><li>I <em>bookmarked</em> the article to read on the train.</li><li>He has <em>bookmarked</em> half the dictionary.</li></ol>
+<hr>
+<h3 id="highlight">highlight<a class="hash" href="#highlight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪlaɪt/ &middot; <em>HY-lyt</em></dd><dt>Русский</dt><dd>выделять (маркером); подчёркивать, обращать внимание на</dd><dt>Forms</dt><dd><em>highlight</em> &middot; <em>highlighted</em> &middot; <em>highlighted</em></dd><dt>Third person</dt><dd><em>highlights</em> &middot; <strong>-ing form:</strong> <em>highlighting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To mark part of a text with bright color, or to draw attention to it.</p>
+<ol><li><em>Highlight</em> every word you don't know.</li><li>She <em>highlighted</em> three paragraphs in yellow.</li><li>The review kept <em>highlighting</em> the book's weak ending.</li></ol>
+<hr>
+<h3 id="underline">underline<a class="hash" href="#underline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌndərˈlaɪn/ &middot; <em>un-dur-LYN</em></dd><dt>Русский</dt><dd>подчёркивать, подчеркнуть</dd><dt>Forms</dt><dd><em>underline</em> &middot; <em>underlined</em> &middot; <em>underlined</em></dd><dt>Third person</dt><dd><em>underlines</em> &middot; <strong>-ing form:</strong> <em>underlining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To draw a line under a word or a sentence.</p>
+<ol><li><em>Underline</em> the verb in each sentence.</li><li>He <em>underlined</em> his name twice.</li><li>The editor is <em>underlining</em> the same mistake again.</li></ol>
+<hr>
+<h3 id="annotate">annotate<a class="hash" href="#annotate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænəteɪt/ &middot; <em>AN-uh-tayt</em></dd><dt>Русский</dt><dd>делать пометки, аннотировать</dd><dt>Forms</dt><dd><em>annotate</em> &middot; <em>annotated</em> &middot; <em>annotated</em></dd><dt>Third person</dt><dd><em>annotates</em> &middot; <strong>-ing form:</strong> <em>annotating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To add notes to a text to explain it or comment on it.</p>
+<ol><li>Students <em>annotate</em> the poem line by line.</li><li>She <em>annotated</em> the margins in pencil.</li><li>This copy has been <em>annotated</em> by three different readers.</li></ol>
+<hr>
+<h3 id="misquote">misquote<a class="hash" href="#misquote" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɪsˈkwoʊt/ &middot; <em>mis-KWOHT</em></dd><dt>Русский</dt><dd>неверно цитировать, перевирать слова</dd><dt>Forms</dt><dd><em>misquote</em> &middot; <em>misquoted</em> &middot; <em>misquoted</em></dd><dt>Third person</dt><dd><em>misquotes</em> &middot; <strong>-ing form:</strong> <em>misquoting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To repeat someone's words wrongly.</p>
+<ol><li>Headlines often <em>misquote</em> scientists.</li><li>The paper <em>misquoted</em> her twice in one story.</li><li>He says he was <em>misquoted</em> about the budget.</li></ol>
+<hr>
+<h3 id="cite">cite<a class="hash" href="#cite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/saɪt/ &middot; <em>SYT</em></dd><dt>Русский</dt><dd>ссылаться на, приводить (источник)</dd><dt>Forms</dt><dd><em>cite</em> &middot; <em>cited</em> &middot; <em>cited</em></dd><dt>Third person</dt><dd><em>cites</em> &middot; <strong>-ing form:</strong> <em>citing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Sounds exactly like <em>site</em> (a place) and <em>sight</em> (vision).</dd></dl>
+<p>To name a book, article, or person as the source of your information.</p>
+<ol><li>You must <em>cite</em> every source you use.</li><li>The paper <em>cited</em> a study from 2019.</li><li>He has <em>cited</em> the same website four times.</li></ol>
+<hr>
+<h3 id="reference">reference<a class="hash" href="#reference" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛfərəns/ &middot; <em>REF-uh-ruhns</em></dd><dt>Русский</dt><dd>ссылаться на, указывать источник</dd><dt>Forms</dt><dd><em>reference</em> &middot; <em>referenced</em> &middot; <em>referenced</em></dd><dt>Third person</dt><dd><em>references</em> &middot; <strong>-ing form:</strong> <em>referencing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To mention a source or an earlier text in your own writing.</p>
+<ol><li><em>Reference</em> the original study in a footnote.</li><li>The article <em>referenced</em> three other papers.</li><li>She kept <em>referencing</em> a movie I had never seen.</li></ol>
+<hr>
+<h3 id="paraphrase">paraphrase<a class="hash" href="#paraphrase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛrəfreɪz/ &middot; <em>PAIR-uh-frayz</em></dd><dt>Русский</dt><dd>пересказывать своими словами, перефразировать</dd><dt>Forms</dt><dd><em>paraphrase</em> &middot; <em>paraphrased</em> &middot; <em>paraphrased</em></dd><dt>Third person</dt><dd><em>paraphrases</em> &middot; <strong>-ing form:</strong> <em>paraphrasing</em></dd><dt>Transitivity</dt><dd>both — transitive (paraphrase a passage), intransitive (I'm paraphrasing)</dd></dl>
+<p>To put someone else's idea into your own words.</p>
+<ol><li><em>Paraphrase</em> the paragraph in one sentence.</li><li>He <em>paraphrased</em> the law for us in plain English.</li><li>I'm <em>paraphrasing</em>, but that was her point.</li></ol>
+<hr>
+<h3 id="plagiarize">plagiarize<a class="hash" href="#plagiarize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪdʒəraɪz/ &middot; <em>PLAY-juh-ryz</em></dd><dt>Русский</dt><dd>заниматься плагиатом, списывать (чужой текст)</dd><dt>Forms</dt><dd><em>plagiarize</em> &middot; <em>plagiarized</em> &middot; <em>plagiarized</em></dd><dt>Third person</dt><dd><em>plagiarizes</em> &middot; <strong>-ing form:</strong> <em>plagiarizing</em></dd><dt>Transitivity</dt><dd>both — transitive (plagiarize a paper), intransitive (students who plagiarize)</dd><dt>Contrast</dt><dd>American <em>plagiarize</em>; British <em>plagiarise</em>.</dd></dl>
+<p>To copy someone else's writing and present it as your own.</p>
+<ol><li>Never <em>plagiarize</em>, even by accident.</li><li>He <em>plagiarized</em> half his essay from a blog.</li><li>She was caught <em>plagiarizing</em> in her first semester.</li></ol>
+<hr>
+<h3 id="recap">recap<a class="hash" href="#recap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːkæp/ &middot; <em>REE-kap</em></dd><dt>Русский</dt><dd>кратко повторять, резюмировать</dd><dt>Forms</dt><dd><em>recap</em> &middot; <em>recapped</em> &middot; <em>recapped</em></dd><dt>Third person</dt><dd><em>recaps</em> &middot; <strong>-ing form:</strong> <em>recapping</em></dd><dt>Transitivity</dt><dd>both — transitive (recap the chapter), intransitive (let me recap)</dd><dt>Contrast</dt><dd>Doubles the <em>p</em>: <em>recapped</em>, <em>recapping</em>.</dd></dl>
+<p>To go over the main points of something again briefly.</p>
+<ol><li>Let me <em>recap</em> what we agreed on.</li><li>The host <em>recapped</em> last week's episode.</li><li>She is <em>recapping</em> the chapter for anyone who missed it.</li></ol>
+<hr>
+<h3 id="restate">restate<a class="hash" href="#restate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈsteɪt/ &middot; <em>ree-STAYT</em></dd><dt>Русский</dt><dd>повторять иначе, формулировать заново</dd><dt>Forms</dt><dd><em>restate</em> &middot; <em>restated</em> &middot; <em>restated</em></dd><dt>Third person</dt><dd><em>restates</em> &middot; <strong>-ing form:</strong> <em>restating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To say or write something again, usually more clearly.</p>
+<ol><li><em>Restate</em> the question in your own words.</li><li>He <em>restated</em> his argument in the conclusion.</li><li>She is <em>restating</em> the rules for the new students.</li></ol>
+<hr>
+<h3 id="transcribe">transcribe<a class="hash" href="#transcribe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænˈskraɪb/ &middot; <em>tran-SKRYB</em></dd><dt>Русский</dt><dd>расшифровывать запись, записывать дословно</dd><dt>Forms</dt><dd><em>transcribe</em> &middot; <em>transcribed</em> &middot; <em>transcribed</em></dd><dt>Third person</dt><dd><em>transcribes</em> &middot; <strong>-ing form:</strong> <em>transcribing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To write out in full what someone said or what a recording contains.</p>
+<ol><li>I have to <em>transcribe</em> the interview tonight.</li><li>She <em>transcribed</em> the tape word for word.</li><li>The app is <em>transcribing</em> the meeting as we speak.</li></ol>
+<hr>
+<h3 id="dictate">dictate<a class="hash" href="#dictate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪkteɪt/ &middot; <em>DIK-tayt</em></dd><dt>Русский</dt><dd>диктовать, продиктовать</dd><dt>Forms</dt><dd><em>dictate</em> &middot; <em>dictated</em> &middot; <em>dictated</em></dd><dt>Third person</dt><dd><em>dictates</em> &middot; <strong>-ing form:</strong> <em>dictating</em></dd><dt>Transitivity</dt><dd>both — transitive (dictate a letter), intransitive (he dictates to his phone)</dd></dl>
+<p>To say words aloud for someone or something to write down.</p>
+<ol><li><em>Dictate</em> the address and I'll type it.</li><li>The doctor <em>dictated</em> her notes after each visit.</li><li>He was <em>dictating</em> letters all morning.</li></ol>
+<hr>
+<h3 id="subtitle">subtitle<a class="hash" href="#subtitle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbtaɪtəl/ &middot; <em>SUB-ty-tuhl</em></dd><dt>Русский</dt><dd>снабжать субтитрами</dd><dt>Forms</dt><dd><em>subtitle</em> &middot; <em>subtitled</em> &middot; <em>subtitled</em></dd><dt>Third person</dt><dd><em>subtitles</em> &middot; <strong>-ing form:</strong> <em>subtitling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To add a written translation of the speech at the bottom of a film or video.</p>
+<ol><li>They <em>subtitle</em> every episode in four languages.</li><li>The movie was <em>subtitled</em> in English.</li><li>A small team is <em>subtitling</em> the documentary now.</li></ol>
+<hr>
+<h3 id="dub">dub<a class="hash" href="#dub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʌb/ &middot; <em>DUB</em></dd><dt>Русский</dt><dd>дублировать (фильм), озвучивать</dd><dt>Forms</dt><dd><em>dub</em> &middot; <em>dubbed</em> &middot; <em>dubbed</em></dd><dt>Third person</dt><dd><em>dubs</em> &middot; <strong>-ing form:</strong> <em>dubbing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Doubles the <em>b</em>: <em>dubbed</em>, <em>dubbing</em>.</dd></dl>
+<p>To replace the original speech in a film with speech in another language.</p>
+<ol><li>German television <em>dubs</em> most American shows.</li><li>The film was <em>dubbed</em> into Italian.</li><li>The studio is <em>dubbing</em> the series for Latin America.</li></ol>
+<hr>
+<h3 id="conjugate">conjugate<a class="hash" href="#conjugate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːndʒəɡeɪt/ &middot; <em>KAHN-juh-gayt</em></dd><dt>Русский</dt><dd>спрягать (глагол)</dd><dt>Forms</dt><dd><em>conjugate</em> &middot; <em>conjugated</em> &middot; <em>conjugated</em></dd><dt>Third person</dt><dd><em>conjugates</em> &middot; <strong>-ing form:</strong> <em>conjugating</em></dd><dt>Transitivity</dt><dd>both — transitive (conjugate the verb), intransitive (this verb conjugates irregularly)</dd></dl>
+<p>To give the different forms of a verb.</p>
+<ol><li><em>Conjugate</em> the verb <em>to be</em> in the past tense.</li><li>We <em>conjugated</em> irregular verbs all week.</li><li>He is still <em>conjugating</em> them out loud in the hallway.</li></ol>
+<hr>
+<h3 id="capitalize">capitalize<a class="hash" href="#capitalize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæpɪtəlaɪz/ &middot; <em>KAP-i-tuh-lyz</em></dd><dt>Русский</dt><dd>писать с заглавной буквы</dd><dt>Forms</dt><dd><em>capitalize</em> &middot; <em>capitalized</em> &middot; <em>capitalized</em></dd><dt>Third person</dt><dd><em>capitalizes</em> &middot; <strong>-ing form:</strong> <em>capitalizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>capitalize</em>; British <em>capitalise</em>.</dd></dl>
+<p>To write a word with a capital letter at the beginning.</p>
+<ol><li>Always <em>capitalize</em> the first word of a sentence.</li><li>She <em>capitalized</em> every noun, as if she were writing German.</li><li>Days and months are <em>capitalized</em> in English.</li></ol>
+<hr>
+<h3 id="punctuate">punctuate<a class="hash" href="#punctuate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌŋktʃueɪt/ &middot; <em>PUNK-choo-ayt</em></dd><dt>Русский</dt><dd>расставлять знаки препинания</dd><dt>Forms</dt><dd><em>punctuate</em> &middot; <em>punctuated</em> &middot; <em>punctuated</em></dd><dt>Third person</dt><dd><em>punctuates</em> &middot; <strong>-ing form:</strong> <em>punctuating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put commas, periods, and other marks into a piece of writing.</p>
+<ol><li><em>Punctuate</em> the dialogue correctly.</li><li>He <em>punctuated</em> the sentence with three exclamation points.</li><li>The letter was badly <em>punctuated</em>.</li></ol>
+<hr>
+<h3 id="hyphenate">hyphenate<a class="hash" href="#hyphenate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪfəneɪt/ &middot; <em>HY-fuh-nayt</em></dd><dt>Русский</dt><dd>писать через дефис, ставить дефис</dd><dt>Forms</dt><dd><em>hyphenate</em> &middot; <em>hyphenated</em> &middot; <em>hyphenated</em></dd><dt>Third person</dt><dd><em>hyphenates</em> &middot; <strong>-ing form:</strong> <em>hyphenating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To join two words with a hyphen, or to break a word at the end of a line.</p>
+<ol><li>Do you <em>hyphenate</em> 'well known' before a noun?</li><li>The editor <em>hyphenated</em> every compound adjective.</li><li>Her last name is <em>hyphenated</em>.</li></ol>
+<hr>
+<h3 id="abbreviate">abbreviate<a class="hash" href="#abbreviate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈbriːvieɪt/ &middot; <em>uh-BREE-vee-ayt</em></dd><dt>Русский</dt><dd>сокращать (слово), сократить</dd><dt>Forms</dt><dd><em>abbreviate</em> &middot; <em>abbreviated</em> &middot; <em>abbreviated</em></dd><dt>Third person</dt><dd><em>abbreviates</em> &middot; <strong>-ing form:</strong> <em>abbreviating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a word or a title shorter.</p>
+<ol><li>You can <em>abbreviate</em> 'Street' as 'St.'</li><li>They <em>abbreviated</em> the title on the cover.</li><li>'Doctor' is usually <em>abbreviated</em> to 'Dr.'</li></ol>
+<hr>
+<h3 id="italicize">italicize<a class="hash" href="#italicize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈtæləsaɪz/ &middot; <em>i-TAL-uh-syz</em></dd><dt>Русский</dt><dd>выделять курсивом</dd><dt>Forms</dt><dd><em>italicize</em> &middot; <em>italicized</em> &middot; <em>italicized</em></dd><dt>Third person</dt><dd><em>italicizes</em> &middot; <strong>-ing form:</strong> <em>italicizing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To print or type words in slanted letters.</p>
+<ol><li><em>Italicize</em> the titles of books.</li><li>She <em>italicized</em> all the foreign words.</li><li>The quotation is <em>italicized</em> on page two.</li></ol>
+<hr>
+<h3 id="alphabetize">alphabetize<a class="hash" href="#alphabetize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈælfəbətaɪz/ &middot; <em>AL-fuh-buh-tyz</em></dd><dt>Русский</dt><dd>располагать в алфавитном порядке</dd><dt>Forms</dt><dd><em>alphabetize</em> &middot; <em>alphabetized</em> &middot; <em>alphabetized</em></dd><dt>Third person</dt><dd><em>alphabetizes</em> &middot; <strong>-ing form:</strong> <em>alphabetizing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put words or names in the order of the alphabet.</p>
+<ol><li><em>Alphabetize</em> the list by last name.</li><li>He <em>alphabetized</em> his whole bookshelf one weekend.</li><li>The index is <em>alphabetized</em>, so it's easy to search.</li></ol>
+<hr>
+<h3 id="indent">indent<a class="hash" href="#indent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdɛnt/ &middot; <em>in-DENT</em></dd><dt>Русский</dt><dd>делать отступ (в начале абзаца)</dd><dt>Forms</dt><dd><em>indent</em> &middot; <em>indented</em> &middot; <em>indented</em></dd><dt>Third person</dt><dd><em>indents</em> &middot; <strong>-ing form:</strong> <em>indenting</em></dd><dt>Transitivity</dt><dd>both — transitive (indent the first line), intransitive (indent before you start)</dd></dl>
+<p>To start a line of writing further in from the margin.</p>
+<ol><li><em>Indent</em> the first line of every paragraph.</li><li>She <em>indented</em> the long quotation.</li><li>The paragraphs are not <em>indented</em> in this style.</li></ol>
+<hr>
+<h3 id="number">number<a class="hash" href="#number" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnʌmbər/ &middot; <em>NUM-bur</em></dd><dt>Русский</dt><dd>нумеровать, пронумеровать</dd><dt>Forms</dt><dd><em>number</em> &middot; <em>numbered</em> &middot; <em>numbered</em></dd><dt>Third person</dt><dd><em>numbers</em> &middot; <strong>-ing form:</strong> <em>numbering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give each item in a list or a set its own number.</p>
+<ol><li><em>Number</em> your answers from one to ten.</li><li>He <em>numbered</em> the pages by hand.</li><li>The chapters are <em>numbered</em> in Roman numerals.</li></ol>
+<hr>
+<h3 id="rhyme">rhyme<a class="hash" href="#rhyme" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raɪm/ &middot; <em>RYM</em></dd><dt>Русский</dt><dd>рифмоваться, рифмовать</dd><dt>Forms</dt><dd><em>rhyme</em> &middot; <em>rhymed</em> &middot; <em>rhymed</em></dd><dt>Third person</dt><dd><em>rhymes</em> &middot; <strong>-ing form:</strong> <em>rhyming</em></dd><dt>Transitivity</dt><dd>both — transitive (rhyme 'moon' with 'June'), intransitive ('cat' and 'hat' rhyme)</dd><dt>Contrast</dt><dd>Silent <em>h</em> after the <em>r</em>: <em>rhyme</em>, like <em>rhythm</em>.</dd></dl>
+<p>To end with the same sound as another word.</p>
+<ol><li>'Cat' and 'hat' <em>rhyme</em>.</li><li>He <em>rhymed</em> 'silver' with nothing at all.</li><li>She is <em>rhyming</em> every other line.</li></ol>
+<hr>
+<h3 id="type">type<a class="hash" href="#type" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪp/ &middot; <em>TYP</em></dd><dt>Русский</dt><dd>печатать (на клавиатуре), набирать</dd><dt>Forms</dt><dd><em>type</em> &middot; <em>typed</em> &middot; <em>typed</em></dd><dt>Third person</dt><dd><em>types</em> &middot; <strong>-ing form:</strong> <em>typing</em></dd><dt>Transitivity</dt><dd>both — transitive (type a letter), intransitive (he types fast)</dd></dl>
+<p>To write something using a keyboard.</p>
+<ol><li>Please <em>type</em> your name in the first box.</li><li>She <em>typed</em> the whole essay in one night.</li><li>He is still <em>typing</em> with two fingers.</li></ol>
+<hr>
+<h3 id="retype">retype<a class="hash" href="#retype" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈtaɪp/ &middot; <em>ree-TYP</em></dd><dt>Русский</dt><dd>перепечатывать, набирать заново</dd><dt>Forms</dt><dd><em>retype</em> &middot; <em>retyped</em> &middot; <em>retyped</em></dd><dt>Third person</dt><dd><em>retypes</em> &middot; <strong>-ing form:</strong> <em>retyping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To type something again, usually to correct it.</p>
+<ol><li>You'll have to <em>retype</em> the last page.</li><li>I <em>retyped</em> the address twice and still got it wrong.</li><li>She is <em>retyping</em> the letter with today's date.</li></ol>
+<hr>
+<h3 id="paste">paste<a class="hash" href="#paste" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/peɪst/ &middot; <em>PAYST</em></dd><dt>Русский</dt><dd>вставлять (скопированное)</dd><dt>Forms</dt><dd><em>paste</em> &middot; <em>pasted</em> &middot; <em>pasted</em></dd><dt>Third person</dt><dd><em>pastes</em> &middot; <strong>-ing form:</strong> <em>pasting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put text or an image you have copied into another place.</p>
+<ol><li>Copy the link and <em>paste</em> it in the chat.</li><li>I <em>pasted</em> the table into the report.</li><li>He was <em>pasting</em> the same paragraph into every email.</li></ol>
+<hr>
+<h3 id="insert">insert<a class="hash" href="#insert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈsɜːrt/ &middot; <em>in-SURT</em></dd><dt>Русский</dt><dd>вставлять, вставить (в текст)</dd><dt>Forms</dt><dd><em>insert</em> &middot; <em>inserted</em> &middot; <em>inserted</em></dd><dt>Third person</dt><dd><em>inserts</em> &middot; <strong>-ing form:</strong> <em>inserting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Verb <em>in-SURT</em>, noun <em>IN-surt</em>.</dd></dl>
+<p>To put something into a text in the right place.</p>
+<ol><li><em>Insert</em> a comma after the name.</li><li>The editor <em>inserted</em> two footnotes.</li><li>She is <em>inserting</em> the photos into the document.</li></ol>
+<hr>
+<h3 id="erase">erase<a class="hash" href="#erase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈreɪs/ &middot; <em>i-RAYS</em></dd><dt>Русский</dt><dd>стирать, стереть (написанное)</dd><dt>Forms</dt><dd><em>erase</em> &middot; <em>erased</em> &middot; <em>erased</em></dd><dt>Third person</dt><dd><em>erases</em> &middot; <strong>-ing form:</strong> <em>erasing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To remove writing so that nothing is left.</p>
+<ol><li><em>Erase</em> the pencil marks before you hand it in.</li><li>He <em>erased</em> the wrong answer and wrote a new one.</li><li>The board had already been <em>erased</em>.</li></ol>
+<hr>
+<h3 id="delete">delete<a class="hash" href="#delete" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈliːt/ &middot; <em>di-LEET</em></dd><dt>Русский</dt><dd>удалять, удалить</dd><dt>Forms</dt><dd><em>delete</em> &middot; <em>deleted</em> &middot; <em>deleted</em></dd><dt>Third person</dt><dd><em>deletes</em> &middot; <strong>-ing form:</strong> <em>deleting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To remove text or a file from a document or a computer.</p>
+<ol><li><em>Delete</em> the last paragraph — it repeats the first.</li><li>I <em>deleted</em> the email by mistake.</li><li>She has <em>deleted</em> every draft but one.</li></ol>
+<hr>
+<h3 id="format">format<a class="hash" href="#format" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrmæt/ &middot; <em>FOR-mat</em></dd><dt>Русский</dt><dd>форматировать, оформлять</dd><dt>Forms</dt><dd><em>format</em> &middot; <em>formatted</em> &middot; <em>formatted</em></dd><dt>Third person</dt><dd><em>formats</em> &middot; <strong>-ing form:</strong> <em>formatting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Doubles the <em>t</em>: <em>formatted</em>, <em>formatting</em>.</dd></dl>
+<p>To arrange how a text looks on the page or the screen.</p>
+<ol><li><em>Format</em> the list with bullet points.</li><li>He <em>formatted</em> the essay in twelve-point type.</li><li>The tables are <em>formatted</em> differently on every page.</li></ol>
+<hr>
+<h3 id="rename">rename<a class="hash" href="#rename" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈneɪm/ &middot; <em>ree-NAYM</em></dd><dt>Русский</dt><dd>переименовывать, переименовать</dd><dt>Forms</dt><dd><em>rename</em> &middot; <em>renamed</em> &middot; <em>renamed</em></dd><dt>Third person</dt><dd><em>renames</em> &middot; <strong>-ing form:</strong> <em>renaming</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give something a new name.</p>
+<ol><li><em>Rename</em> the file before you send it.</li><li>They <em>renamed</em> the magazine last year.</li><li>The folder has been <em>renamed</em> twice this week.</li></ol>
+<hr>
+<h3 id="edit">edit<a class="hash" href="#edit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛdɪt/ &middot; <em>ED-it</em></dd><dt>Русский</dt><dd>редактировать, править (текст)</dd><dt>Forms</dt><dd><em>edit</em> &middot; <em>edited</em> &middot; <em>edited</em></dd><dt>Third person</dt><dd><em>edits</em> &middot; <strong>-ing form:</strong> <em>editing</em></dd><dt>Transitivity</dt><dd>both — transitive (edit an essay), intransitive (she edits for a living)</dd><dt>Contrast</dt><dd>One <em>t</em>: <em>edited</em>, <em>editing</em> — the stress is on the first syllable, so the <em>t</em> does not double.</dd></dl>
+<p>To correct and improve a piece of writing before it is published.</p>
+<ol><li>Could you <em>edit</em> my cover letter?</li><li>She <em>edited</em> the story down to 800 words.</li><li>He is <em>editing</em> the school magazine this year.</li></ol>
+<hr>
+<h3 id="correct">correct<a class="hash" href="#correct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈrɛkt/ &middot; <em>kuh-REKT</em></dd><dt>Русский</dt><dd>исправлять, поправлять</dd><dt>Forms</dt><dd><em>correct</em> &middot; <em>corrected</em> &middot; <em>corrected</em></dd><dt>Third person</dt><dd><em>corrects</em> &middot; <strong>-ing form:</strong> <em>correcting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To find the mistakes in something and make them right.</p>
+<ol><li><em>Correct</em> the spelling in red.</li><li>She <em>corrected</em> thirty papers last night.</li><li>The teacher is <em>correcting</em> our essays now.</li></ol>
+<hr>
+<h3 id="proof">proof<a class="hash" href="#proof" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pruːf/ &middot; <em>PROOF</em></dd><dt>Русский</dt><dd>вычитывать (текст), проверять на ошибки</dd><dt>Forms</dt><dd><em>proof</em> &middot; <em>proofed</em> &middot; <em>proofed</em></dd><dt>Third person</dt><dd><em>proofs</em> &middot; <strong>-ing form:</strong> <em>proofing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>A short form of <em>proofread</em>, which is irregular: <em>proofread</em>, <em>proofread</em>.</dd></dl>
+<p>To read a text carefully for mistakes before it is printed or sent.</p>
+<ol><li>Could you <em>proof</em> this before I send it?</li><li>He <em>proofed</em> the newsletter twice and still missed a typo.</li><li>She is <em>proofing</em> the last few pages.</li></ol>
+<hr>
+<h3 id="amend">amend<a class="hash" href="#amend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmɛnd/ &middot; <em>uh-MEND</em></dd><dt>Русский</dt><dd>вносить поправки, изменять (документ)</dd><dt>Forms</dt><dd><em>amend</em> &middot; <em>amended</em> &middot; <em>amended</em></dd><dt>Third person</dt><dd><em>amends</em> &middot; <strong>-ing form:</strong> <em>amending</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To change the wording of a document or a law slightly.</p>
+<ol><li>We may <em>amend</em> the contract next week.</li><li>Congress <em>amended</em> the bill twice.</li><li>The rules have been <em>amended</em> since you read them.</li></ol>
+<hr>
+<h3 id="rephrase">rephrase<a class="hash" href="#rephrase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈfreɪz/ &middot; <em>ree-FRAYZ</em></dd><dt>Русский</dt><dd>перефразировать, сформулировать иначе</dd><dt>Forms</dt><dd><em>rephrase</em> &middot; <em>rephrased</em> &middot; <em>rephrased</em></dd><dt>Third person</dt><dd><em>rephrases</em> &middot; <strong>-ing form:</strong> <em>rephrasing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To say something again in different words so that it is clearer.</p>
+<ol><li>Let me <em>rephrase</em> the question.</li><li>She <em>rephrased</em> the sentence three times.</li><li>He kept <em>rephrasing</em> the same idea.</li></ol>
+<hr>
+<h3 id="reword">reword<a class="hash" href="#reword" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈwɜːrd/ &middot; <em>ree-WURD</em></dd><dt>Русский</dt><dd>переформулировать, изменить формулировку</dd><dt>Forms</dt><dd><em>reword</em> &middot; <em>reworded</em> &middot; <em>reworded</em></dd><dt>Third person</dt><dd><em>rewords</em> &middot; <strong>-ing form:</strong> <em>rewording</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To change the wording of a written text without changing its meaning.</p>
+<ol><li><em>Reword</em> the ending so it sounds friendlier.</li><li>The lawyer <em>reworded</em> one whole clause.</li><li>They are <em>rewording</em> the instructions for beginners.</li></ol>
+<hr>
+<h3 id="condense">condense<a class="hash" href="#condense" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈdɛns/ &middot; <em>kuhn-DENS</em></dd><dt>Русский</dt><dd>сокращать, сжимать (текст)</dd><dt>Forms</dt><dd><em>condense</em> &middot; <em>condensed</em> &middot; <em>condensed</em></dd><dt>Third person</dt><dd><em>condenses</em> &middot; <strong>-ing form:</strong> <em>condensing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a piece of writing shorter while keeping the main points.</p>
+<ol><li><em>Condense</em> the report to two pages.</li><li>She <em>condensed</em> the chapter into a single summary.</li><li>The article was <em>condensed</em> for the newsletter.</li></ol>
+<hr>
+<h3 id="simplify">simplify<a class="hash" href="#simplify" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmplɪfaɪ/ &middot; <em>SIM-pluh-fy</em></dd><dt>Русский</dt><dd>упрощать, упростить</dd><dt>Forms</dt><dd><em>simplify</em> &middot; <em>simplified</em> &middot; <em>simplified</em></dd><dt>Third person</dt><dd><em>simplifies</em> &middot; <strong>-ing form:</strong> <em>simplifying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em>: <em>simplifies</em>, <em>simplified</em>, but <em>simplifying</em>.</dd></dl>
+<p>To make something easier to read or to understand.</p>
+<ol><li><em>Simplify</em> the language for younger readers.</li><li>He <em>simplified</em> the instructions after the first complaint.</li><li>This text has been <em>simplified</em> for beginners.</li></ol>
+<hr>
+<h3 id="narrate">narrate<a class="hash" href="#narrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɛreɪt/ &middot; <em>NAIR-ayt</em></dd><dt>Русский</dt><dd>рассказывать, вести повествование</dd><dt>Forms</dt><dd><em>narrate</em> &middot; <em>narrated</em> &middot; <em>narrated</em></dd><dt>Third person</dt><dd><em>narrates</em> &middot; <strong>-ing form:</strong> <em>narrating</em></dd><dt>Transitivity</dt><dd>both — transitive (narrate a story), intransitive (he narrates beautifully)</dd></dl>
+<p>To tell a story, or to speak the words that go with a film or recording.</p>
+<ol><li>Who <em>narrates</em> the audiobook?</li><li>The author <em>narrated</em> her own memoir.</li><li>A child in the back row is <em>narrating</em> the whole movie.</li></ol>
+<hr>
+<h3 id="document">document<a class="hash" href="#document" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːkjəmɛnt/ &middot; <em>DAHK-yuh-ment</em></dd><dt>Русский</dt><dd>документировать, фиксировать (письменно)</dd><dt>Forms</dt><dd><em>document</em> &middot; <em>documented</em> &middot; <em>documented</em></dd><dt>Third person</dt><dd><em>documents</em> &middot; <strong>-ing form:</strong> <em>documenting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb ends <em>-ment</em> (<em>DAHK-yuh-ment</em>); the noun ends in a schwa (<em>DAHK-yuh-muhnt</em>).</dd></dl>
+<p>To record something in writing or on film so that there is proof of it.</p>
+<ol><li><em>Document</em> every payment you make.</li><li>She <em>documented</em> the whole trip in a blog.</li><li>The changes are <em>documented</em> in the appendix.</li></ol>
+<hr>
+<h3 id="illustrate">illustrate<a class="hash" href="#illustrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪləstreɪt/ &middot; <em>IL-uh-strayt</em></dd><dt>Русский</dt><dd>иллюстрировать; наглядно пояснять</dd><dt>Forms</dt><dd><em>illustrate</em> &middot; <em>illustrated</em> &middot; <em>illustrated</em></dd><dt>Third person</dt><dd><em>illustrates</em> &middot; <strong>-ing form:</strong> <em>illustrating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To add pictures to a text, or to make a point clear with an example.</p>
+<ol><li>Small drawings <em>illustrate</em> each chapter.</li><li>Her sister <em>illustrated</em> the children's book.</li><li>He is <em>illustrating</em> a cookbook this spring.</li></ol>
+<hr>
+<h3 id="title">title<a class="hash" href="#title" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪtəl/ &middot; <em>TY-tuhl</em></dd><dt>Русский</dt><dd>озаглавливать, давать название</dd><dt>Forms</dt><dd><em>title</em> &middot; <em>titled</em> &middot; <em>titled</em></dd><dt>Third person</dt><dd><em>titles</em> &middot; <strong>-ing form:</strong> <em>titling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give a book, article, or piece of music a name.</p>
+<ol><li>What should we <em>title</em> the article?</li><li>She <em>titled</em> the essay 'Small Hours'.</li><li>The album is <em>titled</em> after his daughter.</li></ol>
+<hr>
+<h3 id="jot">jot<a class="hash" href="#jot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɑːt/ &middot; <em>JAHT</em></dd><dt>Русский</dt><dd>быстро записывать, черкнуть</dd><dt>Forms</dt><dd><em>jot</em> &middot; <em>jotted</em> &middot; <em>jotted</em></dd><dt>Third person</dt><dd><em>jots</em> &middot; <strong>-ing form:</strong> <em>jotting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Doubles the <em>t</em>: <em>jotted</em>, <em>jotting</em>.</dd></dl>
+<p>To write something down quickly and briefly.</p>
+<ol><li><em>Jot</em> the number on the envelope.</li><li>He <em>jotted</em> a few lines in his notebook.</li><li>She was <em>jotting</em> notes all through the call.</li></ol>
+<hr>
+<h3 id="scribble">scribble<a class="hash" href="#scribble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskrɪbəl/ &middot; <em>SKRIB-uhl</em></dd><dt>Русский</dt><dd>писать каракулями, нацарапать</dd><dt>Forms</dt><dd><em>scribble</em> &middot; <em>scribbled</em> &middot; <em>scribbled</em></dd><dt>Third person</dt><dd><em>scribbles</em> &middot; <strong>-ing form:</strong> <em>scribbling</em></dd><dt>Transitivity</dt><dd>both — transitive (scribble a note), intransitive (scribble in the margin)</dd></dl>
+<p>To write something quickly and messily.</p>
+<ol><li>He <em>scribbles</em> notes on the back of receipts.</li><li>She <em>scribbled</em> her address on a napkin.</li><li>The baby was <em>scribbling</em> all over the book.</li></ol>
+<hr>
+<h3 id="doodle">doodle<a class="hash" href="#doodle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈduːdəl/ &middot; <em>DOO-duhl</em></dd><dt>Русский</dt><dd>рисовать каракули, машинально чертить</dd><dt>Forms</dt><dd><em>doodle</em> &middot; <em>doodled</em> &middot; <em>doodled</em></dd><dt>Third person</dt><dd><em>doodles</em> &middot; <strong>-ing form:</strong> <em>doodling</em></dd><dt>Transitivity</dt><dd>both — transitive (doodle a face), intransitive (doodle in a notebook)</dd></dl>
+<p>To draw little pictures without thinking, usually while doing something else.</p>
+<ol><li>He <em>doodles</em> through every meeting.</li><li>She <em>doodled</em> flowers in the margin.</li><li>I was <em>doodling</em> instead of taking notes.</li></ol>
+<hr>
+<h3 id="color">color<a class="hash" href="#color" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌlər/ &middot; <em>KUL-ur</em></dd><dt>Русский</dt><dd>раскрашивать, разукрашивать</dd><dt>Forms</dt><dd><em>color</em> &middot; <em>colored</em> &middot; <em>colored</em></dd><dt>Third person</dt><dd><em>colors</em> &middot; <strong>-ing form:</strong> <em>coloring</em></dd><dt>Transitivity</dt><dd>both — transitive (color a picture), intransitive (the kids colored quietly)</dd><dt>Contrast</dt><dd>American <em>color</em>, <em>colored</em>, <em>coloring</em>; British <em>colour</em>, <em>coloured</em>, <em>colouring</em>.</dd></dl>
+<p>To fill a drawing with color using crayons or pencils.</p>
+<ol><li>Let the kids <em>color</em> the last page.</li><li>She <em>colored</em> the whole sky purple.</li><li>He is <em>coloring</em> inside the lines for once.</li></ol>
+<hr>
+<h3 id="elaborate">elaborate<a class="hash" href="#elaborate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlæbəreɪt/ &middot; <em>i-LAB-uh-rayt</em></dd><dt>Русский</dt><dd>подробно останавливаться, развивать мысль</dd><dt>Forms</dt><dd><em>elaborate</em> &middot; <em>elaborated</em> &middot; <em>elaborated</em></dd><dt>Third person</dt><dd><em>elaborates</em> &middot; <strong>-ing form:</strong> <em>elaborating</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Takes <em>on</em>: <em>elaborate on an idea</em>. The verb ends <em>-rayt</em>; the adjective <em>elaborate</em> ends <em>-ruht</em>.</dd></dl>
+<p>To say or write more about something you have already mentioned.</p>
+<ol><li>Could you <em>elaborate</em> a little?</li><li>She <em>elaborated</em> on her answer in the second paragraph.</li><li>He is <em>elaborating</em> on a point nobody questioned.</li></ol>
+<hr>
+<h3 id="recount">recount<a class="hash" href="#recount" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈkaʊnt/ &middot; <em>ri-KOWNT</em></dd><dt>Русский</dt><dd>излагать, подробно рассказывать</dd><dt>Forms</dt><dd><em>recount</em> &middot; <em>recounted</em> &middot; <em>recounted</em></dd><dt>Third person</dt><dd><em>recounts</em> &middot; <strong>-ing form:</strong> <em>recounting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>ri-KOWNT</em> means 'tell the story'; <em>REE-kownt</em> means 'count again'.</dd></dl>
+<p>To tell or write the story of something that happened.</p>
+<ol><li><em>Recount</em> the events in the order they happened.</li><li>He <em>recounted</em> the whole argument to his brother.</li><li>She is <em>recounting</em> her first year in Chicago.</li></ol>
+<hr>
+<h3 id="portray">portray<a class="hash" href="#portray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɔːrˈtreɪ/ &middot; <em>por-TRAY</em></dd><dt>Русский</dt><dd>изображать, описывать (в книге, фильме)</dd><dt>Forms</dt><dd><em>portray</em> &middot; <em>portrayed</em> &middot; <em>portrayed</em></dd><dt>Third person</dt><dd><em>portrays</em> &middot; <strong>-ing form:</strong> <em>portraying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Vowel + <em>-y</em>: <em>portrays</em>, <em>portrayed</em> — the <em>y</em> does not change.</dd></dl>
+<p>To describe or show a person or place in a particular way in a book or film.</p>
+<ol><li>The novel <em>portrays</em> a small town in winter.</li><li>She <em>portrayed</em> her father as a hero.</li><li>Teachers are often <em>portrayed</em> as saints in these books.</li></ol>
+<hr>
+<h3 id="depict">depict<a class="hash" href="#depict" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈpɪkt/ &middot; <em>di-PIKT</em></dd><dt>Русский</dt><dd>изображать, описывать</dd><dt>Forms</dt><dd><em>depict</em> &middot; <em>depicted</em> &middot; <em>depicted</em></dd><dt>Third person</dt><dd><em>depicts</em> &middot; <strong>-ing form:</strong> <em>depicting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To show or describe something in words or pictures.</p>
+<ol><li>The article <em>depicts</em> life in a border town.</li><li>The painting <em>depicted</em> a harvest.</li><li>Poverty is rarely <em>depicted</em> honestly on television.</li></ol>
+<hr>
+<h3 id="reprint">reprint<a class="hash" href="#reprint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈprɪnt/ &middot; <em>ree-PRINT</em></dd><dt>Русский</dt><dd>переиздавать, перепечатывать</dd><dt>Forms</dt><dd><em>reprint</em> &middot; <em>reprinted</em> &middot; <em>reprinted</em></dd><dt>Third person</dt><dd><em>reprints</em> &middot; <strong>-ing form:</strong> <em>reprinting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To print a book or an article again.</p>
+<ol><li>They will <em>reprint</em> the novel with a new cover.</li><li>The magazine <em>reprinted</em> her essay in June.</li><li>The book has been <em>reprinted</em> eleven times.</li></ol>
+<hr>
+<h3 id="photocopy">photocopy<a class="hash" href="#photocopy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊtoʊˌkɑːpi/ &middot; <em>FOH-toh-kah-pee</em></dd><dt>Русский</dt><dd>делать ксерокопию, копировать</dd><dt>Forms</dt><dd><em>photocopy</em> &middot; <em>photocopied</em> &middot; <em>photocopied</em></dd><dt>Third person</dt><dd><em>photocopies</em> &middot; <strong>-ing form:</strong> <em>photocopying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em>: <em>photocopies</em>, <em>photocopied</em>, like <em>copy</em>.</dd></dl>
+<p>To make a paper copy of a page with a machine.</p>
+<ol><li><em>Photocopy</em> your passport and keep it somewhere safe.</li><li>She <em>photocopied</em> the whole chapter for the class.</li><li>He is <em>photocopying</em> the forms now.</li></ol>
+<hr>
+<h3 id="fax">fax<a class="hash" href="#fax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fæks/ &middot; <em>FAKS</em></dd><dt>Русский</dt><dd>отправлять по факсу</dd><dt>Forms</dt><dd><em>fax</em> &middot; <em>faxed</em> &middot; <em>faxed</em></dd><dt>Third person</dt><dd><em>faxes</em> &middot; <strong>-ing form:</strong> <em>faxing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Third person adds <em>-es</em>: <em>faxes</em>.</dd></dl>
+<p>To send a copy of a document over a phone line.</p>
+<ol><li>The clinic asks you to <em>fax</em> the form.</li><li>She <em>faxed</em> the signed page this morning.</li><li>Doctors are still <em>faxing</em> prescriptions to pharmacies.</li></ol>
+<hr>
+<h3 id="duplicate">duplicate<a class="hash" href="#duplicate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈduːplɪkeɪt/ &middot; <em>DOO-pli-kayt</em></dd><dt>Русский</dt><dd>дублировать, делать копию</dd><dt>Forms</dt><dd><em>duplicate</em> &middot; <em>duplicated</em> &middot; <em>duplicated</em></dd><dt>Third person</dt><dd><em>duplicates</em> &middot; <strong>-ing form:</strong> <em>duplicating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb ends <em>-kayt</em>; the noun and adjective end <em>-kuht</em> (<em>a duplicate copy</em>).</dd></dl>
+<p>To make an exact copy of something.</p>
+<ol><li><em>Duplicate</em> the file before you edit it.</li><li>She <em>duplicated</em> the handout for the whole class.</li><li>The slides are being <em>duplicated</em> for everyone.</li></ol>
+<hr>
+<h3 id="republish">republish<a class="hash" href="#republish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈpʌblɪʃ/ &middot; <em>ree-PUB-lish</em></dd><dt>Русский</dt><dd>переиздавать, публиковать заново</dd><dt>Forms</dt><dd><em>republish</em> &middot; <em>republished</em> &middot; <em>republished</em></dd><dt>Third person</dt><dd><em>republishes</em> &middot; <strong>-ing form:</strong> <em>republishing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To publish a text again, often in a new form.</p>
+<ol><li>They plan to <em>republish</em> her diaries next fall.</li><li>The essay was <em>republished</em> online a week later.</li><li>A university press is <em>republishing</em> his early novels.</li></ol>
+<hr>
+<h3 id="circulate">circulate<a class="hash" href="#circulate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrkjəleɪt/ &middot; <em>SUR-kyuh-layt</em></dd><dt>Русский</dt><dd>распространять, рассылать; циркулировать</dd><dt>Forms</dt><dd><em>circulate</em> &middot; <em>circulated</em> &middot; <em>circulated</em></dd><dt>Third person</dt><dd><em>circulates</em> &middot; <strong>-ing form:</strong> <em>circulating</em></dd><dt>Transitivity</dt><dd>both — transitive (circulate a draft), intransitive (rumors circulate)</dd></dl>
+<p>To pass something around so that many people see it.</p>
+<ol><li><em>Circulate</em> the draft before Friday.</li><li>Someone <em>circulated</em> the memo to the whole office.</li><li>Rumors were <em>circulating</em> long before the article appeared.</li></ol>
+<hr>
+<h3 id="censor">censor<a class="hash" href="#censor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛnsər/ &middot; <em>SEN-sur</em></dd><dt>Русский</dt><dd>подвергать цензуре, вырезать (из текста)</dd><dt>Forms</dt><dd><em>censor</em> &middot; <em>censored</em> &middot; <em>censored</em></dd><dt>Third person</dt><dd><em>censors</em> &middot; <strong>-ing form:</strong> <em>censoring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Censor</em> (cut out) is not <em>censure</em> (criticize officially) or <em>sensor</em> (a device).</dd></dl>
+<p>To cut out parts of a text, film, or letter that someone in authority finds unacceptable.</p>
+<ol><li>Some governments <em>censor</em> the news.</li><li>The prison <em>censored</em> his letters.</li><li>Whole pages had been <em>censored</em> before the file was released.</li></ol>
+<hr>
+<h3 id="redact">redact<a class="hash" href="#redact" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈdækt/ &middot; <em>ri-DAKT</em></dd><dt>Русский</dt><dd>вымарывать, закрашивать (в документе)</dd><dt>Forms</dt><dd><em>redact</em> &middot; <em>redacted</em> &middot; <em>redacted</em></dd><dt>Third person</dt><dd><em>redacts</em> &middot; <strong>-ing form:</strong> <em>redacting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To black out parts of a document before it is made public.</p>
+<ol><li>They <em>redact</em> names to protect privacy.</li><li>The agency <em>redacted</em> half the report.</li><li>The emails were released in <em>redacted</em> form.</li></ol>
+<hr>
+<h3 id="retract">retract<a class="hash" href="#retract" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈtrækt/ &middot; <em>ri-TRAKT</em></dd><dt>Русский</dt><dd>отзывать (заявление), опровергать</dd><dt>Forms</dt><dd><em>retract</em> &middot; <em>retracted</em> &middot; <em>retracted</em></dd><dt>Third person</dt><dd><em>retracts</em> &middot; <strong>-ing form:</strong> <em>retracting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To take back something you said or published because it was wrong.</p>
+<ol><li>The paper had to <em>retract</em> the story.</li><li>He <em>retracted</em> the statement the next day.</li><li>Two of the study's claims have been <em>retracted</em>.</li></ol>
+<hr>
+<h3 id="feature">feature<a class="hash" href="#feature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfiːtʃər/ &middot; <em>FEE-chur</em></dd><dt>Русский</dt><dd>помещать на видном месте, давать (материал)</dd><dt>Forms</dt><dd><em>feature</em> &middot; <em>featured</em> &middot; <em>featured</em></dd><dt>Third person</dt><dd><em>features</em> &middot; <strong>-ing form:</strong> <em>featuring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give a story, person, or work a prominent place in a publication or program.</p>
+<ol><li>The magazine <em>features</em> a new poet every month.</li><li>They <em>featured</em> her essay on the front page.</li><li>The issue <em>featuring</em> the interview sold out.</li></ol>
+<hr>
+<h3 id="pitch">pitch<a class="hash" href="#pitch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪtʃ/ &middot; <em>PICH</em></dd><dt>Русский</dt><dd>предлагать (идею, статью), продвигать замысел</dd><dt>Forms</dt><dd><em>pitch</em> &middot; <em>pitched</em> &middot; <em>pitched</em></dd><dt>Third person</dt><dd><em>pitches</em> &middot; <strong>-ing form:</strong> <em>pitching</em></dd><dt>Transitivity</dt><dd>both — transitive (pitch a story), intransitive (pitch to an editor)</dd><dt>Contrast</dt><dd>Third person adds <em>-es</em> after <em>ch</em>: <em>pitches</em>.</dd></dl>
+<p>To offer an idea for a story, book, or project to someone who might buy it.</p>
+<ol><li><em>Pitch</em> the story to an editor first.</li><li>She <em>pitched</em> three articles and sold two.</li><li>He is <em>pitching</em> his novel to agents this month.</li></ol>
+<hr>
+<h3 id="adapt">adapt<a class="hash" href="#adapt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdæpt/ &middot; <em>uh-DAPT</em></dd><dt>Русский</dt><dd>адаптировать, перерабатывать (для экранизации)</dd><dt>Forms</dt><dd><em>adapt</em> &middot; <em>adapted</em> &middot; <em>adapted</em></dd><dt>Third person</dt><dd><em>adapts</em> &middot; <strong>-ing form:</strong> <em>adapting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Adapt</em> (change something) is not <em>adopt</em> (take as your own).</dd></dl>
+<p>To rewrite a book or story so that it can be a film, a play, or a version for other readers.</p>
+<ol><li>They plan to <em>adapt</em> the novel for television.</li><li>She <em>adapted</em> the play for young audiences.</li><li>The book has been <em>adapted</em> three times already.</li></ol>
+<hr>
+<h3 id="critique">critique<a class="hash" href="#critique" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krɪˈtiːk/ &middot; <em>kri-TEEK</em></dd><dt>Русский</dt><dd>разбирать, критически оценивать (работу)</dd><dt>Forms</dt><dd><em>critique</em> &middot; <em>critiqued</em> &middot; <em>critiqued</em></dd><dt>Third person</dt><dd><em>critiques</em> &middot; <strong>-ing form:</strong> <em>critiquing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Pronounced <em>kri-TEEK</em>; a <em>critic</em> is <em>KRIT-ik</em>.</dd></dl>
+<p>To judge a piece of work carefully and say what is good and bad about it.</p>
+<ol><li>Classmates <em>critique</em> each other's drafts.</li><li>The professor <em>critiqued</em> my argument line by line.</li><li>They spent the hour <em>critiquing</em> the opening chapter.</li></ol>
+<hr>
+<h3 id="rate">rate<a class="hash" href="#rate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪt/ &middot; <em>RAYT</em></dd><dt>Русский</dt><dd>оценивать, ставить оценку (баллы, звёзды)</dd><dt>Forms</dt><dd><em>rate</em> &middot; <em>rated</em> &middot; <em>rated</em></dd><dt>Third person</dt><dd><em>rates</em> &middot; <strong>-ing form:</strong> <em>rating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To judge how good something is, often by giving it stars or points.</p>
+<ol><li>Readers <em>rate</em> the book four stars out of five.</li><li>She <em>rated</em> the hotel poorly in her review.</li><li>The app is <em>rated</em> for ages twelve and up.</li></ol>
+<hr>
+<h3 id="upload">upload<a class="hash" href="#upload" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌploʊd/ &middot; <em>UP-lohd</em></dd><dt>Русский</dt><dd>загружать (на сайт), выкладывать</dd><dt>Forms</dt><dd><em>upload</em> &middot; <em>uploaded</em> &middot; <em>uploaded</em></dd><dt>Third person</dt><dd><em>uploads</em> &middot; <strong>-ing form:</strong> <em>uploading</em></dd><dt>Transitivity</dt><dd>both — transitive (upload a file), intransitive (it's still uploading)</dd></dl>
+<p>To send a file from your own device to the internet or a server.</p>
+<ol><li><em>Upload</em> the essay before midnight.</li><li>He <em>uploaded</em> the wrong version by mistake.</li><li>She is <em>uploading</em> the photos now.</li></ol>
+<hr>
+<h3 id="download">download<a class="hash" href="#download" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaʊnloʊd/ &middot; <em>DOWN-lohd</em></dd><dt>Русский</dt><dd>скачивать, загружать (себе)</dd><dt>Forms</dt><dd><em>download</em> &middot; <em>downloaded</em> &middot; <em>downloaded</em></dd><dt>Third person</dt><dd><em>downloads</em> &middot; <strong>-ing form:</strong> <em>downloading</em></dd><dt>Transitivity</dt><dd>both — transitive (download a book), intransitive (the file is downloading)</dd></dl>
+<p>To copy a file from the internet onto your own device.</p>
+<ol><li><em>Download</em> the form and print it.</li><li>I <em>downloaded</em> the book last night.</li><li>The article can be <em>downloaded</em> free.</li></ol>
+<hr>
+<h3 id="archive">archive<a class="hash" href="#archive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrkaɪv/ &middot; <em>AHR-kyv</em></dd><dt>Русский</dt><dd>архивировать, отправлять в архив</dd><dt>Forms</dt><dd><em>archive</em> &middot; <em>archived</em> &middot; <em>archived</em></dd><dt>Third person</dt><dd><em>archives</em> &middot; <strong>-ing form:</strong> <em>archiving</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To store documents or messages for the long term instead of deleting them.</p>
+<ol><li><em>Archive</em> the old emails instead of deleting them.</li><li>The library <em>archived</em> every issue of the paper.</li><li>Her letters have been <em>archived</em> at the university.</li></ol>
+<hr>
+<h3 id="compile">compile<a class="hash" href="#compile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpaɪl/ &middot; <em>kuhm-PYL</em></dd><dt>Русский</dt><dd>составлять (сборник), собирать воедино</dd><dt>Forms</dt><dd><em>compile</em> &middot; <em>compiled</em> &middot; <em>compiled</em></dd><dt>Third person</dt><dd><em>compiles</em> &middot; <strong>-ing form:</strong> <em>compiling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put together a book, list, or report out of many separate pieces.</p>
+<ol><li>They <em>compile</em> a new dictionary every decade.</li><li>She <em>compiled</em> his poems into one volume.</li><li>He is <em>compiling</em> a list of sources.</li></ol>
+<hr>
+<h3 id="catalog">catalog<a class="hash" href="#catalog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætəlɔːɡ/ &middot; <em>KAT-uh-lawg</em></dd><dt>Русский</dt><dd>каталогизировать, вносить в каталог</dd><dt>Forms</dt><dd><em>catalog</em> &middot; <em>cataloged</em> &middot; <em>cataloged</em></dd><dt>Third person</dt><dd><em>catalogs</em> &middot; <strong>-ing form:</strong> <em>cataloging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>catalog</em>, <em>cataloged</em>; British <em>catalogue</em>, <em>catalogued</em>.</dd></dl>
+<p>To list things in order so that they can be found again.</p>
+<ol><li>Volunteers <em>catalog</em> the donated books.</li><li>She <em>cataloged</em> the whole collection in a month.</li><li>The photographs are being <em>cataloged</em> by year.</li></ol>
+<hr>
+<h3 id="log">log<a class="hash" href="#log" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɔːɡ/ &middot; <em>LAWG</em></dd><dt>Русский</dt><dd>записывать (в журнал), фиксировать</dd><dt>Forms</dt><dd><em>log</em> &middot; <em>logged</em> &middot; <em>logged</em></dd><dt>Third person</dt><dd><em>logs</em> &middot; <strong>-ing form:</strong> <em>logging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Doubles the <em>g</em>: <em>logged</em>, <em>logging</em>.</dd></dl>
+<p>To write down events, hours, or numbers in an official record.</p>
+<ol><li>Drivers <em>log</em> every trip they make.</li><li>The nurse <em>logged</em> his temperature at noon.</li><li>She has been <em>logging</em> her reading all year.</li></ol>
+<hr>
+<h3 id="flag">flag<a class="hash" href="#flag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flæɡ/ &middot; <em>FLAG</em></dd><dt>Русский</dt><dd>помечать, отмечать (как важное)</dd><dt>Forms</dt><dd><em>flag</em> &middot; <em>flagged</em> &middot; <em>flagged</em></dd><dt>Third person</dt><dd><em>flags</em> &middot; <strong>-ing form:</strong> <em>flagging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Doubles the <em>g</em>: <em>flagged</em>, <em>flagging</em>.</dd></dl>
+<p>To mark something so that someone will notice it and deal with it.</p>
+<ol><li><em>Flag</em> any sentence you don't understand.</li><li>The editor <em>flagged</em> three factual errors.</li><li>Two emails are <em>flagged</em> as urgent.</li></ol>
+<hr>
+<h3 id="tag">tag<a class="hash" href="#tag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tæɡ/ &middot; <em>TAG</em></dd><dt>Русский</dt><dd>отмечать (в посте), помечать тегом</dd><dt>Forms</dt><dd><em>tag</em> &middot; <em>tagged</em> &middot; <em>tagged</em></dd><dt>Third person</dt><dd><em>tags</em> &middot; <strong>-ing form:</strong> <em>tagging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Doubles the <em>g</em>: <em>tagged</em>, <em>tagging</em>.</dd></dl>
+<p>To attach a name or a keyword to a photo, post, or file.</p>
+<ol><li>Don't <em>tag</em> me in that photo.</li><li>She <em>tagged</em> the post with three keywords.</li><li>He is <em>tagging</em> everyone who was there.</li></ol>
+<hr>
+<h3 id="caption">caption<a class="hash" href="#caption" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæpʃən/ &middot; <em>KAP-shuhn</em></dd><dt>Русский</dt><dd>снабжать подписью, подписывать (фото)</dd><dt>Forms</dt><dd><em>caption</em> &middot; <em>captioned</em> &middot; <em>captioned</em></dd><dt>Third person</dt><dd><em>captions</em> &middot; <strong>-ing form:</strong> <em>captioning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To write a short line of text under a photograph or a picture.</p>
+<ol><li><em>Caption</em> each photo with a name and a date.</li><li>She <em>captioned</em> the picture 'First day of school'.</li><li>All the videos are <em>captioned</em> for deaf viewers.</li></ol>
+<hr>
+<h3 id="message">message<a class="hash" href="#message" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛsɪdʒ/ &middot; <em>MES-ij</em></dd><dt>Русский</dt><dd>писать сообщение, отправлять сообщение</dd><dt>Forms</dt><dd><em>message</em> &middot; <em>messaged</em> &middot; <em>messaged</em></dd><dt>Third person</dt><dd><em>messages</em> &middot; <strong>-ing form:</strong> <em>messaging</em></dd><dt>Transitivity</dt><dd>both — transitive (message a friend), intransitive (we messaged all night)</dd></dl>
+<p>To send someone a written message online or on a phone.</p>
+<ol><li><em>Message</em> me when you land.</li><li>He <em>messaged</em> her three times before she answered.</li><li>She is <em>messaging</em> the whole group now.</li></ol>
+<hr>
+<h3 id="blog">blog<a class="hash" href="#blog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɔːɡ/ &middot; <em>BLAWG</em></dd><dt>Русский</dt><dd>вести блог, писать в блог</dd><dt>Forms</dt><dd><em>blog</em> &middot; <em>blogged</em> &middot; <em>blogged</em></dd><dt>Third person</dt><dd><em>blogs</em> &middot; <strong>-ing form:</strong> <em>blogging</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Doubles the <em>g</em>: <em>blogged</em>, <em>blogging</em>.</dd></dl>
+<p>To write regularly on a personal website.</p>
+<ol><li>She <em>blogs</em> about teaching English.</li><li>He <em>blogged</em> every single day for a year.</li><li>They have been <em>blogging</em> since college.</li></ol>
+<hr>
+<h3 id="repost">repost<a class="hash" href="#repost" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈpoʊst/ &middot; <em>ree-POHST</em></dd><dt>Русский</dt><dd>репостить, размещать повторно</dd><dt>Forms</dt><dd><em>repost</em> &middot; <em>reposted</em> &middot; <em>reposted</em></dd><dt>Third person</dt><dd><em>reposts</em> &middot; <strong>-ing form:</strong> <em>reposting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To publish someone else's post again on your own page.</p>
+<ol><li>Feel free to <em>repost</em> the announcement.</li><li>Hundreds of people <em>reposted</em> the article.</li><li>She is <em>reposting</em> it with a comment of her own.</li></ol>
+<hr>
+<h3 id="sign">sign<a class="hash" href="#sign" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/saɪn/ &middot; <em>SYN</em></dd><dt>Русский</dt><dd>подписывать, подписать</dd><dt>Forms</dt><dd><em>sign</em> &middot; <em>signed</em> &middot; <em>signed</em></dd><dt>Third person</dt><dd><em>signs</em> &middot; <strong>-ing form:</strong> <em>signing</em></dd><dt>Transitivity</dt><dd>both — transitive (sign a letter), intransitive (sign at the bottom)</dd><dt>Contrast</dt><dd>Silent <em>g</em>: <em>sign</em> rhymes with <em>fine</em>, but <em>signature</em> is <em>SIG-nuh-chur</em>.</dd></dl>
+<p>To write your name on a document to show that it is yours or that you agree.</p>
+<ol><li><em>Sign</em> at the bottom of the second page.</li><li>She <em>signed</em> the lease yesterday.</li><li>The letter came back because it wasn't <em>signed</em>.</li></ol>
+<hr>
+<h3 id="autograph">autograph<a class="hash" href="#autograph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːtəɡræf/ &middot; <em>AW-tuh-graf</em></dd><dt>Русский</dt><dd>надписывать (книгу), давать автограф</dd><dt>Forms</dt><dd><em>autograph</em> &middot; <em>autographed</em> &middot; <em>autographed</em></dd><dt>Third person</dt><dd><em>autographs</em> &middot; <strong>-ing form:</strong> <em>autographing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To sign your name on something for someone who admires your work.</p>
+<ol><li>Writers often <em>autograph</em> books after a reading.</li><li>He <em>autographed</em> my copy of the novel.</li><li>She is <em>autographing</em> posters in the lobby.</li></ol>
+<hr>
+<h3 id="inscribe">inscribe<a class="hash" href="#inscribe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈskraɪb/ &middot; <em>in-SKRYB</em></dd><dt>Русский</dt><dd>надписывать (книгу), делать надпись</dd><dt>Forms</dt><dd><em>inscribe</em> &middot; <em>inscribed</em> &middot; <em>inscribed</em></dd><dt>Third person</dt><dd><em>inscribes</em> &middot; <strong>-ing form:</strong> <em>inscribing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To write a short personal message in a book or on an object.</p>
+<ol><li>Authors sometimes <em>inscribe</em> books for their readers.</li><li>She <em>inscribed</em> the copy to her old teacher.</li><li>The ring is <em>inscribed</em> with a date.</li></ol>
+<hr>
+<h3 id="initial">initial<a class="hash" href="#initial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈnɪʃəl/ &middot; <em>i-NISH-uhl</em></dd><dt>Русский</dt><dd>ставить инициалы (на документе)</dd><dt>Forms</dt><dd><em>initial</em> &middot; <em>initialed</em> &middot; <em>initialed</em></dd><dt>Third person</dt><dd><em>initials</em> &middot; <strong>-ing form:</strong> <em>initialing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>initialed</em>, <em>initialing</em>; British doubles the <em>l</em>: <em>initialled</em>.</dd></dl>
+<p>To write your initials on a document to show you have read or approved it.</p>
+<ol><li><em>Initial</em> each page of the contract.</li><li>She <em>initialed</em> the changes in the margin.</li><li>Every correction has been <em>initialed</em> by the manager.</li></ol>
+<hr>
+<h3 id="date">date<a class="hash" href="#date" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/deɪt/ &middot; <em>DAYT</em></dd><dt>Русский</dt><dd>датировать, ставить дату</dd><dt>Forms</dt><dd><em>date</em> &middot; <em>dated</em> &middot; <em>dated</em></dd><dt>Third person</dt><dd><em>dates</em> &middot; <strong>-ing form:</strong> <em>dating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The same verb also means 'go out with someone': <em>They dated for two years.</em></dd></dl>
+<p>To write the day's date on a document.</p>
+<ol><li>Sign and <em>date</em> the form at the bottom.</li><li>He <em>dated</em> the letter March 3.</li><li>The check was <em>dated</em> last year, so the bank refused it.</li></ol>
+<hr>
+<h3 id="stamp">stamp<a class="hash" href="#stamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stæmp/ &middot; <em>STAMP</em></dd><dt>Русский</dt><dd>ставить штамп, штемпелевать; наклеивать марку</dd><dt>Forms</dt><dd><em>stamp</em> &middot; <em>stamped</em> &middot; <em>stamped</em></dd><dt>Third person</dt><dd><em>stamps</em> &middot; <strong>-ing form:</strong> <em>stamping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To press an official mark onto a document, or to put a postage stamp on a letter.</p>
+<ol><li>The clerk will <em>stamp</em> your copy.</li><li>They <em>stamped</em> my passport at the border.</li><li>Send a <em>stamped</em>, self-addressed envelope.</li></ol>
+<hr>
+<h3 id="enclose">enclose<a class="hash" href="#enclose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈkloʊz/ &middot; <em>in-KLOHZ</em></dd><dt>Русский</dt><dd>вкладывать (в конверт), прилагать</dd><dt>Forms</dt><dd><em>enclose</em> &middot; <em>enclosed</em> &middot; <em>enclosed</em></dd><dt>Third person</dt><dd><em>encloses</em> &middot; <strong>-ing form:</strong> <em>enclosing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put something into an envelope together with a letter.</p>
+<ol><li>Please <em>enclose</em> a copy of your ID.</li><li>She <em>enclosed</em> a check with the form.</li><li>A return envelope is <em>enclosed</em>.</li></ol>
+<hr>
+<h3 id="endorse">endorse<a class="hash" href="#endorse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdɔːrs/ &middot; <em>in-DORS</em></dd><dt>Русский</dt><dd>расписываться на обороте (чека); публично поддерживать</dd><dt>Forms</dt><dd><em>endorse</em> &middot; <em>endorsed</em> &middot; <em>endorsed</em></dd><dt>Third person</dt><dd><em>endorses</em> &middot; <strong>-ing form:</strong> <em>endorsing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To sign the back of a check, or to say publicly in writing that you support someone.</p>
+<ol><li>You have to <em>endorse</em> the check before you deposit it.</li><li>The paper <em>endorsed</em> her for mayor.</li><li>The book is <em>endorsed</em> by two famous novelists.</li></ol>
+<hr>
+<h3 id="certify">certify<a class="hash" href="#certify" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrtɪfaɪ/ &middot; <em>SUR-tuh-fy</em></dd><dt>Русский</dt><dd>заверять, удостоверять</dd><dt>Forms</dt><dd><em>certify</em> &middot; <em>certified</em> &middot; <em>certified</em></dd><dt>Third person</dt><dd><em>certifies</em> &middot; <strong>-ing form:</strong> <em>certifying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em>: <em>certifies</em>, <em>certified</em>, but <em>certifying</em>.</dd></dl>
+<p>To state officially, usually in writing, that something is true or correct.</p>
+<ol><li>A translator must <em>certify</em> the translation.</li><li>The clerk <em>certified</em> the copy for a small fee.</li><li>The documents have been <em>certified</em> by a notary.</li></ol>
+<hr>
+<h3 id="notarize">notarize<a class="hash" href="#notarize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnoʊtəraɪz/ &middot; <em>NOH-tuh-ryz</em></dd><dt>Русский</dt><dd>нотариально заверять</dd><dt>Forms</dt><dd><em>notarize</em> &middot; <em>notarized</em> &middot; <em>notarized</em></dd><dt>Third person</dt><dd><em>notarizes</em> &middot; <strong>-ing form:</strong> <em>notarizing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To have a document officially witnessed and stamped by a notary.</p>
+<ol><li>The bank can <em>notarize</em> the letter for you.</li><li>They <em>notarized</em> the agreement downtown.</li><li>The form must be signed and <em>notarized</em>.</li></ol>
+<hr>
+<h3 id="check">check<a class="hash" href="#check" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɛk/ &middot; <em>CHEK</em></dd><dt>Русский</dt><dd>проверять, проверить</dd><dt>Forms</dt><dd><em>check</em> &middot; <em>checked</em> &middot; <em>checked</em></dd><dt>Third person</dt><dd><em>checks</em> &middot; <strong>-ing form:</strong> <em>checking</em></dd><dt>Transitivity</dt><dd>both — transitive (check your spelling), intransitive (check before you send it)</dd></dl>
+<p>To look at something carefully to make sure it is correct.</p>
+<ol><li><em>Check</em> your spelling before you print it.</li><li>She <em>checked</em> the figures twice.</li><li>He is <em>checking</em> the references at the back.</li></ol>
+<hr>
+<h3 id="grade">grade<a class="hash" href="#grade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡreɪd/ &middot; <em>GRAYD</em></dd><dt>Русский</dt><dd>проверять и оценивать (работы), ставить оценки</dd><dt>Forms</dt><dd><em>grade</em> &middot; <em>graded</em> &middot; <em>graded</em></dd><dt>Third person</dt><dd><em>grades</em> &middot; <strong>-ing form:</strong> <em>grading</em></dd><dt>Transitivity</dt><dd>both — transitive (grade the essays), intransitive (she grades on weekends)</dd><dt>Contrast</dt><dd>Americans <em>grade</em> papers; the British <em>mark</em> them.</dd></dl>
+<p>To read students' work and give it a score or a letter.</p>
+<ol><li>Teachers <em>grade</em> essays on the weekend.</li><li>He <em>graded</em> forty papers last night.</li><li>The exams are being <em>graded</em> this week.</li></ol>
+<hr>
+<h3 id="score">score<a class="hash" href="#score" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɔːr/ &middot; <em>SKOR</em></dd><dt>Русский</dt><dd>оценивать в баллах, набирать баллы</dd><dt>Forms</dt><dd><em>score</em> &middot; <em>scored</em> &middot; <em>scored</em></dd><dt>Third person</dt><dd><em>scores</em> &middot; <strong>-ing form:</strong> <em>scoring</em></dd><dt>Transitivity</dt><dd>both — transitive (score the tests), intransitive (she scored well)</dd></dl>
+<p>To give a test or a piece of work a number of points, or to earn those points.</p>
+<ol><li>Two readers <em>score</em> each essay.</li><li>She <em>scored</em> well on the reading section.</li><li>The tests are <em>scored</em> by computer.</li></ol>
+<hr>
+<h3 id="quiz">quiz<a class="hash" href="#quiz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɪz/ &middot; <em>KWIZ</em></dd><dt>Русский</dt><dd>устраивать опрос, расспрашивать</dd><dt>Forms</dt><dd><em>quiz</em> &middot; <em>quizzed</em> &middot; <em>quizzed</em></dd><dt>Third person</dt><dd><em>quizzes</em> &middot; <strong>-ing form:</strong> <em>quizzing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Doubles the <em>z</em>: <em>quizzes</em>, <em>quizzed</em>, <em>quizzing</em>.</dd></dl>
+<p>To ask someone a set of short questions to test what they know.</p>
+<ol><li><em>Quiz</em> me on the new vocabulary.</li><li>The teacher <em>quizzed</em> us on chapter four.</li><li>She was <em>quizzing</em> her son on the state capitals.</li></ol>
+<hr>
+<h3 id="practice">practice<a class="hash" href="#practice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpræktɪs/ &middot; <em>PRAK-tis</em></dd><dt>Русский</dt><dd>практиковаться, отрабатывать, тренироваться</dd><dt>Forms</dt><dd><em>practice</em> &middot; <em>practiced</em> &middot; <em>practiced</em></dd><dt>Third person</dt><dd><em>practices</em> &middot; <strong>-ing form:</strong> <em>practicing</em></dd><dt>Transitivity</dt><dd>both — transitive (practice your handwriting), intransitive (practice every day)</dd><dt>Contrast</dt><dd>American spelling is <em>practice</em> for both noun and verb; British spells the verb <em>practise</em>.</dd></dl>
+<p>To do something again and again in order to get better at it.</p>
+<ol><li><em>Practice</em> reading out loud.</li><li>He <em>practiced</em> his handwriting every evening.</li><li>She has been <em>practicing</em> her English on the phone.</li></ol>
+<hr>
+<h3 id="profile">profile<a class="hash" href="#profile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊfaɪl/ &middot; <em>PROH-fyl</em></dd><dt>Русский</dt><dd>писать очерк о ком-либо, делать портрет (в прессе)</dd><dt>Forms</dt><dd><em>profile</em> &middot; <em>profiled</em> &middot; <em>profiled</em></dd><dt>Third person</dt><dd><em>profiles</em> &middot; <strong>-ing form:</strong> <em>profiling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To write a long article describing a person's life and work.</p>
+<ol><li>The magazine <em>profiles</em> one scientist a month.</li><li>She <em>profiled</em> the mayor last spring.</li><li>He is being <em>profiled</em> in Sunday's paper.</li></ol>
+<hr>
+<h3 id="abridge">abridge<a class="hash" href="#abridge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈbrɪdʒ/ &middot; <em>uh-BRIJ</em></dd><dt>Русский</dt><dd>сокращать (книгу), издавать в сокращении</dd><dt>Forms</dt><dd><em>abridge</em> &middot; <em>abridged</em> &middot; <em>abridged</em></dd><dt>Third person</dt><dd><em>abridges</em> &middot; <strong>-ing form:</strong> <em>abridging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a book or a speech shorter by cutting parts of it out.</p>
+<ol><li>Publishers often <em>abridge</em> long classics for students.</li><li>They <em>abridged</em> the novel for the audiobook.</li><li>I'd rather read the unabridged version than an <em>abridged</em> one.</li></ol>
+<hr>
+<h3 id="underscore">underscore<a class="hash" href="#underscore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌndərˈskɔːr/ &middot; <em>un-dur-SKOR</em></dd><dt>Русский</dt><dd>подчёркивать (важность), акцентировать</dd><dt>Forms</dt><dd><em>underscore</em> &middot; <em>underscored</em> &middot; <em>underscored</em></dd><dt>Third person</dt><dd><em>underscores</em> &middot; <strong>-ing form:</strong> <em>underscoring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To show clearly in writing that something is important.</p>
+<ol><li>These numbers <em>underscore</em> how much reading has changed.</li><li>The article <em>underscored</em> the danger of copying without citing.</li><li>Her letter is <em>underscoring</em> a point the report ignored.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

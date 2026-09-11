@@ -1,0 +1,1231 @@
+{
+  "category": "Core verbs: technology",
+  "slug": "46-core-technology-computing",
+  "entries": [
+    {
+      "term": "open",
+      "ipa": "/ˈoʊpən/",
+      "respell": "OH-puhn",
+      "meaning": "To make a file, app, or window appear on a screen so you can use it. ---",
+      "examples": [
+        "Open the app and sign in with your email.",
+        "I opened the attachment and my laptop froze.",
+        "The file is opening - give it a second."
+      ],
+      "senses": [],
+      "русский": "открывать, открыть; запускать, запустить (программу)",
+      "forms": "open · opened · opened",
+      "third person": "opens · -ing form: opening",
+      "transitivity": "both — transitive (open the app), intransitive (the file opens slowly)",
+      "contrast": "No doubled n: opened, opening. The stress is on the first syllable, so the consonant stays single."
+    },
+    {
+      "term": "close",
+      "ipa": "/kloʊz/",
+      "respell": "KLOHZ",
+      "meaning": "To make a file, window, or program stop being open. ---",
+      "examples": [
+        "Close the other tabs to speed up the browser.",
+        "He closed the laptop without saving the file.",
+        "The app keeps closing on its own."
+      ],
+      "senses": [],
+      "русский": "закрывать, закрыть",
+      "forms": "close · closed · closed",
+      "third person": "closes · -ing form: closing",
+      "transitivity": "both — transitive (close the window), intransitive (the app closed by itself)",
+      "contrast": "The verb ends in a z sound (KLOHZ). The adjective close, meaning near, ends in an s sound (KLOHS)."
+    },
+    {
+      "term": "minimize",
+      "ipa": "/ˈmɪnɪmaɪz/",
+      "respell": "MIN-uh-myz",
+      "meaning": "To shrink a window down to the taskbar without closing it. ---",
+      "examples": [
+        "Minimize the window instead of closing it.",
+        "She minimized the chat and went back to her spreadsheet.",
+        "He was minimizing every window one by one."
+      ],
+      "senses": [],
+      "русский": "сворачивать, свернуть (окно); минимизировать",
+      "forms": "minimize · minimized · minimized",
+      "third person": "minimizes · -ing form: minimizing",
+      "transitivity": "transitive",
+      "contrast": "American spelling uses -ize: minimize, minimized. British writing has minimise."
+    },
+    {
+      "term": "maximize",
+      "ipa": "/ˈmæksɪmaɪz/",
+      "respell": "MAK-suh-myz",
+      "meaning": "To make a window fill the whole screen. ---",
+      "examples": [
+        "Maximize the video before the call starts.",
+        "He maximized the window and the text got bigger.",
+        "I have maximized both windows and they still overlap."
+      ],
+      "senses": [],
+      "русский": "разворачивать, развернуть (окно на весь экран); максимизировать",
+      "forms": "maximize · maximized · maximized",
+      "third person": "maximizes · -ing form: maximizing",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "resize",
+      "ipa": "/ˌriːˈsaɪz/",
+      "respell": "ree-SYZ",
+      "meaning": "To make a picture or a window bigger or smaller. ---",
+      "examples": [
+        "Resize the photo before you upload it.",
+        "She resized the logo to fit the header.",
+        "I am resizing the window so both files fit."
+      ],
+      "senses": [],
+      "русский": "изменять размер, изменить размер",
+      "forms": "resize · resized · resized",
+      "third person": "resizes · -ing form: resizing",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "reload",
+      "ipa": "/ˌriːˈloʊd/",
+      "respell": "ree-LOHD",
+      "meaning": "To load a page or a file again. ---",
+      "examples": [
+        "Reload the page if the video will not play.",
+        "The browser reloaded and lost everything I had typed.",
+        "It has been reloading for two minutes."
+      ],
+      "senses": [],
+      "русский": "перезагружать, перезагрузить (страницу); загружать заново",
+      "forms": "reload · reloaded · reloaded",
+      "third person": "reloads · -ing form: reloading",
+      "transitivity": "both — transitive (reload the page), intransitive (the page reloaded by itself)"
+    },
+    {
+      "term": "toggle",
+      "ipa": "/ˈtɑːɡəl/",
+      "respell": "TAH-guhl",
+      "meaning": "To switch a setting on or off, or to move back and forth between two options. ---",
+      "examples": [
+        "Toggle dark mode in the settings menu.",
+        "He toggled the switch and the screen went black.",
+        "She was toggling between two spreadsheets all morning."
+      ],
+      "senses": [],
+      "русский": "переключать, переключить (между двумя состояниями)",
+      "forms": "toggle · toggled · toggled",
+      "third person": "toggles · -ing form: toggling",
+      "transitivity": "both — transitive (toggle the setting), intransitive (toggle between the two views)",
+      "contrast": "Drop the -e before -ing: toggling."
+    },
+    {
+      "term": "compress",
+      "ipa": "/kəmˈprɛs/",
+      "respell": "kuhm-PRESS",
+      "meaning": "To make a file smaller so that it takes less space or sends faster. ---",
+      "examples": [
+        "Compress the folder before you email it.",
+        "He compressed the video and lost some quality.",
+        "The app is compressing two hundred photos."
+      ],
+      "senses": [],
+      "русский": "сжимать, сжать (файл); архивировать",
+      "forms": "compress · compressed · compressed",
+      "third person": "compresses · -ing form: compressing",
+      "transitivity": "transitive",
+      "contrast": "Third person adds -es after -ss: compresses."
+    },
+    {
+      "term": "extract",
+      "ipa": "/ɪkˈstrækt/",
+      "respell": "ik-STRAKT",
+      "meaning": "To pull files or data out of an archive or a larger set. ---",
+      "examples": [
+        "Extract the folder to your desktop.",
+        "The tool extracted every email address from the page.",
+        "It is extracting three thousand files."
+      ],
+      "senses": [],
+      "русский": "извлекать, извлечь; распаковывать, распаковать",
+      "forms": "extract · extracted · extracted",
+      "third person": "extracts · -ing form: extracting",
+      "transitivity": "transitive",
+      "contrast": "The verb is ik-STRAKT; the noun extract (a short passage) is EK-strakt."
+    },
+    {
+      "term": "encrypt",
+      "ipa": "/ɪnˈkrɪpt/",
+      "respell": "in-KRIPT",
+      "meaning": "To turn data into code so that only the right person can read it. ---",
+      "examples": [
+        "Encrypt the folder before you put it in the cloud.",
+        "The app encrypted the messages end to end.",
+        "All of our backups are encrypted."
+      ],
+      "senses": [],
+      "русский": "шифровать, зашифровать",
+      "forms": "encrypt · encrypted · encrypted",
+      "third person": "encrypts · -ing form: encrypting",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "decrypt",
+      "ipa": "/diːˈkrɪpt/",
+      "respell": "dee-KRIPT",
+      "meaning": "To turn coded data back into a readable form. ---",
+      "examples": [
+        "Only the key can decrypt the file.",
+        "They decrypted the message in under an hour.",
+        "The program is decrypting the archive now."
+      ],
+      "senses": [],
+      "русский": "расшифровывать, расшифровать; дешифровать",
+      "forms": "decrypt · decrypted · decrypted",
+      "third person": "decrypts · -ing form: decrypting",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "index",
+      "ipa": "/ˈɪndɛks/",
+      "respell": "IN-deks",
+      "meaning": "To list and organize data so that it can be searched quickly. ---",
+      "examples": [
+        "Search engines index millions of pages a day.",
+        "Google indexed the new site within a week.",
+        "The database is still indexing."
+      ],
+      "senses": [],
+      "русский": "индексировать, проиндексировать",
+      "forms": "index · indexed · indexed",
+      "third person": "indexes · -ing form: indexing",
+      "transitivity": "transitive",
+      "contrast": "Third person adds -es after -x: indexes."
+    },
+    {
+      "term": "query",
+      "ipa": "/ˈkwɪri/",
+      "respell": "KWEER-ee",
+      "meaning": "To ask a database or a system for particular information. ---",
+      "examples": [
+        "You can query the database straight from the browser.",
+        "He queried the server and got an empty result.",
+        "The script is querying three tables at once."
+      ],
+      "senses": [],
+      "русский": "запрашивать, запросить; делать запрос",
+      "forms": "query · queried · queried",
+      "third person": "queries · -ing form: querying",
+      "transitivity": "transitive",
+      "contrast": "Consonant + y, so the y changes: queries, queried. The -ing form keeps it: querying."
+    },
+    {
+      "term": "cache",
+      "ipa": "/kæʃ/",
+      "respell": "KASH",
+      "meaning": "To store data for a short time so that it loads faster the next time. ---",
+      "examples": [
+        "Browsers cache images to save time.",
+        "The page was cached, so I saw yesterday's price.",
+        "The app is caching the whole playlist."
+      ],
+      "senses": [],
+      "русский": "кэшировать, закэшировать; сохранять в кэш",
+      "forms": "cache · cached · cached",
+      "third person": "caches · -ing form: caching",
+      "transitivity": "transitive",
+      "contrast": "Cache is pronounced exactly like cash, not ka-SHAY."
+    },
+    {
+      "term": "embed",
+      "ipa": "/ɪmˈbɛd/",
+      "respell": "im-BED",
+      "meaning": "To put a video, a map, or a piece of code inside a page or a document. ---",
+      "examples": [
+        "You can embed the video right in the post.",
+        "She embedded a map on the contact page.",
+        "He is embedding the font in the file."
+      ],
+      "senses": [],
+      "русский": "встраивать, встроить (видео, код)",
+      "forms": "embed · embedded · embedded",
+      "third person": "embeds · -ing form: embedding",
+      "transitivity": "transitive",
+      "contrast": "Double the d: embedded, embedding."
+    },
+    {
+      "term": "digitize",
+      "ipa": "/ˈdɪdʒɪtaɪz/",
+      "respell": "DIJ-uh-tyz",
+      "meaning": "To turn paper documents, photos, or tapes into computer files. ---",
+      "examples": [
+        "The library wants to digitize every old map.",
+        "We digitized the family videos last summer.",
+        "They have been digitizing records since 2019."
+      ],
+      "senses": [],
+      "русский": "оцифровывать, оцифровать",
+      "forms": "digitize · digitized · digitized",
+      "third person": "digitizes · -ing form: digitizing",
+      "transitivity": "transitive",
+      "contrast": "American -ize; British writing has digitise."
+    },
+    {
+      "term": "disconnect",
+      "ipa": "/ˌdɪskəˈnɛkt/",
+      "respell": "dis-kuh-NEKT",
+      "meaning": "To break the link between a device and a network or another device. ---",
+      "examples": [
+        "Disconnect the drive before you pull the cable.",
+        "The call disconnected after two minutes.",
+        "My laptop keeps disconnecting from the Wi-Fi."
+      ],
+      "senses": [],
+      "русский": "отключать, отключить; разъединять, разъединить",
+      "forms": "disconnect · disconnected · disconnected",
+      "third person": "disconnects · -ing form: disconnecting",
+      "transitivity": "both — transitive (disconnect the drive), intransitive (my phone keeps disconnecting)",
+      "contrast": "You disconnect FROM a network."
+    },
+    {
+      "term": "reconnect",
+      "ipa": "/ˌriːkəˈnɛkt/",
+      "respell": "ree-kuh-NEKT",
+      "meaning": "To join a device or a call back to a network after it was cut off. ---",
+      "examples": [
+        "Try to reconnect to the other network.",
+        "He reconnected the printer and it worked again.",
+        "The app is reconnecting."
+      ],
+      "senses": [],
+      "русский": "переподключать, переподключить; снова соединять, соединиться",
+      "forms": "reconnect · reconnected · reconnected",
+      "third person": "reconnects · -ing form: reconnecting",
+      "transitivity": "both — transitive (reconnect the printer), intransitive (the call reconnected on its own)"
+    },
+    {
+      "term": "unplug",
+      "ipa": "/ˌʌnˈplʌɡ/",
+      "respell": "un-PLUG",
+      "meaning": "To pull a plug or a cable out of a socket or a device. ---",
+      "examples": [
+        "Unplug the router for ten seconds.",
+        "Someone unplugged the monitor.",
+        "He is unplugging every cable to find the bad one."
+      ],
+      "senses": [],
+      "русский": "отключать от сети, отключить; выдёргивать из розетки",
+      "forms": "unplug · unplugged · unplugged",
+      "third person": "unplugs · -ing form: unplugging",
+      "transitivity": "transitive",
+      "contrast": "Double the g: unplugged, unplugging."
+    },
+    {
+      "term": "recharge",
+      "ipa": "/ˌriːˈtʃɑːrdʒ/",
+      "respell": "ree-CHARJ",
+      "meaning": "To fill a battery with power again. ---",
+      "examples": [
+        "Recharge the battery overnight.",
+        "I recharged the headphones in the car.",
+        "The power bank is recharging."
+      ],
+      "senses": [],
+      "русский": "перезаряжать, перезарядить; подзаряжать, подзарядить",
+      "forms": "recharge · recharged · recharged",
+      "third person": "recharges · -ing form: recharging",
+      "transitivity": "both — transitive (recharge the battery), intransitive (the case recharges in an hour)",
+      "contrast": "Third person adds -es after -ge: recharges."
+    },
+    {
+      "term": "power",
+      "ipa": "/ˈpaʊər/",
+      "respell": "POW-ur",
+      "meaning": "To supply a device with the electricity it needs to run. ---",
+      "examples": [
+        "Two small batteries power the whole sensor.",
+        "The old model was powered by a wall adapter.",
+        "One cable is powering both screens."
+      ],
+      "senses": [],
+      "русский": "питать (энергией), обеспечивать питанием",
+      "forms": "power · powered · powered",
+      "third person": "powers · -ing form: powering",
+      "transitivity": "transitive",
+      "contrast": "Power up and power down are separate phrasal verbs."
+    },
+    {
+      "term": "switch",
+      "ipa": "/swɪtʃ/",
+      "respell": "SWICH",
+      "meaning": "To change from one thing, setting, or service to another. ---",
+      "examples": [
+        "Switch the phone to airplane mode.",
+        "We switched to a cheaper carrier last year.",
+        "She is switching between four browser tabs."
+      ],
+      "senses": [],
+      "русский": "переключать, переключить; менять, поменять",
+      "forms": "switch · switched · switched",
+      "third person": "switches · -ing form: switching",
+      "transitivity": "both — transitive (switch the setting), intransitive (we switched to a new provider)",
+      "contrast": "Third person adds -es after -ch: switches. You switch TO a new plan and switch FROM the old one."
+    },
+    {
+      "term": "boot",
+      "ipa": "/buːt/",
+      "respell": "BOOT",
+      "meaning": "To start a computer so that the operating system loads. ---",
+      "examples": [
+        "The old tower takes a full minute to boot.",
+        "He booted the laptop from a USB stick.",
+        "The machine is still booting."
+      ],
+      "senses": [],
+      "русский": "загружаться, загрузиться (о компьютере); загружать систему",
+      "forms": "boot · booted · booted",
+      "third person": "boots · -ing form: booting",
+      "transitivity": "both — transitive (boot the machine from a USB drive), intransitive (the laptop boots in ten seconds)"
+    },
+    {
+      "term": "reboot",
+      "ipa": "/ˌriːˈbuːt/",
+      "respell": "ree-BOOT",
+      "meaning": "To start a computer or device again after shutting it down. ---",
+      "examples": [
+        "Reboot the router and try again.",
+        "I rebooted the laptop three times.",
+        "The server is rebooting."
+      ],
+      "senses": [],
+      "русский": "перезагружать, перезагрузить",
+      "forms": "reboot · rebooted · rebooted",
+      "third person": "reboots · -ing form: rebooting",
+      "transitivity": "both — transitive (reboot the router), intransitive (the server rebooted overnight)"
+    },
+    {
+      "term": "restart",
+      "ipa": "/ˌriːˈstɑːrt/",
+      "respell": "ree-START",
+      "meaning": "To stop a program or a device and start it again right away. ---",
+      "examples": [
+        "Restart the app after the update.",
+        "She restarted the computer and the error disappeared.",
+        "It has been restarting for five minutes."
+      ],
+      "senses": [],
+      "русский": "перезапускать, перезапустить",
+      "forms": "restart · restarted · restarted",
+      "third person": "restarts · -ing form: restarting",
+      "transitivity": "both — transitive (restart the app), intransitive (the phone restarted by itself)"
+    },
+    {
+      "term": "livestream",
+      "ipa": "/ˈlaɪvstriːm/",
+      "respell": "LYV-streem",
+      "meaning": "To broadcast an event over the internet while it is happening. ---",
+      "examples": [
+        "They livestream every home game.",
+        "She livestreamed the wedding for relatives abroad.",
+        "He is livestreaming from the parking lot."
+      ],
+      "senses": [],
+      "русский": "вести прямую трансляцию, транслировать в прямом эфире",
+      "forms": "livestream · livestreamed · livestreamed",
+      "third person": "livestreams · -ing form: livestreaming",
+      "transitivity": "both — transitive (livestream the ceremony), intransitive (she livestreams every Friday)",
+      "contrast": "Written as one word or as live-stream; both are common. The first part rhymes with five, not with give."
+    },
+    {
+      "term": "buffer",
+      "ipa": "/ˈbʌfər/",
+      "respell": "BUF-ur",
+      "meaning": "To load part of a video or a song in advance so that it plays without stopping. ---",
+      "examples": [
+        "A weak connection makes every video buffer.",
+        "The stream buffered twice during the final.",
+        "It keeps buffering right at the good part."
+      ],
+      "senses": [],
+      "русский": "буферизовать, подгружать (данные заранее)",
+      "forms": "buffer · buffered · buffered",
+      "third person": "buffers · -ing form: buffering",
+      "transitivity": "both — transitive (the player buffers a few seconds of video), intransitive (the stream keeps buffering)"
+    },
+    {
+      "term": "lag",
+      "ipa": "/læɡ/",
+      "respell": "LAG",
+      "meaning": "To respond slowly, so that the picture or the sound falls behind. ---",
+      "examples": [
+        "The video will lag on this connection.",
+        "The audio lagged about half a second behind.",
+        "My screen is lagging badly today."
+      ],
+      "senses": [],
+      "русский": "тормозить, подтормаживать; отставать, отстать",
+      "forms": "lag · lagged · lagged",
+      "third person": "lags · -ing form: lagging",
+      "transitivity": "intransitive",
+      "contrast": "Double the g: lagged, lagging."
+    },
+    {
+      "term": "transmit",
+      "ipa": "/trænsˈmɪt/",
+      "respell": "trans-MIT",
+      "meaning": "To send data or a signal from one place to another. ---",
+      "examples": [
+        "The sensor can transmit data over a mile.",
+        "The station transmitted the warning at noon.",
+        "The device has been transmitting all night."
+      ],
+      "senses": [],
+      "русский": "передавать, передать (сигнал, данные)",
+      "forms": "transmit · transmitted · transmitted",
+      "third person": "transmits · -ing form: transmitting",
+      "transitivity": "both — transitive (transmit the data), intransitive (the beacon transmits every hour)",
+      "contrast": "Double the t: transmitted, transmitting - the stress falls on the last syllable."
+    },
+    {
+      "term": "route",
+      "ipa": "/ruːt/",
+      "respell": "ROOT",
+      "meaning": "To send data, calls, or traffic along a particular path. ---",
+      "examples": [
+        "The system routes every call through one server.",
+        "They routed the traffic around the damaged cable.",
+        "It is routing my request to the wrong office."
+      ],
+      "senses": [],
+      "русский": "направлять, направить (трафик, звонок); маршрутизировать",
+      "forms": "route · routed · routed",
+      "third person": "routes · -ing form: routing",
+      "transitivity": "transitive",
+      "contrast": "Most Americans say ROOT, like the root of a tree; ROWT is also heard. The -ing form keeps the e: routing."
+    },
+    {
+      "term": "ping",
+      "ipa": "/pɪŋ/",
+      "respell": "PING",
+      "meaning": "To send a short signal or message to a device or a person. ---",
+      "examples": [
+        "Ping me when the file is ready.",
+        "I pinged the server and got no answer.",
+        "My phone has been pinging every two minutes."
+      ],
+      "senses": [],
+      "русский": "пинговать (проверять связь); писать, написать (короткое сообщение)",
+      "forms": "ping · pinged · pinged",
+      "third person": "pings · -ing form: pinging",
+      "transitivity": "both — transitive (ping me when you land), intransitive (the phone pings all day)"
+    },
+    {
+      "term": "mirror",
+      "ipa": "/ˈmɪrər/",
+      "respell": "MEER-ur",
+      "meaning": "To show the picture from one screen on another, or to keep an identical copy of data. ---",
+      "examples": [
+        "You can mirror your phone to the TV.",
+        "He mirrored the laptop screen onto the projector.",
+        "The second drive is mirroring everything in real time."
+      ],
+      "senses": [],
+      "русский": "дублировать (экран), зеркалировать",
+      "forms": "mirror · mirrored · mirrored",
+      "third person": "mirrors · -ing form: mirroring",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "tether",
+      "ipa": "/ˈtɛðər/",
+      "respell": "TETH-ur",
+      "meaning": "To connect a computer to the internet through a phone's data connection. ---",
+      "examples": [
+        "You can tether the laptop to your phone.",
+        "He tethered for a week while the cable was out.",
+        "She is tethering from her phone right now."
+      ],
+      "senses": [],
+      "русский": "раздавать интернет с телефона, использовать телефон как модем",
+      "forms": "tether · tethered · tethered",
+      "third person": "tethers · -ing form: tethering",
+      "transitivity": "both — transitive (tether the laptop to your phone), intransitive (we tethered all week)",
+      "contrast": "You tether one device TO another."
+    },
+    {
+      "term": "uninstall",
+      "ipa": "/ˌʌnɪnˈstɔːl/",
+      "respell": "un-in-STAWL",
+      "meaning": "To remove a program from a computer or a phone. ---",
+      "examples": [
+        "Uninstall the app and install it again.",
+        "I uninstalled three games to free up space.",
+        "It is uninstalling the old version now."
+      ],
+      "senses": [],
+      "русский": "удалять (программу), удалить; деинсталлировать",
+      "forms": "uninstall · uninstalled · uninstalled",
+      "third person": "uninstalls · -ing form: uninstalling",
+      "transitivity": "transitive",
+      "contrast": "The base already ends in -ll, so the forms look heavy but are regular: uninstalled, uninstalling."
+    },
+    {
+      "term": "reinstall",
+      "ipa": "/ˌriːɪnˈstɔːl/",
+      "respell": "ree-in-STAWL",
+      "meaning": "To install a program or a system again after removing it. ---",
+      "examples": [
+        "Reinstall the driver and reboot.",
+        "He reinstalled the whole operating system.",
+        "She has reinstalled the app twice today."
+      ],
+      "senses": [],
+      "русский": "переустанавливать, переустановить",
+      "forms": "reinstall · reinstalled · reinstalled",
+      "third person": "reinstalls · -ing form: reinstalling",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "downgrade",
+      "ipa": "/ˈdaʊnɡreɪd/",
+      "respell": "DOWN-grayd",
+      "meaning": "To move to a lower, cheaper, or older version of software or a plan. ---",
+      "examples": [
+        "You can downgrade the plan at any time.",
+        "He downgraded to the free account.",
+        "They are downgrading the software to last year's build."
+      ],
+      "senses": [],
+      "русский": "понижать версию, понизить; переходить на более дешёвый тариф",
+      "forms": "downgrade · downgraded · downgraded",
+      "third person": "downgrades · -ing form: downgrading",
+      "transitivity": "both — transitive (downgrade the software), intransitive (we downgraded to the free plan)",
+      "contrast": "The opposite of upgrade. Drop the -e before -ing: downgrading."
+    },
+    {
+      "term": "debug",
+      "ipa": "/ˌdiːˈbʌɡ/",
+      "respell": "dee-BUG",
+      "meaning": "To find and fix the errors in a program. ---",
+      "examples": [
+        "It takes longer to debug the code than to write it.",
+        "She debugged the payment form in one afternoon.",
+        "He has been debugging the same function for days."
+      ],
+      "senses": [],
+      "русский": "отлаживать, отладить; искать и исправлять ошибки",
+      "forms": "debug · debugged · debugged",
+      "third person": "debugs · -ing form: debugging",
+      "transitivity": "both — transitive (debug the code), intransitive (he debugs all day)",
+      "contrast": "Double the g: debugged, debugging."
+    },
+    {
+      "term": "simulate",
+      "ipa": "/ˈsɪmjəleɪt/",
+      "respell": "SIM-yuh-layt",
+      "meaning": "To use a computer to copy the way something works in real life. ---",
+      "examples": [
+        "The program can simulate a whole flight.",
+        "They simulated the crash a thousand times.",
+        "The lab is simulating next week's storm."
+      ],
+      "senses": [],
+      "русский": "моделировать, смоделировать; имитировать",
+      "forms": "simulate · simulated · simulated",
+      "third person": "simulates · -ing form: simulating",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "emulate",
+      "ipa": "/ˈɛmjəleɪt/",
+      "respell": "EM-yuh-layt",
+      "meaning": "To make one system behave exactly like another. ---",
+      "examples": [
+        "This app can emulate an old game console.",
+        "The software emulated Windows well enough to run the program.",
+        "It is emulating a printer that no longer exists."
+      ],
+      "senses": [],
+      "русский": "эмулировать; имитировать работу (другой системы)",
+      "forms": "emulate · emulated · emulated",
+      "third person": "emulates · -ing form: emulating",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "compute",
+      "ipa": "/kəmˈpjuːt/",
+      "respell": "kuhm-PYOOT",
+      "meaning": "To work out a result by calculation, usually with a machine. ---",
+      "examples": [
+        "The server can compute the route in a second.",
+        "The model computed a ninety percent chance of rain.",
+        "It is computing the totals for all fifty states."
+      ],
+      "senses": [],
+      "русский": "вычислять, вычислить; рассчитывать, рассчитать",
+      "forms": "compute · computed · computed",
+      "third person": "computes · -ing form: computing",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "optimize",
+      "ipa": "/ˈɑːptɪmaɪz/",
+      "respell": "AHP-tuh-myz",
+      "meaning": "To change something so that it works as well or as fast as possible. ---",
+      "examples": [
+        "Optimize the images or the page will crawl.",
+        "They optimized the app for older phones.",
+        "He has been optimizing the database all week."
+      ],
+      "senses": [],
+      "русский": "оптимизировать; улучшать, улучшить",
+      "forms": "optimize · optimized · optimized",
+      "third person": "optimizes · -ing form: optimizing",
+      "transitivity": "transitive",
+      "contrast": "American -ize; British writing has optimise."
+    },
+    {
+      "term": "scale",
+      "ipa": "/skeɪl/",
+      "respell": "SKAYL",
+      "meaning": "To change something in size, or to grow so as to handle much more work. ---",
+      "examples": [
+        "The design has to scale to any screen size.",
+        "They scaled the service to ten million users.",
+        "The company is scaling faster than it can hire."
+      ],
+      "senses": [],
+      "русский": "масштабировать; расширять, расширить (до больших объёмов)",
+      "forms": "scale · scaled · scaled",
+      "third person": "scales · -ing form: scaling",
+      "transitivity": "both — transitive (scale the image), intransitive (the service scales to millions of users)",
+      "contrast": "Drop the -e before -ing: scaling."
+    },
+    {
+      "term": "integrate",
+      "ipa": "/ˈɪntɪɡreɪt/",
+      "respell": "IN-tuh-grayt",
+      "meaning": "To make two systems work together as one. ---",
+      "examples": [
+        "The app can integrate with your calendar.",
+        "They integrated the payment system last month.",
+        "We are integrating the two databases."
+      ],
+      "senses": [],
+      "русский": "интегрировать; объединять, объединить (системы)",
+      "forms": "integrate · integrated · integrated",
+      "third person": "integrates · -ing form: integrating",
+      "transitivity": "both — transitive (integrate the two systems), intransitive (the app integrates with your calendar)",
+      "contrast": "Integrate WITH another system, or integrate one thing INTO another."
+    },
+    {
+      "term": "configure",
+      "ipa": "/kənˈfɪɡjər/",
+      "respell": "kuhn-FIG-yur",
+      "meaning": "To set up a device or a program so that it works the way you want. ---",
+      "examples": [
+        "Configure the printer before you leave.",
+        "He configured the router for the whole office.",
+        "She is configuring the new laptops."
+      ],
+      "senses": [],
+      "русский": "настраивать, настроить; конфигурировать",
+      "forms": "configure · configured · configured",
+      "third person": "configures · -ing form: configuring",
+      "transitivity": "transitive",
+      "contrast": "Drop the -e before -ing: configuring."
+    },
+    {
+      "term": "personalize",
+      "ipa": "/ˈpɜːrsənəlaɪz/",
+      "respell": "PUR-suh-nuh-lyz",
+      "meaning": "To change settings or content so that they fit one particular person. ---",
+      "examples": [
+        "You can personalize the home screen.",
+        "The store personalized every email with my name.",
+        "The app is personalizing your feed."
+      ],
+      "senses": [],
+      "русский": "персонализировать; настраивать под себя, настроить",
+      "forms": "personalize · personalized · personalized",
+      "third person": "personalizes · -ing form: personalizing",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "prototype",
+      "ipa": "/ˈproʊtətaɪp/",
+      "respell": "PROH-tuh-typ",
+      "meaning": "To build a rough first version of a product in order to test the idea. ---",
+      "examples": [
+        "We can prototype the app in a week.",
+        "They prototyped three different layouts.",
+        "She is prototyping the checkout screen."
+      ],
+      "senses": [],
+      "русский": "создавать прототип, создать прототип; прототипировать",
+      "forms": "prototype · prototyped · prototyped",
+      "third person": "prototypes · -ing form: prototyping",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "innovate",
+      "ipa": "/ˈɪnəveɪt/",
+      "respell": "IN-uh-vayt",
+      "meaning": "To create new methods, ideas, or products. ---",
+      "examples": [
+        "Small teams often innovate faster than big ones.",
+        "The company innovated early and took the market.",
+        "They have been innovating in battery design for years."
+      ],
+      "senses": [],
+      "русский": "внедрять новшества; придумывать новое",
+      "forms": "innovate · innovated · innovated",
+      "third person": "innovates · -ing form: innovating",
+      "transitivity": "intransitive"
+    },
+    {
+      "term": "access",
+      "ipa": "/ˈæksɛs/",
+      "respell": "AK-ses",
+      "meaning": "To open or reach data, a file, or an account. ---",
+      "examples": [
+        "You can access the files from any device.",
+        "Someone accessed my account from another country.",
+        "He is accessing the server remotely."
+      ],
+      "senses": [],
+      "русский": "получать доступ, получить доступ; заходить, зайти (в систему)",
+      "forms": "access · accessed · accessed",
+      "third person": "accesses · -ing form: accessing",
+      "transitivity": "transitive",
+      "contrast": "The verb takes a direct object: access the file. Only the noun takes to: access to the file."
+    },
+    {
+      "term": "authenticate",
+      "ipa": "/ɔːˈθɛntɪkeɪt/",
+      "respell": "aw-THEN-tuh-kayt",
+      "meaning": "To prove that a user or a device is who it claims to be. ---",
+      "examples": [
+        "The app will authenticate you with your fingerprint.",
+        "The system authenticated the login in a second.",
+        "It is authenticating your device now."
+      ],
+      "senses": [],
+      "русский": "аутентифицировать; подтверждать личность, подтвердить",
+      "forms": "authenticate · authenticated · authenticated",
+      "third person": "authenticates · -ing form: authenticating",
+      "transitivity": "both — transitive (authenticate the user), intransitive (the device authenticates in a second)"
+    },
+    {
+      "term": "validate",
+      "ipa": "/ˈvælɪdeɪt/",
+      "respell": "VAL-uh-dayt",
+      "meaning": "To check that data or a document is correct and acceptable. ---",
+      "examples": [
+        "The form will validate the email address.",
+        "The system validated the card and charged it.",
+        "It is validating the file against the template."
+      ],
+      "senses": [],
+      "русский": "проверять (на корректность), проверить; подтверждать, подтвердить",
+      "forms": "validate · validated · validated",
+      "third person": "validates · -ing form: validating",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "lock",
+      "ipa": "/lɑːk/",
+      "respell": "LAHK",
+      "meaning": "To stop something from being used or changed without a key, a code, or a password. ---",
+      "examples": [
+        "Lock your screen when you leave the desk.",
+        "He locked the file so that nobody could edit it.",
+        "The phone is locking itself every thirty seconds."
+      ],
+      "senses": [],
+      "русский": "блокировать, заблокировать (экран); запирать, запереть",
+      "forms": "lock · locked · locked",
+      "third person": "locks · -ing form: locking",
+      "transitivity": "both — transitive (lock the screen), intransitive (the phone locks after a minute)"
+    },
+    {
+      "term": "unlock",
+      "ipa": "/ʌnˈlɑːk/",
+      "respell": "un-LAHK",
+      "meaning": "To open something that was locked, or to make a hidden feature available. ---",
+      "examples": [
+        "Unlock the phone with your face.",
+        "She unlocked the front door from the app.",
+        "Finishing the level has unlocked two new maps."
+      ],
+      "senses": [],
+      "русский": "разблокировать, разблокировывать; открывать доступ",
+      "forms": "unlock · unlocked · unlocked",
+      "third person": "unlocks · -ing form: unlocking",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "activate",
+      "ipa": "/ˈæktɪveɪt/",
+      "respell": "AK-tuh-vayt",
+      "meaning": "To make a service, a card, or a feature start working. ---",
+      "examples": [
+        "Activate the SIM card before your flight.",
+        "He activated the alarm from his phone.",
+        "They are activating the new accounts today."
+      ],
+      "senses": [],
+      "русский": "активировать; включать, включить",
+      "forms": "activate · activated · activated",
+      "third person": "activates · -ing form: activating",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "deactivate",
+      "ipa": "/diːˈæktɪveɪt/",
+      "respell": "dee-AK-tuh-vayt",
+      "meaning": "To turn off an account or a feature so that it stops working. ---",
+      "examples": [
+        "You can deactivate the account without deleting it.",
+        "She deactivated her profile for a month.",
+        "He is deactivating the old key cards."
+      ],
+      "senses": [],
+      "русский": "деактивировать; отключать, отключить (аккаунт)",
+      "forms": "deactivate · deactivated · deactivated",
+      "third person": "deactivates · -ing form: deactivating",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "enable",
+      "ipa": "/ɪˈneɪbəl/",
+      "respell": "ih-NAY-buhl",
+      "meaning": "To turn a setting or a feature on. ---",
+      "examples": [
+        "Enable two-factor login in the settings.",
+        "I enabled notifications and now the phone never stops.",
+        "Location sharing has been enabled by default."
+      ],
+      "senses": [],
+      "русский": "включать, включить (функцию); разрешать, разрешить",
+      "forms": "enable · enabled · enabled",
+      "third person": "enables · -ing form: enabling",
+      "transitivity": "transitive",
+      "contrast": "Drop the -e before -ing: enabling."
+    },
+    {
+      "term": "disable",
+      "ipa": "/dɪsˈeɪbəl/",
+      "respell": "dis-AY-buhl",
+      "meaning": "To turn a setting or a feature off. ---",
+      "examples": [
+        "Disable the pop-ups and the site is readable.",
+        "He disabled the camera in the settings.",
+        "The update has disabled my printer."
+      ],
+      "senses": [],
+      "русский": "отключать, отключить (функцию); выключать, выключить",
+      "forms": "disable · disabled · disabled",
+      "third person": "disables · -ing form: disabling",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "spam",
+      "ipa": "/spæm/",
+      "respell": "SPAM",
+      "meaning": "To send someone a lot of unwanted messages. ---",
+      "examples": [
+        "Please do not spam the group chat.",
+        "They spammed every address on the list.",
+        "He is spamming the comments with links."
+      ],
+      "senses": [],
+      "русский": "спамить, засыпать сообщениями; рассылать спам",
+      "forms": "spam · spammed · spammed",
+      "third person": "spams · -ing form: spamming",
+      "transitivity": "both — transitive (spam the group chat), intransitive (they spam all day)",
+      "contrast": "Double the m: spammed, spamming."
+    },
+    {
+      "term": "mute",
+      "ipa": "/mjuːt/",
+      "respell": "MYOOT",
+      "meaning": "To turn off the sound of a device, a call, or a conversation. ---",
+      "examples": [
+        "Mute yourself when you are not speaking.",
+        "He muted the group chat for a week.",
+        "She is muting every notification before bed."
+      ],
+      "senses": [],
+      "русский": "выключать звук, выключить звук; отключать уведомления",
+      "forms": "mute · muted · muted",
+      "third person": "mutes · -ing form: muting",
+      "transitivity": "transitive",
+      "contrast": "Drop the -e before -ing: muting."
+    },
+    {
+      "term": "unmute",
+      "ipa": "/ˌʌnˈmjuːt/",
+      "respell": "un-MYOOT",
+      "meaning": "To turn the sound back on. ---",
+      "examples": [
+        "Unmute yourself - we cannot hear you.",
+        "He unmuted the call and his dog was barking.",
+        "She has unmuted the thread."
+      ],
+      "senses": [],
+      "русский": "включать звук обратно, включить звук",
+      "forms": "unmute · unmuted · unmuted",
+      "third person": "unmutes · -ing form: unmuting",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "unsubscribe",
+      "ipa": "/ˌʌnsəbˈskraɪb/",
+      "respell": "un-suhb-SKRYB",
+      "meaning": "To stop receiving emails or content from a service you signed up for. ---",
+      "examples": [
+        "Unsubscribe at the bottom of the email.",
+        "I unsubscribed from forty newsletters in one evening.",
+        "He has unsubscribed and the mail still keeps coming."
+      ],
+      "senses": [],
+      "русский": "отписываться, отписаться (от рассылки)",
+      "forms": "unsubscribe · unsubscribed · unsubscribed",
+      "third person": "unsubscribes · -ing form: unsubscribing",
+      "transitivity": "intransitive",
+      "contrast": "You unsubscribe FROM a list."
+    },
+    {
+      "term": "dial",
+      "ipa": "/ˈdaɪəl/",
+      "respell": "DY-uhl",
+      "meaning": "To enter a phone number in order to make a call. ---",
+      "examples": [
+        "Dial the extension after the beep.",
+        "He dialed the wrong number twice.",
+        "She is dialing in from the airport."
+      ],
+      "senses": [],
+      "русский": "набирать номер, набрать номер",
+      "forms": "dial · dialed · dialed",
+      "third person": "dials · -ing form: dialing",
+      "transitivity": "both — transitive (dial the number), intransitive (dial slowly)",
+      "contrast": "American English keeps one l: dialed, dialing. British writing has dialled, dialling."
+    },
+    {
+      "term": "google",
+      "ipa": "/ˈɡuːɡəl/",
+      "respell": "GOO-guhl",
+      "meaning": "To look something up on the internet with a search engine. ---",
+      "examples": [
+        "Google it before you call support.",
+        "I googled the error message and found the fix.",
+        "He was googling her name the whole flight."
+      ],
+      "senses": [],
+      "русский": "гуглить, погуглить; искать в интернете",
+      "forms": "google · googled · googled",
+      "third person": "googles · -ing form: googling",
+      "transitivity": "both — transitive (google the address), intransitive (just google and see)",
+      "contrast": "As a verb it is written in lowercase, and the -e is dropped: googling."
+    },
+    {
+      "term": "surf",
+      "ipa": "/sɜːrf/",
+      "respell": "SURF",
+      "meaning": "To move from page to page on the internet with no fixed goal. ---",
+      "examples": [
+        "They surf the web instead of working.",
+        "She surfed the net until two in the morning.",
+        "He has been surfing real estate listings all week."
+      ],
+      "senses": [],
+      "русский": "сёрфить (в интернете), бродить по сайтам",
+      "forms": "surf · surfed · surfed",
+      "third person": "surfs · -ing form: surfing",
+      "transitivity": "both — transitive (surf the web), intransitive (he surfed for hours)"
+    },
+    {
+      "term": "screenshot",
+      "ipa": "/ˈskriːnʃɑːt/",
+      "respell": "SKREEN-shaht",
+      "meaning": "To save a picture of what is on your screen. ---",
+      "examples": [
+        "Screenshot the confirmation page.",
+        "She screenshotted the whole conversation.",
+        "He is screenshotting every message as proof."
+      ],
+      "senses": [],
+      "русский": "делать скриншот, сделать скриншот; скриншотить",
+      "forms": "screenshot · screenshotted · screenshotted",
+      "third person": "screenshots · -ing form: screenshotting",
+      "transitivity": "transitive",
+      "contrast": "Double the t: screenshotted, screenshotting. In formal writing, take a screenshot is safer."
+    },
+    {
+      "term": "rank",
+      "ipa": "/ræŋk/",
+      "respell": "RANK",
+      "meaning": "To put items in order by importance, or to hold a place in such an order. ---",
+      "examples": [
+        "Search engines rank pages by hundreds of signals.",
+        "The site ranked third for that keyword.",
+        "The app is ranking higher every month."
+      ],
+      "senses": [],
+      "русский": "ранжировать; занимать место (в рейтинге)",
+      "forms": "rank · ranked · ranked",
+      "third person": "ranks · -ing form: ranking",
+      "transitivity": "both — transitive (the algorithm ranks the results), intransitive (the site ranks first)"
+    },
+    {
+      "term": "alert",
+      "ipa": "/əˈlɜːrt/",
+      "respell": "uh-LURT",
+      "meaning": "To warn someone about something quickly. ---",
+      "examples": [
+        "The app will alert you when the price drops.",
+        "The system alerted the whole team at 3 a.m.",
+        "It has been alerting us every hour since then."
+      ],
+      "senses": [],
+      "русский": "предупреждать, предупредить; оповещать, оповестить",
+      "forms": "alert · alerted · alerted",
+      "third person": "alerts · -ing form: alerting",
+      "transitivity": "transitive",
+      "contrast": "You alert someone TO a problem."
+    },
+    {
+      "term": "prompt",
+      "ipa": "/prɑːmpt/",
+      "respell": "PRAHMPT",
+      "meaning": "To ask a user on screen to do something, or to give a system an instruction. ---",
+      "examples": [
+        "The site will prompt you for a code.",
+        "It prompted me to change my password.",
+        "The app keeps prompting me to rate it."
+      ],
+      "senses": [],
+      "русский": "предлагать (ввести), запрашивать; подсказывать, подсказать",
+      "forms": "prompt · prompted · prompted",
+      "third person": "prompts · -ing form: prompting",
+      "transitivity": "transitive",
+      "contrast": "Prompt someone TO do something, or prompt someone FOR information."
+    },
+    {
+      "term": "interact",
+      "ipa": "/ˌɪntərˈækt/",
+      "respell": "in-tur-AKT",
+      "meaning": "To act on each other, or to communicate with a person or a system. ---",
+      "examples": [
+        "Children interact with screens before they can read.",
+        "The two programs interacted badly and the system froze.",
+        "He has been interacting with customers all day."
+      ],
+      "senses": [],
+      "русский": "взаимодействовать; общаться",
+      "forms": "interact · interacted · interacted",
+      "third person": "interacts · -ing form: interacting",
+      "transitivity": "intransitive",
+      "contrast": "You interact WITH someone or something."
+    },
+    {
+      "term": "glitch",
+      "ipa": "/ɡlɪtʃ/",
+      "respell": "GLICH",
+      "meaning": "To fail or behave strangely for a short time. ---",
+      "examples": [
+        "Cheap screens glitch in the cold.",
+        "The payment page glitched and charged me twice.",
+        "The video keeps glitching at the same spot."
+      ],
+      "senses": [],
+      "русский": "сбоить, давать сбой; глючить",
+      "forms": "glitch · glitched · glitched",
+      "third person": "glitches · -ing form: glitching",
+      "transitivity": "intransitive",
+      "contrast": "Third person adds -es after -ch: glitches."
+    },
+    {
+      "term": "overheat",
+      "ipa": "/ˌoʊvərˈhiːt/",
+      "respell": "oh-vur-HEET",
+      "meaning": "To become, or to make something become, too hot to work safely. ---",
+      "examples": [
+        "Old laptops overheat under any real load.",
+        "The phone overheated in the car.",
+        "The battery is overheating again."
+      ],
+      "senses": [],
+      "русский": "перегреваться, перегреться; перегревать, перегреть",
+      "forms": "overheat · overheated · overheated",
+      "third person": "overheats · -ing form: overheating",
+      "transitivity": "both — transitive (the sun overheated the phone), intransitive (the laptop overheats)"
+    },
+    {
+      "term": "eject",
+      "ipa": "/ɪˈdʒɛkt/",
+      "respell": "ih-JEKT",
+      "meaning": "To make a disk or a drive come out safely. ---",
+      "examples": [
+        "Eject the drive before you pull it out.",
+        "He ejected the card and the photos were gone.",
+        "The laptop is ejecting the disc."
+      ],
+      "senses": [],
+      "русский": "извлекать, извлечь (диск, флешку); безопасно отключать",
+      "forms": "eject · ejected · ejected",
+      "third person": "ejects · -ing form: ejecting",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "unlink",
+      "ipa": "/ʌnˈlɪŋk/",
+      "respell": "un-LINGK",
+      "meaning": "To break the connection between two accounts, files, or devices. ---",
+      "examples": [
+        "Unlink the card before you close the account.",
+        "He unlinked his email from the old profile.",
+        "She has unlinked every app from her calendar."
+      ],
+      "senses": [],
+      "русский": "отвязывать, отвязать (аккаунт); разрывать связь",
+      "forms": "unlink · unlinked · unlinked",
+      "third person": "unlinks · -ing form: unlinking",
+      "transitivity": "transitive"
+    },
+    {
+      "term": "shuffle",
+      "ipa": "/ˈʃʌfəl/",
+      "respell": "SHUF-uhl",
+      "meaning": "To put songs, cards, or files into a random order. ---",
+      "examples": [
+        "Shuffle the playlist - I know it by heart.",
+        "The app shuffled the same five songs all night.",
+        "It is shuffling my whole library."
+      ],
+      "senses": [],
+      "русский": "перемешивать, перемешать (в случайном порядке)",
+      "forms": "shuffle · shuffled · shuffled",
+      "third person": "shuffles · -ing form: shuffling",
+      "transitivity": "both — transitive (shuffle the playlist), intransitive (the app shuffles automatically)",
+      "contrast": "Drop the -e before -ing: shuffling."
+    },
+    {
+      "term": "network",
+      "ipa": "/ˈnɛtwɜːrk/",
+      "respell": "NET-wurk",
+      "meaning": "To connect computers or devices so that they can share data.",
+      "examples": [
+        "We can network all four printers.",
+        "They networked the two offices last year.",
+        "Every machine is networked through one switch."
+      ],
+      "senses": [],
+      "русский": "объединять в сеть, объединить в сеть",
+      "forms": "network · networked · networked",
+      "third person": "networks · -ing form: networking",
+      "transitivity": "both — transitive (network the office printers), intransitive (the machines network over Wi-Fi)"
+    }
+  ]
+}

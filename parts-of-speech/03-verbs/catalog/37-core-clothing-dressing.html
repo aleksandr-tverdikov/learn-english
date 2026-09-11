@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: clothing</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-clothing">Core verbs: clothing<a class="hash" href="#core-verbs-clothing" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of clothing — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="dress">dress<a class="hash" href="#dress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drɛs/ &middot; <em>DRES</em></dd><dt>Русский</dt><dd>одеваться, одеться; одевать, одеть</dd><dt>Forms</dt><dd><em>dress</em> &middot; <em>dressed</em> &middot; <em>dressed</em></dd><dt>Third person</dt><dd><em>dresses</em> &middot; <strong>-ing form:</strong> <em>dressing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>dress</em> the baby), intransitive (he <em>dresses</em> well)</dd><dt>Contrast</dt><dd>About yourself Americans say <em>get dressed</em>, not <em>dress myself</em>: I got dressed in five minutes.</dd></dl>
+<p>To put clothes on yourself or on another person.</p>
+<ol><li>He <em>dresses</em> for the weather, not for the office.</li><li>She <em>dressed</em> the twins in matching coats.</li><li>I was <em>dressing</em> when the phone rang.</li></ol>
+<hr>
+<h3 id="undress">undress<a class="hash" href="#undress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈdrɛs/ &middot; <em>un-DRES</em></dd><dt>Русский</dt><dd>раздеваться, раздеться; раздевать, раздеть</dd><dt>Forms</dt><dd><em>undress</em> &middot; <em>undressed</em> &middot; <em>undressed</em></dd><dt>Third person</dt><dd><em>undresses</em> &middot; <strong>-ing form:</strong> <em>undressing</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To take clothes off yourself or off another person.</p>
+<ol><li>The nurse asked him to <em>undress</em> behind the curtain.</li><li>She <em>undressed</em> the sleepy child and put him to bed.</li><li>He had already <em>undressed</em> and was half asleep.</li></ol>
+<hr>
+<h3 id="change">change<a class="hash" href="#change" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃeɪndʒ/ &middot; <em>CHAYNJ</em></dd><dt>Русский</dt><dd>переодеваться, переодеться; менять, поменять</dd><dt>Forms</dt><dd><em>change</em> &middot; <em>changed</em> &middot; <em>changed</em></dd><dt>Third person</dt><dd><em>changes</em> &middot; <strong>-ing form:</strong> <em>changing</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The final <em>e</em> drops before <em>-ing</em>: <em>changing</em>. You change <strong>into</strong> clothes, not <em>change on</em>.</dd></dl>
+<p>To put on different clothes, or to put different clothes on someone.</p>
+<ol><li>I need to <em>change</em> before dinner.</li><li>She <em>changed</em> into jeans the moment she got home.</li><li>He is <em>changing</em> the baby in the back room.</li></ol>
+<hr>
+<h3 id="don">don<a class="hash" href="#don" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɑːn/ &middot; <em>DAHN</em></dd><dt>Русский</dt><dd>надевать, надеть</dd><dt>Forms</dt><dd><em>don</em> &middot; <em>donned</em> &middot; <em>donned</em></dd><dt>Third person</dt><dd><em>dons</em> &middot; <strong>-ing form:</strong> <em>donning</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>n</em> doubles: <em>don → donned, donning</em>. This verb belongs to writing; in speech people say <em>put on</em>.</dd></dl>
+<p>To put on a piece of clothing or equipment.</p>
+<ol><li>Firefighters <em>don</em> full gear before they go in.</li><li>She <em>donned</em> a white coat and walked into the lab.</li><li>He was <em>donning</em> his uniform when the alarm sounded.</li></ol>
+<hr>
+<h3 id="cover">cover<a class="hash" href="#cover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌvər/ &middot; <em>KUV-ur</em></dd><dt>Русский</dt><dd>закрывать, прикрывать, закрыть</dd><dt>Forms</dt><dd><em>cover</em> &middot; <em>covered</em> &middot; <em>covered</em></dd><dt>Third person</dt><dd><em>covers</em> &middot; <strong>-ing form:</strong> <em>covering</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You cover something <strong>with</strong> a scarf, a coat, a blanket.</dd></dl>
+<p>To put clothing or cloth over a part of the body.</p>
+<ol><li><em>Cover</em> your shoulders before you go inside.</li><li>She <em>covered</em> her head with a thin scarf.</li><li>His arms were <em>covered</em> to the wrist.</li></ol>
+<hr>
+<h3 id="adorn">adorn<a class="hash" href="#adorn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdɔːrn/ &middot; <em>uh-DORN</em></dd><dt>Русский</dt><dd>украшать, украсить</dd><dt>Forms</dt><dd><em>adorn</em> &middot; <em>adorned</em> &middot; <em>adorned</em></dd><dt>Third person</dt><dd><em>adorns</em> &middot; <strong>-ing form:</strong> <em>adorning</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You adorn something <strong>with</strong> something else.</dd></dl>
+<p>To decorate a person or an object, especially with jewelry or ornament.</p>
+<ol><li>Tiny pearls <em>adorn</em> the collar and the cuffs.</li><li>She <em>adorned</em> her hair with fresh flowers.</li><li>The robe was <em>adorned</em> with gold thread.</li></ol>
+<hr>
+<h3 id="accessorize">accessorize<a class="hash" href="#accessorize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əkˈsɛsəraɪz/ &middot; <em>uk-SES-uh-ryz</em></dd><dt>Русский</dt><dd>дополнять аксессуарами, подбирать аксессуары</dd><dt>Forms</dt><dd><em>accessorize</em> &middot; <em>accessorized</em> &middot; <em>accessorized</em></dd><dt>Third person</dt><dd><em>accessorizes</em> &middot; <strong>-ing form:</strong> <em>accessorizing</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>American spelling takes <em>-ize</em>; British writing often has <em>accessorise</em>.</dd></dl>
+<p>To add belts, jewelry, scarves, or bags to an outfit.</p>
+<ol><li>She knows how to <em>accessorize</em>.</li><li>He <em>accessorized</em> the gray suit with a green tie.</li><li>The dress is plain, so it can be <em>accessorized</em> any way you like.</li></ol>
+<hr>
+<h3 id="disguise">disguise<a class="hash" href="#disguise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈɡaɪz/ &middot; <em>dis-GYZ</em></dd><dt>Русский</dt><dd>маскировать, переодевать; маскироваться</dd><dt>Forms</dt><dd><em>disguise</em> &middot; <em>disguised</em> &middot; <em>disguised</em></dd><dt>Third person</dt><dd><em>disguises</em> &middot; <strong>-ing form:</strong> <em>disguising</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>s</em> in the middle is a /z/ sound and the <em>u</em> is silent: dis-GYZ.</dd></dl>
+<p>To change clothes or appearance so that people do not recognize you.</p>
+<ol><li>A wig alone will not <em>disguise</em> you.</li><li>He <em>disguised</em> himself as a delivery driver.</li><li>She was <em>disguised</em> in a long coat and dark glasses.</li></ol>
+<hr>
+<h3 id="mask">mask<a class="hash" href="#mask" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæsk/ &middot; <em>MASK</em></dd><dt>Русский</dt><dd>закрывать маской, скрывать, замаскировать</dd><dt>Forms</dt><dd><em>mask</em> &middot; <em>masked</em> &middot; <em>masked</em></dd><dt>Third person</dt><dd><em>masks</em> &middot; <strong>-ing form:</strong> <em>masking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cover the face, or to hide something from view.</p>
+<ol><li>A bandana will <em>mask</em> the lower half of your face.</li><li>The dancers <em>masked</em> their faces for the last scene.</li><li>Every one of the riders was <em>masked</em>.</li></ol>
+<hr>
+<h3 id="veil">veil<a class="hash" href="#veil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/veɪl/ &middot; <em>VAYL</em></dd><dt>Русский</dt><dd>закрывать вуалью, скрывать, завуалировать</dd><dt>Forms</dt><dd><em>veil</em> &middot; <em>veiled</em> &middot; <em>veiled</em></dd><dt>Third person</dt><dd><em>veils</em> &middot; <strong>-ing form:</strong> <em>veiling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Veil</em> sounds exactly like <em>vale</em>, an old word for a valley.</dd></dl>
+<p>To cover the face or head with a thin cloth.</p>
+<ol><li>Traditional dress <em>veils</em> the hair and the neck.</li><li>She <em>veiled</em> her face before entering the shrine.</li><li>The window was <em>veiled</em> with pale lace.</li></ol>
+<hr>
+<h3 id="outfit">outfit<a class="hash" href="#outfit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtfɪt/ &middot; <em>OWT-fit</em></dd><dt>Русский</dt><dd>экипировать, снаряжать, одевать</dd><dt>Forms</dt><dd><em>outfit</em> &middot; <em>outfitted</em> &middot; <em>outfitted</em></dd><dt>Third person</dt><dd><em>outfits</em> &middot; <strong>-ing form:</strong> <em>outfitting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>t</em> doubles: <em>outfit → outfitted, outfitting</em>.</dd></dl>
+<p>To supply someone with the clothes or equipment they need.</p>
+<ol><li>The school <em>outfits</em> every player with a uniform.</li><li>They <em>outfitted</em> the whole crew in orange vests.</li><li>The store is <em>outfitting</em> the entire wedding party.</li></ol>
+<hr>
+<h3 id="swaddle">swaddle<a class="hash" href="#swaddle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɑːdəl/ &middot; <em>SWAH-duhl</em></dd><dt>Русский</dt><dd>пеленать, запеленать</dd><dt>Forms</dt><dd><em>swaddle</em> &middot; <em>swaddled</em> &middot; <em>swaddled</em></dd><dt>Third person</dt><dd><em>swaddles</em> &middot; <strong>-ing form:</strong> <em>swaddling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To wrap a baby tightly in a cloth or a light blanket.</p>
+<ol><li>Nurses <em>swaddle</em> newborns to keep them calm.</li><li>She <em>swaddled</em> the baby and laid him in the crib.</li><li>He is <em>swaddling</em> her for the night.</li></ol>
+<hr>
+<h3 id="bundle">bundle<a class="hash" href="#bundle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌndəl/ &middot; <em>BUN-duhl</em></dd><dt>Русский</dt><dd>укутывать, закутать; связывать в узел</dd><dt>Forms</dt><dd><em>bundle</em> &middot; <em>bundled</em> &middot; <em>bundled</em></dd><dt>Third person</dt><dd><em>bundles</em> &middot; <strong>-ing form:</strong> <em>bundling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To wrap someone in warm clothes, or to tie things together in a bunch.</p>
+<ol><li><em>Bundle</em> the kids in their snow gear before they go out.</li><li>She <em>bundled</em> the baby in two blankets.</li><li>The old sweaters were <em>bundled</em> and carried to the attic.</li></ol>
+<hr>
+<h3 id="try">try<a class="hash" href="#try" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/traɪ/ &middot; <em>TRY</em></dd><dt>Русский</dt><dd>примерять, примерить; пробовать, попробовать</dd><dt>Forms</dt><dd><em>try</em> &middot; <em>tried</em> &middot; <em>tried</em></dd><dt>Third person</dt><dd><em>tries</em> &middot; <strong>-ing form:</strong> <em>trying</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The <em>y</em> becomes <em>i</em>: <em>try → tries, tried</em>, but <em>trying</em> keeps the <em>y</em>. In a store Americans add <em>on</em>: <em>try on a coat</em>.</dd></dl>
+<p>To put clothing on for a moment to see whether it fits or looks right.</p>
+<ol><li>Ask whether you can <em>try</em> the next size up.</li><li>She <em>tried</em> three jackets and bought none of them.</li><li>He is <em>trying</em> the boots in a wider width.</li></ol>
+<hr>
+<h3 id="sport">sport<a class="hash" href="#sport" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɔːrt/ &middot; <em>SPORT</em></dd><dt>Русский</dt><dd>щеголять, носить напоказ</dd><dt>Forms</dt><dd><em>sport</em> &middot; <em>sported</em> &middot; <em>sported</em></dd><dt>Third person</dt><dd><em>sports</em> &middot; <strong>-ing form:</strong> <em>sporting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>This verb has nothing to do with games; <em>sport</em> meaning a game is only a noun.</dd></dl>
+<p>To wear something noticeable and look pleased about it.</p>
+<ol><li>He likes to <em>sport</em> a bow tie at weddings.</li><li>She <em>sported</em> bright red boots all winter.</li><li>The whole team was <em>sporting</em> new warm-up jackets.</li></ol>
+<hr>
+<h3 id="unfasten">unfasten<a class="hash" href="#unfasten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈfæsən/ &middot; <em>un-FAS-uhn</em></dd><dt>Русский</dt><dd>расстёгивать, расстегнуть, отстегнуть</dd><dt>Forms</dt><dd><em>unfasten</em> &middot; <em>unfastened</em> &middot; <em>unfastened</em></dd><dt>Third person</dt><dd><em>unfastens</em> &middot; <strong>-ing form:</strong> <em>unfastening</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>t</em> is silent here too: un-FAS-uhn.</dd></dl>
+<p>To open something that is buttoned, buckled, or zipped.</p>
+<ol><li>Do not <em>unfasten</em> your seat belt yet.</li><li>He <em>unfastened</em> his collar and loosened his tie.</li><li>She had <em>unfastened</em> only two buttons.</li></ol>
+<hr>
+<h3 id="button">button<a class="hash" href="#button" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌtən/ &middot; <em>BUT-uhn</em></dd><dt>Русский</dt><dd>застёгивать на пуговицы, застегнуть</dd><dt>Forms</dt><dd><em>button</em> &middot; <em>buttoned</em> &middot; <em>buttoned</em></dd><dt>Third person</dt><dd><em>buttons</em> &middot; <strong>-ing form:</strong> <em>buttoning</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The final <em>n</em> does not double, because the stress is on the first syllable: <em>buttoned</em>, <em>buttoning</em>.</dd></dl>
+<p>To close a shirt, coat, or jacket with its buttons.</p>
+<ol><li><em>Button</em> your coat, it is freezing out there.</li><li>He <em>buttoned</em> the shirt wrong and had to start over.</li><li>She is <em>buttoning</em> her daughter's sweater.</li></ol>
+<hr>
+<h3 id="unbutton">unbutton<a class="hash" href="#unbutton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈbʌtən/ &middot; <em>un-BUT-uhn</em></dd><dt>Русский</dt><dd>расстёгивать пуговицы, расстегнуть</dd><dt>Forms</dt><dd><em>unbutton</em> &middot; <em>unbuttoned</em> &middot; <em>unbuttoned</em></dd><dt>Third person</dt><dd><em>unbuttons</em> &middot; <strong>-ing form:</strong> <em>unbuttoning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To open a shirt or coat by undoing its buttons.</p>
+<ol><li>He <em>unbuttons</em> his cuffs whenever he works.</li><li>She <em>unbuttoned</em> her coat in the warm room.</li><li>His shirt was <em>unbuttoned</em> at the neck.</li></ol>
+<hr>
+<h3 id="zip">zip<a class="hash" href="#zip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/zɪp/ &middot; <em>ZIP</em></dd><dt>Русский</dt><dd>застёгивать на молнию, застегнуть</dd><dt>Forms</dt><dd><em>zip</em> &middot; <em>zipped</em> &middot; <em>zipped</em></dd><dt>Third person</dt><dd><em>zips</em> &middot; <strong>-ing form:</strong> <em>zipping</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The <em>p</em> doubles: <em>zip → zipped, zipping</em>. Americans call the fastener a <em>zipper</em>.</dd></dl>
+<p>To close something with a zipper.</p>
+<ol><li>This jacket <em>zips</em> all the way to the chin.</li><li>She <em>zipped</em> her bag and ran for the bus.</li><li>He is <em>zipping</em> the kids into their snowsuits.</li></ol>
+<hr>
+<h3 id="unzip">unzip<a class="hash" href="#unzip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈzɪp/ &middot; <em>un-ZIP</em></dd><dt>Русский</dt><dd>расстёгивать молнию, расстегнуть</dd><dt>Forms</dt><dd><em>unzip</em> &middot; <em>unzipped</em> &middot; <em>unzipped</em></dd><dt>Third person</dt><dd><em>unzips</em> &middot; <strong>-ing form:</strong> <em>unzipping</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>p</em> doubles: <em>unzip → unzipped, unzipping</em>.</dd></dl>
+<p>To open a zipper.</p>
+<ol><li><em>Unzip</em> the lining and pull it out.</li><li>He <em>unzipped</em> his hoodie and sat down.</li><li>The tent had been <em>unzipped</em> from the inside.</li></ol>
+<hr>
+<h3 id="buckle">buckle<a class="hash" href="#buckle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌkəl/ &middot; <em>BUK-uhl</em></dd><dt>Русский</dt><dd>застёгивать пряжку, пристёгивать, застегнуть</dd><dt>Forms</dt><dd><em>buckle</em> &middot; <em>buckled</em> &middot; <em>buckled</em></dd><dt>Third person</dt><dd><em>buckles</em> &middot; <strong>-ing form:</strong> <em>buckling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fasten a belt, a shoe, or a strap with a buckle.</p>
+<ol><li><em>Buckle</em> the strap under his chin.</li><li>She <em>buckled</em> her sandals and stood up.</li><li>He was <em>buckling</em> the belt on the last notch.</li></ol>
+<hr>
+<h3 id="unbuckle">unbuckle<a class="hash" href="#unbuckle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈbʌkəl/ &middot; <em>un-BUK-uhl</em></dd><dt>Русский</dt><dd>расстёгивать пряжку, отстегнуть</dd><dt>Forms</dt><dd><em>unbuckle</em> &middot; <em>unbuckled</em> &middot; <em>unbuckled</em></dd><dt>Third person</dt><dd><em>unbuckles</em> &middot; <strong>-ing form:</strong> <em>unbuckling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To undo a buckle.</p>
+<ol><li>Wait until the plane stops to <em>unbuckle</em> your belt.</li><li>He <em>unbuckled</em> his sandals at the door.</li><li>She had already <em>unbuckled</em> the child from the car seat.</li></ol>
+<hr>
+<h3 id="lace">lace<a class="hash" href="#lace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/leɪs/ &middot; <em>LAYS</em></dd><dt>Русский</dt><dd>шнуровать, зашнуровать</dd><dt>Forms</dt><dd><em>lace</em> &middot; <em>laced</em> &middot; <em>laced</em></dd><dt>Third person</dt><dd><em>laces</em> &middot; <strong>-ing form:</strong> <em>lacing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb <em>lace</em> and <em>lace</em>, the delicate fabric, are spelled and said the same way.</dd></dl>
+<p>To pull laces through the holes of a shoe or boot and tie them.</p>
+<ol><li><em>Lace</em> the boots tight before a long hike.</li><li>He <em>laced</em> his skates in a hurry.</li><li>She knelt on the step, <em>lacing</em> her running shoes.</li></ol>
+<hr>
+<h3 id="tie">tie<a class="hash" href="#tie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪ/ &middot; <em>TY</em></dd><dt>Русский</dt><dd>завязывать, завязать; привязывать, привязать</dd><dt>Forms</dt><dd><em>tie</em> &middot; <em>tied</em> &middot; <em>tied</em></dd><dt>Third person</dt><dd><em>ties</em> &middot; <strong>-ing form:</strong> <em>tying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>-ing</em> form changes its spelling: <em>tie → tying</em>, never <em>tieing</em>.</dd></dl>
+<p>To fasten something with a knot or a bow.</p>
+<ol><li>He can <em>tie</em> his own shoes now.</li><li>She <em>tied</em> the sash in a neat bow.</li><li>The apron was <em>tied</em> so loosely that it came undone.</li></ol>
+<hr>
+<h3 id="untie">untie<a class="hash" href="#untie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈtaɪ/ &middot; <em>un-TY</em></dd><dt>Русский</dt><dd>развязывать, развязать</dd><dt>Forms</dt><dd><em>untie</em> &middot; <em>untied</em> &middot; <em>untied</em></dd><dt>Third person</dt><dd><em>unties</em> &middot; <strong>-ing form:</strong> <em>untying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Same spelling change as <em>tie</em>: <em>untying</em>, not <em>untieing</em>.</dd></dl>
+<p>To undo a knot or a bow.</p>
+<ol><li><em>Untie</em> the apron and hang it on the hook.</li><li>He <em>untied</em> his boots out on the porch.</li><li>She was <em>untying</em> the ribbon as carefully as she could.</li></ol>
+<hr>
+<h3 id="knot">knot<a class="hash" href="#knot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɑːt/ &middot; <em>NAHT</em></dd><dt>Русский</dt><dd>завязывать узлом, связывать узлом</dd><dt>Forms</dt><dd><em>knot</em> &middot; <em>knotted</em> &middot; <em>knotted</em></dd><dt>Third person</dt><dd><em>knots</em> &middot; <strong>-ing form:</strong> <em>knotting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>k</em> is silent and the <em>t</em> doubles: <em>knot → knotted, knotting</em>. It sounds exactly like <em>not</em>.</dd></dl>
+<p>To tie something into a knot.</p>
+<ol><li><em>Knot</em> the ends of the scarf together.</li><li>He <em>knotted</em> his tie in front of the mirror.</li><li>The laces were <em>knotted</em> so tightly that I had to cut them.</li></ol>
+<hr>
+<h3 id="clasp">clasp<a class="hash" href="#clasp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klæsp/ &middot; <em>KLASP</em></dd><dt>Русский</dt><dd>застёгивать застёжку, скреплять</dd><dt>Forms</dt><dd><em>clasp</em> &middot; <em>clasped</em> &middot; <em>clasped</em></dd><dt>Third person</dt><dd><em>clasps</em> &middot; <strong>-ing form:</strong> <em>clasping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fasten a necklace, a bracelet, or a bag with its clasp.</p>
+<ol><li>Can you <em>clasp</em> this necklace for me?</li><li>She <em>clasped</em> the bracelet around her wrist.</li><li>The purse is <em>clasped</em> with a small brass catch.</li></ol>
+<hr>
+<h3 id="hook">hook<a class="hash" href="#hook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʊk/ &middot; <em>HUK</em></dd><dt>Русский</dt><dd>застёгивать на крючок, зацеплять, зацепить</dd><dt>Forms</dt><dd><em>hook</em> &middot; <em>hooked</em> &middot; <em>hooked</em></dd><dt>Third person</dt><dd><em>hooks</em> &middot; <strong>-ing form:</strong> <em>hooking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fasten something with a hook, or to hang it on one.</p>
+<ol><li><em>Hook</em> the top of the dress first, then zip it.</li><li>She <em>hooked</em> the strap and pulled the zipper up.</li><li>His jacket was <em>hooked</em> over the back of the chair.</li></ol>
+<hr>
+<h3 id="unhook">unhook<a class="hash" href="#unhook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈhʊk/ &middot; <em>un-HUK</em></dd><dt>Русский</dt><dd>отцеплять, расстёгивать крючок, отстегнуть</dd><dt>Forms</dt><dd><em>unhook</em> &middot; <em>unhooked</em> &middot; <em>unhooked</em></dd><dt>Third person</dt><dd><em>unhooks</em> &middot; <strong>-ing form:</strong> <em>unhooking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To undo something that is fastened with a hook.</p>
+<ol><li><em>Unhook</em> the collar if it feels too tight.</li><li>He <em>unhooked</em> the coat from the peg by the door.</li><li>The belt had been <em>unhooked</em> and left on the chair.</li></ol>
+<hr>
+<h3 id="strap">strap<a class="hash" href="#strap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stræp/ &middot; <em>STRAP</em></dd><dt>Русский</dt><dd>пристёгивать ремнём, закреплять ремнём</dd><dt>Forms</dt><dd><em>strap</em> &middot; <em>strapped</em> &middot; <em>strapped</em></dd><dt>Third person</dt><dd><em>straps</em> &middot; <strong>-ing form:</strong> <em>strapping</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>p</em> doubles: <em>strap → strapped, strapping</em>.</dd></dl>
+<p>To hold something in place with a strap.</p>
+<ol><li><em>Strap</em> the helmet under your chin.</li><li>She <em>strapped</em> the baby into the carrier.</li><li>The sandals are <em>strapped</em> around the ankle.</li></ol>
+<hr>
+<h3 id="cinch">cinch<a class="hash" href="#cinch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪntʃ/ &middot; <em>SINCH</em></dd><dt>Русский</dt><dd>стягивать поясом, затягивать, затянуть</dd><dt>Forms</dt><dd><em>cinch</em> &middot; <em>cinched</em> &middot; <em>cinched</em></dd><dt>Third person</dt><dd><em>cinches</em> &middot; <strong>-ing form:</strong> <em>cinching</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>It ends in <em>-ch</em>, so the third person adds <em>-es</em>: <em>cinches</em>.</dd></dl>
+<p>To pull a belt or a cord tight around something.</p>
+<ol><li><em>Cinch</em> the coat at the waist with a wide belt.</li><li>She <em>cinched</em> the dress and it looked like a different dress.</li><li>The hood is <em>cinched</em> with a drawstring.</li></ol>
+<hr>
+<h3 id="detach">detach<a class="hash" href="#detach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈtætʃ/ &middot; <em>dih-TACH</em></dd><dt>Русский</dt><dd>отстёгивать, отсоединять, отстегнуть</dd><dt>Forms</dt><dd><em>detach</em> &middot; <em>detached</em> &middot; <em>detached</em></dd><dt>Third person</dt><dd><em>detaches</em> &middot; <strong>-ing form:</strong> <em>detaching</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>It ends in <em>-ch</em>, so the third person adds <em>-es</em>: <em>detaches</em>.</dd></dl>
+<p>To take off a part that is made to come off.</p>
+<ol><li>The hood <em>detaches</em> with two snaps.</li><li>He <em>detached</em> the liner from his winter coat.</li><li>The straps can be <em>detached</em> and washed separately.</li></ol>
+<hr>
+<h3 id="loop">loop<a class="hash" href="#loop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/luːp/ &middot; <em>LOOP</em></dd><dt>Русский</dt><dd>продевать петлёй, обматывать, обмотать</dd><dt>Forms</dt><dd><em>loop</em> &middot; <em>looped</em> &middot; <em>looped</em></dd><dt>Third person</dt><dd><em>loops</em> &middot; <strong>-ing form:</strong> <em>looping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To pass something long around or through in the shape of a loop.</p>
+<ol><li><em>Loop</em> the belt through every belt loop, not just the front ones.</li><li>She <em>looped</em> the scarf twice around her neck.</li><li>The cord is <em>looped</em> over the hook behind the door.</li></ol>
+<hr>
+<h3 id="darn">darn<a class="hash" href="#darn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɑːrn/ &middot; <em>DARN</em></dd><dt>Русский</dt><dd>штопать, заштопать</dd><dt>Forms</dt><dd><em>darn</em> &middot; <em>darned</em> &middot; <em>darned</em></dd><dt>Third person</dt><dd><em>darns</em> &middot; <strong>-ing form:</strong> <em>darning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To repair a hole in knitted cloth by sewing back and forth across it.</p>
+<ol><li>My grandmother could <em>darn</em> a sock in ten minutes.</li><li>He <em>darned</em> the elbow of his old sweater.</li><li>She sat by the window, <em>darning</em> socks.</li></ol>
+<hr>
+<h3 id="embroider">embroider<a class="hash" href="#embroider" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈbrɔɪdər/ &middot; <em>im-BROY-dur</em></dd><dt>Русский</dt><dd>вышивать, вышить</dd><dt>Forms</dt><dd><em>embroider</em> &middot; <em>embroidered</em> &middot; <em>embroidered</em></dd><dt>Third person</dt><dd><em>embroiders</em> &middot; <strong>-ing form:</strong> <em>embroidering</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To sew a decorative pattern onto cloth with colored thread.</p>
+<ol><li>She likes to <em>embroider</em> in the evenings.</li><li>They <em>embroidered</em> his initials on the pocket.</li><li>The jacket is <em>embroidered</em> with red flowers.</li></ol>
+<hr>
+<h3 id="crochet">crochet<a class="hash" href="#crochet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kroʊˈʃeɪ/ &middot; <em>kroh-SHAY</em></dd><dt>Русский</dt><dd>вязать крючком, связать крючком</dd><dt>Forms</dt><dd><em>crochet</em> &middot; <em>crocheted</em> &middot; <em>crocheted</em></dd><dt>Third person</dt><dd><em>crochets</em> &middot; <strong>-ing form:</strong> <em>crocheting</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The final <em>t</em> is silent: kroh-SHAY. The past <em>crocheted</em> is said kroh-SHAYD.</dd></dl>
+<p>To make cloth by looping yarn with a single hook.</p>
+<ol><li>She is teaching me to <em>crochet</em>.</li><li>He <em>crocheted</em> a blanket for the baby.</li><li>She is <em>crocheting</em> a hat for winter.</li></ol>
+<hr>
+<h3 id="quilt">quilt<a class="hash" href="#quilt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɪlt/ &middot; <em>KWILT</em></dd><dt>Русский</dt><dd>стегать, простёгивать, простегать</dd><dt>Forms</dt><dd><em>quilt</em> &middot; <em>quilted</em> &middot; <em>quilted</em></dd><dt>Third person</dt><dd><em>quilts</em> &middot; <strong>-ing form:</strong> <em>quilting</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To sew two layers of cloth together with padding between them.</p>
+<ol><li>They <em>quilt</em> together every Thursday afternoon.</li><li>She <em>quilted</em> the lining by hand.</li><li>He wore a <em>quilted</em> vest under his coat.</li></ol>
+<hr>
+<h3 id="unravel">unravel<a class="hash" href="#unravel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈrævəl/ &middot; <em>un-RAV-uhl</em></dd><dt>Русский</dt><dd>распускаться, распускать (вязание); распутывать</dd><dt>Forms</dt><dd><em>unravel</em> &middot; <em>unraveled</em> &middot; <em>unraveled</em></dd><dt>Third person</dt><dd><em>unravels</em> &middot; <strong>-ing form:</strong> <em>unraveling</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>American spelling keeps one <em>l</em>: <em>unraveled, unraveling</em>; British writing doubles it.</dd></dl>
+<p>To come apart into loose threads, or to pull knitted work apart on purpose.</p>
+<ol><li>Cheap sweaters <em>unravel</em> after one season.</li><li>The whole sleeve <em>unraveled</em> from one loose thread.</li><li>She is <em>unraveling</em> the old scarf to reuse the yarn.</li></ol>
+<hr>
+<h3 id="snag">snag<a class="hash" href="#snag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snæɡ/ &middot; <em>SNAG</em></dd><dt>Русский</dt><dd>зацепить, порвать зацепив; делать затяжку</dd><dt>Forms</dt><dd><em>snag</em> &middot; <em>snagged</em> &middot; <em>snagged</em></dd><dt>Third person</dt><dd><em>snags</em> &middot; <strong>-ing form:</strong> <em>snagging</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The <em>g</em> doubles: <em>snag → snagged, snagging</em>.</dd></dl>
+<p>To catch cloth on something sharp and pull a thread loose.</p>
+<ol><li>Rings <em>snag</em> fine knits every time.</li><li>She <em>snagged</em> her tights on the corner of the desk.</li><li>He kept <em>snagging</em> the sweater on the drawer handle.</li></ol>
+<hr>
+<h3 id="pleat">pleat<a class="hash" href="#pleat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pliːt/ &middot; <em>PLEET</em></dd><dt>Русский</dt><dd>закладывать складки, плиссировать</dd><dt>Forms</dt><dd><em>pleat</em> &middot; <em>pleated</em> &middot; <em>pleated</em></dd><dt>Third person</dt><dd><em>pleats</em> &middot; <strong>-ing form:</strong> <em>pleating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fold cloth into regular flat folds and sew them in place.</p>
+<ol><li>They <em>pleat</em> the fabric before attaching the waistband.</li><li>She <em>pleated</em> the skirt by hand.</li><li>He wore a <em>pleated</em> shirt with his tuxedo.</li></ol>
+<hr>
+<h3 id="ruffle">ruffle<a class="hash" href="#ruffle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌfəl/ &middot; <em>RUF-uhl</em></dd><dt>Русский</dt><dd>делать оборки; трепать, взъерошить</dd><dt>Forms</dt><dd><em>ruffle</em> &middot; <em>ruffled</em> &middot; <em>ruffled</em></dd><dt>Third person</dt><dd><em>ruffles</em> &middot; <strong>-ing form:</strong> <em>ruffling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To gather cloth into a strip of soft folds, or to push something out of its neat shape.</p>
+<ol><li>The wind <em>ruffles</em> her skirt every time she crosses the bridge.</li><li>She <em>ruffled</em> the hem with a wide band of lace.</li><li>His hair was <em>ruffled</em> and his tie was crooked.</li></ol>
+<hr>
+<h3 id="lengthen">lengthen<a class="hash" href="#lengthen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛŋθən/ &middot; <em>LENG-thuhn</em></dd><dt>Русский</dt><dd>удлинять, удлинить</dd><dt>Forms</dt><dd><em>lengthen</em> &middot; <em>lengthened</em> &middot; <em>lengthened</em></dd><dt>Third person</dt><dd><em>lengthens</em> &middot; <strong>-ing form:</strong> <em>lengthening</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make something longer, or to become longer.</p>
+<ol><li>Can you <em>lengthen</em> the sleeves by an inch?</li><li>She <em>lengthened</em> the dress by letting down the hem.</li><li>The straps have been <em>lengthened</em> as far as they go.</li></ol>
+<hr>
+<h3 id="line">line<a class="hash" href="#line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laɪn/ &middot; <em>LYN</em></dd><dt>Русский</dt><dd>подбивать подкладкой, ставить на подкладку</dd><dt>Forms</dt><dd><em>line</em> &middot; <em>lined</em> &middot; <em>lined</em></dd><dt>Third person</dt><dd><em>lines</em> &middot; <strong>-ing form:</strong> <em>lining</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You line something <strong>with</strong> a material, and the inner layer itself is the <em>lining</em>.</dd></dl>
+<p>To cover the inside of a coat, a bag, or a box with another material.</p>
+<ol><li>They <em>line</em> the winter coats with flannel.</li><li>She <em>lined</em> the jacket with cheap silk.</li><li>The boots are <em>lined</em> with wool.</li></ol>
+<hr>
+<h3 id="cuff">cuff<a class="hash" href="#cuff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʌf/ &middot; <em>KUF</em></dd><dt>Русский</dt><dd>подворачивать (штанину, рукав), закатать</dd><dt>Forms</dt><dd><em>cuff</em> &middot; <em>cuffed</em> &middot; <em>cuffed</em></dd><dt>Third person</dt><dd><em>cuffs</em> &middot; <strong>-ing form:</strong> <em>cuffing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To turn the bottom of a sleeve or a pant leg up into a fold.</p>
+<ol><li>He likes to <em>cuff</em> his jeans above his boots.</li><li>She <em>cuffed</em> the sleeves of his big sweater twice.</li><li>The pants came back <em>cuffed</em> and pressed.</li></ol>
+<hr>
+<h3 id="wrinkle">wrinkle<a class="hash" href="#wrinkle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪŋkəl/ &middot; <em>RING-kuhl</em></dd><dt>Русский</dt><dd>мяться, помяться; мять, измять</dd><dt>Forms</dt><dd><em>wrinkle</em> &middot; <em>wrinkled</em> &middot; <em>wrinkled</em></dd><dt>Third person</dt><dd><em>wrinkles</em> &middot; <strong>-ing form:</strong> <em>wrinkling</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The <em>w</em> is silent: RING-kuhl.</dd></dl>
+<p>To get small folds and creases in cloth, or to put them there.</p>
+<ol><li>Linen <em>wrinkles</em> if you look at it.</li><li>The shirt <em>wrinkled</em> badly in the suitcase.</li><li>He showed up in a <em>wrinkled</em> jacket.</li></ol>
+<hr>
+<h3 id="crease">crease<a class="hash" href="#crease" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kriːs/ &middot; <em>KREES</em></dd><dt>Русский</dt><dd>заглаживать складку; мяться, помяться</dd><dt>Forms</dt><dd><em>crease</em> &middot; <em>creased</em> &middot; <em>creased</em></dd><dt>Third person</dt><dd><em>creases</em> &middot; <strong>-ing form:</strong> <em>creasing</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To press a sharp line into cloth, or to get an unwanted fold in it.</p>
+<ol><li>Marines <em>crease</em> their trousers razor sharp.</li><li>He <em>creased</em> the slacks down the front.</li><li>Her dress was badly <em>creased</em> after the flight.</li></ol>
+<hr>
+<h3 id="unfold">unfold<a class="hash" href="#unfold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈfoʊld/ &middot; <em>un-FOHLD</em></dd><dt>Русский</dt><dd>разворачивать, расправлять, развернуть</dd><dt>Forms</dt><dd><em>unfold</em> &middot; <em>unfolded</em> &middot; <em>unfolded</em></dd><dt>Third person</dt><dd><em>unfolds</em> &middot; <strong>-ing form:</strong> <em>unfolding</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To open out something that has been folded.</p>
+<ol><li><em>Unfold</em> the shirt carefully so it does not wrinkle.</li><li>She <em>unfolded</em> the dress and hung it by the window.</li><li>The napkin had been <em>unfolded</em> and left on the chair.</li></ol>
+<hr>
+<h3 id="pair">pair<a class="hash" href="#pair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɛr/ &middot; <em>PAIR</em></dd><dt>Русский</dt><dd>подбирать в пару, сочетать, сочетать с</dd><dt>Forms</dt><dd><em>pair</em> &middot; <em>paired</em> &middot; <em>paired</em></dd><dt>Third person</dt><dd><em>pairs</em> &middot; <strong>-ing form:</strong> <em>pairing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You pair one thing <strong>with</strong> another. <em>Pair</em>, <em>pear</em> the fruit, and <em>pare</em> meaning to peel all sound alike.</dd></dl>
+<p>To put two things together, or to wear one item with another.</p>
+<ol><li><em>Pair</em> the gray blazer with dark jeans.</li><li>She <em>paired</em> the socks as she folded them.</li><li>That skirt is usually <em>paired</em> with boots.</li></ol>
+<hr>
+<h3 id="separate">separate<a class="hash" href="#separate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛpəreɪt/ &middot; <em>SEP-uh-rayt</em></dd><dt>Русский</dt><dd>разделять, отделять, разделить</dd><dt>Forms</dt><dd><em>separate</em> &middot; <em>separated</em> &middot; <em>separated</em></dd><dt>Third person</dt><dd><em>separates</em> &middot; <strong>-ing form:</strong> <em>separating</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The verb ends in /eɪt/, SEP-uh-rayt; the adjective <em>separate</em> is SEP-rit. There is an <em>a</em> in the middle: sep-<strong>a</strong>-rate.</dd></dl>
+<p>To divide things into groups, or to keep them apart.</p>
+<ol><li><em>Separate</em> the whites from the darks.</li><li>She <em>separated</em> the wool items before washing.</li><li>The delicates are <em>separated</em> into a mesh bag.</li></ol>
+<hr>
+<h3 id="match">match<a class="hash" href="#match" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mætʃ/ &middot; <em>MACH</em></dd><dt>Русский</dt><dd>подходить, сочетаться; подбирать в тон</dd><dt>Forms</dt><dd><em>match</em> &middot; <em>matched</em> &middot; <em>matched</em></dd><dt>Third person</dt><dd><em>matches</em> &middot; <strong>-ing form:</strong> <em>matching</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The third person adds <em>-es</em>: <em>matches</em>. You match one thing <strong>to</strong> or <strong>with</strong> another.</dd></dl>
+<p>To look right together, or to find something that goes with something else.</p>
+<ol><li>Those shoes do not <em>match</em> the belt.</li><li>She <em>matched</em> the scarf to her coat.</li><li>They showed up in <em>matching</em> sweaters.</li></ol>
+<hr>
+<h3 id="clash">clash<a class="hash" href="#clash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klæʃ/ &middot; <em>KLASH</em></dd><dt>Русский</dt><dd>не сочетаться, дисгармонировать</dd><dt>Forms</dt><dd><em>clash</em> &middot; <em>clashed</em> &middot; <em>clashed</em></dd><dt>Third person</dt><dd><em>clashes</em> &middot; <strong>-ing form:</strong> <em>clashing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>One color clashes <strong>with</strong> another.</dd></dl>
+<p>To look bad together, especially two colors or patterns.</p>
+<ol><li>Orange and pink <em>clash</em>, but she wears them anyway.</li><li>The tie <em>clashed</em> with his shirt.</li><li>Those two patterns are <em>clashing</em> badly.</li></ol>
+<hr>
+<h3 id="complement">complement<a class="hash" href="#complement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmpləmɛnt/ &middot; <em>KAHM-pluh-ment</em></dd><dt>Русский</dt><dd>дополнять, хорошо сочетаться, дополнить</dd><dt>Forms</dt><dd><em>complement</em> &middot; <em>complemented</em> &middot; <em>complemented</em></dd><dt>Third person</dt><dd><em>complements</em> &middot; <strong>-ing form:</strong> <em>complementing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Complement</em>, with an <em>e</em>, means goes well with. <em>Compliment</em>, with an <em>i</em>, means kind words. They sound the same.</dd></dl>
+<p>To go well with something and make it look better.</p>
+<ol><li>A gray tie would <em>complement</em> that suit.</li><li>The blue scarf <em>complemented</em> her eyes.</li><li>The pieces were chosen to be <em>complemented</em> by simple jewelry.</li></ol>
+<hr>
+<h3 id="contrast">contrast<a class="hash" href="#contrast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtræst/ &middot; <em>kuhn-TRAST</em></dd><dt>Русский</dt><dd>контрастировать, противопоставлять, противопоставить</dd><dt>Forms</dt><dd><em>contrast</em> &middot; <em>contrasted</em> &middot; <em>contrasted</em></dd><dt>Third person</dt><dd><em>contrasts</em> &middot; <strong>-ing form:</strong> <em>contrasting</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The verb is stressed on the second syllable, kuhn-TRAST; the noun is KAHN-trast. One thing contrasts <strong>with</strong> another.</dd></dl>
+<p>To be clearly different from something beside it, or to set two things side by side to show the difference.</p>
+<ol><li>White stitching <em>contrasts</em> nicely with black leather.</li><li>The designer <em>contrasted</em> heavy wool with thin silk.</li><li>A <em>contrasting</em> collar makes a plain shirt look custom.</li></ol>
+<hr>
+<h3 id="suit">suit<a class="hash" href="#suit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/suːt/ &middot; <em>SOOT</em></dd><dt>Русский</dt><dd>идти, быть к лицу, подходить</dd><dt>Forms</dt><dd><em>suit</em> &middot; <em>suited</em> &middot; <em>suited</em></dd><dt>Third person</dt><dd><em>suits</em> &middot; <strong>-ing form:</strong> <em>suiting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Suit</em> means it looks good on you; <em>fit</em> means it is the right size. A jacket can fit and still not suit you.</dd></dl>
+<p>To look good on a particular person, or to be right for them.</p>
+<ol><li>That color really <em>suits</em> you.</li><li>The short haircut <em>suited</em> her.</li><li>He is not <em>suited</em> to a job with a dress code.</li></ol>
+<hr>
+<h3 id="style">style<a class="hash" href="#style" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/staɪl/ &middot; <em>STYL</em></dd><dt>Русский</dt><dd>стилизовать, подбирать образ; укладывать (волосы)</dd><dt>Forms</dt><dd><em>style</em> &middot; <em>styled</em> &middot; <em>styled</em></dd><dt>Third person</dt><dd><em>styles</em> &middot; <strong>-ing form:</strong> <em>styling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To arrange clothes or hair to create a particular look.</p>
+<ol><li>She can <em>style</em> one dress five different ways.</li><li>They <em>styled</em> the shoot in 1970s clothes.</li><li>His hair was <em>styled</em> for the photograph.</li></ol>
+<hr>
+<h3 id="pose">pose<a class="hash" href="#pose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/poʊz/ &middot; <em>POHZ</em></dd><dt>Русский</dt><dd>позировать, принимать позу</dd><dt>Forms</dt><dd><em>pose</em> &middot; <em>posed</em> &middot; <em>posed</em></dd><dt>Third person</dt><dd><em>poses</em> &middot; <strong>-ing form:</strong> <em>posing</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To hold a position so that someone can photograph or paint you.</p>
+<ol><li><em>Pose</em> by the window where the light is better.</li><li>They <em>posed</em> in their graduation gowns.</li><li>She was <em>posing</em> for the camera in her new coat.</li></ol>
+<hr>
+<h3 id="flaunt">flaunt<a class="hash" href="#flaunt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɔːnt/ &middot; <em>FLAWNT</em></dd><dt>Русский</dt><dd>выставлять напоказ, щеголять</dd><dt>Forms</dt><dd><em>flaunt</em> &middot; <em>flaunted</em> &middot; <em>flaunted</em></dd><dt>Third person</dt><dd><em>flaunts</em> &middot; <strong>-ing form:</strong> <em>flaunting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Flaunt</em>, to show off, is not <em>flout</em>, to break a rule openly.</dd></dl>
+<p>To show something off openly so that everyone notices it.</p>
+<ol><li>He likes to <em>flaunt</em> his expensive watches.</li><li>She <em>flaunted</em> the new boots all week.</li><li>They were <em>flaunting</em> their designer bags on the boardwalk.</li></ol>
+<hr>
+<h3 id="accentuate">accentuate<a class="hash" href="#accentuate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əkˈsɛntʃueɪt/ &middot; <em>uk-SEN-choo-ayt</em></dd><dt>Русский</dt><dd>подчёркивать, акцентировать, подчеркнуть</dd><dt>Forms</dt><dd><em>accentuate</em> &middot; <em>accentuated</em> &middot; <em>accentuated</em></dd><dt>Third person</dt><dd><em>accentuates</em> &middot; <strong>-ing form:</strong> <em>accentuating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make one feature more noticeable than the rest.</p>
+<ol><li>A belt will <em>accentuate</em> your waist.</li><li>The dark trim <em>accentuated</em> his shoulders.</li><li>Her height was <em>accentuated</em> by the long coat.</li></ol>
+<hr>
+<h3 id="sag">sag<a class="hash" href="#sag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sæɡ/ &middot; <em>SAG</em></dd><dt>Русский</dt><dd>обвисать, провисать, обвиснуть</dd><dt>Forms</dt><dd><em>sag</em> &middot; <em>sagged</em> &middot; <em>sagged</em></dd><dt>Third person</dt><dd><em>sags</em> &middot; <strong>-ing form:</strong> <em>sagging</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The <em>g</em> doubles: <em>sag → sagged, sagging</em>.</dd></dl>
+<p>To hang down loosely because the shape is gone.</p>
+<ol><li>Cheap knits <em>sag</em> at the knees.</li><li>The pockets <em>sagged</em> from all the keys he carried.</li><li>His jeans were <em>sagging</em> below his hips.</li></ol>
+<hr>
+<h3 id="chafe">chafe<a class="hash" href="#chafe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃeɪf/ &middot; <em>CHAYF</em></dd><dt>Русский</dt><dd>натирать (кожу), тереть, натереть</dd><dt>Forms</dt><dd><em>chafe</em> &middot; <em>chafed</em> &middot; <em>chafed</em></dd><dt>Third person</dt><dd><em>chafes</em> &middot; <strong>-ing form:</strong> <em>chafing</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To rub the skin until it is sore.</p>
+<ol><li>A wet collar will <em>chafe</em>.</li><li>The backpack strap <em>chafed</em> her shoulder.</li><li>His heels were <em>chafed</em> raw by the new boots.</li></ol>
+<hr>
+<h3 id="tug">tug<a class="hash" href="#tug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʌɡ/ &middot; <em>TUG</em></dd><dt>Русский</dt><dd>дёргать, тянуть, потянуть</dd><dt>Forms</dt><dd><em>tug</em> &middot; <em>tugged</em> &middot; <em>tugged</em></dd><dt>Third person</dt><dd><em>tugs</em> &middot; <strong>-ing form:</strong> <em>tugging</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The <em>g</em> doubles: <em>tug → tugged, tugging</em>. You tug <strong>at</strong> something.</dd></dl>
+<p>To pull at something with a short, sharp movement.</p>
+<ol><li>Do not <em>tug</em> at the loose thread.</li><li>She <em>tugged</em> her skirt down as she stood up.</li><li>He kept <em>tugging</em> at his collar all through dinner.</li></ol>
+<hr>
+<h3 id="flap">flap<a class="hash" href="#flap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flæp/ &middot; <em>FLAP</em></dd><dt>Русский</dt><dd>развеваться, хлопать (на ветру)</dd><dt>Forms</dt><dd><em>flap</em> &middot; <em>flapped</em> &middot; <em>flapped</em></dd><dt>Third person</dt><dd><em>flaps</em> &middot; <strong>-ing form:</strong> <em>flapping</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The <em>p</em> doubles: <em>flap → flapped, flapping</em>.</dd></dl>
+<p>To move loosely back and forth in the air.</p>
+<ol><li>Loose shirts <em>flap</em> in this wind.</li><li>His open coat <em>flapped</em> as he ran for the bus.</li><li>The laundry was <em>flapping</em> on the line.</li></ol>
+<hr>
+<h3 id="embellish">embellish<a class="hash" href="#embellish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈbɛlɪʃ/ &middot; <em>im-BEL-ish</em></dd><dt>Русский</dt><dd>украшать, декорировать, украсить</dd><dt>Forms</dt><dd><em>embellish</em> &middot; <em>embellished</em> &middot; <em>embellished</em></dd><dt>Third person</dt><dd><em>embellishes</em> &middot; <strong>-ing form:</strong> <em>embellishing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To add decoration to something plain.</p>
+<ol><li>They <em>embellish</em> the jackets with beads by hand.</li><li>She <em>embellished</em> a plain dress with ribbon.</li><li>The collar is <em>embellished</em> with tiny crystals.</li></ol>
+<hr>
+<h3 id="waterproof">waterproof<a class="hash" href="#waterproof" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtərpruːf/ &middot; <em>WAW-tur-proof</em></dd><dt>Русский</dt><dd>делать водонепроницаемым, пропитывать от воды</dd><dt>Forms</dt><dd><em>waterproof</em> &middot; <em>waterproofed</em> &middot; <em>waterproofed</em></dd><dt>Third person</dt><dd><em>waterproofs</em> &middot; <strong>-ing form:</strong> <em>waterproofing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To treat something so that water cannot get through it.</p>
+<ol><li><em>Waterproof</em> your boots before the first snow.</li><li>He <em>waterproofed</em> the jacket with a spray.</li><li>The seams have been <em>waterproofed</em> at the factory.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

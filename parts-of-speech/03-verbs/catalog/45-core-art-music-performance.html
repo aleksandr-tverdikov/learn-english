@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: art and performance</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-art-and-performance">Core verbs: art and performance<a class="hash" href="#core-verbs-art-and-performance" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of art and performance — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="perform">perform<a class="hash" href="#perform" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈfɔːrm/ &middot; <em>pur-FAWRM</em></dd><dt>Русский</dt><dd>выступать, выступить; исполнять, исполнить</dd><dt>Forms</dt><dd><em>perform</em> &middot; <em>performed</em> &middot; <em>performed</em></dd><dt>Third person</dt><dd><em>performs</em> &middot; <strong>-ing form:</strong> <em>performing</em></dd><dt>Transitivity</dt><dd>both — transitive (perform a song), intransitive (perform on stage)</dd></dl>
+<p>To present music, a play, or a dance in front of an audience.</p>
+<ol><li>They <em>perform</em> twice every Saturday.</li><li>She <em>performed</em> the whole piece from memory.</li><li>The quartet has <em>performed</em> in nineteen countries.</li></ol>
+<hr>
+<h3 id="act">act<a class="hash" href="#act" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ækt/ &middot; <em>AKT</em></dd><dt>Русский</dt><dd>играть (на сцене), сыграть; актёрствовать</dd><dt>Forms</dt><dd><em>act</em> &middot; <em>acted</em> &middot; <em>acted</em></dd><dt>Third person</dt><dd><em>acts</em> &middot; <strong>-ing form:</strong> <em>acting</em></dd><dt>Transitivity</dt><dd>both — transitive (act the part of a king), intransitive (act in a film)</dd></dl>
+<p>To play a part in a play, film, or television show.</p>
+<ol><li>He wants to <em>act</em>, not direct.</li><li>She <em>acted</em> in commercials before her first movie.</li><li>He has been <em>acting</em> since the age of six.</li></ol>
+<hr>
+<h3 id="play">play<a class="hash" href="#play" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pleɪ/ &middot; <em>PLAY</em></dd><dt>Русский</dt><dd>играть, сыграть (на инструменте)</dd><dt>Forms</dt><dd><em>play</em> &middot; <em>played</em> &middot; <em>played</em></dd><dt>Third person</dt><dd><em>plays</em> &middot; <strong>-ing form:</strong> <em>playing</em></dd><dt>Transitivity</dt><dd>both — transitive (play the cello), intransitive (the band played for an hour)</dd><dt>Contrast</dt><dd>With an instrument English keeps <em>the</em>: <em>play the piano</em>. With a style it drops the article: <em>play jazz</em>.</dd></dl>
+<p>To make music on an instrument, or to perform a piece of music.</p>
+<ol><li>She <em>plays</em> the cello beautifully.</li><li>The band <em>played</em> for three hours without a break.</li><li>That song has been <em>played</em> on every station in town.</li></ol>
+<hr>
+<h3 id="dance">dance<a class="hash" href="#dance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dæns/ &middot; <em>DANSS</em></dd><dt>Русский</dt><dd>танцевать, станцевать</dd><dt>Forms</dt><dd><em>dance</em> &middot; <em>danced</em> &middot; <em>danced</em></dd><dt>Third person</dt><dd><em>dances</em> &middot; <strong>-ing form:</strong> <em>dancing</em></dd><dt>Transitivity</dt><dd>both — transitive (dance a waltz), intransitive (dance all night)</dd><dt>Contrast</dt><dd>American /dæns/ with the vowel of <em>cat</em>, not British /dɑːns/.</dd></dl>
+<p>To move your body in time with music.</p>
+<ol><li>They <em>dance</em> every Friday at the community hall.</li><li>She <em>danced</em> the lead in Swan Lake.</li><li>He has been <em>dancing</em> since he could walk.</li></ol>
+<hr>
+<h3 id="rehearse">rehearse<a class="hash" href="#rehearse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈhɜːrs/ &middot; <em>ri-HURSS</em></dd><dt>Русский</dt><dd>репетировать, отрепетировать</dd><dt>Forms</dt><dd><em>rehearse</em> &middot; <em>rehearsed</em> &middot; <em>rehearsed</em></dd><dt>Third person</dt><dd><em>rehearses</em> &middot; <strong>-ing form:</strong> <em>rehearsing</em></dd><dt>Transitivity</dt><dd>both — transitive (rehearse a scene), intransitive (rehearse all week)</dd></dl>
+<p>To practice a play, concert, or dance before performing it publicly.</p>
+<ol><li>We <em>rehearse</em> every evening this week.</li><li>They <em>rehearsed</em> the fight scene twenty times.</li><li>The cast is <em>rehearsing</em> on the real set now.</li></ol>
+<hr>
+<h3 id="audition">audition<a class="hash" href="#audition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːˈdɪʃən/ &middot; <em>aw-DISH-uhn</em></dd><dt>Русский</dt><dd>проходить прослушивание; прослушивать</dd><dt>Forms</dt><dd><em>audition</em> &middot; <em>auditioned</em> &middot; <em>auditioning</em></dd><dt>Third person</dt><dd><em>auditions</em> &middot; <strong>-ing form:</strong> <em>auditioning</em></dd><dt>Transitivity</dt><dd>both — transitive (audition forty dancers), intransitive (audition for a part)</dd><dt>Contrast</dt><dd>A performer <em>auditions for</em> a part; a director <em>auditions</em> the performers.</dd></dl>
+<p>To try out for a part in a performance, or to hear someone try out.</p>
+<ol><li>Two hundred singers <em>audition</em> here every year.</li><li>She <em>auditioned</em> for the lead and got it.</li><li>He is <em>auditioning</em> dancers all afternoon.</li></ol>
+<hr>
+<h3 id="improvise">improvise<a class="hash" href="#improvise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmprəvaɪz/ &middot; <em>IM-pruh-vyz</em></dd><dt>Русский</dt><dd>импровизировать, сымпровизировать</dd><dt>Forms</dt><dd><em>improvise</em> &middot; <em>improvised</em> &middot; <em>improvised</em></dd><dt>Third person</dt><dd><em>improvises</em> &middot; <strong>-ing form:</strong> <em>improvising</em></dd><dt>Transitivity</dt><dd>both — transitive (improvise a solo), intransitive (improvise for ten minutes)</dd></dl>
+<p>To make up music, words, or action as you go, without preparing it.</p>
+<ol><li>Good actors can <em>improvise</em> when a line is dropped.</li><li>The pianist <em>improvised</em> for ten minutes.</li><li>They were <em>improvising</em> the entire second half.</li></ol>
+<hr>
+<h3 id="mime">mime<a class="hash" href="#mime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maɪm/ &middot; <em>MYM</em></dd><dt>Русский</dt><dd>изображать пантомимой, показывать жестами</dd><dt>Forms</dt><dd><em>mime</em> &middot; <em>mimed</em> &middot; <em>mimed</em></dd><dt>Third person</dt><dd><em>mimes</em> &middot; <strong>-ing form:</strong> <em>miming</em></dd><dt>Transitivity</dt><dd>both — transitive (mime opening a door), intransitive (mime on the sidewalk)</dd></dl>
+<p>To act something out using only movement, with no words.</p>
+<ol><li>Street performers <em>mime</em> for the tourists.</li><li>He <em>mimed</em> opening a very heavy door.</li><li>The singer was obviously <em>miming</em> the words.</li></ol>
+<hr>
+<h3 id="imitate">imitate<a class="hash" href="#imitate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪməteɪt/ &middot; <em>IM-uh-tayt</em></dd><dt>Русский</dt><dd>подражать, имитировать</dd><dt>Forms</dt><dd><em>imitate</em> &middot; <em>imitated</em> &middot; <em>imitated</em></dd><dt>Third person</dt><dd><em>imitates</em> &middot; <strong>-ing form:</strong> <em>imitating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To copy the way someone speaks, moves, or works.</p>
+<ol><li>Young painters often <em>imitate</em> their teachers.</li><li>The parrot <em>imitated</em> the doorbell.</li><li>His early songs were clearly <em>imitating</em> Dylan.</li></ol>
+<hr>
+<h3 id="mimic">mimic<a class="hash" href="#mimic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪmɪk/ &middot; <em>MIM-ik</em></dd><dt>Русский</dt><dd>передразнивать, копировать</dd><dt>Forms</dt><dd><em>mimic</em> &middot; <em>mimicked</em> &middot; <em>mimicked</em></dd><dt>Third person</dt><dd><em>mimics</em> &middot; <strong>-ing form:</strong> <em>mimicking</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>A <em>k</em> is inserted before the ending: <em>mimicked</em>, <em>mimicking</em> — like <em>panic → panicked</em>.</dd></dl>
+<p>To copy someone's voice or gestures, often to make fun of them.</p>
+<ol><li>He can <em>mimic</em> any accent in the room.</li><li>She <em>mimicked</em> her brother's walk all the way home.</li><li>The synthesizer is <em>mimicking</em> a cello.</li></ol>
+<hr>
+<h3 id="reenact">reenact<a class="hash" href="#reenact" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːɪˈnækt/ &middot; <em>ree-i-NAKT</em></dd><dt>Русский</dt><dd>воссоздавать, реконструировать (событие)</dd><dt>Forms</dt><dd><em>reenact</em> &middot; <em>reenacted</em> &middot; <em>reenacted</em></dd><dt>Third person</dt><dd><em>reenacts</em> &middot; <strong>-ing form:</strong> <em>reenacting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Written <em>reenact</em> in American English; the spelling <em>re-enact</em> is also seen.</dd></dl>
+<p>To act out a past event again, in detail.</p>
+<ol><li>Volunteers <em>reenact</em> the battle every July.</li><li>They <em>reenacted</em> the scene for the documentary.</li><li>The arrest was <em>reenacted</em> on television.</li></ol>
+<hr>
+<h3 id="dramatize">dramatize<a class="hash" href="#dramatize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdræmətaɪz/ &middot; <em>DRAM-uh-tyz</em></dd><dt>Русский</dt><dd>инсценировать; драматизировать</dd><dt>Forms</dt><dd><em>dramatize</em> &middot; <em>dramatized</em> &middot; <em>dramatized</em></dd><dt>Third person</dt><dd><em>dramatizes</em> &middot; <strong>-ing form:</strong> <em>dramatizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>dramatize</em>; British usually <em>dramatise</em>.</dd></dl>
+<p>To turn a story into a play or film, or to make something sound more exciting than it was.</p>
+<ol><li>They plan to <em>dramatize</em> the novel for radio.</li><li>The papers <em>dramatized</em> a simple disagreement.</li><li>Her life has been <em>dramatized</em> twice already.</li></ol>
+<hr>
+<h3 id="bow">bow<a class="hash" href="#bow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baʊ/ &middot; <em>BOW</em></dd><dt>Русский</dt><dd>кланяться, поклониться</dd><dt>Forms</dt><dd><em>bow</em> &middot; <em>bowed</em> &middot; <em>bowed</em></dd><dt>Third person</dt><dd><em>bows</em> &middot; <strong>-ing form:</strong> <em>bowing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>To bend forward is /baʊ/, rhyming with <em>now</em>. The <em>bow</em> you play a violin with, and the <em>bow</em> in a ribbon, are /boʊ/.</dd></dl>
+<p>To bend forward from the waist to thank an audience.</p>
+<ol><li>The cast <em>bows</em> three times on a good night.</li><li>She <em>bowed</em> and the applause doubled.</li><li>They were still <em>bowing</em> when the curtain came down.</li></ol>
+<hr>
+<h3 id="curtsy">curtsy<a class="hash" href="#curtsy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrtsi/ &middot; <em>KURT-see</em></dd><dt>Русский</dt><dd>делать реверанс</dd><dt>Forms</dt><dd><em>curtsy</em> &middot; <em>curtsied</em> &middot; <em>curtsied</em></dd><dt>Third person</dt><dd><em>curtsies</em> &middot; <strong>-ing form:</strong> <em>curtsying</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Consonant + y, so it becomes <em>curtsies</em> and <em>curtsied</em>, but the y stays in <em>curtsying</em>.</dd></dl>
+<p>To bend the knees and lower the body slightly as a formal greeting or thank-you.</p>
+<ol><li>The ballerinas <em>curtsy</em> at the end of every performance.</li><li>She <em>curtsied</em> to the audience and ran off.</li><li>The little dancers have been <em>curtsying</em> all evening.</li></ol>
+<hr>
+<h3 id="applaud">applaud<a class="hash" href="#applaud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈplɔːd/ &middot; <em>uh-PLAWD</em></dd><dt>Русский</dt><dd>аплодировать, рукоплескать</dd><dt>Forms</dt><dd><em>applaud</em> &middot; <em>applauded</em> &middot; <em>applauded</em></dd><dt>Third person</dt><dd><em>applauds</em> &middot; <strong>-ing form:</strong> <em>applauding</em></dd><dt>Transitivity</dt><dd>both — transitive (applaud the soloist), intransitive (the crowd applauded)</dd></dl>
+<p>To clap your hands to show that you liked a performance.</p>
+<ol><li>Some audiences <em>applaud</em> between movements.</li><li>They <em>applauded</em> for a full five minutes.</li><li>She was <em>applauded</em> before she even sang a note.</li></ol>
+<hr>
+<h3 id="boo">boo<a class="hash" href="#boo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/buː/ &middot; <em>BOO</em></dd><dt>Русский</dt><dd>освистывать, улюлюкать</dd><dt>Forms</dt><dd><em>boo</em> &middot; <em>booed</em> &middot; <em>booed</em></dd><dt>Third person</dt><dd><em>boos</em> &middot; <strong>-ing form:</strong> <em>booing</em></dd><dt>Transitivity</dt><dd>both — transitive (boo the villain), intransitive (the crowd booed)</dd><dt>Contrast</dt><dd>The double o stays and the ending is simply added: <em>booed</em>, <em>booing</em>.</dd></dl>
+<p>To shout in disapproval at a performer or a performance.</p>
+<ol><li>A few fans always <em>boo</em> the villain.</li><li>The crowd <em>booed</em> when the band left after forty minutes.</li><li>He has never been <em>booed</em> off a stage.</li></ol>
+<hr>
+<h3 id="juggle">juggle<a class="hash" href="#juggle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʌɡəl/ &middot; <em>JUG-uhl</em></dd><dt>Русский</dt><dd>жонглировать</dd><dt>Forms</dt><dd><em>juggle</em> &middot; <em>juggled</em> &middot; <em>juggled</em></dd><dt>Third person</dt><dd><em>juggles</em> &middot; <strong>-ing form:</strong> <em>juggling</em></dd><dt>Transitivity</dt><dd>both — transitive (juggle five oranges), intransitive (juggle for the crowd)</dd></dl>
+<p>To keep several objects moving through the air by throwing and catching them.</p>
+<ol><li>Clowns <em>juggle</em> while the stage is reset.</li><li>He <em>juggled</em> five oranges without dropping one.</li><li>She is <em>juggling</em> torches now.</li></ol>
+<hr>
+<h3 id="gesture">gesture<a class="hash" href="#gesture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛstʃər/ &middot; <em>JES-chur</em></dd><dt>Русский</dt><dd>жестикулировать, сделать жест</dd><dt>Forms</dt><dd><em>gesture</em> &middot; <em>gestured</em> &middot; <em>gestured</em></dd><dt>Third person</dt><dd><em>gestures</em> &middot; <strong>-ing form:</strong> <em>gesturing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>gesture to</em> or <em>gesture toward</em> someone or something.</dd></dl>
+<p>To move your hand or head in order to express something.</p>
+<ol><li>Actors <em>gesture</em> more broadly on a large stage.</li><li>He <em>gestured</em> toward the empty chair.</li><li>She was <em>gesturing</em> wildly from the wings.</li></ol>
+<hr>
+<h3 id="usher">usher<a class="hash" href="#usher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌʃər/ &middot; <em>USH-ur</em></dd><dt>Русский</dt><dd>провожать на место, вводить</dd><dt>Forms</dt><dd><em>usher</em> &middot; <em>ushered</em> &middot; <em>ushered</em></dd><dt>Third person</dt><dd><em>ushers</em> &middot; <strong>-ing form:</strong> <em>ushering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To lead people to their seats or through a door.</p>
+<ol><li>Students <em>usher</em> at the Friday concerts.</li><li>An attendant <em>ushered</em> us up to the balcony.</li><li>The late guests were <em>ushered</em> in through a side door.</li></ol>
+<hr>
+<h3 id="cue">cue<a class="hash" href="#cue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kjuː/ &middot; <em>KYOO</em></dd><dt>Русский</dt><dd>давать знак вступать, подавать реплику</dd><dt>Forms</dt><dd><em>cue</em> &middot; <em>cued</em> &middot; <em>cued</em></dd><dt>Third person</dt><dd><em>cues</em> &middot; <strong>-ing form:</strong> <em>cuing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Both <em>cuing</em> and <em>cueing</em> are correct; American writing prefers <em>cuing</em>.</dd></dl>
+<p>To signal a performer or a technician to begin.</p>
+<ol><li>The conductor will <em>cue</em> the horns at bar forty.</li><li>He <em>cued</em> the lights a second too early.</li><li>The choir is waiting to be <em>cued</em>.</li></ol>
+<hr>
+<h3 id="star">star<a class="hash" href="#star" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɑːr/ &middot; <em>STAHR</em></dd><dt>Русский</dt><dd>играть главную роль; снимать в главной роли</dd><dt>Forms</dt><dd><em>star</em> &middot; <em>starred</em> &middot; <em>starred</em></dd><dt>Third person</dt><dd><em>stars</em> &middot; <strong>-ing form:</strong> <em>starring</em></dd><dt>Transitivity</dt><dd>both — transitive (the film stars her), intransitive (star in a comedy)</dd><dt>Contrast</dt><dd>The r doubles before an ending: <em>starred</em>, <em>starring</em>. An actor <em>stars in</em> a film.</dd></dl>
+<p>To play the leading part in a film or show.</p>
+<ol><li>She <em>stars</em> in the new comedy.</li><li>He <em>starred</em> opposite his own daughter.</li><li>The play is <em>starring</em> a complete unknown.</li></ol>
+<hr>
+<h3 id="direct">direct<a class="hash" href="#direct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dəˈrɛkt/ &middot; <em>duh-REKT</em></dd><dt>Русский</dt><dd>режиссировать, ставить; дирижировать</dd><dt>Forms</dt><dd><em>direct</em> &middot; <em>directed</em> &middot; <em>directed</em></dd><dt>Third person</dt><dd><em>directs</em> &middot; <strong>-ing form:</strong> <em>directing</em></dd><dt>Transitivity</dt><dd>both — transitive (direct a film), intransitive (he writes and directs)</dd></dl>
+<p>To be in charge of how a film, play, or piece of music is performed.</p>
+<ol><li>She <em>directs</em> two shows a season.</li><li>He <em>directed</em> the whole film in nineteen days.</li><li>The opera is being <em>directed</em> by a newcomer.</li></ol>
+<hr>
+<h3 id="stage">stage<a class="hash" href="#stage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/steɪdʒ/ &middot; <em>STAYJ</em></dd><dt>Русский</dt><dd>ставить (спектакль), устраивать</dd><dt>Forms</dt><dd><em>stage</em> &middot; <em>staged</em> &middot; <em>staged</em></dd><dt>Third person</dt><dd><em>stages</em> &middot; <strong>-ing form:</strong> <em>staging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put on a play or a public event.</p>
+<ol><li>The company <em>stages</em> a new musical every fall.</li><li>They <em>staged</em> Hamlet in a parking garage.</li><li>The whole argument was <em>staged</em> for the cameras.</li></ol>
+<hr>
+<h3 id="premiere">premiere<a class="hash" href="#premiere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈmɪr/ &middot; <em>pri-MEER</em></dd><dt>Русский</dt><dd>впервые показывать; состояться (о премьере)</dd><dt>Forms</dt><dd><em>premiere</em> &middot; <em>premiered</em> &middot; <em>premiered</em></dd><dt>Third person</dt><dd><em>premieres</em> &middot; <strong>-ing form:</strong> <em>premiering</em></dd><dt>Transitivity</dt><dd>both — transitive (the theater premiered her play), intransitive (the ballet premieres in October)</dd></dl>
+<p>To show or perform something publicly for the very first time.</p>
+<ol><li>The ballet <em>premieres</em> in October.</li><li>The film <em>premiered</em> at a small festival in Texas.</li><li>Her symphony has already <em>premiered</em> in Chicago.</li></ol>
+<hr>
+<h3 id="debut">debut<a class="hash" href="#debut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/deɪˈbjuː/ &middot; <em>day-BYOO</em></dd><dt>Русский</dt><dd>дебютировать; впервые представить</dd><dt>Forms</dt><dd><em>debut</em> &middot; <em>debuted</em> &middot; <em>debuted</em></dd><dt>Third person</dt><dd><em>debuts</em> &middot; <strong>-ing form:</strong> <em>debuting</em></dd><dt>Transitivity</dt><dd>both — transitive (debut a new song), intransitive (she debuted at twenty)</dd><dt>Contrast</dt><dd>The t is silent: /deɪˈbjuː/, day-BYOO — but it is heard again in <em>debuted</em>, day-BYOOD.</dd></dl>
+<p>To appear or be presented in public for the first time.</p>
+<ol><li>Three young singers <em>debut</em> with the orchestra this season.</li><li>The show <em>debuted</em> to excellent reviews.</li><li>They are <em>debuting</em> two new songs tonight.</li></ol>
+<hr>
+<h3 id="headline">headline<a class="hash" href="#headline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛdlaɪn/ &middot; <em>HED-lyn</em></dd><dt>Русский</dt><dd>выступать хедлайнером, возглавлять афишу</dd><dt>Forms</dt><dd><em>headline</em> &middot; <em>headlined</em> &middot; <em>headlined</em></dd><dt>Third person</dt><dd><em>headlines</em> &middot; <strong>-ing form:</strong> <em>headlining</em></dd><dt>Transitivity</dt><dd>both — transitive (headline the festival), intransitive (two bands headline on Saturday)</dd></dl>
+<p>To be the main act at a concert or festival.</p>
+<ol><li>Two bands <em>headline</em> on Saturday night.</li><li>She <em>headlined</em> the festival at twenty-three.</li><li>They are <em>headlining</em> three nights in a row.</li></ol>
+<hr>
+<h3 id="collaborate">collaborate<a class="hash" href="#collaborate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈlæbəreɪt/ &middot; <em>kuh-LAB-uh-rayt</em></dd><dt>Русский</dt><dd>сотрудничать, работать совместно</dd><dt>Forms</dt><dd><em>collaborate</em> &middot; <em>collaborated</em> &middot; <em>collaborated</em></dd><dt>Third person</dt><dd><em>collaborates</em> &middot; <strong>-ing form:</strong> <em>collaborating</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>collaborate with</em> a person and <em>collaborate on</em> a project.</dd></dl>
+<p>To work together with someone on a creative project.</p>
+<ol><li>The two composers <em>collaborate</em> constantly.</li><li>She <em>collaborated</em> with a choreographer from Havana.</li><li>They have <em>collaborated</em> on four albums.</li></ol>
+<hr>
+<h3 id="chant">chant<a class="hash" href="#chant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃænt/ &middot; <em>CHANT</em></dd><dt>Русский</dt><dd>скандировать; петь речитативом</dd><dt>Forms</dt><dd><em>chant</em> &middot; <em>chanted</em> &middot; <em>chanted</em></dd><dt>Third person</dt><dd><em>chants</em> &middot; <strong>-ing form:</strong> <em>chanting</em></dd><dt>Transitivity</dt><dd>both — transitive (chant her name), intransitive (the monks chant at dawn)</dd></dl>
+<p>To sing or say the same words over and over on one or two notes.</p>
+<ol><li>The monks <em>chant</em> at dawn.</li><li>The crowd <em>chanted</em> her name for five minutes.</li><li>The same two lines are <em>chanted</em> throughout the piece.</li></ol>
+<hr>
+<h3 id="harmonize">harmonize<a class="hash" href="#harmonize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrmənaɪz/ &middot; <em>HAR-muh-nyz</em></dd><dt>Русский</dt><dd>петь в гармонию, гармонизировать</dd><dt>Forms</dt><dd><em>harmonize</em> &middot; <em>harmonized</em> &middot; <em>harmonized</em></dd><dt>Third person</dt><dd><em>harmonizes</em> &middot; <strong>-ing form:</strong> <em>harmonizing</em></dd><dt>Transitivity</dt><dd>both — transitive (harmonize a melody), intransitive (the sisters harmonize)</dd><dt>Contrast</dt><dd>American <em>harmonize</em>; British usually <em>harmonise</em>.</dd></dl>
+<p>To sing or play notes that fit pleasingly with a melody.</p>
+<ol><li>The sisters <em>harmonize</em> without even trying.</li><li>He <em>harmonized</em> a third below the melody.</li><li>They have been <em>harmonizing</em> together since childhood.</li></ol>
+<hr>
+<h3 id="conduct">conduct<a class="hash" href="#conduct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈdʌkt/ &middot; <em>kuhn-DUKT</em></dd><dt>Русский</dt><dd>дирижировать</dd><dt>Forms</dt><dd><em>conduct</em> &middot; <em>conducted</em> &middot; <em>conducted</em></dd><dt>Third person</dt><dd><em>conducts</em> &middot; <strong>-ing form:</strong> <em>conducting</em></dd><dt>Transitivity</dt><dd>both — transitive (conduct the Ninth), intransitive (she conducts from the piano)</dd><dt>Contrast</dt><dd>The verb is stressed kuhn-DUKT; the noun <em>conduct</em>, meaning behavior, is KAHN-dukt.</dd></dl>
+<p>To lead an orchestra or choir with your hands or a baton.</p>
+<ol><li>She <em>conducts</em> from the piano.</li><li>He <em>conducted</em> the Ninth Symphony from memory.</li><li>The concert was <em>conducted</em> by a guest from Vienna.</li></ol>
+<hr>
+<h3 id="orchestrate">orchestrate<a class="hash" href="#orchestrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrkəstreɪt/ &middot; <em>OR-kuh-strayt</em></dd><dt>Русский</dt><dd>оркестровать; организовывать</dd><dt>Forms</dt><dd><em>orchestrate</em> &middot; <em>orchestrated</em> &middot; <em>orchestrated</em></dd><dt>Third person</dt><dd><em>orchestrates</em> &middot; <strong>-ing form:</strong> <em>orchestrating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To arrange music for an orchestra, or to organize something carefully.</p>
+<ol><li>He <em>orchestrates</em> his own film scores.</li><li>She <em>orchestrated</em> the song for forty players.</li><li>The whole evening had been carefully <em>orchestrated</em>.</li></ol>
+<hr>
+<h3 id="strum">strum<a class="hash" href="#strum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/strʌm/ &middot; <em>STRUM</em></dd><dt>Русский</dt><dd>бренчать, перебирать струны</dd><dt>Forms</dt><dd><em>strum</em> &middot; <em>strummed</em> &middot; <em>strummed</em></dd><dt>Third person</dt><dd><em>strums</em> &middot; <strong>-ing form:</strong> <em>strumming</em></dd><dt>Transitivity</dt><dd>both — transitive (strum a guitar), intransitive (strum quietly)</dd><dt>Contrast</dt><dd>The m doubles: <em>strummed</em>, <em>strumming</em>.</dd></dl>
+<p>To play a guitar by sweeping your fingers across the strings.</p>
+<ol><li>He <em>strums</em> quietly while she sings.</li><li>She <em>strummed</em> the same four chords all night.</li><li>Someone was <em>strumming</em> on the porch.</li></ol>
+<hr>
+<h3 id="pluck">pluck<a class="hash" href="#pluck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plʌk/ &middot; <em>PLUK</em></dd><dt>Русский</dt><dd>щипать (струны), перебирать</dd><dt>Forms</dt><dd><em>pluck</em> &middot; <em>plucked</em> &middot; <em>plucked</em></dd><dt>Third person</dt><dd><em>plucks</em> &middot; <strong>-ing form:</strong> <em>plucking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To pull a string with your fingers to make a note.</p>
+<ol><li>Harpists <em>pluck</em> with both hands.</li><li>She <em>plucked</em> the low string once and stopped.</li><li>The violins are <em>plucked</em> in this passage.</li></ol>
+<hr>
+<h3 id="drum">drum<a class="hash" href="#drum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drʌm/ &middot; <em>DRUM</em></dd><dt>Русский</dt><dd>барабанить, играть на ударных</dd><dt>Forms</dt><dd><em>drum</em> &middot; <em>drummed</em> &middot; <em>drummed</em></dd><dt>Third person</dt><dd><em>drums</em> &middot; <strong>-ing form:</strong> <em>drumming</em></dd><dt>Transitivity</dt><dd>both — transitive (drum a rhythm), intransitive (drum for a band)</dd><dt>Contrast</dt><dd>The m doubles: <em>drummed</em>, <em>drumming</em>.</dd></dl>
+<p>To beat a drum, or to tap out a rhythm.</p>
+<ol><li>He <em>drums</em> for two different bands.</li><li>She <em>drummed</em> on the table with a pencil.</li><li>Rain was <em>drumming</em> on the roof of the tent.</li></ol>
+<hr>
+<h3 id="tune">tune<a class="hash" href="#tune" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tuːn/ &middot; <em>TOON</em></dd><dt>Русский</dt><dd>настраивать (инструмент)</dd><dt>Forms</dt><dd><em>tune</em> &middot; <em>tuned</em> &middot; <em>tuned</em></dd><dt>Third person</dt><dd><em>tunes</em> &middot; <strong>-ing form:</strong> <em>tuning</em></dd><dt>Transitivity</dt><dd>both — transitive (tune a guitar), intransitive (the orchestra is tuning)</dd><dt>Contrast</dt><dd>American /tuːn/, TOON; British says /tjuːn/, TYOON.</dd></dl>
+<p>To adjust an instrument so that it plays at the right pitch.</p>
+<ol><li>Guitarists <em>tune</em> between almost every song.</li><li>He <em>tuned</em> the piano the morning of the recital.</li><li>The whole orchestra is <em>tuning</em> now.</li></ol>
+<hr>
+<h3 id="transpose">transpose<a class="hash" href="#transpose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænsˈpoʊz/ &middot; <em>trans-POHZ</em></dd><dt>Русский</dt><dd>транспонировать, перекладывать в другую тональность</dd><dt>Forms</dt><dd><em>transpose</em> &middot; <em>transposed</em> &middot; <em>transposed</em></dd><dt>Third person</dt><dd><em>transposes</em> &middot; <strong>-ing form:</strong> <em>transposing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To move a piece of music into a different key.</p>
+<ol><li>Singers often ask you to <em>transpose</em> a song down.</li><li>She <em>transposed</em> the aria for a lower voice.</li><li>The whole number has been <em>transposed</em> into G.</li></ol>
+<hr>
+<h3 id="remix">remix<a class="hash" href="#remix" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈmɪks/ &middot; <em>ree-MIKS</em></dd><dt>Русский</dt><dd>делать ремикс, микшировать заново</dd><dt>Forms</dt><dd><em>remix</em> &middot; <em>remixed</em> &middot; <em>remixed</em></dd><dt>Third person</dt><dd><em>remixes</em> &middot; <strong>-ing form:</strong> <em>remixing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Ends in <em>-x</em>, so the third person adds <em>-es</em>: <em>remixes</em>.</dd></dl>
+<p>To make a new version of a recording by rearranging its parts.</p>
+<ol><li>Producers <em>remix</em> almost every hit now.</li><li>He <em>remixed</em> the single for the clubs.</li><li>The track has been <em>remixed</em> four times.</li></ol>
+<hr>
+<h3 id="master">master<a class="hash" href="#master" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæstər/ &middot; <em>MASS-tur</em></dd><dt>Русский</dt><dd>овладевать в совершенстве; сводить мастер-запись</dd><dt>Forms</dt><dd><em>master</em> &middot; <em>mastered</em> &middot; <em>mastered</em></dd><dt>Third person</dt><dd><em>masters</em> &middot; <strong>-ing form:</strong> <em>mastering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To learn something completely, or to prepare the final version of a recording.</p>
+<ol><li>It takes years to <em>master</em> the violin.</li><li>She <em>mastered</em> the piece in under a month.</li><li>The album was <em>mastered</em> in Nashville.</li></ol>
+<hr>
+<h3 id="rap">rap<a class="hash" href="#rap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræp/ &middot; <em>RAP</em></dd><dt>Русский</dt><dd>читать рэп</dd><dt>Forms</dt><dd><em>rap</em> &middot; <em>rapped</em> &middot; <em>rapped</em></dd><dt>Third person</dt><dd><em>raps</em> &middot; <strong>-ing form:</strong> <em>rapping</em></dd><dt>Transitivity</dt><dd>both — transitive (rap a verse), intransitive (rap over a beat)</dd><dt>Contrast</dt><dd>The p doubles: <em>rapped</em>, <em>rapping</em>. Sounds exactly like <em>wrapped</em>.</dd></dl>
+<p>To speak rhyming words in rhythm over a beat.</p>
+<ol><li>He <em>raps</em> in two languages.</li><li>She <em>rapped</em> the last verse alone.</li><li>They have been <em>rapping</em> together since high school.</li></ol>
+<hr>
+<h3 id="croon">croon<a class="hash" href="#croon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kruːn/ &middot; <em>KROON</em></dd><dt>Русский</dt><dd>напевать, мурлыкать (песню)</dd><dt>Forms</dt><dd><em>croon</em> &middot; <em>crooned</em> &middot; <em>crooned</em></dd><dt>Third person</dt><dd><em>croons</em> &middot; <strong>-ing form:</strong> <em>crooning</em></dd><dt>Transitivity</dt><dd>both — transitive (croon a ballad), intransitive (croon into the microphone)</dd></dl>
+<p>To sing softly and sweetly, usually a love song.</p>
+<ol><li>He <em>croons</em> old standards on Sunday nights.</li><li>She <em>crooned</em> the baby back to sleep.</li><li>A voice was <em>crooning</em> from the radio in the kitchen.</li></ol>
+<hr>
+<h3 id="serenade">serenade<a class="hash" href="#serenade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛrəˈneɪd/ &middot; <em>ser-uh-NAYD</em></dd><dt>Русский</dt><dd>петь серенаду, исполнять для кого-л.</dd><dt>Forms</dt><dd><em>serenade</em> &middot; <em>serenaded</em> &middot; <em>serenaded</em></dd><dt>Third person</dt><dd><em>serenades</em> &middot; <strong>-ing form:</strong> <em>serenading</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To sing or play music for someone, especially outdoors.</p>
+<ol><li>Strolling musicians <em>serenade</em> the diners.</li><li>He <em>serenaded</em> her from the sidewalk below.</li><li>We were <em>serenaded</em> through the entire meal.</li></ol>
+<hr>
+<h3 id="blare">blare<a class="hash" href="#blare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɛr/ &middot; <em>BLAIR</em></dd><dt>Русский</dt><dd>греметь, реветь (о музыке)</dd><dt>Forms</dt><dd><em>blare</em> &middot; <em>blared</em> &middot; <em>blared</em></dd><dt>Third person</dt><dd><em>blares</em> &middot; <strong>-ing form:</strong> <em>blaring</em></dd><dt>Transitivity</dt><dd>both — transitive (blare music all night), intransitive (a trumpet blared)</dd></dl>
+<p>To make a loud, harsh sound.</p>
+<ol><li>The speakers <em>blare</em> until midnight.</li><li>A trumpet <em>blared</em> from the balcony.</li><li>Music was <em>blaring</em> in the next apartment.</li></ol>
+<hr>
+<h3 id="sync">sync<a class="hash" href="#sync" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪŋk/ &middot; <em>SINK</em></dd><dt>Русский</dt><dd>синхронизировать, совпадать по времени</dd><dt>Forms</dt><dd><em>sync</em> &middot; <em>synced</em> &middot; <em>synced</em></dd><dt>Third person</dt><dd><em>syncs</em> &middot; <strong>-ing form:</strong> <em>syncing</em></dd><dt>Transitivity</dt><dd>both — transitive (sync the audio to the video), intransitive (the dancers sync perfectly)</dd><dt>Contrast</dt><dd>Sounds exactly like <em>sink</em>. The longer spelling <em>synch</em> exists, but <em>sync</em> is the usual American form.</dd></dl>
+<p>To make sound and picture, or two performers, match exactly in time.</p>
+<ol><li>The dancers <em>sync</em> perfectly with the beat.</li><li>He <em>synced</em> the audio to the video overnight.</li><li>Her lips are not <em>synced</em> with the track.</li></ol>
+<hr>
+<h3 id="solo">solo<a class="hash" href="#solo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊloʊ/ &middot; <em>SOH-loh</em></dd><dt>Русский</dt><dd>исполнять соло, играть соло</dd><dt>Forms</dt><dd><em>solo</em> &middot; <em>soloed</em> &middot; <em>soloed</em></dd><dt>Third person</dt><dd><em>solos</em> &middot; <strong>-ing form:</strong> <em>soloing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The final o stays and <em>-ed</em> is added: <em>soloed</em>, not <em>solod</em>.</dd></dl>
+<p>To play or sing alone while the rest of the group stays quiet or accompanies.</p>
+<ol><li>The saxophone <em>solos</em> after the second chorus.</li><li>She <em>soloed</em> for a full three minutes.</li><li>He was <em>soloing</em> with his eyes closed.</li></ol>
+<hr>
+<h3 id="vary">vary<a class="hash" href="#vary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɛri/ &middot; <em>VER-ee</em></dd><dt>Русский</dt><dd>варьировать, менять; различаться</dd><dt>Forms</dt><dd><em>vary</em> &middot; <em>varied</em> &middot; <em>varied</em></dd><dt>Third person</dt><dd><em>varies</em> &middot; <strong>-ing form:</strong> <em>varying</em></dd><dt>Transitivity</dt><dd>both — transitive (vary the tempo), intransitive (prices vary)</dd><dt>Contrast</dt><dd>Consonant + y, so it becomes <em>varies</em> and <em>varied</em>, but the y stays in <em>varying</em>.</dd></dl>
+<p>To change something a little from one time to the next, or to be different from one case to another.</p>
+<ol><li>Try to <em>vary</em> the tempo in the second verse.</li><li>She <em>varied</em> the pattern in every panel.</li><li>Ticket prices have <em>varied</em> wildly this season.</li></ol>
+<hr>
+<h3 id="waltz">waltz<a class="hash" href="#waltz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɔːlts/ &middot; <em>WAWLTS</em></dd><dt>Русский</dt><dd>танцевать вальс, вальсировать</dd><dt>Forms</dt><dd><em>waltz</em> &middot; <em>waltzed</em> &middot; <em>waltzed</em></dd><dt>Third person</dt><dd><em>waltzes</em> &middot; <strong>-ing form:</strong> <em>waltzing</em></dd><dt>Transitivity</dt><dd>both — transitive (waltz her around the room), intransitive (waltz until midnight)</dd><dt>Contrast</dt><dd>Ends in <em>-tz</em>, so the third person adds <em>-es</em>: <em>waltzes</em>.</dd></dl>
+<p>To dance a waltz, a smooth dance in three-beat time.</p>
+<ol><li>The couples <em>waltz</em> slowly around the floor.</li><li>They <em>waltzed</em> until the band packed up.</li><li>She is <em>waltzing</em> with her grandfather.</li></ol>
+<hr>
+<h3 id="twirl">twirl<a class="hash" href="#twirl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/twɜːrl/ &middot; <em>TWURL</em></dd><dt>Русский</dt><dd>кружиться, вертеть</dd><dt>Forms</dt><dd><em>twirl</em> &middot; <em>twirled</em> &middot; <em>twirled</em></dd><dt>Third person</dt><dd><em>twirls</em> &middot; <strong>-ing form:</strong> <em>twirling</em></dd><dt>Transitivity</dt><dd>both — transitive (twirl a baton), intransitive (twirl across the stage)</dd></dl>
+<p>To spin around quickly, or to spin something with your fingers.</p>
+<ol><li>Little girls <em>twirl</em> whenever they get a new dress.</li><li>She <em>twirled</em> under his arm and back again.</li><li>He was <em>twirling</em> a drumstick between his fingers.</li></ol>
+<hr>
+<h3 id="sway">sway<a class="hash" href="#sway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sweɪ/ &middot; <em>SWAY</em></dd><dt>Русский</dt><dd>качаться, покачиваться</dd><dt>Forms</dt><dd><em>sway</em> &middot; <em>swayed</em> &middot; <em>swayed</em></dd><dt>Third person</dt><dd><em>sways</em> &middot; <strong>-ing form:</strong> <em>swaying</em></dd><dt>Transitivity</dt><dd>both — transitive (the wind swayed the branches), intransitive (sway to the music)</dd></dl>
+<p>To move slowly from side to side.</p>
+<ol><li>The whole crowd <em>sways</em> during that song.</li><li>She <em>swayed</em> in time with the music.</li><li>They were <em>swaying</em> with their arms around each other.</li></ol>
+<hr>
+<h3 id="stomp">stomp<a class="hash" href="#stomp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɑːmp/ &middot; <em>STAHMP</em></dd><dt>Русский</dt><dd>топать, притопывать</dd><dt>Forms</dt><dd><em>stomp</em> &middot; <em>stomped</em> &middot; <em>stomped</em></dd><dt>Third person</dt><dd><em>stomps</em> &middot; <strong>-ing form:</strong> <em>stomping</em></dd><dt>Transitivity</dt><dd>both — transitive (stomp the floor), intransitive (stomp in time)</dd></dl>
+<p>To put your feet down hard and loudly.</p>
+<ol><li>The dancers <em>stomp</em> on every downbeat.</li><li>He <em>stomped</em> off the stage in the middle of a song.</li><li>They were <em>stomping</em> so hard the floor shook.</li></ol>
+<hr>
+<h3 id="strut">strut<a class="hash" href="#strut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/strʌt/ &middot; <em>STRUT</em></dd><dt>Русский</dt><dd>гордо расхаживать, вышагивать</dd><dt>Forms</dt><dd><em>strut</em> &middot; <em>strutted</em> &middot; <em>strutted</em></dd><dt>Third person</dt><dd><em>struts</em> &middot; <strong>-ing form:</strong> <em>strutting</em></dd><dt>Transitivity</dt><dd>both — transitive (strut the runway), intransitive (strut across the stage)</dd><dt>Contrast</dt><dd>The t doubles: <em>strutted</em>, <em>strutting</em>.</dd></dl>
+<p>To walk proudly, with your chest out, so that people look at you.</p>
+<ol><li>Models <em>strut</em> the length of the runway.</li><li>He <em>strutted</em> across the stage in a gold jacket.</li><li>She was <em>strutting</em> like she owned the place.</li></ol>
+<hr>
+<h3 id="whirl">whirl<a class="hash" href="#whirl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɜːrl/ &middot; <em>WURL</em></dd><dt>Русский</dt><dd>кружиться, вертеться</dd><dt>Forms</dt><dd><em>whirl</em> &middot; <em>whirled</em> &middot; <em>whirled</em></dd><dt>Third person</dt><dd><em>whirls</em> &middot; <strong>-ing form:</strong> <em>whirling</em></dd><dt>Transitivity</dt><dd>both — transitive (whirl a partner around), intransitive (whirl in circles)</dd></dl>
+<p>To turn around very fast.</p>
+<ol><li>The dancers <em>whirl</em> until the music stops.</li><li>She <em>whirled</em> around to face the audience.</li><li>Skirts were <em>whirling</em> all over the floor.</li></ol>
+<hr>
+<h3 id="groove">groove<a class="hash" href="#groove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡruːv/ &middot; <em>GROOV</em></dd><dt>Русский</dt><dd>двигаться в ритм, ловить кайф от музыки</dd><dt>Forms</dt><dd><em>groove</em> &middot; <em>grooved</em> &middot; <em>grooved</em></dd><dt>Third person</dt><dd><em>grooves</em> &middot; <strong>-ing form:</strong> <em>grooving</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>groove to</em> the music.</dd></dl>
+<p>To move easily and happily with the rhythm of music.</p>
+<ol><li>The whole room <em>grooves</em> when he plays.</li><li>We <em>grooved</em> to old soul records all night.</li><li>The bass player was <em>grooving</em> with his eyes shut.</li></ol>
+<hr>
+<h3 id="choreograph">choreograph<a class="hash" href="#choreograph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːriəɡræf/ &middot; <em>KOR-ee-uh-graf</em></dd><dt>Русский</dt><dd>ставить хореографию, сочинять танец</dd><dt>Forms</dt><dd><em>choreograph</em> &middot; <em>choreographed</em> &middot; <em>choreographed</em></dd><dt>Third person</dt><dd><em>choreographs</em> &middot; <strong>-ing form:</strong> <em>choreographing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>ch</em> is /k/ and the <em>ph</em> is /f/: KOR-ee-uh-graf.</dd></dl>
+<p>To design the steps and movements of a dance.</p>
+<ol><li>She <em>choreographs</em> for two companies at once.</li><li>He <em>choreographed</em> the fight scenes as a dance.</li><li>The number was <em>choreographed</em> in a single afternoon.</li></ol>
+<hr>
+<h3 id="parade">parade<a class="hash" href="#parade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈreɪd/ &middot; <em>puh-RAYD</em></dd><dt>Русский</dt><dd>шествовать, маршировать; выставлять напоказ</dd><dt>Forms</dt><dd><em>parade</em> &middot; <em>paraded</em> &middot; <em>paraded</em></dd><dt>Third person</dt><dd><em>parades</em> &middot; <strong>-ing form:</strong> <em>parading</em></dd><dt>Transitivity</dt><dd>both — transitive (parade the costumes), intransitive (parade down Main Street)</dd></dl>
+<p>To walk in a public procession, or to show something off in public.</p>
+<ol><li>The bands <em>parade</em> down Main Street every June.</li><li>The winners <em>paraded</em> through the town.</li><li>The costumes were <em>paraded</em> in front of the judges.</li></ol>
+<hr>
+<h3 id="shade">shade<a class="hash" href="#shade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃeɪd/ &middot; <em>SHAYD</em></dd><dt>Русский</dt><dd>штриховать, растушёвывать</dd><dt>Forms</dt><dd><em>shade</em> &middot; <em>shaded</em> &middot; <em>shaded</em></dd><dt>Third person</dt><dd><em>shades</em> &middot; <strong>-ing form:</strong> <em>shading</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To darken part of a drawing so that it looks solid or rounded.</p>
+<ol><li><em>Shade</em> the left side of the apple so it looks round.</li><li>She <em>shaded</em> the background with a soft pencil.</li><li>The face still looks flat because you haven't <em>shaded</em> it.</li></ol>
+<hr>
+<h3 id="tint">tint<a class="hash" href="#tint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪnt/ &middot; <em>TINT</em></dd><dt>Русский</dt><dd>подкрашивать, слегка окрашивать</dd><dt>Forms</dt><dd><em>tint</em> &middot; <em>tinted</em> &middot; <em>tinted</em></dd><dt>Third person</dt><dd><em>tints</em> &middot; <strong>-ing form:</strong> <em>tinting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give something a light shade of color.</p>
+<ol><li>One drop of red will <em>tint</em> a whole jar of white paint.</li><li>The photographer <em>tinted</em> the old print a warm brown.</li><li>The windows have been <em>tinted</em> to cut the glare.</li></ol>
+<hr>
+<h3 id="render">render<a class="hash" href="#render" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛndər/ &middot; <em>REN-dur</em></dd><dt>Русский</dt><dd>изображать, передавать; исполнять</dd><dt>Forms</dt><dd><em>render</em> &middot; <em>rendered</em> &middot; <em>rendered</em></dd><dt>Third person</dt><dd><em>renders</em> &middot; <strong>-ing form:</strong> <em>rendering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To draw, paint, or perform something in a particular way.</p>
+<ol><li>Few painters <em>render</em> light the way he does.</li><li>The architect <em>rendered</em> the facade in soft gray.</li><li>The aria was beautifully <em>rendered</em>.</li></ol>
+<hr>
+<h3 id="etch">etch<a class="hash" href="#etch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛtʃ/ &middot; <em>ECH</em></dd><dt>Русский</dt><dd>гравировать, травить (по металлу)</dd><dt>Forms</dt><dd><em>etch</em> &middot; <em>etched</em> &middot; <em>etched</em></dd><dt>Third person</dt><dd><em>etches</em> &middot; <strong>-ing form:</strong> <em>etching</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Ends in <em>-ch</em>, so the third person adds <em>-es</em>: <em>etches</em>.</dd></dl>
+<p>To cut a design into metal or glass with acid or a sharp tool.</p>
+<ol><li>They <em>etch</em> the design onto a copper plate.</li><li>He <em>etched</em> his initials into the glass.</li><li>The scene is <em>etched</em> in fine, dark lines.</li></ol>
+<hr>
+<h3 id="stencil">stencil<a class="hash" href="#stencil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛnsəl/ &middot; <em>STEN-suhl</em></dd><dt>Русский</dt><dd>наносить по трафарету</dd><dt>Forms</dt><dd><em>stencil</em> &middot; <em>stenciled</em> &middot; <em>stenciled</em></dd><dt>Third person</dt><dd><em>stencils</em> &middot; <strong>-ing form:</strong> <em>stenciling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>stenciled, stenciling</em> with one l; British <em>stencilled, stencilling</em>.</dd></dl>
+<p>To paint a shape or letters through a cut-out sheet.</p>
+<ol><li>They <em>stencil</em> the numbers onto every seat.</li><li>She <em>stenciled</em> vines along the top of the wall.</li><li>The name was <em>stenciled</em> on the case in white.</li></ol>
+<hr>
+<h3 id="crop">crop<a class="hash" href="#crop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krɑːp/ &middot; <em>KRAHP</em></dd><dt>Русский</dt><dd>кадрировать, обрезать (фото)</dd><dt>Forms</dt><dd><em>crop</em> &middot; <em>cropped</em> &middot; <em>cropped</em></dd><dt>Third person</dt><dd><em>crops</em> &middot; <strong>-ing form:</strong> <em>cropping</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>One vowel plus one consonant, so the p doubles: <em>cropped</em>, <em>cropping</em>.</dd></dl>
+<p>To cut off the edges of a picture or photograph.</p>
+<ol><li><em>Crop</em> the photo so the lamp isn't in the corner.</li><li>He <em>cropped</em> the image down to a square.</li><li>The poster has been badly <em>cropped</em>.</li></ol>
+<hr>
+<h3 id="retouch">retouch<a class="hash" href="#retouch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈtʌtʃ/ &middot; <em>ree-TUCH</em></dd><dt>Русский</dt><dd>ретушировать, подправлять</dd><dt>Forms</dt><dd><em>retouch</em> &middot; <em>retouched</em> &middot; <em>retouched</em></dd><dt>Third person</dt><dd><em>retouches</em> &middot; <strong>-ing form:</strong> <em>retouching</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make small changes to a photograph or painting to improve it.</p>
+<ol><li>Magazines <em>retouch</em> almost every cover.</li><li>The lab <em>retouched</em> the scratches out of the negative.</li><li>That portrait has clearly been <em>retouched</em>.</li></ol>
+<hr>
+<h3 id="photograph">photograph<a class="hash" href="#photograph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊtəɡræf/ &middot; <em>FOH-tuh-graf</em></dd><dt>Русский</dt><dd>фотографировать, сфотографировать</dd><dt>Forms</dt><dd><em>photograph</em> &middot; <em>photographed</em> &middot; <em>photographed</em></dd><dt>Third person</dt><dd><em>photographs</em> &middot; <strong>-ing form:</strong> <em>photographing</em></dd><dt>Transitivity</dt><dd>both — transitive (photograph a wedding), intransitive (she photographs well)</dd><dt>Contrast</dt><dd>The verb keeps the stress on the first syllable, FOH-tuh-graf; <em>photography</em> moves it: fuh-TAH-gruh-fee.</dd></dl>
+<p>To take a picture of someone or something with a camera.</p>
+<ol><li>He <em>photographs</em> birds at dawn.</li><li>They <em>photographed</em> the whole ceremony.</li><li>The painting has never been properly <em>photographed</em>.</li></ol>
+<hr>
+<h3 id="zoom">zoom<a class="hash" href="#zoom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/zuːm/ &middot; <em>ZOOM</em></dd><dt>Русский</dt><dd>наезжать камерой, менять масштаб</dd><dt>Forms</dt><dd><em>zoom</em> &middot; <em>zoomed</em> &middot; <em>zoomed</em></dd><dt>Third person</dt><dd><em>zooms</em> &middot; <strong>-ing form:</strong> <em>zooming</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Almost always with <em>in</em> or <em>out</em>: <em>zoom in on a face</em>, <em>zoom out</em>.</dd></dl>
+<p>To make a camera picture larger or smaller without moving the camera.</p>
+<ol><li>Don't <em>zoom</em> in the middle of a shot.</li><li>The camera <em>zoomed</em> slowly onto her face.</li><li>He was <em>zooming</em> out to show the whole hall.</li></ol>
+<hr>
+<h3 id="exhibit">exhibit<a class="hash" href="#exhibit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɪbɪt/ &middot; <em>ig-ZIB-it</em></dd><dt>Русский</dt><dd>выставлять, экспонировать</dd><dt>Forms</dt><dd><em>exhibit</em> &middot; <em>exhibited</em> &middot; <em>exhibited</em></dd><dt>Third person</dt><dd><em>exhibits</em> &middot; <strong>-ing form:</strong> <em>exhibiting</em></dd><dt>Transitivity</dt><dd>both — transitive (exhibit twenty canvases), intransitive (she exhibits in Paris)</dd><dt>Contrast</dt><dd>The h is silent and the x sounds like /ɡz/: ig-ZIB-it.</dd></dl>
+<p>To show work publicly in a gallery or museum.</p>
+<ol><li>Three local painters <em>exhibit</em> here every spring.</li><li>She <em>exhibited</em> in Paris for the first time last year.</li><li>His drawings are being <em>exhibited</em> downtown.</li></ol>
+<hr>
+<h3 id="curate">curate<a class="hash" href="#curate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkjʊreɪt/ &middot; <em>KYUR-ayt</em></dd><dt>Русский</dt><dd>курировать (выставку), составлять подборку</dd><dt>Forms</dt><dd><em>curate</em> &middot; <em>curated</em> &middot; <em>curated</em></dd><dt>Third person</dt><dd><em>curates</em> &middot; <strong>-ing form:</strong> <em>curating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To choose and organize the works in a show or a collection.</p>
+<ol><li>She <em>curates</em> the museum's photography wing.</li><li>A student <em>curated</em> the entire exhibit.</li><li>The playlist was <em>curated</em> by the band itself.</li></ol>
+<hr>
+<h3 id="unveil">unveil<a class="hash" href="#unveil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈveɪl/ &middot; <em>un-VAYL</em></dd><dt>Русский</dt><dd>торжественно открывать, представлять публике</dd><dt>Forms</dt><dd><em>unveil</em> &middot; <em>unveiled</em> &middot; <em>unveiled</em></dd><dt>Third person</dt><dd><em>unveils</em> &middot; <strong>-ing form:</strong> <em>unveiling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To show a new work publicly for the first time.</p>
+<ol><li>They <em>unveil</em> the statue on Saturday.</li><li>The gallery <em>unveiled</em> three new pieces last night.</li><li>The mural was <em>unveiled</em> to loud applause.</li></ol>
+<hr>
+<h3 id="animate">animate<a class="hash" href="#animate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænəmeɪt/ &middot; <em>AN-uh-mayt</em></dd><dt>Русский</dt><dd>анимировать, оживлять (рисунки)</dd><dt>Forms</dt><dd><em>animate</em> &middot; <em>animated</em> &middot; <em>animated</em></dd><dt>Third person</dt><dd><em>animates</em> &middot; <strong>-ing form:</strong> <em>animating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make drawings or models appear to move in a film.</p>
+<ol><li>They <em>animate</em> every frame by hand.</li><li>A small studio <em>animated</em> the opening credits.</li><li>The characters were <em>animated</em> in clay.</li></ol>
+<hr>
+<h3 id="symbolize">symbolize<a class="hash" href="#symbolize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmbəlaɪz/ &middot; <em>SIM-buh-lyz</em></dd><dt>Русский</dt><dd>символизировать, олицетворять</dd><dt>Forms</dt><dd><em>symbolize</em> &middot; <em>symbolized</em> &middot; <em>symbolized</em></dd><dt>Third person</dt><dd><em>symbolizes</em> &middot; <strong>-ing form:</strong> <em>symbolizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>symbolize</em>; British usually <em>symbolise</em>.</dd></dl>
+<p>To stand for an idea in a work of art.</p>
+<ol><li>The broken chain <em>symbolizes</em> freedom.</li><li>For the poet, winter <em>symbolized</em> old age.</li><li>Doves have long <em>symbolized</em> peace.</li></ol>
+<hr>
+<h3 id="showcase">showcase<a class="hash" href="#showcase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃoʊkeɪs/ &middot; <em>SHOH-kayss</em></dd><dt>Русский</dt><dd>демонстрировать, показывать в выгодном свете</dd><dt>Forms</dt><dd><em>showcase</em> &middot; <em>showcased</em> &middot; <em>showcased</em></dd><dt>Third person</dt><dd><em>showcases</em> &middot; <strong>-ing form:</strong> <em>showcasing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To present something in a way that shows its best qualities.</p>
+<ol><li>The festival <em>showcases</em> young composers.</li><li>The recital <em>showcased</em> her whole range.</li><li>Three student films are being <em>showcased</em> tonight.</li></ol>
+<hr>
+<h3 id="project">project<a class="hash" href="#project" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈdʒɛkt/ &middot; <em>pruh-JEKT</em></dd><dt>Русский</dt><dd>проецировать; подавать голос</dd><dt>Forms</dt><dd><em>project</em> &middot; <em>projected</em> &middot; <em>projected</em></dd><dt>Third person</dt><dd><em>projects</em> &middot; <strong>-ing form:</strong> <em>projecting</em></dd><dt>Transitivity</dt><dd>both — transitive (project a film onto the wall), intransitive (learn to project)</dd><dt>Contrast</dt><dd>The verb is stressed on the second syllable, pruh-JEKT; the noun <em>project</em> is PRAH-jekt.</dd></dl>
+<p>To throw an image onto a screen, or to make your voice carry to the back of a hall.</p>
+<ol><li>Singers learn to <em>project</em> without shouting.</li><li>They <em>projected</em> old home movies onto the back wall.</li><li>Her voice has always <em>projected</em> well.</li></ol>
+<hr>
+<h3 id="script">script<a class="hash" href="#script" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skrɪpt/ &middot; <em>SKRIPT</em></dd><dt>Русский</dt><dd>писать сценарий, прописывать</dd><dt>Forms</dt><dd><em>script</em> &middot; <em>scripted</em> &middot; <em>scripted</em></dd><dt>Third person</dt><dd><em>scripts</em> &middot; <strong>-ing form:</strong> <em>scripting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To write the words for a film, play, or show.</p>
+<ol><li>Two writers <em>script</em> every episode.</li><li>He <em>scripted</em> the documentary in a single week.</li><li>The whole argument was <em>scripted</em>.</li></ol>
+<hr>
+<h3 id="film">film<a class="hash" href="#film" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪlm/ &middot; <em>FILM</em></dd><dt>Русский</dt><dd>снимать (кино), экранизировать</dd><dt>Forms</dt><dd><em>film</em> &middot; <em>filmed</em> &middot; <em>filmed</em></dd><dt>Third person</dt><dd><em>films</em> &middot; <strong>-ing form:</strong> <em>filming</em></dd><dt>Transitivity</dt><dd>both — transitive (film a scene), intransitive (they film all summer)</dd></dl>
+<p>To record something with a movie camera.</p>
+<ol><li>They <em>film</em> the rehearsals for the archive.</li><li>She <em>filmed</em> the whole ceremony on her phone.</li><li>The scene was <em>filmed</em> at four in the morning.</li></ol>
+<hr>
+<h3 id="voice">voice<a class="hash" href="#voice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɔɪs/ &middot; <em>VOYSS</em></dd><dt>Русский</dt><dd>озвучивать (персонажа); высказывать</dd><dt>Forms</dt><dd><em>voice</em> &middot; <em>voiced</em> &middot; <em>voiced</em></dd><dt>Third person</dt><dd><em>voices</em> &middot; <strong>-ing form:</strong> <em>voicing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To speak the lines of a character in an animated film, or to say an opinion aloud.</p>
+<ol><li>She <em>voices</em> three characters in the same cartoon.</li><li>He <em>voiced</em> the villain in both sequels.</li><li>The dragon is <em>voiced</em> by a famous actor.</li></ol>
+<hr>
+<h3 id="televise">televise<a class="hash" href="#televise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛləvaɪz/ &middot; <em>TEL-uh-vyz</em></dd><dt>Русский</dt><dd>транслировать по телевидению</dd><dt>Forms</dt><dd><em>televise</em> &middot; <em>televised</em> &middot; <em>televised</em></dd><dt>Third person</dt><dd><em>televises</em> &middot; <strong>-ing form:</strong> <em>televising</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To broadcast something on television.</p>
+<ol><li>They <em>televise</em> the awards live every year.</li><li>The network <em>televised</em> the final concert.</li><li>Opening night was <em>televised</em> around the world.</li></ol>
+<hr>
+<h3 id="stream">stream<a class="hash" href="#stream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/striːm/ &middot; <em>STREEM</em></dd><dt>Русский</dt><dd>транслировать онлайн, смотреть в потоке</dd><dt>Forms</dt><dd><em>stream</em> &middot; <em>streamed</em> &middot; <em>streamed</em></dd><dt>Third person</dt><dd><em>streams</em> &middot; <strong>-ing form:</strong> <em>streaming</em></dd><dt>Transitivity</dt><dd>both — transitive (stream a concert), intransitive (the song is streaming everywhere)</dd></dl>
+<p>To send or watch video or music over the internet as it plays.</p>
+<ol><li>Thousands <em>stream</em> the show every night.</li><li>The band <em>streamed</em> the whole concert for free.</li><li>Her new single is <em>streaming</em> everywhere.</li></ol>
+<hr>
+<h3 id="publicize">publicize<a class="hash" href="#publicize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌblɪsaɪz/ &middot; <em>PUB-luh-syz</em></dd><dt>Русский</dt><dd>рекламировать, предавать огласке</dd><dt>Forms</dt><dd><em>publicize</em> &middot; <em>publicized</em> &middot; <em>publicized</em></dd><dt>Third person</dt><dd><em>publicizes</em> &middot; <strong>-ing form:</strong> <em>publicizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>publicize</em>; British <em>publicise</em>.</dd></dl>
+<p>To make something widely known to the public.</p>
+<ol><li>They barely <em>publicize</em> the smaller concerts.</li><li>The theater <em>publicized</em> the opening for months.</li><li>The tour has been heavily <em>publicized</em>.</li></ol>
+<hr>
+<h3 id="honor">honor<a class="hash" href="#honor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːnər/ &middot; <em>AH-nur</em></dd><dt>Русский</dt><dd>чествовать, награждать</dd><dt>Forms</dt><dd><em>honor</em> &middot; <em>honored</em> &middot; <em>honored</em></dd><dt>Third person</dt><dd><em>honors</em> &middot; <strong>-ing form:</strong> <em>honoring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The h is silent: AH-nur. American <em>honor, honored</em>; British <em>honour, honoured</em>.</dd></dl>
+<p>To show great public respect for someone.</p>
+<ol><li>The festival <em>honors</em> a living composer each year.</li><li>They <em>honored</em> him with a lifetime award.</li><li>She was <em>honored</em> at a dinner in New York.</li></ol>
+<hr>
+<h3 id="mesmerize">mesmerize<a class="hash" href="#mesmerize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛzməraɪz/ &middot; <em>MEZ-muh-ryz</em></dd><dt>Русский</dt><dd>завораживать, гипнотизировать</dd><dt>Forms</dt><dd><em>mesmerize</em> &middot; <em>mesmerized</em> &middot; <em>mesmerized</em></dd><dt>Third person</dt><dd><em>mesmerizes</em> &middot; <strong>-ing form:</strong> <em>mesmerizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>mesmerize</em>; British usually <em>mesmerise</em>.</dd></dl>
+<p>To hold someone's attention so completely that they cannot look away.</p>
+<ol><li>Her voice <em>mesmerizes</em> a room in about four bars.</li><li>The dancer <em>mesmerized</em> the whole theater.</li><li>The children sat <em>mesmerized</em> through the puppet show.</li></ol>
+<hr>
+<h3 id="enchant">enchant<a class="hash" href="#enchant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtʃænt/ &middot; <em>in-CHANT</em></dd><dt>Русский</dt><dd>очаровывать, пленять</dd><dt>Forms</dt><dd><em>enchant</em> &middot; <em>enchanted</em> &middot; <em>enchanted</em></dd><dt>Third person</dt><dd><em>enchants</em> &middot; <strong>-ing form:</strong> <em>enchanting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To delight someone completely, as if by magic.</p>
+<ol><li>Simple melodies <em>enchant</em> small children.</li><li>The production <em>enchanted</em> even the hardest critics.</li><li>We were <em>enchanted</em> by the costumes.</li></ol>
+<hr>
+<h3 id="marvel">marvel<a class="hash" href="#marvel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːrvəl/ &middot; <em>MAR-vuhl</em></dd><dt>Русский</dt><dd>восхищаться, изумляться</dd><dt>Forms</dt><dd><em>marvel</em> &middot; <em>marveled</em> &middot; <em>marveled</em></dd><dt>Third person</dt><dd><em>marvels</em> &middot; <strong>-ing form:</strong> <em>marveling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>marvel at</em> something. American <em>marveled, marveling</em> with one l; British <em>marvelled, marvelling</em>.</dd></dl>
+<p>To feel great surprise and admiration at something.</p>
+<ol><li>Visitors still <em>marvel</em> at the ceiling.</li><li>She <em>marveled</em> at how quickly he learned the part.</li><li>They stood <em>marveling</em> at the size of the canvas.</li></ol>
+<hr>
+<h3 id="replay">replay<a class="hash" href="#replay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈpleɪ/ &middot; <em>ree-PLAY</em></dd><dt>Русский</dt><dd>проигрывать заново, воспроизводить</dd><dt>Forms</dt><dd><em>replay</em> &middot; <em>replayed</em> &middot; <em>replayed</em></dd><dt>Third person</dt><dd><em>replays</em> &middot; <strong>-ing form:</strong> <em>replaying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is stressed ree-PLAY; the noun <em>replay</em> is REE-play.</dd></dl>
+<p>To play a recording again.</p>
+<ol><li>They <em>replay</em> the best moments at the end of the show.</li><li>He <em>replayed</em> the take a dozen times.</li><li>The scene was <em>replayed</em> in slow motion.</li></ol>
+<hr>
+<h3 id="reproduce">reproduce<a class="hash" href="#reproduce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːprəˈduːs/ &middot; <em>ree-pruh-DOOSS</em></dd><dt>Русский</dt><dd>воспроизводить, копировать</dd><dt>Forms</dt><dd><em>reproduce</em> &middot; <em>reproduced</em> &middot; <em>reproduced</em></dd><dt>Third person</dt><dd><em>reproduces</em> &middot; <strong>-ing form:</strong> <em>reproducing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a copy of a picture, a sound, or a piece of work.</p>
+<ol><li>Cheap printing cannot <em>reproduce</em> those colors.</li><li>The museum <em>reproduced</em> the fresco at full size.</li><li>The drawing has been <em>reproduced</em> on posters and mugs.</li></ol>
+<hr>
+<h3 id="perfect">perfect<a class="hash" href="#perfect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈfɛkt/ &middot; <em>pur-FEKT</em></dd><dt>Русский</dt><dd>доводить до совершенства, отрабатывать</dd><dt>Forms</dt><dd><em>perfect</em> &middot; <em>perfected</em> &middot; <em>perfected</em></dd><dt>Third person</dt><dd><em>perfects</em> &middot; <strong>-ing form:</strong> <em>perfecting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is stressed pur-FEKT; the adjective <em>perfect</em> is PUR-fikt.</dd></dl>
+<p>To make something as good as it can possibly be.</p>
+<ol><li>Dancers spend years <em>perfecting</em> a single turn.</li><li>He <em>perfected</em> the trick before showing anyone.</li><li>She has <em>perfected</em> that accent.</li></ol>
+<hr>
+<h3 id="exaggerate">exaggerate<a class="hash" href="#exaggerate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzædʒəreɪt/ &middot; <em>ig-ZAJ-uh-rayt</em></dd><dt>Русский</dt><dd>преувеличивать, утрировать</dd><dt>Forms</dt><dd><em>exaggerate</em> &middot; <em>exaggerated</em> &middot; <em>exaggerated</em></dd><dt>Third person</dt><dd><em>exaggerates</em> &middot; <strong>-ing form:</strong> <em>exaggerating</em></dd><dt>Transitivity</dt><dd>both — transitive (exaggerate a gesture), intransitive (he always exaggerates)</dd><dt>Contrast</dt><dd>Double g, and the x sounds like /ɡz/: ig-ZAJ-uh-rayt.</dd></dl>
+<p>To make something seem bigger, better, or worse than it really is.</p>
+<ol><li>Stage actors <em>exaggerate</em> their gestures a little.</li><li>He <em>exaggerated</em> every movement for comic effect.</li><li>The features are deliberately <em>exaggerated</em> in the caricature.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

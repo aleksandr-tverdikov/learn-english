@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: damage and repair</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-damage-and-repair">Core verbs: damage and repair<a class="hash" href="#core-verbs-damage-and-repair" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of damage and repair — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="damage">damage<a class="hash" href="#damage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdæmɪdʒ/ &middot; <em>DAM-ij</em></dd><dt>Русский</dt><dd>повреждать, повредить; наносить ущерб</dd><dt>Forms</dt><dd><em>damage</em> &middot; <em>damaged</em> &middot; <em>damaged</em></dd><dt>Third person</dt><dd><em>damages</em> &middot; <strong>-ing form:</strong> <em>damaging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To harm something so that it works less well or looks worse.</p>
+<ol><li>Heavy rain <em>damaged</em> the roof over the porch.</li><li>Smoking <em>damages</em> your lungs a little at a time.</li><li>Two of the paintings were badly <em>damaged</em> in the fire.</li></ol>
+<hr>
+<h3 id="destroy">destroy<a class="hash" href="#destroy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈstrɔɪ/ &middot; <em>di-STROY</em></dd><dt>Русский</dt><dd>разрушать, разрушить; уничтожать, уничтожить</dd><dt>Forms</dt><dd><em>destroy</em> &middot; <em>destroyed</em> &middot; <em>destroyed</em></dd><dt>Third person</dt><dd><em>destroys</em> &middot; <strong>-ing form:</strong> <em>destroying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The y after a vowel never changes: <em>destroyed</em>, <em>destroying</em> — not "destroied".</dd></dl>
+<p>To damage something so completely that it no longer exists or cannot be repaired.</p>
+<ol><li>The fire <em>destroyed</em> three houses on our street.</li><li>One night of frost can <em>destroy</em> an entire crop.</li><li>The old bridge had been <em>destroyed</em> long before we got there.</li></ol>
+<hr>
+<h3 id="ruin">ruin<a class="hash" href="#ruin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːɪn/ &middot; <em>ROO-in</em></dd><dt>Русский</dt><dd>портить, испортить; губить, погубить</dd><dt>Forms</dt><dd><em>ruin</em> &middot; <em>ruined</em> &middot; <em>ruined</em></dd><dt>Third person</dt><dd><em>ruins</em> &middot; <strong>-ing form:</strong> <em>ruining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To spoil something completely so that it is no longer good or usable.</p>
+<ol><li>The rain <em>ruined</em> my new suede shoes.</li><li>One careless word can <em>ruin</em> a friendship.</li><li>He was <em>ruining</em> the soup with all that salt.</li></ol>
+<hr>
+<h3 id="wreck">wreck<a class="hash" href="#wreck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɛk/ &middot; <em>REK</em></dd><dt>Русский</dt><dd>разбивать, разбить; разрушать, разрушить</dd><dt>Forms</dt><dd><em>wreck</em> &middot; <em>wrecked</em> &middot; <em>wrecked</em></dd><dt>Third person</dt><dd><em>wrecks</em> &middot; <strong>-ing form:</strong> <em>wrecking</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The w is silent: <em>wreck</em> sounds like "reck", and the past <em>wrecked</em> is one syllable, ˈrɛkt.</dd></dl>
+<p>To destroy something, especially a vehicle or a plan, through force or carelessness.</p>
+<ol><li>He <em>wrecked</em> his father's car on the highway.</li><li>Don't let one bad review <em>wreck</em> your whole week.</li><li>The ship was <em>wrecked</em> off the coast of Maine.</li></ol>
+<hr>
+<h3 id="devastate">devastate<a class="hash" href="#devastate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛvəsteɪt/ &middot; <em>DEV-uh-stayt</em></dd><dt>Русский</dt><dd>опустошать, опустошить; разорять, разорить</dd><dt>Forms</dt><dd><em>devastate</em> &middot; <em>devastated</em> &middot; <em>devastated</em></dd><dt>Third person</dt><dd><em>devastates</em> &middot; <strong>-ing form:</strong> <em>devastating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To destroy a place completely, or to shock and upset someone deeply.</p>
+<ol><li>The hurricane <em>devastated</em> every town on the coast.</li><li>A late freeze can <em>devastate</em> the orange crop.</li><li>She was <em>devastated</em> by the news about her brother.</li></ol>
+<hr>
+<h3 id="shatter">shatter<a class="hash" href="#shatter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃætər/ &middot; <em>SHAT-ur</em></dd><dt>Русский</dt><dd>разбивать(ся) вдребезги, разбить(ся) вдребезги</dd><dt>Forms</dt><dd><em>shatter</em> &middot; <em>shattered</em> &middot; <em>shattered</em></dd><dt>Third person</dt><dd><em>shatters</em> &middot; <strong>-ing form:</strong> <em>shattering</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>shatter</em> a window), intransitive (the glass <em>shattered</em>)</dd></dl>
+<p>To break suddenly into many small pieces, or to break something that way.</p>
+<ol><li>The mirror <em>shattered</em> when it hit the tile.</li><li>A stone off a truck can <em>shatter</em> a windshield.</li><li>There was <em>shattered</em> glass all over the sidewalk.</li></ol>
+<hr>
+<h3 id="smash">smash<a class="hash" href="#smash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/smæʃ/ &middot; <em>SMASH</em></dd><dt>Русский</dt><dd>разбивать, разбить; громить, разгромить</dd><dt>Forms</dt><dd><em>smash</em> &middot; <em>smashed</em> &middot; <em>smashed</em></dd><dt>Third person</dt><dd><em>smashes</em> &middot; <strong>-ing form:</strong> <em>smashing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>smash</em> a plate), intransitive (the car <em>smashed</em> into a wall)</dd></dl>
+<p>To break something violently into pieces, or to hit something with great force.</p>
+<ol><li>He <em>smashed</em> the window with a brick.</li><li>Careful — you'll <em>smash</em> the eggs under those cans.</li><li>The truck had <em>smashed</em> straight through the guardrail.</li></ol>
+<hr>
+<h3 id="crack">crack<a class="hash" href="#crack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kræk/ &middot; <em>KRAK</em></dd><dt>Русский</dt><dd>трескаться, треснуть; раскалывать, расколоть</dd><dt>Forms</dt><dd><em>crack</em> &middot; <em>cracked</em> &middot; <em>cracked</em></dd><dt>Third person</dt><dd><em>cracks</em> &middot; <strong>-ing form:</strong> <em>cracking</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>crack</em> a nut), intransitive (the plate <em>cracked</em>)</dd></dl>
+<p>To break so that a line appears on the surface, without breaking into pieces.</p>
+<ol><li>The windshield <em>cracked</em> in the cold.</li><li>Set it down gently or you'll <em>crack</em> the tile.</li><li>She found a <em>cracked</em> pipe under the sink.</li></ol>
+<hr>
+<h3 id="chip">chip<a class="hash" href="#chip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɪp/ &middot; <em>CHIP</em></dd><dt>Русский</dt><dd>откалывать, отколоть; отбивать край</dd><dt>Forms</dt><dd><em>chip</em> &middot; <em>chipped</em> &middot; <em>chipped</em></dd><dt>Third person</dt><dd><em>chips</em> &middot; <strong>-ing form:</strong> <em>chipping</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>chip</em> a cup), intransitive (the paint <em>chipped</em>)</dd><dt>Contrast</dt><dd>One syllable ending in a single consonant, so the p doubles: <em>chipped</em>, <em>chipping</em>.</dd></dl>
+<p>To break a small piece off the edge or surface of something hard.</p>
+<ol><li>I <em>chipped</em> a tooth on a popcorn kernel.</li><li>The paint is <em>chipping</em> off the railing.</li><li>Every plate in the set is <em>chipped</em>.</li></ol>
+<hr>
+<h3 id="dent">dent<a class="hash" href="#dent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɛnt/ &middot; <em>DENT</em></dd><dt>Русский</dt><dd>мять, помять; делать вмятину</dd><dt>Forms</dt><dd><em>dent</em> &middot; <em>dented</em> &middot; <em>dented</em></dd><dt>Third person</dt><dd><em>dents</em> &middot; <strong>-ing form:</strong> <em>denting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To press or hit a surface so that it curves inward and leaves a hollow mark.</p>
+<ol><li>A shopping cart <em>dented</em> my car door.</li><li>Aluminum this thin <em>dents</em> if you look at it.</li><li>The hood was <em>dented</em> in three places.</li></ol>
+<hr>
+<h3 id="scrape">scrape<a class="hash" href="#scrape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skreɪp/ &middot; <em>SKRAYP</em></dd><dt>Русский</dt><dd>царапать, поцарапать; обдирать, ободрать</dd><dt>Forms</dt><dd><em>scrape</em> &middot; <em>scraped</em> &middot; <em>scraped</em></dd><dt>Third person</dt><dd><em>scrapes</em> &middot; <strong>-ing form:</strong> <em>scraping</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>Drop the silent e before -ing: <em>scraping</em>, not "scrapeing".</dd></dl>
+<p>To damage a surface by rubbing it against something rough or sharp.</p>
+<ol><li>He <em>scraped</em> the side of the van on a concrete post.</li><li>I fell off the bike and <em>scraped</em> my knee.</li><li>She spent an hour <em>scraping</em> old paint off the door.</li></ol>
+<hr>
+<h3 id="scuff">scuff<a class="hash" href="#scuff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skʌf/ &middot; <em>SKUF</em></dd><dt>Русский</dt><dd>царапать, поцарапать (обувь, пол); обдирать, ободрать</dd><dt>Forms</dt><dd><em>scuff</em> &middot; <em>scuffed</em> &middot; <em>scuffed</em></dd><dt>Third person</dt><dd><em>scuffs</em> &middot; <strong>-ing form:</strong> <em>scuffing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To mark or roughen a smooth surface, especially shoes or a floor, by rubbing.</p>
+<ol><li>New shoes <em>scuff</em> fast on concrete.</li><li>He <em>scuffed</em> the hardwood dragging the couch across it.</li><li>Her boots were badly <em>scuffed</em> at the toe.</li></ol>
+<hr>
+<h3 id="rip">rip<a class="hash" href="#rip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪp/ &middot; <em>RIP</em></dd><dt>Русский</dt><dd>рвать, порвать; разрывать, разорвать</dd><dt>Forms</dt><dd><em>rip</em> &middot; <em>ripped</em> &middot; <em>ripped</em></dd><dt>Third person</dt><dd><em>rips</em> &middot; <strong>-ing form:</strong> <em>ripping</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The p doubles: <em>ripped</em>, <em>ripping</em>.</dd></dl>
+<p>To tear something quickly and roughly.</p>
+<ol><li>I <em>ripped</em> my jeans on a nail.</li><li>Please don't <em>rip</em> the envelope — I need the address.</li><li>The flag had been <em>ripped</em> to shreds by the wind.</li></ol>
+<hr>
+<h3 id="snap">snap<a class="hash" href="#snap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snæp/ &middot; <em>SNAP</em></dd><dt>Русский</dt><dd>ломать(ся) с треском, сломать(ся)</dd><dt>Forms</dt><dd><em>snap</em> &middot; <em>snapped</em> &middot; <em>snapped</em></dd><dt>Third person</dt><dd><em>snaps</em> &middot; <strong>-ing form:</strong> <em>snapping</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>snap</em> a stick), intransitive (the cable <em>snapped</em>)</dd><dt>Contrast</dt><dd>The p doubles: <em>snapped</em>, <em>snapping</em>.</dd></dl>
+<p>To break suddenly with a sharp sound, usually into two pieces.</p>
+<ol><li>The rope <em>snapped</em> under the weight.</li><li>Dry branches <em>snap</em> the moment you bend them.</li><li>He had <em>snapped</em> the pencil in half without noticing.</li></ol>
+<hr>
+<h3 id="squash">squash<a class="hash" href="#squash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skwɑːʃ/ &middot; <em>SKWAHSH</em></dd><dt>Русский</dt><dd>расплющивать, расплющить; раздавить</dd><dt>Forms</dt><dd><em>squash</em> &middot; <em>squashed</em> &middot; <em>squashed</em></dd><dt>Third person</dt><dd><em>squashes</em> &middot; <strong>-ing form:</strong> <em>squashing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To press something flat so that it loses its shape.</p>
+<ol><li>Someone <em>squashed</em> the cake in my bag.</li><li>Don't <em>squash</em> the bread under the cans.</li><li>The berries were <em>squashed</em> at the bottom of the box.</li></ol>
+<hr>
+<h3 id="crumple">crumple<a class="hash" href="#crumple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrʌmpəl/ &middot; <em>KRUM-puhl</em></dd><dt>Русский</dt><dd>мять, смять; комкать, скомкать</dd><dt>Forms</dt><dd><em>crumple</em> &middot; <em>crumpled</em> &middot; <em>crumpled</em></dd><dt>Third person</dt><dd><em>crumples</em> &middot; <strong>-ing form:</strong> <em>crumpling</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To crush something into folds and wrinkles, or to fold up that way.</p>
+<ol><li>He <em>crumpled</em> the letter and threw it in the trash.</li><li>Thin aluminum <em>crumples</em> if you so much as lean on it.</li><li>She smoothed out the <em>crumpled</em> receipt.</li></ol>
+<hr>
+<h3 id="splinter">splinter<a class="hash" href="#splinter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsplɪntər/ &middot; <em>SPLIN-tur</em></dd><dt>Русский</dt><dd>расщеплять(ся), расщепить(ся); раскалывать(ся) на щепки</dd><dt>Forms</dt><dd><em>splinter</em> &middot; <em>splintered</em> &middot; <em>splintered</em></dd><dt>Third person</dt><dd><em>splinters</em> &middot; <strong>-ing form:</strong> <em>splintering</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To break into thin, sharp pieces of wood or bone.</p>
+<ol><li>The old door <em>splintered</em> when they forced it open.</li><li>Cheap plywood <em>splinters</em> as soon as you drill it.</li><li>He pulled a <em>splintered</em> board off the porch.</li></ol>
+<hr>
+<h3 id="crumble">crumble<a class="hash" href="#crumble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrʌmbəl/ &middot; <em>KRUM-buhl</em></dd><dt>Русский</dt><dd>крошиться, раскрошиться; осыпаться, осыпаться</dd><dt>Forms</dt><dd><em>crumble</em> &middot; <em>crumbled</em> &middot; <em>crumbled</em></dd><dt>Third person</dt><dd><em>crumbles</em> &middot; <strong>-ing form:</strong> <em>crumbling</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To break slowly into small pieces because something is old, dry, or weak.</p>
+<ol><li>The brick wall is <em>crumbling</em> at the corner.</li><li>The cookie <em>crumbled</em> in my hand.</li><li>Years of rain had <em>crumbled</em> the stone steps.</li></ol>
+<hr>
+<h3 id="collapse">collapse<a class="hash" href="#collapse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈlæps/ &middot; <em>kuh-LAPS</em></dd><dt>Русский</dt><dd>рушиться, рухнуть; обрушиваться, обрушиться</dd><dt>Forms</dt><dd><em>collapse</em> &middot; <em>collapsed</em> &middot; <em>collapsed</em></dd><dt>Third person</dt><dd><em>collapses</em> &middot; <strong>-ing form:</strong> <em>collapsing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>collapse</em> the tent), intransitive (the roof <em>collapsed</em>)</dd></dl>
+<p>To fall down suddenly because the structure gives way.</p>
+<ol><li>The roof <em>collapsed</em> under the weight of the snow.</li><li>Old mine tunnels can <em>collapse</em> without any warning.</li><li>Two walls had already <em>collapsed</em> by the time the crew arrived.</li></ol>
+<hr>
+<h3 id="topple">topple<a class="hash" href="#topple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːpəl/ &middot; <em>TAH-puhl</em></dd><dt>Русский</dt><dd>опрокидывать(ся), опрокинуть(ся); валить, свалить</dd><dt>Forms</dt><dd><em>topple</em> &middot; <em>toppled</em> &middot; <em>toppled</em></dd><dt>Third person</dt><dd><em>topples</em> &middot; <strong>-ing form:</strong> <em>toppling</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To fall over, or to push something over, because it loses its balance.</p>
+<ol><li>The wind <em>toppled</em> the fence along the driveway.</li><li>Stack them any higher and they'll <em>topple</em>.</li><li>A <em>toppled</em> streetlight was blocking both lanes.</li></ol>
+<hr>
+<h3 id="warp">warp<a class="hash" href="#warp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɔːrp/ &middot; <em>WORP</em></dd><dt>Русский</dt><dd>коробить(ся), покоробить(ся); деформировать(ся)</dd><dt>Forms</dt><dd><em>warp</em> &middot; <em>warped</em> &middot; <em>warped</em></dd><dt>Third person</dt><dd><em>warps</em> &middot; <strong>-ing form:</strong> <em>warping</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To bend or twist out of shape, usually because of heat or moisture.</p>
+<ol><li>Damp under the floor <em>warped</em> the boards.</li><li>Leave that vinyl in the sun and it will <em>warp</em>.</li><li>The back door is <em>warped</em> and won't close all the way.</li></ol>
+<hr>
+<h3 id="puncture">puncture<a class="hash" href="#puncture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌŋktʃər/ &middot; <em>PUNK-chur</em></dd><dt>Русский</dt><dd>прокалывать, проколоть; пробивать, пробить</dd><dt>Forms</dt><dd><em>puncture</em> &middot; <em>punctured</em> &middot; <em>punctured</em></dd><dt>Third person</dt><dd><em>punctures</em> &middot; <strong>-ing form:</strong> <em>puncturing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a small hole in something so that air or liquid escapes.</p>
+<ol><li>A nail <em>punctured</em> the rear tire.</li><li>Sharp rocks can <em>puncture</em> an inflatable raft.</li><li>He was treated for a <em>punctured</em> lung.</li></ol>
+<hr>
+<h3 id="pierce">pierce<a class="hash" href="#pierce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪrs/ &middot; <em>PEERS</em></dd><dt>Русский</dt><dd>прокалывать, проколоть; пронзать, пронзить</dd><dt>Forms</dt><dd><em>pierce</em> &middot; <em>pierced</em> &middot; <em>pierced</em></dd><dt>Third person</dt><dd><em>pierces</em> &middot; <strong>-ing form:</strong> <em>piercing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a hole through something with a sharp point.</p>
+<ol><li>The nail <em>pierced</em> the sole of his boot.</li><li>She had her ears <em>pierced</em> last week.</li><li>A cold wind <em>pierces</em> right through this jacket.</li></ol>
+<hr>
+<h3 id="slash">slash<a class="hash" href="#slash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slæʃ/ &middot; <em>SLASH</em></dd><dt>Русский</dt><dd>рассекать, рассечь; полосовать, порезать</dd><dt>Forms</dt><dd><em>slash</em> &middot; <em>slashed</em> &middot; <em>slashed</em></dd><dt>Third person</dt><dd><em>slashes</em> &middot; <strong>-ing form:</strong> <em>slashing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cut something with a long, violent stroke.</p>
+<ol><li>Someone <em>slashed</em> the tires overnight.</li><li>He was <em>slashing</em> at the vines with a machete.</li><li>The seat had been <em>slashed</em> open with a knife.</li></ol>
+<hr>
+<h3 id="stab">stab<a class="hash" href="#stab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stæb/ &middot; <em>STAB</em></dd><dt>Русский</dt><dd>колоть, уколоть; наносить удар ножом</dd><dt>Forms</dt><dd><em>stab</em> &middot; <em>stabbed</em> &middot; <em>stabbed</em></dd><dt>Third person</dt><dd><em>stabs</em> &middot; <strong>-ing form:</strong> <em>stabbing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The b doubles: <em>stabbed</em>, <em>stabbing</em>.</dd></dl>
+<p>To push a knife or other sharp point into someone or something.</p>
+<ol><li>He <em>stabbed</em> the lid with a screwdriver to open it.</li><li>The victim had been <em>stabbed</em> twice in the arm.</li><li>Stop <em>stabbing</em> at the meat and use the knife properly.</li></ol>
+<hr>
+<h3 id="sever">sever<a class="hash" href="#sever" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛvər/ &middot; <em>SEV-ur</em></dd><dt>Русский</dt><dd>перерезать, перерубать; отсекать, отсечь</dd><dt>Forms</dt><dd><em>sever</em> &middot; <em>severed</em> &middot; <em>severed</em></dd><dt>Third person</dt><dd><em>severs</em> &middot; <strong>-ing form:</strong> <em>severing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Stress on the first syllable and no doubled r: <em>severed</em>, not "severred".</dd></dl>
+<p>To cut something all the way through, separating it into parts.</p>
+<ol><li>The blade <em>severed</em> the cable in one pass.</li><li>Ice storms often <em>sever</em> the power lines out here.</li><li>Surgeons reattached the <em>severed</em> finger.</li></ol>
+<hr>
+<h3 id="explode">explode<a class="hash" href="#explode" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsploʊd/ &middot; <em>ik-SPLOHD</em></dd><dt>Русский</dt><dd>взрываться, взорваться; взрывать, взорвать</dd><dt>Forms</dt><dd><em>explode</em> &middot; <em>exploded</em> &middot; <em>exploded</em></dd><dt>Third person</dt><dd><em>explodes</em> &middot; <strong>-ing form:</strong> <em>exploding</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To burst apart with great force and noise.</p>
+<ol><li>The gas tank <em>exploded</em> on impact.</li><li>Old fireworks can still <em>explode</em> years later.</li><li>A transformer had <em>exploded</em> two blocks away.</li></ol>
+<hr>
+<h3 id="blast">blast<a class="hash" href="#blast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blæst/ &middot; <em>BLAST</em></dd><dt>Русский</dt><dd>взрывать, взорвать; разносить взрывом</dd><dt>Forms</dt><dd><em>blast</em> &middot; <em>blasted</em> &middot; <em>blasted</em></dd><dt>Third person</dt><dd><em>blasts</em> &middot; <strong>-ing form:</strong> <em>blasting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The American vowel is æ: <em>blast</em> rhymes with <em>fast</em> — blæst, not blɑːst.</dd></dl>
+<p>To break rock or a structure apart with explosives.</p>
+<ol><li>Crews <em>blasted</em> a tunnel through the ridge.</li><li>They <em>blast</em> twice a day at the quarry.</li><li>The safe had been <em>blasted</em> open from behind.</li></ol>
+<hr>
+<h3 id="bomb">bomb<a class="hash" href="#bomb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːm/ &middot; <em>BAHM</em></dd><dt>Русский</dt><dd>бомбить, разбомбить</dd><dt>Forms</dt><dd><em>bomb</em> &middot; <em>bombed</em> &middot; <em>bombed</em></dd><dt>Third person</dt><dd><em>bombs</em> &middot; <strong>-ing form:</strong> <em>bombing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The final b is silent: <em>bomb</em> is bɑːm, rhyming with <em>mom</em>.</dd></dl>
+<p>To attack a place with bombs.</p>
+<ol><li>Planes <em>bombed</em> the rail bridge at dawn.</li><li>The city had been <em>bombed</em> for six straight weeks.</li><li>They kept <em>bombing</em> the same stretch of track.</li></ol>
+<hr>
+<h3 id="scorch">scorch<a class="hash" href="#scorch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɔːrtʃ/ &middot; <em>SKORCH</em></dd><dt>Русский</dt><dd>обжигать, обжечь; опалять, опалить</dd><dt>Forms</dt><dd><em>scorch</em> &middot; <em>scorched</em> &middot; <em>scorched</em></dd><dt>Third person</dt><dd><em>scorches</em> &middot; <strong>-ing form:</strong> <em>scorching</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To burn a surface slightly so that it darkens or changes color.</p>
+<ol><li>I <em>scorched</em> my shirt with the iron.</li><li>The sun <em>scorches</em> the lawn every August.</li><li>There was a <em>scorched</em> ring on the countertop.</li></ol>
+<hr>
+<h3 id="overturn">overturn<a class="hash" href="#overturn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈtɜːrn/ &middot; <em>oh-vur-TURN</em></dd><dt>Русский</dt><dd>опрокидывать(ся), опрокинуть(ся)</dd><dt>Forms</dt><dd><em>overturn</em> &middot; <em>overturned</em> &middot; <em>overturned</em></dd><dt>Third person</dt><dd><em>overturns</em> &middot; <strong>-ing form:</strong> <em>overturning</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To turn over onto its side or roof, or to tip something over.</p>
+<ol><li>The tanker <em>overturned</em> on the exit ramp.</li><li>One big wave can <em>overturn</em> a boat that size.</li><li>An <em>overturned</em> trailer blocked the road for hours.</li></ol>
+<hr>
+<h3 id="drown">drown<a class="hash" href="#drown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/draʊn/ &middot; <em>DROWN</em></dd><dt>Русский</dt><dd>тонуть, утонуть; топить, утопить</dd><dt>Forms</dt><dd><em>drown</em> &middot; <em>drowned</em> &middot; <em>drowned</em></dd><dt>Third person</dt><dd><em>drowns</em> &middot; <strong>-ing form:</strong> <em>drowning</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>drown</em> the kittens), intransitive (he <em>drowned</em>)</dd></dl>
+<p>To die under water because you cannot breathe, or to kill something that way.</p>
+<ol><li>Two swimmers nearly <em>drowned</em> off the pier.</li><li>Don't <em>drown</em> that plant — it needs very little water.</li><li>He was already <em>drowning</em> when the lifeguard reached him.</li></ol>
+<hr>
+<h3 id="flood">flood<a class="hash" href="#flood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flʌd/ &middot; <em>FLUD</em></dd><dt>Русский</dt><dd>затоплять, затопить; заливать, залить</dd><dt>Forms</dt><dd><em>flood</em> &middot; <em>flooded</em> &middot; <em>flooded</em></dd><dt>Third person</dt><dd><em>floods</em> &middot; <strong>-ing form:</strong> <em>flooding</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd><em>flood</em> rhymes with <em>blood</em>: flʌd, not fluːd.</dd></dl>
+<p>To cover a place with water, or to be covered with water.</p>
+<ol><li>The river <em>flooded</em> the whole basement.</li><li>That underpass <em>floods</em> every spring.</li><li>We came home and found the kitchen <em>flooded</em>.</li></ol>
+<hr>
+<h3 id="vandalize">vandalize<a class="hash" href="#vandalize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvændəlaɪz/ &middot; <em>VAN-duh-lyz</em></dd><dt>Русский</dt><dd>портить, испортить (имущество); громить, разгромить</dd><dt>Forms</dt><dd><em>vandalize</em> &middot; <em>vandalized</em> &middot; <em>vandalized</em></dd><dt>Third person</dt><dd><em>vandalizes</em> &middot; <strong>-ing form:</strong> <em>vandalizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American spelling -ize; British English writes <em>vandalise</em>.</dd></dl>
+<p>To damage public or private property on purpose.</p>
+<ol><li>Somebody <em>vandalized</em> the bus shelter again.</li><li>Teenagers had <em>vandalized</em> every bench in the park.</li><li>They keep <em>vandalizing</em> the same stretch of wall.</li></ol>
+<hr>
+<h3 id="sabotage">sabotage<a class="hash" href="#sabotage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæbətɑːʒ/ &middot; <em>SAB-uh-tahzh</em></dd><dt>Русский</dt><dd>саботировать; вредить, навредить (умышленно)</dd><dt>Forms</dt><dd><em>sabotage</em> &middot; <em>sabotaged</em> &middot; <em>sabotaged</em></dd><dt>Third person</dt><dd><em>sabotages</em> &middot; <strong>-ing form:</strong> <em>sabotaging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>French ending: the last syllable is ʒ, as in <em>measure</em>, not dʒ.</dd></dl>
+<p>To damage or spoil something deliberately so that it cannot work or succeed.</p>
+<ol><li>Someone <em>sabotaged</em> the backup generator.</li><li>He <em>sabotages</em> his own interviews by showing up late.</li><li>The pipeline had been <em>sabotaged</em> twice that year.</li></ol>
+<hr>
+<h3 id="deface">deface<a class="hash" href="#deface" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈfeɪs/ &middot; <em>di-FAYS</em></dd><dt>Русский</dt><dd>портить, испортить (надписями); обезображивать, обезобразить</dd><dt>Forms</dt><dd><em>deface</em> &middot; <em>defaced</em> &middot; <em>defaced</em></dd><dt>Third person</dt><dd><em>defaces</em> &middot; <strong>-ing form:</strong> <em>defacing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To spoil the surface or appearance of something, especially by writing or drawing on it.</p>
+<ol><li>Vandals <em>defaced</em> the monument with spray paint.</li><li>It is a federal crime to <em>deface</em> currency.</li><li>Every sign on that road has been <em>defaced</em>.</li></ol>
+<hr>
+<h3 id="trash">trash<a class="hash" href="#trash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/træʃ/ &middot; <em>TRASH</em></dd><dt>Русский</dt><dd>разгромить, разнести; привести в негодность</dd><dt>Forms</dt><dd><em>trash</em> &middot; <em>trashed</em> &middot; <em>trashed</em></dd><dt>Third person</dt><dd><em>trashes</em> &middot; <strong>-ing form:</strong> <em>trashing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Informal American English; <em>trash</em> also means "throw away": I <em>trashed</em> the old receipts.</dd></dl>
+<p>To wreck something or make a complete mess of it.</p>
+<ol><li>The band <em>trashed</em> the hotel room.</li><li>Don't let the dog <em>trash</em> the couch while we're out.</li><li>The kitchen was completely <em>trashed</em> after the party.</li></ol>
+<hr>
+<h3 id="total">total<a class="hash" href="#total" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊtəl/ &middot; <em>TOH-tuhl</em></dd><dt>Русский</dt><dd>разбить вдребезги (машину), угробить</dd><dt>Forms</dt><dd><em>total</em> &middot; <em>totaled</em> &middot; <em>totaled</em></dd><dt>Third person</dt><dd><em>totals</em> &middot; <strong>-ing form:</strong> <em>totaling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American English keeps one l: <em>totaled</em>, <em>totaling</em>; British English writes <em>totalled</em>, <em>totalling</em>.</dd></dl>
+<p>To damage a car so badly that repairing it would cost more than the car is worth.</p>
+<ol><li>She <em>totaled</em> her truck on black ice.</li><li>One bad skid can <em>total</em> a brand-new car.</li><li>The insurance company declared it <em>totaled</em>.</li></ol>
+<hr>
+<h3 id="undermine">undermine<a class="hash" href="#undermine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌndərˈmaɪn/ &middot; <em>un-dur-MYN</em></dd><dt>Русский</dt><dd>подрывать, подорвать; ослаблять, ослабить</dd><dt>Forms</dt><dd><em>undermine</em> &middot; <em>undermined</em> &middot; <em>undermined</em></dd><dt>Third person</dt><dd><em>undermines</em> &middot; <strong>-ing form:</strong> <em>undermining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To weaken something gradually, often from below or from within.</p>
+<ol><li>Water had <em>undermined</em> the foundation on the north side.</li><li>Constant criticism <em>undermines</em> a child's confidence.</li><li>He felt they were <em>undermining</em> him at every meeting.</li></ol>
+<hr>
+<h3 id="weaken">weaken<a class="hash" href="#weaken" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːkən/ &middot; <em>WEE-kuhn</em></dd><dt>Русский</dt><dd>ослаблять, ослабить; слабеть, ослабеть</dd><dt>Forms</dt><dd><em>weaken</em> &middot; <em>weakened</em> &middot; <em>weakened</em></dd><dt>Third person</dt><dd><em>weakens</em> &middot; <strong>-ing form:</strong> <em>weakening</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To make something less strong, or to become less strong.</p>
+<ol><li>Rust had <em>weakened</em> the beams under the deck.</li><li>Skipping meals <em>weakens</em> you faster than you'd think.</li><li>The storm is <em>weakening</em> as it moves inland.</li></ol>
+<hr>
+<h3 id="impair">impair<a class="hash" href="#impair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈpɛr/ &middot; <em>im-PAIR</em></dd><dt>Русский</dt><dd>ухудшать, ухудшить; нарушать, нарушить (функцию)</dd><dt>Forms</dt><dd><em>impair</em> &middot; <em>impaired</em> &middot; <em>impaired</em></dd><dt>Third person</dt><dd><em>impairs</em> &middot; <strong>-ing form:</strong> <em>impairing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To damage something so that it works less well than it should.</p>
+<ol><li>Years on the factory floor <em>impaired</em> his hearing.</li><li>Even one drink can <em>impair</em> your driving.</li><li>Her vision is permanently <em>impaired</em>.</li></ol>
+<hr>
+<h3 id="disrupt">disrupt<a class="hash" href="#disrupt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈrʌpt/ &middot; <em>dis-RUPT</em></dd><dt>Русский</dt><dd>нарушать, нарушить; срывать, сорвать</dd><dt>Forms</dt><dd><em>disrupt</em> &middot; <em>disrupted</em> &middot; <em>disrupted</em></dd><dt>Third person</dt><dd><em>disrupts</em> &middot; <strong>-ing form:</strong> <em>disrupting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To break the normal course of an activity so that it cannot continue.</p>
+<ol><li>The outage <em>disrupted</em> every flight out of Denver.</li><li>Protesters <em>disrupt</em> the hearing almost every week.</li><li>Service has been <em>disrupted</em> since Tuesday morning.</li></ol>
+<hr>
+<h3 id="eradicate">eradicate<a class="hash" href="#eradicate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈrædɪkeɪt/ &middot; <em>i-RAD-i-kayt</em></dd><dt>Русский</dt><dd>искоренять, искоренить; уничтожать, уничтожить</dd><dt>Forms</dt><dd><em>eradicate</em> &middot; <em>eradicated</em> &middot; <em>eradicated</em></dd><dt>Third person</dt><dd><em>eradicates</em> &middot; <strong>-ing form:</strong> <em>eradicating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To destroy something completely so that it never comes back.</p>
+<ol><li>Smallpox was <em>eradicated</em> in 1980.</li><li>It takes years to <em>eradicate</em> termites from an old house.</li><li>Crews are still <em>eradicating</em> the last of the weeds along the creek.</li></ol>
+<hr>
+<h3 id="abolish">abolish<a class="hash" href="#abolish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈbɑːlɪʃ/ &middot; <em>uh-BAH-lish</em></dd><dt>Русский</dt><dd>отменять, отменить; упразднять, упразднить</dd><dt>Forms</dt><dd><em>abolish</em> &middot; <em>abolished</em> &middot; <em>abolished</em></dd><dt>Third person</dt><dd><em>abolishes</em> &middot; <strong>-ing form:</strong> <em>abolishing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Ends in -sh, so the third person adds -es: <em>abolishes</em>.</dd></dl>
+<p>To put an end to a law, system, or practice completely and officially.</p>
+<ol><li>Congress <em>abolished</em> the tax in 1943.</li><li>Several states want to <em>abolish</em> the fee entirely.</li><li>The rule was <em>abolished</em> years before I started here.</li></ol>
+<hr>
+<h3 id="wound">wound<a class="hash" href="#wound" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wuːnd/ &middot; <em>WOOND</em></dd><dt>Русский</dt><dd>ранить, поранить</dd><dt>Forms</dt><dd><em>wound</em> &middot; <em>wounded</em> &middot; <em>wounded</em></dd><dt>Third person</dt><dd><em>wounds</em> &middot; <strong>-ing form:</strong> <em>wounding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb <em>wound</em> wuːnd (to injure) is not the past of <em>wind</em>; that <em>wound</em> rhymes with <em>found</em>.</dd></dl>
+<p>To injure someone, especially with a weapon.</p>
+<ol><li>Two officers were <em>wounded</em> in the blast.</li><li>The shot <em>wounded</em> the animal but didn't kill it.</li><li>Careless words can <em>wound</em> worse than insults.</li></ol>
+<hr>
+<h3 id="injure">injure<a class="hash" href="#injure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪndʒər/ &middot; <em>IN-jur</em></dd><dt>Русский</dt><dd>ранить, поранить; травмировать</dd><dt>Forms</dt><dd><em>injure</em> &middot; <em>injured</em> &middot; <em>injured</em></dd><dt>Third person</dt><dd><em>injures</em> &middot; <strong>-ing form:</strong> <em>injuring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To hurt a person or animal so that part of the body is damaged.</p>
+<ol><li>Six passengers were <em>injured</em> in the crash.</li><li>He <em>injured</em> his shoulder lifting boxes all afternoon.</li><li>Bad shoes will <em>injure</em> your knees over time.</li></ol>
+<hr>
+<h3 id="harm">harm<a class="hash" href="#harm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɑːrm/ &middot; <em>HARM</em></dd><dt>Русский</dt><dd>вредить, навредить; причинять вред</dd><dt>Forms</dt><dd><em>harm</em> &middot; <em>harmed</em> &middot; <em>harmed</em></dd><dt>Third person</dt><dd><em>harms</em> &middot; <strong>-ing form:</strong> <em>harming</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cause damage or injury to a person, an animal, or a thing.</p>
+<ol><li>The runoff <em>harms</em> the fish downstream.</li><li>No one was <em>harmed</em> in the fire.</li><li>He never meant to <em>harm</em> anybody.</li></ol>
+<hr>
+<h3 id="bruise">bruise<a class="hash" href="#bruise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bruːz/ &middot; <em>BROOZ</em></dd><dt>Русский</dt><dd>ушибать, ушибить; набивать синяк</dd><dt>Forms</dt><dd><em>bruise</em> &middot; <em>bruised</em> &middot; <em>bruised</em></dd><dt>Third person</dt><dd><em>bruises</em> &middot; <strong>-ing form:</strong> <em>bruising</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>Ends in a z sound: BROOZ, not "broos".</dd></dl>
+<p>To injure skin or fruit so that a dark mark appears without the surface breaking.</p>
+<ol><li>She <em>bruised</em> her elbow on the door frame.</li><li>Peaches <em>bruise</em> if you stack them three deep.</li><li>His arm was badly <em>bruised</em> from the fall.</li></ol>
+<hr>
+<h3 id="sprain">sprain<a class="hash" href="#sprain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spreɪn/ &middot; <em>SPRAYN</em></dd><dt>Русский</dt><dd>растягивать, растянуть (связки); подвернуть</dd><dt>Forms</dt><dd><em>sprain</em> &middot; <em>sprained</em> &middot; <em>sprained</em></dd><dt>Third person</dt><dd><em>sprains</em> &middot; <strong>-ing form:</strong> <em>spraining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To injure a joint by twisting it suddenly.</p>
+<ol><li>I <em>sprained</em> my wrist playing volleyball.</li><li>You can <em>sprain</em> an ankle just stepping off a curb.</li><li>He has been walking on a <em>sprained</em> knee for a week.</li></ol>
+<hr>
+<h3 id="fracture">fracture<a class="hash" href="#fracture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfræktʃər/ &middot; <em>FRAK-chur</em></dd><dt>Русский</dt><dd>ломать, сломать (кость); давать трещину</dd><dt>Forms</dt><dd><em>fracture</em> &middot; <em>fractured</em> &middot; <em>fractured</em></dd><dt>Third person</dt><dd><em>fractures</em> &middot; <strong>-ing form:</strong> <em>fracturing</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To crack or break a bone or a hard material.</p>
+<ol><li>She <em>fractured</em> her wrist in the fall.</li><li>Freezing weather can <em>fracture</em> concrete.</li><li>The X-ray showed a <em>fractured</em> rib.</li></ol>
+<hr>
+<h3 id="poison">poison<a class="hash" href="#poison" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔɪzən/ &middot; <em>POY-zuhn</em></dd><dt>Русский</dt><dd>отравлять, отравить</dd><dt>Forms</dt><dd><em>poison</em> &middot; <em>poisoned</em> &middot; <em>poisoned</em></dd><dt>Third person</dt><dd><em>poisons</em> &middot; <strong>-ing form:</strong> <em>poisoning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To harm or kill a living thing with a dangerous substance.</p>
+<ol><li>Runoff from the mine <em>poisoned</em> the well.</li><li>Lead paint can <em>poison</em> small children.</li><li>Hundreds of fish were <em>poisoned</em> downstream.</li></ol>
+<hr>
+<h3 id="infect">infect<a class="hash" href="#infect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈfɛkt/ &middot; <em>in-FEKT</em></dd><dt>Русский</dt><dd>заражать, заразить; инфицировать</dd><dt>Forms</dt><dd><em>infect</em> &middot; <em>infected</em> &middot; <em>infected</em></dd><dt>Third person</dt><dd><em>infects</em> &middot; <strong>-ing form:</strong> <em>infecting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To pass a disease to a living thing, or to fill something with harmful organisms.</p>
+<ol><li>The cut got <em>infected</em> within a day.</li><li>One sick bird can <em>infect</em> the whole flock.</li><li>The virus had <em>infected</em> thousands before anyone noticed.</li></ol>
+<hr>
+<h3 id="contaminate">contaminate<a class="hash" href="#contaminate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtæmɪneɪt/ &middot; <em>kuhn-TAM-i-nayt</em></dd><dt>Русский</dt><dd>загрязнять, загрязнить; заражать, заразить</dd><dt>Forms</dt><dd><em>contaminate</em> &middot; <em>contaminated</em> &middot; <em>contaminated</em></dd><dt>Third person</dt><dd><em>contaminates</em> &middot; <strong>-ing form:</strong> <em>contaminating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make something dirty or dangerous by adding a harmful substance.</p>
+<ol><li>Diesel from the tank <em>contaminated</em> the groundwater.</li><li>One dirty knife can <em>contaminate</em> the whole batch.</li><li>The soil is still <em>contaminated</em> thirty years later.</li></ol>
+<hr>
+<h3 id="pollute">pollute<a class="hash" href="#pollute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈluːt/ &middot; <em>puh-LOOT</em></dd><dt>Русский</dt><dd>загрязнять, загрязнить</dd><dt>Forms</dt><dd><em>pollute</em> &middot; <em>polluted</em> &middot; <em>polluted</em></dd><dt>Third person</dt><dd><em>pollutes</em> &middot; <strong>-ing form:</strong> <em>polluting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make air, water, or land dirty and unsafe with waste or chemicals.</p>
+<ol><li>The mill <em>polluted</em> the river for forty years.</li><li>Old engines <em>pollute</em> far more than new ones.</li><li>They were swimming in a heavily <em>polluted</em> lake.</li></ol>
+<hr>
+<h3 id="smear">smear<a class="hash" href="#smear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/smɪr/ &middot; <em>SMEER</em></dd><dt>Русский</dt><dd>размазывать, размазать; пачкать, испачкать</dd><dt>Forms</dt><dd><em>smear</em> &middot; <em>smeared</em> &middot; <em>smeared</em></dd><dt>Third person</dt><dd><em>smears</em> &middot; <strong>-ing form:</strong> <em>smearing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To spread something soft or wet over a surface, leaving dirty marks.</p>
+<ol><li>The kids <em>smeared</em> jam all over the window.</li><li>Don't <em>smear</em> the ink — it's still wet.</li><li>Every mirror in the house was <em>smeared</em> with fingerprints.</li></ol>
+<hr>
+<h3 id="refurbish">refurbish<a class="hash" href="#refurbish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈfɜːrbɪʃ/ &middot; <em>ree-FUR-bish</em></dd><dt>Русский</dt><dd>обновлять, обновить; восстанавливать, восстановить (технику)</dd><dt>Forms</dt><dd><em>refurbish</em> &middot; <em>refurbished</em> &middot; <em>refurbished</em></dd><dt>Third person</dt><dd><em>refurbishes</em> &middot; <strong>-ing form:</strong> <em>refurbishing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To clean and repair something old so that it looks and works like new.</p>
+<ol><li>The company <em>refurbishes</em> returned laptops and resells them.</li><li>They <em>refurbished</em> the lobby over the winter.</li><li>I bought a <em>refurbished</em> phone for half the price.</li></ol>
+<hr>
+<h3 id="revive">revive<a class="hash" href="#revive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvaɪv/ &middot; <em>ri-VYV</em></dd><dt>Русский</dt><dd>оживлять, оживить; возрождать, возродить</dd><dt>Forms</dt><dd><em>revive</em> &middot; <em>revived</em> &middot; <em>revived</em></dd><dt>Third person</dt><dd><em>revives</em> &middot; <strong>-ing form:</strong> <em>reviving</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To bring something back to life, to strength, or into use again.</p>
+<ol><li>Paramedics <em>revived</em> him at the scene.</li><li>A little water will <em>revive</em> those plants.</li><li>The festival was <em>revived</em> after twenty years.</li></ol>
+<hr>
+<h3 id="service">service<a class="hash" href="#service" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrvɪs/ &middot; <em>SUR-vis</em></dd><dt>Русский</dt><dd>обслуживать, обслужить (технику); проводить техобслуживание</dd><dt>Forms</dt><dd><em>service</em> &middot; <em>serviced</em> &middot; <em>serviced</em></dd><dt>Third person</dt><dd><em>services</em> &middot; <strong>-ing form:</strong> <em>servicing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To check and repair a machine or vehicle as routine maintenance.</p>
+<ol><li>I had the car <em>serviced</em> before the trip.</li><li>They <em>service</em> the elevators twice a year.</li><li>The furnace hasn't been <em>serviced</em> since we moved in.</li></ol>
+<hr>
+<h3 id="plug">plug<a class="hash" href="#plug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plʌɡ/ &middot; <em>PLUG</em></dd><dt>Русский</dt><dd>затыкать, заткнуть; заделывать, заделать (отверстие)</dd><dt>Forms</dt><dd><em>plug</em> &middot; <em>plugged</em> &middot; <em>plugged</em></dd><dt>Third person</dt><dd><em>plugs</em> &middot; <strong>-ing form:</strong> <em>plugging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The g doubles: <em>plugged</em>, <em>plugging</em>.</dd></dl>
+<p>To fill a hole so that nothing can pass or leak through it.</p>
+<ol><li>He <em>plugged</em> the hole with a wooden peg.</li><li>A little putty will <em>plug</em> that gap for now.</li><li>The drain was <em>plugged</em> solid with hair.</li></ol>
+<hr>
+<h3 id="heal">heal<a class="hash" href="#heal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hiːl/ &middot; <em>HEEL</em></dd><dt>Русский</dt><dd>заживать, зажить; исцелять, исцелить</dd><dt>Forms</dt><dd><em>heal</em> &middot; <em>healed</em> &middot; <em>healed</em></dd><dt>Third person</dt><dd><em>heals</em> &middot; <strong>-ing form:</strong> <em>healing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>heal</em> a wound), intransitive (the cut <em>healed</em>)</dd><dt>Contrast</dt><dd><em>heal</em> sounds exactly like <em>heel</em> — both hiːl.</dd></dl>
+<p>To become healthy again after an injury, or to make someone healthy again.</p>
+<ol><li>The burn <em>healed</em> in about two weeks.</li><li>Deep cuts <em>heal</em> slowly at his age.</li><li>His ankle still hasn't <em>healed</em> properly.</li></ol>
+<hr>
+<h3 id="cure">cure<a class="hash" href="#cure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kjʊr/ &middot; <em>KYOOR</em></dd><dt>Русский</dt><dd>лечить, вылечить; исцелять, исцелить</dd><dt>Forms</dt><dd><em>cure</em> &middot; <em>cured</em> &middot; <em>cured</em></dd><dt>Third person</dt><dd><em>cures</em> &middot; <strong>-ing form:</strong> <em>curing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>cure</em> removes the illness; <em>heal</em> closes the wound.</dd></dl>
+<p>To make an illness go away completely.</p>
+<ol><li>Antibiotics <em>cured</em> the infection in three days.</li><li>Nothing <em>cures</em> a cold — you just wait it out.</li><li>She was <em>cured</em> after the second round of treatment.</li></ol>
+<hr>
+<h3 id="bandage">bandage<a class="hash" href="#bandage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbændɪdʒ/ &middot; <em>BAN-dij</em></dd><dt>Русский</dt><dd>бинтовать, забинтовать; перевязывать, перевязать</dd><dt>Forms</dt><dd><em>bandage</em> &middot; <em>bandaged</em> &middot; <em>bandaged</em></dd><dt>Third person</dt><dd><em>bandages</em> &middot; <strong>-ing form:</strong> <em>bandaging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To wrap cloth around an injured part of the body.</p>
+<ol><li>A nurse <em>bandaged</em> his hand at the clinic.</li><li><em>Bandage</em> it firmly, but not so tight that it hurts.</li><li>His knee was still <em>bandaged</em> a month later.</li></ol>
+<hr>
+<h3 id="salvage">salvage<a class="hash" href="#salvage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsælvɪdʒ/ &middot; <em>SAL-vij</em></dd><dt>Русский</dt><dd>спасать, спасти (имущество); утилизировать</dd><dt>Forms</dt><dd><em>salvage</em> &middot; <em>salvaged</em> &middot; <em>salvaged</em></dd><dt>Third person</dt><dd><em>salvages</em> &middot; <strong>-ing form:</strong> <em>salvaging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To save something usable from a wreck, a fire, or a failing situation.</p>
+<ol><li>They <em>salvaged</em> two engines from the wreck.</li><li>We <em>salvaged</em> what we could after the flood.</li><li>He is still trying to <em>salvage</em> the deal.</li></ol>
+<hr>
+<h3 id="reconstruct">reconstruct<a class="hash" href="#reconstruct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːkənˈstrʌkt/ &middot; <em>ree-kuhn-STRUKT</em></dd><dt>Русский</dt><dd>восстанавливать, восстановить; реконструировать</dd><dt>Forms</dt><dd><em>reconstruct</em> &middot; <em>reconstructed</em> &middot; <em>reconstructed</em></dd><dt>Third person</dt><dd><em>reconstructs</em> &middot; <strong>-ing form:</strong> <em>reconstructing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To build something again after it has been damaged or destroyed.</p>
+<ol><li>The town <em>reconstructed</em> the bridge stone by stone.</li><li>Surgeons can <em>reconstruct</em> a knee like that in one operation.</li><li>The church is being <em>reconstructed</em> from old photographs.</li></ol>
+<hr>
+<h3 id="stabilize">stabilize<a class="hash" href="#stabilize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪbəlaɪz/ &middot; <em>STAY-buh-lyz</em></dd><dt>Русский</dt><dd>стабилизировать; укреплять, укрепить</dd><dt>Forms</dt><dd><em>stabilize</em> &middot; <em>stabilized</em> &middot; <em>stabilized</em></dd><dt>Third person</dt><dd><em>stabilizes</em> &middot; <strong>-ing form:</strong> <em>stabilizing</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>American spelling -ize; British English writes <em>stabilise</em>.</dd></dl>
+<p>To make something steady so that it stops moving, falling, or getting worse.</p>
+<ol><li>Crews <em>stabilized</em> the leaning wall with steel cables.</li><li>His condition <em>stabilized</em> overnight.</li><li>They are <em>stabilizing</em> the slope above the road.</li></ol>
+<hr>
+<h3 id="preserve">preserve<a class="hash" href="#preserve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈzɜːrv/ &middot; <em>pri-ZURV</em></dd><dt>Русский</dt><dd>сохранять, сохранить; консервировать</dd><dt>Forms</dt><dd><em>preserve</em> &middot; <em>preserved</em> &middot; <em>preserved</em></dd><dt>Third person</dt><dd><em>preserves</em> &middot; <strong>-ing form:</strong> <em>preserving</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep something in good condition so that it is not damaged or lost.</p>
+<ol><li>Cold, dry air <em>preserved</em> the documents for centuries.</li><li>The trust <em>preserves</em> historic barns across the county.</li><li>The ship's hull was perfectly <em>preserved</em> in the mud.</li></ol>
+<hr>
+<h3 id="deteriorate">deteriorate<a class="hash" href="#deteriorate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈtɪriəreɪt/ &middot; <em>di-TEER-ee-uh-rayt</em></dd><dt>Русский</dt><dd>ухудшаться, ухудшиться; портиться, испортиться</dd><dt>Forms</dt><dd><em>deteriorate</em> &middot; <em>deteriorated</em> &middot; <em>deteriorated</em></dd><dt>Third person</dt><dd><em>deteriorates</em> &middot; <strong>-ing form:</strong> <em>deteriorating</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To become gradually worse in condition or quality.</p>
+<ol><li>The road <em>deteriorated</em> badly after two hard winters.</li><li>Untreated wood <em>deteriorates</em> fast outdoors.</li><li>His health has been <em>deteriorating</em> since the spring.</li></ol>
+<hr>
+<h3 id="degrade">degrade<a class="hash" href="#degrade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈɡreɪd/ &middot; <em>di-GRAYD</em></dd><dt>Русский</dt><dd>разрушаться, разрушиться; ухудшать(ся), ухудшить(ся)</dd><dt>Forms</dt><dd><em>degrade</em> &middot; <em>degraded</em> &middot; <em>degraded</em></dd><dt>Third person</dt><dd><em>degrades</em> &middot; <strong>-ing form:</strong> <em>degrading</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To break down or lose quality over time, or to cause that to happen.</p>
+<ol><li>Sunlight <em>degrades</em> cheap plastic in a single season.</li><li>The signal <em>degraded</em> the farther we drove.</li><li>All the rubber seals had <em>degraded</em> into powder.</li></ol>
+<hr>
+<h3 id="worsen">worsen<a class="hash" href="#worsen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrsən/ &middot; <em>WUR-suhn</em></dd><dt>Русский</dt><dd>ухудшать(ся), ухудшить(ся)</dd><dt>Forms</dt><dd><em>worsen</em> &middot; <em>worsened</em> &middot; <em>worsened</em></dd><dt>Third person</dt><dd><em>worsens</em> &middot; <strong>-ing form:</strong> <em>worsening</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To become worse, or to make something worse.</p>
+<ol><li>The leak <em>worsened</em> overnight.</li><li>Road salt <em>worsens</em> the rust under the car.</li><li>Conditions on the mountain are <em>worsening</em> by the hour.</li></ol>
+<hr>
+<h3 id="decay">decay<a class="hash" href="#decay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈkeɪ/ &middot; <em>di-KAY</em></dd><dt>Русский</dt><dd>гнить, сгнить; разрушаться, разрушиться</dd><dt>Forms</dt><dd><em>decay</em> &middot; <em>decayed</em> &middot; <em>decayed</em></dd><dt>Third person</dt><dd><em>decays</em> &middot; <strong>-ing form:</strong> <em>decaying</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The y stays after a vowel: <em>decayed</em>, <em>decaying</em> — compare <em>carry → carried</em>.</dd></dl>
+<p>To be destroyed slowly by rotting or by natural breaking down.</p>
+<ol><li>The fence posts <em>decayed</em> right at the ground line.</li><li>Teeth <em>decay</em> faster when you skip the dentist for years.</li><li>They pulled out the <em>decaying</em> floorboards.</li></ol>
+<hr>
+<h3 id="erode">erode<a class="hash" href="#erode" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈroʊd/ &middot; <em>i-ROHD</em></dd><dt>Русский</dt><dd>размывать, размыть; разрушать, разрушить (постепенно)</dd><dt>Forms</dt><dd><em>erode</em> &middot; <em>eroded</em> &middot; <em>eroded</em></dd><dt>Third person</dt><dd><em>erodes</em> &middot; <strong>-ing form:</strong> <em>eroding</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To wear something away slowly, especially by water or wind.</p>
+<ol><li>The river <em>eroded</em> the bank right under the bridge.</li><li>Spring wind <em>erodes</em> the topsoil every year.</li><li>The cliff has been badly <em>eroded</em> since the last survey.</li></ol>
+<hr>
+<h3 id="corrode">corrode<a class="hash" href="#corrode" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈroʊd/ &middot; <em>kuh-ROHD</em></dd><dt>Русский</dt><dd>разъедать, разъесть; подвергаться коррозии</dd><dt>Forms</dt><dd><em>corrode</em> &middot; <em>corroded</em> &middot; <em>corroded</em></dd><dt>Third person</dt><dd><em>corrodes</em> &middot; <strong>-ing form:</strong> <em>corroding</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To destroy metal slowly by chemical action.</p>
+<ol><li>Salt water <em>corroded</em> the bolts on the trailer.</li><li>Battery acid <em>corrodes</em> the contacts in a month.</li><li>The pipe was so <em>corroded</em> it crumbled in his hand.</li></ol>
+<hr>
+<h3 id="rust">rust<a class="hash" href="#rust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rʌst/ &middot; <em>RUST</em></dd><dt>Русский</dt><dd>ржаветь, заржаветь</dd><dt>Forms</dt><dd><em>rust</em> &middot; <em>rusted</em> &middot; <em>rusted</em></dd><dt>Third person</dt><dd><em>rusts</em> &middot; <strong>-ing form:</strong> <em>rusting</em></dd><dt>Transitivity</dt><dd>both — transitive (salt <em>rusts</em> the frame), intransitive (the gate <em>rusted</em>)</dd></dl>
+<p>To become covered with the reddish-brown coating that forms on wet iron.</p>
+<ol><li>The gate <em>rusted</em> through in five years.</li><li>Cheap tools <em>rust</em> if you leave them out overnight.</li><li>He finally replaced the <em>rusted</em> muffler.</li></ol>
+<hr>
+<h3 id="tarnish">tarnish<a class="hash" href="#tarnish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːrnɪʃ/ &middot; <em>TAR-nish</em></dd><dt>Русский</dt><dd>тускнеть, потускнеть; пятнать, запятнать (репутацию)</dd><dt>Forms</dt><dd><em>tarnish</em> &middot; <em>tarnished</em> &middot; <em>tarnished</em></dd><dt>Third person</dt><dd><em>tarnishes</em> &middot; <strong>-ing form:</strong> <em>tarnishing</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To lose shine and turn dull and dark, the way silver does.</p>
+<ol><li>The silverware <em>tarnished</em> in that damp drawer.</li><li>Brass <em>tarnishes</em> quickly near the ocean.</li><li>The scandal had <em>tarnished</em> his name for good.</li></ol>
+<hr>
+<h3 id="fray">fray<a class="hash" href="#fray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/freɪ/ &middot; <em>FRAY</em></dd><dt>Русский</dt><dd>трепаться, обтрепаться; изнашиваться по краям</dd><dt>Forms</dt><dd><em>fray</em> &middot; <em>frayed</em> &middot; <em>frayed</em></dd><dt>Third person</dt><dd><em>frays</em> &middot; <strong>-ing form:</strong> <em>fraying</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To become worn at the edges so that threads or wires come loose.</p>
+<ol><li>The cuffs <em>frayed</em> after one winter.</li><li>Cheap cable <em>frays</em> right where it bends.</li><li>He taped the <em>frayed</em> end of the cord.</li></ol>
+<hr>
+<h3 id="fade">fade<a class="hash" href="#fade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/feɪd/ &middot; <em>FAYD</em></dd><dt>Русский</dt><dd>выцветать, выцвести; блёкнуть, поблёкнуть</dd><dt>Forms</dt><dd><em>fade</em> &middot; <em>faded</em> &middot; <em>faded</em></dd><dt>Third person</dt><dd><em>fades</em> &middot; <strong>-ing form:</strong> <em>fading</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To lose color, strength, or brightness little by little.</p>
+<ol><li>The curtains <em>faded</em> in the afternoon sun.</li><li>Black shirts <em>fade</em> faster than white ones.</li><li>He was wearing a pair of <em>faded</em> jeans.</li></ol>
+<hr>
+<h3 id="wither">wither<a class="hash" href="#wither" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪðər/ &middot; <em>WITH-ur</em></dd><dt>Русский</dt><dd>вянуть, завянуть; сохнуть, засохнуть</dd><dt>Forms</dt><dd><em>wither</em> &middot; <em>withered</em> &middot; <em>withered</em></dd><dt>Third person</dt><dd><em>withers</em> &middot; <strong>-ing form:</strong> <em>withering</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To dry up and shrink, the way a plant does without water.</p>
+<ol><li>The tomatoes <em>withered</em> in the July heat.</li><li>Without rain the whole field <em>withers</em> by August.</li><li>She cut off the <em>withered</em> leaves.</li></ol>
+<hr>
+<h3 id="wilt">wilt<a class="hash" href="#wilt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪlt/ &middot; <em>WILT</em></dd><dt>Русский</dt><dd>вянуть, завянуть; поникать, поникнуть</dd><dt>Forms</dt><dd><em>wilt</em> &middot; <em>wilted</em> &middot; <em>wilted</em></dd><dt>Third person</dt><dd><em>wilts</em> &middot; <strong>-ing form:</strong> <em>wilting</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To become limp and droop, especially of plants or greens.</p>
+<ol><li>The lettuce <em>wilted</em> in the hot car.</li><li>Cut flowers <em>wilt</em> in a day without water.</li><li>He served us a plate of <em>wilted</em> spinach.</li></ol>
+<hr>
+<h3 id="dissolve">dissolve<a class="hash" href="#dissolve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzɑːlv/ &middot; <em>di-ZAHLV</em></dd><dt>Русский</dt><dd>растворять(ся), растворить(ся)</dd><dt>Forms</dt><dd><em>dissolve</em> &middot; <em>dissolved</em> &middot; <em>dissolved</em></dd><dt>Third person</dt><dd><em>dissolves</em> &middot; <strong>-ing form:</strong> <em>dissolving</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The double s is pronounced as z: di-ZAHLV, not "di-SOLV".</dd></dl>
+<p>To break down completely in a liquid, or to make something do that.</p>
+<ol><li>The tablet <em>dissolved</em> in warm water.</li><li>Salt <em>dissolves</em> faster if you stir it.</li><li>The sugar had <em>dissolved</em> into the syrup.</li></ol>
+<hr>
+<h3 id="exhaust">exhaust<a class="hash" href="#exhaust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɔːst/ &middot; <em>ig-ZAWST</em></dd><dt>Русский</dt><dd>истощать, истощить; изматывать, измотать</dd><dt>Forms</dt><dd><em>exhaust</em> &middot; <em>exhausted</em> &middot; <em>exhausted</em></dd><dt>Third person</dt><dd><em>exhausts</em> &middot; <strong>-ing form:</strong> <em>exhausting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The x here sounds like ɡz: ig-ZAWST, not "ek-SAWST".</dd></dl>
+<p>To use something up completely, or to tire someone out completely.</p>
+<ol><li>The mine <em>exhausted</em> its best seam years ago.</li><li>Two night shifts in a row <em>exhaust</em> anybody.</li><li>We had <em>exhausted</em> every option by Friday.</li></ol>
+<hr>
+<h3 id="drain">drain<a class="hash" href="#drain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dreɪn/ &middot; <em>DRAYN</em></dd><dt>Русский</dt><dd>осушать, осушить; истощать, истощить</dd><dt>Forms</dt><dd><em>drain</em> &middot; <em>drained</em> &middot; <em>drained</em></dd><dt>Third person</dt><dd><em>drains</em> &middot; <strong>-ing form:</strong> <em>draining</em></dd><dt>Transitivity</dt><dd>both</dd></dl>
+<p>To empty liquid out of something, or to use up strength or money.</p>
+<ol><li>He <em>drained</em> the radiator before the first freeze.</li><li>The tank <em>drains</em> in about ten minutes.</li><li>The long repair had <em>drained</em> their savings.</li></ol>
+<hr>
+<h3 id="leak">leak<a class="hash" href="#leak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːk/ &middot; <em>LEEK</em></dd><dt>Русский</dt><dd>протекать, протечь; течь, подтекать</dd><dt>Forms</dt><dd><em>leak</em> &middot; <em>leaked</em> &middot; <em>leaked</em></dd><dt>Third person</dt><dd><em>leaks</em> &middot; <strong>-ing form:</strong> <em>leaking</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd><em>leak</em> sounds exactly like the vegetable <em>leek</em>.</dd></dl>
+<p>To let liquid or gas escape through a hole or crack.</p>
+<ol><li>The roof <em>leaked</em> all through April.</li><li>That valve <em>leaks</em> whenever it gets cold.</li><li>Oil was <em>leaking</em> onto the driveway all night.</li></ol>
+<hr>
+<h3 id="jam">jam<a class="hash" href="#jam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒæm/ &middot; <em>JAM</em></dd><dt>Русский</dt><dd>заклинивать, заклинить; застревать, застрять</dd><dt>Forms</dt><dd><em>jam</em> &middot; <em>jammed</em> &middot; <em>jammed</em></dd><dt>Third person</dt><dd><em>jams</em> &middot; <strong>-ing form:</strong> <em>jamming</em></dd><dt>Transitivity</dt><dd>both — transitive (sand <em>jams</em> the lock), intransitive (the printer <em>jammed</em>)</dd><dt>Contrast</dt><dd>The m doubles: <em>jammed</em>, <em>jamming</em>.</dd></dl>
+<p>To stick so that something cannot move or work, or to make it stick.</p>
+<ol><li>The printer <em>jammed</em> twice this morning.</li><li>Fine sand <em>jams</em> the mechanism in a week.</li><li>That window has been <em>jammed</em> shut for years.</li></ol>
+<hr>
+<h3 id="clog">clog<a class="hash" href="#clog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɑːɡ/ &middot; <em>KLAHG</em></dd><dt>Русский</dt><dd>засорять, засорить; забивать, забить</dd><dt>Forms</dt><dd><em>clog</em> &middot; <em>clogged</em> &middot; <em>clogged</em></dd><dt>Third person</dt><dd><em>clogs</em> &middot; <strong>-ing form:</strong> <em>clogging</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>The g doubles: <em>clogged</em>, <em>clogging</em>.</dd></dl>
+<p>To block a pipe or an opening so that nothing can pass through.</p>
+<ol><li>Grease <em>clogged</em> the kitchen drain.</li><li>Leaves <em>clog</em> the gutters every fall.</li><li>The filter was completely <em>clogged</em> with dust.</li></ol>
+<hr>
+<h3 id="malfunction">malfunction<a class="hash" href="#malfunction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmælˈfʌŋkʃən/ &middot; <em>mal-FUNK-shuhn</em></dd><dt>Русский</dt><dd>выходить из строя, выйти из строя; отказывать, отказать</dd><dt>Forms</dt><dd><em>malfunction</em> &middot; <em>malfunctioned</em> &middot; <em>malfunctioned</em></dd><dt>Third person</dt><dd><em>malfunctions</em> &middot; <strong>-ing form:</strong> <em>malfunctioning</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To stop working correctly.</p>
+<ol><li>The alarm <em>malfunctioned</em> during the drill.</li><li>These sensors <em>malfunction</em> in freezing weather.</li><li>A <em>malfunctioning</em> pump flooded the whole basement.</li></ol>
+<hr>
+<h3 id="stall">stall<a class="hash" href="#stall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɔːl/ &middot; <em>STAWL</em></dd><dt>Русский</dt><dd>глохнуть, заглохнуть (о двигателе)</dd><dt>Forms</dt><dd><em>stall</em> &middot; <em>stalled</em> &middot; <em>stalled</em></dd><dt>Third person</dt><dd><em>stalls</em> &middot; <strong>-ing form:</strong> <em>stalling</em></dd><dt>Transitivity</dt><dd>both — transitive (he <em>stalled</em> the car), intransitive (the engine <em>stalled</em>)</dd></dl>
+<p>To stop running suddenly, the way an engine does.</p>
+<ol><li>The car <em>stalled</em> at the light and wouldn't start.</li><li>It <em>stalls</em> every time I shift too early.</li><li>We were <em>stalling</em> out on the freeway with the flashers on.</li></ol>
+<hr>
+<h3 id="expire">expire<a class="hash" href="#expire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈspaɪə/ &middot; <em>ik-SPYR</em></dd><dt>Русский</dt><dd>истекать, истечь (о сроке); просрочиваться</dd><dt>Forms</dt><dd><em>expire</em> &middot; <em>expired</em> &middot; <em>expired</em></dd><dt>Third person</dt><dd><em>expires</em> &middot; <strong>-ing form:</strong> <em>expiring</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To reach the end of the period during which something can be used.</p>
+<ol><li>The warranty <em>expired</em> last month.</li><li>These batteries <em>expire</em> in 2029.</li><li>He was driving on an <em>expired</em> license.</li></ol>
+<hr>
+<h3 id="strain">strain<a class="hash" href="#strain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/streɪn/ &middot; <em>STRAYN</em></dd><dt>Русский</dt><dd>растягивать, растянуть (мышцу); перенапрягать, перенапрячь</dd><dt>Forms</dt><dd><em>strain</em> &middot; <em>strained</em> &middot; <em>strained</em></dd><dt>Third person</dt><dd><em>strains</em> &middot; <strong>-ing form:</strong> <em>straining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To injure a muscle, or to pull something so hard that it is close to breaking.</p>
+<ol><li>He <em>strained</em> his back moving the piano.</li><li>Don't <em>strain</em> that cable — it's already frayed.</li><li>The bolts were <em>strained</em> to the limit.</li></ol>
+<hr>
+<h3 id="age">age<a class="hash" href="#age" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eɪdʒ/ &middot; <em>AYJ</em></dd><dt>Русский</dt><dd>стареть, постареть; изнашиваться со временем</dd><dt>Forms</dt><dd><em>age</em> &middot; <em>aged</em> &middot; <em>aged</em></dd><dt>Third person</dt><dd><em>ages</em> &middot; <strong>-ing form:</strong> <em>aging</em></dd><dt>Transitivity</dt><dd>both</dd><dt>Contrast</dt><dd>American English writes <em>aging</em> with one e; British English writes <em>ageing</em>.</dd></dl>
+<p>To grow old, or to change over time the way old things do.</p>
+<ol><li>The rubber gaskets <em>aged</em> and finally cracked.</li><li>Cedar <em>ages</em> to a soft gray if you leave it bare.</li><li>The paint was <em>aging</em> badly on the south wall.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

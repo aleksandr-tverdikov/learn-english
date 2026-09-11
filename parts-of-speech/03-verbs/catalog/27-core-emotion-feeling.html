@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: emotion</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-emotion">Core verbs: emotion<a class="hash" href="#core-verbs-emotion" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of emotion — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="like">like<a class="hash" href="#like" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laɪk/ &middot; <em>LYK</em></dd><dt>Русский</dt><dd>нравиться, понравиться; любить</dd><dt>Forms</dt><dd><em>like</em> &middot; <em>liked</em> &middot; <em>liked</em></dd><dt>Third person</dt><dd><em>likes</em> &middot; <strong>-ing form:</strong> <em>liking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To find someone or something pleasant or enjoyable.</p>
+<ol><li>I <em>like</em> your new haircut.</li><li>She <em>liked</em> the movie much more than the book.</li><li>He has always <em>liked</em> working outdoors.</li></ol>
+<hr>
+<h3 id="love">love<a class="hash" href="#love" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lʌv/ &middot; <em>LUV</em></dd><dt>Русский</dt><dd>любить, полюбить; обожать</dd><dt>Forms</dt><dd><em>love</em> &middot; <em>loved</em> &middot; <em>loved</em></dd><dt>Third person</dt><dd><em>loves</em> &middot; <strong>-ing form:</strong> <em>loving</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To feel deep affection or very strong liking for someone or something.</p>
+<ol><li>They <em>love</em> their grandchildren more than anything.</li><li>I <em>loved</em> that little restaurant downtown.</li><li>She has <em>loved</em> the ocean since she was a child.</li></ol>
+<hr>
+<h3 id="enjoy">enjoy<a class="hash" href="#enjoy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdʒɔɪ/ &middot; <em>in-JOY</em></dd><dt>Русский</dt><dd>наслаждаться, получать удовольствие</dd><dt>Forms</dt><dd><em>enjoy</em> &middot; <em>enjoyed</em> &middot; <em>enjoyed</em></dd><dt>Third person</dt><dd><em>enjoys</em> &middot; <strong>-ing form:</strong> <em>enjoying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Followed by <em>-ing</em>, never by <em>to</em>: <em>I enjoy reading</em>, not <em>I enjoy to read</em>.</dd></dl>
+<p>To get pleasure from something.</p>
+<ol><li>We <em>enjoy</em> long walks after dinner.</li><li>I <em>enjoyed</em> every minute of the concert.</li><li>The kids are <em>enjoying</em> the warm weather.</li></ol>
+<hr>
+<h3 id="adore">adore<a class="hash" href="#adore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdɔːr/ &middot; <em>uh-DOR</em></dd><dt>Русский</dt><dd>обожать</dd><dt>Forms</dt><dd><em>adore</em> &middot; <em>adored</em> &middot; <em>adored</em></dd><dt>Third person</dt><dd><em>adores</em> &middot; <strong>-ing form:</strong> <em>adoring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To love someone or something very much.</p>
+<ol><li>The kids <em>adore</em> their new puppy.</li><li>She <em>adored</em> her grandfather.</li><li>He has <em>adored</em> jazz since he was a teenager.</li></ol>
+<hr>
+<h3 id="admire">admire<a class="hash" href="#admire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈmaɪər/ &middot; <em>uhd-MYR</em></dd><dt>Русский</dt><dd>восхищаться, восхититься; любоваться</dd><dt>Forms</dt><dd><em>admire</em> &middot; <em>admired</em> &middot; <em>admired</em></dd><dt>Third person</dt><dd><em>admires</em> &middot; <strong>-ing form:</strong> <em>admiring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To respect and think highly of someone, or to look at something with pleasure.</p>
+<ol><li>I <em>admire</em> her patience with the students.</li><li>We <em>admired</em> the view from the bridge for a while.</li><li>He has always <em>admired</em> his older sister.</li></ol>
+<hr>
+<h3 id="appreciate">appreciate<a class="hash" href="#appreciate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpriːʃieɪt/ &middot; <em>uh-PREE-shee-ayt</em></dd><dt>Русский</dt><dd>ценить, оценить; быть благодарным</dd><dt>Forms</dt><dd><em>appreciate</em> &middot; <em>appreciated</em> &middot; <em>appreciated</em></dd><dt>Third person</dt><dd><em>appreciates</em> &middot; <strong>-ing form:</strong> <em>appreciating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To be grateful for something, or to recognize its true value.</p>
+<ol><li>I really <em>appreciate</em> your help with the move.</li><li>She <em>appreciated</em> the honest feedback.</li><li>He has never <em>appreciated</em> how much work goes into it.</li></ol>
+<hr>
+<h3 id="cherish">cherish<a class="hash" href="#cherish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛrɪʃ/ &middot; <em>CHER-ish</em></dd><dt>Русский</dt><dd>дорожить, лелеять</dd><dt>Forms</dt><dd><em>cherish</em> &middot; <em>cherished</em> &middot; <em>cherished</em></dd><dt>Third person</dt><dd><em>cherishes</em> &middot; <strong>-ing form:</strong> <em>cherishing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To care for something deeply and keep it precious.</p>
+<ol><li>They <em>cherish</em> the time they get together.</li><li>She <em>cherished</em> every letter he sent.</li><li>It is a memory he has <em>cherished</em> for forty years.</li></ol>
+<hr>
+<h3 id="respect">respect<a class="hash" href="#respect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈspɛkt/ &middot; <em>ri-SPEKT</em></dd><dt>Русский</dt><dd>уважать, относиться с уважением</dd><dt>Forms</dt><dd><em>respect</em> &middot; <em>respected</em> &middot; <em>respected</em></dd><dt>Third person</dt><dd><em>respects</em> &middot; <strong>-ing form:</strong> <em>respecting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To admire someone's qualities, or to accept their rights and wishes.</p>
+<ol><li>Students <em>respect</em> her because she is fair.</li><li>He <em>respected</em> their decision even though he disagreed.</li><li>She has been <em>respected</em> by her colleagues for years.</li></ol>
+<hr>
+<h3 id="value">value<a class="hash" href="#value" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvæljuː/ &middot; <em>VAL-yoo</em></dd><dt>Русский</dt><dd>ценить, дорожить</dd><dt>Forms</dt><dd><em>value</em> &middot; <em>valued</em> &middot; <em>valued</em></dd><dt>Third person</dt><dd><em>values</em> &middot; <strong>-ing form:</strong> <em>valuing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To consider something important and worth having.</p>
+<ol><li>We <em>value</em> your feedback.</li><li>She <em>valued</em> his honesty above everything else.</li><li>He has always <em>valued</em> loyalty in a friend.</li></ol>
+<hr>
+<h3 id="treasure">treasure<a class="hash" href="#treasure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɛʒər/ &middot; <em>TREZH-ur</em></dd><dt>Русский</dt><dd>дорожить, беречь</dd><dt>Forms</dt><dd><em>treasure</em> &middot; <em>treasured</em> &middot; <em>treasured</em></dd><dt>Third person</dt><dd><em>treasures</em> &middot; <strong>-ing form:</strong> <em>treasuring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep something as very precious because of what it means to you.</p>
+<ol><li>I <em>treasure</em> the letters my mother wrote.</li><li>She <em>treasured</em> that old photograph.</li><li>He has <em>treasured</em> the watch since his father gave it to him.</li></ol>
+<hr>
+<h3 id="hate">hate<a class="hash" href="#hate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/heɪt/ &middot; <em>HAYT</em></dd><dt>Русский</dt><dd>ненавидеть; очень не любить</dd><dt>Forms</dt><dd><em>hate</em> &middot; <em>hated</em> &middot; <em>hated</em></dd><dt>Third person</dt><dd><em>hates</em> &middot; <strong>-ing form:</strong> <em>hating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To dislike someone or something very strongly.</p>
+<ol><li>I <em>hate</em> getting up before six.</li><li>She <em>hated</em> the noise from the street.</li><li>He has <em>hated</em> flying since he was a kid.</li></ol>
+<hr>
+<h3 id="dislike">dislike<a class="hash" href="#dislike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈlaɪk/ &middot; <em>dis-LYK</em></dd><dt>Русский</dt><dd>не любить, испытывать неприязнь</dd><dt>Forms</dt><dd><em>dislike</em> &middot; <em>disliked</em> &middot; <em>disliked</em></dd><dt>Third person</dt><dd><em>dislikes</em> &middot; <strong>-ing form:</strong> <em>disliking</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Always needs an object: <em>I dislike it</em>, not <em>I dislike</em>.</dd></dl>
+<p>To find someone or something unpleasant.</p>
+<ol><li>I <em>dislike</em> crowded places.</li><li>She <em>disliked</em> him from the first meeting.</li><li>They have always <em>disliked</em> the new rules.</li></ol>
+<hr>
+<h3 id="despise">despise<a class="hash" href="#despise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈspaɪz/ &middot; <em>di-SPYZ</em></dd><dt>Русский</dt><dd>презирать</dd><dt>Forms</dt><dd><em>despise</em> &middot; <em>despised</em> &middot; <em>despised</em></dd><dt>Third person</dt><dd><em>despises</em> &middot; <strong>-ing form:</strong> <em>despising</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To look down on someone or something with strong contempt.</p>
+<ol><li>He <em>despises</em> dishonesty of any kind.</li><li>She <em>despised</em> the way they treated the staff.</li><li>He has <em>despised</em> that company for years.</li></ol>
+<hr>
+<h3 id="detest">detest<a class="hash" href="#detest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈtɛst/ &middot; <em>di-TEST</em></dd><dt>Русский</dt><dd>ненавидеть, терпеть не мочь</dd><dt>Forms</dt><dd><em>detest</em> &middot; <em>detested</em> &middot; <em>detested</em></dd><dt>Third person</dt><dd><em>detests</em> &middot; <strong>-ing form:</strong> <em>detesting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To hate something intensely.</p>
+<ol><li>I <em>detest</em> cold coffee.</li><li>She <em>detested</em> every minute of the trip.</li><li>He has <em>detested</em> public speaking all his life.</li></ol>
+<hr>
+<h3 id="loathe">loathe<a class="hash" href="#loathe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/loʊð/ &middot; <em>LOHTH</em></dd><dt>Русский</dt><dd>питать отвращение, ненавидеть</dd><dt>Forms</dt><dd><em>loathe</em> &middot; <em>loathed</em> &middot; <em>loathed</em></dd><dt>Third person</dt><dd><em>loathes</em> &middot; <strong>-ing form:</strong> <em>loathing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb <em>loathe</em> /loʊð/ is not the adjective <em>loath</em> /loʊθ/, which means 'unwilling'.</dd></dl>
+<p>To feel disgust and hatred for someone or something.</p>
+<ol><li>I <em>loathe</em> the smell of gasoline.</li><li>She <em>loathed</em> her old job.</li><li>He has <em>loathed</em> early mornings since college.</li></ol>
+<hr>
+<h3 id="resent">resent<a class="hash" href="#resent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈzɛnt/ &middot; <em>ri-ZENT</em></dd><dt>Русский</dt><dd>обижаться, возмущаться; таить обиду</dd><dt>Forms</dt><dd><em>resent</em> &middot; <em>resented</em> &middot; <em>resented</em></dd><dt>Third person</dt><dd><em>resents</em> &middot; <strong>-ing form:</strong> <em>resenting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To feel bitter about something you think is unfair.</p>
+<ol><li>She <em>resents</em> being told what to wear.</li><li>He <em>resented</em> the extra work at first.</li><li>They have <em>resented</em> that decision for years.</li></ol>
+<hr>
+<h3 id="disgust">disgust<a class="hash" href="#disgust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈɡʌst/ &middot; <em>dis-GUST</em></dd><dt>Русский</dt><dd>вызывать отвращение, внушать отвращение</dd><dt>Forms</dt><dd><em>disgust</em> &middot; <em>disgusted</em> &middot; <em>disgusted</em></dd><dt>Third person</dt><dd><em>disgusts</em> &middot; <strong>-ing form:</strong> <em>disgusting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone feel strong dislike and revulsion.</p>
+<ol><li>Cruelty to animals <em>disgusts</em> me.</li><li>The state of the kitchen <em>disgusted</em> her.</li><li>He was <em>disgusted</em> by what he read online.</li></ol>
+<hr>
+<h3 id="scare">scare<a class="hash" href="#scare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɛr/ &middot; <em>SKAIR</em></dd><dt>Русский</dt><dd>пугать, испугать</dd><dt>Forms</dt><dd><em>scare</em> &middot; <em>scared</em> &middot; <em>scared</em></dd><dt>Third person</dt><dd><em>scares</em> &middot; <strong>-ing form:</strong> <em>scaring</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>you scared me</em>), intransitive (<em>she scares easily</em>)</dd><dt>Contrast</dt><dd>The feeling takes <em>of</em>: <em>She's scared <strong>of</strong> spiders</em>.</dd></dl>
+<p>To make someone suddenly afraid.</p>
+<ol><li>Loud noises <em>scare</em> the dog.</li><li>You <em>scared</em> me half to death.</li><li>He is <em>scaring</em> the children with that mask.</li></ol>
+<hr>
+<h3 id="frighten">frighten<a class="hash" href="#frighten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfraɪtən/ &middot; <em>FRY-tuhn</em></dd><dt>Русский</dt><dd>пугать, напугать</dd><dt>Forms</dt><dd><em>frighten</em> &middot; <em>frightened</em> &middot; <em>frightened</em></dd><dt>Third person</dt><dd><em>frightens</em> &middot; <strong>-ing form:</strong> <em>frightening</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone feel fear.</p>
+<ol><li>Thunderstorms <em>frighten</em> the baby.</li><li>The sudden noise <em>frightened</em> her.</li><li>He has never been <em>frightened</em> by the dark.</li></ol>
+<hr>
+<h3 id="terrify">terrify<a class="hash" href="#terrify" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛrəfaɪ/ &middot; <em>TER-uh-fy</em></dd><dt>Русский</dt><dd>ужасать, приводить в ужас</dd><dt>Forms</dt><dd><em>terrify</em> &middot; <em>terrified</em> &middot; <em>terrified</em></dd><dt>Third person</dt><dd><em>terrifies</em> &middot; <strong>-ing form:</strong> <em>terrifying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>-y</em> becomes <em>-ies</em> and <em>-ied</em>: <em>terrifies</em>, <em>terrified</em> — but <em>terrifying</em> keeps the y.</dd></dl>
+<p>To fill someone with extreme fear.</p>
+<ol><li>Snakes <em>terrify</em> my brother.</li><li>The turbulence <em>terrified</em> the passengers.</li><li>She was <em>terrified</em> of losing her job.</li></ol>
+<hr>
+<h3 id="dread">dread<a class="hash" href="#dread" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drɛd/ &middot; <em>DRED</em></dd><dt>Русский</dt><dd>страшиться, бояться заранее</dd><dt>Forms</dt><dd><em>dread</em> &middot; <em>dreaded</em> &middot; <em>dreaded</em></dd><dt>Third person</dt><dd><em>dreads</em> &middot; <strong>-ing form:</strong> <em>dreading</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Usually followed by <em>-ing</em>: <em>I dread telling him</em>.</dd></dl>
+<p>To feel anxious fear about something that is coming.</p>
+<ol><li>I <em>dread</em> Monday mornings.</li><li>She <em>dreaded</em> the phone call all week.</li><li>He has been <em>dreading</em> this meeting for days.</li></ol>
+<hr>
+<h3 id="alarm">alarm<a class="hash" href="#alarm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlɑːrm/ &middot; <em>uh-LARM</em></dd><dt>Русский</dt><dd>тревожить, встревожить</dd><dt>Forms</dt><dd><em>alarm</em> &middot; <em>alarmed</em> &middot; <em>alarmed</em></dd><dt>Third person</dt><dd><em>alarms</em> &middot; <strong>-ing form:</strong> <em>alarming</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone suddenly worried or frightened.</p>
+<ol><li>The test results <em>alarm</em> her doctor.</li><li>The news <em>alarmed</em> everyone in the office.</li><li>We were <em>alarmed</em> by how fast the fire spread.</li></ol>
+<hr>
+<h3 id="startle">startle<a class="hash" href="#startle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːrtəl/ &middot; <em>STAR-tuhl</em></dd><dt>Русский</dt><dd>пугать, заставлять вздрогнуть</dd><dt>Forms</dt><dd><em>startle</em> &middot; <em>startled</em> &middot; <em>startled</em></dd><dt>Third person</dt><dd><em>startles</em> &middot; <strong>-ing form:</strong> <em>startling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To surprise someone so suddenly that they jump.</p>
+<ol><li>Don't <em>startle</em> him while he's driving.</li><li>The cat <em>startled</em> me when it jumped down.</li><li>She was <em>startled</em> by a knock at the door.</li></ol>
+<hr>
+<h3 id="horrify">horrify<a class="hash" href="#horrify" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɔːrəfaɪ/ &middot; <em>HOR-uh-fy</em></dd><dt>Русский</dt><dd>ужасать, приводить в ужас</dd><dt>Forms</dt><dd><em>horrify</em> &middot; <em>horrified</em> &middot; <em>horrified</em></dd><dt>Third person</dt><dd><em>horrifies</em> &middot; <strong>-ing form:</strong> <em>horrifying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>-y</em> changes: <em>horrifies</em>, <em>horrified</em>, but <em>horrifying</em>.</dd></dl>
+<p>To shock someone deeply and unpleasantly.</p>
+<ol><li>Those photos <em>horrify</em> everyone who sees them.</li><li>His answer <em>horrified</em> the audience.</li><li>She was <em>horrified</em> to learn the truth.</li></ol>
+<hr>
+<h3 id="panic">panic<a class="hash" href="#panic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpænɪk/ &middot; <em>PAN-ik</em></dd><dt>Русский</dt><dd>паниковать, впасть в панику</dd><dt>Forms</dt><dd><em>panic</em> &middot; <em>panicked</em> &middot; <em>panicked</em></dd><dt>Third person</dt><dd><em>panics</em> &middot; <strong>-ing form:</strong> <em>panicking</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>the rumor panicked investors</em>), intransitive (<em>don't panic</em>)</dd><dt>Contrast</dt><dd>A <em>k</em> is added before the ending: <em>panicked</em>, <em>panicking</em> — never <em>paniced</em>.</dd></dl>
+<p>To feel or cause sudden uncontrollable fear.</p>
+<ol><li>Try not to <em>panic</em> if the alarm goes off.</li><li>She <em>panicked</em> when she couldn't find her passport.</li><li>Half the crowd was <em>panicking</em> by then.</li></ol>
+<hr>
+<h3 id="tremble">tremble<a class="hash" href="#tremble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɛmbəl/ &middot; <em>TREM-buhl</em></dd><dt>Русский</dt><dd>дрожать, задрожать</dd><dt>Forms</dt><dd><em>tremble</em> &middot; <em>trembled</em> &middot; <em>trembled</em></dd><dt>Third person</dt><dd><em>trembles</em> &middot; <strong>-ing form:</strong> <em>trembling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To shake slightly from fear, cold, or strong emotion.</p>
+<ol><li>His hands <em>tremble</em> when he is nervous.</li><li>She <em>trembled</em> as she opened the envelope.</li><li>He stood there <em>trembling</em> with rage.</li></ol>
+<hr>
+<h3 id="shiver">shiver<a class="hash" href="#shiver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɪvər/ &middot; <em>SHIV-ur</em></dd><dt>Русский</dt><dd>дрожать, ежиться (от холода или страха)</dd><dt>Forms</dt><dd><em>shiver</em> &middot; <em>shivered</em> &middot; <em>shivered</em></dd><dt>Third person</dt><dd><em>shivers</em> &middot; <strong>-ing form:</strong> <em>shivering</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To shake a little because you are cold or afraid.</p>
+<ol><li>I <em>shiver</em> every time I step outside.</li><li>The children <em>shivered</em> in the wind.</li><li>She was <em>shivering</em> by the time we got home.</li></ol>
+<hr>
+<h3 id="fret">fret<a class="hash" href="#fret" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/frɛt/ &middot; <em>FRET</em></dd><dt>Русский</dt><dd>волноваться, переживать по мелочам</dd><dt>Forms</dt><dd><em>fret</em> &middot; <em>fretted</em> &middot; <em>fretted</em></dd><dt>Third person</dt><dd><em>frets</em> &middot; <strong>-ing form:</strong> <em>fretting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Doubles the <em>t</em>: <em>fretted</em>, <em>fretting</em>.</dd></dl>
+<p>To worry continuously about small things.</p>
+<ol><li>Don't <em>fret</em> about the details.</li><li>She <em>fretted</em> all night over the results.</li><li>He was <em>fretting</em> about money again.</li></ol>
+<hr>
+<h3 id="despair">despair<a class="hash" href="#despair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈspɛr/ &middot; <em>di-SPAIR</em></dd><dt>Русский</dt><dd>отчаиваться, отчаяться</dd><dt>Forms</dt><dd><em>despair</em> &middot; <em>despaired</em> &middot; <em>despaired</em></dd><dt>Third person</dt><dd><em>despairs</em> &middot; <strong>-ing form:</strong> <em>despairing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Takes <em>of</em>: <em>despair <strong>of</strong> ever finishing</em>.</dd></dl>
+<p>To lose all hope.</p>
+<ol><li>Don't <em>despair</em> — there is still time.</li><li>She <em>despaired</em> of ever finding a job.</li><li>He had almost <em>despaired</em> when the letter came.</li></ol>
+<hr>
+<h3 id="obsess">obsess<a class="hash" href="#obsess" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əbˈsɛs/ &middot; <em>uhb-SES</em></dd><dt>Русский</dt><dd>быть одержимым, зацикливаться</dd><dt>Forms</dt><dd><em>obsess</em> &middot; <em>obsessed</em> &middot; <em>obsessed</em></dd><dt>Third person</dt><dd><em>obsesses</em> &middot; <strong>-ing form:</strong> <em>obsessing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>the idea obsessed him</em>), intransitive (<em>stop obsessing</em>)</dd><dt>Contrast</dt><dd>The adjective takes <em>with</em>: <em>She's obsessed <strong>with</strong> that show</em>.</dd></dl>
+<p>To think about one thing constantly and be unable to stop.</p>
+<ol><li>Try not to <em>obsess</em> over one bad review.</li><li>The mystery <em>obsessed</em> him for years.</li><li>She has been <em>obsessing</em> about the interview all week.</li></ol>
+<hr>
+<h3 id="surprise">surprise<a class="hash" href="#surprise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈpraɪz/ &middot; <em>sur-PRYZ</em></dd><dt>Русский</dt><dd>удивлять, удивить</dd><dt>Forms</dt><dd><em>surprise</em> &middot; <em>surprised</em> &middot; <em>surprised</em></dd><dt>Third person</dt><dd><em>surprises</em> &middot; <strong>-ing form:</strong> <em>surprising</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Surprised <strong>by</strong></em> an event, <em>surprised <strong>at</strong></em> someone's behavior.</dd></dl>
+<p>To make someone feel wonder because something was unexpected.</p>
+<ol><li>Her answer <em>surprises</em> nobody.</li><li>The ending <em>surprised</em> everybody in the theater.</li><li>We were <em>surprised</em> by how cold it was.</li></ol>
+<hr>
+<h3 id="amaze">amaze<a class="hash" href="#amaze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmeɪz/ &middot; <em>uh-MAYZ</em></dd><dt>Русский</dt><dd>изумлять, поражать</dd><dt>Forms</dt><dd><em>amaze</em> &middot; <em>amazed</em> &middot; <em>amazed</em></dd><dt>Third person</dt><dd><em>amazes</em> &middot; <strong>-ing form:</strong> <em>amazing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fill someone with great surprise and wonder.</p>
+<ol><li>Your energy <em>amazes</em> me.</li><li>The size of the canyon <em>amazed</em> them.</li><li>She has <em>amazed</em> her teachers all year.</li></ol>
+<hr>
+<h3 id="astonish">astonish<a class="hash" href="#astonish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈstɑːnɪʃ/ &middot; <em>uh-STAH-nish</em></dd><dt>Русский</dt><dd>изумлять, поражать</dd><dt>Forms</dt><dd><em>astonish</em> &middot; <em>astonished</em> &middot; <em>astonished</em></dd><dt>Third person</dt><dd><em>astonishes</em> &middot; <strong>-ing form:</strong> <em>astonishing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To surprise someone very greatly.</p>
+<ol><li>His memory <em>astonishes</em> me.</li><li>The result <em>astonished</em> the experts.</li><li>We were <em>astonished</em> to see snow in April.</li></ol>
+<hr>
+<h3 id="shock">shock<a class="hash" href="#shock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɑːk/ &middot; <em>SHAHK</em></dd><dt>Русский</dt><dd>шокировать, потрясти</dd><dt>Forms</dt><dd><em>shock</em> &middot; <em>shocked</em> &middot; <em>shocked</em></dd><dt>Third person</dt><dd><em>shocks</em> &middot; <strong>-ing form:</strong> <em>shocking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To upset or offend someone with something sudden and unexpected.</p>
+<ol><li>Nothing <em>shocks</em> her anymore.</li><li>The verdict <em>shocked</em> the whole town.</li><li>They were <em>shocked</em> by the price of the tickets.</li></ol>
+<hr>
+<h3 id="stun">stun<a class="hash" href="#stun" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stʌn/ &middot; <em>STUN</em></dd><dt>Русский</dt><dd>ошеломлять, ошеломить</dd><dt>Forms</dt><dd><em>stun</em> &middot; <em>stunned</em> &middot; <em>stunned</em></dd><dt>Third person</dt><dd><em>stuns</em> &middot; <strong>-ing form:</strong> <em>stunning</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Doubles the <em>n</em>: <em>stunned</em>, <em>stunning</em>.</dd></dl>
+<p>To surprise someone so much that they cannot react.</p>
+<ol><li>The news will <em>stun</em> his fans.</li><li>Her question <em>stunned</em> the whole room.</li><li>He sat there, <em>stunned</em>, for a full minute.</li></ol>
+<hr>
+<h3 id="impress">impress<a class="hash" href="#impress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈprɛs/ &middot; <em>im-PRES</em></dd><dt>Русский</dt><dd>впечатлять, произвести впечатление</dd><dt>Forms</dt><dd><em>impress</em> &middot; <em>impressed</em> &middot; <em>impressed</em></dd><dt>Third person</dt><dd><em>impresses</em> &middot; <strong>-ing form:</strong> <em>impressing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Impressed <strong>by</strong></em> or <em>impressed <strong>with</strong></em> — never <em>impressed from</em>.</dd></dl>
+<p>To make someone feel admiration.</p>
+<ol><li>Her essay <em>impresses</em> every reader.</li><li>The chef <em>impressed</em> us with a very simple soup.</li><li>We were <em>impressed</em> by how quickly they finished.</li></ol>
+<hr>
+<h3 id="please">please<a class="hash" href="#please" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pliːz/ &middot; <em>PLEEZ</em></dd><dt>Русский</dt><dd>радовать, доставлять удовольствие; угождать</dd><dt>Forms</dt><dd><em>please</em> &middot; <em>pleased</em> &middot; <em>pleased</em></dd><dt>Third person</dt><dd><em>pleases</em> &middot; <strong>-ing form:</strong> <em>pleasing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>the gift pleased her</em>), intransitive (<em>do as you please</em>)</dd></dl>
+<p>To make someone feel happy or satisfied.</p>
+<ol><li>Small things <em>please</em> him.</li><li>The gift <em>pleased</em> her enormously.</li><li>We were <em>pleased</em> to hear the good news.</li></ol>
+<hr>
+<h3 id="delight">delight<a class="hash" href="#delight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈlaɪt/ &middot; <em>di-LYT</em></dd><dt>Русский</dt><dd>восхищать, радовать</dd><dt>Forms</dt><dd><em>delight</em> &middot; <em>delighted</em> &middot; <em>delighted</em></dd><dt>Third person</dt><dd><em>delights</em> &middot; <strong>-ing form:</strong> <em>delighting</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>the show delighted us</em>), intransitive (<em>she delights in cooking</em>)</dd><dt>Contrast</dt><dd>In the intransitive sense it takes <em>in</em>: <em>He delights <strong>in</strong> proving people wrong</em>.</dd></dl>
+<p>To give someone great pleasure.</p>
+<ol><li>Simple magic tricks <em>delight</em> small children.</li><li>The concert <em>delighted</em> the whole audience.</li><li>She was <em>delighted</em> to get the invitation.</li></ol>
+<hr>
+<h3 id="satisfy">satisfy<a class="hash" href="#satisfy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsætɪsfaɪ/ &middot; <em>SAT-is-fy</em></dd><dt>Русский</dt><dd>удовлетворять, удовлетворить</dd><dt>Forms</dt><dd><em>satisfy</em> &middot; <em>satisfied</em> &middot; <em>satisfied</em></dd><dt>Third person</dt><dd><em>satisfies</em> &middot; <strong>-ing form:</strong> <em>satisfying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>-y</em> changes: <em>satisfies</em>, <em>satisfied</em>, but <em>satisfying</em>.</dd></dl>
+<p>To make someone content by giving them what they want or need.</p>
+<ol><li>Nothing I do <em>satisfies</em> him.</li><li>That answer <em>satisfied</em> the committee.</li><li>He has never been <em>satisfied</em> with second place.</li></ol>
+<hr>
+<h3 id="thrill">thrill<a class="hash" href="#thrill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θrɪl/ &middot; <em>THRIL</em></dd><dt>Русский</dt><dd>приводить в восторг, волновать</dd><dt>Forms</dt><dd><em>thrill</em> &middot; <em>thrilled</em> &middot; <em>thrilled</em></dd><dt>Third person</dt><dd><em>thrills</em> &middot; <strong>-ing form:</strong> <em>thrilling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give someone a sudden feeling of great excitement.</p>
+<ol><li>Roller coasters <em>thrill</em> him.</li><li>The surprise ending <em>thrilled</em> the crowd.</li><li>She was <em>thrilled</em> to hear from you.</li></ol>
+<hr>
+<h3 id="excite">excite<a class="hash" href="#excite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsaɪt/ &middot; <em>ik-SYT</em></dd><dt>Русский</dt><dd>волновать, воодушевлять, радовать</dd><dt>Forms</dt><dd><em>excite</em> &middot; <em>excited</em> &middot; <em>excited</em></dd><dt>Third person</dt><dd><em>excites</em> &middot; <strong>-ing form:</strong> <em>exciting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone feel eager and full of energy about something.</p>
+<ol><li>Travel plans always <em>excite</em> the kids.</li><li>The announcement <em>excited</em> everyone in the room.</li><li>They were <em>excited</em> about the trip for weeks.</li></ol>
+<hr>
+<h3 id="amuse">amuse<a class="hash" href="#amuse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmjuːz/ &middot; <em>uh-MYOOZ</em></dd><dt>Русский</dt><dd>забавлять, развлекать, веселить</dd><dt>Forms</dt><dd><em>amuse</em> &middot; <em>amused</em> &middot; <em>amused</em></dd><dt>Third person</dt><dd><em>amuses</em> &middot; <strong>-ing form:</strong> <em>amusing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone smile or laugh, or to keep them pleasantly occupied.</p>
+<ol><li>His stories <em>amuse</em> everyone at the table.</li><li>The puppet show <em>amused</em> the children for an hour.</li><li>She was not <em>amused</em> by the joke.</li></ol>
+<hr>
+<h3 id="entertain">entertain<a class="hash" href="#entertain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛntərˈteɪn/ &middot; <em>en-tur-TAYN</em></dd><dt>Русский</dt><dd>развлекать, развлечь</dd><dt>Forms</dt><dd><em>entertain</em> &middot; <em>entertained</em> &middot; <em>entertained</em></dd><dt>Third person</dt><dd><em>entertains</em> &middot; <strong>-ing form:</strong> <em>entertaining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep people interested and enjoying themselves.</p>
+<ol><li>Clowns <em>entertain</em> the crowd between acts.</li><li>He <em>entertained</em> us with stories from the road.</li><li>The kids were <em>entertaining</em> themselves with a cardboard box.</li></ol>
+<hr>
+<h3 id="celebrate">celebrate<a class="hash" href="#celebrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛləbreɪt/ &middot; <em>SEL-uh-brayt</em></dd><dt>Русский</dt><dd>праздновать, отмечать</dd><dt>Forms</dt><dd><em>celebrate</em> &middot; <em>celebrated</em> &middot; <em>celebrated</em></dd><dt>Third person</dt><dd><em>celebrates</em> &middot; <strong>-ing form:</strong> <em>celebrating</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>celebrate a birthday</em>), intransitive (<em>let's celebrate</em>)</dd></dl>
+<p>To do something enjoyable to mark a happy event.</p>
+<ol><li>We <em>celebrate</em> Thanksgiving with my in-laws.</li><li>They <em>celebrated</em> their anniversary in Chicago.</li><li>The whole town was <em>celebrating</em> that night.</li></ol>
+<hr>
+<h3 id="rejoice">rejoice<a class="hash" href="#rejoice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈdʒɔɪs/ &middot; <em>ri-JOYS</em></dd><dt>Русский</dt><dd>радоваться, ликовать</dd><dt>Forms</dt><dd><em>rejoice</em> &middot; <em>rejoiced</em> &middot; <em>rejoiced</em></dd><dt>Third person</dt><dd><em>rejoices</em> &middot; <strong>-ing form:</strong> <em>rejoicing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Takes <em>at</em> or <em>in</em>: <em>rejoice <strong>at</strong> the news</em>, <em>rejoice <strong>in</strong> her success</em>.</dd></dl>
+<p>To feel and show great joy.</p>
+<ol><li>The whole town will <em>rejoice</em> at that news.</li><li>They <em>rejoiced</em> when the war finally ended.</li><li>Fans were <em>rejoicing</em> in the streets.</li></ol>
+<hr>
+<h3 id="comfort">comfort<a class="hash" href="#comfort" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌmfərt/ &middot; <em>KUM-furt</em></dd><dt>Русский</dt><dd>утешать, утешить</dd><dt>Forms</dt><dd><em>comfort</em> &middot; <em>comforted</em> &middot; <em>comforted</em></dd><dt>Third person</dt><dd><em>comforts</em> &middot; <strong>-ing form:</strong> <em>comforting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone feel less sad or worried.</p>
+<ol><li>A warm drink <em>comforts</em> her when she is sad.</li><li>He <em>comforted</em> the child until her mother came.</li><li>She sat with him, <em>comforting</em> him as best she could.</li></ol>
+<hr>
+<h3 id="console">console<a class="hash" href="#console" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈsoʊl/ &middot; <em>kuhn-SOHL</em></dd><dt>Русский</dt><dd>утешать, утешить</dd><dt>Forms</dt><dd><em>console</em> &middot; <em>consoled</em> &middot; <em>consoled</em></dd><dt>Third person</dt><dd><em>consoles</em> &middot; <strong>-ing form:</strong> <em>consoling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is /kənˈsoʊl/; the noun <em>console</em> (a game console, a control panel) is /ˈkɑːnsoʊl/.</dd></dl>
+<p>To give sympathy to someone who is disappointed or grieving.</p>
+<ol><li>Nothing I say seems to <em>console</em> her.</li><li>He <em>consoled</em> the losing team in the locker room.</li><li>She was <em>consoled</em> by how many people came.</li></ol>
+<hr>
+<h3 id="soothe">soothe<a class="hash" href="#soothe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/suːð/ &middot; <em>SOOTH</em></dd><dt>Русский</dt><dd>успокаивать, унимать; облегчать</dd><dt>Forms</dt><dd><em>soothe</em> &middot; <em>soothed</em> &middot; <em>soothed</em></dd><dt>Third person</dt><dd><em>soothes</em> &middot; <strong>-ing form:</strong> <em>soothing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To calm someone down, or to make a pain feel less sharp.</p>
+<ol><li>Warm milk <em>soothes</em> him before bed.</li><li>She <em>soothed</em> the baby with an old song.</li><li>The cream is already <em>soothing</em> the burn.</li></ol>
+<hr>
+<h3 id="calm">calm<a class="hash" href="#calm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːm/ &middot; <em>KAHM</em></dd><dt>Русский</dt><dd>успокаивать, успокоить</dd><dt>Forms</dt><dd><em>calm</em> &middot; <em>calmed</em> &middot; <em>calmed</em></dd><dt>Third person</dt><dd><em>calms</em> &middot; <strong>-ing form:</strong> <em>calming</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>l</em> is silent: /kɑːm/, one syllable.</dd></dl>
+<p>To make someone or something quiet and peaceful again.</p>
+<ol><li>Deep breaths <em>calm</em> her nerves.</li><li>He <em>calmed</em> the frightened horse in a minute.</li><li>Her voice was <em>calming</em> everyone in the room.</li></ol>
+<hr>
+<h3 id="relax">relax<a class="hash" href="#relax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈlæks/ &middot; <em>ri-LAKS</em></dd><dt>Русский</dt><dd>расслабляться, расслабиться; успокаиваться</dd><dt>Forms</dt><dd><em>relax</em> &middot; <em>relaxed</em> &middot; <em>relaxed</em></dd><dt>Third person</dt><dd><em>relaxes</em> &middot; <strong>-ing form:</strong> <em>relaxing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>the music relaxes me</em>), intransitive (<em>relax for an hour</em>)</dd></dl>
+<p>To become or make less tense and worried.</p>
+<ol><li>I <em>relax</em> by walking the dog.</li><li>We <em>relaxed</em> on the porch all afternoon.</li><li>He was finally <em>relaxing</em> after a long week.</li></ol>
+<hr>
+<h3 id="inspire">inspire<a class="hash" href="#inspire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈspaɪər/ &middot; <em>in-SPYR</em></dd><dt>Русский</dt><dd>вдохновлять, воодушевлять</dd><dt>Forms</dt><dd><em>inspire</em> &middot; <em>inspired</em> &middot; <em>inspired</em></dd><dt>Third person</dt><dd><em>inspires</em> &middot; <strong>-ing form:</strong> <em>inspiring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fill someone with the desire or the ability to do something.</p>
+<ol><li>Her story <em>inspires</em> young athletes.</li><li>The trip <em>inspired</em> him to learn Spanish.</li><li>She has <em>inspired</em> a whole generation of writers.</li></ol>
+<hr>
+<h3 id="motivate">motivate<a class="hash" href="#motivate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊtəveɪt/ &middot; <em>MOH-tuh-vayt</em></dd><dt>Русский</dt><dd>мотивировать, побуждать</dd><dt>Forms</dt><dd><em>motivate</em> &middot; <em>motivated</em> &middot; <em>motivated</em></dd><dt>Third person</dt><dd><em>motivates</em> &middot; <strong>-ing form:</strong> <em>motivating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give someone a reason to act or to keep trying.</p>
+<ol><li>Money doesn't <em>motivate</em> everyone.</li><li>Her coach <em>motivated</em> her with small weekly goals.</li><li>The team has been <em>motivated</em> by last year's loss.</li></ol>
+<hr>
+<h3 id="annoy">annoy<a class="hash" href="#annoy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈnɔɪ/ &middot; <em>uh-NOY</em></dd><dt>Русский</dt><dd>раздражать, досаждать</dd><dt>Forms</dt><dd><em>annoy</em> &middot; <em>annoyed</em> &middot; <em>annoyed</em></dd><dt>Third person</dt><dd><em>annoys</em> &middot; <strong>-ing form:</strong> <em>annoying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Annoyed <strong>with</strong></em> a person, <em>annoyed <strong>at/by</strong></em> a thing.</dd></dl>
+<p>To make someone slightly angry.</p>
+<ol><li>Loud chewing <em>annoys</em> me.</li><li>His constant texting <em>annoyed</em> the teacher.</li><li>She was <em>annoyed</em> that nobody had called.</li></ol>
+<hr>
+<h3 id="irritate">irritate<a class="hash" href="#irritate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrəteɪt/ &middot; <em>IR-uh-tayt</em></dd><dt>Русский</dt><dd>раздражать, злить</dd><dt>Forms</dt><dd><em>irritate</em> &middot; <em>irritated</em> &middot; <em>irritated</em></dd><dt>Third person</dt><dd><em>irritates</em> &middot; <strong>-ing form:</strong> <em>irritating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone impatient and annoyed, or to make skin sore.</p>
+<ol><li>That noise <em>irritates</em> everyone in the office.</li><li>His tone <em>irritated</em> her.</li><li>The wool sweater is <em>irritating</em> my skin.</li></ol>
+<hr>
+<h3 id="bother">bother<a class="hash" href="#bother" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːðər/ &middot; <em>BAH-thur</em></dd><dt>Русский</dt><dd>беспокоить, надоедать; утруждаться</dd><dt>Forms</dt><dd><em>bother</em> &middot; <em>bothered</em> &middot; <em>bothered</em></dd><dt>Third person</dt><dd><em>bothers</em> &middot; <strong>-ing form:</strong> <em>bothering</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>don't bother me</em>), intransitive (<em>don't bother</em>)</dd></dl>
+<p>To disturb someone, or to make the effort to do something.</p>
+<ol><li>Does the noise <em>bother</em> you?</li><li>It <em>bothered</em> him that she never replied.</li><li>He has been <em>bothering</em> me about it all week.</li></ol>
+<hr>
+<h3 id="anger">anger<a class="hash" href="#anger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋɡər/ &middot; <em>ANG-gur</em></dd><dt>Русский</dt><dd>сердить, злить, разгневать</dd><dt>Forms</dt><dd><em>anger</em> &middot; <em>angered</em> &middot; <em>angered</em></dd><dt>Third person</dt><dd><em>angers</em> &middot; <strong>-ing form:</strong> <em>angering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone angry.</p>
+<ol><li>Nothing <em>angers</em> him like unfairness.</li><li>The decision <em>angered</em> thousands of people.</li><li>Fans were <em>angered</em> by the sudden price hike.</li></ol>
+<hr>
+<h3 id="enrage">enrage<a class="hash" href="#enrage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈreɪdʒ/ &middot; <em>in-RAYJ</em></dd><dt>Русский</dt><dd>приводить в ярость, разъярить</dd><dt>Forms</dt><dd><em>enrage</em> &middot; <em>enraged</em> &middot; <em>enraged</em></dd><dt>Third person</dt><dd><em>enrages</em> &middot; <strong>-ing form:</strong> <em>enraging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone extremely angry.</p>
+<ol><li>Comments like that <em>enrage</em> the whole community.</li><li>The verdict <em>enraged</em> the crowd outside.</li><li>He was <em>enraged</em> by the accusation.</li></ol>
+<hr>
+<h3 id="infuriate">infuriate<a class="hash" href="#infuriate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈfjʊrieɪt/ &middot; <em>in-FYOOR-ee-ayt</em></dd><dt>Русский</dt><dd>приводить в бешенство, бесить</dd><dt>Forms</dt><dd><em>infuriate</em> &middot; <em>infuriated</em> &middot; <em>infuriated</em></dd><dt>Third person</dt><dd><em>infuriates</em> &middot; <strong>-ing form:</strong> <em>infuriating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone furious.</p>
+<ol><li>Slow drivers <em>infuriate</em> my father.</li><li>Her calm answer <em>infuriated</em> him even more.</li><li>It is <em>infuriating</em> to wait this long for a reply.</li></ol>
+<hr>
+<h3 id="offend">offend<a class="hash" href="#offend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈfɛnd/ &middot; <em>uh-FEND</em></dd><dt>Русский</dt><dd>обижать, оскорблять, задевать</dd><dt>Forms</dt><dd><em>offend</em> &middot; <em>offended</em> &middot; <em>offended</em></dd><dt>Third person</dt><dd><em>offends</em> &middot; <strong>-ing form:</strong> <em>offending</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To hurt someone's feelings or upset their sense of what is proper.</p>
+<ol><li>I hope the joke didn't <em>offend</em> anyone.</li><li>His remark <em>offended</em> half the room.</li><li>She was <em>offended</em> that nobody asked her opinion.</li></ol>
+<hr>
+<h3 id="provoke">provoke<a class="hash" href="#provoke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈvoʊk/ &middot; <em>pruh-VOHK</em></dd><dt>Русский</dt><dd>провоцировать, спровоцировать; вызывать</dd><dt>Forms</dt><dd><em>provoke</em> &middot; <em>provoked</em> &middot; <em>provoked</em></dd><dt>Third person</dt><dd><em>provokes</em> &middot; <strong>-ing form:</strong> <em>provoking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To deliberately make someone angry, or to cause a strong reaction.</p>
+<ol><li>Don't <em>provoke</em> the dog.</li><li>His speech <em>provoked</em> an angry response.</li><li>The film has <em>provoked</em> a lot of debate.</li></ol>
+<hr>
+<h3 id="whine">whine<a class="hash" href="#whine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪn/ &middot; <em>WYN</em></dd><dt>Русский</dt><dd>ныть, хныкать, жаловаться</dd><dt>Forms</dt><dd><em>whine</em> &middot; <em>whined</em> &middot; <em>whined</em></dd><dt>Third person</dt><dd><em>whines</em> &middot; <strong>-ing form:</strong> <em>whining</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>In American English it sounds exactly like <em>wine</em> (the drink).</dd></dl>
+<p>To complain in an annoying, high, childish voice.</p>
+<ol><li>The kids <em>whine</em> when they are tired.</li><li>He <em>whined</em> about the cold for an hour.</li><li>Stop <em>whining</em> and finish your homework.</li></ol>
+<hr>
+<h3 id="disappoint">disappoint<a class="hash" href="#disappoint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪsəˈpɔɪnt/ &middot; <em>dis-uh-POYNT</em></dd><dt>Русский</dt><dd>разочаровывать, разочаровать</dd><dt>Forms</dt><dd><em>disappoint</em> &middot; <em>disappointed</em> &middot; <em>disappointed</em></dd><dt>Third person</dt><dd><em>disappoints</em> &middot; <strong>-ing form:</strong> <em>disappointing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>One <em>s</em>, two <em>p</em>'s: d-i-<strong>s</strong>-a-<strong>pp</strong>-o-i-n-t.</dd></dl>
+<p>To make someone sad by failing to be as good as they hoped.</p>
+<ol><li>I hope the movie doesn't <em>disappoint</em> you.</li><li>The second album <em>disappointed</em> his fans.</li><li>She was <em>disappointed</em> with her grade.</li></ol>
+<hr>
+<h3 id="depress">depress<a class="hash" href="#depress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈprɛs/ &middot; <em>di-PRES</em></dd><dt>Русский</dt><dd>угнетать, удручать, расстраивать</dd><dt>Forms</dt><dd><em>depress</em> &middot; <em>depressed</em> &middot; <em>depressed</em></dd><dt>Third person</dt><dd><em>depresses</em> &middot; <strong>-ing form:</strong> <em>depressing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone feel low and without energy.</p>
+<ol><li>Gray winters <em>depress</em> a lot of people.</li><li>The news <em>depressed</em> everyone at the table.</li><li>He felt <em>depressed</em> for weeks after the move.</li></ol>
+<hr>
+<h3 id="sadden">sadden<a class="hash" href="#sadden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsædən/ &middot; <em>SAD-uhn</em></dd><dt>Русский</dt><dd>печалить, опечалить</dd><dt>Forms</dt><dd><em>sadden</em> &middot; <em>saddened</em> &middot; <em>saddened</em></dd><dt>Third person</dt><dd><em>saddens</em> &middot; <strong>-ing form:</strong> <em>saddening</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone feel sad.</p>
+<ol><li>Stories like that <em>sadden</em> me.</li><li>It <em>saddened</em> her to sell the family house.</li><li>We were <em>saddened</em> to hear of his death.</li></ol>
+<hr>
+<h3 id="grieve">grieve<a class="hash" href="#grieve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡriːv/ &middot; <em>GREEV</em></dd><dt>Русский</dt><dd>горевать, скорбеть; огорчать</dd><dt>Forms</dt><dd><em>grieve</em> &middot; <em>grieved</em> &middot; <em>grieved</em></dd><dt>Third person</dt><dd><em>grieves</em> &middot; <strong>-ing form:</strong> <em>grieving</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>it grieves me to say it</em>), intransitive (<em>she is still grieving</em>)</dd><dt>Contrast</dt><dd>Takes <em>for</em> or <em>over</em>: <em>grieve <strong>for</strong> a friend</em>.</dd></dl>
+<p>To feel deep sorrow, especially after someone dies.</p>
+<ol><li>People <em>grieve</em> in very different ways.</li><li>He <em>grieved</em> for his mother all that year.</li><li>She is still <em>grieving</em> the loss of her dog.</li></ol>
+<hr>
+<h3 id="mourn">mourn<a class="hash" href="#mourn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɔːrn/ &middot; <em>MORN</em></dd><dt>Русский</dt><dd>оплакивать, скорбеть</dd><dt>Forms</dt><dd><em>mourn</em> &middot; <em>mourned</em> &middot; <em>mourned</em></dd><dt>Third person</dt><dd><em>mourns</em> &middot; <strong>-ing form:</strong> <em>mourning</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>mourn a friend</em>), intransitive (<em>the country mourned</em>)</dd><dt>Contrast</dt><dd>Sounds exactly like <em>morn</em> (as in <em>morning</em>).</dd></dl>
+<p>To show and feel sorrow for someone who has died.</p>
+<ol><li>They <em>mourn</em> him every year on that date.</li><li>The whole country <em>mourned</em> after the crash.</li><li>She is still <em>mourning</em> her brother.</li></ol>
+<hr>
+<h3 id="miss">miss<a class="hash" href="#miss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪs/ &middot; <em>MIS</em></dd><dt>Русский</dt><dd>скучать, тосковать (по кому-либо)</dd><dt>Forms</dt><dd><em>miss</em> &middot; <em>missed</em> &middot; <em>missed</em></dd><dt>Third person</dt><dd><em>misses</em> &middot; <strong>-ing form:</strong> <em>missing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To feel sad because someone or something is no longer with you.</p>
+<ol><li>I <em>miss</em> my family every single day.</li><li>She <em>missed</em> her friends terribly that first year.</li><li>He has been <em>missing</em> his old neighborhood.</li></ol>
+<hr>
+<h3 id="cry">cry<a class="hash" href="#cry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kraɪ/ &middot; <em>KRY</em></dd><dt>Русский</dt><dd>плакать, заплакать</dd><dt>Forms</dt><dd><em>cry</em> &middot; <em>cried</em> &middot; <em>cried</em></dd><dt>Third person</dt><dd><em>cries</em> &middot; <strong>-ing form:</strong> <em>crying</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The <em>-y</em> becomes <em>-ies</em> and <em>-ied</em>, but stays in <em>crying</em>.</dd></dl>
+<p>To produce tears because of sadness, pain, or strong feeling.</p>
+<ol><li>Some people <em>cry</em> at weddings.</li><li>The baby <em>cried</em> most of the night.</li><li>She has been <em>crying</em> since she heard.</li></ol>
+<hr>
+<h3 id="sob">sob<a class="hash" href="#sob" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɑːb/ &middot; <em>SAHB</em></dd><dt>Русский</dt><dd>рыдать, всхлипывать</dd><dt>Forms</dt><dd><em>sob</em> &middot; <em>sobbed</em> &middot; <em>sobbed</em></dd><dt>Third person</dt><dd><em>sobs</em> &middot; <strong>-ing form:</strong> <em>sobbing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Doubles the <em>b</em>: <em>sobbed</em>, <em>sobbing</em>.</dd></dl>
+<p>To cry noisily, taking sharp breaths.</p>
+<ol><li>He tried not to <em>sob</em> in front of them.</li><li>She <em>sobbed</em> into the pillow.</li><li>The child was still <em>sobbing</em> an hour later.</li></ol>
+<hr>
+<h3 id="pity">pity<a class="hash" href="#pity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪti/ &middot; <em>PIT-ee</em></dd><dt>Русский</dt><dd>жалеть, сочувствовать</dd><dt>Forms</dt><dd><em>pity</em> &middot; <em>pitied</em> &middot; <em>pitied</em></dd><dt>Third person</dt><dd><em>pities</em> &middot; <strong>-ing form:</strong> <em>pitying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>-y</em> changes: <em>pities</em>, <em>pitied</em>, but <em>pitying</em>.</dd></dl>
+<p>To feel sorry for someone in a bad situation.</p>
+<ol><li>Don't <em>pity</em> me — I'm fine.</li><li>She <em>pitied</em> him more than she loved him.</li><li>He has never <em>pitied</em> anyone in his life.</li></ol>
+<hr>
+<h3 id="sympathize">sympathize<a class="hash" href="#sympathize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmpəθaɪz/ &middot; <em>SIM-puh-thyz</em></dd><dt>Русский</dt><dd>сочувствовать, сопереживать</dd><dt>Forms</dt><dd><em>sympathize</em> &middot; <em>sympathized</em> &middot; <em>sympathized</em></dd><dt>Third person</dt><dd><em>sympathizes</em> &middot; <strong>-ing form:</strong> <em>sympathizing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Takes <em>with</em>; American spelling is <em>-ize</em>, British <em>sympathise</em>.</dd></dl>
+<p>To understand and share someone's feelings, especially bad ones.</p>
+<ol><li>I <em>sympathize</em> with anyone who works nights.</li><li>She <em>sympathized</em> with the strikers.</li><li>He was <em>sympathizing</em> with the wrong side.</li></ol>
+<hr>
+<h3 id="empathize">empathize<a class="hash" href="#empathize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛmpəθaɪz/ &middot; <em>EM-puh-thyz</em></dd><dt>Русский</dt><dd>сопереживать, ставить себя на место другого</dd><dt>Forms</dt><dd><em>empathize</em> &middot; <em>empathized</em> &middot; <em>empathized</em></dd><dt>Third person</dt><dd><em>empathizes</em> &middot; <strong>-ing form:</strong> <em>empathizing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Takes <em>with</em>; American spelling is <em>-ize</em>, British <em>empathise</em>.</dd></dl>
+<p>To imagine and feel what another person is feeling.</p>
+<ol><li>Good nurses <em>empathize</em> with their patients.</li><li>She <em>empathized</em> immediately with the new student.</li><li>He has never been good at <em>empathizing</em>.</li></ol>
+<hr>
+<h3 id="puzzle">puzzle<a class="hash" href="#puzzle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌzəl/ &middot; <em>PUZ-uhl</em></dd><dt>Русский</dt><dd>озадачивать, ставить в тупик</dd><dt>Forms</dt><dd><em>puzzle</em> &middot; <em>puzzled</em> &middot; <em>puzzled</em></dd><dt>Third person</dt><dd><em>puzzles</em> &middot; <strong>-ing form:</strong> <em>puzzling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone unable to understand or explain something.</p>
+<ol><li>Her reaction <em>puzzles</em> me.</li><li>The missing key <em>puzzled</em> the detectives.</li><li>He was <em>puzzled</em> by the question.</li></ol>
+<hr>
+<h3 id="baffle">baffle<a class="hash" href="#baffle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæfəl/ &middot; <em>BAF-uhl</em></dd><dt>Русский</dt><dd>ставить в тупик, сбивать с толку</dd><dt>Forms</dt><dd><em>baffle</em> &middot; <em>baffled</em> &middot; <em>baffled</em></dd><dt>Third person</dt><dd><em>baffles</em> &middot; <strong>-ing form:</strong> <em>baffling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To confuse someone completely.</p>
+<ol><li>The symptoms <em>baffle</em> her doctors.</li><li>The result <em>baffled</em> everyone.</li><li>Scientists have been <em>baffled</em> by the readings.</li></ol>
+<hr>
+<h3 id="bewilder">bewilder<a class="hash" href="#bewilder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈwɪldər/ &middot; <em>bi-WIL-dur</em></dd><dt>Русский</dt><dd>приводить в замешательство, ошеломлять</dd><dt>Forms</dt><dd><em>bewilder</em> &middot; <em>bewildered</em> &middot; <em>bewildered</em></dd><dt>Third person</dt><dd><em>bewilders</em> &middot; <strong>-ing form:</strong> <em>bewildering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To confuse someone so much that they don't know what to do.</p>
+<ol><li>Big airports <em>bewilder</em> my grandmother.</li><li>The paperwork <em>bewildered</em> him completely.</li><li>She looked <em>bewildered</em> by the whole thing.</li></ol>
+<hr>
+<h3 id="frustrate">frustrate<a class="hash" href="#frustrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrʌstreɪt/ &middot; <em>FRUS-trayt</em></dd><dt>Русский</dt><dd>расстраивать, раздражать; препятствовать</dd><dt>Forms</dt><dd><em>frustrate</em> &middot; <em>frustrated</em> &middot; <em>frustrated</em></dd><dt>Third person</dt><dd><em>frustrates</em> &middot; <strong>-ing form:</strong> <em>frustrating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone annoyed because they cannot do what they want.</p>
+<ol><li>Slow internet <em>frustrates</em> everyone.</li><li>The delay <em>frustrated</em> the whole team.</li><li>He was <em>frustrated</em> that nobody would listen.</li></ol>
+<hr>
+<h3 id="bore">bore<a class="hash" href="#bore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɔːr/ &middot; <em>BOR</em></dd><dt>Русский</dt><dd>надоедать, наскучить, утомлять</dd><dt>Forms</dt><dd><em>bore</em> &middot; <em>bored</em> &middot; <em>bored</em></dd><dt>Third person</dt><dd><em>bores</em> &middot; <strong>-ing form:</strong> <em>boring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>This <em>bore</em> is regular (<em>bored</em>, <em>boring</em>); the identical <em>bore</em> you may also meet is the past of <em>bear</em>.</dd></dl>
+<p>To make someone lose interest and feel tired of something.</p>
+<ol><li>Long speeches <em>bore</em> me.</li><li>The lecture <em>bored</em> half the class to sleep.</li><li>She has been <em>bored</em> all week.</li></ol>
+<hr>
+<h3 id="overwhelm">overwhelm<a class="hash" href="#overwhelm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈwɛlm/ &middot; <em>oh-vur-WELM</em></dd><dt>Русский</dt><dd>переполнять, ошеломлять, подавлять</dd><dt>Forms</dt><dd><em>overwhelm</em> &middot; <em>overwhelmed</em> &middot; <em>overwhelmed</em></dd><dt>Third person</dt><dd><em>overwhelms</em> &middot; <strong>-ing form:</strong> <em>overwhelming</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To affect someone so strongly that they cannot cope.</p>
+<ol><li>Big crowds <em>overwhelm</em> him.</li><li>The response <em>overwhelmed</em> the little shop.</li><li>She was <em>overwhelmed</em> by all the messages.</li></ol>
+<hr>
+<h3 id="interest">interest<a class="hash" href="#interest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntrəst/ &middot; <em>IN-truhst</em></dd><dt>Русский</dt><dd>интересовать, заинтересовать</dd><dt>Forms</dt><dd><em>interest</em> &middot; <em>interested</em> &middot; <em>interested</em></dd><dt>Third person</dt><dd><em>interests</em> &middot; <strong>-ing form:</strong> <em>interesting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The adjective takes <em>in</em>: <em>interested <strong>in</strong> history</em>.</dd></dl>
+<p>To make someone want to know more about something.</p>
+<ol><li>Politics doesn't <em>interest</em> him at all.</li><li>The offer <em>interested</em> her enough to call back.</li><li>He has always been <em>interested</em> in old cars.</li></ol>
+<hr>
+<h3 id="fascinate">fascinate<a class="hash" href="#fascinate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæsəneɪt/ &middot; <em>FAS-uh-nayt</em></dd><dt>Русский</dt><dd>очаровывать, увлекать, восхищать</dd><dt>Forms</dt><dd><em>fascinate</em> &middot; <em>fascinated</em> &middot; <em>fascinated</em></dd><dt>Third person</dt><dd><em>fascinates</em> &middot; <strong>-ing form:</strong> <em>fascinating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To attract and hold someone's interest completely.</p>
+<ol><li>Bugs <em>fascinate</em> my son.</li><li>The documentary <em>fascinated</em> all of us.</li><li>She has always been <em>fascinated</em> by space.</li></ol>
+<hr>
+<h3 id="intrigue">intrigue<a class="hash" href="#intrigue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtriːɡ/ &middot; <em>in-TREEG</em></dd><dt>Русский</dt><dd>заинтриговать, вызывать интерес</dd><dt>Forms</dt><dd><em>intrigue</em> &middot; <em>intrigued</em> &middot; <em>intrigued</em></dd><dt>Third person</dt><dd><em>intrigues</em> &middot; <strong>-ing form:</strong> <em>intriguing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb stresses the second syllable, /ɪnˈtriːɡ/; the noun is often /ˈɪntriːɡ/.</dd></dl>
+<p>To make someone curious because something is strange or mysterious.</p>
+<ol><li>The title alone <em>intrigues</em> readers.</li><li>His answer <em>intrigued</em> the interviewer.</li><li>We were <em>intrigued</em> by the offer.</li></ol>
+<hr>
+<h3 id="captivate">captivate<a class="hash" href="#captivate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæptəveɪt/ &middot; <em>KAP-tuh-vayt</em></dd><dt>Русский</dt><dd>пленять, очаровывать</dd><dt>Forms</dt><dd><em>captivate</em> &middot; <em>captivated</em> &middot; <em>captivated</em></dd><dt>Third person</dt><dd><em>captivates</em> &middot; <strong>-ing form:</strong> <em>captivating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To charm someone so much that they cannot look away.</p>
+<ol><li>Her voice <em>captivates</em> every audience.</li><li>The story <em>captivated</em> the whole class.</li><li>He was <em>captivated</em> by the city.</li></ol>
+<hr>
+<h3 id="attract">attract<a class="hash" href="#attract" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtrækt/ &middot; <em>uh-TRAKT</em></dd><dt>Русский</dt><dd>привлекать, притягивать</dd><dt>Forms</dt><dd><em>attract</em> &middot; <em>attracted</em> &middot; <em>attracted</em></dd><dt>Third person</dt><dd><em>attracts</em> &middot; <strong>-ing form:</strong> <em>attracting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The feeling takes <em>to</em>: <em>attracted <strong>to</strong> someone</em>.</dd></dl>
+<p>To make someone or something come closer, or to cause liking.</p>
+<ol><li>Bright colors <em>attract</em> bees.</li><li>The festival <em>attracted</em> twenty thousand people.</li><li>She was <em>attracted</em> to him from the start.</li></ol>
+<hr>
+<h3 id="charm">charm<a class="hash" href="#charm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɑːrm/ &middot; <em>CHARM</em></dd><dt>Русский</dt><dd>очаровывать, обаять</dd><dt>Forms</dt><dd><em>charm</em> &middot; <em>charmed</em> &middot; <em>charmed</em></dd><dt>Third person</dt><dd><em>charms</em> &middot; <strong>-ing form:</strong> <em>charming</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To please and win someone over with pleasant manners.</p>
+<ol><li>He <em>charms</em> everyone he meets.</li><li>She <em>charmed</em> the whole committee.</li><li>They were <em>charmed</em> by the little town.</li></ol>
+<hr>
+<h3 id="flatter">flatter<a class="hash" href="#flatter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflætər/ &middot; <em>FLAT-ur</em></dd><dt>Русский</dt><dd>льстить, польстить</dd><dt>Forms</dt><dd><em>flatter</em> &middot; <em>flattered</em> &middot; <em>flattered</em></dd><dt>Third person</dt><dd><em>flatters</em> &middot; <strong>-ing form:</strong> <em>flattering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To praise someone more than they deserve, often to please them.</p>
+<ol><li>Don't <em>flatter</em> me — just tell me the truth.</li><li>His compliment <em>flattered</em> her.</li><li>She was <em>flattered</em> to be asked.</li></ol>
+<hr>
+<h3 id="embarrass">embarrass<a class="hash" href="#embarrass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈbɛrəs/ &middot; <em>im-BER-uhs</em></dd><dt>Русский</dt><dd>смущать, ставить в неловкое положение</dd><dt>Forms</dt><dd><em>embarrass</em> &middot; <em>embarrassed</em> &middot; <em>embarrassed</em></dd><dt>Third person</dt><dd><em>embarrasses</em> &middot; <strong>-ing form:</strong> <em>embarrassing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Two <em>r</em>'s and two <em>s</em>'s: e-m-b-a-<strong>rr</strong>-a-<strong>ss</strong>.</dd></dl>
+<p>To make someone feel awkward and self-conscious.</p>
+<ol><li>Please don't <em>embarrass</em> me in front of my friends.</li><li>His question <em>embarrassed</em> her.</li><li>She was <em>embarrassed</em> about the mistake for days.</li></ol>
+<hr>
+<h3 id="humiliate">humiliate<a class="hash" href="#humiliate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hjuːˈmɪlieɪt/ &middot; <em>hyoo-MIL-ee-ayt</em></dd><dt>Русский</dt><dd>унижать, унизить</dd><dt>Forms</dt><dd><em>humiliate</em> &middot; <em>humiliated</em> &middot; <em>humiliated</em></dd><dt>Third person</dt><dd><em>humiliates</em> &middot; <strong>-ing form:</strong> <em>humiliating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone feel ashamed and foolish, especially in front of others.</p>
+<ol><li>Never <em>humiliate</em> a student in public.</li><li>The loss <em>humiliated</em> the defending champions.</li><li>He felt <em>humiliated</em> by the whole thing.</li></ol>
+<hr>
+<h3 id="shame">shame<a class="hash" href="#shame" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃeɪm/ &middot; <em>SHAYM</em></dd><dt>Русский</dt><dd>стыдить, пристыдить</dd><dt>Forms</dt><dd><em>shame</em> &middot; <em>shamed</em> &middot; <em>shamed</em></dd><dt>Third person</dt><dd><em>shames</em> &middot; <strong>-ing form:</strong> <em>shaming</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone feel ashamed of what they have done.</p>
+<ol><li>Don't <em>shame</em> people for asking questions.</li><li>The article <em>shamed</em> the company into acting.</li><li>She was <em>shamed</em> into apologizing.</li></ol>
+<hr>
+<h3 id="blush">blush<a class="hash" href="#blush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blʌʃ/ &middot; <em>BLUSH</em></dd><dt>Русский</dt><dd>краснеть, покраснеть (от смущения)</dd><dt>Forms</dt><dd><em>blush</em> &middot; <em>blushed</em> &middot; <em>blushed</em></dd><dt>Third person</dt><dd><em>blushes</em> &middot; <strong>-ing form:</strong> <em>blushing</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To become red in the face from embarrassment.</p>
+<ol><li>I <em>blush</em> whenever someone compliments me.</li><li>She <em>blushed</em> at the question.</li><li>He was <em>blushing</em> to the ears.</li></ol>
+<hr>
+<h3 id="envy">envy<a class="hash" href="#envy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛnvi/ &middot; <em>EN-vee</em></dd><dt>Русский</dt><dd>завидовать, позавидовать</dd><dt>Forms</dt><dd><em>envy</em> &middot; <em>envied</em> &middot; <em>envied</em></dd><dt>Third person</dt><dd><em>envies</em> &middot; <strong>-ing form:</strong> <em>envying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>-y</em> changes: <em>envies</em>, <em>envied</em>, but <em>envying</em>.</dd></dl>
+<p>To want what someone else has, and feel unhappy about not having it.</p>
+<ol><li>I <em>envy</em> people who sleep well.</li><li>She <em>envied</em> her sister's confidence.</li><li>He has always <em>envied</em> their easy life.</li></ol>
+<hr>
+<h3 id="hug">hug<a class="hash" href="#hug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʌɡ/ &middot; <em>HUG</em></dd><dt>Русский</dt><dd>обнимать, обнять</dd><dt>Forms</dt><dd><em>hug</em> &middot; <em>hugged</em> &middot; <em>hugged</em></dd><dt>Third person</dt><dd><em>hugs</em> &middot; <strong>-ing form:</strong> <em>hugging</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>hug your mom</em>), intransitive (<em>they hugged</em>)</dd><dt>Contrast</dt><dd>Doubles the <em>g</em>: <em>hugged</em>, <em>hugging</em>.</dd></dl>
+<p>To hold someone close with your arms to show affection.</p>
+<ol><li>The kids <em>hug</em> their grandpa at the door.</li><li>She <em>hugged</em> me for a long time.</li><li>They were <em>hugging</em> and crying at the gate.</li></ol>
+<hr>
+<h3 id="kiss">kiss<a class="hash" href="#kiss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɪs/ &middot; <em>KIS</em></dd><dt>Русский</dt><dd>целовать, поцеловать</dd><dt>Forms</dt><dd><em>kiss</em> &middot; <em>kissed</em> &middot; <em>kissed</em></dd><dt>Third person</dt><dd><em>kisses</em> &middot; <strong>-ing form:</strong> <em>kissing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>he kissed her</em>), intransitive (<em>they kissed</em>)</dd></dl>
+<p>To touch someone with your lips to show love or greeting.</p>
+<ol><li>In some countries people <em>kiss</em> on both cheeks.</li><li>He <em>kissed</em> her goodbye at the airport.</li><li>She was <em>kissing</em> the top of the baby's head.</li></ol>
+<hr>
+<h3 id="tolerate">tolerate<a class="hash" href="#tolerate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːləreɪt/ &middot; <em>TAH-luh-rayt</em></dd><dt>Русский</dt><dd>терпеть, выносить; мириться</dd><dt>Forms</dt><dd><em>tolerate</em> &middot; <em>tolerated</em> &middot; <em>tolerated</em></dd><dt>Third person</dt><dd><em>tolerates</em> &middot; <strong>-ing form:</strong> <em>tolerating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To accept something unpleasant without complaining or stopping it.</p>
+<ol><li>I can't <em>tolerate</em> rudeness.</li><li>She <em>tolerated</em> the noise for a month before calling the landlord.</li><li>He has <em>tolerated</em> far worse than this.</li></ol>
+<hr>
+<h3 id="endure">endure<a class="hash" href="#endure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdʊr/ &middot; <em>in-DOOR</em></dd><dt>Русский</dt><dd>терпеть, выдерживать; длиться</dd><dt>Forms</dt><dd><em>endure</em> &middot; <em>endured</em> &middot; <em>endured</em></dd><dt>Third person</dt><dd><em>endures</em> &middot; <strong>-ing form:</strong> <em>enduring</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>endure the pain</em>), intransitive (<em>their friendship endured</em>)</dd></dl>
+<p>To suffer something difficult patiently, or to last a long time.</p>
+<ol><li>Soldiers <em>endure</em> things most of us can't imagine.</li><li>She <em>endured</em> six months of treatment.</li><li>Their friendship has <em>endured</em> for forty years.</li></ol>
+<hr>
+<h3 id="mind">mind<a class="hash" href="#mind" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maɪnd/ &middot; <em>MYND</em></dd><dt>Русский</dt><dd>возражать, быть против</dd><dt>Forms</dt><dd><em>mind</em> &middot; <em>minded</em> &middot; <em>minded</em></dd><dt>Third person</dt><dd><em>minds</em> &middot; <strong>-ing form:</strong> <em>minding</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>I don't mind the cold</em>), intransitive (<em>if you don't mind</em>)</dd><dt>Contrast</dt><dd><em>Do you mind if…?</em> — answering <em>no</em> means 'go ahead'.</dd></dl>
+<p>To feel annoyed or bothered by something.</p>
+<ol><li>I don't <em>mind</em> the cold.</li><li>She never <em>minded</em> driving at night.</li><li>Would you <em>mind</em> closing the window?</li></ol>
+<hr>
+<h3 id="giggle">giggle<a class="hash" href="#giggle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪɡəl/ &middot; <em>GIG-uhl</em></dd><dt>Русский</dt><dd>хихикать, захихикать</dd><dt>Forms</dt><dd><em>giggle</em> &middot; <em>giggled</em> &middot; <em>giggled</em></dd><dt>Third person</dt><dd><em>giggles</em> &middot; <strong>-ing form:</strong> <em>giggling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To laugh in a light, nervous, or silly way.</p>
+<ol><li>The girls <em>giggle</em> through the whole movie.</li><li>He <em>giggled</em> at his own joke.</li><li>They were <em>giggling</em> in the back row.</li></ol>
+<hr>
+<h3 id="frown">frown<a class="hash" href="#frown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fraʊn/ &middot; <em>FROWN</em></dd><dt>Русский</dt><dd>хмуриться, нахмуриться</dd><dt>Forms</dt><dd><em>frown</em> &middot; <em>frowned</em> &middot; <em>frowned</em></dd><dt>Third person</dt><dd><em>frowns</em> &middot; <strong>-ing form:</strong> <em>frowning</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>Frown <strong>on/upon</strong></em> something means to disapprove of it.</dd></dl>
+<p>To move your eyebrows together because you are annoyed, worried, or thinking.</p>
+<ol><li>She <em>frowns</em> when she is concentrating.</li><li>He <em>frowned</em> at the bill.</li><li>The teacher was <em>frowning</em> at the noise in the back.</li></ol>
+<hr>
+<h3 id="groan">groan<a class="hash" href="#groan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡroʊn/ &middot; <em>GROHN</em></dd><dt>Русский</dt><dd>стонать, охать</dd><dt>Forms</dt><dd><em>groan</em> &middot; <em>groaned</em> &middot; <em>groaned</em></dd><dt>Third person</dt><dd><em>groans</em> &middot; <strong>-ing form:</strong> <em>groaning</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Sounds exactly like <em>grown</em> (the participle of <em>grow</em>).</dd></dl>
+<p>To make a low sound of pain, annoyance, or disappointment.</p>
+<ol><li>The students <em>groan</em> every time he says 'pop quiz'.</li><li>He <em>groaned</em> when he saw the line at the airport.</li><li>The crowd was <em>groaning</em> at every mistake.</li></ol>
+<hr>
+<h3 id="sulk">sulk<a class="hash" href="#sulk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sʌlk/ &middot; <em>SULK</em></dd><dt>Русский</dt><dd>дуться, обижаться</dd><dt>Forms</dt><dd><em>sulk</em> &middot; <em>sulked</em> &middot; <em>sulked</em></dd><dt>Third person</dt><dd><em>sulks</em> &middot; <strong>-ing form:</strong> <em>sulking</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To stay silent and unhappy because you are annoyed about something.</p>
+<ol><li>He'll <em>sulk</em> for an hour and then forget it.</li><li>She <em>sulked</em> all the way home.</li><li>He was <em>sulking</em> in his room again.</li></ol>
+<hr>
+<h3 id="shudder">shudder<a class="hash" href="#shudder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʌdər/ &middot; <em>SHUD-ur</em></dd><dt>Русский</dt><dd>содрогаться, вздрагивать</dd><dt>Forms</dt><dd><em>shudder</em> &middot; <em>shuddered</em> &middot; <em>shuddered</em></dd><dt>Third person</dt><dd><em>shudders</em> &middot; <strong>-ing form:</strong> <em>shuddering</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To shake suddenly from fear, cold, or disgust.</p>
+<ol><li>I <em>shudder</em> to think what could have happened.</li><li>She <em>shuddered</em> at the sight of the blood.</li><li>He was still <em>shuddering</em> from the cold water.</li></ol>
+<hr>
+<h3 id="haunt">haunt<a class="hash" href="#haunt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɔːnt/ &middot; <em>HAWNT</em></dd><dt>Русский</dt><dd>преследовать, не давать покоя</dd><dt>Forms</dt><dd><em>haunt</em> &middot; <em>haunted</em> &middot; <em>haunted</em></dd><dt>Third person</dt><dd><em>haunts</em> &middot; <strong>-ing form:</strong> <em>haunting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep coming back into someone's mind in a troubling way.</p>
+<ol><li>Those images still <em>haunt</em> me.</li><li>The accident <em>haunted</em> him for years.</li><li>She has been <em>haunted</em> by that decision ever since.</li></ol>
+<hr>
+<h3 id="distress">distress<a class="hash" href="#distress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈstrɛs/ &middot; <em>di-STRES</em></dd><dt>Русский</dt><dd>расстраивать, огорчать, тревожить</dd><dt>Forms</dt><dd><em>distress</em> &middot; <em>distressed</em> &middot; <em>distressed</em></dd><dt>Third person</dt><dd><em>distresses</em> &middot; <strong>-ing form:</strong> <em>distressing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone very upset or anxious.</p>
+<ol><li>Loud arguments <em>distress</em> the children.</li><li>The news <em>distressed</em> her deeply.</li><li>He was clearly <em>distressed</em> by the question.</li></ol>
+<hr>
+<h3 id="torment">torment<a class="hash" href="#torment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɔːrˈmɛnt/ &middot; <em>tor-MENT</em></dd><dt>Русский</dt><dd>мучить, терзать</dd><dt>Forms</dt><dd><em>torment</em> &middot; <em>tormented</em> &middot; <em>tormented</em></dd><dt>Third person</dt><dd><em>torments</em> &middot; <strong>-ing form:</strong> <em>tormenting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is /tɔːrˈmɛnt/ (tor-MENT); the noun <em>a torment</em> is /ˈtɔːrmɛnt/ (TOR-ment).</dd></dl>
+<p>To cause someone great mental or physical suffering, often repeatedly.</p>
+<ol><li>Guilt can <em>torment</em> a person for years.</li><li>The other boys <em>tormented</em> him at school.</li><li>She has been <em>tormented</em> by doubt ever since.</li></ol>
+<hr>
+<h3 id="disturb">disturb<a class="hash" href="#disturb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈstɜːrb/ &middot; <em>di-STURB</em></dd><dt>Русский</dt><dd>беспокоить, тревожить; нарушать покой</dd><dt>Forms</dt><dd><em>disturb</em> &middot; <em>disturbed</em> &middot; <em>disturbed</em></dd><dt>Third person</dt><dd><em>disturbs</em> &middot; <strong>-ing form:</strong> <em>disturbing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To interrupt someone, or to make them feel uneasy.</p>
+<ol><li>Please don't <em>disturb</em> her while she is resting.</li><li>The dream <em>disturbed</em> him all day.</li><li>We were <em>disturbed</em> by what we saw on the tape.</li></ol>
+<hr>
+<h3 id="dismay">dismay<a class="hash" href="#dismay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈmeɪ/ &middot; <em>dis-MAY</em></dd><dt>Русский</dt><dd>приводить в уныние, обескураживать</dd><dt>Forms</dt><dd><em>dismay</em> &middot; <em>dismayed</em> &middot; <em>dismayed</em></dd><dt>Third person</dt><dd><em>dismays</em> &middot; <strong>-ing form:</strong> <em>dismaying</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone feel shocked disappointment.</p>
+<ol><li>The numbers <em>dismay</em> even the optimists.</li><li>The decision <em>dismayed</em> long-time fans.</li><li>She was <em>dismayed</em> to find the store closed.</li></ol>
+<hr>
+<h3 id="intimidate">intimidate<a class="hash" href="#intimidate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtɪmədeɪt/ &middot; <em>in-TIM-uh-dayt</em></dd><dt>Русский</dt><dd>запугивать, устрашать</dd><dt>Forms</dt><dd><em>intimidate</em> &middot; <em>intimidated</em> &middot; <em>intimidated</em></dd><dt>Third person</dt><dd><em>intimidates</em> &middot; <strong>-ing form:</strong> <em>intimidating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To frighten someone, especially into doing what you want.</p>
+<ol><li>Big crowds <em>intimidate</em> him.</li><li>The lawyer <em>intimidated</em> the witness.</li><li>She was <em>intimidated</em> by the interview panel.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
