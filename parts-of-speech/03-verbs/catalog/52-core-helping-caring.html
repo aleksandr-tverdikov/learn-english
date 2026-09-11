@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: helping and caring</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-helping-and-caring">Core verbs: helping and caring<a class="hash" href="#core-verbs-helping-and-caring" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of helping and caring — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="back">back<a class="hash" href="#back" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæk/ &middot; <em>BAK</em></dd><dt>Русский</dt><dd>поддерживать, поддержать</dd><dt>Forms</dt><dd><em>back</em> &middot; <em>backed</em> &middot; <em>backed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>backs</em> &middot; <strong>-ing form:</strong> <em>backing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To support a person, plan, or cause, especially with money or public approval.</p>
+<ol><li>Several donors <em>back</em> the food pantry.</li><li>The city council <em>backed</em> her proposal last night.</li><li>The shelter is <em>backed</em> by one small family foundation.</li></ol>
+<hr>
+<h3 id="further">further<a class="hash" href="#further" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrðər/ &middot; <em>FUR-thur</em></dd><dt>Русский</dt><dd>способствовать, содействовать; продвигать</dd><dt>Forms</dt><dd><em>further</em> &middot; <em>furthered</em> &middot; <em>furthered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>furthers</em> &middot; <strong>-ing form:</strong> <em>furthering</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is <em>further</em>; <em>farther</em> is only about physical distance.</dd></dl>
+<p>To help something move forward or succeed.</p>
+<ol><li>Scholarships <em>further</em> the careers of young nurses.</li><li>Her testimony <em>furthered</em> the cause more than any ad.</li><li>They are <em>furthering</em> the work their founder began.</li></ol>
+<hr>
+<h3 id="bolster">bolster<a class="hash" href="#bolster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊlstər/ &middot; <em>BOHL-stur</em></dd><dt>Русский</dt><dd>поддерживать, укреплять; подкрепить</dd><dt>Forms</dt><dd><em>bolster</em> &middot; <em>bolstered</em> &middot; <em>bolstered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bolsters</em> &middot; <strong>-ing form:</strong> <em>bolstering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To strengthen or support something that has become weak.</p>
+<ol><li>Kind words <em>bolster</em> a child's confidence.</li><li>The donation <em>bolstered</em> the shelter's budget.</li><li>Extra staff have <em>bolstered</em> the night shift.</li></ol>
+<hr>
+<h3 id="underpin">underpin<a class="hash" href="#underpin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌndərˈpɪn/ &middot; <em>un-dur-PIN</em></dd><dt>Русский</dt><dd>лежать в основе; подкреплять, поддерживать</dd><dt>Forms</dt><dd><em>underpin</em> &middot; <em>underpinned</em> &middot; <em>underpinned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>underpins</em> &middot; <strong>-ing form:</strong> <em>underpinning</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The stress falls on <em>-pin</em>, so the <em>n</em> doubles: <em>underpinned, underpinning</em>.</dd></dl>
+<p>To support something by forming its base or foundation.</p>
+<ol><li>Trust and patience <em>underpin</em> good caregiving.</li><li>Federal money <em>underpinned</em> the whole program.</li><li>The clinic is <em>underpinned</em> by hundreds of small donations.</li></ol>
+<hr>
+<h3 id="second">second<a class="hash" href="#second" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛkənd/ &middot; <em>SEK-uhnd</em></dd><dt>Русский</dt><dd>поддержать (предложение), выступить в поддержку</dd><dt>Forms</dt><dd><em>second</em> &middot; <em>seconded</em> &middot; <em>seconded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>seconds</em> &middot; <strong>-ing form:</strong> <em>seconding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To state formally that you support someone else's proposal.</p>
+<ol><li>Someone has to <em>second</em> the motion before we vote.</li><li>She <em>seconded</em> his idea to open a warming center.</li><li>The proposal was <em>seconded</em> and passed the same evening.</li></ol>
+<hr>
+<h3 id="shoulder">shoulder<a class="hash" href="#shoulder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃoʊldər/ &middot; <em>SHOHL-dur</em></dd><dt>Русский</dt><dd>брать на себя, взять на себя (расходы, ответственность)</dd><dt>Forms</dt><dd><em>shoulder</em> &middot; <em>shouldered</em> &middot; <em>shouldered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>shoulders</em> &middot; <strong>-ing form:</strong> <em>shouldering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To accept a burden or cost so that other people do not have to.</p>
+<ol><li>Older siblings often <em>shoulder</em> too much at home.</li><li>Her aunt <em>shouldered</em> the medical bills for a year.</li><li>He has <em>shouldered</em> the care of both parents alone.</li></ol>
+<hr>
+<h3 id="staff">staff<a class="hash" href="#staff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stæf/ &middot; <em>STAF</em></dd><dt>Русский</dt><dd>укомплектовывать персоналом, обеспечивать сотрудниками</dd><dt>Forms</dt><dd><em>staff</em> &middot; <em>staffed</em> &middot; <em>staffed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>staffs</em> &middot; <strong>-ing form:</strong> <em>staffing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To provide the people needed to run a place or service.</p>
+<ol><li>Retired nurses <em>staff</em> the free clinic on weekends.</li><li>Volunteers <em>staffed</em> the phones all night.</li><li>The hotline is <em>staffed</em> around the clock.</li></ol>
+<hr>
+<h3 id="mother">mother<a class="hash" href="#mother" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌðər/ &middot; <em>MUTH-ur</em></dd><dt>Русский</dt><dd>опекать, нянчить; относиться по-матерински</dd><dt>Forms</dt><dd><em>mother</em> &middot; <em>mothered</em> &middot; <em>mothered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>mothers</em> &middot; <strong>-ing form:</strong> <em>mothering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To care for someone in a protective, motherly way.</p>
+<ol><li>She <em>mothers</em> every new volunteer.</li><li>His aunt <em>mothered</em> him for a year after the accident.</li><li>The older students are <em>mothering</em> the freshmen a little.</li></ol>
+<hr>
+<h3 id="rear">rear<a class="hash" href="#rear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪr/ &middot; <em>REER</em></dd><dt>Русский</dt><dd>растить, вырастить; воспитывать</dd><dt>Forms</dt><dd><em>rear</em> &middot; <em>reared</em> &middot; <em>reared</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rears</em> &middot; <strong>-ing form:</strong> <em>rearing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Rear</em> is the formal word; in everyday American speech people say <em>raise</em> a child.</dd></dl>
+<p>To raise and care for children or young animals until they grow up.</p>
+<ol><li>They <em>rear</em> their children on a small farm.</li><li>She was <em>reared</em> by her grandmother.</li><li>He spent thirty years <em>rearing</em> horses.</li></ol>
+<hr>
+<h3 id="cradle">cradle<a class="hash" href="#cradle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkreɪdəl/ &middot; <em>KRAY-duhl</em></dd><dt>Русский</dt><dd>баюкать; бережно держать на руках</dd><dt>Forms</dt><dd><em>cradle</em> &middot; <em>cradled</em> &middot; <em>cradled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cradles</em> &middot; <strong>-ing form:</strong> <em>cradling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To hold someone or something gently in your arms or hands.</p>
+<ol><li>New parents learn how to <em>cradle</em> a newborn's head.</li><li>He <em>cradled</em> the injured bird until help came.</li><li>She is <em>cradling</em> the baby while she talks.</li></ol>
+<hr>
+<h3 id="rock">rock<a class="hash" href="#rock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɑːk/ &middot; <em>RAHK</em></dd><dt>Русский</dt><dd>качать, укачивать</dd><dt>Forms</dt><dd><em>rock</em> &middot; <em>rocked</em> &middot; <em>rocked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rocks</em> &middot; <strong>-ing form:</strong> <em>rocking</em></dd><dt>Transitivity</dt><dd>both — transitive (rock the baby), intransitive (the chair rocks)</dd></dl>
+<p>To move someone or something gently back and forth, often to calm them.</p>
+<ol><li>Grandmothers <em>rock</em> babies to sleep.</li><li>He <em>rocked</em> her until the crying stopped.</li><li>She is <em>rocking</em> the baby in the old chair.</li></ol>
+<hr>
+<h3 id="pet">pet<a class="hash" href="#pet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɛt/ &middot; <em>PET</em></dd><dt>Русский</dt><dd>гладить, погладить (животное); ласкать</dd><dt>Forms</dt><dd><em>pet</em> &middot; <em>petted</em> &middot; <em>petted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pets</em> &middot; <strong>-ing form:</strong> <em>petting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>One syllable ending in a single consonant, so the <em>t</em> doubles: <em>petted, petting</em>.</dd></dl>
+<p>To stroke an animal gently with your hand.</p>
+<ol><li>Children may <em>pet</em> the goats at the farm.</li><li>She <em>petted</em> the old dog until he fell asleep.</li><li>He is <em>petting</em> the cat with one finger.</li></ol>
+<hr>
+<h3 id="rehydrate">rehydrate<a class="hash" href="#rehydrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈhaɪdreɪt/ &middot; <em>ree-HY-drayt</em></dd><dt>Русский</dt><dd>отпаивать, восстанавливать водный баланс</dd><dt>Forms</dt><dd><em>rehydrate</em> &middot; <em>rehydrated</em> &middot; <em>rehydrated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rehydrates</em> &middot; <strong>-ing form:</strong> <em>rehydrating</em></dd><dt>Transitivity</dt><dd>both — transitive (rehydrate a sick child), intransitive (rehydrate slowly)</dd></dl>
+<p>To replace the water that a person or animal has lost.</p>
+<ol><li>Small sips <em>rehydrate</em> a sick child better than big ones.</li><li>The clinic <em>rehydrated</em> dozens of patients that week.</li><li>He is slowly <em>rehydrating</em> after the fever.</li></ol>
+<hr>
+<h3 id="medicate">medicate<a class="hash" href="#medicate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛdɪkeɪt/ &middot; <em>MED-ih-kayt</em></dd><dt>Русский</dt><dd>давать лекарство, лечить лекарствами</dd><dt>Forms</dt><dd><em>medicate</em> &middot; <em>medicated</em> &middot; <em>medicated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>medicates</em> &middot; <strong>-ing form:</strong> <em>medicating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To treat someone with medicine.</p>
+<ol><li>Doctors <em>medicate</em> only when it is really needed.</li><li>They <em>medicated</em> her for the pain.</li><li>He is being <em>medicated</em> for high blood pressure.</li></ol>
+<hr>
+<h3 id="immunize">immunize<a class="hash" href="#immunize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmjənaɪz/ &middot; <em>IM-yuh-nyz</em></dd><dt>Русский</dt><dd>делать прививку, иммунизировать</dd><dt>Forms</dt><dd><em>immunize</em> &middot; <em>immunized</em> &middot; <em>immunized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>immunizes</em> &middot; <strong>-ing form:</strong> <em>immunizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American spelling uses <em>-ize</em>: <em>immunize</em>; British English also allows <em>immunise</em>.</dd></dl>
+<p>To protect someone from a disease, usually with a vaccine.</p>
+<ol><li>Clinics <em>immunize</em> children here for free.</li><li>The school <em>immunized</em> every student before the trip.</li><li>Most of the village has been <em>immunized</em>.</li></ol>
+<hr>
+<h3 id="inoculate">inoculate<a class="hash" href="#inoculate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈnɑːkjəleɪt/ &middot; <em>ih-NAH-kyuh-layt</em></dd><dt>Русский</dt><dd>прививать, привить; делать прививку</dd><dt>Forms</dt><dd><em>inoculate</em> &middot; <em>inoculated</em> &middot; <em>inoculated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>inoculates</em> &middot; <strong>-ing form:</strong> <em>inoculating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Spelled with one <em>n</em> and one <em>c</em>: <em>in-oc-u-late</em>.</dd></dl>
+<p>To put a vaccine into someone's body so that a disease cannot harm them.</p>
+<ol><li>Doctors <em>inoculate</em> babies at two months.</li><li>The team <em>inoculated</em> four hundred people in a single day.</li><li>She was <em>inoculated</em> against measles as a child.</li></ol>
+<hr>
+<h3 id="sedate">sedate<a class="hash" href="#sedate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈdeɪt/ &middot; <em>si-DAYT</em></dd><dt>Русский</dt><dd>давать успокоительное, вводить в седацию</dd><dt>Forms</dt><dd><em>sedate</em> &middot; <em>sedated</em> &middot; <em>sedated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>sedates</em> &middot; <strong>-ing form:</strong> <em>sedating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give someone a drug that makes them calm or sleepy.</p>
+<ol><li>Vets usually <em>sedate</em> nervous dogs for X-rays.</li><li>They <em>sedated</em> him before setting the bone.</li><li>She was lightly <em>sedated</em> during the procedure.</li></ol>
+<hr>
+<h3 id="resuscitate">resuscitate<a class="hash" href="#resuscitate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsʌsəteɪt/ &middot; <em>ri-SUS-uh-tayt</em></dd><dt>Русский</dt><dd>реанимировать, приводить в чувство</dd><dt>Forms</dt><dd><em>resuscitate</em> &middot; <em>resuscitated</em> &middot; <em>resuscitated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>resuscitates</em> &middot; <strong>-ing form:</strong> <em>resuscitating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>There is a silent <em>c</em> in the middle: <em>re-sus-ci-tate</em>.</dd></dl>
+<p>To bring someone back to consciousness after their breathing or heart has stopped.</p>
+<ol><li>Lifeguards train to <em>resuscitate</em> swimmers.</li><li>Paramedics <em>resuscitated</em> him at the scene.</li><li>The child was <em>resuscitated</em> and is doing well.</li></ol>
+<hr>
+<h3 id="triage">triage<a class="hash" href="#triage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/triˈɑːʒ/ &middot; <em>tree-AHZH</em></dd><dt>Русский</dt><dd>сортировать по срочности, проводить медицинскую сортировку</dd><dt>Forms</dt><dd><em>triage</em> &middot; <em>triaged</em> &middot; <em>triaged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>triages</em> &middot; <strong>-ing form:</strong> <em>triaging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To decide which people or problems need attention first.</p>
+<ol><li>Nurses <em>triage</em> everyone who walks into the ER.</li><li>Volunteers <em>triaged</em> the calls as they came in.</li><li>They are <em>triaging</em> patients in the hallway.</li></ol>
+<hr>
+<h3 id="safeguard">safeguard<a class="hash" href="#safeguard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪfɡɑːrd/ &middot; <em>SAYF-gahrd</em></dd><dt>Русский</dt><dd>оберегать, охранять; защищать</dd><dt>Forms</dt><dd><em>safeguard</em> &middot; <em>safeguarded</em> &middot; <em>safeguarded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>safeguards</em> &middot; <strong>-ing form:</strong> <em>safeguarding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To protect someone or something from harm or loss.</p>
+<ol><li>Strict rules <em>safeguard</em> the children in our care.</li><li>The money was <em>safeguarded</em> for emergencies.</li><li>They are <em>safeguarding</em> the records for these families.</li></ol>
+<hr>
+<h3 id="ensure">ensure<a class="hash" href="#ensure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈʃʊr/ &middot; <em>in-SHOOR</em></dd><dt>Русский</dt><dd>обеспечивать, гарантировать; позаботиться о том, чтобы</dd><dt>Forms</dt><dd><em>ensure</em> &middot; <em>ensured</em> &middot; <em>ensured</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ensures</em> &middot; <strong>-ing form:</strong> <em>ensuring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Ensure</em> = make certain; <em>insure</em> = buy insurance; <em>assure</em> = tell someone so they stop worrying.</dd></dl>
+<p>To make certain that something happens or is true.</p>
+<ol><li>Two adults <em>ensure</em> that no child walks home alone.</li><li>The grant <em>ensured</em> that the clinic stayed open.</li><li>We are <em>ensuring</em> that every family gets a call.</li></ol>
+<hr>
+<h3 id="childproof">childproof<a class="hash" href="#childproof" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃaɪldpruːf/ &middot; <em>CHYLD-proof</em></dd><dt>Русский</dt><dd>обезопасить для ребёнка, сделать безопасным для детей</dd><dt>Forms</dt><dd><em>childproof</em> &middot; <em>childproofed</em> &middot; <em>childproofed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>childproofs</em> &middot; <strong>-ing form:</strong> <em>childproofing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a place or object safe for small children.</p>
+<ol><li>New parents <em>childproof</em> every cabinet.</li><li>They <em>childproofed</em> the house before the twins arrived.</li><li>The playroom has already been <em>childproofed</em>.</li></ol>
+<hr>
+<h3 id="house">house<a class="hash" href="#house" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haʊz/ &middot; <em>HOWZ</em></dd><dt>Русский</dt><dd>размещать, предоставлять жильё; вмещать</dd><dt>Forms</dt><dd><em>house</em> &middot; <em>housed</em> &middot; <em>housed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>houses</em> &middot; <strong>-ing form:</strong> <em>housing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb ends in a <em>z</em> sound (HOWZ); the noun <em>house</em> ends in <em>s</em> (HOWS).</dd></dl>
+<p>To give someone a place to live or stay.</p>
+<ol><li>The city <em>houses</em> families in an old motel.</li><li>The church <em>housed</em> twelve people that winter.</li><li>Refugee families are being <em>housed</em> by volunteers.</li></ol>
+<hr>
+<h3 id="lodge">lodge<a class="hash" href="#lodge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɑːdʒ/ &middot; <em>LAHJ</em></dd><dt>Русский</dt><dd>приютить, разместить на ночлег</dd><dt>Forms</dt><dd><em>lodge</em> &middot; <em>lodged</em> &middot; <em>lodged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>lodges</em> &middot; <strong>-ing form:</strong> <em>lodging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give someone a temporary place to stay.</p>
+<ol><li>Farms sometimes <em>lodge</em> seasonal workers.</li><li>A neighbor <em>lodged</em> them for three nights.</li><li>The hikers were <em>lodged</em> at the ranger station.</li></ol>
+<hr>
+<h3 id="harbor">harbor<a class="hash" href="#harbor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrbər/ &middot; <em>HAR-bur</em></dd><dt>Русский</dt><dd>укрывать, давать приют</dd><dt>Forms</dt><dd><em>harbor</em> &middot; <em>harbored</em> &middot; <em>harbored</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>harbors</em> &middot; <strong>-ing form:</strong> <em>harboring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American spelling has no <em>u</em>: <em>harbor</em>; British English writes <em>harbour</em>.</dd></dl>
+<p>To give shelter to someone, often quietly or secretly.</p>
+<ol><li>Some families still <em>harbor</em> runaway teenagers.</li><li>The farmhouse <em>harbored</em> refugees for months.</li><li>She has <em>harbored</em> stray cats for years.</li></ol>
+<hr>
+<h3 id="police">police<a class="hash" href="#police" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈliːs/ &middot; <em>puh-LEES</em></dd><dt>Русский</dt><dd>следить за порядком, контролировать</dd><dt>Forms</dt><dd><em>police</em> &middot; <em>policed</em> &middot; <em>policed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>polices</em> &middot; <strong>-ing form:</strong> <em>policing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To watch over a place or activity in order to keep it safe and orderly.</p>
+<ol><li>Parents <em>police</em> the group chat pretty closely.</li><li>Volunteers <em>policed</em> the crowd at the fair.</li><li>The playground is <em>policed</em> by two teachers at recess.</li></ol>
+<hr>
+<h3 id="vet">vet<a class="hash" href="#vet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɛt/ &middot; <em>VET</em></dd><dt>Русский</dt><dd>проверять, тщательно проверять (кандидата)</dd><dt>Forms</dt><dd><em>vet</em> &middot; <em>vetted</em> &middot; <em>vetted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>vets</em> &middot; <strong>-ing form:</strong> <em>vetting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>One syllable ending in a single consonant, so the <em>t</em> doubles: <em>vetted, vetting</em>.</dd></dl>
+<p>To check someone or something carefully before accepting or approving them.</p>
+<ol><li>We <em>vet</em> every volunteer who works with kids.</li><li>The agency <em>vetted</em> the foster family for months.</li><li>All the drivers have been <em>vetted</em>.</li></ol>
+<hr>
+<h3 id="entitle">entitle<a class="hash" href="#entitle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtaɪtəl/ &middot; <em>in-TY-tuhl</em></dd><dt>Русский</dt><dd>давать право (на что-л.)</dd><dt>Forms</dt><dd><em>entitle</em> &middot; <em>entitled</em> &middot; <em>entitled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>entitles</em> &middot; <strong>-ing form:</strong> <em>entitling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Entitle</em> someone <strong>to</strong> something: <em>entitled to help</em>, not <em>entitled for help</em>.</dd></dl>
+<p>To give someone the official right to have or do something.</p>
+<ol><li>Three years of service <em>entitle</em> you to paid leave.</li><li>The injury <em>entitled</em> her to free care.</li><li>Families are <em>entitled</em> to one visit a week.</li></ol>
+<hr>
+<h3 id="extricate">extricate<a class="hash" href="#extricate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛkstrəkeɪt/ &middot; <em>EK-struh-kayt</em></dd><dt>Русский</dt><dd>высвобождать, вызволять</dd><dt>Forms</dt><dd><em>extricate</em> &middot; <em>extricated</em> &middot; <em>extricated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>extricates</em> &middot; <strong>-ing form:</strong> <em>extricating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To free someone from a place or situation they are trapped in.</p>
+<ol><li>Firefighters <em>extricate</em> drivers from wrecked cars.</li><li>They <em>extricated</em> the boy from the icy pond.</li><li>She is still <em>extricating</em> herself from that job.</li></ol>
+<hr>
+<h3 id="free">free<a class="hash" href="#free" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/friː/ &middot; <em>FREE</em></dd><dt>Русский</dt><dd>освобождать, освободить; высвобождать</dd><dt>Forms</dt><dd><em>free</em> &middot; <em>freed</em> &middot; <em>freed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>frees</em> &middot; <strong>-ing form:</strong> <em>freeing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The <em>-ing</em> form keeps both <em>e</em>'s: <em>freeing</em>, and the past is <em>freed</em>, not <em>freeed</em>.</dd></dl>
+<p>To release someone from something that holds or limits them.</p>
+<ol><li>Rescuers <em>free</em> animals caught in nets.</li><li>Neighbors <em>freed</em> the dog from the fence.</li><li>The money <em>freed</em> her from constant worry.</li></ol>
+<hr>
+<h3 id="spare">spare<a class="hash" href="#spare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɛr/ &middot; <em>SPAIR</em></dd><dt>Русский</dt><dd>избавлять (от чего-л.), щадить; уделять</dd><dt>Forms</dt><dd><em>spare</em> &middot; <em>spared</em> &middot; <em>spared</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>spares</em> &middot; <strong>-ing form:</strong> <em>sparing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To protect someone from having to go through something unpleasant.</p>
+<ol><li>Good neighbors <em>spare</em> you a lot of trouble.</li><li>She <em>spared</em> her mother the worst details.</li><li>He has been <em>spared</em> the paperwork this time.</li></ol>
+<hr>
+<h3 id="alleviate">alleviate<a class="hash" href="#alleviate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈliːvieɪt/ &middot; <em>uh-LEE-vee-ayt</em></dd><dt>Русский</dt><dd>облегчать, облегчить; смягчать (боль, страдания)</dd><dt>Forms</dt><dd><em>alleviate</em> &middot; <em>alleviated</em> &middot; <em>alleviated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>alleviates</em> &middot; <strong>-ing form:</strong> <em>alleviating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make pain or a problem less severe.</p>
+<ol><li>Warm compresses <em>alleviate</em> the swelling.</li><li>A small grant <em>alleviated</em> their rent problem.</li><li>The new medicine is <em>alleviating</em> most of the pain.</li></ol>
+<hr>
+<h3 id="mitigate">mitigate<a class="hash" href="#mitigate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪtəɡeɪt/ &middot; <em>MIT-uh-gayt</em></dd><dt>Русский</dt><dd>смягчать, уменьшать (последствия)</dd><dt>Forms</dt><dd><em>mitigate</em> &middot; <em>mitigated</em> &middot; <em>mitigated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>mitigates</em> &middot; <strong>-ing form:</strong> <em>mitigating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make the harmful effects of something less serious.</p>
+<ol><li>Early visits <em>mitigate</em> the worst outcomes.</li><li>Insurance <em>mitigated</em> some of the loss.</li><li>They are <em>mitigating</em> the damage as best they can.</li></ol>
+<hr>
+<h3 id="remedy">remedy<a class="hash" href="#remedy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛmədi/ &middot; <em>REM-uh-dee</em></dd><dt>Русский</dt><dd>исправлять, устранять; помочь делу</dd><dt>Forms</dt><dd><em>remedy</em> &middot; <em>remedied</em> &middot; <em>remedied</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>remedies</em> &middot; <strong>-ing form:</strong> <em>remedying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em>, so the <em>y</em> becomes <em>i</em>: <em>remedies, remedied</em> — but <em>remedying</em> keeps the <em>y</em>.</dd></dl>
+<p>To correct something that is wrong or harmful.</p>
+<ol><li>A hot meal will not <em>remedy</em> everything, but it helps.</li><li>The city <em>remedied</em> the heating problem in a week.</li><li>The shortage is being <em>remedied</em> by donations.</li></ol>
+<hr>
+<h3 id="cushion">cushion<a class="hash" href="#cushion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊʃən/ &middot; <em>KUUSH-uhn</em></dd><dt>Русский</dt><dd>смягчать, амортизировать (удар)</dd><dt>Forms</dt><dd><em>cushion</em> &middot; <em>cushioned</em> &middot; <em>cushioned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cushions</em> &middot; <strong>-ing form:</strong> <em>cushioning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To soften the effect of something painful or difficult.</p>
+<ol><li>Savings <em>cushion</em> a family against a bad month.</li><li>The grant <em>cushioned</em> the blow of the layoffs.</li><li>Her friends are <em>cushioning</em> her through the divorce.</li></ol>
+<hr>
+<h3 id="pacify">pacify<a class="hash" href="#pacify" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæsəfaɪ/ &middot; <em>PAS-uh-fy</em></dd><dt>Русский</dt><dd>успокаивать, успокоить; усмирять</dd><dt>Forms</dt><dd><em>pacify</em> &middot; <em>pacified</em> &middot; <em>pacified</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pacifies</em> &middot; <strong>-ing form:</strong> <em>pacifying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em>: <em>pacifies, pacified</em>, but the <em>-ing</em> form keeps the <em>y</em>: <em>pacifying</em>.</dd></dl>
+<p>To make someone who is angry or upset become calm.</p>
+<ol><li>A bottle usually <em>pacifies</em> him.</li><li>She <em>pacified</em> the crying toddler with a song.</li><li>He spent the whole evening <em>pacifying</em> angry parents.</li></ol>
+<hr>
+<h3 id="placate">placate<a class="hash" href="#placate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪkeɪt/ &middot; <em>PLAY-kayt</em></dd><dt>Русский</dt><dd>умиротворять, успокаивать</dd><dt>Forms</dt><dd><em>placate</em> &middot; <em>placated</em> &middot; <em>placated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>placates</em> &middot; <strong>-ing form:</strong> <em>placating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone less angry by doing or saying something kind.</p>
+<ol><li>Apologies rarely <em>placate</em> a frightened patient.</li><li>The manager <em>placated</em> the family with a free room.</li><li>She is <em>placating</em> everyone while the repairs go on.</li></ol>
+<hr>
+<h3 id="assuage">assuage<a class="hash" href="#assuage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsweɪdʒ/ &middot; <em>uh-SWAYJ</em></dd><dt>Русский</dt><dd>смягчать, унимать (страхи, боль)</dd><dt>Forms</dt><dd><em>assuage</em> &middot; <em>assuaged</em> &middot; <em>assuaged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>assuages</em> &middot; <strong>-ing form:</strong> <em>assuaging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make an unpleasant feeling less strong.</p>
+<ol><li>Facts rarely <em>assuage</em> a parent's fear.</li><li>His calm voice <em>assuaged</em> her panic.</li><li>Their guilt has not been <em>assuaged</em> by the apology.</li></ol>
+<hr>
+<h3 id="lull">lull<a class="hash" href="#lull" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lʌl/ &middot; <em>LUL</em></dd><dt>Русский</dt><dd>убаюкивать, усыплять; успокаивать</dd><dt>Forms</dt><dd><em>lull</em> &middot; <em>lulled</em> &middot; <em>lulled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>lulls</em> &middot; <strong>-ing form:</strong> <em>lulling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone calm or sleepy, usually with gentle sound or movement.</p>
+<ol><li>The rain <em>lulls</em> the baby every time.</li><li>She <em>lulled</em> him to sleep with an old song.</li><li>The engine noise was <em>lulling</em> the children.</li></ol>
+<hr>
+<h3 id="quiet">quiet<a class="hash" href="#quiet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwaɪət/ &middot; <em>KWY-uht</em></dd><dt>Русский</dt><dd>успокаивать, унимать; утихать</dd><dt>Forms</dt><dd><em>quiet</em> &middot; <em>quieted</em> &middot; <em>quieted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>quiets</em> &middot; <strong>-ing form:</strong> <em>quieting</em></dd><dt>Transitivity</dt><dd>both — transitive (quiet the baby), intransitive (the ward quieted down)</dd><dt>Contrast</dt><dd>Americans say <em>quiet</em> (or <em>quiet down</em>); the British verb <em>quieten</em> is not used in the US.</dd></dl>
+<p>To make someone calm and silent, or to become calm.</p>
+<ol><li>A warm bottle will <em>quiet</em> him.</li><li>Her voice <em>quieted</em> the whole room.</li><li>The ward is <em>quieting</em> down for the night.</li></ol>
+<hr>
+<h3 id="steady">steady<a class="hash" href="#steady" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛdi/ &middot; <em>STED-ee</em></dd><dt>Русский</dt><dd>поддерживать (чтобы не упал), придавать устойчивость</dd><dt>Forms</dt><dd><em>steady</em> &middot; <em>steadied</em> &middot; <em>steadied</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>steadies</em> &middot; <strong>-ing form:</strong> <em>steadying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em>: <em>steadies, steadied</em>, but <em>steadying</em> keeps the <em>y</em>.</dd></dl>
+<p>To hold someone or something so that it does not shake or fall.</p>
+<ol><li>A cane <em>steadies</em> him on the stairs.</li><li>She <em>steadied</em> her grandfather by the elbow.</li><li>He is <em>steadying</em> the ladder for her.</li></ol>
+<hr>
+<h3 id="commiserate">commiserate<a class="hash" href="#commiserate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmɪzəreɪt/ &middot; <em>kuh-MIZ-uh-rayt</em></dd><dt>Русский</dt><dd>сочувствовать, выражать сочувствие</dd><dt>Forms</dt><dd><em>commiserate</em> &middot; <em>commiserated</em> &middot; <em>commiserated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>commiserates</em> &middot; <strong>-ing form:</strong> <em>commiserating</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>Commiserate <strong>with</strong></em> a person <strong>about</strong> something.</dd></dl>
+<p>To show someone that you feel sorry about their trouble.</p>
+<ol><li>Coworkers <em>commiserate</em> over bad news.</li><li>She <em>commiserated</em> with him about the diagnosis.</li><li>They were <em>commiserating</em> in the hallway.</li></ol>
+<hr>
+<h3 id="hearten">hearten<a class="hash" href="#hearten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrtən/ &middot; <em>HAR-tuhn</em></dd><dt>Русский</dt><dd>ободрять, воодушевлять</dd><dt>Forms</dt><dd><em>hearten</em> &middot; <em>heartened</em> &middot; <em>heartened</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>heartens</em> &middot; <strong>-ing form:</strong> <em>heartening</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The opposite is <em>dishearten</em>, to take someone's hope away.</dd></dl>
+<p>To make someone feel more hopeful and cheerful.</p>
+<ol><li>Small wins <em>hearten</em> the whole team.</li><li>The letters <em>heartened</em> her during treatment.</li><li>Donors have been <em>heartened</em> by the results.</li></ol>
+<hr>
+<h3 id="embolden">embolden<a class="hash" href="#embolden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈboʊldən/ &middot; <em>im-BOHL-duhn</em></dd><dt>Русский</dt><dd>придавать смелости, ободрять</dd><dt>Forms</dt><dd><em>embolden</em> &middot; <em>emboldened</em> &middot; <em>emboldened</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>emboldens</em> &middot; <strong>-ing form:</strong> <em>emboldening</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give someone the courage to do something.</p>
+<ol><li>Kind teachers <em>embolden</em> shy students.</li><li>Her example <em>emboldened</em> other survivors to speak.</li><li>He was <em>emboldened</em> by their support.</li></ol>
+<hr>
+<h3 id="uplift">uplift<a class="hash" href="#uplift" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌpˈlɪft/ &middot; <em>up-LIFT</em></dd><dt>Русский</dt><dd>поднимать настроение, воодушевлять</dd><dt>Forms</dt><dd><em>uplift</em> &middot; <em>uplifted</em> &middot; <em>uplifted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>uplifts</em> &middot; <strong>-ing form:</strong> <em>uplifting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb stresses the second syllable (up-LIFT); the noun stresses the first (UP-lift).</dd></dl>
+<p>To make someone feel happier and more hopeful.</p>
+<ol><li>Simple visits <em>uplift</em> the residents.</li><li>The choir <em>uplifted</em> everyone in the room.</li><li>She felt <em>uplifted</em> after the meeting.</li></ol>
+<hr>
+<h3 id="galvanize">galvanize<a class="hash" href="#galvanize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡælvənaɪz/ &middot; <em>GAL-vuh-nyz</em></dd><dt>Русский</dt><dd>побуждать к действию, встряхнуть, воодушевить</dd><dt>Forms</dt><dd><em>galvanize</em> &middot; <em>galvanized</em> &middot; <em>galvanized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>galvanizes</em> &middot; <strong>-ing form:</strong> <em>galvanizing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To shock or excite people into taking action.</p>
+<ol><li>Stories like hers <em>galvanize</em> a community.</li><li>The fire <em>galvanized</em> the whole town into helping.</li><li>Neighbors have been <em>galvanized</em> by the news.</li></ol>
+<hr>
+<h3 id="energize">energize<a class="hash" href="#energize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛnərdʒaɪz/ &middot; <em>EN-ur-jyz</em></dd><dt>Русский</dt><dd>заряжать энергией, воодушевлять</dd><dt>Forms</dt><dd><em>energize</em> &middot; <em>energized</em> &middot; <em>energized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>energizes</em> &middot; <strong>-ing form:</strong> <em>energizing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give someone new energy and enthusiasm.</p>
+<ol><li>Good news <em>energizes</em> the volunteers.</li><li>The turnout <em>energized</em> the organizers.</li><li>The team is <em>energized</em> by the new director.</li></ol>
+<hr>
+<h3 id="rouse">rouse<a class="hash" href="#rouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raʊz/ &middot; <em>ROWZ</em></dd><dt>Русский</dt><dd>будить, разбудить; расшевелить</dd><dt>Forms</dt><dd><em>rouse</em> &middot; <em>roused</em> &middot; <em>roused</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rouses</em> &middot; <strong>-ing form:</strong> <em>rousing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To wake someone up, or to stir them into action.</p>
+<ol><li>Night nurses try not to <em>rouse</em> the patients.</li><li>The alarm <em>roused</em> the whole floor.</li><li>He was <em>roused</em> by his daughter's voice.</li></ol>
+<hr>
+<h3 id="spur">spur<a class="hash" href="#spur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɜːr/ &middot; <em>SPUR</em></dd><dt>Русский</dt><dd>побуждать, подстёгивать</dd><dt>Forms</dt><dd><em>spur</em> &middot; <em>spurred</em> &middot; <em>spurred</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>spurs</em> &middot; <strong>-ing form:</strong> <em>spurring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>One syllable ending in a single consonant, so the <em>r</em> doubles: <em>spurred, spurring</em>.</dd></dl>
+<p>To encourage someone to act, or to make something happen faster.</p>
+<ol><li>Deadlines <em>spur</em> people to donate.</li><li>Her illness <em>spurred</em> the family to move closer.</li><li>The campaign has <em>spurred</em> hundreds of new volunteers.</li></ol>
+<hr>
+<h3 id="prod">prod<a class="hash" href="#prod" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɑːd/ &middot; <em>PRAHD</em></dd><dt>Русский</dt><dd>подталкивать, побуждать; тормошить</dd><dt>Forms</dt><dd><em>prod</em> &middot; <em>prodded</em> &middot; <em>prodded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>prods</em> &middot; <strong>-ing form:</strong> <em>prodding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>One syllable ending in a single consonant, so the <em>d</em> doubles: <em>prodded, prodding</em>.</dd></dl>
+<p>To keep pushing someone gently to do something they are avoiding.</p>
+<ol><li>Someone has to <em>prod</em> him to take his pills.</li><li>She <em>prodded</em> her husband into seeing a doctor.</li><li>The nurse has been <em>prodding</em> him to walk a little each day.</li></ol>
+<hr>
+<h3 id="advocate">advocate<a class="hash" href="#advocate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈædvəkeɪt/ &middot; <em>AD-vuh-kayt</em></dd><dt>Русский</dt><dd>отстаивать, выступать в защиту; ратовать</dd><dt>Forms</dt><dd><em>advocate</em> &middot; <em>advocated</em> &middot; <em>advocated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>advocates</em> &middot; <strong>-ing form:</strong> <em>advocating</em></dd><dt>Transitivity</dt><dd>both — transitive (advocate change), intransitive (advocate for a patient)</dd><dt>Contrast</dt><dd>The verb ends in <em>-kayt</em>; the noun <em>advocate</em> (a supporter) ends in <em>-kuht</em>.</dd></dl>
+<p>To speak publicly in support of a person or cause.</p>
+<ol><li>Parents <em>advocate</em> for their kids at every meeting.</li><li>She <em>advocated</em> for better care in nursing homes.</li><li>He has been <em>advocating</em> for foster teens since 2015.</li></ol>
+<hr>
+<h3 id="champion">champion<a class="hash" href="#champion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃæmpiən/ &middot; <em>CHAM-pee-uhn</em></dd><dt>Русский</dt><dd>отстаивать, бороться за; поддерживать</dd><dt>Forms</dt><dd><em>champion</em> &middot; <em>championed</em> &middot; <em>championed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>champions</em> &middot; <strong>-ing form:</strong> <em>championing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To support and fight for a cause or a person you believe in.</p>
+<ol><li>A few doctors <em>champion</em> home care for the elderly.</li><li>She <em>championed</em> the bill for two years.</li><li>The program has been <em>championed</em> by local families.</li></ol>
+<hr>
+<h3 id="solicit">solicit<a class="hash" href="#solicit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈlɪsɪt/ &middot; <em>suh-LIS-it</em></dd><dt>Русский</dt><dd>просить, собирать (пожертвования); ходатайствовать</dd><dt>Forms</dt><dd><em>solicit</em> &middot; <em>solicited</em> &middot; <em>solicited</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>solicits</em> &middot; <strong>-ing form:</strong> <em>soliciting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To ask people for money, help, or support.</p>
+<ol><li>Churches <em>solicit</em> winter coats every November.</li><li>They <em>solicited</em> donations from every business on the block.</li><li>Funds are being <em>solicited</em> for the family.</li></ol>
+<hr>
+<h3 id="fundraise">fundraise<a class="hash" href="#fundraise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʌndreɪz/ &middot; <em>FUND-rayz</em></dd><dt>Русский</dt><dd>собирать средства, заниматься сбором пожертвований</dd><dt>Forms</dt><dd><em>fundraise</em> &middot; <em>fundraised</em> &middot; <em>fundraised</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>fundraises</em> &middot; <strong>-ing form:</strong> <em>fundraising</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To collect money for a charity or a cause.</p>
+<ol><li>The students <em>fundraise</em> every spring.</li><li>They <em>fundraised</em> for months before the trip.</li><li>She has been <em>fundraising</em> since her son's diagnosis.</li></ol>
+<hr>
+<h3 id="canvass">canvass<a class="hash" href="#canvass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkænvəs/ &middot; <em>KAN-vuhss</em></dd><dt>Русский</dt><dd>обходить с просьбой, агитировать; опрашивать</dd><dt>Forms</dt><dd><em>canvass</em> &middot; <em>canvassed</em> &middot; <em>canvassed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>canvasses</em> &middot; <strong>-ing form:</strong> <em>canvassing</em></dd><dt>Transitivity</dt><dd>both — transitive (canvass the neighborhood), intransitive (canvass for donations)</dd><dt>Contrast</dt><dd>Two <em>s</em>'s in the verb <em>canvass</em>; <em>canvas</em> with one <em>s</em> is the heavy cloth.</dd></dl>
+<p>To go from person to person asking for support, money, or opinions.</p>
+<ol><li>Volunteers <em>canvass</em> the neighborhood every fall.</li><li>They <em>canvassed</em> two hundred homes for the food drive.</li><li>He is <em>canvassing</em> his block for winter coats.</li></ol>
+<hr>
+<h3 id="endow">endow<a class="hash" href="#endow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdaʊ/ &middot; <em>in-DOW</em></dd><dt>Русский</dt><dd>жертвовать (капитал), обеспечивать средствами</dd><dt>Forms</dt><dd><em>endow</em> &middot; <em>endowed</em> &middot; <em>endowed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>endows</em> &middot; <strong>-ing form:</strong> <em>endowing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give a large sum of money that will support something permanently.</p>
+<ol><li>Alumni <em>endow</em> scholarships for local students.</li><li>One family <em>endowed</em> the children's ward.</li><li>The clinic is <em>endowed</em> by a small foundation.</li></ol>
+<hr>
+<h3 id="bestow">bestow<a class="hash" href="#bestow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈstoʊ/ &middot; <em>bi-STOH</em></dd><dt>Русский</dt><dd>даровать, жаловать; удостаивать</dd><dt>Forms</dt><dd><em>bestow</em> &middot; <em>bestowed</em> &middot; <em>bestowed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bestows</em> &middot; <strong>-ing form:</strong> <em>bestowing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Bestow</em> something <strong>on</strong> (or <strong>upon</strong>) someone.</dd></dl>
+<p>To give something valuable, especially as an honor.</p>
+<ol><li>Few schools <em>bestow</em> that award on a volunteer.</li><li>The city <em>bestowed</em> its highest honor on the nurse.</li><li>The title has been <em>bestowed</em> only twice.</li></ol>
+<hr>
+<h3 id="bankroll">bankroll<a class="hash" href="#bankroll" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæŋkroʊl/ &middot; <em>BANK-rohl</em></dd><dt>Русский</dt><dd>финансировать, оплачивать</dd><dt>Forms</dt><dd><em>bankroll</em> &middot; <em>bankrolled</em> &middot; <em>bankrolled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bankrolls</em> &middot; <strong>-ing form:</strong> <em>bankrolling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To pay for something, especially over a long period.</p>
+<ol><li>Two donors <em>bankroll</em> the whole after-school program.</li><li>Her uncle <em>bankrolled</em> the treatment.</li><li>The shelter is <em>bankrolled</em> by a single family.</li></ol>
+<hr>
+<h3 id="arbitrate">arbitrate<a class="hash" href="#arbitrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrbətreɪt/ &middot; <em>AR-buh-trayt</em></dd><dt>Русский</dt><dd>выступать арбитром, разрешать спор</dd><dt>Forms</dt><dd><em>arbitrate</em> &middot; <em>arbitrated</em> &middot; <em>arbitrated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>arbitrates</em> &middot; <strong>-ing form:</strong> <em>arbitrating</em></dd><dt>Transitivity</dt><dd>both — transitive (arbitrate a dispute), intransitive (arbitrate between roommates)</dd></dl>
+<p>To settle an argument between two sides as a neutral judge.</p>
+<ol><li>Counselors often <em>arbitrate</em> between roommates.</li><li>A retired judge <em>arbitrated</em> the dispute for free.</li><li>The case is being <em>arbitrated</em> next month.</li></ol>
+<hr>
+<h3 id="intercede">intercede<a class="hash" href="#intercede" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntərˈsiːd/ &middot; <em>in-tur-SEED</em></dd><dt>Русский</dt><dd>заступаться, ходатайствовать</dd><dt>Forms</dt><dd><em>intercede</em> &middot; <em>interceded</em> &middot; <em>interceded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>intercedes</em> &middot; <strong>-ing form:</strong> <em>interceding</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>Intercede <strong>with</strong></em> a person <strong>for</strong> (or <strong>on behalf of</strong>) someone.</dd></dl>
+<p>To speak to someone on another person's behalf in order to help them.</p>
+<ol><li>Teachers sometimes <em>intercede</em> with the principal.</li><li>Her aunt <em>interceded</em> with the landlord.</li><li>He has <em>interceded</em> for that family more than once.</li></ol>
+<hr>
+<h3 id="minister">minister<a class="hash" href="#minister" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪnɪstər/ &middot; <em>MIN-ih-stur</em></dd><dt>Русский</dt><dd>заботиться, ухаживать; служить (кому-л.)</dd><dt>Forms</dt><dd><em>minister</em> &middot; <em>ministered</em> &middot; <em>ministered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ministers</em> &middot; <strong>-ing form:</strong> <em>ministering</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Always <em>minister <strong>to</strong></em> someone; the stress stays on the first syllable, as in the noun.</dd></dl>
+<p>To give care and attention to people who are in need.</p>
+<ol><li>Chaplains <em>minister</em> to families in the ICU.</li><li>Neighbors <em>ministered</em> to the sick all winter.</li><li>She has been <em>ministering</em> to the homeless for years.</li></ol>
+<hr>
+<h3 id="obligate">obligate<a class="hash" href="#obligate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːbləɡeɪt/ &middot; <em>AH-bluh-gayt</em></dd><dt>Русский</dt><dd>обязывать, обязать</dd><dt>Forms</dt><dd><em>obligate</em> &middot; <em>obligated</em> &middot; <em>obligated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>obligates</em> &middot; <strong>-ing form:</strong> <em>obligating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Americans say <em>obligated to</em>; <em>obliged to</em> sounds more British and more formal.</dd></dl>
+<p>To make it someone's legal or moral duty to do something.</p>
+<ol><li>The law does not <em>obligate</em> you to help a stranger.</li><li>His promise <em>obligated</em> him to stay another month.</li><li>Nobody here is <em>obligated</em> to donate.</li></ol>
+<hr>
+<h3 id="shepherd">shepherd<a class="hash" href="#shepherd" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɛpərd/ &middot; <em>SHEP-urd</em></dd><dt>Русский</dt><dd>вести, сопровождать (группу); опекать</dd><dt>Forms</dt><dd><em>shepherd</em> &middot; <em>shepherded</em> &middot; <em>shepherded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>shepherds</em> &middot; <strong>-ing form:</strong> <em>shepherding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The middle <em>h</em> is silent: SHEP-urd.</dd></dl>
+<p>To guide a group of people carefully from one place or stage to another.</p>
+<ol><li>Aides <em>shepherd</em> the children across the street.</li><li>She <em>shepherded</em> the family through all the paperwork.</li><li>They are <em>shepherding</em> the group to the buses.</li></ol>
+<hr>
+<h3 id="steward">steward<a class="hash" href="#steward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstuːərd/ &middot; <em>STOO-urd</em></dd><dt>Русский</dt><dd>бережно управлять, распоряжаться (ресурсами)</dd><dt>Forms</dt><dd><em>steward</em> &middot; <em>stewarded</em> &middot; <em>stewarded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>stewards</em> &middot; <strong>-ing form:</strong> <em>stewarding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To take careful responsibility for something that belongs to other people.</p>
+<ol><li>Small charities have to <em>steward</em> every dollar.</li><li>The board <em>stewarded</em> the fund for decades.</li><li>The land is <em>stewarded</em> by the families who live on it.</li></ol>
+<hr>
+<h3 id="revitalize">revitalize<a class="hash" href="#revitalize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈvaɪtəlaɪz/ &middot; <em>ree-VY-tuh-lyz</em></dd><dt>Русский</dt><dd>оживлять, возрождать; вдохнуть новую жизнь</dd><dt>Forms</dt><dd><em>revitalize</em> &middot; <em>revitalized</em> &middot; <em>revitalized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>revitalizes</em> &middot; <strong>-ing form:</strong> <em>revitalizing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give new strength and life to a person, place, or organization.</p>
+<ol><li>New volunteers <em>revitalize</em> a tired program.</li><li>The grant <em>revitalized</em> the whole center.</li><li>The neighborhood is being <em>revitalized</em> by its own residents.</li></ol>
+<hr>
+<h3 id="resettle">resettle<a class="hash" href="#resettle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈsɛtəl/ &middot; <em>ree-SET-uhl</em></dd><dt>Русский</dt><dd>переселять, расселять</dd><dt>Forms</dt><dd><em>resettle</em> &middot; <em>resettled</em> &middot; <em>resettled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>resettles</em> &middot; <strong>-ing form:</strong> <em>resettling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To help people move to a new place to live, usually after they have lost their home.</p>
+<ol><li>Church groups <em>resettle</em> several families a year.</li><li>The agency <em>resettled</em> them in Ohio.</li><li>Thousands have been <em>resettled</em> since the spring.</li></ol>
+<hr>
+<h3 id="chauffeur">chauffeur<a class="hash" href="#chauffeur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃoʊˈfɜːr/ &middot; <em>shoh-FUR</em></dd><dt>Русский</dt><dd>возить, подвозить (в качестве водителя)</dd><dt>Forms</dt><dd><em>chauffeur</em> &middot; <em>chauffeured</em> &middot; <em>chauffeured</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>chauffeurs</em> &middot; <strong>-ing form:</strong> <em>chauffeuring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>French spelling, English sounds: <em>ch</em> is said like <em>sh</em>, and <em>-eur</em> rhymes with <em>fur</em>.</dd></dl>
+<p>To drive someone where they need to go.</p>
+<ol><li>Grandparents often <em>chauffeur</em> the kids to practice.</li><li>He <em>chauffeured</em> his neighbor to chemo every Tuesday.</li><li>She has been <em>chauffeuring</em> her mother to appointments for a year.</li></ol>
+<hr>
+<h3 id="pray">pray<a class="hash" href="#pray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/preɪ/ &middot; <em>PRAY</em></dd><dt>Русский</dt><dd>молиться, помолиться</dd><dt>Forms</dt><dd><em>pray</em> &middot; <em>prayed</em> &middot; <em>prayed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>prays</em> &middot; <strong>-ing form:</strong> <em>praying</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Sounds exactly like <em>prey</em> (an animal that is hunted); the vowel + <em>y</em> keeps the <em>y</em>: <em>prayed</em>, not <em>praied</em>.</dd></dl>
+<p>To speak to God, often asking for help for yourself or for someone else.</p>
+<ol><li>Her whole church <em>prays</em> for the family every Sunday.</li><li>They <em>prayed</em> together in the waiting room.</li><li>She has been <em>praying</em> for his recovery for months.</li></ol>
+<hr>
+<h3 id="dose">dose<a class="hash" href="#dose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/doʊs/ &middot; <em>DOHS</em></dd><dt>Русский</dt><dd>дозировать, давать лекарство (в нужной дозе)</dd><dt>Forms</dt><dd><em>dose</em> &middot; <em>dosed</em> &middot; <em>dosed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>doses</em> &middot; <strong>-ing form:</strong> <em>dosing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Dose</em> ends in an <em>s</em> sound (DOHS); <em>doze</em>, to sleep lightly, ends in <em>z</em>.</dd></dl>
+<p>To give someone a measured amount of medicine.</p>
+<ol><li>Parents <em>dose</em> children by weight, not by age.</li><li>The nurse <em>dosed</em> him again at midnight.</li><li>He has been <em>dosing</em> himself with cough syrup all week.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

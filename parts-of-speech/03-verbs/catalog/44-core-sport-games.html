@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: sport and games</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-sport-and-games">Core verbs: sport and games<a class="hash" href="#core-verbs-sport-and-games" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of sport and games — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="contend">contend<a class="hash" href="#contend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtɛnd/ &middot; <em>kuhn-TEND</em></dd><dt>Русский</dt><dd>бороться (за титул), соперничать</dd><dt>Forms</dt><dd><em>contend</em> &middot; <em>contended</em> &middot; <em>contended</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>contends</em> &middot; <strong>-ing form:</strong> <em>contending</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Contend <strong>for</strong> a prize; contend <strong>with</strong> a problem or a rival.</dd></dl>
+<p>To compete seriously for something such as a title or a prize.</p>
+<ol><li>Three clubs <em>contend</em> for the title almost every season.</li><li>They <em>contended</em> for the championship until the final week.</li><li>He has been <em>contending</em> with a knee injury all year.</li></ol>
+<hr>
+<h3 id="outplay">outplay<a class="hash" href="#outplay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtˈpleɪ/ &middot; <em>owt-PLAY</em></dd><dt>Русский</dt><dd>переигрывать, переиграть</dd><dt>Forms</dt><dd><em>outplay</em> &middot; <em>outplayed</em> &middot; <em>outplayed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>outplays</em> &middot; <strong>-ing form:</strong> <em>outplaying</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To play much better than an opponent during a game.</p>
+<ol><li>On a good day they can <em>outplay</em> anyone in the state.</li><li>The visitors <em>outplayed</em> us in every position.</li><li>We were <em>outplayed</em> from the opening whistle.</li></ol>
+<hr>
+<h3 id="outscore">outscore<a class="hash" href="#outscore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtˈskɔːr/ &middot; <em>owt-SKOR</em></dd><dt>Русский</dt><dd>набирать больше очков, обыгрывать по очкам</dd><dt>Forms</dt><dd><em>outscore</em> &middot; <em>outscored</em> &middot; <em>outscored</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>outscores</em> &middot; <strong>-ing form:</strong> <em>outscoring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To score more points or goals than the other side.</p>
+<ol><li>They <em>outscore</em> their opponents by twenty points a game.</li><li>Miami <em>outscored</em> Boston 30-12 in the fourth quarter.</li><li>Our front line has <em>outscored</em> every other team in the league.</li></ol>
+<hr>
+<h3 id="outlast">outlast<a class="hash" href="#outlast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtˈlæst/ &middot; <em>owt-LAST</em></dd><dt>Русский</dt><dd>продержаться дольше, выстоять</dd><dt>Forms</dt><dd><em>outlast</em> &middot; <em>outlasted</em> &middot; <em>outlasted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>outlasts</em> &middot; <strong>-ing form:</strong> <em>outlasting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep going longer than someone else and so win.</p>
+<ol><li>In this heat the fitter team will simply <em>outlast</em> the other.</li><li>She <em>outlasted</em> four opponents to reach the final.</li><li>He has <em>outlasted</em> three head coaches at the same club.</li></ol>
+<hr>
+<h3 id="outclass">outclass<a class="hash" href="#outclass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtˈklæs/ &middot; <em>owt-KLAS</em></dd><dt>Русский</dt><dd>превосходить, превзойти по классу</dd><dt>Forms</dt><dd><em>outclass</em> &middot; <em>outclassed</em> &middot; <em>outclassed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>outclasses</em> &middot; <strong>-ing form:</strong> <em>outclassing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To be so much better than an opponent that the contest is never close.</p>
+<ol><li>A veteran can <em>outclass</em> a rookie without even running hard.</li><li>The champions <em>outclassed</em> us in every department.</li><li>Our juniors were badly <em>outclassed</em> by the visiting school.</li></ol>
+<hr>
+<h3 id="outpace">outpace<a class="hash" href="#outpace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtˈpeɪs/ &middot; <em>owt-PAYS</em></dd><dt>Русский</dt><dd>опережать, опередить (по скорости)</dd><dt>Forms</dt><dd><em>outpace</em> &middot; <em>outpaced</em> &middot; <em>outpaced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>outpaces</em> &middot; <strong>-ing form:</strong> <em>outpacing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To move faster than someone and leave them behind.</p>
+<ol><li>Very few defenders can <em>outpace</em> him over ten yards.</li><li>She <em>outpaced</em> the whole field on the last lap.</li><li>He has <em>outpaced</em> every sprinter he has met this season.</li></ol>
+<hr>
+<h3 id="eliminate">eliminate<a class="hash" href="#eliminate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlɪməneɪt/ &middot; <em>i-LIM-uh-nayt</em></dd><dt>Русский</dt><dd>выбивать, выбить (из турнира)</dd><dt>Forms</dt><dd><em>eliminate</em> &middot; <em>eliminated</em> &middot; <em>eliminated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>eliminates</em> &middot; <strong>-ing form:</strong> <em>eliminating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To knock a team or player out of a competition so that they cannot continue.</p>
+<ol><li>One more loss will <em>eliminate</em> them from the playoffs.</li><li>A late goal <em>eliminated</em> the defending champions.</li><li>Two seeded players have already been <em>eliminated</em>.</li></ol>
+<hr>
+<h3 id="clinch">clinch<a class="hash" href="#clinch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɪntʃ/ &middot; <em>KLINCH</em></dd><dt>Русский</dt><dd>обеспечить (победу), досрочно завоевать</dd><dt>Forms</dt><dd><em>clinch</em> &middot; <em>clinched</em> &middot; <em>clinched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>clinches</em> &middot; <strong>-ing form:</strong> <em>clinching</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To win something definitely, so that no later result can change it.</p>
+<ol><li>A win tonight would <em>clinch</em> the division.</li><li>They <em>clinched</em> a playoff spot with two games to spare.</li><li>The title was <em>clinched</em> back in October.</li></ol>
+<hr>
+<h3 id="dethrone">dethrone<a class="hash" href="#dethrone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈθroʊn/ &middot; <em>di-THROHN</em></dd><dt>Русский</dt><dd>свергать, свергнуть (чемпиона)</dd><dt>Forms</dt><dd><em>dethrone</em> &middot; <em>dethroned</em> &middot; <em>dethroned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>dethrones</em> &middot; <strong>-ing form:</strong> <em>dethroning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To beat a champion and take their title away.</p>
+<ol><li>Nobody expected a rookie to <em>dethrone</em> the champion.</li><li>They <em>dethroned</em> the winners of the last two seasons.</li><li>The long-time favorite was finally <em>dethroned</em> in Paris.</li></ol>
+<hr>
+<h3 id="crown">crown<a class="hash" href="#crown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kraʊn/ &middot; <em>KROWN</em></dd><dt>Русский</dt><dd>провозглашать чемпионом, короновать</dd><dt>Forms</dt><dd><em>crown</em> &middot; <em>crowned</em> &middot; <em>crowned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>crowns</em> &middot; <strong>-ing form:</strong> <em>crowning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To officially name someone the winner or champion.</p>
+<ol><li>The league will <em>crown</em> a new champion tonight.</li><li>They <em>crowned</em> him rookie of the year.</li><li>She was <em>crowned</em> world champion in Oslo.</li></ol>
+<hr>
+<h3 id="medal">medal<a class="hash" href="#medal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛdəl/ &middot; <em>MED-uhl</em></dd><dt>Русский</dt><dd>завоёвывать медаль, стать призёром</dd><dt>Forms</dt><dd><em>medal</em> &middot; <em>medaled</em> &middot; <em>medaled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>medals</em> &middot; <strong>-ing form:</strong> <em>medaling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>American English keeps one l: <em>medaled</em>, <em>medaling</em>. British writing doubles it: <em>medalled</em>.</dd></dl>
+<p>To finish high enough in a competition to win a medal.</p>
+<ol><li>Only three swimmers <em>medal</em> in each event.</li><li>He <em>medaled</em> in the two hundred meters.</li><li>She has <em>medaled</em> at two straight world championships.</li></ol>
+<hr>
+<h3 id="equalize">equalize<a class="hash" href="#equalize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːkwəlaɪz/ &middot; <em>EE-kwuh-lyz</em></dd><dt>Русский</dt><dd>сравнивать счёт, сравнять счёт</dd><dt>Forms</dt><dd><em>equalize</em> &middot; <em>equalized</em> &middot; <em>equalized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>equalizes</em> &middot; <strong>-ing form:</strong> <em>equalizing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>American spelling uses <em>-ize</em>; British writing often prefers <em>equalise</em>.</dd></dl>
+<p>To score a goal that makes the score level again.</p>
+<ol><li>They need one more goal to <em>equalize</em>.</li><li>The striker <em>equalized</em> in the eighty-eighth minute.</li><li>United had already <em>equalized</em> twice before halftime.</li></ol>
+<hr>
+<h3 id="trounce">trounce<a class="hash" href="#trounce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/traʊns/ &middot; <em>TROWNS</em></dd><dt>Русский</dt><dd>разгромить, разбить</dd><dt>Forms</dt><dd><em>trounce</em> &middot; <em>trounced</em> &middot; <em>trounced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>trounces</em> &middot; <strong>-ing form:</strong> <em>trouncing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To beat an opponent by a very large margin.</p>
+<ol><li>On their home field they <em>trounce</em> almost everybody.</li><li>We <em>trounced</em> the visitors six to nothing.</li><li>They have been <em>trounced</em> in both road games.</li></ol>
+<hr>
+<h3 id="rout">rout<a class="hash" href="#rout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raʊt/ &middot; <em>ROWT</em></dd><dt>Русский</dt><dd>разгромить, разбить наголову</dd><dt>Forms</dt><dd><em>rout</em> &middot; <em>routed</em> &middot; <em>routed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>routs</em> &middot; <strong>-ing form:</strong> <em>routing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Rout</em> rhymes with <em>out</em>. Do not confuse it with the noun <em>route</em> (a way to go), which Americans say /ruːt/ or /raʊt/.</dd></dl>
+<p>To defeat a team completely and heavily.</p>
+<ol><li>A healthy squad can <em>rout</em> this team.</li><li>The Tigers <em>routed</em> their rivals by forty points.</li><li>Our defense was <em>routed</em> in the second half.</li></ol>
+<hr>
+<h3 id="notch">notch<a class="hash" href="#notch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɑːtʃ/ &middot; <em>NAHCH</em></dd><dt>Русский</dt><dd>записывать на свой счёт (победу), одержать</dd><dt>Forms</dt><dd><em>notch</em> &middot; <em>notched</em> &middot; <em>notched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>notches</em> &middot; <strong>-ing form:</strong> <em>notching</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To win or record a result and add it to your total.</p>
+<ol><li>They can <em>notch</em> their tenth win tonight.</li><li>He <em>notched</em> three assists in the opener.</li><li>She has <em>notched</em> five victories in a row.</li></ol>
+<hr>
+<h3 id="net">net<a class="hash" href="#net" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɛt/ &middot; <em>NET</em></dd><dt>Русский</dt><dd>забивать, забить (гол)</dd><dt>Forms</dt><dd><em>net</em> &middot; <em>netted</em> &middot; <em>netted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>nets</em> &middot; <strong>-ing form:</strong> <em>netting</em></dd><dt>Transitivity</dt><dd>both — transitive (net a goal), intransitive (he netted again on Sunday)</dd><dt>Contrast</dt><dd>One short vowel before a final t, so the t doubles: <em>netted</em>, <em>netting</em>.</dd></dl>
+<p>To put the ball into the goal and score.</p>
+<ol><li>A striker like that can <em>net</em> twenty goals a season.</li><li>She <em>netted</em> the winner in extra time.</li><li>He has <em>netted</em> in four straight games.</li></ol>
+<hr>
+<h3 id="equal">equal<a class="hash" href="#equal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːkwəl/ &middot; <em>EE-kwuhl</em></dd><dt>Русский</dt><dd>сравняться, повторить (рекорд)</dd><dt>Forms</dt><dd><em>equal</em> &middot; <em>equaled</em> &middot; <em>equaled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>equals</em> &middot; <strong>-ing form:</strong> <em>equaling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American English keeps one l: <em>equaled</em>, <em>equaling</em>. British writing doubles it: <em>equalled</em>.</dd></dl>
+<p>To match a record or a result that someone else has already set.</p>
+<ol><li>A time of 9.8 would <em>equal</em> the school record.</li><li>She <em>equaled</em> the world record in Rome.</li><li>That mark has never been <em>equaled</em> since.</li></ol>
+<hr>
+<h3 id="lap">lap<a class="hash" href="#lap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læp/ &middot; <em>LAP</em></dd><dt>Русский</dt><dd>обгонять на круг, обойти на круг</dd><dt>Forms</dt><dd><em>lap</em> &middot; <em>lapped</em> &middot; <em>lapped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>laps</em> &middot; <strong>-ing form:</strong> <em>lapping</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>One short vowel before a final p, so the p doubles: <em>lapped</em>, <em>lapping</em>.</dd></dl>
+<p>To get a whole lap ahead of a slower competitor in a race.</p>
+<ol><li>The leaders <em>lap</em> the slowest riders twice.</li><li>He <em>lapped</em> half the field by mile ten.</li><li>Two cars had been <em>lapped</em> before the first pit stop.</li></ol>
+<hr>
+<h3 id="triumph">triumph<a class="hash" href="#triumph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtraɪəmf/ &middot; <em>TRY-uhmf</em></dd><dt>Русский</dt><dd>побеждать, одержать победу, торжествовать</dd><dt>Forms</dt><dd><em>triumph</em> &middot; <em>triumphed</em> &middot; <em>triumphed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>triumphs</em> &middot; <strong>-ing form:</strong> <em>triumphing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Triumph <strong>over</strong> an opponent. The <em>ph</em> is said /f/: TRY-uhmf.</dd></dl>
+<p>To win, especially after a hard struggle.</p>
+<ol><li>Underdogs rarely <em>triumph</em> on this court.</li><li>Spain <em>triumphed</em> on penalties.</li><li>She has <em>triumphed</em> over three former champions.</li></ol>
+<hr>
+<h3 id="prevail">prevail<a class="hash" href="#prevail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈveɪl/ &middot; <em>pri-VAYL</em></dd><dt>Русский</dt><dd>одерживать верх, победить</dd><dt>Forms</dt><dd><em>prevail</em> &middot; <em>prevailed</em> &middot; <em>prevailed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>prevails</em> &middot; <strong>-ing form:</strong> <em>prevailing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Prevail <strong>over</strong> or <strong>against</strong> an opponent.</dd></dl>
+<p>To win in the end, especially in a close contest.</p>
+<ol><li>Talent does not always <em>prevail</em> over hard work.</li><li>Our team <em>prevailed</em> in a third-set tiebreak.</li><li>The home side has <em>prevailed</em> in nine straight meetings.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#prevail-over">prevail over</a></dd></dl>
+<h3 id="captain">captain<a class="hash" href="#captain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæptən/ &middot; <em>KAP-tuhn</em></dd><dt>Русский</dt><dd>быть капитаном, капитанствовать</dd><dt>Forms</dt><dd><em>captain</em> &middot; <em>captained</em> &middot; <em>captained</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>captains</em> &middot; <strong>-ing form:</strong> <em>captaining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To lead a team as its captain.</p>
+<ol><li>She will <em>captain</em> the national team this summer.</li><li>He <em>captained</em> the squad for six seasons.</li><li>The side has been <em>captained</em> by the same player since 2020.</li></ol>
+<hr>
+<h3 id="scout">scout<a class="hash" href="#scout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skaʊt/ &middot; <em>SKOWT</em></dd><dt>Русский</dt><dd>просматривать (игроков), вести селекцию</dd><dt>Forms</dt><dd><em>scout</em> &middot; <em>scouted</em> &middot; <em>scouted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>scouts</em> &middot; <strong>-ing form:</strong> <em>scouting</em></dd><dt>Transitivity</dt><dd>both — transitive (scout a player), intransitive (he scouts for a college team)</dd></dl>
+<p>To watch players or opposing teams in order to judge them.</p>
+<ol><li>Clubs <em>scout</em> players as young as fourteen.</li><li>They <em>scouted</em> him at a high school tournament.</li><li>Our staff has been <em>scouting</em> the opposition all week.</li></ol>
+<hr>
+<h3 id="bench">bench<a class="hash" href="#bench" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɛntʃ/ &middot; <em>BENCH</em></dd><dt>Русский</dt><dd>сажать на скамейку запасных, оставить в запасе</dd><dt>Forms</dt><dd><em>bench</em> &middot; <em>benched</em> &middot; <em>benched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>benches</em> &middot; <strong>-ing form:</strong> <em>benching</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To take a player out of the game and keep them on the bench.</p>
+<ol><li>The coach may <em>bench</em> him for the final.</li><li>They <em>benched</em> their starting goalkeeper.</li><li>He was <em>benched</em> after two poor games.</li></ol>
+<hr>
+<h3 id="rest">rest<a class="hash" href="#rest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɛst/ &middot; <em>REST</em></dd><dt>Русский</dt><dd>отдыхать, отдохнуть; давать отдых</dd><dt>Forms</dt><dd><em>rest</em> &middot; <em>rested</em> &middot; <em>rested</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rests</em> &middot; <strong>-ing form:</strong> <em>resting</em></dd><dt>Transitivity</dt><dd>both — transitive (rest a player), intransitive (rest between sets)</dd></dl>
+<p>To stop training or playing for a while so the body recovers.</p>
+<ol><li>Runners <em>rest</em> two minutes between intervals.</li><li>The manager <em>rested</em> his best players before the cup game.</li><li>She has been <em>resting</em> a sore shoulder for a week.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#rest-on">rest on</a> &middot; <a href="22-verb-preposition.html#rest-with">rest with</a></dd></dl>
+<h3 id="huddle">huddle<a class="hash" href="#huddle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌdəl/ &middot; <em>HUD-uhl</em></dd><dt>Русский</dt><dd>собираться в кружок (для обсуждения)</dd><dt>Forms</dt><dd><em>huddle</em> &middot; <em>huddled</em> &middot; <em>huddled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>huddles</em> &middot; <strong>-ing form:</strong> <em>huddling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To gather in a tight circle to plan the next play.</p>
+<ol><li>The players <em>huddle</em> before every snap.</li><li>The whole team <em>huddled</em> around the coach.</li><li>They were still <em>huddling</em> when the whistle blew.</li></ol>
+<hr>
+<h3 id="scrimmage">scrimmage<a class="hash" href="#scrimmage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskrɪmɪdʒ/ &middot; <em>SKRIM-ij</em></dd><dt>Русский</dt><dd>проводить тренировочный матч, играть двусторонку</dd><dt>Forms</dt><dd><em>scrimmage</em> &middot; <em>scrimmaged</em> &middot; <em>scrimmaged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>scrimmages</em> &middot; <strong>-ing form:</strong> <em>scrimmaging</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Double m in the middle: <em>scrimmage</em>, not <em>scrimage</em>.</dd></dl>
+<p>To play a practice game that does not count in the standings.</p>
+<ol><li>The two squads <em>scrimmage</em> every Thursday.</li><li>We <em>scrimmaged</em> against the junior team.</li><li>They have been <em>scrimmaging</em> in full pads all week.</li></ol>
+<hr>
+<h3 id="retire">retire<a class="hash" href="#retire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈtaɪər/ &middot; <em>ri-TY-ur</em></dd><dt>Русский</dt><dd>уходить из спорта, завершить карьеру</dd><dt>Forms</dt><dd><em>retire</em> &middot; <em>retired</em> &middot; <em>retired</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>retires</em> &middot; <strong>-ing form:</strong> <em>retiring</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Retire <strong>from</strong> a sport. The ending keeps its schwa: /rɪˈtaɪər/, ri-TY-ur, not ri-TYR.</dd></dl>
+<p>To stop competing for good at the end of a career.</p>
+<ol><li>Most gymnasts <em>retire</em> before they turn twenty-five.</li><li>He <em>retired</em> after the 2022 season.</li><li>She has <em>retired</em> from international play but still coaches.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#retire-from">retire from</a></dd></dl>
+<h3 id="sideline">sideline<a class="hash" href="#sideline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪdlaɪn/ &middot; <em>SYD-lyn</em></dd><dt>Русский</dt><dd>выводить из строя (о травме), лишать игровой практики</dd><dt>Forms</dt><dd><em>sideline</em> &middot; <em>sidelined</em> &middot; <em>sidelined</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>sidelines</em> &middot; <strong>-ing form:</strong> <em>sidelining</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Most often used in the passive: <em>he was sidelined by a knee injury</em>.</dd></dl>
+<p>To keep a player out of the game, usually because of injury.</p>
+<ol><li>A hamstring strain can <em>sideline</em> a sprinter for weeks.</li><li>The injury <em>sidelined</em> him for two months.</li><li>Their captain has been <em>sidelined</em> since March.</li></ol>
+<hr>
+<h3 id="condition">condition<a class="hash" href="#condition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈdɪʃən/ &middot; <em>kuhn-DISH-uhn</em></dd><dt>Русский</dt><dd>готовить физически, тренировать выносливость</dd><dt>Forms</dt><dd><em>condition</em> &middot; <em>conditioned</em> &middot; <em>conditioned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>conditions</em> &middot; <strong>-ing form:</strong> <em>conditioning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To train the body so that it is fit and strong for a sport.</p>
+<ol><li>Coaches <em>condition</em> the squad for six weeks before the season.</li><li>He <em>conditioned</em> himself with long runs in the hills.</li><li>The team has been <em>conditioning</em> since June.</li></ol>
+<hr>
+<h3 id="hustle">hustle<a class="hash" href="#hustle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌsəl/ &middot; <em>HUS-uhl</em></dd><dt>Русский</dt><dd>выкладываться, носиться по площадке</dd><dt>Forms</dt><dd><em>hustle</em> &middot; <em>hustled</em> &middot; <em>hustled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>hustles</em> &middot; <strong>-ing form:</strong> <em>hustling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The t is silent: HUS-uhl, like <em>whistle</em> and <em>castle</em>.</dd></dl>
+<p>To play with constant energy and effort, chasing every ball.</p>
+<ol><li>Good players <em>hustle</em> on every single play.</li><li>She <em>hustled</em> back on defense after the turnover.</li><li>He has been <em>hustling</em> for loose balls all night.</li></ol>
+<hr>
+<h3 id="relegate">relegate<a class="hash" href="#relegate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛləɡeɪt/ &middot; <em>REL-uh-gayt</em></dd><dt>Русский</dt><dd>переводить в низший дивизион, понижать в классе</dd><dt>Forms</dt><dd><em>relegate</em> &middot; <em>relegated</em> &middot; <em>relegated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>relegates</em> &middot; <strong>-ing form:</strong> <em>relegating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Usually passive from the team's point of view: <em>they were relegated</em>, not <em>they relegated</em>.</dd></dl>
+<p>To move a team down into a lower division at the end of a season.</p>
+<ol><li>Two more defeats would <em>relegate</em> the club.</li><li>They <em>relegated</em> three teams that year instead of two.</li><li>The club was <em>relegated</em> last spring for the first time.</li></ol>
+<hr>
+<h3 id="referee">referee<a class="hash" href="#referee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛfəˈriː/ &middot; <em>ref-uh-REE</em></dd><dt>Русский</dt><dd>судить (матч), быть арбитром</dd><dt>Forms</dt><dd><em>referee</em> &middot; <em>refereed</em> &middot; <em>refereed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>referees</em> &middot; <strong>-ing form:</strong> <em>refereeing</em></dd><dt>Transitivity</dt><dd>both — transitive (referee a game), intransitive (he referees on weekends)</dd><dt>Contrast</dt><dd>The double e stays in every form: <em>refereed</em>, <em>refereeing</em> — three e's in a row.</dd></dl>
+<p>To control a game and make sure the rules are followed.</p>
+<ol><li>Retired players often <em>referee</em> youth games.</li><li>He <em>refereed</em> two World Cup finals.</li><li>She has been <em>refereeing</em> for fifteen years.</li></ol>
+<hr>
+<h3 id="umpire">umpire<a class="hash" href="#umpire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌmpaɪər/ &middot; <em>UM-py-ur</em></dd><dt>Русский</dt><dd>судить (в бейсболе, теннисе), быть судьёй</dd><dt>Forms</dt><dd><em>umpire</em> &middot; <em>umpired</em> &middot; <em>umpired</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>umpires</em> &middot; <strong>-ing form:</strong> <em>umpiring</em></dd><dt>Transitivity</dt><dd>both — transitive (umpire a match), intransitive (he umpires in the summer league)</dd></dl>
+<p>To act as the official who judges play in baseball, tennis, or cricket.</p>
+<ol><li>Volunteers <em>umpire</em> the Little League games.</li><li>He <em>umpired</em> behind the plate for all nine innings.</li><li>She has <em>umpired</em> at three US Opens.</li></ol>
+<hr>
+<h3 id="officiate">officiate<a class="hash" href="#officiate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈfɪʃieɪt/ &middot; <em>uh-FISH-ee-ayt</em></dd><dt>Русский</dt><dd>судить (соревнование), выполнять обязанности судьи</dd><dt>Forms</dt><dd><em>officiate</em> &middot; <em>officiated</em> &middot; <em>officiated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>officiates</em> &middot; <strong>-ing form:</strong> <em>officiating</em></dd><dt>Transitivity</dt><dd>both — transitive (officiate a bout), intransitive (he officiates at college level)</dd></dl>
+<p>To serve as a referee, umpire, or judge at a sporting event.</p>
+<ol><li>Two judges <em>officiate</em> each bout.</li><li>He <em>officiated</em> the championship game.</li><li>She has been <em>officiating</em> college basketball since 2015.</li></ol>
+<hr>
+<h3 id="foul">foul<a class="hash" href="#foul" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/faʊl/ &middot; <em>FOWL</em></dd><dt>Русский</dt><dd>фолить, нарушать правила (против игрока)</dd><dt>Forms</dt><dd><em>foul</em> &middot; <em>fouled</em> &middot; <em>fouled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>fouls</em> &middot; <strong>-ing form:</strong> <em>fouling</em></dd><dt>Transitivity</dt><dd>both — transitive (foul the shooter), intransitive (he fouled twice in a minute)</dd></dl>
+<p>To break the rules by hitting, holding, or tripping an opponent.</p>
+<ol><li>Defenders <em>foul</em> him every time he drives to the basket.</li><li>She <em>fouled</em> the shooter with a second left.</li><li>He had already been <em>fouled</em> twice in the opening minute.</li></ol>
+<hr>
+<h3 id="caution">caution<a class="hash" href="#caution" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːʃən/ &middot; <em>KAW-shuhn</em></dd><dt>Русский</dt><dd>выносить предупреждение, показать жёлтую карточку</dd><dt>Forms</dt><dd><em>caution</em> &middot; <em>cautioned</em> &middot; <em>cautioned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cautions</em> &middot; <strong>-ing form:</strong> <em>cautioning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give a player an official warning for breaking the rules.</p>
+<ol><li>Referees <em>caution</em> players for wasting time.</li><li>The referee <em>cautioned</em> both captains.</li><li>He had been <em>cautioned</em> earlier in the half.</li></ol>
+<hr>
+<h3 id="overrule">overrule<a class="hash" href="#overrule" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈruːl/ &middot; <em>oh-vur-ROOL</em></dd><dt>Русский</dt><dd>отменять решение, отклонять</dd><dt>Forms</dt><dd><em>overrule</em> &middot; <em>overruled</em> &middot; <em>overruled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>overrules</em> &middot; <strong>-ing form:</strong> <em>overruling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Two r's meet in the middle: <em>over</em> + <em>rule</em> = <em>overrule</em>.</dd></dl>
+<p>To cancel another official's decision by using greater authority.</p>
+<ol><li>Video review can <em>overrule</em> the referee on the field.</li><li>The chair umpire <em>overruled</em> the line call.</li><li>His decision was <em>overruled</em> after a replay.</li></ol>
+<hr>
+<h3 id="appeal">appeal<a class="hash" href="#appeal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpiːl/ &middot; <em>uh-PEEL</em></dd><dt>Русский</dt><dd>подавать апелляцию, обжаловать</dd><dt>Forms</dt><dd><em>appeal</em> &middot; <em>appealed</em> &middot; <em>appealed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>appeals</em> &middot; <strong>-ing form:</strong> <em>appealing</em></dd><dt>Transitivity</dt><dd>both — transitive (appeal the ruling), intransitive (appeal to the federation)</dd><dt>Contrast</dt><dd>Appeal <strong>to</strong> a person or body, appeal <strong>against</strong> a decision. American writing also allows the direct object: <em>appeal the ban</em>.</dd></dl>
+<p>To formally ask for a decision or a punishment to be changed.</p>
+<ol><li>The team will <em>appeal</em> the suspension.</li><li>She <em>appealed</em> to the tournament committee the same evening.</li><li>The red card has already been <em>appealed</em>.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#appeal-to">appeal to</a></dd></dl>
+<h3 id="time">time<a class="hash" href="#time" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪm/ &middot; <em>TYM</em></dd><dt>Русский</dt><dd>засекать время, хронометрировать</dd><dt>Forms</dt><dd><em>time</em> &middot; <em>timed</em> &middot; <em>timed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>times</em> &middot; <strong>-ing form:</strong> <em>timing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The silent e drops before <em>-ing</em>: <em>timing</em>, never <em>timeing</em>.</dd></dl>
+<p>To measure how long someone takes to do something.</p>
+<ol><li>The coaches <em>time</em> every sprint.</li><li>They <em>timed</em> her at 11.4 seconds.</li><li>All the laps are being <em>timed</em> electronically.</li></ol>
+<hr>
+<h3 id="clock">clock<a class="hash" href="#clock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɑːk/ &middot; <em>KLAHK</em></dd><dt>Русский</dt><dd>показывать время (о результате), зафиксировать</dd><dt>Forms</dt><dd><em>clock</em> &middot; <em>clocked</em> &middot; <em>clocked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>clocks</em> &middot; <strong>-ing form:</strong> <em>clocking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To record a particular time or speed for someone.</p>
+<ol><li>Scouts want to see him <em>clock</em> under 4.5 seconds.</li><li>She <em>clocked</em> a personal best in the heats.</li><li>The pitcher was <em>clocked</em> at ninety-nine miles an hour.</li></ol>
+<hr>
+<h3 id="dribble">dribble<a class="hash" href="#dribble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɪbəl/ &middot; <em>DRIB-uhl</em></dd><dt>Русский</dt><dd>вести мяч, обводить</dd><dt>Forms</dt><dd><em>dribble</em> &middot; <em>dribbled</em> &middot; <em>dribbled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>dribbles</em> &middot; <strong>-ing form:</strong> <em>dribbling</em></dd><dt>Transitivity</dt><dd>both — transitive (dribble the ball), intransitive (dribble up the court)</dd></dl>
+<p>To move the ball along with small touches or bounces while running.</p>
+<ol><li>Young players learn to <em>dribble</em> with both hands.</li><li>He <em>dribbled</em> past three defenders.</li><li>She was <em>dribbling</em> up the sideline when the whistle blew.</li></ol>
+<hr>
+<h3 id="intercept">intercept<a class="hash" href="#intercept" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntərˈsɛpt/ &middot; <em>in-tur-SEPT</em></dd><dt>Русский</dt><dd>перехватывать, перехватить</dd><dt>Forms</dt><dd><em>intercept</em> &middot; <em>intercepted</em> &middot; <em>intercepted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>intercepts</em> &middot; <strong>-ing form:</strong> <em>intercepting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To catch or stop a pass that was meant for someone else.</p>
+<ol><li>Good defenders <em>intercept</em> lazy passes.</li><li>She <em>intercepted</em> the ball at midfield and ran.</li><li>Two of his throws were <em>intercepted</em> in the first quarter.</li></ol>
+<hr>
+<h3 id="volley">volley<a class="hash" href="#volley" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɑːli/ &middot; <em>VAH-lee</em></dd><dt>Русский</dt><dd>бить с лёта, играть с лёта</dd><dt>Forms</dt><dd><em>volley</em> &middot; <em>volleyed</em> &middot; <em>volleyed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>volleys</em> &middot; <strong>-ing form:</strong> <em>volleying</em></dd><dt>Transitivity</dt><dd>both — transitive (volley the cross), intransitive (she volleys well at the net)</dd><dt>Contrast</dt><dd>Vowel + y, so the y stays: <em>volleys</em>, <em>volleyed</em> — not <em>vollies</em> or <em>vollied</em>.</dd></dl>
+<p>To hit a ball before it bounces.</p>
+<ol><li>She likes to <em>volley</em> at the net.</li><li>He <em>volleyed</em> the cross into the top corner.</li><li>The ball was <em>volleyed</em> home from six yards out.</li></ol>
+<hr>
+<h3 id="spike">spike<a class="hash" href="#spike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spaɪk/ &middot; <em>SPYK</em></dd><dt>Русский</dt><dd>бить сверху (в волейболе), гасить</dd><dt>Forms</dt><dd><em>spike</em> &middot; <em>spiked</em> &middot; <em>spiked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>spikes</em> &middot; <strong>-ing form:</strong> <em>spiking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To hit the ball hard and downward over the net.</p>
+<ol><li>Their tall hitters <em>spike</em> from the back row.</li><li>She <em>spiked</em> the ball straight down the line.</li><li>He was <em>spiking</em> well all match.</li></ol>
+<hr>
+<h3 id="lob">lob<a class="hash" href="#lob" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɑːb/ &middot; <em>LAHB</em></dd><dt>Русский</dt><dd>перебрасывать свечой, делать свечу</dd><dt>Forms</dt><dd><em>lob</em> &middot; <em>lobbed</em> &middot; <em>lobbed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>lobs</em> &middot; <strong>-ing form:</strong> <em>lobbing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>One short vowel before a final b, so the b doubles: <em>lobbed</em>, <em>lobbing</em>.</dd></dl>
+<p>To hit or throw the ball in a high slow curve over someone.</p>
+<ol><li>Try to <em>lob</em> the ball over the goalkeeper.</li><li>She <em>lobbed</em> the return over his head.</li><li>He has been <em>lobbing</em> every short ball all afternoon.</li></ol>
+<hr>
+<h3 id="putt">putt<a class="hash" href="#putt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pʌt/ &middot; <em>PUT</em></dd><dt>Русский</dt><dd>бить патт, катить мяч в лунку (гольф)</dd><dt>Forms</dt><dd><em>putt</em> &middot; <em>putted</em> &middot; <em>putted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>putts</em> &middot; <strong>-ing form:</strong> <em>putting</em></dd><dt>Transitivity</dt><dd>both — transitive (putt the ball), intransitive (he putts beautifully)</dd><dt>Contrast</dt><dd><em>Putt</em> rhymes with <em>cut</em> /pʌt/; the everyday verb <em>put</em> is /pʊt/. Both, confusingly, give <em>putting</em>.</dd></dl>
+<p>To hit a golf ball gently along the green toward the hole.</p>
+<ol><li>He can <em>putt</em> better than anyone on tour.</li><li>She <em>putted</em> from thirty feet and made it.</li><li>He was <em>putting</em> for birdie on the last hole.</li></ol>
+<hr>
+<h3 id="punt">punt<a class="hash" href="#punt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pʌnt/ &middot; <em>PUNT</em></dd><dt>Русский</dt><dd>выбивать мяч с рук, делать пант</dd><dt>Forms</dt><dd><em>punt</em> &middot; <em>punted</em> &middot; <em>punted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>punts</em> &middot; <strong>-ing form:</strong> <em>punting</em></dd><dt>Transitivity</dt><dd>both — transitive (punt the ball away), intransitive (on fourth down they punt)</dd></dl>
+<p>To kick the ball after dropping it from your hands, giving it to the other team.</p>
+<ol><li>On fourth down they usually <em>punt</em>.</li><li>He <em>punted</em> from his own end zone.</li><li>The ball was <em>punted</em> fifty-two yards.</li></ol>
+<hr>
+<h3 id="bat">bat<a class="hash" href="#bat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæt/ &middot; <em>BAT</em></dd><dt>Русский</dt><dd>отбивать (в бейсболе), бить битой</dd><dt>Forms</dt><dd><em>bat</em> &middot; <em>batted</em> &middot; <em>batted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bats</em> &middot; <strong>-ing form:</strong> <em>batting</em></dd><dt>Transitivity</dt><dd>both — transitive (bat the ball into left field), intransitive (she bats third)</dd><dt>Contrast</dt><dd>One short vowel before a final t, so the t doubles: <em>batted</em>, <em>batting</em>.</dd></dl>
+<p>To take your turn hitting the ball with a bat.</p>
+<ol><li>Left-handers usually <em>bat</em> against right-handed pitching.</li><li>He <em>batted</em> .310 last season.</li><li>She has been <em>batting</em> leadoff all year.</li></ol>
+<hr>
+<h3 id="bunt">bunt<a class="hash" href="#bunt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌnt/ &middot; <em>BUNT</em></dd><dt>Русский</dt><dd>делать бант, подставлять биту</dd><dt>Forms</dt><dd><em>bunt</em> &middot; <em>bunted</em> &middot; <em>bunted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bunts</em> &middot; <strong>-ing form:</strong> <em>bunting</em></dd><dt>Transitivity</dt><dd>both — transitive (bunt the runner over), intransitive (he bunted to move the runner)</dd></dl>
+<p>In baseball, to tap the ball softly instead of swinging at it.</p>
+<ol><li>With a runner on first, you <em>bunt</em>.</li><li>He <em>bunted</em> the runner over to second.</li><li>She was <em>bunting</em> for a base hit, not a sacrifice.</li></ol>
+<hr>
+<h3 id="bowl">bowl<a class="hash" href="#bowl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/boʊl/ &middot; <em>BOHL</em></dd><dt>Русский</dt><dd>играть в боулинг</dd><dt>Forms</dt><dd><em>bowl</em> &middot; <em>bowled</em> &middot; <em>bowled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bowls</em> &middot; <strong>-ing form:</strong> <em>bowling</em></dd><dt>Transitivity</dt><dd>both — transitive (bowl a 250 game), intransitive (we bowl on Tuesdays)</dd></dl>
+<p>To roll a heavy ball down a lane to knock over pins.</p>
+<ol><li>We <em>bowl</em> every Tuesday night.</li><li>He <em>bowled</em> a perfect game in March.</li><li>They have been <em>bowling</em> in the same league for years.</li></ol>
+<hr>
+<h3 id="field">field<a class="hash" href="#field" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fiːld/ &middot; <em>FEELD</em></dd><dt>Русский</dt><dd>принимать мяч (в защите), играть в защите</dd><dt>Forms</dt><dd><em>field</em> &middot; <em>fielded</em> &middot; <em>fielded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>fields</em> &middot; <strong>-ing form:</strong> <em>fielding</em></dd><dt>Transitivity</dt><dd>both — transitive (field a grounder), intransitive (he fields well)</dd></dl>
+<p>To catch or stop a ball that has been hit into play.</p>
+<ol><li>Shortstops <em>field</em> more balls than anyone else.</li><li>He <em>fielded</em> the ground ball cleanly and threw to first.</li><li>The ball was <em>fielded</em> on one hop.</li></ol>
+<hr>
+<h3 id="sack">sack<a class="hash" href="#sack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sæk/ &middot; <em>SAK</em></dd><dt>Русский</dt><dd>сбивать квотербека с мячом, делать сэк</dd><dt>Forms</dt><dd><em>sack</em> &middot; <em>sacked</em> &middot; <em>sacked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>sacks</em> &middot; <strong>-ing form:</strong> <em>sacking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>In football, to tackle the quarterback before he can throw.</p>
+<ol><li>Their front four <em>sack</em> the quarterback on almost every third down.</li><li>He <em>sacked</em> the quarterback three times.</li><li>Our passer was <em>sacked</em> six times in one half.</li></ol>
+<hr>
+<h3 id="blitz">blitz<a class="hash" href="#blitz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɪts/ &middot; <em>BLITS</em></dd><dt>Русский</dt><dd>идти в блиц, бросать защитников в атаку</dd><dt>Forms</dt><dd><em>blitz</em> &middot; <em>blitzed</em> &middot; <em>blitzed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>blitzes</em> &middot; <strong>-ing form:</strong> <em>blitzing</em></dd><dt>Transitivity</dt><dd>both — transitive (blitz the quarterback), intransitive (they blitz on every down)</dd><dt>Contrast</dt><dd>Ends in <em>-tz</em>, so the third person adds <em>-es</em>: <em>blitzes</em>.</dd></dl>
+<p>In football, to rush extra defenders at the quarterback.</p>
+<ol><li>They <em>blitz</em> on almost every passing down.</li><li>The defense <em>blitzed</em> and forced a fumble.</li><li>He has been <em>blitzing</em> off the edge all night.</li></ol>
+<hr>
+<h3 id="pivot">pivot<a class="hash" href="#pivot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪvət/ &middot; <em>PIV-uht</em></dd><dt>Русский</dt><dd>разворачиваться на опорной ноге, делать пивот</dd><dt>Forms</dt><dd><em>pivot</em> &middot; <em>pivoted</em> &middot; <em>pivoted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pivots</em> &middot; <strong>-ing form:</strong> <em>pivoting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The stress is on the first syllable, so the t does not double: <em>pivoted</em>, <em>pivoting</em>.</dd></dl>
+<p>To turn on one foot while keeping the other foot planted.</p>
+<ol><li>Keep one foot down and <em>pivot</em>.</li><li>He <em>pivoted</em> and shot over the defender.</li><li>She was <em>pivoting</em> toward the basket when she was fouled.</li></ol>
+<hr>
+<h3 id="curl">curl<a class="hash" href="#curl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɜːrl/ &middot; <em>KURL</em></dd><dt>Русский</dt><dd>закручивать, закрутить (мяч)</dd><dt>Forms</dt><dd><em>curl</em> &middot; <em>curled</em> &middot; <em>curled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>curls</em> &middot; <strong>-ing form:</strong> <em>curling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To bend the flight of a ball with spin, especially on a kick or shot.</p>
+<ol><li>He can <em>curl</em> a free kick around the wall.</li><li>She <em>curled</em> the ball into the far corner.</li><li>The shot was <em>curled</em> just inside the post.</li></ol>
+<hr>
+<h3 id="aim">aim<a class="hash" href="#aim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eɪm/ &middot; <em>AYM</em></dd><dt>Русский</dt><dd>целиться, прицелиться</dd><dt>Forms</dt><dd><em>aim</em> &middot; <em>aimed</em> &middot; <em>aimed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>aims</em> &middot; <strong>-ing form:</strong> <em>aiming</em></dd><dt>Transitivity</dt><dd>both — transitive (aim the ball), intransitive (aim for the corner)</dd><dt>Contrast</dt><dd>Aim <strong>at</strong> a target you want to hit; aim <strong>for</strong> a result you want to reach.</dd></dl>
+<p>To point something at a target before hitting or throwing it.</p>
+<ol><li><em>Aim</em> for the far corner, not the middle.</li><li>She <em>aimed</em> at the top of the backboard.</li><li>He was <em>aiming</em> low and the goalkeeper saved it easily.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#aim-at">aim at</a></dd></dl>
+<h3 id="hurl">hurl<a class="hash" href="#hurl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɜːrl/ &middot; <em>HURL</em></dd><dt>Русский</dt><dd>метать, швырять, швырнуть</dd><dt>Forms</dt><dd><em>hurl</em> &middot; <em>hurled</em> &middot; <em>hurled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>hurls</em> &middot; <strong>-ing form:</strong> <em>hurling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To throw something hard and a long way.</p>
+<ol><li>Throwers <em>hurl</em> the javelin more than eighty meters.</li><li>He <em>hurled</em> the discus past the record line.</li><li>The ball was <em>hurled</em> in from deep right field.</li></ol>
+<hr>
+<h3 id="fault">fault<a class="hash" href="#fault" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔːlt/ &middot; <em>FAWLT</em></dd><dt>Русский</dt><dd>ошибаться на подаче, сделать фол (в теннисе)</dd><dt>Forms</dt><dd><em>fault</em> &middot; <em>faulted</em> &middot; <em>faulted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>faults</em> &middot; <strong>-ing form:</strong> <em>faulting</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>In tennis, to serve the ball into the net or outside the service box.</p>
+<ol><li>Nerves make players <em>fault</em> on easy serves.</li><li>He <em>faulted</em> twice and lost the point.</li><li>She has <em>faulted</em> on three straight first serves.</li></ol>
+<hr>
+<h3 id="botch">botch<a class="hash" href="#botch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːtʃ/ &middot; <em>BAHCH</em></dd><dt>Русский</dt><dd>испортить, запороть</dd><dt>Forms</dt><dd><em>botch</em> &middot; <em>botched</em> &middot; <em>botched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>botches</em> &middot; <strong>-ing form:</strong> <em>botching</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To do something so badly that it goes completely wrong.</p>
+<ol><li>One slip can <em>botch</em> a whole routine.</li><li>The goalkeeper <em>botched</em> an easy catch.</li><li>The handoff was <em>botched</em> on the goal line.</li></ol>
+<hr>
+<h3 id="spar">spar<a class="hash" href="#spar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɑːr/ &middot; <em>SPAR</em></dd><dt>Русский</dt><dd>проводить спарринг, боксировать в тренировке</dd><dt>Forms</dt><dd><em>spar</em> &middot; <em>sparred</em> &middot; <em>sparred</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>spars</em> &middot; <strong>-ing form:</strong> <em>sparring</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The r doubles: <em>sparred</em>, <em>sparring</em>. You spar <strong>with</strong> a partner.</dd></dl>
+<p>To box or fight in practice, without trying to hurt the other person.</p>
+<ol><li>He likes to <em>spar</em> three rounds a day.</li><li>She <em>sparred</em> with two different partners this week.</li><li>They have been <em>sparring</em> together since Monday.</li></ol>
+<hr>
+<h3 id="grapple">grapple<a class="hash" href="#grapple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡræpəl/ &middot; <em>GRAP-uhl</em></dd><dt>Русский</dt><dd>бороться, схватиться</dd><dt>Forms</dt><dd><em>grapple</em> &middot; <em>grappled</em> &middot; <em>grappled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>grapples</em> &middot; <strong>-ing form:</strong> <em>grappling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Grapple <strong>with</strong> an opponent — or, figuratively, <strong>with</strong> a problem.</dd></dl>
+<p>To take hold of an opponent and struggle with them at close quarters.</p>
+<ol><li>Wrestlers <em>grapple</em> for position on the mat.</li><li>The two fighters <em>grappled</em> against the cage.</li><li>They were still <em>grappling</em> when the bell rang.</li></ol>
+<hr>
+<h3 id="pummel">pummel<a class="hash" href="#pummel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌməl/ &middot; <em>PUM-uhl</em></dd><dt>Русский</dt><dd>молотить, избивать</dd><dt>Forms</dt><dd><em>pummel</em> &middot; <em>pummeled</em> &middot; <em>pummeled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pummels</em> &middot; <strong>-ing form:</strong> <em>pummeling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American English keeps one l: <em>pummeled</em>, <em>pummeling</em>. British writing doubles it: <em>pummelled</em>.</dd></dl>
+<p>To hit someone or something again and again with the fists.</p>
+<ol><li>He can <em>pummel</em> an opponent for twelve full rounds.</li><li>She <em>pummeled</em> the heavy bag for an hour.</li><li>He was badly <em>pummeled</em> in the later rounds.</li></ol>
+<hr>
+<h3 id="jab">jab<a class="hash" href="#jab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒæb/ &middot; <em>JAB</em></dd><dt>Русский</dt><dd>бить джебом, тыкать</dd><dt>Forms</dt><dd><em>jab</em> &middot; <em>jabbed</em> &middot; <em>jabbed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>jabs</em> &middot; <strong>-ing form:</strong> <em>jabbing</em></dd><dt>Transitivity</dt><dd>both — transitive (jab him in the ribs), intransitive (jab and move)</dd><dt>Contrast</dt><dd>One short vowel before a final b, so the b doubles: <em>jabbed</em>, <em>jabbing</em>.</dd></dl>
+<p>To hit with a short quick straight punch.</p>
+<ol><li><em>Jab</em> first, then move to your left.</li><li>He <em>jabbed</em> his way through the opening round.</li><li>She has been <em>jabbing</em> at the body all fight.</li></ol>
+<hr>
+<h3 id="parry">parry<a class="hash" href="#parry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛri/ &middot; <em>PER-ee</em></dd><dt>Русский</dt><dd>парировать, отбивать, отбить</dd><dt>Forms</dt><dd><em>parry</em> &middot; <em>parried</em> &middot; <em>parried</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>parries</em> &middot; <strong>-ing form:</strong> <em>parrying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em> becomes <em>-ies</em> and <em>-ied</em>: <em>parries</em>, <em>parried</em>, but <em>parrying</em> keeps the y.</dd></dl>
+<p>To push aside a blow or a shot instead of taking it full on.</p>
+<ol><li>Fencers <em>parry</em> and then attack in the same motion.</li><li>The goalkeeper <em>parried</em> the shot over the bar.</li><li>He has <em>parried</em> everything they have thrown at him.</li></ol>
+<hr>
+<h3 id="knock">knock<a class="hash" href="#knock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɑːk/ &middot; <em>NAHK</em></dd><dt>Русский</dt><dd>сбивать, сбить (с ног), ударять</dd><dt>Forms</dt><dd><em>knock</em> &middot; <em>knocked</em> &middot; <em>knocked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>knocks</em> &middot; <strong>-ing form:</strong> <em>knocking</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The k is silent: NAHK, like <em>knee</em> and <em>knife</em>.</dd></dl>
+<p>To hit someone or something hard enough to move it or bring it down.</p>
+<ol><li>One clean right hand can <em>knock</em> a fighter down.</li><li>He <em>knocked</em> his opponent into the ropes.</li><li>She was <em>knocked</em> off the ball far too easily.</li></ol>
+<hr>
+<h3 id="lunge">lunge<a class="hash" href="#lunge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lʌndʒ/ &middot; <em>LUNJ</em></dd><dt>Русский</dt><dd>делать выпад, броситься</dd><dt>Forms</dt><dd><em>lunge</em> &middot; <em>lunged</em> &middot; <em>lunged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>lunges</em> &middot; <strong>-ing form:</strong> <em>lunging</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The silent e drops before <em>-ing</em>: <em>lunging</em>, never <em>lungeing</em>.</dd></dl>
+<p>To throw your body forward suddenly, usually to reach something.</p>
+<ol><li>Fencers <em>lunge</em> off the back foot.</li><li>The goalkeeper <em>lunged</em> to his left and just missed it.</li><li>He was <em>lunging</em> at every ball and missing them all.</li></ol>
+<hr>
+<h3 id="duck">duck<a class="hash" href="#duck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʌk/ &middot; <em>DUK</em></dd><dt>Русский</dt><dd>уклоняться, пригибаться, увернуться</dd><dt>Forms</dt><dd><em>duck</em> &middot; <em>ducked</em> &middot; <em>ducked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ducks</em> &middot; <strong>-ing form:</strong> <em>ducking</em></dd><dt>Transitivity</dt><dd>both — transitive (duck a punch), intransitive (duck under the rope)</dd></dl>
+<p>To lower your head or body quickly to avoid being hit.</p>
+<ol><li><em>Duck</em> under the jab and step inside.</li><li>He <em>ducked</em> the first punch of the round.</li><li>She was <em>ducking</em> and weaving for three rounds.</li></ol>
+<hr>
+<h3 id="crouch">crouch<a class="hash" href="#crouch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kraʊtʃ/ &middot; <em>KROWCH</em></dd><dt>Русский</dt><dd>приседать, пригибаться</dd><dt>Forms</dt><dd><em>crouch</em> &middot; <em>crouched</em> &middot; <em>crouched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>crouches</em> &middot; <strong>-ing form:</strong> <em>crouching</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To bend your knees and lower your body close to the ground.</p>
+<ol><li>Sprinters <em>crouch</em> behind the blocks before the gun.</li><li>The catcher <em>crouched</em> low and gave the sign.</li><li>He was <em>crouching</em> in the ready position the whole point.</li></ol>
+<hr>
+<h3 id="elbow">elbow<a class="hash" href="#elbow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛlboʊ/ &middot; <em>EL-boh</em></dd><dt>Русский</dt><dd>толкать локтем, пихаться</dd><dt>Forms</dt><dd><em>elbow</em> &middot; <em>elbowed</em> &middot; <em>elbowed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>elbows</em> &middot; <strong>-ing form:</strong> <em>elbowing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To push or hit someone with your elbow.</p>
+<ol><li>Big men <em>elbow</em> each other for every rebound.</li><li>He <em>elbowed</em> a defender and was called for a foul.</li><li>She was <em>elbowed</em> in the ribs going for the ball.</li></ol>
+<hr>
+<h3 id="jostle">jostle<a class="hash" href="#jostle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɑːsəl/ &middot; <em>JAH-suhl</em></dd><dt>Русский</dt><dd>толкаться, теснить</dd><dt>Forms</dt><dd><em>jostle</em> &middot; <em>jostled</em> &middot; <em>jostled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>jostles</em> &middot; <strong>-ing form:</strong> <em>jostling</em></dd><dt>Transitivity</dt><dd>both — transitive (jostle a defender), intransitive (jostle for position)</dd><dt>Contrast</dt><dd>The t is silent: JAH-suhl, like <em>whistle</em> and <em>hustle</em>.</dd></dl>
+<p>To push against other people while trying to get a better position.</p>
+<ol><li>Riders <em>jostle</em> for position on the first lap.</li><li>The two forwards <em>jostled</em> in the goalmouth.</li><li>He was <em>jostling</em> for space near the post.</li></ol>
+<hr>
+<h3 id="hurdle">hurdle<a class="hash" href="#hurdle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɜːrdəl/ &middot; <em>HUR-duhl</em></dd><dt>Русский</dt><dd>брать барьер, бегать с барьерами</dd><dt>Forms</dt><dd><em>hurdle</em> &middot; <em>hurdled</em> &middot; <em>hurdled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>hurdles</em> &middot; <strong>-ing form:</strong> <em>hurdling</em></dd><dt>Transitivity</dt><dd>both — transitive (hurdle the last barrier), intransitive (she hurdles for the college team)</dd></dl>
+<p>To jump over a barrier while running.</p>
+<ol><li>Very few athletes can <em>hurdle</em> at that speed.</li><li>She <em>hurdled</em> the last barrier in front and held on.</li><li>He has been <em>hurdling</em> since his freshman year.</li></ol>
+<hr>
+<h3 id="vault">vault<a class="hash" href="#vault" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɔːlt/ &middot; <em>VAWLT</em></dd><dt>Русский</dt><dd>прыгать (с шестом, через снаряд)</dd><dt>Forms</dt><dd><em>vault</em> &middot; <em>vaulted</em> &middot; <em>vaulted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>vaults</em> &middot; <strong>-ing form:</strong> <em>vaulting</em></dd><dt>Transitivity</dt><dd>both — transitive (vault the bar), intransitive (she vaults last)</dd></dl>
+<p>To jump over or across something, often using a pole or your hands.</p>
+<ol><li>She will <em>vault</em> last in the rotation.</li><li>He <em>vaulted</em> over the bar at 5.90 meters.</li><li>They have been <em>vaulting</em> all morning.</li></ol>
+<hr>
+<h3 id="dive">dive<a class="hash" href="#dive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/daɪv/ &middot; <em>DYV</em></dd><dt>Русский</dt><dd>нырять, нырнуть; бросаться (за мячом)</dd><dt>Forms</dt><dd><em>dive</em> &middot; <em>dived</em> &middot; <em>dived</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>dives</em> &middot; <strong>-ing form:</strong> <em>diving</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Americans say both <em>dived</em> and <em>dove</em> for the past. <em>Dived</em> is the regular form and is always safe; the participle is only <em>dived</em>: <em>has dived</em>.</dd></dl>
+<p>To jump headfirst into water, or to throw yourself through the air for a ball.</p>
+<ol><li>Swimmers <em>dive</em> from the blocks at the gun.</li><li>The goalkeeper <em>dived</em> to his right and pushed it wide.</li><li>She has <em>dived</em> from the ten-meter board twice today.</li></ol>
+<hr>
+<h3 id="skate">skate<a class="hash" href="#skate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skeɪt/ &middot; <em>SKAYT</em></dd><dt>Русский</dt><dd>кататься на коньках</dd><dt>Forms</dt><dd><em>skate</em> &middot; <em>skated</em> &middot; <em>skated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>skates</em> &middot; <strong>-ing form:</strong> <em>skating</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To move over ice or a hard surface on skates.</p>
+<ol><li>They <em>skate</em> every morning before school.</li><li>He <em>skated</em> two clean programs in a row.</li><li>She has been <em>skating</em> since she was four.</li></ol>
+<hr>
+<h3 id="skateboard">skateboard<a class="hash" href="#skateboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskeɪtbɔːrd/ &middot; <em>SKAYT-bord</em></dd><dt>Русский</dt><dd>кататься на скейтборде</dd><dt>Forms</dt><dd><em>skateboard</em> &middot; <em>skateboarded</em> &middot; <em>skateboarded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>skateboards</em> &middot; <strong>-ing form:</strong> <em>skateboarding</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To ride on a skateboard.</p>
+<ol><li>Kids <em>skateboard</em> in that park all summer.</li><li>He <em>skateboarded</em> to school every day last year.</li><li>She has been <em>skateboarding</em> for six years.</li></ol>
+<hr>
+<h3 id="bike">bike<a class="hash" href="#bike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baɪk/ &middot; <em>BYK</em></dd><dt>Русский</dt><dd>ездить на велосипеде, кататься на велосипеде</dd><dt>Forms</dt><dd><em>bike</em> &middot; <em>biked</em> &middot; <em>biked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bikes</em> &middot; <strong>-ing form:</strong> <em>biking</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Informal American for <em>ride a bicycle</em>. The silent e drops: <em>biked</em>, <em>biking</em>.</dd></dl>
+<p>To travel or exercise on a bicycle.</p>
+<ol><li>We <em>bike</em> out to the lake on weekends.</li><li>They <em>biked</em> twenty miles before lunch.</li><li>He has been <em>biking</em> to work since March.</li></ol>
+<hr>
+<h3 id="cycle">cycle<a class="hash" href="#cycle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪkəl/ &middot; <em>SY-kuhl</em></dd><dt>Русский</dt><dd>ездить на велосипеде, заниматься велоспортом</dd><dt>Forms</dt><dd><em>cycle</em> &middot; <em>cycled</em> &middot; <em>cycled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cycles</em> &middot; <strong>-ing form:</strong> <em>cycling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To ride a bicycle, especially for sport or exercise.</p>
+<ol><li>They <em>cycle</em> along the river every Sunday.</li><li>She <em>cycled</em> across the state in five days.</li><li>He has been <em>cycling</em> competitively for a decade.</li></ol>
+<hr>
+<h3 id="snowboard">snowboard<a class="hash" href="#snowboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnoʊbɔːrd/ &middot; <em>SNOH-bord</em></dd><dt>Русский</dt><dd>кататься на сноуборде</dd><dt>Forms</dt><dd><em>snowboard</em> &middot; <em>snowboarded</em> &middot; <em>snowboarded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>snowboards</em> &middot; <strong>-ing form:</strong> <em>snowboarding</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To come down a snowy slope standing on a snowboard.</p>
+<ol><li>They <em>snowboard</em> every weekend in winter.</li><li>He <em>snowboarded</em> down the back bowl in the fresh powder.</li><li>She has been <em>snowboarding</em> since middle school.</li></ol>
+<hr>
+<h3 id="sled">sled<a class="hash" href="#sled" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slɛd/ &middot; <em>SLED</em></dd><dt>Русский</dt><dd>кататься на санках</dd><dt>Forms</dt><dd><em>sled</em> &middot; <em>sledded</em> &middot; <em>sledded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>sleds</em> &middot; <strong>-ing form:</strong> <em>sledding</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>One short vowel before a final d, so the d doubles: <em>sledded</em>, <em>sledding</em>.</dd></dl>
+<p>To slide down a snowy hill on a sled.</p>
+<ol><li>The kids <em>sled</em> on the hill behind the school.</li><li>We <em>sledded</em> until it got dark.</li><li>They have been <em>sledding</em> all afternoon.</li></ol>
+<hr>
+<h3 id="kayak">kayak<a class="hash" href="#kayak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaɪæk/ &middot; <em>KY-ak</em></dd><dt>Русский</dt><dd>плавать на каяке</dd><dt>Forms</dt><dd><em>kayak</em> &middot; <em>kayaked</em> &middot; <em>kayaked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>kayaks</em> &middot; <strong>-ing form:</strong> <em>kayaking</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The final k does not double: <em>kayaked</em>, <em>kayaking</em>, because the stress is on the first syllable.</dd></dl>
+<p>To travel on water in a kayak.</p>
+<ol><li>They <em>kayak</em> on the bay every summer.</li><li>We <em>kayaked</em> through the narrow channel.</li><li>She has been <em>kayaking</em> since college.</li></ol>
+<hr>
+<h3 id="canoe">canoe<a class="hash" href="#canoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈnuː/ &middot; <em>kuh-NOO</em></dd><dt>Русский</dt><dd>плавать на каноэ</dd><dt>Forms</dt><dd><em>canoe</em> &middot; <em>canoed</em> &middot; <em>canoed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>canoes</em> &middot; <strong>-ing form:</strong> <em>canoeing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The e stays before <em>-ing</em>: <em>canoeing</em>, not <em>canoing</em>. But it drops before <em>-ed</em>: <em>canoed</em>.</dd></dl>
+<p>To travel on water in a canoe.</p>
+<ol><li>We <em>canoe</em> down that river every July.</li><li>They <em>canoed</em> for three days without seeing anyone.</li><li>He has been <em>canoeing</em> since he was a boy.</li></ol>
+<hr>
+<h3 id="raft">raft<a class="hash" href="#raft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræft/ &middot; <em>RAFT</em></dd><dt>Русский</dt><dd>сплавляться на рафте, сплавляться по реке</dd><dt>Forms</dt><dd><em>raft</em> &middot; <em>rafted</em> &middot; <em>rafted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rafts</em> &middot; <strong>-ing form:</strong> <em>rafting</em></dd><dt>Transitivity</dt><dd>both — transitive (raft the canyon), intransitive (we rafted all day)</dd></dl>
+<p>To travel down a river on a raft.</p>
+<ol><li>Tourists <em>raft</em> the canyon in June.</li><li>We <em>rafted</em> the whole gorge in a single day.</li><li>They have been <em>rafting</em> that river for twenty years.</li></ol>
+<hr>
+<h3 id="snorkel">snorkel<a class="hash" href="#snorkel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnɔːrkəl/ &middot; <em>SNOR-kuhl</em></dd><dt>Русский</dt><dd>плавать с трубкой и маской</dd><dt>Forms</dt><dd><em>snorkel</em> &middot; <em>snorkeled</em> &middot; <em>snorkeled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>snorkels</em> &middot; <strong>-ing form:</strong> <em>snorkeling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>American English keeps one l: <em>snorkeled</em>, <em>snorkeling</em>. British writing doubles it: <em>snorkelled</em>.</dd></dl>
+<p>To swim just under the surface breathing through a tube.</p>
+<ol><li>You can <em>snorkel</em> right off the beach here.</li><li>We <em>snorkeled</em> over the reef for an hour.</li><li>They have been <em>snorkeling</em> all morning.</li></ol>
+<hr>
+<h3 id="camp">camp<a class="hash" href="#camp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæmp/ &middot; <em>KAMP</em></dd><dt>Русский</dt><dd>жить в палатке, разбивать лагерь</dd><dt>Forms</dt><dd><em>camp</em> &middot; <em>camped</em> &middot; <em>camped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>camps</em> &middot; <strong>-ing form:</strong> <em>camping</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To stay outdoors in a tent for one or more nights.</p>
+<ol><li>We <em>camp</em> by the lake every August.</li><li>They <em>camped</em> two nights on the ridge.</li><li>He has been <em>camping</em> since Friday.</li></ol>
+<hr>
+<h3 id="trek">trek<a class="hash" href="#trek" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trɛk/ &middot; <em>TREK</em></dd><dt>Русский</dt><dd>идти в поход, совершать переход</dd><dt>Forms</dt><dd><em>trek</em> &middot; <em>trekked</em> &middot; <em>trekked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>treks</em> &middot; <strong>-ing form:</strong> <em>trekking</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The k doubles: <em>trekked</em>, <em>trekking</em> — one of the few verbs where a final k is doubled.</dd></dl>
+<p>To walk a long and difficult distance, usually in wild country.</p>
+<ol><li>They <em>trek</em> through the mountains every spring.</li><li>We <em>trekked</em> fifteen miles in one day.</li><li>She has been <em>trekking</em> in Nepal for a month.</li></ol>
+<hr>
+<h3 id="backpack">backpack<a class="hash" href="#backpack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækpæk/ &middot; <em>BAK-pak</em></dd><dt>Русский</dt><dd>путешествовать с рюкзаком</dd><dt>Forms</dt><dd><em>backpack</em> &middot; <em>backpacked</em> &middot; <em>backpacked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>backpacks</em> &middot; <strong>-ing form:</strong> <em>backpacking</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To travel or hike carrying everything you need in a backpack.</p>
+<ol><li>Students <em>backpack</em> across Europe every summer.</li><li>They <em>backpacked</em> through the national park.</li><li>He has been <em>backpacking</em> for a month.</li></ol>
+<hr>
+<h3 id="golf">golf<a class="hash" href="#golf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɑːlf/ &middot; <em>GAHLF</em></dd><dt>Русский</dt><dd>играть в гольф</dd><dt>Forms</dt><dd><em>golf</em> &middot; <em>golfed</em> &middot; <em>golfed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>golfs</em> &middot; <strong>-ing form:</strong> <em>golfing</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To play golf.</p>
+<ol><li>They <em>golf</em> every Saturday morning.</li><li>We <em>golfed</em> eighteen holes before lunch.</li><li>He has been <em>golfing</em> since he retired.</li></ol>
+<hr>
+<h3 id="somersault">somersault<a class="hash" href="#somersault" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmərsɔːlt/ &middot; <em>SUM-ur-sawlt</em></dd><dt>Русский</dt><dd>делать сальто, кувыркаться</dd><dt>Forms</dt><dd><em>somersault</em> &middot; <em>somersaulted</em> &middot; <em>somersaulted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>somersaults</em> &middot; <strong>-ing form:</strong> <em>somersaulting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Spelled <em>-sault</em>, not <em>-salt</em>, and written as one word.</dd></dl>
+<p>To roll your body forward or backward in a complete circle.</p>
+<ol><li>Divers <em>somersault</em> twice before entering the water.</li><li>He <em>somersaulted</em> off the trampoline.</li><li>She was <em>somersaulting</em> the length of the mat.</li></ol>
+<hr>
+<h3 id="tone">tone<a class="hash" href="#tone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/toʊn/ &middot; <em>TOHN</em></dd><dt>Русский</dt><dd>подтягивать (мышцы), приводить в форму</dd><dt>Forms</dt><dd><em>tone</em> &middot; <em>toned</em> &middot; <em>toned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>tones</em> &middot; <strong>-ing form:</strong> <em>toning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make muscles firmer and stronger through exercise.</p>
+<ol><li>These exercises <em>tone</em> the shoulders and back.</li><li>Six weeks of swimming <em>toned</em> her legs.</li><li>His arms have been <em>toned</em> by two years of rowing.</li></ol>
+<hr>
+<h3 id="hydrate">hydrate<a class="hash" href="#hydrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪdreɪt/ &middot; <em>HY-drayt</em></dd><dt>Русский</dt><dd>пить воду, восполнять жидкость</dd><dt>Forms</dt><dd><em>hydrate</em> &middot; <em>hydrated</em> &middot; <em>hydrated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>hydrates</em> &middot; <strong>-ing form:</strong> <em>hydrating</em></dd><dt>Transitivity</dt><dd>both — transitive (hydrate the body), intransitive (hydrate before the race)</dd></dl>
+<p>To drink enough water so the body has the fluid it needs.</p>
+<ol><li>Runners need to <em>hydrate</em> well before a long race.</li><li>She <em>hydrated</em> between every set.</li><li>The players have been <em>hydrating</em> all afternoon in this heat.</li></ol>
+<hr>
+<h3 id="exert">exert<a class="hash" href="#exert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɜːrt/ &middot; <em>ig-ZURT</em></dd><dt>Русский</dt><dd>напрягаться, прилагать усилия</dd><dt>Forms</dt><dd><em>exert</em> &middot; <em>exerted</em> &middot; <em>exerted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>exerts</em> &middot; <strong>-ing form:</strong> <em>exerting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Normally takes a reflexive object: <em>exert yourself</em>, <em>exert himself</em>, not just <em>exert</em>.</dd></dl>
+<p>To make a physical effort, usually with a reflexive pronoun.</p>
+<ol><li>Do not <em>exert</em> yourself in this heat.</li><li>He <em>exerted</em> himself too early in the race.</li><li>They were <em>exerting</em> themselves far too much in the first half.</li></ol>
+<hr>
+<h3 id="cramp">cramp<a class="hash" href="#cramp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kræmp/ &middot; <em>KRAMP</em></dd><dt>Русский</dt><dd>сводить судорогой, схватить судорогой</dd><dt>Forms</dt><dd><em>cramp</em> &middot; <em>cramped</em> &middot; <em>cramped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cramps</em> &middot; <strong>-ing form:</strong> <em>cramping</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To tighten painfully, said of a muscle during hard exercise.</p>
+<ol><li>Legs often <em>cramp</em> in the last mile.</li><li>His calf <em>cramped</em> at the ninety-minute mark.</li><li>She has been <em>cramping</em> badly since halftime.</li></ol>
+<hr>
+<h3 id="spectate">spectate<a class="hash" href="#spectate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɛkteɪt/ &middot; <em>SPEK-tayt</em></dd><dt>Русский</dt><dd>быть зрителем, смотреть соревнование</dd><dt>Forms</dt><dd><em>spectate</em> &middot; <em>spectated</em> &middot; <em>spectated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>spectates</em> &middot; <strong>-ing form:</strong> <em>spectating</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To watch a sporting event instead of taking part in it.</p>
+<ol><li>If your knee still hurts, just <em>spectate</em> today.</li><li>We <em>spectated</em> from the top of the hill.</li><li>Thousands were <em>spectating</em> along the route.</li></ol>
+<hr>
+<h3 id="checkmate">checkmate<a class="hash" href="#checkmate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛkmeɪt/ &middot; <em>CHEK-mayt</em></dd><dt>Русский</dt><dd>ставить мат, поставить мат</dd><dt>Forms</dt><dd><em>checkmate</em> &middot; <em>checkmated</em> &middot; <em>checkmated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>checkmates</em> &middot; <strong>-ing form:</strong> <em>checkmating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>In chess, to trap the opponent's king so the game is won.</p>
+<ol><li>You can <em>checkmate</em> him in three moves from here.</li><li>She <em>checkmated</em> him on move twenty-nine.</li><li>He has been <em>checkmated</em> twice in a row.</li></ol>
+<hr>
+<h3 id="stalemate">stalemate<a class="hash" href="#stalemate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪlmeɪt/ &middot; <em>STAYL-mayt</em></dd><dt>Русский</dt><dd>приводить к пату, зайти в тупик</dd><dt>Forms</dt><dd><em>stalemate</em> &middot; <em>stalemated</em> &middot; <em>stalemated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>stalemates</em> &middot; <strong>-ing form:</strong> <em>stalemating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>A <em>stalemate</em> is a draw, not a win — unlike <em>checkmate</em>.</dd></dl>
+<p>In chess, to leave the opponent with no legal move, which ends the game in a draw.</p>
+<ol><li>One careless move can <em>stalemate</em> the game.</li><li>He <em>stalemated</em> his opponent and saved half a point.</li><li>The match was <em>stalemated</em> after forty moves.</li></ol>
+<hr>
+<h3 id="bluff">bluff<a class="hash" href="#bluff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blʌf/ &middot; <em>BLUF</em></dd><dt>Русский</dt><dd>блефовать, сблефовать</dd><dt>Forms</dt><dd><em>bluff</em> &middot; <em>bluffed</em> &middot; <em>bluffed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bluffs</em> &middot; <strong>-ing form:</strong> <em>bluffing</em></dd><dt>Transitivity</dt><dd>both — transitive (bluff an opponent), intransitive (he was bluffing)</dd></dl>
+<p>To pretend to have a strong hand or position in order to fool an opponent.</p>
+<ol><li>Good players <em>bluff</em> only when the story makes sense.</li><li>She <em>bluffed</em> with nothing and won the pot.</li><li>He has been <em>bluffing</em> all night and nobody noticed.</li></ol>
+<hr>
+<h3 id="wager">wager<a class="hash" href="#wager" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪdʒər/ &middot; <em>WAY-jur</em></dd><dt>Русский</dt><dd>ставить, делать ставку</dd><dt>Forms</dt><dd><em>wager</em> &middot; <em>wagered</em> &middot; <em>wagered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>wagers</em> &middot; <strong>-ing form:</strong> <em>wagering</em></dd><dt>Transitivity</dt><dd>both — transitive (wager fifty dollars), intransitive (wager on the underdog)</dd><dt>Contrast</dt><dd>You wager money <strong>on</strong> a team or a result.</dd></dl>
+<p>To risk money on the result of a game or race.</p>
+<ol><li>Fans <em>wager</em> millions on the final every year.</li><li>He <em>wagered</em> twenty dollars on the underdog.</li><li>More has been <em>wagered</em> on this game than on any other.</li></ol>
+<hr>
+<h3 id="trump">trump<a class="hash" href="#trump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trʌmp/ &middot; <em>TRUMP</em></dd><dt>Русский</dt><dd>бить козырем, козырять</dd><dt>Forms</dt><dd><em>trump</em> &middot; <em>trumped</em> &middot; <em>trumped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>trumps</em> &middot; <strong>-ing form:</strong> <em>trumping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>In card games, to beat a card by playing one of the trump suit.</p>
+<ol><li>If you have no hearts, you can <em>trump</em> the trick.</li><li>She <em>trumped</em> my ace and took the hand.</li><li>My king was <em>trumped</em> on the very last round.</li></ol>
+<hr>
+<h3 id="respawn">respawn<a class="hash" href="#respawn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈspɔːn/ &middot; <em>ree-SPAWN</em></dd><dt>Русский</dt><dd>возрождаться (в игре), появляться заново</dd><dt>Forms</dt><dd><em>respawn</em> &middot; <em>respawned</em> &middot; <em>respawned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>respawns</em> &middot; <strong>-ing form:</strong> <em>respawning</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>In a video game, to come back into play after your character is killed.</p>
+<ol><li>You <em>respawn</em> at the last checkpoint.</li><li>He <em>respawned</em> right behind the enemy team.</li><li>The boss has <em>respawned</em> again.</li></ol>
+<hr>
+<h3 id="floor">floor<a class="hash" href="#floor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɔːr/ &middot; <em>FLOR</em></dd><dt>Русский</dt><dd>сбивать с ног, отправлять в нокдаун</dd><dt>Forms</dt><dd><em>floor</em> &middot; <em>floored</em> &middot; <em>floored</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>floors</em> &middot; <strong>-ing form:</strong> <em>flooring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To knock someone down to the ground with a punch or a hit.</p>
+<ol><li>One good right hand can <em>floor</em> him.</li><li>She <em>floored</em> her opponent in the second round.</li><li>He has been <em>floored</em> only once in his whole career.</li></ol>
+<hr>
+<h3 id="juke">juke<a class="hash" href="#juke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒuːk/ &middot; <em>JOOK</em></dd><dt>Русский</dt><dd>обманывать финтом, уходить финтом</dd><dt>Forms</dt><dd><em>juke</em> &middot; <em>juked</em> &middot; <em>juked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>jukes</em> &middot; <strong>-ing form:</strong> <em>juking</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Informal but very common in American sports talk. The silent e drops: <em>juked</em>, <em>juking</em>.</dd></dl>
+<p>To fake one way and go the other in order to get past a defender.</p>
+<ol><li>Quick running backs <em>juke</em> defenders in the open field.</li><li>He <em>juked</em> the safety and walked into the end zone.</li><li>She was <em>juking</em> past defenders all game.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: starting and stopping</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-starting-and-stopping">Core verbs: starting and stopping<a class="hash" href="#core-verbs-starting-and-stopping" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of starting and stopping — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="end">end<a class="hash" href="#end" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛnd/ &middot; <em>END</em></dd><dt>Русский</dt><dd>заканчивать, закончить; заканчиваться, кончаться</dd><dt>Forms</dt><dd><em>end</em> &middot; <em>ended</em> &middot; <em>ended</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ends</em> &middot; <strong>-ing form:</strong> <em>ending</em></dd><dt>Transitivity</dt><dd>both — transitive (end the meeting), intransitive (the movie ends late)</dd></dl>
+<p>To stop, or to bring something to its finish.</p>
+<ol><li>Let us <em>end</em> the meeting on time for once.</li><li>The concert <em>ended</em> just after eleven.</li><li>The strike has <em>ended</em> after nine long weeks.</li></ol>
+<hr>
+<h3 id="commence">commence<a class="hash" href="#commence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmɛns/ &middot; <em>kuh-MENS</em></dd><dt>Русский</dt><dd>начинать, начать; начинаться</dd><dt>Forms</dt><dd><em>commence</em> &middot; <em>commenced</em> &middot; <em>commenced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>commences</em> &middot; <strong>-ing form:</strong> <em>commencing</em></dd><dt>Transitivity</dt><dd>both — transitive (commence an investigation), intransitive (the trial commences Monday)</dd><dt>Contrast</dt><dd><em>Commence</em> is the formal word — a schedule or a court uses it. In ordinary speech Americans say <em>start</em> or <em>begin</em>.</dd></dl>
+<p>To begin, especially something formal or official.</p>
+<ol><li>Boarding will <em>commence</em> in ten minutes.</li><li>The trial <em>commenced</em> on a rainy Tuesday in March.</li><li>Work on the bridge is <em>commencing</em> next spring.</li></ol>
+<hr>
+<h3 id="initiate">initiate<a class="hash" href="#initiate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈnɪʃieɪt/ &middot; <em>ih-NISH-ee-ayt</em></dd><dt>Русский</dt><dd>начинать, положить начало, инициировать</dd><dt>Forms</dt><dd><em>initiate</em> &middot; <em>initiated</em> &middot; <em>initiated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>initiates</em> &middot; <strong>-ing form:</strong> <em>initiating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To be the one who starts a process or a course of action.</p>
+<ol><li>Either side may <em>initiate</em> talks at any time.</li><li>The bank <em>initiated</em> a review of every account.</li><li>Who <em>initiated</em> the contact is still not clear.</li></ol>
+<hr>
+<h3 id="institute">institute<a class="hash" href="#institute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnstɪtuːt/ &middot; <em>IN-stuh-toot</em></dd><dt>Русский</dt><dd>вводить, ввести, учреждать (правило, порядок)</dd><dt>Forms</dt><dd><em>institute</em> &middot; <em>instituted</em> &middot; <em>instituted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>institutes</em> &middot; <strong>-ing form:</strong> <em>instituting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To start a rule, a system, or an official process.</p>
+<ol><li>The city plans to <em>institute</em> a curfew downtown.</li><li>They <em>instituted</em> a hiring freeze in January.</li><li>A new grading policy has been <em>instituted</em> for all first-year classes.</li></ol>
+<hr>
+<h3 id="originate">originate<a class="hash" href="#originate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈrɪdʒɪneɪt/ &middot; <em>uh-RIJ-uh-nayt</em></dd><dt>Русский</dt><dd>возникать, брать начало; создавать, впервые ввести</dd><dt>Forms</dt><dd><em>originate</em> &middot; <em>originated</em> &middot; <em>originated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>originates</em> &middot; <strong>-ing form:</strong> <em>originating</em></dd><dt>Transitivity</dt><dd>both — transitive (originate a style), intransitive (the custom originated in Spain)</dd><dt>Contrast</dt><dd>Intransitively it takes <em>in</em> or <em>from</em> for a place and <em>with</em> for a person: <em>originated in Spain</em>, <em>originated with her grandfather</em>.</dd></dl>
+<p>To begin somewhere, or to be the first to create something.</p>
+<ol><li>Most of our coffee <em>originates</em> in Colombia.</li><li>The tradition <em>originated</em> with a single family.</li><li>The phrase seems to have <em>originated</em> on the radio in the 1940s.</li></ol>
+<hr>
+<h3 id="instigate">instigate<a class="hash" href="#instigate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnstɪɡeɪt/ &middot; <em>IN-stuh-gayt</em></dd><dt>Русский</dt><dd>затевать, подстрекать, спровоцировать</dd><dt>Forms</dt><dd><em>instigate</em> &middot; <em>instigated</em> &middot; <em>instigated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>instigates</em> &middot; <strong>-ing form:</strong> <em>instigating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To start something bad, usually by stirring other people up.</p>
+<ol><li>Nobody could say who <em>instigated</em> the fight.</li><li>He likes to <em>instigate</em> an argument and then walk away.</li><li>The riot was <em>instigated</em> by a handful of outsiders.</li></ol>
+<hr>
+<h3 id="pioneer">pioneer<a class="hash" href="#pioneer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpaɪəˈnɪr/ &middot; <em>py-uh-NEER</em></dd><dt>Русский</dt><dd>быть первопроходцем, впервые применить, разработать</dd><dt>Forms</dt><dd><em>pioneer</em> &middot; <em>pioneered</em> &middot; <em>pioneered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pioneers</em> &middot; <strong>-ing form:</strong> <em>pioneering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To be the first to develop or use a method or idea.</p>
+<ol><li>A small lab in Boston helped <em>pioneer</em> the technique.</li><li>She <em>pioneered</em> online teaching long before anyone else tried it.</li><li>The surgery was <em>pioneered</em> here in the 1970s.</li></ol>
+<hr>
+<h3 id="spearhead">spearhead<a class="hash" href="#spearhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɪrhɛd/ &middot; <em>SPEER-hed</em></dd><dt>Русский</dt><dd>возглавлять, стоять во главе (кампании, проекта)</dd><dt>Forms</dt><dd><em>spearhead</em> &middot; <em>spearheaded</em> &middot; <em>spearheaded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>spearheads</em> &middot; <strong>-ing form:</strong> <em>spearheading</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To lead an effort or a campaign from the front.</p>
+<ol><li>Two teachers will <em>spearhead</em> the fundraising drive.</li><li>She <em>spearheaded</em> the cleanup after the flood.</li><li>The project is being <em>spearheaded</em> by the youngest person on staff.</li></ol>
+<hr>
+<h3 id="precipitate">precipitate<a class="hash" href="#precipitate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈsɪpɪteɪt/ &middot; <em>prih-SIP-uh-tayt</em></dd><dt>Русский</dt><dd>вызывать, ускорять (наступление чего-л.)</dd><dt>Forms</dt><dd><em>precipitate</em> &middot; <em>precipitated</em> &middot; <em>precipitated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>precipitates</em> &middot; <strong>-ing form:</strong> <em>precipitating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a serious event happen sooner than it would have.</p>
+<ol><li>A bad harvest could <em>precipitate</em> a food crisis.</li><li>His resignation <em>precipitated</em> a week of chaos.</li><li>The war was <em>precipitated</em> by an incident at the border.</li></ol>
+<hr>
+<h3 id="broach">broach<a class="hash" href="#broach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/broʊtʃ/ &middot; <em>BROHCH</em></dd><dt>Русский</dt><dd>заводить разговор (о чём-л.), поднимать (тему)</dd><dt>Forms</dt><dd><em>broach</em> &middot; <em>broached</em> &middot; <em>broached</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>broaches</em> &middot; <strong>-ing form:</strong> <em>broaching</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>Broach</em> sounds exactly like <em>brooch</em> (a pin you wear), but only <em>broach</em> is a verb. It also takes -es in the third person: <em>broaches</em>.</dd></dl>
+<p>To start talking about a difficult or delicate subject.</p>
+<ol><li>I am not sure how to <em>broach</em> the subject of money.</li><li>She finally <em>broached</em> it over dinner.</li><li>Nobody had <em>broached</em> the question of who would pay.</li></ol>
+<hr>
+<h3 id="herald">herald<a class="hash" href="#herald" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrəld/ &middot; <em>HER-uhld</em></dd><dt>Русский</dt><dd>возвещать, предвещать, знаменовать начало</dd><dt>Forms</dt><dd><em>herald</em> &middot; <em>heralded</em> &middot; <em>heralded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>heralds</em> &middot; <strong>-ing form:</strong> <em>heralding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To be a sign that something important is beginning.</p>
+<ol><li>Those clouds usually <em>herald</em> a change in the weather.</li><li>The invention <em>heralded</em> a whole new industry.</li><li>The deal was <em>heralded</em> as the start of a new era.</li></ol>
+<hr>
+<h3 id="commission">commission<a class="hash" href="#commission" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmɪʃən/ &middot; <em>kuh-MISH-uhn</em></dd><dt>Русский</dt><dd>заказывать, поручать (работу, исследование)</dd><dt>Forms</dt><dd><em>commission</em> &middot; <em>commissioned</em> &middot; <em>commissioned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>commissions</em> &middot; <strong>-ing form:</strong> <em>commissioning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To formally order and pay for a piece of work to be started.</p>
+<ol><li>The city wants to <em>commission</em> a mural for the wall.</li><li>They <em>commissioned</em> a study on traffic downtown.</li><li>The portrait was <em>commissioned</em> by her children.</li></ol>
+<hr>
+<h3 id="slate">slate<a class="hash" href="#slate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sleɪt/ &middot; <em>SLAYT</em></dd><dt>Русский</dt><dd>намечать, планировать (на определённую дату)</dd><dt>Forms</dt><dd><em>slate</em> &middot; <em>slated</em> &middot; <em>slated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>slates</em> &middot; <strong>-ing form:</strong> <em>slating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>In American English you meet it mostly in the passive: <em>is slated for Friday</em>, <em>is slated to begin</em>.</dd></dl>
+<p>To schedule something to start or happen at a set time.</p>
+<ol><li>They will <em>slate</em> the hearing for early June.</li><li>The store <em>slated</em> its opening for the first of the month.</li><li>Construction is <em>slated</em> to begin in the fall.</li></ol>
+<hr>
+<h3 id="induct">induct<a class="hash" href="#induct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdʌkt/ &middot; <em>in-DUKT</em></dd><dt>Русский</dt><dd>принимать (в организацию), вводить в должность</dd><dt>Forms</dt><dd><em>induct</em> &middot; <em>inducted</em> &middot; <em>inducted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>inducts</em> &middot; <strong>-ing form:</strong> <em>inducting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The preposition is <em>into</em>: <em>inducted into the Hall of Fame</em>.</dd></dl>
+<p>To formally admit someone into an organization or an honor.</p>
+<ol><li>They <em>induct</em> five new members every spring.</li><li>He was <em>inducted</em> into the Hall of Fame last night.</li><li>The school is <em>inducting</em> its first class of honors students.</li></ol>
+<hr>
+<h3 id="relaunch">relaunch<a class="hash" href="#relaunch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈlɔːntʃ/ &middot; <em>ree-LAWNCH</em></dd><dt>Русский</dt><dd>перезапускать, перезапустить, возобновить</dd><dt>Forms</dt><dd><em>relaunch</em> &middot; <em>relaunched</em> &middot; <em>relaunched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>relaunches</em> &middot; <strong>-ing form:</strong> <em>relaunching</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To start something again after it has stopped or failed.</p>
+<ol><li>They plan to <em>relaunch</em> the app in the fall.</li><li>The magazine <em>relaunched</em> with a new editor.</li><li>The brand is being <em>relaunched</em> under a different name.</li></ol>
+<hr>
+<h3 id="reactivate">reactivate<a class="hash" href="#reactivate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riˈæktɪveɪt/ &middot; <em>ree-AK-tuh-vayt</em></dd><dt>Русский</dt><dd>возобновлять, снова включать, реактивировать</dd><dt>Forms</dt><dd><em>reactivate</em> &middot; <em>reactivated</em> &middot; <em>reactivated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reactivates</em> &middot; <strong>-ing form:</strong> <em>reactivating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make something work or apply again after it was turned off.</p>
+<ol><li>You can <em>reactivate</em> the account within thirty days.</li><li>They <em>reactivated</em> her badge on Monday morning.</li><li>The old line is being <em>reactivated</em> for freight.</li></ol>
+<hr>
+<h3 id="reopen">reopen<a class="hash" href="#reopen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riˈoʊpən/ &middot; <em>ree-OH-puhn</em></dd><dt>Русский</dt><dd>снова открывать(ся), возобновлять (дело, обсуждение)</dd><dt>Forms</dt><dd><em>reopen</em> &middot; <em>reopened</em> &middot; <em>reopened</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reopens</em> &middot; <strong>-ing form:</strong> <em>reopening</em></dd><dt>Transitivity</dt><dd>both — transitive (reopen the case), intransitive (the road reopens Friday)</dd></dl>
+<p>To open again, or to start considering something again.</p>
+<ol><li>The bridge will <em>reopen</em> after the inspection.</li><li>Police <em>reopened</em> the case in 2019.</li><li>The museum has <em>reopened</em> with longer hours.</li></ol>
+<hr>
+<h3 id="reconvene">reconvene<a class="hash" href="#reconvene" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːkənˈviːn/ &middot; <em>ree-kuhn-VEEN</em></dd><dt>Русский</dt><dd>возобновлять заседание, снова собираться</dd><dt>Forms</dt><dd><em>reconvene</em> &middot; <em>reconvened</em> &middot; <em>reconvened</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reconvenes</em> &middot; <strong>-ing form:</strong> <em>reconvening</em></dd><dt>Transitivity</dt><dd>both — transitive (reconvene the committee), intransitive (the group reconvenes at two)</dd></dl>
+<p>To meet again after a break.</p>
+<ol><li>We will <em>reconvene</em> after lunch.</li><li>The jury <em>reconvened</em> at nine the next morning.</li><li>The board is <em>reconvening</em> to vote on the budget.</li></ol>
+<hr>
+<h3 id="reinstate">reinstate<a class="hash" href="#reinstate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːɪnˈsteɪt/ &middot; <em>ree-in-STAYT</em></dd><dt>Русский</dt><dd>восстанавливать (в должности, в силе), вернуть</dd><dt>Forms</dt><dd><em>reinstate</em> &middot; <em>reinstated</em> &middot; <em>reinstated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reinstates</em> &middot; <strong>-ing form:</strong> <em>reinstating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put a person, rule, or service back in place after it was removed.</p>
+<ol><li>The union asked the company to <em>reinstate</em> the two drivers.</li><li>The city <em>reinstated</em> the late-night bus in October.</li><li>He was <em>reinstated</em> with full back pay.</li></ol>
+<hr>
+<h3 id="resurrect">resurrect<a class="hash" href="#resurrect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛzəˈrɛkt/ &middot; <em>rez-uh-REKT</em></dd><dt>Русский</dt><dd>возрождать, воскрешать, возобновлять (идею, проект)</dd><dt>Forms</dt><dd><em>resurrect</em> &middot; <em>resurrected</em> &middot; <em>resurrected</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>resurrects</em> &middot; <strong>-ing form:</strong> <em>resurrecting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To bring back something that had been dead or forgotten.</p>
+<ol><li>Every few years somebody tries to <em>resurrect</em> the idea.</li><li>They <em>resurrected</em> a recipe from her grandmother's notebook.</li><li>The show has been <em>resurrected</em> for a tenth season.</li></ol>
+<hr>
+<h3 id="revert">revert<a class="hash" href="#revert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvɜːrt/ &middot; <em>rih-VURT</em></dd><dt>Русский</dt><dd>возвращаться (к прежнему состоянию), откатываться</dd><dt>Forms</dt><dd><em>revert</em> &middot; <em>reverted</em> &middot; <em>reverted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reverts</em> &middot; <strong>-ing form:</strong> <em>reverting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>It needs <em>to</em>: <em>revert to the old version</em>, never <em>revert the old version</em>.</dd></dl>
+<p>To go back to an earlier state or an earlier way of doing something.</p>
+<ol><li>If you do nothing, the settings <em>revert</em> to the defaults.</li><li>After a month the team <em>reverted</em> to the old schedule.</li><li>The land has <em>reverted</em> to forest.</li></ol>
+<hr>
+<h3 id="regroup">regroup<a class="hash" href="#regroup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈɡruːp/ &middot; <em>ree-GROOP</em></dd><dt>Русский</dt><dd>перегруппировываться, собраться с силами, взять паузу</dd><dt>Forms</dt><dd><em>regroup</em> &middot; <em>regrouped</em> &middot; <em>regrouped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>regroups</em> &middot; <strong>-ing form:</strong> <em>regrouping</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To stop, get organized again, and then continue.</p>
+<ol><li>Let us <em>regroup</em> after lunch and try again.</li><li>The team <em>regrouped</em> at halftime and won by six.</li><li>They are <em>regrouping</em> after a rough quarter.</li></ol>
+<hr>
+<h3 id="ensue">ensue<a class="hash" href="#ensue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈsuː/ &middot; <em>in-SOO</em></dd><dt>Русский</dt><dd>следовать, происходить (в результате), начаться следом</dd><dt>Forms</dt><dd><em>ensue</em> &middot; <em>ensued</em> &middot; <em>ensued</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ensues</em> &middot; <strong>-ing form:</strong> <em>ensuing</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To happen right after something else, as a result of it.</p>
+<ol><li>A long silence <em>ensued</em>.</li><li>If the power fails, chaos usually <em>ensues</em>.</li><li>In the <em>ensuing</em> weeks nobody mentioned it again.</li></ol>
+<hr>
+<h3 id="terminate">terminate<a class="hash" href="#terminate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrmɪneɪt/ &middot; <em>TUR-muh-nayt</em></dd><dt>Русский</dt><dd>прекращать, расторгать (договор); увольнять</dd><dt>Forms</dt><dd><em>terminate</em> &middot; <em>terminated</em> &middot; <em>terminated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>terminates</em> &middot; <strong>-ing form:</strong> <em>terminating</em></dd><dt>Transitivity</dt><dd>both — transitive (terminate the contract), intransitive (the route terminates downtown)</dd></dl>
+<p>To end something formally, especially a contract or a job.</p>
+<ol><li>Either party may <em>terminate</em> the lease with sixty days notice.</li><li>They <em>terminated</em> the contract in June.</li><li>His employment was <em>terminated</em> without explanation.</li></ol>
+<hr>
+<h3 id="discontinue">discontinue<a class="hash" href="#discontinue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪskənˈtɪnjuː/ &middot; <em>dis-kuhn-TIN-yoo</em></dd><dt>Русский</dt><dd>прекращать (выпуск, услугу), снимать с производства</dd><dt>Forms</dt><dd><em>discontinue</em> &middot; <em>discontinued</em> &middot; <em>discontinued</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>discontinues</em> &middot; <strong>-ing form:</strong> <em>discontinuing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To stop making, selling, or providing something permanently.</p>
+<ol><li>The company may <em>discontinue</em> the smaller size.</li><li>They <em>discontinued</em> that model two years ago.</li><li>My favorite shade of paint has been <em>discontinued</em>.</li></ol>
+<hr>
+<h3 id="abort">abort<a class="hash" href="#abort" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈbɔːrt/ &middot; <em>uh-BORT</em></dd><dt>Русский</dt><dd>прерывать, прекращать (на полпути), отменять</dd><dt>Forms</dt><dd><em>abort</em> &middot; <em>aborted</em> &middot; <em>aborted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>aborts</em> &middot; <strong>-ing form:</strong> <em>aborting</em></dd><dt>Transitivity</dt><dd>both — transitive (abort the launch), intransitive (the program aborted)</dd></dl>
+<p>To stop something in the middle, before it is finished.</p>
+<ol><li>The pilot had to <em>abort</em> the landing.</li><li>They <em>aborted</em> the launch with four seconds left.</li><li>The download keeps <em>aborting</em> halfway through.</li></ol>
+<hr>
+<h3 id="desist">desist<a class="hash" href="#desist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzɪst/ &middot; <em>dih-ZIST</em></dd><dt>Русский</dt><dd>прекращать, воздерживаться, перестать</dd><dt>Forms</dt><dd><em>desist</em> &middot; <em>desisted</em> &middot; <em>desisted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>desists</em> &middot; <strong>-ing form:</strong> <em>desisting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>It takes <em>from</em>: <em>desist from further contact</em>. Americans meet it mostly in the legal phrase <em>cease and desist</em>.</dd></dl>
+<p>To stop doing something, especially when told to.</p>
+<ol><li>The letter ordered them to <em>desist</em> immediately.</li><li>They <em>desisted</em> only after the second warning.</li><li>He kept calling, <em>desisting</em> for a day and then starting again.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#desist-from">desist from</a></dd></dl>
+<h3 id="refrain">refrain<a class="hash" href="#refrain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfreɪn/ &middot; <em>rih-FRAYN</em></dd><dt>Русский</dt><dd>воздерживаться, воздержаться</dd><dt>Forms</dt><dd><em>refrain</em> &middot; <em>refrained</em> &middot; <em>refrained</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>refrains</em> &middot; <strong>-ing form:</strong> <em>refraining</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Always <em>refrain from doing</em>, with the -ing form, never <em>refrain to do</em>.</dd></dl>
+<p>To hold yourself back from doing something.</p>
+<ol><li>Please <em>refrain</em> from using flash photography.</li><li>She <em>refrained</em> from saying what she really thought.</li><li>He has <em>refrained</em> from commenting on the case.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#refrain-from">refrain from</a></dd></dl>
+<h3 id="curb">curb<a class="hash" href="#curb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɜːrb/ &middot; <em>KURB</em></dd><dt>Русский</dt><dd>сдерживать, обуздывать, ограничивать</dd><dt>Forms</dt><dd><em>curb</em> &middot; <em>curbed</em> &middot; <em>curbed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>curbs</em> &middot; <strong>-ing form:</strong> <em>curbing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep something harmful from growing or spreading.</p>
+<ol><li>The city is trying to <em>curb</em> speeding near schools.</li><li>New rules <em>curbed</em> the worst of the spending.</li><li>Inflation has been <em>curbed</em>, at least for now.</li></ol>
+<hr>
+<h3 id="curtail">curtail<a class="hash" href="#curtail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kərˈteɪl/ &middot; <em>kur-TAYL</em></dd><dt>Русский</dt><dd>сокращать, урезать, свёртывать</dd><dt>Forms</dt><dd><em>curtail</em> &middot; <em>curtailed</em> &middot; <em>curtailed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>curtails</em> &middot; <strong>-ing form:</strong> <em>curtailing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cut something short or reduce it before its normal end.</p>
+<ol><li>Bad weather may <em>curtail</em> the search.</li><li>They <em>curtailed</em> the tour after three cities.</li><li>Services have been <em>curtailed</em> because of the budget.</li></ol>
+<hr>
+<h3 id="stem">stem<a class="hash" href="#stem" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɛm/ &middot; <em>STEM</em></dd><dt>Русский</dt><dd>остановить, сдержать (поток, отток)</dd><dt>Forms</dt><dd><em>stem</em> &middot; <em>stemmed</em> &middot; <em>stemmed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>stems</em> &middot; <strong>-ing form:</strong> <em>stemming</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The m doubles: <em>stemmed</em>, <em>stemming</em>. Note the other sense with <em>from</em>: <em>Her fear stems from an accident years ago.</em></dd></dl>
+<p>To stop something from flowing or spreading.</p>
+<ol><li>Nothing they tried could <em>stem</em> the flood of complaints.</li><li>The new coach <em>stemmed</em> the losing streak.</li><li>They are <em>stemming</em> the bleeding with a tourniquet.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#stem-from">stem from</a></dd></dl>
+<h3 id="stifle">stifle<a class="hash" href="#stifle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstaɪfəl/ &middot; <em>STY-fuhl</em></dd><dt>Русский</dt><dd>подавлять, сдерживать, душить (инициативу, смех)</dd><dt>Forms</dt><dd><em>stifle</em> &middot; <em>stifled</em> &middot; <em>stifled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>stifles</em> &middot; <strong>-ing form:</strong> <em>stifling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To stop something from being expressed or from developing.</p>
+<ol><li>Too many rules can <em>stifle</em> new ideas.</li><li>She <em>stifled</em> a laugh behind her hand.</li><li>Debate was <em>stifled</em> before it started.</li></ol>
+<hr>
+<h3 id="quell">quell<a class="hash" href="#quell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɛl/ &middot; <em>KWEL</em></dd><dt>Русский</dt><dd>подавлять, усмирять, унять</dd><dt>Forms</dt><dd><em>quell</em> &middot; <em>quelled</em> &middot; <em>quelled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>quells</em> &middot; <strong>-ing form:</strong> <em>quelling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To put an end to unrest, fear, or doubt.</p>
+<ol><li>A short statement should <em>quell</em> the rumors.</li><li>Police <em>quelled</em> the disturbance within an hour.</li><li>Her calm voice was <em>quelling</em> the panic in the room.</li></ol>
+<hr>
+<h3 id="quash">quash<a class="hash" href="#quash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɑːʃ/ &middot; <em>KWAHSH</em></dd><dt>Русский</dt><dd>пресекать, подавлять; отменять (решение, повестку)</dd><dt>Forms</dt><dd><em>quash</em> &middot; <em>quashed</em> &middot; <em>quashed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>quashes</em> &middot; <strong>-ing form:</strong> <em>quashing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To stop something firmly, or to cancel a legal decision.</p>
+<ol><li>The coach moved fast to <em>quash</em> the trade rumors.</li><li>The judge <em>quashed</em> the subpoena.</li><li>The story was <em>quashed</em> before it ever ran.</li></ol>
+<hr>
+<h3 id="scrap">scrap<a class="hash" href="#scrap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skræp/ &middot; <em>SKRAP</em></dd><dt>Русский</dt><dd>отказываться от, отменять, выбросить (план, проект)</dd><dt>Forms</dt><dd><em>scrap</em> &middot; <em>scrapped</em> &middot; <em>scrapped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>scraps</em> &middot; <strong>-ing form:</strong> <em>scrapping</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>One short vowel plus one consonant, so the p doubles: <em>scrapped</em>, <em>scrapping</em>.</dd></dl>
+<p>To get rid of a plan or a thing because it is no longer wanted.</p>
+<ol><li>We may have to <em>scrap</em> the whole design.</li><li>They <em>scrapped</em> the fee after a hundred angry emails.</li><li>The program is being <em>scrapped</em> at the end of the year.</li></ol>
+<hr>
+<h3 id="scuttle">scuttle<a class="hash" href="#scuttle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskʌtəl/ &middot; <em>SKUT-uhl</em></dd><dt>Русский</dt><dd>срывать, губить (сделку, план)</dd><dt>Forms</dt><dd><em>scuttle</em> &middot; <em>scuttled</em> &middot; <em>scuttled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>scuttles</em> &middot; <strong>-ing form:</strong> <em>scuttling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To ruin a plan or an agreement so that it cannot go ahead.</p>
+<ol><li>One bad headline could <em>scuttle</em> the merger.</li><li>A single vote <em>scuttled</em> the bill.</li><li>The deal was <em>scuttled</em> at the last minute.</li></ol>
+<hr>
+<h3 id="nix">nix<a class="hash" href="#nix" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɪks/ &middot; <em>NIKS</em></dd><dt>Русский</dt><dd>отвергать, зарубить, отклонить (план)</dd><dt>Forms</dt><dd><em>nix</em> &middot; <em>nixed</em> &middot; <em>nixed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>nixes</em> &middot; <strong>-ing form:</strong> <em>nixing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To reject or cancel something, in informal American English.</p>
+<ol><li>My boss will probably <em>nix</em> the idea.</li><li>The landlord <em>nixed</em> our plan for a dog.</li><li>The trip was <em>nixed</em> because of the storm.</li></ol>
+<hr>
+<h3 id="rescind">rescind<a class="hash" href="#rescind" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsɪnd/ &middot; <em>rih-SIND</em></dd><dt>Русский</dt><dd>отменять, аннулировать (решение, предложение)</dd><dt>Forms</dt><dd><em>rescind</em> &middot; <em>rescinded</em> &middot; <em>rescinded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rescinds</em> &middot; <strong>-ing form:</strong> <em>rescinding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To officially cancel a decision, order, or offer.</p>
+<ol><li>The board can <em>rescind</em> the rule at any meeting.</li><li>The company <em>rescinded</em> the job offer a week later.</li><li>The order was quietly <em>rescinded</em> in March.</li></ol>
+<hr>
+<h3 id="annul">annul<a class="hash" href="#annul" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈnʌl/ &middot; <em>uh-NUL</em></dd><dt>Русский</dt><dd>аннулировать, расторгать, признавать недействительным</dd><dt>Forms</dt><dd><em>annul</em> &middot; <em>annulled</em> &middot; <em>annulled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>annuls</em> &middot; <strong>-ing form:</strong> <em>annulling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Stress falls on the last syllable, so the l doubles: <em>annulled</em>, <em>annulling</em>.</dd></dl>
+<p>To declare officially that something has no legal force.</p>
+<ol><li>A court can <em>annul</em> a marriage in certain cases.</li><li>The election results were <em>annulled</em>.</li><li>They spent a year <em>annulling</em> the contract.</li></ol>
+<hr>
+<h3 id="void">void<a class="hash" href="#void" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɔɪd/ &middot; <em>VOYD</em></dd><dt>Русский</dt><dd>аннулировать, признавать недействительным</dd><dt>Forms</dt><dd><em>void</em> &middot; <em>voided</em> &middot; <em>voided</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>voids</em> &middot; <strong>-ing form:</strong> <em>voiding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a document, ticket, or agreement no longer valid.</p>
+<ol><li>Opening the case will <em>void</em> the warranty.</li><li>The clerk <em>voided</em> the receipt and rang it up again.</li><li>The check had already been <em>voided</em>.</li></ol>
+<hr>
+<h3 id="nullify">nullify<a class="hash" href="#nullify" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnʌlɪfaɪ/ &middot; <em>NUL-uh-fy</em></dd><dt>Русский</dt><dd>сводить на нет, аннулировать</dd><dt>Forms</dt><dd><em>nullify</em> &middot; <em>nullified</em> &middot; <em>nullified</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>nullifies</em> &middot; <strong>-ing form:</strong> <em>nullifying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>-y after a consonant becomes -ie-: <em>nullifies</em>, <em>nullified</em> — but <em>nullifying</em> keeps the y.</dd></dl>
+<p>To cancel the effect or the legal force of something.</p>
+<ol><li>One missing signature can <em>nullify</em> the whole agreement.</li><li>The penalty <em>nullified</em> the touchdown.</li><li>Their gains were <em>nullified</em> by rising costs.</li></ol>
+<hr>
+<h3 id="invalidate">invalidate<a class="hash" href="#invalidate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈvælɪdeɪt/ &middot; <em>in-VAL-uh-dayt</em></dd><dt>Русский</dt><dd>делать недействительным, опровергать</dd><dt>Forms</dt><dd><em>invalidate</em> &middot; <em>invalidated</em> &middot; <em>invalidated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>invalidates</em> &middot; <strong>-ing form:</strong> <em>invalidating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make something no longer valid or no longer true.</p>
+<ol><li>A late entry will <em>invalidate</em> your ticket.</li><li>The new data <em>invalidated</em> their first conclusion.</li><li>Thousands of ballots were <em>invalidated</em> over a technicality.</li></ol>
+<hr>
+<h3 id="negate">negate<a class="hash" href="#negate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɪˈɡeɪt/ &middot; <em>nih-GAYT</em></dd><dt>Русский</dt><dd>сводить на нет, нейтрализовать; отрицать</dd><dt>Forms</dt><dd><em>negate</em> &middot; <em>negated</em> &middot; <em>negated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>negates</em> &middot; <strong>-ing form:</strong> <em>negating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cancel out the effect of something.</p>
+<ol><li>One late payment can <em>negate</em> months of progress.</li><li>The extra fees <em>negated</em> the savings.</li><li>Their advantage was <em>negated</em> by the weather.</li></ol>
+<hr>
+<h3 id="disallow">disallow<a class="hash" href="#disallow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪsəˈlaʊ/ &middot; <em>dis-uh-LOW</em></dd><dt>Русский</dt><dd>не разрешать, не засчитывать, отклонять</dd><dt>Forms</dt><dd><em>disallow</em> &middot; <em>disallowed</em> &middot; <em>disallowed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>disallows</em> &middot; <strong>-ing form:</strong> <em>disallowing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Two s's and two l's, because it is <em>dis</em> plus <em>allow</em>. The respelling LOW here rhymes with <em>now</em>, not with <em>snow</em>.</dd></dl>
+<p>To refuse to accept or permit something officially.</p>
+<ol><li>The referee can <em>disallow</em> a goal for offside.</li><li>The auditor <em>disallowed</em> half the expenses.</li><li>Their second claim was <em>disallowed</em>.</li></ol>
+<hr>
+<h3 id="renounce">renounce<a class="hash" href="#renounce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈnaʊns/ &middot; <em>rih-NOWNS</em></dd><dt>Русский</dt><dd>отказываться от, отрекаться от</dd><dt>Forms</dt><dd><em>renounce</em> &middot; <em>renounced</em> &middot; <em>renounced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>renounces</em> &middot; <strong>-ing form:</strong> <em>renouncing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give up a claim, a belief, or a position publicly.</p>
+<ol><li>He had to <em>renounce</em> his claim to the property.</li><li>She <em>renounced</em> violence in her first speech.</li><li>They have <em>renounced</em> the agreement entirely.</li></ol>
+<hr>
+<h3 id="relinquish">relinquish<a class="hash" href="#relinquish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈlɪŋkwɪʃ/ &middot; <em>rih-LING-kwish</em></dd><dt>Русский</dt><dd>отказываться от, уступать, сдавать (пост, контроль)</dd><dt>Forms</dt><dd><em>relinquish</em> &middot; <em>relinquished</em> &middot; <em>relinquished</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>relinquishes</em> &middot; <strong>-ing form:</strong> <em>relinquishing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give up something you hold, such as control or a right.</p>
+<ol><li>He refused to <em>relinquish</em> the keys.</li><li>She <em>relinquished</em> control of the company in 2020.</li><li>The title was <em>relinquished</em> without a fight.</li></ol>
+<hr>
+<h3 id="thwart">thwart<a class="hash" href="#thwart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θwɔːrt/ &middot; <em>THWORT</em></dd><dt>Русский</dt><dd>срывать, пресекать, мешать (планам)</dd><dt>Forms</dt><dd><em>thwart</em> &middot; <em>thwarted</em> &middot; <em>thwarted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>thwarts</em> &middot; <strong>-ing form:</strong> <em>thwarting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To stop someone from doing what they were trying to do.</p>
+<ol><li>A locked gate can <em>thwart</em> most thieves.</li><li>Rain <em>thwarted</em> our plans for the whole weekend.</li><li>The attack was <em>thwarted</em> by an alert guard.</li></ol>
+<hr>
+<h3 id="foil">foil<a class="hash" href="#foil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔɪl/ &middot; <em>FOYL</em></dd><dt>Русский</dt><dd>срывать (планы), расстраивать замыслы</dd><dt>Forms</dt><dd><em>foil</em> &middot; <em>foiled</em> &middot; <em>foiled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>foils</em> &middot; <strong>-ing form:</strong> <em>foiling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To prevent a plan, especially a bad one, from succeeding.</p>
+<ol><li>A neighbor's dog helped <em>foil</em> the break-in.</li><li>Her quick thinking <em>foiled</em> the scam.</li><li>The plot was <em>foiled</em> days before it started.</li></ol>
+<hr>
+<h3 id="hinder">hinder<a class="hash" href="#hinder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɪndər/ &middot; <em>HIN-dur</em></dd><dt>Русский</dt><dd>мешать, препятствовать, затруднять</dd><dt>Forms</dt><dd><em>hinder</em> &middot; <em>hindered</em> &middot; <em>hindered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>hinders</em> &middot; <strong>-ing form:</strong> <em>hindering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make it harder for something to move forward.</p>
+<ol><li>Heavy bags will only <em>hinder</em> you on the trail.</li><li>Fog <em>hindered</em> the rescue for hours.</li><li>The search was <em>hindered</em> by darkness.</li></ol>
+<hr>
+<h3 id="impede">impede<a class="hash" href="#impede" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈpiːd/ &middot; <em>im-PEED</em></dd><dt>Русский</dt><dd>препятствовать, затруднять, мешать</dd><dt>Forms</dt><dd><em>impede</em> &middot; <em>impeded</em> &middot; <em>impeded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>impedes</em> &middot; <strong>-ing form:</strong> <em>impeding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To slow or block the progress of something.</p>
+<ol><li>Parked cars <em>impede</em> the snowplows.</li><li>The injury <em>impeded</em> his recovery all season.</li><li>Traffic was <em>impeding</em> every ambulance downtown.</li></ol>
+<hr>
+<h3 id="hamper">hamper<a class="hash" href="#hamper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæmpər/ &middot; <em>HAM-pur</em></dd><dt>Русский</dt><dd>мешать, сковывать, затруднять</dd><dt>Forms</dt><dd><em>hamper</em> &middot; <em>hampered</em> &middot; <em>hampered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>hampers</em> &middot; <strong>-ing form:</strong> <em>hampering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make an activity difficult by getting in its way.</p>
+<ol><li>A thick coat can <em>hamper</em> your movement.</li><li>High winds <em>hampered</em> the firefighters.</li><li>The investigation has been <em>hampered</em> by missing records.</li></ol>
+<hr>
+<h3 id="derail">derail<a class="hash" href="#derail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈreɪl/ &middot; <em>dih-RAYL</em></dd><dt>Русский</dt><dd>срывать, пускать под откос; сходить с рельсов</dd><dt>Forms</dt><dd><em>derail</em> &middot; <em>derailed</em> &middot; <em>derailed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>derails</em> &middot; <strong>-ing form:</strong> <em>derailing</em></dd><dt>Transitivity</dt><dd>both — transitive (derail the talks), intransitive (the train derailed)</dd></dl>
+<p>To make a plan or a process go badly wrong, or to run off the rails.</p>
+<ol><li>One rude question can <em>derail</em> the whole interview.</li><li>The freight train <em>derailed</em> outside town.</li><li>The talks were <em>derailed</em> by a leaked memo.</li></ol>
+<hr>
+<h3 id="prevent">prevent<a class="hash" href="#prevent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈvɛnt/ &middot; <em>prih-VENT</em></dd><dt>Русский</dt><dd>предотвращать, предотвратить, мешать</dd><dt>Forms</dt><dd><em>prevent</em> &middot; <em>prevented</em> &middot; <em>prevented</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>prevents</em> &middot; <strong>-ing form:</strong> <em>preventing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The pattern is <em>prevent someone from doing something</em>, with <em>from</em> and the -ing form.</dd></dl>
+<p>To stop something from happening at all.</p>
+<ol><li>A smoke alarm can <em>prevent</em> a tragedy.</li><li>The rain <em>prevented</em> us from finishing the game.</li><li>Most of these accidents could have been <em>prevented</em>.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#prevent-from">prevent from</a></dd></dl>
+<h3 id="avert">avert<a class="hash" href="#avert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈvɜːrt/ &middot; <em>uh-VURT</em></dd><dt>Русский</dt><dd>предотвращать, отвести (беду); отводить (взгляд)</dd><dt>Forms</dt><dd><em>avert</em> &middot; <em>averted</em> &middot; <em>averted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>averts</em> &middot; <strong>-ing form:</strong> <em>averting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To prevent something bad that was about to happen.</p>
+<ol><li>A last-minute deal may <em>avert</em> a strike.</li><li>Quick thinking <em>averted</em> a serious accident.</li><li>Disaster was <em>averted</em> by a matter of seconds.</li></ol>
+<hr>
+<h3 id="forestall">forestall<a class="hash" href="#forestall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔːrˈstɔːl/ &middot; <em>for-STAWL</em></dd><dt>Русский</dt><dd>упреждать, предупреждать (действия), опередить</dd><dt>Forms</dt><dd><em>forestall</em> &middot; <em>forestalled</em> &middot; <em>forestalled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>forestalls</em> &middot; <strong>-ing form:</strong> <em>forestalling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To stop something by acting before it can happen.</p>
+<ol><li>They cut prices to <em>forestall</em> a walkout.</li><li>The apology <em>forestalled</em> a much bigger fight.</li><li>A lawsuit has been <em>forestalled</em>, at least for now.</li></ol>
+<hr>
+<h3 id="preempt">preempt<a class="hash" href="#preempt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/priˈɛmpt/ &middot; <em>pree-EMPT</em></dd><dt>Русский</dt><dd>упреждать, опережать; вытеснять (передачу из эфира)</dd><dt>Forms</dt><dd><em>preempt</em> &middot; <em>preempted</em> &middot; <em>preempted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>preempts</em> &middot; <strong>-ing form:</strong> <em>preempting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Also written <em>pre-empt</em>; the one-word spelling is the usual American one.</dd></dl>
+<p>To act first so that something else cannot happen or go on.</p>
+<ol><li>She tried to <em>preempt</em> the question by answering it first.</li><li>The network <em>preempted</em> the show for a news bulletin.</li><li>Our objection had already been <em>preempted</em>.</li></ol>
+<hr>
+<h3 id="paralyze">paralyze<a class="hash" href="#paralyze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpærəlaɪz/ &middot; <em>PAR-uh-lyz</em></dd><dt>Русский</dt><dd>парализовать, сковать</dd><dt>Forms</dt><dd><em>paralyze</em> &middot; <em>paralyzed</em> &middot; <em>paralyzed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>paralyzes</em> &middot; <strong>-ing form:</strong> <em>paralyzing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American spelling is <em>paralyze</em>; British is <em>paralyse</em>.</dd></dl>
+<p>To make something or someone completely unable to move or function.</p>
+<ol><li>A storm like that can <em>paralyze</em> the whole city.</li><li>The strike <em>paralyzed</em> shipping for a week.</li><li>He was <em>paralyzed</em> with stage fright.</li></ol>
+<hr>
+<h3 id="immobilize">immobilize<a class="hash" href="#immobilize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmoʊbəlaɪz/ &middot; <em>ih-MOH-buh-lyz</em></dd><dt>Русский</dt><dd>обездвиживать, выводить из строя, зафиксировать</dd><dt>Forms</dt><dd><em>immobilize</em> &middot; <em>immobilized</em> &middot; <em>immobilized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>immobilizes</em> &middot; <strong>-ing form:</strong> <em>immobilizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American -ize; British spelling is <em>immobilise</em>.</dd></dl>
+<p>To stop something from moving or working.</p>
+<ol><li>A splint will <em>immobilize</em> the wrist.</li><li>The flood <em>immobilized</em> half the fleet.</li><li>The truck sat <em>immobilized</em> in the mud for two days.</li></ol>
+<hr>
+<h3 id="cripple">cripple<a class="hash" href="#cripple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪpəl/ &middot; <em>KRIP-uhl</em></dd><dt>Русский</dt><dd>подрывать, выводить из строя, парализовать (работу)</dd><dt>Forms</dt><dd><em>cripple</em> &middot; <em>crippled</em> &middot; <em>crippled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cripples</em> &middot; <strong>-ing form:</strong> <em>crippling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To damage something so badly that it can barely work.</p>
+<ol><li>Another bad season could <em>cripple</em> the business.</li><li>The outage <em>crippled</em> the airline for two days.</li><li>Their supply chain has been <em>crippled</em> by the shortage.</li></ol>
+<hr>
+<h3 id="hobble">hobble<a class="hash" href="#hobble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːbəl/ &middot; <em>HAH-buhl</em></dd><dt>Русский</dt><dd>сковывать, мешать, затруднять; ковылять</dd><dt>Forms</dt><dd><em>hobble</em> &middot; <em>hobbled</em> &middot; <em>hobbled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>hobbles</em> &middot; <strong>-ing form:</strong> <em>hobbling</em></dd><dt>Transitivity</dt><dd>both — transitive (debt hobbles the company), intransitive (he hobbled to the car)</dd></dl>
+<p>To hold something back so it can barely move, or to walk with difficulty.</p>
+<ol><li>Debt continues to <em>hobble</em> the school district.</li><li>She <em>hobbled</em> off the field on one leg.</li><li>The team has been <em>hobbled</em> by injuries all year.</li></ol>
+<hr>
+<h3 id="stunt">stunt<a class="hash" href="#stunt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stʌnt/ &middot; <em>STUNT</em></dd><dt>Русский</dt><dd>задерживать рост, тормозить развитие</dd><dt>Forms</dt><dd><em>stunt</em> &middot; <em>stunted</em> &middot; <em>stunted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>stunts</em> &middot; <strong>-ing form:</strong> <em>stunting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To stop something from growing or developing properly.</p>
+<ol><li>Too little light will <em>stunt</em> the seedlings.</li><li>The drought <em>stunted</em> the corn that year.</li><li>Their growth has been <em>stunted</em> by years of neglect.</li></ol>
+<hr>
+<h3 id="disband">disband<a class="hash" href="#disband" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈbænd/ &middot; <em>dis-BAND</em></dd><dt>Русский</dt><dd>распускать(ся), расформировывать, распадаться</dd><dt>Forms</dt><dd><em>disband</em> &middot; <em>disbanded</em> &middot; <em>disbanded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>disbands</em> &middot; <strong>-ing form:</strong> <em>disbanding</em></dd><dt>Transitivity</dt><dd>both — transitive (disband the committee), intransitive (the band disbanded)</dd></dl>
+<p>To break up a group so that it stops existing.</p>
+<ol><li>The city may <em>disband</em> the task force.</li><li>The band <em>disbanded</em> after their second album.</li><li>The unit was <em>disbanded</em> in 1995.</li></ol>
+<hr>
+<h3 id="disengage">disengage<a class="hash" href="#disengage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪsɪnˈɡeɪdʒ/ &middot; <em>dis-in-GAYJ</em></dd><dt>Русский</dt><dd>отсоединять, разъединять; выходить из контакта, отстраняться</dd><dt>Forms</dt><dd><em>disengage</em> &middot; <em>disengaged</em> &middot; <em>disengaged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>disengages</em> &middot; <strong>-ing form:</strong> <em>disengaging</em></dd><dt>Transitivity</dt><dd>both — transitive (disengage the clutch), intransitive (the troops disengaged)</dd><dt>Contrast</dt><dd>When it means to stop taking part, it takes <em>from</em>: <em>disengage from the argument</em>.</dd></dl>
+<p>To stop being connected to or involved in something.</p>
+<ol><li><em>Disengage</em> the parking brake before you pull out.</li><li>He slowly <em>disengaged</em> from the conversation.</li><li>The autopilot had <em>disengaged</em> without warning.</li></ol>
+<hr>
+<h3 id="shutter">shutter<a class="hash" href="#shutter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʌtər/ &middot; <em>SHUT-ur</em></dd><dt>Русский</dt><dd>закрывать (предприятие), сворачивать, прекращать работу</dd><dt>Forms</dt><dd><em>shutter</em> &middot; <em>shuttered</em> &middot; <em>shuttered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>shutters</em> &middot; <strong>-ing form:</strong> <em>shuttering</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Regular, unlike the irregular <em>shut</em> (<em>shut, shut, shut</em>): <em>shutter, shuttered, shuttered</em>.</dd></dl>
+<p>To close a business or a building down, usually for good.</p>
+<ol><li>The chain plans to <em>shutter</em> twelve stores.</li><li>They <em>shuttered</em> the plant in December.</li><li>Half the downtown storefronts are <em>shuttered</em>.</li></ol>
+<hr>
+<h3 id="liquidate">liquidate<a class="hash" href="#liquidate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪkwɪdeɪt/ &middot; <em>LIK-wuh-dayt</em></dd><dt>Русский</dt><dd>ликвидировать (компанию), распродавать (активы)</dd><dt>Forms</dt><dd><em>liquidate</em> &middot; <em>liquidated</em> &middot; <em>liquidated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>liquidates</em> &middot; <strong>-ing form:</strong> <em>liquidating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To close a business by selling everything it owns.</p>
+<ol><li>They will have to <em>liquidate</em> the inventory.</li><li>The court <em>liquidated</em> the firm last spring.</li><li>The estate is being <em>liquidated</em> to pay the debts.</li></ol>
+<hr>
+<h3 id="furlough">furlough<a class="hash" href="#furlough" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrloʊ/ &middot; <em>FUR-loh</em></dd><dt>Русский</dt><dd>отправлять в вынужденный (неоплачиваемый) отпуск</dd><dt>Forms</dt><dd><em>furlough</em> &middot; <em>furloughed</em> &middot; <em>furloughed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>furloughs</em> &middot; <strong>-ing form:</strong> <em>furloughing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The -gh is silent: FUR-loh, the same ending sound as <em>though</em>.</dd></dl>
+<p>To send workers home for a period without pay, usually temporarily.</p>
+<ol><li>The airline may <em>furlough</em> another thousand workers.</li><li>They <em>furloughed</em> most of the staff in April.</li><li>She was <em>furloughed</em> for six weeks and then called back.</li></ol>
+<hr>
+<h3 id="cap">cap<a class="hash" href="#cap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæp/ &middot; <em>KAP</em></dd><dt>Русский</dt><dd>ограничивать (сверху), устанавливать предел</dd><dt>Forms</dt><dd><em>cap</em> &middot; <em>capped</em> &middot; <em>capped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>caps</em> &middot; <strong>-ing form:</strong> <em>capping</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>One short vowel plus one consonant, so the p doubles: <em>capped</em>, <em>capping</em>.</dd></dl>
+<p>To set an upper limit on an amount so that it stops rising.</p>
+<ol><li>The state may <em>cap</em> tuition increases.</li><li>They <em>capped</em> the class at twenty students.</li><li>Rent is <em>capped</em> at three percent a year.</li></ol>
+<hr>
+<h3 id="confine">confine<a class="hash" href="#confine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈfaɪn/ &middot; <em>kuhn-FYN</em></dd><dt>Русский</dt><dd>ограничивать, держать в пределах; запирать</dd><dt>Forms</dt><dd><em>confine</em> &middot; <em>confined</em> &middot; <em>confined</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>confines</em> &middot; <strong>-ing form:</strong> <em>confining</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>It takes <em>to</em>: <em>confined to bed</em>, <em>confine it to one page</em>.</dd></dl>
+<p>To keep something or someone inside limits.</p>
+<ol><li>Let us <em>confine</em> the discussion to the budget.</li><li>The flu <em>confined</em> her to bed for a week.</li><li>The damage was <em>confined</em> to the first floor.</li></ol>
+<hr>
+<h3 id="bar">bar<a class="hash" href="#bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːr/ &middot; <em>BAHR</em></dd><dt>Русский</dt><dd>запрещать, не допускать, отстранять</dd><dt>Forms</dt><dd><em>bar</em> &middot; <em>barred</em> &middot; <em>barred</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bars</em> &middot; <strong>-ing form:</strong> <em>barring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The r doubles: <em>barred</em>, <em>barring</em>. It takes <em>from</em>: <em>barred from the building</em>.</dd></dl>
+<p>To officially keep someone out or stop them from doing something.</p>
+<ol><li>The rule would <em>bar</em> anyone under eighteen.</li><li>The league <em>barred</em> him for a full season.</li><li>Reporters were <em>barred</em> from the courtroom.</li></ol>
+<hr>
+<h3 id="silence">silence<a class="hash" href="#silence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪləns/ &middot; <em>SY-luhns</em></dd><dt>Русский</dt><dd>заставить замолчать, заглушить, унять</dd><dt>Forms</dt><dd><em>silence</em> &middot; <em>silenced</em> &middot; <em>silenced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>silences</em> &middot; <strong>-ing form:</strong> <em>silencing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone or something stop making noise or stop speaking.</p>
+<ol><li>Please <em>silence</em> your phones before the show.</li><li>One look from her <em>silenced</em> the whole table.</li><li>Critics were being <em>silenced</em> one by one.</li></ol>
+<hr>
+<h3 id="capitulate">capitulate<a class="hash" href="#capitulate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈpɪtʃəleɪt/ &middot; <em>kuh-PICH-uh-layt</em></dd><dt>Русский</dt><dd>капитулировать, сдаваться, уступать</dd><dt>Forms</dt><dd><em>capitulate</em> &middot; <em>capitulated</em> &middot; <em>capitulated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>capitulates</em> &middot; <strong>-ing form:</strong> <em>capitulating</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>It takes <em>to</em>: <em>capitulate to pressure</em>.</dd></dl>
+<p>To stop resisting and accept what the other side wants.</p>
+<ol><li>He refused to <em>capitulate</em> on the price.</li><li>The company <em>capitulated</em> after three weeks of picketing.</li><li>They have <em>capitulated</em> to almost every demand.</li></ol>
+<hr>
+<h3 id="relent">relent<a class="hash" href="#relent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈlɛnt/ &middot; <em>rih-LENT</em></dd><dt>Русский</dt><dd>смягчаться, уступать; ослабевать, утихать</dd><dt>Forms</dt><dd><em>relent</em> &middot; <em>relented</em> &middot; <em>relented</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>relents</em> &middot; <strong>-ing form:</strong> <em>relenting</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To finally agree after refusing, or to become less severe.</p>
+<ol><li>She kept asking until her father <em>relented</em>.</li><li>The heat shows no sign of <em>relenting</em>.</li><li>They have <em>relented</em> and extended the deadline.</li></ol>
+<hr>
+<h3 id="vacate">vacate<a class="hash" href="#vacate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈveɪkeɪt/ &middot; <em>VAY-kayt</em></dd><dt>Русский</dt><dd>освобождать (помещение, должность), съезжать</dd><dt>Forms</dt><dd><em>vacate</em> &middot; <em>vacated</em> &middot; <em>vacated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>vacates</em> &middot; <strong>-ing form:</strong> <em>vacating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To leave a place or a position so that it is empty.</p>
+<ol><li>Guests must <em>vacate</em> the room by eleven.</li><li>They <em>vacated</em> the apartment in a single afternoon.</li><li>The seat was <em>vacated</em> when he resigned.</li></ol>
+<hr>
+<h3 id="taper">taper<a class="hash" href="#taper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪpər/ &middot; <em>TAY-pur</em></dd><dt>Русский</dt><dd>постепенно сокращать(ся), сходить на нет</dd><dt>Forms</dt><dd><em>taper</em> &middot; <em>tapered</em> &middot; <em>tapered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>tapers</em> &middot; <strong>-ing form:</strong> <em>tapering</em></dd><dt>Transitivity</dt><dd>both — transitive (taper the dose), intransitive (the rain tapered)</dd><dt>Contrast</dt><dd>The r is not doubled, because the stress is on the first syllable: <em>tapered</em>, <em>tapering</em>.</dd></dl>
+<p>To become gradually smaller or less, or to reduce something gradually.</p>
+<ol><li>The doctor will <em>taper</em> the medication over a month.</li><li>The applause <em>tapered</em> into silence.</li><li>Demand has been <em>tapering</em> since July.</li></ol>
+<hr>
+<h3 id="last">last<a class="hash" href="#last" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læst/ &middot; <em>LAST</em></dd><dt>Русский</dt><dd>длиться, продолжаться; хватать (о запасе)</dd><dt>Forms</dt><dd><em>last</em> &middot; <em>lasted</em> &middot; <em>lasted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>lasts</em> &middot; <strong>-ing form:</strong> <em>lasting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>In American English the vowel is /æ/, the same as in <em>ask</em> and <em>class</em>.</dd></dl>
+<p>To continue for a period of time, or to remain usable.</p>
+<ol><li>The meeting should <em>last</em> about an hour.</li><li>The storm <em>lasted</em> well into the night.</li><li>These boots have <em>lasted</em> me nine winters.</li></ol>
+<hr>
+<h3 id="outlive">outlive<a class="hash" href="#outlive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtˈlɪv/ &middot; <em>owt-LIV</em></dd><dt>Русский</dt><dd>пережить (кого-л.), жить дольше</dd><dt>Forms</dt><dd><em>outlive</em> &middot; <em>outlived</em> &middot; <em>outlived</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>outlives</em> &middot; <strong>-ing form:</strong> <em>outliving</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To live or remain useful longer than someone or something else.</p>
+<ol><li>She <em>outlived</em> her husband by twenty years.</li><li>That joke has <em>outlived</em> its usefulness.</li><li>Few buildings <em>outlive</em> their architects.</li></ol>
+<hr>
+<h3 id="perpetuate">perpetuate<a class="hash" href="#perpetuate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈpɛtʃueɪt/ &middot; <em>pur-PECH-oo-ayt</em></dd><dt>Русский</dt><dd>увековечивать, поддерживать (миф, практику), закреплять</dd><dt>Forms</dt><dd><em>perpetuate</em> &middot; <em>perpetuated</em> &middot; <em>perpetuated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>perpetuates</em> &middot; <strong>-ing form:</strong> <em>perpetuating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make something continue, especially something that should stop.</p>
+<ol><li>These ads only <em>perpetuate</em> the stereotype.</li><li>The policy <em>perpetuated</em> the same gap for decades.</li><li>The myth is <em>perpetuated</em> every time somebody repeats it.</li></ol>
+<hr>
+<h3 id="recur">recur<a class="hash" href="#recur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈkɜːr/ &middot; <em>rih-KUR</em></dd><dt>Русский</dt><dd>повторяться, возобновляться, снова возникать</dd><dt>Forms</dt><dd><em>recur</em> &middot; <em>recurred</em> &middot; <em>recurred</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>recurs</em> &middot; <strong>-ing form:</strong> <em>recurring</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Stress is on the last syllable, so the r doubles: <em>recurred</em>, <em>recurring</em>.</dd></dl>
+<p>To happen again, especially more than once.</p>
+<ol><li>The problem <em>recurs</em> every time it rains.</li><li>The pain <em>recurred</em> two months later.</li><li>It is a <em>recurring</em> charge, not a one-time fee.</li></ol>
+<hr>
+<h3 id="wait">wait<a class="hash" href="#wait" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪt/ &middot; <em>WAYT</em></dd><dt>Русский</dt><dd>ждать, подождать, ожидать</dd><dt>Forms</dt><dd><em>wait</em> &middot; <em>waited</em> &middot; <em>waited</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>waits</em> &middot; <strong>-ing form:</strong> <em>waiting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>It takes <em>for</em> before a person or thing and <em>to</em> before a verb: <em>wait for the bus</em>, <em>wait to hear back</em>. It sounds exactly like <em>weight</em>.</dd></dl>
+<p>To stay where you are or delay acting until something happens.</p>
+<ol><li>Can you <em>wait</em> five more minutes?</li><li>We <em>waited</em> almost an hour for a table.</li><li>She has been <em>waiting</em> outside since noon.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#wait-for-wait-on">wait for, wait on</a></dd></dl>
+<h3 id="procrastinate">procrastinate<a class="hash" href="#procrastinate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/proʊˈkræstɪneɪt/ &middot; <em>proh-KRAS-tuh-nayt</em></dd><dt>Русский</dt><dd>откладывать на потом, тянуть время, медлить</dd><dt>Forms</dt><dd><em>procrastinate</em> &middot; <em>procrastinated</em> &middot; <em>procrastinated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>procrastinates</em> &middot; <strong>-ing form:</strong> <em>procrastinating</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To keep putting off something you should be doing.</p>
+<ol><li>I always <em>procrastinate</em> when the job is boring.</li><li>He <em>procrastinated</em> until the night before it was due.</li><li>Stop <em>procrastinating</em> and send the email.</li></ol>
+<hr>
+<h3 id="table">table<a class="hash" href="#table" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪbəl/ &middot; <em>TAY-buhl</em></dd><dt>Русский</dt><dd>откладывать (обсуждение, вопрос)</dd><dt>Forms</dt><dd><em>table</em> &middot; <em>tabled</em> &middot; <em>tabled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>tables</em> &middot; <strong>-ing form:</strong> <em>tabling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>A true US/UK trap: in American English <em>table a proposal</em> means to set it aside, while in British English it means to bring it forward for discussion.</dd></dl>
+<p>To postpone discussion of a proposal until later.</p>
+<ol><li>Let us <em>table</em> that question for now.</li><li>The council <em>tabled</em> the motion until June.</li><li>The proposal was <em>tabled</em> and never came back.</li></ol>
+<hr>
+<h3 id="mothball">mothball<a class="hash" href="#mothball" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɔːθbɔːl/ &middot; <em>MAWTH-bawl</em></dd><dt>Русский</dt><dd>консервировать, замораживать (проект), ставить на прикол</dd><dt>Forms</dt><dd><em>mothball</em> &middot; <em>mothballed</em> &middot; <em>mothballed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>mothballs</em> &middot; <strong>-ing form:</strong> <em>mothballing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To stop using something and store it in case it is needed later.</p>
+<ol><li>They may <em>mothball</em> the second factory.</li><li>The Navy <em>mothballed</em> four ships that year.</li><li>The project has been <em>mothballed</em> since the funding dried up.</li></ol>
+<hr>
+<h3 id="recess">recess<a class="hash" href="#recess" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsɛs/ &middot; <em>rih-SES</em></dd><dt>Русский</dt><dd>делать перерыв, прерывать заседание</dd><dt>Forms</dt><dd><em>recess</em> &middot; <em>recessed</em> &middot; <em>recessed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>recesses</em> &middot; <strong>-ing form:</strong> <em>recessing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The verb is stressed on the second syllable, rih-SES; the noun (school recess) is stressed on the first: REE-ses.</dd></dl>
+<p>To pause an official meeting or session for a period.</p>
+<ol><li>The court will <em>recess</em> until two o'clock.</li><li>Congress <em>recessed</em> for the holidays.</li><li>The hearing has <em>recessed</em> twice already today.</li></ol>
+<hr>
+<h3 id="dawdle">dawdle<a class="hash" href="#dawdle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːdəl/ &middot; <em>DAW-duhl</em></dd><dt>Русский</dt><dd>медлить, копаться, мешкать</dd><dt>Forms</dt><dd><em>dawdle</em> &middot; <em>dawdled</em> &middot; <em>dawdled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>dawdles</em> &middot; <strong>-ing form:</strong> <em>dawdling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To move or act more slowly than you should.</p>
+<ol><li>Do not <em>dawdle</em> — the bus leaves at eight.</li><li>The kids <em>dawdled</em> all the way home.</li><li>She was <em>dawdling</em> over her cereal again.</li></ol>
+<hr>
+<h3 id="falter">falter<a class="hash" href="#falter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːltər/ &middot; <em>FAWL-tur</em></dd><dt>Русский</dt><dd>давать сбой, застопориться; дрогнуть, запинаться</dd><dt>Forms</dt><dd><em>falter</em> &middot; <em>faltered</em> &middot; <em>faltered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>falters</em> &middot; <strong>-ing form:</strong> <em>faltering</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To lose strength or momentum and nearly stop.</p>
+<ol><li>Sales began to <em>falter</em> in the second quarter.</li><li>His voice <em>faltered</em> halfway through the speech.</li><li>The recovery is <em>faltering</em> again.</li></ol>
+<hr>
+<h3 id="waver">waver<a class="hash" href="#waver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪvər/ &middot; <em>WAY-vur</em></dd><dt>Русский</dt><dd>колебаться, дрогнуть, проявлять нерешительность</dd><dt>Forms</dt><dd><em>waver</em> &middot; <em>wavered</em> &middot; <em>wavered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>wavers</em> &middot; <strong>-ing form:</strong> <em>wavering</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Do not confuse it with the noun <em>waiver</em> (a signed form giving up a right); the two sound alike but are spelled differently.</dd></dl>
+<p>To hesitate between choices, or to become unsteady.</p>
+<ol><li>She never <em>wavered</em> in her decision.</li><li>Support for the plan is <em>wavering</em>.</li><li>He <em>wavers</em> every time the price goes up.</li></ol>
+<hr>
+<h3 id="lapse">lapse<a class="hash" href="#lapse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læps/ &middot; <em>LAPS</em></dd><dt>Русский</dt><dd>истекать (о сроке), прекращать действие; впадать (в состояние)</dd><dt>Forms</dt><dd><em>lapse</em> &middot; <em>lapsed</em> &middot; <em>lapsed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>lapses</em> &middot; <strong>-ing form:</strong> <em>lapsing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>Lapse</em> is about a right or a policy ending; <em>elapse</em> is about time passing. A permit lapses; three hours elapse.</dd></dl>
+<p>To come to an end because it was not renewed, or to slip into a state.</p>
+<ol><li>Your membership will <em>lapse</em> on the first.</li><li>The insurance <em>lapsed</em> while he was overseas.</li><li>The room had <em>lapsed</em> into silence.</li></ol>
+<hr>
+<h3 id="elapse">elapse<a class="hash" href="#elapse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlæps/ &middot; <em>ih-LAPS</em></dd><dt>Русский</dt><dd>проходить, истекать (о времени)</dd><dt>Forms</dt><dd><em>elapse</em> &middot; <em>elapsed</em> &middot; <em>elapsed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>elapses</em> &middot; <strong>-ing form:</strong> <em>elapsing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Only time elapses. People and things do not elapse — compare <em>lapse</em>, which is what an unrenewed license does.</dd></dl>
+<p>To pass, said of a period of time.</p>
+<ol><li>Six months must <em>elapse</em> before you can reapply.</li><li>Two hours had <em>elapsed</em> before anyone noticed.</li><li>The <em>elapsed</em> time is shown at the bottom of the screen.</li></ol>
+<hr>
+<h3 id="culminate">culminate<a class="hash" href="#culminate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌlmɪneɪt/ &middot; <em>KUL-muh-nayt</em></dd><dt>Русский</dt><dd>завершаться, достигать кульминации, закончиться (чем-л.)</dd><dt>Forms</dt><dd><em>culminate</em> &middot; <em>culminated</em> &middot; <em>culminated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>culminates</em> &middot; <strong>-ing form:</strong> <em>culminating</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>It takes <em>in</em> or <em>with</em>, never a direct object: <em>culminated in a lawsuit</em>.</dd></dl>
+<p>To reach the final and highest point of a process.</p>
+<ol><li>The festival <em>culminates</em> in a parade downtown.</li><li>Years of work <em>culminated</em> in a single afternoon.</li><li>The tour is <em>culminating</em> with two nights in Chicago.</li></ol>
+<hr>
+<h3 id="interject">interject<a class="hash" href="#interject" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntərˈdʒɛkt/ &middot; <em>in-tur-JEKT</em></dd><dt>Русский</dt><dd>вставлять (реплику), вмешиваться в разговор, перебивать</dd><dt>Forms</dt><dd><em>interject</em> &middot; <em>interjected</em> &middot; <em>interjected</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>interjects</em> &middot; <strong>-ing form:</strong> <em>interjecting</em></dd><dt>Transitivity</dt><dd>both — transitive (interject a question), intransitive (may I interject?)</dd></dl>
+<p>To say something suddenly in the middle of someone else's speech.</p>
+<ol><li>May I <em>interject</em> for one second?</li><li>He <em>interjected</em> a question halfway through.</li><li>She kept <em>interjecting</em> until the chair cut her off.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -80,7 +80,7 @@ To cook the surface of food until it turns brown.
 
 ### caramelize
 
-**Pronunciation:** /ˈkɛrəməlaɪz/ &middot; *KEHR-uh-muh-lyz*
+**Pronunciation:** /ˈkɛrəməlaɪz/ &middot; *KER-uh-muh-lyz*
 **Русский:** карамелизовать, карамелизоваться
 **Forms:** *caramelize* &middot; *caramelized* &middot; *caramelized*
 **Verb class:** regular

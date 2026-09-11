@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: weather and natural processes</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-weather-and-natural-processes">Core verbs: weather and natural processes<a class="hash" href="#core-verbs-weather-and-natural-processes" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of weather and natural processes — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="sleet">sleet<a class="hash" href="#sleet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sliːt/ &middot; <em>SLEET</em></dd><dt>Русский</dt><dd>идти (о дожде со снегом), сыпать ледяной крупой</dd><dt>Forms</dt><dd><em>sleet</em> &middot; <em>sleeted</em> &middot; <em>sleeted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>sleets</em> &middot; <strong>-ing form:</strong> <em>sleeting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Like <em>rain</em> and <em>snow</em>, it takes the empty subject <em>it</em>: <em>It is sleeting</em>, never <em>The sky sleets</em>.</dd></dl>
+<p>To fall as a mix of rain and partly frozen snow.</p>
+<ol><li>It usually <em>sleets</em> here for a day before it turns to real snow.</li><li>It <em>sleeted</em> the whole way to Chicago.</li><li>By noon it was <em>sleeting</em> hard and the roads were glazing over.</li></ol>
+<hr>
+<h3 id="shower">shower<a class="hash" href="#shower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃaʊər/ &middot; <em>SHOW-ur</em></dd><dt>Русский</dt><dd>идти (о кратком дожде); осыпать, засыпать (чем-л.)</dd><dt>Forms</dt><dd><em>shower</em> &middot; <em>showered</em> &middot; <em>showered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>showers</em> &middot; <strong>-ing form:</strong> <em>showering</em></dd><dt>Transitivity</dt><dd>both — transitive (ash <em>showered</em> the rooftops), intransitive (it <em>showered</em> twice)</dd></dl>
+<p>To rain briefly, or to fall on something in a thick scatter.</p>
+<ol><li>In Florida it <em>showers</em> nearly every afternoon in the summer.</li><li>It <em>showered</em> twice while we were driving home.</li><li>Ash was still <em>showering</em> the rooftops a day after the eruption.</li></ol>
+<hr>
+<h3 id="mist">mist<a class="hash" href="#mist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪst/ &middot; <em>MIST</em></dd><dt>Русский</dt><dd>запотевать, запотеть; опрыскивать, опрыскать</dd><dt>Forms</dt><dd><em>mist</em> &middot; <em>misted</em> &middot; <em>misted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>mists</em> &middot; <strong>-ing form:</strong> <em>misting</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>mist</em> the plants), intransitive (the mirror <em>misted</em>)</dd></dl>
+<p>To cover something with a fine spray of water, or to become covered with one.</p>
+<ol><li>I <em>mist</em> the houseplants twice a week in winter.</li><li>The bathroom mirror <em>misted</em> the second she turned on the water.</li><li>A fine rain was <em>misting</em> the whole valley by noon.</li></ol>
+<hr>
+<h3 id="thunder">thunder<a class="hash" href="#thunder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθʌndər/ &middot; <em>THUN-dur</em></dd><dt>Русский</dt><dd>греметь (о громе), грохотать</dd><dt>Forms</dt><dd><em>thunder</em> &middot; <em>thundered</em> &middot; <em>thundered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>thunders</em> &middot; <strong>-ing form:</strong> <em>thundering</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The weather sense takes the empty subject <em>it</em>: <em>It thundered for an hour</em>.</dd></dl>
+<p>To make the deep rolling noise that follows lightning, or a noise like it.</p>
+<ol><li>When it <em>thunders</em>, the dog hides under the bed.</li><li>It <em>thundered</em> all night and nobody slept.</li><li>Trucks were <em>thundering</em> past the house every few minutes.</li></ol>
+<hr>
+<h3 id="patter">patter<a class="hash" href="#patter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpætər/ &middot; <em>PAT-ur</em></dd><dt>Русский</dt><dd>барабанить, стучать (о каплях дождя)</dd><dt>Forms</dt><dd><em>patter</em> &middot; <em>pattered</em> &middot; <em>pattered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>patters</em> &middot; <strong>-ing form:</strong> <em>pattering</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To fall in light, quick taps, the way rain does on a roof.</p>
+<ol><li>Rain <em>patters</em> on the metal roof all through the fall.</li><li>Hail <em>pattered</em> against the windows for a minute and stopped.</li><li>We fell asleep to the sound of rain <em>pattering</em> on the tent.</li></ol>
+<hr>
+<h3 id="pelt">pelt<a class="hash" href="#pelt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɛlt/ &middot; <em>PELT</em></dd><dt>Русский</dt><dd>хлестать, барабанить (о дожде); забрасывать, забросать (чем-л.)</dd><dt>Forms</dt><dd><em>pelt</em> &middot; <em>pelted</em> &middot; <em>pelted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pelts</em> &middot; <strong>-ing form:</strong> <em>pelting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To strike something again and again with rain, hail, or thrown objects.</p>
+<ol><li>Hard rain <em>pelts</em> the west side of the house every winter.</li><li>Hail <em>pelted</em> the car so loudly that we had to pull over.</li><li>The kids were <em>pelting</em> each other with snowballs.</li></ol>
+<hr>
+<h3 id="lash">lash<a class="hash" href="#lash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læʃ/ &middot; <em>LASH</em></dd><dt>Русский</dt><dd>хлестать, обрушиваться (на что-л.)</dd><dt>Forms</dt><dd><em>lash</em> &middot; <em>lashed</em> &middot; <em>lashed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>lashes</em> &middot; <strong>-ing form:</strong> <em>lashing</em></dd><dt>Transitivity</dt><dd>both — transitive (rain <em>lashed</em> the windows), intransitive (waves <em>lashed</em> against the pier)</dd><dt>Contrast</dt><dd>Ends in <em>-sh</em>, so the third-person form adds <em>-es</em>: <em>lashes</em>.</dd></dl>
+<p>To hit something hard and repeatedly, the way wind-driven rain does.</p>
+<ol><li>Winter storms <em>lash</em> this stretch of coast every year.</li><li>Rain <em>lashed</em> the windows until well after midnight.</li><li>Wind-driven rain was <em>lashing</em> the tents by the time we got back.</li></ol>
+<hr>
+<h3 id="pound">pound<a class="hash" href="#pound" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/paʊnd/ &middot; <em>POWND</em></dd><dt>Русский</dt><dd>колотить, бить; обрушиваться (волнами, дождём)</dd><dt>Forms</dt><dd><em>pound</em> &middot; <em>pounded</em> &middot; <em>pounded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pounds</em> &middot; <strong>-ing form:</strong> <em>pounding</em></dd><dt>Transitivity</dt><dd>both — transitive (waves <em>pound</em> the seawall), intransitive (the rain <em>pounded</em> down)</dd></dl>
+<p>To hit something hard, heavily, and over and over.</p>
+<ol><li>Surf <em>pounds</em> the seawall whenever a storm comes through.</li><li>Rain <em>pounded</em> the roof for three straight hours.</li><li>Waves were still <em>pounding</em> the beach a day after the hurricane.</li></ol>
+<hr>
+<h3 id="blanket">blanket<a class="hash" href="#blanket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblæŋkɪt/ &middot; <em>BLANG-kit</em></dd><dt>Русский</dt><dd>покрывать, покрыть (сплошным слоем); укрывать, укрыть</dd><dt>Forms</dt><dd><em>blanket</em> &middot; <em>blanketed</em> &middot; <em>blanketed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>blankets</em> &middot; <strong>-ing form:</strong> <em>blanketing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Stress is on the first syllable, so the t is not doubled: <em>blanketed</em>, <em>blanketing</em> — compare <em>permit → permitted</em>.</dd></dl>
+<p>To cover a whole area in an even layer of something.</p>
+<ol><li>Fog <em>blankets</em> the bay almost every morning in June.</li><li>Six inches of snow <em>blanketed</em> the city overnight.</li><li>Ash from the fire was <em>blanketing</em> cars all over town.</li></ol>
+<hr>
+<h3 id="bury">bury<a class="hash" href="#bury" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛri/ &middot; <em>BER-ee</em></dd><dt>Русский</dt><dd>засыпать (снегом), заносить; хоронить, похоронить</dd><dt>Forms</dt><dd><em>bury</em> &middot; <em>buried</em> &middot; <em>buried</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>buries</em> &middot; <strong>-ing form:</strong> <em>burying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Spelled with a u but pronounced like <em>berry</em>: BER-ee. The y becomes ie in <em>buries</em> and <em>buried</em>, but stays in <em>burying</em>.</dd></dl>
+<p>To cover something completely so that it cannot be seen.</p>
+<ol><li>Drifts <em>bury</em> the mailbox every January.</li><li>The avalanche <em>buried</em> two cabins on the lower slope.</li><li>Half the town is still <em>buried</em> under three feet of snow.</li></ol>
+<hr>
+<h3 id="cloud">cloud<a class="hash" href="#cloud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klaʊd/ &middot; <em>KLOWD</em></dd><dt>Русский</dt><dd>заволакивать(ся) облаками, затуманивать(ся)</dd><dt>Forms</dt><dd><em>cloud</em> &middot; <em>clouded</em> &middot; <em>clouded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>clouds</em> &middot; <strong>-ing form:</strong> <em>clouding</em></dd><dt>Transitivity</dt><dd>both — transitive (steam <em>clouded</em> the mirror), intransitive (the sky <em>clouded</em>)</dd></dl>
+<p>To fill or cover something with cloud, steam, or smoke so that it is hard to see through.</p>
+<ol><li>Steam from the kettle <em>clouds</em> the window in seconds.</li><li>The sky <em>clouded</em> just after noon and the wind picked up.</li><li>Smoke from the wildfires has <em>clouded</em> the whole valley.</li></ol>
+<hr>
+<h3 id="obscure">obscure<a class="hash" href="#obscure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əbˈskjʊr/ &middot; <em>uhb-SKYOOR</em></dd><dt>Русский</dt><dd>заслонять, заслонить; скрывать, скрыть из виду</dd><dt>Forms</dt><dd><em>obscure</em> &middot; <em>obscured</em> &middot; <em>obscured</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>obscures</em> &middot; <strong>-ing form:</strong> <em>obscuring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To block something from view or make it hard to see.</p>
+<ol><li>Low clouds <em>obscure</em> the summit most mornings.</li><li>Smoke <em>obscured</em> the sun for a week.</li><li>The moon was already <em>obscuring</em> the edge of the sun when we looked up.</li></ol>
+<hr>
+<h3 id="dissipate">dissipate<a class="hash" href="#dissipate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪsəpeɪt/ &middot; <em>DIS-uh-payt</em></dd><dt>Русский</dt><dd>рассеиваться, рассеяться; рассеивать, рассеять</dd><dt>Forms</dt><dd><em>dissipate</em> &middot; <em>dissipated</em> &middot; <em>dissipated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>dissipates</em> &middot; <strong>-ing form:</strong> <em>dissipating</em></dd><dt>Transitivity</dt><dd>both — transitive (the sun <em>dissipated</em> the fog), intransitive (the storm <em>dissipated</em>)</dd><dt>Contrast</dt><dd>Double s, single p: <em>dissipate</em>.</dd></dl>
+<p>To break up and slowly disappear.</p>
+<ol><li>Morning fog usually <em>dissipates</em> by ten o'clock.</li><li>The storm <em>dissipated</em> before it ever reached land.</li><li>The heat of the day was slowly <em>dissipating</em>.</li></ol>
+<hr>
+<h3 id="loom">loom<a class="hash" href="#loom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/luːm/ &middot; <em>LOOM</em></dd><dt>Русский</dt><dd>нависать, надвигаться; маячить</dd><dt>Forms</dt><dd><em>loom</em> &middot; <em>loomed</em> &middot; <em>loomed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>looms</em> &middot; <strong>-ing form:</strong> <em>looming</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Usually followed by <em>over</em> or <em>above</em>: <em>clouds loomed over the ridge</em>.</dd></dl>
+<p>To appear large and threatening, especially close overhead or on the horizon.</p>
+<ol><li>Thunderheads <em>loom</em> over the plains almost every July afternoon.</li><li>A wall of dust <em>loomed</em> on the horizon by four o'clock.</li><li>With a blizzard <em>looming</em>, the schools let out early.</li></ol>
+<hr>
+<h3 id="brace">brace<a class="hash" href="#brace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/breɪs/ &middot; <em>BRAYS</em></dd><dt>Русский</dt><dd>готовиться, приготовиться (к удару стихии); укреплять, укрепить</dd><dt>Forms</dt><dd><em>brace</em> &middot; <em>braced</em> &middot; <em>braced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>braces</em> &middot; <strong>-ing form:</strong> <em>bracing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>brace</em> the shed), intransitive (they <em>braced</em> for the storm)</dd><dt>Contrast</dt><dd>Takes <em>for</em> in the sense of getting ready: <em>brace for a storm</em>.</dd></dl>
+<p>To get ready for something hard that is about to hit, or to make a structure stronger.</p>
+<ol><li>Coastal towns <em>brace</em> for hurricanes every fall.</li><li>We <em>braced</em> the shed with two-by-fours before the wind hit.</li><li>The city is <em>bracing</em> for a foot of snow tonight.</li></ol>
+<hr>
+<h3 id="strand">strand<a class="hash" href="#strand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/strænd/ &middot; <em>STRAND</em></dd><dt>Русский</dt><dd>оставлять, оставить отрезанным (от помощи); блокировать</dd><dt>Forms</dt><dd><em>strand</em> &middot; <em>stranded</em> &middot; <em>stranded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>strands</em> &middot; <strong>-ing form:</strong> <em>stranding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To leave someone stuck in a place they cannot get out of.</p>
+<ol><li>One good storm can <em>strand</em> hundreds of travelers at the airport.</li><li>The flood <em>stranded</em> twelve families on the north side of the river.</li><li>We were <em>stranded</em> in Denver for two days by the blizzard.</li></ol>
+<hr>
+<h3 id="slam">slam<a class="hash" href="#slam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slæm/ &middot; <em>SLAM</em></dd><dt>Русский</dt><dd>обрушиваться, обрушиться (на); с силой ударять</dd><dt>Forms</dt><dd><em>slam</em> &middot; <em>slammed</em> &middot; <em>slammed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>slams</em> &middot; <strong>-ing form:</strong> <em>slamming</em></dd><dt>Transitivity</dt><dd>both — transitive (the wind <em>slammed</em> the door), intransitive (the storm <em>slammed</em> into the coast)</dd><dt>Contrast</dt><dd>One vowel plus one final consonant, so the m doubles: <em>slammed</em>, <em>slamming</em>.</dd></dl>
+<p>To hit something with sudden violent force.</p>
+<ol><li>When a nor'easter <em>slams</em> the coast, the ferries stop running.</li><li>The hurricane <em>slammed</em> into Louisiana just after midnight.</li><li>Wind was <em>slamming</em> the screen door all night.</li></ol>
+<hr>
+<h3 id="barrel">barrel<a class="hash" href="#barrel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛrəl/ &middot; <em>BER-uhl</em></dd><dt>Русский</dt><dd>нестись, мчаться (на большой скорости)</dd><dt>Forms</dt><dd><em>barrel</em> &middot; <em>barreled</em> &middot; <em>barreled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>barrels</em> &middot; <strong>-ing form:</strong> <em>barreling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>American English keeps one l: <em>barreled</em>, <em>barreling</em>; British English writes <em>barrelled</em>.</dd></dl>
+<p>To move fast and without stopping, especially toward something.</p>
+<ol><li>Storms <em>barrel</em> across the plains from the west all spring.</li><li>The system <em>barreled</em> toward the coast at thirty miles an hour.</li><li>A semi came <em>barreling</em> down the icy hill behind us.</li></ol>
+<hr>
+<h3 id="gust">gust<a class="hash" href="#gust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡʌst/ &middot; <em>GUST</em></dd><dt>Русский</dt><dd>дуть порывами, налетать порывами</dd><dt>Forms</dt><dd><em>gust</em> &middot; <em>gusted</em> &middot; <em>gusted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>gusts</em> &middot; <strong>-ing form:</strong> <em>gusting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Speeds take <em>to</em>: <em>the wind gusted to 60 miles an hour</em>.</dd></dl>
+<p>To blow in sudden short bursts of strong wind.</p>
+<ol><li>The wind <em>gusts</em> hardest in the late afternoon.</li><li>It <em>gusted</em> to sixty miles an hour on the bridge.</li><li>Wind was <em>gusting</em> so hard the door pulled out of my hand.</li></ol>
+<hr>
+<h3 id="buffet">buffet<a class="hash" href="#buffet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌfɪt/ &middot; <em>BUF-it</em></dd><dt>Русский</dt><dd>трепать, сотрясать (о ветре); бить, ударять</dd><dt>Forms</dt><dd><em>buffet</em> &middot; <em>buffeted</em> &middot; <em>buffeted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>buffets</em> &middot; <strong>-ing form:</strong> <em>buffeting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Not the same word as the <em>buffet</em> you eat at (buh-FAY): this verb is BUF-it.</dd></dl>
+<p>To strike and shake something repeatedly, the way strong wind does.</p>
+<ol><li>High winds <em>buffet</em> the bridge all winter long.</li><li>Turbulence <em>buffeted</em> the plane for twenty minutes.</li><li>Waves kept <em>buffeting</em> the little boat until it broke loose.</li></ol>
+<hr>
+<h3 id="billow">billow<a class="hash" href="#billow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪloʊ/ &middot; <em>BIL-oh</em></dd><dt>Русский</dt><dd>клубиться, вздыматься</dd><dt>Forms</dt><dd><em>billow</em> &middot; <em>billowed</em> &middot; <em>billowed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>billows</em> &middot; <strong>-ing form:</strong> <em>billowing</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To rise and roll outward in big soft masses, like smoke or a sail in the wind.</p>
+<ol><li>Steam <em>billows</em> out of the vents on cold mornings.</li><li>Black smoke <em>billowed</em> over the ridge for hours.</li><li>The curtains were <em>billowing</em> in the wind off the lake.</li></ol>
+<hr>
+<h3 id="waft">waft<a class="hash" href="#waft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɑːft/ &middot; <em>WAHFT</em></dd><dt>Русский</dt><dd>доноситься, разноситься (о запахе, звуке)</dd><dt>Forms</dt><dd><em>waft</em> &middot; <em>wafted</em> &middot; <em>wafted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>wafts</em> &middot; <strong>-ing form:</strong> <em>wafting</em></dd><dt>Transitivity</dt><dd>both — transitive (the breeze <em>wafted</em> the smell inside), intransitive (smoke <em>wafted</em> over the field)</dd></dl>
+<p>To move gently through the air, or to carry something gently through it.</p>
+<ol><li>The smell of woodsmoke <em>wafts</em> through the whole neighborhood in October.</li><li>Ash <em>wafted</em> down for hours after the fire.</li><li>A cool breeze was <em>wafting</em> off the lake.</li></ol>
+<hr>
+<h3 id="spiral">spiral<a class="hash" href="#spiral" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspaɪrəl/ &middot; <em>SPY-ruhl</em></dd><dt>Русский</dt><dd>двигаться по спирали, закручиваться спиралью</dd><dt>Forms</dt><dd><em>spiral</em> &middot; <em>spiraled</em> &middot; <em>spiraled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>spirals</em> &middot; <strong>-ing form:</strong> <em>spiraling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>American English keeps one l: <em>spiraled</em>, <em>spiraling</em>; British English writes <em>spiralled</em>.</dd></dl>
+<p>To move in a curve that winds around a center, going up or down.</p>
+<ol><li>Warm air <em>spirals</em> upward and gives the storm its shape.</li><li>A hawk <em>spiraled</em> over the field for ten minutes.</li><li>Smoke was <em>spiraling</em> out of the chimney into a still sky.</li></ol>
+<hr>
+<h3 id="funnel">funnel<a class="hash" href="#funnel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʌnəl/ &middot; <em>FUN-uhl</em></dd><dt>Русский</dt><dd>устремляться (через узкий проход); направлять, направить</dd><dt>Forms</dt><dd><em>funnel</em> &middot; <em>funneled</em> &middot; <em>funneled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>funnels</em> &middot; <strong>-ing form:</strong> <em>funneling</em></dd><dt>Transitivity</dt><dd>both — transitive (the canyon <em>funnels</em> the wind), intransitive (cold air <em>funneled</em> down the valley)</dd><dt>Contrast</dt><dd>American English keeps one l: <em>funneled</em>, <em>funneling</em>; British English writes <em>funnelled</em>.</dd></dl>
+<p>To move through a narrow space, or to push something through one.</p>
+<ol><li>The canyon <em>funnels</em> wind straight into town.</li><li>Rain <em>funneled</em> off the roof into the barrels.</li><li>Cold air was <em>funneling</em> down the valley all night.</li></ol>
+<hr>
+<h3 id="linger">linger<a class="hash" href="#linger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪŋɡər/ &middot; <em>LING-gur</em></dd><dt>Русский</dt><dd>задерживаться, задержаться; сохраняться (о тумане, запахе)</dd><dt>Forms</dt><dd><em>linger</em> &middot; <em>lingered</em> &middot; <em>lingered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>lingers</em> &middot; <strong>-ing form:</strong> <em>lingering</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To stay somewhere longer than you would expect, fading only slowly.</p>
+<ol><li>Cold air <em>lingers</em> in the valley long after sunrise.</li><li>The smell of smoke <em>lingered</em> for days.</li><li>Snow was still <em>lingering</em> on the north slopes in June.</li></ol>
+<hr>
+<h3 id="abate">abate<a class="hash" href="#abate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈbeɪt/ &middot; <em>uh-BAYT</em></dd><dt>Русский</dt><dd>стихать, стихнуть; ослабевать, ослабеть</dd><dt>Forms</dt><dd><em>abate</em> &middot; <em>abated</em> &middot; <em>abated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>abates</em> &middot; <strong>-ing form:</strong> <em>abating</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To become much less strong or less severe.</p>
+<ol><li>Storms like this rarely <em>abate</em> before morning.</li><li>The wind <em>abated</em> right around dawn.</li><li>With the flooding finally <em>abating</em>, crews started clearing the roads.</li></ol>
+<hr>
+<h3 id="subside">subside<a class="hash" href="#subside" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səbˈsaɪd/ &middot; <em>suhb-SYD</em></dd><dt>Русский</dt><dd>спадать, спасть; утихать, утихнуть; оседать (о почве)</dd><dt>Forms</dt><dd><em>subside</em> &middot; <em>subsided</em> &middot; <em>subsided</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>subsides</em> &middot; <strong>-ing form:</strong> <em>subsiding</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To sink back down to a normal level, or to grow quiet again.</p>
+<ol><li>Floodwaters usually <em>subside</em> within a day or two.</li><li>The shaking <em>subsided</em> after about thirty seconds.</li><li>Once the water had <em>subsided</em>, we could finally see the damage.</li></ol>
+<hr>
+<h3 id="solidify">solidify<a class="hash" href="#solidify" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈlɪdəfaɪ/ &middot; <em>suh-LID-uh-fy</em></dd><dt>Русский</dt><dd>затвердевать, затвердеть; застывать, застыть</dd><dt>Forms</dt><dd><em>solidify</em> &middot; <em>solidified</em> &middot; <em>solidified</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>solidifies</em> &middot; <strong>-ing form:</strong> <em>solidifying</em></dd><dt>Transitivity</dt><dd>both — transitive (cold <em>solidifies</em> the fat), intransitive (the lava <em>solidified</em>)</dd><dt>Contrast</dt><dd>The y becomes ie before -es and -ed: <em>solidifies</em>, <em>solidified</em>, but <em>solidifying</em>.</dd></dl>
+<p>To become hard and solid, or to make something do that.</p>
+<ol><li>Lava <em>solidifies</em> into black rock as soon as it hits the water.</li><li>The grease <em>solidified</em> in the cold pan overnight.</li><li>New land is <em>solidifying</em> where the flow reaches the sea.</li></ol>
+<hr>
+<h3 id="liquefy">liquefy<a class="hash" href="#liquefy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪkwəfaɪ/ &middot; <em>LIK-wuh-fy</em></dd><dt>Русский</dt><dd>превращать(ся) в жидкость, сжижать(ся)</dd><dt>Forms</dt><dd><em>liquefy</em> &middot; <em>liquefied</em> &middot; <em>liquefied</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>liquefies</em> &middot; <strong>-ing form:</strong> <em>liquefying</em></dd><dt>Transitivity</dt><dd>both — transitive (heat <em>liquefies</em> the wax), intransitive (the soil <em>liquefied</em>)</dd><dt>Contrast</dt><dd>Spelled <em>liquefy</em>, not liquify — one of the most misspelled verbs in English.</dd></dl>
+<p>To turn into liquid, or to turn something into liquid.</p>
+<ol><li>Heat that intense <em>liquefies</em> the plastic siding.</li><li>The quake <em>liquefied</em> the wet soil under the houses.</li><li>The ice was <em>liquefying</em> faster than the drains could take it.</li></ol>
+<hr>
+<h3 id="vaporize">vaporize<a class="hash" href="#vaporize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈveɪpəraɪz/ &middot; <em>VAY-puh-ryz</em></dd><dt>Русский</dt><dd>испаряться, испариться; превращать в пар</dd><dt>Forms</dt><dd><em>vaporize</em> &middot; <em>vaporized</em> &middot; <em>vaporized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>vaporizes</em> &middot; <strong>-ing form:</strong> <em>vaporizing</em></dd><dt>Transitivity</dt><dd>both — transitive (the heat <em>vaporized</em> the water), intransitive (the puddles <em>vaporized</em>)</dd><dt>Contrast</dt><dd>American spelling <em>vaporize</em>; British English writes <em>vaporise</em>.</dd></dl>
+<p>To turn from liquid into gas, or to make something do that.</p>
+<ol><li>Heat like that <em>vaporizes</em> standing water in minutes.</li><li>The puddles <em>vaporized</em> before the sun was even high.</li><li>Seawater is constantly <em>vaporizing</em> and falling again as rain.</li></ol>
+<hr>
+<h3 id="radiate">radiate<a class="hash" href="#radiate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪdieɪt/ &middot; <em>RAY-dee-ayt</em></dd><dt>Русский</dt><dd>излучать, испускать; расходиться лучами</dd><dt>Forms</dt><dd><em>radiate</em> &middot; <em>radiated</em> &middot; <em>radiated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>radiates</em> &middot; <strong>-ing form:</strong> <em>radiating</em></dd><dt>Transitivity</dt><dd>both — transitive (the stove <em>radiates</em> heat), intransitive (cracks <em>radiated</em> from the center)</dd></dl>
+<p>To send out heat or light in all directions, or to spread out from a center.</p>
+<ol><li>Dark pavement <em>radiates</em> heat well into the night.</li><li>The stones <em>radiated</em> warmth long after the fire went out.</li><li>Cracks were <em>radiating</em> from the spot where the ice broke.</li></ol>
+<hr>
+<h3 id="swelter">swelter<a class="hash" href="#swelter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɛltər/ &middot; <em>SWEL-tur</em></dd><dt>Русский</dt><dd>изнывать от жары, страдать от зноя</dd><dt>Forms</dt><dd><em>swelter</em> &middot; <em>sweltered</em> &middot; <em>sweltered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>swelters</em> &middot; <strong>-ing form:</strong> <em>sweltering</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To suffer from heat that is heavy and damp.</p>
+<ol><li>The whole Midwest <em>swelters</em> through August.</li><li>We <em>sweltered</em> in the car until the air conditioning finally kicked in.</li><li>It was a <em>sweltering</em> afternoon with no breeze at all.</li></ol>
+<hr>
+<h3 id="dehydrate">dehydrate<a class="hash" href="#dehydrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diːˈhaɪdreɪt/ &middot; <em>dee-HY-drayt</em></dd><dt>Русский</dt><dd>обезвоживать(ся); сушить, высушить (продукты)</dd><dt>Forms</dt><dd><em>dehydrate</em> &middot; <em>dehydrated</em> &middot; <em>dehydrated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>dehydrates</em> &middot; <strong>-ing form:</strong> <em>dehydrating</em></dd><dt>Transitivity</dt><dd>both — transitive (the heat <em>dehydrates</em> you), intransitive (two hikers <em>dehydrated</em>)</dd></dl>
+<p>To lose too much water from the body, or to dry something out completely.</p>
+<ol><li>Dry mountain air <em>dehydrates</em> you faster than you think.</li><li>Two of the hikers <em>dehydrated</em> badly in the afternoon heat.</li><li>She was <em>dehydrating</em> apples for the winter.</li></ol>
+<hr>
+<h3 id="parch">parch<a class="hash" href="#parch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːrtʃ/ &middot; <em>PARCH</em></dd><dt>Русский</dt><dd>иссушать, иссушить; пересыхать, пересохнуть</dd><dt>Forms</dt><dd><em>parch</em> &middot; <em>parched</em> &middot; <em>parched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>parches</em> &middot; <strong>-ing form:</strong> <em>parching</em></dd><dt>Transitivity</dt><dd>both — transitive (the sun <em>parched</em> the fields), intransitive (the ground <em>parches</em>)</dd><dt>Contrast</dt><dd>Ends in <em>-ch</em>, so the third-person form adds <em>-es</em>: <em>parches</em>.</dd></dl>
+<p>To dry something out completely with heat.</p>
+<ol><li>Weeks without rain <em>parch</em> the whole valley.</li><li>The sun <em>parched</em> the fields by early July.</li><li>The ground is <em>parched</em> and cracked right down to the fence line.</li></ol>
+<hr>
+<h3 id="winterize">winterize<a class="hash" href="#winterize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪntəraɪz/ &middot; <em>WIN-tuh-ryz</em></dd><dt>Русский</dt><dd>готовить к зиме, утеплять на зиму</dd><dt>Forms</dt><dd><em>winterize</em> &middot; <em>winterized</em> &middot; <em>winterized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>winterizes</em> &middot; <strong>-ing form:</strong> <em>winterizing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To get a house, car, or boat ready to survive winter weather.</p>
+<ol><li>We <em>winterize</em> the cabin every October.</li><li>They <em>winterized</em> the pipes a week before the hard freeze.</li><li>He is out back <em>winterizing</em> the boat.</li></ol>
+<hr>
+<h3 id="dim">dim<a class="hash" href="#dim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪm/ &middot; <em>DIM</em></dd><dt>Русский</dt><dd>тускнеть, потускнеть; приглушать, приглушить (свет)</dd><dt>Forms</dt><dd><em>dim</em> &middot; <em>dimmed</em> &middot; <em>dimmed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>dims</em> &middot; <strong>-ing form:</strong> <em>dimming</em></dd><dt>Transitivity</dt><dd>both — transitive (smoke <em>dims</em> the sun), intransitive (the light <em>dimmed</em>)</dd><dt>Contrast</dt><dd>One vowel plus one final consonant, so the m doubles: <em>dimmed</em>, <em>dimming</em>.</dd></dl>
+<p>To become less bright, or to make something less bright.</p>
+<ol><li>Smoke <em>dims</em> the sun for weeks during fire season.</li><li>The light <em>dimmed</em> as the eclipse reached its peak.</li><li>The sky was <em>dimming</em> fast and we still had a mile to go.</li></ol>
+<hr>
+<h3 id="darken">darken<a class="hash" href="#darken" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːrkən/ &middot; <em>DAR-kuhn</em></dd><dt>Русский</dt><dd>темнеть, потемнеть; затемнять, затемнить</dd><dt>Forms</dt><dd><em>darken</em> &middot; <em>darkened</em> &middot; <em>darkened</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>darkens</em> &middot; <strong>-ing form:</strong> <em>darkening</em></dd><dt>Transitivity</dt><dd>both — transitive (clouds <em>darkened</em> the room), intransitive (the sky <em>darkened</em>)</dd></dl>
+<p>To become dark, or to make something dark.</p>
+<ol><li>The sky <em>darkens</em> long before the rain actually arrives.</li><li>Clouds <em>darkened</em> the whole afternoon.</li><li>It was <em>darkening</em> in the west, so we packed up and left.</li></ol>
+<hr>
+<h3 id="brighten">brighten<a class="hash" href="#brighten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbraɪtən/ &middot; <em>BRY-tuhn</em></dd><dt>Русский</dt><dd>светлеть, проясняться; делать ярче</dd><dt>Forms</dt><dd><em>brighten</em> &middot; <em>brightened</em> &middot; <em>brightened</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>brightens</em> &middot; <strong>-ing form:</strong> <em>brightening</em></dd><dt>Transitivity</dt><dd>both — transitive (sun <em>brightens</em> the room), intransitive (the sky <em>brightened</em>)</dd></dl>
+<p>To become brighter or clearer, or to make something brighter.</p>
+<ol><li>The sky usually <em>brightens</em> right after a summer storm.</li><li>The afternoon <em>brightened</em> once the fog burned off.</li><li>The horizon was <em>brightening</em> by five in the morning.</li></ol>
+<hr>
+<h3 id="lighten">lighten<a class="hash" href="#lighten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪtən/ &middot; <em>LY-tuhn</em></dd><dt>Русский</dt><dd>светлеть, посветлеть; облегчать, облегчить</dd><dt>Forms</dt><dd><em>lighten</em> &middot; <em>lightened</em> &middot; <em>lightened</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>lightens</em> &middot; <strong>-ing form:</strong> <em>lightening</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>lighten</em> the pack), intransitive (the sky <em>lightened</em>)</dd><dt>Contrast</dt><dd><em>lightening</em> (getting lighter) is not <em>lightning</em> (the flash in a storm) — one letter apart.</dd></dl>
+<p>To become lighter in color or in weight, or to make something lighter.</p>
+<ol><li>The sky <em>lightens</em> around six this time of year.</li><li>The clouds <em>lightened</em> and the rain finally stopped.</li><li>The sky was just <em>lightening</em> when we set out.</li></ol>
+<hr>
+<h3 id="peak">peak<a class="hash" href="#peak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/piːk/ &middot; <em>PEEK</em></dd><dt>Русский</dt><dd>достигать максимума, достигать пика</dd><dt>Forms</dt><dd><em>peak</em> &middot; <em>peaked</em> &middot; <em>peaked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>peaks</em> &middot; <strong>-ing form:</strong> <em>peaking</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>peak</em> (highest point) sounds exactly like <em>peek</em> (to look quickly) and <em>pique</em> (to annoy).</dd></dl>
+<p>To reach the highest point before going back down.</p>
+<ol><li>The heat usually <em>peaks</em> around four in the afternoon.</li><li>The river <em>peaked</em> at twenty-two feet on Tuesday.</li><li>Temperatures have been <em>peaking</em> a little later every day.</li></ol>
+<hr>
+<h3 id="crystallize">crystallize<a class="hash" href="#crystallize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪstəlaɪz/ &middot; <em>KRIS-tuh-lyz</em></dd><dt>Русский</dt><dd>кристаллизоваться; засахариваться</dd><dt>Forms</dt><dd><em>crystallize</em> &middot; <em>crystallized</em> &middot; <em>crystallized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>crystallizes</em> &middot; <strong>-ing form:</strong> <em>crystallizing</em></dd><dt>Transitivity</dt><dd>both — transitive (cold <em>crystallizes</em> the honey), intransitive (frost <em>crystallized</em> on the glass)</dd><dt>Contrast</dt><dd>Double l even in American spelling: <em>crystallize</em>; British English writes <em>crystallise</em>.</dd></dl>
+<p>To form crystals, or to make something form them.</p>
+<ol><li>Frost <em>crystallizes</em> on the windows overnight.</li><li>The honey <em>crystallized</em> in the cold pantry.</li><li>Ice was <em>crystallizing</em> along the whole edge of the pond.</li></ol>
+<hr>
+<h3 id="inundate">inundate<a class="hash" href="#inundate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnəndeɪt/ &middot; <em>IN-uhn-dayt</em></dd><dt>Русский</dt><dd>затоплять, затопить; заваливать (просьбами)</dd><dt>Forms</dt><dd><em>inundate</em> &middot; <em>inundated</em> &middot; <em>inundated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>inundates</em> &middot; <strong>-ing form:</strong> <em>inundating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cover a place completely with water, or to overwhelm someone with too much of something.</p>
+<ol><li>A high tide plus heavy rain <em>inundates</em> the low streets every fall.</li><li>The storm surge <em>inundated</em> the entire first block.</li><li>The county office has been <em>inundated</em> with calls about the flooding.</li></ol>
+<hr>
+<h3 id="deluge">deluge<a class="hash" href="#deluge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛljuːdʒ/ &middot; <em>DEL-yooj</em></dd><dt>Русский</dt><dd>заливать, залить; обрушивать потоки (на)</dd><dt>Forms</dt><dd><em>deluge</em> &middot; <em>deluged</em> &middot; <em>deluged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>deluges</em> &middot; <strong>-ing form:</strong> <em>deluging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To flood a place with a huge amount of water, or with a huge amount of anything.</p>
+<ol><li>One slow-moving storm can <em>deluge</em> the valley with a month of rain.</li><li>Rain <em>deluged</em> the coast for three days straight.</li><li>The station was <em>deluged</em> with calls after the levee failed.</li></ol>
+<hr>
+<h3 id="swamp">swamp<a class="hash" href="#swamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɑːmp/ &middot; <em>SWAHMP</em></dd><dt>Русский</dt><dd>затоплять, затопить; заливать водой</dd><dt>Forms</dt><dd><em>swamp</em> &middot; <em>swamped</em> &middot; <em>swamped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>swamps</em> &middot; <strong>-ing form:</strong> <em>swamping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To fill or cover something with water so that it cannot function.</p>
+<ol><li>A wave like that can <em>swamp</em> a small boat in seconds.</li><li>The storm <em>swamped</em> dozens of basements on the east side.</li><li>We were <em>swamped</em> with water in about ten minutes.</li></ol>
+<hr>
+<h3 id="submerge">submerge<a class="hash" href="#submerge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səbˈmɜːrdʒ/ &middot; <em>suhb-MURJ</em></dd><dt>Русский</dt><dd>погружать(ся) под воду; затапливать, затопить</dd><dt>Forms</dt><dd><em>submerge</em> &middot; <em>submerged</em> &middot; <em>submerged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>submerges</em> &middot; <strong>-ing form:</strong> <em>submerging</em></dd><dt>Transitivity</dt><dd>both — transitive (the river <em>submerged</em> the road), intransitive (the seal <em>submerged</em>)</dd></dl>
+<p>To go under water, or to put something under water.</p>
+<ol><li>Spring floods <em>submerge</em> the whole river road.</li><li>The water <em>submerged</em> two blocks of downtown.</li><li>The bridge was completely <em>submerged</em> by morning.</li></ol>
+<hr>
+<h3 id="saturate">saturate<a class="hash" href="#saturate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsætʃəreɪt/ &middot; <em>SACH-uh-rayt</em></dd><dt>Русский</dt><dd>насыщать, насытить; пропитывать влагой</dd><dt>Forms</dt><dd><em>saturate</em> &middot; <em>saturated</em> &middot; <em>saturated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>saturates</em> &middot; <strong>-ing form:</strong> <em>saturating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To soak something so completely that it cannot hold any more liquid.</p>
+<ol><li>Two days of rain <em>saturate</em> the ground completely.</li><li>The storm <em>saturated</em> soil that was already soft.</li><li>With the hillside <em>saturated</em>, the county warned of slides.</li></ol>
+<hr>
+<h3 id="recede">recede<a class="hash" href="#recede" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsiːd/ &middot; <em>ri-SEED</em></dd><dt>Русский</dt><dd>отступать, отступить; спадать (о воде)</dd><dt>Forms</dt><dd><em>recede</em> &middot; <em>receded</em> &middot; <em>receded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>recedes</em> &middot; <strong>-ing form:</strong> <em>receding</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To move back from a position it had reached.</p>
+<ol><li>The tide <em>recedes</em> about a hundred yards along this beach.</li><li>The floodwater <em>receded</em> overnight and left a foot of mud.</li><li>The glacier has been <em>receding</em> for decades.</li></ol>
+<hr>
+<h3 id="ebb">ebb<a class="hash" href="#ebb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛb/ &middot; <em>EB</em></dd><dt>Русский</dt><dd>убывать, отступать (о приливе); ослабевать</dd><dt>Forms</dt><dd><em>ebb</em> &middot; <em>ebbed</em> &middot; <em>ebbed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ebbs</em> &middot; <strong>-ing form:</strong> <em>ebbing</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To flow back out, the way the tide does, or to grow slowly weaker.</p>
+<ol><li>The tide <em>ebbs</em> twice a day here.</li><li>The water <em>ebbed</em> and left the boats sitting in the mud.</li><li>The storm's strength was already <em>ebbing</em> by sunrise.</li></ol>
+<hr>
+<h3 id="crest">crest<a class="hash" href="#crest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krɛst/ &middot; <em>KREST</em></dd><dt>Русский</dt><dd>достигать высшей точки (о реке, волне); переваливать через гребень</dd><dt>Forms</dt><dd><em>crest</em> &middot; <em>crested</em> &middot; <em>crested</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>crests</em> &middot; <strong>-ing form:</strong> <em>cresting</em></dd><dt>Transitivity</dt><dd>both — transitive (we <em>crested</em> the hill), intransitive (the river <em>crested</em>)</dd></dl>
+<p>To reach the top or the highest level.</p>
+<ol><li>The river usually <em>crests</em> two days after the rain stops.</li><li>The Mississippi <em>crested</em> at forty-four feet on Thursday.</li><li>A wave was <em>cresting</em> right over the seawall.</li></ol>
+<hr>
+<h3 id="breach">breach<a class="hash" href="#breach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/briːtʃ/ &middot; <em>BREECH</em></dd><dt>Русский</dt><dd>прорывать, прорвать (дамбу); пробивать брешь</dd><dt>Forms</dt><dd><em>breach</em> &middot; <em>breached</em> &middot; <em>breached</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>breaches</em> &middot; <strong>-ing form:</strong> <em>breaching</em></dd><dt>Transitivity</dt><dd>both — transitive (water <em>breached</em> the levee), intransitive (the dike <em>breached</em>)</dd><dt>Contrast</dt><dd>Ends in <em>-ch</em>, so the third-person form adds <em>-es</em>: <em>breaches</em>.</dd></dl>
+<p>To break through a wall, a dam, or a barrier.</p>
+<ol><li>A surge that high can <em>breach</em> the levee in an hour.</li><li>Floodwater <em>breached</em> the dike in two places.</li><li>The dam had already been <em>breached</em> when the sirens went off.</li></ol>
+<hr>
+<h3 id="gush">gush<a class="hash" href="#gush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡʌʃ/ &middot; <em>GUSH</em></dd><dt>Русский</dt><dd>хлестать, хлынуть; бить струёй</dd><dt>Forms</dt><dd><em>gush</em> &middot; <em>gushed</em> &middot; <em>gushed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>gushes</em> &middot; <strong>-ing form:</strong> <em>gushing</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To flow out fast and in large amounts.</p>
+<ol><li>Water <em>gushes</em> out of the culvert after every storm.</li><li>Mud <em>gushed</em> down the hillside and across the road.</li><li>A broken main was <em>gushing</em> into the street all morning.</li></ol>
+<hr>
+<h3 id="ooze">ooze<a class="hash" href="#ooze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/uːz/ &middot; <em>OOZ</em></dd><dt>Русский</dt><dd>сочиться, просачиваться; медленно вытекать</dd><dt>Forms</dt><dd><em>ooze</em> &middot; <em>oozed</em> &middot; <em>oozed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>oozes</em> &middot; <strong>-ing form:</strong> <em>oozing</em></dd><dt>Transitivity</dt><dd>both — transitive (the tree <em>oozes</em> sap), intransitive (mud <em>oozed</em> over the walk)</dd></dl>
+<p>To flow out slowly and thickly.</p>
+<ol><li>Sap <em>oozes</em> from the cut branches every spring.</li><li>Mud <em>oozed</em> across the sidewalk after the slide.</li><li>Lava was still <em>oozing</em> from the fissure a month later.</li></ol>
+<hr>
+<h3 id="drip">drip<a class="hash" href="#drip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drɪp/ &middot; <em>DRIP</em></dd><dt>Русский</dt><dd>капать, капнуть; стекать каплями</dd><dt>Forms</dt><dd><em>drip</em> &middot; <em>dripped</em> &middot; <em>dripped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>drips</em> &middot; <strong>-ing form:</strong> <em>dripping</em></dd><dt>Transitivity</dt><dd>both — transitive (the roof <em>drips</em> water), intransitive (the faucet <em>dripped</em>)</dd><dt>Contrast</dt><dd>One vowel plus one final consonant, so the p doubles: <em>dripped</em>, <em>dripping</em>.</dd></dl>
+<p>To fall or let fall in drops.</p>
+<ol><li>Melting snow <em>drips</em> off the eaves all afternoon.</li><li>Rain <em>dripped</em> through the roof into a bucket.</li><li>Her coat was <em>dripping</em> by the time she got inside.</li></ol>
+<hr>
+<h3 id="spout">spout<a class="hash" href="#spout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spaʊt/ &middot; <em>SPOWT</em></dd><dt>Русский</dt><dd>бить струёй, выбрасывать струю</dd><dt>Forms</dt><dd><em>spout</em> &middot; <em>spouted</em> &middot; <em>spouted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>spouts</em> &middot; <strong>-ing form:</strong> <em>spouting</em></dd><dt>Transitivity</dt><dd>both — transitive (the whale <em>spouts</em> water), intransitive (the geyser <em>spouted</em>)</dd></dl>
+<p>To send out a strong narrow stream of liquid or steam.</p>
+<ol><li>The geyser <em>spouts</em> every ninety minutes or so.</li><li>A whale <em>spouted</em> twice off the bow.</li><li>Water was <em>spouting</em> out of a crack in the old pipe.</li></ol>
+<hr>
+<h3 id="cascade">cascade<a class="hash" href="#cascade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæˈskeɪd/ &middot; <em>ka-SKAYD</em></dd><dt>Русский</dt><dd>ниспадать каскадом, литься потоком</dd><dt>Forms</dt><dd><em>cascade</em> &middot; <em>cascaded</em> &middot; <em>cascaded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cascades</em> &middot; <strong>-ing form:</strong> <em>cascading</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To fall in large amounts, the way water falls over rocks.</p>
+<ol><li>Meltwater <em>cascades</em> down the rock face every spring.</li><li>Rain <em>cascaded</em> off the awning in sheets.</li><li>Snow was <em>cascading</em> off the roof in big wet slabs.</li></ol>
+<hr>
+<h3 id="churn">churn<a class="hash" href="#churn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɜːrn/ &middot; <em>CHURN</em></dd><dt>Русский</dt><dd>бурлить, вспениваться; взбалтывать, взбивать</dd><dt>Forms</dt><dd><em>churn</em> &middot; <em>churned</em> &middot; <em>churned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>churns</em> &middot; <strong>-ing form:</strong> <em>churning</em></dd><dt>Transitivity</dt><dd>both — transitive (the wind <em>churned</em> the lake), intransitive (the sea <em>churned</em>)</dd></dl>
+<p>To move water or another liquid around violently.</p>
+<ol><li>The sea <em>churns</em> for days after a storm like that.</li><li>The wind <em>churned</em> the lake into whitecaps.</li><li>Gray water was <em>churning</em> under the bridge.</li></ol>
+<hr>
+<h3 id="foam">foam<a class="hash" href="#foam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/foʊm/ &middot; <em>FOHM</em></dd><dt>Русский</dt><dd>пениться, вспениваться; покрываться пеной</dd><dt>Forms</dt><dd><em>foam</em> &middot; <em>foamed</em> &middot; <em>foamed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>foams</em> &middot; <strong>-ing form:</strong> <em>foaming</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To produce a mass of small white bubbles.</p>
+<ol><li>The surf <em>foams</em> white all along the point.</li><li>The river <em>foamed</em> over the rocks below the dam.</li><li>The waves came in loud and <em>foaming</em>.</li></ol>
+<hr>
+<h3 id="pool">pool<a class="hash" href="#pool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/puːl/ &middot; <em>POOL</em></dd><dt>Русский</dt><dd>скапливаться, скопиться (о жидкости)</dd><dt>Forms</dt><dd><em>pool</em> &middot; <em>pooled</em> &middot; <em>pooled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pools</em> &middot; <strong>-ing form:</strong> <em>pooling</em></dd><dt>Transitivity</dt><dd>both — transitive (they <em>pooled</em> the runoff), intransitive (rain <em>pooled</em> in the yard)</dd></dl>
+<p>To collect in one low place instead of draining away.</p>
+<ol><li>Rain <em>pools</em> in the low corner of the yard every spring.</li><li>Water <em>pooled</em> on the flat roof and started coming through.</li><li>Meltwater was <em>pooling</em> around the storm drain.</li></ol>
+<hr>
+<h3 id="meander">meander<a class="hash" href="#meander" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/miˈændər/ &middot; <em>mee-AN-dur</em></dd><dt>Русский</dt><dd>извиваться, петлять (о реке); брести без цели</dd><dt>Forms</dt><dd><em>meander</em> &middot; <em>meandered</em> &middot; <em>meandered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>meanders</em> &middot; <strong>-ing form:</strong> <em>meandering</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To follow a long winding course instead of a straight one.</p>
+<ol><li>The creek <em>meanders</em> across the whole valley floor.</li><li>The trail <em>meandered</em> along the riverbank for a mile.</li><li>We spent the afternoon <em>meandering</em> through the woods.</li></ol>
+<hr>
+<h3 id="channel">channel<a class="hash" href="#channel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃænəl/ &middot; <em>CHAN-uhl</em></dd><dt>Русский</dt><dd>направлять (по руслу), отводить; пускать по каналу</dd><dt>Forms</dt><dd><em>channel</em> &middot; <em>channeled</em> &middot; <em>channeled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>channels</em> &middot; <strong>-ing form:</strong> <em>channeling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American English keeps one l: <em>channeled</em>, <em>channeling</em>; British English writes <em>channelled</em>.</dd></dl>
+<p>To send water or another flow along a particular path.</p>
+<ol><li>These ditches <em>channel</em> runoff away from the houses.</li><li>The town <em>channeled</em> the creek into a concrete culvert back in the 1950s.</li><li>Storm drains were <em>channeling</em> the water straight into the river.</li></ol>
+<hr>
+<h3 id="bubble">bubble<a class="hash" href="#bubble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌbəl/ &middot; <em>BUB-uhl</em></dd><dt>Русский</dt><dd>пузыриться, бурлить; булькать</dd><dt>Forms</dt><dd><em>bubble</em> &middot; <em>bubbled</em> &middot; <em>bubbled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bubbles</em> &middot; <strong>-ing form:</strong> <em>bubbling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To form bubbles, or to rise through liquid as bubbles.</p>
+<ol><li>Gas <em>bubbles</em> through the mud pots all day long.</li><li>The spring <em>bubbled</em> out of the rocks at the base of the cliff.</li><li>Mud was <em>bubbling</em> and steaming near the crater.</li></ol>
+<hr>
+<h3 id="percolate">percolate<a class="hash" href="#percolate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrkəleɪt/ &middot; <em>PUR-kuh-layt</em></dd><dt>Русский</dt><dd>просачиваться, просочиться; фильтроваться</dd><dt>Forms</dt><dd><em>percolate</em> &middot; <em>percolated</em> &middot; <em>percolated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>percolates</em> &middot; <strong>-ing form:</strong> <em>percolating</em></dd><dt>Transitivity</dt><dd>both — transitive (the soil <em>percolates</em> the water), intransitive (rain <em>percolates</em> down)</dd></dl>
+<p>To pass slowly through something that has small holes in it.</p>
+<ol><li>Rain <em>percolates</em> through the sand into the aquifer.</li><li>The water <em>percolated</em> slowly down through the gravel.</li><li>Coffee was <em>percolating</em> on the camp stove when we woke up.</li></ol>
+<hr>
+<h3 id="splatter">splatter<a class="hash" href="#splatter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsplætər/ &middot; <em>SPLAT-ur</em></dd><dt>Русский</dt><dd>забрызгивать, забрызгать; разбрызгиваться</dd><dt>Forms</dt><dd><em>splatter</em> &middot; <em>splattered</em> &middot; <em>splattered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>splatters</em> &middot; <strong>-ing form:</strong> <em>splattering</em></dd><dt>Transitivity</dt><dd>both — transitive (mud <em>splattered</em> the truck), intransitive (rain <em>splattered</em> on the walk)</dd><dt>Contrast</dt><dd><em>splatter</em> and <em>spatter</em> both exist; <em>splatter</em> is the more common American form.</dd></dl>
+<p>To scatter drops of liquid noisily over a surface.</p>
+<ol><li>The first fat drops <em>splatter</em> the dusty sidewalk.</li><li>Mud <em>splattered</em> the whole side of the truck.</li><li>Rain was <em>splattering</em> against the window by the time we left.</li></ol>
+<hr>
+<h3 id="displace">displace<a class="hash" href="#displace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈpleɪs/ &middot; <em>dis-PLAYS</em></dd><dt>Русский</dt><dd>вытеснять, вытеснить; лишать крова (о стихии)</dd><dt>Forms</dt><dd><em>displace</em> &middot; <em>displaced</em> &middot; <em>displaced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>displaces</em> &middot; <strong>-ing form:</strong> <em>displacing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To force people or things out of the place where they belong.</p>
+<ol><li>A flood like that can <em>displace</em> thousands of people in a day.</li><li>The fire <em>displaced</em> two hundred families on the east side.</li><li>Rising water was <em>displacing</em> wildlife all along the river.</li></ol>
+<hr>
+<h3 id="rescue">rescue<a class="hash" href="#rescue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛskjuː/ &middot; <em>RES-kyoo</em></dd><dt>Русский</dt><dd>спасать, спасти; вызволять, вызволить</dd><dt>Forms</dt><dd><em>rescue</em> &middot; <em>rescued</em> &middot; <em>rescued</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rescues</em> &middot; <strong>-ing form:</strong> <em>rescuing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The silent final e disappears before <em>-ing</em>: <em>rescuing</em>, not rescueing.</dd></dl>
+<p>To save someone or something from danger.</p>
+<ol><li>Volunteers <em>rescue</em> dozens of animals after every flood.</li><li>The crew <em>rescued</em> six people off the rooftops.</li><li>They were still <em>rescuing</em> people at midnight.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#rescue-from">rescue from</a></dd></dl>
+<h3 id="erupt">erupt<a class="hash" href="#erupt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈrʌpt/ &middot; <em>i-RUPT</em></dd><dt>Русский</dt><dd>извергаться, извергнуться; вспыхивать (о конфликте)</dd><dt>Forms</dt><dd><em>erupt</em> &middot; <em>erupted</em> &middot; <em>erupted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>erupts</em> &middot; <strong>-ing form:</strong> <em>erupting</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To burst out suddenly and violently, the way a volcano does.</p>
+<ol><li>That volcano <em>erupts</em> every few decades.</li><li>Kilauea <em>erupted</em> again last spring.</li><li>Ash has been drifting east since the crater started <em>erupting</em>.</li></ol>
+<hr>
+<h3 id="spew">spew<a class="hash" href="#spew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spjuː/ &middot; <em>SPYOO</em></dd><dt>Русский</dt><dd>извергать, выбрасывать (дым, лаву)</dd><dt>Forms</dt><dd><em>spew</em> &middot; <em>spewed</em> &middot; <em>spewed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>spews</em> &middot; <strong>-ing form:</strong> <em>spewing</em></dd><dt>Transitivity</dt><dd>both — transitive (the crater <em>spews</em> ash), intransitive (smoke <em>spewed</em> from the vents)</dd></dl>
+<p>To throw out a large amount of gas, liquid, or ash with force.</p>
+<ol><li>The crater <em>spews</em> ash whenever the pressure builds.</li><li>The volcano <em>spewed</em> lava for eleven days.</li><li>Smoke was <em>spewing</em> from vents all over the north slope.</li></ol>
+<hr>
+<h3 id="quake">quake<a class="hash" href="#quake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kweɪk/ &middot; <em>KWAYK</em></dd><dt>Русский</dt><dd>трястись, сотрясаться; дрожать</dd><dt>Forms</dt><dd><em>quake</em> &middot; <em>quaked</em> &middot; <em>quaked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>quakes</em> &middot; <strong>-ing form:</strong> <em>quaking</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To shake hard, the way the ground does in an earthquake.</p>
+<ol><li>The whole valley <em>quakes</em> when a big one hits the fault.</li><li>The ground <em>quaked</em> for almost a full minute.</li><li>We stood in the doorway with the floor <em>quaking</em> under us.</li></ol>
+<hr>
+<h3 id="rumble">rumble<a class="hash" href="#rumble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌmbəl/ &middot; <em>RUM-buhl</em></dd><dt>Русский</dt><dd>грохотать, громыхать; урчать</dd><dt>Forms</dt><dd><em>rumble</em> &middot; <em>rumbled</em> &middot; <em>rumbled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rumbles</em> &middot; <strong>-ing form:</strong> <em>rumbling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To make a long, low, rolling sound.</p>
+<ol><li>Thunder <em>rumbles</em> across the lake most summer evenings.</li><li>The ground <em>rumbled</em> a few seconds before the shaking started.</li><li>A storm was <em>rumbling</em> somewhere off to the west.</li></ol>
+<hr>
+<h3 id="jolt">jolt<a class="hash" href="#jolt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒoʊlt/ &middot; <em>JOHLT</em></dd><dt>Русский</dt><dd>трясти, встряхнуть; резко толкнуть</dd><dt>Forms</dt><dd><em>jolt</em> &middot; <em>jolted</em> &middot; <em>jolted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>jolts</em> &middot; <strong>-ing form:</strong> <em>jolting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To shake or shove something suddenly and hard.</p>
+<ol><li>An aftershock like that <em>jolts</em> the whole building.</li><li>A 5.2 quake <em>jolted</em> the Bay Area before dawn.</li><li>We were <em>jolted</em> awake at four in the morning.</li></ol>
+<hr>
+<h3 id="rupture">rupture<a class="hash" href="#rupture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌptʃər/ &middot; <em>RUP-chur</em></dd><dt>Русский</dt><dd>прорывать(ся), разрывать(ся)</dd><dt>Forms</dt><dd><em>rupture</em> &middot; <em>ruptured</em> &middot; <em>ruptured</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ruptures</em> &middot; <strong>-ing form:</strong> <em>rupturing</em></dd><dt>Transitivity</dt><dd>both — transitive (the quake <em>ruptured</em> the line), intransitive (the main <em>ruptured</em>)</dd></dl>
+<p>To burst or tear open under pressure.</p>
+<ol><li>A quake this strong can <em>rupture</em> gas lines all over the city.</li><li>The fault <em>ruptured</em> along nearly thirty miles.</li><li>Two water mains have <em>ruptured</em> since the shaking stopped.</li></ol>
+<hr>
+<h3 id="trigger">trigger<a class="hash" href="#trigger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɪɡər/ &middot; <em>TRIG-ur</em></dd><dt>Русский</dt><dd>вызывать, вызвать; провоцировать, спровоцировать</dd><dt>Forms</dt><dd><em>trigger</em> &middot; <em>triggered</em> &middot; <em>triggered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>triggers</em> &middot; <strong>-ing form:</strong> <em>triggering</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Stress is on the first syllable, so the r is not doubled: <em>triggered</em>, <em>triggering</em>.</dd></dl>
+<p>To make something start happening, usually something sudden or bad.</p>
+<ol><li>Heavy rain <em>triggers</em> mudslides on the burn scars every winter.</li><li>The quake <em>triggered</em> a tsunami warning all up the coast.</li><li>Warm rain falling on snow is <em>triggering</em> floods statewide.</li></ol>
+<hr>
+<h3 id="fossilize">fossilize<a class="hash" href="#fossilize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːsəlaɪz/ &middot; <em>FAH-suh-lyz</em></dd><dt>Русский</dt><dd>превращаться в окаменелость, окаменевать</dd><dt>Forms</dt><dd><em>fossilize</em> &middot; <em>fossilized</em> &middot; <em>fossilized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>fossilizes</em> &middot; <strong>-ing form:</strong> <em>fossilizing</em></dd><dt>Transitivity</dt><dd>both — transitive (the mud <em>fossilized</em> the leaf), intransitive (bones rarely <em>fossilize</em>)</dd><dt>Contrast</dt><dd>American spelling <em>fossilize</em>; British English writes <em>fossilise</em>.</dd></dl>
+<p>To turn slowly into rock and be preserved as a fossil.</p>
+<ol><li>Only a tiny fraction of bones ever <em>fossilize</em>.</li><li>The fern <em>fossilized</em> in the mud of an ancient lakebed.</li><li>The museum has a <em>fossilized</em> tree trunk from Arizona.</li></ol>
+<hr>
+<h3 id="weather">weather<a class="hash" href="#weather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛðər/ &middot; <em>WETH-ur</em></dd><dt>Русский</dt><dd>выдерживать, выдержать (бурю); выветриваться, обветриваться</dd><dt>Forms</dt><dd><em>weather</em> &middot; <em>weathered</em> &middot; <em>weathered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>weathers</em> &middot; <strong>-ing form:</strong> <em>weathering</em></dd><dt>Transitivity</dt><dd>both — transitive (they <em>weathered</em> the storm), intransitive (the boards <em>weathered</em> gray)</dd><dt>Contrast</dt><dd>The th is voiced, as in <em>father</em>: WETH-ur.</dd></dl>
+<p>To come through a hard time without breaking, or to be worn and changed by the open air.</p>
+<ol><li>These old barns <em>weather</em> every storm that comes through.</li><li>The town <em>weathered</em> the hurricane with almost no damage.</li><li>The fence boards have <em>weathered</em> to a soft gray.</li></ol>
+<hr>
+<h3 id="gouge">gouge<a class="hash" href="#gouge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡaʊdʒ/ &middot; <em>GOWJ</em></dd><dt>Русский</dt><dd>выдалбливать, выдолбить; прорезать (углубление)</dd><dt>Forms</dt><dd><em>gouge</em> &middot; <em>gouged</em> &middot; <em>gouged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>gouges</em> &middot; <strong>-ing form:</strong> <em>gouging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cut or scrape a deep groove or hole in a surface.</p>
+<ol><li>Glaciers <em>gouge</em> deep valleys out of solid rock.</li><li>The flood <em>gouged</em> a channel right across the field.</li><li>Ice was <em>gouging</em> the bank on the outside of the bend.</li></ol>
+<hr>
+<h3 id="tilt">tilt<a class="hash" href="#tilt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪlt/ &middot; <em>TILT</em></dd><dt>Русский</dt><dd>наклонять(ся), накренять(ся)</dd><dt>Forms</dt><dd><em>tilt</em> &middot; <em>tilted</em> &middot; <em>tilted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>tilts</em> &middot; <strong>-ing form:</strong> <em>tilting</em></dd><dt>Transitivity</dt><dd>both — transitive (the frost <em>tilted</em> the posts), intransitive (the earth <em>tilts</em> on its axis)</dd></dl>
+<p>To lean to one side instead of standing straight, or to make something lean.</p>
+<ol><li>The earth <em>tilts</em> about twenty-three degrees on its axis, and that is what gives us seasons.</li><li>The old fence posts <em>tilted</em> a little farther every year as the ground froze and thawed.</li><li>The big maple was <em>tilting</em> toward the house after the storm.</li></ol>
+<hr>
+<h3 id="flake">flake<a class="hash" href="#flake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fleɪk/ &middot; <em>FLAYK</em></dd><dt>Русский</dt><dd>отслаиваться, шелушиться, осыпаться</dd><dt>Forms</dt><dd><em>flake</em> &middot; <em>flaked</em> &middot; <em>flaked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>flakes</em> &middot; <strong>-ing form:</strong> <em>flaking</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To come away from a surface in thin small pieces.</p>
+<ol><li>Old paint <em>flakes</em> fast in this desert sun.</li><li>The dry bark <em>flaked</em> under my fingers.</li><li>The white crust was <em>flaking</em> where the spring had dried up.</li></ol>
+<hr>
+<h3 id="orbit">orbit<a class="hash" href="#orbit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrbɪt/ &middot; <em>OR-bit</em></dd><dt>Русский</dt><dd>вращаться по орбите, обращаться вокруг</dd><dt>Forms</dt><dd><em>orbit</em> &middot; <em>orbited</em> &middot; <em>orbited</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>orbits</em> &middot; <strong>-ing form:</strong> <em>orbiting</em></dd><dt>Transitivity</dt><dd>both — transitive (the moon <em>orbits</em> the earth), intransitive (the satellite <em>orbited</em> for years)</dd><dt>Contrast</dt><dd>Stress is on the first syllable, so the t is not doubled: <em>orbited</em>, <em>orbiting</em>. It takes a direct object with no <em>around</em>: <em>orbits the earth</em>.</dd></dl>
+<p>To travel in a curved path around a planet, a star, or another body.</p>
+<ol><li>The moon <em>orbits</em> the earth about once a month.</li><li>That satellite <em>orbited</em> for eleven years before it burned up.</li><li>Two small moons are <em>orbiting</em> the planet.</li></ol>
+<hr>
+<h3 id="revolve">revolve<a class="hash" href="#revolve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvɑːlv/ &middot; <em>ri-VAHLV</em></dd><dt>Русский</dt><dd>вращаться, обращаться (вокруг чего-л.)</dd><dt>Forms</dt><dd><em>revolve</em> &middot; <em>revolved</em> &middot; <em>revolved</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>revolves</em> &middot; <strong>-ing form:</strong> <em>revolving</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Takes <em>around</em>: <em>revolve around the sun</em>.</dd></dl>
+<p>To turn in a circle around a center point.</p>
+<ol><li>The earth <em>revolves</em> around the sun once a year.</li><li>For centuries people believed the sun <em>revolved</em> around the earth.</li><li>The whole storm system is <em>revolving</em> counterclockwise.</li></ol>
+<hr>
+<h3 id="eclipse">eclipse<a class="hash" href="#eclipse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈklɪps/ &middot; <em>i-KLIPS</em></dd><dt>Русский</dt><dd>затмевать, затмить; заслонять</dd><dt>Forms</dt><dd><em>eclipse</em> &middot; <em>eclipsed</em> &middot; <em>eclipsed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>eclipses</em> &middot; <strong>-ing form:</strong> <em>eclipsing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To block the light of the sun or moon by passing in front of it.</p>
+<ol><li>The moon <em>eclipses</em> the sun somewhere on earth about twice a year.</li><li>The moon completely <em>eclipsed</em> the sun for four minutes.</li><li>The shadow was already <em>eclipsing</em> the bottom edge of the sun.</li></ol>
+<hr>
+<h3 id="wane">wane<a class="hash" href="#wane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪn/ &middot; <em>WAYN</em></dd><dt>Русский</dt><dd>убывать (о луне); ослабевать, идти на убыль</dd><dt>Forms</dt><dd><em>wane</em> &middot; <em>waned</em> &middot; <em>waned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>wanes</em> &middot; <strong>-ing form:</strong> <em>waning</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The opposite of <em>wax</em>: the moon <em>waxes and wanes</em>.</dd></dl>
+<p>To grow gradually smaller or weaker.</p>
+<ol><li>The moon <em>wanes</em> for two weeks after it is full.</li><li>The storm <em>waned</em> as soon as it moved inland.</li><li>Daylight is <em>waning</em> a little earlier every evening now.</li></ol>
+<hr>
+<h3 id="refract">refract<a class="hash" href="#refract" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfrækt/ &middot; <em>ri-FRAKT</em></dd><dt>Русский</dt><dd>преломлять, преломить (свет)</dd><dt>Forms</dt><dd><em>refract</em> &middot; <em>refracted</em> &middot; <em>refracted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>refracts</em> &middot; <strong>-ing form:</strong> <em>refracting</em></dd><dt>Transitivity</dt><dd>both — transitive (water <em>refracts</em> light), intransitive (light <em>refracts</em> through the ice)</dd></dl>
+<p>To bend light as it passes from one material into another.</p>
+<ol><li>Raindrops <em>refract</em> sunlight and make a rainbow.</li><li>The ice <em>refracted</em> the light into thin bands of color.</li><li>Hot air near the ground was <em>refracting</em> the light over the highway.</li></ol>
+<hr>
+<h3 id="glisten">glisten<a class="hash" href="#glisten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlɪsən/ &middot; <em>GLIS-uhn</em></dd><dt>Русский</dt><dd>блестеть, поблёскивать (о влажной поверхности)</dd><dt>Forms</dt><dd><em>glisten</em> &middot; <em>glistened</em> &middot; <em>glistened</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>glistens</em> &middot; <strong>-ing form:</strong> <em>glistening</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The t is silent, as in <em>listen</em> and <em>fasten</em>: GLIS-uhn.</dd></dl>
+<p>To shine softly because the surface is wet.</p>
+<ol><li>Wet pavement <em>glistens</em> under the streetlights.</li><li>The frost <em>glistened</em> on every branch that morning.</li><li>The whole field was <em>glistening</em> with dew.</li></ol>
+<hr>
+<h3 id="glimmer">glimmer<a class="hash" href="#glimmer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlɪmər/ &middot; <em>GLIM-ur</em></dd><dt>Русский</dt><dd>мерцать, слабо светиться</dd><dt>Forms</dt><dd><em>glimmer</em> &middot; <em>glimmered</em> &middot; <em>glimmered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>glimmers</em> &middot; <strong>-ing form:</strong> <em>glimmering</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To shine with a faint, unsteady light.</p>
+<ol><li>A few stars <em>glimmer</em> through the haze on a summer night.</li><li>Lights from the town <em>glimmered</em> across the water.</li><li>Something was <em>glimmering</em> at the bottom of the creek.</li></ol>
+<hr>
+<h3 id="twinkle">twinkle<a class="hash" href="#twinkle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtwɪŋkəl/ &middot; <em>TWING-kuhl</em></dd><dt>Русский</dt><dd>мерцать, мигать (о звёздах)</dd><dt>Forms</dt><dd><em>twinkle</em> &middot; <em>twinkled</em> &middot; <em>twinkled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>twinkles</em> &middot; <strong>-ing form:</strong> <em>twinkling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To shine with a light that keeps changing in brightness.</p>
+<ol><li>Stars <em>twinkle</em> because the air above us keeps moving.</li><li>The lights of the city <em>twinkled</em> far below the pass.</li><li>The sky was clear, with every star <em>twinkling</em>.</li></ol>
+<hr>
+<h3 id="shimmer">shimmer<a class="hash" href="#shimmer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɪmər/ &middot; <em>SHIM-ur</em></dd><dt>Русский</dt><dd>мерцать, переливаться; дрожать (о нагретом воздухе)</dd><dt>Forms</dt><dd><em>shimmer</em> &middot; <em>shimmered</em> &middot; <em>shimmered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>shimmers</em> &middot; <strong>-ing form:</strong> <em>shimmering</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To shine with a soft, wavering light.</p>
+<ol><li>Hot asphalt <em>shimmers</em> all through August.</li><li>The lake <em>shimmered</em> in the late sun.</li><li>The air over the desert was <em>shimmering</em> by ten in the morning.</li></ol>
+<hr>
+<h3 id="dawn">dawn<a class="hash" href="#dawn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɔːn/ &middot; <em>DAWN</em></dd><dt>Русский</dt><dd>рассветать, светать; осенять (о догадке)</dd><dt>Forms</dt><dd><em>dawn</em> &middot; <em>dawned</em> &middot; <em>dawned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>dawns</em> &middot; <strong>-ing form:</strong> <em>dawning</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>With <em>on</em> it means to become clear to someone: <em>it dawned on me that we were lost</em>.</dd></dl>
+<p>To begin to grow light at the start of the day.</p>
+<ol><li>Winter days <em>dawn</em> gray and cold in this part of the state.</li><li>The morning <em>dawned</em> clear after three days of rain.</li><li>It was just <em>dawning</em> when the boats went out.</li></ol>
+<hr>
+<h3 id="fog">fog<a class="hash" href="#fog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɑːɡ/ &middot; <em>FAHG</em></dd><dt>Русский</dt><dd>запотевать, запотеть; затуманивать</dd><dt>Forms</dt><dd><em>fog</em> &middot; <em>fogged</em> &middot; <em>fogged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>fogs</em> &middot; <strong>-ing form:</strong> <em>fogging</em></dd><dt>Transitivity</dt><dd>both — transitive (the rain <em>fogged</em> the windshield), intransitive (my glasses <em>fogged</em>)</dd><dt>Contrast</dt><dd>One vowel plus one final consonant, so the g doubles: <em>fogged</em>, <em>fogging</em>.</dd></dl>
+<p>To cover glass with a thin mist so you cannot see through it.</p>
+<ol><li>Cold rain <em>fogs</em> the inside of the windshield in about a minute.</li><li>My glasses <em>fogged</em> the second I stepped outside.</li><li>The bathroom mirror was completely <em>fogged</em>.</li></ol>
+<hr>
+<h3 id="shroud">shroud<a class="hash" href="#shroud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃraʊd/ &middot; <em>SHROWD</em></dd><dt>Русский</dt><dd>окутывать, окутать; скрывать (туманом, дымом)</dd><dt>Forms</dt><dd><em>shroud</em> &middot; <em>shrouded</em> &middot; <em>shrouded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>shrouds</em> &middot; <strong>-ing form:</strong> <em>shrouding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Most often in the passive with <em>in</em>: <em>shrouded in fog</em>.</dd></dl>
+<p>To cover something completely so that it is hidden.</p>
+<ol><li>Fog <em>shrouds</em> the bridge most mornings in June.</li><li>Smoke <em>shrouded</em> the city for a solid week.</li><li>The peak was <em>shrouded</em> in cloud all day.</li></ol>
+<hr>
+<h3 id="envelop">envelop<a class="hash" href="#envelop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈvɛləp/ &middot; <em>in-VEL-uhp</em></dd><dt>Русский</dt><dd>окутывать, окутать; обволакивать</dd><dt>Forms</dt><dd><em>envelop</em> &middot; <em>enveloped</em> &middot; <em>enveloped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>envelops</em> &middot; <strong>-ing form:</strong> <em>enveloping</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is <em>envelop</em> (in-VEL-uhp); the paper <em>envelope</em> is a noun with a final e (EN-vuh-lohp).</dd></dl>
+<p>To wrap around something and cover it on every side.</p>
+<ol><li>Sea fog <em>envelops</em> the whole town by evening.</li><li>Smoke <em>enveloped</em> the valley within an hour.</li><li>The mountain was completely <em>enveloped</em> in cloud.</li></ol>
+<hr>
+<h3 id="blaze">blaze<a class="hash" href="#blaze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bleɪz/ &middot; <em>BLAYZ</em></dd><dt>Русский</dt><dd>пылать, полыхать; ярко гореть</dd><dt>Forms</dt><dd><em>blaze</em> &middot; <em>blazed</em> &middot; <em>blazed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>blazes</em> &middot; <strong>-ing form:</strong> <em>blazing</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To burn or shine with a strong bright flame or light.</p>
+<ol><li>The dry hills <em>blaze</em> every September.</li><li>The barn <em>blazed</em> for an hour before help arrived.</li><li>We hiked all day under a <em>blazing</em> sun.</li></ol>
+<hr>
+<h3 id="smolder">smolder<a class="hash" href="#smolder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsmoʊldər/ &middot; <em>SMOHL-dur</em></dd><dt>Русский</dt><dd>тлеть; дымиться</dd><dt>Forms</dt><dd><em>smolder</em> &middot; <em>smoldered</em> &middot; <em>smoldered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>smolders</em> &middot; <strong>-ing form:</strong> <em>smoldering</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>American spelling <em>smolder</em>; British English writes <em>smoulder</em>.</dd></dl>
+<p>To burn slowly with smoke but without flames.</p>
+<ol><li>Peat fires <em>smolder</em> underground all winter.</li><li>The stumps <em>smoldered</em> for days after the rain.</li><li>Something was still <em>smoldering</em> at the edge of the field.</li></ol>
+<hr>
+<h3 id="flare">flare<a class="hash" href="#flare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɛr/ &middot; <em>FLAIR</em></dd><dt>Русский</dt><dd>вспыхивать, вспыхнуть; разгораться</dd><dt>Forms</dt><dd><em>flare</em> &middot; <em>flared</em> &middot; <em>flared</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>flares</em> &middot; <strong>-ing form:</strong> <em>flaring</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To burn or shine suddenly brighter for a short time.</p>
+<ol><li>Embers <em>flare</em> whenever the wind picks up.</li><li>The fire <em>flared</em> when it reached the pines.</li><li>The northern lights were <em>flaring</em> green over the lake.</li></ol>
+<hr>
+<h3 id="spark">spark<a class="hash" href="#spark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɑːrk/ &middot; <em>SPARK</em></dd><dt>Русский</dt><dd>искрить, искриться; вызывать, спровоцировать</dd><dt>Forms</dt><dd><em>spark</em> &middot; <em>sparked</em> &middot; <em>sparked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>sparks</em> &middot; <strong>-ing form:</strong> <em>sparking</em></dd><dt>Transitivity</dt><dd>both — transitive (lightning <em>sparked</em> the fire), intransitive (the wires <em>sparked</em>)</dd></dl>
+<p>To throw off sparks, or to set something going.</p>
+<ol><li>Dry lightning <em>sparks</em> most of the fires out here.</li><li>A downed line <em>sparked</em> the blaze on the ridge.</li><li>The wires were <em>sparking</em> in the rain.</li></ol>
+<hr>
+<h3 id="ignite">ignite<a class="hash" href="#ignite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈnaɪt/ &middot; <em>ig-NYT</em></dd><dt>Русский</dt><dd>воспламенять(ся), зажигать(ся)</dd><dt>Forms</dt><dd><em>ignite</em> &middot; <em>ignited</em> &middot; <em>ignited</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ignites</em> &middot; <strong>-ing form:</strong> <em>igniting</em></dd><dt>Transitivity</dt><dd>both — transitive (a spark <em>ignited</em> the grass), intransitive (dry brush <em>ignites</em> fast)</dd></dl>
+<p>To catch fire, or to set something on fire.</p>
+<ol><li>Dry grass <em>ignites</em> almost instantly in this heat.</li><li>A spark from the mower <em>ignited</em> the whole field.</li><li>The gas was <em>igniting</em> as fast as it reached the surface.</li></ol>
+<hr>
+<h3 id="kindle">kindle<a class="hash" href="#kindle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪndəl/ &middot; <em>KIN-duhl</em></dd><dt>Русский</dt><dd>разжигать, разжечь; растапливать (печь)</dd><dt>Forms</dt><dd><em>kindle</em> &middot; <em>kindled</em> &middot; <em>kindled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>kindles</em> &middot; <strong>-ing form:</strong> <em>kindling</em></dd><dt>Transitivity</dt><dd>both — transitive (he <em>kindled</em> a fire), intransitive (damp wood barely <em>kindles</em>)</dd></dl>
+<p>To get a fire started, or to start burning.</p>
+<ol><li>Damp wood barely <em>kindles</em>, no matter what you do.</li><li>He <em>kindled</em> a small fire with birch bark and dry moss.</li><li>We spent an hour <em>kindling</em> a fire in the wet wind.</li></ol>
+<hr>
+<h3 id="char">char<a class="hash" href="#char" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɑːr/ &middot; <em>CHAR</em></dd><dt>Русский</dt><dd>обугливать(ся), обжигать</dd><dt>Forms</dt><dd><em>char</em> &middot; <em>charred</em> &middot; <em>charred</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>chars</em> &middot; <strong>-ing form:</strong> <em>charring</em></dd><dt>Transitivity</dt><dd>both — transitive (the fire <em>charred</em> the siding), intransitive (the trunks <em>charred</em> but stood)</dd><dt>Contrast</dt><dd>One vowel plus one final consonant, so the r doubles: <em>charred</em>, <em>charring</em>.</dd></dl>
+<p>To burn something until the outside is black.</p>
+<ol><li>A fire that hot <em>chars</em> the trunks but leaves the roots alive.</li><li>The flames <em>charred</em> the north side of the house.</li><li>We walked through <em>charred</em> stumps for a mile.</li></ol>
+<hr>
+<h3 id="singe">singe<a class="hash" href="#singe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪndʒ/ &middot; <em>SINJ</em></dd><dt>Русский</dt><dd>опалять, опалить; подпаливать</dd><dt>Forms</dt><dd><em>singe</em> &middot; <em>singed</em> &middot; <em>singed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>singes</em> &middot; <strong>-ing form:</strong> <em>singeing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Keeps the e before <em>-ing</em>: <em>singeing</em>, to keep it apart from <em>singing</em>.</dd></dl>
+<p>To burn the surface or the edge of something lightly.</p>
+<ol><li>A flare-up like that <em>singes</em> everything within ten feet.</li><li>The fire <em>singed</em> the fence but never crossed it.</li><li>The heat was <em>singeing</em> the leaves on the nearest trees.</li></ol>
+<hr>
+<h3 id="crackle">crackle<a class="hash" href="#crackle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrækəl/ &middot; <em>KRAK-uhl</em></dd><dt>Русский</dt><dd>потрескивать, трещать</dd><dt>Forms</dt><dd><em>crackle</em> &middot; <em>crackled</em> &middot; <em>crackled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>crackles</em> &middot; <strong>-ing form:</strong> <em>crackling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To make a series of small sharp popping sounds.</p>
+<ol><li>Dry pine <em>crackles</em> and throws sparks.</li><li>Ice <em>crackled</em> under our boots all the way down.</li><li>The radio was <em>crackling</em> with reports from the fire line.</li></ol>
+<hr>
+<h3 id="extinguish">extinguish<a class="hash" href="#extinguish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstɪŋɡwɪʃ/ &middot; <em>ik-STING-gwish</em></dd><dt>Русский</dt><dd>тушить, потушить; гасить, погасить</dd><dt>Forms</dt><dd><em>extinguish</em> &middot; <em>extinguished</em> &middot; <em>extinguished</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>extinguishes</em> &middot; <strong>-ing form:</strong> <em>extinguishing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Ends in <em>-sh</em>, so the third-person form adds <em>-es</em>: <em>extinguishes</em>.</dd></dl>
+<p>To put out a fire or a light completely.</p>
+<ol><li>Rain alone rarely <em>extinguishes</em> a fire this big.</li><li>Crews <em>extinguished</em> the last hot spots on Sunday.</li><li>The fire was finally <em>extinguished</em> after nine days.</li></ol>
+<hr>
+<h3 id="douse">douse<a class="hash" href="#douse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/daʊs/ &middot; <em>DOWS</em></dd><dt>Русский</dt><dd>заливать водой, тушить; окатывать</dd><dt>Forms</dt><dd><em>douse</em> &middot; <em>doused</em> &middot; <em>doused</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>douses</em> &middot; <strong>-ing form:</strong> <em>dousing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Rhymes with <em>house</em>, not with <em>doze</em>: DOWS.</dd></dl>
+<p>To throw a lot of water or other liquid over something, usually to put out a fire.</p>
+<ol><li>One tanker load can <em>douse</em> a small brush fire.</li><li>They <em>doused</em> the coals before leaving camp.</li><li>The plane was <em>dousing</em> the ridge with retardant.</li></ol>
+<hr>
+<h3 id="contain">contain<a class="hash" href="#contain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈteɪn/ &middot; <em>kuhn-TAYN</em></dd><dt>Русский</dt><dd>сдерживать, сдержать; локализовать (пожар)</dd><dt>Forms</dt><dd><em>contain</em> &middot; <em>contained</em> &middot; <em>contained</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>contains</em> &middot; <strong>-ing form:</strong> <em>containing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep something dangerous from spreading any further.</p>
+<ol><li>Crews <em>contain</em> most brush fires within a day or two.</li><li>They <em>contained</em> the spill before it reached the creek.</li><li>The fire is sixty percent <em>contained</em> tonight.</li></ol>
+<hr>
+<h3 id="engulf">engulf<a class="hash" href="#engulf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈɡʌlf/ &middot; <em>in-GULF</em></dd><dt>Русский</dt><dd>поглощать, поглотить; охватывать (об огне, воде)</dd><dt>Forms</dt><dd><em>engulf</em> &middot; <em>engulfed</em> &middot; <em>engulfed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>engulfs</em> &middot; <strong>-ing form:</strong> <em>engulfing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To cover something completely and swallow it up.</p>
+<ol><li>A fire like that can <em>engulf</em> a house in minutes.</li><li>Flames <em>engulfed</em> the second floor before the trucks arrived.</li><li>The wave was <em>engulfing</em> the whole beach road.</li></ol>
+<hr>
+<h3 id="ravage">ravage<a class="hash" href="#ravage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrævɪdʒ/ &middot; <em>RAV-ij</em></dd><dt>Русский</dt><dd>опустошать, опустошить; разорять</dd><dt>Forms</dt><dd><em>ravage</em> &middot; <em>ravaged</em> &middot; <em>ravaged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ravages</em> &middot; <strong>-ing form:</strong> <em>ravaging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To damage a place severely over a wide area.</p>
+<ol><li>Wildfires <em>ravage</em> the same canyons every few years.</li><li>The hurricane <em>ravaged</em> the island's farms.</li><li>Drought has <em>ravaged</em> the whole southern half of the state.</li></ol>
+<hr>
+<h3 id="raze">raze<a class="hash" href="#raze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪz/ &middot; <em>RAYZ</em></dd><dt>Русский</dt><dd>сровнять с землёй, полностью разрушить</dd><dt>Forms</dt><dd><em>raze</em> &middot; <em>razed</em> &middot; <em>razed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>razes</em> &middot; <strong>-ing form:</strong> <em>razing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Sounds exactly like <em>raise</em> but means the opposite: to flatten something.</dd></dl>
+<p>To destroy a building or a town so completely that nothing is left standing.</p>
+<ol><li>A fire that size can <em>raze</em> a neighborhood overnight.</li><li>The tornado <em>razed</em> four blocks on the east side of town.</li><li>Half the village had been <em>razed</em> by the time the rain came.</li></ol>
+<hr>
+<h3 id="smother">smother<a class="hash" href="#smother" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsmʌðər/ &middot; <em>SMUTH-ur</em></dd><dt>Русский</dt><dd>душить, задушить; заглушать (слоем чего-л.)</dd><dt>Forms</dt><dd><em>smother</em> &middot; <em>smothered</em> &middot; <em>smothered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>smothers</em> &middot; <strong>-ing form:</strong> <em>smothering</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The th is voiced, as in <em>mother</em>: SMUTH-ur.</dd></dl>
+<p>To cover something thickly so that it cannot breathe or burn.</p>
+<ol><li>Wet leaves <em>smother</em> the grass over the winter.</li><li>Ash <em>smothered</em> every field within ten miles of the crater.</li><li>He was <em>smothering</em> the flames with a wet blanket.</li></ol>
+<hr>
+<h3 id="emit">emit<a class="hash" href="#emit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɪt/ &middot; <em>i-MIT</em></dd><dt>Русский</dt><dd>испускать, испустить; выделять, выбрасывать</dd><dt>Forms</dt><dd><em>emit</em> &middot; <em>emitted</em> &middot; <em>emitted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>emits</em> &middot; <strong>-ing form:</strong> <em>emitting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Stress falls on the second syllable, so the t doubles: <em>emitted</em>, <em>emitting</em>.</dd></dl>
+<p>To send out gas, heat, light, or sound.</p>
+<ol><li>The vents <em>emit</em> steam day and night.</li><li>The fires <em>emitted</em> more carbon that summer than the state's cars did all year.</li><li>The crater has been <em>emitting</em> sulfur gas for months.</li></ol>
+<hr>
+<h3 id="vent">vent<a class="hash" href="#vent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɛnt/ &middot; <em>VENT</em></dd><dt>Русский</dt><dd>выпускать, выпустить (газ, пар); давать выход</dd><dt>Forms</dt><dd><em>vent</em> &middot; <em>vented</em> &middot; <em>vented</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>vents</em> &middot; <strong>-ing form:</strong> <em>venting</em></dd><dt>Transitivity</dt><dd>both — transitive (the roof <em>vents</em> hot air), intransitive (gas <em>vented</em> from the fissure)</dd></dl>
+<p>To let gas, steam, or heat escape through an opening.</p>
+<ol><li>The mountain <em>vents</em> steam from a dozen cracks.</li><li>Gas <em>vented</em> from the fissure for two days.</li><li>Hot air was <em>venting</em> through the roof of the greenhouse.</li></ol>
+<hr>
+<h3 id="boom">boom<a class="hash" href="#boom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/buːm/ &middot; <em>BOOM</em></dd><dt>Русский</dt><dd>грохотать, прогрохотать; греметь</dd><dt>Forms</dt><dd><em>boom</em> &middot; <em>boomed</em> &middot; <em>boomed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>booms</em> &middot; <strong>-ing form:</strong> <em>booming</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To make a deep loud sound that carries a long way.</p>
+<ol><li>Thunder <em>booms</em> over the canyon and echoes for a long time.</li><li>The blast <em>boomed</em> across the whole lake.</li><li>Thunder was <em>booming</em> every few seconds by then.</li></ol>
+<hr>
+<h3 id="decompose">decompose<a class="hash" href="#decompose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdiːkəmˈpoʊz/ &middot; <em>dee-kuhm-POHZ</em></dd><dt>Русский</dt><dd>разлагаться, разложиться; гнить</dd><dt>Forms</dt><dd><em>decompose</em> &middot; <em>decomposed</em> &middot; <em>decomposed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>decomposes</em> &middot; <strong>-ing form:</strong> <em>decomposing</em></dd><dt>Transitivity</dt><dd>both — transitive (bacteria <em>decompose</em> the leaves), intransitive (the log <em>decomposed</em>)</dd></dl>
+<p>To break down slowly into simpler natural matter.</p>
+<ol><li>Leaves <em>decompose</em> much faster in warm, wet weather.</li><li>The log <em>decomposed</em> into soft, dark soil.</li><li>Everything in the pile is slowly <em>decomposing</em>.</li></ol>
+<hr>
+<h3 id="shrivel">shrivel<a class="hash" href="#shrivel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃrɪvəl/ &middot; <em>SHRIV-uhl</em></dd><dt>Русский</dt><dd>сморщиваться, ссыхаться; вянуть</dd><dt>Forms</dt><dd><em>shrivel</em> &middot; <em>shriveled</em> &middot; <em>shriveled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>shrivels</em> &middot; <strong>-ing form:</strong> <em>shriveling</em></dd><dt>Transitivity</dt><dd>both — transitive (the heat <em>shriveled</em> the leaves), intransitive (the corn <em>shriveled</em>)</dd><dt>Contrast</dt><dd>American English keeps one l: <em>shriveled</em>, <em>shriveling</em>; British English writes <em>shrivelled</em>.</dd></dl>
+<p>To dry up and become wrinkled and much smaller.</p>
+<ol><li>Corn <em>shrivels</em> fast in a drought like this one.</li><li>The tomatoes <em>shriveled</em> right on the vine.</li><li>The leaves were already <em>shriveling</em> by the middle of July.</li></ol>
+<hr>
+<h3 id="disintegrate">disintegrate<a class="hash" href="#disintegrate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈɪntəɡreɪt/ &middot; <em>dis-IN-tuh-grayt</em></dd><dt>Русский</dt><dd>распадаться, распасться; разрушаться</dd><dt>Forms</dt><dd><em>disintegrate</em> &middot; <em>disintegrated</em> &middot; <em>disintegrated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>disintegrates</em> &middot; <strong>-ing form:</strong> <em>disintegrating</em></dd><dt>Transitivity</dt><dd>both — transitive (the waves <em>disintegrated</em> the dock), intransitive (the ice <em>disintegrated</em>)</dd></dl>
+<p>To break apart into small pieces and stop being whole.</p>
+<ol><li>Cheap plastic <em>disintegrates</em> after a year in this sun.</li><li>The old dock <em>disintegrated</em> in the first big storm.</li><li>The ice shelf is <em>disintegrating</em> along its whole edge.</li></ol>
+<hr>
+<h3 id="oxidize">oxidize<a class="hash" href="#oxidize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːksɪdaɪz/ &middot; <em>AHK-suh-dyz</em></dd><dt>Русский</dt><dd>окислять(ся), окислить(ся)</dd><dt>Forms</dt><dd><em>oxidize</em> &middot; <em>oxidized</em> &middot; <em>oxidized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>oxidizes</em> &middot; <strong>-ing form:</strong> <em>oxidizing</em></dd><dt>Transitivity</dt><dd>both — transitive (salt air <em>oxidizes</em> the metal), intransitive (iron <em>oxidizes</em> fast)</dd><dt>Contrast</dt><dd>American spelling <em>oxidize</em>; British English writes <em>oxidise</em>.</dd></dl>
+<p>To combine with oxygen, the way iron does when it rusts.</p>
+<ol><li>Iron <em>oxidizes</em> quickly in salt air.</li><li>The copper roof <em>oxidized</em> to a pale green.</li><li>The cut apple was already <em>oxidizing</em> on the counter.</li></ol>
+<hr>
+<h3 id="perish">perish<a class="hash" href="#perish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛrɪʃ/ &middot; <em>PER-ish</em></dd><dt>Русский</dt><dd>погибать, погибнуть; гибнуть</dd><dt>Forms</dt><dd><em>perish</em> &middot; <em>perished</em> &middot; <em>perished</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>perishes</em> &middot; <strong>-ing form:</strong> <em>perishing</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To die because of harsh conditions or a disaster.</p>
+<ol><li>Seedlings <em>perish</em> if the frost comes early.</li><li>Thousands of fish <em>perished</em> when the lake warmed.</li><li>Whole herds have <em>perished</em> in this drought.</li></ol>
+<hr>
+<h3 id="regenerate">regenerate<a class="hash" href="#regenerate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈdʒɛnəreɪt/ &middot; <em>ri-JEN-uh-rayt</em></dd><dt>Русский</dt><dd>восстанавливаться, восстановиться; возрождать(ся)</dd><dt>Forms</dt><dd><em>regenerate</em> &middot; <em>regenerated</em> &middot; <em>regenerated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>regenerates</em> &middot; <strong>-ing form:</strong> <em>regenerating</em></dd><dt>Transitivity</dt><dd>both — transitive (fire <em>regenerates</em> the grassland), intransitive (the forest <em>regenerated</em>)</dd></dl>
+<p>To grow back after being damaged or destroyed.</p>
+<ol><li>Some pines only <em>regenerate</em> after a fire.</li><li>The forest <em>regenerated</em> faster than anyone expected.</li><li>The reef is slowly <em>regenerating</em> where the water stayed cool.</li></ol>
+<hr>
+<h3 id="nourish">nourish<a class="hash" href="#nourish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɜːrɪʃ/ &middot; <em>NUR-ish</em></dd><dt>Русский</dt><dd>питать, напитать; подпитывать</dd><dt>Forms</dt><dd><em>nourish</em> &middot; <em>nourished</em> &middot; <em>nourished</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>nourishes</em> &middot; <strong>-ing form:</strong> <em>nourishing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give something what it needs to live and grow.</p>
+<ol><li>Floods <em>nourish</em> the soil all along the delta.</li><li>Winter rain <em>nourished</em> the grass right through spring.</li><li>The river has been <em>nourishing</em> these fields for centuries.</li></ol>
+<hr>
+<h3 id="teem">teem<a class="hash" href="#teem" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tiːm/ &middot; <em>TEEM</em></dd><dt>Русский</dt><dd>кишеть, изобиловать</dd><dt>Forms</dt><dd><em>teem</em> &middot; <em>teemed</em> &middot; <em>teemed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>teems</em> &middot; <strong>-ing form:</strong> <em>teeming</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Takes <em>with</em>: <em>teeming with fish</em>. Sounds exactly like <em>team</em>.</dd></dl>
+<p>To be completely full of living things that are moving around.</p>
+<ol><li>The marsh <em>teems</em> with birds in April.</li><li>The bay once <em>teemed</em> with salmon.</li><li>The pond was <em>teeming</em> with tadpoles by May.</li></ol>
+<hr>
+<h3 id="protect">protect<a class="hash" href="#protect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈtɛkt/ &middot; <em>pruh-TEKT</em></dd><dt>Русский</dt><dd>защищать, защитить; охранять, оберегать</dd><dt>Forms</dt><dd><em>protect</em> &middot; <em>protected</em> &middot; <em>protected</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>protects</em> &middot; <strong>-ing form:</strong> <em>protecting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Takes <em>from</em> or <em>against</em>: <em>protect the pipes from freezing</em>.</dd></dl>
+<p>To keep someone or something safe from harm.</p>
+<ol><li>The dunes <em>protect</em> the houses behind them from the surf.</li><li>Sandbags <em>protected</em> the shop from two feet of water.</li><li>These wetlands have been <em>protected</em> since 1974.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#protect-from-protect-against">protect from, protect against</a></dd></dl>
+<h3 id="cake">cake<a class="hash" href="#cake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/keɪk/ &middot; <em>KAYK</em></dd><dt>Русский</dt><dd>покрывать коркой, облеплять; спекаться</dd><dt>Forms</dt><dd><em>cake</em> &middot; <em>caked</em> &middot; <em>caked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cakes</em> &middot; <strong>-ing form:</strong> <em>caking</em></dd><dt>Transitivity</dt><dd>both — transitive (mud <em>caked</em> the wheels), intransitive (wet ash <em>cakes</em> and hardens)</dd></dl>
+<p>To cover something in a thick layer that dries hard.</p>
+<ol><li>Wet ash <em>cakes</em> on everything and dries like cement.</li><li>Mud <em>caked</em> the wheels until they barely turned.</li><li>Our boots were <em>caked</em> with red clay.</li></ol>
+<hr>
+<h3 id="part">part<a class="hash" href="#part" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːrt/ &middot; <em>PART</em></dd><dt>Русский</dt><dd>расходиться, разойтись; раздвигать(ся)</dd><dt>Forms</dt><dd><em>part</em> &middot; <em>parted</em> &middot; <em>parted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>parts</em> &middot; <strong>-ing form:</strong> <em>parting</em></dd><dt>Transitivity</dt><dd>both — transitive (the wind <em>parted</em> the fog), intransitive (the clouds <em>parted</em>)</dd></dl>
+<p>To move apart and leave an opening in the middle.</p>
+<ol><li>The clouds <em>part</em> for an hour most afternoons.</li><li>The fog <em>parted</em> just long enough for us to see the island.</li><li>A strip of blue showed where the clouds were <em>parting</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

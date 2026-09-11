@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: relationships</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-relationships">Core verbs: relationships<a class="hash" href="#core-verbs-relationships" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of relationships — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="acclaim">acclaim<a class="hash" href="#acclaim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkleɪm/ &middot; <em>uh-KLAYM</em></dd><dt>Русский</dt><dd>восторженно принимать, высоко оценивать</dd><dt>Forms</dt><dd><em>acclaim</em> &middot; <em>acclaimed</em> &middot; <em>acclaimed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>acclaims</em> &middot; <strong>-ing form:</strong> <em>acclaiming</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Most often used in the passive: <em>a widely acclaimed writer</em>.</dd></dl>
+<p>To praise someone or something publicly and enthusiastically.</p>
+<ol><li>Critics <em>acclaimed</em> the young pianist after her first concert.</li><li>Readers still <em>acclaim</em> him as the finest writer of his generation.</li><li>Her second novel has been widely <em>acclaimed</em>.</li></ol>
+<hr>
+<h3 id="admonish">admonish<a class="hash" href="#admonish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈmɑːnɪʃ/ &middot; <em>uhd-MAH-nish</em></dd><dt>Русский</dt><dd>делать замечание, увещевать</dd><dt>Forms</dt><dd><em>admonish</em> &middot; <em>admonished</em> &middot; <em>admonished</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>admonishes</em> &middot; <strong>-ing form:</strong> <em>admonishing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Ends in -sh, so the third person adds -es: <em>admonishes</em>.</dd></dl>
+<p>To tell someone firmly but not angrily that they have done something wrong.</p>
+<ol><li>Teachers often <em>admonish</em> students who talk during a test.</li><li>The judge <em>admonished</em> him for interrupting.</li><li>She has <em>admonished</em> the boys twice about their language.</li></ol>
+<hr>
+<h3 id="aggravate">aggravate<a class="hash" href="#aggravate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæɡrəveɪt/ &middot; <em>AG-ruh-vayt</em></dd><dt>Русский</dt><dd>раздражать, злить; усугублять</dd><dt>Forms</dt><dd><em>aggravate</em> &middot; <em>aggravated</em> &middot; <em>aggravated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>aggravates</em> &middot; <strong>-ing form:</strong> <em>aggravating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>In American English it means both <em>annoy a person</em> and <em>make a problem worse</em> — the context decides which.</dd></dl>
+<p>To annoy someone, or to make a bad situation worse.</p>
+<ol><li>His constant humming <em>aggravates</em> everyone in the office.</li><li>She <em>aggravated</em> her sister by reading her messages.</li><li>He was <em>aggravating</em> the neighbors with loud music all weekend.</li></ol>
+<hr>
+<h3 id="alienate">alienate<a class="hash" href="#alienate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪliəneɪt/ &middot; <em>AY-lee-uh-nayt</em></dd><dt>Русский</dt><dd>отталкивать от себя, отчуждать</dd><dt>Forms</dt><dd><em>alienate</em> &middot; <em>alienated</em> &middot; <em>alienated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>alienates</em> &middot; <strong>-ing form:</strong> <em>alienating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make people stop being friendly toward you.</p>
+<ol><li>Try not to <em>alienate</em> the people who can still help you.</li><li>His rudeness <em>alienated</em> half the family.</li><li>She is <em>alienating</em> the friends who supported her.</li></ol>
+<hr>
+<h3 id="antagonize">antagonize<a class="hash" href="#antagonize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ænˈtæɡənaɪz/ &middot; <em>an-TAG-uh-nyz</em></dd><dt>Русский</dt><dd>настраивать против себя, злить</dd><dt>Forms</dt><dd><em>antagonize</em> &middot; <em>antagonized</em> &middot; <em>antagonized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>antagonizes</em> &middot; <strong>-ing form:</strong> <em>antagonizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>antagonize</em>; British <em>antagonise</em>.</dd></dl>
+<p>To make someone dislike you or become hostile toward you.</p>
+<ol><li>Try not to <em>antagonize</em> your brother before the trip.</li><li>He <em>antagonized</em> the neighbors by parking in their spot.</li><li>She has <em>antagonized</em> everyone on the committee.</li></ol>
+<hr>
+<h3 id="appease">appease<a class="hash" href="#appease" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpiːz/ &middot; <em>uh-PEEZ</em></dd><dt>Русский</dt><dd>умиротворять, задабривать</dd><dt>Forms</dt><dd><em>appease</em> &middot; <em>appeased</em> &middot; <em>appeased</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>appeases</em> &middot; <strong>-ing form:</strong> <em>appeasing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To calm an angry person by giving them what they want.</p>
+<ol><li>He brought flowers to <em>appease</em> his wife.</li><li>The apology <em>appeased</em> her for about an hour.</li><li>They have been <em>appeasing</em> the angry neighbors all week.</li></ol>
+<hr>
+<h3 id="avoid">avoid<a class="hash" href="#avoid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈvɔɪd/ &middot; <em>uh-VOYD</em></dd><dt>Русский</dt><dd>избегать, избежать</dd><dt>Forms</dt><dd><em>avoid</em> &middot; <em>avoided</em> &middot; <em>avoided</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>avoids</em> &middot; <strong>-ing form:</strong> <em>avoiding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>avoid</em> takes the -ing form, never the infinitive: <em>avoid meeting him</em>, not <em>avoid to meet him</em>.</dd></dl>
+<p>To keep away from a person or a situation on purpose.</p>
+<ol><li>She <em>avoids</em> her ex at every party.</li><li>He <em>avoided</em> me for a week after the argument.</li><li>They have been <em>avoiding</em> each other since the wedding.</li></ol>
+<hr>
+<h3 id="badger">badger<a class="hash" href="#badger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbædʒər/ &middot; <em>BAJ-ur</em></dd><dt>Русский</dt><dd>донимать, изводить (просьбами)</dd><dt>Forms</dt><dd><em>badger</em> &middot; <em>badgered</em> &middot; <em>badgered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>badgers</em> &middot; <strong>-ing form:</strong> <em>badgering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep asking someone for something until they are worn out.</p>
+<ol><li>Don't <em>badger</em> your sister about the money.</li><li>Reporters <em>badgered</em> him with questions for an hour.</li><li>She has been <em>badgering</em> me all month to join her book club.</li></ol>
+<hr>
+<h3 id="badmouth">badmouth<a class="hash" href="#badmouth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbædmaʊθ/ &middot; <em>BAD-mowth</em></dd><dt>Русский</dt><dd>злословить, поносить (за спиной)</dd><dt>Forms</dt><dd><em>badmouth</em> &middot; <em>badmouthed</em> &middot; <em>badmouthed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>badmouths</em> &middot; <strong>-ing form:</strong> <em>badmouthing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To say unkind things about someone behind their back (informal).</p>
+<ol><li>Don't <em>badmouth</em> your coworkers in front of the boss.</li><li>He <em>badmouthed</em> his old team in an interview.</li><li>She has been <em>badmouthing</em> me to all our friends.</li></ol>
+<hr>
+<h3 id="banter">banter<a class="hash" href="#banter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæntər/ &middot; <em>BAN-tur</em></dd><dt>Русский</dt><dd>подшучивать, перебрасываться шутками</dd><dt>Forms</dt><dd><em>banter</em> &middot; <em>bantered</em> &middot; <em>bantered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>banters</em> &middot; <strong>-ing form:</strong> <em>bantering</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To exchange light, friendly jokes with someone.</p>
+<ol><li>The two cousins <em>banter</em> every time they meet.</li><li>They <em>bantered</em> about baseball for an hour.</li><li>He was <em>bantering</em> with the waitress while we waited.</li></ol>
+<hr>
+<h3 id="beckon">beckon<a class="hash" href="#beckon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛkən/ &middot; <em>BEK-uhn</em></dd><dt>Русский</dt><dd>манить, поманить; подзывать жестом</dd><dt>Forms</dt><dd><em>beckon</em> &middot; <em>beckoned</em> &middot; <em>beckoned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>beckons</em> &middot; <strong>-ing form:</strong> <em>beckoning</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>beckon</em> the waiter), intransitive (she <em>beckoned</em> to me)</dd></dl>
+<p>To signal someone to come toward you, usually with your hand.</p>
+<ol><li>The doorman will <em>beckon</em> you when the car arrives.</li><li>She <em>beckoned</em> me over with one finger.</li><li>He stood at the gate, <em>beckoning</em> to the children.</li></ol>
+<hr>
+<h3 id="belittle">belittle<a class="hash" href="#belittle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈlɪtəl/ &middot; <em>bi-LIT-uhl</em></dd><dt>Русский</dt><dd>принижать, умалять</dd><dt>Forms</dt><dd><em>belittle</em> &middot; <em>belittled</em> &middot; <em>belittled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>belittles</em> &middot; <strong>-ing form:</strong> <em>belittling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make a person or their achievements seem small or unimportant.</p>
+<ol><li>Don't <em>belittle</em> what she has accomplished.</li><li>He <em>belittled</em> his wife in front of the guests.</li><li>She felt <em>belittled</em> by his comment about her job.</li></ol>
+<hr>
+<h3 id="berate">berate<a class="hash" href="#berate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈreɪt/ &middot; <em>bi-RAYT</em></dd><dt>Русский</dt><dd>ругать, распекать</dd><dt>Forms</dt><dd><em>berate</em> &middot; <em>berated</em> &middot; <em>berated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>berates</em> &middot; <strong>-ing form:</strong> <em>berating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To scold someone loudly and at length.</p>
+<ol><li>Never <em>berate</em> a child in public.</li><li>The coach <em>berated</em> the team at halftime.</li><li>He has been <em>berating</em> the staff all morning.</li></ol>
+<hr>
+<h3 id="blab">blab<a class="hash" href="#blab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blæb/ &middot; <em>BLAB</em></dd><dt>Русский</dt><dd>разболтать, проболтаться</dd><dt>Forms</dt><dd><em>blab</em> &middot; <em>blabbed</em> &middot; <em>blabbed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>blabs</em> &middot; <strong>-ing form:</strong> <em>blabbing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>blab</em> a secret), intransitive (someone <em>blabbed</em>)</dd><dt>Contrast</dt><dd>The single b doubles: <em>blab → blabbed → blabbing</em>.</dd></dl>
+<p>To tell a secret that you were supposed to keep (informal).</p>
+<ol><li>Don't <em>blab</em> about the surprise party.</li><li>Someone <em>blabbed</em> to her mother.</li><li>He has been <em>blabbing</em> our news all week.</li></ol>
+<hr>
+<h3 id="bond">bond<a class="hash" href="#bond" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːnd/ &middot; <em>BAHND</em></dd><dt>Русский</dt><dd>сближаться, сблизиться</dd><dt>Forms</dt><dd><em>bond</em> &middot; <em>bonded</em> &middot; <em>bonded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bonds</em> &middot; <strong>-ing form:</strong> <em>bonding</em></dd><dt>Transitivity</dt><dd>both — transitive (the trip <em>bonded</em> the group), intransitive (they <em>bonded</em> quickly)</dd><dt>Contrast</dt><dd><em>bond with someone</em> — the preposition is almost always <em>with</em>.</dd></dl>
+<p>To form a close personal connection with someone.</p>
+<ol><li>New parents often <em>bond</em> with other new parents.</li><li>The two men <em>bonded</em> over their love of fishing.</li><li>The team has <em>bonded</em> since the coach changed.</li></ol>
+<hr>
+<h3 id="bug">bug<a class="hash" href="#bug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌɡ/ &middot; <em>BUG</em></dd><dt>Русский</dt><dd>доставать, раздражать</dd><dt>Forms</dt><dd><em>bug</em> &middot; <em>bugged</em> &middot; <em>bugged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>bugs</em> &middot; <strong>-ing form:</strong> <em>bugging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The single g doubles: <em>bug → bugged → bugging</em>.</dd></dl>
+<p>To annoy someone, especially by not leaving them alone (informal).</p>
+<ol><li>Stop <em>bugging</em> me about the car.</li><li>His whistling <em>bugged</em> everyone on the bus.</li><li>It has <em>bugged</em> me for years that she never called back.</li></ol>
+<hr>
+<h3 id="caress">caress<a class="hash" href="#caress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈrɛs/ &middot; <em>kuh-RES</em></dd><dt>Русский</dt><dd>ласкать, приласкать; нежно гладить</dd><dt>Forms</dt><dd><em>caress</em> &middot; <em>caressed</em> &middot; <em>caressed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>caresses</em> &middot; <strong>-ing form:</strong> <em>caressing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Two s's, and the third person adds -es: <em>caresses</em>.</dd></dl>
+<p>To touch someone gently and lovingly.</p>
+<ol><li>She <em>caresses</em> his hand whenever he is nervous.</li><li>He <em>caressed</em> her cheek and said good night.</li><li>She sat <em>caressing</em> the baby's hair until he slept.</li></ol>
+<hr>
+<h3 id="chastise">chastise<a class="hash" href="#chastise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃæsˈtaɪz/ &middot; <em>chas-TYZ</em></dd><dt>Русский</dt><dd>отчитывать, бранить</dd><dt>Forms</dt><dd><em>chastise</em> &middot; <em>chastised</em> &middot; <em>chastised</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>chastises</em> &middot; <strong>-ing form:</strong> <em>chastising</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To criticize someone sharply for something they have done.</p>
+<ol><li>Parents sometimes <em>chastise</em> their children in public.</li><li>The principal <em>chastised</em> the students for the prank.</li><li>He was <em>chastised</em> in the press for his remarks.</li></ol>
+<hr>
+<h3 id="coax">coax<a class="hash" href="#coax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊks/ &middot; <em>KOHKS</em></dd><dt>Русский</dt><dd>уговаривать, уговорить (лаской)</dd><dt>Forms</dt><dd><em>coax</em> &middot; <em>coaxed</em> &middot; <em>coaxed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>coaxes</em> &middot; <strong>-ing form:</strong> <em>coaxing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Ends in -x, so the third person adds -es: <em>coaxes</em>.</dd></dl>
+<p>To gently persuade someone to do something they are unwilling to do.</p>
+<ol><li>It took an hour to <em>coax</em> an apology out of him.</li><li>She <em>coaxed</em> her shy brother into dancing.</li><li>They were <em>coaxing</em> Grandma to stay another night.</li></ol>
+<hr>
+<h3 id="coddle">coddle<a class="hash" href="#coddle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːdəl/ &middot; <em>KAH-duhl</em></dd><dt>Русский</dt><dd>нянчиться, чрезмерно опекать</dd><dt>Forms</dt><dd><em>coddle</em> &middot; <em>coddled</em> &middot; <em>coddled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>coddles</em> &middot; <strong>-ing form:</strong> <em>coddling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To treat someone too gently and protect them from every difficulty.</p>
+<ol><li>Don't <em>coddle</em> the kids so much.</li><li>His parents <em>coddled</em> him well into his twenties.</li><li>She has been <em>coddling</em> her students all semester.</li></ol>
+<hr>
+<h3 id="coexist">coexist<a class="hash" href="#coexist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkoʊɪɡˈzɪst/ &middot; <em>koh-ig-ZIST</em></dd><dt>Русский</dt><dd>сосуществовать, уживаться</dd><dt>Forms</dt><dd><em>coexist</em> &middot; <em>coexisted</em> &middot; <em>coexisted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>coexists</em> &middot; <strong>-ing form:</strong> <em>coexisting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The -x- here sounds like gz: koh-ig-ZIST.</dd></dl>
+<p>To live near or with other people without fighting.</p>
+<ol><li>The two families <em>coexist</em> peacefully on the same street.</li><li>For years the groups <em>coexisted</em> without trouble.</li><li>They have <em>coexisted</em> in one apartment since March.</li></ol>
+<hr>
+<h3 id="condone">condone<a class="hash" href="#condone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈdoʊn/ &middot; <em>kuhn-DOHN</em></dd><dt>Русский</dt><dd>мириться (с чем-л.), оправдывать</dd><dt>Forms</dt><dd><em>condone</em> &middot; <em>condoned</em> &middot; <em>condoned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>condones</em> &middot; <strong>-ing form:</strong> <em>condoning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To accept behavior that most people think is wrong.</p>
+<ol><li>The school does not <em>condone</em> bullying.</li><li>She <em>condoned</em> his rudeness for years.</li><li>By saying nothing, he has <em>condoned</em> their behavior.</li></ol>
+<hr>
+<h3 id="confide">confide<a class="hash" href="#confide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈfaɪd/ &middot; <em>kuhn-FYD</em></dd><dt>Русский</dt><dd>доверяться, делиться сокровенным</dd><dt>Forms</dt><dd><em>confide</em> &middot; <em>confided</em> &middot; <em>confided</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>confides</em> &middot; <strong>-ing form:</strong> <em>confiding</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>confide</em> a secret), intransitive (<em>confide</em> in a friend)</dd><dt>Contrast</dt><dd>You <em>confide in</em> a person, but you <em>confide</em> a secret <em>to</em> someone.</dd></dl>
+<p>To tell someone private things because you trust them.</p>
+<ol><li>He <em>confides</em> only in his oldest friend.</li><li>She <em>confided</em> in her sister about the divorce.</li><li>I have never <em>confided</em> that to anyone.</li></ol>
+<hr>
+<h3 id="congregate">congregate<a class="hash" href="#congregate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːŋɡrɪɡeɪt/ &middot; <em>KAHNG-gruh-gayt</em></dd><dt>Русский</dt><dd>собираться, скапливаться</dd><dt>Forms</dt><dd><em>congregate</em> &middot; <em>congregated</em> &middot; <em>congregated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>congregates</em> &middot; <strong>-ing form:</strong> <em>congregating</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To come together in a group in one place.</p>
+<ol><li>Students <em>congregate</em> in the hallway between classes.</li><li>A crowd <em>congregated</em> outside the church.</li><li>People were <em>congregating</em> near the entrance.</li></ol>
+<hr>
+<h3 id="court">court<a class="hash" href="#court" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːrt/ &middot; <em>KORT</em></dd><dt>Русский</dt><dd>ухаживать (за кем-л.); добиваться расположения</dd><dt>Forms</dt><dd><em>court</em> &middot; <em>courted</em> &middot; <em>courted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>courts</em> &middot; <strong>-ing form:</strong> <em>courting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To try to win someone's love or support over a period of time.</p>
+<ol><li>Companies <em>court</em> students at job fairs.</li><li>He <em>courted</em> her for two years before proposing.</li><li>The candidate is <em>courting</em> younger voters.</li></ol>
+<hr>
+<h3 id="cuddle">cuddle<a class="hash" href="#cuddle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌdəl/ &middot; <em>KUH-duhl</em></dd><dt>Русский</dt><dd>обниматься, прижимать(ся)</dd><dt>Forms</dt><dd><em>cuddle</em> &middot; <em>cuddled</em> &middot; <em>cuddled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cuddles</em> &middot; <strong>-ing form:</strong> <em>cuddling</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>cuddle</em> the baby), intransitive (they <em>cuddled</em> on the couch)</dd></dl>
+<p>To hold someone close in your arms to show affection.</p>
+<ol><li>They like to <em>cuddle</em> on the couch and watch movies.</li><li>She <em>cuddled</em> the baby until he fell asleep.</li><li>The kids were <em>cuddling</em> under one blanket.</li></ol>
+<hr>
+<h3 id="deserve">deserve<a class="hash" href="#deserve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzɜːrv/ &middot; <em>di-ZURV</em></dd><dt>Русский</dt><dd>заслуживать, заслужить</dd><dt>Forms</dt><dd><em>deserve</em> &middot; <em>deserved</em> &middot; <em>deserved</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>deserves</em> &middot; <strong>-ing form:</strong> <em>deserving</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>A state verb: say <em>he deserves it</em>, not <em>he is deserving it</em>.</dd></dl>
+<p>To have earned something by what you are or what you have done.</p>
+<ol><li>She <em>deserves</em> a better friend than him.</li><li>He <em>deserved</em> that apology and never got it.</li><li>They have <em>deserved</em> every bit of their good luck.</li></ol>
+<hr>
+<h3 id="disdain">disdain<a class="hash" href="#disdain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈdeɪn/ &middot; <em>dis-DAYN</em></dd><dt>Русский</dt><dd>презирать, относиться с пренебрежением</dd><dt>Forms</dt><dd><em>disdain</em> &middot; <em>disdained</em> &middot; <em>disdained</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>disdains</em> &middot; <strong>-ing form:</strong> <em>disdaining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To consider someone or something beneath your attention.</p>
+<ol><li>He <em>disdains</em> small talk at parties.</li><li>She <em>disdained</em> their offer of help.</li><li>They have always <em>disdained</em> people who brag.</li></ol>
+<hr>
+<h3 id="disgrace">disgrace<a class="hash" href="#disgrace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈɡreɪs/ &middot; <em>dis-GRAYS</em></dd><dt>Русский</dt><dd>позорить, опозорить</dd><dt>Forms</dt><dd><em>disgrace</em> &middot; <em>disgraced</em> &middot; <em>disgraced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>disgraces</em> &middot; <strong>-ing form:</strong> <em>disgracing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To bring shame on a person or a family.</p>
+<ol><li>She refused to <em>disgrace</em> her parents' name.</li><li>He <em>disgraced</em> the family with his behavior at the wedding.</li><li>The former mayor has been <em>disgraced</em> by the scandal.</li></ol>
+<hr>
+<h3 id="disown">disown<a class="hash" href="#disown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈoʊn/ &middot; <em>dis-OHN</em></dd><dt>Русский</dt><dd>отрекаться, отречься (от родных)</dd><dt>Forms</dt><dd><em>disown</em> &middot; <em>disowned</em> &middot; <em>disowned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>disowns</em> &middot; <strong>-ing form:</strong> <em>disowning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To say publicly that you no longer consider someone part of your family.</p>
+<ol><li>Her father threatened to <em>disown</em> her.</li><li>They <em>disowned</em> their son after the trial.</li><li>He has been <em>disowned</em> by the whole family.</li></ol>
+<hr>
+<h3 id="disrespect">disrespect<a class="hash" href="#disrespect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪsrɪˈspɛkt/ &middot; <em>dis-ri-SPEKT</em></dd><dt>Русский</dt><dd>не уважать, проявлять неуважение</dd><dt>Forms</dt><dd><em>disrespect</em> &middot; <em>disrespected</em> &middot; <em>disrespected</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>disrespects</em> &middot; <strong>-ing form:</strong> <em>disrespecting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To treat someone rudely, as if they did not deserve respect.</p>
+<ol><li>Don't <em>disrespect</em> your grandmother like that.</li><li>He felt she had <em>disrespected</em> him in front of his friends.</li><li>You are <em>disrespecting</em> everyone who worked on this.</li></ol>
+<hr>
+<h3 id="distrust">distrust<a class="hash" href="#distrust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈtrʌst/ &middot; <em>dis-TRUST</em></dd><dt>Русский</dt><dd>не доверять, испытывать недоверие</dd><dt>Forms</dt><dd><em>distrust</em> &middot; <em>distrusted</em> &middot; <em>distrusted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>distrusts</em> &middot; <strong>-ing form:</strong> <em>distrusting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To feel that someone cannot be trusted.</p>
+<ol><li>She <em>distrusts</em> anyone who talks too much.</li><li>He <em>distrusted</em> his new neighbors from the start.</li><li>Voters have <em>distrusted</em> him since the scandal.</li></ol>
+<hr>
+<h3 id="ditch">ditch<a class="hash" href="#ditch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪtʃ/ &middot; <em>DICH</em></dd><dt>Русский</dt><dd>бросать, бросить (кого-л.), кинуть</dd><dt>Forms</dt><dd><em>ditch</em> &middot; <em>ditched</em> &middot; <em>ditched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ditches</em> &middot; <strong>-ing form:</strong> <em>ditching</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Ends in -ch, so the third person adds -es: <em>ditches</em>.</dd></dl>
+<p>To leave a person you are with, suddenly and without warning (informal).</p>
+<ol><li>Don't <em>ditch</em> your friends for a new boyfriend.</li><li>She <em>ditched</em> us at the mall and went home.</li><li>He has been <em>ditching</em> class to see her.</li></ol>
+<hr>
+<h3 id="dominate">dominate<a class="hash" href="#dominate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːməneɪt/ &middot; <em>DAH-muh-nayt</em></dd><dt>Русский</dt><dd>доминировать, подавлять</dd><dt>Forms</dt><dd><em>dominate</em> &middot; <em>dominated</em> &middot; <em>dominated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>dominates</em> &middot; <strong>-ing form:</strong> <em>dominating</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>dominate</em> the conversation), intransitive (one voice always <em>dominates</em>)</dd></dl>
+<p>To control a person or a group, or to take up most of the attention.</p>
+<ol><li>One family <em>dominates</em> the town's politics.</li><li>Her older brother <em>dominated</em> every conversation.</li><li>He has been <em>dominating</em> the group since he joined.</li></ol>
+<hr>
+<h3 id="dote">dote<a class="hash" href="#dote" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/doʊt/ &middot; <em>DOHT</em></dd><dt>Русский</dt><dd>души не чаять, обожать</dd><dt>Forms</dt><dd><em>dote</em> &middot; <em>doted</em> &middot; <em>doted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>dotes</em> &middot; <strong>-ing form:</strong> <em>doting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Always with <em>on</em> or <em>upon</em>: <em>dote on someone</em>.</dd></dl>
+<p>To love someone so much that you give them constant attention.</p>
+<ol><li>Grandparents <em>dote</em> on a first grandchild.</li><li>She <em>doted</em> on her little brother.</li><li>He has always <em>doted</em> on his wife.</li></ol>
+<hr>
+<h3 id="elope">elope<a class="hash" href="#elope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈloʊp/ &middot; <em>i-LOHP</em></dd><dt>Русский</dt><dd>тайно сбежать, чтобы пожениться</dd><dt>Forms</dt><dd><em>elope</em> &middot; <em>eloped</em> &middot; <em>eloped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>elopes</em> &middot; <strong>-ing form:</strong> <em>eloping</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To run away with someone in order to marry quietly, without a big wedding.</p>
+<ol><li>Some couples <em>elope</em> to save money.</li><li>They <em>eloped</em> to Las Vegas last spring.</li><li>By the time we heard, they had already <em>eloped</em>.</li></ol>
+<hr>
+<h3 id="encounter">encounter<a class="hash" href="#encounter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈkaʊntər/ &middot; <em>in-KOWN-tur</em></dd><dt>Русский</dt><dd>встречать, встретить (случайно); сталкиваться</dd><dt>Forms</dt><dd><em>encounter</em> &middot; <em>encountered</em> &middot; <em>encountered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>encounters</em> &middot; <strong>-ing form:</strong> <em>encountering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To meet someone unexpectedly, or to run into a difficulty.</p>
+<ol><li>You may <em>encounter</em> some resistance from his family.</li><li>We <em>encountered</em> an old classmate at the airport.</li><li>She has <em>encountered</em> the same rudeness before.</li></ol>
+<hr>
+<h3 id="endear">endear<a class="hash" href="#endear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdɪr/ &middot; <em>in-DEER</em></dd><dt>Русский</dt><dd>располагать к себе, вызывать симпатию</dd><dt>Forms</dt><dd><em>endear</em> &middot; <em>endeared</em> &middot; <em>endeared</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>endears</em> &middot; <strong>-ing form:</strong> <em>endearing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Almost always <em>endear yourself to someone</em> or <em>endear someone to someone</em>.</dd></dl>
+<p>To make someone liked by other people.</p>
+<ol><li>Complaining about the food will not <em>endear</em> you to your hosts.</li><li>She <em>endeared</em> herself to the neighbors by shoveling their walks.</li><li>That habit has not <em>endeared</em> him to his in-laws.</li></ol>
+<hr>
+<h3 id="estrange">estrange<a class="hash" href="#estrange" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈstreɪndʒ/ &middot; <em>i-STRAYNJ</em></dd><dt>Русский</dt><dd>отдалять, делать чужими</dd><dt>Forms</dt><dd><em>estrange</em> &middot; <em>estranged</em> &middot; <em>estranged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>estranges</em> &middot; <strong>-ing form:</strong> <em>estranging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Usually in the participle: <em>his estranged wife</em>, <em>estranged from her family</em>.</dd></dl>
+<p>To cause people who were close to become distant from each other.</p>
+<ol><li>Money can <em>estrange</em> even the closest friends.</li><li>The argument <em>estranged</em> him from his brother.</li><li>She has been <em>estranged</em> from her father for years.</li></ol>
+<hr>
+<h3 id="exclude">exclude<a class="hash" href="#exclude" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈskluːd/ &middot; <em>ik-SKLOOD</em></dd><dt>Русский</dt><dd>исключать, не допускать</dd><dt>Forms</dt><dd><em>exclude</em> &middot; <em>excluded</em> &middot; <em>excluded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>excludes</em> &middot; <strong>-ing form:</strong> <em>excluding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>exclude someone from something</em> — the preposition is <em>from</em>.</dd></dl>
+<p>To deliberately keep someone out of a group or an activity.</p>
+<ol><li>Please don't <em>exclude</em> the younger kids.</li><li>They <em>excluded</em> him from the group chat.</li><li>She has felt <em>excluded</em> ever since the move.</li></ol>
+<hr>
+<h3 id="exploit">exploit<a class="hash" href="#exploit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsplɔɪt/ &middot; <em>ik-SPLOYT</em></dd><dt>Русский</dt><dd>эксплуатировать, использовать в своих целях</dd><dt>Forms</dt><dd><em>exploit</em> &middot; <em>exploited</em> &middot; <em>exploited</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>exploits</em> &middot; <strong>-ing form:</strong> <em>exploiting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is ik-SPLOYT; the noun <em>exploit</em> (a brave deed) is EK-sployt.</dd></dl>
+<p>To use a person unfairly for your own benefit.</p>
+<ol><li>Some employers <em>exploit</em> workers who are new to the country.</li><li>He <em>exploited</em> his sister's kindness for years.</li><li>She felt <em>exploited</em> by her so-called friends.</li></ol>
+<hr>
+<h3 id="favor">favor<a class="hash" href="#favor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfeɪvər/ &middot; <em>FAY-vur</em></dd><dt>Русский</dt><dd>отдавать предпочтение, благоволить</dd><dt>Forms</dt><dd><em>favor</em> &middot; <em>favored</em> &middot; <em>favored</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>favors</em> &middot; <strong>-ing form:</strong> <em>favoring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>favor, favored, favoring</em>; British <em>favour, favoured, favouring</em>.</dd></dl>
+<p>To treat one person better than others, or to prefer one option.</p>
+<ol><li>Their mother clearly <em>favors</em> the youngest.</li><li>The judges <em>favored</em> the local team.</li><li>He has always <em>favored</em> his oldest friends.</li></ol>
+<hr>
+<h3 id="feud">feud<a class="hash" href="#feud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fjuːd/ &middot; <em>FYOOD</em></dd><dt>Русский</dt><dd>враждовать, быть в давней ссоре</dd><dt>Forms</dt><dd><em>feud</em> &middot; <em>feuded</em> &middot; <em>feuded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>feuds</em> &middot; <strong>-ing form:</strong> <em>feuding</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To carry on a long, bitter quarrel with another person or family.</p>
+<ol><li>They <em>feud</em> over everything, even parking spots.</li><li>The two families <em>feuded</em> for three generations.</li><li>The brothers were <em>feuding</em> again at Thanksgiving.</li></ol>
+<hr>
+<h3 id="flirt">flirt<a class="hash" href="#flirt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɜːrt/ &middot; <em>FLURT</em></dd><dt>Русский</dt><dd>флиртовать, заигрывать</dd><dt>Forms</dt><dd><em>flirt</em> &middot; <em>flirted</em> &middot; <em>flirted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>flirts</em> &middot; <strong>-ing form:</strong> <em>flirting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>flirt with someone</em> — never takes a direct object.</dd></dl>
+<p>To behave playfully toward someone to show you find them attractive.</p>
+<ol><li>He <em>flirts</em> with everyone at the office.</li><li>She <em>flirted</em> with him all evening.</li><li>They were <em>flirting</em> by the coffee machine.</li></ol>
+<hr>
+<h3 id="fool">fool<a class="hash" href="#fool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fuːl/ &middot; <em>FOOL</em></dd><dt>Русский</dt><dd>обманывать, одурачить</dd><dt>Forms</dt><dd><em>fool</em> &middot; <em>fooled</em> &middot; <em>fooled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>fools</em> &middot; <strong>-ing form:</strong> <em>fooling</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>fool</em> your friends), intransitive (stop <em>fooling</em> and sit down)</dd></dl>
+<p>To trick someone into believing something that is not true.</p>
+<ol><li>You can't <em>fool</em> your own mother.</li><li>He <em>fooled</em> us all with that story about his uncle.</li><li>She has been <em>fooling</em> people for years.</li></ol>
+<hr>
+<h3 id="fuss">fuss<a class="hash" href="#fuss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fʌs/ &middot; <em>FUS</em></dd><dt>Русский</dt><dd>суетиться, хлопотать; носиться (с кем-л.)</dd><dt>Forms</dt><dd><em>fuss</em> &middot; <em>fussed</em> &middot; <em>fussed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>fusses</em> &middot; <strong>-ing form:</strong> <em>fussing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>fuss over someone</em> = хлопотать вокруг; <em>fuss about something</em> = ворчать из-за. Third person adds -es: <em>fusses</em>.</dd></dl>
+<p>To give someone a lot of anxious attention, or to worry aloud about small things.</p>
+<ol><li>Grandma always <em>fusses</em> over the grandchildren.</li><li>He <em>fussed</em> about the seating chart all night.</li><li>Stop <em>fussing</em> — the guests won't notice.</li></ol>
+<hr>
+<h3 id="grin">grin<a class="hash" href="#grin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrɪn/ &middot; <em>GRIN</em></dd><dt>Русский</dt><dd>ухмыляться, широко улыбаться</dd><dt>Forms</dt><dd><em>grin</em> &middot; <em>grinned</em> &middot; <em>grinned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>grins</em> &middot; <strong>-ing form:</strong> <em>grinning</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The single n doubles: <em>grin → grinned → grinning</em>.</dd></dl>
+<p>To smile very widely, showing your teeth.</p>
+<ol><li>She <em>grins</em> every time he tells that joke.</li><li>He <em>grinned</em> when he saw her at the door.</li><li>They stood there <em>grinning</em> at each other.</li></ol>
+<hr>
+<h3 id="ground">ground<a class="hash" href="#ground" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡraʊnd/ &middot; <em>GROWND</em></dd><dt>Русский</dt><dd>наказывать домашним арестом, запрещать выходить</dd><dt>Forms</dt><dd><em>ground</em> &middot; <em>grounded</em> &middot; <em>grounded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>grounds</em> &middot; <strong>-ing form:</strong> <em>grounding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>This verb is regular — <em>grounded</em>. The identical form <em>ground</em> is also the past of the different verb <em>grind</em>.</dd></dl>
+<p>To punish a child by not letting them go out with friends.</p>
+<ol><li>If you lie to me again, I will <em>ground</em> you.</li><li>His parents <em>grounded</em> him for two weeks.</li><li>She has been <em>grounded</em> since the party.</li></ol>
+<hr>
+<h3 id="grovel">grovel<a class="hash" href="#grovel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrɑːvəl/ &middot; <em>GRAH-vuhl</em></dd><dt>Русский</dt><dd>пресмыкаться, унижаться, вымаливать прощение</dd><dt>Forms</dt><dd><em>grovel</em> &middot; <em>groveled</em> &middot; <em>groveled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>grovels</em> &middot; <strong>-ing form:</strong> <em>groveling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>American <em>groveled, groveling</em> (one l); British <em>grovelled, grovelling</em>.</dd></dl>
+<p>To apologize or beg in a way that shows too much humility.</p>
+<ol><li>You don't have to <em>grovel</em> — just apologize.</li><li>He <em>groveled</em> for a week before she forgave him.</li><li>She was still <em>groveling</em> the next morning.</li></ol>
+<hr>
+<h3 id="hassle">hassle<a class="hash" href="#hassle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæsəl/ &middot; <em>HAS-uhl</em></dd><dt>Русский</dt><dd>доставать, донимать, приставать</dd><dt>Forms</dt><dd><em>hassle</em> &middot; <em>hassled</em> &middot; <em>hassled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>hassles</em> &middot; <strong>-ing form:</strong> <em>hassling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To bother someone repeatedly with demands or questions (informal).</p>
+<ol><li>Quit <em>hassling</em> your sister.</li><li>The kids <em>hassled</em> him for ice cream all afternoon.</li><li>Security has <em>hassled</em> him twice about his badge.</li></ol>
+<hr>
+<h3 id="heckle">heckle<a class="hash" href="#heckle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛkəl/ &middot; <em>HEK-uhl</em></dd><dt>Русский</dt><dd>перебивать выкриками, освистывать</dd><dt>Forms</dt><dd><em>heckle</em> &middot; <em>heckled</em> &middot; <em>heckled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>heckles</em> &middot; <strong>-ing form:</strong> <em>heckling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To interrupt a speaker or performer with rude shouts.</p>
+<ol><li>Fans <em>heckle</em> the visiting team every year.</li><li>Someone in the back <em>heckled</em> the comedian.</li><li>He was <em>heckling</em> the speaker until security came.</li></ol>
+<hr>
+<h3 id="humor">humor<a class="hash" href="#humor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhjuːmər/ &middot; <em>HYOO-mur</em></dd><dt>Русский</dt><dd>потакать, подыгрывать (чтобы не расстроить)</dd><dt>Forms</dt><dd><em>humor</em> &middot; <em>humored</em> &middot; <em>humored</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>humors</em> &middot; <strong>-ing form:</strong> <em>humoring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>humor, humored</em>; British <em>humour, humoured</em>.</dd></dl>
+<p>To go along with what someone wants so they will not be upset.</p>
+<ol><li>Just <em>humor</em> him and listen to the story again.</li><li>She <em>humored</em> her grandfather for an hour.</li><li>We have been <em>humoring</em> him all evening.</li></ol>
+<hr>
+<h3 id="idolize">idolize<a class="hash" href="#idolize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪdəlaɪz/ &middot; <em>EYE-duh-lyz</em></dd><dt>Русский</dt><dd>боготворить, обожать</dd><dt>Forms</dt><dd><em>idolize</em> &middot; <em>idolized</em> &middot; <em>idolized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>idolizes</em> &middot; <strong>-ing form:</strong> <em>idolizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>idolize</em>; British <em>idolise</em>.</dd></dl>
+<p>To admire someone so much that you see no faults in them.</p>
+<ol><li>Kids <em>idolize</em> athletes they have never met.</li><li>He <em>idolized</em> his older brother.</li><li>She has <em>idolized</em> that singer since middle school.</li></ol>
+<hr>
+<h3 id="include">include<a class="hash" href="#include" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈkluːd/ &middot; <em>in-KLOOD</em></dd><dt>Русский</dt><dd>включать, включить (в круг)</dd><dt>Forms</dt><dd><em>include</em> &middot; <em>included</em> &middot; <em>included</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>includes</em> &middot; <strong>-ing form:</strong> <em>including</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>include someone in something</em> — the preposition is <em>in</em>.</dd></dl>
+<p>To make someone part of a group or an activity.</p>
+<ol><li>Be sure to <em>include</em> the new kid in the game.</li><li>They <em>included</em> us in every family holiday.</li><li>She has <em>included</em> her stepson in all the plans.</li></ol>
+<hr>
+<h3 id="indulge">indulge<a class="hash" href="#indulge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdʌldʒ/ &middot; <em>in-DULJ</em></dd><dt>Русский</dt><dd>потакать, баловать; предаваться</dd><dt>Forms</dt><dd><em>indulge</em> &middot; <em>indulged</em> &middot; <em>indulged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>indulges</em> &middot; <strong>-ing form:</strong> <em>indulging</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>indulge</em> the children), intransitive (<em>indulge</em> in gossip)</dd><dt>Contrast</dt><dd><em>indulge someone</em> = потакать кому-л.; <em>indulge in something</em> = позволить себе что-л.</dd></dl>
+<p>To let someone have whatever they want, or to allow yourself a pleasure.</p>
+<ol><li>She <em>indulges</em> her nephews terribly.</li><li>He <em>indulged</em> in a long lunch with old friends.</li><li>They have been <em>indulging</em> the baby since day one.</li></ol>
+<hr>
+<h3 id="interfere">interfere<a class="hash" href="#interfere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntərˈfɪr/ &middot; <em>in-tur-FEER</em></dd><dt>Русский</dt><dd>вмешиваться, мешать</dd><dt>Forms</dt><dd><em>interfere</em> &middot; <em>interfered</em> &middot; <em>interfered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>interferes</em> &middot; <strong>-ing form:</strong> <em>interfering</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>interfere in</em> someone's business, but <em>interfere with</em> a plan or a relationship.</dd></dl>
+<p>To involve yourself in someone else's affairs when you are not wanted.</p>
+<ol><li>Her mother <em>interferes</em> in every decision they make.</li><li>He <em>interfered</em> once too often and lost a friend.</li><li>Work has been <em>interfering</em> with their marriage.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#interfere-with-interfere-in">interfere with, interfere in</a></dd></dl>
+<h3 id="intrude">intrude<a class="hash" href="#intrude" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtruːd/ &middot; <em>in-TROOD</em></dd><dt>Русский</dt><dd>вторгаться, навязываться</dd><dt>Forms</dt><dd><em>intrude</em> &middot; <em>intruded</em> &middot; <em>intruded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>intrudes</em> &middot; <strong>-ing form:</strong> <em>intruding</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>intrude on</em> or <em>intrude upon</em> someone.</dd></dl>
+<p>To come into a place or a situation where you are not welcome.</p>
+<ol><li>I don't want to <em>intrude</em> on your evening.</li><li>Reporters <em>intruded</em> on the family's grief.</li><li>She felt he was <em>intruding</em> into her private life.</li></ol>
+<hr>
+<h3 id="irk">irk<a class="hash" href="#irk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɜːrk/ &middot; <em>URK</em></dd><dt>Русский</dt><dd>раздражать, досаждать</dd><dt>Forms</dt><dd><em>irk</em> &middot; <em>irked</em> &middot; <em>irked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>irks</em> &middot; <strong>-ing form:</strong> <em>irking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To annoy someone in a small but persistent way.</p>
+<ol><li>His constant advice <em>irks</em> his brother.</li><li>It <em>irked</em> her that no one thanked her.</li><li>The noise has <em>irked</em> the neighbors for months.</li></ol>
+<hr>
+<h3 id="isolate">isolate<a class="hash" href="#isolate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪsəleɪt/ &middot; <em>EYE-suh-layt</em></dd><dt>Русский</dt><dd>изолировать, отдалять</dd><dt>Forms</dt><dd><em>isolate</em> &middot; <em>isolated</em> &middot; <em>isolated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>isolates</em> &middot; <strong>-ing form:</strong> <em>isolating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep a person apart from other people.</p>
+<ol><li>Don't <em>isolate</em> yourself from your friends.</li><li>Shyness <em>isolated</em> him all through high school.</li><li>She has been <em>isolating</em> herself since the breakup.</li></ol>
+<hr>
+<h3 id="jeer">jeer<a class="hash" href="#jeer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɪr/ &middot; <em>JEER</em></dd><dt>Русский</dt><dd>насмехаться, улюлюкать</dd><dt>Forms</dt><dd><em>jeer</em> &middot; <em>jeered</em> &middot; <em>jeered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>jeers</em> &middot; <strong>-ing form:</strong> <em>jeering</em></dd><dt>Transitivity</dt><dd>both — transitive (the crowd <em>jeered</em> him), intransitive (they <em>jeered</em> at the referee)</dd></dl>
+<p>To shout rude, mocking remarks at someone.</p>
+<ol><li>Boys on the corner <em>jeer</em> at anyone in a suit.</li><li>The crowd <em>jeered</em> when he dropped the ball.</li><li>They were <em>jeering</em> at the visiting team all night.</li></ol>
+<hr>
+<h3 id="kid">kid<a class="hash" href="#kid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɪd/ &middot; <em>KID</em></dd><dt>Русский</dt><dd>шутить, подшучивать, разыгрывать</dd><dt>Forms</dt><dd><em>kid</em> &middot; <em>kidded</em> &middot; <em>kidded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>kids</em> &middot; <strong>-ing form:</strong> <em>kidding</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>kid</em> your brother), intransitive (I'm only <em>kidding</em>)</dd><dt>Contrast</dt><dd>The single d doubles: <em>kid → kidded → kidding</em>.</dd></dl>
+<p>To say something as a joke, especially to tease someone (informal).</p>
+<ol><li>Don't <em>kid</em> yourself — she isn't coming back.</li><li>He <em>kidded</em> his sister about her new haircut.</li><li>I was only <em>kidding</em>, and she knew it.</li></ol>
+<hr>
+<h3 id="meddle">meddle<a class="hash" href="#meddle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛdəl/ &middot; <em>MED-uhl</em></dd><dt>Русский</dt><dd>вмешиваться, лезть не в своё дело</dd><dt>Forms</dt><dd><em>meddle</em> &middot; <em>meddled</em> &middot; <em>meddled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>meddles</em> &middot; <strong>-ing form:</strong> <em>meddling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>meddle in</em> someone's affairs. Sounds exactly like the noun <em>medal</em> (медаль).</dd></dl>
+<p>To interfere in matters that are none of your business.</p>
+<ol><li>His aunt <em>meddles</em> in everyone's marriage.</li><li>She <em>meddled</em> once and lost a friend.</li><li>Stop <em>meddling</em> in things that don't concern you.</li></ol>
+<hr>
+<h3 id="mingle">mingle<a class="hash" href="#mingle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪŋɡəl/ &middot; <em>MING-guhl</em></dd><dt>Русский</dt><dd>общаться (с гостями), смешиваться с толпой</dd><dt>Forms</dt><dd><em>mingle</em> &middot; <em>mingled</em> &middot; <em>mingled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>mingles</em> &middot; <strong>-ing form:</strong> <em>mingling</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>mingle</em> the two groups), intransitive (she <em>mingled</em> with the guests)</dd><dt>Contrast</dt><dd><em>mingle with someone</em> — the preposition is <em>with</em>.</dd></dl>
+<p>To move around at a party talking to many different people.</p>
+<ol><li>Try to <em>mingle</em> instead of standing by the door.</li><li>The host <em>mingled</em> with her guests all evening.</li><li>They were <em>mingling</em> near the bar when we arrived.</li></ol>
+<hr>
+<h3 id="mistreat">mistreat<a class="hash" href="#mistreat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɪsˈtriːt/ &middot; <em>mis-TREET</em></dd><dt>Русский</dt><dd>плохо обращаться, дурно обходиться</dd><dt>Forms</dt><dd><em>mistreat</em> &middot; <em>mistreated</em> &middot; <em>mistreated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>mistreats</em> &middot; <strong>-ing form:</strong> <em>mistreating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To treat a person cruelly or unfairly.</p>
+<ol><li>No one should <em>mistreat</em> a guest.</li><li>They <em>mistreated</em> the old man for years.</li><li>She has been <em>mistreated</em> by everyone she trusted.</li></ol>
+<hr>
+<h3 id="mistrust">mistrust<a class="hash" href="#mistrust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɪsˈtrʌst/ &middot; <em>mis-TRUST</em></dd><dt>Русский</dt><dd>не доверять, относиться с недоверием</dd><dt>Forms</dt><dd><em>mistrust</em> &middot; <em>mistrusted</em> &middot; <em>mistrusted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>mistrusts</em> &middot; <strong>-ing form:</strong> <em>mistrusting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>mistrust</em> and <em>distrust</em> mean nearly the same thing; <em>distrust</em> is the more common of the two in American English.</dd></dl>
+<p>To have doubts about whether someone can be trusted.</p>
+<ol><li>He <em>mistrusts</em> anyone who is too friendly too fast.</li><li>She <em>mistrusted</em> his sudden kindness.</li><li>They have <em>mistrusted</em> each other since the argument.</li></ol>
+<hr>
+<h3 id="nitpick">nitpick<a class="hash" href="#nitpick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɪtpɪk/ &middot; <em>NIT-pik</em></dd><dt>Русский</dt><dd>придираться к мелочам</dd><dt>Forms</dt><dd><em>nitpick</em> &middot; <em>nitpicked</em> &middot; <em>nitpicked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>nitpicks</em> &middot; <strong>-ing form:</strong> <em>nitpicking</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>nitpick</em> every sentence), intransitive (he <em>nitpicks</em> constantly)</dd></dl>
+<p>To find fault with tiny details that do not matter.</p>
+<ol><li>He <em>nitpicks</em> everything she cooks.</li><li>They <em>nitpicked</em> about the seating chart for an hour.</li><li>Stop <em>nitpicking</em> and enjoy the party.</li></ol>
+<hr>
+<h3 id="oblige">oblige<a class="hash" href="#oblige" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈblaɪdʒ/ &middot; <em>uh-BLYJ</em></dd><dt>Русский</dt><dd>обязывать; оказывать услугу, уважить</dd><dt>Forms</dt><dd><em>oblige</em> &middot; <em>obliged</em> &middot; <em>obliged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>obliges</em> &middot; <strong>-ing form:</strong> <em>obliging</em></dd><dt>Transitivity</dt><dd>both — transitive (duty <em>obliges</em> us), intransitive (she asked, and he <em>obliged</em>)</dd><dt>Contrast</dt><dd><em>be obliged to do something</em> = быть обязанным сделать что-л.</dd></dl>
+<p>To force someone by duty to do something, or to do a favor they asked for.</p>
+<ol><li>Family ties <em>oblige</em> us to visit at least twice a year.</li><li>She asked for one more song, and the band <em>obliged</em>.</li><li>He felt <em>obliged</em> to invite his cousin.</li></ol>
+<hr>
+<h3 id="ostracize">ostracize<a class="hash" href="#ostracize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːstrəsaɪz/ &middot; <em>AH-struh-syz</em></dd><dt>Русский</dt><dd>подвергать остракизму, изгонять из общества</dd><dt>Forms</dt><dd><em>ostracize</em> &middot; <em>ostracized</em> &middot; <em>ostracized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>ostracizes</em> &middot; <strong>-ing form:</strong> <em>ostracizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>ostracize</em>; British <em>ostracise</em>.</dd></dl>
+<p>To shut someone out of a group completely.</p>
+<ol><li>Small towns sometimes <em>ostracize</em> anyone who is different.</li><li>The other girls <em>ostracized</em> her after the rumor spread.</li><li>No one wants to be <em>ostracized</em> by their own family.</li></ol>
+<hr>
+<h3 id="pamper">pamper<a class="hash" href="#pamper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæmpər/ &middot; <em>PAM-pur</em></dd><dt>Русский</dt><dd>баловать, холить и лелеять</dd><dt>Forms</dt><dd><em>pamper</em> &middot; <em>pampered</em> &middot; <em>pampered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pampers</em> &middot; <strong>-ing form:</strong> <em>pampering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To treat someone with great care and comfort.</p>
+<ol><li>He <em>pampers</em> his wife on her birthday.</li><li>They <em>pampered</em> their guests with breakfast in bed.</li><li>She has been <em>pampering</em> her sister all week.</li></ol>
+<hr>
+<h3 id="parent">parent<a class="hash" href="#parent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛrənt/ &middot; <em>PER-uhnt</em></dd><dt>Русский</dt><dd>воспитывать детей, быть родителем</dd><dt>Forms</dt><dd><em>parent</em> &middot; <em>parented</em> &middot; <em>parented</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>parents</em> &middot; <strong>-ing form:</strong> <em>parenting</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>parent</em> a teenager), intransitive (they <em>parent</em> very differently)</dd></dl>
+<p>To raise a child and care for them as a mother or father.</p>
+<ol><li>They <em>parent</em> very differently from their own parents.</li><li>She <em>parented</em> four children on her own.</li><li><em>Parenting</em> two teenagers is exhausting.</li></ol>
+<hr>
+<h3 id="party">party<a class="hash" href="#party" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrti/ &middot; <em>PAR-tee</em></dd><dt>Русский</dt><dd>веселиться, гулять, тусоваться</dd><dt>Forms</dt><dd><em>party</em> &middot; <em>partied</em> &middot; <em>partied</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>parties</em> &middot; <strong>-ing form:</strong> <em>partying</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The -y becomes -ies and -ied (<em>parties, partied</em>), but the -ing form keeps the y: <em>partying</em>.</dd></dl>
+<p>To enjoy yourself at a party, usually late into the night.</p>
+<ol><li>He <em>parties</em> every weekend.</li><li>They <em>partied</em> until three in the morning.</li><li>We were <em>partying</em> on the roof when it started raining.</li></ol>
+<hr>
+<h3 id="patronize">patronize<a class="hash" href="#patronize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪtrənaɪz/ &middot; <em>PAY-truh-nyz</em></dd><dt>Русский</dt><dd>относиться свысока, говорить покровительственно</dd><dt>Forms</dt><dd><em>patronize</em> &middot; <em>patronized</em> &middot; <em>patronized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>patronizes</em> &middot; <strong>-ing form:</strong> <em>patronizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American PAY-truh-nyz; British PAT-ruh-nyz. It also means <em>to be a regular customer of a business</em>.</dd></dl>
+<p>To speak to someone as if they were less intelligent than you.</p>
+<ol><li>Don't <em>patronize</em> me — I have done this longer than you have.</li><li>He <em>patronized</em> everyone who asked a simple question.</li><li>She felt <em>patronized</em> by her younger colleagues.</li></ol>
+<hr>
+<h3 id="pester">pester<a class="hash" href="#pester" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛstər/ &middot; <em>PES-tur</em></dd><dt>Русский</dt><dd>надоедать, приставать, донимать</dd><dt>Forms</dt><dd><em>pester</em> &middot; <em>pestered</em> &middot; <em>pestered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pesters</em> &middot; <strong>-ing form:</strong> <em>pestering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep annoying someone with requests or questions.</p>
+<ol><li>Stop <em>pestering</em> your brother.</li><li>The kids <em>pestered</em> him for a dog all summer.</li><li>She has <em>pestered</em> me about it every day this week.</li></ol>
+<hr>
+<h3 id="prank">prank<a class="hash" href="#prank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/præŋk/ &middot; <em>PRANK</em></dd><dt>Русский</dt><dd>разыгрывать, подшучивать над кем-л.</dd><dt>Forms</dt><dd><em>prank</em> &middot; <em>pranked</em> &middot; <em>pranked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pranks</em> &middot; <strong>-ing form:</strong> <em>pranking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To play a trick on someone for fun.</p>
+<ol><li>They <em>prank</em> each other every April Fools' Day.</li><li>He <em>pranked</em> his roommate with a rubber spider.</li><li>She has been <em>pranking</em> her coworkers all week.</li></ol>
+<hr>
+<h3 id="pry">pry<a class="hash" href="#pry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/praɪ/ &middot; <em>PRY</em></dd><dt>Русский</dt><dd>совать нос (в чужие дела), выведывать</dd><dt>Forms</dt><dd><em>pry</em> &middot; <em>pried</em> &middot; <em>pried</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>pries</em> &middot; <strong>-ing form:</strong> <em>prying</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The -y becomes -ies and -ied (<em>pries, pried</em>), but the -ing keeps the y: <em>prying</em>.</dd></dl>
+<p>To ask about things that are private and none of your business.</p>
+<ol><li>I don't mean to <em>pry</em>, but are you two still together?</li><li>She <em>pried</em> until he told her everything.</li><li>He is always <em>prying</em> into other people's business.</li></ol>
+<hr>
+<h3 id="quibble">quibble<a class="hash" href="#quibble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɪbəl/ &middot; <em>KWIB-uhl</em></dd><dt>Русский</dt><dd>препираться, придираться по мелочам</dd><dt>Forms</dt><dd><em>quibble</em> &middot; <em>quibbled</em> &middot; <em>quibbled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>quibbles</em> &middot; <strong>-ing form:</strong> <em>quibbling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To argue about small, unimportant details.</p>
+<ol><li>Let's not <em>quibble</em> about ten dollars.</li><li>They <em>quibbled</em> over who would pay the check.</li><li>The cousins were still <em>quibbling</em> when we left.</li></ol>
+<hr>
+<h3 id="rebuke">rebuke<a class="hash" href="#rebuke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈbjuːk/ &middot; <em>ri-BYOOK</em></dd><dt>Русский</dt><dd>упрекать, делать выговор</dd><dt>Forms</dt><dd><em>rebuke</em> &middot; <em>rebuked</em> &middot; <em>rebuked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rebukes</em> &middot; <strong>-ing form:</strong> <em>rebuking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To criticize someone sharply for what they have said or done.</p>
+<ol><li>No one dared to <em>rebuke</em> the boss.</li><li>The coach publicly <em>rebuked</em> his star player.</li><li>He has been <em>rebuked</em> twice this month.</li></ol>
+<hr>
+<h3 id="reciprocate">reciprocate<a class="hash" href="#reciprocate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsɪprəkeɪt/ &middot; <em>ri-SIP-ruh-kayt</em></dd><dt>Русский</dt><dd>отвечать взаимностью, отплатить тем же</dd><dt>Forms</dt><dd><em>reciprocate</em> &middot; <em>reciprocated</em> &middot; <em>reciprocated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reciprocates</em> &middot; <strong>-ing form:</strong> <em>reciprocating</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>reciprocate</em> a kindness), intransitive (she never <em>reciprocated</em>)</dd></dl>
+<p>To give back the same feeling or favor that someone gave you.</p>
+<ol><li>They invited us to dinner, so we should <em>reciprocate</em>.</li><li>He loved her, but she never <em>reciprocated</em>.</li><li>She has <em>reciprocated</em> every kindness we showed her.</li></ol>
+<hr>
+<h3 id="remarry">remarry<a class="hash" href="#remarry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈmæri/ &middot; <em>ree-MAR-ee</em></dd><dt>Русский</dt><dd>снова жениться, снова выйти замуж</dd><dt>Forms</dt><dd><em>remarry</em> &middot; <em>remarried</em> &middot; <em>remarried</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>remarries</em> &middot; <strong>-ing form:</strong> <em>remarrying</em></dd><dt>Transitivity</dt><dd>both — transitive (he <em>remarried</em> his first wife), intransitive (she never <em>remarried</em>)</dd><dt>Contrast</dt><dd>The -y becomes -ies and -ied (<em>remarries, remarried</em>), but the -ing keeps the y: <em>remarrying</em>.</dd></dl>
+<p>To marry again after a divorce or the death of a husband or wife.</p>
+<ol><li>He says he will never <em>remarry</em>.</li><li>She <em>remarried</em> two years after the divorce.</li><li>Her mother has <em>remarried</em> twice.</li></ol>
+<hr>
+<h3 id="reminisce">reminisce<a class="hash" href="#reminisce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛməˈnɪs/ &middot; <em>rem-uh-NIS</em></dd><dt>Русский</dt><dd>вспоминать былое, предаваться воспоминаниям</dd><dt>Forms</dt><dd><em>reminisce</em> &middot; <em>reminisced</em> &middot; <em>reminisced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reminisces</em> &middot; <strong>-ing form:</strong> <em>reminiscing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>reminisce about something</em>. The ending -sce sounds like -ss: rem-uh-NIS.</dd></dl>
+<p>To talk with pleasure about things that happened long ago.</p>
+<ol><li>They love to <em>reminisce</em> at family dinners.</li><li>The old friends <em>reminisced</em> about their college years.</li><li>We were <em>reminiscing</em> about our first apartment.</li></ol>
+<hr>
+<h3 id="reproach">reproach<a class="hash" href="#reproach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈproʊtʃ/ &middot; <em>ri-PROHCH</em></dd><dt>Русский</dt><dd>упрекать, укорять</dd><dt>Forms</dt><dd><em>reproach</em> &middot; <em>reproached</em> &middot; <em>reproached</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reproaches</em> &middot; <strong>-ing form:</strong> <em>reproaching</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd><em>reproach someone for something</em>. Ends in -ch, so the third person adds -es: <em>reproaches</em>.</dd></dl>
+<p>To tell someone with sadness or disappointment that they have let you down.</p>
+<ol><li>He has nothing to <em>reproach</em> himself for.</li><li>She <em>reproached</em> him for forgetting her birthday.</li><li>Her eyes were <em>reproaching</em> me the whole evening.</li></ol>
+<hr>
+<h3 id="reunite">reunite<a class="hash" href="#reunite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːjuːˈnaɪt/ &middot; <em>ree-yoo-NYT</em></dd><dt>Русский</dt><dd>воссоединяться, встретиться вновь</dd><dt>Forms</dt><dd><em>reunite</em> &middot; <em>reunited</em> &middot; <em>reunited</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reunites</em> &middot; <strong>-ing form:</strong> <em>reuniting</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>reunite</em> families), intransitive (the band <em>reunited</em>)</dd></dl>
+<p>To come together again after a long separation.</p>
+<ol><li>The agency helps <em>reunite</em> families.</li><li>The sisters <em>reunited</em> after thirty years apart.</li><li>They have been <em>reunited</em> at last.</li></ol>
+<hr>
+<h3 id="salute">salute<a class="hash" href="#salute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈluːt/ &middot; <em>suh-LOOT</em></dd><dt>Русский</dt><dd>приветствовать, отдавать честь; чествовать</dd><dt>Forms</dt><dd><em>salute</em> &middot; <em>saluted</em> &middot; <em>saluted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>salutes</em> &middot; <strong>-ing form:</strong> <em>saluting</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>salute</em> an officer), intransitive (the soldiers <em>saluted</em>)</dd></dl>
+<p>To greet someone respectfully, or to honor them publicly.</p>
+<ol><li>He <em>salutes</em> his neighbor with a wave every morning.</li><li>The soldiers <em>saluted</em> as the general passed.</li><li>The town has <em>saluted</em> her for fifty years of service.</li></ol>
+<hr>
+<h3 id="schmooze">schmooze<a class="hash" href="#schmooze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃmuːz/ &middot; <em>SHMOOZ</em></dd><dt>Русский</dt><dd>непринуждённо болтать, налаживать связи</dd><dt>Forms</dt><dd><em>schmooze</em> &middot; <em>schmoozed</em> &middot; <em>schmoozed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>schmoozes</em> &middot; <strong>-ing form:</strong> <em>schmoozing</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>schmooze</em> the donors), intransitive (he <em>schmoozed</em> all night)</dd></dl>
+<p>To chat in a friendly way with people who may be useful to you (informal).</p>
+<ol><li>She knows how to <em>schmooze</em> a room full of strangers.</li><li>He <em>schmoozed</em> with everyone at the reception.</li><li>They were <em>schmoozing</em> with donors until midnight.</li></ol>
+<hr>
+<h3 id="scorn">scorn<a class="hash" href="#scorn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɔːrn/ &middot; <em>SKORN</em></dd><dt>Русский</dt><dd>презирать, отвергать с презрением</dd><dt>Forms</dt><dd><em>scorn</em> &middot; <em>scorned</em> &middot; <em>scorned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>scorns</em> &middot; <strong>-ing form:</strong> <em>scorning</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To reject or look down on someone with open contempt.</p>
+<ol><li>They <em>scorn</em> anyone who leaves the neighborhood.</li><li>She <em>scorned</em> his apology and walked away.</li><li>He has been <em>scorned</em> by his old friends ever since.</li></ol>
+<hr>
+<h3 id="seduce">seduce<a class="hash" href="#seduce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈduːs/ &middot; <em>si-DOOS</em></dd><dt>Русский</dt><dd>соблазнять, соблазнить</dd><dt>Forms</dt><dd><em>seduce</em> &middot; <em>seduced</em> &middot; <em>seduced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>seduces</em> &middot; <strong>-ing form:</strong> <em>seducing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To persuade someone into a romantic relationship, or into doing something unwise.</p>
+<ol><li>He tried to <em>seduce</em> her with expensive gifts.</li><li>The idea of easy money <em>seduced</em> them both.</li><li>He was <em>seducing</em> half the town, or so the rumor went.</li></ol>
+<hr>
+<h3 id="shun">shun<a class="hash" href="#shun" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃʌn/ &middot; <em>SHUN</em></dd><dt>Русский</dt><dd>избегать, сторониться</dd><dt>Forms</dt><dd><em>shun</em> &middot; <em>shunned</em> &middot; <em>shunned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>shuns</em> &middot; <strong>-ing form:</strong> <em>shunning</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The single n doubles: <em>shun → shunned → shunning</em>.</dd></dl>
+<p>To deliberately keep away from a person or from company.</p>
+<ol><li>She <em>shuns</em> parties and big crowds.</li><li>The whole village <em>shunned</em> him after the trial.</li><li>They have been <em>shunned</em> by their relatives for years.</li></ol>
+<hr>
+<h3 id="snitch">snitch<a class="hash" href="#snitch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snɪtʃ/ &middot; <em>SNICH</em></dd><dt>Русский</dt><dd>доносить, ябедничать, стучать</dd><dt>Forms</dt><dd><em>snitch</em> &middot; <em>snitched</em> &middot; <em>snitched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>snitches</em> &middot; <strong>-ing form:</strong> <em>snitching</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>snitch on someone</em>. Ends in -ch, so the third person adds -es: <em>snitches</em>.</dd></dl>
+<p>To tell someone in authority what another person did wrong (informal).</p>
+<ol><li>Don't <em>snitch</em> on your own brother.</li><li>Someone <em>snitched</em> on us to the principal.</li><li>He has been <em>snitching</em> to the boss all year.</li></ol>
+<hr>
+<h3 id="sneer">sneer<a class="hash" href="#sneer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snɪr/ &middot; <em>SNEER</em></dd><dt>Русский</dt><dd>насмехаться, презрительно ухмыляться</dd><dt>Forms</dt><dd><em>sneer</em> &middot; <em>sneered</em> &middot; <em>sneered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>sneers</em> &middot; <strong>-ing form:</strong> <em>sneering</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>sneer at someone</em> — it takes no direct object.</dd></dl>
+<p>To smile or speak in a way that shows contempt for someone.</p>
+<ol><li>They <em>sneer</em> at anyone who tries hard.</li><li>He <em>sneered</em> at her homemade dress.</li><li>She was <em>sneering</em> the whole time I spoke.</li></ol>
+<hr>
+<h3 id="snoop">snoop<a class="hash" href="#snoop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snuːp/ &middot; <em>SNOOP</em></dd><dt>Русский</dt><dd>шпионить, вынюхивать, подглядывать</dd><dt>Forms</dt><dd><em>snoop</em> &middot; <em>snooped</em> &middot; <em>snooped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>snoops</em> &middot; <strong>-ing form:</strong> <em>snooping</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To look secretly into someone's private things.</p>
+<ol><li>Don't <em>snoop</em> around in my room.</li><li>She <em>snooped</em> through his phone while he slept.</li><li>He has been <em>snooping</em> on the neighbors again.</li></ol>
+<hr>
+<h3 id="snub">snub<a class="hash" href="#snub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snʌb/ &middot; <em>SNUB</em></dd><dt>Русский</dt><dd>демонстративно игнорировать, унизить невниманием</dd><dt>Forms</dt><dd><em>snub</em> &middot; <em>snubbed</em> &middot; <em>snubbed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>snubs</em> &middot; <strong>-ing form:</strong> <em>snubbing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The single b doubles: <em>snub → snubbed → snubbing</em>.</dd></dl>
+<p>To ignore someone on purpose in a way that insults them.</p>
+<ol><li>Don't <em>snub</em> your cousins just because they came late.</li><li>She <em>snubbed</em> him in front of everyone at the party.</li><li>He felt <em>snubbed</em> when they left him off the list.</li></ol>
+<hr>
+<h3 id="snuggle">snuggle<a class="hash" href="#snuggle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnʌɡəl/ &middot; <em>SNUH-guhl</em></dd><dt>Русский</dt><dd>прижиматься, уютно устраиваться</dd><dt>Forms</dt><dd><em>snuggle</em> &middot; <em>snuggled</em> &middot; <em>snuggled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>snuggles</em> &middot; <strong>-ing form:</strong> <em>snuggling</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>snuggle</em> the baby close), intransitive (they <em>snuggled</em> under a blanket)</dd></dl>
+<p>To settle close against someone for warmth and comfort.</p>
+<ol><li>They like to <em>snuggle</em> under one blanket.</li><li>The children <em>snuggled</em> against their mother.</li><li>The puppy was <em>snuggling</em> into his lap.</li></ol>
+<hr>
+<h3 id="squabble">squabble<a class="hash" href="#squabble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskwɑːbəl/ &middot; <em>SKWAH-buhl</em></dd><dt>Русский</dt><dd>препираться, ссориться по пустякам</dd><dt>Forms</dt><dd><em>squabble</em> &middot; <em>squabbled</em> &middot; <em>squabbled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>squabbles</em> &middot; <strong>-ing form:</strong> <em>squabbling</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To quarrel noisily over something unimportant.</p>
+<ol><li>Brothers <em>squabble</em>; that is normal.</li><li>The kids <em>squabbled</em> over the last piece of cake.</li><li>They were <em>squabbling</em> about money again.</li></ol>
+<hr>
+<h3 id="tattle">tattle<a class="hash" href="#tattle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtætəl/ &middot; <em>TAT-uhl</em></dd><dt>Русский</dt><dd>ябедничать, наушничать</dd><dt>Forms</dt><dd><em>tattle</em> &middot; <em>tattled</em> &middot; <em>tattled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>tattles</em> &middot; <strong>-ing form:</strong> <em>tattling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>tattle on someone</em> — the preposition is <em>on</em>.</dd></dl>
+<p>To tell a parent or teacher what another child did wrong.</p>
+<ol><li>Nobody likes a kid who <em>tattles</em>.</li><li>He <em>tattled</em> on his sister for staying up late.</li><li>She was <em>tattling</em> to the teacher every single day.</li></ol>
+<hr>
+<h3 id="tempt">tempt<a class="hash" href="#tempt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɛmpt/ &middot; <em>TEMPT</em></dd><dt>Русский</dt><dd>соблазнять, искушать</dd><dt>Forms</dt><dd><em>tempt</em> &middot; <em>tempted</em> &middot; <em>tempted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>tempts</em> &middot; <strong>-ing form:</strong> <em>tempting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone want to do something, especially something they should not do.</p>
+<ol><li>Don't <em>tempt</em> him with another drink.</li><li>The offer <em>tempted</em> her to leave the city.</li><li>I have been <em>tempted</em> to call her all week.</li></ol>
+<hr>
+<h3 id="trouble">trouble<a class="hash" href="#trouble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrʌbəl/ &middot; <em>TRUH-buhl</em></dd><dt>Русский</dt><dd>беспокоить, тревожить; утруждать</dd><dt>Forms</dt><dd><em>trouble</em> &middot; <em>troubled</em> &middot; <em>troubled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>troubles</em> &middot; <strong>-ing form:</strong> <em>troubling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To worry someone, or to bother them with a request.</p>
+<ol><li>Sorry to <em>trouble</em> you so late.</li><li>The news <em>troubled</em> the whole family.</li><li>Something has been <em>troubling</em> her for weeks.</li></ol>
+<hr>
+<h3 id="unfriend">unfriend<a class="hash" href="#unfriend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈfrɛnd/ &middot; <em>un-FREND</em></dd><dt>Русский</dt><dd>удалять из друзей (в соцсети)</dd><dt>Forms</dt><dd><em>unfriend</em> &middot; <em>unfriended</em> &middot; <em>unfriended</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>unfriends</em> &middot; <strong>-ing form:</strong> <em>unfriending</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To remove someone from your list of friends on a social network.</p>
+<ol><li>Don't <em>unfriend</em> your own cousin over politics.</li><li>She <em>unfriended</em> him the day after the argument.</li><li>He has <em>unfriended</em> half his old classmates.</li></ol>
+<hr>
+<h3 id="wave">wave<a class="hash" href="#wave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪv/ &middot; <em>WAYV</em></dd><dt>Русский</dt><dd>махать, помахать (рукой)</dd><dt>Forms</dt><dd><em>wave</em> &middot; <em>waved</em> &middot; <em>waved</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>waves</em> &middot; <strong>-ing form:</strong> <em>waving</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>wave</em> your hand), intransitive (she <em>waved</em> from the car)</dd><dt>Contrast</dt><dd>The silent -e drops before -ing: <em>wave → waving</em>. You <em>wave to</em> or <em>wave at</em> a person.</dd></dl>
+<p>To move your hand in the air to greet someone or say goodbye.</p>
+<ol><li><em>Wave</em> goodbye to Grandma.</li><li>She <em>waved</em> to us from the train window.</li><li>He was <em>waving</em> his arms to get our attention.</li></ol>
+<hr>
+<h3 id="woo">woo<a class="hash" href="#woo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wuː/ &middot; <em>WOO</em></dd><dt>Русский</dt><dd>добиваться расположения, обхаживать</dd><dt>Forms</dt><dd><em>woo</em> &middot; <em>wooed</em> &middot; <em>wooed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>woos</em> &middot; <strong>-ing form:</strong> <em>wooing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Both o's stay in every form: <em>woo → wooed → wooing</em>.</dd></dl>
+<p>To try to win someone's love, support, or business.</p>
+<ol><li>Candidates <em>woo</em> voters with easy promises.</li><li>He <em>wooed</em> her with letters for a year.</li><li>The company has been <em>wooing</em> her since March.</li></ol>
+<hr>
+<h3 id="worship">worship<a class="hash" href="#worship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrʃɪp/ &middot; <em>WUR-ship</em></dd><dt>Русский</dt><dd>боготворить, преклоняться; поклоняться</dd><dt>Forms</dt><dd><em>worship</em> &middot; <em>worshiped</em> &middot; <em>worshiped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>worships</em> &middot; <strong>-ing form:</strong> <em>worshiping</em></dd><dt>Transitivity</dt><dd>both — transitive (<em>worship</em> a hero), intransitive (they <em>worship</em> on Sunday)</dd><dt>Contrast</dt><dd>American <em>worshiped, worshiping</em> (one p); British <em>worshipped, worshipping</em>.</dd></dl>
+<p>To love and admire someone so deeply that you treat them as perfect.</p>
+<ol><li>She <em>worships</em> her older sister.</li><li>He <em>worshiped</em> his father when he was a boy.</li><li>They have <em>worshiped</em> at the same church for years.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

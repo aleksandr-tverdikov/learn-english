@@ -764,7 +764,7 @@ To become unfrozen, or to let frozen food do so.
 
 ### marinate
 
-**Pronunciation:** /ˈmɛrəneɪt/ &middot; *MAIR-uh-nayt*
+**Pronunciation:** /ˈmɛrəneɪt/ &middot; *MER-uh-nayt*
 **Русский:** мариновать, замариновать
 **Forms:** *marinate* &middot; *marinated* &middot; *marinated*
 **Verb class:** regular

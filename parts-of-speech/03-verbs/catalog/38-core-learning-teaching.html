@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core verbs: learning and teaching</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-verbs-learning-and-teaching">Core verbs: learning and teaching<a class="hash" href="#core-verbs-learning-and-teaching" aria-label="link">#</a></h1>
+<blockquote><p>The everyday regular verbs of learning and teaching — all four forms, pronunciation, Russian, and three examples that use more than one form.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–22 cover the verbs that <strong>misbehave</strong>: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no <em>work</em>, no <em>need</em>, no <em>ask</em> and no <em>explain</em>.</p>
+<p>Regular does not mean effortless. The forms are still where learners fail: <em>carry → carried</em>, <em>stop → stopped</em>, <em>agree → agreed</em>. Every entry spells all four out, and a <strong>Contrast</strong> line appears wherever the spelling or a required preposition is the trap.</p>
+<hr>
+<h3 id="educate">educate<a class="hash" href="#educate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛdʒəkeɪt/ &middot; <em>EJ-uh-kayt</em></dd><dt>Русский</dt><dd>обучать, дать образование; просвещать</dd><dt>Forms</dt><dd><em>educate</em> &middot; <em>educated</em> &middot; <em>educated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>educates</em> &middot; <strong>-ing form:</strong> <em>educating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To teach someone over a long period, especially in a school or college.</p>
+<ol><li>Public schools <em>educate</em> nearly fifty million American children.</li><li>She was <em>educated</em> at a small college in Vermont.</li><li>The campaign is <em>educating</em> parents about online safety.</li></ol>
+<hr>
+<h3 id="tutor">tutor<a class="hash" href="#tutor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːtər/ &middot; <em>TOO-tur</em></dd><dt>Русский</dt><dd>заниматься с учеником, репетиторствовать</dd><dt>Forms</dt><dd><em>tutor</em> &middot; <em>tutored</em> &middot; <em>tutored</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>tutors</em> &middot; <strong>-ing form:</strong> <em>tutoring</em></dd><dt>Transitivity</dt><dd>both — transitive (tutor a student in math), intransitive (she tutors on weekends)</dd></dl>
+<p>To teach one student or a very small group, usually privately.</p>
+<ol><li>He <em>tutors</em> high school students in chemistry.</li><li>She <em>tutored</em> me all through my senior year.</li><li>I have been <em>tutoring</em> since my first semester.</li></ol>
+<hr>
+<h3 id="mentor">mentor<a class="hash" href="#mentor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛntɔːr/ &middot; <em>MEN-tor</em></dd><dt>Русский</dt><dd>наставлять, быть наставником</dd><dt>Forms</dt><dd><em>mentor</em> &middot; <em>mentored</em> &middot; <em>mentored</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>mentors</em> &middot; <strong>-ing form:</strong> <em>mentoring</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To advise and guide a less experienced person over a long time.</p>
+<ol><li>Senior nurses <em>mentor</em> everyone who joins the unit.</li><li>She <em>mentored</em> three graduate students last year.</li><li>He has <em>mentored</em> dozens of young teachers.</li></ol>
+<hr>
+<h3 id="coach">coach<a class="hash" href="#coach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊtʃ/ &middot; <em>KOHCH</em></dd><dt>Русский</dt><dd>тренировать, натаскивать; готовить (к экзамену)</dd><dt>Forms</dt><dd><em>coach</em> &middot; <em>coached</em> &middot; <em>coached</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>coaches</em> &middot; <strong>-ing form:</strong> <em>coaching</em></dd><dt>Transitivity</dt><dd>both — transitive (coach a debate team), intransitive (he coaches at the middle school)</dd><dt>Contrast</dt><dd>The third-person form adds <em>-es</em>: <em>coaches</em>.</dd></dl>
+<p>To train a person or team, or prepare someone for a test or performance.</p>
+<ol><li>She <em>coaches</em> students for the SAT every spring.</li><li>He <em>coached</em> debate for ten years.</li><li>They are <em>coaching</em> her through the interview.</li></ol>
+<hr>
+<h3 id="homeschool">homeschool<a class="hash" href="#homeschool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmskuːl/ &middot; <em>HOHM-skool</em></dd><dt>Русский</dt><dd>обучать на дому, давать домашнее образование</dd><dt>Forms</dt><dd><em>homeschool</em> &middot; <em>homeschooled</em> &middot; <em>homeschooled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>homeschools</em> &middot; <strong>-ing form:</strong> <em>homeschooling</em></dd><dt>Transitivity</dt><dd>both — transitive (they homeschool their kids), intransitive (the family homeschools)</dd><dt>Contrast</dt><dd>Written as one word in American English: <em>homeschool</em>, <em>homeschooled</em>.</dd></dl>
+<p>To teach your own children at home instead of sending them to school.</p>
+<ol><li>They <em>homeschool</em> their three children.</li><li>She was <em>homeschooled</em> until ninth grade.</li><li>More families are <em>homeschooling</em> this year.</li></ol>
+<hr>
+<h3 id="retrain">retrain<a class="hash" href="#retrain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈtreɪn/ &middot; <em>ree-TRAYN</em></dd><dt>Русский</dt><dd>переучивать, переучиваться; переквалифицироваться</dd><dt>Forms</dt><dd><em>retrain</em> &middot; <em>retrained</em> &middot; <em>retrained</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>retrains</em> &middot; <strong>-ing form:</strong> <em>retraining</em></dd><dt>Transitivity</dt><dd>both — transitive (retrain the staff), intransitive (he retrained as a nurse)</dd></dl>
+<p>To learn, or to teach someone, a new set of skills for different work.</p>
+<ol><li>The company will <em>retrain</em> anyone whose job disappears.</li><li>She <em>retrained</em> as a math teacher at forty.</li><li>He is <em>retraining</em> for a job in health care.</li></ol>
+<hr>
+<h3 id="brief">brief<a class="hash" href="#brief" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/briːf/ &middot; <em>BREEF</em></dd><dt>Русский</dt><dd>инструктировать, вводить в курс дела</dd><dt>Forms</dt><dd><em>brief</em> &middot; <em>briefed</em> &middot; <em>briefed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>briefs</em> &middot; <strong>-ing form:</strong> <em>briefing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You <em>brief</em> someone <strong>on</strong> something.</dd></dl>
+<p>To give someone the information they need before they do something.</p>
+<ol><li>The coach <em>briefs</em> the team before every game.</li><li>We were <em>briefed</em> on the new grading policy.</li><li>She is <em>briefing</em> the substitute teacher now.</li></ol>
+<hr>
+<h3 id="debrief">debrief<a class="hash" href="#debrief" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diːˈbriːf/ &middot; <em>dee-BREEF</em></dd><dt>Русский</dt><dd>разбирать после (задания), подводить итоги</dd><dt>Forms</dt><dd><em>debrief</em> &middot; <em>debriefed</em> &middot; <em>debriefed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>debriefs</em> &middot; <strong>-ing form:</strong> <em>debriefing</em></dd><dt>Transitivity</dt><dd>both — transitive (debrief the students), intransitive (we debrief every Friday)</dd></dl>
+<p>To talk through what happened after a task, a lesson, or a test.</p>
+<ol><li>The instructor <em>debriefs</em> the class after every simulation.</li><li>They <em>debriefed</em> us as soon as the exercise ended.</li><li>We spent an hour <em>debriefing</em> after the presentation.</li></ol>
+<hr>
+<h3 id="instill">instill<a class="hash" href="#instill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈstɪl/ &middot; <em>in-STIL</em></dd><dt>Русский</dt><dd>прививать, привить (качество, привычку)</dd><dt>Forms</dt><dd><em>instill</em> &middot; <em>instilled</em> &middot; <em>instilled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>instills</em> &middot; <strong>-ing form:</strong> <em>instilling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>instill</em>, British <em>instil</em>; the l doubles before endings: <em>instilled</em>, <em>instilling</em>.</dd></dl>
+<p>To gradually put an attitude or a habit into someone's mind.</p>
+<ol><li>Good teachers <em>instill</em> curiosity, not just facts.</li><li>Her father <em>instilled</em> a love of reading in her.</li><li>The program is <em>instilling</em> better study habits.</li></ol>
+<hr>
+<h3 id="impart">impart<a class="hash" href="#impart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈpɑːrt/ &middot; <em>im-PART</em></dd><dt>Русский</dt><dd>передавать, передать (знания, опыт)</dd><dt>Forms</dt><dd><em>impart</em> &middot; <em>imparted</em> &middot; <em>imparted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>imparts</em> &middot; <strong>-ing form:</strong> <em>imparting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To pass knowledge or information on to other people.</p>
+<ol><li>A lecture can <em>impart</em> facts but not judgment.</li><li>She <em>imparted</em> everything she knew about the trade.</li><li>He has <em>imparted</em> his method to a whole generation of teachers.</li></ol>
+<hr>
+<h3 id="enlighten">enlighten<a class="hash" href="#enlighten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈlaɪtən/ &middot; <em>in-LY-tuhn</em></dd><dt>Русский</dt><dd>просвещать, просветить; разъяснять</dd><dt>Forms</dt><dd><em>enlighten</em> &middot; <em>enlightened</em> &middot; <em>enlightened</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>enlightens</em> &middot; <strong>-ing form:</strong> <em>enlightening</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To explain something to someone so that they finally understand it.</p>
+<ol><li>Maybe you can <em>enlighten</em> me about the new rules.</li><li>The lecture <em>enlightened</em> nobody.</li><li>She has <em>enlightened</em> us on how the system really works.</li></ol>
+<hr>
+<h3 id="acquaint">acquaint<a class="hash" href="#acquaint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkweɪnt/ &middot; <em>uh-KWAYNT</em></dd><dt>Русский</dt><dd>знакомить, ознакомить (с чем-л.)</dd><dt>Forms</dt><dd><em>acquaint</em> &middot; <em>acquainted</em> &middot; <em>acquainted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>acquaints</em> &middot; <strong>-ing form:</strong> <em>acquainting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You <em>acquaint</em> someone <strong>with</strong> something.</dd></dl>
+<p>To make someone familiar with something new.</p>
+<ol><li>The first week <em>acquaints</em> students with the library.</li><li>We <em>acquainted</em> ourselves with the rules before the exam.</li><li>He is <em>acquainting</em> the class with the lab equipment.</li></ol>
+<hr>
+<h3 id="familiarize">familiarize<a class="hash" href="#familiarize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fəˈmɪljəraɪz/ &middot; <em>fuh-MIL-yuh-ryz</em></dd><dt>Русский</dt><dd>знакомить, ознакомить; осваиваться</dd><dt>Forms</dt><dd><em>familiarize</em> &middot; <em>familiarized</em> &middot; <em>familiarized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>familiarizes</em> &middot; <strong>-ing form:</strong> <em>familiarizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>familiarize</em>, British <em>familiarise</em>. You <em>familiarize</em> someone <strong>with</strong> something.</dd></dl>
+<p>To learn about something, or teach someone about it, until it feels familiar.</p>
+<ol><li>Take an hour to <em>familiarize</em> yourself with the software.</li><li>She <em>familiarized</em> the new students with the campus.</li><li>We are <em>familiarizing</em> ourselves with the syllabus.</li></ol>
+<hr>
+<h3 id="orient">orient<a class="hash" href="#orient" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːriɛnt/ &middot; <em>OR-ee-ent</em></dd><dt>Русский</dt><dd>ориентировать, сориентировать; вводить в курс</dd><dt>Forms</dt><dd><em>orient</em> &middot; <em>oriented</em> &middot; <em>oriented</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>orients</em> &middot; <strong>-ing form:</strong> <em>orienting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Americans write <em>orient</em>; the British often write <em>orientate</em>.</dd></dl>
+<p>To help someone get used to a new place or situation.</p>
+<ol><li>A short video <em>orients</em> new students.</li><li>They <em>oriented</em> us on the first day of class.</li><li>I am still <em>orienting</em> myself in this building.</li></ol>
+<hr>
+<h3 id="exemplify">exemplify<a class="hash" href="#exemplify" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɛmpləfaɪ/ &middot; <em>ig-ZEM-pluh-fy</em></dd><dt>Русский</dt><dd>служить примером, наглядно показывать</dd><dt>Forms</dt><dd><em>exemplify</em> &middot; <em>exemplified</em> &middot; <em>exemplified</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>exemplifies</em> &middot; <strong>-ing form:</strong> <em>exemplifying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em> changes: <em>exemplifies</em>, <em>exemplified</em>, but <em>exemplifying</em> keeps the y.</dd></dl>
+<p>To be a clear example of something, or to show it by example.</p>
+<ol><li>These two sentences <em>exemplify</em> the rule.</li><li>Her essay <em>exemplified</em> everything we had practiced.</li><li>He has <em>exemplified</em> the standard we expect from seniors.</li></ol>
+<hr>
+<h3 id="reiterate">reiterate<a class="hash" href="#reiterate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riˈɪtəreɪt/ &middot; <em>ree-IT-uh-rayt</em></dd><dt>Русский</dt><dd>повторять, повторить (сказанное)</dd><dt>Forms</dt><dd><em>reiterate</em> &middot; <em>reiterated</em> &middot; <em>reiterated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reiterates</em> &middot; <strong>-ing form:</strong> <em>reiterating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To say something again so that it is understood.</p>
+<ol><li>Let me <em>reiterate</em> the main point.</li><li>She <em>reiterated</em> the deadline twice.</li><li>He kept <em>reiterating</em> that the exam would be open book.</li></ol>
+<hr>
+<h3 id="administer">administer<a class="hash" href="#administer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈmɪnəstər/ &middot; <em>ad-MIN-uh-stur</em></dd><dt>Русский</dt><dd>проводить (тест, экзамен), давать</dd><dt>Forms</dt><dd><em>administer</em> &middot; <em>administered</em> &middot; <em>administered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>administers</em> &middot; <strong>-ing form:</strong> <em>administering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To give a test, or to carry out an official procedure.</p>
+<ol><li>The state <em>administers</em> the reading test every spring.</li><li>A nurse <em>administered</em> the hearing screening.</li><li>They are <em>administering</em> the exam in the gym.</li></ol>
+<hr>
+<h3 id="proctor">proctor<a class="hash" href="#proctor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːktər/ &middot; <em>PRAHK-tur</em></dd><dt>Русский</dt><dd>следить за порядком на экзамене, быть наблюдателем</dd><dt>Forms</dt><dd><em>proctor</em> &middot; <em>proctored</em> &middot; <em>proctored</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>proctors</em> &middot; <strong>-ing form:</strong> <em>proctoring</em></dd><dt>Transitivity</dt><dd>both — transitive (proctor the final), intransitive (she proctors on Saturdays)</dd><dt>Contrast</dt><dd>American <em>proctor</em>; the British say <em>invigilate</em>.</dd></dl>
+<p>To watch over students while they take an exam.</p>
+<ol><li>Two graduate students <em>proctor</em> the final.</li><li>She <em>proctored</em> the makeup exam last Saturday.</li><li>I am <em>proctoring</em> in room 12 tomorrow.</li></ol>
+<hr>
+<h3 id="differentiate">differentiate<a class="hash" href="#differentiate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪfəˈrɛnʃieɪt/ &middot; <em>dif-uh-REN-shee-ayt</em></dd><dt>Русский</dt><dd>различать, отличать (одно от другого)</dd><dt>Forms</dt><dd><em>differentiate</em> &middot; <em>differentiated</em> &middot; <em>differentiated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>differentiates</em> &middot; <strong>-ing form:</strong> <em>differentiating</em></dd><dt>Transitivity</dt><dd>both — transitive (differentiate the two sounds), intransitive (differentiate between them)</dd><dt>Contrast</dt><dd>You <em>differentiate</em> <strong>between</strong> A and B, or <em>differentiate</em> A <strong>from</strong> B.</dd></dl>
+<p>To see or show the difference between two things.</p>
+<ol><li>Beginners cannot <em>differentiate</em> these two vowels.</li><li>She <em>differentiated</em> between fact and opinion.</li><li>The teacher is <em>differentiating</em> her lessons for three reading levels.</li></ol>
+<hr>
+<h3 id="supplement">supplement<a class="hash" href="#supplement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌpləmɛnt/ &middot; <em>SUP-luh-ment</em></dd><dt>Русский</dt><dd>дополнять, дополнить</dd><dt>Forms</dt><dd><em>supplement</em> &middot; <em>supplemented</em> &middot; <em>supplemented</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>supplements</em> &middot; <strong>-ing form:</strong> <em>supplementing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb ends in a full <em>-ment</em>: SUP-luh-ment. The noun <em>a supplement</em> ends weakly: SUP-luh-muhnt.</dd></dl>
+<p>To add something extra to what is already there.</p>
+<ol><li>Short videos <em>supplement</em> the textbook.</li><li>She <em>supplemented</em> the lecture with a handout.</li><li>He is <em>supplementing</em> his income by tutoring.</li></ol>
+<hr>
+<h3 id="facilitate">facilitate<a class="hash" href="#facilitate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fəˈsɪləteɪt/ &middot; <em>fuh-SIL-uh-tayt</em></dd><dt>Русский</dt><dd>способствовать, облегчать; вести (занятие)</dd><dt>Forms</dt><dd><em>facilitate</em> &middot; <em>facilitated</em> &middot; <em>facilitated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>facilitates</em> &middot; <strong>-ing form:</strong> <em>facilitating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make something easier, or to lead a discussion or workshop.</p>
+<ol><li>Small classes <em>facilitate</em> real discussion.</li><li>She <em>facilitated</em> the writing workshop last summer.</li><li>The grant has <em>facilitated</em> a new tutoring program.</li></ol>
+<hr>
+<h3 id="assist">assist<a class="hash" href="#assist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsɪst/ &middot; <em>uh-SIST</em></dd><dt>Русский</dt><dd>помогать, помочь; содействовать</dd><dt>Forms</dt><dd><em>assist</em> &middot; <em>assisted</em> &middot; <em>assisted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>assists</em> &middot; <strong>-ing form:</strong> <em>assisting</em></dd><dt>Transitivity</dt><dd>both — transitive (assist a student), intransitive (assist with the lab)</dd><dt>Contrast</dt><dd>You <em>assist</em> someone <strong>with</strong> something, or <em>assist</em> <strong>in</strong> doing it.</dd></dl>
+<p>To help someone, especially with part of a task.</p>
+<ol><li>Volunteers <em>assist</em> students with their homework.</li><li>She <em>assisted</em> the professor for two semesters.</li><li>He is <em>assisting</em> in the chemistry lab this year.</li></ol>
+<hr>
+<h3 id="help">help<a class="hash" href="#help" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɛlp/ &middot; <em>HELP</em></dd><dt>Русский</dt><dd>помогать, помочь</dd><dt>Forms</dt><dd><em>help</em> &middot; <em>helped</em> &middot; <em>helped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>helps</em> &middot; <strong>-ing form:</strong> <em>helping</em></dd><dt>Transitivity</dt><dd>both — transitive (help your classmate), intransitive (she always helps)</dd><dt>Contrast</dt><dd>After <em>help</em>, the bare infinitive is normal: <em>help me study</em> (also possible: <em>help me to study</em>).</dd></dl>
+<p>To make it easier for someone to do something.</p>
+<ol><li>Can you <em>help</em> me with these verbs?</li><li>She <em>helped</em> me study for the final.</li><li>He has <em>helped</em> dozens of students pass the exam.</li></ol>
+<hr>
+<h3 id="aid">aid<a class="hash" href="#aid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eɪd/ &middot; <em>AYD</em></dd><dt>Русский</dt><dd>помогать, способствовать</dd><dt>Forms</dt><dd><em>aid</em> &middot; <em>aided</em> &middot; <em>aided</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>aids</em> &middot; <strong>-ing form:</strong> <em>aiding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To help something happen or work better.</p>
+<ol><li>Pictures <em>aid</em> memory more than rereading does.</li><li>A quiet room <em>aided</em> her concentration.</li><li>Flashcards have <em>aided</em> thousands of language learners.</li></ol>
+<hr>
+<h3 id="foster">foster<a class="hash" href="#foster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːstər/ &middot; <em>FAW-stur</em></dd><dt>Русский</dt><dd>развивать, поощрять (в ком-л.), способствовать</dd><dt>Forms</dt><dd><em>foster</em> &middot; <em>fostered</em> &middot; <em>fostered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>fosters</em> &middot; <strong>-ing form:</strong> <em>fostering</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To encourage a skill, a feeling, or a habit to develop.</p>
+<ol><li>Group projects <em>foster</em> cooperation.</li><li>That teacher <em>fostered</em> my interest in science.</li><li>The program has <em>fostered</em> real progress in reading.</li></ol>
+<hr>
+<h3 id="stimulate">stimulate<a class="hash" href="#stimulate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɪmjəleɪt/ &middot; <em>STIM-yuh-layt</em></dd><dt>Русский</dt><dd>стимулировать, побуждать; возбуждать (интерес)</dd><dt>Forms</dt><dd><em>stimulate</em> &middot; <em>stimulated</em> &middot; <em>stimulated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>stimulates</em> &middot; <strong>-ing form:</strong> <em>stimulating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make someone more interested, active, or eager to think.</p>
+<ol><li>Good questions <em>stimulate</em> thinking.</li><li>The film <em>stimulated</em> a long discussion.</li><li>The class is <em>stimulating</em> her interest in history.</li></ol>
+<hr>
+<h3 id="engage">engage<a class="hash" href="#engage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈɡeɪdʒ/ &middot; <em>in-GAYJ</em></dd><dt>Русский</dt><dd>увлекать, заинтересовывать; вовлекать</dd><dt>Forms</dt><dd><em>engage</em> &middot; <em>engaged</em> &middot; <em>engaged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>engages</em> &middot; <strong>-ing form:</strong> <em>engaging</em></dd><dt>Transitivity</dt><dd>both — transitive (engage the class), intransitive (engage with the material)</dd><dt>Contrast</dt><dd>You <em>engage</em> <strong>with</strong> a text or a person; the -e drops before <em>-ing</em>: <em>engaging</em>.</dd></dl>
+<p>To hold someone's interest, or to get seriously involved with something.</p>
+<ol><li>A good lesson <em>engages</em> every student in the room.</li><li>She <em>engaged</em> the class with a story about her grandmother.</li><li>They are <em>engaging</em> more deeply with the text this year.</li></ol>
+<hr>
+<h3 id="discourage">discourage<a class="hash" href="#discourage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈskɜːrɪdʒ/ &middot; <em>dis-KUR-ij</em></dd><dt>Русский</dt><dd>обескураживать, отбивать охоту; отговаривать</dd><dt>Forms</dt><dd><em>discourage</em> &middot; <em>discouraged</em> &middot; <em>discouraged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>discourages</em> &middot; <strong>-ing form:</strong> <em>discouraging</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You <em>discourage</em> someone <strong>from</strong> doing something.</dd></dl>
+<p>To make someone lose confidence, or to try to stop them doing something.</p>
+<ol><li>Harsh grading can <em>discourage</em> beginners.</li><li>A bad first semester <em>discouraged</em> him completely.</li><li>The school is <em>discouraging</em> students from taking five AP classes.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#discourage-from">discourage from</a></dd></dl>
+<h3 id="reprimand">reprimand<a class="hash" href="#reprimand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛprəmænd/ &middot; <em>REP-ruh-mand</em></dd><dt>Русский</dt><dd>делать выговор, отчитывать</dd><dt>Forms</dt><dd><em>reprimand</em> &middot; <em>reprimanded</em> &middot; <em>reprimanded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reprimands</em> &middot; <strong>-ing form:</strong> <em>reprimanding</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To tell someone officially that they have done something wrong.</p>
+<ol><li>Teachers rarely <em>reprimand</em> a student in front of the class.</li><li>She was <em>reprimanded</em> for copying an essay.</li><li>The dean is <em>reprimanding</em> both of them this afternoon.</li></ol>
+<hr>
+<h3 id="punish">punish<a class="hash" href="#punish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌnɪʃ/ &middot; <em>PUN-ish</em></dd><dt>Русский</dt><dd>наказывать, наказать</dd><dt>Forms</dt><dd><em>punish</em> &middot; <em>punished</em> &middot; <em>punished</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>punishes</em> &middot; <strong>-ing form:</strong> <em>punishing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The third-person form adds <em>-es</em>: <em>punishes</em>. You <em>punish</em> someone <strong>for</strong> something.</dd></dl>
+<p>To make someone suffer a penalty for breaking a rule.</p>
+<ol><li>Some teachers <em>punish</em> late work with a lower grade.</li><li>He was <em>punished</em> for cheating on the quiz.</li><li>They are <em>punishing</em> the whole class for one prank.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#punish-for">punish for</a></dd></dl>
+<h3 id="commend">commend<a class="hash" href="#commend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmɛnd/ &middot; <em>kuh-MEND</em></dd><dt>Русский</dt><dd>хвалить, отмечать (заслуги)</dd><dt>Forms</dt><dd><em>commend</em> &middot; <em>commended</em> &middot; <em>commended</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>commends</em> &middot; <strong>-ing form:</strong> <em>commending</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Not the same as <em>recommend</em>, which suggests rather than praises.</dd></dl>
+<p>To praise someone publicly or officially.</p>
+<ol><li>The principal <em>commends</em> the students who improve the most.</li><li>She was <em>commended</em> for her research.</li><li>He has <em>commended</em> the class twice this month.</li></ol>
+<hr>
+<h3 id="excuse">excuse<a class="hash" href="#excuse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈskjuːz/ &middot; <em>ik-SKYOOZ</em></dd><dt>Русский</dt><dd>извинять, прощать; освобождать (от занятий)</dd><dt>Forms</dt><dd><em>excuse</em> &middot; <em>excused</em> &middot; <em>excused</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>excuses</em> &middot; <strong>-ing form:</strong> <em>excusing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb ends in a z sound (ik-SKYOOZ); the noun <em>an excuse</em> ends in s (ik-SKYOOS).</dd></dl>
+<p>To forgive a small fault, or to officially let someone miss something.</p>
+<ol><li>The office will <em>excuse</em> an absence with a note from home.</li><li>She <em>excused</em> him from gym class for a week.</li><li>You are <em>excused</em> from the final if your average is above 95.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#excuse-for">excuse for</a></dd></dl>
+<h3 id="enroll">enroll<a class="hash" href="#enroll" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈroʊl/ &middot; <em>in-ROHL</em></dd><dt>Русский</dt><dd>записывать(ся), зачислять; поступать (на курс)</dd><dt>Forms</dt><dd><em>enroll</em> &middot; <em>enrolled</em> &middot; <em>enrolled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>enrolls</em> &middot; <strong>-ing form:</strong> <em>enrolling</em></dd><dt>Transitivity</dt><dd>both — transitive (enroll a child in school), intransitive (enroll in a course)</dd><dt>Contrast</dt><dd>American <em>enroll</em>, British <em>enrol</em>; the l doubles: <em>enrolled</em>, <em>enrolling</em>. You <em>enroll</em> <strong>in</strong> a class.</dd></dl>
+<p>To officially join a school, a class, or a program.</p>
+<ol><li>You can <em>enroll</em> in the course online.</li><li>She <em>enrolled</em> her son in a summer program.</li><li>Over four hundred students have <em>enrolled</em> this fall.</li></ol>
+<hr>
+<h3 id="apply">apply<a class="hash" href="#apply" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈplaɪ/ &middot; <em>uh-PLY</em></dd><dt>Русский</dt><dd>подавать заявление, поступать; применять (правило)</dd><dt>Forms</dt><dd><em>apply</em> &middot; <em>applied</em> &middot; <em>applied</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>applies</em> &middot; <strong>-ing form:</strong> <em>applying</em></dd><dt>Transitivity</dt><dd>both — transitive (apply the rule), intransitive (apply to a college)</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em> changes: <em>applies</em>, <em>applied</em>, but <em>applying</em> keeps the y. You <em>apply</em> <strong>to</strong> a school <strong>for</strong> a place.</dd></dl>
+<p>To ask formally to be accepted somewhere, or to put a rule or method to use.</p>
+<ol><li>She wants to <em>apply</em> to three universities.</li><li>He <em>applied</em> for a scholarship in December.</li><li>We are <em>applying</em> what we learned last week.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#apply-for-apply-to">apply for, apply to</a></dd></dl>
+<h3 id="reapply">reapply<a class="hash" href="#reapply" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːəˈplaɪ/ &middot; <em>ree-uh-PLY</em></dd><dt>Русский</dt><dd>подавать заявление повторно</dd><dt>Forms</dt><dd><em>reapply</em> &middot; <em>reapplied</em> &middot; <em>reapplied</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reapplies</em> &middot; <strong>-ing form:</strong> <em>reapplying</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em> changes: <em>reapplies</em>, <em>reapplied</em>, but <em>reapplying</em> keeps the y.</dd></dl>
+<p>To send in an application a second time.</p>
+<ol><li>If they turn you down, you can <em>reapply</em> next year.</li><li>She <em>reapplied</em> in the fall and got in.</li><li>He is <em>reapplying</em> to the same program.</li></ol>
+<hr>
+<h3 id="waitlist">waitlist<a class="hash" href="#waitlist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪtlɪst/ &middot; <em>WAYT-list</em></dd><dt>Русский</dt><dd>вносить в список ожидания</dd><dt>Forms</dt><dd><em>waitlist</em> &middot; <em>waitlisted</em> &middot; <em>waitlisted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>waitlists</em> &middot; <strong>-ing form:</strong> <em>waitlisting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Usually heard in the passive: <em>be waitlisted</em>.</dd></dl>
+<p>To put someone on a list of people waiting for a place.</p>
+<ol><li>Popular seminars <em>waitlist</em> twenty or thirty students.</li><li>She was <em>waitlisted</em> at her first-choice college.</li><li>The registrar is <em>waitlisting</em> everyone who applied late.</li></ol>
+<hr>
+<h3 id="defer">defer<a class="hash" href="#defer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈfɜːr/ &middot; <em>di-FUR</em></dd><dt>Русский</dt><dd>откладывать, отсрочить (поступление, платёж)</dd><dt>Forms</dt><dd><em>defer</em> &middot; <em>deferred</em> &middot; <em>deferred</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>defers</em> &middot; <strong>-ing form:</strong> <em>deferring</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The stress is on the last syllable, so the r doubles: <em>deferred</em>, <em>deferring</em>.</dd></dl>
+<p>To put something off until a later date.</p>
+<ol><li>You may <em>defer</em> admission for one year.</li><li>He <em>deferred</em> his enrollment and worked abroad.</li><li>She is <em>deferring</em> the exam because of illness.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#defer-to">defer to</a></dd></dl>
+<h3 id="graduate">graduate<a class="hash" href="#graduate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrædʒueɪt/ &middot; <em>GRAJ-oo-ayt</em></dd><dt>Русский</dt><dd>оканчивать (учебное заведение), выпускаться</dd><dt>Forms</dt><dd><em>graduate</em> &middot; <em>graduated</em> &middot; <em>graduated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>graduates</em> &middot; <strong>-ing form:</strong> <em>graduating</em></dd><dt>Transitivity</dt><dd>both — intransitive (she graduates in May), transitive (the school graduates 300 seniors a year)</dd><dt>Contrast</dt><dd>Americans <em>graduate</em> <strong>from</strong> a school. The verb is GRAJ-oo-ayt; the noun <em>a graduate</em> is GRAJ-oo-uht.</dd></dl>
+<p>To finish a course of study and receive a diploma or a degree.</p>
+<ol><li>She will <em>graduate</em> in May.</li><li>He <em>graduated</em> from Ohio State in 2019.</li><li>Two hundred seniors are <em>graduating</em> this spring.</li></ol>
+<hr>
+<h3 id="qualify">qualify<a class="hash" href="#qualify" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɑːləfaɪ/ &middot; <em>KWAH-luh-fy</em></dd><dt>Русский</dt><dd>получать квалификацию; давать право; проходить отбор</dd><dt>Forms</dt><dd><em>qualify</em> &middot; <em>qualified</em> &middot; <em>qualified</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>qualifies</em> &middot; <strong>-ing form:</strong> <em>qualifying</em></dd><dt>Transitivity</dt><dd>both — transitive (the course qualifies you to teach), intransitive (she qualified as a nurse)</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em> changes: <em>qualifies</em>, <em>qualified</em>, but <em>qualifying</em> keeps the y. You <em>qualify</em> <strong>for</strong> something or <strong>as</strong> something.</dd></dl>
+<p>To reach the standard needed for a job, a place, or the next round.</p>
+<ol><li>These two courses <em>qualify</em> you for the certificate.</li><li>She <em>qualified</em> as a nurse last year.</li><li>He is <em>qualifying</em> for the state finals.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#qualify-for">qualify for</a></dd></dl>
+<h3 id="major">major<a class="hash" href="#major" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪdʒər/ &middot; <em>MAY-jur</em></dd><dt>Русский</dt><dd>специализироваться (по предмету в вузе)</dd><dt>Forms</dt><dd><em>major</em> &middot; <em>majored</em> &middot; <em>majored</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>majors</em> &middot; <strong>-ing form:</strong> <em>majoring</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>An American student <em>majors</em> <strong>in</strong> a subject; a British student simply <em>studies</em> it.</dd></dl>
+<p>To study one subject as your main field at an American college.</p>
+<ol><li>I want to <em>major</em> in linguistics.</li><li>She <em>majored</em> in biology.</li><li>He is <em>majoring</em> in computer science.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#major-in-minor-in">major in, minor in</a></dd></dl>
+<h3 id="specialize">specialize<a class="hash" href="#specialize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɛʃəlaɪz/ &middot; <em>SPESH-uh-lyz</em></dd><dt>Русский</dt><dd>специализироваться</dd><dt>Forms</dt><dd><em>specialize</em> &middot; <em>specialized</em> &middot; <em>specialized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>specializes</em> &middot; <strong>-ing form:</strong> <em>specializing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>American <em>specialize</em>, British <em>specialise</em>. You <em>specialize</em> <strong>in</strong> something.</dd></dl>
+<p>To concentrate on one narrow area of study or work.</p>
+<ol><li>Doctors <em>specialize</em> after medical school.</li><li>She <em>specialized</em> in medieval history.</li><li>The school is <em>specializing</em> in the arts.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#specialize-in">specialize in</a></dd></dl>
+<h3 id="accredit">accredit<a class="hash" href="#accredit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkrɛdɪt/ &middot; <em>uh-KRED-it</em></dd><dt>Русский</dt><dd>аккредитовать, официально признавать</dd><dt>Forms</dt><dd><em>accredit</em> &middot; <em>accredited</em> &middot; <em>accredited</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>accredits</em> &middot; <strong>-ing form:</strong> <em>accrediting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Two c's but only one t: <em>accredited</em>, <em>accrediting</em>.</dd></dl>
+<p>To officially recognize a school or program as meeting a standard.</p>
+<ol><li>A regional board <em>accredits</em> the nursing program.</li><li>The state <em>accredited</em> the school in 2018.</li><li>They are <em>accrediting</em> the online degree this year.</li></ol>
+<hr>
+<h3 id="intern">intern<a class="hash" href="#intern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtɜːrn/ &middot; <em>in-TURN</em></dd><dt>Русский</dt><dd>проходить стажировку, стажироваться</dd><dt>Forms</dt><dd><em>intern</em> &middot; <em>interned</em> &middot; <em>interned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>interns</em> &middot; <strong>-ing form:</strong> <em>interning</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The verb is stressed at the end (in-TURN); the noun <em>an intern</em> at the front (IN-turn).</dd></dl>
+<p>To work somewhere for a short time, often unpaid, in order to learn the job.</p>
+<ol><li>Many students <em>intern</em> the summer before senior year.</li><li>She <em>interned</em> at a law firm in Chicago.</li><li>He is <em>interning</em> with a local newspaper.</li></ol>
+<hr>
+<h3 id="shadow">shadow<a class="hash" href="#shadow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃædoʊ/ &middot; <em>SHAD-oh</em></dd><dt>Русский</dt><dd>сопровождать (специалиста) для обучения, наблюдать за работой</dd><dt>Forms</dt><dd><em>shadow</em> &middot; <em>shadowed</em> &middot; <em>shadowed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>shadows</em> &middot; <strong>-ing form:</strong> <em>shadowing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To follow someone at work for a day or two in order to learn what the job is like.</p>
+<ol><li>Juniors can <em>shadow</em> a nurse for a day.</li><li>He <em>shadowed</em> an engineer last spring.</li><li>She is <em>shadowing</em> a veterinarian this week.</li></ol>
+<hr>
+<h3 id="apprentice">apprentice<a class="hash" href="#apprentice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈprɛntɪs/ &middot; <em>uh-PREN-tis</em></dd><dt>Русский</dt><dd>учиться ремеслу (у мастера), быть подмастерьем</dd><dt>Forms</dt><dd><em>apprentice</em> &middot; <em>apprenticed</em> &middot; <em>apprenticed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>apprentices</em> &middot; <strong>-ing form:</strong> <em>apprenticing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The third-person form adds <em>-s</em> to the silent e: <em>apprentices</em>.</dd></dl>
+<p>To learn a trade by working under a skilled person.</p>
+<ol><li>Young carpenters still <em>apprentice</em> under a master.</li><li>He <em>apprenticed</em> with a violin maker for four years.</li><li>She is <em>apprenticing</em> at a bakery this year.</li></ol>
+<hr>
+<h3 id="chaperone">chaperone<a class="hash" href="#chaperone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃæpəroʊn/ &middot; <em>SHAP-uh-rohn</em></dd><dt>Русский</dt><dd>сопровождать (группу детей), быть сопровождающим</dd><dt>Forms</dt><dd><em>chaperone</em> &middot; <em>chaperoned</em> &middot; <em>chaperoned</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>chaperones</em> &middot; <strong>-ing form:</strong> <em>chaperoning</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Also written <em>chaperon</em>, but <em>chaperone</em> is usual in American English.</dd></dl>
+<p>To go along with a group of young people in order to look after them.</p>
+<ol><li>Parents <em>chaperone</em> every field trip.</li><li>My dad <em>chaperoned</em> the eighth-grade dance.</li><li>She is <em>chaperoning</em> the trip to Washington.</li></ol>
+<hr>
+<h3 id="cram">cram<a class="hash" href="#cram" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kræm/ &middot; <em>KRAM</em></dd><dt>Русский</dt><dd>зубрить, зазубривать (перед экзаменом)</dd><dt>Forms</dt><dd><em>cram</em> &middot; <em>crammed</em> &middot; <em>crammed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>crams</em> &middot; <strong>-ing form:</strong> <em>cramming</em></dd><dt>Transitivity</dt><dd>both — intransitive (cram for a test), transitive (cram three chapters into one night)</dd><dt>Contrast</dt><dd>The m doubles: <em>crammed</em>, <em>cramming</em>. You <em>cram</em> <strong>for</strong> a test.</dd></dl>
+<p>To study very hard in a short time just before a test.</p>
+<ol><li>Try not to <em>cram</em> the night before the exam.</li><li>We <em>crammed</em> for six hours straight.</li><li>He is <em>cramming</em> for the chemistry final.</li></ol>
+<hr>
+<h3 id="prep">prep<a class="hash" href="#prep" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɛp/ &middot; <em>PREP</em></dd><dt>Русский</dt><dd>готовить(ся), подготавливать(ся)</dd><dt>Forms</dt><dd><em>prep</em> &middot; <em>prepped</em> &middot; <em>prepped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>preps</em> &middot; <strong>-ing form:</strong> <em>prepping</em></dd><dt>Transitivity</dt><dd>both — transitive (prep the students), intransitive (prep for the test)</dd><dt>Contrast</dt><dd>The p doubles: <em>prepped</em>, <em>prepping</em>. Informal short form of <em>prepare</em>.</dd></dl>
+<p>To get ready, or get someone ready, for something.</p>
+<ol><li>I need to <em>prep</em> for tomorrow's quiz.</li><li>She <em>prepped</em> her students for the interview.</li><li>He is <em>prepping</em> for the bar exam.</li></ol>
+<hr>
+<h3 id="retain">retain<a class="hash" href="#retain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈteɪn/ &middot; <em>ri-TAYN</em></dd><dt>Русский</dt><dd>запоминать, удерживать в памяти; сохранять</dd><dt>Forms</dt><dd><em>retain</em> &middot; <em>retained</em> &middot; <em>retained</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>retains</em> &middot; <strong>-ing form:</strong> <em>retaining</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To keep something in your memory.</p>
+<ol><li>Most people <em>retain</em> very little from a long lecture.</li><li>She <em>retained</em> almost everything she read.</li><li>He is <em>retaining</em> far more since he started using flashcards.</li></ol>
+<hr>
+<h3 id="internalize">internalize<a class="hash" href="#internalize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtɜːrnəlaɪz/ &middot; <em>in-TUR-nuh-lyz</em></dd><dt>Русский</dt><dd>усваивать, впитывать (правило, привычку)</dd><dt>Forms</dt><dd><em>internalize</em> &middot; <em>internalized</em> &middot; <em>internalized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>internalizes</em> &middot; <strong>-ing form:</strong> <em>internalizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>internalize</em>, British <em>internalise</em>.</dd></dl>
+<p>To learn something so thoroughly that it becomes automatic.</p>
+<ol><li>Children <em>internalize</em> grammar rules without being taught them.</li><li>She had <em>internalized</em> her teacher's high standards.</li><li>You are <em>internalizing</em> the pattern every time you repeat it.</li></ol>
+<hr>
+<h3 id="revisit">revisit<a class="hash" href="#revisit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈvɪzɪt/ &middot; <em>ree-VIZ-it</em></dd><dt>Русский</dt><dd>возвращаться (к теме), пересматривать</dd><dt>Forms</dt><dd><em>revisit</em> &middot; <em>revisited</em> &middot; <em>revisited</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>revisits</em> &middot; <strong>-ing form:</strong> <em>revisiting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To come back to a topic in order to look at it again.</p>
+<ol><li>We will <em>revisit</em> this topic in chapter nine.</li><li>The class <em>revisited</em> the poem before the test.</li><li>I am <em>revisiting</em> my notes from last semester.</li></ol>
+<hr>
+<h3 id="hone">hone<a class="hash" href="#hone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hoʊn/ &middot; <em>HOHN</em></dd><dt>Русский</dt><dd>оттачивать, совершенствовать (навык)</dd><dt>Forms</dt><dd><em>hone</em> &middot; <em>honed</em> &middot; <em>honed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>hones</em> &middot; <strong>-ing form:</strong> <em>honing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Drop the -e before <em>-ing</em>: <em>honing</em>.</dd></dl>
+<p>To improve a skill by practicing it carefully over time.</p>
+<ol><li>Reading aloud every day <em>hones</em> your pronunciation.</li><li>She <em>honed</em> her writing in a summer workshop.</li><li>He has <em>honed</em> the technique over twenty years.</li></ol>
+<hr>
+<h3 id="consolidate">consolidate<a class="hash" href="#consolidate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈsɑːlədeɪt/ &middot; <em>kuhn-SAH-luh-dayt</em></dd><dt>Русский</dt><dd>закреплять (знания); объединять</dd><dt>Forms</dt><dd><em>consolidate</em> &middot; <em>consolidated</em> &middot; <em>consolidated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>consolidates</em> &middot; <strong>-ing form:</strong> <em>consolidating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To make what you have learned firmer, or to combine several things into one.</p>
+<ol><li>A short review <em>consolidates</em> everything from the week.</li><li>Sleep <em>consolidated</em> the day's practice.</li><li>They are <em>consolidating</em> two classes into one.</li></ol>
+<hr>
+<h3 id="synthesize">synthesize<a class="hash" href="#synthesize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪnθəsaɪz/ &middot; <em>SIN-thuh-syz</em></dd><dt>Русский</dt><dd>обобщать, синтезировать (материал)</dd><dt>Forms</dt><dd><em>synthesize</em> &middot; <em>synthesized</em> &middot; <em>synthesized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>synthesizes</em> &middot; <strong>-ing form:</strong> <em>synthesizing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>synthesize</em>, British <em>synthesise</em>.</dd></dl>
+<p>To combine ideas from several sources into one whole.</p>
+<ol><li>The essay asks you to <em>synthesize</em> three readings.</li><li>She <em>synthesized</em> the articles into a single argument.</li><li>They are <em>synthesizing</em> data from four studies.</li></ol>
+<hr>
+<h3 id="generalize">generalize<a class="hash" href="#generalize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛnərəlaɪz/ &middot; <em>JEN-ur-uh-lyz</em></dd><dt>Русский</dt><dd>обобщать, делать обобщение</dd><dt>Forms</dt><dd><em>generalize</em> &middot; <em>generalized</em> &middot; <em>generalized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>generalizes</em> &middot; <strong>-ing form:</strong> <em>generalizing</em></dd><dt>Transitivity</dt><dd>both — transitive (generalize the rule), intransitive (try not to generalize)</dd><dt>Contrast</dt><dd>You <em>generalize</em> <strong>from</strong> evidence or <strong>about</strong> a group. American -ize, British -ise.</dd></dl>
+<p>To draw a broad conclusion from only a few cases.</p>
+<ol><li>Learners often <em>generalize</em> a rule and use it where it does not fit.</li><li>He <em>generalized</em> from a single example.</li><li>She is <em>generalizing</em> about a whole country.</li></ol>
+<hr>
+<h3 id="associate">associate<a class="hash" href="#associate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsoʊʃieɪt/ &middot; <em>uh-SOH-shee-ayt</em></dd><dt>Русский</dt><dd>связывать, ассоциировать</dd><dt>Forms</dt><dd><em>associate</em> &middot; <em>associated</em> &middot; <em>associated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>associates</em> &middot; <strong>-ing form:</strong> <em>associating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You <em>associate</em> one thing <strong>with</strong> another. The verb ends -ayt; the noun <em>an associate</em> ends -uht.</dd></dl>
+<p>To connect one thing with another in your mind.</p>
+<ol><li>Try to <em>associate</em> each new word with a picture.</li><li>She <em>associated</em> the smell of chalk with school.</li><li>I have always <em>associated</em> that book with my first teacher.</li></ol>
+<hr>
+<h3 id="relate">relate<a class="hash" href="#relate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈleɪt/ &middot; <em>ri-LAYT</em></dd><dt>Русский</dt><dd>соотносить, связывать; понимать, сопереживать</dd><dt>Forms</dt><dd><em>relate</em> &middot; <em>related</em> &middot; <em>related</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>relates</em> &middot; <strong>-ing form:</strong> <em>relating</em></dd><dt>Transitivity</dt><dd>both — transitive (relate the two ideas), intransitive (relate to a character)</dd><dt>Contrast</dt><dd><em>relate</em> <strong>to</strong> something means to understand it or feel connected to it.</dd></dl>
+<p>To connect two things, or to understand and feel close to something.</p>
+<ol><li>Good teaching <em>relates</em> new facts to what students already know.</li><li>She <em>related</em> the story to her own childhood.</li><li>I could not <em>relate</em> to that character at all.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#relate-to">relate to</a></dd></dl>
+<h3 id="attribute">attribute<a class="hash" href="#attribute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtrɪbjuːt/ &middot; <em>uh-TRIB-yoot</em></dd><dt>Русский</dt><dd>приписывать, относить (к кому-л.)</dd><dt>Forms</dt><dd><em>attribute</em> &middot; <em>attributed</em> &middot; <em>attributed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>attributes</em> &middot; <strong>-ing form:</strong> <em>attributing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is uh-TRIB-yoot; the noun <em>an attribute</em> is AT-ruh-byoot. You <em>attribute</em> something <strong>to</strong> someone.</dd></dl>
+<p>To say that something was caused by or made by a particular person or thing.</p>
+<ol><li>Students often <em>attribute</em> that quote to Mark Twain.</li><li>She <em>attributed</em> her success to one teacher.</li><li>He is <em>attributing</em> every bad grade to bad luck.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#attribute-to">attribute to</a></dd></dl>
+<h3 id="derive">derive<a class="hash" href="#derive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈraɪv/ &middot; <em>di-RYV</em></dd><dt>Русский</dt><dd>выводить (формулу); происходить (от чего-л.)</dd><dt>Forms</dt><dd><em>derive</em> &middot; <em>derived</em> &middot; <em>derived</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>derives</em> &middot; <strong>-ing form:</strong> <em>deriving</em></dd><dt>Transitivity</dt><dd>both — transitive (derive the formula), intransitive (the word derives from Latin)</dd><dt>Contrast</dt><dd>Something <em>derives</em> <strong>from</strong> a source; drop the -e before <em>-ing</em>: <em>deriving</em>.</dd></dl>
+<p>To work something out from a starting point, or to come originally from a source.</p>
+<ol><li>You can <em>derive</em> the whole formula from two simple rules.</li><li>The word <em>derived</em> from Latin.</li><li>We are <em>deriving</em> the equation step by step.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#derive-from">derive from</a></dd></dl>
+<h3 id="parse">parse<a class="hash" href="#parse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːrs/ &middot; <em>PARS</em></dd><dt>Русский</dt><dd>разбирать (предложение), анализировать по составу</dd><dt>Forms</dt><dd><em>parse</em> &middot; <em>parsed</em> &middot; <em>parsed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>parses</em> &middot; <strong>-ing form:</strong> <em>parsing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To break a sentence into its grammatical parts, or to work out what a hard text means.</p>
+<ol><li>First-year students <em>parse</em> Latin sentences every day.</li><li>I could not <em>parse</em> that question at all.</li><li>She is still <em>parsing</em> the instructions.</li></ol>
+<hr>
+<h3 id="search">search<a class="hash" href="#search" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɜːrtʃ/ &middot; <em>SURCH</em></dd><dt>Русский</dt><dd>искать, разыскивать</dd><dt>Forms</dt><dd><em>search</em> &middot; <em>searched</em> &middot; <em>searched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>searches</em> &middot; <strong>-ing form:</strong> <em>searching</em></dd><dt>Transitivity</dt><dd>both — transitive (search the index), intransitive (search for a source)</dd><dt>Contrast</dt><dd>You <em>search</em> <strong>for</strong> a thing, but you <em>search</em> a place: <em>search the library</em> means look through it.</dd></dl>
+<p>To look carefully for something.</p>
+<ol><li><em>Search</em> the index for the term.</li><li>I <em>searched</em> for an hour and found nothing.</li><li>She is <em>searching</em> the database for older studies.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#search-for">search for</a></dd></dl>
+<h3 id="double-check">double-check<a class="hash" href="#double-check" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdʌbəlˈtʃɛk/ &middot; <em>dub-uhl-CHEK</em></dd><dt>Русский</dt><dd>перепроверять, перепроверить</dd><dt>Forms</dt><dd><em>double-check</em> &middot; <em>double-checked</em> &middot; <em>double-checked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>double-checks</em> &middot; <strong>-ing form:</strong> <em>double-checking</em></dd><dt>Transitivity</dt><dd>both — transitive (double-check your answers), intransitive (double-check before you submit)</dd><dt>Contrast</dt><dd>Written with a hyphen: <em>double-check</em>, <em>double-checked</em>, <em>double-checking</em>.</dd></dl>
+<p>To check something a second time to be sure it is right.</p>
+<ol><li><em>Double-check</em> your answers before you hand in the test.</li><li>She <em>double-checked</em> every calculation.</li><li>I am <em>double-checking</em> the spelling of his name.</li></ol>
+<hr>
+<h3 id="reexamine">reexamine<a class="hash" href="#reexamine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːɪɡˈzæmɪn/ &middot; <em>ree-ig-ZAM-in</em></dd><dt>Русский</dt><dd>пересматривать, заново изучать</dd><dt>Forms</dt><dd><em>reexamine</em> &middot; <em>reexamined</em> &middot; <em>reexamined</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reexamines</em> &middot; <strong>-ing form:</strong> <em>reexamining</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American writing usually joins it up: <em>reexamine</em> (British <em>re-examine</em>).</dd></dl>
+<p>To look at something again in order to judge it properly.</p>
+<ol><li>Historians <em>reexamine</em> old evidence all the time.</li><li>She <em>reexamined</em> her notes after class.</li><li>We are <em>reexamining</em> the first three chapters.</li></ol>
+<hr>
+<h3 id="reassess">reassess<a class="hash" href="#reassess" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːəˈsɛs/ &middot; <em>ree-uh-SES</em></dd><dt>Русский</dt><dd>пересматривать (оценку), заново оценивать</dd><dt>Forms</dt><dd><em>reassess</em> &middot; <em>reassessed</em> &middot; <em>reassessed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reassesses</em> &middot; <strong>-ing form:</strong> <em>reassessing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The third-person form adds <em>-es</em>: <em>reassesses</em>.</dd></dl>
+<p>To judge or measure something again, usually after new information.</p>
+<ol><li>Teachers <em>reassess</em> every student at the end of the unit.</li><li>The school <em>reassessed</em> his reading level in March.</li><li>They are <em>reassessing</em> the whole curriculum.</li></ol>
+<hr>
+<h3 id="rework">rework<a class="hash" href="#rework" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈwɜːrk/ &middot; <em>ree-WURK</em></dd><dt>Русский</dt><dd>переделывать, перерабатывать</dd><dt>Forms</dt><dd><em>rework</em> &middot; <em>reworked</em> &middot; <em>reworked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>reworks</em> &middot; <strong>-ing form:</strong> <em>reworking</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To do a piece of work again in a different or better way.</p>
+<ol><li>You may <em>rework</em> the essay for a higher grade.</li><li>She <em>reworked</em> the problem three times before it came out right.</li><li>He is <em>reworking</em> his introduction.</li></ol>
+<hr>
+<h3 id="replicate">replicate<a class="hash" href="#replicate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛpləkeɪt/ &middot; <em>REP-luh-kayt</em></dd><dt>Русский</dt><dd>воспроизводить (опыт), повторять</dd><dt>Forms</dt><dd><em>replicate</em> &middot; <em>replicated</em> &middot; <em>replicated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>replicates</em> &middot; <strong>-ing form:</strong> <em>replicating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To repeat an experiment or a result exactly.</p>
+<ol><li>Students <em>replicate</em> a famous experiment in week three.</li><li>No one could <em>replicate</em> her results.</li><li>They are <em>replicating</em> the study with older children.</li></ol>
+<hr>
+<h3 id="experiment">experiment<a class="hash" href="#experiment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈspɛrəmɛnt/ &middot; <em>ik-SPER-uh-ment</em></dd><dt>Русский</dt><dd>экспериментировать, ставить опыты</dd><dt>Forms</dt><dd><em>experiment</em> &middot; <em>experimented</em> &middot; <em>experimented</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>experiments</em> &middot; <strong>-ing form:</strong> <em>experimenting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>experiment</em> <strong>with</strong> a method and <em>experiment</em> <strong>on</strong> a subject.</dd></dl>
+<p>To try something new in order to see what happens.</p>
+<ol><li>We <em>experiment</em> with different study methods every term.</li><li>She <em>experimented</em> with flashcards for a month.</li><li>He is <em>experimenting</em> with teaching the whole class in Spanish.</li></ol>
+<hr>
+<h3 id="hypothesize">hypothesize<a class="hash" href="#hypothesize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haɪˈpɑːθəsaɪz/ &middot; <em>hy-PAH-thuh-syz</em></dd><dt>Русский</dt><dd>выдвигать гипотезу, предполагать</dd><dt>Forms</dt><dd><em>hypothesize</em> &middot; <em>hypothesized</em> &middot; <em>hypothesized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>hypothesizes</em> &middot; <strong>-ing form:</strong> <em>hypothesizing</em></dd><dt>Transitivity</dt><dd>both — transitive (hypothesize that sleep helps), intransitive (scientists hypothesize, then test)</dd><dt>Contrast</dt><dd>American <em>hypothesize</em>, British <em>hypothesise</em>.</dd></dl>
+<p>To suggest an explanation that can then be tested.</p>
+<ol><li>Scientists <em>hypothesize</em> first and test afterward.</li><li>She <em>hypothesized</em> that sleep improves recall.</li><li>We are <em>hypothesizing</em> about the cause.</li></ol>
+<hr>
+<h3 id="theorize">theorize<a class="hash" href="#theorize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθiːəraɪz/ &middot; <em>THEE-uh-ryz</em></dd><dt>Русский</dt><dd>теоретизировать, строить теорию</dd><dt>Forms</dt><dd><em>theorize</em> &middot; <em>theorized</em> &middot; <em>theorized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>theorizes</em> &middot; <strong>-ing form:</strong> <em>theorizing</em></dd><dt>Transitivity</dt><dd>both — transitive (theorize that the text had two authors), intransitive (theorize about the cause)</dd></dl>
+<p>To form an idea about why something is as it is, without full proof.</p>
+<ol><li>Historians still <em>theorize</em> about why the city fell.</li><li>He <em>theorized</em> that the text had two authors.</li><li>They are <em>theorizing</em> with very little evidence.</li></ol>
+<hr>
+<h3 id="refute">refute<a class="hash" href="#refute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfjuːt/ &middot; <em>ri-FYOOT</em></dd><dt>Русский</dt><dd>опровергать, опровергнуть</dd><dt>Forms</dt><dd><em>refute</em> &middot; <em>refuted</em> &middot; <em>refuted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>refutes</em> &middot; <strong>-ing form:</strong> <em>refuting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To prove that a statement or an argument is wrong.</p>
+<ol><li>Your job in the debate is to <em>refute</em> the other side.</li><li>She <em>refuted</em> the claim in two sentences.</li><li>He has <em>refuted</em> every point so far.</li></ol>
+<hr>
+<h3 id="perplex">perplex<a class="hash" href="#perplex" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈplɛks/ &middot; <em>pur-PLEKS</em></dd><dt>Русский</dt><dd>озадачивать, ставить в тупик</dd><dt>Forms</dt><dd><em>perplex</em> &middot; <em>perplexed</em> &middot; <em>perplexed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>perplexes</em> &middot; <strong>-ing form:</strong> <em>perplexing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The third-person form adds <em>-es</em>: <em>perplexes</em>.</dd></dl>
+<p>To confuse someone completely.</p>
+<ol><li>English spelling <em>perplexes</em> almost every learner.</li><li>The last question <em>perplexed</em> even the teacher.</li><li>The results have <em>perplexed</em> researchers for years.</li></ol>
+<hr>
+<h3 id="stump">stump<a class="hash" href="#stump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stʌmp/ &middot; <em>STUMP</em></dd><dt>Русский</dt><dd>ставить в тупик, озадачивать</dd><dt>Forms</dt><dd><em>stump</em> &middot; <em>stumped</em> &middot; <em>stumped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>stumps</em> &middot; <strong>-ing form:</strong> <em>stumping</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To ask something so hard that the other person cannot answer.</p>
+<ol><li>That riddle <em>stumps</em> everyone.</li><li>The last problem <em>stumped</em> me completely.</li><li>She has <em>stumped</em> the whole class with one question.</li></ol>
+<hr>
+<h3 id="distract">distract<a class="hash" href="#distract" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈstrækt/ &middot; <em>di-STRAKT</em></dd><dt>Русский</dt><dd>отвлекать, отвлечь</dd><dt>Forms</dt><dd><em>distract</em> &middot; <em>distracted</em> &middot; <em>distracted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>distracts</em> &middot; <strong>-ing form:</strong> <em>distracting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You <em>distract</em> someone <strong>from</strong> their work.</dd></dl>
+<p>To take someone's attention away from what they are doing.</p>
+<ol><li>Phones <em>distract</em> everyone in the room.</li><li>The noise <em>distracted</em> me during the whole exam.</li><li>She is <em>distracting</em> the entire back row.</li></ol>
+<hr>
+<h3 id="listen">listen<a class="hash" href="#listen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪsən/ &middot; <em>LIS-uhn</em></dd><dt>Русский</dt><dd>слушать, послушать</dd><dt>Forms</dt><dd><em>listen</em> &middot; <em>listened</em> &middot; <em>listened</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>listens</em> &middot; <strong>-ing form:</strong> <em>listening</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The t is silent. You <em>listen</em> <strong>to</strong> something — never listen the radio.</dd></dl>
+<p>To pay attention to a sound, a person, or a recording.</p>
+<ol><li><em>Listen</em> to the recording twice before you answer.</li><li>She <em>listened</em> to the lecture again at double speed.</li><li>I have been <em>listening</em> to podcasts to train my ear.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#listen-to">listen to</a></dd></dl>
+<h3 id="articulate">articulate<a class="hash" href="#articulate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːrˈtɪkjəleɪt/ &middot; <em>ar-TIK-yuh-layt</em></dd><dt>Русский</dt><dd>чётко выражать (мысль); внятно произносить</dd><dt>Forms</dt><dd><em>articulate</em> &middot; <em>articulated</em> &middot; <em>articulated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>articulates</em> &middot; <strong>-ing form:</strong> <em>articulating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb ends ar-TIK-yuh-layt; the adjective <em>articulate</em> ends ar-TIK-yuh-luht.</dd></dl>
+<p>To put an idea into clear words, or to pronounce sounds clearly.</p>
+<ol><li>Try to <em>articulate</em> exactly what you do not understand.</li><li>She <em>articulated</em> the problem better than the professor did.</li><li>He is learning to <em>articulate</em> his ideas in English.</li></ol>
+<hr>
+<h3 id="enunciate">enunciate<a class="hash" href="#enunciate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈnʌnsieɪt/ &middot; <em>i-NUN-see-ayt</em></dd><dt>Русский</dt><dd>чётко произносить, артикулировать</dd><dt>Forms</dt><dd><em>enunciate</em> &middot; <em>enunciated</em> &middot; <em>enunciated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>enunciates</em> &middot; <strong>-ing form:</strong> <em>enunciating</em></dd><dt>Transitivity</dt><dd>both — transitive (enunciate each syllable), intransitive (enunciate clearly)</dd></dl>
+<p>To pronounce words clearly and distinctly.</p>
+<ol><li><em>Enunciate</em> every syllable when you read aloud.</li><li>She <em>enunciated</em> each word for the beginners.</li><li>He is <em>enunciating</em> much better after a month of practice.</li></ol>
+<hr>
+<h3 id="mispronounce">mispronounce<a class="hash" href="#mispronounce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɪsprəˈnaʊns/ &middot; <em>mis-pruh-NOWNS</em></dd><dt>Русский</dt><dd>неправильно произносить</dd><dt>Forms</dt><dd><em>mispronounce</em> &middot; <em>mispronounced</em> &middot; <em>mispronounced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>mispronounces</em> &middot; <strong>-ing form:</strong> <em>mispronouncing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The third-person form adds <em>-es</em>: <em>mispronounces</em>.</dd></dl>
+<p>To say a word with the wrong sounds or the wrong stress.</p>
+<ol><li>Almost everyone <em>mispronounces</em> my last name.</li><li>He <em>mispronounced</em> the word colonel in front of the whole class.</li><li>She is afraid of <em>mispronouncing</em> words out loud.</li></ol>
+<hr>
+<h3 id="converse">converse<a class="hash" href="#converse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈvɜːrs/ &middot; <em>kuhn-VURS</em></dd><dt>Русский</dt><dd>беседовать, разговаривать</dd><dt>Forms</dt><dd><em>converse</em> &middot; <em>conversed</em> &middot; <em>conversed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>converses</em> &middot; <strong>-ing form:</strong> <em>conversing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The verb is kuhn-VURS; the noun <em>the converse</em> (the opposite) is KAHN-vurs. You <em>converse</em> <strong>with</strong> someone.</dd></dl>
+<p>To have a real conversation, especially in a foreign language.</p>
+<ol><li>By May the class can <em>converse</em> in simple Spanish.</li><li>We <em>conversed</em> in French for an hour.</li><li>She is <em>conversing</em> with a native speaker twice a week.</li></ol>
+<hr>
+<h3 id="correspond">correspond<a class="hash" href="#correspond" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɔːrəˈspɑːnd/ &middot; <em>kor-uh-SPAHND</em></dd><dt>Русский</dt><dd>соответствовать; переписываться</dd><dt>Forms</dt><dd><em>correspond</em> &middot; <em>corresponded</em> &middot; <em>corresponded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>corresponds</em> &middot; <strong>-ing form:</strong> <em>corresponding</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>A thing <em>corresponds</em> <strong>to</strong> another thing; a person <em>corresponds</em> <strong>with</strong> another person.</dd></dl>
+<p>To match something else, or to exchange letters with someone.</p>
+<ol><li>The numbers in the margin <em>correspond</em> to the notes at the back.</li><li>They <em>corresponded</em> for two years before they met.</li><li>She has been <em>corresponding</em> with a class in Japan.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#correspond-to-correspond-with">correspond to, correspond with</a></dd></dl>
+<h3 id="relay">relay<a class="hash" href="#relay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈleɪ/ &middot; <em>ri-LAY</em></dd><dt>Русский</dt><dd>передавать (сообщение, информацию)</dd><dt>Forms</dt><dd><em>relay</em> &middot; <em>relayed</em> &middot; <em>relayed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>relays</em> &middot; <strong>-ing form:</strong> <em>relaying</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>A vowel before -y keeps the y: <em>relays</em>, <em>relayed</em>, never relaid.</dd></dl>
+<p>To pass a message or information on to someone else.</p>
+<ol><li>Please <em>relay</em> the assignment to anyone who was absent.</li><li>She <em>relayed</em> the principal's message to the class.</li><li>He is <em>relaying</em> the questions to the speaker.</li></ol>
+<hr>
+<h3 id="detail">detail<a class="hash" href="#detail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈteɪl/ &middot; <em>di-TAYL</em></dd><dt>Русский</dt><dd>подробно излагать, детализировать</dd><dt>Forms</dt><dd><em>detail</em> &middot; <em>detailed</em> &middot; <em>detailed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>details</em> &middot; <strong>-ing form:</strong> <em>detailing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb is stressed at the end: di-TAYL. The noun <em>a detail</em> is usually DEE-tayl.</dd></dl>
+<p>To describe something fully, point by point.</p>
+<ol><li>The syllabus <em>details</em> every assignment.</li><li>She <em>detailed</em> her method in the appendix.</li><li>The handbook is <em>detailing</em> the new rules for next fall.</li></ol>
+<hr>
+<h3 id="rewatch">rewatch<a class="hash" href="#rewatch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈwɑːtʃ/ &middot; <em>ree-WAHCH</em></dd><dt>Русский</dt><dd>пересматривать (видео, лекцию)</dd><dt>Forms</dt><dd><em>rewatch</em> &middot; <em>rewatched</em> &middot; <em>rewatched</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rewatches</em> &middot; <strong>-ing form:</strong> <em>rewatching</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The third-person form adds <em>-es</em>: <em>rewatches</em>.</dd></dl>
+<p>To watch a recording or a video again.</p>
+<ol><li>You can <em>rewatch</em> the lecture as many times as you like.</li><li>She <em>rewatched</em> the lab demonstration twice.</li><li>He is <em>rewatching</em> last week's class before the quiz.</li></ol>
+<hr>
+<h3 id="benefit">benefit<a class="hash" href="#benefit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛnəfɪt/ &middot; <em>BEN-uh-fit</em></dd><dt>Русский</dt><dd>извлекать пользу; приносить пользу</dd><dt>Forms</dt><dd><em>benefit</em> &middot; <em>benefited</em> &middot; <em>benefited</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>benefits</em> &middot; <strong>-ing form:</strong> <em>benefiting</em></dd><dt>Transitivity</dt><dd>both — transitive (the change benefits everyone), intransitive (benefit from extra practice)</dd><dt>Contrast</dt><dd>American English keeps one t: <em>benefited</em>, <em>benefiting</em> (British often <em>benefitted</em>). You <em>benefit</em> <strong>from</strong> something.</dd></dl>
+<p>To gain an advantage from something, or to do someone good.</p>
+<ol><li>Slower readers <em>benefit</em> from extra practice.</li><li>She <em>benefited</em> from a year abroad.</li><li>The whole class is <em>benefiting</em> from the smaller size.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#benefit-from">benefit from</a></dd></dl>
+<h3 id="fulfill">fulfill<a class="hash" href="#fulfill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fʊlˈfɪl/ &middot; <em>fuul-FIL</em></dd><dt>Русский</dt><dd>выполнять, исполнять (требование, условие)</dd><dt>Forms</dt><dd><em>fulfill</em> &middot; <em>fulfilled</em> &middot; <em>fulfilled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>fulfills</em> &middot; <strong>-ing form:</strong> <em>fulfilling</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>American <em>fulfill</em>, British <em>fulfil</em>; both double the l before endings: <em>fulfilled</em>, <em>fulfilling</em>.</dd></dl>
+<p>To do what a rule, a promise, or a requirement asks for.</p>
+<ol><li>Two lab courses <em>fulfill</em> the science requirement.</li><li>She <em>fulfilled</em> the language requirement with Spanish.</li><li>He is <em>fulfilling</em> his last credits this summer.</li></ol>
+<hr>
+<h3 id="comply">comply<a class="hash" href="#comply" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈplaɪ/ &middot; <em>kuhm-PLY</em></dd><dt>Русский</dt><dd>подчиняться, соблюдать (правила)</dd><dt>Forms</dt><dd><em>comply</em> &middot; <em>complied</em> &middot; <em>complied</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>complies</em> &middot; <strong>-ing form:</strong> <em>complying</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>comply</em> <strong>with</strong> a rule. Consonant + <em>-y</em> changes: <em>complies</em>, <em>complied</em>.</dd></dl>
+<p>To do what a rule or an order requires.</p>
+<ol><li>All students must <em>comply</em> with the honor code.</li><li>The school <em>complied</em> with the new state rules.</li><li>They are <em>complying</em> fully with the policy.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#comply-with">comply with</a></dd></dl>
+<h3 id="behave">behave<a class="hash" href="#behave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈheɪv/ &middot; <em>bi-HAYV</em></dd><dt>Русский</dt><dd>вести себя (хорошо)</dd><dt>Forms</dt><dd><em>behave</em> &middot; <em>behaved</em> &middot; <em>behaved</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>behaves</em> &middot; <strong>-ing form:</strong> <em>behaving</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>On its own, <em>behave</em> means behave well; with a reflexive it is stronger: <em>behave yourself</em>.</dd></dl>
+<p>To act in a particular way, or to act properly.</p>
+<ol><li>The kids <em>behave</em> better with a substitute than with me.</li><li>He <em>behaved</em> beautifully all semester.</li><li>They are <em>behaving</em> as if the test did not matter.</li></ol>
+<hr>
+<h3 id="misbehave">misbehave<a class="hash" href="#misbehave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɪsbɪˈheɪv/ &middot; <em>mis-bi-HAYV</em></dd><dt>Русский</dt><dd>плохо себя вести, шалить</dd><dt>Forms</dt><dd><em>misbehave</em> &middot; <em>misbehaved</em> &middot; <em>misbehaved</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>misbehaves</em> &middot; <strong>-ing form:</strong> <em>misbehaving</em></dd><dt>Transitivity</dt><dd>intransitive</dd></dl>
+<p>To act badly, especially in class.</p>
+<ol><li>Two boys always <em>misbehave</em> in the back row.</li><li>She <em>misbehaved</em> only once all year.</li><li>He was sent to the office for <em>misbehaving</em>.</li></ol>
+<hr>
+<h3 id="cheat">cheat<a class="hash" href="#cheat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃiːt/ &middot; <em>CHEET</em></dd><dt>Русский</dt><dd>списывать, жульничать; обманывать</dd><dt>Forms</dt><dd><em>cheat</em> &middot; <em>cheated</em> &middot; <em>cheated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cheats</em> &middot; <strong>-ing form:</strong> <em>cheating</em></dd><dt>Transitivity</dt><dd>both — intransitive (cheat on a test), transitive (cheat someone out of money)</dd><dt>Contrast</dt><dd>You <em>cheat</em> <strong>on</strong> a test and <em>cheat</em> <strong>at</strong> cards.</dd></dl>
+<p>To break the rules of a test or a game in order to gain an advantage.</p>
+<ol><li>Nobody needs to <em>cheat</em> on a take-home exam.</li><li>He <em>cheated</em> on the final and was expelled.</li><li>She was caught <em>cheating</em> in the first week.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#cheat-on">cheat on</a></dd></dl>
+<h3 id="persist">persist<a class="hash" href="#persist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈsɪst/ &middot; <em>pur-SIST</em></dd><dt>Русский</dt><dd>упорствовать, продолжать; сохраняться</dd><dt>Forms</dt><dd><em>persist</em> &middot; <em>persisted</em> &middot; <em>persisted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>persists</em> &middot; <strong>-ing form:</strong> <em>persisting</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>persist</em> <strong>in</strong> doing something, or <em>persist</em> <strong>with</strong> a task.</dd></dl>
+<p>To keep going despite difficulty, or to continue to exist.</p>
+<ol><li>Students who <em>persist</em> through the first year usually finish.</li><li>She <em>persisted</em> until the proof finally worked.</li><li>The problem is <em>persisting</em> into the second semester.</li></ol>
+<hr>
+<h3 id="persevere">persevere<a class="hash" href="#persevere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɜːrsəˈvɪr/ &middot; <em>pur-suh-VEER</em></dd><dt>Русский</dt><dd>упорствовать, не сдаваться</dd><dt>Forms</dt><dd><em>persevere</em> &middot; <em>persevered</em> &middot; <em>persevered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>perseveres</em> &middot; <strong>-ing form:</strong> <em>persevering</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Note the three e's: per-se-vere. You <em>persevere</em> <strong>with</strong> a task or <strong>in</strong> doing something.</dd></dl>
+<p>To keep trying at something hard for a long time.</p>
+<ol><li>You have to <em>persevere</em> through the difficult chapters.</li><li>She <em>persevered</em> and finished the degree in five years.</li><li>He is <em>persevering</em> after two failed attempts.</li></ol>
+<hr>
+<h3 id="attempt">attempt<a class="hash" href="#attempt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtɛmpt/ &middot; <em>uh-TEMPT</em></dd><dt>Русский</dt><dd>пытаться, пробовать; предпринимать попытку</dd><dt>Forms</dt><dd><em>attempt</em> &middot; <em>attempted</em> &middot; <em>attempted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>attempts</em> &middot; <strong>-ing form:</strong> <em>attempting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You <em>attempt</em> <strong>to do</strong> something, never attempt do something.</dd></dl>
+<p>To try to do something, especially something difficult.</p>
+<ol><li><em>Attempt</em> every question, even if you are unsure.</li><li>She <em>attempted</em> the bonus problem and got it right.</li><li>He is <em>attempting</em> the exam for the third time.</li></ol>
+<hr>
+<h3 id="tackle">tackle<a class="hash" href="#tackle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtækəl/ &middot; <em>TAK-uhl</em></dd><dt>Русский</dt><dd>браться (за задачу), взяться, решать</dd><dt>Forms</dt><dd><em>tackle</em> &middot; <em>tackled</em> &middot; <em>tackled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>tackles</em> &middot; <strong>-ing form:</strong> <em>tackling</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To start dealing with a difficult problem or task.</p>
+<ol><li><em>Tackle</em> the hardest question first.</li><li>She <em>tackled</em> the whole reading list over the summer.</li><li>We are <em>tackling</em> fractions this week.</li></ol>
+<hr>
+<h3 id="cope">cope<a class="hash" href="#cope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊp/ &middot; <em>KOHP</em></dd><dt>Русский</dt><dd>справляться, справиться</dd><dt>Forms</dt><dd><em>cope</em> &middot; <em>coped</em> &middot; <em>coped</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>copes</em> &middot; <strong>-ing form:</strong> <em>coping</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>cope</em> <strong>with</strong> something; drop the -e before <em>-ing</em>: <em>coping</em>.</dd></dl>
+<p>To manage successfully with something difficult.</p>
+<ol><li>Some freshmen cannot <em>cope</em> with the workload.</li><li>She <em>coped</em> well with a heavy schedule.</li><li>He is <em>coping</em> better since the tutoring started.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#cope-with">cope with</a></dd></dl>
+<h3 id="succeed">succeed<a class="hash" href="#succeed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səkˈsiːd/ &middot; <em>suhk-SEED</em></dd><dt>Русский</dt><dd>преуспевать, добиваться успеха; удаваться</dd><dt>Forms</dt><dd><em>succeed</em> &middot; <em>succeeded</em> &middot; <em>succeeded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>succeeds</em> &middot; <strong>-ing form:</strong> <em>succeeding</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>succeed</em> <strong>in</strong> doing something, or <em>succeed</em> <strong>at</strong> a subject.</dd></dl>
+<p>To achieve what you were trying to do.</p>
+<ol><li>Students <em>succeed</em> when someone expects them to.</li><li>She <em>succeeded</em> on her second try.</li><li>He has <em>succeeded</em> in every class he has taken.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#succeed-in">succeed in</a></dd></dl>
+<h3 id="excel">excel<a class="hash" href="#excel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsɛl/ &middot; <em>ik-SEL</em></dd><dt>Русский</dt><dd>преуспевать, отличаться (в чём-л.)</dd><dt>Forms</dt><dd><em>excel</em> &middot; <em>excelled</em> &middot; <em>excelled</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>excels</em> &middot; <strong>-ing form:</strong> <em>excelling</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>The l doubles: <em>excelled</em>, <em>excelling</em>. You <em>excel</em> <strong>at</strong> or <strong>in</strong> something.</dd></dl>
+<p>To be extremely good at something.</p>
+<ol><li>She <em>excels</em> at languages.</li><li>He <em>excelled</em> in math but struggled with writing.</li><li>They are <em>excelling</em> in the new program.</li></ol>
+<hr>
+<h3 id="outperform">outperform<a class="hash" href="#outperform" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtpərˈfɔːrm/ &middot; <em>owt-pur-FORM</em></dd><dt>Русский</dt><dd>превосходить (по результатам), опережать</dd><dt>Forms</dt><dd><em>outperform</em> &middot; <em>outperformed</em> &middot; <em>outperformed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>outperforms</em> &middot; <strong>-ing form:</strong> <em>outperforming</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To do better than someone or something else.</p>
+<ol><li>Small classes usually <em>outperform</em> large ones.</li><li>She <em>outperformed</em> every student in her year.</li><li>The new method is <em>outperforming</em> the old one.</li></ol>
+<hr>
+<h3 id="surpass">surpass<a class="hash" href="#surpass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈpæs/ &middot; <em>sur-PAS</em></dd><dt>Русский</dt><dd>превосходить, превзойти</dd><dt>Forms</dt><dd><em>surpass</em> &middot; <em>surpassed</em> &middot; <em>surpassed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>surpasses</em> &middot; <strong>-ing form:</strong> <em>surpassing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The third-person form adds <em>-es</em>: <em>surpasses</em>.</dd></dl>
+<p>To go beyond someone or something in quality or amount.</p>
+<ol><li>Her essay <em>surpasses</em> anything else in the class.</li><li>He <em>surpassed</em> his own record on the third try.</li><li>The results have <em>surpassed</em> what anyone expected.</li></ol>
+<hr>
+<h3 id="compete">compete<a class="hash" href="#compete" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpiːt/ &middot; <em>kuhm-PEET</em></dd><dt>Русский</dt><dd>соревноваться, конкурировать</dd><dt>Forms</dt><dd><em>compete</em> &middot; <em>competed</em> &middot; <em>competed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>competes</em> &middot; <strong>-ing form:</strong> <em>competing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>compete</em> <strong>with</strong> or <strong>against</strong> someone <strong>for</strong> something.</dd></dl>
+<p>To try to win or to do better than others.</p>
+<ol><li>Ten schools <em>compete</em> in the spelling bee.</li><li>She <em>competed</em> in the science fair twice.</li><li>They are <em>competing</em> for two scholarships.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#compete-with-compete-against-compete-for">compete with, compete against, compete for</a></dd></dl>
+<h3 id="flunk">flunk<a class="hash" href="#flunk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flʌŋk/ &middot; <em>FLUNGK</em></dd><dt>Русский</dt><dd>провалить (экзамен), завалить</dd><dt>Forms</dt><dd><em>flunk</em> &middot; <em>flunked</em> &middot; <em>flunked</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>flunks</em> &middot; <strong>-ing form:</strong> <em>flunking</em></dd><dt>Transitivity</dt><dd>both — transitive (flunk chemistry), intransitive (half the class flunked)</dd><dt>Contrast</dt><dd>Informal American English for <em>fail</em>.</dd></dl>
+<p>To fail a test or a course, or to give someone a failing grade.</p>
+<ol><li>If you skip the final, you <em>flunk</em> the course.</li><li>He <em>flunked</em> chemistry and had to take it again.</li><li>She is <em>flunking</em> two classes this semester.</li></ol>
+<hr>
+<h3 id="ace">ace<a class="hash" href="#ace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eɪs/ &middot; <em>AYS</em></dd><dt>Русский</dt><dd>сдать на отлично, блестяще справиться</dd><dt>Forms</dt><dd><em>ace</em> &middot; <em>aced</em> &middot; <em>aced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>aces</em> &middot; <strong>-ing form:</strong> <em>acing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Drop the -e before <em>-ing</em>: <em>acing</em>. Informal American English.</dd></dl>
+<p>To do extremely well on a test or in an interview.</p>
+<ol><li>If you study tonight, you will <em>ace</em> this quiz.</li><li>She <em>aced</em> the interview.</li><li>He has <em>aced</em> every test so far this year.</li></ol>
+<hr>
+<h3 id="participate">participate<a class="hash" href="#participate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːrˈtɪsəpeɪt/ &middot; <em>par-TIS-uh-payt</em></dd><dt>Русский</dt><dd>участвовать, принимать участие</dd><dt>Forms</dt><dd><em>participate</em> &middot; <em>participated</em> &middot; <em>participated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>participates</em> &middot; <strong>-ing form:</strong> <em>participating</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>participate</em> <strong>in</strong> something.</dd></dl>
+<p>To take an active part in something.</p>
+<ol><li>Part of your grade is how often you <em>participate</em>.</li><li>She <em>participated</em> in every discussion.</li><li>Only half the class is <em>participating</em> today.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#participate-in">participate in</a></dd></dl>
+<h3 id="cooperate">cooperate<a class="hash" href="#cooperate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊˈɑːpəreɪt/ &middot; <em>koh-AH-puh-rayt</em></dd><dt>Русский</dt><dd>сотрудничать, содействовать</dd><dt>Forms</dt><dd><em>cooperate</em> &middot; <em>cooperated</em> &middot; <em>cooperated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>cooperates</em> &middot; <strong>-ing form:</strong> <em>cooperating</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>Americans write <em>cooperate</em> without a hyphen (British often <em>co-operate</em>). You <em>cooperate</em> <strong>with</strong> someone <strong>on</strong> something.</dd></dl>
+<p>To work together with someone toward the same goal.</p>
+<ol><li>The two schools <em>cooperate</em> on a summer program.</li><li>He <em>cooperated</em> fully with the investigation.</li><li>They are <em>cooperating</em> on a joint project.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#cooperate-with">cooperate with</a></dd></dl>
+<h3 id="partner">partner<a class="hash" href="#partner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrtnər/ &middot; <em>PART-nur</em></dd><dt>Русский</dt><dd>работать в паре, объединяться (с кем-л.)</dd><dt>Forms</dt><dd><em>partner</em> &middot; <em>partnered</em> &middot; <em>partnered</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>partners</em> &middot; <strong>-ing form:</strong> <em>partnering</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>You <em>partner</em> <strong>with</strong> someone.</dd></dl>
+<p>To join with another person or group in order to work together.</p>
+<ol><li><em>Partner</em> with someone you have not worked with yet.</li><li>She <em>partnered</em> with a classmate for the lab report.</li><li>Our school is <em>partnering</em> with a community college.</li></ol>
+<hr>
+<h3 id="socialize">socialize<a class="hash" href="#socialize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊʃəlaɪz/ &middot; <em>SOH-shuh-lyz</em></dd><dt>Русский</dt><dd>общаться, проводить время с людьми</dd><dt>Forms</dt><dd><em>socialize</em> &middot; <em>socialized</em> &middot; <em>socialized</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>socializes</em> &middot; <strong>-ing form:</strong> <em>socializing</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd>American <em>socialize</em>, British <em>socialise</em>.</dd></dl>
+<p>To spend time with other people in a friendly way.</p>
+<ol><li>Freshmen mostly <em>socialize</em> in the dorms.</li><li>We <em>socialized</em> for an hour after the exam.</li><li>She is <em>socializing</em> much more this year.</li></ol>
+<hr>
+<h3 id="befriend">befriend<a class="hash" href="#befriend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈfrɛnd/ &middot; <em>bi-FREND</em></dd><dt>Русский</dt><dd>подружиться (с кем-л.), взять под опеку</dd><dt>Forms</dt><dd><em>befriend</em> &middot; <em>befriended</em> &middot; <em>befriended</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>befriends</em> &middot; <strong>-ing form:</strong> <em>befriending</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To become a friend to someone, especially someone new or alone.</p>
+<ol><li>Older students <em>befriend</em> the newcomers in September.</li><li>She <em>befriended</em> a girl from Brazil.</li><li>He has <em>befriended</em> everyone on his floor.</li></ol>
+<hr>
+<h3 id="belong">belong<a class="hash" href="#belong" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈlɔːŋ/ &middot; <em>bi-LAWNG</em></dd><dt>Русский</dt><dd>принадлежать; быть на своём месте</dd><dt>Forms</dt><dd><em>belong</em> &middot; <em>belonged</em> &middot; <em>belonged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>belongs</em> &middot; <strong>-ing form:</strong> <em>belonging</em></dd><dt>Transitivity</dt><dd>intransitive</dd><dt>Contrast</dt><dd><em>belong</em> <strong>to</strong> someone means it is theirs; with no preposition it means being in the right place.</dd></dl>
+<p>To be owned by someone, or to feel accepted in a place.</p>
+<ol><li>This textbook <em>belongs</em> to the library.</li><li>She never felt she <em>belonged</em> at that school.</li><li>Children learn better when they feel they <em>belong</em>.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#belong-to">belong to</a></dd></dl>
+<h3 id="acclimate">acclimate<a class="hash" href="#acclimate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈækləmeɪt/ &middot; <em>AK-luh-mayt</em></dd><dt>Русский</dt><dd>привыкать, адаптироваться, осваиваться</dd><dt>Forms</dt><dd><em>acclimate</em> &middot; <em>acclimated</em> &middot; <em>acclimated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>acclimates</em> &middot; <strong>-ing form:</strong> <em>acclimating</em></dd><dt>Transitivity</dt><dd>both — transitive (acclimate the new students), intransitive (acclimate to college)</dd><dt>Contrast</dt><dd>Americans say <em>acclimate</em>; the British say <em>acclimatize</em>. You <em>acclimate</em> <strong>to</strong> something.</dd></dl>
+<p>To get used to a new place, climate, or situation.</p>
+<ol><li>It takes about a month to <em>acclimate</em> to college.</li><li>She <em>acclimated</em> quickly to the new school.</li><li>He is still <em>acclimating</em> to classes taught in English.</li></ol>
+<hr>
+<h3 id="count">count<a class="hash" href="#count" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kaʊnt/ &middot; <em>KOWNT</em></dd><dt>Русский</dt><dd>считать, посчитать; засчитываться</dd><dt>Forms</dt><dd><em>count</em> &middot; <em>counted</em> &middot; <em>counted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>counts</em> &middot; <strong>-ing form:</strong> <em>counting</em></dd><dt>Transitivity</dt><dd>both — transitive (count the pages), intransitive (this quiz counts)</dd></dl>
+<p>To say numbers in order or find a total, or to matter toward a result.</p>
+<ol><li>First graders <em>count</em> to a hundred by tens.</li><li>She <em>counted</em> the votes twice.</li><li>I am <em>counting</em> the days until graduation.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#count-on">count on</a></dd></dl>
+<h3 id="subtract">subtract<a class="hash" href="#subtract" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səbˈtrækt/ &middot; <em>suhb-TRAKT</em></dd><dt>Русский</dt><dd>вычитать, вычесть</dd><dt>Forms</dt><dd><em>subtract</em> &middot; <em>subtracted</em> &middot; <em>subtracted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>subtracts</em> &middot; <strong>-ing form:</strong> <em>subtracting</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You <em>subtract</em> one number <strong>from</strong> another.</dd></dl>
+<p>To take one number away from another.</p>
+<ol><li><em>Subtract</em> seven from twelve.</li><li>The teacher <em>subtracted</em> five points for turning it in late.</li><li>We are <em>subtracting</em> fractions this week.</li></ol>
+<hr>
+<h3 id="round">round<a class="hash" href="#round" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raʊnd/ &middot; <em>ROWND</em></dd><dt>Русский</dt><dd>округлять, округлить (число)</dd><dt>Forms</dt><dd><em>round</em> &middot; <em>rounded</em> &middot; <em>rounded</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>rounds</em> &middot; <strong>-ing form:</strong> <em>rounding</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>You <em>round</em> a number <strong>to</strong> the nearest ten, and <em>round</em> it up or down.</dd></dl>
+<p>To change a number to the nearest simpler one.</p>
+<ol><li><em>Round</em> your answer to two decimal places.</li><li>She <em>rounded</em> 4.6 up to 5.</li><li>The program is <em>rounding</em> every score to the nearest whole number.</li></ol>
+<hr>
+<h3 id="average">average<a class="hash" href="#average" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈævərɪdʒ/ &middot; <em>AV-ur-ij</em></dd><dt>Русский</dt><dd>усреднять, выводить среднее; составлять в среднем</dd><dt>Forms</dt><dd><em>average</em> &middot; <em>averaged</em> &middot; <em>averaged</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>averages</em> &middot; <strong>-ing form:</strong> <em>averaging</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To find the middle value of several numbers, or to reach that value typically.</p>
+<ol><li>The teacher <em>averages</em> your four best quizzes.</li><li>He <em>averaged</em> a B plus for the semester.</li><li>She is <em>averaging</em> two hours of homework a night.</li></ol>
+<hr>
+<h3 id="tally">tally<a class="hash" href="#tally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæli/ &middot; <em>TAL-ee</em></dd><dt>Русский</dt><dd>подсчитывать, подводить итог</dd><dt>Forms</dt><dd><em>tally</em> &middot; <em>tallied</em> &middot; <em>tallied</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>tallies</em> &middot; <strong>-ing form:</strong> <em>tallying</em></dd><dt>Transitivity</dt><dd>both — transitive (tally the votes), intransitive (the two lists tally)</dd><dt>Contrast</dt><dd>Consonant + <em>-y</em> changes: <em>tallies</em>, <em>tallied</em>, but <em>tallying</em> keeps the y.</dd></dl>
+<p>To count things up, or for two sets of numbers to match.</p>
+<ol><li><em>Tally</em> the votes on the board.</li><li>She <em>tallied</em> the scores after the quiz.</li><li>We are <em>tallying</em> the results now.</li></ol>
+<hr>
+<h3 id="recalculate">recalculate<a class="hash" href="#recalculate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈkælkjəleɪt/ &middot; <em>ree-KAL-kyuh-layt</em></dd><dt>Русский</dt><dd>пересчитывать, пересчитать</dd><dt>Forms</dt><dd><em>recalculate</em> &middot; <em>recalculated</em> &middot; <em>recalculated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>recalculates</em> &middot; <strong>-ing form:</strong> <em>recalculating</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To work a number out again.</p>
+<ol><li><em>Recalculate</em> the average without the lowest score.</li><li>He <em>recalculated</em> his grade three times.</li><li>She is <em>recalculating</em> the totals after the correction.</li></ol>
+<hr>
+<h3 id="approximate">approximate<a class="hash" href="#approximate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈprɑːksəmeɪt/ &middot; <em>uh-PRAHK-suh-mayt</em></dd><dt>Русский</dt><dd>приближённо оценивать; приближаться (к значению)</dd><dt>Forms</dt><dd><em>approximate</em> &middot; <em>approximated</em> &middot; <em>approximated</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>approximates</em> &middot; <strong>-ing form:</strong> <em>approximating</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The verb ends uh-PRAHK-suh-mayt; the adjective <em>approximate</em> ends -suh-muht.</dd></dl>
+<p>To come close to a value, or to estimate it roughly.</p>
+<ol><li>You can <em>approximate</em> the answer before you do the arithmetic.</li><li>She <em>approximated</em> the cost in her head.</li><li>The model is <em>approximating</em> real conditions fairly well.</li></ol>
+<hr>
+<h3 id="substitute">substitute<a class="hash" href="#substitute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbstətuːt/ &middot; <em>SUB-stuh-toot</em></dd><dt>Русский</dt><dd>заменять, подставлять; замещать (учителя)</dd><dt>Forms</dt><dd><em>substitute</em> &middot; <em>substituted</em> &middot; <em>substituted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>substitutes</em> &middot; <strong>-ing form:</strong> <em>substituting</em></dd><dt>Transitivity</dt><dd>both — transitive (substitute the value of x), intransitive (substitute for a teacher)</dd><dt>Contrast</dt><dd>You <em>substitute</em> A <strong>for</strong> B, and you <em>substitute</em> <strong>for</strong> the person whose place you take.</dd></dl>
+<p>To put one thing in place of another, or to take someone's place for a while.</p>
+<ol><li><em>Substitute</em> the value of x in the equation.</li><li>She <em>substituted</em> for our teacher all last week.</li><li>He is <em>substituting</em> at the middle school this year.</li></ol>
+<hr>
+<dl class="fields"><dt>Phrasal verbs</dt><dd><a href="22-verb-preposition.html#substitute-for">substitute for</a></dd></dl>
+<h3 id="graph">graph<a class="hash" href="#graph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡræf/ &middot; <em>GRAF</em></dd><dt>Русский</dt><dd>строить график, наносить на график</dd><dt>Forms</dt><dd><em>graph</em> &middot; <em>graphed</em> &middot; <em>graphed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>graphs</em> &middot; <strong>-ing form:</strong> <em>graphing</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To draw a set of numbers as a line or a curve on axes.</p>
+<ol><li>Today we <em>graph</em> linear equations.</li><li>She <em>graphed</em> the results on the board.</li><li>They are <em>graphing</em> the data by hand.</li></ol>
+<hr>
+<h3 id="chart">chart<a class="hash" href="#chart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɑːrt/ &middot; <em>CHART</em></dd><dt>Русский</dt><dd>отмечать на графике, отслеживать (прогресс)</dd><dt>Forms</dt><dd><em>chart</em> &middot; <em>charted</em> &middot; <em>charted</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>charts</em> &middot; <strong>-ing form:</strong> <em>charting</em></dd><dt>Transitivity</dt><dd>transitive</dd></dl>
+<p>To record progress or information in a table or a diagram.</p>
+<ol><li>Teachers <em>chart</em> each student's progress every month.</li><li>We <em>charted</em> the class's reading speed all year.</li><li>She is <em>charting</em> her study hours in a notebook.</li></ol>
+<hr>
+<h3 id="diagram">diagram<a class="hash" href="#diagram" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪəɡræm/ &middot; <em>DY-uh-gram</em></dd><dt>Русский</dt><dd>изображать схематически, разбирать по схеме</dd><dt>Forms</dt><dd><em>diagram</em> &middot; <em>diagrammed</em> &middot; <em>diagrammed</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>diagrams</em> &middot; <strong>-ing form:</strong> <em>diagramming</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>The m usually doubles: <em>diagrammed</em>, <em>diagramming</em>.</dd></dl>
+<p>To draw something as a diagram, especially the parts of a sentence.</p>
+<ol><li>American students still <em>diagram</em> sentences in grammar class.</li><li>She <em>diagrammed</em> the water cycle on the board.</li><li>He is <em>diagramming</em> the argument step by step.</li></ol>
+<hr>
+<h3 id="sequence">sequence<a class="hash" href="#sequence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːkwəns/ &middot; <em>SEE-kwuhns</em></dd><dt>Русский</dt><dd>располагать по порядку, выстраивать последовательность</dd><dt>Forms</dt><dd><em>sequence</em> &middot; <em>sequenced</em> &middot; <em>sequenced</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>sequences</em> &middot; <strong>-ing form:</strong> <em>sequencing</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>Drop the -e before <em>-ing</em>: <em>sequencing</em>.</dd></dl>
+<p>To arrange things in the right order.</p>
+<ol><li>Second graders <em>sequence</em> the events of a story.</li><li>She <em>sequenced</em> the lessons so that the hardest came last.</li><li>We are <em>sequencing</em> the units differently this year.</li></ol>
+<hr>
+<h3 id="curve">curve<a class="hash" href="#curve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɜːrv/ &middot; <em>KURV</em></dd><dt>Русский</dt><dd>повышать оценки по кривой (о шкале оценок)</dd><dt>Forms</dt><dd><em>curve</em> &middot; <em>curved</em> &middot; <em>curved</em></dd><dt>Verb class</dt><dd>regular</dd><dt>Third person</dt><dd><em>curves</em> &middot; <strong>-ing form:</strong> <em>curving</em></dd><dt>Transitivity</dt><dd>transitive</dd><dt>Contrast</dt><dd>In American schools, to <em>curve</em> a test means to adjust everyone's score, usually upward.</dd></dl>
+<p>To raise a whole class's grades against a scale.</p>
+<ol><li>Professors sometimes <em>curve</em> a very hard exam.</li><li>She <em>curved</em> the midterm by eight points.</li><li>He is <em>curving</em> the final grades this semester.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
