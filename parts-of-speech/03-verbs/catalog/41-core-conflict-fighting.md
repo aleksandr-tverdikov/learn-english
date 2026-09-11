@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /əˈtæk/ &middot; *uh-TAK*
 **Русский:** нападать, напасть; атаковать
 **Forms:** *attack* &middot; *attacked* &middot; *attacked*
+**Verb class:** regular
 **Third person:** *attacks* &middot; **-ing form:** *attacking*
 **Transitivity:** both — transitive (they *attacked* the village), intransitive (the enemy *attacked* at dawn)
 
@@ -30,6 +31,7 @@ To use violence against a person, place, or army in order to hurt them or take c
 **Pronunciation:** /əˈsɔːlt/ &middot; *uh-SAWLT*
 **Русский:** нападать, напасть; совершать нападение
 **Forms:** *assault* &middot; *assaulted* &middot; *assaulted*
+**Verb class:** regular
 **Third person:** *assaults* &middot; **-ing form:** *assaulting*
 **Transitivity:** transitive
 **Contrast:** The silent *au* sounds like *aw*: uh-SAWLT, never "uh-SALT".
@@ -47,6 +49,7 @@ To attack someone violently, especially in a way that is a crime.
 **Pronunciation:** /ˈæmbʊʃ/ &middot; *AM-buush*
 **Русский:** устраивать засаду, нападать из засады
 **Forms:** *ambush* &middot; *ambushed* &middot; *ambushed*
+**Verb class:** regular
 **Third person:** *ambushes* &middot; **-ing form:** *ambushing*
 **Transitivity:** transitive
 **Contrast:** Ends in *-sh*, so the third person adds *-es*: *ambushes*.
@@ -64,6 +67,7 @@ To attack someone suddenly from a hidden position.
 **Pronunciation:** /ɪnˈveɪd/ &middot; *in-VAYD*
 **Русский:** вторгаться, вторгнуться; захватывать
 **Forms:** *invade* &middot; *invaded* &middot; *invaded*
+**Verb class:** regular
 **Third person:** *invades* &middot; **-ing form:** *invading*
 **Transitivity:** both — transitive (*invade* a country), intransitive (the army *invaded* in spring)
 **Contrast:** No preposition after it: *invaded Poland*, not "invaded into Poland".
@@ -81,6 +85,7 @@ To enter a country or area with an army in order to take control of it.
 **Pronunciation:** /reɪd/ &middot; *RAYD*
 **Русский:** совершать налёт; устраивать облаву
 **Forms:** *raid* &middot; *raided* &middot; *raided*
+**Verb class:** regular
 **Third person:** *raids* &middot; **-ing form:** *raiding*
 **Transitivity:** transitive
 
@@ -97,6 +102,7 @@ To make a sudden attack on a place, or to enter it suddenly as police looking fo
 **Pronunciation:** /bɑːmˈbɑːrd/ &middot; *bahm-BAHRD*
 **Русский:** бомбардировать, обстреливать
 **Forms:** *bombard* &middot; *bombarded* &middot; *bombarded*
+**Verb class:** regular
 **Third person:** *bombards* &middot; **-ing form:** *bombarding*
 **Transitivity:** transitive
 **Contrast:** Unlike *bomb* /bɑːm/, the second *b* here is pronounced: bahm-BAHRD.
@@ -114,6 +120,7 @@ To attack a place continuously with bombs or heavy gunfire.
 **Pronunciation:** /stɔːrm/ &middot; *STORM*
 **Русский:** штурмовать, брать штурмом
 **Forms:** *storm* &middot; *stormed* &middot; *stormed*
+**Verb class:** regular
 **Third person:** *storms* &middot; **-ing form:** *storming*
 **Transitivity:** transitive
 
@@ -130,6 +137,7 @@ To attack a building or position suddenly and in force.
 **Pronunciation:** /bɪˈsiːdʒ/ &middot; *bi-SEEJ*
 **Русский:** осаждать, осадить
 **Forms:** *besiege* &middot; *besieged* &middot; *besieged*
+**Verb class:** regular
 **Third person:** *besieges* &middot; **-ing form:** *besieging*
 **Transitivity:** transitive
 **Contrast:** Spelled *-ie-*: *besiege*, *besieged* — not "beseige".
@@ -147,6 +155,7 @@ To surround a town or fort with an army so that nobody can get in or out.
 **Pronunciation:** /ˈkɑːŋkər/ &middot; *KAHNG-kur*
 **Русский:** завоёвывать, завоевать; покорять, покорить
 **Forms:** *conquer* &middot; *conquered* &middot; *conquered*
+**Verb class:** regular
 **Third person:** *conquers* &middot; **-ing form:** *conquering*
 **Transitivity:** transitive
 **Contrast:** The *qu* here is just /k/: KAHNG-kur, not "KON-kwer".
@@ -164,6 +173,7 @@ To take control of a country or people by force.
 **Pronunciation:** /dɪˈfiːt/ &middot; *di-FEET*
 **Русский:** побеждать, победить; наносить поражение
 **Forms:** *defeat* &middot; *defeated* &middot; *defeated*
+**Verb class:** regular
 **Third person:** *defeats* &middot; **-ing form:** *defeating*
 **Transitivity:** transitive
 
@@ -180,6 +190,7 @@ To beat an enemy or opponent in a battle, election, or game.
 **Pronunciation:** /ˌoʊvərˈpaʊər/ &middot; *oh-vur-POW-ur*
 **Русский:** одолевать, одолеть; пересиливать
 **Forms:** *overpower* &middot; *overpowered* &middot; *overpowered*
+**Verb class:** regular
 **Third person:** *overpowers* &middot; **-ing form:** *overpowering*
 **Transitivity:** transitive
 
@@ -196,6 +207,7 @@ To beat someone by being physically stronger than they are.
 **Pronunciation:** /ˌaʊtˈnʌmbər/ &middot; *owt-NUM-bur*
 **Русский:** превосходить численностью
 **Forms:** *outnumber* &middot; *outnumbered* &middot; *outnumbered*
+**Verb class:** regular
 **Third person:** *outnumbers* &middot; **-ing form:** *outnumbering*
 **Transitivity:** transitive
 
@@ -212,6 +224,7 @@ To be greater in number than another group.
 **Pronunciation:** /pʌntʃ/ &middot; *PUNCH*
 **Русский:** бить кулаком, ударить кулаком
 **Forms:** *punch* &middot; *punched* &middot; *punched*
+**Verb class:** regular
 **Third person:** *punches* &middot; **-ing form:** *punching*
 **Transitivity:** transitive
 **Contrast:** Ends in *-ch*, so the third person adds *-es*: *punches*.
@@ -229,6 +242,7 @@ To hit someone hard with your closed fist.
 **Pronunciation:** /kɪk/ &middot; *KIK*
 **Русский:** пинать, пнуть; ударять ногой
 **Forms:** *kick* &middot; *kicked* &middot; *kicked*
+**Verb class:** regular
 **Third person:** *kicks* &middot; **-ing form:** *kicking*
 **Transitivity:** both — transitive (*kick* the door), intransitive (the horse *kicks*)
 
@@ -245,6 +259,7 @@ To hit someone or something with your foot.
 **Pronunciation:** /slæp/ &middot; *SLAP*
 **Русский:** шлёпать, шлёпнуть; давать пощёчину
 **Forms:** *slap* &middot; *slapped* &middot; *slapped*
+**Verb class:** regular
 **Third person:** *slaps* &middot; **-ing form:** *slapping*
 **Transitivity:** transitive
 **Contrast:** One short vowel plus one consonant, so the *p* doubles: *slapped*, *slapping*.
@@ -262,6 +277,7 @@ To hit someone with the flat, open palm of your hand.
 **Pronunciation:** /smæk/ &middot; *SMAK*
 **Русский:** шлёпать, шлёпнуть; ударять
 **Forms:** *smack* &middot; *smacked* &middot; *smacked*
+**Verb class:** regular
 **Third person:** *smacks* &middot; **-ing form:** *smacking*
 **Transitivity:** transitive
 
@@ -278,6 +294,7 @@ To hit someone or something sharply with an open hand.
 **Pronunciation:** /ʃʌv/ &middot; *SHUV*
 **Русский:** толкать, толкнуть; пихать
 **Forms:** *shove* &middot; *shoved* &middot; *shoved*
+**Verb class:** regular
 **Third person:** *shoves* &middot; **-ing form:** *shoving*
 **Transitivity:** both — transitive (*shove* him aside), intransitive (stop *shoving*)
 **Contrast:** The *o* sounds like /ʌ/: SHUV, rhyming with *love*, not with *stove*.
@@ -295,6 +312,7 @@ To push someone or something roughly and suddenly.
 **Pronunciation:** /ˈrɛsəl/ &middot; *RES-ul*
 **Русский:** бороться, схватиться (в борьбе)
 **Forms:** *wrestle* &middot; *wrestled* &middot; *wrestled*
+**Verb class:** regular
 **Third person:** *wrestles* &middot; **-ing form:** *wrestling*
 **Transitivity:** both — transitive (*wrestle* him to the ground), intransitive (he *wrestled* in college)
 **Contrast:** Both the *w* and the *t* are silent: RES-ul.
@@ -312,6 +330,7 @@ To fight someone by holding them and trying to force them to the ground.
 **Pronunciation:** /brɔːl/ &middot; *BRAWL*
 **Русский:** драться, устраивать драку
 **Forms:** *brawl* &middot; *brawled* &middot; *brawled*
+**Verb class:** regular
 **Third person:** *brawls* &middot; **-ing form:** *brawling*
 **Transitivity:** intransitive
 
@@ -328,6 +347,7 @@ To fight noisily and without rules, usually in a public place.
 **Pronunciation:** /ˈtræmpəl/ &middot; *TRAM-pul*
 **Русский:** топтать, затоптать; попирать
 **Forms:** *trample* &middot; *trampled* &middot; *trampled*
+**Verb class:** regular
 **Third person:** *tramples* &middot; **-ing form:** *trampling*
 **Transitivity:** both — transitive (*trample* the flowers), intransitive (*trample* on his rights)
 
@@ -344,6 +364,7 @@ To step heavily on someone or something and crush it.
 **Pronunciation:** /ˈbætər/ &middot; *BAT-ur*
 **Русский:** колотить, избивать; обрушиваться на
 **Forms:** *batter* &middot; *battered* &middot; *battered*
+**Verb class:** regular
 **Third person:** *batters* &middot; **-ing form:** *battering*
 **Transitivity:** transitive
 
@@ -360,6 +381,7 @@ To hit someone or something hard again and again.
 **Pronunciation:** /kəmˈbæt/ &middot; *kum-BAT*
 **Русский:** бороться с, противодействовать
 **Forms:** *combat* &middot; *combated* &middot; *combated*
+**Verb class:** regular
 **Third person:** *combats* &middot; **-ing form:** *combating*
 **Transitivity:** transitive
 **Contrast:** American spelling keeps one *t*: *combated*, *combating* (British often doubles it).
@@ -377,6 +399,7 @@ To fight against something harmful in order to stop it or reduce it.
 **Pronunciation:** /kɪl/ &middot; *KIL*
 **Русский:** убивать, убить
 **Forms:** *kill* &middot; *killed* &middot; *killed*
+**Verb class:** regular
 **Third person:** *kills* &middot; **-ing form:** *killing*
 **Transitivity:** both — transitive (*kill* a man), intransitive (smoking *kills*)
 
@@ -393,6 +416,7 @@ To make a person, animal, or plant die.
 **Pronunciation:** /ˈmɜːrdər/ &middot; *MUR-dur*
 **Русский:** убивать, убить (умышленно)
 **Forms:** *murder* &middot; *murdered* &middot; *murdered*
+**Verb class:** regular
 **Third person:** *murders* &middot; **-ing form:** *murdering*
 **Transitivity:** transitive
 
@@ -409,6 +433,7 @@ To kill a person deliberately and unlawfully.
 **Pronunciation:** /əˈsæsəneɪt/ &middot; *uh-SAS-uh-nayt*
 **Русский:** убивать (политика), совершать покушение
 **Forms:** *assassinate* &middot; *assassinated* &middot; *assassinated*
+**Verb class:** regular
 **Third person:** *assassinates* &middot; **-ing form:** *assassinating*
 **Transitivity:** transitive
 **Contrast:** Two double letters: *a-ss-a-ss-inate*.
@@ -426,6 +451,7 @@ To murder an important person, usually for political reasons.
 **Pronunciation:** /ˈslɔːtər/ &middot; *SLAW-tur*
 **Русский:** истреблять, устраивать бойню; забивать (скот)
 **Forms:** *slaughter* &middot; *slaughtered* &middot; *slaughtered*
+**Verb class:** regular
 **Third person:** *slaughters* &middot; **-ing form:** *slaughtering*
 **Transitivity:** transitive
 **Contrast:** The *gh* is silent, and it does not rhyme with *laughter*: SLAW-tur, LAF-tur.
@@ -443,6 +469,7 @@ To kill people or animals in large numbers.
 **Pronunciation:** /ˈmæsəkər/ &middot; *MAS-uh-kur*
 **Русский:** устраивать резню, вырезать
 **Forms:** *massacre* &middot; *massacred* &middot; *massacred*
+**Verb class:** regular
 **Third person:** *massacres* &middot; **-ing form:** *massacring*
 **Transitivity:** transitive
 **Contrast:** The *-cre* ending sounds like *-ker*, and the *e* drops before *-ing*: *massacring*.
@@ -460,6 +487,7 @@ To kill a large number of people who cannot defend themselves.
 **Pronunciation:** /ˈɛksɪkjuːt/ &middot; *EK-si-kyoot*
 **Русский:** казнить
 **Forms:** *execute* &middot; *executed* &middot; *executed*
+**Verb class:** regular
 **Third person:** *executes* &middot; **-ing form:** *executing*
 **Transitivity:** transitive
 
@@ -476,6 +504,7 @@ To kill someone as a legal punishment.
 **Pronunciation:** /ˈtɔːrtʃər/ &middot; *TOR-chur*
 **Русский:** пытать; мучить
 **Forms:** *torture* &middot; *tortured* &middot; *tortured*
+**Verb class:** regular
 **Third person:** *tortures* &middot; **-ing form:** *torturing*
 **Transitivity:** transitive
 
@@ -492,6 +521,7 @@ To cause someone severe pain deliberately, often to force information out of the
 **Pronunciation:** /ˈdɛtəneɪt/ &middot; *DET-uh-nayt*
 **Русский:** взрывать, взорвать; детонировать
 **Forms:** *detonate* &middot; *detonated* &middot; *detonated*
+**Verb class:** regular
 **Third person:** *detonates* &middot; **-ing form:** *detonating*
 **Transitivity:** both — transitive (*detonate* a bomb), intransitive (the charge *detonated*)
 
@@ -508,6 +538,7 @@ To make a bomb explode, or to explode.
 **Pronunciation:** /ˈtɑːrɡɪt/ &middot; *TAHR-git*
 **Русский:** избирать целью, нацеливаться на
 **Forms:** *target* &middot; *targeted* &middot; *targeted*
+**Verb class:** regular
 **Third person:** *targets* &middot; **-ing form:** *targeting*
 **Transitivity:** transitive
 **Contrast:** The stress is on the first syllable, so the *t* does not double: *targeted*, *targeting*.
@@ -525,6 +556,7 @@ To choose a particular person or place to attack or aim at.
 **Pronunciation:** /ɑːrm/ &middot; *AHRM*
 **Русский:** вооружать, вооружить
 **Forms:** *arm* &middot; *armed* &middot; *armed*
+**Verb class:** regular
 **Third person:** *arms* &middot; **-ing form:** *arming*
 **Transitivity:** transitive
 
@@ -541,6 +573,7 @@ To supply a person or group with weapons.
 **Pronunciation:** /dɪsˈɑːrm/ &middot; *dis-AHRM*
 **Русский:** разоружать, разоружить; обезоруживать
 **Forms:** *disarm* &middot; *disarmed* &middot; *disarmed*
+**Verb class:** regular
 **Third person:** *disarms* &middot; **-ing form:** *disarming*
 **Transitivity:** both — transitive (*disarm* the gunman), intransitive (both sides agreed to *disarm*)
 
@@ -557,6 +590,7 @@ To take weapons away from a person or group, or to give up weapons.
 **Pronunciation:** /dɪˈfɛnd/ &middot; *di-FEND*
 **Русский:** защищать, защитить; оборонять
 **Forms:** *defend* &middot; *defended* &middot; *defended*
+**Verb class:** regular
 **Third person:** *defends* &middot; **-ing form:** *defending*
 **Transitivity:** both — transitive (*defend* the city), intransitive (they fought to *defend*)
 **Contrast:** You *defend* something *against* or *from* an attacker.
@@ -574,6 +608,7 @@ To protect someone or something from attack.
 **Pronunciation:** /ɡɑːrd/ &middot; *GAHRD*
 **Русский:** охранять, караулить; сторожить
 **Forms:** *guard* &middot; *guarded* &middot; *guarded*
+**Verb class:** regular
 **Third person:** *guards* &middot; **-ing form:** *guarding*
 **Transitivity:** both — transitive (*guard* the entrance), intransitive (*guard* against mistakes)
 **Contrast:** Silent *u* after the *g*: *guard*, not "gard".
@@ -591,6 +626,7 @@ To watch over a place or person in order to keep them safe or stop them escaping
 **Pronunciation:** /ʃiːld/ &middot; *SHEELD*
 **Русский:** заслонять, защищать (от)
 **Forms:** *shield* &middot; *shielded* &middot; *shielded*
+**Verb class:** regular
 **Third person:** *shields* &middot; **-ing form:** *shielding*
 **Transitivity:** transitive
 **Contrast:** Takes *from*: *shield him from the blast*.
@@ -608,6 +644,7 @@ To stand between someone and danger so that they are not hurt.
 **Pronunciation:** /ˈfɔːrtɪfaɪ/ &middot; *FOR-ti-fy*
 **Русский:** укреплять, укрепить (оборону)
 **Forms:** *fortify* &middot; *fortified* &middot; *fortified*
+**Verb class:** regular
 **Third person:** *fortifies* &middot; **-ing form:** *fortifying*
 **Transitivity:** transitive
 **Contrast:** Consonant plus *-y*, so *y* becomes *-ie-*: *fortifies*, *fortified*.
@@ -625,6 +662,7 @@ To build walls or defenses to make a place stronger against attack.
 **Pronunciation:** /pəˈtroʊl/ &middot; *puh-TROHL*
 **Русский:** патрулировать
 **Forms:** *patrol* &middot; *patrolled* &middot; *patrolled*
+**Verb class:** regular
 **Third person:** *patrols* &middot; **-ing form:** *patrolling*
 **Transitivity:** both — transitive (*patrol* the border), intransitive (guards *patrol* at night)
 **Contrast:** The stress falls on the last syllable, so the *l* doubles: *patrolled*, *patrolling*.
@@ -642,6 +680,7 @@ To move regularly around an area to guard it or watch for trouble.
 **Pronunciation:** /dɪˈtɜːr/ &middot; *di-TUR*
 **Русский:** сдерживать, удерживать (от); отпугивать
 **Forms:** *deter* &middot; *deterred* &middot; *deterred*
+**Verb class:** regular
 **Third person:** *deters* &middot; **-ing form:** *deterring*
 **Transitivity:** transitive
 **Contrast:** Stress on the last syllable, so the *r* doubles: *deterred*, *deterring*; *deter someone from doing something*.
@@ -659,6 +698,7 @@ To make someone decide not to do something, usually by threat or fear.
 **Pronunciation:** /rɪˈpɛl/ &middot; *ri-PEL*
 **Русский:** отражать, отбивать (нападение)
 **Forms:** *repel* &middot; *repelled* &middot; *repelled*
+**Verb class:** regular
 **Third person:** *repels* &middot; **-ing form:** *repelling*
 **Transitivity:** transitive
 **Contrast:** Stress on the last syllable, so the *l* doubles: *repelled*, *repelling*.
@@ -676,6 +716,7 @@ To drive an attacking force back and away.
 **Pronunciation:** /rɪˈzɪst/ &middot; *ri-ZIST*
 **Русский:** сопротивляться; противостоять
 **Forms:** *resist* &middot; *resisted* &middot; *resisted*
+**Verb class:** regular
 **Third person:** *resists* &middot; **-ing form:** *resisting*
 **Transitivity:** both — transitive (*resist* arrest), intransitive (the town did not *resist*)
 **Contrast:** No preposition: *resist the pressure*, not "resist to the pressure".
@@ -693,6 +734,7 @@ To fight against something or refuse to accept it.
 **Pronunciation:** /blɑːk/ &middot; *BLAHK*
 **Русский:** преграждать, блокировать; загораживать
 **Forms:** *block* &middot; *blocked* &middot; *blocked*
+**Verb class:** regular
 **Third person:** *blocks* &middot; **-ing form:** *blocking*
 **Transitivity:** transitive
 
@@ -709,6 +751,7 @@ To stop someone or something from passing or from succeeding.
 **Pronunciation:** /dɪˈflɛkt/ &middot; *di-FLEKT*
 **Русский:** отклонять, отражать; уводить в сторону
 **Forms:** *deflect* &middot; *deflected* &middot; *deflected*
+**Verb class:** regular
 **Third person:** *deflects* &middot; **-ing form:** *deflecting*
 **Transitivity:** both — transitive (*deflect* a blow), intransitive (the bullet *deflected*)
 
@@ -725,6 +768,7 @@ To turn a blow, a shot, or an attack away from its target.
 **Pronunciation:** /dɑːdʒ/ &middot; *DAHJ*
 **Русский:** уворачиваться, увернуться; уклоняться
 **Forms:** *dodge* &middot; *dodged* &middot; *dodged*
+**Verb class:** regular
 **Third person:** *dodges* &middot; **-ing form:** *dodging*
 **Transitivity:** both — transitive (*dodge* the punch), intransitive (he *dodged* to the left)
 **Contrast:** The silent *e* drops before *-ing*: *dodging*, not "dodgeing".
@@ -742,6 +786,7 @@ To move quickly aside to avoid being hit.
 **Pronunciation:** /ˈʃɛltər/ &middot; *SHEL-tur*
 **Русский:** укрывать, приютить; укрываться
 **Forms:** *shelter* &middot; *sheltered* &middot; *sheltered*
+**Verb class:** regular
 **Third person:** *shelters* &middot; **-ing form:** *sheltering*
 **Transitivity:** both — transitive (*shelter* refugees), intransitive (*shelter* from the shelling)
 
@@ -758,6 +803,7 @@ To give someone a safe place to stay, or to take cover yourself.
 **Pronunciation:** /ˈkaʊntər/ &middot; *KOWN-tur*
 **Русский:** парировать, отвечать (на); противодействовать
 **Forms:** *counter* &middot; *countered* &middot; *countered*
+**Verb class:** regular
 **Third person:** *counters* &middot; **-ing form:** *countering*
 **Transitivity:** both — transitive (*counter* the argument), intransitive ("Not true," he *countered*)
 
@@ -774,6 +820,7 @@ To reply to an attack or argument with one of your own.
 **Pronunciation:** /rɪˈtælieɪt/ &middot; *ri-TAL-ee-ayt*
 **Русский:** отвечать ударом на удар, мстить
 **Forms:** *retaliate* &middot; *retaliated* &middot; *retaliated*
+**Verb class:** regular
 **Third person:** *retaliates* &middot; **-ing form:** *retaliating*
 **Transitivity:** intransitive
 **Contrast:** Takes *against* or *for*: *retaliate against a rival*, *retaliate for the raid*.
@@ -791,6 +838,7 @@ To do something harmful to someone because they harmed you first.
 **Pronunciation:** /əˈvɛndʒ/ &middot; *uh-VENJ*
 **Русский:** мстить, отомстить за
 **Forms:** *avenge* &middot; *avenged* &middot; *avenged*
+**Verb class:** regular
 **Third person:** *avenges* &middot; **-ing form:** *avenging*
 **Transitivity:** transitive
 **Contrast:** *Avenge* is the verb; *revenge* is normally the noun: *take revenge*, but *avenge a death*.
@@ -808,6 +856,7 @@ To punish someone for a wrong done to you or to a person you care about.
 **Pronunciation:** /ˈbʊli/ &middot; *BUUL-ee*
 **Русский:** травить, издеваться над; запугивать
 **Forms:** *bully* &middot; *bullied* &middot; *bullied*
+**Verb class:** regular
 **Third person:** *bullies* &middot; **-ing form:** *bullying*
 **Transitivity:** transitive
 **Contrast:** Consonant plus *-y*, so *y* becomes *-ie-*: *bullies*, *bullied* — but *bullying* keeps the *y*.
@@ -825,6 +874,7 @@ To frighten or hurt someone weaker, again and again.
 **Pronunciation:** /həˈræs/ &middot; *huh-RAS*
 **Русский:** изводить, преследовать; домогаться
 **Forms:** *harass* &middot; *harassed* &middot; *harassed*
+**Verb class:** regular
 **Third person:** *harasses* &middot; **-ing form:** *harassing*
 **Transitivity:** transitive
 **Contrast:** One *r*, two *s*'s, and the third person adds *-es*: *harasses*.
@@ -842,6 +892,7 @@ To annoy or attack someone repeatedly over a period of time.
 **Pronunciation:** /ˈtɛrəraɪz/ &middot; *TER-uh-ryz*
 **Русский:** терроризировать, запугивать
 **Forms:** *terrorize* &middot; *terrorized* &middot; *terrorized*
+**Verb class:** regular
 **Third person:** *terrorizes* &middot; **-ing form:** *terrorizing*
 **Transitivity:** transitive
 **Contrast:** American spelling uses *-ize*: *terrorize* (British *terrorise*).
@@ -859,6 +910,7 @@ To frighten a person or group badly by using violence or threats.
 **Pronunciation:** /ˈblækmeɪl/ &middot; *BLAK-mayl*
 **Русский:** шантажировать
 **Forms:** *blackmail* &middot; *blackmailed* &middot; *blackmailed*
+**Verb class:** regular
 **Third person:** *blackmails* &middot; **-ing form:** *blackmailing*
 **Transitivity:** transitive
 
@@ -875,6 +927,7 @@ To force someone to do something by threatening to reveal a secret about them.
 **Pronunciation:** /ɪkˈstɔːrt/ &middot; *ik-STORT*
 **Русский:** вымогать, вымогательствовать
 **Forms:** *extort* &middot; *extorted* &middot; *extorted*
+**Verb class:** regular
 **Third person:** *extorts* &middot; **-ing form:** *extorting*
 **Transitivity:** transitive
 **Contrast:** Takes *from*: *extort money from a shop owner*.
@@ -892,6 +945,7 @@ To get money or something else from someone by using threats or force.
 **Pronunciation:** /koʊˈɜːrs/ &middot; *koh-URS*
 **Русский:** принуждать, заставлять
 **Forms:** *coerce* &middot; *coerced* &middot; *coerced*
+**Verb class:** regular
 **Third person:** *coerces* &middot; **-ing form:** *coercing*
 **Transitivity:** transitive
 **Contrast:** *Coerce someone into doing* something; the *oe* is two syllables: koh-URS.
@@ -909,6 +963,7 @@ To make someone do something by using force or threats.
 **Pronunciation:** /fɔːrs/ &middot; *FORS*
 **Русский:** заставлять, заставить; принуждать
 **Forms:** *force* &middot; *forced* &middot; *forced*
+**Verb class:** regular
 **Third person:** *forces* &middot; **-ing form:** *forcing*
 **Transitivity:** transitive
 **Contrast:** *Force someone to do* something — with *to*, unlike *make someone do*.
@@ -926,6 +981,7 @@ To make someone do something they do not want to do.
 **Pronunciation:** /ˈprɛʃər/ &middot; *PRESH-ur*
 **Русский:** давить на, оказывать давление
 **Forms:** *pressure* &middot; *pressured* &middot; *pressured*
+**Verb class:** regular
 **Third person:** *pressures* &middot; **-ing form:** *pressuring*
 **Transitivity:** transitive
 **Contrast:** *Pressure someone into* doing something, or *to do* it.
@@ -943,6 +999,7 @@ To try hard to persuade someone to do something they are unwilling to do.
 **Pronunciation:** /əˈbjuːz/ &middot; *uh-BYOOZ*
 **Русский:** жестоко обращаться с; оскорблять
 **Forms:** *abuse* &middot; *abused* &middot; *abused*
+**Verb class:** regular
 **Third person:** *abuses* &middot; **-ing form:** *abusing*
 **Transitivity:** transitive
 **Contrast:** The verb ends in /z/ (uh-BYOOZ); the noun *abuse* ends in /s/ (uh-BYOOS).
@@ -960,6 +1017,7 @@ To treat a person cruelly or violently, or to use power unfairly.
 **Pronunciation:** /ˈbɪkər/ &middot; *BIK-ur*
 **Русский:** пререкаться, препираться
 **Forms:** *bicker* &middot; *bickered* &middot; *bickered*
+**Verb class:** regular
 **Third person:** *bickers* &middot; **-ing form:** *bickering*
 **Transitivity:** intransitive
 **Contrast:** Takes *over* or *about*: *bicker over the bill*.
@@ -977,6 +1035,7 @@ To argue about small, unimportant things.
 **Pronunciation:** /kənˈtɛst/ &middot; *kun-TEST*
 **Русский:** оспаривать, оспорить; бороться за
 **Forms:** *contest* &middot; *contested* &middot; *contested*
+**Verb class:** regular
 **Third person:** *contests* &middot; **-ing form:** *contesting*
 **Transitivity:** transitive
 **Contrast:** The verb is kun-TEST; the noun *contest* is KAHN-test, stressed on the first syllable.
@@ -994,6 +1053,7 @@ To formally argue that something is wrong, or to compete for something.
 **Pronunciation:** /tɔːnt/ &middot; *TAWNT*
 **Русский:** дразнить, насмехаться над
 **Forms:** *taunt* &middot; *taunted* &middot; *taunted*
+**Verb class:** regular
 **Third person:** *taunts* &middot; **-ing form:** *taunting*
 **Transitivity:** transitive
 
@@ -1010,6 +1070,7 @@ To say cruel things to someone in order to make them angry or upset.
 **Pronunciation:** /ˈrɪdɪkjuːl/ &middot; *RID-i-kyool*
 **Русский:** высмеивать, поднимать на смех
 **Forms:** *ridicule* &middot; *ridiculed* &middot; *ridiculed*
+**Verb class:** regular
 **Third person:** *ridicules* &middot; **-ing form:** *ridiculing*
 **Transitivity:** transitive
 
@@ -1026,6 +1087,7 @@ To make fun of someone in a cruel way so that others laugh at them.
 **Pronunciation:** /dɪˈnaʊns/ &middot; *di-NOWNS*
 **Русский:** осуждать, обличать; доносить на
 **Forms:** *denounce* &middot; *denounced* &middot; *denounced*
+**Verb class:** regular
 **Third person:** *denounces* &middot; **-ing form:** *denouncing*
 **Transitivity:** transitive
 
@@ -1042,6 +1104,7 @@ To criticize someone or something publicly and strongly.
 **Pronunciation:** /kənˈdɛm/ &middot; *kun-DEM*
 **Русский:** осуждать, осудить; приговаривать
 **Forms:** *condemn* &middot; *condemned* &middot; *condemned*
+**Verb class:** regular
 **Third person:** *condemns* &middot; **-ing form:** *condemning*
 **Transitivity:** transitive
 **Contrast:** The final *n* is silent: kun-DEM — though you hear it in *condemnation*.
@@ -1059,6 +1122,7 @@ To say very strongly that something or someone is wrong or evil.
 **Pronunciation:** /əˈprɛs/ &middot; *uh-PRES*
 **Русский:** притеснять, угнетать
 **Forms:** *oppress* &middot; *oppressed* &middot; *oppressed*
+**Verb class:** regular
 **Third person:** *oppresses* &middot; **-ing form:** *oppressing*
 **Transitivity:** transitive
 **Contrast:** Two *p*'s, two *s*'s, and the third person adds *-es*: *oppresses*.
@@ -1076,6 +1140,7 @@ To treat a group of people cruelly and unfairly, giving them no freedom.
 **Pronunciation:** /kənˈfrʌnt/ &middot; *kun-FRUNT*
 **Русский:** противостоять; открыто выступать против; смело встречать
 **Forms:** *confront* &middot; *confronted* &middot; *confronted*
+**Verb class:** regular
 **Third person:** *confronts* &middot; **-ing form:** *confronting*
 **Transitivity:** transitive
 
@@ -1092,6 +1157,7 @@ To face someone or something difficult directly instead of avoiding it.
 **Pronunciation:** /ˈtʃælɪndʒ/ &middot; *CHAL-inj*
 **Русский:** бросать вызов; оспаривать
 **Forms:** *challenge* &middot; *challenged* &middot; *challenged*
+**Verb class:** regular
 **Third person:** *challenges* &middot; **-ing form:** *challenging*
 **Transitivity:** transitive
 **Contrast:** *Challenge someone to* something: *challenged him to a fight*.
@@ -1109,6 +1175,7 @@ To question whether something is right, or to invite someone to fight or compete
 **Pronunciation:** /dɪˈfaɪ/ &middot; *di-FY*
 **Русский:** бросать вызов; открыто не подчиняться
 **Forms:** *defy* &middot; *defied* &middot; *defied*
+**Verb class:** regular
 **Third person:** *defies* &middot; **-ing form:** *defying*
 **Transitivity:** transitive
 **Contrast:** Consonant plus *-y*, so *y* becomes *-ie-*: *defies*, *defied* — but *defying* keeps the *y*.
@@ -1126,6 +1193,7 @@ To refuse openly to obey a person, rule, or order.
 **Pronunciation:** /ˈræli/ &middot; *RAL-ee*
 **Русский:** собираться на митинг; сплачивать(ся)
 **Forms:** *rally* &middot; *rallied* &middot; *rallied*
+**Verb class:** regular
 **Third person:** *rallies* &middot; **-ing form:** *rallying*
 **Transitivity:** both — transitive (*rally* supporters), intransitive (the crowd *rallied* downtown)
 **Contrast:** Consonant plus *-y*: *rallies*, *rallied*, but *rallying*.
@@ -1143,6 +1211,7 @@ To come together, or bring people together, to support a cause or a leader.
 **Pronunciation:** /ˈpɪkɪt/ &middot; *PIK-it*
 **Русский:** пикетировать
 **Forms:** *picket* &middot; *picketed* &middot; *picketed*
+**Verb class:** regular
 **Third person:** *pickets* &middot; **-ing form:** *picketing*
 **Transitivity:** both — transitive (*picket* the factory), intransitive (workers *picketed* all week)
 **Contrast:** Stress on the first syllable, so the *t* stays single: *picketed*, *picketing*.
@@ -1160,6 +1229,7 @@ To stand outside a workplace in protest, usually to stop people going in.
 **Pronunciation:** /ˈbɔɪkɑːt/ &middot; *BOY-kaht*
 **Русский:** бойкотировать
 **Forms:** *boycott* &middot; *boycotted* &middot; *boycotted*
+**Verb class:** regular
 **Third person:** *boycotts* &middot; **-ing form:** *boycotting*
 **Transitivity:** transitive
 
@@ -1176,6 +1246,7 @@ To refuse to buy from, deal with, or take part in something as a protest.
 **Pronunciation:** /ˈraɪət/ &middot; *RY-ut*
 **Русский:** устраивать беспорядки, бунтовать
 **Forms:** *riot* &middot; *rioted* &middot; *rioted*
+**Verb class:** regular
 **Third person:** *riots* &middot; **-ing form:** *rioting*
 **Transitivity:** intransitive
 **Contrast:** Two syllables, RY-ut, and the *t* stays single: *rioted*, *rioting*.
@@ -1193,6 +1264,7 @@ To join a violent crowd that fights, breaks things, or attacks the police.
 **Pronunciation:** /rɪˈbɛl/ &middot; *ri-BEL*
 **Русский:** восставать, бунтовать
 **Forms:** *rebel* &middot; *rebelled* &middot; *rebelled*
+**Verb class:** regular
 **Third person:** *rebels* &middot; **-ing form:** *rebelling*
 **Transitivity:** intransitive
 **Contrast:** The verb is ri-BEL; the noun *rebel* is REB-ul. Stress on the last syllable doubles the *l*: *rebelled*.
@@ -1210,6 +1282,7 @@ To fight against a government or authority, or to refuse to accept its control.
 **Pronunciation:** /rɪˈvoʊlt/ &middot; *ri-VOHLT*
 **Русский:** восставать, поднимать восстание
 **Forms:** *revolt* &middot; *revolted* &middot; *revolted*
+**Verb class:** regular
 **Third person:** *revolts* &middot; **-ing form:** *revolting*
 **Transitivity:** intransitive
 **Contrast:** Takes *against*: *revolt against the king*.
@@ -1227,6 +1300,7 @@ To rise up violently against a ruler or government.
 **Pronunciation:** /kæmˈpeɪn/ &middot; *kam-PAYN*
 **Русский:** вести кампанию, агитировать
 **Forms:** *campaign* &middot; *campaigned* &middot; *campaigned*
+**Verb class:** regular
 **Third person:** *campaigns* &middot; **-ing form:** *campaigning*
 **Transitivity:** intransitive
 **Contrast:** Silent *g*: kam-PAYN. Takes *for* or *against*.
@@ -1244,6 +1318,7 @@ To work in an organized way over time to change something or win support.
 **Pronunciation:** /blɑːˈkeɪd/ &middot; *blah-KAYD*
 **Русский:** блокировать, устраивать блокаду
 **Forms:** *blockade* &middot; *blockaded* &middot; *blockaded*
+**Verb class:** regular
 **Third person:** *blockades* &middot; **-ing form:** *blockading*
 **Transitivity:** transitive
 **Contrast:** Stress on the second syllable: blah-KAYD, unlike the verb *block*.
@@ -1261,6 +1336,7 @@ To surround a port, road, or country so that nothing can go in or out.
 **Pronunciation:** /ˈɑːkjəpaɪ/ &middot; *AHK-yuh-py*
 **Русский:** оккупировать; занимать (захватив)
 **Forms:** *occupy* &middot; *occupied* &middot; *occupied*
+**Verb class:** regular
 **Third person:** *occupies* &middot; **-ing form:** *occupying*
 **Transitivity:** transitive
 **Contrast:** Consonant plus *-y*: *occupies*, *occupied*, but *occupying*.
@@ -1278,6 +1354,7 @@ To take control of a place by force and stay there.
 **Pronunciation:** /oʊˈbeɪ/ &middot; *oh-BAY*
 **Русский:** подчиняться, повиноваться; слушаться
 **Forms:** *obey* &middot; *obeyed* &middot; *obeyed*
+**Verb class:** regular
 **Third person:** *obeys* &middot; **-ing form:** *obeying*
 **Transitivity:** both — transitive (*obey* an order), intransitive (the dog *obeys*)
 **Contrast:** The *y* follows a vowel, so it never changes: *obeys*, *obeyed*. No preposition: *obey the law*.
@@ -1295,6 +1372,7 @@ To do what a person, law, or order tells you to do.
 **Pronunciation:** /ˌdɪsəˈbeɪ/ &middot; *dis-uh-BAY*
 **Русский:** не подчиняться, ослушаться
 **Forms:** *disobey* &middot; *disobeyed* &middot; *disobeyed*
+**Verb class:** regular
 **Third person:** *disobeys* &middot; **-ing form:** *disobeying*
 **Transitivity:** both — transitive (*disobey* an order), intransitive (he *disobeyed* again)
 
@@ -1311,6 +1389,7 @@ To refuse to do what you are told to do by a person or law.
 **Pronunciation:** /ɪˈvækjueɪt/ &middot; *i-VAK-yoo-ayt*
 **Русский:** эвакуировать; эвакуироваться
 **Forms:** *evacuate* &middot; *evacuated* &middot; *evacuated*
+**Verb class:** regular
 **Third person:** *evacuates* &middot; **-ing form:** *evacuating*
 **Transitivity:** both — transitive (*evacuate* the town), intransitive (residents *evacuated* at noon)
 
@@ -1327,6 +1406,7 @@ To move people out of a dangerous place, or to leave it.
 **Pronunciation:** /əˈbændən/ &middot; *uh-BAN-dun*
 **Русский:** покидать, покинуть; бросать, бросить
 **Forms:** *abandon* &middot; *abandoned* &middot; *abandoned*
+**Verb class:** regular
 **Third person:** *abandons* &middot; **-ing form:** *abandoning*
 **Transitivity:** transitive
 **Contrast:** The final *n* does not double: *abandoned*, not "abandonned".
@@ -1344,6 +1424,7 @@ To leave a place, thing, or person that you are responsible for, and not return.
 **Pronunciation:** /dɪˈzɜːrt/ &middot; *di-ZURT*
 **Русский:** дезертировать; покидать, бросать
 **Forms:** *desert* &middot; *deserted* &middot; *deserted*
+**Verb class:** regular
 **Third person:** *deserts* &middot; **-ing form:** *deserting*
 **Transitivity:** both — transitive (*desert* your post), intransitive (two men *deserted*)
 **Contrast:** The verb is di-ZURT; the noun *desert* (the Sahara) is DEZ-urt.
@@ -1361,6 +1442,7 @@ To leave the army without permission, or to leave someone who needs you.
 **Pronunciation:** /ɪnˈlɪst/ &middot; *in-LIST*
 **Русский:** записываться в армию; вербовать
 **Forms:** *enlist* &middot; *enlisted* &middot; *enlisted*
+**Verb class:** regular
 **Third person:** *enlists* &middot; **-ing form:** *enlisting*
 **Transitivity:** both — intransitive (he *enlisted* at eighteen), transitive (*enlist* their support)
 
@@ -1377,6 +1459,7 @@ To join the armed forces, or to get someone's help.
 **Pronunciation:** /dɪˈplɔɪ/ &middot; *di-PLOY*
 **Русский:** развёртывать, размещать (войска)
 **Forms:** *deploy* &middot; *deployed* &middot; *deployed*
+**Verb class:** regular
 **Third person:** *deploys* &middot; **-ing form:** *deploying*
 **Transitivity:** transitive
 **Contrast:** The *y* follows a vowel, so it stays: *deployed*, *deploying*.
@@ -1394,6 +1477,7 @@ To move soldiers or equipment into position for action.
 **Pronunciation:** /kəˈmænd/ &middot; *kuh-MAND*
 **Русский:** командовать; приказывать
 **Forms:** *command* &middot; *commanded* &middot; *commanded*
+**Verb class:** regular
 **Third person:** *commands* &middot; **-ing form:** *commanding*
 **Transitivity:** both — transitive (*command* a regiment), intransitive (he was born to *command*)
 **Contrast:** The *a* is /æ/ as in *hand*: kuh-MAND, not "kuh-MAHND".
@@ -1411,6 +1495,7 @@ To be in charge of soldiers, or to order someone to do something.
 **Pronunciation:** /ˈmoʊbəlaɪz/ &middot; *MOH-buh-lyz*
 **Русский:** мобилизовать; мобилизоваться
 **Forms:** *mobilize* &middot; *mobilized* &middot; *mobilized*
+**Verb class:** regular
 **Third person:** *mobilizes* &middot; **-ing form:** *mobilizing*
 **Transitivity:** both — transitive (*mobilize* the reserves), intransitive (the army *mobilized*)
 **Contrast:** American spelling uses *-ize*: *mobilize* (British *mobilise*).
@@ -1428,6 +1513,7 @@ To gather soldiers or supporters and make them ready for action.
 **Pronunciation:** /bɪˈtreɪ/ &middot; *bi-TRAY*
 **Русский:** предавать, предать; выдавать
 **Forms:** *betray* &middot; *betrayed* &middot; *betrayed*
+**Verb class:** regular
 **Third person:** *betrays* &middot; **-ing form:** *betraying*
 **Transitivity:** transitive
 **Contrast:** The *y* follows a vowel, so it stays: *betrayed*, *betraying*.
@@ -1445,6 +1531,7 @@ To harm someone who trusts you, especially by helping their enemies.
 **Pronunciation:** /kənˈspaɪər/ &middot; *kun-SPYR*
 **Русский:** сговариваться, устраивать заговор
 **Forms:** *conspire* &middot; *conspired* &middot; *conspired*
+**Verb class:** regular
 **Third person:** *conspires* &middot; **-ing form:** *conspiring*
 **Transitivity:** intransitive
 **Contrast:** Takes *against* or *with*, and *to do* something: *conspired to kill him*.
@@ -1462,6 +1549,7 @@ To plan something harmful or illegal secretly with other people.
 **Pronunciation:** /plɑːt/ &middot; *PLAHT*
 **Русский:** замышлять, готовить заговор
 **Forms:** *plot* &middot; *plotted* &middot; *plotted*
+**Verb class:** regular
 **Third person:** *plots* &middot; **-ing form:** *plotting*
 **Transitivity:** both — transitive (*plot* a coup), intransitive (they *plotted* for months)
 **Contrast:** One short vowel plus one consonant, so the *t* doubles: *plotted*, *plotting*.
@@ -1479,6 +1567,7 @@ To make a secret plan to do something harmful.
 **Pronunciation:** /ˈlɪbəreɪt/ &middot; *LIB-uh-rayt*
 **Русский:** освобождать, освободить
 **Forms:** *liberate* &middot; *liberated* &middot; *liberated*
+**Verb class:** regular
 **Third person:** *liberates* &middot; **-ing form:** *liberating*
 **Transitivity:** transitive
 
@@ -1495,6 +1584,7 @@ To set a place or people free from an enemy or from control.
 **Pronunciation:** /əˈlaɪ/ &middot; *uh-LY*
 **Русский:** вступать в союз, объединяться
 **Forms:** *ally* &middot; *allied* &middot; *allied*
+**Verb class:** regular
 **Third person:** *allies* &middot; **-ing form:** *allying*
 **Transitivity:** both — transitive (*ally* yourself with them), intransitive (the tribes *allied*)
 **Contrast:** The verb is uh-LY; the noun *ally* is AL-eye. *Y* becomes *-ie-*: *allies*, *allied*.
@@ -1512,6 +1602,7 @@ To join with another person or country for a shared purpose, usually against som
 **Pronunciation:** /juˈnaɪt/ &middot; *yoo-NYT*
 **Русский:** объединять, объединить; объединяться
 **Forms:** *unite* &middot; *united* &middot; *united*
+**Verb class:** regular
 **Third person:** *unites* &middot; **-ing form:** *uniting*
 **Transitivity:** both — transitive (a threat *unites* people), intransitive (the parties *united*)
 **Contrast:** Begins with a /j/ sound: yoo-NYT, so it takes *a*, not *an*.
@@ -1529,6 +1620,7 @@ To join people or groups together so that they act as one.
 **Pronunciation:** /səbˈduː/ &middot; *sub-DOO*
 **Русский:** усмирять, подавлять; одолевать
 **Forms:** *subdue* &middot; *subdued* &middot; *subdued*
+**Verb class:** regular
 **Third person:** *subdues* &middot; **-ing form:** *subduing*
 **Transitivity:** transitive
 **Contrast:** The silent *e* drops before *-ing*: *subduing*.
@@ -1546,6 +1638,7 @@ To bring a person or group under control by force.
 **Pronunciation:** /rɪˈstreɪn/ &middot; *ri-STRAYN*
 **Русский:** сдерживать, удерживать; усмирять
 **Forms:** *restrain* &middot; *restrained* &middot; *restrained*
+**Verb class:** regular
 **Third person:** *restrains* &middot; **-ing form:** *restraining*
 **Transitivity:** transitive
 
@@ -1562,6 +1655,7 @@ To hold someone back physically, or to stop yourself from acting.
 **Pronunciation:** /səˈprɛs/ &middot; *suh-PRES*
 **Русский:** подавлять, подавить; пресекать
 **Forms:** *suppress* &middot; *suppressed* &middot; *suppressed*
+**Verb class:** regular
 **Third person:** *suppresses* &middot; **-ing form:** *suppressing*
 **Transitivity:** transitive
 **Contrast:** Two *p*'s and two *s*'s; the third person adds *-es*: *suppresses*.
@@ -1579,6 +1673,7 @@ To stop a protest, a report, or a feeling by force or authority.
 **Pronunciation:** /ˈpɜːrsɪkjuːt/ &middot; *PUR-si-kyoot*
 **Русский:** преследовать, притеснять (за убеждения)
 **Forms:** *persecute* &middot; *persecuted* &middot; *persecuted*
+**Verb class:** regular
 **Third person:** *persecutes* &middot; **-ing form:** *persecuting*
 **Transitivity:** transitive
 **Contrast:** *Persecute* (преследовать, притеснять) is not *prosecute* (привлекать к суду).
@@ -1596,6 +1691,7 @@ To treat people cruelly over a long time because of their race, religion, or bel
 **Pronunciation:** /əˈrɛst/ &middot; *uh-REST*
 **Русский:** арестовывать, арестовать; задерживать
 **Forms:** *arrest* &middot; *arrested* &middot; *arrested*
+**Verb class:** regular
 **Third person:** *arrests* &middot; **-ing form:** *arresting*
 **Transitivity:** transitive
 **Contrast:** Takes *for*: *arrested for theft*.
@@ -1613,6 +1709,7 @@ To take someone to a police station because they are suspected of a crime.
 **Pronunciation:** /dɪˈteɪn/ &middot; *di-TAYN*
 **Русский:** задерживать, задержать; заключать под стражу
 **Forms:** *detain* &middot; *detained* &middot; *detained*
+**Verb class:** regular
 **Third person:** *detains* &middot; **-ing form:** *detaining*
 **Transitivity:** transitive
 
@@ -1629,6 +1726,7 @@ To keep someone in official custody and not let them leave.
 **Pronunciation:** /ɪmˈprɪzən/ &middot; *im-PRIZ-un*
 **Русский:** заключать в тюрьму, сажать в тюрьму
 **Forms:** *imprison* &middot; *imprisoned* &middot; *imprisoned*
+**Verb class:** regular
 **Third person:** *imprisons* &middot; **-ing form:** *imprisoning*
 **Transitivity:** transitive
 **Contrast:** The final *n* does not double: *imprisoned*, *imprisoning*.
@@ -1646,6 +1744,7 @@ To put someone in prison and keep them there.
 **Pronunciation:** /dʒeɪl/ &middot; *JAYL*
 **Русский:** сажать в тюрьму, заключать под стражу
 **Forms:** *jail* &middot; *jailed* &middot; *jailed*
+**Verb class:** regular
 **Third person:** *jails* &middot; **-ing form:** *jailing*
 **Transitivity:** transitive
 
@@ -1662,6 +1761,7 @@ To put someone in jail as a punishment.
 **Pronunciation:** /ɪnˈtɛrəɡeɪt/ &middot; *in-TER-uh-gayt*
 **Русский:** допрашивать, допросить
 **Forms:** *interrogate* &middot; *interrogated* &middot; *interrogated*
+**Verb class:** regular
 **Third person:** *interrogates* &middot; **-ing form:** *interrogating*
 **Transitivity:** transitive
 **Contrast:** Double *r*: *interrogate*.
@@ -1679,6 +1779,7 @@ To question someone closely and for a long time, often in an aggressive way.
 **Pronunciation:** /ˈprɑːsɪkjuːt/ &middot; *PRAH-si-kyoot*
 **Русский:** привлекать к суду, преследовать в судебном порядке
 **Forms:** *prosecute* &middot; *prosecuted* &middot; *prosecuted*
+**Verb class:** regular
 **Third person:** *prosecutes* &middot; **-ing form:** *prosecuting*
 **Transitivity:** both — transitive (*prosecute* a case), intransitive (the state declined to *prosecute*)
 
@@ -1695,6 +1796,7 @@ To officially charge someone with a crime and take them to court.
 **Pronunciation:** /kənˈvɪkt/ &middot; *kun-VIKT*
 **Русский:** осуждать, признавать виновным
 **Forms:** *convict* &middot; *convicted* &middot; *convicted*
+**Verb class:** regular
 **Third person:** *convicts* &middot; **-ing form:** *convicting*
 **Transitivity:** transitive
 **Contrast:** The verb is kun-VIKT; the noun *convict* (a prisoner) is KAHN-vikt. Takes *of*: *convicted of fraud*.
@@ -1707,11 +1809,14 @@ To decide officially in court that someone is guilty of a crime.
 
 ---
 
+**Phrasal verbs:** [convict of](22-verb-preposition.md#convict-of)
+
 ### sue
 
 **Pronunciation:** /suː/ &middot; *SOO*
 **Русский:** подавать в суд на, судиться с
 **Forms:** *sue* &middot; *sued* &middot; *sued*
+**Verb class:** regular
 **Third person:** *sues* &middot; **-ing form:** *suing*
 **Transitivity:** both — transitive (*sue* the company), intransitive (they threatened to *sue*)
 **Contrast:** Keep the *u* but drop the *e* before *-ing*: *suing*, not "sueing".
@@ -1724,11 +1829,14 @@ To take legal action against a person or company in a court.
 
 ---
 
+**Phrasal verbs:** [sue for](22-verb-preposition.md#sue-for)
+
 ### enforce
 
 **Pronunciation:** /ɪnˈfɔːrs/ &middot; *in-FORS*
 **Русский:** обеспечивать соблюдение, следить за исполнением
 **Forms:** *enforce* &middot; *enforced* &middot; *enforced*
+**Verb class:** regular
 **Third person:** *enforces* &middot; **-ing form:** *enforcing*
 **Transitivity:** transitive
 
@@ -1745,6 +1853,7 @@ To make sure that a law or rule is obeyed.
 **Pronunciation:** /ˈvaɪəleɪt/ &middot; *VY-uh-layt*
 **Русский:** нарушать, нарушить (закон, договор)
 **Forms:** *violate* &middot; *violated* &middot; *violated*
+**Verb class:** regular
 **Third person:** *violates* &middot; **-ing form:** *violating*
 **Transitivity:** transitive
 
@@ -1761,6 +1870,7 @@ To break a law, rule, or agreement.
 **Pronunciation:** /ˈmiːdieɪt/ &middot; *MEE-dee-ayt*
 **Русский:** посредничать, выступать посредником
 **Forms:** *mediate* &middot; *mediated* &middot; *mediated*
+**Verb class:** regular
 **Third person:** *mediates* &middot; **-ing form:** *mediating*
 **Transitivity:** both — transitive (*mediate* a dispute), intransitive (she agreed to *mediate*)
 **Contrast:** Takes *between*: *mediate between the two sides*.
@@ -1778,6 +1888,7 @@ To help two sides in a conflict reach an agreement.
 **Pronunciation:** /ˌɪntərˈviːn/ &middot; *in-tur-VEEN*
 **Русский:** вмешиваться, вмешаться
 **Forms:** *intervene* &middot; *intervened* &middot; *intervened*
+**Verb class:** regular
 **Third person:** *intervenes* &middot; **-ing form:** *intervening*
 **Transitivity:** intransitive
 **Contrast:** Takes *in* or *between*: *intervene in the conflict*.
@@ -1795,6 +1906,7 @@ To become involved in a conflict in order to change what is happening.
 **Pronunciation:** /ˈɛskəleɪt/ &middot; *ES-kuh-layt*
 **Русский:** обостряться, нарастать; обострять
 **Forms:** *escalate* &middot; *escalated* &middot; *escalated*
+**Verb class:** regular
 **Third person:** *escalates* &middot; **-ing form:** *escalating*
 **Transitivity:** both — intransitive (the fight *escalated*), transitive (*escalate* the conflict)
 **Contrast:** Takes *into*: *escalated into a war*.
@@ -1812,6 +1924,7 @@ To become more serious or violent, or to make something do so.
 **Pronunciation:** /diːˈfjuːz/ &middot; *dee-FYOOZ*
 **Русский:** обезвреживать (бомбу); разряжать (обстановку)
 **Forms:** *defuse* &middot; *defused* &middot; *defused*
+**Verb class:** regular
 **Third person:** *defuses* &middot; **-ing form:** *defusing*
 **Transitivity:** transitive
 **Contrast:** *Defuse* (обезвредить) is not *diffuse* (рассеивать).
@@ -1829,6 +1942,7 @@ To make a bomb safe, or to make a dangerous situation calmer.
 **Pronunciation:** /ˈstrʌɡəl/ &middot; *STRUG-ul*
 **Русский:** бороться; с трудом справляться
 **Forms:** *struggle* &middot; *struggled* &middot; *struggled*
+**Verb class:** regular
 **Third person:** *struggles* &middot; **-ing form:** *struggling*
 **Transitivity:** intransitive
 **Contrast:** Takes *with*, *against*, or *for*: *struggle against the current*.
@@ -1846,6 +1960,7 @@ To fight hard against someone or something, especially when you are losing.
 **Pronunciation:** /træp/ &middot; *TRAP*
 **Русский:** заманивать в ловушку; запирать, блокировать
 **Forms:** *trap* &middot; *trapped* &middot; *trapped*
+**Verb class:** regular
 **Third person:** *traps* &middot; **-ing form:** *trapping*
 **Transitivity:** transitive
 **Contrast:** One short vowel plus one consonant, so the *p* doubles: *trapped*, *trapping*.
@@ -1863,6 +1978,7 @@ To catch someone in a place or situation they cannot get out of.
 **Pronunciation:** /ˈhaɪdʒæk/ &middot; *HY-jak*
 **Русский:** угонять (самолёт), захватывать
 **Forms:** *hijack* &middot; *hijacked* &middot; *hijacked*
+**Verb class:** regular
 **Third person:** *hijacks* &middot; **-ing form:** *hijacking*
 **Transitivity:** transitive
 
@@ -1879,6 +1995,7 @@ To take control of a plane, ship, or truck by force.
 **Pronunciation:** /ˈkɪdnæp/ &middot; *KID-nap*
 **Русский:** похищать, похитить (человека)
 **Forms:** *kidnap* &middot; *kidnapped* &middot; *kidnapped*
+**Verb class:** regular
 **Third person:** *kidnaps* &middot; **-ing form:** *kidnapping*
 **Transitivity:** transitive
 **Contrast:** The *p* doubles in American English: *kidnapped*, *kidnapping*.
@@ -1896,6 +2013,7 @@ To take a person away by force and hold them, usually for money.
 **Pronunciation:** /luːt/ &middot; *LOOT*
 **Русский:** грабить, разграбить; мародёрствовать
 **Forms:** *loot* &middot; *looted* &middot; *looted*
+**Verb class:** regular
 **Third person:** *loots* &middot; **-ing form:** *looting*
 **Transitivity:** both — transitive (*loot* a store), intransitive (crowds were *looting*)
 
@@ -1912,6 +2030,7 @@ To steal things from shops or homes during a war or riot.
 **Pronunciation:** /dɪˈspɜːrs/ &middot; *di-SPURS*
 **Русский:** разгонять (толпу); рассеиваться, расходиться
 **Forms:** *disperse* &middot; *dispersed* &middot; *dispersed*
+**Verb class:** regular
 **Third person:** *disperses* &middot; **-ing form:** *dispersing*
 **Transitivity:** both — transitive (*disperse* the crowd), intransitive (the crowd *dispersed*)
 
@@ -1928,6 +2047,7 @@ To make a crowd break up and go away, or to break up and go away.
 **Pronunciation:** /dɪˈfɛkt/ &middot; *di-FEKT*
 **Русский:** перебегать (к врагу), дезертировать; бежать из страны
 **Forms:** *defect* &middot; *defected* &middot; *defected*
+**Verb class:** regular
 **Third person:** *defects* &middot; **-ing form:** *defecting*
 **Transitivity:** intransitive
 **Contrast:** The verb is di-FEKT; the noun *defect* (a flaw) is DEE-fekt. Takes *to*: *defected to the West*.

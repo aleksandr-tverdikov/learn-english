@@ -16,6 +16,7 @@ def render(term, ipa, respell, ru, third, past, participle, ing,
     out.append(f'**Русский:** {ru}')
     out.append(f'**Forms:** *{term}* &middot; *{past}* &middot; *{participle}*')
     out.append(f'**Third person:** *{third}* &middot; **-ing form:** *{ing}*')
+    out.append('**Verb class:** regular')
     if transitivity:
         out.append(f'**Transitivity:** {transitivity}')
     if contrast:

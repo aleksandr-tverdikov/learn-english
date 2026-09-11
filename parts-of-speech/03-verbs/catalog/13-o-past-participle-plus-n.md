@@ -11,6 +11,7 @@ These verbs bend the same way twice. The past swaps the base vowel for an /oʊ/ 
 **Pronunciation:** /əˈweɪk/ &middot; *uh-WAKE*
 **Русский:** будить; просыпаться
 **Forms:** *awake* /əˈweɪk/ &middot; *awoke* /əˈwoʊk/ &middot; *awoken* /əˈwoʊkən/
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing; everyday speech says *wake up*
 **Pattern:** a-e /eɪ/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *awakes* &middot; **-ing form:** *awaking* (the silent e drops)
@@ -52,6 +53,7 @@ To stop sleeping, or to rouse someone from sleep — a more literary word than *
 **Pronunciation:** /bɛr/ &middot; *BAIR*
 **Русский:** родить, нести; переносить; выносить
 **Forms:** *bear* /bɛr/ &middot; *bore* /bɔr/ &middot; *born* /bɔrn/
+**Verb class:** irregular
 **Register:** everyday — *can't bear it* and *was born* are in every American's mouth
 **Pattern:** ear /ɛr/ — ore /ɔr/ — orn &middot; **Group:** 13
 **Third person:** *bears* &middot; **-ing form:** *bearing*
@@ -138,6 +140,7 @@ To carry or support something, to endure it, or to bring it forth — plus the p
 **Pronunciation:** /bɪˈspik/ &middot; *bih-SPEEK*
 **Русский:** свидетельствовать, означать; предвещать
 **Forms:** *bespeak* /bɪˈspik/ &middot; *bespoke* /bɪˈspoʊk/ &middot; *bespoken* /bɪˈspoʊkən/
+**Verb class:** irregular
 **Register:** rare — a prefixed, literary verb; *bespoke* is better known as the British tailoring adjective
 **Pattern:** ea /i/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *bespeaks* &middot; **-ing form:** *bespeaking*
@@ -173,6 +176,7 @@ A formal, literary verb meaning to be evidence of something; its past form *besp
 **Pronunciation:** /baɪt/ &middot; *BITE*
 **Русский:** кусать
 **Forms:** *bite* /baɪt/ &middot; *bit* /bɪt/ &middot; *bitten* /ˈbɪtən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i-e /aɪ/ — i /ɪ/ — i + -ten &middot; **Group:** 13
 **Third person:** *bites* &middot; **-ing form:** *biting* (the silent e drops)
@@ -235,6 +239,7 @@ To cut or grip something with the teeth — and, by extension, to sting, to grip
 **Pronunciation:** /breɪk/ &middot; *BRAKE*
 **Русский:** ломать; разбивать
 **Forms:** *break* /breɪk/ &middot; *broke* /broʊk/ &middot; *broken* /ˈbroʊkən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ea /eɪ/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *breaks* &middot; **-ing form:** *breaking*
@@ -327,6 +332,7 @@ To separate something into pieces or stop it working — and, figuratively, to v
 **Pronunciation:** /tʃuz/ &middot; *CHOOZ*
 **Русский:** выбирать
 **Forms:** *choose* /tʃuz/ &middot; *chose* /tʃoʊz/ &middot; *chosen* /ˈtʃoʊzən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** oo /u/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *chooses* &middot; **-ing form:** *choosing* (the silent e drops)
@@ -376,6 +382,7 @@ To pick one thing out of several, or to decide on a course of action.
 **Pronunciation:** /kliv/ &middot; *KLEEV*
 **Русский:** раскалывать; прилипать; оставаться верным
 **Forms:** *cleave* /kliv/ &middot; *clove* /kloʊv/ &middot; *cloven* /ˈkloʊvən/
+**Verb class:** irregular
 **Register:** rare — narrow and mostly frozen (*cloven hoof*, *cleft palate*); the living verb is regular *cleaved*
 **Pattern:** ea /i/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *cleaves* &middot; **-ing form:** *cleaving* (the silent e drops)
@@ -417,6 +424,7 @@ Two unrelated verbs share this spelling with nearly opposite meanings — to spl
 **Pronunciation:** /dɛlv/ &middot; *DELV*
 **Русский:** рыться, копаться
 **Forms:** *delve* /dɛlv/ &middot; *dolve* /doʊlv/ &middot; *dolven* /ˈdoʊlvən/
+**Verb class:** irregular
 **Register:** archaic — *dolve* and *dolven* are out of use; the living verb is regular *delved*
 **Pattern:** e /ɛ/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *delves* &middot; **-ing form:** *delving* (the silent e drops)
@@ -452,6 +460,7 @@ To dig — today almost always figuratively, into records, a subject, or the bot
 **Pronunciation:** /fɔrˈbɛr/ &middot; *for-BAIR*
 **Русский:** воздерживаться
 **Forms:** *forbear* /fɔrˈbɛr/ &middot; *forbore* /fɔrˈbɔr/ &middot; *forborne* /fɔrˈbɔrn/
+**Verb class:** irregular
 **Register:** rare — a formal prefixed verb; Americans say *hold back* or *refrain*
 **Pattern:** ear /ɛr/ — ore /ɔr/ — orne &middot; **Group:** 13
 **Third person:** *forbears* &middot; **-ing form:** *forbearing*
@@ -487,6 +496,7 @@ To hold yourself back from doing something you could do — a formal verb, and t
 **Pronunciation:** /fərˈɡɛt/ &middot; *fur-GET*
 **Русский:** забывать
 **Forms:** *forget* /fərˈɡɛt/ &middot; *forgot* /fərˈɡɑt/ &middot; *forgotten* /fərˈɡɑtən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** e /ɛ/ — o /ɑ/ — o + -ten &middot; **Group:** 13
 **Third person:** *forgets* &middot; **-ing form:** *forgetting* (the t doubles)
@@ -541,6 +551,7 @@ To fail to remember something — a fact, an intention, an object left behind �
 **Pronunciation:** /fɔrˈswɛr/ &middot; *for-SWAIR*
 **Русский:** отрекаться
 **Forms:** *forswear* /fɔrˈswɛr/ &middot; *forswore* /fɔrˈswɔr/ &middot; *forsworn* /fɔrˈswɔrn/
+**Verb class:** irregular
 **Register:** rare — a formal prefixed verb, mostly legal or literary; *renounce* does the work
 **Pattern:** ear /ɛr/ — ore /ɔr/ — orn &middot; **Group:** 13
 **Third person:** *forswears* &middot; **-ing form:** *forswearing*
@@ -575,6 +586,7 @@ To give something up formally, or to renounce it under oath — the prefixed sib
 **Pronunciation:** /friz/ &middot; *FREEZ*
 **Русский:** замерзать; замораживать
 **Forms:** *freeze* /friz/ &middot; *froze* /froʊz/ &middot; *frozen* /ˈfroʊzən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ee /i/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *freezes* &middot; **-ing form:** *freezing* (the silent e drops)
@@ -649,6 +661,7 @@ To turn to ice or be gripped by cold — and figuratively to stop dead, to stop 
 **Pronunciation:** /haɪd/ &middot; *HIDE*
 **Русский:** прятать, скрывать
 **Forms:** *hide* /haɪd/ &middot; *hid* /hɪd/ &middot; *hidden* /ˈhɪdən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i-e /aɪ/ — i /ɪ/ — i + -den &middot; **Group:** 13
 **Third person:** *hides* &middot; **-ing form:** *hiding* (the silent e drops)
@@ -699,6 +712,7 @@ To put something where it cannot be found, to go where you cannot be seen, or to
 **Pronunciation:** /ˌɪntərˈwiv/ &middot; *in-tur-WEEV*
 **Русский:** вплетать; воткать
 **Forms:** *interweave* /ˌɪntərˈwiv/ &middot; *interwove* /ˌɪntərˈwoʊv/ &middot; *interwoven* /ˌɪntərˈwoʊvən/
+**Verb class:** irregular
 **Register:** rare — a prefixed derivative; only the participle *interwoven* sees much use
 **Pattern:** ea /i/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *interweaves* &middot; **-ing form:** *interweaving* (the silent e drops)
@@ -734,6 +748,7 @@ To weave two or more things together — threads literally, stories, lives, or t
 **Pronunciation:** /mɪsˈspik/ &middot; *mis-SPEEK*
 **Русский:** говорить или произносить неправильно
 **Forms:** *misspeak* /mɪsˈspik/ &middot; *misspoke* /mɪsˈspoʊk/ &middot; *misspoken* /mɪsˈspoʊkən/
+**Verb class:** irregular
 **Register:** neutral — current American usage, but almost always as *I misspoke*
 **Pattern:** ea /i/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *misspeaks* &middot; **-ing form:** *misspeaking*
@@ -763,6 +778,7 @@ To say the wrong thing by mistake — in American public life, the standard way 
 **Pronunciation:** /spik/ &middot; *SPEEK*
 **Русский:** говорить
 **Forms:** *speak* /spik/ &middot; *spoke* /spoʊk/ &middot; *spoken* /ˈspoʊkən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ea /i/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *speaks* &middot; **-ing form:** *speaking*
@@ -842,6 +858,7 @@ To use the voice to say words — to talk, to hold a conversation, to use a lang
 **Pronunciation:** /stil/ &middot; *STEEL*
 **Русский:** красть; воровать
 **Forms:** *steal* /stil/ &middot; *stole* /stoʊl/ &middot; *stolen* /ˈstoʊlən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ea /i/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *steals* &middot; **-ing form:** *stealing*
@@ -905,6 +922,7 @@ To take what is not yours — and by extension to move quietly, to snatch a smal
 **Pronunciation:** /swɛr/ &middot; *SWAIR*
 **Русский:** клясться; ругаться, сквернословить
 **Forms:** *swear* /swɛr/ &middot; *swore* /swɔr/ &middot; *sworn* /swɔrn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ear /ɛr/ — ore /ɔr/ — orn &middot; **Group:** 13
 **Third person:** *swears* &middot; **-ing form:** *swearing*
@@ -961,6 +979,7 @@ To make a solemn promise or take an oath — and, in the everyday sense, to use 
 **Pronunciation:** /tɛr/ &middot; *TAIR*
 **Русский:** рвать, разрывать
 **Forms:** *tear* /tɛr/ &middot; *tore* /tɔr/ &middot; *torn* /tɔrn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ear /ɛr/ — ore /ɔr/ — orn &middot; **Group:** 13
 **Third person:** *tears* &middot; **-ing form:** *tearing*
@@ -1023,6 +1042,7 @@ To pull something apart by force — and, of a person or vehicle, to move very f
 **Pronunciation:** /ʌnˈfriz/ &middot; *un-FREEZ*
 **Русский:** размораживать
 **Forms:** *unfreeze* /ʌnˈfriz/ &middot; *unfroze* /ʌnˈfroʊz/ &middot; *unfrozen* /ʌnˈfroʊzən/
+**Verb class:** irregular
 **Register:** rare — a prefixed derivative; for food Americans say *thaw* or *defrost*, and *unfroze* reads oddly
 **Pattern:** ee /i/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *unfreezes* &middot; **-ing form:** *unfreezing* (the silent e drops)
@@ -1064,6 +1084,7 @@ To release something from a frozen state — ice, money, prices, or a stuck scre
 **Pronunciation:** /weɪk/ &middot; *WAKE*
 **Русский:** просыпаться; будить
 **Forms:** *wake* /weɪk/ &middot; *woke* /woʊk/ &middot; *woken* /ˈwoʊkən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** a-e /eɪ/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *wakes* &middot; **-ing form:** *waking* (the silent e drops)
@@ -1114,6 +1135,7 @@ To stop sleeping, or to rouse someone from sleep — in everyday American speech
 **Pronunciation:** /wɛr/ &middot; *WAIR*
 **Русский:** носить (одежду и т. п.)
 **Forms:** *wear* /wɛr/ &middot; *wore* /wɔr/ &middot; *worn* /wɔrn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ear /ɛr/ — ore /ɔr/ — orn &middot; **Group:** 13
 **Third person:** *wears* &middot; **-ing form:** *wearing*
@@ -1187,6 +1209,7 @@ To have clothing or an accessory on your body — and, in a second family of sen
 **Pronunciation:** /wiv/ &middot; *WEEV*
 **Русский:** ткать; плести
 **Forms:** *weave* /wiv/ &middot; *wove* /woʊv/ &middot; *woven* /ˈwoʊvən/
+**Verb class:** irregular
 **Register:** everyday — ordinary in speech and writing, above all the participle *woven*
 **Pattern:** ea /i/ — o /oʊ/ — o + -n &middot; **Group:** 13
 **Third person:** *weaves* &middot; **-ing form:** *weaving* (the silent e drops)

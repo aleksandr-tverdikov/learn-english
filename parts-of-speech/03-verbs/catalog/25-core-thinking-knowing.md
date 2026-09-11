@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /əkˈsɛpt/ &middot; *uhk-SEPT*
 **Русский:** принимать, признавать
 **Forms:** *accept* &middot; *accepted* &middot; *accepted*
+**Verb class:** regular
 **Third person:** *accepts* &middot; **-ing form:** *accepting*
 **Transitivity:** transitive
 
@@ -30,6 +31,7 @@ To come to believe that something is true, or to agree to take what is offered.
 **Pronunciation:** /əkˈnɑːlɪdʒ/ &middot; *uhk-NAH-lij*
 **Русский:** признавать, признать
 **Forms:** *acknowledge* &middot; *acknowledged* &middot; *acknowledged*
+**Verb class:** regular
 **Third person:** *acknowledges* &middot; **-ing form:** *acknowledging*
 **Transitivity:** transitive
 
@@ -46,6 +48,7 @@ To admit that something is true or that someone deserves attention.
 **Pronunciation:** /ˈænəlaɪz/ &middot; *AN-uh-lyz*
 **Русский:** анализировать, разбирать
 **Forms:** *analyze* &middot; *analyzed* &middot; *analyzed*
+**Verb class:** regular
 **Third person:** *analyzes* &middot; **-ing form:** *analyzing*
 **Transitivity:** transitive
 **Contrast:** American *analyze*; British *analyse*.
@@ -63,6 +66,7 @@ To examine something in detail in order to understand how it works.
 **Pronunciation:** /ænˈtɪsəpeɪt/ &middot; *an-TIS-uh-payt*
 **Русский:** предвидеть, ожидать
 **Forms:** *anticipate* &middot; *anticipated* &middot; *anticipated*
+**Verb class:** regular
 **Third person:** *anticipates* &middot; **-ing form:** *anticipating*
 **Transitivity:** transitive
 
@@ -79,6 +83,7 @@ To expect something and get ready for it.
 **Pronunciation:** /əˈsɛs/ &middot; *uh-SES*
 **Русский:** оценивать, оценить
 **Forms:** *assess* &middot; *assessed* &middot; *assessed*
+**Verb class:** regular
 **Third person:** *assesses* &middot; **-ing form:** *assessing*
 **Transitivity:** transitive
 
@@ -95,6 +100,7 @@ To judge the quality, size, or value of something.
 **Pronunciation:** /əˈsuːm/ &middot; *uh-SOOM*
 **Русский:** предполагать, полагать
 **Forms:** *assume* &middot; *assumed* &middot; *assumed*
+**Verb class:** regular
 **Third person:** *assumes* &middot; **-ing form:** *assuming*
 **Transitivity:** transitive
 
@@ -111,6 +117,7 @@ To accept that something is true without proof.
 **Pronunciation:** /bɪˈliːv/ &middot; *bih-LEEV*
 **Русский:** верить, поверить; считать
 **Forms:** *believe* &middot; *believed* &middot; *believed*
+**Verb class:** regular
 **Third person:** *believes* &middot; **-ing form:** *believing*
 **Transitivity:** both — transitive (I believe you), intransitive (seeing is believing)
 **Contrast:** *believe someone* = верить кому-то; *believe in someone* = верить в кого-то.
@@ -123,11 +130,14 @@ To think that something is true or that someone is telling the truth.
 
 ---
 
+**Phrasal verbs:** [believe in](22-verb-preposition.md#believe-in)
+
 ### brainstorm
 
 **Pronunciation:** /ˈbreɪnstɔːrm/ &middot; *BRAYN-storm*
 **Русский:** устраивать мозговой штурм, обдумывать сообща
 **Forms:** *brainstorm* &middot; *brainstormed* &middot; *brainstormed*
+**Verb class:** regular
 **Third person:** *brainstorms* &middot; **-ing form:** *brainstorming*
 **Transitivity:** both — transitive (brainstorm ideas), intransitive (let us brainstorm)
 
@@ -144,6 +154,7 @@ To think up as many ideas as possible, usually with other people.
 **Pronunciation:** /ˈkælkjəleɪt/ &middot; *KAL-kyuh-layt*
 **Русский:** вычислять, подсчитывать
 **Forms:** *calculate* &middot; *calculated* &middot; *calculated*
+**Verb class:** regular
 **Third person:** *calculates* &middot; **-ing form:** *calculating*
 **Transitivity:** transitive
 
@@ -160,6 +171,7 @@ To work something out using numbers.
 **Pronunciation:** /ˈklæsəfaɪ/ &middot; *KLAS-uh-fy*
 **Русский:** классифицировать, относить к категории
 **Forms:** *classify* &middot; *classified* &middot; *classified*
+**Verb class:** regular
 **Third person:** *classifies* &middot; **-ing form:** *classifying*
 **Transitivity:** transitive
 **Contrast:** The -y turns into -ies and -ied: *classifies*, *classified*.
@@ -177,6 +189,7 @@ To put people or things into groups by type.
 **Pronunciation:** /kəmˈpɛr/ &middot; *kuhm-PAIR*
 **Русский:** сравнивать, сравнить
 **Forms:** *compare* &middot; *compared* &middot; *compared*
+**Verb class:** regular
 **Third person:** *compares* &middot; **-ing form:** *comparing*
 **Transitivity:** both — transitive (compare prices), intransitive (how do the two compare?)
 **Contrast:** *compare to* points out a likeness; *compare with* weighs two things side by side.
@@ -189,11 +202,14 @@ To look at two or more things in order to see how they are alike or different.
 
 ---
 
+**Phrasal verbs:** [compare to, compare with](22-verb-preposition.md#compare-to-compare-with)
+
 ### comprehend
 
 **Pronunciation:** /ˌkɑːmprɪˈhɛnd/ &middot; *kahm-prih-HEND*
 **Русский:** понимать, постигать
 **Forms:** *comprehend* &middot; *comprehended* &middot; *comprehended*
+**Verb class:** regular
 **Third person:** *comprehends* &middot; **-ing form:** *comprehending*
 **Transitivity:** transitive
 
@@ -210,6 +226,7 @@ To understand something fully, especially something difficult; a formal word whe
 **Pronunciation:** /kənˈsiːv/ &middot; *kuhn-SEEV*
 **Русский:** задумывать, представлять себе
 **Forms:** *conceive* &middot; *conceived* &middot; *conceived*
+**Verb class:** regular
 **Third person:** *conceives* &middot; **-ing form:** *conceiving*
 **Transitivity:** both — transitive (conceive a plan), intransitive (conceive of a world without money)
 **Contrast:** After c the spelling is -ei-: *conceive*, *receive*, *perceive*.
@@ -227,6 +244,7 @@ To form an idea or a plan in your mind.
 **Pronunciation:** /kənˈsiːd/ &middot; *kuhn-SEED*
 **Русский:** признавать, уступать
 **Forms:** *concede* &middot; *conceded* &middot; *conceded*
+**Verb class:** regular
 **Third person:** *concedes* &middot; **-ing form:** *conceding*
 **Transitivity:** both — transitive (concede a point), intransitive (he conceded at last)
 
@@ -243,6 +261,7 @@ To admit that something is true, often unwillingly.
 **Pronunciation:** /ˈkɑːnsəntreɪt/ &middot; *KAHN-suhn-trayt*
 **Русский:** сосредотачиваться, сосредоточиться
 **Forms:** *concentrate* &middot; *concentrated* &middot; *concentrated*
+**Verb class:** regular
 **Third person:** *concentrates* &middot; **-ing form:** *concentrating*
 **Transitivity:** both — transitive (concentrate your efforts), intransitive (I cannot concentrate)
 **Contrast:** You *concentrate on* something, never concentrate at something.
@@ -255,11 +274,14 @@ To give all your attention to one thing.
 
 ---
 
+**Phrasal verbs:** [concentrate on](22-verb-preposition.md#concentrate-on)
+
 ### conclude
 
 **Pronunciation:** /kənˈkluːd/ &middot; *kuhn-KLOOD*
 **Русский:** заключать, делать вывод
 **Forms:** *conclude* &middot; *concluded* &middot; *concluded*
+**Verb class:** regular
 **Third person:** *concludes* &middot; **-ing form:** *concluding*
 **Transitivity:** both — transitive (conclude the meeting), intransitive (the study concluded)
 
@@ -276,6 +298,7 @@ To decide that something is true after thinking about the facts.
 **Pronunciation:** /kənˈfjuːz/ &middot; *kuhn-FYOOZ*
 **Русский:** путать, запутывать
 **Forms:** *confuse* &middot; *confused* &middot; *confused*
+**Verb class:** regular
 **Third person:** *confuses* &middot; **-ing form:** *confusing*
 **Transitivity:** transitive
 **Contrast:** You *confuse* one thing *with* another.
@@ -293,6 +316,7 @@ To mix one thing up with another, or to make someone unable to think clearly.
 **Pronunciation:** /kənˈsɪdər/ &middot; *kuhn-SID-ur*
 **Русский:** обдумывать, рассматривать; считать
 **Forms:** *consider* &middot; *considered* &middot; *considered*
+**Verb class:** regular
 **Third person:** *considers* &middot; **-ing form:** *considering*
 **Transitivity:** transitive
 **Contrast:** *consider doing* something, never consider to do something.
@@ -310,6 +334,7 @@ To think carefully about something before deciding, or to hold an opinion about 
 **Pronunciation:** /ˈkɑːntəmpleɪt/ &middot; *KAHN-tuhm-playt*
 **Русский:** размышлять, обдумывать
 **Forms:** *contemplate* &middot; *contemplated* &middot; *contemplated*
+**Verb class:** regular
 **Third person:** *contemplates* &middot; **-ing form:** *contemplating*
 **Transitivity:** transitive
 **Contrast:** *contemplate doing* something, not contemplate to do something.
@@ -327,6 +352,7 @@ To think about something long and seriously.
 **Pronunciation:** /dɪˈsaɪd/ &middot; *dih-SYD*
 **Русский:** решать, решить
 **Forms:** *decide* &middot; *decided* &middot; *decided*
+**Verb class:** regular
 **Third person:** *decides* &middot; **-ing form:** *deciding*
 **Transitivity:** both — transitive (decide the winner), intransitive (you decide)
 **Contrast:** *decide to do* something; *decide on* a thing.
@@ -339,11 +365,14 @@ To make a choice after thinking about it.
 
 ---
 
+**Phrasal verbs:** [decide on, decide against](22-verb-preposition.md#decide-on-decide-against)
+
 ### deduce
 
 **Pronunciation:** /dɪˈduːs/ &middot; *dih-DOOS*
 **Русский:** выводить, делать вывод
 **Forms:** *deduce* &middot; *deduced* &middot; *deduced*
+**Verb class:** regular
 **Third person:** *deduces* &middot; **-ing form:** *deducing*
 **Transitivity:** transitive
 
@@ -355,11 +384,14 @@ To work something out from the facts you already have.
 
 ---
 
+**Phrasal verbs:** [deduce from](22-verb-preposition.md#deduce-from)
+
 ### deem
 
 **Pronunciation:** /diːm/ &middot; *DEEM*
 **Русский:** считать, полагать
 **Forms:** *deem* &middot; *deemed* &middot; *deemed*
+**Verb class:** regular
 **Third person:** *deems* &middot; **-ing form:** *deeming*
 **Transitivity:** transitive
 
@@ -376,6 +408,7 @@ To consider something to be a certain way, in formal or official language.
 **Pronunciation:** /ˈdɛmənstreɪt/ &middot; *DEM-uhn-strayt*
 **Русский:** демонстрировать, доказывать
 **Forms:** *demonstrate* &middot; *demonstrated* &middot; *demonstrated*
+**Verb class:** regular
 **Third person:** *demonstrates* &middot; **-ing form:** *demonstrating*
 **Transitivity:** transitive
 
@@ -392,6 +425,7 @@ To show clearly that something is true, or to show how something works.
 **Pronunciation:** /dɪˈtɛkt/ &middot; *dih-TEKT*
 **Русский:** обнаруживать, улавливать
 **Forms:** *detect* &middot; *detected* &middot; *detected*
+**Verb class:** regular
 **Third person:** *detects* &middot; **-ing form:** *detecting*
 **Transitivity:** transitive
 
@@ -408,6 +442,7 @@ To notice something that is hard to see, hear, or measure.
 **Pronunciation:** /dɪˈtɜːrmɪn/ &middot; *dih-TUR-min*
 **Русский:** определять, устанавливать
 **Forms:** *determine* &middot; *determined* &middot; *determined*
+**Verb class:** regular
 **Third person:** *determines* &middot; **-ing form:** *determining*
 **Transitivity:** transitive
 
@@ -424,6 +459,7 @@ To find out something for certain, or to settle it.
 **Pronunciation:** /dɪˈvaɪz/ &middot; *dih-VYZ*
 **Русский:** разрабатывать, придумывать
 **Forms:** *devise* &middot; *devised* &middot; *devised*
+**Verb class:** regular
 **Third person:** *devises* &middot; **-ing form:** *devising*
 **Transitivity:** transitive
 **Contrast:** The verb *devise* ends in a /z/ sound; the noun *device* ends in /s/.
@@ -441,6 +477,7 @@ To invent a plan, a system, or a method.
 **Pronunciation:** /dɪˈskʌvər/ &middot; *dih-SKUV-ur*
 **Русский:** обнаруживать, открывать
 **Forms:** *discover* &middot; *discovered* &middot; *discovered*
+**Verb class:** regular
 **Third person:** *discovers* &middot; **-ing form:** *discovering*
 **Transitivity:** transitive
 
@@ -457,6 +494,7 @@ To find out about something for the first time.
 **Pronunciation:** /dɪsˈmɪs/ &middot; *dis-MIS*
 **Русский:** отвергать, отмахиваться
 **Forms:** *dismiss* &middot; *dismissed* &middot; *dismissed*
+**Verb class:** regular
 **Third person:** *dismisses* &middot; **-ing form:** *dismissing*
 **Transitivity:** transitive
 
@@ -473,6 +511,7 @@ To decide that an idea or a person is not worth taking seriously.
 **Pronunciation:** /dɪˈstɪŋɡwɪʃ/ &middot; *dih-STING-gwish*
 **Русский:** различать, отличать
 **Forms:** *distinguish* &middot; *distinguished* &middot; *distinguished*
+**Verb class:** regular
 **Third person:** *distinguishes* &middot; **-ing form:** *distinguishing*
 **Transitivity:** both — transitive (distinguish the twins), intransitive (distinguish between them)
 **Contrast:** *distinguish between* two things, or *distinguish* one *from* another.
@@ -490,6 +529,7 @@ To see or explain the difference between things.
 **Pronunciation:** /daʊt/ &middot; *DOWT*
 **Русский:** сомневаться, усомниться
 **Forms:** *doubt* &middot; *doubted* &middot; *doubted*
+**Verb class:** regular
 **Third person:** *doubts* &middot; **-ing form:** *doubting*
 **Transitivity:** transitive
 **Contrast:** The b is silent: DOWT. The same silent b appears in *debt* and *subtle*.
@@ -507,6 +547,7 @@ To think that something is probably not true or will probably not happen.
 **Pronunciation:** /ɪnˈvɪʒən/ &middot; *in-VIZH-uhn*
 **Русский:** представлять себе, мысленно рисовать
 **Forms:** *envision* &middot; *envisioned* &middot; *envisioned*
+**Verb class:** regular
 **Third person:** *envisions* &middot; **-ing form:** *envisioning*
 **Transitivity:** transitive
 
@@ -523,6 +564,7 @@ To picture in your mind how something could be in the future.
 **Pronunciation:** /ˈɛstəmeɪt/ &middot; *ES-tuh-mayt*
 **Русский:** оценивать, прикидывать
 **Forms:** *estimate* &middot; *estimated* &middot; *estimated*
+**Verb class:** regular
 **Third person:** *estimates* &middot; **-ing form:** *estimating*
 **Transitivity:** transitive
 **Contrast:** The verb is ES-tuh-mayt; the noun *estimate* ends in a schwa: ES-tuh-muht.
@@ -540,6 +582,7 @@ To make a rough judgment about an amount, a size, or a cost.
 **Pronunciation:** /ɪˈvæljueɪt/ &middot; *ih-VAL-yoo-ayt*
 **Русский:** оценивать, давать оценку
 **Forms:** *evaluate* &middot; *evaluated* &middot; *evaluated*
+**Verb class:** regular
 **Third person:** *evaluates* &middot; **-ing form:** *evaluating*
 **Transitivity:** transitive
 
@@ -556,6 +599,7 @@ To judge carefully how good or how useful something is.
 **Pronunciation:** /ɪɡˈzæmɪn/ &middot; *ig-ZAM-in*
 **Русский:** изучать, рассматривать
 **Forms:** *examine* &middot; *examined* &middot; *examined*
+**Verb class:** regular
 **Third person:** *examines* &middot; **-ing form:** *examining*
 **Transitivity:** transitive
 
@@ -572,6 +616,7 @@ To look at something closely in order to learn about it.
 **Pronunciation:** /ɪkˈspɛkt/ &middot; *ik-SPEKT*
 **Русский:** ожидать, рассчитывать
 **Forms:** *expect* &middot; *expected* &middot; *expected*
+**Verb class:** regular
 **Third person:** *expects* &middot; **-ing form:** *expecting*
 **Transitivity:** transitive
 **Contrast:** *expect someone to do* something: I expect you to be on time.
@@ -589,6 +634,7 @@ To believe that something will happen or that someone will do something.
 **Pronunciation:** /fɪr/ &middot; *FEER*
 **Русский:** бояться, опасаться
 **Forms:** *fear* &middot; *feared* &middot; *feared*
+**Verb class:** regular
 **Third person:** *fears* &middot; **-ing form:** *fearing*
 **Transitivity:** both — transitive (fear the worst), intransitive (never fear)
 
@@ -605,6 +651,7 @@ To be afraid of something, or to believe with worry that it is true.
 **Pronunciation:** /ˈfoʊkəs/ &middot; *FOH-kuhs*
 **Русский:** сосредотачиваться, фокусироваться
 **Forms:** *focus* &middot; *focused* &middot; *focused*
+**Verb class:** regular
 **Third person:** *focuses* &middot; **-ing form:** *focusing*
 **Transitivity:** both — transitive (focus the camera), intransitive (focus on the task)
 **Contrast:** American English keeps one s: *focused*, *focusing*. You *focus on* something.
@@ -622,6 +669,7 @@ To give your attention to one thing rather than to many.
 **Pronunciation:** /ɡræsp/ &middot; *GRASP*
 **Русский:** понимать, схватывать (суть)
 **Forms:** *grasp* &middot; *grasped* &middot; *grasped*
+**Verb class:** regular
 **Third person:** *grasps* &middot; **-ing form:** *grasping*
 **Transitivity:** transitive
 
@@ -638,6 +686,7 @@ To understand an idea, especially a difficult one.
 **Pronunciation:** /ɡɛs/ &middot; *GES*
 **Русский:** догадываться, угадывать; полагать
 **Forms:** *guess* &middot; *guessed* &middot; *guessed*
+**Verb class:** regular
 **Third person:** *guesses* &middot; **-ing form:** *guessing*
 **Transitivity:** both — transitive (guess the answer), intransitive (go ahead and guess)
 **Contrast:** The third person adds -es: *guesses*.
@@ -655,6 +704,7 @@ To give an answer you are not sure of, or to suppose something.
 **Pronunciation:** /ˈhɛzəteɪt/ &middot; *HEZ-uh-tayt*
 **Русский:** колебаться, медлить
 **Forms:** *hesitate* &middot; *hesitated* &middot; *hesitated*
+**Verb class:** regular
 **Third person:** *hesitates* &middot; **-ing form:** *hesitating*
 **Transitivity:** intransitive
 **Contrast:** *hesitate to do* something.
@@ -672,6 +722,7 @@ To pause before doing something because you are unsure.
 **Pronunciation:** /hoʊp/ &middot; *HOHP*
 **Русский:** надеяться
 **Forms:** *hope* &middot; *hoped* &middot; *hoped*
+**Verb class:** regular
 **Third person:** *hopes* &middot; **-ing form:** *hoping*
 **Transitivity:** both — transitive (I hope so), intransitive (we can only hope)
 **Contrast:** Drop the e: *hoping*, not hopeing. You *hope for* a thing and *hope to do* something.
@@ -684,11 +735,14 @@ To want something to happen and believe that it might.
 
 ---
 
+**Phrasal verbs:** [hope for](22-verb-preposition.md#hope-for)
+
 ### identify
 
 **Pronunciation:** /aɪˈdɛntəfaɪ/ &middot; *eye-DEN-tuh-fy*
 **Русский:** определять, опознавать
 **Forms:** *identify* &middot; *identified* &middot; *identified*
+**Verb class:** regular
 **Third person:** *identifies* &middot; **-ing form:** *identifying*
 **Transitivity:** transitive
 **Contrast:** The -y turns into -ies and -ied: *identifies*, *identified*.
@@ -706,6 +760,7 @@ To recognize who or what someone or something is.
 **Pronunciation:** /ɪɡˈnɔːr/ &middot; *ig-NOR*
 **Русский:** игнорировать, не обращать внимания
 **Forms:** *ignore* &middot; *ignored* &middot; *ignored*
+**Verb class:** regular
 **Third person:** *ignores* &middot; **-ing form:** *ignoring*
 **Transitivity:** transitive
 
@@ -722,6 +777,7 @@ To pay no attention to someone or something on purpose.
 **Pronunciation:** /ɪˈmædʒɪn/ &middot; *ih-MAJ-in*
 **Русский:** воображать, представлять себе
 **Forms:** *imagine* &middot; *imagined* &middot; *imagined*
+**Verb class:** regular
 **Third person:** *imagines* &middot; **-ing form:** *imagining*
 **Transitivity:** transitive
 **Contrast:** *imagine doing* something, not imagine to do something.
@@ -739,6 +795,7 @@ To form a picture of something in your mind.
 **Pronunciation:** /ˈɪndɪkeɪt/ &middot; *IN-dih-kayt*
 **Русский:** указывать, свидетельствовать
 **Forms:** *indicate* &middot; *indicated* &middot; *indicated*
+**Verb class:** regular
 **Third person:** *indicates* &middot; **-ing form:** *indicating*
 **Transitivity:** transitive
 
@@ -755,6 +812,7 @@ To show that something is true or likely.
 **Pronunciation:** /ɪnˈfɜːr/ &middot; *in-FUR*
 **Русский:** делать вывод, заключать
 **Forms:** *infer* &middot; *inferred* &middot; *inferred*
+**Verb class:** regular
 **Third person:** *infers* &middot; **-ing form:** *inferring*
 **Transitivity:** transitive
 **Contrast:** The stress falls on the last syllable, so the r doubles: *inferred*, *inferring*.
@@ -767,11 +825,14 @@ To reach a conclusion from evidence rather than from a direct statement.
 
 ---
 
+**Phrasal verbs:** [infer from](22-verb-preposition.md#infer-from)
+
 ### intend
 
 **Pronunciation:** /ɪnˈtɛnd/ &middot; *in-TEND*
 **Русский:** намереваться, собираться
 **Forms:** *intend* &middot; *intended* &middot; *intended*
+**Verb class:** regular
 **Third person:** *intends* &middot; **-ing form:** *intending*
 **Transitivity:** transitive
 **Contrast:** *intend to do* something.
@@ -789,6 +850,7 @@ To plan to do something.
 **Pronunciation:** /ɪnˈtɜːrprɪt/ &middot; *in-TUR-prit*
 **Русский:** истолковывать, интерпретировать
 **Forms:** *interpret* &middot; *interpreted* &middot; *interpreted*
+**Verb class:** regular
 **Third person:** *interprets* &middot; **-ing form:** *interpreting*
 **Transitivity:** transitive
 **Contrast:** The t does not double, because the stress is not on the last syllable: *interpreted*.
@@ -806,6 +868,7 @@ To decide what something means, or to put speech into another language.
 **Pronunciation:** /ɪnˈvɛnt/ &middot; *in-VENT*
 **Русский:** изобретать, придумывать
 **Forms:** *invent* &middot; *invented* &middot; *invented*
+**Verb class:** regular
 **Third person:** *invents* &middot; **-ing form:** *inventing*
 **Transitivity:** transitive
 
@@ -822,6 +885,7 @@ To think up something that did not exist before, including a false story.
 **Pronunciation:** /ɪnˈvɛstəɡeɪt/ &middot; *in-VES-tuh-gayt*
 **Русский:** расследовать, изучать
 **Forms:** *investigate* &middot; *investigated* &middot; *investigated*
+**Verb class:** regular
 **Third person:** *investigates* &middot; **-ing form:** *investigating*
 **Transitivity:** both — transitive (investigate a crime), intransitive (police are investigating)
 
@@ -838,6 +902,7 @@ To try to find out the truth about something by examining it.
 **Pronunciation:** /dʒʌdʒ/ &middot; *JUJ*
 **Русский:** судить, оценивать
 **Forms:** *judge* &middot; *judged* &middot; *judged*
+**Verb class:** regular
 **Third person:** *judges* &middot; **-ing form:** *judging*
 **Transitivity:** both — transitive (judge a contest), intransitive (judging by his face)
 **Contrast:** Drop the e: *judging*, not judgeing.
@@ -855,6 +920,7 @@ To form an opinion about someone or something after thinking about it.
 **Pronunciation:** /ˈdʒʌstəfaɪ/ &middot; *JUS-tuh-fy*
 **Русский:** оправдывать, обосновывать
 **Forms:** *justify* &middot; *justified* &middot; *justified*
+**Verb class:** regular
 **Third person:** *justifies* &middot; **-ing form:** *justifying*
 **Transitivity:** transitive
 **Contrast:** The -y turns into -ies and -ied: *justifies*, *justified*.
@@ -872,6 +938,7 @@ To show that something is right or reasonable.
 **Pronunciation:** /ˈmɛməraɪz/ &middot; *MEM-uh-ryz*
 **Русский:** заучивать наизусть, запоминать
 **Forms:** *memorize* &middot; *memorized* &middot; *memorized*
+**Verb class:** regular
 **Third person:** *memorizes* &middot; **-ing form:** *memorizing*
 **Transitivity:** transitive
 **Contrast:** American *memorize*; British *memorise*.
@@ -889,6 +956,7 @@ To learn something so well that you can repeat it from memory.
 **Pronunciation:** /ˈnoʊtɪs/ &middot; *NOH-tis*
 **Русский:** замечать, заметить
 **Forms:** *notice* &middot; *noticed* &middot; *noticed*
+**Verb class:** regular
 **Third person:** *notices* &middot; **-ing form:** *noticing*
 **Transitivity:** transitive
 **Contrast:** Drop the e: *noticing*, not noticeing.
@@ -906,6 +974,7 @@ To see, hear, or become aware of something.
 **Pronunciation:** /əbˈzɜːrv/ &middot; *uhb-ZURV*
 **Русский:** наблюдать, замечать
 **Forms:** *observe* &middot; *observed* &middot; *observed*
+**Verb class:** regular
 **Third person:** *observes* &middot; **-ing form:** *observing*
 **Transitivity:** transitive
 
@@ -922,6 +991,7 @@ To watch something carefully, or to remark on what you see.
 **Pronunciation:** /ˌoʊvərˈlʊk/ &middot; *oh-vur-LUUK*
 **Русский:** упускать из виду, не замечать
 **Forms:** *overlook* &middot; *overlooked* &middot; *overlooked*
+**Verb class:** regular
 **Third person:** *overlooks* &middot; **-ing form:** *overlooking*
 **Transitivity:** transitive
 **Contrast:** One word, not a phrasal verb: you *overlook* a detail, but you *look over* a document to check it.
@@ -939,6 +1009,7 @@ To fail to notice something, or to decide to let a fault pass.
 **Pronunciation:** /pərˈsiːv/ &middot; *pur-SEEV*
 **Русский:** воспринимать, ощущать
 **Forms:** *perceive* &middot; *perceived* &middot; *perceived*
+**Verb class:** regular
 **Third person:** *perceives* &middot; **-ing form:** *perceiving*
 **Transitivity:** transitive
 **Contrast:** After c the spelling is -ei-: *perceive*, *receive*, *deceive*.
@@ -956,6 +1027,7 @@ To notice something with the senses, or to understand it in a certain way.
 **Pronunciation:** /ˈpɪktʃər/ &middot; *PIK-chur*
 **Русский:** представлять себе, воображать
 **Forms:** *picture* &middot; *pictured* &middot; *pictured*
+**Verb class:** regular
 **Third person:** *pictures* &middot; **-ing form:** *picturing*
 **Transitivity:** transitive
 **Contrast:** *picture someone doing* something: I can picture him teaching.
@@ -973,6 +1045,7 @@ To form an image of something in your mind.
 **Pronunciation:** /plæn/ &middot; *PLAN*
 **Русский:** планировать, запланировать
 **Forms:** *plan* &middot; *planned* &middot; *planned*
+**Verb class:** regular
 **Third person:** *plans* &middot; **-ing form:** *planning*
 **Transitivity:** both — transitive (plan a trip), intransitive (plan ahead)
 **Contrast:** One vowel plus one consonant, so the n doubles: *planned*, *planning*.
@@ -985,11 +1058,14 @@ To decide in advance how something will be done.
 
 ---
 
+**Phrasal verbs:** [plan on](22-verb-preposition.md#plan-on)
+
 ### ponder
 
 **Pronunciation:** /ˈpɑːndər/ &middot; *PAHN-dur*
 **Русский:** размышлять, обдумывать
 **Forms:** *ponder* &middot; *pondered* &middot; *pondered*
+**Verb class:** regular
 **Third person:** *ponders* &middot; **-ing form:** *pondering*
 **Transitivity:** both — transitive (ponder the question), intransitive (ponder over a problem)
 
@@ -1006,6 +1082,7 @@ To think about something slowly and seriously.
 **Pronunciation:** /prɪˈfɜːr/ &middot; *prih-FUR*
 **Русский:** предпочитать, предпочесть
 **Forms:** *prefer* &middot; *preferred* &middot; *preferred*
+**Verb class:** regular
 **Third person:** *prefers* &middot; **-ing form:** *preferring*
 **Transitivity:** transitive
 **Contrast:** The r doubles in *preferred* and *preferring*, but not in the noun *preference*.
@@ -1018,11 +1095,14 @@ To like one thing more than another.
 
 ---
 
+**Phrasal verbs:** [prefer to](22-verb-preposition.md#prefer-to)
+
 ### presume
 
 **Pronunciation:** /prɪˈzuːm/ &middot; *prih-ZOOM*
 **Русский:** полагать, предполагать
 **Forms:** *presume* &middot; *presumed* &middot; *presumed*
+**Verb class:** regular
 **Third person:** *presumes* &middot; **-ing form:** *presuming*
 **Transitivity:** transitive
 
@@ -1039,6 +1119,7 @@ To suppose that something is true because it is likely.
 **Pronunciation:** /prɪˈtɛnd/ &middot; *prih-TEND*
 **Русский:** притворяться, делать вид
 **Forms:** *pretend* &middot; *pretended* &middot; *pretended*
+**Verb class:** regular
 **Third person:** *pretends* &middot; **-ing form:** *pretending*
 **Transitivity:** both — transitive (pretend to be asleep), intransitive (children love to pretend)
 **Contrast:** *pretend to be* something, or *pretend that* something is so.
@@ -1056,6 +1137,7 @@ To act as if something is true when it is not.
 **Pronunciation:** /praɪˈɔːrətaɪz/ &middot; *pry-OR-uh-tyz*
 **Русский:** расставлять приоритеты, ставить на первое место
 **Forms:** *prioritize* &middot; *prioritized* &middot; *prioritized*
+**Verb class:** regular
 **Third person:** *prioritizes* &middot; **-ing form:** *prioritizing*
 **Transitivity:** both — transitive (prioritize safety), intransitive (learn to prioritize)
 **Contrast:** American *prioritize*; British *prioritise*.
@@ -1073,6 +1155,7 @@ To decide which things matter most and deal with them first.
 **Pronunciation:** /ˈriːəlaɪz/ &middot; *REE-uh-lyz*
 **Русский:** осознавать, понимать
 **Forms:** *realize* &middot; *realized* &middot; *realized*
+**Verb class:** regular
 **Third person:** *realizes* &middot; **-ing form:** *realizing*
 **Transitivity:** transitive
 **Contrast:** American *realize*; British *realise*.
@@ -1090,6 +1173,7 @@ To become aware of something you had not understood before.
 **Pronunciation:** /ˈriːzən/ &middot; *REE-zuhn*
 **Русский:** рассуждать, приходить к выводу
 **Forms:** *reason* &middot; *reasoned* &middot; *reasoned*
+**Verb class:** regular
 **Third person:** *reasons* &middot; **-ing form:** *reasoning*
 **Transitivity:** both — transitive (he reasoned that it was safe), intransitive (reason with him)
 **Contrast:** You *reason with* a person you hope to convince.
@@ -1107,6 +1191,7 @@ To think logically about something in order to reach a conclusion.
 **Pronunciation:** /rɪˈkɔːl/ &middot; *rih-KAWL*
 **Русский:** вспоминать, припоминать
 **Forms:** *recall* &middot; *recalled* &middot; *recalled*
+**Verb class:** regular
 **Third person:** *recalls* &middot; **-ing form:** *recalling*
 **Transitivity:** transitive
 
@@ -1123,6 +1208,7 @@ To bring something back into your mind, a little more formally than remember.
 **Pronunciation:** /ˈrɛkən/ &middot; *REK-uhn*
 **Русский:** полагать, считать; прикидывать
 **Forms:** *reckon* &middot; *reckoned* &middot; *reckoned*
+**Verb class:** regular
 **Third person:** *reckons* &middot; **-ing form:** *reckoning*
 **Transitivity:** transitive
 
@@ -1139,6 +1225,7 @@ To think or suppose something, especially in informal speech.
 **Pronunciation:** /ˈrɛkəɡnaɪz/ &middot; *REK-uhg-nyz*
 **Русский:** узнавать, признавать
 **Forms:** *recognize* &middot; *recognized* &middot; *recognized*
+**Verb class:** regular
 **Third person:** *recognizes* &middot; **-ing form:** *recognizing*
 **Transitivity:** transitive
 **Contrast:** American *recognize*; British *recognise*. The g is pronounced: REK-uhg-nyz.
@@ -1156,6 +1243,7 @@ To know someone or something because you have met it before, or to admit that it
 **Pronunciation:** /ˌriːkənˈsɪdər/ &middot; *ree-kuhn-SID-ur*
 **Русский:** пересматривать, передумывать
 **Forms:** *reconsider* &middot; *reconsidered* &middot; *reconsidered*
+**Verb class:** regular
 **Third person:** *reconsiders* &middot; **-ing form:** *reconsidering*
 **Transitivity:** both — transitive (reconsider the offer), intransitive (please reconsider)
 
@@ -1172,6 +1260,7 @@ To think about a decision again and possibly change it.
 **Pronunciation:** /rɪˈflɛkt/ &middot; *rih-FLEKT*
 **Русский:** размышлять; отражать
 **Forms:** *reflect* &middot; *reflected* &middot; *reflected*
+**Verb class:** regular
 **Third person:** *reflects* &middot; **-ing form:** *reflecting*
 **Transitivity:** both — transitive (the price reflects demand), intransitive (reflect on the year)
 **Contrast:** You *reflect on* a subject.
@@ -1189,6 +1278,7 @@ To think quietly and seriously about something.
 **Pronunciation:** /rɪˈɡɑːrd/ &middot; *rih-GARD*
 **Русский:** считать, расценивать
 **Forms:** *regard* &middot; *regarded* &middot; *regarded*
+**Verb class:** regular
 **Third person:** *regards* &middot; **-ing form:** *regarding*
 **Transitivity:** transitive
 **Contrast:** *regard someone as* something, not regard someone like something.
@@ -1206,6 +1296,7 @@ To consider someone or something in a particular way.
 **Pronunciation:** /rɪˈɡrɛt/ &middot; *rih-GRET*
 **Русский:** сожалеть, жалеть
 **Forms:** *regret* &middot; *regretted* &middot; *regretted*
+**Verb class:** regular
 **Third person:** *regrets* &middot; **-ing form:** *regretting*
 **Transitivity:** transitive
 **Contrast:** The stress falls on the last syllable, so the t doubles: *regretted*, *regretting*.
@@ -1223,6 +1314,7 @@ To feel sorry about something you did or failed to do.
 **Pronunciation:** /rɪˈlaɪ/ &middot; *rih-LY*
 **Русский:** полагаться, надеяться
 **Forms:** *rely* &middot; *relied* &middot; *relied*
+**Verb class:** regular
 **Third person:** *relies* &middot; **-ing form:** *relying*
 **Transitivity:** intransitive
 **Contrast:** Always *rely on*. The -y turns into -ies and -ied: *relies*, *relied*.
@@ -1235,11 +1327,14 @@ To depend on someone or something to work or to help.
 
 ---
 
+**Phrasal verbs:** [rely on](22-verb-preposition.md#rely-on)
+
 ### remember
 
 **Pronunciation:** /rɪˈmɛmbər/ &middot; *rih-MEM-bur*
 **Русский:** помнить, вспоминать
 **Forms:** *remember* &middot; *remembered* &middot; *remembered*
+**Verb class:** regular
 **Third person:** *remembers* &middot; **-ing form:** *remembering*
 **Transitivity:** both — transitive (remember his name), intransitive (if I remember right)
 **Contrast:** *remember to do* = не забыть сделать; *remember doing* = помнить, как делал.
@@ -1257,6 +1352,7 @@ To keep something in your mind or bring it back to mind.
 **Pronunciation:** /rɪˈsɜːrtʃ/ &middot; *rih-SURCH*
 **Русский:** исследовать, изучать
 **Forms:** *research* &middot; *researched* &middot; *researched*
+**Verb class:** regular
 **Third person:** *researches* &middot; **-ing form:** *researching*
 **Transitivity:** both — transitive (research a topic), intransitive (research into the causes)
 **Contrast:** The third person adds -es: *researches*.
@@ -1274,6 +1370,7 @@ To study a subject carefully in order to find out new facts.
 **Pronunciation:** /rɪˈzɑːlv/ &middot; *rih-ZAHLV*
 **Русский:** разрешать (проблему), решать
 **Forms:** *resolve* &middot; *resolved* &middot; *resolved*
+**Verb class:** regular
 **Third person:** *resolves* &middot; **-ing form:** *resolving*
 **Transitivity:** transitive
 
@@ -1290,6 +1387,7 @@ To settle a problem or an argument, or to decide firmly to do something.
 **Pronunciation:** /rɪˈvjuː/ &middot; *rih-VYOO*
 **Русский:** пересматривать, просматривать
 **Forms:** *review* &middot; *reviewed* &middot; *reviewed*
+**Verb class:** regular
 **Third person:** *reviews* &middot; **-ing form:** *reviewing*
 **Transitivity:** transitive
 
@@ -1306,6 +1404,7 @@ To look at something again in order to check or judge it.
 **Pronunciation:** /rɪˈvaɪz/ &middot; *rih-VYZ*
 **Русский:** пересматривать, править
 **Forms:** *revise* &middot; *revised* &middot; *revised*
+**Verb class:** regular
 **Third person:** *revises* &middot; **-ing form:** *revising*
 **Transitivity:** transitive
 **Contrast:** In American English *revise* means to change something; British students also use it for studying before an exam.
@@ -1323,6 +1422,7 @@ To change a text, a plan, or an opinion after thinking again.
 **Pronunciation:** /ˈskɛdʒuːl/ &middot; *SKEJ-ool*
 **Русский:** планировать, назначать (время)
 **Forms:** *schedule* &middot; *scheduled* &middot; *scheduled*
+**Verb class:** regular
 **Third person:** *schedules* &middot; **-ing form:** *scheduling*
 **Transitivity:** transitive
 **Contrast:** Americans say SKEJ-ool; the British say SHED-yool.
@@ -1340,6 +1440,7 @@ To plan that something will happen at a particular time.
 **Pronunciation:** /səˈlɛkt/ &middot; *suh-LEKT*
 **Русский:** выбирать, отбирать
 **Forms:** *select* &middot; *selected* &middot; *selected*
+**Verb class:** regular
 **Third person:** *selects* &middot; **-ing form:** *selecting*
 **Transitivity:** transitive
 
@@ -1356,6 +1457,7 @@ To choose someone or something carefully from a group, a little more formally th
 **Pronunciation:** /sɛns/ &middot; *SENS*
 **Русский:** чувствовать, ощущать
 **Forms:** *sense* &middot; *sensed* &middot; *sensed*
+**Verb class:** regular
 **Third person:** *senses* &middot; **-ing form:** *sensing*
 **Transitivity:** transitive
 
@@ -1372,6 +1474,7 @@ To feel or notice something without being told.
 **Pronunciation:** /sɑːlv/ &middot; *SAHLV*
 **Русский:** решать, разрешать
 **Forms:** *solve* &middot; *solved* &middot; *solved*
+**Verb class:** regular
 **Third person:** *solves* &middot; **-ing form:** *solving*
 **Transitivity:** transitive
 **Contrast:** You *solve* a puzzle or an equation; you *resolve* an argument.
@@ -1389,6 +1492,7 @@ To find the answer to a problem or a puzzle.
 **Pronunciation:** /ˈspɛkjəleɪt/ &middot; *SPEK-yuh-layt*
 **Русский:** строить догадки, размышлять
 **Forms:** *speculate* &middot; *speculated* &middot; *speculated*
+**Verb class:** regular
 **Third person:** *speculates* &middot; **-ing form:** *speculating*
 **Transitivity:** intransitive
 **Contrast:** You *speculate about* or *on* something.
@@ -1406,6 +1510,7 @@ To guess about something without having enough facts.
 **Pronunciation:** /spɑːt/ &middot; *SPAHT*
 **Русский:** замечать, заметить
 **Forms:** *spot* &middot; *spotted* &middot; *spotted*
+**Verb class:** regular
 **Third person:** *spots* &middot; **-ing form:** *spotting*
 **Transitivity:** transitive
 **Contrast:** One vowel plus one consonant, so the t doubles: *spotted*, *spotting*.
@@ -1423,6 +1528,7 @@ To notice someone or something, often suddenly.
 **Pronunciation:** /ˈstʌdi/ &middot; *STUD-ee*
 **Русский:** изучать, учиться
 **Forms:** *study* &middot; *studied* &middot; *studied*
+**Verb class:** regular
 **Third person:** *studies* &middot; **-ing form:** *studying*
 **Transitivity:** both — transitive (study medicine), intransitive (study for a test)
 **Contrast:** The -y turns into -ies and -ied: *studies*, *studied*, but *studying* keeps the y.
@@ -1440,6 +1546,7 @@ To spend time learning about a subject, or to look at something closely.
 **Pronunciation:** /səˈpoʊz/ &middot; *suh-POHZ*
 **Русский:** полагать, предполагать
 **Forms:** *suppose* &middot; *supposed* &middot; *supposed*
+**Verb class:** regular
 **Third person:** *supposes* &middot; **-ing form:** *supposing*
 **Transitivity:** transitive
 **Contrast:** *be supposed to* = должен, полагается: he is supposed to call.
@@ -1457,6 +1564,7 @@ To think that something is probably true.
 **Pronunciation:** /səˈspɛkt/ &middot; *suh-SPEKT*
 **Русский:** подозревать, предполагать
 **Forms:** *suspect* &middot; *suspected* &middot; *suspected*
+**Verb class:** regular
 **Third person:** *suspects* &middot; **-ing form:** *suspecting*
 **Transitivity:** transitive
 **Contrast:** The verb is suh-SPEKT; the noun *suspect* is SUS-pekt.
@@ -1469,11 +1577,14 @@ To think that something is probably true or that someone is probably guilty.
 
 ---
 
+**Phrasal verbs:** [suspect of](22-verb-preposition.md#suspect-of)
+
 ### trust
 
 **Pronunciation:** /trʌst/ &middot; *TRUST*
 **Русский:** доверять, верить
 **Forms:** *trust* &middot; *trusted* &middot; *trusted*
+**Verb class:** regular
 **Third person:** *trusts* &middot; **-ing form:** *trusting*
 **Transitivity:** both — transitive (trust your doctor), intransitive (trust in the process)
 
@@ -1490,6 +1601,7 @@ To believe that someone is honest or that something is safe.
 **Pronunciation:** /ˈvɛrəfaɪ/ &middot; *VER-uh-fy*
 **Русский:** проверять, подтверждать
 **Forms:** *verify* &middot; *verified* &middot; *verified*
+**Verb class:** regular
 **Third person:** *verifies* &middot; **-ing form:** *verifying*
 **Transitivity:** transitive
 **Contrast:** The -y turns into -ies and -ied: *verifies*, *verified*.
@@ -1507,6 +1619,7 @@ To check that something is true or accurate.
 **Pronunciation:** /ˈvɪʒuəlaɪz/ &middot; *VIZH-oo-uh-lyz*
 **Русский:** представлять себе, мысленно видеть
 **Forms:** *visualize* &middot; *visualized* &middot; *visualized*
+**Verb class:** regular
 **Third person:** *visualizes* &middot; **-ing form:** *visualizing*
 **Transitivity:** transitive
 **Contrast:** American *visualize*; British *visualise*.
@@ -1524,6 +1637,7 @@ To form a clear picture of something in your mind.
 **Pronunciation:** /weɪ/ &middot; *WAY*
 **Русский:** взвешивать, обдумывать
 **Forms:** *weigh* &middot; *weighed* &middot; *weighed*
+**Verb class:** regular
 **Third person:** *weighs* &middot; **-ing form:** *weighing*
 **Transitivity:** transitive
 **Contrast:** The gh is silent: WAY. The past is *weighed*, not weighted.
@@ -1541,6 +1655,7 @@ To think carefully about the good and bad sides of something.
 **Pronunciation:** /wɪʃ/ &middot; *WISH*
 **Русский:** желать, хотеть
 **Forms:** *wish* &middot; *wished* &middot; *wished*
+**Verb class:** regular
 **Third person:** *wishes* &middot; **-ing form:** *wishing*
 **Transitivity:** both — transitive (wish you luck), intransitive (wish for nothing)
 **Contrast:** The third person adds -es: *wishes*. After *wish* use a past form: I wish I knew.
@@ -1553,11 +1668,14 @@ To want something that is unlikely or impossible.
 
 ---
 
+**Phrasal verbs:** [wish for](22-verb-preposition.md#wish-for)
+
 ### wonder
 
 **Pronunciation:** /ˈwʌndər/ &middot; *WUN-dur*
 **Русский:** задаваться вопросом, интересоваться
 **Forms:** *wonder* &middot; *wondered* &middot; *wondered*
+**Verb class:** regular
 **Third person:** *wonders* &middot; **-ing form:** *wondering*
 **Transitivity:** both — transitive (I wonder what happened), intransitive (it makes you wonder)
 **Contrast:** *wonder* WUN-dur = задаваться вопросом; *wander* WAHN-dur = бродить.
@@ -1575,6 +1693,7 @@ To want to know something, or to ask yourself about it.
 **Pronunciation:** /ˈwɜːri/ &middot; *WUR-ee*
 **Русский:** беспокоиться, волноваться
 **Forms:** *worry* &middot; *worried* &middot; *worried*
+**Verb class:** regular
 **Third person:** *worries* &middot; **-ing form:** *worrying*
 **Transitivity:** both — transitive (it worries me), intransitive (do not worry)
 **Contrast:** The -y turns into -ies and -ied: *worries*, *worried*. You *worry about* something.
@@ -1584,3 +1703,5 @@ To think about a problem in a way that makes you anxious.
 1. Do not *worry* about the test.
 2. He *worried* all night about the results.
 3. She has been *worrying* about money.
+
+**Phrasal verbs:** [worry about](22-verb-preposition.md#worry-about)

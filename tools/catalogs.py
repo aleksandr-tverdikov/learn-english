@@ -88,7 +88,8 @@ CATALOGS = [
         # files whose entries are built ON a base verb: listed inside the base
         # entry rather than as their own rows in the A-Z list
         derived_prefixes=('14-', '15-', '16-', '17-', '18-', '19-', '20-', '21-', '22-'),
-        fields=[('forms', 'Forms'), ('separable', 'Separable'), ('base verb', 'Base verb'),
+        tag_fields=['verb class'],
+        fields=[('verb class', 'Verb class'), ('forms', 'Forms'), ('separable', 'Separable'), ('base verb', 'Base verb'),
                 ('transitive', 'Transitive'), ('verb type', 'Verb type'),
                 ('transitivity', 'Transitivity'), ('passive', 'Passive'),
                 ('pattern', 'Pattern'), ('group', 'Group'),

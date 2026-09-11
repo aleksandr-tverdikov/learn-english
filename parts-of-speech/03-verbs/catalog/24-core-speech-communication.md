@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /æd/ &middot; *AD*
 **Русский:** добавлять, добавить (сказать ещё)
 **Forms:** *add* &middot; *added* &middot; *added*
+**Verb class:** regular
 **Third person:** *adds* &middot; **-ing form:** *adding*
 **Transitivity:** both — transitive (*add* a comment), intransitive ("That's all," he *added*)
 
@@ -25,11 +26,14 @@ To say something more after what has already been said.
 
 ---
 
+**Phrasal verbs:** [add to](22-verb-preposition.md#add-to)
+
 ### address
 
 **Pronunciation:** /əˈdrɛs/ &middot; *uh-DRES*
 **Русский:** обращаться, обратиться (к кому-л.); выступать перед
 **Forms:** *address* &middot; *addressed* &middot; *addressed*
+**Verb class:** regular
 **Third person:** *addresses* &middot; **-ing form:** *addressing*
 **Transitivity:** transitive
 **Contrast:** The verb is always uh-DRES; the noun (where you live) is usually AD-res in American English.
@@ -47,6 +51,7 @@ To speak formally to a person or a group.
 **Pronunciation:** /ədˈmɪt/ &middot; *uhd-MIT*
 **Русский:** признавать, признать; сознаваться, сознаться
 **Forms:** *admit* &middot; *admitted* &middot; *admitted*
+**Verb class:** regular
 **Third person:** *admits* &middot; **-ing form:** *admitting*
 **Transitivity:** transitive
 **Contrast:** The single t doubles before an ending: *admit → admitted → admitting*.
@@ -59,11 +64,14 @@ To agree, often unwillingly, that something bad or embarrassing is true.
 
 ---
 
+**Phrasal verbs:** [admit to](22-verb-preposition.md#admit-to)
+
 ### advise
 
 **Pronunciation:** /ədˈvaɪz/ &middot; *uhd-VYZ*
 **Русский:** советовать, посоветовать
 **Forms:** *advise* &middot; *advised* &middot; *advised*
+**Verb class:** regular
 **Third person:** *advises* &middot; **-ing form:** *advising*
 **Transitivity:** both — transitive (*advise* students), intransitive (I would *advise* against it)
 **Contrast:** *advise* is the verb and ends in a /z/ sound; *advice* is the noun and ends in /s/: "She advised me, so I took her advice."
@@ -81,6 +89,7 @@ To tell someone what you think they should do.
 **Pronunciation:** /əˈɡriː/ &middot; *uh-GREE*
 **Русский:** соглашаться, согласиться
 **Forms:** *agree* &middot; *agreed* &middot; *agreed*
+**Verb class:** regular
 **Third person:** *agrees* &middot; **-ing form:** *agreeing*
 **Transitivity:** both — transitive (I *agree* that it's late), intransitive (we all *agree*)
 **Contrast:** Keep both e's and add nothing extra: *agree → agreed → agreeing*, never "agreeed" or "agred".
@@ -93,11 +102,14 @@ To have the same opinion as someone else, or to say yes to a plan.
 
 ---
 
+**Phrasal verbs:** [agree with, agree to, agree on](22-verb-preposition.md#agree-with-agree-to-agree-on)
+
 ### announce
 
 **Pronunciation:** /əˈnaʊns/ &middot; *uh-NOWNS*
 **Русский:** объявлять, объявить; сообщать, сообщить
 **Forms:** *announce* &middot; *announced* &middot; *announced*
+**Verb class:** regular
 **Third person:** *announces* &middot; **-ing form:** *announcing*
 **Transitivity:** transitive
 
@@ -114,6 +126,7 @@ To tell people about something officially or publicly.
 **Pronunciation:** /əˈpɑːlədʒaɪz/ &middot; *uh-PAH-luh-jyz*
 **Русский:** извиняться, извиниться; просить прощения
 **Forms:** *apologize* &middot; *apologized* &middot; *apologized*
+**Verb class:** regular
 **Third person:** *apologizes* &middot; **-ing form:** *apologizing*
 **Transitivity:** intransitive
 **Contrast:** American spelling is *apologize*; British books write *apologise*. You *apologize* **to** a person **for** a thing.
@@ -126,11 +139,14 @@ To say you are sorry for something you have done.
 
 ---
 
+**Phrasal verbs:** [apologize to, apologize for](22-verb-preposition.md#apologize-to-apologize-for)
+
 ### argue
 
 **Pronunciation:** /ˈɑːrɡjuː/ &middot; *AHR-gyoo*
 **Русский:** спорить, поспорить; ссориться; доказывать
 **Forms:** *argue* &middot; *argued* &middot; *argued*
+**Verb class:** regular
 **Third person:** *argues* &middot; **-ing form:** *arguing*
 **Transitivity:** both — transitive (he *argued* that the law was unfair), intransitive (they *argue* constantly)
 **Contrast:** The silent e drops before *-ing*: *argue → arguing*, not "argueing".
@@ -143,11 +159,14 @@ To disagree with someone in words, or to give reasons for an opinion.
 
 ---
 
+**Phrasal verbs:** [argue with, argue about, argue over](22-verb-preposition.md#argue-with-argue-about-argue-over)
+
 ### ask
 
 **Pronunciation:** /æsk/ &middot; *ASK*
 **Русский:** спрашивать, спросить; просить, попросить
 **Forms:** *ask* &middot; *asked* &middot; *asked*
+**Verb class:** regular
 **Third person:** *asks* &middot; **-ing form:** *asking*
 **Transitivity:** both — transitive (*ask* a question), intransitive (if you don't know, *ask*)
 **Contrast:** In American English say /æsk/, not /ɑːsk/ — and *ask me*, never "ask to me".
@@ -160,11 +179,14 @@ To say something to someone in order to get an answer or a favor.
 
 ---
 
+**Phrasal verbs:** [ask for, ask about](22-verb-preposition.md#ask-for-ask-about)
+
 ### assure
 
 **Pronunciation:** /əˈʃʊr/ &middot; *uh-SHOOR*
 **Русский:** уверять, уверить; заверять, заверить
 **Forms:** *assure* &middot; *assured* &middot; *assured*
+**Verb class:** regular
 **Third person:** *assures* &middot; **-ing form:** *assuring*
 **Transitivity:** transitive
 **Contrast:** *assure* a person, *ensure* a result, *insure* a car: "I assure you the car is insured."
@@ -182,6 +204,7 @@ To tell someone confidently that something is true so that they stop worrying.
 **Pronunciation:** /bɛɡ/ &middot; *BEG*
 **Русский:** умолять, умолить; просить (милостыню)
 **Forms:** *beg* &middot; *begged* &middot; *begged*
+**Verb class:** regular
 **Third person:** *begs* &middot; **-ing form:** *begging*
 **Transitivity:** both — transitive (she *begged* him to stay), intransitive (a man was *begging* on the corner)
 **Contrast:** Double the g: *beg → begged → begging*.
@@ -199,6 +222,7 @@ To ask for something in a very urgent, humble way.
 **Pronunciation:** /bleɪm/ &middot; *BLAYM*
 **Русский:** винить, обвинять, обвинить
 **Forms:** *blame* &middot; *blamed* &middot; *blamed*
+**Verb class:** regular
 **Third person:** *blames* &middot; **-ing form:** *blaming*
 **Transitivity:** transitive
 **Contrast:** You *blame* a person **for** a thing, or *blame* a thing **on** a person.
@@ -211,11 +235,14 @@ To say that someone or something is responsible for something bad.
 
 ---
 
+**Phrasal verbs:** [blame for, blame on](22-verb-preposition.md#blame-for-blame-on)
+
 ### brag
 
 **Pronunciation:** /bræɡ/ &middot; *BRAG*
 **Русский:** хвастаться, похвастаться
 **Forms:** *brag* &middot; *bragged* &middot; *bragged*
+**Verb class:** regular
 **Third person:** *brags* &middot; **-ing form:** *bragging*
 **Transitivity:** intransitive
 **Contrast:** Double the g: *brag → bragged → bragging*.
@@ -233,6 +260,7 @@ To talk with too much pride about what you have or what you have done.
 **Pronunciation:** /kɔːl/ &middot; *KAWL*
 **Русский:** звонить, позвонить; звать, позвать; называть, назвать
 **Forms:** *call* &middot; *called* &middot; *called*
+**Verb class:** regular
 **Third person:** *calls* &middot; **-ing form:** *calling*
 **Transitivity:** both — transitive (*call* your mother), intransitive (she *called* from the airport)
 
@@ -249,6 +277,7 @@ To telephone someone, or to say someone's name loudly to get their attention.
 **Pronunciation:** /tʃæt/ &middot; *CHAT*
 **Русский:** болтать, поболтать; общаться
 **Forms:** *chat* &middot; *chatted* &middot; *chatted*
+**Verb class:** regular
 **Third person:** *chats* &middot; **-ing form:** *chatting*
 **Transitivity:** intransitive
 **Contrast:** Double the t: *chat → chatted → chatting*.
@@ -266,6 +295,7 @@ To talk in a friendly, informal way.
 **Pronunciation:** /ˈtʃætər/ &middot; *CHAT-ur*
 **Русский:** болтать, тараторить
 **Forms:** *chatter* &middot; *chattered* &middot; *chattered*
+**Verb class:** regular
 **Third person:** *chatters* &middot; **-ing form:** *chattering*
 **Transitivity:** intransitive
 
@@ -282,6 +312,7 @@ To talk quickly and continuously about unimportant things.
 **Pronunciation:** /tʃɪr/ &middot; *CHEER*
 **Русский:** приветствовать криками, ликовать; подбадривать
 **Forms:** *cheer* &middot; *cheered* &middot; *cheered*
+**Verb class:** regular
 **Third person:** *cheers* &middot; **-ing form:** *cheering*
 **Transitivity:** both — transitive (the fans *cheered* the team), intransitive (everyone *cheered*)
 
@@ -298,6 +329,7 @@ To shout loudly to show support or approval.
 **Pronunciation:** /kleɪm/ &middot; *KLAYM*
 **Русский:** утверждать; заявлять, заявить
 **Forms:** *claim* &middot; *claimed* &middot; *claimed*
+**Verb class:** regular
 **Third person:** *claims* &middot; **-ing form:** *claiming*
 **Transitivity:** transitive
 
@@ -314,6 +346,7 @@ To say that something is true even though it has not been proved.
 **Pronunciation:** /ˈklɛrəfaɪ/ &middot; *KLAIR-uh-fy*
 **Русский:** уточнять, уточнить; прояснять, прояснить
 **Forms:** *clarify* &middot; *clarified* &middot; *clarified*
+**Verb class:** regular
 **Third person:** *clarifies* &middot; **-ing form:** *clarifying*
 **Transitivity:** transitive
 **Contrast:** The y becomes ie: *clarify → clarifies → clarified*.
@@ -331,6 +364,7 @@ To make something easier to understand by explaining it more fully.
 **Pronunciation:** /ˈkɑːmɛnt/ &middot; *KAH-ment*
 **Русский:** комментировать, прокомментировать; высказываться
 **Forms:** *comment* &middot; *commented* &middot; *commented*
+**Verb class:** regular
 **Third person:** *comments* &middot; **-ing form:** *commenting*
 **Transitivity:** intransitive
 **Contrast:** You *comment* **on** something. The t is not doubled, because the stress is on KAH-: *commented*.
@@ -343,11 +377,14 @@ To say or write something that gives an opinion about someone or something.
 
 ---
 
+**Phrasal verbs:** [comment on](22-verb-preposition.md#comment-on)
+
 ### communicate
 
 **Pronunciation:** /kəˈmjuːnɪkeɪt/ &middot; *kuh-MYOO-nih-kayt*
 **Русский:** общаться; сообщать, сообщить; передавать
 **Forms:** *communicate* &middot; *communicated* &middot; *communicated*
+**Verb class:** regular
 **Third person:** *communicates* &middot; **-ing form:** *communicating*
 **Transitivity:** both — transitive (*communicate* your ideas clearly), intransitive (they *communicate* by text)
 
@@ -359,11 +396,14 @@ To share information, ideas, or feelings with other people.
 
 ---
 
+**Phrasal verbs:** [communicate with](22-verb-preposition.md#communicate-with)
+
 ### complain
 
 **Pronunciation:** /kəmˈpleɪn/ &middot; *kuhm-PLAYN*
 **Русский:** жаловаться, пожаловаться
 **Forms:** *complain* &middot; *complained* &middot; *complained*
+**Verb class:** regular
 **Third person:** *complains* &middot; **-ing form:** *complaining*
 **Transitivity:** intransitive
 **Contrast:** You *complain* **about** a problem **to** a person — never "complain on".
@@ -376,11 +416,14 @@ To say that you are unhappy or annoyed about something.
 
 ---
 
+**Phrasal verbs:** [complain to, complain about](22-verb-preposition.md#complain-to-complain-about)
+
 ### compliment
 
 **Pronunciation:** /ˈkɑːmpləmɛnt/ &middot; *KAHM-pluh-ment*
 **Русский:** хвалить, похвалить; делать комплимент
 **Forms:** *compliment* &middot; *complimented* &middot; *complimented*
+**Verb class:** regular
 **Third person:** *compliments* &middot; **-ing form:** *complimenting*
 **Transitivity:** transitive
 **Contrast:** *compliment* (praise) and *complement* (something that completes) sound alike but differ by one letter, i or e.
@@ -398,6 +441,7 @@ To tell someone that you admire something about them.
 **Pronunciation:** /kənˈfɛs/ &middot; *kuhn-FES*
 **Русский:** признаваться, признаться; сознаваться, сознаться
 **Forms:** *confess* &middot; *confessed* &middot; *confessed*
+**Verb class:** regular
 **Third person:** *confesses* &middot; **-ing form:** *confessing*
 **Transitivity:** both — transitive (he *confessed* everything), intransitive (she finally *confessed*)
 **Contrast:** A verb ending in -ss adds -es: *confess → confesses*.
@@ -410,11 +454,14 @@ To admit that you have done something wrong or embarrassing.
 
 ---
 
+**Phrasal verbs:** [confess to](22-verb-preposition.md#confess-to)
+
 ### confirm
 
 **Pronunciation:** /kənˈfɜːrm/ &middot; *kuhn-FURM*
 **Русский:** подтверждать, подтвердить
 **Forms:** *confirm* &middot; *confirmed* &middot; *confirmed*
+**Verb class:** regular
 **Third person:** *confirms* &middot; **-ing form:** *confirming*
 **Transitivity:** transitive
 
@@ -431,6 +478,7 @@ To say officially that something is true or definite.
 **Pronunciation:** /kənˈɡrætʃəleɪt/ &middot; *kuhn-GRACH-uh-layt*
 **Русский:** поздравлять, поздравить
 **Forms:** *congratulate* &middot; *congratulated* &middot; *congratulated*
+**Verb class:** regular
 **Third person:** *congratulates* &middot; **-ing form:** *congratulating*
 **Transitivity:** transitive
 **Contrast:** You *congratulate* someone **on** something, and the t sounds like ch: kuhn-GRACH-uh-layt.
@@ -443,11 +491,14 @@ To tell someone that you are happy about their success or good luck.
 
 ---
 
+**Phrasal verbs:** [congratulate on](22-verb-preposition.md#congratulate-on)
+
 ### consult
 
 **Pronunciation:** /kənˈsʌlt/ &middot; *kuhn-SULT*
 **Русский:** советоваться, посоветоваться; консультироваться
 **Forms:** *consult* &middot; *consulted* &middot; *consulted*
+**Verb class:** regular
 **Third person:** *consults* &middot; **-ing form:** *consulting*
 **Transitivity:** both — transitive (*consult* a lawyer), intransitive (he *consults* for two firms)
 
@@ -459,11 +510,14 @@ To ask a person or a book for information or advice.
 
 ---
 
+**Phrasal verbs:** [consult with](22-verb-preposition.md#consult-with)
+
 ### contradict
 
 **Pronunciation:** /ˌkɑːntrəˈdɪkt/ &middot; *kahn-truh-DIKT*
 **Русский:** противоречить; возражать, возразить
 **Forms:** *contradict* &middot; *contradicted* &middot; *contradicted*
+**Verb class:** regular
 **Third person:** *contradicts* &middot; **-ing form:** *contradicting*
 **Transitivity:** transitive
 
@@ -480,6 +534,7 @@ To say the opposite of what someone else has said.
 **Pronunciation:** /kənˈvɪns/ &middot; *kuhn-VINS*
 **Русский:** убеждать, убедить
 **Forms:** *convince* &middot; *convinced* &middot; *convinced*
+**Verb class:** regular
 **Third person:** *convinces* &middot; **-ing form:** *convincing*
 **Transitivity:** transitive
 
@@ -496,6 +551,7 @@ To make someone believe something or agree to do something.
 **Pronunciation:** /ˈkrɪtɪsaɪz/ &middot; *KRIT-ih-syz*
 **Русский:** критиковать, раскритиковать
 **Forms:** *criticize* &middot; *criticized* &middot; *criticized*
+**Verb class:** regular
 **Third person:** *criticizes* &middot; **-ing form:** *criticizing*
 **Transitivity:** both — transitive (they *criticized* the plan), intransitive (it is easy to *criticize*)
 **Contrast:** American spelling ends in *-ize*; British books write *criticise*.
@@ -513,6 +569,7 @@ To say what you think is wrong or bad about someone or something.
 **Pronunciation:** /dɪˈbeɪt/ &middot; *dih-BAYT*
 **Русский:** обсуждать, обсудить; спорить, дискутировать
 **Forms:** *debate* &middot; *debated* &middot; *debated*
+**Verb class:** regular
 **Third person:** *debates* &middot; **-ing form:** *debating*
 **Transitivity:** both — transitive (they *debated* the bill), intransitive (the two sides *debated* for hours)
 
@@ -529,6 +586,7 @@ To discuss a question formally, with people giving opposite opinions.
 **Pronunciation:** /dɪˈklɛr/ &middot; *dih-KLAIR*
 **Русский:** заявлять, заявить; объявлять, объявить
 **Forms:** *declare* &middot; *declared* &middot; *declared*
+**Verb class:** regular
 **Third person:** *declares* &middot; **-ing form:** *declaring*
 **Transitivity:** transitive
 
@@ -545,6 +603,7 @@ To say something clearly, firmly, and often officially.
 **Pronunciation:** /dɪˈfaɪn/ &middot; *dih-FYN*
 **Русский:** определять, определить; давать определение
 **Forms:** *define* &middot; *defined* &middot; *defined*
+**Verb class:** regular
 **Third person:** *defines* &middot; **-ing form:** *defining*
 **Transitivity:** transitive
 
@@ -561,6 +620,7 @@ To say exactly what a word means or what something is.
 **Pronunciation:** /dɪˈmænd/ &middot; *dih-MAND*
 **Русский:** требовать, потребовать
 **Forms:** *demand* &middot; *demanded* &middot; *demanded*
+**Verb class:** regular
 **Third person:** *demands* &middot; **-ing form:** *demanding*
 **Transitivity:** transitive
 **Contrast:** *demand* takes no preposition: "He demanded an explanation," not "demanded for an explanation."
@@ -578,6 +638,7 @@ To ask for something very firmly, as if you have a right to it.
 **Pronunciation:** /dɪˈnaɪ/ &middot; *dih-NY*
 **Русский:** отрицать; отказывать, отказать
 **Forms:** *deny* &middot; *denied* &middot; *denied*
+**Verb class:** regular
 **Third person:** *denies* &middot; **-ing form:** *denying*
 **Transitivity:** transitive
 **Contrast:** The y becomes ie: *deny → denies → denied*.
@@ -595,6 +656,7 @@ To say that something is not true.
 **Pronunciation:** /dɪˈskraɪb/ &middot; *dih-SKRYB*
 **Русский:** описывать, описать
 **Forms:** *describe* &middot; *described* &middot; *described*
+**Verb class:** regular
 **Third person:** *describes* &middot; **-ing form:** *describing*
 **Transitivity:** transitive
 **Contrast:** You *describe* something **to** someone: "Describe it to me," never "describe me it."
@@ -612,6 +674,7 @@ To say what someone or something is like.
 **Pronunciation:** /ˌdɪsəˈɡriː/ &middot; *dis-uh-GREE*
 **Русский:** не соглашаться, не согласиться; расходиться во мнениях
 **Forms:** *disagree* &middot; *disagreed* &middot; *disagreed*
+**Verb class:** regular
 **Third person:** *disagrees* &middot; **-ing form:** *disagreeing*
 **Transitivity:** intransitive
 **Contrast:** You *disagree* **with** a person and **about** or **on** a question.
@@ -629,6 +692,7 @@ To have a different opinion from someone else.
 **Pronunciation:** /dɪˈspjuːt/ &middot; *dih-SPYOOT*
 **Русский:** оспаривать, оспорить; спорить
 **Forms:** *dispute* &middot; *disputed* &middot; *disputed*
+**Verb class:** regular
 **Third person:** *disputes* &middot; **-ing form:** *disputing*
 **Transitivity:** transitive
 
@@ -645,6 +709,7 @@ To say that something is not true or not fair.
 **Pronunciation:** /ˈiːmeɪl/ &middot; *EE-mayl*
 **Русский:** писать по электронной почте, написать письмо (по email)
 **Forms:** *email* &middot; *emailed* &middot; *emailed*
+**Verb class:** regular
 **Third person:** *emails* &middot; **-ing form:** *emailing*
 **Transitivity:** both — transitive (*email* me the file), intransitive (just *email* when you're ready)
 
@@ -661,6 +726,7 @@ To send someone a message by electronic mail.
 **Pronunciation:** /ɪnˈkɜːrɪdʒ/ &middot; *in-KUR-ij*
 **Русский:** поощрять; подбадривать; побуждать, убеждать
 **Forms:** *encourage* &middot; *encouraged* &middot; *encouraged*
+**Verb class:** regular
 **Third person:** *encourages* &middot; **-ing form:** *encouraging*
 **Transitivity:** transitive
 **Contrast:** *encourage* someone **to do** something — the *to* is required.
@@ -678,6 +744,7 @@ To give someone the confidence or the advice that makes them want to do somethin
 **Pronunciation:** /ɪkˈskleɪm/ &middot; *ik-SKLAYM*
 **Русский:** восклицать, воскликнуть
 **Forms:** *exclaim* &middot; *exclaimed* &middot; *exclaimed*
+**Verb class:** regular
 **Third person:** *exclaims* &middot; **-ing form:** *exclaiming*
 **Transitivity:** both — transitive ("You're early!" he *exclaimed*), intransitive (they *exclaimed* over the view)
 
@@ -694,6 +761,7 @@ To say something suddenly and loudly because of surprise or strong feeling.
 **Pronunciation:** /ɪkˈspleɪn/ &middot; *ik-SPLAYN*
 **Русский:** объяснять, объяснить
 **Forms:** *explain* &middot; *explained* &middot; *explained*
+**Verb class:** regular
 **Third person:** *explains* &middot; **-ing form:** *explaining*
 **Transitivity:** transitive
 **Contrast:** You *explain* something **to** someone: "Explain it to me," never "explain me it."
@@ -706,11 +774,14 @@ To make something clear by describing it in detail.
 
 ---
 
+**Phrasal verbs:** [explain to](22-verb-preposition.md#explain-to)
+
 ### express
 
 **Pronunciation:** /ɪkˈsprɛs/ &middot; *ik-SPRES*
 **Русский:** выражать, выразить
 **Forms:** *express* &middot; *expressed* &middot; *expressed*
+**Verb class:** regular
 **Third person:** *expresses* &middot; **-ing form:** *expressing*
 **Transitivity:** transitive
 
@@ -727,6 +798,7 @@ To put a thought or a feeling into words.
 **Pronunciation:** /ˈɡɑːsəp/ &middot; *GAH-suhp*
 **Русский:** сплетничать, посплетничать
 **Forms:** *gossip* &middot; *gossiped* &middot; *gossiped*
+**Verb class:** regular
 **Third person:** *gossips* &middot; **-ing form:** *gossiping*
 **Transitivity:** intransitive
 **Contrast:** American English keeps one p: *gossiped*, *gossiping* — the stress is on GAH-.
@@ -744,6 +816,7 @@ To talk about other people's private lives, often unkindly.
 **Pronunciation:** /ɡriːt/ &middot; *GREET*
 **Русский:** приветствовать, поприветствовать; здороваться
 **Forms:** *greet* &middot; *greeted* &middot; *greeted*
+**Verb class:** regular
 **Third person:** *greets* &middot; **-ing form:** *greeting*
 **Transitivity:** transitive
 
@@ -760,6 +833,7 @@ To say hello to someone when you meet them.
 **Pronunciation:** /ˈɡrʌmbəl/ &middot; *GRUM-buhl*
 **Русский:** ворчать, бурчать; жаловаться
 **Forms:** *grumble* &middot; *grumbled* &middot; *grumbled*
+**Verb class:** regular
 **Third person:** *grumbles* &middot; **-ing form:** *grumbling*
 **Transitivity:** intransitive
 
@@ -776,6 +850,7 @@ To complain in a quiet, unhappy way.
 **Pronunciation:** /hɪnt/ &middot; *HINT*
 **Русский:** намекать, намекнуть
 **Forms:** *hint* &middot; *hinted* &middot; *hinted*
+**Verb class:** regular
 **Third person:** *hints* &middot; **-ing form:** *hinting*
 **Transitivity:** intransitive
 **Contrast:** You *hint* **at** something: "He hinted at a raise."
@@ -793,6 +868,7 @@ To suggest something indirectly instead of saying it openly.
 **Pronunciation:** /ɪmˈplaɪ/ &middot; *im-PLY*
 **Русский:** подразумевать; намекать, дать понять
 **Forms:** *imply* &middot; *implied* &middot; *implied*
+**Verb class:** regular
 **Third person:** *implies* &middot; **-ing form:** *implying*
 **Transitivity:** transitive
 **Contrast:** The speaker *implies*; the listener *infers*. And the y becomes ie: *implies*, *implied*.
@@ -810,6 +886,7 @@ To suggest something without saying it directly.
 **Pronunciation:** /ɪnˈfɔːrm/ &middot; *in-FORM*
 **Русский:** сообщать, сообщить; информировать
 **Forms:** *inform* &middot; *informed* &middot; *informed*
+**Verb class:** regular
 **Third person:** *informs* &middot; **-ing form:** *informing*
 **Transitivity:** transitive
 **Contrast:** You *inform* someone **of** or **about** something.
@@ -827,6 +904,7 @@ To tell someone about something officially.
 **Pronunciation:** /ɪnˈkwaɪər/ &middot; *in-KWY-ur*
 **Русский:** справляться, осведомляться; спрашивать, спросить
 **Forms:** *inquire* &middot; *inquired* &middot; *inquired*
+**Verb class:** regular
 **Third person:** *inquires* &middot; **-ing form:** *inquiring*
 **Transitivity:** intransitive
 **Contrast:** American English prefers *inquire*; British writing often spells it *enquire*.
@@ -844,6 +922,7 @@ To ask for information, usually politely or formally.
 **Pronunciation:** /ɪnˈsɪst/ &middot; *in-SIST*
 **Русский:** настаивать, настоять
 **Forms:** *insist* &middot; *insisted* &middot; *insisted*
+**Verb class:** regular
 **Third person:** *insists* &middot; **-ing form:** *insisting*
 **Transitivity:** intransitive
 **Contrast:** You *insist* **on** something: "She insisted on paying."
@@ -856,11 +935,14 @@ To say firmly that something must happen or is true, even when others disagree.
 
 ---
 
+**Phrasal verbs:** [insist on](22-verb-preposition.md#insist-on)
+
 ### instruct
 
 **Pronunciation:** /ɪnˈstrʌkt/ &middot; *in-STRUKT*
 **Русский:** инструктировать; давать указания; обучать
 **Forms:** *instruct* &middot; *instructed* &middot; *instructed*
+**Verb class:** regular
 **Third person:** *instructs* &middot; **-ing form:** *instructing*
 **Transitivity:** transitive
 
@@ -877,6 +959,7 @@ To tell someone officially what they must do.
 **Pronunciation:** /ɪnˈsʌlt/ &middot; *in-SULT*
 **Русский:** оскорблять, оскорбить
 **Forms:** *insult* &middot; *insulted* &middot; *insulted*
+**Verb class:** regular
 **Third person:** *insults* &middot; **-ing form:** *insulting*
 **Transitivity:** transitive
 **Contrast:** The verb is in-SULT; the noun is IN-sult: "He insulted me, and it was a real insult."
@@ -894,6 +977,7 @@ To say something rude that offends someone.
 **Pronunciation:** /ˌɪntəˈrʌpt/ &middot; *in-tuh-RUPT*
 **Русский:** перебивать, перебить; прерывать, прервать
 **Forms:** *interrupt* &middot; *interrupted* &middot; *interrupted*
+**Verb class:** regular
 **Third person:** *interrupts* &middot; **-ing form:** *interrupting*
 **Transitivity:** both — transitive (don't *interrupt* me), intransitive (sorry to *interrupt*)
 **Contrast:** Two r's in the middle: *inte**rr**upt*.
@@ -911,6 +995,7 @@ To start speaking while someone else is still talking.
 **Pronunciation:** /ˈɪntərvjuː/ &middot; *IN-tur-vyoo*
 **Русский:** брать интервью; проводить собеседование
 **Forms:** *interview* &middot; *interviewed* &middot; *interviewed*
+**Verb class:** regular
 **Third person:** *interviews* &middot; **-ing form:** *interviewing*
 **Transitivity:** transitive
 
@@ -927,6 +1012,7 @@ To ask someone questions, for a job or for a news story.
 **Pronunciation:** /ˌɪntrəˈduːs/ &middot; *in-truh-DOOS*
 **Русский:** представлять, представить (кого-л. кому-л.); знакомить
 **Forms:** *introduce* &middot; *introduced* &middot; *introduced*
+**Verb class:** regular
 **Third person:** *introduces* &middot; **-ing form:** *introducing*
 **Transitivity:** transitive
 **Contrast:** You *introduce* one person **to** another: "Introduce me to your friend."
@@ -939,11 +1025,14 @@ To tell people someone's name when they meet for the first time.
 
 ---
 
+**Phrasal verbs:** [introduce to](22-verb-preposition.md#introduce-to)
+
 ### invite
 
 **Pronunciation:** /ɪnˈvaɪt/ &middot; *in-VYT*
 **Русский:** приглашать, пригласить
 **Forms:** *invite* &middot; *invited* &middot; *invited*
+**Verb class:** regular
 **Third person:** *invites* &middot; **-ing form:** *inviting*
 **Transitivity:** transitive
 
@@ -955,11 +1044,14 @@ To ask someone to come to an event or to do something with you.
 
 ---
 
+**Phrasal verbs:** [invite to](22-verb-preposition.md#invite-to)
+
 ### joke
 
 **Pronunciation:** /dʒoʊk/ &middot; *JOHK*
 **Русский:** шутить, пошутить
 **Forms:** *joke* &middot; *joked* &middot; *joked*
+**Verb class:** regular
 **Third person:** *jokes* &middot; **-ing form:** *joking*
 **Transitivity:** intransitive
 
@@ -976,6 +1068,7 @@ To say funny things that you do not mean seriously.
 **Pronunciation:** /ˈlɛktʃər/ &middot; *LEK-chur*
 **Русский:** читать лекцию; читать нотации, поучать
 **Forms:** *lecture* &middot; *lectured* &middot; *lectured*
+**Verb class:** regular
 **Third person:** *lectures* &middot; **-ing form:** *lecturing*
 **Transitivity:** both — transitive (stop *lecturing* me), intransitive (he *lectures* at the state university)
 
@@ -992,6 +1085,7 @@ To give a formal talk to a class or an audience, or to scold someone at length.
 **Pronunciation:** /ˈmɛnʃən/ &middot; *MEN-shuhn*
 **Русский:** упоминать, упомянуть
 **Forms:** *mention* &middot; *mentioned* &middot; *mentioned*
+**Verb class:** regular
 **Third person:** *mentions* &middot; **-ing form:** *mentioning*
 **Transitivity:** transitive
 **Contrast:** *mention* takes a direct object with no preposition: "He mentioned the problem," never "mentioned about the problem."
@@ -1009,6 +1103,7 @@ To say or write something about someone or something briefly.
 **Pronunciation:** /mɑːk/ &middot; *MAHK*
 **Русский:** высмеивать, высмеять; насмехаться
 **Forms:** *mock* &middot; *mocked* &middot; *mocked*
+**Verb class:** regular
 **Third person:** *mocks* &middot; **-ing form:** *mocking*
 **Transitivity:** transitive
 
@@ -1025,6 +1120,7 @@ To laugh at someone in an unkind way, often by copying them.
 **Pronunciation:** /ˈmʌmbəl/ &middot; *MUM-buhl*
 **Русский:** бормотать, пробормотать; мямлить
 **Forms:** *mumble* &middot; *mumbled* &middot; *mumbled*
+**Verb class:** regular
 **Third person:** *mumbles* &middot; **-ing form:** *mumbling*
 **Transitivity:** both — transitive (he *mumbled* an apology), intransitive (stop *mumbling*)
 
@@ -1041,6 +1137,7 @@ To speak quietly and unclearly, so that people cannot understand you.
 **Pronunciation:** /ˈmɜːrmər/ &middot; *MUR-mur*
 **Русский:** шептать, говорить тихо; бормотать
 **Forms:** *murmur* &middot; *murmured* &middot; *murmured*
+**Verb class:** regular
 **Third person:** *murmurs* &middot; **-ing form:** *murmuring*
 **Transitivity:** both — transitive (she *murmured* his name), intransitive (the crowd *murmured*)
 
@@ -1057,6 +1154,7 @@ To say something in a soft, low voice.
 **Pronunciation:** /ˈmʌtər/ &middot; *MUT-ur*
 **Русский:** бормотать, пробормотать; ворчать
 **Forms:** *mutter* &middot; *muttered* &middot; *muttered*
+**Verb class:** regular
 **Third person:** *mutters* &middot; **-ing form:** *muttering*
 **Transitivity:** both — transitive (he *muttered* a curse), intransitive (she *muttered* to herself)
 
@@ -1073,6 +1171,7 @@ To speak in a low voice, usually because you are annoyed.
 **Pronunciation:** /næɡ/ &middot; *NAG*
 **Русский:** пилить, ворчать, донимать (просьбами)
 **Forms:** *nag* &middot; *nagged* &middot; *nagged*
+**Verb class:** regular
 **Third person:** *nags* &middot; **-ing form:** *nagging*
 **Transitivity:** both — transitive (she *nagged* him about the bill), intransitive (stop *nagging*)
 **Contrast:** Double the g: *nag → nagged → nagging*.
@@ -1090,6 +1189,7 @@ To keep asking or complaining about the same thing in an annoying way.
 **Pronunciation:** /neɪm/ &middot; *NAYM*
 **Русский:** называть, назвать; именовать
 **Forms:** *name* &middot; *named* &middot; *named*
+**Verb class:** regular
 **Third person:** *names* &middot; **-ing form:** *naming*
 **Transitivity:** transitive
 **Contrast:** The silent e drops before *-ing*: *name → naming*.
@@ -1107,6 +1207,7 @@ To say what someone or something is called, or to give someone a name.
 **Pronunciation:** /nɪˈɡoʊʃieɪt/ &middot; *nih-GOH-shee-ayt*
 **Русский:** вести переговоры; договариваться, договориться
 **Forms:** *negotiate* &middot; *negotiated* &middot; *negotiated*
+**Verb class:** regular
 **Third person:** *negotiates* &middot; **-ing form:** *negotiating*
 **Transitivity:** both — transitive (*negotiate* a contract), intransitive (the two sides are *negotiating*)
 
@@ -1123,6 +1224,7 @@ To talk with someone in order to reach an agreement.
 **Pronunciation:** /noʊt/ &middot; *NOHT*
 **Русский:** отмечать, отметить; замечать (в речи или письме)
 **Forms:** *note* &middot; *noted* &middot; *noted*
+**Verb class:** regular
 **Third person:** *notes* &middot; **-ing form:** *noting*
 **Transitivity:** transitive
 
@@ -1139,6 +1241,7 @@ To mention something because it is important.
 **Pronunciation:** /ˈnoʊtɪfaɪ/ &middot; *NOH-tih-fy*
 **Русский:** уведомлять, уведомить; извещать, известить
 **Forms:** *notify* &middot; *notified* &middot; *notified*
+**Verb class:** regular
 **Third person:** *notifies* &middot; **-ing form:** *notifying*
 **Transitivity:** transitive
 **Contrast:** The y becomes ie: *notify → notifies → notified*.
@@ -1156,6 +1259,7 @@ To tell someone about something officially.
 **Pronunciation:** /əbˈdʒɛkt/ &middot; *uhb-JEKT*
 **Русский:** возражать, возразить; протестовать
 **Forms:** *object* &middot; *objected* &middot; *objected*
+**Verb class:** regular
 **Third person:** *objects* &middot; **-ing form:** *objecting*
 **Transitivity:** intransitive
 **Contrast:** The verb is uhb-JEKT; the noun (a thing) is AHB-jikt.
@@ -1168,11 +1272,14 @@ To say that you do not agree with something or do not approve of it.
 
 ---
 
+**Phrasal verbs:** [object to](22-verb-preposition.md#object-to)
+
 ### offer
 
 **Pronunciation:** /ˈɔːfər/ &middot; *AW-fur*
 **Русский:** предлагать, предложить
 **Forms:** *offer* &middot; *offered* &middot; *offered*
+**Verb class:** regular
 **Third person:** *offers* &middot; **-ing form:** *offering*
 **Transitivity:** transitive
 **Contrast:** One r only — the stress is on AW-: *offered*, *offering*, never "offerred".
@@ -1190,6 +1297,7 @@ To say that you are willing to give something or to do something.
 **Pronunciation:** /ˈɔːrdər/ &middot; *OR-dur*
 **Русский:** приказывать, приказать; велеть
 **Forms:** *order* &middot; *ordered* &middot; *ordered*
+**Verb class:** regular
 **Third person:** *orders* &middot; **-ing form:** *ordering*
 **Transitivity:** transitive
 
@@ -1206,6 +1314,7 @@ To tell someone firmly that they must do something.
 **Pronunciation:** /pərˈsweɪd/ &middot; *pur-SWAYD*
 **Русский:** убеждать, убедить; уговаривать, уговорить
 **Forms:** *persuade* &middot; *persuaded* &middot; *persuaded*
+**Verb class:** regular
 **Third person:** *persuades* &middot; **-ing form:** *persuading*
 **Transitivity:** transitive
 **Contrast:** *persuade* someone **to do** something — the *to* is required.
@@ -1223,6 +1332,7 @@ To make someone decide to do something by giving them reasons.
 **Pronunciation:** /foʊn/ &middot; *FOHN*
 **Русский:** звонить, позвонить (по телефону)
 **Forms:** *phone* &middot; *phoned* &middot; *phoned*
+**Verb class:** regular
 **Third person:** *phones* &middot; **-ing form:** *phoning*
 **Transitivity:** both — transitive (*phone* your mother), intransitive (she *phoned* to say she'd be late)
 
@@ -1239,6 +1349,7 @@ To call someone on the telephone.
 **Pronunciation:** /freɪz/ &middot; *FRAYZ*
 **Русский:** формулировать, сформулировать; выражать словами
 **Forms:** *phrase* &middot; *phrased* &middot; *phrased*
+**Verb class:** regular
 **Third person:** *phrases* &middot; **-ing form:** *phrasing*
 **Transitivity:** transitive
 
@@ -1255,6 +1366,7 @@ To choose the words you use to say or write something.
 **Pronunciation:** /plɛdʒ/ &middot; *PLEJ*
 **Русский:** обещать, пообещать (торжественно); давать обет
 **Forms:** *pledge* &middot; *pledged* &middot; *pledged*
+**Verb class:** regular
 **Third person:** *pledges* &middot; **-ing form:** *pledging*
 **Transitivity:** transitive
 
@@ -1271,6 +1383,7 @@ To promise something seriously and publicly.
 **Pronunciation:** /preɪz/ &middot; *PRAYZ*
 **Русский:** хвалить, похвалить; восхвалять
 **Forms:** *praise* &middot; *praised* &middot; *praised*
+**Verb class:** regular
 **Third person:** *praises* &middot; **-ing form:** *praising*
 **Transitivity:** transitive
 **Contrast:** *praise* sounds exactly like *prays*: one is words of approval, the other is what you do in church.
@@ -1288,6 +1401,7 @@ To say publicly that someone or something is very good.
 **Pronunciation:** /priːtʃ/ &middot; *PREECH*
 **Русский:** проповедовать; читать проповедь; поучать
 **Forms:** *preach* &middot; *preached* &middot; *preached*
+**Verb class:** regular
 **Third person:** *preaches* &middot; **-ing form:** *preaching*
 **Transitivity:** both — transitive (he *preached* a short sermon), intransitive (she *preaches* on Sundays)
 
@@ -1304,6 +1418,7 @@ To give a religious talk, or to tell people how they should behave.
 **Pronunciation:** /prɪˈdɪkt/ &middot; *prih-DIKT*
 **Русский:** предсказывать, предсказать; прогнозировать
 **Forms:** *predict* &middot; *predicted* &middot; *predicted*
+**Verb class:** regular
 **Third person:** *predicts* &middot; **-ing form:** *predicting*
 **Transitivity:** transitive
 
@@ -1320,6 +1435,7 @@ To say what you think will happen in the future.
 **Pronunciation:** /ˈprɑːməs/ &middot; *PRAH-muss*
 **Русский:** обещать, пообещать
 **Forms:** *promise* &middot; *promised* &middot; *promised*
+**Verb class:** regular
 **Third person:** *promises* &middot; **-ing form:** *promising*
 **Transitivity:** both — transitive (*promise* me one thing), intransitive (I *promise*)
 
@@ -1336,6 +1452,7 @@ To tell someone that you will certainly do something.
 **Pronunciation:** /prəˈnaʊns/ &middot; *pruh-NOWNS*
 **Русский:** произносить, произнести (звук, слово)
 **Forms:** *pronounce* &middot; *pronounced* &middot; *pronounced*
+**Verb class:** regular
 **Third person:** *pronounces* &middot; **-ing form:** *pronouncing*
 **Transitivity:** transitive
 **Contrast:** The verb has *-oun-*, but the noun loses it: *pronounce* → *pronunciation*, never "pronounciation".
@@ -1353,6 +1470,7 @@ To make the sound of a word or a letter.
 **Pronunciation:** /prəˈpoʊz/ &middot; *pruh-POHZ*
 **Русский:** предлагать, предложить; делать предложение (руки и сердца)
 **Forms:** *propose* &middot; *proposed* &middot; *proposed*
+**Verb class:** regular
 **Third person:** *proposes* &middot; **-ing form:** *proposing*
 **Transitivity:** both — transitive (*propose* a change), intransitive (he *proposed* on the bridge)
 
@@ -1369,6 +1487,7 @@ To suggest a plan or an idea formally, or to ask someone to marry you.
 **Pronunciation:** /ˈkwɔːrəl/ &middot; *KWOR-uhl*
 **Русский:** ссориться, поссориться; спорить
 **Forms:** *quarrel* &middot; *quarreled* &middot; *quarreled*
+**Verb class:** regular
 **Third person:** *quarrels* &middot; **-ing form:** *quarreling*
 **Transitivity:** intransitive
 **Contrast:** American English keeps one l: *quarreled*, *quarreling*; British writing doubles it, *quarrelled*.
@@ -1386,6 +1505,7 @@ To have an angry argument with someone.
 **Pronunciation:** /ˈkwɛstʃən/ &middot; *KWES-chuhn*
 **Русский:** расспрашивать, допрашивать; ставить под сомнение
 **Forms:** *question* &middot; *questioned* &middot; *questioned*
+**Verb class:** regular
 **Third person:** *questions* &middot; **-ing form:** *questioning*
 **Transitivity:** transitive
 
@@ -1402,6 +1522,7 @@ To ask someone questions, or to express doubt about something.
 **Pronunciation:** /kwoʊt/ &middot; *KWOHT*
 **Русский:** цитировать, процитировать; приводить слова
 **Forms:** *quote* &middot; *quoted* &middot; *quoted*
+**Verb class:** regular
 **Third person:** *quotes* &middot; **-ing form:** *quoting*
 **Transitivity:** transitive
 
@@ -1418,6 +1539,7 @@ To repeat the exact words that someone else said or wrote.
 **Pronunciation:** /ˌriːəˈʃʊr/ &middot; *ree-uh-SHOOR*
 **Русский:** успокаивать, успокоить; ободрять
 **Forms:** *reassure* &middot; *reassured* &middot; *reassured*
+**Verb class:** regular
 **Third person:** *reassures* &middot; **-ing form:** *reassuring*
 **Transitivity:** transitive
 
@@ -1434,6 +1556,7 @@ To say something that makes someone stop worrying.
 **Pronunciation:** /rɪˈsaɪt/ &middot; *rih-SYT*
 **Русский:** декламировать; читать наизусть; перечислять
 **Forms:** *recite* &middot; *recited* &middot; *recited*
+**Verb class:** regular
 **Third person:** *recites* &middot; **-ing form:** *reciting*
 **Transitivity:** transitive
 
@@ -1450,6 +1573,7 @@ To say something aloud from memory.
 **Pronunciation:** /ˌrɛkəˈmɛnd/ &middot; *rek-uh-MEND*
 **Русский:** рекомендовать, порекомендовать; советовать, посоветовать
 **Forms:** *recommend* &middot; *recommended* &middot; *recommended*
+**Verb class:** regular
 **Third person:** *recommends* &middot; **-ing form:** *recommending*
 **Transitivity:** transitive
 **Contrast:** One c but two m's: *re**c**o**mm**end*.
@@ -1467,6 +1591,7 @@ To tell someone that something is good and that they should try it.
 **Pronunciation:** /rɪˈfjuːz/ &middot; *rih-FYOOZ*
 **Русский:** отказываться, отказаться; отказывать
 **Forms:** *refuse* &middot; *refused* &middot; *refused*
+**Verb class:** regular
 **Third person:** *refuses* &middot; **-ing form:** *refusing*
 **Transitivity:** both — transitive (he *refused* the offer), intransitive (she simply *refused*)
 **Contrast:** The verb is rih-FYOOZ; the noun *refuse* (trash) is REF-yooss.
@@ -1484,6 +1609,7 @@ To say firmly that you will not do or accept something.
 **Pronunciation:** /rɪˈdʒɛkt/ &middot; *rih-JEKT*
 **Русский:** отвергать, отвергнуть; отклонять, отклонить
 **Forms:** *reject* &middot; *rejected* &middot; *rejected*
+**Verb class:** regular
 **Third person:** *rejects* &middot; **-ing form:** *rejecting*
 **Transitivity:** transitive
 **Contrast:** The verb is rih-JEKT; the noun (a faulty item) is REE-jekt.
@@ -1501,6 +1627,7 @@ To refuse to accept an offer, an idea, or a person.
 **Pronunciation:** /rɪˈmɑːrk/ &middot; *rih-MAHRK*
 **Русский:** замечать, заметить (сказать); отмечать
 **Forms:** *remark* &middot; *remarked* &middot; *remarked*
+**Verb class:** regular
 **Third person:** *remarks* &middot; **-ing form:** *remarking*
 **Transitivity:** both — transitive (he *remarked* that it was cold), intransitive (she *remarked* on his tie)
 
@@ -1517,6 +1644,7 @@ To say something as a comment, without much emphasis.
 **Pronunciation:** /rɪˈmaɪnd/ &middot; *rih-MYND*
 **Русский:** напоминать, напомнить
 **Forms:** *remind* &middot; *reminded* &middot; *reminded*
+**Verb class:** regular
 **Third person:** *reminds* &middot; **-ing form:** *reminding*
 **Transitivity:** transitive
 **Contrast:** You *remind* another person; you *remember* something yourself: "Remind me, because I never remember."
@@ -1529,11 +1657,14 @@ To make someone remember something they have to do or know.
 
 ---
 
+**Phrasal verbs:** [remind of, remind about](22-verb-preposition.md#remind-of-remind-about)
+
 ### repeat
 
 **Pronunciation:** /rɪˈpiːt/ &middot; *rih-PEET*
 **Русский:** повторять, повторить
 **Forms:** *repeat* &middot; *repeated* &middot; *repeated*
+**Verb class:** regular
 **Third person:** *repeats* &middot; **-ing form:** *repeating*
 **Transitivity:** transitive
 
@@ -1550,6 +1681,7 @@ To say or do something again.
 **Pronunciation:** /rɪˈplaɪ/ &middot; *rih-PLY*
 **Русский:** отвечать, ответить
 **Forms:** *reply* &middot; *replied* &middot; *replied*
+**Verb class:** regular
 **Third person:** *replies* &middot; **-ing form:** *replying*
 **Transitivity:** intransitive
 **Contrast:** The y becomes ie: *reply → replies → replied*. You *reply* **to** a person or a message.
@@ -1567,6 +1699,7 @@ To answer someone in speech or in writing.
 **Pronunciation:** /rɪˈpɔːrt/ &middot; *rih-PORT*
 **Русский:** сообщать, сообщить; докладывать, доложить
 **Forms:** *report* &middot; *reported* &middot; *reported*
+**Verb class:** regular
 **Third person:** *reports* &middot; **-ing form:** *reporting*
 **Transitivity:** transitive
 
@@ -1583,6 +1716,7 @@ To give people information about something that has happened.
 **Pronunciation:** /rɪˈkwɛst/ &middot; *rih-KWEST*
 **Русский:** просить, попросить; запрашивать, запросить
 **Forms:** *request* &middot; *requested* &middot; *requested*
+**Verb class:** regular
 **Third person:** *requests* &middot; **-ing form:** *requesting*
 **Transitivity:** transitive
 **Contrast:** As a verb, *request* takes no preposition: "He requested a copy," not "requested for a copy."
@@ -1600,6 +1734,7 @@ To ask for something politely or formally.
 **Pronunciation:** /rɪˈspɑːnd/ &middot; *rih-SPAHND*
 **Русский:** отвечать, ответить; реагировать
 **Forms:** *respond* &middot; *responded* &middot; *responded*
+**Verb class:** regular
 **Third person:** *responds* &middot; **-ing form:** *responding*
 **Transitivity:** intransitive
 
@@ -1611,11 +1746,14 @@ To say or do something as an answer or a reaction.
 
 ---
 
+**Phrasal verbs:** [respond to](22-verb-preposition.md#respond-to)
+
 ### reveal
 
 **Pronunciation:** /rɪˈviːl/ &middot; *rih-VEEL*
 **Русский:** раскрывать, раскрыть; разглашать, разгласить
 **Forms:** *reveal* &middot; *revealed* &middot; *revealed*
+**Verb class:** regular
 **Third person:** *reveals* &middot; **-ing form:** *revealing*
 **Transitivity:** transitive
 
@@ -1632,6 +1770,7 @@ To tell people something that was secret or unknown.
 **Pronunciation:** /skoʊld/ &middot; *SKOHLD*
 **Русский:** ругать, отругать; бранить
 **Forms:** *scold* &middot; *scolded* &middot; *scolded*
+**Verb class:** regular
 **Third person:** *scolds* &middot; **-ing form:** *scolding*
 **Transitivity:** transitive
 
@@ -1648,6 +1787,7 @@ To speak angrily to someone because they did something wrong.
 **Pronunciation:** /skriːm/ &middot; *SKREEM*
 **Русский:** кричать, закричать; визжать
 **Forms:** *scream* &middot; *screamed* &middot; *screamed*
+**Verb class:** regular
 **Third person:** *screams* &middot; **-ing form:** *screaming*
 **Transitivity:** both — transitive (she *screamed* his name), intransitive (the baby *screamed*)
 
@@ -1664,6 +1804,7 @@ To make a loud, high cry, usually from fear, pain, or excitement.
 **Pronunciation:** /ʃaʊt/ &middot; *SHOWT*
 **Русский:** кричать, крикнуть; орать
 **Forms:** *shout* &middot; *shouted* &middot; *shouted*
+**Verb class:** regular
 **Third person:** *shouts* &middot; **-ing form:** *shouting*
 **Transitivity:** both — transitive (he *shouted* a warning), intransitive (stop *shouting*)
 **Contrast:** *shout* **at** someone means anger; *shout* **to** someone just means across a distance.
@@ -1681,6 +1822,7 @@ To say something very loudly.
 **Pronunciation:** /saɪ/ &middot; *SY*
 **Русский:** вздыхать, вздохнуть
 **Forms:** *sigh* &middot; *sighed* &middot; *sighed*
+**Verb class:** regular
 **Third person:** *sighs* &middot; **-ing form:** *sighing*
 **Transitivity:** intransitive
 **Contrast:** The gh is silent: *sigh* rhymes with *my*.
@@ -1698,6 +1840,7 @@ To let out a long breath that shows you are tired, sad, or relieved.
 **Pronunciation:** /ˈspɛsɪfaɪ/ &middot; *SPES-ih-fy*
 **Русский:** уточнять, уточнить; указывать точно
 **Forms:** *specify* &middot; *specified* &middot; *specified*
+**Verb class:** regular
 **Third person:** *specifies* &middot; **-ing form:** *specifying*
 **Transitivity:** transitive
 **Contrast:** The y becomes ie: *specify → specifies → specified*.
@@ -1715,6 +1858,7 @@ To say something exactly and clearly, leaving no doubt.
 **Pronunciation:** /steɪt/ &middot; *STAYT*
 **Русский:** заявлять, заявить; излагать, констатировать
 **Forms:** *state* &middot; *stated* &middot; *stated*
+**Verb class:** regular
 **Third person:** *states* &middot; **-ing form:** *stating*
 **Transitivity:** transitive
 
@@ -1731,6 +1875,7 @@ To say or write something clearly and definitely.
 **Pronunciation:** /strɛs/ &middot; *STRES*
 **Русский:** подчёркивать, подчеркнуть; делать упор
 **Forms:** *stress* &middot; *stressed* &middot; *stressed*
+**Verb class:** regular
 **Third person:** *stresses* &middot; **-ing form:** *stressing*
 **Transitivity:** transitive
 
@@ -1747,6 +1892,7 @@ To say something with special force because it is important.
 **Pronunciation:** /ˈstʌtər/ &middot; *STUT-ur*
 **Русский:** заикаться
 **Forms:** *stutter* &middot; *stuttered* &middot; *stuttered*
+**Verb class:** regular
 **Third person:** *stutters* &middot; **-ing form:** *stuttering*
 **Transitivity:** intransitive
 
@@ -1763,6 +1909,7 @@ To speak with difficulty, repeating sounds at the beginning of words.
 **Pronunciation:** /səɡˈdʒɛst/ &middot; *suhg-JEST*
 **Русский:** предлагать, предложить; советовать
 **Forms:** *suggest* &middot; *suggested* &middot; *suggested*
+**Verb class:** regular
 **Third person:** *suggests* &middot; **-ing form:** *suggesting*
 **Transitivity:** transitive
 **Contrast:** *suggest* never takes a person as its object: "She suggested a book **to me**," not "suggested me a book."
@@ -1780,6 +1927,7 @@ To offer an idea or a plan for someone to think about.
 **Pronunciation:** /ˈsʌməraɪz/ &middot; *SUM-uh-ryz*
 **Русский:** подводить итог, резюмировать; кратко излагать
 **Forms:** *summarize* &middot; *summarized* &middot; *summarized*
+**Verb class:** regular
 **Third person:** *summarizes* &middot; **-ing form:** *summarizing*
 **Transitivity:** transitive
 **Contrast:** American spelling ends in *-ize*; British books write *summarise*.
@@ -1797,6 +1945,7 @@ To give the main points of something in a short form.
 **Pronunciation:** /tɔːk/ &middot; *TAWK*
 **Русский:** говорить, разговаривать; поговорить
 **Forms:** *talk* &middot; *talked* &middot; *talked*
+**Verb class:** regular
 **Third person:** *talks* &middot; **-ing form:** *talking*
 **Transitivity:** intransitive
 **Contrast:** The l is silent: *talk* is TAWK. You *talk* **to** or **with** a person **about** a thing.
@@ -1809,11 +1958,14 @@ To say things to someone as part of a conversation.
 
 ---
 
+**Phrasal verbs:** [talk to, talk with, talk about](22-verb-preposition.md#talk-to-talk-with-talk-about)
+
 ### tease
 
 **Pronunciation:** /tiːz/ &middot; *TEEZ*
 **Русский:** дразнить; подшучивать, подшутить
 **Forms:** *tease* &middot; *teased* &middot; *teased*
+**Verb class:** regular
 **Third person:** *teases* &middot; **-ing form:** *teasing*
 **Transitivity:** transitive
 
@@ -1830,6 +1982,7 @@ To make jokes about someone, either in a friendly or an unkind way.
 **Pronunciation:** /tɛkst/ &middot; *TEKST*
 **Русский:** писать сообщение (смс), написать в мессенджере
 **Forms:** *text* &middot; *texted* &middot; *texted*
+**Verb class:** regular
 **Third person:** *texts* &middot; **-ing form:** *texting*
 **Transitivity:** both — transitive (*text* me the address), intransitive (she was *texting* in class)
 **Contrast:** The past adds a whole syllable: *texted* is TEK-stid, two syllables.
@@ -1847,6 +2000,7 @@ To send someone a short written message from a phone.
 **Pronunciation:** /θæŋk/ &middot; *THANK*
 **Русский:** благодарить, поблагодарить
 **Forms:** *thank* &middot; *thanked* &middot; *thanked*
+**Verb class:** regular
 **Third person:** *thanks* &middot; **-ing form:** *thanking*
 **Transitivity:** transitive
 **Contrast:** You *thank* someone **for** something: "Thank you for the ride."
@@ -1859,11 +2013,14 @@ To tell someone that you are grateful for what they did.
 
 ---
 
+**Phrasal verbs:** [thank for](22-verb-preposition.md#thank-for)
+
 ### threaten
 
 **Pronunciation:** /ˈθrɛtən/ &middot; *THRET-uhn*
 **Русский:** угрожать, пригрозить; грозить
 **Forms:** *threaten* &middot; *threatened* &middot; *threatened*
+**Verb class:** regular
 **Third person:** *threatens* &middot; **-ing form:** *threatening*
 **Transitivity:** transitive
 **Contrast:** The ea is short: THRET-uhn, like *bread*, not like *treat*.
@@ -1881,6 +2038,7 @@ To say that you will hurt or punish someone if they do not do what you want.
 **Pronunciation:** /trænsˈleɪt/ &middot; *tran-SLAYT*
 **Русский:** переводить, перевести (на другой язык)
 **Forms:** *translate* &middot; *translated* &middot; *translated*
+**Verb class:** regular
 **Third person:** *translates* &middot; **-ing form:** *translating*
 **Transitivity:** both — transitive (*translate* the letter), intransitive (she *translates* for the court)
 **Contrast:** You *translate* **from** one language **into** another.
@@ -1893,11 +2051,14 @@ To change words from one language into another.
 
 ---
 
+**Phrasal verbs:** [translate into](22-verb-preposition.md#translate-into)
+
 ### urge
 
 **Pronunciation:** /ɜːrdʒ/ &middot; *URJ*
 **Русский:** настоятельно советовать, убеждать; побуждать
 **Forms:** *urge* &middot; *urged* &middot; *urged*
+**Verb class:** regular
 **Third person:** *urges* &middot; **-ing form:** *urging*
 **Transitivity:** transitive
 
@@ -1914,6 +2075,7 @@ To try hard to persuade someone to do something.
 **Pronunciation:** /ˈʌtər/ &middot; *UT-ur*
 **Русский:** произносить, произнести; издавать (звук)
 **Forms:** *utter* &middot; *uttered* &middot; *uttered*
+**Verb class:** regular
 **Third person:** *utters* &middot; **-ing form:** *uttering*
 **Transitivity:** transitive
 
@@ -1930,6 +2092,7 @@ To say something aloud, usually a single word or sound.
 **Pronunciation:** /vaʊ/ &middot; *VOW*
 **Русский:** клясться, поклясться; давать обет
 **Forms:** *vow* &middot; *vowed* &middot; *vowed*
+**Verb class:** regular
 **Third person:** *vows* &middot; **-ing form:** *vowing*
 **Transitivity:** transitive
 
@@ -1946,6 +2109,7 @@ To promise something very seriously.
 **Pronunciation:** /wɔːrn/ &middot; *WORN*
 **Русский:** предупреждать, предупредить; предостерегать
 **Forms:** *warn* &middot; *warned* &middot; *warned*
+**Verb class:** regular
 **Third person:** *warns* &middot; **-ing form:** *warning*
 **Transitivity:** transitive
 **Contrast:** *warn* sounds exactly like *worn*, the past participle of *wear*.
@@ -1958,11 +2122,14 @@ To tell someone about a danger or a problem so that they can avoid it.
 
 ---
 
+**Phrasal verbs:** [warn about, warn against](22-verb-preposition.md#warn-about-warn-against)
+
 ### welcome
 
 **Pronunciation:** /ˈwɛlkəm/ &middot; *WEL-kuhm*
 **Русский:** приветствовать, поприветствовать; радушно встречать
 **Forms:** *welcome* &middot; *welcomed* &middot; *welcomed*
+**Verb class:** regular
 **Third person:** *welcomes* &middot; **-ing form:** *welcoming*
 **Transitivity:** transitive
 
@@ -1979,6 +2146,7 @@ To greet someone in a friendly way when they arrive.
 **Pronunciation:** /ˈwɪspər/ &middot; *WIS-pur*
 **Русский:** шептать, прошептать
 **Forms:** *whisper* &middot; *whispered* &middot; *whispered*
+**Verb class:** regular
 **Third person:** *whispers* &middot; **-ing form:** *whispering*
 **Transitivity:** both — transitive (she *whispered* a name), intransitive (they *whispered* in the back)
 **Contrast:** The h is silent: *whisper* is WIS-pur.
@@ -1996,6 +2164,7 @@ To speak very quietly, using breath instead of voice.
 **Pronunciation:** /jɛl/ &middot; *YEL*
 **Русский:** кричать, орать; вопить
 **Forms:** *yell* &middot; *yelled* &middot; *yelled*
+**Verb class:** regular
 **Third person:** *yells* &middot; **-ing form:** *yelling*
 **Transitivity:** both — transitive (he *yelled* my name), intransitive (don't *yell*)
 **Contrast:** *yell* **at** someone is angry; *yell* **to** someone is just loud.

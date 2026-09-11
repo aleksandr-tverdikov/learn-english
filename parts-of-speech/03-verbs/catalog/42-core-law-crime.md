@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /ˈhændkʌf/ &middot; *HAND-kuf*
 **Русский:** надевать наручники, заковывать в наручники
 **Forms:** *handcuff* &middot; *handcuffed* &middot; *handcuffed*
+**Verb class:** regular
 **Third person:** *handcuffs* &middot; **-ing form:** *handcuffing*
 **Transitivity:** transitive
 
@@ -30,6 +31,7 @@ To lock metal rings around someone's wrists so they cannot use their hands.
 **Pronunciation:** /frɪsk/ &middot; *FRISK*
 **Русский:** обыскивать, обыскать (ощупывая одежду)
 **Forms:** *frisk* &middot; *frisked* &middot; *frisked*
+**Verb class:** regular
 **Third person:** *frisks* &middot; **-ing form:** *frisking*
 **Transitivity:** transitive
 
@@ -46,6 +48,7 @@ To run your hands quickly over someone's clothing to look for weapons or drugs.
 **Pronunciation:** /ˈfɪŋɡərprɪnt/ &middot; *FING-gur-print*
 **Русский:** снимать отпечатки пальцев
 **Forms:** *fingerprint* &middot; *fingerprinted* &middot; *fingerprinted*
+**Verb class:** regular
 **Third person:** *fingerprints* &middot; **-ing form:** *fingerprinting*
 **Transitivity:** transitive
 
@@ -62,6 +65,7 @@ To take a record of the patterns on someone's fingertips.
 **Pronunciation:** /ˌæprɪˈhɛnd/ &middot; *ap-ri-HEND*
 **Русский:** задерживать, задержать; арестовывать
 **Forms:** *apprehend* &middot; *apprehended* &middot; *apprehended*
+**Verb class:** regular
 **Third person:** *apprehends* &middot; **-ing form:** *apprehending*
 **Transitivity:** transitive
 
@@ -78,6 +82,7 @@ To catch and arrest someone who is wanted by the police.
 **Pronunciation:** /ˈsʌmən/ &middot; *SUM-uhn*
 **Русский:** вызывать (в суд), вызвать
 **Forms:** *summon* &middot; *summoned* &middot; *summoned*
+**Verb class:** regular
 **Third person:** *summons* &middot; **-ing form:** *summoning*
 **Transitivity:** transitive
 **Contrast:** The verb form *he summons* looks like the noun *a summons* — the court paper itself.
@@ -95,6 +100,7 @@ To officially order someone to appear in court or at an official place.
 **Pronunciation:** /səˈpiːnə/ &middot; *suh-PEE-nuh*
 **Русский:** вызывать повесткой в суд, требовать по повестке
 **Forms:** *subpoena* &middot; *subpoenaed* &middot; *subpoenaed*
+**Verb class:** regular
 **Third person:** *subpoenas* &middot; **-ing form:** *subpoenaing*
 **Transitivity:** transitive
 **Contrast:** The *b* is silent: suh-PEE-nuh. The past keeps the *a*: *subpoenaed*.
@@ -112,6 +118,7 @@ To order someone by law to give evidence or hand over documents.
 **Pronunciation:** /ˈkaʊnsəl/ &middot; *KOWN-suhl*
 **Русский:** консультировать, давать юридические советы
 **Forms:** *counsel* &middot; *counseled* &middot; *counseled*
+**Verb class:** regular
 **Third person:** *counsels* &middot; **-ing form:** *counseling*
 **Transitivity:** transitive
 **Contrast:** American English keeps one *l*: *counseled*, *counseling* (British *counselled*). *Counsel* (advise) is not *council* (a group of people).
@@ -129,6 +136,7 @@ To give someone professional advice, especially legal advice.
 **Pronunciation:** /əˈlɛdʒ/ &middot; *uh-LEJ*
 **Русский:** утверждать (без доказательств), заявлять
 **Forms:** *allege* &middot; *alleged* &middot; *alleged*
+**Verb class:** regular
 **Third person:** *alleges* &middot; **-ing form:** *alleging*
 **Transitivity:** transitive
 **Contrast:** As an adjective before a noun, *alleged* usually has three syllables: uh-LEJ-id thief.
@@ -146,6 +154,7 @@ To state that someone has done something wrong before it has been proven.
 **Pronunciation:** /ruːl/ &middot; *ROOL*
 **Русский:** выносить решение, постановлять
 **Forms:** *rule* &middot; *ruled* &middot; *ruled*
+**Verb class:** regular
 **Third person:** *rules* &middot; **-ing form:** *ruling*
 **Transitivity:** both — transitive (the judge ruled the evidence inadmissible), intransitive (the court ruled against the city)
 **Contrast:** A court *rules* **on** a question and *rules* **for** or **against** a side.
@@ -163,6 +172,7 @@ To make an official decision as a judge or a court.
 **Pronunciation:** /əˈdʒɜːrn/ &middot; *uh-JURN*
 **Русский:** объявлять перерыв, откладывать (заседание)
 **Forms:** *adjourn* &middot; *adjourned* &middot; *adjourned*
+**Verb class:** regular
 **Third person:** *adjourns* &middot; **-ing form:** *adjourning*
 **Transitivity:** both — transitive (adjourn the hearing), intransitive (the court adjourned)
 **Contrast:** The *d* is silent: uh-JURN.
@@ -180,6 +190,7 @@ To stop a meeting or a court session, usually until a later time.
 **Pronunciation:** /dɪˈlɪbəreɪt/ &middot; *di-LIB-uh-rayt*
 **Русский:** совещаться (о присяжных), обсуждать
 **Forms:** *deliberate* &middot; *deliberated* &middot; *deliberated*
+**Verb class:** regular
 **Third person:** *deliberates* &middot; **-ing form:** *deliberating*
 **Transitivity:** intransitive
 **Contrast:** The verb ends in -rayt; the adjective *deliberate* ('on purpose') ends in -ruht: di-LIB-uh-ruht.
@@ -197,6 +208,7 @@ To talk something over carefully before reaching a decision, as a jury does.
 **Pronunciation:** /əˈfɜːrm/ &middot; *uh-FURM*
 **Русский:** подтверждать, оставлять в силе (решение)
 **Forms:** *affirm* &middot; *affirmed* &middot; *affirmed*
+**Verb class:** regular
 **Third person:** *affirms* &middot; **-ing form:** *affirming*
 **Transitivity:** transitive
 
@@ -213,6 +225,7 @@ For a higher court, to let a lower court's decision stand.
 **Pronunciation:** /ˈlɪtɪɡeɪt/ &middot; *LIT-i-gayt*
 **Русский:** судиться, вести судебный процесс
 **Forms:** *litigate* &middot; *litigated* &middot; *litigated*
+**Verb class:** regular
 **Third person:** *litigates* &middot; **-ing form:** *litigating*
 **Transitivity:** both — transitive (litigate a claim), intransitive (they litigated for years)
 
@@ -229,6 +242,7 @@ To take a dispute through the courts instead of settling it.
 **Pronunciation:** /dɪsˈkloʊz/ &middot; *dis-KLOHZ*
 **Русский:** раскрывать, разглашать (сведения)
 **Forms:** *disclose* &middot; *disclosed* &middot; *disclosed*
+**Verb class:** regular
 **Third person:** *discloses* &middot; **-ing form:** *disclosing*
 **Transitivity:** transitive
 
@@ -245,6 +259,7 @@ To make information known that was secret or that the law requires you to share.
 **Pronunciation:** /ɪɡˈzɑːnəreɪt/ &middot; *ig-ZAH-nuh-rayt*
 **Русский:** оправдывать, снимать обвинения
 **Forms:** *exonerate* &middot; *exonerated* &middot; *exonerated*
+**Verb class:** regular
 **Third person:** *exonerates* &middot; **-ing form:** *exonerating*
 **Transitivity:** transitive
 
@@ -261,6 +276,7 @@ To officially show that someone accused of a crime is not guilty.
 **Pronunciation:** /ɪnˈkrɪmɪneɪt/ &middot; *in-KRIM-uh-nayt*
 **Русский:** изобличать, уличать
 **Forms:** *incriminate* &middot; *incriminated* &middot; *incriminated*
+**Verb class:** regular
 **Third person:** *incriminates* &middot; **-ing form:** *incriminating*
 **Transitivity:** transitive
 
@@ -277,6 +293,7 @@ To make someone look guilty of a crime.
 **Pronunciation:** /ˈɪmplɪkeɪt/ &middot; *IM-pli-kayt*
 **Русский:** впутывать, уличать в причастности
 **Forms:** *implicate* &middot; *implicated* &middot; *implicated*
+**Verb class:** regular
 **Third person:** *implicates* &middot; **-ing form:** *implicating*
 **Transitivity:** transitive
 **Contrast:** Someone is *implicated* **in** a crime.
@@ -294,6 +311,7 @@ To show that someone was involved in a crime or a wrongdoing.
 **Pronunciation:** /ɪmˈpiːtʃ/ &middot; *im-PEECH*
 **Русский:** объявлять импичмент, выдвигать обвинение против должностного лица
 **Forms:** *impeach* &middot; *impeached* &middot; *impeached*
+**Verb class:** regular
 **Third person:** *impeaches* &middot; **-ing form:** *impeaching*
 **Transitivity:** transitive
 **Contrast:** Verbs ending in *-ch* add *-es*: *impeaches*.
@@ -311,6 +329,7 @@ To formally charge a public official with serious misconduct in office.
 **Pronunciation:** /dɪˈvɔːrs/ &middot; *di-VORS*
 **Русский:** разводиться, развестись
 **Forms:** *divorce* &middot; *divorced* &middot; *divorced*
+**Verb class:** regular
 **Third person:** *divorces* &middot; **-ing form:** *divorcing*
 **Transitivity:** both — transitive (she divorced him), intransitive (they divorced last year)
 
@@ -327,6 +346,7 @@ To legally end a marriage.
 **Pronunciation:** /ˈstræŋɡəl/ &middot; *STRANG-guhl*
 **Русский:** душить, задушить
 **Forms:** *strangle* &middot; *strangled* &middot; *strangled*
+**Verb class:** regular
 **Third person:** *strangles* &middot; **-ing form:** *strangling*
 **Transitivity:** transitive
 
@@ -343,6 +363,7 @@ To kill someone by squeezing their throat so they cannot breathe.
 **Pronunciation:** /æbˈdʌkt/ &middot; *ab-DUKT*
 **Русский:** похищать, похитить (насильно увозить)
 **Forms:** *abduct* &middot; *abducted* &middot; *abducted*
+**Verb class:** regular
 **Third person:** *abducts* &middot; **-ing form:** *abducting*
 **Transitivity:** transitive
 
@@ -359,6 +380,7 @@ To take someone away illegally by force.
 **Pronunciation:** /mʌɡ/ &middot; *MUG*
 **Русский:** грабить (на улице), ограбить
 **Forms:** *mug* &middot; *mugged* &middot; *mugged*
+**Verb class:** regular
 **Third person:** *mugs* &middot; **-ing form:** *mugging*
 **Transitivity:** transitive
 **Contrast:** Double the *g*: *mugged*, *mugging*.
@@ -376,6 +398,7 @@ To attack someone in a public place and rob them.
 **Pronunciation:** /nɪˈɡlɛkt/ &middot; *ni-GLEKT*
 **Русский:** пренебрегать, не заботиться, запускать
 **Forms:** *neglect* &middot; *neglected* &middot; *neglected*
+**Verb class:** regular
 **Third person:** *neglects* &middot; **-ing form:** *neglecting*
 **Transitivity:** transitive
 
@@ -392,6 +415,7 @@ To fail to take care of someone or something you are responsible for.
 **Pronunciation:** /ɪnˈdeɪndʒər/ &middot; *in-DAYN-jur*
 **Русский:** подвергать опасности
 **Forms:** *endanger* &middot; *endangered* &middot; *endangered*
+**Verb class:** regular
 **Third person:** *endangers* &middot; **-ing form:** *endangering*
 **Transitivity:** transitive
 
@@ -408,6 +432,7 @@ To put someone or something in a dangerous situation.
 **Pronunciation:** /ˈʃɑːplɪft/ &middot; *SHAHP-lift*
 **Русский:** воровать в магазине
 **Forms:** *shoplift* &middot; *shoplifted* &middot; *shoplifted*
+**Verb class:** regular
 **Third person:** *shoplifts* &middot; **-ing form:** *shoplifting*
 **Transitivity:** both — transitive (shoplift a jacket), intransitive (caught shoplifting)
 
@@ -424,6 +449,7 @@ To steal goods from a store while pretending to be a customer.
 **Pronunciation:** /ˈbɜːrɡləraɪz/ &middot; *BUR-gluh-ryz*
 **Русский:** совершать кражу со взломом, обворовывать
 **Forms:** *burglarize* &middot; *burglarized* &middot; *burglarized*
+**Verb class:** regular
 **Third person:** *burglarizes* &middot; **-ing form:** *burglarizing*
 **Transitivity:** transitive
 **Contrast:** American English says *burglarize*; British English says *burgle*.
@@ -441,6 +467,7 @@ To break into a building in order to steal from it.
 **Pronunciation:** /ˈsmʌɡəl/ &middot; *SMUG-uhl*
 **Русский:** провозить контрабандой, переправлять тайно
 **Forms:** *smuggle* &middot; *smuggled* &middot; *smuggled*
+**Verb class:** regular
 **Third person:** *smuggles* &middot; **-ing form:** *smuggling*
 **Transitivity:** transitive
 
@@ -457,6 +484,7 @@ To move goods or people secretly and illegally across a border or into a place.
 **Pronunciation:** /ˈtræfɪk/ &middot; *TRAF-ik*
 **Русский:** торговать незаконно, заниматься незаконным оборотом
 **Forms:** *traffic* &middot; *trafficked* &middot; *trafficked*
+**Verb class:** regular
 **Third person:** *traffics* &middot; **-ing form:** *trafficking*
 **Transitivity:** both — transitive (traffic weapons), intransitive (traffic in stolen art)
 **Contrast:** A *k* appears before the ending: *trafficked*, *trafficking* — like *panic → panicked*.
@@ -474,6 +502,7 @@ To trade illegally in drugs, weapons or people.
 **Pronunciation:** /ˈkaʊntərfɪt/ &middot; *KOWN-tur-fit*
 **Русский:** подделывать, фальсифицировать
 **Forms:** *counterfeit* &middot; *counterfeited* &middot; *counterfeited*
+**Verb class:** regular
 **Third person:** *counterfeits* &middot; **-ing form:** *counterfeiting*
 **Transitivity:** transitive
 **Contrast:** The ending sounds like *-fit*, not *-feet*: KOWN-tur-fit.
@@ -491,6 +520,7 @@ To make an exact copy of money or goods in order to cheat people.
 **Pronunciation:** /hæk/ &middot; *HAK*
 **Русский:** взламывать (компьютер, систему)
 **Forms:** *hack* &middot; *hacked* &middot; *hacked*
+**Verb class:** regular
 **Third person:** *hacks* &middot; **-ing form:** *hacking*
 **Transitivity:** both — transitive (hack a server), intransitive (hack into a system)
 **Contrast:** With no direct object, you *hack* **into** a system.
@@ -508,6 +538,7 @@ To break into a computer system without permission.
 **Pronunciation:** /dɪˈfrɔːd/ &middot; *di-FRAWD*
 **Русский:** обманывать, выманивать деньги мошенническим путём
 **Forms:** *defraud* &middot; *defrauded* &middot; *defrauded*
+**Verb class:** regular
 **Third person:** *defrauds* &middot; **-ing form:** *defrauding*
 **Transitivity:** transitive
 **Contrast:** You *defraud* someone **of** their money.
@@ -525,6 +556,7 @@ To cheat a person or an organization out of money.
 **Pronunciation:** /skæm/ &middot; *SKAM*
 **Русский:** обманывать, надувать (мошенничать)
 **Forms:** *scam* &middot; *scammed* &middot; *scammed*
+**Verb class:** regular
 **Third person:** *scams* &middot; **-ing form:** *scamming*
 **Transitivity:** transitive
 **Contrast:** Double the *m*: *scammed*, *scamming*.
@@ -542,6 +574,7 @@ To trick someone into giving you money or personal information.
 **Pronunciation:** /ɪmˈbɛzəl/ &middot; *im-BEZ-uhl*
 **Русский:** растрачивать, присваивать (чужие средства)
 **Forms:** *embezzle* &middot; *embezzled* &middot; *embezzled*
+**Verb class:** regular
 **Third person:** *embezzles* &middot; **-ing form:** *embezzling*
 **Transitivity:** transitive
 
@@ -558,6 +591,7 @@ To steal money that your employer or your organization has put in your care.
 **Pronunciation:** /braɪb/ &middot; *BRYB*
 **Русский:** подкупать, давать взятку
 **Forms:** *bribe* &middot; *bribed* &middot; *bribed*
+**Verb class:** regular
 **Third person:** *bribes* &middot; **-ing form:** *bribing*
 **Transitivity:** transitive
 **Contrast:** The silent *e* drops before *-ing*: *bribing*.
@@ -575,6 +609,7 @@ To give someone money or gifts so that they will act dishonestly for you.
 **Pronunciation:** /ˈtæmpər/ &middot; *TAM-pur*
 **Русский:** вмешиваться, подделывать, портить
 **Forms:** *tamper* &middot; *tampered* &middot; *tampered*
+**Verb class:** regular
 **Third person:** *tampers* &middot; **-ing form:** *tampering*
 **Transitivity:** intransitive
 **Contrast:** *Tamper* always takes **with**.
@@ -592,6 +627,7 @@ To touch or change something you have no right to touch, in order to damage or f
 **Pronunciation:** /rɪɡ/ &middot; *RIG*
 **Русский:** подтасовывать, фальсифицировать
 **Forms:** *rig* &middot; *rigged* &middot; *rigged*
+**Verb class:** regular
 **Third person:** *rigs* &middot; **-ing form:** *rigging*
 **Transitivity:** transitive
 **Contrast:** Double the *g*: *rigged*, *rigging*.
@@ -609,6 +645,7 @@ To arrange a contest, a vote or a machine dishonestly so the result is fixed.
 **Pronunciation:** /trɪk/ &middot; *TRIK*
 **Русский:** обманывать, одурачивать
 **Forms:** *trick* &middot; *tricked* &middot; *tricked*
+**Verb class:** regular
 **Third person:** *tricks* &middot; **-ing form:** *tricking*
 **Transitivity:** transitive
 **Contrast:** You *trick* someone **into** doing something.
@@ -626,6 +663,7 @@ To deceive someone into doing or believing something.
 **Pronunciation:** /dɪˈsiːv/ &middot; *di-SEEV*
 **Русский:** обманывать, вводить в заблуждение
 **Forms:** *deceive* &middot; *deceived* &middot; *deceived*
+**Verb class:** regular
 **Third person:** *deceives* &middot; **-ing form:** *deceiving*
 **Transitivity:** transitive
 **Contrast:** It is *-ei-* after *c*: dec**ei**ve, not *decieve*.
@@ -643,6 +681,7 @@ To make someone believe something that is not true.
 **Pronunciation:** /ɪmˈpɜːrsəneɪt/ &middot; *im-PUR-suh-nayt*
 **Русский:** выдавать себя за другого, изображать
 **Forms:** *impersonate* &middot; *impersonated* &middot; *impersonated*
+**Verb class:** regular
 **Third person:** *impersonates* &middot; **-ing form:** *impersonating*
 **Transitivity:** transitive
 
@@ -659,6 +698,7 @@ To pretend to be another person in order to deceive people.
 **Pronunciation:** /məˈnɪpjəleɪt/ &middot; *muh-NIP-yuh-layt*
 **Русский:** манипулировать, подтасовывать
 **Forms:** *manipulate* &middot; *manipulated* &middot; *manipulated*
+**Verb class:** regular
 **Third person:** *manipulates* &middot; **-ing form:** *manipulating*
 **Transitivity:** transitive
 
@@ -675,6 +715,7 @@ To control people or figures dishonestly for your own advantage.
 **Pronunciation:** /ˈslændər/ &middot; *SLAN-dur*
 **Русский:** клеветать, порочить (устно)
 **Forms:** *slander* &middot; *slandered* &middot; *slandered*
+**Verb class:** regular
 **Third person:** *slanders* &middot; **-ing form:** *slandering*
 **Transitivity:** transitive
 **Contrast:** *Slander* is spoken; *libel* is written or printed.
@@ -692,6 +733,7 @@ To damage someone's reputation by saying false things about them out loud.
 **Pronunciation:** /ˈlaɪbəl/ &middot; *LY-buhl*
 **Русский:** клеветать в печати, порочить письменно
 **Forms:** *libel* &middot; *libeled* &middot; *libeled*
+**Verb class:** regular
 **Third person:** *libels* &middot; **-ing form:** *libeling*
 **Transitivity:** transitive
 **Contrast:** American English keeps one *l*: *libeled*, *libeling* (British *libelled*).
@@ -709,6 +751,7 @@ To damage someone's reputation by publishing false statements about them.
 **Pronunciation:** /ˈpɜːrdʒər/ &middot; *PUR-jur*
 **Русский:** лжесвидетельствовать, давать ложные показания
 **Forms:** *perjure* &middot; *perjured* &middot; *perjured*
+**Verb class:** regular
 **Third person:** *perjures* &middot; **-ing form:** *perjuring*
 **Transitivity:** transitive
 **Contrast:** *Perjure* is used only with *myself, yourself, himself, herself*.
@@ -726,6 +769,7 @@ To tell a deliberate lie in court after swearing to tell the truth.
 **Pronunciation:** /ˈtrɛspəs/ &middot; *TRES-puhs*
 **Русский:** незаконно проникать на чужую территорию
 **Forms:** *trespass* &middot; *trespassed* &middot; *trespassed*
+**Verb class:** regular
 **Third person:** *trespasses* &middot; **-ing form:** *trespassing*
 **Transitivity:** intransitive
 **Contrast:** You *trespass* **on** someone's property; the sign reads NO TRESPASSING.
@@ -743,6 +787,7 @@ To go onto someone's land or into their property without permission.
 **Pronunciation:** /əbˈstrʌkt/ &middot; *uhb-STRUKT*
 **Русский:** препятствовать, чинить препятствия
 **Forms:** *obstruct* &middot; *obstructed* &middot; *obstructed*
+**Verb class:** regular
 **Third person:** *obstructs* &middot; **-ing form:** *obstructing*
 **Transitivity:** transitive
 
@@ -759,6 +804,7 @@ To deliberately get in the way of an official process.
 **Pronunciation:** /ɪnˈsaɪt/ &middot; *in-SYT*
 **Русский:** подстрекать, разжигать
 **Forms:** *incite* &middot; *incited* &middot; *incited*
+**Verb class:** regular
 **Third person:** *incites* &middot; **-ing form:** *inciting*
 **Transitivity:** transitive
 **Contrast:** *Incite* (stir up) sounds exactly like *insight* (understanding).
@@ -776,6 +822,7 @@ To urge people on to violence or disorder.
 **Pronunciation:** /ˈɡæmbəl/ &middot; *GAM-buhl*
 **Русский:** играть в азартные игры
 **Forms:** *gamble* &middot; *gambled* &middot; *gambled*
+**Verb class:** regular
 **Third person:** *gambles* &middot; **-ing form:** *gambling*
 **Transitivity:** intransitive
 
@@ -792,6 +839,7 @@ To play games of chance for money, which is regulated or banned in many places.
 **Pronunciation:** /dɪˈskrɪmɪneɪt/ &middot; *di-SKRIM-uh-nayt*
 **Русский:** дискриминировать, проявлять дискриминацию
 **Forms:** *discriminate* &middot; *discriminated* &middot; *discriminated*
+**Verb class:** regular
 **Third person:** *discriminates* &middot; **-ing form:** *discriminating*
 **Transitivity:** intransitive
 **Contrast:** *Discriminate* takes **against**.
@@ -809,6 +857,7 @@ To treat a person worse than others because of race, sex, age or religion.
 **Pronunciation:** /ˈpiːnəlaɪz/ &middot; *PEE-nuh-lyz*
 **Русский:** штрафовать, наказывать
 **Forms:** *penalize* &middot; *penalized* &middot; *penalized*
+**Verb class:** regular
 **Third person:** *penalizes* &middot; **-ing form:** *penalizing*
 **Transitivity:** transitive
 **Contrast:** The first syllable is PEE-, though the noun *penalty* starts PEN-. American spelling uses *-ize*.
@@ -826,6 +875,7 @@ To punish someone, usually with a fine or a loss of rights.
 **Pronunciation:** /ɪnˈkɑːrsəreɪt/ &middot; *in-KAHR-suh-rayt*
 **Русский:** заключать под стражу, лишать свободы
 **Forms:** *incarcerate* &middot; *incarcerated* &middot; *incarcerated*
+**Verb class:** regular
 **Third person:** *incarcerates* &middot; **-ing form:** *incarcerating*
 **Transitivity:** transitive
 
@@ -842,6 +892,7 @@ To shut someone up in a prison or jail; a formal word common in American reporti
 **Pronunciation:** /ˈpɑːrdən/ &middot; *PAHR-duhn*
 **Русский:** помиловать, миловать
 **Forms:** *pardon* &middot; *pardoned* &middot; *pardoned*
+**Verb class:** regular
 **Third person:** *pardons* &middot; **-ing form:** *pardoning*
 **Transitivity:** transitive
 
@@ -858,6 +909,7 @@ To officially forgive a crime and cancel the punishment.
 **Pronunciation:** /pəˈroʊl/ &middot; *puh-ROHL*
 **Русский:** освобождать условно-досрочно
 **Forms:** *parole* &middot; *paroled* &middot; *paroled*
+**Verb class:** regular
 **Third person:** *paroles* &middot; **-ing form:** *paroling*
 **Transitivity:** transitive
 
@@ -874,6 +926,7 @@ To release a prisoner early on condition of good behavior.
 **Pronunciation:** /dɪˈpɔːrt/ &middot; *di-PORT*
 **Русский:** депортировать, высылать из страны
 **Forms:** *deport* &middot; *deported* &middot; *deported*
+**Verb class:** regular
 **Third person:** *deports* &middot; **-ing form:** *deporting*
 **Transitivity:** transitive
 
@@ -890,6 +943,7 @@ To force a foreign national to leave the country.
 **Pronunciation:** /ˈɛkstrədaɪt/ &middot; *EK-struh-dyt*
 **Русский:** выдавать (преступника другому государству), экстрадировать
 **Forms:** *extradite* &middot; *extradited* &middot; *extradited*
+**Verb class:** regular
 **Third person:** *extradites* &middot; **-ing form:** *extraditing*
 **Transitivity:** transitive
 
@@ -906,6 +960,7 @@ To hand a suspect over to another country for trial.
 **Pronunciation:** /ɪkˈspɛl/ &middot; *ik-SPEL*
 **Русский:** исключать, выгонять; высылать
 **Forms:** *expel* &middot; *expelled* &middot; *expelled*
+**Verb class:** regular
 **Third person:** *expels* &middot; **-ing form:** *expelling*
 **Transitivity:** transitive
 **Contrast:** Double the *l*: *expelled*, *expelling* — the stress is on the last syllable.
@@ -923,6 +978,7 @@ To force someone officially to leave a school, an organization or a country.
 **Pronunciation:** /ɪˈvɪkt/ &middot; *i-VIKT*
 **Русский:** выселять, выселить
 **Forms:** *evict* &middot; *evicted* &middot; *evicted*
+**Verb class:** regular
 **Third person:** *evicts* &middot; **-ing form:** *evicting*
 **Transitivity:** transitive
 
@@ -939,6 +995,7 @@ To legally force a tenant to leave a property.
 **Pronunciation:** /ˈdɪsəplɪn/ &middot; *DIS-uh-plin*
 **Русский:** наказывать, привлекать к дисциплинарной ответственности
 **Forms:** *discipline* &middot; *disciplined* &middot; *disciplined*
+**Verb class:** regular
 **Third person:** *disciplines* &middot; **-ing form:** *disciplining*
 **Transitivity:** transitive
 **Contrast:** Stress the first syllable, DIS-uh-plin; the last syllable rhymes with *pin*, not *pine*.
@@ -956,6 +1013,7 @@ To punish a member of an organization for breaking its rules.
 **Pronunciation:** /ˌriːəˈbɪlɪteɪt/ &middot; *ree-uh-BIL-i-tayt*
 **Русский:** перевоспитывать, реабилитировать
 **Forms:** *rehabilitate* &middot; *rehabilitated* &middot; *rehabilitated*
+**Verb class:** regular
 **Third person:** *rehabilitates* &middot; **-ing form:** *rehabilitating*
 **Transitivity:** transitive
 
@@ -972,6 +1030,7 @@ To help an offender change so that they can live a normal life again.
 **Pronunciation:** /rɪˈfɔːrm/ &middot; *ri-FORM*
 **Русский:** реформировать; исправлять(ся)
 **Forms:** *reform* &middot; *reformed* &middot; *reformed*
+**Verb class:** regular
 **Third person:** *reforms* &middot; **-ing form:** *reforming*
 **Transitivity:** both — transitive (reform the law), intransitive (he has reformed)
 
@@ -988,6 +1047,7 @@ To change a system for the better, or to change your own behavior for the better
 **Pronunciation:** /bæn/ &middot; *BAN*
 **Русский:** запрещать, запретить
 **Forms:** *ban* &middot; *banned* &middot; *banned*
+**Verb class:** regular
 **Third person:** *bans* &middot; **-ing form:** *banning*
 **Transitivity:** transitive
 **Contrast:** Double the *n*: *banned*, *banning*. You are *banned* **from** a place or an activity.
@@ -1005,6 +1065,7 @@ To forbid something officially.
 **Pronunciation:** /prəˈhɪbɪt/ &middot; *pruh-HIB-it*
 **Русский:** запрещать, воспрещать
 **Forms:** *prohibit* &middot; *prohibited* &middot; *prohibited*
+**Verb class:** regular
 **Third person:** *prohibits* &middot; **-ing form:** *prohibiting*
 **Transitivity:** transitive
 **Contrast:** You are *prohibited* **from** doing something. The last syllable is unstressed, so nothing doubles: *prohibited*.
@@ -1022,6 +1083,7 @@ To forbid something by law or by a formal rule.
 **Pronunciation:** /rɪˈstrɪkt/ &middot; *ri-STRIKT*
 **Русский:** ограничивать, ограничить
 **Forms:** *restrict* &middot; *restricted* &middot; *restricted*
+**Verb class:** regular
 **Third person:** *restricts* &middot; **-ing form:** *restricting*
 **Transitivity:** transitive
 **Contrast:** You *restrict* something **to** a limit.
@@ -1039,6 +1101,7 @@ To set limits on what someone may do or have.
 **Pronunciation:** /səˈspɛnd/ &middot; *suh-SPEND*
 **Русский:** приостанавливать, временно отстранять
 **Forms:** *suspend* &middot; *suspended* &middot; *suspended*
+**Verb class:** regular
 **Third person:** *suspends* &middot; **-ing form:** *suspending*
 **Transitivity:** transitive
 
@@ -1055,6 +1118,7 @@ To stop something for a time, or to bar someone from a job or a right temporaril
 **Pronunciation:** /rɪˈvoʊk/ &middot; *ri-VOHK*
 **Русский:** отзывать, аннулировать, лишать (права)
 **Forms:** *revoke* &middot; *revoked* &middot; *revoked*
+**Verb class:** regular
 **Third person:** *revokes* &middot; **-ing form:** *revoking*
 **Transitivity:** transitive
 
@@ -1071,6 +1135,7 @@ To cancel a permission, a license or a right that was granted before.
 **Pronunciation:** /ˈliːɡəlaɪz/ &middot; *LEE-guh-lyz*
 **Русский:** легализовать, узаконивать
 **Forms:** *legalize* &middot; *legalized* &middot; *legalized*
+**Verb class:** regular
 **Third person:** *legalizes* &middot; **-ing form:** *legalizing*
 **Transitivity:** transitive
 **Contrast:** American spelling uses *-ize*: *legalize* (British *legalise*).
@@ -1088,6 +1153,7 @@ To make something lawful that used to be a crime.
 **Pronunciation:** /ˈaʊtlɔː/ &middot; *OWT-law*
 **Русский:** объявлять вне закона, запрещать
 **Forms:** *outlaw* &middot; *outlawed* &middot; *outlawed*
+**Verb class:** regular
 **Third person:** *outlaws* &middot; **-ing form:** *outlawing*
 **Transitivity:** transitive
 
@@ -1104,6 +1170,7 @@ To make something illegal.
 **Pronunciation:** /ˈrɛɡjəleɪt/ &middot; *REG-yuh-layt*
 **Русский:** регулировать, регламентировать
 **Forms:** *regulate* &middot; *regulated* &middot; *regulated*
+**Verb class:** regular
 **Third person:** *regulates* &middot; **-ing form:** *regulating*
 **Transitivity:** transitive
 
@@ -1120,6 +1187,7 @@ To control an activity by official rules.
 **Pronunciation:** /rɪˈpiːl/ &middot; *ri-PEEL*
 **Русский:** отменять (закон), аннулировать
 **Forms:** *repeal* &middot; *repealed* &middot; *repealed*
+**Verb class:** regular
 **Third person:** *repeals* &middot; **-ing form:** *repealing*
 **Transitivity:** transitive
 
@@ -1136,6 +1204,7 @@ To officially cancel a law so that it no longer applies.
 **Pronunciation:** /ɪˈnækt/ &middot; *i-NAKT*
 **Русский:** принимать (закон), вводить в действие
 **Forms:** *enact* &middot; *enacted* &middot; *enacted*
+**Verb class:** regular
 **Third person:** *enacts* &middot; **-ing form:** *enacting*
 **Transitivity:** transitive
 
@@ -1152,6 +1221,7 @@ To make a bill into a law.
 **Pronunciation:** /ˈrætɪfaɪ/ &middot; *RAT-i-fy*
 **Русский:** ратифицировать, утверждать
 **Forms:** *ratify* &middot; *ratified* &middot; *ratified*
+**Verb class:** regular
 **Third person:** *ratifies* &middot; **-ing form:** *ratifying*
 **Transitivity:** transitive
 **Contrast:** The *y* becomes *i*: *ratifies*, *ratified*.
@@ -1169,6 +1239,7 @@ To give formal approval to a treaty or an amendment so that it takes effect.
 **Pronunciation:** /ˈviːtoʊ/ &middot; *VEE-toh*
 **Русский:** налагать вето, отклонять
 **Forms:** *veto* &middot; *vetoed* &middot; *vetoed*
+**Verb class:** regular
 **Third person:** *vetoes* &middot; **-ing form:** *vetoing*
 **Transitivity:** transitive
 **Contrast:** The third-person form takes *-es*: *vetoes*.
@@ -1186,6 +1257,7 @@ For a president or a governor, to refuse to approve a bill.
 **Pronunciation:** /ˈsæŋkʃən/ &middot; *SANK-shuhn*
 **Русский:** применять санкции, наказывать
 **Forms:** *sanction* &middot; *sanctioned* &middot; *sanctioned*
+**Verb class:** regular
 **Third person:** *sanctions* &middot; **-ing form:** *sanctioning*
 **Transitivity:** transitive
 **Contrast:** *Sanction* has two opposite senses: to punish, and to approve officially. The context decides.
@@ -1203,6 +1275,7 @@ To impose an official penalty on a person, a firm or a country.
 **Pronunciation:** /dɪsˈkwɑːlɪfaɪ/ &middot; *dis-KWAH-li-fy*
 **Русский:** дисквалифицировать, лишать права
 **Forms:** *disqualify* &middot; *disqualified* &middot; *disqualified*
+**Verb class:** regular
 **Third person:** *disqualifies* &middot; **-ing form:** *disqualifying*
 **Transitivity:** transitive
 **Contrast:** The *y* becomes *i*: *disqualifies*, *disqualified*.
@@ -1220,6 +1293,7 @@ To rule that someone may not take part or hold a position.
 **Pronunciation:** /ˈtɪkɪt/ &middot; *TIK-it*
 **Русский:** выписывать штраф, штрафовать (за нарушение)
 **Forms:** *ticket* &middot; *ticketed* &middot; *ticketed*
+**Verb class:** regular
 **Third person:** *tickets* &middot; **-ing form:** *ticketing*
 **Transitivity:** transitive
 **Contrast:** The ending is unstressed, so there is no doubling: *ticketed*, not *ticketted*.
@@ -1237,6 +1311,7 @@ To give someone an official notice of a traffic or parking fine.
 **Pronunciation:** /ɪmˈpaʊnd/ &middot; *im-POWND*
 **Русский:** конфисковать, помещать на штрафстоянку
 **Forms:** *impound* &middot; *impounded* &middot; *impounded*
+**Verb class:** regular
 **Third person:** *impounds* &middot; **-ing form:** *impounding*
 **Transitivity:** transitive
 

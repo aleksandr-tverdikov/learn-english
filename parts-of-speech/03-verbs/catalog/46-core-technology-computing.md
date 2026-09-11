@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /ˈoʊpən/ &middot; *OH-puhn*
 **Русский:** открывать, открыть; запускать, запустить (программу)
 **Forms:** *open* &middot; *opened* &middot; *opened*
+**Verb class:** regular
 **Third person:** *opens* &middot; **-ing form:** *opening*
 **Transitivity:** both — transitive (open the app), intransitive (the file opens slowly)
 **Contrast:** No doubled n: opened, opening. The stress is on the first syllable, so the consonant stays single.
@@ -31,6 +32,7 @@ To make a file, app, or window appear on a screen so you can use it.
 **Pronunciation:** /kloʊz/ &middot; *KLOHZ*
 **Русский:** закрывать, закрыть
 **Forms:** *close* &middot; *closed* &middot; *closed*
+**Verb class:** regular
 **Third person:** *closes* &middot; **-ing form:** *closing*
 **Transitivity:** both — transitive (close the window), intransitive (the app closed by itself)
 **Contrast:** The verb ends in a z sound (KLOHZ). The adjective close, meaning near, ends in an s sound (KLOHS).
@@ -48,6 +50,7 @@ To make a file, window, or program stop being open.
 **Pronunciation:** /ˈmɪnɪmaɪz/ &middot; *MIN-uh-myz*
 **Русский:** сворачивать, свернуть (окно); минимизировать
 **Forms:** *minimize* &middot; *minimized* &middot; *minimized*
+**Verb class:** regular
 **Third person:** *minimizes* &middot; **-ing form:** *minimizing*
 **Transitivity:** transitive
 **Contrast:** American spelling uses -ize: minimize, minimized. British writing has minimise.
@@ -65,6 +68,7 @@ To shrink a window down to the taskbar without closing it.
 **Pronunciation:** /ˈmæksɪmaɪz/ &middot; *MAK-suh-myz*
 **Русский:** разворачивать, развернуть (окно на весь экран); максимизировать
 **Forms:** *maximize* &middot; *maximized* &middot; *maximized*
+**Verb class:** regular
 **Third person:** *maximizes* &middot; **-ing form:** *maximizing*
 **Transitivity:** transitive
 
@@ -81,6 +85,7 @@ To make a window fill the whole screen.
 **Pronunciation:** /ˌriːˈsaɪz/ &middot; *ree-SYZ*
 **Русский:** изменять размер, изменить размер
 **Forms:** *resize* &middot; *resized* &middot; *resized*
+**Verb class:** regular
 **Third person:** *resizes* &middot; **-ing form:** *resizing*
 **Transitivity:** transitive
 
@@ -97,6 +102,7 @@ To make a picture or a window bigger or smaller.
 **Pronunciation:** /ˌriːˈloʊd/ &middot; *ree-LOHD*
 **Русский:** перезагружать, перезагрузить (страницу); загружать заново
 **Forms:** *reload* &middot; *reloaded* &middot; *reloaded*
+**Verb class:** regular
 **Third person:** *reloads* &middot; **-ing form:** *reloading*
 **Transitivity:** both — transitive (reload the page), intransitive (the page reloaded by itself)
 
@@ -113,6 +119,7 @@ To load a page or a file again.
 **Pronunciation:** /ˈtɑːɡəl/ &middot; *TAH-guhl*
 **Русский:** переключать, переключить (между двумя состояниями)
 **Forms:** *toggle* &middot; *toggled* &middot; *toggled*
+**Verb class:** regular
 **Third person:** *toggles* &middot; **-ing form:** *toggling*
 **Transitivity:** both — transitive (toggle the setting), intransitive (toggle between the two views)
 **Contrast:** Drop the -e before -ing: toggling.
@@ -130,6 +137,7 @@ To switch a setting on or off, or to move back and forth between two options.
 **Pronunciation:** /kəmˈprɛs/ &middot; *kuhm-PRESS*
 **Русский:** сжимать, сжать (файл); архивировать
 **Forms:** *compress* &middot; *compressed* &middot; *compressed*
+**Verb class:** regular
 **Third person:** *compresses* &middot; **-ing form:** *compressing*
 **Transitivity:** transitive
 **Contrast:** Third person adds -es after -ss: compresses.
@@ -147,6 +155,7 @@ To make a file smaller so that it takes less space or sends faster.
 **Pronunciation:** /ɪkˈstrækt/ &middot; *ik-STRAKT*
 **Русский:** извлекать, извлечь; распаковывать, распаковать
 **Forms:** *extract* &middot; *extracted* &middot; *extracted*
+**Verb class:** regular
 **Third person:** *extracts* &middot; **-ing form:** *extracting*
 **Transitivity:** transitive
 **Contrast:** The verb is ik-STRAKT; the noun extract (a short passage) is EK-strakt.
@@ -164,6 +173,7 @@ To pull files or data out of an archive or a larger set.
 **Pronunciation:** /ɪnˈkrɪpt/ &middot; *in-KRIPT*
 **Русский:** шифровать, зашифровать
 **Forms:** *encrypt* &middot; *encrypted* &middot; *encrypted*
+**Verb class:** regular
 **Third person:** *encrypts* &middot; **-ing form:** *encrypting*
 **Transitivity:** transitive
 
@@ -180,6 +190,7 @@ To turn data into code so that only the right person can read it.
 **Pronunciation:** /diːˈkrɪpt/ &middot; *dee-KRIPT*
 **Русский:** расшифровывать, расшифровать; дешифровать
 **Forms:** *decrypt* &middot; *decrypted* &middot; *decrypted*
+**Verb class:** regular
 **Third person:** *decrypts* &middot; **-ing form:** *decrypting*
 **Transitivity:** transitive
 
@@ -196,6 +207,7 @@ To turn coded data back into a readable form.
 **Pronunciation:** /ˈɪndɛks/ &middot; *IN-deks*
 **Русский:** индексировать, проиндексировать
 **Forms:** *index* &middot; *indexed* &middot; *indexed*
+**Verb class:** regular
 **Third person:** *indexes* &middot; **-ing form:** *indexing*
 **Transitivity:** transitive
 **Contrast:** Third person adds -es after -x: indexes.
@@ -213,6 +225,7 @@ To list and organize data so that it can be searched quickly.
 **Pronunciation:** /ˈkwɪri/ &middot; *KWEER-ee*
 **Русский:** запрашивать, запросить; делать запрос
 **Forms:** *query* &middot; *queried* &middot; *queried*
+**Verb class:** regular
 **Third person:** *queries* &middot; **-ing form:** *querying*
 **Transitivity:** transitive
 **Contrast:** Consonant + y, so the y changes: queries, queried. The -ing form keeps it: querying.
@@ -230,6 +243,7 @@ To ask a database or a system for particular information.
 **Pronunciation:** /kæʃ/ &middot; *KASH*
 **Русский:** кэшировать, закэшировать; сохранять в кэш
 **Forms:** *cache* &middot; *cached* &middot; *cached*
+**Verb class:** regular
 **Third person:** *caches* &middot; **-ing form:** *caching*
 **Transitivity:** transitive
 **Contrast:** Cache is pronounced exactly like cash, not ka-SHAY.
@@ -247,6 +261,7 @@ To store data for a short time so that it loads faster the next time.
 **Pronunciation:** /ɪmˈbɛd/ &middot; *im-BED*
 **Русский:** встраивать, встроить (видео, код)
 **Forms:** *embed* &middot; *embedded* &middot; *embedded*
+**Verb class:** regular
 **Third person:** *embeds* &middot; **-ing form:** *embedding*
 **Transitivity:** transitive
 **Contrast:** Double the d: embedded, embedding.
@@ -264,6 +279,7 @@ To put a video, a map, or a piece of code inside a page or a document.
 **Pronunciation:** /ˈdɪdʒɪtaɪz/ &middot; *DIJ-uh-tyz*
 **Русский:** оцифровывать, оцифровать
 **Forms:** *digitize* &middot; *digitized* &middot; *digitized*
+**Verb class:** regular
 **Third person:** *digitizes* &middot; **-ing form:** *digitizing*
 **Transitivity:** transitive
 **Contrast:** American -ize; British writing has digitise.
@@ -281,6 +297,7 @@ To turn paper documents, photos, or tapes into computer files.
 **Pronunciation:** /ˌdɪskəˈnɛkt/ &middot; *dis-kuh-NEKT*
 **Русский:** отключать, отключить; разъединять, разъединить
 **Forms:** *disconnect* &middot; *disconnected* &middot; *disconnected*
+**Verb class:** regular
 **Third person:** *disconnects* &middot; **-ing form:** *disconnecting*
 **Transitivity:** both — transitive (disconnect the drive), intransitive (my phone keeps disconnecting)
 **Contrast:** You disconnect FROM a network.
@@ -298,6 +315,7 @@ To break the link between a device and a network or another device.
 **Pronunciation:** /ˌriːkəˈnɛkt/ &middot; *ree-kuh-NEKT*
 **Русский:** переподключать, переподключить; снова соединять, соединиться
 **Forms:** *reconnect* &middot; *reconnected* &middot; *reconnected*
+**Verb class:** regular
 **Third person:** *reconnects* &middot; **-ing form:** *reconnecting*
 **Transitivity:** both — transitive (reconnect the printer), intransitive (the call reconnected on its own)
 
@@ -314,6 +332,7 @@ To join a device or a call back to a network after it was cut off.
 **Pronunciation:** /ˌʌnˈplʌɡ/ &middot; *un-PLUG*
 **Русский:** отключать от сети, отключить; выдёргивать из розетки
 **Forms:** *unplug* &middot; *unplugged* &middot; *unplugged*
+**Verb class:** regular
 **Third person:** *unplugs* &middot; **-ing form:** *unplugging*
 **Transitivity:** transitive
 **Contrast:** Double the g: unplugged, unplugging.
@@ -331,6 +350,7 @@ To pull a plug or a cable out of a socket or a device.
 **Pronunciation:** /ˌriːˈtʃɑːrdʒ/ &middot; *ree-CHARJ*
 **Русский:** перезаряжать, перезарядить; подзаряжать, подзарядить
 **Forms:** *recharge* &middot; *recharged* &middot; *recharged*
+**Verb class:** regular
 **Third person:** *recharges* &middot; **-ing form:** *recharging*
 **Transitivity:** both — transitive (recharge the battery), intransitive (the case recharges in an hour)
 **Contrast:** Third person adds -es after -ge: recharges.
@@ -348,6 +368,7 @@ To fill a battery with power again.
 **Pronunciation:** /ˈpaʊər/ &middot; *POW-ur*
 **Русский:** питать (энергией), обеспечивать питанием
 **Forms:** *power* &middot; *powered* &middot; *powered*
+**Verb class:** regular
 **Third person:** *powers* &middot; **-ing form:** *powering*
 **Transitivity:** transitive
 **Contrast:** Power up and power down are separate phrasal verbs.
@@ -365,6 +386,7 @@ To supply a device with the electricity it needs to run.
 **Pronunciation:** /swɪtʃ/ &middot; *SWICH*
 **Русский:** переключать, переключить; менять, поменять
 **Forms:** *switch* &middot; *switched* &middot; *switched*
+**Verb class:** regular
 **Third person:** *switches* &middot; **-ing form:** *switching*
 **Transitivity:** both — transitive (switch the setting), intransitive (we switched to a new provider)
 **Contrast:** Third person adds -es after -ch: switches. You switch TO a new plan and switch FROM the old one.
@@ -382,6 +404,7 @@ To change from one thing, setting, or service to another.
 **Pronunciation:** /buːt/ &middot; *BOOT*
 **Русский:** загружаться, загрузиться (о компьютере); загружать систему
 **Forms:** *boot* &middot; *booted* &middot; *booted*
+**Verb class:** regular
 **Third person:** *boots* &middot; **-ing form:** *booting*
 **Transitivity:** both — transitive (boot the machine from a USB drive), intransitive (the laptop boots in ten seconds)
 
@@ -398,6 +421,7 @@ To start a computer so that the operating system loads.
 **Pronunciation:** /ˌriːˈbuːt/ &middot; *ree-BOOT*
 **Русский:** перезагружать, перезагрузить
 **Forms:** *reboot* &middot; *rebooted* &middot; *rebooted*
+**Verb class:** regular
 **Third person:** *reboots* &middot; **-ing form:** *rebooting*
 **Transitivity:** both — transitive (reboot the router), intransitive (the server rebooted overnight)
 
@@ -414,6 +438,7 @@ To start a computer or device again after shutting it down.
 **Pronunciation:** /ˌriːˈstɑːrt/ &middot; *ree-START*
 **Русский:** перезапускать, перезапустить
 **Forms:** *restart* &middot; *restarted* &middot; *restarted*
+**Verb class:** regular
 **Third person:** *restarts* &middot; **-ing form:** *restarting*
 **Transitivity:** both — transitive (restart the app), intransitive (the phone restarted by itself)
 
@@ -430,6 +455,7 @@ To stop a program or a device and start it again right away.
 **Pronunciation:** /ˈlaɪvstriːm/ &middot; *LYV-streem*
 **Русский:** вести прямую трансляцию, транслировать в прямом эфире
 **Forms:** *livestream* &middot; *livestreamed* &middot; *livestreamed*
+**Verb class:** regular
 **Third person:** *livestreams* &middot; **-ing form:** *livestreaming*
 **Transitivity:** both — transitive (livestream the ceremony), intransitive (she livestreams every Friday)
 **Contrast:** Written as one word or as live-stream; both are common. The first part rhymes with five, not with give.
@@ -447,6 +473,7 @@ To broadcast an event over the internet while it is happening.
 **Pronunciation:** /ˈbʌfər/ &middot; *BUF-ur*
 **Русский:** буферизовать, подгружать (данные заранее)
 **Forms:** *buffer* &middot; *buffered* &middot; *buffered*
+**Verb class:** regular
 **Third person:** *buffers* &middot; **-ing form:** *buffering*
 **Transitivity:** both — transitive (the player buffers a few seconds of video), intransitive (the stream keeps buffering)
 
@@ -463,6 +490,7 @@ To load part of a video or a song in advance so that it plays without stopping.
 **Pronunciation:** /læɡ/ &middot; *LAG*
 **Русский:** тормозить, подтормаживать; отставать, отстать
 **Forms:** *lag* &middot; *lagged* &middot; *lagged*
+**Verb class:** regular
 **Third person:** *lags* &middot; **-ing form:** *lagging*
 **Transitivity:** intransitive
 **Contrast:** Double the g: lagged, lagging.
@@ -480,6 +508,7 @@ To respond slowly, so that the picture or the sound falls behind.
 **Pronunciation:** /trænsˈmɪt/ &middot; *trans-MIT*
 **Русский:** передавать, передать (сигнал, данные)
 **Forms:** *transmit* &middot; *transmitted* &middot; *transmitted*
+**Verb class:** regular
 **Third person:** *transmits* &middot; **-ing form:** *transmitting*
 **Transitivity:** both — transitive (transmit the data), intransitive (the beacon transmits every hour)
 **Contrast:** Double the t: transmitted, transmitting - the stress falls on the last syllable.
@@ -497,6 +526,7 @@ To send data or a signal from one place to another.
 **Pronunciation:** /ruːt/ &middot; *ROOT*
 **Русский:** направлять, направить (трафик, звонок); маршрутизировать
 **Forms:** *route* &middot; *routed* &middot; *routed*
+**Verb class:** regular
 **Third person:** *routes* &middot; **-ing form:** *routing*
 **Transitivity:** transitive
 **Contrast:** Most Americans say ROOT, like the root of a tree; ROWT is also heard. The -ing form keeps the e: routing.
@@ -514,6 +544,7 @@ To send data, calls, or traffic along a particular path.
 **Pronunciation:** /pɪŋ/ &middot; *PING*
 **Русский:** пинговать (проверять связь); писать, написать (короткое сообщение)
 **Forms:** *ping* &middot; *pinged* &middot; *pinged*
+**Verb class:** regular
 **Third person:** *pings* &middot; **-ing form:** *pinging*
 **Transitivity:** both — transitive (ping me when you land), intransitive (the phone pings all day)
 
@@ -530,6 +561,7 @@ To send a short signal or message to a device or a person.
 **Pronunciation:** /ˈmɪrər/ &middot; *MEER-ur*
 **Русский:** дублировать (экран), зеркалировать
 **Forms:** *mirror* &middot; *mirrored* &middot; *mirrored*
+**Verb class:** regular
 **Third person:** *mirrors* &middot; **-ing form:** *mirroring*
 **Transitivity:** transitive
 
@@ -546,6 +578,7 @@ To show the picture from one screen on another, or to keep an identical copy of 
 **Pronunciation:** /ˈtɛðər/ &middot; *TETH-ur*
 **Русский:** раздавать интернет с телефона, использовать телефон как модем
 **Forms:** *tether* &middot; *tethered* &middot; *tethered*
+**Verb class:** regular
 **Third person:** *tethers* &middot; **-ing form:** *tethering*
 **Transitivity:** both — transitive (tether the laptop to your phone), intransitive (we tethered all week)
 **Contrast:** You tether one device TO another.
@@ -563,6 +596,7 @@ To connect a computer to the internet through a phone's data connection.
 **Pronunciation:** /ˌʌnɪnˈstɔːl/ &middot; *un-in-STAWL*
 **Русский:** удалять (программу), удалить; деинсталлировать
 **Forms:** *uninstall* &middot; *uninstalled* &middot; *uninstalled*
+**Verb class:** regular
 **Third person:** *uninstalls* &middot; **-ing form:** *uninstalling*
 **Transitivity:** transitive
 **Contrast:** The base already ends in -ll, so the forms look heavy but are regular: uninstalled, uninstalling.
@@ -580,6 +614,7 @@ To remove a program from a computer or a phone.
 **Pronunciation:** /ˌriːɪnˈstɔːl/ &middot; *ree-in-STAWL*
 **Русский:** переустанавливать, переустановить
 **Forms:** *reinstall* &middot; *reinstalled* &middot; *reinstalled*
+**Verb class:** regular
 **Third person:** *reinstalls* &middot; **-ing form:** *reinstalling*
 **Transitivity:** transitive
 
@@ -596,6 +631,7 @@ To install a program or a system again after removing it.
 **Pronunciation:** /ˈdaʊnɡreɪd/ &middot; *DOWN-grayd*
 **Русский:** понижать версию, понизить; переходить на более дешёвый тариф
 **Forms:** *downgrade* &middot; *downgraded* &middot; *downgraded*
+**Verb class:** regular
 **Third person:** *downgrades* &middot; **-ing form:** *downgrading*
 **Transitivity:** both — transitive (downgrade the software), intransitive (we downgraded to the free plan)
 **Contrast:** The opposite of upgrade. Drop the -e before -ing: downgrading.
@@ -613,6 +649,7 @@ To move to a lower, cheaper, or older version of software or a plan.
 **Pronunciation:** /ˌdiːˈbʌɡ/ &middot; *dee-BUG*
 **Русский:** отлаживать, отладить; искать и исправлять ошибки
 **Forms:** *debug* &middot; *debugged* &middot; *debugged*
+**Verb class:** regular
 **Third person:** *debugs* &middot; **-ing form:** *debugging*
 **Transitivity:** both — transitive (debug the code), intransitive (he debugs all day)
 **Contrast:** Double the g: debugged, debugging.
@@ -630,6 +667,7 @@ To find and fix the errors in a program.
 **Pronunciation:** /ˈsɪmjəleɪt/ &middot; *SIM-yuh-layt*
 **Русский:** моделировать, смоделировать; имитировать
 **Forms:** *simulate* &middot; *simulated* &middot; *simulated*
+**Verb class:** regular
 **Third person:** *simulates* &middot; **-ing form:** *simulating*
 **Transitivity:** transitive
 
@@ -646,6 +684,7 @@ To use a computer to copy the way something works in real life.
 **Pronunciation:** /ˈɛmjəleɪt/ &middot; *EM-yuh-layt*
 **Русский:** эмулировать; имитировать работу (другой системы)
 **Forms:** *emulate* &middot; *emulated* &middot; *emulated*
+**Verb class:** regular
 **Third person:** *emulates* &middot; **-ing form:** *emulating*
 **Transitivity:** transitive
 
@@ -662,6 +701,7 @@ To make one system behave exactly like another.
 **Pronunciation:** /kəmˈpjuːt/ &middot; *kuhm-PYOOT*
 **Русский:** вычислять, вычислить; рассчитывать, рассчитать
 **Forms:** *compute* &middot; *computed* &middot; *computed*
+**Verb class:** regular
 **Third person:** *computes* &middot; **-ing form:** *computing*
 **Transitivity:** transitive
 
@@ -678,6 +718,7 @@ To work out a result by calculation, usually with a machine.
 **Pronunciation:** /ˈɑːptɪmaɪz/ &middot; *AHP-tuh-myz*
 **Русский:** оптимизировать; улучшать, улучшить
 **Forms:** *optimize* &middot; *optimized* &middot; *optimized*
+**Verb class:** regular
 **Third person:** *optimizes* &middot; **-ing form:** *optimizing*
 **Transitivity:** transitive
 **Contrast:** American -ize; British writing has optimise.
@@ -695,6 +736,7 @@ To change something so that it works as well or as fast as possible.
 **Pronunciation:** /skeɪl/ &middot; *SKAYL*
 **Русский:** масштабировать; расширять, расширить (до больших объёмов)
 **Forms:** *scale* &middot; *scaled* &middot; *scaled*
+**Verb class:** regular
 **Third person:** *scales* &middot; **-ing form:** *scaling*
 **Transitivity:** both — transitive (scale the image), intransitive (the service scales to millions of users)
 **Contrast:** Drop the -e before -ing: scaling.
@@ -712,6 +754,7 @@ To change something in size, or to grow so as to handle much more work.
 **Pronunciation:** /ˈɪntɪɡreɪt/ &middot; *IN-tuh-grayt*
 **Русский:** интегрировать; объединять, объединить (системы)
 **Forms:** *integrate* &middot; *integrated* &middot; *integrated*
+**Verb class:** regular
 **Third person:** *integrates* &middot; **-ing form:** *integrating*
 **Transitivity:** both — transitive (integrate the two systems), intransitive (the app integrates with your calendar)
 **Contrast:** Integrate WITH another system, or integrate one thing INTO another.
@@ -729,6 +772,7 @@ To make two systems work together as one.
 **Pronunciation:** /kənˈfɪɡjər/ &middot; *kuhn-FIG-yur*
 **Русский:** настраивать, настроить; конфигурировать
 **Forms:** *configure* &middot; *configured* &middot; *configured*
+**Verb class:** regular
 **Third person:** *configures* &middot; **-ing form:** *configuring*
 **Transitivity:** transitive
 **Contrast:** Drop the -e before -ing: configuring.
@@ -746,6 +790,7 @@ To set up a device or a program so that it works the way you want.
 **Pronunciation:** /ˈpɜːrsənəlaɪz/ &middot; *PUR-suh-nuh-lyz*
 **Русский:** персонализировать; настраивать под себя, настроить
 **Forms:** *personalize* &middot; *personalized* &middot; *personalized*
+**Verb class:** regular
 **Third person:** *personalizes* &middot; **-ing form:** *personalizing*
 **Transitivity:** transitive
 
@@ -762,6 +807,7 @@ To change settings or content so that they fit one particular person.
 **Pronunciation:** /ˈproʊtətaɪp/ &middot; *PROH-tuh-typ*
 **Русский:** создавать прототип, создать прототип; прототипировать
 **Forms:** *prototype* &middot; *prototyped* &middot; *prototyped*
+**Verb class:** regular
 **Third person:** *prototypes* &middot; **-ing form:** *prototyping*
 **Transitivity:** transitive
 
@@ -778,6 +824,7 @@ To build a rough first version of a product in order to test the idea.
 **Pronunciation:** /ˈɪnəveɪt/ &middot; *IN-uh-vayt*
 **Русский:** внедрять новшества; придумывать новое
 **Forms:** *innovate* &middot; *innovated* &middot; *innovated*
+**Verb class:** regular
 **Third person:** *innovates* &middot; **-ing form:** *innovating*
 **Transitivity:** intransitive
 
@@ -794,6 +841,7 @@ To create new methods, ideas, or products.
 **Pronunciation:** /ˈæksɛs/ &middot; *AK-ses*
 **Русский:** получать доступ, получить доступ; заходить, зайти (в систему)
 **Forms:** *access* &middot; *accessed* &middot; *accessed*
+**Verb class:** regular
 **Third person:** *accesses* &middot; **-ing form:** *accessing*
 **Transitivity:** transitive
 **Contrast:** The verb takes a direct object: access the file. Only the noun takes to: access to the file.
@@ -811,6 +859,7 @@ To open or reach data, a file, or an account.
 **Pronunciation:** /ɔːˈθɛntɪkeɪt/ &middot; *aw-THEN-tuh-kayt*
 **Русский:** аутентифицировать; подтверждать личность, подтвердить
 **Forms:** *authenticate* &middot; *authenticated* &middot; *authenticated*
+**Verb class:** regular
 **Third person:** *authenticates* &middot; **-ing form:** *authenticating*
 **Transitivity:** both — transitive (authenticate the user), intransitive (the device authenticates in a second)
 
@@ -827,6 +876,7 @@ To prove that a user or a device is who it claims to be.
 **Pronunciation:** /ˈvælɪdeɪt/ &middot; *VAL-uh-dayt*
 **Русский:** проверять (на корректность), проверить; подтверждать, подтвердить
 **Forms:** *validate* &middot; *validated* &middot; *validated*
+**Verb class:** regular
 **Third person:** *validates* &middot; **-ing form:** *validating*
 **Transitivity:** transitive
 
@@ -843,6 +893,7 @@ To check that data or a document is correct and acceptable.
 **Pronunciation:** /lɑːk/ &middot; *LAHK*
 **Русский:** блокировать, заблокировать (экран); запирать, запереть
 **Forms:** *lock* &middot; *locked* &middot; *locked*
+**Verb class:** regular
 **Third person:** *locks* &middot; **-ing form:** *locking*
 **Transitivity:** both — transitive (lock the screen), intransitive (the phone locks after a minute)
 
@@ -859,6 +910,7 @@ To stop something from being used or changed without a key, a code, or a passwor
 **Pronunciation:** /ʌnˈlɑːk/ &middot; *un-LAHK*
 **Русский:** разблокировать, разблокировывать; открывать доступ
 **Forms:** *unlock* &middot; *unlocked* &middot; *unlocked*
+**Verb class:** regular
 **Third person:** *unlocks* &middot; **-ing form:** *unlocking*
 **Transitivity:** transitive
 
@@ -875,6 +927,7 @@ To open something that was locked, or to make a hidden feature available.
 **Pronunciation:** /ˈæktɪveɪt/ &middot; *AK-tuh-vayt*
 **Русский:** активировать; включать, включить
 **Forms:** *activate* &middot; *activated* &middot; *activated*
+**Verb class:** regular
 **Third person:** *activates* &middot; **-ing form:** *activating*
 **Transitivity:** transitive
 
@@ -891,6 +944,7 @@ To make a service, a card, or a feature start working.
 **Pronunciation:** /diːˈæktɪveɪt/ &middot; *dee-AK-tuh-vayt*
 **Русский:** деактивировать; отключать, отключить (аккаунт)
 **Forms:** *deactivate* &middot; *deactivated* &middot; *deactivated*
+**Verb class:** regular
 **Third person:** *deactivates* &middot; **-ing form:** *deactivating*
 **Transitivity:** transitive
 
@@ -907,6 +961,7 @@ To turn off an account or a feature so that it stops working.
 **Pronunciation:** /ɪˈneɪbəl/ &middot; *ih-NAY-buhl*
 **Русский:** включать, включить (функцию); разрешать, разрешить
 **Forms:** *enable* &middot; *enabled* &middot; *enabled*
+**Verb class:** regular
 **Third person:** *enables* &middot; **-ing form:** *enabling*
 **Transitivity:** transitive
 **Contrast:** Drop the -e before -ing: enabling.
@@ -924,6 +979,7 @@ To turn a setting or a feature on.
 **Pronunciation:** /dɪsˈeɪbəl/ &middot; *dis-AY-buhl*
 **Русский:** отключать, отключить (функцию); выключать, выключить
 **Forms:** *disable* &middot; *disabled* &middot; *disabled*
+**Verb class:** regular
 **Third person:** *disables* &middot; **-ing form:** *disabling*
 **Transitivity:** transitive
 
@@ -940,6 +996,7 @@ To turn a setting or a feature off.
 **Pronunciation:** /spæm/ &middot; *SPAM*
 **Русский:** спамить, засыпать сообщениями; рассылать спам
 **Forms:** *spam* &middot; *spammed* &middot; *spammed*
+**Verb class:** regular
 **Third person:** *spams* &middot; **-ing form:** *spamming*
 **Transitivity:** both — transitive (spam the group chat), intransitive (they spam all day)
 **Contrast:** Double the m: spammed, spamming.
@@ -957,6 +1014,7 @@ To send someone a lot of unwanted messages.
 **Pronunciation:** /mjuːt/ &middot; *MYOOT*
 **Русский:** выключать звук, выключить звук; отключать уведомления
 **Forms:** *mute* &middot; *muted* &middot; *muted*
+**Verb class:** regular
 **Third person:** *mutes* &middot; **-ing form:** *muting*
 **Transitivity:** transitive
 **Contrast:** Drop the -e before -ing: muting.
@@ -974,6 +1032,7 @@ To turn off the sound of a device, a call, or a conversation.
 **Pronunciation:** /ˌʌnˈmjuːt/ &middot; *un-MYOOT*
 **Русский:** включать звук обратно, включить звук
 **Forms:** *unmute* &middot; *unmuted* &middot; *unmuted*
+**Verb class:** regular
 **Third person:** *unmutes* &middot; **-ing form:** *unmuting*
 **Transitivity:** transitive
 
@@ -990,6 +1049,7 @@ To turn the sound back on.
 **Pronunciation:** /ˌʌnsəbˈskraɪb/ &middot; *un-suhb-SKRYB*
 **Русский:** отписываться, отписаться (от рассылки)
 **Forms:** *unsubscribe* &middot; *unsubscribed* &middot; *unsubscribed*
+**Verb class:** regular
 **Third person:** *unsubscribes* &middot; **-ing form:** *unsubscribing*
 **Transitivity:** intransitive
 **Contrast:** You unsubscribe FROM a list.
@@ -1007,6 +1067,7 @@ To stop receiving emails or content from a service you signed up for.
 **Pronunciation:** /ˈdaɪəl/ &middot; *DY-uhl*
 **Русский:** набирать номер, набрать номер
 **Forms:** *dial* &middot; *dialed* &middot; *dialed*
+**Verb class:** regular
 **Third person:** *dials* &middot; **-ing form:** *dialing*
 **Transitivity:** both — transitive (dial the number), intransitive (dial slowly)
 **Contrast:** American English keeps one l: dialed, dialing. British writing has dialled, dialling.
@@ -1024,6 +1085,7 @@ To enter a phone number in order to make a call.
 **Pronunciation:** /ˈɡuːɡəl/ &middot; *GOO-guhl*
 **Русский:** гуглить, погуглить; искать в интернете
 **Forms:** *google* &middot; *googled* &middot; *googled*
+**Verb class:** regular
 **Third person:** *googles* &middot; **-ing form:** *googling*
 **Transitivity:** both — transitive (google the address), intransitive (just google and see)
 **Contrast:** As a verb it is written in lowercase, and the -e is dropped: googling.
@@ -1041,6 +1103,7 @@ To look something up on the internet with a search engine.
 **Pronunciation:** /sɜːrf/ &middot; *SURF*
 **Русский:** сёрфить (в интернете), бродить по сайтам
 **Forms:** *surf* &middot; *surfed* &middot; *surfed*
+**Verb class:** regular
 **Third person:** *surfs* &middot; **-ing form:** *surfing*
 **Transitivity:** both — transitive (surf the web), intransitive (he surfed for hours)
 
@@ -1057,6 +1120,7 @@ To move from page to page on the internet with no fixed goal.
 **Pronunciation:** /ˈskriːnʃɑːt/ &middot; *SKREEN-shaht*
 **Русский:** делать скриншот, сделать скриншот; скриншотить
 **Forms:** *screenshot* &middot; *screenshotted* &middot; *screenshotted*
+**Verb class:** regular
 **Third person:** *screenshots* &middot; **-ing form:** *screenshotting*
 **Transitivity:** transitive
 **Contrast:** Double the t: screenshotted, screenshotting. In formal writing, take a screenshot is safer.
@@ -1074,6 +1138,7 @@ To save a picture of what is on your screen.
 **Pronunciation:** /ræŋk/ &middot; *RANK*
 **Русский:** ранжировать; занимать место (в рейтинге)
 **Forms:** *rank* &middot; *ranked* &middot; *ranked*
+**Verb class:** regular
 **Third person:** *ranks* &middot; **-ing form:** *ranking*
 **Transitivity:** both — transitive (the algorithm ranks the results), intransitive (the site ranks first)
 
@@ -1090,6 +1155,7 @@ To put items in order by importance, or to hold a place in such an order.
 **Pronunciation:** /əˈlɜːrt/ &middot; *uh-LURT*
 **Русский:** предупреждать, предупредить; оповещать, оповестить
 **Forms:** *alert* &middot; *alerted* &middot; *alerted*
+**Verb class:** regular
 **Third person:** *alerts* &middot; **-ing form:** *alerting*
 **Transitivity:** transitive
 **Contrast:** You alert someone TO a problem.
@@ -1107,6 +1173,7 @@ To warn someone about something quickly.
 **Pronunciation:** /prɑːmpt/ &middot; *PRAHMPT*
 **Русский:** предлагать (ввести), запрашивать; подсказывать, подсказать
 **Forms:** *prompt* &middot; *prompted* &middot; *prompted*
+**Verb class:** regular
 **Third person:** *prompts* &middot; **-ing form:** *prompting*
 **Transitivity:** transitive
 **Contrast:** Prompt someone TO do something, or prompt someone FOR information.
@@ -1124,6 +1191,7 @@ To ask a user on screen to do something, or to give a system an instruction.
 **Pronunciation:** /ˌɪntərˈækt/ &middot; *in-tur-AKT*
 **Русский:** взаимодействовать; общаться
 **Forms:** *interact* &middot; *interacted* &middot; *interacted*
+**Verb class:** regular
 **Third person:** *interacts* &middot; **-ing form:** *interacting*
 **Transitivity:** intransitive
 **Contrast:** You interact WITH someone or something.
@@ -1141,6 +1209,7 @@ To act on each other, or to communicate with a person or a system.
 **Pronunciation:** /ɡlɪtʃ/ &middot; *GLICH*
 **Русский:** сбоить, давать сбой; глючить
 **Forms:** *glitch* &middot; *glitched* &middot; *glitched*
+**Verb class:** regular
 **Third person:** *glitches* &middot; **-ing form:** *glitching*
 **Transitivity:** intransitive
 **Contrast:** Third person adds -es after -ch: glitches.
@@ -1158,6 +1227,7 @@ To fail or behave strangely for a short time.
 **Pronunciation:** /ˌoʊvərˈhiːt/ &middot; *oh-vur-HEET*
 **Русский:** перегреваться, перегреться; перегревать, перегреть
 **Forms:** *overheat* &middot; *overheated* &middot; *overheated*
+**Verb class:** regular
 **Third person:** *overheats* &middot; **-ing form:** *overheating*
 **Transitivity:** both — transitive (the sun overheated the phone), intransitive (the laptop overheats)
 
@@ -1174,6 +1244,7 @@ To become, or to make something become, too hot to work safely.
 **Pronunciation:** /ɪˈdʒɛkt/ &middot; *ih-JEKT*
 **Русский:** извлекать, извлечь (диск, флешку); безопасно отключать
 **Forms:** *eject* &middot; *ejected* &middot; *ejected*
+**Verb class:** regular
 **Third person:** *ejects* &middot; **-ing form:** *ejecting*
 **Transitivity:** transitive
 
@@ -1190,6 +1261,7 @@ To make a disk or a drive come out safely.
 **Pronunciation:** /ʌnˈlɪŋk/ &middot; *un-LINGK*
 **Русский:** отвязывать, отвязать (аккаунт); разрывать связь
 **Forms:** *unlink* &middot; *unlinked* &middot; *unlinked*
+**Verb class:** regular
 **Third person:** *unlinks* &middot; **-ing form:** *unlinking*
 **Transitivity:** transitive
 
@@ -1206,6 +1278,7 @@ To break the connection between two accounts, files, or devices.
 **Pronunciation:** /ˈʃʌfəl/ &middot; *SHUF-uhl*
 **Русский:** перемешивать, перемешать (в случайном порядке)
 **Forms:** *shuffle* &middot; *shuffled* &middot; *shuffled*
+**Verb class:** regular
 **Third person:** *shuffles* &middot; **-ing form:** *shuffling*
 **Transitivity:** both — transitive (shuffle the playlist), intransitive (the app shuffles automatically)
 **Contrast:** Drop the -e before -ing: shuffling.
@@ -1223,6 +1296,7 @@ To put songs, cards, or files into a random order.
 **Pronunciation:** /ˈnɛtwɜːrk/ &middot; *NET-wurk*
 **Русский:** объединять в сеть, объединить в сеть
 **Forms:** *network* &middot; *networked* &middot; *networked*
+**Verb class:** regular
 **Third person:** *networks* &middot; **-ing form:** *networking*
 **Transitivity:** both — transitive (network the office printers), intransitive (the machines network over Wi-Fi)
 

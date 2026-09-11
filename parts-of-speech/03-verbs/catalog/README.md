@@ -63,6 +63,7 @@
 | Field | What it tells you |
 |---|---|
 | Pronunciation | IPA, a stress-marked respelling, and the weak form where one exists |
+| Verb class | |
 | Forms | |
 | Separable | |
 | Base verb | |

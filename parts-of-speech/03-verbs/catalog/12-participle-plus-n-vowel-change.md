@@ -11,6 +11,7 @@ Every verb in this group ends its participle in **-n** or **-en**, but the stem 
 **Pronunciation:** /əˈraɪz/ &middot; *uh-RYZE*
 **Русский:** подняться; возникнуть
 **Forms:** *arise* /əˈraɪz/ &middot; *arose* /əˈroʊz/ &middot; *arisen* /əˈrɪzən/
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing, less common in speech
 **Pattern:** i — o — i, participle in -en &middot; **Group:** 12
 **Third person:** *arises* &middot; **-ing form:** *arising* (drop the e)
@@ -47,6 +48,7 @@ To come up or come into being — of problems, questions, and opportunities; in 
 **Pronunciation:** /bɪˈfɔl/ &middot; *bih-FAWL*
 **Русский:** случаться; приключаться; выпадать на долю
 **Forms:** *befall* /bɪˈfɔl/ &middot; *befell* /bɪˈfɛl/ &middot; *befallen* /bɪˈfɔlən/
+**Verb class:** irregular
 **Register:** formal — literary and journalistic; ordinary speech says *happened to*
 **Pattern:** a — e — a, participle in -en &middot; **Group:** 12
 **Third person:** *befalls* &middot; **-ing form:** *befalling*
@@ -77,6 +79,7 @@ To happen to someone, nearly always something unwelcome.
 **Pronunciation:** /bɪˈkwið/ &middot; *bih-KWEETH*
 **Русский:** завещать
 **Forms:** *bequeath* /bɪˈkwið/ &middot; *bequoth* /bɪˈkwoʊθ/ &middot; *bequothen* /bɪˈkwoʊðən/
+**Verb class:** irregular
 **Register:** formal — wills and legacies; the strong *bequoth/bequothen* are archaic
 **Pattern:** ea — o — o, participle in -en &middot; **Group:** 12
 **Third person:** *bequeaths* &middot; **-ing form:** *bequeathing*
@@ -112,6 +115,7 @@ To leave property to someone in a will, and by extension to pass anything on to 
 **Pronunciation:** /bɪˈstraɪd/ &middot; *bih-STRYDE*
 **Русский:** сидеть верхом; стоять расставив ноги; перешагивать
 **Forms:** *bestride* /bɪˈstraɪd/ &middot; *bestrode* /bɪˈstroʊd/ &middot; *bestridden* /bɪˈstrɪdən/
+**Verb class:** irregular
 **Register:** rare — literary and headline use; Americans say *sat astride* or *dominated*
 **Pattern:** i — o — i, participle in -den &middot; **Group:** 12
 **Third person:** *bestrides* &middot; **-ing form:** *bestriding* (drop the e)
@@ -146,6 +150,7 @@ To sit or stand with a leg on either side of something; figuratively, to dominat
 **Pronunciation:** /bɪd/ &middot; *BID*
 **Русский:** предлагать цену; велеть
 **Forms:** *bid* /bɪd/ &middot; *bade* /bæd/ (also /beɪd/) &middot; *bidden* /ˈbɪdən/
+**Verb class:** irregular
 **Register:** everyday — auctions, contracts, and *bid farewell*; the forms *bade/bidden* are dated
 **Pattern:** i — a — i, participle in -den &middot; **Group:** 12
 **Third person:** *bids* &middot; **-ing form:** *bidding* (the d doubles)
@@ -193,6 +198,7 @@ To offer a price, at auction or for a contract; in an older and more formal sens
 **Pronunciation:** /bloʊ/ &middot; *BLOH*
 **Русский:** 1) дуть 2) цвести, расцветать
 **Forms:** *blow* /bloʊ/ &middot; *blew* /blu/ &middot; *blown* /bloʊn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ow — ew — own &middot; **Group:** 12
 **Third person:** *blows* &middot; **-ing form:** *blowing*
@@ -274,6 +280,7 @@ Of air, to move or to move something; of a person, to force air out of the mouth
 **Pronunciation:** /koʊˈraɪt/ &middot; *koh-RYTE*
 **Русский:** писать, написать совместно
 **Forms:** *co-write* /koʊˈraɪt/ &middot; *co-wrote* /koʊˈroʊt/ &middot; *co-written* /koʊˈrɪtən/
+**Verb class:** irregular
 **Register:** neutral — standard in music, film, and publishing credits
 **Pattern:** i — o — i, participle in -ten &middot; **Group:** 12
 **Third person:** *co-writes* &middot; **-ing form:** *co-writing* (drop the e)
@@ -300,6 +307,7 @@ To write something jointly with another person.
 **Pronunciation:** /kroʊ/ &middot; *KROH*
 **Русский:** кричать кукареку, петь (о петухе)
 **Forms:** *crow* /kroʊ/ &middot; *crew* /kru/ &middot; *crown* /kroʊn/
+**Verb class:** irregular
 **Register:** neutral — the verb itself is ordinary and regular in American English; the strong *crew* is biblical and *crown* obsolete
 **Pattern:** ow — ew — own &middot; **Group:** 12
 **Third person:** *crows* &middot; **-ing form:** *crowing*
@@ -336,6 +344,7 @@ Of a rooster, to make its loud call; of a person, to boast about a win.
 **Pronunciation:** /du/ &middot; *DOO*
 **Русский:** делать
 **Forms:** *do* /du/ &middot; *did* /dɪd/ &middot; *done* /dʌn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** oo — i — u, participle in -ne &middot; **Group:** 12
 **Third person:** *does* /dʌz/ (irregular in both spelling and sound) &middot; **-ing form:** *doing*
@@ -430,6 +439,7 @@ To perform an action or a task — and, as an auxiliary, the verb that carries t
 **Pronunciation:** /drɔ/ &middot; *DRAW*
 **Русский:** рисовать, чертить; тащить, тянуть, волочить
 **Forms:** *draw* /drɔ/ &middot; *drew* /dru/ &middot; *drawn* /drɔn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** aw — ew — awn &middot; **Group:** 12
 **Third person:** *draws* &middot; **-ing form:** *drawing*
@@ -516,6 +526,7 @@ To make a picture with lines; to pull; and, by extension, to attract, to take ou
 **Pronunciation:** /draɪv/ &middot; *DRYVE*
 **Русский:** водить машину
 **Forms:** *drive* /draɪv/ &middot; *drove* /droʊv/ &middot; *driven* /ˈdrɪvən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i — o — i, participle in -en &middot; **Group:** 12
 **Third person:** *drives* &middot; **-ing form:** *driving* (drop the e)
@@ -590,6 +601,7 @@ To operate a vehicle; to force someone or something into a state; and to power, 
 **Pronunciation:** /it/ &middot; *EET*
 **Русский:** есть
 **Forms:** *eat* /it/ &middot; *ate* /eɪt/ &middot; *eaten* /ˈitən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ea — a — ea, participle in -en &middot; **Group:** 12
 **Third person:** *eats* &middot; **-ing form:** *eating*
@@ -647,6 +659,7 @@ To take food into the mouth and swallow it; also, to wear away, and the base of 
 **Pronunciation:** /fɔl/ &middot; *FAWL*
 **Русский:** падать
 **Forms:** *fall* /fɔl/ &middot; *fell* /fɛl/ &middot; *fallen* /ˈfɔlən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** a — e — a, participle in -en &middot; **Group:** 12
 **Third person:** *falls* &middot; **-ing form:** *falling*
@@ -734,6 +747,7 @@ To drop toward the ground; to decrease; to pass into a state; and, of cities and
 **Pronunciation:** /flaɪ/ &middot; *FLY*
 **Русский:** летать
 **Forms:** *fly* /flaɪ/ &middot; *flew* /flu/ &middot; *flown* /floʊn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** y — ew — own &middot; **Group:** 12
 **Third person:** *flies* (y becomes ies) &middot; **-ing form:** *flying*
@@ -802,6 +816,7 @@ To move through the air; to travel in or pilot an aircraft; and, of time and peo
 **Pronunciation:** /fərˈbɪd/ &middot; *fer-BID*
 **Русский:** запрещать
 **Forms:** *forbid* /fərˈbɪd/ &middot; *forbade* /fərˈbæd/ (also /fərˈbeɪd/) &middot; *forbidden* /fərˈbɪdən/
+**Verb class:** irregular
 **Register:** everyday — *forbidden* is in constant use, and *God forbid* is a fixed phrase
 **Pattern:** i — a — i, participle in -den &middot; **Group:** 12
 **Third person:** *forbids* &middot; **-ing form:** *forbidding* (the d doubles)
@@ -836,6 +851,7 @@ To order that something not be done.
 **Pronunciation:** /fɔrˈsi/ &middot; *for-SEE*
 **Русский:** предвидеть
 **Forms:** *foresee* /fɔrˈsi/ &middot; *foresaw* /fɔrˈsɔ/ &middot; *foreseen* /fɔrˈsin/
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing, less common in speech
 **Pattern:** ee — aw — ee, participle in -n &middot; **Group:** 12
 **Third person:** *foresees* &middot; **-ing form:** *foreseeing* (keep both e's)
@@ -866,6 +882,7 @@ To know or expect in advance that something will happen.
 **Pronunciation:** /fərˈɡɪv/ &middot; *fer-GIV*
 **Русский:** прощать
 **Forms:** *forgive* /fərˈɡɪv/ &middot; *forgave* /fərˈɡeɪv/ &middot; *forgiven* /fərˈɡɪvən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i — a — i, participle in -en &middot; **Group:** 12
 **Third person:** *forgives* &middot; **-ing form:** *forgiving* (drop the e)
@@ -904,6 +921,7 @@ To stop being angry at someone for what they did; in finance, to cancel a debt.
 **Pronunciation:** /fərˈseɪk/ &middot; *fer-SAYK*
 **Русский:** покидать
 **Forms:** *forsake* /fərˈseɪk/ &middot; *forsook* /fərˈsʊk/ &middot; *forsaken* /fərˈseɪkən/
+**Verb class:** irregular
 **Register:** formal — literary; hymns and vows, where speech says *abandon*
 **Pattern:** a — oo — a, participle in -en &middot; **Group:** 12
 **Third person:** *forsakes* &middot; **-ing form:** *forsaking* (drop the e)
@@ -934,6 +952,7 @@ To abandon someone or something completely.
 **Pronunciation:** /ɡɪv/ &middot; *GIV*
 **Русский:** дать
 **Forms:** *give* /ɡɪv/ &middot; *gave* /ɡeɪv/ &middot; *given* /ˈɡɪvən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i — a — i, participle in -en &middot; **Group:** 12
 **Third person:** *gives* &middot; **-ing form:** *giving* (drop the e)
@@ -1019,6 +1038,7 @@ To hand something over or provide it — plus a large family of idioms from *giv
 **Pronunciation:** /ɡroʊ/ &middot; *GROH*
 **Русский:** расти
 **Forms:** *grow* /ɡroʊ/ &middot; *grew* /ɡru/ &middot; *grown* /ɡroʊn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ow — ew — own &middot; **Group:** 12
 **Third person:** *grows* &middot; **-ing form:** *growing*
@@ -1087,6 +1107,7 @@ To get bigger over time, to cultivate something that does, and to become — gra
 **Pronunciation:** /noʊ/ &middot; *NOH*
 **Русский:** знать
 **Forms:** *know* /noʊ/ &middot; *knew* /nu/ &middot; *known* /noʊn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ow — ew — own &middot; **Group:** 12
 **Third person:** *knows* &middot; **-ing form:** *knowing*
@@ -1149,6 +1170,7 @@ To have information about something, to be acquainted with someone, and to be ab
 **Pronunciation:** /laɪ/ &middot; *LY*
 **Русский:** лежать (лгать правильный глагол)
 **Forms:** *lie* /laɪ/ &middot; *lay* /leɪ/ &middot; *lain* /leɪn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking, though *lain* is rare in speech
 **Pattern:** ie — ay — ai, participle in -n &middot; **Group:** 12
 **Third person:** *lies* &middot; **-ing form:** *lying* (the ie becomes y)
@@ -1200,6 +1222,7 @@ To be, or move into, a flat resting position; also, to be situated, and to consi
 **Pronunciation:** /mɪˈsteɪk/ &middot; *mih-STAYK*
 **Русский:** ошибаться
 **Forms:** *mistake* /mɪˈsteɪk/ &middot; *mistook* /mɪˈstʊk/ &middot; *mistaken* /mɪˈsteɪkən/
+**Verb class:** irregular
 **Register:** everyday — *you're mistaken* and *mistake one for the other* are ordinary speech
 **Pattern:** a — oo — a, participle in -en &middot; **Group:** 12
 **Third person:** *mistakes* &middot; **-ing form:** *mistaking* (drop the e)
@@ -1236,6 +1259,7 @@ To take one person or thing to be another, and so to be wrong about it.
 **Pronunciation:** /aʊtˈdu/ &middot; *owt-DOO*
 **Русский:** превосходить
 **Forms:** *outdo* /aʊtˈdu/ &middot; *outdid* /aʊtˈdɪd/ &middot; *outdone* /aʊtˈdʌn/
+**Verb class:** irregular
 **Register:** neutral — the idiom *outdo yourself* is common; otherwise mostly written
 **Pattern:** oo — i — u, participle in -ne &middot; **Group:** 12
 **Third person:** *outdoes* /aʊtˈdʌz/ &middot; **-ing form:** *outdoing*
@@ -1271,6 +1295,7 @@ To do something better than someone else does it.
 **Pronunciation:** /aʊtˈɡroʊ/ &middot; *owt-GROH*
 **Русский:** вырастать из; перерасти
 **Forms:** *outgrow* /aʊtˈɡroʊ/ &middot; *outgrew* /aʊtˈɡru/ &middot; *outgrown* /aʊtˈɡroʊn/
+**Verb class:** irregular
 **Register:** everyday — children *outgrow* clothes and phases; heard constantly
 **Pattern:** ow — ew — own &middot; **Group:** 12
 **Third person:** *outgrows* &middot; **-ing form:** *outgrowing*
@@ -1312,6 +1337,7 @@ To grow too big or too old for something, or to grow faster than something else.
 **Pronunciation:** /ˌoʊvərˈdu/ &middot; *oh-ver-DOO*
 **Русский:** перестараться, переусердствовать
 **Forms:** *overdo* /ˌoʊvərˈdu/ &middot; *overdid* /ˌoʊvərˈdɪd/ &middot; *overdone* /ˌoʊvərˈdʌn/
+**Verb class:** irregular
 **Register:** everyday — *don't overdo it* is an ordinary spoken phrase
 **Pattern:** oo — i — u, participle in -ne &middot; **Group:** 12
 **Third person:** *overdoes* /ˌoʊvərˈdʌz/ &middot; **-ing form:** *overdoing*
@@ -1353,6 +1379,7 @@ To do something to excess — and, of food, to cook it too long.
 **Pronunciation:** /ˌoʊvərˈdrɔ/ &middot; *oh-ver-DRAW*
 **Русский:** превысить остаток счёта в банке
 **Forms:** *overdraw* /ˌoʊvərˈdrɔ/ &middot; *overdrew* /ˌoʊvərˈdru/ &middot; *overdrawn* /ˌoʊvərˈdrɔn/
+**Verb class:** irregular
 **Register:** neutral — banking language; Americans meet it chiefly as *overdrawn*
 **Pattern:** aw — ew — awn &middot; **Group:** 12
 **Third person:** *overdraws* &middot; **-ing form:** *overdrawing*
@@ -1389,6 +1416,7 @@ To take more money out of an account than it holds; in criticism, to exaggerate 
 **Pronunciation:** /ˌoʊvərˈit/ &middot; *oh-ver-EET*
 **Русский:** переедать; объедаться; обжираться
 **Forms:** *overeat* /ˌoʊvərˈit/ &middot; *overate* /ˌoʊvərˈeɪt/ &middot; *overeaten* /ˌoʊvərˈitən/
+**Verb class:** irregular
 **Register:** everyday — ordinary talk about holidays and buffets
 **Pattern:** ea — a — ea, participle in -en &middot; **Group:** 12
 **Third person:** *overeats* &middot; **-ing form:** *overeating*
@@ -1414,6 +1442,7 @@ To eat more than you should.
 **Pronunciation:** /ˌoʊvərˈɡroʊ/ &middot; *oh-ver-GROH*
 **Русский:** зарастать
 **Forms:** *overgrow* /ˌoʊvərˈɡroʊ/ &middot; *overgrew* /ˌoʊvərˈɡru/ &middot; *overgrown* /ˌoʊvərˈɡroʊn/
+**Verb class:** irregular
 **Register:** rare — the finite verb is seldom used; only *overgrown* is current
 **Pattern:** ow — ew — own &middot; **Group:** 12
 **Third person:** *overgrows* &middot; **-ing form:** *overgrowing*
@@ -1444,6 +1473,7 @@ To cover something with growth; in practice, met almost only as the participle *
 **Pronunciation:** /ˌoʊvərˈlaɪ/ &middot; *oh-ver-LY*
 **Русский:** лежать (над чем-л., на чём-л.)
 **Forms:** *overlie* /ˌoʊvərˈlaɪ/ &middot; *overlay* /ˌoʊvərˈleɪ/ &middot; *overlain* /ˌoʊvərˈleɪn/
+**Verb class:** irregular
 **Register:** rare — geological and anatomical writing; speech says *sit on top of*
 **Pattern:** ie — ay — ai, participle in -n &middot; **Group:** 12
 **Third person:** *overlies* &middot; **-ing form:** *overlying* (the ie becomes y)
@@ -1474,6 +1504,7 @@ To lie on top of something else, most often a layer of rock, tissue, or material
 **Pronunciation:** /ˌoʊvərˈraɪd/ &middot; *oh-ver-RYDE*
 **Русский:** переезжать, задавить; отвергать
 **Forms:** *override* /ˌoʊvərˈraɪd/ &middot; *overrode* /ˌoʊvərˈroʊd/ &middot; *overridden* /ˌoʊvərˈrɪdən/
+**Verb class:** irregular
 **Register:** neutral — common in technical, legal, and political contexts
 **Pattern:** i — o — i, participle in -den &middot; **Group:** 12
 **Third person:** *overrides* &middot; **-ing form:** *overriding* (drop the e; keep both r's)
@@ -1516,6 +1547,7 @@ To set aside or take precedence over a decision, a rule, or an automatic control
 **Pronunciation:** /ˌoʊvərˈsi/ &middot; *oh-ver-SEE*
 **Русский:** надзирать, наблюдать
 **Forms:** *oversee* /ˌoʊvərˈsi/ &middot; *oversaw* /ˌoʊvərˈsɔ/ &middot; *overseen* /ˌoʊvərˈsin/
+**Verb class:** irregular
 **Register:** neutral — ordinary in workplace and administrative language
 **Pattern:** ee — aw — ee, participle in -n &middot; **Group:** 12
 **Third person:** *oversees* &middot; **-ing form:** *overseeing* (keep both e's)
@@ -1545,6 +1577,7 @@ To be in charge of work being done by other people and make sure it goes right.
 **Pronunciation:** /ˌoʊvərˈteɪk/ &middot; *oh-ver-TAYK*
 **Русский:** догонять, перегонять
 **Forms:** *overtake* /ˌoʊvərˈteɪk/ &middot; *overtook* /ˌoʊvərˈtʊk/ &middot; *overtaken* /ˌoʊvərˈteɪkən/
+**Verb class:** irregular
 **Register:** neutral — the figurative use is common in news; for cars Americans say *pass*
 **Pattern:** a — oo — a, participle in -en &middot; **Group:** 12
 **Third person:** *overtakes* &middot; **-ing form:** *overtaking* (drop the e)
@@ -1586,6 +1619,7 @@ To catch up with and pass something, or, of an event or feeling, to come upon so
 **Pronunciation:** /ˌoʊvərˈθroʊ/ &middot; *oh-ver-THROH*
 **Русский:** свергать, ниспровергать; уничтожать
 **Forms:** *overthrow* /ˌoʊvərˈθroʊ/ &middot; *overthrew* /ˌoʊvərˈθru/ &middot; *overthrown* /ˌoʊvərˈθroʊn/
+**Verb class:** irregular
 **Register:** neutral — history and news writing about governments
 **Pattern:** ow — ew — own &middot; **Group:** 12
 **Third person:** *overthrows* &middot; **-ing form:** *overthrowing*
@@ -1622,6 +1656,7 @@ To remove a government or system from power by force, or to overturn something e
 **Pronunciation:** /ˌoʊvərˈraɪt/ &middot; *oh-ver-RYTE*
 **Русский:** писать поверх другого текста
 **Forms:** *overwrite* /ˌoʊvərˈraɪt/ &middot; *overwrote* /ˌoʊvərˈroʊt/ &middot; *overwritten* /ˌoʊvərˈrɪtən/
+**Verb class:** irregular
 **Register:** neutral — computing; *the file was overwritten* is routine
 **Pattern:** i — o — i, participle in -ten &middot; **Group:** 12
 **Third person:** *overwrites* &middot; **-ing form:** *overwriting* (drop the e; keep both r's)
@@ -1659,6 +1694,7 @@ To write over something that was already there, replacing it — most often data
 **Pronunciation:** /pɑrˈteɪk/ &middot; *par-TAYK*
 **Русский:** принимать участие
 **Forms:** *partake* /pɑrˈteɪk/ &middot; *partook* /pɑrˈtʊk/ &middot; *partaken* /pɑrˈteɪkən/
+**Verb class:** irregular
 **Register:** formal — toasts, menus, and dry humor; speech says *have some*
 **Pattern:** a — oo — a, participle in -en &middot; **Group:** 12
 **Third person:** *partakes* &middot; **-ing form:** *partaking* (drop the e)
@@ -1694,6 +1730,7 @@ To take part in something, to eat or drink one's share of it, or, formally, to h
 **Pronunciation:** /riˈdrɔ/ &middot; *ree-DRAW*
 **Русский:** выставлять обратный переводный вексель
 **Forms:** *redraw* /riˈdrɔ/ &middot; *redrew* /riˈdru/ &middot; *redrawn* /riˈdrɔn/
+**Verb class:** irregular
 **Register:** neutral — maps, districts, and boundaries; mostly written
 **Pattern:** aw — ew — awn &middot; **Group:** 12
 **Third person:** *redraws* &middot; **-ing form:** *redrawing*
@@ -1729,6 +1766,7 @@ To draw something again in a changed form, whether a picture, a boundary, or the
 **Pronunciation:** /riˈɡroʊ/ &middot; *ree-GROH*
 **Русский:** вырастать повторно (например о листьях)
 **Forms:** *regrow* /riˈɡroʊ/ &middot; *regrew* /riˈɡru/ &middot; *regrown* /riˈɡroʊn/
+**Verb class:** irregular
 **Register:** neutral — gardening and medicine; ordinary in writing
 **Pattern:** ow — ew — own &middot; **Group:** 12
 **Third person:** *regrows* &middot; **-ing form:** *regrowing*
@@ -1759,6 +1797,7 @@ To grow again after being cut, lost, or destroyed, or to make something grow aga
 **Pronunciation:** /riˈteɪk/ &middot; *ree-TAYK*
 **Русский:** забирать; снова взять, занять или захватить
 **Forms:** *retake* /riˈteɪk/ &middot; *retook* /riˈtʊk/ &middot; *retaken* /riˈteɪkən/
+**Verb class:** irregular
 **Register:** everyday — students *retake* a test or a class
 **Pattern:** a — oo — a, participle in -en &middot; **Group:** 12
 **Third person:** *retakes* &middot; **-ing form:** *retaking* (drop the e)
@@ -1801,6 +1840,7 @@ To take something again — a place captured back, an exam sat a second time, a 
 **Pronunciation:** /riˈraɪt/ &middot; *ree-RYTE*
 **Русский:** пере(за)писать
 **Forms:** *rewrite* /riˈraɪt/ &middot; *rewrote* /riˈroʊt/ &middot; *rewritten* /riˈrɪtən/
+**Verb class:** irregular
 **Register:** everyday — school, work, and any kind of writing
 **Pattern:** i — o — i, participle in -ten &middot; **Group:** 12
 **Third person:** *rewrites* &middot; **-ing form:** *rewriting* (drop the e; keep both r's)
@@ -1836,6 +1876,7 @@ To write something again in a different form, or to change what was previously e
 **Pronunciation:** /raɪd/ &middot; *RYDE*
 **Русский:** ездить верхом
 **Forms:** *ride* /raɪd/ &middot; *rode* /roʊd/ &middot; *ridden* /ˈrɪdən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i — o — i, participle in -den &middot; **Group:** 12
 **Third person:** *rides* &middot; **-ing form:** *riding* (drop the e)
@@ -1899,6 +1940,7 @@ To sit on and control a horse, bike, or motorcycle, to travel in a vehicle, or, 
 **Pronunciation:** /raɪz/ &middot; *RYZE*
 **Русский:** подниматься, вставать
 **Forms:** *rise* /raɪz/ &middot; *rose* /roʊz/ &middot; *risen* /ˈrɪzən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i — o — i, participle in -en &middot; **Group:** 12
 **Third person:** *rises* &middot; **-ing form:** *rising* (drop the e)
@@ -1963,6 +2005,7 @@ To move upward, to increase, to get up, or to advance in position — always wit
 **Pronunciation:** /si/ &middot; *SEE*
 **Русский:** смотреть, видеть
 **Forms:** *see* /si/ &middot; *saw* /sɔ/ &middot; *seen* /sin/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ee — aw — ee, participle in -n &middot; **Group:** 12
 **Third person:** *sees* &middot; **-ing form:** *seeing* (keep both e's)
@@ -2045,6 +2088,7 @@ To perceive with the eyes, and, by extension, to understand, to meet, to experie
 **Pronunciation:** /ʃeɪk/ &middot; *SHAYK*
 **Русский:** трясти
 **Forms:** *shake* /ʃeɪk/ &middot; *shook* /ʃʊk/ &middot; *shaken* /ˈʃeɪkən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** a — oo — a, participle in -en &middot; **Group:** 12
 **Third person:** *shakes* &middot; **-ing form:** *shaking* (drop the e)
@@ -2108,6 +2152,7 @@ To move quickly back and forth, to tremble, or to unsettle someone badly.
 **Pronunciation:** /sleɪ/ &middot; *SLAY*
 **Русский:** убивать (поражать - правильный глагол)
 **Forms:** *slay* /sleɪ/ &middot; *slew* /slu/ &middot; *slain* /sleɪn/
+**Verb class:** irregular
 **Register:** rare — the strong *slew/slain* is literary and headline usage; the modern slang sense is regular (*slayed*)
 **Pattern:** ay — ew — ai, participle in -n &middot; **Group:** 12
 **Third person:** *slays* &middot; **-ing form:** *slaying*
@@ -2144,6 +2189,7 @@ To kill violently, in older and literary language; in modern slang, to impress o
 **Pronunciation:** /smaɪt/ &middot; *SMYTE*
 **Русский:** ударять; бить; разбивать
 **Forms:** *smite* /smaɪt/ &middot; *smote* /smoʊt/ &middot; *smitten* /ˈsmɪtən/
+**Verb class:** irregular
 **Register:** archaic — biblical; the only living form is the adjective *smitten*
 **Pattern:** i — o — i, participle in -ten &middot; **Group:** 12
 **Third person:** *smites* &middot; **-ing form:** *smiting* (drop the e)
@@ -2179,6 +2225,7 @@ To strike a heavy blow, in archaic and biblical language; in living use, mostly 
 **Pronunciation:** /straɪd/ &middot; *STRYDE*
 **Русский:** шагать (большими шагами); наносить удар
 **Forms:** *stride* /straɪd/ &middot; *strode* /stroʊd/ &middot; *stridden* /ˈstrɪdən/
+**Verb class:** irregular
 **Register:** neutral — common in narrative writing; the participle *stridden* is rare enough that writers rephrase
 **Pattern:** i — o — i, participle in -den &middot; **Group:** 12
 **Third person:** *strides* &middot; **-ing form:** *striding* (drop the e)
@@ -2214,6 +2261,7 @@ To walk with long, decisive steps.
 **Pronunciation:** /straɪv/ &middot; *STRYVE*
 **Русский:** стараться, прилагать усилия; бороться
 **Forms:** *strive* /straɪv/ &middot; *strove* /stroʊv/ &middot; *striven* /ˈstrɪvən/
+**Verb class:** irregular
 **Register:** neutral to formal — mission statements and edited prose; speech says *try hard*
 **Pattern:** i — o — i, participle in -en &middot; **Group:** 12
 **Third person:** *strives* &middot; **-ing form:** *striving* (drop the e)
@@ -2244,6 +2292,7 @@ To make great and sustained effort toward something difficult.
 **Pronunciation:** /teɪk/ &middot; *TAYK*
 **Русский:** брать
 **Forms:** *take* /teɪk/ &middot; *took* /tʊk/ &middot; *taken* /ˈteɪkən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** a — oo — a, participle in -en &middot; **Group:** 12
 **Third person:** *takes* &middot; **-ing form:** *taking* (drop the e)
@@ -2338,6 +2387,7 @@ To get hold of something, carry it, accept it, require it, or use it — the wid
 **Pronunciation:** /ˈtɛst ˌdraɪv/ &middot; *TEST-dryve*
 **Русский:** совершить пробную поездку
 **Forms:** *test-drive* /ˈtɛst ˌdraɪv/ &middot; *test-drove* /ˈtɛst ˌdroʊv/ &middot; *test-driven* /ˈtɛst ˌdrɪvən/
+**Verb class:** irregular
 **Register:** everyday — ordinary at a car lot, and loosely for trying anything out
 **Pattern:** i — o — i, participle in -en &middot; **Group:** 12
 **Third person:** *test-drives* &middot; **-ing form:** *test-driving* (drop the e)
@@ -2368,6 +2418,7 @@ To drive a vehicle before buying it, or, loosely, to try anything out before com
 **Pronunciation:** /θraɪv/ &middot; *THRYVE*
 **Русский:** процветать, преуспевать
 **Forms:** *thrive* /θraɪv/ &middot; *throve* /θroʊv/ &middot; *thriven* /ˈθrɪvən/
+**Verb class:** irregular
 **Register:** everyday — the verb is common; the strong *throve/thriven* are literary, and Americans say *thrived*
 **Pattern:** i — o — i, participle in -en &middot; **Group:** 12
 **Third person:** *thrives* &middot; **-ing form:** *thriving* (drop the e)
@@ -2404,6 +2455,7 @@ To grow strongly and do well — of people, businesses, plants, and animals.
 **Pronunciation:** /θroʊ/ &middot; *THROH*
 **Русский:** бросать, кидать
 **Forms:** *throw* /θroʊ/ &middot; *threw* /θru/ &middot; *thrown* /θroʊn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ow — ew — own &middot; **Group:** 12
 **Third person:** *throws* &middot; **-ing form:** *throwing*
@@ -2473,6 +2525,7 @@ To send something through the air from your hand, and, figuratively, to put, hos
 **Pronunciation:** /ˌʌndərˈbɪd/ &middot; *un-der-BID*
 **Русский:** сбить цену
 **Forms:** *underbid* /ˌʌndərˈbɪd/ &middot; *underbade* /ˌʌndərˈbæd/ &middot; *underbidden* /ˌʌndərˈbɪdən/
+**Verb class:** irregular
 **Register:** rare — contracting and card play; *underbade/underbidden* are archaic
 **Pattern:** i — a — i, participle in -den &middot; **Group:** 12
 **Third person:** *underbids* &middot; **-ing form:** *underbidding* (the d doubles)
@@ -2503,6 +2556,7 @@ To offer a lower price than a competitor, or, in card games, to bid below the tr
 **Pronunciation:** /ˌʌndərˈlaɪ/ &middot; *un-der-LY*
 **Русский:** лежать в основе (чего-л.)
 **Forms:** *underlie* /ˌʌndərˈlaɪ/ &middot; *underlay* /ˌʌndərˈleɪ/ &middot; *underlain* /ˌʌndərˈleɪn/
+**Verb class:** irregular
 **Register:** formal — academic and technical writing; the adjective *underlying* is far more common
 **Pattern:** ie — ay — ai, participle in -n &middot; **Group:** 12
 **Third person:** *underlies* &middot; **-ing form:** *underlying* (the ie becomes y)
@@ -2533,6 +2587,7 @@ To lie beneath something, either physically or as its hidden basis or cause.
 **Pronunciation:** /ˌʌndərˈteɪk/ &middot; *un-der-TAYK*
 **Русский:** предпринимать
 **Forms:** *undertake* /ˌʌndərˈteɪk/ &middot; *undertook* /ˌʌndərˈtʊk/ &middot; *undertaken* /ˌʌndərˈteɪkən/
+**Verb class:** irregular
 **Register:** neutral to formal — business, legal, and academic writing
 **Pattern:** a — oo — a, participle in -en &middot; **Group:** 12
 **Third person:** *undertakes* &middot; **-ing form:** *undertaking* (drop the e)
@@ -2568,6 +2623,7 @@ To take on a task or responsibility, or to give a formal promise to do something
 **Pronunciation:** /ˈʌndərˌraɪt/ &middot; *UN-der-ryte*
 **Русский:** подписывать; страховать (суда, грузы)
 **Forms:** *underwrite* /ˈʌndərˌraɪt/ &middot; *underwrote* /ˈʌndərˌroʊt/ &middot; *underwritten* /ˌʌndərˈrɪtən/
+**Verb class:** irregular
 **Register:** formal — insurance and finance; a technical term
 **Pattern:** i — o — i, participle in -ten &middot; **Group:** 12
 **Third person:** *underwrites* &middot; **-ing form:** *underwriting* (drop the e; keep both r's)
@@ -2604,6 +2660,7 @@ To accept financial risk for something — an insurance policy, a securities iss
 **Pronunciation:** /ʌnˈdu/ &middot; *un-DOO*
 **Русский:** уничтожать сделанное; развязывать, расстёгивать
 **Forms:** *undo* /ʌnˈdu/ &middot; *undid* /ʌnˈdɪd/ &middot; *undone* /ʌnˈdʌn/
+**Verb class:** irregular
 **Register:** everyday — Ctrl+Z and *undo the damage*
 **Pattern:** oo — i — u, participle in -ne &middot; **Group:** 12
 **Third person:** *undoes* /ʌnˈdʌz/ &middot; **-ing form:** *undoing*
@@ -2647,6 +2704,7 @@ To unfasten something, to reverse an action, or, in older language, to ruin some
 **Pronunciation:** /wɪðˈdrɔ/ &middot; *with-DRAW*
 **Русский:** отнимать; отказываться
 **Forms:** *withdraw* /wɪðˈdrɔ/ &middot; *withdrew* /wɪðˈdru/ &middot; *withdrawn* /wɪðˈdrɔn/
+**Verb class:** irregular
 **Register:** everyday — money from an ATM, a name from a race
 **Pattern:** aw — ew — awn &middot; **Group:** 12
 **Third person:** *withdraws* &middot; **-ing form:** *withdrawing*
@@ -2704,6 +2762,7 @@ To take something back or take it out, to move back from a place, or to become d
 **Pronunciation:** /raɪt/ &middot; *RYTE*
 **Русский:** писать
 **Forms:** *write* /raɪt/ &middot; *wrote* /roʊt/ &middot; *written* /ˈrɪtən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i — o — i, participle in -ten &middot; **Group:** 12
 **Third person:** *writes* &middot; **-ing form:** *writing* (drop the e; one t)

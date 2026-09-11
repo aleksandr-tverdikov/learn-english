@@ -13,6 +13,7 @@ Every verb here builds one form that serves as both the past and the participle:
 **Pronunciation:** /kæn/ &middot; *KAN* &middot; weak form /kən/ in *I can go*
 **Русский:** мочь; уметь
 **Forms:** *can* /kæn/ &middot; *could* /kʊd/ &middot; *could* /kʊd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** an — ould (a modal, not an ordinary verb) &middot; **Group:** 4
 **Third person:** *can* — no -s, ✗ *he cans* &middot; **-ing form:** none; modals have no *-ing* and no infinitive
@@ -88,6 +89,7 @@ The modal of ability, permission, and possibility: *can* in the present, *could*
 **Pronunciation:** /kloʊð/ &middot; *KLOHTH* &middot; the *th* of *the*, not of *thin*
 **Русский:** одевать
 **Forms:** *clothe* /kloʊð/ &middot; *clad* /klæd/ &middot; *clad* /klæd/
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing (*clothe and feed*), uncommon in speech, where an American says *dress* or *put clothes on*
 **Pattern:** othe — ad &middot; **Group:** 4
 **Third person:** *clothes* /kloʊðz/ &middot; **-ing form:** *clothing* (spelled like the noun *clothing*)
@@ -128,6 +130,7 @@ Put clothing on someone or supply them with it — and, as *clad*, cover a surfa
 **Pronunciation:** /fli/ &middot; *FLEE*
 **Русский:** бежать; спасаться
 **Forms:** *flee* /fli/ &middot; *fled* /flɛd/ &middot; *fled* /flɛd/
+**Verb class:** irregular
 **Register:** neutral — standard in news and narrative (*fled the scene*); conversation usually says *run* or *get out*
 **Pattern:** ee — ed &middot; **Group:** 4
 **Third person:** *flees* &middot; **-ing form:** *fleeing* (the e stays — ✗ *fleing*)
@@ -167,6 +170,7 @@ Run from danger — leave a place or a person quickly in order to escape.
 **Pronunciation:** /fɔrˈtɛl/ &middot; *for-TEL*
 **Русский:** предсказывать
 **Forms:** *foretell* /fɔrˈtɛl/ &middot; *foretold* /fɔrˈtoʊld/ &middot; *foretold* /fɔrˈtoʊld/
+**Verb class:** irregular
 **Register:** rare — recognized but seldom produced; prophecy and literature, while an American *predicts* an election and *forecasts* the weather
 **Pattern:** ell — old &middot; **Group:** 4
 **Third person:** *foretells* &middot; **-ing form:** *foretelling* (nothing doubles — *tell* already ends in a double l)
@@ -196,6 +200,7 @@ Say in advance that something will happen — the vocabulary of prophecy rather 
 **Pronunciation:** /hɪr/ &middot; *HEER*
 **Русский:** слышать, услышать
 **Forms:** *hear* /hɪr/ &middot; *heard* /hɝd/ &middot; *heard* /hɝd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ear /ɪr/ — eard /ɝd/ &middot; **Group:** 4
 **Third person:** *hears* &middot; **-ing form:** *hearing* (also the noun — *a hearing*)
@@ -262,6 +267,7 @@ Take in a sound — and by extension get news, get word from someone, or listen 
 **Pronunciation:** /ˌmɪsˈhɪr/ &middot; *mis-HEER*
 **Русский:** ослышаться
 **Forms:** *mishear* /ˌmɪsˈhɪr/ &middot; *misheard* /ˌmɪsˈhɝd/ &middot; *misheard* /ˌmɪsˈhɝd/
+**Verb class:** irregular
 **Register:** neutral — a prefixed derivative, but a live one: *sorry, I must have misheard you* is ordinary speech
 **Pattern:** ear — eard &middot; **Group:** 4
 **Third person:** *mishears* &middot; **-ing form:** *mishearing* (also a noun: *a common mishearing of the lyric*)
@@ -291,6 +297,7 @@ Hear something and get it wrong — take one word for another.
 **Pronunciation:** /ˌaʊtˈsɛl/ &middot; *owt-SEL*
 **Русский:** продавать больше или дороже
 **Forms:** *outsell* /ˌaʊtˈsɛl/ &middot; *outsold* /ˌaʊtˈsoʊld/ &middot; *outsold* /ˌaʊtˈsoʊld/
+**Verb class:** irregular
 **Register:** rare — a prefixed derivative confined to business and trade writing; in conversation an American says *sold more than*
 **Pattern:** ell — old &middot; **Group:** 4
 **Third person:** *outsells* &middot; **-ing form:** *outselling*
@@ -321,6 +328,7 @@ Beat someone or something in sales — move more units than the competition.
 **Pronunciation:** /ˌoʊvɚˈhɪr/ &middot; *oh-ver-HEER*
 **Русский:** подслушивать; нечаянно услышать
 **Forms:** *overhear* /ˌoʊvɚˈhɪr/ &middot; *overheard* /ˌoʊvɚˈhɝd/ &middot; *overheard* /ˌoʊvɚˈhɝd/
+**Verb class:** irregular
 **Register:** everyday — prefixed, but fully current: *I overheard them talking* is ordinary conversation
 **Pattern:** ear — eard &middot; **Group:** 4
 **Third person:** *overhears* &middot; **-ing form:** *overhearing*
@@ -350,6 +358,7 @@ Hear what was not meant for you — by accident, not by design.
 **Pronunciation:** /ˌoʊvɚˈsɛl/ &middot; *oh-ver-SEL*
 **Русский:** распродавать
 **Forms:** *oversell* /ˌoʊvɚˈsɛl/ &middot; *oversold* /ˌoʊvɚˈsoʊld/ &middot; *oversold* /ˌoʊvɚˈsoʊld/
+**Verb class:** irregular
 **Register:** neutral — airline and marketing vocabulary, but *the flight was oversold* and *don't oversell it* come out without effort
 **Pattern:** ell — old &middot; **Group:** 4
 **Third person:** *oversells* &middot; **-ing form:** *overselling*
@@ -384,6 +393,7 @@ Sell more of something than exists, or claim more for it than it can deliver.
 **Pronunciation:** /ˌriˈhɪr/ &middot; *ree-HEER*
 **Русский:** слушать вторично (дело в суде)
 **Forms:** *rehear* /ˌriˈhɪr/ &middot; *reheard* /ˌriˈhɝd/ &middot; *reheard* /ˌriˈhɝd/
+**Verb class:** irregular
 **Register:** rare — specialized to American appellate procedure; outside a courtroom nobody produces it
 **Pattern:** ear — eard &middot; **Group:** 4
 **Third person:** *rehears* &middot; **-ing form:** *rehearing* — normally a noun in American legal English: *the court granted a rehearing*
@@ -409,6 +419,7 @@ Hear a case again — a courtroom term, not a word for playing something back.
 **Pronunciation:** /ˌriˈsɛl/ &middot; *ree-SEL*
 **Русский:** перепродавать
 **Forms:** *resell* /ˌriˈsɛl/ &middot; *resold* /ˌriˈsoʊld/ &middot; *resold* /ˌriˈsoʊld/
+**Verb class:** irregular
 **Register:** neutral — commerce and ticket talk; ordinary in writing and common enough in speech about resale
 **Pattern:** ell — old &middot; **Group:** 4
 **Third person:** *resells* &middot; **-ing form:** *reselling*
@@ -443,6 +454,7 @@ Sell on what you bought instead of keeping it.
 **Pronunciation:** /ˌriˈtɛl/ &middot; *ree-TEL*
 **Русский:** пересказывать
 **Forms:** *retell* /ˌriˈtɛl/ &middot; *retold* /ˌriˈtoʊld/ &middot; *retold* /ˌriˈtoʊld/
+**Verb class:** irregular
 **Register:** neutral — mostly written, and mostly about stories; speech says *tell it again*
 **Pattern:** ell — old &middot; **Group:** 4
 **Third person:** *retells* &middot; **-ing form:** *retelling* (also a noun: *a modern retelling of the myth*)
@@ -472,6 +484,7 @@ Tell a story again — usually in a new shape.
 **Pronunciation:** /sið/ &middot; *SEETH* &middot; voiced *th*, as in *breathe*
 **Русский:** кипеть; кипятить
 **Forms:** *seethe* /sið/ &middot; *sod* /sɑd/ &middot; *sod* /sɑd/
+**Verb class:** irregular
 **Register:** neutral to formal — the anger sense is at home in writing and understood by everyone; the strong forms *sod* and *sodden* are archaic
 **Pattern:** eethe — od &middot; **Group:** 4
 **Third person:** *seethes* &middot; **-ing form:** *seething*
@@ -513,6 +526,7 @@ Boil or churn — and, in today's English, be furious without showing it.
 **Pronunciation:** /sɛl/ &middot; *SEL*
 **Русский:** торговать, продавать
 **Forms:** *sell* /sɛl/ &middot; *sold* /soʊld/ &middot; *sold* /soʊld/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ell — old &middot; **Group:** 4
 **Third person:** *sells* &middot; **-ing form:** *selling*
@@ -586,6 +600,7 @@ Hand something over in exchange for money — and, figuratively, get an idea or 
 **Pronunciation:** /ʃu/ &middot; *SHOO*
 **Русский:** обувать; подковывать
 **Forms:** *shoe* /ʃu/ &middot; *shod* /ʃɑd/ &middot; *shod* /ʃɑd/
+**Verb class:** irregular
 **Register:** rare — a farrier's word for horses; *shod* survives mostly as an adjective in *well-shod* and *roughshod*
 **Pattern:** oe — od &middot; **Group:** 4
 **Third person:** *shoes* /ʃuz/ &middot; **-ing form:** *shoeing* (the e stays — ✗ *shoing*)
@@ -626,6 +641,7 @@ Put shoes on — most often on a horse.
 **Pronunciation:** /tɛl/ &middot; *TEL*
 **Русский:** рассказывать
 **Forms:** *tell* /tɛl/ &middot; *told* /toʊld/ &middot; *told* /toʊld/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ell — old &middot; **Group:** 4
 **Third person:** *tells* &middot; **-ing form:** *telling* (also an adjective: *a telling detail*)
@@ -697,6 +713,7 @@ Give someone information — say something to a listener, narrate it, instruct t
 **Pronunciation:** /ˌʌndɚˈsɛl/ &middot; *un-der-SEL*
 **Русский:** продавать дешевле других
 **Forms:** *undersell* /ˌʌndɚˈsɛl/ &middot; *undersold* /ˌʌndɚˈsoʊld/ &middot; *undersold* /ˌʌndɚˈsoʊld/
+**Verb class:** irregular
 **Register:** rare — a prefixed derivative kept alive by trade writing; ordinary speech says *cheaper than*
 **Pattern:** ell — old &middot; **Group:** 4
 **Third person:** *undersells* &middot; **-ing form:** *underselling*

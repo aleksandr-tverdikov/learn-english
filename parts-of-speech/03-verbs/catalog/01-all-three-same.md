@@ -11,6 +11,7 @@ Fifty-eight verbs in this group do nothing at all when they change tense. *Put* 
 **Pronunciation:** /bɪˈsɛt/ &middot; *bih-SET*
 **Русский:** осаждать, нападать со всех сторон
 **Forms:** *beset* /bɪˈsɛt/ &middot; *beset* /bɪˈsɛt/ &middot; *beset* /bɪˈsɛt/
+**Verb class:** irregular
 **Register:** rare — met almost only in the passive *beset by delays*; few Americans produce it otherwise
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *besets* &middot; **-ing form:** *besetting* (the t doubles)
@@ -45,6 +46,7 @@ To trouble or harass someone from every side at once; in older use, to surround 
 **Pronunciation:** /bɛt/ &middot; *BET*
 **Русский:** держать пари, биться об заклад
 **Forms:** *bet* /bɛt/ &middot; *bet* /bɛt/ &middot; *bet* /bɛt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking, in money talk and in *I bet*
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *bets* &middot; **-ing form:** *betting* (the t doubles)
@@ -86,6 +88,7 @@ To risk money on an outcome, or, in everyday speech, to say you are fairly sure 
 **Pronunciation:** /ˈbrɔdˌkæst/ &middot; *BRAWD-kast*
 **Русский:** передавать по радио, вещать
 **Forms:** *broadcast* /ˈbrɔdˌkæst/ &middot; *broadcast* /ˈbrɔdˌkæst/ &middot; *broadcast* /ˈbrɔdˌkæst/
+**Verb class:** irregular
 **Register:** everyday — ordinary for radio, TV, and streaming, and figuratively for spreading news
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *broadcasts* &middot; **-ing form:** *broadcasting* (no spelling change)
@@ -119,6 +122,7 @@ To send a program or signal out over radio, television, or the internet; more lo
 **Pronunciation:** /bɝst/ &middot; *BURST*
 **Русский:** взрываться; разрываться
 **Forms:** *burst* /bɝst/ &middot; *burst* /bɝst/ &middot; *burst* /bɝst/
+**Verb class:** irregular
 **Register:** everyday — pipes, balloons, tears, and laughter all burst in ordinary speech
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *bursts* &middot; **-ing form:** *bursting* (no spelling change)
@@ -170,6 +174,7 @@ To break open suddenly under pressure, or to move or act with sudden force.
 **Pronunciation:** /bʌst/ &middot; *BUST*
 **Русский:** сломать, разбить, разрушить
 **Forms:** *bust* /bʌst/ &middot; *bust* /bʌst/ or *busted* /ˈbʌstɪd/ &middot; *bust* /bʌst/ or *busted* /ˈbʌstɪd/
+**Verb class:** irregular
 **Register:** everyday — informal, but wholly ordinary in American speech and crime reporting
 **Pattern:** no change (or regular *busted*) &middot; **Group:** 1
 **Third person:** *busts* &middot; **-ing form:** *busting* (no spelling change)
@@ -217,6 +222,7 @@ Informal: to break something, to raid or arrest, or to reduce someone in rank. E
 **Pronunciation:** /kæst/ &middot; *KAST*
 **Русский:** кидать; бросать; проводить кастинг
 **Forms:** *cast* /kæst/ &middot; *cast* /kæst/ &middot; *cast* /kæst/
+**Verb class:** irregular
 **Register:** everyday — everyone casts a vote, a shadow, a line, or a show
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *casts* &middot; **-ing form:** *casting* (no spelling change)
@@ -288,6 +294,7 @@ To throw or send something out, to choose actors for parts, or to shape molten m
 **Pronunciation:** /ˈklɪrˌkʌt/ &middot; *KLEER-kut*
 **Русский:** сплошая вырубка леса
 **Forms:** *clear-cut* /ˈklɪrˌkʌt/ &middot; *clear-cut* /ˈklɪrˌkʌt/ &middot; *clear-cut* /ˈklɪrˌkʌt/
+**Verb class:** irregular
 **Register:** rare — a forestry term; what Americans use daily is the unrelated adjective *a clear-cut case*
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *clear-cuts* &middot; **-ing form:** *clear-cutting* (the t doubles)
@@ -313,6 +320,7 @@ To log an area of forest by taking every tree at once.
 **Pronunciation:** /kɔst/ &middot; *KAWST*
 **Русский:** стоить
 **Forms:** *cost* /kɔst/ &middot; *cost* /kɔst/ &middot; *cost* /kɔst/
+**Verb class:** irregular
 **Register:** everyday — one of the first hundred verbs anyone uses
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *costs* &middot; **-ing form:** *costing* (no spelling change)
@@ -360,6 +368,7 @@ To have a particular price, or to make someone lose something.
 **Pronunciation:** /ˈkrɔsˌkʌt/ &middot; *KRAWS-kut*
 **Русский:** пересекать
 **Forms:** *crosscut* /ˈkrɔsˌkʌt/ &middot; *crosscut* /ˈkrɔsˌkʌt/ &middot; *crosscut* /ˈkrɔsˌkʌt/
+**Verb class:** irregular
 **Register:** rare — woodworking and film-editing shop talk, mostly met in *crosscut saw*
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *crosscuts* &middot; **-ing form:** *crosscutting* (the t doubles)
@@ -393,6 +402,7 @@ To cut across something — across the grain of a board, or between two scenes o
 **Pronunciation:** /kʌt/ &middot; *KUT*
 **Русский:** резать
 **Forms:** *cut* /kʌt/ &middot; *cut* /kʌt/ &middot; *cut* /kʌt/
+**Verb class:** irregular
 **Register:** everyday — among the commonest verbs in the language, literal and figurative alike
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *cuts* &middot; **-ing form:** *cutting* (the t doubles)
@@ -471,6 +481,7 @@ To divide or wound with something sharp, to reduce an amount, and, in a long lis
 **Pronunciation:** /ˈdaʊnˌkæst/ &middot; *DOWN-kast*
 **Русский:** удручать, печалить, подавлять
 **Forms:** *downcast* /ˈdaʊnˌkæst/ &middot; *downcast* /ˈdaʊnˌkæst/ &middot; *downcast* /ˈdaʊnˌkæst/
+**Verb class:** irregular
 **Register:** archaic — the verb is out of use; only the participle-adjective *downcast eyes* survives
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *downcasts* &middot; **-ing form:** *downcasting* (no spelling change)
@@ -500,6 +511,7 @@ To turn the eyes downward, or to dishearten someone. Literary and rare as a verb
 **Pronunciation:** /ˈɪŋɡlɪʃ/ &middot; *ING-glish*
 **Русский:** переводить на английский язык
 **Forms:** *english* /ˈɪŋɡlɪʃ/ &middot; *english* /ˈɪŋɡlɪʃ/ or *englished* /ˈɪŋɡlɪʃt/ &middot; *english* /ˈɪŋɡlɪʃ/ or *englished* /ˈɪŋɡlɪʃt/
+**Verb class:** irregular
 **Register:** archaic — a scholar's word for translating, at home in older writing and nowhere else
 **Pattern:** no change (or regular *englished*) &middot; **Group:** 1
 **Third person:** *englishes* &middot; **-ing form:** *englishing* (the third person adds -es after -sh)
@@ -525,6 +537,7 @@ To translate something into English. Rare, dated, and written with a small e to 
 **Pronunciation:** /fɪt/ &middot; *FIT*
 **Русский:** подходить по размеру, приспосабливать
 **Forms:** *fit* /fɪt/ &middot; *fit* /fɪt/ or *fitted* /ˈfɪtɪd/ &middot; *fit* /fɪt/ or *fitted* /ˈfɪtɪd/
+**Verb class:** irregular
 **Register:** everyday — clothes fit, stories fit the facts, people fit in
 **Pattern:** no change in the "right size" sense &middot; **Group:** 1
 **Third person:** *fits* &middot; **-ing form:** *fitting* (the t doubles)
@@ -581,6 +594,7 @@ To be the right size or shape for something, to make something the right size, o
 **Pronunciation:** /ˈfɔrˌkæst/ &middot; *FOR-kast*
 **Русский:** предсказывать
 **Forms:** *forecast* /ˈfɔrˌkæst/ &middot; *forecast* /ˈfɔrˌkæst/ &middot; *forecast* /ˈfɔrˌkæst/
+**Verb class:** irregular
 **Register:** everyday — weather and business talk both use it without a second thought
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *forecasts* &middot; **-ing form:** *forecasting* (no spelling change)
@@ -615,6 +629,7 @@ To say what is likely to happen, especially with weather, money, or demand.
 **Pronunciation:** /hɪt/ &middot; *HIT*
 **Русский:** ударить
 **Forms:** *hit* /hɪt/ &middot; *hit* /hɪt/ &middot; *hit* /hɪt/
+**Verb class:** irregular
 **Register:** everyday — one of the busiest verbs in American speech, with a dozen live idioms
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *hits* &middot; **-ing form:** *hitting* (the t doubles)
@@ -686,6 +701,7 @@ To strike something, to reach a level or a place, or to arrive somewhere suddenl
 **Pronunciation:** /hɔɪst/ &middot; *HOYST*
 **Русский:** поднимать
 **Forms:** *hoist* /hɔɪst/ &middot; *hoist* /hɔɪst/ or *hoisted* /ˈhɔɪstɪd/ &middot; *hoist* /hɔɪst/ or *hoisted* /ˈhɔɪstɪd/
+**Verb class:** irregular
 **Register:** neutral — ordinary in writing and on a job site, less common in casual speech
 **Pattern:** no change (or regular *hoisted*) &middot; **Group:** 1
 **Third person:** *hoists* &middot; **-ing form:** *hoisting* (no spelling change)
@@ -724,6 +740,7 @@ To raise something heavy, usually with ropes, a crane, or a lot of effort.
 **Pronunciation:** /hɝt/ &middot; *HURT*
 **Русский:** причинить боль
 **Forms:** *hurt* /hɝt/ &middot; *hurt* /hɝt/ &middot; *hurt* /hɝt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *hurts* &middot; **-ing form:** *hurting* (no spelling change)
@@ -772,6 +789,7 @@ To cause pain or damage, or to feel pain.
 **Pronunciation:** /ˈɪnˌpʊt/ &middot; *IN-put*
 **Русский:** вводить (данные в ЭВМ)
 **Forms:** *input* /ˈɪnˌpʊt/ &middot; *input* /ˈɪnˌpʊt/ &middot; *input* /ˈɪnˌpʊt/
+**Verb class:** irregular
 **Register:** neutral — computing and business writing; speech prefers *enter* or *type in*
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *inputs* &middot; **-ing form:** *inputting* (the t doubles)
@@ -801,6 +819,7 @@ To enter data into a computer or a system.
 **Pronunciation:** /ˈɪnˌsɛt/ &middot; *IN-set*
 **Русский:** вставлять; вкладывать
 **Forms:** *inset* /ˈɪnˌsɛt/ &middot; *inset* /ˈɪnˌsɛt/ &middot; *inset* /ˈɪnˌsɛt/
+**Verb class:** irregular
 **Register:** rare — building, jewelry, and publishing shop talk, usually met as *an inset panel*
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *insets* &middot; **-ing form:** *insetting* (the t doubles)
@@ -829,6 +848,7 @@ To set one thing inside another — a small map on a large one, a panel in a doo
 **Pronunciation:** /ˌɪntərˈkʌt/ &middot; *in-tur-KUT*
 **Русский:** прерывать, разрывать
 **Forms:** *intercut* /ˌɪntərˈkʌt/ &middot; *intercut* /ˌɪntərˈkʌt/ &middot; *intercut* /ˌɪntərˈkʌt/
+**Verb class:** irregular
 **Register:** rare — film and video editing vocabulary, seldom used outside it
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *intercuts* &middot; **-ing form:** *intercutting* (the t doubles)
@@ -858,6 +878,7 @@ To alternate shots from two different scenes in a film or video.
 **Pronunciation:** /nɪt/ &middot; *NIT*
 **Русский:** вязать
 **Forms:** *knit* /nɪt/ &middot; *knit* /nɪt/ or *knitted* /ˈnɪtɪd/ &middot; *knit* /nɪt/ or *knitted* /ˈnɪtɪd/
+**Verb class:** irregular
 **Register:** everyday — ordinary for yarn, for a healing bone, and for a close-knit family
 **Pattern:** no change in the figurative sense &middot; **Group:** 1
 **Third person:** *knits* &middot; **-ing form:** *knitting* (the t doubles)
@@ -901,6 +922,7 @@ To make cloth by looping yarn with needles, or, figuratively, to join and grow t
 **Pronunciation:** /lɛt/ &middot; *LET*
 **Русский:** позволять
 **Forms:** *let* /lɛt/ &middot; *let* /lɛt/ &middot; *let* /lɛt/
+**Verb class:** irregular
 **Register:** everyday — a core verb of permission and of a dozen phrasal verbs
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *lets* &middot; **-ing form:** *letting* (the t doubles)
@@ -977,6 +999,7 @@ To allow something to happen, and, in a long list of fixed phrases, to release, 
 **Pronunciation:** /mɪsˈkæst/ &middot; *mis-KAST*
 **Русский:** неправильно распределять роли
 **Forms:** *miscast* /mɪsˈkæst/ &middot; *miscast* /mɪsˈkæst/ &middot; *miscast* /mɪsˈkæst/
+**Verb class:** irregular
 **Register:** rare — entertainment criticism, nearly always passive, and prefixed from *cast*
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *miscasts* &middot; **-ing form:** *miscasting* (no spelling change)
@@ -1010,6 +1033,7 @@ To give an actor a part that does not suit them, or to put a person or an issue 
 **Pronunciation:** /ˌmɪsˈrid/ &middot; *mis-REED*
 **Русский:** неправильно истолковывать
 **Forms:** *misread* /ˌmɪsˈrid/ &middot; *misread* /ˌmɪsˈrɛd/ &middot; *misread* /ˌmɪsˈrɛd/
+**Verb class:** irregular
 **Register:** everyday — *I misread the schedule* is ordinary American speech
 **Pattern:** spelling unchanged; /i/ — /ɛ/ — /ɛ/ &middot; **Group:** 1
 **Third person:** *misreads* /ˌmɪsˈridz/ &middot; **-ing form:** *misreading* /ˌmɪsˈridɪŋ/ (both keep the REED vowel)
@@ -1043,6 +1067,7 @@ To read something wrong, or to misjudge a person or a situation. The past and pa
 **Pronunciation:** /ˈɔfˌsɛt/ &middot; *AWF-set*
 **Русский:** возмещать, компенсировать
 **Forms:** *offset* /ˈɔfˌsɛt/ &middot; *offset* /ˈɔfˌsɛt/ &middot; *offset* /ˈɔfˌsɛt/
+**Verb class:** irregular
 **Register:** neutral — ordinary in business, tax, and climate writing, less common in speech
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *offsets* &middot; **-ing form:** *offsetting* (the t doubles)
@@ -1084,6 +1109,7 @@ To balance one thing against another so that the two effects cancel out.
 **Pronunciation:** /ˈaʊtˌpʊt/ &middot; *OWT-put*
 **Русский:** выходить
 **Forms:** *output* /ˈaʊtˌpʊt/ &middot; *output* /ˈaʊtˌpʊt/ &middot; *output* /ˈaʊtˌpʊt/
+**Verb class:** irregular
 **Register:** neutral — computing and economics writing; in speech the noun does the work
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *outputs* &middot; **-ing form:** *outputting* (the t doubles)
@@ -1112,6 +1138,7 @@ To produce something, especially data sent out by a machine or a program.
 **Pronunciation:** /ˌoʊvərˈsteɪ/ &middot; *oh-vur-STAY*
 **Русский:** загоститься, засидеться
 **Forms:** *overstay* /ˌoʊvərˈsteɪ/ &middot; *overstay* /ˌoʊvərˈsteɪ/ or *overstayed* /ˌoʊvərˈsteɪd/ &middot; *overstay* /ˌoʊvərˈsteɪ/ or *overstayed* /ˌoʊvərˈsteɪd/
+**Verb class:** irregular
 **Register:** everyday — familiar to everyone through *overstay your welcome* and visa talk
 **Pattern:** no change (or regular *overstayed*) &middot; **Group:** 1
 **Third person:** *overstays* &middot; **-ing form:** *overstaying* (no spelling change)
@@ -1140,6 +1167,7 @@ To stay somewhere longer than you were welcome or allowed to.
 **Pronunciation:** /ˈprufˌrid/ &middot; *PROOF-reed*
 **Русский:** корректировать текст
 **Forms:** *proofread* /ˈprufˌrid/ &middot; *proofread* /ˈprufˌrɛd/ &middot; *proofread* /ˈprufˌrɛd/
+**Verb class:** irregular
 **Register:** everyday — anyone who writes at work uses it
 **Pattern:** spelling unchanged; /i/ — /ɛ/ — /ɛ/ &middot; **Group:** 1
 **Third person:** *proofreads* /ˈprufˌridz/ &middot; **-ing form:** *proofreading* /ˈprufˌridɪŋ/ (both keep the REED vowel)
@@ -1169,6 +1197,7 @@ To read a text closely to catch mistakes before it is published. The past and pa
 **Pronunciation:** /pʊt/ &middot; *PUT*
 **Русский:** класть
 **Forms:** *put* /pʊt/ &middot; *put* /pʊt/ &middot; *put* /pʊt/
+**Verb class:** irregular
 **Register:** everyday — one of the handful of verbs no English sentence gets far without
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *puts* &middot; **-ing form:** *putting* /ˈpʊtɪŋ/ (the t doubles)
@@ -1250,6 +1279,7 @@ To move something into a place or a position, and, by extension, to express, ass
 **Pronunciation:** /kwɪt/ &middot; *KWIT*
 **Русский:** покидать; оставлять; выходить
 **Forms:** *quit* /kwɪt/ &middot; *quit* /kwɪt/ &middot; *quit* /kwɪt/
+**Verb class:** irregular
 **Register:** everyday — the ordinary American word for stopping or leaving a job
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *quits* &middot; **-ing form:** *quitting* (the t doubles)
@@ -1298,6 +1328,7 @@ To stop doing something, to leave a job for good, or to close a program.
 **Pronunciation:** /rid/ &middot; *REED*
 **Русский:** читать
 **Forms:** *read* /rid/ &middot; *read* /rɛd/ &middot; *read* /rɛd/
+**Verb class:** irregular
 **Register:** everyday — its irregularity is a trap for the ear, but the verb itself is basic
 **Pattern:** spelling unchanged; /i/ — /ɛ/ — /ɛ/ &middot; **Group:** 1
 **Third person:** *reads* /ridz/ &middot; **-ing form:** *reading* /ˈridɪŋ/ (both keep the REED vowel)
@@ -1375,6 +1406,7 @@ To take in written words, and by extension to interpret, to state, or to display
 **Pronunciation:** /ˌriˈbrɔdˌkæst/ &middot; *ree-BRAWD-kast*
 **Русский:** транслировать вновь, ретранслировать
 **Forms:** *rebroadcast* /ˌriˈbrɔdˌkæst/ &middot; *rebroadcast* /ˌriˈbrɔdˌkæst/ &middot; *rebroadcast* /ˌriˈbrɔdˌkæst/
+**Verb class:** irregular
 **Register:** rare — broadcast-industry word; ordinary speech says *replay* or *air again*
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *rebroadcasts* &middot; **-ing form:** *rebroadcasting* (no spelling change)
@@ -1403,6 +1435,7 @@ To broadcast something a second time, or to relay a signal onward.
 **Pronunciation:** /riˈkæst/ &middot; *ree-KAST*
 **Русский:** видоизменять; преобразовывать
 **Forms:** *recast* /riˈkæst/ &middot; *recast* /riˈkæst/ &middot; *recast* /riˈkæst/
+**Verb class:** irregular
 **Register:** neutral — ordinary in film talk and in editing prose, uncommon in conversation
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *recasts* &middot; **-ing form:** *recasting* (no spelling change)
@@ -1437,6 +1470,7 @@ To replace an actor in a role, to rework something into a new form, or to melt a
 **Pronunciation:** /riˈfɪt/ &middot; *ree-FIT*
 **Русский:** переоборудовать
 **Forms:** *refit* /riˈfɪt/ &middot; *refit* /riˈfɪt/ or *refitted* /riˈfɪtɪd/ &middot; *refit* /riˈfɪt/ or *refitted* /riˈfɪtɪd/
+**Verb class:** irregular
 **Register:** rare — nautical and engineering usage, and even there the noun is commoner
 **Pattern:** no change (or regular *refitted*) &middot; **Group:** 1
 **Third person:** *refits* &middot; **-ing form:** *refitting* (the t doubles)
@@ -1470,6 +1504,7 @@ To repair and re-equip something, especially a ship.
 **Pronunciation:** /ˌriˈrid/ &middot; *ree-REED*
 **Русский:** перечитывать
 **Forms:** *reread* /ˌriˈrid/ &middot; *reread* /ˌriˈrɛd/ &middot; *reread* /ˌriˈrɛd/
+**Verb class:** irregular
 **Register:** everyday — as ordinary as *read*, and used the same way
 **Pattern:** spelling unchanged; /i/ — /ɛ/ — /ɛ/ &middot; **Group:** 1
 **Third person:** *rereads* /ˌriˈridz/ &middot; **-ing form:** *rereading* /ˌriˈridɪŋ/ (both keep the REED vowel)
@@ -1500,6 +1535,7 @@ To read something a second time, or to interpret a text in a new way.
 **Pronunciation:** /ˌriˈsɛt/ &middot; *ree-SET*
 **Русский:** возвращать в исходное состояние
 **Forms:** *reset* /ˌriˈsɛt/ &middot; *reset* /ˌriˈsɛt/ &middot; *reset* /ˌriˈsɛt/
+**Verb class:** irregular
 **Register:** everyday — routers, passwords, and relationships all get reset
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *resets* &middot; **-ing form:** *resetting* (the t doubles)
@@ -1539,6 +1575,7 @@ To return something to its starting state, or to set it again to a new value.
 **Pronunciation:** /ˈrɛtroʊˌfɪt/ &middot; *RET-roh-fit*
 **Русский:** тех. модифицировать (модель)
 **Forms:** *retrofit* /ˈrɛtroʊˌfɪt/ &middot; *retrofit* /ˈrɛtroʊˌfɪt/ or *retrofitted* /ˈrɛtroʊˌfɪtɪd/ &middot; *retrofit* /ˈrɛtroʊˌfɪt/ or *retrofitted* /ˈrɛtroʊˌfɪtɪd/
+**Verb class:** irregular
 **Register:** neutral — engineering, construction, and software writing; ordinary on the job
 **Pattern:** no change (or regular *retrofitted*) &middot; **Group:** 1
 **Third person:** *retrofits* &middot; **-ing form:** *retrofitting* (the t doubles)
@@ -1568,6 +1605,7 @@ To add new equipment or systems to something that was built without them.
 **Pronunciation:** /rɪd/ &middot; *RID*
 **Русский:** избавляться
 **Forms:** *rid* /rɪd/ &middot; *rid* /rɪd/ &middot; *rid* /rɪd/
+**Verb class:** irregular
 **Register:** everyday — carried into daily speech by *get rid of*
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *rids* &middot; **-ing form:** *ridding* (the d doubles)
@@ -1602,6 +1640,7 @@ To free someone or something of something unwanted — almost always in *rid X o
 **Pronunciation:** /sɛt/ &middot; *SET*
 **Русский:** помещать; ставить, установить
 **Forms:** *set* /sɛt/ &middot; *set* /sɛt/ &middot; *set* /sɛt/
+**Verb class:** irregular
 **Register:** everyday — one of the most-used verbs in the language, with senses in every domain
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *sets* &middot; **-ing form:** *setting* (the t doubles)
@@ -1694,6 +1733,7 @@ To place something deliberately, to fix a value or state, or (of the sun) to go 
 **Pronunciation:** /ʃɛd/ &middot; *SHED*
 **Русский:** проливать (слезы, кровь)
 **Forms:** *shed* /ʃɛd/ &middot; *shed* /ʃɛd/ &middot; *shed* /ʃɛd/
+**Verb class:** irregular
 **Register:** everyday — dogs shed, companies shed jobs, and evidence sheds light
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *sheds* &middot; **-ing form:** *shedding* (the d doubles)
@@ -1739,6 +1779,7 @@ To let something fall away — leaves, hair, tears, weight, or a burden.
 **Pronunciation:** /ʃɪt/ &middot; *SHIT*
 **Русский:** гадить
 **Forms:** *shit* /ʃɪt/ &middot; *shit* /ʃɪt/ or *shat* /ʃæt/ &middot; *shit* /ʃɪt/ or *shat* /ʃæt/
+**Verb class:** irregular
 **Register:** vulgar — ordinary in rough speech, barred from writing that matters
 **Pattern:** no change (or *shat*) &middot; **Group:** 1
 **Third person:** *shits* &middot; **-ing form:** *shitting* (the t doubles)
@@ -1773,6 +1814,7 @@ To empty the bowels — vulgar — plus a handful of vulgar idioms built on the 
 **Pronunciation:** /ʃrɛd/ &middot; *SHRED*
 **Русский:** кромсать; расползаться; рвать; измельчать
 **Forms:** *shred* /ʃrɛd/ &middot; *shred* /ʃrɛd/ or *shredded* /ˈʃrɛdɪd/ &middot; *shred* /ʃrɛd/ or *shredded* /ˈʃrɛdɪd/
+**Verb class:** irregular
 **Register:** everyday — documents, cheese, and tires all shred in ordinary use
 **Pattern:** no change (or regular *shredded*) &middot; **Group:** 1
 **Third person:** *shreds* &middot; **-ing form:** *shredding* (the d doubles)
@@ -1811,6 +1853,7 @@ To cut or tear something into strips, literally or figuratively.
 **Pronunciation:** /ʃʌt/ &middot; *SHUT*
 **Русский:** закрывать
 **Forms:** *shut* /ʃʌt/ &middot; *shut* /ʃʌt/ &middot; *shut* /ʃʌt/
+**Verb class:** irregular
 **Register:** everyday — a core verb, blunter than *close* but just as common
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *shuts* &middot; **-ing form:** *shutting* (the t doubles)
@@ -1867,6 +1910,7 @@ To move something into a closed position, and the base of several very common ph
 **Pronunciation:** /ˈsaɪtˌrid/ &middot; *SITE-reed*
 **Русский:** играть или петь с листа (по нотам)
 **Forms:** *sight-read* /ˈsaɪtˌrid/ &middot; *sight-read* /ˈsaɪtˌrɛd/ &middot; *sight-read* /ˈsaɪtˌrɛd/
+**Verb class:** irregular
 **Register:** rare — musicians' vocabulary and nothing else
 **Pattern:** spelling unchanged; /i/ — /ɛ/ — /ɛ/ &middot; **Group:** 1
 **Third person:** *sight-reads* /ˈsaɪtˌridz/ &middot; **-ing form:** *sight-reading* /ˈsaɪtˌridɪŋ/ (both keep the REED vowel)
@@ -1892,6 +1936,7 @@ To play or sing music from a score you have never seen before.
 **Pronunciation:** /ˈsaɪməlˌkæst/ &middot; *SY-mul-kast*
 **Русский:** транслировать по радио и телевидению
 **Forms:** *simulcast* /ˈsaɪməlˌkæst/ &middot; *simulcast* /ˈsaɪməlˌkæst/ &middot; *simulcast* /ˈsaɪməlˌkæst/
+**Verb class:** irregular
 **Register:** rare — a broadcast-industry blend, at home in racing and cinema listings
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *simulcasts* &middot; **-ing form:** *simulcasting* (no spelling change)
@@ -1921,6 +1966,7 @@ To carry the same program on two channels or media at the same time.
 **Pronunciation:** /slɪt/ &middot; *SLIT*
 **Русский:** разрезать вдоль, делать разрез
 **Forms:** *slit* /slɪt/ &middot; *slit* /slɪt/ &middot; *slit* /slɪt/
+**Verb class:** irregular
 **Register:** neutral — ordinary in narrative writing, mostly in *slit open* and *slit a throat*
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *slits* &middot; **-ing form:** *slitting* (the t doubles)
@@ -1950,6 +1996,7 @@ To make a long, narrow cut in something.
 **Pronunciation:** /splɪt/ &middot; *SPLIT*
 **Русский:** расщеплять; раскалывать
 **Forms:** *split* /splɪt/ &middot; *split* /splɪt/ &middot; *split* /splɪt/
+**Verb class:** irregular
 **Register:** everyday — bills, parties, and firewood all get split in ordinary speech
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *splits* &middot; **-ing form:** *splitting* (the t doubles)
@@ -2014,6 +2061,7 @@ To break or divide something into parts, to share something out, or — in slang
 **Pronunciation:** /sprɛd/ &middot; *SPRED*
 **Русский:** распространять
 **Forms:** *spread* /sprɛd/ &middot; *spread* /sprɛd/ &middot; *spread* /sprɛd/
+**Verb class:** irregular
 **Register:** everyday — of fire, news, butter, and blankets alike
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *spreads* &middot; **-ing form:** *spreading* (the d doubles)
@@ -2073,6 +2121,7 @@ To cover or reach a wider area, or to move something out across a surface.
 **Pronunciation:** /ˌsʌbˈlɛt/ &middot; *sub-LET*
 **Русский:** передавать в субаренду
 **Forms:** *sublet* /ˌsʌbˈlɛt/ &middot; *sublet* /ˌsʌbˈlɛt/ &middot; *sublet* /ˌsʌbˈlɛt/
+**Verb class:** irregular
 **Register:** everyday — ordinary for anyone who rents, and standard on a lease
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *sublets* &middot; **-ing form:** *subletting* (the t doubles)
@@ -2107,6 +2156,7 @@ To rent out to someone else a place you are renting yourself.
 **Pronunciation:** /swɛt/ &middot; *SWET*
 **Русский:** потеть
 **Forms:** *sweat* /swɛt/ &middot; *sweat* /swɛt/ or *sweated* /ˈswɛtɪd/ &middot; *sweat* /swɛt/ or *sweated* /ˈswɛtɪd/
+**Verb class:** irregular
 **Register:** everyday — literal and figurative both, as in *don't sweat it*
 **Pattern:** no change (or regular *sweated*) &middot; **Group:** 1
 **Third person:** *sweats* &middot; **-ing form:** *sweating* (no doubling — two vowel letters before the t)
@@ -2155,6 +2205,7 @@ To give off moisture through the skin, and by extension to worry or to work very
 **Pronunciation:** /ˈtɛləˌkæst/ &middot; *TEL-uh-kast*
 **Русский:** передавать по телевидению
 **Forms:** *telecast* /ˈtɛləˌkæst/ &middot; *telecast* /ˈtɛləˌkæst/ &middot; *telecast* /ˈtɛləˌkæst/
+**Verb class:** irregular
 **Register:** dated — the industry's old word; American English now says *broadcast* or *air*
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *telecasts* &middot; **-ing form:** *telecasting* (no spelling change)
@@ -2180,6 +2231,7 @@ To broadcast something on television.
 **Pronunciation:** /θrʌst/ &middot; *THRUST*
 **Русский:** толкать, тыкать
 **Forms:** *thrust* /θrʌst/ &middot; *thrust* /θrʌst/ &middot; *thrust* /θrʌst/
+**Verb class:** irregular
 **Register:** neutral — common in narrative and technical writing, rare in conversation
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *thrusts* &middot; **-ing form:** *thrusting* (no spelling change)
@@ -2227,6 +2279,7 @@ To push something forward suddenly and hard, or to force someone into a situatio
 **Pronunciation:** /ˈtaɪpˌkæst/ &middot; *TYPE-kast*
 **Русский:** подбирать актеров по принципу типажности
 **Forms:** *typecast* /ˈtaɪpˌkæst/ &middot; *typecast* /ˈtaɪpˌkæst/ &middot; *typecast* /ˈtaɪpˌkæst/
+**Verb class:** irregular
 **Register:** neutral — entertainment talk and its figurative extension; ordinary in writing
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *typecasts* &middot; **-ing form:** *typecasting* (no spelling change)
@@ -2255,6 +2308,7 @@ To keep casting an actor in the same kind of role, or to label a person by one t
 **Pronunciation:** /ˌʌndərˈkʌt/ &middot; *un-dur-KUT*
 **Русский:** подрезать; сбивать цены
 **Forms:** *undercut* /ˌʌndərˈkʌt/ &middot; *undercut* /ˌʌndərˈkʌt/ &middot; *undercut* /ˌʌndərˈkʌt/
+**Verb class:** irregular
 **Register:** neutral — business and policy writing, and ordinary on the job
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *undercuts* &middot; **-ing form:** *undercutting* (the t doubles)
@@ -2289,6 +2343,7 @@ To sell more cheaply than a rival, or to weaken something from underneath.
 **Pronunciation:** /ˈʌpərˌkʌt/ &middot; *UP-ur-kut*
 **Русский:** сделать апперкот
 **Forms:** *uppercut* /ˈʌpərˌkʌt/ &middot; *uppercut* /ˈʌpərˌkʌt/ &middot; *uppercut* /ˈʌpərˌkʌt/
+**Verb class:** irregular
 **Register:** rare — boxing shorthand, and even there the noun does nearly all the work
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *uppercuts* &middot; **-ing form:** *uppercutting* (the t doubles)
@@ -2314,6 +2369,7 @@ To hit someone with a short upward punch from below.
 **Pronunciation:** /ʌpˈsɛt/ &middot; *up-SET*
 **Русский:** расстраивать
 **Forms:** *upset* /ʌpˈsɛt/ &middot; *upset* /ʌpˈsɛt/ &middot; *upset* /ʌpˈsɛt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** no change &middot; **Group:** 1
 **Third person:** *upsets* &middot; **-ing form:** *upsetting* (the t doubles)
@@ -2359,6 +2415,7 @@ To make someone unhappy, to knock something over, or to beat a favorite.
 **Pronunciation:** /wɛd/ &middot; *WED*
 **Русский:** выдавать замуж, жениться
 **Forms:** *wed* /wɛd/ &middot; *wed* /wɛd/ or *wedded* /ˈwɛdɪd/ &middot; *wed* /wɛd/ or *wedded* /ˈwɛdɪd/
+**Verb class:** irregular
 **Register:** dated — survives in headlines and in *wedded to*; Americans say *get married*
 **Pattern:** no change (or regular *wedded*) &middot; **Group:** 1
 **Third person:** *weds* &middot; **-ing form:** *wedding* (the d doubles — same spelling as the noun *wedding*)
@@ -2398,6 +2455,7 @@ To marry someone, to perform a marriage, or to join two things closely together.
 **Pronunciation:** /wɛt/ &middot; *WET*
 **Русский:** мочить; увлажнять
 **Forms:** *wet* /wɛt/ &middot; *wet* /wɛt/ or *wetted* /ˈwɛtɪd/ &middot; *wet* /wɛt/ or *wetted* /ˈwɛtɪd/
+**Verb class:** irregular
 **Register:** everyday — ordinary for wetting a cloth, a brush, or the bed
 **Pattern:** no change (or regular *wetted*) &middot; **Group:** 1
 **Third person:** *wets* &middot; **-ing form:** *wetting* (the t doubles)

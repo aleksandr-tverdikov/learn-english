@@ -14,7 +14,12 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib import ROOT, plain, parse_catalog_file
 
 CAT = os.path.join(ROOT, 'parts-of-speech/03-verbs/catalog')
-BASE_FILES = sorted(glob.glob(f'{CAT}/0[0-9]-*.md') + glob.glob(f'{CAT}/1[0-3]-*.md'))
+# base verbs are groups 01-13 (irregular) AND 23+ (regular). The regular tier did not
+# exist when this script was written, so `call off` and `check in` had nowhere to be
+# listed even once they were written - their bases are regular verbs.
+BASE_FILES = sorted(glob.glob(f'{CAT}/0[0-9]-*.md') + glob.glob(f'{CAT}/1[0-3]-*.md')
+                    + [f for f in glob.glob(f'{CAT}/[0-9]*.md')
+                       if int(re.match(r'(\d+)', os.path.basename(f)).group(1)) >= 23])
 DERIVED = sorted(glob.glob(f'{CAT}/1[4-9]-phrasal*.md') + glob.glob(f'{CAT}/2[01]-phrasal*.md')
                  + glob.glob(f'{CAT}/22-*.md'))
 

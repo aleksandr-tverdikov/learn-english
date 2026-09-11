@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /wɜːrk/ &middot; *WURK*
 **Русский:** работать, поработать
 **Forms:** *work* &middot; *worked* &middot; *worked*
+**Verb class:** regular
 **Third person:** *works* &middot; **-ing form:** *working*
 **Transitivity:** both — transitive (work long hours), intransitive (she works downtown)
 **Contrast:** Work FOR a company, work AT a place, work ON a project, work WITH people. The preposition changes the meaning, not the verb.
@@ -26,11 +27,14 @@ To do a job, especially one you are paid for.
 
 ---
 
+**Phrasal verbs:** [work on, work for, work with](22-verb-preposition.md#work-on-work-for-work-with)
+
 ### employ
 
 **Pronunciation:** /ɪmˈplɔɪ/ &middot; *im-PLOY*
 **Русский:** нанимать, нанять; держать на работе
 **Forms:** *employ* &middot; *employed* &middot; *employed*
+**Verb class:** regular
 **Third person:** *employs* &middot; **-ing form:** *employing*
 **Transitivity:** transitive
 **Contrast:** The -y follows a vowel, so nothing changes: employs, employed. Compare carry - carries - carried.
@@ -48,6 +52,7 @@ To pay someone to work for you.
 **Pronunciation:** /ˈhaɪər/ &middot; *HY-ur*
 **Русский:** нанимать, нанять; брать на работу
 **Forms:** *hire* &middot; *hired* &middot; *hired*
+**Verb class:** regular
 **Third person:** *hires* &middot; **-ing form:** *hiring*
 **Transitivity:** transitive
 **Contrast:** Drop the -e before -ing: hiring, not hireing. Hire sounds exactly like higher.
@@ -65,6 +70,7 @@ To give someone a job.
 **Pronunciation:** /rɪˈkruːt/ &middot; *ri-KROOT*
 **Русский:** набирать (сотрудников), нанимать, нанять
 **Forms:** *recruit* &middot; *recruited* &middot; *recruited*
+**Verb class:** regular
 **Third person:** *recruits* &middot; **-ing form:** *recruiting*
 **Transitivity:** both — transitive (recruit engineers), intransitive (we are recruiting again)
 
@@ -81,6 +87,7 @@ To find and bring in new people to work for an organization.
 **Pronunciation:** /treɪn/ &middot; *TRAYN*
 **Русский:** обучать, обучить; готовить (специалистов)
 **Forms:** *train* &middot; *trained* &middot; *trained*
+**Verb class:** regular
 **Third person:** *trains* &middot; **-ing form:** *training*
 **Transitivity:** both — transitive (train new hires), intransitive (he trained as a nurse)
 
@@ -97,6 +104,7 @@ To teach someone the skills a job needs.
 **Pronunciation:** /ˈmænɪdʒ/ &middot; *MAN-ij*
 **Русский:** управлять, руководить; справляться, справиться
 **Forms:** *manage* &middot; *managed* &middot; *managed*
+**Verb class:** regular
 **Third person:** *manages* &middot; **-ing form:** *managing*
 **Transitivity:** both — transitive (manage a team), intransitive (somehow we managed)
 
@@ -113,6 +121,7 @@ To be in charge of a business, a team, or a difficult situation.
 **Pronunciation:** /ˈsuːpərvaɪz/ &middot; *SOO-pur-vyz*
 **Русский:** контролировать, руководить; надзирать
 **Forms:** *supervise* &middot; *supervised* &middot; *supervised*
+**Verb class:** regular
 **Third person:** *supervises* &middot; **-ing form:** *supervising*
 **Transitivity:** transitive
 
@@ -129,6 +138,7 @@ To watch over people or work and make sure it is done properly.
 **Pronunciation:** /prəˈmoʊt/ &middot; *pruh-MOHT*
 **Русский:** повышать в должности, повысить; продвигать (товар)
 **Forms:** *promote* &middot; *promoted* &middot; *promoted*
+**Verb class:** regular
 **Third person:** *promotes* &middot; **-ing form:** *promoting*
 **Transitivity:** transitive
 
@@ -145,6 +155,7 @@ To move someone into a higher position, or to help a product become better known
 **Pronunciation:** /rɪˈzaɪn/ &middot; *ri-ZYN*
 **Русский:** увольняться, уволиться; уходить в отставку
 **Forms:** *resign* &middot; *resigned* &middot; *resigned*
+**Verb class:** regular
 **Third person:** *resigns* &middot; **-ing form:** *resigning*
 **Transitivity:** both — transitive (resign his post), intransitive (she resigned in May)
 **Contrast:** The g is silent: ri-ZYN. You resign FROM a company. Re-sign, meaning to sign again, is a different word: ree-SYN.
@@ -162,6 +173,7 @@ To officially leave a job or position.
 **Pronunciation:** /ˈfaɪər/ &middot; *FY-ur*
 **Русский:** увольнять, уволить
 **Forms:** *fire* &middot; *fired* &middot; *fired*
+**Verb class:** regular
 **Third person:** *fires* &middot; **-ing form:** *firing*
 **Transitivity:** transitive
 **Contrast:** Drop the -e before -ing: firing. Fire is blunt; let go and dismiss are the polite versions.
@@ -179,6 +191,7 @@ To make someone leave their job, usually for poor work or bad behavior.
 **Pronunciation:** /rɪˈpleɪs/ &middot; *ri-PLAYSS*
 **Русский:** заменять, заменить; замещать
 **Forms:** *replace* &middot; *replaced* &middot; *replaced*
+**Verb class:** regular
 **Third person:** *replaces* &middot; **-ing form:** *replacing*
 **Transitivity:** transitive
 **Contrast:** Replace X WITH Y, not replace X on Y.
@@ -196,6 +209,7 @@ To put a new person or thing in the place of another.
 **Pronunciation:** /ɜːrn/ &middot; *URN*
 **Русский:** зарабатывать, заработать; заслуживать, заслужить
 **Forms:** *earn* &middot; *earned* &middot; *earned*
+**Verb class:** regular
 **Third person:** *earns* &middot; **-ing form:** *earning*
 **Transitivity:** transitive
 
@@ -212,6 +226,7 @@ To get money for work you do, or to deserve something through effort.
 **Pronunciation:** /ˈɔːrɡənaɪz/ &middot; *OR-guh-nyz*
 **Русский:** организовывать, организовать; упорядочивать
 **Forms:** *organize* &middot; *organized* &middot; *organized*
+**Verb class:** regular
 **Third person:** *organizes* &middot; **-ing form:** *organizing*
 **Transitivity:** transitive
 **Contrast:** American spelling -ize: organize, organized. British writing uses -ise: organise, organised.
@@ -229,6 +244,7 @@ To plan and arrange something, or to put things in order.
 **Pronunciation:** /əˈreɪndʒ/ &middot; *uh-RAYNJ*
 **Русский:** договариваться, устраивать, устроить; организовывать
 **Forms:** *arrange* &middot; *arranged* &middot; *arranged*
+**Verb class:** regular
 **Third person:** *arranges* &middot; **-ing form:** *arranging*
 **Transitivity:** transitive
 
@@ -245,6 +261,7 @@ To make the plans that are needed for something to happen.
 **Pronunciation:** /koʊˈɔːrdəneɪt/ &middot; *koh-OR-duh-nayt*
 **Русский:** координировать, согласовывать, согласовать
 **Forms:** *coordinate* &middot; *coordinated* &middot; *coordinated*
+**Verb class:** regular
 **Third person:** *coordinates* &middot; **-ing form:** *coordinating*
 **Transitivity:** both — transitive (coordinate the launch), intransitive (coordinate with the vendor)
 
@@ -261,6 +278,7 @@ To make different people or parts of a job work together smoothly.
 **Pronunciation:** /ˈdɛlɪɡeɪt/ &middot; *DEL-uh-gayt*
 **Русский:** делегировать, поручать, поручить
 **Forms:** *delegate* &middot; *delegated* &middot; *delegated*
+**Verb class:** regular
 **Third person:** *delegates* &middot; **-ing form:** *delegating*
 **Transitivity:** both — transitive (delegate the task), intransitive (good managers delegate)
 **Contrast:** The verb ends in -gayt; the noun, a person sent to a conference, ends in a schwa: DEL-uh-guht.
@@ -278,6 +296,7 @@ To give part of your work or authority to someone else.
 **Pronunciation:** /əˈsaɪn/ &middot; *uh-SYN*
 **Русский:** назначать, назначить; поручать, поручить
 **Forms:** *assign* &middot; *assigned* &middot; *assigned*
+**Verb class:** regular
 **Third person:** *assigns* &middot; **-ing form:** *assigning*
 **Transitivity:** transitive
 **Contrast:** The g is silent: uh-SYN. Assign a task TO someone.
@@ -295,6 +314,7 @@ To give a person a particular job, task, or place.
 **Pronunciation:** /ˈæləkeɪt/ &middot; *AL-uh-kayt*
 **Русский:** выделять, выделить; распределять, распределить
 **Forms:** *allocate* &middot; *allocated* &middot; *allocated*
+**Verb class:** regular
 **Third person:** *allocates* &middot; **-ing form:** *allocating*
 **Transitivity:** transitive
 
@@ -311,6 +331,7 @@ To give out money, time, or resources for a particular purpose.
 **Pronunciation:** /ˈɑːpəreɪt/ &middot; *AH-puh-rayt*
 **Русский:** управлять, эксплуатировать; работать, функционировать
 **Forms:** *operate* &middot; *operated* &middot; *operated*
+**Verb class:** regular
 **Third person:** *operates* &middot; **-ing form:** *operating*
 **Transitivity:** both — transitive (operate the machinery), intransitive (the firm operates in six states)
 
@@ -327,6 +348,7 @@ To run a business or a machine, or to be active and working.
 **Pronunciation:** /meɪnˈteɪn/ &middot; *mayn-TAYN*
 **Русский:** поддерживать, сохранять; обслуживать (оборудование)
 **Forms:** *maintain* &middot; *maintained* &middot; *maintained*
+**Verb class:** regular
 **Third person:** *maintains* &middot; **-ing form:** *maintaining*
 **Transitivity:** transitive
 
@@ -343,6 +365,7 @@ To keep something in good condition or at the same level.
 **Pronunciation:** /riːˈskɛdʒuːl/ &middot; *ree-SKEJ-ool*
 **Русский:** переносить, перенести (на другое время)
 **Forms:** *reschedule* &middot; *rescheduled* &middot; *rescheduled*
+**Verb class:** regular
 **Third person:** *reschedules* &middot; **-ing form:** *rescheduling*
 **Transitivity:** transitive
 
@@ -359,6 +382,7 @@ To change something to a different time.
 **Pronunciation:** /poʊstˈpoʊn/ &middot; *pohst-POHN*
 **Русский:** откладывать, отложить; переносить на более поздний срок
 **Forms:** *postpone* &middot; *postponed* &middot; *postponed*
+**Verb class:** regular
 **Third person:** *postpones* &middot; **-ing form:** *postponing*
 **Transitivity:** transitive
 
@@ -375,6 +399,7 @@ To move an event or a decision to a later time.
 **Pronunciation:** /dɪˈleɪ/ &middot; *di-LAY*
 **Русский:** задерживать, задержать; откладывать, медлить
 **Forms:** *delay* &middot; *delayed* &middot; *delayed*
+**Verb class:** regular
 **Third person:** *delays* &middot; **-ing form:** *delaying*
 **Transitivity:** both — transitive (delay the shipment), intransitive (do not delay)
 **Contrast:** The -y follows a vowel, so it stays: delays, delayed. Compare carry - carries - carried.
@@ -392,6 +417,7 @@ To make something happen later than planned, or to be slow to act.
 **Pronunciation:** /ˈkænsəl/ &middot; *KAN-sul*
 **Русский:** отменять, отменить; аннулировать
 **Forms:** *cancel* &middot; *canceled* &middot; *canceled*
+**Verb class:** regular
 **Third person:** *cancels* &middot; **-ing form:** *canceling*
 **Transitivity:** transitive
 **Contrast:** American English keeps one l: canceled, canceling. British English doubles it: cancelled. The noun cancellation has two l's everywhere.
@@ -409,6 +435,7 @@ To decide that a planned event or arrangement will not happen.
 **Pronunciation:** /hoʊst/ &middot; *HOHST*
 **Русский:** принимать (гостей), проводить (мероприятие); быть организатором
 **Forms:** *host* &middot; *hosted* &middot; *hosted*
+**Verb class:** regular
 **Third person:** *hosts* &middot; **-ing form:** *hosting*
 **Transitivity:** transitive
 
@@ -425,6 +452,7 @@ To be the person or organization that holds an event and receives the guests.
 **Pronunciation:** /bʊk/ &middot; *BUUK*
 **Русский:** бронировать, забронировать; заказывать, заказать
 **Forms:** *book* &middot; *booked* &middot; *booked*
+**Verb class:** regular
 **Third person:** *books* &middot; **-ing form:** *booking*
 **Transitivity:** transitive
 
@@ -441,6 +469,7 @@ To arrange in advance to have a room, a seat, or a service.
 **Pronunciation:** /prɪˈzɛnt/ &middot; *pri-ZENT*
 **Русский:** представлять, представить; излагать, презентовать
 **Forms:** *present* &middot; *presented* &middot; *presented*
+**Verb class:** regular
 **Third person:** *presents* &middot; **-ing form:** *presenting*
 **Transitivity:** transitive
 **Contrast:** The verb is stressed on the second syllable, pri-ZENT; the noun and adjective on the first, PREZ-unt.
@@ -458,6 +487,7 @@ To show or explain something formally to a group of people.
 **Pronunciation:** /rɪˈkɔːrd/ &middot; *ri-KORD*
 **Русский:** записывать, записать; фиксировать, регистрировать
 **Forms:** *record* &middot; *recorded* &middot; *recorded*
+**Verb class:** regular
 **Third person:** *records* &middot; **-ing form:** *recording*
 **Transitivity:** transitive
 **Contrast:** The verb is ri-KORD; the noun is REK-urd, as in a sales record.
@@ -475,6 +505,7 @@ To write something down or store it so that it can be used later.
 **Pronunciation:** /ʌpˈdeɪt/ &middot; *up-DAYT*
 **Русский:** обновлять, обновить; сообщать новую информацию
 **Forms:** *update* &middot; *updated* &middot; *updated*
+**Verb class:** regular
 **Third person:** *updates* &middot; **-ing form:** *updating*
 **Transitivity:** transitive
 **Contrast:** The verb is stressed at the end, up-DAYT; the noun at the front, UP-dayt, as in a quick update.
@@ -492,6 +523,7 @@ To make something current, or to tell someone the latest news.
 **Pronunciation:** /ˈmɛʒər/ &middot; *MEZH-ur*
 **Русский:** измерять, измерить; оценивать (в цифрах)
 **Forms:** *measure* &middot; *measured* &middot; *measured*
+**Verb class:** regular
 **Third person:** *measures* &middot; **-ing form:** *measuring*
 **Transitivity:** transitive
 
@@ -508,6 +540,7 @@ To find the size, amount, or degree of something.
 **Pronunciation:** /ˈkɑːmprəmaɪz/ &middot; *KAHM-pruh-myz*
 **Русский:** идти на компромисс, договариваться; ставить под угрозу
 **Forms:** *compromise* &middot; *compromised* &middot; *compromised*
+**Verb class:** regular
 **Third person:** *compromises* &middot; **-ing form:** *compromising*
 **Transitivity:** both — transitive (compromise the deal), intransitive (both sides compromised)
 **Contrast:** Stress is on the first syllable, and the ending sounds like -myz, not -mees.
@@ -525,6 +558,7 @@ To settle an argument by each side giving up part of what it wants.
 **Pronunciation:** /dɪˈklaɪn/ &middot; *di-KLYN*
 **Русский:** отклонять, отказываться, отказаться; снижаться
 **Forms:** *decline* &middot; *declined* &middot; *declined*
+**Verb class:** regular
 **Third person:** *declines* &middot; **-ing form:** *declining*
 **Transitivity:** both — transitive (decline the invitation), intransitive (sales declined)
 
@@ -541,6 +575,7 @@ To politely refuse something, or to go down in amount or quality.
 **Pronunciation:** /rɪˈkwaɪər/ &middot; *ri-KWY-ur*
 **Русский:** требовать, потребовать; нуждаться (в чём-л.)
 **Forms:** *require* &middot; *required* &middot; *required*
+**Verb class:** regular
 **Third person:** *requires* &middot; **-ing form:** *requiring*
 **Transitivity:** transitive
 
@@ -557,6 +592,7 @@ To need something, or to make something a rule.
 **Pronunciation:** /ˈsɛtəl/ &middot; *SET-ul*
 **Русский:** улаживать, уладить; урегулировать, договориться
 **Forms:** *settle* &middot; *settled* &middot; *settled*
+**Verb class:** regular
 **Third person:** *settles* &middot; **-ing form:** *settling*
 **Transitivity:** both — transitive (settle the dispute), intransitive (the two sides settled)
 
@@ -573,6 +609,7 @@ To end an argument or a debt by agreement.
 **Pronunciation:** /ˈfaɪnəlaɪz/ &middot; *FY-nuh-lyz*
 **Русский:** окончательно оформлять, дорабатывать; завершать, завершить
 **Forms:** *finalize* &middot; *finalized* &middot; *finalized*
+**Verb class:** regular
 **Third person:** *finalizes* &middot; **-ing form:** *finalizing*
 **Transitivity:** transitive
 
@@ -589,6 +626,7 @@ To put something into its final, agreed form.
 **Pronunciation:** /dræft/ &middot; *DRAFT*
 **Русский:** составлять (проект), готовить черновик; набрасывать
 **Forms:** *draft* &middot; *drafted* &middot; *drafted*
+**Verb class:** regular
 **Third person:** *drafts* &middot; **-ing form:** *drafting*
 **Transitivity:** transitive
 **Contrast:** American /æ/: DRAFT, not DRAHFT.
@@ -606,6 +644,7 @@ To write a first version of a document.
 **Pronunciation:** /rɪˈnuː/ &middot; *ri-NOO*
 **Русский:** продлевать, продлить; возобновлять, возобновить
 **Forms:** *renew* &middot; *renewed* &middot; *renewed*
+**Verb class:** regular
 **Third person:** *renews* &middot; **-ing form:** *renewing*
 **Transitivity:** transitive
 **Contrast:** American ri-NOO, not ri-NYOO.
@@ -623,6 +662,7 @@ To make an agreement, a license, or a subscription valid for another period.
 **Pronunciation:** /ɪkˈstɛnd/ &middot; *ik-STEND*
 **Русский:** продлевать, продлить; расширять, увеличивать
 **Forms:** *extend* &middot; *extended* &middot; *extended*
+**Verb class:** regular
 **Third person:** *extends* &middot; **-ing form:** *extending*
 **Transitivity:** transitive
 
@@ -639,6 +679,7 @@ To make something last longer or reach further.
 **Pronunciation:** /ˌrɛprɪˈzɛnt/ &middot; *rep-ri-ZENT*
 **Русский:** представлять (интересы), быть представителем
 **Forms:** *represent* &middot; *represented* &middot; *represented*
+**Verb class:** regular
 **Third person:** *represents* &middot; **-ing form:** *representing*
 **Transitivity:** transitive
 
@@ -655,6 +696,7 @@ To act or to speak officially for a person, a group, or a company.
 **Pronunciation:** /ˈɔːθəraɪz/ &middot; *AW-thuh-ryz*
 **Русский:** разрешать, санкционировать; уполномочивать
 **Forms:** *authorize* &middot; *authorized* &middot; *authorized*
+**Verb class:** regular
 **Third person:** *authorizes* &middot; **-ing form:** *authorizing*
 **Transitivity:** transitive
 **Contrast:** American -ize, British -ise: authorize, authorise.
@@ -672,6 +714,7 @@ To give official permission for something.
 **Pronunciation:** /pərˈmɪt/ &middot; *pur-MIT*
 **Русский:** разрешать, разрешить; позволять, позволить
 **Forms:** *permit* &middot; *permitted* &middot; *permitted*
+**Verb class:** regular
 **Third person:** *permits* &middot; **-ing form:** *permitting*
 **Transitivity:** transitive
 **Contrast:** Stress falls on the last syllable, so the t doubles: permitted, permitting. The noun, a document, is stressed at the front: PUR-mit.
@@ -689,6 +732,7 @@ To allow something officially.
 **Pronunciation:** /əˈpɔɪnt/ &middot; *uh-POYNT*
 **Русский:** назначать, назначить (на должность)
 **Forms:** *appoint* &middot; *appointed* &middot; *appointed*
+**Verb class:** regular
 **Third person:** *appoints* &middot; **-ing form:** *appointing*
 **Transitivity:** transitive
 
@@ -705,6 +749,7 @@ To choose someone officially for a job or a position.
 **Pronunciation:** /dɪˈvɛləp/ &middot; *di-VEL-up*
 **Русский:** разрабатывать, разработать; развивать, развиваться
 **Forms:** *develop* &middot; *developed* &middot; *developed*
+**Verb class:** regular
 **Third person:** *develops* &middot; **-ing form:** *developing*
 **Transitivity:** both — transitive (develop a product), intransitive (the market developed quickly)
 **Contrast:** No doubled p and no final e: developed, developing, development.
@@ -722,6 +767,7 @@ To create something over time, or to grow and become more advanced.
 **Pronunciation:** /dɪˈzaɪn/ &middot; *di-ZYN*
 **Русский:** проектировать, спроектировать; разрабатывать, конструировать
 **Forms:** *design* &middot; *designed* &middot; *designed*
+**Verb class:** regular
 **Third person:** *designs* &middot; **-ing form:** *designing*
 **Transitivity:** transitive
 **Contrast:** The g is silent: di-ZYN. It comes back in designate and designation.
@@ -739,6 +785,7 @@ To plan how something will look or work before it is made.
 **Pronunciation:** /prəˈduːs/ &middot; *pruh-DOOSS*
 **Русский:** производить, произвести; выпускать, изготавливать
 **Forms:** *produce* &middot; *produced* &middot; *produced*
+**Verb class:** regular
 **Third person:** *produces* &middot; **-ing form:** *producing*
 **Transitivity:** transitive
 **Contrast:** The verb is pruh-DOOSS; the noun produce, meaning fruit and vegetables, is PROH-dooss.
@@ -756,6 +803,7 @@ To make or grow something, especially in large amounts.
 **Pronunciation:** /ˌmænjəˈfæktʃər/ &middot; *man-yuh-FAK-chur*
 **Русский:** производить, изготавливать, изготовить
 **Forms:** *manufacture* &middot; *manufactured* &middot; *manufactured*
+**Verb class:** regular
 **Third person:** *manufactures* &middot; **-ing form:** *manufacturing*
 **Transitivity:** transitive
 
@@ -772,6 +820,7 @@ To make goods in a factory, usually in large quantities.
 **Pronunciation:** /ˈmɑːrkɪt/ &middot; *MAR-kit*
 **Русский:** продвигать на рынке, рекламировать; сбывать
 **Forms:** *market* &middot; *marketed* &middot; *marketed*
+**Verb class:** regular
 **Third person:** *markets* &middot; **-ing form:** *marketing*
 **Transitivity:** transitive
 **Contrast:** Stress is on the first syllable, so the t does not double: marketed, marketing.
@@ -789,6 +838,7 @@ To advertise and sell a product to a particular group of buyers.
 **Pronunciation:** /ˈædvərtaɪz/ &middot; *AD-vur-tyz*
 **Русский:** рекламировать, разместить рекламу; давать объявление
 **Forms:** *advertise* &middot; *advertised* &middot; *advertised*
+**Verb class:** regular
 **Third person:** *advertises* &middot; **-ing form:** *advertising*
 **Transitivity:** both — transitive (advertise the position), intransitive (we advertise on the radio)
 **Contrast:** Always -ise, in America too: advertise, never advertize. Compare organize and analyze, which do change.
@@ -806,6 +856,7 @@ To tell the public about a product, a service, or a job.
 **Pronunciation:** /səˈplaɪ/ &middot; *suh-PLY*
 **Русский:** поставлять, поставить; снабжать, обеспечивать
 **Forms:** *supply* &middot; *supplied* &middot; *supplied*
+**Verb class:** regular
 **Third person:** *supplies* &middot; **-ing form:** *supplying*
 **Transitivity:** transitive
 **Contrast:** Consonant plus -y: supplies, supplied, but supplying keeps the y. Supply someone WITH something.
@@ -823,6 +874,7 @@ To provide someone with something they need, especially goods.
 **Pronunciation:** /ˈpɜːrtʃəs/ &middot; *PUR-chuss*
 **Русский:** покупать, купить; приобретать, приобрести
 **Forms:** *purchase* &middot; *purchased* &middot; *purchased*
+**Verb class:** regular
 **Third person:** *purchases* &middot; **-ing form:** *purchasing*
 **Transitivity:** transitive
 
@@ -839,6 +891,7 @@ To buy something, especially in formal or business language.
 **Pronunciation:** /bɪl/ &middot; *BIL*
 **Русский:** выставлять счёт, выставить счёт
 **Forms:** *bill* &middot; *billed* &middot; *billed*
+**Verb class:** regular
 **Third person:** *bills* &middot; **-ing form:** *billing*
 **Transitivity:** transitive
 **Contrast:** Bill someone FOR something: they billed us for the repair.
@@ -856,6 +909,7 @@ To send someone a statement of how much they owe.
 **Pronunciation:** /fʌnd/ &middot; *FUND*
 **Русский:** финансировать, профинансировать; выделять средства
 **Forms:** *fund* &middot; *funded* &middot; *funded*
+**Verb class:** regular
 **Third person:** *funds* &middot; **-ing form:** *funding*
 **Transitivity:** transitive
 
@@ -872,6 +926,7 @@ To provide the money for a project or an organization.
 **Pronunciation:** /ˈbʌdʒɪt/ &middot; *BUJ-it*
 **Русский:** планировать бюджет, закладывать в бюджет; выделять средства
 **Forms:** *budget* &middot; *budgeted* &middot; *budgeted*
+**Verb class:** regular
 **Third person:** *budgets* &middot; **-ing form:** *budgeting*
 **Transitivity:** both — transitive (budget ten thousand dollars), intransitive (budget for repairs)
 **Contrast:** Stress is on the first syllable, so the t stays single: budgeted, budgeting. Budget FOR something.
@@ -889,6 +944,7 @@ To plan how much money you will spend on something.
 **Pronunciation:** /ɪkˈspænd/ &middot; *ik-SPAND*
 **Русский:** расширять, расширить; расширяться, увеличиваться
 **Forms:** *expand* &middot; *expanded* &middot; *expanded*
+**Verb class:** regular
 **Third person:** *expands* &middot; **-ing form:** *expanding*
 **Transitivity:** both — transitive (expand the range), intransitive (the firm expanded)
 
@@ -905,6 +961,7 @@ To become larger, or to make something larger.
 **Pronunciation:** /əˈkwaɪər/ &middot; *uh-KWY-ur*
 **Русский:** приобретать, приобрести; покупать (компанию)
 **Forms:** *acquire* &middot; *acquired* &middot; *acquired*
+**Verb class:** regular
 **Third person:** *acquires* &middot; **-ing form:** *acquiring*
 **Transitivity:** transitive
 
@@ -921,6 +978,7 @@ To buy or obtain something, especially a company, a property, or a skill.
 **Pronunciation:** /ɪˈstæblɪʃ/ &middot; *i-STAB-lish*
 **Русский:** основывать, основать; устанавливать, налаживать
 **Forms:** *establish* &middot; *established* &middot; *established*
+**Verb class:** regular
 **Third person:** *establishes* &middot; **-ing form:** *establishing*
 **Transitivity:** transitive
 **Contrast:** After -sh the third person adds -es: establishes.
@@ -938,6 +996,7 @@ To start an organization or a system that is meant to last.
 **Pronunciation:** /faʊnd/ &middot; *FOWND*
 **Русский:** основывать, основать; учреждать, учредить
 **Forms:** *found* &middot; *founded* &middot; *founded*
+**Verb class:** regular
 **Third person:** *founds* &middot; **-ing form:** *founding*
 **Transitivity:** transitive
 **Contrast:** This is a regular verb: found - founded - founded. Do not confuse it with found, the past of find. He founded the company; he found the keys.
@@ -955,6 +1014,7 @@ To start a company, a school, or an organization.
 **Pronunciation:** /oʊn/ &middot; *OHN*
 **Русский:** владеть, иметь в собственности
 **Forms:** *own* &middot; *owned* &middot; *owned*
+**Verb class:** regular
 **Third person:** *owns* &middot; **-ing form:** *owning*
 **Transitivity:** transitive
 **Contrast:** Own describes a state, so it is rarely used in the -ing form: she owns it, not she is owning it.
@@ -972,6 +1032,7 @@ To have something as your property.
 **Pronunciation:** /rɛnt/ &middot; *RENT*
 **Русский:** снимать, арендовать; сдавать в аренду
 **Forms:** *rent* &middot; *rented* &middot; *rented*
+**Verb class:** regular
 **Third person:** *rents* &middot; **-ing form:** *renting*
 **Transitivity:** both — transitive (rent an office), intransitive (we rent, we do not own)
 **Contrast:** Rent FROM the owner, rent TO a tenant. American English uses rent for both sides; the British often say let for the owner's side.
@@ -989,6 +1050,7 @@ To pay to use a property for a period, or to let someone use yours for payment.
 **Pronunciation:** /ɪmˈpruːv/ &middot; *im-PROOV*
 **Русский:** улучшать, улучшить; улучшаться, совершенствовать
 **Forms:** *improve* &middot; *improved* &middot; *improved*
+**Verb class:** regular
 **Third person:** *improves* &middot; **-ing form:** *improving*
 **Transitivity:** both — transitive (improve the process), intransitive (results improved)
 
@@ -1005,6 +1067,7 @@ To make something better, or to become better.
 **Pronunciation:** /ɪnˈkriːs/ &middot; *in-KREESS*
 **Русский:** увеличивать, увеличить; повышать, возрастать
 **Forms:** *increase* &middot; *increased* &middot; *increased*
+**Verb class:** regular
 **Third person:** *increases* &middot; **-ing form:** *increasing*
 **Transitivity:** both — transitive (increase the price), intransitive (costs increased)
 **Contrast:** The verb is stressed at the end, in-KREESS; the noun at the front, IN-kreess, as in a pay increase.
@@ -1022,6 +1085,7 @@ To become greater in number or amount, or to make something greater.
 **Pronunciation:** /rɪˈduːs/ &middot; *ri-DOOSS*
 **Русский:** сокращать, сократить; снижать, уменьшать
 **Forms:** *reduce* &middot; *reduced* &middot; *reduced*
+**Verb class:** regular
 **Third person:** *reduces* &middot; **-ing form:** *reducing*
 **Transitivity:** transitive
 **Contrast:** American ri-DOOSS, not ri-DYOOSS.
@@ -1039,6 +1103,7 @@ To make something smaller in size, amount, or price.
 **Pronunciation:** /kəmˈpliːt/ &middot; *kuhm-PLEET*
 **Русский:** завершать, завершить; заполнять (форму)
 **Forms:** *complete* &middot; *completed* &middot; *completed*
+**Verb class:** regular
 **Third person:** *completes* &middot; **-ing form:** *completing*
 **Transitivity:** transitive
 
@@ -1055,6 +1120,7 @@ To finish something, or to fill in every part of a form.
 **Pronunciation:** /ˈfɪnɪʃ/ &middot; *FIN-ish*
 **Русский:** заканчивать, закончить; завершать, завершить
 **Forms:** *finish* &middot; *finished* &middot; *finished*
+**Verb class:** regular
 **Third person:** *finishes* &middot; **-ing form:** *finishing*
 **Transitivity:** both — transitive (finish the report), intransitive (the meeting finished at five)
 **Contrast:** Finish DOING something, never finish to do: I finished writing the report.
@@ -1072,6 +1138,7 @@ To bring something to an end, or to come to an end.
 **Pronunciation:** /əˈtʃiːv/ &middot; *uh-CHEEV*
 **Русский:** достигать, достичь; добиваться, добиться
 **Forms:** *achieve* &middot; *achieved* &middot; *achieved*
+**Verb class:** regular
 **Third person:** *achieves* &middot; **-ing form:** *achieving*
 **Transitivity:** transitive
 **Contrast:** Spelled -ie-: achieve, achieved, not acheive.
@@ -1089,6 +1156,7 @@ To succeed in reaching a goal after effort.
 **Pronunciation:** /əˈkɑːmplɪʃ/ &middot; *uh-KAHM-plish*
 **Русский:** выполнять, выполнить; достигать, добиваться
 **Forms:** *accomplish* &middot; *accomplished* &middot; *accomplished*
+**Verb class:** regular
 **Third person:** *accomplishes* &middot; **-ing form:** *accomplishing*
 **Transitivity:** transitive
 **Contrast:** After -sh the third person adds -es: accomplishes.
@@ -1106,6 +1174,7 @@ To finish something successfully, especially something difficult.
 **Pronunciation:** /feɪl/ &middot; *FAYL*
 **Русский:** терпеть неудачу, провалиться; не суметь, не справиться
 **Forms:** *fail* &middot; *failed* &middot; *failed*
+**Verb class:** regular
 **Third person:** *fails* &middot; **-ing form:** *failing*
 **Transitivity:** both — transitive (fail the exam), intransitive (the business failed)
 **Contrast:** Fail TO DO something: he failed to answer, not he failed answering.
@@ -1123,6 +1192,7 @@ To not succeed, or to not do something that you should have done.
 **Pronunciation:** /sɜːrv/ &middot; *SURV*
 **Русский:** обслуживать, обслужить; служить, работать (на должности)
 **Forms:** *serve* &middot; *served* &middot; *served*
+**Verb class:** regular
 **Third person:** *serves* &middot; **-ing form:** *serving*
 **Transitivity:** both — transitive (serve customers), intransitive (she served on the board)
 
@@ -1139,6 +1209,7 @@ To work for a person, an organization, or a group of customers.
 **Pronunciation:** /ˈprɑːsɛs/ &middot; *PRAH-sess*
 **Русский:** обрабатывать, обработать; оформлять, рассматривать
 **Forms:** *process* &middot; *processed* &middot; *processed*
+**Verb class:** regular
 **Third person:** *processes* &middot; **-ing form:** *processing*
 **Transitivity:** transitive
 **Contrast:** American English stresses the first syllable and uses the LOT vowel: PRAH-sess.
@@ -1156,6 +1227,7 @@ To deal with documents, data, or materials in an official or standard way.
 **Pronunciation:** /faɪl/ &middot; *FYL*
 **Русский:** подавать (документы), подать; регистрировать, подшивать
 **Forms:** *file* &middot; *filed* &middot; *filed*
+**Verb class:** regular
 **Third person:** *files* &middot; **-ing form:** *filing*
 **Transitivity:** both — transitive (file a complaint), intransitive (file for bankruptcy)
 **Contrast:** Drop the -e before -ing: filing. File FOR bankruptcy, file a complaint WITH an office.
@@ -1173,6 +1245,7 @@ To send an official document to an authority, or to store papers in order.
 **Pronunciation:** /ˈaʊtsɔːrs/ &middot; *OWT-sorss*
 **Русский:** передавать на аутсорсинг, отдавать подрядчику
 **Forms:** *outsource* &middot; *outsourced* &middot; *outsourced*
+**Verb class:** regular
 **Third person:** *outsources* &middot; **-ing form:** *outsourcing*
 **Transitivity:** transitive
 
@@ -1189,6 +1262,7 @@ To pay an outside company to do work that your own staff used to do.
 **Pronunciation:** /ˈɔːtəmeɪt/ &middot; *AW-tuh-mayt*
 **Русский:** автоматизировать
 **Forms:** *automate* &middot; *automated* &middot; *automated*
+**Verb class:** regular
 **Third person:** *automates* &middot; **-ing form:** *automating*
 **Transitivity:** transitive
 
@@ -1205,6 +1279,7 @@ To make a process run by machines or software instead of by people.
 **Pronunciation:** /dɪˈstrɪbjuːt/ &middot; *di-STRIB-yoot*
 **Русский:** распределять, распределить; распространять, раздавать
 **Forms:** *distribute* &middot; *distributed* &middot; *distributed*
+**Verb class:** regular
 **Third person:** *distributes* &middot; **-ing form:** *distributing*
 **Transitivity:** transitive
 

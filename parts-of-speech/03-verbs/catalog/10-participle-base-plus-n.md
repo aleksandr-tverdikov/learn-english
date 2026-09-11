@@ -11,6 +11,7 @@ What holds this group together is the third form, not the second. *Go* and *beat
 **Pronunciation:** /bi/ &middot; *BEE*
 **Русский:** быть
 **Forms:** *be* /bi/ &middot; *was* /wʌz/, *were* /wɝ/ &middot; *been* /bɪn/
+**Verb class:** irregular
 **Register:** everyday — the most-used verb in the language; no American gets through a sentence without it
 **Pattern:** suppletive: be — was/were — been &middot; **Group:** 10
 **Third person:** *is* (also *am*, *are*) &middot; **-ing form:** *being*
@@ -92,6 +93,7 @@ The most basic verb in English: it links a subject to what it is, where it is, o
 **Pronunciation:** /bit/ &middot; *BEET*
 **Русский:** бить
 **Forms:** *beat* /bit/ &middot; *beat* /bit/ &middot; *beaten* /ˈbitən/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking, in sports talk, the kitchen, and plain speech
 **Pattern:** beat — beat — beat + -en &middot; **Group:** 10
 **Third person:** *beats* &middot; **-ing form:** *beating*
@@ -166,6 +168,7 @@ Hit something over and over, defeat an opponent, or move in a steady rhythm.
 **Pronunciation:** /ˈbraʊbit/ &middot; *BROW-beet*
 **Русский:** запугивать; отпугивать; нагонять страх
 **Forms:** *browbeat* /ˈbraʊbit/ &middot; *browbeat* /ˈbraʊbit/ &middot; *browbeaten* /ˈbraʊˌbitən/
+**Verb class:** irregular
 **Register:** rare — a prefixed derivative of *beat* that Americans recognize but seldom produce; everyday speech says *bully* or *pressure*
 **Pattern:** brow- + beat — beat — beaten &middot; **Group:** 10
 **Third person:** *browbeats* &middot; **-ing form:** *browbeating*
@@ -196,6 +199,7 @@ Bully someone into doing something by badgering, hectoring, or intimidating them
 **Pronunciation:** /kɑrv/ &middot; *KARV*
 **Русский:** вырезать, резать (по дереву, кости)
 **Forms:** *carve* /kɑrv/ &middot; *carved* /kɑrvd/ &middot; *carved* /kɑrvd/ — archaic participle *carven* /ˈkɑrvən/; the past *corve* that the source list records is not an English word
+**Verb class:** irregular
 **Register:** everyday — carving a pumpkin or a turkey is ordinary American talk; only the leftover participle *carven* is literary
 **Pattern:** regular -ed, with a leftover -n participle &middot; **Group:** 10
 **Third person:** *carves* &middot; **-ing form:** *carving* (the silent e drops)
@@ -247,6 +251,7 @@ Cut a shape out of a hard material, slice cooked meat, or cut a piece out of som
 **Pronunciation:** /fɔrˈɡoʊ/ &middot; *for-GOH*
 **Русский:** предшествовать
 **Forms:** *forego* /fɔrˈɡoʊ/ &middot; *forewent* /fɔrˈwɛnt/ &middot; *foregone* /fɔrˈɡɔn/
+**Verb class:** irregular
 **Register:** rare — the "go before" verb is dead in ordinary use; Americans meet it only as *the foregoing* and *a foregone conclusion*
 **Pattern:** fore- + go — went — gone &middot; **Group:** 10
 **Third person:** *foregoes* (-es after the o) &middot; **-ing form:** *foregoing*
@@ -286,6 +291,7 @@ Come or go before something else in time or order — a formal verb now met most
 **Pronunciation:** /fɔrˈɡoʊ/ &middot; *for-GOH*
 **Русский:** отказываться или воздерживаться (от чего-л.)
 **Forms:** *forgo* /fɔrˈɡoʊ/ &middot; *forwent* /fɔrˈwɛnt/ &middot; *forgone* /fɔrˈɡɔn/
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing, especially legal and financial prose; speech says *give up* or *do without*, and the past *forwent* is rare anywhere
 **Pattern:** for- + go — went — gone &middot; **Group:** 10
 **Third person:** *forgoes* (-es after the o) &middot; **-ing form:** *forgoing*
@@ -321,6 +327,7 @@ Choose to do without something you could have had, or give up a claim to it.
 **Pronunciation:** /ɡoʊ/ &middot; *GOH*
 **Русский:** идти
 **Forms:** *go* /ɡoʊ/ &middot; *went* /wɛnt/ &middot; *gone* /ɡɔn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** go — went — gone &middot; **Group:** 10
 **Third person:** *goes* (-es after the o) &middot; **-ing form:** *going*
@@ -426,6 +433,7 @@ Move or travel from one place to another, leave, or — in dozens of extended us
 **Pronunciation:** /ʃɪr/ &middot; *SHEER*
 **Русский:** стричь
 **Forms:** *shear* /ʃɪr/ &middot; *sheared* /ʃɪrd/ (the source list records the archaic *shore* /ʃɔr/) &middot; *shorn* /ʃɔrn/ (also *sheared* /ʃɪrd/)
+**Verb class:** irregular
 **Register:** rare — specialized: sheep and wool on one side, engineering on the other; ordinary Americans say *cut* or *clip*
 **Pattern:** shear — sheared — shorn &middot; **Group:** 10
 **Third person:** *shears* &middot; **-ing form:** *shearing*
@@ -467,6 +475,7 @@ Cut the wool or hair off an animal, or cut and snap cleanly through something.
 **Pronunciation:** /ˌʌndɚˈɡoʊ/ &middot; *un-der-GOH*
 **Русский:** испытывать, переносить, подвергаться
 **Forms:** *undergo* /ˌʌndɚˈɡoʊ/ &middot; *underwent* /ˌʌndɚˈwɛnt/ &middot; *undergone* /ˌʌndɚˈɡɔn/
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing, especially medical and news prose; speech says *have* or *go through*
 **Pattern:** under- + go — went — gone &middot; **Group:** 10
 **Third person:** *undergoes* (-es after the o) &middot; **-ing form:** *undergoing*

@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /ʃɑːp/ &middot; *SHAHP*
 **Русский:** делать покупки, ходить по магазинам
 **Forms:** *shop* &middot; *shopped* &middot; *shopped*
+**Verb class:** regular
 **Third person:** *shops* &middot; **-ing form:** *shopping*
 **Transitivity:** intransitive
 **Contrast:** Double the *p*: *shopped*, *shopping*. You *shop* **for** what you are looking for.
@@ -31,6 +32,7 @@ To go to stores looking for things to buy.
 **Pronunciation:** /əˈfɔːrd/ &middot; *uh-FORD*
 **Русский:** позволять себе, быть в состоянии купить
 **Forms:** *afford* &middot; *afforded* &middot; *afforded*
+**Verb class:** regular
 **Third person:** *affords* &middot; **-ing form:** *affording*
 **Transitivity:** transitive
 **Contrast:** Almost always with *can*, *can't*, *could* or *be able to*: *I can't afford it*, not *I don't afford it*.
@@ -48,6 +50,7 @@ To have enough money for something.
 **Pronunciation:** /ˈhæɡəl/ &middot; *HAG-uhl*
 **Русский:** торговаться, поторговаться
 **Forms:** *haggle* &middot; *haggled* &middot; *haggled*
+**Verb class:** regular
 **Third person:** *haggles* &middot; **-ing form:** *haggling*
 **Transitivity:** intransitive
 **Contrast:** You *haggle* **over** a price **with** a seller.
@@ -65,6 +68,7 @@ To argue back and forth about a price until both sides agree.
 **Pronunciation:** /ˈbɑːrɡən/ &middot; *BAR-guhn*
 **Русский:** торговаться, договариваться о цене
 **Forms:** *bargain* &middot; *bargained* &middot; *bargained*
+**Verb class:** regular
 **Third person:** *bargains* &middot; **-ing form:** *bargaining*
 **Transitivity:** intransitive
 **Contrast:** You *bargain* **with** a seller **for** or **over** something.
@@ -82,6 +86,7 @@ To discuss terms with someone until you reach a price both sides accept.
 **Pronunciation:** /praɪs/ &middot; *PRYSS*
 **Русский:** назначать цену, оценивать
 **Forms:** *price* &middot; *priced* &middot; *priced*
+**Verb class:** regular
 **Third person:** *prices* &middot; **-ing form:** *pricing*
 **Transitivity:** transitive
 **Contrast:** Drop the *e* before *-ing*: *pricing*, not *priceing*.
@@ -99,6 +104,7 @@ To decide what something will cost.
 **Pronunciation:** /ˈdɪskaʊnt/ &middot; *DIS-kownt*
 **Русский:** делать скидку, уценивать
 **Forms:** *discount* &middot; *discounted* &middot; *discounted*
+**Verb class:** regular
 **Third person:** *discounts* &middot; **-ing form:** *discounting*
 **Transitivity:** transitive
 **Contrast:** As a verb you also hear dis-KOWNT; the noun (*a discount*) is always DIS-kownt.
@@ -116,6 +122,7 @@ To lower the price of something.
 **Pronunciation:** /reɪz/ &middot; *RAYZ*
 **Русский:** повышать (цены); собирать (деньги)
 **Forms:** *raise* &middot; *raised* &middot; *raised*
+**Verb class:** regular
 **Third person:** *raises* &middot; **-ing form:** *raising*
 **Transitivity:** transitive
 **Contrast:** *Raise* always takes an object (*raise prices*); the verb with no object is the irregular *rise* (*prices rise*).
@@ -133,6 +140,7 @@ To make a price or an amount higher, or to collect money for a purpose.
 **Pronunciation:** /ˈloʊər/ &middot; *LOH-ur*
 **Русский:** снижать, понижать (цену)
 **Forms:** *lower* &middot; *lowered* &middot; *lowered*
+**Verb class:** regular
 **Third person:** *lowers* &middot; **-ing form:** *lowering*
 **Transitivity:** transitive
 
@@ -149,6 +157,7 @@ To make a price, a rate or an amount smaller.
 **Pronunciation:** /ˈɔːkʃən/ &middot; *AWK-shun*
 **Русский:** продавать с аукциона
 **Forms:** *auction* &middot; *auctioned* &middot; *auctioned*
+**Verb class:** regular
 **Third person:** *auctions* &middot; **-ing form:** *auctioning*
 **Transitivity:** transitive
 
@@ -165,6 +174,7 @@ To sell something to whoever offers the most money.
 **Pronunciation:** /ɪkˈspɔːrt/ &middot; *ik-SPORT*
 **Русский:** экспортировать, вывозить
 **Forms:** *export* &middot; *exported* &middot; *exported*
+**Verb class:** regular
 **Third person:** *exports* &middot; **-ing form:** *exporting*
 **Transitivity:** transitive
 **Contrast:** The verb is ik-SPORT, the noun EK-sport — the stress moves.
@@ -182,6 +192,7 @@ To sell and send goods to another country.
 **Pronunciation:** /ɪmˈpɔːrt/ &middot; *im-PORT*
 **Русский:** импортировать, ввозить
 **Forms:** *import* &middot; *imported* &middot; *imported*
+**Verb class:** regular
 **Third person:** *imports* &middot; **-ing form:** *importing*
 **Transitivity:** transitive
 **Contrast:** The verb is im-PORT, the noun IM-port.
@@ -199,6 +210,7 @@ To buy goods from another country and bring them in.
 **Pronunciation:** /stɑːk/ &middot; *STAHK*
 **Русский:** держать в продаже, иметь в ассортименте
 **Forms:** *stock* &middot; *stocked* &middot; *stocked*
+**Verb class:** regular
 **Third person:** *stocks* &middot; **-ing form:** *stocking*
 **Transitivity:** transitive
 
@@ -215,6 +227,7 @@ To keep goods in a store so that customers can buy them.
 **Pronunciation:** /ˌriːˈstɑːk/ &middot; *ree-STAHK*
 **Русский:** пополнять запас, пополнить
 **Forms:** *restock* &middot; *restocked* &middot; *restocked*
+**Verb class:** regular
 **Third person:** *restocks* &middot; **-ing form:** *restocking*
 **Transitivity:** both — transitive (restock the shelves), intransitive (we restock on Mondays)
 
@@ -231,6 +244,7 @@ To fill a store or a shelf again after the goods have been sold.
 **Pronunciation:** /lɪst/ &middot; *LIST*
 **Русский:** выставлять на продажу; перечислять
 **Forms:** *list* &middot; *listed* &middot; *listed*
+**Verb class:** regular
 **Third person:** *lists* &middot; **-ing form:** *listing*
 **Transitivity:** transitive
 
@@ -247,6 +261,7 @@ To put something up for sale, usually with a price.
 **Pronunciation:** /ˈbɑːrtər/ &middot; *BAR-tur*
 **Русский:** менять товар на товар, обмениваться
 **Forms:** *barter* &middot; *bartered* &middot; *bartered*
+**Verb class:** regular
 **Third person:** *barters* &middot; **-ing form:** *bartering*
 **Transitivity:** both — transitive (barter eggs for wood), intransitive (they still barter)
 
@@ -263,6 +278,7 @@ To pay for goods or work with other goods or work instead of money.
 **Pronunciation:** /kæʃ/ &middot; *KASH*
 **Русский:** обналичивать, получать наличными
 **Forms:** *cash* &middot; *cashed* &middot; *cashed*
+**Verb class:** regular
 **Third person:** *cashes* &middot; **-ing form:** *cashing*
 **Transitivity:** transitive
 **Contrast:** Add *-es* after *-sh*: *cashes*.
@@ -280,6 +296,7 @@ To exchange a check for money.
 **Pronunciation:** /ˈɪnvɔɪs/ &middot; *IN-voyss*
 **Русский:** выставлять счёт-фактуру
 **Forms:** *invoice* &middot; *invoiced* &middot; *invoiced*
+**Verb class:** regular
 **Third person:** *invoices* &middot; **-ing form:** *invoicing*
 **Transitivity:** transitive
 
@@ -296,6 +313,7 @@ To send a business a written bill for goods or work.
 **Pronunciation:** /ˌoʊvərˈtʃɑːrdʒ/ &middot; *oh-vur-CHARJ*
 **Русский:** брать лишнее, завышать цену
 **Forms:** *overcharge* &middot; *overcharged* &middot; *overcharged*
+**Verb class:** regular
 **Third person:** *overcharges* &middot; **-ing form:** *overcharging*
 **Transitivity:** both — transitive (they overcharged me), intransitive (that shop overcharges)
 
@@ -312,6 +330,7 @@ To make someone pay more than the correct price.
 **Pronunciation:** /tæks/ &middot; *TAKS*
 **Русский:** облагать налогом
 **Forms:** *tax* &middot; *taxed* &middot; *taxed*
+**Verb class:** regular
 **Third person:** *taxes* &middot; **-ing form:** *taxing*
 **Transitivity:** transitive
 **Contrast:** Add *-es* after *-x*: *taxes*.
@@ -329,6 +348,7 @@ To make people pay money to the government on goods, income or property.
 **Pronunciation:** /faɪn/ &middot; *FYNE*
 **Русский:** штрафовать, оштрафовать
 **Forms:** *fine* &middot; *fined* &middot; *fined*
+**Verb class:** regular
 **Third person:** *fines* &middot; **-ing form:** *fining*
 **Transitivity:** transitive
 **Contrast:** Same spelling as the adjective *fine* (good), but here it means money paid as a punishment.
@@ -346,6 +366,7 @@ To make someone pay money as a punishment.
 **Pronunciation:** /əˈpreɪz/ &middot; *uh-PRAYZ*
 **Русский:** оценивать (имущество), делать оценку
 **Forms:** *appraise* &middot; *appraised* &middot; *appraised*
+**Verb class:** regular
 **Third person:** *appraises* &middot; **-ing form:** *appraising*
 **Transitivity:** transitive
 **Contrast:** Not the same word as *apprise* (uh-PRYZE), which means to inform someone.
@@ -363,6 +384,7 @@ To examine something professionally and state its value.
 **Pronunciation:** /ˈɔːdət/ &middot; *AW-dut*
 **Русский:** проводить аудит, проверять отчётность
 **Forms:** *audit* &middot; *audited* &middot; *audited*
+**Verb class:** regular
 **Third person:** *audits* &middot; **-ing form:** *auditing*
 **Transitivity:** transitive
 
@@ -379,6 +401,7 @@ To check someone's financial records officially.
 **Pronunciation:** /ˈbæləns/ &middot; *BAL-uhnss*
 **Русский:** сводить баланс, подводить итог
 **Forms:** *balance* &middot; *balanced* &middot; *balanced*
+**Verb class:** regular
 **Third person:** *balances* &middot; **-ing form:** *balancing*
 **Transitivity:** transitive
 
@@ -395,6 +418,7 @@ To make money coming in equal money going out in an account.
 **Pronunciation:** /ɪˈkɑːnəmaɪz/ &middot; *i-KAH-nuh-myze*
 **Русский:** экономить, сэкономить
 **Forms:** *economize* &middot; *economized* &middot; *economized*
+**Verb class:** regular
 **Third person:** *economizes* &middot; **-ing form:** *economizing*
 **Transitivity:** intransitive
 **Contrast:** American spelling **-ize**; British writes *economise*.
@@ -412,6 +436,7 @@ To spend less money than before.
 **Pronunciation:** /kənˈsɜːrv/ &middot; *kuhn-SURV*
 **Русский:** беречь, экономно расходовать
 **Forms:** *conserve* &middot; *conserved* &middot; *conserved*
+**Verb class:** regular
 **Third person:** *conserves* &middot; **-ing form:** *conserving*
 **Transitivity:** transitive
 
@@ -428,6 +453,7 @@ To use something carefully so that it lasts longer.
 **Pronunciation:** /weɪst/ &middot; *WAYST*
 **Русский:** тратить впустую, транжирить
 **Forms:** *waste* &middot; *wasted* &middot; *wasted*
+**Verb class:** regular
 **Third person:** *wastes* &middot; **-ing form:** *wasting*
 **Transitivity:** transitive
 **Contrast:** Sounds exactly like *waist* (the middle of the body).
@@ -445,6 +471,7 @@ To spend money on something useless.
 **Pronunciation:** /splɜːrdʒ/ &middot; *SPLURJ*
 **Русский:** потратиться, раскошелиться
 **Forms:** *splurge* &middot; *splurged* &middot; *splurged*
+**Verb class:** regular
 **Third person:** *splurges* &middot; **-ing form:** *splurging*
 **Transitivity:** intransitive
 **Contrast:** You *splurge* **on** something.
@@ -462,6 +489,7 @@ To spend a lot of money on something you don't really need, as a treat.
 **Pronunciation:** /ˈskwɑːndər/ &middot; *SKWAHN-dur*
 **Русский:** растрачивать, спускать (деньги)
 **Forms:** *squander* &middot; *squandered* &middot; *squandered*
+**Verb class:** regular
 **Third person:** *squanders* &middot; **-ing form:** *squandering*
 **Transitivity:** transitive
 
@@ -478,6 +506,7 @@ To waste a large amount of money foolishly.
 **Pronunciation:** /ˈprɑːfət/ &middot; *PRAH-fut*
 **Русский:** получать прибыль, наживаться
 **Forms:** *profit* &middot; *profited* &middot; *profited*
+**Verb class:** regular
 **Third person:** *profits* &middot; **-ing form:** *profiting*
 **Transitivity:** intransitive
 **Contrast:** You *profit* **from** something, and the verb sounds exactly like *prophet*.
@@ -495,6 +524,7 @@ To make money out of a deal or a situation.
 **Pronunciation:** /dəˈvɜːrsəfaɪ/ &middot; *duh-VUR-suh-fy*
 **Русский:** диверсифицировать, распределять вложения
 **Forms:** *diversify* &middot; *diversified* &middot; *diversified*
+**Verb class:** regular
 **Third person:** *diversifies* &middot; **-ing form:** *diversifying*
 **Transitivity:** both — transitive (diversify your savings), intransitive (investors should diversify)
 **Contrast:** *-y* after a consonant becomes *-ies* and *-ied*: *diversifies*, *diversified*.
@@ -512,6 +542,7 @@ To put money into several different things so that one loss cannot ruin you.
 **Pronunciation:** /pəˈzɛs/ &middot; *puh-ZESS*
 **Русский:** обладать, владеть
 **Forms:** *possess* &middot; *possessed* &middot; *possessed*
+**Verb class:** regular
 **Third person:** *possesses* &middot; **-ing form:** *possessing*
 **Transitivity:** transitive
 **Contrast:** The *ss* in the middle sounds like a *z*: puh-ZESS.
@@ -529,6 +560,7 @@ To have something, especially as property.
 **Pronunciation:** /ˈmɔːrɡɪdʒ/ &middot; *MOR-gij*
 **Русский:** закладывать, заложить (недвижимость)
 **Forms:** *mortgage* &middot; *mortgaged* &middot; *mortgaged*
+**Verb class:** regular
 **Third person:** *mortgages* &middot; **-ing form:** *mortgaging*
 **Transitivity:** transitive
 **Contrast:** The *t* is silent: MOR-gij.
@@ -546,6 +578,7 @@ To borrow money using your house or land as security.
 **Pronunciation:** /rɪˈdiːm/ &middot; *ri-DEEM*
 **Русский:** погашать; отоваривать (купон)
 **Forms:** *redeem* &middot; *redeemed* &middot; *redeemed*
+**Verb class:** regular
 **Third person:** *redeems* &middot; **-ing form:** *redeeming*
 **Transitivity:** transitive
 
@@ -562,6 +595,7 @@ To exchange a coupon, a voucher or points for goods or money.
 **Pronunciation:** /ˈsʌbsədaɪz/ &middot; *SUB-suh-dyze*
 **Русский:** субсидировать, дотировать
 **Forms:** *subsidize* &middot; *subsidized* &middot; *subsidized*
+**Verb class:** regular
 **Third person:** *subsidizes* &middot; **-ing form:** *subsidizing*
 **Transitivity:** transitive
 **Contrast:** American spelling **-ize**; British writes *subsidise*.
@@ -579,6 +613,7 @@ To pay part of the cost of something so that others pay less.
 **Pronunciation:** /ˈlaɪsəns/ &middot; *LY-suhnss*
 **Русский:** лицензировать, выдавать лицензию
 **Forms:** *license* &middot; *licensed* &middot; *licensed*
+**Verb class:** regular
 **Third person:** *licenses* &middot; **-ing form:** *licensing*
 **Transitivity:** transitive
 **Contrast:** American English spells the noun and the verb the same, *license*; British spells the noun *licence*.
@@ -596,6 +631,7 @@ To give official permission to sell something, or to let a company use your name
 **Pronunciation:** /kənˈvɜːrt/ &middot; *kuhn-VURT*
 **Русский:** конвертировать, обменивать (валюту)
 **Forms:** *convert* &middot; *converted* &middot; *converted*
+**Verb class:** regular
 **Third person:** *converts* &middot; **-ing form:** *converting*
 **Transitivity:** transitive
 **Contrast:** The verb is kuhn-VURT, the noun KAHN-vurt.
@@ -613,6 +649,7 @@ To change money from one currency into another.
 **Pronunciation:** /swaɪp/ &middot; *SWYPE*
 **Русский:** проводить картой, прокатывать карту
 **Forms:** *swipe* &middot; *swiped* &middot; *swiped*
+**Verb class:** regular
 **Third person:** *swipes* &middot; **-ing form:** *swiping*
 **Transitivity:** transitive
 
@@ -629,6 +666,7 @@ To pass a bank card through a machine to pay.
 **Pronunciation:** /ˈlɛvi/ &middot; *LEV-ee*
 **Русский:** взимать, облагать (сбором)
 **Forms:** *levy* &middot; *levied* &middot; *levied*
+**Verb class:** regular
 **Third person:** *levies* &middot; **-ing form:** *levying*
 **Transitivity:** transitive
 **Contrast:** *-y* after a consonant becomes *-ies* and *-ied*: *levies*, *levied*.
@@ -646,6 +684,7 @@ To officially charge a tax, a fee or a fine.
 **Pronunciation:** /ˌriːfəˈnæns/ &middot; *ree-fuh-NANSS*
 **Русский:** рефинансировать (кредит)
 **Forms:** *refinance* &middot; *refinanced* &middot; *refinanced*
+**Verb class:** regular
 **Third person:** *refinances* &middot; **-ing form:** *refinancing*
 **Transitivity:** both — transitive (refinance the mortgage), intransitive (we refinanced last year)
 
@@ -662,6 +701,7 @@ To replace a loan with a new one, usually at a lower rate.
 **Pronunciation:** /pɔːn/ &middot; *PAWN*
 **Русский:** закладывать в ломбард
 **Forms:** *pawn* &middot; *pawned* &middot; *pawned*
+**Verb class:** regular
 **Third person:** *pawns* &middot; **-ing form:** *pawning*
 **Transitivity:** transitive
 
@@ -678,6 +718,7 @@ To leave something valuable at a shop in exchange for money you can repay to get
 **Pronunciation:** /ˈdʌbəl/ &middot; *DUB-uhl*
 **Русский:** удваивать; увеличиваться вдвое
 **Forms:** *double* &middot; *doubled* &middot; *doubled*
+**Verb class:** regular
 **Third person:** *doubles* &middot; **-ing form:** *doubling*
 **Transitivity:** both — transitive (double the price), intransitive (the rent doubled)
 

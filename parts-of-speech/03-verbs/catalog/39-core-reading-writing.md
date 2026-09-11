@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /ˈpriːvjuː/ &middot; *PREE-vyoo*
 **Русский:** просматривать заранее, предварительно просмотреть
 **Forms:** *preview* &middot; *previewed* &middot; *previewed*
+**Verb class:** regular
 **Third person:** *previews* &middot; **-ing form:** *previewing*
 **Transitivity:** transitive
 
@@ -30,6 +31,7 @@ To look at something before it is finished or made public.
 **Pronunciation:** /dɪˈsaɪfər/ &middot; *di-SY-fur*
 **Русский:** разбирать (написанное), расшифровывать
 **Forms:** *decipher* &middot; *deciphered* &middot; *deciphered*
+**Verb class:** regular
 **Third person:** *deciphers* &middot; **-ing form:** *deciphering*
 **Transitivity:** transitive
 **Contrast:** Spelled with *ph*: *decipher*, never *decypher*.
@@ -47,6 +49,7 @@ To work out what something badly written or unclear says.
 **Pronunciation:** /diːˈkoʊd/ &middot; *dee-KOHD*
 **Русский:** расшифровывать, декодировать
 **Forms:** *decode* &middot; *decoded* &middot; *decoded*
+**Verb class:** regular
 **Third person:** *decodes* &middot; **-ing form:** *decoding*
 **Transitivity:** transitive
 
@@ -63,6 +66,7 @@ To work out the meaning of something written in code or in an unfamiliar form.
 **Pronunciation:** /skroʊl/ &middot; *SKROHL*
 **Русский:** прокручивать, листать (на экране)
 **Forms:** *scroll* &middot; *scrolled* &middot; *scrolled*
+**Verb class:** regular
 **Third person:** *scrolls* &middot; **-ing form:** *scrolling*
 **Transitivity:** both — transitive (scroll the page), intransitive (scroll down)
 
@@ -79,6 +83,7 @@ To move text or images up or down on a screen.
 **Pronunciation:** /klɪk/ &middot; *KLIK*
 **Русский:** щёлкать, кликать (мышью)
 **Forms:** *click* &middot; *clicked* &middot; *clicked*
+**Verb class:** regular
 **Third person:** *clicks* &middot; **-ing form:** *clicking*
 **Transitivity:** both — transitive (click the link), intransitive (click on the icon)
 **Contrast:** You *click on* a link or simply *click* it; both are normal American usage.
@@ -96,6 +101,7 @@ To press a button on a mouse or a spot on a screen to choose something.
 **Pronunciation:** /rɪˈfrɛʃ/ &middot; *ri-FRESH*
 **Русский:** обновлять (страницу), перезагружать
 **Forms:** *refresh* &middot; *refreshed* &middot; *refreshed*
+**Verb class:** regular
 **Third person:** *refreshes* &middot; **-ing form:** *refreshing*
 **Transitivity:** both — transitive (refresh the page), intransitive (the feed refreshes every minute)
 **Contrast:** Third person adds *-es* after *sh*: *refreshes*.
@@ -113,6 +119,7 @@ To load the newest version of a page or a list.
 **Pronunciation:** /ˈbʊkmɑːrk/ &middot; *BUUK-mahrk*
 **Русский:** добавлять в закладки, закладывать страницу
 **Forms:** *bookmark* &middot; *bookmarked* &middot; *bookmarked*
+**Verb class:** regular
 **Third person:** *bookmarks* &middot; **-ing form:** *bookmarking*
 **Transitivity:** transitive
 
@@ -129,6 +136,7 @@ To save a page so that you can find it again easily.
 **Pronunciation:** /ˈhaɪlaɪt/ &middot; *HY-lyt*
 **Русский:** выделять (маркером); подчёркивать, обращать внимание на
 **Forms:** *highlight* &middot; *highlighted* &middot; *highlighted*
+**Verb class:** regular
 **Third person:** *highlights* &middot; **-ing form:** *highlighting*
 **Transitivity:** transitive
 
@@ -145,6 +153,7 @@ To mark part of a text with bright color, or to draw attention to it.
 **Pronunciation:** /ˌʌndərˈlaɪn/ &middot; *un-dur-LYN*
 **Русский:** подчёркивать, подчеркнуть
 **Forms:** *underline* &middot; *underlined* &middot; *underlined*
+**Verb class:** regular
 **Third person:** *underlines* &middot; **-ing form:** *underlining*
 **Transitivity:** transitive
 
@@ -161,6 +170,7 @@ To draw a line under a word or a sentence.
 **Pronunciation:** /ˈænəteɪt/ &middot; *AN-uh-tayt*
 **Русский:** делать пометки, аннотировать
 **Forms:** *annotate* &middot; *annotated* &middot; *annotated*
+**Verb class:** regular
 **Third person:** *annotates* &middot; **-ing form:** *annotating*
 **Transitivity:** transitive
 
@@ -177,6 +187,7 @@ To add notes to a text to explain it or comment on it.
 **Pronunciation:** /ˌmɪsˈkwoʊt/ &middot; *mis-KWOHT*
 **Русский:** неверно цитировать, перевирать слова
 **Forms:** *misquote* &middot; *misquoted* &middot; *misquoted*
+**Verb class:** regular
 **Third person:** *misquotes* &middot; **-ing form:** *misquoting*
 **Transitivity:** transitive
 
@@ -193,6 +204,7 @@ To repeat someone's words wrongly.
 **Pronunciation:** /saɪt/ &middot; *SYT*
 **Русский:** ссылаться на, приводить (источник)
 **Forms:** *cite* &middot; *cited* &middot; *cited*
+**Verb class:** regular
 **Third person:** *cites* &middot; **-ing form:** *citing*
 **Transitivity:** transitive
 **Contrast:** Sounds exactly like *site* (a place) and *sight* (vision).
@@ -205,11 +217,14 @@ To name a book, article, or person as the source of your information.
 
 ---
 
+**Phrasal verbs:** [cite to](22-verb-preposition.md#cite-to)
+
 ### reference
 
 **Pronunciation:** /ˈrɛfərəns/ &middot; *REF-uh-ruhns*
 **Русский:** ссылаться на, указывать источник
 **Forms:** *reference* &middot; *referenced* &middot; *referenced*
+**Verb class:** regular
 **Third person:** *references* &middot; **-ing form:** *referencing*
 **Transitivity:** transitive
 
@@ -226,6 +241,7 @@ To mention a source or an earlier text in your own writing.
 **Pronunciation:** /ˈpɛrəfreɪz/ &middot; *PAIR-uh-frayz*
 **Русский:** пересказывать своими словами, перефразировать
 **Forms:** *paraphrase* &middot; *paraphrased* &middot; *paraphrased*
+**Verb class:** regular
 **Third person:** *paraphrases* &middot; **-ing form:** *paraphrasing*
 **Transitivity:** both — transitive (paraphrase a passage), intransitive (I'm paraphrasing)
 
@@ -242,6 +258,7 @@ To put someone else's idea into your own words.
 **Pronunciation:** /ˈpleɪdʒəraɪz/ &middot; *PLAY-juh-ryz*
 **Русский:** заниматься плагиатом, списывать (чужой текст)
 **Forms:** *plagiarize* &middot; *plagiarized* &middot; *plagiarized*
+**Verb class:** regular
 **Third person:** *plagiarizes* &middot; **-ing form:** *plagiarizing*
 **Transitivity:** both — transitive (plagiarize a paper), intransitive (students who plagiarize)
 **Contrast:** American *plagiarize*; British *plagiarise*.
@@ -259,6 +276,7 @@ To copy someone else's writing and present it as your own.
 **Pronunciation:** /ˈriːkæp/ &middot; *REE-kap*
 **Русский:** кратко повторять, резюмировать
 **Forms:** *recap* &middot; *recapped* &middot; *recapped*
+**Verb class:** regular
 **Third person:** *recaps* &middot; **-ing form:** *recapping*
 **Transitivity:** both — transitive (recap the chapter), intransitive (let me recap)
 **Contrast:** Doubles the *p*: *recapped*, *recapping*.
@@ -276,6 +294,7 @@ To go over the main points of something again briefly.
 **Pronunciation:** /ˌriːˈsteɪt/ &middot; *ree-STAYT*
 **Русский:** повторять иначе, формулировать заново
 **Forms:** *restate* &middot; *restated* &middot; *restated*
+**Verb class:** regular
 **Third person:** *restates* &middot; **-ing form:** *restating*
 **Transitivity:** transitive
 
@@ -292,6 +311,7 @@ To say or write something again, usually more clearly.
 **Pronunciation:** /trænˈskraɪb/ &middot; *tran-SKRYB*
 **Русский:** расшифровывать запись, записывать дословно
 **Forms:** *transcribe* &middot; *transcribed* &middot; *transcribed*
+**Verb class:** regular
 **Third person:** *transcribes* &middot; **-ing form:** *transcribing*
 **Transitivity:** transitive
 
@@ -308,6 +328,7 @@ To write out in full what someone said or what a recording contains.
 **Pronunciation:** /ˈdɪkteɪt/ &middot; *DIK-tayt*
 **Русский:** диктовать, продиктовать
 **Forms:** *dictate* &middot; *dictated* &middot; *dictated*
+**Verb class:** regular
 **Third person:** *dictates* &middot; **-ing form:** *dictating*
 **Transitivity:** both — transitive (dictate a letter), intransitive (he dictates to his phone)
 
@@ -324,6 +345,7 @@ To say words aloud for someone or something to write down.
 **Pronunciation:** /ˈsʌbtaɪtəl/ &middot; *SUB-ty-tuhl*
 **Русский:** снабжать субтитрами
 **Forms:** *subtitle* &middot; *subtitled* &middot; *subtitled*
+**Verb class:** regular
 **Third person:** *subtitles* &middot; **-ing form:** *subtitling*
 **Transitivity:** transitive
 
@@ -340,6 +362,7 @@ To add a written translation of the speech at the bottom of a film or video.
 **Pronunciation:** /dʌb/ &middot; *DUB*
 **Русский:** дублировать (фильм), озвучивать
 **Forms:** *dub* &middot; *dubbed* &middot; *dubbed*
+**Verb class:** regular
 **Third person:** *dubs* &middot; **-ing form:** *dubbing*
 **Transitivity:** transitive
 **Contrast:** Doubles the *b*: *dubbed*, *dubbing*.
@@ -357,6 +380,7 @@ To replace the original speech in a film with speech in another language.
 **Pronunciation:** /ˈkɑːndʒəɡeɪt/ &middot; *KAHN-juh-gayt*
 **Русский:** спрягать (глагол)
 **Forms:** *conjugate* &middot; *conjugated* &middot; *conjugated*
+**Verb class:** regular
 **Third person:** *conjugates* &middot; **-ing form:** *conjugating*
 **Transitivity:** both — transitive (conjugate the verb), intransitive (this verb conjugates irregularly)
 
@@ -373,6 +397,7 @@ To give the different forms of a verb.
 **Pronunciation:** /ˈkæpɪtəlaɪz/ &middot; *KAP-i-tuh-lyz*
 **Русский:** писать с заглавной буквы
 **Forms:** *capitalize* &middot; *capitalized* &middot; *capitalized*
+**Verb class:** regular
 **Third person:** *capitalizes* &middot; **-ing form:** *capitalizing*
 **Transitivity:** transitive
 **Contrast:** American *capitalize*; British *capitalise*.
@@ -390,6 +415,7 @@ To write a word with a capital letter at the beginning.
 **Pronunciation:** /ˈpʌŋktʃueɪt/ &middot; *PUNK-choo-ayt*
 **Русский:** расставлять знаки препинания
 **Forms:** *punctuate* &middot; *punctuated* &middot; *punctuated*
+**Verb class:** regular
 **Third person:** *punctuates* &middot; **-ing form:** *punctuating*
 **Transitivity:** transitive
 
@@ -406,6 +432,7 @@ To put commas, periods, and other marks into a piece of writing.
 **Pronunciation:** /ˈhaɪfəneɪt/ &middot; *HY-fuh-nayt*
 **Русский:** писать через дефис, ставить дефис
 **Forms:** *hyphenate* &middot; *hyphenated* &middot; *hyphenated*
+**Verb class:** regular
 **Third person:** *hyphenates* &middot; **-ing form:** *hyphenating*
 **Transitivity:** transitive
 
@@ -422,6 +449,7 @@ To join two words with a hyphen, or to break a word at the end of a line.
 **Pronunciation:** /əˈbriːvieɪt/ &middot; *uh-BREE-vee-ayt*
 **Русский:** сокращать (слово), сократить
 **Forms:** *abbreviate* &middot; *abbreviated* &middot; *abbreviated*
+**Verb class:** regular
 **Third person:** *abbreviates* &middot; **-ing form:** *abbreviating*
 **Transitivity:** transitive
 
@@ -438,6 +466,7 @@ To make a word or a title shorter.
 **Pronunciation:** /ɪˈtæləsaɪz/ &middot; *i-TAL-uh-syz*
 **Русский:** выделять курсивом
 **Forms:** *italicize* &middot; *italicized* &middot; *italicized*
+**Verb class:** regular
 **Third person:** *italicizes* &middot; **-ing form:** *italicizing*
 **Transitivity:** transitive
 
@@ -454,6 +483,7 @@ To print or type words in slanted letters.
 **Pronunciation:** /ˈælfəbətaɪz/ &middot; *AL-fuh-buh-tyz*
 **Русский:** располагать в алфавитном порядке
 **Forms:** *alphabetize* &middot; *alphabetized* &middot; *alphabetized*
+**Verb class:** regular
 **Third person:** *alphabetizes* &middot; **-ing form:** *alphabetizing*
 **Transitivity:** transitive
 
@@ -470,6 +500,7 @@ To put words or names in the order of the alphabet.
 **Pronunciation:** /ɪnˈdɛnt/ &middot; *in-DENT*
 **Русский:** делать отступ (в начале абзаца)
 **Forms:** *indent* &middot; *indented* &middot; *indented*
+**Verb class:** regular
 **Third person:** *indents* &middot; **-ing form:** *indenting*
 **Transitivity:** both — transitive (indent the first line), intransitive (indent before you start)
 
@@ -486,6 +517,7 @@ To start a line of writing further in from the margin.
 **Pronunciation:** /ˈnʌmbər/ &middot; *NUM-bur*
 **Русский:** нумеровать, пронумеровать
 **Forms:** *number* &middot; *numbered* &middot; *numbered*
+**Verb class:** regular
 **Third person:** *numbers* &middot; **-ing form:** *numbering*
 **Transitivity:** transitive
 
@@ -502,6 +534,7 @@ To give each item in a list or a set its own number.
 **Pronunciation:** /raɪm/ &middot; *RYM*
 **Русский:** рифмоваться, рифмовать
 **Forms:** *rhyme* &middot; *rhymed* &middot; *rhymed*
+**Verb class:** regular
 **Third person:** *rhymes* &middot; **-ing form:** *rhyming*
 **Transitivity:** both — transitive (rhyme 'moon' with 'June'), intransitive ('cat' and 'hat' rhyme)
 **Contrast:** Silent *h* after the *r*: *rhyme*, like *rhythm*.
@@ -519,6 +552,7 @@ To end with the same sound as another word.
 **Pronunciation:** /taɪp/ &middot; *TYP*
 **Русский:** печатать (на клавиатуре), набирать
 **Forms:** *type* &middot; *typed* &middot; *typed*
+**Verb class:** regular
 **Third person:** *types* &middot; **-ing form:** *typing*
 **Transitivity:** both — transitive (type a letter), intransitive (he types fast)
 
@@ -535,6 +569,7 @@ To write something using a keyboard.
 **Pronunciation:** /ˌriːˈtaɪp/ &middot; *ree-TYP*
 **Русский:** перепечатывать, набирать заново
 **Forms:** *retype* &middot; *retyped* &middot; *retyped*
+**Verb class:** regular
 **Third person:** *retypes* &middot; **-ing form:** *retyping*
 **Transitivity:** transitive
 
@@ -551,6 +586,7 @@ To type something again, usually to correct it.
 **Pronunciation:** /peɪst/ &middot; *PAYST*
 **Русский:** вставлять (скопированное)
 **Forms:** *paste* &middot; *pasted* &middot; *pasted*
+**Verb class:** regular
 **Third person:** *pastes* &middot; **-ing form:** *pasting*
 **Transitivity:** transitive
 
@@ -567,6 +603,7 @@ To put text or an image you have copied into another place.
 **Pronunciation:** /ɪnˈsɜːrt/ &middot; *in-SURT*
 **Русский:** вставлять, вставить (в текст)
 **Forms:** *insert* &middot; *inserted* &middot; *inserted*
+**Verb class:** regular
 **Third person:** *inserts* &middot; **-ing form:** *inserting*
 **Transitivity:** transitive
 **Contrast:** Verb *in-SURT*, noun *IN-surt*.
@@ -584,6 +621,7 @@ To put something into a text in the right place.
 **Pronunciation:** /ɪˈreɪs/ &middot; *i-RAYS*
 **Русский:** стирать, стереть (написанное)
 **Forms:** *erase* &middot; *erased* &middot; *erased*
+**Verb class:** regular
 **Third person:** *erases* &middot; **-ing form:** *erasing*
 **Transitivity:** transitive
 
@@ -600,6 +638,7 @@ To remove writing so that nothing is left.
 **Pronunciation:** /dɪˈliːt/ &middot; *di-LEET*
 **Русский:** удалять, удалить
 **Forms:** *delete* &middot; *deleted* &middot; *deleted*
+**Verb class:** regular
 **Third person:** *deletes* &middot; **-ing form:** *deleting*
 **Transitivity:** transitive
 
@@ -616,6 +655,7 @@ To remove text or a file from a document or a computer.
 **Pronunciation:** /ˈfɔːrmæt/ &middot; *FOR-mat*
 **Русский:** форматировать, оформлять
 **Forms:** *format* &middot; *formatted* &middot; *formatted*
+**Verb class:** regular
 **Third person:** *formats* &middot; **-ing form:** *formatting*
 **Transitivity:** transitive
 **Contrast:** Doubles the *t*: *formatted*, *formatting*.
@@ -633,6 +673,7 @@ To arrange how a text looks on the page or the screen.
 **Pronunciation:** /ˌriːˈneɪm/ &middot; *ree-NAYM*
 **Русский:** переименовывать, переименовать
 **Forms:** *rename* &middot; *renamed* &middot; *renamed*
+**Verb class:** regular
 **Third person:** *renames* &middot; **-ing form:** *renaming*
 **Transitivity:** transitive
 
@@ -649,6 +690,7 @@ To give something a new name.
 **Pronunciation:** /ˈɛdɪt/ &middot; *ED-it*
 **Русский:** редактировать, править (текст)
 **Forms:** *edit* &middot; *edited* &middot; *edited*
+**Verb class:** regular
 **Third person:** *edits* &middot; **-ing form:** *editing*
 **Transitivity:** both — transitive (edit an essay), intransitive (she edits for a living)
 **Contrast:** One *t*: *edited*, *editing* — the stress is on the first syllable, so the *t* does not double.
@@ -666,6 +708,7 @@ To correct and improve a piece of writing before it is published.
 **Pronunciation:** /kəˈrɛkt/ &middot; *kuh-REKT*
 **Русский:** исправлять, поправлять
 **Forms:** *correct* &middot; *corrected* &middot; *corrected*
+**Verb class:** regular
 **Third person:** *corrects* &middot; **-ing form:** *correcting*
 **Transitivity:** transitive
 
@@ -677,11 +720,14 @@ To find the mistakes in something and make them right.
 
 ---
 
+**Phrasal verbs:** [correct for](22-verb-preposition.md#correct-for)
+
 ### proof
 
 **Pronunciation:** /pruːf/ &middot; *PROOF*
 **Русский:** вычитывать (текст), проверять на ошибки
 **Forms:** *proof* &middot; *proofed* &middot; *proofed*
+**Verb class:** regular
 **Third person:** *proofs* &middot; **-ing form:** *proofing*
 **Transitivity:** transitive
 **Contrast:** A short form of *proofread*, which is irregular: *proofread*, *proofread*.
@@ -699,6 +745,7 @@ To read a text carefully for mistakes before it is printed or sent.
 **Pronunciation:** /əˈmɛnd/ &middot; *uh-MEND*
 **Русский:** вносить поправки, изменять (документ)
 **Forms:** *amend* &middot; *amended* &middot; *amended*
+**Verb class:** regular
 **Third person:** *amends* &middot; **-ing form:** *amending*
 **Transitivity:** transitive
 
@@ -715,6 +762,7 @@ To change the wording of a document or a law slightly.
 **Pronunciation:** /ˌriːˈfreɪz/ &middot; *ree-FRAYZ*
 **Русский:** перефразировать, сформулировать иначе
 **Forms:** *rephrase* &middot; *rephrased* &middot; *rephrased*
+**Verb class:** regular
 **Third person:** *rephrases* &middot; **-ing form:** *rephrasing*
 **Transitivity:** transitive
 
@@ -731,6 +779,7 @@ To say something again in different words so that it is clearer.
 **Pronunciation:** /ˌriːˈwɜːrd/ &middot; *ree-WURD*
 **Русский:** переформулировать, изменить формулировку
 **Forms:** *reword* &middot; *reworded* &middot; *reworded*
+**Verb class:** regular
 **Third person:** *rewords* &middot; **-ing form:** *rewording*
 **Transitivity:** transitive
 
@@ -747,6 +796,7 @@ To change the wording of a written text without changing its meaning.
 **Pronunciation:** /kənˈdɛns/ &middot; *kuhn-DENS*
 **Русский:** сокращать, сжимать (текст)
 **Forms:** *condense* &middot; *condensed* &middot; *condensed*
+**Verb class:** regular
 **Third person:** *condenses* &middot; **-ing form:** *condensing*
 **Transitivity:** transitive
 
@@ -763,6 +813,7 @@ To make a piece of writing shorter while keeping the main points.
 **Pronunciation:** /ˈsɪmplɪfaɪ/ &middot; *SIM-pluh-fy*
 **Русский:** упрощать, упростить
 **Forms:** *simplify* &middot; *simplified* &middot; *simplified*
+**Verb class:** regular
 **Third person:** *simplifies* &middot; **-ing form:** *simplifying*
 **Transitivity:** transitive
 **Contrast:** Consonant + *-y*: *simplifies*, *simplified*, but *simplifying*.
@@ -780,6 +831,7 @@ To make something easier to read or to understand.
 **Pronunciation:** /ˈnɛreɪt/ &middot; *NAIR-ayt*
 **Русский:** рассказывать, вести повествование
 **Forms:** *narrate* &middot; *narrated* &middot; *narrated*
+**Verb class:** regular
 **Third person:** *narrates* &middot; **-ing form:** *narrating*
 **Transitivity:** both — transitive (narrate a story), intransitive (he narrates beautifully)
 
@@ -796,6 +848,7 @@ To tell a story, or to speak the words that go with a film or recording.
 **Pronunciation:** /ˈdɑːkjəmɛnt/ &middot; *DAHK-yuh-ment*
 **Русский:** документировать, фиксировать (письменно)
 **Forms:** *document* &middot; *documented* &middot; *documented*
+**Verb class:** regular
 **Third person:** *documents* &middot; **-ing form:** *documenting*
 **Transitivity:** transitive
 **Contrast:** The verb ends *-ment* (*DAHK-yuh-ment*); the noun ends in a schwa (*DAHK-yuh-muhnt*).
@@ -813,6 +866,7 @@ To record something in writing or on film so that there is proof of it.
 **Pronunciation:** /ˈɪləstreɪt/ &middot; *IL-uh-strayt*
 **Русский:** иллюстрировать; наглядно пояснять
 **Forms:** *illustrate* &middot; *illustrated* &middot; *illustrated*
+**Verb class:** regular
 **Third person:** *illustrates* &middot; **-ing form:** *illustrating*
 **Transitivity:** transitive
 
@@ -829,6 +883,7 @@ To add pictures to a text, or to make a point clear with an example.
 **Pronunciation:** /ˈtaɪtəl/ &middot; *TY-tuhl*
 **Русский:** озаглавливать, давать название
 **Forms:** *title* &middot; *titled* &middot; *titled*
+**Verb class:** regular
 **Third person:** *titles* &middot; **-ing form:** *titling*
 **Transitivity:** transitive
 
@@ -845,6 +900,7 @@ To give a book, article, or piece of music a name.
 **Pronunciation:** /dʒɑːt/ &middot; *JAHT*
 **Русский:** быстро записывать, черкнуть
 **Forms:** *jot* &middot; *jotted* &middot; *jotted*
+**Verb class:** regular
 **Third person:** *jots* &middot; **-ing form:** *jotting*
 **Transitivity:** transitive
 **Contrast:** Doubles the *t*: *jotted*, *jotting*.
@@ -862,6 +918,7 @@ To write something down quickly and briefly.
 **Pronunciation:** /ˈskrɪbəl/ &middot; *SKRIB-uhl*
 **Русский:** писать каракулями, нацарапать
 **Forms:** *scribble* &middot; *scribbled* &middot; *scribbled*
+**Verb class:** regular
 **Third person:** *scribbles* &middot; **-ing form:** *scribbling*
 **Transitivity:** both — transitive (scribble a note), intransitive (scribble in the margin)
 
@@ -878,6 +935,7 @@ To write something quickly and messily.
 **Pronunciation:** /ˈduːdəl/ &middot; *DOO-duhl*
 **Русский:** рисовать каракули, машинально чертить
 **Forms:** *doodle* &middot; *doodled* &middot; *doodled*
+**Verb class:** regular
 **Third person:** *doodles* &middot; **-ing form:** *doodling*
 **Transitivity:** both — transitive (doodle a face), intransitive (doodle in a notebook)
 
@@ -894,6 +952,7 @@ To draw little pictures without thinking, usually while doing something else.
 **Pronunciation:** /ˈkʌlər/ &middot; *KUL-ur*
 **Русский:** раскрашивать, разукрашивать
 **Forms:** *color* &middot; *colored* &middot; *colored*
+**Verb class:** regular
 **Third person:** *colors* &middot; **-ing form:** *coloring*
 **Transitivity:** both — transitive (color a picture), intransitive (the kids colored quietly)
 **Contrast:** American *color*, *colored*, *coloring*; British *colour*, *coloured*, *colouring*.
@@ -911,6 +970,7 @@ To fill a drawing with color using crayons or pencils.
 **Pronunciation:** /ɪˈlæbəreɪt/ &middot; *i-LAB-uh-rayt*
 **Русский:** подробно останавливаться, развивать мысль
 **Forms:** *elaborate* &middot; *elaborated* &middot; *elaborated*
+**Verb class:** regular
 **Third person:** *elaborates* &middot; **-ing form:** *elaborating*
 **Transitivity:** intransitive
 **Contrast:** Takes *on*: *elaborate on an idea*. The verb ends *-rayt*; the adjective *elaborate* ends *-ruht*.
@@ -923,11 +983,14 @@ To say or write more about something you have already mentioned.
 
 ---
 
+**Phrasal verbs:** [elaborate on](22-verb-preposition.md#elaborate-on)
+
 ### recount
 
 **Pronunciation:** /rɪˈkaʊnt/ &middot; *ri-KOWNT*
 **Русский:** излагать, подробно рассказывать
 **Forms:** *recount* &middot; *recounted* &middot; *recounted*
+**Verb class:** regular
 **Third person:** *recounts* &middot; **-ing form:** *recounting*
 **Transitivity:** transitive
 **Contrast:** *ri-KOWNT* means 'tell the story'; *REE-kownt* means 'count again'.
@@ -945,6 +1008,7 @@ To tell or write the story of something that happened.
 **Pronunciation:** /pɔːrˈtreɪ/ &middot; *por-TRAY*
 **Русский:** изображать, описывать (в книге, фильме)
 **Forms:** *portray* &middot; *portrayed* &middot; *portrayed*
+**Verb class:** regular
 **Third person:** *portrays* &middot; **-ing form:** *portraying*
 **Transitivity:** transitive
 **Contrast:** Vowel + *-y*: *portrays*, *portrayed* — the *y* does not change.
@@ -962,6 +1026,7 @@ To describe or show a person or place in a particular way in a book or film.
 **Pronunciation:** /dɪˈpɪkt/ &middot; *di-PIKT*
 **Русский:** изображать, описывать
 **Forms:** *depict* &middot; *depicted* &middot; *depicted*
+**Verb class:** regular
 **Third person:** *depicts* &middot; **-ing form:** *depicting*
 **Transitivity:** transitive
 
@@ -978,6 +1043,7 @@ To show or describe something in words or pictures.
 **Pronunciation:** /ˌriːˈprɪnt/ &middot; *ree-PRINT*
 **Русский:** переиздавать, перепечатывать
 **Forms:** *reprint* &middot; *reprinted* &middot; *reprinted*
+**Verb class:** regular
 **Third person:** *reprints* &middot; **-ing form:** *reprinting*
 **Transitivity:** transitive
 
@@ -994,6 +1060,7 @@ To print a book or an article again.
 **Pronunciation:** /ˈfoʊtoʊˌkɑːpi/ &middot; *FOH-toh-kah-pee*
 **Русский:** делать ксерокопию, копировать
 **Forms:** *photocopy* &middot; *photocopied* &middot; *photocopied*
+**Verb class:** regular
 **Third person:** *photocopies* &middot; **-ing form:** *photocopying*
 **Transitivity:** transitive
 **Contrast:** Consonant + *-y*: *photocopies*, *photocopied*, like *copy*.
@@ -1011,6 +1078,7 @@ To make a paper copy of a page with a machine.
 **Pronunciation:** /fæks/ &middot; *FAKS*
 **Русский:** отправлять по факсу
 **Forms:** *fax* &middot; *faxed* &middot; *faxed*
+**Verb class:** regular
 **Third person:** *faxes* &middot; **-ing form:** *faxing*
 **Transitivity:** transitive
 **Contrast:** Third person adds *-es*: *faxes*.
@@ -1028,6 +1096,7 @@ To send a copy of a document over a phone line.
 **Pronunciation:** /ˈduːplɪkeɪt/ &middot; *DOO-pli-kayt*
 **Русский:** дублировать, делать копию
 **Forms:** *duplicate* &middot; *duplicated* &middot; *duplicated*
+**Verb class:** regular
 **Third person:** *duplicates* &middot; **-ing form:** *duplicating*
 **Transitivity:** transitive
 **Contrast:** The verb ends *-kayt*; the noun and adjective end *-kuht* (*a duplicate copy*).
@@ -1045,6 +1114,7 @@ To make an exact copy of something.
 **Pronunciation:** /ˌriːˈpʌblɪʃ/ &middot; *ree-PUB-lish*
 **Русский:** переиздавать, публиковать заново
 **Forms:** *republish* &middot; *republished* &middot; *republished*
+**Verb class:** regular
 **Third person:** *republishes* &middot; **-ing form:** *republishing*
 **Transitivity:** transitive
 
@@ -1061,6 +1131,7 @@ To publish a text again, often in a new form.
 **Pronunciation:** /ˈsɜːrkjəleɪt/ &middot; *SUR-kyuh-layt*
 **Русский:** распространять, рассылать; циркулировать
 **Forms:** *circulate* &middot; *circulated* &middot; *circulated*
+**Verb class:** regular
 **Third person:** *circulates* &middot; **-ing form:** *circulating*
 **Transitivity:** both — transitive (circulate a draft), intransitive (rumors circulate)
 
@@ -1077,6 +1148,7 @@ To pass something around so that many people see it.
 **Pronunciation:** /ˈsɛnsər/ &middot; *SEN-sur*
 **Русский:** подвергать цензуре, вырезать (из текста)
 **Forms:** *censor* &middot; *censored* &middot; *censored*
+**Verb class:** regular
 **Third person:** *censors* &middot; **-ing form:** *censoring*
 **Transitivity:** transitive
 **Contrast:** *Censor* (cut out) is not *censure* (criticize officially) or *sensor* (a device).
@@ -1094,6 +1166,7 @@ To cut out parts of a text, film, or letter that someone in authority finds unac
 **Pronunciation:** /rɪˈdækt/ &middot; *ri-DAKT*
 **Русский:** вымарывать, закрашивать (в документе)
 **Forms:** *redact* &middot; *redacted* &middot; *redacted*
+**Verb class:** regular
 **Third person:** *redacts* &middot; **-ing form:** *redacting*
 **Transitivity:** transitive
 
@@ -1110,6 +1183,7 @@ To black out parts of a document before it is made public.
 **Pronunciation:** /rɪˈtrækt/ &middot; *ri-TRAKT*
 **Русский:** отзывать (заявление), опровергать
 **Forms:** *retract* &middot; *retracted* &middot; *retracted*
+**Verb class:** regular
 **Third person:** *retracts* &middot; **-ing form:** *retracting*
 **Transitivity:** transitive
 
@@ -1126,6 +1200,7 @@ To take back something you said or published because it was wrong.
 **Pronunciation:** /ˈfiːtʃər/ &middot; *FEE-chur*
 **Русский:** помещать на видном месте, давать (материал)
 **Forms:** *feature* &middot; *featured* &middot; *featured*
+**Verb class:** regular
 **Third person:** *features* &middot; **-ing form:** *featuring*
 **Transitivity:** transitive
 
@@ -1142,6 +1217,7 @@ To give a story, person, or work a prominent place in a publication or program.
 **Pronunciation:** /pɪtʃ/ &middot; *PICH*
 **Русский:** предлагать (идею, статью), продвигать замысел
 **Forms:** *pitch* &middot; *pitched* &middot; *pitched*
+**Verb class:** regular
 **Third person:** *pitches* &middot; **-ing form:** *pitching*
 **Transitivity:** both — transitive (pitch a story), intransitive (pitch to an editor)
 **Contrast:** Third person adds *-es* after *ch*: *pitches*.
@@ -1159,6 +1235,7 @@ To offer an idea for a story, book, or project to someone who might buy it.
 **Pronunciation:** /əˈdæpt/ &middot; *uh-DAPT*
 **Русский:** адаптировать, перерабатывать (для экранизации)
 **Forms:** *adapt* &middot; *adapted* &middot; *adapted*
+**Verb class:** regular
 **Third person:** *adapts* &middot; **-ing form:** *adapting*
 **Transitivity:** transitive
 **Contrast:** *Adapt* (change something) is not *adopt* (take as your own).
@@ -1171,11 +1248,14 @@ To rewrite a book or story so that it can be a film, a play, or a version for ot
 
 ---
 
+**Phrasal verbs:** [adapt to](22-verb-preposition.md#adapt-to)
+
 ### critique
 
 **Pronunciation:** /krɪˈtiːk/ &middot; *kri-TEEK*
 **Русский:** разбирать, критически оценивать (работу)
 **Forms:** *critique* &middot; *critiqued* &middot; *critiqued*
+**Verb class:** regular
 **Third person:** *critiques* &middot; **-ing form:** *critiquing*
 **Transitivity:** transitive
 **Contrast:** Pronounced *kri-TEEK*; a *critic* is *KRIT-ik*.
@@ -1193,6 +1273,7 @@ To judge a piece of work carefully and say what is good and bad about it.
 **Pronunciation:** /reɪt/ &middot; *RAYT*
 **Русский:** оценивать, ставить оценку (баллы, звёзды)
 **Forms:** *rate* &middot; *rated* &middot; *rated*
+**Verb class:** regular
 **Third person:** *rates* &middot; **-ing form:** *rating*
 **Transitivity:** transitive
 
@@ -1209,6 +1290,7 @@ To judge how good something is, often by giving it stars or points.
 **Pronunciation:** /ˈʌploʊd/ &middot; *UP-lohd*
 **Русский:** загружать (на сайт), выкладывать
 **Forms:** *upload* &middot; *uploaded* &middot; *uploaded*
+**Verb class:** regular
 **Third person:** *uploads* &middot; **-ing form:** *uploading*
 **Transitivity:** both — transitive (upload a file), intransitive (it's still uploading)
 
@@ -1225,6 +1307,7 @@ To send a file from your own device to the internet or a server.
 **Pronunciation:** /ˈdaʊnloʊd/ &middot; *DOWN-lohd*
 **Русский:** скачивать, загружать (себе)
 **Forms:** *download* &middot; *downloaded* &middot; *downloaded*
+**Verb class:** regular
 **Third person:** *downloads* &middot; **-ing form:** *downloading*
 **Transitivity:** both — transitive (download a book), intransitive (the file is downloading)
 
@@ -1241,6 +1324,7 @@ To copy a file from the internet onto your own device.
 **Pronunciation:** /ˈɑːrkaɪv/ &middot; *AHR-kyv*
 **Русский:** архивировать, отправлять в архив
 **Forms:** *archive* &middot; *archived* &middot; *archived*
+**Verb class:** regular
 **Third person:** *archives* &middot; **-ing form:** *archiving*
 **Transitivity:** transitive
 
@@ -1257,6 +1341,7 @@ To store documents or messages for the long term instead of deleting them.
 **Pronunciation:** /kəmˈpaɪl/ &middot; *kuhm-PYL*
 **Русский:** составлять (сборник), собирать воедино
 **Forms:** *compile* &middot; *compiled* &middot; *compiled*
+**Verb class:** regular
 **Third person:** *compiles* &middot; **-ing form:** *compiling*
 **Transitivity:** transitive
 
@@ -1273,6 +1358,7 @@ To put together a book, list, or report out of many separate pieces.
 **Pronunciation:** /ˈkætəlɔːɡ/ &middot; *KAT-uh-lawg*
 **Русский:** каталогизировать, вносить в каталог
 **Forms:** *catalog* &middot; *cataloged* &middot; *cataloged*
+**Verb class:** regular
 **Third person:** *catalogs* &middot; **-ing form:** *cataloging*
 **Transitivity:** transitive
 **Contrast:** American *catalog*, *cataloged*; British *catalogue*, *catalogued*.
@@ -1290,6 +1376,7 @@ To list things in order so that they can be found again.
 **Pronunciation:** /lɔːɡ/ &middot; *LAWG*
 **Русский:** записывать (в журнал), фиксировать
 **Forms:** *log* &middot; *logged* &middot; *logged*
+**Verb class:** regular
 **Third person:** *logs* &middot; **-ing form:** *logging*
 **Transitivity:** transitive
 **Contrast:** Doubles the *g*: *logged*, *logging*.
@@ -1307,6 +1394,7 @@ To write down events, hours, or numbers in an official record.
 **Pronunciation:** /flæɡ/ &middot; *FLAG*
 **Русский:** помечать, отмечать (как важное)
 **Forms:** *flag* &middot; *flagged* &middot; *flagged*
+**Verb class:** regular
 **Third person:** *flags* &middot; **-ing form:** *flagging*
 **Transitivity:** transitive
 **Contrast:** Doubles the *g*: *flagged*, *flagging*.
@@ -1324,6 +1412,7 @@ To mark something so that someone will notice it and deal with it.
 **Pronunciation:** /tæɡ/ &middot; *TAG*
 **Русский:** отмечать (в посте), помечать тегом
 **Forms:** *tag* &middot; *tagged* &middot; *tagged*
+**Verb class:** regular
 **Third person:** *tags* &middot; **-ing form:** *tagging*
 **Transitivity:** transitive
 **Contrast:** Doubles the *g*: *tagged*, *tagging*.
@@ -1341,6 +1430,7 @@ To attach a name or a keyword to a photo, post, or file.
 **Pronunciation:** /ˈkæpʃən/ &middot; *KAP-shuhn*
 **Русский:** снабжать подписью, подписывать (фото)
 **Forms:** *caption* &middot; *captioned* &middot; *captioned*
+**Verb class:** regular
 **Third person:** *captions* &middot; **-ing form:** *captioning*
 **Transitivity:** transitive
 
@@ -1357,6 +1447,7 @@ To write a short line of text under a photograph or a picture.
 **Pronunciation:** /ˈmɛsɪdʒ/ &middot; *MES-ij*
 **Русский:** писать сообщение, отправлять сообщение
 **Forms:** *message* &middot; *messaged* &middot; *messaged*
+**Verb class:** regular
 **Third person:** *messages* &middot; **-ing form:** *messaging*
 **Transitivity:** both — transitive (message a friend), intransitive (we messaged all night)
 
@@ -1373,6 +1464,7 @@ To send someone a written message online or on a phone.
 **Pronunciation:** /blɔːɡ/ &middot; *BLAWG*
 **Русский:** вести блог, писать в блог
 **Forms:** *blog* &middot; *blogged* &middot; *blogged*
+**Verb class:** regular
 **Third person:** *blogs* &middot; **-ing form:** *blogging*
 **Transitivity:** intransitive
 **Contrast:** Doubles the *g*: *blogged*, *blogging*.
@@ -1390,6 +1482,7 @@ To write regularly on a personal website.
 **Pronunciation:** /ˌriːˈpoʊst/ &middot; *ree-POHST*
 **Русский:** репостить, размещать повторно
 **Forms:** *repost* &middot; *reposted* &middot; *reposted*
+**Verb class:** regular
 **Third person:** *reposts* &middot; **-ing form:** *reposting*
 **Transitivity:** transitive
 
@@ -1406,6 +1499,7 @@ To publish someone else's post again on your own page.
 **Pronunciation:** /saɪn/ &middot; *SYN*
 **Русский:** подписывать, подписать
 **Forms:** *sign* &middot; *signed* &middot; *signed*
+**Verb class:** regular
 **Third person:** *signs* &middot; **-ing form:** *signing*
 **Transitivity:** both — transitive (sign a letter), intransitive (sign at the bottom)
 **Contrast:** Silent *g*: *sign* rhymes with *fine*, but *signature* is *SIG-nuh-chur*.
@@ -1418,11 +1512,14 @@ To write your name on a document to show that it is yours or that you agree.
 
 ---
 
+**Phrasal verbs:** [sign up for](22-verb-preposition.md#sign-up-for)
+
 ### autograph
 
 **Pronunciation:** /ˈɔːtəɡræf/ &middot; *AW-tuh-graf*
 **Русский:** надписывать (книгу), давать автограф
 **Forms:** *autograph* &middot; *autographed* &middot; *autographed*
+**Verb class:** regular
 **Third person:** *autographs* &middot; **-ing form:** *autographing*
 **Transitivity:** transitive
 
@@ -1439,6 +1536,7 @@ To sign your name on something for someone who admires your work.
 **Pronunciation:** /ɪnˈskraɪb/ &middot; *in-SKRYB*
 **Русский:** надписывать (книгу), делать надпись
 **Forms:** *inscribe* &middot; *inscribed* &middot; *inscribed*
+**Verb class:** regular
 **Third person:** *inscribes* &middot; **-ing form:** *inscribing*
 **Transitivity:** transitive
 
@@ -1455,6 +1553,7 @@ To write a short personal message in a book or on an object.
 **Pronunciation:** /ɪˈnɪʃəl/ &middot; *i-NISH-uhl*
 **Русский:** ставить инициалы (на документе)
 **Forms:** *initial* &middot; *initialed* &middot; *initialed*
+**Verb class:** regular
 **Third person:** *initials* &middot; **-ing form:** *initialing*
 **Transitivity:** transitive
 **Contrast:** American *initialed*, *initialing*; British doubles the *l*: *initialled*.
@@ -1472,6 +1571,7 @@ To write your initials on a document to show you have read or approved it.
 **Pronunciation:** /deɪt/ &middot; *DAYT*
 **Русский:** датировать, ставить дату
 **Forms:** *date* &middot; *dated* &middot; *dated*
+**Verb class:** regular
 **Third person:** *dates* &middot; **-ing form:** *dating*
 **Transitivity:** transitive
 **Contrast:** The same verb also means 'go out with someone': *They dated for two years.*
@@ -1489,6 +1589,7 @@ To write the day's date on a document.
 **Pronunciation:** /stæmp/ &middot; *STAMP*
 **Русский:** ставить штамп, штемпелевать; наклеивать марку
 **Forms:** *stamp* &middot; *stamped* &middot; *stamped*
+**Verb class:** regular
 **Third person:** *stamps* &middot; **-ing form:** *stamping*
 **Transitivity:** transitive
 
@@ -1505,6 +1606,7 @@ To press an official mark onto a document, or to put a postage stamp on a letter
 **Pronunciation:** /ɪnˈkloʊz/ &middot; *in-KLOHZ*
 **Русский:** вкладывать (в конверт), прилагать
 **Forms:** *enclose* &middot; *enclosed* &middot; *enclosed*
+**Verb class:** regular
 **Third person:** *encloses* &middot; **-ing form:** *enclosing*
 **Transitivity:** transitive
 
@@ -1521,6 +1623,7 @@ To put something into an envelope together with a letter.
 **Pronunciation:** /ɪnˈdɔːrs/ &middot; *in-DORS*
 **Русский:** расписываться на обороте (чека); публично поддерживать
 **Forms:** *endorse* &middot; *endorsed* &middot; *endorsed*
+**Verb class:** regular
 **Third person:** *endorses* &middot; **-ing form:** *endorsing*
 **Transitivity:** transitive
 
@@ -1537,6 +1640,7 @@ To sign the back of a check, or to say publicly in writing that you support some
 **Pronunciation:** /ˈsɜːrtɪfaɪ/ &middot; *SUR-tuh-fy*
 **Русский:** заверять, удостоверять
 **Forms:** *certify* &middot; *certified* &middot; *certified*
+**Verb class:** regular
 **Third person:** *certifies* &middot; **-ing form:** *certifying*
 **Transitivity:** transitive
 **Contrast:** Consonant + *-y*: *certifies*, *certified*, but *certifying*.
@@ -1554,6 +1658,7 @@ To state officially, usually in writing, that something is true or correct.
 **Pronunciation:** /ˈnoʊtəraɪz/ &middot; *NOH-tuh-ryz*
 **Русский:** нотариально заверять
 **Forms:** *notarize* &middot; *notarized* &middot; *notarized*
+**Verb class:** regular
 **Third person:** *notarizes* &middot; **-ing form:** *notarizing*
 **Transitivity:** transitive
 
@@ -1570,6 +1675,7 @@ To have a document officially witnessed and stamped by a notary.
 **Pronunciation:** /tʃɛk/ &middot; *CHEK*
 **Русский:** проверять, проверить
 **Forms:** *check* &middot; *checked* &middot; *checked*
+**Verb class:** regular
 **Third person:** *checks* &middot; **-ing form:** *checking*
 **Transitivity:** both — transitive (check your spelling), intransitive (check before you send it)
 
@@ -1581,11 +1687,14 @@ To look at something carefully to make sure it is correct.
 
 ---
 
+**Phrasal verbs:** [check up on](22-verb-preposition.md#check-up-on)
+
 ### grade
 
 **Pronunciation:** /ɡreɪd/ &middot; *GRAYD*
 **Русский:** проверять и оценивать (работы), ставить оценки
 **Forms:** *grade* &middot; *graded* &middot; *graded*
+**Verb class:** regular
 **Third person:** *grades* &middot; **-ing form:** *grading*
 **Transitivity:** both — transitive (grade the essays), intransitive (she grades on weekends)
 **Contrast:** Americans *grade* papers; the British *mark* them.
@@ -1603,6 +1712,7 @@ To read students' work and give it a score or a letter.
 **Pronunciation:** /skɔːr/ &middot; *SKOR*
 **Русский:** оценивать в баллах, набирать баллы
 **Forms:** *score* &middot; *scored* &middot; *scored*
+**Verb class:** regular
 **Third person:** *scores* &middot; **-ing form:** *scoring*
 **Transitivity:** both — transitive (score the tests), intransitive (she scored well)
 
@@ -1619,6 +1729,7 @@ To give a test or a piece of work a number of points, or to earn those points.
 **Pronunciation:** /kwɪz/ &middot; *KWIZ*
 **Русский:** устраивать опрос, расспрашивать
 **Forms:** *quiz* &middot; *quizzed* &middot; *quizzed*
+**Verb class:** regular
 **Third person:** *quizzes* &middot; **-ing form:** *quizzing*
 **Transitivity:** transitive
 **Contrast:** Doubles the *z*: *quizzes*, *quizzed*, *quizzing*.
@@ -1636,6 +1747,7 @@ To ask someone a set of short questions to test what they know.
 **Pronunciation:** /ˈpræktɪs/ &middot; *PRAK-tis*
 **Русский:** практиковаться, отрабатывать, тренироваться
 **Forms:** *practice* &middot; *practiced* &middot; *practiced*
+**Verb class:** regular
 **Third person:** *practices* &middot; **-ing form:** *practicing*
 **Transitivity:** both — transitive (practice your handwriting), intransitive (practice every day)
 **Contrast:** American spelling is *practice* for both noun and verb; British spells the verb *practise*.
@@ -1653,6 +1765,7 @@ To do something again and again in order to get better at it.
 **Pronunciation:** /ˈproʊfaɪl/ &middot; *PROH-fyl*
 **Русский:** писать очерк о ком-либо, делать портрет (в прессе)
 **Forms:** *profile* &middot; *profiled* &middot; *profiled*
+**Verb class:** regular
 **Third person:** *profiles* &middot; **-ing form:** *profiling*
 **Transitivity:** transitive
 
@@ -1669,6 +1782,7 @@ To write a long article describing a person's life and work.
 **Pronunciation:** /əˈbrɪdʒ/ &middot; *uh-BRIJ*
 **Русский:** сокращать (книгу), издавать в сокращении
 **Forms:** *abridge* &middot; *abridged* &middot; *abridged*
+**Verb class:** regular
 **Third person:** *abridges* &middot; **-ing form:** *abridging*
 **Transitivity:** transitive
 
@@ -1685,6 +1799,7 @@ To make a book or a speech shorter by cutting parts of it out.
 **Pronunciation:** /ˌʌndərˈskɔːr/ &middot; *un-dur-SKOR*
 **Русский:** подчёркивать (важность), акцентировать
 **Forms:** *underscore* &middot; *underscored* &middot; *underscored*
+**Verb class:** regular
 **Third person:** *underscores* &middot; **-ing form:** *underscoring*
 **Transitivity:** transitive
 

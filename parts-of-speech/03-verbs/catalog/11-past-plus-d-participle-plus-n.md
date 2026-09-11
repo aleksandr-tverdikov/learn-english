@@ -15,6 +15,7 @@ These verbs leave the base form untouched and simply hang a different ending on 
 **Pronunciation:** /dɪsˈpruv/ &middot; *dis-PROOV*
 **Русский:** опровергать; доказывать ложность (чего-л.)
 **Forms:** *disprove* /dɪsˈpruv/ &middot; *disproved* /dɪsˈpruvd/ &middot; *disproven* /dɪsˈpruvən/ &middot; American prose more often uses *disproved*
+**Verb class:** irregular
 **Register:** everyday — ordinary in argument, news, and science writing; nothing marked about it
 **Pattern:** base — base + -d — base + -n &middot; **Group:** 11
 **Third person:** *disproves* &middot; **-ing form:** *disproving* (drop the e)
@@ -45,6 +46,7 @@ To show by evidence or argument that a claim, theory, or story is false.
 **Pronunciation:** /ɪnˈɡreɪv/ &middot; *in-GRAYV*
 **Русский:** гравировать
 **Forms:** *engrave* /ɪnˈɡreɪv/ &middot; *engraved* /ɪnˈɡreɪvd/ &middot; *engraven* /ɪnˈɡreɪvən/ &middot; the American participle is *engraved*
+**Verb class:** irregular
 **Register:** everyday — the ordinary American word for what a jeweler or a trophy shop does
 **Pattern:** base — base + -d — base + -n &middot; **Group:** 11
 **Third person:** *engraves* &middot; **-ing form:** *engraving* (drop the e)
@@ -82,6 +84,7 @@ To cut letters or a design into a hard surface — and, figuratively, to fix som
 **Pronunciation:** /nɔ/ &middot; *NAW*
 **Русский:** грызть, глодать
 **Forms:** *gnaw* /nɔ/ &middot; *gnawed* /nɔd/ &middot; *gnawn* /nɔn/ &middot; the American participle is *gnawed*
+**Verb class:** irregular
 **Register:** everyday — common of animals literally and of worry figuratively
 **Pattern:** base — base + -ed — base + -n &middot; **Group:** 11
 **Third person:** *gnaws* &middot; **-ing form:** *gnawing* (no spelling change)
@@ -118,6 +121,7 @@ To bite at something over and over with small, wearing bites — literally, or i
 **Pronunciation:** /ɡreɪv/ &middot; *GRAYV*
 **Русский:** гравировать
 **Forms:** *grave* /ɡreɪv/ &middot; *graved* /ɡreɪvd/ &middot; *graven* /ˈɡreɪvən/
+**Verb class:** irregular
 **Register:** archaic — the verb itself died out; only *graven image* keeps the participle alive
 **Pattern:** base — base + -d — base + -n &middot; **Group:** 11
 **Third person:** *graves* &middot; **-ing form:** *graving* (drop the e)
@@ -148,6 +152,7 @@ An old verb meaning to carve or cut into a hard surface, now alive almost only i
 **Pronunciation:** /hju/ &middot; *HYOO*
 **Русский:** рубить; тесать
 **Forms:** *hew* /hju/ &middot; *hewed* /hjud/ &middot; *hewn* /hjun/ &middot; American also *hewed* /hjud/
+**Verb class:** irregular
 **Register:** rare — a specialized woodworking verb, alive mainly in *hew to* and *rough-hewn*
 **Pattern:** base — base + -ed — base + -n &middot; **Group:** 11
 **Third person:** *hews* &middot; **-ing form:** *hewing* (no spelling change)
@@ -190,6 +195,7 @@ To cut or chop something hard with heavy blows — and, in the commonest America
 **Pronunciation:** /mɛlt/ &middot; *MELT*
 **Русский:** плавить
 **Forms:** *melt* /mɛlt/ &middot; *melted* /ˈmɛltɪd/ &middot; *molten* /ˈmoʊltən/ &middot; the working American participle is *melted* /ˈmɛltɪd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base — base + -ed — o-vowel + -en &middot; **Group:** 11
 **Third person:** *melts* &middot; **-ing form:** *melting* (no spelling change)
@@ -245,6 +251,7 @@ To go from solid to liquid under heat, or to make something do that; by extensio
 **Pronunciation:** /moʊ/ &middot; *MOH*
 **Русский:** косить, жать (жатва)
 **Forms:** *mow* /moʊ/ &middot; *mowed* /moʊd/ &middot; *mown* /moʊn/ &middot; American usually *mowed* /moʊd/
+**Verb class:** irregular
 **Register:** everyday — every American with a lawn says it weekly
 **Pattern:** base — base + -ed — base + -n &middot; **Group:** 11
 **Third person:** *mows* &middot; **-ing form:** *mowing* (no spelling change)
@@ -281,6 +288,7 @@ To cut down grass or standing grain — and, in *mow down*, to cut down people o
 **Pronunciation:** /pruv/ &middot; *PROOV*
 **Русский:** доказывать; оказаться
 **Forms:** *prove* /pruv/ &middot; *proved* /pruvd/ &middot; *proven* /ˈpruvən/ &middot; the ordinary American participle is *proved* /pruvd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base — base + -d — base + -n &middot; **Group:** 11
 **Third person:** *proves* &middot; **-ing form:** *proving* (drop the e)
@@ -335,6 +343,7 @@ To establish that something is true, or to turn out to be a certain way.
 **Pronunciation:** /rɪˈpruv/ &middot; *rih-PROOV*
 **Русский:** упрекать, винить, бранить
 **Forms:** *reprove* /rɪˈpruv/ &middot; *reproved* /rɪˈpruvd/ &middot; *reproven* /rɪˈpruvən/ &middot; in American use the participle is *reproved* /rɪˈpruvd/
+**Verb class:** irregular
 **Register:** rare — formal and old-fashioned; in speech Americans say *scolded* or *called out*
 **Pattern:** base — base + -d — base + -n &middot; **Group:** 11
 **Third person:** *reproves* &middot; **-ing form:** *reproving* (drop the e)
@@ -366,6 +375,7 @@ To tell someone, formally and usually gently, that they have done something wron
 **Pronunciation:** /raɪv/ &middot; *RYVE*
 **Русский:** разрывать; раскалывать; расщеплять; разрубать
 **Forms:** *rive* /raɪv/ &middot; *rived* /raɪvd/ &middot; *riven* /ˈrɪvən/
+**Verb class:** irregular
 **Register:** archaic — the base verb is out of use; only *riven* survives, as an adjective
 **Pattern:** base — base + -d — short-i + -en &middot; **Group:** 11
 **Third person:** *rives* &middot; **-ing form:** *riving* (drop the e)
@@ -396,6 +406,7 @@ To split or tear something apart with violence — a verb you now meet almost on
 **Pronunciation:** /rɑt/ &middot; *RAHT*
 **Русский:** гнить; гноить
 **Forms:** *rot* /rɑt/ &middot; *rotted* /ˈrɑtɪd/ &middot; *rotten* /ˈrɑtən/ &middot; the working American participle is *rotted* /ˈrɑtɪd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base — doubled t + -ed — doubled t + -en &middot; **Group:** 11
 **Third person:** *rots* &middot; **-ing form:** *rotting* (the t doubles)
@@ -438,6 +449,7 @@ To decay, or to make something decay; also, of people and things, to be left neg
 **Pronunciation:** /sɔ/ &middot; *SAW*
 **Русский:** пилить
 **Forms:** *saw* /sɔ/ &middot; *sawed* /sɔd/ &middot; *sawn* /sɔn/ &middot; the American participle is *sawed* /sɔd/
+**Verb class:** irregular
 **Register:** everyday — ordinary in the shop, in the yard, and figuratively
 **Pattern:** base — base + -ed — base + -n &middot; **Group:** 11
 **Third person:** *saws* &middot; **-ing form:** *sawing* (no spelling change)
@@ -480,6 +492,7 @@ To cut something with a saw, or to move back and forth the way a saw does. Note 
 **Pronunciation:** /soʊ/ &middot; *SOH*
 **Русский:** шить, сшивать, зашивать, пришивать
 **Forms:** *sew* /soʊ/ &middot; *sewed* /soʊd/ &middot; *sewn* /soʊn/ &middot; American also *sewed* /soʊd/
+**Verb class:** irregular
 **Register:** everyday — an ordinary household verb
 **Pattern:** base — base + -ed — base + -n &middot; **Group:** 11
 **Third person:** *sews* &middot; **-ing form:** *sewing* (no spelling change)
@@ -526,6 +539,7 @@ To join, make, or mend things with a needle and thread.
 **Pronunciation:** /ʃeɪp/ &middot; *SHAYP*
 **Русский:** придавать форму
 **Forms:** *shape* /ʃeɪp/ &middot; *shaped* /ʃeɪpt/ &middot; *shapen* /ˈʃeɪpən/ &middot; the American participle is *shaped* /ʃeɪpt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base — base + -d — base + -n &middot; **Group:** 11
 **Third person:** *shapes* &middot; **-ing form:** *shaping* (drop the e)
@@ -567,6 +581,7 @@ To give something a form with your hands or by force, or to influence how someth
 **Pronunciation:** /ʃeɪv/ &middot; *SHAYV*
 **Русский:** брить
 **Forms:** *shave* /ʃeɪv/ &middot; *shaved* /ʃeɪvd/ &middot; *shaven* /ˈʃeɪvən/ &middot; the American participle is *shaved* /ʃeɪvd/
+**Verb class:** irregular
 **Register:** everyday — a daily verb for most of the country
 **Pattern:** base — base + -d — base + -n &middot; **Group:** 11
 **Third person:** *shaves* &middot; **-ing form:** *shaving* (drop the e)
@@ -613,6 +628,7 @@ To cut hair off the skin with a razor, or to take a thin layer or a small amount
 **Pronunciation:** /ʃoʊ/ &middot; *SHOH*
 **Русский:** показывать
 **Forms:** *shew* /ʃoʊ/ &middot; *shewed* /ʃoʊd/ &middot; *shewn* /ʃoʊn/ &middot; the modern spelling is *show — showed — shown*
+**Verb class:** irregular
 **Register:** archaic — an old spelling of *show*, met in the King James Bible and older books
 **Pattern:** base — base + -ed — base + -n &middot; **Group:** 11
 **Third person:** *shews* &middot; **-ing form:** *shewing* (no spelling change)
@@ -643,6 +659,7 @@ An old spelling of *show*, pronounced the same way — /ʃoʊ/ — and meaning t
 **Pronunciation:** /ʃoʊ/ &middot; *SHOH*
 **Русский:** показывать
 **Forms:** *show* /ʃoʊ/ &middot; *showed* /ʃoʊd/ &middot; *shown* /ʃoʊn/
+**Verb class:** irregular
 **Register:** everyday — one of the most common verbs in the language
 **Pattern:** base — base + -ed — base + -n &middot; **Group:** 11
 **Third person:** *shows* &middot; **-ing form:** *showing* (no spelling change)
@@ -723,6 +740,7 @@ To let someone see something — and from there to demonstrate, guide, teach, re
 **Pronunciation:** /soʊ/ &middot; *SOH*
 **Русский:** (по)сеять
 **Forms:** *sow* /soʊ/ &middot; *sowed* /soʊd/ &middot; *sown* /soʊn/ &middot; American also *sowed* /soʊd/
+**Verb class:** irregular
 **Register:** everyday — ordinary in farming and in the figurative *sow doubt*, *as you sow, so shall you reap*
 **Pattern:** base — base + -ed — base + -n &middot; **Group:** 11
 **Third person:** *sows* &middot; **-ing form:** *sowing* (no spelling change)
@@ -764,6 +782,7 @@ To scatter seed on ground so it will grow — and, figuratively, to plant an ide
 **Pronunciation:** /stru/ &middot; *STROO*
 **Русский:** усеять; устлать; разбрасывать; разбрызгивать
 **Forms:** *strew* /stru/ &middot; *strewed* /strud/ &middot; *strewn* /strun/
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing, especially *strewn*, less common in speech
 **Pattern:** base — base + -ed — base + -n &middot; **Group:** 11
 **Third person:** *strews* &middot; **-ing form:** *strewing* (no spelling change)
@@ -800,6 +819,7 @@ To scatter things loosely over a surface so that they lie spread around.
 **Pronunciation:** /swɛl/ &middot; *SWEL*
 **Русский:** надувать, раздувать; набухать; опухать
 **Forms:** *swell* /swɛl/ &middot; *swelled* /swɛld/ &middot; *swollen* /ˈswoʊlən/ &middot; American also *swelled* /swɛld/
+**Verb class:** irregular
 **Register:** everyday — ordinary of injuries, crowds, and rivers
 **Pattern:** base — base + -ed — o-vowel + -en &middot; **Group:** 11
 **Third person:** *swells* &middot; **-ing form:** *swelling* (no spelling change)
@@ -855,6 +875,7 @@ To get bigger — by puffing up, expanding, rising in number, or growing louder.
 **Pronunciation:** /wæks/ &middot; *WAKS*
 **Русский:** прибывать (о Луне); развиваться; становиться
 **Forms:** *wax* /wæks/ &middot; *waxed* /wækst/ &middot; *waxen* /ˈwæksən/ &middot; the American participle is *waxed* /wækst/
+**Verb class:** irregular
 **Register:** everyday — waxing the car, waxing a floor, a waxing moon; only *waxen* is literary
 **Pattern:** base — base + -ed — base + -en &middot; **Group:** 11
 **Third person:** *waxes* (-es after x) &middot; **-ing form:** *waxing* (no spelling change)
@@ -903,6 +924,7 @@ To grow larger or stronger — said of the moon, and of moods, fashions, and rep
 **Pronunciation:** /ˈwɪpsɔ/ &middot; *WIP-saw*
 **Русский:** пилить лучковой пилой
 **Forms:** *whipsaw* /ˈwɪpsɔ/ &middot; *whipsawed* /ˈwɪpsɔd/ &middot; *whipsawn* /ˈwɪpsɔn/ &middot; the American participle is *whipsawed* /ˈwɪpsɔd/
+**Verb class:** irregular
 **Register:** rare — a business-page verb built on *saw*; the literal woodworking sense is dead
 **Pattern:** base — base + -ed — base + -n &middot; **Group:** 11
 **Third person:** *whipsaws* &middot; **-ing form:** *whipsawing* (no spelling change)
@@ -937,6 +959,7 @@ To hurt someone from two directions at once — and, literally, to cut with a lo
 **Pronunciation:** /raɪð/ &middot; *RYTHE*
 **Русский:** корчиться, скручиваться
 **Forms:** *writhe* /raɪð/ &middot; *writhed* /raɪðd/ &middot; *writhen* /ˈraɪðən/ &middot; the American participle is *writhed* /raɪðd/
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing and description, less common in casual speech
 **Pattern:** base — base + -d — base + -n &middot; **Group:** 11
 **Third person:** *writhes* &middot; **-ing form:** *writhing* (drop the e)

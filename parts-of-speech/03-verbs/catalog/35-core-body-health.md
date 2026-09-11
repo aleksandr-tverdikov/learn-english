@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /briːð/ &middot; *BREETH*
 **Русский:** дышать, вдохнуть
 **Forms:** *breathe* &middot; *breathed* &middot; *breathed*
+**Verb class:** regular
 **Third person:** *breathes* &middot; **-ing form:** *breathing*
 **Transitivity:** both — transitive (breathe clean air), intransitive (she breathed slowly)
 **Contrast:** The noun is *breath* /brɛθ/, short vowel and voiceless *th*; the verb *breathe* /briːð/ has a long vowel and a voiced *th*. You take a *breath*, then you *breathe*.
@@ -31,6 +32,7 @@ To take air into your lungs and let it out again.
 **Pronunciation:** /ɛksˈheɪl/ &middot; *eks-HAYL*
 **Русский:** выдыхать, выдохнуть
 **Forms:** *exhale* &middot; *exhaled* &middot; *exhaled*
+**Verb class:** regular
 **Third person:** *exhales* &middot; **-ing form:** *exhaling*
 **Transitivity:** both — transitive (exhale the smoke), intransitive (exhale slowly)
 
@@ -47,6 +49,7 @@ To let air out of your lungs.
 **Pronunciation:** /kɔːf/ &middot; *KAWF*
 **Русский:** кашлять, кашлянуть
 **Forms:** *cough* &middot; *coughed* &middot; *coughed*
+**Verb class:** regular
 **Third person:** *coughs* &middot; **-ing form:** *coughing*
 **Transitivity:** intransitive
 **Contrast:** The *gh* is said as /f/: *cough* rhymes with *off*, not with *though*.
@@ -64,6 +67,7 @@ To push air out of your throat with a sudden loud noise, usually because you are
 **Pronunciation:** /sniːz/ &middot; *SNEEZ*
 **Русский:** чихать, чихнуть
 **Forms:** *sneeze* &middot; *sneezed* &middot; *sneezed*
+**Verb class:** regular
 **Third person:** *sneezes* &middot; **-ing form:** *sneezing*
 **Transitivity:** intransitive
 
@@ -80,6 +84,7 @@ To suddenly blow air out through your nose and mouth in a way you cannot control
 **Pronunciation:** /jɔːn/ &middot; *YAWN*
 **Русский:** зевать, зевнуть
 **Forms:** *yawn* &middot; *yawned* &middot; *yawned*
+**Verb class:** regular
 **Third person:** *yawns* &middot; **-ing form:** *yawning*
 **Transitivity:** intransitive
 
@@ -96,6 +101,7 @@ To open your mouth wide and breathe in deeply because you are tired or bored.
 **Pronunciation:** /ɡæsp/ &middot; *GASP*
 **Русский:** задыхаться, ахнуть
 **Forms:** *gasp* &middot; *gasped* &middot; *gasped*
+**Verb class:** regular
 **Third person:** *gasps* &middot; **-ing form:** *gasping*
 **Transitivity:** intransitive
 
@@ -112,6 +118,7 @@ To breathe in suddenly and loudly, from shock or from a lack of air.
 **Pronunciation:** /pænt/ &middot; *PANT*
 **Русский:** тяжело дышать, запыхаться
 **Forms:** *pant* &middot; *panted* &middot; *panted*
+**Verb class:** regular
 **Third person:** *pants* &middot; **-ing form:** *panting*
 **Transitivity:** intransitive
 
@@ -128,6 +135,7 @@ To breathe in quick short breaths after hard exercise or in heat.
 **Pronunciation:** /wiːz/ &middot; *WEEZ*
 **Русский:** хрипеть, дышать со свистом
 **Forms:** *wheeze* &middot; *wheezed* &middot; *wheezed*
+**Verb class:** regular
 **Third person:** *wheezes* &middot; **-ing form:** *wheezing*
 **Transitivity:** intransitive
 
@@ -144,6 +152,7 @@ To breathe with a rough whistling sound, usually because of asthma or a chest in
 **Pronunciation:** /snɔːr/ &middot; *SNOR*
 **Русский:** храпеть
 **Forms:** *snore* &middot; *snored* &middot; *snored*
+**Verb class:** regular
 **Third person:** *snores* &middot; **-ing form:** *snoring*
 **Transitivity:** intransitive
 
@@ -160,6 +169,7 @@ To breathe with a loud rough noise while you are asleep.
 **Pronunciation:** /ˈsʌfəkeɪt/ &middot; *SUF-uh-kayt*
 **Русский:** задыхаться, задушить
 **Forms:** *suffocate* &middot; *suffocated* &middot; *suffocated*
+**Verb class:** regular
 **Third person:** *suffocates* &middot; **-ing form:** *suffocating*
 **Transitivity:** both — transitive (the smoke suffocated them), intransitive (he nearly suffocated)
 
@@ -176,6 +186,7 @@ To die or almost die because you cannot get any air.
 **Pronunciation:** /næp/ &middot; *NAP*
 **Русский:** дремать, вздремнуть
 **Forms:** *nap* &middot; *napped* &middot; *napped*
+**Verb class:** regular
 **Third person:** *naps* &middot; **-ing form:** *napping*
 **Transitivity:** intransitive
 **Contrast:** One syllable, one vowel, one final consonant — so the *p* doubles: *napped*, *napping*.
@@ -193,6 +204,7 @@ To sleep for a short time during the day.
 **Pronunciation:** /doʊz/ &middot; *DOHZ*
 **Русский:** дремать, задремать
 **Forms:** *doze* &middot; *dozed* &middot; *dozed*
+**Verb class:** regular
 **Third person:** *dozes* &middot; **-ing form:** *dozing*
 **Transitivity:** intransitive
 
@@ -209,6 +221,7 @@ To sleep lightly, often without meaning to.
 **Pronunciation:** /snuːz/ &middot; *SNOOZ*
 **Русский:** дремать, вздремнуть
 **Forms:** *snooze* &middot; *snoozed* &middot; *snoozed*
+**Verb class:** regular
 **Third person:** *snoozes* &middot; **-ing form:** *snoozing*
 **Transitivity:** both — transitive (snooze the alarm), intransitive (snooze for an hour)
 
@@ -225,6 +238,7 @@ To sleep lightly for a short while, or to push the alarm back for a few more min
 **Pronunciation:** /ˈtaɪər/ &middot; *TY-ur*
 **Русский:** уставать, устать; утомлять
 **Forms:** *tire* &middot; *tired* &middot; *tired*
+**Verb class:** regular
 **Third person:** *tires* &middot; **-ing form:** *tiring*
 **Transitivity:** both — transitive (the climb tired us), intransitive (he tires easily)
 
@@ -241,6 +255,7 @@ To become tired, or to make someone tired.
 **Pronunciation:** /rɪˈkuːpəreɪt/ &middot; *ri-KOO-puh-rayt*
 **Русский:** поправляться, выздоравливать
 **Forms:** *recuperate* &middot; *recuperated* &middot; *recuperated*
+**Verb class:** regular
 **Third person:** *recuperates* &middot; **-ing form:** *recuperating*
 **Transitivity:** intransitive
 
@@ -257,6 +272,7 @@ To get your strength and health back after an illness or a hard effort.
 **Pronunciation:** /ˈɛksərsaɪz/ &middot; *EK-sur-syz*
 **Русский:** заниматься спортом, тренироваться
 **Forms:** *exercise* &middot; *exercised* &middot; *exercised*
+**Verb class:** regular
 **Third person:** *exercises* &middot; **-ing form:** *exercising*
 **Transitivity:** both — transitive (exercise the dog), intransitive (exercise every morning)
 
@@ -273,6 +289,7 @@ To move your body in order to stay fit and healthy.
 **Pronunciation:** /flɛks/ &middot; *FLEKS*
 **Русский:** сгибать, напрягать (мышцу)
 **Forms:** *flex* &middot; *flexed* &middot; *flexed*
+**Verb class:** regular
 **Third person:** *flexes* &middot; **-ing form:** *flexing*
 **Transitivity:** transitive
 
@@ -289,6 +306,7 @@ To bend a joint or tighten a muscle.
 **Pronunciation:** /skwɑːt/ &middot; *SKWAHT*
 **Русский:** приседать, присесть
 **Forms:** *squat* &middot; *squatted* &middot; *squatted*
+**Verb class:** regular
 **Third person:** *squats* &middot; **-ing form:** *squatting*
 **Transitivity:** intransitive
 **Contrast:** The *t* doubles: *squatted*, *squatting*.
@@ -306,6 +324,7 @@ To lower your body by bending your knees while keeping your back straight.
 **Pronunciation:** /ˈstæɡər/ &middot; *STAG-ur*
 **Русский:** шататься, пошатнуться
 **Forms:** *stagger* &middot; *staggered* &middot; *staggered*
+**Verb class:** regular
 **Third person:** *staggers* &middot; **-ing form:** *staggering*
 **Transitivity:** intransitive
 **Contrast:** Stress falls on the first syllable, so the *r* does not double: *staggered*, *staggering*.
@@ -323,6 +342,7 @@ To walk unsteadily, as though you are about to fall.
 **Pronunciation:** /nɑːd/ &middot; *NAHD*
 **Русский:** кивать, кивнуть
 **Forms:** *nod* &middot; *nodded* &middot; *nodded*
+**Verb class:** regular
 **Third person:** *nods* &middot; **-ing form:** *nodding*
 **Transitivity:** both — transitive (nod your head), intransitive (he nodded politely)
 **Contrast:** The *d* doubles: *nodded*, *nodding*.
@@ -340,6 +360,7 @@ To move your head down and up to say yes or to greet someone.
 **Pronunciation:** /ʃrʌɡ/ &middot; *SHRUG*
 **Русский:** пожимать плечами
 **Forms:** *shrug* &middot; *shrugged* &middot; *shrugged*
+**Verb class:** regular
 **Third person:** *shrugs* &middot; **-ing form:** *shrugging*
 **Transitivity:** both — transitive (shrug your shoulders), intransitive (he just shrugged)
 **Contrast:** The *g* doubles: *shrugged*, *shrugging*.
@@ -357,6 +378,7 @@ To raise your shoulders to show that you do not know or do not care.
 **Pronunciation:** /wɪns/ &middot; *WINS*
 **Русский:** морщиться от боли, вздрагивать
 **Forms:** *wince* &middot; *winced* &middot; *winced*
+**Verb class:** regular
 **Third person:** *winces* &middot; **-ing form:** *wincing*
 **Transitivity:** intransitive
 
@@ -373,6 +395,7 @@ To make a sudden face because of pain.
 **Pronunciation:** /flɪntʃ/ &middot; *FLINCH*
 **Русский:** вздрагивать, отшатнуться
 **Forms:** *flinch* &middot; *flinched* &middot; *flinched*
+**Verb class:** regular
 **Third person:** *flinches* &middot; **-ing form:** *flinching*
 **Transitivity:** intransitive
 
@@ -389,6 +412,7 @@ To move back suddenly because you are afraid of being hurt.
 **Pronunciation:** /moʊn/ &middot; *MOHN*
 **Русский:** стонать, охать
 **Forms:** *moan* &middot; *moaned* &middot; *moaned*
+**Verb class:** regular
 **Third person:** *moans* &middot; **-ing form:** *moaning*
 **Transitivity:** intransitive
 
@@ -405,6 +429,7 @@ To make a long low sound of pain or complaint.
 **Pronunciation:** /θrɑːb/ &middot; *THRAHB*
 **Русский:** пульсировать болью, дергать
 **Forms:** *throb* &middot; *throbbed* &middot; *throbbed*
+**Verb class:** regular
 **Third person:** *throbs* &middot; **-ing form:** *throbbing*
 **Transitivity:** intransitive
 **Contrast:** The *b* doubles: *throbbed*, *throbbing*.
@@ -422,6 +447,7 @@ To hurt in a steady beating rhythm.
 **Pronunciation:** /feɪnt/ &middot; *FAYNT*
 **Русский:** падать в обморок, терять сознание
 **Forms:** *faint* &middot; *fainted* &middot; *fainted*
+**Verb class:** regular
 **Third person:** *faints* &middot; **-ing form:** *fainting*
 **Transitivity:** intransitive
 
@@ -438,6 +464,7 @@ To lose consciousness for a short time.
 **Pronunciation:** /rɪˈlæps/ &middot; *ri-LAPS*
 **Русский:** снова заболеть, дать рецидив
 **Forms:** *relapse* &middot; *relapsed* &middot; *relapsed*
+**Verb class:** regular
 **Third person:** *relapses* &middot; **-ing form:** *relapsing*
 **Transitivity:** intransitive
 **Contrast:** The verb stresses the second syllable, ri-LAPS; the noun *a relapse* is often REE-laps.
@@ -455,6 +482,7 @@ To become ill again after you seemed to be getting better.
 **Pronunciation:** /sərˈvaɪv/ &middot; *sur-VYV*
 **Русский:** выживать, выжить
 **Forms:** *survive* &middot; *survived* &middot; *survived*
+**Verb class:** regular
 **Third person:** *survives* &middot; **-ing form:** *surviving*
 **Transitivity:** both — transitive (survive the surgery), intransitive (only two survived)
 
@@ -471,6 +499,7 @@ To stay alive through an illness, an accident, or a dangerous situation.
 **Pronunciation:** /pərˈspaɪər/ &middot; *pur-SPYR*
 **Русский:** потеть, вспотеть
 **Forms:** *perspire* &middot; *perspired* &middot; *perspired*
+**Verb class:** regular
 **Third person:** *perspires* &middot; **-ing form:** *perspiring*
 **Transitivity:** intransitive
 
@@ -487,6 +516,7 @@ To produce sweat, especially when you are hot or nervous.
 **Pronunciation:** /kənˈtrækt/ &middot; *kuhn-TRAKT*
 **Русский:** заразиться, подхватить (болезнь)
 **Forms:** *contract* &middot; *contracted* &middot; *contracted*
+**Verb class:** regular
 **Third person:** *contracts* &middot; **-ing form:** *contracting*
 **Transitivity:** transitive
 **Contrast:** As a verb the stress is on the second syllable, kuhn-TRAKT. The noun *a contract* (a legal agreement) is KAHN-trakt.
@@ -504,6 +534,7 @@ To catch a serious illness.
 **Pronunciation:** /ˈkwɔːrəntiːn/ &middot; *KWOR-uhn-teen*
 **Русский:** помещать на карантин, изолировать
 **Forms:** *quarantine* &middot; *quarantined* &middot; *quarantined*
+**Verb class:** regular
 **Third person:** *quarantines* &middot; **-ing form:** *quarantining*
 **Transitivity:** transitive
 
@@ -520,6 +551,7 @@ To keep a person or animal away from others so a disease cannot spread.
 **Pronunciation:** /tæn/ &middot; *TAN*
 **Русский:** загорать, загореть
 **Forms:** *tan* &middot; *tanned* &middot; *tanned*
+**Verb class:** regular
 **Third person:** *tans* &middot; **-ing form:** *tanning*
 **Transitivity:** both — transitive (the sun tanned his arms), intransitive (she tans easily)
 **Contrast:** The *n* doubles: *tanned*, *tanning*.
@@ -537,6 +569,7 @@ To make your skin darker by staying in the sun.
 **Pronunciation:** /ˈdɪsloʊkeɪt/ &middot; *DIS-loh-kayt*
 **Русский:** вывихнуть, вывихивать
 **Forms:** *dislocate* &middot; *dislocated* &middot; *dislocated*
+**Verb class:** regular
 **Third person:** *dislocates* &middot; **-ing form:** *dislocating*
 **Transitivity:** transitive
 
@@ -553,6 +586,7 @@ To push a bone out of its normal place at a joint.
 **Pronunciation:** /skɑːr/ &middot; *SKAHR*
 **Русский:** оставлять шрам, покрываться шрамами
 **Forms:** *scar* &middot; *scarred* &middot; *scarred*
+**Verb class:** regular
 **Third person:** *scars* &middot; **-ing form:** *scarring*
 **Transitivity:** both — transitive (the burn scarred his arm), intransitive (deep cuts scar)
 **Contrast:** The *r* doubles: *scarred*, *scarring* — one *r* would give *scared* (frightened), a different word.
@@ -570,6 +604,7 @@ To leave a permanent mark on the skin after a wound heals.
 **Pronunciation:** /ˈdaɪəɡnoʊs/ &middot; *DY-uhg-nohs*
 **Русский:** диагностировать, поставить диагноз
 **Forms:** *diagnose* &middot; *diagnosed* &middot; *diagnosed*
+**Verb class:** regular
 **Third person:** *diagnoses* &middot; **-ing form:** *diagnosing*
 **Transitivity:** transitive
 **Contrast:** You *diagnose* a person *with* a disease, or *diagnose* the disease itself — never 'diagnose a person of'.
@@ -587,6 +622,7 @@ To identify what illness someone has.
 **Pronunciation:** /prɪˈskraɪb/ &middot; *pri-SKRYB*
 **Русский:** прописывать, выписывать (лекарство)
 **Forms:** *prescribe* &middot; *prescribed* &middot; *prescribed*
+**Verb class:** regular
 **Third person:** *prescribes* &middot; **-ing form:** *prescribing*
 **Transitivity:** transitive
 
@@ -603,6 +639,7 @@ To officially tell a patient to take a certain medicine or treatment.
 **Pronunciation:** /ɪnˈdʒɛkt/ &middot; *in-JEKT*
 **Русский:** вводить инъекцию, делать укол
 **Forms:** *inject* &middot; *injected* &middot; *injected*
+**Verb class:** regular
 **Third person:** *injects* &middot; **-ing form:** *injecting*
 **Transitivity:** transitive
 
@@ -619,6 +656,7 @@ To put medicine into the body with a needle.
 **Pronunciation:** /ˈvæksəneɪt/ &middot; *VAK-suh-nayt*
 **Русский:** прививать, вакцинировать
 **Forms:** *vaccinate* &middot; *vaccinated* &middot; *vaccinated*
+**Verb class:** regular
 **Third person:** *vaccinates* &middot; **-ing form:** *vaccinating*
 **Transitivity:** transitive
 **Contrast:** Two *c*s: *vaccinate*. You vaccinate someone *against* a disease.
@@ -636,6 +674,7 @@ To give someone a vaccine to protect them from a disease.
 **Pronunciation:** /ˌdɪsɪnˈfɛkt/ &middot; *dis-in-FEKT*
 **Русский:** дезинфицировать, обеззараживать
 **Forms:** *disinfect* &middot; *disinfected* &middot; *disinfected*
+**Verb class:** regular
 **Third person:** *disinfects* &middot; **-ing form:** *disinfecting*
 **Transitivity:** transitive
 
@@ -652,6 +691,7 @@ To clean something with a substance that kills germs.
 **Pronunciation:** /ˈstɛrəlaɪz/ &middot; *STER-uh-lyz*
 **Русский:** стерилизовать, обеззараживать
 **Forms:** *sterilize* &middot; *sterilized* &middot; *sterilized*
+**Verb class:** regular
 **Third person:** *sterilizes* &middot; **-ing form:** *sterilizing*
 **Transitivity:** transitive
 **Contrast:** American English spells it *-ize*: *sterilize*, *sterilized*. British English also allows *sterilise*.
@@ -669,6 +709,7 @@ To make equipment completely free of germs, usually with heat or chemicals.
 **Pronunciation:** /nɜːrs/ &middot; *NURS*
 **Русский:** ухаживать за больным, выхаживать
 **Forms:** *nurse* &middot; *nursed* &middot; *nursed*
+**Verb class:** regular
 **Third person:** *nurses* &middot; **-ing form:** *nursing*
 **Transitivity:** transitive
 
@@ -685,6 +726,7 @@ To take care of someone who is sick or injured.
 **Pronunciation:** /ˈhɑːspɪtəlaɪz/ &middot; *HAH-spi-tuh-lyz*
 **Русский:** госпитализировать, класть в больницу
 **Forms:** *hospitalize* &middot; *hospitalized* &middot; *hospitalized*
+**Verb class:** regular
 **Third person:** *hospitalizes* &middot; **-ing form:** *hospitalizing*
 **Transitivity:** transitive
 
@@ -701,6 +743,7 @@ To put someone in a hospital for treatment.
 **Pronunciation:** /trænsˈplænt/ &middot; *trans-PLANT*
 **Русский:** пересаживать (орган), трансплантировать
 **Forms:** *transplant* &middot; *transplanted* &middot; *transplanted*
+**Verb class:** regular
 **Third person:** *transplants* &middot; **-ing form:** *transplanting*
 **Transitivity:** transitive
 **Contrast:** The verb stresses the second syllable, trans-PLANT; the noun *a transplant* stresses the first, TRANS-plant.
@@ -718,6 +761,7 @@ To move an organ or piece of tissue from one body into another.
 **Pronunciation:** /dɪsˈtʃɑːrdʒ/ &middot; *dis-CHAHRJ*
 **Русский:** выписывать (из больницы)
 **Forms:** *discharge* &middot; *discharged* &middot; *discharged*
+**Verb class:** regular
 **Third person:** *discharges* &middot; **-ing form:** *discharging*
 **Transitivity:** transitive
 **Contrast:** The verb stresses the second syllable, dis-CHAHRJ; the noun *a discharge* stresses the first, DIS-chahrj.
@@ -735,6 +779,7 @@ To officially let a patient leave the hospital.
 **Pronunciation:** /iːz/ &middot; *EEZ*
 **Русский:** облегчать, ослаблять (боль)
 **Forms:** *ease* &middot; *eased* &middot; *eased*
+**Verb class:** regular
 **Third person:** *eases* &middot; **-ing form:** *easing*
 **Transitivity:** both — transitive (ease the swelling), intransitive (the pain eased)
 
@@ -751,6 +796,7 @@ To make pain or a problem less severe, or to become less severe.
 **Pronunciation:** /skriːn/ &middot; *SKREEN*
 **Русский:** обследовать, проводить скрининг
 **Forms:** *screen* &middot; *screened* &middot; *screened*
+**Verb class:** regular
 **Third person:** *screens* &middot; **-ing form:** *screening*
 **Transitivity:** transitive
 
@@ -767,6 +813,7 @@ To test a large group of healthy people in order to find a disease early.
 **Pronunciation:** /tɛst/ &middot; *TEST*
 **Русский:** проверять, делать анализ
 **Forms:** *test* &middot; *tested* &middot; *tested*
+**Verb class:** regular
 **Third person:** *tests* &middot; **-ing form:** *testing*
 **Transitivity:** both — transitive (test her blood), intransitive (he tested positive)
 **Contrast:** You *test* someone *for* something, and a person *tests positive* or *tests negative*.
@@ -784,6 +831,7 @@ To check someone's blood, body, or ability with a medical procedure.
 **Pronunciation:** /məˈsɑːʒ/ &middot; *muh-SAHZH*
 **Русский:** массировать, делать массаж
 **Forms:** *massage* &middot; *massaged* &middot; *massaged*
+**Verb class:** regular
 **Third person:** *massages* &middot; **-ing form:** *massaging*
 **Transitivity:** transitive
 **Contrast:** Do not confuse *massage* /məˈsɑːʒ/ with *message* /ˈmɛsɪdʒ/, something you send.
@@ -801,6 +849,7 @@ To rub and press someone's muscles to relieve pain or tension.
 **Pronunciation:** /ˈɡɑːrɡəl/ &middot; *GAHR-guhl*
 **Русский:** полоскать горло
 **Forms:** *gargle* &middot; *gargled* &middot; *gargled*
+**Verb class:** regular
 **Third person:** *gargles* &middot; **-ing form:** *gargling*
 **Transitivity:** intransitive
 

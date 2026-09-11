@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /drɛs/ &middot; *DRES*
 **Русский:** одеваться, одеться; одевать, одеть
 **Forms:** *dress* &middot; *dressed* &middot; *dressed*
+**Verb class:** regular
 **Third person:** *dresses* &middot; **-ing form:** *dressing*
 **Transitivity:** both — transitive (*dress* the baby), intransitive (he *dresses* well)
 **Contrast:** About yourself Americans say *get dressed*, not *dress myself*: I got dressed in five minutes.
@@ -26,11 +27,14 @@ To put clothes on yourself or on another person.
 
 ---
 
+**Phrasal verbs:** [dress in](22-verb-preposition.md#dress-in)
+
 ### undress
 
 **Pronunciation:** /ʌnˈdrɛs/ &middot; *un-DRES*
 **Русский:** раздеваться, раздеться; раздевать, раздеть
 **Forms:** *undress* &middot; *undressed* &middot; *undressed*
+**Verb class:** regular
 **Third person:** *undresses* &middot; **-ing form:** *undressing*
 **Transitivity:** both
 
@@ -47,6 +51,7 @@ To take clothes off yourself or off another person.
 **Pronunciation:** /tʃeɪndʒ/ &middot; *CHAYNJ*
 **Русский:** переодеваться, переодеться; менять, поменять
 **Forms:** *change* &middot; *changed* &middot; *changed*
+**Verb class:** regular
 **Third person:** *changes* &middot; **-ing form:** *changing*
 **Transitivity:** both
 **Contrast:** The final *e* drops before *-ing*: *changing*. You change **into** clothes, not *change on*.
@@ -64,6 +69,7 @@ To put on different clothes, or to put different clothes on someone.
 **Pronunciation:** /dɑːn/ &middot; *DAHN*
 **Русский:** надевать, надеть
 **Forms:** *don* &middot; *donned* &middot; *donned*
+**Verb class:** regular
 **Third person:** *dons* &middot; **-ing form:** *donning*
 **Transitivity:** transitive
 **Contrast:** The *n* doubles: *don → donned, donning*. This verb belongs to writing; in speech people say *put on*.
@@ -81,6 +87,7 @@ To put on a piece of clothing or equipment.
 **Pronunciation:** /ˈkʌvər/ &middot; *KUV-ur*
 **Русский:** закрывать, прикрывать, закрыть
 **Forms:** *cover* &middot; *covered* &middot; *covered*
+**Verb class:** regular
 **Third person:** *covers* &middot; **-ing form:** *covering*
 **Transitivity:** transitive
 **Contrast:** You cover something **with** a scarf, a coat, a blanket.
@@ -93,11 +100,14 @@ To put clothing or cloth over a part of the body.
 
 ---
 
+**Phrasal verbs:** [cover with](22-verb-preposition.md#cover-with)
+
 ### adorn
 
 **Pronunciation:** /əˈdɔːrn/ &middot; *uh-DORN*
 **Русский:** украшать, украсить
 **Forms:** *adorn* &middot; *adorned* &middot; *adorned*
+**Verb class:** regular
 **Third person:** *adorns* &middot; **-ing form:** *adorning*
 **Transitivity:** transitive
 **Contrast:** You adorn something **with** something else.
@@ -115,6 +125,7 @@ To decorate a person or an object, especially with jewelry or ornament.
 **Pronunciation:** /əkˈsɛsəraɪz/ &middot; *uk-SES-uh-ryz*
 **Русский:** дополнять аксессуарами, подбирать аксессуары
 **Forms:** *accessorize* &middot; *accessorized* &middot; *accessorized*
+**Verb class:** regular
 **Third person:** *accessorizes* &middot; **-ing form:** *accessorizing*
 **Transitivity:** both
 **Contrast:** American spelling takes *-ize*; British writing often has *accessorise*.
@@ -132,6 +143,7 @@ To add belts, jewelry, scarves, or bags to an outfit.
 **Pronunciation:** /dɪsˈɡaɪz/ &middot; *dis-GYZ*
 **Русский:** маскировать, переодевать; маскироваться
 **Forms:** *disguise* &middot; *disguised* &middot; *disguised*
+**Verb class:** regular
 **Third person:** *disguises* &middot; **-ing form:** *disguising*
 **Transitivity:** transitive
 **Contrast:** The *s* in the middle is a /z/ sound and the *u* is silent: dis-GYZ.
@@ -149,6 +161,7 @@ To change clothes or appearance so that people do not recognize you.
 **Pronunciation:** /mæsk/ &middot; *MASK*
 **Русский:** закрывать маской, скрывать, замаскировать
 **Forms:** *mask* &middot; *masked* &middot; *masked*
+**Verb class:** regular
 **Third person:** *masks* &middot; **-ing form:** *masking*
 **Transitivity:** transitive
 
@@ -165,6 +178,7 @@ To cover the face, or to hide something from view.
 **Pronunciation:** /veɪl/ &middot; *VAYL*
 **Русский:** закрывать вуалью, скрывать, завуалировать
 **Forms:** *veil* &middot; *veiled* &middot; *veiled*
+**Verb class:** regular
 **Third person:** *veils* &middot; **-ing form:** *veiling*
 **Transitivity:** transitive
 **Contrast:** *Veil* sounds exactly like *vale*, an old word for a valley.
@@ -182,6 +196,7 @@ To cover the face or head with a thin cloth.
 **Pronunciation:** /ˈaʊtfɪt/ &middot; *OWT-fit*
 **Русский:** экипировать, снаряжать, одевать
 **Forms:** *outfit* &middot; *outfitted* &middot; *outfitted*
+**Verb class:** regular
 **Third person:** *outfits* &middot; **-ing form:** *outfitting*
 **Transitivity:** transitive
 **Contrast:** The *t* doubles: *outfit → outfitted, outfitting*.
@@ -199,6 +214,7 @@ To supply someone with the clothes or equipment they need.
 **Pronunciation:** /ˈswɑːdəl/ &middot; *SWAH-duhl*
 **Русский:** пеленать, запеленать
 **Forms:** *swaddle* &middot; *swaddled* &middot; *swaddled*
+**Verb class:** regular
 **Third person:** *swaddles* &middot; **-ing form:** *swaddling*
 **Transitivity:** transitive
 
@@ -215,6 +231,7 @@ To wrap a baby tightly in a cloth or a light blanket.
 **Pronunciation:** /ˈbʌndəl/ &middot; *BUN-duhl*
 **Русский:** укутывать, закутать; связывать в узел
 **Forms:** *bundle* &middot; *bundled* &middot; *bundled*
+**Verb class:** regular
 **Third person:** *bundles* &middot; **-ing form:** *bundling*
 **Transitivity:** transitive
 
@@ -231,6 +248,7 @@ To wrap someone in warm clothes, or to tie things together in a bunch.
 **Pronunciation:** /traɪ/ &middot; *TRY*
 **Русский:** примерять, примерить; пробовать, попробовать
 **Forms:** *try* &middot; *tried* &middot; *tried*
+**Verb class:** regular
 **Third person:** *tries* &middot; **-ing form:** *trying*
 **Transitivity:** both
 **Contrast:** The *y* becomes *i*: *try → tries, tried*, but *trying* keeps the *y*. In a store Americans add *on*: *try on a coat*.
@@ -248,6 +266,7 @@ To put clothing on for a moment to see whether it fits or looks right.
 **Pronunciation:** /spɔːrt/ &middot; *SPORT*
 **Русский:** щеголять, носить напоказ
 **Forms:** *sport* &middot; *sported* &middot; *sported*
+**Verb class:** regular
 **Third person:** *sports* &middot; **-ing form:** *sporting*
 **Transitivity:** transitive
 **Contrast:** This verb has nothing to do with games; *sport* meaning a game is only a noun.
@@ -265,6 +284,7 @@ To wear something noticeable and look pleased about it.
 **Pronunciation:** /ʌnˈfæsən/ &middot; *un-FAS-uhn*
 **Русский:** расстёгивать, расстегнуть, отстегнуть
 **Forms:** *unfasten* &middot; *unfastened* &middot; *unfastened*
+**Verb class:** regular
 **Third person:** *unfastens* &middot; **-ing form:** *unfastening*
 **Transitivity:** transitive
 **Contrast:** The *t* is silent here too: un-FAS-uhn.
@@ -282,6 +302,7 @@ To open something that is buttoned, buckled, or zipped.
 **Pronunciation:** /ˈbʌtən/ &middot; *BUT-uhn*
 **Русский:** застёгивать на пуговицы, застегнуть
 **Forms:** *button* &middot; *buttoned* &middot; *buttoned*
+**Verb class:** regular
 **Third person:** *buttons* &middot; **-ing form:** *buttoning*
 **Transitivity:** transitive
 **Contrast:** The final *n* does not double, because the stress is on the first syllable: *buttoned*, *buttoning*.
@@ -299,6 +320,7 @@ To close a shirt, coat, or jacket with its buttons.
 **Pronunciation:** /ʌnˈbʌtən/ &middot; *un-BUT-uhn*
 **Русский:** расстёгивать пуговицы, расстегнуть
 **Forms:** *unbutton* &middot; *unbuttoned* &middot; *unbuttoned*
+**Verb class:** regular
 **Third person:** *unbuttons* &middot; **-ing form:** *unbuttoning*
 **Transitivity:** transitive
 
@@ -315,6 +337,7 @@ To open a shirt or coat by undoing its buttons.
 **Pronunciation:** /zɪp/ &middot; *ZIP*
 **Русский:** застёгивать на молнию, застегнуть
 **Forms:** *zip* &middot; *zipped* &middot; *zipped*
+**Verb class:** regular
 **Third person:** *zips* &middot; **-ing form:** *zipping*
 **Transitivity:** both
 **Contrast:** The *p* doubles: *zip → zipped, zipping*. Americans call the fastener a *zipper*.
@@ -332,6 +355,7 @@ To close something with a zipper.
 **Pronunciation:** /ʌnˈzɪp/ &middot; *un-ZIP*
 **Русский:** расстёгивать молнию, расстегнуть
 **Forms:** *unzip* &middot; *unzipped* &middot; *unzipped*
+**Verb class:** regular
 **Third person:** *unzips* &middot; **-ing form:** *unzipping*
 **Transitivity:** transitive
 **Contrast:** The *p* doubles: *unzip → unzipped, unzipping*.
@@ -349,6 +373,7 @@ To open a zipper.
 **Pronunciation:** /ˈbʌkəl/ &middot; *BUK-uhl*
 **Русский:** застёгивать пряжку, пристёгивать, застегнуть
 **Forms:** *buckle* &middot; *buckled* &middot; *buckled*
+**Verb class:** regular
 **Third person:** *buckles* &middot; **-ing form:** *buckling*
 **Transitivity:** transitive
 
@@ -365,6 +390,7 @@ To fasten a belt, a shoe, or a strap with a buckle.
 **Pronunciation:** /ʌnˈbʌkəl/ &middot; *un-BUK-uhl*
 **Русский:** расстёгивать пряжку, отстегнуть
 **Forms:** *unbuckle* &middot; *unbuckled* &middot; *unbuckled*
+**Verb class:** regular
 **Third person:** *unbuckles* &middot; **-ing form:** *unbuckling*
 **Transitivity:** transitive
 
@@ -381,6 +407,7 @@ To undo a buckle.
 **Pronunciation:** /leɪs/ &middot; *LAYS*
 **Русский:** шнуровать, зашнуровать
 **Forms:** *lace* &middot; *laced* &middot; *laced*
+**Verb class:** regular
 **Third person:** *laces* &middot; **-ing form:** *lacing*
 **Transitivity:** transitive
 **Contrast:** The verb *lace* and *lace*, the delicate fabric, are spelled and said the same way.
@@ -398,6 +425,7 @@ To pull laces through the holes of a shoe or boot and tie them.
 **Pronunciation:** /taɪ/ &middot; *TY*
 **Русский:** завязывать, завязать; привязывать, привязать
 **Forms:** *tie* &middot; *tied* &middot; *tied*
+**Verb class:** regular
 **Third person:** *ties* &middot; **-ing form:** *tying*
 **Transitivity:** transitive
 **Contrast:** The *-ing* form changes its spelling: *tie → tying*, never *tieing*.
@@ -415,6 +443,7 @@ To fasten something with a knot or a bow.
 **Pronunciation:** /ʌnˈtaɪ/ &middot; *un-TY*
 **Русский:** развязывать, развязать
 **Forms:** *untie* &middot; *untied* &middot; *untied*
+**Verb class:** regular
 **Third person:** *unties* &middot; **-ing form:** *untying*
 **Transitivity:** transitive
 **Contrast:** Same spelling change as *tie*: *untying*, not *untieing*.
@@ -432,6 +461,7 @@ To undo a knot or a bow.
 **Pronunciation:** /nɑːt/ &middot; *NAHT*
 **Русский:** завязывать узлом, связывать узлом
 **Forms:** *knot* &middot; *knotted* &middot; *knotted*
+**Verb class:** regular
 **Third person:** *knots* &middot; **-ing form:** *knotting*
 **Transitivity:** transitive
 **Contrast:** The *k* is silent and the *t* doubles: *knot → knotted, knotting*. It sounds exactly like *not*.
@@ -449,6 +479,7 @@ To tie something into a knot.
 **Pronunciation:** /klæsp/ &middot; *KLASP*
 **Русский:** застёгивать застёжку, скреплять
 **Forms:** *clasp* &middot; *clasped* &middot; *clasped*
+**Verb class:** regular
 **Third person:** *clasps* &middot; **-ing form:** *clasping*
 **Transitivity:** transitive
 
@@ -465,6 +496,7 @@ To fasten a necklace, a bracelet, or a bag with its clasp.
 **Pronunciation:** /hʊk/ &middot; *HUK*
 **Русский:** застёгивать на крючок, зацеплять, зацепить
 **Forms:** *hook* &middot; *hooked* &middot; *hooked*
+**Verb class:** regular
 **Third person:** *hooks* &middot; **-ing form:** *hooking*
 **Transitivity:** transitive
 
@@ -481,6 +513,7 @@ To fasten something with a hook, or to hang it on one.
 **Pronunciation:** /ʌnˈhʊk/ &middot; *un-HUK*
 **Русский:** отцеплять, расстёгивать крючок, отстегнуть
 **Forms:** *unhook* &middot; *unhooked* &middot; *unhooked*
+**Verb class:** regular
 **Third person:** *unhooks* &middot; **-ing form:** *unhooking*
 **Transitivity:** transitive
 
@@ -497,6 +530,7 @@ To undo something that is fastened with a hook.
 **Pronunciation:** /stræp/ &middot; *STRAP*
 **Русский:** пристёгивать ремнём, закреплять ремнём
 **Forms:** *strap* &middot; *strapped* &middot; *strapped*
+**Verb class:** regular
 **Third person:** *straps* &middot; **-ing form:** *strapping*
 **Transitivity:** transitive
 **Contrast:** The *p* doubles: *strap → strapped, strapping*.
@@ -514,6 +548,7 @@ To hold something in place with a strap.
 **Pronunciation:** /sɪntʃ/ &middot; *SINCH*
 **Русский:** стягивать поясом, затягивать, затянуть
 **Forms:** *cinch* &middot; *cinched* &middot; *cinched*
+**Verb class:** regular
 **Third person:** *cinches* &middot; **-ing form:** *cinching*
 **Transitivity:** transitive
 **Contrast:** It ends in *-ch*, so the third person adds *-es*: *cinches*.
@@ -531,6 +566,7 @@ To pull a belt or a cord tight around something.
 **Pronunciation:** /dɪˈtætʃ/ &middot; *dih-TACH*
 **Русский:** отстёгивать, отсоединять, отстегнуть
 **Forms:** *detach* &middot; *detached* &middot; *detached*
+**Verb class:** regular
 **Third person:** *detaches* &middot; **-ing form:** *detaching*
 **Transitivity:** transitive
 **Contrast:** It ends in *-ch*, so the third person adds *-es*: *detaches*.
@@ -548,6 +584,7 @@ To take off a part that is made to come off.
 **Pronunciation:** /luːp/ &middot; *LOOP*
 **Русский:** продевать петлёй, обматывать, обмотать
 **Forms:** *loop* &middot; *looped* &middot; *looped*
+**Verb class:** regular
 **Third person:** *loops* &middot; **-ing form:** *looping*
 **Transitivity:** transitive
 
@@ -564,6 +601,7 @@ To pass something long around or through in the shape of a loop.
 **Pronunciation:** /dɑːrn/ &middot; *DARN*
 **Русский:** штопать, заштопать
 **Forms:** *darn* &middot; *darned* &middot; *darned*
+**Verb class:** regular
 **Third person:** *darns* &middot; **-ing form:** *darning*
 **Transitivity:** transitive
 
@@ -580,6 +618,7 @@ To repair a hole in knitted cloth by sewing back and forth across it.
 **Pronunciation:** /ɪmˈbrɔɪdər/ &middot; *im-BROY-dur*
 **Русский:** вышивать, вышить
 **Forms:** *embroider* &middot; *embroidered* &middot; *embroidered*
+**Verb class:** regular
 **Third person:** *embroiders* &middot; **-ing form:** *embroidering*
 **Transitivity:** both
 
@@ -596,6 +635,7 @@ To sew a decorative pattern onto cloth with colored thread.
 **Pronunciation:** /kroʊˈʃeɪ/ &middot; *kroh-SHAY*
 **Русский:** вязать крючком, связать крючком
 **Forms:** *crochet* &middot; *crocheted* &middot; *crocheted*
+**Verb class:** regular
 **Third person:** *crochets* &middot; **-ing form:** *crocheting*
 **Transitivity:** both
 **Contrast:** The final *t* is silent: kroh-SHAY. The past *crocheted* is said kroh-SHAYD.
@@ -613,6 +653,7 @@ To make cloth by looping yarn with a single hook.
 **Pronunciation:** /kwɪlt/ &middot; *KWILT*
 **Русский:** стегать, простёгивать, простегать
 **Forms:** *quilt* &middot; *quilted* &middot; *quilted*
+**Verb class:** regular
 **Third person:** *quilts* &middot; **-ing form:** *quilting*
 **Transitivity:** both
 
@@ -629,6 +670,7 @@ To sew two layers of cloth together with padding between them.
 **Pronunciation:** /ʌnˈrævəl/ &middot; *un-RAV-uhl*
 **Русский:** распускаться, распускать (вязание); распутывать
 **Forms:** *unravel* &middot; *unraveled* &middot; *unraveled*
+**Verb class:** regular
 **Third person:** *unravels* &middot; **-ing form:** *unraveling*
 **Transitivity:** both
 **Contrast:** American spelling keeps one *l*: *unraveled, unraveling*; British writing doubles it.
@@ -646,6 +688,7 @@ To come apart into loose threads, or to pull knitted work apart on purpose.
 **Pronunciation:** /snæɡ/ &middot; *SNAG*
 **Русский:** зацепить, порвать зацепив; делать затяжку
 **Forms:** *snag* &middot; *snagged* &middot; *snagged*
+**Verb class:** regular
 **Third person:** *snags* &middot; **-ing form:** *snagging*
 **Transitivity:** both
 **Contrast:** The *g* doubles: *snag → snagged, snagging*.
@@ -663,6 +706,7 @@ To catch cloth on something sharp and pull a thread loose.
 **Pronunciation:** /pliːt/ &middot; *PLEET*
 **Русский:** закладывать складки, плиссировать
 **Forms:** *pleat* &middot; *pleated* &middot; *pleated*
+**Verb class:** regular
 **Third person:** *pleats* &middot; **-ing form:** *pleating*
 **Transitivity:** transitive
 
@@ -679,6 +723,7 @@ To fold cloth into regular flat folds and sew them in place.
 **Pronunciation:** /ˈrʌfəl/ &middot; *RUF-uhl*
 **Русский:** делать оборки; трепать, взъерошить
 **Forms:** *ruffle* &middot; *ruffled* &middot; *ruffled*
+**Verb class:** regular
 **Third person:** *ruffles* &middot; **-ing form:** *ruffling*
 **Transitivity:** transitive
 
@@ -695,6 +740,7 @@ To gather cloth into a strip of soft folds, or to push something out of its neat
 **Pronunciation:** /ˈlɛŋθən/ &middot; *LENG-thuhn*
 **Русский:** удлинять, удлинить
 **Forms:** *lengthen* &middot; *lengthened* &middot; *lengthened*
+**Verb class:** regular
 **Third person:** *lengthens* &middot; **-ing form:** *lengthening*
 **Transitivity:** both
 
@@ -711,6 +757,7 @@ To make something longer, or to become longer.
 **Pronunciation:** /laɪn/ &middot; *LYN*
 **Русский:** подбивать подкладкой, ставить на подкладку
 **Forms:** *line* &middot; *lined* &middot; *lined*
+**Verb class:** regular
 **Third person:** *lines* &middot; **-ing form:** *lining*
 **Transitivity:** transitive
 **Contrast:** You line something **with** a material, and the inner layer itself is the *lining*.
@@ -728,6 +775,7 @@ To cover the inside of a coat, a bag, or a box with another material.
 **Pronunciation:** /kʌf/ &middot; *KUF*
 **Русский:** подворачивать (штанину, рукав), закатать
 **Forms:** *cuff* &middot; *cuffed* &middot; *cuffed*
+**Verb class:** regular
 **Third person:** *cuffs* &middot; **-ing form:** *cuffing*
 **Transitivity:** transitive
 
@@ -744,6 +792,7 @@ To turn the bottom of a sleeve or a pant leg up into a fold.
 **Pronunciation:** /ˈrɪŋkəl/ &middot; *RING-kuhl*
 **Русский:** мяться, помяться; мять, измять
 **Forms:** *wrinkle* &middot; *wrinkled* &middot; *wrinkled*
+**Verb class:** regular
 **Third person:** *wrinkles* &middot; **-ing form:** *wrinkling*
 **Transitivity:** both
 **Contrast:** The *w* is silent: RING-kuhl.
@@ -761,6 +810,7 @@ To get small folds and creases in cloth, or to put them there.
 **Pronunciation:** /kriːs/ &middot; *KREES*
 **Русский:** заглаживать складку; мяться, помяться
 **Forms:** *crease* &middot; *creased* &middot; *creased*
+**Verb class:** regular
 **Third person:** *creases* &middot; **-ing form:** *creasing*
 **Transitivity:** both
 
@@ -777,6 +827,7 @@ To press a sharp line into cloth, or to get an unwanted fold in it.
 **Pronunciation:** /ʌnˈfoʊld/ &middot; *un-FOHLD*
 **Русский:** разворачивать, расправлять, развернуть
 **Forms:** *unfold* &middot; *unfolded* &middot; *unfolded*
+**Verb class:** regular
 **Third person:** *unfolds* &middot; **-ing form:** *unfolding*
 **Transitivity:** both
 
@@ -793,6 +844,7 @@ To open out something that has been folded.
 **Pronunciation:** /pɛr/ &middot; *PAIR*
 **Русский:** подбирать в пару, сочетать, сочетать с
 **Forms:** *pair* &middot; *paired* &middot; *paired*
+**Verb class:** regular
 **Third person:** *pairs* &middot; **-ing form:** *pairing*
 **Transitivity:** transitive
 **Contrast:** You pair one thing **with** another. *Pair*, *pear* the fruit, and *pare* meaning to peel all sound alike.
@@ -810,6 +862,7 @@ To put two things together, or to wear one item with another.
 **Pronunciation:** /ˈsɛpəreɪt/ &middot; *SEP-uh-rayt*
 **Русский:** разделять, отделять, разделить
 **Forms:** *separate* &middot; *separated* &middot; *separated*
+**Verb class:** regular
 **Third person:** *separates* &middot; **-ing form:** *separating*
 **Transitivity:** both
 **Contrast:** The verb ends in /eɪt/, SEP-uh-rayt; the adjective *separate* is SEP-rit. There is an *a* in the middle: sep-**a**-rate.
@@ -822,11 +875,14 @@ To divide things into groups, or to keep them apart.
 
 ---
 
+**Phrasal verbs:** [separate from](22-verb-preposition.md#separate-from)
+
 ### match
 
 **Pronunciation:** /mætʃ/ &middot; *MACH*
 **Русский:** подходить, сочетаться; подбирать в тон
 **Forms:** *match* &middot; *matched* &middot; *matched*
+**Verb class:** regular
 **Third person:** *matches* &middot; **-ing form:** *matching*
 **Transitivity:** both
 **Contrast:** The third person adds *-es*: *matches*. You match one thing **to** or **with** another.
@@ -844,6 +900,7 @@ To look right together, or to find something that goes with something else.
 **Pronunciation:** /klæʃ/ &middot; *KLASH*
 **Русский:** не сочетаться, дисгармонировать
 **Forms:** *clash* &middot; *clashed* &middot; *clashed*
+**Verb class:** regular
 **Third person:** *clashes* &middot; **-ing form:** *clashing*
 **Transitivity:** intransitive
 **Contrast:** One color clashes **with** another.
@@ -861,6 +918,7 @@ To look bad together, especially two colors or patterns.
 **Pronunciation:** /ˈkɑːmpləmɛnt/ &middot; *KAHM-pluh-ment*
 **Русский:** дополнять, хорошо сочетаться, дополнить
 **Forms:** *complement* &middot; *complemented* &middot; *complemented*
+**Verb class:** regular
 **Third person:** *complements* &middot; **-ing form:** *complementing*
 **Transitivity:** transitive
 **Contrast:** *Complement*, with an *e*, means goes well with. *Compliment*, with an *i*, means kind words. They sound the same.
@@ -878,6 +936,7 @@ To go well with something and make it look better.
 **Pronunciation:** /kənˈtræst/ &middot; *kuhn-TRAST*
 **Русский:** контрастировать, противопоставлять, противопоставить
 **Forms:** *contrast* &middot; *contrasted* &middot; *contrasted*
+**Verb class:** regular
 **Third person:** *contrasts* &middot; **-ing form:** *contrasting*
 **Transitivity:** both
 **Contrast:** The verb is stressed on the second syllable, kuhn-TRAST; the noun is KAHN-trast. One thing contrasts **with** another.
@@ -895,6 +954,7 @@ To be clearly different from something beside it, or to set two things side by s
 **Pronunciation:** /suːt/ &middot; *SOOT*
 **Русский:** идти, быть к лицу, подходить
 **Forms:** *suit* &middot; *suited* &middot; *suited*
+**Verb class:** regular
 **Third person:** *suits* &middot; **-ing form:** *suiting*
 **Transitivity:** transitive
 **Contrast:** *Suit* means it looks good on you; *fit* means it is the right size. A jacket can fit and still not suit you.
@@ -912,6 +972,7 @@ To look good on a particular person, or to be right for them.
 **Pronunciation:** /staɪl/ &middot; *STYL*
 **Русский:** стилизовать, подбирать образ; укладывать (волосы)
 **Forms:** *style* &middot; *styled* &middot; *styled*
+**Verb class:** regular
 **Third person:** *styles* &middot; **-ing form:** *styling*
 **Transitivity:** transitive
 
@@ -928,6 +989,7 @@ To arrange clothes or hair to create a particular look.
 **Pronunciation:** /poʊz/ &middot; *POHZ*
 **Русский:** позировать, принимать позу
 **Forms:** *pose* &middot; *posed* &middot; *posed*
+**Verb class:** regular
 **Third person:** *poses* &middot; **-ing form:** *posing*
 **Transitivity:** intransitive
 
@@ -944,6 +1006,7 @@ To hold a position so that someone can photograph or paint you.
 **Pronunciation:** /flɔːnt/ &middot; *FLAWNT*
 **Русский:** выставлять напоказ, щеголять
 **Forms:** *flaunt* &middot; *flaunted* &middot; *flaunted*
+**Verb class:** regular
 **Third person:** *flaunts* &middot; **-ing form:** *flaunting*
 **Transitivity:** transitive
 **Contrast:** *Flaunt*, to show off, is not *flout*, to break a rule openly.
@@ -961,6 +1024,7 @@ To show something off openly so that everyone notices it.
 **Pronunciation:** /əkˈsɛntʃueɪt/ &middot; *uk-SEN-choo-ayt*
 **Русский:** подчёркивать, акцентировать, подчеркнуть
 **Forms:** *accentuate* &middot; *accentuated* &middot; *accentuated*
+**Verb class:** regular
 **Third person:** *accentuates* &middot; **-ing form:** *accentuating*
 **Transitivity:** transitive
 
@@ -977,6 +1041,7 @@ To make one feature more noticeable than the rest.
 **Pronunciation:** /sæɡ/ &middot; *SAG*
 **Русский:** обвисать, провисать, обвиснуть
 **Forms:** *sag* &middot; *sagged* &middot; *sagged*
+**Verb class:** regular
 **Third person:** *sags* &middot; **-ing form:** *sagging*
 **Transitivity:** intransitive
 **Contrast:** The *g* doubles: *sag → sagged, sagging*.
@@ -994,6 +1059,7 @@ To hang down loosely because the shape is gone.
 **Pronunciation:** /tʃeɪf/ &middot; *CHAYF*
 **Русский:** натирать (кожу), тереть, натереть
 **Forms:** *chafe* &middot; *chafed* &middot; *chafed*
+**Verb class:** regular
 **Third person:** *chafes* &middot; **-ing form:** *chafing*
 **Transitivity:** both
 
@@ -1010,6 +1076,7 @@ To rub the skin until it is sore.
 **Pronunciation:** /tʌɡ/ &middot; *TUG*
 **Русский:** дёргать, тянуть, потянуть
 **Forms:** *tug* &middot; *tugged* &middot; *tugged*
+**Verb class:** regular
 **Third person:** *tugs* &middot; **-ing form:** *tugging*
 **Transitivity:** both
 **Contrast:** The *g* doubles: *tug → tugged, tugging*. You tug **at** something.
@@ -1027,6 +1094,7 @@ To pull at something with a short, sharp movement.
 **Pronunciation:** /flæp/ &middot; *FLAP*
 **Русский:** развеваться, хлопать (на ветру)
 **Forms:** *flap* &middot; *flapped* &middot; *flapped*
+**Verb class:** regular
 **Third person:** *flaps* &middot; **-ing form:** *flapping*
 **Transitivity:** both
 **Contrast:** The *p* doubles: *flap → flapped, flapping*.
@@ -1044,6 +1112,7 @@ To move loosely back and forth in the air.
 **Pronunciation:** /ɪmˈbɛlɪʃ/ &middot; *im-BEL-ish*
 **Русский:** украшать, декорировать, украсить
 **Forms:** *embellish* &middot; *embellished* &middot; *embellished*
+**Verb class:** regular
 **Third person:** *embellishes* &middot; **-ing form:** *embellishing*
 **Transitivity:** transitive
 
@@ -1060,6 +1129,7 @@ To add decoration to something plain.
 **Pronunciation:** /ˈwɔːtərpruːf/ &middot; *WAW-tur-proof*
 **Русский:** делать водонепроницаемым, пропитывать от воды
 **Forms:** *waterproof* &middot; *waterproofed* &middot; *waterproofed*
+**Verb class:** regular
 **Third person:** *waterproofs* &middot; **-ing form:** *waterproofing*
 **Transitivity:** transitive
 

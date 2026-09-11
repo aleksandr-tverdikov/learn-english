@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /plænt/ &middot; *PLANT*
 **Русский:** сажать, посадить; высаживать
 **Forms:** *plant* &middot; *planted* &middot; *planted*
+**Verb class:** regular
 **Third person:** *plants* &middot; **-ing form:** *planting*
 **Transitivity:** transitive
 
@@ -30,6 +31,7 @@ To put a seed or a young plant into the ground so that it will grow.
 **Pronunciation:** /ˈkʌltɪveɪt/ &middot; *KUL-tuh-vayt*
 **Русский:** возделывать, обрабатывать (землю); выращивать
 **Forms:** *cultivate* &middot; *cultivated* &middot; *cultivated*
+**Verb class:** regular
 **Third person:** *cultivates* &middot; **-ing form:** *cultivating*
 **Transitivity:** transitive
 
@@ -46,6 +48,7 @@ To prepare and use land for growing crops, or to grow a particular crop.
 **Pronunciation:** /tɪl/ &middot; *TIL*
 **Русский:** пахать, вспахать; обрабатывать (землю)
 **Forms:** *till* &middot; *tilled* &middot; *tilled*
+**Verb class:** regular
 **Third person:** *tills* &middot; **-ing form:** *tilling*
 **Transitivity:** transitive
 **Contrast:** Spelled like the word till meaning 'until', but this one is a verb: till the soil.
@@ -63,6 +66,7 @@ To break up and turn over soil so that it is ready for planting.
 **Pronunciation:** /plaʊ/ &middot; *PLOW*
 **Русский:** пахать, вспахать; расчищать (снег)
 **Forms:** *plow* &middot; *plowed* &middot; *plowed*
+**Verb class:** regular
 **Third person:** *plows* &middot; **-ing form:** *plowing*
 **Transitivity:** both — transitive (plow the north field), intransitive (they plowed until dark)
 **Contrast:** American spelling is plow; British English writes plough. Same sound either way.
@@ -80,6 +84,7 @@ To turn over soil with a plow, or to push snow off a road.
 **Pronunciation:** /siːd/ &middot; *SEED*
 **Русский:** засевать, засеять; сеять
 **Forms:** *seed* &middot; *seeded* &middot; *seeded*
+**Verb class:** regular
 **Third person:** *seeds* &middot; **-ing form:** *seeding*
 **Transitivity:** transitive
 
@@ -96,6 +101,7 @@ To scatter seed over a piece of ground.
 **Pronunciation:** /riːˈplænt/ &middot; *ree-PLANT*
 **Русский:** пересаживать; заново засаживать, засадить
 **Forms:** *replant* &middot; *replanted* &middot; *replanted*
+**Verb class:** regular
 **Third person:** *replants* &middot; **-ing form:** *replanting*
 **Transitivity:** transitive
 
@@ -112,6 +118,7 @@ To plant something again, or to plant new plants where old ones were.
 **Pronunciation:** /ˈfɜːrtəlaɪz/ &middot; *FUR-tuh-lyz*
 **Русский:** удобрять, удобрить
 **Forms:** *fertilize* &middot; *fertilized* &middot; *fertilized*
+**Verb class:** regular
 **Third person:** *fertilizes* &middot; **-ing form:** *fertilizing*
 **Transitivity:** transitive
 **Contrast:** American spelling ends in -ize: fertilize, fertilized. British English writes fertilise.
@@ -129,6 +136,7 @@ To add something to soil or plants to make them grow better.
 **Pronunciation:** /mʌltʃ/ &middot; *MULCH*
 **Русский:** мульчировать, покрывать мульчей
 **Forms:** *mulch* &middot; *mulched* &middot; *mulched*
+**Verb class:** regular
 **Third person:** *mulches* &middot; **-ing form:** *mulching*
 **Transitivity:** transitive
 **Contrast:** Third person takes -es after -ch: he mulches, not he mulchs.
@@ -146,6 +154,7 @@ To cover soil with bark, straw, or leaves to hold in water and stop weeds.
 **Pronunciation:** /ˈɪrɪɡeɪt/ &middot; *IR-uh-gayt*
 **Русский:** орошать, оросить; поливать
 **Forms:** *irrigate* &middot; *irrigated* &middot; *irrigated*
+**Verb class:** regular
 **Third person:** *irrigates* &middot; **-ing form:** *irrigating*
 **Transitivity:** transitive
 
@@ -162,6 +171,7 @@ To bring water to dry land through pipes or ditches so crops can grow.
 **Pronunciation:** /ˈwɔːtər/ &middot; *WAW-tur*
 **Русский:** поливать, полить
 **Forms:** *water* &middot; *watered* &middot; *watered*
+**Verb class:** regular
 **Third person:** *waters* &middot; **-ing form:** *watering*
 **Transitivity:** transitive
 **Contrast:** No doubled t: watered, watering — the stress is on WAW-, so the t stays single.
@@ -179,6 +189,7 @@ To pour water on plants or give water to animals.
 **Pronunciation:** /wiːd/ &middot; *WEED*
 **Русский:** полоть, прополоть
 **Forms:** *weed* &middot; *weeded* &middot; *weeded*
+**Verb class:** regular
 **Third person:** *weeds* &middot; **-ing form:** *weeding*
 **Transitivity:** both — transitive (weed the garden), intransitive (she weeded all morning)
 
@@ -195,6 +206,7 @@ To pull wild plants out of a garden or field.
 **Pronunciation:** /hoʊ/ &middot; *HOH*
 **Русский:** мотыжить, рыхлить мотыгой
 **Forms:** *hoe* &middot; *hoed* &middot; *hoed*
+**Verb class:** regular
 **Third person:** *hoes* &middot; **-ing form:** *hoeing*
 **Transitivity:** both — transitive (hoe the bean rows), intransitive (he hoed until noon)
 **Contrast:** Keeps its -e before -ing: hoeing, never hoing.
@@ -212,6 +224,7 @@ To break up soil or cut weeds with a hoe.
 **Pronunciation:** /reɪk/ &middot; *RAYK*
 **Русский:** сгребать, сгрести (граблями); разравнивать
 **Forms:** *rake* &middot; *raked* &middot; *raked*
+**Verb class:** regular
 **Third person:** *rakes* &middot; **-ing form:** *raking*
 **Transitivity:** both — transitive (rake the leaves), intransitive (we raked all afternoon)
 
@@ -228,6 +241,7 @@ To gather or smooth something with a rake.
 **Pronunciation:** /ˈʃʌvəl/ &middot; *SHUV-uhl*
 **Русский:** копать лопатой, сгребать лопатой
 **Forms:** *shovel* &middot; *shoveled* &middot; *shoveled*
+**Verb class:** regular
 **Third person:** *shovels* &middot; **-ing form:** *shoveling*
 **Transitivity:** transitive
 **Contrast:** One l in American English: shoveled, shoveling. British English doubles it: shovelled.
@@ -245,6 +259,7 @@ To move dirt, snow, or manure with a shovel.
 **Pronunciation:** /pruːn/ &middot; *PROON*
 **Русский:** обрезать, подрезать (растения)
 **Forms:** *prune* &middot; *pruned* &middot; *pruned*
+**Verb class:** regular
 **Third person:** *prunes* &middot; **-ing form:** *pruning*
 **Transitivity:** transitive
 
@@ -261,6 +276,7 @@ To cut branches off a tree or bush so it grows better.
 **Pronunciation:** /ɡræft/ &middot; *GRAFT*
 **Русский:** прививать, привить (растение)
 **Forms:** *graft* &middot; *grafted* &middot; *grafted*
+**Verb class:** regular
 **Third person:** *grafts* &middot; **-ing form:** *grafting*
 **Transitivity:** transitive
 
@@ -277,6 +293,7 @@ To join a branch of one plant onto another so they grow as one.
 **Pronunciation:** /steɪk/ &middot; *STAYK*
 **Русский:** подвязывать к колышку, ставить подпорки
 **Forms:** *stake* &middot; *staked* &middot; *staked*
+**Verb class:** regular
 **Third person:** *stakes* &middot; **-ing form:** *staking*
 **Transitivity:** transitive
 **Contrast:** Sounds exactly like steak (the meat). Stake the tomatoes, grill the steak.
@@ -294,6 +311,7 @@ To support a plant by tying it to a wooden or metal stick.
 **Pronunciation:** /pɑːt/ &middot; *PAHT*
 **Русский:** сажать в горшок, пересаживать в горшок
 **Forms:** *pot* &middot; *potted* &middot; *potted*
+**Verb class:** regular
 **Third person:** *pots* &middot; **-ing form:** *potting*
 **Transitivity:** transitive
 **Contrast:** Doubles the t: pot → potted, potting.
@@ -311,6 +329,7 @@ To plant something in a pot rather than in the ground.
 **Pronunciation:** /ˈprɑːpəɡeɪt/ &middot; *PRAH-puh-gayt*
 **Русский:** размножать (растения); размножаться
 **Forms:** *propagate* &middot; *propagated* &middot; *propagated*
+**Verb class:** regular
 **Third person:** *propagates* &middot; **-ing form:** *propagating*
 **Transitivity:** both — transitive (propagate mint from cuttings), intransitive (the plant propagates easily)
 
@@ -327,6 +346,7 @@ To grow new plants from seeds, cuttings, or runners.
 **Pronunciation:** /spraʊt/ &middot; *SPROWT*
 **Русский:** прорастать, прорасти; всходить, взойти
 **Forms:** *sprout* &middot; *sprouted* &middot; *sprouted*
+**Verb class:** regular
 **Third person:** *sprouts* &middot; **-ing form:** *sprouting*
 **Transitivity:** both — transitive (the tree sprouted new leaves), intransitive (the seeds sprouted)
 
@@ -343,6 +363,7 @@ To start to grow, especially for a seed sending up its first shoot.
 **Pronunciation:** /ˈdʒɜːrməneɪt/ &middot; *JUR-muh-nayt*
 **Русский:** прорастать, прорасти
 **Forms:** *germinate* &middot; *germinated* &middot; *germinated*
+**Verb class:** regular
 **Third person:** *germinates* &middot; **-ing form:** *germinating*
 **Transitivity:** both — intransitive (the seeds germinate), transitive (germinate the seeds on a wet towel)
 
@@ -359,6 +380,7 @@ To begin to grow, said of a seed opening and putting out a root.
 **Pronunciation:** /bluːm/ &middot; *BLOOM*
 **Русский:** цвести, расцветать, расцвести
 **Forms:** *bloom* &middot; *bloomed* &middot; *bloomed*
+**Verb class:** regular
 **Third person:** *blooms* &middot; **-ing form:** *blooming*
 **Transitivity:** intransitive
 
@@ -375,6 +397,7 @@ To produce flowers.
 **Pronunciation:** /ˈblɑːsəm/ &middot; *BLAH-suhm*
 **Русский:** цвести, зацветать, зацвести
 **Forms:** *blossom* &middot; *blossomed* &middot; *blossomed*
+**Verb class:** regular
 **Third person:** *blossoms* &middot; **-ing form:** *blossoming*
 **Transitivity:** intransitive
 
@@ -391,6 +414,7 @@ To open into flowers, especially on a fruit tree.
 **Pronunciation:** /bʌd/ &middot; *BUD*
 **Русский:** давать почки, распускаться
 **Forms:** *bud* &middot; *budded* &middot; *budded*
+**Verb class:** regular
 **Third person:** *buds* &middot; **-ing form:** *budding*
 **Transitivity:** intransitive
 **Contrast:** Doubles the d: bud → budded, budding.
@@ -408,6 +432,7 @@ To form small swellings that will open into leaves or flowers.
 **Pronunciation:** /ˈflaʊər/ &middot; *FLOW-ur*
 **Русский:** цвести, зацвести
 **Forms:** *flower* &middot; *flowered* &middot; *flowered*
+**Verb class:** regular
 **Third person:** *flowers* &middot; **-ing form:** *flowering*
 **Transitivity:** intransitive
 
@@ -424,6 +449,7 @@ To produce flowers.
 **Pronunciation:** /məˈtʃʊr/ &middot; *muh-CHUR*
 **Русский:** созревать, созреть; вызревать
 **Forms:** *mature* &middot; *matured* &middot; *matured*
+**Verb class:** regular
 **Third person:** *matures* &middot; **-ing form:** *maturing*
 **Transitivity:** both — transitive (the cheese is matured in a cave), intransitive (the corn matures in ninety days)
 
@@ -440,6 +466,7 @@ To become fully grown or fully ripe.
 **Pronunciation:** /ˈflɜːrɪʃ/ &middot; *FLUR-ish*
 **Русский:** пышно расти, разрастаться; процветать
 **Forms:** *flourish* &middot; *flourished* &middot; *flourished*
+**Verb class:** regular
 **Third person:** *flourishes* &middot; **-ing form:** *flourishing*
 **Transitivity:** intransitive
 
@@ -456,6 +483,7 @@ To grow strongly and healthily.
 **Pronunciation:** /ruːt/ &middot; *ROOT*
 **Русский:** укореняться, укорениться; пускать корни
 **Forms:** *root* &middot; *rooted* &middot; *rooted*
+**Verb class:** regular
 **Third person:** *roots* &middot; **-ing form:** *rooting*
 **Transitivity:** both — transitive (root a cutting in water), intransitive (the cuttings rooted)
 **Contrast:** Different from root for (= to support a team), which is a phrasal verb.
@@ -468,11 +496,14 @@ To grow roots and take hold in the soil.
 
 ---
 
+**Phrasal verbs:** [root for](22-verb-preposition.md#root-for)
+
 ### pollinate
 
 **Pronunciation:** /ˈpɑːləneɪt/ &middot; *PAH-luh-nayt*
 **Русский:** опылять, опылить
 **Forms:** *pollinate* &middot; *pollinated* &middot; *pollinated*
+**Verb class:** regular
 **Third person:** *pollinates* &middot; **-ing form:** *pollinating*
 **Transitivity:** transitive
 
@@ -489,6 +520,7 @@ To carry pollen to a flower so that it can produce fruit or seed.
 **Pronunciation:** /ˈmʌltəplaɪ/ &middot; *MUL-tuh-ply*
 **Русский:** размножаться, размножиться; умножать
 **Forms:** *multiply* &middot; *multiplied* &middot; *multiplied*
+**Verb class:** regular
 **Third person:** *multiplies* &middot; **-ing form:** *multiplying*
 **Transitivity:** both — intransitive (rabbits multiply fast), transitive (multiply the seed by hand)
 **Contrast:** The -y becomes -ie: multiplies, multiplied — but multiplying keeps the y.
@@ -506,6 +538,7 @@ To increase greatly in number, especially by breeding.
 **Pronunciation:** /ʌpˈruːt/ &middot; *up-ROOT*
 **Русский:** вырывать с корнем, выкорчевывать
 **Forms:** *uproot* &middot; *uprooted* &middot; *uprooted*
+**Verb class:** regular
 **Third person:** *uproots* &middot; **-ing form:** *uprooting*
 **Transitivity:** transitive
 
@@ -522,6 +555,7 @@ To pull a plant out of the ground with its roots.
 **Pronunciation:** /pɪk/ &middot; *PIK*
 **Русский:** собирать, собрать (урожай); рвать (ягоды)
 **Forms:** *pick* &middot; *picked* &middot; *picked*
+**Verb class:** regular
 **Third person:** *picks* &middot; **-ing form:** *picking*
 **Transitivity:** transitive
 
@@ -538,6 +572,7 @@ To take fruit, flowers, or vegetables off the plant by hand.
 **Pronunciation:** /hɜːrd/ &middot; *HURD*
 **Русский:** пасти; сгонять в стадо
 **Forms:** *herd* &middot; *herded* &middot; *herded*
+**Verb class:** regular
 **Third person:** *herds* &middot; **-ing form:** *herding*
 **Transitivity:** transitive
 **Contrast:** Sounds exactly like heard, the past of hear. He herded the cows; I heard the cows.
@@ -555,6 +590,7 @@ To move a group of animals together from one place to another.
 **Pronunciation:** /mɪlk/ &middot; *MILK*
 **Русский:** доить, подоить
 **Forms:** *milk* &middot; *milked* &middot; *milked*
+**Verb class:** regular
 **Third person:** *milks* &middot; **-ing form:** *milking*
 **Transitivity:** transitive
 
@@ -571,6 +607,7 @@ To take milk from a cow, goat, or other animal.
 **Pronunciation:** /hætʃ/ &middot; *HACH*
 **Русский:** вылупляться, вылупиться; высиживать
 **Forms:** *hatch* &middot; *hatched* &middot; *hatched*
+**Verb class:** regular
 **Third person:** *hatches* &middot; **-ing form:** *hatching*
 **Transitivity:** both — intransitive (the chicks hatched), transitive (the hen hatched six eggs)
 **Contrast:** Third person takes -es after -ch: it hatches, not it hatchs.
@@ -588,6 +625,7 @@ To come out of an egg, or to bring young out of eggs.
 **Pronunciation:** /ˈɪŋkjəbeɪt/ &middot; *ING-kyuh-bayt*
 **Русский:** высиживать (яйца), инкубировать
 **Forms:** *incubate* &middot; *incubated* &middot; *incubated*
+**Verb class:** regular
 **Third person:** *incubates* &middot; **-ing form:** *incubating*
 **Transitivity:** transitive
 
@@ -604,6 +642,7 @@ To keep eggs warm until the young are ready to come out.
 **Pronunciation:** /wiːn/ &middot; *WEEN*
 **Русский:** отнимать от матери, отлучать от вымени
 **Forms:** *wean* &middot; *weaned* &middot; *weaned*
+**Verb class:** regular
 **Third person:** *weans* &middot; **-ing form:** *weaning*
 **Transitivity:** transitive
 **Contrast:** Wean an animal off or from its mother's milk — off and from are the usual prepositions.
@@ -621,6 +660,7 @@ To make a young animal stop drinking its mother's milk and start eating other fo
 **Pronunciation:** /ˈfætən/ &middot; *FAT-uhn*
 **Русский:** откармливать, откормить; жиреть
 **Forms:** *fatten* &middot; *fattened* &middot; *fattened*
+**Verb class:** regular
 **Third person:** *fattens* &middot; **-ing form:** *fattening*
 **Transitivity:** both — transitive (fatten the hogs on corn), intransitive (the steers fattened quickly)
 
@@ -637,6 +677,7 @@ To feed an animal well so that it puts on weight before sale or slaughter.
 **Pronunciation:** /teɪm/ &middot; *TAYM*
 **Русский:** приручать, приручить; укрощать
 **Forms:** *tame* &middot; *tamed* &middot; *tamed*
+**Verb class:** regular
 **Third person:** *tames* &middot; **-ing form:** *taming*
 **Transitivity:** transitive
 
@@ -653,6 +694,7 @@ To make a wild animal used to people and safe to handle.
 **Pronunciation:** /dəˈmɛstɪkeɪt/ &middot; *duh-MES-tuh-kayt*
 **Русский:** одомашнивать, одомашнить
 **Forms:** *domesticate* &middot; *domesticated* &middot; *domesticated*
+**Verb class:** regular
 **Third person:** *domesticates* &middot; **-ing form:** *domesticating*
 **Transitivity:** transitive
 
@@ -669,6 +711,7 @@ To turn a wild species into one that lives with and works for people.
 **Pronunciation:** /ˈbʊtʃər/ &middot; *BUUCH-ur*
 **Русский:** разделывать (тушу); забивать (скот)
 **Forms:** *butcher* &middot; *butchered* &middot; *butchered*
+**Verb class:** regular
 **Third person:** *butchers* &middot; **-ing form:** *butchering*
 **Transitivity:** transitive
 
@@ -685,6 +728,7 @@ To kill an animal and cut it up for meat.
 **Pronunciation:** /ɡruːm/ &middot; *GROOM*
 **Русский:** чистить, ухаживать (за животным)
 **Forms:** *groom* &middot; *groomed* &middot; *groomed*
+**Verb class:** regular
 **Third person:** *grooms* &middot; **-ing form:** *grooming*
 **Transitivity:** transitive
 
@@ -701,6 +745,7 @@ To brush and clean an animal's coat.
 **Pronunciation:** /tɛnd/ &middot; *TEND*
 **Русский:** ухаживать (за растениями, животными); присматривать
 **Forms:** *tend* &middot; *tended* &middot; *tended*
+**Verb class:** regular
 **Third person:** *tends* &middot; **-ing form:** *tending*
 **Transitivity:** transitive
 **Contrast:** You can tend the animals or tend to the animals. Do not mix it up with tend to do something, which means 'usually do'.
@@ -718,6 +763,7 @@ To look after plants or animals and give them what they need.
 **Pronunciation:** /fɛns/ &middot; *FENS*
 **Русский:** огораживать, огородить (забором)
 **Forms:** *fence* &middot; *fenced* &middot; *fenced*
+**Verb class:** regular
 **Third person:** *fences* &middot; **-ing form:** *fencing*
 **Transitivity:** transitive
 
@@ -734,6 +780,7 @@ To put a fence around a piece of land.
 **Pronunciation:** /ˈnɜːrtʃər/ &middot; *NUR-chur*
 **Русский:** выхаживать, взращивать; заботливо растить
 **Forms:** *nurture* &middot; *nurtured* &middot; *nurtured*
+**Verb class:** regular
 **Third person:** *nurtures* &middot; **-ing form:** *nurturing*
 **Transitivity:** transitive
 
@@ -750,6 +797,7 @@ To care for something young or weak so that it grows strong.
 **Pronunciation:** /ˈhɑːrnɪs/ &middot; *HAR-nis*
 **Русский:** запрягать, запрячь
 **Forms:** *harness* &middot; *harnessed* &middot; *harnessed*
+**Verb class:** regular
 **Third person:** *harnesses* &middot; **-ing form:** *harnessing*
 **Transitivity:** transitive
 **Contrast:** Third person adds -es after -ss: he harnesses the team.
@@ -767,6 +815,7 @@ To put straps on a horse or other animal so it can pull something.
 **Pronunciation:** /ˈsædəl/ &middot; *SAD-uhl*
 **Русский:** седлать, оседлать
 **Forms:** *saddle* &middot; *saddled* &middot; *saddled*
+**Verb class:** regular
 **Third person:** *saddles* &middot; **-ing form:** *saddling*
 **Transitivity:** transitive
 
@@ -783,6 +832,7 @@ To put a saddle on a horse.
 **Pronunciation:** /meɪt/ &middot; *MAYT*
 **Русский:** спариваться, спариться
 **Forms:** *mate* &middot; *mated* &middot; *mated*
+**Verb class:** regular
 **Third person:** *mates* &middot; **-ing form:** *mating*
 **Transitivity:** both — intransitive (geese mate for life), transitive (they mated the mare with a local stallion)
 **Contrast:** Animals mate with each other: the female mates with one male only.
@@ -800,6 +850,7 @@ To come together with another animal to produce young.
 **Pronunciation:** /nɛst/ &middot; *NEST*
 **Русский:** гнездиться, вить гнездо
 **Forms:** *nest* &middot; *nested* &middot; *nested*
+**Verb class:** regular
 **Third person:** *nests* &middot; **-ing form:** *nesting*
 **Transitivity:** intransitive
 
@@ -816,6 +867,7 @@ To build a nest and live in it while raising young.
 **Pronunciation:** /ruːst/ &middot; *ROOST*
 **Русский:** усаживаться на насест; ночевать (о птицах)
 **Forms:** *roost* &middot; *roosted* &middot; *roosted*
+**Verb class:** regular
 **Third person:** *roosts* &middot; **-ing form:** *roosting*
 **Transitivity:** intransitive
 
@@ -832,6 +884,7 @@ To settle somewhere high for the night, said of birds.
 **Pronunciation:** /pɜːrtʃ/ &middot; *PURCH*
 **Русский:** садиться, усаживаться (о птице)
 **Forms:** *perch* &middot; *perched* &middot; *perched*
+**Verb class:** regular
 **Third person:** *perches* &middot; **-ing form:** *perching*
 **Transitivity:** intransitive
 
@@ -848,6 +901,7 @@ To sit on a branch, wire, or post, said of a bird.
 **Pronunciation:** /swɔːrm/ &middot; *SWORM*
 **Русский:** роиться; кишеть
 **Forms:** *swarm* &middot; *swarmed* &middot; *swarmed*
+**Verb class:** regular
 **Third person:** *swarms* &middot; **-ing form:** *swarming*
 **Transitivity:** intransitive
 
@@ -864,6 +918,7 @@ To move or gather in a large crowd, said of bees and other insects.
 **Pronunciation:** /ˈhaɪbərneɪt/ &middot; *HY-bur-nayt*
 **Русский:** впадать в спячку, зимовать
 **Forms:** *hibernate* &middot; *hibernated* &middot; *hibernated*
+**Verb class:** regular
 **Third person:** *hibernates* &middot; **-ing form:** *hibernating*
 **Transitivity:** intransitive
 
@@ -880,6 +935,7 @@ To sleep through the winter, said of animals like bears and groundhogs.
 **Pronunciation:** /ˈbɜːroʊ/ &middot; *BUR-oh*
 **Русский:** рыть нору; зарываться
 **Forms:** *burrow* &middot; *burrowed* &middot; *burrowed*
+**Verb class:** regular
 **Third person:** *burrows* &middot; **-ing form:** *burrowing*
 **Transitivity:** both — intransitive (rabbits burrow under the fence), transitive (it burrowed a tunnel)
 
@@ -896,6 +952,7 @@ To dig a hole or tunnel in the ground to live in.
 **Pronunciation:** /spɔːn/ &middot; *SPAWN*
 **Русский:** метать икру, нереститься
 **Forms:** *spawn* &middot; *spawned* &middot; *spawned*
+**Verb class:** regular
 **Third person:** *spawns* &middot; **-ing form:** *spawning*
 **Transitivity:** intransitive
 
@@ -912,6 +969,7 @@ To lay eggs in water, said of fish and frogs.
 **Pronunciation:** /moʊlt/ &middot; *MOHLT*
 **Русский:** линять, сбрасывать перья (шерсть)
 **Forms:** *molt* &middot; *molted* &middot; *molted*
+**Verb class:** regular
 **Third person:** *molts* &middot; **-ing form:** *molting*
 **Transitivity:** intransitive
 **Contrast:** American spelling is molt; British English writes moult.
@@ -929,6 +987,7 @@ To lose old feathers, hair, or skin so that new ones can grow.
 **Pronunciation:** /flɑːk/ &middot; *FLAHK*
 **Русский:** слетаться, стекаться; собираться стаей
 **Forms:** *flock* &middot; *flocked* &middot; *flocked*
+**Verb class:** regular
 **Third person:** *flocks* &middot; **-ing form:** *flocking*
 **Transitivity:** intransitive
 **Contrast:** Birds flock to a place — the preposition is to.
@@ -946,6 +1005,7 @@ To gather or travel in a large group, said especially of birds.
 **Pronunciation:** /ˈfɔːrɪdʒ/ &middot; *FOR-ij*
 **Русский:** добывать корм, искать пищу
 **Forms:** *forage* &middot; *foraged* &middot; *foraged*
+**Verb class:** regular
 **Third person:** *forages* &middot; **-ing form:** *foraging*
 **Transitivity:** intransitive
 **Contrast:** Forage for something: the bears forage for berries.
@@ -963,6 +1023,7 @@ To go around searching for food in the wild.
 **Pronunciation:** /preɪ/ &middot; *PRAY*
 **Русский:** охотиться (на кого-л.), питаться (кем-л.)
 **Forms:** *prey* &middot; *preyed* &middot; *preyed*
+**Verb class:** regular
 **Third person:** *preys* &middot; **-ing form:** *preying*
 **Transitivity:** intransitive
 **Contrast:** Always prey on something. It sounds exactly like pray (to pray in church).
@@ -980,6 +1041,7 @@ To hunt and eat another animal.
 **Pronunciation:** /ˈskævɪndʒ/ &middot; *SKAV-inj*
 **Русский:** питаться падалью; рыться в поисках еды
 **Forms:** *scavenge* &middot; *scavenged* &middot; *scavenged*
+**Verb class:** regular
 **Third person:** *scavenges* &middot; **-ing form:** *scavenging*
 **Transitivity:** both — intransitive (vultures scavenge), transitive (they scavenged whatever was left)
 
@@ -996,6 +1058,7 @@ To feed on dead animals or on food that others have left.
 **Pronunciation:** /pɛk/ &middot; *PEK*
 **Русский:** клевать, клюнуть
 **Forms:** *peck* &middot; *pecked* &middot; *pecked*
+**Verb class:** regular
 **Third person:** *pecks* &middot; **-ing form:** *pecking*
 **Transitivity:** both — transitive (a rooster pecked my ankle), intransitive (the hens peck at the corn)
 **Contrast:** Peck at something means to take small pecks at it: the birds peck at the seed.
@@ -1013,6 +1076,7 @@ To strike or pick up something with the beak.
 **Pronunciation:** /ˈflʌtər/ &middot; *FLUT-ur*
 **Русский:** порхать; трепетать, колыхаться
 **Forms:** *flutter* &middot; *fluttered* &middot; *fluttered*
+**Verb class:** regular
 **Third person:** *flutters* &middot; **-ing form:** *fluttering*
 **Transitivity:** intransitive
 
@@ -1029,6 +1093,7 @@ To fly or move with quick, light, irregular motions.
 **Pronunciation:** /wæɡ/ &middot; *WAG*
 **Русский:** вилять (хвостом), махать
 **Forms:** *wag* &middot; *wagged* &middot; *wagged*
+**Verb class:** regular
 **Third person:** *wags* &middot; **-ing form:** *wagging*
 **Transitivity:** transitive
 **Contrast:** Doubles the g: wag → wagged, wagging.
@@ -1046,6 +1111,7 @@ To move a tail quickly from side to side.
 **Pronunciation:** /ˈslɪðər/ &middot; *SLITH-ur*
 **Русский:** скользить, ползти (о змее)
 **Forms:** *slither* &middot; *slithered* &middot; *slithered*
+**Verb class:** regular
 **Third person:** *slithers* &middot; **-ing form:** *slithering*
 **Transitivity:** intransitive
 
@@ -1062,6 +1128,7 @@ To move along the ground with a smooth twisting motion, the way a snake does.
 **Pronunciation:** /ˈskæmpər/ &middot; *SKAM-pur*
 **Русский:** сновать, носиться; шмыгнуть
 **Forms:** *scamper* &middot; *scampered* &middot; *scampering*
+**Verb class:** regular
 **Third person:** *scampers* &middot; **-ing form:** *scampering*
 **Transitivity:** intransitive
 
@@ -1078,6 +1145,7 @@ To run quickly with short light steps, the way a small animal does.
 **Pronunciation:** /bæsk/ &middot; *BASK*
 **Русский:** греться (на солнце)
 **Forms:** *bask* &middot; *basked* &middot; *basked*
+**Verb class:** regular
 **Third person:** *basks* &middot; **-ing form:** *basking*
 **Transitivity:** intransitive
 **Contrast:** Bask in the sun — the preposition is in, not on.
@@ -1095,6 +1163,7 @@ To lie in a warm place, especially in the sun, and enjoy the heat.
 **Pronunciation:** /praʊl/ &middot; *PROWL*
 **Русский:** рыскать, красться (в поисках добычи)
 **Forms:** *prowl* &middot; *prowled* &middot; *prowled*
+**Verb class:** regular
 **Third person:** *prowls* &middot; **-ing form:** *prowling*
 **Transitivity:** both — transitive (the cat prowls the barn), intransitive (coyotes prowl at night)
 
@@ -1111,6 +1180,7 @@ To move around quietly looking for something to catch.
 **Pronunciation:** /paʊns/ &middot; *POWNS*
 **Русский:** набрасываться, наброситься; прыгать на добычу
 **Forms:** *pounce* &middot; *pounced* &middot; *pounced*
+**Verb class:** regular
 **Third person:** *pounces* &middot; **-ing form:** *pouncing*
 **Transitivity:** intransitive
 **Contrast:** Pounce on something — the preposition is on.
@@ -1128,6 +1198,7 @@ To jump suddenly onto something in order to catch it.
 **Pronunciation:** /swuːp/ &middot; *SWOOP*
 **Русский:** пикировать, налетать; устремляться вниз
 **Forms:** *swoop* &middot; *swooped* &middot; *swooped*
+**Verb class:** regular
 **Third person:** *swoops* &middot; **-ing form:** *swooping*
 **Transitivity:** intransitive
 
@@ -1144,6 +1215,7 @@ To fly down suddenly and steeply.
 **Pronunciation:** /tʃɜːrp/ &middot; *CHURP*
 **Русский:** чирикать, щебетать; стрекотать
 **Forms:** *chirp* &middot; *chirped* &middot; *chirped*
+**Verb class:** regular
 **Third person:** *chirps* &middot; **-ing form:** *chirping*
 **Transitivity:** intransitive
 
@@ -1160,6 +1232,7 @@ To make a short high sound, said of small birds and insects.
 **Pronunciation:** /haʊl/ &middot; *HOWL*
 **Русский:** выть, завывать
 **Forms:** *howl* &middot; *howled* &middot; *howled*
+**Verb class:** regular
 **Third person:** *howls* &middot; **-ing form:** *howling*
 **Transitivity:** intransitive
 
@@ -1176,6 +1249,7 @@ To make a long loud crying sound, said of dogs, wolves, or the wind.
 **Pronunciation:** /bɑːrk/ &middot; *BARK*
 **Русский:** лаять, залаять
 **Forms:** *bark* &middot; *barked* &middot; *barked*
+**Verb class:** regular
 **Third person:** *barks* &middot; **-ing form:** *barking*
 **Transitivity:** intransitive
 **Contrast:** The noun bark also means the outer skin of a tree — same spelling, different word.
@@ -1193,6 +1267,7 @@ To make the short loud sound a dog makes.
 **Pronunciation:** /ɡraʊl/ &middot; *GROWL*
 **Русский:** рычать, зарычать
 **Forms:** *growl* &middot; *growled* &middot; *growled*
+**Verb class:** regular
 **Third person:** *growls* &middot; **-ing form:** *growling*
 **Transitivity:** intransitive
 
@@ -1209,6 +1284,7 @@ To make a low threatening sound in the throat, said of an animal.
 **Pronunciation:** /pɜːr/ &middot; *PUR*
 **Русский:** мурлыкать, замурлыкать
 **Forms:** *purr* &middot; *purred* &middot; *purred*
+**Verb class:** regular
 **Third person:** *purrs* &middot; **-ing form:** *purring*
 **Transitivity:** intransitive
 
@@ -1225,6 +1301,7 @@ To make a low steady sound of contentment, said of a cat.
 **Pronunciation:** /huːt/ &middot; *HOOT*
 **Русский:** ухать (о сове), кричать
 **Forms:** *hoot* &middot; *hooted* &middot; *hooted*
+**Verb class:** regular
 **Third person:** *hoots* &middot; **-ing form:** *hooting*
 **Transitivity:** intransitive
 
@@ -1241,6 +1318,7 @@ To make the long low call of an owl.
 **Pronunciation:** /kroʊk/ &middot; *KROHK*
 **Русский:** квакать; каркать
 **Forms:** *croak* &middot; *croaked* &middot; *croaked*
+**Verb class:** regular
 **Third person:** *croaks* &middot; **-ing form:** *croaking*
 **Transitivity:** intransitive
 
@@ -1257,6 +1335,7 @@ To make the deep rough sound of a frog or a crow.
 **Pronunciation:** /klʌk/ &middot; *KLUK*
 **Русский:** кудахтать, квохтать
 **Forms:** *cluck* &middot; *clucked* &middot; *clucked*
+**Verb class:** regular
 **Third person:** *clucks* &middot; **-ing form:** *clucking*
 **Transitivity:** intransitive
 
@@ -1273,6 +1352,7 @@ To make the short repeated sound of a hen.
 **Pronunciation:** /kwæk/ &middot; *KWAK*
 **Русский:** крякать
 **Forms:** *quack* &middot; *quacked* &middot; *quacked*
+**Verb class:** regular
 **Third person:** *quacks* &middot; **-ing form:** *quacking*
 **Transitivity:** intransitive
 
@@ -1289,6 +1369,7 @@ To make the sound a duck makes.
 **Pronunciation:** /skriːtʃ/ &middot; *SKREECH*
 **Русский:** пронзительно кричать, визжать
 **Forms:** *screech* &middot; *screeched* &middot; *screeched*
+**Verb class:** regular
 **Third person:** *screeches* &middot; **-ing form:** *screeching*
 **Transitivity:** intransitive
 **Contrast:** Third person takes -es after -ch: it screeches.
@@ -1306,6 +1387,7 @@ To make a loud sharp high cry.
 **Pronunciation:** /ˈɡæləp/ &middot; *GAL-uhp*
 **Русский:** скакать галопом, нестись галопом
 **Forms:** *gallop* &middot; *galloped* &middot; *galloped*
+**Verb class:** regular
 **Third person:** *gallops* &middot; **-ing form:** *galloping*
 **Transitivity:** intransitive
 **Contrast:** One p: galloped, galloping. The stress falls on GAL-, so the last consonant is not doubled.
@@ -1323,6 +1405,7 @@ To run at the fastest pace, said of a horse.
 **Pronunciation:** /trɑːt/ &middot; *TRAHT*
 **Русский:** бежать рысью, идти рысью
 **Forms:** *trot* &middot; *trotted* &middot; *trotted*
+**Verb class:** regular
 **Third person:** *trots* &middot; **-ing form:** *trotting*
 **Transitivity:** intransitive
 **Contrast:** Doubles the t: trot → trotted, trotting.
@@ -1340,6 +1423,7 @@ To move at a steady pace between walking and running, said of a horse.
 **Pronunciation:** /hʌnt/ &middot; *HUNT*
 **Русский:** охотиться (на)
 **Forms:** *hunt* &middot; *hunted* &middot; *hunted*
+**Verb class:** regular
 **Third person:** *hunts* &middot; **-ing form:** *hunting*
 **Transitivity:** both — transitive (hunt deer), intransitive (they hunt every November)
 **Contrast:** Hunt an animal, but hunt for something you have lost: I hunted for my keys.
@@ -1357,6 +1441,7 @@ To chase and kill wild animals for food or sport.
 **Pronunciation:** /fɪʃ/ &middot; *FISH*
 **Русский:** ловить рыбу, рыбачить
 **Forms:** *fish* &middot; *fished* &middot; *fished*
+**Verb class:** regular
 **Third person:** *fishes* &middot; **-ing form:** *fishing*
 **Transitivity:** intransitive
 **Contrast:** Third person adds -es after -sh: he fishes. You fish for trout — the preposition is for.
@@ -1374,6 +1459,7 @@ To try to catch fish.
 **Pronunciation:** /reɪn/ &middot; *RAYN*
 **Русский:** идти (о дожде), лить
 **Forms:** *rain* &middot; *rained* &middot; *rained*
+**Verb class:** regular
 **Third person:** *rains* &middot; **-ing form:** *raining*
 **Transitivity:** intransitive
 **Contrast:** The subject is always it: It rained hard. Sounds like reign (of a king) and rein (of a horse).
@@ -1391,6 +1477,7 @@ To fall as water from the clouds.
 **Pronunciation:** /snoʊ/ &middot; *SNOH*
 **Русский:** идти (о снеге)
 **Forms:** *snow* &middot; *snowed* &middot; *snowed*
+**Verb class:** regular
 **Third person:** *snows* &middot; **-ing form:** *snowing*
 **Transitivity:** intransitive
 **Contrast:** Like rain, it takes it as its subject: It snowed all night.
@@ -1408,6 +1495,7 @@ To fall as snow from the sky.
 **Pronunciation:** /drɛntʃ/ &middot; *DRENCH*
 **Русский:** промочить насквозь, залить
 **Forms:** *drench* &middot; *drenched* &middot; *drenched*
+**Verb class:** regular
 **Third person:** *drenches* &middot; **-ing form:** *drenching*
 **Transitivity:** transitive
 
@@ -1424,6 +1512,7 @@ To make something completely wet.
 **Pronunciation:** /siːp/ &middot; *SEEP*
 **Русский:** просачиваться, просочиться
 **Forms:** *seep* &middot; *seeped* &middot; *seeped*
+**Verb class:** regular
 **Third person:** *seeps* &middot; **-ing form:** *seeping*
 **Transitivity:** intransitive
 
@@ -1440,6 +1529,7 @@ To flow slowly through small openings in soil or a wall.
 **Pronunciation:** /ˈtrɪkəl/ &middot; *TRIK-uhl*
 **Русский:** течь тонкой струйкой, сочиться
 **Forms:** *trickle* &middot; *trickled* &middot; *trickled*
+**Verb class:** regular
 **Third person:** *trickles* &middot; **-ing form:** *trickling*
 **Transitivity:** intransitive
 
@@ -1456,6 +1546,7 @@ To flow in a thin, slow stream.
 **Pronunciation:** /ɪˈvæpəreɪt/ &middot; *ih-VAP-uh-rayt*
 **Русский:** испаряться, испариться
 **Forms:** *evaporate* &middot; *evaporated* &middot; *evaporated*
+**Verb class:** regular
 **Third person:** *evaporates* &middot; **-ing form:** *evaporating*
 **Transitivity:** both — intransitive (the puddles evaporate), transitive (the sun evaporates the water)
 
@@ -1472,6 +1563,7 @@ To turn from liquid into vapor and disappear into the air.
 **Pronunciation:** /dæm/ &middot; *DAM*
 **Русский:** перегораживать плотиной, запруживать
 **Forms:** *dam* &middot; *dammed* &middot; *dammed*
+**Verb class:** regular
 **Third person:** *dams* &middot; **-ing form:** *damming*
 **Transitivity:** transitive
 **Contrast:** Doubles the m: dam → dammed, damming — which then looks like damn, a different word entirely.
@@ -1489,6 +1581,7 @@ To block a stream or river so the water backs up behind a wall.
 **Pronunciation:** /dəˈvɜːrt/ &middot; *duh-VURT*
 **Русский:** отводить, отвести (воду); направлять в другую сторону
 **Forms:** *divert* &middot; *diverted* &middot; *diverted*
+**Verb class:** regular
 **Third person:** *diverts* &middot; **-ing form:** *diverting*
 **Transitivity:** transitive
 
@@ -1505,6 +1598,7 @@ To make water or traffic go a different way.
 **Pronunciation:** /ɪnˈfɛst/ &middot; *in-FEST*
 **Русский:** заражать (вредителями), кишеть
 **Forms:** *infest* &middot; *infested* &middot; *infested*
+**Verb class:** regular
 **Third person:** *infests* &middot; **-ing form:** *infesting*
 **Transitivity:** transitive
 **Contrast:** Usually passive: the field is infested with weevils — the preposition is with.
@@ -1522,6 +1616,7 @@ To fill a place in large harmful numbers, said of insects or pests.
 **Pronunciation:** /ˈkæməflɑːʒ/ &middot; *KAM-uh-flahzh*
 **Русский:** маскировать, замаскировать
 **Forms:** *camouflage* &middot; *camouflaged* &middot; *camouflaged*
+**Verb class:** regular
 **Third person:** *camouflages* &middot; **-ing form:** *camouflaging*
 **Transitivity:** transitive
 **Contrast:** Spelling trap: -mou- in the middle and -flage at the end, but it ends in the sound -flahzh.
@@ -1539,6 +1634,7 @@ To hide something by making it look like what is around it.
 **Pronunciation:** /fɑːrm/ &middot; *FARM*
 **Русский:** заниматься сельским хозяйством; обрабатывать (землю)
 **Forms:** *farm* &middot; *farmed* &middot; *farmed*
+**Verb class:** regular
 **Third person:** *farms* &middot; **-ing form:** *farming*
 **Transitivity:** both — transitive (farm four hundred acres), intransitive (they farm for a living)
 
@@ -1555,6 +1651,7 @@ To use land to grow crops or raise animals.
 **Pronunciation:** /ˈɡɑːrdən/ &middot; *GAR-duhn*
 **Русский:** заниматься садоводством, работать в саду
 **Forms:** *garden* &middot; *gardened* &middot; *gardened*
+**Verb class:** regular
 **Third person:** *gardens* &middot; **-ing form:** *gardening*
 **Transitivity:** intransitive
 
@@ -1571,6 +1668,7 @@ To work in a garden growing flowers or vegetables.
 **Pronunciation:** /fɛl/ &middot; *FEL*
 **Русский:** рубить, срубить (дерево); валить
 **Forms:** *fell* &middot; *felled* &middot; *felled*
+**Verb class:** regular
 **Third person:** *fells* &middot; **-ing form:** *felling*
 **Transitivity:** transitive
 **Contrast:** Not the same as fell, the past of fall. The tree fell on its own; the crew felled the tree.
@@ -1588,6 +1686,7 @@ To cut down a tree.
 **Pronunciation:** /stæmˈpiːd/ &middot; *stam-PEED*
 **Русский:** обращаться в паническое бегство (о стаде)
 **Forms:** *stampede* &middot; *stampeded* &middot; *stampeded*
+**Verb class:** regular
 **Third person:** *stampedes* &middot; **-ing form:** *stampeding*
 **Transitivity:** both — intransitive (the cattle stampeded), transitive (the thunder stampeded the herd)
 
@@ -1604,6 +1703,7 @@ To run in a sudden panic, said of a herd of animals.
 **Pronunciation:** /brænd/ &middot; *BRAND*
 **Русский:** клеймить, заклеймить (скот)
 **Forms:** *brand* &middot; *branded* &middot; *branded*
+**Verb class:** regular
 **Third person:** *brands* &middot; **-ing form:** *branding*
 **Transitivity:** transitive
 
@@ -1620,6 +1720,7 @@ To burn a mark into an animal's hide to show who owns it.
 **Pronunciation:** /ˈnʌzəl/ &middot; *NUZ-uhl*
 **Русский:** тыкаться носом, ласкаться мордой
 **Forms:** *nuzzle* &middot; *nuzzled* &middot; *nuzzled*
+**Verb class:** regular
 **Third person:** *nuzzles* &middot; **-ing form:** *nuzzling*
 **Transitivity:** both — transitive (the calf nuzzled its mother), intransitive (the horse nuzzled at my hand)
 
@@ -1636,6 +1737,7 @@ To push or rub gently with the nose or mouth.
 **Pronunciation:** /pɔː/ &middot; *PAW*
 **Русский:** рыть копытом (лапой), скрести
 **Forms:** *paw* &middot; *pawed* &middot; *pawed*
+**Verb class:** regular
 **Third person:** *paws* &middot; **-ing form:** *pawing*
 **Transitivity:** both — transitive (the horse pawed the ground), intransitive (the dog pawed at the door)
 **Contrast:** Paw at something when the animal keeps touching it: the cat paws at the window.
@@ -1653,6 +1755,7 @@ To scrape or touch something with a foot or hoof.
 **Pronunciation:** /ˈwɑːloʊ/ &middot; *WAH-loh*
 **Русский:** валяться (в грязи), барахтаться
 **Forms:** *wallow* &middot; *wallowed* &middot; *wallowed*
+**Verb class:** regular
 **Third person:** *wallows* &middot; **-ing form:** *wallowing*
 **Transitivity:** intransitive
 
@@ -1669,6 +1772,7 @@ To roll around in mud or water, said of animals.
 **Pronunciation:** /ˈrɪpəl/ &middot; *RIP-uhl*
 **Русский:** покрываться рябью; колыхаться волнами
 **Forms:** *ripple* &middot; *rippled* &middot; *rippled*
+**Verb class:** regular
 **Third person:** *ripples* &middot; **-ing form:** *rippling*
 **Transitivity:** intransitive
 
@@ -1685,6 +1789,7 @@ To move in small waves across a surface.
 **Pronunciation:** /ˈlændskeɪp/ &middot; *LAND-skayp*
 **Русский:** благоустраивать (участок), озеленять
 **Forms:** *landscape* &middot; *landscaped* &middot; *landscaped*
+**Verb class:** regular
 **Third person:** *landscapes* &middot; **-ing form:** *landscaping*
 **Transitivity:** transitive
 
@@ -1701,6 +1806,7 @@ To improve a piece of ground by planting and shaping it.
 **Pronunciation:** /θɪn/ &middot; *THIN*
 **Русский:** прореживать, проредить (всходы)
 **Forms:** *thin* &middot; *thinned* &middot; *thinned*
+**Verb class:** regular
 **Third person:** *thins* &middot; **-ing form:** *thinning*
 **Transitivity:** transitive
 **Contrast:** Doubles the n: thin → thinned, thinning.

@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /pərˈfɔːrm/ &middot; *pur-FAWRM*
 **Русский:** выступать, выступить; исполнять, исполнить
 **Forms:** *perform* &middot; *performed* &middot; *performed*
+**Verb class:** regular
 **Third person:** *performs* &middot; **-ing form:** *performing*
 **Transitivity:** both — transitive (perform a song), intransitive (perform on stage)
 
@@ -30,6 +31,7 @@ To present music, a play, or a dance in front of an audience.
 **Pronunciation:** /ækt/ &middot; *AKT*
 **Русский:** играть (на сцене), сыграть; актёрствовать
 **Forms:** *act* &middot; *acted* &middot; *acted*
+**Verb class:** regular
 **Third person:** *acts* &middot; **-ing form:** *acting*
 **Transitivity:** both — transitive (act the part of a king), intransitive (act in a film)
 
@@ -46,6 +48,7 @@ To play a part in a play, film, or television show.
 **Pronunciation:** /pleɪ/ &middot; *PLAY*
 **Русский:** играть, сыграть (на инструменте)
 **Forms:** *play* &middot; *played* &middot; *played*
+**Verb class:** regular
 **Third person:** *plays* &middot; **-ing form:** *playing*
 **Transitivity:** both — transitive (play the cello), intransitive (the band played for an hour)
 **Contrast:** With an instrument English keeps *the*: *play the piano*. With a style it drops the article: *play jazz*.
@@ -63,6 +66,7 @@ To make music on an instrument, or to perform a piece of music.
 **Pronunciation:** /dæns/ &middot; *DANSS*
 **Русский:** танцевать, станцевать
 **Forms:** *dance* &middot; *danced* &middot; *danced*
+**Verb class:** regular
 **Third person:** *dances* &middot; **-ing form:** *dancing*
 **Transitivity:** both — transitive (dance a waltz), intransitive (dance all night)
 **Contrast:** American /dæns/ with the vowel of *cat*, not British /dɑːns/.
@@ -80,6 +84,7 @@ To move your body in time with music.
 **Pronunciation:** /rɪˈhɜːrs/ &middot; *ri-HURSS*
 **Русский:** репетировать, отрепетировать
 **Forms:** *rehearse* &middot; *rehearsed* &middot; *rehearsed*
+**Verb class:** regular
 **Third person:** *rehearses* &middot; **-ing form:** *rehearsing*
 **Transitivity:** both — transitive (rehearse a scene), intransitive (rehearse all week)
 
@@ -96,6 +101,7 @@ To practice a play, concert, or dance before performing it publicly.
 **Pronunciation:** /ɔːˈdɪʃən/ &middot; *aw-DISH-uhn*
 **Русский:** проходить прослушивание; прослушивать
 **Forms:** *audition* &middot; *auditioned* &middot; *auditioning*
+**Verb class:** regular
 **Third person:** *auditions* &middot; **-ing form:** *auditioning*
 **Transitivity:** both — transitive (audition forty dancers), intransitive (audition for a part)
 **Contrast:** A performer *auditions for* a part; a director *auditions* the performers.
@@ -113,6 +119,7 @@ To try out for a part in a performance, or to hear someone try out.
 **Pronunciation:** /ˈɪmprəvaɪz/ &middot; *IM-pruh-vyz*
 **Русский:** импровизировать, сымпровизировать
 **Forms:** *improvise* &middot; *improvised* &middot; *improvised*
+**Verb class:** regular
 **Third person:** *improvises* &middot; **-ing form:** *improvising*
 **Transitivity:** both — transitive (improvise a solo), intransitive (improvise for ten minutes)
 
@@ -129,6 +136,7 @@ To make up music, words, or action as you go, without preparing it.
 **Pronunciation:** /maɪm/ &middot; *MYM*
 **Русский:** изображать пантомимой, показывать жестами
 **Forms:** *mime* &middot; *mimed* &middot; *mimed*
+**Verb class:** regular
 **Third person:** *mimes* &middot; **-ing form:** *miming*
 **Transitivity:** both — transitive (mime opening a door), intransitive (mime on the sidewalk)
 
@@ -145,6 +153,7 @@ To act something out using only movement, with no words.
 **Pronunciation:** /ˈɪməteɪt/ &middot; *IM-uh-tayt*
 **Русский:** подражать, имитировать
 **Forms:** *imitate* &middot; *imitated* &middot; *imitated*
+**Verb class:** regular
 **Third person:** *imitates* &middot; **-ing form:** *imitating*
 **Transitivity:** transitive
 
@@ -161,6 +170,7 @@ To copy the way someone speaks, moves, or works.
 **Pronunciation:** /ˈmɪmɪk/ &middot; *MIM-ik*
 **Русский:** передразнивать, копировать
 **Forms:** *mimic* &middot; *mimicked* &middot; *mimicked*
+**Verb class:** regular
 **Third person:** *mimics* &middot; **-ing form:** *mimicking*
 **Transitivity:** transitive
 **Contrast:** A *k* is inserted before the ending: *mimicked*, *mimicking* — like *panic → panicked*.
@@ -178,6 +188,7 @@ To copy someone's voice or gestures, often to make fun of them.
 **Pronunciation:** /ˌriːɪˈnækt/ &middot; *ree-i-NAKT*
 **Русский:** воссоздавать, реконструировать (событие)
 **Forms:** *reenact* &middot; *reenacted* &middot; *reenacted*
+**Verb class:** regular
 **Third person:** *reenacts* &middot; **-ing form:** *reenacting*
 **Transitivity:** transitive
 **Contrast:** Written *reenact* in American English; the spelling *re-enact* is also seen.
@@ -195,6 +206,7 @@ To act out a past event again, in detail.
 **Pronunciation:** /ˈdræmətaɪz/ &middot; *DRAM-uh-tyz*
 **Русский:** инсценировать; драматизировать
 **Forms:** *dramatize* &middot; *dramatized* &middot; *dramatized*
+**Verb class:** regular
 **Third person:** *dramatizes* &middot; **-ing form:** *dramatizing*
 **Transitivity:** transitive
 **Contrast:** American *dramatize*; British usually *dramatise*.
@@ -212,6 +224,7 @@ To turn a story into a play or film, or to make something sound more exciting th
 **Pronunciation:** /baʊ/ &middot; *BOW*
 **Русский:** кланяться, поклониться
 **Forms:** *bow* &middot; *bowed* &middot; *bowed*
+**Verb class:** regular
 **Third person:** *bows* &middot; **-ing form:** *bowing*
 **Transitivity:** intransitive
 **Contrast:** To bend forward is /baʊ/, rhyming with *now*. The *bow* you play a violin with, and the *bow* in a ribbon, are /boʊ/.
@@ -229,6 +242,7 @@ To bend forward from the waist to thank an audience.
 **Pronunciation:** /ˈkɜːrtsi/ &middot; *KURT-see*
 **Русский:** делать реверанс
 **Forms:** *curtsy* &middot; *curtsied* &middot; *curtsied*
+**Verb class:** regular
 **Third person:** *curtsies* &middot; **-ing form:** *curtsying*
 **Transitivity:** intransitive
 **Contrast:** Consonant + y, so it becomes *curtsies* and *curtsied*, but the y stays in *curtsying*.
@@ -246,6 +260,7 @@ To bend the knees and lower the body slightly as a formal greeting or thank-you.
 **Pronunciation:** /əˈplɔːd/ &middot; *uh-PLAWD*
 **Русский:** аплодировать, рукоплескать
 **Forms:** *applaud* &middot; *applauded* &middot; *applauded*
+**Verb class:** regular
 **Third person:** *applauds* &middot; **-ing form:** *applauding*
 **Transitivity:** both — transitive (applaud the soloist), intransitive (the crowd applauded)
 
@@ -262,6 +277,7 @@ To clap your hands to show that you liked a performance.
 **Pronunciation:** /buː/ &middot; *BOO*
 **Русский:** освистывать, улюлюкать
 **Forms:** *boo* &middot; *booed* &middot; *booed*
+**Verb class:** regular
 **Third person:** *boos* &middot; **-ing form:** *booing*
 **Transitivity:** both — transitive (boo the villain), intransitive (the crowd booed)
 **Contrast:** The double o stays and the ending is simply added: *booed*, *booing*.
@@ -279,6 +295,7 @@ To shout in disapproval at a performer or a performance.
 **Pronunciation:** /ˈdʒʌɡəl/ &middot; *JUG-uhl*
 **Русский:** жонглировать
 **Forms:** *juggle* &middot; *juggled* &middot; *juggled*
+**Verb class:** regular
 **Third person:** *juggles* &middot; **-ing form:** *juggling*
 **Transitivity:** both — transitive (juggle five oranges), intransitive (juggle for the crowd)
 
@@ -295,6 +312,7 @@ To keep several objects moving through the air by throwing and catching them.
 **Pronunciation:** /ˈdʒɛstʃər/ &middot; *JES-chur*
 **Русский:** жестикулировать, сделать жест
 **Forms:** *gesture* &middot; *gestured* &middot; *gestured*
+**Verb class:** regular
 **Third person:** *gestures* &middot; **-ing form:** *gesturing*
 **Transitivity:** intransitive
 **Contrast:** You *gesture to* or *gesture toward* someone or something.
@@ -312,6 +330,7 @@ To move your hand or head in order to express something.
 **Pronunciation:** /ˈʌʃər/ &middot; *USH-ur*
 **Русский:** провожать на место, вводить
 **Forms:** *usher* &middot; *ushered* &middot; *ushered*
+**Verb class:** regular
 **Third person:** *ushers* &middot; **-ing form:** *ushering*
 **Transitivity:** transitive
 
@@ -328,6 +347,7 @@ To lead people to their seats or through a door.
 **Pronunciation:** /kjuː/ &middot; *KYOO*
 **Русский:** давать знак вступать, подавать реплику
 **Forms:** *cue* &middot; *cued* &middot; *cued*
+**Verb class:** regular
 **Third person:** *cues* &middot; **-ing form:** *cuing*
 **Transitivity:** transitive
 **Contrast:** Both *cuing* and *cueing* are correct; American writing prefers *cuing*.
@@ -345,6 +365,7 @@ To signal a performer or a technician to begin.
 **Pronunciation:** /stɑːr/ &middot; *STAHR*
 **Русский:** играть главную роль; снимать в главной роли
 **Forms:** *star* &middot; *starred* &middot; *starred*
+**Verb class:** regular
 **Third person:** *stars* &middot; **-ing form:** *starring*
 **Transitivity:** both — transitive (the film stars her), intransitive (star in a comedy)
 **Contrast:** The r doubles before an ending: *starred*, *starring*. An actor *stars in* a film.
@@ -362,6 +383,7 @@ To play the leading part in a film or show.
 **Pronunciation:** /dəˈrɛkt/ &middot; *duh-REKT*
 **Русский:** режиссировать, ставить; дирижировать
 **Forms:** *direct* &middot; *directed* &middot; *directed*
+**Verb class:** regular
 **Third person:** *directs* &middot; **-ing form:** *directing*
 **Transitivity:** both — transitive (direct a film), intransitive (he writes and directs)
 
@@ -378,6 +400,7 @@ To be in charge of how a film, play, or piece of music is performed.
 **Pronunciation:** /steɪdʒ/ &middot; *STAYJ*
 **Русский:** ставить (спектакль), устраивать
 **Forms:** *stage* &middot; *staged* &middot; *staged*
+**Verb class:** regular
 **Third person:** *stages* &middot; **-ing form:** *staging*
 **Transitivity:** transitive
 
@@ -394,6 +417,7 @@ To put on a play or a public event.
 **Pronunciation:** /prɪˈmɪr/ &middot; *pri-MEER*
 **Русский:** впервые показывать; состояться (о премьере)
 **Forms:** *premiere* &middot; *premiered* &middot; *premiered*
+**Verb class:** regular
 **Third person:** *premieres* &middot; **-ing form:** *premiering*
 **Transitivity:** both — transitive (the theater premiered her play), intransitive (the ballet premieres in October)
 
@@ -410,6 +434,7 @@ To show or perform something publicly for the very first time.
 **Pronunciation:** /deɪˈbjuː/ &middot; *day-BYOO*
 **Русский:** дебютировать; впервые представить
 **Forms:** *debut* &middot; *debuted* &middot; *debuted*
+**Verb class:** regular
 **Third person:** *debuts* &middot; **-ing form:** *debuting*
 **Transitivity:** both — transitive (debut a new song), intransitive (she debuted at twenty)
 **Contrast:** The t is silent: /deɪˈbjuː/, day-BYOO — but it is heard again in *debuted*, day-BYOOD.
@@ -427,6 +452,7 @@ To appear or be presented in public for the first time.
 **Pronunciation:** /ˈhɛdlaɪn/ &middot; *HED-lyn*
 **Русский:** выступать хедлайнером, возглавлять афишу
 **Forms:** *headline* &middot; *headlined* &middot; *headlined*
+**Verb class:** regular
 **Third person:** *headlines* &middot; **-ing form:** *headlining*
 **Transitivity:** both — transitive (headline the festival), intransitive (two bands headline on Saturday)
 
@@ -443,6 +469,7 @@ To be the main act at a concert or festival.
 **Pronunciation:** /kəˈlæbəreɪt/ &middot; *kuh-LAB-uh-rayt*
 **Русский:** сотрудничать, работать совместно
 **Forms:** *collaborate* &middot; *collaborated* &middot; *collaborated*
+**Verb class:** regular
 **Third person:** *collaborates* &middot; **-ing form:** *collaborating*
 **Transitivity:** intransitive
 **Contrast:** You *collaborate with* a person and *collaborate on* a project.
@@ -455,11 +482,14 @@ To work together with someone on a creative project.
 
 ---
 
+**Phrasal verbs:** [collaborate with](22-verb-preposition.md#collaborate-with)
+
 ### chant
 
 **Pronunciation:** /tʃænt/ &middot; *CHANT*
 **Русский:** скандировать; петь речитативом
 **Forms:** *chant* &middot; *chanted* &middot; *chanted*
+**Verb class:** regular
 **Third person:** *chants* &middot; **-ing form:** *chanting*
 **Transitivity:** both — transitive (chant her name), intransitive (the monks chant at dawn)
 
@@ -476,6 +506,7 @@ To sing or say the same words over and over on one or two notes.
 **Pronunciation:** /ˈhɑːrmənaɪz/ &middot; *HAR-muh-nyz*
 **Русский:** петь в гармонию, гармонизировать
 **Forms:** *harmonize* &middot; *harmonized* &middot; *harmonized*
+**Verb class:** regular
 **Third person:** *harmonizes* &middot; **-ing form:** *harmonizing*
 **Transitivity:** both — transitive (harmonize a melody), intransitive (the sisters harmonize)
 **Contrast:** American *harmonize*; British usually *harmonise*.
@@ -493,6 +524,7 @@ To sing or play notes that fit pleasingly with a melody.
 **Pronunciation:** /kənˈdʌkt/ &middot; *kuhn-DUKT*
 **Русский:** дирижировать
 **Forms:** *conduct* &middot; *conducted* &middot; *conducted*
+**Verb class:** regular
 **Third person:** *conducts* &middot; **-ing form:** *conducting*
 **Transitivity:** both — transitive (conduct the Ninth), intransitive (she conducts from the piano)
 **Contrast:** The verb is stressed kuhn-DUKT; the noun *conduct*, meaning behavior, is KAHN-dukt.
@@ -510,6 +542,7 @@ To lead an orchestra or choir with your hands or a baton.
 **Pronunciation:** /ˈɔːrkəstreɪt/ &middot; *OR-kuh-strayt*
 **Русский:** оркестровать; организовывать
 **Forms:** *orchestrate* &middot; *orchestrated* &middot; *orchestrated*
+**Verb class:** regular
 **Third person:** *orchestrates* &middot; **-ing form:** *orchestrating*
 **Transitivity:** transitive
 
@@ -526,6 +559,7 @@ To arrange music for an orchestra, or to organize something carefully.
 **Pronunciation:** /strʌm/ &middot; *STRUM*
 **Русский:** бренчать, перебирать струны
 **Forms:** *strum* &middot; *strummed* &middot; *strummed*
+**Verb class:** regular
 **Third person:** *strums* &middot; **-ing form:** *strumming*
 **Transitivity:** both — transitive (strum a guitar), intransitive (strum quietly)
 **Contrast:** The m doubles: *strummed*, *strumming*.
@@ -543,6 +577,7 @@ To play a guitar by sweeping your fingers across the strings.
 **Pronunciation:** /plʌk/ &middot; *PLUK*
 **Русский:** щипать (струны), перебирать
 **Forms:** *pluck* &middot; *plucked* &middot; *plucked*
+**Verb class:** regular
 **Third person:** *plucks* &middot; **-ing form:** *plucking*
 **Transitivity:** transitive
 
@@ -559,6 +594,7 @@ To pull a string with your fingers to make a note.
 **Pronunciation:** /drʌm/ &middot; *DRUM*
 **Русский:** барабанить, играть на ударных
 **Forms:** *drum* &middot; *drummed* &middot; *drummed*
+**Verb class:** regular
 **Third person:** *drums* &middot; **-ing form:** *drumming*
 **Transitivity:** both — transitive (drum a rhythm), intransitive (drum for a band)
 **Contrast:** The m doubles: *drummed*, *drumming*.
@@ -576,6 +612,7 @@ To beat a drum, or to tap out a rhythm.
 **Pronunciation:** /tuːn/ &middot; *TOON*
 **Русский:** настраивать (инструмент)
 **Forms:** *tune* &middot; *tuned* &middot; *tuned*
+**Verb class:** regular
 **Third person:** *tunes* &middot; **-ing form:** *tuning*
 **Transitivity:** both — transitive (tune a guitar), intransitive (the orchestra is tuning)
 **Contrast:** American /tuːn/, TOON; British says /tjuːn/, TYOON.
@@ -593,6 +630,7 @@ To adjust an instrument so that it plays at the right pitch.
 **Pronunciation:** /trænsˈpoʊz/ &middot; *trans-POHZ*
 **Русский:** транспонировать, перекладывать в другую тональность
 **Forms:** *transpose* &middot; *transposed* &middot; *transposed*
+**Verb class:** regular
 **Third person:** *transposes* &middot; **-ing form:** *transposing*
 **Transitivity:** transitive
 
@@ -609,6 +647,7 @@ To move a piece of music into a different key.
 **Pronunciation:** /ˌriːˈmɪks/ &middot; *ree-MIKS*
 **Русский:** делать ремикс, микшировать заново
 **Forms:** *remix* &middot; *remixed* &middot; *remixed*
+**Verb class:** regular
 **Third person:** *remixes* &middot; **-ing form:** *remixing*
 **Transitivity:** transitive
 **Contrast:** Ends in *-x*, so the third person adds *-es*: *remixes*.
@@ -626,6 +665,7 @@ To make a new version of a recording by rearranging its parts.
 **Pronunciation:** /ˈmæstər/ &middot; *MASS-tur*
 **Русский:** овладевать в совершенстве; сводить мастер-запись
 **Forms:** *master* &middot; *mastered* &middot; *mastered*
+**Verb class:** regular
 **Third person:** *masters* &middot; **-ing form:** *mastering*
 **Transitivity:** transitive
 
@@ -642,6 +682,7 @@ To learn something completely, or to prepare the final version of a recording.
 **Pronunciation:** /ræp/ &middot; *RAP*
 **Русский:** читать рэп
 **Forms:** *rap* &middot; *rapped* &middot; *rapped*
+**Verb class:** regular
 **Third person:** *raps* &middot; **-ing form:** *rapping*
 **Transitivity:** both — transitive (rap a verse), intransitive (rap over a beat)
 **Contrast:** The p doubles: *rapped*, *rapping*. Sounds exactly like *wrapped*.
@@ -659,6 +700,7 @@ To speak rhyming words in rhythm over a beat.
 **Pronunciation:** /kruːn/ &middot; *KROON*
 **Русский:** напевать, мурлыкать (песню)
 **Forms:** *croon* &middot; *crooned* &middot; *crooned*
+**Verb class:** regular
 **Third person:** *croons* &middot; **-ing form:** *crooning*
 **Transitivity:** both — transitive (croon a ballad), intransitive (croon into the microphone)
 
@@ -675,6 +717,7 @@ To sing softly and sweetly, usually a love song.
 **Pronunciation:** /ˌsɛrəˈneɪd/ &middot; *ser-uh-NAYD*
 **Русский:** петь серенаду, исполнять для кого-л.
 **Forms:** *serenade* &middot; *serenaded* &middot; *serenaded*
+**Verb class:** regular
 **Third person:** *serenades* &middot; **-ing form:** *serenading*
 **Transitivity:** transitive
 
@@ -691,6 +734,7 @@ To sing or play music for someone, especially outdoors.
 **Pronunciation:** /blɛr/ &middot; *BLAIR*
 **Русский:** греметь, реветь (о музыке)
 **Forms:** *blare* &middot; *blared* &middot; *blared*
+**Verb class:** regular
 **Third person:** *blares* &middot; **-ing form:** *blaring*
 **Transitivity:** both — transitive (blare music all night), intransitive (a trumpet blared)
 
@@ -707,6 +751,7 @@ To make a loud, harsh sound.
 **Pronunciation:** /sɪŋk/ &middot; *SINK*
 **Русский:** синхронизировать, совпадать по времени
 **Forms:** *sync* &middot; *synced* &middot; *synced*
+**Verb class:** regular
 **Third person:** *syncs* &middot; **-ing form:** *syncing*
 **Transitivity:** both — transitive (sync the audio to the video), intransitive (the dancers sync perfectly)
 **Contrast:** Sounds exactly like *sink*. The longer spelling *synch* exists, but *sync* is the usual American form.
@@ -724,6 +769,7 @@ To make sound and picture, or two performers, match exactly in time.
 **Pronunciation:** /ˈsoʊloʊ/ &middot; *SOH-loh*
 **Русский:** исполнять соло, играть соло
 **Forms:** *solo* &middot; *soloed* &middot; *soloed*
+**Verb class:** regular
 **Third person:** *solos* &middot; **-ing form:** *soloing*
 **Transitivity:** intransitive
 **Contrast:** The final o stays and *-ed* is added: *soloed*, not *solod*.
@@ -741,6 +787,7 @@ To play or sing alone while the rest of the group stays quiet or accompanies.
 **Pronunciation:** /ˈvɛri/ &middot; *VER-ee*
 **Русский:** варьировать, менять; различаться
 **Forms:** *vary* &middot; *varied* &middot; *varied*
+**Verb class:** regular
 **Third person:** *varies* &middot; **-ing form:** *varying*
 **Transitivity:** both — transitive (vary the tempo), intransitive (prices vary)
 **Contrast:** Consonant + y, so it becomes *varies* and *varied*, but the y stays in *varying*.
@@ -753,11 +800,14 @@ To change something a little from one time to the next, or to be different from 
 
 ---
 
+**Phrasal verbs:** [vary with](22-verb-preposition.md#vary-with)
+
 ### waltz
 
 **Pronunciation:** /wɔːlts/ &middot; *WAWLTS*
 **Русский:** танцевать вальс, вальсировать
 **Forms:** *waltz* &middot; *waltzed* &middot; *waltzed*
+**Verb class:** regular
 **Third person:** *waltzes* &middot; **-ing form:** *waltzing*
 **Transitivity:** both — transitive (waltz her around the room), intransitive (waltz until midnight)
 **Contrast:** Ends in *-tz*, so the third person adds *-es*: *waltzes*.
@@ -775,6 +825,7 @@ To dance a waltz, a smooth dance in three-beat time.
 **Pronunciation:** /twɜːrl/ &middot; *TWURL*
 **Русский:** кружиться, вертеть
 **Forms:** *twirl* &middot; *twirled* &middot; *twirled*
+**Verb class:** regular
 **Third person:** *twirls* &middot; **-ing form:** *twirling*
 **Transitivity:** both — transitive (twirl a baton), intransitive (twirl across the stage)
 
@@ -791,6 +842,7 @@ To spin around quickly, or to spin something with your fingers.
 **Pronunciation:** /sweɪ/ &middot; *SWAY*
 **Русский:** качаться, покачиваться
 **Forms:** *sway* &middot; *swayed* &middot; *swayed*
+**Verb class:** regular
 **Third person:** *sways* &middot; **-ing form:** *swaying*
 **Transitivity:** both — transitive (the wind swayed the branches), intransitive (sway to the music)
 
@@ -807,6 +859,7 @@ To move slowly from side to side.
 **Pronunciation:** /stɑːmp/ &middot; *STAHMP*
 **Русский:** топать, притопывать
 **Forms:** *stomp* &middot; *stomped* &middot; *stomped*
+**Verb class:** regular
 **Third person:** *stomps* &middot; **-ing form:** *stomping*
 **Transitivity:** both — transitive (stomp the floor), intransitive (stomp in time)
 
@@ -823,6 +876,7 @@ To put your feet down hard and loudly.
 **Pronunciation:** /strʌt/ &middot; *STRUT*
 **Русский:** гордо расхаживать, вышагивать
 **Forms:** *strut* &middot; *strutted* &middot; *strutted*
+**Verb class:** regular
 **Third person:** *struts* &middot; **-ing form:** *strutting*
 **Transitivity:** both — transitive (strut the runway), intransitive (strut across the stage)
 **Contrast:** The t doubles: *strutted*, *strutting*.
@@ -840,6 +894,7 @@ To walk proudly, with your chest out, so that people look at you.
 **Pronunciation:** /wɜːrl/ &middot; *WURL*
 **Русский:** кружиться, вертеться
 **Forms:** *whirl* &middot; *whirled* &middot; *whirled*
+**Verb class:** regular
 **Third person:** *whirls* &middot; **-ing form:** *whirling*
 **Transitivity:** both — transitive (whirl a partner around), intransitive (whirl in circles)
 
@@ -856,6 +911,7 @@ To turn around very fast.
 **Pronunciation:** /ɡruːv/ &middot; *GROOV*
 **Русский:** двигаться в ритм, ловить кайф от музыки
 **Forms:** *groove* &middot; *grooved* &middot; *grooved*
+**Verb class:** regular
 **Third person:** *grooves* &middot; **-ing form:** *grooving*
 **Transitivity:** intransitive
 **Contrast:** You *groove to* the music.
@@ -873,6 +929,7 @@ To move easily and happily with the rhythm of music.
 **Pronunciation:** /ˈkɔːriəɡræf/ &middot; *KOR-ee-uh-graf*
 **Русский:** ставить хореографию, сочинять танец
 **Forms:** *choreograph* &middot; *choreographed* &middot; *choreographed*
+**Verb class:** regular
 **Third person:** *choreographs* &middot; **-ing form:** *choreographing*
 **Transitivity:** transitive
 **Contrast:** The *ch* is /k/ and the *ph* is /f/: KOR-ee-uh-graf.
@@ -890,6 +947,7 @@ To design the steps and movements of a dance.
 **Pronunciation:** /pəˈreɪd/ &middot; *puh-RAYD*
 **Русский:** шествовать, маршировать; выставлять напоказ
 **Forms:** *parade* &middot; *paraded* &middot; *paraded*
+**Verb class:** regular
 **Third person:** *parades* &middot; **-ing form:** *parading*
 **Transitivity:** both — transitive (parade the costumes), intransitive (parade down Main Street)
 
@@ -906,6 +964,7 @@ To walk in a public procession, or to show something off in public.
 **Pronunciation:** /ʃeɪd/ &middot; *SHAYD*
 **Русский:** штриховать, растушёвывать
 **Forms:** *shade* &middot; *shaded* &middot; *shaded*
+**Verb class:** regular
 **Third person:** *shades* &middot; **-ing form:** *shading*
 **Transitivity:** transitive
 
@@ -922,6 +981,7 @@ To darken part of a drawing so that it looks solid or rounded.
 **Pronunciation:** /tɪnt/ &middot; *TINT*
 **Русский:** подкрашивать, слегка окрашивать
 **Forms:** *tint* &middot; *tinted* &middot; *tinted*
+**Verb class:** regular
 **Third person:** *tints* &middot; **-ing form:** *tinting*
 **Transitivity:** transitive
 
@@ -938,6 +998,7 @@ To give something a light shade of color.
 **Pronunciation:** /ˈrɛndər/ &middot; *REN-dur*
 **Русский:** изображать, передавать; исполнять
 **Forms:** *render* &middot; *rendered* &middot; *rendered*
+**Verb class:** regular
 **Third person:** *renders* &middot; **-ing form:** *rendering*
 **Transitivity:** transitive
 
@@ -954,6 +1015,7 @@ To draw, paint, or perform something in a particular way.
 **Pronunciation:** /ɛtʃ/ &middot; *ECH*
 **Русский:** гравировать, травить (по металлу)
 **Forms:** *etch* &middot; *etched* &middot; *etched*
+**Verb class:** regular
 **Third person:** *etches* &middot; **-ing form:** *etching*
 **Transitivity:** transitive
 **Contrast:** Ends in *-ch*, so the third person adds *-es*: *etches*.
@@ -971,6 +1033,7 @@ To cut a design into metal or glass with acid or a sharp tool.
 **Pronunciation:** /ˈstɛnsəl/ &middot; *STEN-suhl*
 **Русский:** наносить по трафарету
 **Forms:** *stencil* &middot; *stenciled* &middot; *stenciled*
+**Verb class:** regular
 **Third person:** *stencils* &middot; **-ing form:** *stenciling*
 **Transitivity:** transitive
 **Contrast:** American *stenciled, stenciling* with one l; British *stencilled, stencilling*.
@@ -988,6 +1051,7 @@ To paint a shape or letters through a cut-out sheet.
 **Pronunciation:** /krɑːp/ &middot; *KRAHP*
 **Русский:** кадрировать, обрезать (фото)
 **Forms:** *crop* &middot; *cropped* &middot; *cropped*
+**Verb class:** regular
 **Third person:** *crops* &middot; **-ing form:** *cropping*
 **Transitivity:** transitive
 **Contrast:** One vowel plus one consonant, so the p doubles: *cropped*, *cropping*.
@@ -1005,6 +1069,7 @@ To cut off the edges of a picture or photograph.
 **Pronunciation:** /riːˈtʌtʃ/ &middot; *ree-TUCH*
 **Русский:** ретушировать, подправлять
 **Forms:** *retouch* &middot; *retouched* &middot; *retouched*
+**Verb class:** regular
 **Third person:** *retouches* &middot; **-ing form:** *retouching*
 **Transitivity:** transitive
 
@@ -1021,6 +1086,7 @@ To make small changes to a photograph or painting to improve it.
 **Pronunciation:** /ˈfoʊtəɡræf/ &middot; *FOH-tuh-graf*
 **Русский:** фотографировать, сфотографировать
 **Forms:** *photograph* &middot; *photographed* &middot; *photographed*
+**Verb class:** regular
 **Third person:** *photographs* &middot; **-ing form:** *photographing*
 **Transitivity:** both — transitive (photograph a wedding), intransitive (she photographs well)
 **Contrast:** The verb keeps the stress on the first syllable, FOH-tuh-graf; *photography* moves it: fuh-TAH-gruh-fee.
@@ -1038,6 +1104,7 @@ To take a picture of someone or something with a camera.
 **Pronunciation:** /zuːm/ &middot; *ZOOM*
 **Русский:** наезжать камерой, менять масштаб
 **Forms:** *zoom* &middot; *zoomed* &middot; *zoomed*
+**Verb class:** regular
 **Third person:** *zooms* &middot; **-ing form:** *zooming*
 **Transitivity:** intransitive
 **Contrast:** Almost always with *in* or *out*: *zoom in on a face*, *zoom out*.
@@ -1055,6 +1122,7 @@ To make a camera picture larger or smaller without moving the camera.
 **Pronunciation:** /ɪɡˈzɪbɪt/ &middot; *ig-ZIB-it*
 **Русский:** выставлять, экспонировать
 **Forms:** *exhibit* &middot; *exhibited* &middot; *exhibited*
+**Verb class:** regular
 **Third person:** *exhibits* &middot; **-ing form:** *exhibiting*
 **Transitivity:** both — transitive (exhibit twenty canvases), intransitive (she exhibits in Paris)
 **Contrast:** The h is silent and the x sounds like /ɡz/: ig-ZIB-it.
@@ -1072,6 +1140,7 @@ To show work publicly in a gallery or museum.
 **Pronunciation:** /ˈkjʊreɪt/ &middot; *KYUR-ayt*
 **Русский:** курировать (выставку), составлять подборку
 **Forms:** *curate* &middot; *curated* &middot; *curated*
+**Verb class:** regular
 **Third person:** *curates* &middot; **-ing form:** *curating*
 **Transitivity:** transitive
 
@@ -1088,6 +1157,7 @@ To choose and organize the works in a show or a collection.
 **Pronunciation:** /ʌnˈveɪl/ &middot; *un-VAYL*
 **Русский:** торжественно открывать, представлять публике
 **Forms:** *unveil* &middot; *unveiled* &middot; *unveiled*
+**Verb class:** regular
 **Third person:** *unveils* &middot; **-ing form:** *unveiling*
 **Transitivity:** transitive
 
@@ -1104,6 +1174,7 @@ To show a new work publicly for the first time.
 **Pronunciation:** /ˈænəmeɪt/ &middot; *AN-uh-mayt*
 **Русский:** анимировать, оживлять (рисунки)
 **Forms:** *animate* &middot; *animated* &middot; *animated*
+**Verb class:** regular
 **Third person:** *animates* &middot; **-ing form:** *animating*
 **Transitivity:** transitive
 
@@ -1120,6 +1191,7 @@ To make drawings or models appear to move in a film.
 **Pronunciation:** /ˈsɪmbəlaɪz/ &middot; *SIM-buh-lyz*
 **Русский:** символизировать, олицетворять
 **Forms:** *symbolize* &middot; *symbolized* &middot; *symbolized*
+**Verb class:** regular
 **Third person:** *symbolizes* &middot; **-ing form:** *symbolizing*
 **Transitivity:** transitive
 **Contrast:** American *symbolize*; British usually *symbolise*.
@@ -1137,6 +1209,7 @@ To stand for an idea in a work of art.
 **Pronunciation:** /ˈʃoʊkeɪs/ &middot; *SHOH-kayss*
 **Русский:** демонстрировать, показывать в выгодном свете
 **Forms:** *showcase* &middot; *showcased* &middot; *showcased*
+**Verb class:** regular
 **Third person:** *showcases* &middot; **-ing form:** *showcasing*
 **Transitivity:** transitive
 
@@ -1153,6 +1226,7 @@ To present something in a way that shows its best qualities.
 **Pronunciation:** /prəˈdʒɛkt/ &middot; *pruh-JEKT*
 **Русский:** проецировать; подавать голос
 **Forms:** *project* &middot; *projected* &middot; *projected*
+**Verb class:** regular
 **Third person:** *projects* &middot; **-ing form:** *projecting*
 **Transitivity:** both — transitive (project a film onto the wall), intransitive (learn to project)
 **Contrast:** The verb is stressed on the second syllable, pruh-JEKT; the noun *project* is PRAH-jekt.
@@ -1170,6 +1244,7 @@ To throw an image onto a screen, or to make your voice carry to the back of a ha
 **Pronunciation:** /skrɪpt/ &middot; *SKRIPT*
 **Русский:** писать сценарий, прописывать
 **Forms:** *script* &middot; *scripted* &middot; *scripted*
+**Verb class:** regular
 **Third person:** *scripts* &middot; **-ing form:** *scripting*
 **Transitivity:** transitive
 
@@ -1186,6 +1261,7 @@ To write the words for a film, play, or show.
 **Pronunciation:** /fɪlm/ &middot; *FILM*
 **Русский:** снимать (кино), экранизировать
 **Forms:** *film* &middot; *filmed* &middot; *filmed*
+**Verb class:** regular
 **Third person:** *films* &middot; **-ing form:** *filming*
 **Transitivity:** both — transitive (film a scene), intransitive (they film all summer)
 
@@ -1202,6 +1278,7 @@ To record something with a movie camera.
 **Pronunciation:** /vɔɪs/ &middot; *VOYSS*
 **Русский:** озвучивать (персонажа); высказывать
 **Forms:** *voice* &middot; *voiced* &middot; *voiced*
+**Verb class:** regular
 **Third person:** *voices* &middot; **-ing form:** *voicing*
 **Transitivity:** transitive
 
@@ -1218,6 +1295,7 @@ To speak the lines of a character in an animated film, or to say an opinion alou
 **Pronunciation:** /ˈtɛləvaɪz/ &middot; *TEL-uh-vyz*
 **Русский:** транслировать по телевидению
 **Forms:** *televise* &middot; *televised* &middot; *televised*
+**Verb class:** regular
 **Third person:** *televises* &middot; **-ing form:** *televising*
 **Transitivity:** transitive
 
@@ -1234,6 +1312,7 @@ To broadcast something on television.
 **Pronunciation:** /striːm/ &middot; *STREEM*
 **Русский:** транслировать онлайн, смотреть в потоке
 **Forms:** *stream* &middot; *streamed* &middot; *streamed*
+**Verb class:** regular
 **Third person:** *streams* &middot; **-ing form:** *streaming*
 **Transitivity:** both — transitive (stream a concert), intransitive (the song is streaming everywhere)
 
@@ -1250,6 +1329,7 @@ To send or watch video or music over the internet as it plays.
 **Pronunciation:** /ˈpʌblɪsaɪz/ &middot; *PUB-luh-syz*
 **Русский:** рекламировать, предавать огласке
 **Forms:** *publicize* &middot; *publicized* &middot; *publicized*
+**Verb class:** regular
 **Third person:** *publicizes* &middot; **-ing form:** *publicizing*
 **Transitivity:** transitive
 **Contrast:** American *publicize*; British *publicise*.
@@ -1267,6 +1347,7 @@ To make something widely known to the public.
 **Pronunciation:** /ˈɑːnər/ &middot; *AH-nur*
 **Русский:** чествовать, награждать
 **Forms:** *honor* &middot; *honored* &middot; *honored*
+**Verb class:** regular
 **Third person:** *honors* &middot; **-ing form:** *honoring*
 **Transitivity:** transitive
 **Contrast:** The h is silent: AH-nur. American *honor, honored*; British *honour, honoured*.
@@ -1284,6 +1365,7 @@ To show great public respect for someone.
 **Pronunciation:** /ˈmɛzməraɪz/ &middot; *MEZ-muh-ryz*
 **Русский:** завораживать, гипнотизировать
 **Forms:** *mesmerize* &middot; *mesmerized* &middot; *mesmerized*
+**Verb class:** regular
 **Third person:** *mesmerizes* &middot; **-ing form:** *mesmerizing*
 **Transitivity:** transitive
 **Contrast:** American *mesmerize*; British usually *mesmerise*.
@@ -1301,6 +1383,7 @@ To hold someone's attention so completely that they cannot look away.
 **Pronunciation:** /ɪnˈtʃænt/ &middot; *in-CHANT*
 **Русский:** очаровывать, пленять
 **Forms:** *enchant* &middot; *enchanted* &middot; *enchanted*
+**Verb class:** regular
 **Third person:** *enchants* &middot; **-ing form:** *enchanting*
 **Transitivity:** transitive
 
@@ -1317,6 +1400,7 @@ To delight someone completely, as if by magic.
 **Pronunciation:** /ˈmɑːrvəl/ &middot; *MAR-vuhl*
 **Русский:** восхищаться, изумляться
 **Forms:** *marvel* &middot; *marveled* &middot; *marveled*
+**Verb class:** regular
 **Third person:** *marvels* &middot; **-ing form:** *marveling*
 **Transitivity:** intransitive
 **Contrast:** You *marvel at* something. American *marveled, marveling* with one l; British *marvelled, marvelling*.
@@ -1334,6 +1418,7 @@ To feel great surprise and admiration at something.
 **Pronunciation:** /ˌriːˈpleɪ/ &middot; *ree-PLAY*
 **Русский:** проигрывать заново, воспроизводить
 **Forms:** *replay* &middot; *replayed* &middot; *replayed*
+**Verb class:** regular
 **Third person:** *replays* &middot; **-ing form:** *replaying*
 **Transitivity:** transitive
 **Contrast:** The verb is stressed ree-PLAY; the noun *replay* is REE-play.
@@ -1351,6 +1436,7 @@ To play a recording again.
 **Pronunciation:** /ˌriːprəˈduːs/ &middot; *ree-pruh-DOOSS*
 **Русский:** воспроизводить, копировать
 **Forms:** *reproduce* &middot; *reproduced* &middot; *reproduced*
+**Verb class:** regular
 **Third person:** *reproduces* &middot; **-ing form:** *reproducing*
 **Transitivity:** transitive
 
@@ -1367,6 +1453,7 @@ To make a copy of a picture, a sound, or a piece of work.
 **Pronunciation:** /pərˈfɛkt/ &middot; *pur-FEKT*
 **Русский:** доводить до совершенства, отрабатывать
 **Forms:** *perfect* &middot; *perfected* &middot; *perfected*
+**Verb class:** regular
 **Third person:** *perfects* &middot; **-ing form:** *perfecting*
 **Transitivity:** transitive
 **Contrast:** The verb is stressed pur-FEKT; the adjective *perfect* is PUR-fikt.
@@ -1384,6 +1471,7 @@ To make something as good as it can possibly be.
 **Pronunciation:** /ɪɡˈzædʒəreɪt/ &middot; *ig-ZAJ-uh-rayt*
 **Русский:** преувеличивать, утрировать
 **Forms:** *exaggerate* &middot; *exaggerated* &middot; *exaggerated*
+**Verb class:** regular
 **Third person:** *exaggerates* &middot; **-ing form:** *exaggerating*
 **Transitivity:** both — transitive (exaggerate a gesture), intransitive (he always exaggerates)
 **Contrast:** Double g, and the x sounds like /ɡz/: ig-ZAJ-uh-rayt.

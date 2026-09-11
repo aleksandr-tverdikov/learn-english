@@ -13,6 +13,7 @@ These verbs ask you to learn two forms instead of three: the past and the partic
 **Pronunciation:** /əˈbaɪd/ &middot; *uh-BIDE*
 **Русский:** вытерпеть; обитать, оставаться верным
 **Forms:** *abide* /əˈbaɪd/ &middot; *abode* /əˈboʊd/ &middot; *abode* /əˈboʊd/
+**Verb class:** irregular
 **Register:** formal — legal and literary; *abide by* belongs to rules and rulings, and the dwelling sense is older still
 **Pattern:** aɪ — oʊ — oʊ &middot; **Group:** 3
 **Third person:** *abides* &middot; **-ing form:** *abiding* (the silent e drops)
@@ -51,6 +52,7 @@ To put up with something; in older usage, to stay or dwell somewhere.
 **Pronunciation:** /əˈlaɪt/ &middot; *uh-LITE*
 **Русский:** спускаться, приземляться, сходить (из автобуса)
 **Forms:** *alight* /əˈlaɪt/ &middot; *alit* /əˈlɪt/ &middot; *alit* /əˈlɪt/
+**Verb class:** irregular
 **Register:** rare — recognized but seldom produced; Americans say *land* or *get off*
 **Pattern:** aɪ — ɪ — ɪ &middot; **Group:** 3
 **Third person:** *alights* &middot; **-ing form:** *alighting*
@@ -84,6 +86,7 @@ To come down and settle on something, or to step down out of a vehicle.
 **Pronunciation:** /ˈbeɪbiˌsɪt/ &middot; *BAY-bee-sit*
 **Русский:** работать няней, присматривать за детьми
 **Forms:** *baby-sit* /ˈbeɪbiˌsɪt/ &middot; *baby-sat* /ˈbeɪbiˌsæt/ &middot; *baby-sat* /ˈbeɪbiˌsæt/
+**Verb class:** irregular
 **Register:** everyday — ordinary American; only the hyphen is dated
 **Pattern:** ɪ — æ — æ &middot; **Group:** 3
 **Third person:** *baby-sits* &middot; **-ing form:** *baby-sitting* (the t doubles)
@@ -114,6 +117,7 @@ To look after someone else's children while the parents are out.
 **Pronunciation:** /ˈbækˌlaɪt/ &middot; *BAK-lite*
 **Русский:** подсвечивать
 **Forms:** *backlight* /ˈbækˌlaɪt/ &middot; *backlit* /ˈbækˌlɪt/ &middot; *backlit* /ˈbækˌlɪt/
+**Verb class:** irregular
 **Register:** rare — a photography and display term; the participle *backlit* does most of the work
 **Pattern:** aɪ — ɪ — ɪ &middot; **Group:** 3
 **Third person:** *backlights* &middot; **-ing form:** *backlighting*
@@ -143,6 +147,7 @@ To light something from behind.
 **Pronunciation:** /ˈbækˌslaɪd/ &middot; *BAK-slide*
 **Русский:** отпадать; отступаться от веры
 **Forms:** *backslide* /ˈbækˌslaɪd/ &middot; *backslid* /ˈbækˌslɪd/ &middot; *backslid* /ˈbækˌslɪd/
+**Verb class:** irregular
 **Register:** neutral — ordinary in writing about diets, faith, and democracy; less common in speech
 **Pattern:** aɪ — ɪ — ɪ &middot; **Group:** 3
 **Third person:** *backslides* &middot; **-ing form:** *backsliding* (the silent e drops)
@@ -177,6 +182,7 @@ To slip back into a bad habit, an abandoned belief, or an earlier and worse cond
 **Pronunciation:** /bɪˈɡɛt/ &middot; *bih-GET*
 **Русский:** порождать
 **Forms:** *beget* /bɪˈɡɛt/ &middot; *begot* /bɪˈɡɑt/ &middot; *begot* /bɪˈɡɑt/
+**Verb class:** irregular
 **Register:** formal — biblical and aphoristic; ordinary speech says *father* or *lead to*
 **Pattern:** ɛ — ɑ — ɑ &middot; **Group:** 3
 **Third person:** *begets* &middot; **-ing form:** *begetting* (the t doubles)
@@ -206,6 +212,7 @@ To father a child; more broadly, to cause something to come into being.
 **Pronunciation:** /bɪˈhoʊld/ &middot; *bih-HOHLD*
 **Русский:** смотреть, созерцать, зреть
 **Forms:** *behold* /bɪˈhoʊld/ &middot; *beheld* /bɪˈhɛld/ &middot; *beheld* /bɪˈhɛld/
+**Verb class:** irregular
 **Register:** archaic — literary and ceremonial; alive in speech only in *lo and behold*
 **Pattern:** oʊ — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *beholds* &middot; **-ing form:** *beholding*
@@ -240,6 +247,7 @@ To look at something, especially something striking.
 **Pronunciation:** /bɪˈtaɪd/ &middot; *bih-TIDE*
 **Русский:** постигать; случаться
 **Forms:** *betide* /bɪˈtaɪd/ &middot; *betid* /bɪˈtɪd/ &middot; *betid* /bɪˈtɪd/
+**Verb class:** irregular
 **Register:** archaic — no longer current; one frozen phrase, *woe betide*, keeps it in the language
 **Pattern:** aɪ — ɪ — ɪ &middot; **Group:** 3
 **Third person:** *betides* &middot; **-ing form:** *betiding* (the silent e drops)
@@ -269,6 +277,7 @@ To happen to someone, especially to happen badly.
 **Pronunciation:** /baɪd/ &middot; *BIDE*
 **Русский:** выжидать (благоприятного момента)
 **Forms:** *bide* /baɪd/ &middot; *bode* /boʊd/ &middot; *bode* /boʊd/
+**Verb class:** irregular
 **Register:** rare — alive only in *bide your time*; the strong *bode* is older still
 **Pattern:** aɪ — oʊ — oʊ &middot; **Group:** 3
 **Third person:** *bides* &middot; **-ing form:** *biding* (the silent e drops)
@@ -298,6 +307,7 @@ To wait, especially to wait for the right moment.
 **Pronunciation:** /baɪnd/ &middot; *BYND*
 **Русский:** связать, завязать
 **Forms:** *bind* /baɪnd/ &middot; *bound* /baʊnd/ &middot; *bound* /baʊnd/
+**Verb class:** irregular
 **Register:** everyday — ordinary in speech and writing, and *bound to* is pure conversation
 **Pattern:** aɪ — aʊ — aʊ &middot; **Group:** 3
 **Third person:** *binds* &middot; **-ing form:** *binding*
@@ -362,6 +372,7 @@ To tie things together, to place someone under an obligation, or to make separat
 **Pronunciation:** /blid/ &middot; *BLEED*
 **Русский:** кровоточить
 **Forms:** *bleed* /blid/ &middot; *bled* /blɛd/ &middot; *bled* /blɛd/
+**Verb class:** irregular
 **Register:** everyday — ordinary American, literal and figurative alike
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *bleeds* &middot; **-ing form:** *bleeding*
@@ -414,6 +425,7 @@ To lose blood, or to let a fluid drain slowly out of something.
 **Pronunciation:** /ˈbrɛstˌfid/ &middot; *BREST-feed*
 **Русский:** кормить грудью
 **Forms:** *breastfeed* /ˈbrɛstˌfid/ &middot; *breastfed* /ˈbrɛstˌfɛd/ &middot; *breastfed* /ˈbrɛstˌfɛd/
+**Verb class:** irregular
 **Register:** everyday — ordinary in any conversation about babies
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *breastfeeds* &middot; **-ing form:** *breastfeeding*
@@ -443,6 +455,7 @@ To feed a baby with milk from the breast.
 **Pronunciation:** /brid/ &middot; *BREED*
 **Русский:** выращивать; размножаться
 **Forms:** *breed* /brid/ &middot; *bred* /brɛd/ &middot; *bred* /brɛd/
+**Verb class:** irregular
 **Register:** everyday — ordinary American, of animals and of trouble alike
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *breeds* &middot; **-ing form:** *breeding*
@@ -482,6 +495,7 @@ To produce offspring, to raise animals or plants for chosen traits, or to give r
 **Pronunciation:** /tʃaɪd/ &middot; *CHIDE*
 **Русский:** бранить
 **Forms:** *chide* /tʃaɪd/ &middot; *chid* /tʃɪd/ &middot; *chid* /tʃɪd/
+**Verb class:** irregular
 **Register:** formal — journalistic and literary; ordinary speech says *scold*
 **Pattern:** aɪ — ɪ — ɪ &middot; **Group:** 3
 **Third person:** *chides* &middot; **-ing form:** *chiding* (the silent e drops)
@@ -511,6 +525,7 @@ To scold someone mildly.
 **Pronunciation:** /klaɪm/ &middot; *KLIME*
 **Русский:** карабкаться; взбираться
 **Forms:** *climb* /klaɪm/ &middot; *clumb* /klʌm/ &middot; *clumb* /klʌm/
+**Verb class:** irregular
 **Register:** everyday — the verb is ordinary; only the dialect past *clumb* is not
 **Pattern:** aɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *climbs* &middot; **-ing form:** *climbing* (the b stays silent)
@@ -560,6 +575,7 @@ To go up something using hands and feet, or simply to rise.
 **Pronunciation:** /klɪŋ/ &middot; *KLING*
 **Русский:** цепляться; льнуть; прилипать; держаться
 **Forms:** *cling* /klɪŋ/ &middot; *clung* /klʌŋ/ &middot; *clung* /klʌŋ/
+**Verb class:** irregular
 **Register:** everyday — ordinary American, of static, toddlers, and beliefs
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *clings* &middot; **-ing form:** *clinging*
@@ -602,6 +618,7 @@ To hold on tightly, or to stick to a surface.
 **Pronunciation:** /ˈkrɔsˌbrid/ &middot; *KRAWS-breed*
 **Русский:** скрещивать (породы)
 **Forms:** *crossbreed* /ˈkrɔsˌbrid/ &middot; *crossbred* /ˈkrɔsˌbrɛd/ &middot; *crossbred* /ˈkrɔsˌbrɛd/
+**Verb class:** irregular
 **Register:** rare — a breeder's and a biologist's word; ordinary speech says *cross* or *mix*
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *crossbreeds* &middot; **-ing form:** *crossbreeding*
@@ -635,6 +652,7 @@ To breed two different varieties or species together.
 **Pronunciation:** /dɪɡ/ &middot; *DIG*
 **Русский:** копать, рыть
 **Forms:** *dig* /dɪɡ/ &middot; *dug* /dʌɡ/ &middot; *dug* /dʌɡ/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *digs* &middot; **-ing form:** *digging* (the g doubles)
@@ -692,6 +710,7 @@ To break up and move earth, or to make a hole in something.
 **Pronunciation:** /dɪŋ/ &middot; *DING*
 **Русский:** звенеть (подобно колоколу, металлу)
 **Forms:** *ding* /dɪŋ/ &middot; *dung* /dʌŋ/ &middot; *dung* /dʌŋ/
+**Verb class:** irregular
 **Register:** everyday — ordinary American for denting a car or rejecting an applicant
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *dings* &middot; **-ing form:** *dinging*
@@ -731,6 +750,7 @@ To make a short ringing sound, to put a small dent in something, or to knock som
 **Pronunciation:** /fid/ &middot; *FEED*
 **Русский:** кормить
 **Forms:** *feed* /fid/ &middot; *fed* /fɛd/ &middot; *fed* /fɛd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *feeds* &middot; **-ing form:** *feeding*
@@ -794,6 +814,7 @@ To give food to a person or animal, or to supply something steadily.
 **Pronunciation:** /faɪt/ &middot; *FITE*
 **Русский:** сражаться
 **Forms:** *fight* /faɪt/ &middot; *fought* /fɔt/ &middot; *fought* /fɔt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** aɪ — ɔ — ɔ &middot; **Group:** 3
 **Third person:** *fights* &middot; **-ing form:** *fighting*
@@ -855,6 +876,7 @@ To take part in a struggle, physical or otherwise.
 **Pronunciation:** /faɪnd/ &middot; *FYND*
 **Русский:** находить
 **Forms:** *find* /faɪnd/ &middot; *found* /faʊnd/ &middot; *found* /faʊnd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** aɪ — aʊ — aʊ &middot; **Group:** 3
 **Third person:** *finds* &middot; **-ing form:** *finding*
@@ -921,6 +943,7 @@ To come upon something, to discover it after looking, or to form a judgment abou
 **Pronunciation:** /flɪŋ/ &middot; *FLING*
 **Русский:** бросать, швырять, метать
 **Forms:** *fling* /flɪŋ/ &middot; *flung* /flʌŋ/ &middot; *flung* /flʌŋ/
+**Verb class:** irregular
 **Register:** everyday — ordinary American; *flung* comes out without hesitation
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *flings* &middot; **-ing form:** *flinging*
@@ -959,6 +982,7 @@ To throw something hard or carelessly.
 **Pronunciation:** /ˈflʌdˌlaɪt/ &middot; *FLUD-lite*
 **Русский:** освещать прожектором
 **Forms:** *floodlight* /ˈflʌdˌlaɪt/ &middot; *floodlit* /ˈflʌdˌlɪt/ &middot; *floodlit* /ˈflʌdˌlɪt/
+**Verb class:** irregular
 **Register:** rare — stadium and stage lighting; the participle *floodlit* is what people actually meet
 **Pattern:** aɪ — ɪ — ɪ &middot; **Group:** 3
 **Third person:** *floodlights* &middot; **-ing form:** *floodlighting*
@@ -988,6 +1012,7 @@ To light a large area with broad, powerful lamps.
 **Pronunciation:** /ˈfɔrsˌfid/ &middot; *FORSS-feed*
 **Русский:** кормить насильно
 **Forms:** *force-feed* /ˈfɔrsˌfid/ &middot; *force-fed* /ˈfɔrsˌfɛd/ &middot; *force-fed* /ˈfɔrsˌfɛd/
+**Verb class:** irregular
 **Register:** neutral — plain but narrow; mostly of animals and, figuratively, of ideas
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *force-feeds* &middot; **-ing form:** *force-feeding*
@@ -1016,6 +1041,7 @@ To make a person or animal eat, or to push something on someone who does not wan
 **Pronunciation:** /ɡɛt/ &middot; *GET*
 **Русский:** получать; становиться; добираться
 **Forms:** *get* /ɡɛt/ &middot; *got* /ɡɑt/ &middot; *got* /ɡɑt/
+**Verb class:** irregular
 **Register:** everyday — one of the commonest verbs in the language
 **Pattern:** ɛ — ɑ — ɑ &middot; **Group:** 3
 **Third person:** *gets* &middot; **-ing form:** *getting* (the t doubles)
@@ -1111,6 +1137,7 @@ To obtain or receive something, to become something, or to arrive somewhere — 
 **Pronunciation:** /ɡraɪnd/ &middot; *GRYND*
 **Русский:** молоть
 **Forms:** *grind* /ɡraɪnd/ &middot; *ground* /ɡraʊnd/ &middot; *ground* /ɡraʊnd/
+**Verb class:** irregular
 **Register:** everyday — ordinary American, from grinding coffee to the daily grind
 **Pattern:** aɪ — aʊ — aʊ &middot; **Group:** 3
 **Third person:** *grinds* &middot; **-ing form:** *grinding*
@@ -1163,6 +1190,7 @@ To crush something into powder, or to rub two hard surfaces against each other.
 **Pronunciation:** /hæŋ/ &middot; *HANG*
 **Русский:** вешать; висеть
 **Forms:** *hang* /hæŋ/ &middot; *hung* /hʌŋ/ &middot; *hung* /hʌŋ/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** æ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *hangs* &middot; **-ing form:** *hanging*
@@ -1225,6 +1253,7 @@ To fasten something so that it dangles, or to be suspended.
 **Pronunciation:** /hiv/ &middot; *HEEV*
 **Русский:** подымать
 **Forms:** *heave* /hiv/ &middot; *hove* /hoʊv/ &middot; *hove* /hoʊv/
+**Verb class:** irregular
 **Register:** neutral — ordinary in writing (*heaved a sigh*, *heaved it onto the truck*), less common in speech
 **Pattern:** i — oʊ — oʊ &middot; **Group:** 3
 **Third person:** *heaves* &middot; **-ing form:** *heaving* (the silent e drops)
@@ -1269,6 +1298,7 @@ To lift or throw something heavy; of a ship, to move or come to rest.
 **Pronunciation:** /hoʊld/ &middot; *HOHLD*
 **Русский:** держать
 **Forms:** *hold* /hoʊld/ &middot; *held* /hɛld/ &middot; *held* /hɛld/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** oʊ — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *holds* &middot; **-ing form:** *holding*
@@ -1347,6 +1377,7 @@ To keep something in your hands, or to keep anything at all in a fixed state.
 **Pronunciation:** /ˌɪntərˈbrid/ &middot; *in-tur-BREED*
 **Русский:** скрещивать (о породах)
 **Forms:** *interbreed* /ˌɪntərˈbrid/ &middot; *interbred* /ˌɪntərˈbrɛd/ &middot; *interbred* /ˌɪntərˈbrɛd/
+**Verb class:** irregular
 **Register:** rare — a biologist's word; ordinary speech says *mix* or *cross*
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *interbreeds* &middot; **-ing form:** *interbreeding*
@@ -1380,6 +1411,7 @@ To breed with a different variety, population, or species.
 **Pronunciation:** /lid/ &middot; *LEED*
 **Русский:** вести
 **Forms:** *lead* /lid/ &middot; *led* /lɛd/ &middot; *led* /lɛd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *leads* &middot; **-ing form:** *leading*
@@ -1442,6 +1474,7 @@ To go in front and show the way, or to be in charge of something.
 **Pronunciation:** /laɪt/ &middot; *LITE*
 **Русский:** зажигать; освещать
 **Forms:** *light* /laɪt/ &middot; *lit* /lɪt/ &middot; *lit* /lɪt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** aɪ — ɪ — ɪ &middot; **Group:** 3
 **Third person:** *lights* &middot; **-ing form:** *lighting*
@@ -1493,6 +1526,7 @@ To set something burning, or to fill a place with light.
 **Pronunciation:** /mit/ &middot; *MEET*
 **Русский:** встречать
 **Forms:** *meet* /mit/ &middot; *met* /mɛt/ &middot; *met* /mɛt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *meets* &middot; **-ing form:** *meeting*
@@ -1554,6 +1588,7 @@ To come together with someone, or to satisfy a requirement.
 **Pronunciation:** /ˌmɪsˈlid/ &middot; *mis-LEED*
 **Русский:** ввести в заблуждение
 **Forms:** *mislead* /ˌmɪsˈlid/ &middot; *misled* /ˌmɪsˈlɛd/ &middot; *misled* /ˌmɪsˈlɛd/
+**Verb class:** irregular
 **Register:** everyday — common in speech and writing alike, above all as *misleading*
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *misleads* &middot; **-ing form:** *misleading*
@@ -1587,6 +1622,7 @@ To give someone a false impression, on purpose or by accident.
 **Pronunciation:** /ˌmɪsʌndərˈstænd/ &middot; *mis-un-dur-STAND*
 **Русский:** неправильно понимать
 **Forms:** *misunderstand* /ˌmɪsʌndərˈstænd/ &middot; *misunderstood* /ˌmɪsʌndərˈstʊd/ &middot; *misunderstood* /ˌmɪsʌndərˈstʊd/
+**Verb class:** irregular
 **Register:** everyday — ordinary American; *you misunderstood me* is plain conversation
 **Pattern:** æ — ʊ — ʊ &middot; **Group:** 3
 **Third person:** *misunderstands* &middot; **-ing form:** *misunderstanding*
@@ -1621,6 +1657,7 @@ To take someone's meaning wrongly.
 **Pronunciation:** /ˌaʊtˈfaɪt/ &middot; *owt-FITE*
 **Русский:** побеждать (в бою)
 **Forms:** *outfight* /ˌaʊtˈfaɪt/ &middot; *outfought* /ˌaʊtˈfɔt/ &middot; *outfought* /ˌaʊtˈfɔt/
+**Verb class:** irregular
 **Register:** rare — a prefixed derivative recognized but seldom produced, and mostly by sportswriters
 **Pattern:** aɪ — ɔ — ɔ &middot; **Group:** 3
 **Third person:** *outfights* &middot; **-ing form:** *outfighting*
@@ -1650,6 +1687,7 @@ To defeat someone in combat, or simply to fight better than they do.
 **Pronunciation:** /ˌaʊtˈʃaɪn/ &middot; *owt-SHINE*
 **Русский:** затмить; превзойти
 **Forms:** *outshine* /ˌaʊtˈʃaɪn/ &middot; *outshone* /ˌaʊtˈʃoʊn/ &middot; *outshone* /ˌaʊtˈʃoʊn/
+**Verb class:** irregular
 **Register:** neutral — ordinary in reviews and profiles, less common in casual speech
 **Pattern:** aɪ — oʊ — oʊ &middot; **Group:** 3
 **Third person:** *outshines* &middot; **-ing form:** *outshining* (the silent e drops)
@@ -1679,6 +1717,7 @@ To be much more impressive than someone or something else, or literally to give 
 **Pronunciation:** /ˌoʊvərˈfid/ &middot; *oh-vur-FEED*
 **Русский:** перекармливать
 **Forms:** *overfeed* /ˌoʊvərˈfid/ &middot; *overfed* /ˌoʊvərˈfɛd/ &middot; *overfed* /ˌoʊvərˈfɛd/
+**Verb class:** irregular
 **Register:** neutral — plain but narrow; mostly advice about pets, fish, and babies
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *overfeeds* &middot; **-ing form:** *overfeeding*
@@ -1708,6 +1747,7 @@ To give too much food to a person or animal, or too much of anything to a system
 **Pronunciation:** /ˌoʊvərˈhæŋ/ &middot; *oh-vur-HANG*
 **Русский:** выступать над (чем-л.); свешиваться; нависать
 **Forms:** *overhang* /ˌoʊvərˈhæŋ/ &middot; *overhung* /ˌoʊvərˈhʌŋ/ &middot; *overhung* /ˌoʊvərˈhʌŋ/
+**Verb class:** irregular
 **Register:** rare — architectural and geological; the noun *an overhang* is far commoner than the verb
 **Pattern:** æ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *overhangs* &middot; **-ing form:** *overhanging*
@@ -1737,6 +1777,7 @@ To stick out over something below, or, figuratively, to loom over it.
 **Pronunciation:** /ˌoʊvərˈʃut/ &middot; *oh-vur-SHOOT*
 **Русский:** промахнуться
 **Forms:** *overshoot* /ˌoʊvərˈʃut/ &middot; *overshot* /ˌoʊvərˈʃɑt/ &middot; *overshot* /ˌoʊvərˈʃɑt/
+**Verb class:** irregular
 **Register:** neutral — ordinary in aviation, economics, and journalism; less common in speech
 **Pattern:** u — ɑ — ɑ &middot; **Group:** 3
 **Third person:** *overshoots* &middot; **-ing form:** *overshooting*
@@ -1772,6 +1813,7 @@ To go past the point you were aiming for, in space or in measure.
 **Pronunciation:** /plid/ &middot; *PLEED*
 **Русский:** выступать в суде
 **Forms:** *plead* /plid/ &middot; *pled* /plɛd/ &middot; *pled* /plɛd/
+**Verb class:** irregular
 **Register:** everyday — the courtroom sense is in every news report, and *plead with* is ordinary speech
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *pleads* &middot; **-ing form:** *pleading*
@@ -1813,6 +1855,7 @@ To answer a criminal charge in court, or to beg someone earnestly.
 **Pronunciation:** /ˌriˈʃut/ &middot; *ree-SHOOT*
 **Русский:** повторно фотографировать
 **Forms:** *reshoot* /ˌriˈʃut/ &middot; *reshot* /ˌriˈʃɑt/ &middot; *reshot* /ˌriˈʃɑt/
+**Verb class:** irregular
 **Register:** rare — film and photography jargon; the noun is commoner than the past tense
 **Pattern:** u — ɑ — ɑ &middot; **Group:** 3
 **Third person:** *reshoots* &middot; **-ing form:** *reshooting*
@@ -1838,6 +1881,7 @@ To film or photograph something over again.
 **Pronunciation:** /ˌriˈwaɪnd/ &middot; *ree-WYND*
 **Русский:** перематывать
 **Forms:** *rewind* /ˌriˈwaɪnd/ &middot; *rewound* /ˌriˈwaʊnd/ &middot; *rewound* /ˌriˈwaʊnd/
+**Verb class:** irregular
 **Register:** everyday — still ordinary for video and, figuratively, for going back over something
 **Pattern:** aɪ — aʊ — aʊ &middot; **Group:** 3
 **Third person:** *rewinds* &middot; **-ing form:** *rewinding*
@@ -1873,6 +1917,7 @@ To wind something back toward the beginning, literally or figuratively.
 **Pronunciation:** /ʃaɪn/ &middot; *SHINE*
 **Русский:** светить; сиять
 **Forms:** *shine* /ʃaɪn/ &middot; *shone* /ʃoʊn/ &middot; *shone* /ʃoʊn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** aɪ — oʊ — oʊ &middot; **Group:** 3
 **Third person:** *shines* &middot; **-ing form:** *shining* (the silent e drops)
@@ -1929,6 +1974,7 @@ To give off or reflect light, or to be conspicuously good at something.
 **Pronunciation:** /ʃut/ &middot; *SHOOT*
 **Русский:** стрелять
 **Forms:** *shoot* /ʃut/ &middot; *shot* /ʃɑt/ &middot; *shot* /ʃɑt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** u — ɑ — ɑ &middot; **Group:** 3
 **Third person:** *shoots* &middot; **-ing form:** *shooting*
@@ -2003,6 +2049,7 @@ To fire a weapon, to send something moving fast, or to record images with a came
 **Pronunciation:** /sɪt/ &middot; *SIT*
 **Русский:** сидеть
 **Forms:** *sit* /sɪt/ &middot; *sat* /sæt/ &middot; *sat* /sæt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ɪ — æ — æ &middot; **Group:** 3
 **Third person:** *sits* &middot; **-ing form:** *sitting* (the t doubles)
@@ -2077,6 +2124,7 @@ To rest on your seat, to be positioned somewhere, or to serve as a member of a b
 **Pronunciation:** /slaɪd/ &middot; *SLIDE*
 **Русский:** скользить
 **Forms:** *slide* /slaɪd/ &middot; *slid* /slɪd/ &middot; *slid* /slɪd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** aɪ — ɪ — ɪ &middot; **Group:** 3
 **Third person:** *slides* &middot; **-ing form:** *sliding* (the silent e drops)
@@ -2124,6 +2172,7 @@ To move smoothly over a surface, or to decline gradually.
 **Pronunciation:** /slɪŋ/ &middot; *SLING*
 **Русский:** швырять; подвешивать
 **Forms:** *sling* /slɪŋ/ &middot; *slung* /slʌŋ/ &middot; *slung* /slʌŋ/
+**Verb class:** irregular
 **Register:** everyday — ordinary American: a bag slung over a shoulder, mud slung in a campaign
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *slings* &middot; **-ing form:** *slinging*
@@ -2165,6 +2214,7 @@ To throw something casually, or to hang it loosely from a support.
 **Pronunciation:** /slɪŋk/ &middot; *SLINK*
 **Русский:** красться; ходить раскачивая бёдрами
 **Forms:** *slink* /slɪŋk/ &middot; *slunk* /slʌŋk/ &middot; *slunk* /slʌŋk/
+**Verb class:** irregular
 **Register:** neutral — ordinary in narrative writing (*slunk off*), less common in speech
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *slinks* &middot; **-ing form:** *slinking*
@@ -2200,6 +2250,7 @@ To move quietly and furtively, often as if ashamed.
 **Pronunciation:** /snik/ &middot; *SNEEK*
 **Русский:** красться
 **Forms:** *sneak* /snik/ &middot; *snuck* /snʌk/ &middot; *snuck* /snʌk/
+**Verb class:** irregular
 **Register:** everyday — ordinary American, and *snuck* is now the majority past
 **Pattern:** i — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *sneaks* &middot; **-ing form:** *sneaking*
@@ -2241,6 +2292,7 @@ To go, take, or do something quietly so that nobody notices.
 **Pronunciation:** /spid/ &middot; *SPEED*
 **Русский:** ускорять; спешить; мчатся, проносится
 **Forms:** *speed* /spid/ &middot; *sped* /spɛd/ &middot; *sped* /spɛd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** i — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *speeds* &middot; **-ing form:** *speeding*
@@ -2285,6 +2337,7 @@ To move very fast, or to make something happen faster.
 **Pronunciation:** /spɪn/ &middot; *SPIN*
 **Русский:** прясть; крутить, вертеть
 **Forms:** *spin* /spɪn/ &middot; *spun* /spʌn/ &middot; *spun* /spʌn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *spins* &middot; **-ing form:** *spinning* (the n doubles)
@@ -2347,6 +2400,7 @@ To turn quickly around a center, to twist fiber into thread, or to give a story 
 **Pronunciation:** /spɪt/ &middot; *SPIT*
 **Русский:** плевать
 **Forms:** *spit* /spɪt/ &middot; *spat* /spæt/ &middot; *spat* /spæt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ɪ — æ — æ &middot; **Group:** 3
 **Third person:** *spits* &middot; **-ing form:** *spitting* (the t doubles)
@@ -2394,6 +2448,7 @@ To force saliva or something else out of the mouth.
 **Pronunciation:** /ˈspɑtˌlaɪt/ &middot; *SPAHT-lite*
 **Русский:** осветить прожектором; сделать центром внимания
 **Forms:** *spotlight* /ˈspɑtˌlaɪt/ &middot; *spotlit* /ˈspɑtˌlɪt/ &middot; *spotlit* /ˈspɑtˌlɪt/
+**Verb class:** irregular
 **Register:** neutral — the verb belongs to journalism and stagecraft; the noun is the everyday word
 **Pattern:** aɪ — ɪ — ɪ &middot; **Group:** 3
 **Third person:** *spotlights* &middot; **-ing form:** *spotlighting*
@@ -2424,6 +2479,7 @@ To shine a narrow beam on something, or to single it out for attention.
 **Pronunciation:** /stænd/ &middot; *STAND*
 **Русский:** стоять
 **Forms:** *stand* /stænd/ &middot; *stood* /stʊd/ &middot; *stood* /stʊd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** æ — ʊ — ʊ &middot; **Group:** 3
 **Third person:** *stands* &middot; **-ing form:** *standing*
@@ -2516,6 +2572,7 @@ To be on your feet, to be positioned or situated somewhere, or to remain in forc
 **Pronunciation:** /steɪv/ &middot; *STAYV*
 **Русский:** проламывать; разби(ва)ть
 **Forms:** *stave* /steɪv/ &middot; *stove* /stoʊv/ &middot; *stove* /stoʊv/
+**Verb class:** irregular
 **Register:** rare — alive chiefly in *stave off*; the strong *stove* is nautical
 **Pattern:** eɪ — oʊ — oʊ &middot; **Group:** 3
 **Third person:** *staves* &middot; **-ing form:** *staving* (the silent e drops)
@@ -2545,6 +2602,7 @@ To fend something off, or, of a hull or a cask, to smash a hole in it.
 **Pronunciation:** /stɪk/ &middot; *STIK*
 **Русский:** втыкать; укалывать; приклеивать
 **Forms:** *stick* /stɪk/ &middot; *stuck* /stʌk/ &middot; *stuck* /stʌk/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *sticks* &middot; **-ing form:** *sticking*
@@ -2625,6 +2683,7 @@ To attach or adhere, to push something pointed into something, or to become fixe
 **Pronunciation:** /stɪŋ/ &middot; *STING*
 **Русский:** жалить, жечь
 **Forms:** *sting* /stɪŋ/ &middot; *stung* /stʌŋ/ &middot; *stung* /stʌŋ/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *stings* &middot; **-ing form:** *stinging*
@@ -2666,6 +2725,7 @@ To prick with a sharp point or with venom, or to cause a sharp burning pain.
 **Pronunciation:** /straɪk/ &middot; *STRIKE*
 **Русский:** ударить; бить; бастовать
 **Forms:** *strike* /straɪk/ &middot; *struck* /strʌk/ &middot; *struck* /strʌk/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** aɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *strikes* &middot; **-ing form:** *striking* (the silent e drops)
@@ -2752,6 +2812,7 @@ To hit something, to stop work in protest, or to produce a sudden and forceful e
 **Pronunciation:** /strɪŋ/ &middot; *STRING*
 **Русский:** нанизать; натягивать (струну, тетиву и т. п.)
 **Forms:** *string* /strɪŋ/ &middot; *strung* /strʌŋ/ &middot; *strung* /strʌŋ/
+**Verb class:** irregular
 **Register:** everyday — ordinary American: stringing lights, stringing someone along
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *strings* &middot; **-ing form:** *stringing*
@@ -2805,6 +2866,7 @@ To thread things onto a line, or to stretch a line between two points.
 **Pronunciation:** /swɪŋ/ &middot; *SWING*
 **Русский:** качать, колебать; раскачивать
 **Forms:** *swing* /swɪŋ/ &middot; *swung* /swʌŋ/ &middot; *swung* /swʌŋ/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *swings* &middot; **-ing form:** *swinging*
@@ -2861,6 +2923,7 @@ To move back and forth from a fixed point, or to move something through an arc.
 **Pronunciation:** /trɛd/ &middot; *TRED*
 **Русский:** ступать, шагать
 **Forms:** *tread* /trɛd/ &middot; *trod* /trɑd/ &middot; *trod* /trɑd/
+**Verb class:** irregular
 **Register:** neutral — mostly in fixed phrases (*tread water*, *tread carefully*); the plain verb is literary
 **Pattern:** ɛ — ɑ — ɑ &middot; **Group:** 3
 **Third person:** *treads* &middot; **-ing form:** *treading*
@@ -2905,6 +2968,7 @@ To walk or step, especially heavily or with care.
 **Pronunciation:** /ˈtrʌbəlˌʃut/ &middot; *TRUH-buhl-shoot*
 **Русский:** искать неисправности; разрешать проблемы
 **Forms:** *troubleshoot* /ˈtrʌbəlˌʃut/ &middot; *troubleshot* /ˈtrʌbəlˌʃɑt/ &middot; *troubleshot* /ˈtrʌbəlˌʃɑt/
+**Verb class:** irregular
 **Register:** neutral — a workplace and technical word; even there the past *troubleshot* is avoided
 **Pattern:** u — ɑ — ɑ &middot; **Group:** 3
 **Third person:** *troubleshoots* &middot; **-ing form:** *troubleshooting*
@@ -2934,6 +2998,7 @@ To trace and fix a fault in a system, a machine, or a process.
 **Pronunciation:** /ˌʌnˈbaɪnd/ &middot; *un-BYND*
 **Русский:** развязывать
 **Forms:** *unbind* /ˌʌnˈbaɪnd/ &middot; *unbound* /ˌʌnˈbaʊnd/ &middot; *unbound* /ˌʌnˈbaʊnd/
+**Verb class:** irregular
 **Register:** rare — a prefixed derivative recognized but seldom produced; *untie* does the everyday work
 **Pattern:** aɪ — aʊ — aʊ &middot; **Group:** 3
 **Third person:** *unbinds* &middot; **-ing form:** *unbinding*
@@ -2969,6 +3034,7 @@ To untie something, or to release it from whatever holds it.
 **Pronunciation:** /ˌʌndərˈstænd/ &middot; *un-dur-STAND*
 **Русский:** понимать
 **Forms:** *understand* /ˌʌndərˈstænd/ &middot; *understood* /ˌʌndərˈstʊd/ &middot; *understood* /ˌʌndərˈstʊd/
+**Verb class:** irregular
 **Register:** everyday — one of the commonest verbs in the language
 **Pattern:** æ — ʊ — ʊ &middot; **Group:** 3
 **Third person:** *understands* &middot; **-ing form:** *understanding*
@@ -3016,6 +3082,7 @@ To grasp the meaning of something, or to know how someone feels.
 **Pronunciation:** /ˌʌnˈwaɪnd/ &middot; *un-WYND*
 **Русский:** развертывать; разматывать, раскручивать
 **Forms:** *unwind* /ˌʌnˈwaɪnd/ &middot; *unwound* /ˌʌnˈwaʊnd/ &middot; *unwound* /ˌʌnˈwaʊnd/
+**Verb class:** irregular
 **Register:** everyday — ordinary American, of cords and of people after work
 **Pattern:** aɪ — aʊ — aʊ &middot; **Group:** 3
 **Third person:** *unwinds* &middot; **-ing form:** *unwinding*
@@ -3051,6 +3118,7 @@ To uncoil something, or, of a person, to relax.
 **Pronunciation:** /ʌpˈhoʊld/ &middot; *up-HOHLD*
 **Русский:** поддерживать
 **Forms:** *uphold* /ʌpˈhoʊld/ &middot; *upheld* /ʌpˈhɛld/ &middot; *upheld* /ʌpˈhɛld/
+**Verb class:** irregular
 **Register:** formal — legal and institutional; courts uphold rulings, while people *back* or *support*
 **Pattern:** oʊ — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *upholds* &middot; **-ing form:** *upholding*
@@ -3086,6 +3154,7 @@ To confirm a decision, or to keep a principle or a standard in force.
 **Pronunciation:** /wɪn/ &middot; *WIN*
 **Русский:** выиграть; победить
 **Forms:** *win* /wɪn/ &middot; *won* /wʌn/ &middot; *won* /wʌn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *wins* &middot; **-ing form:** *winning* (the n doubles)
@@ -3136,6 +3205,7 @@ To come first in a contest, or to gain something through effort.
 **Pronunciation:** /waɪnd/ &middot; *WYND*
 **Русский:** заводить (механизм); трубить; извиваться
 **Forms:** *wind* /waɪnd/ &middot; *wound* /waʊnd/ &middot; *wound* /waʊnd/
+**Verb class:** irregular
 **Register:** everyday — ordinary American: winding roads, winding a clock, winding up
 **Pattern:** aɪ — aʊ — aʊ &middot; **Group:** 3
 **Third person:** *winds* &middot; **-ing form:** *winding*
@@ -3192,6 +3262,7 @@ To turn something around a center, or to follow a twisting course.
 **Pronunciation:** /wɪθˈhoʊld/ &middot; *with-HOHLD*
 **Русский:** вычитать, удерживать
 **Forms:** *withhold* /wɪθˈhoʊld/ &middot; *withheld* /wɪθˈhɛld/ &middot; *withheld* /wɪθˈhɛld/
+**Verb class:** irregular
 **Register:** formal — legal, tax, and administrative writing
 **Pattern:** oʊ — ɛ — ɛ &middot; **Group:** 3
 **Third person:** *withholds* &middot; **-ing form:** *withholding*
@@ -3227,6 +3298,7 @@ To keep back something you could give — money, information, or consent.
 **Pronunciation:** /wɪθˈstænd/ &middot; *with-STAND*
 **Русский:** противиться; устоять, выстоять; выдержать
 **Forms:** *withstand* /wɪθˈstænd/ &middot; *withstood* /wɪθˈstʊd/ &middot; *withstood* /wɪθˈstʊd/
+**Verb class:** irregular
 **Register:** neutral — ordinary in writing about stress and weather, less common in speech
 **Pattern:** æ — ʊ — ʊ &middot; **Group:** 3
 **Third person:** *withstands* &middot; **-ing form:** *withstanding*
@@ -3256,6 +3328,7 @@ To hold out against force or pressure without giving way.
 **Pronunciation:** /rɪŋ/ &middot; *RING*
 **Русский:** скручивать; сжимать
 **Forms:** *wring* /rɪŋ/ &middot; *wrung* /rʌŋ/ &middot; *wrung* /rʌŋ/
+**Verb class:** irregular
 **Register:** everyday — ordinary American, mostly in *wring out* and *wring your hands*
 **Pattern:** ɪ — ʌ — ʌ &middot; **Group:** 3
 **Third person:** *wrings* &middot; **-ing form:** *wringing* (the w stays silent)

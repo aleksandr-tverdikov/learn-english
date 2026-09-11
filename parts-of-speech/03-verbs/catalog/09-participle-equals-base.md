@@ -11,6 +11,7 @@ This is the tidiest group in the catalog (3-я равна 1-й, во 2-й "а" �
 **Pronunciation:** /bɪˈkʌm/ &middot; *bih-KUM*
 **Русский:** становиться, делаться, превращаться
 **Forms:** *become* /bɪˈkʌm/ &middot; *became* /bɪˈkeɪm/ &middot; *become* /bɪˈkʌm/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** o — a — o (ʌ — eɪ — ʌ) &middot; **Group:** 9
 **Third person:** *becomes* &middot; **-ing form:** *becoming* (the silent e drops)
@@ -56,6 +57,7 @@ To grow or turn into something, to come to be a certain way; in formal use, also
 **Pronunciation:** /kʌm/ &middot; *KUM*
 **Русский:** приходить
 **Forms:** *come* /kʌm/ &middot; *came* /keɪm/ &middot; *come* /kʌm/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** o — a — o (ʌ — eɪ — ʌ) &middot; **Group:** 9
 **Third person:** *comes* &middot; **-ing form:** *coming* (the silent e drops)
@@ -149,6 +151,7 @@ To move toward the speaker or arrive; by extension, to reach a place, a time, a 
 **Pronunciation:** /aʊtˈrʌn/ &middot; *owt-RUN*
 **Русский:** перегонять; опережать
 **Forms:** *outrun* /aʊtˈrʌn/ &middot; *outran* /aʊtˈræn/ &middot; *outrun* /aʊtˈrʌn/
+**Verb class:** irregular
 **Register:** neutral — understood by everyone but produced far less often than plain *run*; mostly sports talk and the *you can't outrun it* idiom
 **Pattern:** u — a — u (ʌ — æ — ʌ) &middot; **Group:** 9
 **Third person:** *outruns* &middot; **-ing form:** *outrunning* (the n doubles)
@@ -178,6 +181,7 @@ To run faster than someone or something, and by extension to outpace or get ahea
 **Pronunciation:** /ˌoʊvɚˈkʌm/ &middot; *oh-vur-KUM*
 **Русский:** побороть, победить, преодолеть
 **Forms:** *overcome* /ˌoʊvɚˈkʌm/ &middot; *overcame* /ˌoʊvɚˈkeɪm/ &middot; *overcome* /ˌoʊvɚˈkʌm/
+**Verb class:** irregular
 **Register:** everyday — ordinary in talk about difficulties and emotions: *overcame her fear*, *overcome by smoke*
 **Pattern:** o — a — o (ʌ — eɪ — ʌ) &middot; **Group:** 9
 **Third person:** *overcomes* &middot; **-ing form:** *overcoming* (the silent e drops)
@@ -213,6 +217,7 @@ To get the better of a difficulty or an opponent; in the passive, to be complete
 **Pronunciation:** /ˌoʊvɚˈrʌn/ &middot; *oh-vur-RUN*
 **Русский:** переливаться через край, наводнять
 **Forms:** *overrun* /ˌoʊvɚˈrʌn/ &middot; *overran* /ˌoʊvɚˈræn/ &middot; *overrun* /ˌoʊvɚˈrʌn/
+**Verb class:** irregular
 **Register:** neutral — usually met in the passive *overrun with* or the noun *cost overrun*; the plain active verb is uncommon in speech
 **Pattern:** u — a — u (ʌ — æ — ʌ) &middot; **Group:** 9
 **Third person:** *overruns* &middot; **-ing form:** *overrunning* (the n doubles)
@@ -249,6 +254,7 @@ To spread over something and take it over, or to go past a set limit of time, mo
 **Pronunciation:** /ˌriˈrʌn/ &middot; *ree-RUN*
 **Русский:** показывать повторно
 **Forms:** *rerun* /ˌriˈrʌn/ &middot; *reran* /ˌriˈræn/ &middot; *rerun* /ˌriˈrʌn/
+**Verb class:** irregular
 **Register:** neutral — everyday as a noun (*TV reruns*); the verb belongs mostly to work and lab talk, *rerun the numbers*
 **Pattern:** u — a — u (ʌ — æ — ʌ) &middot; **Group:** 9
 **Third person:** *reruns* &middot; **-ing form:** *rerunning* (the n doubles)
@@ -279,6 +285,7 @@ To broadcast something a second time, or to carry out a process again from the s
 **Pronunciation:** /rʌn/ &middot; *RUN*
 **Русский:** бежать; течь
 **Forms:** *run* /rʌn/ &middot; *ran* /ræn/ &middot; *run* /rʌn/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** u — a — u (ʌ — æ — ʌ) &middot; **Group:** 9
 **Third person:** *runs* &middot; **-ing form:** *running* (the n doubles)

@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /mɑːp/ &middot; *MAHP*
 **Русский:** мыть шваброй, вымыть шваброй
 **Forms:** *mop* &middot; *mopped* &middot; *mopped*
+**Verb class:** regular
 **Third person:** *mops* &middot; **-ing form:** *mopping*
 **Transitivity:** transitive
 **Contrast:** The *p* doubles: *mopped*, *mopping* — compare *hoped*, *hoping*, where the long vowel keeps one *p*.
@@ -31,6 +32,7 @@ To wash a floor with a mop.
 **Pronunciation:** /ˈvækjuːm/ &middot; *VAK-yoom*
 **Русский:** пылесосить, пропылесосить
 **Forms:** *vacuum* &middot; *vacuumed* &middot; *vacuumed*
+**Verb class:** regular
 **Third person:** *vacuums* &middot; **-ing form:** *vacuuming*
 **Transitivity:** both — transitive (*vacuum the rug*), intransitive (*he vacuums on Fridays*)
 **Contrast:** Two *u*'s in the middle: *vacuum*, not *vacum* or *vaccum*.
@@ -48,6 +50,7 @@ To clean a floor or a rug with a vacuum cleaner.
 **Pronunciation:** /dʌst/ &middot; *DUST*
 **Русский:** вытирать пыль, вытереть пыль; посыпать
 **Forms:** *dust* &middot; *dusted* &middot; *dusted*
+**Verb class:** regular
 **Third person:** *dusts* &middot; **-ing form:** *dusting*
 **Transitivity:** both — transitive (*dust the shelves*), intransitive (*she dusts every week*)
 **Contrast:** *Dust the shelf* means take dust off, but *dust the cake with sugar* means put a fine layer on — the same verb, opposite directions.
@@ -65,6 +68,7 @@ To wipe the dust off furniture and shelves.
 **Pronunciation:** /ˈskaʊər/ &middot; *SKOW-ur*
 **Русский:** отдраивать, отдраить; оттирать, оттереть
 **Forms:** *scour* &middot; *scoured* &middot; *scoured*
+**Verb class:** regular
 **Third person:** *scours* &middot; **-ing form:** *scouring*
 **Transitivity:** transitive
 
@@ -81,6 +85,7 @@ To clean a surface by rubbing it hard with something rough.
 **Pronunciation:** /bʌf/ &middot; *BUF*
 **Русский:** полировать, отполировать; натирать до блеска
 **Forms:** *buff* &middot; *buffed* &middot; *buffed*
+**Verb class:** regular
 **Third person:** *buffs* &middot; **-ing form:** *buffing*
 **Transitivity:** transitive
 
@@ -97,6 +102,7 @@ To polish something with a soft cloth until it shines.
 **Pronunciation:** /ˈlɔːndər/ &middot; *LAWN-dur*
 **Русский:** стирать, постирать (и гладить)
 **Forms:** *launder* &middot; *laundered* &middot; *laundered*
+**Verb class:** regular
 **Third person:** *launders* &middot; **-ing form:** *laundering*
 **Transitivity:** transitive
 **Contrast:** In the news *launder* also means to hide dirty money — *launder money* — so context decides the sense.
@@ -114,6 +120,7 @@ To wash and iron clothes or linens.
 **Pronunciation:** /bliːtʃ/ &middot; *BLEECH*
 **Русский:** отбеливать, отбелить
 **Forms:** *bleach* &middot; *bleached* &middot; *bleached*
+**Verb class:** regular
 **Third person:** *bleaches* &middot; **-ing form:** *bleaching*
 **Transitivity:** transitive
 **Contrast:** After *-ch* the third person takes *-es*: *bleaches*.
@@ -131,6 +138,7 @@ To make something white or lighter with a strong chemical.
 **Pronunciation:** /ˈsænətaɪz/ &middot; *SAN-uh-tyze*
 **Русский:** дезинфицировать, обеззараживать, обеззаразить
 **Forms:** *sanitize* &middot; *sanitized* &middot; *sanitized*
+**Verb class:** regular
 **Third person:** *sanitizes* &middot; **-ing form:** *sanitizing*
 **Transitivity:** transitive
 **Contrast:** American spelling *sanitize*; the British write *sanitise*.
@@ -148,6 +156,7 @@ To clean something so that it is free of germs.
 **Pronunciation:** /diˈoʊdəraɪz/ &middot; *dee-OH-duh-ryze*
 **Русский:** устранять запах, дезодорировать
 **Forms:** *deodorize* &middot; *deodorized* &middot; *deodorized*
+**Verb class:** regular
 **Third person:** *deodorizes* &middot; **-ing form:** *deodorizing*
 **Transitivity:** transitive
 
@@ -164,6 +173,7 @@ To remove a bad smell from a place or a thing.
 **Pronunciation:** /ˈfrɛʃən/ &middot; *FRESH-uhn*
 **Русский:** освежать, освежить; проветривать
 **Forms:** *freshen* &middot; *freshened* &middot; *freshened*
+**Verb class:** regular
 **Third person:** *freshens* &middot; **-ing form:** *freshening*
 **Transitivity:** transitive
 
@@ -180,6 +190,7 @@ To make a room or a thing smell and feel clean again.
 **Pronunciation:** /ˈlæðər/ &middot; *LATH-ur*
 **Русский:** намыливать, намылить; пениться, вспениваться
 **Forms:** *lather* &middot; *lathered* &middot; *lathered*
+**Verb class:** regular
 **Third person:** *lathers* &middot; **-ing form:** *lathering*
 **Transitivity:** both — transitive (*lather your hands*), intransitive (*this soap lathers well*)
 
@@ -196,6 +207,7 @@ To rub soap into a foam, or to make foam.
 **Pronunciation:** /ʃæmˈpuː/ &middot; *sham-POO*
 **Русский:** мыть шампунем; чистить шампунем
 **Forms:** *shampoo* &middot; *shampooed* &middot; *shampooed*
+**Verb class:** regular
 **Third person:** *shampoos* &middot; **-ing form:** *shampooing*
 **Transitivity:** transitive
 **Contrast:** The final *-oo* simply adds *-ed*: *shampooed*, never *shampoed*.
@@ -213,6 +225,7 @@ To wash hair or a carpet with shampoo.
 **Pronunciation:** /koʊm/ &middot; *KOHM*
 **Русский:** расчёсывать, расчесать; прочёсывать
 **Forms:** *comb* &middot; *combed* &middot; *combed*
+**Verb class:** regular
 **Third person:** *combs* &middot; **-ing form:** *combing*
 **Transitivity:** transitive
 **Contrast:** The *b* is silent: *KOHM*, like *home* with a *k*.
@@ -230,6 +243,7 @@ To pull a comb through hair to make it neat.
 **Pronunciation:** /ˈaɪərn/ &middot; *EYE-urn*
 **Русский:** гладить, погладить (утюгом)
 **Forms:** *iron* &middot; *ironed* &middot; *ironed*
+**Verb class:** regular
 **Third person:** *irons* &middot; **-ing form:** *ironing*
 **Transitivity:** both — transitive (*iron a shirt*), intransitive (*he irons while watching TV*)
 **Contrast:** Said *EYE-urn*, not *EYE-ron* — the *r* is heard before the vowel, not after it.
@@ -247,6 +261,7 @@ To make cloth smooth with a hot iron.
 **Pronunciation:** /stɑːrtʃ/ &middot; *STARCH*
 **Русский:** крахмалить, накрахмалить
 **Forms:** *starch* &middot; *starched* &middot; *starched*
+**Verb class:** regular
 **Third person:** *starches* &middot; **-ing form:** *starching*
 **Transitivity:** transitive
 
@@ -263,6 +278,7 @@ To stiffen cloth with starch while washing or ironing it.
 **Pronunciation:** /hɛm/ &middot; *HEM*
 **Русский:** подшивать, подшить (край)
 **Forms:** *hem* &middot; *hemmed* &middot; *hemmed*
+**Verb class:** regular
 **Third person:** *hems* &middot; **-ing form:** *hemming*
 **Transitivity:** transitive
 **Contrast:** The *m* doubles: *hemmed*, *hemming*.
@@ -280,6 +296,7 @@ To fold and sew the edge of cloth so it does not fray.
 **Pronunciation:** /ˈvɛntəleɪt/ &middot; *VEN-tuh-layt*
 **Русский:** проветривать, проветрить; вентилировать
 **Forms:** *ventilate* &middot; *ventilated* &middot; *ventilated*
+**Verb class:** regular
 **Third person:** *ventilates* &middot; **-ing form:** *ventilating*
 **Transitivity:** transitive
 
@@ -296,6 +313,7 @@ To let fresh air move through a room.
 **Pronunciation:** /ˈtaɪdi/ &middot; *TY-dee*
 **Русский:** убирать, убрать; наводить порядок, навести порядок
 **Forms:** *tidy* &middot; *tidied* &middot; *tidied*
+**Verb class:** regular
 **Third person:** *tidies* &middot; **-ing form:** *tidying*
 **Transitivity:** both — transitive (*tidy your desk*), intransitive (*he tidies before guests come*)
 **Contrast:** Consonant + *-y*: *tidies*, *tidied*, but *tidying* keeps the *y*.
@@ -313,6 +331,7 @@ To put things back where they belong so a place looks neat.
 **Pronunciation:** /ˈstreɪtən/ &middot; *STRAY-tuhn*
 **Русский:** выпрямлять, выпрямить; поправлять, поправить
 **Forms:** *straighten* &middot; *straightened* &middot; *straightened*
+**Verb class:** regular
 **Third person:** *straightens* &middot; **-ing form:** *straightening*
 **Transitivity:** transitive
 **Contrast:** The *gh* is silent: *STRAY-tuhn*.
@@ -330,6 +349,7 @@ To make something straight or neat.
 **Pronunciation:** /ˌriːəˈreɪndʒ/ &middot; *ree-uh-RAYNJ*
 **Русский:** переставлять, переставить; перестраивать, перестроить
 **Forms:** *rearrange* &middot; *rearranged* &middot; *rearranged*
+**Verb class:** regular
 **Third person:** *rearranges* &middot; **-ing form:** *rearranging*
 **Transitivity:** transitive
 
@@ -346,6 +366,7 @@ To put things in a different order or place.
 **Pronunciation:** /diːˈklʌtər/ &middot; *dee-KLUT-ur*
 **Русский:** разбирать завалы; избавляться от лишнего
 **Forms:** *declutter* &middot; *decluttered* &middot; *decluttered*
+**Verb class:** regular
 **Third person:** *declutters* &middot; **-ing form:** *decluttering*
 **Transitivity:** both — transitive (*declutter the desk*), intransitive (*we decluttered all weekend*)
 
@@ -362,6 +383,7 @@ To get rid of things you do not need so a space feels open again.
 **Pronunciation:** /smuːð/ &middot; *SMOOTH*
 **Русский:** разглаживать, разгладить; сглаживать, сгладить
 **Forms:** *smooth* &middot; *smoothed* &middot; *smoothed*
+**Verb class:** regular
 **Third person:** *smooths* &middot; **-ing form:** *smoothing*
 **Transitivity:** transitive
 **Contrast:** The *th* is voiced, as in *this*, not as in *think*.
@@ -379,6 +401,7 @@ To flatten something by running your hand over it.
 **Pronunciation:** /tʌk/ &middot; *TUK*
 **Русский:** заправлять, заправить; подтыкать, подоткнуть
 **Forms:** *tuck* &middot; *tucked* &middot; *tucked*
+**Verb class:** regular
 **Third person:** *tucks* &middot; **-ing form:** *tucking*
 **Transitivity:** transitive
 
@@ -395,6 +418,7 @@ To push the loose end of cloth into a narrow space so it stays.
 **Pronunciation:** /dreɪp/ &middot; *DRAYP*
 **Русский:** накидывать, накинуть; набрасывать, набросить
 **Forms:** *drape* &middot; *draped* &middot; *draped*
+**Verb class:** regular
 **Third person:** *drapes* &middot; **-ing form:** *draping*
 **Transitivity:** transitive
 
@@ -411,6 +435,7 @@ To hang cloth loosely over something.
 **Pronunciation:** /pleɪs/ &middot; *PLAYSS*
 **Русский:** класть, положить; помещать, поместить
 **Forms:** *place* &middot; *placed* &middot; *placed*
+**Verb class:** regular
 **Third person:** *places* &middot; **-ing form:** *placing*
 **Transitivity:** transitive
 
@@ -427,6 +452,7 @@ To put something carefully in a particular spot.
 **Pronunciation:** /sɔːrt/ &middot; *SORT*
 **Русский:** сортировать, рассортировать; разбирать, разобрать
 **Forms:** *sort* &middot; *sorted* &middot; *sorted*
+**Verb class:** regular
 **Third person:** *sorts* &middot; **-ing form:** *sorting*
 **Transitivity:** both — transitive (*sort the mail*), intransitive (*we sorted for an hour*)
 
@@ -443,6 +469,7 @@ To separate things into groups of the same kind.
 **Pronunciation:** /paɪl/ &middot; *PYLE*
 **Русский:** сваливать в кучу, свалить; наваливать, навалить
 **Forms:** *pile* &middot; *piled* &middot; *piled*
+**Verb class:** regular
 **Third person:** *piles* &middot; **-ing form:** *piling*
 **Transitivity:** transitive
 
@@ -459,6 +486,7 @@ To put a lot of things on top of each other, usually not neatly.
 **Pronunciation:** /ʃɛlv/ &middot; *SHELV*
 **Русский:** ставить на полку, поставить; раскладывать по полкам
 **Forms:** *shelve* &middot; *shelved* &middot; *shelved*
+**Verb class:** regular
 **Third person:** *shelves* &middot; **-ing form:** *shelving*
 **Transitivity:** transitive
 **Contrast:** The noun *shelf* turns its *f* into *v*: one *shelf*, two *shelves*, and the verb is *shelve*.
@@ -476,6 +504,7 @@ To put things away on a shelf.
 **Pronunciation:** /ˈkætəɡəraɪz/ &middot; *KAT-uh-guh-ryze*
 **Русский:** распределять по категориям; классифицировать
 **Forms:** *categorize* &middot; *categorized* &middot; *categorized*
+**Verb class:** regular
 **Third person:** *categorizes* &middot; **-ing form:** *categorizing*
 **Transitivity:** transitive
 
@@ -492,6 +521,7 @@ To put things into groups by type.
 **Pronunciation:** /ɡruːp/ &middot; *GROOP*
 **Русский:** группировать, сгруппировать; объединять, объединить
 **Forms:** *group* &middot; *grouped* &middot; *grouped*
+**Verb class:** regular
 **Third person:** *groups* &middot; **-ing form:** *grouping*
 **Transitivity:** transitive
 
@@ -508,6 +538,7 @@ To put things together because they belong to the same set.
 **Pronunciation:** /bɑːks/ &middot; *BAHKS*
 **Русский:** упаковывать в коробки, упаковать; укладывать в коробку
 **Forms:** *box* &middot; *boxed* &middot; *boxed*
+**Verb class:** regular
 **Third person:** *boxes* &middot; **-ing form:** *boxing*
 **Transitivity:** transitive
 **Contrast:** After *-x* the third person takes *-es*: *boxes*.
@@ -525,6 +556,7 @@ To pack things into boxes.
 **Pronunciation:** /bæɡ/ &middot; *BAG*
 **Русский:** складывать в пакет, сложить; упаковывать в мешок
 **Forms:** *bag* &middot; *bagged* &middot; *bagged*
+**Verb class:** regular
 **Third person:** *bags* &middot; **-ing form:** *bagging*
 **Transitivity:** transitive
 **Contrast:** The *g* doubles: *bagged*, *bagging*.
@@ -542,6 +574,7 @@ To put something into a bag.
 **Pronunciation:** /stæʃ/ &middot; *STASH*
 **Русский:** прятать, спрятать; припрятывать, припрятать
 **Forms:** *stash* &middot; *stashed* &middot; *stashed*
+**Verb class:** regular
 **Third person:** *stashes* &middot; **-ing form:** *stashing*
 **Transitivity:** transitive
 
@@ -558,6 +591,7 @@ To put something away in a safe or hidden place.
 **Pronunciation:** /dɪsˈkɑːrd/ &middot; *dis-KAHRD*
 **Русский:** выбрасывать, выбросить; избавляться, избавиться
 **Forms:** *discard* &middot; *discarded* &middot; *discarded*
+**Verb class:** regular
 **Third person:** *discards* &middot; **-ing form:** *discarding*
 **Transitivity:** transitive
 **Contrast:** The verb is *dis-KAHRD*; the noun, a thing thrown away, is *DIS-kahrd*.
@@ -575,6 +609,7 @@ To throw something away because it is no longer wanted.
 **Pronunciation:** /riːˈsaɪkəl/ &middot; *ree-SY-kuhl*
 **Русский:** перерабатывать, переработать; сдавать на переработку
 **Forms:** *recycle* &middot; *recycled* &middot; *recycled*
+**Verb class:** regular
 **Third person:** *recycles* &middot; **-ing form:** *recycling*
 **Transitivity:** both — transitive (*recycle the bottles*), intransitive (*we recycle*)
 
@@ -591,6 +626,7 @@ To send used paper, glass, or plastic to be made into something new.
 **Pronunciation:** /ˈkɑːmpoʊst/ &middot; *KAHM-pohst*
 **Русский:** компостировать; класть в компост
 **Forms:** *compost* &middot; *composted* &middot; *composted*
+**Verb class:** regular
 **Third person:** *composts* &middot; **-ing form:** *composting*
 **Transitivity:** both — transitive (*compost the peels*), intransitive (*they compost*)
 
@@ -607,6 +643,7 @@ To let food scraps and leaves rot so they turn into soil.
 **Pronunciation:** /dʌmp/ &middot; *DUMP*
 **Русский:** вываливать, вывалить; сваливать, свалить; выбрасывать
 **Forms:** *dump* &middot; *dumped* &middot; *dumped*
+**Verb class:** regular
 **Third person:** *dumps* &middot; **-ing form:** *dumping*
 **Transitivity:** transitive
 
@@ -623,6 +660,7 @@ To empty something out quickly and carelessly.
 **Pronunciation:** /ˈɛmpti/ &middot; *EMP-tee*
 **Русский:** опорожнять, опорожнить; опустошать; выносить (мусор)
 **Forms:** *empty* &middot; *emptied* &middot; *emptied*
+**Verb class:** regular
 **Third person:** *empties* &middot; **-ing form:** *emptying*
 **Transitivity:** both — transitive (*empty the trash*), intransitive (*the room emptied fast*)
 **Contrast:** Consonant + *-y*: *empties*, *emptied*, but *emptying* keeps the *y*.
@@ -640,6 +678,7 @@ To take everything out of a container.
 **Pronunciation:** /riːˈjuːz/ &middot; *ree-YOOZ*
 **Русский:** использовать повторно, использовать снова
 **Forms:** *reuse* &middot; *reused* &middot; *reused*
+**Verb class:** regular
 **Third person:** *reuses* &middot; **-ing form:** *reusing*
 **Transitivity:** transitive
 **Contrast:** The verb ends in /z/ — *ree-YOOZ*; the noun *reuse* ends in /s/ — *ree-YOOSS*.
@@ -657,6 +696,7 @@ To use something again instead of throwing it away.
 **Pronunciation:** /ˈlɪtər/ &middot; *LIT-ur*
 **Русский:** мусорить, насорить; сорить; захламлять
 **Forms:** *litter* &middot; *littered* &middot; *littered*
+**Verb class:** regular
 **Third person:** *litters* &middot; **-ing form:** *littering*
 **Transitivity:** both — transitive (*toys littered the hall*), intransitive (*please don't litter*)
 
@@ -673,6 +713,7 @@ To drop trash where it does not belong, or to cover a place with scattered thing
 **Pronunciation:** /splæʃ/ &middot; *SPLASH*
 **Русский:** плескать, плеснуть; забрызгать, обрызгать
 **Forms:** *splash* &middot; *splashed* &middot; *splashed*
+**Verb class:** regular
 **Third person:** *splashes* &middot; **-ing form:** *splashing*
 **Transitivity:** both — transitive (*splash water on it*), intransitive (*water splashed on the floor*)
 
@@ -689,6 +730,7 @@ To make liquid fly about in drops, or to fly about in drops.
 **Pronunciation:** /skwɜːrt/ &middot; *SKWURT*
 **Русский:** брызгать струёй, брызнуть; выдавливать, выдавить
 **Forms:** *squirt* &middot; *squirted* &middot; *squirted*
+**Verb class:** regular
 **Third person:** *squirts* &middot; **-ing form:** *squirting*
 **Transitivity:** both — transitive (*squirt some soap*), intransitive (*the bottle squirted sideways*)
 
@@ -705,6 +747,7 @@ To force liquid out in a thin fast stream.
 **Pronunciation:** /smʌdʒ/ &middot; *SMUJ*
 **Русский:** смазывать, смазать; пачкать, оставлять след
 **Forms:** *smudge* &middot; *smudged* &middot; *smudged*
+**Verb class:** regular
 **Third person:** *smudges* &middot; **-ing form:** *smudging*
 **Transitivity:** both — transitive (*smudge the mirror*), intransitive (*wet ink smudges*)
 
@@ -721,6 +764,7 @@ To make a dirty or blurred mark by rubbing something.
 **Pronunciation:** /sɔɪl/ &middot; *SOYL*
 **Русский:** пачкать, испачкать; загрязнять, загрязнить
 **Forms:** *soil* &middot; *soiled* &middot; *soiled*
+**Verb class:** regular
 **Third person:** *soils* &middot; **-ing form:** *soiling*
 **Transitivity:** transitive
 **Contrast:** *Soiled* is the word on laundry labels and in hospitals; as a noun, *soil* means почва.
@@ -738,6 +782,7 @@ To make something dirty.
 **Pronunciation:** /ˈdæmpən/ &middot; *DAM-puhn*
 **Русский:** увлажнять, увлажнить; смачивать, смочить
 **Forms:** *dampen* &middot; *dampened* &middot; *dampened*
+**Verb class:** regular
 **Third person:** *dampens* &middot; **-ing form:** *dampening*
 **Transitivity:** transitive
 
@@ -754,6 +799,7 @@ To make something slightly wet.
 **Pronunciation:** /ˈmɔɪsən/ &middot; *MOY-suhn*
 **Русский:** смачивать, смочить; увлажнять, увлажнить
 **Forms:** *moisten* &middot; *moistened* &middot; *moistened*
+**Verb class:** regular
 **Third person:** *moistens* &middot; **-ing form:** *moistening*
 **Transitivity:** transitive
 **Contrast:** The *t* is silent: *MOY-suhn*, like *listen* and *fasten*.
@@ -771,6 +817,7 @@ To make something a little wet.
 **Pronunciation:** /əbˈzɔːrb/ &middot; *ub-ZORB*
 **Русский:** впитывать, впитать; поглощать, поглотить
 **Forms:** *absorb* &middot; *absorbed* &middot; *absorbed*
+**Verb class:** regular
 **Third person:** *absorbs* &middot; **-ing form:** *absorbing*
 **Transitivity:** transitive
 **Contrast:** The *s* is pronounced /z/: *ub-ZORB*, not *ub-SORB*.
@@ -788,6 +835,7 @@ To take in liquid so that it is no longer on the surface.
 **Pronunciation:** /blɑːt/ &middot; *BLAHT*
 **Русский:** промокать, промокнуть (тряпкой, бумагой)
 **Forms:** *blot* &middot; *blotted* &middot; *blotted*
+**Verb class:** regular
 **Third person:** *blots* &middot; **-ing form:** *blotting*
 **Transitivity:** transitive
 **Contrast:** The *t* doubles: *blotted*, *blotting*.
@@ -805,6 +853,7 @@ To press a cloth or paper onto a wet spot so the liquid soaks in.
 **Pronunciation:** /dæb/ &middot; *DAB*
 **Русский:** промокать, промокнуть; слегка наносить, нанести
 **Forms:** *dab* &middot; *dabbed* &middot; *dabbed*
+**Verb class:** regular
 **Third person:** *dabs* &middot; **-ing form:** *dabbing*
 **Transitivity:** both — transitive (*dab the stain*), intransitive (*she dabbed at the spot*)
 **Contrast:** The *b* doubles: *dabbed*, *dabbing*.
@@ -822,6 +871,7 @@ To touch something lightly and repeatedly with a cloth or a finger.
 **Pronunciation:** /ɪˈmɜːrs/ &middot; *ih-MURS*
 **Русский:** погружать, погрузить; окунать, окунуть
 **Forms:** *immerse* &middot; *immersed* &middot; *immersed*
+**Verb class:** regular
 **Third person:** *immerses* &middot; **-ing form:** *immersing*
 **Transitivity:** transitive
 
@@ -838,6 +888,7 @@ To put something completely under a liquid.
 **Pronunciation:** /ɔɪl/ &middot; *OYL*
 **Русский:** смазывать маслом, смазать; промасливать
 **Forms:** *oil* &middot; *oiled* &middot; *oiled*
+**Verb class:** regular
 **Third person:** *oils* &middot; **-ing form:** *oiling*
 **Transitivity:** transitive
 
@@ -854,6 +905,7 @@ To put oil on something so that it moves smoothly or does not dry out.
 **Pronunciation:** /ʌnˈklɑːɡ/ &middot; *un-KLAHG*
 **Русский:** прочищать, прочистить (засор)
 **Forms:** *unclog* &middot; *unclogged* &middot; *unclogged*
+**Verb class:** regular
 **Third person:** *unclogs* &middot; **-ing form:** *unclogging*
 **Transitivity:** transitive
 
@@ -870,6 +922,7 @@ To clear a blocked pipe or drain.
 **Pronunciation:** /plʌndʒ/ &middot; *PLUNJ*
 **Русский:** прочищать вантузом; погружать, погрузить
 **Forms:** *plunge* &middot; *plunged* &middot; *plunged*
+**Verb class:** regular
 **Third person:** *plunges* &middot; **-ing form:** *plunging*
 **Transitivity:** both — transitive (*plunge the toilet*), intransitive (*he plunged for ten minutes*)
 
@@ -886,6 +939,7 @@ To clear a blocked toilet or drain with a plunger, or to push something down int
 **Pronunciation:** /flʌʃ/ &middot; *FLUSH*
 **Русский:** смывать, смыть (в туалете); промывать, промыть
 **Forms:** *flush* &middot; *flushed* &middot; *flushed*
+**Verb class:** regular
 **Third person:** *flushes* &middot; **-ing form:** *flushing*
 **Transitivity:** both — transitive (*flush the toilet*), intransitive (*the toilet won't flush*)
 
@@ -902,6 +956,7 @@ To send water through something to clean it out, especially a toilet.
 **Pronunciation:** /strɪp/ &middot; *STRIP*
 **Русский:** снимать, снять (бельё, покрытие); сдирать, содрать
 **Forms:** *strip* &middot; *stripped* &middot; *stripped*
+**Verb class:** regular
 **Third person:** *strips* &middot; **-ing form:** *stripping*
 **Transitivity:** transitive
 **Contrast:** The *p* doubles: *stripped*, *stripping* — *striped*, with one *p*, means в полоску.
@@ -919,6 +974,7 @@ To take everything off a surface or a bed.
 **Pronunciation:** /beɪð/ &middot; *BAYTH*
 **Русский:** купать, искупать; мыться, купаться
 **Forms:** *bathe* &middot; *bathed* &middot; *bathed*
+**Verb class:** regular
 **Third person:** *bathes* &middot; **-ing form:** *bathing*
 **Transitivity:** both — transitive (*bathe the baby*), intransitive (*she bathes at night*)
 **Contrast:** The verb *bathe* is *BAYTH*, with a long *a* and a voiced *th*; the noun *bath* is *BATH*, short.
@@ -936,6 +992,7 @@ To wash someone, or yourself, in a tub.
 **Pronunciation:** /ˈfɪltər/ &middot; *FIL-tur*
 **Русский:** фильтровать, отфильтровать; очищать, очистить
 **Forms:** *filter* &middot; *filtered* &middot; *filtered*
+**Verb class:** regular
 **Third person:** *filters* &middot; **-ing form:** *filtering*
 **Transitivity:** both — transitive (*filter the water*), intransitive (*light filtered through the blinds*)
 
@@ -952,6 +1009,7 @@ To pass liquid or air through something that takes the dirt out.
 **Pronunciation:** /ʌnˈræp/ &middot; *un-RAP*
 **Русский:** разворачивать, развернуть; распаковывать, распаковать
 **Forms:** *unwrap* &middot; *unwrapped* &middot; *unwrapped*
+**Verb class:** regular
 **Third person:** *unwraps* &middot; **-ing form:** *unwrapping*
 **Transitivity:** transitive
 **Contrast:** The *w* is silent and the *p* doubles: *unwrapped*, *unwrapping*.

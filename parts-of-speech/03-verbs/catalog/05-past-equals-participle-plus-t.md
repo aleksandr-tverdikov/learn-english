@@ -11,6 +11,7 @@ These verbs change the vowel of the stem and then add a -t, and that single form
 **Pronunciation:** /bɪˈsitʃ/ &middot; *bih-SEECH*
 **Русский:** умолять; упрашивать
 **Forms:** *beseech* /bɪˈsitʃ/ &middot; *besought* /bɪˈsɔt/ &middot; *besought* /bɪˈsɔt/
+**Verb class:** irregular
 **Register:** formal — literary and scriptural; in ordinary speech Americans *beg* or *plead*
 **Pattern:** -eech &rarr; -ought &middot; **Group:** 5
 **Third person:** *beseeches* (adds -es) &middot; **-ing form:** *beseeching*
@@ -40,6 +41,7 @@ To beg someone urgently and humbly for something; formal and literary in modern 
 **Pronunciation:** /brɪŋ/ &middot; *BRING*
 **Русский:** приносить
 **Forms:** *bring* /brɪŋ/ &middot; *brought* /brɔt/ &middot; *brought* /brɔt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** -ing &rarr; -ought &middot; **Group:** 5
 **Third person:** *brings* &middot; **-ing form:** *bringing*
@@ -114,6 +116,7 @@ To carry or take someone or something to the place where you are or are going; a
 **Pronunciation:** /baɪ/ &middot; *BY*
 **Русский:** купить
 **Forms:** *buy* /baɪ/ &middot; *bought* /bɔt/ &middot; *bought* /bɔt/
+**Verb class:** irregular
 **Register:** everyday — the ordinary word for paying money for something
 **Pattern:** -uy &rarr; -ought &middot; **Group:** 5
 **Third person:** *buys* &middot; **-ing form:** *buying*
@@ -170,6 +173,7 @@ To get something by paying money for it; informally, also to believe something o
 **Pronunciation:** /kætʃ/ &middot; *KACH*
 **Русский:** ловить, хватать
 **Forms:** *catch* /kætʃ/ &middot; *caught* /kɔt/ &middot; *caught* /kɔt/
+**Verb class:** irregular
 **Register:** everyday — constant in speech, from catching a ball to catching a cold
 **Pattern:** -atch &rarr; -aught &middot; **Group:** 5
 **Third person:** *catches* (adds -es) &middot; **-ing form:** *catching*
@@ -250,6 +254,7 @@ To take hold of something moving, and by extension to capture, reach in time, no
 **Pronunciation:** /krip/ &middot; *KREEP*
 **Русский:** ползти
 **Forms:** *creep* /krip/ &middot; *crept* /krɛpt/ &middot; *crept* /krɛpt/
+**Verb class:** irregular
 **Register:** everyday — ordinary in speech, especially in *creep out* and *creep up on*
 **Pattern:** ee &rarr; e + t &middot; **Group:** 5
 **Third person:** *creeps* &middot; **-ing form:** *creeping*
@@ -300,6 +305,7 @@ To move slowly, quietly, and low to the ground, or to advance by small degrees.
 **Pronunciation:** /ˈdeɪˌdrim/ &middot; *DAY-dreem*
 **Русский:** грезить наяву; мечтать, фантазировать
 **Forms:** *daydream* /ˈdeɪˌdrim/ &middot; *daydreamed* /ˈdeɪˌdrimd/ (also *daydreamt* /ˈdeɪˌdrɛmt/) &middot; *daydreamed* /ˈdeɪˌdrimd/ (also *daydreamt*)
+**Verb class:** irregular
 **Register:** everyday — the ordinary word for letting your mind wander
 **Pattern:** regular -ed in American English (British ea &rarr; e + t) &middot; **Group:** 5
 **Third person:** *daydreams* &middot; **-ing form:** *daydreaming*
@@ -329,6 +335,7 @@ To let your mind wander to pleasant imaginary things while you are awake.
 **Pronunciation:** /dil/ &middot; *DEEL*
 **Русский:** иметь дело
 **Forms:** *deal* /dil/ &middot; *dealt* /dɛlt/ &middot; *dealt* /dɛlt/
+**Verb class:** irregular
 **Register:** everyday — *deal with it* and *deal the cards* are both plain speech
 **Pattern:** ea &rarr; e + t &middot; **Group:** 5
 **Third person:** *deals* &middot; **-ing form:** *dealing*
@@ -385,6 +392,7 @@ To handle or cope with something, to hand out playing cards, or to trade in good
 **Pronunciation:** /drim/ &middot; *DREEM*
 **Русский:** видеть сны; мечтать
 **Forms:** *dream* /drim/ &middot; *dreamed* /drimd/ (also *dreamt* /drɛmt/) &middot; *dreamed* /drimd/ (also *dreamt* /drɛmt/)
+**Verb class:** irregular
 **Register:** everyday — used constantly in speech and writing alike
 **Pattern:** regular -ed in American English (British ea &rarr; e + t) &middot; **Group:** 5
 **Third person:** *dreams* &middot; **-ing form:** *dreaming*
@@ -434,6 +442,7 @@ To see images and stories while asleep, or to imagine something you badly want.
 **Pronunciation:** /fil/ &middot; *FEEL*
 **Русский:** чувствовать
 **Forms:** *feel* /fil/ &middot; *felt* /fɛlt/ &middot; *felt* /fɛlt/
+**Verb class:** irregular
 **Register:** everyday — among the most frequent verbs in the language
 **Pattern:** ee &rarr; e + t &middot; **Group:** 5
 **Third person:** *feels* &middot; **-ing form:** *feeling*
@@ -508,6 +517,7 @@ To experience an emotion or a sensation, to touch something to learn about it, o
 **Pronunciation:** /kip/ &middot; *KEEP*
 **Русский:** держать; хранить
 **Forms:** *keep* /kip/ &middot; *kept* /kɛpt/ &middot; *kept* /kɛpt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ee &rarr; e + t &middot; **Group:** 5
 **Third person:** *keeps* &middot; **-ing form:** *keeping*
@@ -588,6 +598,7 @@ To go on having something, to store it somewhere, or to make someone or somethin
 **Pronunciation:** /nil/ &middot; *NEEL*
 **Русский:** стоять на коленях
 **Forms:** *kneel* /nil/ &middot; *knelt* /nɛlt/ (also *kneeled* /nild/) &middot; *knelt* /nɛlt/ (also *kneeled*)
+**Verb class:** irregular
 **Register:** everyday — the ordinary verb for going down on one's knees
 **Pattern:** ee &rarr; e + t &middot; **Group:** 5
 **Third person:** *kneels* &middot; **-ing form:** *kneeling*
@@ -623,6 +634,7 @@ To go down on your knees, or to stay in that position.
 **Pronunciation:** /lin/ &middot; *LEEN*
 **Русский:** опираться; прислоняться
 **Forms:** *lean* /lin/ &middot; *leaned* /lind/ (British *leant* /lɛnt/) &middot; *leaned* /lind/ (British *leant*)
+**Verb class:** irregular
 **Register:** everyday — ordinary in speech; only the British past *leant* is marked
 **Pattern:** regular -ed in American English (British ea &rarr; e + t) &middot; **Group:** 5
 **Third person:** *leans* &middot; **-ing form:** *leaning*
@@ -673,6 +685,7 @@ To bend or rest your body or an object at an angle, and by extension to tend tow
 **Pronunciation:** /lip/ &middot; *LEEP*
 **Русский:** прыгать, скакать
 **Forms:** *leap* /lip/ &middot; *leaped* /lipt/ or *leapt* /lɛpt/ &middot; *leaped* /lipt/ or *leapt* /lɛpt/
+**Verb class:** irregular
 **Register:** neutral — at home in writing and in fixed phrases (*leap year*, *leap of faith*); plain speech says *jump*
 **Pattern:** ea &rarr; e + t, or regular -ed &middot; **Group:** 5
 **Third person:** *leaps* &middot; **-ing form:** *leaping*
@@ -717,6 +730,7 @@ To jump a long way or high, and by extension to rise sharply or to act suddenly.
 **Pronunciation:** /liv/ &middot; *LEEV*
 **Русский:** оставить; уйти
 **Forms:** *leave* /liv/ &middot; *left* /lɛft/ &middot; *left* /lɛft/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** -eave &rarr; -eft &middot; **Group:** 5
 **Third person:** *leaves* &middot; **-ing form:** *leaving* (drops the e)
@@ -791,6 +805,7 @@ To go away from a place or a person, or to let something stay behind or stay in 
 **Pronunciation:** /luz/ &middot; *LOOZ*
 **Русский:** терять
 **Forms:** *lose* /luz/ &middot; *lost* /lɔst/ &middot; *lost* /lɔst/
+**Verb class:** irregular
 **Register:** everyday — constant in speech, about games, keys, and jobs alike
 **Pattern:** -ose &rarr; -ost &middot; **Group:** 5
 **Third person:** *loses* &middot; **-ing form:** *losing* (drops the e)
@@ -859,6 +874,7 @@ To stop having something, to be unable to find it, or to fail to win.
 **Pronunciation:** /meɪ/ &middot; *MAY*
 **Русский:** мочь; иметь возможность
 **Forms:** *may* /meɪ/ &middot; *might* /maɪt/ &middot; *might* /maɪt/
+**Verb class:** irregular
 **Register:** everyday — a core modal, though *might* now carries most of its weight in speech
 **Pattern:** ay &rarr; ight &middot; **Group:** 5
 **Third person:** no -s form — ✗ *he mays* &middot; **-ing form:** no -ing form — ✗ *maying*
@@ -917,6 +933,7 @@ A modal verb expressing possibility or permission; *might* is its past form and 
 **Pronunciation:** /min/ &middot; *MEEN*
 **Русский:** означать; иметь в виду
 **Forms:** *mean* /min/ &middot; *meant* /mɛnt/ &middot; *meant* /mɛnt/
+**Verb class:** irregular
 **Register:** everyday — used constantly, from *what do you mean* to *I meant to call*
 **Pattern:** ea &rarr; e + t &middot; **Group:** 5
 **Third person:** *means* &middot; **-ing form:** *meaning*
@@ -970,6 +987,7 @@ To have a particular sense, to intend something, or to matter to someone.
 **Pronunciation:** /aʊtˈθɪŋk/ &middot; *owt-THINK*
 **Русский:** перехитрить; оказаться умнее
 **Forms:** *outthink* /aʊtˈθɪŋk/ &middot; *outthought* /aʊtˈθɔt/ &middot; *outthought* /aʊtˈθɔt/
+**Verb class:** irregular
 **Register:** rare — a prefixed *think*, met mostly in sports and strategy writing
 **Pattern:** -ink &rarr; -ought &middot; **Group:** 5
 **Third person:** *outthinks* &middot; **-ing form:** *outthinking*
@@ -998,6 +1016,7 @@ To beat someone by thinking more cleverly than they do.
 **Pronunciation:** /ˌoʊvərˈslip/ &middot; *oh-ver-SLEEP*
 **Русский:** проспать; заспаться
 **Forms:** *oversleep* /ˌoʊvərˈslip/ &middot; *overslept* /ˌoʊvərˈslɛpt/ &middot; *overslept* /ˌoʊvərˈslɛpt/
+**Verb class:** irregular
 **Register:** everyday — prefixed, but the ordinary word for missing your alarm
 **Pattern:** ee &rarr; e + t &middot; **Group:** 5
 **Third person:** *oversleeps* &middot; **-ing form:** *oversleeping*
@@ -1023,6 +1042,7 @@ To sleep longer than you meant to.
 **Pronunciation:** /ˌriˈθɪŋk/ &middot; *ree-THINK*
 **Русский:** обдумать заново, передумать
 **Forms:** *rethink* /ˌriˈθɪŋk/ &middot; *rethought* /ˌriˈθɔt/ &middot; *rethought* /ˌriˈθɔt/
+**Verb class:** irregular
 **Register:** neutral — common in news and workplace speech, rarer in casual talk
 **Pattern:** -ink &rarr; -ought &middot; **Group:** 5
 **Third person:** *rethinks* &middot; **-ing form:** *rethinking*
@@ -1052,6 +1072,7 @@ To think about something again in order to change your plan or your opinion.
 **Pronunciation:** /sik/ &middot; *SEEK*
 **Русский:** искать
 **Forms:** *seek* /sik/ &middot; *sought* /sɔt/ &middot; *sought* /sɔt/
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing and news; in speech Americans *look for* things
 **Pattern:** -eek &rarr; -ought &middot; **Group:** 5
 **Third person:** *seeks* &middot; **-ing form:** *seeking*
@@ -1107,6 +1128,7 @@ To try to find or obtain something; formal in American English, where everyday s
 **Pronunciation:** /slip/ &middot; *SLEEP*
 **Русский:** спать
 **Forms:** *sleep* /slip/ &middot; *slept* /slɛpt/ &middot; *slept* /slɛpt/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ee &rarr; e + t &middot; **Group:** 5
 **Third person:** *sleeps* &middot; **-ing form:** *sleeping*
@@ -1163,6 +1185,7 @@ To rest with your eyes closed and your mind unconscious.
 **Pronunciation:** /swip/ &middot; *SWEEP*
 **Русский:** мести; промчаться
 **Forms:** *sweep* /swip/ &middot; *swept* /swɛpt/ &middot; *swept* /swɛpt/
+**Verb class:** irregular
 **Register:** everyday — ordinary for sweeping a floor and for a team sweeping a series
 **Pattern:** ee &rarr; e + t &middot; **Group:** 5
 **Third person:** *sweeps* &middot; **-ing form:** *sweeping*
@@ -1225,6 +1248,7 @@ To clean a floor with a broom, or to move something (or move yourself) in a broa
 **Pronunciation:** /titʃ/ &middot; *TEECH*
 **Русский:** учить, обучать, преподавать
 **Forms:** *teach* /titʃ/ &middot; *taught* /tɔt/ &middot; *taught* /tɔt/
+**Verb class:** irregular
 **Register:** everyday — the ordinary verb for what a teacher does
 **Pattern:** -each &rarr; -aught &middot; **Group:** 5
 **Third person:** *teaches* (adds -es) &middot; **-ing form:** *teaching*
@@ -1266,6 +1290,7 @@ To give someone knowledge or a skill.
 **Pronunciation:** /θɪŋk/ &middot; *THINK*
 **Русский:** думать
 **Forms:** *think* /θɪŋk/ &middot; *thought* /θɔt/ &middot; *thought* /θɔt/
+**Verb class:** irregular
 **Register:** everyday — among the most frequent verbs in English
 **Pattern:** -ink &rarr; -ought &middot; **Group:** 5
 **Third person:** *thinks* &middot; **-ing form:** *thinking*
@@ -1340,6 +1365,7 @@ To use your mind to consider something, or to hold an opinion about it.
 **Pronunciation:** /ˌʌpˈswip/ &middot; *up-SWEEP*
 **Русский:** подметать, прибирать(комнату)
 **Forms:** *upsweep* /ˌʌpˈswip/ &middot; *upswept* /ˌʌpˈswɛpt/ &middot; *upswept* /ˌʌpˈswɛpt/
+**Verb class:** irregular
 **Register:** rare — met almost only as the adjective *upswept*; for cleaning, Americans say *sweep up*
 **Pattern:** ee &rarr; e + t &middot; **Group:** 5
 **Third person:** *upsweeps* &middot; **-ing form:** *upsweeping*
@@ -1369,6 +1395,7 @@ To sweep or curve something upward; you will meet it mostly as the participle *u
 **Pronunciation:** /wip/ &middot; *WEEP*
 **Русский:** плакать
 **Forms:** *weep* /wip/ &middot; *wept* /wɛpt/ &middot; *wept* /wɛpt/
+**Verb class:** irregular
 **Register:** formal — literary and journalistic; in ordinary speech Americans *cry*
 **Pattern:** ee &rarr; e + t &middot; **Group:** 5
 **Third person:** *weeps* &middot; **-ing form:** *weeping*
@@ -1404,6 +1431,7 @@ To cry, especially quietly and from deep feeling; literary in American English.
 **Pronunciation:** /rik/ &middot; *REEK*
 **Русский:** причинять (вред, ущерб)
 **Forms:** *wreak* /rik/ &middot; *wreaked* /rikt/ &middot; *wreaked* /rikt/ (archaic *wrought* /rɔt/)
+**Verb class:** irregular
 **Register:** rare — outside the fixed phrase *wreak havoc* it barely appears
 **Pattern:** regular -ed in modern American English &middot; **Group:** 5
 **Third person:** *wreaks* &middot; **-ing form:** *wreaking*

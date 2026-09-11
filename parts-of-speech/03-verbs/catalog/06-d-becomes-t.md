@@ -13,6 +13,7 @@ Every verb here builds its past and its past participle the same way, and they c
 **Pronunciation:** /bɛnd/ &middot; *BEND*  
 **Русский:** гнуть; наклоняться
 **Forms:** *bend* /bɛnd/ &middot; *bent* /bɛnt/ &middot; *bent* /bɛnt/  
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking  
 **Pattern:** -nd — -nt — -nt &middot; **Group:** 6  
 **Third person:** *bends* &middot; **-ing form:** *bending* (no spelling change)  
@@ -78,6 +79,7 @@ To make something curve or lean the body over — and, figuratively, to relax a 
 **Pronunciation:** /blɛnd/ &middot; *BLEND*  
 **Русский:** смешивать
 **Forms:** *blend* /blɛnd/ &middot; *blended* /ˈblɛndɪd/ (older *blent* /blɛnt/) &middot; *blended* /ˈblɛndɪd/ (older *blent* /blɛnt/)  
+**Verb class:** irregular
 **Register:** everyday — ordinary kitchen and conversational English; *blend in* is said constantly  
 **Pattern:** -nd — -nt — -nt historically; regular -ed in modern American English &middot; **Group:** 6  
 **Third person:** *blends* &middot; **-ing form:** *blending*  
@@ -118,6 +120,7 @@ To mix things into a single smooth or harmonious whole, or to merge so completel
 **Pronunciation:** /bɪld/ &middot; *BILD*  
 **Русский:** строить
 **Forms:** *build* /bɪld/ &middot; *built* /bɪlt/ &middot; *built* /bɪlt/  
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking  
 **Pattern:** -ld — -lt — -lt &middot; **Group:** 6  
 **Third person:** *builds* &middot; **-ing form:** *building* (also the noun *a building*)  
@@ -179,6 +182,7 @@ To make something by putting parts together — a house, a business, a case, a r
 **Pronunciation:** /ɡɪld/ &middot; *GILD*  
 **Русский:** позолачивать
 **Forms:** *gild* /ɡɪld/ &middot; *gilded* /ˈɡɪldɪd/ (also *gilt* /ɡɪlt/) &middot; *gilded* /ˈɡɪldɪd/ (also *gilt* /ɡɪlt/)  
+**Verb class:** irregular
 **Register:** rare — a narrow craft verb; most Americans meet it only in *gild the lily* and *the Gilded Age*  
 **Pattern:** -ld — -lt — -lt historically; gilded is the ordinary American past and participle &middot; **Group:** 6  
 **Third person:** *gilds* &middot; **-ing form:** *gilding* (also a noun: *the gilding flaked off*)  
@@ -208,6 +212,7 @@ To cover a surface with a thin layer of gold, or figuratively to put an attracti
 **Pronunciation:** /ɡɝd/ &middot; *GURD*  
 **Русский:** подпоясывать, опоясывать
 **Forms:** *gird* /ɡɝd/ &middot; *girded* /ˈɡɝdɪd/ (also *girt* /ɡɝt/) &middot; *girded* /ˈɡɝdɪd/ (also *girt* /ɡɝt/)  
+**Verb class:** irregular
 **Register:** rare — elevated and mostly journalistic; alive in *gird for* and the biblical *gird your loins*  
 **Pattern:** -rd — -rt — -rt historically; girded is the usual American form &middot; **Group:** 6  
 **Third person:** *girds* &middot; **-ing form:** *girding*  
@@ -242,6 +247,7 @@ To fasten a belt around something, and by extension to brace yourself for someth
 **Pronunciation:** /lɛnd/ &middot; *LEND*  
 **Русский:** давать взаймы
 **Forms:** *lend* /lɛnd/ &middot; *lent* /lɛnt/ &middot; *lent* /lɛnt/  
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking  
 **Pattern:** -nd — -nt — -nt &middot; **Group:** 6  
 **Third person:** *lends* &middot; **-ing form:** *lending* (also a noun: *bank lending*)  
@@ -290,6 +296,7 @@ To let someone use something of yours for a while, expecting it back — and, fi
 **Pronunciation:** /ˌmɪsˈspɛnd/ &middot; *miss-SPEND*  
 **Русский:** транжирить
 **Forms:** *misspend* /ˌmɪsˈspɛnd/ &middot; *misspent* /ˌmɪsˈspɛnt/ &middot; *misspent* /ˌmɪsˈspɛnt/  
+**Verb class:** irregular
 **Register:** rare — prefixed derivative of *spend*, met almost only as the participle in *a misspent youth*  
 **Pattern:** -nd — -nt — -nt &middot; **Group:** 6  
 **Third person:** *misspends* &middot; **-ing form:** *misspending*  
@@ -319,6 +326,7 @@ To spend money or time on the wrong things.
 **Pronunciation:** /ˌaʊtˈspɛnd/ &middot; *owt-SPEND*  
 **Русский:** перерасходовать
 **Forms:** *outspend* /ˌaʊtˈspɛnd/ &middot; *outspent* /ˌaʊtˈspɛnt/ &middot; *outspent* /ˌaʊtˈspɛnt/  
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in campaign and business writing, seldom said out loud  
 **Pattern:** -nd — -nt — -nt &middot; **Group:** 6  
 **Third person:** *outspends* &middot; **-ing form:** *outspending*  
@@ -347,6 +355,7 @@ To spend more money than a rival does.
 **Pronunciation:** /ˌoʊvɚˈbɪld/ &middot; *oh-ver-BILD*  
 **Русский:** (чрезмерно) застраивать (район и т. п.)
 **Forms:** *overbuild* /ˌoʊvɚˈbɪld/ &middot; *overbuilt* /ˌoʊvɚˈbɪlt/ &middot; *overbuilt* /ˌoʊvɚˈbɪlt/  
+**Verb class:** irregular
 **Register:** rare — a real-estate and engineering term rather than general vocabulary  
 **Pattern:** -ld — -lt — -lt &middot; **Group:** 6  
 **Third person:** *overbuilds* &middot; **-ing form:** *overbuilding* (also a noun: *decades of overbuilding*)  
@@ -375,6 +384,7 @@ To put up more construction than a place needs — or, in engineering, to make s
 **Pronunciation:** /ˌoʊvɚˈspɛnd/ &middot; *oh-ver-SPEND*  
 **Русский:** перерасходовать; сорить деньгами
 **Forms:** *overspend* /ˌoʊvɚˈspɛnd/ &middot; *overspent* /ˌoʊvɚˈspɛnt/ &middot; *overspent* /ˌoʊvɚˈspɛnt/  
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in budget and finance writing, less common in speech  
 **Pattern:** -nd — -nt — -nt &middot; **Group:** 6  
 **Third person:** *overspends* &middot; **-ing form:** *overspending* (also a noun: *government overspending*)  
@@ -403,6 +413,7 @@ To spend more money than you have or planned to spend.
 **Pronunciation:** /ˌriˈbɪld/ &middot; *ree-BILD*  
 **Русский:** перестроить
 **Forms:** *rebuild* /ˌriˈbɪld/ &middot; *rebuilt* /ˌriˈbɪlt/ &middot; *rebuilt* /ˌriˈbɪlt/  
+**Verb class:** irregular
 **Register:** everyday — ordinary for houses, engines, teams, and trust alike  
 **Pattern:** -ld — -lt — -lt &middot; **Group:** 6  
 **Third person:** *rebuilds* &middot; **-ing form:** *rebuilding* (also a noun: *the rebuilding effort*)  
@@ -441,6 +452,7 @@ To build something again after damage or dismantling — a town, an engine, a te
 **Pronunciation:** /rɛnd/ &middot; *REND*  
 **Русский:** раздирать
 **Forms:** *rend* /rɛnd/ &middot; *rent* /rɛnt/ &middot; *rent* /rɛnt/  
+**Verb class:** irregular
 **Register:** rare — literary throughout; ordinary American speech says *tear*  
 **Pattern:** -nd — -nt — -nt &middot; **Group:** 6  
 **Third person:** *rends* &middot; **-ing form:** *rending* (as in *heart-rending*)  
@@ -480,6 +492,7 @@ To tear something violently apart, literally or figuratively. Literary throughou
 **Pronunciation:** /sɛnd/ &middot; *SEND*  
 **Русский:** посылать, присылать, отправлять, отсылать
 **Forms:** *send* /sɛnd/ &middot; *sent* /sɛnt/ &middot; *sent* /sɛnt/  
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking  
 **Pattern:** -nd — -nt — -nt &middot; **Group:** 6  
 **Third person:** *sends* &middot; **-ing form:** *sending*  
@@ -549,6 +562,7 @@ To make something or someone go from one place to another — a letter, a packag
 **Pronunciation:** /spɛnd/ &middot; *SPEND*  
 **Русский:** тратить; проводить (время)
 **Forms:** *spend* /spɛnd/ &middot; *spent* /spɛnt/ &middot; *spent* /spɛnt/  
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking  
 **Pattern:** -nd — -nt — -nt &middot; **Group:** 6  
 **Third person:** *spends* &middot; **-ing form:** *spending* (also a noun: *consumer spending*)  
@@ -599,6 +613,7 @@ To pay out money, or to pass a stretch of time — one English verb where Russia
 **Pronunciation:** /ʌnˈbɛnd/ &middot; *un-BEND*  
 **Русский:** выпрямлять, разгибать
 **Forms:** *unbend* /ʌnˈbɛnd/ &middot; *unbent* /ʌnˈbɛnt/ &middot; *unbent* /ʌnˈbɛnt/  
+**Verb class:** irregular
 **Register:** rare — prefixed derivative; in speech Americans say *straighten out* or *loosen up*  
 **Pattern:** -nd — -nt — -nt &middot; **Group:** 6  
 **Third person:** *unbends* &middot; **-ing form:** *unbending* — also an adjective (see Contrast)  
@@ -633,6 +648,7 @@ To straighten something that was bent, or to loosen up and become less formal.
 **Pronunciation:** /wɛnd/ &middot; *WEND*  
 **Русский:** идти, держать путь (домой), направляться
 **Forms:** *wend* /wɛnd/ &middot; *wended* /ˈwɛndɪd/ (historical *went* /wɛnt/) &middot; *wended* /ˈwɛndɪd/ (historical *went* /wɛnt/)  
+**Verb class:** irregular
 **Register:** archaic — no longer current except in the fossil phrase *wend one's way*  
 **Pattern:** -nd — -nt — -nt historically (*went*); regular -ed in modern English &middot; **Group:** 6  
 **Third person:** *wends* &middot; **-ing form:** *wending*  

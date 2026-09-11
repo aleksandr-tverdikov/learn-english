@@ -13,6 +13,7 @@ The one thing to watch is sound, not spelling: *said* rhymes with *bed*, not wit
 **Pronunciation:** /bɪˈleɪ/ &middot; *bih-LAY*
 **Русский:** мор. закрепить (канат); завёртывать (снасть)
 **Forms:** *belay* /bɪˈleɪ/ &middot; *belayed* /bɪˈleɪd/ &middot; *belayed* /bɪˈleɪd/ — the older nautical *belaid* /bɪˈleɪd/ is the form the source list records
+**Verb class:** irregular
 **Register:** rare — a climbing and sailing term; outside those trades Americans meet it only in the Navy's *Belay that!*
 **Pattern:** ay — ayed — ayed &middot; **Group:** 7
 **Third person:** *belays* &middot; **-ing form:** *belaying*
@@ -48,6 +49,7 @@ To hold and control a climbing rope for a partner, or, at sea, to make a line fa
 **Pronunciation:** /klɪp/ &middot; *KLIP*
 **Русский:** стричь; подрезать
 **Forms:** *clip* /klɪp/ &middot; *clipped* /klɪpt/ &middot; *clipped* /klɪpt/ — the archaic participle *clipt* /klɪpt/ is what the source list records
+**Verb class:** irregular
 **Register:** everyday — clipping coupons, nails, or a curb is ordinary American conversation
 **Pattern:** p — pped — pped &middot; **Group:** 7
 **Third person:** *clips* &middot; **-ing form:** *clipping* (the p doubles)
@@ -96,6 +98,7 @@ To cut something short with scissors or clippers, to cut a piece out of print, t
 **Pronunciation:** /ˌɡeɪnˈseɪ/ &middot; *gayn-SAY*
 **Русский:** отрицать; противоречить
 **Forms:** *gainsay* /ˌɡeɪnˈseɪ/ &middot; *gainsaid* /ˌɡeɪnˈsɛd/ &middot; *gainsaid* /ˌɡeɪnˈsɛd/ — the spelling pronunciation /ˌɡeɪnˈseɪd/ is also accepted for the past and participle
+**Verb class:** irregular
 **Register:** rare — formal and nearly frozen in *no one can gainsay it*; almost never produced in speech
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *gainsays* /ˌɡeɪnˈseɪz/ &middot; **-ing form:** *gainsaying*
@@ -125,6 +128,7 @@ To deny or contradict something — formal, and almost always in a negative fram
 **Pronunciation:** /hæv/ &middot; *HAV*
 **Русский:** иметь, обладать
 **Forms:** *have* /hæv/ &middot; *had* /hæd/ &middot; *had* /hæd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking, and the auxiliary behind every perfect tense
 **Pattern:** ave — ad — ad &middot; **Group:** 7
 **Third person:** *has* /hæz/ (not ✗ *haves*) &middot; **-ing form:** *having* (drop the e)
@@ -217,6 +221,7 @@ To possess or hold something; to eat, experience, receive, or arrange something;
 **Pronunciation:** /ɪnˈleɪ/ &middot; *in-LAY*
 **Русский:** вкладывать; выстилать
 **Forms:** *inlay* /ɪnˈleɪ/ &middot; *inlaid* /ɪnˈleɪd/ &middot; *inlaid* /ɪnˈleɪd/
+**Verb class:** irregular
 **Register:** rare — a craft and dental term; most Americans know only the noun *an inlay*
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *inlays* &middot; **-ing form:** *inlaying*
@@ -247,6 +252,7 @@ To set pieces of one material into the surface of another so that the finished s
 **Pronunciation:** /leɪ/ &middot; *LAY*
 **Русский:** класть
 **Forms:** *lay* /leɪ/ &middot; *laid* /leɪd/ &middot; *laid* /leɪd/
+**Verb class:** irregular
 **Register:** everyday — you lay something down a dozen times a day without noticing
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *lays* &middot; **-ing form:** *laying*
@@ -327,6 +333,7 @@ To put something down flat — and from there, to install, prepare, establish, i
 **Pronunciation:** /meɪk/ &middot; *MAYK*
 **Русский:** делать; производить; заставлять
 **Forms:** *make* /meɪk/ &middot; *made* /meɪd/ &middot; *made* /meɪd/
+**Verb class:** irregular
 **Register:** everyday — one of the handful of verbs an American uses without thinking
 **Pattern:** ake — ade — ade &middot; **Group:** 7
 **Third person:** *makes* &middot; **-ing form:** *making* (drop the e)
@@ -419,6 +426,7 @@ To create or produce something — and, in its many extended uses, to force, ear
 **Pronunciation:** /mɪsˈleɪ/ &middot; *mis-LAY*
 **Русский:** класть не на место; затерять
 **Forms:** *mislay* /mɪsˈleɪ/ &middot; *mislaid* /mɪsˈleɪd/ &middot; *mislaid* /mɪsˈleɪd/
+**Verb class:** irregular
 **Register:** rare — American English reaches for *misplace*; *mislay* is chiefly British
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *mislays* &middot; **-ing form:** *mislaying*
@@ -444,6 +452,7 @@ To put something down somewhere and forget where it went — to misplace it temp
 **Pronunciation:** /ˌoʊvərˈfloʊ/ &middot; *oh-ver-FLOH*
 **Русский:** переливаться (через край)
 **Forms:** *overflow* /ˌoʊvərˈfloʊ/ &middot; *overflowed* /ˌoʊvərˈfloʊd/ &middot; *overflowed* /ˌoʊvərˈfloʊd/ — the source list records the old strong participle *overflown* /ˌoʊvərˈfloʊn/
+**Verb class:** irregular
 **Register:** everyday — sinks, rivers, and parking lots overflow in ordinary speech
 **Pattern:** ow — owed — owed &middot; **Group:** 7
 **Third person:** *overflows* &middot; **-ing form:** *overflowing*
@@ -486,6 +495,7 @@ To spill over the edge of a container, or to be too full to hold everything that
 **Pronunciation:** /ˌoʊvərˈleɪ/ &middot; *oh-ver-LAY*
 **Русский:** покры(ва)ть
 **Forms:** *overlay* /ˌoʊvərˈleɪ/ &middot; *overlaid* /ˌoʊvərˈleɪd/ &middot; *overlaid* /ˌoʊvərˈleɪd/
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in design, mapping, and technical writing, less common in speech
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *overlays* &middot; **-ing form:** *overlaying*
@@ -521,6 +531,7 @@ To cover a surface with a layer, or to place one layer, image, or set of data on
 **Pronunciation:** /ˌoʊvərˈpeɪ/ &middot; *oh-ver-PAY*
 **Русский:** переплачивать
 **Forms:** *overpay* /ˌoʊvərˈpeɪ/ &middot; *overpaid* /ˌoʊvərˈpeɪd/ &middot; *overpaid* /ˌoʊvərˈpeɪd/
+**Verb class:** irregular
 **Register:** everyday — *we overpaid for the house* is plain American conversation
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *overpays* &middot; **-ing form:** *overpaying*
@@ -556,6 +567,7 @@ To pay more than something is worth, more than a person's work is worth, or more
 **Pronunciation:** /peɪ/ &middot; *PAY*
 **Русский:** платить
 **Forms:** *pay* /peɪ/ &middot; *paid* /peɪd/ &middot; *paid* /peɪd/
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *pays* &middot; **-ing form:** *paying*
@@ -636,6 +648,7 @@ To give money for goods, work, or a debt — and, in its wider senses, to be wor
 **Pronunciation:** /ˌpriˈpeɪ/ &middot; *pree-PAY*
 **Русский:** платить вперед
 **Forms:** *prepay* /ˌpriˈpeɪ/ &middot; *prepaid* /ˌpriˈpeɪd/ &middot; *prepaid* /ˌpriˈpeɪd/
+**Verb class:** irregular
 **Register:** everyday — gas pumps, shipping labels, and hotel bookings all ask you to prepay
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *prepays* &middot; **-ing form:** *prepaying*
@@ -666,6 +679,7 @@ To pay for something before you receive or use it, or to pay off a loan ahead of
 **Pronunciation:** /ˌriˈmeɪk/ &middot; *ree-MAYK*
 **Русский:** переделывать (пересоздавать)
 **Forms:** *remake* /ˌriˈmeɪk/ &middot; *remade* /ˌriˈmeɪd/ &middot; *remade* /ˌriˈmeɪd/
+**Verb class:** irregular
 **Register:** everyday — films, kitchens, and careers all get remade in ordinary conversation
 **Pattern:** ake — ade — ade &middot; **Group:** 7
 **Third person:** *remakes* &middot; **-ing form:** *remaking* (drop the e)
@@ -701,6 +715,7 @@ To make something again in a new form — a film, a kitchen, a career.
 **Pronunciation:** /rɪˈpeɪ/ &middot; *rih-PAY*
 **Русский:** отдавать долг
 **Forms:** *repay* /rɪˈpeɪ/ &middot; *repaid* /rɪˈpeɪd/ &middot; *repaid* /rɪˈpeɪd/
+**Verb class:** irregular
 **Register:** everyday — you repay a loan or a favor without sounding bookish
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *repays* &middot; **-ing form:** *repaying*
@@ -741,6 +756,7 @@ To pay money back, to return a kindness — or, in a bitter twist on the same fr
 **Pronunciation:** /seɪ/ &middot; *SAY*
 **Русский:** сказать
 **Forms:** *say* /seɪ/ &middot; *said* /sɛd/ &middot; *said* /sɛd/
+**Verb class:** irregular
 **Register:** everyday — one of the commonest verbs in the language
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *says* /sɛz/ &middot; **-ing form:** *saying*
@@ -800,6 +816,7 @@ To put something into words — and, by extension, what a text indicates, what p
 **Pronunciation:** /ski/ &middot; *SKEE*
 **Русский:** ходить на лыжах
 **Forms:** *ski* /ski/ &middot; *skied* /skid/ &middot; *skied* /skid/
+**Verb class:** irregular
 **Register:** everyday — the plain American verb for the sport, wherever there is snow
 **Pattern:** i — ied — ied &middot; **Group:** 7
 **Third person:** *skis* (not ✗ *skies*) &middot; **-ing form:** *skiing* (both i's stay)
@@ -829,6 +846,7 @@ To travel over snow on skis — and, transitively, to ski a particular run or mo
 **Pronunciation:** /ˌʌndərˈleɪ/ &middot; *un-der-LAY*
 **Русский:** подстилать; подкладывать
 **Forms:** *underlay* /ˌʌndərˈleɪ/ &middot; *underlaid* /ˌʌndərˈleɪd/ &middot; *underlaid* /ˌʌndərˈleɪd/
+**Verb class:** irregular
 **Register:** rare — a flooring-trade verb; most Americans know only the noun, the padding under a carpet
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *underlays* &middot; **-ing form:** *underlaying*
@@ -859,6 +877,7 @@ To put a layer of something underneath, usually to support or cushion what sits 
 **Pronunciation:** /ˌʌndərˈpeɪ/ &middot; *un-der-PAY*
 **Русский:** мало платить (за какой-л. труд); недоплачивать
 **Forms:** *underpay* /ˌʌndərˈpeɪ/ &middot; *underpaid* /ˌʌndərˈpeɪd/ &middot; *underpaid* /ˌʌndərˈpeɪd/
+**Verb class:** irregular
 **Register:** everyday — wage talk uses it constantly, fixed in *overworked and underpaid*
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *underpays* &middot; **-ing form:** *underpaying*
@@ -888,6 +907,7 @@ To pay someone less than their work is worth, or to pay less than the amount owe
 **Pronunciation:** /ʌnˈmeɪk/ &middot; *un-MAYK*
 **Русский:** разрушать, уничтожать (сделанное)
 **Forms:** *unmake* /ʌnˈmeɪk/ &middot; *unmade* /ʌnˈmeɪd/ &middot; *unmade* /ʌnˈmeɪd/
+**Verb class:** irregular
 **Register:** rare — formal and mostly literary; speech says *undo* or *tear down*
 **Pattern:** ake — ade — ade &middot; **Group:** 7
 **Third person:** *unmakes* &middot; **-ing form:** *unmaking* (drop the e)
@@ -922,6 +942,7 @@ To undo what was made — take it apart, destroy it, or strip a person of the st
 **Pronunciation:** /ʌnˈseɪ/ &middot; *un-SAY*
 **Русский:** брать слова назад
 **Forms:** *unsay* /ʌnˈseɪ/ &middot; *unsaid* /ʌnˈsɛd/ &middot; *unsaid* /ʌnˈsɛd/
+**Verb class:** irregular
 **Register:** rare — the verb survives mostly in *cannot be unsaid*; only the adjective *unsaid* is everyday
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *unsays* &middot; **-ing form:** *unsaying*
@@ -955,6 +976,7 @@ To take back something you have said — usually invoked in the recognition that
 **Pronunciation:** /ˌweɪˈleɪ/ &middot; *way-LAY*
 **Русский:** подстерегать; устраивать засаду
 **Forms:** *waylay* /ˌweɪˈleɪ/ &middot; *waylaid* /ˌweɪˈleɪd/ &middot; *waylaid* /ˌweɪˈleɪd/
+**Verb class:** irregular
 **Register:** rare — recognized and faintly literary; ordinary speech says *corner* or *hold up*
 **Pattern:** ay — aid — aid &middot; **Group:** 7
 **Third person:** *waylays* &middot; **-ing form:** *waylaying*

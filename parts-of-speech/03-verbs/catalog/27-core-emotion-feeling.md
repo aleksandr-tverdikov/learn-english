@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /laɪk/ &middot; *LYK*
 **Русский:** нравиться, понравиться; любить
 **Forms:** *like* &middot; *liked* &middot; *liked*
+**Verb class:** regular
 **Third person:** *likes* &middot; **-ing form:** *liking*
 **Transitivity:** transitive
 
@@ -30,6 +31,7 @@ To find someone or something pleasant or enjoyable.
 **Pronunciation:** /lʌv/ &middot; *LUV*
 **Русский:** любить, полюбить; обожать
 **Forms:** *love* &middot; *loved* &middot; *loved*
+**Verb class:** regular
 **Third person:** *loves* &middot; **-ing form:** *loving*
 **Transitivity:** transitive
 
@@ -46,6 +48,7 @@ To feel deep affection or very strong liking for someone or something.
 **Pronunciation:** /ɪnˈdʒɔɪ/ &middot; *in-JOY*
 **Русский:** наслаждаться, получать удовольствие
 **Forms:** *enjoy* &middot; *enjoyed* &middot; *enjoyed*
+**Verb class:** regular
 **Third person:** *enjoys* &middot; **-ing form:** *enjoying*
 **Transitivity:** transitive
 **Contrast:** Followed by *-ing*, never by *to*: *I enjoy reading*, not *I enjoy to read*.
@@ -63,6 +66,7 @@ To get pleasure from something.
 **Pronunciation:** /əˈdɔːr/ &middot; *uh-DOR*
 **Русский:** обожать
 **Forms:** *adore* &middot; *adored* &middot; *adored*
+**Verb class:** regular
 **Third person:** *adores* &middot; **-ing form:** *adoring*
 **Transitivity:** transitive
 
@@ -79,6 +83,7 @@ To love someone or something very much.
 **Pronunciation:** /ədˈmaɪər/ &middot; *uhd-MYR*
 **Русский:** восхищаться, восхититься; любоваться
 **Forms:** *admire* &middot; *admired* &middot; *admired*
+**Verb class:** regular
 **Third person:** *admires* &middot; **-ing form:** *admiring*
 **Transitivity:** transitive
 
@@ -95,6 +100,7 @@ To respect and think highly of someone, or to look at something with pleasure.
 **Pronunciation:** /əˈpriːʃieɪt/ &middot; *uh-PREE-shee-ayt*
 **Русский:** ценить, оценить; быть благодарным
 **Forms:** *appreciate* &middot; *appreciated* &middot; *appreciated*
+**Verb class:** regular
 **Third person:** *appreciates* &middot; **-ing form:** *appreciating*
 **Transitivity:** transitive
 
@@ -111,6 +117,7 @@ To be grateful for something, or to recognize its true value.
 **Pronunciation:** /ˈtʃɛrɪʃ/ &middot; *CHER-ish*
 **Русский:** дорожить, лелеять
 **Forms:** *cherish* &middot; *cherished* &middot; *cherished*
+**Verb class:** regular
 **Third person:** *cherishes* &middot; **-ing form:** *cherishing*
 **Transitivity:** transitive
 
@@ -127,6 +134,7 @@ To care for something deeply and keep it precious.
 **Pronunciation:** /rɪˈspɛkt/ &middot; *ri-SPEKT*
 **Русский:** уважать, относиться с уважением
 **Forms:** *respect* &middot; *respected* &middot; *respected*
+**Verb class:** regular
 **Third person:** *respects* &middot; **-ing form:** *respecting*
 **Transitivity:** transitive
 
@@ -143,6 +151,7 @@ To admire someone's qualities, or to accept their rights and wishes.
 **Pronunciation:** /ˈvæljuː/ &middot; *VAL-yoo*
 **Русский:** ценить, дорожить
 **Forms:** *value* &middot; *valued* &middot; *valued*
+**Verb class:** regular
 **Third person:** *values* &middot; **-ing form:** *valuing*
 **Transitivity:** transitive
 
@@ -159,6 +168,7 @@ To consider something important and worth having.
 **Pronunciation:** /ˈtrɛʒər/ &middot; *TREZH-ur*
 **Русский:** дорожить, беречь
 **Forms:** *treasure* &middot; *treasured* &middot; *treasured*
+**Verb class:** regular
 **Third person:** *treasures* &middot; **-ing form:** *treasuring*
 **Transitivity:** transitive
 
@@ -175,6 +185,7 @@ To keep something as very precious because of what it means to you.
 **Pronunciation:** /heɪt/ &middot; *HAYT*
 **Русский:** ненавидеть; очень не любить
 **Forms:** *hate* &middot; *hated* &middot; *hated*
+**Verb class:** regular
 **Third person:** *hates* &middot; **-ing form:** *hating*
 **Transitivity:** transitive
 
@@ -191,6 +202,7 @@ To dislike someone or something very strongly.
 **Pronunciation:** /dɪsˈlaɪk/ &middot; *dis-LYK*
 **Русский:** не любить, испытывать неприязнь
 **Forms:** *dislike* &middot; *disliked* &middot; *disliked*
+**Verb class:** regular
 **Third person:** *dislikes* &middot; **-ing form:** *disliking*
 **Transitivity:** transitive
 **Contrast:** Always needs an object: *I dislike it*, not *I dislike*.
@@ -208,6 +220,7 @@ To find someone or something unpleasant.
 **Pronunciation:** /dɪˈspaɪz/ &middot; *di-SPYZ*
 **Русский:** презирать
 **Forms:** *despise* &middot; *despised* &middot; *despised*
+**Verb class:** regular
 **Third person:** *despises* &middot; **-ing form:** *despising*
 **Transitivity:** transitive
 
@@ -224,6 +237,7 @@ To look down on someone or something with strong contempt.
 **Pronunciation:** /dɪˈtɛst/ &middot; *di-TEST*
 **Русский:** ненавидеть, терпеть не мочь
 **Forms:** *detest* &middot; *detested* &middot; *detested*
+**Verb class:** regular
 **Third person:** *detests* &middot; **-ing form:** *detesting*
 **Transitivity:** transitive
 
@@ -240,6 +254,7 @@ To hate something intensely.
 **Pronunciation:** /loʊð/ &middot; *LOHTH*
 **Русский:** питать отвращение, ненавидеть
 **Forms:** *loathe* &middot; *loathed* &middot; *loathed*
+**Verb class:** regular
 **Third person:** *loathes* &middot; **-ing form:** *loathing*
 **Transitivity:** transitive
 **Contrast:** The verb *loathe* /loʊð/ is not the adjective *loath* /loʊθ/, which means 'unwilling'.
@@ -257,6 +272,7 @@ To feel disgust and hatred for someone or something.
 **Pronunciation:** /rɪˈzɛnt/ &middot; *ri-ZENT*
 **Русский:** обижаться, возмущаться; таить обиду
 **Forms:** *resent* &middot; *resented* &middot; *resented*
+**Verb class:** regular
 **Third person:** *resents* &middot; **-ing form:** *resenting*
 **Transitivity:** transitive
 
@@ -273,6 +289,7 @@ To feel bitter about something you think is unfair.
 **Pronunciation:** /dɪsˈɡʌst/ &middot; *dis-GUST*
 **Русский:** вызывать отвращение, внушать отвращение
 **Forms:** *disgust* &middot; *disgusted* &middot; *disgusted*
+**Verb class:** regular
 **Third person:** *disgusts* &middot; **-ing form:** *disgusting*
 **Transitivity:** transitive
 
@@ -289,6 +306,7 @@ To make someone feel strong dislike and revulsion.
 **Pronunciation:** /skɛr/ &middot; *SKAIR*
 **Русский:** пугать, испугать
 **Forms:** *scare* &middot; *scared* &middot; *scared*
+**Verb class:** regular
 **Third person:** *scares* &middot; **-ing form:** *scaring*
 **Transitivity:** both — transitive (*you scared me*), intransitive (*she scares easily*)
 **Contrast:** The feeling takes *of*: *She's scared **of** spiders*.
@@ -306,6 +324,7 @@ To make someone suddenly afraid.
 **Pronunciation:** /ˈfraɪtən/ &middot; *FRY-tuhn*
 **Русский:** пугать, напугать
 **Forms:** *frighten* &middot; *frightened* &middot; *frightened*
+**Verb class:** regular
 **Third person:** *frightens* &middot; **-ing form:** *frightening*
 **Transitivity:** transitive
 
@@ -322,6 +341,7 @@ To make someone feel fear.
 **Pronunciation:** /ˈtɛrəfaɪ/ &middot; *TER-uh-fy*
 **Русский:** ужасать, приводить в ужас
 **Forms:** *terrify* &middot; *terrified* &middot; *terrified*
+**Verb class:** regular
 **Third person:** *terrifies* &middot; **-ing form:** *terrifying*
 **Transitivity:** transitive
 **Contrast:** The *-y* becomes *-ies* and *-ied*: *terrifies*, *terrified* — but *terrifying* keeps the y.
@@ -339,6 +359,7 @@ To fill someone with extreme fear.
 **Pronunciation:** /drɛd/ &middot; *DRED*
 **Русский:** страшиться, бояться заранее
 **Forms:** *dread* &middot; *dreaded* &middot; *dreaded*
+**Verb class:** regular
 **Third person:** *dreads* &middot; **-ing form:** *dreading*
 **Transitivity:** transitive
 **Contrast:** Usually followed by *-ing*: *I dread telling him*.
@@ -356,6 +377,7 @@ To feel anxious fear about something that is coming.
 **Pronunciation:** /əˈlɑːrm/ &middot; *uh-LARM*
 **Русский:** тревожить, встревожить
 **Forms:** *alarm* &middot; *alarmed* &middot; *alarmed*
+**Verb class:** regular
 **Third person:** *alarms* &middot; **-ing form:** *alarming*
 **Transitivity:** transitive
 
@@ -372,6 +394,7 @@ To make someone suddenly worried or frightened.
 **Pronunciation:** /ˈstɑːrtəl/ &middot; *STAR-tuhl*
 **Русский:** пугать, заставлять вздрогнуть
 **Forms:** *startle* &middot; *startled* &middot; *startled*
+**Verb class:** regular
 **Third person:** *startles* &middot; **-ing form:** *startling*
 **Transitivity:** transitive
 
@@ -388,6 +411,7 @@ To surprise someone so suddenly that they jump.
 **Pronunciation:** /ˈhɔːrəfaɪ/ &middot; *HOR-uh-fy*
 **Русский:** ужасать, приводить в ужас
 **Forms:** *horrify* &middot; *horrified* &middot; *horrified*
+**Verb class:** regular
 **Third person:** *horrifies* &middot; **-ing form:** *horrifying*
 **Transitivity:** transitive
 **Contrast:** The *-y* changes: *horrifies*, *horrified*, but *horrifying*.
@@ -405,6 +429,7 @@ To shock someone deeply and unpleasantly.
 **Pronunciation:** /ˈpænɪk/ &middot; *PAN-ik*
 **Русский:** паниковать, впасть в панику
 **Forms:** *panic* &middot; *panicked* &middot; *panicked*
+**Verb class:** regular
 **Third person:** *panics* &middot; **-ing form:** *panicking*
 **Transitivity:** both — transitive (*the rumor panicked investors*), intransitive (*don't panic*)
 **Contrast:** A *k* is added before the ending: *panicked*, *panicking* — never *paniced*.
@@ -422,6 +447,7 @@ To feel or cause sudden uncontrollable fear.
 **Pronunciation:** /ˈtrɛmbəl/ &middot; *TREM-buhl*
 **Русский:** дрожать, задрожать
 **Forms:** *tremble* &middot; *trembled* &middot; *trembled*
+**Verb class:** regular
 **Third person:** *trembles* &middot; **-ing form:** *trembling*
 **Transitivity:** intransitive
 
@@ -438,6 +464,7 @@ To shake slightly from fear, cold, or strong emotion.
 **Pronunciation:** /ˈʃɪvər/ &middot; *SHIV-ur*
 **Русский:** дрожать, ежиться (от холода или страха)
 **Forms:** *shiver* &middot; *shivered* &middot; *shivered*
+**Verb class:** regular
 **Third person:** *shivers* &middot; **-ing form:** *shivering*
 **Transitivity:** intransitive
 
@@ -454,6 +481,7 @@ To shake a little because you are cold or afraid.
 **Pronunciation:** /frɛt/ &middot; *FRET*
 **Русский:** волноваться, переживать по мелочам
 **Forms:** *fret* &middot; *fretted* &middot; *fretted*
+**Verb class:** regular
 **Third person:** *frets* &middot; **-ing form:** *fretting*
 **Transitivity:** intransitive
 **Contrast:** Doubles the *t*: *fretted*, *fretting*.
@@ -471,6 +499,7 @@ To worry continuously about small things.
 **Pronunciation:** /dɪˈspɛr/ &middot; *di-SPAIR*
 **Русский:** отчаиваться, отчаяться
 **Forms:** *despair* &middot; *despaired* &middot; *despaired*
+**Verb class:** regular
 **Third person:** *despairs* &middot; **-ing form:** *despairing*
 **Transitivity:** intransitive
 **Contrast:** Takes *of*: *despair **of** ever finishing*.
@@ -488,6 +517,7 @@ To lose all hope.
 **Pronunciation:** /əbˈsɛs/ &middot; *uhb-SES*
 **Русский:** быть одержимым, зацикливаться
 **Forms:** *obsess* &middot; *obsessed* &middot; *obsessed*
+**Verb class:** regular
 **Third person:** *obsesses* &middot; **-ing form:** *obsessing*
 **Transitivity:** both — transitive (*the idea obsessed him*), intransitive (*stop obsessing*)
 **Contrast:** The adjective takes *with*: *She's obsessed **with** that show*.
@@ -505,6 +535,7 @@ To think about one thing constantly and be unable to stop.
 **Pronunciation:** /sərˈpraɪz/ &middot; *sur-PRYZ*
 **Русский:** удивлять, удивить
 **Forms:** *surprise* &middot; *surprised* &middot; *surprised*
+**Verb class:** regular
 **Third person:** *surprises* &middot; **-ing form:** *surprising*
 **Transitivity:** transitive
 **Contrast:** *Surprised **by*** an event, *surprised **at*** someone's behavior.
@@ -522,6 +553,7 @@ To make someone feel wonder because something was unexpected.
 **Pronunciation:** /əˈmeɪz/ &middot; *uh-MAYZ*
 **Русский:** изумлять, поражать
 **Forms:** *amaze* &middot; *amazed* &middot; *amazed*
+**Verb class:** regular
 **Third person:** *amazes* &middot; **-ing form:** *amazing*
 **Transitivity:** transitive
 
@@ -538,6 +570,7 @@ To fill someone with great surprise and wonder.
 **Pronunciation:** /əˈstɑːnɪʃ/ &middot; *uh-STAH-nish*
 **Русский:** изумлять, поражать
 **Forms:** *astonish* &middot; *astonished* &middot; *astonished*
+**Verb class:** regular
 **Third person:** *astonishes* &middot; **-ing form:** *astonishing*
 **Transitivity:** transitive
 
@@ -554,6 +587,7 @@ To surprise someone very greatly.
 **Pronunciation:** /ʃɑːk/ &middot; *SHAHK*
 **Русский:** шокировать, потрясти
 **Forms:** *shock* &middot; *shocked* &middot; *shocked*
+**Verb class:** regular
 **Third person:** *shocks* &middot; **-ing form:** *shocking*
 **Transitivity:** transitive
 
@@ -570,6 +604,7 @@ To upset or offend someone with something sudden and unexpected.
 **Pronunciation:** /stʌn/ &middot; *STUN*
 **Русский:** ошеломлять, ошеломить
 **Forms:** *stun* &middot; *stunned* &middot; *stunned*
+**Verb class:** regular
 **Third person:** *stuns* &middot; **-ing form:** *stunning*
 **Transitivity:** transitive
 **Contrast:** Doubles the *n*: *stunned*, *stunning*.
@@ -587,6 +622,7 @@ To surprise someone so much that they cannot react.
 **Pronunciation:** /ɪmˈprɛs/ &middot; *im-PRES*
 **Русский:** впечатлять, произвести впечатление
 **Forms:** *impress* &middot; *impressed* &middot; *impressed*
+**Verb class:** regular
 **Third person:** *impresses* &middot; **-ing form:** *impressing*
 **Transitivity:** transitive
 **Contrast:** *Impressed **by*** or *impressed **with*** — never *impressed from*.
@@ -604,6 +640,7 @@ To make someone feel admiration.
 **Pronunciation:** /pliːz/ &middot; *PLEEZ*
 **Русский:** радовать, доставлять удовольствие; угождать
 **Forms:** *please* &middot; *pleased* &middot; *pleased*
+**Verb class:** regular
 **Third person:** *pleases* &middot; **-ing form:** *pleasing*
 **Transitivity:** both — transitive (*the gift pleased her*), intransitive (*do as you please*)
 
@@ -620,6 +657,7 @@ To make someone feel happy or satisfied.
 **Pronunciation:** /dɪˈlaɪt/ &middot; *di-LYT*
 **Русский:** восхищать, радовать
 **Forms:** *delight* &middot; *delighted* &middot; *delighted*
+**Verb class:** regular
 **Third person:** *delights* &middot; **-ing form:** *delighting*
 **Transitivity:** both — transitive (*the show delighted us*), intransitive (*she delights in cooking*)
 **Contrast:** In the intransitive sense it takes *in*: *He delights **in** proving people wrong*.
@@ -637,6 +675,7 @@ To give someone great pleasure.
 **Pronunciation:** /ˈsætɪsfaɪ/ &middot; *SAT-is-fy*
 **Русский:** удовлетворять, удовлетворить
 **Forms:** *satisfy* &middot; *satisfied* &middot; *satisfied*
+**Verb class:** regular
 **Third person:** *satisfies* &middot; **-ing form:** *satisfying*
 **Transitivity:** transitive
 **Contrast:** The *-y* changes: *satisfies*, *satisfied*, but *satisfying*.
@@ -654,6 +693,7 @@ To make someone content by giving them what they want or need.
 **Pronunciation:** /θrɪl/ &middot; *THRIL*
 **Русский:** приводить в восторг, волновать
 **Forms:** *thrill* &middot; *thrilled* &middot; *thrilled*
+**Verb class:** regular
 **Third person:** *thrills* &middot; **-ing form:** *thrilling*
 **Transitivity:** transitive
 
@@ -670,6 +710,7 @@ To give someone a sudden feeling of great excitement.
 **Pronunciation:** /ɪkˈsaɪt/ &middot; *ik-SYT*
 **Русский:** волновать, воодушевлять, радовать
 **Forms:** *excite* &middot; *excited* &middot; *excited*
+**Verb class:** regular
 **Third person:** *excites* &middot; **-ing form:** *exciting*
 **Transitivity:** transitive
 
@@ -686,6 +727,7 @@ To make someone feel eager and full of energy about something.
 **Pronunciation:** /əˈmjuːz/ &middot; *uh-MYOOZ*
 **Русский:** забавлять, развлекать, веселить
 **Forms:** *amuse* &middot; *amused* &middot; *amused*
+**Verb class:** regular
 **Third person:** *amuses* &middot; **-ing form:** *amusing*
 **Transitivity:** transitive
 
@@ -702,6 +744,7 @@ To make someone smile or laugh, or to keep them pleasantly occupied.
 **Pronunciation:** /ˌɛntərˈteɪn/ &middot; *en-tur-TAYN*
 **Русский:** развлекать, развлечь
 **Forms:** *entertain* &middot; *entertained* &middot; *entertained*
+**Verb class:** regular
 **Third person:** *entertains* &middot; **-ing form:** *entertaining*
 **Transitivity:** transitive
 
@@ -718,6 +761,7 @@ To keep people interested and enjoying themselves.
 **Pronunciation:** /ˈsɛləbreɪt/ &middot; *SEL-uh-brayt*
 **Русский:** праздновать, отмечать
 **Forms:** *celebrate* &middot; *celebrated* &middot; *celebrated*
+**Verb class:** regular
 **Third person:** *celebrates* &middot; **-ing form:** *celebrating*
 **Transitivity:** both — transitive (*celebrate a birthday*), intransitive (*let's celebrate*)
 
@@ -734,6 +778,7 @@ To do something enjoyable to mark a happy event.
 **Pronunciation:** /rɪˈdʒɔɪs/ &middot; *ri-JOYS*
 **Русский:** радоваться, ликовать
 **Forms:** *rejoice* &middot; *rejoiced* &middot; *rejoiced*
+**Verb class:** regular
 **Third person:** *rejoices* &middot; **-ing form:** *rejoicing*
 **Transitivity:** intransitive
 **Contrast:** Takes *at* or *in*: *rejoice **at** the news*, *rejoice **in** her success*.
@@ -751,6 +796,7 @@ To feel and show great joy.
 **Pronunciation:** /ˈkʌmfərt/ &middot; *KUM-furt*
 **Русский:** утешать, утешить
 **Forms:** *comfort* &middot; *comforted* &middot; *comforted*
+**Verb class:** regular
 **Third person:** *comforts* &middot; **-ing form:** *comforting*
 **Transitivity:** transitive
 
@@ -767,6 +813,7 @@ To make someone feel less sad or worried.
 **Pronunciation:** /kənˈsoʊl/ &middot; *kuhn-SOHL*
 **Русский:** утешать, утешить
 **Forms:** *console* &middot; *consoled* &middot; *consoled*
+**Verb class:** regular
 **Third person:** *consoles* &middot; **-ing form:** *consoling*
 **Transitivity:** transitive
 **Contrast:** The verb is /kənˈsoʊl/; the noun *console* (a game console, a control panel) is /ˈkɑːnsoʊl/.
@@ -784,6 +831,7 @@ To give sympathy to someone who is disappointed or grieving.
 **Pronunciation:** /suːð/ &middot; *SOOTH*
 **Русский:** успокаивать, унимать; облегчать
 **Forms:** *soothe* &middot; *soothed* &middot; *soothed*
+**Verb class:** regular
 **Third person:** *soothes* &middot; **-ing form:** *soothing*
 **Transitivity:** transitive
 
@@ -800,6 +848,7 @@ To calm someone down, or to make a pain feel less sharp.
 **Pronunciation:** /kɑːm/ &middot; *KAHM*
 **Русский:** успокаивать, успокоить
 **Forms:** *calm* &middot; *calmed* &middot; *calmed*
+**Verb class:** regular
 **Third person:** *calms* &middot; **-ing form:** *calming*
 **Transitivity:** transitive
 **Contrast:** The *l* is silent: /kɑːm/, one syllable.
@@ -817,6 +866,7 @@ To make someone or something quiet and peaceful again.
 **Pronunciation:** /rɪˈlæks/ &middot; *ri-LAKS*
 **Русский:** расслабляться, расслабиться; успокаиваться
 **Forms:** *relax* &middot; *relaxed* &middot; *relaxed*
+**Verb class:** regular
 **Third person:** *relaxes* &middot; **-ing form:** *relaxing*
 **Transitivity:** both — transitive (*the music relaxes me*), intransitive (*relax for an hour*)
 
@@ -833,6 +883,7 @@ To become or make less tense and worried.
 **Pronunciation:** /ɪnˈspaɪər/ &middot; *in-SPYR*
 **Русский:** вдохновлять, воодушевлять
 **Forms:** *inspire* &middot; *inspired* &middot; *inspired*
+**Verb class:** regular
 **Third person:** *inspires* &middot; **-ing form:** *inspiring*
 **Transitivity:** transitive
 
@@ -849,6 +900,7 @@ To fill someone with the desire or the ability to do something.
 **Pronunciation:** /ˈmoʊtəveɪt/ &middot; *MOH-tuh-vayt*
 **Русский:** мотивировать, побуждать
 **Forms:** *motivate* &middot; *motivated* &middot; *motivated*
+**Verb class:** regular
 **Third person:** *motivates* &middot; **-ing form:** *motivating*
 **Transitivity:** transitive
 
@@ -865,6 +917,7 @@ To give someone a reason to act or to keep trying.
 **Pronunciation:** /əˈnɔɪ/ &middot; *uh-NOY*
 **Русский:** раздражать, досаждать
 **Forms:** *annoy* &middot; *annoyed* &middot; *annoyed*
+**Verb class:** regular
 **Third person:** *annoys* &middot; **-ing form:** *annoying*
 **Transitivity:** transitive
 **Contrast:** *Annoyed **with*** a person, *annoyed **at/by*** a thing.
@@ -882,6 +935,7 @@ To make someone slightly angry.
 **Pronunciation:** /ˈɪrəteɪt/ &middot; *IR-uh-tayt*
 **Русский:** раздражать, злить
 **Forms:** *irritate* &middot; *irritated* &middot; *irritated*
+**Verb class:** regular
 **Third person:** *irritates* &middot; **-ing form:** *irritating*
 **Transitivity:** transitive
 
@@ -898,6 +952,7 @@ To make someone impatient and annoyed, or to make skin sore.
 **Pronunciation:** /ˈbɑːðər/ &middot; *BAH-thur*
 **Русский:** беспокоить, надоедать; утруждаться
 **Forms:** *bother* &middot; *bothered* &middot; *bothered*
+**Verb class:** regular
 **Third person:** *bothers* &middot; **-ing form:** *bothering*
 **Transitivity:** both — transitive (*don't bother me*), intransitive (*don't bother*)
 
@@ -914,6 +969,7 @@ To disturb someone, or to make the effort to do something.
 **Pronunciation:** /ˈæŋɡər/ &middot; *ANG-gur*
 **Русский:** сердить, злить, разгневать
 **Forms:** *anger* &middot; *angered* &middot; *angered*
+**Verb class:** regular
 **Third person:** *angers* &middot; **-ing form:** *angering*
 **Transitivity:** transitive
 
@@ -930,6 +986,7 @@ To make someone angry.
 **Pronunciation:** /ɪnˈreɪdʒ/ &middot; *in-RAYJ*
 **Русский:** приводить в ярость, разъярить
 **Forms:** *enrage* &middot; *enraged* &middot; *enraged*
+**Verb class:** regular
 **Third person:** *enrages* &middot; **-ing form:** *enraging*
 **Transitivity:** transitive
 
@@ -946,6 +1003,7 @@ To make someone extremely angry.
 **Pronunciation:** /ɪnˈfjʊrieɪt/ &middot; *in-FYOOR-ee-ayt*
 **Русский:** приводить в бешенство, бесить
 **Forms:** *infuriate* &middot; *infuriated* &middot; *infuriated*
+**Verb class:** regular
 **Third person:** *infuriates* &middot; **-ing form:** *infuriating*
 **Transitivity:** transitive
 
@@ -962,6 +1020,7 @@ To make someone furious.
 **Pronunciation:** /əˈfɛnd/ &middot; *uh-FEND*
 **Русский:** обижать, оскорблять, задевать
 **Forms:** *offend* &middot; *offended* &middot; *offended*
+**Verb class:** regular
 **Third person:** *offends* &middot; **-ing form:** *offending*
 **Transitivity:** transitive
 
@@ -978,6 +1037,7 @@ To hurt someone's feelings or upset their sense of what is proper.
 **Pronunciation:** /prəˈvoʊk/ &middot; *pruh-VOHK*
 **Русский:** провоцировать, спровоцировать; вызывать
 **Forms:** *provoke* &middot; *provoked* &middot; *provoked*
+**Verb class:** regular
 **Third person:** *provokes* &middot; **-ing form:** *provoking*
 **Transitivity:** transitive
 
@@ -994,6 +1054,7 @@ To deliberately make someone angry, or to cause a strong reaction.
 **Pronunciation:** /waɪn/ &middot; *WYN*
 **Русский:** ныть, хныкать, жаловаться
 **Forms:** *whine* &middot; *whined* &middot; *whined*
+**Verb class:** regular
 **Third person:** *whines* &middot; **-ing form:** *whining*
 **Transitivity:** intransitive
 **Contrast:** In American English it sounds exactly like *wine* (the drink).
@@ -1011,6 +1072,7 @@ To complain in an annoying, high, childish voice.
 **Pronunciation:** /ˌdɪsəˈpɔɪnt/ &middot; *dis-uh-POYNT*
 **Русский:** разочаровывать, разочаровать
 **Forms:** *disappoint* &middot; *disappointed* &middot; *disappointed*
+**Verb class:** regular
 **Third person:** *disappoints* &middot; **-ing form:** *disappointing*
 **Transitivity:** transitive
 **Contrast:** One *s*, two *p*'s: d-i-**s**-a-**pp**-o-i-n-t.
@@ -1028,6 +1090,7 @@ To make someone sad by failing to be as good as they hoped.
 **Pronunciation:** /dɪˈprɛs/ &middot; *di-PRES*
 **Русский:** угнетать, удручать, расстраивать
 **Forms:** *depress* &middot; *depressed* &middot; *depressed*
+**Verb class:** regular
 **Third person:** *depresses* &middot; **-ing form:** *depressing*
 **Transitivity:** transitive
 
@@ -1044,6 +1107,7 @@ To make someone feel low and without energy.
 **Pronunciation:** /ˈsædən/ &middot; *SAD-uhn*
 **Русский:** печалить, опечалить
 **Forms:** *sadden* &middot; *saddened* &middot; *saddened*
+**Verb class:** regular
 **Third person:** *saddens* &middot; **-ing form:** *saddening*
 **Transitivity:** transitive
 
@@ -1060,6 +1124,7 @@ To make someone feel sad.
 **Pronunciation:** /ɡriːv/ &middot; *GREEV*
 **Русский:** горевать, скорбеть; огорчать
 **Forms:** *grieve* &middot; *grieved* &middot; *grieved*
+**Verb class:** regular
 **Third person:** *grieves* &middot; **-ing form:** *grieving*
 **Transitivity:** both — transitive (*it grieves me to say it*), intransitive (*she is still grieving*)
 **Contrast:** Takes *for* or *over*: *grieve **for** a friend*.
@@ -1077,6 +1142,7 @@ To feel deep sorrow, especially after someone dies.
 **Pronunciation:** /mɔːrn/ &middot; *MORN*
 **Русский:** оплакивать, скорбеть
 **Forms:** *mourn* &middot; *mourned* &middot; *mourned*
+**Verb class:** regular
 **Third person:** *mourns* &middot; **-ing form:** *mourning*
 **Transitivity:** both — transitive (*mourn a friend*), intransitive (*the country mourned*)
 **Contrast:** Sounds exactly like *morn* (as in *morning*).
@@ -1094,6 +1160,7 @@ To show and feel sorrow for someone who has died.
 **Pronunciation:** /mɪs/ &middot; *MIS*
 **Русский:** скучать, тосковать (по кому-либо)
 **Forms:** *miss* &middot; *missed* &middot; *missed*
+**Verb class:** regular
 **Third person:** *misses* &middot; **-ing form:** *missing*
 **Transitivity:** transitive
 
@@ -1110,6 +1177,7 @@ To feel sad because someone or something is no longer with you.
 **Pronunciation:** /kraɪ/ &middot; *KRY*
 **Русский:** плакать, заплакать
 **Forms:** *cry* &middot; *cried* &middot; *cried*
+**Verb class:** regular
 **Third person:** *cries* &middot; **-ing form:** *crying*
 **Transitivity:** intransitive
 **Contrast:** The *-y* becomes *-ies* and *-ied*, but stays in *crying*.
@@ -1127,6 +1195,7 @@ To produce tears because of sadness, pain, or strong feeling.
 **Pronunciation:** /sɑːb/ &middot; *SAHB*
 **Русский:** рыдать, всхлипывать
 **Forms:** *sob* &middot; *sobbed* &middot; *sobbed*
+**Verb class:** regular
 **Third person:** *sobs* &middot; **-ing form:** *sobbing*
 **Transitivity:** intransitive
 **Contrast:** Doubles the *b*: *sobbed*, *sobbing*.
@@ -1144,6 +1213,7 @@ To cry noisily, taking sharp breaths.
 **Pronunciation:** /ˈpɪti/ &middot; *PIT-ee*
 **Русский:** жалеть, сочувствовать
 **Forms:** *pity* &middot; *pitied* &middot; *pitied*
+**Verb class:** regular
 **Third person:** *pities* &middot; **-ing form:** *pitying*
 **Transitivity:** transitive
 **Contrast:** The *-y* changes: *pities*, *pitied*, but *pitying*.
@@ -1161,6 +1231,7 @@ To feel sorry for someone in a bad situation.
 **Pronunciation:** /ˈsɪmpəθaɪz/ &middot; *SIM-puh-thyz*
 **Русский:** сочувствовать, сопереживать
 **Forms:** *sympathize* &middot; *sympathized* &middot; *sympathized*
+**Verb class:** regular
 **Third person:** *sympathizes* &middot; **-ing form:** *sympathizing*
 **Transitivity:** intransitive
 **Contrast:** Takes *with*; American spelling is *-ize*, British *sympathise*.
@@ -1178,6 +1249,7 @@ To understand and share someone's feelings, especially bad ones.
 **Pronunciation:** /ˈɛmpəθaɪz/ &middot; *EM-puh-thyz*
 **Русский:** сопереживать, ставить себя на место другого
 **Forms:** *empathize* &middot; *empathized* &middot; *empathized*
+**Verb class:** regular
 **Third person:** *empathizes* &middot; **-ing form:** *empathizing*
 **Transitivity:** intransitive
 **Contrast:** Takes *with*; American spelling is *-ize*, British *empathise*.
@@ -1195,6 +1267,7 @@ To imagine and feel what another person is feeling.
 **Pronunciation:** /ˈpʌzəl/ &middot; *PUZ-uhl*
 **Русский:** озадачивать, ставить в тупик
 **Forms:** *puzzle* &middot; *puzzled* &middot; *puzzled*
+**Verb class:** regular
 **Third person:** *puzzles* &middot; **-ing form:** *puzzling*
 **Transitivity:** transitive
 
@@ -1211,6 +1284,7 @@ To make someone unable to understand or explain something.
 **Pronunciation:** /ˈbæfəl/ &middot; *BAF-uhl*
 **Русский:** ставить в тупик, сбивать с толку
 **Forms:** *baffle* &middot; *baffled* &middot; *baffled*
+**Verb class:** regular
 **Third person:** *baffles* &middot; **-ing form:** *baffling*
 **Transitivity:** transitive
 
@@ -1227,6 +1301,7 @@ To confuse someone completely.
 **Pronunciation:** /bɪˈwɪldər/ &middot; *bi-WIL-dur*
 **Русский:** приводить в замешательство, ошеломлять
 **Forms:** *bewilder* &middot; *bewildered* &middot; *bewildered*
+**Verb class:** regular
 **Third person:** *bewilders* &middot; **-ing form:** *bewildering*
 **Transitivity:** transitive
 
@@ -1243,6 +1318,7 @@ To confuse someone so much that they don't know what to do.
 **Pronunciation:** /ˈfrʌstreɪt/ &middot; *FRUS-trayt*
 **Русский:** расстраивать, раздражать; препятствовать
 **Forms:** *frustrate* &middot; *frustrated* &middot; *frustrated*
+**Verb class:** regular
 **Third person:** *frustrates* &middot; **-ing form:** *frustrating*
 **Transitivity:** transitive
 
@@ -1259,6 +1335,7 @@ To make someone annoyed because they cannot do what they want.
 **Pronunciation:** /bɔːr/ &middot; *BOR*
 **Русский:** надоедать, наскучить, утомлять
 **Forms:** *bore* &middot; *bored* &middot; *bored*
+**Verb class:** regular
 **Third person:** *bores* &middot; **-ing form:** *boring*
 **Transitivity:** transitive
 **Contrast:** This *bore* is regular (*bored*, *boring*); the identical *bore* you may also meet is the past of *bear*.
@@ -1276,6 +1353,7 @@ To make someone lose interest and feel tired of something.
 **Pronunciation:** /ˌoʊvərˈwɛlm/ &middot; *oh-vur-WELM*
 **Русский:** переполнять, ошеломлять, подавлять
 **Forms:** *overwhelm* &middot; *overwhelmed* &middot; *overwhelmed*
+**Verb class:** regular
 **Third person:** *overwhelms* &middot; **-ing form:** *overwhelming*
 **Transitivity:** transitive
 
@@ -1292,6 +1370,7 @@ To affect someone so strongly that they cannot cope.
 **Pronunciation:** /ˈɪntrəst/ &middot; *IN-truhst*
 **Русский:** интересовать, заинтересовать
 **Forms:** *interest* &middot; *interested* &middot; *interested*
+**Verb class:** regular
 **Third person:** *interests* &middot; **-ing form:** *interesting*
 **Transitivity:** transitive
 **Contrast:** The adjective takes *in*: *interested **in** history*.
@@ -1309,6 +1388,7 @@ To make someone want to know more about something.
 **Pronunciation:** /ˈfæsəneɪt/ &middot; *FAS-uh-nayt*
 **Русский:** очаровывать, увлекать, восхищать
 **Forms:** *fascinate* &middot; *fascinated* &middot; *fascinated*
+**Verb class:** regular
 **Third person:** *fascinates* &middot; **-ing form:** *fascinating*
 **Transitivity:** transitive
 
@@ -1325,6 +1405,7 @@ To attract and hold someone's interest completely.
 **Pronunciation:** /ɪnˈtriːɡ/ &middot; *in-TREEG*
 **Русский:** заинтриговать, вызывать интерес
 **Forms:** *intrigue* &middot; *intrigued* &middot; *intrigued*
+**Verb class:** regular
 **Third person:** *intrigues* &middot; **-ing form:** *intriguing*
 **Transitivity:** transitive
 **Contrast:** The verb stresses the second syllable, /ɪnˈtriːɡ/; the noun is often /ˈɪntriːɡ/.
@@ -1342,6 +1423,7 @@ To make someone curious because something is strange or mysterious.
 **Pronunciation:** /ˈkæptəveɪt/ &middot; *KAP-tuh-vayt*
 **Русский:** пленять, очаровывать
 **Forms:** *captivate* &middot; *captivated* &middot; *captivated*
+**Verb class:** regular
 **Third person:** *captivates* &middot; **-ing form:** *captivating*
 **Transitivity:** transitive
 
@@ -1358,6 +1440,7 @@ To charm someone so much that they cannot look away.
 **Pronunciation:** /əˈtrækt/ &middot; *uh-TRAKT*
 **Русский:** привлекать, притягивать
 **Forms:** *attract* &middot; *attracted* &middot; *attracted*
+**Verb class:** regular
 **Third person:** *attracts* &middot; **-ing form:** *attracting*
 **Transitivity:** transitive
 **Contrast:** The feeling takes *to*: *attracted **to** someone*.
@@ -1375,6 +1458,7 @@ To make someone or something come closer, or to cause liking.
 **Pronunciation:** /tʃɑːrm/ &middot; *CHARM*
 **Русский:** очаровывать, обаять
 **Forms:** *charm* &middot; *charmed* &middot; *charmed*
+**Verb class:** regular
 **Third person:** *charms* &middot; **-ing form:** *charming*
 **Transitivity:** transitive
 
@@ -1391,6 +1475,7 @@ To please and win someone over with pleasant manners.
 **Pronunciation:** /ˈflætər/ &middot; *FLAT-ur*
 **Русский:** льстить, польстить
 **Forms:** *flatter* &middot; *flattered* &middot; *flattered*
+**Verb class:** regular
 **Third person:** *flatters* &middot; **-ing form:** *flattering*
 **Transitivity:** transitive
 
@@ -1407,6 +1492,7 @@ To praise someone more than they deserve, often to please them.
 **Pronunciation:** /ɪmˈbɛrəs/ &middot; *im-BER-uhs*
 **Русский:** смущать, ставить в неловкое положение
 **Forms:** *embarrass* &middot; *embarrassed* &middot; *embarrassed*
+**Verb class:** regular
 **Third person:** *embarrasses* &middot; **-ing form:** *embarrassing*
 **Transitivity:** transitive
 **Contrast:** Two *r*'s and two *s*'s: e-m-b-a-**rr**-a-**ss**.
@@ -1424,6 +1510,7 @@ To make someone feel awkward and self-conscious.
 **Pronunciation:** /hjuːˈmɪlieɪt/ &middot; *hyoo-MIL-ee-ayt*
 **Русский:** унижать, унизить
 **Forms:** *humiliate* &middot; *humiliated* &middot; *humiliated*
+**Verb class:** regular
 **Third person:** *humiliates* &middot; **-ing form:** *humiliating*
 **Transitivity:** transitive
 
@@ -1440,6 +1527,7 @@ To make someone feel ashamed and foolish, especially in front of others.
 **Pronunciation:** /ʃeɪm/ &middot; *SHAYM*
 **Русский:** стыдить, пристыдить
 **Forms:** *shame* &middot; *shamed* &middot; *shamed*
+**Verb class:** regular
 **Third person:** *shames* &middot; **-ing form:** *shaming*
 **Transitivity:** transitive
 
@@ -1456,6 +1544,7 @@ To make someone feel ashamed of what they have done.
 **Pronunciation:** /blʌʃ/ &middot; *BLUSH*
 **Русский:** краснеть, покраснеть (от смущения)
 **Forms:** *blush* &middot; *blushed* &middot; *blushed*
+**Verb class:** regular
 **Third person:** *blushes* &middot; **-ing form:** *blushing*
 **Transitivity:** intransitive
 
@@ -1472,6 +1561,7 @@ To become red in the face from embarrassment.
 **Pronunciation:** /ˈɛnvi/ &middot; *EN-vee*
 **Русский:** завидовать, позавидовать
 **Forms:** *envy* &middot; *envied* &middot; *envied*
+**Verb class:** regular
 **Third person:** *envies* &middot; **-ing form:** *envying*
 **Transitivity:** transitive
 **Contrast:** The *-y* changes: *envies*, *envied*, but *envying*.
@@ -1489,6 +1579,7 @@ To want what someone else has, and feel unhappy about not having it.
 **Pronunciation:** /hʌɡ/ &middot; *HUG*
 **Русский:** обнимать, обнять
 **Forms:** *hug* &middot; *hugged* &middot; *hugged*
+**Verb class:** regular
 **Third person:** *hugs* &middot; **-ing form:** *hugging*
 **Transitivity:** both — transitive (*hug your mom*), intransitive (*they hugged*)
 **Contrast:** Doubles the *g*: *hugged*, *hugging*.
@@ -1506,6 +1597,7 @@ To hold someone close with your arms to show affection.
 **Pronunciation:** /kɪs/ &middot; *KIS*
 **Русский:** целовать, поцеловать
 **Forms:** *kiss* &middot; *kissed* &middot; *kissed*
+**Verb class:** regular
 **Third person:** *kisses* &middot; **-ing form:** *kissing*
 **Transitivity:** both — transitive (*he kissed her*), intransitive (*they kissed*)
 
@@ -1522,6 +1614,7 @@ To touch someone with your lips to show love or greeting.
 **Pronunciation:** /ˈtɑːləreɪt/ &middot; *TAH-luh-rayt*
 **Русский:** терпеть, выносить; мириться
 **Forms:** *tolerate* &middot; *tolerated* &middot; *tolerated*
+**Verb class:** regular
 **Third person:** *tolerates* &middot; **-ing form:** *tolerating*
 **Transitivity:** transitive
 
@@ -1538,6 +1631,7 @@ To accept something unpleasant without complaining or stopping it.
 **Pronunciation:** /ɪnˈdʊr/ &middot; *in-DOOR*
 **Русский:** терпеть, выдерживать; длиться
 **Forms:** *endure* &middot; *endured* &middot; *endured*
+**Verb class:** regular
 **Third person:** *endures* &middot; **-ing form:** *enduring*
 **Transitivity:** both — transitive (*endure the pain*), intransitive (*their friendship endured*)
 
@@ -1554,6 +1648,7 @@ To suffer something difficult patiently, or to last a long time.
 **Pronunciation:** /maɪnd/ &middot; *MYND*
 **Русский:** возражать, быть против
 **Forms:** *mind* &middot; *minded* &middot; *minded*
+**Verb class:** regular
 **Third person:** *minds* &middot; **-ing form:** *minding*
 **Transitivity:** both — transitive (*I don't mind the cold*), intransitive (*if you don't mind*)
 **Contrast:** *Do you mind if…?* — answering *no* means 'go ahead'.
@@ -1571,6 +1666,7 @@ To feel annoyed or bothered by something.
 **Pronunciation:** /ˈɡɪɡəl/ &middot; *GIG-uhl*
 **Русский:** хихикать, захихикать
 **Forms:** *giggle* &middot; *giggled* &middot; *giggled*
+**Verb class:** regular
 **Third person:** *giggles* &middot; **-ing form:** *giggling*
 **Transitivity:** intransitive
 
@@ -1587,6 +1683,7 @@ To laugh in a light, nervous, or silly way.
 **Pronunciation:** /fraʊn/ &middot; *FROWN*
 **Русский:** хмуриться, нахмуриться
 **Forms:** *frown* &middot; *frowned* &middot; *frowned*
+**Verb class:** regular
 **Third person:** *frowns* &middot; **-ing form:** *frowning*
 **Transitivity:** intransitive
 **Contrast:** *Frown **on/upon*** something means to disapprove of it.
@@ -1604,6 +1701,7 @@ To move your eyebrows together because you are annoyed, worried, or thinking.
 **Pronunciation:** /ɡroʊn/ &middot; *GROHN*
 **Русский:** стонать, охать
 **Forms:** *groan* &middot; *groaned* &middot; *groaned*
+**Verb class:** regular
 **Third person:** *groans* &middot; **-ing form:** *groaning*
 **Transitivity:** intransitive
 **Contrast:** Sounds exactly like *grown* (the participle of *grow*).
@@ -1621,6 +1719,7 @@ To make a low sound of pain, annoyance, or disappointment.
 **Pronunciation:** /sʌlk/ &middot; *SULK*
 **Русский:** дуться, обижаться
 **Forms:** *sulk* &middot; *sulked* &middot; *sulked*
+**Verb class:** regular
 **Third person:** *sulks* &middot; **-ing form:** *sulking*
 **Transitivity:** intransitive
 
@@ -1637,6 +1736,7 @@ To stay silent and unhappy because you are annoyed about something.
 **Pronunciation:** /ˈʃʌdər/ &middot; *SHUD-ur*
 **Русский:** содрогаться, вздрагивать
 **Forms:** *shudder* &middot; *shuddered* &middot; *shuddered*
+**Verb class:** regular
 **Third person:** *shudders* &middot; **-ing form:** *shuddering*
 **Transitivity:** intransitive
 
@@ -1653,6 +1753,7 @@ To shake suddenly from fear, cold, or disgust.
 **Pronunciation:** /hɔːnt/ &middot; *HAWNT*
 **Русский:** преследовать, не давать покоя
 **Forms:** *haunt* &middot; *haunted* &middot; *haunted*
+**Verb class:** regular
 **Third person:** *haunts* &middot; **-ing form:** *haunting*
 **Transitivity:** transitive
 
@@ -1669,6 +1770,7 @@ To keep coming back into someone's mind in a troubling way.
 **Pronunciation:** /dɪˈstrɛs/ &middot; *di-STRES*
 **Русский:** расстраивать, огорчать, тревожить
 **Forms:** *distress* &middot; *distressed* &middot; *distressed*
+**Verb class:** regular
 **Third person:** *distresses* &middot; **-ing form:** *distressing*
 **Transitivity:** transitive
 
@@ -1685,6 +1787,7 @@ To make someone very upset or anxious.
 **Pronunciation:** /tɔːrˈmɛnt/ &middot; *tor-MENT*
 **Русский:** мучить, терзать
 **Forms:** *torment* &middot; *tormented* &middot; *tormented*
+**Verb class:** regular
 **Third person:** *torments* &middot; **-ing form:** *tormenting*
 **Transitivity:** transitive
 **Contrast:** The verb is /tɔːrˈmɛnt/ (tor-MENT); the noun *a torment* is /ˈtɔːrmɛnt/ (TOR-ment).
@@ -1702,6 +1805,7 @@ To cause someone great mental or physical suffering, often repeatedly.
 **Pronunciation:** /dɪˈstɜːrb/ &middot; *di-STURB*
 **Русский:** беспокоить, тревожить; нарушать покой
 **Forms:** *disturb* &middot; *disturbed* &middot; *disturbed*
+**Verb class:** regular
 **Third person:** *disturbs* &middot; **-ing form:** *disturbing*
 **Transitivity:** transitive
 
@@ -1718,6 +1822,7 @@ To interrupt someone, or to make them feel uneasy.
 **Pronunciation:** /dɪsˈmeɪ/ &middot; *dis-MAY*
 **Русский:** приводить в уныние, обескураживать
 **Forms:** *dismay* &middot; *dismayed* &middot; *dismayed*
+**Verb class:** regular
 **Third person:** *dismays* &middot; **-ing form:** *dismaying*
 **Transitivity:** transitive
 
@@ -1734,6 +1839,7 @@ To make someone feel shocked disappointment.
 **Pronunciation:** /ɪnˈtɪmədeɪt/ &middot; *in-TIM-uh-dayt*
 **Русский:** запугивать, устрашать
 **Forms:** *intimidate* &middot; *intimidated* &middot; *intimidated*
+**Verb class:** regular
 **Third person:** *intimidates* &middot; **-ing form:** *intimidating*
 **Transitivity:** transitive
 

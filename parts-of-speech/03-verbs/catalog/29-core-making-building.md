@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /kriˈeɪt/ &middot; *kree-AYT*
 **Русский:** создавать, создать
 **Forms:** *create* &middot; *created* &middot; *created*
+**Verb class:** regular
 **Third person:** *creates* &middot; **-ing form:** *creating*
 **Transitivity:** transitive
 
@@ -30,6 +31,7 @@ To make something that did not exist before.
 **Pronunciation:** /kənˈstrʌkt/ &middot; *kuhn-STRUKT*
 **Русский:** строить, построить, сооружать
 **Forms:** *construct* &middot; *constructed* &middot; *constructed*
+**Verb class:** regular
 **Third person:** *constructs* &middot; **-ing form:** *constructing*
 **Transitivity:** transitive
 
@@ -46,6 +48,7 @@ To build something large by putting its parts together.
 **Pronunciation:** /əˈsɛmbəl/ &middot; *uh-SEM-buhl*
 **Русский:** собирать, собрать; монтировать
 **Forms:** *assemble* &middot; *assembled* &middot; *assembled*
+**Verb class:** regular
 **Third person:** *assembles* &middot; **-ing form:** *assembling*
 **Transitivity:** both — transitive (assemble a bookshelf), intransitive (a crowd assembled)
 
@@ -62,6 +65,7 @@ To put the parts of something together, or to gather in one place.
 **Pronunciation:** /ˈdʒɛnəreɪt/ &middot; *JEN-uh-rayt*
 **Русский:** производить, вырабатывать; порождать
 **Forms:** *generate* &middot; *generated* &middot; *generated*
+**Verb class:** regular
 **Third person:** *generates* &middot; **-ing form:** *generating*
 **Transitivity:** transitive
 
@@ -78,6 +82,7 @@ To produce power, heat, or a result.
 **Pronunciation:** /fɔːrm/ &middot; *FORM*
 **Русский:** формировать, образовывать, образовать
 **Forms:** *form* &middot; *formed* &middot; *formed*
+**Verb class:** regular
 **Third person:** *forms* &middot; **-ing form:** *forming*
 **Transitivity:** both — transitive (form the dough into a ball), intransitive (ice formed on the window)
 
@@ -94,6 +99,7 @@ To give something a shape, or to come into existence as a shape.
 **Pronunciation:** /kræft/ &middot; *KRAFT*
 **Русский:** изготавливать вручную, мастерить
 **Forms:** *craft* &middot; *crafted* &middot; *crafted*
+**Verb class:** regular
 **Third person:** *crafts* &middot; **-ing form:** *crafting*
 **Transitivity:** transitive
 
@@ -110,6 +116,7 @@ To make something carefully by hand, with skill.
 **Pronunciation:** /ˈfæbrɪkeɪt/ &middot; *FAB-rih-kayt*
 **Русский:** изготавливать, изготовить (деталь); фабриковать
 **Forms:** *fabricate* &middot; *fabricated* &middot; *fabricated*
+**Verb class:** regular
 **Third person:** *fabricates* &middot; **-ing form:** *fabricating*
 **Transitivity:** transitive
 **Contrast:** About metal, *fabricate* means to make; about a story it means to invent a lie — *he fabricated the whole report*.
@@ -127,6 +134,7 @@ To make a part or structure out of raw material, usually metal.
 **Pronunciation:** /ɪˈrɛkt/ &middot; *ih-REKT*
 **Русский:** возводить, возвести; устанавливать
 **Forms:** *erect* &middot; *erected* &middot; *erected*
+**Verb class:** regular
 **Third person:** *erects* &middot; **-ing form:** *erecting*
 **Transitivity:** transitive
 
@@ -143,6 +151,7 @@ To put up a structure so that it stands upright.
 **Pronunciation:** /moʊld/ &middot; *MOHLD*
 **Русский:** формовать, лепить, вылепить
 **Forms:** *mold* &middot; *molded* &middot; *molded*
+**Verb class:** regular
 **Third person:** *molds* &middot; **-ing form:** *molding*
 **Transitivity:** transitive
 **Contrast:** American spelling is *mold*, *molded*; British spells it *mould*, *moulded*.
@@ -160,6 +169,7 @@ To press a soft material into a shape.
 **Pronunciation:** /skɛtʃ/ &middot; *SKECH*
 **Русский:** делать набросок, набрасывать, набросать
 **Forms:** *sketch* &middot; *sketched* &middot; *sketched*
+**Verb class:** regular
 **Third person:** *sketches* &middot; **-ing form:** *sketching*
 **Transitivity:** both
 
@@ -176,6 +186,7 @@ To draw something quickly and roughly.
 **Pronunciation:** /ˈmɑːdəl/ &middot; *MAH-duhl*
 **Русский:** моделировать, лепить модель; создавать макет
 **Forms:** *model* &middot; *modeled* &middot; *modeled*
+**Verb class:** regular
 **Third person:** *models* &middot; **-ing form:** *modeling*
 **Transitivity:** both
 **Contrast:** American keeps one *l*: *modeled, modeling*; British doubles it: *modelled*.
@@ -193,6 +204,7 @@ To make a small or virtual version of something in order to study it.
 **Pronunciation:** /ˈaʊtlaɪn/ &middot; *OWT-lyn*
 **Русский:** намечать, набрасывать в общих чертах, обрисовать
 **Forms:** *outline* &middot; *outlined* &middot; *outlined*
+**Verb class:** regular
 **Third person:** *outlines* &middot; **-ing form:** *outlining*
 **Transitivity:** transitive
 
@@ -209,6 +221,7 @@ To describe the main parts of a plan without the details.
 **Pronunciation:** /ɪnˈstɔːl/ &middot; *in-STAWL*
 **Русский:** устанавливать, установить; монтировать
 **Forms:** *install* &middot; *installed* &middot; *installed*
+**Verb class:** regular
 **Third person:** *installs* &middot; **-ing form:** *installing*
 **Transitivity:** transitive
 **Contrast:** Two *l*'s all the way through: *install, installed, installing*.
@@ -226,6 +239,7 @@ To put equipment in place so that it is ready to use.
 **Pronunciation:** /wɛld/ &middot; *WELD*
 **Русский:** сваривать, сварить
 **Forms:** *weld* &middot; *welded* &middot; *welded*
+**Verb class:** regular
 **Third person:** *welds* &middot; **-ing form:** *welding*
 **Transitivity:** both
 
@@ -242,6 +256,7 @@ To join pieces of metal by melting their edges together.
 **Pronunciation:** /ˈsɑːdər/ &middot; *SAH-dur*
 **Русский:** паять, припаять
 **Forms:** *solder* &middot; *soldered* &middot; *soldered*
+**Verb class:** regular
 **Third person:** *solders* &middot; **-ing form:** *soldering*
 **Transitivity:** transitive
 **Contrast:** In American English the *l* is silent: SAH-dur.
@@ -259,6 +274,7 @@ To join small metal parts with melted soft metal.
 **Pronunciation:** /neɪl/ &middot; *NAYL*
 **Русский:** прибивать гвоздями, приколотить
 **Forms:** *nail* &middot; *nailed* &middot; *nailed*
+**Verb class:** regular
 **Third person:** *nails* &middot; **-ing form:** *nailing*
 **Transitivity:** transitive
 
@@ -275,6 +291,7 @@ To fasten something with nails.
 **Pronunciation:** /skruː/ &middot; *SKROO*
 **Русский:** привинчивать, прикручивать, прикрутить
 **Forms:** *screw* &middot; *screwed* &middot; *screwed*
+**Verb class:** regular
 **Third person:** *screws* &middot; **-ing form:** *screwing*
 **Transitivity:** transitive
 
@@ -291,6 +308,7 @@ To fasten something with screws, or to turn it into place.
 **Pronunciation:** /boʊlt/ &middot; *BOHLT*
 **Русский:** скреплять болтами, прикручивать болтами
 **Forms:** *bolt* &middot; *bolted* &middot; *bolted*
+**Verb class:** regular
 **Third person:** *bolts* &middot; **-ing form:** *bolting*
 **Transitivity:** both — transitive (bolt the rack to the floor), intransitive (the horse bolted)
 
@@ -307,6 +325,7 @@ To fasten something with bolts.
 **Pronunciation:** /ɡluː/ &middot; *GLOO*
 **Русский:** клеить, склеивать, склеить
 **Forms:** *glue* &middot; *glued* &middot; *glued*
+**Verb class:** regular
 **Third person:** *glues* &middot; **-ing form:** *gluing*
 **Transitivity:** transitive
 **Contrast:** The *e* drops before *-ing*: *glue → gluing*, not glueing.
@@ -324,6 +343,7 @@ To stick things together with glue.
 **Pronunciation:** /teɪp/ &middot; *TAYP*
 **Русский:** заклеивать скотчем, приклеивать лентой
 **Forms:** *tape* &middot; *taped* &middot; *taped*
+**Verb class:** regular
 **Third person:** *tapes* &middot; **-ing form:** *taping*
 **Transitivity:** transitive
 
@@ -340,6 +360,7 @@ To stick or cover something with tape.
 **Pronunciation:** /ˈsteɪpəl/ &middot; *STAY-puhl*
 **Русский:** скреплять степлером, прикреплять скобами
 **Forms:** *staple* &middot; *stapled* &middot; *stapled*
+**Verb class:** regular
 **Third person:** *staples* &middot; **-ing form:** *stapling*
 **Transitivity:** transitive
 
@@ -356,6 +377,7 @@ To fasten something with staples.
 **Pronunciation:** /stɪtʃ/ &middot; *STICH*
 **Русский:** шить, сшивать, сшить; прострочить
 **Forms:** *stitch* &middot; *stitched* &middot; *stitched*
+**Verb class:** regular
 **Third person:** *stitches* &middot; **-ing form:** *stitching*
 **Transitivity:** both
 
@@ -372,6 +394,7 @@ To join cloth or leather with a needle and thread.
 **Pronunciation:** /drɪl/ &middot; *DRIL*
 **Русский:** сверлить, просверлить
 **Forms:** *drill* &middot; *drilled* &middot; *drilled*
+**Verb class:** regular
 **Third person:** *drills* &middot; **-ing form:** *drilling*
 **Transitivity:** both
 
@@ -388,6 +411,7 @@ To make a round hole with a drill.
 **Pronunciation:** /ˈhæmər/ &middot; *HAM-ur*
 **Русский:** забивать молотком, бить молотком
 **Forms:** *hammer* &middot; *hammered* &middot; *hammered*
+**Verb class:** regular
 **Third person:** *hammers* &middot; **-ing form:** *hammering*
 **Transitivity:** both
 
@@ -404,6 +428,7 @@ To hit something with a hammer, or to shape it by hitting.
 **Pronunciation:** /ˈplæstər/ &middot; *PLAS-tur*
 **Русский:** штукатурить, оштукатурить
 **Forms:** *plaster* &middot; *plastered* &middot; *plastered*
+**Verb class:** regular
 **Third person:** *plasters* &middot; **-ing form:** *plastering*
 **Transitivity:** transitive
 
@@ -420,6 +445,7 @@ To cover a wall or ceiling with a smooth layer of plaster.
 **Pronunciation:** /taɪl/ &middot; *TYL*
 **Русский:** облицовывать плиткой, класть плитку
 **Forms:** *tile* &middot; *tiled* &middot; *tiled*
+**Verb class:** regular
 **Third person:** *tiles* &middot; **-ing form:** *tiling*
 **Transitivity:** transitive
 
@@ -436,6 +462,7 @@ To cover a surface with tiles.
 **Pronunciation:** /peɪv/ &middot; *PAYV*
 **Русский:** мостить, асфальтировать, заасфальтировать
 **Forms:** *pave* &middot; *paved* &middot; *paved*
+**Verb class:** regular
 **Third person:** *paves* &middot; **-ing form:** *paving*
 **Transitivity:** transitive
 
@@ -452,6 +479,7 @@ To cover a road or path with a hard surface.
 **Pronunciation:** /ˈwaɪər/ &middot; *WY-ur*
 **Русский:** монтировать проводку, подключать провода
 **Forms:** *wire* &middot; *wired* &middot; *wired*
+**Verb class:** regular
 **Third person:** *wires* &middot; **-ing form:** *wiring*
 **Transitivity:** transitive
 
@@ -468,6 +496,7 @@ To put electrical wiring into a building or a device.
 **Pronunciation:** /freɪm/ &middot; *FRAYM*
 **Русский:** сооружать каркас; вставлять в раму
 **Forms:** *frame* &middot; *framed* &middot; *framed*
+**Verb class:** regular
 **Third person:** *frames* &middot; **-ing form:** *framing*
 **Transitivity:** transitive
 
@@ -484,6 +513,7 @@ To build the supporting structure of something, or to put it in a frame.
 **Pronunciation:** /peɪnt/ &middot; *PAYNT*
 **Русский:** красить, покрасить; рисовать красками
 **Forms:** *paint* &middot; *painted* &middot; *painted*
+**Verb class:** regular
 **Third person:** *paints* &middot; **-ing form:** *painting*
 **Transitivity:** both
 
@@ -500,6 +530,7 @@ To cover a surface with paint, or to make a picture with paint.
 **Pronunciation:** /sænd/ &middot; *SAND*
 **Русский:** шлифовать наждаком, зачищать, отшлифовать
 **Forms:** *sand* &middot; *sanded* &middot; *sanded*
+**Verb class:** regular
 **Third person:** *sands* &middot; **-ing form:** *sanding*
 **Transitivity:** transitive
 
@@ -516,6 +547,7 @@ To make a surface smooth by rubbing it with sandpaper.
 **Pronunciation:** /ˈpɑːlɪʃ/ &middot; *PAH-lish*
 **Русский:** полировать, отполировать
 **Forms:** *polish* &middot; *polished* &middot; *polished*
+**Verb class:** regular
 **Third person:** *polishes* &middot; **-ing form:** *polishing*
 **Transitivity:** transitive
 **Contrast:** The verb is PAH-lish; *Polish*, meaning from Poland, is POH-lish.
@@ -533,6 +565,7 @@ To rub a surface until it shines.
 **Pronunciation:** /ˈvɑːrnɪʃ/ &middot; *VAR-nish*
 **Русский:** покрывать лаком, лакировать, отлакировать
 **Forms:** *varnish* &middot; *varnished* &middot; *varnished*
+**Verb class:** regular
 **Third person:** *varnishes* &middot; **-ing form:** *varnishing*
 **Transitivity:** transitive
 
@@ -549,6 +582,7 @@ To put a clear hard coating on wood.
 **Pronunciation:** /siːl/ &middot; *SEEL*
 **Русский:** герметизировать, заделывать, заделать
 **Forms:** *seal* &middot; *sealed* &middot; *sealed*
+**Verb class:** regular
 **Third person:** *seals* &middot; **-ing form:** *sealing*
 **Transitivity:** transitive
 
@@ -565,6 +599,7 @@ To close a gap or cover a surface so that nothing gets through.
 **Pronunciation:** /koʊt/ &middot; *KOHT*
 **Русский:** покрывать слоем, наносить покрытие, покрыть
 **Forms:** *coat* &middot; *coated* &middot; *coated*
+**Verb class:** regular
 **Third person:** *coats* &middot; **-ing form:** *coating*
 **Transitivity:** transitive
 
@@ -581,6 +616,7 @@ To cover a surface with a thin layer of something.
 **Pronunciation:** /spreɪ/ &middot; *SPRAY*
 **Русский:** распылять, опрыскивать, покрасить из баллончика
 **Forms:** *spray* &middot; *sprayed* &middot; *sprayed*
+**Verb class:** regular
 **Third person:** *sprays* &middot; **-ing form:** *spraying*
 **Transitivity:** both
 **Contrast:** A vowel before the *y* keeps it: *sprayed, spraying* — not spraied.
@@ -598,6 +634,7 @@ To send liquid over a surface in very small drops.
 **Pronunciation:** /steɪn/ &middot; *STAYN*
 **Русский:** морить, тонировать (дерево); пачкать
 **Forms:** *stain* &middot; *stained* &middot; *stained*
+**Verb class:** regular
 **Third person:** *stains* &middot; **-ing form:** *staining*
 **Transitivity:** transitive
 
@@ -614,6 +651,7 @@ To color wood with a liquid that soaks in.
 **Pronunciation:** /ˈɪnsəleɪt/ &middot; *IN-suh-layt*
 **Русский:** утеплять, утеплить; изолировать
 **Forms:** *insulate* &middot; *insulated* &middot; *insulated*
+**Verb class:** regular
 **Third person:** *insulates* &middot; **-ing form:** *insulating*
 **Transitivity:** transitive
 
@@ -630,6 +668,7 @@ To cover something so that heat, cold, or electricity cannot pass through.
 **Pronunciation:** /skʌlpt/ &middot; *SKULPT*
 **Русский:** лепить, вылепить; ваять
 **Forms:** *sculpt* &middot; *sculpted* &middot; *sculpted*
+**Verb class:** regular
 **Third person:** *sculpts* &middot; **-ing form:** *sculpting*
 **Transitivity:** both
 
@@ -646,6 +685,7 @@ To make a figure by shaping clay, stone, or wax.
 **Pronunciation:** /ˈtʃɪzəl/ &middot; *CHIZ-uhl*
 **Русский:** вырезать стамеской, высекать, выдолбить
 **Forms:** *chisel* &middot; *chiseled* &middot; *chiseled*
+**Verb class:** regular
 **Third person:** *chisels* &middot; **-ing form:** *chiseling*
 **Transitivity:** transitive
 **Contrast:** American keeps one *l*: *chiseled, chiseling*; British doubles it: *chiselled*.
@@ -663,6 +703,7 @@ To cut wood or stone with a chisel.
 **Pronunciation:** /fɔːrdʒ/ &middot; *FORJ*
 **Русский:** ковать, выковать
 **Forms:** *forge* &middot; *forged* &middot; *forged*
+**Verb class:** regular
 **Third person:** *forges* &middot; **-ing form:** *forging*
 **Transitivity:** transitive
 **Contrast:** *Forge* also means to fake a signature or a document.
@@ -680,6 +721,7 @@ To shape hot metal by hammering it.
 **Pronunciation:** /foʊld/ &middot; *FOHLD*
 **Русский:** складывать, сложить; сгибать
 **Forms:** *fold* &middot; *folded* &middot; *folded*
+**Verb class:** regular
 **Third person:** *folds* &middot; **-ing form:** *folding*
 **Transitivity:** both
 
@@ -696,6 +738,7 @@ To bend something over on itself.
 **Pronunciation:** /ˈflætən/ &middot; *FLAT-uhn*
 **Русский:** разравнивать, расплющивать, сплющить
 **Forms:** *flatten* &middot; *flattened* &middot; *flattened*
+**Verb class:** regular
 **Third person:** *flattens* &middot; **-ing form:** *flattening*
 **Transitivity:** both
 
@@ -712,6 +755,7 @@ To make something flat, or to become flat.
 **Pronunciation:** /strɛtʃ/ &middot; *STRECH*
 **Русский:** растягивать, натягивать, растянуть
 **Forms:** *stretch* &middot; *stretched* &middot; *stretched*
+**Verb class:** regular
 **Third person:** *stretches* &middot; **-ing form:** *stretching*
 **Transitivity:** both
 
@@ -728,6 +772,7 @@ To pull something so that it becomes longer or tighter.
 **Pronunciation:** /krʌʃ/ &middot; *KRUSH*
 **Русский:** дробить, измельчать, раздавить
 **Forms:** *crush* &middot; *crushed* &middot; *crushed*
+**Verb class:** regular
 **Third person:** *crushes* &middot; **-ing form:** *crushing*
 **Transitivity:** transitive
 
@@ -744,6 +789,7 @@ To press something so hard that it breaks into pieces or loses its shape.
 **Pronunciation:** /ˈʃɑːrpən/ &middot; *SHAR-puhn*
 **Русский:** точить, заточить, наточить
 **Forms:** *sharpen* &middot; *sharpened* &middot; *sharpened*
+**Verb class:** regular
 **Third person:** *sharpens* &middot; **-ing form:** *sharpening*
 **Transitivity:** transitive
 
@@ -760,6 +806,7 @@ To make a blade or a point sharp.
 **Pronunciation:** /trɪm/ &middot; *TRIM*
 **Русский:** подрезать, обрезать, подстричь
 **Forms:** *trim* &middot; *trimmed* &middot; *trimmed*
+**Verb class:** regular
 **Third person:** *trims* &middot; **-ing form:** *trimming*
 **Transitivity:** transitive
 **Contrast:** The *m* doubles: *trim → trimmed, trimming*.
@@ -777,6 +824,7 @@ To cut a small amount off something to make it neat or to make it fit.
 **Pronunciation:** /tʃɑːp/ &middot; *CHAHP*
 **Русский:** рубить, нарубить; нарезать
 **Forms:** *chop* &middot; *chopped* &middot; *chopped*
+**Verb class:** regular
 **Third person:** *chops* &middot; **-ing form:** *chopping*
 **Transitivity:** transitive
 **Contrast:** The *p* doubles: *chop → chopped, chopping*.
@@ -794,6 +842,7 @@ To cut something with hard strokes of an axe or knife.
 **Pronunciation:** /slaɪs/ &middot; *SLYS*
 **Русский:** нарезать ломтями, отрезать, разрезать
 **Forms:** *slice* &middot; *sliced* &middot; *sliced*
+**Verb class:** regular
 **Third person:** *slices* &middot; **-ing form:** *slicing*
 **Transitivity:** transitive
 
@@ -810,6 +859,7 @@ To cut something into thin flat pieces.
 **Pronunciation:** /əˈtætʃ/ &middot; *uh-TACH*
 **Русский:** прикреплять, прикрепить; присоединять
 **Forms:** *attach* &middot; *attached* &middot; *attached*
+**Verb class:** regular
 **Third person:** *attaches* &middot; **-ing form:** *attaching*
 **Transitivity:** transitive
 **Contrast:** You attach one thing **to** another: *attach the shelf to the wall*.
@@ -827,6 +877,7 @@ To fix one thing onto another.
 **Pronunciation:** /kəˈnɛkt/ &middot; *kuh-NEKT*
 **Русский:** соединять, соединить; подключать
 **Forms:** *connect* &middot; *connected* &middot; *connected*
+**Verb class:** regular
 **Third person:** *connects* &middot; **-ing form:** *connecting*
 **Transitivity:** both
 **Contrast:** Connect one thing **to** another, or two things **with** a part.
@@ -844,6 +895,7 @@ To join two things so that something can pass between them.
 **Pronunciation:** /dʒɔɪn/ &middot; *JOYN*
 **Русский:** соединять, соединить; скреплять
 **Forms:** *join* &middot; *joined* &middot; *joined*
+**Verb class:** regular
 **Third person:** *joins* &middot; **-ing form:** *joining*
 **Transitivity:** both
 
@@ -860,6 +912,7 @@ To put two pieces together so that they become one.
 **Pronunciation:** /lɪŋk/ &middot; *LINGK*
 **Русский:** связывать, соединять, соединить
 **Forms:** *link* &middot; *linked* &middot; *linked*
+**Verb class:** regular
 **Third person:** *links* &middot; **-ing form:** *linking*
 **Transitivity:** transitive
 
@@ -876,6 +929,7 @@ To connect two things so that they work or move together.
 **Pronunciation:** /ˈfæsən/ &middot; *FAS-uhn*
 **Русский:** закреплять, скреплять, застёгивать
 **Forms:** *fasten* &middot; *fastened* &middot; *fastened*
+**Verb class:** regular
 **Third person:** *fastens* &middot; **-ing form:** *fastening*
 **Transitivity:** both
 **Contrast:** The *t* is silent: FAS-uhn, like *listen* and *soften*.
@@ -893,6 +947,7 @@ To close or fix something firmly in place.
 **Pronunciation:** /ˈtaɪtən/ &middot; *TY-tuhn*
 **Русский:** затягивать, подтягивать, затянуть
 **Forms:** *tighten* &middot; *tightened* &middot; *tightened*
+**Verb class:** regular
 **Third person:** *tightens* &middot; **-ing form:** *tightening*
 **Transitivity:** both
 
@@ -909,6 +964,7 @@ To make something tighter or firmer.
 **Pronunciation:** /ˈluːsən/ &middot; *LOO-suhn*
 **Русский:** ослаблять, откручивать, ослабить
 **Forms:** *loosen* &middot; *loosened* &middot; *loosened*
+**Verb class:** regular
 **Third person:** *loosens* &middot; **-ing form:** *loosening*
 **Transitivity:** both
 **Contrast:** The *s* is /s/, not /z/: LOO-suhn. Compare *lose*, which ends in /z/.
@@ -926,6 +982,7 @@ To make something less tight.
 **Pronunciation:** /maʊnt/ &middot; *MOWNT*
 **Русский:** монтировать, устанавливать, закрепить
 **Forms:** *mount* &middot; *mounted* &middot; *mounted*
+**Verb class:** regular
 **Third person:** *mounts* &middot; **-ing form:** *mounting*
 **Transitivity:** transitive
 
@@ -942,6 +999,7 @@ To fix something onto a wall, a stand, or a support.
 **Pronunciation:** /ˈæŋkər/ &middot; *ANG-kur*
 **Русский:** закреплять, крепить анкером, зафиксировать
 **Forms:** *anchor* &middot; *anchored* &middot; *anchored*
+**Verb class:** regular
 **Third person:** *anchors* &middot; **-ing form:** *anchoring*
 **Transitivity:** transitive
 **Contrast:** The *ch* is /k/: ANG-kur.
@@ -959,6 +1017,7 @@ To fix something firmly so that it cannot move.
 **Pronunciation:** /sɪˈkjʊr/ &middot; *sih-KYUR*
 **Русский:** закреплять, закрепить, зафиксировать
 **Forms:** *secure* &middot; *secured* &middot; *secured*
+**Verb class:** regular
 **Third person:** *secures* &middot; **-ing form:** *securing*
 **Transitivity:** transitive
 
@@ -975,6 +1034,7 @@ To fasten something so that it stays in place.
 **Pronunciation:** /θrɛd/ &middot; *THRED*
 **Русский:** продевать, вдевать, протянуть
 **Forms:** *thread* &middot; *threaded* &middot; *threaded*
+**Verb class:** regular
 **Third person:** *threads* &middot; **-ing form:** *threading*
 **Transitivity:** transitive
 **Contrast:** Here *ea* is /ɛ/: THRED rhymes with *red*, not with *read* the noun.
@@ -992,6 +1052,7 @@ To pass something long and thin through a hole or a narrow space.
 **Pronunciation:** /pɪn/ &middot; *PIN*
 **Русский:** прикалывать, закреплять булавкой, приколоть
 **Forms:** *pin* &middot; *pinned* &middot; *pinned*
+**Verb class:** regular
 **Third person:** *pins* &middot; **-ing form:** *pinning*
 **Transitivity:** transitive
 **Contrast:** The *n* doubles: *pin → pinned, pinning*.
@@ -1009,6 +1070,7 @@ To fasten something with a pin, or to hold it against a surface.
 **Pronunciation:** /klæmp/ &middot; *KLAMP*
 **Русский:** зажимать, фиксировать струбциной, зажать
 **Forms:** *clamp* &middot; *clamped* &middot; *clamped*
+**Verb class:** regular
 **Third person:** *clamps* &middot; **-ing form:** *clamping*
 **Transitivity:** transitive
 
@@ -1025,6 +1087,7 @@ To hold something tightly with a clamp.
 **Pronunciation:** /ˌriːɪnˈfɔːrs/ &middot; *ree-in-FORS*
 **Русский:** укреплять, усиливать, усилить
 **Forms:** *reinforce* &middot; *reinforced* &middot; *reinforced*
+**Verb class:** regular
 **Third person:** *reinforces* &middot; **-ing form:** *reinforcing*
 **Transitivity:** transitive
 
@@ -1041,6 +1104,7 @@ To make something stronger by adding material or support.
 **Pronunciation:** /fɪks/ &middot; *FIKS*
 **Русский:** чинить, починить; исправлять
 **Forms:** *fix* &middot; *fixed* &middot; *fixed*
+**Verb class:** regular
 **Third person:** *fixes* &middot; **-ing form:** *fixing*
 **Transitivity:** transitive
 
@@ -1057,6 +1121,7 @@ To make something work again after it has broken.
 **Pronunciation:** /rɪˈpɛr/ &middot; *rih-PAIR*
 **Русский:** ремонтировать, чинить, отремонтировать
 **Forms:** *repair* &middot; *repaired* &middot; *repaired*
+**Verb class:** regular
 **Third person:** *repairs* &middot; **-ing form:** *repairing*
 **Transitivity:** transitive
 
@@ -1073,6 +1138,7 @@ To put something damaged back into good condition.
 **Pronunciation:** /mɛnd/ &middot; *MEND*
 **Русский:** чинить, штопать, зашить
 **Forms:** *mend* &middot; *mended* &middot; *mended*
+**Verb class:** regular
 **Third person:** *mends* &middot; **-ing form:** *mending*
 **Transitivity:** both
 
@@ -1089,6 +1155,7 @@ To repair something small, especially clothing or a tear.
 **Pronunciation:** /rɪˈstɔːr/ &middot; *rih-STOR*
 **Русский:** реставрировать, восстанавливать, восстановить
 **Forms:** *restore* &middot; *restored* &middot; *restored*
+**Verb class:** regular
 **Third person:** *restores* &middot; **-ing form:** *restoring*
 **Transitivity:** transitive
 
@@ -1105,6 +1172,7 @@ To bring something old back to its original condition.
 **Pronunciation:** /ˈrɛnəveɪt/ &middot; *REN-uh-vayt*
 **Русский:** ремонтировать, обновлять, отремонтировать
 **Forms:** *renovate* &middot; *renovated* &middot; *renovated*
+**Verb class:** regular
 **Third person:** *renovates* &middot; **-ing form:** *renovating*
 **Transitivity:** transitive
 
@@ -1121,6 +1189,7 @@ To repair and modernize a building or a room.
 **Pronunciation:** /riːˈmɑːdəl/ &middot; *ree-MAH-duhl*
 **Русский:** перестраивать, перепланировать, переделать
 **Forms:** *remodel* &middot; *remodeled* &middot; *remodeled*
+**Verb class:** regular
 **Third person:** *remodels* &middot; **-ing form:** *remodeling*
 **Transitivity:** transitive
 **Contrast:** American keeps one *l*: *remodeled, remodeling*. *Remodel* is the everyday American word where the British say *do up* or *convert*.
@@ -1138,6 +1207,7 @@ To change the structure or layout of a room or building.
 **Pronunciation:** /ˈʌpɡreɪd/ &middot; *UP-grayd*
 **Русский:** модернизировать, обновлять, улучшить
 **Forms:** *upgrade* &middot; *upgraded* &middot; *upgraded*
+**Verb class:** regular
 **Third person:** *upgrades* &middot; **-ing form:** *upgrading*
 **Transitivity:** transitive
 
@@ -1154,6 +1224,7 @@ To replace something with a newer or better version.
 **Pronunciation:** /pætʃ/ &middot; *PACH*
 **Русский:** латать, заделывать, залатать
 **Forms:** *patch* &middot; *patched* &middot; *patched*
+**Verb class:** regular
 **Third person:** *patches* &middot; **-ing form:** *patching*
 **Transitivity:** transitive
 
@@ -1170,6 +1241,7 @@ To cover a hole with a piece of material.
 **Pronunciation:** /ˈmɑːdɪfaɪ/ &middot; *MAH-dih-fy*
 **Русский:** изменять, модифицировать, видоизменить
 **Forms:** *modify* &middot; *modified* &middot; *modified*
+**Verb class:** regular
 **Third person:** *modifies* &middot; **-ing form:** *modifying*
 **Transitivity:** transitive
 **Contrast:** The *-y* changes: *modifies, modified*, but *modifying* keeps it.
@@ -1187,6 +1259,7 @@ To change part of something so that it works differently.
 **Pronunciation:** /ˈɔːltər/ &middot; *AWL-tur*
 **Русский:** изменять, переделывать, изменить
 **Forms:** *alter* &middot; *altered* &middot; *altered*
+**Verb class:** regular
 **Third person:** *alters* &middot; **-ing form:** *altering*
 **Transitivity:** both
 **Contrast:** *Alter*, to change, sounds the same as *altar*, the table in a church.
@@ -1204,6 +1277,7 @@ To change something, usually slightly.
 **Pronunciation:** /əˈdʒʌst/ &middot; *uh-JUST*
 **Русский:** регулировать, настраивать, отрегулировать
 **Forms:** *adjust* &middot; *adjusted* &middot; *adjusted*
+**Verb class:** regular
 **Third person:** *adjusts* &middot; **-ing form:** *adjusting*
 **Transitivity:** both
 
@@ -1220,6 +1294,7 @@ To move or change something a little so that it is right.
 **Pronunciation:** /dɪsˈmæntəl/ &middot; *dis-MAN-tuhl*
 **Русский:** разбирать, демонтировать, разобрать
 **Forms:** *dismantle* &middot; *dismantled* &middot; *dismantled*
+**Verb class:** regular
 **Third person:** *dismantles* &middot; **-ing form:** *dismantling*
 **Transitivity:** transitive
 
@@ -1236,6 +1311,7 @@ To take a machine or structure apart piece by piece.
 **Pronunciation:** /dɪˈmɑːlɪʃ/ &middot; *dih-MAH-lish*
 **Русский:** сносить, снести, разрушать
 **Forms:** *demolish* &middot; *demolished* &middot; *demolished*
+**Verb class:** regular
 **Third person:** *demolishes* &middot; **-ing form:** *demolishing*
 **Transitivity:** transitive
 
@@ -1252,6 +1328,7 @@ To knock a building down on purpose.
 **Pronunciation:** /prɪnt/ &middot; *PRINT*
 **Русский:** печатать, напечатать, распечатать
 **Forms:** *print* &middot; *printed* &middot; *printed*
+**Verb class:** regular
 **Third person:** *prints* &middot; **-ing form:** *printing*
 **Transitivity:** both
 
@@ -1268,6 +1345,7 @@ To produce words or images on paper with a machine.
 **Pronunciation:** /ˈpʌblɪʃ/ &middot; *PUB-lish*
 **Русский:** издавать, публиковать, опубликовать
 **Forms:** *publish* &middot; *published* &middot; *published*
+**Verb class:** regular
 **Third person:** *publishes* &middot; **-ing form:** *publishing*
 **Transitivity:** both
 
@@ -1284,6 +1362,7 @@ To produce a book, article, or post and make it available to the public.
 **Pronunciation:** /beɪk/ &middot; *BAYK*
 **Русский:** печь, запекать, испечь; обжигать
 **Forms:** *bake* &middot; *baked* &middot; *baked*
+**Verb class:** regular
 **Third person:** *bakes* &middot; **-ing form:** *baking*
 **Transitivity:** both
 
@@ -1300,6 +1379,7 @@ To cook or harden something with dry heat in an oven.
 **Pronunciation:** /bruː/ &middot; *BROO*
 **Русский:** варить (пиво), заваривать, сварить
 **Forms:** *brew* &middot; *brewed* &middot; *brewed*
+**Verb class:** regular
 **Third person:** *brews* &middot; **-ing form:** *brewing*
 **Transitivity:** both
 
@@ -1316,6 +1396,7 @@ To make beer, or to make coffee or tea with hot water.
 **Pronunciation:** /mɪks/ &middot; *MIKS*
 **Русский:** смешивать, смешать; замешивать
 **Forms:** *mix* &middot; *mixed* &middot; *mixed*
+**Verb class:** regular
 **Third person:** *mixes* &middot; **-ing form:** *mixing*
 **Transitivity:** both
 **Contrast:** A verb ending in *-x* takes *-es*: *mixes*.
@@ -1333,6 +1414,7 @@ To put substances together so that they become one.
 **Pronunciation:** /stɜːr/ &middot; *STUR*
 **Русский:** размешивать, помешивать, размешать
 **Forms:** *stir* &middot; *stirred* &middot; *stirred*
+**Verb class:** regular
 **Third person:** *stirs* &middot; **-ing form:** *stirring*
 **Transitivity:** both
 **Contrast:** The *r* doubles: *stir → stirred, stirring*.
@@ -1350,6 +1432,7 @@ To move a liquid or mixture around with a stick or spoon.
 **Pronunciation:** /niːd/ &middot; *NEED*
 **Русский:** месить, замешивать, вымесить
 **Forms:** *knead* &middot; *kneaded* &middot; *kneaded*
+**Verb class:** regular
 **Third person:** *kneads* &middot; **-ing form:** *kneading*
 **Transitivity:** transitive
 **Contrast:** The *k* is silent, so *knead* sounds exactly like *need*.
@@ -1367,6 +1450,7 @@ To press and fold dough or clay with your hands.
 **Pronunciation:** /ˈpækɪdʒ/ &middot; *PAK-ij*
 **Русский:** упаковывать, фасовать, упаковать
 **Forms:** *package* &middot; *packaged* &middot; *packaged*
+**Verb class:** regular
 **Third person:** *packages* &middot; **-ing form:** *packaging*
 **Transitivity:** transitive
 
@@ -1383,6 +1467,7 @@ To put a product into a box or wrapper for sale or shipping.
 **Pronunciation:** /ˈleɪbəl/ &middot; *LAY-buhl*
 **Русский:** маркировать, подписывать, наклеивать этикетку
 **Forms:** *label* &middot; *labeled* &middot; *labeled*
+**Verb class:** regular
 **Third person:** *labels* &middot; **-ing form:** *labeling*
 **Transitivity:** transitive
 **Contrast:** American keeps one *l*: *labeled, labeling*; British writes *labelled*.
@@ -1400,6 +1485,7 @@ To put a name or a mark on something so it can be identified.
 **Pronunciation:** /ˈproʊɡræm/ &middot; *PROH-gram*
 **Русский:** программировать, запрограммировать; настраивать
 **Forms:** *program* &middot; *programmed* &middot; *programmed*
+**Verb class:** regular
 **Third person:** *programs* &middot; **-ing form:** *programming*
 **Transitivity:** both
 **Contrast:** Americans write the base form *program*, but still double the *m*: *programmed, programming*.
@@ -1417,6 +1503,7 @@ To give a machine or a computer a set of instructions.
 **Pronunciation:** /koʊd/ &middot; *KOHD*
 **Русский:** программировать, писать код, написать код
 **Forms:** *code* &middot; *coded* &middot; *coded*
+**Verb class:** regular
 **Third person:** *codes* &middot; **-ing form:** *coding*
 **Transitivity:** both
 
@@ -1433,6 +1520,7 @@ To write the instructions that make a program work.
 **Pronunciation:** /mɑːrk/ &middot; *MARK*
 **Русский:** отмечать, размечать, разметить
 **Forms:** *mark* &middot; *marked* &middot; *marked*
+**Verb class:** regular
 **Third person:** *marks* &middot; **-ing form:** *marking*
 **Transitivity:** transitive
 
@@ -1449,6 +1537,7 @@ To draw a line or sign on something to show where to cut or drill.
 **Pronunciation:** /əˈlaɪn/ &middot; *uh-LYN*
 **Русский:** выравнивать, совмещать, выровнять
 **Forms:** *align* &middot; *aligned* &middot; *aligned*
+**Verb class:** regular
 **Third person:** *aligns* &middot; **-ing form:** *aligning*
 **Transitivity:** both
 **Contrast:** The *g* is silent: uh-LYN.
@@ -1466,6 +1555,7 @@ To put two or more things in a straight line, or in the right position.
 **Pronunciation:** /ˈlɛvəl/ &middot; *LEV-uhl*
 **Русский:** выравнивать, нивелировать, выровнять
 **Forms:** *level* &middot; *leveled* &middot; *leveled*
+**Verb class:** regular
 **Third person:** *levels* &middot; **-ing form:** *leveling*
 **Transitivity:** transitive
 **Contrast:** American keeps one *l*: *leveled, leveling*; British writes *levelled*.
@@ -1483,6 +1573,7 @@ To make a surface flat and horizontal.
 **Pronunciation:** /pəˈzɪʃən/ &middot; *puh-ZISH-uhn*
 **Русский:** располагать, размещать, разместить
 **Forms:** *position* &middot; *positioned* &middot; *positioned*
+**Verb class:** regular
 **Third person:** *positions* &middot; **-ing form:** *positioning*
 **Transitivity:** transitive
 
@@ -1499,6 +1590,7 @@ To put something in a particular place on purpose.
 **Pronunciation:** /stæk/ &middot; *STAK*
 **Русский:** складывать в стопку, штабелировать, сложить
 **Forms:** *stack* &middot; *stacked* &middot; *stacked*
+**Verb class:** regular
 **Third person:** *stacks* &middot; **-ing form:** *stacking*
 **Transitivity:** both
 
@@ -1515,6 +1607,7 @@ To put things one on top of another.
 **Pronunciation:** /ɪˈkwɪp/ &middot; *ih-KWIP*
 **Русский:** оснащать, оборудовать, оснастить
 **Forms:** *equip* &middot; *equipped* &middot; *equipped*
+**Verb class:** regular
 **Third person:** *equips* &middot; **-ing form:** *equipping*
 **Transitivity:** transitive
 **Contrast:** The *p* doubles: *equip → equipped, equipping*.
@@ -1532,6 +1625,7 @@ To supply a place or a person with the tools needed for a job.
 **Pronunciation:** /ˈfɜːrnɪʃ/ &middot; *FUR-nish*
 **Русский:** обставлять мебелью, меблировать, обставить
 **Forms:** *furnish* &middot; *furnished* &middot; *furnished*
+**Verb class:** regular
 **Third person:** *furnishes* &middot; **-ing form:** *furnishing*
 **Transitivity:** transitive
 
@@ -1548,6 +1642,7 @@ To put furniture into a room or a house.
 **Pronunciation:** /ˈdɛkəreɪt/ &middot; *DEK-uh-rayt*
 **Русский:** украшать, оформлять, украсить
 **Forms:** *decorate* &middot; *decorated* &middot; *decorated*
+**Verb class:** regular
 **Third person:** *decorates* &middot; **-ing form:** *decorating*
 **Transitivity:** both
 
@@ -1564,6 +1659,7 @@ To make something look better by adding color or ornament.
 **Pronunciation:** /daɪ/ &middot; *DY*
 **Русский:** красить, окрашивать (ткань), покрасить
 **Forms:** *dye* &middot; *dyed* &middot; *dyed*
+**Verb class:** regular
 **Third person:** *dyes* &middot; **-ing form:** *dyeing*
 **Transitivity:** transitive
 **Contrast:** *Dyeing* keeps the *e*; *dying*, from *die*, does not.
@@ -1581,6 +1677,7 @@ To change the color of cloth, hair, or leather with a colored liquid.
 **Pronunciation:** /ˈkɑːpi/ &middot; *KAH-pee*
 **Русский:** копировать, скопировать; переписывать
 **Forms:** *copy* &middot; *copied* &middot; *copied*
+**Verb class:** regular
 **Third person:** *copies* &middot; **-ing form:** *copying*
 **Transitivity:** transitive
 **Contrast:** A consonant before *-y* changes it: *copies, copied*, but *copying* keeps the *y*.
@@ -1598,6 +1695,7 @@ To make something exactly like an original.
 **Pronunciation:** /ˈkʌstəmaɪz/ &middot; *KUS-tuh-myz*
 **Русский:** настраивать под заказ, дорабатывать, доработать
 **Forms:** *customize* &middot; *customized* &middot; *customized*
+**Verb class:** regular
 **Third person:** *customizes* &middot; **-ing form:** *customizing*
 **Transitivity:** transitive
 **Contrast:** American spells it *-ize*; the British often write *customise*.
@@ -1615,6 +1713,7 @@ To change something so that it suits one particular person or use.
 **Pronunciation:** /ˈteɪlər/ &middot; *TAY-lur*
 **Русский:** подгонять, приспосабливать, адаптировать
 **Forms:** *tailor* &middot; *tailored* &middot; *tailored*
+**Verb class:** regular
 **Third person:** *tailors* &middot; **-ing form:** *tailoring*
 **Transitivity:** transitive
 **Contrast:** You tailor something **to** a person or a need.
@@ -1632,6 +1731,7 @@ To make or change something so that it fits an exact need.
 **Pronunciation:** /rɪˈfaɪn/ &middot; *rih-FYN*
 **Русский:** дорабатывать, совершенствовать, доработать
 **Forms:** *refine* &middot; *refined* &middot; *refined*
+**Verb class:** regular
 **Third person:** *refines* &middot; **-ing form:** *refining*
 **Transitivity:** transitive
 
@@ -1648,6 +1748,7 @@ To improve something by making small careful changes.
 **Pronunciation:** /kəmˈpoʊz/ &middot; *kuhm-POHZ*
 **Русский:** сочинять, составлять, сочинить
 **Forms:** *compose* &middot; *composed* &middot; *composed*
+**Verb class:** regular
 **Third person:** *composes* &middot; **-ing form:** *composing*
 **Transitivity:** both
 
@@ -1664,6 +1765,7 @@ To make a whole by putting parts together, especially music or writing.
 **Pronunciation:** /ˈhɑːrdən/ &middot; *HAR-duhn*
 **Русский:** затвердевать, твердеть; закалять, закалить
 **Forms:** *harden* &middot; *hardened* &middot; *hardened*
+**Verb class:** regular
 **Third person:** *hardens* &middot; **-ing form:** *hardening*
 **Transitivity:** both — transitive (harden the steel), intransitive (the glue hardened overnight)
 
@@ -1680,6 +1782,7 @@ To become hard, or to make something hard.
 **Pronunciation:** /ˈstrɛŋθən/ &middot; *STRENG-thuhn*
 **Русский:** укреплять, усиливать, укрепить
 **Forms:** *strengthen* &middot; *strengthened* &middot; *strengthened*
+**Verb class:** regular
 **Third person:** *strengthens* &middot; **-ing form:** *strengthening*
 **Transitivity:** both
 
@@ -1696,6 +1799,7 @@ To make something stronger, or to become stronger.
 **Pronunciation:** /ˈwaɪdən/ &middot; *WY-duhn*
 **Русский:** расширять, расширить
 **Forms:** *widen* &middot; *widened* &middot; *widened*
+**Verb class:** regular
 **Third person:** *widens* &middot; **-ing form:** *widening*
 **Transitivity:** both
 
@@ -1712,6 +1816,7 @@ To make something wider, or to become wider.
 **Pronunciation:** /ˈʃɔːrtən/ &middot; *SHOR-tuhn*
 **Русский:** укорачивать, укоротить, сократить
 **Forms:** *shorten* &middot; *shortened* &middot; *shortened*
+**Verb class:** regular
 **Third person:** *shortens* &middot; **-ing form:** *shortening*
 **Transitivity:** both
 

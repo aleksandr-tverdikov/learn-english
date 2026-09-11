@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /wɑːtʃ/ &middot; *WAHCH*
 **Русский:** смотреть, наблюдать; посмотреть
 **Forms:** *watch* &middot; *watched* &middot; *watched*
+**Verb class:** regular
 **Third person:** *watches* &middot; **-ing form:** *watching*
 **Transitivity:** both — transitive (watch a movie), intransitive (just stand and watch)
 **Contrast:** Ends in -ch, so the third person takes -es: watches, never watchs.
@@ -31,6 +32,7 @@ To look at something for a period of time, following what happens.
 **Pronunciation:** /vjuː/ &middot; *VYOO*
 **Русский:** смотреть, рассматривать; просматривать
 **Forms:** *view* &middot; *viewed* &middot; *viewed*
+**Verb class:** regular
 **Third person:** *views* &middot; **-ing form:** *viewing*
 **Transitivity:** transitive
 
@@ -47,6 +49,7 @@ To look at something, especially deliberately or from a particular place.
 **Pronunciation:** /ɡlæns/ &middot; *GLANS*
 **Русский:** взглянуть, бросить взгляд
 **Forms:** *glance* &middot; *glanced* &middot; *glanced*
+**Verb class:** regular
 **Third person:** *glances* &middot; **-ing form:** *glancing*
 **Transitivity:** intransitive
 **Contrast:** Almost always needs a preposition: glance at the menu, glance over a letter — not glance the menu.
@@ -64,6 +67,7 @@ To look at something very quickly and then look away.
 **Pronunciation:** /ɡeɪz/ &middot; *GAYZ*
 **Русский:** пристально смотреть, вглядываться
 **Forms:** *gaze* &middot; *gazed* &middot; *gazed*
+**Verb class:** regular
 **Third person:** *gazes* &middot; **-ing form:** *gazing*
 **Transitivity:** intransitive
 **Contrast:** Needs a preposition: gaze at, gaze into, gaze out of.
@@ -81,6 +85,7 @@ To look steadily at something for a long time, often without thinking.
 **Pronunciation:** /pɪr/ &middot; *PEER*
 **Русский:** вглядываться, всматриваться
 **Forms:** *peer* &middot; *peered* &middot; *peered*
+**Verb class:** regular
 **Third person:** *peers* &middot; **-ing form:** *peering*
 **Transitivity:** intransitive
 **Contrast:** Takes at, into or through. The noun peer (ровесник, коллега) is spelled the same but has nothing to do with looking.
@@ -98,6 +103,7 @@ To look hard at something that is difficult to see.
 **Pronunciation:** /piːk/ &middot; *PEEK*
 **Русский:** подглядывать, заглянуть украдкой
 **Forms:** *peek* &middot; *peeked* &middot; *peeked*
+**Verb class:** regular
 **Third person:** *peeks* &middot; **-ing form:** *peeking*
 **Transitivity:** intransitive
 **Contrast:** Peek sounds exactly like peak (вершина) and pique (задеть). Only peek has to do with looking.
@@ -115,6 +121,7 @@ To look at something quickly and secretly, often when you should not.
 **Pronunciation:** /ɡlɪmps/ &middot; *GLIMPS*
 **Русский:** мельком увидеть, заметить на мгновение
 **Forms:** *glimpse* &middot; *glimpsed* &middot; *glimpsed*
+**Verb class:** regular
 **Third person:** *glimpses* &middot; **-ing form:** *glimpsing*
 **Transitivity:** transitive
 **Contrast:** The verb takes the object directly (glimpse the ship), but the noun needs of: catch a glimpse of the ship.
@@ -132,6 +139,7 @@ To see something for a very short moment and not clearly.
 **Pronunciation:** /ˈwɪtnəs/ &middot; *WIT-nuhs*
 **Русский:** быть свидетелем, видеть своими глазами
 **Forms:** *witness* &middot; *witnessed* &middot; *witnessed*
+**Verb class:** regular
 **Third person:** *witnesses* &middot; **-ing form:** *witnessing*
 **Transitivity:** transitive
 
@@ -148,6 +156,7 @@ To see something happen, especially a crime or an important event.
 **Pronunciation:** /ɪnˈspɛkt/ &middot; *in-SPEKT*
 **Русский:** осматривать, проверять; инспектировать
 **Forms:** *inspect* &middot; *inspected* &middot; *inspected*
+**Verb class:** regular
 **Third person:** *inspects* &middot; **-ing form:** *inspecting*
 **Transitivity:** transitive
 
@@ -164,6 +173,7 @@ To look at something carefully to check that it is correct or safe.
 **Pronunciation:** /skæn/ &middot; *SKAN*
 **Русский:** бегло просматривать; сканировать
 **Forms:** *scan* &middot; *scanned* &middot; *scanned*
+**Verb class:** regular
 **Third person:** *scans* &middot; **-ing form:** *scanning*
 **Transitivity:** transitive
 **Contrast:** One short vowel plus one final consonant, so the n doubles: scanned, scanning.
@@ -181,6 +191,7 @@ To look over something quickly, usually to find one particular thing.
 **Pronunciation:** /sərˈveɪ/ &middot; *sur-VAY*
 **Русский:** обозревать, осматривать; проводить опрос
 **Forms:** *survey* &middot; *surveyed* &middot; *surveyed*
+**Verb class:** regular
 **Third person:** *surveys* &middot; **-ing form:** *surveying*
 **Transitivity:** transitive
 **Contrast:** The verb is stressed on the second syllable (sur-VAY); the noun on the first (SUR-vay). Vowel plus y keeps the y: surveys, surveyed.
@@ -198,6 +209,7 @@ To look over the whole of something in order to judge it.
 **Pronunciation:** /ˈskruːtənaɪz/ &middot; *SKROO-tuh-nyz*
 **Русский:** тщательно изучать, пристально рассматривать
 **Forms:** *scrutinize* &middot; *scrutinized* &middot; *scrutinized*
+**Verb class:** regular
 **Third person:** *scrutinizes* &middot; **-ing form:** *scrutinizing*
 **Transitivity:** transitive
 **Contrast:** American spelling is -ize; British writing uses scrutinise.
@@ -215,6 +227,7 @@ To examine something very closely and critically.
 **Pronunciation:** /ɡlɛr/ &middot; *GLAIR*
 **Русский:** сердито смотреть, свирепо глядеть
 **Forms:** *glare* &middot; *glared* &middot; *glared*
+**Verb class:** regular
 **Third person:** *glares* &middot; **-ing form:** *glaring*
 **Transitivity:** intransitive
 **Contrast:** The angry sense takes at: glare at someone. The same verb also means to shine painfully: the sun glared off the snow.
@@ -232,6 +245,7 @@ To look at someone in a long angry way.
 **Pronunciation:** /skwɪnt/ &middot; *SKWINT*
 **Русский:** щуриться, прищуриться
 **Forms:** *squint* &middot; *squinted* &middot; *squinted*
+**Verb class:** regular
 **Third person:** *squints* &middot; **-ing form:** *squinting*
 **Transitivity:** intransitive
 
@@ -248,6 +262,7 @@ To look with your eyes partly closed because of bright light or poor sight.
 **Pronunciation:** /blɪŋk/ &middot; *BLINGK*
 **Русский:** моргать, мигать; моргнуть
 **Forms:** *blink* &middot; *blinked* &middot; *blinked*
+**Verb class:** regular
 **Third person:** *blinks* &middot; **-ing form:** *blinking*
 **Transitivity:** both — transitive (blink your eyes), intransitive (the light blinked)
 
@@ -264,6 +279,7 @@ To shut and open your eyes quickly, or of a light, to flash on and off.
 **Pronunciation:** /wɪŋk/ &middot; *WINGK*
 **Русский:** подмигивать, подмигнуть
 **Forms:** *wink* &middot; *winked* &middot; *winked*
+**Verb class:** regular
 **Third person:** *winks* &middot; **-ing form:** *winking*
 **Transitivity:** intransitive
 **Contrast:** The person you signal takes at: wink at me, not wink me.
@@ -281,6 +297,7 @@ To close and open one eye quickly as a friendly or secret signal.
 **Pronunciation:** /aɪ/ &middot; *EYE*
 **Русский:** разглядывать, присматриваться к
 **Forms:** *eye* &middot; *eyed* &middot; *eyed*
+**Verb class:** regular
 **Third person:** *eyes* &middot; **-ing form:** *eyeing*
 **Transitivity:** transitive
 **Contrast:** The -ing form keeps the e: eyeing. (Eying is possible but eyeing is the normal American spelling.)
@@ -298,6 +315,7 @@ To look at someone or something with obvious interest or suspicion.
 **Pronunciation:** /braʊz/ &middot; *BROWZ*
 **Русский:** просматривать, разглядывать без цели
 **Forms:** *browse* &middot; *browsed* &middot; *browsed*
+**Verb class:** regular
 **Third person:** *browses* &middot; **-ing form:** *browsing*
 **Transitivity:** both — transitive (browse the catalog), intransitive (we are just browsing)
 
@@ -314,6 +332,7 @@ To look through things casually, without looking for anything in particular.
 **Pronunciation:** /skɪm/ &middot; *SKIM*
 **Русский:** бегло просматривать, пробегать глазами
 **Forms:** *skim* &middot; *skimmed* &middot; *skimmed*
+**Verb class:** regular
 **Third person:** *skims* &middot; **-ing form:** *skimming*
 **Transitivity:** both — transitive (skim the article), intransitive (skim through a report)
 **Contrast:** The final m doubles: skimmed, skimming.
@@ -331,6 +350,7 @@ To read something quickly to get the main idea.
 **Pronunciation:** /ˈmɑːnɪtər/ &middot; *MAH-nuh-tur*
 **Русский:** следить за, контролировать, отслеживать
 **Forms:** *monitor* &middot; *monitored* &middot; *monitored*
+**Verb class:** regular
 **Third person:** *monitors* &middot; **-ing form:** *monitoring*
 **Transitivity:** transitive
 **Contrast:** Stress falls on the first syllable, so the r does not double: monitored, monitoring.
@@ -348,6 +368,7 @@ To watch something over time to see how it changes.
 **Pronunciation:** /spaɪ/ &middot; *SPY*
 **Русский:** следить тайком, шпионить; заметить
 **Forms:** *spy* &middot; *spied* &middot; *spied*
+**Verb class:** regular
 **Third person:** *spies* &middot; **-ing form:** *spying*
 **Transitivity:** both — transitive (spy a familiar face), intransitive (spy on the neighbors)
 **Contrast:** Consonant plus y turns to i: spies, spied; the -ing form keeps the y: spying. Secret watching takes on: spy on someone.
@@ -365,6 +386,7 @@ To watch someone secretly, or to catch sight of something suddenly.
 **Pronunciation:** /dɪˈsɜːrn/ &middot; *dih-SURN*
 **Русский:** различать, распознавать; разглядеть
 **Forms:** *discern* &middot; *discerned* &middot; *discerned*
+**Verb class:** regular
 **Third person:** *discerns* &middot; **-ing form:** *discerning*
 **Transitivity:** transitive
 
@@ -381,6 +403,7 @@ To make out something that is faint or not obvious.
 **Pronunciation:** /ˈloʊkeɪt/ &middot; *LOH-kayt*
 **Русский:** находить, определять местонахождение
 **Forms:** *locate* &middot; *located* &middot; *located*
+**Verb class:** regular
 **Third person:** *locates* &middot; **-ing form:** *locating*
 **Transitivity:** transitive
 
@@ -397,6 +420,7 @@ To find exactly where something or someone is.
 **Pronunciation:** /treɪs/ &middot; *TRAYS*
 **Русский:** прослеживать, проследить; выследить
 **Forms:** *trace* &middot; *traced* &middot; *traced*
+**Verb class:** regular
 **Third person:** *traces* &middot; **-ing form:** *tracing*
 **Transitivity:** transitive
 
@@ -413,6 +437,7 @@ To follow signs or clues back to the source of something.
 **Pronunciation:** /saɪt/ &middot; *SYT*
 **Русский:** увидеть, заметить (издалека)
 **Forms:** *sight* &middot; *sighted* &middot; *sighted*
+**Verb class:** regular
 **Third person:** *sights* &middot; **-ing form:** *sighting*
 **Transitivity:** transitive
 **Contrast:** Sight sounds exactly like site (место) and cite (цитировать). Only sight has to do with seeing.
@@ -430,6 +455,7 @@ To see something that was being searched for or watched for, usually at a distan
 **Pronunciation:** /ˈrɛdʒɪstər/ &middot; *REJ-uh-stur*
 **Русский:** осознавать, доходить до сознания; фиксировать
 **Forms:** *register* &middot; *registered* &middot; *registered*
+**Verb class:** regular
 **Third person:** *registers* &middot; **-ing form:** *registering*
 **Transitivity:** both — transitive (her face registered surprise), intransitive (the name did not register)
 **Contrast:** Stress is on the first syllable, so the r does not double: registered, registering.
@@ -447,6 +473,7 @@ To notice something consciously, or for a feeling to show on someone's face.
 **Pronunciation:** /əˈpɪr/ &middot; *uh-PEER*
 **Русский:** появляться, появиться; казаться
 **Forms:** *appear* &middot; *appeared* &middot; *appeared*
+**Verb class:** regular
 **Third person:** *appears* &middot; **-ing form:** *appearing*
 **Transitivity:** intransitive
 **Contrast:** In the meaning to seem, it is followed by an adjective or by to be: she appears tired, it appears to be broken.
@@ -464,6 +491,7 @@ To come into sight, or to look a certain way to the people watching.
 **Pronunciation:** /siːm/ &middot; *SEEM*
 **Русский:** казаться, показаться
 **Forms:** *seem* &middot; *seemed* &middot; *seemed*
+**Verb class:** regular
 **Third person:** *seems* &middot; **-ing form:** *seeming*
 **Transitivity:** intransitive
 **Contrast:** Sounds exactly like seam (шов). Seem is not used in the -ing form: say it seems fine, not it is seeming fine.
@@ -481,6 +509,7 @@ To give the impression of being something.
 **Pronunciation:** /dɪˈspleɪ/ &middot; *dih-SPLAY*
 **Русский:** показывать, выставлять напоказ; отображать
 **Forms:** *display* &middot; *displayed* &middot; *displayed*
+**Verb class:** regular
 **Third person:** *displays* &middot; **-ing form:** *displaying*
 **Transitivity:** transitive
 **Contrast:** Vowel plus y keeps the y: displays, displayed — not displaid.
@@ -498,6 +527,7 @@ To put something where people can see it.
 **Pronunciation:** /ɪkˈspoʊz/ &middot; *ik-SPOHZ*
 **Русский:** подвергать воздействию; обнажать, разоблачать
 **Forms:** *expose* &middot; *exposed* &middot; *exposed*
+**Verb class:** regular
 **Third person:** *exposes* &middot; **-ing form:** *exposing*
 **Transitivity:** transitive
 **Contrast:** What someone is brought into contact with takes to: exposed to sunlight, exposed to the language.
@@ -515,6 +545,7 @@ To uncover something, or to let something be reached by light, air or another in
 **Pronunciation:** /kənˈsiːl/ &middot; *kuhn-SEEL*
 **Русский:** скрывать, утаивать; спрятать
 **Forms:** *conceal* &middot; *concealed* &middot; *concealed*
+**Verb class:** regular
 **Third person:** *conceals* &middot; **-ing form:** *concealing*
 **Transitivity:** transitive
 
@@ -531,6 +562,7 @@ To keep something from being seen or known.
 **Pronunciation:** /ʌnˈkʌvər/ &middot; *un-KUH-vur*
 **Русский:** раскрывать, обнаруживать; открывать
 **Forms:** *uncover* &middot; *uncovered* &middot; *uncovered*
+**Verb class:** regular
 **Third person:** *uncovers* &middot; **-ing form:** *uncovering*
 **Transitivity:** transitive
 
@@ -547,6 +579,7 @@ To remove a cover, or to find out something that was hidden.
 **Pronunciation:** /blɜːr/ &middot; *BLUR*
 **Русский:** размывать, затуманивать; расплываться
 **Forms:** *blur* &middot; *blurred* &middot; *blurred*
+**Verb class:** regular
 **Third person:** *blurs* &middot; **-ing form:** *blurring*
 **Transitivity:** both — transitive (tears blur your vision), intransitive (the edges blurred)
 **Contrast:** One short vowel plus one final consonant, so the r doubles: blurred, blurring.
@@ -564,6 +597,7 @@ To make something unclear to see, or to become unclear.
 **Pronunciation:** /ˈmæɡnɪfaɪ/ &middot; *MAG-nuh-fy*
 **Русский:** увеличивать (оптически), усиливать
 **Forms:** *magnify* &middot; *magnified* &middot; *magnified*
+**Verb class:** regular
 **Third person:** *magnifies* &middot; **-ing form:** *magnifying*
 **Transitivity:** transitive
 
@@ -580,6 +614,7 @@ To make something look or sound bigger than it really is.
 **Pronunciation:** /flæʃ/ &middot; *FLASH*
 **Русский:** вспыхивать, мелькать; посветить
 **Forms:** *flash* &middot; *flashed* &middot; *flashed*
+**Verb class:** regular
 **Third person:** *flashes* &middot; **-ing form:** *flashing*
 **Transitivity:** both — transitive (flash a light at someone), intransitive (the sign flashed)
 
@@ -596,6 +631,7 @@ To shine suddenly and briefly, or to make a light do that.
 **Pronunciation:** /ˈflɪkər/ &middot; *FLIK-ur*
 **Русский:** мерцать, мигать
 **Forms:** *flicker* &middot; *flickered* &middot; *flickered*
+**Verb class:** regular
 **Third person:** *flickers* &middot; **-ing form:** *flickering*
 **Transitivity:** intransitive
 
@@ -612,6 +648,7 @@ To shine with an unsteady light that keeps going weak and strong.
 **Pronunciation:** /ɡliːm/ &middot; *GLEEM*
 **Русский:** блестеть, поблёскивать
 **Forms:** *gleam* &middot; *gleamed* &middot; *gleamed*
+**Verb class:** regular
 **Third person:** *gleams* &middot; **-ing form:** *gleaming*
 **Transitivity:** intransitive
 
@@ -628,6 +665,7 @@ To shine softly, usually because a surface is clean or smooth.
 **Pronunciation:** /ɡloʊ/ &middot; *GLOH*
 **Русский:** светиться, тлеть; сиять
 **Forms:** *glow* &middot; *glowed* &middot; *glowed*
+**Verb class:** regular
 **Third person:** *glows* &middot; **-ing form:** *glowing*
 **Transitivity:** intransitive
 
@@ -644,6 +682,7 @@ To give off a steady, soft light without a flame.
 **Pronunciation:** /ˈspɑːrkəl/ &middot; *SPAR-kuhl*
 **Русский:** сверкать, искриться
 **Forms:** *sparkle* &middot; *sparkled* &middot; *sparkled*
+**Verb class:** regular
 **Third person:** *sparkles* &middot; **-ing form:** *sparkling*
 **Transitivity:** intransitive
 
@@ -660,6 +699,7 @@ To shine with many small quick points of light.
 **Pronunciation:** /ˈɡlɪtər/ &middot; *GLIT-ur*
 **Русский:** блестеть, сверкать
 **Forms:** *glitter* &middot; *glittered* &middot; *glittered*
+**Verb class:** regular
 **Third person:** *glitters* &middot; **-ing form:** *glittering*
 **Transitivity:** intransitive
 
@@ -676,6 +716,7 @@ To shine with a hard, bright, broken light.
 **Pronunciation:** /ˈdæzəl/ &middot; *DAZ-uhl*
 **Русский:** ослеплять ярким светом; поражать
 **Forms:** *dazzle* &middot; *dazzled* &middot; *dazzled*
+**Verb class:** regular
 **Third person:** *dazzles* &middot; **-ing form:** *dazzling*
 **Transitivity:** transitive
 
@@ -692,6 +733,7 @@ To make someone unable to see because of too much light, or to impress them grea
 **Pronunciation:** /ɪˈluːmɪneɪt/ &middot; *ih-LOO-muh-nayt*
 **Русский:** освещать, осветить
 **Forms:** *illuminate* &middot; *illuminated* &middot; *illuminated*
+**Verb class:** regular
 **Third person:** *illuminates* &middot; **-ing form:** *illuminating*
 **Transitivity:** transitive
 **Contrast:** Double l, single m: illuminate, not iluminate.
@@ -709,6 +751,7 @@ To light something up so it can be seen.
 **Pronunciation:** /blaɪnd/ &middot; *BLYND*
 **Русский:** ослеплять, ослепить
 **Forms:** *blind* &middot; *blinded* &middot; *blinded*
+**Verb class:** regular
 **Third person:** *blinds* &middot; **-ing form:** *blinding*
 **Transitivity:** transitive
 
@@ -725,6 +768,7 @@ To take away someone's sight, usually for a moment.
 **Pronunciation:** /saʊnd/ &middot; *SOWND*
 **Русский:** звучать, казаться на слух; подавать сигнал
 **Forms:** *sound* &middot; *sounded* &middot; *sounded*
+**Verb class:** regular
 **Third person:** *sounds* &middot; **-ing form:** *sounding*
 **Transitivity:** both — intransitive (it sounds good), transitive (sound the alarm)
 **Contrast:** An adjective follows directly: it sounds good. Before a noun use like: it sounds like a train.
@@ -742,6 +786,7 @@ To give a particular impression when heard.
 **Pronunciation:** /ˈɛkoʊ/ &middot; *EK-oh*
 **Русский:** отдаваться эхом; вторить, повторять
 **Forms:** *echo* &middot; *echoed* &middot; *echoed*
+**Verb class:** regular
 **Third person:** *echoes* &middot; **-ing form:** *echoing*
 **Transitivity:** both — intransitive (the hall echoes), transitive (he echoed her words)
 **Contrast:** Ends in -o, so the third person adds -es: echoes, not echos.
@@ -759,6 +804,7 @@ For a sound to come back off a surface and be heard again.
 **Pronunciation:** /ˈiːvzdrɑːp/ &middot; *EEVZ-drahp*
 **Русский:** подслушивать, подслушать
 **Forms:** *eavesdrop* &middot; *eavesdropped* &middot; *eavesdropped*
+**Verb class:** regular
 **Third person:** *eavesdrops* &middot; **-ing form:** *eavesdropping*
 **Transitivity:** intransitive
 **Contrast:** The final p doubles: eavesdropped, eavesdropping. It takes on: eavesdrop on a conversation.
@@ -776,6 +822,7 @@ To listen secretly to a conversation that is not meant for you.
 **Pronunciation:** /bʌz/ &middot; *BUZ*
 **Русский:** жужжать, гудеть; вибрировать
 **Forms:** *buzz* &middot; *buzzed* &middot; *buzzed*
+**Verb class:** regular
 **Third person:** *buzzes* &middot; **-ing form:** *buzzing*
 **Transitivity:** intransitive
 
@@ -792,6 +839,7 @@ To make a low continuous humming sound like an insect.
 **Pronunciation:** /hʌm/ &middot; *HUM*
 **Русский:** гудеть, жужжать; напевать без слов
 **Forms:** *hum* &middot; *hummed* &middot; *hummed*
+**Verb class:** regular
 **Third person:** *hums* &middot; **-ing form:** *humming*
 **Transitivity:** both — transitive (hum a tune), intransitive (the fridge hums)
 **Contrast:** The final m doubles: hummed, humming.
@@ -809,6 +857,7 @@ To make a low steady sound, or to sing with your lips closed.
 **Pronunciation:** /tʃaɪm/ &middot; *CHYM*
 **Русский:** звонить, вызванивать (о колоколах, часах)
 **Forms:** *chime* &middot; *chimed* &middot; *chimed*
+**Verb class:** regular
 **Third person:** *chimes* &middot; **-ing form:** *chiming*
 **Transitivity:** both — intransitive (the clock chimed), transitive (chime the hour)
 
@@ -825,6 +874,7 @@ To make the clear ringing sound of a bell.
 **Pronunciation:** /kriːk/ &middot; *KREEK*
 **Русский:** скрипеть, поскрипывать
 **Forms:** *creak* &middot; *creaked* &middot; *creaked*
+**Verb class:** regular
 **Third person:** *creaks* &middot; **-ing form:** *creaking*
 **Transitivity:** intransitive
 **Contrast:** Creak sounds exactly like creek (ручей), but only creak is a sound.
@@ -842,6 +892,7 @@ To make a long harsh sound, the way old wood or hinges do.
 **Pronunciation:** /skwiːk/ &middot; *SKWEEK*
 **Русский:** пищать, скрипеть (тонко)
 **Forms:** *squeak* &middot; *squeaked* &middot; *squeaked*
+**Verb class:** regular
 **Third person:** *squeaks* &middot; **-ing form:** *squeaking*
 **Transitivity:** intransitive
 
@@ -858,6 +909,7 @@ To make a short high sound, like a mouse or a dry hinge.
 **Pronunciation:** /ˈrætəl/ &middot; *RAT-uhl*
 **Русский:** греметь, дребезжать
 **Forms:** *rattle* &middot; *rattled* &middot; *rattled*
+**Verb class:** regular
 **Third person:** *rattles* &middot; **-ing form:** *rattling*
 **Transitivity:** both — intransitive (the window rattles), transitive (rattle the keys)
 
@@ -874,6 +926,7 @@ To make a series of short hard knocking sounds.
 **Pronunciation:** /ˈrʌsəl/ &middot; *RUH-suhl*
 **Русский:** шелестеть, шуршать
 **Forms:** *rustle* &middot; *rustled* &middot; *rustled*
+**Verb class:** regular
 **Third person:** *rustles* &middot; **-ing form:** *rustling*
 **Transitivity:** both — intransitive (leaves rustle), transitive (rustle the papers)
 **Contrast:** The t is silent: RUH-suhl, like castle and whistle.
@@ -891,6 +944,7 @@ To make the soft dry sound of leaves or paper moving.
 **Pronunciation:** /krʌntʃ/ &middot; *KRUNCH*
 **Русский:** хрустеть, скрипеть (под ногами)
 **Forms:** *crunch* &middot; *crunched* &middot; *crunched*
+**Verb class:** regular
 **Third person:** *crunches* &middot; **-ing form:** *crunching*
 **Transitivity:** both — intransitive (the gravel crunched), transitive (crunch an apple)
 
@@ -907,6 +961,7 @@ To make a loud breaking sound when something hard is crushed or chewed.
 **Pronunciation:** /ˈsɪzəl/ &middot; *SIZ-uhl*
 **Русский:** шипеть (на сковороде)
 **Forms:** *sizzle* &middot; *sizzled* &middot; *sizzled*
+**Verb class:** regular
 **Third person:** *sizzles* &middot; **-ing form:** *sizzling*
 **Transitivity:** intransitive
 
@@ -923,6 +978,7 @@ To make the hissing sound of food cooking in hot fat.
 **Pronunciation:** /biːp/ &middot; *BEEP*
 **Русский:** пищать, гудеть (о сигнале)
 **Forms:** *beep* &middot; *beeped* &middot; *beeped*
+**Verb class:** regular
 **Third person:** *beeps* &middot; **-ing form:** *beeping*
 **Transitivity:** both — intransitive (the timer beeped), transitive (beep the horn)
 
@@ -939,6 +995,7 @@ To make a short high electronic sound.
 **Pronunciation:** /rɔːr/ &middot; *ROR*
 **Русский:** реветь, рычать; грохотать
 **Forms:** *roar* &middot; *roared* &middot; *roared*
+**Verb class:** regular
 **Third person:** *roars* &middot; **-ing form:** *roaring*
 **Transitivity:** intransitive
 
@@ -955,6 +1012,7 @@ To make a very loud deep continuous sound.
 **Pronunciation:** /ˈwɪsəl/ &middot; *WIS-uhl*
 **Русский:** свистеть, насвистывать
 **Forms:** *whistle* &middot; *whistled* &middot; *whistled*
+**Verb class:** regular
 **Third person:** *whistles* &middot; **-ing form:** *whistling*
 **Transitivity:** both — intransitive (he whistled), transitive (whistle a tune)
 **Contrast:** The t is silent: WIS-uhl.
@@ -972,6 +1030,7 @@ To make a high clear sound by blowing air through your lips or a small opening.
 **Pronunciation:** /hɪs/ &middot; *HIS*
 **Русский:** шипеть
 **Forms:** *hiss* &middot; *hissed* &middot; *hissed*
+**Verb class:** regular
 **Third person:** *hisses* &middot; **-ing form:** *hissing*
 **Transitivity:** intransitive
 
@@ -988,6 +1047,7 @@ To make a long s sound, like a snake or escaping steam.
 **Pronunciation:** /ˈdɛfən/ &middot; *DEF-uhn*
 **Русский:** оглушать, оглушить
 **Forms:** *deafen* &middot; *deafened* &middot; *deafened*
+**Verb class:** regular
 **Third person:** *deafens* &middot; **-ing form:** *deafening*
 **Transitivity:** transitive
 **Contrast:** The ea in deaf and deafen is /ɛ/ as in bed, not the /iː/ of leaf.
@@ -1005,6 +1065,7 @@ To make someone unable to hear, usually for a short time.
 **Pronunciation:** /ˈmʌfəl/ &middot; *MUH-fuhl*
 **Русский:** приглушать (звук), заглушать
 **Forms:** *muffle* &middot; *muffled* &middot; *muffled*
+**Verb class:** regular
 **Third person:** *muffles* &middot; **-ing form:** *muffling*
 **Transitivity:** transitive
 
@@ -1021,6 +1082,7 @@ To make a sound quieter or less clear by covering it.
 **Pronunciation:** /ˈæmplɪfaɪ/ &middot; *AM-pluh-fy*
 **Русский:** усиливать (звук, сигнал)
 **Forms:** *amplify* &middot; *amplified* &middot; *amplified*
+**Verb class:** regular
 **Third person:** *amplifies* &middot; **-ing form:** *amplifying*
 **Transitivity:** transitive
 
@@ -1037,6 +1099,7 @@ To make a sound or signal louder or stronger.
 **Pronunciation:** /hʌʃ/ &middot; *HUSH*
 **Русский:** унимать, успокаивать; утихать
 **Forms:** *hush* &middot; *hushed* &middot; *hushed*
+**Verb class:** regular
 **Third person:** *hushes* &middot; **-ing form:** *hushing*
 **Transitivity:** both — transitive (hush the baby), intransitive (the room hushed)
 
@@ -1053,6 +1116,7 @@ To become quiet, or to make someone be quiet.
 **Pronunciation:** /ˈrɛzəneɪt/ &middot; *REZ-uh-nayt*
 **Русский:** резонировать, отзываться; находить отклик
 **Forms:** *resonate* &middot; *resonated* &middot; *resonated*
+**Verb class:** regular
 **Third person:** *resonates* &middot; **-ing form:** *resonating*
 **Transitivity:** intransitive
 **Contrast:** In the figurative sense it takes with: the story resonated with readers.
@@ -1070,6 +1134,7 @@ For a sound to go on ringing, or for an idea to strike people as true.
 **Pronunciation:** /ˈvaɪbreɪt/ &middot; *VY-brayt*
 **Русский:** вибрировать, дрожать
 **Forms:** *vibrate* &middot; *vibrated* &middot; *vibrated*
+**Verb class:** regular
 **Third person:** *vibrates* &middot; **-ing form:** *vibrating*
 **Transitivity:** both — intransitive (my phone vibrated), transitive (the motor vibrates the plate)
 
@@ -1086,6 +1151,7 @@ To shake with very small fast movements that you can feel or hear.
 **Pronunciation:** /snɪf/ &middot; *SNIF*
 **Русский:** нюхать, принюхиваться; шмыгать носом
 **Forms:** *sniff* &middot; *sniffed* &middot; *sniffed*
+**Verb class:** regular
 **Third person:** *sniffs* &middot; **-ing form:** *sniffing*
 **Transitivity:** both — transitive (sniff the milk), intransitive (the dog sniffed at my shoe)
 
@@ -1102,6 +1168,7 @@ To breathe in through the nose in order to smell something.
 **Pronunciation:** /ɪnˈheɪl/ &middot; *in-HAYL*
 **Русский:** вдыхать, вдохнуть
 **Forms:** *inhale* &middot; *inhaled* &middot; *inhaled*
+**Verb class:** regular
 **Third person:** *inhales* &middot; **-ing form:** *inhaling*
 **Transitivity:** both — transitive (inhale the smoke), intransitive (inhale slowly)
 
@@ -1118,6 +1185,7 @@ To breathe air, smoke or a smell into your lungs.
 **Pronunciation:** /riːk/ &middot; *REEK*
 **Русский:** вонять, разить
 **Forms:** *reek* &middot; *reeked* &middot; *reeked*
+**Verb class:** regular
 **Third person:** *reeks* &middot; **-ing form:** *reeking*
 **Transitivity:** intransitive
 **Contrast:** The source of the smell takes of: it reeks of gas, not it reeks gas.
@@ -1135,6 +1203,7 @@ To smell very strongly and unpleasantly.
 **Pronunciation:** /sɛnt/ &middot; *SENT*
 **Русский:** чуять, учуять; надушить
 **Forms:** *scent* &middot; *scented* &middot; *scented*
+**Verb class:** regular
 **Third person:** *scents* &middot; **-ing form:** *scenting*
 **Transitivity:** transitive
 **Contrast:** The c is silent, so scent sounds exactly like sent and cent.
@@ -1152,6 +1221,7 @@ To notice something by its smell, or to give something a pleasant smell.
 **Pronunciation:** /teɪst/ &middot; *TAYST*
 **Русский:** пробовать на вкус; иметь вкус
 **Forms:** *taste* &middot; *tasted* &middot; *tasted*
+**Verb class:** regular
 **Third person:** *tastes* &middot; **-ing form:** *tasting*
 **Transitivity:** both — intransitive (it tastes sweet), transitive (taste the soup)
 **Contrast:** An adjective follows directly: it tastes sweet. Before a noun use like: it tastes like lemon.
@@ -1169,6 +1239,7 @@ To notice the flavor of food or drink, or to have a particular flavor.
 **Pronunciation:** /ˈseɪvər/ &middot; *SAY-vur*
 **Русский:** смаковать, наслаждаться вкусом
 **Forms:** *savor* &middot; *savored* &middot; *savored*
+**Verb class:** regular
 **Third person:** *savors* &middot; **-ing form:** *savoring*
 **Transitivity:** transitive
 **Contrast:** American spelling is savor; British writing uses savour.
@@ -1186,6 +1257,7 @@ To enjoy a taste or an experience slowly and fully.
 **Pronunciation:** /ˈsæmpəl/ &middot; *SAM-puhl*
 **Русский:** пробовать, дегустировать
 **Forms:** *sample* &middot; *sampled* &middot; *sampled*
+**Verb class:** regular
 **Third person:** *samples* &middot; **-ing form:** *sampling*
 **Transitivity:** transitive
 
@@ -1202,6 +1274,7 @@ To try a small amount of something in order to judge it.
 **Pronunciation:** /lɪk/ &middot; *LIK*
 **Русский:** лизать, облизывать; лизнуть
 **Forms:** *lick* &middot; *licked* &middot; *licked*
+**Verb class:** regular
 **Third person:** *licks* &middot; **-ing form:** *licking*
 **Transitivity:** transitive
 
@@ -1218,6 +1291,7 @@ To move your tongue over something.
 **Pronunciation:** /ˈnɪbəl/ &middot; *NIB-uhl*
 **Русский:** покусывать, грызть понемногу
 **Forms:** *nibble* &middot; *nibbled* &middot; *nibbled*
+**Verb class:** regular
 **Third person:** *nibbles* &middot; **-ing form:** *nibbling*
 **Transitivity:** both — transitive (nibble a cracker), intransitive (nibble on a carrot)
 **Contrast:** Eating slowly takes on or at: nibble on a cookie, nibble at her lunch.
@@ -1235,6 +1309,7 @@ To eat something in small bites.
 **Pronunciation:** /sɪp/ &middot; *SIP*
 **Русский:** потягивать, пить маленькими глотками
 **Forms:** *sip* &middot; *sipped* &middot; *sipped*
+**Verb class:** regular
 **Third person:** *sips* &middot; **-ing form:** *sipping*
 **Transitivity:** both — transitive (sip her tea), intransitive (sip at a glass)
 **Contrast:** The final p doubles: sipped, sipping.
@@ -1252,6 +1327,7 @@ To drink something slowly in very small amounts.
 **Pronunciation:** /ˈfleɪvər/ &middot; *FLAY-vur*
 **Русский:** придавать вкус, приправлять
 **Forms:** *flavor* &middot; *flavored* &middot; *flavored*
+**Verb class:** regular
 **Third person:** *flavors* &middot; **-ing form:** *flavoring*
 **Transitivity:** transitive
 **Contrast:** American spelling is flavor; British writing uses flavour.
@@ -1269,6 +1345,7 @@ To give food or drink a particular taste.
 **Pronunciation:** /ˈsiːzən/ &middot; *SEE-zuhn*
 **Русский:** приправлять, солить и перчить
 **Forms:** *season* &middot; *seasoned* &middot; *seasoned*
+**Verb class:** regular
 **Third person:** *seasons* &middot; **-ing form:** *seasoning*
 **Transitivity:** transitive
 
@@ -1285,6 +1362,7 @@ To add salt, pepper or spices to food to improve its taste.
 **Pronunciation:** /prɛs/ &middot; *PRES*
 **Русский:** нажимать, прижимать; надавить
 **Forms:** *press* &middot; *pressed* &middot; *pressed*
+**Verb class:** regular
 **Third person:** *presses* &middot; **-ing form:** *pressing*
 **Transitivity:** both — transitive (press the button), intransitive (press against the door)
 
@@ -1301,6 +1379,7 @@ To push steadily on something with your hand or body.
 **Pronunciation:** /rʌb/ &middot; *RUB*
 **Русский:** тереть, потирать; натирать
 **Forms:** *rub* &middot; *rubbed* &middot; *rubbed*
+**Verb class:** regular
 **Third person:** *rubs* &middot; **-ing form:** *rubbing*
 **Transitivity:** both — transitive (rub your eyes), intransitive (the shoe rubs)
 **Contrast:** The final b doubles: rubbed, rubbing.
@@ -1318,6 +1397,7 @@ To move your hand or a cloth back and forth over a surface with pressure.
 **Pronunciation:** /brʌʃ/ &middot; *BRUSH*
 **Русский:** слегка касаться, задевать; чистить щёткой
 **Forms:** *brush* &middot; *brushed* &middot; *brushed*
+**Verb class:** regular
 **Third person:** *brushes* &middot; **-ing form:** *brushing*
 **Transitivity:** both — transitive (brush your coat), intransitive (brush against the wall)
 **Contrast:** A light accidental touch takes against: his coat brushed against mine.
@@ -1335,6 +1415,7 @@ To touch something lightly in passing.
 **Pronunciation:** /stroʊk/ &middot; *STROHK*
 **Русский:** гладить, погладить
 **Forms:** *stroke* &middot; *stroked* &middot; *stroked*
+**Verb class:** regular
 **Third person:** *strokes* &middot; **-ing form:** *stroking*
 **Transitivity:** transitive
 
@@ -1351,6 +1432,7 @@ To move your hand gently and repeatedly over a surface.
 **Pronunciation:** /pæt/ &middot; *PAT*
 **Русский:** похлопывать, погладить рукой
 **Forms:** *pat* &middot; *patted* &middot; *patted*
+**Verb class:** regular
 **Third person:** *pats* &middot; **-ing form:** *patting*
 **Transitivity:** transitive
 **Contrast:** The final t doubles: patted, patting.
@@ -1368,6 +1450,7 @@ To touch something lightly several times with a flat hand.
 **Pronunciation:** /tæp/ &middot; *TAP*
 **Русский:** постукивать, легко ударять; стукнуть
 **Forms:** *tap* &middot; *tapped* &middot; *tapped*
+**Verb class:** regular
 **Third person:** *taps* &middot; **-ing form:** *tapping*
 **Transitivity:** both — transitive (tap the screen), intransitive (tap on the glass)
 **Contrast:** The final p doubles: tapped, tapping. To touch a person it takes on: tap him on the arm.
@@ -1385,6 +1468,7 @@ To hit something quickly and lightly, usually more than once.
 **Pronunciation:** /poʊk/ &middot; *POHK*
 **Русский:** тыкать, ткнуть; тыкнуть пальцем
 **Forms:** *poke* &middot; *poked* &middot; *poked*
+**Verb class:** regular
 **Third person:** *pokes* &middot; **-ing form:** *poking*
 **Transitivity:** both — transitive (poke the cake), intransitive (poke at the fire)
 
@@ -1401,6 +1485,7 @@ To push a finger or a pointed object quickly into something.
 **Pronunciation:** /nʌdʒ/ &middot; *NUJ*
 **Русский:** подталкивать локтем, слегка толкать
 **Forms:** *nudge* &middot; *nudged* &middot; *nudged*
+**Verb class:** regular
 **Third person:** *nudges* &middot; **-ing form:** *nudging*
 **Transitivity:** transitive
 
@@ -1417,6 +1502,7 @@ To push someone or something gently, often to get attention.
 **Pronunciation:** /pɪntʃ/ &middot; *PINCH*
 **Русский:** щипать, ущипнуть; жать (об обуви)
 **Forms:** *pinch* &middot; *pinched* &middot; *pinched*
+**Verb class:** regular
 **Third person:** *pinches* &middot; **-ing form:** *pinching*
 **Transitivity:** both — transitive (pinch my arm), intransitive (these shoes pinch)
 
@@ -1433,6 +1519,7 @@ To squeeze something tightly between a finger and a thumb, or between two hard s
 **Pronunciation:** /skwiːz/ &middot; *SKWEEZ*
 **Русский:** сжимать, стискивать; выжимать
 **Forms:** *squeeze* &middot; *squeezed* &middot; *squeezed*
+**Verb class:** regular
 **Third person:** *squeezes* &middot; **-ing form:** *squeezing*
 **Transitivity:** both — transitive (squeeze the lemon), intransitive (squeeze through a gap)
 
@@ -1449,6 +1536,7 @@ To press something firmly from two sides.
 **Pronunciation:** /ɡrɪp/ &middot; *GRIP*
 **Русский:** крепко держать, сжимать; вцепиться
 **Forms:** *grip* &middot; *gripped* &middot; *gripped*
+**Verb class:** regular
 **Third person:** *grips* &middot; **-ing form:** *gripping*
 **Transitivity:** transitive
 **Contrast:** The final p doubles: gripped, gripping.
@@ -1466,6 +1554,7 @@ To hold something tightly so it cannot slip.
 **Pronunciation:** /klʌtʃ/ &middot; *KLUCH*
 **Русский:** сжимать, прижимать к себе; вцепиться
 **Forms:** *clutch* &middot; *clutched* &middot; *clutched*
+**Verb class:** regular
 **Third person:** *clutches* &middot; **-ing form:** *clutching*
 **Transitivity:** both — transitive (clutch a bag), intransitive (clutch at a branch)
 **Contrast:** A desperate grab takes at: clutch at the rail.
@@ -1483,6 +1572,7 @@ To hold something very tightly, often out of fear or need.
 **Pronunciation:** /ˈhændəl/ &middot; *HAN-duhl*
 **Русский:** трогать руками, брать в руки; обращаться с
 **Forms:** *handle* &middot; *handled* &middot; *handled*
+**Verb class:** regular
 **Third person:** *handles* &middot; **-ing form:** *handling*
 **Transitivity:** transitive
 
@@ -1499,6 +1589,7 @@ To touch or hold something with your hands.
 **Pronunciation:** /ˈtɪkəl/ &middot; *TIK-uhl*
 **Русский:** щекотать; першить
 **Forms:** *tickle* &middot; *tickled* &middot; *tickled*
+**Verb class:** regular
 **Third person:** *tickles* &middot; **-ing form:** *tickling*
 **Transitivity:** both — transitive (tickle the baby), intransitive (this sweater tickles)
 
@@ -1515,6 +1606,7 @@ To touch someone lightly so that they laugh or twitch, or to cause a light itchy
 **Pronunciation:** /ɪtʃ/ &middot; *ICH*
 **Русский:** чесаться, зудеть
 **Forms:** *itch* &middot; *itched* &middot; *itched*
+**Verb class:** regular
 **Third person:** *itches* &middot; **-ing form:** *itching*
 **Transitivity:** both — intransitive (my arm itches), transitive (the wool itches me)
 
@@ -1531,6 +1623,7 @@ To feel an uncomfortable sensation on the skin that makes you want to scratch.
 **Pronunciation:** /skrætʃ/ &middot; *SKRACH*
 **Русский:** чесать, почесать; царапать
 **Forms:** *scratch* &middot; *scratched* &middot; *scratched*
+**Verb class:** regular
 **Third person:** *scratches* &middot; **-ing form:** *scratching*
 **Transitivity:** both — transitive (scratch your arm), intransitive (the dog scratched at the door)
 
@@ -1547,6 +1640,7 @@ To rub the skin with your nails, or to make a thin mark on a surface.
 **Pronunciation:** /ɡreɪz/ &middot; *GRAYZ*
 **Русский:** слегка задеть, оцарапать
 **Forms:** *graze* &middot; *grazed* &middot; *grazed*
+**Verb class:** regular
 **Third person:** *grazes* &middot; **-ing form:** *grazing*
 **Transitivity:** transitive
 **Contrast:** The same verb also means to eat grass: cows graze in the field.
@@ -1564,6 +1658,7 @@ To touch or scrape a surface lightly while passing it.
 **Pronunciation:** /ˈfʌmbəl/ &middot; *FUM-buhl*
 **Русский:** нащупывать, неловко шарить
 **Forms:** *fumble* &middot; *fumbled* &middot; *fumbled*
+**Verb class:** regular
 **Third person:** *fumbles* &middot; **-ing form:** *fumbling*
 **Transitivity:** both — intransitive (fumble for the switch), transitive (he fumbled the ball)
 **Contrast:** Searching by touch takes for or with: fumble for the switch, fumble with a zipper.
@@ -1581,6 +1676,7 @@ To feel around for something clumsily, usually because you cannot see.
 **Pronunciation:** /ˈtɪŋɡəl/ &middot; *TING-guhl*
 **Русский:** покалывать, пощипывать (о коже)
 **Forms:** *tingle* &middot; *tingled* &middot; *tingled*
+**Verb class:** regular
 **Third person:** *tingles* &middot; **-ing form:** *tingling*
 **Transitivity:** intransitive
 
@@ -1597,6 +1693,7 @@ To feel a light prickling sensation on the skin.
 **Pronunciation:** /eɪk/ &middot; *AYK*
 **Русский:** болеть, ныть
 **Forms:** *ache* &middot; *ached* &middot; *ached*
+**Verb class:** regular
 **Third person:** *aches* &middot; **-ing form:** *aching*
 **Transitivity:** intransitive
 **Contrast:** The ch is pronounced /k/: AYK, not like church.
@@ -1614,6 +1711,7 @@ To feel a steady dull pain.
 **Pronunciation:** /nʌm/ &middot; *NUM*
 **Русский:** лишать чувствительности, обезболивать
 **Forms:** *numb* &middot; *numbed* &middot; *numbed*
+**Verb class:** regular
 **Third person:** *numbs* &middot; **-ing form:** *numbing*
 **Transitivity:** transitive
 **Contrast:** The b is silent: NUM.
@@ -1631,6 +1729,7 @@ To take away feeling from a part of the body.
 **Pronunciation:** /proʊb/ &middot; *PROHB*
 **Русский:** зондировать, прощупывать; расследовать
 **Forms:** *probe* &middot; *probed* &middot; *probed*
+**Verb class:** regular
 **Third person:** *probes* &middot; **-ing form:** *probing*
 **Transitivity:** both — transitive (probe the wound), intransitive (probe into his past)
 

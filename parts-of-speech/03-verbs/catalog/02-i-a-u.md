@@ -13,6 +13,7 @@ Ten verbs here climb the same vowel staircase: the base has /ɪ/, the past opens
 **Pronunciation:** /bɪˈɡɪn/ &middot; *bih-GIN*
 **Русский:** начинать
 **Forms:** *begin* /bɪˈɡɪn/ &middot; *began* /bɪˈɡæn/ &middot; *begun* /bɪˈɡʌn/
+**Verb class:** irregular
 **Register:** everyday — one of the first verbs a learner meets and an American never stops using
 **Pattern:** i — a — u &middot; **Group:** 2
 **Third person:** *begins* &middot; **-ing form:** *beginning* (the n doubles)
@@ -63,6 +64,7 @@ To start doing something, or to start happening — the neutral everyday word fo
 **Pronunciation:** /ˈkaʊntərsɪŋk/ &middot; *KOWN-tur-sink*
 **Русский:** тех. зенковать
 **Forms:** *countersink* /ˈkaʊntərsɪŋk/ &middot; *countersank* /ˈkaʊntərsæŋk/ &middot; *countersunk* /ˈkaʊntərsʌŋk/
+**Verb class:** irregular
 **Register:** rare — shop and machining vocabulary; most people know only the adjective *countersunk*
 **Pattern:** i — a — u &middot; **Group:** 2
 **Third person:** *countersinks* &middot; **-ing form:** *countersinking* (no spelling change)
@@ -92,6 +94,7 @@ To widen the mouth of a drilled hole, or to seat a fastener in it, so that the h
 **Pronunciation:** /drɪŋk/ &middot; *DRINK*
 **Русский:** пить
 **Forms:** *drink* /drɪŋk/ &middot; *drank* /dræŋk/ &middot; *drunk* /drʌŋk/
+**Verb class:** irregular
 **Register:** everyday — as ordinary as *eat*, from the kitchen table to the wedding toast
 **Pattern:** i — a — u &middot; **Group:** 2
 **Third person:** *drinks* &middot; **-ing form:** *drinking* (no spelling change)
@@ -140,6 +143,7 @@ To take liquid into the mouth and swallow it — and, with no object, to consume
 **Pronunciation:** /rɪŋ/ &middot; *RING*
 **Русский:** звенеть; звучать; звонить
 **Forms:** *ring* /rɪŋ/ &middot; *rang* /ræŋ/ &middot; *rung* /rʌŋ/
+**Verb class:** irregular
 **Register:** everyday — bells, phones, and alarms ring all day in ordinary American speech
 **Pattern:** i — a — u &middot; **Group:** 2
 **Third person:** *rings* &middot; **-ing form:** *ringing* (no spelling change)
@@ -198,6 +202,7 @@ To make, or to cause, a clear bell-like sound — and by extension to resound, t
 **Pronunciation:** /ʃrɪŋk/ &middot; *SHRINK*
 **Русский:** сокращаться; сжиматься; съёживаться
 **Forms:** *shrink* /ʃrɪŋk/ &middot; *shrank* /ʃræŋk/ &middot; *shrunk* /ʃrʌŋk/
+**Verb class:** irregular
 **Register:** everyday — sweaters, budgets, and economies all shrink; heard constantly
 **Pattern:** i — a — u &middot; **Group:** 2
 **Third person:** *shrinks* &middot; **-ing form:** *shrinking* (no spelling change)
@@ -242,6 +247,7 @@ To get smaller — in size, in quantity, or in nerve — or to make something sm
 **Pronunciation:** /sɪŋ/ &middot; *SING*
 **Русский:** петь
 **Forms:** *sing* /sɪŋ/ &middot; *sang* /sæŋ/ &middot; *sung* /sʌŋ/
+**Verb class:** irregular
 **Register:** everyday — the plain word for what a voice, a bird, or a kettle does
 **Pattern:** i — a — u &middot; **Group:** 2
 **Third person:** *sings* &middot; **-ing form:** *singing* (no spelling change)
@@ -289,6 +295,7 @@ To produce musical sounds with the voice — and figuratively to make any clear 
 **Pronunciation:** /sɪŋk/ &middot; *SINK*
 **Русский:** погружаться; тонуть; опускаться
 **Forms:** *sink* /sɪŋk/ &middot; *sank* /sæŋk/ &middot; *sunk* /sʌŋk/
+**Verb class:** irregular
 **Register:** everyday — boats, hearts, and free throws; used without a second thought
 **Pattern:** i — a — u &middot; **Group:** 2
 **Third person:** *sinks* &middot; **-ing form:** *sinking* (no spelling change)
@@ -357,6 +364,7 @@ To go down — beneath water, to a lower level, or into a worse state — and, t
 **Pronunciation:** /sprɪŋ/ &middot; *SPRING*
 **Русский:** вскочить; возникнуть
 **Forms:** *spring* /sprɪŋ/ &middot; *sprang* /spræŋ/ &middot; *sprung* /sprʌŋ/
+**Verb class:** irregular
 **Register:** everyday — *spring up*, *spring a leak*, and *sprang to his feet* are all ordinary speech
 **Pattern:** i — a — u &middot; **Group:** 2
 **Third person:** *springs* &middot; **-ing form:** *springing* (no spelling change)
@@ -415,6 +423,7 @@ To move suddenly and elastically — to leap, to snap, to burst into being — a
 **Pronunciation:** /stɪŋk/ &middot; *STINK*
 **Русский:** вонять, смердеть
 **Forms:** *stink* /stɪŋk/ &middot; *stank* /stæŋk/ &middot; *stunk* /stʌŋk/
+**Verb class:** irregular
 **Register:** everyday — blunt and casual, but *that stinks* is constant American speech
 **Pattern:** i — a — u &middot; **Group:** 2
 **Third person:** *stinks* &middot; **-ing form:** *stinking* (no spelling change)
@@ -455,6 +464,7 @@ To smell very bad — and, informally, to be very bad indeed.
 **Pronunciation:** /swɪm/ &middot; *SWIM*
 **Русский:** плавать
 **Forms:** *swim* /swɪm/ &middot; *swam* /swæm/ &middot; *swum* /swʌm/
+**Verb class:** irregular
 **Register:** everyday — the ordinary word for moving through water
 **Pattern:** i — a — u &middot; **Group:** 2
 **Third person:** *swims* &middot; **-ing form:** *swimming* (the m doubles)

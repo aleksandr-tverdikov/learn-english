@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /trænsˈfɔːrm/ &middot; *trans-FORM*
 **Русский:** преобразовывать, преобразовать; превращать
 **Forms:** *transform* &middot; *transformed* &middot; *transformed*
+**Verb class:** regular
 **Third person:** *transforms* &middot; **-ing form:** *transforming*
 **Transitivity:** both — transitive (transform a room), intransitive (the neighborhood transformed)
 **Contrast:** *Transform* something **into** something else.
@@ -31,6 +32,7 @@ To change something completely, usually for the better.
 **Pronunciation:** /twiːk/ &middot; *TWEEK*
 **Русский:** слегка изменять, подправлять, подкрутить
 **Forms:** *tweak* &middot; *tweaked* &middot; *tweaked*
+**Verb class:** regular
 **Third person:** *tweaks* &middot; **-ing form:** *tweaking*
 **Transitivity:** transitive
 
@@ -47,6 +49,7 @@ To make a small change to something in order to improve it.
 **Pronunciation:** /trænˈzɪʃən/ &middot; *tran-ZISH-uhn*
 **Русский:** переходить, перейти (к новому состоянию)
 **Forms:** *transition* &middot; *transitioned* &middot; *transitioned*
+**Verb class:** regular
 **Third person:** *transitions* &middot; **-ing form:** *transitioning*
 **Transitivity:** both — transitive (transition the team to new software), intransitive (he transitioned to a new career)
 **Contrast:** *Transition* takes **to** or **into**: *transition to remote work*.
@@ -64,6 +67,7 @@ To move or change from one state, system, or job to another.
 **Pronunciation:** /ɪˈvɑːlv/ &middot; *ih-VAHLV*
 **Русский:** развиваться, эволюционировать, постепенно меняться
 **Forms:** *evolve* &middot; *evolved* &middot; *evolved*
+**Verb class:** regular
 **Third person:** *evolves* &middot; **-ing form:** *evolving*
 **Transitivity:** intransitive
 **Contrast:** *Evolve* **into** something new.
@@ -81,6 +85,7 @@ To develop gradually into a different or more advanced form.
 **Pronunciation:** /riːˈʃeɪp/ &middot; *ree-SHAYP*
 **Русский:** менять форму, преобразовывать, перестраивать
 **Forms:** *reshape* &middot; *reshaped* &middot; *reshaped*
+**Verb class:** regular
 **Third person:** *reshapes* &middot; **-ing form:** *reshaping*
 **Transitivity:** transitive
 
@@ -97,6 +102,7 @@ To change the form or structure of something significantly.
 **Pronunciation:** /ˈmɑːdərnaɪz/ &middot; *MAH-dur-nyze*
 **Русский:** модернизировать, обновлять, осовременивать
 **Forms:** *modernize* &middot; *modernized* &middot; *modernized*
+**Verb class:** regular
 **Third person:** *modernizes* &middot; **-ing form:** *modernizing*
 **Transitivity:** both — transitive (modernize a kitchen), intransitive (the industry has modernized)
 **Contrast:** American spelling is *modernize*; British writing often has *modernise*.
@@ -114,6 +120,7 @@ To make something more modern by adding new methods or equipment.
 **Pronunciation:** /riːˈvæmp/ &middot; *ree-VAMP*
 **Русский:** обновлять, переделывать, модернизировать
 **Forms:** *revamp* &middot; *revamped* &middot; *revamped*
+**Verb class:** regular
 **Third person:** *revamps* &middot; **-ing form:** *revamping*
 **Transitivity:** transitive
 
@@ -130,6 +137,7 @@ To change and improve the form or appearance of something.
 **Pronunciation:** /ˌoʊvərˈhɔːl/ &middot; *oh-vur-HAWL*
 **Русский:** капитально перестраивать, реформировать; капитально ремонтировать
 **Forms:** *overhaul* &middot; *overhauled* &middot; *overhauled*
+**Verb class:** regular
 **Third person:** *overhauls* &middot; **-ing form:** *overhauling*
 **Transitivity:** transitive
 **Contrast:** Verb: oh-vur-HAWL. The noun (a complete repair) is OH-vur-hawl.
@@ -147,6 +155,7 @@ To change or repair something thoroughly, from top to bottom.
 **Pronunciation:** /riːˈstrʌktʃər/ &middot; *ree-STRUK-chur*
 **Русский:** реструктурировать, перестраивать
 **Forms:** *restructure* &middot; *restructured* &middot; *restructured*
+**Verb class:** regular
 **Third person:** *restructures* &middot; **-ing form:** *restructuring*
 **Transitivity:** transitive
 
@@ -163,6 +172,7 @@ To organize something in a new way, especially a company or a debt.
 **Pronunciation:** /riˈɔːrɡənaɪz/ &middot; *ree-OR-guh-nyze*
 **Русский:** реорганизовывать, перестраивать, переустраивать
 **Forms:** *reorganize* &middot; *reorganized* &middot; *reorganized*
+**Verb class:** regular
 **Third person:** *reorganizes* &middot; **-ing form:** *reorganizing*
 **Transitivity:** both — transitive (reorganize the files), intransitive (the company reorganized)
 
@@ -179,6 +189,7 @@ To arrange something in a new and usually better way.
 **Pronunciation:** /ɪnˈlɑːrdʒ/ &middot; *in-LARJ*
 **Русский:** увеличивать, увеличить (в размере)
 **Forms:** *enlarge* &middot; *enlarged* &middot; *enlarged*
+**Verb class:** regular
 **Third person:** *enlarges* &middot; **-ing form:** *enlarging*
 **Transitivity:** transitive
 
@@ -195,6 +206,7 @@ To make something bigger in size.
 **Pronunciation:** /buːst/ &middot; *BOOST*
 **Русский:** повышать, увеличивать, поднимать
 **Forms:** *boost* &middot; *boosted* &middot; *boosted*
+**Verb class:** regular
 **Third person:** *boosts* &middot; **-ing form:** *boosting*
 **Transitivity:** transitive
 
@@ -211,6 +223,7 @@ To increase or improve something, often quickly.
 **Pronunciation:** /ˈtrɪpəl/ &middot; *TRIP-uhl*
 **Русский:** утраивать, утроить; утраиваться
 **Forms:** *triple* &middot; *tripled* &middot; *tripled*
+**Verb class:** regular
 **Third person:** *triples* &middot; **-ing form:** *tripling*
 **Transitivity:** both — transitive (triple the order), intransitive (costs tripled)
 
@@ -227,6 +240,7 @@ To become three times as much, or to make something three times as much.
 **Pronunciation:** /ɪnˈtɛnsɪfaɪ/ &middot; *in-TEN-suh-fy*
 **Русский:** усиливать, усилить; усиливаться
 **Forms:** *intensify* &middot; *intensified* &middot; *intensified*
+**Verb class:** regular
 **Third person:** *intensifies* &middot; **-ing form:** *intensifying*
 **Transitivity:** both — transitive (intensify the search), intransitive (the storm intensified)
 **Contrast:** -y becomes -ie-: *intensifies*, *intensified*; *intensifying* keeps the y.
@@ -244,6 +258,7 @@ To become stronger or more extreme, or to make something so.
 **Pronunciation:** /ˈdiːpən/ &middot; *DEE-puhn*
 **Русский:** углублять, углубить; углубляться, усиливаться
 **Forms:** *deepen* &middot; *deepened* &middot; *deepened*
+**Verb class:** regular
 **Third person:** *deepens* &middot; **-ing form:** *deepening*
 **Transitivity:** both — transitive (deepen the channel), intransitive (the crisis deepened)
 
@@ -260,6 +275,7 @@ To become deeper or stronger, or to make something so.
 **Pronunciation:** /ˈbrɔːdən/ &middot; *BRAW-duhn*
 **Русский:** расширять (кругозор, охват); расширяться
 **Forms:** *broaden* &middot; *broadened* &middot; *broadened*
+**Verb class:** regular
 **Third person:** *broadens* &middot; **-ing form:** *broadening*
 **Transitivity:** both — transitive (broaden the program), intransitive (his tastes broadened)
 
@@ -276,6 +292,7 @@ To increase the range of something, or to become wider in range.
 **Pronunciation:** /ˈhaɪtən/ &middot; *HY-tuhn*
 **Русский:** усиливать, обострять; усиливаться
 **Forms:** *heighten* &middot; *heightened* &middot; *heightened*
+**Verb class:** regular
 **Third person:** *heightens* &middot; **-ing form:** *heightening*
 **Transitivity:** both — transitive (heighten the tension), intransitive (tension heightened)
 **Contrast:** The *gh* is silent: HY-tuhn.
@@ -293,6 +310,7 @@ To make a feeling or an effect stronger, or to become stronger.
 **Pronunciation:** /sɜːrdʒ/ &middot; *SURJ*
 **Русский:** резко расти, подскакивать; хлынуть
 **Forms:** *surge* &middot; *surged* &middot; *surged*
+**Verb class:** regular
 **Third person:** *surges* &middot; **-ing form:** *surging*
 **Transitivity:** intransitive
 
@@ -309,6 +327,7 @@ To increase suddenly and strongly.
 **Pronunciation:** /ˈɛlɪveɪt/ &middot; *EL-uh-vayt*
 **Русский:** поднимать, повышать (уровень, статус)
 **Forms:** *elevate* &middot; *elevated* &middot; *elevated*
+**Verb class:** regular
 **Third person:** *elevates* &middot; **-ing form:** *elevating*
 **Transitivity:** transitive
 
@@ -325,6 +344,7 @@ To raise something to a higher level, position, or quality.
 **Pronunciation:** /dɪˈkriːs/ &middot; *dih-KREES*
 **Русский:** уменьшать; уменьшаться, снижаться
 **Forms:** *decrease* &middot; *decreased* &middot; *decreased*
+**Verb class:** regular
 **Third person:** *decreases* &middot; **-ing form:** *decreasing*
 **Transitivity:** both — transitive (decrease the dose), intransitive (sales decreased)
 **Contrast:** Verb: dih-KREES. Noun: DEE-krees.
@@ -342,6 +362,7 @@ To become less in number or amount, or to make something less.
 **Pronunciation:** /dɪˈmɪnɪʃ/ &middot; *dih-MIN-ish*
 **Русский:** уменьшать, умалять; уменьшаться, ослабевать
 **Forms:** *diminish* &middot; *diminished* &middot; *diminished*
+**Verb class:** regular
 **Third person:** *diminishes* &middot; **-ing form:** *diminishing*
 **Transitivity:** both — transitive (diminish someone's role), intransitive (the noise diminished)
 
@@ -358,6 +379,7 @@ To become smaller or less important, or to make something seem so.
 **Pronunciation:** /ˈlɛsən/ &middot; *LES-uhn*
 **Русский:** уменьшать, ослаблять; уменьшаться
 **Forms:** *lessen* &middot; *lessened* &middot; *lessened*
+**Verb class:** regular
 **Third person:** *lessens* &middot; **-ing form:** *lessening*
 **Transitivity:** both — transitive (lessen the pain), intransitive (the pain lessened)
 **Contrast:** *Lessen* (make less) sounds exactly like *lesson* (a class).
@@ -375,6 +397,7 @@ To become less, or to make something less.
 **Pronunciation:** /ˈnæroʊ/ &middot; *NA-roh*
 **Русский:** сужать, сузить; сужаться, сокращать (разрыв)
 **Forms:** *narrow* &middot; *narrowed* &middot; *narrowed*
+**Verb class:** regular
 **Third person:** *narrows* &middot; **-ing form:** *narrowing*
 **Transitivity:** both — transitive (narrow the list), intransitive (the road narrows)
 
@@ -391,6 +414,7 @@ To become less wide, or to reduce something to fewer choices.
 **Pronunciation:** /ˈdwɪndəl/ &middot; *DWIN-duhl*
 **Русский:** сокращаться, убывать, иссякать
 **Forms:** *dwindle* &middot; *dwindled* &middot; *dwindled*
+**Verb class:** regular
 **Third person:** *dwindles* &middot; **-ing form:** *dwindling*
 **Transitivity:** intransitive
 
@@ -407,6 +431,7 @@ To become gradually smaller or fewer until little is left.
 **Pronunciation:** /ˈplʌmɪt/ &middot; *PLUM-it*
 **Русский:** резко падать, обрушиться (о ценах, температуре)
 **Forms:** *plummet* &middot; *plummeted* &middot; *plummeted*
+**Verb class:** regular
 **Third person:** *plummets* &middot; **-ing form:** *plummeting*
 **Transitivity:** intransitive
 **Contrast:** The stress is on the first syllable, so the *t* does not double: *plummeted*, *plummeting*.
@@ -424,6 +449,7 @@ To fall very fast and very far.
 **Pronunciation:** /dɪˈpliːt/ &middot; *dih-PLEET*
 **Русский:** истощать, исчерпывать, израсходовать
 **Forms:** *deplete* &middot; *depleted* &middot; *depleted*
+**Verb class:** regular
 **Third person:** *depletes* &middot; **-ing form:** *depleting*
 **Transitivity:** transitive
 
@@ -440,6 +466,7 @@ To use up most of the supply of something.
 **Pronunciation:** /ɪnˈhæns/ &middot; *in-HANS*
 **Русский:** улучшать, усиливать, повышать (качество)
 **Forms:** *enhance* &middot; *enhanced* &middot; *enhanced*
+**Verb class:** regular
 **Third person:** *enhances* &middot; **-ing form:** *enhancing*
 **Transitivity:** transitive
 
@@ -456,6 +483,7 @@ To increase the quality, value, or attractiveness of something.
 **Pronunciation:** /ˈstriːmlaɪn/ &middot; *STREEM-lyn*
 **Русский:** упрощать, оптимизировать (процесс)
 **Forms:** *streamline* &middot; *streamlined* &middot; *streamlined*
+**Verb class:** regular
 **Third person:** *streamlines* &middot; **-ing form:** *streamlining*
 **Transitivity:** transitive
 
@@ -472,6 +500,7 @@ To make a process simpler and more efficient.
 **Pronunciation:** /ɪnˈrɪtʃ/ &middot; *in-RICH*
 **Русский:** обогащать, обогатить
 **Forms:** *enrich* &middot; *enriched* &middot; *enriched*
+**Verb class:** regular
 **Third person:** *enriches* &middot; **-ing form:** *enriching*
 **Transitivity:** transitive
 **Contrast:** The third person adds -es after -ch: *enriches*.
@@ -489,6 +518,7 @@ To improve the quality or value of something by adding to it.
 **Pronunciation:** /rɪˈplɛnɪʃ/ &middot; *rih-PLEN-ish*
 **Русский:** пополнять, пополнить, восполнять
 **Forms:** *replenish* &middot; *replenished* &middot; *replenished*
+**Verb class:** regular
 **Third person:** *replenishes* &middot; **-ing form:** *replenishing*
 **Transitivity:** transitive
 
@@ -505,6 +535,7 @@ To fill something up again after it has been used.
 **Pronunciation:** /ˈstæɡneɪt/ &middot; *STAG-nayt*
 **Русский:** застаиваться, стагнировать, не развиваться
 **Forms:** *stagnate* &middot; *stagnated* &middot; *stagnated*
+**Verb class:** regular
 **Third person:** *stagnates* &middot; **-ing form:** *stagnating*
 **Transitivity:** intransitive
 
@@ -521,6 +552,7 @@ To stop developing or improving.
 **Pronunciation:** /rɪˈbaʊnd/ &middot; *rih-BOWND*
 **Русский:** восстанавливаться, идти вверх после падения; отскакивать
 **Forms:** *rebound* &middot; *rebounded* &middot; *rebounded*
+**Verb class:** regular
 **Third person:** *rebounds* &middot; **-ing form:** *rebounding*
 **Transitivity:** intransitive
 **Contrast:** Verb: rih-BOWND. The noun (*on the rebound*) is REE-bownd.
@@ -538,6 +570,7 @@ To recover and rise again after a fall or a setback.
 **Pronunciation:** /prəˈɡrɛs/ &middot; *pruh-GRES*
 **Русский:** продвигаться, развиваться, прогрессировать
 **Forms:** *progress* &middot; *progressed* &middot; *progressed*
+**Verb class:** regular
 **Third person:** *progresses* &middot; **-ing form:** *progressing*
 **Transitivity:** intransitive
 **Contrast:** Verb: pruh-GRES. The noun (*make progress*) is PRAH-gres.
@@ -555,6 +588,7 @@ To move forward or develop toward a better or later stage.
 **Pronunciation:** /ɪˈmɜːrdʒ/ &middot; *ih-MURJ*
 **Русский:** появляться, возникать; выходить (наружу)
 **Forms:** *emerge* &middot; *emerged* &middot; *emerged*
+**Verb class:** regular
 **Third person:** *emerges* &middot; **-ing form:** *emerging*
 **Transitivity:** intransitive
 **Contrast:** *Emerge* **from** a place or a situation.
@@ -572,6 +606,7 @@ To come out, or to become known, after being hidden or developing slowly.
 **Pronunciation:** /əˈkɑːmədeɪt/ &middot; *uh-KAH-muh-dayt*
 **Русский:** вмещать, размещать; приспосабливать, идти навстречу
 **Forms:** *accommodate* &middot; *accommodated* &middot; *accommodated*
+**Verb class:** regular
 **Third person:** *accommodates* &middot; **-ing form:** *accommodating*
 **Transitivity:** transitive
 **Contrast:** Two c's and two m's: *accommodate*.
@@ -589,6 +624,7 @@ To provide room for someone or something, or to change your plans to fit their n
 **Pronunciation:** /ˈstændərdaɪz/ &middot; *STAN-dur-dyze*
 **Русский:** стандартизировать, приводить к единому виду
 **Forms:** *standardize* &middot; *standardized* &middot; *standardized*
+**Verb class:** regular
 **Third person:** *standardizes* &middot; **-ing form:** *standardizing*
 **Transitivity:** transitive
 
@@ -605,6 +641,7 @@ To make things follow one single standard or pattern.
 **Pronunciation:** /ˈmɑːdəreɪt/ &middot; *MAH-duh-rayt*
 **Русский:** умерять, смягчать, сдерживать; ослабевать
 **Forms:** *moderate* &middot; *moderated* &middot; *moderated*
+**Verb class:** regular
 **Third person:** *moderates* &middot; **-ing form:** *moderating*
 **Transitivity:** both — transitive (moderate your tone), intransitive (the wind moderated)
 **Contrast:** Verb: MAH-duh-rayt. The adjective (*moderate prices*) is MAH-duh-rit.
@@ -622,6 +659,7 @@ To make something less extreme, or to become less extreme.
 **Pronunciation:** /ˈkɑːmplɪkeɪt/ &middot; *KAHM-pluh-kayt*
 **Русский:** усложнять, усложнить
 **Forms:** *complicate* &middot; *complicated* &middot; *complicated*
+**Verb class:** regular
 **Third person:** *complicates* &middot; **-ing form:** *complicating*
 **Transitivity:** transitive
 
@@ -638,6 +676,7 @@ To make something more difficult or more confusing than it was.
 **Pronunciation:** /ˈflʌktʃueɪt/ &middot; *FLUK-choo-ayt*
 **Русский:** колебаться, меняться (о ценах, показателях)
 **Forms:** *fluctuate* &middot; *fluctuated* &middot; *fluctuated*
+**Verb class:** regular
 **Third person:** *fluctuates* &middot; **-ing form:** *fluctuating*
 **Transitivity:** intransitive
 
@@ -654,6 +693,7 @@ To change repeatedly up and down, or from one level to another.
 **Pronunciation:** /ˈɔːltərneɪt/ &middot; *AWL-tur-nayt*
 **Русский:** чередовать, чередоваться, сменять друг друга
 **Forms:** *alternate* &middot; *alternated* &middot; *alternated*
+**Verb class:** regular
 **Third person:** *alternates* &middot; **-ing form:** *alternating*
 **Transitivity:** both — transitive (alternate the shifts), intransitive (they alternated between two songs)
 **Contrast:** Verb: AWL-tur-nayt. The adjective (*an alternate route*) is AWL-tur-nit.
@@ -671,6 +711,7 @@ To happen or to do something in turns, one after the other.
 **Pronunciation:** /reɪndʒ/ &middot; *RAYNJ*
 **Русский:** колебаться в пределах, варьироваться (от … до …)
 **Forms:** *range* &middot; *ranged* &middot; *ranged*
+**Verb class:** regular
 **Third person:** *ranges* &middot; **-ing form:** *ranging*
 **Transitivity:** intransitive
 **Contrast:** *Range* **from** one point **to** another.
@@ -688,6 +729,7 @@ To vary between two limits.
 **Pronunciation:** /siːs/ &middot; *SEES*
 **Русский:** прекращать, прекращаться, переставать
 **Forms:** *cease* &middot; *ceased* &middot; *ceased*
+**Verb class:** regular
 **Third person:** *ceases* &middot; **-ing form:** *ceasing*
 **Transitivity:** both — transitive (cease operations), intransitive (the noise ceased)
 
@@ -704,6 +746,7 @@ To stop happening, or to stop doing something — a formal word for *stop*.
 **Pronunciation:** /rɪˈzuːm/ &middot; *rih-ZOOM*
 **Русский:** возобновлять, возобновить; возобновляться
 **Forms:** *resume* &middot; *resumed* &middot; *resumed*
+**Verb class:** regular
 **Third person:** *resumes* &middot; **-ing form:** *resuming*
 **Transitivity:** both — transitive (resume work), intransitive (play resumed)
 **Contrast:** Verb: rih-ZOOM. The noun *résumé* (a CV) is REZ-uh-may.
@@ -721,6 +764,7 @@ To begin again after a pause.
 **Pronunciation:** /prəˈlɔːŋ/ &middot; *pruh-LAWNG*
 **Русский:** продлевать, продлить, затягивать
 **Forms:** *prolong* &middot; *prolonged* &middot; *prolonged*
+**Verb class:** regular
 **Third person:** *prolongs* &middot; **-ing form:** *prolonging*
 **Transitivity:** transitive
 
@@ -737,6 +781,7 @@ To make something last longer.
 **Pronunciation:** /səˈsteɪn/ &middot; *suh-STAYN*
 **Русский:** поддерживать, сохранять (на уровне); выдерживать
 **Forms:** *sustain* &middot; *sustained* &middot; *sustained*
+**Verb class:** regular
 **Third person:** *sustains* &middot; **-ing form:** *sustaining*
 **Transitivity:** transitive
 

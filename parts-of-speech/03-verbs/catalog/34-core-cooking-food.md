@@ -14,6 +14,7 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 **Pronunciation:** /breɪz/ &middot; *BRAYZ*
 **Русский:** тушить, потушить (в небольшом количестве жидкости)
 **Forms:** *braise* &middot; *braised* &middot; *braised*
+**Verb class:** regular
 **Third person:** *braises* &middot; **-ing form:** *braising*
 **Transitivity:** transitive
 
@@ -30,6 +31,7 @@ To cook meat slowly in a covered pot with a little liquid.
 **Pronunciation:** /sɪr/ &middot; *SEER*
 **Русский:** обжаривать на сильном огне, подрумянивать до корочки
 **Forms:** *sear* &middot; *seared* &middot; *seared*
+**Verb class:** regular
 **Third person:** *sears* &middot; **-ing form:** *searing*
 **Transitivity:** transitive
 
@@ -46,6 +48,7 @@ To brown the surface of meat quickly over very high heat.
 **Pronunciation:** /ˈbɑːrbɪkjuː/ &middot; *BAR-bi-kyoo*
 **Русский:** жарить на барбекю, готовить на углях
 **Forms:** *barbecue* &middot; *barbecued* &middot; *barbecued*
+**Verb class:** regular
 **Third person:** *barbecues* &middot; **-ing form:** *barbecuing*
 **Transitivity:** both — transitive (barbecue ribs), intransitive (they barbecue every weekend)
 **Contrast:** Spelled barbecue (short form BBQ); barbeque is nonstandard. The -e drops before -ing: barbecuing.
@@ -63,6 +66,7 @@ To cook food slowly outdoors over smoke or hot coals.
 **Pronunciation:** /braʊn/ &middot; *BROWN*
 **Русский:** подрумянивать, обжаривать до румяной корочки
 **Forms:** *brown* &middot; *browned* &middot; *browned*
+**Verb class:** regular
 **Third person:** *browns* &middot; **-ing form:** *browning*
 **Transitivity:** both — transitive (brown the beef), intransitive (the crust is browning)
 
@@ -79,6 +83,7 @@ To cook the surface of food until it turns brown.
 **Pronunciation:** /ˈkɛrəməlaɪz/ &middot; *KEHR-uh-muh-lyz*
 **Русский:** карамелизовать, карамелизоваться
 **Forms:** *caramelize* &middot; *caramelized* &middot; *caramelized*
+**Verb class:** regular
 **Third person:** *caramelizes* &middot; **-ing form:** *caramelizing*
 **Transitivity:** both — transitive (caramelize the sugar), intransitive (the onions caramelized)
 **Contrast:** American English spells it -ize; British English uses caramelise.
@@ -96,6 +101,7 @@ To cook sugar, or the sugar in a food, until it turns brown and sweet.
 **Pronunciation:** /blæntʃ/ &middot; *BLANCH*
 **Русский:** бланшировать, ошпарить
 **Forms:** *blanch* &middot; *blanched* &middot; *blanched*
+**Verb class:** regular
 **Third person:** *blanches* &middot; **-ing form:** *blanching*
 **Transitivity:** transitive
 **Contrast:** Third person adds -es: blanch → blanches.
@@ -113,6 +119,7 @@ To boil vegetables briefly and then drop them into cold water.
 **Pronunciation:** /beɪst/ &middot; *BAYST*
 **Русский:** поливать соком или жиром при жарке
 **Forms:** *baste* &middot; *basted* &middot; *basted*
+**Verb class:** regular
 **Third person:** *bastes* &middot; **-ing form:** *basting*
 **Transitivity:** transitive
 
@@ -129,6 +136,7 @@ To spoon juices or melted fat over food while it roasts.
 **Pronunciation:** /ˈskræmbəl/ &middot; *SKRAM-bul*
 **Русский:** взбивать и жарить (яичницу-болтунью)
 **Forms:** *scramble* &middot; *scrambled* &middot; *scrambled*
+**Verb class:** regular
 **Third person:** *scrambles* &middot; **-ing form:** *scrambling*
 **Transitivity:** transitive
 
@@ -145,6 +153,7 @@ To beat eggs together and cook them in a pan while stirring.
 **Pronunciation:** /sɪft/ &middot; *SIFT*
 **Русский:** просеивать, просеять
 **Forms:** *sift* &middot; *sifted* &middot; *sifted*
+**Verb class:** regular
 **Third person:** *sifts* &middot; **-ing form:** *sifting*
 **Transitivity:** transitive
 
@@ -161,6 +170,7 @@ To pass flour or sugar through a fine mesh to remove the lumps.
 **Pronunciation:** /kəmˈbaɪn/ &middot; *kuhm-BYN*
 **Русский:** соединять, смешивать, соединить
 **Forms:** *combine* &middot; *combined* &middot; *combined*
+**Verb class:** regular
 **Third person:** *combines* &middot; **-ing form:** *combining*
 **Transitivity:** transitive
 
@@ -177,6 +187,7 @@ To put two or more ingredients together.
 **Pronunciation:** /swɜːrl/ &middot; *SWURL*
 **Русский:** кружить, размешивать круговыми движениями
 **Forms:** *swirl* &middot; *swirled* &middot; *swirled*
+**Verb class:** regular
 **Third person:** *swirls* &middot; **-ing form:** *swirling*
 **Transitivity:** both — transitive (swirl the pan), intransitive (cream swirled through the coffee)
 
@@ -193,6 +204,7 @@ To move a liquid around in a circle, or to move that way.
 **Pronunciation:** /ˈθɪkən/ &middot; *THIK-un*
 **Русский:** загущать, загустить; густеть
 **Forms:** *thicken* &middot; *thickened* &middot; *thickened*
+**Verb class:** regular
 **Third person:** *thickens* &middot; **-ing form:** *thickening*
 **Transitivity:** both — transitive (thicken the gravy), intransitive (the sauce thickened)
 
@@ -209,6 +221,7 @@ To make a liquid thicker, or to become thicker.
 **Pronunciation:** /ˈsɔːfən/ &middot; *SAW-fun*
 **Русский:** размягчать, размягчить; становиться мягким
 **Forms:** *soften* &middot; *softened* &middot; *softened*
+**Verb class:** regular
 **Third person:** *softens* &middot; **-ing form:** *softening*
 **Transitivity:** both — transitive (soften the butter), intransitive (let it soften)
 **Contrast:** The t is silent: SAW-fun, not SOFT-un.
@@ -226,6 +239,7 @@ To make something soft, or to become soft.
 **Pronunciation:** /smoʊk/ &middot; *SMOHK*
 **Русский:** коптить, закоптить
 **Forms:** *smoke* &middot; *smoked* &middot; *smoked*
+**Verb class:** regular
 **Third person:** *smokes* &middot; **-ing form:** *smoking*
 **Transitivity:** transitive
 
@@ -242,6 +256,7 @@ To flavor and preserve food by hanging it in smoke.
 **Pronunciation:** /ɡriːs/ &middot; *GREES*
 **Русский:** смазывать жиром, промасливать (форму)
 **Forms:** *grease* &middot; *greased* &middot; *greased*
+**Verb class:** regular
 **Third person:** *greases* &middot; **-ing form:** *greasing*
 **Transitivity:** transitive
 
@@ -258,6 +273,7 @@ To spread butter or oil on a pan so that food will not stick.
 **Pronunciation:** /ɡleɪz/ &middot; *GLAYZ*
 **Русский:** глазировать, покрывать глазурью
 **Forms:** *glaze* &middot; *glazed* &middot; *glazed*
+**Verb class:** regular
 **Third person:** *glazes* &middot; **-ing form:** *glazing*
 **Transitivity:** transitive
 
@@ -274,6 +290,7 @@ To coat food with a shiny liquid such as syrup or thin icing.
 **Pronunciation:** /frɔːst/ &middot; *FRAWST*
 **Русский:** покрывать глазурью (торт), украшать кремом
 **Forms:** *frost* &middot; *frosted* &middot; *frosted*
+**Verb class:** regular
 **Third person:** *frosts* &middot; **-ing form:** *frosting*
 **Transitivity:** transitive
 **Contrast:** Americans frost a cake; the British ice it. The sweet topping itself is frosting.
@@ -291,6 +308,7 @@ To spread a thick sweet icing over a cake.
 **Pronunciation:** /ˈleɪər/ &middot; *LAY-ur*
 **Русский:** укладывать слоями, выложить слоями
 **Forms:** *layer* &middot; *layered* &middot; *layered*
+**Verb class:** regular
 **Third person:** *layers* &middot; **-ing form:** *layering*
 **Transitivity:** transitive
 
@@ -307,6 +325,7 @@ To arrange food in flat layers, one on top of another.
 **Pronunciation:** /stɔːr/ &middot; *STOR*
 **Русский:** хранить, сохранять
 **Forms:** *store* &middot; *stored* &middot; *stored*
+**Verb class:** regular
 **Third person:** *stores* &middot; **-ing form:** *storing*
 **Transitivity:** transitive
 
@@ -323,6 +342,7 @@ To keep food somewhere until it is needed.
 **Pronunciation:** /fərˈmɛnt/ &middot; *fur-MENT*
 **Русский:** бродить, сбраживать, ферментировать
 **Forms:** *ferment* &middot; *fermented* &middot; *fermented*
+**Verb class:** regular
 **Third person:** *ferments* &middot; **-ing form:** *fermenting*
 **Transitivity:** both — transitive (ferment the cabbage), intransitive (the dough fermented)
 **Contrast:** The verb is stressed on the second syllable, fur-MENT; the noun is FUR-ment.
@@ -340,6 +360,7 @@ To change sugar into alcohol or acid through the action of yeast or bacteria.
 **Pronunciation:** /stuː/ &middot; *STOO*
 **Русский:** тушить, потушить; тушиться
 **Forms:** *stew* &middot; *stewed* &middot; *stewed*
+**Verb class:** regular
 **Third person:** *stews* &middot; **-ing form:** *stewing*
 **Transitivity:** both — transitive (stew the lamb), intransitive (the beef is stewing)
 **Contrast:** General American drops the y-sound: STOO, not STYOO.
@@ -357,6 +378,7 @@ To cook meat or fruit slowly in liquid in a covered pot.
 **Pronunciation:** /dʌŋk/ &middot; *DUNGK*
 **Русский:** макать, обмакнуть
 **Forms:** *dunk* &middot; *dunked* &middot; *dunked*
+**Verb class:** regular
 **Third person:** *dunks* &middot; **-ing form:** *dunking*
 **Transitivity:** transitive
 **Contrast:** Dunk something **in** or **into** a liquid.
@@ -374,6 +396,7 @@ To dip food quickly into a liquid.
 **Pronunciation:** /ˈraɪpən/ &middot; *RY-pun*
 **Русский:** созревать, зреть, дозреть
 **Forms:** *ripen* &middot; *ripened* &middot; *ripened*
+**Verb class:** regular
 **Third person:** *ripens* &middot; **-ing form:** *ripening*
 **Transitivity:** both — transitive (a paper bag ripens pears), intransitive (the fruit ripened)
 

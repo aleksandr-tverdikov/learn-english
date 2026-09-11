@@ -15,6 +15,7 @@
       "senses": [],
       "русский": "сигналить, бибикать, посигналить",
       "forms": "honk · honked · honked",
+      "verb class": "regular",
       "third person": "honks · -ing form: honking",
       "transitivity": "both — transitive (honk the horn), intransitive (the taxi honked at me)"
     },
@@ -31,6 +32,7 @@
       "senses": [],
       "русский": "ехать накатом, катиться по инерции",
       "forms": "coast · coasted · coasted",
+      "verb class": "regular",
       "third person": "coasts · -ing form: coasting",
       "transitivity": "intransitive"
     },
@@ -47,6 +49,7 @@
       "senses": [],
       "русский": "работать на холостом ходу; держать двигатель включённым",
       "forms": "idle · idled · idled",
+      "verb class": "regular",
       "third person": "idles · -ing form: idling",
       "transitivity": "both — transitive (do not idle your engine), intransitive (the bus idled at the curb)",
       "contrast": "Sounds like idol; the silent -e drops before -ing: idling."
@@ -64,6 +67,7 @@
       "senses": [],
       "русский": "газовать, повышать обороты двигателя",
       "forms": "rev · revved · revved",
+      "verb class": "regular",
       "third person": "revs · -ing form: revving",
       "transitivity": "both — transitive (rev the engine), intransitive (the motor revved)",
       "contrast": "One vowel + one consonant, so the v doubles: revved, revving."
@@ -81,6 +85,7 @@
       "senses": [],
       "русский": "ехать вплотную, сидеть на хвосте",
       "forms": "tailgate · tailgated · tailgated",
+      "verb class": "regular",
       "third person": "tailgates · -ing form: tailgating",
       "transitivity": "both — transitive (tailgate the car ahead), intransitive (stop tailgating)"
     },
@@ -97,6 +102,7 @@
       "senses": [],
       "русский": "замедлять, замедлить; сбавлять скорость",
       "forms": "slow · slowed · slowed",
+      "verb class": "regular",
       "third person": "slows · -ing form: slowing",
       "transitivity": "both — transitive (slow the truck), intransitive (traffic slowed)"
     },
@@ -113,6 +119,7 @@
       "senses": [],
       "русский": "заводить, завести (двигатель); трогаться с места",
       "forms": "start · started · started",
+      "verb class": "regular",
       "third person": "starts · -ing form: starting",
       "transitivity": "both — transitive (start the engine), intransitive (the truck would not start)"
     },
@@ -129,6 +136,7 @@
       "senses": [],
       "русский": "маневрировать, сманеврировать",
       "forms": "maneuver · maneuvered · maneuvered",
+      "verb class": "regular",
       "third person": "maneuvers · -ing form: maneuvering",
       "transitivity": "both — transitive (maneuver the trailer), intransitive (maneuver around the crates)",
       "contrast": "American spelling maneuver; British manoeuvre."
@@ -146,6 +154,7 @@
       "senses": [],
       "русский": "ехать в объезд, объезжать, делать крюк",
       "forms": "detour · detoured · detoured",
+      "verb class": "regular",
       "third person": "detours · -ing form: detouring",
       "transitivity": "both — transitive (they detoured the traffic), intransitive (we detoured through town)"
     },
@@ -162,6 +171,7 @@
       "senses": [],
       "русский": "заправляться, заправить(ся) топливом, дозаправить",
       "forms": "refuel · refueled · refueled",
+      "verb class": "regular",
       "third person": "refuels · -ing form: refueling",
       "transitivity": "both — transitive (refuel the plane), intransitive (we refueled in Reno)",
       "contrast": "American spelling keeps one l: refueled, refueling (British refuelled, refuelling)."
@@ -179,6 +189,7 @@
       "senses": [],
       "русский": "накачивать, накачать (шину)",
       "forms": "inflate · inflated · inflated",
+      "verb class": "regular",
       "third person": "inflates · -ing form: inflating",
       "transitivity": "both — transitive (inflate the tires), intransitive (the airbag inflates instantly)"
     },
@@ -195,6 +206,7 @@
       "senses": [],
       "русский": "ударяться, стукнуться, задеть",
       "forms": "bump · bumped · bumped",
+      "verb class": "regular",
       "third person": "bumps · -ing form: bumping",
       "transitivity": "both — transitive (bump the car ahead), intransitive (we bumped along the dirt road)",
       "contrast": "You bump into something you did not mean to hit."
@@ -212,6 +224,7 @@
       "senses": [],
       "русский": "убирать, укладывать, складывать (на место)",
       "forms": "stow · stowed · stowed",
+      "verb class": "regular",
       "third person": "stows · -ing form: stowing",
       "transitivity": "transitive",
       "contrast": "Rhymes with go, not with cow: /stoʊ/."
@@ -229,6 +242,7 @@
       "senses": [],
       "русский": "прицеплять, прицепить, зацепить",
       "forms": "hitch · hitched · hitched",
+      "verb class": "regular",
       "third person": "hitches · -ing form: hitching",
       "transitivity": "transitive",
       "contrast": "Ends in -ch, so the third person adds -es: hitches."
@@ -246,6 +260,7 @@
       "senses": [],
       "русский": "отправлять, направлять, отправить (машину, груз)",
       "forms": "dispatch · dispatched · dispatched",
+      "verb class": "regular",
       "third person": "dispatches · -ing form: dispatching",
       "transitivity": "transitive"
     },
@@ -262,9 +277,11 @@
       "senses": [],
       "русский": "страховать, застраховать",
       "forms": "insure · insured · insured",
+      "verb class": "regular",
       "third person": "insures · -ing form: insuring",
       "transitivity": "transitive",
-      "contrast": "Insure (страховать) is not ensure (обеспечить, гарантировать)."
+      "contrast": "Insure (страховать) is not ensure (обеспечить, гарантировать).",
+      "phrasal verbs": "insure against"
     },
     {
       "term": "taxi",
@@ -279,6 +296,7 @@
       "senses": [],
       "русский": "рулить (о самолёте по земле), выруливать",
       "forms": "taxi · taxied · taxied",
+      "verb class": "regular",
       "third person": "taxis · -ing form: taxiing",
       "transitivity": "intransitive",
       "contrast": "Odd forms: taxis, taxied, but taxiing keeps both is."
@@ -296,6 +314,7 @@
       "senses": [],
       "русский": "ловить (такси), подзывать, остановить",
       "forms": "hail · hailed · hailed",
+      "verb class": "regular",
       "third person": "hails · -ing form: hailing",
       "transitivity": "transitive"
     },
@@ -312,6 +331,7 @@
       "senses": [],
       "русский": "ездить вместе на одной машине (по очереди)",
       "forms": "carpool · carpooled · carpooled",
+      "verb class": "regular",
       "third person": "carpools · -ing form: carpooling",
       "transitivity": "intransitive"
     }

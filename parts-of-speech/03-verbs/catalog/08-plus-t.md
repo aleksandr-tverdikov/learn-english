@@ -13,6 +13,7 @@ Group 8 holds the verbs whose past and participle are identical to each other an
 **Pronunciation:** /blɛs/ &middot; *BLESS*
 **Русский:** благословлять
 **Forms:** *bless* /blɛs/ &middot; *blessed* /blɛst/ &middot; *blessed* /blɛst/ (archaic *blest* /blɛst/)
+**Verb class:** irregular
 **Register:** everyday — an American blesses food, sneezes, and hearts without thinking about it
 **Pattern:** base + -ed (archaic base + -t) &middot; **Group:** 8
 **Third person:** *blesses* &middot; **-ing form:** *blessing*
@@ -52,6 +53,7 @@ To ask God's favor on someone or something, to make something holy, or — in th
 **Pronunciation:** /bɝn/ &middot; *BURN*
 **Русский:** жечь
 **Forms:** *burn* /bɝn/ &middot; *burned* /bɝnd/ &middot; *burned* /bɝnd/ (also *burnt* /bɝnt/)
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base + -ed / base + -t &middot; **Group:** 8
 **Third person:** *burns* &middot; **-ing form:** *burning*
@@ -128,6 +130,7 @@ To be on fire or destroy by fire, and by extension to scorch, sting, consume fue
 **Pronunciation:** /tʃæp/ &middot; *CHAP*
 **Русский:** трескаться; раскалывать
 **Forms:** *chap* /tʃæp/ &middot; *chapped* /tʃæpt/ &middot; *chapped* /tʃæpt/ (archaic *chapt* /tʃæpt/)
+**Verb class:** irregular
 **Register:** everyday — *chapped lips* is ordinary winter talk, though the verb rarely appears outside that participle
 **Pattern:** base + -ed (archaic base + -t) &middot; **Group:** 8
 **Third person:** *chaps* &middot; **-ing form:** *chapping* (the p doubles)
@@ -157,6 +160,7 @@ Of skin, to crack and turn sore in cold or dry air; in older use, to split or cr
 **Pronunciation:** /klæp/ &middot; *KLAP*
 **Русский:** хлопать ладонями, аплодировать
 **Forms:** *clap* /klæp/ &middot; *clapped* /klæpt/ &middot; *clapped* /klæpt/ (archaic *clapt* /klæpt/)
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base + -ed (archaic base + -t) &middot; **Group:** 8
 **Third person:** *claps* &middot; **-ing form:** *clapping* (the p doubles)
@@ -195,6 +199,7 @@ To strike your palms together in applause, and by extension to slap someone in f
 **Pronunciation:** /dɪp/ &middot; *DIP*
 **Русский:** погружать; окунать; макать
 **Forms:** *dip* /dɪp/ &middot; *dipped* /dɪpt/ &middot; *dipped* /dɪpt/ (archaic *dipt* /dɪpt/)
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base + -ed (archaic base + -t) &middot; **Group:** 8
 **Third person:** *dips* &middot; **-ing form:** *dipping* (the p doubles)
@@ -245,6 +250,7 @@ To put something briefly into a liquid, and by extension to drop, to slope downw
 **Pronunciation:** /dwɛl/ &middot; *DWELL*
 **Русский:** обитать; задерживаться
 **Forms:** *dwell* /dwɛl/ &middot; *dwelt* /dwɛlt/ &middot; *dwelt* /dwɛlt/ (also *dwelled* /dwɛld/)
+**Verb class:** irregular
 **Register:** everyday — *don't dwell on it* is ordinary speech, though the "live somewhere" sense is literary
 **Pattern:** base + -t &middot; **Group:** 8
 **Third person:** *dwells* &middot; **-ing form:** *dwelling*
@@ -280,6 +286,7 @@ To keep thinking or talking about something, or — in older and literary use �
 **Pronunciation:** /ɛnˈræp/ &middot; *en-RAP*
 **Русский:** завёртывать, укутывать
 **Forms:** *enwrap* /ɛnˈræp/ &middot; *enwrapped* /ɛnˈræpt/ &middot; *enwrapped* /ɛnˈræpt/ (archaic *enwrapt* /ɛnˈræpt/)
+**Verb class:** irregular
 **Register:** rare — a literary prefixed form of *wrap*; Americans write *wrapped* or *enveloped*
 **Pattern:** base + -ed (archaic base + -t) &middot; **Group:** 8
 **Third person:** *enwraps* &middot; **-ing form:** *enwrapping* (the p doubles)
@@ -308,6 +315,7 @@ To wrap something completely around or inside something else, or figuratively to
 **Pronunciation:** /ɪnˈdwɛl/ &middot; *in-DWELL*
 **Русский:** обитать, проживать
 **Forms:** *indwell* /ɪnˈdwɛl/ &middot; *indwelt* /ɪnˈdwɛlt/ &middot; *indwelt* /ɪnˈdwɛlt/
+**Verb class:** irregular
 **Register:** rare — theology and medicine only, and almost always as the adjective *indwelling*
 **Pattern:** base + -t &middot; **Group:** 8
 **Third person:** *indwells* &middot; **-ing form:** *indwelling*
@@ -337,6 +345,7 @@ To live or be present within something, especially in a spiritual sense — a na
 **Pronunciation:** /lɝn/ &middot; *LURN*
 **Русский:** изучать, учить; узнавать
 **Forms:** *learn* /lɝn/ &middot; *learned* /lɝnd/ &middot; *learned* /lɝnd/ (British *learnt* /lɝnt/)
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base + -ed (British base + -t) &middot; **Group:** 8
 **Third person:** *learns* &middot; **-ing form:** *learning*
@@ -391,6 +400,7 @@ To take in knowledge or a skill, or to find something out.
 **Pronunciation:** /ˌmɪsˈspɛl/ &middot; *miss-SPELL*
 **Русский:** писать с ошибками
 **Forms:** *misspell* /ˌmɪsˈspɛl/ &middot; *misspelled* /ˌmɪsˈspɛld/ &middot; *misspelled* /ˌmɪsˈspɛld/ (British *misspelt* /ˌmɪsˈspɛlt/)
+**Verb class:** irregular
 **Register:** everyday — prefixed, but *you misspelled my name* is ordinary conversation
 **Pattern:** base + -ed (British base + -t) &middot; **Group:** 8
 **Third person:** *misspells* &middot; **-ing form:** *misspelling*
@@ -417,6 +427,7 @@ To write a word with the wrong letters.
 **Pronunciation:** /nɪp/ &middot; *NIP*
 **Русский:** ущипнуть, щипать
 **Forms:** *nip* /nɪp/ &middot; *nipped* /nɪpt/ &middot; *nipped* /nɪpt/ (archaic *nipt* /nɪpt/)
+**Verb class:** irregular
 **Register:** everyday — dogs nip, and everyone nips things in the bud
 **Pattern:** base + -ed (archaic base + -t) &middot; **Group:** 8
 **Third person:** *nips* &middot; **-ing form:** *nipping* (the p doubles)
@@ -466,6 +477,7 @@ To give a small sharp bite or pinch — and, of cold, to sting.
 **Pronunciation:** /ˌriˈlɝn/ &middot; *ree-LURN*
 **Русский:** переучиваться, менять квалификацию
 **Forms:** *relearn* /ˌriˈlɝn/ &middot; *relearned* /ˌriˈlɝnd/ &middot; *relearned* /ˌriˈlɝnd/ (British *relearnt* /ˌriˈlɝnt/)
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing about therapy and training, less common in speech
 **Pattern:** base + -ed (British base + -t) &middot; **Group:** 8
 **Third person:** *relearns* &middot; **-ing form:** *relearning*
@@ -496,6 +508,7 @@ To learn again something you once knew and lost.
 **Pronunciation:** /smɛl/ &middot; *SMELL*
 **Русский:** обонять, чуять, нюхать; пахнуть
 **Forms:** *smell* /smɛl/ &middot; *smelled* /smɛld/ &middot; *smelled* /smɛld/ (British *smelt* /smɛlt/)
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base + -ed (British base + -t) &middot; **Group:** 8
 **Third person:** *smells* &middot; **-ing form:** *smelling*
@@ -546,6 +559,7 @@ To perceive an odor, or to give one off — and figuratively, to sense that some
 **Pronunciation:** /spɛl/ &middot; *SPELL*
 **Русский:** писать или произносить по буквам
 **Forms:** *spell* /spɛl/ &middot; *spelled* /spɛld/ &middot; *spelled* /spɛld/ (British *spelt* /spɛlt/)
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base + -ed (British base + -t) &middot; **Group:** 8
 **Third person:** *spells* &middot; **-ing form:** *spelling*
@@ -598,6 +612,7 @@ To give the letters of a word in order — and, figuratively, to mean or signal 
 **Pronunciation:** /spɪl/ &middot; *SPILL*
 **Русский:** проливать
 **Forms:** *spill* /spɪl/ &middot; *spilled* /spɪld/ &middot; *spilled* /spɪld/ (British *spilt* /spɪlt/)
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base + -ed (British base + -t) &middot; **Group:** 8
 **Third person:** *spills* &middot; **-ing form:** *spilling*
@@ -647,6 +662,7 @@ To let liquid or loose material fall out of its container — and figuratively, 
 **Pronunciation:** /spɔɪl/ &middot; *SPOYL*
 **Русский:** портить; баловать
 **Forms:** *spoil* /spɔɪl/ &middot; *spoiled* /spɔɪld/ &middot; *spoiled* /spɔɪld/ (British *spoilt* /spɔɪlt/)
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base + -ed (British base + -t) &middot; **Group:** 8
 **Third person:** *spoils* &middot; **-ing form:** *spoiling*
@@ -696,6 +712,7 @@ To ruin something good, to let food go bad, or to treat someone too generously.
 **Pronunciation:** /ˈsʌnbɝn/ &middot; *SUN-burn*
 **Русский:** обгорать на солнце
 **Forms:** *sunburn* /ˈsʌnbɝn/ &middot; *sunburned* /ˈsʌnbɝnd/ &middot; *sunburned* /ˈsʌnbɝnd/ (also *sunburnt* /ˈsʌnbɝnt/)
+**Verb class:** irregular
 **Register:** everyday — *I got sunburned* is ordinary speech, though the finite verb is rare
 **Pattern:** base + -ed / base + -t &middot; **Group:** 8
 **Third person:** *sunburns* &middot; **-ing form:** *sunburning*
@@ -726,6 +743,7 @@ To get, or to give someone, red sore skin from too much sun.
 **Pronunciation:** /tɔs/ &middot; *TAWSS*
 **Русский:** бросать
 **Forms:** *toss* /tɔs/ &middot; *tossed* /tɔst/ &middot; *tossed* /tɔst/ (archaic *tost* /tɔst/)
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base + -ed (archaic base + -t) &middot; **Group:** 8
 **Third person:** *tosses* &middot; **-ing form:** *tossing*
@@ -785,6 +803,7 @@ To throw something lightly, and by extension to discard it, mix it, or move it a
 **Pronunciation:** /ʌnˈlɝn/ &middot; *un-LURN*
 **Русский:** разучиться; забыть то, что знал
 **Forms:** *unlearn* /ʌnˈlɝn/ &middot; *unlearned* /ʌnˈlɝnd/ &middot; *unlearned* /ʌnˈlɝnd/ (British *unlearnt* /ʌnˈlɝnt/)
+**Verb class:** irregular
 **Register:** neutral to formal — ordinary in writing about habits and training, less common in speech
 **Pattern:** base + -ed (British base + -t) &middot; **Group:** 8
 **Third person:** *unlearns* &middot; **-ing form:** *unlearning*
@@ -814,6 +833,7 @@ To deliberately get rid of a habit, an assumption, or a piece of knowledge you a
 **Pronunciation:** /vɛks/ &middot; *VEKS*
 **Русский:** досаждать, надоедать, дразнить
 **Forms:** *vex* /vɛks/ &middot; *vexed* /vɛkst/ &middot; *vexed* /vɛkst/ (archaic *vext* /vɛkst/)
+**Verb class:** irregular
 **Register:** formal — literary and legal; an American says *annoy* or *frustrate*, but *a vexed question* survives in writing
 **Pattern:** base + -ed (archaic base + -t) &middot; **Group:** 8
 **Third person:** *vexes* &middot; **-ing form:** *vexing*
@@ -848,6 +868,7 @@ To annoy or trouble someone, especially over a stretch of time.
 **Pronunciation:** /ræp/ &middot; *RAP*
 **Русский:** окутывать; завёртывать
 **Forms:** *wrap* /ræp/ &middot; *wrapped* /ræpt/ &middot; *wrapped* /ræpt/ (archaic *wrapt* /ræpt/)
+**Verb class:** irregular
 **Register:** everyday — one of the verbs an American uses without thinking
 **Pattern:** base + -ed (archaic base + -t) &middot; **Group:** 8
 **Third person:** *wraps* &middot; **-ing form:** *wrapping* (the p doubles)
