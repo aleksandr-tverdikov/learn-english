@@ -1,4 +1,4 @@
-# Dependent prepositions: verb patterns
+# Verb + preposition patterns
 
 > The prepositions you do not choose — the ones a particular verb simply requires, so that *depend* takes *on*, *rely* takes *on*, and *discuss* takes nothing at all.
 

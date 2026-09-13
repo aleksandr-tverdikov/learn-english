@@ -45,7 +45,7 @@ Open has 4 distinct senses.
 11. Police *opened* an investigation into the fire.
 12. The committee has *opened* hearings on the crash.
 
-**Phrasal verbs:** [open up](56-phrasal-regular-m-p.md#open-up-1) &middot; [open up](56-phrasal-regular-m-p.md#open-up-4) &middot; [open up](56-phrasal-regular-m-p.md#open-up-3) &middot; [open up](56-phrasal-regular-m-p.md#open-up) &middot; [open up](56-phrasal-regular-m-p.md#open-up-2)
+**Phrasal verbs:** [open up](56-phrasal-regular-m-p.md#open-up) &middot; [open up](56-phrasal-regular-m-p.md#open-up-1) &middot; [open up](56-phrasal-regular-m-p.md#open-up-3) &middot; [open up](56-phrasal-regular-m-p.md#open-up-4) &middot; [open up](56-phrasal-regular-m-p.md#open-up-2)
 
 ---
 
@@ -515,7 +515,7 @@ To change from one thing, setting, or service to another.
 2. We *switched* to a cheaper carrier last year.
 3. She is *switching* between four browser tabs.
 
-**Phrasal verbs:** [switch off](57-phrasal-regular-q-s.md#switch-off-1) &middot; [switch off](57-phrasal-regular-q-s.md#switch-off) &middot; [switch on](57-phrasal-regular-q-s.md#switch-on) &middot; [switch out](57-phrasal-regular-q-s.md#switch-out) &middot; [switch over](57-phrasal-regular-q-s.md#switch-over) &middot; [switch up](57-phrasal-regular-q-s.md#switch-up)
+**Phrasal verbs:** [switch off](57-phrasal-regular-q-s.md#switch-off) &middot; [switch off](57-phrasal-regular-q-s.md#switch-off-1) &middot; [switch on](57-phrasal-regular-q-s.md#switch-on) &middot; [switch out](57-phrasal-regular-q-s.md#switch-out) &middot; [switch over](57-phrasal-regular-q-s.md#switch-over) &middot; [switch up](57-phrasal-regular-q-s.md#switch-up)
 
 ---
 
@@ -1131,7 +1131,7 @@ Lock has 2 distinct senses.
 5. The brakes *locked* and the car slid sideways.
 6. The tray table is *locked* in the upright position.
 
-**Phrasal verbs:** [lock down](55-phrasal-regular-g-l.md#lock-down) &middot; [lock in](55-phrasal-regular-g-l.md#lock-in) &middot; [lock out](55-phrasal-regular-g-l.md#lock-out) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up-1) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up)
+**Phrasal verbs:** [lock down](55-phrasal-regular-g-l.md#lock-down) &middot; [lock in](55-phrasal-regular-g-l.md#lock-in) &middot; [lock out](55-phrasal-regular-g-l.md#lock-out) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up-1)
 
 ---
 

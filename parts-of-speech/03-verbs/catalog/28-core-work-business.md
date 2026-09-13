@@ -244,7 +244,7 @@ Fire has 3 distinct senses.
 8. She *fired* her first bowl last weekend.
 9. These tiles are *fired* at 2,200 degrees.
 
-**Phrasal verbs:** [fire away](54-phrasal-regular-d-f.md#fire-away) &middot; [fire back](54-phrasal-regular-d-f.md#fire-back) &middot; [fire off](54-phrasal-regular-d-f.md#fire-off) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up-1)
+**Phrasal verbs:** [fire away](54-phrasal-regular-d-f.md#fire-away) &middot; [fire back](54-phrasal-regular-d-f.md#fire-back) &middot; [fire off](54-phrasal-regular-d-f.md#fire-off) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up-1) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up)
 
 ---
 
@@ -1433,7 +1433,7 @@ To bring something to an end, or to come to an end.
 2. She *finished* the report on the train.
 3. We are *finishing* the last section today.
 
-**Phrasal verbs:** [finish off](54-phrasal-regular-d-f.md#finish-off) &middot; [finish off](54-phrasal-regular-d-f.md#finish-off-1) &middot; [finish up](54-phrasal-regular-d-f.md#finish-up)
+**Phrasal verbs:** [finish off](54-phrasal-regular-d-f.md#finish-off-1) &middot; [finish off](54-phrasal-regular-d-f.md#finish-off) &middot; [finish up](54-phrasal-regular-d-f.md#finish-up)
 
 ---
 

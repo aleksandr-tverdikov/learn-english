@@ -1,4 +1,4 @@
-# Participle = base, past changes vowel
+# Irregular verbs: participle = base, past changes vowel
 
 > The participle returns to the base form; only the past differs, by a regular vowel change.
 

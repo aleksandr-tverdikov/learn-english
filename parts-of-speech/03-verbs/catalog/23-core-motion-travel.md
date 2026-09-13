@@ -236,7 +236,7 @@ Carry has 4 distinct senses.
 11. The surgery *carried* a real risk of infection.
 12. It is a felony *carrying* a fine of up to $10,000.
 
-**Phrasal verbs:** [carry away](53-phrasal-regular-a-c.md#carry-away) &middot; [carry off](53-phrasal-regular-a-c.md#carry-off) &middot; [carry on](53-phrasal-regular-a-c.md#carry-on-1) &middot; [carry on](53-phrasal-regular-a-c.md#carry-on) &middot; [carry out](53-phrasal-regular-a-c.md#carry-out) &middot; [carry over](53-phrasal-regular-a-c.md#carry-over)
+**Phrasal verbs:** [carry away](53-phrasal-regular-a-c.md#carry-away) &middot; [carry off](53-phrasal-regular-a-c.md#carry-off) &middot; [carry on](53-phrasal-regular-a-c.md#carry-on) &middot; [carry on](53-phrasal-regular-a-c.md#carry-on-1) &middot; [carry out](53-phrasal-regular-a-c.md#carry-out) &middot; [carry over](53-phrasal-regular-a-c.md#carry-over)
 
 ---
 
@@ -688,7 +688,7 @@ Drop has 2 distinct senses.
 5. Can we *drop* the subject?
 6. She is thinking about *dropping* her chemistry class.
 
-**Phrasal verbs:** [drop by](54-phrasal-regular-d-f.md#drop-by) &middot; [drop in](54-phrasal-regular-d-f.md#drop-in) &middot; [drop off](54-phrasal-regular-d-f.md#drop-off-2) &middot; [drop off](54-phrasal-regular-d-f.md#drop-off-1) &middot; [drop off](54-phrasal-regular-d-f.md#drop-off) &middot; [drop out](54-phrasal-regular-d-f.md#drop-out)
+**Phrasal verbs:** [drop by](54-phrasal-regular-d-f.md#drop-by) &middot; [drop in](54-phrasal-regular-d-f.md#drop-in) &middot; [drop off](54-phrasal-regular-d-f.md#drop-off) &middot; [drop off](54-phrasal-regular-d-f.md#drop-off-2) &middot; [drop off](54-phrasal-regular-d-f.md#drop-off-1) &middot; [drop out](54-phrasal-regular-d-f.md#drop-out)
 
 ---
 
@@ -991,7 +991,7 @@ Head has 2 distinct senses.
 5. He *headed* the department for ten years.
 6. The task force is *headed* by a retired judge.
 
-**Phrasal verbs:** [head back](55-phrasal-regular-g-l.md#head-back) &middot; [head for](55-phrasal-regular-g-l.md#head-for) &middot; [head off](55-phrasal-regular-g-l.md#head-off-1) &middot; [head off](55-phrasal-regular-g-l.md#head-off) &middot; [head out](55-phrasal-regular-g-l.md#head-out) &middot; [head up](55-phrasal-regular-g-l.md#head-up)
+**Phrasal verbs:** [head back](55-phrasal-regular-g-l.md#head-back) &middot; [head for](55-phrasal-regular-g-l.md#head-for) &middot; [head off](55-phrasal-regular-g-l.md#head-off) &middot; [head off](55-phrasal-regular-g-l.md#head-off-1) &middot; [head out](55-phrasal-regular-g-l.md#head-out) &middot; [head up](55-phrasal-regular-g-l.md#head-up)
 
 ---
 
@@ -1400,7 +1400,7 @@ Move has 3 distinct senses.
 8. The defense *moved* to dismiss the charges.
 9. A board member has *moved* for a recount.
 
-**Phrasal verbs:** [move along](56-phrasal-regular-m-p.md#move-along) &middot; [move around](56-phrasal-regular-m-p.md#move-around) &middot; [move away](56-phrasal-regular-m-p.md#move-away) &middot; [move back](56-phrasal-regular-m-p.md#move-back) &middot; [move for](22-verb-preposition.md#move-for) &middot; [move forward](56-phrasal-regular-m-p.md#move-forward) &middot; [move in](56-phrasal-regular-m-p.md#move-in-1) &middot; [move in](56-phrasal-regular-m-p.md#move-in) &middot; [move in on](56-phrasal-regular-m-p.md#move-in-on) &middot; [move on](56-phrasal-regular-m-p.md#move-on-1) &middot; [move on](56-phrasal-regular-m-p.md#move-on) &middot; [move out](56-phrasal-regular-m-p.md#move-out) &middot; [move over](56-phrasal-regular-m-p.md#move-over) &middot; [move up](56-phrasal-regular-m-p.md#move-up) &middot; [move up](56-phrasal-regular-m-p.md#move-up-1)
+**Phrasal verbs:** [move along](56-phrasal-regular-m-p.md#move-along) &middot; [move around](56-phrasal-regular-m-p.md#move-around) &middot; [move away](56-phrasal-regular-m-p.md#move-away) &middot; [move back](56-phrasal-regular-m-p.md#move-back) &middot; [move for](22-verb-preposition.md#move-for) &middot; [move forward](56-phrasal-regular-m-p.md#move-forward) &middot; [move in](56-phrasal-regular-m-p.md#move-in) &middot; [move in](56-phrasal-regular-m-p.md#move-in-1) &middot; [move in on](56-phrasal-regular-m-p.md#move-in-on) &middot; [move on](56-phrasal-regular-m-p.md#move-on-1) &middot; [move on](56-phrasal-regular-m-p.md#move-on) &middot; [move out](56-phrasal-regular-m-p.md#move-out) &middot; [move over](56-phrasal-regular-m-p.md#move-over) &middot; [move up](56-phrasal-regular-m-p.md#move-up) &middot; [move up](56-phrasal-regular-m-p.md#move-up-1)
 
 ---
 
@@ -1565,7 +1565,7 @@ Pass has 5 distinct senses.
 14. Three hours *passed* before anyone noticed she was gone.
 15. Two weeks have *passed* since her last message.
 
-**Phrasal verbs:** [pass along](56-phrasal-regular-m-p.md#pass-along) &middot; [pass around](56-phrasal-regular-m-p.md#pass-around) &middot; [pass away](56-phrasal-regular-m-p.md#pass-away) &middot; [pass by](56-phrasal-regular-m-p.md#pass-by) &middot; [pass down](56-phrasal-regular-m-p.md#pass-down) &middot; [pass for](56-phrasal-regular-m-p.md#pass-for) &middot; [pass off as](56-phrasal-regular-m-p.md#pass-off-as) &middot; [pass on](56-phrasal-regular-m-p.md#pass-on-2) &middot; [pass on](56-phrasal-regular-m-p.md#pass-on) &middot; [pass on](56-phrasal-regular-m-p.md#pass-on-1) &middot; [pass out](56-phrasal-regular-m-p.md#pass-out) &middot; [pass out](56-phrasal-regular-m-p.md#pass-out-1) &middot; [pass over](56-phrasal-regular-m-p.md#pass-over) &middot; [pass up](56-phrasal-regular-m-p.md#pass-up)
+**Phrasal verbs:** [pass along](56-phrasal-regular-m-p.md#pass-along) &middot; [pass around](56-phrasal-regular-m-p.md#pass-around) &middot; [pass away](56-phrasal-regular-m-p.md#pass-away) &middot; [pass by](56-phrasal-regular-m-p.md#pass-by) &middot; [pass down](56-phrasal-regular-m-p.md#pass-down) &middot; [pass for](56-phrasal-regular-m-p.md#pass-for) &middot; [pass off as](56-phrasal-regular-m-p.md#pass-off-as) &middot; [pass on](56-phrasal-regular-m-p.md#pass-on-1) &middot; [pass on](56-phrasal-regular-m-p.md#pass-on) &middot; [pass on](56-phrasal-regular-m-p.md#pass-on-2) &middot; [pass out](56-phrasal-regular-m-p.md#pass-out-1) &middot; [pass out](56-phrasal-regular-m-p.md#pass-out) &middot; [pass over](56-phrasal-regular-m-p.md#pass-over) &middot; [pass up](56-phrasal-regular-m-p.md#pass-up)
 
 ---
 
@@ -1659,7 +1659,7 @@ Pull has 3 distinct senses.
 8. He *pulled* a prank on his roommate the first night.
 9. The kids are always *pulling* something on the substitute teacher.
 
-**Phrasal verbs:** [pull ahead](56-phrasal-regular-m-p.md#pull-ahead) &middot; [pull away](56-phrasal-regular-m-p.md#pull-away) &middot; [pull back](56-phrasal-regular-m-p.md#pull-back) &middot; [pull down](56-phrasal-regular-m-p.md#pull-down) &middot; [pull down](56-phrasal-regular-m-p.md#pull-down-1) &middot; [pull for](56-phrasal-regular-m-p.md#pull-for) &middot; [pull in](56-phrasal-regular-m-p.md#pull-in) &middot; [pull in](56-phrasal-regular-m-p.md#pull-in-1) &middot; [pull off](56-phrasal-regular-m-p.md#pull-off) &middot; [pull off](56-phrasal-regular-m-p.md#pull-off-1) &middot; [pull out](56-phrasal-regular-m-p.md#pull-out) &middot; [pull out](56-phrasal-regular-m-p.md#pull-out-1) &middot; [pull over](56-phrasal-regular-m-p.md#pull-over-1) &middot; [pull over](56-phrasal-regular-m-p.md#pull-over) &middot; [pull through](56-phrasal-regular-m-p.md#pull-through) &middot; [pull together](56-phrasal-regular-m-p.md#pull-together-2) &middot; [pull together](56-phrasal-regular-m-p.md#pull-together) &middot; [pull together](56-phrasal-regular-m-p.md#pull-together-1) &middot; [pull up](56-phrasal-regular-m-p.md#pull-up) &middot; [pull up](56-phrasal-regular-m-p.md#pull-up-1)
+**Phrasal verbs:** [pull ahead](56-phrasal-regular-m-p.md#pull-ahead) &middot; [pull away](56-phrasal-regular-m-p.md#pull-away) &middot; [pull back](56-phrasal-regular-m-p.md#pull-back) &middot; [pull down](56-phrasal-regular-m-p.md#pull-down-1) &middot; [pull down](56-phrasal-regular-m-p.md#pull-down) &middot; [pull for](56-phrasal-regular-m-p.md#pull-for) &middot; [pull in](56-phrasal-regular-m-p.md#pull-in) &middot; [pull in](56-phrasal-regular-m-p.md#pull-in-1) &middot; [pull off](56-phrasal-regular-m-p.md#pull-off-1) &middot; [pull off](56-phrasal-regular-m-p.md#pull-off) &middot; [pull out](56-phrasal-regular-m-p.md#pull-out) &middot; [pull out](56-phrasal-regular-m-p.md#pull-out-1) &middot; [pull over](56-phrasal-regular-m-p.md#pull-over) &middot; [pull over](56-phrasal-regular-m-p.md#pull-over-1) &middot; [pull through](56-phrasal-regular-m-p.md#pull-through) &middot; [pull together](56-phrasal-regular-m-p.md#pull-together-1) &middot; [pull together](56-phrasal-regular-m-p.md#pull-together) &middot; [pull together](56-phrasal-regular-m-p.md#pull-together-2) &middot; [pull up](56-phrasal-regular-m-p.md#pull-up) &middot; [pull up](56-phrasal-regular-m-p.md#pull-up-1)
 
 ---
 
@@ -1718,7 +1718,7 @@ Push has 3 distinct senses.
 8. They *pushed* pills out of a rented garage for two years.
 9. Nobody would dare *push* drugs that close to a school.
 
-**Phrasal verbs:** [push around](56-phrasal-regular-m-p.md#push-around) &middot; [push back](56-phrasal-regular-m-p.md#push-back-1) &middot; [push back](56-phrasal-regular-m-p.md#push-back) &middot; [push for](56-phrasal-regular-m-p.md#push-for) &middot; [push on](56-phrasal-regular-m-p.md#push-on) &middot; [push through](56-phrasal-regular-m-p.md#push-through) &middot; [push through](56-phrasal-regular-m-p.md#push-through-1)
+**Phrasal verbs:** [push around](56-phrasal-regular-m-p.md#push-around) &middot; [push back](56-phrasal-regular-m-p.md#push-back) &middot; [push back](56-phrasal-regular-m-p.md#push-back-1) &middot; [push for](56-phrasal-regular-m-p.md#push-for) &middot; [push on](56-phrasal-regular-m-p.md#push-on) &middot; [push through](56-phrasal-regular-m-p.md#push-through) &middot; [push through](56-phrasal-regular-m-p.md#push-through-1)
 
 ---
 
@@ -1942,7 +1942,7 @@ Roll has 2 distinct senses.
 5. He *rolled* the poster carefully and slid it into a tube.
 6. She was *rolling* tortillas while the beans cooked.
 
-**Phrasal verbs:** [roll back](57-phrasal-regular-q-s.md#roll-back) &middot; [roll in](57-phrasal-regular-q-s.md#roll-in) &middot; [roll in](57-phrasal-regular-q-s.md#roll-in-1) &middot; [roll out](57-phrasal-regular-q-s.md#roll-out) &middot; [roll over](57-phrasal-regular-q-s.md#roll-over-1) &middot; [roll over](57-phrasal-regular-q-s.md#roll-over)
+**Phrasal verbs:** [roll back](57-phrasal-regular-q-s.md#roll-back) &middot; [roll in](57-phrasal-regular-q-s.md#roll-in-1) &middot; [roll in](57-phrasal-regular-q-s.md#roll-in) &middot; [roll out](57-phrasal-regular-q-s.md#roll-out) &middot; [roll over](57-phrasal-regular-q-s.md#roll-over-1) &middot; [roll over](57-phrasal-regular-q-s.md#roll-over)
 
 ---
 
@@ -2753,7 +2753,7 @@ Turn has 3 distinct senses.
 8. He *turned* sixty last week.
 9. It had just *turned* midnight when the phone rang.
 
-**Phrasal verbs:** [turn against](58-phrasal-regular-t-z.md#turn-against) &middot; [turn around](58-phrasal-regular-t-z.md#turn-around-1) &middot; [turn around](58-phrasal-regular-t-z.md#turn-around) &middot; [turn away](58-phrasal-regular-t-z.md#turn-away) &middot; [turn back](58-phrasal-regular-t-z.md#turn-back) &middot; [turn down](58-phrasal-regular-t-z.md#turn-down-1) &middot; [turn down](58-phrasal-regular-t-z.md#turn-down) &middot; [turn in](58-phrasal-regular-t-z.md#turn-in-2) &middot; [turn in](58-phrasal-regular-t-z.md#turn-in) &middot; [turn in](58-phrasal-regular-t-z.md#turn-in-1) &middot; [turn into](58-phrasal-regular-t-z.md#turn-into) &middot; [turn off](58-phrasal-regular-t-z.md#turn-off) &middot; [turn off](58-phrasal-regular-t-z.md#turn-off-1) &middot; [turn on](22-verb-preposition.md#turn-on) &middot; [turn out](58-phrasal-regular-t-z.md#turn-out) &middot; [turn out](58-phrasal-regular-t-z.md#turn-out-2) &middot; [turn out](58-phrasal-regular-t-z.md#turn-out-1) &middot; [turn over](58-phrasal-regular-t-z.md#turn-over-1) &middot; [turn over](58-phrasal-regular-t-z.md#turn-over) &middot; [turn to](22-verb-preposition.md#turn-to) &middot; [turn up](58-phrasal-regular-t-z.md#turn-up-2) &middot; [turn up](58-phrasal-regular-t-z.md#turn-up) &middot; [turn up](58-phrasal-regular-t-z.md#turn-up-1)
+**Phrasal verbs:** [turn against](58-phrasal-regular-t-z.md#turn-against) &middot; [turn around](58-phrasal-regular-t-z.md#turn-around-1) &middot; [turn around](58-phrasal-regular-t-z.md#turn-around) &middot; [turn away](58-phrasal-regular-t-z.md#turn-away) &middot; [turn back](58-phrasal-regular-t-z.md#turn-back) &middot; [turn down](58-phrasal-regular-t-z.md#turn-down-1) &middot; [turn down](58-phrasal-regular-t-z.md#turn-down) &middot; [turn in](58-phrasal-regular-t-z.md#turn-in-2) &middot; [turn in](58-phrasal-regular-t-z.md#turn-in-1) &middot; [turn in](58-phrasal-regular-t-z.md#turn-in) &middot; [turn into](58-phrasal-regular-t-z.md#turn-into) &middot; [turn off](58-phrasal-regular-t-z.md#turn-off) &middot; [turn off](58-phrasal-regular-t-z.md#turn-off-1) &middot; [turn on](22-verb-preposition.md#turn-on) &middot; [turn out](58-phrasal-regular-t-z.md#turn-out-1) &middot; [turn out](58-phrasal-regular-t-z.md#turn-out-2) &middot; [turn out](58-phrasal-regular-t-z.md#turn-out) &middot; [turn over](58-phrasal-regular-t-z.md#turn-over) &middot; [turn over](58-phrasal-regular-t-z.md#turn-over-1) &middot; [turn to](22-verb-preposition.md#turn-to) &middot; [turn up](58-phrasal-regular-t-z.md#turn-up-1) &middot; [turn up](58-phrasal-regular-t-z.md#turn-up) &middot; [turn up](58-phrasal-regular-t-z.md#turn-up-2)
 
 ---
 
@@ -2847,7 +2847,7 @@ To change direction suddenly, especially while moving.
 2. The truck *veered* onto the shoulder.
 3. A car was *veering* toward us.
 
-**Phrasal verbs:** [veer off](58-phrasal-regular-t-z.md#veer-off-1) &middot; [veer off](58-phrasal-regular-t-z.md#veer-off)
+**Phrasal verbs:** [veer off](58-phrasal-regular-t-z.md#veer-off) &middot; [veer off](58-phrasal-regular-t-z.md#veer-off-1)
 
 ---
 
@@ -2912,7 +2912,7 @@ Walk has 2 distinct senses.
 5. He *walked* her home after the movie.
 6. Our neighbor has been *walking* the puppy while we're at work.
 
-**Phrasal verbs:** [walk away from](58-phrasal-regular-t-z.md#walk-away-from) &middot; [walk back](58-phrasal-regular-t-z.md#walk-back) &middot; [walk in on](58-phrasal-regular-t-z.md#walk-in-on) &middot; [walk off](58-phrasal-regular-t-z.md#walk-off) &middot; [walk off with](58-phrasal-regular-t-z.md#walk-off-with-1) &middot; [walk off with](58-phrasal-regular-t-z.md#walk-off-with) &middot; [walk out](58-phrasal-regular-t-z.md#walk-out) &middot; [walk out](58-phrasal-regular-t-z.md#walk-out-1) &middot; [walk out on](58-phrasal-regular-t-z.md#walk-out-on) &middot; [walk through](58-phrasal-regular-t-z.md#walk-through)
+**Phrasal verbs:** [walk away from](58-phrasal-regular-t-z.md#walk-away-from) &middot; [walk back](58-phrasal-regular-t-z.md#walk-back) &middot; [walk in on](58-phrasal-regular-t-z.md#walk-in-on) &middot; [walk off](58-phrasal-regular-t-z.md#walk-off) &middot; [walk off with](58-phrasal-regular-t-z.md#walk-off-with) &middot; [walk off with](58-phrasal-regular-t-z.md#walk-off-with-1) &middot; [walk out](58-phrasal-regular-t-z.md#walk-out-1) &middot; [walk out](58-phrasal-regular-t-z.md#walk-out) &middot; [walk out on](58-phrasal-regular-t-z.md#walk-out-on) &middot; [walk through](58-phrasal-regular-t-z.md#walk-through)
 
 ---
 

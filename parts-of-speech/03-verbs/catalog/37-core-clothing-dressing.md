@@ -39,7 +39,7 @@ Dress has 3 distinct senses.
 8. She *dressed* the greens with lemon and olive oil.
 9. I like *dressing* the salad at the table so it doesn't wilt.
 
-**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2)
+**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up)
 
 ---
 
@@ -604,7 +604,7 @@ Tie has 3 distinct senses.
 8. Nothing *ties* the suspect to that building.
 9. Bonuses are *tied* to company profits.
 
-**Phrasal verbs:** [tie down](58-phrasal-regular-t-z.md#tie-down) &middot; [tie in](58-phrasal-regular-t-z.md#tie-in) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up-1)
+**Phrasal verbs:** [tie down](58-phrasal-regular-t-z.md#tie-down) &middot; [tie in](58-phrasal-regular-t-z.md#tie-in) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up-1) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up)
 
 ---
 
@@ -698,7 +698,7 @@ Hook has 3 distinct senses.
 8. A good opening line *hooks* the reader.
 9. My son is completely *hooked* on chess.
 
-**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-1) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-2) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-3)
+**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-3) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-1) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-2) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up)
 
 ---
 
@@ -1177,7 +1177,7 @@ Match has 2 distinct senses.
 5. He *matched* the world record on his second try.
 6. The company has *matched* every dollar she put into her 401(k).
 
-**Phrasal verbs:** [match up](56-phrasal-regular-m-p.md#match-up) &middot; [match up](56-phrasal-regular-m-p.md#match-up-1)
+**Phrasal verbs:** [match up](56-phrasal-regular-m-p.md#match-up-1) &middot; [match up](56-phrasal-regular-m-p.md#match-up)
 
 ---
 

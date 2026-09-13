@@ -848,7 +848,7 @@ To make food or drink moderately hot.
 2. She *warmed* the rolls in the oven.
 3. He is *warming* soup on the stove.
 
-**Phrasal verbs:** [warm over](58-phrasal-regular-t-z.md#warm-over) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up-1) &middot; [warm up to](58-phrasal-regular-t-z.md#warm-up-to)
+**Phrasal verbs:** [warm over](58-phrasal-regular-t-z.md#warm-over) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up-1) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up) &middot; [warm up to](58-phrasal-regular-t-z.md#warm-up-to)
 
 ---
 
@@ -867,7 +867,7 @@ To make something hot, especially food or liquid.
 2. I *heated* the leftovers in a pan.
 3. The skillet is *heating* now.
 
-**Phrasal verbs:** [heat up](55-phrasal-regular-g-l.md#heat-up) &middot; [heat up](55-phrasal-regular-g-l.md#heat-up-1)
+**Phrasal verbs:** [heat up](55-phrasal-regular-g-l.md#heat-up-1) &middot; [heat up](55-phrasal-regular-g-l.md#heat-up)
 
 ---
 
@@ -1078,7 +1078,7 @@ Top has 2 distinct senses.
 5. Sales *topped* a million dollars last quarter.
 6. The song has *topped* the charts for six straight weeks.
 
-**Phrasal verbs:** [top off](58-phrasal-regular-t-z.md#top-off) &middot; [top off](58-phrasal-regular-t-z.md#top-off-1) &middot; [top out](58-phrasal-regular-t-z.md#top-out)
+**Phrasal verbs:** [top off](58-phrasal-regular-t-z.md#top-off-1) &middot; [top off](58-phrasal-regular-t-z.md#top-off) &middot; [top out](58-phrasal-regular-t-z.md#top-out)
 
 ---
 
@@ -1444,7 +1444,7 @@ Wash has 2 distinct senses.
 5. The flood *washed* topsoil into the creek.
 6. A dead whale had *washed* ashore overnight.
 
-**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up)
+**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up)
 
 ---
 
@@ -1483,7 +1483,7 @@ Clear has 4 distinct senses.
 11. The tower *cleared* us for takeoff.
 12. The drug has not been *cleared* for children.
 
-**Phrasal verbs:** [clear off](53-phrasal-regular-a-c.md#clear-off) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out-1) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-2) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up)
+**Phrasal verbs:** [clear off](53-phrasal-regular-a-c.md#clear-off) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-2) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-1)
 
 ---
 
@@ -1530,7 +1530,7 @@ Wipe has 2 distinct senses.
 5. The update *wiped* all my saved photos.
 6. The laptop had already been *wiped* when police got it.
 
-**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
+**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
 
 ---
 
@@ -1576,7 +1576,7 @@ To remove the water from something.
 2. He washed and *dried* every glass.
 3. The herbs are *drying* by the window.
 
-**Phrasal verbs:** [dry off](54-phrasal-regular-d-f.md#dry-off) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out-1) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up-1)
+**Phrasal verbs:** [dry off](54-phrasal-regular-d-f.md#dry-off) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out-1) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up-1) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up)
 
 ---
 
@@ -1610,7 +1610,7 @@ Fill has 3 distinct senses.
 8. They *filled* the order the same day.
 9. That prescription has already been *filled* once.
 
-**Phrasal verbs:** [fill in](54-phrasal-regular-d-f.md#fill-in-1) &middot; [fill in](54-phrasal-regular-d-f.md#fill-in) &middot; [fill in for](54-phrasal-regular-d-f.md#fill-in-for) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out-1) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out) &middot; [fill up](54-phrasal-regular-d-f.md#fill-up) &middot; [fill up on](54-phrasal-regular-d-f.md#fill-up-on)
+**Phrasal verbs:** [fill in](54-phrasal-regular-d-f.md#fill-in) &middot; [fill in](54-phrasal-regular-d-f.md#fill-in-1) &middot; [fill in for](54-phrasal-regular-d-f.md#fill-in-for) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out-1) &middot; [fill up](54-phrasal-regular-d-f.md#fill-up) &middot; [fill up on](54-phrasal-regular-d-f.md#fill-up-on)
 
 ---
 
@@ -1752,7 +1752,7 @@ Cool has 2 distinct senses.
 5. His interest in the project began to *cool* after a month.
 6. With demand *cooling*, the store cut its prices.
 
-**Phrasal verbs:** [cool down](53-phrasal-regular-a-c.md#cool-down) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off-1)
+**Phrasal verbs:** [cool down](53-phrasal-regular-a-c.md#cool-down) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off-1) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off)
 
 ---
 

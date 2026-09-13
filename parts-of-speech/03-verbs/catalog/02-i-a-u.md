@@ -1,4 +1,4 @@
-# The i — a — u pattern
+# Irregular verbs: the i — a — u pattern
 
 > Three different forms following one regular vowel shift: /ɪ/ in the base, /æ/ in the past, /ʌ/ in the participle — *sing, sang, sung*.
 

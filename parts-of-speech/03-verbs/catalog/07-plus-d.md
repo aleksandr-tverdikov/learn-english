@@ -1,4 +1,4 @@
-# Past = participle, add -d
+# Irregular verbs: past = participle, add -d
 
 > The past and participle add a -d to the unchanged base.
 

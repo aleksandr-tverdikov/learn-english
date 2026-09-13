@@ -485,7 +485,7 @@ To push the loose end of cloth into a narrow space so it stays.
 2. She *tucked* the price tags out of sight.
 3. He was *tucking* the blanket around the edges of the crib.
 
-**Phrasal verbs:** [tuck away](58-phrasal-regular-t-z.md#tuck-away) &middot; [tuck in](58-phrasal-regular-t-z.md#tuck-in) &middot; [tuck in](58-phrasal-regular-t-z.md#tuck-in-1)
+**Phrasal verbs:** [tuck away](58-phrasal-regular-t-z.md#tuck-away) &middot; [tuck in](58-phrasal-regular-t-z.md#tuck-in-1) &middot; [tuck in](58-phrasal-regular-t-z.md#tuck-in)
 
 ---
 
@@ -1183,7 +1183,7 @@ Strip has 2 distinct senses.
 5. The court *stripped* her of custody.
 6. He was *stripped* of the gold medal.
 
-**Phrasal verbs:** [strip down](57-phrasal-regular-q-s.md#strip-down-1) &middot; [strip down](57-phrasal-regular-q-s.md#strip-down) &middot; [strip off](57-phrasal-regular-q-s.md#strip-off)
+**Phrasal verbs:** [strip down](57-phrasal-regular-q-s.md#strip-down) &middot; [strip down](57-phrasal-regular-q-s.md#strip-down-1) &middot; [strip off](57-phrasal-regular-q-s.md#strip-off)
 
 ---
 

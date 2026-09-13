@@ -1,4 +1,4 @@
-# Past = participle, one vowel changed
+# Irregular verbs: past = participle, one vowel changed
 
 > The past and participle are identical, differing from the base by a single vowel change.
 

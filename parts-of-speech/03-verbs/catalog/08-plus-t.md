@@ -1,4 +1,4 @@
-# Past = participle, add -t
+# Irregular verbs: past = participle, add -t
 
 > The past and participle add a -t to the unchanged base.
 
@@ -243,7 +243,7 @@ To put something briefly into a liquid, and by extension to drop, to slope downw
 14. She *dipped* water from the barrel with a tin cup.
 15. The boys *had dipped* the trough dry by noon.
 
-**Phrasal verbs:** [dip into](54-phrasal-regular-d-f.md#dip-into-1) &middot; [dip into](54-phrasal-regular-d-f.md#dip-into)
+**Phrasal verbs:** [dip into](54-phrasal-regular-d-f.md#dip-into) &middot; [dip into](54-phrasal-regular-d-f.md#dip-into-1)
 
 **See also:** [nip](#nip), [spill](#spill)
 
@@ -609,7 +609,7 @@ To give the letters of a word in order — and, figuratively, to mean or signal 
 16. Two neighbors *spelled* her at the hospital so she could sleep.
 17. Volunteers *have spelled* the crew every four hours.
 
-**Phrasal verbs:** [spell out](57-phrasal-regular-q-s.md#spell-out) &middot; [spell out](57-phrasal-regular-q-s.md#spell-out-1)
+**Phrasal verbs:** [spell out](57-phrasal-regular-q-s.md#spell-out-1) &middot; [spell out](57-phrasal-regular-q-s.md#spell-out)
 
 **See also:** [misspell](#misspell), [smell](#smell)
 

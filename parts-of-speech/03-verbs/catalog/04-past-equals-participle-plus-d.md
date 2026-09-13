@@ -1,4 +1,4 @@
-# Past = participle, vowel change plus -d
+# Irregular verbs: past = participle, vowel change plus -d
 
 > Like the previous group, with a -d added to the changed stem.
 

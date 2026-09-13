@@ -1,4 +1,4 @@
-# Final -d becomes -t
+# Irregular verbs: final -d becomes -t
 
 > The past and participle are identical and differ from the base only in the final consonant: -d becomes -t.
 

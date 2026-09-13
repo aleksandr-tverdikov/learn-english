@@ -1,4 +1,4 @@
-# All three forms identical
+# Irregular verbs: all three forms identical
 
 > The base, past, and past participle are spelled the same. The one trap is *read*, where the spelling never changes but the past forms are pronounced /rɛd/.
 

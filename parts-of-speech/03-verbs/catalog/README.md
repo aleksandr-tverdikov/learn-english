@@ -10,19 +10,19 @@
 
 | # | Category | What it covers | Entries |
 |---|---|---|---|
-| 1 | [All three forms identical](01-all-three-same.md) | The base, past, and past participle are spelled the same. The one trap is read, where the spelling never changes but the past forms are pronounced /rɛd/. | 58 |
-| 2 | [The i — a — u pattern](02-i-a-u.md) | Three different forms following one regular vowel shift: /ɪ/ in the base, /æ/ in the past, /ʌ/ in the participle — sing, sang, sung. | 10 |
-| 3 | [Past = participle, one vowel changed](03-past-equals-participle-vowel.md) | The past and participle are identical, differing from the base by a single vowel change. | 73 |
-| 4 | [Past = participle, vowel change plus -d](04-past-equals-participle-plus-d.md) | Like the previous group, with a -d added to the changed stem. | 17 |
-| 5 | [Past = participle, vowel change plus -t](05-past-equals-participle-plus-t.md) | Like the previous group, with a -t added to the changed stem. | 28 |
-| 6 | [Final -d becomes -t](06-d-becomes-t.md) | The past and participle are identical and differ from the base only in the final consonant: -d becomes -t. | 16 |
-| 7 | [Past = participle, add -d](07-plus-d.md) | The past and participle add a -d to the unchanged base. | 22 |
-| 8 | [Past = participle, add -t](08-plus-t.md) | The past and participle add a -t to the unchanged base. | 21 |
-| 9 | [Participle = base, past changes vowel](09-participle-equals-base.md) | The participle returns to the base form; only the past differs, by a regular vowel change. | 7 |
-| 10 | [Participle = base + -n](10-participle-base-plus-n.md) | The participle is the base plus -n. The past form varies. | 9 |
-| 11 | [Past = base + -d, participle = base + -n](11-past-plus-d-participle-plus-n.md) | The past adds -d and the participle adds -n, both to the unchanged base. | 23 |
-| 12 | [Participle = base + -n, with vowel change](12-participle-plus-n-vowel-change.md) | The participle is formed with -n, and the vowels shift across the three forms. | 59 |
-| 13 | [Past has "o", participle = past + -n](13-o-past-participle-plus-n.md) | The past takes an /oʊ/ vowel and the participle is that past form plus -n. | 23 |
+| 1 | [Irregular verbs: all three forms identical](01-all-three-same.md) | The base, past, and past participle are spelled the same. The one trap is read, where the spelling never changes but the past forms are pronounced /rɛd/. | 58 |
+| 2 | [Irregular verbs: the i — a — u pattern](02-i-a-u.md) | Three different forms following one regular vowel shift: /ɪ/ in the base, /æ/ in the past, /ʌ/ in the participle — sing, sang, sung. | 10 |
+| 3 | [Irregular verbs: past = participle, one vowel changed](03-past-equals-participle-vowel.md) | The past and participle are identical, differing from the base by a single vowel change. | 73 |
+| 4 | [Irregular verbs: past = participle, vowel change plus -d](04-past-equals-participle-plus-d.md) | Like the previous group, with a -d added to the changed stem. | 17 |
+| 5 | [Irregular verbs: past = participle, vowel change plus -t](05-past-equals-participle-plus-t.md) | Like the previous group, with a -t added to the changed stem. | 28 |
+| 6 | [Irregular verbs: final -d becomes -t](06-d-becomes-t.md) | The past and participle are identical and differ from the base only in the final consonant: -d becomes -t. | 16 |
+| 7 | [Irregular verbs: past = participle, add -d](07-plus-d.md) | The past and participle add a -d to the unchanged base. | 22 |
+| 8 | [Irregular verbs: past = participle, add -t](08-plus-t.md) | The past and participle add a -t to the unchanged base. | 21 |
+| 9 | [Irregular verbs: participle = base, past changes vowel](09-participle-equals-base.md) | The participle returns to the base form; only the past differs, by a regular vowel change. | 7 |
+| 10 | [Irregular verbs: participle = base + -n](10-participle-base-plus-n.md) | The participle is the base plus -n. The past form varies. | 9 |
+| 11 | [Irregular verbs: past = base + -d, participle = base + -n](11-past-plus-d-participle-plus-n.md) | The past adds -d and the participle adds -n, both to the unchanged base. | 23 |
+| 12 | [Irregular verbs: participle = base + -n, with vowel change](12-participle-plus-n-vowel-change.md) | The participle is formed with -n, and the vowels shift across the three forms. | 59 |
+| 13 | [Irregular verbs: past has "o", participle = past + -n](13-o-past-participle-plus-n.md) | The past takes an /oʊ/ vowel and the participle is that past form plus -n. | 23 |
 | 14 | [Phrasal verbs: be — buy](14-phrasal-b.md) | Phrasal verbs built on the irregular verbs be, bear, beat… — where the meaning is in the particle, not the verb. | 95 |
 | 15 | [Phrasal verbs: cast — cut](15-phrasal-c.md) | Phrasal verbs built on the irregular verbs cast, catch, choose… — where the meaning is in the particle, not the verb. | 70 |
 | 16 | [Phrasal verbs: deal — freeze](16-phrasal-d-f.md) | Phrasal verbs built on the irregular verbs deal, dig, do… — where the meaning is in the particle, not the verb. | 80 |
@@ -31,7 +31,7 @@
 | 19 | [Phrasal verbs: make — run](19-phrasal-m-r.md) | Phrasal verbs built on the irregular verbs make, mean, meet… — where the meaning is in the particle, not the verb. | 77 |
 | 20 | [Phrasal verbs: say — swing](20-phrasal-s.md) | Phrasal verbs built on the irregular verbs say, see, seek… — where the meaning is in the particle, not the verb. | 127 |
 | 21 | [Phrasal verbs: take — write](21-phrasal-t-w.md) | Phrasal verbs built on the irregular verbs take, teach, tear… — where the meaning is in the particle, not the verb. | 69 |
-| 22 | [Dependent prepositions: verb patterns](22-verb-preposition.md) | The prepositions you do not choose — the ones a particular verb simply requires, so that depend takes on, rely takes on, and discuss takes nothing at all. | 229 |
+| 22 | [Verb + preposition patterns](22-verb-preposition.md) | The prepositions you do not choose — the ones a particular verb simply requires, so that depend takes on, rely takes on, and discuss takes nothing at all. | 229 |
 | 23 | [Core verbs: motion and travel](23-core-motion-travel.md) | The everyday regular verbs of motion and travel — all four forms, pronunciation, Russian, and three examples that use more than one form. | 121 |
 | 24 | [Core verbs: speech and communication](24-core-speech-communication.md) | The everyday regular verbs of speech and communication — all four forms, pronunciation, Russian, and three examples that use more than one form. | 121 |
 | 25 | [Core verbs: thinking and knowing](25-core-thinking-knowing.md) | The everyday regular verbs of thinking and knowing — all four forms, pronunciation, Russian, and three examples that use more than one form. | 95 |

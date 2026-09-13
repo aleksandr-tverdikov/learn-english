@@ -1,4 +1,4 @@
-# Participle = base + -n, with vowel change
+# Irregular verbs: participle = base + -n, with vowel change
 
 > The participle is formed with -n, and the vowels shift across the three forms.
 

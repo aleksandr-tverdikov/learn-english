@@ -1,4 +1,4 @@
-# Participle = base + -n
+# Irregular verbs: participle = base + -n
 
 > The participle is the base plus -n. The past form varies.
 

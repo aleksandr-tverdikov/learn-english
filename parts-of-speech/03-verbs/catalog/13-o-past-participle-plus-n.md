@@ -1,4 +1,4 @@
-# Past has "o", participle = past + -n
+# Irregular verbs: past has "o", participle = past + -n
 
 > The past takes an /oʊ/ vowel and the participle is that past form plus -n.
 
