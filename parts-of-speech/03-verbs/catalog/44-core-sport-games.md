@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -1169,7 +1169,7 @@ To hit someone or something hard enough to move it or bring it down.
 2. He *knocked* his opponent into the ropes.
 3. She was *knocked* off the ball far too easily.
 
-**Phrasal verbs:** [knock down](55-phrasal-regular-g-l.md#knock-down) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off-2) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off-1) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-2) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-1) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-3) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out)
+**Phrasal verbs:** [knock down](55-phrasal-regular-g-l.md#knock-down) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off-2) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off-1) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-1) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-2) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-3)
 
 ---
 

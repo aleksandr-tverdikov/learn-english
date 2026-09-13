@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -692,7 +692,7 @@ To make food or drink moderately hot.
 2. She *warmed* the rolls in the oven.
 3. He is *warming* soup on the stove.
 
-**Phrasal verbs:** [warm over](58-phrasal-regular-t-z.md#warm-over) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up-1) &middot; [warm up to](58-phrasal-regular-t-z.md#warm-up-to)
+**Phrasal verbs:** [warm over](58-phrasal-regular-t-z.md#warm-over) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up-1) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up) &middot; [warm up to](58-phrasal-regular-t-z.md#warm-up-to)
 
 ---
 
@@ -1006,7 +1006,7 @@ To beat cream or eggs quickly until they are light and thick.
 2. She *whipped* the egg whites by hand.
 3. He is *whipping* butter and sugar together.
 
-**Phrasal verbs:** [whip out](58-phrasal-regular-t-z.md#whip-out) &middot; [whip through](58-phrasal-regular-t-z.md#whip-through) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up-1)
+**Phrasal verbs:** [whip out](58-phrasal-regular-t-z.md#whip-out) &middot; [whip through](58-phrasal-regular-t-z.md#whip-through) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up-1) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up)
 
 ---
 
@@ -1045,7 +1045,7 @@ To make a liquid flow from one container into another.
 2. He *poured* everyone a glass of wine.
 3. She is *pouring* coffee for the table.
 
-**Phrasal verbs:** [pour down](56-phrasal-regular-m-p.md#pour-down) &middot; [pour in](56-phrasal-regular-m-p.md#pour-in) &middot; [pour out](56-phrasal-regular-m-p.md#pour-out) &middot; [pour out](56-phrasal-regular-m-p.md#pour-out-1)
+**Phrasal verbs:** [pour down](56-phrasal-regular-m-p.md#pour-down) &middot; [pour in](56-phrasal-regular-m-p.md#pour-in) &middot; [pour out](56-phrasal-regular-m-p.md#pour-out-1) &middot; [pour out](56-phrasal-regular-m-p.md#pour-out)
 
 ---
 
@@ -1136,7 +1136,7 @@ To leave food or dishes in liquid for a long time.
 2. She *soaked* the rice for twenty minutes.
 3. The pans are *soaking* in the sink.
 
-**Phrasal verbs:** [soak up](57-phrasal-regular-q-s.md#soak-up-1) &middot; [soak up](57-phrasal-regular-q-s.md#soak-up)
+**Phrasal verbs:** [soak up](57-phrasal-regular-q-s.md#soak-up) &middot; [soak up](57-phrasal-regular-q-s.md#soak-up-1)
 
 ---
 
@@ -1176,7 +1176,7 @@ To clean something with water, usually with soap.
 2. He *washed* the dishes after dinner.
 3. She is *washing* grapes at the sink.
 
-**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1)
+**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1)
 
 ---
 
@@ -1195,7 +1195,7 @@ To take dishes and food off a table.
 2. She *cleared* the plates while we talked.
 3. He is *clearing* the last of the glasses.
 
-**Phrasal verbs:** [clear off](53-phrasal-regular-a-c.md#clear-off) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-2)
+**Phrasal verbs:** [clear off](53-phrasal-regular-a-c.md#clear-off) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-2) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-1)
 
 ---
 
@@ -1234,7 +1234,7 @@ To rub a surface with a cloth to clean or dry it.
 2. He *wiped* his mouth with a napkin.
 3. She is *wiping* down the counter.
 
-**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
+**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
 
 ---
 
@@ -1292,7 +1292,7 @@ To put enough of something into a container to make it full.
 2. She *filled* our glasses to the top.
 3. He is *filling* the kettle.
 
-**Phrasal verbs:** [fill in](54-phrasal-regular-d-f.md#fill-in) &middot; [fill in](54-phrasal-regular-d-f.md#fill-in-1) &middot; [fill in for](54-phrasal-regular-d-f.md#fill-in-for) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out-1) &middot; [fill up](54-phrasal-regular-d-f.md#fill-up) &middot; [fill up on](54-phrasal-regular-d-f.md#fill-up-on)
+**Phrasal verbs:** [fill in](54-phrasal-regular-d-f.md#fill-in) &middot; [fill in](54-phrasal-regular-d-f.md#fill-in-1) &middot; [fill in for](54-phrasal-regular-d-f.md#fill-in-for) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out-1) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out) &middot; [fill up](54-phrasal-regular-d-f.md#fill-up) &middot; [fill up on](54-phrasal-regular-d-f.md#fill-up-on)
 
 ---
 

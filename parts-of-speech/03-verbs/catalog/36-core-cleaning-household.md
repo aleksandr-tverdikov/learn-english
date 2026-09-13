@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -25,7 +25,7 @@ To wash a floor with a mop.
 2. Someone *mopped* the hallway and left it wet.
 3. He was *mopping* the floor when the phone rang.
 
-**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up-1)
+**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up-1) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up)
 
 ---
 
@@ -429,7 +429,7 @@ To push the loose end of cloth into a narrow space so it stays.
 2. She *tucked* the price tags out of sight.
 3. He was *tucking* the blanket around the edges of the crib.
 
-**Phrasal verbs:** [tuck away](58-phrasal-regular-t-z.md#tuck-away) &middot; [tuck in](58-phrasal-regular-t-z.md#tuck-in-1) &middot; [tuck in](58-phrasal-regular-t-z.md#tuck-in)
+**Phrasal verbs:** [tuck away](58-phrasal-regular-t-z.md#tuck-away) &middot; [tuck in](58-phrasal-regular-t-z.md#tuck-in) &middot; [tuck in](58-phrasal-regular-t-z.md#tuck-in-1)
 
 ---
 
@@ -482,7 +482,7 @@ To separate things into groups of the same kind.
 2. He *sorted* the mail into three piles.
 3. She's *sorting* the recycling.
 
-**Phrasal verbs:** [sort out](57-phrasal-regular-q-s.md#sort-out-1) &middot; [sort out](57-phrasal-regular-q-s.md#sort-out) &middot; [sort through](57-phrasal-regular-q-s.md#sort-through)
+**Phrasal verbs:** [sort out](57-phrasal-regular-q-s.md#sort-out) &middot; [sort out](57-phrasal-regular-q-s.md#sort-out-1) &middot; [sort through](57-phrasal-regular-q-s.md#sort-through)
 
 ---
 

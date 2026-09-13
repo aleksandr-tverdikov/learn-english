@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -134,7 +134,7 @@ To make an engine begin to run, or to begin to run.
 2. The van *started* on the third try.
 3. It has not *started* once since the cold snap.
 
-**Phrasal verbs:** [start off](57-phrasal-regular-q-s.md#start-off) &middot; [start on](57-phrasal-regular-q-s.md#start-on) &middot; [start out](57-phrasal-regular-q-s.md#start-out) &middot; [start over](57-phrasal-regular-q-s.md#start-over) &middot; [start up](57-phrasal-regular-q-s.md#start-up-1) &middot; [start up](57-phrasal-regular-q-s.md#start-up)
+**Phrasal verbs:** [start off](57-phrasal-regular-q-s.md#start-off) &middot; [start on](57-phrasal-regular-q-s.md#start-on) &middot; [start out](57-phrasal-regular-q-s.md#start-out) &middot; [start over](57-phrasal-regular-q-s.md#start-over) &middot; [start up](57-phrasal-regular-q-s.md#start-up) &middot; [start up](57-phrasal-regular-q-s.md#start-up-1)
 
 ---
 

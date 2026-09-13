@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -41,7 +41,7 @@ To play a part in a play, film, or television show.
 2. She *acted* in commercials before her first movie.
 3. He has been *acting* since the age of six.
 
-**Phrasal verbs:** [act on](53-phrasal-regular-a-c.md#act-on) &middot; [act out](53-phrasal-regular-a-c.md#act-out) &middot; [act out](53-phrasal-regular-a-c.md#act-out-1) &middot; [act up](53-phrasal-regular-a-c.md#act-up) &middot; [act up](53-phrasal-regular-a-c.md#act-up-1)
+**Phrasal verbs:** [act on](53-phrasal-regular-a-c.md#act-on) &middot; [act out](53-phrasal-regular-a-c.md#act-out-1) &middot; [act out](53-phrasal-regular-a-c.md#act-out) &middot; [act up](53-phrasal-regular-a-c.md#act-up) &middot; [act up](53-phrasal-regular-a-c.md#act-up-1)
 
 ---
 

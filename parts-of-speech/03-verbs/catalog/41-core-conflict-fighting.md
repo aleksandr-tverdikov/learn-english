@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -237,7 +237,7 @@ To hit someone hard with your closed fist.
 2. Don't *punch* a wall when you are angry.
 3. The boxer kept *punching* until the bell rang.
 
-**Phrasal verbs:** [punch in](56-phrasal-regular-m-p.md#punch-in-1) &middot; [punch in](56-phrasal-regular-m-p.md#punch-in) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out-1) &middot; [punch up](56-phrasal-regular-m-p.md#punch-up)
+**Phrasal verbs:** [punch in](56-phrasal-regular-m-p.md#punch-in) &middot; [punch in](56-phrasal-regular-m-p.md#punch-in-1) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out-1) &middot; [punch up](56-phrasal-regular-m-p.md#punch-up)
 
 ---
 

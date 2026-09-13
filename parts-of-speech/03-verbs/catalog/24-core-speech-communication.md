@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -24,7 +24,7 @@ To say something more after what has already been said.
 2. Would you like to *add* anything before we finish?
 3. He has *added* a note at the bottom of the letter.
 
-**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
+**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
 
 ---
 
@@ -270,7 +270,7 @@ To telephone someone, or to say someone's name loudly to get their attention.
 2. I *called* the office twice this morning.
 3. Somebody has been *calling* and hanging up.
 
-**Phrasal verbs:** [call around](53-phrasal-regular-a-c.md#call-around) &middot; [call back](53-phrasal-regular-a-c.md#call-back) &middot; [call for](53-phrasal-regular-a-c.md#call-for) &middot; [call in](53-phrasal-regular-a-c.md#call-in) &middot; [call in](53-phrasal-regular-a-c.md#call-in-1) &middot; [call off](53-phrasal-regular-a-c.md#call-off) &middot; [call on](53-phrasal-regular-a-c.md#call-on) &middot; [call out](53-phrasal-regular-a-c.md#call-out) &middot; [call up](53-phrasal-regular-a-c.md#call-up) &middot; [call up](53-phrasal-regular-a-c.md#call-up-1)
+**Phrasal verbs:** [call around](53-phrasal-regular-a-c.md#call-around) &middot; [call back](53-phrasal-regular-a-c.md#call-back) &middot; [call for](53-phrasal-regular-a-c.md#call-for) &middot; [call in](53-phrasal-regular-a-c.md#call-in-1) &middot; [call in](53-phrasal-regular-a-c.md#call-in) &middot; [call off](53-phrasal-regular-a-c.md#call-off) &middot; [call on](53-phrasal-regular-a-c.md#call-on) &middot; [call out](53-phrasal-regular-a-c.md#call-out) &middot; [call up](53-phrasal-regular-a-c.md#call-up-1) &middot; [call up](53-phrasal-regular-a-c.md#call-up)
 
 ---
 

@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -24,7 +24,7 @@ To support a person, plan, or cause, especially with money or public approval.
 2. The city council *backed* her proposal last night.
 3. The shelter is *backed* by one small family foundation.
 
-**Phrasal verbs:** [back down](53-phrasal-regular-a-c.md#back-down) &middot; [back off](53-phrasal-regular-a-c.md#back-off) &middot; [back out](53-phrasal-regular-a-c.md#back-out) &middot; [back up](53-phrasal-regular-a-c.md#back-up-3) &middot; [back up](53-phrasal-regular-a-c.md#back-up-2) &middot; [back up](53-phrasal-regular-a-c.md#back-up-1) &middot; [back up](53-phrasal-regular-a-c.md#back-up)
+**Phrasal verbs:** [back down](53-phrasal-regular-a-c.md#back-down) &middot; [back off](53-phrasal-regular-a-c.md#back-off) &middot; [back out](53-phrasal-regular-a-c.md#back-out) &middot; [back up](53-phrasal-regular-a-c.md#back-up-2) &middot; [back up](53-phrasal-regular-a-c.md#back-up-1) &middot; [back up](53-phrasal-regular-a-c.md#back-up-3) &middot; [back up](53-phrasal-regular-a-c.md#back-up)
 
 ---
 

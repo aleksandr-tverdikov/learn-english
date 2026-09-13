@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -184,7 +184,7 @@ To pour water on plants or give water to animals.
 2. I *watered* the garden at sunrise.
 3. The seedlings have not been *watered* in three days.
 
-**Phrasal verbs:** [water down](58-phrasal-regular-t-z.md#water-down) &middot; [water down](58-phrasal-regular-t-z.md#water-down-1)
+**Phrasal verbs:** [water down](58-phrasal-regular-t-z.md#water-down-1) &middot; [water down](58-phrasal-regular-t-z.md#water-down)
 
 ---
 
@@ -573,7 +573,7 @@ To take fruit, flowers, or vegetables off the plant by hand.
 2. She *picked* three quarts of blueberries before noon.
 3. These beans are *picked* by hand.
 
-**Phrasal verbs:** [pick apart](56-phrasal-regular-m-p.md#pick-apart) &middot; [pick at](56-phrasal-regular-m-p.md#pick-at) &middot; [pick off](56-phrasal-regular-m-p.md#pick-off) &middot; [pick on](56-phrasal-regular-m-p.md#pick-on) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out-1) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-10) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-9) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-3) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-7) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-4) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-8) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-6) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-2) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-1) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-5) &middot; [pick up after](56-phrasal-regular-m-p.md#pick-up-after) &middot; [pick up on](56-phrasal-regular-m-p.md#pick-up-on)
+**Phrasal verbs:** [pick apart](56-phrasal-regular-m-p.md#pick-apart) &middot; [pick at](56-phrasal-regular-m-p.md#pick-at) &middot; [pick off](56-phrasal-regular-m-p.md#pick-off) &middot; [pick on](56-phrasal-regular-m-p.md#pick-on) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out-1) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-5) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-7) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-3) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-8) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-6) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-10) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-4) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-1) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-9) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-2) &middot; [pick up after](56-phrasal-regular-m-p.md#pick-up-after) &middot; [pick up on](56-phrasal-regular-m-p.md#pick-up-on)
 
 ---
 

@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -797,7 +797,7 @@ To trick someone into believing something that is not true.
 2. He *fooled* us all with that story about his uncle.
 3. She has been *fooling* people for years.
 
-**Phrasal verbs:** [fool around](54-phrasal-regular-d-f.md#fool-around) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with-1) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with)
+**Phrasal verbs:** [fool around](54-phrasal-regular-d-f.md#fool-around) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with-1)
 
 ---
 

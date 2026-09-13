@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -25,7 +25,7 @@ To make a file, app, or window appear on a screen so you can use it.
 2. I *opened* the attachment and my laptop froze.
 3. The file is *opening* - give it a second.
 
-**Phrasal verbs:** [open up](56-phrasal-regular-m-p.md#open-up-4) &middot; [open up](56-phrasal-regular-m-p.md#open-up-2) &middot; [open up](56-phrasal-regular-m-p.md#open-up-1) &middot; [open up](56-phrasal-regular-m-p.md#open-up) &middot; [open up](56-phrasal-regular-m-p.md#open-up-3)
+**Phrasal verbs:** [open up](56-phrasal-regular-m-p.md#open-up) &middot; [open up](56-phrasal-regular-m-p.md#open-up-3) &middot; [open up](56-phrasal-regular-m-p.md#open-up-4) &middot; [open up](56-phrasal-regular-m-p.md#open-up-1) &middot; [open up](56-phrasal-regular-m-p.md#open-up-2)
 
 ---
 
@@ -917,7 +917,7 @@ To stop something from being used or changed without a key, a code, or a passwor
 2. He *locked* the file so that nobody could edit it.
 3. The phone is *locking* itself every thirty seconds.
 
-**Phrasal verbs:** [lock down](55-phrasal-regular-g-l.md#lock-down) &middot; [lock in](55-phrasal-regular-g-l.md#lock-in) &middot; [lock out](55-phrasal-regular-g-l.md#lock-out) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up-1)
+**Phrasal verbs:** [lock down](55-phrasal-regular-g-l.md#lock-down) &middot; [lock in](55-phrasal-regular-g-l.md#lock-in) &middot; [lock out](55-phrasal-regular-g-l.md#lock-out) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up-1) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up)
 
 ---
 
@@ -1094,7 +1094,7 @@ To enter a phone number in order to make a call.
 2. He *dialed* the wrong number twice.
 3. She is *dialing* in from the airport.
 
-**Phrasal verbs:** [dial back](54-phrasal-regular-d-f.md#dial-back) &middot; [dial down](54-phrasal-regular-d-f.md#dial-down) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in-1) &middot; [dial up](54-phrasal-regular-d-f.md#dial-up)
+**Phrasal verbs:** [dial back](54-phrasal-regular-d-f.md#dial-back) &middot; [dial down](54-phrasal-regular-d-f.md#dial-down) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in-1) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in) &middot; [dial up](54-phrasal-regular-d-f.md#dial-up)
 
 ---
 

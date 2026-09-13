@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -1645,7 +1645,7 @@ To burn or shine suddenly brighter for a short time.
 2. The fire *flared* when it reached the pines.
 3. The northern lights were *flaring* green over the lake.
 
-**Phrasal verbs:** [flare up](54-phrasal-regular-d-f.md#flare-up-1) &middot; [flare up](54-phrasal-regular-d-f.md#flare-up)
+**Phrasal verbs:** [flare up](54-phrasal-regular-d-f.md#flare-up) &middot; [flare up](54-phrasal-regular-d-f.md#flare-up-1)
 
 ---
 

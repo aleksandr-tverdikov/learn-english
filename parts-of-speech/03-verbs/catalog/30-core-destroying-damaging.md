@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -147,7 +147,7 @@ To break so that a line appears on the surface, without breaking into pieces.
 2. Set it down gently or you'll *crack* the tile.
 3. She found a *cracked* pipe under the sink.
 
-**Phrasal verbs:** [crack down](53-phrasal-regular-a-c.md#crack-down) &middot; [crack open](53-phrasal-regular-a-c.md#crack-open) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-1) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-2)
+**Phrasal verbs:** [crack down](53-phrasal-regular-a-c.md#crack-down) &middot; [crack open](53-phrasal-regular-a-c.md#crack-open) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-1) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-2)
 
 ---
 
@@ -241,7 +241,7 @@ To tear something quickly and roughly.
 2. Please don't *rip* the envelope — I need the address.
 3. The flag had been *ripped* to shreds by the wind.
 
-**Phrasal verbs:** [rip into](57-phrasal-regular-q-s.md#rip-into) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-2) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-1) &middot; [rip out](57-phrasal-regular-q-s.md#rip-out) &middot; [rip through](57-phrasal-regular-q-s.md#rip-through) &middot; [rip up](57-phrasal-regular-q-s.md#rip-up)
+**Phrasal verbs:** [rip into](57-phrasal-regular-q-s.md#rip-into) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-2) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-1) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off) &middot; [rip out](57-phrasal-regular-q-s.md#rip-out) &middot; [rip through](57-phrasal-regular-q-s.md#rip-through) &middot; [rip up](57-phrasal-regular-q-s.md#rip-up)
 
 ---
 

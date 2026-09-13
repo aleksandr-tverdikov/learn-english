@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -25,7 +25,7 @@ To put clothes on yourself or on another person.
 2. She *dressed* the twins in matching coats.
 3. I was *dressing* when the phone rang.
 
-**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1)
+**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up)
 
 ---
 
@@ -100,7 +100,7 @@ To put clothing or cloth over a part of the body.
 2. She *covered* her head with a thin scarf.
 3. His arms were *covered* to the wrist.
 
-**Phrasal verbs:** [cover for](53-phrasal-regular-a-c.md#cover-for) &middot; [cover for](53-phrasal-regular-a-c.md#cover-for-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up) &middot; [cover with](22-verb-preposition.md#cover-with)
+**Phrasal verbs:** [cover for](53-phrasal-regular-a-c.md#cover-for-1) &middot; [cover for](53-phrasal-regular-a-c.md#cover-for) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up-1) &middot; [cover with](22-verb-preposition.md#cover-with)
 
 ---
 
@@ -448,7 +448,7 @@ To fasten something with a knot or a bow.
 2. She *tied* the sash in a neat bow.
 3. The apron was *tied* so loosely that it came undone.
 
-**Phrasal verbs:** [tie down](58-phrasal-regular-t-z.md#tie-down) &middot; [tie in](58-phrasal-regular-t-z.md#tie-in) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up-1)
+**Phrasal verbs:** [tie down](58-phrasal-regular-t-z.md#tie-down) &middot; [tie in](58-phrasal-regular-t-z.md#tie-in) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up-1) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up)
 
 ---
 
@@ -520,7 +520,7 @@ To fasten something with a hook, or to hang it on one.
 2. She *hooked* the strap and pulled the zipper up.
 3. His jacket was *hooked* over the back of the chair.
 
-**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-3) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-1) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-2)
+**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-3) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-2) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-1) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up)
 
 ---
 
@@ -786,7 +786,7 @@ To cover the inside of a coat, a bag, or a box with another material.
 2. She *lined* the jacket with cheap silk.
 3. The boots are *lined* with wool.
 
-**Phrasal verbs:** [line up](55-phrasal-regular-g-l.md#line-up) &middot; [line up](55-phrasal-regular-g-l.md#line-up-1)
+**Phrasal verbs:** [line up](55-phrasal-regular-g-l.md#line-up-1) &middot; [line up](55-phrasal-regular-g-l.md#line-up)
 
 ---
 

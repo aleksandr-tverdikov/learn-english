@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -25,7 +25,7 @@ To do a job, especially one you are paid for.
 2. She *worked* late three nights in a row.
 3. He has been *working* here since 2019.
 
-**Phrasal verbs:** [work around](58-phrasal-regular-t-z.md#work-around) &middot; [work in](58-phrasal-regular-t-z.md#work-in) &middot; [work off](58-phrasal-regular-t-z.md#work-off) &middot; [work on, work for, work with](22-verb-preposition.md#work-on-work-for-work-with) &middot; [work out](58-phrasal-regular-t-z.md#work-out) &middot; [work out](58-phrasal-regular-t-z.md#work-out-3) &middot; [work out](58-phrasal-regular-t-z.md#work-out-1) &middot; [work out](58-phrasal-regular-t-z.md#work-out-2) &middot; [work out to](58-phrasal-regular-t-z.md#work-out-to) &middot; [work through](58-phrasal-regular-t-z.md#work-through) &middot; [work up](58-phrasal-regular-t-z.md#work-up-1) &middot; [work up](58-phrasal-regular-t-z.md#work-up) &middot; [work up to](58-phrasal-regular-t-z.md#work-up-to)
+**Phrasal verbs:** [work around](58-phrasal-regular-t-z.md#work-around) &middot; [work in](58-phrasal-regular-t-z.md#work-in) &middot; [work off](58-phrasal-regular-t-z.md#work-off) &middot; [work on, work for, work with](22-verb-preposition.md#work-on-work-for-work-with) &middot; [work out](58-phrasal-regular-t-z.md#work-out-2) &middot; [work out](58-phrasal-regular-t-z.md#work-out) &middot; [work out](58-phrasal-regular-t-z.md#work-out-3) &middot; [work out](58-phrasal-regular-t-z.md#work-out-1) &middot; [work out to](58-phrasal-regular-t-z.md#work-out-to) &middot; [work through](58-phrasal-regular-t-z.md#work-through) &middot; [work up](58-phrasal-regular-t-z.md#work-up-1) &middot; [work up](58-phrasal-regular-t-z.md#work-up) &middot; [work up to](58-phrasal-regular-t-z.md#work-up-to)
 
 ---
 
@@ -184,7 +184,7 @@ To make someone leave their job, usually for poor work or bad behavior.
 2. They *fired* him for missing three deadlines.
 3. Two people were *fired* after the audit.
 
-**Phrasal verbs:** [fire away](54-phrasal-regular-d-f.md#fire-away) &middot; [fire back](54-phrasal-regular-d-f.md#fire-back) &middot; [fire off](54-phrasal-regular-d-f.md#fire-off) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up-1) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up)
+**Phrasal verbs:** [fire away](54-phrasal-regular-d-f.md#fire-away) &middot; [fire back](54-phrasal-regular-d-f.md#fire-back) &middot; [fire off](54-phrasal-regular-d-f.md#fire-off) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up-1)
 
 ---
 

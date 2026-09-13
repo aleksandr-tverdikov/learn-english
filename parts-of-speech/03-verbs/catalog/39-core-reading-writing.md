@@ -4,7 +4,7 @@
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
-Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary of 1,291 verbs had no *work*, no *need*, no *ask* and no *explain*.
+Groups 1–22 cover the verbs that **misbehave**: irregular forms, phrasal verbs, and verb + preposition patterns. This tier covers the regular verbs, which were never a category here — which is why a dictionary built entirely of irregular and phrasal verbs had no *work*, no *need*, no *ask* and no *explain*.
 
 Regular does not mean effortless. The forms are still where learners fail: *carry → carried*, *stop → stopped*, *agree → agreed*. Every entry spells all four out, and a **Contrast** line appears wherever the spelling or a required preposition is the trap.
 
@@ -1703,7 +1703,7 @@ To look at something carefully to make sure it is correct.
 2. She *checked* the figures twice.
 3. He is *checking* the references at the back.
 
-**Phrasal verbs:** [check back](53-phrasal-regular-a-c.md#check-back) &middot; [check in](53-phrasal-regular-a-c.md#check-in-1) &middot; [check in](53-phrasal-regular-a-c.md#check-in) &middot; [check in on](53-phrasal-regular-a-c.md#check-in-on) &middot; [check into](53-phrasal-regular-a-c.md#check-into) &middot; [check off](53-phrasal-regular-a-c.md#check-off) &middot; [check out](53-phrasal-regular-a-c.md#check-out-1) &middot; [check out](53-phrasal-regular-a-c.md#check-out-2) &middot; [check out](53-phrasal-regular-a-c.md#check-out) &middot; [check over](53-phrasal-regular-a-c.md#check-over) &middot; [check up on](22-verb-preposition.md#check-up-on) &middot; [check with](53-phrasal-regular-a-c.md#check-with)
+**Phrasal verbs:** [check back](53-phrasal-regular-a-c.md#check-back) &middot; [check in](53-phrasal-regular-a-c.md#check-in-1) &middot; [check in](53-phrasal-regular-a-c.md#check-in) &middot; [check in on](53-phrasal-regular-a-c.md#check-in-on) &middot; [check into](53-phrasal-regular-a-c.md#check-into) &middot; [check off](53-phrasal-regular-a-c.md#check-off) &middot; [check out](53-phrasal-regular-a-c.md#check-out-2) &middot; [check out](53-phrasal-regular-a-c.md#check-out) &middot; [check out](53-phrasal-regular-a-c.md#check-out-1) &middot; [check over](53-phrasal-regular-a-c.md#check-over) &middot; [check up on](22-verb-preposition.md#check-up-on) &middot; [check with](53-phrasal-regular-a-c.md#check-with)
 
 ---
 
