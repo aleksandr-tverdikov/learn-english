@@ -69,7 +69,7 @@ Act has 3 distinct senses.
 8. She *acted* as if nothing had happened.
 9. Stop *acting* like a child.
 
-**Phrasal verbs:** [act on](53-phrasal-regular-a-c.md#act-on) &middot; [act out](53-phrasal-regular-a-c.md#act-out) &middot; [act out](53-phrasal-regular-a-c.md#act-out-1) &middot; [act up](53-phrasal-regular-a-c.md#act-up) &middot; [act up](53-phrasal-regular-a-c.md#act-up-1)
+**Phrasal verbs:** [act on](53-phrasal-regular-a-c.md#act-on) &middot; [act out](53-phrasal-regular-a-c.md#act-out-1) &middot; [act out](53-phrasal-regular-a-c.md#act-out) &middot; [act up](53-phrasal-regular-a-c.md#act-up) &middot; [act up](53-phrasal-regular-a-c.md#act-up-1)
 
 ---
 

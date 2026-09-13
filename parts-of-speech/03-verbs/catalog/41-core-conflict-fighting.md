@@ -335,7 +335,7 @@ Punch has 2 distinct senses.
 5. *Punch* three holes along the side of the box.
 6. The card had been *punched* in the wrong place.
 
-**Phrasal verbs:** [punch in](56-phrasal-regular-m-p.md#punch-in) &middot; [punch in](56-phrasal-regular-m-p.md#punch-in-1) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out-1) &middot; [punch up](56-phrasal-regular-m-p.md#punch-up)
+**Phrasal verbs:** [punch in](56-phrasal-regular-m-p.md#punch-in) &middot; [punch in](56-phrasal-regular-m-p.md#punch-in-1) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out-1) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out) &middot; [punch up](56-phrasal-regular-m-p.md#punch-up)
 
 ---
 

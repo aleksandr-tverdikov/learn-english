@@ -41,9 +41,9 @@ Every entry carries General American pronunciation for **both** forms, since the
 
 **[Open the audio browser](parts-of-speech/01-nouns/catalog/browse.html)** — all 308, searchable, click any noun to hear it.
 
-## Irregular & Phrasal Verbs
+## The Verb Dictionary
 
-**[03-verbs/catalog/](parts-of-speech/03-verbs/catalog/README.md)** — **366 irregular verbs**, **696 phrasal verbs** built on them, and **229 verb + preposition patterns**, built from a Russian-authored spreadsheet and grouped by **how the three forms change** rather than alphabetically: identical forms, the *i—a—u* shift (*sing/sang/sung*), past = participle with one vowel change, *-d* becoming *-t*, participle = base + *-n*, and so on. Learning the pattern beats memorizing 366 rows.
+**[03-verbs/catalog/](parts-of-speech/03-verbs/catalog/README.md)** — **366 irregular verbs**, **2,440 regular verbs**, **2,166 phrasal verbs** built on both, and **229 verb + preposition patterns**, built from a Russian-authored spreadsheet and grouped by **how the three forms change** rather than alphabetically: identical forms, the *i—a—u* shift (*sing/sang/sung*), past = participle with one vowel change, *-d* becoming *-t*, participle = base + *-n*, and so on. Learning the pattern beats memorizing 366 rows.
 
 - **Forms** — all three with General American pronunciation. The source spreadsheet's IPA was British RP and missing the participle for 230 verbs, so it was retranscribed
 - **Русский** — the translation from the original spreadsheet, kept verbatim

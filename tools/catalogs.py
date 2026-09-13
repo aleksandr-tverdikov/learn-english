@@ -81,9 +81,9 @@ CATALOGS = [
     dict(
         slug='03-verbs',
         dir='parts-of-speech/03-verbs/catalog',
-        title='Irregular &amp; Phrasal Verbs',
+        title='The Verb Dictionary',
         eyebrow='03 &middot; Verbs',
-        lede='irregular verbs grouped by how their forms change, plus every phrasal verb built on them',
+        lede='irregular verbs grouped by how their forms change, the regular verbs, and every phrasal verb built on either',
         accent='#8a5a2b', accent_dark='#dda96b',
         # files whose entries are built ON a base verb: listed inside the base
         # entry rather than as their own rows in the A-Z list

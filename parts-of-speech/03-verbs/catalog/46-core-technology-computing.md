@@ -45,7 +45,7 @@ Open has 4 distinct senses.
 11. Police *opened* an investigation into the fire.
 12. The committee has *opened* hearings on the crash.
 
-**Phrasal verbs:** [open up](56-phrasal-regular-m-p.md#open-up-4) &middot; [open up](56-phrasal-regular-m-p.md#open-up) &middot; [open up](56-phrasal-regular-m-p.md#open-up-1) &middot; [open up](56-phrasal-regular-m-p.md#open-up-3) &middot; [open up](56-phrasal-regular-m-p.md#open-up-2)
+**Phrasal verbs:** [open up](56-phrasal-regular-m-p.md#open-up-1) &middot; [open up](56-phrasal-regular-m-p.md#open-up-4) &middot; [open up](56-phrasal-regular-m-p.md#open-up-3) &middot; [open up](56-phrasal-regular-m-p.md#open-up) &middot; [open up](56-phrasal-regular-m-p.md#open-up-2)
 
 ---
 
@@ -1131,7 +1131,7 @@ Lock has 2 distinct senses.
 5. The brakes *locked* and the car slid sideways.
 6. The tray table is *locked* in the upright position.
 
-**Phrasal verbs:** [lock down](55-phrasal-regular-g-l.md#lock-down) &middot; [lock in](55-phrasal-regular-g-l.md#lock-in) &middot; [lock out](55-phrasal-regular-g-l.md#lock-out) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up-1)
+**Phrasal verbs:** [lock down](55-phrasal-regular-g-l.md#lock-down) &middot; [lock in](55-phrasal-regular-g-l.md#lock-in) &middot; [lock out](55-phrasal-regular-g-l.md#lock-out) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up-1) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up)
 
 ---
 
@@ -1324,7 +1324,7 @@ To enter a phone number in order to make a call.
 2. He *dialed* the wrong number twice.
 3. She is *dialing* in from the airport.
 
-**Phrasal verbs:** [dial back](54-phrasal-regular-d-f.md#dial-back) &middot; [dial down](54-phrasal-regular-d-f.md#dial-down) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in-1) &middot; [dial up](54-phrasal-regular-d-f.md#dial-up)
+**Phrasal verbs:** [dial back](54-phrasal-regular-d-f.md#dial-back) &middot; [dial down](54-phrasal-regular-d-f.md#dial-down) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in-1) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in) &middot; [dial up](54-phrasal-regular-d-f.md#dial-up)
 
 ---
 

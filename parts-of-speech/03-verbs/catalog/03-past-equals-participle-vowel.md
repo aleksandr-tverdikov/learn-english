@@ -2285,7 +2285,7 @@ To go, take, or do something quietly so that nobody notices.
 11. She *snuck* a peek at the price tag.
 12. He *has snuck* a look at every present under the tree.
 
-**Phrasal verbs:** [sneak in](57-phrasal-regular-q-s.md#sneak-in-1) &middot; [sneak in](57-phrasal-regular-q-s.md#sneak-in) &middot; [sneak out](57-phrasal-regular-q-s.md#sneak-out) &middot; [sneak up on](57-phrasal-regular-q-s.md#sneak-up-on)
+**Phrasal verbs:** [sneak in](57-phrasal-regular-q-s.md#sneak-in) &middot; [sneak in](57-phrasal-regular-q-s.md#sneak-in-1) &middot; [sneak out](57-phrasal-regular-q-s.md#sneak-out) &middot; [sneak up on](57-phrasal-regular-q-s.md#sneak-up-on)
 
 **See also:** [slink](#slink), [stick](#stick), [strike](#strike)
 

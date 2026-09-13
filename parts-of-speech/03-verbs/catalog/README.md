@@ -1,4 +1,4 @@
-# Irregular &amp; Phrasal Verbs
+# The Verb Dictionary
 
 > **4972 entries** across 58 categories.
 

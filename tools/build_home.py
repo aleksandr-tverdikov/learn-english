@@ -24,7 +24,7 @@ BLURBS = {
     '07-conjunctions': 'Every connector, with the clause type it builds, a substitutable pattern, and the comma rule for that specific word.',
     '06-prepositions': 'The most polysemous class in English. Senses are numbered, and every entry says what may and may not follow it.',
     '09-determiners': 'The tightest closed class, where one wrong choice is instantly ungrammatical. Each entry names the noun types it may precede.',
-    '03-verbs': 'Every irregular verb, grouped by how its three forms change rather than alphabetically. Each form is separately clickable, so you can hear <em>read</em>, <em>read</em>, and <em>read</em> differ.',
+    '03-verbs': 'Irregular verbs grouped by how their three forms change rather than alphabetically, so you can hear <em>read</em>, <em>read</em> and <em>read</em> differ — plus the regular verbs, and every phrasal verb built on either, listed inside its base verb with the thing learners actually need: whether it can be split.',
     '02-pronouns': 'Where case errors are most visible. Every entry gives its case, what it can refer to, and the verb agreement it forces.',
     'reporting-verbs': 'How to say what someone else said: every frame a reporting verb takes, the frames it refuses, and the judgment it quietly carries.',
 }
