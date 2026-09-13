@@ -461,6 +461,8 @@ To hold someone close in your arms to show affection.
 2. She *cuddled* the baby until he fell asleep.
 3. The kids were *cuddling* under one blanket.
 
+**Phrasal verbs:** [cuddle up](53-phrasal-regular-a-c.md#cuddle-up)
+
 ---
 
 ### deserve
@@ -616,6 +618,8 @@ To love someone so much that you give them constant attention.
 1. Grandparents *dote* on a first grandchild.
 2. She *doted* on her little brother.
 3. He has always *doted* on his wife.
+
+**Phrasal verbs:** [dote on](54-phrasal-regular-d-f.md#dote-on)
 
 ---
 
@@ -793,6 +797,8 @@ To trick someone into believing something that is not true.
 2. He *fooled* us all with that story about his uncle.
 3. She has been *fooling* people for years.
 
+**Phrasal verbs:** [fool around](54-phrasal-regular-d-f.md#fool-around) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with-1) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with)
+
 ---
 
 ### fuss
@@ -810,6 +816,8 @@ To give someone a lot of anxious attention, or to worry aloud about small things
 1. Grandma always *fusses* over the grandchildren.
 2. He *fussed* about the seating chart all night.
 3. Stop *fussing* — the guests won't notice.
+
+**Phrasal verbs:** [fuss over](54-phrasal-regular-d-f.md#fuss-over) &middot; [fuss with](54-phrasal-regular-d-f.md#fuss-with)
 
 ---
 
@@ -971,6 +979,8 @@ To let someone have whatever they want, or to allow yourself a pleasure.
 2. He *indulged* in a long lunch with old friends.
 3. They have been *indulging* the baby since day one.
 
+**Phrasal verbs:** [indulge in](55-phrasal-regular-g-l.md#indulge-in)
+
 ---
 
 ### interfere
@@ -989,9 +999,9 @@ To involve yourself in someone else's affairs when you are not wanted.
 2. He *interfered* once too often and lost a friend.
 3. Work has been *interfering* with their marriage.
 
----
-
 **Phrasal verbs:** [interfere with, interfere in](22-verb-preposition.md#interfere-with-interfere-in)
+
+---
 
 ### intrude
 
@@ -1008,6 +1018,8 @@ To come into a place or a situation where you are not welcome.
 1. I don't want to *intrude* on your evening.
 2. Reporters *intruded* on the family's grief.
 3. She felt he was *intruding* into her private life.
+
+**Phrasal verbs:** [intrude on](55-phrasal-regular-g-l.md#intrude-on)
 
 ---
 
@@ -1077,6 +1089,8 @@ To say something as a joke, especially to tease someone (informal).
 1. Don't *kid* yourself — she isn't coming back.
 2. He *kidded* his sister about her new haircut.
 3. I was only *kidding*, and she knew it.
+
+**Phrasal verbs:** [kid around](55-phrasal-regular-g-l.md#kid-around)
 
 ---
 
@@ -1323,6 +1337,8 @@ To ask about things that are private and none of your business.
 1. I don't mean to *pry*, but are you two still together?
 2. She *pried* until he told her everything.
 3. He is always *prying* into other people's business.
+
+**Phrasal verbs:** [pry into](56-phrasal-regular-m-p.md#pry-into) &middot; [pry out of](56-phrasal-regular-m-p.md#pry-out-of)
 
 ---
 
@@ -1585,6 +1601,8 @@ To look secretly into someone's private things.
 2. She *snooped* through his phone while he slept.
 3. He has been *snooping* on the neighbors again.
 
+**Phrasal verbs:** [snoop around](57-phrasal-regular-q-s.md#snoop-around)
+
 ---
 
 ### snub
@@ -1620,6 +1638,8 @@ To settle close against someone for warmth and comfort.
 2. The children *snuggled* against their mother.
 3. The puppy was *snuggling* into his lap.
 
+**Phrasal verbs:** [snuggle up](57-phrasal-regular-q-s.md#snuggle-up)
+
 ---
 
 ### squabble
@@ -1654,6 +1674,8 @@ To tell a parent or teacher what another child did wrong.
 1. Nobody likes a kid who *tattles*.
 2. He *tattled* on his sister for staying up late.
 3. She was *tattling* to the teacher every single day.
+
+**Phrasal verbs:** [tattle on](58-phrasal-regular-t-z.md#tattle-on)
 
 ---
 
@@ -1723,6 +1745,8 @@ To move your hand in the air to greet someone or say goodbye.
 1. *Wave* goodbye to Grandma.
 2. She *waved* to us from the train window.
 3. He was *waving* his arms to get our attention.
+
+**Phrasal verbs:** [wave down](58-phrasal-regular-t-z.md#wave-down) &middot; [wave off](58-phrasal-regular-t-z.md#wave-off)
 
 ---
 

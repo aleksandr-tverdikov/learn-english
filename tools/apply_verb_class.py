@@ -42,9 +42,9 @@ if __name__ == '__main__':
         num = int(re.match(r'(\d+)', os.path.basename(f)).group(1))
         if num <= 13:
             label = 'irregular'
-        elif num >= 23:
+        elif 23 <= num <= 52:
             label = 'regular'
         else:
-            continue                       # phrasal and v+prep inherit their base's class
+            continue          # 14-22 and 53-58 are phrasal: they inherit their base's class
         tot += apply(f, label)
     print(f'labeled {tot} base verbs irregular or regular')

@@ -93,6 +93,8 @@ To officially order someone to appear in court or at an official place.
 2. They *summoned* her to appear on Monday.
 3. He has been *summoned* for jury duty twice this year.
 
+**Phrasal verbs:** [summon up](57-phrasal-regular-q-s.md#summon-up)
+
 ---
 
 ### subpoena
@@ -164,6 +166,8 @@ To make an official decision as a judge or a court.
 1. The judge will *rule* on the motion tomorrow.
 2. The court *ruled* in favor of the tenants.
 3. Two appeals judges have *ruled* against the company.
+
+**Phrasal verbs:** [rule out](57-phrasal-regular-q-s.md#rule-out)
 
 ---
 
@@ -530,6 +534,8 @@ To break into a computer system without permission.
 1. Criminals can *hack* a small bank in minutes.
 2. Someone *hacked* my email last night.
 3. The hospital's records were *hacked* in the spring.
+
+**Phrasal verbs:** [hack into](55-phrasal-regular-g-l.md#hack-into)
 
 ---
 

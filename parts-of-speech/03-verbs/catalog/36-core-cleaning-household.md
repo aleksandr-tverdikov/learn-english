@@ -25,6 +25,8 @@ To wash a floor with a mop.
 2. Someone *mopped* the hallway and left it wet.
 3. He was *mopping* the floor when the phone rang.
 
+**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up-1)
+
 ---
 
 ### vacuum
@@ -60,6 +62,8 @@ To wipe the dust off furniture and shelves.
 1. I need to *dust* the bookshelves.
 2. She *dusted* the whole room before the guests arrived.
 3. He's *dusting* the picture frames.
+
+**Phrasal verbs:** [dust off](54-phrasal-regular-d-f.md#dust-off)
 
 ---
 
@@ -183,6 +187,8 @@ To make a room or a thing smell and feel clean again.
 2. She *freshened* the guest room with clean sheets and an open window.
 3. Candles were *freshening* the air after dinner.
 
+**Phrasal verbs:** [freshen up](54-phrasal-regular-d-f.md#freshen-up)
+
 ---
 
 ### lather
@@ -236,6 +242,8 @@ To pull a comb through hair to make it neat.
 2. She *combed* the tangles out slowly.
 3. He was *combing* the rug for a lost earring.
 
+**Phrasal verbs:** [comb through](53-phrasal-regular-a-c.md#comb-through)
+
 ---
 
 ### iron
@@ -253,6 +261,8 @@ To make cloth smooth with a hot iron.
 1. I hate to *iron* shirts.
 2. She *ironed* the tablecloth before the dinner.
 3. He was *ironing* when I called.
+
+**Phrasal verbs:** [iron out](55-phrasal-regular-g-l.md#iron-out)
 
 ---
 
@@ -289,6 +299,8 @@ To fold and sew the edge of cloth so it does not fray.
 2. She *hemmed* the curtains an inch shorter.
 3. The dress still needs *hemming*.
 
+**Phrasal verbs:** [hem in](55-phrasal-regular-g-l.md#hem-in)
+
 ---
 
 ### ventilate
@@ -324,6 +336,8 @@ To put things back where they belong so a place looks neat.
 2. She *tidied* the kitchen in ten minutes.
 3. He was *tidying* the garage all afternoon.
 
+**Phrasal verbs:** [tidy up](58-phrasal-regular-t-z.md#tidy-up)
+
 ---
 
 ### straighten
@@ -341,6 +355,8 @@ To make something straight or neat.
 1. *Straighten* the pictures on the wall.
 2. He *straightened* the chairs after the meeting.
 3. She's *straightening* the shelves in the hall closet.
+
+**Phrasal verbs:** [straighten out](57-phrasal-regular-q-s.md#straighten-out) &middot; [straighten out](57-phrasal-regular-q-s.md#straighten-out-1) &middot; [straighten up](57-phrasal-regular-q-s.md#straighten-up)
 
 ---
 
@@ -394,6 +410,8 @@ To flatten something by running your hand over it.
 2. She *smoothed* the wrinkles out of the tablecloth.
 3. He was *smoothing* the bedspread with both hands.
 
+**Phrasal verbs:** [smooth out](57-phrasal-regular-q-s.md#smooth-out) &middot; [smooth over](57-phrasal-regular-q-s.md#smooth-over)
+
 ---
 
 ### tuck
@@ -410,6 +428,8 @@ To push the loose end of cloth into a narrow space so it stays.
 1. *Tuck* the sheet under the mattress.
 2. She *tucked* the price tags out of sight.
 3. He was *tucking* the blanket around the edges of the crib.
+
+**Phrasal verbs:** [tuck away](58-phrasal-regular-t-z.md#tuck-away) &middot; [tuck in](58-phrasal-regular-t-z.md#tuck-in-1) &middot; [tuck in](58-phrasal-regular-t-z.md#tuck-in)
 
 ---
 
@@ -462,6 +482,8 @@ To separate things into groups of the same kind.
 2. He *sorted* the mail into three piles.
 3. She's *sorting* the recycling.
 
+**Phrasal verbs:** [sort out](57-phrasal-regular-q-s.md#sort-out-1) &middot; [sort out](57-phrasal-regular-q-s.md#sort-out) &middot; [sort through](57-phrasal-regular-q-s.md#sort-through)
+
 ---
 
 ### pile
@@ -478,6 +500,8 @@ To put a lot of things on top of each other, usually not neatly.
 1. Don't *pile* the dishes in the sink.
 2. He *piled* the dirty laundry by the door.
 3. Papers were *piled* on every chair.
+
+**Phrasal verbs:** [pile into](56-phrasal-regular-m-p.md#pile-into) &middot; [pile on](56-phrasal-regular-m-p.md#pile-on) &middot; [pile up](56-phrasal-regular-m-p.md#pile-up)
 
 ---
 
@@ -549,6 +573,8 @@ To pack things into boxes.
 2. He *boxed* the china in newspaper.
 3. Everything in the attic has been *boxed* and labeled.
 
+**Phrasal verbs:** [box in](53-phrasal-regular-a-c.md#box-in)
+
 ---
 
 ### bag
@@ -583,6 +609,8 @@ To put something away in a safe or hidden place.
 1. *Stash* the extra batteries in that drawer.
 2. He *stashed* the wrapping paper behind the couch.
 3. She had *stashed* a spare key under the mat.
+
+**Phrasal verbs:** [stash away](57-phrasal-regular-q-s.md#stash-away)
 
 ---
 
@@ -653,6 +681,8 @@ To empty something out quickly and carelessly.
 2. He *dumped* the dirty water in the yard.
 3. She was *dumping* the ashtray into the trash.
 
+**Phrasal verbs:** [dump on](54-phrasal-regular-d-f.md#dump-on)
+
 ---
 
 ### empty
@@ -670,6 +700,8 @@ To take everything out of a container.
 1. *Empty* the trash before you go.
 2. He *emptied* the vacuum bag outside.
 3. She's *emptying* the dishwasher.
+
+**Phrasal verbs:** [empty out](54-phrasal-regular-d-f.md#empty-out) &middot; [empty out](54-phrasal-regular-d-f.md#empty-out-1)
 
 ---
 
@@ -846,6 +878,8 @@ To press a cloth or paper onto a wet spot so the liquid soaks in.
 2. She *blotted* the wine with a napkin.
 3. He was *blotting* the carpet with a clean towel.
 
+**Phrasal verbs:** [blot out](53-phrasal-regular-a-c.md#blot-out)
+
 ---
 
 ### dab
@@ -949,6 +983,8 @@ To send water through something to clean it out, especially a toilet.
 2. He *flushed* the radiator hose with clean water.
 3. The toilet won't stop *flushing*.
 
+**Phrasal verbs:** [flush out](54-phrasal-regular-d-f.md#flush-out)
+
 ---
 
 ### strip
@@ -966,6 +1002,8 @@ To take everything off a surface or a bed.
 1. *Strip* the beds and start a load of sheets.
 2. He *stripped* the old wax off the floor.
 3. They're *stripping* the wallpaper in the hall.
+
+**Phrasal verbs:** [strip down](57-phrasal-regular-q-s.md#strip-down-1) &middot; [strip down](57-phrasal-regular-q-s.md#strip-down) &middot; [strip off](57-phrasal-regular-q-s.md#strip-off)
 
 ---
 
@@ -1001,6 +1039,8 @@ To pass liquid or air through something that takes the dirt out.
 1. This pitcher *filters* the tap water.
 2. She *filtered* the used frying oil through a cloth.
 3. The air is *filtered* before it goes back into the room.
+
+**Phrasal verbs:** [filter out](54-phrasal-regular-d-f.md#filter-out) &middot; [filter through](54-phrasal-regular-d-f.md#filter-through)
 
 ---
 

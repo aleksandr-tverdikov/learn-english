@@ -41,6 +41,8 @@ To play a part in a play, film, or television show.
 2. She *acted* in commercials before her first movie.
 3. He has been *acting* since the age of six.
 
+**Phrasal verbs:** [act on](53-phrasal-regular-a-c.md#act-on) &middot; [act out](53-phrasal-regular-a-c.md#act-out) &middot; [act out](53-phrasal-regular-a-c.md#act-out-1) &middot; [act up](53-phrasal-regular-a-c.md#act-up) &middot; [act up](53-phrasal-regular-a-c.md#act-up-1)
+
 ---
 
 ### play
@@ -58,6 +60,8 @@ To make music on an instrument, or to perform a piece of music.
 1. She *plays* the cello beautifully.
 2. The band *played* for three hours without a break.
 3. That song has been *played* on every station in town.
+
+**Phrasal verbs:** [play along](56-phrasal-regular-m-p.md#play-along) &middot; [play around](56-phrasal-regular-m-p.md#play-around) &middot; [play around with](56-phrasal-regular-m-p.md#play-around-with) &middot; [play back](56-phrasal-regular-m-p.md#play-back) &middot; [play down](56-phrasal-regular-m-p.md#play-down) &middot; [play on](56-phrasal-regular-m-p.md#play-on) &middot; [play out](56-phrasal-regular-m-p.md#play-out) &middot; [play up](56-phrasal-regular-m-p.md#play-up)
 
 ---
 
@@ -235,6 +239,8 @@ To bend forward from the waist to thank an audience.
 2. She *bowed* and the applause doubled.
 3. They were still *bowing* when the curtain came down.
 
+**Phrasal verbs:** [bow out](53-phrasal-regular-a-c.md#bow-out)
+
 ---
 
 ### curtsy
@@ -340,6 +346,8 @@ To lead people to their seats or through a door.
 2. An attendant *ushered* us up to the balcony.
 3. The late guests were *ushered* in through a side door.
 
+**Phrasal verbs:** [usher in](58-phrasal-regular-t-z.md#usher-in) &middot; [usher out](58-phrasal-regular-t-z.md#usher-out)
+
 ---
 
 ### cue
@@ -357,6 +365,8 @@ To signal a performer or a technician to begin.
 1. The conductor will *cue* the horns at bar forty.
 2. He *cued* the lights a second too early.
 3. The choir is waiting to be *cued*.
+
+**Phrasal verbs:** [cue up](53-phrasal-regular-a-c.md#cue-up)
 
 ---
 
@@ -480,9 +490,9 @@ To work together with someone on a creative project.
 2. She *collaborated* with a choreographer from Havana.
 3. They have *collaborated* on four albums.
 
----
-
 **Phrasal verbs:** [collaborate with](22-verb-preposition.md#collaborate-with)
+
+---
 
 ### chant
 
@@ -605,6 +615,8 @@ To beat a drum, or to tap out a rhythm.
 2. She *drummed* on the table with a pencil.
 3. Rain was *drumming* on the roof of the tent.
 
+**Phrasal verbs:** [drum up](54-phrasal-regular-d-f.md#drum-up)
+
 ---
 
 ### tune
@@ -622,6 +634,8 @@ To adjust an instrument so that it plays at the right pitch.
 1. Guitarists *tune* between almost every song.
 2. He *tuned* the piano the morning of the recital.
 3. The whole orchestra is *tuning* now.
+
+**Phrasal verbs:** [tune in](58-phrasal-regular-t-z.md#tune-in) &middot; [tune out](58-phrasal-regular-t-z.md#tune-out) &middot; [tune up](58-phrasal-regular-t-z.md#tune-up)
 
 ---
 
@@ -762,6 +776,8 @@ To make sound and picture, or two performers, match exactly in time.
 2. He *synced* the audio to the video overnight.
 3. Her lips are not *synced* with the track.
 
+**Phrasal verbs:** [sync up](57-phrasal-regular-q-s.md#sync-up)
+
 ---
 
 ### solo
@@ -798,9 +814,9 @@ To change something a little from one time to the next, or to be different from 
 2. She *varied* the pattern in every panel.
 3. Ticket prices have *varied* wildly this season.
 
----
-
 **Phrasal verbs:** [vary with](22-verb-preposition.md#vary-with)
+
+---
 
 ### waltz
 
@@ -1062,6 +1078,8 @@ To cut off the edges of a picture or photograph.
 2. He *cropped* the image down to a square.
 3. The poster has been badly *cropped*.
 
+**Phrasal verbs:** [crop up](53-phrasal-regular-a-c.md#crop-up)
+
 ---
 
 ### retouch
@@ -1114,6 +1132,8 @@ To make a camera picture larger or smaller without moving the camera.
 1. Don't *zoom* in the middle of a shot.
 2. The camera *zoomed* slowly onto her face.
 3. He was *zooming* out to show the whole hall.
+
+**Phrasal verbs:** [zoom in](58-phrasal-regular-t-z.md#zoom-in) &middot; [zoom out](58-phrasal-regular-t-z.md#zoom-out)
 
 ---
 

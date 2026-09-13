@@ -24,6 +24,8 @@ To support a person, plan, or cause, especially with money or public approval.
 2. The city council *backed* her proposal last night.
 3. The shelter is *backed* by one small family foundation.
 
+**Phrasal verbs:** [back down](53-phrasal-regular-a-c.md#back-down) &middot; [back off](53-phrasal-regular-a-c.md#back-off) &middot; [back out](53-phrasal-regular-a-c.md#back-out) &middot; [back up](53-phrasal-regular-a-c.md#back-up-3) &middot; [back up](53-phrasal-regular-a-c.md#back-up-2) &middot; [back up](53-phrasal-regular-a-c.md#back-up-1) &middot; [back up](53-phrasal-regular-a-c.md#back-up)
+
 ---
 
 ### further
@@ -530,6 +532,8 @@ To release someone from something that holds or limits them.
 2. Neighbors *freed* the dog from the fence.
 3. The money *freed* her from constant worry.
 
+**Phrasal verbs:** [free up](54-phrasal-regular-d-f.md#free-up)
+
 ---
 
 ### spare
@@ -703,6 +707,8 @@ To make someone calm and silent, or to become calm.
 2. Her voice *quieted* the whole room.
 3. The ward is *quieting* down for the night.
 
+**Phrasal verbs:** [quiet down](57-phrasal-regular-q-s.md#quiet-down)
+
 ---
 
 ### steady
@@ -860,6 +866,8 @@ To encourage someone to act, or to make something happen faster.
 1. Deadlines *spur* people to donate.
 2. Her illness *spurred* the family to move closer.
 3. The campaign has *spurred* hundreds of new volunteers.
+
+**Phrasal verbs:** [spur on](57-phrasal-regular-q-s.md#spur-on)
 
 ---
 

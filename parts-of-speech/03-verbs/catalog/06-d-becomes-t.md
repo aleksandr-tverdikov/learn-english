@@ -113,6 +113,8 @@ To mix things into a single smooth or harmonious whole, or to merge so completel
 10. He dressed down so he would *blend* in with the crowd.
 11. The gray paint *blended* in so well we walked past the door twice.
 
+**Phrasal verbs:** [blend in](53-phrasal-regular-a-c.md#blend-in)
+
 **See also:** [bend](#bend), [rend](#rend), [send](#send)
 
 ### build

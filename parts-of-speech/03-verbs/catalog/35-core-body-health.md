@@ -60,6 +60,8 @@ To push air out of your throat with a sudden loud noise, usually because you are
 2. She *coughed* so hard her chest hurt.
 3. The baby has been *coughing* since Tuesday.
 
+**Phrasal verbs:** [cough up](53-phrasal-regular-a-c.md#cough-up)
+
 ---
 
 ### sneeze
@@ -214,6 +216,8 @@ To sleep lightly, often without meaning to.
 2. She *dozed* through most of the flight.
 3. He was *dozing* with the TV still on.
 
+**Phrasal verbs:** [doze off](54-phrasal-regular-d-f.md#doze-off)
+
 ---
 
 ### snooze
@@ -247,6 +251,8 @@ To become tired, or to make someone tired.
 1. Stairs *tire* him more than they used to.
 2. She *tired* quickly in the weeks after surgery.
 3. The heat was *tiring* the runners before the halfway mark.
+
+**Phrasal verbs:** [tire out](58-phrasal-regular-t-z.md#tire-out)
 
 ---
 
@@ -353,6 +359,8 @@ To move your head down and up to say yes or to greet someone.
 2. She *nodded* and took the prescription.
 3. He was *nodding* along to everything the doctor said.
 
+**Phrasal verbs:** [nod off](56-phrasal-regular-m-p.md#nod-off)
+
 ---
 
 ### shrug
@@ -370,6 +378,8 @@ To raise your shoulders to show that you do not know or do not care.
 1. Don't just *shrug* — tell me where it hurts.
 2. He *shrugged* and looked at the floor.
 3. She answered by *shrugging* her shoulders.
+
+**Phrasal verbs:** [shrug off](57-phrasal-regular-q-s.md#shrug-off)
 
 ---
 
@@ -526,6 +536,8 @@ To catch a serious illness.
 1. Workers can *contract* the virus from contaminated water.
 2. He *contracted* pneumonia in the hospital.
 3. She had *contracted* the infection weeks before any symptoms showed.
+
+**Phrasal verbs:** [contract out](53-phrasal-regular-a-c.md#contract-out)
 
 ---
 
@@ -789,6 +801,8 @@ To make pain or a problem less severe, or to become less severe.
 2. The medication *eased* the pain within an hour.
 3. His breathing is *easing* now.
 
+**Phrasal verbs:** [ease into](54-phrasal-regular-d-f.md#ease-into) &middot; [ease off](54-phrasal-regular-d-f.md#ease-off) &middot; [ease out](54-phrasal-regular-d-f.md#ease-out) &middot; [ease up](54-phrasal-regular-d-f.md#ease-up) &middot; [ease up on](54-phrasal-regular-d-f.md#ease-up-on)
+
 ---
 
 ### screen
@@ -805,6 +819,8 @@ To test a large group of healthy people in order to find a disease early.
 1. They *screen* everyone over fifty for colon cancer.
 2. The hospital *screened* two thousand people last year.
 3. She was *screened* and cleared.
+
+**Phrasal verbs:** [screen out](57-phrasal-regular-q-s.md#screen-out)
 
 ---
 
@@ -823,6 +839,8 @@ To check someone's blood, body, or ability with a medical procedure.
 1. They will *test* your blood for iron.
 2. He *tested* positive on Monday.
 3. She is being *tested* for allergies.
+
+**Phrasal verbs:** [test out](58-phrasal-regular-t-z.md#test-out)
 
 ---
 

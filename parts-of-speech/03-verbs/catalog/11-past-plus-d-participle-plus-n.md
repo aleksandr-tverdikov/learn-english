@@ -114,6 +114,8 @@ To bite at something over and over with small, wearing bites — literally, or i
 9. Rust *has gnawed* the bottom of both doors.
 10. In older writing you will find a rope described as *gnawn* clear through.
 
+**Phrasal verbs:** [gnaw at](55-phrasal-regular-g-l.md#gnaw-at)
+
 **See also:** [saw](#saw), [whipsaw](#whipsaw)
 
 ### grave
@@ -244,6 +246,8 @@ To go from solid to liquid under heat, or to make something do that; by extensio
 19. The hills *melt into* haze by mid-afternoon.
 20. The suspect *had melted into* the neighborhood by the time the units arrived.
 
+**Phrasal verbs:** [melt away](56-phrasal-regular-m-p.md#melt-away) &middot; [melt down](56-phrasal-regular-m-p.md#melt-down)
+
 **See also:** [swell](#swell), [rot](#rot), [wax](#wax)
 
 ### mow
@@ -280,6 +284,8 @@ To cut down grass or standing grain — and, in *mow down*, to cut down people o
 8. The truck jumped the curb and *mowed down* a row of mailboxes.
 9. Machine guns *had mowed down* the first two waves.
 10. Their closer *mows down* the bottom of the order every night.
+
+**Phrasal verbs:** [mow down](56-phrasal-regular-m-p.md#mow-down)
 
 **See also:** [sow](#sow), [sew](#sew), [hew](#hew)
 
@@ -574,6 +580,8 @@ To give something a form with your hands or by force, or to influence how someth
 11. This *is shaping up* to be the driest June on record.
 12. The season *shaped up* better than anyone expected.
 
+**Phrasal verbs:** [shape up](57-phrasal-regular-q-s.md#shape-up-1) &middot; [shape up](57-phrasal-regular-q-s.md#shape-up)
+
 **See also:** [grave](#grave), [engrave](#engrave), [shave](#shave)
 
 ### shave
@@ -620,6 +628,8 @@ To cut hair off the skin with a razor, or to take a thin layer or a small amount
 
 13. Two starters admitted they *shaved points* that season.
 14. Investigators showed the team *had shaved* points in four games.
+
+**Phrasal verbs:** [shave off](57-phrasal-regular-q-s.md#shave-off)
 
 **See also:** [shape](#shape), [grave](#grave), [wax](#wax)
 

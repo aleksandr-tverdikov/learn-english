@@ -2285,6 +2285,8 @@ To go, take, or do something quietly so that nobody notices.
 11. She *snuck* a peek at the price tag.
 12. He *has snuck* a look at every present under the tree.
 
+**Phrasal verbs:** [sneak in](57-phrasal-regular-q-s.md#sneak-in-1) &middot; [sneak in](57-phrasal-regular-q-s.md#sneak-in) &middot; [sneak out](57-phrasal-regular-q-s.md#sneak-out) &middot; [sneak up on](57-phrasal-regular-q-s.md#sneak-up-on)
+
 **See also:** [slink](#slink), [stick](#stick), [strike](#strike)
 
 ### speed
@@ -2594,6 +2596,8 @@ To fend something off, or, of a hull or a cask, to smash a hole in it.
 4. One rock can *stave* a wooden hull.
 5. The ice *stove* in the bow.
 6. A drifting log *has stove* a hole in the dinghy.
+
+**Phrasal verbs:** [stave off](57-phrasal-regular-q-s.md#stave-off)
 
 **See also:** [heave](#heave)
 

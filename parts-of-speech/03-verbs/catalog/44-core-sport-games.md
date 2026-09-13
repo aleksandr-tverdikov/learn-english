@@ -320,6 +320,8 @@ To get a whole lap ahead of a slower competitor in a race.
 2. He *lapped* half the field by mile ten.
 3. Two cars had been *lapped* before the first pit stop.
 
+**Phrasal verbs:** [lap up](55-phrasal-regular-g-l.md#lap-up)
+
 ---
 
 ### triumph
@@ -356,9 +358,9 @@ To win in the end, especially in a close contest.
 2. Our team *prevailed* in a third-set tiebreak.
 3. The home side has *prevailed* in nine straight meetings.
 
----
-
 **Phrasal verbs:** [prevail over](22-verb-preposition.md#prevail-over)
+
+---
 
 ### captain
 
@@ -391,6 +393,8 @@ To watch players or opposing teams in order to judge them.
 1. Clubs *scout* players as young as fourteen.
 2. They *scouted* him at a high school tournament.
 3. Our staff has been *scouting* the opposition all week.
+
+**Phrasal verbs:** [scout out](57-phrasal-regular-q-s.md#scout-out)
 
 ---
 
@@ -426,9 +430,9 @@ To stop training or playing for a while so the body recovers.
 2. The manager *rested* his best players before the cup game.
 3. She has been *resting* a sore shoulder for a week.
 
----
+**Phrasal verbs:** [rest on](22-verb-preposition.md#rest-on) &middot; [rest up](57-phrasal-regular-q-s.md#rest-up) &middot; [rest with](22-verb-preposition.md#rest-with)
 
-**Phrasal verbs:** [rest on](22-verb-preposition.md#rest-on) &middot; [rest with](22-verb-preposition.md#rest-with)
+---
 
 ### huddle
 
@@ -444,6 +448,8 @@ To gather in a tight circle to plan the next play.
 1. The players *huddle* before every snap.
 2. The whole team *huddled* around the coach.
 3. They were still *huddling* when the whistle blew.
+
+**Phrasal verbs:** [huddle up](55-phrasal-regular-g-l.md#huddle-up)
 
 ---
 
@@ -481,9 +487,9 @@ To stop competing for good at the end of a career.
 2. He *retired* after the 2022 season.
 3. She has *retired* from international play but still coaches.
 
----
-
 **Phrasal verbs:** [retire from](22-verb-preposition.md#retire-from)
+
+---
 
 ### sideline
 
@@ -623,6 +629,8 @@ To break the rules by hitting, holding, or tripping an opponent.
 2. She *fouled* the shooter with a second left.
 3. He had already been *fouled* twice in the opening minute.
 
+**Phrasal verbs:** [foul out](54-phrasal-regular-d-f.md#foul-out) &middot; [foul up](54-phrasal-regular-d-f.md#foul-up)
+
 ---
 
 ### caution
@@ -676,9 +684,9 @@ To formally ask for a decision or a punishment to be changed.
 2. She *appealed* to the tournament committee the same evening.
 3. The red card has already been *appealed*.
 
----
-
 **Phrasal verbs:** [appeal to](22-verb-preposition.md#appeal-to)
+
+---
 
 ### time
 
@@ -712,6 +720,8 @@ To record a particular time or speed for someone.
 1. Scouts want to see him *clock* under 4.5 seconds.
 2. She *clocked* a personal best in the heats.
 3. The pitcher was *clocked* at ninety-nine miles an hour.
+
+**Phrasal verbs:** [clock in](53-phrasal-regular-a-c.md#clock-in) &middot; [clock out](53-phrasal-regular-a-c.md#clock-out)
 
 ---
 
@@ -887,6 +897,8 @@ To roll a heavy ball down a lane to knock over pins.
 2. He *bowled* a perfect game in March.
 3. They have been *bowling* in the same league for years.
 
+**Phrasal verbs:** [bowl over](53-phrasal-regular-a-c.md#bowl-over)
+
 ---
 
 ### field
@@ -974,6 +986,8 @@ To bend the flight of a ball with spin, especially on a kick or shot.
 2. She *curled* the ball into the far corner.
 3. The shot was *curled* just inside the post.
 
+**Phrasal verbs:** [curl up](53-phrasal-regular-a-c.md#curl-up)
+
 ---
 
 ### aim
@@ -992,9 +1006,9 @@ To point something at a target before hitting or throwing it.
 2. She *aimed* at the top of the backboard.
 3. He was *aiming* low and the goalkeeper saved it easily.
 
----
-
 **Phrasal verbs:** [aim at](22-verb-preposition.md#aim-at)
+
+---
 
 ### hurl
 
@@ -1081,6 +1095,8 @@ To take hold of an opponent and struggle with them at close quarters.
 2. The two fighters *grappled* against the cage.
 3. They were still *grappling* when the bell rang.
 
+**Phrasal verbs:** [grapple with](55-phrasal-regular-g-l.md#grapple-with)
+
 ---
 
 ### pummel
@@ -1153,6 +1169,8 @@ To hit someone or something hard enough to move it or bring it down.
 2. He *knocked* his opponent into the ropes.
 3. She was *knocked* off the ball far too easily.
 
+**Phrasal verbs:** [knock down](55-phrasal-regular-g-l.md#knock-down) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off-2) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off-1) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-2) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-1) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-3) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out)
+
 ---
 
 ### lunge
@@ -1187,6 +1205,8 @@ To lower your head or body quickly to avoid being hit.
 1. *Duck* under the jab and step inside.
 2. He *ducked* the first punch of the round.
 3. She was *ducking* and weaving for three rounds.
+
+**Phrasal verbs:** [duck out](54-phrasal-regular-d-f.md#duck-out) &middot; [duck out of](54-phrasal-regular-d-f.md#duck-out-of)
 
 ---
 
@@ -1291,6 +1311,8 @@ To jump headfirst into water, or to throw yourself through the air for a ball.
 1. Swimmers *dive* from the blocks at the gun.
 2. The goalkeeper *dived* to his right and pushed it wide.
 3. She has *dived* from the ten-meter board twice today.
+
+**Phrasal verbs:** [dive in](54-phrasal-regular-d-f.md#dive-in) &middot; [dive into](54-phrasal-regular-d-f.md#dive-into)
 
 ---
 
@@ -1484,6 +1506,8 @@ To stay outdoors in a tent for one or more nights.
 2. They *camped* two nights on the ridge.
 3. He has been *camping* since Friday.
 
+**Phrasal verbs:** [camp out](53-phrasal-regular-a-c.md#camp-out)
+
 ---
 
 ### trek
@@ -1570,6 +1594,8 @@ To make muscles firmer and stronger through exercise.
 1. These exercises *tone* the shoulders and back.
 2. Six weeks of swimming *toned* her legs.
 3. His arms have been *toned* by two years of rowing.
+
+**Phrasal verbs:** [tone down](58-phrasal-regular-t-z.md#tone-down) &middot; [tone up](58-phrasal-regular-t-z.md#tone-up)
 
 ---
 
@@ -1726,6 +1752,8 @@ In card games, to beat a card by playing one of the trump suit.
 1. If you have no hearts, you can *trump* the trick.
 2. She *trumped* my ace and took the hand.
 3. My king was *trumped* on the very last round.
+
+**Phrasal verbs:** [trump up](58-phrasal-regular-t-z.md#trump-up)
 
 ---
 

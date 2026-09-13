@@ -25,9 +25,9 @@ To put clothes on yourself or on another person.
 2. She *dressed* the twins in matching coats.
 3. I was *dressing* when the phone rang.
 
----
+**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1)
 
-**Phrasal verbs:** [dress in](22-verb-preposition.md#dress-in)
+---
 
 ### undress
 
@@ -61,6 +61,8 @@ To put on different clothes, or to put different clothes on someone.
 1. I need to *change* before dinner.
 2. She *changed* into jeans the moment she got home.
 3. He is *changing* the baby in the back room.
+
+**Phrasal verbs:** [change around](53-phrasal-regular-a-c.md#change-around) &middot; [change into](53-phrasal-regular-a-c.md#change-into-1) &middot; [change into](53-phrasal-regular-a-c.md#change-into) &middot; [change over](53-phrasal-regular-a-c.md#change-over) &middot; [change up](53-phrasal-regular-a-c.md#change-up)
 
 ---
 
@@ -98,9 +100,9 @@ To put clothing or cloth over a part of the body.
 2. She *covered* her head with a thin scarf.
 3. His arms were *covered* to the wrist.
 
----
+**Phrasal verbs:** [cover for](53-phrasal-regular-a-c.md#cover-for) &middot; [cover for](53-phrasal-regular-a-c.md#cover-for-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up) &middot; [cover with](22-verb-preposition.md#cover-with)
 
-**Phrasal verbs:** [cover with](22-verb-preposition.md#cover-with)
+---
 
 ### adorn
 
@@ -241,6 +243,8 @@ To wrap someone in warm clothes, or to tie things together in a bunch.
 2. She *bundled* the baby in two blankets.
 3. The old sweaters were *bundled* and carried to the attic.
 
+**Phrasal verbs:** [bundle up](53-phrasal-regular-a-c.md#bundle-up)
+
 ---
 
 ### try
@@ -258,6 +262,8 @@ To put clothing on for a moment to see whether it fits or looks right.
 1. Ask whether you can *try* the next size up.
 2. She *tried* three jackets and bought none of them.
 3. He is *trying* the boots in a wider width.
+
+**Phrasal verbs:** [try on](58-phrasal-regular-t-z.md#try-on) &middot; [try out](58-phrasal-regular-t-z.md#try-out) &middot; [try out for](58-phrasal-regular-t-z.md#try-out-for)
 
 ---
 
@@ -313,6 +319,8 @@ To close a shirt, coat, or jacket with its buttons.
 2. He *buttoned* the shirt wrong and had to start over.
 3. She is *buttoning* her daughter's sweater.
 
+**Phrasal verbs:** [button up](53-phrasal-regular-a-c.md#button-up)
+
 ---
 
 ### unbutton
@@ -348,6 +356,8 @@ To close something with a zipper.
 2. She *zipped* her bag and ran for the bus.
 3. He is *zipping* the kids into their snowsuits.
 
+**Phrasal verbs:** [zip it](58-phrasal-regular-t-z.md#zip-it) &middot; [zip through](58-phrasal-regular-t-z.md#zip-through) &middot; [zip up](58-phrasal-regular-t-z.md#zip-up)
+
 ---
 
 ### unzip
@@ -382,6 +392,8 @@ To fasten a belt, a shoe, or a strap with a buckle.
 1. *Buckle* the strap under his chin.
 2. She *buckled* her sandals and stood up.
 3. He was *buckling* the belt on the last notch.
+
+**Phrasal verbs:** [buckle down](53-phrasal-regular-a-c.md#buckle-down) &middot; [buckle under](53-phrasal-regular-a-c.md#buckle-under) &middot; [buckle up](53-phrasal-regular-a-c.md#buckle-up)
 
 ---
 
@@ -435,6 +447,8 @@ To fasten something with a knot or a bow.
 1. He can *tie* his own shoes now.
 2. She *tied* the sash in a neat bow.
 3. The apron was *tied* so loosely that it came undone.
+
+**Phrasal verbs:** [tie down](58-phrasal-regular-t-z.md#tie-down) &middot; [tie in](58-phrasal-regular-t-z.md#tie-in) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up-1)
 
 ---
 
@@ -506,6 +520,8 @@ To fasten something with a hook, or to hang it on one.
 2. She *hooked* the strap and pulled the zipper up.
 3. His jacket was *hooked* over the back of the chair.
 
+**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-3) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-1) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-2)
+
 ---
 
 ### unhook
@@ -540,6 +556,8 @@ To hold something in place with a strap.
 1. *Strap* the helmet under your chin.
 2. She *strapped* the baby into the carrier.
 3. The sandals are *strapped* around the ankle.
+
+**Phrasal verbs:** [strap in](57-phrasal-regular-q-s.md#strap-in)
 
 ---
 
@@ -768,6 +786,8 @@ To cover the inside of a coat, a bag, or a box with another material.
 2. She *lined* the jacket with cheap silk.
 3. The boots are *lined* with wool.
 
+**Phrasal verbs:** [line up](55-phrasal-regular-g-l.md#line-up) &middot; [line up](55-phrasal-regular-g-l.md#line-up-1)
+
 ---
 
 ### cuff
@@ -855,6 +875,8 @@ To put two things together, or to wear one item with another.
 2. She *paired* the socks as she folded them.
 3. That skirt is usually *paired* with boots.
 
+**Phrasal verbs:** [pair off](56-phrasal-regular-m-p.md#pair-off) &middot; [pair up](56-phrasal-regular-m-p.md#pair-up)
+
 ---
 
 ### separate
@@ -873,9 +895,9 @@ To divide things into groups, or to keep them apart.
 2. She *separated* the wool items before washing.
 3. The delicates are *separated* into a mesh bag.
 
----
-
 **Phrasal verbs:** [separate from](22-verb-preposition.md#separate-from)
+
+---
 
 ### match
 
@@ -892,6 +914,8 @@ To look right together, or to find something that goes with something else.
 1. Those shoes do not *match* the belt.
 2. She *matched* the scarf to her coat.
 3. They showed up in *matching* sweaters.
+
+**Phrasal verbs:** [match up](56-phrasal-regular-m-p.md#match-up) &middot; [match up](56-phrasal-regular-m-p.md#match-up-1)
 
 ---
 
@@ -964,6 +988,8 @@ To look good on a particular person, or to be right for them.
 1. That color really *suits* you.
 2. The short haircut *suited* her.
 3. He is not *suited* to a job with a dress code.
+
+**Phrasal verbs:** [suit up](57-phrasal-regular-q-s.md#suit-up)
 
 ---
 

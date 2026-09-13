@@ -25,6 +25,8 @@ To look at something for a period of time, following what happens.
 2. We *watched* the fireworks from the roof.
 3. He has been *watching* the same show for three hours.
 
+**Phrasal verbs:** [watch out](58-phrasal-regular-t-z.md#watch-out) &middot; [watch out for](58-phrasal-regular-t-z.md#watch-out-for) &middot; [watch over](58-phrasal-regular-t-z.md#watch-over)
+
 ---
 
 ### view
@@ -59,6 +61,8 @@ To look at something very quickly and then look away.
 1. I *glance* at my phone far too often.
 2. She *glanced* over her shoulder and kept walking.
 3. He was *glancing* at the clock every few seconds.
+
+**Phrasal verbs:** [glance over](55-phrasal-regular-g-l.md#glance-over) &middot; [glance through](55-phrasal-regular-g-l.md#glance-through)
 
 ---
 
@@ -343,6 +347,8 @@ To read something quickly to get the main idea.
 2. I *skimmed* the article on the bus.
 3. He was *skimming* the report, not really reading it.
 
+**Phrasal verbs:** [skim through](57-phrasal-regular-q-s.md#skim-through)
+
 ---
 
 ### monitor
@@ -624,6 +630,8 @@ To shine suddenly and briefly, or to make a light do that.
 2. Something *flashed* in the water near the boat.
 3. The sign has been *flashing* all night.
 
+**Phrasal verbs:** [flash back](54-phrasal-regular-d-f.md#flash-back)
+
 ---
 
 ### flicker
@@ -779,6 +787,8 @@ To give a particular impression when heard.
 2. Her voice *sounded* strange on the phone.
 3. The alarm has been *sounding* for ten minutes.
 
+**Phrasal verbs:** [sound off](57-phrasal-regular-q-s.md#sound-off) &middot; [sound out](57-phrasal-regular-q-s.md#sound-out)
+
 ---
 
 ### echo
@@ -832,6 +842,8 @@ To make a low continuous humming sound like an insect.
 2. My phone *buzzed* twice during dinner.
 3. The old lights were *buzzing* overhead.
 
+**Phrasal verbs:** [buzz in](53-phrasal-regular-a-c.md#buzz-in)
+
 ---
 
 ### hum
@@ -866,6 +878,8 @@ To make the clear ringing sound of a bell.
 1. Church bells *chime* at noon here.
 2. The clock *chimed* six times.
 3. We could hear bells *chiming* across the valley.
+
+**Phrasal verbs:** [chime in](53-phrasal-regular-a-c.md#chime-in)
 
 ---
 
@@ -919,6 +933,8 @@ To make a series of short hard knocking sounds.
 2. The truck *rattled* over the old bridge.
 3. Something was *rattling* around in the trunk.
 
+**Phrasal verbs:** [rattle off](57-phrasal-regular-q-s.md#rattle-off)
+
 ---
 
 ### rustle
@@ -936,6 +952,8 @@ To make the soft dry sound of leaves or paper moving.
 1. Dry leaves *rustle* underfoot in October.
 2. Her dress *rustled* as she stood up.
 3. We heard something *rustling* in the bushes.
+
+**Phrasal verbs:** [rustle up](57-phrasal-regular-q-s.md#rustle-up)
 
 ---
 
@@ -1109,6 +1127,8 @@ To become quiet, or to make someone be quiet.
 2. The crowd *hushed* as the curtain rose.
 3. She was *hushing* the baby in the next room.
 
+**Phrasal verbs:** [hush up](55-phrasal-regular-g-l.md#hush-up)
+
 ---
 
 ### resonate
@@ -1160,6 +1180,8 @@ To breathe in through the nose in order to smell something.
 1. Dogs *sniff* everything on a walk.
 2. She *sniffed* the milk before pouring it.
 3. He was *sniffing* the air as if something were burning.
+
+**Phrasal verbs:** [sniff around](57-phrasal-regular-q-s.md#sniff-around) &middot; [sniff out](57-phrasal-regular-q-s.md#sniff-out)
 
 ---
 
@@ -1372,6 +1394,8 @@ To push steadily on something with your hand or body.
 2. He *pressed* his hand flat against the cold glass.
 3. She was *pressing* the fabric down with both palms.
 
+**Phrasal verbs:** [press ahead](56-phrasal-regular-m-p.md#press-ahead) &middot; [press for](56-phrasal-regular-m-p.md#press-for) &middot; [press on](56-phrasal-regular-m-p.md#press-on)
+
 ---
 
 ### rub
@@ -1390,6 +1414,8 @@ To move your hand or a cloth back and forth over a surface with pressure.
 2. He *rubbed* the stain with a wet cloth.
 3. She was *rubbing* her sore shoulder.
 
+**Phrasal verbs:** [rub in](57-phrasal-regular-q-s.md#rub-in) &middot; [rub off on](57-phrasal-regular-q-s.md#rub-off-on)
+
 ---
 
 ### brush
@@ -1407,6 +1433,8 @@ To touch something lightly in passing.
 1. Low branches *brush* the roof of the bus.
 2. Her sleeve *brushed* my arm as she passed.
 3. Something soft was *brushing* against my leg.
+
+**Phrasal verbs:** [brush aside](53-phrasal-regular-a-c.md#brush-aside) &middot; [brush off](53-phrasal-regular-a-c.md#brush-off) &middot; [brush up on](53-phrasal-regular-a-c.md#brush-up-on)
 
 ---
 
@@ -1461,6 +1489,8 @@ To hit something quickly and lightly, usually more than once.
 2. Someone *tapped* me on the shoulder.
 3. He kept *tapping* his pen against the desk.
 
+**Phrasal verbs:** [tap into](58-phrasal-regular-t-z.md#tap-into) &middot; [tap out](58-phrasal-regular-t-z.md#tap-out)
+
 ---
 
 ### poke
@@ -1477,6 +1507,8 @@ To push a finger or a pointed object quickly into something.
 1. Do not *poke* the fire with your hand.
 2. She *poked* the cake to see if it was done.
 3. The kids were *poking* each other under the table.
+
+**Phrasal verbs:** [poke around](56-phrasal-regular-m-p.md#poke-around) &middot; [poke out](56-phrasal-regular-m-p.md#poke-out)
 
 ---
 
@@ -1528,6 +1560,8 @@ To press something firmly from two sides.
 1. *Squeeze* the lemon over the fish before serving.
 2. She *squeezed* my hand and smiled.
 3. He was *squeezing* the last of the toothpaste out.
+
+**Phrasal verbs:** [squeeze in](57-phrasal-regular-q-s.md#squeeze-in) &middot; [squeeze out](57-phrasal-regular-q-s.md#squeeze-out)
 
 ---
 
@@ -1615,6 +1649,8 @@ To feel an uncomfortable sensation on the skin that makes you want to scratch.
 1. Mosquito bites *itch* for days.
 2. My eyes *itched* all through the spring.
 3. The wool was *itching* against my skin.
+
+**Phrasal verbs:** [itch for](55-phrasal-regular-g-l.md#itch-for)
 
 ---
 

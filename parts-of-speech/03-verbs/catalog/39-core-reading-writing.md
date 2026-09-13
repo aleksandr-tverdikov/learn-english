@@ -215,9 +215,9 @@ To name a book, article, or person as the source of your information.
 2. The paper *cited* a study from 2019.
 3. He has *cited* the same website four times.
 
----
-
 **Phrasal verbs:** [cite to](22-verb-preposition.md#cite-to)
+
+---
 
 ### reference
 
@@ -562,6 +562,8 @@ To write something using a keyboard.
 2. She *typed* the whole essay in one night.
 3. He is still *typing* with two fingers.
 
+**Phrasal verbs:** [type in](58-phrasal-regular-t-z.md#type-in) &middot; [type up](58-phrasal-regular-t-z.md#type-up)
+
 ---
 
 ### retype
@@ -718,9 +720,9 @@ To find the mistakes in something and make them right.
 2. She *corrected* thirty papers last night.
 3. The teacher is *correcting* our essays now.
 
----
-
 **Phrasal verbs:** [correct for](22-verb-preposition.md#correct-for)
+
+---
 
 ### proof
 
@@ -911,6 +913,8 @@ To write something down quickly and briefly.
 2. He *jotted* a few lines in his notebook.
 3. She was *jotting* notes all through the call.
 
+**Phrasal verbs:** [jot down](55-phrasal-regular-g-l.md#jot-down)
+
 ---
 
 ### scribble
@@ -963,6 +967,8 @@ To fill a drawing with color using crayons or pencils.
 2. She *colored* the whole sky purple.
 3. He is *coloring* inside the lines for once.
 
+**Phrasal verbs:** [color in](53-phrasal-regular-a-c.md#color-in)
+
 ---
 
 ### elaborate
@@ -981,9 +987,9 @@ To say or write more about something you have already mentioned.
 2. She *elaborated* on her answer in the second paragraph.
 3. He is *elaborating* on a point nobody questioned.
 
----
-
 **Phrasal verbs:** [elaborate on](22-verb-preposition.md#elaborate-on)
+
+---
 
 ### recount
 
@@ -1228,6 +1234,8 @@ To offer an idea for a story, book, or project to someone who might buy it.
 2. She *pitched* three articles and sold two.
 3. He is *pitching* his novel to agents this month.
 
+**Phrasal verbs:** [pitch in](56-phrasal-regular-m-p.md#pitch-in)
+
 ---
 
 ### adapt
@@ -1246,9 +1254,9 @@ To rewrite a book or story so that it can be a film, a play, or a version for ot
 2. She *adapted* the play for young audiences.
 3. The book has been *adapted* three times already.
 
----
-
 **Phrasal verbs:** [adapt to](22-verb-preposition.md#adapt-to)
+
+---
 
 ### critique
 
@@ -1387,6 +1395,8 @@ To write down events, hours, or numbers in an official record.
 2. The nurse *logged* his temperature at noon.
 3. She has been *logging* her reading all year.
 
+**Phrasal verbs:** [log in](55-phrasal-regular-g-l.md#log-in) &middot; [log off](55-phrasal-regular-g-l.md#log-off) &middot; [log on](55-phrasal-regular-g-l.md#log-on) &middot; [log out](55-phrasal-regular-g-l.md#log-out)
+
 ---
 
 ### flag
@@ -1405,6 +1415,8 @@ To mark something so that someone will notice it and deal with it.
 2. The editor *flagged* three factual errors.
 3. Two emails are *flagged* as urgent.
 
+**Phrasal verbs:** [flag down](54-phrasal-regular-d-f.md#flag-down)
+
 ---
 
 ### tag
@@ -1422,6 +1434,8 @@ To attach a name or a keyword to a photo, post, or file.
 1. Don't *tag* me in that photo.
 2. She *tagged* the post with three keywords.
 3. He is *tagging* everyone who was there.
+
+**Phrasal verbs:** [tag along](58-phrasal-regular-t-z.md#tag-along)
 
 ---
 
@@ -1510,9 +1524,9 @@ To write your name on a document to show that it is yours or that you agree.
 2. She *signed* the lease yesterday.
 3. The letter came back because it wasn't *signed*.
 
----
+**Phrasal verbs:** [sign away](57-phrasal-regular-q-s.md#sign-away) &middot; [sign in](57-phrasal-regular-q-s.md#sign-in) &middot; [sign off](57-phrasal-regular-q-s.md#sign-off) &middot; [sign off on](57-phrasal-regular-q-s.md#sign-off-on) &middot; [sign on](57-phrasal-regular-q-s.md#sign-on) &middot; [sign out](57-phrasal-regular-q-s.md#sign-out) &middot; [sign over](57-phrasal-regular-q-s.md#sign-over) &middot; [sign up](57-phrasal-regular-q-s.md#sign-up) &middot; [sign up for](22-verb-preposition.md#sign-up-for)
 
-**Phrasal verbs:** [sign up for](22-verb-preposition.md#sign-up-for)
+---
 
 ### autograph
 
@@ -1582,6 +1596,8 @@ To write the day's date on a document.
 2. He *dated* the letter March 3.
 3. The check was *dated* last year, so the bank refused it.
 
+**Phrasal verbs:** [date back](54-phrasal-regular-d-f.md#date-back)
+
 ---
 
 ### stamp
@@ -1598,6 +1614,8 @@ To press an official mark onto a document, or to put a postage stamp on a letter
 1. The clerk will *stamp* your copy.
 2. They *stamped* my passport at the border.
 3. Send a *stamped*, self-addressed envelope.
+
+**Phrasal verbs:** [stamp out](57-phrasal-regular-q-s.md#stamp-out)
 
 ---
 
@@ -1685,9 +1703,9 @@ To look at something carefully to make sure it is correct.
 2. She *checked* the figures twice.
 3. He is *checking* the references at the back.
 
----
+**Phrasal verbs:** [check back](53-phrasal-regular-a-c.md#check-back) &middot; [check in](53-phrasal-regular-a-c.md#check-in-1) &middot; [check in](53-phrasal-regular-a-c.md#check-in) &middot; [check in on](53-phrasal-regular-a-c.md#check-in-on) &middot; [check into](53-phrasal-regular-a-c.md#check-into) &middot; [check off](53-phrasal-regular-a-c.md#check-off) &middot; [check out](53-phrasal-regular-a-c.md#check-out-1) &middot; [check out](53-phrasal-regular-a-c.md#check-out-2) &middot; [check out](53-phrasal-regular-a-c.md#check-out) &middot; [check over](53-phrasal-regular-a-c.md#check-over) &middot; [check up on](22-verb-preposition.md#check-up-on) &middot; [check with](53-phrasal-regular-a-c.md#check-with)
 
-**Phrasal verbs:** [check up on](22-verb-preposition.md#check-up-on)
+---
 
 ### grade
 

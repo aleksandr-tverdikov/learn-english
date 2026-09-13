@@ -317,6 +317,8 @@ To make someone suddenly afraid.
 2. You *scared* me half to death.
 3. He is *scaring* the children with that mask.
 
+**Phrasal verbs:** [scare off](57-phrasal-regular-q-s.md#scare-off) &middot; [scare up](57-phrasal-regular-q-s.md#scare-up)
+
 ---
 
 ### frighten
@@ -333,6 +335,8 @@ To make someone feel fear.
 1. Thunderstorms *frighten* the baby.
 2. The sudden noise *frightened* her.
 3. He has never been *frightened* by the dark.
+
+**Phrasal verbs:** [frighten off](54-phrasal-regular-d-f.md#frighten-off)
 
 ---
 
@@ -633,6 +637,8 @@ To make someone feel admiration.
 2. The chef *impressed* us with a very simple soup.
 3. We were *impressed* by how quickly they finished.
 
+**Phrasal verbs:** [impress on](55-phrasal-regular-g-l.md#impress-on)
+
 ---
 
 ### please
@@ -858,6 +864,8 @@ To make someone or something quiet and peaceful again.
 1. Deep breaths *calm* her nerves.
 2. He *calmed* the frightened horse in a minute.
 3. Her voice was *calming* everyone in the room.
+
+**Phrasal verbs:** [calm down](53-phrasal-regular-a-c.md#calm-down)
 
 ---
 
@@ -1170,6 +1178,8 @@ To feel sad because someone or something is no longer with you.
 2. She *missed* her friends terribly that first year.
 3. He has been *missing* his old neighborhood.
 
+**Phrasal verbs:** [miss out](56-phrasal-regular-m-p.md#miss-out)
+
 ---
 
 ### cry
@@ -1187,6 +1197,8 @@ To produce tears because of sadness, pain, or strong feeling.
 1. Some people *cry* at weddings.
 2. The baby *cried* most of the night.
 3. She has been *crying* since she heard.
+
+**Phrasal verbs:** [cry out](53-phrasal-regular-a-c.md#cry-out) &middot; [cry out for](53-phrasal-regular-a-c.md#cry-out-for)
 
 ---
 
@@ -1276,6 +1288,8 @@ To make someone unable to understand or explain something.
 1. Her reaction *puzzles* me.
 2. The missing key *puzzled* the detectives.
 3. He was *puzzled* by the question.
+
+**Phrasal verbs:** [puzzle out](56-phrasal-regular-m-p.md#puzzle-out) &middot; [puzzle over](56-phrasal-regular-m-p.md#puzzle-over)
 
 ---
 
@@ -1607,6 +1621,8 @@ To touch someone with your lips to show love or greeting.
 2. He *kissed* her goodbye at the airport.
 3. She was *kissing* the top of the baby's head.
 
+**Phrasal verbs:** [kiss up to](55-phrasal-regular-g-l.md#kiss-up-to)
+
 ---
 
 ### tolerate
@@ -1693,6 +1709,8 @@ To move your eyebrows together because you are annoyed, worried, or thinking.
 1. She *frowns* when she is concentrating.
 2. He *frowned* at the bill.
 3. The teacher was *frowning* at the noise in the back.
+
+**Phrasal verbs:** [frown on](54-phrasal-regular-d-f.md#frown-on)
 
 ---
 

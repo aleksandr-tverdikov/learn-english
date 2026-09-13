@@ -179,6 +179,8 @@ To draw something quickly and roughly.
 2. He *sketched* the whole building on a napkin.
 3. She was *sketching* the bridge from the far bank.
 
+**Phrasal verbs:** [sketch out](57-phrasal-regular-q-s.md#sketch-out)
+
 ---
 
 ### model
@@ -284,6 +286,8 @@ To fasten something with nails.
 2. They *nailed* the sign above the door.
 3. The trim was *nailed* in place yesterday.
 
+**Phrasal verbs:** [nail down](56-phrasal-regular-m-p.md#nail-down-1) &middot; [nail down](56-phrasal-regular-m-p.md#nail-down) &middot; [nail down](56-phrasal-regular-m-p.md#nail-down-2)
+
 ---
 
 ### screw
@@ -300,6 +304,8 @@ To fasten something with screws, or to turn it into place.
 1. *Screw* the plate onto the wall.
 2. He *screwed* the legs onto the table.
 3. The bracket is *screwed* into a stud.
+
+**Phrasal verbs:** [screw around](57-phrasal-regular-q-s.md#screw-around) &middot; [screw over](57-phrasal-regular-q-s.md#screw-over) &middot; [screw up](57-phrasal-regular-q-s.md#screw-up)
 
 ---
 
@@ -352,6 +358,8 @@ To stick or cover something with tape.
 1. *Tape* the edges before you paint.
 2. He *taped* the box shut.
 3. She is *taping* the seams.
+
+**Phrasal verbs:** [tape up](58-phrasal-regular-t-z.md#tape-up)
 
 ---
 
@@ -420,6 +428,8 @@ To hit something with a hammer, or to shape it by hitting.
 1. *Hammer* the nail flush with the board.
 2. He *hammered* the dent out of the fender.
 3. Someone was *hammering* upstairs all morning.
+
+**Phrasal verbs:** [hammer home](55-phrasal-regular-g-l.md#hammer-home) &middot; [hammer out](55-phrasal-regular-g-l.md#hammer-out)
 
 ---
 
@@ -523,6 +533,8 @@ To cover a surface with paint, or to make a picture with paint.
 2. She *painted* the door a deep green.
 3. They have *painted* the whole apartment.
 
+**Phrasal verbs:** [paint over](56-phrasal-regular-m-p.md#paint-over)
+
 ---
 
 ### sand
@@ -558,6 +570,8 @@ To rub a surface until it shines.
 2. He *polished* the counter until it shone.
 3. She is *polishing* the finished bowl.
 
+**Phrasal verbs:** [polish off](56-phrasal-regular-m-p.md#polish-off) &middot; [polish up](56-phrasal-regular-m-p.md#polish-up)
+
 ---
 
 ### varnish
@@ -591,6 +605,8 @@ To close a gap or cover a surface so that nothing gets through.
 1. *Seal* the gap with caulk.
 2. They *sealed* the concrete before winter.
 3. The joints are *sealed* with silicone.
+
+**Phrasal verbs:** [seal off](57-phrasal-regular-q-s.md#seal-off)
 
 ---
 
@@ -714,6 +730,8 @@ To shape hot metal by hammering it.
 2. The hinges were *forged*, not cast.
 3. He is *forging* a hook out of scrap steel.
 
+**Phrasal verbs:** [forge ahead](54-phrasal-regular-d-f.md#forge-ahead)
+
 ---
 
 ### fold
@@ -730,6 +748,8 @@ To bend something over on itself.
 1. *Fold* the metal along the score line.
 2. She *folded* the sheet into a paper box.
 3. The legs are *folded* flat for storage.
+
+**Phrasal verbs:** [fold in](54-phrasal-regular-d-f.md#fold-in) &middot; [fold up](54-phrasal-regular-d-f.md#fold-up)
 
 ---
 
@@ -748,6 +768,8 @@ To make something flat, or to become flat.
 2. The press *flattened* the sheet in one pass.
 3. He is *flattening* the seams with a roller.
 
+**Phrasal verbs:** [flatten out](54-phrasal-regular-d-f.md#flatten-out)
+
 ---
 
 ### stretch
@@ -764,6 +786,8 @@ To pull something so that it becomes longer or tighter.
 1. *Stretch* the canvas over the frame.
 2. She *stretched* the fabric and stapled it down.
 3. The screen is *stretched* tight.
+
+**Phrasal verbs:** [stretch out](57-phrasal-regular-q-s.md#stretch-out)
 
 ---
 
@@ -835,6 +859,8 @@ To cut something with hard strokes of an axe or knife.
 2. He *chopped* the kindling before dark.
 3. She is *chopping* onions for the stew.
 
+**Phrasal verbs:** [chop down](53-phrasal-regular-a-c.md#chop-down) &middot; [chop off](53-phrasal-regular-a-c.md#chop-off) &middot; [chop up](53-phrasal-regular-a-c.md#chop-up)
+
 ---
 
 ### slice
@@ -905,6 +931,8 @@ To put two pieces together so that they become one.
 2. The pipes were *joined* with a metal collar.
 3. He is *joining* the two halves right now.
 
+**Phrasal verbs:** [join in](55-phrasal-regular-g-l.md#join-in) &middot; [join up](55-phrasal-regular-g-l.md#join-up) &middot; [join up with](55-phrasal-regular-g-l.md#join-up-with)
+
 ---
 
 ### link
@@ -921,6 +949,8 @@ To connect two things so that they work or move together.
 1. A short chain *links* the two gates.
 2. They *linked* the shed to the house wiring.
 3. The buildings are *linked* by a covered walkway.
+
+**Phrasal verbs:** [link up](55-phrasal-regular-g-l.md#link-up)
 
 ---
 
@@ -957,6 +987,8 @@ To make something tighter or firmer.
 2. He *tightened* the belt until it stopped slipping.
 3. She is *tightening* the last bolt.
 
+**Phrasal verbs:** [tighten up](58-phrasal-regular-t-z.md#tighten-up)
+
 ---
 
 ### loosen
@@ -975,6 +1007,8 @@ To make something less tight.
 2. He *loosened* the clamp too soon.
 3. The joint has *loosened* over the years.
 
+**Phrasal verbs:** [loosen up](55-phrasal-regular-g-l.md#loosen-up)
+
 ---
 
 ### mount
@@ -991,6 +1025,8 @@ To fix something onto a wall, a stand, or a support.
 1. *Mount* the TV at eye level.
 2. They *mounted* the camera on a pole.
 3. The shelf is *mounted* with hidden brackets.
+
+**Phrasal verbs:** [mount up](56-phrasal-regular-m-p.md#mount-up)
 
 ---
 
@@ -1063,6 +1099,8 @@ To fasten something with a pin, or to hold it against a surface.
 2. She *pinned* the hem before sewing it.
 3. The plan is *pinned* to the wall of the shop.
 
+**Phrasal verbs:** [pin down](56-phrasal-regular-m-p.md#pin-down) &middot; [pin on](56-phrasal-regular-m-p.md#pin-on)
+
 ---
 
 ### clamp
@@ -1079,6 +1117,8 @@ To hold something tightly with a clamp.
 1. *Clamp* the joint until the glue sets.
 2. He *clamped* the board to the bench.
 3. The pieces are *clamped* overnight.
+
+**Phrasal verbs:** [clamp down](53-phrasal-regular-a-c.md#clamp-down)
 
 ---
 
@@ -1113,6 +1153,8 @@ To make something work again after it has broken.
 1. Can you *fix* the hinge?
 2. He *fixed* the leak with a rubber washer.
 3. The heater is being *fixed* today.
+
+**Phrasal verbs:** [fix up](54-phrasal-regular-d-f.md#fix-up) &middot; [fix up](54-phrasal-regular-d-f.md#fix-up-1)
 
 ---
 
@@ -1234,6 +1276,8 @@ To cover a hole with a piece of material.
 2. He *patched* the drywall with mesh tape.
 3. The roof has been *patched* three times.
 
+**Phrasal verbs:** [patch through](56-phrasal-regular-m-p.md#patch-through) &middot; [patch up](56-phrasal-regular-m-p.md#patch-up-1) &middot; [patch up](56-phrasal-regular-m-p.md#patch-up)
+
 ---
 
 ### modify
@@ -1338,6 +1382,8 @@ To produce words or images on paper with a machine.
 2. She *printed* the labels this morning.
 3. The shop is *printing* the posters now.
 
+**Phrasal verbs:** [print out](56-phrasal-regular-m-p.md#print-out)
+
 ---
 
 ### publish
@@ -1407,6 +1453,8 @@ To put substances together so that they become one.
 2. He *mixed* the paint by hand.
 3. She is *mixing* the mortar now.
 
+**Phrasal verbs:** [mix in](56-phrasal-regular-m-p.md#mix-in) &middot; [mix it up](56-phrasal-regular-m-p.md#mix-it-up) &middot; [mix up](56-phrasal-regular-m-p.md#mix-up) &middot; [mix up](56-phrasal-regular-m-p.md#mix-up-1)
+
 ---
 
 ### stir
@@ -1424,6 +1472,8 @@ To move a liquid or mixture around with a stick or spoon.
 1. *Stir* the paint before you use it.
 2. He *stirred* the mixture until it was smooth.
 3. She is *stirring* the glue into the sawdust.
+
+**Phrasal verbs:** [stir up](57-phrasal-regular-q-s.md#stir-up)
 
 ---
 
@@ -1530,6 +1580,8 @@ To draw a line or sign on something to show where to cut or drill.
 2. He *marked* the cut line with tape.
 3. The centers are *marked* on the drawing.
 
+**Phrasal verbs:** [mark down](56-phrasal-regular-m-p.md#mark-down-1) &middot; [mark down](56-phrasal-regular-m-p.md#mark-down) &middot; [mark off](56-phrasal-regular-m-p.md#mark-off) &middot; [mark up](56-phrasal-regular-m-p.md#mark-up-1) &middot; [mark up](56-phrasal-regular-m-p.md#mark-up)
+
 ---
 
 ### align
@@ -1566,6 +1618,8 @@ To make a surface flat and horizontal.
 2. They *leveled* the ground with a rake.
 3. He is *leveling* the washer with a wrench.
 
+**Phrasal verbs:** [level off](55-phrasal-regular-g-l.md#level-off) &middot; [level with](55-phrasal-regular-g-l.md#level-with)
+
 ---
 
 ### position
@@ -1599,6 +1653,8 @@ To put things one on top of another.
 1. *Stack* the boards with spacers between them.
 2. He *stacked* the bricks along the wall.
 3. The crates are *stacked* three high.
+
+**Phrasal verbs:** [stack up](57-phrasal-regular-q-s.md#stack-up) &middot; [stack up](57-phrasal-regular-q-s.md#stack-up-1)
 
 ---
 
@@ -1687,6 +1743,8 @@ To make something exactly like an original.
 1. *Copy* the pattern onto stiff paper.
 2. He *copied* the joint from an old chair.
 3. She is *copying* the drawing to scale.
+
+**Phrasal verbs:** [copy down](53-phrasal-regular-a-c.md#copy-down)
 
 ---
 

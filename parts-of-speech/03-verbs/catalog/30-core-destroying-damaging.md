@@ -128,6 +128,8 @@ To break something violently into pieces, or to hit something with great force.
 2. Careful — you'll *smash* the eggs under those cans.
 3. The truck had *smashed* straight through the guardrail.
 
+**Phrasal verbs:** [smash up](57-phrasal-regular-q-s.md#smash-up)
+
 ---
 
 ### crack
@@ -144,6 +146,8 @@ To break so that a line appears on the surface, without breaking into pieces.
 1. The windshield *cracked* in the cold.
 2. Set it down gently or you'll *crack* the tile.
 3. She found a *cracked* pipe under the sink.
+
+**Phrasal verbs:** [crack down](53-phrasal-regular-a-c.md#crack-down) &middot; [crack open](53-phrasal-regular-a-c.md#crack-open) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-1) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-2)
 
 ---
 
@@ -162,6 +166,8 @@ To break a small piece off the edge or surface of something hard.
 1. I *chipped* a tooth on a popcorn kernel.
 2. The paint is *chipping* off the railing.
 3. Every plate in the set is *chipped*.
+
+**Phrasal verbs:** [chip away at](53-phrasal-regular-a-c.md#chip-away-at) &middot; [chip in](53-phrasal-regular-a-c.md#chip-in)
 
 ---
 
@@ -198,6 +204,8 @@ To damage a surface by rubbing it against something rough or sharp.
 2. I fell off the bike and *scraped* my knee.
 3. She spent an hour *scraping* old paint off the door.
 
+**Phrasal verbs:** [scrape by](57-phrasal-regular-q-s.md#scrape-by) &middot; [scrape together](57-phrasal-regular-q-s.md#scrape-together)
+
 ---
 
 ### scuff
@@ -233,6 +241,8 @@ To tear something quickly and roughly.
 2. Please don't *rip* the envelope — I need the address.
 3. The flag had been *ripped* to shreds by the wind.
 
+**Phrasal verbs:** [rip into](57-phrasal-regular-q-s.md#rip-into) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-2) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-1) &middot; [rip out](57-phrasal-regular-q-s.md#rip-out) &middot; [rip through](57-phrasal-regular-q-s.md#rip-through) &middot; [rip up](57-phrasal-regular-q-s.md#rip-up)
+
 ---
 
 ### snap
@@ -250,6 +260,8 @@ To break suddenly with a sharp sound, usually into two pieces.
 1. The rope *snapped* under the weight.
 2. Dry branches *snap* the moment you bend them.
 3. He had *snapped* the pencil in half without noticing.
+
+**Phrasal verbs:** [snap out of](57-phrasal-regular-q-s.md#snap-out-of) &middot; [snap up](57-phrasal-regular-q-s.md#snap-up)
 
 ---
 
@@ -492,6 +504,8 @@ To break rock or a structure apart with explosives.
 2. They *blast* twice a day at the quarry.
 3. The safe had been *blasted* open from behind.
 
+**Phrasal verbs:** [blast off](53-phrasal-regular-a-c.md#blast-off)
+
 ---
 
 ### bomb
@@ -561,6 +575,8 @@ To die under water because you cannot breathe, or to kill something that way.
 2. Don't *drown* that plant — it needs very little water.
 3. He was already *drowning* when the lifeguard reached him.
 
+**Phrasal verbs:** [drown out](54-phrasal-regular-d-f.md#drown-out)
+
 ---
 
 ### flood
@@ -578,6 +594,8 @@ To cover a place with water, or to be covered with water.
 1. The river *flooded* the whole basement.
 2. That underpass *floods* every spring.
 3. We came home and found the kitchen *flooded*.
+
+**Phrasal verbs:** [flood in](54-phrasal-regular-d-f.md#flood-in)
 
 ---
 
@@ -1029,6 +1047,8 @@ To fill a hole so that nothing can pass or leak through it.
 2. A little putty will *plug* that gap for now.
 3. The drain was *plugged* solid with hair.
 
+**Phrasal verbs:** [plug away](56-phrasal-regular-m-p.md#plug-away) &middot; [plug in](56-phrasal-regular-m-p.md#plug-in) &middot; [plug into](56-phrasal-regular-m-p.md#plug-into)
+
 ---
 
 ### heal
@@ -1046,6 +1066,8 @@ To become healthy again after an injury, or to make someone healthy again.
 1. The burn *healed* in about two weeks.
 2. Deep cuts *heal* slowly at his age.
 3. His ankle still hasn't *healed* properly.
+
+**Phrasal verbs:** [heal up](55-phrasal-regular-g-l.md#heal-up)
 
 ---
 
@@ -1322,6 +1344,8 @@ To lose color, strength, or brightness little by little.
 2. Black shirts *fade* faster than white ones.
 3. He was wearing a pair of *faded* jeans.
 
+**Phrasal verbs:** [fade away](54-phrasal-regular-d-f.md#fade-away) &middot; [fade out](54-phrasal-regular-d-f.md#fade-out)
+
 ---
 
 ### wither
@@ -1427,6 +1451,8 @@ To let liquid or gas escape through a hole or crack.
 2. That valve *leaks* whenever it gets cold.
 3. Oil was *leaking* onto the driveway all night.
 
+**Phrasal verbs:** [leak out](55-phrasal-regular-g-l.md#leak-out)
+
 ---
 
 ### jam
@@ -1445,6 +1471,8 @@ To stick so that something cannot move or work, or to make it stick.
 2. Fine sand *jams* the mechanism in a week.
 3. That window has been *jammed* shut for years.
 
+**Phrasal verbs:** [jam up](55-phrasal-regular-g-l.md#jam-up)
+
 ---
 
 ### clog
@@ -1462,6 +1490,8 @@ To block a pipe or an opening so that nothing can pass through.
 1. Grease *clogged* the kitchen drain.
 2. Leaves *clog* the gutters every fall.
 3. The filter was completely *clogged* with dust.
+
+**Phrasal verbs:** [clog up](53-phrasal-regular-a-c.md#clog-up)
 
 ---
 
@@ -1496,6 +1526,8 @@ To stop running suddenly, the way an engine does.
 1. The car *stalled* at the light and wouldn't start.
 2. It *stalls* every time I shift too early.
 3. We were *stalling* out on the freeway with the flashers on.
+
+**Phrasal verbs:** [stall out](57-phrasal-regular-q-s.md#stall-out)
 
 ---
 

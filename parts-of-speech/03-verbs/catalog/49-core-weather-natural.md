@@ -129,6 +129,8 @@ To hit something hard and repeatedly, the way wind-driven rain does.
 2. Rain *lashed* the windows until well after midnight.
 3. Wind-driven rain was *lashing* the tents by the time we got back.
 
+**Phrasal verbs:** [lash out](55-phrasal-regular-g-l.md#lash-out)
+
 ---
 
 ### pound
@@ -198,6 +200,8 @@ To fill or cover something with cloud, steam, or smoke so that it is hard to see
 1. Steam from the kettle *clouds* the window in seconds.
 2. The sky *clouded* just after noon and the wind picked up.
 3. Smoke from the wildfires has *clouded* the whole valley.
+
+**Phrasal verbs:** [cloud over](53-phrasal-regular-a-c.md#cloud-over)
 
 ---
 
@@ -672,6 +676,8 @@ To become brighter or clearer, or to make something brighter.
 2. The afternoon *brightened* once the fog burned off.
 3. The horizon was *brightening* by five in the morning.
 
+**Phrasal verbs:** [brighten up](53-phrasal-regular-a-c.md#brighten-up)
+
 ---
 
 ### lighten
@@ -689,6 +695,8 @@ To become lighter in color or in weight, or to make something lighter.
 1. The sky *lightens* around six this time of year.
 2. The clouds *lightened* and the rain finally stopped.
 3. The sky was just *lightening* when we set out.
+
+**Phrasal verbs:** [lighten up](55-phrasal-regular-g-l.md#lighten-up)
 
 ---
 
@@ -897,6 +905,8 @@ To flow out fast and in large amounts.
 2. Mud *gushed* down the hillside and across the road.
 3. A broken main was *gushing* into the street all morning.
 
+**Phrasal verbs:** [gush over](55-phrasal-regular-g-l.md#gush-over)
+
 ---
 
 ### ooze
@@ -982,6 +992,8 @@ To move water or another liquid around violently.
 1. The sea *churns* for days after a storm like that.
 2. The wind *churned* the lake into whitecaps.
 3. Gray water was *churning* under the bridge.
+
+**Phrasal verbs:** [churn out](53-phrasal-regular-a-c.md#churn-out)
 
 ---
 
@@ -1139,9 +1151,9 @@ To save someone or something from danger.
 2. The crew *rescued* six people off the rooftops.
 3. They were still *rescuing* people at midnight.
 
----
-
 **Phrasal verbs:** [rescue from](22-verb-preposition.md#rescue-from)
+
+---
 
 ### erupt
 
@@ -1348,6 +1360,8 @@ To come away from a surface in thin small pieces.
 2. The dry bark *flaked* under my fingers.
 3. The white crust was *flaking* where the spring had dried up.
 
+**Phrasal verbs:** [flake out](54-phrasal-regular-d-f.md#flake-out)
+
 ---
 
 ### orbit
@@ -1523,6 +1537,8 @@ To begin to grow light at the start of the day.
 2. The morning *dawned* clear after three days of rain.
 3. It was just *dawning* when the boats went out.
 
+**Phrasal verbs:** [dawn on](54-phrasal-regular-d-f.md#dawn-on)
+
 ---
 
 ### fog
@@ -1628,6 +1644,8 @@ To burn or shine suddenly brighter for a short time.
 1. Embers *flare* whenever the wind picks up.
 2. The fire *flared* when it reached the pines.
 3. The northern lights were *flaring* green over the lake.
+
+**Phrasal verbs:** [flare up](54-phrasal-regular-d-f.md#flare-up-1) &middot; [flare up](54-phrasal-regular-d-f.md#flare-up)
 
 ---
 
@@ -2065,9 +2083,9 @@ To keep someone or something safe from harm.
 2. Sandbags *protected* the shop from two feet of water.
 3. These wetlands have been *protected* since 1974.
 
----
-
 **Phrasal verbs:** [protect from, protect against](22-verb-preposition.md#protect-from-protect-against)
+
+---
 
 ### cake
 
@@ -2100,3 +2118,5 @@ To move apart and leave an opening in the middle.
 1. The clouds *part* for an hour most afternoons.
 2. The fog *parted* just long enough for us to see the island.
 3. A strip of blue showed where the clouds were *parting*.
+
+**Phrasal verbs:** [part with](56-phrasal-regular-m-p.md#part-with)

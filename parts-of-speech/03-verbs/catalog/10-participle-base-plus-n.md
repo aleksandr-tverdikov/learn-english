@@ -244,6 +244,8 @@ Cut a shape out of a hard material, slice cooked meat, or cut a piece out of som
 15. The museum keeps a *carven* panel from an old Norwegian church.
 16. Rows of *carven* saints line the choir stalls.
 
+**Phrasal verbs:** [carve out](53-phrasal-regular-a-c.md#carve-out) &middot; [carve up](53-phrasal-regular-a-c.md#carve-up)
+
 **See also:** [shear](#shear), [cut](01-all-three-same.md#cut), [grave](11-past-plus-d-participle-plus-n.md#grave)
 
 ### forego

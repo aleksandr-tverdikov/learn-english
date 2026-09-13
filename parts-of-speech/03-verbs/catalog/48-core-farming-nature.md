@@ -77,6 +77,8 @@ To turn over soil with a plow, or to push snow off a road.
 2. He *plowed* the snow off the lane before dawn.
 3. The ground has already been *plowed* twice.
 
+**Phrasal verbs:** [plow into](56-phrasal-regular-m-p.md#plow-into) &middot; [plow through](56-phrasal-regular-m-p.md#plow-through)
+
 ---
 
 ### seed
@@ -182,6 +184,8 @@ To pour water on plants or give water to animals.
 2. I *watered* the garden at sunrise.
 3. The seedlings have not been *watered* in three days.
 
+**Phrasal verbs:** [water down](58-phrasal-regular-t-z.md#water-down) &middot; [water down](58-phrasal-regular-t-z.md#water-down-1)
+
 ---
 
 ### weed
@@ -198,6 +202,8 @@ To pull wild plants out of a garden or field.
 1. I *weed* the beds every Saturday.
 2. She *weeded* between the rows for two hours.
 3. The path has been *weeded* and raked.
+
+**Phrasal verbs:** [weed out](58-phrasal-regular-t-z.md#weed-out)
 
 ---
 
@@ -303,6 +309,8 @@ To support a plant by tying it to a wooden or metal stick.
 1. We *stake* the tomatoes as soon as they get tall.
 2. He *staked* the young tree against the wind.
 3. Every plant in that row has been *staked*.
+
+**Phrasal verbs:** [stake out](57-phrasal-regular-q-s.md#stake-out-1) &middot; [stake out](57-phrasal-regular-q-s.md#stake-out)
 
 ---
 
@@ -494,9 +502,9 @@ To grow roots and take hold in the soil.
 2. The transplants *rooted* within a week.
 3. Half the cuttings have already *rooted*.
 
----
+**Phrasal verbs:** [root for](22-verb-preposition.md#root-for) &middot; [root out](57-phrasal-regular-q-s.md#root-out)
 
-**Phrasal verbs:** [root for](22-verb-preposition.md#root-for)
+---
 
 ### pollinate
 
@@ -564,6 +572,8 @@ To take fruit, flowers, or vegetables off the plant by hand.
 1. We *pick* apples the last week of September.
 2. She *picked* three quarts of blueberries before noon.
 3. These beans are *picked* by hand.
+
+**Phrasal verbs:** [pick apart](56-phrasal-regular-m-p.md#pick-apart) &middot; [pick at](56-phrasal-regular-m-p.md#pick-at) &middot; [pick off](56-phrasal-regular-m-p.md#pick-off) &middot; [pick on](56-phrasal-regular-m-p.md#pick-on) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out-1) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-10) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-9) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-3) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-7) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-4) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-8) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-6) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-2) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-1) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-5) &middot; [pick up after](56-phrasal-regular-m-p.md#pick-up-after) &middot; [pick up on](56-phrasal-regular-m-p.md#pick-up-on)
 
 ---
 
@@ -670,6 +680,8 @@ To feed an animal well so that it puts on weight before sale or slaughter.
 2. The steers *fattened* fast on the new pasture.
 3. The geese are being *fattened* for the holidays.
 
+**Phrasal verbs:** [fatten up](54-phrasal-regular-d-f.md#fatten-up)
+
 ---
 
 ### tame
@@ -772,6 +784,8 @@ To put a fence around a piece of land.
 1. We *fence* the garden to keep the deer out.
 2. They *fenced* forty acres last summer.
 3. The pasture is *fenced* on three sides.
+
+**Phrasal verbs:** [fence in](54-phrasal-regular-d-f.md#fence-in) &middot; [fence off](54-phrasal-regular-d-f.md#fence-off)
 
 ---
 
@@ -1033,6 +1047,8 @@ To hunt and eat another animal.
 1. Owls *prey* on mice and voles.
 2. Coyotes *preyed* on the flock all spring.
 3. Something has been *preying* on our chickens.
+
+**Phrasal verbs:** [prey on](56-phrasal-regular-m-p.md#prey-on)
 
 ---
 
@@ -1416,6 +1432,8 @@ To move at a steady pace between walking and running, said of a horse.
 2. The mare *trotted* right up to the fence.
 3. The colt was *trotting* beside its mother.
 
+**Phrasal verbs:** [trot out](58-phrasal-regular-t-z.md#trot-out)
+
 ---
 
 ### hunt
@@ -1433,6 +1451,8 @@ To chase and kill wild animals for food or sport.
 1. They *hunt* deer on that ridge every November.
 2. His father *hunted* elk in Montana for thirty years.
 3. Wolves have been *hunting* the herd all winter.
+
+**Phrasal verbs:** [hunt down](55-phrasal-regular-g-l.md#hunt-down)
 
 ---
 
@@ -1452,6 +1472,8 @@ To try to catch fish.
 2. They *fished* from the bank until it got dark.
 3. He has been *fishing* since sunrise.
 
+**Phrasal verbs:** [fish for](54-phrasal-regular-d-f.md#fish-for) &middot; [fish out](54-phrasal-regular-d-f.md#fish-out)
+
 ---
 
 ### rain
@@ -1469,6 +1491,8 @@ To fall as water from the clouds.
 1. It *rains* almost every afternoon in July.
 2. It *rained* on the cut hay for three days straight.
 3. It has been *raining* since Tuesday.
+
+**Phrasal verbs:** [rain out](57-phrasal-regular-q-s.md#rain-out)
 
 ---
 
@@ -1538,6 +1562,8 @@ To flow in a thin, slow stream.
 1. A small spring *trickles* down over the rocks.
 2. Water *trickled* out of the cracked pipe all day.
 3. The creek was barely *trickling* by August.
+
+**Phrasal verbs:** [trickle in](58-phrasal-regular-t-z.md#trickle-in)
 
 ---
 
@@ -1643,6 +1669,8 @@ To use land to grow crops or raise animals.
 1. They *farm* four hundred acres of wheat.
 2. His family *farmed* this land for sixty years.
 3. The valley has been *farmed* since the 1800s.
+
+**Phrasal verbs:** [farm out](54-phrasal-regular-d-f.md#farm-out)
 
 ---
 
@@ -1816,3 +1844,5 @@ To pull out some young plants so the rest have room to grow.
 1. *Thin* the carrots once they are two inches tall.
 2. We *thinned* the apples so the rest would grow bigger.
 3. The lettuce has been *thinned* twice already.
+
+**Phrasal verbs:** [thin out](58-phrasal-regular-t-z.md#thin-out)

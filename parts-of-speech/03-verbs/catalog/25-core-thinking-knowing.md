@@ -128,9 +128,9 @@ To think that something is true or that someone is telling the truth.
 2. Nobody *believed* his story at first.
 3. He has always *believed* in working hard.
 
----
-
 **Phrasal verbs:** [believe in](22-verb-preposition.md#believe-in)
+
+---
 
 ### brainstorm
 
@@ -200,9 +200,9 @@ To look at two or more things in order to see how they are alike or different.
 2. We *compared* prices at three stores.
 3. This car is often *compared* to a small SUV.
 
----
-
 **Phrasal verbs:** [compare to, compare with](22-verb-preposition.md#compare-to-compare-with)
+
+---
 
 ### comprehend
 
@@ -272,9 +272,9 @@ To give all your attention to one thing.
 2. She *concentrated* on the hardest questions first.
 3. He was *concentrating* so hard that he did not hear me.
 
----
-
 **Phrasal verbs:** [concentrate on](22-verb-preposition.md#concentrate-on)
+
+---
 
 ### conclude
 
@@ -363,9 +363,9 @@ To make a choice after thinking about it.
 2. We *decided* to take the early flight.
 3. Nothing has been *decided* yet.
 
----
-
 **Phrasal verbs:** [decide on, decide against](22-verb-preposition.md#decide-on-decide-against)
+
+---
 
 ### deduce
 
@@ -382,9 +382,9 @@ To work something out from the facts you already have.
 2. She *deduced* his age from his school photos.
 3. Little can be *deduced* from a single bad test.
 
----
-
 **Phrasal verbs:** [deduce from](22-verb-preposition.md#deduce-from)
+
+---
 
 ### deem
 
@@ -733,9 +733,9 @@ To want something to happen and believe that it might.
 2. I *hoped* the rain would stop.
 3. She is *hoping* for a scholarship.
 
----
-
 **Phrasal verbs:** [hope for](22-verb-preposition.md#hope-for)
+
+---
 
 ### identify
 
@@ -752,6 +752,8 @@ To recognize who or what someone or something is.
 1. Can you *identify* the plant from this photo?
 2. Witnesses *identified* the car right away.
 3. The victims have not been *identified*.
+
+**Phrasal verbs:** [identify with](55-phrasal-regular-g-l.md#identify-with) &middot; [identify with](55-phrasal-regular-g-l.md#identify-with-1)
 
 ---
 
@@ -823,9 +825,9 @@ To reach a conclusion from evidence rather than from a direct statement.
 2. The reader *inferred* that the narrator had died.
 3. We are *inferring* a lot from very little data.
 
----
-
 **Phrasal verbs:** [infer from](22-verb-preposition.md#infer-from)
+
+---
 
 ### intend
 
@@ -1056,9 +1058,9 @@ To decide in advance how something will be done.
 2. They *planned* the wedding in three months.
 3. She is *planning* a trip to Alaska.
 
----
+**Phrasal verbs:** [plan on](22-verb-preposition.md#plan-on) &middot; [plan out](56-phrasal-regular-m-p.md#plan-out)
 
-**Phrasal verbs:** [plan on](22-verb-preposition.md#plan-on)
+---
 
 ### ponder
 
@@ -1093,9 +1095,9 @@ To like one thing more than another.
 2. She *preferred* the second draft.
 3. He has always *preferred* working at night.
 
----
-
 **Phrasal verbs:** [prefer to](22-verb-preposition.md#prefer-to)
+
+---
 
 ### presume
 
@@ -1184,6 +1186,8 @@ To think logically about something in order to reach a conclusion.
 2. He *reasoned* that the store would still be open.
 3. She is *reasoning* from a single example.
 
+**Phrasal verbs:** [reason with](57-phrasal-regular-q-s.md#reason-with)
+
 ---
 
 ### recall
@@ -1217,6 +1221,8 @@ To think or suppose something, especially in informal speech.
 1. I *reckon* we can be there by noon.
 2. He *reckoned* the trip would take six hours.
 3. They are *reckoning* on a hundred guests.
+
+**Phrasal verbs:** [reckon with](57-phrasal-regular-q-s.md#reckon-with)
 
 ---
 
@@ -1325,9 +1331,9 @@ To depend on someone or something to work or to help.
 2. We *relied* on his map and got lost.
 3. She is *relying* on you to be there.
 
----
-
 **Phrasal verbs:** [rely on](22-verb-preposition.md#rely-on)
+
+---
 
 ### remember
 
@@ -1539,6 +1545,8 @@ To spend time learning about a subject, or to look at something closely.
 2. She *studied* the menu for five minutes.
 3. They are *studying* for finals.
 
+**Phrasal verbs:** [study up on](57-phrasal-regular-q-s.md#study-up-on)
+
 ---
 
 ### suppose
@@ -1575,9 +1583,9 @@ To think that something is probably true or that someone is probably guilty.
 2. Doctors *suspected* the flu at first.
 3. He is *suspected* of taking the money.
 
----
-
 **Phrasal verbs:** [suspect of](22-verb-preposition.md#suspect-of)
+
+---
 
 ### trust
 
@@ -1648,6 +1656,8 @@ To think carefully about the good and bad sides of something.
 2. They *weighed* two offers before choosing.
 3. Every option has been carefully *weighed*.
 
+**Phrasal verbs:** [weigh down](58-phrasal-regular-t-z.md#weigh-down) &middot; [weigh in](58-phrasal-regular-t-z.md#weigh-in) &middot; [weigh in](58-phrasal-regular-t-z.md#weigh-in-1) &middot; [weigh on](58-phrasal-regular-t-z.md#weigh-on)
+
 ---
 
 ### wish
@@ -1666,9 +1676,9 @@ To want something that is unlikely or impossible.
 2. She *wished* him luck and left.
 3. He is *wishing* for snow on his birthday.
 
----
-
 **Phrasal verbs:** [wish for](22-verb-preposition.md#wish-for)
+
+---
 
 ### wonder
 

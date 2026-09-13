@@ -130,6 +130,8 @@ To attack a building or position suddenly and in force.
 2. Crowds threatened to *storm* the gates of the palace.
 3. The prison was *stormed* by troops after the riot spread.
 
+**Phrasal verbs:** [storm out](57-phrasal-regular-q-s.md#storm-out)
+
 ---
 
 ### besiege
@@ -235,6 +237,8 @@ To hit someone hard with your closed fist.
 2. Don't *punch* a wall when you are angry.
 3. The boxer kept *punching* until the bell rang.
 
+**Phrasal verbs:** [punch in](56-phrasal-regular-m-p.md#punch-in-1) &middot; [punch in](56-phrasal-regular-m-p.md#punch-in) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out-1) &middot; [punch up](56-phrasal-regular-m-p.md#punch-up)
+
 ---
 
 ### kick
@@ -251,6 +255,8 @@ To hit someone or something with your foot.
 1. Somebody *kicked* the door until the lock broke.
 2. The horse will *kick* if you stand behind it.
 3. He was *kicking* the fence out of sheer frustration.
+
+**Phrasal verbs:** [kick around](55-phrasal-regular-g-l.md#kick-around) &middot; [kick back](55-phrasal-regular-g-l.md#kick-back) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in-1) &middot; [kick off](55-phrasal-regular-g-l.md#kick-off) &middot; [kick out](55-phrasal-regular-g-l.md#kick-out)
 
 ---
 
@@ -322,6 +328,8 @@ To fight someone by holding them and trying to force them to the ground.
 1. Two officers *wrestled* the gun away from him.
 2. My brother used to *wrestle* in high school.
 3. They were still *wrestling* on the floor when help arrived.
+
+**Phrasal verbs:** [wrestle with](58-phrasal-regular-t-z.md#wrestle-with)
 
 ---
 
@@ -619,6 +627,8 @@ To watch over a place or person in order to keep them safe or stop them escaping
 2. A dog will *guard* the yard better than a lock.
 3. The building is being *guarded* around the clock.
 
+**Phrasal verbs:** [guard against](55-phrasal-regular-g-l.md#guard-against)
+
 ---
 
 ### shield
@@ -743,6 +753,8 @@ To stop someone or something from passing or from succeeding.
 1. Protesters *blocked* the main highway for hours.
 2. One senator can *block* the whole bill.
 3. The road has been *blocked* since the fighting started.
+
+**Phrasal verbs:** [block in](53-phrasal-regular-a-c.md#block-in) &middot; [block off](53-phrasal-regular-a-c.md#block-off) &middot; [block out](53-phrasal-regular-a-c.md#block-out-1) &middot; [block out](53-phrasal-regular-a-c.md#block-out)
 
 ---
 
@@ -974,6 +986,8 @@ To make someone do something they do not want to do.
 2. Nobody can *force* you to testify against your husband.
 3. Hundreds of families are being *forced* out of the valley.
 
+**Phrasal verbs:** [force back](54-phrasal-regular-d-f.md#force-back) &middot; [force down](54-phrasal-regular-d-f.md#force-down) &middot; [force on](54-phrasal-regular-d-f.md#force-on) &middot; [force out](54-phrasal-regular-d-f.md#force-out)
+
 ---
 
 ### pressure
@@ -1203,6 +1217,8 @@ To come together, or bring people together, to support a cause or a leader.
 1. Farmers *rallied* on the steps of the capitol.
 2. He can still *rally* a crowd in any small town.
 3. The party has *rallied* behind its new leader.
+
+**Phrasal verbs:** [rally around](57-phrasal-regular-q-s.md#rally-around)
 
 ---
 
@@ -1807,9 +1823,9 @@ To decide officially in court that someone is guilty of a crime.
 2. It is hard to *convict* anyone on that evidence.
 3. She has never been *convicted* of anything.
 
----
-
 **Phrasal verbs:** [convict of](22-verb-preposition.md#convict-of)
+
+---
 
 ### sue
 
@@ -1827,9 +1843,9 @@ To take legal action against a person or company in a court.
 2. If they print that, she will *sue*.
 3. The city is being *sued* by three families.
 
----
-
 **Phrasal verbs:** [sue for](22-verb-preposition.md#sue-for)
+
+---
 
 ### enforce
 

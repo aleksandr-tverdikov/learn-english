@@ -407,6 +407,8 @@ To become less wide, or to reduce something to fewer choices.
 2. We *narrowed* the list to three names.
 3. The gap has been *narrowing* since spring.
 
+**Phrasal verbs:** [narrow down](56-phrasal-regular-m-p.md#narrow-down)
+
 ---
 
 ### dwindle

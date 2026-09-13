@@ -163,6 +163,8 @@ To pass flour or sugar through a fine mesh to remove the lumps.
 2. I *sifted* powdered sugar over the cake.
 3. The dry ingredients have all been *sifted*.
 
+**Phrasal verbs:** [sift through](57-phrasal-regular-q-s.md#sift-through)
+
 ---
 
 ### combine
@@ -232,6 +234,8 @@ To make something soft, or to become soft.
 2. I *softened* the onions in oil first.
 3. The raisins have *softened* in the hot water.
 
+**Phrasal verbs:** [soften up](57-phrasal-regular-q-s.md#soften-up)
+
 ---
 
 ### smoke
@@ -248,6 +252,8 @@ To flavor and preserve food by hanging it in smoke.
 1. They *smoke* their own brisket out back.
 2. We *smoked* the ribs for six hours.
 3. The trout has been *smoked* over applewood.
+
+**Phrasal verbs:** [smoke out](57-phrasal-regular-q-s.md#smoke-out)
 
 ---
 
@@ -282,6 +288,8 @@ To coat food with a shiny liquid such as syrup or thin icing.
 1. *Glaze* the ham with brown sugar and mustard.
 2. She *glazed* the donuts while they were warm.
 3. The carrots have been *glazed* in butter and honey.
+
+**Phrasal verbs:** [glaze over](55-phrasal-regular-g-l.md#glaze-over)
 
 ---
 
@@ -334,6 +342,8 @@ To keep food somewhere until it is needed.
 1. *Store* the flour in an airtight container.
 2. We *stored* the apples in the basement.
 3. The cookies are being *stored* in the freezer.
+
+**Phrasal verbs:** [store up](57-phrasal-regular-q-s.md#store-up)
 
 ---
 

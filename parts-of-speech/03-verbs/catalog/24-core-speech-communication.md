@@ -24,9 +24,9 @@ To say something more after what has already been said.
 2. Would you like to *add* anything before we finish?
 3. He has *added* a note at the bottom of the letter.
 
----
+**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
 
-**Phrasal verbs:** [add to](22-verb-preposition.md#add-to)
+---
 
 ### address
 
@@ -62,9 +62,9 @@ To agree, often unwillingly, that something bad or embarrassing is true.
 2. She finally *admitted* that she had forgotten his birthday.
 3. He has never *admitted* his part in it.
 
----
-
 **Phrasal verbs:** [admit to](22-verb-preposition.md#admit-to)
+
+---
 
 ### advise
 
@@ -100,9 +100,9 @@ To have the same opinion as someone else, or to say yes to a plan.
 2. They *agreed* to meet at the corner at noon.
 3. We have never *agreed* about politics.
 
----
-
 **Phrasal verbs:** [agree with, agree to, agree on](22-verb-preposition.md#agree-with-agree-to-agree-on)
+
+---
 
 ### announce
 
@@ -137,9 +137,9 @@ To say you are sorry for something you have done.
 2. He *apologized* for being late.
 3. She left without *apologizing*.
 
----
-
 **Phrasal verbs:** [apologize to, apologize for](22-verb-preposition.md#apologize-to-apologize-for)
+
+---
 
 ### argue
 
@@ -157,9 +157,9 @@ To disagree with someone in words, or to give reasons for an opinion.
 2. She *argued* that the test was unfair.
 3. They have been *arguing* since breakfast.
 
----
-
 **Phrasal verbs:** [argue with, argue about, argue over](22-verb-preposition.md#argue-with-argue-about-argue-over)
+
+---
 
 ### ask
 
@@ -177,9 +177,9 @@ To say something to someone in order to get an answer or a favor.
 2. She *asked* me where the bathroom was.
 3. Nobody has *asked* about the money yet.
 
----
+**Phrasal verbs:** [ask after](53-phrasal-regular-a-c.md#ask-after) &middot; [ask around](53-phrasal-regular-a-c.md#ask-around) &middot; [ask for, ask about](22-verb-preposition.md#ask-for-ask-about) &middot; [ask out](53-phrasal-regular-a-c.md#ask-out) &middot; [ask over](53-phrasal-regular-a-c.md#ask-over)
 
-**Phrasal verbs:** [ask for, ask about](22-verb-preposition.md#ask-for-ask-about)
+---
 
 ### assure
 
@@ -233,9 +233,9 @@ To say that someone or something is responsible for something bad.
 2. They *blamed* the driver for the accident.
 3. I have never *blamed* you for what happened.
 
----
-
 **Phrasal verbs:** [blame for, blame on](22-verb-preposition.md#blame-for-blame-on)
+
+---
 
 ### brag
 
@@ -269,6 +269,8 @@ To telephone someone, or to say someone's name loudly to get their attention.
 1. *Call* me when you land.
 2. I *called* the office twice this morning.
 3. Somebody has been *calling* and hanging up.
+
+**Phrasal verbs:** [call around](53-phrasal-regular-a-c.md#call-around) &middot; [call back](53-phrasal-regular-a-c.md#call-back) &middot; [call for](53-phrasal-regular-a-c.md#call-for) &middot; [call in](53-phrasal-regular-a-c.md#call-in) &middot; [call in](53-phrasal-regular-a-c.md#call-in-1) &middot; [call off](53-phrasal-regular-a-c.md#call-off) &middot; [call on](53-phrasal-regular-a-c.md#call-on) &middot; [call out](53-phrasal-regular-a-c.md#call-out) &middot; [call up](53-phrasal-regular-a-c.md#call-up) &middot; [call up](53-phrasal-regular-a-c.md#call-up-1)
 
 ---
 
@@ -321,6 +323,8 @@ To shout loudly to show support or approval.
 1. The whole stadium began to *cheer*.
 2. They *cheered* when the power came back on.
 3. A crowd was *cheering* outside the courthouse.
+
+**Phrasal verbs:** [cheer on](53-phrasal-regular-a-c.md#cheer-on) &middot; [cheer up](53-phrasal-regular-a-c.md#cheer-up)
 
 ---
 
@@ -375,9 +379,9 @@ To say or write something that gives an opinion about someone or something.
 2. Several readers *commented* on the photo.
 3. He was *commenting* on the game when the signal cut out.
 
----
-
 **Phrasal verbs:** [comment on](22-verb-preposition.md#comment-on)
+
+---
 
 ### communicate
 
@@ -394,9 +398,9 @@ To share information, ideas, or feelings with other people.
 2. She *communicated* the bad news gently.
 3. They have been *communicating* by email for years.
 
----
-
 **Phrasal verbs:** [communicate with](22-verb-preposition.md#communicate-with)
+
+---
 
 ### complain
 
@@ -414,9 +418,9 @@ To say that you are unhappy or annoyed about something.
 2. He *complained* to the manager.
 3. She has been *complaining* all week.
 
----
-
 **Phrasal verbs:** [complain to, complain about](22-verb-preposition.md#complain-to-complain-about)
+
+---
 
 ### compliment
 
@@ -452,9 +456,9 @@ To admit that you have done something wrong or embarrassing.
 2. He *confessed* after six hours of questioning.
 3. She has *confessed* everything to her lawyer.
 
----
-
 **Phrasal verbs:** [confess to](22-verb-preposition.md#confess-to)
+
+---
 
 ### confirm
 
@@ -489,9 +493,9 @@ To tell someone that you are happy about their success or good luck.
 2. Everyone *congratulated* her after the show.
 3. He left without *congratulating* the winner.
 
----
-
 **Phrasal verbs:** [congratulate on](22-verb-preposition.md#congratulate-on)
+
+---
 
 ### consult
 
@@ -508,9 +512,9 @@ To ask a person or a book for information or advice.
 2. She *consulted* her notes before answering.
 3. They are *consulting* with the city about the permit.
 
----
-
 **Phrasal verbs:** [consult with](22-verb-preposition.md#consult-with)
+
+---
 
 ### contradict
 
@@ -772,9 +776,9 @@ To make something clear by describing it in detail.
 2. She *explained* why the flight was canceled.
 3. He has *explained* it three times already.
 
----
+**Phrasal verbs:** [explain away](54-phrasal-regular-d-f.md#explain-away) &middot; [explain to](22-verb-preposition.md#explain-to)
 
-**Phrasal verbs:** [explain to](22-verb-preposition.md#explain-to)
+---
 
 ### express
 
@@ -897,6 +901,8 @@ To tell someone about something officially.
 2. They *informed* us by letter.
 3. We were never *informed* about the meeting.
 
+**Phrasal verbs:** [inform on](55-phrasal-regular-g-l.md#inform-on)
+
 ---
 
 ### inquire
@@ -914,6 +920,8 @@ To ask for information, usually politely or formally.
 1. I called to *inquire* about the job.
 2. She *inquired* whether the room was still free.
 3. Several people have *inquired* about tickets.
+
+**Phrasal verbs:** [inquire into](55-phrasal-regular-g-l.md#inquire-into)
 
 ---
 
@@ -933,9 +941,9 @@ To say firmly that something must happen or is true, even when others disagree.
 2. She *insisted* on driving us home.
 3. They kept *insisting* we stay for dinner.
 
----
-
 **Phrasal verbs:** [insist on](22-verb-preposition.md#insist-on)
+
+---
 
 ### instruct
 
@@ -1023,9 +1031,9 @@ To tell people someone's name when they meet for the first time.
 2. She *introduced* herself to everyone at the table.
 3. We have never been properly *introduced*.
 
----
-
 **Phrasal verbs:** [introduce to](22-verb-preposition.md#introduce-to)
+
+---
 
 ### invite
 
@@ -1042,9 +1050,9 @@ To ask someone to come to an event or to do something with you.
 2. They *invited* us to their wedding.
 3. She wasn't *invited*, and she knows it.
 
----
+**Phrasal verbs:** [invite along](55-phrasal-regular-g-l.md#invite-along) &middot; [invite in](55-phrasal-regular-g-l.md#invite-in) &middot; [invite out](55-phrasal-regular-g-l.md#invite-out) &middot; [invite over](55-phrasal-regular-g-l.md#invite-over) &middot; [invite to](22-verb-preposition.md#invite-to)
 
-**Phrasal verbs:** [invite to](22-verb-preposition.md#invite-to)
+---
 
 ### joke
 
@@ -1060,6 +1068,8 @@ To say funny things that you do not mean seriously.
 1. Don't worry, I'm only *joking*.
 2. He *joked* about his own cooking.
 3. She *jokes* with the customers all day.
+
+**Phrasal verbs:** [joke around](55-phrasal-regular-g-l.md#joke-around)
 
 ---
 
@@ -1200,6 +1210,8 @@ To say what someone or something is called, or to give someone a name.
 2. They *named* the baby after her grandmother.
 3. A new director has been *named*.
 
+**Phrasal verbs:** [name after](56-phrasal-regular-m-p.md#name-after)
+
 ---
 
 ### negotiate
@@ -1233,6 +1245,8 @@ To mention something because it is important.
 1. Please *note* that the office closes at four.
 2. The report *noted* several errors.
 3. It should be *noted* that nobody was hurt.
+
+**Phrasal verbs:** [note down](56-phrasal-regular-m-p.md#note-down)
 
 ---
 
@@ -1270,9 +1284,9 @@ To say that you do not agree with something or do not approve of it.
 2. Her lawyer *objected* twice in five minutes.
 3. He left without *objecting* to a single word.
 
----
-
 **Phrasal verbs:** [object to](22-verb-preposition.md#object-to)
+
+---
 
 ### offer
 
@@ -1290,6 +1304,8 @@ To say that you are willing to give something or to do something.
 2. They *offer* free coffee in the lobby.
 3. She has been *offered* the job.
 
+**Phrasal verbs:** [offer up](56-phrasal-regular-m-p.md#offer-up)
+
 ---
 
 ### order
@@ -1306,6 +1322,8 @@ To tell someone firmly that they must do something.
 1. The judge *ordered* him to pay a fine.
 2. You can't just *order* people around.
 3. We were *ordered* off the field.
+
+**Phrasal verbs:** [order around](56-phrasal-regular-m-p.md#order-around) &middot; [order in](56-phrasal-regular-m-p.md#order-in)
 
 ---
 
@@ -1341,6 +1359,8 @@ To call someone on the telephone.
 1. *Phone* me when you get in.
 2. He *phoned* the hotel from the airport.
 3. She has been *phoning* all afternoon.
+
+**Phrasal verbs:** [phone in](56-phrasal-regular-m-p.md#phone-in) &middot; [phone it in](56-phrasal-regular-m-p.md#phone-it-in)
 
 ---
 
@@ -1655,9 +1675,9 @@ To make someone remember something they have to do or know.
 2. She *reminded* him about the dentist.
 3. You have *reminded* me three times already.
 
----
-
 **Phrasal verbs:** [remind of, remind about](22-verb-preposition.md#remind-of-remind-about)
+
+---
 
 ### repeat
 
@@ -1709,6 +1729,8 @@ To give people information about something that has happened.
 2. The paper *reported* that the school would close.
 3. Two injuries have been *reported*.
 
+**Phrasal verbs:** [report back](57-phrasal-regular-q-s.md#report-back)
+
 ---
 
 ### request
@@ -1744,9 +1766,9 @@ To say or do something as an answer or a reaction.
 2. How did he *respond* to the news?
 3. Firefighters were *responding* within four minutes.
 
----
-
 **Phrasal verbs:** [respond to](22-verb-preposition.md#respond-to)
+
+---
 
 ### reveal
 
@@ -1814,6 +1836,8 @@ To say something very loudly.
 1. There's no need to *shout*.
 2. He *shouted* something from the driveway.
 3. They were *shouting* at each other in the hall.
+
+**Phrasal verbs:** [shout down](57-phrasal-regular-q-s.md#shout-down) &middot; [shout out](57-phrasal-regular-q-s.md#shout-out)
 
 ---
 
@@ -1884,6 +1908,8 @@ To say something with special force because it is important.
 1. I want to *stress* that this is not a punishment.
 2. She *stressed* the word "today".
 3. He kept *stressing* how little time we had.
+
+**Phrasal verbs:** [stress out](57-phrasal-regular-q-s.md#stress-out)
 
 ---
 
@@ -1956,9 +1982,9 @@ To say things to someone as part of a conversation.
 2. They *talked* for an hour in the driveway.
 3. She has been *talking* about moving for years.
 
----
+**Phrasal verbs:** [talk back](58-phrasal-regular-t-z.md#talk-back) &middot; [talk down to](58-phrasal-regular-t-z.md#talk-down-to) &middot; [talk into](58-phrasal-regular-t-z.md#talk-into) &middot; [talk out of](58-phrasal-regular-t-z.md#talk-out-of) &middot; [talk over](58-phrasal-regular-t-z.md#talk-over) &middot; [talk through](58-phrasal-regular-t-z.md#talk-through) &middot; [talk to, talk with, talk about](22-verb-preposition.md#talk-to-talk-with-talk-about) &middot; [talk up](58-phrasal-regular-t-z.md#talk-up)
 
-**Phrasal verbs:** [talk to, talk with, talk about](22-verb-preposition.md#talk-to-talk-with-talk-about)
+---
 
 ### tease
 
@@ -2011,9 +2037,9 @@ To tell someone that you are grateful for what they did.
 2. She *thanked* the driver and got off.
 3. He left without *thanking* anybody.
 
----
-
 **Phrasal verbs:** [thank for](22-verb-preposition.md#thank-for)
+
+---
 
 ### threaten
 
@@ -2049,9 +2075,9 @@ To change words from one language into another.
 2. She *translated* the whole contract in one night.
 3. The book has been *translated* into forty languages.
 
----
-
 **Phrasal verbs:** [translate into](22-verb-preposition.md#translate-into)
+
+---
 
 ### urge
 
@@ -2067,6 +2093,8 @@ To try hard to persuade someone to do something.
 1. Doctors *urge* everyone to get a flu shot.
 2. She *urged* him to see a lawyer.
 3. We are *urging* people to stay off the roads.
+
+**Phrasal verbs:** [urge on](58-phrasal-regular-t-z.md#urge-on)
 
 ---
 
@@ -2120,9 +2148,9 @@ To tell someone about a danger or a problem so that they can avoid it.
 2. She *warned* us not to park there.
 3. We had been *warned* about the traffic.
 
----
-
 **Phrasal verbs:** [warn about, warn against](22-verb-preposition.md#warn-about-warn-against)
+
+---
 
 ### welcome
 
@@ -2174,3 +2202,5 @@ To shout loudly, often in anger or to be heard far away.
 1. Don't *yell* at your brother.
 2. Somebody *yelled* from across the street.
 3. The coach was *yelling* the whole game.
+
+**Phrasal verbs:** [yell out](58-phrasal-regular-t-z.md#yell-out)

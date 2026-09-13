@@ -24,6 +24,8 @@ To stop, or to bring something to its finish.
 2. The concert *ended* just after eleven.
 3. The strike has *ended* after nine long weeks.
 
+**Phrasal verbs:** [end in](54-phrasal-regular-d-f.md#end-in) &middot; [end up](54-phrasal-regular-d-f.md#end-up) &middot; [end up with](54-phrasal-regular-d-f.md#end-up-with)
+
 ---
 
 ### commence
@@ -473,9 +475,9 @@ To stop doing something, especially when told to.
 2. They *desisted* only after the second warning.
 3. He kept calling, *desisting* for a day and then starting again.
 
----
-
 **Phrasal verbs:** [desist from](22-verb-preposition.md#desist-from)
+
+---
 
 ### refrain
 
@@ -493,9 +495,9 @@ To hold yourself back from doing something.
 2. She *refrained* from saying what she really thought.
 3. He has *refrained* from commenting on the case.
 
----
-
 **Phrasal verbs:** [refrain from](22-verb-preposition.md#refrain-from)
+
+---
 
 ### curb
 
@@ -547,9 +549,9 @@ To stop something from flowing or spreading.
 2. The new coach *stemmed* the losing streak.
 3. They are *stemming* the bleeding with a tourniquet.
 
----
-
 **Phrasal verbs:** [stem from](22-verb-preposition.md#stem-from)
+
+---
 
 ### stifle
 
@@ -928,9 +930,9 @@ To stop something from happening at all.
 2. The rain *prevented* us from finishing the game.
 3. Most of these accidents could have been *prevented*.
 
----
-
 **Phrasal verbs:** [prevent from](22-verb-preposition.md#prevent-from)
+
+---
 
 ### avert
 
@@ -1175,6 +1177,8 @@ To set an upper limit on an amount so that it stops rising.
 2. They *capped* the class at twenty students.
 3. Rent is *capped* at three percent a year.
 
+**Phrasal verbs:** [cap off](53-phrasal-regular-a-c.md#cap-off)
+
 ---
 
 ### confine
@@ -1298,6 +1302,8 @@ To become gradually smaller or less, or to reduce something gradually.
 2. The applause *tapered* into silence.
 3. Demand has been *tapering* since July.
 
+**Phrasal verbs:** [taper off](58-phrasal-regular-t-z.md#taper-off)
+
 ---
 
 ### last
@@ -1386,9 +1392,9 @@ To stay where you are or delay acting until something happens.
 2. We *waited* almost an hour for a table.
 3. She has been *waiting* outside since noon.
 
----
+**Phrasal verbs:** [wait around](58-phrasal-regular-t-z.md#wait-around) &middot; [wait for, wait on](22-verb-preposition.md#wait-for-wait-on) &middot; [wait out](58-phrasal-regular-t-z.md#wait-out) &middot; [wait up](58-phrasal-regular-t-z.md#wait-up) &middot; [wait up](58-phrasal-regular-t-z.md#wait-up-1)
 
-**Phrasal verbs:** [wait for, wait on](22-verb-preposition.md#wait-for-wait-on)
+---
 
 ### procrastinate
 

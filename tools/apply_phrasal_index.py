@@ -17,11 +17,15 @@ CAT = os.path.join(ROOT, 'parts-of-speech/03-verbs/catalog')
 # base verbs are groups 01-13 (irregular) AND 23+ (regular). The regular tier did not
 # exist when this script was written, so `call off` and `check in` had nowhere to be
 # listed even once they were written - their bases are regular verbs.
+# Base verbs are groups 01-13 (irregular) and 23-52 (regular). The upper bound matters:
+# 53-58 are themselves phrasal verbs, and an unbounded `>= 23` made this script treat them
+# as bases AND as derived, writing headings into the very files it was reading.
 BASE_FILES = sorted(glob.glob(f'{CAT}/0[0-9]-*.md') + glob.glob(f'{CAT}/1[0-3]-*.md')
                     + [f for f in glob.glob(f'{CAT}/[0-9]*.md')
-                       if int(re.match(r'(\d+)', os.path.basename(f)).group(1)) >= 23])
+                       if 23 <= int(re.match(r'(\d+)', os.path.basename(f)).group(1)) <= 52])
 DERIVED = sorted(glob.glob(f'{CAT}/1[4-9]-phrasal*.md') + glob.glob(f'{CAT}/2[01]-phrasal*.md')
-                 + glob.glob(f'{CAT}/22-*.md'))
+                 + glob.glob(f'{CAT}/22-*.md')
+                 + glob.glob(f'{CAT}/5[3-8]-phrasal-regular*.md'))
 
 PHRASAL_LINE = re.compile(r'^\*\*Phrasal verbs:\*\*.*$')
 SEE_ALSO = re.compile(r'^\*\*See also:\*\*')
@@ -72,9 +76,14 @@ def apply(idx):
                 line = f'**Phrasal verbs:** {links}'
                 at = next((k for k, l in enumerate(entry) if SEE_ALSO.match(l)), None)
                 if at is None:
-                    while entry and not entry[-1].strip():
-                        entry.pop()
-                    entry += ['', line, '']
+                    # the captured block runs to the next heading, so it ends with the
+                    # entry separator. Appending blindly puts the line AFTER the ---,
+                    # orphaning it from the entry it belongs to.
+                    tail = []
+                    while entry and (not entry[-1].strip() or entry[-1].strip() == '---'):
+                        tail.insert(0, entry.pop())
+                    entry += ['', line]
+                    entry += tail if tail else ['']
                 else:
                     entry.insert(at, line)
                     entry.insert(at + 1, '')

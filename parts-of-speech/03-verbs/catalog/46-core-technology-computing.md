@@ -25,6 +25,8 @@ To make a file, app, or window appear on a screen so you can use it.
 2. I *opened* the attachment and my laptop froze.
 3. The file is *opening* - give it a second.
 
+**Phrasal verbs:** [open up](56-phrasal-regular-m-p.md#open-up-4) &middot; [open up](56-phrasal-regular-m-p.md#open-up-2) &middot; [open up](56-phrasal-regular-m-p.md#open-up-1) &middot; [open up](56-phrasal-regular-m-p.md#open-up) &middot; [open up](56-phrasal-regular-m-p.md#open-up-3)
+
 ---
 
 ### close
@@ -42,6 +44,8 @@ To make a file, window, or program stop being open.
 1. *Close* the other tabs to speed up the browser.
 2. He *closed* the laptop without saving the file.
 3. The app keeps *closing* on its own.
+
+**Phrasal verbs:** [close down](53-phrasal-regular-a-c.md#close-down) &middot; [close in](53-phrasal-regular-a-c.md#close-in) &middot; [close off](53-phrasal-regular-a-c.md#close-off) &middot; [close out](53-phrasal-regular-a-c.md#close-out) &middot; [close up](53-phrasal-regular-a-c.md#close-up-1) &middot; [close up](53-phrasal-regular-a-c.md#close-up)
 
 ---
 
@@ -379,6 +383,8 @@ To supply a device with the electricity it needs to run.
 2. The old model was *powered* by a wall adapter.
 3. One cable is *powering* both screens.
 
+**Phrasal verbs:** [power down](56-phrasal-regular-m-p.md#power-down) &middot; [power through](56-phrasal-regular-m-p.md#power-through) &middot; [power up](56-phrasal-regular-m-p.md#power-up)
+
 ---
 
 ### switch
@@ -397,6 +403,8 @@ To change from one thing, setting, or service to another.
 2. We *switched* to a cheaper carrier last year.
 3. She is *switching* between four browser tabs.
 
+**Phrasal verbs:** [switch off](57-phrasal-regular-q-s.md#switch-off-1) &middot; [switch off](57-phrasal-regular-q-s.md#switch-off) &middot; [switch on](57-phrasal-regular-q-s.md#switch-on) &middot; [switch out](57-phrasal-regular-q-s.md#switch-out) &middot; [switch over](57-phrasal-regular-q-s.md#switch-over) &middot; [switch up](57-phrasal-regular-q-s.md#switch-up)
+
 ---
 
 ### boot
@@ -413,6 +421,8 @@ To start a computer so that the operating system loads.
 1. The old tower takes a full minute to *boot*.
 2. He *booted* the laptop from a USB stick.
 3. The machine is still *booting*.
+
+**Phrasal verbs:** [boot out](53-phrasal-regular-a-c.md#boot-out) &middot; [boot up](53-phrasal-regular-a-c.md#boot-up)
 
 ---
 
@@ -500,6 +510,8 @@ To respond slowly, so that the picture or the sound falls behind.
 1. The video will *lag* on this connection.
 2. The audio *lagged* about half a second behind.
 3. My screen is *lagging* badly today.
+
+**Phrasal verbs:** [lag behind](55-phrasal-regular-g-l.md#lag-behind)
 
 ---
 
@@ -747,6 +759,8 @@ To change something in size, or to grow so as to handle much more work.
 2. They *scaled* the service to ten million users.
 3. The company is *scaling* faster than it can hire.
 
+**Phrasal verbs:** [scale back](57-phrasal-regular-q-s.md#scale-back) &middot; [scale down](57-phrasal-regular-q-s.md#scale-down) &middot; [scale up](57-phrasal-regular-q-s.md#scale-up)
+
 ---
 
 ### integrate
@@ -902,6 +916,8 @@ To stop something from being used or changed without a key, a code, or a passwor
 1. *Lock* your screen when you leave the desk.
 2. He *locked* the file so that nobody could edit it.
 3. The phone is *locking* itself every thirty seconds.
+
+**Phrasal verbs:** [lock down](55-phrasal-regular-g-l.md#lock-down) &middot; [lock in](55-phrasal-regular-g-l.md#lock-in) &middot; [lock out](55-phrasal-regular-g-l.md#lock-out) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up) &middot; [lock up](55-phrasal-regular-g-l.md#lock-up-1)
 
 ---
 
@@ -1077,6 +1093,8 @@ To enter a phone number in order to make a call.
 1. *Dial* the extension after the beep.
 2. He *dialed* the wrong number twice.
 3. She is *dialing* in from the airport.
+
+**Phrasal verbs:** [dial back](54-phrasal-regular-d-f.md#dial-back) &middot; [dial down](54-phrasal-regular-d-f.md#dial-down) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in-1) &middot; [dial up](54-phrasal-regular-d-f.md#dial-up)
 
 ---
 

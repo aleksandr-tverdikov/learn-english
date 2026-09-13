@@ -25,6 +25,8 @@ To go to stores looking for things to buy.
 2. They *shopped* for a used car all weekend.
 3. I hate *shopping* for clothes.
 
+**Phrasal verbs:** [shop around](57-phrasal-regular-q-s.md#shop-around)
+
 ---
 
 ### afford
@@ -78,6 +80,8 @@ To discuss terms with someone until you reach a price both sides accept.
 1. Tourists rarely *bargain*, so they pay more.
 2. The union *bargained* for higher wages.
 3. We're still *bargaining* over the price of the truck.
+
+**Phrasal verbs:** [bargain for](53-phrasal-regular-a-c.md#bargain-for)
 
 ---
 
@@ -167,6 +171,8 @@ To sell something to whoever offers the most money.
 2. The painting was *auctioned* for two million dollars.
 3. He's *auctioning* his whole record collection online.
 
+**Phrasal verbs:** [auction off](53-phrasal-regular-a-c.md#auction-off)
+
 ---
 
 ### export
@@ -219,6 +225,8 @@ To keep goods in a store so that customers can buy them.
 1. We don't *stock* that brand anymore.
 2. They *stocked* the shelves before opening.
 3. The store is well *stocked* for the holidays.
+
+**Phrasal verbs:** [stock up](57-phrasal-regular-q-s.md#stock-up)
 
 ---
 
@@ -288,6 +296,8 @@ To exchange a check for money.
 1. You can *cash* a check at any branch.
 2. She *cashed* her paycheck on Friday.
 3. He's at the bank *cashing* the check now.
+
+**Phrasal verbs:** [cash in](53-phrasal-regular-a-c.md#cash-in) &middot; [cash in on](53-phrasal-regular-a-c.md#cash-in-on) &middot; [cash out](53-phrasal-regular-a-c.md#cash-out)
 
 ---
 
@@ -411,6 +421,8 @@ To make money coming in equal money going out in an account.
 2. I finally *balanced* my checkbook.
 3. The budget has to be *balanced* by June.
 
+**Phrasal verbs:** [balance out](53-phrasal-regular-a-c.md#balance-out)
+
 ---
 
 ### economize
@@ -463,6 +475,8 @@ To spend money on something useless.
 1. Don't *waste* money on the extended warranty.
 2. We *wasted* three hundred dollars on a printer we never used.
 3. He's *wasting* his savings on lottery tickets.
+
+**Phrasal verbs:** [waste away](58-phrasal-regular-t-z.md#waste-away)
 
 ---
 
@@ -727,3 +741,5 @@ To make an amount twice as large, or to become twice as large.
 1. Shipping costs can *double* around the holidays.
 2. The rent *doubled* in six years.
 3. They're *doubling* the size of the store.
+
+**Phrasal verbs:** [double back](54-phrasal-regular-d-f.md#double-back) &middot; [double down](54-phrasal-regular-d-f.md#double-down) &middot; [double over](54-phrasal-regular-d-f.md#double-over) &middot; [double up](54-phrasal-regular-d-f.md#double-up)

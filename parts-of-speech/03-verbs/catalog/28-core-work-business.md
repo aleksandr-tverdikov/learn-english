@@ -25,9 +25,9 @@ To do a job, especially one you are paid for.
 2. She *worked* late three nights in a row.
 3. He has been *working* here since 2019.
 
----
+**Phrasal verbs:** [work around](58-phrasal-regular-t-z.md#work-around) &middot; [work in](58-phrasal-regular-t-z.md#work-in) &middot; [work off](58-phrasal-regular-t-z.md#work-off) &middot; [work on, work for, work with](22-verb-preposition.md#work-on-work-for-work-with) &middot; [work out](58-phrasal-regular-t-z.md#work-out) &middot; [work out](58-phrasal-regular-t-z.md#work-out-3) &middot; [work out](58-phrasal-regular-t-z.md#work-out-1) &middot; [work out](58-phrasal-regular-t-z.md#work-out-2) &middot; [work out to](58-phrasal-regular-t-z.md#work-out-to) &middot; [work through](58-phrasal-regular-t-z.md#work-through) &middot; [work up](58-phrasal-regular-t-z.md#work-up-1) &middot; [work up](58-phrasal-regular-t-z.md#work-up) &middot; [work up to](58-phrasal-regular-t-z.md#work-up-to)
 
-**Phrasal verbs:** [work on, work for, work with](22-verb-preposition.md#work-on-work-for-work-with)
+---
 
 ### employ
 
@@ -183,6 +183,8 @@ To make someone leave their job, usually for poor work or bad behavior.
 1. No boss enjoys having to *fire* anyone.
 2. They *fired* him for missing three deadlines.
 3. Two people were *fired* after the audit.
+
+**Phrasal verbs:** [fire away](54-phrasal-regular-d-f.md#fire-away) &middot; [fire back](54-phrasal-regular-d-f.md#fire-back) &middot; [fire off](54-phrasal-regular-d-f.md#fire-off) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up-1) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up)
 
 ---
 
@@ -428,6 +430,8 @@ To decide that a planned event or arrangement will not happen.
 2. She *canceled* the order an hour later.
 3. Two flights have been *canceled* this morning.
 
+**Phrasal verbs:** [cancel out](53-phrasal-regular-a-c.md#cancel-out)
+
 ---
 
 ### host
@@ -533,6 +537,8 @@ To find the size, amount, or degree of something.
 2. They *measured* the impact of the ad campaign.
 3. Performance is *measured* against last year.
 
+**Phrasal verbs:** [measure out](56-phrasal-regular-m-p.md#measure-out) &middot; [measure up](56-phrasal-regular-m-p.md#measure-up)
+
 ---
 
 ### compromise
@@ -601,6 +607,8 @@ To end an argument or a debt by agreement.
 1. Most cases like this *settle* before trial.
 2. They *settled* the claim out of court.
 3. The invoice has been *settled* in full.
+
+**Phrasal verbs:** [settle down](57-phrasal-regular-q-s.md#settle-down-1) &middot; [settle down](57-phrasal-regular-q-s.md#settle-down) &middot; [settle for](57-phrasal-regular-q-s.md#settle-for) &middot; [settle in](57-phrasal-regular-q-s.md#settle-in) &middot; [settle on](57-phrasal-regular-q-s.md#settle-on) &middot; [settle up](57-phrasal-regular-q-s.md#settle-up)
 
 ---
 
@@ -954,6 +962,8 @@ To become larger, or to make something larger.
 2. They *expanded* into Canada last year.
 3. We have been *expanding* the team all spring.
 
+**Phrasal verbs:** [expand on](54-phrasal-regular-d-f.md#expand-on)
+
 ---
 
 ### acquire
@@ -1025,6 +1035,8 @@ To have something as your property.
 2. They *owned* the building before the bank took it.
 3. The chain is *owned* by a family in Texas.
 
+**Phrasal verbs:** [own up](56-phrasal-regular-m-p.md#own-up)
+
 ---
 
 ### rent
@@ -1043,6 +1055,8 @@ To pay to use a property for a period, or to let someone use yours for payment.
 2. They *rented* a warehouse near the airport.
 3. The office has been *rented* to a law firm.
 
+**Phrasal verbs:** [rent out](57-phrasal-regular-q-s.md#rent-out)
+
 ---
 
 ### improve
@@ -1059,6 +1073,8 @@ To make something better, or to become better.
 1. Small changes *improve* the process a lot.
 2. Delivery times *improved* after the new software.
 3. Service has been *improving* since January.
+
+**Phrasal verbs:** [improve on](55-phrasal-regular-g-l.md#improve-on)
 
 ---
 
@@ -1131,6 +1147,8 @@ To bring something to an end, or to come to an end.
 2. She *finished* the report on the train.
 3. We are *finishing* the last section today.
 
+**Phrasal verbs:** [finish off](54-phrasal-regular-d-f.md#finish-off) &middot; [finish off](54-phrasal-regular-d-f.md#finish-off-1) &middot; [finish up](54-phrasal-regular-d-f.md#finish-up)
+
 ---
 
 ### achieve
@@ -1202,6 +1220,8 @@ To work for a person, an organization, or a group of customers.
 2. He *served* as treasurer for six years.
 3. Over a thousand clients are *served* each month.
 
+**Phrasal verbs:** [serve up](57-phrasal-regular-q-s.md#serve-up)
+
 ---
 
 ### process
@@ -1237,6 +1257,8 @@ To send an official document to an authority, or to store papers in order.
 1. Most companies *file* their taxes in March.
 2. She *filed* a complaint with the labor board.
 3. The paperwork was *filed* a week late.
+
+**Phrasal verbs:** [file away](54-phrasal-regular-d-f.md#file-away) &middot; [file for](54-phrasal-regular-d-f.md#file-for)
 
 ---
 

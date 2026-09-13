@@ -77,9 +77,9 @@ To reach the place you were traveling to.
 2. We *arrived* in Denver two hours late.
 3. The package still has not *arrived*.
 
----
-
 **Phrasal verbs:** [arrive at, arrive in](22-verb-preposition.md#arrive-at-arrive-in)
+
+---
 
 ### ascend
 
@@ -113,6 +113,8 @@ To get on a plane, train, ship, or bus.
 2. We *boarded* the ferry just before it pulled away.
 3. They have already *boarded* the plane.
 
+**Phrasal verbs:** [board up](53-phrasal-regular-a-c.md#board-up)
+
 ---
 
 ### bounce
@@ -129,6 +131,8 @@ To spring back after hitting a surface, or to make something do that.
 1. He *bounces* the ball while he thinks.
 2. The ball *bounced* twice and rolled into the street.
 3. The kids have been *bouncing* on the bed all morning.
+
+**Phrasal verbs:** [bounce back](53-phrasal-regular-a-c.md#bounce-back) &middot; [bounce off](53-phrasal-regular-a-c.md#bounce-off)
 
 ---
 
@@ -166,6 +170,8 @@ To hold something and move it from one place to another.
 2. She *carried* the sleeping child upstairs.
 3. He was *carrying* two suitcases and a cup of coffee.
 
+**Phrasal verbs:** [carry away](53-phrasal-regular-a-c.md#carry-away) &middot; [carry off](53-phrasal-regular-a-c.md#carry-off) &middot; [carry on](53-phrasal-regular-a-c.md#carry-on) &middot; [carry on](53-phrasal-regular-a-c.md#carry-on-1) &middot; [carry out](53-phrasal-regular-a-c.md#carry-out) &middot; [carry over](53-phrasal-regular-a-c.md#carry-over)
+
 ---
 
 ### chase
@@ -183,6 +189,8 @@ To run after someone or something in order to catch them.
 2. Police *chased* the car for three miles.
 3. She spent the afternoon *chasing* a toddler around the park.
 
+**Phrasal verbs:** [chase after](53-phrasal-regular-a-c.md#chase-after) &middot; [chase away](53-phrasal-regular-a-c.md#chase-away) &middot; [chase down](53-phrasal-regular-a-c.md#chase-down)
+
 ---
 
 ### circle
@@ -199,6 +207,8 @@ To move all the way around something.
 1. Hawks *circle* above that field every evening.
 2. The plane *circled* the airport for twenty minutes.
 3. We kept *circling* the block looking for parking.
+
+**Phrasal verbs:** [circle back](53-phrasal-regular-a-c.md#circle-back)
 
 ---
 
@@ -305,6 +315,8 @@ To go from one side of something to the other.
 2. We *crossed* the border a little after noon.
 3. They have *crossed* that river three times today.
 
+**Phrasal verbs:** [cross off](53-phrasal-regular-a-c.md#cross-off) &middot; [cross out](53-phrasal-regular-a-c.md#cross-out) &middot; [cross over](53-phrasal-regular-a-c.md#cross-over)
+
 ---
 
 ### cruise
@@ -339,6 +351,8 @@ To run somewhere very quickly and for a short distance.
 2. She *dashed* across the platform and caught the train.
 3. I was *dashing* to the gate when they called my name.
 
+**Phrasal verbs:** [dash off](54-phrasal-regular-d-f.md#dash-off)
+
 ---
 
 ### deliver
@@ -356,6 +370,8 @@ To take goods or mail to the place where they were sent.
 1. They *deliver* between nine and noon.
 2. The driver *delivered* the package to the wrong door.
 3. We are *delivering* the furniture on Thursday.
+
+**Phrasal verbs:** [deliver on](54-phrasal-regular-d-f.md#deliver-on)
 
 ---
 
@@ -375,9 +391,9 @@ To leave, especially on a scheduled trip.
 2. We *departed* an hour behind schedule.
 3. The ship was *departing* as we ran down the dock.
 
----
-
 **Phrasal verbs:** [depart from](22-verb-preposition.md#depart-from)
+
+---
 
 ### descend
 
@@ -393,6 +409,8 @@ To move down to a lower place.
 1. The plane began to *descend* over the lake.
 2. We *descended* the stairs in the dark.
 3. Fog was *descending* on the whole valley.
+
+**Phrasal verbs:** [descend on](54-phrasal-regular-d-f.md#descend-on)
 
 ---
 
@@ -429,6 +447,8 @@ To pull something heavy along the ground.
 2. He *dragged* the trash cans out to the curb.
 3. She was *dragging* a suitcase with a broken wheel.
 
+**Phrasal verbs:** [drag down](54-phrasal-regular-d-f.md#drag-down) &middot; [drag into](54-phrasal-regular-d-f.md#drag-into) &middot; [drag on](54-phrasal-regular-d-f.md#drag-on) &middot; [drag out](54-phrasal-regular-d-f.md#drag-out) &middot; [drag up](54-phrasal-regular-d-f.md#drag-up)
+
 ---
 
 ### drift
@@ -445,6 +465,8 @@ To be carried slowly along by water, air, or a current.
 1. We let the canoe *drift* for a while.
 2. The raft *drifted* two miles downstream overnight.
 3. Leaves were *drifting* across the empty road.
+
+**Phrasal verbs:** [drift apart](54-phrasal-regular-d-f.md#drift-apart) &middot; [drift off](54-phrasal-regular-d-f.md#drift-off)
 
 ---
 
@@ -464,6 +486,8 @@ To let something fall, or to fall suddenly.
 2. She *dropped* her keys through the grate.
 3. The temperature has *dropped* twenty degrees since noon.
 
+**Phrasal verbs:** [drop by](54-phrasal-regular-d-f.md#drop-by) &middot; [drop in](54-phrasal-regular-d-f.md#drop-in) &middot; [drop off](54-phrasal-regular-d-f.md#drop-off-2) &middot; [drop off](54-phrasal-regular-d-f.md#drop-off-1) &middot; [drop off](54-phrasal-regular-d-f.md#drop-off) &middot; [drop out](54-phrasal-regular-d-f.md#drop-out)
+
 ---
 
 ### embark
@@ -481,6 +505,8 @@ To get on a ship or plane, or to start a journey.
 1. Passengers *embark* at the south terminal.
 2. We *embarked* in Seattle on a rainy morning.
 3. They are *embarking* on a year-long trip around Asia.
+
+**Phrasal verbs:** [embark on](54-phrasal-regular-d-f.md#embark-on)
 
 ---
 
@@ -587,6 +613,8 @@ To stay on the surface of a liquid, or to move gently through the air.
 2. The raft *floated* downstream all afternoon.
 3. Balloons were *floating* over the parking lot.
 
+**Phrasal verbs:** [float around](54-phrasal-regular-d-f.md#float-around)
+
 ---
 
 ### flow
@@ -621,9 +649,9 @@ To go after or behind someone or something.
 2. A gray car *followed* us for a few blocks.
 3. The dog has been *following* him around all day.
 
----
+**Phrasal verbs:** [follow along](54-phrasal-regular-d-f.md#follow-along) &middot; [follow around](54-phrasal-regular-d-f.md#follow-around) &middot; [follow from](22-verb-preposition.md#follow-from) &middot; [follow through](54-phrasal-regular-d-f.md#follow-through) &middot; [follow up](54-phrasal-regular-d-f.md#follow-up) &middot; [follow up on](54-phrasal-regular-d-f.md#follow-up-on)
 
-**Phrasal verbs:** [follow from](22-verb-preposition.md#follow-from)
+---
 
 ### glide
 
@@ -709,6 +737,8 @@ To go in a particular direction.
 2. She *headed* straight for the exit.
 3. Storm clouds were *heading* our way.
 
+**Phrasal verbs:** [head back](55-phrasal-regular-g-l.md#head-back) &middot; [head for](55-phrasal-regular-g-l.md#head-for) &middot; [head off](55-phrasal-regular-g-l.md#head-off) &middot; [head off](55-phrasal-regular-g-l.md#head-off-1) &middot; [head out](55-phrasal-regular-g-l.md#head-out) &middot; [head up](55-phrasal-regular-g-l.md#head-up)
+
 ---
 
 ### hike
@@ -779,6 +809,8 @@ To move or do something more quickly than usual.
 2. She *hurried* down the platform.
 3. They were *hurrying* to finish before the rain.
 
+**Phrasal verbs:** [hurry up](55-phrasal-regular-g-l.md#hurry-up)
+
 ---
 
 ### jog
@@ -813,6 +845,8 @@ To push yourself off the ground with your legs.
 1. Do not *jump* off that wall.
 2. He *jumped* over the puddle.
 3. The kids have been *jumping* in the leaves.
+
+**Phrasal verbs:** [jump at](55-phrasal-regular-g-l.md#jump-at) &middot; [jump in](55-phrasal-regular-g-l.md#jump-in) &middot; [jump on](55-phrasal-regular-g-l.md#jump-on-1) &middot; [jump on](55-phrasal-regular-g-l.md#jump-on) &middot; [jump out at](55-phrasal-regular-g-l.md#jump-out-at)
 
 ---
 
@@ -849,6 +883,8 @@ To send something into the air or the water, or to start it moving.
 2. NASA *launched* the rocket at dawn.
 3. Crews were *launching* rescue boats all night.
 
+**Phrasal verbs:** [launch into](55-phrasal-regular-g-l.md#launch-into)
+
 ---
 
 ### lift
@@ -865,6 +901,8 @@ To raise something to a higher position.
 1. Can you *lift* the other end?
 2. He *lifted* the bike onto the rack.
 3. She was *lifting* boxes into the truck all morning.
+
+**Phrasal verbs:** [lift off](55-phrasal-regular-g-l.md#lift-off)
 
 ---
 
@@ -900,6 +938,8 @@ To put things into or onto a vehicle or a container.
 2. They *loaded* the truck in twenty minutes.
 3. We were still *loading* when the movers arrived.
 
+**Phrasal verbs:** [load up](55-phrasal-regular-g-l.md#load-up) &middot; [load up on](55-phrasal-regular-g-l.md#load-up-on)
+
 ---
 
 ### mail
@@ -917,6 +957,8 @@ To send something through the postal system.
 1. I will *mail* the forms tomorrow.
 2. She *mailed* the package on Friday.
 3. They have already *mailed* the tickets.
+
+**Phrasal verbs:** [mail in](56-phrasal-regular-m-p.md#mail-in) &middot; [mail it in](56-phrasal-regular-m-p.md#mail-it-in)
 
 ---
 
@@ -988,9 +1030,9 @@ To change place or position, or to go and live somewhere else.
 2. They *moved* to Portland last spring.
 3. The line has not *moved* in ten minutes.
 
----
+**Phrasal verbs:** [move along](56-phrasal-regular-m-p.md#move-along) &middot; [move around](56-phrasal-regular-m-p.md#move-around) &middot; [move away](56-phrasal-regular-m-p.md#move-away) &middot; [move back](56-phrasal-regular-m-p.md#move-back) &middot; [move for](22-verb-preposition.md#move-for) &middot; [move forward](56-phrasal-regular-m-p.md#move-forward) &middot; [move in](56-phrasal-regular-m-p.md#move-in-1) &middot; [move in](56-phrasal-regular-m-p.md#move-in) &middot; [move in on](56-phrasal-regular-m-p.md#move-in-on) &middot; [move on](56-phrasal-regular-m-p.md#move-on-1) &middot; [move on](56-phrasal-regular-m-p.md#move-on) &middot; [move out](56-phrasal-regular-m-p.md#move-out) &middot; [move over](56-phrasal-regular-m-p.md#move-over) &middot; [move up](56-phrasal-regular-m-p.md#move-up) &middot; [move up](56-phrasal-regular-m-p.md#move-up-1)
 
-**Phrasal verbs:** [move for](22-verb-preposition.md#move-for)
+---
 
 ### navigate
 
@@ -1040,6 +1082,8 @@ To put your things into a bag or a box before a trip.
 1. I still have to *pack*.
 2. She *packed* two sweaters and a raincoat.
 3. He was *packing* at midnight the night before the flight.
+
+**Phrasal verbs:** [pack away](56-phrasal-regular-m-p.md#pack-away) &middot; [pack in](56-phrasal-regular-m-p.md#pack-in) &middot; [pack off](56-phrasal-regular-m-p.md#pack-off) &middot; [pack on](56-phrasal-regular-m-p.md#pack-on) &middot; [pack up](56-phrasal-regular-m-p.md#pack-up)
 
 ---
 
@@ -1092,6 +1136,8 @@ To go by someone or something, or to move past it.
 1. We *pass* the lake on the way home.
 2. A truck *passed* us on the right.
 3. They were *passing* through Ohio when the call came.
+
+**Phrasal verbs:** [pass along](56-phrasal-regular-m-p.md#pass-along) &middot; [pass around](56-phrasal-regular-m-p.md#pass-around) &middot; [pass away](56-phrasal-regular-m-p.md#pass-away) &middot; [pass by](56-phrasal-regular-m-p.md#pass-by) &middot; [pass down](56-phrasal-regular-m-p.md#pass-down) &middot; [pass for](56-phrasal-regular-m-p.md#pass-for) &middot; [pass off as](56-phrasal-regular-m-p.md#pass-off-as) &middot; [pass on](56-phrasal-regular-m-p.md#pass-on) &middot; [pass on](56-phrasal-regular-m-p.md#pass-on-1) &middot; [pass on](56-phrasal-regular-m-p.md#pass-on-2) &middot; [pass out](56-phrasal-regular-m-p.md#pass-out-1) &middot; [pass out](56-phrasal-regular-m-p.md#pass-out) &middot; [pass over](56-phrasal-regular-m-p.md#pass-over) &middot; [pass up](56-phrasal-regular-m-p.md#pass-up)
 
 ---
 
@@ -1163,6 +1209,8 @@ To move something toward you by taking hold of it.
 2. He *pulled* the sled up the hill.
 3. She was *pulling* a wagon full of kids.
 
+**Phrasal verbs:** [pull ahead](56-phrasal-regular-m-p.md#pull-ahead) &middot; [pull away](56-phrasal-regular-m-p.md#pull-away) &middot; [pull back](56-phrasal-regular-m-p.md#pull-back) &middot; [pull down](56-phrasal-regular-m-p.md#pull-down) &middot; [pull down](56-phrasal-regular-m-p.md#pull-down-1) &middot; [pull for](56-phrasal-regular-m-p.md#pull-for) &middot; [pull in](56-phrasal-regular-m-p.md#pull-in-1) &middot; [pull in](56-phrasal-regular-m-p.md#pull-in) &middot; [pull off](56-phrasal-regular-m-p.md#pull-off) &middot; [pull off](56-phrasal-regular-m-p.md#pull-off-1) &middot; [pull out](56-phrasal-regular-m-p.md#pull-out) &middot; [pull out](56-phrasal-regular-m-p.md#pull-out-1) &middot; [pull over](56-phrasal-regular-m-p.md#pull-over) &middot; [pull over](56-phrasal-regular-m-p.md#pull-over-1) &middot; [pull through](56-phrasal-regular-m-p.md#pull-through) &middot; [pull together](56-phrasal-regular-m-p.md#pull-together) &middot; [pull together](56-phrasal-regular-m-p.md#pull-together-1) &middot; [pull together](56-phrasal-regular-m-p.md#pull-together-2) &middot; [pull up](56-phrasal-regular-m-p.md#pull-up-1) &middot; [pull up](56-phrasal-regular-m-p.md#pull-up)
+
 ---
 
 ### pursue
@@ -1197,6 +1245,8 @@ To move something away from you by pressing on it.
 1. *Push* the cart over here.
 2. He *pushed* the stalled car off the road.
 3. She was *pushing* a stroller up the hill.
+
+**Phrasal verbs:** [push around](56-phrasal-regular-m-p.md#push-around) &middot; [push back](56-phrasal-regular-m-p.md#push-back-1) &middot; [push back](56-phrasal-regular-m-p.md#push-back) &middot; [push for](56-phrasal-regular-m-p.md#push-for) &middot; [push on](56-phrasal-regular-m-p.md#push-on) &middot; [push through](56-phrasal-regular-m-p.md#push-through-1) &middot; [push through](56-phrasal-regular-m-p.md#push-through)
 
 ---
 
@@ -1352,6 +1402,8 @@ To move by turning over and over, or to make something do that.
 2. The ball *rolled* under the car.
 3. He was *rolling* the barrel toward the truck.
 
+**Phrasal verbs:** [roll back](57-phrasal-regular-q-s.md#roll-back) &middot; [roll in](57-phrasal-regular-q-s.md#roll-in) &middot; [roll in](57-phrasal-regular-q-s.md#roll-in-1) &middot; [roll out](57-phrasal-regular-q-s.md#roll-out) &middot; [roll over](57-phrasal-regular-q-s.md#roll-over) &middot; [roll over](57-phrasal-regular-q-s.md#roll-over-1)
+
 ---
 
 ### rotate
@@ -1404,6 +1456,8 @@ To go somewhere or do something very quickly.
 2. They *rushed* him to the hospital.
 3. Everyone was *rushing* for the last train.
 
+**Phrasal verbs:** [rush into](57-phrasal-regular-q-s.md#rush-into) &middot; [rush through](57-phrasal-regular-q-s.md#rush-through)
+
 ---
 
 ### sail
@@ -1421,6 +1475,8 @@ To travel on water in a boat or a ship.
 1. We *sail* at first light.
 2. The ferry *sailed* without us.
 3. They have been *sailing* the coast all summer.
+
+**Phrasal verbs:** [sail through](57-phrasal-regular-q-s.md#sail-through)
 
 ---
 
@@ -1473,6 +1529,8 @@ To send goods somewhere by truck, ship, or plane.
 1. We *ship* anywhere in the country.
 2. They *shipped* the order on Monday.
 3. Your package is *shipping* today.
+
+**Phrasal verbs:** [ship off](57-phrasal-regular-q-s.md#ship-off) &middot; [ship out](57-phrasal-regular-q-s.md#ship-out)
 
 ---
 
@@ -1545,6 +1603,8 @@ To move along with light hops from one foot to the other.
 2. She *skipped* down the sidewalk.
 3. He was *skipping* stones across the water.
 
+**Phrasal verbs:** [skip out on](57-phrasal-regular-q-s.md#skip-out-on) &middot; [skip over](57-phrasal-regular-q-s.md#skip-over)
+
 ---
 
 ### slip
@@ -1562,6 +1622,8 @@ To slide by accident and lose your balance, or to move quietly.
 1. Be careful, you could *slip*.
 2. He *slipped* on the wet steps.
 3. She was *slipping* out the back door when we saw her.
+
+**Phrasal verbs:** [slip away](57-phrasal-regular-q-s.md#slip-away) &middot; [slip on](57-phrasal-regular-q-s.md#slip-on) &middot; [slip out](57-phrasal-regular-q-s.md#slip-out) &middot; [slip up](57-phrasal-regular-q-s.md#slip-up)
 
 ---
 
@@ -1634,6 +1696,8 @@ To remain in a place instead of leaving.
 2. We *stayed* in a motel outside town.
 3. They have been *staying* with friends since the flood.
 
+**Phrasal verbs:** [stay away from](57-phrasal-regular-q-s.md#stay-away-from) &middot; [stay behind](57-phrasal-regular-q-s.md#stay-behind) &middot; [stay in](57-phrasal-regular-q-s.md#stay-in) &middot; [stay on](57-phrasal-regular-q-s.md#stay-on) &middot; [stay out](57-phrasal-regular-q-s.md#stay-out) &middot; [stay over](57-phrasal-regular-q-s.md#stay-over) &middot; [stay up](57-phrasal-regular-q-s.md#stay-up)
+
 ---
 
 ### steer
@@ -1669,6 +1733,8 @@ To move by putting one foot down in a new place.
 2. She *stepped* over the puddle.
 3. He was *stepping* off the curb when the bike went by.
 
+**Phrasal verbs:** [step aside](57-phrasal-regular-q-s.md#step-aside) &middot; [step back](57-phrasal-regular-q-s.md#step-back) &middot; [step down](57-phrasal-regular-q-s.md#step-down) &middot; [step in](57-phrasal-regular-q-s.md#step-in) &middot; [step out](57-phrasal-regular-q-s.md#step-out) &middot; [step up](57-phrasal-regular-q-s.md#step-up-1) &middot; [step up](57-phrasal-regular-q-s.md#step-up)
+
 ---
 
 ### stop
@@ -1686,6 +1752,8 @@ To end movement, or to make something end.
 1. The bus *stops* at every corner.
 2. We *stopped* for gas outside Barstow.
 3. It has not *stopped* raining since Tuesday.
+
+**Phrasal verbs:** [stop by](57-phrasal-regular-q-s.md#stop-by) &middot; [stop in](57-phrasal-regular-q-s.md#stop-in) &middot; [stop off](57-phrasal-regular-q-s.md#stop-off) &middot; [stop over](57-phrasal-regular-q-s.md#stop-over) &middot; [stop up](57-phrasal-regular-q-s.md#stop-up)
 
 ---
 
@@ -1737,6 +1805,8 @@ To hit your foot on something and almost fall.
 1. People *stumble* on that step all the time.
 2. He *stumbled* on a loose brick.
 3. She was *stumbling* in the dark without a flashlight.
+
+**Phrasal verbs:** [stumble across](57-phrasal-regular-q-s.md#stumble-across) &middot; [stumble upon](57-phrasal-regular-q-s.md#stumble-upon)
 
 ---
 
@@ -1825,6 +1895,8 @@ To pull a vehicle or a boat behind another one.
 2. A pickup *towed* us to the shop.
 3. His truck was *towing* a boat up the grade.
 
+**Phrasal verbs:** [tow away](58-phrasal-regular-t-z.md#tow-away)
+
 ---
 
 ### track
@@ -1842,6 +1914,8 @@ To follow the marks or signals that show where someone or something has gone.
 2. Rangers *tracked* the bear for two days.
 3. We were *tracking* the storm all evening.
 
+**Phrasal verbs:** [track down](58-phrasal-regular-t-z.md#track-down)
+
 ---
 
 ### trail
@@ -1858,6 +1932,8 @@ To follow slowly behind someone, or to hang down and drag along.
 1. The youngest kid always *trails* the group.
 2. Two reporters *trailed* the bus all day.
 3. Her scarf was *trailing* in the snow.
+
+**Phrasal verbs:** [trail off](58-phrasal-regular-t-z.md#trail-off)
 
 ---
 
@@ -1931,6 +2007,8 @@ To catch your foot on something and lose your balance.
 2. He *tripped* over the doorframe.
 3. She was *tripping* on the hem of her coat all evening.
 
+**Phrasal verbs:** [trip up](58-phrasal-regular-t-z.md#trip-up)
+
 ---
 
 ### tumble
@@ -1965,9 +2043,9 @@ To change direction, or to move something around a point.
 2. She *turned* the corner and disappeared.
 3. The car ahead was *turning* without signaling.
 
----
+**Phrasal verbs:** [turn against](58-phrasal-regular-t-z.md#turn-against) &middot; [turn around](58-phrasal-regular-t-z.md#turn-around-1) &middot; [turn around](58-phrasal-regular-t-z.md#turn-around) &middot; [turn away](58-phrasal-regular-t-z.md#turn-away) &middot; [turn back](58-phrasal-regular-t-z.md#turn-back) &middot; [turn down](58-phrasal-regular-t-z.md#turn-down) &middot; [turn down](58-phrasal-regular-t-z.md#turn-down-1) &middot; [turn in](58-phrasal-regular-t-z.md#turn-in-1) &middot; [turn in](58-phrasal-regular-t-z.md#turn-in) &middot; [turn in](58-phrasal-regular-t-z.md#turn-in-2) &middot; [turn into](58-phrasal-regular-t-z.md#turn-into) &middot; [turn off](58-phrasal-regular-t-z.md#turn-off-1) &middot; [turn off](58-phrasal-regular-t-z.md#turn-off) &middot; [turn on](22-verb-preposition.md#turn-on) &middot; [turn out](58-phrasal-regular-t-z.md#turn-out) &middot; [turn out](58-phrasal-regular-t-z.md#turn-out-1) &middot; [turn out](58-phrasal-regular-t-z.md#turn-out-2) &middot; [turn over](58-phrasal-regular-t-z.md#turn-over) &middot; [turn over](58-phrasal-regular-t-z.md#turn-over-1) &middot; [turn to](22-verb-preposition.md#turn-to) &middot; [turn up](58-phrasal-regular-t-z.md#turn-up-1) &middot; [turn up](58-phrasal-regular-t-z.md#turn-up) &middot; [turn up](58-phrasal-regular-t-z.md#turn-up-2)
 
-**Phrasal verbs:** [turn on](22-verb-preposition.md#turn-on) &middot; [turn to](22-verb-preposition.md#turn-to)
+---
 
 ### twist
 
@@ -2000,6 +2078,8 @@ To take things off a vehicle or out of a container.
 1. Help me *unload* the van.
 2. They *unloaded* the truck in the rain.
 3. We were still *unloading* at midnight.
+
+**Phrasal verbs:** [unload on](58-phrasal-regular-t-z.md#unload-on-1) &middot; [unload on](58-phrasal-regular-t-z.md#unload-on)
 
 ---
 
@@ -2035,6 +2115,8 @@ To change direction suddenly, especially while moving.
 2. The truck *veered* onto the shoulder.
 3. A car was *veering* toward us.
 
+**Phrasal verbs:** [veer off](58-phrasal-regular-t-z.md#veer-off-1) &middot; [veer off](58-phrasal-regular-t-z.md#veer-off)
+
 ---
 
 ### visit
@@ -2052,6 +2134,8 @@ To go to see a person or a place and spend some time there.
 1. We *visit* her parents every Thanksgiving.
 2. They *visited* three cities in five days.
 3. He has *visited* the museum twice this month.
+
+**Phrasal verbs:** [visit with](58-phrasal-regular-t-z.md#visit-with)
 
 ---
 
@@ -2088,6 +2172,8 @@ To move on foot at a normal speed.
 2. We *walked* the last half mile.
 3. He has been *walking* for two hours.
 
+**Phrasal verbs:** [walk away from](58-phrasal-regular-t-z.md#walk-away-from) &middot; [walk back](58-phrasal-regular-t-z.md#walk-back) &middot; [walk in on](58-phrasal-regular-t-z.md#walk-in-on) &middot; [walk off](58-phrasal-regular-t-z.md#walk-off) &middot; [walk off with](58-phrasal-regular-t-z.md#walk-off-with) &middot; [walk off with](58-phrasal-regular-t-z.md#walk-off-with-1) &middot; [walk out](58-phrasal-regular-t-z.md#walk-out-1) &middot; [walk out](58-phrasal-regular-t-z.md#walk-out) &middot; [walk out on](58-phrasal-regular-t-z.md#walk-out-on) &middot; [walk through](58-phrasal-regular-t-z.md#walk-through)
+
 ---
 
 ### wander
@@ -2105,6 +2191,8 @@ To walk around slowly with no particular destination.
 1. He *wanders* off whenever we stop.
 2. We *wandered* through the market all morning.
 3. Tourists were *wandering* around the square.
+
+**Phrasal verbs:** [wander off](58-phrasal-regular-t-z.md#wander-off)
 
 ---
 

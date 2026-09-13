@@ -59,6 +59,8 @@ To run an engine while the vehicle is not moving.
 2. The bus *idled* at the curb for ten minutes.
 3. A sign asks drivers to stop *idling* near the school.
 
+**Phrasal verbs:** [idle away](55-phrasal-regular-g-l.md#idle-away)
+
 ---
 
 ### rev
@@ -76,6 +78,8 @@ To make an engine turn faster and louder.
 1. Do not *rev* a cold engine.
 2. The kid next to us *revved* his motor at every light.
 3. Someone has been *revving* a dirt bike since six.
+
+**Phrasal verbs:** [rev up](57-phrasal-regular-q-s.md#rev-up) &middot; [rev up](57-phrasal-regular-q-s.md#rev-up-1)
 
 ---
 
@@ -111,6 +115,8 @@ To move more slowly, or to make something move more slowly.
 2. Traffic *slowed* to a crawl near the tunnel.
 3. The train was *slowing* as it entered the yard.
 
+**Phrasal verbs:** [slow down](57-phrasal-regular-q-s.md#slow-down-1) &middot; [slow down](57-phrasal-regular-q-s.md#slow-down)
+
 ---
 
 ### start
@@ -127,6 +133,8 @@ To make an engine begin to run, or to begin to run.
 1. *Start* the car and let it warm up.
 2. The van *started* on the third try.
 3. It has not *started* once since the cold snap.
+
+**Phrasal verbs:** [start off](57-phrasal-regular-q-s.md#start-off) &middot; [start on](57-phrasal-regular-q-s.md#start-on) &middot; [start out](57-phrasal-regular-q-s.md#start-out) &middot; [start over](57-phrasal-regular-q-s.md#start-over) &middot; [start up](57-phrasal-regular-q-s.md#start-up-1) &middot; [start up](57-phrasal-regular-q-s.md#start-up)
 
 ---
 
@@ -216,6 +224,8 @@ To knock lightly against something.
 2. She *bumped* the mirror on the garage door.
 3. The truck was *bumping* over the rail crossing.
 
+**Phrasal verbs:** [bump into](53-phrasal-regular-a-c.md#bump-into) &middot; [bump off](53-phrasal-regular-a-c.md#bump-off) &middot; [bump up](53-phrasal-regular-a-c.md#bump-up)
+
 ---
 
 ### stow
@@ -234,6 +244,8 @@ To put something away neatly in a space made for it.
 2. He *stowed* the straps in the side box.
 3. All the gear has been *stowed* below deck.
 
+**Phrasal verbs:** [stow away](57-phrasal-regular-q-s.md#stow-away)
+
 ---
 
 ### hitch
@@ -251,6 +263,8 @@ To attach a trailer to a vehicle that will pull it.
 1. *Hitch* the trailer and check the lights.
 2. He *hitched* the boat to his pickup.
 3. The camper was *hitched* to an old van.
+
+**Phrasal verbs:** [hitch up](55-phrasal-regular-g-l.md#hitch-up)
 
 ---
 
@@ -287,9 +301,9 @@ To pay a company so that it will cover the cost if something is lost or damaged.
 2. He *insured* the truck before the first haul.
 3. The cargo was *insured* against water damage.
 
----
-
 **Phrasal verbs:** [insure against](22-verb-preposition.md#insure-against)
+
+---
 
 ### taxi
 
@@ -323,6 +337,8 @@ To call to a taxi or driver to stop for you.
 1. It is hard to *hail* a cab in the rain.
 2. He *hailed* a taxi outside the station.
 3. She was *hailing* a cab with one arm and holding her bag with the other.
+
+**Phrasal verbs:** [hail from](55-phrasal-regular-g-l.md#hail-from)
 
 ---
 

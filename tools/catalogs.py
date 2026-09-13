@@ -87,7 +87,10 @@ CATALOGS = [
         accent='#8a5a2b', accent_dark='#dda96b',
         # files whose entries are built ON a base verb: listed inside the base
         # entry rather than as their own rows in the A-Z list
-        derived_prefixes=('14-', '15-', '16-', '17-', '18-', '19-', '20-', '21-', '22-'),
+        # 14-22 are the phrasal verbs on irregular bases; 53-58 the ones on regular
+        # bases. Both are listed inside their base verb rather than as their own rows.
+        derived_prefixes=('14-', '15-', '16-', '17-', '18-', '19-', '20-', '21-', '22-',
+                          '53-', '54-', '55-', '56-', '57-', '58-'),
         tag_fields=['verb class'],
         fields=[('verb class', 'Verb class'), ('forms', 'Forms'), ('separable', 'Separable'), ('base verb', 'Base verb'),
                 ('transitive', 'Transitive'), ('verb type', 'Verb type'),

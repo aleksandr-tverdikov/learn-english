@@ -411,6 +411,8 @@ To make it easier for someone to do something.
 2. She *helped* me study for the final.
 3. He has *helped* dozens of students pass the exam.
 
+**Phrasal verbs:** [help out](55-phrasal-regular-g-l.md#help-out) &middot; [help yourself to](55-phrasal-regular-g-l.md#help-yourself-to)
+
 ---
 
 ### aid
@@ -498,9 +500,9 @@ To make someone lose confidence, or to try to stop them doing something.
 2. A bad first semester *discouraged* him completely.
 3. The school is *discouraging* students from taking five AP classes.
 
----
-
 **Phrasal verbs:** [discourage from](22-verb-preposition.md#discourage-from)
+
+---
 
 ### reprimand
 
@@ -535,9 +537,9 @@ To make someone suffer a penalty for breaking a rule.
 2. He was *punished* for cheating on the quiz.
 3. They are *punishing* the whole class for one prank.
 
----
-
 **Phrasal verbs:** [punish for](22-verb-preposition.md#punish-for)
+
+---
 
 ### commend
 
@@ -573,9 +575,9 @@ To forgive a small fault, or to officially let someone miss something.
 2. She *excused* him from gym class for a week.
 3. You are *excused* from the final if your average is above 95.
 
----
-
 **Phrasal verbs:** [excuse for](22-verb-preposition.md#excuse-for)
+
+---
 
 ### enroll
 
@@ -611,9 +613,9 @@ To ask formally to be accepted somewhere, or to put a rule or method to use.
 2. He *applied* for a scholarship in December.
 3. We are *applying* what we learned last week.
 
----
-
 **Phrasal verbs:** [apply for, apply to](22-verb-preposition.md#apply-for-apply-to)
+
+---
 
 ### reapply
 
@@ -667,9 +669,9 @@ To put something off until a later date.
 2. He *deferred* his enrollment and worked abroad.
 3. She is *deferring* the exam because of illness.
 
----
-
 **Phrasal verbs:** [defer to](22-verb-preposition.md#defer-to)
+
+---
 
 ### graduate
 
@@ -705,9 +707,9 @@ To reach the standard needed for a job, a place, or the next round.
 2. She *qualified* as a nurse last year.
 3. He is *qualifying* for the state finals.
 
----
-
 **Phrasal verbs:** [qualify for](22-verb-preposition.md#qualify-for)
+
+---
 
 ### major
 
@@ -725,9 +727,9 @@ To study one subject as your main field at an American college.
 2. She *majored* in biology.
 3. He is *majoring* in computer science.
 
----
-
 **Phrasal verbs:** [major in, minor in](22-verb-preposition.md#major-in-minor-in)
+
+---
 
 ### specialize
 
@@ -745,9 +747,9 @@ To concentrate on one narrow area of study or work.
 2. She *specialized* in medieval history.
 3. The school is *specializing* in the arts.
 
----
-
 **Phrasal verbs:** [specialize in](22-verb-preposition.md#specialize-in)
+
+---
 
 ### accredit
 
@@ -853,6 +855,8 @@ To study very hard in a short time just before a test.
 1. Try not to *cram* the night before the exam.
 2. We *crammed* for six hours straight.
 3. He is *cramming* for the chemistry final.
+
+**Phrasal verbs:** [cram for](53-phrasal-regular-a-c.md#cram-for) &middot; [cram in](53-phrasal-regular-a-c.md#cram-in)
 
 ---
 
@@ -1031,9 +1035,9 @@ To connect two things, or to understand and feel close to something.
 2. She *related* the story to her own childhood.
 3. I could not *relate* to that character at all.
 
----
-
 **Phrasal verbs:** [relate to](22-verb-preposition.md#relate-to)
+
+---
 
 ### attribute
 
@@ -1051,9 +1055,9 @@ To say that something was caused by or made by a particular person or thing.
 2. She *attributed* her success to one teacher.
 3. He is *attributing* every bad grade to bad luck.
 
----
-
 **Phrasal verbs:** [attribute to](22-verb-preposition.md#attribute-to)
+
+---
 
 ### derive
 
@@ -1071,9 +1075,9 @@ To work something out from a starting point, or to come originally from a source
 2. The word *derived* from Latin.
 3. We are *deriving* the equation step by step.
 
----
-
 **Phrasal verbs:** [derive from](22-verb-preposition.md#derive-from)
+
+---
 
 ### parse
 
@@ -1108,9 +1112,9 @@ To look carefully for something.
 2. I *searched* for an hour and found nothing.
 3. She is *searching* the database for older studies.
 
----
-
 **Phrasal verbs:** [search for](22-verb-preposition.md#search-for)
+
+---
 
 ### double-check
 
@@ -1339,9 +1343,9 @@ To pay attention to a sound, a person, or a recording.
 2. She *listened* to the lecture again at double speed.
 3. I have been *listening* to podcasts to train my ear.
 
----
+**Phrasal verbs:** [listen in](55-phrasal-regular-g-l.md#listen-in) &middot; [listen to](22-verb-preposition.md#listen-to)
 
-**Phrasal verbs:** [listen to](22-verb-preposition.md#listen-to)
+---
 
 ### articulate
 
@@ -1430,9 +1434,9 @@ To match something else, or to exchange letters with someone.
 2. They *corresponded* for two years before they met.
 3. She has been *corresponding* with a class in Japan.
 
----
-
 **Phrasal verbs:** [correspond to, correspond with](22-verb-preposition.md#correspond-to-correspond-with)
+
+---
 
 ### relay
 
@@ -1504,9 +1508,9 @@ To gain an advantage from something, or to do someone good.
 2. She *benefited* from a year abroad.
 3. The whole class is *benefiting* from the smaller size.
 
----
-
 **Phrasal verbs:** [benefit from](22-verb-preposition.md#benefit-from)
+
+---
 
 ### fulfill
 
@@ -1542,9 +1546,9 @@ To do what a rule or an order requires.
 2. The school *complied* with the new state rules.
 3. They are *complying* fully with the policy.
 
----
-
 **Phrasal verbs:** [comply with](22-verb-preposition.md#comply-with)
+
+---
 
 ### behave
 
@@ -1597,9 +1601,9 @@ To break the rules of a test or a game in order to gain an advantage.
 2. He *cheated* on the final and was expelled.
 3. She was caught *cheating* in the first week.
 
----
-
 **Phrasal verbs:** [cheat on](22-verb-preposition.md#cheat-on)
+
+---
 
 ### persist
 
@@ -1688,9 +1692,9 @@ To manage successfully with something difficult.
 2. She *coped* well with a heavy schedule.
 3. He is *coping* better since the tutoring started.
 
----
-
 **Phrasal verbs:** [cope with](22-verb-preposition.md#cope-with)
+
+---
 
 ### succeed
 
@@ -1708,9 +1712,9 @@ To achieve what you were trying to do.
 2. She *succeeded* on her second try.
 3. He has *succeeded* in every class he has taken.
 
----
-
 **Phrasal verbs:** [succeed in](22-verb-preposition.md#succeed-in)
+
+---
 
 ### excel
 
@@ -1781,9 +1785,9 @@ To try to win or to do better than others.
 2. She *competed* in the science fair twice.
 3. They are *competing* for two scholarships.
 
----
-
 **Phrasal verbs:** [compete with, compete against, compete for](22-verb-preposition.md#compete-with-compete-against-compete-for)
+
+---
 
 ### flunk
 
@@ -1800,6 +1804,8 @@ To fail a test or a course, or to give someone a failing grade.
 1. If you skip the final, you *flunk* the course.
 2. He *flunked* chemistry and had to take it again.
 3. She is *flunking* two classes this semester.
+
+**Phrasal verbs:** [flunk out](54-phrasal-regular-d-f.md#flunk-out)
 
 ---
 
@@ -1837,9 +1843,9 @@ To take an active part in something.
 2. She *participated* in every discussion.
 3. Only half the class is *participating* today.
 
----
-
 **Phrasal verbs:** [participate in](22-verb-preposition.md#participate-in)
+
+---
 
 ### cooperate
 
@@ -1857,9 +1863,9 @@ To work together with someone toward the same goal.
 2. He *cooperated* fully with the investigation.
 3. They are *cooperating* on a joint project.
 
----
-
 **Phrasal verbs:** [cooperate with](22-verb-preposition.md#cooperate-with)
+
+---
 
 ### partner
 
@@ -1930,9 +1936,9 @@ To be owned by someone, or to feel accepted in a place.
 2. She never felt she *belonged* at that school.
 3. Children learn better when they feel they *belong*.
 
----
-
 **Phrasal verbs:** [belong to](22-verb-preposition.md#belong-to)
+
+---
 
 ### acclimate
 
@@ -1967,9 +1973,9 @@ To say numbers in order or find a total, or to matter toward a result.
 2. She *counted* the votes twice.
 3. I am *counting* the days until graduation.
 
----
+**Phrasal verbs:** [count down](53-phrasal-regular-a-c.md#count-down) &middot; [count in](53-phrasal-regular-a-c.md#count-in) &middot; [count on](22-verb-preposition.md#count-on) &middot; [count out](53-phrasal-regular-a-c.md#count-out) &middot; [count out](53-phrasal-regular-a-c.md#count-out-1) &middot; [count up](53-phrasal-regular-a-c.md#count-up)
 
-**Phrasal verbs:** [count on](22-verb-preposition.md#count-on)
+---
 
 ### subtract
 
@@ -2005,6 +2011,8 @@ To change a number to the nearest simpler one.
 2. She *rounded* 4.6 up to 5.
 3. The program is *rounding* every score to the nearest whole number.
 
+**Phrasal verbs:** [round down](57-phrasal-regular-q-s.md#round-down) &middot; [round off](57-phrasal-regular-q-s.md#round-off-1) &middot; [round off](57-phrasal-regular-q-s.md#round-off) &middot; [round out](57-phrasal-regular-q-s.md#round-out) &middot; [round up](57-phrasal-regular-q-s.md#round-up) &middot; [round up](57-phrasal-regular-q-s.md#round-up-1)
+
 ---
 
 ### average
@@ -2021,6 +2029,8 @@ To find the middle value of several numbers, or to reach that value typically.
 1. The teacher *averages* your four best quizzes.
 2. He *averaged* a B plus for the semester.
 3. She is *averaging* two hours of homework a night.
+
+**Phrasal verbs:** [average out](53-phrasal-regular-a-c.md#average-out)
 
 ---
 
@@ -2039,6 +2049,8 @@ To count things up, or for two sets of numbers to match.
 1. *Tally* the votes on the board.
 2. She *tallied* the scores after the quiz.
 3. We are *tallying* the results now.
+
+**Phrasal verbs:** [tally up](58-phrasal-regular-t-z.md#tally-up)
 
 ---
 
@@ -2093,9 +2105,9 @@ To put one thing in place of another, or to take someone's place for a while.
 2. She *substituted* for our teacher all last week.
 3. He is *substituting* at the middle school this year.
 
----
-
 **Phrasal verbs:** [substitute for](22-verb-preposition.md#substitute-for)
+
+---
 
 ### graph
 

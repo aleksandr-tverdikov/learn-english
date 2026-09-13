@@ -243,6 +243,8 @@ To put something briefly into a liquid, and by extension to drop, to slope downw
 14. She *dipped* water from the barrel with a tin cup.
 15. The boys *had dipped* the trough dry by noon.
 
+**Phrasal verbs:** [dip into](54-phrasal-regular-d-f.md#dip-into) &middot; [dip into](54-phrasal-regular-d-f.md#dip-into-1)
+
 **See also:** [nip](#nip), [spill](#spill)
 
 ### dwell
@@ -278,6 +280,8 @@ To keep thinking or talking about something, or — in older and literary use �
 
 8. A quiet resentment *dwelt* in him for years.
 9. Something like hope *has dwelt* in that congregation through worse than this.
+
+**Phrasal verbs:** [dwell on](54-phrasal-regular-d-f.md#dwell-on)
 
 **See also:** [indwell](#indwell)
 
@@ -605,6 +609,8 @@ To give the letters of a word in order — and, figuratively, to mean or signal 
 16. Two neighbors *spelled* her at the hospital so she could sleep.
 17. Volunteers *have spelled* the crew every four hours.
 
+**Phrasal verbs:** [spell out](57-phrasal-regular-q-s.md#spell-out-1) &middot; [spell out](57-phrasal-regular-q-s.md#spell-out)
+
 **See also:** [misspell](#misspell), [smell](#smell)
 
 ### spill
@@ -654,6 +660,8 @@ To let liquid or loose material fall out of its container — and figuratively, 
 
 13. The horse *spilled* him at the second fence.
 14. Two riders *had spilled* on the same corner before the race was stopped.
+
+**Phrasal verbs:** [spill over](57-phrasal-regular-q-s.md#spill-over)
 
 **See also:** [spoil](#spoil), [dip](#dip)
 
@@ -796,6 +804,8 @@ To throw something lightly, and by extension to discard it, mix it, or move it a
 17. We *tossed* around a few names for the shop.
 18. They *have tossed* that idea around for years and never acted on it.
 
+**Phrasal verbs:** [toss around](58-phrasal-regular-t-z.md#toss-around) &middot; [toss out](58-phrasal-regular-t-z.md#toss-out-1) &middot; [toss out](58-phrasal-regular-t-z.md#toss-out)
+
 **See also:** [dip](#dip), [wrap](#wrap)
 
 ### unlearn
@@ -921,5 +931,7 @@ To cover something by folding material around it — and figuratively, to finish
 
 18. He *wrapped* his truck around a utility pole on the county road.
 19. Two kids *had wrapped* a car around that same tree the year before.
+
+**Phrasal verbs:** [wrap up](58-phrasal-regular-t-z.md#wrap-up-1) &middot; [wrap up](58-phrasal-regular-t-z.md#wrap-up-2) &middot; [wrap up](58-phrasal-regular-t-z.md#wrap-up)
 
 **See also:** [enwrap](#enwrap), [toss](#toss)

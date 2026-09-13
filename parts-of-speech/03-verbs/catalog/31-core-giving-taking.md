@@ -25,9 +25,9 @@ To give someone what they need or ask for.
 2. They *provided* blankets after the storm.
 3. We are *providing* transportation for the out-of-town guests.
 
----
-
 **Phrasal verbs:** [provide with, provide for](22-verb-preposition.md#provide-with-provide-for)
+
+---
 
 ### donate
 
@@ -62,9 +62,9 @@ To give money, effort, or ideas as your part of something shared.
 2. She *contributed* two hundred dollars to the relief fund.
 3. He has *contributed* three articles to the magazine this year.
 
----
-
 **Phrasal verbs:** [contribute to](22-verb-preposition.md#contribute-to)
+
+---
 
 ### hand
 
@@ -80,6 +80,8 @@ To pass something to someone using your hands.
 1. Please *hand* me the scissors.
 2. He *handed* the keys to his brother without a word.
 3. The waiter is *handing* each guest a menu.
+
+**Phrasal verbs:** [hand down](55-phrasal-regular-g-l.md#hand-down-1) &middot; [hand down](55-phrasal-regular-g-l.md#hand-down) &middot; [hand in](55-phrasal-regular-g-l.md#hand-in) &middot; [hand it to](55-phrasal-regular-g-l.md#hand-it-to) &middot; [hand off](55-phrasal-regular-g-l.md#hand-off) &middot; [hand out](55-phrasal-regular-g-l.md#hand-out) &middot; [hand over](55-phrasal-regular-g-l.md#hand-over)
 
 ---
 
@@ -99,9 +101,9 @@ To have or use something together with someone else, or to give part of it away.
 2. She *shared* her notes with the whole class.
 3. They have been *sharing* a car since March.
 
----
-
 **Phrasal verbs:** [share with](22-verb-preposition.md#share-with)
+
+---
 
 ### issue
 
@@ -188,6 +190,8 @@ To give out measured amounts of something, especially medicine or supplies.
 2. The nurse *dispensed* the medication herself.
 3. They are *dispensing* free masks at the entrance.
 
+**Phrasal verbs:** [dispense with](54-phrasal-regular-d-f.md#dispense-with)
+
 ---
 
 ### submit
@@ -206,9 +210,9 @@ To hand in a document or piece of work for someone to consider.
 2. She *submitted* her résumé on Tuesday.
 3. He has *submitted* the same essay twice.
 
----
-
 **Phrasal verbs:** [submit to](22-verb-preposition.md#submit-to)
+
+---
 
 ### surrender
 
@@ -278,9 +282,9 @@ To set something aside for one purpose, or to name a work in someone's honor.
 2. The author *dedicated* the book to her mother.
 3. A bench has been *dedicated* to him in the park.
 
----
-
 **Phrasal verbs:** [dedicate to, devote to](22-verb-preposition.md#dedicate-to-devote-to)
+
+---
 
 ### entrust
 
@@ -316,9 +320,9 @@ To grant someone an honor, a title, or a right formally.
 2. The title was *conferred* on him in 1998.
 3. The judges are *conferring* before they announce a winner.
 
----
-
 **Phrasal verbs:** [confer on](22-verb-preposition.md#confer-on)
+
+---
 
 ### gift
 
@@ -371,6 +375,8 @@ To give a server, driver, or other worker extra money for their service.
 2. We *tipped* the driver ten dollars.
 3. She is *tipping* in cash tonight.
 
+**Phrasal verbs:** [tip off](58-phrasal-regular-t-z.md#tip-off) &middot; [tip over](58-phrasal-regular-t-z.md#tip-over)
+
 ---
 
 ### reward
@@ -405,9 +411,9 @@ To pay someone money to make up for a loss, injury, or inconvenience.
 2. They *compensated* him for the damage to his fence.
 3. Nothing is *compensating* us for the lost weekend.
 
----
-
 **Phrasal verbs:** [compensate for](22-verb-preposition.md#compensate-for)
+
+---
 
 ### reimburse
 
@@ -513,6 +519,8 @@ To trade one thing for another, usually informally.
 2. They *swapped* shifts without telling the manager.
 3. The kids are *swapping* stickers again.
 
+**Phrasal verbs:** [swap out](57-phrasal-regular-q-s.md#swap-out)
+
 ---
 
 ### trade
@@ -529,6 +537,8 @@ To give something to someone and get something of theirs in return.
 1. I'll *trade* you my sandwich for your apple.
 2. He *traded* his bike for an old guitar.
 3. They are *trading* baseball cards at recess.
+
+**Phrasal verbs:** [trade in](58-phrasal-regular-t-z.md#trade-in) &middot; [trade up](58-phrasal-regular-t-z.md#trade-up)
 
 ---
 
@@ -599,6 +609,8 @@ To separate something into parts and give each part to someone.
 1. We always *divide* the check evenly.
 2. She *divided* the cake into eight pieces.
 3. The money is being *divided* among the four cousins.
+
+**Phrasal verbs:** [divide up](54-phrasal-regular-d-f.md#divide-up)
 
 ---
 
@@ -671,9 +683,9 @@ To add money to someone's account.
 2. The store *credited* my account the next day.
 3. Twenty dollars has been *credited* to your balance.
 
----
-
 **Phrasal verbs:** [credit with](22-verb-preposition.md#credit-with)
+
+---
 
 ### finance
 
@@ -725,9 +737,9 @@ To let someone have or do something.
 2. The teacher *allowed* us an extra day.
 3. Photography is not *allowed* inside the museum.
 
----
-
 **Phrasal verbs:** [allow for](22-verb-preposition.md#allow-for)
+
+---
 
 ### release
 
@@ -833,6 +845,8 @@ To get something useful, or to increase in amount.
 2. He *gained* fifteen pounds over the winter.
 3. She is *gaining* confidence every week.
 
+**Phrasal verbs:** [gain on](55-phrasal-regular-g-l.md#gain-on)
+
 ---
 
 ### attain
@@ -883,6 +897,8 @@ To bring things or people together into one place.
 1. Squirrels *gather* nuts all through the fall.
 2. A crowd *gathered* outside the courthouse.
 3. We are *gathering* signatures for the petition.
+
+**Phrasal verbs:** [gather up](55-phrasal-regular-g-l.md#gather-up)
 
 ---
 
@@ -1024,6 +1040,8 @@ To take something quickly and by force, or to take it by legal authority.
 2. Police *seized* the car as evidence.
 3. The property is being *seized* by the bank.
 
+**Phrasal verbs:** [seize up](57-phrasal-regular-q-s.md#seize-up)
+
 ---
 
 ### capture
@@ -1128,9 +1146,9 @@ To get back something that was lost, stolen, or spent.
 2. Police *recovered* the stolen bikes two blocks away.
 3. Two of the paintings have been *recovered*.
 
----
-
 **Phrasal verbs:** [recover from](22-verb-preposition.md#recover-from)
+
+---
 
 ### reclaim
 
@@ -1218,9 +1236,9 @@ To take something for a while and give it back later.
 2. I *borrowed* his car for the weekend.
 3. She has been *borrowing* money from her sister for months.
 
----
-
 **Phrasal verbs:** [borrow from](22-verb-preposition.md#borrow-from)
+
+---
 
 ### lease
 
@@ -1274,9 +1292,9 @@ To ask someone for a particular amount of money for goods or a service.
 2. The plumber *charged* us double on a Sunday.
 3. You are being *charged* a monthly fee.
 
----
+**Phrasal verbs:** [charge up](53-phrasal-regular-a-c.md#charge-up) &middot; [charge with, charge for](22-verb-preposition.md#charge-with-charge-for)
 
-**Phrasal verbs:** [charge with, charge for](22-verb-preposition.md#charge-with-charge-for)
+---
 
 ### owe
 
@@ -1312,9 +1330,9 @@ To take away from someone something they need or are entitled to.
 2. The new rule *deprived* him of a hearing.
 3. They were *deprived* of clean water for a week.
 
----
-
 **Phrasal verbs:** [deprive of](22-verb-preposition.md#deprive-of)
+
+---
 
 ### rob
 
@@ -1332,9 +1350,9 @@ To take money or property from a person or place by force or threat.
 2. Two men *robbed* the store right at closing.
 3. He has been *robbed* twice this year.
 
----
-
 **Phrasal verbs:** [rob of](22-verb-preposition.md#rob-of)
+
+---
 
 ### deduct
 
@@ -1368,4 +1386,4 @@ To keep money or things instead of spending or using them.
 2. She *saved* for two years to buy it.
 3. They have been *saving* every coupon in a drawer.
 
-**Phrasal verbs:** [save from](22-verb-preposition.md#save-from)
+**Phrasal verbs:** [save from](22-verb-preposition.md#save-from) &middot; [save up](57-phrasal-regular-q-s.md#save-up)
