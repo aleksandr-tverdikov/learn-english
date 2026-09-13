@@ -36,11 +36,42 @@
         "There's still a little milk left, enough for coffee.",
         "Add a little salt and taste it again.",
         "She speaks a little Portuguese.",
-        "It took a little courage to say that out loud.",
         "I've read a little of the report, but not the appendices.",
-        "Give me a little more time and I'll have the numbers."
+        "It took a little courage to say that out loud.",
+        "Give me a little more time and I'll have the numbers.",
+        "She was a little annoyed, but she signed anyway.",
+        "Move the couch a little to the left.",
+        "The engine runs a little rough when it's cold."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small but sufficient amount of something uncountable — \"some, and enough.\"",
+          "body": [
+            "(немного, чуть-чуть — мало, но достаточно; в отличие от little звучит позитивно)"
+          ],
+          "examples": [
+            "There's still a little milk left, enough for coffee.",
+            "Add a little salt and taste it again.",
+            "She speaks a little Portuguese.",
+            "I've read a little of the report, but not the appendices.",
+            "It took a little courage to say that out loud."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Adverbial a little — \"somewhat, slightly,\" in front of an adjective, a verb, or a comparative",
+          "body": [
+            "(немного, слегка, чуть — a little tired «слегка устал», a little more «чуть больше»)"
+          ],
+          "examples": [
+            "Give me a little more time and I'll have the numbers.",
+            "She was a little annoyed, but she signed anyway.",
+            "Move the couch a little to the left.",
+            "The engine runs a little rough when it's cold."
+          ]
+        }
+      ],
       "русский": "немного — небольшой, но достаточный объём неисчисляемого; позитивно, в отличие от little",
       "position": "central",
       "register": "neutral",
@@ -56,29 +87,40 @@
       "term": "few",
       "ipa": "/fju/",
       "respell": "FYOO",
-      "meaning": "",
+      "meaning": "Names a number that is smaller than wanted or expected. Bare few is near-empty and behaves like a negative in the sentence, taking positive question tags (Few people noticed, did they?) and licensing any (Few of them had any experience). A determiner in front of it — the, a possessive, a demonstrative — cancels that negativity, which is the split the senses below turn on.",
       "examples": [
         "Few people showed up, and the ones who did left early.",
         "Few of the proposals survived the first round of cuts.",
         "There are few things I enjoy less than a conference call at seven a.m.",
+        "Few, if any, of these results will replicate.",
         "She is one of the few engineers who can read the old firmware.",
         "The few copies still in print sell for hundreds of dollars.",
-        "Few, if any, of these results will replicate."
+        "His few remaining clients followed him to the new firm."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "Bare few — a number that fell short, with a complaining edge",
           "body": [
-            "Bare few is negative and near-empty: it says the number fell short of what was wanted or expected, and it behaves like a negative in the sentence, taking positive question tags (Few people noticed, did they?) and licensing any (Few of them had any experience). 2. After the, a possessive, or a demonstrative, the negativity drops out and few simply names a small number that does exist — the few options we have left is neutral, even faintly appreciative."
+            "(мало, немногие — «меньше, чем хотелось бы»; ведёт себя как отрицание)"
           ],
           "examples": [
             "Few people showed up, and the ones who did left early.",
             "Few of the proposals survived the first round of cuts.",
             "There are few things I enjoy less than a conference call at seven a.m.",
+            "Few, if any, of these results will replicate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "After the, a possessive, or a demonstrative — the small number that does exist, with no complaint in it",
+          "body": [
+            "(те немногие — после the/притяжательного отрицательный оттенок пропадает)"
+          ],
+          "examples": [
             "She is one of the few engineers who can read the old firmware.",
             "The few copies still in print sell for hundreds of dollars.",
-            "Few, if any, of these results will replicate."
+            "His few remaining clients followed him to the new firm."
           ]
         }
       ],
@@ -97,29 +139,53 @@
       "term": "little",
       "ipa": "/ˈlɪɾl̩/, carefully /ˈlɪtl̩/",
       "respell": "LIT-l",
-      "meaning": "",
+      "meaning": "Names an amount that fell short of what was needed. Like few, bare little behaves as a negative in the clause: it licenses any and takes positive question tags (There's little chance, is there?). A determiner in front of it cancels that negativity, and fronting it turns it into an adverb that inverts the subject and the auxiliary.",
       "examples": [
         "We have little time before the store closes.",
         "There is little evidence that the policy changed anything.",
         "He showed little interest in the offer.",
         "Little of the original building survived the fire.",
         "She spent the little money she had on a bus ticket.",
-        "Little did we know that the flight had already been canceled."
+        "What little help we got came from the neighbors.",
+        "He gave what little information he had and hung up.",
+        "Little did we know that the flight had already been canceled.",
+        "Little does he realize how close that came to a lawsuit."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "Bare little — an amount that fell short, with a complaining edge",
           "body": [
-            "Bare little is negative: it reports that the amount fell short, and like few it behaves as a negative in the clause, licensing any and taking positive tags (There's little chance, is there?). 2. After the or a possessive it loses the negativity and names the small amount that does exist — the little money he had left is a statement of fact, not a complaint. 3. In the fronted literary frame little did I know, little is an adverb and triggers subject–auxiliary inversion."
+            "(мало, недостаточно — только с неисчисляемыми; ведёт себя как отрицание)"
           ],
           "examples": [
             "We have little time before the store closes.",
             "There is little evidence that the policy changed anything.",
             "He showed little interest in the offer.",
-            "Little of the original building survived the fire.",
+            "Little of the original building survived the fire."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "After the or a possessive — the small amount that does exist, stated as a fact",
+          "body": [
+            "(то немногое, те крохи — после the/притяжательного отрицательный оттенок пропадает)"
+          ],
+          "examples": [
             "She spent the little money she had on a bus ticket.",
-            "Little did we know that the flight had already been canceled."
+            "What little help we got came from the neighbors.",
+            "He gave what little information he had and hung up."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Fronted little did I know — an adverb, with subject–auxiliary inversion",
+          "body": [
+            "(и не подозревал, что… — книжн. инверсия: little did we know)"
+          ],
+          "examples": [
+            "Little did we know that the flight had already been canceled.",
+            "Little does he realize how close that came to a lawsuit."
           ]
         }
       ],
@@ -241,13 +307,40 @@
       "meaning": "Names two, or loosely two or three, of something counted. It is the most everyday small number in American English and is neutral in attitude. As a pronoun it drops both of and the noun and stands alone: I'll take a couple.",
       "examples": [
         "Give me a couple of minutes and I'll be ready.",
-        "We tried a couple of different approaches before this one worked.",
         "A couple of the reviewers asked for the raw data.",
         "I ran into a couple of them at the airport.",
+        "Grab a couple chairs from the other room. (informal — of dropped)",
+        "We tried a couple of different approaches before this one worked.",
         "It'll cost a couple of hundred dollars to fix.",
-        "Grab a couple chairs from the other room. (informal — of dropped)"
+        "She's been out sick a couple of weeks now."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Exactly two",
+          "body": [
+            "(пара, двое — ровно два)"
+          ],
+          "examples": [
+            "Give me a couple of minutes and I'll be ready.",
+            "A couple of the reviewers asked for the raw data.",
+            "I ran into a couple of them at the airport.",
+            "Grab a couple chairs from the other room. (informal — of dropped)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Loosely two or three — \"a few,\" with no promise of a count",
+          "body": [
+            "(пара-тройка, несколько — нестрого, счёт не важен)"
+          ],
+          "examples": [
+            "We tried a couple of different approaches before this one worked.",
+            "It'll cost a couple of hundred dollars to fix.",
+            "She's been out sick a couple of weeks now."
+          ]
+        }
+      ],
       "pronunciation note": "uh KUP-l uhv; in ordinary speech of reduces to /ə/ and the phrase comes out uh KUP-luh",
       "русский": "пара, парочка — два, а нестрого два-три; самое обиходное малое число",
       "position": "central — the phrase as a whole fills the central determiner slot",
@@ -268,12 +361,41 @@
       "examples": [
         "Only a handful of people showed up for the vote.",
         "A handful of states have passed similar laws.",
-        "She grabbed a handful of rice and threw it at the couple.",
         "A handful of the original team members are still here.",
         "There were a handful of complaints, nothing serious.",
-        "I recognized a handful of them from the conference."
+        "I recognized a handful of them from the conference.",
+        "She grabbed a handful of rice and threw it at the couple.",
+        "He scooped up a handful of gravel and let it run through his fingers.",
+        "Take a handful of flour and work it into the dough."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small number of counted things — around five",
+          "body": [
+            "(горстка, несколько — небольшое число, примерно пять)"
+          ],
+          "examples": [
+            "Only a handful of people showed up for the vote.",
+            "A handful of states have passed similar laws.",
+            "A handful of the original team members are still here.",
+            "There were a handful of complaints, nothing serious.",
+            "I recognized a handful of them from the conference."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Literally — as much as one hand will hold",
+          "body": [
+            "(пригоршня, горсть — буквально столько, сколько помещается в руке)"
+          ],
+          "examples": [
+            "She grabbed a handful of rice and threw it at the couple.",
+            "He scooped up a handful of gravel and let it run through his fingers.",
+            "Take a handful of flour and work it into the dough."
+          ]
+        }
+      ],
       "русский": "горстка — небольшое число, примерно пять",
       "position": "central",
       "register": "neutral",
@@ -296,9 +418,40 @@
         "Within a matter of hours the story was everywhere.",
         "It's a matter of dollars, not thousands — just approve it.",
         "The whole outage lasted a matter of minutes.",
-        "They were separated by a matter of feet the entire time and never saw each other."
+        "They were separated by a matter of feet the entire time and never saw each other.",
+        "Whether you hyphenate it is a matter of house style, not grammar.",
+        "It's only a matter of time before somebody sues.",
+        "For him it was a matter of principle, and nobody could talk him out of it."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strikingly small span of time, distance, or money — \"only this much.\"",
+          "body": [
+            "(всего каких-нибудь — о поразительно малом сроке, расстоянии или сумме)"
+          ],
+          "examples": [
+            "The building went up in a matter of months.",
+            "She missed the record by a matter of inches.",
+            "Within a matter of hours the story was everywhere.",
+            "It's a matter of dollars, not thousands — just approve it.",
+            "The whole outage lasted a matter of minutes.",
+            "They were separated by a matter of feet the entire time and never saw each other."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A question of — the thing the outcome actually depends on",
+          "body": [
+            "(вопрос чего-либо, дело в — a matter of taste «дело вкуса», a matter of time «вопрос времени»)"
+          ],
+          "examples": [
+            "Whether you hyphenate it is a matter of house style, not grammar.",
+            "It's only a matter of time before somebody sues.",
+            "For him it was a matter of principle, and nobody could talk him out of it."
+          ]
+        }
+      ],
       "русский": "всего каких-нибудь — о поразительно малом сроке, расстоянии или сумме",
       "position": "central",
       "register": "neutral",
@@ -321,9 +474,38 @@
         "We heard from a number of them after the article ran.",
         "A number of factors contributed to the delay.",
         "A growing number of companies have dropped the requirement.",
-        "There are any number of reasons this could have failed."
+        "There are any number of reasons this could have failed.",
+        "I could give you any number of examples from last quarter alone.",
+        "Any number of people warned him and he signed it anyway."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A vague, moderate quantity of counted things — more than a couple, not worth specifying",
+          "body": [
+            "(ряд, некоторое количество — неопределённое умеренное число)"
+          ],
+          "examples": [
+            "A number of issues remain unresolved.",
+            "A number of the residents have already filed complaints.",
+            "We heard from a number of them after the article ran.",
+            "A number of factors contributed to the delay.",
+            "A growing number of companies have dropped the requirement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Any number of — a great many, more than you could count",
+          "body": [
+            "(сколько угодно, масса — any number of reasons «сколько угодно причин»)"
+          ],
+          "examples": [
+            "There are any number of reasons this could have failed.",
+            "I could give you any number of examples from last quarter alone.",
+            "Any number of people warned him and he signed it anyway."
+          ]
+        }
+      ],
       "русский": "ряд, некоторое количество — неопределённое умеренное число исчисляемых",
       "position": "central",
       "register": "neutral, faintly formal — common in reports and journalism",
@@ -368,13 +550,40 @@
       "meaning": "Names a small number or amount thinly distributed — few, and scattered rather than gathered.",
       "examples": [
         "There was a smattering of applause when he finished.",
-        "She has a smattering of Italian, enough to order dinner.",
         "A smattering of gray had appeared at his temples.",
         "Only a smattering of tourists come this far north in March.",
+        "A smattering of early snow was still on the roofs.",
+        "She has a smattering of Italian, enough to order dinner.",
         "The lecture assumed a smattering of statistics.",
-        "A smattering of early snow was still on the roofs."
+        "He has a smattering of legal training and a dangerous amount of confidence."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small number or amount thinly scattered — few, and spread out rather than gathered",
+          "body": [
+            "(крупицы, разрозненные немногие — мало и вразброс)"
+          ],
+          "examples": [
+            "There was a smattering of applause when he finished.",
+            "A smattering of gray had appeared at his temples.",
+            "Only a smattering of tourists come this far north in March.",
+            "A smattering of early snow was still on the roofs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A patchy, superficial knowledge of a subject or a language",
+          "body": [
+            "(поверхностные знания, нахватанный по верхам — a smattering of Italian «кое-как объясняется по-итальянски»)"
+          ],
+          "examples": [
+            "She has a smattering of Italian, enough to order dinner.",
+            "The lecture assumed a smattering of statistics.",
+            "He has a smattering of legal training and a dangerous amount of confidence."
+          ]
+        }
+      ],
       "русский": "крупицы, разрозненные немногие — мало и вразброс, а не в куче",
       "position": "central",
       "register": "neutral to literary",
@@ -420,12 +629,39 @@
       "examples": [
         "I have one or two things to finish before I leave.",
         "One or two of the chapters could probably be cut.",
-        "There were one or two complaints, but nothing serious.",
         "One or two of them stayed to help clean up.",
         "Just one or two more questions and we're done.",
-        "She's made one or two enemies in this building."
+        "There were one or two complaints, but nothing serious.",
+        "She's made one or two enemies in this building.",
+        "I could name one or two people who'd disagree with that."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Literally one or two — a very small number, left vague on purpose",
+          "body": [
+            "(один-два — очень малое число, намеренно неточное)"
+          ],
+          "examples": [
+            "I have one or two things to finish before I leave.",
+            "One or two of the chapters could probably be cut.",
+            "One or two of them stayed to help clean up.",
+            "Just one or two more questions and we're done."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Understated — \"a fair number, and you can guess how many.\"",
+          "body": [
+            "(кое-кто, кое-что; и не только — нарочитое преуменьшение)"
+          ],
+          "examples": [
+            "There were one or two complaints, but nothing serious.",
+            "She's made one or two enemies in this building.",
+            "I could name one or two people who'd disagree with that."
+          ]
+        }
+      ],
       "русский": "один-два — очень малое число, намеренно неточное",
       "position": "central",
       "register": "neutral, conversational",
@@ -448,9 +684,40 @@
         "We've been over this several times.",
         "Several hundred people were still without power.",
         "She turned down several of them before accepting this one.",
-        "There are several more boxes in the garage."
+        "There are several more boxes in the garage.",
+        "The partners signed a joint and several guarantee on the loan.",
+        "Each defendant is liable in his several capacity as well as jointly.",
+        "After the service they went their several ways. (literary, now old-fashioned)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "More than two and fewer than many, deliberately imprecise",
+          "body": [
+            "(несколько — больше двух, но не много)"
+          ],
+          "examples": [
+            "I sent several emails and never heard back.",
+            "Several of the students had already dropped the course.",
+            "We've been over this several times.",
+            "Several hundred people were still without power.",
+            "She turned down several of them before accepting this one.",
+            "There are several more boxes in the garage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Formal and legal — \"separate, individual, belonging to each one.\"",
+          "body": [
+            "(отдельный, свой у каждого — юр. и книжн.: joint and several liability «солидарная и раздельная ответственность»)"
+          ],
+          "examples": [
+            "The partners signed a joint and several guarantee on the loan.",
+            "Each defendant is liable in his several capacity as well as jointly.",
+            "After the service they went their several ways. (literary, now old-fashioned)"
+          ]
+        }
+      ],
       "русский": "несколько — больше двух, но не много; нарочито неопределённо",
       "position": "central when it opens the noun phrase (several people); postdeterminer after a central determiner in formal use (her several attempts, the several states)",
       "register": "neutral",
@@ -466,31 +733,96 @@
       "term": "some",
       "ipa": "/səm/, stressed /sʌm/",
       "respell": "suhm (weak) / SUM (strong)",
-      "meaning": "",
+      "meaning": "Names a part of a mass or a part of a set without saying how much or how many. Everything else some does is keyed to stress: the ordinary quantifier is the weak /səm/ that learners barely hear, while the dismissive, the admiring, and the approximative uses all take the strong /sʌm/ and a full vowel. With a plural it implies that the rest of the set exists — Some of the windows were painted shut invites the question of the others — and that implication is what the contrastive sense below lives on.",
       "examples": [
         "There's some coffee left if you want it.",
-        "Some of the windows were painted shut.",
-        "Would you like some help with those bags?",
         "We spent some time going over the numbers before the call.",
-        "Some guy from the leasing office called about the deposit.",
+        "Would you like some help with those bags?",
         "I gave some of it away and kept the rest.",
-        "Some people never learn."
+        "Some of the windows were painted shut and the rest wouldn't close.",
+        "Some people like the new layout; others want the old one back.",
+        "Some of the applicants were local, but most had to fly in.",
+        "Some guy from the leasing office called about the deposit.",
+        "She said it was some problem with the billing system.",
+        "We'll finish it some day next week.",
+        "That was some storm last night.",
+        "Some help you turned out to be.",
+        "She drove it home on three tires — some driver.",
+        "Some twenty people were waiting when the doors opened.",
+        "The repair ran to some four thousand dollars.",
+        "Some people never learn.",
+        "Some things are easier to fix than to explain."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "An unspecified partial amount or number — the everyday quantifier",
           "body": [
-            "The everyday indefinite quantifier: an unspecified, partial amount or number, neither large nor pointedly small. With an uncountable noun it names part of a mass (some rice); with a plural it names part of a set (some of the seats), and it implies the rest exist — Some of the windows were painted shut invites the question of the others. 2. Before a singular countable noun, stressed /sʌm/, it means \"a certain, unidentified, and I don't much care which\" — some guy, some excuse or other, some day next week. It is often faintly dismissive. 3. Also stressed, before a singular noun in an exclamation, it is an intensifier of admiration or sarcasm: That was some party. Some help you turned out to be. 4. Before a numeral, some means \"approximately\" (some twenty people) — that use belongs with the numerals."
+            "(немного, несколько — неопределённая часть, ни мало ни много; безударное /səm/)"
           ],
           "examples": [
             "There's some coffee left if you want it.",
-            "Some of the windows were painted shut.",
-            "Would you like some help with those bags?",
             "We spent some time going over the numbers before the call.",
+            "Would you like some help with those bags?",
+            "I gave some of it away and kept the rest."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Contrastive — this part of the set as against the rest",
+          "body": [
+            "(одни… другие; часть — а остальные нет: some… others…)"
+          ],
+          "examples": [
+            "Some of the windows were painted shut and the rest wouldn't close.",
+            "Some people like the new layout; others want the old one back.",
+            "Some of the applicants were local, but most had to fly in."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Stressed, before a singular countable noun — \"a certain one, and I don't much care which.\"",
+          "body": [
+            "(какой-то, некий — часто с оттенком пренебрежения)"
+          ],
+          "examples": [
             "Some guy from the leasing office called about the deposit.",
-            "I gave some of it away and kept the rest.",
-            "Some people never learn."
+            "She said it was some problem with the billing system.",
+            "We'll finish it some day next week."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Stressed, in an exclamation — admiration or sarcasm",
+          "body": [
+            "(ну и…, вот это… — That was some party «Вот это была вечеринка»; в насмешку — «хорош же…»)"
+          ],
+          "examples": [
+            "That was some storm last night.",
+            "Some help you turned out to be.",
+            "She drove it home on three tires — some driver."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "Before a numeral — \"approximately.\"",
+          "body": [
+            "(около, примерно — some twenty people «человек двадцать»; подробнее в some (approximative))"
+          ],
+          "examples": [
+            "Some twenty people were waiting when the doors opened.",
+            "The repair ran to some four thousand dollars."
+          ]
+        },
+        {
+          "n": "6",
+          "head": "Generic some people, some things — a subset of a kind, not a counted amount",
+          "body": [
+            "(есть такие, которые…; некоторые)"
+          ],
+          "examples": [
+            "Some people never learn.",
+            "Some things are easier to fix than to explain."
           ]
         }
       ],
@@ -567,11 +899,51 @@
         "We had a bit of luck with the weather.",
         "Can I give you a bit of advice?",
         "There's still a bit of the cake left in the fridge.",
-        "Parking downtown is a bit of a nightmare.",
         "It took a bit of persuading to get her on the plane.",
-        "He knows quite a bit of Japanese, actually. (= a lot)"
+        "Parking downtown is a bit of a nightmare.",
+        "He's a bit of a perfectionist about the schedule.",
+        "The second half was a bit of a disaster.",
+        "He knows quite a bit of Japanese, actually.",
+        "We've had quite a bit of interest in the listing already."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small amount of something uncountable",
+          "body": [
+            "(немного, чуть-чуть — малое количество неисчисляемого)"
+          ],
+          "examples": [
+            "We had a bit of luck with the weather.",
+            "Can I give you a bit of advice?",
+            "There's still a bit of the cake left in the fridge.",
+            "It took a bit of persuading to get her on the plane."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bit of a + noun — an understated way of calling something exactly what it is",
+          "body": [
+            "(изрядный, порядочный — нарочитое преуменьшение: a bit of a nightmare «тот ещё кошмар»)"
+          ],
+          "examples": [
+            "Parking downtown is a bit of a nightmare.",
+            "He's a bit of a perfectionist about the schedule.",
+            "The second half was a bit of a disaster."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Quite a bit of — a large amount, not a small one",
+          "body": [
+            "(немало, порядочно — quite a bit of переворачивает смысл на «много»)"
+          ],
+          "examples": [
+            "He knows quite a bit of Japanese, actually.",
+            "We've had quite a bit of interest in the listing already."
+          ]
+        }
+      ],
       "русский": "немного, чуть-чуть — малое количество неисчисляемого",
       "position": "central",
       "register": "neutral to informal",
@@ -617,12 +989,37 @@
       "examples": [
         "Add a dash of salt and a squeeze of lemon.",
         "The recipe calls for a dash of bitters.",
+        "Finish it with a dash of olive oil.",
         "It's a serious book with a dash of humor.",
         "She wanted a dash of color in an otherwise gray room.",
-        "Their pitch had ambition and a dash of delusion.",
-        "Finish it with a dash of olive oil."
+        "Their pitch had ambition and a dash of delusion."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very small measured quantity added in cooking",
+          "body": [
+            "(щепотка, капля — кулинарная мера)"
+          ],
+          "examples": [
+            "Add a dash of salt and a squeeze of lemon.",
+            "The recipe calls for a dash of bitters.",
+            "Finish it with a dash of olive oil."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Figuratively — a small amount of a quality stirred into a whole",
+          "body": [
+            "(нотка, доля, примесь — a dash of humor «с ноткой юмора»)"
+          ],
+          "examples": [
+            "It's a serious book with a dash of humor.",
+            "She wanted a dash of color in an otherwise gray room.",
+            "Their pitch had ambition and a dash of delusion."
+          ]
+        }
+      ],
       "русский": "щепотка, капля — чуть-чуть добавленного, в кулинарии и переносно",
       "position": "central",
       "register": "neutral; at home in recipes and in descriptive writing",
@@ -668,12 +1065,39 @@
       "examples": [
         "Add a drop of vanilla to the batter.",
         "There hasn't been a drop of rain in six weeks.",
-        "He showed not a drop of remorse in the interview.",
-        "She used every drop of fuel getting back to the airfield.",
         "A drop of blood had dried on the sleeve.",
+        "She used every drop of fuel getting back to the airfield.",
+        "He showed not a drop of remorse in the interview.",
+        "There isn't a drop of sympathy left for them at city hall.",
         "What they're offering is a drop of what it would actually cost."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The smallest visible quantity of a liquid",
+          "body": [
+            "(капля — мельчайшее количество жидкости)"
+          ],
+          "examples": [
+            "Add a drop of vanilla to the batter.",
+            "There hasn't been a drop of rain in six weeks.",
+            "A drop of blood had dried on the sleeve.",
+            "She used every drop of fuel getting back to the airfield."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Under negation — not the slightest amount of a quality",
+          "body": [
+            "(ни капли — при отрицании: not a drop of remorse «ни капли раскаяния»)"
+          ],
+          "examples": [
+            "He showed not a drop of remorse in the interview.",
+            "There isn't a drop of sympathy left for them at city hall.",
+            "What they're offering is a drop of what it would actually cost."
+          ]
+        }
+      ],
       "русский": "капля — мельчайшее количество жидкости; при отрицании «ни капли»",
       "position": "central",
       "register": "neutral",
@@ -849,9 +1273,38 @@
         "Between the two drafts there isn't a shade of difference.",
         "A shade of regret crossed his face and was gone.",
         "The report contained not a shade of criticism.",
-        "It came in a shade under an hour. (adverbial use)"
+        "It came in a shade under an hour.",
+        "The sleeves are a shade too long.",
+        "She's a shade taller than her sister now."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The very slightest degree of a quality, most often under negation",
+          "body": [
+            "(тень, оттенок — малейшая степень, чаще при отрицании; неск. устар.)"
+          ],
+          "examples": [
+            "There was not a shade of doubt in her voice.",
+            "He said it without a shade of irony.",
+            "Between the two drafts there isn't a shade of difference.",
+            "A shade of regret crossed his face and was gone.",
+            "The report contained not a shade of criticism."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Adverbial a shade — \"slightly, by a hair.\"",
+          "body": [
+            "(чуть-чуть, самую малость — a shade under an hour «чуть меньше часа»)"
+          ],
+          "examples": [
+            "It came in a shade under an hour.",
+            "The sleeves are a shade too long.",
+            "She's a shade taller than her sister now."
+          ]
+        }
+      ],
       "русский": "тень, оттенок — малейшая степень качества, чаще при отрицании; неск. устар.",
       "position": "central",
       "register": "literary and slightly dated as a determiner; the adverbial a shade is the living form",
@@ -896,13 +1349,40 @@
       "meaning": "Names a thin, narrow piece cut or broken from something larger — small in a way you can picture.",
       "examples": [
         "She cut herself a sliver of cake and called it dessert.",
-        "A sliver of light came in under the door.",
-        "There is still a sliver of hope that the bill clears committee.",
         "He pulled a sliver of glass out of his palm.",
+        "A sliver of light came in under the door.",
+        "A sliver of moon hung over the parking lot.",
+        "There is still a sliver of hope that the bill clears committee.",
         "That program reaches only a sliver of the population that qualifies.",
-        "A sliver of moon hung over the parking lot."
+        "Wages took a sliver of the increase; the rest went to rent."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin, narrow piece cut or broken off something larger",
+          "body": [
+            "(тонкий ломтик, щепка, осколок — узкий кусочек)"
+          ],
+          "examples": [
+            "She cut herself a sliver of cake and called it dessert.",
+            "He pulled a sliver of glass out of his palm.",
+            "A sliver of light came in under the door.",
+            "A sliver of moon hung over the parking lot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tiny fraction of something abstract or countable",
+          "body": [
+            "(малая доля, крупица — a sliver of hope «крупица надежды»)"
+          ],
+          "examples": [
+            "There is still a sliver of hope that the bill clears committee.",
+            "That program reaches only a sliver of the population that qualifies.",
+            "Wages took a sliver of the increase; the rest went to rent."
+          ]
+        }
+      ],
       "pronunciation note": "the of reduces to /ə/, giving uh SLIV-er uh",
       "русский": "тонкий ломтик, щепка — узкий кусочек, отделённый от большего",
       "position": "central",
@@ -1000,12 +1480,41 @@
       "examples": [
         "Add a touch of garlic, but don't overdo it.",
         "He's got a touch of gray at the temples now.",
-        "She's been out with a touch of the flu.",
         "The room needed a touch of color.",
         "There was a touch of frost on the windshield this morning.",
-        "The whole production had a touch of class about it."
+        "The whole production had a touch of class about it.",
+        "She's been out with a touch of the flu.",
+        "He has a touch of arthritis in that shoulder.",
+        "It was only a touch of food poisoning, but it ruined the trip."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small amount present in or added to something — enough to change its character",
+          "body": [
+            "(нотка, лёгкая примесь — немного, но заметно)"
+          ],
+          "examples": [
+            "Add a touch of garlic, but don't overdo it.",
+            "He's got a touch of gray at the temples now.",
+            "The room needed a touch of color.",
+            "There was a touch of frost on the windshield this morning.",
+            "The whole production had a touch of class about it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mild case of an illness",
+          "body": [
+            "(лёгкая форма, чуть-чуть приболел — a touch of the flu «лёгкий грипп»)"
+          ],
+          "examples": [
+            "She's been out with a touch of the flu.",
+            "He has a touch of arthritis in that shoulder.",
+            "It was only a touch of food poisoning, but it ruined the trip."
+          ]
+        }
+      ],
       "русский": "нотка, лёгкая примесь — немного, но достаточно, чтобы изменить оттенок целого",
       "position": "central",
       "register": "neutral; thoroughly at home in American English",
@@ -1025,12 +1534,39 @@
       "examples": [
         "The lab found a trace of lead in the water.",
         "There was a trace of an accent, but I couldn't place it.",
+        "She answered with a trace of impatience.",
+        "The supplement contains trace amounts of iodine. (attributive)",
         "The plane vanished without a trace of wreckage.",
         "Not a trace of the original paint has survived.",
-        "She answered with a trace of impatience.",
-        "The supplement contains trace amounts of iodine. (attributive)"
+        "By morning there wasn't a trace of him or the truck."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The smallest detectable amount of a substance or a quality",
+          "body": [
+            "(след, следы — мельчайшее обнаружимое количество)"
+          ],
+          "examples": [
+            "The lab found a trace of lead in the water.",
+            "There was a trace of an accent, but I couldn't place it.",
+            "She answered with a trace of impatience.",
+            "The supplement contains trace amounts of iodine. (attributive)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Under negation — any sign or remnant at all that something was ever there",
+          "body": [
+            "(ни следа, никаких следов — without a trace «бесследно»)"
+          ],
+          "examples": [
+            "The plane vanished without a trace of wreckage.",
+            "Not a trace of the original paint has survived.",
+            "By morning there wasn't a trace of him or the truck."
+          ]
+        }
+      ],
       "русский": "след, следы — мельчайшее обнаружимое количество; тех. и криминалистическое",
       "position": "central",
       "register": "neutral, leaning technical and forensic",
@@ -1049,13 +1585,40 @@
       "meaning": "Names a small quantity arriving or moving slowly and continuously — small in rate rather than in bulk.",
       "examples": [
         "There was only a trickle of water coming from the tap.",
+        "A trickle of blood had dried along his jaw.",
+        "By August the creek was down to a trickle of what it is in spring.",
         "Applications slowed to a trickle of two or three a week.",
         "We're getting a trickle of information out of the agency.",
         "A steady trickle of visitors kept the museum open.",
-        "Funding has been reduced to a trickle of what it once was.",
-        "A trickle of blood had dried along his jaw."
+        "Funding has been reduced to a trickle of what it once was."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin, slow flow of liquid",
+          "body": [
+            "(тонкая струйка — о жидкости)"
+          ],
+          "examples": [
+            "There was only a trickle of water coming from the tap.",
+            "A trickle of blood had dried along his jaw.",
+            "By August the creek was down to a trickle of what it is in spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small, slow rate of arrivals — small in tempo rather than in bulk",
+          "body": [
+            "(по капле, тонким ручейком — мало по темпу поступления: a trickle of applications)"
+          ],
+          "examples": [
+            "Applications slowed to a trickle of two or three a week.",
+            "We're getting a trickle of information out of the agency.",
+            "A steady trickle of visitors kept the museum open.",
+            "Funding has been reduced to a trickle of what it once was."
+          ]
+        }
+      ],
       "русский": "тонкая струйка — мало по темпу поступления, а не по объёму",
       "position": "central",
       "register": "neutral; common in journalism",
@@ -1615,9 +2178,38 @@
         "That is scant comfort to the families still waiting for answers.",
         "They did the whole job with scant resources and no permanent staff. (plural countable)",
         "He has shown scant regard for the deadline since the day he took over.",
-        "Add a scant teaspoon of baking soda, not a heaping one. (singular — \"barely a full\")"
+        "Add a scant teaspoon of baking soda, not a heaping one.",
+        "The whole trip took a scant three hours.",
+        "Use a scant cup of broth or the sauce will be thin."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Falling short of what is needed or expected",
+          "body": [
+            "(скудный, едва достаточный — книжн.; и с исчисляемыми, и с неисчисляемыми)"
+          ],
+          "examples": [
+            "There is scant evidence that the program worked.",
+            "The report paid scant attention to what any of it would cost.",
+            "That is scant comfort to the families still waiting for answers.",
+            "They did the whole job with scant resources and no permanent staff. (plural countable)",
+            "He has shown scant regard for the deadline since the day he took over."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A scant + a measure — \"barely a full one,\" in recipes and measurements",
+          "body": [
+            "(неполный, без верха — a scant teaspoon «неполная чайная ложка»)"
+          ],
+          "examples": [
+            "Add a scant teaspoon of baking soda, not a heaping one.",
+            "The whole trip took a scant three hours.",
+            "Use a scant cup of broth or the sauce will be thin."
+          ]
+        }
+      ],
       "русский": "скудный, едва достаточный — книжн.; сочетается и с исчисляемыми, и с неисчисляемыми",
       "position": "attributive. It stands where a determiner would (scant evidence), but it can also follow one — the scant evidence we have, his scant regard for the rules — which is the proof that it is an adjective and not a central determiner. Unlike minimal and sparse it resists the predicative slot: The evidence is scant occurs but sounds stiff next to The evidence is thin.",
       "register": "formal to journalistic",
@@ -1639,11 +2231,41 @@
         "She has a slight accent that's hard to place.",
         "We saw slight improvement after the second week.",
         "There's a slight chance of snow tonight.",
-        "He hasn't the slightest idea what he's agreeing to.",
         "The difference between the two samples was slight.",
-        "There were slight variations between the two batches. (plural countable — possible, but uncommon)"
+        "There were slight variations between the two batches. (plural countable — possible, but uncommon)",
+        "He hasn't the slightest idea what he's agreeing to.",
+        "She never showed the slightest interest in the business.",
+        "Without the slightest warning the power went out again."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Small in degree or extent — faint, mild, barely appreciable",
+          "body": [
+            "(незначительный, лёгкий, слабый)"
+          ],
+          "examples": [
+            "There's been a slight delay with the connecting flight.",
+            "She has a slight accent that's hard to place.",
+            "We saw slight improvement after the second week.",
+            "There's a slight chance of snow tonight.",
+            "The difference between the two samples was slight.",
+            "There were slight variations between the two batches. (plural countable — possible, but uncommon)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The slightest under negation — \"any at all, even the smallest.\"",
+          "body": [
+            "(ни малейший — при отрицании: not the slightest idea «ни малейшего представления»)"
+          ],
+          "examples": [
+            "He hasn't the slightest idea what he's agreeing to.",
+            "She never showed the slightest interest in the business.",
+            "Without the slightest warning the power went out again."
+          ]
+        }
+      ],
       "русский": "незначительный, лёгкий — малая степень или мера чего-либо",
       "position": "attributive after a determiner (a slight delay, the slightest chance) or predicative (the difference was slight)",
       "register": "neutral",

@@ -315,13 +315,67 @@
       "examples": [
         "Put the boxes back where you found them.",
         "Where the sidewalk ends, the gravel road starts.",
+        "She left the key where the plumber could find it.",
         "This is the diner where we had breakfast every Sunday for six years.",
         "We spent August in Bar Harbor, where my grandmother still keeps a house.",
+        "The room where the hearing was held holds about forty people.",
         "Nobody could tell me where the registration desk was.",
+        "I have no idea where she put the spare fuses.",
+        "Ask where they want the pallets unloaded.",
         "Where the contract is silent, state law fills the gap.",
-        "He'll argue where most people would just walk away."
+        "He'll argue where most people would just walk away.",
+        "Where two readings are possible, the older one usually wins."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Adverbial clause of place — it locates the whole event",
+          "body": [
+            "No place noun stands in front of it; the clause itself says where. (там, где; туда, куда)"
+          ],
+          "examples": [
+            "Put the boxes back where you found them.",
+            "Where the sidewalk ends, the gravel road starts.",
+            "She left the key where the plumber could find it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Relative adverb after a place noun — swappable for in which",
+          "body": [
+            "No commas when the clause narrows which place is meant; commas on both sides when the place is already identified. (где; в котором; куда)"
+          ],
+          "examples": [
+            "This is the diner where we had breakfast every Sunday for six years.",
+            "We spent August in Bar Harbor, where my grandmother still keeps a house.",
+            "The room where the hearing was held holds about forty people."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Noun clause — an indirect question",
+          "body": [
+            "The clause is the object of a verb of knowing, asking, or telling, and it never takes a comma in front of it. (где; куда — в косвенном вопросе)"
+          ],
+          "examples": [
+            "Nobody could tell me where the registration desk was.",
+            "I have no idea where she put the spare fuses.",
+            "Ask where they want the pallets unloaded."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Abstract — \"in cases in which.\"",
+          "body": [
+            "No physical place at all. Standard in legal, academic, and technical prose, and this is the sense in which where stands in for when or if. (в тех случаях, когда; там, где — переносно)"
+          ],
+          "examples": [
+            "Where the contract is silent, state law fills the gap.",
+            "He'll argue where most people would just walk away.",
+            "Where two readings are possible, the older one usually wins."
+          ]
+        }
+      ],
       "pronunciation note": "unstressed as a conjunction but not reduced; it never falls together with were /wər/",
       "русский": "где; куда; там, где — место; также относительное «в котором» и косвенный вопрос «где»",
       "register": "neutral",
@@ -455,12 +509,37 @@
       "examples": [
         "Wherever she goes, people recognize her.",
         "Set the tripod down wherever the ground is level.",
+        "He falls asleep wherever he sits down for more than ten minutes.",
         "Wherever you end up living, keep the heavy coat.",
         "The company will match the offer, wherever it comes from.",
-        "He falls asleep wherever he sits down for more than ten minutes.",
         "Wherever the money went, it certainly didn't go into the roof."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "\"In any place that,\" \"in every place that.\"",
+          "body": [
+            "The fused relative: it sweeps across every place that fits, or leaves open which single one turns out to apply. (везде, где; в любом месте, где)"
+          ],
+          "examples": [
+            "Wherever she goes, people recognize her.",
+            "Set the tripod down wherever the ground is level.",
+            "He falls asleep wherever he sits down for more than ten minutes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Concessive — \"it doesn't matter where.\"",
+          "body": [
+            "The place is unknown or beside the point, and the main clause holds either way; no matter where substitutes exactly. (где бы ни; куда бы ни)"
+          ],
+          "examples": [
+            "Wherever you end up living, keep the heavy coat.",
+            "The company will match the offer, wherever it comes from.",
+            "Wherever the money went, it certainly didn't go into the roof."
+          ]
+        }
+      ],
       "pronunciation note": "wair-EV-er",
       "русский": "где бы ни; куда бы ни; везде, где — обобщающее и уступительное место",
       "register": "neutral",
@@ -547,14 +626,54 @@
       "respell": "WAIR-for",
       "meaning": "Means \"for which reason\" or, in its interrogative use, simply \"why.\" Juliet's Wherefore art thou Romeo? asks why he has to be a Romeo, not where he is — the most consistently misread line in English. Modern American English keeps it in two places: the prayer for relief at the end of a legal pleading, and the frozen phrase the whys and wherefores. It is the one where- compound in this section that is not a subordinator, which is exactly why it takes a semicolon where whereupon takes a comma.",
       "examples": [
-        "\"Wherefore art thou Romeo?\"",
         "The defendant failed to appear; wherefore the court entered judgment by default.",
-        "She wanted to know all the whys and wherefores before she signed anything.",
         "WHEREFORE, Plaintiff respectfully requests that the Court enter judgment in her favor and award costs.",
         "The notice went to the wrong address. Wherefore, the thirty-day clock never started running.",
-        "Wherefore should any of us care what that committee thinks?"
+        "\"Wherefore art thou Romeo?\"",
+        "Wherefore should any of us care what that committee thinks?",
+        "Wherefore dost thou trouble me?",
+        "She wanted to know all the whys and wherefores before she signed anything.",
+        "Spare me the whys and wherefores — just tell me what it costs.",
+        "Half the book is given over to the whys and wherefores of the merger."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "\"For which reason\" — the connective",
+          "body": [
+            "It joins two independent clauses the way therefore does and takes a semicolon or a period in front of it, never a bare comma. In living American English it survives chiefly in the prayer for relief that closes a legal pleading. (вследствие чего; посему)"
+          ],
+          "examples": [
+            "The defendant failed to appear; wherefore the court entered judgment by default.",
+            "WHEREFORE, Plaintiff respectfully requests that the Court enter judgment in her favor and award costs.",
+            "The notice went to the wrong address. Wherefore, the thirty-day clock never started running."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The archaic interrogative — plainly \"why.\"",
+          "body": [
+            "Juliet's Wherefore art thou Romeo? asks why he has to be a Romeo, not where he is: the most consistently misread line in English. Subject and verb invert, and the sentence ends in a question mark. (почему; зачем)"
+          ],
+          "examples": [
+            "\"Wherefore art thou Romeo?\"",
+            "Wherefore should any of us care what that committee thinks?",
+            "Wherefore dost thou trouble me?"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "the whys and wherefores — a frozen plural noun",
+          "body": [
+            "Neither a connector nor a question word but a noun meaning \"the reasons behind a thing,\" and the only shape in which most Americans ever meet the word. (причины; подоплёка)"
+          ],
+          "examples": [
+            "She wanted to know all the whys and wherefores before she signed anything.",
+            "Spare me the whys and wherefores — just tell me what it costs.",
+            "Half the book is given over to the whys and wherefores of the merger."
+          ]
+        }
+      ],
       "русский": "вследствие чего, посему; устар. «почему» — юр.; в whys and wherefores — «причины»",
       "register": "archaic; survives in legal drafting and one fixed noun phrase",
       "type": "conjunctive adverb (\"for which reason\"); also an archaic interrogative adverb and, in the fixed plural, a noun",
@@ -998,12 +1117,52 @@
       "examples": [
         "Her first novel, which took eleven years to write, sold four thousand copies.",
         "The bridge, which was rebuilt in 2004, is closed for repairs again.",
-        "He missed the filing deadline, which surprised absolutely no one.",
+        "The recipe calls for pancetta, which you can replace with bacon.",
         "This is the cabinet in which the old contracts were stored.",
         "They moved in June, by which time the roof was already leaking.",
-        "The recipe calls for pancetta, which you can replace with bacon."
+        "There is a second gate, through which the delivery trucks come.",
+        "He missed the filing deadline, which surprised absolutely no one.",
+        "She paid for everybody's dinner, which was more than anyone expected.",
+        "The heat went out on the coldest night of the year, which is about how that winter went."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Nonrestrictive relative — adding a detail about a thing already identified",
+          "body": [
+            "Fenced by commas on both sides, and the closing comma is the one writers drop. It refers to things, animals, and ideas, never to people. (который — в неограничительном придаточном, с запятыми)"
+          ],
+          "examples": [
+            "Her first novel, which took eleven years to write, sold four thousand copies.",
+            "The bridge, which was rebuilt in 2004, is closed for repairs again.",
+            "The recipe calls for pancetta, which you can replace with bacon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "After a preposition — restrictive, and no commas",
+          "body": [
+            "This is the slot that cannot fill: the chair on that she sat is impossible, so a pied-piped preposition forces which. The frames at which point, by which time, and in which case belong here. (в котором; на котором; к какому времени)"
+          ],
+          "examples": [
+            "This is the cabinet in which the old contracts were stored.",
+            "They moved in June, by which time the roof was already leaking.",
+            "There is a second gate, through which the delivery trucks come."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Sentential relative — the antecedent is the whole clause in front of it",
+          "body": [
+            "The one power that lacks: which can take an entire statement as its head, which is why the Russian here is «что» and not «который». (что — с отсылкой ко всему сказанному)"
+          ],
+          "examples": [
+            "He missed the filing deadline, which surprised absolutely no one.",
+            "She paid for everybody's dinner, which was more than anyone expected.",
+            "The heat went out on the coldest night of the year, which is about how that winter went."
+          ]
+        }
+      ],
       "русский": "который; что — о предметах; в амер. норме неограничительное, с запятыми",
       "register": "neutral",
       "type": "relative pronoun; also an interrogative determiner",

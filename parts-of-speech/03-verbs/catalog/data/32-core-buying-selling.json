@@ -98,14 +98,43 @@
       "term": "discount",
       "ipa": "/ˈdɪskaʊnt/",
       "respell": "DIS-kownt",
-      "meaning": "To lower the price of something. ---",
+      "meaning": "Discount has 2 distinct senses.",
       "examples": [
         "Stores discount winter coats in February.",
         "They discounted the sofa by thirty percent.",
-        "Everything on this rack is discounted."
+        "Everything on this rack is discounted.",
+        "Don't discount the possibility that she was right all along.",
+        "Investigators discounted the witness's story after checking the timeline.",
+        "You shouldn't be discounting his experience just because he is young."
       ],
-      "senses": [],
-      "русский": "делать скидку, уценивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To lower the price of something",
+          "body": [
+            "(делать скидку, уценивать)"
+          ],
+          "examples": [
+            "Stores discount winter coats in February.",
+            "They discounted the sofa by thirty percent.",
+            "Everything on this rack is discounted."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To treat something as unimportant or unlikely to be true",
+          "body": [
+            "(сбрасывать со счетов, не принимать в расчёт)",
+            "---"
+          ],
+          "examples": [
+            "Don't discount the possibility that she was right all along.",
+            "Investigators discounted the witness's story after checking the timeline.",
+            "You shouldn't be discounting his experience just because he is young."
+          ]
+        }
+      ],
+      "русский": "делать скидку, уценивать; сбрасывать со счетов, не принимать в расчёт",
       "forms": "discount · discounted · discounted",
       "verb class": "regular",
       "third person": "discounts · -ing form: discounting",
@@ -116,14 +145,43 @@
       "term": "raise",
       "ipa": "/reɪz/",
       "respell": "RAYZ",
-      "meaning": "To make a price or an amount higher, or to collect money for a purpose. ---",
+      "meaning": "Raise has 2 distinct senses.",
       "examples": [
         "Landlords raise the rent almost every year.",
         "They raised forty thousand dollars for the clinic.",
-        "Gas prices have been raised twice this month."
+        "Gas prices have been raised twice this month.",
+        "She raised the issue at the last meeting.",
+        "Nobody wanted to raise the question of money.",
+        "Several parents have raised concerns about the new schedule."
       ],
-      "senses": [],
-      "русский": "повышать (цены); собирать (деньги)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a price or an amount higher, or to collect money for a purpose",
+          "body": [
+            "(повышать (цены); собирать (деньги))"
+          ],
+          "examples": [
+            "Landlords raise the rent almost every year.",
+            "They raised forty thousand dollars for the clinic.",
+            "Gas prices have been raised twice this month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bring up a subject, a question, or an objection so that people will deal with it",
+          "body": [
+            "(поднимать, поднять (вопрос); выражать (сомнение, возражение))",
+            "---"
+          ],
+          "examples": [
+            "She raised the issue at the last meeting.",
+            "Nobody wanted to raise the question of money.",
+            "Several parents have raised concerns about the new schedule."
+          ]
+        }
+      ],
+      "русский": "повышать (цены); собирать (деньги); поднимать, поднять (вопрос); выражать (сомнение, возражение)",
       "forms": "raise · raised · raised",
       "verb class": "regular",
       "third person": "raises · -ing form: raising",
@@ -169,14 +227,43 @@
       "term": "export",
       "ipa": "/ɪkˈspɔːrt/",
       "respell": "ik-SPORT",
-      "meaning": "To sell and send goods to another country. ---",
+      "meaning": "Export has 2 distinct senses.",
       "examples": [
         "They export almost half of what they grow.",
         "The company exported ten thousand units last year.",
-        "Most of the coffee is exported to Europe."
+        "Most of the coffee is exported to Europe.",
+        "You can export the table as a CSV file.",
+        "I exported my contacts to a spreadsheet.",
+        "The chart has already been exported to PDF."
       ],
-      "senses": [],
-      "русский": "экспортировать, вывозить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To sell and send goods to another country",
+          "body": [
+            "(экспортировать, вывозить)"
+          ],
+          "examples": [
+            "They export almost half of what they grow.",
+            "The company exported ten thousand units last year.",
+            "Most of the coffee is exported to Europe."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To save data out of a program in a form that another program can open",
+          "body": [
+            "(экспортировать, выгружать (данные из программы))",
+            "---"
+          ],
+          "examples": [
+            "You can export the table as a CSV file.",
+            "I exported my contacts to a spreadsheet.",
+            "The chart has already been exported to PDF."
+          ]
+        }
+      ],
+      "русский": "экспортировать, вывозить; экспортировать, выгружать (данные из программы)",
       "forms": "export · exported · exported",
       "verb class": "regular",
       "third person": "exports · -ing form: exporting",
@@ -187,14 +274,43 @@
       "term": "import",
       "ipa": "/ɪmˈpɔːrt/",
       "respell": "im-PORT",
-      "meaning": "To buy goods from another country and bring them in. ---",
+      "meaning": "Import has 2 distinct senses.",
       "examples": [
         "We import most of our fruit in winter.",
         "The parts were imported from Korea.",
-        "They stopped importing steel after the tariff."
+        "They stopped importing steel after the tariff.",
+        "You can import your contacts from a spreadsheet.",
+        "I imported the photos into the editor last night.",
+        "The app is importing your calendar now."
       ],
-      "senses": [],
-      "русский": "импортировать, ввозить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To buy goods from another country and bring them in",
+          "body": [
+            "(импортировать, ввозить)"
+          ],
+          "examples": [
+            "We import most of our fruit in winter.",
+            "The parts were imported from Korea.",
+            "They stopped importing steel after the tariff."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bring a file or data into a program from somewhere else",
+          "body": [
+            "(импортировать, загружать (данные в программу))",
+            "---"
+          ],
+          "examples": [
+            "You can import your contacts from a spreadsheet.",
+            "I imported the photos into the editor last night.",
+            "The app is importing your calendar now."
+          ]
+        }
+      ],
+      "русский": "импортировать, ввозить; импортировать, загружать (данные в программу)",
       "forms": "import · imported · imported",
       "verb class": "regular",
       "third person": "imports · -ing form: importing",
@@ -310,14 +426,43 @@
       "term": "overcharge",
       "ipa": "/ˌoʊvərˈtʃɑːrdʒ/",
       "respell": "oh-vur-CHARJ",
-      "meaning": "To make someone pay more than the correct price. ---",
+      "meaning": "Overcharge has 2 distinct senses.",
       "examples": [
         "Restaurants near the airport overcharge for everything.",
         "The garage overcharged us by a hundred dollars.",
-        "I think we're being overcharged."
+        "I think we're being overcharged.",
+        "Don't overcharge the battery or it will swell.",
+        "He overcharged the cells and ruined the pack.",
+        "The batteries had been overcharged overnight."
       ],
-      "senses": [],
-      "русский": "брать лишнее, завышать цену",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make someone pay more than the correct price",
+          "body": [
+            "(брать лишнее, завышать цену)"
+          ],
+          "examples": [
+            "Restaurants near the airport overcharge for everything.",
+            "The garage overcharged us by a hundred dollars.",
+            "I think we're being overcharged."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put too much electricity into a battery",
+          "body": [
+            "(перезаряжать (аккумулятор), перезарядить)",
+            "---"
+          ],
+          "examples": [
+            "Don't overcharge the battery or it will swell.",
+            "He overcharged the cells and ruined the pack.",
+            "The batteries had been overcharged overnight."
+          ]
+        }
+      ],
+      "русский": "брать лишнее, завышать цену; перезаряжать (аккумулятор), перезарядить",
       "forms": "overcharge · overcharged · overcharged",
       "verb class": "regular",
       "third person": "overcharges · -ing form: overcharging",
@@ -327,14 +472,43 @@
       "term": "tax",
       "ipa": "/tæks/",
       "respell": "TAKS",
-      "meaning": "To make people pay money to the government on goods, income or property. ---",
+      "meaning": "Tax has 2 distinct senses.",
       "examples": [
         "The state taxes restaurant meals.",
         "They taxed the sale at eight percent.",
-        "Cigarettes are taxed heavily here."
+        "Cigarettes are taxed heavily here.",
+        "These meetings tax my patience.",
+        "The long climb taxed her strength.",
+        "Caring for a newborn alone is taxing."
       ],
-      "senses": [],
-      "русский": "облагать налогом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make people pay money to the government on goods, income or property",
+          "body": [
+            "(облагать налогом)"
+          ],
+          "examples": [
+            "The state taxes restaurant meals.",
+            "They taxed the sale at eight percent.",
+            "Cigarettes are taxed heavily here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make heavy demands on someone's strength, time, or patience",
+          "body": [
+            "(изматывать, утомлять; испытывать (терпение))",
+            "---"
+          ],
+          "examples": [
+            "These meetings tax my patience.",
+            "The long climb taxed her strength.",
+            "Caring for a newborn alone is taxing."
+          ]
+        }
+      ],
+      "русский": "облагать налогом; изматывать, утомлять; испытывать (терпение)",
       "forms": "tax · taxed · taxed",
       "verb class": "regular",
       "third person": "taxes · -ing form: taxing",
@@ -381,14 +555,43 @@
       "term": "audit",
       "ipa": "/ˈɔːdət/",
       "respell": "AW-dut",
-      "meaning": "To check someone's financial records officially. ---",
+      "meaning": "Audit has 2 distinct senses.",
       "examples": [
         "The IRS can audit returns up to three years old.",
         "Their books were audited last spring.",
-        "An outside firm is auditing the accounts."
+        "An outside firm is auditing the accounts.",
+        "You can audit the course for free if you don't need the credit.",
+        "She audited two graduate seminars before she applied.",
+        "I'm auditing a Spanish class this semester."
       ],
-      "senses": [],
-      "русский": "проводить аудит, проверять отчётность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To check someone's financial records officially",
+          "body": [
+            "(проводить аудит, проверять отчётность)"
+          ],
+          "examples": [
+            "The IRS can audit returns up to three years old.",
+            "Their books were audited last spring.",
+            "An outside firm is auditing the accounts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To attend a college course without taking the exams or earning credit",
+          "body": [
+            "(слушать курс вольнослушателем, посещать без зачёта)",
+            "---"
+          ],
+          "examples": [
+            "You can audit the course for free if you don't need the credit.",
+            "She audited two graduate seminars before she applied.",
+            "I'm auditing a Spanish class this semester."
+          ]
+        }
+      ],
+      "русский": "проводить аудит, проверять отчётность; слушать курс вольнослушателем, посещать без зачёта",
       "forms": "audit · audited · audited",
       "verb class": "regular",
       "third person": "audits · -ing form: auditing",
@@ -434,14 +637,43 @@
       "term": "conserve",
       "ipa": "/kənˈsɜːrv/",
       "respell": "kuhn-SURV",
-      "meaning": "To use something carefully so that it lasts longer. ---",
+      "meaning": "Conserve has 2 distinct senses.",
       "examples": [
         "Small shops have to conserve cash in the winter.",
         "They conserved fuel by driving less.",
-        "The company is conserving money by not hiring."
+        "The company is conserving money by not hiring.",
+        "The trust works to conserve wetlands along the coast.",
+        "The town conserved its old courthouse instead of tearing it down.",
+        "Several rare species are being conserved in the park."
       ],
-      "senses": [],
-      "русский": "беречь, экономно расходовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To use something carefully so that it lasts longer",
+          "body": [
+            "(беречь, экономно расходовать)"
+          ],
+          "examples": [
+            "Small shops have to conserve cash in the winter.",
+            "They conserved fuel by driving less.",
+            "The company is conserving money by not hiring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To protect a natural place, a species, or an old building from harm or loss",
+          "body": [
+            "(сохранять, охранять (природу, памятники), сберечь)",
+            "---"
+          ],
+          "examples": [
+            "The trust works to conserve wetlands along the coast.",
+            "The town conserved its old courthouse instead of tearing it down.",
+            "Several rare species are being conserved in the park."
+          ]
+        }
+      ],
+      "русский": "беречь, экономно расходовать; сохранять, охранять (природу, памятники), сберечь",
       "forms": "conserve · conserved · conserved",
       "verb class": "regular",
       "third person": "conserves · -ing form: conserving",
@@ -523,14 +755,43 @@
       "term": "diversify",
       "ipa": "/dəˈvɜːrsəfaɪ/",
       "respell": "duh-VUR-suh-fy",
-      "meaning": "To put money into several different things so that one loss cannot ruin you. ---",
+      "meaning": "Diversify has 2 distinct senses.",
       "examples": [
         "Advisers always tell you to diversify.",
         "She diversified her savings after the crash.",
-        "The firm is diversifying into groceries."
+        "The firm is diversifying into groceries.",
+        "Small stores have to diversify to survive.",
+        "The farm diversified into cheese and weekend tourism.",
+        "The company has been diversifying away from print for a decade."
       ],
-      "senses": [],
-      "русский": "диверсифицировать, распределять вложения",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put money into several different things so that one loss cannot ruin you",
+          "body": [
+            "(диверсифицировать, распределять вложения)"
+          ],
+          "examples": [
+            "Advisers always tell you to diversify.",
+            "She diversified her savings after the crash.",
+            "The firm is diversifying into groceries."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "For a business to start selling new kinds of products or move into new activities",
+          "body": [
+            "(расширять ассортимент, осваивать новые направления)",
+            "---"
+          ],
+          "examples": [
+            "Small stores have to diversify to survive.",
+            "The farm diversified into cheese and weekend tourism.",
+            "The company has been diversifying away from print for a decade."
+          ]
+        }
+      ],
+      "русский": "диверсифицировать, распределять вложения; расширять ассортимент, осваивать новые направления",
       "forms": "diversify · diversified · diversified",
       "verb class": "regular",
       "third person": "diversifies · -ing form: diversifying",
@@ -541,14 +802,43 @@
       "term": "possess",
       "ipa": "/pəˈzɛs/",
       "respell": "puh-ZESS",
-      "meaning": "To have something, especially as property. ---",
+      "meaning": "Possess has 2 distinct senses.",
       "examples": [
         "Almost nobody possesses enough cash to buy a house outright.",
         "She possessed very little when she arrived.",
-        "Everything possessed by the company was sold to pay the debt."
+        "Everything possessed by the company was sold to pay the debt.",
+        "What possessed you to tell her that?",
+        "In the movie a demon possesses the youngest child.",
+        "He tore through the house like a man possessed."
       ],
-      "senses": [],
-      "русский": "обладать, владеть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To have something, especially as property",
+          "body": [
+            "(обладать, владеть)"
+          ],
+          "examples": [
+            "Almost nobody possesses enough cash to buy a house outright.",
+            "She possessed very little when she arrived.",
+            "Everything possessed by the company was sold to pay the debt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take complete control of someone's mind or behavior, as a spirit or a strange impulse is said to do",
+          "body": [
+            "(овладевать (кем-л.), овладеть; вселяться (о духе); находить (что на тебя нашло))",
+            "---"
+          ],
+          "examples": [
+            "What possessed you to tell her that?",
+            "In the movie a demon possesses the youngest child.",
+            "He tore through the house like a man possessed."
+          ]
+        }
+      ],
+      "русский": "обладать, владеть; овладевать (кем-л.), овладеть; вселяться (о духе); находить (что на тебя нашло)",
       "forms": "possess · possessed · possessed",
       "verb class": "regular",
       "third person": "possesses · -ing form: possessing",
@@ -577,14 +867,43 @@
       "term": "redeem",
       "ipa": "/rɪˈdiːm/",
       "respell": "ri-DEEM",
-      "meaning": "To exchange a coupon, a voucher or points for goods or money. ---",
+      "meaning": "Redeem has 2 distinct senses.",
       "examples": [
         "You can redeem the coupon at any branch.",
         "She redeemed her points for a flight.",
-        "The gift card has already been redeemed."
+        "The gift card has already been redeemed.",
+        "One good scene can't redeem a bad movie.",
+        "He redeemed himself with a touchdown in the last minute.",
+        "The film is redeemed by its final twenty minutes."
       ],
-      "senses": [],
-      "русский": "погашать; отоваривать (купон)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To exchange a coupon, a voucher or points for goods or money",
+          "body": [
+            "(погашать; отоваривать (купон))"
+          ],
+          "examples": [
+            "You can redeem the coupon at any branch.",
+            "She redeemed her points for a flight.",
+            "The gift card has already been redeemed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make up for a mistake or a fault and win back people's good opinion",
+          "body": [
+            "(искупать, искупить (вину); реабилитировать себя, исправить впечатление)",
+            "---"
+          ],
+          "examples": [
+            "One good scene can't redeem a bad movie.",
+            "He redeemed himself with a touchdown in the last minute.",
+            "The film is redeemed by its final twenty minutes."
+          ]
+        }
+      ],
+      "русский": "погашать; отоваривать (купон); искупать, искупить (вину); реабилитировать себя, исправить впечатление",
       "forms": "redeem · redeemed · redeemed",
       "verb class": "regular",
       "third person": "redeems · -ing form: redeeming",
@@ -630,14 +949,58 @@
       "term": "convert",
       "ipa": "/kənˈvɜːrt/",
       "respell": "kuhn-VURT",
-      "meaning": "To change money from one currency into another. ---",
+      "meaning": "Convert has 3 distinct senses.",
       "examples": [
         "The app converts dollars to euros instantly.",
         "We converted the last of our cash at the airport.",
-        "Prices are converted at yesterday's rate."
+        "Prices are converted at yesterday's rate.",
+        "They converted the garage into a bedroom.",
+        "Solar panels convert sunlight into electricity.",
+        "The old factory is being converted into apartments.",
+        "He converted to Judaism before the wedding.",
+        "Missionaries tried to convert the whole village.",
+        "She was converted by a book she read in college."
       ],
-      "senses": [],
-      "русский": "конвертировать, обменивать (валюту)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To change money from one currency into another",
+          "body": [
+            "(конвертировать, обменивать (валюту))"
+          ],
+          "examples": [
+            "The app converts dollars to euros instantly.",
+            "We converted the last of our cash at the airport.",
+            "Prices are converted at yesterday's rate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To change something into a different form or a different use",
+          "body": [
+            "(превращать, переделывать, преобразовать)"
+          ],
+          "examples": [
+            "They converted the garage into a bedroom.",
+            "Solar panels convert sunlight into electricity.",
+            "The old factory is being converted into apartments."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To change your religion, or to make someone else change theirs",
+          "body": [
+            "(обращать в веру; переходить в другую веру)",
+            "---"
+          ],
+          "examples": [
+            "He converted to Judaism before the wedding.",
+            "Missionaries tried to convert the whole village.",
+            "She was converted by a book she read in college."
+          ]
+        }
+      ],
+      "русский": "конвертировать, обменивать (валюту); превращать, переделывать, преобразовать; обращать в веру; переходить в другую веру",
       "forms": "convert · converted · converted",
       "verb class": "regular",
       "third person": "converts · -ing form: converting",
@@ -648,14 +1011,73 @@
       "term": "swipe",
       "ipa": "/swaɪp/",
       "respell": "SWYPE",
-      "meaning": "To pass a bank card through a machine to pay. ---",
+      "meaning": "Swipe has 4 distinct senses.",
       "examples": [
         "Swipe your card and enter the PIN.",
         "She swiped the card twice by mistake.",
-        "He was still swiping when the machine froze."
+        "He was still swiping when the machine froze.",
+        "Swipe left to delete the message.",
+        "She swiped through her photos the whole train ride.",
+        "He kept swiping at the screen with wet hands.",
+        "Someone swiped my umbrella from the hallway.",
+        "Don't leave your phone where a kid can swipe it.",
+        "Half the candy had been swiped before the party started.",
+        "The cat swiped at my hand.",
+        "A bear can swipe hard enough to break bone.",
+        "He was swiping at flies with a dish towel."
       ],
-      "senses": [],
-      "русский": "проводить картой, прокатывать карту",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pass a bank card through a machine to pay",
+          "body": [
+            "(проводить картой, прокатывать карту)"
+          ],
+          "examples": [
+            "Swipe your card and enter the PIN.",
+            "She swiped the card twice by mistake.",
+            "He was still swiping when the machine froze."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To slide a finger across a touchscreen",
+          "body": [
+            "(проводить пальцем по экрану, смахивать, листать)"
+          ],
+          "examples": [
+            "Swipe left to delete the message.",
+            "She swiped through her photos the whole train ride.",
+            "He kept swiping at the screen with wet hands."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To steal something small, in informal speech",
+          "body": [
+            "(стащить, стянуть, украсть (по мелочи))"
+          ],
+          "examples": [
+            "Someone swiped my umbrella from the hallway.",
+            "Don't leave your phone where a kid can swipe it.",
+            "Half the candy had been swiped before the party started."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To hit out at something with a quick sweeping movement",
+          "body": [
+            "(махнуть (лапой, рукой), ударить наотмашь)",
+            "---"
+          ],
+          "examples": [
+            "The cat swiped at my hand.",
+            "A bear can swipe hard enough to break bone.",
+            "He was swiping at flies with a dish towel."
+          ]
+        }
+      ],
+      "русский": "проводить картой, прокатывать карту; проводить пальцем по экрану, смахивать, листать; стащить, стянуть, украсть (по мелочи); махнуть (лапой, рукой), ударить наотмашь",
       "forms": "swipe · swiped · swiped",
       "verb class": "regular",
       "third person": "swipes · -ing form: swiping",

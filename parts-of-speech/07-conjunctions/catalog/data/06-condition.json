@@ -57,12 +57,69 @@
       "examples": [
         "If it rains tomorrow, the game moves to Sunday.",
         "Call me if you get lost.",
+        "If you're finished with that, I'll take it.",
+        "Let me know if the package arrives.",
         "If I had left ten minutes earlier, I would have made the train.",
         "She'd take the promotion if they moved her back to Denver.",
-        "If you're finished with that, I'll take it.",
-        "Let me know if the package arrives."
+        "If I were you, I'd get that in writing.",
+        "If you heat it past two hundred degrees, the glaze cracks.",
+        "If the tide is out, you can walk to the island.",
+        "She gets a headache if she skips lunch.",
+        "There's soup in the fridge if you're hungry.",
+        "If you want my honest opinion, the second draft was better.",
+        "If you're wondering, the meeting got moved to Thursday."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Open condition — it may happen and it may not",
+          "body": [
+            "Present tense in the clause even for future time: if it rains tomorrow, never if it will rain. (если)"
+          ],
+          "examples": [
+            "If it rains tomorrow, the game moves to Sunday.",
+            "Call me if you get lost.",
+            "If you're finished with that, I'll take it.",
+            "Let me know if the package arrives."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Unreal condition — unlikely, or already impossible",
+          "body": [
+            "The word itself does not change; the tense does. Simple past for the improbable, past perfect for what can no longer happen. (если бы)"
+          ],
+          "examples": [
+            "If I had left ten minutes earlier, I would have made the train.",
+            "She'd take the promotion if they moved her back to Denver.",
+            "If I were you, I'd get that in writing."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Generic — \"whenever,\" \"every time.\"",
+          "body": [
+            "Both clauses in the present, and nothing hypothetical about it: the sentence states a rule that holds on every occasion. (когда; всякий раз когда)"
+          ],
+          "examples": [
+            "If you heat it past two hundred degrees, the glaze cracks.",
+            "If the tide is out, you can walk to the island.",
+            "She gets a headache if she skips lunch."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A condition on the saying rather than on the fact",
+          "body": [
+            "The clause qualifies the speaker's reason for mentioning it; the main clause stays true whatever the listener does. (если; если уж на то пошло)"
+          ],
+          "examples": [
+            "There's soup in the fridge if you're hungry.",
+            "If you want my honest opinion, the second draft was better.",
+            "If you're wondering, the meeting got moved to Thursday."
+          ]
+        }
+      ],
       "pronunciation note": "reduced /əf/ in fast speech",
       "русский": "если — основной союз условия; в косвенном вопросе — частица «ли»",
       "register": "neutral",
@@ -155,10 +212,39 @@
         "Unless somebody objects, I'll book the room for Thursday.",
         "Don't sign anything unless your lawyer has read it.",
         "We'll be there by noon unless traffic on the interstate is terrible.",
+        "She never takes a day off unless she's genuinely sick.",
         "Unless you've already eaten, there's a plate in the oven.",
-        "She never takes a day off unless she's genuinely sick."
+        "We'll take the early flight — unless you'd rather sleep in.",
+        "I'll just mail it. Unless you need it today?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The single exception that would overturn the main clause",
+          "body": [
+            "\"Except on the condition that.\" Present tense for future reference, and never a counterfactual — If I hadn't called…, never unless I had called. (если не; кроме случаев, когда)"
+          ],
+          "examples": [
+            "The store closes at six unless there's a holiday sale.",
+            "Unless somebody objects, I'll book the room for Thursday.",
+            "Don't sign anything unless your lawyer has read it.",
+            "We'll be there by noon unless traffic on the interstate is terrible.",
+            "She never takes a day off unless she's genuinely sick."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Tacked on as an afterthought — \"unless, of course …\"",
+          "body": [
+            "A second thought that reopens what the speaker had just settled. It follows a pause, a dash, or a full stop, and the clause is often a bare fragment. (разве что; впрочем, если только)"
+          ],
+          "examples": [
+            "Unless you've already eaten, there's a plate in the oven.",
+            "We'll take the early flight — unless you'd rather sleep in.",
+            "I'll just mail it. Unless you need it today?"
+          ]
+        }
+      ],
       "pronunciation note": "full form /ʌnˈlɛs/",
       "русский": "если не; кроме случаев, когда — единственное исключение из сказанного",
       "register": "neutral",
@@ -345,12 +431,39 @@
       "examples": [
         "The offer is subject to a satisfactory home inspection.",
         "Subject to board approval, the merger closes in March.",
-        "All fares are subject to change without notice.",
         "The permit was issued subject to three conditions.",
+        "Subject to the terms below, the license is worldwide and perpetual.",
+        "All fares are subject to change without notice.",
         "Delivery dates are subject to availability.",
-        "Subject to the terms below, the license is worldwide and perpetual."
+        "The whole valley is subject to flooding in a wet spring."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Conditional on an approval, a rule, or an event",
+          "body": [
+            "The condition is packed into a noun phrase, which is exactly why contracts prefer it to provided that. (при условии; с учётом)"
+          ],
+          "examples": [
+            "The offer is subject to a satisfactory home inspection.",
+            "Subject to board approval, the merger closes in March.",
+            "The permit was issued subject to three conditions.",
+            "Subject to the terms below, the license is worldwide and perpetual."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Liable to, exposed to — the thing may simply happen to it",
+          "body": [
+            "No condition and nobody's approval: the phrase reports a standing vulnerability, and Russian takes «подвержен» rather than «при условии». (подверженный чему-л.; может быть изменён)"
+          ],
+          "examples": [
+            "All fares are subject to change without notice.",
+            "Delivery dates are subject to availability.",
+            "The whole valley is subject to flooding in a wet spring."
+          ]
+        }
+      ],
       "pronunciation note": "stress on the first syllable; the verb subject is /səbˈdʒɛkt/, sub-JEKT",
       "русский": "при условии; с учётом — зависит от согласования, правила или события (перед сущ.)",
       "register": "formal (contracts, offers, schedules)",
@@ -583,9 +696,40 @@
         "There's nothing more I can do short of calling her myself.",
         "Short of an act of Congress, that rule is not changing.",
         "They tried everything short of replacing the engine.",
-        "Short of rewriting the whole chapter, I'm not sure how to fix it."
+        "Short of rewriting the whole chapter, I'm not sure how to fix it.",
+        "We're two chairs short of a full table.",
+        "He's been short of breath since the flu.",
+        "Turnout came in just short of what the campaign needed."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The extreme measure without which nothing changes",
+          "body": [
+            "Names the one step that would be needed and implies that nothing less will do. It takes a noun phrase or an -ing form, never a clause. (разве что; кроме как)"
+          ],
+          "examples": [
+            "Short of a miracle, this bill dies in committee.",
+            "Short of selling the house, I don't see how they cover the bills.",
+            "There's nothing more I can do short of calling her myself.",
+            "Short of an act of Congress, that rule is not changing.",
+            "They tried everything short of replacing the engine.",
+            "Short of rewriting the whole chapter, I'm not sure how to fix it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "\"Not enough of,\" \"less than\" — the ordinary adjective phrase",
+          "body": [
+            "No condition at all: what follows is a supply or a target rather than an action somebody could take. (не хватает; меньше чем)"
+          ],
+          "examples": [
+            "We're two chairs short of a full table.",
+            "He's been short of breath since the flu.",
+            "Turnout came in just short of what the campaign needed."
+          ]
+        }
+      ],
       "pronunciation note": "the /t/ flaps into the vowel of of: [ˈʃɔɹɾ əv]",
       "русский": "разве что; кроме как — крайняя мера, без которой исход не изменить",
       "register": "neutral",
@@ -767,14 +911,54 @@
       "respell": "wut-IF",
       "meaning": "Raises a hypothetical as a proposal or a worry, leaving the consequence for the listener to supply. Tense does the work: What if we leave early? proposes something real, while What if we left early? holds it further away.",
       "examples": [
-        "What if it rains on Saturday?",
         "What if we just told them the truth?",
+        "What if I said I could get you a table at seven?",
+        "What if we moved the whole thing to Sunday?",
+        "What if it rains on Saturday?",
         "What if the flight gets canceled — do we still have the hotel?",
         "She kept asking what if nobody came.",
         "So what if he's ten minutes late? The doors don't open until eight.",
-        "What if I said I could get you a table at seven?"
+        "So what if it's secondhand — it works.",
+        "So what if they disagree? We still have the votes."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A proposal — floating something the speaker might actually do",
+          "body": [
+            "The past tense here is not past time; it holds the suggestion at a polite distance. (а что, если…? — предложение)"
+          ],
+          "examples": [
+            "What if we just told them the truth?",
+            "What if I said I could get you a table at seven?",
+            "What if we moved the whole thing to Sunday?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A worry — the thing that might go wrong",
+          "body": [
+            "The same shape in the opposite mood: nothing is being proposed, a risk is being named, and the consequence is usually left hanging. (а вдруг…?; а если…?)"
+          ],
+          "examples": [
+            "What if it rains on Saturday?",
+            "What if the flight gets canceled — do we still have the hotel?",
+            "She kept asking what if nobody came."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "So what if — brushing the objection aside",
+          "body": [
+            "The fixed dismissive: it grants the fact and denies that it matters. (ну и что с того, что…?; подумаешь)"
+          ],
+          "examples": [
+            "So what if he's ten minutes late? The doors don't open until eight.",
+            "So what if it's secondhand — it works.",
+            "So what if they disagree? We still have the votes."
+          ]
+        }
+      ],
       "pronunciation note": "the /t/ flaps between vowels in fast speech: [wʌɾ ˈɪf]",
       "русский": "а что, если — гипотеза как предложение или как опасение",
       "register": "neutral to informal",
@@ -933,10 +1117,39 @@
         "If only she'd asked, I would have driven her.",
         "If only it were that simple.",
         "If only the rent were two hundred dollars cheaper, I'd take the place.",
+        "If only we'd left an hour earlier.",
         "Call him back, if only to end the argument.",
-        "If only we'd left an hour earlier."
+        "Read the first chapter, if only to see what the fuss is about.",
+        "She still goes to the meetings, if only to keep her name on the list."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wish, carrying the implication that it is not so",
+          "body": [
+            "The verb shifts back one tense: if only I had means I don't, if only I had had means I didn't. It needs no main clause — the regret is the whole sentence. (если бы только; вот бы)"
+          ],
+          "examples": [
+            "If only I had known you were in town.",
+            "If only she'd asked, I would have driven her.",
+            "If only it were that simple.",
+            "If only the rent were two hundred dollars cheaper, I'd take the place.",
+            "If only we'd left an hour earlier."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "if only to — \"even if for no other reason than.\"",
+          "body": [
+            "No wish and no regret: it admits the reason is a thin one and insists it is reason enough. (хотя бы для того, чтобы; пусть даже только ради того, чтобы)"
+          ],
+          "examples": [
+            "Call him back, if only to end the argument.",
+            "Read the first chapter, if only to see what the fuss is about.",
+            "She still goes to the meetings, if only to keep her name on the list."
+          ]
+        }
+      ],
       "русский": "если бы только; вот бы — сожаление или желание о несбывшемся",
       "register": "neutral",
       "type": "subordinating",
@@ -1309,9 +1522,36 @@
         "Write it down; otherwise, you'll forget by morning.",
         "She must have left already — otherwise her coat would still be here.",
         "The tickets are nonrefundable; otherwise, I'd have canceled weeks ago.",
-        "The deadline is firm; we'd otherwise be glad to give you another week."
+        "The deadline is firm; we'd otherwise be glad to give you another week.",
+        "The lights were on; otherwise I'd have assumed nobody was home."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "What will happen if the first statement is not acted on",
+          "body": [
+            "The conjunctive-adverb twin of or else and the mirror of unless. Semicolon or period in front of it; a bare comma there is a splice. (иначе; в противном случае)"
+          ],
+          "examples": [
+            "Take the earlier train; otherwise, you'll miss the opening.",
+            "We need a deposit by Friday. Otherwise, the room goes back into inventory.",
+            "Write it down; otherwise, you'll forget by morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Reasoning backward — \"if that weren't so, …\"",
+          "body": [
+            "Not a warning about the future but an inference about the present: the speaker takes something to be true because the alternative would have left different evidence behind. The second clause carries would. (иначе бы …; а то бы …)"
+          ],
+          "examples": [
+            "She must have left already — otherwise her coat would still be here.",
+            "The tickets are nonrefundable; otherwise, I'd have canceled weeks ago.",
+            "The deadline is firm; we'd otherwise be glad to give you another week.",
+            "The lights were on; otherwise I'd have assumed nobody was home."
+          ]
+        }
+      ],
       "русский": "иначе; в противном случае — наречие-связка, требует точки с запятой перед собой",
       "register": "neutral",
       "type": "conjunctive adverb",

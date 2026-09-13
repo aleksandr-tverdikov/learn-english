@@ -12,17 +12,25 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 ### like
 
 **Pronunciation:** /laɪk/ &middot; *LYK*
-**Русский:** нравиться, понравиться; любить
+**Русский:** нравиться, понравиться; любить; лайкать, лайкнуть; ставить лайк
 **Forms:** *like* &middot; *liked* &middot; *liked*
 **Verb class:** regular
 **Third person:** *likes* &middot; **-ing form:** *liking*
 **Transitivity:** transitive
 
-To find someone or something pleasant or enjoyable.
+Like has 2 distinct senses.
+
+**1. To find someone or something pleasant or enjoyable.** (нравиться, понравиться; любить)
 
 1. I *like* your new haircut.
 2. She *liked* the movie much more than the book.
 3. He has always *liked* working outdoors.
+
+**2. To click the like button on a post, a photo, or a comment.** (лайкать, лайкнуть; ставить лайк)
+
+4. *Like* the video if you want to see more of them.
+5. She *liked* my photo but never left a comment.
+6. The post has been *liked* forty thousand times.
 
 ---
 
@@ -46,18 +54,26 @@ To feel deep affection or very strong liking for someone or something.
 ### enjoy
 
 **Pronunciation:** /ɪnˈdʒɔɪ/ &middot; *in-JOY*
-**Русский:** наслаждаться, получать удовольствие
+**Русский:** наслаждаться, получать удовольствие; обладать, пользоваться (чем-л. хорошим)
 **Forms:** *enjoy* &middot; *enjoyed* &middot; *enjoyed*
 **Verb class:** regular
 **Third person:** *enjoys* &middot; **-ing form:** *enjoying*
 **Transitivity:** transitive
 **Contrast:** Followed by *-ing*, never by *to*: *I enjoy reading*, not *I enjoy to read*.
 
-To get pleasure from something.
+Enjoy has 2 distinct senses.
+
+**1. To get pleasure from something.** (наслаждаться, получать удовольствие)
 
 1. We *enjoy* long walks after dinner.
 2. I *enjoyed* every minute of the concert.
 3. The kids are *enjoying* the warm weather.
+
+**2. To have something good and benefit from it.** (обладать, пользоваться (чем-л. хорошим))
+
+4. At eighty he still *enjoys* excellent health.
+5. The restaurant *enjoyed* a long run of good reviews.
+6. The company has *enjoyed* record profits for three years.
 
 ---
 
@@ -98,17 +114,25 @@ To respect and think highly of someone, or to look at something with pleasure.
 ### appreciate
 
 **Pronunciation:** /əˈpriːʃieɪt/ &middot; *uh-PREE-shee-ayt*
-**Русский:** ценить, оценить; быть благодарным
+**Русский:** ценить, оценить; быть благодарным; расти в цене, дорожать, подорожать
 **Forms:** *appreciate* &middot; *appreciated* &middot; *appreciated*
 **Verb class:** regular
 **Third person:** *appreciates* &middot; **-ing form:** *appreciating*
 **Transitivity:** transitive
 
-To be grateful for something, or to recognize its true value.
+Appreciate has 2 distinct senses.
+
+**1. To be grateful for something, or to recognize its true value.** (ценить, оценить; быть благодарным)
 
 1. I really *appreciate* your help with the move.
 2. She *appreciated* the honest feedback.
 3. He has never *appreciated* how much work goes into it.
+
+**2. To rise in value over time.** (расти в цене, дорожать, подорожать)
+
+4. Homes in this area *appreciate* about four percent a year.
+5. His shares *appreciated* while he was overseas.
+6. The painting has *appreciated* sharply since 2010.
 
 ---
 
@@ -149,17 +173,25 @@ To admire someone's qualities, or to accept their rights and wishes.
 ### value
 
 **Pronunciation:** /ˈvæljuː/ &middot; *VAL-yoo*
-**Русский:** ценить, дорожить
+**Русский:** ценить, дорожить; оценивать, оценить (стоимость)
 **Forms:** *value* &middot; *valued* &middot; *valued*
 **Verb class:** regular
 **Third person:** *values* &middot; **-ing form:** *valuing*
 **Transitivity:** transitive
 
-To consider something important and worth having.
+Value has 2 distinct senses.
+
+**1. To consider something important and worth having.** (ценить, дорожить)
 
 1. We *value* your feedback.
 2. She *valued* his honesty above everything else.
 3. He has always *valued* loyalty in a friend.
+
+**2. To judge how much money something is worth.** (оценивать, оценить (стоимость))
+
+4. An expert will *value* the painting before the auction.
+5. The insurance company *valued* the ring at four thousand dollars.
+6. The house has been *valued* twice this year.
 
 ---
 
@@ -537,18 +569,26 @@ To think about one thing constantly and be unable to stop.
 ### surprise
 
 **Pronunciation:** /sərˈpraɪz/ &middot; *sur-PRYZ*
-**Русский:** удивлять, удивить
+**Русский:** удивлять, удивить; заставать врасплох, застигнуть врасплох
 **Forms:** *surprise* &middot; *surprised* &middot; *surprised*
 **Verb class:** regular
 **Third person:** *surprises* &middot; **-ing form:** *surprising*
 **Transitivity:** transitive
 **Contrast:** *Surprised **by*** an event, *surprised **at*** someone's behavior.
 
-To make someone feel wonder because something was unexpected.
+Surprise has 2 distinct senses.
+
+**1. To make someone feel wonder because something was unexpected.** (удивлять, удивить)
 
 1. Her answer *surprises* nobody.
 2. The ending *surprised* everybody in the theater.
 3. We were *surprised* by how cold it was.
+
+**2. To come upon someone suddenly when they do not expect it.** (заставать врасплох, застигнуть врасплох)
+
+4. The homeowner *surprised* a burglar in the kitchen.
+5. They planned to *surprise* the camp at dawn.
+6. The guards were *surprised* in their sleep.
 
 ---
 
@@ -589,35 +629,51 @@ To surprise someone very greatly.
 ### shock
 
 **Pronunciation:** /ʃɑːk/ &middot; *SHAHK*
-**Русский:** шокировать, потрясти
+**Русский:** шокировать, потрясти; бить током, ударить током
 **Forms:** *shock* &middot; *shocked* &middot; *shocked*
 **Verb class:** regular
 **Third person:** *shocks* &middot; **-ing form:** *shocking*
 **Transitivity:** transitive
 
-To upset or offend someone with something sudden and unexpected.
+Shock has 2 distinct senses.
+
+**1. To upset or offend someone with something sudden and unexpected.** (шокировать, потрясти)
 
 1. Nothing *shocks* her anymore.
 2. The verdict *shocked* the whole town.
 3. They were *shocked* by the price of the tickets.
+
+**2. To give someone a painful jolt of electricity.** (бить током, ударить током)
+
+4. Don't touch that wire, or it will *shock* you.
+5. A frayed cord *shocked* him when he plugged it in.
+6. Two workers were *shocked* by a live cable.
 
 ---
 
 ### stun
 
 **Pronunciation:** /stʌn/ &middot; *STUN*
-**Русский:** ошеломлять, ошеломить
+**Русский:** ошеломлять, ошеломить; оглушать, оглушить; вырубать ударом
 **Forms:** *stun* &middot; *stunned* &middot; *stunned*
 **Verb class:** regular
 **Third person:** *stuns* &middot; **-ing form:** *stunning*
 **Transitivity:** transitive
 **Contrast:** Doubles the *n*: *stunned*, *stunning*.
 
-To surprise someone so much that they cannot react.
+Stun has 2 distinct senses.
+
+**1. To surprise someone so much that they cannot react.** (ошеломлять, ошеломить)
 
 1. The news will *stun* his fans.
 2. Her question *stunned* the whole room.
 3. He sat there, *stunned*, for a full minute.
+
+**2. To knock a person or animal unconscious with a blow or an electric shock.** (оглушать, оглушить; вырубать ударом)
+
+4. The blow to the head *stunned* him for several seconds.
+5. Officers carry devices that *stun* rather than kill.
+6. The bird was *stunned* by the window and lay still on the grass.
 
 ---
 
@@ -644,17 +700,25 @@ To make someone feel admiration.
 ### please
 
 **Pronunciation:** /pliːz/ &middot; *PLEEZ*
-**Русский:** радовать, доставлять удовольствие; угождать
+**Русский:** радовать, доставлять удовольствие; угождать; хотеть, желать; поступать как угодно
 **Forms:** *please* &middot; *pleased* &middot; *pleased*
 **Verb class:** regular
 **Third person:** *pleases* &middot; **-ing form:** *pleasing*
 **Transitivity:** both — transitive (*the gift pleased her*), intransitive (*do as you please*)
 
-To make someone feel happy or satisfied.
+Please has 2 distinct senses.
+
+**1. To make someone feel happy or satisfied.** (радовать, доставлять удовольствие; угождать)
 
 1. Small things *please* him.
 2. The gift *pleased* her enormously.
 3. We were *pleased* to hear the good news.
+
+**2. To want or to choose something, used after words like as, what, and wherever.** (хотеть, желать; поступать как угодно)
+
+4. Sit wherever you *please*.
+5. She has always done exactly as she *pleased*.
+6. You may stay as long as you *please*.
 
 ---
 
@@ -679,18 +743,26 @@ To give someone great pleasure.
 ### satisfy
 
 **Pronunciation:** /ˈsætɪsfaɪ/ &middot; *SAT-is-fy*
-**Русский:** удовлетворять, удовлетворить
+**Русский:** удовлетворять, удовлетворить; удовлетворять (требованиям), соответствовать; выполнять, выполнить (условие)
 **Forms:** *satisfy* &middot; *satisfied* &middot; *satisfied*
 **Verb class:** regular
 **Third person:** *satisfies* &middot; **-ing form:** *satisfying*
 **Transitivity:** transitive
 **Contrast:** The *-y* changes: *satisfies*, *satisfied*, but *satisfying*.
 
-To make someone content by giving them what they want or need.
+Satisfy has 2 distinct senses.
+
+**1. To make someone content by giving them what they want or need.** (удовлетворять, удовлетворить)
 
 1. Nothing I do *satisfies* him.
 2. That answer *satisfied* the committee.
 3. He has never been *satisfied* with second place.
+
+**2. To meet a requirement, a condition, or a standard.** (удовлетворять (требованиям), соответствовать; выполнять, выполнить (условие))
+
+4. Two lab courses *satisfy* the science requirement.
+5. The design *satisfied* every safety rule.
+6. He has *satisfied* all the conditions of his parole.
 
 ---
 
@@ -748,34 +820,56 @@ To make someone smile or laugh, or to keep them pleasantly occupied.
 ### entertain
 
 **Pronunciation:** /ˌɛntərˈteɪn/ &middot; *en-tur-TAYN*
-**Русский:** развлекать, развлечь
+**Русский:** развлекать, развлечь; принимать гостей, устраивать приёмы; рассматривать (предложение); допускать (мысль)
 **Forms:** *entertain* &middot; *entertained* &middot; *entertained*
 **Verb class:** regular
 **Third person:** *entertains* &middot; **-ing form:** *entertaining*
 **Transitivity:** transitive
 
-To keep people interested and enjoying themselves.
+Entertain has 3 distinct senses.
+
+**1. To keep people interested and enjoying themselves.** (развлекать, развлечь)
 
 1. Clowns *entertain* the crowd between acts.
 2. He *entertained* us with stories from the road.
 3. The kids were *entertaining* themselves with a cardboard box.
+
+**2. To have guests in your home and give them food and drink.** (принимать гостей, устраивать приёмы)
+
+4. They *entertain* a lot during the holidays.
+5. We *entertained* twelve people on Thanksgiving.
+6. She has been *entertaining* clients all week.
+
+**3. To consider an idea or an offer seriously.** (рассматривать (предложение); допускать (мысль))
+
+7. The board refused to *entertain* the offer.
+8. He briefly *entertained* the idea of moving to Alaska.
+9. She has never *entertained* the thought of quitting.
 
 ---
 
 ### celebrate
 
 **Pronunciation:** /ˈsɛləbreɪt/ &middot; *SEL-uh-brayt*
-**Русский:** праздновать, отмечать
+**Русский:** праздновать, отмечать; прославлять, воспевать; чествовать
 **Forms:** *celebrate* &middot; *celebrated* &middot; *celebrated*
 **Verb class:** regular
 **Third person:** *celebrates* &middot; **-ing form:** *celebrating*
 **Transitivity:** both — transitive (*celebrate a birthday*), intransitive (*let's celebrate*)
 
-To do something enjoyable to mark a happy event.
+Celebrate has 2 distinct senses.
+
+**1. To do something enjoyable to mark a happy event.** (праздновать, отмечать)
 
 1. We *celebrate* Thanksgiving with my in-laws.
 2. They *celebrated* their anniversary in Chicago.
 3. The whole town was *celebrating* that night.
+
+**2. To praise and honor someone or something publicly.** (прославлять, воспевать; чествовать)
+
+4. The exhibit *celebrates* the women who built the railroad.
+5. His novels *celebrated* ordinary working people.
+6. She has been *celebrated* as one of the great cellists of her generation.
 
 ---
 
@@ -872,34 +966,56 @@ To make someone or something quiet and peaceful again.
 ### relax
 
 **Pronunciation:** /rɪˈlæks/ &middot; *ri-LAKS*
-**Русский:** расслабляться, расслабиться; успокаиваться
+**Русский:** расслабляться, расслабиться; успокаиваться; ослаблять, смягчать (правила, ограничения)
 **Forms:** *relax* &middot; *relaxed* &middot; *relaxed*
 **Verb class:** regular
 **Third person:** *relaxes* &middot; **-ing form:** *relaxing*
 **Transitivity:** both — transitive (*the music relaxes me*), intransitive (*relax for an hour*)
 
-To become or make less tense and worried.
+Relax has 2 distinct senses.
+
+**1. To become or make less tense and worried.** (расслабляться, расслабиться; успокаиваться)
 
 1. I *relax* by walking the dog.
 2. We *relaxed* on the porch all afternoon.
 3. He was finally *relaxing* after a long week.
+
+**2. To make a rule or a restriction less strict.** (ослаблять, смягчать (правила, ограничения))
+
+4. Officials may *relax* the rules next month.
+5. The city *relaxed* its parking limits over the holiday.
+6. Several states are *relaxing* their licensing requirements.
 
 ---
 
 ### inspire
 
 **Pronunciation:** /ɪnˈspaɪər/ &middot; *in-SPYR*
-**Русский:** вдохновлять, воодушевлять
+**Русский:** вдохновлять, воодушевлять; вызывать, вызвать; внушать, внушить (чувство); вдохновлять, вдохновить (послужить источником); навести на мысль
 **Forms:** *inspire* &middot; *inspired* &middot; *inspired*
 **Verb class:** regular
 **Third person:** *inspires* &middot; **-ing form:** *inspiring*
 **Transitivity:** transitive
 
-To fill someone with the desire or the ability to do something.
+Inspire has 3 distinct senses.
+
+**1. To fill someone with the desire or the ability to do something.** (вдохновлять, воодушевлять)
 
 1. Her story *inspires* young athletes.
 2. The trip *inspired* him to learn Spanish.
 3. She has *inspired* a whole generation of writers.
+
+**2. To cause a particular feeling in people, especially confidence or fear.** (вызывать, вызвать; внушать, внушить (чувство))
+
+4. His calm voice *inspires* confidence.
+5. The announcement *inspired* very little trust on Wall Street.
+6. Her steady hands have *inspired* confidence in every patient she treats.
+
+**3. To be the thing that gives someone the idea for a work or a plan.** (вдохновлять, вдохновить (послужить источником); навести на мысль)
+
+7. A trip to Peru *inspired* her first cookbook.
+8. The film was *inspired* by events in a small Ohio town.
+9. Nobody knows what *inspires* his strangest songs.
 
 ---
 
@@ -1060,18 +1176,26 @@ To deliberately make someone angry, or to cause a strong reaction.
 ### whine
 
 **Pronunciation:** /waɪn/ &middot; *WYN*
-**Русский:** ныть, хныкать, жаловаться
+**Русский:** ныть, хныкать, жаловаться; скулить (о животном); подвывать, гудеть (о моторе)
 **Forms:** *whine* &middot; *whined* &middot; *whined*
 **Verb class:** regular
 **Third person:** *whines* &middot; **-ing form:** *whining*
 **Transitivity:** intransitive
 **Contrast:** In American English it sounds exactly like *wine* (the drink).
 
-To complain in an annoying, high, childish voice.
+Whine has 2 distinct senses.
+
+**1. To complain in an annoying, high, childish voice.** (ныть, хныкать, жаловаться)
 
 1. The kids *whine* when they are tired.
 2. He *whined* about the cold for an hour.
 3. Stop *whining* and finish your homework.
+
+**2. For an animal or a machine to make a long, high, unhappy sound.** (скулить (о животном); подвывать, гудеть (о моторе))
+
+4. The dog *whines* whenever we leave the house.
+5. The engine *whined* as the truck climbed the hill.
+6. Something under the hood has been *whining* since Tuesday.
 
 ---
 
@@ -1096,17 +1220,31 @@ To make someone sad by failing to be as good as they hoped.
 ### depress
 
 **Pronunciation:** /dɪˈprɛs/ &middot; *di-PRES*
-**Русский:** угнетать, удручать, расстраивать
+**Русский:** угнетать, удручать, расстраивать; нажимать, нажать (педаль, клавишу); снижать, понижать (цены, спрос); тормозить
 **Forms:** *depress* &middot; *depressed* &middot; *depressed*
 **Verb class:** regular
 **Third person:** *depresses* &middot; **-ing form:** *depressing*
 **Transitivity:** transitive
 
-To make someone feel low and without energy.
+Depress has 3 distinct senses.
+
+**1. To make someone feel low and without energy.** (угнетать, удручать, расстраивать)
 
 1. Gray winters *depress* a lot of people.
 2. The news *depressed* everyone at the table.
 3. He felt *depressed* for weeks after the move.
+
+**2. To press a key, a pedal, or a lever down.** (нажимать, нажать (педаль, клавишу))
+
+4. *Depress* the clutch before you shift.
+5. He *depressed* the brake pedal slowly.
+6. Hold the button *depressed* for five seconds.
+
+**3. To push prices, wages, or activity down to a lower level.** (снижать, понижать (цены, спрос); тормозить)
+
+7. Cheap imports *depress* local wages.
+8. The report *depressed* the stock price.
+9. Higher interest rates have *depressed* home sales.
 
 ---
 
@@ -1166,17 +1304,37 @@ To show and feel sorrow for someone who has died.
 ### miss
 
 **Pronunciation:** /mɪs/ &middot; *MIS*
-**Русский:** скучать, тосковать (по кому-либо)
+**Русский:** скучать, тосковать (по кому-либо); промахиваться, промахнуться; не попадать, не попасть; опаздывать, опоздать (на что-л.); пропускать, пропустить; не замечать, не заметить; упускать, упустить (из виду)
 **Forms:** *miss* &middot; *missed* &middot; *missed*
 **Verb class:** regular
 **Third person:** *misses* &middot; **-ing form:** *missing*
 **Transitivity:** transitive
 
-To feel sad because someone or something is no longer with you.
+Miss has 4 distinct senses.
+
+**1. To feel sad because someone or something is no longer with you.** (скучать, тосковать (по кому-либо))
 
 1. I *miss* my family every single day.
 2. She *missed* her friends terribly that first year.
 3. He has been *missing* his old neighborhood.
+
+**2. To fail to hit, catch, or reach something you aimed at.** (промахиваться, промахнуться; не попадать, не попасть)
+
+4. Aim lower or you will *miss* the target again.
+5. He *missed* the free throw that would have tied the game.
+6. The ball flew past, *missing* the goal by an inch.
+
+**3. To arrive too late for something, or to fail to be there for it.** (опаздывать, опоздать (на что-л.); пропускать, пропустить)
+
+7. Hurry up or we will *miss* the train.
+8. I *missed* the first ten minutes of the movie.
+9. He has *missed* three classes this month.
+
+**4. To fail to notice or understand something.** (не замечать, не заметить; упускать, упустить (из виду))
+
+10. It is easy to *miss* the turn in the dark.
+11. You *missed* the point of the whole story.
+12. I must have *missed* that email.
 
 **Phrasal verbs:** [miss out](56-phrasal-regular-m-p.md#miss-out)
 
@@ -1185,18 +1343,26 @@ To feel sad because someone or something is no longer with you.
 ### cry
 
 **Pronunciation:** /kraɪ/ &middot; *KRY*
-**Русский:** плакать, заплакать
+**Русский:** плакать, заплакать; восклицать, кричать, крикнуть
 **Forms:** *cry* &middot; *cried* &middot; *cried*
 **Verb class:** regular
 **Third person:** *cries* &middot; **-ing form:** *crying*
 **Transitivity:** intransitive
 **Contrast:** The *-y* becomes *-ies* and *-ied*, but stays in *crying*.
 
-To produce tears because of sadness, pain, or strong feeling.
+Cry has 2 distinct senses.
+
+**1. To produce tears because of sadness, pain, or strong feeling.** (плакать, заплакать)
 
 1. Some people *cry* at weddings.
 2. The baby *cried* most of the night.
 3. She has been *crying* since she heard.
+
+**2. To shout or say something loudly.** (восклицать, кричать, крикнуть)
+
+4. "Look out!" he *cried*.
+5. We heard someone *cry* her name.
+6. The fans were *crying* for an encore.
 
 **Phrasal verbs:** [cry out](53-phrasal-regular-a-c.md#cry-out) &middot; [cry out for](53-phrasal-regular-a-c.md#cry-out-for)
 
@@ -1330,52 +1496,76 @@ To confuse someone so much that they don't know what to do.
 ### frustrate
 
 **Pronunciation:** /ˈfrʌstreɪt/ &middot; *FRUS-trayt*
-**Русский:** расстраивать, раздражать; препятствовать
+**Русский:** расстраивать, раздражать; препятствовать; срывать, сорвать; препятствовать, помешать
 **Forms:** *frustrate* &middot; *frustrated* &middot; *frustrated*
 **Verb class:** regular
 **Third person:** *frustrates* &middot; **-ing form:** *frustrating*
 **Transitivity:** transitive
 
-To make someone annoyed because they cannot do what they want.
+Frustrate has 2 distinct senses.
+
+**1. To make someone annoyed because they cannot do what they want.** (расстраивать, раздражать; препятствовать)
 
 1. Slow internet *frustrates* everyone.
 2. The delay *frustrated* the whole team.
 3. He was *frustrated* that nobody would listen.
+
+**2. To stop a plan or an effort from succeeding.** (срывать, сорвать; препятствовать, помешать)
+
+4. High winds *frustrated* the rescue attempt.
+5. The new rules are meant to *frustrate* money laundering.
+6. Their plans have been *frustrated* by a lack of money.
 
 ---
 
 ### bore
 
 **Pronunciation:** /bɔːr/ &middot; *BOR*
-**Русский:** надоедать, наскучить, утомлять
+**Русский:** надоедать, наскучить, утомлять; сверлить, просверлить; бурить, пробурить
 **Forms:** *bore* &middot; *bored* &middot; *bored*
 **Verb class:** regular
 **Third person:** *bores* &middot; **-ing form:** *boring*
 **Transitivity:** transitive
 **Contrast:** This *bore* is regular (*bored*, *boring*); the identical *bore* you may also meet is the past of *bear*.
 
-To make someone lose interest and feel tired of something.
+Bore has 2 distinct senses.
+
+**1. To make someone lose interest and feel tired of something.** (надоедать, наскучить, утомлять)
 
 1. Long speeches *bore* me.
 2. The lecture *bored* half the class to sleep.
 3. She has been *bored* all week.
+
+**2. To make a deep round hole in something with a tool.** (сверлить, просверлить; бурить, пробурить)
+
+4. They *bored* a hole through the wall for the cable.
+5. The company *bores* wells for drinking water.
+6. Crews have been *boring* a tunnel under the river since spring.
 
 ---
 
 ### overwhelm
 
 **Pronunciation:** /ˌoʊvərˈwɛlm/ &middot; *oh-vur-WELM*
-**Русский:** переполнять, ошеломлять, подавлять
+**Русский:** переполнять, ошеломлять, подавлять; сокрушать, сокрушить; подавлять численным превосходством
 **Forms:** *overwhelm* &middot; *overwhelmed* &middot; *overwhelmed*
 **Verb class:** regular
 **Third person:** *overwhelms* &middot; **-ing form:** *overwhelming*
 **Transitivity:** transitive
 
-To affect someone so strongly that they cannot cope.
+Overwhelm has 2 distinct senses.
+
+**1. To affect someone so strongly that they cannot cope.** (переполнять, ошеломлять, подавлять)
 
 1. Big crowds *overwhelm* him.
 2. The response *overwhelmed* the little shop.
 3. She was *overwhelmed* by all the messages.
+
+**2. To defeat someone completely by greater force or numbers.** (сокрушать, сокрушить; подавлять численным превосходством)
+
+4. A larger force will *overwhelm* the defenders.
+5. The troops *overwhelmed* the outpost in an hour.
+6. The small garrison was quickly *overwhelmed*.
 
 ---
 
@@ -1487,17 +1677,25 @@ To please and win someone over with pleasant manners.
 ### flatter
 
 **Pronunciation:** /ˈflætər/ &middot; *FLAT-ur*
-**Русский:** льстить, польстить
+**Русский:** льстить, польстить; быть к лицу, идти (об одежде, причёске); выгодно подчёркивать
 **Forms:** *flatter* &middot; *flattered* &middot; *flattered*
 **Verb class:** regular
 **Third person:** *flatters* &middot; **-ing form:** *flattering*
 **Transitivity:** transitive
 
-To praise someone more than they deserve, often to please them.
+Flatter has 2 distinct senses.
+
+**1. To praise someone more than they deserve, often to please them.** (льстить, польстить)
 
 1. Don't *flatter* me — just tell me the truth.
 2. His compliment *flattered* her.
 3. She was *flattered* to be asked.
+
+**2. To make someone look more attractive than they usually do.** (быть к лицу, идти (об одежде, причёске); выгодно подчёркивать)
+
+4. That color really *flatters* you.
+5. The old photograph *flattered* him.
+6. This lighting isn't *flattering* anyone.
 
 ---
 
@@ -1591,18 +1789,26 @@ To want what someone else has, and feel unhappy about not having it.
 ### hug
 
 **Pronunciation:** /hʌɡ/ &middot; *HUG*
-**Русский:** обнимать, обнять
+**Русский:** обнимать, обнять; держаться вплотную, идти вдоль (берега, дороги)
 **Forms:** *hug* &middot; *hugged* &middot; *hugged*
 **Verb class:** regular
 **Third person:** *hugs* &middot; **-ing form:** *hugging*
 **Transitivity:** both — transitive (*hug your mom*), intransitive (*they hugged*)
 **Contrast:** Doubles the *g*: *hugged*, *hugging*.
 
-To hold someone close with your arms to show affection.
+Hug has 2 distinct senses.
+
+**1. To hold someone close with your arms to show affection.** (обнимать, обнять)
 
 1. The kids *hug* their grandpa at the door.
 2. She *hugged* me for a long time.
 3. They were *hugging* and crying at the gate.
+
+**2. To stay very close to the edge or surface of something.** (держаться вплотную, идти вдоль (берега, дороги))
+
+4. The road *hugs* the coastline for twenty miles.
+5. The little car *hugged* the curves all the way down.
+6. Fog was *hugging* the ground when we set out.
 
 ---
 
@@ -1628,17 +1834,25 @@ To touch someone with your lips to show love or greeting.
 ### tolerate
 
 **Pronunciation:** /ˈtɑːləreɪt/ &middot; *TAH-luh-rayt*
-**Русский:** терпеть, выносить; мириться
+**Русский:** терпеть, выносить; мириться; переносить, перенести (лекарство, условия)
 **Forms:** *tolerate* &middot; *tolerated* &middot; *tolerated*
 **Verb class:** regular
 **Third person:** *tolerates* &middot; **-ing form:** *tolerating*
 **Transitivity:** transitive
 
-To accept something unpleasant without complaining or stopping it.
+Tolerate has 2 distinct senses.
+
+**1. To accept something unpleasant without complaining or stopping it.** (терпеть, выносить; мириться)
 
 1. I can't *tolerate* rudeness.
 2. She *tolerated* the noise for a month before calling the landlord.
 3. He has *tolerated* far worse than this.
+
+**2. To be able to take a drug, a food, or hard conditions without being harmed.** (переносить, перенести (лекарство, условия))
+
+4. Some patients cannot *tolerate* this antibiotic.
+5. She *tolerated* the first round of treatment better than her doctors expected.
+6. These shrubs are known for *tolerating* drought and poor soil.
 
 ---
 
@@ -1662,18 +1876,26 @@ To suffer something difficult patiently, or to last a long time.
 ### mind
 
 **Pronunciation:** /maɪnd/ &middot; *MYND*
-**Русский:** возражать, быть против
+**Русский:** возражать, быть против; присматривать, присмотреть (за кем-л., чем-л.)
 **Forms:** *mind* &middot; *minded* &middot; *minded*
 **Verb class:** regular
 **Third person:** *minds* &middot; **-ing form:** *minding*
 **Transitivity:** both — transitive (*I don't mind the cold*), intransitive (*if you don't mind*)
 **Contrast:** *Do you mind if…?* — answering *no* means 'go ahead'.
 
-To feel annoyed or bothered by something.
+Mind has 2 distinct senses.
+
+**1. To feel annoyed or bothered by something.** (возражать, быть против)
 
 1. I don't *mind* the cold.
 2. She never *minded* driving at night.
 3. Would you *mind* closing the window?
+
+**2. To take care of someone or something for a short time.** (присматривать, присмотреть (за кем-л., чем-л.))
+
+4. Could you *mind* the baby while I run to the store?
+5. She *minded* the front desk during lunch.
+6. He has been *minding* his neighbor's dog all week.
 
 ---
 
@@ -1769,17 +1991,25 @@ To shake suddenly from fear, cold, or disgust.
 ### haunt
 
 **Pronunciation:** /hɔːnt/ &middot; *HAWNT*
-**Русский:** преследовать, не давать покоя
+**Русский:** преследовать, не давать покоя; являться, обитать (о призраке); водиться (о привидениях)
 **Forms:** *haunt* &middot; *haunted* &middot; *haunted*
 **Verb class:** regular
 **Third person:** *haunts* &middot; **-ing form:** *haunting*
 **Transitivity:** transitive
 
-To keep coming back into someone's mind in a troubling way.
+Haunt has 2 distinct senses.
+
+**1. To keep coming back into someone's mind in a troubling way.** (преследовать, не давать покоя)
 
 1. Those images still *haunt* me.
 2. The accident *haunted* him for years.
 3. She has been *haunted* by that decision ever since.
+
+**2. To appear in a place again and again, said of a ghost.** (являться, обитать (о призраке); водиться (о привидениях))
+
+4. They say a sailor *haunts* the old lighthouse.
+5. The inn is supposed to be *haunted*.
+6. Something *haunted* that house long before we bought it.
 
 ---
 
@@ -1821,17 +2051,25 @@ To cause someone great mental or physical suffering, often repeatedly.
 ### disturb
 
 **Pronunciation:** /dɪˈstɜːrb/ &middot; *di-STURB*
-**Русский:** беспокоить, тревожить; нарушать покой
+**Русский:** беспокоить, тревожить; нарушать покой; трогать, сдвигать (с места); нарушать (порядок вещей)
 **Forms:** *disturb* &middot; *disturbed* &middot; *disturbed*
 **Verb class:** regular
 **Third person:** *disturbs* &middot; **-ing form:** *disturbing*
 **Transitivity:** transitive
 
-To interrupt someone, or to make them feel uneasy.
+Disturb has 2 distinct senses.
+
+**1. To interrupt someone, or to make them feel uneasy.** (беспокоить, тревожить; нарушать покой)
 
 1. Please don't *disturb* her while she is resting.
 2. The dream *disturbed* him all day.
 3. We were *disturbed* by what we saw on the tape.
+
+**2. To move or touch something so that it is no longer as it was.** (трогать, сдвигать (с места); нарушать (порядок вещей))
+
+4. Nothing in the room had been *disturbed*.
+5. Please do not *disturb* the nests along the trail.
+6. The dog kept *disturbing* the neatly raked gravel.
 
 ---
 

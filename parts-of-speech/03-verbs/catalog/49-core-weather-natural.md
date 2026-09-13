@@ -30,17 +30,25 @@ To fall as a mix of rain and partly frozen snow.
 ### shower
 
 **Pronunciation:** /ˈʃaʊər/ &middot; *SHOW-ur*
-**Русский:** идти (о кратком дожде); осыпать, засыпать (чем-л.)
+**Русский:** идти (о кратком дожде); осыпать, засыпать (чем-л.); принимать душ, принять душ; мыться под душем
 **Forms:** *shower* &middot; *showered* &middot; *showered*
 **Verb class:** regular
 **Third person:** *showers* &middot; **-ing form:** *showering*
 **Transitivity:** both — transitive (ash *showered* the rooftops), intransitive (it *showered* twice)
 
-To rain briefly, or to fall on something in a thick scatter.
+Shower has 2 distinct senses.
+
+**1. To rain briefly, or to fall on something in a thick scatter.** (идти (о кратком дожде); осыпать, засыпать (чем-л.))
 
 1. In Florida it *showers* nearly every afternoon in the summer.
 2. It *showered* twice while we were driving home.
 3. Ash was still *showering* the rooftops a day after the eruption.
+
+**2. To wash yourself under a shower.** (принимать душ, принять душ; мыться под душем)
+
+4. I *shower* every morning before work.
+5. She *showered* and changed before dinner.
+6. He was *showering* when the phone rang.
 
 ---
 
@@ -64,18 +72,26 @@ To cover something with a fine spray of water, or to become covered with one.
 ### thunder
 
 **Pronunciation:** /ˈθʌndər/ &middot; *THUN-dur*
-**Русский:** греметь (о громе), грохотать
+**Русский:** греметь (о громе), грохотать; кричать громовым голосом, рявкнуть, прогреметь
 **Forms:** *thunder* &middot; *thundered* &middot; *thundered*
 **Verb class:** regular
 **Third person:** *thunders* &middot; **-ing form:** *thundering*
 **Transitivity:** intransitive
 **Contrast:** The weather sense takes the empty subject *it*: *It thundered for an hour*.
 
-To make the deep rolling noise that follows lightning, or a noise like it.
+Thunder has 2 distinct senses.
+
+**1. To make the deep rolling noise that follows lightning, or a noise like it.** (греметь (о громе), грохотать)
 
 1. When it *thunders*, the dog hides under the bed.
 2. It *thundered* all night and nobody slept.
 3. Trucks were *thundering* past the house every few minutes.
+
+**2. To say something in a loud, angry voice.** (кричать громовым голосом, рявкнуть, прогреметь)
+
+4. The coach *thundered* at the referee from the sideline.
+5. He would *thunder* at us whenever the shop was messy.
+6. Her father was still *thundering* about the phone bill.
 
 ---
 
@@ -116,18 +132,26 @@ To strike something again and again with rain, hail, or thrown objects.
 ### lash
 
 **Pronunciation:** /læʃ/ &middot; *LASH*
-**Русский:** хлестать, обрушиваться (на что-л.)
+**Русский:** хлестать, обрушиваться (на что-л.); привязывать, привязать (верёвкой); крепить, закрепить
 **Forms:** *lash* &middot; *lashed* &middot; *lashed*
 **Verb class:** regular
 **Third person:** *lashes* &middot; **-ing form:** *lashing*
 **Transitivity:** both — transitive (rain *lashed* the windows), intransitive (waves *lashed* against the pier)
 **Contrast:** Ends in *-sh*, so the third-person form adds *-es*: *lashes*.
 
-To hit something hard and repeatedly, the way wind-driven rain does.
+Lash has 2 distinct senses.
+
+**1. To hit something hard and repeatedly, the way wind-driven rain does.** (хлестать, обрушиваться (на что-л.))
 
 1. Winter storms *lash* this stretch of coast every year.
 2. Rain *lashed* the windows until well after midnight.
 3. Wind-driven rain was *lashing* the tents by the time we got back.
+
+**2. To tie something firmly in place with rope.** (привязывать, привязать (верёвкой); крепить, закрепить)
+
+4. They *lashed* the kayaks to the roof of the car.
+5. *Lash* the boxes down before we hit the highway.
+6. The crew had *lashed* everything to the deck.
 
 **Phrasal verbs:** [lash out](55-phrasal-regular-g-l.md#lash-out)
 
@@ -136,17 +160,25 @@ To hit something hard and repeatedly, the way wind-driven rain does.
 ### pound
 
 **Pronunciation:** /paʊnd/ &middot; *POWND*
-**Русский:** колотить, бить; обрушиваться (волнами, дождём)
+**Русский:** колотить, бить; обрушиваться (волнами, дождём); колотиться, сильно биться (о сердце); раскалываться, ныть (о голове)
 **Forms:** *pound* &middot; *pounded* &middot; *pounded*
 **Verb class:** regular
 **Third person:** *pounds* &middot; **-ing form:** *pounding*
 **Transitivity:** both — transitive (waves *pound* the seawall), intransitive (the rain *pounded* down)
 
-To hit something hard, heavily, and over and over.
+Pound has 2 distinct senses.
+
+**1. To hit something hard, heavily, and over and over.** (колотить, бить; обрушиваться (волнами, дождём))
 
 1. Surf *pounds* the seawall whenever a storm comes through.
 2. Rain *pounded* the roof for three straight hours.
 3. Waves were still *pounding* the beach a day after the hurricane.
+
+**2. To beat hard and fast, said of your heart, or to throb with pain, said of your head.** (колотиться, сильно биться (о сердце); раскалываться, ныть (о голове))
+
+4. My heart was *pounding* as I walked out on stage.
+5. His head *pounded* all afternoon.
+6. I could feel my pulse *pound* in my ears.
 
 ---
 
@@ -171,35 +203,51 @@ To cover a whole area in an even layer of something.
 ### bury
 
 **Pronunciation:** /ˈbɛri/ &middot; *BER-ee*
-**Русский:** засыпать (снегом), заносить; хоронить, похоронить
+**Русский:** засыпать (снегом), заносить; хоронить, похоронить; хоронить, похоронить; погребать
 **Forms:** *bury* &middot; *buried* &middot; *buried*
 **Verb class:** regular
 **Third person:** *buries* &middot; **-ing form:** *burying*
 **Transitivity:** transitive
 **Contrast:** Spelled with a u but pronounced like *berry*: BER-ee. The y becomes ie in *buries* and *buried*, but stays in *burying*.
 
-To cover something completely so that it cannot be seen.
+Bury has 2 distinct senses.
+
+**1. To cover something completely so that it cannot be seen.** (засыпать (снегом), заносить; хоронить, похоронить)
 
 1. Drifts *bury* the mailbox every January.
 2. The avalanche *buried* two cabins on the lower slope.
 3. Half the town is still *buried* under three feet of snow.
+
+**2. To put a dead body in the ground or in a tomb at a funeral.** (хоронить, похоронить; погребать)
+
+4. They *buried* him next to his wife.
+5. The family will *bury* her on Saturday.
+6. He is *buried* in a small cemetery outside town.
 
 ---
 
 ### cloud
 
 **Pronunciation:** /klaʊd/ &middot; *KLOWD*
-**Русский:** заволакивать(ся) облаками, затуманивать(ся)
+**Русский:** заволакивать(ся) облаками, затуманивать(ся); затуманивать, помрачать (рассудок); мешать трезво судить
 **Forms:** *cloud* &middot; *clouded* &middot; *clouded*
 **Verb class:** regular
 **Third person:** *clouds* &middot; **-ing form:** *clouding*
 **Transitivity:** both — transitive (steam *clouded* the mirror), intransitive (the sky *clouded*)
 
-To fill or cover something with cloud, steam, or smoke so that it is hard to see through.
+Cloud has 2 distinct senses.
+
+**1. To fill or cover something with cloud, steam, or smoke so that it is hard to see through.** (заволакивать(ся) облаками, затуманивать(ся))
 
 1. Steam from the kettle *clouds* the window in seconds.
 2. The sky *clouded* just after noon and the wind picked up.
 3. Smoke from the wildfires has *clouded* the whole valley.
+
+**2. To make someone's thinking or judgment less clear.** (затуманивать, помрачать (рассудок); мешать трезво судить)
+
+4. Fear can *cloud* your judgment.
+5. Anger *clouded* his thinking that night.
+6. He admitted that grief had *clouded* the decision.
 
 **Phrasal verbs:** [cloud over](53-phrasal-regular-a-c.md#cloud-over)
 
@@ -296,18 +344,32 @@ To leave someone stuck in a place they cannot get out of.
 ### slam
 
 **Pronunciation:** /slæm/ &middot; *SLAM*
-**Русский:** обрушиваться, обрушиться (на); с силой ударять
+**Русский:** обрушиваться, обрушиться (на); с силой ударять; хлопать, хлопнуть (дверью); захлопывать, захлопнуть; резко критиковать, раскритиковать, разносить
 **Forms:** *slam* &middot; *slammed* &middot; *slammed*
 **Verb class:** regular
 **Third person:** *slams* &middot; **-ing form:** *slamming*
 **Transitivity:** both — transitive (the wind *slammed* the door), intransitive (the storm *slammed* into the coast)
 **Contrast:** One vowel plus one final consonant, so the m doubles: *slammed*, *slamming*.
 
-To hit something with sudden violent force.
+Slam has 3 distinct senses.
+
+**1. To hit something with sudden violent force.** (обрушиваться, обрушиться (на); с силой ударять)
 
 1. When a nor'easter *slams* the coast, the ferries stop running.
 2. The hurricane *slammed* into Louisiana just after midnight.
 3. Wind was *slamming* the screen door all night.
+
+**2. To shut a door or lid violently, with a loud bang.** (хлопать, хлопнуть (дверью); захлопывать, захлопнуть)
+
+4. She *slammed* the door and drove off.
+5. Please don't *slam* the screen door.
+6. He was *slamming* cabinets around the kitchen.
+
+**3. To criticize someone or something very harshly in public.** (резко критиковать, раскритиковать, разносить)
+
+7. Critics *slammed* the movie as lazy and predictable.
+8. The governor has been *slamming* the plan all week.
+9. Reporters will *slam* him for that answer.
 
 ---
 
@@ -402,18 +464,26 @@ To move gently through the air, or to carry something gently through it.
 ### spiral
 
 **Pronunciation:** /ˈspaɪrəl/ &middot; *SPY-ruhl*
-**Русский:** двигаться по спирали, закручиваться спиралью
+**Русский:** двигаться по спирали, закручиваться спиралью; стремительно расти, выходить из-под контроля (о ценах, долгах)
 **Forms:** *spiral* &middot; *spiraled* &middot; *spiraled*
 **Verb class:** regular
 **Third person:** *spirals* &middot; **-ing form:** *spiraling*
 **Transitivity:** intransitive
 **Contrast:** American English keeps one l: *spiraled*, *spiraling*; British English writes *spiralled*.
 
-To move in a curve that winds around a center, going up or down.
+Spiral has 2 distinct senses.
+
+**1. To move in a curve that winds around a center, going up or down.** (двигаться по спирали, закручиваться спиралью)
 
 1. Warm air *spirals* upward and gives the storm its shape.
 2. A hawk *spiraled* over the field for ten minutes.
 3. Smoke was *spiraling* out of the chimney into a still sky.
+
+**2. To increase or get worse quickly and without control.** (стремительно расти, выходить из-под контроля (о ценах, долгах))
+
+4. Costs can *spiral* if the work is delayed.
+5. Her debts *spiraled* after she lost the job.
+6. Rents have been *spiraling* for three years.
 
 ---
 
@@ -489,18 +559,26 @@ To sink back down to a normal level, or to grow quiet again.
 ### solidify
 
 **Pronunciation:** /səˈlɪdəfaɪ/ &middot; *suh-LID-uh-fy*
-**Русский:** затвердевать, затвердеть; застывать, застыть
+**Русский:** затвердевать, затвердеть; застывать, застыть; укреплять, укрепить; закреплять, закрепить (позицию, договорённость)
 **Forms:** *solidify* &middot; *solidified* &middot; *solidified*
 **Verb class:** regular
 **Third person:** *solidifies* &middot; **-ing form:** *solidifying*
 **Transitivity:** both — transitive (cold *solidifies* the fat), intransitive (the lava *solidified*)
 **Contrast:** The y becomes ie before -es and -ed: *solidifies*, *solidified*, but *solidifying*.
 
-To become hard and solid, or to make something do that.
+Solidify has 2 distinct senses.
+
+**1. To become hard and solid, or to make something do that.** (затвердевать, затвердеть; застывать, застыть)
 
 1. Lava *solidifies* into black rock as soon as it hits the water.
 2. The grease *solidified* in the cold pan overnight.
 3. New land is *solidifying* where the flow reaches the sea.
+
+**2. To make a position, an agreement, or support stronger and more definite.** (укреплять, укрепить; закреплять, закрепить (позицию, договорённость))
+
+4. The win *solidified* their lead in the division.
+5. A second meeting should *solidify* the deal.
+6. Support for the bill has *solidified* since the hearings.
 
 ---
 
@@ -647,17 +725,25 @@ To become less bright, or to make something less bright.
 ### darken
 
 **Pronunciation:** /ˈdɑːrkən/ &middot; *DAR-kuhn*
-**Русский:** темнеть, потемнеть; затемнять, затемнить
+**Русский:** темнеть, потемнеть; затемнять, затемнить; мрачнеть, помрачнеть
 **Forms:** *darken* &middot; *darkened* &middot; *darkened*
 **Verb class:** regular
 **Third person:** *darkens* &middot; **-ing form:** *darkening*
 **Transitivity:** both — transitive (clouds *darkened* the room), intransitive (the sky *darkened*)
 
-To become dark, or to make something dark.
+Darken has 2 distinct senses.
+
+**1. To become dark, or to make something dark.** (темнеть, потемнеть; затемнять, затемнить)
 
 1. The sky *darkens* long before the rain actually arrives.
 2. Clouds *darkened* the whole afternoon.
 3. It was *darkening* in the west, so we packed up and left.
+
+**2. Of a face or a mood, to become angry or unhappy.** (мрачнеть, помрачнеть)
+
+4. His face *darkened* when he heard the name.
+5. Her mood *darkens* every time the subject comes up.
+6. The room went quiet, his expression *darkening*.
 
 ---
 
@@ -721,18 +807,26 @@ To reach the highest point before going back down.
 ### crystallize
 
 **Pronunciation:** /ˈkrɪstəlaɪz/ &middot; *KRIS-tuh-lyz*
-**Русский:** кристаллизоваться; засахариваться
+**Русский:** кристаллизоваться; засахариваться; оформляться, выкристаллизовываться, сложиться
 **Forms:** *crystallize* &middot; *crystallized* &middot; *crystallized*
 **Verb class:** regular
 **Third person:** *crystallizes* &middot; **-ing form:** *crystallizing*
 **Transitivity:** both — transitive (cold *crystallizes* the honey), intransitive (frost *crystallized* on the glass)
 **Contrast:** Double l even in American spelling: *crystallize*; British English writes *crystallise*.
 
-To form crystals, or to make something form them.
+Crystallize has 2 distinct senses.
+
+**1. To form crystals, or to make something form them.** (кристаллизоваться; засахариваться)
 
 1. Frost *crystallizes* on the windows overnight.
 2. The honey *crystallized* in the cold pantry.
 3. Ice was *crystallizing* along the whole edge of the pond.
+
+**2. To become clear and definite, said of ideas or plans.** (оформляться, выкристаллизовываться, сложиться)
+
+4. The plan *crystallized* over dinner.
+5. It took months for his ideas to *crystallize*.
+6. Opposition is *crystallizing* into a real movement.
 
 ---
 
@@ -773,17 +867,25 @@ To flood a place with a huge amount of water, or with a huge amount of anything.
 ### swamp
 
 **Pronunciation:** /swɑːmp/ &middot; *SWAHMP*
-**Русский:** затоплять, затопить; заливать водой
+**Русский:** затоплять, затопить; заливать водой; заваливать (работой, звонками), перегружать, завалить
 **Forms:** *swamp* &middot; *swamped* &middot; *swamped*
 **Verb class:** regular
 **Third person:** *swamps* &middot; **-ing form:** *swamping*
 **Transitivity:** transitive
 
-To fill or cover something with water so that it cannot function.
+Swamp has 2 distinct senses.
+
+**1. To fill or cover something with water so that it cannot function.** (затоплять, затопить; заливать водой)
 
 1. A wave like that can *swamp* a small boat in seconds.
 2. The storm *swamped* dozens of basements on the east side.
 3. We were *swamped* with water in about ten minutes.
+
+**2. To give someone far more work, calls, or requests than they can handle.** (заваливать (работой, звонками), перегружать, завалить)
+
+4. Complaints *swamped* the customer service line.
+5. I'm *swamped* until Friday.
+6. One bad review can *swamp* a small shop with questions.
 
 ---
 
@@ -875,35 +977,51 @@ To reach the top or the highest level.
 ### breach
 
 **Pronunciation:** /briːtʃ/ &middot; *BREECH*
-**Русский:** прорывать, прорвать (дамбу); пробивать брешь
+**Русский:** прорывать, прорвать (дамбу); пробивать брешь; нарушать, нарушить (договор, закон)
 **Forms:** *breach* &middot; *breached* &middot; *breached*
 **Verb class:** regular
 **Third person:** *breaches* &middot; **-ing form:** *breaching*
 **Transitivity:** both — transitive (water *breached* the levee), intransitive (the dike *breached*)
 **Contrast:** Ends in *-ch*, so the third-person form adds *-es*: *breaches*.
 
-To break through a wall, a dam, or a barrier.
+Breach has 2 distinct senses.
+
+**1. To break through a wall, a dam, or a barrier.** (прорывать, прорвать (дамбу); пробивать брешь)
 
 1. A surge that high can *breach* the levee in an hour.
 2. Floodwater *breached* the dike in two places.
 3. The dam had already been *breached* when the sirens went off.
+
+**2. To break a law, a contract, or an agreement.** (нарушать, нарушить (договор, закон))
+
+4. The company *breached* the contract by missing the deadline.
+5. Sharing the file would *breach* the agreement.
+6. He has *breached* the terms of his parole twice.
 
 ---
 
 ### gush
 
 **Pronunciation:** /ɡʌʃ/ &middot; *GUSH*
-**Русский:** хлестать, хлынуть; бить струёй
+**Русский:** хлестать, хлынуть; бить струёй; рассыпаться в похвалах, восторженно расписывать
 **Forms:** *gush* &middot; *gushed* &middot; *gushed*
 **Verb class:** regular
 **Third person:** *gushes* &middot; **-ing form:** *gushing*
 **Transitivity:** intransitive
 
-To flow out fast and in large amounts.
+Gush has 2 distinct senses.
+
+**1. To flow out fast and in large amounts.** (хлестать, хлынуть; бить струёй)
 
 1. Water *gushes* out of the culvert after every storm.
 2. Mud *gushed* down the hillside and across the road.
 3. A broken main was *gushing* into the street all morning.
+
+**2. To speak or write about something with too much enthusiasm.** (рассыпаться в похвалах, восторженно расписывать)
+
+4. She *gushed* about the wedding for twenty minutes.
+5. Critics are *gushing* over the new album.
+6. Fans *gush* every time he posts a photo.
 
 **Phrasal verbs:** [gush over](55-phrasal-regular-g-l.md#gush-over)
 
@@ -912,17 +1030,25 @@ To flow out fast and in large amounts.
 ### ooze
 
 **Pronunciation:** /uːz/ &middot; *OOZ*
-**Русский:** сочиться, просачиваться; медленно вытекать
+**Русский:** сочиться, просачиваться; медленно вытекать; источать, излучать (уверенность, обаяние)
 **Forms:** *ooze* &middot; *oozed* &middot; *oozed*
 **Verb class:** regular
 **Third person:** *oozes* &middot; **-ing form:** *oozing*
 **Transitivity:** both — transitive (the tree *oozes* sap), intransitive (mud *oozed* over the walk)
 
-To flow out slowly and thickly.
+Ooze has 2 distinct senses.
+
+**1. To flow out slowly and thickly.** (сочиться, просачиваться; медленно вытекать)
 
 1. Sap *oozes* from the cut branches every spring.
 2. Mud *oozed* across the sidewalk after the slide.
 3. Lava was still *oozing* from the fissure a month later.
+
+**2. To show a quality very strongly.** (источать, излучать (уверенность, обаяние))
+
+4. He *oozes* confidence in every interview.
+5. The old hotel *oozed* charm.
+6. She walked in *oozing* self-assurance.
 
 ---
 
@@ -1017,17 +1143,25 @@ To produce a mass of small white bubbles.
 ### pool
 
 **Pronunciation:** /puːl/ &middot; *POOL*
-**Русский:** скапливаться, скопиться (о жидкости)
+**Русский:** скапливаться, скопиться (о жидкости); объединять, объединить (средства, усилия); складываться
 **Forms:** *pool* &middot; *pooled* &middot; *pooled*
 **Verb class:** regular
 **Third person:** *pools* &middot; **-ing form:** *pooling*
 **Transitivity:** both — transitive (they *pooled* the runoff), intransitive (rain *pooled* in the yard)
 
-To collect in one low place instead of draining away.
+Pool has 2 distinct senses.
+
+**1. To collect in one low place instead of draining away.** (скапливаться, скопиться (о жидкости))
 
 1. Rain *pools* in the low corner of the yard every spring.
 2. Water *pooled* on the flat roof and started coming through.
 3. Meltwater was *pooling* around the storm drain.
+
+**2. To put money, effort, or knowledge together with other people so that everyone can use it.** (объединять, объединить (средства, усилия); складываться)
+
+4. Let's *pool* our money and buy one big gift.
+5. The families *pooled* their savings to buy the land.
+6. Data is *pooled* from all three hospitals.
 
 ---
 
@@ -1051,18 +1185,26 @@ To follow a long winding course instead of a straight one.
 ### channel
 
 **Pronunciation:** /ˈtʃænəl/ &middot; *CHAN-uhl*
-**Русский:** направлять (по руслу), отводить; пускать по каналу
+**Русский:** направлять (по руслу), отводить; пускать по каналу; направлять, направить (средства, силы); вкладывать
 **Forms:** *channel* &middot; *channeled* &middot; *channeled*
 **Verb class:** regular
 **Third person:** *channels* &middot; **-ing form:** *channeling*
 **Transitivity:** transitive
 **Contrast:** American English keeps one l: *channeled*, *channeling*; British English writes *channelled*.
 
-To send water or another flow along a particular path.
+Channel has 2 distinct senses.
+
+**1. To send water or another flow along a particular path.** (направлять (по руслу), отводить; пускать по каналу)
 
 1. These ditches *channel* runoff away from the houses.
 2. The town *channeled* the creek into a concrete culvert back in the 1950s.
 3. Storm drains were *channeling* the water straight into the river.
+
+**2. To direct money, effort, or feeling toward one particular purpose.** (направлять, направить (средства, силы); вкладывать)
+
+4. She *channeled* her grief into her work.
+5. The city *channels* most of the tax money into schools.
+6. Funds were being *channeled* through a small charity.
 
 ---
 
@@ -1226,17 +1368,25 @@ To make a long, low, rolling sound.
 ### jolt
 
 **Pronunciation:** /dʒoʊlt/ &middot; *JOHLT*
-**Русский:** трясти, встряхнуть; резко толкнуть
+**Русский:** трясти, встряхнуть; резко толкнуть; потрясать, потрясти; встряхивать, встряхнуть (заставить очнуться)
 **Forms:** *jolt* &middot; *jolted* &middot; *jolted*
 **Verb class:** regular
 **Third person:** *jolts* &middot; **-ing form:** *jolting*
 **Transitivity:** transitive
 
-To shake or shove something suddenly and hard.
+Jolt has 2 distinct senses.
+
+**1. To shake or shove something suddenly and hard.** (трясти, встряхнуть; резко толкнуть)
 
 1. An aftershock like that *jolts* the whole building.
 2. A 5.2 quake *jolted* the Bay Area before dawn.
 3. We were *jolted* awake at four in the morning.
+
+**2. To shock someone suddenly, often into acting.** (потрясать, потрясти; встряхивать, встряхнуть (заставить очнуться))
+
+4. The news *jolted* the whole company.
+5. It took a failing grade to *jolt* him into studying.
+6. Voters were *jolted* by the sudden resignation.
 
 ---
 
@@ -1314,17 +1464,25 @@ To come through a hard time without breaking, or to be worn and changed by the o
 ### gouge
 
 **Pronunciation:** /ɡaʊdʒ/ &middot; *GOWJ*
-**Русский:** выдалбливать, выдолбить; прорезать (углубление)
+**Русский:** выдалбливать, выдолбить; прорезать (углубление); драть втридорога, обдирать, заламывать цену
 **Forms:** *gouge* &middot; *gouged* &middot; *gouged*
 **Verb class:** regular
 **Third person:** *gouges* &middot; **-ing form:** *gouging*
 **Transitivity:** transitive
 
-To cut or scrape a deep groove or hole in a surface.
+Gouge has 2 distinct senses.
+
+**1. To cut or scrape a deep groove or hole in a surface.** (выдалбливать, выдолбить; прорезать (углубление))
 
 1. Glaciers *gouge* deep valleys out of solid rock.
 2. The flood *gouged* a channel right across the field.
 3. Ice was *gouging* the bank on the outside of the bend.
+
+**2. To charge someone a grossly unfair price.** (драть втридорога, обдирать, заламывать цену)
+
+4. Hotels *gouged* travelers the week after the storm.
+5. State law bars stores from *gouging* customers during an emergency.
+6. Shops near the pier *gouge* tourists all summer.
 
 ---
 
@@ -1348,17 +1506,25 @@ To lean to one side instead of standing straight, or to make something lean.
 ### flake
 
 **Pronunciation:** /fleɪk/ &middot; *FLAYK*
-**Русский:** отслаиваться, шелушиться, осыпаться
+**Русский:** отслаиваться, шелушиться, осыпаться; не прийти, подвести; соскочить, кинуть (разг.)
 **Forms:** *flake* &middot; *flaked* &middot; *flaked*
 **Verb class:** regular
 **Third person:** *flakes* &middot; **-ing form:** *flaking*
 **Transitivity:** intransitive
 
-To come away from a surface in thin small pieces.
+Flake has 2 distinct senses.
+
+**1. To come away from a surface in thin small pieces.** (отслаиваться, шелушиться, осыпаться)
 
 1. Old paint *flakes* fast in this desert sun.
 2. The dry bark *flaked* under my fingers.
 3. The white crust was *flaking* where the spring had dried up.
+
+**2. To let someone down by not doing what you promised, especially by not showing up.** (не прийти, подвести; соскочить, кинуть (разг.))
+
+4. Don't *flake* — we've been planning this for weeks.
+5. He *flaked* again and never showed up.
+6. I thought she had *flaked*, but she was just stuck in traffic.
 
 **Phrasal verbs:** [flake out](54-phrasal-regular-d-f.md#flake-out)
 
@@ -1403,17 +1569,25 @@ To turn in a circle around a center point.
 ### eclipse
 
 **Pronunciation:** /ɪˈklɪps/ &middot; *i-KLIPS*
-**Русский:** затмевать, затмить; заслонять
+**Русский:** затмевать, затмить; заслонять; затмевать, затмить; превзойти
 **Forms:** *eclipse* &middot; *eclipsed* &middot; *eclipsed*
 **Verb class:** regular
 **Third person:** *eclipses* &middot; **-ing form:** *eclipsing*
 **Transitivity:** transitive
 
-To block the light of the sun or moon by passing in front of it.
+Eclipse has 2 distinct senses.
+
+**1. To block the light of the sun or moon by passing in front of it.** (затмевать, затмить; заслонять)
 
 1. The moon *eclipses* the sun somewhere on earth about twice a year.
 2. The moon completely *eclipsed* the sun for four minutes.
 3. The shadow was already *eclipsing* the bottom edge of the sun.
+
+**2. To become so much better or more important that someone else seems small by comparison.** (затмевать, затмить; превзойти)
+
+4. A younger rival can *eclipse* you in a single season.
+5. Her second novel *eclipsed* the first.
+6. Streaming has *eclipsed* cable in almost every market.
 
 ---
 
@@ -1615,35 +1789,57 @@ To burn or shine with a strong bright flame or light.
 ### smolder
 
 **Pronunciation:** /ˈsmoʊldər/ &middot; *SMOHL-dur*
-**Русский:** тлеть; дымиться
+**Русский:** тлеть; дымиться; кипеть (от злости), тлеть (о чувстве, обиде)
 **Forms:** *smolder* &middot; *smoldered* &middot; *smoldered*
 **Verb class:** regular
 **Third person:** *smolders* &middot; **-ing form:** *smoldering*
 **Transitivity:** intransitive
 **Contrast:** American spelling *smolder*; British English writes *smoulder*.
 
-To burn slowly with smoke but without flames.
+Smolder has 2 distinct senses.
+
+**1. To burn slowly with smoke but without flames.** (тлеть; дымиться)
 
 1. Peat fires *smolder* underground all winter.
 2. The stumps *smoldered* for days after the rain.
 3. Something was still *smoldering* at the edge of the field.
+
+**2. To feel strong anger or resentment without showing it openly.** (кипеть (от злости), тлеть (о чувстве, обиде))
+
+4. He sat there *smoldering* while she read the letter.
+5. She *smoldered* all the way home.
+6. Resentment can *smolder* for years in a family.
 
 ---
 
 ### flare
 
 **Pronunciation:** /flɛr/ &middot; *FLAIR*
-**Русский:** вспыхивать, вспыхнуть; разгораться
+**Русский:** вспыхивать, вспыхнуть; разгораться; расширяться книзу, расклёшиваться; раздуваться (о ноздрях); вспыхивать, вспыхнуть (о конфликте, гневе); обостряться, обостриться
 **Forms:** *flare* &middot; *flared* &middot; *flared*
 **Verb class:** regular
 **Third person:** *flares* &middot; **-ing form:** *flaring*
 **Transitivity:** intransitive
 
-To burn or shine suddenly brighter for a short time.
+Flare has 3 distinct senses.
+
+**1. To burn or shine suddenly brighter for a short time.** (вспыхивать, вспыхнуть; разгораться)
 
 1. Embers *flare* whenever the wind picks up.
 2. The fire *flared* when it reached the pines.
 3. The northern lights were *flaring* green over the lake.
+
+**2. To become wider toward the bottom or the end.** (расширяться книзу, расклёшиваться; раздуваться (о ноздрях))
+
+4. These jeans *flare* slightly at the ankle.
+5. Her nostrils *flared* with anger.
+6. She wore a long skirt *flaring* from the waist down.
+
+**3. To break out suddenly, said of anger, violence, or an illness.** (вспыхивать, вспыхнуть (о конфликте, гневе); обостряться, обостриться)
+
+7. Tempers *flared* during the last quarter.
+8. His arthritis *flares* whenever the weather turns.
+9. Fighting has *flared* along the border again.
 
 **Phrasal verbs:** [flare up](54-phrasal-regular-d-f.md#flare-up) &middot; [flare up](54-phrasal-regular-d-f.md#flare-up-1)
 
@@ -1792,17 +1988,31 @@ To throw a lot of water or other liquid over something, usually to put out a fir
 ### contain
 
 **Pronunciation:** /kənˈteɪn/ &middot; *kuhn-TAYN*
-**Русский:** сдерживать, сдержать; локализовать (пожар)
+**Русский:** сдерживать, сдержать; локализовать (пожар); содержать, вмещать, включать в себя; сдерживать, сдержать (чувства)
 **Forms:** *contain* &middot; *contained* &middot; *contained*
 **Verb class:** regular
 **Third person:** *contains* &middot; **-ing form:** *containing*
 **Transitivity:** transitive
 
-To keep something dangerous from spreading any further.
+Contain has 3 distinct senses.
+
+**1. To keep something dangerous from spreading any further.** (сдерживать, сдержать; локализовать (пожар))
 
 1. Crews *contain* most brush fires within a day or two.
 2. They *contained* the spill before it reached the creek.
 3. The fire is sixty percent *contained* tonight.
+
+**2. To have something inside.** (содержать, вмещать, включать в себя)
+
+4. The box *contains* old photographs.
+5. Does this sauce *contain* any dairy?
+6. The report *contained* three serious errors.
+
+**3. To hold a strong feeling in and not show it.** (сдерживать, сдержать (чувства))
+
+7. She could hardly *contain* her excitement.
+8. He *contained* his anger until the guests had left.
+9. The kids were barely *containing* their laughter.
 
 ---
 
@@ -1861,18 +2071,26 @@ To destroy a building or a town so completely that nothing is left standing.
 ### smother
 
 **Pronunciation:** /ˈsmʌðər/ &middot; *SMUTH-ur*
-**Русский:** душить, задушить; заглушать (слоем чего-л.)
+**Русский:** душить, задушить; заглушать (слоем чего-л.); душить заботой, чрезмерно опекать
 **Forms:** *smother* &middot; *smothered* &middot; *smothered*
 **Verb class:** regular
 **Third person:** *smothers* &middot; **-ing form:** *smothering*
 **Transitivity:** transitive
 **Contrast:** The th is voiced, as in *mother*: SMUTH-ur.
 
-To cover something thickly so that it cannot breathe or burn.
+Smother has 2 distinct senses.
+
+**1. To cover something thickly so that it cannot breathe or burn.** (душить, задушить; заглушать (слоем чего-л.))
 
 1. Wet leaves *smother* the grass over the winter.
 2. Ash *smothered* every field within ten miles of the crater.
 3. He was *smothering* the flames with a wet blanket.
+
+**2. To give someone so much love and attention that they feel trapped.** (душить заботой, чрезмерно опекать)
+
+4. She *smothers* her kids and wonders why they don't call.
+5. He felt *smothered* by his family.
+6. Stop *smothering* me; I can do this myself.
 
 ---
 
@@ -1897,34 +2115,50 @@ To send out gas, heat, light, or sound.
 ### vent
 
 **Pronunciation:** /vɛnt/ &middot; *VENT*
-**Русский:** выпускать, выпустить (газ, пар); давать выход
+**Русский:** выпускать, выпустить (газ, пар); давать выход; выплёскивать эмоции, изливать (гнев), давать волю чувствам
 **Forms:** *vent* &middot; *vented* &middot; *vented*
 **Verb class:** regular
 **Third person:** *vents* &middot; **-ing form:** *venting*
 **Transitivity:** both — transitive (the roof *vents* hot air), intransitive (gas *vented* from the fissure)
 
-To let gas, steam, or heat escape through an opening.
+Vent has 2 distinct senses.
+
+**1. To let gas, steam, or heat escape through an opening.** (выпускать, выпустить (газ, пар); давать выход)
 
 1. The mountain *vents* steam from a dozen cracks.
 2. Gas *vented* from the fissure for two days.
 3. Hot air was *venting* through the roof of the greenhouse.
+
+**2. To express anger or frustration freely, usually by talking about it.** (выплёскивать эмоции, изливать (гнев), давать волю чувствам)
+
+4. I just need to *vent* for a minute.
+5. She *vented* her frustration to her sister on the phone.
+6. He has been *venting* about his manager all week.
 
 ---
 
 ### boom
 
 **Pronunciation:** /buːm/ &middot; *BOOM*
-**Русский:** грохотать, прогрохотать; греметь
+**Русский:** грохотать, прогрохотать; греметь; быстро расти, переживать бум; процветать
 **Forms:** *boom* &middot; *boomed* &middot; *boomed*
 **Verb class:** regular
 **Third person:** *booms* &middot; **-ing form:** *booming*
 **Transitivity:** intransitive
 
-To make a deep loud sound that carries a long way.
+Boom has 2 distinct senses.
+
+**1. To make a deep loud sound that carries a long way.** (грохотать, прогрохотать; греметь)
 
 1. Thunder *booms* over the canyon and echoes for a long time.
 2. The blast *boomed* across the whole lake.
 3. Thunder was *booming* every few seconds by then.
+
+**2. To grow or increase very quickly, especially in business.** (быстро расти, переживать бум; процветать)
+
+4. Tourism *boomed* after the new airport opened.
+5. Sales *boom* every December and die off in January.
+6. The town has been *booming* since the plant reopened.
 
 ---
 
@@ -2107,16 +2341,24 @@ To cover something in a thick layer that dries hard.
 ### part
 
 **Pronunciation:** /pɑːrt/ &middot; *PART*
-**Русский:** расходиться, разойтись; раздвигать(ся)
+**Русский:** расходиться, разойтись; раздвигать(ся); расставаться, расстаться
 **Forms:** *part* &middot; *parted* &middot; *parted*
 **Verb class:** regular
 **Third person:** *parts* &middot; **-ing form:** *parting*
 **Transitivity:** both — transitive (the wind *parted* the fog), intransitive (the clouds *parted*)
 
-To move apart and leave an opening in the middle.
+Part has 2 distinct senses.
+
+**1. To move apart and leave an opening in the middle.** (расходиться, разойтись; раздвигать(ся))
 
 1. The clouds *part* for an hour most afternoons.
 2. The fog *parted* just long enough for us to see the island.
 3. A strip of blue showed where the clouds were *parting*.
+
+**2. To leave each other, especially after being together a long time.** (расставаться, расстаться)
+
+4. They *part* at the corner every morning.
+5. We *parted* on good terms.
+6. Having *parted* from his business partner, he started over alone.
 
 **Phrasal verbs:** [part with](56-phrasal-regular-m-p.md#part-with)

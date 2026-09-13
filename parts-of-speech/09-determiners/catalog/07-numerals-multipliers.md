@@ -93,13 +93,19 @@ Names a comically large, uncounted number — hyperbole rather than arithmetic.
 
 Counts a noun that has no singular of its own, or one that comes in twos, by counting the units instead.
 
+**1. A single two-part object that has no singular of its own.** (пара — об одном предмете из двух частей: scissors, pants, glasses)
+
 1. I need *a pair of* scissors that actually cuts.
-2. She bought two *pairs of* jeans and returned both.
-3. Do you have *a pair of* pliers in the truck?
-4. *A pair of* glasses was sitting on the dashboard.
+2. Do you have *a pair of* pliers in the truck?
+3. *A pair of* glasses was sitting on the dashboard.
+4. She bought two *pairs of* jeans and returned both.
+
+**2. Two matching or naturally associated things — a set of two.** (пара, двое — два одинаковых или связанных предмета либо существа)
+
 5. There isn't *a pair of* clean socks left in the house.
 6. He owns exactly one *pair of* dress shoes.
 7. *A pair of* twins joined the class in October.
+8. *A pair of* hawks nests in that sycamore every spring.
 
 **See also:** [two, three, four](#two-three-four), [dozen](#dozen), [a couple of](05-quantifiers-small.md#a-couple-of), [several](05-quantifiers-small.md#several), [both](06-distributives-negatives.md#both)
 
@@ -139,12 +145,19 @@ Twelve of something, counted as a unit.
 
 A round large number used to count a plural noun.
 
+**1. An exact round number counting a plural noun.** (сто, тысяча, миллион, миллиард — после числительного без -s: three hundred)
+
 1. The city issued *two hundred fifty* permits last month.
-2. *A thousand* things could go wrong between now and Friday.
-3. *Hundreds of* commuters were stranded at the station.
-4. The settlement came to *four million* dollars.
-5. Only *three hundred of* the tickets were ever sold.
+2. The settlement came to *four million* dollars.
+3. Only *three hundred of* the tickets were ever sold.
+4. *A thousand* things could go wrong between now and Friday.
+
+**2. Plural and with *of* — hyperbole for "a great many."** (сотни, тысячи, миллионы — гипербола: «масса, уйма», точное число не имеется в виду)
+
+5. *Hundreds of* commuters were stranded at the station.
 6. She has *a hundred and one* reasons not to go.
+7. I've told him *a million* times to lock the gate.
+8. *Thousands of* people have filled out that form and nobody reads it.
 
 **Note on *and*.** The standard American reading of 253 is *two hundred fifty-three*; *two hundred and fifty-three* is standard British and perfectly acceptable in the United States. Keep *and* for the decimal point in dictation (*two hundred and five tenths*) and out of whole numbers in American technical writing.
 
@@ -163,16 +176,23 @@ A round large number used to count a plural noun.
 
 Counts exactly one of something, as opposed to any other number.
 
-1. **The number.** Exactly one, in contrast to any other number.
-2. **The emphatic singular.** *The one* + noun singles out a unique member: *the one thing I asked for*.
-3. **"A certain."** Formal, slightly legal or literary: *One Robert Hayes has filed a claim*.
+**1. The number — exactly one and no more.** (один — точное число, в противопоставление любому другому)
 
 1. *One* witness changed her story twice.
 2. I'll be there in *one* hour, two at the most.
 3. *One of* the elevators has been out since March.
-4. That's *the one* mistake we can't afford to make.
-5. Give me *one* good reason to stay.
-6. *One* Mr. Delgado called while you were out.
+4. Give me *one* good reason to stay.
+
+**2. *The one* — the single, unique member, with nothing else qualifying.** (единственный, тот самый — the one thing «единственное, что»)
+
+5. That's *the one* mistake we can't afford to make.
+6. She's *the one* person in this office who reads the contracts.
+7. Tuesday is *the one* day I can't do it.
+
+**3. "A certain" — a named person the listener is not expected to know.** (некий, некто — офиц. и книжн.: one Robert Hayes «некий Роберт Хейз»)
+
+8. *One* Mr. Delgado called while you were out.
+9. The claim was filed by *one* Robert Hayes of Akron.
 
 **See also:** [a](01-articles.md#a), [two, three, four](#two-three-four), [first](#first), [another](#another), [once](#once)
 
@@ -325,12 +345,19 @@ Marks the item that ends a sequence with nothing after it.
 
 Ranks an item at position one in a sequence.
 
+**1. Position one in a sequence.** (первый — по порядку, по счёту)
+
 1. The *first* three chapters are free.
 2. This is *my first* time flying out of Newark.
 3. She was *the first of* four children.
-4. *First* thing tomorrow, call the insurance company.
+4. All *the first* six rows were reserved for family.
 5. It was *a first* attempt, and it showed.
-6. All *the first* six rows were reserved for family.
+
+**2. Ahead of everything else in importance or rank.** (главный, первоочередной, лучший — first priority «первоочередная задача», first choice «лучший вариант»)
+
+6. Getting the roof sealed is our *first* priority this month.
+7. She was never my *first* choice, but she's done the job well.
+8. *First* thing tomorrow, call the insurance company.
 
 **See also:** [second](#second), [third, fourth, fifth](#third-fourth-fifth), [last](#last), [next](#next), [one](#one), [former, latter](#former-latter)
 
@@ -347,16 +374,23 @@ Ranks an item at position one in a sequence.
 
 Ranks an item at the end of a sequence, or points back to the one immediately before now.
 
-1. **Final in a sequence.** The one at the end, with nothing after it.
-2. **Most recent.** The one immediately before now — this is the article-less use with time nouns.
-3. **Least likely.** In *the last* + noun + relative clause: *the last person I'd ask*.
+**1. Final in a sequence — the one at the end, with nothing after it.** (последний, конечный — в ряду)
 
 1. The *last* two questions on the exam were the hardest.
-2. I saw her *last* week at the farmers market.
-3. Sales are up nine percent over *the last* six months.
-4. He drank *the last of* the coffee and didn't make more.
-5. She's *the last* person I'd trust with a secret.
+2. He drank *the last of* the coffee and didn't make more.
+3. The *last* train out of the station leaves at 11:40.
+
+**2. Most recent — the one immediately before now.** (прошлый, прошедший — last week «на прошлой неделе»; без артикля с названиями времени)
+
+4. I saw her *last* week at the farmers market.
+5. Sales are up nine percent over *the last* six months.
 6. *Last* night's storm knocked out power on three blocks.
+
+**3. Least likely — *the last* + noun + relative clause.** (самый неподходящий, последний, кого/что бы... — the last person I'd ask)
+
+7. She's *the last* person I'd trust with a secret.
+8. That's *the last* thing this project needs right now.
+9. Selling the house is *the last* option we'd consider.
 
 **See also:** [next](#next), [final](#final), [first](#first), [penultimate, second-to-last, next-to-last](#penultimate-second-to-last-next-to-last), [previous, prior, preceding](#previous-prior-preceding), [the rest of, the remainder of](#the-rest-of-the-remainder-of)
 
@@ -371,15 +405,23 @@ Ranks an item at the end of a sequence, or points back to the one immediately be
 **Contrast:** Mirror image of *last*, with the same article trap. *Next week* (bare) is the calendar week after this one; *the next week* is the seven days from now. And *next Tuesday* is genuinely ambiguous in American speech — it can mean the Tuesday of this coming week or the Tuesday after that, so name the date if it matters. Against *following*: *next* is measured from now, *following* from some other point already established (*the meeting was Monday; the following day she resigned*).
 **Variants:** *the very next*, *next-day* (attributive), *next of kin*, *the next but one*
 
-1. **Immediately after this one in a sequence.** *The next flight*, *the next chapter*.
-2. **The coming one, counted from now.** With time nouns and no article: *next week*, *next summer*.
+**1. Immediately after this one in a sequence.** (следующий — идущий сразу за этим)
 
 1. *The next* three flights to Denver are already full.
-2. I'll call you *next* Tuesday about the invoice.
-3. *The next* person who interrupts is leaving.
-4. We spent *the next* two hours on hold.
-5. Her office is *next* door to the copy room.
-6. They listed his brother as *next* of kin.
+2. *The next* person who interrupts is leaving.
+3. We spent *the next* two hours on hold.
+
+**2. The coming one, counted from now — with time nouns and no article.** (будущий, ближайший — next week «на следующей неделе», next summer «будущим летом»)
+
+4. I'll call you *next* Tuesday about the invoice.
+5. *Next* summer we're finally fixing the porch.
+6. The lease is up *next* month and nobody has read it.
+
+**3. Adjacent — nearest in space or in relation.** (соседний, ближайший — next door «по соседству», next of kin «ближайший родственник»)
+
+7. Her office is *next* door to the copy room.
+8. They listed his brother as *next* of kin.
+9. The *next* house over has had a For Sale sign up for a year.
 
 **See also:** [last](#last), [subsequent, following](#subsequent-following), [another](#another), [final](#final)
 
@@ -439,15 +481,18 @@ Ranks an item by counting backward from the end of a sequence.
 **Contrast:** **The article is a meaning switch.** *The second chance* is chance number two in a numbered series; *a second chance* just means one more, a synonym of *another*. *A second opinion*, *a second helping*, *a second look* — all of these are the "additional" sense, not the ranking sense. Note also *every second* + singular noun, which means alternate ones (*every second row*), not "each pair."
 **Variants:** *a second*, *second-best*, *second-hand*, *second to none*, *every second*
 
-1. **Rank two in a sequence.** *The second chapter*, *the second attempt*.
-2. **One more of the same kind.** With *a*: *a second chance*, *a second opinion* — equivalent to *another*.
+**1. Rank two in a sequence — the ordinal.** (второй — порядковое числительное)
 
 1. *The second* witness contradicted the first.
-2. She asked for *a second* opinion before scheduling surgery.
-3. Nobody wants *a second* meeting about the same memo.
-4. He was born on *the second of* March.
-5. They water the plants *every second* day.
-6. Her *second* novel sold better than her first.
+2. He was born on *the second* of March.
+3. Her *second* novel sold better than her first.
+4. They water the plants *every second* day.
+
+**2. One more of the same kind — with *a*, the equivalent of *another*.** (ещё один, второй — a second chance «ещё один шанс», a second opinion «мнение другого врача»)
+
+5. She asked for *a second* opinion before scheduling surgery.
+6. Nobody wants *a second* meeting about the same memo.
+7. Give him *a second* chance and he'll do the same thing again.
 
 **See also:** [first](#first), [another](#another), [third, fourth, fifth](#third-fourth-fifth), [former, latter](#former-latter)
 
@@ -488,17 +533,20 @@ These express sequence without a number — before, after, the one already menti
 **Contrast:** ***Another* vs. *other*** is the pair to memorize. *Another* is one word, always singular, and never follows a determiner: ✗ *the another day*. *Other* takes a determiner in front of it and works with plurals and uncountables: *the other day*, *other books*, *other evidence*. So a bare singular countable noun requires *another*, never bare *other*: ✓ *another reason*, ✗ *other reason*. Also distinguish the two senses of *another* itself — "one more of the same" (*another beer*) and "a different one" (*let's try another route*). And note that *another* is a **pronoun** as well as a determiner: as a determiner it precedes a noun (*another cup*), as a pronoun it stands alone (*I'll have another*, *one after another*). The verb stays singular either way — *Another **is** on the way*.
 **Variants:** *one another*, *another one*, *yet another*, *a whole nother* (informal tmesis, common in American speech; write *a whole other*)
 
-1. **One more of the same kind.** *Another cup of coffee*, *another delay*.
-2. **A different one.** *We'll have to find another route.*
+**1. One more of the same kind.** (ещё один, ещё — добавляет такой же)
 
 1. Give me *another* minute and I'll have it.
 2. *Another* three days of rain and the basement floods.
 3. That's *yet another* reason to leave early.
-4. She's *another of* his former students.
-5. If this route is closed, we'll take *another* one.
-6. *Another* two hundred dollars won't fix the transmission.
+4. *Another* two hundred dollars won't fix the transmission.
+5. He finished his coffee and asked for *another*.
+
+**2. A different one — not this one.** (другой, иной — не этот, а какой-то иной)
+
+6. If this route is closed, we'll take *another* one.
 7. Isn't there *another* way into the building?
-8. He finished his coffee and asked for *another*.
+8. She's *another of* his former students.
+9. That's *another* matter entirely, and we'll take it up next week.
 
 **See also:** [other](#other), [second](#second), [next](#next), [further, additional](#further-additional), [a](01-articles.md#a)
 
@@ -515,13 +563,23 @@ These express sequence without a number — before, after, the one already menti
 
 Points back to the first (*former*) or the second (*latter*) of two things already mentioned.
 
+**1. *The former* and *the latter* — the first and the second of two things just mentioned.** (первый (из двух) — the former; второй, последний (из двух) — the latter)
+
 1. Between arbitration and litigation, *the former* is faster and *the latter* is more thorough.
-2. *The latter* two witnesses were never called.
-3. She spent *the latter* half of her career in public defense.
+2. Of the two routes, *the former* is scenic and *the latter* is quick.
+3. *The former* testimony was hearsay; *the latter* evidence was not.
+
+**2. *Former* on its own — previous, no longer holding the role.** (бывший, прежний — former mayor «бывший мэр»)
+
 4. Her *former* employer is contesting the unemployment claim.
-5. Of the two routes, *the former* is scenic and *the latter* is quick.
-6. The *former* mayor still keeps an office downtown.
-7. *The former* testimony was hearsay; *the latter* evidence was not.
+5. The *former* mayor still keeps an office downtown.
+6. His *former* wife handles the accounting for both stores.
+
+**3. *The latter* half, part, or years — the later stretch of a period.** (вторая половина, поздний — the latter half of the year «вторая половина года»)
+
+7. She spent *the latter* half of her career in public defense.
+8. *The latter* two witnesses were never called.
+9. Rain is expected in *the latter* part of the week.
 
 **See also:** [first](#first), [last](#last), [previous, prior, preceding](#previous-prior-preceding), [subsequent, following](#subsequent-following)
 
@@ -558,16 +616,27 @@ Adds a quantity to one already in play.
 **Contrast:** ***Other* vs. *another*** — see [another](#another): bare + singular countable requires *another*, and *another* never takes a determiner in front of it. ***Other* vs. *others*** — *other* is the determiner and precedes a noun (*the other students*), *others* is the pronoun and stands alone (*the others left*). Never combine them: ✗ *the others students*. Note also *every other*, which means alternate ones (*every other week* = biweekly), not "all the remaining ones."
 **Variants:** *others* (pronoun), *the other day*, *every other*, *each other*, *other than* (preposition), *otherwise*
 
-1. **Different from the one named.** *Some other route*, *other evidence*.
-2. **The remaining one or ones of a known set.** With *the*: *the other shoe*, *the other three.*
-3. **Alternate.** In *every other* + singular noun.
+**1. Different from the one named.** (другой, иной — не этот, а какой-то ещё)
 
 1. *Other* airlines charge for the second bag too.
-2. *The other* two witnesses never testified.
-3. Is there *any other* evidence you'd like to submit?
-4. I ran into him *the other* day at the hardware store.
-5. She works from home *every other* Friday.
-6. We'll need *some other* explanation for the missing hours.
+2. Is there *any other* evidence you'd like to submit?
+3. We'll need *some other* explanation for the missing hours.
+
+**2. The remaining one or ones of a known set — with *the*.** (остальной; второй (из двух) — the other shoe «второй ботинок»)
+
+4. *The other* two witnesses never testified.
+5. Put the box down and hold the rail with *the other* hand.
+6. Three of the units sold; *the other* four are still listed.
+
+**3. Alternating, in *every other* + a singular noun.** (через один, каждый второй — в обороте every other)
+
+7. She works from home *every other* Friday.
+8. The pills are taken *every other* day, not daily.
+
+**4. *The other day / the other night* — recently, a short while ago.** (на днях, недавно — в обороте the other day)
+
+9. I ran into him *the other* day at the hardware store.
+10. *The other* night the alarm went off at three in the morning.
 
 **See also:** [another](#another), [same](#same), [remaining](#remaining), [the rest of, the remainder of](#the-rest-of-the-remainder-of), [every other](06-distributives-negatives.md#every-other)
 
@@ -628,13 +697,19 @@ Marks what is left of a set after part of it is gone.
 
 Marks the noun as identical to one already known, rather than merely similar.
 
+**1. One and the same thing — the identical object, person, or occasion.** (тот же самый, тот же — именно этот, не другой)
+
 1. *The same* problem came up in the last audit.
 2. We ordered from *that same* restaurant twice in one week.
-3. Her answer was *the same as* it was in March.
+3. It's *the very same* car he drove in high school.
 4. *The same* two people always volunteer.
-5. They offer *same-day* shipping on anything ordered before noon.
-6. It's *the very same* car he drove in high school.
-7. Every lawyer we called gave us *the same* advice.
+
+**2. Of the same kind — matching, but not the identical object.** (такой же, одинаковый — не тот же предмет, а точно такой)
+
+5. Every lawyer we called gave us *the same* advice.
+6. We have *the same* coffee maker, only ours is black.
+7. Her answer was *the same as* it was in March.
+8. They offer *same-day* shipping on anything ordered before noon.
 
 **See also:** [other](#other), [another](#another), [this](02-demonstratives.md#this), [former, latter](#former-latter)
 
@@ -699,12 +774,19 @@ These name a share of something rather than a count of it. *Half* and *all* are 
 
 Names a large, roughly measured piece of a whole, in conversational register.
 
+**1. A sizable share of something you can't pick up — time, money, an audience.** (изрядная часть, заметная доля — разг.)
+
 1. *A chunk of* the budget disappears into insurance every year.
 2. *A good chunk of* the audience left at intermission.
 3. Rewriting the intake form ate *a chunk of* my afternoon.
-4. *A chunk of* the retaining wall came down in the storm.
-5. They still owe us *a good chunk of* it.
-6. Replacing the transmission is *a chunk of change*.
+4. They still owe us *a good chunk of* it.
+5. Replacing the transmission is *a chunk of change*.
+
+**2. A literal piece broken off something solid.** (кусок, обломок — о реальном отломанном куске)
+
+6. *A chunk of* the retaining wall came down in the storm.
+7. She chipped *a chunk of* ice off the windshield with a spatula.
+8. There's *a chunk of* plaster missing above the door.
 
 **See also:** [a fraction of](#a-fraction-of), [part of](#part-of), [the better part of](#the-better-part-of), [the bulk of](#the-bulk-of), [a bunch of](04-quantifiers-large.md#a-bunch-of)
 
@@ -787,12 +869,20 @@ Names an exact share of a whole.
 
 Takes in every part or every member of a known whole — the totality member of the fractions-and-part-words family. For the word's full entry as a predeterminer, including floating *all*, see [all](06-distributives-negatives.md#all).
 
+**1. Every part or every member of a known whole.** (весь, все из — весь объём уже определённой группы)
+
 1. *All of* the milk had gone sour by Thursday.
 2. *All of* us were in the parking lot when the alarm went off.
 3. She read *all of* it twice before signing anything.
 4. *All of* the applicants who made the second round were local.
 5. Not *all of* the damage is covered.
 6. *All of* Ohio was under a wind advisory by noon.
+
+**2. Ironic *all of* + a number — "no more than, a mere."** (всего-навсего, целых — с иронией: all of five minutes «целых пять минут», то есть всего ничего)
+
+7. He lasted *all of* five minutes before he started complaining.
+8. The whole repair cost *all of* twelve dollars.
+9. She's *all of* nineteen and already running the shop.
 
 **See also:** [all](06-distributives-negatives.md#all), [half](#half), [the whole (of)](#the-whole-of), [the rest of, the remainder of](#the-rest-of-the-remainder-of), [every one of](06-distributives-negatives.md#every-one-of), [none of](06-distributives-negatives.md#none-of)
 
@@ -809,14 +899,20 @@ Takes in every part or every member of a known whole — the totality member of 
 
 Divides a quantity into two equal parts and names one of them.
 
+**1. One of two equal parts.** (половина, пол- — ровно одна из двух равных частей)
+
 1. *Half* the class failed the midterm.
 2. She spent *half of* her paycheck on the deposit.
 3. Give me *half an* hour and I'll have the numbers.
 4. *Half of* it was still frozen in the middle.
 5. Kids under six ride at *half* price.
+
+**2. Loosely — a large part, "more often than not."** (чуть ли не половина; то и дело, чуть ли не всегда — half the time «чаще всего»)
+
 6. *Half* the time he doesn't even read the email.
 7. *Half* the seats were still empty at kickoff.
 8. Didn't *half* the committee vote against it?
+9. *Half* this town has an opinion about that intersection.
 
 **See also:** [a quarter, a third, two-thirds](#a-quarter-a-third-two-thirds), [the whole (of)](#the-whole-of), [twice](#twice), [double](#double), [half again as much](#half-again-as-much), [all](06-distributives-negatives.md#all)
 
@@ -1101,12 +1197,20 @@ Multiplies or divides a quantity by a power of ten, from outside the noun phrase
 
 Multiplies the following quantity by two.
 
+**1. Twice as much — the multiplier in front of a determined noun phrase.** (вдвое больше, вдвое — double the price «вдвое дороже»)
+
 1. They charged us *double* the advertised price.
 2. The new pump moves *double* the water in half the time.
 3. She's making *double* what she made at her last job.
 4. *Double* the number of applicants showed up.
 5. Take *double* that dosage only if the doctor says so.
 6. The storm dropped *double* the normal rainfall for March.
+
+**2. Made of two, or for two — a two-part or two-person version of the thing.** (двойной, двухместный, сдвоенный — a double bed «двуспальная кровать», a double whiskey «двойная порция»)
+
+7. The room has one *double* bed and a pullout couch.
+8. He ordered a *double* espresso and drank it standing up.
+9. *Double* doors open onto the loading dock.
 
 **See also:** [twice](#twice), [triple, quadruple](#triple-quadruple), [three times](#three-times), [half](#half), [twofold, threefold, tenfold](#twofold-threefold-tenfold)
 
@@ -1145,12 +1249,20 @@ Increases a quantity by fifty percent.
 
 Names a single occurrence or a rate of one per period. It is not the "one times" member of the multiplier series.
 
+**1. One time, or a rate of one per period.** (один раз, раз — once a month «раз в месяц»)
+
 1. The committee meets *once* a month.
 2. Water the plant *once* every ten days.
 3. I only asked *once*.
 4. She rewrote the opening *once* more and stopped.
 5. Take the pills *once* daily with food.
 6. ✗ *It costs once the price of the original.* → ✓ It costs *the same as* the original.
+
+**2. Formerly — at some time in the past, but not now.** (когда-то, некогда, прежде — this was once a theater «когда-то здесь был театр»)
+
+7. That building was *once* the biggest hotel in the county.
+8. He was *once* a machinist and now sells insurance.
+9. The mill *once* employed half the town.
 
 **See also:** [twice](#twice), [three times](#three-times), [one](#one), [double](#double)
 
@@ -1167,12 +1279,20 @@ Names a single occurrence or a rate of one per period. It is not the "one times"
 
 States a rate by naming the unit it is measured against: so much for every one of these.
 
+**1. For each one — the rate preposition.** (за, на, в — per hour «в час», per student «на одного учащегося»)
+
 1. The lot charges four dollars *per* hour after the first two.
 2. Output is measured in gallons *per* minute.
 3. Reimbursement is capped at sixty-five dollars *per* diem.
 4. The state spends about twelve thousand dollars *per* student.
 5. Earnings came to $1.42 *per* share.
 6. In speech it's sixty miles *an* hour; on the gauge it's miles *per* hour.
+
+**2. According to — business and legal *per* / *as per*.** (согласно, в соответствии с — per your request «согласно вашей просьбе»)
+
+7. *Per* your email of the ninth, we've released the deposit.
+8. The work was done *per* the contract and signed off by the inspector.
+9. As *per* company policy, all invoices go through accounting first.
 
 **See also:** [a (per)](01-articles.md#a-per), [once](#once), [twice](#twice), [each](06-distributives-negatives.md#each), [percent](#percent)
 
@@ -1233,12 +1353,19 @@ Multiplies the following quantity by three, four, and upward.
 
 Multiplies the following quantity by two, or names a rate of two per period.
 
+**1. Double the quantity — the multiplier before an already-determined phrase.** (вдвое, в два раза — twice the size «вдвое больше»)
+
 1. The storm dropped *twice* the normal rainfall.
 2. They pay *twice* what the job is worth, and still can't fill it.
 3. There were *twice as many* people as chairs.
 4. It uses *twice as much* electricity as the old unit.
-5. The board meets *twice* a year.
-6. This one is *twice as* heavy but half the price.
+5. This one is *twice as* heavy but half the price.
+
+**2. Two times — on two occasions, or a rate of two per period.** (дважды, два раза — twice a year «дважды в год»)
+
+6. The board meets *twice* a year.
+7. I called *twice* and nobody picked up.
+8. Take it *twice* daily with food.
 
 **See also:** [double](#double), [three times](#three-times), [once](#once), [half again as much](#half-again-as-much), [half](#half)
 
@@ -1391,12 +1518,20 @@ States an estimate as an open range between two numbers, with no claim about whe
 
 Fixes the lower or upper limit of a quantity, with the stated number itself included inside the limit.
 
+**1. The lower or upper limit of a quantity, with the stated number included.** (по меньшей мере, как минимум — at least; самое большее, максимум — at most)
+
 1. There were *at least* forty people in line ahead of us.
 2. The repair takes *at most* two days if the part is in stock.
 3. You need *at least one* witness to sign the form in person.
-4. *At least* half the budget was already committed by March.
-5. She spends *at most* an hour a week on the newsletter.
-6. *At least* three of the jurors had made up their minds before lunch.
+4. She spends *at most* an hour a week on the newsletter.
+5. *At least* three of the jurors had made up their minds before lunch.
+6. *At least* half the budget was already committed by March.
+
+**2. Concessive *at least* — "if nothing else, anyway."** (по крайней мере, хотя бы — уступительное: at least it's dry «по крайней мере, сухо»)
+
+7. The car's totaled, but *at least* nobody was hurt.
+8. *At least* she called before she cancelled.
+9. It's a long drive, but *at least* the road is plowed.
 
 **See also:** [more than, over, under, less than](#more-than-over-under-less-than), [up to](#up-to), [no fewer than, no less than, as many as](#no-fewer-than-no-less-than-as-many-as), [a good, a solid, an easy, a full](#a-good-a-solid-an-easy-a-full), [upwards of, in excess of](#upwards-of-in-excess-of)
 

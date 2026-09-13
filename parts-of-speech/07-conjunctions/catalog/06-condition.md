@@ -67,12 +67,30 @@ Carves an exception out of a statement that otherwise holds — the same job *un
 
 The all-purpose conditional. The word itself never changes to show how likely the condition is — the tense of its clause does that job, with the present for real conditions, the simple past for unlikely ones, and the past perfect for impossible ones. Note that a future condition takes the present tense: *If it rains tomorrow*, never *If it will rain tomorrow*.
 
+**1. Open condition — it may happen and it may not.** Present tense in the clause even for future time: *if it rains tomorrow*, never *if it will rain*. (если)
+
 1. *If* it rains tomorrow, the game moves to Sunday.
 2. Call me *if* you get lost.
-3. *If* I had left ten minutes earlier, I would have made the train.
-4. She'd take the promotion *if* they moved her back to Denver.
-5. *If* you're finished with that, I'll take it.
-6. Let me know *if* the package arrives.
+3. *If* you're finished with that, I'll take it.
+4. Let me know *if* the package arrives.
+
+**2. Unreal condition — unlikely, or already impossible.** The word itself does not change; the tense does. Simple past for the improbable, past perfect for what can no longer happen. (если бы)
+
+5. *If* I had left ten minutes earlier, I would have made the train.
+6. She'd take the promotion *if* they moved her back to Denver.
+7. *If* I were you, I'd get that in writing.
+
+**3. Generic — "whenever," "every time."** Both clauses in the present, and nothing hypothetical about it: the sentence states a rule that holds on every occasion. (когда; всякий раз когда)
+
+8. *If* you heat it past two hundred degrees, the glaze cracks.
+9. *If* the tide is out, you can walk to the island.
+10. She gets a headache *if* she skips lunch.
+
+**4. A condition on the saying rather than on the fact.** The clause qualifies the speaker's reason for mentioning it; the main clause stays true whatever the listener does. (если; если уж на то пошло)
+
+11. There's soup in the fridge *if* you're hungry.
+12. *If* you want my honest opinion, the second draft was better.
+13. *If* you're wondering, the meeting got moved to Thursday.
 
 **See also:** [unless](#unless), [whether](#whether), [only if](#only-if), [if only](#if-only), [in case](#in-case), [provided that](#provided-that)
 
@@ -151,12 +169,19 @@ Marks the condition as necessary rather than merely sufficient — nothing else 
 
 Means "except on the condition that" — it carves one exception out of a statement that otherwise holds. It is close to *if … not* but narrower: *unless* names the single circumstance that would overturn the main clause, and it cannot be used for counterfactuals (*If I hadn't called…*, never *Unless I had called…*).
 
+**1. The single exception that would overturn the main clause.** "Except on the condition that." Present tense for future reference, and never a counterfactual — *If I hadn't called…*, never *unless I had called*. (если не; кроме случаев, когда)
+
 1. The store closes at six *unless* there's a holiday sale.
 2. *Unless* somebody objects, I'll book the room for Thursday.
 3. Don't sign anything *unless* your lawyer has read it.
 4. We'll be there by noon *unless* traffic on the interstate is terrible.
-5. *Unless* you've already eaten, there's a plate in the oven.
-6. She never takes a day off *unless* she's genuinely sick.
+5. She never takes a day off *unless* she's genuinely sick.
+
+**2. Tacked on as an afterthought — "unless, of course …".** A second thought that reopens what the speaker had just settled. It follows a pause, a dash, or a full stop, and the clause is often a bare fragment. (разве что; впрочем, если только)
+
+6. *Unless* you've already eaten, there's a plate in the oven.
+7. We'll take the early flight — *unless* you'd rather sleep in.
+8. I'll just mail it. *Unless* you need it today?
 
 **See also:** [if](#if), [if not](#if-not), [or else](#or-else), [otherwise](#otherwise), [unless and until](#unless-and-until), [barring](#barring)
 
@@ -323,12 +348,18 @@ Introduces a requirement that has to be met for the main clause to hold. It does
 
 Makes a statement conditional on an approval, a rule, or an event named as a noun. Because it takes a noun phrase, it cannot carry a subject and verb the way *provided that* can, which is exactly why contracts like it — the condition stays compact and quotable.
 
+**1. Conditional on an approval, a rule, or an event.** The condition is packed into a noun phrase, which is exactly why contracts prefer it to *provided that*. (при условии; с учётом)
+
 1. The offer is *subject to* a satisfactory home inspection.
 2. *Subject to* board approval, the merger closes in March.
-3. All fares are *subject to* change without notice.
-4. The permit was issued *subject to* three conditions.
-5. Delivery dates are *subject to* availability.
-6. *Subject to* the terms below, the license is worldwide and perpetual.
+3. The permit was issued *subject to* three conditions.
+4. *Subject to* the terms below, the license is worldwide and perpetual.
+
+**2. Liable to, exposed to — the thing may simply happen to it.** No condition and nobody's approval: the phrase reports a standing vulnerability, and Russian takes «подвержен» rather than «при условии». (подверженный чему-л.; может быть изменён)
+
+5. All fares are *subject to* change without notice.
+6. Delivery dates are *subject to* availability.
+7. The whole valley is *subject to* flooding in a wet spring.
 
 **See also:** [on condition that](#on-condition-that), [provided that](#provided-that), [in the event that](#in-the-event-that), [absent](#absent)
 
@@ -533,12 +564,20 @@ The formal-register equivalent of *if*, reserved for conditions that are occurre
 
 Names the extreme step that would be needed to change the outcome and implies that nothing less will do. It overlaps with *barring*, but the two run in opposite directions: *barring a strike, the trains run on time* names the one thing that could spoil a good outcome, while *short of a strike, nothing gets management's attention* names the one thing that could rescue a bad one. Outside this conditional use, *short of* is an ordinary adjective phrase meaning "not enough of" (*short of cash*, *short of breath*), and what follows tells the two apart: the conditional names an action or an event, the adjective names a supply.
 
+**1. The extreme measure without which nothing changes.** Names the one step that would be needed and implies that nothing less will do. It takes a noun phrase or an *-ing* form, never a clause. (разве что; кроме как)
+
 1. *Short of* a miracle, this bill dies in committee.
 2. *Short of* selling the house, I don't see how they cover the bills.
 3. There's nothing more I can do *short of* calling her myself.
 4. *Short of* an act of Congress, that rule is not changing.
 5. They tried everything *short of* replacing the engine.
 6. *Short of* rewriting the whole chapter, I'm not sure how to fix it.
+
+**2. "Not enough of," "less than" — the ordinary adjective phrase.** No condition at all: what follows is a supply or a target rather than an action somebody could take. (не хватает; меньше чем)
+
+7. We're two chairs *short of* a full table.
+8. He's been *short of* breath since the flu.
+9. Turnout came in just *short of* what the campaign needed.
 
 **See also:** [barring](#barring), [absent](#absent), [but for](#but-for), [unless](#unless)
 
@@ -703,12 +742,23 @@ Invites the listener to entertain a hypothetical, most often as the opening of a
 
 Raises a hypothetical as a proposal or a worry, leaving the consequence for the listener to supply. Tense does the work: *What if we leave early?* proposes something real, while *What if we left early?* holds it further away.
 
-1. *What if* it rains on Saturday?
-2. *What if* we just told them the truth?
-3. *What if* the flight gets canceled — do we still have the hotel?
-4. She kept asking *what if* nobody came.
-5. *So what if* he's ten minutes late? The doors don't open until eight.
-6. *What if* I said I could get you a table at seven?
+**1. A proposal — floating something the speaker might actually do.** The past tense here is not past time; it holds the suggestion at a polite distance. (а что, если…? — предложение)
+
+1. *What if* we just told them the truth?
+2. *What if* I said I could get you a table at seven?
+3. *What if* we moved the whole thing to Sunday?
+
+**2. A worry — the thing that might go wrong.** The same shape in the opposite mood: nothing is being proposed, a risk is being named, and the consequence is usually left hanging. (а вдруг…?; а если…?)
+
+4. *What if* it rains on Saturday?
+5. *What if* the flight gets canceled — do we still have the hotel?
+6. She kept asking *what if* nobody came.
+
+**3. *So what if* — brushing the objection aside.** The fixed dismissive: it grants the fact and denies that it matters. (ну и что с того, что…?; подумаешь)
+
+7. *So what if* he's ten minutes late? The doors don't open until eight.
+8. *So what if* it's secondhand — it works.
+9. *So what if* they disagree? We still have the votes.
 
 **See also:** [say](#say), [supposing that](#supposing-that), [if only](#if-only), [if](#if)
 
@@ -855,12 +905,19 @@ The everyday American counterfactual — plain English for *but for*. The longer
 
 Expresses a wish that the condition were met, with the strong implication that it isn't — the verb shifts back one tense, so *if only I had* means I don't and *if only I had had* means I didn't. Unlike plain *if*, it needs no main clause: the regret is the whole sentence.
 
+**1. A wish, carrying the implication that it is not so.** The verb shifts back one tense: *if only I had* means I don't, *if only I had had* means I didn't. It needs no main clause — the regret is the whole sentence. (если бы только; вот бы)
+
 1. *If only* I had known you were in town.
 2. *If only* she'd asked, I would have driven her.
 3. *If only* it were that simple.
 4. *If only* the rent were two hundred dollars cheaper, I'd take the place.
-5. Call him back, *if only* to end the argument.
-6. *If only* we'd left an hour earlier.
+5. *If only* we'd left an hour earlier.
+
+**2. *if only to* — "even if for no other reason than."** No wish and no regret: it admits the reason is a thin one and insists it is reason enough. (хотя бы для того, чтобы; пусть даже только ради того, чтобы)
+
+6. Call him back, *if only* to end the argument.
+7. Read the first chapter, *if only* to see what the fuss is about.
+8. She still goes to the meetings, *if only* to keep her name on the list.
 
 **See also:** [if](#if), [were](#were), [were it not for](#were-it-not-for), [what if](#what-if)
 
@@ -1194,12 +1251,18 @@ Names what happens if the first clause is not carried out — the coordinated tw
 
 States what will happen if the preceding statement is not acted on — the conjunctive-adverb equivalent of *or else* and the mirror image of *unless*. It also works backward as an inference marker: *She must have left; otherwise her coat would still be here.*
 
+**1. What will happen if the first statement is not acted on.** The conjunctive-adverb twin of *or else* and the mirror of *unless*. Semicolon or period in front of it; a bare comma there is a splice. (иначе; в противном случае)
+
 1. Take the earlier train; *otherwise*, you'll miss the opening.
 2. We need a deposit by Friday. *Otherwise*, the room goes back into inventory.
 3. Write it down; *otherwise*, you'll forget by morning.
+
+**2. Reasoning backward — "if that weren't so, …".** Not a warning about the future but an inference about the present: the speaker takes something to be true because the alternative would have left different evidence behind. The second clause carries *would*. (иначе бы …; а то бы …)
+
 4. She must have left already — *otherwise* her coat would still be here.
 5. The tickets are nonrefundable; *otherwise*, I'd have canceled weeks ago.
 6. The deadline is firm; we'd *otherwise* be glad to give you another week.
+7. The lights were on; *otherwise* I'd have assumed nobody was home.
 
 **See also:** [or else](#or-else), [unless](#unless), [if not](#if-not), [in that case](#in-that-case), [in which case](#in-which-case), [failing that](#failing-that), [either way](#either-way)
 

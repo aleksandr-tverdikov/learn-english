@@ -163,14 +163,43 @@
       "term": "impart",
       "ipa": "/ɪmˈpɑːrt/",
       "respell": "im-PART",
-      "meaning": "To pass knowledge or information on to other people. ---",
+      "meaning": "Impart has 2 distinct senses.",
       "examples": [
         "A lecture can impart facts but not judgment.",
         "She imparted everything she knew about the trade.",
-        "He has imparted his method to a whole generation of teachers."
+        "He has imparted his method to a whole generation of teachers.",
+        "Oak barrels impart a vanilla flavor to the wine.",
+        "A pinch of the spice imparted a smoky taste.",
+        "The low lamps were imparting a warm glow to the room."
       ],
-      "senses": [],
-      "русский": "передавать, передать (знания, опыт)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pass knowledge or information on to other people",
+          "body": [
+            "(передавать, передать (знания, опыт))"
+          ],
+          "examples": [
+            "A lecture can impart facts but not judgment.",
+            "She imparted everything she knew about the trade.",
+            "He has imparted his method to a whole generation of teachers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give a quality, flavor, or feeling to something",
+          "body": [
+            "(придавать, придать (вкус, оттенок, свойство))",
+            "---"
+          ],
+          "examples": [
+            "Oak barrels impart a vanilla flavor to the wine.",
+            "A pinch of the spice imparted a smoky taste.",
+            "The low lamps were imparting a warm glow to the room."
+          ]
+        }
+      ],
+      "русский": "передавать, передать (знания, опыт); придавать, придать (вкус, оттенок, свойство)",
       "forms": "impart · imparted · imparted",
       "verb class": "regular",
       "third person": "imparts · -ing form: imparting",
@@ -233,14 +262,43 @@
       "term": "orient",
       "ipa": "/ˈɔːriɛnt/",
       "respell": "OR-ee-ent",
-      "meaning": "To help someone get used to a new place or situation. ---",
+      "meaning": "Orient has 2 distinct senses.",
       "examples": [
         "A short video orients new students.",
         "They oriented us on the first day of class.",
-        "I am still orienting myself in this building."
+        "I am still orienting myself in this building.",
+        "Orient the map so that north is at the top.",
+        "He oriented the antenna toward the tower.",
+        "The house is oriented to catch the morning sun."
       ],
-      "senses": [],
-      "русский": "ориентировать, сориентировать; вводить в курс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To help someone get used to a new place or situation",
+          "body": [
+            "(ориентировать, сориентировать; вводить в курс)"
+          ],
+          "examples": [
+            "A short video orients new students.",
+            "They oriented us on the first day of class.",
+            "I am still orienting myself in this building."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To turn or place something so that it faces a particular direction",
+          "body": [
+            "(ориентировать, направлять, располагать (по сторонам света))",
+            "---"
+          ],
+          "examples": [
+            "Orient the map so that north is at the top.",
+            "He oriented the antenna toward the tower.",
+            "The house is oriented to catch the morning sun."
+          ]
+        }
+      ],
+      "русский": "ориентировать, сориентировать; вводить в курс; ориентировать, направлять, располагать (по сторонам света)",
       "forms": "orient · oriented · oriented",
       "verb class": "regular",
       "third person": "orients · -ing form: orienting",
@@ -286,14 +344,58 @@
       "term": "administer",
       "ipa": "/ədˈmɪnəstər/",
       "respell": "ad-MIN-uh-stur",
-      "meaning": "To give a test, or to carry out an official procedure. ---",
+      "meaning": "Administer has 3 distinct senses.",
       "examples": [
         "The state administers the reading test every spring.",
         "A nurse administered the hearing screening.",
-        "They are administering the exam in the gym."
+        "They are administering the exam in the gym.",
+        "A nurse will administer the shot.",
+        "They administered first aid at the scene.",
+        "The vaccine is being administered at all county clinics.",
+        "A local bank administers the trust.",
+        "She administered the estate after her father died.",
+        "The program has been administered by the state for ten years."
       ],
-      "senses": [],
-      "русский": "проводить (тест, экзамен), давать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give a test, or to carry out an official procedure",
+          "body": [
+            "(проводить (тест, экзамен), давать)"
+          ],
+          "examples": [
+            "The state administers the reading test every spring.",
+            "A nurse administered the hearing screening.",
+            "They are administering the exam in the gym."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give someone a medicine or a medical treatment",
+          "body": [
+            "(вводить (лекарство), давать; оказывать (помощь))"
+          ],
+          "examples": [
+            "A nurse will administer the shot.",
+            "They administered first aid at the scene.",
+            "The vaccine is being administered at all county clinics."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To manage an organization, a fund, or a program and be responsible for it",
+          "body": [
+            "(управлять, руководить; распоряжаться)",
+            "---"
+          ],
+          "examples": [
+            "A local bank administers the trust.",
+            "She administered the estate after her father died.",
+            "The program has been administered by the state for ten years."
+          ]
+        }
+      ],
+      "русский": "проводить (тест, экзамен), давать; вводить (лекарство), давать; оказывать (помощь); управлять, руководить; распоряжаться",
       "forms": "administer · administered · administered",
       "verb class": "regular",
       "third person": "administers · -ing form: administering",
@@ -392,14 +494,43 @@
       "term": "help",
       "ipa": "/hɛlp/",
       "respell": "HELP",
-      "meaning": "To make it easier for someone to do something. ---",
+      "meaning": "Help has 2 distinct senses.",
       "examples": [
         "Can you help me with these verbs?",
         "She helped me study for the final.",
-        "He has helped dozens of students pass the exam."
+        "He has helped dozens of students pass the exam.",
+        "I couldn't help laughing when he slipped.",
+        "She can't help the way she sounds on the phone.",
+        "The delay was awful, but it couldn't be helped."
       ],
-      "senses": [],
-      "русский": "помогать, помочь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make it easier for someone to do something",
+          "body": [
+            "(помогать, помочь)"
+          ],
+          "examples": [
+            "Can you help me with these verbs?",
+            "She helped me study for the final.",
+            "He has helped dozens of students pass the exam."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be able to stop or avoid something, used in the negative",
+          "body": [
+            "(удерживаться, удержаться; не мочь не (в обороте can't help))",
+            "---"
+          ],
+          "examples": [
+            "I couldn't help laughing when he slipped.",
+            "She can't help the way she sounds on the phone.",
+            "The delay was awful, but it couldn't be helped."
+          ]
+        }
+      ],
+      "русский": "помогать, помочь; удерживаться, удержаться; не мочь не (в обороте can't help)",
       "forms": "help · helped · helped",
       "verb class": "regular",
       "third person": "helps · -ing form: helping",
@@ -428,14 +559,43 @@
       "term": "foster",
       "ipa": "/ˈfɔːstər/",
       "respell": "FAW-stur",
-      "meaning": "To encourage a skill, a feeling, or a habit to develop. ---",
+      "meaning": "Foster has 2 distinct senses.",
       "examples": [
         "Group projects foster cooperation.",
         "That teacher fostered my interest in science.",
-        "The program has fostered real progress in reading."
+        "The program has fostered real progress in reading.",
+        "They fostered three kids before adopting one of them.",
+        "Would you consider fostering a dog for a few weeks?",
+        "She has fostered more than twenty children."
       ],
-      "senses": [],
-      "русский": "развивать, поощрять (в ком-л.), способствовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To encourage a skill, a feeling, or a habit to develop",
+          "body": [
+            "(развивать, поощрять (в ком-л.), способствовать)"
+          ],
+          "examples": [
+            "Group projects foster cooperation.",
+            "That teacher fostered my interest in science.",
+            "The program has fostered real progress in reading."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take a child or an animal into your home and care for them for a time without adopting them",
+          "body": [
+            "(брать на воспитание (в приёмную семью); приютить (животное))",
+            "---"
+          ],
+          "examples": [
+            "They fostered three kids before adopting one of them.",
+            "Would you consider fostering a dog for a few weeks?",
+            "She has fostered more than twenty children."
+          ]
+        }
+      ],
+      "русский": "развивать, поощрять (в ком-л.), способствовать; брать на воспитание (в приёмную семью); приютить (животное)",
       "forms": "foster · fostered · fostered",
       "verb class": "regular",
       "third person": "fosters · -ing form: fostering",
@@ -445,14 +605,43 @@
       "term": "stimulate",
       "ipa": "/ˈstɪmjəleɪt/",
       "respell": "STIM-yuh-layt",
-      "meaning": "To make someone more interested, active, or eager to think. ---",
+      "meaning": "Stimulate has 2 distinct senses.",
       "examples": [
         "Good questions stimulate thinking.",
         "The film stimulated a long discussion.",
-        "The class is stimulating her interest in history."
+        "The class is stimulating her interest in history.",
+        "Exercise stimulates blood flow to the muscles.",
+        "The tax cut stimulated hiring for about a year.",
+        "The grant money is stimulating new research across the state."
       ],
-      "senses": [],
-      "русский": "стимулировать, побуждать; возбуждать (интерес)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make someone more interested, active, or eager to think",
+          "body": [
+            "(стимулировать, побуждать; возбуждать (интерес))"
+          ],
+          "examples": [
+            "Good questions stimulate thinking.",
+            "The film stimulated a long discussion.",
+            "The class is stimulating her interest in history."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a system or a part of the body more active",
+          "body": [
+            "(стимулировать, активизировать (экономику, рост, кровообращение))",
+            "---"
+          ],
+          "examples": [
+            "Exercise stimulates blood flow to the muscles.",
+            "The tax cut stimulated hiring for about a year.",
+            "The grant money is stimulating new research across the state."
+          ]
+        }
+      ],
+      "русский": "стимулировать, побуждать; возбуждать (интерес); стимулировать, активизировать (экономику, рост, кровообращение)",
       "forms": "stimulate · stimulated · stimulated",
       "verb class": "regular",
       "third person": "stimulates · -ing form: stimulating",
@@ -462,14 +651,43 @@
       "term": "engage",
       "ipa": "/ɪnˈɡeɪdʒ/",
       "respell": "in-GAYJ",
-      "meaning": "To hold someone's interest, or to get seriously involved with something. ---",
+      "meaning": "Engage has 2 distinct senses.",
       "examples": [
         "A good lesson engages every student in the room.",
         "She engaged the class with a story about her grandmother.",
-        "They are engaging more deeply with the text this year."
+        "They are engaging more deeply with the text this year.",
+        "Make sure the parking brake is engaged.",
+        "The gears engage with a soft click.",
+        "The lock engaged as soon as the door swung shut."
       ],
-      "senses": [],
-      "русский": "увлекать, заинтересовывать; вовлекать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To hold someone's interest, or to get seriously involved with something",
+          "body": [
+            "(увлекать, заинтересовывать; вовлекать)"
+          ],
+          "examples": [
+            "A good lesson engages every student in the room.",
+            "She engaged the class with a story about her grandmother.",
+            "They are engaging more deeply with the text this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fit together and lock into place, said of a mechanical part",
+          "body": [
+            "(включаться, входить в зацепление; включать (передачу, тормоз))",
+            "---"
+          ],
+          "examples": [
+            "Make sure the parking brake is engaged.",
+            "The gears engage with a soft click.",
+            "The lock engaged as soon as the door swung shut."
+          ]
+        }
+      ],
+      "русский": "увлекать, заинтересовывать; вовлекать; включаться, входить в зацепление; включать (передачу, тормоз)",
       "forms": "engage · engaged · engaged",
       "verb class": "regular",
       "third person": "engages · -ing form: engaging",
@@ -590,14 +808,58 @@
       "term": "apply",
       "ipa": "/əˈplaɪ/",
       "respell": "uh-PLY",
-      "meaning": "To ask formally to be accepted somewhere, or to put a rule or method to use. ---",
+      "meaning": "Apply has 3 distinct senses.",
       "examples": [
         "She wants to apply to three universities.",
         "He applied for a scholarship in December.",
-        "We are applying what we learned last week."
+        "We are applying what we learned last week.",
+        "Apply sunscreen every two hours.",
+        "She applied a second coat of paint.",
+        "The nurse is applying a bandage to his arm.",
+        "The discount applies to members only.",
+        "That rule applied only to last year's students.",
+        "These instructions don't apply to your model."
       ],
-      "senses": [],
-      "русский": "подавать заявление, поступать; применять (правило)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To ask formally to be accepted somewhere, or to put a rule or method to use",
+          "body": [
+            "(подавать заявление, поступать; применять (правило))"
+          ],
+          "examples": [
+            "She wants to apply to three universities.",
+            "He applied for a scholarship in December.",
+            "We are applying what we learned last week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To spread or put a substance onto a surface",
+          "body": [
+            "(наносить, нанести (крем, краску))"
+          ],
+          "examples": [
+            "Apply sunscreen every two hours.",
+            "She applied a second coat of paint.",
+            "The nurse is applying a bandage to his arm."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To be relevant to a particular person or situation",
+          "body": [
+            "(относиться, касаться; распространяться (на кого-л.))",
+            "---"
+          ],
+          "examples": [
+            "The discount applies to members only.",
+            "That rule applied only to last year's students.",
+            "These instructions don't apply to your model."
+          ]
+        }
+      ],
+      "русский": "подавать заявление, поступать; применять (правило); наносить, нанести (крем, краску); относиться, касаться; распространяться (на кого-л.)",
       "forms": "apply · applied · applied",
       "verb class": "regular",
       "third person": "applies · -ing form: applying",
@@ -609,14 +871,43 @@
       "term": "reapply",
       "ipa": "/ˌriːəˈplaɪ/",
       "respell": "ree-uh-PLY",
-      "meaning": "To send in an application a second time. ---",
+      "meaning": "Reapply has 2 distinct senses.",
       "examples": [
         "If they turn you down, you can reapply next year.",
         "She reapplied in the fall and got in.",
-        "He is reapplying to the same program."
+        "He is reapplying to the same program.",
+        "Reapply sunscreen every two hours.",
+        "She reapplied her lipstick in the mirror.",
+        "The wax has to be reapplied once the first coat dries."
       ],
-      "senses": [],
-      "русский": "подавать заявление повторно",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To send in an application a second time",
+          "body": [
+            "(подавать заявление повторно)"
+          ],
+          "examples": [
+            "If they turn you down, you can reapply next year.",
+            "She reapplied in the fall and got in.",
+            "He is reapplying to the same program."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put a substance on a surface again",
+          "body": [
+            "(наносить повторно, нанести заново (крем, слой))",
+            "---"
+          ],
+          "examples": [
+            "Reapply sunscreen every two hours.",
+            "She reapplied her lipstick in the mirror.",
+            "The wax has to be reapplied once the first coat dries."
+          ]
+        }
+      ],
+      "русский": "подавать заявление повторно; наносить повторно, нанести заново (крем, слой)",
       "forms": "reapply · reapplied · reapplied",
       "verb class": "regular",
       "third person": "reapplies · -ing form: reapplying",
@@ -682,14 +973,43 @@
       "term": "qualify",
       "ipa": "/ˈkwɑːləfaɪ/",
       "respell": "KWAH-luh-fy",
-      "meaning": "To reach the standard needed for a job, a place, or the next round. ---",
+      "meaning": "Qualify has 2 distinct senses.",
       "examples": [
         "These two courses qualify you for the certificate.",
         "She qualified as a nurse last year.",
-        "He is qualifying for the state finals."
+        "He is qualifying for the state finals.",
+        "I'd qualify that a little: it works, but only on new machines.",
+        "He qualified his praise with a warning about the cost.",
+        "Every promise in the letter is qualified by a footnote."
       ],
-      "senses": [],
-      "русский": "получать квалификацию; давать право; проходить отбор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To reach the standard needed for a job, a place, or the next round",
+          "body": [
+            "(получать квалификацию; давать право; проходить отбор)"
+          ],
+          "examples": [
+            "These two courses qualify you for the certificate.",
+            "She qualified as a nurse last year.",
+            "He is qualifying for the state finals."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To add something to a statement so that it is less strong or less general",
+          "body": [
+            "(оговаривать, оговорить; уточнять, смягчать (высказывание))",
+            "---"
+          ],
+          "examples": [
+            "I'd qualify that a little: it works, but only on new machines.",
+            "He qualified his praise with a warning about the cost.",
+            "Every promise in the letter is qualified by a footnote."
+          ]
+        }
+      ],
+      "русский": "получать квалификацию; давать право; проходить отбор; оговаривать, оговорить; уточнять, смягчать (высказывание)",
       "forms": "qualify · qualified · qualified",
       "verb class": "regular",
       "third person": "qualifies · -ing form: qualifying",
@@ -775,14 +1095,43 @@
       "term": "shadow",
       "ipa": "/ˈʃædoʊ/",
       "respell": "SHAD-oh",
-      "meaning": "To follow someone at work for a day or two in order to learn what the job is like. ---",
+      "meaning": "Shadow has 2 distinct senses.",
       "examples": [
         "Juniors can shadow a nurse for a day.",
         "He shadowed an engineer last spring.",
-        "She is shadowing a veterinarian this week."
+        "She is shadowing a veterinarian this week.",
+        "Two agents shadow him whenever he leaves the hotel.",
+        "A detective shadowed her for a week.",
+        "He realized he was being shadowed by the same gray car."
       ],
-      "senses": [],
-      "русский": "сопровождать (специалиста) для обучения, наблюдать за работой",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To follow someone at work for a day or two in order to learn what the job is like",
+          "body": [
+            "(сопровождать (специалиста) для обучения, наблюдать за работой)"
+          ],
+          "examples": [
+            "Juniors can shadow a nurse for a day.",
+            "He shadowed an engineer last spring.",
+            "She is shadowing a veterinarian this week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To follow someone closely and secretly in order to watch what they do",
+          "body": [
+            "(следить (за кем-л.), ходить по пятам; вести слежку)",
+            "---"
+          ],
+          "examples": [
+            "Two agents shadow him whenever he leaves the hotel.",
+            "A detective shadowed her for a week.",
+            "He realized he was being shadowed by the same gray car."
+          ]
+        }
+      ],
+      "русский": "сопровождать (специалиста) для обучения, наблюдать за работой; следить (за кем-л.), ходить по пятам; вести слежку",
       "forms": "shadow · shadowed · shadowed",
       "verb class": "regular",
       "third person": "shadows · -ing form: shadowing",
@@ -828,14 +1177,43 @@
       "term": "cram",
       "ipa": "/kræm/",
       "respell": "KRAM",
-      "meaning": "To study very hard in a short time just before a test. ---",
+      "meaning": "Cram has 2 distinct senses.",
       "examples": [
         "Try not to cram the night before the exam.",
         "We crammed for six hours straight.",
-        "He is cramming for the chemistry final."
+        "He is cramming for the chemistry final.",
+        "He crammed his clothes into one bag.",
+        "Don't cram so much into the drawer.",
+        "Two hundred people were crammed into the hall."
       ],
-      "senses": [],
-      "русский": "зубрить, зазубривать (перед экзаменом)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To study very hard in a short time just before a test",
+          "body": [
+            "(зубрить, зазубривать (перед экзаменом))"
+          ],
+          "examples": [
+            "Try not to cram the night before the exam.",
+            "We crammed for six hours straight.",
+            "He is cramming for the chemistry final."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To force too much into a small space",
+          "body": [
+            "(запихивать, втискивать, набить)",
+            "---"
+          ],
+          "examples": [
+            "He crammed his clothes into one bag.",
+            "Don't cram so much into the drawer.",
+            "Two hundred people were crammed into the hall."
+          ]
+        }
+      ],
+      "русский": "зубрить, зазубривать (перед экзаменом); запихивать, втискивать, набить",
       "forms": "cram · crammed · crammed",
       "verb class": "regular",
       "third person": "crams · -ing form: cramming",
@@ -865,14 +1243,58 @@
       "term": "retain",
       "ipa": "/rɪˈteɪn/",
       "respell": "ri-TAYN",
-      "meaning": "To keep something in your memory. ---",
+      "meaning": "Retain has 3 distinct senses.",
       "examples": [
         "Most people retain very little from a long lecture.",
         "She retained almost everything she read.",
-        "He is retaining far more since he started using flashcards."
+        "He is retaining far more since he started using flashcards.",
+        "The jacket retains its shape after washing.",
+        "She retained control of the company after the sale.",
+        "The building has retained its original windows.",
+        "You should retain a lawyer before you sign anything.",
+        "The family retained a well-known attorney.",
+        "He has retained the same accountant for twenty years."
       ],
-      "senses": [],
-      "русский": "запоминать, удерживать в памяти; сохранять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To keep something in your memory",
+          "body": [
+            "(запоминать, удерживать в памяти; сохранять)"
+          ],
+          "examples": [
+            "Most people retain very little from a long lecture.",
+            "She retained almost everything she read.",
+            "He is retaining far more since he started using flashcards."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To continue to have or keep something",
+          "body": [
+            "(сохранять, сохранить; удерживать)"
+          ],
+          "examples": [
+            "The jacket retains its shape after washing.",
+            "She retained control of the company after the sale.",
+            "The building has retained its original windows."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To hire a lawyer or another professional by paying in advance",
+          "body": [
+            "(нанимать, нанять (адвоката); приглашать (специалиста))",
+            "---"
+          ],
+          "examples": [
+            "You should retain a lawyer before you sign anything.",
+            "The family retained a well-known attorney.",
+            "He has retained the same accountant for twenty years."
+          ]
+        }
+      ],
+      "русский": "запоминать, удерживать в памяти; сохранять; сохранять, сохранить; удерживать; нанимать, нанять (адвоката); приглашать (специалиста)",
       "forms": "retain · retained · retained",
       "verb class": "regular",
       "third person": "retains · -ing form: retaining",
@@ -900,14 +1322,43 @@
       "term": "revisit",
       "ipa": "/ˌriːˈvɪzɪt/",
       "respell": "ree-VIZ-it",
-      "meaning": "To come back to a topic in order to look at it again. ---",
+      "meaning": "Revisit has 2 distinct senses.",
       "examples": [
         "We will revisit this topic in chapter nine.",
         "The class revisited the poem before the test.",
-        "I am revisiting my notes from last semester."
+        "I am revisiting my notes from last semester.",
+        "We'd love to revisit Chicago in the fall.",
+        "He revisited the town where he grew up.",
+        "I've never revisited the school since graduation."
       ],
-      "senses": [],
-      "русский": "возвращаться (к теме), пересматривать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To come back to a topic in order to look at it again",
+          "body": [
+            "(возвращаться (к теме), пересматривать)"
+          ],
+          "examples": [
+            "We will revisit this topic in chapter nine.",
+            "The class revisited the poem before the test.",
+            "I am revisiting my notes from last semester."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To go to a place again after being away for a long time",
+          "body": [
+            "(снова посещать, побывать снова (в каком-л. месте))",
+            "---"
+          ],
+          "examples": [
+            "We'd love to revisit Chicago in the fall.",
+            "He revisited the town where he grew up.",
+            "I've never revisited the school since graduation."
+          ]
+        }
+      ],
+      "русский": "возвращаться (к теме), пересматривать; снова посещать, побывать снова (в каком-л. месте)",
       "forms": "revisit · revisited · revisited",
       "verb class": "regular",
       "third person": "revisits · -ing form: revisiting",
@@ -917,14 +1368,43 @@
       "term": "hone",
       "ipa": "/hoʊn/",
       "respell": "HOHN",
-      "meaning": "To improve a skill by practicing it carefully over time. ---",
+      "meaning": "Hone has 2 distinct senses.",
       "examples": [
         "Reading aloud every day hones your pronunciation.",
         "She honed her writing in a summer workshop.",
-        "He has honed the technique over twenty years."
+        "He has honed the technique over twenty years.",
+        "He hones his kitchen knives every Sunday.",
+        "The barber honed the razor on a leather strap.",
+        "She was honing the blade while the water boiled."
       ],
-      "senses": [],
-      "русский": "оттачивать, совершенствовать (навык)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To improve a skill by practicing it carefully over time",
+          "body": [
+            "(оттачивать, совершенствовать (навык))"
+          ],
+          "examples": [
+            "Reading aloud every day hones your pronunciation.",
+            "She honed her writing in a summer workshop.",
+            "He has honed the technique over twenty years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To sharpen the edge of a blade against a stone",
+          "body": [
+            "(точить, наточить; править (лезвие))",
+            "---"
+          ],
+          "examples": [
+            "He hones his kitchen knives every Sunday.",
+            "The barber honed the razor on a leather strap.",
+            "She was honing the blade while the water boiled."
+          ]
+        }
+      ],
+      "русский": "оттачивать, совершенствовать (навык); точить, наточить; править (лезвие)",
       "forms": "hone · honed · honed",
       "verb class": "regular",
       "third person": "hones · -ing form: honing",
@@ -952,14 +1432,43 @@
       "term": "synthesize",
       "ipa": "/ˈsɪnθəsaɪz/",
       "respell": "SIN-thuh-syz",
-      "meaning": "To combine ideas from several sources into one whole. ---",
+      "meaning": "Synthesize has 2 distinct senses.",
       "examples": [
         "The essay asks you to synthesize three readings.",
         "She synthesized the articles into a single argument.",
-        "They are synthesizing data from four studies."
+        "They are synthesizing data from four studies.",
+        "The lab can synthesize the drug in three steps.",
+        "Chemists first synthesized the compound in 1952.",
+        "Vitamin D is synthesized in the skin."
       ],
-      "senses": [],
-      "русский": "обобщать, синтезировать (материал)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To combine ideas from several sources into one whole",
+          "body": [
+            "(обобщать, синтезировать (материал))"
+          ],
+          "examples": [
+            "The essay asks you to synthesize three readings.",
+            "She synthesized the articles into a single argument.",
+            "They are synthesizing data from four studies."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a substance artificially by combining chemicals",
+          "body": [
+            "(синтезировать (вещество), получать искусственным путём)",
+            "---"
+          ],
+          "examples": [
+            "The lab can synthesize the drug in three steps.",
+            "Chemists first synthesized the compound in 1952.",
+            "Vitamin D is synthesized in the skin."
+          ]
+        }
+      ],
+      "русский": "обобщать, синтезировать (материал); синтезировать (вещество), получать искусственным путём",
       "forms": "synthesize · synthesized · synthesized",
       "verb class": "regular",
       "third person": "synthesizes · -ing form: synthesizing",
@@ -1006,14 +1515,43 @@
       "term": "relate",
       "ipa": "/rɪˈleɪt/",
       "respell": "ri-LAYT",
-      "meaning": "To connect two things, or to understand and feel close to something. ---",
+      "meaning": "Relate has 2 distinct senses.",
       "examples": [
         "Good teaching relates new facts to what students already know.",
         "She related the story to her own childhood.",
-        "I could not relate to that character at all."
+        "I could not relate to that character at all.",
+        "Relate the events exactly as you remember them.",
+        "He related the whole story over dinner.",
+        "She spent an hour relating what had happened that night."
       ],
-      "senses": [],
-      "русский": "соотносить, связывать; понимать, сопереживать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To connect two things, or to understand and feel close to something",
+          "body": [
+            "(соотносить, связывать; понимать, сопереживать)"
+          ],
+          "examples": [
+            "Good teaching relates new facts to what students already know.",
+            "She related the story to her own childhood.",
+            "I could not relate to that character at all."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To tell someone about events, in order",
+          "body": [
+            "(рассказывать, излагать; поведать)",
+            "---"
+          ],
+          "examples": [
+            "Relate the events exactly as you remember them.",
+            "He related the whole story over dinner.",
+            "She spent an hour relating what had happened that night."
+          ]
+        }
+      ],
+      "русский": "соотносить, связывать; понимать, сопереживать; рассказывать, излагать; поведать",
       "forms": "relate · related · related",
       "verb class": "regular",
       "third person": "relates · -ing form: relating",
@@ -1044,14 +1582,43 @@
       "term": "derive",
       "ipa": "/dɪˈraɪv/",
       "respell": "di-RYV",
-      "meaning": "To work something out from a starting point, or to come originally from a source. ---",
+      "meaning": "Derive has 2 distinct senses.",
       "examples": [
         "You can derive the whole formula from two simple rules.",
         "The word derived from Latin.",
-        "We are deriving the equation step by step."
+        "We are deriving the equation step by step.",
+        "She derives real satisfaction from teaching.",
+        "He derived little comfort from the apology.",
+        "The town has derived most of its income from tourism."
       ],
-      "senses": [],
-      "русский": "выводить (формулу); происходить (от чего-л.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To work something out from a starting point, or to come originally from a source",
+          "body": [
+            "(выводить (формулу); происходить (от чего-л.))"
+          ],
+          "examples": [
+            "You can derive the whole formula from two simple rules.",
+            "The word derived from Latin.",
+            "We are deriving the equation step by step."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To get something such as pleasure or benefit from a source",
+          "body": [
+            "(извлекать, извлечь; получать (удовольствие, пользу))",
+            "---"
+          ],
+          "examples": [
+            "She derives real satisfaction from teaching.",
+            "He derived little comfort from the apology.",
+            "The town has derived most of its income from tourism."
+          ]
+        }
+      ],
+      "русский": "выводить (формулу); происходить (от чего-л.); извлекать, извлечь; получать (удовольствие, пользу)",
       "forms": "derive · derived · derived",
       "verb class": "regular",
       "third person": "derives · -ing form: deriving",
@@ -1080,14 +1647,43 @@
       "term": "search",
       "ipa": "/sɜːrtʃ/",
       "respell": "SURCH",
-      "meaning": "To look carefully for something. ---",
+      "meaning": "Search has 2 distinct senses.",
       "examples": [
         "Search the index for the term.",
         "I searched for an hour and found nothing.",
-        "She is searching the database for older studies."
+        "She is searching the database for older studies.",
+        "Officers may not search your car without cause.",
+        "They searched the apartment for two hours.",
+        "Every bag is searched at the entrance."
       ],
-      "senses": [],
-      "русский": "искать, разыскивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To look carefully for something",
+          "body": [
+            "(искать, разыскивать)"
+          ],
+          "examples": [
+            "Search the index for the term.",
+            "I searched for an hour and found nothing.",
+            "She is searching the database for older studies."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To examine a person, a vehicle, or a place thoroughly to find something hidden",
+          "body": [
+            "(обыскивать, обыскать; досматривать, досмотреть)",
+            "---"
+          ],
+          "examples": [
+            "Officers may not search your car without cause.",
+            "They searched the apartment for two hours.",
+            "Every bag is searched at the entrance."
+          ]
+        }
+      ],
+      "русский": "искать, разыскивать; обыскивать, обыскать; досматривать, досмотреть",
       "forms": "search · searched · searched",
       "verb class": "regular",
       "third person": "searches · -ing form: searching",
@@ -1170,14 +1766,43 @@
       "term": "replicate",
       "ipa": "/ˈrɛpləkeɪt/",
       "respell": "REP-luh-kayt",
-      "meaning": "To repeat an experiment or a result exactly. ---",
+      "meaning": "Replicate has 2 distinct senses.",
       "examples": [
         "Students replicate a famous experiment in week three.",
         "No one could replicate her results.",
-        "They are replicating the study with older children."
+        "They are replicating the study with older children.",
+        "The virus replicates quickly in the lungs.",
+        "The cells replicated faster than the drug could stop them.",
+        "The vaccine keeps the virus from replicating."
       ],
-      "senses": [],
-      "русский": "воспроизводить (опыт), повторять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To repeat an experiment or a result exactly",
+          "body": [
+            "(воспроизводить (опыт), повторять)"
+          ],
+          "examples": [
+            "Students replicate a famous experiment in week three.",
+            "No one could replicate her results.",
+            "They are replicating the study with older children."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "For a cell or a virus to make copies of itself",
+          "body": [
+            "(размножаться, реплицироваться (о вирусе, клетке))",
+            "---"
+          ],
+          "examples": [
+            "The virus replicates quickly in the lungs.",
+            "The cells replicated faster than the drug could stop them.",
+            "The vaccine keeps the virus from replicating."
+          ]
+        }
+      ],
+      "русский": "воспроизводить (опыт), повторять; размножаться, реплицироваться (о вирусе, клетке)",
       "forms": "replicate · replicated · replicated",
       "verb class": "regular",
       "third person": "replicates · -ing form: replicating",
@@ -1275,14 +1900,43 @@
       "term": "stump",
       "ipa": "/stʌmp/",
       "respell": "STUMP",
-      "meaning": "To ask something so hard that the other person cannot answer. ---",
+      "meaning": "Stump has 2 distinct senses.",
       "examples": [
         "That riddle stumps everyone.",
         "The last problem stumped me completely.",
-        "She has stumped the whole class with one question."
+        "She has stumped the whole class with one question.",
+        "He plans to stump across Iowa in October.",
+        "She stumped for her party in six states.",
+        "They have been stumping in small towns all month."
       ],
-      "senses": [],
-      "русский": "ставить в тупик, озадачивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To ask something so hard that the other person cannot answer",
+          "body": [
+            "(ставить в тупик, озадачивать)"
+          ],
+          "examples": [
+            "That riddle stumps everyone.",
+            "The last problem stumped me completely.",
+            "She has stumped the whole class with one question."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To travel around an area making speeches in a political campaign",
+          "body": [
+            "(вести предвыборную агитацию, разъезжать с выступлениями)",
+            "---"
+          ],
+          "examples": [
+            "He plans to stump across Iowa in October.",
+            "She stumped for her party in six states.",
+            "They have been stumping in small towns all month."
+          ]
+        }
+      ],
+      "русский": "ставить в тупик, озадачивать; вести предвыборную агитацию, разъезжать с выступлениями",
       "forms": "stump · stumped · stumped",
       "verb class": "regular",
       "third person": "stumps · -ing form: stumping",
@@ -1310,14 +1964,43 @@
       "term": "listen",
       "ipa": "/ˈlɪsən/",
       "respell": "LIS-uhn",
-      "meaning": "To pay attention to a sound, a person, or a recording. ---",
+      "meaning": "Listen has 2 distinct senses.",
       "examples": [
         "Listen to the recording twice before you answer.",
         "She listened to the lecture again at double speed.",
-        "I have been listening to podcasts to train my ear."
+        "I have been listening to podcasts to train my ear.",
+        "The kids never listen to their babysitter.",
+        "We all warned him, but he wasn't listening to anybody.",
+        "If he had listened to his doctor, he would not be in the hospital."
       ],
-      "senses": [],
-      "русский": "слушать, послушать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pay attention to a sound, a person, or a recording",
+          "body": [
+            "(слушать, послушать)"
+          ],
+          "examples": [
+            "Listen to the recording twice before you answer.",
+            "She listened to the lecture again at double speed.",
+            "I have been listening to podcasts to train my ear."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To do what someone tells or advises you to do",
+          "body": [
+            "(слушаться, послушаться; прислушиваться, прислушаться)",
+            "---"
+          ],
+          "examples": [
+            "The kids never listen to their babysitter.",
+            "We all warned him, but he wasn't listening to anybody.",
+            "If he had listened to his doctor, he would not be in the hospital."
+          ]
+        }
+      ],
+      "русский": "слушать, послушать; слушаться, послушаться; прислушиваться, прислушаться",
       "forms": "listen · listened · listened",
       "verb class": "regular",
       "third person": "listens · -ing form: listening",
@@ -1437,14 +2120,43 @@
       "term": "detail",
       "ipa": "/dɪˈteɪl/",
       "respell": "di-TAYL",
-      "meaning": "To describe something fully, point by point. ---",
+      "meaning": "Detail has 2 distinct senses.",
       "examples": [
         "The syllabus details every assignment.",
         "She detailed her method in the appendix.",
-        "The handbook is detailing the new rules for next fall."
+        "The handbook is detailing the new rules for next fall.",
+        "I want to detail the car before we sell it.",
+        "He detailed the truck himself on Saturday.",
+        "The van is being detailed this afternoon."
       ],
-      "senses": [],
-      "русский": "подробно излагать, детализировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To describe something fully, point by point",
+          "body": [
+            "(подробно излагать, детализировать)"
+          ],
+          "examples": [
+            "The syllabus details every assignment.",
+            "She detailed her method in the appendix.",
+            "The handbook is detailing the new rules for next fall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To clean and polish a car thoroughly, inside and out",
+          "body": [
+            "(тщательно чистить (машину), делать детейлинг)",
+            "---"
+          ],
+          "examples": [
+            "I want to detail the car before we sell it.",
+            "He detailed the truck himself on Saturday.",
+            "The van is being detailed this afternoon."
+          ]
+        }
+      ],
+      "русский": "подробно излагать, детализировать; тщательно чистить (машину), делать детейлинг",
       "forms": "detail · detailed · detailed",
       "verb class": "regular",
       "third person": "details · -ing form: detailing",
@@ -1492,14 +2204,43 @@
       "term": "fulfill",
       "ipa": "/fʊlˈfɪl/",
       "respell": "fuul-FIL",
-      "meaning": "To do what a rule, a promise, or a requirement asks for. ---",
+      "meaning": "Fulfill has 2 distinct senses.",
       "examples": [
         "Two lab courses fulfill the science requirement.",
         "She fulfilled the language requirement with Spanish.",
-        "He is fulfilling his last credits this summer."
+        "He is fulfilling his last credits this summer.",
+        "Teaching fulfills her in a way that office work never did.",
+        "He quit because the job no longer fulfilled him.",
+        "Raising her kids has been the most fulfilling work of her life."
       ],
-      "senses": [],
-      "русский": "выполнять, исполнять (требование, условие)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To do what a rule, a promise, or a requirement asks for",
+          "body": [
+            "(выполнять, исполнять (требование, условие))"
+          ],
+          "examples": [
+            "Two lab courses fulfill the science requirement.",
+            "She fulfilled the language requirement with Spanish.",
+            "He is fulfilling his last credits this summer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make someone feel satisfied and complete",
+          "body": [
+            "(приносить удовлетворение, реализовывать (способности))",
+            "---"
+          ],
+          "examples": [
+            "Teaching fulfills her in a way that office work never did.",
+            "He quit because the job no longer fulfilled him.",
+            "Raising her kids has been the most fulfilling work of her life."
+          ]
+        }
+      ],
+      "русский": "выполнять, исполнять (требование, условие); приносить удовлетворение, реализовывать (способности)",
       "forms": "fulfill · fulfilled · fulfilled",
       "verb class": "regular",
       "third person": "fulfills · -ing form: fulfilling",
@@ -1564,14 +2305,58 @@
       "term": "cheat",
       "ipa": "/tʃiːt/",
       "respell": "CHEET",
-      "meaning": "To break the rules of a test or a game in order to gain an advantage. ---",
+      "meaning": "Cheat has 3 distinct senses.",
       "examples": [
         "Nobody needs to cheat on a take-home exam.",
         "He cheated on the final and was expelled.",
-        "She was caught cheating in the first week."
+        "She was caught cheating in the first week.",
+        "That shop cheats tourists every summer.",
+        "The broker cheated investors out of millions.",
+        "Customers felt cheated when the refund never came.",
+        "He swore he would never cheat.",
+        "She cheated on her first husband for two years.",
+        "They split up after she found out he had been cheating."
       ],
-      "senses": [],
-      "русский": "списывать, жульничать; обманывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break the rules of a test or a game in order to gain an advantage",
+          "body": [
+            "(списывать, жульничать; обманывать)"
+          ],
+          "examples": [
+            "Nobody needs to cheat on a take-home exam.",
+            "He cheated on the final and was expelled.",
+            "She was caught cheating in the first week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take money or an advantage from someone by tricking them",
+          "body": [
+            "(обманывать, обмануть; надувать, обжулить)"
+          ],
+          "examples": [
+            "That shop cheats tourists every summer.",
+            "The broker cheated investors out of millions.",
+            "Customers felt cheated when the refund never came."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To be unfaithful to a husband, wife, or partner",
+          "body": [
+            "(изменять, изменить (супругу, партнёру))",
+            "---"
+          ],
+          "examples": [
+            "He swore he would never cheat.",
+            "She cheated on her first husband for two years.",
+            "They split up after she found out he had been cheating."
+          ]
+        }
+      ],
+      "русский": "списывать, жульничать; обманывать; обманывать, обмануть; надувать, обжулить; изменять, изменить (супругу, партнёру)",
       "forms": "cheat · cheated · cheated",
       "verb class": "regular",
       "third person": "cheats · -ing form: cheating",
@@ -1637,14 +2422,43 @@
       "term": "tackle",
       "ipa": "/ˈtækəl/",
       "respell": "TAK-uhl",
-      "meaning": "To start dealing with a difficult problem or task. ---",
+      "meaning": "Tackle has 2 distinct senses.",
       "examples": [
         "Tackle the hardest question first.",
         "She tackled the whole reading list over the summer.",
-        "We are tackling fractions this week."
+        "We are tackling fractions this week.",
+        "He was tackled a yard short of the goal line.",
+        "Two officers tackled the man in the parking lot.",
+        "She learned to tackle without leading with her helmet."
       ],
-      "senses": [],
-      "русский": "браться (за задачу), взяться, решать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To start dealing with a difficult problem or task",
+          "body": [
+            "(браться (за задачу), взяться, решать)"
+          ],
+          "examples": [
+            "Tackle the hardest question first.",
+            "She tackled the whole reading list over the summer.",
+            "We are tackling fractions this week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To knock or pull someone to the ground, especially in football",
+          "body": [
+            "(сбивать с ног, повалить; блокировать (в футболе))",
+            "---"
+          ],
+          "examples": [
+            "He was tackled a yard short of the goal line.",
+            "Two officers tackled the man in the parking lot.",
+            "She learned to tackle without leading with her helmet."
+          ]
+        }
+      ],
+      "русский": "браться (за задачу), взяться, решать; сбивать с ног, повалить; блокировать (в футболе)",
       "forms": "tackle · tackled · tackled",
       "verb class": "regular",
       "third person": "tackles · -ing form: tackling",
@@ -1673,14 +2487,43 @@
       "term": "succeed",
       "ipa": "/səkˈsiːd/",
       "respell": "suhk-SEED",
-      "meaning": "To achieve what you were trying to do. ---",
+      "meaning": "Succeed has 2 distinct senses.",
       "examples": [
         "Students succeed when someone expects them to.",
         "She succeeded on her second try.",
-        "He has succeeded in every class he has taken."
+        "He has succeeded in every class he has taken.",
+        "She succeeded him as head of the department.",
+        "Nobody knows who will succeed the current governor.",
+        "He has succeeded his father as owner of the farm."
       ],
-      "senses": [],
-      "русский": "преуспевать, добиваться успеха; удаваться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To achieve what you were trying to do",
+          "body": [
+            "(преуспевать, добиваться успеха; удаваться)"
+          ],
+          "examples": [
+            "Students succeed when someone expects them to.",
+            "She succeeded on her second try.",
+            "He has succeeded in every class he has taken."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take over a position or a title from the person who held it before",
+          "body": [
+            "(сменять на посту, стать преемником; наследовать (престол))",
+            "---"
+          ],
+          "examples": [
+            "She succeeded him as head of the department.",
+            "Nobody knows who will succeed the current governor.",
+            "He has succeeded his father as owner of the farm."
+          ]
+        }
+      ],
+      "русский": "преуспевать, добиваться успеха; удаваться; сменять на посту, стать преемником; наследовать (престол)",
       "forms": "succeed · succeeded · succeeded",
       "verb class": "regular",
       "third person": "succeeds · -ing form: succeeding",
@@ -1857,14 +2700,43 @@
       "term": "socialize",
       "ipa": "/ˈsoʊʃəlaɪz/",
       "respell": "SOH-shuh-lyz",
-      "meaning": "To spend time with other people in a friendly way. ---",
+      "meaning": "Socialize has 2 distinct senses.",
       "examples": [
         "Freshmen mostly socialize in the dorms.",
         "We socialized for an hour after the exam.",
-        "She is socializing much more this year."
+        "She is socializing much more this year.",
+        "Puppies need to be socialized early.",
+        "The shelter socializes every dog before adoption.",
+        "We are socializing the kitten with our older cat."
       ],
-      "senses": [],
-      "русский": "общаться, проводить время с людьми",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To spend time with other people in a friendly way",
+          "body": [
+            "(общаться, проводить время с людьми)"
+          ],
+          "examples": [
+            "Freshmen mostly socialize in the dorms.",
+            "We socialized for an hour after the exam.",
+            "She is socializing much more this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To train a child or an animal to behave comfortably around others",
+          "body": [
+            "(приучать к общению, социализировать (ребёнка, щенка))",
+            "---"
+          ],
+          "examples": [
+            "Puppies need to be socialized early.",
+            "The shelter socializes every dog before adoption.",
+            "We are socializing the kitten with our older cat."
+          ]
+        }
+      ],
+      "русский": "общаться, проводить время с людьми; приучать к общению, социализировать (ребёнка, щенка)",
       "forms": "socialize · socialized · socialized",
       "verb class": "regular",
       "third person": "socializes · -ing form: socializing",
@@ -1965,14 +2837,43 @@
       "term": "round",
       "ipa": "/raʊnd/",
       "respell": "ROWND",
-      "meaning": "To change a number to the nearest simpler one. ---",
+      "meaning": "Round has 2 distinct senses.",
       "examples": [
         "Round your answer to two decimal places.",
         "She rounded 4.6 up to 5.",
-        "The program is rounding every score to the nearest whole number."
+        "The program is rounding every score to the nearest whole number.",
+        "Round the next bend and you will see the lake.",
+        "A truck rounded the corner too fast and clipped the mirror.",
+        "He was rounding third base when the throw came in."
       ],
-      "senses": [],
-      "русский": "округлять, округлить (число)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To change a number to the nearest simpler one",
+          "body": [
+            "(округлять, округлить (число))"
+          ],
+          "examples": [
+            "Round your answer to two decimal places.",
+            "She rounded 4.6 up to 5.",
+            "The program is rounding every score to the nearest whole number."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To go around a corner, a bend, or the edge of something",
+          "body": [
+            "(огибать, обогнуть; поворачивать за угол)",
+            "---"
+          ],
+          "examples": [
+            "Round the next bend and you will see the lake.",
+            "A truck rounded the corner too fast and clipped the mirror.",
+            "He was rounding third base when the throw came in."
+          ]
+        }
+      ],
+      "русский": "округлять, округлить (число); огибать, обогнуть; поворачивать за угол",
       "forms": "round · rounded · rounded",
       "verb class": "regular",
       "third person": "rounds · -ing form: rounding",
@@ -2092,14 +2993,43 @@
       "term": "chart",
       "ipa": "/tʃɑːrt/",
       "respell": "CHART",
-      "meaning": "To record progress or information in a table or a diagram. ---",
+      "meaning": "Chart has 2 distinct senses.",
       "examples": [
         "Teachers chart each student's progress every month.",
         "We charted the class's reading speed all year.",
-        "She is charting her study hours in a notebook."
+        "She is charting her study hours in a notebook.",
+        "The captain charted a course around the storm.",
+        "The new director wants to chart a different course for the museum.",
+        "They are still charting their next move."
       ],
-      "senses": [],
-      "русский": "отмечать на графике, отслеживать (прогресс)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To record progress or information in a table or a diagram",
+          "body": [
+            "(отмечать на графике, отслеживать (прогресс))"
+          ],
+          "examples": [
+            "Teachers chart each student's progress every month.",
+            "We charted the class's reading speed all year.",
+            "She is charting her study hours in a notebook."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To plan a route or a course of action",
+          "body": [
+            "(прокладывать курс, проложить; намечать путь)",
+            "---"
+          ],
+          "examples": [
+            "The captain charted a course around the storm.",
+            "The new director wants to chart a different course for the museum.",
+            "They are still charting their next move."
+          ]
+        }
+      ],
+      "русский": "отмечать на графике, отслеживать (прогресс); прокладывать курс, проложить; намечать путь",
       "forms": "chart · charted · charted",
       "verb class": "regular",
       "third person": "charts · -ing form: charting",
@@ -2127,14 +3057,43 @@
       "term": "sequence",
       "ipa": "/ˈsiːkwəns/",
       "respell": "SEE-kwuhns",
-      "meaning": "To arrange things in the right order. ---",
+      "meaning": "Sequence has 2 distinct senses.",
       "examples": [
         "Second graders sequence the events of a story.",
         "She sequenced the lessons so that the hardest came last.",
-        "We are sequencing the units differently this year."
+        "We are sequencing the units differently this year.",
+        "Labs can now sequence a whole genome in a day.",
+        "Researchers sequenced the virus within weeks.",
+        "The sample has been sequenced twice to be sure."
       ],
-      "senses": [],
-      "русский": "располагать по порядку, выстраивать последовательность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To arrange things in the right order",
+          "body": [
+            "(располагать по порядку, выстраивать последовательность)"
+          ],
+          "examples": [
+            "Second graders sequence the events of a story.",
+            "She sequenced the lessons so that the hardest came last.",
+            "We are sequencing the units differently this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To work out the exact order of the parts of a gene or a genome",
+          "body": [
+            "(секвенировать; определять последовательность (ДНК))",
+            "---"
+          ],
+          "examples": [
+            "Labs can now sequence a whole genome in a day.",
+            "Researchers sequenced the virus within weeks.",
+            "The sample has been sequenced twice to be sure."
+          ]
+        }
+      ],
+      "русский": "располагать по порядку, выстраивать последовательность; секвенировать; определять последовательность (ДНК)",
       "forms": "sequence · sequenced · sequenced",
       "verb class": "regular",
       "third person": "sequences · -ing form: sequencing",
@@ -2145,14 +3104,42 @@
       "term": "curve",
       "ipa": "/kɜːrv/",
       "respell": "KURV",
-      "meaning": "To raise a whole class's grades against a scale.",
+      "meaning": "Curve has 2 distinct senses.",
       "examples": [
         "Professors sometimes curve a very hard exam.",
         "She curved the midterm by eight points.",
-        "He is curving the final grades this semester."
+        "He is curving the final grades this semester.",
+        "The road curves sharply to the left.",
+        "The river curved around the hill.",
+        "A path curving through the trees led to the lake."
       ],
-      "senses": [],
-      "русский": "повышать оценки по кривой (о шкале оценок)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To raise a whole class's grades against a scale",
+          "body": [
+            "(повышать оценки по кривой (о шкале оценок))"
+          ],
+          "examples": [
+            "Professors sometimes curve a very hard exam.",
+            "She curved the midterm by eight points.",
+            "He is curving the final grades this semester."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bend in a smooth line instead of running straight",
+          "body": [
+            "(изгибаться, плавно поворачивать; изгибать)"
+          ],
+          "examples": [
+            "The road curves sharply to the left.",
+            "The river curved around the hill.",
+            "A path curving through the trees led to the lake."
+          ]
+        }
+      ],
+      "русский": "повышать оценки по кривой (о шкале оценок); изгибаться, плавно поворачивать; изгибать",
       "forms": "curve · curved · curved",
       "verb class": "regular",
       "third person": "curves · -ing form: curving",

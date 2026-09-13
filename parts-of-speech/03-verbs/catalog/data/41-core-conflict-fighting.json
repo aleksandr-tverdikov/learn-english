@@ -6,14 +6,73 @@
       "term": "attack",
       "ipa": "/əˈtæk/",
       "respell": "uh-TAK",
-      "meaning": "To use violence against a person, place, or army in order to hurt them or take control. ---",
+      "meaning": "Attack has 4 distinct senses.",
       "examples": [
         "Two men attacked him outside the bar.",
         "A wounded animal will attack anyone who comes close.",
-        "The base was attacked twice in the same week."
+        "The base was attacked twice in the same week.",
+        "Don't attack the person; argue with the idea.",
+        "The senator attacked the plan as a handout to big banks.",
+        "Newspapers have been attacking the mayor for weeks.",
+        "Let's attack the hardest problem first.",
+        "She attacked the pile of dishes as soon as the guests left.",
+        "They're attacking the backlog one order at a time.",
+        "The virus attacks the nervous system.",
+        "The disease attacked his joints first.",
+        "Termites had been attacking the beams for years before anyone looked."
       ],
-      "senses": [],
-      "русский": "нападать, напасть; атаковать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To use violence against a person, place, or army in order to hurt them or take control",
+          "body": [
+            "(нападать, напасть; атаковать)"
+          ],
+          "examples": [
+            "Two men attacked him outside the bar.",
+            "A wounded animal will attack anyone who comes close.",
+            "The base was attacked twice in the same week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To criticize someone or something strongly and publicly",
+          "body": [
+            "(критиковать, обрушиваться с критикой; нападать (словесно))"
+          ],
+          "examples": [
+            "Don't attack the person; argue with the idea.",
+            "The senator attacked the plan as a handout to big banks.",
+            "Newspapers have been attacking the mayor for weeks."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To begin work on something with great energy",
+          "body": [
+            "(энергично браться за, приниматься за, взяться)"
+          ],
+          "examples": [
+            "Let's attack the hardest problem first.",
+            "She attacked the pile of dishes as soon as the guests left.",
+            "They're attacking the backlog one order at a time."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Of a disease, chemical, or insect, to damage something by acting on it",
+          "body": [
+            "(поражать, поразить (о болезни, вредителях))",
+            "---"
+          ],
+          "examples": [
+            "The virus attacks the nervous system.",
+            "The disease attacked his joints first.",
+            "Termites had been attacking the beams for years before anyone looked."
+          ]
+        }
+      ],
+      "русский": "нападать, напасть; атаковать; критиковать, обрушиваться с критикой; нападать (словесно); энергично браться за, приниматься за, взяться; поражать, поразить (о болезни, вредителях)",
       "forms": "attack · attacked · attacked",
       "verb class": "regular",
       "third person": "attacks · -ing form: attacking",
@@ -59,14 +118,43 @@
       "term": "invade",
       "ipa": "/ɪnˈveɪd/",
       "respell": "in-VAYD",
-      "meaning": "To enter a country or area with an army in order to take control of it. ---",
+      "meaning": "Invade has 2 distinct senses.",
       "examples": [
         "The Romans invaded Britain almost two thousand years ago.",
         "No small country expects a neighbor to invade it overnight.",
-        "The island has been invaded three times in its history."
+        "The island has been invaded three times in its history.",
+        "The photographers invaded her privacy at the hospital.",
+        "Reading someone's texts invades their privacy.",
+        "He has never invaded his kids' privacy that way."
       ],
-      "senses": [],
-      "русский": "вторгаться, вторгнуться; захватывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To enter a country or area with an army in order to take control of it",
+          "body": [
+            "(вторгаться, вторгнуться; захватывать)"
+          ],
+          "examples": [
+            "The Romans invaded Britain almost two thousand years ago.",
+            "No small country expects a neighbor to invade it overnight.",
+            "The island has been invaded three times in its history."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To intrude on something private, especially a person's privacy",
+          "body": [
+            "(вторгаться, вторгнуться (в личную жизнь); нарушать (неприкосновенность))",
+            "---"
+          ],
+          "examples": [
+            "The photographers invaded her privacy at the hospital.",
+            "Reading someone's texts invades their privacy.",
+            "He has never invaded his kids' privacy that way."
+          ]
+        }
+      ],
+      "русский": "вторгаться, вторгнуться; захватывать; вторгаться, вторгнуться (в личную жизнь); нарушать (неприкосновенность)",
       "forms": "invade · invaded · invaded",
       "verb class": "regular",
       "third person": "invades · -ing form: invading",
@@ -77,14 +165,43 @@
       "term": "raid",
       "ipa": "/reɪd/",
       "respell": "RAYD",
-      "meaning": "To make a sudden attack on a place, or to enter it suddenly as police looking for something. ---",
+      "meaning": "Raid has 2 distinct senses.",
       "examples": [
         "Police raided the warehouse just before dawn.",
         "Agents raid the club almost every summer.",
-        "The apartment had already been raided twice that year."
+        "The apartment had already been raided twice that year.",
+        "The kids raided the fridge the minute they got home.",
+        "He had to raid his savings to pay for the repair.",
+        "The pension fund had been raided years before anyone noticed."
       ],
-      "senses": [],
-      "русский": "совершать налёт; устраивать облаву",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a sudden attack on a place, or to enter it suddenly as police looking for something",
+          "body": [
+            "(совершать налёт; устраивать облаву)"
+          ],
+          "examples": [
+            "Police raided the warehouse just before dawn.",
+            "Agents raid the club almost every summer.",
+            "The apartment had already been raided twice that year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To go into a place and help yourself to what is in it, especially food or money",
+          "body": [
+            "(опустошать, опустошить (холодильник); залезать, залезть (в сбережения, фонд))",
+            "---"
+          ],
+          "examples": [
+            "The kids raided the fridge the minute they got home.",
+            "He had to raid his savings to pay for the repair.",
+            "The pension fund had been raided years before anyone noticed."
+          ]
+        }
+      ],
+      "русский": "совершать налёт; устраивать облаву; опустошать, опустошить (холодильник); залезать, залезть (в сбережения, фонд)",
       "forms": "raid · raided · raided",
       "verb class": "regular",
       "third person": "raids · -ing form: raiding",
@@ -94,14 +211,43 @@
       "term": "bombard",
       "ipa": "/bɑːmˈbɑːrd/",
       "respell": "bahm-BAHRD",
-      "meaning": "To attack a place continuously with bombs or heavy gunfire. ---",
+      "meaning": "Bombard has 2 distinct senses.",
       "examples": [
         "The artillery bombarded the city for six days.",
         "Ships out at sea began to bombard the coast.",
-        "Reporters kept bombarding the general with questions."
+        "Reporters kept bombarding the general with questions.",
+        "Reporters bombarded her with questions about the deal.",
+        "We are bombarded with ads from the moment we wake up.",
+        "Stop bombarding me with texts; I'll answer tonight."
       ],
-      "senses": [],
-      "русский": "бомбардировать, обстреливать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To attack a place continuously with bombs or heavy gunfire",
+          "body": [
+            "(бомбардировать, обстреливать)"
+          ],
+          "examples": [
+            "The artillery bombarded the city for six days.",
+            "Ships out at sea began to bombard the coast.",
+            "Reporters kept bombarding the general with questions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To direct a great many questions, messages, or demands at someone",
+          "body": [
+            "(засыпать (вопросами), забрасывать; обрушивать)",
+            "---"
+          ],
+          "examples": [
+            "Reporters bombarded her with questions about the deal.",
+            "We are bombarded with ads from the moment we wake up.",
+            "Stop bombarding me with texts; I'll answer tonight."
+          ]
+        }
+      ],
+      "русский": "бомбардировать, обстреливать; засыпать (вопросами), забрасывать; обрушивать",
       "forms": "bombard · bombarded · bombarded",
       "verb class": "regular",
       "third person": "bombards · -ing form: bombarding",
@@ -112,14 +258,58 @@
       "term": "storm",
       "ipa": "/stɔːrm/",
       "respell": "STORM",
-      "meaning": "To attack a building or position suddenly and in force. ---",
+      "meaning": "Storm has 3 distinct senses.",
       "examples": [
         "Commandos stormed the embassy at three in the morning.",
         "Crowds threatened to storm the gates of the palace.",
-        "The prison was stormed by troops after the riot spread."
+        "The prison was stormed by troops after the riot spread.",
+        "He tends to storm around the kitchen when he is angry.",
+        "She stormed into the principal's office.",
+        "He came storming past me without a word.",
+        "It is supposed to storm tonight.",
+        "It stormed all weekend, so the game was canceled.",
+        "It has been storming since dawn."
       ],
-      "senses": [],
-      "русский": "штурмовать, брать штурмом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To attack a building or position suddenly and in force",
+          "body": [
+            "(штурмовать, брать штурмом)"
+          ],
+          "examples": [
+            "Commandos stormed the embassy at three in the morning.",
+            "Crowds threatened to storm the gates of the palace.",
+            "The prison was stormed by troops after the riot spread."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To go somewhere in a noisy, angry way",
+          "body": [
+            "(врываться, ворваться; проноситься в ярости)"
+          ],
+          "examples": [
+            "He tends to storm around the kitchen when he is angry.",
+            "She stormed into the principal's office.",
+            "He came storming past me without a word."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To rain, snow, or blow violently",
+          "body": [
+            "(бушевать (о непогоде); разыграться (о буре))",
+            "---"
+          ],
+          "examples": [
+            "It is supposed to storm tonight.",
+            "It stormed all weekend, so the game was canceled.",
+            "It has been storming since dawn."
+          ]
+        }
+      ],
+      "русский": "штурмовать, брать штурмом; врываться, ворваться; проноситься в ярости; бушевать (о непогоде); разыграться (о буре)",
       "forms": "storm · stormed · stormed",
       "verb class": "regular",
       "third person": "storms · -ing form: storming",
@@ -130,14 +320,43 @@
       "term": "besiege",
       "ipa": "/bɪˈsiːdʒ/",
       "respell": "bi-SEEJ",
-      "meaning": "To surround a town or fort with an army so that nobody can get in or out. ---",
+      "meaning": "Besiege has 2 distinct senses.",
       "examples": [
         "The army besieged the city for nine months.",
         "No modern general wants to besiege a place that size.",
-        "The fortress had been besieged twice before it fell."
+        "The fortress had been besieged twice before it fell.",
+        "Reporters besieged the family's front porch.",
+        "The office is besieged with calls every time prices change.",
+        "Fans have been besieging the station with requests all week."
       ],
-      "senses": [],
-      "русский": "осаждать, осадить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To surround a town or fort with an army so that nobody can get in or out",
+          "body": [
+            "(осаждать, осадить)"
+          ],
+          "examples": [
+            "The army besieged the city for nine months.",
+            "No modern general wants to besiege a place that size.",
+            "The fortress had been besieged twice before it fell."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To crowd around someone, or to overwhelm them with requests and questions",
+          "body": [
+            "(осаждать (просьбами, вопросами), забрасывать)",
+            "---"
+          ],
+          "examples": [
+            "Reporters besieged the family's front porch.",
+            "The office is besieged with calls every time prices change.",
+            "Fans have been besieging the station with requests all week."
+          ]
+        }
+      ],
+      "русский": "осаждать, осадить; осаждать (просьбами, вопросами), забрасывать",
       "forms": "besiege · besieged · besieged",
       "verb class": "regular",
       "third person": "besieges · -ing form: besieging",
@@ -148,14 +367,43 @@
       "term": "conquer",
       "ipa": "/ˈkɑːŋkər/",
       "respell": "KAHNG-kur",
-      "meaning": "To take control of a country or people by force. ---",
+      "meaning": "Conquer has 2 distinct senses.",
       "examples": [
         "Spain conquered most of South America in a century.",
         "An empire that cannot feed itself cannot conquer anyone.",
-        "Half of Europe had been conquered by the end of that year."
+        "Half of Europe had been conquered by the end of that year.",
+        "Nobody conquers jet lag on the first day.",
+        "She conquered her fear of flying last year.",
+        "The disease has not been conquered yet."
       ],
-      "senses": [],
-      "русский": "завоёвывать, завоевать; покорять, покорить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take control of a country or people by force",
+          "body": [
+            "(завоёвывать, завоевать; покорять, покорить)"
+          ],
+          "examples": [
+            "Spain conquered most of South America in a century.",
+            "An empire that cannot feed itself cannot conquer anyone.",
+            "Half of Europe had been conquered by the end of that year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To succeed in dealing with a fear, a problem, or a difficulty",
+          "body": [
+            "(побеждать, побороть; преодолевать, преодолеть (страх))",
+            "---"
+          ],
+          "examples": [
+            "Nobody conquers jet lag on the first day.",
+            "She conquered her fear of flying last year.",
+            "The disease has not been conquered yet."
+          ]
+        }
+      ],
+      "русский": "завоёвывать, завоевать; покорять, покорить; побеждать, побороть; преодолевать, преодолеть (страх)",
       "forms": "conquer · conquered · conquered",
       "verb class": "regular",
       "third person": "conquers · -ing form: conquering",
@@ -166,14 +414,43 @@
       "term": "defeat",
       "ipa": "/dɪˈfiːt/",
       "respell": "di-FEET",
-      "meaning": "To beat an enemy or opponent in a battle, election, or game. ---",
+      "meaning": "Defeat has 2 distinct senses.",
       "examples": [
         "The rebels defeated a much larger army.",
         "A smaller force can defeat a big one on the right ground.",
-        "Their team has never been defeated at home."
+        "Their team has never been defeated at home.",
+        "Driving to the gym defeats the purpose of exercising.",
+        "The extra fee defeated the whole point of the discount.",
+        "Bad weather has defeated every attempt to reach the summit."
       ],
-      "senses": [],
-      "русский": "побеждать, победить; наносить поражение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To beat an enemy or opponent in a battle, election, or game",
+          "body": [
+            "(побеждать, победить; наносить поражение)"
+          ],
+          "examples": [
+            "The rebels defeated a much larger army.",
+            "A smaller force can defeat a big one on the right ground.",
+            "Their team has never been defeated at home."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a plan, a purpose, or an effort fail",
+          "body": [
+            "(сводить на нет, срывать, сорвать)",
+            "---"
+          ],
+          "examples": [
+            "Driving to the gym defeats the purpose of exercising.",
+            "The extra fee defeated the whole point of the discount.",
+            "Bad weather has defeated every attempt to reach the summit."
+          ]
+        }
+      ],
+      "русский": "побеждать, победить; наносить поражение; сводить на нет, срывать, сорвать",
       "forms": "defeat · defeated · defeated",
       "verb class": "regular",
       "third person": "defeats · -ing form: defeating",
@@ -183,14 +460,43 @@
       "term": "overpower",
       "ipa": "/ˌoʊvərˈpaʊər/",
       "respell": "oh-vur-POW-ur",
-      "meaning": "To beat someone by being physically stronger than they are. ---",
+      "meaning": "Overpower has 2 distinct senses.",
       "examples": [
         "Three guards overpowered the man at the door.",
         "He is strong enough to overpower anyone in the room.",
-        "The pilot was overpowered by two passengers."
+        "The pilot was overpowered by two passengers.",
+        "Too much garlic overpowers the sauce.",
+        "Her perfume overpowered the whole elevator.",
+        "The chili was overpowering everything else in the bowl."
       ],
-      "senses": [],
-      "русский": "одолевать, одолеть; пересиливать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To beat someone by being physically stronger than they are",
+          "body": [
+            "(одолевать, одолеть; пересиливать)"
+          ],
+          "examples": [
+            "Three guards overpowered the man at the door.",
+            "He is strong enough to overpower anyone in the room.",
+            "The pilot was overpowered by two passengers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of a taste or smell, to be so strong that it hides everything else",
+          "body": [
+            "(перебивать (вкус, запах), заглушать)",
+            "---"
+          ],
+          "examples": [
+            "Too much garlic overpowers the sauce.",
+            "Her perfume overpowered the whole elevator.",
+            "The chili was overpowering everything else in the bowl."
+          ]
+        }
+      ],
+      "русский": "одолевать, одолеть; пересиливать; перебивать (вкус, запах), заглушать",
       "forms": "overpower · overpowered · overpowered",
       "verb class": "regular",
       "third person": "overpowers · -ing form: overpowering",
@@ -217,14 +523,43 @@
       "term": "punch",
       "ipa": "/pʌntʃ/",
       "respell": "PUNCH",
-      "meaning": "To hit someone hard with your closed fist. ---",
+      "meaning": "Punch has 2 distinct senses.",
       "examples": [
         "He punched the other driver in the face.",
         "Don't punch a wall when you are angry.",
-        "The boxer kept punching until the bell rang."
+        "The boxer kept punching until the bell rang.",
+        "The conductor punched our tickets.",
+        "Punch three holes along the side of the box.",
+        "The card had been punched in the wrong place."
       ],
-      "senses": [],
-      "русский": "бить кулаком, ударить кулаком",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To hit someone hard with your closed fist",
+          "body": [
+            "(бить кулаком, ударить кулаком)"
+          ],
+          "examples": [
+            "He punched the other driver in the face.",
+            "Don't punch a wall when you are angry.",
+            "The boxer kept punching until the bell rang."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a hole in paper, a card, or thin material with a tool",
+          "body": [
+            "(пробивать, пробить (отверстие); компостировать (билет))",
+            "---"
+          ],
+          "examples": [
+            "The conductor punched our tickets.",
+            "Punch three holes along the side of the box.",
+            "The card had been punched in the wrong place."
+          ]
+        }
+      ],
+      "русский": "бить кулаком, ударить кулаком; пробивать, пробить (отверстие); компостировать (билет)",
       "forms": "punch · punched · punched",
       "verb class": "regular",
       "third person": "punches · -ing form: punching",
@@ -236,14 +571,43 @@
       "term": "kick",
       "ipa": "/kɪk/",
       "respell": "KIK",
-      "meaning": "To hit someone or something with your foot. ---",
+      "meaning": "Kick has 2 distinct senses.",
       "examples": [
         "Somebody kicked the door until the lock broke.",
         "The horse will kick if you stand behind it.",
-        "He was kicking the fence out of sheer frustration."
+        "He was kicking the fence out of sheer frustration.",
+        "He finally kicked the habit at fifty.",
+        "It took her two years to kick her soda habit.",
+        "He has kicked worse addictions than this one."
       ],
-      "senses": [],
-      "русский": "пинать, пнуть; ударять ногой",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To hit someone or something with your foot",
+          "body": [
+            "(пинать, пнуть; ударять ногой)"
+          ],
+          "examples": [
+            "Somebody kicked the door until the lock broke.",
+            "The horse will kick if you stand behind it.",
+            "He was kicking the fence out of sheer frustration."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To succeed in stopping a bad habit or an addiction",
+          "body": [
+            "(бросать, бросить (вредную привычку); завязать (с чем-л.))",
+            "---"
+          ],
+          "examples": [
+            "He finally kicked the habit at fifty.",
+            "It took her two years to kick her soda habit.",
+            "He has kicked worse addictions than this one."
+          ]
+        }
+      ],
+      "русский": "пинать, пнуть; ударять ногой; бросать, бросить (вредную привычку); завязать (с чем-л.)",
       "forms": "kick · kicked · kicked",
       "verb class": "regular",
       "third person": "kicks · -ing form: kicking",
@@ -254,14 +618,43 @@
       "term": "slap",
       "ipa": "/slæp/",
       "respell": "SLAP",
-      "meaning": "To hit someone with the flat, open palm of your hand. ---",
+      "meaning": "Slap has 2 distinct senses.",
       "examples": [
         "She slapped him and walked out.",
         "Never slap a child across the face.",
-        "He was slapped twice before he understood she meant it."
+        "He was slapped twice before he understood she meant it.",
+        "Regulators slapped the bank with a record fine.",
+        "The city will slap a fee on plastic bags.",
+        "He has been slapped with a lawsuit."
       ],
-      "senses": [],
-      "русский": "шлёпать, шлёпнуть; давать пощёчину",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To hit someone with the flat, open palm of your hand",
+          "body": [
+            "(шлёпать, шлёпнуть; давать пощёчину)"
+          ],
+          "examples": [
+            "She slapped him and walked out.",
+            "Never slap a child across the face.",
+            "He was slapped twice before he understood she meant it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To impose a fine, tax, or penalty on someone, especially suddenly",
+          "body": [
+            "(налагать (штраф, пошлину), наложить; влепить (штраф))",
+            "---"
+          ],
+          "examples": [
+            "Regulators slapped the bank with a record fine.",
+            "The city will slap a fee on plastic bags.",
+            "He has been slapped with a lawsuit."
+          ]
+        }
+      ],
+      "русский": "шлёпать, шлёпнуть; давать пощёчину; налагать (штраф, пошлину), наложить; влепить (штраф)",
       "forms": "slap · slapped · slapped",
       "verb class": "regular",
       "third person": "slaps · -ing form: slapping",
@@ -395,14 +788,58 @@
       "term": "kill",
       "ipa": "/kɪl/",
       "respell": "KIL",
-      "meaning": "To make a person, animal, or plant die. ---",
+      "meaning": "Kill has 3 distinct senses.",
       "examples": [
         "The crash killed two passengers.",
         "One hard frost can kill every plant in the yard.",
-        "Thousands have been killed since the war began."
+        "Thousands have been killed since the war began.",
+        "My feet are killing me.",
+        "That hike killed my knees.",
+        "Cheap headphones kill my ears after an hour.",
+        "The committee killed the bill without a vote.",
+        "Kill the engine before you open the hood.",
+        "The story was killed an hour before the paper went to press."
       ],
-      "senses": [],
-      "русский": "убивать, убить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a person, animal, or plant die",
+          "body": [
+            "(убивать, убить)"
+          ],
+          "examples": [
+            "The crash killed two passengers.",
+            "One hard frost can kill every plant in the yard.",
+            "Thousands have been killed since the war began."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To cause someone a lot of physical pain",
+          "body": [
+            "(сильно болеть, ныть (о ногах, спине); доставлять сильную боль)"
+          ],
+          "examples": [
+            "My feet are killing me.",
+            "That hike killed my knees.",
+            "Cheap headphones kill my ears after an hour."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To stop something from going ahead or from running — a plan, a story, or a machine",
+          "body": [
+            "(прекращать, прекратить; зарубить (проект); заглушить (мотор), выключить)",
+            "---"
+          ],
+          "examples": [
+            "The committee killed the bill without a vote.",
+            "Kill the engine before you open the hood.",
+            "The story was killed an hour before the paper went to press."
+          ]
+        }
+      ],
+      "русский": "убивать, убить; сильно болеть, ныть (о ногах, спине); доставлять сильную боль; прекращать, прекратить; зарубить (проект); заглушить (мотор), выключить",
       "forms": "kill · killed · killed",
       "verb class": "regular",
       "third person": "kills · -ing form: killing",
@@ -447,14 +884,43 @@
       "term": "slaughter",
       "ipa": "/ˈslɔːtər/",
       "respell": "SLAW-tur",
-      "meaning": "To kill people or animals in large numbers. ---",
+      "meaning": "Slaughter has 2 distinct senses.",
       "examples": [
         "The invaders slaughtered everyone in the village.",
         "They slaughter the pigs in late autumn.",
-        "Whole herds were being slaughtered to stop the disease."
+        "Whole herds were being slaughtered to stop the disease.",
+        "They slaughtered us forty-five to three.",
+        "We got slaughtered in the second half.",
+        "Any decent team would slaughter us right now."
       ],
-      "senses": [],
-      "русский": "истреблять, устраивать бойню; забивать (скот)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To kill people or animals in large numbers",
+          "body": [
+            "(истреблять, устраивать бойню; забивать (скот))"
+          ],
+          "examples": [
+            "The invaders slaughtered everyone in the village.",
+            "They slaughter the pigs in late autumn.",
+            "Whole herds were being slaughtered to stop the disease."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To beat an opponent by a huge margin (informal)",
+          "body": [
+            "(разгромить, разнести (в игре, на выборах))",
+            "---"
+          ],
+          "examples": [
+            "They slaughtered us forty-five to three.",
+            "We got slaughtered in the second half.",
+            "Any decent team would slaughter us right now."
+          ]
+        }
+      ],
+      "русский": "истреблять, устраивать бойню; забивать (скот); разгромить, разнести (в игре, на выборах)",
       "forms": "slaughter · slaughtered · slaughtered",
       "verb class": "regular",
       "third person": "slaughters · -ing form: slaughtering",
@@ -483,14 +949,43 @@
       "term": "execute",
       "ipa": "/ˈɛksɪkjuːt/",
       "respell": "EK-si-kyoot",
-      "meaning": "To kill someone as a legal punishment. ---",
+      "meaning": "Execute has 2 distinct senses.",
       "examples": [
         "The state executed him thirty years after the crime.",
         "No court in that country can execute a minor.",
-        "Six prisoners were executed that spring."
+        "Six prisoners were executed that spring.",
+        "The team executed the play perfectly.",
+        "Someone has to execute the plan, not just write it.",
+        "The order was executed within the hour."
       ],
-      "senses": [],
-      "русский": "казнить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To kill someone as a legal punishment",
+          "body": [
+            "(казнить)"
+          ],
+          "examples": [
+            "The state executed him thirty years after the crime.",
+            "No court in that country can execute a minor.",
+            "Six prisoners were executed that spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To carry out a plan, an order, or a task",
+          "body": [
+            "(выполнять, выполнить; осуществлять, осуществить)",
+            "---"
+          ],
+          "examples": [
+            "The team executed the play perfectly.",
+            "Someone has to execute the plan, not just write it.",
+            "The order was executed within the hour."
+          ]
+        }
+      ],
+      "русский": "казнить; выполнять, выполнить; осуществлять, осуществить",
       "forms": "execute · executed · executed",
       "verb class": "regular",
       "third person": "executes · -ing form: executing",
@@ -552,14 +1047,43 @@
       "term": "arm",
       "ipa": "/ɑːrm/",
       "respell": "AHRM",
-      "meaning": "To supply a person or group with weapons. ---",
+      "meaning": "Arm has 2 distinct senses.",
       "examples": [
         "Foreign governments armed both sides of the war.",
         "Nobody wants to arm a militia that cannot be controlled.",
-        "The men were armed with rifles and knives."
+        "The men were armed with rifles and knives.",
+        "Arm the alarm before you leave the house.",
+        "She armed the security system and locked the door.",
+        "The device had already been armed when the squad arrived."
       ],
-      "senses": [],
-      "русский": "вооружать, вооружить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To supply a person or group with weapons",
+          "body": [
+            "(вооружать, вооружить)"
+          ],
+          "examples": [
+            "Foreign governments armed both sides of the war.",
+            "Nobody wants to arm a militia that cannot be controlled.",
+            "The men were armed with rifles and knives."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To set a weapon or an alarm system so that it is ready to go off",
+          "body": [
+            "(ставить на боевой взвод; ставить на сигнализацию, включать (охрану))",
+            "---"
+          ],
+          "examples": [
+            "Arm the alarm before you leave the house.",
+            "She armed the security system and locked the door.",
+            "The device had already been armed when the squad arrived."
+          ]
+        }
+      ],
+      "русский": "вооружать, вооружить; ставить на боевой взвод; ставить на сигнализацию, включать (охрану)",
       "forms": "arm · armed · armed",
       "verb class": "regular",
       "third person": "arms · -ing form: arming",
@@ -569,14 +1093,58 @@
       "term": "disarm",
       "ipa": "/dɪsˈɑːrm/",
       "respell": "dis-AHRM",
-      "meaning": "To take weapons away from a person or group, or to give up weapons. ---",
+      "meaning": "Disarm has 3 distinct senses.",
       "examples": [
         "An officer disarmed him without firing a shot.",
         "The treaty required both armies to disarm.",
-        "The rebels have been disarmed under the agreement."
+        "The rebels have been disarmed under the agreement.",
+        "You have thirty seconds to disarm the alarm.",
+        "A robot disarmed the device.",
+        "The security system had not been disarmed.",
+        "Humor can disarm an angry customer.",
+        "His apology disarmed her completely.",
+        "She has a way of disarming people who come in ready to fight."
       ],
-      "senses": [],
-      "русский": "разоружать, разоружить; обезоруживать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take weapons away from a person or group, or to give up weapons",
+          "body": [
+            "(разоружать, разоружить; обезоруживать)"
+          ],
+          "examples": [
+            "An officer disarmed him without firing a shot.",
+            "The treaty required both armies to disarm.",
+            "The rebels have been disarmed under the agreement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To switch off an alarm system, or to make a bomb safe",
+          "body": [
+            "(отключать, отключить (сигнализацию); обезвреживать, обезвредить (бомбу))"
+          ],
+          "examples": [
+            "You have thirty seconds to disarm the alarm.",
+            "A robot disarmed the device.",
+            "The security system had not been disarmed."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To make someone stop feeling angry or suspicious, usually by being charming or honest",
+          "body": [
+            "(обезоруживать, обезоружить; располагать к себе)",
+            "---"
+          ],
+          "examples": [
+            "Humor can disarm an angry customer.",
+            "His apology disarmed her completely.",
+            "She has a way of disarming people who come in ready to fight."
+          ]
+        }
+      ],
+      "русский": "разоружать, разоружить; обезоруживать; отключать, отключить (сигнализацию); обезвреживать, обезвредить (бомбу); обезоруживать, обезоружить; располагать к себе",
       "forms": "disarm · disarmed · disarmed",
       "verb class": "regular",
       "third person": "disarms · -ing form: disarming",
@@ -586,14 +1154,43 @@
       "term": "defend",
       "ipa": "/dɪˈfɛnd/",
       "respell": "di-FEND",
-      "meaning": "To protect someone or something from attack. ---",
+      "meaning": "Defend has 2 distinct senses.",
       "examples": [
         "A hundred men defended the bridge for two days.",
         "She learned to defend herself as a teenager.",
-        "The town had been defended by volunteers."
+        "The town had been defended by volunteers.",
+        "He will defend his title in Las Vegas this fall.",
+        "She defended her Olympic gold four years later.",
+        "The club is defending an unbeaten home record."
       ],
-      "senses": [],
-      "русский": "защищать, защитить; оборонять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To protect someone or something from attack",
+          "body": [
+            "(защищать, защитить; оборонять)"
+          ],
+          "examples": [
+            "A hundred men defended the bridge for two days.",
+            "She learned to defend herself as a teenager.",
+            "The town had been defended by volunteers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To compete in order to keep a title or championship you already hold",
+          "body": [
+            "(защищать титул, отстаивать звание)",
+            "---"
+          ],
+          "examples": [
+            "He will defend his title in Las Vegas this fall.",
+            "She defended her Olympic gold four years later.",
+            "The club is defending an unbeaten home record."
+          ]
+        }
+      ],
+      "русский": "защищать, защитить; оборонять; защищать титул, отстаивать звание",
       "forms": "defend · defended · defended",
       "verb class": "regular",
       "third person": "defends · -ing form: defending",
@@ -641,14 +1238,43 @@
       "term": "fortify",
       "ipa": "/ˈfɔːrtɪfaɪ/",
       "respell": "FOR-ti-fy",
-      "meaning": "To build walls or defenses to make a place stronger against attack. ---",
+      "meaning": "Fortify has 2 distinct senses.",
       "examples": [
         "The army fortified the hills above the road.",
         "They had three weeks to fortify the camp.",
-        "Every village along the border has been fortified."
+        "Every village along the border has been fortified.",
+        "Most milk sold here is fortified with vitamin D.",
+        "They fortified the flour with iron and folic acid.",
+        "The program fortifies salt with iodine."
       ],
-      "senses": [],
-      "русский": "укреплять, укрепить (оборону)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To build walls or defenses to make a place stronger against attack",
+          "body": [
+            "(укреплять, укрепить (оборону))"
+          ],
+          "examples": [
+            "The army fortified the hills above the road.",
+            "They had three weeks to fortify the camp.",
+            "Every village along the border has been fortified."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To add vitamins or minerals to a food or a drink",
+          "body": [
+            "(обогащать, обогатить (витаминами); витаминизировать)",
+            "---"
+          ],
+          "examples": [
+            "Most milk sold here is fortified with vitamin D.",
+            "They fortified the flour with iron and folic acid.",
+            "The program fortifies salt with iodine."
+          ]
+        }
+      ],
+      "русский": "укреплять, укрепить (оборону); обогащать, обогатить (витаминами); витаминизировать",
       "forms": "fortify · fortified · fortified",
       "verb class": "regular",
       "third person": "fortifies · -ing form: fortifying",
@@ -695,14 +1321,58 @@
       "term": "repel",
       "ipa": "/rɪˈpɛl/",
       "respell": "ri-PEL",
-      "meaning": "To drive an attacking force back and away. ---",
+      "meaning": "Repel has 3 distinct senses.",
       "examples": [
         "The garrison repelled three assaults in one night.",
         "A small force can repel a bigger one from high ground.",
-        "The attack was repelled before it reached the wall."
+        "The attack was repelled before it reached the wall.",
+        "The violence in the film repelled her.",
+        "His table manners repel everyone in the office.",
+        "I was repelled by the smell before I even opened the door.",
+        "Two magnets facing the same way repel each other.",
+        "The spray repelled the mosquitoes all evening.",
+        "This fabric is very good at repelling water."
       ],
-      "senses": [],
-      "русский": "отражать, отбивать (нападение)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To drive an attacking force back and away",
+          "body": [
+            "(отражать, отбивать (нападение))"
+          ],
+          "examples": [
+            "The garrison repelled three assaults in one night.",
+            "A small force can repel a bigger one from high ground.",
+            "The attack was repelled before it reached the wall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make someone feel strong dislike or disgust",
+          "body": [
+            "(вызывать отвращение, отталкивать)"
+          ],
+          "examples": [
+            "The violence in the film repelled her.",
+            "His table manners repel everyone in the office.",
+            "I was repelled by the smell before I even opened the door."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To push something away by a force, or to keep it from getting in",
+          "body": [
+            "(отталкивать (о магнитах); отпугивать, не пропускать (воду, насекомых))",
+            "---"
+          ],
+          "examples": [
+            "Two magnets facing the same way repel each other.",
+            "The spray repelled the mosquitoes all evening.",
+            "This fabric is very good at repelling water."
+          ]
+        }
+      ],
+      "русский": "отражать, отбивать (нападение); вызывать отвращение, отталкивать; отталкивать (о магнитах); отпугивать, не пропускать (воду, насекомых)",
       "forms": "repel · repelled · repelled",
       "verb class": "regular",
       "third person": "repels · -ing form: repelling",
@@ -713,14 +1383,58 @@
       "term": "resist",
       "ipa": "/rɪˈzɪst/",
       "respell": "ri-ZIST",
-      "meaning": "To fight against something or refuse to accept it. ---",
+      "meaning": "Resist has 3 distinct senses.",
       "examples": [
         "The villagers resisted for nearly a month.",
         "He was charged with resisting arrest.",
-        "Some of the old families have resisted every change."
+        "Some of the old families have resisted every change.",
+        "I couldn't resist a second slice of cake.",
+        "She resisted the urge to answer him.",
+        "He has never been good at resisting a bargain.",
+        "Stainless steel resists rust better than iron.",
+        "The coating resisted the salt water all winter.",
+        "We need a fabric capable of resisting heat."
       ],
-      "senses": [],
-      "русский": "сопротивляться; противостоять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fight against something or refuse to accept it",
+          "body": [
+            "(сопротивляться; противостоять)"
+          ],
+          "examples": [
+            "The villagers resisted for nearly a month.",
+            "He was charged with resisting arrest.",
+            "Some of the old families have resisted every change."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To stop yourself from doing or taking something you want",
+          "body": [
+            "(удерживаться от, устоять перед (соблазном))"
+          ],
+          "examples": [
+            "I couldn't resist a second slice of cake.",
+            "She resisted the urge to answer him.",
+            "He has never been good at resisting a bargain."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "For a material to stay undamaged by something that would normally harm it",
+          "body": [
+            "(быть устойчивым к, не поддаваться (жару, коррозии))",
+            "---"
+          ],
+          "examples": [
+            "Stainless steel resists rust better than iron.",
+            "The coating resisted the salt water all winter.",
+            "We need a fabric capable of resisting heat."
+          ]
+        }
+      ],
+      "русский": "сопротивляться; противостоять; удерживаться от, устоять перед (соблазном); быть устойчивым к, не поддаваться (жару, коррозии)",
       "forms": "resist · resisted · resisted",
       "verb class": "regular",
       "third person": "resists · -ing form: resisting",
@@ -766,14 +1480,43 @@
       "term": "dodge",
       "ipa": "/dɑːdʒ/",
       "respell": "DAHJ",
-      "meaning": "To move quickly aside to avoid being hit. ---",
+      "meaning": "Dodge has 2 distinct senses.",
       "examples": [
         "He dodged the first punch and threw one back.",
         "You cannot dodge a bullet, whatever the movies say.",
-        "She spent the whole interview dodging the question."
+        "She spent the whole interview dodging the question.",
+        "The senator dodged the question twice.",
+        "Some firms dodge taxes through offshore accounts.",
+        "He spent the whole year dodging his responsibilities."
       ],
-      "senses": [],
-      "русский": "уворачиваться, увернуться; уклоняться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move quickly aside to avoid being hit",
+          "body": [
+            "(уворачиваться, увернуться; уклоняться)"
+          ],
+          "examples": [
+            "He dodged the first punch and threw one back.",
+            "You cannot dodge a bullet, whatever the movies say.",
+            "She spent the whole interview dodging the question."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To avoid a question, a duty, or a payment by being clever about it",
+          "body": [
+            "(уклоняться, уклониться (от вопроса, обязанностей, налогов))",
+            "---"
+          ],
+          "examples": [
+            "The senator dodged the question twice.",
+            "Some firms dodge taxes through offshore accounts.",
+            "He spent the whole year dodging his responsibilities."
+          ]
+        }
+      ],
+      "русский": "уворачиваться, увернуться; уклоняться; уклоняться, уклониться (от вопроса, обязанностей, налогов)",
       "forms": "dodge · dodged · dodged",
       "verb class": "regular",
       "third person": "dodges · -ing form: dodging",
@@ -961,14 +1704,43 @@
       "term": "force",
       "ipa": "/fɔːrs/",
       "respell": "FORS",
-      "meaning": "To make someone do something they do not want to do. ---",
+      "meaning": "Force has 2 distinct senses.",
       "examples": [
         "Hunger forced the defenders to surrender.",
         "Nobody can force you to testify against your husband.",
-        "Hundreds of families are being forced out of the valley."
+        "Hundreds of families are being forced out of the valley.",
+        "They had to force the door to get her out.",
+        "Someone forced the lock on the shed.",
+        "The window had been forced from the outside."
       ],
-      "senses": [],
-      "русский": "заставлять, заставить; принуждать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make someone do something they do not want to do",
+          "body": [
+            "(заставлять, заставить; принуждать)"
+          ],
+          "examples": [
+            "Hunger forced the defenders to surrender.",
+            "Nobody can force you to testify against your husband.",
+            "Hundreds of families are being forced out of the valley."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To open something by breaking it or by using physical strength",
+          "body": [
+            "(взламывать, взломать; выламывать, выломать (дверь, замок))",
+            "---"
+          ],
+          "examples": [
+            "They had to force the door to get her out.",
+            "Someone forced the lock on the shed.",
+            "The window had been forced from the outside."
+          ]
+        }
+      ],
+      "русский": "заставлять, заставить; принуждать; взламывать, взломать; выламывать, выломать (дверь, замок)",
       "forms": "force · forced · forced",
       "verb class": "regular",
       "third person": "forces · -ing form: forcing",
@@ -1103,14 +1875,58 @@
       "term": "condemn",
       "ipa": "/kənˈdɛm/",
       "respell": "kun-DEM",
-      "meaning": "To say very strongly that something or someone is wrong or evil. ---",
+      "meaning": "Condemn has 3 distinct senses.",
       "examples": [
         "Both governments condemned the bombing.",
         "It costs nothing to condemn violence in a speech.",
-        "He was condemned to death by a military court."
+        "He was condemned to death by a military court.",
+        "No judge wants to condemn a teenager to life in prison.",
+        "The court condemned him to death in 1962.",
+        "They were condemned to hard labor.",
+        "The city can condemn any building without a fire escape.",
+        "Inspectors condemned the old school last spring.",
+        "The house has been condemned and will be torn down."
       ],
-      "senses": [],
-      "русский": "осуждать, осудить; приговаривать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say very strongly that something or someone is wrong or evil",
+          "body": [
+            "(осуждать, осудить; приговаривать)"
+          ],
+          "examples": [
+            "Both governments condemned the bombing.",
+            "It costs nothing to condemn violence in a speech.",
+            "He was condemned to death by a military court."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give someone a punishment, especially in a court of law",
+          "body": [
+            "(приговаривать, приговорить (к); обрекать)"
+          ],
+          "examples": [
+            "No judge wants to condemn a teenager to life in prison.",
+            "The court condemned him to death in 1962.",
+            "They were condemned to hard labor."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To declare officially that a building is too unsafe to be used",
+          "body": [
+            "(признавать аварийным (здание), признать непригодным для жилья)",
+            "---"
+          ],
+          "examples": [
+            "The city can condemn any building without a fire escape.",
+            "Inspectors condemned the old school last spring.",
+            "The house has been condemned and will be torn down."
+          ]
+        }
+      ],
+      "русский": "осуждать, осудить; приговаривать; приговаривать, приговорить (к); обрекать; признавать аварийным (здание), признать непригодным для жилья",
       "forms": "condemn · condemned · condemned",
       "verb class": "regular",
       "third person": "condemns · -ing form: condemning",
@@ -1174,14 +1990,43 @@
       "term": "defy",
       "ipa": "/dɪˈfaɪ/",
       "respell": "di-FY",
-      "meaning": "To refuse openly to obey a person, rule, or order. ---",
+      "meaning": "Defy has 2 distinct senses.",
       "examples": [
         "Thousands defied the curfew that night.",
         "Few officers will defy a direct order.",
-        "She has defied her family since she was sixteen."
+        "She has defied her family since she was sixteen.",
+        "The view from the ridge defies description.",
+        "His comeback defied everyone's predictions.",
+        "The test results have defied explanation so far."
       ],
-      "senses": [],
-      "русский": "бросать вызов; открыто не подчиняться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To refuse openly to obey a person, rule, or order",
+          "body": [
+            "(бросать вызов; открыто не подчиняться)"
+          ],
+          "examples": [
+            "Thousands defied the curfew that night.",
+            "Few officers will defy a direct order.",
+            "She has defied her family since she was sixteen."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be impossible to explain, describe, or believe",
+          "body": [
+            "(не поддаваться (объяснению, описанию))",
+            "---"
+          ],
+          "examples": [
+            "The view from the ridge defies description.",
+            "His comeback defied everyone's predictions.",
+            "The test results have defied explanation so far."
+          ]
+        }
+      ],
+      "русский": "бросать вызов; открыто не подчиняться; не поддаваться (объяснению, описанию)",
       "forms": "defy · defied · defied",
       "verb class": "regular",
       "third person": "defies · -ing form: defying",
@@ -1192,14 +2037,43 @@
       "term": "rally",
       "ipa": "/ˈræli/",
       "respell": "RAL-ee",
-      "meaning": "To come together, or bring people together, to support a cause or a leader. ---",
+      "meaning": "Rally has 2 distinct senses.",
       "examples": [
         "Farmers rallied on the steps of the capitol.",
         "He can still rally a crowd in any small town.",
-        "The party has rallied behind its new leader."
+        "The party has rallied behind its new leader.",
+        "Stocks usually rally when interest rates fall.",
+        "The team rallied from seventeen points down to win.",
+        "The market has rallied for three straight weeks."
       ],
-      "senses": [],
-      "русский": "собираться на митинг; сплачивать(ся)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To come together, or bring people together, to support a cause or a leader",
+          "body": [
+            "(собираться на митинг; сплачивать(ся))"
+          ],
+          "examples": [
+            "Farmers rallied on the steps of the capitol.",
+            "He can still rally a crowd in any small town.",
+            "The party has rallied behind its new leader."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To recover and rise again after a fall in price, strength, or score",
+          "body": [
+            "(оживать, восстанавливаться (о рынке, ценах); отыгрываться, отыграться)",
+            "---"
+          ],
+          "examples": [
+            "Stocks usually rally when interest rates fall.",
+            "The team rallied from seventeen points down to win.",
+            "The market has rallied for three straight weeks."
+          ]
+        }
+      ],
+      "русский": "собираться на митинг; сплачивать(ся); оживать, восстанавливаться (о рынке, ценах); отыгрываться, отыграться",
       "forms": "rally · rallied · rallied",
       "verb class": "regular",
       "third person": "rallies · -ing form: rallying",
@@ -1282,14 +2156,43 @@
       "term": "revolt",
       "ipa": "/rɪˈvoʊlt/",
       "respell": "ri-VOHLT",
-      "meaning": "To rise up violently against a ruler or government. ---",
+      "meaning": "Revolt has 2 distinct senses.",
       "examples": [
         "The peasants revolted after the third bad harvest.",
         "Whole provinces may revolt if the tax goes through.",
-        "Sailors were revolting in two ports at once."
+        "Sailors were revolting in two ports at once.",
+        "The smell of the fish revolted her.",
+        "Cruelty to animals revolts most people.",
+        "I was revolted by what I saw in the video."
       ],
-      "senses": [],
-      "русский": "восставать, поднимать восстание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To rise up violently against a ruler or government",
+          "body": [
+            "(восставать, поднимать восстание)"
+          ],
+          "examples": [
+            "The peasants revolted after the third bad harvest.",
+            "Whole provinces may revolt if the tax goes through.",
+            "Sailors were revolting in two ports at once."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make someone feel sick or disgusted",
+          "body": [
+            "(вызывать отвращение, внушать омерзение)",
+            "---"
+          ],
+          "examples": [
+            "The smell of the fish revolted her.",
+            "Cruelty to animals revolts most people.",
+            "I was revolted by what I saw in the video."
+          ]
+        }
+      ],
+      "русский": "восставать, поднимать восстание; вызывать отвращение, внушать омерзение",
       "forms": "revolt · revolted · revolted",
       "verb class": "regular",
       "third person": "revolts · -ing form: revolting",
@@ -1336,14 +2239,58 @@
       "term": "occupy",
       "ipa": "/ˈɑːkjəpaɪ/",
       "respell": "AHK-yuh-py",
-      "meaning": "To take control of a place by force and stay there. ---",
+      "meaning": "Occupy has 3 distinct senses.",
       "examples": [
         "Troops occupied the airport within an hour.",
         "Students plan to occupy the administration building.",
-        "The country was occupied for four years."
+        "The country was occupied for four years.",
+        "Her family occupies the top two floors.",
+        "The meeting occupied the whole morning.",
+        "Every seat in the theater was occupied.",
+        "A box of crayons will occupy the kids for an hour.",
+        "She occupied herself with a crossword while she waited.",
+        "He kept the toddler occupied while I cooked."
       ],
-      "senses": [],
-      "русский": "оккупировать; занимать (захватив)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take control of a place by force and stay there",
+          "body": [
+            "(оккупировать; занимать (захватив))"
+          ],
+          "examples": [
+            "Troops occupied the airport within an hour.",
+            "Students plan to occupy the administration building.",
+            "The country was occupied for four years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To live or work in a place, or to fill a space or a period of time",
+          "body": [
+            "(занимать (помещение, место, время))"
+          ],
+          "examples": [
+            "Her family occupies the top two floors.",
+            "The meeting occupied the whole morning.",
+            "Every seat in the theater was occupied."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To keep someone busy",
+          "body": [
+            "(занимать (кого-л.), развлекать, отвлекать)",
+            "---"
+          ],
+          "examples": [
+            "A box of crayons will occupy the kids for an hour.",
+            "She occupied herself with a crossword while she waited.",
+            "He kept the toddler occupied while I cooked."
+          ]
+        }
+      ],
+      "русский": "оккупировать; занимать (захватив); занимать (помещение, место, время); занимать (кого-л.), развлекать, отвлекать",
       "forms": "occupy · occupied · occupied",
       "verb class": "regular",
       "third person": "occupies · -ing form: occupying",
@@ -1406,14 +2353,43 @@
       "term": "abandon",
       "ipa": "/əˈbændən/",
       "respell": "uh-BAN-dun",
-      "meaning": "To leave a place, thing, or person that you are responsible for, and not return. ---",
+      "meaning": "Abandon has 2 distinct senses.",
       "examples": [
         "The crew abandoned the ship at midnight.",
         "They refused to abandon the wounded.",
-        "The position had been abandoned days before."
+        "The position had been abandoned days before.",
+        "They abandoned the search when it got dark.",
+        "The city has abandoned plans for a new stadium.",
+        "He refused to abandon hope of finding her."
       ],
-      "senses": [],
-      "русский": "покидать, покинуть; бросать, бросить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To leave a place, thing, or person that you are responsible for, and not return",
+          "body": [
+            "(покидать, покинуть; бросать, бросить)"
+          ],
+          "examples": [
+            "The crew abandoned the ship at midnight.",
+            "They refused to abandon the wounded.",
+            "The position had been abandoned days before."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give up an activity, a plan, or a belief before it is finished or fulfilled",
+          "body": [
+            "(отказываться от, отказаться от; бросать, забросить (дело))",
+            "---"
+          ],
+          "examples": [
+            "They abandoned the search when it got dark.",
+            "The city has abandoned plans for a new stadium.",
+            "He refused to abandon hope of finding her."
+          ]
+        }
+      ],
+      "русский": "покидать, покинуть; бросать, бросить; отказываться от, отказаться от; бросать, забросить (дело)",
       "forms": "abandon · abandoned · abandoned",
       "verb class": "regular",
       "third person": "abandons · -ing form: abandoning",
@@ -1459,14 +2435,43 @@
       "term": "deploy",
       "ipa": "/dɪˈplɔɪ/",
       "respell": "di-PLOY",
-      "meaning": "To move soldiers or equipment into position for action. ---",
+      "meaning": "Deploy has 2 distinct senses.",
       "examples": [
         "The general deployed two brigades along the river.",
         "They may deploy more troops by the weekend.",
-        "He has been deployed overseas three times."
+        "He has been deployed overseas three times.",
+        "The airbags deploy only in a serious crash.",
+        "His parachute deployed at two thousand feet.",
+        "The side airbag had not deployed."
       ],
-      "senses": [],
-      "русский": "развёртывать, размещать (войска)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move soldiers or equipment into position for action",
+          "body": [
+            "(развёртывать, размещать (войска))"
+          ],
+          "examples": [
+            "The general deployed two brigades along the river.",
+            "They may deploy more troops by the weekend.",
+            "He has been deployed overseas three times."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To open out suddenly and go into operation, as an airbag or a parachute does",
+          "body": [
+            "(срабатывать, сработать (о подушке безопасности); раскрываться, раскрыться (о парашюте))",
+            "---"
+          ],
+          "examples": [
+            "The airbags deploy only in a serious crash.",
+            "His parachute deployed at two thousand feet.",
+            "The side airbag had not deployed."
+          ]
+        }
+      ],
+      "русский": "развёртывать, размещать (войска); срабатывать, сработать (о подушке безопасности); раскрываться, раскрыться (о парашюте)",
       "forms": "deploy · deployed · deployed",
       "verb class": "regular",
       "third person": "deploys · -ing form: deploying",
@@ -1477,14 +2482,43 @@
       "term": "command",
       "ipa": "/kəˈmænd/",
       "respell": "kuh-MAND",
-      "meaning": "To be in charge of soldiers, or to order someone to do something. ---",
+      "meaning": "Command has 2 distinct senses.",
       "examples": [
         "She commanded a unit of two hundred men.",
         "He can command a room without raising his voice.",
-        "The ship was commanded by an officer of twenty-six."
+        "The ship was commanded by an officer of twenty-six.",
+        "Few teachers command that kind of respect.",
+        "The painting commanded four million dollars at auction.",
+        "Her work has commanded attention since her first show."
       ],
-      "senses": [],
-      "русский": "командовать; приказывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To be in charge of soldiers, or to order someone to do something",
+          "body": [
+            "(командовать; приказывать)"
+          ],
+          "examples": [
+            "She commanded a unit of two hundred men.",
+            "He can command a room without raising his voice.",
+            "The ship was commanded by an officer of twenty-six."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be important or valuable enough to get respect, attention, or a high price",
+          "body": [
+            "(вызывать (уважение), пользоваться (авторитетом); стоить (о цене))",
+            "---"
+          ],
+          "examples": [
+            "Few teachers command that kind of respect.",
+            "The painting commanded four million dollars at auction.",
+            "Her work has commanded attention since her first show."
+          ]
+        }
+      ],
+      "русский": "командовать; приказывать; вызывать (уважение), пользоваться (авторитетом); стоить (о цене)",
       "forms": "command · commanded · commanded",
       "verb class": "regular",
       "third person": "commands · -ing form: commanding",
@@ -1513,14 +2547,43 @@
       "term": "betray",
       "ipa": "/bɪˈtreɪ/",
       "respell": "bi-TRAY",
-      "meaning": "To harm someone who trusts you, especially by helping their enemies. ---",
+      "meaning": "Betray has 2 distinct senses.",
       "examples": [
         "A neighbor betrayed the family to the soldiers.",
         "He would never betray the people who hid him.",
-        "She felt betrayed by everyone in the office."
+        "She felt betrayed by everyone in the office.",
+        "His face betrays nothing.",
+        "Her voice betrayed how nervous she was.",
+        "A slight tremor in his hands had betrayed him."
       ],
-      "senses": [],
-      "русский": "предавать, предать; выдавать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To harm someone who trusts you, especially by helping their enemies",
+          "body": [
+            "(предавать, предать; выдавать)"
+          ],
+          "examples": [
+            "A neighbor betrayed the family to the soldiers.",
+            "He would never betray the people who hid him.",
+            "She felt betrayed by everyone in the office."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To show a feeling you were trying to hide, without meaning to",
+          "body": [
+            "(выдавать, выдать (чувства); обнаруживать)",
+            "---"
+          ],
+          "examples": [
+            "His face betrays nothing.",
+            "Her voice betrayed how nervous she was.",
+            "A slight tremor in his hands had betrayed him."
+          ]
+        }
+      ],
+      "русский": "предавать, предать; выдавать; выдавать, выдать (чувства); обнаруживать",
       "forms": "betray · betrayed · betrayed",
       "verb class": "regular",
       "third person": "betrays · -ing form: betraying",
@@ -1531,14 +2594,43 @@
       "term": "conspire",
       "ipa": "/kənˈspaɪər/",
       "respell": "kun-SPYR",
-      "meaning": "To plan something harmful or illegal secretly with other people. ---",
+      "meaning": "Conspire has 2 distinct senses.",
       "examples": [
         "Four officers conspired to overthrow the government.",
         "Nobody could prove the two men conspire at all.",
-        "They were charged with conspiring against the state."
+        "They were charged with conspiring against the state.",
+        "Bad weather and a flat tire conspired to ruin the trip.",
+        "Everything seems to conspire against us on moving day.",
+        "Traffic, rain, and a late train were conspiring to make him miss the wedding."
       ],
-      "senses": [],
-      "русский": "сговариваться, устраивать заговор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To plan something harmful or illegal secretly with other people",
+          "body": [
+            "(сговариваться, устраивать заговор)"
+          ],
+          "examples": [
+            "Four officers conspired to overthrow the government.",
+            "Nobody could prove the two men conspire at all.",
+            "They were charged with conspiring against the state."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of events or conditions, to seem to combine to produce a bad result",
+          "body": [
+            "(складываться неудачно (об обстоятельствах), сойтись)",
+            "---"
+          ],
+          "examples": [
+            "Bad weather and a flat tire conspired to ruin the trip.",
+            "Everything seems to conspire against us on moving day.",
+            "Traffic, rain, and a late train were conspiring to make him miss the wedding."
+          ]
+        }
+      ],
+      "русский": "сговариваться, устраивать заговор; складываться неудачно (об обстоятельствах), сойтись",
       "forms": "conspire · conspired · conspired",
       "verb class": "regular",
       "third person": "conspires · -ing form: conspiring",
@@ -1549,14 +2641,43 @@
       "term": "plot",
       "ipa": "/plɑːt/",
       "respell": "PLAHT",
-      "meaning": "To make a secret plan to do something harmful. ---",
+      "meaning": "Plot has 2 distinct senses.",
       "examples": [
         "Two generals plotted to seize the capital.",
         "Prisoners plot escapes they will never attempt.",
-        "He had been plotting against his own brother."
+        "He had been plotting against his own brother.",
+        "Plot the results on a graph.",
+        "The navigator plotted a course around the storm.",
+        "Every case has been plotted on a city map."
       ],
-      "senses": [],
-      "русский": "замышлять, готовить заговор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a secret plan to do something harmful",
+          "body": [
+            "(замышлять, готовить заговор)"
+          ],
+          "examples": [
+            "Two generals plotted to seize the capital.",
+            "Prisoners plot escapes they will never attempt.",
+            "He had been plotting against his own brother."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To mark points or a route on a graph, a chart, or a map",
+          "body": [
+            "(наносить на график, строить (график); прокладывать, проложить (курс))",
+            "---"
+          ],
+          "examples": [
+            "Plot the results on a graph.",
+            "The navigator plotted a course around the storm.",
+            "Every case has been plotted on a city map."
+          ]
+        }
+      ],
+      "русский": "замышлять, готовить заговор; наносить на график, строить (график); прокладывать, проложить (курс)",
       "forms": "plot · plotted · plotted",
       "verb class": "regular",
       "third person": "plots · -ing form: plotting",
@@ -1620,14 +2741,43 @@
       "term": "subdue",
       "ipa": "/səbˈduː/",
       "respell": "sub-DOO",
-      "meaning": "To bring a person or group under control by force. ---",
+      "meaning": "Subdue has 2 distinct senses.",
       "examples": [
         "Three officers subdued the man on the platform.",
         "It took a year to subdue the last of the rebels.",
-        "He was subdued and handcuffed within seconds."
+        "He was subdued and handcuffed within seconds.",
+        "She subdued her anger and answered politely.",
+        "Soft lighting can subdue the mood of a whole room.",
+        "The music was subdued so that guests could hear each other."
       ],
-      "senses": [],
-      "русский": "усмирять, подавлять; одолевать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To bring a person or group under control by force",
+          "body": [
+            "(усмирять, подавлять; одолевать)"
+          ],
+          "examples": [
+            "Three officers subdued the man on the platform.",
+            "It took a year to subdue the last of the rebels.",
+            "He was subdued and handcuffed within seconds."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a feeling, a sound, or a color less strong",
+          "body": [
+            "(приглушать, приглушить; сдерживать, подавлять (чувство))",
+            "---"
+          ],
+          "examples": [
+            "She subdued her anger and answered politely.",
+            "Soft lighting can subdue the mood of a whole room.",
+            "The music was subdued so that guests could hear each other."
+          ]
+        }
+      ],
+      "русский": "усмирять, подавлять; одолевать; приглушать, приглушить; сдерживать, подавлять (чувство)",
       "forms": "subdue · subdued · subdued",
       "verb class": "regular",
       "third person": "subdues · -ing form: subduing",
@@ -1709,14 +2859,43 @@
       "term": "detain",
       "ipa": "/dɪˈteɪn/",
       "respell": "di-TAYN",
-      "meaning": "To keep someone in official custody and not let them leave. ---",
+      "meaning": "Detain has 2 distinct senses.",
       "examples": [
         "Border guards detained him for six hours.",
         "They can detain a suspect for two days without charges.",
-        "Dozens are still being detained without trial."
+        "Dozens are still being detained without trial.",
+        "I won't detain you long.",
+        "A long phone call detained him at the office.",
+        "We were detained by traffic and missed the first act."
       ],
-      "senses": [],
-      "русский": "задерживать, задержать; заключать под стражу",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To keep someone in official custody and not let them leave",
+          "body": [
+            "(задерживать, задержать; заключать под стражу)"
+          ],
+          "examples": [
+            "Border guards detained him for six hours.",
+            "They can detain a suspect for two days without charges.",
+            "Dozens are still being detained without trial."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To keep someone from leaving or going on, so that they are late",
+          "body": [
+            "(задерживать, задержать (кого-л.), отнимать время)",
+            "---"
+          ],
+          "examples": [
+            "I won't detain you long.",
+            "A long phone call detained him at the office.",
+            "We were detained by traffic and missed the first act."
+          ]
+        }
+      ],
+      "русский": "задерживать, задержать; заключать под стражу; задерживать, задержать (кого-л.), отнимать время",
       "forms": "detain · detained · detained",
       "verb class": "regular",
       "third person": "detains · -ing form: detaining",
@@ -1851,14 +3030,43 @@
       "term": "violate",
       "ipa": "/ˈvaɪəleɪt/",
       "respell": "VY-uh-layt",
-      "meaning": "To break a law, rule, or agreement. ---",
+      "meaning": "Violate has 2 distinct senses.",
       "examples": [
         "Both sides violated the ceasefire within a week.",
         "That order would violate international law.",
-        "He was arrested for violating the restraining order."
+        "He was arrested for violating the restraining order.",
+        "Searching her phone would violate her privacy.",
+        "Vandals violated several graves in the old cemetery.",
+        "She felt violated for weeks after the break-in."
       ],
-      "senses": [],
-      "русский": "нарушать, нарушить (закон, договор)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break a law, rule, or agreement",
+          "body": [
+            "(нарушать, нарушить (закон, договор))"
+          ],
+          "examples": [
+            "Both sides violated the ceasefire within a week.",
+            "That order would violate international law.",
+            "He was arrested for violating the restraining order."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To intrude on someone's privacy or body, or on a place people treat as sacred",
+          "body": [
+            "(посягать на, нарушать (неприкосновенность); вторгаться)",
+            "---"
+          ],
+          "examples": [
+            "Searching her phone would violate her privacy.",
+            "Vandals violated several graves in the old cemetery.",
+            "She felt violated for weeks after the break-in."
+          ]
+        }
+      ],
+      "русский": "нарушать, нарушить (закон, договор); посягать на, нарушать (неприкосновенность); вторгаться",
       "forms": "violate · violated · violated",
       "verb class": "regular",
       "third person": "violates · -ing form: violating",
@@ -1904,14 +3112,43 @@
       "term": "escalate",
       "ipa": "/ˈɛskəleɪt/",
       "respell": "ES-kuh-layt",
-      "meaning": "To become more serious or violent, or to make something do so. ---",
+      "meaning": "Escalate has 2 distinct senses.",
       "examples": [
         "The argument escalated into a brawl.",
         "One more raid could escalate the whole thing.",
-        "Tensions have been escalating since the election."
+        "Tensions have been escalating since the election.",
+        "If the agent can't help, ask her to escalate the ticket.",
+        "I escalated the complaint to a supervisor.",
+        "The case has been escalated to the legal department."
       ],
-      "senses": [],
-      "русский": "обостряться, нарастать; обострять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To become more serious or violent, or to make something do so",
+          "body": [
+            "(обостряться, нарастать; обострять)"
+          ],
+          "examples": [
+            "The argument escalated into a brawl.",
+            "One more raid could escalate the whole thing.",
+            "Tensions have been escalating since the election."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To pass a problem to someone with more authority so that it gets solved",
+          "body": [
+            "(передавать выше (по инстанции), эскалировать (обращение))",
+            "---"
+          ],
+          "examples": [
+            "If the agent can't help, ask her to escalate the ticket.",
+            "I escalated the complaint to a supervisor.",
+            "The case has been escalated to the legal department."
+          ]
+        }
+      ],
+      "русский": "обостряться, нарастать; обострять; передавать выше (по инстанции), эскалировать (обращение)",
       "forms": "escalate · escalated · escalated",
       "verb class": "regular",
       "third person": "escalates · -ing form: escalating",
@@ -1940,14 +3177,43 @@
       "term": "struggle",
       "ipa": "/ˈstrʌɡəl/",
       "respell": "STRUG-ul",
-      "meaning": "To fight hard against someone or something, especially when you are losing. ---",
+      "meaning": "Struggle has 2 distinct senses.",
       "examples": [
         "She struggled with the man until he let go.",
         "They still struggle for basic rights in that region.",
-        "He has been struggling against the ruling for years."
+        "He has been struggling against the ruling for years.",
+        "Some students struggle with word problems.",
+        "She struggled to pay rent last winter.",
+        "The team has been struggling all season."
       ],
-      "senses": [],
-      "русский": "бороться; с трудом справляться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fight hard against someone or something, especially when you are losing",
+          "body": [
+            "(бороться; с трудом справляться)"
+          ],
+          "examples": [
+            "She struggled with the man until he let go.",
+            "They still struggle for basic rights in that region.",
+            "He has been struggling against the ruling for years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To find something very difficult to do",
+          "body": [
+            "(с трудом справляться, испытывать трудности; еле справляться)",
+            "---"
+          ],
+          "examples": [
+            "Some students struggle with word problems.",
+            "She struggled to pay rent last winter.",
+            "The team has been struggling all season."
+          ]
+        }
+      ],
+      "русский": "бороться; с трудом справляться; с трудом справляться, испытывать трудности; еле справляться",
       "forms": "struggle · struggled · struggled",
       "verb class": "regular",
       "third person": "struggles · -ing form: struggling",

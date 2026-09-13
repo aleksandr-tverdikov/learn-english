@@ -109,13 +109,19 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 > "You sent it already, I take it," he said.  →  He **assumed** I **had** already sent it.
 > "Everyone here has a login, presumably."  →  She **assumed that** everyone there **had** a login.
 
+**1. Take something as true without checking.** The reporting sense, and the judgment it carries is that the evidence was skipped: *you assumed I'd say yes* is a complaint. (предполагать, исходить из того что)
+
 1. I *assumed* the meeting was still on, since nobody said otherwise.
 2. The estimate *assumes* that materials arrive by the first of the month.
 3. She wrongly *assumed* the fee covered parking.
 4. Let's not *assume* he saw the email — it's easy to miss.
-5. The report *assumed* the plant to be operating at full capacity.
-6. It is generally *assumed* that the two cases are related.
-7. "Is the deal still on?" — "I *assume* so, but nobody has confirmed it."
+5. It is generally *assumed* that the two cases are related.
+
+**2. Take on — a duty, an office, a name, an expression.** Nothing is believed here: something is picked up and carried. This is the *assume* of *assume responsibility* and *assume control*. (принимать на себя (обязанности, пост); напускать на себя)
+
+6. She *assumed* the role of interim director in March.
+7. The buyer *assumes* the remaining debt.
+8. He *assumed* an innocence nobody in the room believed.
 
 **See also:** [suppose](#suppose), [gather](#gather), [believe](#believe), [think](#think), [infer](#infer), [conclude](#conclude)
 
@@ -175,12 +181,23 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 > "I'm resigning for family reasons," he said.  →  He resigned, **citing family reasons**.
 > "Two officials told us the vote was postponed."  →  The paper **cited** two officials **as saying** the vote **had been** postponed.
 
+**1. Name a source or a reason.** The reporting sense: *quote* reproduces the words, *cite* names where they came from or what they support. (ссылаться на, приводить (источник, причину))
+
 1. She *cited* three studies, none of which said what she claimed.
 2. The judge *cited* an 1897 ruling that nobody in the room had read.
 3. He turned down the offer, *citing* the commute.
 4. The article *cites* an anonymous source close to the negotiations.
-5. Both reports *cite* the same faulty sensor as the cause.
-6. You have to *cite* every source you paraphrase, not just the ones you quote.
+5. You have to *cite* every source you paraphrase, not just the ones you quote.
+
+**2. Issue a citation; summon officially.** The enforcement sense, nearly always passive: a ticket, a code violation, an order to appear. (выписать штраф или предписание; вызвать в суд)
+
+6. He was *cited* for driving without a license.
+7. The restaurant was *cited* twice for the same violation.
+
+**3. Name somebody for an honor.** The military and civic sense, also passive, and the exact opposite in tone to the last one. (отметить, объявить благодарность (официально))
+
+8. She was *cited* for bravery after the second fire.
+9. Three of the crew were *cited* in the commander's report.
 
 **See also:** [quote](#quote), [paraphrase](#paraphrase), [indicate](#indicate), [point out](#point-out), [echo](#echo)
 
@@ -217,12 +234,23 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 > "So the leak has to be upstream of the valve," she said.  →  She **concluded that** the leak **had to be** upstream of the valve.
 > "Given all that, I don't think he knew."  →  She **concluded** he **hadn't** known.
 
+**1. Reach a judgment from evidence.** The reporting sense: *assume* skips the evidence, *conclude* claims it has been weighed. (заключить, прийти к выводу)
+
 1. The board *concluded* that no policy had been violated.
 2. From the tone of the email I *concluded* we weren't getting the contract.
 3. Two separate reviews *concluded* the same thing.
 4. The inspector *concluded* that the crack was cosmetic.
-5. She *concluded* her remarks by thanking the outgoing treasurer.
-6. It would be premature to *conclude* that the trend is permanent.
+5. It would be premature to *conclude* that the trend is permanent.
+
+**2. Bring to an end; end.** Transitive or intransitive, and no reasoning in it at all — the opposite of *begin*. (завершить, закончить(ся))
+
+6. She *concluded* her remarks by thanking the outgoing treasurer.
+7. The series *concludes* on Sunday.
+
+**3. Settle an agreement formally.** Diplomatic and commercial: *conclude a treaty*, *conclude a deal* — to finish negotiating and sign. (заключить (договор, сделку))
+
+8. The two governments *concluded* a trade agreement in June.
+9. The sale was *concluded* the same week.
 
 **See also:** [infer](#infer), [deduce](#deduce), [gather](#gather), [reason](#reason), [argue](#argue), [assume](#assume)
 
@@ -301,12 +329,22 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 > "Watch — the seal fails at forty pounds," she said.  →  She **demonstrated that** the seal **failed** at forty pounds.
 > "Here's how you reset it."  →  He **demonstrated how to** reset it.
 
+**1. Prove by making something visible.** The formal counterpart of *show*, and factive: *the trial demonstrated that the drug worked* states in your own voice that it worked. (доказать наглядно, показать)
+
 1. The trial *demonstrated* that the drug worked no better than a placebo.
-2. She *demonstrated* to the committee how easily the lock could be picked.
-3. The instructor *demonstrated* the technique twice before letting anyone try.
-4. These numbers *demonstrate* what happens when maintenance gets deferred.
-5. Nothing in the audit *demonstrates* fraud — only sloppiness.
-6. He *demonstrated* to us that the software had been logging keystrokes.
+2. These numbers *demonstrate* what happens when maintenance gets deferred.
+3. Nothing in the audit *demonstrates* fraud — only sloppiness.
+4. He *demonstrated* to us that the software had been logging keystrokes.
+
+**2. Show how something is done.** The teaching sense: a technique, a product, a procedure performed in front of somebody. (продемонстрировать, показать как)
+
+5. The instructor *demonstrated* the technique twice before letting anyone try.
+6. She *demonstrated* to the committee how easily the lock could be picked.
+
+**3. Take part in a public protest.** Intransitive, and a completely separate verb: the people in the street are *demonstrators*. (участвовать в демонстрации, выйти на протест)
+
+7. Several hundred people *demonstrated* outside the ministry.
+8. They *demonstrated* against the closure for a week.
 
 **See also:** [show](#show), [prove](#prove), [explain](#explain), [indicate](#indicate), [point out](#point-out)
 
@@ -409,14 +447,23 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 > "He'll be late, I bet," she said.  →  She **figured** he **would be** late.
 > "I couldn't work out why the door stuck."  →  He couldn't **figure out why** the door **stuck**.
 
+**1. Reckon; suppose.** The everyday American equivalent of *reckon* and *suppose* — a working assumption offered without much weight behind it. (прикинуть, смекнуть (разг., амер.))
+
 1. I *figured* you'd want the window seat.
 2. She *figured* the store would be closed by the time they got there.
 3. We *figured* on about an hour of traffic and got two.
 4. He *figured* her for a reporter the moment she pulled out a notebook.
+
+**2. figure out — work out; solve.** With *out* the guess becomes a result: the thing was unclear and now it is not. (разобраться, понять; вычислить)
+
 5. It took the mechanic ten minutes to *figure out* what was rattling.
 6. Go ahead and start — we'll *figure out* who's paying later.
-7. With both starters hurt, the game *figures* to be low-scoring.
-8. She finally *figured out* that the two invoices were for the same job.
+7. She finally *figured out* that the two invoices were for the same job.
+
+**3. Appear; play a part; look likely.** Nobody is thinking anything here: a name *figures* in a story, an outcome *figures* to happen. (фигурировать, занимать место; «похоже, что»)
+
+8. With both starters hurt, the game *figures* to be low-scoring.
+9. His name *figures* in every version of the story.
 
 **See also:** [reckon](#reckon), [suppose](#suppose), [gather](#gather), [assume](#assume), [think](#think)
 
@@ -454,12 +501,18 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 > "People are saying the branch is closing."  →  She **gathered that** the branch **was** closing.
 > "So you two have met, then."  →  He **gathered** they **had** already met.
 
+**1. Understand from what you have picked up.** The reporting sense: someone told me, I am not saying who, and I am giving you room to correct it. (понять, заключить (из услышанного))
+
 1. I *gather* you've already spoken to legal about this.
 2. From the silence in the room she *gathered* that the news was bad.
-3. He *gathered* the position had been filled weeks earlier.
-4. "They're not coming." — "So I *gathered*."
-5. From what I *gather*, the lease runs through next spring.
-6. We *gathered* from her tone that the conversation was over.
+3. "They're not coming." — "So I *gathered*."
+4. From what I *gather*, the lease runs through next spring.
+
+**2. Collect; come together.** The literal verb, with a thing or a crowd rather than a belief: to bring things into one place, or to arrive in one. (собирать; собираться)
+
+5. She spent a month *gathering* material for the piece.
+6. A crowd had *gathered* by the time the police arrived.
+7. *Gather* everything you'll need before you start.
 
 **See also:** [understand](#understand), [infer](#infer), [deduce](#deduce), [believe](#believe), [suppose](#suppose)
 
@@ -633,14 +686,23 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 > "Look at the timestamps — he couldn't have been there," she said.  →  She **proved that** he **could not have** been there.
 > "You said it would never work."  →  The pilot **proved him wrong**.
 
+**1. Establish beyond dispute.** The strongest claim in the group, and fully factive: write it and you have asserted the content in your own voice. (доказать)
+
 1. The receipts *prove* that the payment cleared in March.
 2. Nothing in the record *proves* intent.
 3. She set out to *prove* to the board that the process could be automated.
-4. He *proved* everyone wrong within a season.
-5. The rumor *proved* to be false, though it took a month to die.
-6. You can't *prove* a negative, as the saying goes.
-7. She *proved* herself capable of running the department in about six weeks.
-8. Two of the three signatures were later *proved* to be forgeries.
+4. Two of the three signatures were later *proved* to be forgeries.
+5. You can't *prove* a negative, as the saying goes.
+
+**2. Turn out to be.** *prove* + (**to be**) + a complement. Nobody is proving anything: the thing simply showed itself over time, and the subject is not a person. (оказаться (в итоге))
+
+6. The rumor *proved* to be false, though it took a month to die.
+7. The shortcut *proved* slower than the highway.
+
+**3. Show yourself to be.** Reflexive, or with a person as the object: to demonstrate by performance rather than by argument. (показать себя, зарекомендовать себя)
+
+8. She *proved* herself capable of running the department in about six weeks.
+9. He *proved* everyone wrong within a season.
 
 **See also:** [demonstrate](#demonstrate), [show](#show), [argue](#argue), [indicate](#indicate), [conclude](#conclude)
 
@@ -677,11 +739,16 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 > "We'd like to know where you were between six and eight."  →  Detectives **questioned** him **about** his movements that evening.
 > "I'm not convinced these numbers add up."  →  She **questioned whether** the numbers **added** up.
 
+**1. Put questions to somebody.** The object is a person, and the topic goes behind *about*. This is the police and press verb. (расспрашивать, допрашивать)
+
 1. Police *questioned* three witnesses at the scene.
-2. She *questioned* whether the committee had the authority to do that.
-3. Reporters *questioned* the mayor about the missing emails for twenty minutes.
-4. Nobody *questioned* the budget until it was already approved.
-5. He *questioned* why the same vendor kept winning every contract.
+2. Reporters *questioned* the mayor about the missing emails for twenty minutes.
+3. He *questioned* why the same vendor kept winning every contract.
+
+**2. Doubt; challenge.** The object is a claim, a motive, or a *whether*-clause, and no question is actually asked of anybody. The frame carries the meaning here more than the word does. (ставить под сомнение, оспаривать)
+
+4. She *questioned* whether the committee had the authority to do that.
+5. Nobody *questioned* the budget until it was already approved.
 6. I don't *question* her motives — only her arithmetic.
 7. Nobody *questions* that the program works; the argument is over what it costs.
 
@@ -868,13 +935,18 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 > "Maybe he was pushed out — who knows," he said.  →  He **speculated that** the director **had been** pushed out.
 > "People keep asking whether she'll run again."  →  Reporters **speculated about whether** she **would** run again.
 
+**1. Guess out loud, and say it is a guess.** The weakest claim in the group: *conclude* says the evidence settles it, *speculate* explicitly declines to. (строить догадки, гадать)
+
 1. Analysts *speculated* that the merger had fallen apart over price.
 2. She refused to *speculate* about an investigation she wasn't part of.
 3. Neighbors *speculated* for weeks about who had bought the place.
 4. I don't want to *speculate* on motives without more information.
 5. The article *speculates* that a second site was under consideration.
-6. It's pointless to *speculate* about what he would have wanted.
-7. The memo *speculates* as to which of the three sites the company actually preferred.
+
+**2. Invest in the hope of a quick profit.** The financial verb, with *in* or *on*, and no speech in it at all — the source of *speculator* and *speculative*. (спекулировать, играть на бирже)
+
+6. He *speculated* in farmland and lost most of it.
+7. She made and lost two fortunes *speculating* on currencies.
 
 **See also:** [predict](#predict), [assume](#assume), [suppose](#suppose), [wonder](#wonder), [conclude](#conclude)
 
@@ -890,12 +962,19 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 > "Let me be blunt: miss this deadline and the contract is void," she said.  →  She **spelled out that** missing the deadline **would** void the contract.
 > "Do I have to say it in so many words?"  →  He made her **spell it out**.
 
+**1. State something in plain, unmissable terms.** The reporting sense: *explain* fills a gap in the hearer's knowledge, *spell out* removes their room to pretend not to have understood. (разъяснить открытым текстом, разжевать)
+
 1. The email *spelled out* exactly what would happen if the balance went unpaid.
 2. She *spelled out* the terms twice, and he signed anyway.
 3. Do I have to *spell it out* for you?
 4. The policy never *spells out* who is responsible for the deductible.
 5. He *spelled out* that no exceptions would be made, for anyone, ever.
 6. Somebody needs to *spell* the consequences *out* before the vote.
+
+**2. Say or write a word letter by letter.** The literal sense, and the one you need at a counter or on the phone. (произнести или написать по буквам)
+
+7. She *spelled out* her last name twice for the clerk.
+8. He had to *spell* the street name *out* over the phone.
 
 **See also:** [clarify](#clarify), [explain](#explain), [point out](#point-out), [reiterate](#reiterate), [demonstrate](#demonstrate)
 
@@ -976,12 +1055,23 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 > "Word is they've already picked someone," she said.  →  She **understood that** the position **had** already **been** filled.
 > "You're the one handling the account, right?"  →  He **understood her to be** the account manager.
 
+**1. Have been told; be given to believe.** The reporting sense: a hedge that passes a claim along without vouching for it or naming the source. (слышать, знать по слухам («насколько мне известно»))
+
 1. I *understand* the building changed hands last month.
 2. We *understand* that no charges have been filed.
-3. She *understood* the deposit to be refundable, and it wasn't.
-4. It is *understood* that the two sides met privately on Tuesday.
+3. It is *understood* that the two sides met privately on Tuesday.
+4. She *understood* the deposit to be refundable, and it wasn't.
+
+**2. Grasp the meaning of.** The first sense a learner meets, and the one that has nothing to do with reporting. (понимать, разбираться)
+
 5. I *understand* why they did it; I just don't agree with it.
 6. Am I right in *understanding* that the fee covers both years?
+7. Nobody in the room *understood* the second slide.
+
+**3. Be sympathetic.** Intransitive and absolute: to take somebody's side without needing the explanation. (войти в положение, отнестись с пониманием)
+
+8. If you can't make it, they'll *understand*.
+9. She said she *understood*, and she meant it.
 
 **See also:** [gather](#gather), [believe](#believe), [infer](#infer), [think](#think), [assume](#assume)
 

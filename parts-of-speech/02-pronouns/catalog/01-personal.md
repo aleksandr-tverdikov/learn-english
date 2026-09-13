@@ -236,13 +236,19 @@ What a listener actually receives in place of *him*, *her*, and *his*. A learner
 
 The speaker's object form, and the default first-person form everywhere except the subject slot — including as a one-word answer, after *be*, and as a fronted topic.
 
+**1. Object of a verb or a preposition.** (меня, мне, мной)
+
 1. The manager called *me* into her office before I'd even taken my coat off.
 2. Give the extra ticket to Priya and *me*.
-3. "Who wants the last slice?" — "*Me*."
-4. Somebody knocked. "It's *me*," she said through the door.
-5. Between you and *me*, that deal was dead a month ago.
-6. Nobody warned *me* about the construction on Route 9.
+3. Nobody warned *me* about the construction on Route 9.
+4. Between you and *me*, that deal was dead a month ago.
+
+**2. Standing alone — a one-word answer, a complement after *be*, or a fronted topic.** (я — там, где русский ставит именительный падеж: «это я», «я бы подождал»)
+
+5. "Who wants the last slice?" — "*Me*."
+6. Somebody knocked. "It's *me*," she said through the door.
 7. *Me*, I'd have waited another week before signing anything.
+8. She's been here longer than *me*.
 
 **See also:** [I](#i), [us](#us), [him](#him), [her](#her), [mine](02-possessive.md#mine), [myself](03-reflexive-reciprocal.md#myself)
 
@@ -259,12 +265,19 @@ The speaker's object form, and the default first-person form everywhere except t
 
 The feminine third-person subject form. It heads a clause, inverts in questions, and joins coordinated subjects.
 
+**1. A female person, or an animal whose sex is known.** (она — о женщине, девочке, о животном известного пола)
+
 1. *She* runs the entire East Coast operation out of a two-room office.
 2. When did *she* get back from Denver?
 3. *She* and her husband bought the building in 2019.
-4. *She* hasn't returned any of my calls this week.
-5. My mother reads faster than *she* does, but retains less.
-6. "May I speak with Dr. Alvarez?" — "This is *she*."
+4. My mother reads faster than *she* does, but retains less.
+5. "May I speak with Dr. Alvarez?" — "This is *she*." (the telephone formula, the last place Americans still put the subject form after *be*)
+
+**2. Ships, boats, cars, engines, and countries — the traditional convention, now dated.** (она — о корабле, машине, стране; в совр. амер. англ. обычно it)
+
+6. *She* was launched in 1943 and served to the end of the war.
+7. The truck burns a quart of oil a week, but *she* starts every morning.
+8. France announced that *she* would not sign the treaty. (dated; American prose now writes *it*)
 
 **See also:** [her](#her), [he](#he), [they](#they), [it](#it), [hers](02-possessive.md#hers), [herself](03-reflexive-reciprocal.md#herself), [this is he / this is she](04-demonstrative.md#this-is-he--this-is-she)
 
@@ -305,13 +318,20 @@ The only way English has of saying how many people a *we*, a *you*, or a *they* 
 
 The object form of *they*, for plural referents and for singular *they* alike. It is also the form that survives in the reduced clitic *'em*, which is what you will actually hear in nearly every casual sentence.
 
+**1. Plural object.** (их, им, ими)
+
 1. I mailed *them* the signed contract on Tuesday.
 2. We ran into *them* at the farmers' market on Saturday.
 3. Ask *them* to call me back after four.
 4. None of *them* fit, so I returned the whole box.
-5. That's *them* pulling into the driveway now.
-6. Somebody left an umbrella in the lobby — I'll hold it for *them*.
-7. Just tell 'em the shipment is delayed.
+5. Just tell *them* the shipment is delayed. (in speech, *tell 'em*)
+6. That's *them* pulling into the driveway now.
+
+**2. Singular object — one person of unknown, unspecified, or nonbinary gender.** (его, её, ему, ей — об одном лице, пол которого неизвестен или не называется)
+
+7. Somebody left an umbrella in the lobby — I'll hold it for *them*.
+8. If a caller won't give a name, transfer *them* to the front desk.
+9. Alex texted to say they were running late, so I told *them* we'd wait.
 
 **See also:** [they](#they), ['em](#em), [us](#us), [him](#him), [her](#her), [theirs](02-possessive.md#theirs), [themselves](03-reflexive-reciprocal.md#themselves), [them (nonstandard demonstrative)](04-demonstrative.md#them), [those](../../09-determiners/catalog/02-demonstratives.md#those)
 
@@ -506,12 +526,19 @@ Two items here are odd in a different way, and neither is nonstandard. [You all]
 
 The object form of *thou*, driven out of general English by *you* in the seventeenth century. It survived in Quaker plain speech into the twentieth century, in the King James Bible, in hymns and prayers, and in poetry reaching for an older register.
 
+**1. Object of *thou* — scriptural, liturgical, and poetic.** (тебя, тебе — устар., книжн.)
+
 1. I will not leave *thee*, nor forsake *thee*.
 2. The Lord bless *thee* and keep *thee*.
 3. How do I love *thee*? Let me count the ways.
 4. Get *thee* to a nunnery.
 5. The Lord make his face shine upon *thee*. (object of a preposition)
-6. *Thee* is welcome to stay as long as thee likes, Friend. (Quaker usage)
+
+**2. Quaker plain speech, where *thee* is the subject as well and takes a third-person verb.** (ты — в речи квакеров; сказуемое в 3-м лице: thee is, thee has)
+
+6. *Thee* is welcome to stay as long as *thee* likes, Friend.
+7. *Thee* has forgotten thy hat again.
+8. Does *thee* remember the name of the meeting house?
 
 **See also:** [thou](#thou), [ye](#ye), [you](#you)
 
@@ -570,11 +597,18 @@ The Appalachian and South Midland first-person plural, built from *we ones* on t
 
 The Southern and African American English second-person plural, and the most widely adopted of the American plural-*you* forms. Within those varieties it is unremarkable, fully standard speech; outside them it is informal but no longer marked as uneducated.
 
+**1. Plural — the whole group being addressed.** (вы, вы все)
+
 1. *Y'all* coming to the cookout on Saturday?
 2. I'll see *y'all* at the church at six.
 3. This one's for *y'all* — don't open it till Christmas.
-4. Is that *y'all's* truck blocking the driveway?
-5. All *y'all* need to be on the bus by seven sharp.
+4. All *y'all* need to be on the bus by seven sharp.
+
+**2. Associative — one addressee plus the people who go with them.** (ты и твои — вся семья, домашние, компания)
+
+5. Is *y'all* coming Sunday? (said to one person, and meaning her whole household)
+6. Tell *y'all* I said hello. (said to one coworker, about the whole office)
+7. How's *y'all's* mama doing? (the associative reading, with the possessive *y'all's*)
 
 **See also:** [you](#you), [you all](#you-all), [you guys](#you-guys), [youse](#youse), [you'uns](#youuns)
 
@@ -589,13 +623,21 @@ The Southern and African American English second-person plural, and the most wid
 **Pattern:** *Ye* [plural verb] &middot; *Hear ye* &middot; [imperative] *ye*
 **Contrast:** *Ye* is the plural of [thou](#thou), so the full archaic set is *thou/thee* (one person) against *ye/you* (more than one). **The *Ye* in *Ye Olde Shoppe* is a completely different word.** It is not the pronoun at all — it is the definite article *the*, written with the Old English letter thorn (þ) that early printers, lacking the type, replaced with a *y*. It was always pronounced /ðə/, and the modern spelling-pronunciation /ji ˈoʊldi/ is a joke the sign painters started.
 
-The archaic plural subject *you*. It survives in scripture, hymns, proclamations, and set phrases, and in the mock-antique register of tavern signs.
+The archaic plural subject *you*. It survives in scripture, hymns, proclamations, and set phrases, and in the mock-antique register of tavern signs — where, confusingly, it is not this word at all.
+
+**1. The archaic second-person plural subject.** (вы — устар., книжн., библ.)
 
 1. *Ye* shall know the truth, and the truth shall make you free.
 2. Gather *ye* rosebuds while *ye* may.
 3. O come, all *ye* faithful.
 4. Hear *ye*, hear *ye*: this court is now in session.
 5. *Ye* of little faith, why are *ye* so fearful?
+
+**2. The *Ye* of *Ye Olde Shoppe* — not the pronoun but the definite article *the*.** (артикль the, а не местоимение: печатники заменяли букву þ на y; читалось [ðə])
+
+6. *Ye* Olde Curiosity Shoppe — the sign says *the*, whatever the tourists say out loud.
+7. The printer who set *Ye* Booke of Common Prayer simply had no thorn in his type case.
+8. Americans read *Ye* Olde as /ji ˈoʊldi/ because the spelling invites it; the word was always /ðə/.
 
 **See also:** [thou](#thou), [thee](#thee), [you](#you)
 

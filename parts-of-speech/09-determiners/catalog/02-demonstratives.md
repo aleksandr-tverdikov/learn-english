@@ -27,21 +27,31 @@ The proximal pair. Both point at what is near the speaker — near in the room, 
 
 Points at more than one thing near the speaker — in the room, in the present stretch of time, or in the part of the discussion currently in hand.
 
-**1. In space.** The things pointed at are close to the speaker, or closer than a contrasting set: *these seats, not those.*
+The near/far line it draws against *those* is exactly the line *this* draws against *that*, and the only thing separating *these* from *this* is number: *these* takes a plural noun and nothing else — never a singular, never an uncountable (✗ *these furniture*).
 
-**2. In time.** *These days*, *these last few months*, *these next two weeks* — a plural period that contains, or is about to contain, the present moment.
-
-**3. In discourse.** Refers to plural items just mentioned, or about to be listed: *these three problems*, *these figures*.
-
-**4. Narrative *these* (informal).** The plural of the storytelling *this*, introducing participants the hearer has never heard of, where the grammar calls for a bare plural: *So these two guys knock on my door at midnight.*
+**1. In space — more than one thing near the speaker, or nearer than a contrasting set.** (эти — о нескольких предметах рядом с говорящим: these seats, not those)
 
 1. *These* shoes are killing me.
 2. Are *these* seats taken?
-3. *These* days I'm up before five.
-4. I don't recognize *these* charges on my statement.
-5. *These* two chapters are the hardest in the book.
-6. *These* wines all come from the same vineyard.
-7. So *these* two guys knock on my door at midnight asking about the car.
+3. *These* wines all come from the same vineyard.
+4. Put *these* boxes in the hall and leave the rest.
+
+**2. In time — a plural stretch that contains, or is about to contain, the present moment.** (эти, нынешние — these days «в наши дни», these last few months «последние месяцы»)
+
+5. *These* days I'm up before five.
+6. *These* last few months have been brutal on the whole department.
+7. We'll know more in *these* next two weeks.
+
+**3. In discourse — plural items just mentioned, or about to be listed.** (эти — только что названные или сейчас перечисляемые)
+
+8. *These* two chapters are the hardest in the book.
+9. I don't recognize *these* charges on my statement.
+10. *These* three problems have to be fixed before we can launch.
+
+**4. Narrative *these* (informal) — introducing plural participants the hearer has never heard of.** (разг. в рассказе — вводит новых персонажей: по-русски «какие-то», «тут двое»)
+
+11. So *these* two guys knock on my door at midnight asking about the car.
+12. There were *these* kids selling lemonade at the end of the block.
 
 **See also:** [this](#this), [those](#those), [these kinds of](#these-kinds-of), [these here](#these-here), [many](04-quantifiers-large.md#many)
 
@@ -58,27 +68,38 @@ Points at more than one thing near the speaker — in the room, in the present s
 
 Points at a single thing — or at a mass of something — that is near the speaker: near in the room, near in time, or near in the flow of the conversation.
 
-**1. In space.** Nearer to the speaker than the alternative: *this chair*, the one I am touching, against *that chair* across the room.
+Two American refinements are worth memorizing inside the time sense: *this past Tuesday* is the one most recently gone by and *this coming Tuesday* the one ahead, because bare *this Tuesday* is genuinely ambiguous and speakers repair it constantly. In the discourse sense, careful writers avoid a bare *this* whose antecedent is a whole clause and hang a noun on it instead — not *This surprised everyone* but *This decision surprised everyone*. The narrative and degree uses below are ordinary in speech and out of place in formal writing.
 
-**2. In time.** The period containing the present moment: *this morning*, *this week*, *this year*. American English sharpens it two ways: *this past Tuesday* is the one most recently gone by, *this coming Tuesday* the one ahead. Bare *this Tuesday* is genuinely ambiguous, which is why speakers repair it so often.
-
-**3. In discourse.** *This* points forward to what the speaker is about to say (*Listen to this:*) and back to whatever is still live in the conversation (*This is why I called.*). Careful writers avoid a bare *this* whose antecedent is a whole clause and hang a noun on it instead: not *This surprised everyone* but *This decision surprised everyone*.
-
-**4. Narrative *this* (informal).** In spoken storytelling, *this* introduces a brand-new participant the listener has never heard of, in the slot where the grammar calls for *a*: *So this guy walks up to me…* Ordinary in casual speech, out of place in formal writing.
-
-**5. As a degree word (informal to neutral).** In front of an adjective or adverb, *this* means "to the degree I am showing or describing": *I didn't know it was this bad. Hold your hands this far apart.*
+**1. In space — a single thing, or a mass, near the speaker.** (этот, эта, это — рядом с говорящим; и с неисчисляемыми)
 
 1. *This* seat is taken, but the one behind it is free.
 2. *This* coffee has been on the burner all morning.
 3. Is *this* water safe to drink?
-4. I'll call you *this* afternoon.
-5. *This* advice came straight from our attorney.
-6. I don't need *this* aggravation on a Monday.
-7. Read *this* paragraph again before you sign anything.
-8. *This* past Tuesday we lost power for six hours.
-9. *This* five dollars is all I have until payday.
-10. So *this* guy walks up to me and asks to see my badge.
-11. I didn't know the drive was going to be *this* long.
+4. *This* five dollars is all I have until payday. (a plural form treated as one amount — singular verb)
+
+**2. In time — the period containing the present moment.** (этот, нынешний — this morning «сегодня утром», this week «на этой неделе»)
+
+5. I'll call you *this* afternoon.
+6. *This* past Tuesday we lost power for six hours.
+7. *This* coming Friday is the last day to file.
+
+**3. In discourse — pointing forward to what is about to be said, or back to what is still live.** (этот, вот этот — о только что сказанном или о том, что сейчас будет сказано)
+
+8. *This* advice came straight from our attorney.
+9. Read *this* paragraph again before you sign anything.
+10. I don't need *this* aggravation on a Monday.
+11. Listen to *this*: they want the whole thing redone by Friday.
+
+**4. Narrative *this* (informal) — a brand-new participant, in the slot where the grammar calls for *a*.** (разг. в рассказе — вводит нового персонажа: по-русски «какой-то», «тут один»)
+
+12. So *this* guy walks up to me and asks to see my badge.
+13. *This* woman at the counter told me the store closed at six.
+
+**5. As a degree word (informal to neutral) — "to the degree I am showing."** (настолько, вот настолько — I didn't know it was this bad «не думал, что настолько плохо»)
+
+14. I didn't know the drive was going to be *this* long.
+15. Hold your hands about *this* far apart.
+16. It isn't usually *this* cold in October.
 
 **See also:** [these](#these), [that](#that), [this much](#this-much), [this many](#this-many), [this kind of](#this-kind-of), [this here](#this-here), [a / an](01-articles.md#a)
 
@@ -99,26 +120,38 @@ The distal pair, split by number on exactly the same line as *this/these*. Beyon
 
 Points at a single thing, or at a mass, that is away from the speaker — across the room, back in the past, or already dealt with in the conversation.
 
-**1. In space.** Farther from the speaker, or nearer the hearer: *Hand me that wrench.* A gesture or a glance normally goes with it.
+Two things separate it from *this* beyond mere distance: it can point back at something already said and finished, and it can hold a referent at arm's length in a way that reads as judgment. Standing alone as a **pronoun** it can take a whole preceding clause as its antecedent — *He resigned by text. That was a mistake.* The degree use below lives mainly in negatives and questions; the affirmative *It was that bad* is informal.
 
-**2. In time.** A stretch of time cut off from now: *that summer*, *that winter*, *that year we lived in Denver*.
-
-**3. In discourse (anaphoric).** Refers back to something already said and treated as closed: *He resigned by text. That decision followed him for years.* Standing alone as a pronoun, *that* can take a whole preceding clause as its antecedent — *He resigned by text. That was a mistake.*
-
-**4. Shared knowledge, and attitude.** *That* marks a referent the speaker assumes the hearer can already call to mind: *You know that guy from accounting?* Combined with a possessive it usually carries a judgment: *that dog of yours*.
-
-**5. As a degree word (informal to neutral).** In front of an adjective, an adverb, or *much/many*, *that* means "to the degree just mentioned": *It's not that expensive. I didn't know she was that young.* It lives mainly in negatives and questions; the affirmative *It was that bad* is informal.
+**1. In space — a single thing, or a mass, away from the speaker or nearer the hearer.** (тот, та, то — вдали от говорящего; обычно с жестом или взглядом)
 
 1. *That* building on the corner used to be a bank.
 2. Hand me *that* wrench, would you?
 3. Is *that* information still accurate?
+
+**2. In time — a stretch of time cut off from now.** (тот, в тот — that summer «тем летом», that year «в тот год»)
+
 4. I've never forgotten *that* summer.
-5. *That* decision cost the company millions.
-6. Who made all *that* noise last night?
-7. I don't want *that* responsibility.
-8. *That* dog of yours dug up my tulips again.
-9. It's not *that* expensive — about forty dollars.
-10. We ran into her again *that* same afternoon.
+5. We ran into her again *that* same afternoon.
+6. *That* winter the pipes froze twice.
+
+**3. In discourse (anaphoric) — something already said and treated as closed.** (тот, этот — о сказанном и уже закрытом)
+
+7. *That* decision cost the company millions.
+8. He resigned by text, and *that* decision followed him for years.
+9. *That* argument was settled two meetings ago.
+
+**4. Shared knowledge, and attitude — a referent the hearer can already call to mind.** (тот самый; с притяжательным — оттенок неодобрения: that dog of yours «эта твоя собака»)
+
+10. *That* dog of yours dug up my tulips again.
+11. You know *that* guy from accounting?
+12. Who made all *that* noise last night?
+13. I don't want *that* responsibility.
+
+**5. As a degree word (informal to neutral) — "to the degree just mentioned."** (настолько, так, уж — It's not that expensive «не так уж дорого»; живёт в отрицаниях и вопросах)
+
+14. It's not *that* expensive — about forty dollars.
+15. I didn't know she was *that* young.
+16. Is it really *that* far from the airport?
 
 **See also:** [this](#this), [those](#those), [that much](#that-much), [that many](#that-many), [that which](#that-which), [that there](#that-there), [self](#self), [selfsame](09-predeterminers-postdeterminers.md#selfsame), [the](01-articles.md#the)
 
@@ -135,23 +168,34 @@ Points at a single thing, or at a mass, that is away from the speaker — across
 
 Points at more than one thing away from the speaker — across the room, back in the past, or already settled in the conversation.
 
-**1. In space.** Farther from the speaker than a contrasting set, or simply out of reach: *Those boxes go in the garage.*
+The first three senses below are the ordinary determiner, the plural of *that*. The last two are the ones learners meet as fixed units: in both, **no noun follows** — a relative clause or an *of*-phrase completes the phrase instead, and the word is functioning as a pronoun.
 
-**2. In time.** A plural period cut off from now: *back in those days*, *those years after the mill closed*.
-
-**3. In discourse (anaphoric).** Refers to plural items already mentioned: *The 2019 numbers were wrong, and those figures are still on the website.*
-
-**4. As a bare head with a relative clause.** *Those* alone means "the people" or "the ones," and requires the relative clause to complete it: *those who arrived early*, *those that still work*.
-
-**5. As a pro-form after a comparison.** Standing in for a repeated noun: *Our margins are thinner than those of our competitors.*
+**1. In space — more than one thing away from the speaker, or out of reach.** (те — о нескольких предметах вдали от говорящего)
 
 1. *Those* boxes go in the garage.
-2. Back in *those* days, gas was under a dollar.
-3. I can't read *those* road signs from here.
-4. Are *those* your keys on the counter?
+2. I can't read *those* road signs from here.
+3. Are *those* your keys on the counter?
+
+**2. In time — a plural period cut off from now.** (те, в те — back in those days «в те времена»)
+
+4. Back in *those* days, gas was under a dollar.
 5. All *those* years of practice finally paid off.
-6. *Those* people you met at the wedding are my cousins.
-7. Today's prices are nearly double *those* of ten years ago.
+6. *Those* months after the mill closed were the worst of it.
+
+**3. In discourse (anaphoric) — plural items already mentioned.** (те — уже названные)
+
+7. *Those* people you met at the wedding are my cousins.
+8. The 2019 numbers were wrong, and *those* figures are still on the website.
+
+**4. As a bare head with a relative clause — "the people," "the ones."** (те, кто; те, которые — обязательно с придаточным: those who arrived early)
+
+9. *Those* who arrived early got seats.
+10. The program is only for *those* that qualify under the old rules.
+
+**5. As a pro-form after a comparison — standing in for a repeated noun.** (те, что у…; заменяет повторённое существительное: those of our competitors «показатели конкурентов»)
+
+11. Today's prices are nearly double *those* of ten years ago.
+12. Our margins are thinner than *those* of our competitors.
 
 **See also:** [that](#that), [these](#these), [those who](#those-who), [those which](#those-which), [them](#them), [them there](#them-there)
 
@@ -194,12 +238,19 @@ Names a number by pointing at one already mentioned or already known — "as man
 
 Names an amount of something uncountable by pointing at one already mentioned or already known — "as much as that." Like the degree word *that*, it lives mainly in negatives and questions, and in front of a comparative it means "by that margin": *the new tires made the ride that much smoother.*
 
+**1. An amount pointed back at — "as much as that."** (столько — о неисчисляемом; чаще в отрицаниях и вопросах)
+
 1. It doesn't cost *that much* — I checked this morning.
 2. I didn't drink *that much* coffee. Two cups.
 3. *That much* I understood; the rest lost me.
 4. She really spent *that much of* her savings on one trip?
 5. If you cut the budget *that much*, we'll lose the program.
+
+**2. In front of a comparative — "by that margin."** (настолько, на столько — that much smoother «настолько мягче»)
+
 6. New tires made the ride *that much* smoother.
+7. Every extra reviewer makes the process *that much* slower.
+8. Getting the permit early made the whole job *that much* easier.
 
 **See also:** [that many](#that-many), [this much](#this-much), [that](#that), [much](04-quantifiers-large.md#much)
 
@@ -238,12 +289,19 @@ Names a number by showing it rather than stating it — the number in front of u
 
 Names an amount of something uncountable by showing it rather than stating it — the amount indicated by a gesture, or the amount visibly on hand.
 
+**1. An amount shown rather than stated — the quantity a gesture indicates.** (вот столько — о неисчисляемом, количество показывают жестом)
+
 1. I've only got *this much* time before my next call.
 2. Add *this much* flour, then stop.
 3. He wants *this much* money for a used mower?
 4. I've read *this much of* the report and I'm already worried.
 5. You can pour *this much* and no more.
+
+**2. *This much is clear* — pointing forward to the one thing the speaker is willing to state.** (одно ясно; вот что можно сказать точно — this much is certain «одно несомненно»)
+
 6. *This much* is clear: nobody read the contract.
+7. *This much* we know — the shipment left the warehouse on Tuesday.
+8. *This much* is certain: it will not be finished by Friday.
 
 **See also:** [this many](#this-many), [that much](#that-much), [this](#this), [much](04-quantifiers-large.md#much), [little](05-quantifiers-small.md#little)
 
@@ -264,13 +322,19 @@ A frame in which the demonstrative determines a classifier noun and the *of*-phr
 
 Classifies a thing by the category it belongs to rather than pointing at the individual, with the category set at a distance — already named, already known to the hearer, or deliberately held away from the speaker. In American speech that distancing is very often a judgment.
 
-1. We don't tolerate *that kind of* behavior here.
-2. *That kind of* mistake is expensive to fix later.
-3. I've never driven *that kind of* truck.
-4. *That sort of* remark doesn't belong in a staff meeting.
-5. Is *that kind of* coverage included in the basic plan?
-6. He isn't *that kind of* person, whatever the neighbors say.
-7. *That type of* loan carries a prepayment penalty.
+**1. Classifying — a thing of the category already named or already known.** (такого рода, такой — о категории, уже названной или известной слушателю)
+
+1. I've never driven *that kind of* truck.
+2. Is *that kind of* coverage included in the basic plan?
+3. *That type of* loan carries a prepayment penalty.
+4. *That kind of* mistake is expensive to fix later.
+
+**2. Evaluative — holding the category at arm's length, usually in disapproval.** (этакий, подобный — с осуждением: that kind of behavior «подобное поведение»)
+
+5. We don't tolerate *that kind of* behavior here.
+6. *That sort of* remark doesn't belong in a staff meeting.
+7. He isn't *that kind of* person, whatever the neighbors say.
+8. I don't do business with *that kind of* outfit.
 
 **See also:** [this kind of](#this-kind-of), [those kinds of](#those-kinds-of), [these kinds of](#these-kinds-of), [that](#that)
 
@@ -728,13 +792,20 @@ Marks a noun as the one already named in the document — the legal draftsman's 
 
 Marks a noun as the one belonging to the text, case, or occasion in hand — the proximal counterpart of *aforesaid*, and a formal-register substitute for *this*.
 
+**1. Of the text, case, or occasion in hand — the formal substitute for *this*.** (настоящий (документ, дело) — книжн. и юр. замена this: the present case «настоящее дело»)
+
 1. *The present* case is distinguishable on its facts.
 2. *The present* study replicates an experiment from 1998.
 3. Nothing in *the present* agreement waives that right.
 4. *The present* writer takes no position on the question.
-5. Do *the present* regulations apply to leases signed before 2019?
-6. *The present* research does not address long-term outcomes.
-7. *The instant* motion was filed one day out of time. (legal variant)
+5. *The present* research does not address long-term outcomes.
+6. *The instant* motion was filed one day out of time. (legal variant)
+
+**2. Current — the state of things as they now stand.** (нынешний, текущий, действующий — the present circumstances «нынешние обстоятельства»)
+
+7. Do *the present* regulations apply to leases signed before 2019?
+8. Under *the present* circumstances nobody is taking a vacation.
+9. *The present* owner has had the building since 1994.
 
 **See also:** [aforementioned](#aforementioned), [aforesaid](#aforesaid), [said](#said), [this](#this), [the](01-articles.md#the)
 

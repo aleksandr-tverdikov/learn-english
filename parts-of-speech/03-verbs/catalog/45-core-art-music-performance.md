@@ -12,54 +12,102 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 ### perform
 
 **Pronunciation:** /pərˈfɔːrm/ &middot; *pur-FAWRM*
-**Русский:** выступать, выступить; исполнять, исполнить
+**Русский:** выступать, выступить; исполнять, исполнить; выполнять, выполнить; совершать, совершить; производить; работать, справляться; показывать результаты
 **Forms:** *perform* &middot; *performed* &middot; *performed*
 **Verb class:** regular
 **Third person:** *performs* &middot; **-ing form:** *performing*
 **Transitivity:** both — transitive (perform a song), intransitive (perform on stage)
 
-To present music, a play, or a dance in front of an audience.
+Perform has 3 distinct senses.
+
+**1. To present music, a play, or a dance in front of an audience.** (выступать, выступить; исполнять, исполнить)
 
 1. They *perform* twice every Saturday.
 2. She *performed* the whole piece from memory.
 3. The quartet has *performed* in nineteen countries.
+
+**2. To carry out a task, a duty, or an operation.** (выполнять, выполнить; совершать, совершить; производить)
+
+4. The scanner *performs* thousands of checks a minute.
+5. Surgeons *performed* the operation in under an hour.
+6. Every test was *performed* twice.
+
+**3. To work or do a job at a particular level of quality.** (работать, справляться; показывать результаты)
+
+7. The engine *performs* better at low altitude.
+8. Our team *performed* badly in the second half.
+9. The fund has *performed* well this year.
 
 ---
 
 ### act
 
 **Pronunciation:** /ækt/ &middot; *AKT*
-**Русский:** играть (на сцене), сыграть; актёрствовать
+**Русский:** играть (на сцене), сыграть; актёрствовать; действовать, поступать; принимать меры; вести себя, повести себя
 **Forms:** *act* &middot; *acted* &middot; *acted*
 **Verb class:** regular
 **Third person:** *acts* &middot; **-ing form:** *acting*
 **Transitivity:** both — transitive (act the part of a king), intransitive (act in a film)
 
-To play a part in a play, film, or television show.
+Act has 3 distinct senses.
+
+**1. To play a part in a play, film, or television show.** (играть (на сцене), сыграть; актёрствовать)
 
 1. He wants to *act*, not direct.
 2. She *acted* in commercials before her first movie.
 3. He has been *acting* since the age of six.
 
-**Phrasal verbs:** [act on](53-phrasal-regular-a-c.md#act-on) &middot; [act out](53-phrasal-regular-a-c.md#act-out-1) &middot; [act out](53-phrasal-regular-a-c.md#act-out) &middot; [act up](53-phrasal-regular-a-c.md#act-up) &middot; [act up](53-phrasal-regular-a-c.md#act-up-1)
+**2. To do something in order to deal with a situation, especially quickly.** (действовать, поступать; принимать меры)
+
+4. We have to *act* before the deadline.
+5. The doctor *acted* quickly and saved him.
+6. By *acting* fast, the crew kept the fire from spreading.
+
+**3. To behave in a particular way.** (вести себя, повести себя)
+
+7. He *acts* strangely around his boss.
+8. She *acted* as if nothing had happened.
+9. Stop *acting* like a child.
+
+**Phrasal verbs:** [act on](53-phrasal-regular-a-c.md#act-on) &middot; [act out](53-phrasal-regular-a-c.md#act-out) &middot; [act out](53-phrasal-regular-a-c.md#act-out-1) &middot; [act up](53-phrasal-regular-a-c.md#act-up) &middot; [act up](53-phrasal-regular-a-c.md#act-up-1)
 
 ---
 
 ### play
 
 **Pronunciation:** /pleɪ/ &middot; *PLAY*
-**Русский:** играть, сыграть (на инструменте)
+**Русский:** играть, сыграть (на инструменте); играть, сыграть (в игру); резвиться; играть, сыграть (роль); исполнять роль; включать, включить (запись); проигрывать, воспроизводить
 **Forms:** *play* &middot; *played* &middot; *played*
 **Verb class:** regular
 **Third person:** *plays* &middot; **-ing form:** *playing*
 **Transitivity:** both — transitive (play the cello), intransitive (the band played for an hour)
 **Contrast:** With an instrument English keeps *the*: *play the piano*. With a style it drops the article: *play jazz*.
 
-To make music on an instrument, or to perform a piece of music.
+Play has 4 distinct senses.
+
+**1. To make music on an instrument, or to perform a piece of music.** (играть, сыграть (на инструменте))
 
 1. She *plays* the cello beautifully.
 2. The band *played* for three hours without a break.
 3. That song has been *played* on every station in town.
+
+**2. To take part in a game or a sport, or to amuse yourself the way children do.** (играть, сыграть (в игру); резвиться)
+
+4. Do you want to *play* chess?
+5. They *played* two games and lost both.
+6. The kids are *playing* in the yard.
+
+**3. To act a particular character in a film or a play.** (играть, сыграть (роль); исполнять роль)
+
+7. She *plays* the mother in the new series.
+8. He *played* Hamlet twice in college.
+9. The part has been *played* by four different actors.
+
+**4. To start a recording so that it can be heard or watched.** (включать, включить (запись); проигрывать, воспроизводить)
+
+10. *Play* the video again from the start.
+11. The DJ *played* the same song three times.
+12. He was *playing* the voicemail for everyone in the office.
 
 **Phrasal verbs:** [play along](56-phrasal-regular-m-p.md#play-along) &middot; [play around](56-phrasal-regular-m-p.md#play-around) &middot; [play around with](56-phrasal-regular-m-p.md#play-around-with) &middot; [play back](56-phrasal-regular-m-p.md#play-back) &middot; [play down](56-phrasal-regular-m-p.md#play-down) &middot; [play on](56-phrasal-regular-m-p.md#play-on) &middot; [play out](56-phrasal-regular-m-p.md#play-out) &middot; [play up](56-phrasal-regular-m-p.md#play-up)
 
@@ -121,17 +169,25 @@ To try out for a part in a performance, or to hear someone try out.
 ### improvise
 
 **Pronunciation:** /ˈɪmprəvaɪz/ &middot; *IM-pruh-vyz*
-**Русский:** импровизировать, сымпровизировать
+**Русский:** импровизировать, сымпровизировать; сооружать на скорую руку, смастерить из подручных средств
 **Forms:** *improvise* &middot; *improvised* &middot; *improvised*
 **Verb class:** regular
 **Third person:** *improvises* &middot; **-ing form:** *improvising*
 **Transitivity:** both — transitive (improvise a solo), intransitive (improvise for ten minutes)
 
-To make up music, words, or action as you go, without preparing it.
+Improvise has 2 distinct senses.
+
+**1. To make up music, words, or action as you go, without preparing it.** (импровизировать, сымпровизировать)
 
 1. Good actors can *improvise* when a line is dropped.
 2. The pianist *improvised* for ten minutes.
 3. They were *improvising* the entire second half.
+
+**2. To make something out of whatever happens to be available.** (сооружать на скорую руку, смастерить из подручных средств)
+
+4. Campers learn to *improvise* when they forget something.
+5. They *improvised* a stretcher from two poles and a coat.
+6. She was *improvising* a costume out of an old sheet.
 
 ---
 
@@ -172,18 +228,26 @@ To copy the way someone speaks, moves, or works.
 ### mimic
 
 **Pronunciation:** /ˈmɪmɪk/ &middot; *MIM-ik*
-**Русский:** передразнивать, копировать
+**Русский:** передразнивать, копировать; имитировать, воспроизводить; напоминать (по виду, по действию)
 **Forms:** *mimic* &middot; *mimicked* &middot; *mimicked*
 **Verb class:** regular
 **Third person:** *mimics* &middot; **-ing form:** *mimicking*
 **Transitivity:** transitive
 **Contrast:** A *k* is inserted before the ending: *mimicked*, *mimicking* — like *panic → panicked*.
 
-To copy someone's voice or gestures, often to make fun of them.
+Mimic has 2 distinct senses.
+
+**1. To copy someone's voice or gestures, often to make fun of them.** (передразнивать, копировать)
 
 1. He can *mimic* any accent in the room.
 2. She *mimicked* her brother's walk all the way home.
 3. The synthesizer is *mimicking* a cello.
+
+**2. To look, sound, or behave very much like something else.** (имитировать, воспроизводить; напоминать (по виду, по действию))
+
+4. The new material *mimics* real leather.
+5. Her symptoms *mimicked* the flu for a week.
+6. The software is *mimicking* the hiss of an old tape machine.
 
 ---
 
@@ -264,17 +328,25 @@ To bend the knees and lower the body slightly as a formal greeting or thank-you.
 ### applaud
 
 **Pronunciation:** /əˈplɔːd/ &middot; *uh-PLAWD*
-**Русский:** аплодировать, рукоплескать
+**Русский:** аплодировать, рукоплескать; одобрять, одобрить; приветствовать (решение)
 **Forms:** *applaud* &middot; *applauded* &middot; *applauded*
 **Verb class:** regular
 **Third person:** *applauds* &middot; **-ing form:** *applauding*
 **Transitivity:** both — transitive (applaud the soloist), intransitive (the crowd applauded)
 
-To clap your hands to show that you liked a performance.
+Applaud has 2 distinct senses.
+
+**1. To clap your hands to show that you liked a performance.** (аплодировать, рукоплескать)
 
 1. Some audiences *applaud* between movements.
 2. They *applauded* for a full five minutes.
 3. She was *applauded* before she even sang a note.
+
+**2. To express strong approval of a decision or an action.** (одобрять, одобрить; приветствовать (решение))
+
+4. I *applaud* their decision to reopen the library.
+5. Critics *applauded* the change in policy.
+6. The move has been widely *applauded* by teachers.
 
 ---
 
@@ -299,17 +371,25 @@ To shout in disapproval at a performer or a performance.
 ### juggle
 
 **Pronunciation:** /ˈdʒʌɡəl/ &middot; *JUG-uhl*
-**Русский:** жонглировать
+**Русский:** жонглировать; совмещать (дела), успевать всё сразу; жонглировать (обязанностями)
 **Forms:** *juggle* &middot; *juggled* &middot; *juggled*
 **Verb class:** regular
 **Third person:** *juggles* &middot; **-ing form:** *juggling*
 **Transitivity:** both — transitive (juggle five oranges), intransitive (juggle for the crowd)
 
-To keep several objects moving through the air by throwing and catching them.
+Juggle has 2 distinct senses.
+
+**1. To keep several objects moving through the air by throwing and catching them.** (жонглировать)
 
 1. Clowns *juggle* while the stage is reset.
 2. He *juggled* five oranges without dropping one.
 3. She is *juggling* torches now.
+
+**2. To manage several jobs or responsibilities at the same time.** (совмещать (дела), успевать всё сразу; жонглировать (обязанностями))
+
+4. He *juggles* two jobs and night school.
+5. For years she *juggled* work and three kids.
+6. I'm tired of *juggling* everyone else's schedules.
 
 ---
 
@@ -391,34 +471,62 @@ To play the leading part in a film or show.
 ### direct
 
 **Pronunciation:** /dəˈrɛkt/ &middot; *duh-REKT*
-**Русский:** режиссировать, ставить; дирижировать
+**Русский:** режиссировать, ставить; дирижировать; направлять, направить; указывать дорогу; направлять, обращать (внимание, слова, средства) на; предписывать, распорядиться; поручать, поручить
 **Forms:** *direct* &middot; *directed* &middot; *directed*
 **Verb class:** regular
 **Third person:** *directs* &middot; **-ing form:** *directing*
 **Transitivity:** both — transitive (direct a film), intransitive (he writes and directs)
 
-To be in charge of how a film, play, or piece of music is performed.
+Direct has 4 distinct senses.
+
+**1. To be in charge of how a film, play, or piece of music is performed.** (режиссировать, ставить; дирижировать)
 
 1. She *directs* two shows a season.
 2. He *directed* the whole film in nineteen days.
 3. The opera is being *directed* by a newcomer.
+
+**2. To tell someone the way to a place.** (направлять, направить; указывать дорогу)
+
+4. Could you *direct* me to the train station?
+5. A guard *directed* us to the side entrance.
+6. The app has been *directing* everyone down the same back road.
+
+**3. To aim words, effort, or attention at a particular target.** (направлять, обращать (внимание, слова, средства) на)
+
+7. Please *direct* your questions to the front desk.
+8. He *directed* his anger at the wrong person.
+9. All the money has been *directed* toward repairs.
+
+**4. To order someone officially to do something.** (предписывать, распорядиться; поручать, поручить)
+
+10. Take the medicine as *directed* on the label.
+11. The judge *directed* the jury to ignore the remark.
+12. The board may *direct* the company to reopen the plant.
 
 ---
 
 ### stage
 
 **Pronunciation:** /steɪdʒ/ &middot; *STAYJ*
-**Русский:** ставить (спектакль), устраивать
+**Русский:** ставить (спектакль), устраивать; инсценировать, подстроить; разыграть
 **Forms:** *stage* &middot; *staged* &middot; *staged*
 **Verb class:** regular
 **Third person:** *stages* &middot; **-ing form:** *staging*
 **Transitivity:** transitive
 
-To put on a play or a public event.
+Stage has 2 distinct senses.
+
+**1. To put on a play or a public event.** (ставить (спектакль), устраивать)
 
 1. The company *stages* a new musical every fall.
 2. They *staged* Hamlet in a parking garage.
 3. The whole argument was *staged* for the cameras.
+
+**2. To arrange something so that it looks real or accidental when it is not.** (инсценировать, подстроить; разыграть)
+
+4. The thieves tried to *stage* a break-in.
+5. He *staged* the accident to collect the insurance.
+6. Every photo in the ad was carefully *staged*.
 
 ---
 
@@ -477,18 +585,26 @@ To be the main act at a concert or festival.
 ### collaborate
 
 **Pronunciation:** /kəˈlæbəreɪt/ &middot; *kuh-LAB-uh-rayt*
-**Русский:** сотрудничать, работать совместно
+**Русский:** сотрудничать, работать совместно; сотрудничать с врагом, быть коллаборационистом
 **Forms:** *collaborate* &middot; *collaborated* &middot; *collaborated*
 **Verb class:** regular
 **Third person:** *collaborates* &middot; **-ing form:** *collaborating*
 **Transitivity:** intransitive
 **Contrast:** You *collaborate with* a person and *collaborate on* a project.
 
-To work together with someone on a creative project.
+Collaborate has 2 distinct senses.
+
+**1. To work together with someone on a creative project.** (сотрудничать, работать совместно)
 
 1. The two composers *collaborate* constantly.
 2. She *collaborated* with a choreographer from Havana.
 3. They have *collaborated* on four albums.
+
+**2. To help an enemy army that has taken control of your country.** (сотрудничать с врагом, быть коллаборационистом)
+
+4. Villagers who *collaborate* face harsh punishment.
+5. Some officials *collaborated* simply to keep their jobs.
+6. He was accused of having *collaborated* with the occupiers.
 
 **Phrasal verbs:** [collaborate with](22-verb-preposition.md#collaborate-with)
 
@@ -532,18 +648,38 @@ To sing or play notes that fit pleasingly with a melody.
 ### conduct
 
 **Pronunciation:** /kənˈdʌkt/ &middot; *kuhn-DUKT*
-**Русский:** дирижировать
+**Русский:** дирижировать; проводить, провести (исследование, опрос, обыск); проводить (тепло, электричество); вести себя, держать себя
 **Forms:** *conduct* &middot; *conducted* &middot; *conducted*
 **Verb class:** regular
 **Third person:** *conducts* &middot; **-ing form:** *conducting*
 **Transitivity:** both — transitive (conduct the Ninth), intransitive (she conducts from the piano)
 **Contrast:** The verb is stressed kuhn-DUKT; the noun *conduct*, meaning behavior, is KAHN-dukt.
 
-To lead an orchestra or choir with your hands or a baton.
+Conduct has 4 distinct senses.
+
+**1. To lead an orchestra or choir with your hands or a baton.** (дирижировать)
 
 1. She *conducts* from the piano.
 2. He *conducted* the Ninth Symphony from memory.
 3. The concert was *conducted* by a guest from Vienna.
+
+**2. To carry out or organize an activity such as a study, a search, or an interview.** (проводить, провести (исследование, опрос, обыск))
+
+4. Researchers *conduct* the survey every spring.
+5. Police *conducted* a search of the garage.
+6. The interviews were *conducted* by phone.
+
+**3. Of a material, to let heat or electricity pass through it.** (проводить (тепло, электричество))
+
+7. Copper *conducts* electricity better than steel.
+8. The metal handle *conducted* the heat straight to his hand.
+9. Salt water is very good at *conducting* electricity.
+
+**4. To behave in a particular way.** (вести себя, держать себя)
+
+10. Jurors must *conduct* themselves carefully outside the courtroom.
+11. He *conducted* himself well under pressure.
+12. She was praised for how she had *conducted* herself during the hearing.
 
 ---
 
@@ -585,17 +721,25 @@ To play a guitar by sweeping your fingers across the strings.
 ### pluck
 
 **Pronunciation:** /plʌk/ &middot; *PLUK*
-**Русский:** щипать (струны), перебирать
+**Русский:** щипать (струны), перебирать; выщипывать, выщипать; ощипывать, ощипать (птицу)
 **Forms:** *pluck* &middot; *plucked* &middot; *plucked*
 **Verb class:** regular
 **Third person:** *plucks* &middot; **-ing form:** *plucking*
 **Transitivity:** transitive
 
-To pull a string with your fingers to make a note.
+Pluck has 2 distinct senses.
+
+**1. To pull a string with your fingers to make a note.** (щипать (струны), перебирать)
 
 1. Harpists *pluck* with both hands.
 2. She *plucked* the low string once and stopped.
 3. The violins are *plucked* in this passage.
+
+**2. To pull out hairs or feathers one at a time.** (выщипывать, выщипать; ощипывать, ощипать (птицу))
+
+4. She *plucks* her eyebrows every couple of weeks.
+5. He *plucked* a gray hair out of his beard.
+6. The chicken had already been *plucked* and cleaned.
 
 ---
 
@@ -642,17 +786,25 @@ To adjust an instrument so that it plays at the right pitch.
 ### transpose
 
 **Pronunciation:** /trænsˈpoʊz/ &middot; *trans-POHZ*
-**Русский:** транспонировать, перекладывать в другую тональность
+**Русский:** транспонировать, перекладывать в другую тональность; переставлять, переставить местами (цифры, буквы)
 **Forms:** *transpose* &middot; *transposed* &middot; *transposed*
 **Verb class:** regular
 **Third person:** *transposes* &middot; **-ing form:** *transposing*
 **Transitivity:** transitive
 
-To move a piece of music into a different key.
+Transpose has 2 distinct senses.
+
+**1. To move a piece of music into a different key.** (транспонировать, перекладывать в другую тональность)
 
 1. Singers often ask you to *transpose* a song down.
 2. She *transposed* the aria for a lower voice.
 3. The whole number has been *transposed* into G.
+
+**2. To switch the position of two letters, numbers, or words, usually by mistake.** (переставлять, переставить местами (цифры, буквы))
+
+4. It is easy to *transpose* two digits when you copy a long number.
+5. The clerk *transposed* the last two figures of my account.
+6. Someone had *transposed* the first and last names on the form.
 
 ---
 
@@ -694,18 +846,26 @@ To learn something completely, or to prepare the final version of a recording.
 ### rap
 
 **Pronunciation:** /ræp/ &middot; *RAP*
-**Русский:** читать рэп
+**Русский:** читать рэп; стучать, постучать (резко)
 **Forms:** *rap* &middot; *rapped* &middot; *rapped*
 **Verb class:** regular
 **Third person:** *raps* &middot; **-ing form:** *rapping*
 **Transitivity:** both — transitive (rap a verse), intransitive (rap over a beat)
 **Contrast:** The p doubles: *rapped*, *rapping*. Sounds exactly like *wrapped*.
 
-To speak rhyming words in rhythm over a beat.
+Rap has 2 distinct senses.
+
+**1. To speak rhyming words in rhythm over a beat.** (читать рэп)
 
 1. He *raps* in two languages.
 2. She *rapped* the last verse alone.
 3. They have been *rapping* together since high school.
+
+**2. To hit something quickly and sharply, making a knocking sound.** (стучать, постучать (резко))
+
+4. *Rap* on the glass if the door is locked.
+5. Someone *rapped* twice on the window.
+6. The teacher was *rapping* her pen against the desk.
 
 ---
 
@@ -763,18 +923,26 @@ To make a loud, harsh sound.
 ### sync
 
 **Pronunciation:** /sɪŋk/ &middot; *SINK*
-**Русский:** синхронизировать, совпадать по времени
+**Русский:** синхронизировать, совпадать по времени; синхронизировать (данные), синхронизироваться
 **Forms:** *sync* &middot; *synced* &middot; *synced*
 **Verb class:** regular
 **Third person:** *syncs* &middot; **-ing form:** *syncing*
 **Transitivity:** both — transitive (sync the audio to the video), intransitive (the dancers sync perfectly)
 **Contrast:** Sounds exactly like *sink*. The longer spelling *synch* exists, but *sync* is the usual American form.
 
-To make sound and picture, or two performers, match exactly in time.
+Sync has 2 distinct senses.
+
+**1. To make sound and picture, or two performers, match exactly in time.** (синхронизировать, совпадать по времени)
 
 1. The dancers *sync* perfectly with the beat.
 2. He *synced* the audio to the video overnight.
 3. Her lips are not *synced* with the track.
+
+**2. To copy data between two devices so that both hold the same information.** (синхронизировать (данные), синхронизироваться)
+
+4. My phone *syncs* with my laptop automatically.
+5. I *synced* the calendar before the flight.
+6. The files have not *synced* since Tuesday.
 
 **Phrasal verbs:** [sync up](57-phrasal-regular-q-s.md#sync-up)
 
@@ -821,18 +989,26 @@ To change something a little from one time to the next, or to be different from 
 ### waltz
 
 **Pronunciation:** /wɔːlts/ &middot; *WAWLTS*
-**Русский:** танцевать вальс, вальсировать
+**Русский:** танцевать вальс, вальсировать; заявляться, вваливаться (небрежно, самоуверенно)
 **Forms:** *waltz* &middot; *waltzed* &middot; *waltzed*
 **Verb class:** regular
 **Third person:** *waltzes* &middot; **-ing form:** *waltzing*
 **Transitivity:** both — transitive (waltz her around the room), intransitive (waltz until midnight)
 **Contrast:** Ends in *-tz*, so the third person adds *-es*: *waltzes*.
 
-To dance a waltz, a smooth dance in three-beat time.
+Waltz has 2 distinct senses.
+
+**1. To dance a waltz, a smooth dance in three-beat time.** (танцевать вальс, вальсировать)
 
 1. The couples *waltz* slowly around the floor.
 2. They *waltzed* until the band packed up.
 3. She is *waltzing* with her grandfather.
+
+**2. To move somewhere in a casual, over-confident way that annoys other people.** (заявляться, вваливаться (небрежно, самоуверенно))
+
+4. You can't just *waltz* past security like that.
+5. He *waltzed* into the meeting twenty minutes late.
+6. She came *waltzing* through the door as if nothing had happened.
 
 ---
 
@@ -856,17 +1032,25 @@ To spin around quickly, or to spin something with your fingers.
 ### sway
 
 **Pronunciation:** /sweɪ/ &middot; *SWAY*
-**Русский:** качаться, покачиваться
+**Русский:** качаться, покачиваться; склонять, склонить (к мнению); влиять на, переубеждать
 **Forms:** *sway* &middot; *swayed* &middot; *swayed*
 **Verb class:** regular
 **Third person:** *sways* &middot; **-ing form:** *swaying*
 **Transitivity:** both — transitive (the wind swayed the branches), intransitive (sway to the music)
 
-To move slowly from side to side.
+Sway has 2 distinct senses.
+
+**1. To move slowly from side to side.** (качаться, покачиваться)
 
 1. The whole crowd *sways* during that song.
 2. She *swayed* in time with the music.
 3. They were *swaying* with their arms around each other.
+
+**2. To influence someone's opinion or decision.** (склонять, склонить (к мнению); влиять на, переубеждать)
+
+4. Nothing I said could *sway* her.
+5. His speech *swayed* a few undecided voters.
+6. The jury was *swayed* by the photographs.
 
 ---
 
@@ -978,17 +1162,25 @@ To walk in a public procession, or to show something off in public.
 ### shade
 
 **Pronunciation:** /ʃeɪd/ &middot; *SHAYD*
-**Русский:** штриховать, растушёвывать
+**Русский:** штриховать, растушёвывать; затенять, затенить; защищать от солнца
 **Forms:** *shade* &middot; *shaded* &middot; *shaded*
 **Verb class:** regular
 **Third person:** *shades* &middot; **-ing form:** *shading*
 **Transitivity:** transitive
 
-To darken part of a drawing so that it looks solid or rounded.
+Shade has 2 distinct senses.
+
+**1. To darken part of a drawing so that it looks solid or rounded.** (штриховать, растушёвывать)
 
 1. *Shade* the left side of the apple so it looks round.
 2. She *shaded* the background with a soft pencil.
 3. The face still looks flat because you haven't *shaded* it.
+
+**2. To keep sunlight off something by blocking the light.** (затенять, затенить; защищать от солнца)
+
+4. Two big oaks *shade* the whole backyard.
+5. She *shaded* her eyes with one hand and looked up.
+6. The tables are *shaded* by wide umbrellas.
 
 ---
 
@@ -1012,17 +1204,37 @@ To give something a light shade of color.
 ### render
 
 **Pronunciation:** /ˈrɛndər/ &middot; *REN-dur*
-**Русский:** изображать, передавать; исполнять
+**Русский:** изображать, передавать; исполнять; приводить в (какое-л. состояние), делать (каким-л.); оказывать, оказать (услугу, помощь); выносить, вынести (решение); вытапливать, вытопить (жир)
 **Forms:** *render* &middot; *rendered* &middot; *rendered*
 **Verb class:** regular
 **Third person:** *renders* &middot; **-ing form:** *rendering*
 **Transitivity:** transitive
 
-To draw, paint, or perform something in a particular way.
+Render has 4 distinct senses.
+
+**1. To draw, paint, or perform something in a particular way.** (изображать, передавать; исполнять)
 
 1. Few painters *render* light the way he does.
 2. The architect *rendered* the facade in soft gray.
 3. The aria was beautifully *rendered*.
+
+**2. To cause someone or something to be in a particular condition.** (приводить в (какое-л. состояние), делать (каким-л.))
+
+4. The injury *rendered* him unable to walk for a month.
+5. One bad storm can *render* the road impassable.
+6. The new law has *rendered* the old permits worthless.
+
+**3. To give or deliver help, a service, or a formal judgment.** (оказывать, оказать (услугу, помощь); выносить, вынести (решение))
+
+7. He sent an invoice for services *rendered*.
+8. Passing ships are required to *render* assistance.
+9. The jury *rendered* its verdict after three hours.
+
+**4. To melt the fat out of meat by cooking it slowly.** (вытапливать, вытопить (жир))
+
+10. *Render* the bacon fat over low heat.
+11. She *rendered* the duck fat and saved it for the potatoes.
+12. Cook the pork belly until the fat has *rendered*.
 
 ---
 
@@ -1120,18 +1332,26 @@ To take a picture of someone or something with a camera.
 ### zoom
 
 **Pronunciation:** /zuːm/ &middot; *ZOOM*
-**Русский:** наезжать камерой, менять масштаб
+**Русский:** наезжать камерой, менять масштаб; мчаться, проноситься, промчаться
 **Forms:** *zoom* &middot; *zoomed* &middot; *zoomed*
 **Verb class:** regular
 **Third person:** *zooms* &middot; **-ing form:** *zooming*
 **Transitivity:** intransitive
 **Contrast:** Almost always with *in* or *out*: *zoom in on a face*, *zoom out*.
 
-To make a camera picture larger or smaller without moving the camera.
+Zoom has 2 distinct senses.
+
+**1. To make a camera picture larger or smaller without moving the camera.** (наезжать камерой, менять масштаб)
 
 1. Don't *zoom* in the middle of a shot.
 2. The camera *zoomed* slowly onto her face.
 3. He was *zooming* out to show the whole hall.
+
+**2. To move very fast with a loud rushing sound.** (мчаться, проноситься, промчаться)
+
+4. Motorcycles *zoom* past the house all summer.
+5. A truck *zoomed* by and soaked us.
+6. The kids were *zooming* around the yard on scooters.
 
 **Phrasal verbs:** [zoom in](58-phrasal-regular-t-z.md#zoom-in) &middot; [zoom out](58-phrasal-regular-t-z.md#zoom-out)
 
@@ -1140,18 +1360,26 @@ To make a camera picture larger or smaller without moving the camera.
 ### exhibit
 
 **Pronunciation:** /ɪɡˈzɪbɪt/ &middot; *ig-ZIB-it*
-**Русский:** выставлять, экспонировать
+**Русский:** выставлять, экспонировать; проявлять, проявить (признаки, качества); демонстрировать
 **Forms:** *exhibit* &middot; *exhibited* &middot; *exhibited*
 **Verb class:** regular
 **Third person:** *exhibits* &middot; **-ing form:** *exhibiting*
 **Transitivity:** both — transitive (exhibit twenty canvases), intransitive (she exhibits in Paris)
 **Contrast:** The h is silent and the x sounds like /ɡz/: ig-ZIB-it.
 
-To show work publicly in a gallery or museum.
+Exhibit has 2 distinct senses.
+
+**1. To show work publicly in a gallery or museum.** (выставлять, экспонировать)
 
 1. Three local painters *exhibit* here every spring.
 2. She *exhibited* in Paris for the first time last year.
 3. His drawings are being *exhibited* downtown.
+
+**2. To show a feeling, a quality, or a symptom clearly.** (проявлять, проявить (признаки, качества); демонстрировать)
+
+4. The patient *exhibited* all the classic symptoms.
+5. Young children often *exhibit* fear of strangers.
+6. He has never *exhibited* the slightest interest in money.
 
 ---
 
@@ -1244,18 +1472,32 @@ To present something in a way that shows its best qualities.
 ### project
 
 **Pronunciation:** /prəˈdʒɛkt/ &middot; *pruh-JEKT*
-**Русский:** проецировать; подавать голос
+**Русский:** проецировать; подавать голос; прогнозировать, спрогнозировать; планировать (показатели); производить впечатление, создавать образ; излучать (уверенность, спокойствие)
 **Forms:** *project* &middot; *projected* &middot; *projected*
 **Verb class:** regular
 **Third person:** *projects* &middot; **-ing form:** *projecting*
 **Transitivity:** both — transitive (project a film onto the wall), intransitive (learn to project)
 **Contrast:** The verb is stressed on the second syllable, pruh-JEKT; the noun *project* is PRAH-jekt.
 
-To throw an image onto a screen, or to make your voice carry to the back of a hall.
+Project has 3 distinct senses.
+
+**1. To throw an image onto a screen, or to make your voice carry to the back of a hall.** (проецировать; подавать голос)
 
 1. Singers learn to *project* without shouting.
 2. They *projected* old home movies onto the back wall.
 3. Her voice has always *projected* well.
+
+**2. To estimate what a future figure or result will be.** (прогнозировать, спрогнозировать; планировать (показатели))
+
+4. The city *projects* a shortfall of four million dollars next year.
+5. Sales were *projected* to double, and they never did.
+6. Forecasters are *projecting* a mild winter.
+
+**3. To give other people a particular impression of yourself.** (производить впечатление, создавать образ; излучать (уверенность, спокойствие))
+
+7. A good teacher *projects* calm even when things go wrong.
+8. He *projected* a confidence he did not really feel.
+9. She has always *projected* the image of someone in total control.
 
 ---
 
@@ -1330,17 +1572,25 @@ To broadcast something on television.
 ### stream
 
 **Pronunciation:** /striːm/ &middot; *STREEM*
-**Русский:** транслировать онлайн, смотреть в потоке
+**Русский:** транслировать онлайн, смотреть в потоке; литься, течь потоком; валить, хлынуть (о толпе)
 **Forms:** *stream* &middot; *streamed* &middot; *streamed*
 **Verb class:** regular
 **Third person:** *streams* &middot; **-ing form:** *streaming*
 **Transitivity:** both — transitive (stream a concert), intransitive (the song is streaming everywhere)
 
-To send or watch video or music over the internet as it plays.
+Stream has 2 distinct senses.
+
+**1. To send or watch video or music over the internet as it plays.** (транслировать онлайн, смотреть в потоке)
 
 1. Thousands *stream* the show every night.
 2. The band *streamed* the whole concert for free.
 3. Her new single is *streaming* everywhere.
+
+**2. To flow or move steadily in a continuous current.** (литься, течь потоком; валить, хлынуть (о толпе))
+
+4. Light *streams* through that window every morning.
+5. Tears *streamed* down her face.
+6. Fans were *streaming* out of the stadium.
 
 ---
 
@@ -1365,18 +1615,26 @@ To make something widely known to the public.
 ### honor
 
 **Pronunciation:** /ˈɑːnər/ &middot; *AH-nur*
-**Русский:** чествовать, награждать
+**Русский:** чествовать, награждать; выполнять, выполнить (обязательство); соблюдать; принимать (к оплате)
 **Forms:** *honor* &middot; *honored* &middot; *honored*
 **Verb class:** regular
 **Third person:** *honors* &middot; **-ing form:** *honoring*
 **Transitivity:** transitive
 **Contrast:** The h is silent: AH-nur. American *honor, honored*; British *honour, honoured*.
 
-To show great public respect for someone.
+Honor has 2 distinct senses.
+
+**1. To show great public respect for someone.** (чествовать, награждать)
 
 1. The festival *honors* a living composer each year.
 2. They *honored* him with a lifetime award.
 3. She was *honored* at a dinner in New York.
+
+**2. To do what an agreement or promise requires, or to accept something as valid.** (выполнять, выполнить (обязательство); соблюдать; принимать (к оплате))
+
+4. The store *honors* competitors' coupons.
+5. The company *honored* the warranty without an argument.
+6. They have *honored* every term of the contract.
 
 ---
 
@@ -1401,17 +1659,25 @@ To hold someone's attention so completely that they cannot look away.
 ### enchant
 
 **Pronunciation:** /ɪnˈtʃænt/ &middot; *in-CHANT*
-**Русский:** очаровывать, пленять
+**Русский:** очаровывать, пленять; заколдовывать, заколдовать; околдовать
 **Forms:** *enchant* &middot; *enchanted* &middot; *enchanted*
 **Verb class:** regular
 **Third person:** *enchants* &middot; **-ing form:** *enchanting*
 **Transitivity:** transitive
 
-To delight someone completely, as if by magic.
+Enchant has 2 distinct senses.
+
+**1. To delight someone completely, as if by magic.** (очаровывать, пленять)
 
 1. Simple melodies *enchant* small children.
 2. The production *enchanted* even the hardest critics.
 3. We were *enchanted* by the costumes.
+
+**2. To put a magic spell on someone or something.** (заколдовывать, заколдовать; околдовать)
+
+4. The witch *enchanted* the mirror so that it would answer her.
+5. In the story, a wizard *enchants* the sword.
+6. The forest had been *enchanted* long before they arrived.
 
 ---
 
@@ -1436,35 +1702,51 @@ To feel great surprise and admiration at something.
 ### replay
 
 **Pronunciation:** /ˌriːˈpleɪ/ &middot; *ree-PLAY*
-**Русский:** проигрывать заново, воспроизводить
+**Русский:** проигрывать заново, воспроизводить; мысленно прокручивать, снова и снова переживать
 **Forms:** *replay* &middot; *replayed* &middot; *replayed*
 **Verb class:** regular
 **Third person:** *replays* &middot; **-ing form:** *replaying*
 **Transitivity:** transitive
 **Contrast:** The verb is stressed ree-PLAY; the noun *replay* is REE-play.
 
-To play a recording again.
+Replay has 2 distinct senses.
+
+**1. To play a recording again.** (проигрывать заново, воспроизводить)
 
 1. They *replay* the best moments at the end of the show.
 2. He *replayed* the take a dozen times.
 3. The scene was *replayed* in slow motion.
+
+**2. To go through an event again in your mind.** (мысленно прокручивать, снова и снова переживать)
+
+4. I keep *replaying* that conversation in my head.
+5. He *replayed* the accident over and over for weeks.
+6. Try not to *replay* every mistake before you fall asleep.
 
 ---
 
 ### reproduce
 
 **Pronunciation:** /ˌriːprəˈduːs/ &middot; *ree-pruh-DOOSS*
-**Русский:** воспроизводить, копировать
+**Русский:** воспроизводить, копировать; размножаться, давать потомство
 **Forms:** *reproduce* &middot; *reproduced* &middot; *reproduced*
 **Verb class:** regular
 **Third person:** *reproduces* &middot; **-ing form:** *reproducing*
 **Transitivity:** transitive
 
-To make a copy of a picture, a sound, or a piece of work.
+Reproduce has 2 distinct senses.
+
+**1. To make a copy of a picture, a sound, or a piece of work.** (воспроизводить, копировать)
 
 1. Cheap printing cannot *reproduce* those colors.
 2. The museum *reproduced* the fresco at full size.
 3. The drawing has been *reproduced* on posters and mugs.
+
+**2. For a living thing to produce young.** (размножаться, давать потомство)
+
+4. Rabbits *reproduce* very quickly.
+5. The fish *reproduced* in the warm shallow water.
+6. Pandas have trouble *reproducing* in captivity.
 
 ---
 

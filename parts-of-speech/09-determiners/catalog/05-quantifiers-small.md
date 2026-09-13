@@ -49,12 +49,20 @@ Marks a small but sufficient number — "some, and enough for the purpose." The 
 
 Marks a small but sufficient amount of something uncountable — "some, and enough." As a pronoun it stands alone: *I know a little about it.*
 
+**1. A small but sufficient amount of something uncountable — "some, and enough."** (немного, чуть-чуть — мало, но достаточно; в отличие от little звучит позитивно)
+
 1. There's still *a little* milk left, enough for coffee.
 2. Add *a little* salt and taste it again.
 3. She speaks *a little* Portuguese.
-4. It took *a little* courage to say that out loud.
-5. I've read *a little* of the report, but not the appendices.
+4. I've read *a little* of the report, but not the appendices.
+5. It took *a little* courage to say that out loud.
+
+**2. Adverbial *a little* — "somewhat, slightly," in front of an adjective, a verb, or a comparative.** (немного, слегка, чуть — a little tired «слегка устал», a little more «чуть больше»)
+
 6. Give me *a little* more time and I'll have the numbers.
+7. She was *a little* annoyed, but she signed anyway.
+8. Move the couch *a little* to the left.
+9. The engine runs *a little* rough when it's cold.
 
 **See also:** [little](#little), [a few](#a-few), [a bit of](#a-bit-of), [a little bit of](#a-little-bit-of), [much](04-quantifiers-large.md#much)
 
@@ -69,14 +77,20 @@ Marks a small but sufficient amount of something uncountable — "some, and enou
 **Contrast:** *few* vs *a few* is the central contrast of this file — *few* is negative ("not many, and that's disappointing"), *a few* is positive ("some, and that's enough"). The countability partner is *little*, which is negative in the same way for uncountables: *few options* but *little time*. As a determiner it precedes a noun; as a pronoun it stands alone (*Few knew what was coming*).
 **Variants:** *very few*, *so few*, *too few*, *precious few*, *few if any*, *the few*, *one of the few*
 
-**1.** Bare *few* is negative and near-empty: it says the number fell short of what was wanted or expected, and it behaves like a negative in the sentence, taking positive question tags (*Few people noticed, did they?*) and licensing *any* (*Few of them had any experience*). **2.** After *the*, a possessive, or a demonstrative, the negativity drops out and *few* simply names a small number that does exist — *the few options we have left* is neutral, even faintly appreciative.
+Names a number that is smaller than wanted or expected. Bare *few* is near-empty and behaves like a negative in the sentence, taking positive question tags (*Few people noticed, did they?*) and licensing *any* (*Few of them had any experience*). A determiner in front of it — *the*, a possessive, a demonstrative — cancels that negativity, which is the split the senses below turn on.
+
+**1. Bare *few* — a number that fell short, with a complaining edge.** (мало, немногие — «меньше, чем хотелось бы»; ведёт себя как отрицание)
 
 1. *Few* people showed up, and the ones who did left early.
 2. *Few* of the proposals survived the first round of cuts.
 3. There are *few* things I enjoy less than a conference call at seven a.m.
-4. She is one of the *few* engineers who can read the old firmware.
-5. The *few* copies still in print sell for hundreds of dollars.
-6. *Few*, if any, of these results will replicate.
+4. *Few*, if any, of these results will replicate.
+
+**2. After *the*, a possessive, or a demonstrative — the small number that does exist, with no complaint in it.** (те немногие — после the/притяжательного отрицательный оттенок пропадает)
+
+5. She is one of the *few* engineers who can read the old firmware.
+6. The *few* copies still in print sell for hundreds of dollars.
+7. His *few* remaining clients followed him to the new firm.
 
 **See also:** [a few](#a-few), [little](#little), [fewer](#fewer), [not many](#not-many), [hardly any](#hardly-any), [precious few / precious little](#precious-few--precious-little), [many](04-quantifiers-large.md#many)
 
@@ -91,14 +105,25 @@ Marks a small but sufficient amount of something uncountable — "some, and enou
 **Contrast:** *little* vs *a little* — the article flips the meaning from negative to positive. *There is little hope* is grim; *There is a little hope* is not. The countability partner is *few*: *little patience* but *few options*. Also distinguish the adjective (*a little dog* = a small dog) and the adverb (*little did she know*, *I slept little*). As a pronoun *little* stands alone: *Little was said about the cost.*
 **Variants:** *very little*, *so little*, *too little*, *precious little*, *little if any*, *little to no*, *the little*
 
-**1.** Bare *little* is negative: it reports that the amount fell short, and like *few* it behaves as a negative in the clause, licensing *any* and taking positive tags (*There's little chance, is there?*). **2.** After *the* or a possessive it loses the negativity and names the small amount that does exist — *the little money he had left* is a statement of fact, not a complaint. **3.** In the fronted literary frame *little did I know*, *little* is an adverb and triggers subject–auxiliary inversion.
+Names an amount that fell short of what was needed. Like *few*, bare *little* behaves as a negative in the clause: it licenses *any* and takes positive question tags (*There's little chance, is there?*). A determiner in front of it cancels that negativity, and fronting it turns it into an adverb that inverts the subject and the auxiliary.
+
+**1. Bare *little* — an amount that fell short, with a complaining edge.** (мало, недостаточно — только с неисчисляемыми; ведёт себя как отрицание)
 
 1. We have *little* time before the store closes.
 2. There is *little* evidence that the policy changed anything.
 3. He showed *little* interest in the offer.
 4. *Little* of the original building survived the fire.
+
+**2. After *the* or a possessive — the small amount that does exist, stated as a fact.** (то немногое, те крохи — после the/притяжательного отрицательный оттенок пропадает)
+
 5. She spent the *little* money she had on a bus ticket.
-6. *Little* did we know that the flight had already been canceled.
+6. What *little* help we got came from the neighbors.
+7. He gave what *little* information he had and hung up.
+
+**3. Fronted *little did I know* — an adverb, with subject–auxiliary inversion.** (и не подозревал, что… — книжн. инверсия: little did we know)
+
+8. *Little* did we know that the flight had already been canceled.
+9. *Little* does he realize how close that came to a lawsuit.
 
 **See also:** [a little](#a-little), [few](#few), [less](#less), [not much](#not-much), [hardly any](#hardly-any), [precious few / precious little](#precious-few--precious-little), [scant](#scant), [much](04-quantifiers-large.md#much)
 
@@ -211,12 +236,18 @@ Almost everything in this section counts: these take plural countable nouns and 
 
 Names two, or loosely two or three, of something counted. It is the most everyday small number in American English and is neutral in attitude. As a pronoun it drops both *of* and the noun and stands alone: *I'll take a couple.*
 
+**1. Exactly two.** (пара, двое — ровно два)
+
 1. Give me *a couple of* minutes and I'll be ready.
-2. We tried *a couple of* different approaches before this one worked.
-3. *A couple of* the reviewers asked for the raw data.
-4. I ran into *a couple of* them at the airport.
-5. It'll cost *a couple of* hundred dollars to fix.
-6. Grab *a couple* chairs from the other room. (informal — *of* dropped)
+2. *A couple of* the reviewers asked for the raw data.
+3. I ran into *a couple of* them at the airport.
+4. Grab *a couple* chairs from the other room. (informal — *of* dropped)
+
+**2. Loosely two or three — "a few," with no promise of a count.** (пара-тройка, несколько — нестрого, счёт не важен)
+
+5. We tried *a couple of* different approaches before this one worked.
+6. It'll cost *a couple of* hundred dollars to fix.
+7. She's been out sick *a couple of* weeks now.
 
 **See also:** [a few](#a-few), [one or two](#one-or-two), [several](#several), [a handful of](#a-handful-of), [a matter of](#a-matter-of), [dozen](07-numerals-multipliers.md#dozen)
 
@@ -233,12 +264,19 @@ Names two, or loosely two or three, of something counted. It is the most everyda
 
 Names a small number, around five, of counted things — or literally as much as a hand will hold, of an uncountable substance. As a pronoun it drops both *of* and the noun and stands alone: *Only a handful showed up.*
 
+**1. A small number of counted things — around five.** (горстка, несколько — небольшое число, примерно пять)
+
 1. Only *a handful of* people showed up for the vote.
 2. *A handful of* states have passed similar laws.
-3. She grabbed *a handful of* rice and threw it at the couple.
-4. *A handful of* the original team members are still here.
-5. There were *a handful of* complaints, nothing serious.
-6. I recognized *a handful of* them from the conference.
+3. *A handful of* the original team members are still here.
+4. There were *a handful of* complaints, nothing serious.
+5. I recognized *a handful of* them from the conference.
+
+**2. Literally — as much as one hand will hold.** (пригоршня, горсть — буквально столько, сколько помещается в руке)
+
+6. She grabbed *a handful of* rice and threw it at the couple.
+7. He scooped up *a handful of* gravel and let it run through his fingers.
+8. Take *a handful of* flour and work it into the dough.
 
 **See also:** [a couple of](#a-couple-of), [a few](#a-few), [several](#several), [a smattering of](#a-smattering-of), [a fraction of](07-numerals-multipliers.md#a-fraction-of)
 
@@ -255,12 +293,20 @@ Names a small number, around five, of counted things — or literally as much as
 
 Names a strikingly small span of time, distance, or money — "only this much, and no more."
 
+**1. A strikingly small span of time, distance, or money — "only this much."** (всего каких-нибудь — о поразительно малом сроке, расстоянии или сумме)
+
 1. The building went up in *a matter of* months.
 2. She missed the record by *a matter of* inches.
 3. Within *a matter of* hours the story was everywhere.
 4. It's *a matter of* dollars, not thousands — just approve it.
 5. The whole outage lasted *a matter of* minutes.
 6. They were separated by *a matter of* feet the entire time and never saw each other.
+
+**2. A question of — the thing the outcome actually depends on.** (вопрос чего-либо, дело в — a matter of taste «дело вкуса», a matter of time «вопрос времени»)
+
+7. Whether you hyphenate it is *a matter of* house style, not grammar.
+8. It's only *a matter of* time before somebody sues.
+9. For him it was *a matter of* principle, and nobody could talk him out of it.
 
 **See also:** [a couple of](#a-couple-of), [one or two](#one-or-two), [a few](#a-few), [a fraction of](07-numerals-multipliers.md#a-fraction-of)
 
@@ -277,12 +323,19 @@ Names a strikingly small span of time, distance, or money — "only this much, a
 
 Names a vague, moderate quantity of counted things — more than a couple, not enough to specify. It buys the writer precision-free plurality.
 
+**1. A vague, moderate quantity of counted things — more than a couple, not worth specifying.** (ряд, некоторое количество — неопределённое умеренное число)
+
 1. *A number of* issues remain unresolved.
 2. *A number of* the residents have already filed complaints.
 3. We heard from *a number of* them after the article ran.
 4. *A number of* factors contributed to the delay.
 5. *A growing number of* companies have dropped the requirement.
+
+**2. *Any number of* — a great many, more than you could count.** (сколько угодно, масса — any number of reasons «сколько угодно причин»)
+
 6. There are *any number of* reasons this could have failed.
+7. I could give you *any number of* examples from last quarter alone.
+8. *Any number of* people warned him and he signed it anyway.
 
 **See also:** [several](#several), [a handful of](#a-handful-of), [a few](#a-few), [many](04-quantifiers-large.md#many), [a large number of](04-quantifiers-large.md#a-large-number-of)
 
@@ -321,12 +374,18 @@ Names a small part drawn from a larger whole and treated as standing for it — 
 
 Names a small number or amount thinly distributed — few, and scattered rather than gathered.
 
+**1. A small number or amount thinly scattered — few, and spread out rather than gathered.** (крупицы, разрозненные немногие — мало и вразброс)
+
 1. There was *a smattering of* applause when he finished.
-2. She has *a smattering of* Italian, enough to order dinner.
-3. *A smattering of* gray had appeared at his temples.
-4. Only *a smattering of* tourists come this far north in March.
-5. The lecture assumed *a smattering of* statistics.
-6. *A smattering of* early snow was still on the roofs.
+2. *A smattering of* gray had appeared at his temples.
+3. Only *a smattering of* tourists come this far north in March.
+4. *A smattering of* early snow was still on the roofs.
+
+**2. A patchy, superficial knowledge of a subject or a language.** (поверхностные знания, нахватанный по верхам — a smattering of Italian «кое-как объясняется по-итальянски»)
+
+5. She has *a smattering of* Italian, enough to order dinner.
+6. The lecture assumed *a smattering of* statistics.
+7. He has *a smattering of* legal training and a dangerous amount of confidence.
 
 **See also:** [a handful of](#a-handful-of), [a trace of](#a-trace-of), [a little](#a-little), [a fraction of](07-numerals-multipliers.md#a-fraction-of)
 
@@ -365,12 +424,18 @@ Names a group whose members all belong to some larger, specified group — the t
 
 Names a very small number of counted things, with the vagueness built in on purpose. As a pronoun it stands alone with no noun and takes a plural verb: *One or two have already complained.*
 
+**1. Literally one or two — a very small number, left vague on purpose.** (один-два — очень малое число, намеренно неточное)
+
 1. I have *one or two* things to finish before I leave.
 2. *One or two* of the chapters could probably be cut.
-3. There were *one or two* complaints, but nothing serious.
-4. *One or two* of them stayed to help clean up.
-5. Just *one or two* more questions and we're done.
+3. *One or two* of them stayed to help clean up.
+4. Just *one or two* more questions and we're done.
+
+**2. Understated — "a fair number, and you can guess how many."** (кое-кто, кое-что; и не только — нарочитое преуменьшение)
+
+5. There were *one or two* complaints, but nothing serious.
 6. She's made *one or two* enemies in this building.
+7. I could name *one or two* people who'd disagree with that.
 
 **See also:** [a couple of](#a-couple-of), [a few](#a-few), [a handful of](#a-handful-of), [a matter of](#a-matter-of)
 
@@ -387,12 +452,20 @@ Names a very small number of counted things, with the vagueness built in on purp
 
 Names a number that is more than two and fewer than many, left deliberately imprecise.
 
+**1. More than two and fewer than many, deliberately imprecise.** (несколько — больше двух, но не много)
+
 1. I sent *several* emails and never heard back.
 2. *Several* of the students had already dropped the course.
 3. We've been over this *several* times.
 4. *Several* hundred people were still without power.
 5. She turned down *several* of them before accepting this one.
 6. There are *several* more boxes in the garage.
+
+**2. Formal and legal — "separate, individual, belonging to each one."** (отдельный, свой у каждого — юр. и книжн.: joint and several liability «солидарная и раздельная ответственность»)
+
+7. The partners signed a joint and *several* guarantee on the loan.
+8. Each defendant is liable in his *several* capacity as well as jointly.
+9. After the service they went their *several* ways. (literary, now old-fashioned)
 
 **See also:** [a few](#a-few), [a handful of](#a-handful-of), [a number of](#a-number-of), [a couple of](#a-couple-of), [many](04-quantifiers-large.md#many)
 
@@ -407,15 +480,42 @@ Names a number that is more than two and fewer than many, left deliberately impr
 **Contrast:** *some* vs *any* is the classic pair. *Some* is the default in affirmative statements (*I have some money*), *any* the default in negatives and questions (*I don't have any money*, *Do you have any money?*) — and they never combine: ✗ *I don't have some money*. The rule is a tendency, not a law: *some* returns in offers and requests, where the speaker expects a yes (*Would you like some coffee?*, *Could I have some water?*), and *any* appears in affirmatives meaning "it doesn't matter which" (*Take any seat*). Against the rest of this file, *some* is the neutral baseline — it names a partial amount without judging it, where *a few* and *a little* insist the amount is small and *few* and *little* complain that it is too small. Determiner *some* precedes a noun; pronoun *some* stands alone (*Some left early*).
 **Variants:** *some more*, *some other*, *some … or other*, *some few* (formal, archaic), *somewhat*, *some* + numeral (approximative — a separate use)
 
-**1.** The everyday indefinite quantifier: an unspecified, partial amount or number, neither large nor pointedly small. With an uncountable noun it names part of a mass (*some rice*); with a plural it names part of a set (*some of the seats*), and it implies the rest exist — *Some of the windows were painted shut* invites the question of the others. **2.** Before a **singular countable** noun, stressed /sʌm/, it means "a certain, unidentified, and I don't much care which" — *some guy*, *some excuse or other*, *some day next week*. It is often faintly dismissive. **3.** Also stressed, before a singular noun in an exclamation, it is an intensifier of admiration or sarcasm: *That was some party.* *Some help you turned out to be.* **4.** Before a numeral, *some* means "approximately" (*some twenty people*) — that use belongs with the [numerals](07-numerals-multipliers.md#some-approximative).
+Names a part of a mass or a part of a set without saying how much or how many. Everything else *some* does is keyed to **stress**: the ordinary quantifier is the weak /səm/ that learners barely hear, while the dismissive, the admiring, and the approximative uses all take the strong /sʌm/ and a full vowel. With a plural it implies that the rest of the set exists — *Some of the windows were painted shut* invites the question of the others — and that implication is what the contrastive sense below lives on.
+
+**1. An unspecified partial amount or number — the everyday quantifier.** (немного, несколько — неопределённая часть, ни мало ни много; безударное /səm/)
 
 1. There's *some* coffee left if you want it.
-2. *Some* of the windows were painted shut.
+2. We spent *some* time going over the numbers before the call.
 3. Would you like *some* help with those bags?
-4. We spent *some* time going over the numbers before the call.
-5. *Some* guy from the leasing office called about the deposit.
-6. I gave *some* of it away and kept the rest.
-7. *Some* people never learn.
+4. I gave *some* of it away and kept the rest.
+
+**2. Contrastive — this part of the set as against the rest.** (одни… другие; часть — а остальные нет: some… others…)
+
+5. *Some* of the windows were painted shut and the rest wouldn't close.
+6. *Some* people like the new layout; others want the old one back.
+7. *Some* of the applicants were local, but most had to fly in.
+
+**3. Stressed, before a singular countable noun — "a certain one, and I don't much care which."** (какой-то, некий — часто с оттенком пренебрежения)
+
+8. *Some* guy from the leasing office called about the deposit.
+9. She said it was *some* problem with the billing system.
+10. We'll finish it *some* day next week.
+
+**4. Stressed, in an exclamation — admiration or sarcasm.** (ну и…, вот это… — That was some party «Вот это была вечеринка»; в насмешку — «хорош же…»)
+
+11. That was *some* storm last night.
+12. *Some* help you turned out to be.
+13. She drove it home on three tires — *some* driver.
+
+**5. Before a numeral — "approximately."** (около, примерно — some twenty people «человек двадцать»; подробнее в [some (approximative)](07-numerals-multipliers.md#some-approximative))
+
+14. *Some* twenty people were waiting when the doors opened.
+15. The repair ran to *some* four thousand dollars.
+
+**6. Generic *some people*, *some things* — a subset of a kind, not a counted amount.** (есть такие, которые…; некоторые)
+
+16. *Some* people never learn.
+17. *Some* things are easier to fix than to explain.
 
 **See also:** [any](06-distributives-negatives.md#any), [several](#several), [a few](#a-few), [a little](#a-little), [a bit of](#a-bit-of), [some (approximative)](07-numerals-multipliers.md#some-approximative), [a lot of](04-quantifiers-large.md#a-lot-of)
 
@@ -480,12 +580,23 @@ These are partitive phrases — [*a* + measure noun + *of*], or [*an* + measure 
 
 Names a small amount of something uncountable, or with the *of a* frame, a mild or partial instance of something.
 
+**1. A small amount of something uncountable.** (немного, чуть-чуть — малое количество неисчисляемого)
+
 1. We had *a bit of* luck with the weather.
 2. Can I give you *a bit of* advice?
 3. There's still *a bit of* the cake left in the fridge.
-4. Parking downtown is *a bit of* a nightmare.
-5. It took *a bit of* persuading to get her on the plane.
-6. He knows quite *a bit of* Japanese, actually. (= a lot)
+4. It took *a bit of* persuading to get her on the plane.
+
+**2. *A bit of a* + noun — an understated way of calling something exactly what it is.** (изрядный, порядочный — нарочитое преуменьшение: a bit of a nightmare «тот ещё кошмар»)
+
+5. Parking downtown is *a bit of* a nightmare.
+6. He's *a bit of* a perfectionist about the schedule.
+7. The second half was *a bit of* a disaster.
+
+**3. *Quite a bit of* — a large amount, not a small one.** (немало, порядочно — quite a bit of переворачивает смысл на «много»)
+
+8. He knows quite *a bit of* Japanese, actually.
+9. We've had quite *a bit of* interest in the listing already.
 
 **See also:** [a little](#a-little), [a little bit of](#a-little-bit-of), [a touch of](#a-touch-of), [a couple of](#a-couple-of)
 
@@ -524,12 +635,17 @@ Names a very small quantity of something soft or spreadable — the amount you w
 
 Names a very small quantity added to something else — literally in cooking, figuratively of any quality mixed into a whole.
 
+**1. A very small measured quantity added in cooking.** (щепотка, капля — кулинарная мера)
+
 1. Add *a dash of* salt and a squeeze of lemon.
 2. The recipe calls for *a dash of* bitters.
-3. It's a serious book with *a dash of* humor.
-4. She wanted *a dash of* color in an otherwise gray room.
-5. Their pitch had ambition and *a dash of* delusion.
-6. Finish it with *a dash of* olive oil.
+3. Finish it with *a dash of* olive oil.
+
+**2. Figuratively — a small amount of a quality stirred into a whole.** (нотка, доля, примесь — a dash of humor «с ноткой юмора»)
+
+4. It's a serious book with *a dash of* humor.
+5. She wanted *a dash of* color in an otherwise gray room.
+6. Their pitch had ambition and *a dash of* delusion.
 
 **See also:** [a drop of](#a-drop-of), [a pinch of](#a-pinch-of), [a hint of](#a-hint-of), [a touch of](#a-touch-of), [a bit of](#a-bit-of)
 
@@ -568,12 +684,18 @@ Names a soft, rounded spoonful of something — small, but the most generous of 
 
 Names the smallest visible quantity of a liquid, and by extension, under negation, the complete absence of a quality.
 
+**1. The smallest visible quantity of a liquid.** (капля — мельчайшее количество жидкости)
+
 1. Add *a drop of* vanilla to the batter.
 2. There hasn't been *a drop of* rain in six weeks.
-3. He showed not *a drop of* remorse in the interview.
+3. *A drop of* blood had dried on the sleeve.
 4. She used every *drop of* fuel getting back to the airfield.
-5. *A drop of* blood had dried on the sleeve.
-6. What they're offering is *a drop of* what it would actually cost.
+
+**2. Under negation — not the slightest amount of a quality.** (ни капли — при отрицании: not a drop of remorse «ни капли раскаяния»)
+
+5. He showed not *a drop of* remorse in the interview.
+6. There isn't *a drop of* sympathy left for them at city hall.
+7. What they're offering is *a drop of* what it would actually cost.
 
 **See also:** [a dash of](#a-dash-of), [a trickle of](#a-trickle-of), [a trace of](#a-trace-of), [a shred of](#a-shred-of)
 
@@ -722,12 +844,19 @@ Names the smallest cooking measure of a dry ingredient — as much as two finger
 
 Names the very slightest degree of a quality, most naturally in a negative sentence denying that any exists at all.
 
+**1. The very slightest degree of a quality, most often under negation.** (тень, оттенок — малейшая степень, чаще при отрицании; неск. устар.)
+
 1. There was not *a shade of* doubt in her voice.
 2. He said it without *a shade of* irony.
 3. Between the two drafts there isn't *a shade of* difference.
 4. *A shade of* regret crossed his face and was gone.
 5. The report contained not *a shade of* criticism.
-6. It came in *a shade* under an hour. (adverbial use)
+
+**2. Adverbial *a shade* — "slightly, by a hair."** (чуть-чуть, самую малость — a shade under an hour «чуть меньше часа»)
+
+6. It came in *a shade* under an hour.
+7. The sleeves are *a shade* too long.
+8. She's *a shade* taller than her sister now.
 
 **See also:** [a hint of](#a-hint-of), [a trace of](#a-trace-of), [a touch of](#a-touch-of), [slight](#slight)
 
@@ -766,12 +895,18 @@ Names a very small amount of something uncountable — the slangiest of the casu
 
 Names a thin, narrow piece cut or broken from something larger — small in a way you can picture.
 
+**1. A thin, narrow piece cut or broken off something larger.** (тонкий ломтик, щепка, осколок — узкий кусочек)
+
 1. She cut herself *a sliver of* cake and called it dessert.
-2. *A sliver of* light came in under the door.
-3. There is still *a sliver of* hope that the bill clears committee.
-4. He pulled *a sliver of* glass out of his palm.
-5. That program reaches only *a sliver of* the population that qualifies.
-6. *A sliver of* moon hung over the parking lot.
+2. He pulled *a sliver of* glass out of his palm.
+3. *A sliver of* light came in under the door.
+4. *A sliver of* moon hung over the parking lot.
+
+**2. A tiny fraction of something abstract or countable.** (малая доля, крупица — a sliver of hope «крупица надежды»)
+
+5. There is still *a sliver of* hope that the bill clears committee.
+6. That program reaches only *a sliver of* the population that qualifies.
+7. Wages took *a sliver of* the increase; the rest went to rent.
 
 **See also:** [a speck of](#a-speck-of), [a shred of](#a-shred-of), [a trace of](#a-trace-of), [a bit of](#a-bit-of), [a fraction of](07-numerals-multipliers.md#a-fraction-of)
 
@@ -854,12 +989,19 @@ Names a very small amount of something uncountable — the plainest of the casua
 
 Names a small amount added to or present in something — enough to change the character of the whole without dominating it.
 
+**1. A small amount present in or added to something — enough to change its character.** (нотка, лёгкая примесь — немного, но заметно)
+
 1. Add *a touch of* garlic, but don't overdo it.
 2. He's got *a touch of* gray at the temples now.
-3. She's been out with *a touch of* the flu.
-4. The room needed *a touch of* color.
-5. There was *a touch of* frost on the windshield this morning.
-6. The whole production had *a touch of* class about it.
+3. The room needed *a touch of* color.
+4. There was *a touch of* frost on the windshield this morning.
+5. The whole production had *a touch of* class about it.
+
+**2. A mild case of an illness.** (лёгкая форма, чуть-чуть приболел — a touch of the flu «лёгкий грипп»)
+
+6. She's been out with *a touch of* the flu.
+7. He has *a touch of* arthritis in that shoulder.
+8. It was only *a touch of* food poisoning, but it ruined the trip.
 
 **See also:** [a hint of](#a-hint-of), [a dash of](#a-dash-of), [a bit of](#a-bit-of), [a spot of](#a-spot-of)
 
@@ -876,12 +1018,18 @@ Names a small amount added to or present in something — enough to change the c
 
 Names the smallest detectable amount of something — the amount an instrument, or a careful observer, can just barely find.
 
+**1. The smallest detectable amount of a substance or a quality.** (след, следы — мельчайшее обнаружимое количество)
+
 1. The lab found *a trace of* lead in the water.
 2. There was *a trace of* an accent, but I couldn't place it.
-3. The plane vanished without *a trace of* wreckage.
-4. Not *a trace of* the original paint has survived.
-5. She answered with *a trace of* impatience.
-6. The supplement contains *trace* amounts of iodine. (attributive)
+3. She answered with *a trace of* impatience.
+4. The supplement contains *trace* amounts of iodine. (attributive)
+
+**2. Under negation — any sign or remnant at all that something was ever there.** (ни следа, никаких следов — without a trace «бесследно»)
+
+5. The plane vanished without *a trace of* wreckage.
+6. Not *a trace of* the original paint has survived.
+7. By morning there wasn't *a trace of* him or the truck.
 
 **See also:** [a hint of](#a-hint-of), [a shred of](#a-shred-of), [a drop of](#a-drop-of), [a smattering of](#a-smattering-of)
 
@@ -898,12 +1046,18 @@ Names the smallest detectable amount of something — the amount an instrument, 
 
 Names a small quantity arriving or moving slowly and continuously — small in rate rather than in bulk.
 
+**1. A thin, slow flow of liquid.** (тонкая струйка — о жидкости)
+
 1. There was only *a trickle of* water coming from the tap.
-2. Applications slowed to *a trickle of* two or three a week.
-3. We're getting *a trickle of* information out of the agency.
-4. A steady *trickle of* visitors kept the museum open.
-5. Funding has been reduced to *a trickle of* what it once was.
-6. *A trickle of* blood had dried along his jaw.
+2. *A trickle of* blood had dried along his jaw.
+3. By August the creek was down to *a trickle of* what it is in spring.
+
+**2. A small, slow rate of arrivals — small in tempo rather than in bulk.** (по капле, тонким ручейком — мало по темпу поступления: a trickle of applications)
+
+4. Applications slowed to *a trickle of* two or three a week.
+5. We're getting *a trickle of* information out of the agency.
+6. A steady *trickle of* visitors kept the museum open.
+7. Funding has been reduced to *a trickle of* what it once was.
 
 **See also:** [a drop of](#a-drop-of), [a smattering of](#a-smattering-of), [a fraction of](07-numerals-multipliers.md#a-fraction-of), [a handful of](#a-handful-of)
 
@@ -1395,12 +1549,19 @@ Describes a quantity reduced to the smallest workable amount — small by design
 
 Describes a quantity that falls short of what is needed or expected — the formal register's version of bare *little*, and one of the few quantifying words that takes countable and uncountable nouns alike.
 
+**1. Falling short of what is needed or expected.** (скудный, едва достаточный — книжн.; и с исчисляемыми, и с неисчисляемыми)
+
 1. There is *scant* evidence that the program worked.
 2. The report paid *scant* attention to what any of it would cost.
 3. That is *scant* comfort to the families still waiting for answers.
 4. They did the whole job with *scant* resources and no permanent staff. (plural countable)
 5. He has shown *scant* regard for the deadline since the day he took over.
-6. Add *a scant* teaspoon of baking soda, not a heaping one. (singular — "barely a full")
+
+**2. *A scant* + a measure — "barely a full one," in recipes and measurements.** (неполный, без верха — a scant teaspoon «неполная чайная ложка»)
+
+6. Add *a scant* teaspoon of baking soda, not a heaping one.
+7. The whole trip took *a scant* three hours.
+8. Use *a scant* cup of broth or the sauce will be thin.
 
 **See also:** [minimal](#minimal), [slight](#slight), [sparse](#sparse), [little](#little), [precious few / precious little](#precious-few--precious-little)
 
@@ -1417,13 +1578,20 @@ Describes a quantity that falls short of what is needed or expected — the form
 
 Describes a small degree or extent of something — faint, mild, or barely appreciable.
 
+**1. Small in degree or extent — faint, mild, barely appreciable.** (незначительный, лёгкий, слабый)
+
 1. There's been *a slight* delay with the connecting flight.
 2. She has *a slight* accent that's hard to place.
 3. We saw *slight* improvement after the second week.
 4. There's *a slight* chance of snow tonight.
-5. He hasn't *the slightest* idea what he's agreeing to.
-6. The difference between the two samples was *slight*.
-7. There were *slight* variations between the two batches. (plural countable — possible, but uncommon)
+5. The difference between the two samples was *slight*.
+6. There were *slight* variations between the two batches. (plural countable — possible, but uncommon)
+
+**2. *The slightest* under negation — "any at all, even the smallest."** (ни малейший — при отрицании: not the slightest idea «ни малейшего представления»)
+
+7. He hasn't *the slightest* idea what he's agreeing to.
+8. She never showed *the slightest* interest in the business.
+9. Without *the slightest* warning the power went out again.
 
 **See also:** [minimal](#minimal), [scant](#scant), [sparse](#sparse), [a hint of](#a-hint-of), [a shade of](#a-shade-of), [a little](#a-little)
 

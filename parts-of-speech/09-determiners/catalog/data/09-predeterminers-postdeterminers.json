@@ -10,14 +10,41 @@
       "examples": [
         "That was a hell of a game, right down to the last out.",
         "He is one hell of a mechanic — nobody else could find that leak.",
-        "We got one heck of a storm out of that front Tuesday night.",
-        "Losing the server on a Friday was a hell of a way to end the week.",
-        "She has had a hell of a year, and not in a good way.",
         "That is a helluva view for eighty dollars a night.",
         "It would take one hell of an argument to change his mind now.",
+        "Losing the server on a Friday was a hell of a way to end the week.",
+        "She has had a hell of a year, and not in a good way.",
+        "We got one heck of a storm out of that front Tuesday night.",
         "There is still a hell of a lot of work to do before the inspection."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Admiring — an outstanding instance of its kind",
+          "body": [
+            "(ещё какой, чертовски хороший — разг. похвала: a hell of a mechanic «отличный механик»)"
+          ],
+          "examples": [
+            "That was a hell of a game, right down to the last out.",
+            "He is one hell of a mechanic — nobody else could find that leak.",
+            "That is a helluva view for eighty dollars a night.",
+            "It would take one hell of an argument to change his mind now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Disparaging — an awful instance of its kind",
+          "body": [
+            "(ещё тот, кошмарный — разг. с досадой: a hell of a mess «жуткий бардак»)"
+          ],
+          "examples": [
+            "Losing the server on a Friday was a hell of a way to end the week.",
+            "She has had a hell of a year, and not in a good way.",
+            "We got one heck of a storm out of that front Tuesday night.",
+            "There is still a hell of a lot of work to do before the inspection."
+          ]
+        }
+      ],
       "pronunciation note": "weak forms carry the whole phrase: of drops to /əv/ and then to /ə/, both articles are /ə/ (or /ən/ before a vowel), and the run-together result is the eye-spelling helluva /ˈhɛləvə/ — HELL-uh-vuh. One is the exception: it resists reduction because it carries the emphasis, so it stays /wʌn/ and never becomes ✗ /wən/",
       "русский": "ещё тот, чертовски какой-то — разг., груб.; и хвалит, и ругает; heck — смягчённый вариант",
       "position": "predeterminer (fixed a … of a frame)",
@@ -72,9 +99,41 @@
         "They sold off all but the downtown property.",
         "We used all but a cup of the flour on the first batch.",
         "Has all but the last shipment cleared customs yet?",
-        "Twelve people boarded, and all but three walked away."
+        "Getting a permit by Friday is all but impossible.",
+        "The line was all but abandoned by the time the mill closed.",
+        "By ten o'clock the outcome was all but decided."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The determiner — everything or everyone except the named exception",
+          "body": [
+            "(все, кроме; всё, кроме — с прямым указанием исключения)"
+          ],
+          "examples": [
+            "All but three of the passengers walked away from the crash.",
+            "She has read all but the last chapter.",
+            "All but one of the original founders have retired.",
+            "The storm knocked out power to all but a handful of houses on the street.",
+            "All but two of them voted to postpone the decision.",
+            "They sold off all but the downtown property.",
+            "We used all but a cup of the flour on the first batch.",
+            "Has all but the last shipment cleared customs yet?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The adverb — \"almost, practically,\" in front of an adjective or a participle",
+          "body": [
+            "(почти, практически — all but impossible «практически невозможно»; никакого исключения тут нет)"
+          ],
+          "examples": [
+            "Getting a permit by Friday is all but impossible.",
+            "The line was all but abandoned by the time the mill closed.",
+            "By ten o'clock the outcome was all but decided."
+          ]
+        }
+      ],
       "pronunciation note": "but keeps its full vowel here, unlike the conjunction, which reduces to /bət/",
       "русский": "все, кроме — «все за исключением названного»; как наречие all but значит «почти»",
       "position": "predeterminer",
@@ -93,36 +152,45 @@
       "term": "quite a",
       "ipa": "/ˈkwaɪt ə/",
       "respell": "KWYTE-uh",
-      "meaning": "",
+      "meaning": "What the noun names decides which reading you get: an ordinary countable noun gets the admiring one, and a measure noun — while, distance, drive, bit — gets the plain quantitative one. Note that quite stands in front of the article, like such and what: quite a storm, never ✗ a quite storm.",
       "examples": [
         "That was quite a game last night.",
-        "We waited quite a while before anyone came to the door.",
         "She has made quite a name for herself in the last two years.",
-        "It is quite a drive from here — about four hours with traffic.",
         "He is quite the storyteller once he gets going.",
+        "Isn't that quite an improvement over last year's numbers?",
+        "We waited quite a while before anyone came to the door.",
+        "It is quite a drive from here — about four hours with traffic.",
         "Quite a few of my neighbors have put solar panels on the roof.",
         "They spent quite a bit of money getting the roof replaced.",
         "We waited quite some time before the doors opened.",
-        "Isn't that quite an improvement over last year's numbers?",
         "It has been not quite a year since she started — she is short by two weeks."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "Intensifying — a notable, impressive, or extreme instance of its kind",
           "body": [
-            "As an intensifier, marks the noun as a notable, impressive, or extreme instance of its kind — that was quite a storm means the storm was remarkable. 2. With measure nouns it simply means \"a considerable amount of\" — quite a while, quite a distance, quite a drive."
+            "(настоящий, ещё какой — восхищённая оценка: quite a storm «ну и буря»)"
           ],
           "examples": [
             "That was quite a game last night.",
-            "We waited quite a while before anyone came to the door.",
             "She has made quite a name for herself in the last two years.",
-            "It is quite a drive from here — about four hours with traffic.",
             "He is quite the storyteller once he gets going.",
+            "Isn't that quite an improvement over last year's numbers?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "With a measure noun — simply \"a considerable amount of.\"",
+          "body": [
+            "(изрядно, немало, порядочно — quite a while «довольно долго», quite a drive «неблизкий путь»)"
+          ],
+          "examples": [
+            "We waited quite a while before anyone came to the door.",
+            "It is quite a drive from here — about four hours with traffic.",
             "Quite a few of my neighbors have put solar panels on the roof.",
             "They spent quite a bit of money getting the roof replaced.",
             "We waited quite some time before the doors opened.",
-            "Isn't that quite an improvement over last year's numbers?",
             "It has been not quite a year since she started — she is short by two weeks."
           ]
         }
@@ -311,11 +379,40 @@
         "The only two seats left were in the back row.",
         "His only regret was not calling sooner.",
         "That was the only advice anyone gave me all week.",
-        "He is an only child, and it shows.",
         "She is not my only sister — there are three of us.",
-        "Is this the only copy of the lease you have?"
+        "Is this the only copy of the lease you have?",
+        "He is an only child, and it shows.",
+        "Both of them were only children, which explains a lot about that kitchen."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The single member of its class in the situation at hand",
+          "body": [
+            "(единственный — после the или притяжательного: the only exit «единственный выход»)"
+          ],
+          "examples": [
+            "That is the only exit on this side of the building.",
+            "She is my only sister.",
+            "The only two seats left were in the back row.",
+            "His only regret was not calling sooner.",
+            "That was the only advice anyone gave me all week.",
+            "She is not my only sister — there are three of us.",
+            "Is this the only copy of the lease you have?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An only child — the fixed phrase for having no siblings",
+          "body": [
+            "(единственный ребёнок — устойчивое сочетание, единственное с артиклем a)"
+          ],
+          "examples": [
+            "He is an only child, and it shows.",
+            "Both of them were only children, which explains a lot about that kitchen."
+          ]
+        }
+      ],
       "pronunciation note": "vowel-initial, so the in front of it is /ði/, not /ðə/ — the only exit /ði ˈoʊnli ˈɛɡzɪt/",
       "русский": "единственный — после the/my: the only exit; ср. наречие only «только, всего лишь»",
       "position": "postdeterminer",
@@ -335,15 +432,42 @@
       "meaning": "Narrows the noun to one specific instance rather than the general class. Under no it does the opposite job and cancels the narrowing — no particular reason means the reason was not any specific one.",
       "examples": [
         "I had a particular restaurant in mind when I suggested dinner.",
-        "She left for no particular reason that anyone could name.",
         "This particular case is the one the court will hear first.",
-        "Put the files back in no particular order.",
         "Is there any particular reason you are asking me this now?",
         "That particular model was recalled two years ago.",
         "These particular files were never backed up.",
+        "She left for no particular reason that anyone could name.",
+        "Put the files back in no particular order.",
         "He named no particular names, but everyone knew who he meant."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Narrowing the noun to one specific instance rather than the general class",
+          "body": [
+            "(конкретный, определённый — именно этот экземпляр: this particular case «именно этот случай»)"
+          ],
+          "examples": [
+            "I had a particular restaurant in mind when I suggested dinner.",
+            "This particular case is the one the court will hear first.",
+            "Is there any particular reason you are asking me this now?",
+            "That particular model was recalled two years ago.",
+            "These particular files were never backed up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Under no — cancelling the narrowing rather than doing it",
+          "body": [
+            "(никакой особый, без всякой причины — no particular reason «просто так, без причины»)"
+          ],
+          "examples": [
+            "She left for no particular reason that anyone could name.",
+            "Put the files back in no particular order.",
+            "He named no particular names, but everyone knew who he meant."
+          ]
+        }
+      ],
       "pronunciation note": "in fast American speech the medial schwa drops and both rs stay: /pɚˈtɪkjlɚ/, pur-TIK-lur",
       "русский": "конкретный, определённый — один определённый экземпляр; под no — «никакой особый»",
       "position": "postdeterminer",
@@ -367,9 +491,38 @@
         "She has been in and out of the hospital these past few months.",
         "This past weekend was the first sunny one all spring.",
         "In the past decade the neighborhood has changed completely.",
-        "Past performance is no guarantee of future results."
+        "Past performance is no guarantee of future results.",
+        "She is a past president of the county bar association.",
+        "His past employers all describe him the same way."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A span counted backward from the present moment, running right up to now",
+          "body": [
+            "(прошедший, последний — the past three weeks «последние три недели»)"
+          ],
+          "examples": [
+            "The past three weeks have been a blur.",
+            "Sales are up eleven percent over the past year.",
+            "She has been in and out of the hospital these past few months.",
+            "This past weekend was the first sunny one all spring.",
+            "In the past decade the neighborhood has changed completely."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Former — held or done at some earlier time and no longer",
+          "body": [
+            "(бывший, прежний — a past president «бывший председатель», past performance «прошлые результаты»)"
+          ],
+          "examples": [
+            "Past performance is no guarantee of future results.",
+            "She is a past president of the county bar association.",
+            "His past employers all describe him the same way."
+          ]
+        }
+      ],
       "русский": "прошедший, последний — отсчёт назад до настоящего момента: the past three weeks",
       "position": "postdeterminer",
       "register": "neutral",
@@ -461,35 +614,57 @@
       "term": "very",
       "ipa": "/ˈvɛri/",
       "respell": "VEH-ree",
-      "meaning": "",
+      "meaning": "This is not the adverb very of very tired, which grades an adjective; the determiner sits between an article and a noun and cannot be graded at all. Because it requires a determiner in front of it, it never appears with a bare noun: ✗ very room where the treaty was signed.",
       "examples": [
         "That is the very thing I was looking for.",
         "We are standing in the very room where the treaty was signed.",
         "He used my very words against me in the meeting.",
         "She quit on the very day her bonus vested.",
-        "The very idea of moving again exhausts her.",
+        "Those were his very words, and I wrote them down.",
         "Their names were at the very bottom of the list.",
         "Come here this very minute.",
+        "The very first thing she did was call a lawyer.",
+        "The very idea of moving again exhausts her.",
         "The very existence of the program is now in question.",
-        "Those were his very words, and I wrote them down."
+        "The very mention of his name changed the room."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "Exactly the one in question and no other",
           "body": [
-            "Marks the noun as exactly the one in question and no other, usually with a note of surprise, irony, or emphasis. 2. With edge nouns and superlatives it marks the extreme limit — the very top, the very end, the very first."
+            "(тот самый, именно этот — часто с удивлением или иронией: his very words «его собственные слова»)"
           ],
           "examples": [
             "That is the very thing I was looking for.",
             "We are standing in the very room where the treaty was signed.",
             "He used my very words against me in the meeting.",
             "She quit on the very day her bonus vested.",
-            "The very idea of moving again exhausts her.",
+            "Those were his very words, and I wrote them down."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "With edge nouns and superlatives — the extreme limit",
+          "body": [
+            "(самый — the very end «самый конец», the very bottom «самый низ»)"
+          ],
+          "examples": [
             "Their names were at the very bottom of the list.",
             "Come here this very minute.",
+            "The very first thing she did was call a lawyer."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Before an abstract noun — \"the mere fact of.\"",
+          "body": [
+            "(сам, само — the very idea «сама мысль», the very existence «само существование»)"
+          ],
+          "examples": [
+            "The very idea of moving again exhausts her.",
             "The very existence of the program is now in question.",
-            "Those were his very words, and I wrote them down."
+            "The very mention of his name changed the room."
           ]
         }
       ],
@@ -510,15 +685,43 @@
       "respell": "HOHL",
       "meaning": "The complete extent of something with nothing missing — the same idea as all, differing only in which slot it occupies. Note the widespread spoken form a whole nother, which splits another around whole; it is nonstandard in writing and very common in American speech, but the written form is a whole other. For whole as the totality member of the fractions family, see the whole (of).",
       "examples": [
-        "He ate a whole pizza by himself.",
         "She told me the whole story on the drive home.",
         "I have lived in this town my whole life.",
         "The whole team showed up to help him move.",
         "It rained the whole three days we were there.",
         "We spent the whole of the summer painting the house.",
-        "That is a whole other problem, and we will get to it later."
+        "He ate a whole pizza by himself.",
+        "That is a whole other problem, and we will get to it later.",
+        "We waited a whole hour and nobody came to the door."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The complete extent of something, with nothing missing",
+          "body": [
+            "(весь, целый — после артикля или притяжательного: the whole cake)"
+          ],
+          "examples": [
+            "She told me the whole story on the drive home.",
+            "I have lived in this town my whole life.",
+            "The whole team showed up to help him move.",
+            "It rained the whole three days we were there.",
+            "We spent the whole of the summer painting the house."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Emphatic a whole — \"an entire one, no less than that.\"",
+          "body": [
+            "(целый — с удивлением или упрёком: a whole pizza «целую пиццу»; a whole other «совсем другой»)"
+          ],
+          "examples": [
+            "He ate a whole pizza by himself.",
+            "That is a whole other problem, and we will get to it later.",
+            "We waited a whole hour and nobody came to the door."
+          ]
+        }
+      ],
       "pronunciation note": "the w is silent; a homophone of hole",
       "русский": "весь, целый — после артикля: the whole cake; ср. предопределитель all (all the cake)",
       "position": "postdeterminer",
@@ -538,13 +741,42 @@
       "meaning": "A large and varied quantity — \"many, and of many different kinds,\" with the variety usually mattering less to the speaker than the sheer amount.",
       "examples": [
         "There were all kinds of birds at the feeder this morning.",
+        "The store sells all kinds of used camera gear.",
+        "All kinds of people showed up, from students to retirees.",
+        "The report cites all sorts of evidence, most of it circumstantial.",
         "We ran into all sorts of problems with the building permit.",
         "He gave me all kinds of advice I had not asked for.",
-        "The store sells all kinds of used camera gear.",
         "She has had all sorts of trouble with that car since she bought it.",
-        "All kinds of people showed up, from students to retirees."
+        "There is all kinds of room in the back of that truck."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Many, and of many different kinds — the variety is the point",
+          "body": [
+            "(всякие, самые разные — и много, и разных)"
+          ],
+          "examples": [
+            "There were all kinds of birds at the feeder this morning.",
+            "The store sells all kinds of used camera gear.",
+            "All kinds of people showed up, from students to retirees.",
+            "The report cites all sorts of evidence, most of it circumstantial."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Simply \"a great deal of,\" with no variety implied at all",
+          "body": [
+            "(уйма, полно — all kinds of trouble «куча неприятностей»)"
+          ],
+          "examples": [
+            "We ran into all sorts of problems with the building permit.",
+            "He gave me all kinds of advice I had not asked for.",
+            "She has had all sorts of trouble with that car since she bought it.",
+            "There is all kinds of room in the back of that truck."
+          ]
+        }
+      ],
       "pronunciation note": "of reduces to /əv/ or just /ə/",
       "русский": "всякие, самые разные — разг. «полно и разных»: all kinds of trouble",
       "position": "central determiner (fixed phrase)",
@@ -613,35 +845,53 @@
       "term": "certain",
       "ipa": "/ˈsɚtn̩/",
       "respell": "SUR-tn",
-      "meaning": "",
+      "meaning": "Number decides whether the article comes along: plurals and uncountables take bare certain (certain people, certain evidence), while a singular countable requires the fuller frame a certain, which has its own entry at a certain. Do not confuse any of this with the adjective certain meaning \"sure,\" which is stressed, grades freely (quite certain), and follows be.",
       "examples": [
         "Certain people should know better than to bring that up.",
-        "A certain Mr. Kowalski has been calling for you all morning.",
         "The offer is good only under certain conditions.",
-        "There is a certain charm to the old station, run down as it is.",
         "Certain information was withheld from the final report.",
-        "A certain amount of delay was built into the schedule.",
-        "Certain of the members objected, but the motion carried anyway.",
+        "Are certain departments exempt from the freeze, or is it across the board?",
+        "Certain of the members objected, but the motion carried anyway. (bookish partitive)",
+        "A certain Mr. Kowalski has been calling for you all morning.",
         "She had a certain restaurant in mind but would not say which.",
-        "Are certain departments exempt from the freeze, or is it across the board?"
+        "There is a certain charm to the old station, run down as it is.",
+        "A certain amount of delay was built into the schedule."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "Particular members of a set the speaker knows and chooses not to name",
           "body": [
-            "Points at particular members of a set that the speaker knows but chooses not to name — certain people should know better. 2. Before a personal name, marks the person as unknown to the listener — a certain Dr. Reyes called. 3. In a certain + abstract noun, hedges a quality the speaker cannot quite pin down — a certain charm."
+            "(некие, определённые — говорящий знает, о ком речь, но не называет)"
           ],
           "examples": [
             "Certain people should know better than to bring that up.",
-            "A certain Mr. Kowalski has been calling for you all morning.",
             "The offer is good only under certain conditions.",
-            "There is a certain charm to the old station, run down as it is.",
             "Certain information was withheld from the final report.",
-            "A certain amount of delay was built into the schedule.",
-            "Certain of the members objected, but the motion carried anyway.",
-            "She had a certain restaurant in mind but would not say which.",
-            "Are certain departments exempt from the freeze, or is it across the board?"
+            "Are certain departments exempt from the freeze, or is it across the board?",
+            "Certain of the members objected, but the motion carried anyway. (bookish partitive)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Before a personal name — marking the person as unknown to the listener",
+          "body": [
+            "(некий, некто — a certain Mr. Kowalski «некий мистер Ковальский»)"
+          ],
+          "examples": [
+            "A certain Mr. Kowalski has been calling for you all morning.",
+            "She had a certain restaurant in mind but would not say which."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "In a certain + abstract noun — hedging a quality that cannot quite be pinned down",
+          "body": [
+            "(некоторый, какой-то — a certain charm «некое обаяние»)"
+          ],
+          "examples": [
+            "There is a certain charm to the old station, run down as it is.",
+            "A certain amount of delay was built into the schedule."
           ]
         }
       ],
@@ -830,9 +1080,38 @@
         "She is some sort of consultant, but nobody knows for what.",
         "Some kinds of birds never migrate at all.",
         "Is this some kind of joke, or are you serious?",
-        "It was not some kind of accident — somebody unplugged it."
+        "It was not some kind of accident — somebody unplugged it.",
+        "What is this, some kind of test?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A category the speaker cannot or will not specify",
+          "body": [
+            "(какой-то, что-то вроде — тип неизвестен: some kind of animal «какой-то зверь»)"
+          ],
+          "examples": [
+            "There is some kind of animal living under the porch.",
+            "It looked like some kind of mistake on the invoice.",
+            "He is in some kind of trouble with the bank again.",
+            "They put some kind of oil on it to stop the squeaking.",
+            "She is some sort of consultant, but nobody knows for what.",
+            "Some kinds of birds never migrate at all."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Indignant — \"you can't be serious.\"",
+          "body": [
+            "(это что, шутка? — с возмущением: Is this some kind of joke? «Это что, издевательство?»)"
+          ],
+          "examples": [
+            "Is this some kind of joke, or are you serious?",
+            "It was not some kind of accident — somebody unplugged it.",
+            "What is this, some kind of test?"
+          ]
+        }
+      ],
       "pronunciation note": "some takes its weak form /səm/ here and is never the stressed /sʌm/",
       "русский": "какой-то, что-то вроде — тип неизвестен: some kind of animal «какой-то зверь»",
       "position": "central determiner (fixed phrase)",

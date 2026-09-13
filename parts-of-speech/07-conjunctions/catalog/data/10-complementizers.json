@@ -105,13 +105,53 @@
       "meaning": "The workhorse of the category: a pure marker that packages a statement into a noun-sized chunk a verb, noun, or adjective can take as its complement. Four different words share the spelling, and only this one is a conjunction. Unlike relative that (the box that came yesterday), it fills no role inside its own clause and leaves no gap, which is exactly why it can usually be deleted; unlike demonstrative that (I said that), it carries no meaning and takes no stress; unlike the degree adverb that (I'm not that hungry), it modifies nothing. Where whether and if introduce a question, that introduces an assertion.",
       "examples": [
         "She admitted that she'd forgotten the deadline entirely.",
+        "He insists that the check went out on Monday.",
+        "Everybody knew that the store was closing.",
         "That he never called back tells you everything.",
         "It's obvious that they rehearsed this.",
+        "That nobody checked the wiring is the part I can't get past.",
         "There's a rumor that the plant is closing in March.",
         "I'm just glad that you two finally met.",
         "The problem is that nobody wants to pay for the repairs."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Object of a verb of saying, thinking, or finding out",
+          "body": [
+            "The commonest slot by a wide margin, and the one in which that can usually be dropped altogether. (что)"
+          ],
+          "examples": [
+            "She admitted that she'd forgotten the deadline entirely.",
+            "He insists that the check went out on Monday.",
+            "Everybody knew that the store was closing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Subject of the sentence, or a subject pushed to the end behind dummy it",
+          "body": [
+            "Here that cannot be dropped, and Russian needs the correlative «то» in front of it to carry the case: That he lied is «То, что он солгал». (то, что)"
+          ],
+          "examples": [
+            "That he never called back tells you everything.",
+            "It's obvious that they rehearsed this.",
+            "That nobody checked the wiring is the part I can't get past."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Complement of a noun or an adjective, and the the … is that frame",
+          "body": [
+            "The content of a fact, a claim, a rumor, or a feeling. Russian normally puts a preposition plus «то» ahead of the clause here — glad that is «рад тому, что», the problem is that is «проблема в том, что». (о том, что; в том, что; тому, что)"
+          ],
+          "examples": [
+            "There's a rumor that the plant is closing in March.",
+            "I'm just glad that you two finally met.",
+            "The problem is that nobody wants to pay for the repairs."
+          ]
+        }
+      ],
       "pronunciation note": "as a complementizer it is nearly always reduced to /ðət/ · thut; the full vowel signals the demonstrative (I said /ðæt/)",
       "русский": "что — чистый союз при придаточном дополнительном; своего значения не имеет",
       "register": "neutral",
@@ -154,12 +194,39 @@
       "examples": [
         "Let me know whether or not you can make it Saturday.",
         "I asked whether the check had cleared or not.",
-        "Whether or not the weather cooperates, the ceremony starts at four.",
         "Nobody has told us whether or not the position is still open.",
+        "The board votes tonight on whether or not to renew the lease.",
+        "Whether or not the weather cooperates, the ceremony starts at four.",
         "He's showing up, whether or not anyone invited him.",
-        "The board votes tonight on whether or not to renew the lease."
+        "Whether or not the grant comes through, we open in September."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Complementizer — plain whether with the alternative spelled out",
+          "body": [
+            "A noun clause naming an open question. The or not is padding here and most editors cut it, which is the test: if the sentence survives without it, this is the sense you are looking at. (ли … или нет)"
+          ],
+          "examples": [
+            "Let me know whether or not you can make it Saturday.",
+            "I asked whether the check had cleared or not.",
+            "Nobody has told us whether or not the position is still open.",
+            "The board votes tonight on whether or not to renew the lease."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Concessive — \"no matter whether.\"",
+          "body": [
+            "An adverbial clause, and here the or not is structural and cannot be cut. It can also front the sentence, which the noun clause above cannot. (независимо от того, …; хочешь не хочешь)"
+          ],
+          "examples": [
+            "Whether or not the weather cooperates, the ceremony starts at four.",
+            "He's showing up, whether or not anyone invited him.",
+            "Whether or not the grant comes through, we open in September."
+          ]
+        }
+      ],
       "pronunciation note": "the middle syllable is almost always the reduced /ər/",
       "русский": "ли … или нет; независимо от того, … или нет — косвенный вопрос либо уступка",
       "register": "neutral",
@@ -202,12 +269,53 @@
         "Nobody ever explained how the billing cycle actually works.",
         "How she found the address is still a mystery to me.",
         "I never learned how to parallel park.",
-        "It depends on how much overtime they approve.",
         "Watch how he shifts his grip on the second swing.",
+        "It depends on how much overtime they approve.",
         "She wanted to know how long the drive takes.",
-        "It's amazing how fast that dog learned the fence line."
+        "Nobody asked how far it was to the next gas station.",
+        "It's amazing how fast that dog learned the fence line.",
+        "You wouldn't believe how quiet it gets out there after ten.",
+        "It's funny how nobody remembers whose idea it was."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Embedded question of manner or means — \"in what way.\"",
+          "body": [
+            "Statement order inside the clause: I asked how it works, never how does it work. (как; каким образом)"
+          ],
+          "examples": [
+            "Nobody ever explained how the billing cycle actually works.",
+            "How she found the address is still a mystery to me.",
+            "I never learned how to parallel park.",
+            "Watch how he shifts his grip on the second swing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "With an adjective or an adverb attached — extent rather than manner",
+          "body": [
+            "How long, how much, how far, how many: the word grabs the quality word behind it and asks for a measurement. (насколько; сколько; как долго)"
+          ],
+          "examples": [
+            "It depends on how much overtime they approve.",
+            "She wanted to know how long the drive takes.",
+            "Nobody asked how far it was to the next gas station."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Embedded exclamative — nothing is being asked at all",
+          "body": [
+            "After amazing, incredible, funny, you wouldn't believe: the clause reports a reaction to a degree rather than a gap in somebody's knowledge, and the sentence still ends in a period. (как же; до чего; надо же, как)"
+          ],
+          "examples": [
+            "It's amazing how fast that dog learned the fence line.",
+            "You wouldn't believe how quiet it gets out there after ten.",
+            "It's funny how nobody remembers whose idea it was."
+          ]
+        }
+      ],
       "русский": "как; каким образом — косвенный вопрос о способе; how long, how much — «насколько»",
       "register": "neutral",
       "type": "complementizer (interrogative adverb); the same word is also an exclamative adverb (How quickly this year went!) and, in the comparison family, a manner subordinator",

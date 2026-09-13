@@ -29,17 +29,25 @@ To come to believe that something is true, or to agree to take what is offered.
 ### acknowledge
 
 **Pronunciation:** /əkˈnɑːlɪdʒ/ &middot; *uhk-NAH-lij*
-**Русский:** признавать, признать
+**Русский:** признавать, признать; подтверждать получение, подтвердить (получение)
 **Forms:** *acknowledge* &middot; *acknowledged* &middot; *acknowledged*
 **Verb class:** regular
 **Third person:** *acknowledges* &middot; **-ing form:** *acknowledging*
 **Transitivity:** transitive
 
-To admit that something is true or that someone deserves attention.
+Acknowledge has 2 distinct senses.
+
+**1. To admit that something is true or that someone deserves attention.** (признавать, признать)
 
 1. Both sides *acknowledge* that the talks have stalled.
 2. He *acknowledged* his mistake in front of the whole team.
 3. The company has never *acknowledged* the problem.
+
+**2. To tell someone that you have received what they sent.** (подтверждать получение, подтвердить (получение))
+
+4. Please *acknowledge* receipt of this email.
+5. They never *acknowledged* my application.
+6. The office has *acknowledged* our letter but has not answered it.
 
 ---
 
@@ -98,17 +106,31 @@ To judge the quality, size, or value of something.
 ### assume
 
 **Pronunciation:** /əˈsuːm/ &middot; *uh-SOOM*
-**Русский:** предполагать, полагать
+**Русский:** предполагать, полагать; принимать на себя, взять на себя (обязанности); вступать в должность; принимать (вид), напускать на себя; присваивать (чужое имя)
 **Forms:** *assume* &middot; *assumed* &middot; *assumed*
 **Verb class:** regular
 **Third person:** *assumes* &middot; **-ing form:** *assuming*
 **Transitivity:** transitive
 
-To accept that something is true without proof.
+Assume has 3 distinct senses.
+
+**1. To accept that something is true without proof.** (предполагать, полагать)
 
 1. Do not *assume* that everyone has read the email.
 2. I *assumed* you were coming with us.
 3. We had *assumed* the store was open on Sundays.
+
+**2. To take on a duty, a position of power, or a responsibility.** (принимать на себя, взять на себя (обязанности); вступать в должность)
+
+4. She *assumed* command of the unit in March.
+5. The buyer will *assume* the rest of the debt.
+6. He has *assumed* full responsibility for the mistake.
+
+**3. To put on a manner, an appearance, or a name that is not really your own.** (принимать (вид), напускать на себя; присваивать (чужое имя))
+
+7. He *assumed* an air of total innocence.
+8. The spy had *assumed* a new identity before crossing the border.
+9. Actors often *assume* an accent for a role.
 
 ---
 
@@ -169,18 +191,26 @@ To work something out using numbers.
 ### classify
 
 **Pronunciation:** /ˈklæsəfaɪ/ &middot; *KLAS-uh-fy*
-**Русский:** классифицировать, относить к категории
+**Русский:** классифицировать, относить к категории; засекречивать, засекретить
 **Forms:** *classify* &middot; *classified* &middot; *classified*
 **Verb class:** regular
 **Third person:** *classifies* &middot; **-ing form:** *classifying*
 **Transitivity:** transitive
 **Contrast:** The -y turns into -ies and -ied: *classifies*, *classified*.
 
-To put people or things into groups by type.
+Classify has 2 distinct senses.
+
+**1. To put people or things into groups by type.** (классифицировать, относить к категории)
 
 1. Libraries *classify* books by subject.
 2. The doctor *classified* the case as mild.
 3. These documents are *classified* as secret.
+
+**2. To declare officially that information is secret.** (засекречивать, засекретить)
+
+4. The agency can *classify* anything it calls sensitive.
+5. The Pentagon *classified* the report for thirty years.
+6. Most of the file is still *classified*.
 
 ---
 
@@ -224,53 +254,77 @@ To understand something fully, especially something difficult; a formal word whe
 ### conceive
 
 **Pronunciation:** /kənˈsiːv/ &middot; *kuhn-SEEV*
-**Русский:** задумывать, представлять себе
+**Русский:** задумывать, представлять себе; зачать, забеременеть
 **Forms:** *conceive* &middot; *conceived* &middot; *conceived*
 **Verb class:** regular
 **Third person:** *conceives* &middot; **-ing form:** *conceiving*
 **Transitivity:** both — transitive (conceive a plan), intransitive (conceive of a world without money)
 **Contrast:** After c the spelling is -ei-: *conceive*, *receive*, *perceive*.
 
-To form an idea or a plan in your mind.
+Conceive has 2 distinct senses.
+
+**1. To form an idea or a plan in your mind.** (задумывать, представлять себе)
 
 1. I cannot *conceive* of a simpler solution.
 2. She *conceived* the whole project on a train ride.
 3. The bridge was *conceived* in the 1930s.
+
+**2. To become pregnant.** (зачать, забеременеть)
+
+4. Many couples *conceive* within a year of trying.
+5. She *conceived* shortly after the treatment.
+6. The twins were *conceived* through IVF.
 
 ---
 
 ### concede
 
 **Pronunciation:** /kənˈsiːd/ &middot; *kuhn-SEED*
-**Русский:** признавать, уступать
+**Русский:** признавать, уступать; признавать поражение, признать поражение
 **Forms:** *concede* &middot; *conceded* &middot; *conceded*
 **Verb class:** regular
 **Third person:** *concedes* &middot; **-ing form:** *conceding*
 **Transitivity:** both — transitive (concede a point), intransitive (he conceded at last)
 
-To admit that something is true, often unwillingly.
+Concede has 2 distinct senses.
+
+**1. To admit that something is true, often unwillingly.** (признавать, уступать)
 
 1. I *concede* that the price is fair.
 2. The candidate *conceded* on election night.
 3. Having *conceded* the point, he changed the subject.
+
+**2. To admit publicly that you have lost an election or a contest.** (признавать поражение, признать поражение)
+
+4. He refused to *concede* until every vote was counted.
+5. She *conceded* on Wednesday morning.
+6. Neither candidate has *conceded* yet.
 
 ---
 
 ### concentrate
 
 **Pronunciation:** /ˈkɑːnsəntreɪt/ &middot; *KAHN-suhn-trayt*
-**Русский:** сосредотачиваться, сосредоточиться
+**Русский:** сосредотачиваться, сосредоточиться; сосредотачивать, сосредоточить; скапливаться, концентрировать
 **Forms:** *concentrate* &middot; *concentrated* &middot; *concentrated*
 **Verb class:** regular
 **Third person:** *concentrates* &middot; **-ing form:** *concentrating*
 **Transitivity:** both — transitive (concentrate your efforts), intransitive (I cannot concentrate)
 **Contrast:** You *concentrate on* something, never concentrate at something.
 
-To give all your attention to one thing.
+Concentrate has 2 distinct senses.
+
+**1. To give all your attention to one thing.** (сосредотачиваться, сосредоточиться)
 
 1. I cannot *concentrate* with the TV on.
 2. She *concentrated* on the hardest questions first.
 3. He was *concentrating* so hard that he did not hear me.
+
+**2. To gather in one place in large amounts, or to bring things together in one place.** (сосредотачивать, сосредоточить; скапливаться, концентрировать)
+
+4. Most of the new jobs *concentrate* in two counties.
+5. The company *concentrated* its factories in the South.
+6. Wealth has become *concentrated* in a handful of cities.
 
 **Phrasal verbs:** [concentrate on](22-verb-preposition.md#concentrate-on)
 
@@ -279,17 +333,31 @@ To give all your attention to one thing.
 ### conclude
 
 **Pronunciation:** /kənˈkluːd/ &middot; *kuhn-KLOOD*
-**Русский:** заключать, делать вывод
+**Русский:** заключать, делать вывод; завершать, завершить; заканчиваться, закончиться; заключать, заключить (договор, соглашение)
 **Forms:** *conclude* &middot; *concluded* &middot; *concluded*
 **Verb class:** regular
 **Third person:** *concludes* &middot; **-ing form:** *concluding*
 **Transitivity:** both — transitive (conclude the meeting), intransitive (the study concluded)
 
-To decide that something is true after thinking about the facts.
+Conclude has 3 distinct senses.
+
+**1. To decide that something is true after thinking about the facts.** (заключать, делать вывод)
 
 1. What do you *conclude* from these numbers?
 2. The jury *concluded* that he was innocent.
 3. Researchers have *concluded* that the drug is safe.
+
+**2. To bring something to an end, or to come to an end.** (завершать, завершить; заканчиваться, закончиться)
+
+4. We usually *conclude* the meeting with questions.
+5. The concert *concluded* with an encore.
+6. The trial has *concluded* after six weeks.
+
+**3. To formally arrange and finish an agreement.** (заключать, заключить (договор, соглашение))
+
+7. The two countries hope to *conclude* a trade deal this year.
+8. They *concluded* an agreement in March.
+9. A cease-fire was *concluded* on Friday.
 
 ---
 
@@ -350,18 +418,26 @@ To think about something long and seriously.
 ### decide
 
 **Pronunciation:** /dɪˈsaɪd/ &middot; *dih-SYD*
-**Русский:** решать, решить
+**Русский:** решать, решить; решать исход, определять; предрешать
 **Forms:** *decide* &middot; *decided* &middot; *decided*
 **Verb class:** regular
 **Third person:** *decides* &middot; **-ing form:** *deciding*
 **Transitivity:** both — transitive (decide the winner), intransitive (you decide)
 **Contrast:** *decide to do* something; *decide on* a thing.
 
-To make a choice after thinking about it.
+Decide has 2 distinct senses.
+
+**1. To make a choice after thinking about it.** (решать, решить)
 
 1. You *decide* where we eat tonight.
 2. We *decided* to take the early flight.
 3. Nothing has been *decided* yet.
+
+**2. To settle the result of a game, a contest, or a question.** (решать исход, определять; предрешать)
+
+4. One goal can *decide* a game like this.
+5. A single vote *decided* the election.
+6. The title was *decided* in overtime.
 
 **Phrasal verbs:** [decide on, decide against](22-verb-preposition.md#decide-on-decide-against)
 
@@ -492,35 +568,63 @@ To find out about something for the first time.
 ### dismiss
 
 **Pronunciation:** /dɪsˈmɪs/ &middot; *dis-MIS*
-**Русский:** отвергать, отмахиваться
+**Русский:** отвергать, отмахиваться; увольнять, уволить; отпускать, распускать (класс, собрание)
 **Forms:** *dismiss* &middot; *dismissed* &middot; *dismissed*
 **Verb class:** regular
 **Third person:** *dismisses* &middot; **-ing form:** *dismissing*
 **Transitivity:** transitive
 
-To decide that an idea or a person is not worth taking seriously.
+Dismiss has 3 distinct senses.
+
+**1. To decide that an idea or a person is not worth taking seriously.** (отвергать, отмахиваться)
 
 1. Do not *dismiss* the idea so quickly.
 2. He *dismissed* my worries with a laugh.
 3. The complaint was *dismissed* by the court.
+
+**2. To officially remove someone from a job.** (увольнять, уволить)
+
+4. The school *dismissed* two teachers after the investigation.
+5. An employer cannot *dismiss* you for taking sick leave.
+6. He is suing the company for *dismissing* him without warning.
+
+**3. To tell a group of people that they may leave.** (отпускать, распускать (класс, собрание))
+
+7. The teacher *dismisses* the class at three o'clock.
+8. The principal *dismissed* the students early because of the storm.
+9. We were *dismissed* as soon as the drill ended.
 
 ---
 
 ### distinguish
 
 **Pronunciation:** /dɪˈstɪŋɡwɪʃ/ &middot; *dih-STING-gwish*
-**Русский:** различать, отличать
+**Русский:** различать, отличать; разглядеть, различить (с трудом); отличиться, проявить себя
 **Forms:** *distinguish* &middot; *distinguished* &middot; *distinguished*
 **Verb class:** regular
 **Third person:** *distinguishes* &middot; **-ing form:** *distinguishing*
 **Transitivity:** both — transitive (distinguish the twins), intransitive (distinguish between them)
 **Contrast:** *distinguish between* two things, or *distinguish* one *from* another.
 
-To see or explain the difference between things.
+Distinguish has 3 distinct senses.
+
+**1. To see or explain the difference between things.** (различать, отличать)
 
 1. Can you *distinguish* the twins?
 2. She *distinguished* the real bills from the fakes.
 3. Young children have trouble *distinguishing* between fact and fantasy.
+
+**2. To manage to see or hear something that is hard to make out.** (разглядеть, различить (с трудом))
+
+4. In the fog we could barely *distinguish* the shoreline.
+5. She *distinguished* three figures moving along the ridge.
+6. Even with binoculars he had trouble *distinguishing* the bird against the rocks.
+
+**3. To do something so well that people notice and admire you.** (отличиться, проявить себя)
+
+7. Cadets who *distinguish* themselves are offered command posts.
+8. She *distinguished* herself as a trial lawyer before turning forty.
+9. He has *distinguished* himself in three different fields.
 
 ---
 
@@ -614,18 +718,26 @@ To look at something closely in order to learn about it.
 ### expect
 
 **Pronunciation:** /ɪkˈspɛkt/ &middot; *ik-SPEKT*
-**Русский:** ожидать, рассчитывать
+**Русский:** ожидать, рассчитывать; требовать, ожидать (чего-л. от кого-л.)
 **Forms:** *expect* &middot; *expected* &middot; *expected*
 **Verb class:** regular
 **Third person:** *expects* &middot; **-ing form:** *expecting*
 **Transitivity:** transitive
 **Contrast:** *expect someone to do* something: I expect you to be on time.
 
-To believe that something will happen or that someone will do something.
+Expect has 2 distinct senses.
+
+**1. To believe that something will happen or that someone will do something.** (ожидать, рассчитывать)
 
 1. We *expect* about thirty guests.
 2. I *expected* the test to be harder.
 3. Rain is *expected* by evening.
+
+**2. To require something of someone because you consider it their duty.** (требовать, ожидать (чего-л. от кого-л.))
+
+4. The school *expects* students to be in their seats by eight.
+5. You are *expected* to answer emails within a day.
+6. We *expected* better manners from a grown man.
 
 ---
 
@@ -649,18 +761,26 @@ To be afraid of something, or to believe with worry that it is true.
 ### focus
 
 **Pronunciation:** /ˈfoʊkəs/ &middot; *FOH-kuhs*
-**Русский:** сосредотачиваться, фокусироваться
+**Русский:** сосредотачиваться, фокусироваться; наводить резкость, фокусировать, сфокусировать; фокусироваться (о зрении)
 **Forms:** *focus* &middot; *focused* &middot; *focused*
 **Verb class:** regular
 **Third person:** *focuses* &middot; **-ing form:** *focusing*
 **Transitivity:** both — transitive (focus the camera), intransitive (focus on the task)
 **Contrast:** American English keeps one s: *focused*, *focusing*. You *focus on* something.
 
-To give your attention to one thing rather than to many.
+Focus has 2 distinct senses.
+
+**1. To give your attention to one thing rather than to many.** (сосредотачиваться, фокусироваться)
 
 1. Let us *focus* on the first chapter.
 2. He *focused* on his breathing and calmed down.
 3. She is *focusing* on her health this year.
+
+**2. To adjust a camera or your eyes so that what you see is sharp.** (наводить резкость, фокусировать, сфокусировать; фокусироваться (о зрении))
+
+4. Let me *focus* the camera before you move.
+5. He *focused* the binoculars on the far shore.
+6. Her eyes wouldn't *focus* after the drops.
 
 ---
 
@@ -777,35 +897,51 @@ To pay no attention to someone or something on purpose.
 ### imagine
 
 **Pronunciation:** /ɪˈmædʒɪn/ &middot; *ih-MAJ-in*
-**Русский:** воображать, представлять себе
+**Русский:** воображать, представлять себе; полагать, предполагать; думать
 **Forms:** *imagine* &middot; *imagined* &middot; *imagined*
 **Verb class:** regular
 **Third person:** *imagines* &middot; **-ing form:** *imagining*
 **Transitivity:** transitive
 **Contrast:** *imagine doing* something, not imagine to do something.
 
-To form a picture of something in your mind.
+Imagine has 2 distinct senses.
+
+**1. To form a picture of something in your mind.** (воображать, представлять себе)
 
 1. *Imagine* a city with no cars.
 2. I *imagined* the room much bigger.
 3. She is *imagining* problems that do not exist.
+
+**2. To think that something is probably true; to suppose.** (полагать, предполагать; думать)
+
+4. I *imagine* they'll cancel the flight.
+5. Everyone *imagined* the deal was already done.
+6. I had *imagined* the drive would take about an hour.
 
 ---
 
 ### indicate
 
 **Pronunciation:** /ˈɪndɪkeɪt/ &middot; *IN-dih-kayt*
-**Русский:** указывать, свидетельствовать
+**Русский:** указывать, свидетельствовать; давать понять, дать понять; сообщать, заявлять
 **Forms:** *indicate* &middot; *indicated* &middot; *indicated*
 **Verb class:** regular
 **Third person:** *indicates* &middot; **-ing form:** *indicating*
 **Transitivity:** transitive
 
-To show that something is true or likely.
+Indicate has 2 distinct senses.
+
+**1. To show that something is true or likely.** (указывать, свидетельствовать)
 
 1. These symptoms *indicate* a mild infection.
 2. The survey *indicated* strong support.
 3. Nothing has *indicated* a problem so far.
+
+**2. To say something briefly or indirectly rather than stating it outright.** (давать понять, дать понять; сообщать, заявлять)
+
+4. Sources *indicate* that the deal is close.
+5. The mayor *indicated* she would run again.
+6. Officials have *indicated* that no decision has been made.
 
 ---
 
@@ -902,18 +1038,26 @@ To try to find out the truth about something by examining it.
 ### judge
 
 **Pronunciation:** /dʒʌdʒ/ &middot; *JUJ*
-**Русский:** судить, оценивать
+**Русский:** судить, оценивать; осуждать, осудить; судить (о человеке)
 **Forms:** *judge* &middot; *judged* &middot; *judged*
 **Verb class:** regular
 **Third person:** *judges* &middot; **-ing form:** *judging*
 **Transitivity:** both — transitive (judge a contest), intransitive (judging by his face)
 **Contrast:** Drop the e: *judging*, not judgeing.
 
-To form an opinion about someone or something after thinking about it.
+Judge has 2 distinct senses.
+
+**1. To form an opinion about someone or something after thinking about it.** (судить, оценивать)
 
 1. Do not *judge* a book by its cover.
 2. She *judged* the distance perfectly.
 3. *Judging* by the sky, it will rain before noon.
+
+**2. To criticize someone's choices or morals, usually unfairly.** (осуждать, осудить; судить (о человеке))
+
+4. Don't *judge* me — you weren't there.
+5. She felt *judged* the moment she walked in.
+6. People were *judging* him for something he said years ago.
 
 ---
 
@@ -974,35 +1118,51 @@ To see, hear, or become aware of something.
 ### observe
 
 **Pronunciation:** /əbˈzɜːrv/ &middot; *uhb-ZURV*
-**Русский:** наблюдать, замечать
+**Русский:** наблюдать, замечать; соблюдать (закон, обычай); отмечать (праздник)
 **Forms:** *observe* &middot; *observed* &middot; *observed*
 **Verb class:** regular
 **Third person:** *observes* &middot; **-ing form:** *observing*
 **Transitivity:** transitive
 
-To watch something carefully, or to remark on what you see.
+Observe has 2 distinct senses.
+
+**1. To watch something carefully, or to remark on what you see.** (наблюдать, замечать)
 
 1. Student teachers *observe* a classroom before they teach in one.
 2. He *observed* that nobody had touched the food.
 3. The birds are being *observed* from a hide.
+
+**2. To obey a law or rule, or to keep a holiday or custom.** (соблюдать (закон, обычай); отмечать (праздник))
+
+4. Drivers must *observe* the speed limit in a school zone.
+5. Her family *observed* Passover at her grandmother's house.
+6. A minute of silence was *observed* before the game.
 
 ---
 
 ### overlook
 
 **Pronunciation:** /ˌoʊvərˈlʊk/ &middot; *oh-vur-LUUK*
-**Русский:** упускать из виду, не замечать
+**Русский:** упускать из виду, не замечать; выходить на (о виде из окна), возвышаться над
 **Forms:** *overlook* &middot; *overlooked* &middot; *overlooked*
 **Verb class:** regular
 **Third person:** *overlooks* &middot; **-ing form:** *overlooking*
 **Transitivity:** transitive
 **Contrast:** One word, not a phrasal verb: you *overlook* a detail, but you *look over* a document to check it.
 
-To fail to notice something, or to decide to let a fault pass.
+Overlook has 2 distinct senses.
+
+**1. To fail to notice something, or to decide to let a fault pass.** (упускать из виду, не замечать)
 
 1. It is easy to *overlook* a typo in your own writing.
 2. The auditors *overlooked* two payments.
 3. Her best work has been *overlooked* for years.
+
+**2. To have a view over something from above.** (выходить на (о виде из окна), возвышаться над)
+
+4. Our room *overlooks* the harbor.
+5. The cabin *overlooked* a small lake.
+6. We ate on a terrace *overlooking* the river.
 
 ---
 
@@ -1027,18 +1187,26 @@ To notice something with the senses, or to understand it in a certain way.
 ### picture
 
 **Pronunciation:** /ˈpɪktʃər/ &middot; *PIK-chur*
-**Русский:** представлять себе, воображать
+**Русский:** представлять себе, воображать; изображать, изобразить; снимать, снять (на фото)
 **Forms:** *picture* &middot; *pictured* &middot; *pictured*
 **Verb class:** regular
 **Third person:** *pictures* &middot; **-ing form:** *picturing*
 **Transitivity:** transitive
 **Contrast:** *picture someone doing* something: I can picture him teaching.
 
-To form an image of something in your mind.
+Picture has 2 distinct senses.
+
+**1. To form an image of something in your mind.** (представлять себе, воображать)
 
 1. *Picture* a beach with nobody on it.
 2. I *pictured* the house as much older.
 3. She is *picturing* herself on stage.
+
+**2. To show someone or something in a photograph, a painting, or a film.** (изображать, изобразить; снимать, снять (на фото))
+
+4. The magazine *pictured* her on the cover.
+5. He is *pictured* here with his two daughters.
+6. The mural *pictures* the town as it looked in 1900.
 
 ---
 
@@ -1102,17 +1270,25 @@ To like one thing more than another.
 ### presume
 
 **Pronunciation:** /prɪˈzuːm/ &middot; *prih-ZOOM*
-**Русский:** полагать, предполагать
+**Русский:** полагать, предполагать; осмеливаться, осмелиться; позволять себе, брать на себя смелость
 **Forms:** *presume* &middot; *presumed* &middot; *presumed*
 **Verb class:** regular
 **Third person:** *presumes* &middot; **-ing form:** *presuming*
 **Transitivity:** transitive
 
-To suppose that something is true because it is likely.
+Presume has 2 distinct senses.
+
+**1. To suppose that something is true because it is likely.** (полагать, предполагать)
 
 1. I *presume* you have already eaten.
 2. The police *presumed* the car was stolen.
 3. He is *presumed* innocent until proven guilty.
+
+**2. To dare to do something you have no right to do.** (осмеливаться, осмелиться; позволять себе, брать на себя смелость)
+
+4. I wouldn't *presume* to tell you how to run your own shop.
+5. She *presumed* to speak for the whole department.
+6. No one has ever *presumed* to question his figures.
 
 ---
 
@@ -1155,18 +1331,32 @@ To decide which things matter most and deal with them first.
 ### realize
 
 **Pronunciation:** /ˈriːəlaɪz/ &middot; *REE-uh-lyz*
-**Русский:** осознавать, понимать
+**Русский:** осознавать, понимать; осуществлять, осуществить; реализовать (мечту, замысел); получать (прибыль), выручить; реализовать (актив)
 **Forms:** *realize* &middot; *realized* &middot; *realized*
 **Verb class:** regular
 **Third person:** *realizes* &middot; **-ing form:** *realizing*
 **Transitivity:** transitive
 **Contrast:** American *realize*; British *realise*.
 
-To become aware of something you had not understood before.
+Realize has 3 distinct senses.
+
+**1. To become aware of something you had not understood before.** (осознавать, понимать)
 
 1. I *realize* this is hard to hear.
 2. She *realized* that her keys were still inside.
 3. He had not *realized* how late it was.
+
+**2. To make a hope, a plan, or an ability become real.** (осуществлять, осуществить; реализовать (мечту, замысел))
+
+4. It took twenty years to *realize* her dream of opening a bakery.
+5. He never *realized* his full potential as a player.
+6. The project has finally been *realized*, ten years after it was proposed.
+
+**3. To get a profit or an amount of money from a sale or an investment.** (получать (прибыль), выручить; реализовать (актив))
+
+7. They hope to *realize* a profit of two million dollars.
+8. She *realized* three hundred thousand dollars on the sale of the house.
+9. The fund has *realized* solid gains this year.
 
 ---
 
@@ -1193,17 +1383,31 @@ To think logically about something in order to reach a conclusion.
 ### recall
 
 **Pronunciation:** /rɪˈkɔːl/ &middot; *rih-KAWL*
-**Русский:** вспоминать, припоминать
+**Русский:** вспоминать, припоминать; отзывать (товар), отозвать; изымать из продажи; отзывать (выборное лицо), смещать голосованием
 **Forms:** *recall* &middot; *recalled* &middot; *recalled*
 **Verb class:** regular
 **Third person:** *recalls* &middot; **-ing form:** *recalling*
 **Transitivity:** transitive
 
-To bring something back into your mind, a little more formally than remember.
+Recall has 3 distinct senses.
+
+**1. To bring something back into your mind, a little more formally than remember.** (вспоминать, припоминать)
 
 1. I cannot *recall* his last name.
 2. She *recalled* the address perfectly.
 3. He has *recalled* very little about that night.
+
+**2. To order that a faulty product be returned by the people who bought it.** (отзывать (товар), отозвать; изымать из продажи)
+
+4. If the part fails, the maker must *recall* it.
+5. The company *recalled* forty thousand cars last spring.
+6. Two brands of baby formula have been *recalled*.
+
+**3. To remove an elected official from office through a special vote.** (отзывать (выборное лицо), смещать голосованием)
+
+7. Voters can *recall* a governor before the term ends.
+8. They *recalled* two members of the school board.
+9. The mayor was *recalled* in a special election.
 
 ---
 
@@ -1229,18 +1433,26 @@ To think or suppose something, especially in informal speech.
 ### recognize
 
 **Pronunciation:** /ˈrɛkəɡnaɪz/ &middot; *REK-uhg-nyz*
-**Русский:** узнавать, признавать
+**Русский:** узнавать, признавать; отмечать, отметить (заслуги); награждать, чествовать
 **Forms:** *recognize* &middot; *recognized* &middot; *recognized*
 **Verb class:** regular
 **Third person:** *recognizes* &middot; **-ing form:** *recognizing*
 **Transitivity:** transitive
 **Contrast:** American *recognize*; British *recognise*. The g is pronounced: REK-uhg-nyz.
 
-To know someone or something because you have met it before, or to admit that it is real.
+Recognize has 2 distinct senses.
+
+**1. To know someone or something because you have met it before, or to admit that it is real.** (узнавать, признавать)
 
 1. I did not *recognize* you with the beard.
 2. She *recognized* his voice at once.
 3. The state has *recognized* the marriage.
+
+**2. To give someone public credit or an award for what they have done.** (отмечать, отметить (заслуги); награждать, чествовать)
+
+4. We want to *recognize* the people who made this possible.
+5. The mayor *recognized* the firefighters at a ceremony downtown.
+6. She has been *recognized* for thirty years of service.
 
 ---
 
@@ -1264,36 +1476,58 @@ To think about a decision again and possibly change it.
 ### reflect
 
 **Pronunciation:** /rɪˈflɛkt/ &middot; *rih-FLEKT*
-**Русский:** размышлять; отражать
+**Русский:** размышлять; отражать; отражать, отразить (свет, изображение); отражать, показывать; свидетельствовать о
 **Forms:** *reflect* &middot; *reflected* &middot; *reflected*
 **Verb class:** regular
 **Third person:** *reflects* &middot; **-ing form:** *reflecting*
 **Transitivity:** both — transitive (the price reflects demand), intransitive (reflect on the year)
 **Contrast:** You *reflect on* a subject.
 
-To think quietly and seriously about something.
+Reflect has 3 distinct senses.
+
+**1. To think quietly and seriously about something.** (размышлять; отражать)
 
 1. Take a week to *reflect* on the offer.
 2. He *reflected* on how much had changed.
 3. She is *reflecting* on twenty years of teaching.
+
+**2. To throw back light, heat, or an image from a surface.** (отражать, отразить (свет, изображение))
+
+4. Snow *reflects* most of the sunlight that hits it.
+5. The mountains were *reflected* in the still lake.
+6. The mirror was *reflecting* the light straight into my eyes.
+
+**3. To show something clearly, or to be a sign of it.** (отражать, показывать; свидетельствовать о)
+
+7. These numbers *reflect* only the first quarter.
+8. The results *reflected* months of hard work.
+9. The change is already *reflected* in this month's bill.
 
 ---
 
 ### regard
 
 **Pronunciation:** /rɪˈɡɑːrd/ &middot; *rih-GARD*
-**Русский:** считать, расценивать
+**Русский:** считать, расценивать; смотреть, разглядывать; пристально смотреть на
 **Forms:** *regard* &middot; *regarded* &middot; *regarded*
 **Verb class:** regular
 **Third person:** *regards* &middot; **-ing form:** *regarding*
 **Transitivity:** transitive
 **Contrast:** *regard someone as* something, not regard someone like something.
 
-To consider someone or something in a particular way.
+Regard has 2 distinct senses.
+
+**1. To consider someone or something in a particular way.** (считать, расценивать)
 
 1. Many *regard* her as the best coach in the league.
 2. He *regarded* the whole thing as a joke.
 3. The book is widely *regarded* as a classic.
+
+**2. To look at someone or something steadily.** (смотреть, разглядывать; пристально смотреть на)
+
+4. He *regarded* her in silence for a long moment.
+5. The old cat *regards* every visitor with suspicion.
+6. She stood in the doorway, *regarding* us coolly.
 
 ---
 
@@ -1391,17 +1625,31 @@ To settle a problem or an argument, or to decide firmly to do something.
 ### review
 
 **Pronunciation:** /rɪˈvjuː/ &middot; *rih-VYOO*
-**Русский:** пересматривать, просматривать
+**Русский:** пересматривать, просматривать; рецензировать; писать отзыв (о книге, фильме); повторять (материал), готовиться (к экзамену)
 **Forms:** *review* &middot; *reviewed* &middot; *reviewed*
 **Verb class:** regular
 **Third person:** *reviews* &middot; **-ing form:** *reviewing*
 **Transitivity:** transitive
 
-To look at something again in order to check or judge it.
+Review has 3 distinct senses.
+
+**1. To look at something again in order to check or judge it.** (пересматривать, просматривать)
 
 1. Let us *review* the numbers one more time.
 2. The committee *reviewed* all forty applications.
 3. Your case is being *reviewed*.
+
+**2. To give a public opinion in writing about a book, a movie, a restaurant, or a product.** (рецензировать; писать отзыв (о книге, фильме))
+
+4. She *reviews* restaurants for the local paper.
+5. Critics *reviewed* the album kindly.
+6. The book has been *reviewed* in every major paper.
+
+**3. To go over material again in order to prepare for a test.** (повторять (материал), готовиться (к экзамену))
+
+7. I need to *review* chapter four before the quiz.
+8. We *reviewed* the vocabulary all weekend.
+9. She spent the night *reviewing* her notes.
 
 ---
 
@@ -1514,18 +1762,32 @@ To guess about something without having enough facts.
 ### spot
 
 **Pronunciation:** /spɑːt/ &middot; *SPAHT*
-**Русский:** замечать, заметить
+**Русский:** замечать, заметить; одолжить, подкинуть (немного денег); страховать (при подъёме штанги)
 **Forms:** *spot* &middot; *spotted* &middot; *spotted*
 **Verb class:** regular
 **Third person:** *spots* &middot; **-ing form:** *spotting*
 **Transitivity:** transitive
 **Contrast:** One vowel plus one consonant, so the t doubles: *spotted*, *spotting*.
 
-To notice someone or something, often suddenly.
+Spot has 3 distinct senses.
+
+**1. To notice someone or something, often suddenly.** (замечать, заметить)
 
 1. See if you can *spot* the difference.
 2. He *spotted* the error on page two.
 3. She was *spotted* leaving the building.
+
+**2. To lend someone a small amount of money.** (одолжить, подкинуть (немного денег))
+
+4. Can you *spot* me twenty bucks until Friday?
+5. He *spotted* me the cab fare.
+6. She is always *spotting* her roommate lunch money.
+
+**3. To stand beside someone lifting weights, ready to take the bar if they cannot hold it.** (страховать (при подъёме штанги))
+
+7. Will you *spot* me on this set?
+8. His friend *spotted* him while he benched.
+9. Nobody was *spotting* her when the bar came down.
 
 ---
 
@@ -1643,38 +1905,54 @@ To form a clear picture of something in your mind.
 ### weigh
 
 **Pronunciation:** /weɪ/ &middot; *WAY*
-**Русский:** взвешивать, обдумывать
+**Русский:** взвешивать, обдумывать; весить; взвешивать, взвесить
 **Forms:** *weigh* &middot; *weighed* &middot; *weighed*
 **Verb class:** regular
 **Third person:** *weighs* &middot; **-ing form:** *weighing*
 **Transitivity:** transitive
 **Contrast:** The gh is silent: WAY. The past is *weighed*, not weighted.
 
-To think carefully about the good and bad sides of something.
+Weigh has 2 distinct senses.
+
+**1. To think carefully about the good and bad sides of something.** (взвешивать, обдумывать)
 
 1. *Weigh* the costs against the benefits.
 2. They *weighed* two offers before choosing.
 3. Every option has been carefully *weighed*.
 
-**Phrasal verbs:** [weigh down](58-phrasal-regular-t-z.md#weigh-down) &middot; [weigh in](58-phrasal-regular-t-z.md#weigh-in) &middot; [weigh in](58-phrasal-regular-t-z.md#weigh-in-1) &middot; [weigh on](58-phrasal-regular-t-z.md#weigh-on)
+**2. To have a particular weight, or to measure how heavy something is.** (весить; взвешивать, взвесить)
+
+4. The package *weighs* about two pounds.
+5. The nurse *weighed* the baby at every visit.
+6. Have the bags been *weighed* yet?
+
+**Phrasal verbs:** [weigh down](58-phrasal-regular-t-z.md#weigh-down) &middot; [weigh in](58-phrasal-regular-t-z.md#weigh-in-1) &middot; [weigh in](58-phrasal-regular-t-z.md#weigh-in) &middot; [weigh on](58-phrasal-regular-t-z.md#weigh-on)
 
 ---
 
 ### wish
 
 **Pronunciation:** /wɪʃ/ &middot; *WISH*
-**Русский:** желать, хотеть
+**Русский:** желать, хотеть; желать (кому-либо чего-либо), пожелать
 **Forms:** *wish* &middot; *wished* &middot; *wished*
 **Verb class:** regular
 **Third person:** *wishes* &middot; **-ing form:** *wishing*
 **Transitivity:** both — transitive (wish you luck), intransitive (wish for nothing)
 **Contrast:** The third person adds -es: *wishes*. After *wish* use a past form: I wish I knew.
 
-To want something that is unlikely or impossible.
+Wish has 2 distinct senses.
+
+**1. To want something that is unlikely or impossible.** (желать, хотеть)
 
 1. I *wish* I had more time.
 2. She *wished* him luck and left.
 3. He is *wishing* for snow on his birthday.
+
+**2. To say that you hope someone will have something good.** (желать (кому-либо чего-либо), пожелать)
+
+4. Everyone stopped by to *wish* her luck.
+5. He *wished* us a safe trip.
+6. I have already *wished* him a happy birthday.
 
 **Phrasal verbs:** [wish for](22-verb-preposition.md#wish-for)
 
@@ -1701,17 +1979,25 @@ To want to know something, or to ask yourself about it.
 ### worry
 
 **Pronunciation:** /ˈwɜːri/ &middot; *WUR-ee*
-**Русский:** беспокоиться, волноваться
+**Русский:** беспокоиться, волноваться; беспокоить, тревожить, волновать (кого-либо)
 **Forms:** *worry* &middot; *worried* &middot; *worried*
 **Verb class:** regular
 **Third person:** *worries* &middot; **-ing form:** *worrying*
 **Transitivity:** both — transitive (it worries me), intransitive (do not worry)
 **Contrast:** The -y turns into -ies and -ied: *worries*, *worried*. You *worry about* something.
 
-To think about a problem in a way that makes you anxious.
+Worry has 2 distinct senses.
+
+**1. To think about a problem in a way that makes you anxious.** (беспокоиться, волноваться)
 
 1. Do not *worry* about the test.
 2. He *worried* all night about the results.
 3. She has been *worrying* about money.
+
+**2. To make someone feel anxious.** (беспокоить, тревожить, волновать (кого-либо))
+
+4. It *worries* me that she hasn't called.
+5. The test results *worried* his doctor.
+6. You're *worrying* your mother.
 
 **Phrasal verbs:** [worry about](22-verb-preposition.md#worry-about)

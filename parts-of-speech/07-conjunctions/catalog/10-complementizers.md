@@ -108,12 +108,23 @@ The complement-clause *like*, as opposed to the comparison *like* of *She sings 
 
 The workhorse of the category: a pure marker that packages a statement into a noun-sized chunk a verb, noun, or adjective can take as its complement. Four different words share the spelling, and only this one is a conjunction. Unlike relative *that* (*the box that came yesterday*), it fills no role inside its own clause and leaves no gap, which is exactly why it can usually be deleted; unlike demonstrative *that* (*I said that*), it carries no meaning and takes no stress; unlike the degree adverb *that* (*I'm not that hungry*), it modifies nothing. Where *whether* and *if* introduce a question, *that* introduces an assertion.
 
+**1. Object of a verb of saying, thinking, or finding out.** The commonest slot by a wide margin, and the one in which *that* can usually be dropped altogether. (что)
+
 1. She admitted *that* she'd forgotten the deadline entirely.
-2. *That* he never called back tells you everything.
-3. It's obvious *that* they rehearsed this.
-4. There's a rumor *that* the plant is closing in March.
-5. I'm just glad *that* you two finally met.
-6. The problem is *that* nobody wants to pay for the repairs.
+2. He insists *that* the check went out on Monday.
+3. Everybody knew *that* the store was closing.
+
+**2. Subject of the sentence, or a subject pushed to the end behind dummy *it*.** Here *that* cannot be dropped, and Russian needs the correlative «то» in front of it to carry the case: *That he lied* is «То, что он солгал». (то, что)
+
+4. *That* he never called back tells you everything.
+5. It's obvious *that* they rehearsed this.
+6. *That* nobody checked the wiring is the part I can't get past.
+
+**3. Complement of a noun or an adjective, and the *the … is that* frame.** The content of a fact, a claim, a rumor, or a feeling. Russian normally puts a preposition plus «то» ahead of the clause here — *glad that* is «рад тому, что», *the problem is that* is «проблема в том, что». (о том, что; в том, что; тому, что)
+
+7. There's a rumor *that* the plant is closing in March.
+8. I'm just glad *that* you two finally met.
+9. The problem is *that* nobody wants to pay for the repairs.
 
 **See also:** [zero *that*](#zero-that), [whether](#whether), [if](#if), [like](#like), [the fact that](#the-fact-that), [not that](#not-that), [but that](#but-that)
 
@@ -150,12 +161,18 @@ The complementizer of indirect yes-no questions and of stated alternatives, and 
 
 Two constructions sharing one shape. As a complementizer it is plain *whether* with the alternative spelled out, and the *or not* is padding most editors cut. As a concessive it means "no matter whether," and there the *or not* is structural and cannot be dropped — which is the quick test for telling the two apart.
 
+**1. Complementizer — plain *whether* with the alternative spelled out.** A noun clause naming an open question. The *or not* is padding here and most editors cut it, which is the test: if the sentence survives without it, this is the sense you are looking at. (ли … или нет)
+
 1. Let me know *whether or not* you can make it Saturday.
 2. I asked *whether* the check had cleared *or not*.
-3. *Whether or not* the weather cooperates, the ceremony starts at four.
-4. Nobody has told us *whether or not* the position is still open.
-5. He's showing up, *whether or not* anyone invited him.
-6. The board votes tonight on *whether or not* to renew the lease.
+3. Nobody has told us *whether or not* the position is still open.
+4. The board votes tonight on *whether or not* to renew the lease.
+
+**2. Concessive — "no matter whether."** An adverbial clause, and here the *or not* is structural and cannot be cut. It can also front the sentence, which the noun clause above cannot. (независимо от того, …; хочешь не хочешь)
+
+5. *Whether or not* the weather cooperates, the ceremony starts at four.
+6. He's showing up, *whether or not* anyone invited him.
+7. *Whether or not* the grant comes through, we open in September.
 
 **See also:** [whether](#whether), [if](#if), [whatever](#whatever), [however](#however)
 
@@ -195,13 +212,24 @@ These are not pure complementizers: each one introduces the clause *and* fills a
 
 Introduces an embedded question about manner, means, or — with an adjective or adverb attached — extent (*how long*, *how much*). It also heads a fused relative meaning "the way in which," where it competes with *the way that*; formal writing prefers *how* to the redundant *the way how*, which is not standard. A third use embeds an exclamative rather than a question — *It's amazing how quickly kids pick it up* — and that clause, like the others, keeps statement order and ends the sentence with a period.
 
+**1. Embedded question of manner or means — "in what way."** Statement order inside the clause: *I asked how it works*, never *how does it work*. (как; каким образом)
+
 1. Nobody ever explained *how* the billing cycle actually works.
 2. *How* she found the address is still a mystery to me.
 3. I never learned *how* to parallel park.
-4. It depends on *how* much overtime they approve.
-5. Watch *how* he shifts his grip on the second swing.
+4. Watch *how* he shifts his grip on the second swing.
+
+**2. With an adjective or an adverb attached — extent rather than manner.** *How long*, *how much*, *how far*, *how many*: the word grabs the quality word behind it and asks for a measurement. (насколько; сколько; как долго)
+
+5. It depends on *how* much overtime they approve.
 6. She wanted to know *how* long the drive takes.
-7. It's amazing *how* fast that dog learned the fence line.
+7. Nobody asked *how* far it was to the next gas station.
+
+**3. Embedded exclamative — nothing is being asked at all.** After *amazing*, *incredible*, *funny*, *you wouldn't believe*: the clause reports a reaction to a degree rather than a gap in somebody's knowledge, and the sentence still ends in a period. (как же; до чего; надо же, как)
+
+8. It's amazing *how* fast that dog learned the fence line.
+9. You wouldn't believe *how* quiet it gets out there after ten.
+10. It's funny *how* nobody remembers whose idea it was.
 
 **See also:** [how come](#how-come), [why](#why), [what](#what), [however](#however), [how that](#how-that), [whether to / what to / how to / where to](#whether-to--what-to--how-to--where-to)
 

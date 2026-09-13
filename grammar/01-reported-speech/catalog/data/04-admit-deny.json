@@ -31,13 +31,53 @@
       "meaning": "",
       "examples": [
         "The mayor acknowledged that the city had missed the deadline.",
-        "She acknowledged receiving the letter but said she never opened it.",
         "He acknowledged the mistake without apologizing for it.",
         "The study acknowledges what the earlier work got right.",
         "It is widely acknowledged that the original estimate was too low.",
-        "He acknowledged to the committee that no one had read the contract."
+        "He acknowledged to the committee that no one had read the contract.",
+        "She acknowledged receiving the letter but said she never opened it.",
+        "Please acknowledge this email so I know it went through.",
+        "He walked past without acknowledging either of us.",
+        "The credits acknowledge everyone who lent equipment."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Admit that something is so",
+          "body": [
+            "The lightest verb in the family: you can acknowledge a debt, a favor, or a mistake with nothing at stake. (признать (что нечто так))"
+          ],
+          "examples": [
+            "The mayor acknowledged that the city had missed the deadline.",
+            "He acknowledged the mistake without apologizing for it.",
+            "The study acknowledges what the earlier work got right.",
+            "It is widely acknowledged that the original estimate was too low.",
+            "He acknowledged to the committee that no one had read the contract."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Confirm that something arrived",
+          "body": [
+            "Business English: the object is a letter, an email, or an order, and the point is receipt, not truth. (подтвердить получение)"
+          ],
+          "examples": [
+            "She acknowledged receiving the letter but said she never opened it.",
+            "Please acknowledge this email so I know it went through."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Show that you have noticed a person or a contribution",
+          "body": [
+            "A nod in the hallway, or a name in the credits. (поздороваться, показать, что заметил; отметить (в благодарностях))"
+          ],
+          "examples": [
+            "He walked past without acknowledging either of us.",
+            "The credits acknowledge everyone who lent equipment."
+          ]
+        }
+      ],
       "русский": "признать — официально подтвердить, что нечто так; самое нейтральное в ряду, без вины",
       "register": "neutral to formal",
       "type": "reporting verb — admission",
@@ -58,10 +98,51 @@
         "The airline admitted overbooking the flight.",
         "Two of them admitted to falsifying the timesheets.",
         "I'll admit it — I forgot the appointment completely.",
-        "He would never admit how much the repair actually cost.",
-        "Nobody admitted to being in the building after six."
+        "She was admitted to the hospital just after midnight.",
+        "Only forty applicants were admitted that year.",
+        "The ticket admits two.",
+        "The wording admits of no other reading.",
+        "The schedule admits of one delay and no more."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Own up to something that counts against you",
+          "body": [
+            "The reporting sense, and it presupposes fault: admitted is unfair attribution for a fact the speaker volunteered freely. (признать, сознаться)"
+          ],
+          "examples": [
+            "She admitted that she had never read the contract.",
+            "He admitted to me that the whole story was secondhand.",
+            "The airline admitted overbooking the flight.",
+            "Two of them admitted to falsifying the timesheets.",
+            "I'll admit it — I forgot the appointment completely."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Let in",
+          "body": [
+            "Of a hospital, a school, a club, a ticket. This is why admitted to has to be read twice: admitted to the clinic was let in, admitted to taking it owned up. (впускать, принимать (в больницу, в вуз))"
+          ],
+          "examples": [
+            "She was admitted to the hospital just after midnight.",
+            "Only forty applicants were admitted that year.",
+            "The ticket admits two."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "admit of — leave room for",
+          "body": [
+            "Formal, and almost always negative. (допускать (возможность) — книжн.)"
+          ],
+          "examples": [
+            "The wording admits of no other reading.",
+            "The schedule admits of one delay and no more."
+          ]
+        }
+      ],
       "русский": "признать, сознаться — уступить в том, что говорит против тебя; вина подразумевается",
       "register": "neutral",
       "type": "reporting verb — admission",
@@ -130,12 +211,41 @@
       "examples": [
         "His accent betrayed him within about five words.",
         "Her expression betrayed nothing at all.",
-        "The letter betrays the fact that he already knew about the sale.",
-        "He betrayed no surprise when the verdict was read out.",
         "A pause on the line betrayed how bad the news was going to be.",
-        "She betrayed herself by asking about a detail nobody had told her."
+        "She betrayed herself by asking about a detail nobody had told her.",
+        "The letter betrays the fact that he already knew about the sale.",
+        "He betrayed the people who had hired him.",
+        "She felt betrayed by a decision nobody had told her about.",
+        "Two of them betrayed the group to the police."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Let something show without meaning to",
+          "body": [
+            "The reporting sense, and the subject is usually a sign rather than a speaker: a voice, a face, an accent, a pause. (выдать, невольно обнаружить)"
+          ],
+          "examples": [
+            "His accent betrayed him within about five words.",
+            "Her expression betrayed nothing at all.",
+            "A pause on the line betrayed how bad the news was going to be.",
+            "She betrayed herself by asking about a detail nobody had told her.",
+            "The letter betrays the fact that he already knew about the sale."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Turn on somebody; break faith",
+          "body": [
+            "The other verb, and the reason the first one always carries a faint suggestion that the revealer was on the wrong side of the secret. (предать, изменить)"
+          ],
+          "examples": [
+            "He betrayed the people who had hired him.",
+            "She felt betrayed by a decision nobody had told her about.",
+            "Two of them betrayed the group to the police."
+          ]
+        }
+      ],
       "русский": "выдать, невольно обнаружить — о голосе, лице, паузе: показать то, что скрывали",
       "register": "neutral to literary",
       "type": "reporting verb — unintentional revelation",
@@ -200,13 +310,52 @@
       "examples": [
         "He conceded that the first draft had been rushed.",
         "She conceded the point but not the argument.",
-        "The senator conceded the race a little after midnight.",
         "Even the study's authors concede that the sample was small.",
         "She would not concede that any part of it had been her idea.",
-        "The company conceded two of the five claims and fought the rest.",
-        "He conceded to reporters that the campaign had run out of money."
+        "He conceded to reporters that the campaign had run out of money.",
+        "The senator conceded the race a little after midnight.",
+        "He conceded with two counties still counting.",
+        "They have conceded only four goals all season.",
+        "The company conceded two of the five claims and fought the rest."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Give up a point under pressure",
+          "body": [
+            "What it presupposes is not fault but resistance: there has to have been a dispute for anything to be conceded. (уступить, признать (в споре))"
+          ],
+          "examples": [
+            "He conceded that the first draft had been rushed.",
+            "She conceded the point but not the argument.",
+            "Even the study's authors concede that the sample was small.",
+            "She would not concede that any part of it had been her idea.",
+            "He conceded to reporters that the campaign had run out of money."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Admit defeat",
+          "body": [
+            "The election-night sense: a candidate concedes the race, usually in a speech, before the count is finished. (признать поражение (на выборах, в матче))"
+          ],
+          "examples": [
+            "The senator conceded the race a little after midnight.",
+            "He conceded with two counties still counting."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Let the other side have something",
+          "body": [
+            "In sport a team concedes a goal; in a negotiation a side concedes a clause. Nothing is admitted — something is given up. (пропустить (гол); уступить (пункт в договоре))"
+          ],
+          "examples": [
+            "They have conceded only four goals all season.",
+            "The company conceded two of the five claims and fought the rest."
+          ]
+        }
+      ],
       "русский": "уступить, признать — сдать пункт под давлением; предполагает предшествующий спор",
       "register": "neutral to formal",
       "type": "reporting verb — concession",
@@ -430,12 +579,52 @@
       "examples": [
         "The investigation exposed a decade of falsified inspections.",
         "He was exposed as the author of the anonymous memo.",
-        "The audit exposed the fact that nobody had signed off on the payments.",
         "Her testimony exposed how the contracts were awarded.",
-        "A single email exposed the whole arrangement.",
-        "The documentary exposed conditions the company had denied for years."
+        "The documentary exposed conditions the company had denied for years.",
+        "The tide went out and exposed the whole reef.",
+        "Hundreds of workers were exposed to the fumes before anyone shut the line down.",
+        "Signing that exposes you to a lawsuit.",
+        "The program exposes students to four languages in two years.",
+        "She was never exposed to any of this growing up."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Reveal what somebody was hiding",
+          "body": [
+            "Hostile by definition: reveal is neutral about whose interest is served, expose always serves the reader against the person exposed. (разоблачить, вскрыть)"
+          ],
+          "examples": [
+            "The investigation exposed a decade of falsified inspections.",
+            "He was exposed as the author of the anonymous memo.",
+            "Her testimony exposed how the contracts were awarded.",
+            "The documentary exposed conditions the company had denied for years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Leave something uncovered or unprotected",
+          "body": [
+            "The physical sense, and the one behind exposed to a chemical, a risk, or the weather. (обнажать, оставлять незащищённым; подвергать (воздействию))"
+          ],
+          "examples": [
+            "The tide went out and exposed the whole reef.",
+            "Hundreds of workers were exposed to the fumes before anyone shut the line down.",
+            "Signing that exposes you to a lawsuit."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Introduce somebody to something new",
+          "body": [
+            "Always expose someone to something, and entirely positive in tone, unlike every other use of the verb. (знакомить с чем-л., давать соприкоснуться)"
+          ],
+          "examples": [
+            "The program exposes students to four languages in two years.",
+            "She was never exposed to any of this growing up."
+          ]
+        }
+      ],
       "русский": "разоблачить — вскрыть скрываемое, во вред тому, кого разоблачают",
       "register": "neutral, journalistic",
       "type": "reporting verb — hostile revelation",
@@ -478,9 +667,49 @@
         "She gave away the surprise a week early.",
         "One glance at the schedule gave away what they were planning.",
         "He gave the whole thing away by congratulating her too soon.",
-        "Nothing in the report gives away who wrote it."
+        "They gave away every piece of furniture in the house.",
+        "The station is giving away tickets all week.",
+        "Her uncle gave her away at the wedding.",
+        "He asked his daughter who she wanted to give her away."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Reveal a secret, usually by accident",
+          "body": [
+            "The reporting sense: a sign rather than a statement lets it out. It is also the ordinary verb for spoiling a plot. (выдать, проболтаться; заспойлерить)"
+          ],
+          "examples": [
+            "Don't give away the ending.",
+            "His accent gave him away before he finished the sentence.",
+            "She gave away the surprise a week early.",
+            "One glance at the schedule gave away what they were planning.",
+            "He gave the whole thing away by congratulating her too soon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Hand over for nothing",
+          "body": [
+            "The literal sense — to donate or part with something at no charge. (раздать, отдать даром)"
+          ],
+          "examples": [
+            "They gave away every piece of furniture in the house.",
+            "The station is giving away tickets all week."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Escort a bride at a wedding",
+          "body": [
+            "A fixed ceremonial use, and the only one where the object is a person who consents. (вести невесту к алтарю)"
+          ],
+          "examples": [
+            "Her uncle gave her away at the wedding.",
+            "He asked his daughter who she wanted to give her away."
+          ]
+        }
+      ],
       "русский": "выдать, проболтаться — нечаянно раскрыть тайну; тж. выдать концовку, заспойлерить",
       "register": "neutral, leaning informal",
       "type": "reporting verb — unintentional revelation",
@@ -499,11 +728,40 @@
         "I'll grant that the timing was unlucky.",
         "She grants the point and moves straight past it.",
         "Granted, nobody expected the road to be closed.",
-        "I'll grant you that much and no more.",
         "He granted that the earlier version had been clearer.",
-        "Even granting that the data are old, the trend is hard to miss."
+        "Even granting that the data are old, the trend is hard to miss.",
+        "The judge granted a two-week extension.",
+        "Her visa was granted in eleven days.",
+        "The foundation granted them enough to finish the survey."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Concede a point",
+          "body": [
+            "Almost always a step toward a but, and usually in a fixed frame: I'll grant that…, Granted, … (признать, согласиться (уступить в споре))"
+          ],
+          "examples": [
+            "I'll grant that the timing was unlucky.",
+            "She grants the point and moves straight past it.",
+            "Granted, nobody expected the road to be closed.",
+            "He granted that the earlier version had been clearer.",
+            "Even granting that the data are old, the trend is hard to miss."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Give or award formally",
+          "body": [
+            "An authority hands something over — permission, a visa, an extension, money — and nothing is being conceded to anybody. (предоставлять, выдавать (разрешение, визу, субсидию))"
+          ],
+          "examples": [
+            "The judge granted a two-week extension.",
+            "Her visa was granted in eleven days.",
+            "The foundation granted them enough to finish the survey."
+          ]
+        }
+      ],
       "pronunciation note": "British English has the broad a, GRAHNT",
       "русский": "признать, согласиться — уступить пункт мимоходом, обычно перед «но»",
       "register": "neutral, mostly in fixed frames",
@@ -637,9 +895,38 @@
         "He leaked that the plant would close by summer.",
         "Nobody has figured out who leaked it.",
         "The findings were leaked before the study had been peer-reviewed.",
-        "She leaked the roster to a rival team's staff."
+        "The radiator has been leaking since November.",
+        "Water was leaking through the ceiling by the time we got home.",
+        "The valve leaks a little under pressure."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Release information without authorization",
+          "body": [
+            "The unauthorized part is the whole meaning: what an official body puts out is announced, never leaked. (сливать (информацию), допускать утечку)"
+          ],
+          "examples": [
+            "Someone leaked the draft budget two days before the vote.",
+            "The memo was leaked to three outlets at once.",
+            "He leaked that the plant would close by summer.",
+            "Nobody has figured out who leaked it.",
+            "The findings were leaked before the study had been peer-reviewed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Let liquid or gas escape",
+          "body": [
+            "The literal verb the metaphor comes from: a pipe, a roof, a valve. (течь, протекать; подтекать)"
+          ],
+          "examples": [
+            "The radiator has been leaking since November.",
+            "Water was leaking through the ceiling by the time we got home.",
+            "The valve leaks a little under pressure."
+          ]
+        }
+      ],
       "русский": "слить (информацию) — журн.: без разрешения передать сведения, обычно прессе",
       "register": "neutral, journalistic",
       "type": "reporting verb — unauthorized revelation",

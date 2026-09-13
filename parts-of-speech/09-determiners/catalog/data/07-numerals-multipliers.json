@@ -87,14 +87,42 @@
       "meaning": "Counts a noun that has no singular of its own, or one that comes in twos, by counting the units instead.",
       "examples": [
         "I need a pair of scissors that actually cuts.",
-        "She bought two pairs of jeans and returned both.",
         "Do you have a pair of pliers in the truck?",
         "A pair of glasses was sitting on the dashboard.",
+        "She bought two pairs of jeans and returned both.",
         "There isn't a pair of clean socks left in the house.",
         "He owns exactly one pair of dress shoes.",
-        "A pair of twins joined the class in October."
+        "A pair of twins joined the class in October.",
+        "A pair of hawks nests in that sycamore every spring."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A single two-part object that has no singular of its own",
+          "body": [
+            "(пара — об одном предмете из двух частей: scissors, pants, glasses)"
+          ],
+          "examples": [
+            "I need a pair of scissors that actually cuts.",
+            "Do you have a pair of pliers in the truck?",
+            "A pair of glasses was sitting on the dashboard.",
+            "She bought two pairs of jeans and returned both."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Two matching or naturally associated things — a set of two",
+          "body": [
+            "(пара, двое — два одинаковых или связанных предмета либо существа)"
+          ],
+          "examples": [
+            "There isn't a pair of clean socks left in the house.",
+            "He owns exactly one pair of dress shoes.",
+            "A pair of twins joined the class in October.",
+            "A pair of hawks nests in that sycamore every spring."
+          ]
+        }
+      ],
       "pronunciation note": "both a /ə/ and of /əv/ are weak and unstressed; only pair carries a beat",
       "русский": "пара — два предмета; счётное слово для парных существительных: брюки, ножницы",
       "position": "a is the central determiner of pair; the whole phrase heads a partitive",
@@ -138,16 +166,46 @@
       "term": "hundred, thousand, million, billion",
       "ipa": "/ˈhʌndrəd/, /ˈθaʊzənd/, /ˈmɪljən/, /ˈbɪljən/",
       "respell": "HUN-druhd, THOW-zuhnd, MIL-yuhn, BIL-yuhn",
-      "meaning": "A round large number used to count a plural noun. Note on and. The standard American reading of 253 is two hundred fifty-three; two hundred and fifty-three is standard British and perfectly acceptable in the United States. Keep and for the decimal point in dictation (two hundred and five tenths) and out of whole numbers in American technical writing.",
+      "meaning": "A round large number used to count a plural noun.",
       "examples": [
         "The city issued two hundred fifty permits last month.",
-        "A thousand things could go wrong between now and Friday.",
-        "Hundreds of commuters were stranded at the station.",
         "The settlement came to four million dollars.",
         "Only three hundred of the tickets were ever sold.",
-        "She has a hundred and one reasons not to go."
+        "A thousand things could go wrong between now and Friday.",
+        "Hundreds of commuters were stranded at the station.",
+        "She has a hundred and one reasons not to go.",
+        "I've told him a million times to lock the gate.",
+        "Thousands of people have filled out that form and nobody reads it."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An exact round number counting a plural noun",
+          "body": [
+            "(сто, тысяча, миллион, миллиард — после числительного без -s: three hundred)"
+          ],
+          "examples": [
+            "The city issued two hundred fifty permits last month.",
+            "The settlement came to four million dollars.",
+            "Only three hundred of the tickets were ever sold.",
+            "A thousand things could go wrong between now and Friday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Plural and with of — hyperbole for \"a great many.\"",
+          "body": [
+            "(сотни, тысячи, миллионы — гипербола: «масса, уйма», точное число не имеется в виду)",
+            "Note on and. The standard American reading of 253 is two hundred fifty-three; two hundred and fifty-three is standard British and perfectly acceptable in the United States. Keep and for the decimal point in dictation (two hundred and five tenths) and out of whole numbers in American technical writing."
+          ],
+          "examples": [
+            "Hundreds of commuters were stranded at the station.",
+            "She has a hundred and one reasons not to go.",
+            "I've told him a million times to lock the gate.",
+            "Thousands of people have filled out that form and nobody reads it."
+          ]
+        }
+      ],
       "pronunciation note": "the article in front is weak — a hundred /ə ˈhʌndrəd/, a million /ə ˈmɪljən/; the full one hundred /ˈwʌn ˈhʌndrəd/ is the stressed, precise alternative",
       "русский": "сто, тысяча, миллион, миллиард — после числительного без -s: three hundred",
       "position": "postdeterminer",
@@ -166,17 +224,54 @@
       "respell": "WUN",
       "meaning": "Counts exactly one of something, as opposed to any other number.",
       "examples": [
-        "The number. Exactly one, in contrast to any other number.",
-        "The emphatic singular. The one + noun singles out a unique member: the one thing I asked for.",
-        "\"A certain.\" Formal, slightly legal or literary: One Robert Hayes has filed a claim.",
         "One witness changed her story twice.",
         "I'll be there in one hour, two at the most.",
         "One of the elevators has been out since March.",
-        "That's the one mistake we can't afford to make.",
         "Give me one good reason to stay.",
-        "One Mr. Delgado called while you were out."
+        "That's the one mistake we can't afford to make.",
+        "She's the one person in this office who reads the contracts.",
+        "Tuesday is the one day I can't do it.",
+        "One Mr. Delgado called while you were out.",
+        "The claim was filed by one Robert Hayes of Akron."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The number — exactly one and no more",
+          "body": [
+            "(один — точное число, в противопоставление любому другому)"
+          ],
+          "examples": [
+            "One witness changed her story twice.",
+            "I'll be there in one hour, two at the most.",
+            "One of the elevators has been out since March.",
+            "Give me one good reason to stay."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The one — the single, unique member, with nothing else qualifying",
+          "body": [
+            "(единственный, тот самый — the one thing «единственное, что»)"
+          ],
+          "examples": [
+            "That's the one mistake we can't afford to make.",
+            "She's the one person in this office who reads the contracts.",
+            "Tuesday is the one day I can't do it."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "\"A certain\" — a named person the listener is not expected to know",
+          "body": [
+            "(некий, некто — офиц. и книжн.: one Robert Hayes «некий Роберт Хейз»)"
+          ],
+          "examples": [
+            "One Mr. Delgado called while you were out.",
+            "The claim was filed by one Robert Hayes of Akron."
+          ]
+        }
+      ],
       "pronunciation note": "it has no weak form. One keeps its full stressed vowel every time, which is exactly what separates it from the article: an hour /ən ˈaʊɚ/ against one hour /ˈwʌn ˈaʊɚ/. If the syllable reduces to /ə/ or /ən/, the word was a/an, not one.",
       "русский": "один — числительное; после the значит «единственный»: the one exception",
       "position": "postdeterminer as a numeral (the one exception); functions alone as the determiner of a bare noun phrase (one reason)",
@@ -354,11 +449,40 @@
         "The first three chapters are free.",
         "This is my first time flying out of Newark.",
         "She was the first of four children.",
-        "First thing tomorrow, call the insurance company.",
+        "All the first six rows were reserved for family.",
         "It was a first attempt, and it showed.",
-        "All the first six rows were reserved for family."
+        "Getting the roof sealed is our first priority this month.",
+        "She was never my first choice, but she's done the job well.",
+        "First thing tomorrow, call the insurance company."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Position one in a sequence",
+          "body": [
+            "(первый — по порядку, по счёту)"
+          ],
+          "examples": [
+            "The first three chapters are free.",
+            "This is my first time flying out of Newark.",
+            "She was the first of four children.",
+            "All the first six rows were reserved for family.",
+            "It was a first attempt, and it showed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Ahead of everything else in importance or rank",
+          "body": [
+            "(главный, первоочередной, лучший — first priority «первоочередная задача», first choice «лучший вариант»)"
+          ],
+          "examples": [
+            "Getting the roof sealed is our first priority this month.",
+            "She was never my first choice, but she's done the job well.",
+            "First thing tomorrow, call the insurance company."
+          ]
+        }
+      ],
       "pronunciation note": "the article in front is weak and takes its consonant form: the first /ðə ˈfɚst/, never ✗ /ði ˈfɚst/",
       "русский": "первый — порядковое числительное",
       "position": "postdeterminer",
@@ -377,17 +501,54 @@
       "respell": "LAST",
       "meaning": "Ranks an item at the end of a sequence, or points back to the one immediately before now.",
       "examples": [
-        "Final in a sequence. The one at the end, with nothing after it.",
-        "Most recent. The one immediately before now — this is the article-less use with time nouns.",
-        "Least likely. In the last + noun + relative clause: the last person I'd ask.",
         "The last two questions on the exam were the hardest.",
+        "He drank the last of the coffee and didn't make more.",
+        "The last train out of the station leaves at 11:40.",
         "I saw her last week at the farmers market.",
         "Sales are up nine percent over the last six months.",
-        "He drank the last of the coffee and didn't make more.",
+        "Last night's storm knocked out power on three blocks.",
         "She's the last person I'd trust with a secret.",
-        "Last night's storm knocked out power on three blocks."
+        "That's the last thing this project needs right now.",
+        "Selling the house is the last option we'd consider."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Final in a sequence — the one at the end, with nothing after it",
+          "body": [
+            "(последний, конечный — в ряду)"
+          ],
+          "examples": [
+            "The last two questions on the exam were the hardest.",
+            "He drank the last of the coffee and didn't make more.",
+            "The last train out of the station leaves at 11:40."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Most recent — the one immediately before now",
+          "body": [
+            "(прошлый, прошедший — last week «на прошлой неделе»; без артикля с названиями времени)"
+          ],
+          "examples": [
+            "I saw her last week at the farmers market.",
+            "Sales are up nine percent over the last six months.",
+            "Last night's storm knocked out power on three blocks."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Least likely — the last + noun + relative clause",
+          "body": [
+            "(самый неподходящий, последний, кого/что бы... — the last person I'd ask)"
+          ],
+          "examples": [
+            "She's the last person I'd trust with a secret.",
+            "That's the last thing this project needs right now.",
+            "Selling the house is the last option we'd consider."
+          ]
+        }
+      ],
       "русский": "последний; прошлый — во временном значении без артикля: last week — на прошлой неделе",
       "position": "postdeterminer; in the time sense it stands alone with no article (last week)",
       "register": "neutral",
@@ -405,16 +566,54 @@
       "respell": "NEKST",
       "meaning": "",
       "examples": [
-        "Immediately after this one in a sequence. The next flight, the next chapter.",
-        "The coming one, counted from now. With time nouns and no article: next week, next summer.",
         "The next three flights to Denver are already full.",
-        "I'll call you next Tuesday about the invoice.",
         "The next person who interrupts is leaving.",
         "We spent the next two hours on hold.",
+        "I'll call you next Tuesday about the invoice.",
+        "Next summer we're finally fixing the porch.",
+        "The lease is up next month and nobody has read it.",
         "Her office is next door to the copy room.",
-        "They listed his brother as next of kin."
+        "They listed his brother as next of kin.",
+        "The next house over has had a For Sale sign up for a year."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Immediately after this one in a sequence",
+          "body": [
+            "(следующий — идущий сразу за этим)"
+          ],
+          "examples": [
+            "The next three flights to Denver are already full.",
+            "The next person who interrupts is leaving.",
+            "We spent the next two hours on hold."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The coming one, counted from now — with time nouns and no article",
+          "body": [
+            "(будущий, ближайший — next week «на следующей неделе», next summer «будущим летом»)"
+          ],
+          "examples": [
+            "I'll call you next Tuesday about the invoice.",
+            "Next summer we're finally fixing the porch.",
+            "The lease is up next month and nobody has read it."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Adjacent — nearest in space or in relation",
+          "body": [
+            "(соседний, ближайший — next door «по соседству», next of kin «ближайший родственник»)"
+          ],
+          "examples": [
+            "Her office is next door to the copy room.",
+            "They listed his brother as next of kin.",
+            "The next house over has had a For Sale sign up for a year."
+          ]
+        }
+      ],
       "русский": "следующий; будущий — во временном значении без артикля: next week — на следующей неделе",
       "position": "postdeterminer; in the time sense it stands alone with no article (next week)",
       "register": "neutral",
@@ -484,16 +683,41 @@
       "respell": "SEK-uhnd",
       "meaning": "",
       "examples": [
-        "Rank two in a sequence. The second chapter, the second attempt.",
-        "One more of the same kind. With a: a second chance, a second opinion — equivalent to another.",
         "The second witness contradicted the first.",
+        "He was born on the second of March.",
+        "Her second novel sold better than her first.",
+        "They water the plants every second day.",
         "She asked for a second opinion before scheduling surgery.",
         "Nobody wants a second meeting about the same memo.",
-        "He was born on the second of March.",
-        "They water the plants every second day.",
-        "Her second novel sold better than her first."
+        "Give him a second chance and he'll do the same thing again."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Rank two in a sequence — the ordinal",
+          "body": [
+            "(второй — порядковое числительное)"
+          ],
+          "examples": [
+            "The second witness contradicted the first.",
+            "He was born on the second of March.",
+            "Her second novel sold better than her first.",
+            "They water the plants every second day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One more of the same kind — with a, the equivalent of another",
+          "body": [
+            "(ещё один, второй — a second chance «ещё один шанс», a second opinion «мнение другого врача»)"
+          ],
+          "examples": [
+            "She asked for a second opinion before scheduling surgery.",
+            "Nobody wants a second meeting about the same memo.",
+            "Give him a second chance and he'll do the same thing again."
+          ]
+        }
+      ],
       "русский": "второй — порядковое числительное",
       "position": "postdeterminer",
       "register": "neutral",
@@ -537,18 +761,45 @@
       "respell": "uh-NUTH-ur",
       "meaning": "",
       "examples": [
-        "One more of the same kind. Another cup of coffee, another delay.",
-        "A different one. We'll have to find another route.",
         "Give me another minute and I'll have it.",
         "Another three days of rain and the basement floods.",
         "That's yet another reason to leave early.",
-        "She's another of his former students.",
-        "If this route is closed, we'll take another one.",
         "Another two hundred dollars won't fix the transmission.",
+        "He finished his coffee and asked for another.",
+        "If this route is closed, we'll take another one.",
         "Isn't there another way into the building?",
-        "He finished his coffee and asked for another."
+        "She's another of his former students.",
+        "That's another matter entirely, and we'll take it up next week."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "One more of the same kind",
+          "body": [
+            "(ещё один, ещё — добавляет такой же)"
+          ],
+          "examples": [
+            "Give me another minute and I'll have it.",
+            "Another three days of rain and the basement floods.",
+            "That's yet another reason to leave early.",
+            "Another two hundred dollars won't fix the transmission.",
+            "He finished his coffee and asked for another."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A different one — not this one",
+          "body": [
+            "(другой, иной — не этот, а какой-то иной)"
+          ],
+          "examples": [
+            "If this route is closed, we'll take another one.",
+            "Isn't there another way into the building?",
+            "She's another of his former students.",
+            "That's another matter entirely, and we'll take it up next week."
+          ]
+        }
+      ],
       "pronunciation note": "the first syllable is the indefinite article, reduced to /ə/ — another is an + other welded together, and the stress never moves onto it (✗ /eɪˈnʌðɚ/)",
       "русский": "ещё один; другой — включает в себя артикль an, поэтому другого определителя не терпит",
       "position": "central determiner — it contains the indefinite article, which is why nothing else central can join it",
@@ -568,14 +819,53 @@
       "meaning": "Points back to the first (former) or the second (latter) of two things already mentioned.",
       "examples": [
         "Between arbitration and litigation, the former is faster and the latter is more thorough.",
-        "The latter two witnesses were never called.",
-        "She spent the latter half of her career in public defense.",
-        "Her former employer is contesting the unemployment claim.",
         "Of the two routes, the former is scenic and the latter is quick.",
+        "The former testimony was hearsay; the latter evidence was not.",
+        "Her former employer is contesting the unemployment claim.",
         "The former mayor still keeps an office downtown.",
-        "The former testimony was hearsay; the latter evidence was not."
+        "His former wife handles the accounting for both stores.",
+        "She spent the latter half of her career in public defense.",
+        "The latter two witnesses were never called.",
+        "Rain is expected in the latter part of the week."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The former and the latter — the first and the second of two things just mentioned",
+          "body": [
+            "(первый (из двух) — the former; второй, последний (из двух) — the latter)"
+          ],
+          "examples": [
+            "Between arbitration and litigation, the former is faster and the latter is more thorough.",
+            "Of the two routes, the former is scenic and the latter is quick.",
+            "The former testimony was hearsay; the latter evidence was not."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Former on its own — previous, no longer holding the role",
+          "body": [
+            "(бывший, прежний — former mayor «бывший мэр»)"
+          ],
+          "examples": [
+            "Her former employer is contesting the unemployment claim.",
+            "The former mayor still keeps an office downtown.",
+            "His former wife handles the accounting for both stores."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The latter half, part, or years — the later stretch of a period",
+          "body": [
+            "(вторая половина, поздний — the latter half of the year «вторая половина года»)"
+          ],
+          "examples": [
+            "She spent the latter half of her career in public defense.",
+            "The latter two witnesses were never called.",
+            "Rain is expected in the latter part of the week."
+          ]
+        }
+      ],
       "русский": "первый (из двух) — последний (из двух); книжн. отсылка к уже названному",
       "position": "postdeterminer, effectively always after the",
       "register": "formal to neutral; the former … the latter is a writing device more than a speaking one",
@@ -618,17 +908,65 @@
       "respell": "UTH-ur",
       "meaning": "",
       "examples": [
-        "Different from the one named. Some other route, other evidence.",
-        "The remaining one or ones of a known set. With the: the other shoe, the other three.",
-        "Alternate. In every other + singular noun.",
         "Other airlines charge for the second bag too.",
-        "The other two witnesses never testified.",
         "Is there any other evidence you'd like to submit?",
-        "I ran into him the other day at the hardware store.",
+        "We'll need some other explanation for the missing hours.",
+        "The other two witnesses never testified.",
+        "Put the box down and hold the rail with the other hand.",
+        "Three of the units sold; the other four are still listed.",
         "She works from home every other Friday.",
-        "We'll need some other explanation for the missing hours."
+        "The pills are taken every other day, not daily.",
+        "I ran into him the other day at the hardware store.",
+        "The other night the alarm went off at three in the morning."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Different from the one named",
+          "body": [
+            "(другой, иной — не этот, а какой-то ещё)"
+          ],
+          "examples": [
+            "Other airlines charge for the second bag too.",
+            "Is there any other evidence you'd like to submit?",
+            "We'll need some other explanation for the missing hours."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The remaining one or ones of a known set — with the",
+          "body": [
+            "(остальной; второй (из двух) — the other shoe «второй ботинок»)"
+          ],
+          "examples": [
+            "The other two witnesses never testified.",
+            "Put the box down and hold the rail with the other hand.",
+            "Three of the units sold; the other four are still listed."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Alternating, in every other + a singular noun",
+          "body": [
+            "(через один, каждый второй — в обороте every other)"
+          ],
+          "examples": [
+            "She works from home every other Friday.",
+            "The pills are taken every other day, not daily."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The other day / the other night — recently, a short while ago",
+          "body": [
+            "(на днях, недавно — в обороте the other day)"
+          ],
+          "examples": [
+            "I ran into him the other day at the hardware store.",
+            "The other night the alarm went off at three in the morning."
+          ]
+        }
+      ],
       "русский": "другой, остальной, прочий — не этот, а иной из того же множества",
       "position": "postdeterminer — it follows a central determiner, or stands bare before a plural or uncountable noun",
       "register": "neutral",
@@ -698,13 +1036,41 @@
       "examples": [
         "The same problem came up in the last audit.",
         "We ordered from that same restaurant twice in one week.",
-        "Her answer was the same as it was in March.",
-        "The same two people always volunteer.",
-        "They offer same-day shipping on anything ordered before noon.",
         "It's the very same car he drove in high school.",
-        "Every lawyer we called gave us the same advice."
+        "The same two people always volunteer.",
+        "Every lawyer we called gave us the same advice.",
+        "We have the same coffee maker, only ours is black.",
+        "Her answer was the same as it was in March.",
+        "They offer same-day shipping on anything ordered before noon."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "One and the same thing — the identical object, person, or occasion",
+          "body": [
+            "(тот же самый, тот же — именно этот, не другой)"
+          ],
+          "examples": [
+            "The same problem came up in the last audit.",
+            "We ordered from that same restaurant twice in one week.",
+            "It's the very same car he drove in high school.",
+            "The same two people always volunteer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of the same kind — matching, but not the identical object",
+          "body": [
+            "(такой же, одинаковый — не тот же предмет, а точно такой)"
+          ],
+          "examples": [
+            "Every lawyer we called gave us the same advice.",
+            "We have the same coffee maker, only ours is black.",
+            "Her answer was the same as it was in March.",
+            "They offer same-day shipping on anything ordered before noon."
+          ]
+        }
+      ],
       "русский": "тот же самый — требует перед собой the, this или that",
       "position": "postdeterminer — it requires a central determiner, nearly always the, this, or that",
       "register": "neutral",
@@ -776,11 +1142,40 @@
         "A chunk of the budget disappears into insurance every year.",
         "A good chunk of the audience left at intermission.",
         "Rewriting the intake form ate a chunk of my afternoon.",
-        "A chunk of the retaining wall came down in the storm.",
         "They still owe us a good chunk of it.",
-        "Replacing the transmission is a chunk of change."
+        "Replacing the transmission is a chunk of change.",
+        "A chunk of the retaining wall came down in the storm.",
+        "She chipped a chunk of ice off the windshield with a spatula.",
+        "There's a chunk of plaster missing above the door."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sizable share of something you can't pick up — time, money, an audience",
+          "body": [
+            "(изрядная часть, заметная доля — разг.)"
+          ],
+          "examples": [
+            "A chunk of the budget disappears into insurance every year.",
+            "A good chunk of the audience left at intermission.",
+            "Rewriting the intake form ate a chunk of my afternoon.",
+            "They still owe us a good chunk of it.",
+            "Replacing the transmission is a chunk of change."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A literal piece broken off something solid",
+          "body": [
+            "(кусок, обломок — о реальном отломанном куске)"
+          ],
+          "examples": [
+            "A chunk of the retaining wall came down in the storm.",
+            "She chipped a chunk of ice off the windshield with a spatula.",
+            "There's a chunk of plaster missing above the door."
+          ]
+        }
+      ],
       "pronunciation note": "a is weak /ə/ and of reduces to /əv/ or simply /ə/ in fast speech — a chunk of the money is usually /ə ˈtʃʌŋk ə ðə ˈmʌni/",
       "русский": "изрядная часть, кусок — разг.: заметная доля чего-либо",
       "position": "a is the central determiner of chunk; the whole phrase heads a partitive",
@@ -882,9 +1277,40 @@
         "She read all of it twice before signing anything.",
         "All of the applicants who made the second round were local.",
         "Not all of the damage is covered.",
-        "All of Ohio was under a wind advisory by noon."
+        "All of Ohio was under a wind advisory by noon.",
+        "He lasted all of five minutes before he started complaining.",
+        "The whole repair cost all of twelve dollars.",
+        "She's all of nineteen and already running the shop."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Every part or every member of a known whole",
+          "body": [
+            "(весь, все из — весь объём уже определённой группы)"
+          ],
+          "examples": [
+            "All of the milk had gone sour by Thursday.",
+            "All of us were in the parking lot when the alarm went off.",
+            "She read all of it twice before signing anything.",
+            "All of the applicants who made the second round were local.",
+            "Not all of the damage is covered.",
+            "All of Ohio was under a wind advisory by noon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Ironic all of + a number — \"no more than, a mere.\"",
+          "body": [
+            "(всего-навсего, целых — с иронией: all of five minutes «целых пять минут», то есть всего ничего)"
+          ],
+          "examples": [
+            "He lasted all of five minutes before he started complaining.",
+            "The whole repair cost all of twelve dollars.",
+            "She's all of nineteen and already running the shop."
+          ]
+        }
+      ],
       "pronunciation note": "of is weak, /əv/, and drops to /ə/ before a consonant — all of the money is usually /ˈɔl ə ðə ˈmʌni/, while before a pronoun the /v/ links forward: all of it /ˈɔl əv ɪt/. All itself keeps its full vowel.",
       "русский": "все, всё из — весь объём уже определённой группы: all of the students",
       "position": "predeterminer all plus of; the phrase heads a partitive over an already-determined noun phrase",
@@ -913,9 +1339,38 @@
         "Kids under six ride at half price.",
         "Half the time he doesn't even read the email.",
         "Half the seats were still empty at kickoff.",
-        "Didn't half the committee vote against it?"
+        "Didn't half the committee vote against it?",
+        "Half this town has an opinion about that intersection."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of two equal parts",
+          "body": [
+            "(половина, пол- — ровно одна из двух равных частей)"
+          ],
+          "examples": [
+            "Half the class failed the midterm.",
+            "She spent half of her paycheck on the deposit.",
+            "Give me half an hour and I'll have the numbers.",
+            "Half of it was still frozen in the middle.",
+            "Kids under six ride at half price."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Loosely — a large part, \"more often than not.\"",
+          "body": [
+            "(чуть ли не половина; то и дело, чуть ли не всегда — half the time «чаще всего»)"
+          ],
+          "examples": [
+            "Half the time he doesn't even read the email.",
+            "Half the seats were still empty at kickoff.",
+            "Didn't half the committee vote against it?",
+            "Half this town has an opinion about that intersection."
+          ]
+        }
+      ],
       "pronunciation note": "the l is silent; everything around it reduces — half the cake /ˌhæf ðə ˈkeɪk/, half a dozen /ˌhæf ə ˈdʌzən/, half an hour /ˌhæf ən ˈaʊɚ/, half of it /ˌhæf əv ɪt/",
       "русский": "половина, пол- — предопределитель: стоит перед the/my/that (half the cake)",
       "position": "predeterminer — it stands ahead of the central determiner (half the cake, half my paycheck, half that amount)",
@@ -1245,9 +1700,40 @@
         "She's making double what she made at her last job.",
         "Double the number of applicants showed up.",
         "Take double that dosage only if the doctor says so.",
-        "The storm dropped double the normal rainfall for March."
+        "The storm dropped double the normal rainfall for March.",
+        "The room has one double bed and a pullout couch.",
+        "He ordered a double espresso and drank it standing up.",
+        "Double doors open onto the loading dock."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Twice as much — the multiplier in front of a determined noun phrase",
+          "body": [
+            "(вдвое больше, вдвое — double the price «вдвое дороже»)"
+          ],
+          "examples": [
+            "They charged us double the advertised price.",
+            "The new pump moves double the water in half the time.",
+            "She's making double what she made at her last job.",
+            "Double the number of applicants showed up.",
+            "Take double that dosage only if the doctor says so.",
+            "The storm dropped double the normal rainfall for March."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Made of two, or for two — a two-part or two-person version of the thing",
+          "body": [
+            "(двойной, двухместный, сдвоенный — a double bed «двуспальная кровать», a double whiskey «двойная порция»)"
+          ],
+          "examples": [
+            "The room has one double bed and a pullout couch.",
+            "He ordered a double espresso and drank it standing up.",
+            "Double doors open onto the loading dock."
+          ]
+        }
+      ],
       "pronunciation note": "the central determiner it stands in front of stays weak: double the price /ˈdʌbəl ðə ˈpraɪs/, double an ordinary dose /ˈdʌbəl ən ˈɔrdənɛri ˈdoʊs/",
       "русский": "вдвое больше, двойной — предопределитель: double the price — вдвое дороже",
       "position": "predeterminer, ahead of the central determiner",
@@ -1296,9 +1782,40 @@
         "I only asked once.",
         "She rewrote the opening once more and stopped.",
         "Take the pills once daily with food.",
-        "✗ It costs once the price of the original. → ✓ It costs the same as the original."
+        "✗ It costs once the price of the original. → ✓ It costs the same as the original.",
+        "That building was once the biggest hotel in the county.",
+        "He was once a machinist and now sells insurance.",
+        "The mill once employed half the town."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "One time, or a rate of one per period",
+          "body": [
+            "(один раз, раз — once a month «раз в месяц»)"
+          ],
+          "examples": [
+            "The committee meets once a month.",
+            "Water the plant once every ten days.",
+            "I only asked once.",
+            "She rewrote the opening once more and stopped.",
+            "Take the pills once daily with food.",
+            "✗ It costs once the price of the original. → ✓ It costs the same as the original."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Formerly — at some time in the past, but not now",
+          "body": [
+            "(когда-то, некогда, прежде — this was once a theater «когда-то здесь был театр»)"
+          ],
+          "examples": [
+            "That building was once the biggest hotel in the county.",
+            "He was once a machinist and now sells insurance.",
+            "The mill once employed half the town."
+          ]
+        }
+      ],
       "pronunciation note": "the article in the frequency frame is weak and unstressed: once a week /ˈwʌns ə ˈwik/, once an hour /ˈwʌns ən ˈaʊɚ/",
       "русский": "(один) раз, однажды — наречие частотности, а не определитель",
       "position": "adverbial; it does not occupy a determiner slot before a noun phrase",
@@ -1322,9 +1839,40 @@
         "Reimbursement is capped at sixty-five dollars per diem.",
         "The state spends about twelve thousand dollars per student.",
         "Earnings came to $1.42 per share.",
-        "In speech it's sixty miles an hour; on the gauge it's miles per hour."
+        "In speech it's sixty miles an hour; on the gauge it's miles per hour.",
+        "Per your email of the ninth, we've released the deposit.",
+        "The work was done per the contract and signed off by the inspector.",
+        "As per company policy, all invoices go through accounting first."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "For each one — the rate preposition",
+          "body": [
+            "(за, на, в — per hour «в час», per student «на одного учащегося»)"
+          ],
+          "examples": [
+            "The lot charges four dollars per hour after the first two.",
+            "Output is measured in gallons per minute.",
+            "Reimbursement is capped at sixty-five dollars per diem.",
+            "The state spends about twelve thousand dollars per student.",
+            "Earnings came to $1.42 per share.",
+            "In speech it's sixty miles an hour; on the gauge it's miles per hour."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "According to — business and legal per / as per",
+          "body": [
+            "(согласно, в соответствии с — per your request «согласно вашей просьбе»)"
+          ],
+          "examples": [
+            "Per your email of the ninth, we've released the deposit.",
+            "The work was done per the contract and signed off by the inspector.",
+            "As per company policy, all invoices go through accounting first."
+          ]
+        }
+      ],
       "pronunciation note": "unstressed and reduced in ordinary use — ten dollars per hour is /ˈtɛn ˈdɑlɚz pɚ ˈaʊɚ/. The full /pɝ/ shows up only under contrastive stress and in the Latin tags per se /pɚ ˈseɪ/ and per diem /pɚ ˈdiəm/.",
       "русский": "за, на, в — предлог нормы: per hour — в час; тех. и коммерч. регистр",
       "position": "heads a prepositional phrase after a quantity; it fills no determiner slot, and it allows no determiner after it",
@@ -1398,10 +1946,39 @@
         "They pay twice what the job is worth, and still can't fill it.",
         "There were twice as many people as chairs.",
         "It uses twice as much electricity as the old unit.",
+        "This one is twice as heavy but half the price.",
         "The board meets twice a year.",
-        "This one is twice as heavy but half the price."
+        "I called twice and nobody picked up.",
+        "Take it twice daily with food."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Double the quantity — the multiplier before an already-determined phrase",
+          "body": [
+            "(вдвое, в два раза — twice the size «вдвое больше»)"
+          ],
+          "examples": [
+            "The storm dropped twice the normal rainfall.",
+            "They pay twice what the job is worth, and still can't fill it.",
+            "There were twice as many people as chairs.",
+            "It uses twice as much electricity as the old unit.",
+            "This one is twice as heavy but half the price."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Two times — on two occasions, or a rate of two per period",
+          "body": [
+            "(дважды, два раза — twice a year «дважды в год»)"
+          ],
+          "examples": [
+            "The board meets twice a year.",
+            "I called twice and nobody picked up.",
+            "Take it twice daily with food."
+          ]
+        }
+      ],
       "pronunciation note": "whatever follows stays weak: twice the price /ˌtwaɪs ðə ˈpraɪs/, twice a year /ˌtwaɪs ə ˈjɪr/, twice as much /ˌtwaɪs əz ˈmʌtʃ/",
       "русский": "вдвое; дважды — предопределитель: twice the size — вдвое больше",
       "position": "predeterminer, ahead of the central determiner",
@@ -1575,11 +2152,42 @@
         "There were at least forty people in line ahead of us.",
         "The repair takes at most two days if the part is in stock.",
         "You need at least one witness to sign the form in person.",
-        "At least half the budget was already committed by March.",
         "She spends at most an hour a week on the newsletter.",
-        "At least three of the jurors had made up their minds before lunch."
+        "At least three of the jurors had made up their minds before lunch.",
+        "At least half the budget was already committed by March.",
+        "The car's totaled, but at least nobody was hurt.",
+        "At least she called before she cancelled.",
+        "It's a long drive, but at least the road is plowed."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The lower or upper limit of a quantity, with the stated number included",
+          "body": [
+            "(по меньшей мере, как минимум — at least; самое большее, максимум — at most)"
+          ],
+          "examples": [
+            "There were at least forty people in line ahead of us.",
+            "The repair takes at most two days if the part is in stock.",
+            "You need at least one witness to sign the form in person.",
+            "She spends at most an hour a week on the newsletter.",
+            "At least three of the jurors had made up their minds before lunch.",
+            "At least half the budget was already committed by March."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Concessive at least — \"if nothing else, anyway.\"",
+          "body": [
+            "(по крайней мере, хотя бы — уступительное: at least it's dry «по крайней мере, сухо»)"
+          ],
+          "examples": [
+            "The car's totaled, but at least nobody was hurt.",
+            "At least she called before she cancelled.",
+            "It's a long drive, but at least the road is plowed."
+          ]
+        }
+      ],
       "pronunciation note": "at reduces to /ət/ and is never stressed here; the stress falls on least and most",
       "русский": "по меньшей мере — самое большее; границы включаются",
       "position": "premodifier of the numeral or quantity phrase; it sits outside the determiner system and takes whatever follows",

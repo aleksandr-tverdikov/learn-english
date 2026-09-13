@@ -23,14 +23,43 @@
       "term": "acknowledge",
       "ipa": "/əkˈnɑːlɪdʒ/",
       "respell": "uhk-NAH-lij",
-      "meaning": "To admit that something is true or that someone deserves attention. ---",
+      "meaning": "Acknowledge has 2 distinct senses.",
       "examples": [
         "Both sides acknowledge that the talks have stalled.",
         "He acknowledged his mistake in front of the whole team.",
-        "The company has never acknowledged the problem."
+        "The company has never acknowledged the problem.",
+        "Please acknowledge receipt of this email.",
+        "They never acknowledged my application.",
+        "The office has acknowledged our letter but has not answered it."
       ],
-      "senses": [],
-      "русский": "признавать, признать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To admit that something is true or that someone deserves attention",
+          "body": [
+            "(признавать, признать)"
+          ],
+          "examples": [
+            "Both sides acknowledge that the talks have stalled.",
+            "He acknowledged his mistake in front of the whole team.",
+            "The company has never acknowledged the problem."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To tell someone that you have received what they sent",
+          "body": [
+            "(подтверждать получение, подтвердить (получение))",
+            "---"
+          ],
+          "examples": [
+            "Please acknowledge receipt of this email.",
+            "They never acknowledged my application.",
+            "The office has acknowledged our letter but has not answered it."
+          ]
+        }
+      ],
+      "русский": "признавать, признать; подтверждать получение, подтвердить (получение)",
       "forms": "acknowledge · acknowledged · acknowledged",
       "verb class": "regular",
       "third person": "acknowledges · -ing form: acknowledging",
@@ -92,14 +121,58 @@
       "term": "assume",
       "ipa": "/əˈsuːm/",
       "respell": "uh-SOOM",
-      "meaning": "To accept that something is true without proof. ---",
+      "meaning": "Assume has 3 distinct senses.",
       "examples": [
         "Do not assume that everyone has read the email.",
         "I assumed you were coming with us.",
-        "We had assumed the store was open on Sundays."
+        "We had assumed the store was open on Sundays.",
+        "She assumed command of the unit in March.",
+        "The buyer will assume the rest of the debt.",
+        "He has assumed full responsibility for the mistake.",
+        "He assumed an air of total innocence.",
+        "The spy had assumed a new identity before crossing the border.",
+        "Actors often assume an accent for a role."
       ],
-      "senses": [],
-      "русский": "предполагать, полагать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To accept that something is true without proof",
+          "body": [
+            "(предполагать, полагать)"
+          ],
+          "examples": [
+            "Do not assume that everyone has read the email.",
+            "I assumed you were coming with us.",
+            "We had assumed the store was open on Sundays."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take on a duty, a position of power, or a responsibility",
+          "body": [
+            "(принимать на себя, взять на себя (обязанности); вступать в должность)"
+          ],
+          "examples": [
+            "She assumed command of the unit in March.",
+            "The buyer will assume the rest of the debt.",
+            "He has assumed full responsibility for the mistake."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To put on a manner, an appearance, or a name that is not really your own",
+          "body": [
+            "(принимать (вид), напускать на себя; присваивать (чужое имя))",
+            "---"
+          ],
+          "examples": [
+            "He assumed an air of total innocence.",
+            "The spy had assumed a new identity before crossing the border.",
+            "Actors often assume an accent for a role."
+          ]
+        }
+      ],
+      "русский": "предполагать, полагать; принимать на себя, взять на себя (обязанности); вступать в должность; принимать (вид), напускать на себя; присваивать (чужое имя)",
       "forms": "assume · assumed · assumed",
       "verb class": "regular",
       "third person": "assumes · -ing form: assuming",
@@ -162,14 +235,43 @@
       "term": "classify",
       "ipa": "/ˈklæsəfaɪ/",
       "respell": "KLAS-uh-fy",
-      "meaning": "To put people or things into groups by type. ---",
+      "meaning": "Classify has 2 distinct senses.",
       "examples": [
         "Libraries classify books by subject.",
         "The doctor classified the case as mild.",
-        "These documents are classified as secret."
+        "These documents are classified as secret.",
+        "The agency can classify anything it calls sensitive.",
+        "The Pentagon classified the report for thirty years.",
+        "Most of the file is still classified."
       ],
-      "senses": [],
-      "русский": "классифицировать, относить к категории",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put people or things into groups by type",
+          "body": [
+            "(классифицировать, относить к категории)"
+          ],
+          "examples": [
+            "Libraries classify books by subject.",
+            "The doctor classified the case as mild.",
+            "These documents are classified as secret."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To declare officially that information is secret",
+          "body": [
+            "(засекречивать, засекретить)",
+            "---"
+          ],
+          "examples": [
+            "The agency can classify anything it calls sensitive.",
+            "The Pentagon classified the report for thirty years.",
+            "Most of the file is still classified."
+          ]
+        }
+      ],
+      "русский": "классифицировать, относить к категории; засекречивать, засекретить",
       "forms": "classify · classified · classified",
       "verb class": "regular",
       "third person": "classifies · -ing form: classifying",
@@ -216,14 +318,43 @@
       "term": "conceive",
       "ipa": "/kənˈsiːv/",
       "respell": "kuhn-SEEV",
-      "meaning": "To form an idea or a plan in your mind. ---",
+      "meaning": "Conceive has 2 distinct senses.",
       "examples": [
         "I cannot conceive of a simpler solution.",
         "She conceived the whole project on a train ride.",
-        "The bridge was conceived in the 1930s."
+        "The bridge was conceived in the 1930s.",
+        "Many couples conceive within a year of trying.",
+        "She conceived shortly after the treatment.",
+        "The twins were conceived through IVF."
       ],
-      "senses": [],
-      "русский": "задумывать, представлять себе",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To form an idea or a plan in your mind",
+          "body": [
+            "(задумывать, представлять себе)"
+          ],
+          "examples": [
+            "I cannot conceive of a simpler solution.",
+            "She conceived the whole project on a train ride.",
+            "The bridge was conceived in the 1930s."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To become pregnant",
+          "body": [
+            "(зачать, забеременеть)",
+            "---"
+          ],
+          "examples": [
+            "Many couples conceive within a year of trying.",
+            "She conceived shortly after the treatment.",
+            "The twins were conceived through IVF."
+          ]
+        }
+      ],
+      "русский": "задумывать, представлять себе; зачать, забеременеть",
       "forms": "conceive · conceived · conceived",
       "verb class": "regular",
       "third person": "conceives · -ing form: conceiving",
@@ -234,14 +365,43 @@
       "term": "concede",
       "ipa": "/kənˈsiːd/",
       "respell": "kuhn-SEED",
-      "meaning": "To admit that something is true, often unwillingly. ---",
+      "meaning": "Concede has 2 distinct senses.",
       "examples": [
         "I concede that the price is fair.",
         "The candidate conceded on election night.",
-        "Having conceded the point, he changed the subject."
+        "Having conceded the point, he changed the subject.",
+        "He refused to concede until every vote was counted.",
+        "She conceded on Wednesday morning.",
+        "Neither candidate has conceded yet."
       ],
-      "senses": [],
-      "русский": "признавать, уступать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To admit that something is true, often unwillingly",
+          "body": [
+            "(признавать, уступать)"
+          ],
+          "examples": [
+            "I concede that the price is fair.",
+            "The candidate conceded on election night.",
+            "Having conceded the point, he changed the subject."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To admit publicly that you have lost an election or a contest",
+          "body": [
+            "(признавать поражение, признать поражение)",
+            "---"
+          ],
+          "examples": [
+            "He refused to concede until every vote was counted.",
+            "She conceded on Wednesday morning.",
+            "Neither candidate has conceded yet."
+          ]
+        }
+      ],
+      "русский": "признавать, уступать; признавать поражение, признать поражение",
       "forms": "concede · conceded · conceded",
       "verb class": "regular",
       "third person": "concedes · -ing form: conceding",
@@ -251,14 +411,43 @@
       "term": "concentrate",
       "ipa": "/ˈkɑːnsəntreɪt/",
       "respell": "KAHN-suhn-trayt",
-      "meaning": "To give all your attention to one thing. ---",
+      "meaning": "Concentrate has 2 distinct senses.",
       "examples": [
         "I cannot concentrate with the TV on.",
         "She concentrated on the hardest questions first.",
-        "He was concentrating so hard that he did not hear me."
+        "He was concentrating so hard that he did not hear me.",
+        "Most of the new jobs concentrate in two counties.",
+        "The company concentrated its factories in the South.",
+        "Wealth has become concentrated in a handful of cities."
       ],
-      "senses": [],
-      "русский": "сосредотачиваться, сосредоточиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give all your attention to one thing",
+          "body": [
+            "(сосредотачиваться, сосредоточиться)"
+          ],
+          "examples": [
+            "I cannot concentrate with the TV on.",
+            "She concentrated on the hardest questions first.",
+            "He was concentrating so hard that he did not hear me."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To gather in one place in large amounts, or to bring things together in one place",
+          "body": [
+            "(сосредотачивать, сосредоточить; скапливаться, концентрировать)",
+            "---"
+          ],
+          "examples": [
+            "Most of the new jobs concentrate in two counties.",
+            "The company concentrated its factories in the South.",
+            "Wealth has become concentrated in a handful of cities."
+          ]
+        }
+      ],
+      "русский": "сосредотачиваться, сосредоточиться; сосредотачивать, сосредоточить; скапливаться, концентрировать",
       "forms": "concentrate · concentrated · concentrated",
       "verb class": "regular",
       "third person": "concentrates · -ing form: concentrating",
@@ -270,14 +459,58 @@
       "term": "conclude",
       "ipa": "/kənˈkluːd/",
       "respell": "kuhn-KLOOD",
-      "meaning": "To decide that something is true after thinking about the facts. ---",
+      "meaning": "Conclude has 3 distinct senses.",
       "examples": [
         "What do you conclude from these numbers?",
         "The jury concluded that he was innocent.",
-        "Researchers have concluded that the drug is safe."
+        "Researchers have concluded that the drug is safe.",
+        "We usually conclude the meeting with questions.",
+        "The concert concluded with an encore.",
+        "The trial has concluded after six weeks.",
+        "The two countries hope to conclude a trade deal this year.",
+        "They concluded an agreement in March.",
+        "A cease-fire was concluded on Friday."
       ],
-      "senses": [],
-      "русский": "заключать, делать вывод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To decide that something is true after thinking about the facts",
+          "body": [
+            "(заключать, делать вывод)"
+          ],
+          "examples": [
+            "What do you conclude from these numbers?",
+            "The jury concluded that he was innocent.",
+            "Researchers have concluded that the drug is safe."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bring something to an end, or to come to an end",
+          "body": [
+            "(завершать, завершить; заканчиваться, закончиться)"
+          ],
+          "examples": [
+            "We usually conclude the meeting with questions.",
+            "The concert concluded with an encore.",
+            "The trial has concluded after six weeks."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To formally arrange and finish an agreement",
+          "body": [
+            "(заключать, заключить (договор, соглашение))",
+            "---"
+          ],
+          "examples": [
+            "The two countries hope to conclude a trade deal this year.",
+            "They concluded an agreement in March.",
+            "A cease-fire was concluded on Friday."
+          ]
+        }
+      ],
+      "русский": "заключать, делать вывод; завершать, завершить; заканчиваться, закончиться; заключать, заключить (договор, соглашение)",
       "forms": "conclude · concluded · concluded",
       "verb class": "regular",
       "third person": "concludes · -ing form: concluding",
@@ -341,14 +574,43 @@
       "term": "decide",
       "ipa": "/dɪˈsaɪd/",
       "respell": "dih-SYD",
-      "meaning": "To make a choice after thinking about it. ---",
+      "meaning": "Decide has 2 distinct senses.",
       "examples": [
         "You decide where we eat tonight.",
         "We decided to take the early flight.",
-        "Nothing has been decided yet."
+        "Nothing has been decided yet.",
+        "One goal can decide a game like this.",
+        "A single vote decided the election.",
+        "The title was decided in overtime."
       ],
-      "senses": [],
-      "русский": "решать, решить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a choice after thinking about it",
+          "body": [
+            "(решать, решить)"
+          ],
+          "examples": [
+            "You decide where we eat tonight.",
+            "We decided to take the early flight.",
+            "Nothing has been decided yet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To settle the result of a game, a contest, or a question",
+          "body": [
+            "(решать исход, определять; предрешать)",
+            "---"
+          ],
+          "examples": [
+            "One goal can decide a game like this.",
+            "A single vote decided the election.",
+            "The title was decided in overtime."
+          ]
+        }
+      ],
+      "русский": "решать, решить; решать исход, определять; предрешать",
       "forms": "decide · decided · decided",
       "verb class": "regular",
       "third person": "decides · -ing form: deciding",
@@ -481,14 +743,58 @@
       "term": "dismiss",
       "ipa": "/dɪsˈmɪs/",
       "respell": "dis-MIS",
-      "meaning": "To decide that an idea or a person is not worth taking seriously. ---",
+      "meaning": "Dismiss has 3 distinct senses.",
       "examples": [
         "Do not dismiss the idea so quickly.",
         "He dismissed my worries with a laugh.",
-        "The complaint was dismissed by the court."
+        "The complaint was dismissed by the court.",
+        "The school dismissed two teachers after the investigation.",
+        "An employer cannot dismiss you for taking sick leave.",
+        "He is suing the company for dismissing him without warning.",
+        "The teacher dismisses the class at three o'clock.",
+        "The principal dismissed the students early because of the storm.",
+        "We were dismissed as soon as the drill ended."
       ],
-      "senses": [],
-      "русский": "отвергать, отмахиваться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To decide that an idea or a person is not worth taking seriously",
+          "body": [
+            "(отвергать, отмахиваться)"
+          ],
+          "examples": [
+            "Do not dismiss the idea so quickly.",
+            "He dismissed my worries with a laugh.",
+            "The complaint was dismissed by the court."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To officially remove someone from a job",
+          "body": [
+            "(увольнять, уволить)"
+          ],
+          "examples": [
+            "The school dismissed two teachers after the investigation.",
+            "An employer cannot dismiss you for taking sick leave.",
+            "He is suing the company for dismissing him without warning."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To tell a group of people that they may leave",
+          "body": [
+            "(отпускать, распускать (класс, собрание))",
+            "---"
+          ],
+          "examples": [
+            "The teacher dismisses the class at three o'clock.",
+            "The principal dismissed the students early because of the storm.",
+            "We were dismissed as soon as the drill ended."
+          ]
+        }
+      ],
+      "русский": "отвергать, отмахиваться; увольнять, уволить; отпускать, распускать (класс, собрание)",
       "forms": "dismiss · dismissed · dismissed",
       "verb class": "regular",
       "third person": "dismisses · -ing form: dismissing",
@@ -498,14 +804,58 @@
       "term": "distinguish",
       "ipa": "/dɪˈstɪŋɡwɪʃ/",
       "respell": "dih-STING-gwish",
-      "meaning": "To see or explain the difference between things. ---",
+      "meaning": "Distinguish has 3 distinct senses.",
       "examples": [
         "Can you distinguish the twins?",
         "She distinguished the real bills from the fakes.",
-        "Young children have trouble distinguishing between fact and fantasy."
+        "Young children have trouble distinguishing between fact and fantasy.",
+        "In the fog we could barely distinguish the shoreline.",
+        "She distinguished three figures moving along the ridge.",
+        "Even with binoculars he had trouble distinguishing the bird against the rocks.",
+        "Cadets who distinguish themselves are offered command posts.",
+        "She distinguished herself as a trial lawyer before turning forty.",
+        "He has distinguished himself in three different fields."
       ],
-      "senses": [],
-      "русский": "различать, отличать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To see or explain the difference between things",
+          "body": [
+            "(различать, отличать)"
+          ],
+          "examples": [
+            "Can you distinguish the twins?",
+            "She distinguished the real bills from the fakes.",
+            "Young children have trouble distinguishing between fact and fantasy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To manage to see or hear something that is hard to make out",
+          "body": [
+            "(разглядеть, различить (с трудом))"
+          ],
+          "examples": [
+            "In the fog we could barely distinguish the shoreline.",
+            "She distinguished three figures moving along the ridge.",
+            "Even with binoculars he had trouble distinguishing the bird against the rocks."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To do something so well that people notice and admire you",
+          "body": [
+            "(отличиться, проявить себя)",
+            "---"
+          ],
+          "examples": [
+            "Cadets who distinguish themselves are offered command posts.",
+            "She distinguished herself as a trial lawyer before turning forty.",
+            "He has distinguished himself in three different fields."
+          ]
+        }
+      ],
+      "русский": "различать, отличать; разглядеть, различить (с трудом); отличиться, проявить себя",
       "forms": "distinguish · distinguished · distinguished",
       "verb class": "regular",
       "third person": "distinguishes · -ing form: distinguishing",
@@ -603,14 +953,43 @@
       "term": "expect",
       "ipa": "/ɪkˈspɛkt/",
       "respell": "ik-SPEKT",
-      "meaning": "To believe that something will happen or that someone will do something. ---",
+      "meaning": "Expect has 2 distinct senses.",
       "examples": [
         "We expect about thirty guests.",
         "I expected the test to be harder.",
-        "Rain is expected by evening."
+        "Rain is expected by evening.",
+        "The school expects students to be in their seats by eight.",
+        "You are expected to answer emails within a day.",
+        "We expected better manners from a grown man."
       ],
-      "senses": [],
-      "русский": "ожидать, рассчитывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To believe that something will happen or that someone will do something",
+          "body": [
+            "(ожидать, рассчитывать)"
+          ],
+          "examples": [
+            "We expect about thirty guests.",
+            "I expected the test to be harder.",
+            "Rain is expected by evening."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To require something of someone because you consider it their duty",
+          "body": [
+            "(требовать, ожидать (чего-л. от кого-л.))",
+            "---"
+          ],
+          "examples": [
+            "The school expects students to be in their seats by eight.",
+            "You are expected to answer emails within a day.",
+            "We expected better manners from a grown man."
+          ]
+        }
+      ],
+      "русский": "ожидать, рассчитывать; требовать, ожидать (чего-л. от кого-л.)",
       "forms": "expect · expected · expected",
       "verb class": "regular",
       "third person": "expects · -ing form: expecting",
@@ -638,14 +1017,43 @@
       "term": "focus",
       "ipa": "/ˈfoʊkəs/",
       "respell": "FOH-kuhs",
-      "meaning": "To give your attention to one thing rather than to many. ---",
+      "meaning": "Focus has 2 distinct senses.",
       "examples": [
         "Let us focus on the first chapter.",
         "He focused on his breathing and calmed down.",
-        "She is focusing on her health this year."
+        "She is focusing on her health this year.",
+        "Let me focus the camera before you move.",
+        "He focused the binoculars on the far shore.",
+        "Her eyes wouldn't focus after the drops."
       ],
-      "senses": [],
-      "русский": "сосредотачиваться, фокусироваться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give your attention to one thing rather than to many",
+          "body": [
+            "(сосредотачиваться, фокусироваться)"
+          ],
+          "examples": [
+            "Let us focus on the first chapter.",
+            "He focused on his breathing and calmed down.",
+            "She is focusing on her health this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To adjust a camera or your eyes so that what you see is sharp",
+          "body": [
+            "(наводить резкость, фокусировать, сфокусировать; фокусироваться (о зрении))",
+            "---"
+          ],
+          "examples": [
+            "Let me focus the camera before you move.",
+            "He focused the binoculars on the far shore.",
+            "Her eyes wouldn't focus after the drops."
+          ]
+        }
+      ],
+      "русский": "сосредотачиваться, фокусироваться; наводить резкость, фокусировать, сфокусировать; фокусироваться (о зрении)",
       "forms": "focus · focused · focused",
       "verb class": "regular",
       "third person": "focuses · -ing form: focusing",
@@ -764,14 +1172,43 @@
       "term": "imagine",
       "ipa": "/ɪˈmædʒɪn/",
       "respell": "ih-MAJ-in",
-      "meaning": "To form a picture of something in your mind. ---",
+      "meaning": "Imagine has 2 distinct senses.",
       "examples": [
         "Imagine a city with no cars.",
         "I imagined the room much bigger.",
-        "She is imagining problems that do not exist."
+        "She is imagining problems that do not exist.",
+        "I imagine they'll cancel the flight.",
+        "Everyone imagined the deal was already done.",
+        "I had imagined the drive would take about an hour."
       ],
-      "senses": [],
-      "русский": "воображать, представлять себе",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To form a picture of something in your mind",
+          "body": [
+            "(воображать, представлять себе)"
+          ],
+          "examples": [
+            "Imagine a city with no cars.",
+            "I imagined the room much bigger.",
+            "She is imagining problems that do not exist."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To think that something is probably true; to suppose",
+          "body": [
+            "(полагать, предполагать; думать)",
+            "---"
+          ],
+          "examples": [
+            "I imagine they'll cancel the flight.",
+            "Everyone imagined the deal was already done.",
+            "I had imagined the drive would take about an hour."
+          ]
+        }
+      ],
+      "русский": "воображать, представлять себе; полагать, предполагать; думать",
       "forms": "imagine · imagined · imagined",
       "verb class": "regular",
       "third person": "imagines · -ing form: imagining",
@@ -782,14 +1219,43 @@
       "term": "indicate",
       "ipa": "/ˈɪndɪkeɪt/",
       "respell": "IN-dih-kayt",
-      "meaning": "To show that something is true or likely. ---",
+      "meaning": "Indicate has 2 distinct senses.",
       "examples": [
         "These symptoms indicate a mild infection.",
         "The survey indicated strong support.",
-        "Nothing has indicated a problem so far."
+        "Nothing has indicated a problem so far.",
+        "Sources indicate that the deal is close.",
+        "The mayor indicated she would run again.",
+        "Officials have indicated that no decision has been made."
       ],
-      "senses": [],
-      "русский": "указывать, свидетельствовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To show that something is true or likely",
+          "body": [
+            "(указывать, свидетельствовать)"
+          ],
+          "examples": [
+            "These symptoms indicate a mild infection.",
+            "The survey indicated strong support.",
+            "Nothing has indicated a problem so far."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To say something briefly or indirectly rather than stating it outright",
+          "body": [
+            "(давать понять, дать понять; сообщать, заявлять)",
+            "---"
+          ],
+          "examples": [
+            "Sources indicate that the deal is close.",
+            "The mayor indicated she would run again.",
+            "Officials have indicated that no decision has been made."
+          ]
+        }
+      ],
+      "русский": "указывать, свидетельствовать; давать понять, дать понять; сообщать, заявлять",
       "forms": "indicate · indicated · indicated",
       "verb class": "regular",
       "third person": "indicates · -ing form: indicating",
@@ -888,14 +1354,43 @@
       "term": "judge",
       "ipa": "/dʒʌdʒ/",
       "respell": "JUJ",
-      "meaning": "To form an opinion about someone or something after thinking about it. ---",
+      "meaning": "Judge has 2 distinct senses.",
       "examples": [
         "Do not judge a book by its cover.",
         "She judged the distance perfectly.",
-        "Judging by the sky, it will rain before noon."
+        "Judging by the sky, it will rain before noon.",
+        "Don't judge me — you weren't there.",
+        "She felt judged the moment she walked in.",
+        "People were judging him for something he said years ago."
       ],
-      "senses": [],
-      "русский": "судить, оценивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To form an opinion about someone or something after thinking about it",
+          "body": [
+            "(судить, оценивать)"
+          ],
+          "examples": [
+            "Do not judge a book by its cover.",
+            "She judged the distance perfectly.",
+            "Judging by the sky, it will rain before noon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To criticize someone's choices or morals, usually unfairly",
+          "body": [
+            "(осуждать, осудить; судить (о человеке))",
+            "---"
+          ],
+          "examples": [
+            "Don't judge me — you weren't there.",
+            "She felt judged the moment she walked in.",
+            "People were judging him for something he said years ago."
+          ]
+        }
+      ],
+      "русский": "судить, оценивать; осуждать, осудить; судить (о человеке)",
       "forms": "judge · judged · judged",
       "verb class": "regular",
       "third person": "judges · -ing form: judging",
@@ -960,14 +1455,43 @@
       "term": "observe",
       "ipa": "/əbˈzɜːrv/",
       "respell": "uhb-ZURV",
-      "meaning": "To watch something carefully, or to remark on what you see. ---",
+      "meaning": "Observe has 2 distinct senses.",
       "examples": [
         "Student teachers observe a classroom before they teach in one.",
         "He observed that nobody had touched the food.",
-        "The birds are being observed from a hide."
+        "The birds are being observed from a hide.",
+        "Drivers must observe the speed limit in a school zone.",
+        "Her family observed Passover at her grandmother's house.",
+        "A minute of silence was observed before the game."
       ],
-      "senses": [],
-      "русский": "наблюдать, замечать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To watch something carefully, or to remark on what you see",
+          "body": [
+            "(наблюдать, замечать)"
+          ],
+          "examples": [
+            "Student teachers observe a classroom before they teach in one.",
+            "He observed that nobody had touched the food.",
+            "The birds are being observed from a hide."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To obey a law or rule, or to keep a holiday or custom",
+          "body": [
+            "(соблюдать (закон, обычай); отмечать (праздник))",
+            "---"
+          ],
+          "examples": [
+            "Drivers must observe the speed limit in a school zone.",
+            "Her family observed Passover at her grandmother's house.",
+            "A minute of silence was observed before the game."
+          ]
+        }
+      ],
+      "русский": "наблюдать, замечать; соблюдать (закон, обычай); отмечать (праздник)",
       "forms": "observe · observed · observed",
       "verb class": "regular",
       "third person": "observes · -ing form: observing",
@@ -977,14 +1501,43 @@
       "term": "overlook",
       "ipa": "/ˌoʊvərˈlʊk/",
       "respell": "oh-vur-LUUK",
-      "meaning": "To fail to notice something, or to decide to let a fault pass. ---",
+      "meaning": "Overlook has 2 distinct senses.",
       "examples": [
         "It is easy to overlook a typo in your own writing.",
         "The auditors overlooked two payments.",
-        "Her best work has been overlooked for years."
+        "Her best work has been overlooked for years.",
+        "Our room overlooks the harbor.",
+        "The cabin overlooked a small lake.",
+        "We ate on a terrace overlooking the river."
       ],
-      "senses": [],
-      "русский": "упускать из виду, не замечать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fail to notice something, or to decide to let a fault pass",
+          "body": [
+            "(упускать из виду, не замечать)"
+          ],
+          "examples": [
+            "It is easy to overlook a typo in your own writing.",
+            "The auditors overlooked two payments.",
+            "Her best work has been overlooked for years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To have a view over something from above",
+          "body": [
+            "(выходить на (о виде из окна), возвышаться над)",
+            "---"
+          ],
+          "examples": [
+            "Our room overlooks the harbor.",
+            "The cabin overlooked a small lake.",
+            "We ate on a terrace overlooking the river."
+          ]
+        }
+      ],
+      "русский": "упускать из виду, не замечать; выходить на (о виде из окна), возвышаться над",
       "forms": "overlook · overlooked · overlooked",
       "verb class": "regular",
       "third person": "overlooks · -ing form: overlooking",
@@ -1013,14 +1566,43 @@
       "term": "picture",
       "ipa": "/ˈpɪktʃər/",
       "respell": "PIK-chur",
-      "meaning": "To form an image of something in your mind. ---",
+      "meaning": "Picture has 2 distinct senses.",
       "examples": [
         "Picture a beach with nobody on it.",
         "I pictured the house as much older.",
-        "She is picturing herself on stage."
+        "She is picturing herself on stage.",
+        "The magazine pictured her on the cover.",
+        "He is pictured here with his two daughters.",
+        "The mural pictures the town as it looked in 1900."
       ],
-      "senses": [],
-      "русский": "представлять себе, воображать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To form an image of something in your mind",
+          "body": [
+            "(представлять себе, воображать)"
+          ],
+          "examples": [
+            "Picture a beach with nobody on it.",
+            "I pictured the house as much older.",
+            "She is picturing herself on stage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To show someone or something in a photograph, a painting, or a film",
+          "body": [
+            "(изображать, изобразить; снимать, снять (на фото))",
+            "---"
+          ],
+          "examples": [
+            "The magazine pictured her on the cover.",
+            "He is pictured here with his two daughters.",
+            "The mural pictures the town as it looked in 1900."
+          ]
+        }
+      ],
+      "русский": "представлять себе, воображать; изображать, изобразить; снимать, снять (на фото)",
       "forms": "picture · pictured · pictured",
       "verb class": "regular",
       "third person": "pictures · -ing form: picturing",
@@ -1086,14 +1668,43 @@
       "term": "presume",
       "ipa": "/prɪˈzuːm/",
       "respell": "prih-ZOOM",
-      "meaning": "To suppose that something is true because it is likely. ---",
+      "meaning": "Presume has 2 distinct senses.",
       "examples": [
         "I presume you have already eaten.",
         "The police presumed the car was stolen.",
-        "He is presumed innocent until proven guilty."
+        "He is presumed innocent until proven guilty.",
+        "I wouldn't presume to tell you how to run your own shop.",
+        "She presumed to speak for the whole department.",
+        "No one has ever presumed to question his figures."
       ],
-      "senses": [],
-      "русский": "полагать, предполагать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To suppose that something is true because it is likely",
+          "body": [
+            "(полагать, предполагать)"
+          ],
+          "examples": [
+            "I presume you have already eaten.",
+            "The police presumed the car was stolen.",
+            "He is presumed innocent until proven guilty."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To dare to do something you have no right to do",
+          "body": [
+            "(осмеливаться, осмелиться; позволять себе, брать на себя смелость)",
+            "---"
+          ],
+          "examples": [
+            "I wouldn't presume to tell you how to run your own shop.",
+            "She presumed to speak for the whole department.",
+            "No one has ever presumed to question his figures."
+          ]
+        }
+      ],
+      "русский": "полагать, предполагать; осмеливаться, осмелиться; позволять себе, брать на себя смелость",
       "forms": "presume · presumed · presumed",
       "verb class": "regular",
       "third person": "presumes · -ing form: presuming",
@@ -1139,14 +1750,58 @@
       "term": "realize",
       "ipa": "/ˈriːəlaɪz/",
       "respell": "REE-uh-lyz",
-      "meaning": "To become aware of something you had not understood before. ---",
+      "meaning": "Realize has 3 distinct senses.",
       "examples": [
         "I realize this is hard to hear.",
         "She realized that her keys were still inside.",
-        "He had not realized how late it was."
+        "He had not realized how late it was.",
+        "It took twenty years to realize her dream of opening a bakery.",
+        "He never realized his full potential as a player.",
+        "The project has finally been realized, ten years after it was proposed.",
+        "They hope to realize a profit of two million dollars.",
+        "She realized three hundred thousand dollars on the sale of the house.",
+        "The fund has realized solid gains this year."
       ],
-      "senses": [],
-      "русский": "осознавать, понимать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To become aware of something you had not understood before",
+          "body": [
+            "(осознавать, понимать)"
+          ],
+          "examples": [
+            "I realize this is hard to hear.",
+            "She realized that her keys were still inside.",
+            "He had not realized how late it was."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a hope, a plan, or an ability become real",
+          "body": [
+            "(осуществлять, осуществить; реализовать (мечту, замысел))"
+          ],
+          "examples": [
+            "It took twenty years to realize her dream of opening a bakery.",
+            "He never realized his full potential as a player.",
+            "The project has finally been realized, ten years after it was proposed."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To get a profit or an amount of money from a sale or an investment",
+          "body": [
+            "(получать (прибыль), выручить; реализовать (актив))",
+            "---"
+          ],
+          "examples": [
+            "They hope to realize a profit of two million dollars.",
+            "She realized three hundred thousand dollars on the sale of the house.",
+            "The fund has realized solid gains this year."
+          ]
+        }
+      ],
+      "русский": "осознавать, понимать; осуществлять, осуществить; реализовать (мечту, замысел); получать (прибыль), выручить; реализовать (актив)",
       "forms": "realize · realized · realized",
       "verb class": "regular",
       "third person": "realizes · -ing form: realizing",
@@ -1176,14 +1831,58 @@
       "term": "recall",
       "ipa": "/rɪˈkɔːl/",
       "respell": "rih-KAWL",
-      "meaning": "To bring something back into your mind, a little more formally than remember. ---",
+      "meaning": "Recall has 3 distinct senses.",
       "examples": [
         "I cannot recall his last name.",
         "She recalled the address perfectly.",
-        "He has recalled very little about that night."
+        "He has recalled very little about that night.",
+        "If the part fails, the maker must recall it.",
+        "The company recalled forty thousand cars last spring.",
+        "Two brands of baby formula have been recalled.",
+        "Voters can recall a governor before the term ends.",
+        "They recalled two members of the school board.",
+        "The mayor was recalled in a special election."
       ],
-      "senses": [],
-      "русский": "вспоминать, припоминать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To bring something back into your mind, a little more formally than remember",
+          "body": [
+            "(вспоминать, припоминать)"
+          ],
+          "examples": [
+            "I cannot recall his last name.",
+            "She recalled the address perfectly.",
+            "He has recalled very little about that night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To order that a faulty product be returned by the people who bought it",
+          "body": [
+            "(отзывать (товар), отозвать; изымать из продажи)"
+          ],
+          "examples": [
+            "If the part fails, the maker must recall it.",
+            "The company recalled forty thousand cars last spring.",
+            "Two brands of baby formula have been recalled."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To remove an elected official from office through a special vote",
+          "body": [
+            "(отзывать (выборное лицо), смещать голосованием)",
+            "---"
+          ],
+          "examples": [
+            "Voters can recall a governor before the term ends.",
+            "They recalled two members of the school board.",
+            "The mayor was recalled in a special election."
+          ]
+        }
+      ],
+      "русский": "вспоминать, припоминать; отзывать (товар), отозвать; изымать из продажи; отзывать (выборное лицо), смещать голосованием",
       "forms": "recall · recalled · recalled",
       "verb class": "regular",
       "third person": "recalls · -ing form: recalling",
@@ -1211,14 +1910,43 @@
       "term": "recognize",
       "ipa": "/ˈrɛkəɡnaɪz/",
       "respell": "REK-uhg-nyz",
-      "meaning": "To know someone or something because you have met it before, or to admit that it is real. ---",
+      "meaning": "Recognize has 2 distinct senses.",
       "examples": [
         "I did not recognize you with the beard.",
         "She recognized his voice at once.",
-        "The state has recognized the marriage."
+        "The state has recognized the marriage.",
+        "We want to recognize the people who made this possible.",
+        "The mayor recognized the firefighters at a ceremony downtown.",
+        "She has been recognized for thirty years of service."
       ],
-      "senses": [],
-      "русский": "узнавать, признавать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To know someone or something because you have met it before, or to admit that it is real",
+          "body": [
+            "(узнавать, признавать)"
+          ],
+          "examples": [
+            "I did not recognize you with the beard.",
+            "She recognized his voice at once.",
+            "The state has recognized the marriage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give someone public credit or an award for what they have done",
+          "body": [
+            "(отмечать, отметить (заслуги); награждать, чествовать)",
+            "---"
+          ],
+          "examples": [
+            "We want to recognize the people who made this possible.",
+            "The mayor recognized the firefighters at a ceremony downtown.",
+            "She has been recognized for thirty years of service."
+          ]
+        }
+      ],
+      "русский": "узнавать, признавать; отмечать, отметить (заслуги); награждать, чествовать",
       "forms": "recognize · recognized · recognized",
       "verb class": "regular",
       "third person": "recognizes · -ing form: recognizing",
@@ -1246,14 +1974,58 @@
       "term": "reflect",
       "ipa": "/rɪˈflɛkt/",
       "respell": "rih-FLEKT",
-      "meaning": "To think quietly and seriously about something. ---",
+      "meaning": "Reflect has 3 distinct senses.",
       "examples": [
         "Take a week to reflect on the offer.",
         "He reflected on how much had changed.",
-        "She is reflecting on twenty years of teaching."
+        "She is reflecting on twenty years of teaching.",
+        "Snow reflects most of the sunlight that hits it.",
+        "The mountains were reflected in the still lake.",
+        "The mirror was reflecting the light straight into my eyes.",
+        "These numbers reflect only the first quarter.",
+        "The results reflected months of hard work.",
+        "The change is already reflected in this month's bill."
       ],
-      "senses": [],
-      "русский": "размышлять; отражать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To think quietly and seriously about something",
+          "body": [
+            "(размышлять; отражать)"
+          ],
+          "examples": [
+            "Take a week to reflect on the offer.",
+            "He reflected on how much had changed.",
+            "She is reflecting on twenty years of teaching."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To throw back light, heat, or an image from a surface",
+          "body": [
+            "(отражать, отразить (свет, изображение))"
+          ],
+          "examples": [
+            "Snow reflects most of the sunlight that hits it.",
+            "The mountains were reflected in the still lake.",
+            "The mirror was reflecting the light straight into my eyes."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To show something clearly, or to be a sign of it",
+          "body": [
+            "(отражать, показывать; свидетельствовать о)",
+            "---"
+          ],
+          "examples": [
+            "These numbers reflect only the first quarter.",
+            "The results reflected months of hard work.",
+            "The change is already reflected in this month's bill."
+          ]
+        }
+      ],
+      "русский": "размышлять; отражать; отражать, отразить (свет, изображение); отражать, показывать; свидетельствовать о",
       "forms": "reflect · reflected · reflected",
       "verb class": "regular",
       "third person": "reflects · -ing form: reflecting",
@@ -1264,14 +2036,43 @@
       "term": "regard",
       "ipa": "/rɪˈɡɑːrd/",
       "respell": "rih-GARD",
-      "meaning": "To consider someone or something in a particular way. ---",
+      "meaning": "Regard has 2 distinct senses.",
       "examples": [
         "Many regard her as the best coach in the league.",
         "He regarded the whole thing as a joke.",
-        "The book is widely regarded as a classic."
+        "The book is widely regarded as a classic.",
+        "He regarded her in silence for a long moment.",
+        "The old cat regards every visitor with suspicion.",
+        "She stood in the doorway, regarding us coolly."
       ],
-      "senses": [],
-      "русский": "считать, расценивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To consider someone or something in a particular way",
+          "body": [
+            "(считать, расценивать)"
+          ],
+          "examples": [
+            "Many regard her as the best coach in the league.",
+            "He regarded the whole thing as a joke.",
+            "The book is widely regarded as a classic."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To look at someone or something steadily",
+          "body": [
+            "(смотреть, разглядывать; пристально смотреть на)",
+            "---"
+          ],
+          "examples": [
+            "He regarded her in silence for a long moment.",
+            "The old cat regards every visitor with suspicion.",
+            "She stood in the doorway, regarding us coolly."
+          ]
+        }
+      ],
+      "русский": "считать, расценивать; смотреть, разглядывать; пристально смотреть на",
       "forms": "regard · regarded · regarded",
       "verb class": "regular",
       "third person": "regards · -ing form: regarding",
@@ -1372,14 +2173,58 @@
       "term": "review",
       "ipa": "/rɪˈvjuː/",
       "respell": "rih-VYOO",
-      "meaning": "To look at something again in order to check or judge it. ---",
+      "meaning": "Review has 3 distinct senses.",
       "examples": [
         "Let us review the numbers one more time.",
         "The committee reviewed all forty applications.",
-        "Your case is being reviewed."
+        "Your case is being reviewed.",
+        "She reviews restaurants for the local paper.",
+        "Critics reviewed the album kindly.",
+        "The book has been reviewed in every major paper.",
+        "I need to review chapter four before the quiz.",
+        "We reviewed the vocabulary all weekend.",
+        "She spent the night reviewing her notes."
       ],
-      "senses": [],
-      "русский": "пересматривать, просматривать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To look at something again in order to check or judge it",
+          "body": [
+            "(пересматривать, просматривать)"
+          ],
+          "examples": [
+            "Let us review the numbers one more time.",
+            "The committee reviewed all forty applications.",
+            "Your case is being reviewed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give a public opinion in writing about a book, a movie, a restaurant, or a product",
+          "body": [
+            "(рецензировать; писать отзыв (о книге, фильме))"
+          ],
+          "examples": [
+            "She reviews restaurants for the local paper.",
+            "Critics reviewed the album kindly.",
+            "The book has been reviewed in every major paper."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To go over material again in order to prepare for a test",
+          "body": [
+            "(повторять (материал), готовиться (к экзамену))",
+            "---"
+          ],
+          "examples": [
+            "I need to review chapter four before the quiz.",
+            "We reviewed the vocabulary all weekend.",
+            "She spent the night reviewing her notes."
+          ]
+        }
+      ],
+      "русский": "пересматривать, просматривать; рецензировать; писать отзыв (о книге, фильме); повторять (материал), готовиться (к экзамену)",
       "forms": "review · reviewed · reviewed",
       "verb class": "regular",
       "third person": "reviews · -ing form: reviewing",
@@ -1495,14 +2340,58 @@
       "term": "spot",
       "ipa": "/spɑːt/",
       "respell": "SPAHT",
-      "meaning": "To notice someone or something, often suddenly. ---",
+      "meaning": "Spot has 3 distinct senses.",
       "examples": [
         "See if you can spot the difference.",
         "He spotted the error on page two.",
-        "She was spotted leaving the building."
+        "She was spotted leaving the building.",
+        "Can you spot me twenty bucks until Friday?",
+        "He spotted me the cab fare.",
+        "She is always spotting her roommate lunch money.",
+        "Will you spot me on this set?",
+        "His friend spotted him while he benched.",
+        "Nobody was spotting her when the bar came down."
       ],
-      "senses": [],
-      "русский": "замечать, заметить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To notice someone or something, often suddenly",
+          "body": [
+            "(замечать, заметить)"
+          ],
+          "examples": [
+            "See if you can spot the difference.",
+            "He spotted the error on page two.",
+            "She was spotted leaving the building."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To lend someone a small amount of money",
+          "body": [
+            "(одолжить, подкинуть (немного денег))"
+          ],
+          "examples": [
+            "Can you spot me twenty bucks until Friday?",
+            "He spotted me the cab fare.",
+            "She is always spotting her roommate lunch money."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To stand beside someone lifting weights, ready to take the bar if they cannot hold it",
+          "body": [
+            "(страховать (при подъёме штанги))",
+            "---"
+          ],
+          "examples": [
+            "Will you spot me on this set?",
+            "His friend spotted him while he benched.",
+            "Nobody was spotting her when the bar came down."
+          ]
+        }
+      ],
+      "русский": "замечать, заметить; одолжить, подкинуть (немного денег); страховать (при подъёме штанги)",
       "forms": "spot · spotted · spotted",
       "verb class": "regular",
       "third person": "spots · -ing form: spotting",
@@ -1622,14 +2511,43 @@
       "term": "weigh",
       "ipa": "/weɪ/",
       "respell": "WAY",
-      "meaning": "To think carefully about the good and bad sides of something. ---",
+      "meaning": "Weigh has 2 distinct senses.",
       "examples": [
         "Weigh the costs against the benefits.",
         "They weighed two offers before choosing.",
-        "Every option has been carefully weighed."
+        "Every option has been carefully weighed.",
+        "The package weighs about two pounds.",
+        "The nurse weighed the baby at every visit.",
+        "Have the bags been weighed yet?"
       ],
-      "senses": [],
-      "русский": "взвешивать, обдумывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To think carefully about the good and bad sides of something",
+          "body": [
+            "(взвешивать, обдумывать)"
+          ],
+          "examples": [
+            "Weigh the costs against the benefits.",
+            "They weighed two offers before choosing.",
+            "Every option has been carefully weighed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To have a particular weight, or to measure how heavy something is",
+          "body": [
+            "(весить; взвешивать, взвесить)",
+            "---"
+          ],
+          "examples": [
+            "The package weighs about two pounds.",
+            "The nurse weighed the baby at every visit.",
+            "Have the bags been weighed yet?"
+          ]
+        }
+      ],
+      "русский": "взвешивать, обдумывать; весить; взвешивать, взвесить",
       "forms": "weigh · weighed · weighed",
       "verb class": "regular",
       "third person": "weighs · -ing form: weighing",
@@ -1641,14 +2559,43 @@
       "term": "wish",
       "ipa": "/wɪʃ/",
       "respell": "WISH",
-      "meaning": "To want something that is unlikely or impossible. ---",
+      "meaning": "Wish has 2 distinct senses.",
       "examples": [
         "I wish I had more time.",
         "She wished him luck and left.",
-        "He is wishing for snow on his birthday."
+        "He is wishing for snow on his birthday.",
+        "Everyone stopped by to wish her luck.",
+        "He wished us a safe trip.",
+        "I have already wished him a happy birthday."
       ],
-      "senses": [],
-      "русский": "желать, хотеть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To want something that is unlikely or impossible",
+          "body": [
+            "(желать, хотеть)"
+          ],
+          "examples": [
+            "I wish I had more time.",
+            "She wished him luck and left.",
+            "He is wishing for snow on his birthday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To say that you hope someone will have something good",
+          "body": [
+            "(желать (кому-либо чего-либо), пожелать)",
+            "---"
+          ],
+          "examples": [
+            "Everyone stopped by to wish her luck.",
+            "He wished us a safe trip.",
+            "I have already wished him a happy birthday."
+          ]
+        }
+      ],
+      "русский": "желать, хотеть; желать (кому-либо чего-либо), пожелать",
       "forms": "wish · wished · wished",
       "verb class": "regular",
       "third person": "wishes · -ing form: wishing",
@@ -1678,14 +2625,42 @@
       "term": "worry",
       "ipa": "/ˈwɜːri/",
       "respell": "WUR-ee",
-      "meaning": "To think about a problem in a way that makes you anxious.",
+      "meaning": "Worry has 2 distinct senses.",
       "examples": [
         "Do not worry about the test.",
         "He worried all night about the results.",
-        "She has been worrying about money."
+        "She has been worrying about money.",
+        "It worries me that she hasn't called.",
+        "The test results worried his doctor.",
+        "You're worrying your mother."
       ],
-      "senses": [],
-      "русский": "беспокоиться, волноваться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To think about a problem in a way that makes you anxious",
+          "body": [
+            "(беспокоиться, волноваться)"
+          ],
+          "examples": [
+            "Do not worry about the test.",
+            "He worried all night about the results.",
+            "She has been worrying about money."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make someone feel anxious",
+          "body": [
+            "(беспокоить, тревожить, волновать (кого-либо))"
+          ],
+          "examples": [
+            "It worries me that she hasn't called.",
+            "The test results worried his doctor.",
+            "You're worrying your mother."
+          ]
+        }
+      ],
+      "русский": "беспокоиться, волноваться; беспокоить, тревожить, волновать (кого-либо)",
       "forms": "worry · worried · worried",
       "verb class": "regular",
       "third person": "worries · -ing form: worrying",

@@ -42,12 +42,19 @@ Adds one more item to a list of points, and lives mostly in reports, memos, and 
 
 The additive *again* introduces one more instance of the same point rather than the repetition of an event — the "and here's another" of argument, lecture, and testimony. Position and commas do all the work, since stranded at the end of a predicate the same word is the ordinary adverb meaning "a second time."
 
+**1. Additive — "and here is one more point."** The *again* of argument, lecture, and testimony: it brings in another instance of the same claim, not the repetition of an event. Always set off by commas. (к тому же; далее; опять же)
+
 1. *Again*, the department had no written policy on any of this.
 2. The first draft ignored the budget; *again*, so did the second.
 3. Consider Ohio. *Again*, the pattern holds: turnout rose in every county that added a polling place.
 4. Her testimony, *again*, was never challenged by either side.
 5. *Again*, I want to be clear that nobody has been accused of anything.
-6. He read the paragraph *again* before signing it. *(time adverb — "once more," not a connector)*
+
+**2. The ordinary time adverb — "once more."** Sits at the end of the predicate, takes no commas, and connects nothing. The punctuation is the whole difference: *Again, the vote failed* offers one more point, while *The vote failed again* counts a second failure. (снова; ещё раз)
+
+6. He read the paragraph *again* before signing it.
+7. The vote failed *again* on Tuesday.
+8. Say that *again* — I didn't catch it.
 
 **See also:** [also](#also), [additionally](#additionally), [likewise](#likewise), [then again](#then-again), [furthermore](#furthermore)
 
@@ -83,12 +90,19 @@ The everyday additive adverb, and the one learners most often try to use as a co
 
 Adds the reason the speaker was saving: the clincher meant to end the discussion. It covers the same additive ground as *moreover* but is far more conversational, and it usually carries an undertone of "and anyway, that settles it." *Beside* is a different word — the preposition meaning "next to" — and not a spelling variant of this one.
 
+**1. The clinching added reason.** Brings in the argument the speaker was saving — the one meant to end the discussion, with an undertone of "and anyway, that settles it." Period or semicolon in front, comma after. (да и вообще; к тому же)
+
 1. I don't want to drive four hours. *Besides*, the tickets are sold out.
 2. The couch won't fit through the door; *besides*, we can't afford it.
 3. "You should apologize." "For what? *Besides*, she started it."
 4. It's too late to call him. *Besides*, he never picks up.
 5. The job pays less, and *besides*, I'd have to move to Cleveland.
-6. *Besides* the two of us, nobody knew the combination. *(preposition — a noun phrase follows, not a clause)*
+
+**2. Preposition — "in addition to," "apart from."** Takes a noun phrase instead of a clause, and the only comma it gets is the one closing a fronted phrase. *Beside* without the *s* is a different word meaning "next to." (кроме; помимо)
+
+6. *Besides* the two of us, nobody knew the combination.
+7. What do you do *besides* teach?
+8. *Besides* the deposit, there's a cleaning fee.
 
 **See also:** [moreover](#moreover), [anyway](#anyway), [in addition](#in-addition), [after all](#after-all)
 
@@ -469,12 +483,29 @@ Functionally identical to *nevertheless* — pick either. The only real differen
 
 A formal *nevertheless*, still alive in contracts, statutes, and academic prose. It is much more often a preposition than a connector, and it is the only word in this family that can follow the noun it governs: *objections notwithstanding*.
 
-1. The evidence was thin; *notwithstanding*, the jury convicted.
-2. *Notwithstanding*, the department went ahead with the hire.
-3. *Notwithstanding* the storm warnings, the ferry sailed on schedule. *(preposition — a noun phrase follows)*
-4. The objections of two members *notwithstanding*, the motion carried. *(preposition, placed after its noun)*
-5. She had no formal training; *notwithstanding*, she outperformed every analyst on the desk.
-6. *Notwithstanding that* the deadline had passed, the clerk accepted the filing. *(subordinating conjunction — a full clause follows)*
+**1. Preposition — "in spite of."** The commonest use by a wide margin, and the shape in which Americans actually meet the word. It takes a noun phrase, and a fronted phrase closes with a comma. (несмотря на)
+
+1. *Notwithstanding* the storm warnings, the ferry sailed on schedule.
+2. *Notwithstanding* the cost, the board approved the purchase.
+3. *Notwithstanding* her objections, the contract was signed that afternoon.
+
+**2. The same preposition placed after its noun.** The only word in this family that can follow the phrase it governs, and a signature of legal drafting. (невзирая на; вопреки — предлог после существительного)
+
+4. The objections of two members *notwithstanding*, the motion carried.
+5. Budget cuts *notwithstanding*, the library kept its Sunday hours.
+6. His age *notwithstanding*, he outworked everyone on the crew.
+
+**3. Conjunctive adverb — a formal *nevertheless*.** Rare, and it needs a semicolon or a period in front of it. (тем не менее; несмотря на это)
+
+7. The evidence was thin; *notwithstanding*, the jury convicted.
+8. *Notwithstanding*, the department went ahead with the hire.
+9. She had no formal training; *notwithstanding*, she outperformed every analyst on the desk.
+
+**4. *notwithstanding that* — the subordinator.** A full clause follows, and the whole thing means *although* in a register nobody uses outside contracts and statutes. (несмотря на то что)
+
+10. *Notwithstanding that* the deadline had passed, the clerk accepted the filing.
+11. *Notwithstanding that* the policy had lapsed, the insurer paid the claim.
+12. The lease stands, *notwithstanding that* the building has changed hands twice.
 
 **See also:** [nevertheless](#nevertheless), [regardless](#regardless), [nonetheless](#nonetheless), [even so](#even-so)
 
@@ -550,12 +581,25 @@ Latin for "on the contrary," literally "by the opposite side" — the phrase com
 
 Corrects the statement just made and puts a more accurate one in its place: "not that — this." Three other *rathers* have nothing to do with this entry: the degree adverb (*rather cold*), the preference form (*I'd rather stay*), and the quasi-coordinator *rather than*.
 
+**1. Correction — "not that; this."** Follows a negative and puts the accurate statement in place of the one just denied. Semicolon, period, or dash in front of it, comma after. (вернее; напротив; а точнее)
+
 1. It wasn't a negotiation; *rather*, it was an ultimatum.
 2. The problem isn't the software. *Rather*, nobody was ever trained to use it.
 3. She didn't refuse — *rather*, she simply never answered.
-4. We met on Tuesday, or *rather*, Tuesday night.
-5. The change was not sudden; *rather*, it took the better part of a decade.
-6. It was *rather* cold, and I'd *rather* have stayed home. *(degree adverb and preference idiom — neither one is this connector)*
+4. The change was not sudden; *rather*, it took the better part of a decade.
+5. We met on Tuesday, or *rather*, Tuesday night.
+
+**2. Degree adverb — "fairly, somewhat."** Sits inside the clause ahead of an adjective or an adverb and takes no commas at all. British English reaches for it far more freely than American, where *pretty* and *fairly* do most of this work. (довольно; весьма; несколько)
+
+6. It was *rather* cold for the end of April.
+7. The ending is *rather* abrupt.
+8. She seemed *rather* pleased with herself.
+
+**3. *would rather* — preference.** A fixed idiom taking a bare verb, with *than* in front of the rejected option. Nothing is corrected and nothing is measured. (лучше бы; предпочёл бы)
+
+9. I'd *rather* have stayed home.
+10. He'd *rather* pay the fine than argue about it.
+11. Would you *rather* drive or take the train?
 
 **See also:** [instead](#instead), [on the contrary](#on-the-contrary), [in fact](#in-fact), [that is](#that-is), [rather than](01-coordinating.md#rather-than)
 
@@ -590,12 +634,25 @@ Brushes everything just said aside as not changing the outcome. It is blunter th
 
 The everyday concessive: "all of that is true, and yet." It is the shortest and least formal member of the *nevertheless* family. Keep it clear of the time adverb *still* (*She's still asleep*), which sits inside the clause and takes no comma at all.
 
+**1. Concession — "all of that is true, and yet."** The shortest and least formal member of the *nevertheless* family. Semicolon or period in front of it, and a comma after it that informal writing freely drops. (и всё же; всё-таки)
+
 1. The reviews were brutal. *Still*, I liked it.
 2. He isn't qualified; *still*, he'd learn the job in a month.
 3. It's a long shot. *Still*, somebody has to try.
 4. I know she meant well. *Still*, she shouldn't have said it in front of everyone.
 5. The car needs a clutch and four tires. *Still*, it runs.
-6. She's *still* asleep. *(time adverb — inside the clause, no commas, not a connector)*
+
+**2. Time adverb — "up to now, and not finished."** Sits inside the clause with no commas anywhere and connects nothing. This is the reading Russian speakers hear first, which is exactly why the concessive one gets missed. (всё ещё; до сих пор)
+
+6. She's *still* asleep.
+7. They're *still* waiting on the inspection report.
+8. Is that place *still* open on Sundays?
+
+**3. Degree adverb in front of a comparative — "even more so."** Intensifies a comparison: *still colder*, *worse still*, *still further*. (ещё — «ещё холоднее»)
+
+9. Tuesday was cold, and Wednesday was colder *still*.
+10. The second estimate came in *still* higher than the first.
+11. Worse *still*, nobody had kept the receipts.
 
 **See also:** [nevertheless](#nevertheless), [even so](#even-so), [though](#though), [that said](#that-said), [yet](01-coordinating.md#yet)
 
@@ -773,11 +830,18 @@ The plainest way to mark a consequence, and the everyday alternative to *consequ
 
 Two jobs pull at this phrase, and only one of them is fully settled. Strictly, *as such* means "in that capacity," and *such* has to point back to a noun already on the page: *He is the trustee, and as such he signs the checks.* American writing has also stretched it into a loose *therefore* with no noun behind it — *The vendor missed two deadlines; as such, we canceled the contract* — which is now everywhere in business prose and still flagged by careful editors. The rule of thumb: if you cannot say which noun *such* refers to, write *therefore* or *accordingly* instead.
 
+**1. "In that capacity," "because it is that kind of thing."** The settled sense, and *such* has to point back at a noun already on the page. Linking two clauses it takes a semicolon or a period; integrated into the predicate it takes no commas at all. (в этом качестве; в силу этого)
+
 1. She is the executor of the estate; *as such*, she is the only person who can sign.
 2. The building is a registered landmark. *As such*, it cannot be demolished without a hearing.
-3. The document is a draft, and *as such* it has not been fact-checked. *(integrated "in that capacity" sense — no commas)*
+3. The document is a draft, and *as such* it has not been fact-checked.
 4. Interns are students, not staff; they are, *as such*, paid a stipend rather than a salary.
-5. The vendor missed two deadlines; *as such*, we canceled the contract. *(the loose "therefore" use — common, but* therefore *is safer in edited prose)*
+
+**2. The loose "therefore" — with no noun behind it.** Everywhere in American business prose and still flagged by careful editors. The test is simple: if you cannot say which noun *such* points at, the sentence wants *therefore* or *accordingly*. (поэтому; в связи с этим — разг., редакторы не одобряют)
+
+5. The vendor missed two deadlines; *as such*, we canceled the contract.
+6. The part is discontinued; *as such*, we had to machine a new one.
+7. Attendance has fallen every year. *As such*, the festival will not be held in June.
 
 **See also:** [therefore](#therefore), [accordingly](#accordingly), [consequently](#consequently), [in turn](#in-turn), [hence](#hence)
 
@@ -933,11 +997,18 @@ The heavier, older sibling of *consequently*, at home in official reports, judgm
 
 Restates what was just said as what it actually amounts to once the formalities are stripped away — usually something blunter than the official version. *In essence* reduces a thing to its core; *in effect* reports the practical upshot, and it is the standard way to say that something is one thing on paper and another in practice.
 
+**1. "What it amounts to in practice."** Restates what was just said once the formalities are stripped away, usually more bluntly than the official version. It is the standard way of saying that a thing is one way on paper and another in fact. (фактически; по сути дела)
+
 1. The company stopped answering our letters; *in effect*, the contract was over.
 2. The fee applies to every transaction. *In effect*, it is a tax on paying your rent.
 3. She was given no work and no office — *in effect*, she had been fired.
 4. The amendment, *in effect*, repeals the section it claims to clarify.
-5. The ordinance is still *in effect*. *("in force" — the predicative phrase, not a connector)*
+
+**2. "In force" — the predicative phrase.** Said of a rule, a law, or a policy that is currently operative. It sits bare at the end of the predicate, takes no commas, and connects nothing. (в силе; действует)
+
+5. The ordinance is still *in effect*.
+6. The curfew went *in effect* at midnight.
+7. Those rates remain *in effect* through the end of the quarter.
 
 **See also:** [in essence](#in-essence), [in other words](#in-other-words), [that is](#that-is), [by implication](#by-implication), [in short](#in-short)
 
@@ -953,11 +1024,18 @@ Restates what was just said as what it actually amounts to once the formalities 
 
 Marks the next link in a chain of consequences: A causes B, and B *in turn* causes C. That is exactly what separates it from *as a result*, which reports one effect and stops; *in turn* promises that the effect has itself become a cause. It is the connector of economic, mechanical, and epidemiological explanation, and the clause it opens is usually where the paragraph was headed all along.
 
+**1. The next link in a chain of consequences.** A causes B, and B *in turn* causes C. That promise of a further link is what separates it from *as a result*, which reports one effect and stops. (в свою очередь)
+
 1. The tariff raised the cost of steel; *in turn*, appliance prices climbed.
 2. Fewer flights meant fewer hotel bookings. *In turn*, the whole downtown lost its winter business.
 3. Higher rates cool construction, which *in turn* softens demand for lumber.
 4. Cutting the night bus stranded the hospital's overnight staff; the hospital, *in turn*, started paying for cabs.
-5. Each of the six speakers was given four minutes and answered questions *in turn*. *(literal "one after another" — no commas, not a connector)*
+
+**2. Literally "one after another."** Sits bare in the predicate with no commas, connects nothing, and reports an order of turns rather than a chain of causes. (по очереди; поочерёдно)
+
+5. Each of the six speakers was given four minutes and answered questions *in turn*.
+6. The children read a paragraph each *in turn*.
+7. She thanked every one of them *in turn*.
 
 **See also:** [as a result](#as-a-result), [consequently](#consequently), [therefore](#therefore), [accordingly](#accordingly), [thus](#thus)
 
@@ -1741,11 +1819,18 @@ Restates the preceding clause in sharper or franker terms, generally to expose w
 
 Two distinct jobs, and position tells you which one you have. As a connector it supplies a reason the hearer is expected to accept already: *Don't be hard on him; after all, he's twelve.* At the end of a clause it reports that the expected thing failed to happen: *The flight wasn't canceled after all.*
 
+**1. The reason the hearer is expected to accept already.** It justifies what was just said rather than adding news, and it sits behind a semicolon or a period with a comma after it. (ведь; в конце концов)
+
 1. Let him sleep in; *after all*, it's Saturday.
 2. Nobody was surprised — she'd been training for a year, *after all*.
 3. *After all*, we did agree to split the cost down the middle.
-4. The flight wasn't canceled *after all*. *(the "contrary to expectation" sense)*
-5. It turned out they had a table for us *after all*.
+4. Don't be hard on him; *after all*, he's twelve.
+
+**2. "Contrary to what everybody expected."** Closes the clause, takes no comma in front of it, and reports that the expected thing failed to happen — or that the unexpected one did. (всё-таки; в итоге всё же)
+
+5. The flight wasn't canceled *after all*.
+6. It turned out they had a table for us *after all*.
+7. She decided to come *after all*.
 
 **See also:** [of course](#of-course), [besides](#besides), [in fact](#in-fact), [indeed](#indeed)
 
@@ -1841,11 +1926,18 @@ Marks its sentence as one of the significant ones without ranking it against any
 
 Introduces something stronger, more surprising, or flatly corrective of what the listener assumed. Compare *indeed*, which mostly confirms and intensifies: *in fact* is the word you reach for when the truth turns out to be different from the expectation.
 
+**1. Correcting what the listener assumed.** The truth turns out to be different from the expectation, and often the opposite of it. (на самом деле; а на деле)
+
 1. He said he'd never met her; *in fact*, they had worked together for three years.
-2. The repair isn't difficult. *In fact*, you can do it with a screwdriver.
-3. She wasn't annoyed — *in fact*, she seemed relieved.
-4. The building is, *in fact*, older than the town charter.
-5. *As a matter of fact*, I was just about to call you.
+2. She wasn't annoyed — *in fact*, she seemed relieved.
+3. The building is, *in fact*, older than the town charter.
+4. *As a matter of fact*, I was just about to call you.
+
+**2. Strengthening what was just said — "and more than that."** Nothing is corrected here: the second statement runs further in the same direction as the first. (более того; мало того)
+
+5. The repair isn't difficult. *In fact*, you can do it with a screwdriver.
+6. The book is good; *in fact*, it's the best thing he's written.
+7. They didn't just fix it — *in fact*, they replaced the whole unit at no charge.
 
 **See also:** [indeed](#indeed), [on the contrary](#on-the-contrary), [rather](#rather), [after all](#after-all)
 
@@ -1861,11 +1953,18 @@ Introduces something stronger, more surprising, or flatly corrective of what the
 
 Confirms the previous statement and then pushes it further — "yes, and more so." Unlike *in fact*, it rarely corrects anything; it doubles down. It also serves as a one-word agreement token in formal speech.
 
+**1. Confirming and then pushing further — "yes, and more so."** Unlike *in fact*, it corrects nothing; it doubles down on what was just said. Semicolon or period in front, comma after. (действительно; и в самом деле; более того)
+
 1. The book is long; *indeed*, it runs to nine hundred pages.
 2. She was qualified — *indeed*, overqualified.
 3. *Indeed*, the committee had warned about exactly this back in March.
-4. "That was quite a storm." "*Indeed* it was."
-5. The delay was costly, *indeed* ruinous, for the smaller vendors.
+4. The delay was costly, *indeed* ruinous, for the smaller vendors.
+
+**2. A one-word agreement token, or a bare emphasizer inside the clause.** No comma at all in this use. In American speech it reads as formal, dry, or faintly ironic, where a British speaker means it plainly. (вот именно; так и есть; и правда)
+
+5. "That was quite a storm." "*Indeed* it was."
+6. "You'll need a permit." "*Indeed*."
+7. That is *indeed* the address on the deed.
 
 **See also:** [in fact](#in-fact), [moreover](#moreover), [of course](#of-course), [after all](#after-all)
 
@@ -2345,12 +2444,23 @@ Offers a second option as a whole sentence — the adverb answering to *or*. *Or
 
 Three conversational jobs: returning to the main thread after a digression (*Anyway, where was I?*), dismissing what was just said as not changing anything (*It's expensive. I'm buying it anyway*), and closing a topic or a phone call (*Anyway, I should let you go*). Written *nevertheless* covers only the middle one.
 
+**1. Returning to the main thread after a digression.** The spoken paragraph break: it drops the side topic and picks the story back up. (ну так вот; в общем)
+
 1. *Anyway*, that's how we ended up in Tulsa.
-2. He told me not to worry about it. I worried *anyway*.
-3. The store was closing, but they let us in *anyway*.
-4. *Anyway*, I should let you go — it's late there.
-5. "*Anyhow*," she said, "the roof still leaks."
+2. *Anyway*, where was I?
+3. "*Anyhow*," she said, "the roof still leaks."
+
+**2. Dismissing what was just granted — "that changes nothing."** Clause-final with no comma in front of it, or fronted behind a period. This is the only one of the three that written *nevertheless* covers. (всё равно; тем не менее)
+
+4. He told me not to worry about it. I worried *anyway*.
+5. The store was closing, but they let us in *anyway*.
 6. It's probably closed by now; *anyway*, we don't need much.
+
+**3. Closing a topic or a conversation.** The polite exit: it signals that the speaker is finished and is handing the floor back or hanging up. (ну ладно; в общем, так)
+
+7. *Anyway*, I should let you go — it's late there.
+8. *Anyway*, thanks for calling.
+9. *Anyway*, we'll sort it out Monday.
 
 **See also:** [in any case](#in-any-case), [at any rate](#at-any-rate), [regardless](#regardless), [besides](#besides), [incidentally](#incidentally)
 
@@ -2626,12 +2736,18 @@ Restricts what follows to a single dimension, and so quietly concedes that the c
 
 Flags what follows as a remark off the main line of the argument. It is the written equivalent of *by the way* — and like *by the way*, it is routinely used for information the speaker considers anything but incidental.
 
+**1. Flagging a digression — "by the way."** The written equivalent of *by the way* and, like *by the way*, routinely used for information the speaker considers anything but incidental. The commas are what mark it. (кстати; между прочим)
+
 1. *Incidentally*, the same firm audited both companies.
 2. Her father, *incidentally*, had held the same seat thirty years earlier.
 3. The building is being sold; *incidentally*, the tenants weren't told until yesterday.
 4. *Incidentally*, you still owe me twenty dollars.
-5. *By the way*, did the package ever show up?
-6. The compound was discovered *incidentally*, during a search for a better solvent. *(manner adverb — "by chance," not a digression marker)*
+
+**2. Manner adverb — "by chance," "as a side effect."** Sits bare in the predicate with no commas and flags nothing; it says how something came about. (случайно; попутно; побочно)
+
+5. The compound was discovered *incidentally*, during a search for a better solvent.
+6. The survey turned up the error only *incidentally*.
+7. Anything collected *incidentally* has to be logged the same way.
 
 **See also:** [anyway](#anyway), [in fact](#in-fact), [besides](#besides), [that said](#that-said)
 
@@ -2667,12 +2783,24 @@ A regional variant of *at least*, used to walk a statement back a step — Appal
 
 Not time at all: this *now* is the spoken paragraph break, moving the discussion to the next point (*Now, the second question is harder*) or softening a coming correction (*Now, that's not quite what I said*). Written *next* covers only the sequencing job; the corrective and throat-clearing jobs belong to *now* alone.
 
+**1. Moving to the next point — the spoken paragraph break.** No time content: it steps the listener along to the next stage of an argument, a recipe, or a set of instructions. (итак; так вот; а теперь)
+
 1. *Now*, the second question is harder to answer.
 2. We've settled the budget. *Now*, about the schedule.
-3. *Now*, I'm not saying she was wrong.
-4. Brown the onions. *Now* add the garlic and cook it a minute longer.
-5. *Now then*, who wants to go first?
-6. The office is closed *now*. *(ordinary time adverb — not a connector)*
+3. Brown the onions. *Now* add the garlic and cook it a minute longer.
+4. *Now then*, who wants to go first?
+
+**2. Softening a coming correction or objection.** The throat-clearing *now*: what follows disagrees with something just said, and the word takes the edge off it. (ну; погодите; вот только)
+
+5. *Now*, I'm not saying she was wrong.
+6. *Now*, hold on — that's not what the contract says.
+7. *Now*, I could be misremembering, but I thought the deadline was Friday.
+
+**3. The ordinary time adverb — "at this moment."** Sits in the predicate, takes no commas, and connects nothing. (сейчас; теперь)
+
+8. The office is closed *now*.
+9. She's on the other line right *now*.
+10. *Now* is not a good time to ask him about it.
 
 **See also:** [next](#next), [then](#then), [anyway](#anyway), [incidentally](#incidentally), [first off](#first-off)
 

@@ -6,14 +6,58 @@
       "term": "work",
       "ipa": "/wɜːrk/",
       "respell": "WURK",
-      "meaning": "To do a job, especially one you are paid for. ---",
+      "meaning": "Work has 3 distinct senses.",
       "examples": [
         "I work for a small firm downtown.",
         "She worked late three nights in a row.",
-        "He has been working here since 2019."
+        "He has been working here since 2019.",
+        "The elevator doesn't work again.",
+        "The medicine worked within an hour.",
+        "Their plan has worked better than anyone expected.",
+        "Can you work the projector?",
+        "She worked the register while the manager was out.",
+        "He has been working that crane for twenty years."
       ],
-      "senses": [],
-      "русский": "работать, поработать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To do a job, especially one you are paid for",
+          "body": [
+            "(работать, поработать)"
+          ],
+          "examples": [
+            "I work for a small firm downtown.",
+            "She worked late three nights in a row.",
+            "He has been working here since 2019."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "For a machine, a system, or a plan to do what it is supposed to do",
+          "body": [
+            "(работать, функционировать; действовать, подействовать, сработать)"
+          ],
+          "examples": [
+            "The elevator doesn't work again.",
+            "The medicine worked within an hour.",
+            "Their plan has worked better than anyone expected."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To operate a machine or a piece of equipment",
+          "body": [
+            "(управлять (механизмом), уметь обращаться с, работать на (станке))",
+            "---"
+          ],
+          "examples": [
+            "Can you work the projector?",
+            "She worked the register while the manager was out.",
+            "He has been working that crane for twenty years."
+          ]
+        }
+      ],
+      "русский": "работать, поработать; работать, функционировать; действовать, подействовать, сработать; управлять (механизмом), уметь обращаться с, работать на (станке)",
       "forms": "work · worked · worked",
       "verb class": "regular",
       "third person": "works · -ing form: working",
@@ -25,14 +69,43 @@
       "term": "employ",
       "ipa": "/ɪmˈplɔɪ/",
       "respell": "im-PLOY",
-      "meaning": "To pay someone to work for you. ---",
+      "meaning": "Employ has 2 distinct senses.",
       "examples": [
         "The plant employs about two hundred people.",
         "They employed him as a night manager.",
-        "She has been employed by the same firm for ten years."
+        "She has been employed by the same firm for ten years.",
+        "The team employs several different testing methods.",
+        "Doctors employed a new technique to close the wound.",
+        "The film is employing the same trick for the third time."
       ],
-      "senses": [],
-      "русский": "нанимать, нанять; держать на работе",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pay someone to work for you",
+          "body": [
+            "(нанимать, нанять; держать на работе)"
+          ],
+          "examples": [
+            "The plant employs about two hundred people.",
+            "They employed him as a night manager.",
+            "She has been employed by the same firm for ten years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To use a method, a skill, or a tool for a purpose",
+          "body": [
+            "(применять, применить; использовать, употреблять)",
+            "---"
+          ],
+          "examples": [
+            "The team employs several different testing methods.",
+            "Doctors employed a new technique to close the wound.",
+            "The film is employing the same trick for the third time."
+          ]
+        }
+      ],
+      "русский": "нанимать, нанять; держать на работе; применять, применить; использовать, употреблять",
       "forms": "employ · employed · employed",
       "verb class": "regular",
       "third person": "employs · -ing form: employing",
@@ -78,14 +151,43 @@
       "term": "train",
       "ipa": "/treɪn/",
       "respell": "TRAYN",
-      "meaning": "To teach someone the skills a job needs. ---",
+      "meaning": "Train has 2 distinct senses.",
       "examples": [
         "We train every new hire for two weeks.",
         "She trained as an accountant before switching to law.",
-        "He has trained most of the staff on the new system."
+        "He has trained most of the staff on the new system.",
+        "He trains six days a week.",
+        "She trained for two years before her first marathon.",
+        "They have been training at altitude since March."
       ],
-      "senses": [],
-      "русский": "обучать, обучить; готовить (специалистов)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To teach someone the skills a job needs",
+          "body": [
+            "(обучать, обучить; готовить (специалистов))"
+          ],
+          "examples": [
+            "We train every new hire for two weeks.",
+            "She trained as an accountant before switching to law.",
+            "He has trained most of the staff on the new system."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To practice and exercise in order to get ready for a sport or a physical test",
+          "body": [
+            "(тренироваться, готовиться (к соревнованиям))",
+            "---"
+          ],
+          "examples": [
+            "He trains six days a week.",
+            "She trained for two years before her first marathon.",
+            "They have been training at altitude since March."
+          ]
+        }
+      ],
+      "русский": "обучать, обучить; готовить (специалистов); тренироваться, готовиться (к соревнованиям)",
       "forms": "train · trained · trained",
       "verb class": "regular",
       "third person": "trains · -ing form: training",
@@ -95,14 +197,43 @@
       "term": "manage",
       "ipa": "/ˈmænɪdʒ/",
       "respell": "MAN-ij",
-      "meaning": "To be in charge of a business, a team, or a difficult situation. ---",
+      "meaning": "Manage has 2 distinct senses.",
       "examples": [
         "She manages a team of twelve.",
         "He managed the store for eight years.",
-        "Who is managing the project while you are away?"
+        "Who is managing the project while you are away?",
+        "Somehow we manage to pay the rent every month.",
+        "She managed to finish the report before midnight.",
+        "He has managed to avoid the subject all week."
       ],
-      "senses": [],
-      "русский": "управлять, руководить; справляться, справиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To be in charge of a business, a team, or a difficult situation",
+          "body": [
+            "(управлять, руководить; справляться, справиться)"
+          ],
+          "examples": [
+            "She manages a team of twelve.",
+            "He managed the store for eight years.",
+            "Who is managing the project while you are away?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To succeed in doing something difficult",
+          "body": [
+            "(удаваться, удаться; суметь, умудриться)",
+            "---"
+          ],
+          "examples": [
+            "Somehow we manage to pay the rent every month.",
+            "She managed to finish the report before midnight.",
+            "He has managed to avoid the subject all week."
+          ]
+        }
+      ],
+      "русский": "управлять, руководить; справляться, справиться; удаваться, удаться; суметь, умудриться",
       "forms": "manage · managed · managed",
       "verb class": "regular",
       "third person": "manages · -ing form: managing",
@@ -146,14 +277,43 @@
       "term": "resign",
       "ipa": "/rɪˈzaɪn/",
       "respell": "ri-ZYN",
-      "meaning": "To officially leave a job or position. ---",
+      "meaning": "Resign has 2 distinct senses.",
       "examples": [
         "Two board members resign every year by rotation.",
         "He resigned after the merger was announced.",
-        "She is resigning at the end of the month."
+        "She is resigning at the end of the month.",
+        "She resigned herself to another year in the same job.",
+        "You have to resign yourself to the fact that he isn't coming back.",
+        "By then we were resigned to losing the deposit."
       ],
-      "senses": [],
-      "русский": "увольняться, уволиться; уходить в отставку",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To officially leave a job or position",
+          "body": [
+            "(увольняться, уволиться; уходить в отставку)"
+          ],
+          "examples": [
+            "Two board members resign every year by rotation.",
+            "He resigned after the merger was announced.",
+            "She is resigning at the end of the month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make yourself accept something unpleasant that you cannot change",
+          "body": [
+            "(смиряться, смириться (с чем-л.))",
+            "---"
+          ],
+          "examples": [
+            "She resigned herself to another year in the same job.",
+            "You have to resign yourself to the fact that he isn't coming back.",
+            "By then we were resigned to losing the deposit."
+          ]
+        }
+      ],
+      "русский": "увольняться, уволиться; уходить в отставку; смиряться, смириться (с чем-л.)",
       "forms": "resign · resigned · resigned",
       "verb class": "regular",
       "third person": "resigns · -ing form: resigning",
@@ -164,14 +324,58 @@
       "term": "fire",
       "ipa": "/ˈfaɪər/",
       "respell": "FY-ur",
-      "meaning": "To make someone leave their job, usually for poor work or bad behavior. ---",
+      "meaning": "Fire has 3 distinct senses.",
       "examples": [
         "No boss enjoys having to fire anyone.",
         "They fired him for missing three deadlines.",
-        "Two people were fired after the audit."
+        "Two people were fired after the audit.",
+        "Don't fire until I give the signal.",
+        "The officer fired two warning shots.",
+        "Missiles were fired from a ship offshore.",
+        "We'll fire the kiln on Saturday.",
+        "She fired her first bowl last weekend.",
+        "These tiles are fired at 2,200 degrees."
       ],
-      "senses": [],
-      "русский": "увольнять, уволить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make someone leave their job, usually for poor work or bad behavior",
+          "body": [
+            "(увольнять, уволить)"
+          ],
+          "examples": [
+            "No boss enjoys having to fire anyone.",
+            "They fired him for missing three deadlines.",
+            "Two people were fired after the audit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To shoot a gun, or to launch a weapon",
+          "body": [
+            "(стрелять, выстрелить; вести огонь; запускать (ракету))"
+          ],
+          "examples": [
+            "Don't fire until I give the signal.",
+            "The officer fired two warning shots.",
+            "Missiles were fired from a ship offshore."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To bake clay in a very hot oven so that it hardens",
+          "body": [
+            "(обжигать, обжечь (керамику))",
+            "---"
+          ],
+          "examples": [
+            "We'll fire the kiln on Saturday.",
+            "She fired her first bowl last weekend.",
+            "These tiles are fired at 2,200 degrees."
+          ]
+        }
+      ],
+      "русский": "увольнять, уволить; стрелять, выстрелить; вести огонь; запускать (ракету); обжигать, обжечь (керамику)",
       "forms": "fire · fired · fired",
       "verb class": "regular",
       "third person": "fires · -ing form: firing",
@@ -183,14 +387,43 @@
       "term": "replace",
       "ipa": "/rɪˈpleɪs/",
       "respell": "ri-PLAYSS",
-      "meaning": "To put a new person or thing in the place of another. ---",
+      "meaning": "Replace has 2 distinct senses.",
       "examples": [
         "We replace the laptops every four years.",
         "She replaced the retiring director in June.",
-        "Who is replacing him while he is on leave?"
+        "Who is replacing him while he is on leave?",
+        "Please replace the cap tightly after use.",
+        "He replaced the book on the shelf and left.",
+        "She read the letter twice before replacing it in the envelope."
       ],
-      "senses": [],
-      "русский": "заменять, заменить; замещать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put a new person or thing in the place of another",
+          "body": [
+            "(заменять, заменить; замещать)"
+          ],
+          "examples": [
+            "We replace the laptops every four years.",
+            "She replaced the retiring director in June.",
+            "Who is replacing him while he is on leave?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put something back in the place where it belongs",
+          "body": [
+            "(класть на место, ставить обратно; вернуть на место)",
+            "---"
+          ],
+          "examples": [
+            "Please replace the cap tightly after use.",
+            "He replaced the book on the shelf and left.",
+            "She read the letter twice before replacing it in the envelope."
+          ]
+        }
+      ],
+      "русский": "заменять, заменить; замещать; класть на место, ставить обратно; вернуть на место",
       "forms": "replace · replaced · replaced",
       "verb class": "regular",
       "third person": "replaces · -ing form: replacing",
@@ -218,14 +451,43 @@
       "term": "organize",
       "ipa": "/ˈɔːrɡənaɪz/",
       "respell": "OR-guh-nyz",
-      "meaning": "To plan and arrange something, or to put things in order. ---",
+      "meaning": "Organize has 2 distinct senses.",
       "examples": [
         "She organizes the annual sales meeting.",
         "They organized the files by client.",
-        "We are organizing a training day for June."
+        "We are organizing a training day for June.",
+        "The warehouse workers voted to organize.",
+        "They organized three stores last year.",
+        "Baristas have been organizing since 2021."
       ],
-      "senses": [],
-      "русский": "организовывать, организовать; упорядочивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To plan and arrange something, or to put things in order",
+          "body": [
+            "(организовывать, организовать; упорядочивать)"
+          ],
+          "examples": [
+            "She organizes the annual sales meeting.",
+            "They organized the files by client.",
+            "We are organizing a training day for June."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To form a labor union, or to bring workers together to act as one",
+          "body": [
+            "(объединяться в профсоюз, создавать профсоюз)",
+            "---"
+          ],
+          "examples": [
+            "The warehouse workers voted to organize.",
+            "They organized three stores last year.",
+            "Baristas have been organizing since 2021."
+          ]
+        }
+      ],
+      "русский": "организовывать, организовать; упорядочивать; объединяться в профсоюз, создавать профсоюз",
       "forms": "organize · organized · organized",
       "verb class": "regular",
       "third person": "organizes · -ing form: organizing",
@@ -236,14 +498,58 @@
       "term": "arrange",
       "ipa": "/əˈreɪndʒ/",
       "respell": "uh-RAYNJ",
-      "meaning": "To make the plans that are needed for something to happen. ---",
+      "meaning": "Arrange has 3 distinct senses.",
       "examples": [
         "I will arrange a call for Thursday.",
         "She arranged the whole trip in one afternoon.",
-        "Transportation has already been arranged."
+        "Transportation has already been arranged.",
+        "Arrange the chairs in a circle.",
+        "She arranged the flowers in a tall vase.",
+        "The books are arranged by author.",
+        "He arranged the song for full orchestra.",
+        "The carol has been arranged for four voices.",
+        "She is arranging the score for a smaller band."
       ],
-      "senses": [],
-      "русский": "договариваться, устраивать, устроить; организовывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make the plans that are needed for something to happen",
+          "body": [
+            "(договариваться, устраивать, устроить; организовывать)"
+          ],
+          "examples": [
+            "I will arrange a call for Thursday.",
+            "She arranged the whole trip in one afternoon.",
+            "Transportation has already been arranged."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put things in a particular order or position",
+          "body": [
+            "(расставлять, расставить; раскладывать, располагать)"
+          ],
+          "examples": [
+            "Arrange the chairs in a circle.",
+            "She arranged the flowers in a tall vase.",
+            "The books are arranged by author."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To rewrite a piece of music for particular voices or instruments",
+          "body": [
+            "(аранжировать, делать аранжировку)",
+            "---"
+          ],
+          "examples": [
+            "He arranged the song for full orchestra.",
+            "The carol has been arranged for four voices.",
+            "She is arranging the score for a smaller band."
+          ]
+        }
+      ],
+      "русский": "договариваться, устраивать, устроить; организовывать; расставлять, расставить; раскладывать, располагать; аранжировать, делать аранжировку",
       "forms": "arrange · arranged · arranged",
       "verb class": "regular",
       "third person": "arranges · -ing form: arranging",
@@ -253,14 +559,43 @@
       "term": "coordinate",
       "ipa": "/koʊˈɔːrdəneɪt/",
       "respell": "koh-OR-duh-nayt",
-      "meaning": "To make different people or parts of a job work together smoothly. ---",
+      "meaning": "Coordinate has 2 distinct senses.",
       "examples": [
         "She coordinates the work of four teams.",
         "We coordinated the launch with the marketing department.",
-        "He is coordinating the move to the new building."
+        "He is coordinating the move to the new building.",
+        "Do these shoes coordinate with the dress?",
+        "She coordinated her tie with her shirt.",
+        "The bridesmaids wore coordinating dresses."
       ],
-      "senses": [],
-      "русский": "координировать, согласовывать, согласовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make different people or parts of a job work together smoothly",
+          "body": [
+            "(координировать, согласовывать, согласовать)"
+          ],
+          "examples": [
+            "She coordinates the work of four teams.",
+            "We coordinated the launch with the marketing department.",
+            "He is coordinating the move to the new building."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To match well with something else in color or style",
+          "body": [
+            "(сочетаться, гармонировать (по цвету, стилю))",
+            "---"
+          ],
+          "examples": [
+            "Do these shoes coordinate with the dress?",
+            "She coordinated her tie with her shirt.",
+            "The bridesmaids wore coordinating dresses."
+          ]
+        }
+      ],
+      "русский": "координировать, согласовывать, согласовать; сочетаться, гармонировать (по цвету, стилю)",
       "forms": "coordinate · coordinated · coordinated",
       "verb class": "regular",
       "third person": "coordinates · -ing form: coordinating",
@@ -323,14 +658,43 @@
       "term": "operate",
       "ipa": "/ˈɑːpəreɪt/",
       "respell": "AH-puh-rayt",
-      "meaning": "To run a business or a machine, or to be active and working. ---",
+      "meaning": "Operate has 2 distinct senses.",
       "examples": [
         "The company operates in twelve countries.",
         "He operated a small repair shop for years.",
-        "The plant has been operating at half capacity."
+        "The plant has been operating at half capacity.",
+        "The doctors decided to operate immediately.",
+        "They operated on his knee twice in one year.",
+        "She has never been operated on before."
       ],
-      "senses": [],
-      "русский": "управлять, эксплуатировать; работать, функционировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To run a business or a machine, or to be active and working",
+          "body": [
+            "(управлять, эксплуатировать; работать, функционировать)"
+          ],
+          "examples": [
+            "The company operates in twelve countries.",
+            "He operated a small repair shop for years.",
+            "The plant has been operating at half capacity."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To perform surgery on a patient",
+          "body": [
+            "(оперировать, делать операцию)",
+            "---"
+          ],
+          "examples": [
+            "The doctors decided to operate immediately.",
+            "They operated on his knee twice in one year.",
+            "She has never been operated on before."
+          ]
+        }
+      ],
+      "русский": "управлять, эксплуатировать; работать, функционировать; оперировать, делать операцию",
       "forms": "operate · operated · operated",
       "verb class": "regular",
       "third person": "operates · -ing form: operating",
@@ -340,14 +704,43 @@
       "term": "maintain",
       "ipa": "/meɪnˈteɪn/",
       "respell": "mayn-TAYN",
-      "meaning": "To keep something in good condition or at the same level. ---",
+      "meaning": "Maintain has 2 distinct senses.",
       "examples": [
         "We maintain records for seven years.",
         "They maintained production right through the strike.",
-        "The equipment is maintained twice a year."
+        "The equipment is maintained twice a year.",
+        "He maintains that he never saw the email.",
+        "She maintained her innocence through two trials.",
+        "They have maintained all along that the data is safe."
       ],
-      "senses": [],
-      "русский": "поддерживать, сохранять; обслуживать (оборудование)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To keep something in good condition or at the same level",
+          "body": [
+            "(поддерживать, сохранять; обслуживать (оборудование))"
+          ],
+          "examples": [
+            "We maintain records for seven years.",
+            "They maintained production right through the strike.",
+            "The equipment is maintained twice a year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To say firmly that something is true, even when other people doubt it",
+          "body": [
+            "(утверждать, настаивать (на чём-л.))",
+            "---"
+          ],
+          "examples": [
+            "He maintains that he never saw the email.",
+            "She maintained her innocence through two trials.",
+            "They have maintained all along that the data is safe."
+          ]
+        }
+      ],
+      "русский": "поддерживать, сохранять; обслуживать (оборудование); утверждать, настаивать (на чём-л.)",
       "forms": "maintain · maintained · maintained",
       "verb class": "regular",
       "third person": "maintains · -ing form: maintaining",
@@ -428,14 +821,43 @@
       "term": "host",
       "ipa": "/hoʊst/",
       "respell": "HOHST",
-      "meaning": "To be the person or organization that holds an event and receives the guests. ---",
+      "meaning": "Host has 2 distinct senses.",
       "examples": [
         "Our office hosts the regional meeting every fall.",
         "They hosted a dinner for the visiting clients.",
-        "She is hosting the webinar on Thursday."
+        "She is hosting the webinar on Thursday.",
+        "That company hosts thousands of small blogs.",
+        "Our site was hosted on a server in Virginia.",
+        "They are hosting the database themselves now."
       ],
-      "senses": [],
-      "русский": "принимать (гостей), проводить (мероприятие); быть организатором",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To be the person or organization that holds an event and receives the guests",
+          "body": [
+            "(принимать (гостей), проводить (мероприятие); быть организатором)"
+          ],
+          "examples": [
+            "Our office hosts the regional meeting every fall.",
+            "They hosted a dinner for the visiting clients.",
+            "She is hosting the webinar on Thursday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To keep a website, program, or file on a server so other people can reach it",
+          "body": [
+            "(размещать, разместить (сайт); хостить)",
+            "---"
+          ],
+          "examples": [
+            "That company hosts thousands of small blogs.",
+            "Our site was hosted on a server in Virginia.",
+            "They are hosting the database themselves now."
+          ]
+        }
+      ],
+      "русский": "принимать (гостей), проводить (мероприятие); быть организатором; размещать, разместить (сайт); хостить",
       "forms": "host · hosted · hosted",
       "verb class": "regular",
       "third person": "hosts · -ing form: hosting",
@@ -445,14 +867,43 @@
       "term": "book",
       "ipa": "/bʊk/",
       "respell": "BUUK",
-      "meaning": "To arrange in advance to have a room, a seat, or a service. ---",
+      "meaning": "Book has 2 distinct senses.",
       "examples": [
         "I always book the aisle seat.",
         "She booked the conference room for two hours.",
-        "The hotel is fully booked that week."
+        "The hotel is fully booked that week.",
+        "They booked him on suspicion of theft.",
+        "He was booked and released within an hour.",
+        "The officer spent the whole evening booking three suspects."
       ],
-      "senses": [],
-      "русский": "бронировать, забронировать; заказывать, заказать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To arrange in advance to have a room, a seat, or a service",
+          "body": [
+            "(бронировать, забронировать; заказывать, заказать)"
+          ],
+          "examples": [
+            "I always book the aisle seat.",
+            "She booked the conference room for two hours.",
+            "The hotel is fully booked that week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To record someone's name and the charge against them at a police station",
+          "body": [
+            "(оформлять задержание, регистрировать (в полиции))",
+            "---"
+          ],
+          "examples": [
+            "They booked him on suspicion of theft.",
+            "He was booked and released within an hour.",
+            "The officer spent the whole evening booking three suspects."
+          ]
+        }
+      ],
+      "русский": "бронировать, забронировать; заказывать, заказать; оформлять задержание, регистрировать (в полиции)",
       "forms": "book · booked · booked",
       "verb class": "regular",
       "third person": "books · -ing form: booking",
@@ -462,14 +913,43 @@
       "term": "present",
       "ipa": "/prɪˈzɛnt/",
       "respell": "pri-ZENT",
-      "meaning": "To show or explain something formally to a group of people. ---",
+      "meaning": "Present has 2 distinct senses.",
       "examples": [
         "I present the numbers at every board meeting.",
         "She presented the plan to the client on Tuesday.",
-        "He is presenting at the conference next week."
+        "He is presenting at the conference next week.",
+        "The delay presents a serious problem for the whole crew.",
+        "The storm presented rescue teams with a new set of dangers.",
+        "The scandal has presented her opponent with a rare opening."
       ],
-      "senses": [],
-      "русский": "представлять, представить; излагать, презентовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To show or explain something formally to a group of people",
+          "body": [
+            "(представлять, представить; излагать, презентовать)"
+          ],
+          "examples": [
+            "I present the numbers at every board meeting.",
+            "She presented the plan to the client on Tuesday.",
+            "He is presenting at the conference next week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To cause a problem, a risk, or an opportunity to exist for someone",
+          "body": [
+            "(представлять собой (проблему, опасность); создавать, создать (трудности, возможность))",
+            "---"
+          ],
+          "examples": [
+            "The delay presents a serious problem for the whole crew.",
+            "The storm presented rescue teams with a new set of dangers.",
+            "The scandal has presented her opponent with a rare opening."
+          ]
+        }
+      ],
+      "русский": "представлять, представить; излагать, презентовать; представлять собой (проблему, опасность); создавать, создать (трудности, возможность)",
       "forms": "present · presented · presented",
       "verb class": "regular",
       "third person": "presents · -ing form: presenting",
@@ -516,14 +996,43 @@
       "term": "measure",
       "ipa": "/ˈmɛʒər/",
       "respell": "MEZH-ur",
-      "meaning": "To find the size, amount, or degree of something. ---",
+      "meaning": "Measure has 2 distinct senses.",
       "examples": [
         "How do you measure success here?",
         "They measured the impact of the ad campaign.",
-        "Performance is measured against last year."
+        "Performance is measured against last year.",
+        "The kitchen measures twelve feet by fifteen.",
+        "The trout measured almost two feet.",
+        "The crack must measure an inch across."
       ],
-      "senses": [],
-      "русский": "измерять, измерить; оценивать (в цифрах)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To find the size, amount, or degree of something",
+          "body": [
+            "(измерять, измерить; оценивать (в цифрах))"
+          ],
+          "examples": [
+            "How do you measure success here?",
+            "They measured the impact of the ad campaign.",
+            "Performance is measured against last year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be a particular size, length, or amount",
+          "body": [
+            "(иметь размер, составлять (в размерах))",
+            "---"
+          ],
+          "examples": [
+            "The kitchen measures twelve feet by fifteen.",
+            "The trout measured almost two feet.",
+            "The crack must measure an inch across."
+          ]
+        }
+      ],
+      "русский": "измерять, измерить; оценивать (в цифрах); иметь размер, составлять (в размерах)",
       "forms": "measure · measured · measured",
       "verb class": "regular",
       "third person": "measures · -ing form: measuring",
@@ -534,14 +1043,43 @@
       "term": "compromise",
       "ipa": "/ˈkɑːmprəmaɪz/",
       "respell": "KAHM-pruh-myz",
-      "meaning": "To settle an argument by each side giving up part of what it wants. ---",
+      "meaning": "Compromise has 2 distinct senses.",
       "examples": [
         "Neither side wants to compromise.",
         "They compromised on a two-year contract.",
-        "By compromising early, we saved a month of argument."
+        "By compromising early, we saved a month of argument.",
+        "One careless email can compromise the whole system.",
+        "The leak compromised two undercover agents.",
+        "Your password may have been compromised."
       ],
-      "senses": [],
-      "русский": "идти на компромисс, договариваться; ставить под угрозу",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To settle an argument by each side giving up part of what it wants",
+          "body": [
+            "(идти на компромисс, договариваться; ставить под угрозу)"
+          ],
+          "examples": [
+            "Neither side wants to compromise.",
+            "They compromised on a two-year contract.",
+            "By compromising early, we saved a month of argument."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put something at risk or weaken it, especially safety, secrecy, or health",
+          "body": [
+            "(ставить под угрозу, подрывать; скомпрометировать (данные))",
+            "---"
+          ],
+          "examples": [
+            "One careless email can compromise the whole system.",
+            "The leak compromised two undercover agents.",
+            "Your password may have been compromised."
+          ]
+        }
+      ],
+      "русский": "идти на компромисс, договариваться; ставить под угрозу; ставить под угрозу, подрывать; скомпрометировать (данные)",
       "forms": "compromise · compromised · compromised",
       "verb class": "regular",
       "third person": "compromises · -ing form: compromising",
@@ -586,14 +1124,58 @@
       "term": "settle",
       "ipa": "/ˈsɛtəl/",
       "respell": "SET-ul",
-      "meaning": "To end an argument or a debt by agreement. ---",
+      "meaning": "Settle has 3 distinct senses.",
       "examples": [
         "Most cases like this settle before trial.",
         "They settled the claim out of court.",
-        "The invoice has been settled in full."
+        "The invoice has been settled in full.",
+        "Many families settle here for the schools.",
+        "Her grandparents settled in Chicago in 1951.",
+        "The valley was settled long before the railroad came.",
+        "Let the grounds settle before you pour the coffee.",
+        "Dust settled on every surface after the drywall work.",
+        "Sand has settled at the bottom of the jar."
       ],
-      "senses": [],
-      "русский": "улаживать, уладить; урегулировать, договориться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To end an argument or a debt by agreement",
+          "body": [
+            "(улаживать, уладить; урегулировать, договориться)"
+          ],
+          "examples": [
+            "Most cases like this settle before trial.",
+            "They settled the claim out of court.",
+            "The invoice has been settled in full."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To go to live in a place and stay there",
+          "body": [
+            "(поселяться, поселиться; обосновываться, обосноваться)"
+          ],
+          "examples": [
+            "Many families settle here for the schools.",
+            "Her grandparents settled in Chicago in 1951.",
+            "The valley was settled long before the railroad came."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To sink slowly and come to rest at the bottom or on a surface",
+          "body": [
+            "(оседать, осесть; отстаиваться, отстояться)",
+            "---"
+          ],
+          "examples": [
+            "Let the grounds settle before you pour the coffee.",
+            "Dust settled on every surface after the drywall work.",
+            "Sand has settled at the bottom of the jar."
+          ]
+        }
+      ],
+      "русский": "улаживать, уладить; урегулировать, договориться; поселяться, поселиться; обосновываться, обосноваться; оседать, осесть; отстаиваться, отстояться",
       "forms": "settle · settled · settled",
       "verb class": "regular",
       "third person": "settles · -ing form: settling",
@@ -621,14 +1203,58 @@
       "term": "draft",
       "ipa": "/dræft/",
       "respell": "DRAFT",
-      "meaning": "To write a first version of a document. ---",
+      "meaning": "Draft has 3 distinct senses.",
       "examples": [
         "Legal will draft the agreement.",
         "She drafted the email but never sent it.",
-        "A new policy is being drafted."
+        "A new policy is being drafted.",
+        "His father was drafted in 1968.",
+        "The government could draft men under the age of thirty.",
+        "Thousands of young men were being drafted every month.",
+        "Teams draft college players every June.",
+        "The Knicks drafted him in the second round.",
+        "She was drafted straight out of her junior year."
       ],
-      "senses": [],
-      "русский": "составлять (проект), готовить черновик; набрасывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To write a first version of a document",
+          "body": [
+            "(составлять (проект), готовить черновик; набрасывать)"
+          ],
+          "examples": [
+            "Legal will draft the agreement.",
+            "She drafted the email but never sent it.",
+            "A new policy is being drafted."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To order someone by law to serve in the armed forces",
+          "body": [
+            "(призывать в армию, призвать)"
+          ],
+          "examples": [
+            "His father was drafted in 1968.",
+            "The government could draft men under the age of thirty.",
+            "Thousands of young men were being drafted every month."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To pick a player for a professional sports team",
+          "body": [
+            "(выбирать на драфте, задрафтовать)",
+            "---"
+          ],
+          "examples": [
+            "Teams draft college players every June.",
+            "The Knicks drafted him in the second round.",
+            "She was drafted straight out of her junior year."
+          ]
+        }
+      ],
+      "русский": "составлять (проект), готовить черновик; набрасывать; призывать в армию, призвать; выбирать на драфте, задрафтовать",
       "forms": "draft · drafted · drafted",
       "verb class": "regular",
       "third person": "drafts · -ing form: drafting",
@@ -639,14 +1265,43 @@
       "term": "renew",
       "ipa": "/rɪˈnuː/",
       "respell": "ri-NOO",
-      "meaning": "To make an agreement, a license, or a subscription valid for another period. ---",
+      "meaning": "Renew has 2 distinct senses.",
       "examples": [
         "We renew the lease every two years.",
         "She renewed her contract for another term.",
-        "The license has not been renewed."
+        "The license has not been renewed.",
+        "The report will renew pressure on the company to act.",
+        "She renewed her efforts to find a job.",
+        "Talks are being renewed after a long break."
       ],
-      "senses": [],
-      "русский": "продлевать, продлить; возобновлять, возобновить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make an agreement, a license, or a subscription valid for another period",
+          "body": [
+            "(продлевать, продлить; возобновлять, возобновить)"
+          ],
+          "examples": [
+            "We renew the lease every two years.",
+            "She renewed her contract for another term.",
+            "The license has not been renewed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To start something again with new energy after it has stopped",
+          "body": [
+            "(возобновлять, возобновить; начинать с новой силой)",
+            "---"
+          ],
+          "examples": [
+            "The report will renew pressure on the company to act.",
+            "She renewed her efforts to find a job.",
+            "Talks are being renewed after a long break."
+          ]
+        }
+      ],
+      "русский": "продлевать, продлить; возобновлять, возобновить; возобновлять, возобновить; начинать с новой силой",
       "forms": "renew · renewed · renewed",
       "verb class": "regular",
       "third person": "renews · -ing form: renewing",
@@ -657,14 +1312,43 @@
       "term": "extend",
       "ipa": "/ɪkˈstɛnd/",
       "respell": "ik-STEND",
-      "meaning": "To make something last longer or reach further. ---",
+      "meaning": "Extend has 2 distinct senses.",
       "examples": [
         "Can you extend the deadline by a week?",
         "They extended his contract through December.",
-        "The warranty has been extended to three years."
+        "The warranty has been extended to three years.",
+        "Let me extend a warm welcome to our guests.",
+        "The mayor extended his condolences to the family.",
+        "An invitation has been extended to every member of the club."
       ],
-      "senses": [],
-      "русский": "продлевать, продлить; расширять, увеличивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make something last longer or reach further",
+          "body": [
+            "(продлевать, продлить; расширять, увеличивать)"
+          ],
+          "examples": [
+            "Can you extend the deadline by a week?",
+            "They extended his contract through December.",
+            "The warranty has been extended to three years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To offer or give something formally, such as an invitation, thanks, or credit",
+          "body": [
+            "(выражать, выразить; приносить (соболезнования); предоставлять (кредит))",
+            "---"
+          ],
+          "examples": [
+            "Let me extend a warm welcome to our guests.",
+            "The mayor extended his condolences to the family.",
+            "An invitation has been extended to every member of the club."
+          ]
+        }
+      ],
+      "русский": "продлевать, продлить; расширять, увеличивать; выражать, выразить; приносить (соболезнования); предоставлять (кредит)",
       "forms": "extend · extended · extended",
       "verb class": "regular",
       "third person": "extends · -ing form: extending",
@@ -674,14 +1358,58 @@
       "term": "represent",
       "ipa": "/ˌrɛprɪˈzɛnt/",
       "respell": "rep-ri-ZENT",
-      "meaning": "To act or to speak officially for a person, a group, or a company. ---",
+      "meaning": "Represent has 3 distinct senses.",
       "examples": [
         "Two lawyers represent the company in court.",
         "She represented us at the trade show.",
-        "The union is representing the night shift."
+        "The union is representing the night shift.",
+        "On the map, a blue line represents a river.",
+        "The artist said the broken chain represented freedom.",
+        "Nothing in the design is meant to represent a real building.",
+        "Women represent about half of the students in the program.",
+        "Last year's storms represented the worst losses in a decade.",
+        "That figure represents a ten percent increase over last year."
       ],
-      "senses": [],
-      "русский": "представлять (интересы), быть представителем",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To act or to speak officially for a person, a group, or a company",
+          "body": [
+            "(представлять (интересы), быть представителем)"
+          ],
+          "examples": [
+            "Two lawyers represent the company in court.",
+            "She represented us at the trade show.",
+            "The union is representing the night shift."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be a sign or a symbol of something",
+          "body": [
+            "(символизировать, обозначать; служить символом)"
+          ],
+          "examples": [
+            "On the map, a blue line represents a river.",
+            "The artist said the broken chain represented freedom.",
+            "Nothing in the design is meant to represent a real building."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To amount to a particular quantity or to constitute something",
+          "body": [
+            "(составлять, представлять собой (часть, изменение))",
+            "---"
+          ],
+          "examples": [
+            "Women represent about half of the students in the program.",
+            "Last year's storms represented the worst losses in a decade.",
+            "That figure represents a ten percent increase over last year."
+          ]
+        }
+      ],
+      "русский": "представлять (интересы), быть представителем; символизировать, обозначать; служить символом; составлять, представлять собой (часть, изменение)",
       "forms": "represent · represented · represented",
       "verb class": "regular",
       "third person": "represents · -ing form: representing",
@@ -744,14 +1472,58 @@
       "term": "develop",
       "ipa": "/dɪˈvɛləp/",
       "respell": "di-VEL-up",
-      "meaning": "To create something over time, or to grow and become more advanced. ---",
+      "meaning": "Develop has 3 distinct senses.",
       "examples": [
         "Our team develops software for hospitals.",
         "They developed the prototype in four months.",
-        "We are developing a cheaper version."
+        "We are developing a cheaper version.",
+        "A few shops still develop film.",
+        "He developed the roll in a darkroom.",
+        "The photos are being developed now.",
+        "Some patients develop a rash from this drug.",
+        "She developed a fever overnight.",
+        "The engine has developed a strange rattle."
       ],
-      "senses": [],
-      "русский": "разрабатывать, разработать; развивать, развиваться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To create something over time, or to grow and become more advanced",
+          "body": [
+            "(разрабатывать, разработать; развивать, развиваться)"
+          ],
+          "examples": [
+            "Our team develops software for hospitals.",
+            "They developed the prototype in four months.",
+            "We are developing a cheaper version."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To treat photographic film with chemicals so that the pictures appear",
+          "body": [
+            "(проявлять, проявить (плёнку, снимки))"
+          ],
+          "examples": [
+            "A few shops still develop film.",
+            "He developed the roll in a darkroom.",
+            "The photos are being developed now."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To begin to have an illness, a fault, or a feeling",
+          "body": [
+            "(заболевать, заболеть; появляться (о симптоме, о неисправности))",
+            "---"
+          ],
+          "examples": [
+            "Some patients develop a rash from this drug.",
+            "She developed a fever overnight.",
+            "The engine has developed a strange rattle."
+          ]
+        }
+      ],
+      "русский": "разрабатывать, разработать; развивать, развиваться; проявлять, проявить (плёнку, снимки); заболевать, заболеть; появляться (о симптоме, о неисправности)",
       "forms": "develop · developed · developed",
       "verb class": "regular",
       "third person": "develops · -ing form: developing",
@@ -780,14 +1552,58 @@
       "term": "produce",
       "ipa": "/prəˈduːs/",
       "respell": "pruh-DOOSS",
-      "meaning": "To make or grow something, especially in large amounts. ---",
+      "meaning": "Produce has 3 distinct senses.",
       "examples": [
         "The plant produces four thousand units a day.",
         "They produced the entire run in Mexico.",
-        "Most of our parts are produced locally."
+        "Most of our parts are produced locally.",
+        "He produced a driver's license from his back pocket.",
+        "You have to be able to produce proof of insurance.",
+        "Having produced no receipt, she was refused a refund.",
+        "She produces a late-night talk show.",
+        "He produced three albums for the band.",
+        "The film was produced on a shoestring budget."
       ],
-      "senses": [],
-      "русский": "производить, произвести; выпускать, изготавливать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make or grow something, especially in large amounts",
+          "body": [
+            "(производить, произвести; выпускать, изготавливать)"
+          ],
+          "examples": [
+            "The plant produces four thousand units a day.",
+            "They produced the entire run in Mexico.",
+            "Most of our parts are produced locally."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bring something out and show it",
+          "body": [
+            "(предъявлять, предъявить; доставать, достать (и показать))"
+          ],
+          "examples": [
+            "He produced a driver's license from his back pocket.",
+            "You have to be able to produce proof of insurance.",
+            "Having produced no receipt, she was refused a refund."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To be in charge of the money and the organization behind a film, a show, or a record",
+          "body": [
+            "(продюсировать, быть продюсером (фильма, альбома))",
+            "---"
+          ],
+          "examples": [
+            "She produces a late-night talk show.",
+            "He produced three albums for the band.",
+            "The film was produced on a shoestring budget."
+          ]
+        }
+      ],
+      "русский": "производить, произвести; выпускать, изготавливать; предъявлять, предъявить; доставать, достать (и показать); продюсировать, быть продюсером (фильма, альбома)",
       "forms": "produce · produced · produced",
       "verb class": "regular",
       "third person": "produces · -ing form: producing",
@@ -798,14 +1614,43 @@
       "term": "manufacture",
       "ipa": "/ˌmænjəˈfæktʃər/",
       "respell": "man-yuh-FAK-chur",
-      "meaning": "To make goods in a factory, usually in large quantities. ---",
+      "meaning": "Manufacture has 2 distinct senses.",
       "examples": [
         "They manufacture medical equipment in Ohio.",
         "These chips were manufactured in Taiwan.",
-        "The company has been manufacturing here since 1962."
+        "The company has been manufacturing here since 1962.",
+        "Don't manufacture an excuse — just tell them the truth.",
+        "The article claims that agents manufactured the evidence.",
+        "The whole scandal was manufactured by a rival campaign."
       ],
-      "senses": [],
-      "русский": "производить, изготавливать, изготовить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make goods in a factory, usually in large quantities",
+          "body": [
+            "(производить, изготавливать, изготовить)"
+          ],
+          "examples": [
+            "They manufacture medical equipment in Ohio.",
+            "These chips were manufactured in Taiwan.",
+            "The company has been manufacturing here since 1962."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To invent something false, such as an excuse or evidence",
+          "body": [
+            "(фабриковать, сфабриковать; выдумывать, выдумать)",
+            "---"
+          ],
+          "examples": [
+            "Don't manufacture an excuse — just tell them the truth.",
+            "The article claims that agents manufactured the evidence.",
+            "The whole scandal was manufactured by a rival campaign."
+          ]
+        }
+      ],
+      "русский": "производить, изготавливать, изготовить; фабриковать, сфабриковать; выдумывать, выдумать",
       "forms": "manufacture · manufactured · manufactured",
       "verb class": "regular",
       "third person": "manufactures · -ing form: manufacturing",
@@ -886,14 +1731,43 @@
       "term": "bill",
       "ipa": "/bɪl/",
       "respell": "BIL",
-      "meaning": "To send someone a statement of how much they owe. ---",
+      "meaning": "Bill has 2 distinct senses.",
       "examples": [
         "We bill clients at the end of the month.",
         "They billed us twice for the same visit.",
-        "You will be billed only after delivery."
+        "You will be billed only after delivery.",
+        "The company bills itself as the cheapest carrier in the state.",
+        "The fight was billed as the match of the century.",
+        "They're billing the new place as a family restaurant."
       ],
-      "senses": [],
-      "русский": "выставлять счёт, выставить счёт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To send someone a statement of how much they owe",
+          "body": [
+            "(выставлять счёт, выставить счёт)"
+          ],
+          "examples": [
+            "We bill clients at the end of the month.",
+            "They billed us twice for the same visit.",
+            "You will be billed only after delivery."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To advertise or describe something publicly as being a particular thing",
+          "body": [
+            "(объявлять, рекламировать (как); подавать (как))",
+            "---"
+          ],
+          "examples": [
+            "The company bills itself as the cheapest carrier in the state.",
+            "The fight was billed as the match of the century.",
+            "They're billing the new place as a family restaurant."
+          ]
+        }
+      ],
+      "русский": "выставлять счёт, выставить счёт; объявлять, рекламировать (как); подавать (как)",
       "forms": "bill · billed · billed",
       "verb class": "regular",
       "third person": "bills · -ing form: billing",
@@ -974,14 +1848,43 @@
       "term": "establish",
       "ipa": "/ɪˈstæblɪʃ/",
       "respell": "i-STAB-lish",
-      "meaning": "To start an organization or a system that is meant to last. ---",
+      "meaning": "Establish has 2 distinct senses.",
       "examples": [
         "New owners usually establish their own rules.",
         "They established the firm in a garage.",
-        "The company was established in 1948."
+        "The company was established in 1948.",
+        "The autopsy established the cause of death.",
+        "We need to establish who was in the building that night.",
+        "It has been established that the fire started in the kitchen."
       ],
-      "senses": [],
-      "русский": "основывать, основать; устанавливать, налаживать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To start an organization or a system that is meant to last",
+          "body": [
+            "(основывать, основать; устанавливать, налаживать)"
+          ],
+          "examples": [
+            "New owners usually establish their own rules.",
+            "They established the firm in a garage.",
+            "The company was established in 1948."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To find out a fact and prove it beyond doubt",
+          "body": [
+            "(устанавливать, установить (факт); выяснять, выяснить)",
+            "---"
+          ],
+          "examples": [
+            "The autopsy established the cause of death.",
+            "We need to establish who was in the building that night.",
+            "It has been established that the fire started in the kitchen."
+          ]
+        }
+      ],
+      "русский": "основывать, основать; устанавливать, налаживать; устанавливать, установить (факт); выяснять, выяснить",
       "forms": "establish · established · established",
       "verb class": "regular",
       "third person": "establishes · -ing form: establishing",
@@ -1010,14 +1913,43 @@
       "term": "own",
       "ipa": "/oʊn/",
       "respell": "OHN",
-      "meaning": "To have something as your property. ---",
+      "meaning": "Own has 2 distinct senses.",
       "examples": [
         "She owns two restaurants downtown.",
         "They owned the building before the bank took it.",
-        "The chain is owned by a family in Texas."
+        "The chain is owned by a family in Texas.",
+        "A good manager owns her mistakes.",
+        "He owned the error and apologized to the team.",
+        "She has owned her part in the failure."
       ],
-      "senses": [],
-      "русский": "владеть, иметь в собственности",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To have something as your property",
+          "body": [
+            "(владеть, иметь в собственности)"
+          ],
+          "examples": [
+            "She owns two restaurants downtown.",
+            "They owned the building before the bank took it.",
+            "The chain is owned by a family in Texas."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To admit a mistake and accept responsibility for it",
+          "body": [
+            "(признавать (вину, ошибку), брать ответственность на себя)",
+            "---"
+          ],
+          "examples": [
+            "A good manager owns her mistakes.",
+            "He owned the error and apologized to the team.",
+            "She has owned her part in the failure."
+          ]
+        }
+      ],
+      "русский": "владеть, иметь в собственности; признавать (вину, ошибку), брать ответственность на себя",
       "forms": "own · owned · owned",
       "verb class": "regular",
       "third person": "owns · -ing form: owning",
@@ -1084,14 +2016,58 @@
       "term": "reduce",
       "ipa": "/rɪˈduːs/",
       "respell": "ri-DOOSS",
-      "meaning": "To make something smaller in size, amount, or price. ---",
+      "meaning": "Reduce has 3 distinct senses.",
       "examples": [
         "We need to reduce overtime.",
         "They reduced the headcount by twenty.",
-        "Costs have been reduced by a third."
+        "Costs have been reduced by a third.",
+        "Reduce the sauce until it coats the back of a spoon.",
+        "She reduced the stock by half.",
+        "The wine was reducing on the back burner.",
+        "Don't let him reduce you to tears.",
+        "The fire reduced the barn to a pile of ash.",
+        "Whole blocks had been reduced to rubble."
       ],
-      "senses": [],
-      "русский": "сокращать, сократить; снижать, уменьшать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make something smaller in size, amount, or price",
+          "body": [
+            "(сокращать, сократить; снижать, уменьшать)"
+          ],
+          "examples": [
+            "We need to reduce overtime.",
+            "They reduced the headcount by twenty.",
+            "Costs have been reduced by a third."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To boil a liquid so that some of the water evaporates and the flavor gets stronger",
+          "body": [
+            "(уваривать, уварить; выпаривать)"
+          ],
+          "examples": [
+            "Reduce the sauce until it coats the back of a spoon.",
+            "She reduced the stock by half.",
+            "The wine was reducing on the back burner."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To bring someone or something down to a much worse state",
+          "body": [
+            "(доводить (до слёз); превращать, обращать (в руины))",
+            "---"
+          ],
+          "examples": [
+            "Don't let him reduce you to tears.",
+            "The fire reduced the barn to a pile of ash.",
+            "Whole blocks had been reduced to rubble."
+          ]
+        }
+      ],
+      "русский": "сокращать, сократить; снижать, уменьшать; уваривать, уварить; выпаривать; доводить (до слёз); превращать, обращать (в руины)",
       "forms": "reduce · reduced · reduced",
       "verb class": "regular",
       "third person": "reduces · -ing form: reducing",
@@ -1174,14 +2150,58 @@
       "term": "fail",
       "ipa": "/feɪl/",
       "respell": "FAYL",
-      "meaning": "To not succeed, or to not do something that you should have done. ---",
+      "meaning": "Fail has 3 distinct senses.",
       "examples": [
         "Most new restaurants fail in the first year.",
         "The supplier failed to deliver on time.",
-        "Two of the three pilot projects have failed."
+        "Two of the three pilot projects have failed.",
+        "The brakes failed halfway down the hill.",
+        "If the power fails, the generator starts automatically.",
+        "Doctors told him his kidneys were failing.",
+        "The professor failed half the class.",
+        "They'll fail you if you skip the final.",
+        "She was failed for copying someone else's answers."
       ],
-      "senses": [],
-      "русский": "терпеть неудачу, провалиться; не суметь, не справиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To not succeed, or to not do something that you should have done",
+          "body": [
+            "(терпеть неудачу, провалиться; не суметь, не справиться)"
+          ],
+          "examples": [
+            "Most new restaurants fail in the first year.",
+            "The supplier failed to deliver on time.",
+            "Two of the three pilot projects have failed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To stop working the way it should",
+          "body": [
+            "(отказывать, отказать; выходить из строя, переставать работать)"
+          ],
+          "examples": [
+            "The brakes failed halfway down the hill.",
+            "If the power fails, the generator starts automatically.",
+            "Doctors told him his kidneys were failing."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To judge a student's work as not good enough to pass",
+          "body": [
+            "(ставить неудовлетворительную оценку; заваливать, завалить (студента))",
+            "---"
+          ],
+          "examples": [
+            "The professor failed half the class.",
+            "They'll fail you if you skip the final.",
+            "She was failed for copying someone else's answers."
+          ]
+        }
+      ],
+      "русский": "терпеть неудачу, провалиться; не суметь, не справиться; отказывать, отказать; выходить из строя, переставать работать; ставить неудовлетворительную оценку; заваливать, завалить (студента)",
       "forms": "fail · failed · failed",
       "verb class": "regular",
       "third person": "fails · -ing form: failing",
@@ -1192,14 +2212,73 @@
       "term": "serve",
       "ipa": "/sɜːrv/",
       "respell": "SURV",
-      "meaning": "To work for a person, an organization, or a group of customers. ---",
+      "meaning": "Serve has 4 distinct senses.",
       "examples": [
         "One office serves the whole region.",
         "He served as treasurer for six years.",
-        "Over a thousand clients are served each month."
+        "Over a thousand clients are served each month.",
+        "An old door serves as our kitchen table.",
+        "The gym served as a shelter during the storm.",
+        "That hallway has served as a gallery for years.",
+        "He will serve eighteen months.",
+        "She served two tours overseas.",
+        "He has served most of his sentence already.",
+        "She serves harder than anyone else on the tour.",
+        "He served four aces in one game.",
+        "He was serving for the match when the rain started."
       ],
-      "senses": [],
-      "русский": "обслуживать, обслужить; служить, работать (на должности)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To work for a person, an organization, or a group of customers",
+          "body": [
+            "(обслуживать, обслужить; служить, работать (на должности))"
+          ],
+          "examples": [
+            "One office serves the whole region.",
+            "He served as treasurer for six years.",
+            "Over a thousand clients are served each month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be used as something, or to be useful for a purpose",
+          "body": [
+            "(служить (в качестве), использоваться как)"
+          ],
+          "examples": [
+            "An old door serves as our kitchen table.",
+            "The gym served as a shelter during the storm.",
+            "That hallway has served as a gallery for years."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To spend a period of time in prison or in the armed forces",
+          "body": [
+            "(отбывать, отбыть (срок); служить (в армии))"
+          ],
+          "examples": [
+            "He will serve eighteen months.",
+            "She served two tours overseas.",
+            "He has served most of his sentence already."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "In tennis or volleyball, to put the ball into play by hitting it",
+          "body": [
+            "(подавать, подать (мяч))",
+            "---"
+          ],
+          "examples": [
+            "She serves harder than anyone else on the tour.",
+            "He served four aces in one game.",
+            "He was serving for the match when the rain started."
+          ]
+        }
+      ],
+      "русский": "обслуживать, обслужить; служить, работать (на должности); служить (в качестве), использоваться как; отбывать, отбыть (срок); служить (в армии); подавать, подать (мяч)",
       "forms": "serve · served · served",
       "verb class": "regular",
       "third person": "serves · -ing form: serving",
@@ -1210,14 +2289,43 @@
       "term": "process",
       "ipa": "/ˈprɑːsɛs/",
       "respell": "PRAH-sess",
-      "meaning": "To deal with documents, data, or materials in an official or standard way. ---",
+      "meaning": "Process has 2 distinct senses.",
       "examples": [
         "The bank processes refunds in five days.",
         "They processed my application the same week.",
-        "Your order is being processed."
+        "Your order is being processed.",
+        "I need a few days to process what happened.",
+        "She is still processing the news.",
+        "We never really processed the loss as a family."
       ],
-      "senses": [],
-      "русский": "обрабатывать, обработать; оформлять, рассматривать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To deal with documents, data, or materials in an official or standard way",
+          "body": [
+            "(обрабатывать, обработать; оформлять, рассматривать)"
+          ],
+          "examples": [
+            "The bank processes refunds in five days.",
+            "They processed my application the same week.",
+            "Your order is being processed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take the time to accept and come to terms with a difficult experience or feeling",
+          "body": [
+            "(осмысливать, осмыслить; переваривать (пережитое), справляться с эмоциями)",
+            "---"
+          ],
+          "examples": [
+            "I need a few days to process what happened.",
+            "She is still processing the news.",
+            "We never really processed the loss as a family."
+          ]
+        }
+      ],
+      "русский": "обрабатывать, обработать; оформлять, рассматривать; осмысливать, осмыслить; переваривать (пережитое), справляться с эмоциями",
       "forms": "process · processed · processed",
       "verb class": "regular",
       "third person": "processes · -ing form: processing",
@@ -1228,14 +2336,58 @@
       "term": "file",
       "ipa": "/faɪl/",
       "respell": "FYL",
-      "meaning": "To send an official document to an authority, or to store papers in order. ---",
+      "meaning": "File has 3 distinct senses.",
       "examples": [
         "Most companies file their taxes in March.",
         "She filed a complaint with the labor board.",
-        "The paperwork was filed a week late."
+        "The paperwork was filed a week late.",
+        "She stopped to file a broken nail.",
+        "He filed the edge of the key until it fit the lock.",
+        "The weld has been filed smooth.",
+        "The students filed into the auditorium.",
+        "We watched the jurors file silently to their seats.",
+        "Mourners were filing past the casket all afternoon."
       ],
-      "senses": [],
-      "русский": "подавать (документы), подать; регистрировать, подшивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To send an official document to an authority, or to store papers in order",
+          "body": [
+            "(подавать (документы), подать; регистрировать, подшивать)"
+          ],
+          "examples": [
+            "Most companies file their taxes in March.",
+            "She filed a complaint with the labor board.",
+            "The paperwork was filed a week late."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To smooth or shape something by rubbing it with a rough metal tool",
+          "body": [
+            "(подпиливать, подпилить (ногти); опиливать, зачищать)"
+          ],
+          "examples": [
+            "She stopped to file a broken nail.",
+            "He filed the edge of the key until it fit the lock.",
+            "The weld has been filed smooth."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To walk somewhere in a line, one person behind another",
+          "body": [
+            "(идти вереницей, проходить гуськом; выстраиваться цепочкой)",
+            "---"
+          ],
+          "examples": [
+            "The students filed into the auditorium.",
+            "We watched the jurors file silently to their seats.",
+            "Mourners were filing past the casket all afternoon."
+          ]
+        }
+      ],
+      "русский": "подавать (документы), подать; регистрировать, подшивать; подпиливать, подпилить (ногти); опиливать, зачищать; идти вереницей, проходить гуськом; выстраиваться цепочкой",
       "forms": "file · filed · filed",
       "verb class": "regular",
       "third person": "files · -ing form: filing",
@@ -1281,14 +2433,42 @@
       "term": "distribute",
       "ipa": "/dɪˈstrɪbjuːt/",
       "respell": "di-STRIB-yoot",
-      "meaning": "To give things out to a number of people, or to supply goods to stores.",
+      "meaning": "Distribute has 2 distinct senses.",
       "examples": [
         "Two warehouses distribute to the whole West Coast.",
         "They distributed the agenda before the meeting.",
-        "Bonuses are distributed in December."
+        "Bonuses are distributed in December.",
+        "Distribute the weight evenly across both axles.",
+        "The paint was not distributed evenly, so the wall looks streaky.",
+        "One vent distributes warm air to the whole upstairs."
       ],
-      "senses": [],
-      "русский": "распределять, распределить; распространять, раздавать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give things out to a number of people, or to supply goods to stores",
+          "body": [
+            "(распределять, распределить; распространять, раздавать)"
+          ],
+          "examples": [
+            "Two warehouses distribute to the whole West Coast.",
+            "They distributed the agenda before the meeting.",
+            "Bonuses are distributed in December."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To spread something evenly over an area or a surface",
+          "body": [
+            "(распределять, распределить (равномерно))"
+          ],
+          "examples": [
+            "Distribute the weight evenly across both axles.",
+            "The paint was not distributed evenly, so the wall looks streaky.",
+            "One vent distributes warm air to the whole upstairs."
+          ]
+        }
+      ],
+      "русский": "распределять, распределить; распространять, раздавать; распределять, распределить (равномерно)",
       "forms": "distribute · distributed · distributed",
       "verb class": "regular",
       "third person": "distributes · -ing form: distributing",

@@ -12,17 +12,37 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 ### attack
 
 **Pronunciation:** /əˈtæk/ &middot; *uh-TAK*
-**Русский:** нападать, напасть; атаковать
+**Русский:** нападать, напасть; атаковать; критиковать, обрушиваться с критикой; нападать (словесно); энергично браться за, приниматься за, взяться; поражать, поразить (о болезни, вредителях)
 **Forms:** *attack* &middot; *attacked* &middot; *attacked*
 **Verb class:** regular
 **Third person:** *attacks* &middot; **-ing form:** *attacking*
 **Transitivity:** both — transitive (they *attacked* the village), intransitive (the enemy *attacked* at dawn)
 
-To use violence against a person, place, or army in order to hurt them or take control.
+Attack has 4 distinct senses.
+
+**1. To use violence against a person, place, or army in order to hurt them or take control.** (нападать, напасть; атаковать)
 
 1. Two men *attacked* him outside the bar.
 2. A wounded animal will *attack* anyone who comes close.
 3. The base was *attacked* twice in the same week.
+
+**2. To criticize someone or something strongly and publicly.** (критиковать, обрушиваться с критикой; нападать (словесно))
+
+4. Don't *attack* the person; argue with the idea.
+5. The senator *attacked* the plan as a handout to big banks.
+6. Newspapers have been *attacking* the mayor for weeks.
+
+**3. To begin work on something with great energy.** (энергично браться за, приниматься за, взяться)
+
+7. Let's *attack* the hardest problem first.
+8. She *attacked* the pile of dishes as soon as the guests left.
+9. They're *attacking* the backlog one order at a time.
+
+**4. Of a disease, chemical, or insect, to damage something by acting on it.** (поражать, поразить (о болезни, вредителях))
+
+10. The virus *attacks* the nervous system.
+11. The disease *attacked* his joints first.
+12. Termites had been *attacking* the beams for years before anyone looked.
 
 ---
 
@@ -65,70 +85,108 @@ To attack someone suddenly from a hidden position.
 ### invade
 
 **Pronunciation:** /ɪnˈveɪd/ &middot; *in-VAYD*
-**Русский:** вторгаться, вторгнуться; захватывать
+**Русский:** вторгаться, вторгнуться; захватывать; вторгаться, вторгнуться (в личную жизнь); нарушать (неприкосновенность)
 **Forms:** *invade* &middot; *invaded* &middot; *invaded*
 **Verb class:** regular
 **Third person:** *invades* &middot; **-ing form:** *invading*
 **Transitivity:** both — transitive (*invade* a country), intransitive (the army *invaded* in spring)
 **Contrast:** No preposition after it: *invaded Poland*, not "invaded into Poland".
 
-To enter a country or area with an army in order to take control of it.
+Invade has 2 distinct senses.
+
+**1. To enter a country or area with an army in order to take control of it.** (вторгаться, вторгнуться; захватывать)
 
 1. The Romans *invaded* Britain almost two thousand years ago.
 2. No small country expects a neighbor to *invade* it overnight.
 3. The island has been *invaded* three times in its history.
+
+**2. To intrude on something private, especially a person's privacy.** (вторгаться, вторгнуться (в личную жизнь); нарушать (неприкосновенность))
+
+4. The photographers *invaded* her privacy at the hospital.
+5. Reading someone's texts *invades* their privacy.
+6. He has never *invaded* his kids' privacy that way.
 
 ---
 
 ### raid
 
 **Pronunciation:** /reɪd/ &middot; *RAYD*
-**Русский:** совершать налёт; устраивать облаву
+**Русский:** совершать налёт; устраивать облаву; опустошать, опустошить (холодильник); залезать, залезть (в сбережения, фонд)
 **Forms:** *raid* &middot; *raided* &middot; *raided*
 **Verb class:** regular
 **Third person:** *raids* &middot; **-ing form:** *raiding*
 **Transitivity:** transitive
 
-To make a sudden attack on a place, or to enter it suddenly as police looking for something.
+Raid has 2 distinct senses.
+
+**1. To make a sudden attack on a place, or to enter it suddenly as police looking for something.** (совершать налёт; устраивать облаву)
 
 1. Police *raided* the warehouse just before dawn.
 2. Agents *raid* the club almost every summer.
 3. The apartment had already been *raided* twice that year.
+
+**2. To go into a place and help yourself to what is in it, especially food or money.** (опустошать, опустошить (холодильник); залезать, залезть (в сбережения, фонд))
+
+4. The kids *raided* the fridge the minute they got home.
+5. He had to *raid* his savings to pay for the repair.
+6. The pension fund had been *raided* years before anyone noticed.
 
 ---
 
 ### bombard
 
 **Pronunciation:** /bɑːmˈbɑːrd/ &middot; *bahm-BAHRD*
-**Русский:** бомбардировать, обстреливать
+**Русский:** бомбардировать, обстреливать; засыпать (вопросами), забрасывать; обрушивать
 **Forms:** *bombard* &middot; *bombarded* &middot; *bombarded*
 **Verb class:** regular
 **Third person:** *bombards* &middot; **-ing form:** *bombarding*
 **Transitivity:** transitive
 **Contrast:** Unlike *bomb* /bɑːm/, the second *b* here is pronounced: bahm-BAHRD.
 
-To attack a place continuously with bombs or heavy gunfire.
+Bombard has 2 distinct senses.
+
+**1. To attack a place continuously with bombs or heavy gunfire.** (бомбардировать, обстреливать)
 
 1. The artillery *bombarded* the city for six days.
 2. Ships out at sea began to *bombard* the coast.
 3. Reporters kept *bombarding* the general with questions.
+
+**2. To direct a great many questions, messages, or demands at someone.** (засыпать (вопросами), забрасывать; обрушивать)
+
+4. Reporters *bombarded* her with questions about the deal.
+5. We are *bombarded* with ads from the moment we wake up.
+6. Stop *bombarding* me with texts; I'll answer tonight.
 
 ---
 
 ### storm
 
 **Pronunciation:** /stɔːrm/ &middot; *STORM*
-**Русский:** штурмовать, брать штурмом
+**Русский:** штурмовать, брать штурмом; врываться, ворваться; проноситься в ярости; бушевать (о непогоде); разыграться (о буре)
 **Forms:** *storm* &middot; *stormed* &middot; *stormed*
 **Verb class:** regular
 **Third person:** *storms* &middot; **-ing form:** *storming*
 **Transitivity:** transitive
 
-To attack a building or position suddenly and in force.
+Storm has 3 distinct senses.
+
+**1. To attack a building or position suddenly and in force.** (штурмовать, брать штурмом)
 
 1. Commandos *stormed* the embassy at three in the morning.
 2. Crowds threatened to *storm* the gates of the palace.
 3. The prison was *stormed* by troops after the riot spread.
+
+**2. To go somewhere in a noisy, angry way.** (врываться, ворваться; проноситься в ярости)
+
+4. He tends to *storm* around the kitchen when he is angry.
+5. She *stormed* into the principal's office.
+6. He came *storming* past me without a word.
+
+**3. To rain, snow, or blow violently.** (бушевать (о непогоде); разыграться (о буре))
+
+7. It is supposed to *storm* tonight.
+8. It *stormed* all weekend, so the game was canceled.
+9. It has been *storming* since dawn.
 
 **Phrasal verbs:** [storm out](57-phrasal-regular-q-s.md#storm-out)
 
@@ -137,70 +195,102 @@ To attack a building or position suddenly and in force.
 ### besiege
 
 **Pronunciation:** /bɪˈsiːdʒ/ &middot; *bi-SEEJ*
-**Русский:** осаждать, осадить
+**Русский:** осаждать, осадить; осаждать (просьбами, вопросами), забрасывать
 **Forms:** *besiege* &middot; *besieged* &middot; *besieged*
 **Verb class:** regular
 **Third person:** *besieges* &middot; **-ing form:** *besieging*
 **Transitivity:** transitive
 **Contrast:** Spelled *-ie-*: *besiege*, *besieged* — not "beseige".
 
-To surround a town or fort with an army so that nobody can get in or out.
+Besiege has 2 distinct senses.
+
+**1. To surround a town or fort with an army so that nobody can get in or out.** (осаждать, осадить)
 
 1. The army *besieged* the city for nine months.
 2. No modern general wants to *besiege* a place that size.
 3. The fortress had been *besieged* twice before it fell.
+
+**2. To crowd around someone, or to overwhelm them with requests and questions.** (осаждать (просьбами, вопросами), забрасывать)
+
+4. Reporters *besieged* the family's front porch.
+5. The office is *besieged* with calls every time prices change.
+6. Fans have been *besieging* the station with requests all week.
 
 ---
 
 ### conquer
 
 **Pronunciation:** /ˈkɑːŋkər/ &middot; *KAHNG-kur*
-**Русский:** завоёвывать, завоевать; покорять, покорить
+**Русский:** завоёвывать, завоевать; покорять, покорить; побеждать, побороть; преодолевать, преодолеть (страх)
 **Forms:** *conquer* &middot; *conquered* &middot; *conquered*
 **Verb class:** regular
 **Third person:** *conquers* &middot; **-ing form:** *conquering*
 **Transitivity:** transitive
 **Contrast:** The *qu* here is just /k/: KAHNG-kur, not "KON-kwer".
 
-To take control of a country or people by force.
+Conquer has 2 distinct senses.
+
+**1. To take control of a country or people by force.** (завоёвывать, завоевать; покорять, покорить)
 
 1. Spain *conquered* most of South America in a century.
 2. An empire that cannot feed itself cannot *conquer* anyone.
 3. Half of Europe had been *conquered* by the end of that year.
+
+**2. To succeed in dealing with a fear, a problem, or a difficulty.** (побеждать, побороть; преодолевать, преодолеть (страх))
+
+4. Nobody *conquers* jet lag on the first day.
+5. She *conquered* her fear of flying last year.
+6. The disease has not been *conquered* yet.
 
 ---
 
 ### defeat
 
 **Pronunciation:** /dɪˈfiːt/ &middot; *di-FEET*
-**Русский:** побеждать, победить; наносить поражение
+**Русский:** побеждать, победить; наносить поражение; сводить на нет, срывать, сорвать
 **Forms:** *defeat* &middot; *defeated* &middot; *defeated*
 **Verb class:** regular
 **Third person:** *defeats* &middot; **-ing form:** *defeating*
 **Transitivity:** transitive
 
-To beat an enemy or opponent in a battle, election, or game.
+Defeat has 2 distinct senses.
+
+**1. To beat an enemy or opponent in a battle, election, or game.** (побеждать, победить; наносить поражение)
 
 1. The rebels *defeated* a much larger army.
 2. A smaller force can *defeat* a big one on the right ground.
 3. Their team has never been *defeated* at home.
+
+**2. To make a plan, a purpose, or an effort fail.** (сводить на нет, срывать, сорвать)
+
+4. Driving to the gym *defeats* the purpose of exercising.
+5. The extra fee *defeated* the whole point of the discount.
+6. Bad weather has *defeated* every attempt to reach the summit.
 
 ---
 
 ### overpower
 
 **Pronunciation:** /ˌoʊvərˈpaʊər/ &middot; *oh-vur-POW-ur*
-**Русский:** одолевать, одолеть; пересиливать
+**Русский:** одолевать, одолеть; пересиливать; перебивать (вкус, запах), заглушать
 **Forms:** *overpower* &middot; *overpowered* &middot; *overpowered*
 **Verb class:** regular
 **Third person:** *overpowers* &middot; **-ing form:** *overpowering*
 **Transitivity:** transitive
 
-To beat someone by being physically stronger than they are.
+Overpower has 2 distinct senses.
+
+**1. To beat someone by being physically stronger than they are.** (одолевать, одолеть; пересиливать)
 
 1. Three guards *overpowered* the man at the door.
 2. He is strong enough to *overpower* anyone in the room.
 3. The pilot was *overpowered* by two passengers.
+
+**2. Of a taste or smell, to be so strong that it hides everything else.** (перебивать (вкус, запах), заглушать)
+
+4. Too much garlic *overpowers* the sauce.
+5. Her perfume *overpowered* the whole elevator.
+6. The chili was *overpowering* everything else in the bowl.
 
 ---
 
@@ -224,18 +314,26 @@ To be greater in number than another group.
 ### punch
 
 **Pronunciation:** /pʌntʃ/ &middot; *PUNCH*
-**Русский:** бить кулаком, ударить кулаком
+**Русский:** бить кулаком, ударить кулаком; пробивать, пробить (отверстие); компостировать (билет)
 **Forms:** *punch* &middot; *punched* &middot; *punched*
 **Verb class:** regular
 **Third person:** *punches* &middot; **-ing form:** *punching*
 **Transitivity:** transitive
 **Contrast:** Ends in *-ch*, so the third person adds *-es*: *punches*.
 
-To hit someone hard with your closed fist.
+Punch has 2 distinct senses.
+
+**1. To hit someone hard with your closed fist.** (бить кулаком, ударить кулаком)
 
 1. He *punched* the other driver in the face.
 2. Don't *punch* a wall when you are angry.
 3. The boxer kept *punching* until the bell rang.
+
+**2. To make a hole in paper, a card, or thin material with a tool.** (пробивать, пробить (отверстие); компостировать (билет))
+
+4. The conductor *punched* our tickets.
+5. *Punch* three holes along the side of the box.
+6. The card had been *punched* in the wrong place.
 
 **Phrasal verbs:** [punch in](56-phrasal-regular-m-p.md#punch-in) &middot; [punch in](56-phrasal-regular-m-p.md#punch-in-1) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out-1) &middot; [punch up](56-phrasal-regular-m-p.md#punch-up)
 
@@ -244,17 +342,25 @@ To hit someone hard with your closed fist.
 ### kick
 
 **Pronunciation:** /kɪk/ &middot; *KIK*
-**Русский:** пинать, пнуть; ударять ногой
+**Русский:** пинать, пнуть; ударять ногой; бросать, бросить (вредную привычку); завязать (с чем-л.)
 **Forms:** *kick* &middot; *kicked* &middot; *kicked*
 **Verb class:** regular
 **Third person:** *kicks* &middot; **-ing form:** *kicking*
 **Transitivity:** both — transitive (*kick* the door), intransitive (the horse *kicks*)
 
-To hit someone or something with your foot.
+Kick has 2 distinct senses.
+
+**1. To hit someone or something with your foot.** (пинать, пнуть; ударять ногой)
 
 1. Somebody *kicked* the door until the lock broke.
 2. The horse will *kick* if you stand behind it.
 3. He was *kicking* the fence out of sheer frustration.
+
+**2. To succeed in stopping a bad habit or an addiction.** (бросать, бросить (вредную привычку); завязать (с чем-л.))
+
+4. He finally *kicked* the habit at fifty.
+5. It took her two years to *kick* her soda habit.
+6. He has *kicked* worse addictions than this one.
 
 **Phrasal verbs:** [kick around](55-phrasal-regular-g-l.md#kick-around) &middot; [kick back](55-phrasal-regular-g-l.md#kick-back) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in-1) &middot; [kick off](55-phrasal-regular-g-l.md#kick-off) &middot; [kick out](55-phrasal-regular-g-l.md#kick-out)
 
@@ -263,18 +369,26 @@ To hit someone or something with your foot.
 ### slap
 
 **Pronunciation:** /slæp/ &middot; *SLAP*
-**Русский:** шлёпать, шлёпнуть; давать пощёчину
+**Русский:** шлёпать, шлёпнуть; давать пощёчину; налагать (штраф, пошлину), наложить; влепить (штраф)
 **Forms:** *slap* &middot; *slapped* &middot; *slapped*
 **Verb class:** regular
 **Third person:** *slaps* &middot; **-ing form:** *slapping*
 **Transitivity:** transitive
 **Contrast:** One short vowel plus one consonant, so the *p* doubles: *slapped*, *slapping*.
 
-To hit someone with the flat, open palm of your hand.
+Slap has 2 distinct senses.
+
+**1. To hit someone with the flat, open palm of your hand.** (шлёпать, шлёпнуть; давать пощёчину)
 
 1. She *slapped* him and walked out.
 2. Never *slap* a child across the face.
 3. He was *slapped* twice before he understood she meant it.
+
+**2. To impose a fine, tax, or penalty on someone, especially suddenly.** (налагать (штраф, пошлину), наложить; влепить (штраф))
+
+4. Regulators *slapped* the bank with a record fine.
+5. The city will *slap* a fee on plastic bags.
+6. He has been *slapped* with a lawsuit.
 
 ---
 
@@ -405,17 +519,31 @@ To fight against something harmful in order to stop it or reduce it.
 ### kill
 
 **Pronunciation:** /kɪl/ &middot; *KIL*
-**Русский:** убивать, убить
+**Русский:** убивать, убить; сильно болеть, ныть (о ногах, спине); доставлять сильную боль; прекращать, прекратить; зарубить (проект); заглушить (мотор), выключить
 **Forms:** *kill* &middot; *killed* &middot; *killed*
 **Verb class:** regular
 **Third person:** *kills* &middot; **-ing form:** *killing*
 **Transitivity:** both — transitive (*kill* a man), intransitive (smoking *kills*)
 
-To make a person, animal, or plant die.
+Kill has 3 distinct senses.
+
+**1. To make a person, animal, or plant die.** (убивать, убить)
 
 1. The crash *killed* two passengers.
 2. One hard frost can *kill* every plant in the yard.
 3. Thousands have been *killed* since the war began.
+
+**2. To cause someone a lot of physical pain.** (сильно болеть, ныть (о ногах, спине); доставлять сильную боль)
+
+4. My feet are *killing* me.
+5. That hike *killed* my knees.
+6. Cheap headphones *kill* my ears after an hour.
+
+**3. To stop something from going ahead or from running — a plan, a story, or a machine.** (прекращать, прекратить; зарубить (проект); заглушить (мотор), выключить)
+
+7. The committee *killed* the bill without a vote.
+8. *Kill* the engine before you open the hood.
+9. The story was *killed* an hour before the paper went to press.
 
 ---
 
@@ -457,18 +585,26 @@ To murder an important person, usually for political reasons.
 ### slaughter
 
 **Pronunciation:** /ˈslɔːtər/ &middot; *SLAW-tur*
-**Русский:** истреблять, устраивать бойню; забивать (скот)
+**Русский:** истреблять, устраивать бойню; забивать (скот); разгромить, разнести (в игре, на выборах)
 **Forms:** *slaughter* &middot; *slaughtered* &middot; *slaughtered*
 **Verb class:** regular
 **Third person:** *slaughters* &middot; **-ing form:** *slaughtering*
 **Transitivity:** transitive
 **Contrast:** The *gh* is silent, and it does not rhyme with *laughter*: SLAW-tur, LAF-tur.
 
-To kill people or animals in large numbers.
+Slaughter has 2 distinct senses.
+
+**1. To kill people or animals in large numbers.** (истреблять, устраивать бойню; забивать (скот))
 
 1. The invaders *slaughtered* everyone in the village.
 2. They *slaughter* the pigs in late autumn.
 3. Whole herds were being *slaughtered* to stop the disease.
+
+**2. To beat an opponent by a huge margin (informal).** (разгромить, разнести (в игре, на выборах))
+
+4. They *slaughtered* us forty-five to three.
+5. We got *slaughtered* in the second half.
+6. Any decent team would *slaughter* us right now.
 
 ---
 
@@ -493,17 +629,25 @@ To kill a large number of people who cannot defend themselves.
 ### execute
 
 **Pronunciation:** /ˈɛksɪkjuːt/ &middot; *EK-si-kyoot*
-**Русский:** казнить
+**Русский:** казнить; выполнять, выполнить; осуществлять, осуществить
 **Forms:** *execute* &middot; *executed* &middot; *executed*
 **Verb class:** regular
 **Third person:** *executes* &middot; **-ing form:** *executing*
 **Transitivity:** transitive
 
-To kill someone as a legal punishment.
+Execute has 2 distinct senses.
+
+**1. To kill someone as a legal punishment.** (казнить)
 
 1. The state *executed* him thirty years after the crime.
 2. No court in that country can *execute* a minor.
 3. Six prisoners were *executed* that spring.
+
+**2. To carry out a plan, an order, or a task.** (выполнять, выполнить; осуществлять, осуществить)
+
+4. The team *executed* the play perfectly.
+5. Someone has to *execute* the plan, not just write it.
+6. The order was *executed* within the hour.
 
 ---
 
@@ -562,52 +706,82 @@ To choose a particular person or place to attack or aim at.
 ### arm
 
 **Pronunciation:** /ɑːrm/ &middot; *AHRM*
-**Русский:** вооружать, вооружить
+**Русский:** вооружать, вооружить; ставить на боевой взвод; ставить на сигнализацию, включать (охрану)
 **Forms:** *arm* &middot; *armed* &middot; *armed*
 **Verb class:** regular
 **Third person:** *arms* &middot; **-ing form:** *arming*
 **Transitivity:** transitive
 
-To supply a person or group with weapons.
+Arm has 2 distinct senses.
+
+**1. To supply a person or group with weapons.** (вооружать, вооружить)
 
 1. Foreign governments *armed* both sides of the war.
 2. Nobody wants to *arm* a militia that cannot be controlled.
 3. The men were *armed* with rifles and knives.
+
+**2. To set a weapon or an alarm system so that it is ready to go off.** (ставить на боевой взвод; ставить на сигнализацию, включать (охрану))
+
+4. *Arm* the alarm before you leave the house.
+5. She *armed* the security system and locked the door.
+6. The device had already been *armed* when the squad arrived.
 
 ---
 
 ### disarm
 
 **Pronunciation:** /dɪsˈɑːrm/ &middot; *dis-AHRM*
-**Русский:** разоружать, разоружить; обезоруживать
+**Русский:** разоружать, разоружить; обезоруживать; отключать, отключить (сигнализацию); обезвреживать, обезвредить (бомбу); обезоруживать, обезоружить; располагать к себе
 **Forms:** *disarm* &middot; *disarmed* &middot; *disarmed*
 **Verb class:** regular
 **Third person:** *disarms* &middot; **-ing form:** *disarming*
 **Transitivity:** both — transitive (*disarm* the gunman), intransitive (both sides agreed to *disarm*)
 
-To take weapons away from a person or group, or to give up weapons.
+Disarm has 3 distinct senses.
+
+**1. To take weapons away from a person or group, or to give up weapons.** (разоружать, разоружить; обезоруживать)
 
 1. An officer *disarmed* him without firing a shot.
 2. The treaty required both armies to *disarm*.
 3. The rebels have been *disarmed* under the agreement.
+
+**2. To switch off an alarm system, or to make a bomb safe.** (отключать, отключить (сигнализацию); обезвреживать, обезвредить (бомбу))
+
+4. You have thirty seconds to *disarm* the alarm.
+5. A robot *disarmed* the device.
+6. The security system had not been *disarmed*.
+
+**3. To make someone stop feeling angry or suspicious, usually by being charming or honest.** (обезоруживать, обезоружить; располагать к себе)
+
+7. Humor can *disarm* an angry customer.
+8. His apology *disarmed* her completely.
+9. She has a way of *disarming* people who come in ready to fight.
 
 ---
 
 ### defend
 
 **Pronunciation:** /dɪˈfɛnd/ &middot; *di-FEND*
-**Русский:** защищать, защитить; оборонять
+**Русский:** защищать, защитить; оборонять; защищать титул, отстаивать звание
 **Forms:** *defend* &middot; *defended* &middot; *defended*
 **Verb class:** regular
 **Third person:** *defends* &middot; **-ing form:** *defending*
 **Transitivity:** both — transitive (*defend* the city), intransitive (they fought to *defend*)
 **Contrast:** You *defend* something *against* or *from* an attacker.
 
-To protect someone or something from attack.
+Defend has 2 distinct senses.
+
+**1. To protect someone or something from attack.** (защищать, защитить; оборонять)
 
 1. A hundred men *defended* the bridge for two days.
 2. She learned to *defend* herself as a teenager.
 3. The town had been *defended* by volunteers.
+
+**2. To compete in order to keep a title or championship you already hold.** (защищать титул, отстаивать звание)
+
+4. He will *defend* his title in Las Vegas this fall.
+5. She *defended* her Olympic gold four years later.
+6. The club is *defending* an unbeaten home record.
 
 ---
 
@@ -652,18 +826,26 @@ To stand between someone and danger so that they are not hurt.
 ### fortify
 
 **Pronunciation:** /ˈfɔːrtɪfaɪ/ &middot; *FOR-ti-fy*
-**Русский:** укреплять, укрепить (оборону)
+**Русский:** укреплять, укрепить (оборону); обогащать, обогатить (витаминами); витаминизировать
 **Forms:** *fortify* &middot; *fortified* &middot; *fortified*
 **Verb class:** regular
 **Third person:** *fortifies* &middot; **-ing form:** *fortifying*
 **Transitivity:** transitive
 **Contrast:** Consonant plus *-y*, so *y* becomes *-ie-*: *fortifies*, *fortified*.
 
-To build walls or defenses to make a place stronger against attack.
+Fortify has 2 distinct senses.
+
+**1. To build walls or defenses to make a place stronger against attack.** (укреплять, укрепить (оборону))
 
 1. The army *fortified* the hills above the road.
 2. They had three weeks to *fortify* the camp.
 3. Every village along the border has been *fortified*.
+
+**2. To add vitamins or minerals to a food or a drink.** (обогащать, обогатить (витаминами); витаминизировать)
+
+4. Most milk sold here is *fortified* with vitamin D.
+5. They *fortified* the flour with iron and folic acid.
+6. The program *fortifies* salt with iodine.
 
 ---
 
@@ -706,36 +888,64 @@ To make someone decide not to do something, usually by threat or fear.
 ### repel
 
 **Pronunciation:** /rɪˈpɛl/ &middot; *ri-PEL*
-**Русский:** отражать, отбивать (нападение)
+**Русский:** отражать, отбивать (нападение); вызывать отвращение, отталкивать; отталкивать (о магнитах); отпугивать, не пропускать (воду, насекомых)
 **Forms:** *repel* &middot; *repelled* &middot; *repelled*
 **Verb class:** regular
 **Third person:** *repels* &middot; **-ing form:** *repelling*
 **Transitivity:** transitive
 **Contrast:** Stress on the last syllable, so the *l* doubles: *repelled*, *repelling*.
 
-To drive an attacking force back and away.
+Repel has 3 distinct senses.
+
+**1. To drive an attacking force back and away.** (отражать, отбивать (нападение))
 
 1. The garrison *repelled* three assaults in one night.
 2. A small force can *repel* a bigger one from high ground.
 3. The attack was *repelled* before it reached the wall.
+
+**2. To make someone feel strong dislike or disgust.** (вызывать отвращение, отталкивать)
+
+4. The violence in the film *repelled* her.
+5. His table manners *repel* everyone in the office.
+6. I was *repelled* by the smell before I even opened the door.
+
+**3. To push something away by a force, or to keep it from getting in.** (отталкивать (о магнитах); отпугивать, не пропускать (воду, насекомых))
+
+7. Two magnets facing the same way *repel* each other.
+8. The spray *repelled* the mosquitoes all evening.
+9. This fabric is very good at *repelling* water.
 
 ---
 
 ### resist
 
 **Pronunciation:** /rɪˈzɪst/ &middot; *ri-ZIST*
-**Русский:** сопротивляться; противостоять
+**Русский:** сопротивляться; противостоять; удерживаться от, устоять перед (соблазном); быть устойчивым к, не поддаваться (жару, коррозии)
 **Forms:** *resist* &middot; *resisted* &middot; *resisted*
 **Verb class:** regular
 **Third person:** *resists* &middot; **-ing form:** *resisting*
 **Transitivity:** both — transitive (*resist* arrest), intransitive (the town did not *resist*)
 **Contrast:** No preposition: *resist the pressure*, not "resist to the pressure".
 
-To fight against something or refuse to accept it.
+Resist has 3 distinct senses.
+
+**1. To fight against something or refuse to accept it.** (сопротивляться; противостоять)
 
 1. The villagers *resisted* for nearly a month.
 2. He was charged with *resisting* arrest.
 3. Some of the old families have *resisted* every change.
+
+**2. To stop yourself from doing or taking something you want.** (удерживаться от, устоять перед (соблазном))
+
+4. I couldn't *resist* a second slice of cake.
+5. She *resisted* the urge to answer him.
+6. He has never been good at *resisting* a bargain.
+
+**3. For a material to stay undamaged by something that would normally harm it.** (быть устойчивым к, не поддаваться (жару, коррозии))
+
+7. Stainless steel *resists* rust better than iron.
+8. The coating *resisted* the salt water all winter.
+9. We need a fabric capable of *resisting* heat.
 
 ---
 
@@ -754,7 +964,7 @@ To stop someone or something from passing or from succeeding.
 2. One senator can *block* the whole bill.
 3. The road has been *blocked* since the fighting started.
 
-**Phrasal verbs:** [block in](53-phrasal-regular-a-c.md#block-in) &middot; [block off](53-phrasal-regular-a-c.md#block-off) &middot; [block out](53-phrasal-regular-a-c.md#block-out-1) &middot; [block out](53-phrasal-regular-a-c.md#block-out)
+**Phrasal verbs:** [block in](53-phrasal-regular-a-c.md#block-in) &middot; [block off](53-phrasal-regular-a-c.md#block-off) &middot; [block out](53-phrasal-regular-a-c.md#block-out) &middot; [block out](53-phrasal-regular-a-c.md#block-out-1)
 
 ---
 
@@ -778,18 +988,26 @@ To turn a blow, a shot, or an attack away from its target.
 ### dodge
 
 **Pronunciation:** /dɑːdʒ/ &middot; *DAHJ*
-**Русский:** уворачиваться, увернуться; уклоняться
+**Русский:** уворачиваться, увернуться; уклоняться; уклоняться, уклониться (от вопроса, обязанностей, налогов)
 **Forms:** *dodge* &middot; *dodged* &middot; *dodged*
 **Verb class:** regular
 **Third person:** *dodges* &middot; **-ing form:** *dodging*
 **Transitivity:** both — transitive (*dodge* the punch), intransitive (he *dodged* to the left)
 **Contrast:** The silent *e* drops before *-ing*: *dodging*, not "dodgeing".
 
-To move quickly aside to avoid being hit.
+Dodge has 2 distinct senses.
+
+**1. To move quickly aside to avoid being hit.** (уворачиваться, увернуться; уклоняться)
 
 1. He *dodged* the first punch and threw one back.
 2. You cannot *dodge* a bullet, whatever the movies say.
 3. She spent the whole interview *dodging* the question.
+
+**2. To avoid a question, a duty, or a payment by being clever about it.** (уклоняться, уклониться (от вопроса, обязанностей, налогов))
+
+4. The senator *dodged* the question twice.
+5. Some firms *dodge* taxes through offshore accounts.
+6. He spent the whole year *dodging* his responsibilities.
 
 ---
 
@@ -973,18 +1191,26 @@ To make someone do something by using force or threats.
 ### force
 
 **Pronunciation:** /fɔːrs/ &middot; *FORS*
-**Русский:** заставлять, заставить; принуждать
+**Русский:** заставлять, заставить; принуждать; взламывать, взломать; выламывать, выломать (дверь, замок)
 **Forms:** *force* &middot; *forced* &middot; *forced*
 **Verb class:** regular
 **Third person:** *forces* &middot; **-ing form:** *forcing*
 **Transitivity:** transitive
 **Contrast:** *Force someone to do* something — with *to*, unlike *make someone do*.
 
-To make someone do something they do not want to do.
+Force has 2 distinct senses.
+
+**1. To make someone do something they do not want to do.** (заставлять, заставить; принуждать)
 
 1. Hunger *forced* the defenders to surrender.
 2. Nobody can *force* you to testify against your husband.
 3. Hundreds of families are being *forced* out of the valley.
+
+**2. To open something by breaking it or by using physical strength.** (взламывать, взломать; выламывать, выломать (дверь, замок))
+
+4. They had to *force* the door to get her out.
+5. Someone *forced* the lock on the shed.
+6. The window had been *forced* from the outside.
 
 **Phrasal verbs:** [force back](54-phrasal-regular-d-f.md#force-back) &middot; [force down](54-phrasal-regular-d-f.md#force-down) &middot; [force on](54-phrasal-regular-d-f.md#force-on) &middot; [force out](54-phrasal-regular-d-f.md#force-out)
 
@@ -1116,18 +1342,32 @@ To criticize someone or something publicly and strongly.
 ### condemn
 
 **Pronunciation:** /kənˈdɛm/ &middot; *kun-DEM*
-**Русский:** осуждать, осудить; приговаривать
+**Русский:** осуждать, осудить; приговаривать; приговаривать, приговорить (к); обрекать; признавать аварийным (здание), признать непригодным для жилья
 **Forms:** *condemn* &middot; *condemned* &middot; *condemned*
 **Verb class:** regular
 **Third person:** *condemns* &middot; **-ing form:** *condemning*
 **Transitivity:** transitive
 **Contrast:** The final *n* is silent: kun-DEM — though you hear it in *condemnation*.
 
-To say very strongly that something or someone is wrong or evil.
+Condemn has 3 distinct senses.
+
+**1. To say very strongly that something or someone is wrong or evil.** (осуждать, осудить; приговаривать)
 
 1. Both governments *condemned* the bombing.
 2. It costs nothing to *condemn* violence in a speech.
 3. He was *condemned* to death by a military court.
+
+**2. To give someone a punishment, especially in a court of law.** (приговаривать, приговорить (к); обрекать)
+
+4. No judge wants to *condemn* a teenager to life in prison.
+5. The court *condemned* him to death in 1962.
+6. They were *condemned* to hard labor.
+
+**3. To declare officially that a building is too unsafe to be used.** (признавать аварийным (здание), признать непригодным для жилья)
+
+7. The city can *condemn* any building without a fire escape.
+8. Inspectors *condemned* the old school last spring.
+9. The house has been *condemned* and will be torn down.
 
 ---
 
@@ -1187,36 +1427,52 @@ To question whether something is right, or to invite someone to fight or compete
 ### defy
 
 **Pronunciation:** /dɪˈfaɪ/ &middot; *di-FY*
-**Русский:** бросать вызов; открыто не подчиняться
+**Русский:** бросать вызов; открыто не подчиняться; не поддаваться (объяснению, описанию)
 **Forms:** *defy* &middot; *defied* &middot; *defied*
 **Verb class:** regular
 **Third person:** *defies* &middot; **-ing form:** *defying*
 **Transitivity:** transitive
 **Contrast:** Consonant plus *-y*, so *y* becomes *-ie-*: *defies*, *defied* — but *defying* keeps the *y*.
 
-To refuse openly to obey a person, rule, or order.
+Defy has 2 distinct senses.
+
+**1. To refuse openly to obey a person, rule, or order.** (бросать вызов; открыто не подчиняться)
 
 1. Thousands *defied* the curfew that night.
 2. Few officers will *defy* a direct order.
 3. She has *defied* her family since she was sixteen.
+
+**2. To be impossible to explain, describe, or believe.** (не поддаваться (объяснению, описанию))
+
+4. The view from the ridge *defies* description.
+5. His comeback *defied* everyone's predictions.
+6. The test results have *defied* explanation so far.
 
 ---
 
 ### rally
 
 **Pronunciation:** /ˈræli/ &middot; *RAL-ee*
-**Русский:** собираться на митинг; сплачивать(ся)
+**Русский:** собираться на митинг; сплачивать(ся); оживать, восстанавливаться (о рынке, ценах); отыгрываться, отыграться
 **Forms:** *rally* &middot; *rallied* &middot; *rallied*
 **Verb class:** regular
 **Third person:** *rallies* &middot; **-ing form:** *rallying*
 **Transitivity:** both — transitive (*rally* supporters), intransitive (the crowd *rallied* downtown)
 **Contrast:** Consonant plus *-y*: *rallies*, *rallied*, but *rallying*.
 
-To come together, or bring people together, to support a cause or a leader.
+Rally has 2 distinct senses.
+
+**1. To come together, or bring people together, to support a cause or a leader.** (собираться на митинг; сплачивать(ся))
 
 1. Farmers *rallied* on the steps of the capitol.
 2. He can still *rally* a crowd in any small town.
 3. The party has *rallied* behind its new leader.
+
+**2. To recover and rise again after a fall in price, strength, or score.** (оживать, восстанавливаться (о рынке, ценах); отыгрываться, отыграться)
+
+4. Stocks usually *rally* when interest rates fall.
+5. The team *rallied* from seventeen points down to win.
+6. The market has *rallied* for three straight weeks.
 
 **Phrasal verbs:** [rally around](57-phrasal-regular-q-s.md#rally-around)
 
@@ -1296,18 +1552,26 @@ To fight against a government or authority, or to refuse to accept its control.
 ### revolt
 
 **Pronunciation:** /rɪˈvoʊlt/ &middot; *ri-VOHLT*
-**Русский:** восставать, поднимать восстание
+**Русский:** восставать, поднимать восстание; вызывать отвращение, внушать омерзение
 **Forms:** *revolt* &middot; *revolted* &middot; *revolted*
 **Verb class:** regular
 **Third person:** *revolts* &middot; **-ing form:** *revolting*
 **Transitivity:** intransitive
 **Contrast:** Takes *against*: *revolt against the king*.
 
-To rise up violently against a ruler or government.
+Revolt has 2 distinct senses.
+
+**1. To rise up violently against a ruler or government.** (восставать, поднимать восстание)
 
 1. The peasants *revolted* after the third bad harvest.
 2. Whole provinces may *revolt* if the tax goes through.
 3. Sailors were *revolting* in two ports at once.
+
+**2. To make someone feel sick or disgusted.** (вызывать отвращение, внушать омерзение)
+
+4. The smell of the fish *revolted* her.
+5. Cruelty to animals *revolts* most people.
+6. I was *revolted* by what I saw in the video.
 
 ---
 
@@ -1350,18 +1614,32 @@ To surround a port, road, or country so that nothing can go in or out.
 ### occupy
 
 **Pronunciation:** /ˈɑːkjəpaɪ/ &middot; *AHK-yuh-py*
-**Русский:** оккупировать; занимать (захватив)
+**Русский:** оккупировать; занимать (захватив); занимать (помещение, место, время); занимать (кого-л.), развлекать, отвлекать
 **Forms:** *occupy* &middot; *occupied* &middot; *occupied*
 **Verb class:** regular
 **Third person:** *occupies* &middot; **-ing form:** *occupying*
 **Transitivity:** transitive
 **Contrast:** Consonant plus *-y*: *occupies*, *occupied*, but *occupying*.
 
-To take control of a place by force and stay there.
+Occupy has 3 distinct senses.
+
+**1. To take control of a place by force and stay there.** (оккупировать; занимать (захватив))
 
 1. Troops *occupied* the airport within an hour.
 2. Students plan to *occupy* the administration building.
 3. The country was *occupied* for four years.
+
+**2. To live or work in a place, or to fill a space or a period of time.** (занимать (помещение, место, время))
+
+4. Her family *occupies* the top two floors.
+5. The meeting *occupied* the whole morning.
+6. Every seat in the theater was *occupied*.
+
+**3. To keep someone busy.** (занимать (кого-л.), развлекать, отвлекать)
+
+7. A box of crayons will *occupy* the kids for an hour.
+8. She *occupied* herself with a crossword while she waited.
+9. He kept the toddler *occupied* while I cooked.
 
 ---
 
@@ -1420,18 +1698,26 @@ To move people out of a dangerous place, or to leave it.
 ### abandon
 
 **Pronunciation:** /əˈbændən/ &middot; *uh-BAN-dun*
-**Русский:** покидать, покинуть; бросать, бросить
+**Русский:** покидать, покинуть; бросать, бросить; отказываться от, отказаться от; бросать, забросить (дело)
 **Forms:** *abandon* &middot; *abandoned* &middot; *abandoned*
 **Verb class:** regular
 **Third person:** *abandons* &middot; **-ing form:** *abandoning*
 **Transitivity:** transitive
 **Contrast:** The final *n* does not double: *abandoned*, not "abandonned".
 
-To leave a place, thing, or person that you are responsible for, and not return.
+Abandon has 2 distinct senses.
+
+**1. To leave a place, thing, or person that you are responsible for, and not return.** (покидать, покинуть; бросать, бросить)
 
 1. The crew *abandoned* the ship at midnight.
 2. They refused to *abandon* the wounded.
 3. The position had been *abandoned* days before.
+
+**2. To give up an activity, a plan, or a belief before it is finished or fulfilled.** (отказываться от, отказаться от; бросать, забросить (дело))
+
+4. They *abandoned* the search when it got dark.
+5. The city has *abandoned* plans for a new stadium.
+6. He refused to *abandon* hope of finding her.
 
 ---
 
@@ -1473,36 +1759,52 @@ To join the armed forces, or to get someone's help.
 ### deploy
 
 **Pronunciation:** /dɪˈplɔɪ/ &middot; *di-PLOY*
-**Русский:** развёртывать, размещать (войска)
+**Русский:** развёртывать, размещать (войска); срабатывать, сработать (о подушке безопасности); раскрываться, раскрыться (о парашюте)
 **Forms:** *deploy* &middot; *deployed* &middot; *deployed*
 **Verb class:** regular
 **Third person:** *deploys* &middot; **-ing form:** *deploying*
 **Transitivity:** transitive
 **Contrast:** The *y* follows a vowel, so it stays: *deployed*, *deploying*.
 
-To move soldiers or equipment into position for action.
+Deploy has 2 distinct senses.
+
+**1. To move soldiers or equipment into position for action.** (развёртывать, размещать (войска))
 
 1. The general *deployed* two brigades along the river.
 2. They may *deploy* more troops by the weekend.
 3. He has been *deployed* overseas three times.
+
+**2. To open out suddenly and go into operation, as an airbag or a parachute does.** (срабатывать, сработать (о подушке безопасности); раскрываться, раскрыться (о парашюте))
+
+4. The airbags *deploy* only in a serious crash.
+5. His parachute *deployed* at two thousand feet.
+6. The side airbag had not *deployed*.
 
 ---
 
 ### command
 
 **Pronunciation:** /kəˈmænd/ &middot; *kuh-MAND*
-**Русский:** командовать; приказывать
+**Русский:** командовать; приказывать; вызывать (уважение), пользоваться (авторитетом); стоить (о цене)
 **Forms:** *command* &middot; *commanded* &middot; *commanded*
 **Verb class:** regular
 **Third person:** *commands* &middot; **-ing form:** *commanding*
 **Transitivity:** both — transitive (*command* a regiment), intransitive (he was born to *command*)
 **Contrast:** The *a* is /æ/ as in *hand*: kuh-MAND, not "kuh-MAHND".
 
-To be in charge of soldiers, or to order someone to do something.
+Command has 2 distinct senses.
+
+**1. To be in charge of soldiers, or to order someone to do something.** (командовать; приказывать)
 
 1. She *commanded* a unit of two hundred men.
 2. He can *command* a room without raising his voice.
 3. The ship was *commanded* by an officer of twenty-six.
+
+**2. To be important or valuable enough to get respect, attention, or a high price.** (вызывать (уважение), пользоваться (авторитетом); стоить (о цене))
+
+4. Few teachers *command* that kind of respect.
+5. The painting *commanded* four million dollars at auction.
+6. Her work has *commanded* attention since her first show.
 
 ---
 
@@ -1527,54 +1829,78 @@ To gather soldiers or supporters and make them ready for action.
 ### betray
 
 **Pronunciation:** /bɪˈtreɪ/ &middot; *bi-TRAY*
-**Русский:** предавать, предать; выдавать
+**Русский:** предавать, предать; выдавать; выдавать, выдать (чувства); обнаруживать
 **Forms:** *betray* &middot; *betrayed* &middot; *betrayed*
 **Verb class:** regular
 **Third person:** *betrays* &middot; **-ing form:** *betraying*
 **Transitivity:** transitive
 **Contrast:** The *y* follows a vowel, so it stays: *betrayed*, *betraying*.
 
-To harm someone who trusts you, especially by helping their enemies.
+Betray has 2 distinct senses.
+
+**1. To harm someone who trusts you, especially by helping their enemies.** (предавать, предать; выдавать)
 
 1. A neighbor *betrayed* the family to the soldiers.
 2. He would never *betray* the people who hid him.
 3. She felt *betrayed* by everyone in the office.
+
+**2. To show a feeling you were trying to hide, without meaning to.** (выдавать, выдать (чувства); обнаруживать)
+
+4. His face *betrays* nothing.
+5. Her voice *betrayed* how nervous she was.
+6. A slight tremor in his hands had *betrayed* him.
 
 ---
 
 ### conspire
 
 **Pronunciation:** /kənˈspaɪər/ &middot; *kun-SPYR*
-**Русский:** сговариваться, устраивать заговор
+**Русский:** сговариваться, устраивать заговор; складываться неудачно (об обстоятельствах), сойтись
 **Forms:** *conspire* &middot; *conspired* &middot; *conspired*
 **Verb class:** regular
 **Third person:** *conspires* &middot; **-ing form:** *conspiring*
 **Transitivity:** intransitive
 **Contrast:** Takes *against* or *with*, and *to do* something: *conspired to kill him*.
 
-To plan something harmful or illegal secretly with other people.
+Conspire has 2 distinct senses.
+
+**1. To plan something harmful or illegal secretly with other people.** (сговариваться, устраивать заговор)
 
 1. Four officers *conspired* to overthrow the government.
 2. Nobody could prove the two men *conspire* at all.
 3. They were charged with *conspiring* against the state.
+
+**2. Of events or conditions, to seem to combine to produce a bad result.** (складываться неудачно (об обстоятельствах), сойтись)
+
+4. Bad weather and a flat tire *conspired* to ruin the trip.
+5. Everything seems to *conspire* against us on moving day.
+6. Traffic, rain, and a late train were *conspiring* to make him miss the wedding.
 
 ---
 
 ### plot
 
 **Pronunciation:** /plɑːt/ &middot; *PLAHT*
-**Русский:** замышлять, готовить заговор
+**Русский:** замышлять, готовить заговор; наносить на график, строить (график); прокладывать, проложить (курс)
 **Forms:** *plot* &middot; *plotted* &middot; *plotted*
 **Verb class:** regular
 **Third person:** *plots* &middot; **-ing form:** *plotting*
 **Transitivity:** both — transitive (*plot* a coup), intransitive (they *plotted* for months)
 **Contrast:** One short vowel plus one consonant, so the *t* doubles: *plotted*, *plotting*.
 
-To make a secret plan to do something harmful.
+Plot has 2 distinct senses.
+
+**1. To make a secret plan to do something harmful.** (замышлять, готовить заговор)
 
 1. Two generals *plotted* to seize the capital.
 2. Prisoners *plot* escapes they will never attempt.
 3. He had been *plotting* against his own brother.
+
+**2. To mark points or a route on a graph, a chart, or a map.** (наносить на график, строить (график); прокладывать, проложить (курс))
+
+4. *Plot* the results on a graph.
+5. The navigator *plotted* a course around the storm.
+6. Every case has been *plotted* on a city map.
 
 ---
 
@@ -1634,18 +1960,26 @@ To join people or groups together so that they act as one.
 ### subdue
 
 **Pronunciation:** /səbˈduː/ &middot; *sub-DOO*
-**Русский:** усмирять, подавлять; одолевать
+**Русский:** усмирять, подавлять; одолевать; приглушать, приглушить; сдерживать, подавлять (чувство)
 **Forms:** *subdue* &middot; *subdued* &middot; *subdued*
 **Verb class:** regular
 **Third person:** *subdues* &middot; **-ing form:** *subduing*
 **Transitivity:** transitive
 **Contrast:** The silent *e* drops before *-ing*: *subduing*.
 
-To bring a person or group under control by force.
+Subdue has 2 distinct senses.
+
+**1. To bring a person or group under control by force.** (усмирять, подавлять; одолевать)
 
 1. Three officers *subdued* the man on the platform.
 2. It took a year to *subdue* the last of the rebels.
 3. He was *subdued* and handcuffed within seconds.
+
+**2. To make a feeling, a sound, or a color less strong.** (приглушать, приглушить; сдерживать, подавлять (чувство))
+
+4. She *subdued* her anger and answered politely.
+5. Soft lighting can *subdue* the mood of a whole room.
+6. The music was *subdued* so that guests could hear each other.
 
 ---
 
@@ -1723,17 +2057,25 @@ To take someone to a police station because they are suspected of a crime.
 ### detain
 
 **Pronunciation:** /dɪˈteɪn/ &middot; *di-TAYN*
-**Русский:** задерживать, задержать; заключать под стражу
+**Русский:** задерживать, задержать; заключать под стражу; задерживать, задержать (кого-л.), отнимать время
 **Forms:** *detain* &middot; *detained* &middot; *detained*
 **Verb class:** regular
 **Third person:** *detains* &middot; **-ing form:** *detaining*
 **Transitivity:** transitive
 
-To keep someone in official custody and not let them leave.
+Detain has 2 distinct senses.
+
+**1. To keep someone in official custody and not let them leave.** (задерживать, задержать; заключать под стражу)
 
 1. Border guards *detained* him for six hours.
 2. They can *detain* a suspect for two days without charges.
 3. Dozens are still being *detained* without trial.
+
+**2. To keep someone from leaving or going on, so that they are late.** (задерживать, задержать (кого-л.), отнимать время)
+
+4. I won't *detain* you long.
+5. A long phone call *detained* him at the office.
+6. We were *detained* by traffic and missed the first act.
 
 ---
 
@@ -1867,17 +2209,25 @@ To make sure that a law or rule is obeyed.
 ### violate
 
 **Pronunciation:** /ˈvaɪəleɪt/ &middot; *VY-uh-layt*
-**Русский:** нарушать, нарушить (закон, договор)
+**Русский:** нарушать, нарушить (закон, договор); посягать на, нарушать (неприкосновенность); вторгаться
 **Forms:** *violate* &middot; *violated* &middot; *violated*
 **Verb class:** regular
 **Third person:** *violates* &middot; **-ing form:** *violating*
 **Transitivity:** transitive
 
-To break a law, rule, or agreement.
+Violate has 2 distinct senses.
+
+**1. To break a law, rule, or agreement.** (нарушать, нарушить (закон, договор))
 
 1. Both sides *violated* the ceasefire within a week.
 2. That order would *violate* international law.
 3. He was arrested for *violating* the restraining order.
+
+**2. To intrude on someone's privacy or body, or on a place people treat as sacred.** (посягать на, нарушать (неприкосновенность); вторгаться)
+
+4. Searching her phone would *violate* her privacy.
+5. Vandals *violated* several graves in the old cemetery.
+6. She felt *violated* for weeks after the break-in.
 
 ---
 
@@ -1920,18 +2270,26 @@ To become involved in a conflict in order to change what is happening.
 ### escalate
 
 **Pronunciation:** /ˈɛskəleɪt/ &middot; *ES-kuh-layt*
-**Русский:** обостряться, нарастать; обострять
+**Русский:** обостряться, нарастать; обострять; передавать выше (по инстанции), эскалировать (обращение)
 **Forms:** *escalate* &middot; *escalated* &middot; *escalated*
 **Verb class:** regular
 **Third person:** *escalates* &middot; **-ing form:** *escalating*
 **Transitivity:** both — intransitive (the fight *escalated*), transitive (*escalate* the conflict)
 **Contrast:** Takes *into*: *escalated into a war*.
 
-To become more serious or violent, or to make something do so.
+Escalate has 2 distinct senses.
+
+**1. To become more serious or violent, or to make something do so.** (обостряться, нарастать; обострять)
 
 1. The argument *escalated* into a brawl.
 2. One more raid could *escalate* the whole thing.
 3. Tensions have been *escalating* since the election.
+
+**2. To pass a problem to someone with more authority so that it gets solved.** (передавать выше (по инстанции), эскалировать (обращение))
+
+4. If the agent can't help, ask her to *escalate* the ticket.
+5. I *escalated* the complaint to a supervisor.
+6. The case has been *escalated* to the legal department.
 
 ---
 
@@ -1956,18 +2314,26 @@ To make a bomb safe, or to make a dangerous situation calmer.
 ### struggle
 
 **Pronunciation:** /ˈstrʌɡəl/ &middot; *STRUG-ul*
-**Русский:** бороться; с трудом справляться
+**Русский:** бороться; с трудом справляться; с трудом справляться, испытывать трудности; еле справляться
 **Forms:** *struggle* &middot; *struggled* &middot; *struggled*
 **Verb class:** regular
 **Third person:** *struggles* &middot; **-ing form:** *struggling*
 **Transitivity:** intransitive
 **Contrast:** Takes *with*, *against*, or *for*: *struggle against the current*.
 
-To fight hard against someone or something, especially when you are losing.
+Struggle has 2 distinct senses.
+
+**1. To fight hard against someone or something, especially when you are losing.** (бороться; с трудом справляться)
 
 1. She *struggled* with the man until he let go.
 2. They still *struggle* for basic rights in that region.
 3. He has been *struggling* against the ruling for years.
+
+**2. To find something very difficult to do.** (с трудом справляться, испытывать трудности; еле справляться)
+
+4. Some students *struggle* with word problems.
+5. She *struggled* to pay rent last winter.
+6. The team has been *struggling* all season.
 
 ---
 

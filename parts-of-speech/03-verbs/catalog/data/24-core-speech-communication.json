@@ -6,14 +6,58 @@
       "term": "add",
       "ipa": "/æd/",
       "respell": "AD",
-      "meaning": "To say something more after what has already been said. ---",
+      "meaning": "Add has 3 distinct senses.",
       "examples": [
         "\"And bring your passport,\" she added.",
         "Would you like to add anything before we finish?",
-        "He has added a note at the bottom of the letter."
+        "He has added a note at the bottom of the letter.",
+        "If you add 15 and 27, you get 42.",
+        "She added the three columns twice to be sure.",
+        "He checked the bill, adding the figures in his head.",
+        "Add a little salt to the sauce.",
+        "They added a second bathroom last year.",
+        "We are adding two more chairs to the table."
       ],
-      "senses": [],
-      "русский": "добавлять, добавить (сказать ещё)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say something more after what has already been said",
+          "body": [
+            "(добавлять, добавить (сказать ещё))"
+          ],
+          "examples": [
+            "\"And bring your passport,\" she added.",
+            "Would you like to add anything before we finish?",
+            "He has added a note at the bottom of the letter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put two or more numbers together to get a total",
+          "body": [
+            "(складывать, сложить (числа); прибавлять, прибавить)"
+          ],
+          "examples": [
+            "If you add 15 and 27, you get 42.",
+            "She added the three columns twice to be sure.",
+            "He checked the bill, adding the figures in his head."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To put something with something else to make it bigger, better, or complete",
+          "body": [
+            "(добавлять, добавить; прибавлять)",
+            "---"
+          ],
+          "examples": [
+            "Add a little salt to the sauce.",
+            "They added a second bathroom last year.",
+            "We are adding two more chairs to the table."
+          ]
+        }
+      ],
+      "русский": "добавлять, добавить (сказать ещё); складывать, сложить (числа); прибавлять, прибавить; добавлять, добавить; прибавлять",
       "forms": "add · added · added",
       "verb class": "regular",
       "third person": "adds · -ing form: adding",
@@ -24,14 +68,58 @@
       "term": "address",
       "ipa": "/əˈdrɛs/",
       "respell": "uh-DRES",
-      "meaning": "To speak formally to a person or a group. ---",
+      "meaning": "Address has 3 distinct senses.",
       "examples": [
         "The mayor will address the city council tonight.",
         "She addressed the crowd from the steps of the library.",
-        "He was addressing the students when the fire alarm went off."
+        "He was addressing the students when the fire alarm went off.",
+        "The mayor promised to address the housing shortage.",
+        "Your letter addressed none of my questions.",
+        "The report has addressed every complaint on the list.",
+        "Address the envelope to the head office.",
+        "The package was addressed to my old apartment.",
+        "She spent the morning addressing holiday cards."
       ],
-      "senses": [],
-      "русский": "обращаться, обратиться (к кому-л.); выступать перед",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To speak formally to a person or a group",
+          "body": [
+            "(обращаться, обратиться (к кому-л.); выступать перед)"
+          ],
+          "examples": [
+            "The mayor will address the city council tonight.",
+            "She addressed the crowd from the steps of the library.",
+            "He was addressing the students when the fire alarm went off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give attention to a problem and try to deal with it",
+          "body": [
+            "(заниматься (проблемой), решать; рассматривать (вопрос))"
+          ],
+          "examples": [
+            "The mayor promised to address the housing shortage.",
+            "Your letter addressed none of my questions.",
+            "The report has addressed every complaint on the list."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To write on a letter or package the name and place it is being sent to",
+          "body": [
+            "(адресовать, надписывать адрес)",
+            "---"
+          ],
+          "examples": [
+            "Address the envelope to the head office.",
+            "The package was addressed to my old apartment.",
+            "She spent the morning addressing holiday cards."
+          ]
+        }
+      ],
+      "русский": "обращаться, обратиться (к кому-л.); выступать перед; заниматься (проблемой), решать; рассматривать (вопрос); адресовать, надписывать адрес",
       "forms": "address · addressed · addressed",
       "verb class": "regular",
       "third person": "addresses · -ing form: addressing",
@@ -42,14 +130,43 @@
       "term": "admit",
       "ipa": "/ədˈmɪt/",
       "respell": "uhd-MIT",
-      "meaning": "To agree, often unwillingly, that something bad or embarrassing is true. ---",
+      "meaning": "Admit has 2 distinct senses.",
       "examples": [
         "I admit I was wrong about the date.",
         "She finally admitted that she had forgotten his birthday.",
-        "He has never admitted his part in it."
+        "He has never admitted his part in it.",
+        "This ticket admits two people.",
+        "The college admitted only a tenth of its applicants.",
+        "She was admitted to the hospital overnight."
       ],
-      "senses": [],
-      "русский": "признавать, признать; сознаваться, сознаться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To agree, often unwillingly, that something bad or embarrassing is true",
+          "body": [
+            "(признавать, признать; сознаваться, сознаться)"
+          ],
+          "examples": [
+            "I admit I was wrong about the date.",
+            "She finally admitted that she had forgotten his birthday.",
+            "He has never admitted his part in it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To allow someone to enter a place, a school, or a hospital",
+          "body": [
+            "(впускать, впустить; принимать, принять (в больницу, в вуз))",
+            "---"
+          ],
+          "examples": [
+            "This ticket admits two people.",
+            "The college admitted only a tenth of its applicants.",
+            "She was admitted to the hospital overnight."
+          ]
+        }
+      ],
+      "русский": "признавать, признать; сознаваться, сознаться; впускать, впустить; принимать, принять (в больницу, в вуз)",
       "forms": "admit · admitted · admitted",
       "verb class": "regular",
       "third person": "admits · -ing form: admitting",
@@ -61,14 +178,43 @@
       "term": "advise",
       "ipa": "/ədˈvaɪz/",
       "respell": "uhd-VYZ",
-      "meaning": "To tell someone what you think they should do. ---",
+      "meaning": "Advise has 2 distinct senses.",
       "examples": [
         "The doctor advised him to rest for a week.",
         "I'd advise you to read the contract twice.",
-        "She has been advising the company since January."
+        "She has been advising the company since January.",
+        "Please advise us of any change of address.",
+        "We were advised that the flight had been canceled.",
+        "The clerk is advising passengers of the delay."
       ],
-      "senses": [],
-      "русский": "советовать, посоветовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To tell someone what you think they should do",
+          "body": [
+            "(советовать, посоветовать)"
+          ],
+          "examples": [
+            "The doctor advised him to rest for a week.",
+            "I'd advise you to read the contract twice.",
+            "She has been advising the company since January."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To tell someone a piece of information formally or officially",
+          "body": [
+            "(уведомлять, уведомить; извещать, сообщать)",
+            "---"
+          ],
+          "examples": [
+            "Please advise us of any change of address.",
+            "We were advised that the flight had been canceled.",
+            "The clerk is advising passengers of the delay."
+          ]
+        }
+      ],
+      "русский": "советовать, посоветовать; уведомлять, уведомить; извещать, сообщать",
       "forms": "advise · advised · advised",
       "verb class": "regular",
       "third person": "advises · -ing form: advising",
@@ -153,14 +299,58 @@
       "term": "ask",
       "ipa": "/æsk/",
       "respell": "ASK",
-      "meaning": "To say something to someone in order to get an answer or a favor. ---",
+      "meaning": "Ask has 3 distinct senses.",
       "examples": [
         "Can I ask you something?",
         "She asked me where the bathroom was.",
-        "Nobody has asked about the money yet."
+        "Nobody has asked about the money yet.",
+        "How much are they asking for the house on the corner?",
+        "He asked too much for the old truck, so nobody bought it.",
+        "Don't ask more than the car is actually worth.",
+        "They asked nearly a hundred people to the wedding.",
+        "We're asking the neighbors to dinner on Saturday.",
+        "I haven't asked him to the party yet."
       ],
-      "senses": [],
-      "русский": "спрашивать, спросить; просить, попросить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say something to someone in order to get an answer or a favor",
+          "body": [
+            "(спрашивать, спросить; просить, попросить)"
+          ],
+          "examples": [
+            "Can I ask you something?",
+            "She asked me where the bathroom was.",
+            "Nobody has asked about the money yet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To want a particular price for something you are selling",
+          "body": [
+            "(просить (цену), запрашивать)"
+          ],
+          "examples": [
+            "How much are they asking for the house on the corner?",
+            "He asked too much for the old truck, so nobody bought it.",
+            "Don't ask more than the car is actually worth."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To invite someone to an event or to your home",
+          "body": [
+            "(приглашать, пригласить (в гости, на праздник))",
+            "---"
+          ],
+          "examples": [
+            "They asked nearly a hundred people to the wedding.",
+            "We're asking the neighbors to dinner on Saturday.",
+            "I haven't asked him to the party yet."
+          ]
+        }
+      ],
+      "русский": "спрашивать, спросить; просить, попросить; просить (цену), запрашивать; приглашать, пригласить (в гости, на праздник)",
       "forms": "ask · asked · asked",
       "verb class": "regular",
       "third person": "asks · -ing form: asking",
@@ -245,14 +435,58 @@
       "term": "call",
       "ipa": "/kɔːl/",
       "respell": "KAWL",
-      "meaning": "To telephone someone, or to say someone's name loudly to get their attention. ---",
+      "meaning": "Call has 3 distinct senses.",
       "examples": [
         "Call me when you land.",
         "I called the office twice this morning.",
-        "Somebody has been calling and hanging up."
+        "Somebody has been calling and hanging up.",
+        "They called the baby Maya.",
+        "What do you call this in English?",
+        "The street was once called Mill Road.",
+        "The governor called a special session.",
+        "The union has called a strike for Monday.",
+        "The coach calls a timeout with a minute left."
       ],
-      "senses": [],
-      "русский": "звонить, позвонить; звать, позвать; называть, назвать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To telephone someone, or to say someone's name loudly to get their attention",
+          "body": [
+            "(звонить, позвонить; звать, позвать; называть, назвать)"
+          ],
+          "examples": [
+            "Call me when you land.",
+            "I called the office twice this morning.",
+            "Somebody has been calling and hanging up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give someone or something a name, or to use a particular name for them",
+          "body": [
+            "(называть, назвать; звать (по имени))"
+          ],
+          "examples": [
+            "They called the baby Maya.",
+            "What do you call this in English?",
+            "The street was once called Mill Road."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To order something official to take place and summon people to it",
+          "body": [
+            "(созывать, созвать; объявлять, объявить (забастовку, собрание))",
+            "---"
+          ],
+          "examples": [
+            "The governor called a special session.",
+            "The union has called a strike for Monday.",
+            "The coach calls a timeout with a minute left."
+          ]
+        }
+      ],
+      "русский": "звонить, позвонить; звать, позвать; называть, назвать; называть, назвать; звать (по имени); созывать, созвать; объявлять, объявить (забастовку, собрание)",
       "forms": "call · called · called",
       "verb class": "regular",
       "third person": "calls · -ing form: calling",
@@ -281,14 +515,43 @@
       "term": "chatter",
       "ipa": "/ˈtʃætər/",
       "respell": "CHAT-ur",
-      "meaning": "To talk quickly and continuously about unimportant things. ---",
+      "meaning": "Chatter has 2 distinct senses.",
       "examples": [
         "The kids chatter the whole way to school.",
         "She chattered nervously while we waited.",
-        "I could hear them chattering in the next room."
+        "I could hear them chattering in the next room.",
+        "His teeth were chattering by the time we got inside.",
+        "My teeth chattered all the way home.",
+        "Her teeth chatter whenever she climbs out of the pool."
       ],
-      "senses": [],
-      "русский": "болтать, тараторить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To talk quickly and continuously about unimportant things",
+          "body": [
+            "(болтать, тараторить)"
+          ],
+          "examples": [
+            "The kids chatter the whole way to school.",
+            "She chattered nervously while we waited.",
+            "I could hear them chattering in the next room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "(of teeth) To knock together quickly because of cold or fear",
+          "body": [
+            "(стучать (о зубах), клацать зубами)",
+            "---"
+          ],
+          "examples": [
+            "His teeth were chattering by the time we got inside.",
+            "My teeth chattered all the way home.",
+            "Her teeth chatter whenever she climbs out of the pool."
+          ]
+        }
+      ],
+      "русский": "болтать, тараторить; стучать (о зубах), клацать зубами",
       "forms": "chatter · chattered · chattered",
       "verb class": "regular",
       "third person": "chatters · -ing form: chattering",
@@ -316,14 +579,58 @@
       "term": "claim",
       "ipa": "/kleɪm/",
       "respell": "KLAYM",
-      "meaning": "To say that something is true even though it has not been proved. ---",
+      "meaning": "Claim has 3 distinct senses.",
       "examples": [
         "He claims he never got the email.",
         "She claimed to be a doctor.",
-        "Two groups have claimed responsibility."
+        "Two groups have claimed responsibility.",
+        "You can claim a refund within thirty days.",
+        "She claimed the prize the next morning.",
+        "Nobody has claimed the wallet that was turned in.",
+        "House fires claim hundreds of lives every winter.",
+        "The storm claimed four lives in one county.",
+        "The crash has claimed a fifth victim."
       ],
-      "senses": [],
-      "русский": "утверждать; заявлять, заявить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say that something is true even though it has not been proved",
+          "body": [
+            "(утверждать; заявлять, заявить)"
+          ],
+          "examples": [
+            "He claims he never got the email.",
+            "She claimed to be a doctor.",
+            "Two groups have claimed responsibility."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To officially ask for money or property that you have a right to",
+          "body": [
+            "(требовать, востребовать; получать по праву, оформлять (возврат))"
+          ],
+          "examples": [
+            "You can claim a refund within thirty days.",
+            "She claimed the prize the next morning.",
+            "Nobody has claimed the wallet that was turned in."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Of an accident or a disaster, to take someone's life",
+          "body": [
+            "(уносить, унести (жизни))",
+            "---"
+          ],
+          "examples": [
+            "House fires claim hundreds of lives every winter.",
+            "The storm claimed four lives in one county.",
+            "The crash has claimed a fifth victim."
+          ]
+        }
+      ],
+      "русский": "утверждать; заявлять, заявить; требовать, востребовать; получать по праву, оформлять (возврат); уносить, унести (жизни)",
       "forms": "claim · claimed · claimed",
       "verb class": "regular",
       "third person": "claims · -ing form: claiming",
@@ -444,14 +751,43 @@
       "term": "confirm",
       "ipa": "/kənˈfɜːrm/",
       "respell": "kuhn-FURM",
-      "meaning": "To say officially that something is true or definite. ---",
+      "meaning": "Confirm has 2 distinct senses.",
       "examples": [
         "Please confirm your appointment by Friday.",
         "The airline confirmed the flight this morning.",
-        "The rumor has not been confirmed."
+        "The rumor has not been confirmed.",
+        "The Senate has to confirm every federal judge.",
+        "Lawmakers confirmed her as attorney general.",
+        "He was confirmed by a single vote."
       ],
-      "senses": [],
-      "русский": "подтверждать, подтвердить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say officially that something is true or definite",
+          "body": [
+            "(подтверждать, подтвердить)"
+          ],
+          "examples": [
+            "Please confirm your appointment by Friday.",
+            "The airline confirmed the flight this morning.",
+            "The rumor has not been confirmed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of a legislature, to approve someone's appointment to an office",
+          "body": [
+            "(утверждать, утвердить (в должности, кандидатуру))",
+            "---"
+          ],
+          "examples": [
+            "The Senate has to confirm every federal judge.",
+            "Lawmakers confirmed her as attorney general.",
+            "He was confirmed by a single vote."
+          ]
+        }
+      ],
+      "русский": "подтверждать, подтвердить; утверждать, утвердить (в должности, кандидатуру)",
       "forms": "confirm · confirmed · confirmed",
       "verb class": "regular",
       "third person": "confirms · -ing form: confirming",
@@ -480,14 +816,43 @@
       "term": "consult",
       "ipa": "/kənˈsʌlt/",
       "respell": "kuhn-SULT",
-      "meaning": "To ask a person or a book for information or advice. ---",
+      "meaning": "Consult has 2 distinct senses.",
       "examples": [
         "You should consult a doctor about that cough.",
         "She consulted her notes before answering.",
-        "They are consulting with the city about the permit."
+        "They are consulting with the city about the permit.",
+        "She consults for two hospitals in the area.",
+        "After he retired, he consulted part-time.",
+        "He has been consulting for startups since 2019."
       ],
-      "senses": [],
-      "русский": "советоваться, посоветоваться; консультироваться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To ask a person or a book for information or advice",
+          "body": [
+            "(советоваться, посоветоваться; консультироваться)"
+          ],
+          "examples": [
+            "You should consult a doctor about that cough.",
+            "She consulted her notes before answering.",
+            "They are consulting with the city about the permit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To work as an outside expert for a company, usually for a fee",
+          "body": [
+            "(консультировать, работать консультантом)",
+            "---"
+          ],
+          "examples": [
+            "She consults for two hospitals in the area.",
+            "After he retired, he consulted part-time.",
+            "He has been consulting for startups since 2019."
+          ]
+        }
+      ],
+      "русский": "советоваться, посоветоваться; консультироваться; консультировать, работать консультантом",
       "forms": "consult · consulted · consulted",
       "verb class": "regular",
       "third person": "consults · -ing form: consulting",
@@ -498,14 +863,43 @@
       "term": "contradict",
       "ipa": "/ˌkɑːntrəˈdɪkt/",
       "respell": "kahn-truh-DIKT",
-      "meaning": "To say the opposite of what someone else has said. ---",
+      "meaning": "Contradict has 2 distinct senses.",
       "examples": [
         "Don't contradict your grandmother at the table.",
         "His second story contradicted the first.",
-        "She has been contradicting herself all morning."
+        "She has been contradicting herself all morning.",
+        "The new figures contradict last year's report.",
+        "His second statement contradicted the first.",
+        "The two witnesses have contradicted each other on every detail."
       ],
-      "senses": [],
-      "русский": "противоречить; возражать, возразить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say the opposite of what someone else has said",
+          "body": [
+            "(противоречить; возражать, возразить)"
+          ],
+          "examples": [
+            "Don't contradict your grandmother at the table.",
+            "His second story contradicted the first.",
+            "She has been contradicting herself all morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be so different from another fact or statement that both cannot be true",
+          "body": [
+            "(противоречить, расходиться с (фактами))",
+            "---"
+          ],
+          "examples": [
+            "The new figures contradict last year's report.",
+            "His second statement contradicted the first.",
+            "The two witnesses have contradicted each other on every detail."
+          ]
+        }
+      ],
+      "русский": "противоречить; возражать, возразить; противоречить, расходиться с (фактами)",
       "forms": "contradict · contradicted · contradicted",
       "verb class": "regular",
       "third person": "contradicts · -ing form: contradicting",
@@ -550,14 +944,43 @@
       "term": "debate",
       "ipa": "/dɪˈbeɪt/",
       "respell": "dih-BAYT",
-      "meaning": "To discuss a question formally, with people giving opposite opinions. ---",
+      "meaning": "Debate has 2 distinct senses.",
       "examples": [
         "The two candidates will debate on Tuesday.",
         "Congress debated the bill for three days.",
-        "The issue is still being debated."
+        "The issue is still being debated.",
+        "I debated whether to call her.",
+        "He's still debating which offer to take.",
+        "Don't debate it too long — the sale ends tonight."
       ],
-      "senses": [],
-      "русский": "обсуждать, обсудить; спорить, дискутировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To discuss a question formally, with people giving opposite opinions",
+          "body": [
+            "(обсуждать, обсудить; спорить, дискутировать)"
+          ],
+          "examples": [
+            "The two candidates will debate on Tuesday.",
+            "Congress debated the bill for three days.",
+            "The issue is still being debated."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To think something over carefully, weighing two choices",
+          "body": [
+            "(раздумывать, колебаться, прикидывать)",
+            "---"
+          ],
+          "examples": [
+            "I debated whether to call her.",
+            "He's still debating which offer to take.",
+            "Don't debate it too long — the sale ends tonight."
+          ]
+        }
+      ],
+      "русский": "обсуждать, обсудить; спорить, дискутировать; раздумывать, колебаться, прикидывать",
       "forms": "debate · debated · debated",
       "verb class": "regular",
       "third person": "debates · -ing form: debating",
@@ -584,14 +1007,43 @@
       "term": "define",
       "ipa": "/dɪˈfaɪn/",
       "respell": "dih-FYN",
-      "meaning": "To say exactly what a word means or what something is. ---",
+      "meaning": "Define has 2 distinct senses.",
       "examples": [
         "How would you define \"success\"?",
         "The contract defined his duties clearly.",
-        "The border has never been clearly defined."
+        "The border has never been clearly defined.",
+        "One bad season should not define a career.",
+        "That summer defined their friendship.",
+        "She refuses to be defined by her illness."
       ],
-      "senses": [],
-      "русский": "определять, определить; давать определение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say exactly what a word means or what something is",
+          "body": [
+            "(определять, определить; давать определение)"
+          ],
+          "examples": [
+            "How would you define \"success\"?",
+            "The contract defined his duties clearly.",
+            "The border has never been clearly defined."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be the thing that gives someone or something its essential character",
+          "body": [
+            "(определять сущность, формировать облик; характеризовать)",
+            "---"
+          ],
+          "examples": [
+            "One bad season should not define a career.",
+            "That summer defined their friendship.",
+            "She refuses to be defined by her illness."
+          ]
+        }
+      ],
+      "русский": "определять, определить; давать определение; определять сущность, формировать облик; характеризовать",
       "forms": "define · defined · defined",
       "verb class": "regular",
       "third person": "defines · -ing form: defining",
@@ -601,14 +1053,43 @@
       "term": "demand",
       "ipa": "/dɪˈmænd/",
       "respell": "dih-MAND",
-      "meaning": "To ask for something very firmly, as if you have a right to it. ---",
+      "meaning": "Demand has 2 distinct senses.",
       "examples": [
         "The workers demand a written answer.",
         "She demanded to see the manager.",
-        "They are demanding an apology."
+        "They are demanding an apology.",
+        "This job demands patience.",
+        "The recipe demanded three hours of rising time.",
+        "The case has demanded months of work."
       ],
-      "senses": [],
-      "русский": "требовать, потребовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To ask for something very firmly, as if you have a right to it",
+          "body": [
+            "(требовать, потребовать)"
+          ],
+          "examples": [
+            "The workers demand a written answer.",
+            "She demanded to see the manager.",
+            "They are demanding an apology."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To need something as a necessary condition",
+          "body": [
+            "(требовать (о работе, деле), нуждаться в)",
+            "---"
+          ],
+          "examples": [
+            "This job demands patience.",
+            "The recipe demanded three hours of rising time.",
+            "The case has demanded months of work."
+          ]
+        }
+      ],
+      "русский": "требовать, потребовать; требовать (о работе, деле), нуждаться в",
       "forms": "demand · demanded · demanded",
       "verb class": "regular",
       "third person": "demands · -ing form: demanding",
@@ -796,14 +1277,43 @@
       "term": "greet",
       "ipa": "/ɡriːt/",
       "respell": "GREET",
-      "meaning": "To say hello to someone when you meet them. ---",
+      "meaning": "Greet has 2 distinct senses.",
       "examples": [
         "He greets every customer by name.",
         "She greeted us at the door.",
-        "We were greeted by a very loud dog."
+        "We were greeted by a very loud dog.",
+        "The announcement was greeted with boos.",
+        "Fans greeted the trade with relief.",
+        "Voters greet every tax hike with anger."
       ],
-      "senses": [],
-      "русский": "приветствовать, поприветствовать; здороваться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say hello to someone when you meet them",
+          "body": [
+            "(приветствовать, поприветствовать; здороваться)"
+          ],
+          "examples": [
+            "He greets every customer by name.",
+            "She greeted us at the door.",
+            "We were greeted by a very loud dog."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To react to news or to someone's work in a particular way",
+          "body": [
+            "(встречать (реакцией), принимать, воспринять)",
+            "---"
+          ],
+          "examples": [
+            "The announcement was greeted with boos.",
+            "Fans greeted the trade with relief.",
+            "Voters greet every tax hike with anger."
+          ]
+        }
+      ],
+      "русский": "приветствовать, поприветствовать; здороваться; встречать (реакцией), принимать, воспринять",
       "forms": "greet · greeted · greeted",
       "verb class": "regular",
       "third person": "greets · -ing form: greeting",
@@ -866,14 +1376,43 @@
       "term": "inform",
       "ipa": "/ɪnˈfɔːrm/",
       "respell": "in-FORM",
-      "meaning": "To tell someone about something officially. ---",
+      "meaning": "Inform has 2 distinct senses.",
       "examples": [
         "Please inform the office of any change of address.",
         "They informed us by letter.",
-        "We were never informed about the meeting."
+        "We were never informed about the meeting.",
+        "Her years as a nurse inform everything she writes.",
+        "The decision was informed by two long studies.",
+        "Fresh data is informing every choice the team makes."
       ],
-      "senses": [],
-      "русский": "сообщать, сообщить; информировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To tell someone about something officially",
+          "body": [
+            "(сообщать, сообщить; информировать)"
+          ],
+          "examples": [
+            "Please inform the office of any change of address.",
+            "They informed us by letter.",
+            "We were never informed about the meeting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To shape something and give it its character",
+          "body": [
+            "(определять, формировать; лежать в основе)",
+            "---"
+          ],
+          "examples": [
+            "Her years as a nurse inform everything she writes.",
+            "The decision was informed by two long studies.",
+            "Fresh data is informing every choice the team makes."
+          ]
+        }
+      ],
+      "русский": "сообщать, сообщить; информировать; определять, формировать; лежать в основе",
       "forms": "inform · informed · informed",
       "verb class": "regular",
       "third person": "informs · -ing form: informing",
@@ -923,14 +1462,43 @@
       "term": "instruct",
       "ipa": "/ɪnˈstrʌkt/",
       "respell": "in-STRUKT",
-      "meaning": "To tell someone officially what they must do. ---",
+      "meaning": "Instruct has 2 distinct senses.",
       "examples": [
         "The judge will instruct the jury this afternoon.",
         "She instructed the class to put their phones away.",
-        "We were instructed to wait outside."
+        "We were instructed to wait outside.",
+        "She instructs beginners in the pool on Saturday mornings.",
+        "A retired pilot instructed our ground school class.",
+        "He has been instructing teenagers in woodworking for twenty years."
       ],
-      "senses": [],
-      "русский": "инструктировать; давать указания; обучать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To tell someone officially what they must do",
+          "body": [
+            "(инструктировать; давать указания; обучать)"
+          ],
+          "examples": [
+            "The judge will instruct the jury this afternoon.",
+            "She instructed the class to put their phones away.",
+            "We were instructed to wait outside."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To teach a subject or a skill to someone",
+          "body": [
+            "(обучать, обучить; учить, преподавать)",
+            "---"
+          ],
+          "examples": [
+            "She instructs beginners in the pool on Saturday mornings.",
+            "A retired pilot instructed our ground school class.",
+            "He has been instructing teenagers in woodworking for twenty years."
+          ]
+        }
+      ],
+      "русский": "инструктировать; давать указания; обучать; обучать, обучить; учить, преподавать",
       "forms": "instruct · instructed · instructed",
       "verb class": "regular",
       "third person": "instructs · -ing form: instructing",
@@ -958,14 +1526,43 @@
       "term": "interrupt",
       "ipa": "/ˌɪntəˈrʌpt/",
       "respell": "in-tuh-RUPT",
-      "meaning": "To start speaking while someone else is still talking. ---",
+      "meaning": "Interrupt has 2 distinct senses.",
       "examples": [
         "Please don't interrupt while I'm on the phone.",
         "She interrupted him in the middle of a sentence.",
-        "I'm sorry for interrupting."
+        "I'm sorry for interrupting.",
+        "Rain interrupted the game in the fourth inning.",
+        "Nothing is allowed to interrupt the broadcast.",
+        "Service has been interrupted twice this week."
       ],
-      "senses": [],
-      "русский": "перебивать, перебить; прерывать, прервать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To start speaking while someone else is still talking",
+          "body": [
+            "(перебивать, перебить; прерывать, прервать)"
+          ],
+          "examples": [
+            "Please don't interrupt while I'm on the phone.",
+            "She interrupted him in the middle of a sentence.",
+            "I'm sorry for interrupting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To stop something for a while before it is finished",
+          "body": [
+            "(прерывать, прервать; приостанавливать, приостановить)",
+            "---"
+          ],
+          "examples": [
+            "Rain interrupted the game in the fourth inning.",
+            "Nothing is allowed to interrupt the broadcast.",
+            "Service has been interrupted twice this week."
+          ]
+        }
+      ],
+      "русский": "перебивать, перебить; прерывать, прервать; прерывать, прервать; приостанавливать, приостановить",
       "forms": "interrupt · interrupted · interrupted",
       "verb class": "regular",
       "third person": "interrupts · -ing form: interrupting",
@@ -993,14 +1590,58 @@
       "term": "introduce",
       "ipa": "/ˌɪntrəˈduːs/",
       "respell": "in-truh-DOOS",
-      "meaning": "To tell people someone's name when they meet for the first time. ---",
+      "meaning": "Introduce has 3 distinct senses.",
       "examples": [
         "Let me introduce my brother.",
         "She introduced herself to everyone at the table.",
-        "We have never been properly introduced."
+        "We have never been properly introduced.",
+        "The company introduced its first electric truck last year.",
+        "Two senators plan to introduce the bill in January.",
+        "Seat belts were introduced in American cars in the 1950s.",
+        "My uncle introduced me to jazz when I was nine.",
+        "The course introduces students to basic statistics.",
+        "He had never been introduced to real Mexican food before that trip."
       ],
-      "senses": [],
-      "русский": "представлять, представить (кого-л. кому-л.); знакомить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To tell people someone's name when they meet for the first time",
+          "body": [
+            "(представлять, представить (кого-л. кому-л.); знакомить)"
+          ],
+          "examples": [
+            "Let me introduce my brother.",
+            "She introduced herself to everyone at the table.",
+            "We have never been properly introduced."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bring something into use for the first time, such as a product, a rule, or a bill",
+          "body": [
+            "(вводить, ввести; выпускать, выпустить (новинку); вносить (законопроект))"
+          ],
+          "examples": [
+            "The company introduced its first electric truck last year.",
+            "Two senators plan to introduce the bill in January.",
+            "Seat belts were introduced in American cars in the 1950s."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To give someone their first experience of something",
+          "body": [
+            "(знакомить, познакомить (с чем-л.); приобщать, приобщить)",
+            "---"
+          ],
+          "examples": [
+            "My uncle introduced me to jazz when I was nine.",
+            "The course introduces students to basic statistics.",
+            "He had never been introduced to real Mexican food before that trip."
+          ]
+        }
+      ],
+      "русский": "представлять, представить (кого-л. кому-л.); знакомить; вводить, ввести; выпускать, выпустить (новинку); вносить (законопроект); знакомить, познакомить (с чем-л.); приобщать, приобщить",
       "forms": "introduce · introduced · introduced",
       "verb class": "regular",
       "third person": "introduces · -ing form: introducing",
@@ -1012,14 +1653,43 @@
       "term": "invite",
       "ipa": "/ɪnˈvaɪt/",
       "respell": "in-VYT",
-      "meaning": "To ask someone to come to an event or to do something with you. ---",
+      "meaning": "Invite has 2 distinct senses.",
       "examples": [
         "Should we invite the neighbors?",
         "They invited us to their wedding.",
-        "She wasn't invited, and she knows it."
+        "She wasn't invited, and she knows it.",
+        "Comments like that invite criticism.",
+        "The vague wording invited a lawsuit.",
+        "By ignoring the warnings, they were inviting disaster."
       ],
-      "senses": [],
-      "русский": "приглашать, пригласить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To ask someone to come to an event or to do something with you",
+          "body": [
+            "(приглашать, пригласить)"
+          ],
+          "examples": [
+            "Should we invite the neighbors?",
+            "They invited us to their wedding.",
+            "She wasn't invited, and she knows it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make an unwanted reaction more likely",
+          "body": [
+            "(навлекать, навлечь; вызывать, вызвать (критику, неприятности))",
+            "---"
+          ],
+          "examples": [
+            "Comments like that invite criticism.",
+            "The vague wording invited a lawsuit.",
+            "By ignoring the warnings, they were inviting disaster."
+          ]
+        }
+      ],
+      "русский": "приглашать, пригласить; навлекать, навлечь; вызывать, вызвать (критику, неприятности)",
       "forms": "invite · invited · invited",
       "verb class": "regular",
       "third person": "invites · -ing form: inviting",
@@ -1169,14 +1839,43 @@
       "term": "name",
       "ipa": "/neɪm/",
       "respell": "NAYM",
-      "meaning": "To say what someone or something is called, or to give someone a name. ---",
+      "meaning": "Name has 2 distinct senses.",
       "examples": [
         "Can you name all fifty states?",
         "They named the baby after her grandmother.",
-        "A new director has been named."
+        "A new director has been named.",
+        "The board will name a new chief executive on Monday.",
+        "They named her captain before the season started.",
+        "He was named to the All-Star team for the third time."
       ],
-      "senses": [],
-      "русский": "называть, назвать; именовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say what someone or something is called, or to give someone a name",
+          "body": [
+            "(называть, назвать; именовать)"
+          ],
+          "examples": [
+            "Can you name all fifty states?",
+            "They named the baby after her grandmother.",
+            "A new director has been named."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To appoint someone officially to a job, a team, or an honor",
+          "body": [
+            "(назначать, назначить; включать в состав)",
+            "---"
+          ],
+          "examples": [
+            "The board will name a new chief executive on Monday.",
+            "They named her captain before the season started.",
+            "He was named to the All-Star team for the third time."
+          ]
+        }
+      ],
+      "русский": "называть, назвать; именовать; назначать, назначить; включать в состав",
       "forms": "name · named · named",
       "verb class": "regular",
       "third person": "names · -ing form: naming",
@@ -1188,14 +1887,43 @@
       "term": "negotiate",
       "ipa": "/nɪˈɡoʊʃieɪt/",
       "respell": "nih-GOH-shee-ayt",
-      "meaning": "To talk with someone in order to reach an agreement. ---",
+      "meaning": "Negotiate has 2 distinct senses.",
       "examples": [
         "The union refuses to negotiate.",
         "They negotiated a new lease last spring.",
-        "A deal is being negotiated right now."
+        "A deal is being negotiated right now.",
+        "He negotiates the icy steps one at a time.",
+        "The truck barely negotiated the narrow bridge.",
+        "Negotiating that hairpin turn in the rain is frightening."
       ],
-      "senses": [],
-      "русский": "вести переговоры; договариваться, договориться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To talk with someone in order to reach an agreement",
+          "body": [
+            "(вести переговоры; договариваться, договориться)"
+          ],
+          "examples": [
+            "The union refuses to negotiate.",
+            "They negotiated a new lease last spring.",
+            "A deal is being negotiated right now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To get past or safely over something difficult",
+          "body": [
+            "(преодолевать, преодолеть; проходить (трудный участок))",
+            "---"
+          ],
+          "examples": [
+            "He negotiates the icy steps one at a time.",
+            "The truck barely negotiated the narrow bridge.",
+            "Negotiating that hairpin turn in the rain is frightening."
+          ]
+        }
+      ],
+      "русский": "вести переговоры; договариваться, договориться; преодолевать, преодолеть; проходить (трудный участок)",
       "forms": "negotiate · negotiated · negotiated",
       "verb class": "regular",
       "third person": "negotiates · -ing form: negotiating",
@@ -1205,14 +1933,43 @@
       "term": "note",
       "ipa": "/noʊt/",
       "respell": "NOHT",
-      "meaning": "To mention something because it is important. ---",
+      "meaning": "Note has 2 distinct senses.",
       "examples": [
         "Please note that the office closes at four.",
         "The report noted several errors.",
-        "It should be noted that nobody was hurt."
+        "It should be noted that nobody was hurt.",
+        "Please note that the office closes at four.",
+        "She noted the change in his tone right away.",
+        "It should be noted that the data is incomplete."
       ],
-      "senses": [],
-      "русский": "отмечать, отметить; замечать (в речи или письме)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To mention something because it is important",
+          "body": [
+            "(отмечать, отметить; замечать (в речи или письме))"
+          ],
+          "examples": [
+            "Please note that the office closes at four.",
+            "The report noted several errors.",
+            "It should be noted that nobody was hurt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To pay attention to something and keep it in mind",
+          "body": [
+            "(обращать внимание, принимать к сведению)",
+            "---"
+          ],
+          "examples": [
+            "Please note that the office closes at four.",
+            "She noted the change in his tone right away.",
+            "It should be noted that the data is incomplete."
+          ]
+        }
+      ],
+      "русский": "отмечать, отметить; замечать (в речи или письме); обращать внимание, принимать к сведению",
       "forms": "note · noted · noted",
       "verb class": "regular",
       "third person": "notes · -ing form: noting",
@@ -1279,14 +2036,58 @@
       "term": "order",
       "ipa": "/ˈɔːrdər/",
       "respell": "OR-dur",
-      "meaning": "To tell someone firmly that they must do something. ---",
+      "meaning": "Order has 3 distinct senses.",
       "examples": [
         "The judge ordered him to pay a fine.",
         "You can't just order people around.",
-        "We were ordered off the field."
+        "We were ordered off the field.",
+        "She always orders her coffee black.",
+        "We ordered a pizza and watched the game.",
+        "The parts have been ordered and should arrive Friday.",
+        "Order the names alphabetically, please.",
+        "The photos are ordered by date.",
+        "He spent an hour ordering his notes before the exam."
       ],
-      "senses": [],
-      "русский": "приказывать, приказать; велеть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To tell someone firmly that they must do something",
+          "body": [
+            "(приказывать, приказать; велеть)"
+          ],
+          "examples": [
+            "The judge ordered him to pay a fine.",
+            "You can't just order people around.",
+            "We were ordered off the field."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To ask a restaurant or a store to supply something",
+          "body": [
+            "(заказывать, заказать)"
+          ],
+          "examples": [
+            "She always orders her coffee black.",
+            "We ordered a pizza and watched the game.",
+            "The parts have been ordered and should arrive Friday."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To arrange things in a particular sequence",
+          "body": [
+            "(упорядочивать, располагать по порядку, расположить)",
+            "---"
+          ],
+          "examples": [
+            "Order the names alphabetically, please.",
+            "The photos are ordered by date.",
+            "He spent an hour ordering his notes before the exam."
+          ]
+        }
+      ],
+      "русский": "приказывать, приказать; велеть; заказывать, заказать; упорядочивать, располагать по порядку, расположить",
       "forms": "order · ordered · ordered",
       "verb class": "regular",
       "third person": "orders · -ing form: ordering",
@@ -1297,14 +2098,43 @@
       "term": "persuade",
       "ipa": "/pərˈsweɪd/",
       "respell": "pur-SWAYD",
-      "meaning": "To make someone decide to do something by giving them reasons. ---",
+      "meaning": "Persuade has 2 distinct senses.",
       "examples": [
         "See if you can persuade her to come.",
         "He persuaded the bank to wait a month.",
-        "I wasn't persuaded by the argument."
+        "I wasn't persuaded by the argument.",
+        "Nothing you say will persuade me that he is innocent.",
+        "The evidence persuaded the jury of her guilt.",
+        "I am still not persuaded by his argument."
       ],
-      "senses": [],
-      "русский": "убеждать, убедить; уговаривать, уговорить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make someone decide to do something by giving them reasons",
+          "body": [
+            "(убеждать, убедить; уговаривать, уговорить)"
+          ],
+          "examples": [
+            "See if you can persuade her to come.",
+            "He persuaded the bank to wait a month.",
+            "I wasn't persuaded by the argument."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make someone believe that something is true",
+          "body": [
+            "(убеждать, убедить (в чём-л.))",
+            "---"
+          ],
+          "examples": [
+            "Nothing you say will persuade me that he is innocent.",
+            "The evidence persuaded the jury of her guilt.",
+            "I am still not persuaded by his argument."
+          ]
+        }
+      ],
+      "русский": "убеждать, убедить; уговаривать, уговорить; убеждать, убедить (в чём-л.)",
       "forms": "persuade · persuaded · persuaded",
       "verb class": "regular",
       "third person": "persuades · -ing form: persuading",
@@ -1419,14 +2249,43 @@
       "term": "promise",
       "ipa": "/ˈprɑːməs/",
       "respell": "PRAH-muss",
-      "meaning": "To tell someone that you will certainly do something. ---",
+      "meaning": "Promise has 2 distinct senses.",
       "examples": [
         "I promise I'll be there by six.",
         "He promised to call and then didn't.",
-        "She has promised the car to her son."
+        "She has promised the car to her son.",
+        "This promises to be the closest election in years.",
+        "The morning promised a hot day.",
+        "Dark clouds were building over the ridge, promising rain by noon."
       ],
-      "senses": [],
-      "русский": "обещать, пообещать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To tell someone that you will certainly do something",
+          "body": [
+            "(обещать, пообещать)"
+          ],
+          "examples": [
+            "I promise I'll be there by six.",
+            "He promised to call and then didn't.",
+            "She has promised the car to her son."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To show signs that something is likely to happen",
+          "body": [
+            "(обещать быть, сулить; предвещать)",
+            "---"
+          ],
+          "examples": [
+            "This promises to be the closest election in years.",
+            "The morning promised a hot day.",
+            "Dark clouds were building over the ridge, promising rain by noon."
+          ]
+        }
+      ],
+      "русский": "обещать, пообещать; обещать быть, сулить; предвещать",
       "forms": "promise · promised · promised",
       "verb class": "regular",
       "third person": "promises · -ing form: promising",
@@ -1436,14 +2295,43 @@
       "term": "pronounce",
       "ipa": "/prəˈnaʊns/",
       "respell": "pruh-NOWNS",
-      "meaning": "To make the sound of a word or a letter. ---",
+      "meaning": "Pronounce has 2 distinct senses.",
       "examples": [
         "How do you pronounce your last name?",
         "She pronounced it the French way.",
-        "I have been pronouncing it wrong for years."
+        "I have been pronouncing it wrong for years.",
+        "The doctor pronounced him dead at 3:40 a.m.",
+        "I now pronounce you husband and wife.",
+        "The building was pronounced unsafe and closed off."
       ],
-      "senses": [],
-      "русский": "произносить, произнести (звук, слово)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make the sound of a word or a letter",
+          "body": [
+            "(произносить, произнести (звук, слово))"
+          ],
+          "examples": [
+            "How do you pronounce your last name?",
+            "She pronounced it the French way.",
+            "I have been pronouncing it wrong for years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To declare something officially and formally",
+          "body": [
+            "(объявлять, объявить (официально); признавать, признать)",
+            "---"
+          ],
+          "examples": [
+            "The doctor pronounced him dead at 3:40 a.m.",
+            "I now pronounce you husband and wife.",
+            "The building was pronounced unsafe and closed off."
+          ]
+        }
+      ],
+      "русский": "произносить, произнести (звук, слово); объявлять, объявить (официально); признавать, признать",
       "forms": "pronounce · pronounced · pronounced",
       "verb class": "regular",
       "third person": "pronounces · -ing form: pronouncing",
@@ -1575,14 +2463,43 @@
       "term": "refuse",
       "ipa": "/rɪˈfjuːz/",
       "respell": "rih-FYOOZ",
-      "meaning": "To say firmly that you will not do or accept something. ---",
+      "meaning": "Refuse has 2 distinct senses.",
       "examples": [
         "They refuse to talk to reporters.",
         "He refused the money.",
-        "She has refused every invitation this year."
+        "She has refused every invitation this year.",
+        "They can't refuse you a lawyer.",
+        "The guard refused us entry.",
+        "She was refused a visa twice."
       ],
-      "senses": [],
-      "русский": "отказываться, отказаться; отказывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say firmly that you will not do or accept something",
+          "body": [
+            "(отказываться, отказаться; отказывать)"
+          ],
+          "examples": [
+            "They refuse to talk to reporters.",
+            "He refused the money.",
+            "She has refused every invitation this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To not let someone have or do something they ask for",
+          "body": [
+            "(отказывать (в чём-л.), отказать; не давать)",
+            "---"
+          ],
+          "examples": [
+            "They can't refuse you a lawyer.",
+            "The guard refused us entry.",
+            "She was refused a visa twice."
+          ]
+        }
+      ],
+      "русский": "отказываться, отказаться; отказывать; отказывать (в чём-л.), отказать; не давать",
       "forms": "refuse · refused · refused",
       "verb class": "regular",
       "third person": "refuses · -ing form: refusing",
@@ -1593,14 +2510,43 @@
       "term": "reject",
       "ipa": "/rɪˈdʒɛkt/",
       "respell": "rih-JEKT",
-      "meaning": "To refuse to accept an offer, an idea, or a person. ---",
+      "meaning": "Reject has 2 distinct senses.",
       "examples": [
         "The board may reject the proposal.",
         "They rejected my application twice.",
-        "His visa was rejected without explanation."
+        "His visa was rejected without explanation.",
+        "Her body rejected the first kidney.",
+        "These drugs keep the body from rejecting the new heart.",
+        "The transplant was rejected within a week."
       ],
-      "senses": [],
-      "русский": "отвергать, отвергнуть; отклонять, отклонить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To refuse to accept an offer, an idea, or a person",
+          "body": [
+            "(отвергать, отвергнуть; отклонять, отклонить)"
+          ],
+          "examples": [
+            "The board may reject the proposal.",
+            "They rejected my application twice.",
+            "His visa was rejected without explanation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of the body: to fail to accept a transplanted organ",
+          "body": [
+            "(отторгать, отторгнуть (пересаженный орган))",
+            "---"
+          ],
+          "examples": [
+            "Her body rejected the first kidney.",
+            "These drugs keep the body from rejecting the new heart.",
+            "The transplant was rejected within a week."
+          ]
+        }
+      ],
+      "русский": "отвергать, отвергнуть; отклонять, отклонить; отторгать, отторгнуть (пересаженный орган)",
       "forms": "reject · rejected · rejected",
       "verb class": "regular",
       "third person": "rejects · -ing form: rejecting",
@@ -1628,14 +2574,43 @@
       "term": "remind",
       "ipa": "/rɪˈmaɪnd/",
       "respell": "rih-MYND",
-      "meaning": "To make someone remember something they have to do or know. ---",
+      "meaning": "Remind has 2 distinct senses.",
       "examples": [
         "Remind me to buy stamps.",
         "She reminded him about the dentist.",
-        "You have reminded me three times already."
+        "You have reminded me three times already.",
+        "You remind me of my younger brother.",
+        "The smell reminded her of her grandmother's kitchen.",
+        "That song has always reminded me of summer camp."
       ],
-      "senses": [],
-      "русский": "напоминать, напомнить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make someone remember something they have to do or know",
+          "body": [
+            "(напоминать, напомнить)"
+          ],
+          "examples": [
+            "Remind me to buy stamps.",
+            "She reminded him about the dentist.",
+            "You have reminded me three times already."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make someone think of another person or thing because of a likeness",
+          "body": [
+            "(напоминать, напомнить (быть похожим на кого-л.))",
+            "---"
+          ],
+          "examples": [
+            "You remind me of my younger brother.",
+            "The smell reminded her of her grandmother's kitchen.",
+            "That song has always reminded me of summer camp."
+          ]
+        }
+      ],
+      "русский": "напоминать, напомнить; напоминать, напомнить (быть похожим на кого-л.)",
       "forms": "remind · reminded · reminded",
       "verb class": "regular",
       "third person": "reminds · -ing form: reminding",
@@ -1682,14 +2657,73 @@
       "term": "report",
       "ipa": "/rɪˈpɔːrt/",
       "respell": "rih-PORT",
-      "meaning": "To give people information about something that has happened. ---",
+      "meaning": "Report has 4 distinct senses.",
       "examples": [
         "Please report any damage to the office.",
         "The paper reported that the school would close.",
-        "Two injuries have been reported."
+        "Two injuries have been reported.",
+        "You should report the theft right away.",
+        "A neighbor reported him to the police.",
+        "The leak was never reported to the authorities.",
+        "She reports directly to the head of sales.",
+        "For two years I reported to a manager in Chicago.",
+        "The three new engineers will be reporting to you.",
+        "Report to the front desk when you arrive.",
+        "He reported for duty at six in the morning.",
+        "All new hires are reporting to the training room today."
       ],
-      "senses": [],
-      "русский": "сообщать, сообщить; докладывать, доложить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give people information about something that has happened",
+          "body": [
+            "(сообщать, сообщить; докладывать, доложить)"
+          ],
+          "examples": [
+            "Please report any damage to the office.",
+            "The paper reported that the school would close.",
+            "Two injuries have been reported."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To tell the police or another authority about a crime or about someone's wrongdoing",
+          "body": [
+            "(заявлять, заявить (в полицию); жаловаться (начальству), доносить)"
+          ],
+          "examples": [
+            "You should report the theft right away.",
+            "A neighbor reported him to the police.",
+            "The leak was never reported to the authorities."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To work under a particular manager in a company",
+          "body": [
+            "(подчиняться (кому-л.), быть в подчинении у)"
+          ],
+          "examples": [
+            "She reports directly to the head of sales.",
+            "For two years I reported to a manager in Chicago.",
+            "The three new engineers will be reporting to you."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To go to a place and present yourself for work or duty",
+          "body": [
+            "(являться, явиться (на службу, на место); прибыть)",
+            "---"
+          ],
+          "examples": [
+            "Report to the front desk when you arrive.",
+            "He reported for duty at six in the morning.",
+            "All new hires are reporting to the training room today."
+          ]
+        }
+      ],
+      "русский": "сообщать, сообщить; докладывать, доложить; заявлять, заявить (в полицию); жаловаться (начальству), доносить; подчиняться (кому-л.), быть в подчинении у; являться, явиться (на службу, на место); прибыть",
       "forms": "report · reported · reported",
       "verb class": "regular",
       "third person": "reports · -ing form: reporting",
@@ -1736,14 +2770,43 @@
       "term": "reveal",
       "ipa": "/rɪˈviːl/",
       "respell": "rih-VEEL",
-      "meaning": "To tell people something that was secret or unknown. ---",
+      "meaning": "Reveal has 2 distinct senses.",
       "examples": [
         "He refused to reveal his source.",
         "The test revealed nothing unusual.",
-        "The winner will be revealed at nine."
+        "The winner will be revealed at nine.",
+        "He pulled back the sheet to reveal a new motorcycle.",
+        "The X-ray revealed a hairline fracture.",
+        "The curtain rose, revealing an empty stage."
       ],
-      "senses": [],
-      "русский": "раскрывать, раскрыть; разглашать, разгласить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To tell people something that was secret or unknown",
+          "body": [
+            "(раскрывать, раскрыть; разглашать, разгласить)"
+          ],
+          "examples": [
+            "He refused to reveal his source.",
+            "The test revealed nothing unusual.",
+            "The winner will be revealed at nine."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To uncover something so that it can be seen",
+          "body": [
+            "(открывать взору, обнажать; показывать, показать)",
+            "---"
+          ],
+          "examples": [
+            "He pulled back the sheet to reveal a new motorcycle.",
+            "The X-ray revealed a hairline fracture.",
+            "The curtain rose, revealing an empty stage."
+          ]
+        }
+      ],
+      "русский": "раскрывать, раскрыть; разглашать, разгласить; открывать взору, обнажать; показывать, показать",
       "forms": "reveal · revealed · revealed",
       "verb class": "regular",
       "third person": "reveals · -ing form: revealing",
@@ -1894,14 +2957,43 @@
       "term": "suggest",
       "ipa": "/səɡˈdʒɛst/",
       "respell": "suhg-JEST",
-      "meaning": "To offer an idea or a plan for someone to think about. ---",
+      "meaning": "Suggest has 2 distinct senses.",
       "examples": [
         "Can I suggest a different route?",
         "She suggested that we leave early.",
-        "It has been suggested more than once."
+        "It has been suggested more than once.",
+        "The numbers suggest that prices will fall again.",
+        "Her tone suggested she was not convinced.",
+        "Early tests have suggested a link between the two drugs."
       ],
-      "senses": [],
-      "русский": "предлагать, предложить; советовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To offer an idea or a plan for someone to think about",
+          "body": [
+            "(предлагать, предложить; советовать)"
+          ],
+          "examples": [
+            "Can I suggest a different route?",
+            "She suggested that we leave early.",
+            "It has been suggested more than once."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be a sign that something is probably true",
+          "body": [
+            "(указывать на, свидетельствовать о; наводить на мысль)",
+            "---"
+          ],
+          "examples": [
+            "The numbers suggest that prices will fall again.",
+            "Her tone suggested she was not convinced.",
+            "Early tests have suggested a link between the two drugs."
+          ]
+        }
+      ],
+      "русский": "предлагать, предложить; советовать; указывать на, свидетельствовать о; наводить на мысль",
       "forms": "suggest · suggested · suggested",
       "verb class": "regular",
       "third person": "suggests · -ing form: suggesting",
@@ -1930,14 +3022,43 @@
       "term": "talk",
       "ipa": "/tɔːk/",
       "respell": "TAWK",
-      "meaning": "To say things to someone as part of a conversation. ---",
+      "meaning": "Talk has 2 distinct senses.",
       "examples": [
         "We need to talk.",
         "They talked for an hour in the driveway.",
-        "She has been talking about moving for years."
+        "She has been talking about moving for years.",
+        "The suspect finally talked.",
+        "They were afraid he would talk.",
+        "Nobody in the crew has talked yet."
       ],
-      "senses": [],
-      "русский": "говорить, разговаривать; поговорить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say things to someone as part of a conversation",
+          "body": [
+            "(говорить, разговаривать; поговорить)"
+          ],
+          "examples": [
+            "We need to talk.",
+            "They talked for an hour in the driveway.",
+            "She has been talking about moving for years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give information to the police or an enemy, especially under pressure",
+          "body": [
+            "(заговорить (на допросе), выдать сведения, расколоться)",
+            "---"
+          ],
+          "examples": [
+            "The suspect finally talked.",
+            "They were afraid he would talk.",
+            "Nobody in the crew has talked yet."
+          ]
+        }
+      ],
+      "русский": "говорить, разговаривать; поговорить; заговорить (на допросе), выдать сведения, расколоться",
       "forms": "talk · talked · talked",
       "verb class": "regular",
       "third person": "talks · -ing form: talking",
@@ -1949,14 +3070,43 @@
       "term": "tease",
       "ipa": "/tiːz/",
       "respell": "TEEZ",
-      "meaning": "To make jokes about someone, either in a friendly or an unkind way. ---",
+      "meaning": "Tease has 2 distinct senses.",
       "examples": [
         "His brothers tease him about his hair.",
         "She teased me for being nervous.",
-        "I'm only teasing."
+        "I'm only teasing.",
+        "The band teased a new album on social media.",
+        "Studios often tease a sequel at the end of a film.",
+        "They have been teasing the announcement for weeks."
       ],
-      "senses": [],
-      "русский": "дразнить; подшучивать, подшутить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make jokes about someone, either in a friendly or an unkind way",
+          "body": [
+            "(дразнить; подшучивать, подшутить)"
+          ],
+          "examples": [
+            "His brothers tease him about his hair.",
+            "She teased me for being nervous.",
+            "I'm only teasing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give a small hint of something new in order to build interest in it",
+          "body": [
+            "(анонсировать намёками, интриговать анонсом)",
+            "---"
+          ],
+          "examples": [
+            "The band teased a new album on social media.",
+            "Studios often tease a sequel at the end of a film.",
+            "They have been teasing the announcement for weeks."
+          ]
+        }
+      ],
+      "русский": "дразнить; подшучивать, подшутить; анонсировать намёками, интриговать анонсом",
       "forms": "tease · teased · teased",
       "verb class": "regular",
       "third person": "teases · -ing form: teasing",
@@ -2003,14 +3153,43 @@
       "term": "threaten",
       "ipa": "/ˈθrɛtən/",
       "respell": "THRET-uhn",
-      "meaning": "To say that you will hurt or punish someone if they do not do what you want. ---",
+      "meaning": "Threaten has 2 distinct senses.",
       "examples": [
         "He threatened to call the police.",
         "Don't threaten me.",
-        "The workers are threatening a strike."
+        "The workers are threatening a strike.",
+        "The fire threatens two hundred homes.",
+        "Rising water threatened the whole village.",
+        "The species is threatened by the loss of its habitat."
       ],
-      "senses": [],
-      "русский": "угрожать, пригрозить; грозить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To say that you will hurt or punish someone if they do not do what you want",
+          "body": [
+            "(угрожать, пригрозить; грозить)"
+          ],
+          "examples": [
+            "He threatened to call the police.",
+            "Don't threaten me.",
+            "The workers are threatening a strike."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be likely to harm or destroy something",
+          "body": [
+            "(угрожать (об опасности), ставить под угрозу)",
+            "---"
+          ],
+          "examples": [
+            "The fire threatens two hundred homes.",
+            "Rising water threatened the whole village.",
+            "The species is threatened by the loss of its habitat."
+          ]
+        }
+      ],
+      "русский": "угрожать, пригрозить; грозить; угрожать (об опасности), ставить под угрозу",
       "forms": "threaten · threatened · threatened",
       "verb class": "regular",
       "third person": "threatens · -ing form: threatening",
@@ -2111,14 +3290,43 @@
       "term": "welcome",
       "ipa": "/ˈwɛlkəm/",
       "respell": "WEL-kuhm",
-      "meaning": "To greet someone in a friendly way when they arrive. ---",
+      "meaning": "Welcome has 2 distinct senses.",
       "examples": [
         "Please welcome our next speaker.",
         "They welcomed us like family.",
-        "New members are always welcomed at the first meeting."
+        "New members are always welcomed at the first meeting.",
+        "We welcome any feedback from customers.",
+        "Teachers welcomed the change to the schedule.",
+        "The ruling has been welcomed by both parties."
       ],
-      "senses": [],
-      "русский": "приветствовать, поприветствовать; радушно встречать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To greet someone in a friendly way when they arrive",
+          "body": [
+            "(приветствовать, поприветствовать; радушно встречать)"
+          ],
+          "examples": [
+            "Please welcome our next speaker.",
+            "They welcomed us like family.",
+            "New members are always welcomed at the first meeting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be glad that something has happened and to say so",
+          "body": [
+            "(приветствовать (решение), одобрять; охотно принимать)",
+            "---"
+          ],
+          "examples": [
+            "We welcome any feedback from customers.",
+            "Teachers welcomed the change to the schedule.",
+            "The ruling has been welcomed by both parties."
+          ]
+        }
+      ],
+      "русский": "приветствовать, поприветствовать; радушно встречать; приветствовать (решение), одобрять; охотно принимать",
       "forms": "welcome · welcomed · welcomed",
       "verb class": "regular",
       "third person": "welcomes · -ing form: welcoming",

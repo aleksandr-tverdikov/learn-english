@@ -6,14 +6,43 @@
       "term": "plant",
       "ipa": "/plænt/",
       "respell": "PLANT",
-      "meaning": "To put a seed or a young plant into the ground so that it will grow. ---",
+      "meaning": "Plant has 2 distinct senses.",
       "examples": [
         "We plant tomatoes every year around Mother's Day.",
         "They planted two hundred apple trees last spring.",
-        "The corn was planted too early and the frost killed it."
+        "The corn was planted too early and the frost killed it.",
+        "Someone planted drugs in his car.",
+        "The bomb had been planted under a bench.",
+        "They accused the agency of planting false stories in the press."
       ],
-      "senses": [],
-      "русский": "сажать, посадить; высаживать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put a seed or a young plant into the ground so that it will grow",
+          "body": [
+            "(сажать, посадить; высаживать)"
+          ],
+          "examples": [
+            "We plant tomatoes every year around Mother's Day.",
+            "They planted two hundred apple trees last spring.",
+            "The corn was planted too early and the frost killed it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put something somewhere secretly so that it will be found or will do harm",
+          "body": [
+            "(подбрасывать, подбросить (улику); закладывать, заложить (бомбу); внедрять)",
+            "---"
+          ],
+          "examples": [
+            "Someone planted drugs in his car.",
+            "The bomb had been planted under a bench.",
+            "They accused the agency of planting false stories in the press."
+          ]
+        }
+      ],
+      "русский": "сажать, посадить; высаживать; подбрасывать, подбросить (улику); закладывать, заложить (бомбу); внедрять",
       "forms": "plant · planted · planted",
       "verb class": "regular",
       "third person": "plants · -ing form: planting",
@@ -23,14 +52,43 @@
       "term": "cultivate",
       "ipa": "/ˈkʌltɪveɪt/",
       "respell": "KUL-tuh-vayt",
-      "meaning": "To prepare and use land for growing crops, or to grow a particular crop. ---",
+      "meaning": "Cultivate has 2 distinct senses.",
       "examples": [
         "Farmers in this valley cultivate rice and beans.",
         "His family cultivated the same hillside for a hundred years.",
-        "Only a third of the land is being cultivated now."
+        "Only a third of the land is being cultivated now.",
+        "He cultivated contacts at every major paper.",
+        "It takes years to cultivate that kind of trust.",
+        "She has been cultivating a reputation for honesty."
       ],
-      "senses": [],
-      "русский": "возделывать, обрабатывать (землю); выращивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To prepare and use land for growing crops, or to grow a particular crop",
+          "body": [
+            "(возделывать, обрабатывать (землю); выращивать)"
+          ],
+          "examples": [
+            "Farmers in this valley cultivate rice and beans.",
+            "His family cultivated the same hillside for a hundred years.",
+            "Only a third of the land is being cultivated now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To build a relationship, a skill, or an image deliberately over time",
+          "body": [
+            "(развивать, налаживать (связи), культивировать)",
+            "---"
+          ],
+          "examples": [
+            "He cultivated contacts at every major paper.",
+            "It takes years to cultivate that kind of trust.",
+            "She has been cultivating a reputation for honesty."
+          ]
+        }
+      ],
+      "русский": "возделывать, обрабатывать (землю); выращивать; развивать, налаживать (связи), культивировать",
       "forms": "cultivate · cultivated · cultivated",
       "verb class": "regular",
       "third person": "cultivates · -ing form: cultivating",
@@ -77,14 +135,58 @@
       "term": "seed",
       "ipa": "/siːd/",
       "respell": "SEED",
-      "meaning": "To scatter seed over a piece of ground. ---",
+      "meaning": "Seed has 3 distinct senses.",
       "examples": [
         "We seed the lawn in early fall.",
         "They seeded the pasture with clover.",
-        "The burned slope is being seeded by hand."
+        "The burned slope is being seeded by hand.",
+        "The committee will seed the teams on Sunday.",
+        "They seeded her second despite the injury.",
+        "He is seeded fourth in his half of the draw.",
+        "Seed the peppers before you slice them.",
+        "He seeded and chopped four tomatoes.",
+        "The jalapeños should be seeded if you want less heat."
       ],
-      "senses": [],
-      "русский": "засевать, засеять; сеять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To scatter seed over a piece of ground",
+          "body": [
+            "(засевать, засеять; сеять)"
+          ],
+          "examples": [
+            "We seed the lawn in early fall.",
+            "They seeded the pasture with clover.",
+            "The burned slope is being seeded by hand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To rank players or teams before a tournament so that the best ones do not meet early",
+          "body": [
+            "(сеять, посеять (в турнирной сетке); распределять по посеву)"
+          ],
+          "examples": [
+            "The committee will seed the teams on Sunday.",
+            "They seeded her second despite the injury.",
+            "He is seeded fourth in his half of the draw."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To take the seeds out of a fruit or a vegetable",
+          "body": [
+            "(вынимать семена, очищать от семян (перец, помидоры))",
+            "---"
+          ],
+          "examples": [
+            "Seed the peppers before you slice them.",
+            "He seeded and chopped four tomatoes.",
+            "The jalapeños should be seeded if you want less heat."
+          ]
+        }
+      ],
+      "русский": "засевать, засеять; сеять; сеять, посеять (в турнирной сетке); распределять по посеву; вынимать семена, очищать от семян (перец, помидоры)",
       "forms": "seed · seeded · seeded",
       "verb class": "regular",
       "third person": "seeds · -ing form: seeding",
@@ -111,14 +213,43 @@
       "term": "fertilize",
       "ipa": "/ˈfɜːrtəlaɪz/",
       "respell": "FUR-tuh-lyz",
-      "meaning": "To add something to soil or plants to make them grow better. ---",
+      "meaning": "Fertilize has 2 distinct senses.",
       "examples": [
         "Fertilize the tomatoes once a month.",
         "He fertilized the lawn in April.",
-        "The rows have been fertilized and watered."
+        "The rows have been fertilized and watered.",
+        "Bees fertilize the blossoms in spring.",
+        "Only one sperm actually fertilized the egg.",
+        "The eggs are fertilized outside the body and then implanted."
       ],
-      "senses": [],
-      "русский": "удобрять, удобрить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To add something to soil or plants to make them grow better",
+          "body": [
+            "(удобрять, удобрить)"
+          ],
+          "examples": [
+            "Fertilize the tomatoes once a month.",
+            "He fertilized the lawn in April.",
+            "The rows have been fertilized and watered."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To join a male cell with an egg so that a young animal or plant can begin to grow",
+          "body": [
+            "(оплодотворять, оплодотворить; опылять, опылить)",
+            "---"
+          ],
+          "examples": [
+            "Bees fertilize the blossoms in spring.",
+            "Only one sperm actually fertilized the egg.",
+            "The eggs are fertilized outside the body and then implanted."
+          ]
+        }
+      ],
+      "русский": "удобрять, удобрить; оплодотворять, оплодотворить; опылять, опылить",
       "forms": "fertilize · fertilized · fertilized",
       "verb class": "regular",
       "third person": "fertilizes · -ing form: fertilizing",
@@ -164,14 +295,43 @@
       "term": "water",
       "ipa": "/ˈwɔːtər/",
       "respell": "WAW-tur",
-      "meaning": "To pour water on plants or give water to animals. ---",
+      "meaning": "Water has 2 distinct senses.",
       "examples": [
         "Please water the tomatoes while we're away.",
         "I watered the garden at sunrise.",
-        "The seedlings have not been watered in three days."
+        "The seedlings have not been watered in three days.",
+        "Onions make my eyes water.",
+        "His eyes watered in the cold wind.",
+        "The smell from the bakery had my mouth watering."
       ],
-      "senses": [],
-      "русский": "поливать, полить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pour water on plants or give water to animals",
+          "body": [
+            "(поливать, полить)"
+          ],
+          "examples": [
+            "Please water the tomatoes while we're away.",
+            "I watered the garden at sunrise.",
+            "The seedlings have not been watered in three days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "For the eyes to fill with tears, or for the mouth to fill with saliva",
+          "body": [
+            "(слезиться (о глазах); наполняться слюной)",
+            "---"
+          ],
+          "examples": [
+            "Onions make my eyes water.",
+            "His eyes watered in the cold wind.",
+            "The smell from the bakery had my mouth watering."
+          ]
+        }
+      ],
+      "русский": "поливать, полить; слезиться (о глазах); наполняться слюной",
       "forms": "water · watered · watered",
       "verb class": "regular",
       "third person": "waters · -ing form: watering",
@@ -271,14 +431,43 @@
       "term": "graft",
       "ipa": "/ɡræft/",
       "respell": "GRAFT",
-      "meaning": "To join a branch of one plant onto another so they grow as one. ---",
+      "meaning": "Graft has 2 distinct senses.",
       "examples": [
         "Growers graft good fruit onto strong roots.",
         "He grafted a pear branch onto the old tree.",
-        "These apples are grafted, not grown from seed."
+        "These apples are grafted, not grown from seed.",
+        "Surgeons grafted skin from his thigh onto the burn.",
+        "Doctors can graft bone taken from the hip.",
+        "The new tissue was grafted in place last week."
       ],
-      "senses": [],
-      "русский": "прививать, привить (растение)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To join a branch of one plant onto another so they grow as one",
+          "body": [
+            "(прививать, привить (растение))"
+          ],
+          "examples": [
+            "Growers graft good fruit onto strong roots.",
+            "He grafted a pear branch onto the old tree.",
+            "These apples are grafted, not grown from seed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move skin, bone, or other living tissue from one part of the body to another in surgery",
+          "body": [
+            "(пересаживать, пересадить (кожу, ткань))",
+            "---"
+          ],
+          "examples": [
+            "Surgeons grafted skin from his thigh onto the burn.",
+            "Doctors can graft bone taken from the hip.",
+            "The new tissue was grafted in place last week."
+          ]
+        }
+      ],
+      "русский": "прививать, привить (растение); пересаживать, пересадить (кожу, ткань)",
       "forms": "graft · grafted · grafted",
       "verb class": "regular",
       "third person": "grafts · -ing form: grafting",
@@ -288,14 +477,43 @@
       "term": "stake",
       "ipa": "/steɪk/",
       "respell": "STAYK",
-      "meaning": "To support a plant by tying it to a wooden or metal stick. ---",
+      "meaning": "Stake has 2 distinct senses.",
       "examples": [
         "We stake the tomatoes as soon as they get tall.",
         "He staked the young tree against the wind.",
-        "Every plant in that row has been staked."
+        "Every plant in that row has been staked.",
+        "I would not stake my savings on a rumor.",
+        "He staked his reputation on the forecast.",
+        "She has staked everything on this one deal."
       ],
-      "senses": [],
-      "русский": "подвязывать к колышку, ставить подпорки",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To support a plant by tying it to a wooden or metal stick",
+          "body": [
+            "(подвязывать к колышку, ставить подпорки)"
+          ],
+          "examples": [
+            "We stake the tomatoes as soon as they get tall.",
+            "He staked the young tree against the wind.",
+            "Every plant in that row has been staked."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To risk money or something valuable on the result of something",
+          "body": [
+            "(ставить, поставить (на кон); рисковать (репутацией))",
+            "---"
+          ],
+          "examples": [
+            "I would not stake my savings on a rumor.",
+            "He staked his reputation on the forecast.",
+            "She has staked everything on this one deal."
+          ]
+        }
+      ],
+      "русский": "подвязывать к колышку, ставить подпорки; ставить, поставить (на кон); рисковать (репутацией)",
       "forms": "stake · staked · staked",
       "verb class": "regular",
       "third person": "stakes · -ing form: staking",
@@ -325,14 +543,43 @@
       "term": "propagate",
       "ipa": "/ˈprɑːpəɡeɪt/",
       "respell": "PRAH-puh-gayt",
-      "meaning": "To grow new plants from seeds, cuttings, or runners. ---",
+      "meaning": "Propagate has 2 distinct senses.",
       "examples": [
         "You can propagate mint from a single cutting.",
         "She propagated dozens of tomatoes over the winter.",
-        "These shrubs are easily propagated in water."
+        "These shrubs are easily propagated in water.",
+        "Sound propagates faster in water than in air.",
+        "The error propagated through every report built on that file.",
+        "A crack can propagate through the metal for years before it fails."
       ],
-      "senses": [],
-      "русский": "размножать (растения); размножаться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To grow new plants from seeds, cuttings, or runners",
+          "body": [
+            "(размножать (растения); размножаться)"
+          ],
+          "examples": [
+            "You can propagate mint from a single cutting.",
+            "She propagated dozens of tomatoes over the winter.",
+            "These shrubs are easily propagated in water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To travel outward through a space or a system, or to pass something on that way",
+          "body": [
+            "(распространять(ся), распространить(ся); передавать(ся) (о волнах, сигнале, ошибке))",
+            "---"
+          ],
+          "examples": [
+            "Sound propagates faster in water than in air.",
+            "The error propagated through every report built on that file.",
+            "A crack can propagate through the metal for years before it fails."
+          ]
+        }
+      ],
+      "русский": "размножать (растения); размножаться; распространять(ся), распространить(ся); передавать(ся) (о волнах, сигнале, ошибке)",
       "forms": "propagate · propagated · propagated",
       "verb class": "regular",
       "third person": "propagates · -ing form: propagating",
@@ -445,14 +692,43 @@
       "term": "mature",
       "ipa": "/məˈtʃʊr/",
       "respell": "muh-CHUR",
-      "meaning": "To become fully grown or fully ripe. ---",
+      "meaning": "Mature has 2 distinct senses.",
       "examples": [
         "This corn matures in about ninety days.",
         "The calves matured faster on the new feed.",
-        "The fruit is still maturing on the branch."
+        "The fruit is still maturing on the branch.",
+        "The bond will mature in ten years.",
+        "Her CD matured last month, so she reinvested it.",
+        "By the time the policy has matured, it will be worth double."
       ],
-      "senses": [],
-      "русский": "созревать, созреть; вызревать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To become fully grown or fully ripe",
+          "body": [
+            "(созревать, созреть; вызревать)"
+          ],
+          "examples": [
+            "This corn matures in about ninety days.",
+            "The calves matured faster on the new feed.",
+            "The fruit is still maturing on the branch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "When a bond, a loan, or an investment matures, it reaches the date when it must be paid",
+          "body": [
+            "(наступать (о сроке погашения); погашаться, быть погашенным)",
+            "---"
+          ],
+          "examples": [
+            "The bond will mature in ten years.",
+            "Her CD matured last month, so she reinvested it.",
+            "By the time the policy has matured, it will be worth double."
+          ]
+        }
+      ],
+      "русский": "созревать, созреть; вызревать; наступать (о сроке погашения); погашаться, быть погашенным",
       "forms": "mature · matured · matured",
       "verb class": "regular",
       "third person": "matures · -ing form: maturing",
@@ -515,14 +791,43 @@
       "term": "multiply",
       "ipa": "/ˈmʌltəplaɪ/",
       "respell": "MUL-tuh-ply",
-      "meaning": "To increase greatly in number, especially by breeding. ---",
+      "meaning": "Multiply has 2 distinct senses.",
       "examples": [
         "Rabbits multiply faster than anyone expects.",
         "The aphids multiplied in a single week.",
-        "The herd has multiplied since the drought ended."
+        "The herd has multiplied since the drought ended.",
+        "Multiply the length by the width to get the area.",
+        "She multiplied six by seven in her head.",
+        "We were multiplying fractions all morning."
       ],
-      "senses": [],
-      "русский": "размножаться, размножиться; умножать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To increase greatly in number, especially by breeding",
+          "body": [
+            "(размножаться, размножиться; умножать)"
+          ],
+          "examples": [
+            "Rabbits multiply faster than anyone expects.",
+            "The aphids multiplied in a single week.",
+            "The herd has multiplied since the drought ended."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To find the total of one number added to itself a given number of times",
+          "body": [
+            "(умножать, умножить)",
+            "---"
+          ],
+          "examples": [
+            "Multiply the length by the width to get the area.",
+            "She multiplied six by seven in her head.",
+            "We were multiplying fractions all morning."
+          ]
+        }
+      ],
+      "русский": "размножаться, размножиться; умножать; умножать, умножить",
       "forms": "multiply · multiplied · multiplied",
       "verb class": "regular",
       "third person": "multiplies · -ing form: multiplying",
@@ -533,14 +838,43 @@
       "term": "uproot",
       "ipa": "/ʌpˈruːt/",
       "respell": "up-ROOT",
-      "meaning": "To pull a plant out of the ground with its roots. ---",
+      "meaning": "Uproot has 2 distinct senses.",
       "examples": [
         "Storms uproot the shallowest trees first.",
         "The wind uprooted two apple trees last night.",
-        "Half the hedge had been uprooted by morning."
+        "Half the hedge had been uprooted by morning.",
+        "The war uprooted thousands of families in a single week.",
+        "A transfer would uproot the whole family again.",
+        "They have been uprooted twice in five years."
       ],
-      "senses": [],
-      "русский": "вырывать с корнем, выкорчевывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pull a plant out of the ground with its roots",
+          "body": [
+            "(вырывать с корнем, выкорчевывать)"
+          ],
+          "examples": [
+            "Storms uproot the shallowest trees first.",
+            "The wind uprooted two apple trees last night.",
+            "Half the hedge had been uprooted by morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To force people to leave the home or the country where they have settled",
+          "body": [
+            "(срывать с насиженного места, вынуждать покинуть дом)",
+            "---"
+          ],
+          "examples": [
+            "The war uprooted thousands of families in a single week.",
+            "A transfer would uproot the whole family again.",
+            "They have been uprooted twice in five years."
+          ]
+        }
+      ],
+      "русский": "вырывать с корнем, выкорчевывать; срывать с насиженного места, вынуждать покинуть дом",
       "forms": "uproot · uprooted · uprooted",
       "verb class": "regular",
       "third person": "uproots · -ing form: uprooting",
@@ -550,14 +884,58 @@
       "term": "pick",
       "ipa": "/pɪk/",
       "respell": "PIK",
-      "meaning": "To take fruit, flowers, or vegetables off the plant by hand. ---",
+      "meaning": "Pick has 3 distinct senses.",
       "examples": [
         "We pick apples the last week of September.",
         "She picked three quarts of blueberries before noon.",
-        "These beans are picked by hand."
+        "These beans are picked by hand.",
+        "Pick whichever one you like.",
+        "They picked her for the team.",
+        "Have you picked a name for the baby yet?",
+        "Stop picking your teeth at the table.",
+        "She picked a splinter out of her thumb with a needle.",
+        "Don't pick that scab or it will scar."
       ],
-      "senses": [],
-      "русский": "собирать, собрать (урожай); рвать (ягоды)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take fruit, flowers, or vegetables off the plant by hand",
+          "body": [
+            "(собирать, собрать (урожай); рвать (ягоды))"
+          ],
+          "examples": [
+            "We pick apples the last week of September.",
+            "She picked three quarts of blueberries before noon.",
+            "These beans are picked by hand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To choose one thing or person out of several",
+          "body": [
+            "(выбирать, выбрать; отбирать, отобрать)"
+          ],
+          "examples": [
+            "Pick whichever one you like.",
+            "They picked her for the team.",
+            "Have you picked a name for the baby yet?"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To pull or scratch small bits off or out of something with your fingers or a point",
+          "body": [
+            "(ковырять, выковыривать, выковырять; теребить)",
+            "---"
+          ],
+          "examples": [
+            "Stop picking your teeth at the table.",
+            "She picked a splinter out of her thumb with a needle.",
+            "Don't pick that scab or it will scar."
+          ]
+        }
+      ],
+      "русский": "собирать, собрать (урожай); рвать (ягоды); выбирать, выбрать; отбирать, отобрать; ковырять, выковыривать, выковырять; теребить",
       "forms": "pick · picked · picked",
       "verb class": "regular",
       "third person": "picks · -ing form: picking",
@@ -586,14 +964,43 @@
       "term": "milk",
       "ipa": "/mɪlk/",
       "respell": "MILK",
-      "meaning": "To take milk from a cow, goat, or other animal. ---",
+      "meaning": "Milk has 2 distinct senses.",
       "examples": [
         "We milk the goats twice a day.",
         "He milked forty cows before breakfast.",
-        "The cows have already been milked this morning."
+        "The cows have already been milked this morning.",
+        "Some comedians milk a joke until it dies.",
+        "He milked the injury for two extra weeks off.",
+        "They are milking the story for every click it is worth."
       ],
-      "senses": [],
-      "русский": "доить, подоить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take milk from a cow, goat, or other animal",
+          "body": [
+            "(доить, подоить)"
+          ],
+          "examples": [
+            "We milk the goats twice a day.",
+            "He milked forty cows before breakfast.",
+            "The cows have already been milked this morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To get as much money or advantage out of something as you possibly can",
+          "body": [
+            "(выжимать (выгоду), доить; наживаться)",
+            "---"
+          ],
+          "examples": [
+            "Some comedians milk a joke until it dies.",
+            "He milked the injury for two extra weeks off.",
+            "They are milking the story for every click it is worth."
+          ]
+        }
+      ],
+      "русский": "доить, подоить; выжимать (выгоду), доить; наживаться",
       "forms": "milk · milked · milked",
       "verb class": "regular",
       "third person": "milks · -ing form: milking",
@@ -603,14 +1010,43 @@
       "term": "hatch",
       "ipa": "/hætʃ/",
       "respell": "HACH",
-      "meaning": "To come out of an egg, or to bring young out of eggs. ---",
+      "meaning": "Hatch has 2 distinct senses.",
       "examples": [
         "These eggs hatch in twenty-one days.",
         "Four chicks hatched overnight.",
-        "The last egg has not hatched yet."
+        "The last egg has not hatched yet.",
+        "They hatched a plan to surprise her at the airport.",
+        "The whole scheme was hatched over dinner.",
+        "He is always hatching some new business idea."
       ],
-      "senses": [],
-      "русский": "вылупляться, вылупиться; высиживать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To come out of an egg, or to bring young out of eggs",
+          "body": [
+            "(вылупляться, вылупиться; высиживать)"
+          ],
+          "examples": [
+            "These eggs hatch in twenty-one days.",
+            "Four chicks hatched overnight.",
+            "The last egg has not hatched yet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To invent a plan or a plot, usually in secret",
+          "body": [
+            "(замышлять, задумать; вынашивать (план))",
+            "---"
+          ],
+          "examples": [
+            "They hatched a plan to surprise her at the airport.",
+            "The whole scheme was hatched over dinner.",
+            "He is always hatching some new business idea."
+          ]
+        }
+      ],
+      "русский": "вылупляться, вылупиться; высиживать; замышлять, задумать; вынашивать (план)",
       "forms": "hatch · hatched · hatched",
       "verb class": "regular",
       "third person": "hatches · -ing form: hatching",
@@ -621,14 +1057,43 @@
       "term": "incubate",
       "ipa": "/ˈɪŋkjəbeɪt/",
       "respell": "ING-kyuh-bayt",
-      "meaning": "To keep eggs warm until the young are ready to come out. ---",
+      "meaning": "Incubate has 2 distinct senses.",
       "examples": [
         "A hen incubates her eggs for about three weeks.",
         "We incubated the duck eggs in the back shed.",
-        "The eggs are being incubated at ninety-nine degrees."
+        "The eggs are being incubated at ninety-nine degrees.",
+        "The virus incubates for about five days.",
+        "Whatever he caught incubated for a week and a half.",
+        "The infection had been incubating long before he felt sick."
       ],
-      "senses": [],
-      "русский": "высиживать (яйца), инкубировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To keep eggs warm until the young are ready to come out",
+          "body": [
+            "(высиживать (яйца), инкубировать)"
+          ],
+          "examples": [
+            "A hen incubates her eggs for about three weeks.",
+            "We incubated the duck eggs in the back shed.",
+            "The eggs are being incubated at ninety-nine degrees."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To develop quietly inside the body before any symptoms show, said of a disease",
+          "body": [
+            "(развиваться скрыто, зреть (об инфекции в инкубационный период))",
+            "---"
+          ],
+          "examples": [
+            "The virus incubates for about five days.",
+            "Whatever he caught incubated for a week and a half.",
+            "The infection had been incubating long before he felt sick."
+          ]
+        }
+      ],
+      "русский": "высиживать (яйца), инкубировать; развиваться скрыто, зреть (об инфекции в инкубационный период)",
       "forms": "incubate · incubated · incubated",
       "verb class": "regular",
       "third person": "incubates · -ing form: incubating",
@@ -708,14 +1173,43 @@
       "term": "butcher",
       "ipa": "/ˈbʊtʃər/",
       "respell": "BUUCH-ur",
-      "meaning": "To kill an animal and cut it up for meat. ---",
+      "meaning": "Butcher has 2 distinct senses.",
       "examples": [
         "We butcher one hog every November.",
         "He butchered the deer that same evening.",
-        "The lamb has already been butchered and wrapped."
+        "The lamb has already been butchered and wrapped.",
+        "The waiter butchered my last name.",
+        "Don't butcher the song — practice it first.",
+        "They have butchered a perfectly good script."
       ],
-      "senses": [],
-      "русский": "разделывать (тушу); забивать (скот)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To kill an animal and cut it up for meat",
+          "body": [
+            "(разделывать (тушу); забивать (скот))"
+          ],
+          "examples": [
+            "We butcher one hog every November.",
+            "He butchered the deer that same evening.",
+            "The lamb has already been butchered and wrapped."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To ruin something by doing it clumsily or badly",
+          "body": [
+            "(коверкать, исковеркать; портить, запороть)",
+            "---"
+          ],
+          "examples": [
+            "The waiter butchered my last name.",
+            "Don't butcher the song — practice it first.",
+            "They have butchered a perfectly good script."
+          ]
+        }
+      ],
+      "русский": "разделывать (тушу); забивать (скот); коверкать, исковеркать; портить, запороть",
       "forms": "butcher · butchered · butchered",
       "verb class": "regular",
       "third person": "butchers · -ing form: butchering",
@@ -725,14 +1219,43 @@
       "term": "groom",
       "ipa": "/ɡruːm/",
       "respell": "GROOM",
-      "meaning": "To brush and clean an animal's coat. ---",
+      "meaning": "Groom has 2 distinct senses.",
       "examples": [
         "She grooms the horses every morning.",
         "He groomed the pony before the county fair.",
-        "The dogs are groomed twice a year."
+        "The dogs are groomed twice a year.",
+        "The party grooms candidates years in advance.",
+        "They groomed her for a seat on the board.",
+        "He is being groomed as the next CEO."
       ],
-      "senses": [],
-      "русский": "чистить, ухаживать (за животным)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To brush and clean an animal's coat",
+          "body": [
+            "(чистить, ухаживать (за животным))"
+          ],
+          "examples": [
+            "She grooms the horses every morning.",
+            "He groomed the pony before the county fair.",
+            "The dogs are groomed twice a year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To train and prepare someone for an important job or role",
+          "body": [
+            "(готовить (к должности), растить (преемника))",
+            "---"
+          ],
+          "examples": [
+            "The party grooms candidates years in advance.",
+            "They groomed her for a seat on the board.",
+            "He is being groomed as the next CEO."
+          ]
+        }
+      ],
+      "русский": "чистить, ухаживать (за животным); готовить (к должности), растить (преемника)",
       "forms": "groom · groomed · groomed",
       "verb class": "regular",
       "third person": "grooms · -ing form: grooming",
@@ -742,14 +1265,43 @@
       "term": "tend",
       "ipa": "/tɛnd/",
       "respell": "TEND",
-      "meaning": "To look after plants or animals and give them what they need. ---",
+      "meaning": "Tend has 2 distinct senses.",
       "examples": [
         "He tends the whole orchard by himself.",
         "She tended the sheep through a hard winter.",
-        "That garden has been carefully tended for years."
+        "That garden has been carefully tended for years.",
+        "Prices tend to rise in the summer.",
+        "He tended to arrive late, so we stopped waiting for him.",
+        "She has always tended toward caution."
       ],
-      "senses": [],
-      "русский": "ухаживать (за растениями, животными); присматривать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To look after plants or animals and give them what they need",
+          "body": [
+            "(ухаживать (за растениями, животными); присматривать)"
+          ],
+          "examples": [
+            "He tends the whole orchard by himself.",
+            "She tended the sheep through a hard winter.",
+            "That garden has been carefully tended for years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be likely to do something, or to do it regularly",
+          "body": [
+            "(иметь склонность, обычно делать; быть склонным к)",
+            "---"
+          ],
+          "examples": [
+            "Prices tend to rise in the summer.",
+            "He tended to arrive late, so we stopped waiting for him.",
+            "She has always tended toward caution."
+          ]
+        }
+      ],
+      "русский": "ухаживать (за растениями, животными); присматривать; иметь склонность, обычно делать; быть склонным к",
       "forms": "tend · tended · tended",
       "verb class": "regular",
       "third person": "tends · -ing form: tending",
@@ -760,14 +1312,43 @@
       "term": "fence",
       "ipa": "/fɛns/",
       "respell": "FENS",
-      "meaning": "To put a fence around a piece of land. ---",
+      "meaning": "Fence has 2 distinct senses.",
       "examples": [
         "We fence the garden to keep the deer out.",
         "They fenced forty acres last summer.",
-        "The pasture is fenced on three sides."
+        "The pasture is fenced on three sides.",
+        "She learned to fence in college.",
+        "They fenced for an hour every morning.",
+        "He has been fencing since he was ten."
       ],
-      "senses": [],
-      "русский": "огораживать, огородить (забором)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put a fence around a piece of land",
+          "body": [
+            "(огораживать, огородить (забором))"
+          ],
+          "examples": [
+            "We fence the garden to keep the deer out.",
+            "They fenced forty acres last summer.",
+            "The pasture is fenced on three sides."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fight with a long thin sword as a sport",
+          "body": [
+            "(фехтовать)",
+            "---"
+          ],
+          "examples": [
+            "She learned to fence in college.",
+            "They fenced for an hour every morning.",
+            "He has been fencing since he was ten."
+          ]
+        }
+      ],
+      "русский": "огораживать, огородить (забором); фехтовать",
       "forms": "fence · fenced · fenced",
       "verb class": "regular",
       "third person": "fences · -ing form: fencing",
@@ -795,14 +1376,43 @@
       "term": "harness",
       "ipa": "/ˈhɑːrnɪs/",
       "respell": "HAR-nis",
-      "meaning": "To put straps on a horse or other animal so it can pull something. ---",
+      "meaning": "Harness has 2 distinct senses.",
       "examples": [
         "They still harness mules for the steepest rows.",
         "He harnessed the team before sunrise.",
-        "The horses are already harnessed and waiting."
+        "The horses are already harnessed and waiting.",
+        "The dam harnesses the river to make electricity.",
+        "Early settlers harnessed the wind to pump water.",
+        "The company is harnessing all that data to price its loans."
       ],
-      "senses": [],
-      "русский": "запрягать, запрячь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put straps on a horse or other animal so it can pull something",
+          "body": [
+            "(запрягать, запрячь)"
+          ],
+          "examples": [
+            "They still harness mules for the steepest rows.",
+            "He harnessed the team before sunrise.",
+            "The horses are already harnessed and waiting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bring a natural force or a resource under control so that it can be used",
+          "body": [
+            "(использовать, задействовать (энергию); обуздать)",
+            "---"
+          ],
+          "examples": [
+            "The dam harnesses the river to make electricity.",
+            "Early settlers harnessed the wind to pump water.",
+            "The company is harnessing all that data to price its loans."
+          ]
+        }
+      ],
+      "русский": "запрягать, запрячь; использовать, задействовать (энергию); обуздать",
       "forms": "harness · harnessed · harnessed",
       "verb class": "regular",
       "third person": "harnesses · -ing form: harnessing",
@@ -813,14 +1423,43 @@
       "term": "saddle",
       "ipa": "/ˈsædəl/",
       "respell": "SAD-uhl",
-      "meaning": "To put a saddle on a horse. ---",
+      "meaning": "Saddle has 2 distinct senses.",
       "examples": [
         "We saddle the horses right after chores.",
         "She saddled her mare and rode out to the herd.",
-        "The ponies were saddled and ready by six."
+        "The ponies were saddled and ready by six.",
+        "Don't saddle the new guy with all the paperwork.",
+        "The deal saddled the company with huge debts.",
+        "Many graduates are saddled with loans for decades."
       ],
-      "senses": [],
-      "русский": "седлать, оседлать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put a saddle on a horse",
+          "body": [
+            "(седлать, оседлать)"
+          ],
+          "examples": [
+            "We saddle the horses right after chores.",
+            "She saddled her mare and rode out to the herd.",
+            "The ponies were saddled and ready by six."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give someone a difficult job, debt, or responsibility they did not want",
+          "body": [
+            "(обременять, обременить; взваливать, взвалить (долг, обязанность))",
+            "---"
+          ],
+          "examples": [
+            "Don't saddle the new guy with all the paperwork.",
+            "The deal saddled the company with huge debts.",
+            "Many graduates are saddled with loans for decades."
+          ]
+        }
+      ],
+      "русский": "седлать, оседлать; обременять, обременить; взваливать, взвалить (долг, обязанность)",
       "forms": "saddle · saddled · saddled",
       "verb class": "regular",
       "third person": "saddles · -ing form: saddling",
@@ -848,14 +1487,43 @@
       "term": "nest",
       "ipa": "/nɛst/",
       "respell": "NEST",
-      "meaning": "To build a nest and live in it while raising young. ---",
+      "meaning": "Nest has 2 distinct senses.",
       "examples": [
         "Swallows nest under our barn roof every year.",
         "A pair of owls nested in the old sycamore.",
-        "The turtles are nesting on the beach tonight."
+        "The turtles are nesting on the beach tonight.",
+        "The mixing bowls nest inside each other.",
+        "She nested the boxes to save room in the closet.",
+        "Nesting folders too deeply makes files hard to find."
       ],
-      "senses": [],
-      "русский": "гнездиться, вить гнездо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To build a nest and live in it while raising young",
+          "body": [
+            "(гнездиться, вить гнездо)"
+          ],
+          "examples": [
+            "Swallows nest under our barn roof every year.",
+            "A pair of owls nested in the old sycamore.",
+            "The turtles are nesting on the beach tonight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fit one thing neatly inside another",
+          "body": [
+            "(вкладывать один в другой, вставлять внутрь)",
+            "---"
+          ],
+          "examples": [
+            "The mixing bowls nest inside each other.",
+            "She nested the boxes to save room in the closet.",
+            "Nesting folders too deeply makes files hard to find."
+          ]
+        }
+      ],
+      "русский": "гнездиться, вить гнездо; вкладывать один в другой, вставлять внутрь",
       "forms": "nest · nested · nested",
       "verb class": "regular",
       "third person": "nests · -ing form: nesting",
@@ -882,14 +1550,43 @@
       "term": "perch",
       "ipa": "/pɜːrtʃ/",
       "respell": "PURCH",
-      "meaning": "To sit on a branch, wire, or post, said of a bird. ---",
+      "meaning": "Perch has 2 distinct senses.",
       "examples": [
         "Hawks perch on the fence posts along this road.",
         "A cardinal perched on the feeder for a second.",
-        "Two owls were perching on the barn ridge."
+        "Two owls were perching on the barn ridge.",
+        "She perched on the arm of the sofa.",
+        "The village perches on a steep hillside above the river.",
+        "A small chapel is perched on the cliff over the bay."
       ],
-      "senses": [],
-      "русский": "садиться, усаживаться (о птице)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To sit on a branch, wire, or post, said of a bird",
+          "body": [
+            "(садиться, усаживаться (о птице))"
+          ],
+          "examples": [
+            "Hawks perch on the fence posts along this road.",
+            "A cardinal perched on the feeder for a second.",
+            "Two owls were perching on the barn ridge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To sit on the edge of something, or to stand high up in a narrow spot",
+          "body": [
+            "(примоститься, присесть на край; возвышаться (о доме, посёлке))",
+            "---"
+          ],
+          "examples": [
+            "She perched on the arm of the sofa.",
+            "The village perches on a steep hillside above the river.",
+            "A small chapel is perched on the cliff over the bay."
+          ]
+        }
+      ],
+      "русский": "садиться, усаживаться (о птице); примоститься, присесть на край; возвышаться (о доме, посёлке)",
       "forms": "perch · perched · perched",
       "verb class": "regular",
       "third person": "perches · -ing form: perching",
@@ -916,14 +1613,43 @@
       "term": "hibernate",
       "ipa": "/ˈhaɪbərneɪt/",
       "respell": "HY-bur-nayt",
-      "meaning": "To sleep through the winter, said of animals like bears and groundhogs. ---",
+      "meaning": "Hibernate has 2 distinct senses.",
       "examples": [
         "Groundhogs hibernate from October to March.",
         "The bear hibernated in a hollow log.",
-        "The frogs are hibernating down in the mud."
+        "The frogs are hibernating down in the mud.",
+        "Set the laptop to hibernate instead of shutting it down.",
+        "The PC hibernated overnight and woke up with every tab still open.",
+        "It has been hibernating since I closed the lid."
       ],
-      "senses": [],
-      "русский": "впадать в спячку, зимовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To sleep through the winter, said of animals like bears and groundhogs",
+          "body": [
+            "(впадать в спячку, зимовать)"
+          ],
+          "examples": [
+            "Groundhogs hibernate from October to March.",
+            "The bear hibernated in a hollow log.",
+            "The frogs are hibernating down in the mud."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put a computer into a low-power state that saves whatever is open",
+          "body": [
+            "(переходить в спящий режим, уходить в гибернацию)",
+            "---"
+          ],
+          "examples": [
+            "Set the laptop to hibernate instead of shutting it down.",
+            "The PC hibernated overnight and woke up with every tab still open.",
+            "It has been hibernating since I closed the lid."
+          ]
+        }
+      ],
+      "русский": "впадать в спячку, зимовать; переходить в спящий режим, уходить в гибернацию",
       "forms": "hibernate · hibernated · hibernated",
       "verb class": "regular",
       "third person": "hibernates · -ing form: hibernating",
@@ -950,14 +1676,43 @@
       "term": "spawn",
       "ipa": "/spɔːn/",
       "respell": "SPAWN",
-      "meaning": "To lay eggs in water, said of fish and frogs. ---",
+      "meaning": "Spawn has 2 distinct senses.",
       "examples": [
         "Salmon spawn in the stream where they hatched.",
         "The trout spawned early this year.",
-        "Thousands of fish are spawning in the shallows."
+        "Thousands of fish are spawning in the shallows.",
+        "One hit movie can spawn a dozen imitations.",
+        "The scandal spawned three separate investigations.",
+        "The show has spawned two spin-offs and a video game."
       ],
-      "senses": [],
-      "русский": "метать икру, нереститься",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To lay eggs in water, said of fish and frogs",
+          "body": [
+            "(метать икру, нереститься)"
+          ],
+          "examples": [
+            "Salmon spawn in the stream where they hatched.",
+            "The trout spawned early this year.",
+            "Thousands of fish are spawning in the shallows."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To cause something new to come into existence, especially in large numbers",
+          "body": [
+            "(порождать, породить; вызывать появление)",
+            "---"
+          ],
+          "examples": [
+            "One hit movie can spawn a dozen imitations.",
+            "The scandal spawned three separate investigations.",
+            "The show has spawned two spin-offs and a video game."
+          ]
+        }
+      ],
+      "русский": "метать икру, нереститься; порождать, породить; вызывать появление",
       "forms": "spawn · spawned · spawned",
       "verb class": "regular",
       "third person": "spawns · -ing form: spawning",
@@ -1057,14 +1812,43 @@
       "term": "peck",
       "ipa": "/pɛk/",
       "respell": "PEK",
-      "meaning": "To strike or pick up something with the beak. ---",
+      "meaning": "Peck has 2 distinct senses.",
       "examples": [
         "The hens peck at the corn all day long.",
         "A rooster pecked my ankle when I opened the gate.",
-        "The chicks are pecking their way out of the shells."
+        "The chicks are pecking their way out of the shells.",
+        "He pecks his daughter on the forehead every night.",
+        "She pecked him on the cheek and ran for the bus.",
+        "Having pecked his wife goodbye, he hurried out the door."
       ],
-      "senses": [],
-      "русский": "клевать, клюнуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To strike or pick up something with the beak",
+          "body": [
+            "(клевать, клюнуть)"
+          ],
+          "examples": [
+            "The hens peck at the corn all day long.",
+            "A rooster pecked my ankle when I opened the gate.",
+            "The chicks are pecking their way out of the shells."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give someone a quick, light kiss",
+          "body": [
+            "(чмокать, чмокнуть; целовать в щёку)",
+            "---"
+          ],
+          "examples": [
+            "He pecks his daughter on the forehead every night.",
+            "She pecked him on the cheek and ran for the bus.",
+            "Having pecked his wife goodbye, he hurried out the door."
+          ]
+        }
+      ],
+      "русский": "клевать, клюнуть; чмокать, чмокнуть; целовать в щёку",
       "forms": "peck · pecked · pecked",
       "verb class": "regular",
       "third person": "pecks · -ing form: pecking",
@@ -1231,14 +2015,43 @@
       "term": "howl",
       "ipa": "/haʊl/",
       "respell": "HOWL",
-      "meaning": "To make a long loud crying sound, said of dogs, wolves, or the wind. ---",
+      "meaning": "Howl has 2 distinct senses.",
       "examples": [
         "Coyotes howl behind the barn most nights.",
         "The dog howled until we let him in.",
-        "Wolves have been howling all along the ridge."
+        "Wolves have been howling all along the ridge.",
+        "The audience howled at his impression of the mayor.",
+        "Critics howl every time ticket prices go up.",
+        "We were howling by the end of the first act."
       ],
-      "senses": [],
-      "русский": "выть, завывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a long loud crying sound, said of dogs, wolves, or the wind",
+          "body": [
+            "(выть, завывать)"
+          ],
+          "examples": [
+            "Coyotes howl behind the barn most nights.",
+            "The dog howled until we let him in.",
+            "Wolves have been howling all along the ridge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To laugh, shout, or complain very loudly",
+          "body": [
+            "(хохотать, вопить; громко возмущаться)",
+            "---"
+          ],
+          "examples": [
+            "The audience howled at his impression of the mayor.",
+            "Critics howl every time ticket prices go up.",
+            "We were howling by the end of the first act."
+          ]
+        }
+      ],
+      "русский": "выть, завывать; хохотать, вопить; громко возмущаться",
       "forms": "howl · howled · howled",
       "verb class": "regular",
       "third person": "howls · -ing form: howling",
@@ -1248,14 +2061,43 @@
       "term": "bark",
       "ipa": "/bɑːrk/",
       "respell": "BARK",
-      "meaning": "To make the short loud sound a dog makes. ---",
+      "meaning": "Bark has 2 distinct senses.",
       "examples": [
         "Our dogs bark at every truck on the road.",
         "The collie barked at the coyote until it left.",
-        "Something is barking down by the creek."
+        "Something is barking down by the creek.",
+        "Don't bark at me; I'm doing my best.",
+        "The sergeant barked an order and everyone stood up.",
+        "She was barking instructions from the kitchen all evening."
       ],
-      "senses": [],
-      "русский": "лаять, залаять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make the short loud sound a dog makes",
+          "body": [
+            "(лаять, залаять)"
+          ],
+          "examples": [
+            "Our dogs bark at every truck on the road.",
+            "The collie barked at the coyote until it left.",
+            "Something is barking down by the creek."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To say something in a loud, sharp voice, especially an order",
+          "body": [
+            "(рявкать, гаркнуть; резко выкрикивать (приказы))",
+            "---"
+          ],
+          "examples": [
+            "Don't bark at me; I'm doing my best.",
+            "The sergeant barked an order and everyone stood up.",
+            "She was barking instructions from the kitchen all evening."
+          ]
+        }
+      ],
+      "русский": "лаять, залаять; рявкать, гаркнуть; резко выкрикивать (приказы)",
       "forms": "bark · barked · barked",
       "verb class": "regular",
       "third person": "barks · -ing form: barking",
@@ -1266,14 +2108,43 @@
       "term": "growl",
       "ipa": "/ɡraʊl/",
       "respell": "GROWL",
-      "meaning": "To make a low threatening sound in the throat, said of an animal. ---",
+      "meaning": "Growl has 2 distinct senses.",
       "examples": [
         "The old dog growls at anyone he doesn't know.",
         "The bear growled once and backed away.",
-        "The pup was growling at his own reflection."
+        "The pup was growling at his own reflection.",
+        "'Sit down,' he growled.",
+        "She growls at anyone who touches her desk.",
+        "He kept growling orders from the back of the boat."
       ],
-      "senses": [],
-      "русский": "рычать, зарычать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a low threatening sound in the throat, said of an animal",
+          "body": [
+            "(рычать, зарычать)"
+          ],
+          "examples": [
+            "The old dog growls at anyone he doesn't know.",
+            "The bear growled once and backed away.",
+            "The pup was growling at his own reflection."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To say something in a low, angry voice",
+          "body": [
+            "(рычать, прорычать (сказать зло, низким голосом))",
+            "---"
+          ],
+          "examples": [
+            "'Sit down,' he growled.",
+            "She growls at anyone who touches her desk.",
+            "He kept growling orders from the back of the boat."
+          ]
+        }
+      ],
+      "русский": "рычать, зарычать; рычать, прорычать (сказать зло, низким голосом)",
       "forms": "growl · growled · growled",
       "verb class": "regular",
       "third person": "growls · -ing form: growling",
@@ -1300,14 +2171,43 @@
       "term": "hoot",
       "ipa": "/huːt/",
       "respell": "HOOT",
-      "meaning": "To make the long low call of an owl. ---",
+      "meaning": "Hoot has 2 distinct senses.",
       "examples": [
         "Owls hoot from the tree line after dark.",
         "An owl hooted twice and then went quiet.",
-        "Something has been hooting out there all night."
+        "Something has been hooting out there all night.",
+        "The crowd hooted when the mascot fell off the bench.",
+        "Kids hoot and holler on the last day of school.",
+        "We were all hooting with laughter by the end."
       ],
-      "senses": [],
-      "русский": "ухать (о сове), кричать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make the long low call of an owl",
+          "body": [
+            "(ухать (о сове), кричать)"
+          ],
+          "examples": [
+            "Owls hoot from the tree line after dark.",
+            "An owl hooted twice and then went quiet.",
+            "Something has been hooting out there all night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To shout or laugh loudly, especially in mockery or delight",
+          "body": [
+            "(гоготать, улюлюкать; освистывать)",
+            "---"
+          ],
+          "examples": [
+            "The crowd hooted when the mascot fell off the bench.",
+            "Kids hoot and holler on the last day of school.",
+            "We were all hooting with laughter by the end."
+          ]
+        }
+      ],
+      "русский": "ухать (о сове), кричать; гоготать, улюлюкать; освистывать",
       "forms": "hoot · hooted · hooted",
       "verb class": "regular",
       "third person": "hoots · -ing form: hooting",
@@ -1368,14 +2268,43 @@
       "term": "screech",
       "ipa": "/skriːtʃ/",
       "respell": "SKREECH",
-      "meaning": "To make a loud sharp high cry. ---",
+      "meaning": "Screech has 2 distinct senses.",
       "examples": [
         "Barn owls screech instead of hooting.",
         "A hawk screeched over the pasture.",
-        "The peacocks have been screeching since dawn."
+        "The peacocks have been screeching since dawn.",
+        "The old brakes screech every time he stops.",
+        "A car screeched to a halt at the curb.",
+        "The subway came screeching into the station."
       ],
-      "senses": [],
-      "русский": "пронзительно кричать, визжать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a loud sharp high cry",
+          "body": [
+            "(пронзительно кричать, визжать)"
+          ],
+          "examples": [
+            "Barn owls screech instead of hooting.",
+            "A hawk screeched over the pasture.",
+            "The peacocks have been screeching since dawn."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a harsh, high sound, as tires or brakes do",
+          "body": [
+            "(визжать (о шинах, тормозах); скрежетать)",
+            "---"
+          ],
+          "examples": [
+            "The old brakes screech every time he stops.",
+            "A car screeched to a halt at the curb.",
+            "The subway came screeching into the station."
+          ]
+        }
+      ],
+      "русский": "пронзительно кричать, визжать; визжать (о шинах, тормозах); скрежетать",
       "forms": "screech · screeched · screeched",
       "verb class": "regular",
       "third person": "screeches · -ing form: screeching",
@@ -1404,14 +2333,43 @@
       "term": "trot",
       "ipa": "/trɑːt/",
       "respell": "TRAHT",
-      "meaning": "To move at a steady pace between walking and running, said of a horse. ---",
+      "meaning": "Trot has 2 distinct senses.",
       "examples": [
         "The ponies trot over as soon as they hear the bucket.",
         "The mare trotted right up to the fence.",
-        "The colt was trotting beside its mother."
+        "The colt was trotting beside its mother.",
+        "She trotted over to say hello.",
+        "The little boy trots after his sister everywhere she goes.",
+        "He came trotting up the driveway, out of breath."
       ],
-      "senses": [],
-      "русский": "бежать рысью, идти рысью",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move at a steady pace between walking and running, said of a horse",
+          "body": [
+            "(бежать рысью, идти рысью)"
+          ],
+          "examples": [
+            "The ponies trot over as soon as they hear the bucket.",
+            "The mare trotted right up to the fence.",
+            "The colt was trotting beside its mother."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of a person, to move along quickly with short steps",
+          "body": [
+            "(бежать трусцой, семенить, подбежать)",
+            "---"
+          ],
+          "examples": [
+            "She trotted over to say hello.",
+            "The little boy trots after his sister everywhere she goes.",
+            "He came trotting up the driveway, out of breath."
+          ]
+        }
+      ],
+      "русский": "бежать рысью, идти рысью; бежать трусцой, семенить, подбежать",
       "forms": "trot · trotted · trotted",
       "verb class": "regular",
       "third person": "trots · -ing form: trotting",
@@ -1423,14 +2381,43 @@
       "term": "hunt",
       "ipa": "/hʌnt/",
       "respell": "HUNT",
-      "meaning": "To chase and kill wild animals for food or sport. ---",
+      "meaning": "Hunt has 2 distinct senses.",
       "examples": [
         "They hunt deer on that ridge every November.",
         "His father hunted elk in Montana for thirty years.",
-        "Wolves have been hunting the herd all winter."
+        "Wolves have been hunting the herd all winter.",
+        "I hunted everywhere for my keys.",
+        "She hunts through the closet every single morning.",
+        "They are hunting for an apartment near the school."
       ],
-      "senses": [],
-      "русский": "охотиться (на)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To chase and kill wild animals for food or sport",
+          "body": [
+            "(охотиться (на))"
+          ],
+          "examples": [
+            "They hunt deer on that ridge every November.",
+            "His father hunted elk in Montana for thirty years.",
+            "Wolves have been hunting the herd all winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To search hard for something you need or have lost",
+          "body": [
+            "(искать, разыскивать; перерыть всё в поисках)",
+            "---"
+          ],
+          "examples": [
+            "I hunted everywhere for my keys.",
+            "She hunts through the closet every single morning.",
+            "They are hunting for an apartment near the school."
+          ]
+        }
+      ],
+      "русский": "охотиться (на); искать, разыскивать; перерыть всё в поисках",
       "forms": "hunt · hunted · hunted",
       "verb class": "regular",
       "third person": "hunts · -ing form: hunting",
@@ -1708,14 +2695,58 @@
       "term": "brand",
       "ipa": "/brænd/",
       "respell": "BRAND",
-      "meaning": "To burn a mark into an animal's hide to show who owns it. ---",
+      "meaning": "Brand has 3 distinct senses.",
       "examples": [
         "Ranchers brand the calves every spring.",
         "They branded two hundred head that weekend.",
-        "Every steer here is branded on the left hip."
+        "Every steer here is branded on the left hip.",
+        "The press branded him a liar.",
+        "One bad season can brand a player for years.",
+        "Nobody wants to be branded a cheat.",
+        "The agency branded the new coffee chain.",
+        "They brand everything in the same shade of green.",
+        "The app is branded as a tool for teachers."
       ],
-      "senses": [],
-      "русский": "клеймить, заклеймить (скот)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To burn a mark into an animal's hide to show who owns it",
+          "body": [
+            "(клеймить, заклеймить (скот))"
+          ],
+          "examples": [
+            "Ranchers brand the calves every spring.",
+            "They branded two hundred head that weekend.",
+            "Every steer here is branded on the left hip."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To label someone publicly as something bad, so that the name sticks",
+          "body": [
+            "(клеймить, заклеймить; объявлять (лжецом и т. п.))"
+          ],
+          "examples": [
+            "The press branded him a liar.",
+            "One bad season can brand a player for years.",
+            "Nobody wants to be branded a cheat."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To give a product or a company a name, a look, and an image that customers recognize",
+          "body": [
+            "(брендировать, создавать бренд; продвигать под маркой)",
+            "---"
+          ],
+          "examples": [
+            "The agency branded the new coffee chain.",
+            "They brand everything in the same shade of green.",
+            "The app is branded as a tool for teachers."
+          ]
+        }
+      ],
+      "русский": "клеймить, заклеймить (скот); клеймить, заклеймить; объявлять (лжецом и т. п.); брендировать, создавать бренд; продвигать под маркой",
       "forms": "brand · branded · branded",
       "verb class": "regular",
       "third person": "brands · -ing form: branding",
@@ -1760,14 +2791,43 @@
       "term": "wallow",
       "ipa": "/ˈwɑːloʊ/",
       "respell": "WAH-loh",
-      "meaning": "To roll around in mud or water, said of animals. ---",
+      "meaning": "Wallow has 2 distinct senses.",
       "examples": [
         "Hogs wallow in the mud to stay cool.",
         "The buffalo wallowed in a dust hole all afternoon.",
-        "Two pigs were wallowing by the fence."
+        "Two pigs were wallowing by the fence.",
+        "You can wallow for one more day, then get back to work.",
+        "He wallowed in self-pity for a month after the breakup.",
+        "She has been wallowing ever since the news came."
       ],
-      "senses": [],
-      "русский": "валяться (в грязи), барахтаться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To roll around in mud or water, said of animals",
+          "body": [
+            "(валяться (в грязи), барахтаться)"
+          ],
+          "examples": [
+            "Hogs wallow in the mud to stay cool.",
+            "The buffalo wallowed in a dust hole all afternoon.",
+            "Two pigs were wallowing by the fence."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To let yourself sink into a sad or self-pitying feeling instead of moving past it",
+          "body": [
+            "(упиваться (жалостью к себе), погрязать (в унынии))",
+            "---"
+          ],
+          "examples": [
+            "You can wallow for one more day, then get back to work.",
+            "He wallowed in self-pity for a month after the breakup.",
+            "She has been wallowing ever since the news came."
+          ]
+        }
+      ],
+      "русский": "валяться (в грязи), барахтаться; упиваться (жалостью к себе), погрязать (в унынии)",
       "forms": "wallow · wallowed · wallowed",
       "verb class": "regular",
       "third person": "wallows · -ing form: wallowing",
@@ -1777,14 +2837,43 @@
       "term": "ripple",
       "ipa": "/ˈrɪpəl/",
       "respell": "RIP-uhl",
-      "meaning": "To move in small waves across a surface. ---",
+      "meaning": "Ripple has 2 distinct senses.",
       "examples": [
         "The wheat ripples whenever the wind crosses the field.",
         "The pond rippled where a fish came up.",
-        "The tall grass was rippling like water."
+        "The tall grass was rippling like water.",
+        "A laugh rippled through the audience.",
+        "The layoffs will ripple through the whole town.",
+        "News of the merger is still rippling across the industry."
       ],
-      "senses": [],
-      "русский": "покрываться рябью; колыхаться волнами",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move in small waves across a surface",
+          "body": [
+            "(покрываться рябью; колыхаться волнами)"
+          ],
+          "examples": [
+            "The wheat ripples whenever the wind crosses the field.",
+            "The pond rippled where a fish came up.",
+            "The tall grass was rippling like water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "For a sound, a feeling, or an effect to spread gradually through a group or a place",
+          "body": [
+            "(прокатываться (волной), распространяться (по толпе, по рынку))",
+            "---"
+          ],
+          "examples": [
+            "A laugh rippled through the audience.",
+            "The layoffs will ripple through the whole town.",
+            "News of the merger is still rippling across the industry."
+          ]
+        }
+      ],
+      "русский": "покрываться рябью; колыхаться волнами; прокатываться (волной), распространяться (по толпе, по рынку)",
       "forms": "ripple · rippled · rippled",
       "verb class": "regular",
       "third person": "ripples · -ing form: rippling",
@@ -1811,14 +2900,57 @@
       "term": "thin",
       "ipa": "/θɪn/",
       "respell": "THIN",
-      "meaning": "To pull out some young plants so the rest have room to grow.",
+      "meaning": "Thin has 3 distinct senses.",
       "examples": [
         "Thin the carrots once they are two inches tall.",
         "We thinned the apples so the rest would grow bigger.",
-        "The lettuce has been thinned twice already."
+        "The lettuce has been thinned twice already.",
+        "His hair started thinning in his thirties.",
+        "The crowd thinned after the fireworks.",
+        "Traffic thins once you pass the second exit.",
+        "Thin the paint with a little water.",
+        "She thinned the sauce with a cup of stock.",
+        "The glue can be thinned if it gets too sticky."
       ],
-      "senses": [],
-      "русский": "прореживать, проредить (всходы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pull out some young plants so the rest have room to grow",
+          "body": [
+            "(прореживать, проредить (всходы))"
+          ],
+          "examples": [
+            "Thin the carrots once they are two inches tall.",
+            "We thinned the apples so the rest would grow bigger.",
+            "The lettuce has been thinned twice already."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To become fewer or less thick",
+          "body": [
+            "(редеть, поредеть; становиться тоньше, рассеиваться)"
+          ],
+          "examples": [
+            "His hair started thinning in his thirties.",
+            "The crowd thinned after the fireworks.",
+            "Traffic thins once you pass the second exit."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To make a liquid less thick by adding water or another liquid",
+          "body": [
+            "(разбавлять, разбавить (краску, соус))"
+          ],
+          "examples": [
+            "Thin the paint with a little water.",
+            "She thinned the sauce with a cup of stock.",
+            "The glue can be thinned if it gets too sticky."
+          ]
+        }
+      ],
+      "русский": "прореживать, проредить (всходы); редеть, поредеть; становиться тоньше, рассеиваться; разбавлять, разбавить (краску, соус)",
       "forms": "thin · thinned · thinned",
       "verb class": "regular",
       "third person": "thins · -ing form: thinning",

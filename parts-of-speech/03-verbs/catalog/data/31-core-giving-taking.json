@@ -42,14 +42,43 @@
       "term": "contribute",
       "ipa": "/kənˈtrɪbjuːt/",
       "respell": "kuhn-TRIB-yoot",
-      "meaning": "To give money, effort, or ideas as your part of something shared. ---",
+      "meaning": "Contribute has 2 distinct senses.",
       "examples": [
         "Everyone at work contributes five dollars a month.",
         "She contributed two hundred dollars to the relief fund.",
-        "He has contributed three articles to the magazine this year."
+        "He has contributed three articles to the magazine this year.",
+        "Smoking contributes to heart disease.",
+        "Poor lighting contributed to the accident.",
+        "Several factors have contributed to the delay."
       ],
-      "senses": [],
-      "русский": "вносить вклад, жертвовать, внести",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give money, effort, or ideas as your part of something shared",
+          "body": [
+            "(вносить вклад, жертвовать, внести)"
+          ],
+          "examples": [
+            "Everyone at work contributes five dollars a month.",
+            "She contributed two hundred dollars to the relief fund.",
+            "He has contributed three articles to the magazine this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be one of the causes of something",
+          "body": [
+            "(способствовать, быть одной из причин)",
+            "---"
+          ],
+          "examples": [
+            "Smoking contributes to heart disease.",
+            "Poor lighting contributed to the accident.",
+            "Several factors have contributed to the delay."
+          ]
+        }
+      ],
+      "русский": "вносить вклад, жертвовать, внести; способствовать, быть одной из причин",
       "forms": "contribute · contributed · contributed",
       "verb class": "regular",
       "third person": "contributes · -ing form: contributing",
@@ -79,14 +108,43 @@
       "term": "share",
       "ipa": "/ʃɛr/",
       "respell": "SHAIR",
-      "meaning": "To have or use something together with someone else, or to give part of it away. ---",
+      "meaning": "Share has 2 distinct senses.",
       "examples": [
         "The two boys share a bedroom.",
         "She shared her notes with the whole class.",
-        "They have been sharing a car since March."
+        "They have been sharing a car since March.",
+        "Thanks for sharing your story with us.",
+        "She shared the news with her family first.",
+        "He never shares what he is feeling."
       ],
-      "senses": [],
-      "русский": "делить, делиться, поделиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To have or use something together with someone else, or to give part of it away",
+          "body": [
+            "(делить, делиться, поделиться)"
+          ],
+          "examples": [
+            "The two boys share a bedroom.",
+            "She shared her notes with the whole class.",
+            "They have been sharing a car since March."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To tell someone about your thoughts, feelings, or news",
+          "body": [
+            "(делиться (мыслями, новостями), поделиться; рассказывать)",
+            "---"
+          ],
+          "examples": [
+            "Thanks for sharing your story with us.",
+            "She shared the news with her family first.",
+            "He never shares what he is feeling."
+          ]
+        }
+      ],
+      "русский": "делить, делиться, поделиться; делиться (мыслями, новостями), поделиться; рассказывать",
       "forms": "share · shared · shared",
       "verb class": "regular",
       "third person": "shares · -ing form: sharing",
@@ -115,14 +173,43 @@
       "term": "grant",
       "ipa": "/ɡrænt/",
       "respell": "GRANT",
-      "meaning": "To give someone something officially, especially permission or a right. ---",
+      "meaning": "Grant has 2 distinct senses.",
       "examples": [
         "The city grants permits to only ten vendors a year.",
         "The judge granted the request without comment.",
-        "He was granted citizenship last spring."
+        "He was granted citizenship last spring.",
+        "I'll grant you that the price is high.",
+        "She granted the point and moved on.",
+        "Granted, the weather could have been better."
       ],
-      "senses": [],
-      "русский": "предоставлять, предоставить, даровать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give someone something officially, especially permission or a right",
+          "body": [
+            "(предоставлять, предоставить, даровать)"
+          ],
+          "examples": [
+            "The city grants permits to only ten vendors a year.",
+            "The judge granted the request without comment.",
+            "He was granted citizenship last spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To admit that something is true, even when it does not change your opinion",
+          "body": [
+            "(признавать, признать; допускать, согласиться)",
+            "---"
+          ],
+          "examples": [
+            "I'll grant you that the price is high.",
+            "She granted the point and moved on.",
+            "Granted, the weather could have been better."
+          ]
+        }
+      ],
+      "русский": "предоставлять, предоставить, даровать; признавать, признать; допускать, согласиться",
       "forms": "grant · granted · granted",
       "verb class": "regular",
       "third person": "grants · -ing form: granting",
@@ -186,14 +273,43 @@
       "term": "submit",
       "ipa": "/səbˈmɪt/",
       "respell": "suhb-MIT",
-      "meaning": "To hand in a document or piece of work for someone to consider. ---",
+      "meaning": "Submit has 2 distinct senses.",
       "examples": [
         "You submit the application online.",
         "She submitted her résumé on Tuesday.",
-        "He has submitted the same essay twice."
+        "He has submitted the same essay twice.",
+        "He refused to submit to the guards.",
+        "The city finally submitted after a long siege.",
+        "Having submitted to a search, she was waved through."
       ],
-      "senses": [],
-      "русский": "подавать, представлять, подать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To hand in a document or piece of work for someone to consider",
+          "body": [
+            "(подавать, представлять, подать)"
+          ],
+          "examples": [
+            "You submit the application online.",
+            "She submitted her résumé on Tuesday.",
+            "He has submitted the same essay twice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To stop resisting and accept someone else's power or authority",
+          "body": [
+            "(подчиняться, подчиниться; покоряться, уступать)",
+            "---"
+          ],
+          "examples": [
+            "He refused to submit to the guards.",
+            "The city finally submitted after a long siege.",
+            "Having submitted to a search, she was waved through."
+          ]
+        }
+      ],
+      "русский": "подавать, представлять, подать; подчиняться, подчиниться; покоряться, уступать",
       "forms": "submit · submitted · submitted",
       "verb class": "regular",
       "third person": "submits · -ing form: submitting",
@@ -222,14 +338,43 @@
       "term": "sacrifice",
       "ipa": "/ˈsækrəfaɪs/",
       "respell": "SAK-ruh-fyss",
-      "meaning": "To give up something you value in order to get or protect something else. ---",
+      "meaning": "Sacrifice has 2 distinct senses.",
       "examples": [
         "Parents often sacrifice their own plans for their kids.",
         "She sacrificed a whole weekend to finish the project.",
-        "He has sacrificed a lot for that career."
+        "He has sacrificed a lot for that career.",
+        "Some cultures still sacrifice an animal at harvest time.",
+        "The priests sacrificed a goat each spring.",
+        "The lamb was sacrificed on the altar."
       ],
-      "senses": [],
-      "русский": "жертвовать, пожертвовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give up something you value in order to get or protect something else",
+          "body": [
+            "(жертвовать, пожертвовать)"
+          ],
+          "examples": [
+            "Parents often sacrifice their own plans for their kids.",
+            "She sacrificed a whole weekend to finish the project.",
+            "He has sacrificed a lot for that career."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To kill an animal or a person as an offering to a god",
+          "body": [
+            "(приносить в жертву, принести в жертву)",
+            "---"
+          ],
+          "examples": [
+            "Some cultures still sacrifice an animal at harvest time.",
+            "The priests sacrificed a goat each spring.",
+            "The lamb was sacrificed on the altar."
+          ]
+        }
+      ],
+      "русский": "жертвовать, пожертвовать; приносить в жертву, принести в жертву",
       "forms": "sacrifice · sacrificed · sacrificed",
       "verb class": "regular",
       "third person": "sacrifices · -ing form: sacrificing",
@@ -294,14 +439,43 @@
       "term": "confer",
       "ipa": "/kənˈfɜːr/",
       "respell": "kuhn-FUR",
-      "meaning": "To grant someone an honor, a title, or a right formally. ---",
+      "meaning": "Confer has 2 distinct senses.",
       "examples": [
         "The university confers degrees in May.",
         "The title was conferred on him in 1998.",
-        "The judges are conferring before they announce a winner."
+        "The judges are conferring before they announce a winner.",
+        "Let me confer with my partner and call you back.",
+        "The referees conferred for a full minute.",
+        "The judges have been conferring since lunch."
       ],
-      "senses": [],
-      "русский": "присваивать, присвоить, даровать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To grant someone an honor, a title, or a right formally",
+          "body": [
+            "(присваивать, присвоить, даровать)"
+          ],
+          "examples": [
+            "The university confers degrees in May.",
+            "The title was conferred on him in 1998.",
+            "The judges are conferring before they announce a winner."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To talk something over with other people before deciding",
+          "body": [
+            "(совещаться, посовещаться; советоваться, обсуждать)",
+            "---"
+          ],
+          "examples": [
+            "Let me confer with my partner and call you back.",
+            "The referees conferred for a full minute.",
+            "The judges have been conferring since lunch."
+          ]
+        }
+      ],
+      "русский": "присваивать, присвоить, даровать; совещаться, посовещаться; советоваться, обсуждать",
       "forms": "confer · conferred · conferred",
       "verb class": "regular",
       "third person": "confers · -ing form: conferring",
@@ -330,14 +504,73 @@
       "term": "treat",
       "ipa": "/triːt/",
       "respell": "TREET",
-      "meaning": "To pay for something enjoyable for someone else as a gift. ---",
+      "meaning": "Treat has 4 distinct senses.",
       "examples": [
         "Let me treat you to lunch.",
         "Her uncle treated everyone to ice cream.",
-        "He is treating the whole team to dinner tonight."
+        "He is treating the whole team to dinner tonight.",
+        "They treat their employees well.",
+        "He treated her like a stranger.",
+        "I don't like being treated as a child.",
+        "Doctors treat the infection with antibiotics.",
+        "Paramedics treated her at the scene.",
+        "He is being treated for a broken wrist.",
+        "We treat the deck every other spring.",
+        "They treated the water before pumping it into town.",
+        "The lumber has been treated to resist rot."
       ],
-      "senses": [],
-      "русский": "угощать, угостить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pay for something enjoyable for someone else as a gift",
+          "body": [
+            "(угощать, угостить)"
+          ],
+          "examples": [
+            "Let me treat you to lunch.",
+            "Her uncle treated everyone to ice cream.",
+            "He is treating the whole team to dinner tonight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To behave toward someone or something in a particular way",
+          "body": [
+            "(обращаться, относиться (к кому-л.))"
+          ],
+          "examples": [
+            "They treat their employees well.",
+            "He treated her like a stranger.",
+            "I don't like being treated as a child."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To give medical care to a person or an illness",
+          "body": [
+            "(лечить, вылечить; оказывать помощь)"
+          ],
+          "examples": [
+            "Doctors treat the infection with antibiotics.",
+            "Paramedics treated her at the scene.",
+            "He is being treated for a broken wrist."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To put a chemical on something in order to protect it or change it",
+          "body": [
+            "(обрабатывать, обработать (составом))",
+            "---"
+          ],
+          "examples": [
+            "We treat the deck every other spring.",
+            "They treated the water before pumping it into town.",
+            "The lumber has been treated to resist rot."
+          ]
+        }
+      ],
+      "русский": "угощать, угостить; обращаться, относиться (к кому-л.); лечить, вылечить; оказывать помощь; обрабатывать, обработать (составом)",
       "forms": "treat · treated · treated",
       "verb class": "regular",
       "third person": "treats · -ing form: treating",
@@ -348,14 +581,43 @@
       "term": "tip",
       "ipa": "/tɪp/",
       "respell": "TIP",
-      "meaning": "To give a server, driver, or other worker extra money for their service. ---",
+      "meaning": "Tip has 2 distinct senses.",
       "examples": [
         "Americans usually tip about twenty percent.",
         "We tipped the driver ten dollars.",
-        "She is tipping in cash tonight."
+        "She is tipping in cash tonight.",
+        "Don't tip your chair back like that.",
+        "He tipped the bucket and poured the water into the sink.",
+        "The canoe was tipping dangerously in the wind."
       ],
-      "senses": [],
-      "русский": "давать чаевые, дать на чай",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give a server, driver, or other worker extra money for their service",
+          "body": [
+            "(давать чаевые, дать на чай)"
+          ],
+          "examples": [
+            "Americans usually tip about twenty percent.",
+            "We tipped the driver ten dollars.",
+            "She is tipping in cash tonight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To lean to one side or fall over, or to make something do that",
+          "body": [
+            "(наклонять, наклонить; опрокидывать, опрокинуть)",
+            "---"
+          ],
+          "examples": [
+            "Don't tip your chair back like that.",
+            "He tipped the bucket and poured the water into the sink.",
+            "The canoe was tipping dangerously in the wind."
+          ]
+        }
+      ],
+      "русский": "давать чаевые, дать на чай; наклонять, наклонить; опрокидывать, опрокинуть",
       "forms": "tip · tipped · tipped",
       "verb class": "regular",
       "third person": "tips · -ing form: tipping",
@@ -384,14 +646,43 @@
       "term": "compensate",
       "ipa": "/ˈkɑːmpənseɪt/",
       "respell": "KAHM-puhn-sayt",
-      "meaning": "To pay someone money to make up for a loss, injury, or inconvenience. ---",
+      "meaning": "Compensate has 2 distinct senses.",
       "examples": [
         "The airline will compensate passengers for the delay.",
         "They compensated him for the damage to his fence.",
-        "Nothing is compensating us for the lost weekend."
+        "Nothing is compensating us for the lost weekend.",
+        "A good lens can compensate for poor light.",
+        "She compensated for a thin résumé with a strong interview.",
+        "The engine runs rough, and the computer is constantly compensating for it."
       ],
-      "senses": [],
-      "русский": "возмещать, компенсировать, возместить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pay someone money to make up for a loss, injury, or inconvenience",
+          "body": [
+            "(возмещать, компенсировать, возместить)"
+          ],
+          "examples": [
+            "The airline will compensate passengers for the delay.",
+            "They compensated him for the damage to his fence.",
+            "Nothing is compensating us for the lost weekend."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To balance out a weakness or a loss by doing something else",
+          "body": [
+            "(компенсировать, восполнять (недостаток), возмещать)",
+            "---"
+          ],
+          "examples": [
+            "A good lens can compensate for poor light.",
+            "She compensated for a thin résumé with a strong interview.",
+            "The engine runs rough, and the computer is constantly compensating for it."
+          ]
+        }
+      ],
+      "русский": "возмещать, компенсировать, возместить; компенсировать, восполнять (недостаток), возмещать",
       "forms": "compensate · compensated · compensated",
       "verb class": "regular",
       "third person": "compensates · -ing form: compensating",
@@ -455,14 +746,43 @@
       "term": "fetch",
       "ipa": "/fɛtʃ/",
       "respell": "FECH",
-      "meaning": "To go somewhere, pick something up, and bring it back. ---",
+      "meaning": "Fetch has 2 distinct senses.",
       "examples": [
         "Would you fetch a chair from the kitchen?",
         "The dog fetched the stick every single time.",
-        "She is fetching water from the pump out back."
+        "She is fetching water from the pump out back.",
+        "The painting could fetch two million dollars.",
+        "His old guitar fetched far more than he expected.",
+        "Beach houses here have fetched record prices this year."
       ],
-      "senses": [],
-      "русский": "приносить, принести, сходить за",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To go somewhere, pick something up, and bring it back",
+          "body": [
+            "(приносить, принести, сходить за)"
+          ],
+          "examples": [
+            "Would you fetch a chair from the kitchen?",
+            "The dog fetched the stick every single time.",
+            "She is fetching water from the pump out back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be sold for a particular price",
+          "body": [
+            "(выручать (сумму), уходить за (цену), принести (на торгах))",
+            "---"
+          ],
+          "examples": [
+            "The painting could fetch two million dollars.",
+            "His old guitar fetched far more than he expected.",
+            "Beach houses here have fetched record prices this year."
+          ]
+        }
+      ],
+      "русский": "приносить, принести, сходить за; выручать (сумму), уходить за (цену), принести (на торгах)",
       "forms": "fetch · fetched · fetched",
       "verb class": "regular",
       "third person": "fetches · -ing form: fetching",
@@ -509,14 +829,43 @@
       "term": "trade",
       "ipa": "/treɪd/",
       "respell": "TRAYD",
-      "meaning": "To give something to someone and get something of theirs in return. ---",
+      "meaning": "Trade has 2 distinct senses.",
       "examples": [
         "I'll trade you my sandwich for your apple.",
         "He traded his bike for an old guitar.",
-        "They are trading baseball cards at recess."
+        "They are trading baseball cards at recess.",
+        "He trades bonds for a hedge fund.",
+        "The stock traded below ten dollars all week.",
+        "Oil has been trading near record highs."
       ],
-      "senses": [],
-      "русский": "обменивать, менять, торговать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give something to someone and get something of theirs in return",
+          "body": [
+            "(обменивать, менять, торговать)"
+          ],
+          "examples": [
+            "I'll trade you my sandwich for your apple.",
+            "He traded his bike for an old guitar.",
+            "They are trading baseball cards at recess."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To buy and sell stocks, currency, or commodities on a market",
+          "body": [
+            "(торговать (на бирже); котироваться)",
+            "---"
+          ],
+          "examples": [
+            "He trades bonds for a hedge fund.",
+            "The stock traded below ten dollars all week.",
+            "Oil has been trading near record highs."
+          ]
+        }
+      ],
+      "русский": "обменивать, менять, торговать; торговать (на бирже); котироваться",
       "forms": "trade · traded · traded",
       "verb class": "regular",
       "third person": "trades · -ing form: trading",
@@ -562,14 +911,73 @@
       "term": "post",
       "ipa": "/poʊst/",
       "respell": "POHST",
-      "meaning": "To put a notice, message, or picture where others can see it, especially online. ---",
+      "meaning": "Post has 4 distinct senses.",
       "examples": [
         "They post the schedule every Sunday night.",
         "She posted the photos about an hour ago.",
-        "He has been posting about the sale all week."
+        "He has been posting about the sale all week.",
+        "The Army posted him to Germany for three years.",
+        "They post a guard at the gate every night.",
+        "She has been posted overseas twice since 2019.",
+        "The airline posted a record profit last quarter.",
+        "Analysts expect the company to post another loss.",
+        "The chain has posted three straight quarters of growth.",
+        "His brother posted bail the same night.",
+        "She could not afford to post a $10,000 bond.",
+        "Bail was posted by an anonymous donor."
       ],
-      "senses": [],
-      "русский": "публиковать, размещать, выложить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put a notice, message, or picture where others can see it, especially online",
+          "body": [
+            "(публиковать, размещать, выложить)"
+          ],
+          "examples": [
+            "They post the schedule every Sunday night.",
+            "She posted the photos about an hour ago.",
+            "He has been posting about the sale all week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To send someone to a particular place to work or to stand guard",
+          "body": [
+            "(назначать (на должность, в место службы), направлять; выставлять (охрану))"
+          ],
+          "examples": [
+            "The Army posted him to Germany for three years.",
+            "They post a guard at the gate every night.",
+            "She has been posted overseas twice since 2019."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To officially announce a financial result such as a profit or a loss",
+          "body": [
+            "(объявлять (финансовые результаты), сообщать; показать (прибыль, убыток))"
+          ],
+          "examples": [
+            "The airline posted a record profit last quarter.",
+            "Analysts expect the company to post another loss.",
+            "The chain has posted three straight quarters of growth."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To pay money to a court so that an accused person can stay out of jail until the trial",
+          "body": [
+            "(вносить залог, внести залог)",
+            "---"
+          ],
+          "examples": [
+            "His brother posted bail the same night.",
+            "She could not afford to post a $10,000 bond.",
+            "Bail was posted by an anonymous donor."
+          ]
+        }
+      ],
+      "русский": "публиковать, размещать, выложить; назначать (на должность, в место службы), направлять; выставлять (охрану); объявлять (финансовые результаты), сообщать; показать (прибыль, убыток); вносить залог, внести залог",
       "forms": "post · posted · posted",
       "verb class": "regular",
       "third person": "posts · -ing form: posting",
@@ -579,14 +987,58 @@
       "term": "divide",
       "ipa": "/dɪˈvaɪd/",
       "respell": "di-VYD",
-      "meaning": "To separate something into parts and give each part to someone. ---",
+      "meaning": "Divide has 3 distinct senses.",
       "examples": [
         "We always divide the check evenly.",
         "She divided the cake into eight pieces.",
-        "The money is being divided among the four cousins."
+        "The money is being divided among the four cousins.",
+        "Divide twelve by four and you get three.",
+        "She divided the bill by the number of guests.",
+        "Dividing by zero is not allowed.",
+        "The issue divides the whole country.",
+        "The proposal divided the board for months.",
+        "It is a question that has divided families."
       ],
-      "senses": [],
-      "русский": "делить, разделить, распределять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To separate something into parts and give each part to someone",
+          "body": [
+            "(делить, разделить, распределять)"
+          ],
+          "examples": [
+            "We always divide the check evenly.",
+            "She divided the cake into eight pieces.",
+            "The money is being divided among the four cousins."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To find how many times one number goes into another",
+          "body": [
+            "(делить, разделить (в арифметике))"
+          ],
+          "examples": [
+            "Divide twelve by four and you get three.",
+            "She divided the bill by the number of guests.",
+            "Dividing by zero is not allowed."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To make people disagree strongly with one another",
+          "body": [
+            "(разделять, раскалывать (общество, группу))",
+            "---"
+          ],
+          "examples": [
+            "The issue divides the whole country.",
+            "The proposal divided the board for months.",
+            "It is a question that has divided families."
+          ]
+        }
+      ],
+      "русский": "делить, разделить, распределять; делить, разделить (в арифметике); разделять, раскалывать (общество, группу)",
       "forms": "divide · divided · divided",
       "verb class": "regular",
       "third person": "divides · -ing form: dividing",
@@ -616,14 +1068,43 @@
       "term": "guarantee",
       "ipa": "/ˌɡɛrənˈtiː/",
       "respell": "gair-uhn-TEE",
-      "meaning": "To promise that something will happen or that a product will work. ---",
+      "meaning": "Guarantee has 2 distinct senses.",
       "examples": [
         "We guarantee delivery in two business days.",
         "The shop guaranteed the repair for a full year.",
-        "Nothing is guaranteed in this business."
+        "Nothing is guaranteed in this business.",
+        "Her father guaranteed the lease.",
+        "The government guarantees deposits up to a set amount.",
+        "The loan is guaranteed by the state."
       ],
-      "senses": [],
-      "русский": "гарантировать, ручаться, поручиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To promise that something will happen or that a product will work",
+          "body": [
+            "(гарантировать, ручаться, поручиться)"
+          ],
+          "examples": [
+            "We guarantee delivery in two business days.",
+            "The shop guaranteed the repair for a full year.",
+            "Nothing is guaranteed in this business."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To agree to be responsible for someone else's debt if they fail to pay it",
+          "body": [
+            "(выступать поручителем, поручиться; гарантировать (заём))",
+            "---"
+          ],
+          "examples": [
+            "Her father guaranteed the lease.",
+            "The government guarantees deposits up to a set amount.",
+            "The loan is guaranteed by the state."
+          ]
+        }
+      ],
+      "русский": "гарантировать, ручаться, поручиться; выступать поручителем, поручиться; гарантировать (заём)",
       "forms": "guarantee · guaranteed · guaranteed",
       "verb class": "regular",
       "third person": "guarantees · -ing form: guaranteeing",
@@ -634,14 +1115,43 @@
       "term": "volunteer",
       "ipa": "/ˌvɑːlənˈtɪr/",
       "respell": "vah-luhn-TEER",
-      "meaning": "To offer your time or help freely, without being asked or paid. ---",
+      "meaning": "Volunteer has 2 distinct senses.",
       "examples": [
         "Several parents volunteer at the book fair.",
         "He volunteered to drive everyone home.",
-        "She has been volunteering at the animal shelter since June."
+        "She has been volunteering at the animal shelter since June.",
+        "Don't volunteer anything the officer hasn't asked about.",
+        "He volunteered that he had been in the building that night.",
+        "Nobody has volunteered an explanation yet."
       ],
-      "senses": [],
-      "русский": "вызваться, предлагать помощь, работать добровольцем",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To offer your time or help freely, without being asked or paid",
+          "body": [
+            "(вызваться, предлагать помощь, работать добровольцем)"
+          ],
+          "examples": [
+            "Several parents volunteer at the book fair.",
+            "He volunteered to drive everyone home.",
+            "She has been volunteering at the animal shelter since June."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give information that nobody has asked you for",
+          "body": [
+            "(сообщать по собственной инициативе, вызваться сказать)",
+            "---"
+          ],
+          "examples": [
+            "Don't volunteer anything the officer hasn't asked about.",
+            "He volunteered that he had been in the building that night.",
+            "Nobody has volunteered an explanation yet."
+          ]
+        }
+      ],
+      "русский": "вызваться, предлагать помощь, работать добровольцем; сообщать по собственной инициативе, вызваться сказать",
       "forms": "volunteer · volunteered · volunteered",
       "verb class": "regular",
       "third person": "volunteers · -ing form: volunteering",
@@ -651,14 +1161,43 @@
       "term": "credit",
       "ipa": "/ˈkrɛdɪt/",
       "respell": "KRED-it",
-      "meaning": "To add money to someone's account. ---",
+      "meaning": "Credit has 2 distinct senses.",
       "examples": [
         "They credit the refund to your card automatically.",
         "The store credited my account the next day.",
-        "Twenty dollars has been credited to your balance."
+        "Twenty dollars has been credited to your balance.",
+        "She credits her mother with teaching her to cook.",
+        "He credited the win to his teammates.",
+        "Fleming is credited with discovering penicillin."
       ],
-      "senses": [],
-      "русский": "зачислять, зачислить, приписывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To add money to someone's account",
+          "body": [
+            "(зачислять, зачислить, приписывать)"
+          ],
+          "examples": [
+            "They credit the refund to your card automatically.",
+            "The store credited my account the next day.",
+            "Twenty dollars has been credited to your balance."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To say publicly that someone is responsible for something good",
+          "body": [
+            "(приписывать (заслугу), отдавать должное)",
+            "---"
+          ],
+          "examples": [
+            "She credits her mother with teaching her to cook.",
+            "He credited the win to his teammates.",
+            "Fleming is credited with discovering penicillin."
+          ]
+        }
+      ],
+      "русский": "зачислять, зачислить, приписывать; приписывать (заслугу), отдавать должное",
       "forms": "credit · credited · credited",
       "verb class": "regular",
       "third person": "credits · -ing form: crediting",
@@ -687,14 +1226,58 @@
       "term": "sponsor",
       "ipa": "/ˈspɑːnsər/",
       "respell": "SPAHN-sur",
-      "meaning": "To pay for an event, a team, or a person, usually in return for publicity. ---",
+      "meaning": "Sponsor has 3 distinct senses.",
       "examples": [
         "Local businesses sponsor the team every season.",
         "A bank sponsored the concert last summer.",
-        "They are sponsoring three students this year."
+        "They are sponsoring three students this year.",
+        "She plans to sponsor legislation on clean water.",
+        "Two senators sponsored the bill last spring.",
+        "The measure is sponsored by lawmakers from both parties.",
+        "His employer agreed to sponsor his visa.",
+        "She sponsored her mother for a green card.",
+        "He was sponsored by an uncle who already lived in Chicago."
       ],
-      "senses": [],
-      "русский": "спонсировать, финансировать, поддерживать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pay for an event, a team, or a person, usually in return for publicity",
+          "body": [
+            "(спонсировать, финансировать, поддерживать)"
+          ],
+          "examples": [
+            "Local businesses sponsor the team every season.",
+            "A bank sponsored the concert last summer.",
+            "They are sponsoring three students this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To formally put a bill or a proposal forward in a legislature",
+          "body": [
+            "(вносить, внести (законопроект); быть автором законопроекта)"
+          ],
+          "examples": [
+            "She plans to sponsor legislation on clean water.",
+            "Two senators sponsored the bill last spring.",
+            "The measure is sponsored by lawmakers from both parties."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To take formal responsibility for someone so that they can enter a country or join a group",
+          "body": [
+            "(выступать поручителем, поручиться; оформлять спонсорство (визу, грин-карту))",
+            "---"
+          ],
+          "examples": [
+            "His employer agreed to sponsor his visa.",
+            "She sponsored her mother for a green card.",
+            "He was sponsored by an uncle who already lived in Chicago."
+          ]
+        }
+      ],
+      "русский": "спонсировать, финансировать, поддерживать; вносить, внести (законопроект); быть автором законопроекта; выступать поручителем, поручиться; оформлять спонсорство (визу, грин-карту)",
       "forms": "sponsor · sponsored · sponsored",
       "verb class": "regular",
       "third person": "sponsors · -ing form: sponsoring",
@@ -777,14 +1360,43 @@
       "term": "receive",
       "ipa": "/rɪˈsiːv/",
       "respell": "ri-SEEV",
-      "meaning": "To get something that is sent or given to you. ---",
+      "meaning": "Receive has 2 distinct senses.",
       "examples": [
         "We receive about fifty applications a week.",
         "She received the package yesterday.",
-        "He has received no answer at all."
+        "He has received no answer at all.",
+        "How will voters receive the plan?",
+        "The audience received the speech warmly.",
+        "Her first novel was well received by critics."
       ],
-      "senses": [],
-      "русский": "получать, получить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To get something that is sent or given to you",
+          "body": [
+            "(получать, получить)"
+          ],
+          "examples": [
+            "We receive about fifty applications a week.",
+            "She received the package yesterday.",
+            "He has received no answer at all."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To react to something or someone in a particular way",
+          "body": [
+            "(принимать, воспринимать, встречать (о публике, критике))",
+            "---"
+          ],
+          "examples": [
+            "How will voters receive the plan?",
+            "The audience received the speech warmly.",
+            "Her first novel was well received by critics."
+          ]
+        }
+      ],
+      "русский": "получать, получить; принимать, воспринимать, встречать (о публике, критике)",
       "forms": "receive · received · received",
       "verb class": "regular",
       "third person": "receives · -ing form: receiving",
@@ -864,14 +1476,43 @@
       "term": "gather",
       "ipa": "/ˈɡæðər/",
       "respell": "GATH-ur",
-      "meaning": "To bring things or people together into one place. ---",
+      "meaning": "Gather has 2 distinct senses.",
       "examples": [
         "Squirrels gather nuts all through the fall.",
         "A crowd gathered outside the courthouse.",
-        "We are gathering signatures for the petition."
+        "We are gathering signatures for the petition.",
+        "I gather you two have already met.",
+        "From her voice he gathered that the news was bad.",
+        "We had gathered as much from her email."
       ],
-      "senses": [],
-      "русский": "собирать, собираться, собрать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To bring things or people together into one place",
+          "body": [
+            "(собирать, собираться, собрать)"
+          ],
+          "examples": [
+            "Squirrels gather nuts all through the fall.",
+            "A crowd gathered outside the courthouse.",
+            "We are gathering signatures for the petition."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To understand or conclude something from what you have seen or heard",
+          "body": [
+            "(понимать, заключать, сделать вывод)",
+            "---"
+          ],
+          "examples": [
+            "I gather you two have already met.",
+            "From her voice he gathered that the news was bad.",
+            "We had gathered as much from her email."
+          ]
+        }
+      ],
+      "русский": "собирать, собираться, собрать; понимать, заключать, сделать вывод",
       "forms": "gather · gathered · gathered",
       "verb class": "regular",
       "third person": "gathers · -ing form: gathering",
@@ -935,14 +1576,43 @@
       "term": "reserve",
       "ipa": "/rɪˈzɜːrv/",
       "respell": "ri-ZURV",
-      "meaning": "To arrange for something to be kept for you to use later. ---",
+      "meaning": "Reserve has 2 distinct senses.",
       "examples": [
         "They reserve the front row for family.",
         "I reserved a table for seven o'clock.",
-        "That whole section is reserved."
+        "That whole section is reserved.",
+        "Reserve a cup of the pasta water before you drain it.",
+        "The company reserves the right to cancel the order.",
+        "I'm reserving judgment until I hear both sides."
       ],
-      "senses": [],
-      "русский": "резервировать, бронировать, забронировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To arrange for something to be kept for you to use later",
+          "body": [
+            "(резервировать, бронировать, забронировать)"
+          ],
+          "examples": [
+            "They reserve the front row for family.",
+            "I reserved a table for seven o'clock.",
+            "That whole section is reserved."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To hold something back for a special purpose or for later",
+          "body": [
+            "(оставлять, приберегать; сохранять за собой (право))",
+            "---"
+          ],
+          "examples": [
+            "Reserve a cup of the pasta water before you drain it.",
+            "The company reserves the right to cancel the order.",
+            "I'm reserving judgment until I hear both sides."
+          ]
+        }
+      ],
+      "русский": "резервировать, бронировать, забронировать; оставлять, приберегать; сохранять за собой (право)",
       "forms": "reserve · reserved · reserved",
       "verb class": "regular",
       "third person": "reserves · -ing form: reserving",
@@ -987,14 +1657,43 @@
       "term": "reap",
       "ipa": "/riːp/",
       "respell": "REEP",
-      "meaning": "To receive the results of something you did earlier, good or bad. ---",
+      "meaning": "Reap has 2 distinct senses.",
       "examples": [
         "Investors reap the profits, not the workers.",
         "She reaped the benefits of all those early mornings.",
-        "They are still reaping rewards from that one decision."
+        "They are still reaping rewards from that one decision.",
+        "In August the farmers reap the wheat.",
+        "They reaped the last field just before the storm.",
+        "The barley had already been reaped by the time we arrived."
       ],
-      "senses": [],
-      "русский": "пожинать, получать, пожать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To receive the results of something you did earlier, good or bad",
+          "body": [
+            "(пожинать, получать, пожать)"
+          ],
+          "examples": [
+            "Investors reap the profits, not the workers.",
+            "She reaped the benefits of all those early mornings.",
+            "They are still reaping rewards from that one decision."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To cut and gather a crop from a field",
+          "body": [
+            "(жать, сжать; убирать, собирать (урожай))",
+            "---"
+          ],
+          "examples": [
+            "In August the farmers reap the wheat.",
+            "They reaped the last field just before the storm.",
+            "The barley had already been reaped by the time we arrived."
+          ]
+        }
+      ],
+      "русский": "пожинать, получать, пожать; жать, сжать; убирать, собирать (урожай)",
       "forms": "reap · reaped · reaped",
       "verb class": "regular",
       "third person": "reaps · -ing form: reaping",
@@ -1040,14 +1739,58 @@
       "term": "grab",
       "ipa": "/ɡræb/",
       "respell": "GRAB",
-      "meaning": "To take hold of something quickly and roughly. ---",
+      "meaning": "Grab has 3 distinct senses.",
       "examples": [
         "Grab a coat — it's colder than it looks.",
         "He grabbed my arm before I slipped.",
-        "She is grabbing coffee on the way in."
+        "She is grabbing coffee on the way in.",
+        "Let's grab a coffee before the meeting.",
+        "We grabbed a quick lunch at the airport.",
+        "I'm grabbing a seat near the front.",
+        "The first chapter really grabs you.",
+        "The movie never grabbed me.",
+        "Headlines are written to grab your attention."
       ],
-      "senses": [],
-      "русский": "хватать, схватить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take hold of something quickly and roughly",
+          "body": [
+            "(хватать, схватить)"
+          ],
+          "examples": [
+            "Grab a coat — it's colder than it looks.",
+            "He grabbed my arm before I slipped.",
+            "She is grabbing coffee on the way in."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To get or take something quickly and without fuss (informal)",
+          "body": [
+            "(быстро взять, перехватить; перекусить)"
+          ],
+          "examples": [
+            "Let's grab a coffee before the meeting.",
+            "We grabbed a quick lunch at the airport.",
+            "I'm grabbing a seat near the front."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To catch and hold someone's interest",
+          "body": [
+            "(захватывать, увлекать, зацепить)",
+            "---"
+          ],
+          "examples": [
+            "The first chapter really grabs you.",
+            "The movie never grabbed me.",
+            "Headlines are written to grab your attention."
+          ]
+        }
+      ],
+      "русский": "хватать, схватить; быстро взять, перехватить; перекусить; захватывать, увлекать, зацепить",
       "forms": "grab · grabbed · grabbed",
       "verb class": "regular",
       "third person": "grabs · -ing form: grabbing",
@@ -1110,14 +1853,43 @@
       "term": "recover",
       "ipa": "/rɪˈkʌvər/",
       "respell": "ri-KUV-ur",
-      "meaning": "To get back something that was lost, stolen, or spent. ---",
+      "meaning": "Recover has 2 distinct senses.",
       "examples": [
         "Divers sometimes recover things from the bottom of the lake.",
         "Police recovered the stolen bikes two blocks away.",
-        "Two of the paintings have been recovered."
+        "Two of the paintings have been recovered.",
+        "It takes about a month to recover from this surgery.",
+        "He recovered quickly and was back at work in a week.",
+        "The economy has never fully recovered from the shutdown."
       ],
-      "senses": [],
-      "русский": "возвращать, находить, вернуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To get back something that was lost, stolen, or spent",
+          "body": [
+            "(возвращать, находить, вернуть)"
+          ],
+          "examples": [
+            "Divers sometimes recover things from the bottom of the lake.",
+            "Police recovered the stolen bikes two blocks away.",
+            "Two of the paintings have been recovered."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To get well again after an illness, or to return to a normal condition after trouble",
+          "body": [
+            "(выздоравливать, поправляться; восстанавливаться, прийти в себя)",
+            "---"
+          ],
+          "examples": [
+            "It takes about a month to recover from this surgery.",
+            "He recovered quickly and was back at work in a week.",
+            "The economy has never fully recovered from the shutdown."
+          ]
+        }
+      ],
+      "русский": "возвращать, находить, вернуть; выздоравливать, поправляться; восстанавливаться, прийти в себя",
       "forms": "recover · recovered · recovered",
       "verb class": "regular",
       "third person": "recovers · -ing form: recovering",
@@ -1128,14 +1900,43 @@
       "term": "reclaim",
       "ipa": "/rɪˈkleɪm/",
       "respell": "ri-KLAYM",
-      "meaning": "To get back something that was taken from you or given up. ---",
+      "meaning": "Reclaim has 2 distinct senses.",
       "examples": [
         "You can reclaim the tax at the airport.",
         "She reclaimed the land after a ten-year fight.",
-        "The city is reclaiming the old rail yard."
+        "The city is reclaiming the old rail yard.",
+        "The city wants to reclaim the old rail yard for housing.",
+        "The Dutch reclaimed much of their farmland from the sea.",
+        "The floors are made of reclaimed barn wood."
       ],
-      "senses": [],
-      "русский": "возвращать себе, истребовать, вернуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To get back something that was taken from you or given up",
+          "body": [
+            "(возвращать себе, истребовать, вернуть)"
+          ],
+          "examples": [
+            "You can reclaim the tax at the airport.",
+            "She reclaimed the land after a ten-year fight.",
+            "The city is reclaiming the old rail yard."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make land or material usable again, by draining it or by saving it from waste",
+          "body": [
+            "(осваивать, отвоёвывать (землю); восстанавливать для повторного использования)",
+            "---"
+          ],
+          "examples": [
+            "The city wants to reclaim the old rail yard for housing.",
+            "The Dutch reclaimed much of their farmland from the sea.",
+            "The floors are made of reclaimed barn wood."
+          ]
+        }
+      ],
+      "русский": "возвращать себе, истребовать, вернуть; осваивать, отвоёвывать (землю); восстанавливать для повторного использования",
       "forms": "reclaim · reclaimed · reclaimed",
       "verb class": "regular",
       "third person": "reclaims · -ing form: reclaiming",
@@ -1253,14 +2054,73 @@
       "term": "charge",
       "ipa": "/tʃɑːrdʒ/",
       "respell": "CHAHRJ",
-      "meaning": "To ask someone for a particular amount of money for goods or a service. ---",
+      "meaning": "Charge has 4 distinct senses.",
       "examples": [
         "They charge five dollars for parking.",
         "The plumber charged us double on a Sunday.",
-        "You are being charged a monthly fee."
+        "You are being charged a monthly fee.",
+        "Police charged him with fraud.",
+        "Prosecutors will charge both drivers.",
+        "She has been charged with two counts of theft.",
+        "Charge your phone before the flight.",
+        "The battery charges in about an hour.",
+        "I left the laptop charging overnight.",
+        "The bull charged the fence.",
+        "Fans charged onto the field after the final whistle.",
+        "He came charging into the room without knocking."
       ],
-      "senses": [],
-      "русский": "брать плату, взимать, назначать цену",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To ask someone for a particular amount of money for goods or a service",
+          "body": [
+            "(брать плату, взимать, назначать цену)"
+          ],
+          "examples": [
+            "They charge five dollars for parking.",
+            "The plumber charged us double on a Sunday.",
+            "You are being charged a monthly fee."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To accuse someone formally of a crime",
+          "body": [
+            "(обвинять, предъявить обвинение)"
+          ],
+          "examples": [
+            "Police charged him with fraud.",
+            "Prosecutors will charge both drivers.",
+            "She has been charged with two counts of theft."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To put electricity into a battery",
+          "body": [
+            "(заряжать, зарядить)"
+          ],
+          "examples": [
+            "Charge your phone before the flight.",
+            "The battery charges in about an hour.",
+            "I left the laptop charging overnight."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To rush forward in attack",
+          "body": [
+            "(атаковать, бросаться в атаку; кидаться)",
+            "---"
+          ],
+          "examples": [
+            "The bull charged the fence.",
+            "Fans charged onto the field after the final whistle.",
+            "He came charging into the room without knocking."
+          ]
+        }
+      ],
+      "русский": "брать плату, взимать, назначать цену; обвинять, предъявить обвинение; заряжать, зарядить; атаковать, бросаться в атаку; кидаться",
       "forms": "charge · charged · charged",
       "verb class": "regular",
       "third person": "charges · -ing form: charging",
@@ -1272,14 +2132,43 @@
       "term": "owe",
       "ipa": "/oʊ/",
       "respell": "OH",
-      "meaning": "To have to pay someone money you have not paid yet. ---",
+      "meaning": "Owe has 2 distinct senses.",
       "examples": [
         "I owe my sister forty dollars.",
         "He owed the bank more than he made in a year.",
-        "They still have not paid what is owed."
+        "They still have not paid what is owed.",
+        "I owe you an apology.",
+        "She owes her whole career to that teacher.",
+        "We owed them a favor, so we said yes."
       ],
-      "senses": [],
-      "русский": "быть должным, задолжать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To have to pay someone money you have not paid yet",
+          "body": [
+            "(быть должным, задолжать)"
+          ],
+          "examples": [
+            "I owe my sister forty dollars.",
+            "He owed the bank more than he made in a year.",
+            "They still have not paid what is owed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To feel that you should thank or repay someone for what they did",
+          "body": [
+            "(быть обязанным (кому-л. чем-л.))",
+            "---"
+          ],
+          "examples": [
+            "I owe you an apology.",
+            "She owes her whole career to that teacher.",
+            "We owed them a favor, so we said yes."
+          ]
+        }
+      ],
+      "русский": "быть должным, задолжать; быть обязанным (кому-л. чем-л.)",
       "forms": "owe · owed · owed",
       "verb class": "regular",
       "third person": "owes · -ing form: owing",
@@ -1309,14 +2198,43 @@
       "term": "rob",
       "ipa": "/rɑːb/",
       "respell": "RAHB",
-      "meaning": "To take money or property from a person or place by force or threat. ---",
+      "meaning": "Rob has 2 distinct senses.",
       "examples": [
         "They rob the same stretch of highway every winter.",
         "Two men robbed the store right at closing.",
-        "He has been robbed twice this year."
+        "He has been robbed twice this year.",
+        "Don't let fear rob you of this chance.",
+        "A knee injury robbed him of his best years.",
+        "The players felt robbed of a fair result."
       ],
-      "senses": [],
-      "русский": "грабить, ограбить, обворовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take money or property from a person or place by force or threat",
+          "body": [
+            "(грабить, ограбить, обворовать)"
+          ],
+          "examples": [
+            "They rob the same stretch of highway every winter.",
+            "Two men robbed the store right at closing.",
+            "He has been robbed twice this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take away from someone something they need or deserve",
+          "body": [
+            "(лишать, лишить (чего-л.))",
+            "---"
+          ],
+          "examples": [
+            "Don't let fear rob you of this chance.",
+            "A knee injury robbed him of his best years.",
+            "The players felt robbed of a fair result."
+          ]
+        }
+      ],
+      "русский": "грабить, ограбить, обворовать; лишать, лишить (чего-л.)",
       "forms": "rob · robbed · robbed",
       "verb class": "regular",
       "third person": "robs · -ing form: robbing",
@@ -1345,14 +2263,72 @@
       "term": "save",
       "ipa": "/seɪv/",
       "respell": "SAYV",
-      "meaning": "To keep money or things instead of spending or using them.",
+      "meaning": "Save has 4 distinct senses.",
       "examples": [
         "We save about three hundred dollars a month.",
         "She saved for two years to buy it.",
-        "They have been saving every coupon in a drawer."
+        "They have been saving every coupon in a drawer.",
+        "Seat belts save thousands of lives a year.",
+        "A neighbor saved the dog from the flooded yard.",
+        "He was saved by a passing fishing boat.",
+        "Save the file before you close the laptop.",
+        "I saved the photos to a flash drive.",
+        "The document had not been saved, and an hour of work was gone.",
+        "Taking the express will save you an hour.",
+        "One phone call saved us a trip downtown.",
+        "You could have saved yourself a lot of trouble by asking first."
       ],
-      "senses": [],
-      "русский": "копить, откладывать, экономить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To keep money or things instead of spending or using them",
+          "body": [
+            "(копить, откладывать, экономить)"
+          ],
+          "examples": [
+            "We save about three hundred dollars a month.",
+            "She saved for two years to buy it.",
+            "They have been saving every coupon in a drawer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take someone or something out of danger",
+          "body": [
+            "(спасать, спасти)"
+          ],
+          "examples": [
+            "Seat belts save thousands of lives a year.",
+            "A neighbor saved the dog from the flooded yard.",
+            "He was saved by a passing fishing boat."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To store a computer file so that you can use it later",
+          "body": [
+            "(сохранять, сохранить (файл))"
+          ],
+          "examples": [
+            "Save the file before you close the laptop.",
+            "I saved the photos to a flash drive.",
+            "The document had not been saved, and an hour of work was gone."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To make it unnecessary for someone to spend time or effort",
+          "body": [
+            "(избавлять от (хлопот), избавить; экономить (время, силы))"
+          ],
+          "examples": [
+            "Taking the express will save you an hour.",
+            "One phone call saved us a trip downtown.",
+            "You could have saved yourself a lot of trouble by asking first."
+          ]
+        }
+      ],
+      "русский": "копить, откладывать, экономить; спасать, спасти; сохранять, сохранить (файл); избавлять от (хлопот), избавить; экономить (время, силы)",
       "forms": "save · saved · saved",
       "verb class": "regular",
       "third person": "saves · -ing form: saving",

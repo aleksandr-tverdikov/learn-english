@@ -10,7 +10,14 @@ import os
 
 
 def render(term, ipa, respell, ru, third, past, participle, ing,
-           transitivity, gloss, examples, contrast=None):
+           transitivity, gloss, examples, contrast=None, senses=None):
+    """One verb entry. `senses` promotes it to the numbered-sense shape.
+
+    Verbs are more polysemous than nouns, not less: *run* a race, *run* a company,
+    *run* a program, *run* for office. A regular verb written by a single semantic
+    field gets only that field's meaning, so this renders the rest alongside it,
+    in the same shape the irregular tier already uses.
+    """
     out = [f'### {term}', '']
     out.append(f'**Pronunciation:** /{ipa}/ &middot; *{respell}*')
     out.append(f'**Русский:** {ru}')
@@ -21,10 +28,22 @@ def render(term, ipa, respell, ru, third, past, participle, ing,
         out.append(f'**Transitivity:** {transitivity}')
     if contrast:
         out.append(f'**Contrast:** {contrast}')
-    out += ['', gloss, '']
-    for i, ex in enumerate(examples, 1):
-        out.append(f'{i}. {ex}')
-    return '\n'.join(out)
+    if not senses:
+        out += ['', gloss, '']
+        for i, ex in enumerate(examples, 1):
+            out.append(f'{i}. {ex}')
+        return '\n'.join(out)
+
+    out += ['', f'{term.capitalize()} has {len(senses)} distinct senses.', '']
+    n = 0
+    for k, (sg, sru, sex) in enumerate(senses, 1):
+        out.append(f'**{k}. {sg.rstrip(".")}.**' + (f' ({sru})' if sru else ''))
+        out.append('')
+        for ex in sex:
+            n += 1
+            out.append(f'{n}. {ex}')
+        out.append('')
+    return '\n'.join(out).rstrip()
 
 
 def build(path, title, blurb, lede, entries):

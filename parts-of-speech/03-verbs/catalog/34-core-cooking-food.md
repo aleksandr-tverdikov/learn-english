@@ -99,69 +99,107 @@ To cook sugar, or the sugar in a food, until it turns brown and sweet.
 ### blanch
 
 **Pronunciation:** /blæntʃ/ &middot; *BLANCH*
-**Русский:** бланшировать, ошпарить
+**Русский:** бланшировать, ошпарить; бледнеть, побледнеть
 **Forms:** *blanch* &middot; *blanched* &middot; *blanched*
 **Verb class:** regular
 **Third person:** *blanches* &middot; **-ing form:** *blanching*
 **Transitivity:** transitive
 **Contrast:** Third person adds -es: blanch → blanches.
 
-To boil vegetables briefly and then drop them into cold water.
+Blanch has 2 distinct senses.
+
+**1. To boil vegetables briefly and then drop them into cold water.** (бланшировать, ошпарить)
 
 1. *Blanch* the green beans for two minutes.
 2. I *blanched* the tomatoes to loosen their skins.
 3. The spinach has already been *blanched*.
+
+**2. To turn pale suddenly from fear or shock.** (бледнеть, побледнеть)
+
+4. She *blanches* at the sight of a needle.
+5. He *blanched* when he saw the hospital bill.
+6. I could see him *blanching* as the numbers went up.
 
 ---
 
 ### baste
 
 **Pronunciation:** /beɪst/ &middot; *BAYST*
-**Русский:** поливать соком или жиром при жарке
+**Русский:** поливать соком или жиром при жарке; смётывать, сметать (на живую нитку); примётывать
 **Forms:** *baste* &middot; *basted* &middot; *basted*
 **Verb class:** regular
 **Third person:** *bastes* &middot; **-ing form:** *basting*
 **Transitivity:** transitive
 
-To spoon juices or melted fat over food while it roasts.
+Baste has 2 distinct senses.
+
+**1. To spoon juices or melted fat over food while it roasts.** (поливать соком или жиром при жарке)
 
 1. *Baste* the turkey every half hour.
 2. He *basted* the chicken with herb butter.
 3. She has been *basting* the roast all morning.
+
+**2. To sew cloth together with long loose stitches that will be taken out later.** (смётывать, сметать (на живую нитку); примётывать)
+
+4. *Baste* the seam before you sew it on the machine.
+5. She *basted* the hem so it wouldn't shift.
+6. The lining had been *basted* in place with white thread.
 
 ---
 
 ### scramble
 
 **Pronunciation:** /ˈskræmbəl/ &middot; *SKRAM-bul*
-**Русский:** взбивать и жарить (яичницу-болтунью)
+**Русский:** взбивать и жарить (яичницу-болтунью); карабкаться, вскарабкаться; суетиться, спешно бросаться; шифровать, зашифровать (сигнал); скремблировать
 **Forms:** *scramble* &middot; *scrambled* &middot; *scrambled*
 **Verb class:** regular
 **Third person:** *scrambles* &middot; **-ing form:** *scrambling*
 **Transitivity:** transitive
 
-To beat eggs together and cook them in a pan while stirring.
+Scramble has 3 distinct senses.
+
+**1. To beat eggs together and cook them in a pan while stirring.** (взбивать и жарить (яичницу-болтунью))
 
 1. I'll *scramble* a couple of eggs.
 2. He *scrambled* six eggs for the three of us.
 3. She is *scrambling* eggs with cheese and chives.
+
+**2. To move or act in a hurry, often climbing or struggling to get somewhere.** (карабкаться, вскарабкаться; суетиться, спешно бросаться)
+
+4. Kids *scramble* over those rocks all day long.
+5. He *scrambled* up the bank to reach the road.
+6. Teams are *scrambling* to sign a backup goalie.
+
+**3. To mix up a signal or a message so that it cannot be understood without special equipment.** (шифровать, зашифровать (сигнал); скремблировать)
+
+7. Cheap radios don't *scramble* anything.
+8. The station *scrambled* the broadcast for paying subscribers.
+9. Their calls were *scrambled*, so no one could listen in.
 
 ---
 
 ### sift
 
 **Pronunciation:** /sɪft/ &middot; *SIFT*
-**Русский:** просеивать, просеять
+**Русский:** просеивать, просеять; перебирать, тщательно изучать, просеивать (данные, улики)
 **Forms:** *sift* &middot; *sifted* &middot; *sifted*
 **Verb class:** regular
 **Third person:** *sifts* &middot; **-ing form:** *sifting*
 **Transitivity:** transitive
 
-To pass flour or sugar through a fine mesh to remove the lumps.
+Sift has 2 distinct senses.
+
+**1. To pass flour or sugar through a fine mesh to remove the lumps.** (просеивать, просеять)
 
 1. *Sift* the flour and the baking powder together.
 2. I *sifted* powdered sugar over the cake.
 3. The dry ingredients have all been *sifted*.
+
+**2. To go through a large amount of material carefully in order to find something.** (перебирать, тщательно изучать, просеивать (данные, улики))
+
+4. Investigators *sifted* the wreckage for clues.
+5. We are still *sifting* hundreds of applications.
+6. The committee has *sifted* every document in the file.
 
 **Phrasal verbs:** [sift through](57-phrasal-regular-q-s.md#sift-through)
 
@@ -221,18 +259,26 @@ To make a liquid thicker, or to become thicker.
 ### soften
 
 **Pronunciation:** /ˈsɔːfən/ &middot; *SAW-fun*
-**Русский:** размягчать, размягчить; становиться мягким
+**Русский:** размягчать, размягчить; становиться мягким; смягчать, смягчить (тон, позицию, удар)
 **Forms:** *soften* &middot; *softened* &middot; *softened*
 **Verb class:** regular
 **Third person:** *softens* &middot; **-ing form:** *softening*
 **Transitivity:** both — transitive (soften the butter), intransitive (let it soften)
 **Contrast:** The t is silent: SAW-fun, not SOFT-un.
 
-To make something soft, or to become soft.
+Soften has 2 distinct senses.
+
+**1. To make something soft, or to become soft.** (размягчать, размягчить; становиться мягким)
 
 1. Let the butter *soften* on the counter.
 2. I *softened* the onions in oil first.
 3. The raisins have *softened* in the hot water.
+
+**2. To make an attitude, a tone, or an effect less harsh.** (смягчать, смягчить (тон, позицию, удар))
+
+4. He *softened* his tone when he saw she was crying.
+5. The company has *softened* its stance on remote work.
+6. Nothing can *soften* the blow of losing a job.
 
 **Phrasal verbs:** [soften up](57-phrasal-regular-q-s.md#soften-up)
 
@@ -241,17 +287,31 @@ To make something soft, or to become soft.
 ### smoke
 
 **Pronunciation:** /smoʊk/ &middot; *SMOHK*
-**Русский:** коптить, закоптить
+**Русский:** коптить, закоптить; курить, покурить; дымить, дымиться
 **Forms:** *smoke* &middot; *smoked* &middot; *smoked*
 **Verb class:** regular
 **Third person:** *smokes* &middot; **-ing form:** *smoking*
 **Transitivity:** transitive
 
-To flavor and preserve food by hanging it in smoke.
+Smoke has 3 distinct senses.
+
+**1. To flavor and preserve food by hanging it in smoke.** (коптить, закоптить)
 
 1. They *smoke* their own brisket out back.
 2. We *smoked* the ribs for six hours.
 3. The trout has been *smoked* over applewood.
+
+**2. To breathe in and out the smoke of a cigarette, a cigar, or a pipe.** (курить, покурить)
+
+4. He *smokes* about a pack a day.
+5. She *smoked* for twenty years before she quit.
+6. You can't *smoke* inside the building.
+
+**3. To give off smoke.** (дымить, дымиться)
+
+7. The engine was *smoking* by the time we pulled over.
+8. The oil will *smoke* if the pan gets too hot.
+9. The grill *smoked* for a while before it caught.
 
 **Phrasal verbs:** [smoke out](57-phrasal-regular-q-s.md#smoke-out)
 
@@ -296,18 +356,26 @@ To coat food with a shiny liquid such as syrup or thin icing.
 ### frost
 
 **Pronunciation:** /frɔːst/ &middot; *FRAWST*
-**Русский:** покрывать глазурью (торт), украшать кремом
+**Русский:** покрывать глазурью (торт), украшать кремом; покрывать инеем, обмерзать; матировать (стекло)
 **Forms:** *frost* &middot; *frosted* &middot; *frosted*
 **Verb class:** regular
 **Third person:** *frosts* &middot; **-ing form:** *frosting*
 **Transitivity:** transitive
 **Contrast:** Americans frost a cake; the British ice it. The sweet topping itself is frosting.
 
-To spread a thick sweet icing over a cake.
+Frost has 2 distinct senses.
+
+**1. To spread a thick sweet icing over a cake.** (покрывать глазурью (торт), украшать кремом)
 
 1. Let the cake cool before you *frost* it.
 2. She *frosted* the cupcakes with buttercream.
 3. The layer cake has been *frosted* and decorated.
+
+**2. To cover a surface with a thin layer of ice, or to give glass a cloudy white finish.** (покрывать инеем, обмерзать; матировать (стекло))
+
+4. Overnight the cold *frosted* every windshield on the block.
+5. Ice *frosts* the inside of that old freezer within a week.
+6. The shower door is *frosted* so no one can see through it.
 
 ---
 
@@ -368,36 +436,52 @@ To change sugar into alcohol or acid through the action of yeast or bacteria.
 ### stew
 
 **Pronunciation:** /stuː/ &middot; *STOO*
-**Русский:** тушить, потушить; тушиться
+**Русский:** тушить, потушить; тушиться; изводиться, переживать, кипятиться; дуться
 **Forms:** *stew* &middot; *stewed* &middot; *stewed*
 **Verb class:** regular
 **Third person:** *stews* &middot; **-ing form:** *stewing*
 **Transitivity:** both — transitive (stew the lamb), intransitive (the beef is stewing)
 **Contrast:** General American drops the y-sound: STOO, not STYOO.
 
-To cook meat or fruit slowly in liquid in a covered pot.
+Stew has 2 distinct senses.
+
+**1. To cook meat or fruit slowly in liquid in a covered pot.** (тушить, потушить; тушиться)
 
 1. *Stew* the lamb with onions and carrots.
 2. She *stewed* apples for the pie filling.
 3. The beef has been *stewing* for three hours.
+
+**2. To keep worrying or being angry about something instead of doing anything.** (изводиться, переживать, кипятиться; дуться)
+
+4. Don't *stew* about it all night — just call her.
+5. He *stewed* for days over that email.
+6. She left him *stewing* in the waiting room.
 
 ---
 
 ### dunk
 
 **Pronunciation:** /dʌŋk/ &middot; *DUNGK*
-**Русский:** макать, обмакнуть
+**Русский:** макать, обмакнуть; забивать сверху, делать данк
 **Forms:** *dunk* &middot; *dunked* &middot; *dunked*
 **Verb class:** regular
 **Third person:** *dunks* &middot; **-ing form:** *dunking*
 **Transitivity:** transitive
 **Contrast:** Dunk something **in** or **into** a liquid.
 
-To dip food quickly into a liquid.
+Dunk has 2 distinct senses.
+
+**1. To dip food quickly into a liquid.** (макать, обмакнуть)
 
 1. *Dunk* the cookie in your milk.
 2. He *dunked* the bread in the olive oil.
 3. She is *dunking* fries into her milkshake.
+
+**2. To jump up and push the ball down through the basket.** (забивать сверху, делать данк)
+
+4. He *dunked* over two defenders.
+5. She can *dunk* with either hand.
+6. He has *dunked* twice already this quarter.
 
 ---
 

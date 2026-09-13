@@ -8,14 +8,41 @@
       "respell": "ad-MAH-nish",
       "meaning": "",
       "examples": [
-        "The judge admonished the jury to disregard the remark.",
         "Her editor admonished her for missing a second deadline.",
         "We were admonished against discussing the case outside the room.",
+        "She admonished me gently, and I took the point.",
         "He admonished the team that another lapse would mean suspension.",
-        "The coach admonished the players to stop arguing with the referee.",
-        "She admonished me gently, and I took the point."
+        "The judge admonished the jury to disregard the remark.",
+        "The court admonished the witness to answer only what was asked.",
+        "He admonished us to read the whole contract before signing anything."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Reprove; warn with a note of reproach",
+          "body": [
+            "The commoner sense: the hearer has already gone wrong, or is about to. (делать замечание, отчитывать)"
+          ],
+          "examples": [
+            "Her editor admonished her for missing a second deadline.",
+            "We were admonished against discussing the case outside the room.",
+            "She admonished me gently, and I took the point.",
+            "He admonished the team that another lapse would mean suspension."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Instruct earnestly, from the bench or the pulpit",
+          "body": [
+            "A formal charge to do something, with no fault implied at all — the judge's word to a jury. (увещевать, настоятельно призывать)"
+          ],
+          "examples": [
+            "The judge admonished the jury to disregard the remark.",
+            "The court admonished the witness to answer only what was asked.",
+            "He admonished us to read the whole contract before signing anything."
+          ]
+        }
+      ],
       "русский": "увещевать, делать замечание — предостережение с упрёком, книжн.",
       "register": "formal",
       "type": "reporting verb — warning with reproof",
@@ -127,14 +154,41 @@
       "respell": "kuhn-VINSS",
       "meaning": "",
       "examples": [
-        "It took an hour, but she convinced the committee to reconsider.",
         "Nothing I said convinced him that the check had cleared.",
         "The evidence convinced the jury of his innocence.",
         "I'm not convinced the second option is any cheaper.",
+        "She convinced herself that nobody had noticed.",
+        "It took an hour, but she convinced the committee to reconsider.",
         "He convinced his parents to let him take a year off.",
-        "She convinced herself that nobody had noticed."
+        "Nobody could convince her to see a doctor."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Make somebody believe something",
+          "body": [
+            "The traditional job of this verb: convince + that or of, and it is a success verb — nobody is convinced who remains unconvinced. (убедить (в чём-л.), заставить поверить)"
+          ],
+          "examples": [
+            "Nothing I said convinced him that the check had cleared.",
+            "The evidence convinced the jury of his innocence.",
+            "I'm not convinced the second option is any cheaper.",
+            "She convinced herself that nobody had noticed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Get somebody to do something",
+          "body": [
+            "Traditionally persuade's territory, and long treated as an error here; in current American English convince someone to do is entirely standard. (уговорить, убедить (сделать))"
+          ],
+          "examples": [
+            "It took an hour, but she convinced the committee to reconsider.",
+            "He convinced his parents to let him take a year off.",
+            "Nobody could convince her to see a doctor."
+          ]
+        }
+      ],
       "русский": "убедить (в чём-то) — добиться, чтобы человек поверил; глагол результата",
       "register": "neutral",
       "type": "reporting verb — persuasion (belief)",
@@ -153,11 +207,40 @@
         "His advisor counseled him to defer the semester rather than withdraw.",
         "The elders counseled patience.",
         "We were counseled against putting anything in writing.",
-        "She counsels students on financial aid appeals.",
+        "He counseled restraint, and for once everyone listened.",
         "The report counsels that the review be conducted by an outside firm.",
-        "He counseled restraint, and for once everyone listened."
+        "She counsels students on financial aid appeals.",
+        "He counseled veterans for eleven years before he retired.",
+        "The family was counseled by the hospital's social worker."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Advise, professionally or weightily",
+          "body": [
+            "The reporting sense, and it prefers a bare noun phrase: counsel patience, counsel restraint, counsel delay. (советовать, рекомендовать (книжн., профессионально))"
+          ],
+          "examples": [
+            "His advisor counseled him to defer the semester rather than withdraw.",
+            "The elders counseled patience.",
+            "We were counseled against putting anything in writing.",
+            "He counseled restraint, and for once everyone listened.",
+            "The report counsels that the review be conducted by an outside firm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Give somebody professional counseling",
+          "body": [
+            "Therapy, grief work, addiction, financial aid. The object is the person helped, not the advice given, and no particular utterance is being reported. (консультировать, вести (психологическую) работу с кем-л.)"
+          ],
+          "examples": [
+            "She counsels students on financial aid appeals.",
+            "He counseled veterans for eleven years before he retired.",
+            "The family was counseled by the hospital's social worker."
+          ]
+        }
+      ],
       "pronunciation note": "identical in sound to council, which is a body of people and never a verb",
       "русский": "советовать, рекомендовать — совет профессионала или совет особой важности, книжн.",
       "register": "formal, professional",
@@ -268,13 +351,51 @@
       "meaning": "",
       "examples": [
         "His teacher encouraged him to submit the story to a magazine.",
-        "The program encourages composting.",
         "She encouraged us to ask questions at any point.",
-        "Low rates have encouraged borrowing.",
         "Nobody encouraged her; she just did it.",
-        "I was encouraged to hear the schedule had not slipped."
+        "I was encouraged to hear the schedule had not slipped.",
+        "The first week's numbers encouraged everyone.",
+        "A single kind review encouraged her more than the prize did.",
+        "The program encourages composting.",
+        "Low rates have encouraged borrowing."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Urge somebody toward something good for them",
+          "body": [
+            "The reporting sense: positive pressure, softer than urge and warmer than advise. It says nothing about whether it worked. (побуждать, советовать (с одобрением))"
+          ],
+          "examples": [
+            "His teacher encouraged him to submit the story to a magazine.",
+            "She encouraged us to ask questions at any point.",
+            "Nobody encouraged her; she just did it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Give somebody heart or confidence",
+          "body": [
+            "Nothing is asked for here — the person is simply left feeling better about the odds. (ободрять, вселять уверенность)"
+          ],
+          "examples": [
+            "I was encouraged to hear the schedule had not slipped.",
+            "The first week's numbers encouraged everyone.",
+            "A single kind review encouraged her more than the prize did."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Promote; make more likely",
+          "body": [
+            "With a policy, a price, or a condition as the subject and a bare noun after it: what makes a behavior grow. (способствовать, стимулировать)"
+          ],
+          "examples": [
+            "The program encourages composting.",
+            "Low rates have encouraged borrowing."
+          ]
+        }
+      ],
       "русский": "поощрять, подбадривать — побуждать к тому, что говорящий считает полезным",
       "register": "neutral",
       "type": "reporting verb — encouragement",
@@ -358,13 +479,51 @@
       "meaning": "",
       "examples": [
         "He flagged two errors in the appendix.",
-        "I flagged the invoice for review.",
         "She flagged that the numbers hadn't been reconciled yet.",
-        "The system flags any transaction over ten thousand dollars.",
         "Legal flagged the indemnity clause as a problem.",
-        "Nobody flagged what the delay would do to the launch date."
+        "Nobody flagged what the delay would do to the launch date.",
+        "I flagged the invoice for review.",
+        "The system flags any transaction over ten thousand dollars.",
+        "She flagged down a cab on Eighth Avenue.",
+        "We flagged a passing truck down and got a ride into town."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Raise something for attention",
+          "body": [
+            "The reporting sense, and standard workplace English: you flag a risk early, without claiming it is serious. (отметить, обратить внимание на (возможную проблему))"
+          ],
+          "examples": [
+            "He flagged two errors in the appendix.",
+            "She flagged that the numbers hadn't been reconciled yet.",
+            "Legal flagged the indemnity clause as a problem.",
+            "Nobody flagged what the delay would do to the launch date."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Mark a record so somebody looks at it",
+          "body": [
+            "The software sense: no speech at all, just a marker left on a file or a transaction. (помечать, ставить метку (в системе))"
+          ],
+          "examples": [
+            "I flagged the invoice for review.",
+            "The system flags any transaction over ten thousand dollars."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "flag down — signal a vehicle to stop",
+          "body": [
+            "An unrelated verb, from waving a flag, and always with down. (остановить жестом (такси, машину))"
+          ],
+          "examples": [
+            "She flagged down a cab on Eighth Avenue.",
+            "We flagged a passing truck down and got a ride into town."
+          ]
+        }
+      ],
       "pronunciation note": "the past is flagged, with a doubled g",
       "русский": "отметить, обратить внимание на — разг.-деловое: указать на возможную проблему",
       "register": "informal to neutral; standard workplace English",
@@ -496,12 +655,39 @@
       "examples": [
         "She persuaded the landlord to waive the fee.",
         "It took three phone calls to persuade him.",
-        "He persuaded us that the detour would be faster, and he was wrong.",
         "They persuaded her into buying the extended warranty.",
         "I couldn't persuade anyone to come with me.",
-        "The evidence persuaded the judge of his good faith."
+        "He persuaded us that the detour would be faster, and he was wrong.",
+        "The evidence persuaded the judge of his good faith.",
+        "Nothing in the file persuaded me that the deadline was real."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Get somebody to do something",
+          "body": [
+            "The core sense, and a success verb: if the person did not budge, you urged or pressed them, you did not persuade them. (уговорить, убедить (сделать))"
+          ],
+          "examples": [
+            "She persuaded the landlord to waive the fee.",
+            "It took three phone calls to persuade him.",
+            "They persuaded her into buying the extended warranty.",
+            "I couldn't persuade anyone to come with me."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Make somebody believe something",
+          "body": [
+            "persuade + that or of, which is convince's side of the old distinction — and where the distinction still does real work. (убедить (в чём-л.), уверить)"
+          ],
+          "examples": [
+            "He persuaded us that the detour would be faster, and he was wrong.",
+            "The evidence persuaded the judge of his good faith.",
+            "Nothing in the file persuaded me that the deadline was real."
+          ]
+        }
+      ],
       "русский": "убедить, уговорить (сделать) — глагол результата: человек согласился и сделал",
       "register": "neutral",
       "type": "reporting verb — persuasion (action)",
@@ -517,13 +703,38 @@
       "meaning": "",
       "examples": [
         "Her doctor prescribed a lower dose.",
-        "The statute prescribes a thirty-day notice period.",
         "He prescribed rest and a great deal of water.",
+        "She was prescribed physical therapy instead of surgery.",
+        "The statute prescribes a thirty-day notice period.",
         "Nothing in the bylaws prescribes how the chair is chosen.",
-        "The regulation prescribes that each unit be inspected annually.",
-        "She was prescribed physical therapy instead of surgery."
+        "The regulation prescribes that each unit be inspected annually."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Order a treatment",
+          "body": [
+            "The medical sense, and the commonest by far: the doctor's instruction, which the pharmacy then fills. (назначать, прописывать (лечение))"
+          ],
+          "examples": [
+            "Her doctor prescribed a lower dose.",
+            "He prescribed rest and a great deal of water.",
+            "She was prescribed physical therapy instead of surgery."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Lay down a rule",
+          "body": [
+            "A statute, a code, or a set of bylaws states what must be done. Do not confuse it with proscribe, which forbids. (предписывать (о законе, правиле))"
+          ],
+          "examples": [
+            "The statute prescribes a thirty-day notice period.",
+            "Nothing in the bylaws prescribes how the chair is chosen.",
+            "The regulation prescribes that each unit be inspected annually."
+          ]
+        }
+      ],
       "русский": "предписывать, назначать — рекомендация с властью врача или закона, книжн.",
       "register": "formal, medical or legal",
       "type": "reporting verb — authoritative recommendation",
@@ -611,11 +822,50 @@
         "He proposed meeting halfway, in Denver.",
         "She proposed that the fee be waived for first-time applicants.",
         "What do you propose we do about it?",
-        "The city proposes to widen the intersection next spring.",
         "Nobody proposed an alternative.",
-        "The department proposed her as interim chair."
+        "The city proposes to widen the intersection next spring.",
+        "How do you propose to pay for it?",
+        "The department proposed her as interim chair.",
+        "He proposed on the last night of the trip."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Put something forward for consideration",
+          "body": [
+            "The reporting sense: propose doing something is a suggestion to the group, and the that-clause takes the bare subjunctive. (предлагать (на рассмотрение))"
+          ],
+          "examples": [
+            "The committee proposed a two-year pilot.",
+            "He proposed meeting halfway, in Denver.",
+            "She proposed that the fee be waived for first-time applicants.",
+            "What do you propose we do about it?",
+            "Nobody proposed an alternative."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Intend; plan to do",
+          "body": [
+            "propose to do is the subject's own plan, not a recommendation to anybody — the one place the two frames diverge sharply. (намереваться, собираться (сделать))"
+          ],
+          "examples": [
+            "The city proposes to widen the intersection next spring.",
+            "How do you propose to pay for it?"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Put a name forward; ask somebody to marry you",
+          "body": [
+            "Two conventional uses: nominating a person, and the marriage proposal, which takes no complement at all. (выдвигать (кандидатуру); делать предложение (руки и сердца))"
+          ],
+          "examples": [
+            "The department proposed her as interim chair.",
+            "He proposed on the last night of the trip."
+          ]
+        }
+      ],
       "русский": "предлагать — формальное предложение, которое можно принять к исполнению",
       "register": "neutral to formal",
       "type": "reporting verb — formal proposal",
@@ -678,16 +928,43 @@
       "respell": "rek-uh-MEND",
       "meaning": "",
       "examples": [
-        "She recommended a mechanic on Third Street.",
         "The panel recommended that the policy be rewritten from scratch.",
         "I'd recommend getting there half an hour early.",
-        "He recommended the book to everyone he met that summer.",
         "The report recommends against expanding the program.",
-        "Can you recommend somewhere quiet to work?",
         "Her advisor recommended what to take in the spring.",
+        "She recommended a mechanic on Third Street.",
+        "He recommended the book to everyone he met that summer.",
+        "Can you recommend somewhere quiet to work?",
         "Two of her professors recommended her for the fellowship."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Advise a course of action",
+          "body": [
+            "The reporting sense, with a that-clause in the bare subjunctive or an -ing form after it. (рекомендовать, советовать (сделать))"
+          ],
+          "examples": [
+            "The panel recommended that the policy be rewritten from scratch.",
+            "I'd recommend getting there half an hour early.",
+            "The report recommends against expanding the program.",
+            "Her advisor recommended what to take in the spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Speak in favor of a person or a thing",
+          "body": [
+            "Here the object is not an action but a restaurant, a book, a mechanic, a candidate — you are vouching for it. (рекомендовать (кого-л./что-л.), советовать как хорошее)"
+          ],
+          "examples": [
+            "She recommended a mechanic on Third Street.",
+            "He recommended the book to everyone he met that summer.",
+            "Can you recommend somewhere quiet to work?",
+            "Two of her professors recommended her for the fellowship."
+          ]
+        }
+      ],
       "pronunciation note": "one c, two m's",
       "русский": "рекомендовать — совет со знанием дела; решение остаётся за слушающим",
       "register": "neutral",

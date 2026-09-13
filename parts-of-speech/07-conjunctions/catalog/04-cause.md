@@ -69,12 +69,19 @@ Takes a situation the listener is already in and turns it into grounds for a req
 
 The default, unambiguous reason word: it answers *why* directly and presents the reason as the new, important information. *Since* and *as* offer a reason as already accepted; *because* puts the weight on it, which is why it alone can stand as a complete answer to a *why* question, and why it is the only reason conjunction here that a cleft can focus (*It's because the pass is closed that we're going around*; the prepositions do it too, but *since*, *as*, and *for* cannot). In formal writing avoid *the reason is because* — write *the reason is that*.
 
+**1. The cause of what happened — a direct answer to *why?*** The reason is the new information, which is why this *because* alone can stand as a whole answer to a question and why it normally takes no comma in front of it. (потому что; так как)
+
 1. We canceled the picnic *because* it rained all morning.
 2. *Because* the bridge was out, the detour added an hour.
 3. "Why are you up so early?" "*Because* the dog decided it was time."
-4. It must have frozen overnight, *because* the birdbath is solid.
-5. They didn't complain, *because* the manager comped the whole meal.
-6. *Because* you asked so nicely, I'll think about it.
+4. They didn't complain, *because* the manager comped the whole meal.
+5. *Because* you asked so nicely, I'll think about it.
+
+**2. The evidence for saying it — "I can tell, because …".** The clause explains not why the thing happened but why the speaker is claiming it. The comma in front is what marks this reading, and no *why* question is being answered at all. (судя по тому, что — обоснование самого высказывания)
+
+6. It must have frozen overnight, *because* the birdbath is solid.
+7. He's home, *because* his truck is in the driveway.
+8. She must have read it already, *because* she didn't ask a single question.
 
 **See also:** ['cause](#cause), [because of](#because-of), [since](#since), [as](#as), [for](#for), [due to the fact that](#due-to-the-fact-that)
 
@@ -640,12 +647,20 @@ Three things people say that do a reason clause's work without being conjunction
 
 Sets the actual situation against a hypothetical one and lets the difference do the explaining: "that would have been the plan — here is what is really true." It almost always answers a *would*, an *if*, or a wish in the sentence before it, and with no such setup in front of it the phrase says nothing.
 
+**1. The real situation, set against a hypothetical one.** Answers a *would*, an *if*, or a wish in the sentence in front of it — with no such setup the phrase says nothing. Always fenced by commas. (а так; но дело в том, что)
+
 1. I'd drive you, but *as it is*, my car is in the shop until Thursday.
 2. We meant to hike the whole loop; *as it is*, we barely made the first overlook.
 3. If the grant had come through we'd have hired two people. *As it is*, we hired nobody.
 4. She would have finished the degree, but *as it is*, the program closed in her second year.
 5. The plan called for four sessions; *as it is*, there was time for two.
 6. I'd love to argue the point, but *as it is*, I have a train to catch.
+
+**2. "Already," or "in its present state" — clause-final and unpunctuated.** No comma, no hypothetical, and no reason given: the phrase either says the situation is at its limit before anything more is added, or tells somebody to leave a thing untouched. (и так уже; в нынешнем виде)
+
+7. The rent is high enough *as it is*.
+8. Leave the table *as it is* — she'll want to see it.
+9. Don't tell him tonight; he's had enough bad news *as it is*.
 
 **See also:** [that's because](#thats-because), [you see](#you-see), [since](#since), [with](#with), [as](#as)
 
@@ -987,12 +1002,19 @@ Runs from effect back to cause: whatever stands in front of it happened as a res
 
 *Thanks to*, with the credit spelled out: it names the person or thing that supplied whatever the main clause reports. It leads two lives — the literal credit line of captions and acknowledgments, and the extended causal use of news and sports writing, which is as often sardonic as grateful.
 
+**1. Cause, with the credit or the blame named — the news and sports use.** As often sardonic as grateful: whatever produced the result is named as though it had done somebody a favor. (благодаря; по милости)
+
 1. The Rangers won it in overtime, *courtesy of* a deflection off a defenseman's skate.
 2. We had front-row seats, *courtesy of* her brother's season tickets.
 3. *Courtesy of* a burst main on Sixth Street, half of downtown was dry by noon.
-4. The map is reproduced *courtesy of* the state archives.
-5. Everybody got a second helping, *courtesy of* a neighbor who had over-ordered.
-6. He spent the afternoon in the emergency room, *courtesy of* a ladder he should have replaced years ago.
+4. Everybody got a second helping, *courtesy of* a neighbor who had over-ordered.
+5. He spent the afternoon in the emergency room, *courtesy of* a ladder he should have replaced years ago.
+
+**2. The literal credit line — "supplied by, with permission."** Captions, acknowledgments, and program notes, where it carries no irony, takes no punctuation, and often drops the *of* altogether. (предоставлено — в подписи под иллюстрацией)
+
+6. The map is reproduced *courtesy of* the state archives.
+7. Photograph *courtesy of* the Newberry Library.
+8. Costumes this evening are *courtesy of* the university theater department.
 
 **See also:** [thanks to](#thanks-to), [because of](#because-of), [on account of](#on-account-of), [by dint of](#by-dint-of), [through](#through)
 
@@ -1008,12 +1030,24 @@ Runs from effect back to cause: whatever stands in front of it happened as a res
 
 Traditionally *due to* was an adjectival phrase modifying a noun after a form of *be* (*The delay was due to fog*), while *because of* modified verbs (*We were delayed because of fog*). Educated American usage now allows *due to* in both slots, but conservative editors and some standardized tests still enforce the old split, so a fronted *Due to fog, we were delayed* remains the version most likely to be marked.
 
+**1. After a form of *be* — "was caused by."** The traditional slot, where *due* is an adjective describing the noun in front of it and no editor objects. Russian takes a participle here rather than «из-за». (вызван, обусловлен чем-л.)
+
 1. The delay was *due to* fog on the runway.
-2. Her recovery is *due to* a change in medication, not to rest.
-3. *Due to* budget cuts, the branch library now closes at five.
-4. The outage was *due to* a squirrel in a transformer.
-5. Most of the increase is *due to* higher fuel costs.
+2. The outage was *due to* a squirrel in a transformer.
+3. Most of the increase is *due to* higher fuel costs.
+4. Her recovery is *due to* a change in medication, not to rest.
+
+**2. Modifying a verb, or fronting the sentence — plain "because of."** Educated American usage accepts it; conservative editors and some standardized tests still mark a fronted *Due to* and want *because of* or *owing to* there. (из-за; вследствие)
+
+5. *Due to* budget cuts, the branch library now closes at five.
 6. *Due to* circumstances beyond our control, tonight's performance is canceled.
+7. The clinic closed two hours early *due to* the storm.
+
+**3. *be due to* + verb — "scheduled to, expected to."** A different construction that only looks like the other two: *due* here is the adjective "owed, expected" and *to* is the infinitive marker, so no cause is being given at all. (должен, ожидается — по плану или расписанию)
+
+8. The train is *due to* arrive at six.
+9. She's *due to* give her notice at the end of the month.
+10. The report was *due to* go to the board in April and still hasn't.
 
 **See also:** [because of](#because-of), [due to the fact that](#due-to-the-fact-that), [owing to](#owing-to), [on account of](#on-account-of), [from](#from)
 
@@ -1134,12 +1168,18 @@ A formal, faintly British *because of*. It has one practical advantage over *due
 
 *Because of*, with credit or blame attached. It began as gratitude and is now used just as readily in irony (*thanks to the geniuses in accounting*), while *no thanks to* reverses it and withholds the credit outright.
 
+**1. Credit where it is due — a good outcome and whoever brought it about.** (благодаря)
+
 1. *Thanks to* a tailwind, we landed twenty minutes early.
 2. We found the place *thanks to* a neighbor who walked us over.
-3. *Thanks to* whoever left the gate open, the dog spent the night in the woods.
-4. The team made the playoffs *thanks to* a rookie nobody had heard of in March.
-5. I got there on time, *no thanks to* the detour signs.
-6. *Thanks to* the new hire, the backlog is finally under a week.
+3. The team made the playoffs *thanks to* a rookie nobody had heard of in March.
+4. *Thanks to* the new hire, the backlog is finally under a week.
+
+**2. Sarcastic blame — credit handed to whoever wrecked it.** The irony comes from the mismatch between the grateful word and the bad outcome; *no thanks to* reverses the phrase outright and withholds credit from somebody who wanted it. (по милости; «спасибо» — с иронией)
+
+5. *Thanks to* whoever left the gate open, the dog spent the night in the woods.
+6. *Thanks to* the geniuses in scheduling, I have two meetings at the same hour.
+7. I got there on time, *no thanks to* the detour signs.
 
 **See also:** [because of](#because-of), [due to](#due-to), [on account of](#on-account-of), [owing to](#owing-to), [through](#through)
 

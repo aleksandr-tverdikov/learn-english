@@ -276,17 +276,25 @@ To get your strength and health back after an illness or a hard effort.
 ### exercise
 
 **Pronunciation:** /ˈɛksərsaɪz/ &middot; *EK-sur-syz*
-**Русский:** заниматься спортом, тренироваться
+**Русский:** заниматься спортом, тренироваться; осуществлять, использовать (право); проявлять (осторожность)
 **Forms:** *exercise* &middot; *exercised* &middot; *exercised*
 **Verb class:** regular
 **Third person:** *exercises* &middot; **-ing form:** *exercising*
 **Transitivity:** both — transitive (exercise the dog), intransitive (exercise every morning)
 
-To move your body in order to stay fit and healthy.
+Exercise has 2 distinct senses.
+
+**1. To move your body in order to stay fit and healthy.** (заниматься спортом, тренироваться)
 
 1. Try to *exercise* three times a week.
 2. He *exercised* every morning for a year.
 3. She has been *exercising* since her doctor warned her.
+
+**2. To use a right, a power, or a quality that you have.** (осуществлять, использовать (право); проявлять (осторожность))
+
+4. Please *exercise* caution on the icy steps.
+5. She *exercised* her right to remain silent.
+6. The governor has rarely *exercised* the veto.
 
 ---
 
@@ -310,36 +318,58 @@ To bend a joint or tighten a muscle.
 ### squat
 
 **Pronunciation:** /skwɑːt/ &middot; *SKWAHT*
-**Русский:** приседать, присесть
+**Русский:** приседать, присесть; самовольно занимать (пустующее жильё), сквоттерствовать
 **Forms:** *squat* &middot; *squatted* &middot; *squatted*
 **Verb class:** regular
 **Third person:** *squats* &middot; **-ing form:** *squatting*
 **Transitivity:** intransitive
 **Contrast:** The *t* doubles: *squatted*, *squatting*.
 
-To lower your body by bending your knees while keeping your back straight.
+Squat has 2 distinct senses.
+
+**1. To lower your body by bending your knees while keeping your back straight.** (приседать, присесть)
 
 1. *Squat* down and lift with your legs.
 2. He *squatted* beside the bed to talk to her.
 3. She was *squatting* to pick up the baby when her back gave out.
+
+**2. To live in an empty building without permission and without paying rent.** (самовольно занимать (пустующее жильё), сквоттерствовать)
+
+4. Several families *squat* in the old hotel.
+5. He *squatted* in an empty warehouse for two years.
+6. People have been *squatting* in the building since it closed.
 
 ---
 
 ### stagger
 
 **Pronunciation:** /ˈstæɡər/ &middot; *STAG-ur*
-**Русский:** шататься, пошатнуться
+**Русский:** шататься, пошатнуться; потрясать, потрясти; поражать, ошеломлять; разносить по времени, распределять (смены, время начала)
 **Forms:** *stagger* &middot; *staggered* &middot; *staggered*
 **Verb class:** regular
 **Third person:** *staggers* &middot; **-ing form:** *staggering*
 **Transitivity:** intransitive
 **Contrast:** Stress falls on the first syllable, so the *r* does not double: *staggered*, *staggering*.
 
-To walk unsteadily, as though you are about to fall.
+Stagger has 3 distinct senses.
+
+**1. To walk unsteadily, as though you are about to fall.** (шататься, пошатнуться)
 
 1. People *stagger* a little when their blood pressure drops.
 2. He *staggered* to the couch and sat down.
 3. She was *staggering* by the end of the shift.
+
+**2. To shock or amaze someone.** (потрясать, потрясти; поражать, ошеломлять)
+
+4. The repair bill will *stagger* you.
+5. The size of the crowd *staggered* the organizers.
+6. I was *staggered* by how much the house sold for.
+
+**3. To arrange times so that they do not all happen at once.** (разносить по времени, распределять (смены, время начала))
+
+7. The school will *stagger* start times by half an hour.
+8. They *staggered* the shifts to keep the floor from getting crowded.
+9. Boarding is *staggered* by row.
 
 ---
 
@@ -472,35 +502,51 @@ To lose consciousness for a short time.
 ### relapse
 
 **Pronunciation:** /rɪˈlæps/ &middot; *ri-LAPS*
-**Русский:** снова заболеть, дать рецидив
+**Русский:** снова заболеть, дать рецидив; срываться, сорваться; возвращаться к прежней привычке
 **Forms:** *relapse* &middot; *relapsed* &middot; *relapsed*
 **Verb class:** regular
 **Third person:** *relapses* &middot; **-ing form:** *relapsing*
 **Transitivity:** intransitive
 **Contrast:** The verb stresses the second syllable, ri-LAPS; the noun *a relapse* is often REE-laps.
 
-To become ill again after you seemed to be getting better.
+Relapse has 2 distinct senses.
+
+**1. To become ill again after you seemed to be getting better.** (снова заболеть, дать рецидив)
 
 1. About a third of patients *relapse* within a year.
 2. He *relapsed* two months after the treatment ended.
 3. She is terrified of *relapsing* again.
+
+**2. To start drinking, using drugs, or repeating a bad habit again after stopping.** (срываться, сорваться; возвращаться к прежней привычке)
+
+4. Most people *relapse* at least once.
+5. He *relapsed* after eight months sober.
+6. She has *relapsed* twice since the program ended.
 
 ---
 
 ### survive
 
 **Pronunciation:** /sərˈvaɪv/ &middot; *sur-VYV*
-**Русский:** выживать, выжить
+**Русский:** выживать, выжить; пережить (кого-либо), остаться в живых после чьей-то смерти
 **Forms:** *survive* &middot; *survived* &middot; *survived*
 **Verb class:** regular
 **Third person:** *survives* &middot; **-ing form:** *surviving*
 **Transitivity:** both — transitive (survive the surgery), intransitive (only two survived)
 
-To stay alive through an illness, an accident, or a dangerous situation.
+Survive has 2 distinct senses.
+
+**1. To stay alive through an illness, an accident, or a dangerous situation.** (выживать, выжить)
 
 1. Most people *survive* this kind of surgery without trouble.
 2. He *survived* the crash with a broken arm.
 3. She has *survived* two rounds of chemotherapy.
+
+**2. To remain alive after another person has died.** (пережить (кого-либо), остаться в живых после чьей-то смерти)
+
+4. She is *survived* by two sons and a sister.
+5. He *survived* his wife by ten years.
+6. Nobody expected the youngest brother to *survive* them all.
 
 ---
 
@@ -524,18 +570,26 @@ To produce sweat, especially when you are hot or nervous.
 ### contract
 
 **Pronunciation:** /kənˈtrækt/ &middot; *kuhn-TRAKT*
-**Русский:** заразиться, подхватить (болезнь)
+**Русский:** заразиться, подхватить (болезнь); сжиматься, сокращаться; сжимать, сократить
 **Forms:** *contract* &middot; *contracted* &middot; *contracted*
 **Verb class:** regular
 **Third person:** *contracts* &middot; **-ing form:** *contracting*
 **Transitivity:** transitive
 **Contrast:** As a verb the stress is on the second syllable, kuhn-TRAKT. The noun *a contract* (a legal agreement) is KAHN-trakt.
 
-To catch a serious illness.
+Contract has 2 distinct senses.
+
+**1. To catch a serious illness.** (заразиться, подхватить (болезнь))
 
 1. Workers can *contract* the virus from contaminated water.
 2. He *contracted* pneumonia in the hospital.
 3. She had *contracted* the infection weeks before any symptoms showed.
+
+**2. To become smaller or shorter, or to make something do this.** (сжиматься, сокращаться; сжимать, сократить)
+
+4. Metal *contracts* as it cools.
+5. The muscle *contracted* sharply and he dropped the bar.
+6. Her pupils were *contracting* in the bright light.
 
 **Phrasal verbs:** [contract out](53-phrasal-regular-a-c.md#contract-out)
 
@@ -596,18 +650,26 @@ To push a bone out of its normal place at a joint.
 ### scar
 
 **Pronunciation:** /skɑːr/ &middot; *SKAHR*
-**Русский:** оставлять шрам, покрываться шрамами
+**Русский:** оставлять шрам, покрываться шрамами; травмировать, оставлять глубокий след (в душе)
 **Forms:** *scar* &middot; *scarred* &middot; *scarred*
 **Verb class:** regular
 **Third person:** *scars* &middot; **-ing form:** *scarring*
 **Transitivity:** both — transitive (the burn scarred his arm), intransitive (deep cuts scar)
 **Contrast:** The *r* doubles: *scarred*, *scarring* — one *r* would give *scared* (frightened), a different word.
 
-To leave a permanent mark on the skin after a wound heals.
+Scar has 2 distinct senses.
+
+**1. To leave a permanent mark on the skin after a wound heals.** (оставлять шрам, покрываться шрамами)
 
 1. Deep cuts almost always *scar*.
 2. The burn *scarred* his forearm.
 3. Her knee is badly *scarred* from the surgery.
+
+**2. To harm someone emotionally in a way that lasts for years.** (травмировать, оставлять глубокий след (в душе))
+
+4. Losing a parent young can *scar* a child for life.
+5. The divorce *scarred* both of them.
+6. He came home *scarred* by what he had seen overseas.
 
 ---
 
@@ -632,34 +694,50 @@ To identify what illness someone has.
 ### prescribe
 
 **Pronunciation:** /prɪˈskraɪb/ &middot; *pri-SKRYB*
-**Русский:** прописывать, выписывать (лекарство)
+**Русский:** прописывать, выписывать (лекарство); предписывать, предписать; устанавливать (правила, порядок)
 **Forms:** *prescribe* &middot; *prescribed* &middot; *prescribed*
 **Verb class:** regular
 **Third person:** *prescribes* &middot; **-ing form:** *prescribing*
 **Transitivity:** transitive
 
-To officially tell a patient to take a certain medicine or treatment.
+Prescribe has 2 distinct senses.
+
+**1. To officially tell a patient to take a certain medicine or treatment.** (прописывать, выписывать (лекарство))
 
 1. Doctors rarely *prescribe* antibiotics for a cold.
 2. She *prescribed* something for the pain.
 3. He has been *prescribed* two different inhalers.
+
+**2. To state officially what must be done or how it must be done.** (предписывать, предписать; устанавливать (правила, порядок))
+
+4. The law *prescribes* a minimum sentence of five years.
+5. The manual *prescribed* exactly how the tanks were to be cleaned.
+6. Meetings must be held at the times *prescribed* in the bylaws.
 
 ---
 
 ### inject
 
 **Pronunciation:** /ɪnˈdʒɛkt/ &middot; *in-JEKT*
-**Русский:** вводить инъекцию, делать укол
+**Русский:** вводить инъекцию, делать укол; привносить, привнести; вливать (средства, энергию)
 **Forms:** *inject* &middot; *injected* &middot; *injected*
 **Verb class:** regular
 **Third person:** *injects* &middot; **-ing form:** *injecting*
 **Transitivity:** transitive
 
-To put medicine into the body with a needle.
+Inject has 2 distinct senses.
+
+**1. To put medicine into the body with a needle.** (вводить инъекцию, делать укол)
 
 1. Diabetics *inject* insulin every day.
 2. The nurse *injected* the dye before the scan.
 3. He was *injecting* himself in the stomach.
+
+**2. To add a new quality or element to something.** (привносить, привнести; вливать (средства, энергию))
+
+4. She *injected* some humor into a very dull meeting.
+5. The loan *injected* cash into the business at the right moment.
+6. The new coach is *injecting* energy into the team.
 
 ---
 
@@ -701,35 +779,57 @@ To clean something with a substance that kills germs.
 ### sterilize
 
 **Pronunciation:** /ˈstɛrəlaɪz/ &middot; *STER-uh-lyz*
-**Русский:** стерилизовать, обеззараживать
+**Русский:** стерилизовать, обеззараживать; стерилизовать (лишать способности иметь потомство)
 **Forms:** *sterilize* &middot; *sterilized* &middot; *sterilized*
 **Verb class:** regular
 **Third person:** *sterilizes* &middot; **-ing form:** *sterilizing*
 **Transitivity:** transitive
 **Contrast:** American English spells it *-ize*: *sterilize*, *sterilized*. British English also allows *sterilise*.
 
-To make equipment completely free of germs, usually with heat or chemicals.
+Sterilize has 2 distinct senses.
+
+**1. To make equipment completely free of germs, usually with heat or chemicals.** (стерилизовать, обеззараживать)
 
 1. Boil the bottles to *sterilize* them.
 2. The nurse *sterilized* the instruments.
 3. Everything on that tray has been *sterilized*.
+
+**2. To operate on a person or an animal so that they cannot have young.** (стерилизовать (лишать способности иметь потомство))
+
+4. The shelter will *sterilize* every animal before adoption.
+5. The vet *sterilized* our cat last spring.
+6. All the dogs here have been *sterilized*.
 
 ---
 
 ### nurse
 
 **Pronunciation:** /nɜːrs/ &middot; *NURS*
-**Русский:** ухаживать за больным, выхаживать
+**Русский:** ухаживать за больным, выхаживать; кормить грудью; сосать грудь (о младенце); лелеять, вынашивать (чувство); затаить (обиду)
 **Forms:** *nurse* &middot; *nursed* &middot; *nursed*
 **Verb class:** regular
 **Third person:** *nurses* &middot; **-ing form:** *nursing*
 **Transitivity:** transitive
 
-To take care of someone who is sick or injured.
+Nurse has 3 distinct senses.
+
+**1. To take care of someone who is sick or injured.** (ухаживать за больным, выхаживать)
 
 1. Somebody has to *nurse* him through this.
 2. She *nursed* her mother for two years.
 3. He is at home *nursing* a broken rib.
+
+**2. To feed a baby milk from the breast.** (кормить грудью; сосать грудь (о младенце))
+
+4. The puppies *nurse* every couple of hours.
+5. She *nursed* both of her children for a year.
+6. He fell asleep while *nursing*.
+
+**3. To hold on to a feeling for a long time.** (лелеять, вынашивать (чувство); затаить (обиду))
+
+7. She still *nurses* a quiet hope of moving back.
+8. He *nursed* a grudge against his brother for years.
+9. They have been *nursing* that grievance since the merger.
 
 ---
 
@@ -753,53 +853,89 @@ To put someone in a hospital for treatment.
 ### transplant
 
 **Pronunciation:** /trænsˈplænt/ &middot; *trans-PLANT*
-**Русский:** пересаживать (орган), трансплантировать
+**Русский:** пересаживать (орган), трансплантировать; пересаживать, пересадить (растение)
 **Forms:** *transplant* &middot; *transplanted* &middot; *transplanted*
 **Verb class:** regular
 **Third person:** *transplants* &middot; **-ing form:** *transplanting*
 **Transitivity:** transitive
 **Contrast:** The verb stresses the second syllable, trans-PLANT; the noun *a transplant* stresses the first, TRANS-plant.
 
-To move an organ or piece of tissue from one body into another.
+Transplant has 2 distinct senses.
+
+**1. To move an organ or piece of tissue from one body into another.** (пересаживать (орган), трансплантировать)
 
 1. Surgeons can now *transplant* a whole face.
 2. They *transplanted* a kidney from his brother.
 3. Her cornea was *transplanted* last year.
+
+**2. To dig up a plant and put it in the ground somewhere else.** (пересаживать, пересадить (растение))
+
+4. Wait until fall to *transplant* the roses.
+5. We *transplanted* the seedlings into bigger pots.
+6. The tomatoes are ready to be *transplanted* outside.
 
 ---
 
 ### discharge
 
 **Pronunciation:** /dɪsˈtʃɑːrdʒ/ &middot; *dis-CHAHRJ*
-**Русский:** выписывать (из больницы)
+**Русский:** выписывать (из больницы); увольнять, уволить; демобилизовать; сбрасывать, выбрасывать (отходы); выделять; стрелять, произвести выстрел
 **Forms:** *discharge* &middot; *discharged* &middot; *discharged*
 **Verb class:** regular
 **Third person:** *discharges* &middot; **-ing form:** *discharging*
 **Transitivity:** transitive
 **Contrast:** The verb stresses the second syllable, dis-CHAHRJ; the noun *a discharge* stresses the first, DIS-chahrj.
 
-To officially let a patient leave the hospital.
+Discharge has 4 distinct senses.
+
+**1. To officially let a patient leave the hospital.** (выписывать (из больницы))
 
 1. They usually *discharge* you the next morning.
 2. She was *discharged* after two nights.
 3. He is being *discharged* this afternoon.
+
+**2. To dismiss someone from a job or from military service.** (увольнять, уволить; демобилизовать)
+
+4. He was *discharged* from the Army after four years.
+5. A company may *discharge* an employee for theft.
+6. Having been dishonorably *discharged*, he had trouble finding work.
+
+**3. To send out liquid, gas, or waste.** (сбрасывать, выбрасывать (отходы); выделять)
+
+7. The plant *discharges* wastewater into the river.
+8. The factory *discharged* chemicals for years before anyone noticed.
+9. Pipes along the roof were *discharging* steam into the cold air.
+
+**4. To fire a gun.** (стрелять, произвести выстрел)
+
+10. It is illegal to *discharge* a firearm inside city limits.
+11. The officer *discharged* his weapon twice.
+12. The rifle went off, *discharging* a round into the ceiling.
 
 ---
 
 ### ease
 
 **Pronunciation:** /iːz/ &middot; *EEZ*
-**Русский:** облегчать, ослаблять (боль)
+**Русский:** облегчать, ослаблять (боль); осторожно двигать, подводить; медленно опускаться
 **Forms:** *ease* &middot; *eased* &middot; *eased*
 **Verb class:** regular
 **Third person:** *eases* &middot; **-ing form:** *easing*
 **Transitivity:** both — transitive (ease the swelling), intransitive (the pain eased)
 
-To make pain or a problem less severe, or to become less severe.
+Ease has 2 distinct senses.
+
+**1. To make pain or a problem less severe, or to become less severe.** (облегчать, ослаблять (боль))
 
 1. Ice will *ease* the swelling.
 2. The medication *eased* the pain within an hour.
 3. His breathing is *easing* now.
+
+**2. To move something, or yourself, slowly and carefully into place.** (осторожно двигать, подводить; медленно опускаться)
+
+4. He *eased* the car into the garage.
+5. *Ease* the board into the slot; don't force it.
+6. She was *easing* herself out of the chair when the phone rang.
 
 **Phrasal verbs:** [ease into](54-phrasal-regular-d-f.md#ease-into) &middot; [ease off](54-phrasal-regular-d-f.md#ease-off) &middot; [ease out](54-phrasal-regular-d-f.md#ease-out) &middot; [ease up](54-phrasal-regular-d-f.md#ease-up) &middot; [ease up on](54-phrasal-regular-d-f.md#ease-up-on)
 
@@ -808,17 +944,37 @@ To make pain or a problem less severe, or to become less severe.
 ### screen
 
 **Pronunciation:** /skriːn/ &middot; *SKREEN*
-**Русский:** обследовать, проводить скрининг
+**Русский:** обследовать, проводить скрининг; показывать, показать (фильм); устраивать показ; проверять, проверить; отбирать (кандидатов); досматривать (багаж); заслонять, заслонить; закрывать (от вида, света); отгораживать
 **Forms:** *screen* &middot; *screened* &middot; *screened*
 **Verb class:** regular
 **Third person:** *screens* &middot; **-ing form:** *screening*
 **Transitivity:** transitive
 
-To test a large group of healthy people in order to find a disease early.
+Screen has 4 distinct senses.
+
+**1. To test a large group of healthy people in order to find a disease early.** (обследовать, проводить скрининг)
 
 1. They *screen* everyone over fifty for colon cancer.
 2. The hospital *screened* two thousand people last year.
 3. She was *screened* and cleared.
+
+**2. To show a film or a program to an audience.** (показывать, показать (фильм); устраивать показ)
+
+4. The theater *screens* old westerns on Sunday nights.
+5. They *screened* the documentary for the crew first.
+6. The film has been *screened* at three festivals.
+
+**3. To check people or things in order to decide which ones to let through.** (проверять, проверить; отбирать (кандидатов); досматривать (багаж))
+
+7. They *screen* every applicant before the interview.
+8. Security *screened* all the bags at the door.
+9. He was *screening* his calls all week.
+
+**4. To hide or protect something from view, light, or wind.** (заслонять, заслонить; закрывать (от вида, света); отгораживать)
+
+10. Tall hedges *screen* the yard from the road.
+11. A row of pines *screened* the house from the highway.
+12. The patio is *screened* from the wind by a stone wall.
 
 **Phrasal verbs:** [screen out](57-phrasal-regular-q-s.md#screen-out)
 
@@ -827,18 +983,32 @@ To test a large group of healthy people in order to find a disease early.
 ### test
 
 **Pronunciation:** /tɛst/ &middot; *TEST*
-**Русский:** проверять, делать анализ
+**Русский:** проверять, делать анализ; испытывать, испытать; проверять (работу), тестировать; испытывать (терпение), проверять на прочность
 **Forms:** *test* &middot; *tested* &middot; *tested*
 **Verb class:** regular
 **Third person:** *tests* &middot; **-ing form:** *testing*
 **Transitivity:** both — transitive (test her blood), intransitive (he tested positive)
 **Contrast:** You *test* someone *for* something, and a person *tests positive* or *tests negative*.
 
-To check someone's blood, body, or ability with a medical procedure.
+Test has 3 distinct senses.
+
+**1. To check someone's blood, body, or ability with a medical procedure.** (проверять, делать анализ)
 
 1. They will *test* your blood for iron.
 2. He *tested* positive on Monday.
 3. She is being *tested* for allergies.
+
+**2. To use something in order to find out whether it works properly.** (испытывать, испытать; проверять (работу), тестировать)
+
+4. Engineers *test* every battery before it ships.
+5. They *tested* the brakes on a closed track.
+6. The software is still being *tested*.
+
+**3. To put a strain on someone's patience or on the limits of something.** (испытывать (терпение), проверять на прочность)
+
+7. Those two *test* my patience every single day.
+8. The delay *tested* everyone's good humor.
+9. He has been *testing* the limits of what we will allow.
 
 **Phrasal verbs:** [test out](58-phrasal-regular-t-z.md#test-out)
 

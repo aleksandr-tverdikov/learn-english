@@ -198,14 +198,43 @@
       "term": "boost",
       "ipa": "/buːst/",
       "respell": "BOOST",
-      "meaning": "To increase or improve something, often quickly. ---",
+      "meaning": "Boost has 2 distinct senses.",
       "examples": [
         "A discount might boost sales.",
         "The coach's speech boosted everyone's confidence.",
-        "They are boosting production before the holidays."
+        "They are boosting production before the holidays.",
+        "Her brother boosted her onto the wall.",
+        "Boost me a little higher — I still can't reach the branch.",
+        "He was boosting the kids onto his shoulders one at a time."
       ],
-      "senses": [],
-      "русский": "повышать, увеличивать, поднимать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To increase or improve something, often quickly",
+          "body": [
+            "(повышать, увеличивать, поднимать)"
+          ],
+          "examples": [
+            "A discount might boost sales.",
+            "The coach's speech boosted everyone's confidence.",
+            "They are boosting production before the holidays."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To lift someone by pushing them from below",
+          "body": [
+            "(подсаживать, подсадить; подталкивать вверх)",
+            "---"
+          ],
+          "examples": [
+            "Her brother boosted her onto the wall.",
+            "Boost me a little higher — I still can't reach the branch.",
+            "He was boosting the kids onto his shoulders one at a time."
+          ]
+        }
+      ],
+      "русский": "повышать, увеличивать, поднимать; подсаживать, подсадить; подталкивать вверх",
       "forms": "boost · boosted · boosted",
       "verb class": "regular",
       "third person": "boosts · -ing form: boosting",
@@ -302,14 +331,43 @@
       "term": "surge",
       "ipa": "/sɜːrdʒ/",
       "respell": "SURJ",
-      "meaning": "To increase suddenly and strongly. ---",
+      "meaning": "Surge has 2 distinct senses.",
       "examples": [
         "Demand tends to surge before the holidays.",
         "Applications surged after the ad ran.",
-        "Energy prices have been surging since May."
+        "Energy prices have been surging since May.",
+        "The crowd surged toward the stage.",
+        "Water surges through the gate the moment it opens.",
+        "Fans were surging onto the field before the whistle blew."
       ],
-      "senses": [],
-      "русский": "резко расти, подскакивать; хлынуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To increase suddenly and strongly",
+          "body": [
+            "(резко расти, подскакивать; хлынуть)"
+          ],
+          "examples": [
+            "Demand tends to surge before the holidays.",
+            "Applications surged after the ad ran.",
+            "Energy prices have been surging since May."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move forward suddenly as one large mass, like a crowd or a wave",
+          "body": [
+            "(хлынуть, устремляться вперёд; накатывать (о волне, толпе))",
+            "---"
+          ],
+          "examples": [
+            "The crowd surged toward the stage.",
+            "Water surges through the gate the moment it opens.",
+            "Fans were surging onto the field before the whistle blew."
+          ]
+        }
+      ],
+      "русский": "резко расти, подскакивать; хлынуть; хлынуть, устремляться вперёд; накатывать (о волне, толпе)",
       "forms": "surge · surged · surged",
       "verb class": "regular",
       "third person": "surges · -ing form: surging",
@@ -545,14 +603,43 @@
       "term": "rebound",
       "ipa": "/rɪˈbaʊnd/",
       "respell": "rih-BOWND",
-      "meaning": "To recover and rise again after a fall or a setback. ---",
+      "meaning": "Rebound has 2 distinct senses.",
       "examples": [
         "Markets usually rebound after a shock.",
         "Sales rebounded in the fall.",
-        "The team has rebounded from a terrible start."
+        "The team has rebounded from a terrible start.",
+        "Sound rebounds off the bare walls.",
+        "The ball rebounded off the rim and into his hands.",
+        "The puck was rebounding around the boards."
       ],
-      "senses": [],
-      "русский": "восстанавливаться, идти вверх после падения; отскакивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To recover and rise again after a fall or a setback",
+          "body": [
+            "(восстанавливаться, идти вверх после падения; отскакивать)"
+          ],
+          "examples": [
+            "Markets usually rebound after a shock.",
+            "Sales rebounded in the fall.",
+            "The team has rebounded from a terrible start."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bounce back after hitting a surface",
+          "body": [
+            "(отскакивать, отскочить (от поверхности))",
+            "---"
+          ],
+          "examples": [
+            "Sound rebounds off the bare walls.",
+            "The ball rebounded off the rim and into his hands.",
+            "The puck was rebounding around the boards."
+          ]
+        }
+      ],
+      "русский": "восстанавливаться, идти вверх после падения; отскакивать; отскакивать, отскочить (от поверхности)",
       "forms": "rebound · rebounded · rebounded",
       "verb class": "regular",
       "third person": "rebounds · -ing form: rebounding",
@@ -634,14 +721,43 @@
       "term": "moderate",
       "ipa": "/ˈmɑːdəreɪt/",
       "respell": "MAH-duh-rayt",
-      "meaning": "To make something less extreme, or to become less extreme. ---",
+      "meaning": "Moderate has 2 distinct senses.",
       "examples": [
         "Try to moderate your expectations.",
         "He moderated his tone after the first question.",
-        "The heat has moderated since Sunday."
+        "The heat has moderated since Sunday.",
+        "A local anchor will moderate tonight's debate.",
+        "She moderated the panel at the conference.",
+        "Volunteers have been moderating the forum for years."
       ],
-      "senses": [],
-      "русский": "умерять, смягчать, сдерживать; ослабевать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make something less extreme, or to become less extreme",
+          "body": [
+            "(умерять, смягчать, сдерживать; ослабевать)"
+          ],
+          "examples": [
+            "Try to moderate your expectations.",
+            "He moderated his tone after the first question.",
+            "The heat has moderated since Sunday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be in charge of a discussion or an online group, keeping it fair and within the rules",
+          "body": [
+            "(вести (дискуссию), быть модератором; модерировать)",
+            "---"
+          ],
+          "examples": [
+            "A local anchor will moderate tonight's debate.",
+            "She moderated the panel at the conference.",
+            "Volunteers have been moderating the forum for years."
+          ]
+        }
+      ],
+      "русский": "умерять, смягчать, сдерживать; ослабевать; вести (дискуссию), быть модератором; модерировать",
       "forms": "moderate · moderated · moderated",
       "verb class": "regular",
       "third person": "moderates · -ing form: moderating",
@@ -704,14 +820,43 @@
       "term": "range",
       "ipa": "/reɪndʒ/",
       "respell": "RAYNJ",
-      "meaning": "To vary between two limits. ---",
+      "meaning": "Range has 2 distinct senses.",
       "examples": [
         "Tickets range from twenty to eighty dollars.",
         "The answers ranged from angry to funny.",
-        "We saw cars ranging from tiny hatchbacks to old pickups."
+        "We saw cars ranging from tiny hatchbacks to old pickups.",
+        "Wild horses still range across parts of Nevada.",
+        "Grizzlies once ranged as far south as Mexico.",
+        "The cattle were ranging freely over open land."
       ],
-      "senses": [],
-      "русский": "колебаться в пределах, варьироваться (от … до …)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To vary between two limits",
+          "body": [
+            "(колебаться в пределах, варьироваться (от … до …))"
+          ],
+          "examples": [
+            "Tickets range from twenty to eighty dollars.",
+            "The answers ranged from angry to funny.",
+            "We saw cars ranging from tiny hatchbacks to old pickups."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move freely over a wide area, or to live naturally across a region",
+          "body": [
+            "(бродить, кочевать; обитать, водиться (на территории))",
+            "---"
+          ],
+          "examples": [
+            "Wild horses still range across parts of Nevada.",
+            "Grizzlies once ranged as far south as Mexico.",
+            "The cattle were ranging freely over open land."
+          ]
+        }
+      ],
+      "русский": "колебаться в пределах, варьироваться (от … до …); бродить, кочевать; обитать, водиться (на территории)",
       "forms": "range · ranged · ranged",
       "verb class": "regular",
       "third person": "ranges · -ing form: ranging",
@@ -774,14 +919,57 @@
       "term": "sustain",
       "ipa": "/səˈsteɪn/",
       "respell": "suh-STAYN",
-      "meaning": "To keep something going at the same level over time.",
+      "meaning": "Sustain has 3 distinct senses.",
       "examples": [
         "The soil cannot sustain that many crops.",
         "They sustained the pace for two hours.",
-        "Growth has been sustained for six quarters."
+        "Growth has been sustained for six quarters.",
+        "Two passengers sustained minor injuries in the crash.",
+        "A helmet keeps riders from sustaining head injuries.",
+        "The company has sustained heavy losses this year.",
+        "The judge sustained the defense's objection.",
+        "If the court sustains the claim, the city will owe damages.",
+        "Her objection was sustained and the question was withdrawn."
       ],
-      "senses": [],
-      "русский": "поддерживать, сохранять (на уровне); выдерживать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To keep something going at the same level over time",
+          "body": [
+            "(поддерживать, сохранять (на уровне); выдерживать)"
+          ],
+          "examples": [
+            "The soil cannot sustain that many crops.",
+            "They sustained the pace for two hours.",
+            "Growth has been sustained for six quarters."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To suffer an injury, a loss, or damage",
+          "body": [
+            "(получать (травму), понести (ущерб), терпеть (убытки))"
+          ],
+          "examples": [
+            "Two passengers sustained minor injuries in the crash.",
+            "A helmet keeps riders from sustaining head injuries.",
+            "The company has sustained heavy losses this year."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "For a judge to accept an objection or a claim as valid",
+          "body": [
+            "(принимать (возражение в суде), удовлетворять (протест))"
+          ],
+          "examples": [
+            "The judge sustained the defense's objection.",
+            "If the court sustains the claim, the city will owe damages.",
+            "Her objection was sustained and the question was withdrawn."
+          ]
+        }
+      ],
+      "русский": "поддерживать, сохранять (на уровне); выдерживать; получать (травму), понести (ущерб), терпеть (убытки); принимать (возражение в суде), удовлетворять (протест)",
       "forms": "sustain · sustained · sustained",
       "verb class": "regular",
       "third person": "sustains · -ing form: sustaining",

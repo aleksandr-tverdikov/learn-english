@@ -167,11 +167,39 @@
         "Our numbers are up; theirs are flat. (subject, plural referent — are)",
         "Theirs was the only bid that came in under budget. (subject, singular referent — was)",
         "He's a client of theirs. (double genitive)",
-        "Somebody left a phone on the seat — I think it's theirs. (singular they, standard American usage)",
         "Whose turn is it, ours or theirs? (question)",
-        "The mistake wasn't theirs. (negative)"
+        "Somebody left a phone on the seat — I think it's theirs.",
+        "Robin brought a laptop, but the projector cable wasn't theirs.",
+        "Whoever filed this signed the wrong line, so the mistake is theirs to fix."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Belonging to two or more people",
+          "body": [
+            "(их — принадлежащее им)"
+          ],
+          "examples": [
+            "The corner office is theirs.",
+            "Our numbers are up; theirs are flat. (subject, plural referent — are)",
+            "Theirs was the only bid that came in under budget. (subject, singular referent — was)",
+            "He's a client of theirs. (double genitive)",
+            "Whose turn is it, ours or theirs? (question)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Belonging to one person referred to as they",
+          "body": [
+            "(его, её — об одном лице неизвестного или небинарного пола)"
+          ],
+          "examples": [
+            "Somebody left a phone on the seat — I think it's theirs.",
+            "Robin brought a laptop, but the projector cable wasn't theirs.",
+            "Whoever filed this signed the wrong line, so the mistake is theirs to fix."
+          ]
+        }
+      ],
       "pronunciation note": "homophonous with there's in ordinary American speech; the weak form turns up in the double genitive — a client of theirs",
       "русский": "их — принадлежащее им; тж. об одном человеке неизвестного или небинарного пола",
       "case": "possessive",
@@ -196,9 +224,39 @@
         "She's a big fan of yours. (double genitive)",
         "The choice is yours.",
         "That coat isn't yours — check the label. (negative)",
-        "Sincerely yours, / Yours truly (fixed letter closings)"
+        "Sincerely yours, / Yours truly, / Very truly yours, (fixed closings: a comma follows, and only the first word is capitalized)",
+        "Guess who got stuck cleaning up afterward? Yours truly.",
+        "The photograph on the left was taken by yours truly."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thing belonging to the person or people addressed",
+          "body": [
+            "(твой, ваш — без существительного: «это твоё»)"
+          ],
+          "examples": [
+            "Is this seat yours?",
+            "My flight is at six; yours is at nine. (subject, singular referent — is)",
+            "Yours are the only comments I haven't read yet. (subject, plural referent — are)",
+            "She's a big fan of yours. (double genitive)",
+            "The choice is yours.",
+            "That coat isn't yours — check the label. (negative)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The frozen letter closings, and the jocular yours truly, which means “me.”",
+          "body": [
+            "(в концовке письма — «искренне Ваш»; yours truly разг. — «ваш покорный слуга», то есть я сам)"
+          ],
+          "examples": [
+            "Sincerely yours, / Yours truly, / Very truly yours, (fixed closings: a comma follows, and only the first word is capitalized)",
+            "Guess who got stuck cleaning up afterward? Yours truly.",
+            "The photograph on the left was taken by yours truly."
+          ]
+        }
+      ],
       "pronunciation note": "the weak form is what you actually hear in a friend of yours /ə frɛnd əv jɚz/",
       "русский": "твой, ваш (твоя, ваше, ваши) — принадлежащее собеседнику, без существительного",
       "case": "possessive",
@@ -649,16 +707,47 @@
       "respell": "EN-ee-wunz",
       "meaning": "Names an unspecified possessor — “belonging to any person at all,” and by extension “up for grabs.”",
       "examples": [
-        "With two laps to go, the race was still anyone's.",
         "My guess is as good as anyone's.",
         "Nobody claimed the wallet, so it could be anybody's.",
         "His chances are better than anyone's on that roster.",
         "Whose signature is missing? At this point it could be anyone's.",
         "Anyone's is better than nothing at this point. (subject, singular verb — is)",
         "Don't go by mine — go by anyone's on the committee. (object of a preposition)",
-        "Anyone's welcome to try. (not the possessive — this is anyone is)"
+        "With two laps to go, the race was still anyone's.",
+        "That seat has been anybody's since the incumbent retired.",
+        "Which way the county goes on Tuesday is still anyone's.",
+        "Anyone's welcome to try. (not the possessive at all — this is anyone is)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Belonging to any person at all",
+          "body": [
+            "(чей угодно — принадлежащий любому человеку)"
+          ],
+          "examples": [
+            "My guess is as good as anyone's.",
+            "Nobody claimed the wallet, so it could be anybody's.",
+            "His chances are better than anyone's on that roster.",
+            "Whose signature is missing? At this point it could be anyone's.",
+            "Anyone's is better than nothing at this point. (subject, singular verb — is)",
+            "Don't go by mine — go by anyone's on the committee. (object of a preposition)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Up for grabs — still undecided, open to whoever takes it",
+          "body": [
+            "(ещё не решено; выиграть может кто угодно)"
+          ],
+          "examples": [
+            "With two laps to go, the race was still anyone's.",
+            "That seat has been anybody's since the incumbent retired.",
+            "Which way the county goes on Tuesday is still anyone's.",
+            "Anyone's welcome to try. (not the possessive at all — this is anyone is)"
+          ]
+        }
+      ],
       "pronunciation note": "identical to the contraction anyone is; only context separates them",
       "русский": "чей угодно — принадлежащее любому человеку; только о людях",
       "case": "possessive",
@@ -708,13 +797,54 @@
       "examples": [
         "The blue car in the driveway is John's.",
         "John's is the desk by the window. (subject, singular referent — is)",
-        "We're having dinner at John's tonight. (locative genitive — John's house)",
-        "She's a cousin of John's. (double genitive)",
         "Both signatures were Maria's, not John's.",
         "Is that mug John's or mine? (question)",
-        "John's was the only application filed on time."
+        "John's was the only application filed on time.",
+        "We're having dinner at John's tonight.",
+        "Drop the keys off at John's on your way in.",
+        "They met at John's and walked over together. (the same fused genitive behind store names like Macy's and Trader Joe's)",
+        "She's a cousin of John's.",
+        "An old teacher of John's wrote the recommendation."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thing belonging to John",
+          "body": [
+            "(Джона — вещь, принадлежащая Джону)"
+          ],
+          "examples": [
+            "The blue car in the driveway is John's.",
+            "John's is the desk by the window. (subject, singular referent — is)",
+            "Both signatures were Maria's, not John's.",
+            "Is that mug John's or mine? (question)",
+            "John's was the only application filed on time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The locative genitive — at John's, with house or place understood",
+          "body": [
+            "(у Джона, к Джону — домой, в заведение)"
+          ],
+          "examples": [
+            "We're having dinner at John's tonight.",
+            "Drop the keys off at John's on your way in.",
+            "They met at John's and walked over together. (the same fused genitive behind store names like Macy's and Trader Joe's)"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The double genitive — the possessor himself, after of",
+          "body": [
+            "(в обороте a friend of John's — «один из друзей Джона»)"
+          ],
+          "examples": [
+            "She's a cousin of John's.",
+            "An old teacher of John's wrote the recommendation."
+          ]
+        }
+      ],
       "pronunciation note": "the genitive 's is /s/ after a voiceless sound (Pat's), /z/ after a voiced one (John's), and /ɪz/ after a sibilant (Chris's) — the same three-way split as the plural",
       "русский": "Джона — принадлежащее Джону; тж. «у Джона (дома)»",
       "case": "possessive",
@@ -765,13 +895,44 @@
         "Don't take an office pen — bring your own.",
         "Everyone at the potluck brought their own.",
         "What she wanted most was a room of her own. (the of-frame)",
-        "The city has a rhythm all its own — the standard repair for the missing standalone its.",
         "My own is still in the shop, so I borrowed his. (subject, singular referent — is)",
-        "He finished the whole thing on his own. (fixed frame — “unaided”)",
-        "She held her own against three older players. (fixed frame — “kept up”)",
-        "✗ The choice is one's is not English; the repair is the choice is one's own."
+        "The city has a rhythm all its own — the standard repair for the missing standalone its.",
+        "✗ The choice is one's is not English; the repair is the choice is one's own.",
+        "He finished the whole thing on his own. (“unaided”)",
+        "She lived on her own for the first time that year. (“alone”)",
+        "She held her own against three older players. (“kept up with them”)",
+        "The design came into its own only after the building went up. (“was finally appreciated”)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Belonging to that person and to nobody else",
+          "body": [
+            "(свой собственный — подчёркнуто: ничей больше)"
+          ],
+          "examples": [
+            "Don't take an office pen — bring your own.",
+            "Everyone at the potluck brought their own.",
+            "What she wanted most was a room of her own. (the of-frame)",
+            "My own is still in the shop, so I borrowed his. (subject, singular referent — is)",
+            "The city has a rhythm all its own — the standard repair for the missing standalone its.",
+            "✗ The choice is one's is not English; the repair is the choice is one's own."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The fixed frames on one's own, hold one's own, come into one's own",
+          "body": [
+            "(сам, самостоятельно; в одиночку; не уступать; наконец раскрыться)"
+          ],
+          "examples": [
+            "He finished the whole thing on his own. (“unaided”)",
+            "She lived on her own for the first time that year. (“alone”)",
+            "She held her own against three older players. (“kept up with them”)",
+            "The design came into its own only after the building went up. (“was finally appreciated”)"
+          ]
+        }
+      ],
       "pronunciation note": "the stress falls on own throughout the paradigm, and the possessive in front of it reduces — my own /mə ˈoʊn/, her own /ɚ ˈoʊn/, their own /ðɚ ˈoʊn/",
       "русский": "свой собственный — подчёркивает исключительность: bring your own «приноси своё»",
       "case": "possessive",
@@ -933,12 +1094,41 @@
         "That mail is the Smiths' — it landed in our box again.",
         "Our yard ends at the fence; everything past it is the Smiths'.",
         "The Smiths' is the only house on the block with a porch swing. (subject, singular referent — is)",
-        "The lawn mower isn't ours; it's the neighbors'. (negative)",
-        "Which boat is the Joneses'? (question — a name ending in a sibilant)",
         "Our driveway is narrower than the Smiths'. (comparison)",
+        "Which boat is the Joneses'? (a name ending in a sibilant)",
+        "We're eating at the Smiths' on Christmas Eve.",
+        "The kids stayed over at the Smiths' while we drove back.",
         "She's a cousin of the Smiths' from out of state. (double genitive)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thing belonging to the family",
+          "body": [
+            "(Смитов — принадлежащее семье Смитов)"
+          ],
+          "examples": [
+            "The house with the red door is the Smiths'.",
+            "That mail is the Smiths' — it landed in our box again.",
+            "Our yard ends at the fence; everything past it is the Smiths'.",
+            "The Smiths' is the only house on the block with a porch swing. (subject, singular referent — is)",
+            "Our driveway is narrower than the Smiths'. (comparison)",
+            "Which boat is the Joneses'? (a name ending in a sibilant)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The locative genitive — at the Smiths', meaning at their house",
+          "body": [
+            "(у Смитов, к Смитам — в гости, домой)"
+          ],
+          "examples": [
+            "We're eating at the Smiths' on Christmas Eve.",
+            "The kids stayed over at the Smiths' while we drove back.",
+            "She's a cousin of the Smiths' from out of state. (double genitive)"
+          ]
+        }
+      ],
       "pronunciation note": "the plural genitive adds nothing you can hear — the Smiths, ✗ the Smith's, and the Smiths' are pronounced alike",
       "русский": "Смитов — принадлежащее семье Смитов (мн. ч. + апостроф без s)",
       "case": "possessive",
@@ -1251,13 +1441,42 @@
       "meaning": "The contraction of it is or it has — a possessive-shaped trap with no possessive function whatsoever.",
       "examples": [
         "It's going to rain all weekend.",
-        "It's been three years since we moved. (it has)",
         "I think it's your turn.",
         "It's not the money, it's the principle. (negative)",
         "Do you think it's too late to call? (question — and the test still works: do you think it is too late)",
+        "It's been three years since we moved.",
+        "It's rained every day this week.",
+        "It's got a crack down one side. (it has got)",
         "If it's broken, its warranty should cover the repair. (both words, one sentence)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "it is",
+          "body": [
+            "(это; безличное «идёт, есть» — сокращение it is)"
+          ],
+          "examples": [
+            "It's going to rain all weekend.",
+            "I think it's your turn.",
+            "It's not the money, it's the principle. (negative)",
+            "Do you think it's too late to call? (question — and the test still works: do you think it is too late)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "it has, only in front of a past participle",
+          "body": [
+            "(сокращение it has — только перед причастием прошедшего времени)"
+          ],
+          "examples": [
+            "It's been three years since we moved.",
+            "It's rained every day this week.",
+            "It's got a crack down one side. (it has got)",
+            "If it's broken, its warranty should cover the repair. (both words, one sentence)"
+          ]
+        }
+      ],
       "pronunciation note": "identical to its; the two are distinguishable only in writing",
       "русский": "это, оно есть — сокращение it is / it has; притяжательное — its, без апострофа",
       "case": "none — it is a subject plus a verb",
@@ -1277,13 +1496,40 @@
       "meaning": "The contraction of existential or locative there with is or has — a homophone of theirs with no possessive meaning at all.",
       "examples": [
         "There's a problem with the second invoice.",
-        "There's been a mistake. (there has)",
         "There's nothing left in the fridge. (negative)",
         "There's three people ahead of us. (ordinary speech; formal writing takes There are three people)",
+        "There's been a mistake.",
+        "There's never been a year like this one.",
         "✗ The blue car is there's. → ✓ The blue car is theirs.",
         "There's their car, and the one behind it is theirs too. (all three words, one sentence)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "there is",
+          "body": [
+            "(есть, имеется — сокращение there is)"
+          ],
+          "examples": [
+            "There's a problem with the second invoice.",
+            "There's nothing left in the fridge. (negative)",
+            "There's three people ahead of us. (ordinary speech; formal writing takes There are three people)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "there has, in front of a past participle",
+          "body": [
+            "(сокращение there has — перед причастием прошедшего времени)"
+          ],
+          "examples": [
+            "There's been a mistake.",
+            "There's never been a year like this one.",
+            "✗ The blue car is there's. → ✓ The blue car is theirs.",
+            "There's their car, and the one behind it is theirs too. (all three words, one sentence)"
+          ]
+        }
+      ],
       "pronunciation note": "homophonous with theirs in ordinary American speech",
       "русский": "есть, имеется — сокращение there is / there has; не притяжательное",
       "case": "none — it is a dummy subject plus a verb",
@@ -1329,13 +1575,42 @@
       "meaning": "The contraction of who is or who has — a homophone of whose with no possessive function.",
       "examples": [
         "Who's calling, please?",
-        "Who's been using my charger? (who has)",
-        "She's the one who's in charge of scheduling. (relative clause)",
         "Who's not on the list yet? (negative)",
-        "✗ Who's keys are these? → ✓ Whose keys are these?",
-        "Who's the owner, and whose is the truck out front? (both words, one sentence)"
+        "She's the one who's in charge of scheduling. (relative clause)",
+        "Who's the owner, and whose is the truck out front? (both words, one sentence)",
+        "Who's been using my charger?",
+        "Anyone who's finished may leave early.",
+        "Who's got the key to the supply closet?",
+        "✗ Who's keys are these? → ✓ Whose keys are these?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "who is",
+          "body": [
+            "(кто есть — сокращение who is)"
+          ],
+          "examples": [
+            "Who's calling, please?",
+            "Who's not on the list yet? (negative)",
+            "She's the one who's in charge of scheduling. (relative clause)",
+            "Who's the owner, and whose is the truck out front? (both words, one sentence)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "who has, in front of a past participle or in who's got",
+          "body": [
+            "(сокращение who has — перед причастием прошедшего времени)"
+          ],
+          "examples": [
+            "Who's been using my charger?",
+            "Anyone who's finished may leave early.",
+            "Who's got the key to the supply closet?",
+            "✗ Who's keys are these? → ✓ Whose keys are these?"
+          ]
+        }
+      ],
       "pronunciation note": "identical to whose",
       "русский": "кто есть — сокращение who is / who has; притяжательное — whose",
       "case": "none — it is a subject plus a verb",

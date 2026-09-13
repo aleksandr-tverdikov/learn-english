@@ -49,17 +49,25 @@ To begin, especially something formal or official.
 ### initiate
 
 **Pronunciation:** /ɪˈnɪʃieɪt/ &middot; *ih-NISH-ee-ayt*
-**Русский:** начинать, положить начало, инициировать
+**Русский:** начинать, положить начало, инициировать; посвящать, посвятить; принимать (в члены)
 **Forms:** *initiate* &middot; *initiated* &middot; *initiated*
 **Verb class:** regular
 **Third person:** *initiates* &middot; **-ing form:** *initiating*
 **Transitivity:** transitive
 
-To be the one who starts a process or a course of action.
+Initiate has 2 distinct senses.
+
+**1. To be the one who starts a process or a course of action.** (начинать, положить начало, инициировать)
 
 1. Either side may *initiate* talks at any time.
 2. The bank *initiated* a review of every account.
 3. Who *initiated* the contact is still not clear.
+
+**2. To admit someone into a group with a special ceremony.** (посвящать, посвятить; принимать (в члены))
+
+4. The club *initiates* new members every fall.
+5. He was *initiated* into the fraternity in October.
+6. They are *initiating* twelve students tonight.
 
 ---
 
@@ -187,17 +195,25 @@ To start talking about a difficult or delicate subject.
 ### herald
 
 **Pronunciation:** /ˈhɛrəld/ &middot; *HER-uhld*
-**Русский:** возвещать, предвещать, знаменовать начало
+**Русский:** возвещать, предвещать, знаменовать начало; провозглашать, провозгласить; превозносить, объявлять
 **Forms:** *herald* &middot; *heralded* &middot; *heralded*
 **Verb class:** regular
 **Third person:** *heralds* &middot; **-ing form:** *heralding*
 **Transitivity:** transitive
 
-To be a sign that something important is beginning.
+Herald has 2 distinct senses.
+
+**1. To be a sign that something important is beginning.** (возвещать, предвещать, знаменовать начало)
 
 1. Those clouds usually *herald* a change in the weather.
 2. The invention *heralded* a whole new industry.
 3. The deal was *heralded* as the start of a new era.
+
+**2. To announce or praise something publicly, especially in the press.** (провозглашать, провозгласить; превозносить, объявлять)
+
+4. Sports writers *herald* every rookie as the next great quarterback.
+5. The drug was *heralded* as a breakthrough.
+6. The papers are already *heralding* the deal as historic.
 
 ---
 
@@ -556,17 +572,25 @@ To stop something from flowing or spreading.
 ### stifle
 
 **Pronunciation:** /ˈstaɪfəl/ &middot; *STY-fuhl*
-**Русский:** подавлять, сдерживать, душить (инициативу, смех)
+**Русский:** подавлять, сдерживать, душить (инициативу, смех); душить, удушать; не давать дышать
 **Forms:** *stifle* &middot; *stifled* &middot; *stifled*
 **Verb class:** regular
 **Third person:** *stifles* &middot; **-ing form:** *stifling*
 **Transitivity:** transitive
 
-To stop something from being expressed or from developing.
+Stifle has 2 distinct senses.
+
+**1. To stop something from being expressed or from developing.** (подавлять, сдерживать, душить (инициативу, смех))
 
 1. Too many rules can *stifle* new ideas.
 2. She *stifled* a laugh behind her hand.
 3. Debate was *stifled* before it started.
+
+**2. To make it hard or impossible for someone to breathe.** (душить, удушать; не давать дышать)
+
+4. The smoke began to *stifle* us.
+5. He was *stifled* by the thick dust in the attic.
+6. The heat in that room was *stifling*.
 
 ---
 
@@ -625,17 +649,31 @@ To get rid of a plan or a thing because it is no longer wanted.
 ### scuttle
 
 **Pronunciation:** /ˈskʌtəl/ &middot; *SKUT-uhl*
-**Русский:** срывать, губить (сделку, план)
+**Русский:** срывать, губить (сделку, план); семенить, шмыгнуть; сновать; затапливать, затопить (своё судно)
 **Forms:** *scuttle* &middot; *scuttled* &middot; *scuttled*
 **Verb class:** regular
 **Third person:** *scuttles* &middot; **-ing form:** *scuttling*
 **Transitivity:** transitive
 
-To ruin a plan or an agreement so that it cannot go ahead.
+Scuttle has 3 distinct senses.
+
+**1. To ruin a plan or an agreement so that it cannot go ahead.** (срывать, губить (сделку, план))
 
 1. One bad headline could *scuttle* the merger.
 2. A single vote *scuttled* the bill.
 3. The deal was *scuttled* at the last minute.
+
+**2. To run with short, quick steps, the way a crab or a mouse does.** (семенить, шмыгнуть; сновать)
+
+4. Crabs *scuttle* sideways into the wet sand.
+5. A mouse *scuttled* under the stove.
+6. We watched a lizard go *scuttling* across the path.
+
+**3. To sink a ship on purpose by letting water into it.** (затапливать, затопить (своё судно))
+
+7. A captain may *scuttle* a ship rather than hand it over.
+8. The crew *scuttled* the boat in shallow water.
+9. The old freighter was *scuttled* to make an artificial reef.
 
 ---
 
@@ -937,17 +975,25 @@ To stop something from happening at all.
 ### avert
 
 **Pronunciation:** /əˈvɜːrt/ &middot; *uh-VURT*
-**Русский:** предотвращать, отвести (беду); отводить (взгляд)
+**Русский:** предотвращать, отвести (беду); отводить (взгляд); отводить (взгляд), отвести
 **Forms:** *avert* &middot; *averted* &middot; *averted*
 **Verb class:** regular
 **Third person:** *averts* &middot; **-ing form:** *averting*
 **Transitivity:** transitive
 
-To prevent something bad that was about to happen.
+Avert has 2 distinct senses.
+
+**1. To prevent something bad that was about to happen.** (предотвращать, отвести (беду); отводить (взгляд))
 
 1. A last-minute deal may *avert* a strike.
 2. Quick thinking *averted* a serious accident.
 3. Disaster was *averted* by a matter of seconds.
+
+**2. To turn your eyes or face away from something you do not want to see.** (отводить (взгляд), отвести)
+
+4. She *averted* her eyes when the nurse pulled the needle out.
+5. Most people *avert* their gaze and keep walking.
+6. He sat through the whole scene with his face *averted*.
 
 ---
 
@@ -1111,18 +1157,26 @@ To stop being connected to or involved in something.
 ### shutter
 
 **Pronunciation:** /ˈʃʌtər/ &middot; *SHUT-ur*
-**Русский:** закрывать (предприятие), сворачивать, прекращать работу
+**Русский:** закрывать (предприятие), сворачивать, прекращать работу; закрывать ставни, закрыть ставнями
 **Forms:** *shutter* &middot; *shuttered* &middot; *shuttered*
 **Verb class:** regular
 **Third person:** *shutters* &middot; **-ing form:** *shuttering*
 **Transitivity:** transitive
 **Contrast:** Regular, unlike the irregular *shut* (*shut, shut, shut*): *shutter, shuttered, shuttered*.
 
-To close a business or a building down, usually for good.
+Shutter has 2 distinct senses.
+
+**1. To close a business or a building down, usually for good.** (закрывать (предприятие), сворачивать, прекращать работу)
 
 1. The chain plans to *shutter* twelve stores.
 2. They *shuttered* the plant in December.
 3. Half the downtown storefronts are *shuttered*.
+
+**2. To close the shutters over a window.** (закрывать ставни, закрыть ставнями)
+
+4. They *shuttered* the windows before the hurricane.
+5. *Shutter* the windows on the north side too.
+6. The beach houses stood *shuttered* all winter.
 
 ---
 
@@ -1164,18 +1218,26 @@ To send workers home for a period without pay, usually temporarily.
 ### cap
 
 **Pronunciation:** /kæp/ &middot; *KAP*
-**Русский:** ограничивать (сверху), устанавливать предел
+**Русский:** ограничивать (сверху), устанавливать предел; закрывать крышкой, закупоривать, закупорить; надевать колпачок
 **Forms:** *cap* &middot; *capped* &middot; *capped*
 **Verb class:** regular
 **Third person:** *caps* &middot; **-ing form:** *capping*
 **Transitivity:** transitive
 **Contrast:** One short vowel plus one consonant, so the p doubles: *capped*, *capping*.
 
-To set an upper limit on an amount so that it stops rising.
+Cap has 2 distinct senses.
+
+**1. To set an upper limit on an amount so that it stops rising.** (ограничивать (сверху), устанавливать предел)
 
 1. The state may *cap* tuition increases.
 2. They *capped* the class at twenty students.
 3. Rent is *capped* at three percent a year.
+
+**2. To cover the top of something with a cap or a lid.** (закрывать крышкой, закупоривать, закупорить; надевать колпачок)
+
+4. *Cap* the bottle tightly before you shake it.
+5. She *capped* her pen and closed the notebook.
+6. The old well has been *capped* since 2019.
 
 **Phrasal verbs:** [cap off](53-phrasal-regular-a-c.md#cap-off)
 
@@ -1202,18 +1264,26 @@ To keep something or someone inside limits.
 ### bar
 
 **Pronunciation:** /bɑːr/ &middot; *BAHR*
-**Русский:** запрещать, не допускать, отстранять
+**Русский:** запрещать, не допускать, отстранять; преграждать, преградить (путь); запирать на засов
 **Forms:** *bar* &middot; *barred* &middot; *barred*
 **Verb class:** regular
 **Third person:** *bars* &middot; **-ing form:** *barring*
 **Transitivity:** transitive
 **Contrast:** The r doubles: *barred*, *barring*. It takes *from*: *barred from the building*.
 
-To officially keep someone out or stop them from doing something.
+Bar has 2 distinct senses.
+
+**1. To officially keep someone out or stop them from doing something.** (запрещать, не допускать, отстранять)
 
 1. The rule would *bar* anyone under eighteen.
 2. The league *barred* him for a full season.
 3. Reporters were *barred* from the courtroom.
+
+**2. To block a way physically, or to fasten a door with a bar.** (преграждать, преградить (путь); запирать на засов)
+
+4. A fallen tree *barred* the road for two days.
+5. He *barred* the door and put out the lamp.
+6. Two guards stood in the doorway, *barring* the entrance.
 
 ---
 
@@ -1272,17 +1342,25 @@ To finally agree after refusing, or to become less severe.
 ### vacate
 
 **Pronunciation:** /ˈveɪkeɪt/ &middot; *VAY-kayt*
-**Русский:** освобождать (помещение, должность), съезжать
+**Русский:** освобождать (помещение, должность), съезжать; отменять, отменить (решение суда); аннулировать
 **Forms:** *vacate* &middot; *vacated* &middot; *vacated*
 **Verb class:** regular
 **Third person:** *vacates* &middot; **-ing form:** *vacating*
 **Transitivity:** transitive
 
-To leave a place or a position so that it is empty.
+Vacate has 2 distinct senses.
+
+**1. To leave a place or a position so that it is empty.** (освобождать (помещение, должность), съезжать)
 
 1. Guests must *vacate* the room by eleven.
 2. They *vacated* the apartment in a single afternoon.
 3. The seat was *vacated* when he resigned.
+
+**2. For a court, to cancel a ruling or a sentence so that it no longer stands.** (отменять, отменить (решение суда); аннулировать)
+
+4. The appeals court *vacated* his conviction.
+5. A judge can *vacate* the order if new evidence turns up.
+6. The fine was *vacated* after the officer failed to appear.
 
 ---
 
@@ -1379,18 +1457,26 @@ To happen again, especially more than once.
 ### wait
 
 **Pronunciation:** /weɪt/ &middot; *WAYT*
-**Русский:** ждать, подождать, ожидать
+**Русский:** ждать, подождать, ожидать; обслуживать столики, работать официантом
 **Forms:** *wait* &middot; *waited* &middot; *waited*
 **Verb class:** regular
 **Third person:** *waits* &middot; **-ing form:** *waiting*
 **Transitivity:** intransitive
 **Contrast:** It takes *for* before a person or thing and *to* before a verb: *wait for the bus*, *wait to hear back*. It sounds exactly like *weight*.
 
-To stay where you are or delay acting until something happens.
+Wait has 2 distinct senses.
+
+**1. To stay where you are or delay acting until something happens.** (ждать, подождать, ожидать)
 
 1. Can you *wait* five more minutes?
 2. We *waited* almost an hour for a table.
 3. She has been *waiting* outside since noon.
+
+**2. To serve food and drinks to customers in a restaurant.** (обслуживать столики, работать официантом)
+
+4. He *waits* tables three nights a week.
+5. She *waited* tables all through college.
+6. I have *waited* tables at two different diners.
 
 **Phrasal verbs:** [wait around](58-phrasal-regular-t-z.md#wait-around) &middot; [wait for, wait on](22-verb-preposition.md#wait-for-wait-on) &middot; [wait out](58-phrasal-regular-t-z.md#wait-out) &middot; [wait up](58-phrasal-regular-t-z.md#wait-up) &middot; [wait up](58-phrasal-regular-t-z.md#wait-up-1)
 

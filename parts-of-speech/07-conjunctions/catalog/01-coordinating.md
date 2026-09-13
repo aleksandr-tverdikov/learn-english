@@ -26,12 +26,35 @@ The only seven words in English that are coordinating conjunctions and nothing e
 
 The default coordinator: it adds, and it will add anything to anything as long as the two halves are the same grammatical kind. Beyond plain addition it carries sequence (*She got up and left*), result (*He tripped and fell*), and, after an imperative, a condition (*Move and I'll shoot* means "if you move"). Of all the addition words it is the only one that makes a subject genuinely plural — *plus* is informal and *as well as* leaves the verb alone.
 
+**1. Plain addition — one more item of the same kind.** (и)
+
 1. She ordered a salad *and* a glass of iced tea.
-2. We packed the car, *and* the kids were asleep before we hit the highway.
-3. Add the flour, the sugar, *and* a pinch of salt.
-4. Say that one more time *and* I'm leaving.
-5. He came home, dropped his bag, *and* went straight to bed.
+2. Add the flour, the sugar, *and* a pinch of salt.
+3. My sister *and* her husband are driving up from Tulsa on Friday.
+
+**2. Sequence — and after that.** The order of the halves is the order of the events, so swapping them tells a different story. (и потом, и затем)
+
+4. He came home, dropped his bag, *and* went straight to bed.
+5. We packed the car, *and* the kids were asleep before we hit the highway.
 6. *And* then, out of nowhere, the power went out.
+
+**3. Result — and as a consequence of that.** (и поэтому, и в результате)
+
+7. He tripped on the hose *and* went down hard.
+8. The heat finally broke, *and* everybody slept through the night for once.
+9. She missed one payment *and* lost the apartment.
+
+**4. Condition, after an imperative — "if you do that, then …".** The first half is an order only in form; it is really an *if*-clause, and what follows is a threat or a promise. (и тогда — на месте «если…, то…»)
+
+10. Say that one more time *and* I'm leaving.
+11. Touch that wire *and* you'll know about it.
+12. Give me ten minutes *and* I'll have it working.
+
+**5. Welding two verbs into one action — *go and*, *come and*, *try and*.** Here *and* joins nothing: the first verb has faded to a marker of intention. American speech says *try and*, American editing writes *try to*. (пойти и…, взять и…; часто вообще не переводится)
+
+13. Go *and* see what that noise was.
+14. Come *and* sit down before it gets cold.
+15. I'll try *and* have it to you by six.
 
 **See also:** [and/or](#andor), [and so](#and-so), [and then](#and-then), [and yet](#and-yet), [plus](#plus), [as well as](#as-well-as), [or](#or), [both … and](02-correlative.md#both--and)
 
@@ -47,12 +70,19 @@ The default coordinator: it adds, and it will add anything to anything as long a
 
 Marks the second element as running against what the first led you to expect. It is the plain, neutral contrast word, and the differences around it are worth memorizing: *yet* adds a note of "in spite of that," *however* means the same but is an adverb and needs a semicolon before it, and *although* subordinates instead of coordinating, which changes which half of the sentence carries the point.
 
+**1. Contrast — the second half runs against what the first led you to expect.** (но, а)
+
 1. I called twice, *but* nobody picked up.
 2. The soup was bland *but* filling.
-3. It's not the money *but* the principle.
+3. She said she'd think about it, *but* I could tell she had already decided.
 4. *But* nobody had checked the budget.
-5. She said she'd think about it, *but* I could tell she had already decided.
-6. We can go Friday *but* not Saturday.
+5. We can go Friday *but* not Saturday.
+
+**2. Correction after a negative — not this, but that instead.** The first element is cancelled outright rather than merely opposed, and the *not* in front of it is required: drop it and the correction reading disappears. (а — «не X, а Y»)
+
+6. It's not the money *but* the principle.
+7. They aren't delays *but* outright cancellations.
+8. I didn't say she was lying, *but* that she was wrong.
 
 **See also:** [yet](#yet), [and yet](#and-yet), [but then](#but-then), [but rather](#but-rather), [only](#only), [however](11-conjunctive-adverbs.md#however), [although](07-concession.md#although)
 
@@ -111,13 +141,36 @@ Adds a second negative to a negative already on the table: "and not that either.
 
 Offers an alternative. English *or* is normally inclusive — *coffee or tea* does not forbid both — and only context or an explicit *either … or* forces the exclusive reading. Two side jobs are worth learning: after an imperative it states the consequence of not complying, and after a comma it renames the thing just mentioned. Note also that after a negative it is *or*, not *and*, that spreads the negation: *I don't eat meat or fish*.
 
+**1. Alternative — one of these, and usually no bar to both.** (или)
+
 1. Do you want the aisle *or* the window?
 2. We could drive, *or* we could fly.
 3. Would you rather have coffee, tea, *or* something cold?
-4. Hurry up, *or* we'll miss the last train.
+4. *Either* you tell him *or* I will.
+
+**2. After a negative — spreading the negation over both items.** Russian doubles the negative here; English switches *and* to *or*, because *I don't eat meat and fish* says something else entirely. (ни … ни)
+
 5. I don't eat meat *or* fish.
-6. She studies the humerus, *or* upper arm bone, in the first week of the course.
-7. *Either* you tell him *or* I will.
+6. He never calls *or* writes.
+7. There was no phone signal *or* wifi at the cabin.
+
+**3. The consequence of not doing it.** After an imperative or a statement of what has to happen — the same job *or else* does, in one word. (а то, иначе)
+
+8. Hurry up, *or* we'll miss the last train.
+9. Write it on the calendar, *or* you'll forget.
+10. The rent has to be in by Friday, *or* they add a late fee.
+
+**4. Renaming — another name for the same thing.** Fenced by commas on both sides; the two halves are one thing, not two, and the verb stays singular. (то есть, иначе называемый)
+
+11. She studies the humerus, *or* upper arm bone, in the first week of the course.
+12. Trigeminal neuralgia, *or* tic douloureux, is often mistaken for a dental problem.
+13. He teaches phonetics, *or* how speech sounds are actually made.
+
+**5. Approximation between two numbers.** No comma, and no choice on offer — the two figures name a range. (или — приблизительность: «два-три», «минут пять»)
+
+14. Give it two *or* three minutes to thicken.
+15. There were twenty *or* so people in the room.
+16. It's a four *or* five hour drive, depending on the pass.
 
 **See also:** [and/or](#andor), [or else](#or-else), [or rather](#or-rather), [nor](#nor), [and](#and), [versus](#versus), [either … or](02-correlative.md#either--or), [whether](10-complementizers.md#whether)
 
@@ -133,12 +186,24 @@ Offers an alternative. English *or* is normally inclusive — *coffee or tea* do
 
 States the result of what came before: cause first, effect after *so*. It is the mirror image of *because*, which puts the effect first and the cause second. The high-value distinction is against *so (that)*: *I left early, so I beat traffic* reports what happened, while *I left early so I could beat traffic* reports what was intended.
 
+**1. Result — cause first, effect after.** (поэтому, так что)
+
 1. Traffic was terrible, *so* we missed the opening.
 2. The store was out of basil, *so* I used parsley.
 3. He never wrote back, *so* I stopped emailing.
-4. I left early *so* I could beat the traffic.
-5. *So*, what did the doctor say?
-6. She's allergic to cats, *so* we met at my place instead.
+4. She's allergic to cats, *so* we met at my place instead.
+
+**2. Purpose — short for *so that*.** No comma in front of it, and the clause almost always carries *can*, *could*, or *would*: what follows is the intention, not the outcome. (чтобы)
+
+5. I left early *so* I could beat the traffic.
+6. Leave your number *so* they can call you back.
+7. We moved the meeting up *so* nobody would have to stay late.
+
+**3. Conversational opener — picking a topic up, or handing the floor over.** It links to the whole situation rather than to a previous clause, and nothing has to have been said before it. (итак, ну что ж, ну и)
+
+8. *So*, what did the doctor say?
+9. *So* anyway, we never did get the deposit back.
+10. *So* you're the one who fixed the printer.
 
 **See also:** [and so](#and-so), [for](#for), [therefore](11-conjunctive-adverbs.md#therefore), [so that](05-purpose-result.md#so-that), [because](04-cause.md#because)
 
@@ -221,12 +286,18 @@ The same result link as bare *so*, but heavier and more deliberate — it sums u
 
 Fixes the order of events, which plain *and* only implies. It has a second, rhetorical life in complaint and storytelling, where each *and then* stacks one new development on the last.
 
+**1. Sequence — and after that.** Fixes the order of events that plain *and* only implies. (а потом, и затем)
+
 1. We had dinner *and then* walked down to the water.
 2. She read the letter twice *and then* put it back in the drawer.
-3. First the check bounced, *and then* the landlord called.
-4. *And then* he tells me the whole thing was my idea.
-5. Boil the pasta, drain it, *and then* toss it with the sauce.
-6. The power flickered twice *and then* went out for good.
+3. Boil the pasta, drain it, *and then* toss it with the sauce.
+4. The power flickered twice *and then* went out for good.
+
+**2. Stacking one grievance or one surprise on top of the last.** Complaint and storytelling, often in the present tense for vividness; what matters is the piling up, not the clock. (и тут ещё, и вдобавок)
+
+5. First the check bounced, *and then* the landlord called.
+6. *And then* he tells me the whole thing was my idea.
+7. The flight was delayed, they lost a bag, *and then* the rental counter had no record of us.
 
 **See also:** [and](#and), [and so](#and-so), [or else](#or-else), [after](03-time.md#after), [then](11-conjunctive-adverbs.md#then)
 
@@ -284,12 +355,20 @@ Replaces a rejected item with the correct one, so it needs a negative in front o
 
 Introduces a second thought that softens or half-cancels what was just said — "on the other hand, this is also true." It differs from the purely temporal *but then* of narrative ("and after that"); the concessive one can always be replaced by *but then again*.
 
+**1. A second thought that softens or half-cancels what was just said.** Always replaceable by *but then again*. (но с другой стороны, впрочем)
+
 1. The hotel was overpriced, *but then* everything downtown is.
 2. She's never on time, *but then* neither am I.
 3. I'd like to move somewhere warm — *but then*, I said that last year too.
 4. *But then again*, he did warn us.
 5. The sequel wasn't very good, *but then* the first one wasn't either.
 6. He offered to pay, *but then* he always does.
+
+**2. Narrative "and after that," with a reversal.** Plain time sequence: here *then* is the adverb and *but then again* cannot be substituted, because the sentence reports an event rather than a second opinion. (но потом, а потом вдруг)
+
+7. He agreed to everything, *but then* stopped answering his phone.
+8. The rain let up for an hour, *but then* it came back harder.
+9. She got all the way to the gate, *but then* turned around and drove home.
 
 **See also:** [but](#but), [yet](#yet), [and then](#and-then), [only](#only), [however](11-conjunctive-adverbs.md#however)
 
@@ -326,12 +405,20 @@ A reinforced *nor*: it adds one more negative and marks it as the least expected
 
 States what will happen if the first clause is not carried out: a more explicitly consequential *or*. It is also the one coordinator in English that can survive with nothing after it at all, as an open-ended threat.
 
+**1. The consequence of not doing it, up to an outright threat.** This is the sense that can end in mid-air, with the consequence left unnamed. (а то, иначе)
+
 1. Leave a note, *or else* they'll worry.
 2. We need to leave by six, *or else* we'll hit rush hour.
 3. Write it down, *or else* you'll forget by morning.
 4. Pay the ticket by Friday *or else* it doubles.
-5. Have the car back by ten — *or else*.
-6. Book it now, *or else* the fare goes up.
+5. Book it now, *or else* the fare goes up.
+6. Have the car back by ten — *or else*.
+
+**2. The remaining possibility — "or alternatively."** No threat at all: it separates two explanations or two workable options, and *else* only marks the second as the one left over. (или же, либо)
+
+7. He's stuck in traffic, *or else* he forgot about us entirely.
+8. You can mail the form in, *or else* drop it off at the county office.
+9. Either the meter is broken *or else* somebody has been running the water all night.
 
 **See also:** [or](#or), [else](#else), [and/or](#andor), [otherwise](11-conjunctive-adverbs.md#otherwise), [unless](06-condition.md#unless)
 
@@ -540,12 +627,20 @@ Tacks one more item onto what has just been said and marks it as more of the sam
 
 Adds a second item while leaving the first one grammatically in charge, and that is the whole difference from *and*. A subject joined by *as well as* stays singular (*The coach, as well as the players, was fined*), and a verb after it takes the *-ing* form (*She writes the newsletter as well as running the website*). Watch the ambiguity built into the phrase: *He speaks Portuguese as well as Spanish* can mean "in addition to Spanish" (the conjunction) or "as fluently as he speaks Spanish" (the comparative). Only context, a comma, or a rewrite settles it.
 
+**1. Addition — "and also," with the first item left grammatically in charge.** The verb agrees with the first noun alone, and a verb after the phrase takes the *-ing* form. (а также, наряду с)
+
 1. The manager, *as well as* the interns, was invited to the retirement lunch.
 2. The tuition covers books *as well as* lab fees.
 3. She writes the newsletter *as well as* running the website.
 4. The storm knocked out power in Dayton *as well as* three counties to the south.
 5. The clinic is open Saturdays *as well as* weekday evenings.
 6. The report criticizes the contractor, *as well as* the agency that hired him.
+
+**2. Comparison — "as skillfully as," the ordinary *as … as* frame wrapped around the adverb *well*.** Not a conjunction at all, and the test is that this one can be stretched out with a verb (*as well as her brother does*), which the additive use cannot. (так же хорошо, как)
+
+7. She plays *as well as* her brother, and she started three years later.
+8. The new saw doesn't cut *as well as* the old one did.
+9. Nobody reads a room *as well as* he does.
 
 **See also:** [along with](#along-with), [and](#and), [plus](#plus), [not to mention](#not-to-mention), [both … and](02-correlative.md#both--and)
 
@@ -772,12 +867,17 @@ Adds a second, more extreme item and says that if the first is already out of re
 
 Subtracts the second item from the first, and the whole phrase stays singular — *Ten minus three is seven*, not *are*. In casual use it means "and without," usually with a wry note: *He showed up minus the beard*. It is grouped with the coordinators here because it patterns exactly against *plus*, though grammars class the "without" use as a preposition.
 
+**1. Arithmetic subtraction.** The whole phrase counts as one quantity and takes a singular verb. (минус)
+
 1. Nine *minus* four is five.
 2. The payment is your salary *minus* taxes and insurance.
-3. He came back from the trip *minus* one suitcase.
-4. We got the whole crew, *minus* the two who had a wedding that weekend.
-5. That's the same recipe *minus* the anchovies.
-6. The final total, *minus* shipping, came to eighty dollars.
+3. The final total, *minus* shipping, came to eighty dollars.
+
+**2. "And without" — something that should have been there and isn't.** Casual, and almost always wry; grammars call this one a preposition. (без — разг., с иронией)
+
+4. He came back from the trip *minus* one suitcase.
+5. We got the whole crew, *minus* the two who had a wedding that weekend.
+6. That's the same recipe *minus* the anchovies.
 
 **See also:** [plus](#plus), [times](#times), [versus](#versus), [as well as](#as-well-as)
 
@@ -941,12 +1041,19 @@ Introduces the single thing that spoils or qualifies what was just said — "but
 
 Marks the item just named as approximate: the speaker is not sure of it and does not want to be held to it. After a negative it switches to *or anything* (*He didn't apologize or anything*), and in a question it turns aggressive — *Are you deaf or something?*
 
+**1. Hedging the item just named — the speaker will not be held to it.** After a negative the tag switches to *or anything*. (или что-то в этом роде)
+
 1. He's a second cousin *or something* — I've never been clear on it.
 2. She said she'd be here at seven *or something* like that.
 3. Grab a sandwich *or something* on the way over.
-4. Are you trying to get us both fired *or something*?
+4. It cost eighty dollars *or something*, which seemed like a lot at the time.
 5. They never called, never wrote, never sent a card *or anything*.
-6. It cost eighty dollars *or something*, which seemed like a lot at the time.
+
+**2. In a question, an accusation rather than a guess.** The speaker is not hedging at all — the vagueness is sarcasm, and the tone is hostile. (ты что, …?, или как?)
+
+6. Are you trying to get us both fired *or something*?
+7. Are you deaf *or something*?
+8. Did he think we wouldn't notice *or something*?
 
 **See also:** [or what](#or-what), [and stuff / and everything / and all that](#and-stuff--and-everything--and-all-that), [and so forth](#and-so-forth), [et cetera / etc.](#et-cetera--etc), [or](#or)
 
@@ -962,12 +1069,17 @@ Marks the item just named as approximate: the speaker is not sure of it and does
 
 Closes a question with a shrug at the alternatives it declines to name, and it does one of two jobs. After a description it demands agreement (*Is that a view, or what?*); after a plain yes-or-no question it demands a decision (*Are we ordering, or what?*). Both are conversational, and neither survives into edited prose.
 
+**1. After a description — demanding agreement.** Rhetorical: the alternative is named only to be waved away, and the expected answer is "yes, obviously." (ну разве не…?, а?)
+
 1. Is that a view, *or what*?
-2. Are we ordering, *or what*?
-3. Was that the best game you've seen all year, *or what*?
-4. So is he coming to the wedding, *or what*?
-5. Did they forget about us entirely, *or what*?
-6. Is this kid a natural, *or what*?
+2. Was that the best game you've seen all year, *or what*?
+3. Is this kid a natural, *or what*?
+
+**2. After a plain yes-or-no question — demanding a decision.** Impatient rather than rhetorical: it presses for an answer that is overdue. (или как?, так да или нет?)
+
+4. Are we ordering, *or what*?
+5. So is he coming to the wedding, *or what*?
+6. Did they forget about us entirely, *or what*?
 
 **See also:** [or something](#or-something), [or else](#or-else), [or](#or), [and stuff / and everything / and all that](#and-stuff--and-everything--and-all-that)
 
@@ -1046,12 +1158,17 @@ Adds one amount to another and insists the second is extra rather than included 
 
 In arithmetic and pricing it adds one quantity to another and leaves the subject singular (*Two plus two is four*). In speech it doubles as an informal *and* that tacks on one more reason, usually the clincher — *It's closer, plus the parking is free*. That clause-joining use is at home in conversation and email and out of place in formal writing.
 
+**1. Adding one quantity to another.** Arithmetic and pricing; the subject stays singular (*two plus two is four*, never *are*). (плюс)
+
 1. Two *plus* two is four.
 2. The rate is ninety dollars a night, *plus* tax.
-3. It's closer to the office, *plus* the parking is free.
-4. *Plus*, we already paid for the tickets.
-5. I don't have the tools for it, *plus* I'd probably break something.
-6. The job comes with health insurance *plus* three weeks of vacation.
+3. The job comes with health insurance *plus* three weeks of vacation.
+
+**2. An informal *and* that tacks on one more argument.** Joins whole clauses, usually to land the clinching reason; at home in speech and email, out of place in formal writing. (да и ещё, к тому же)
+
+4. It's closer to the office, *plus* the parking is free.
+5. *Plus*, we already paid for the tickets.
+6. I don't have the tools for it, *plus* I'd probably break something.
 
 **See also:** [and](#and), [minus](#minus), [times](#times), [as well as](#as-well-as), [not to mention](#not-to-mention), [besides](11-conjunctive-adverbs.md#besides)
 
@@ -1172,11 +1289,16 @@ The written, faintly rhetorical cousin of *not to mention*: it adds one more ite
 
 Sets two things against each other as opposed alternatives — a real contest (*Yankees versus Red Sox*) or a choice being argued about (*speed versus accuracy*). Unlike *or*, it does not offer a choice so much as frame a comparison, and it cannot join two finite clauses.
 
+**1. Two sides in an actual contest.** Games, elections, and lawsuits, where somebody wins; in case names it is abbreviated *v.* and in sports *vs.* (против)
+
 1. Tonight it's the Yankees *versus* the Red Sox.
-2. The whole debate comes down to speed *versus* accuracy.
-3. We compared the cost of repairing the roof *versus* replacing it.
-4. Ohio State *vs.* Michigan is the only game he cares about.
-5. Every first-year law student reads Brown *v.* Board of Education.
+2. Ohio State *vs.* Michigan is the only game he cares about.
+3. Every first-year law student reads Brown *v.* Board of Education.
+
+**2. Two things weighed against each other.** No contest and no opponent — just a trade-off or a comparison being argued out. (в сравнении с, или же)
+
+4. The whole debate comes down to speed *versus* accuracy.
+5. We compared the cost of repairing the roof *versus* replacing it.
 6. It's a question of quantity *versus* quality.
 
 **See also:** [or](#or), [rather than](#rather-than), [as opposed to](#as-opposed-to), [minus](#minus), [times](#times), [whereas](08-comparison.md#whereas)

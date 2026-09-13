@@ -9,13 +9,83 @@
       "meaning": "The default coordinator: it adds, and it will add anything to anything as long as the two halves are the same grammatical kind. Beyond plain addition it carries sequence (She got up and left), result (He tripped and fell), and, after an imperative, a condition (Move and I'll shoot means \"if you move\"). Of all the addition words it is the only one that makes a subject genuinely plural — plus is informal and as well as leaves the verb alone.",
       "examples": [
         "She ordered a salad and a glass of iced tea.",
-        "We packed the car, and the kids were asleep before we hit the highway.",
         "Add the flour, the sugar, and a pinch of salt.",
-        "Say that one more time and I'm leaving.",
+        "My sister and her husband are driving up from Tulsa on Friday.",
         "He came home, dropped his bag, and went straight to bed.",
-        "And then, out of nowhere, the power went out."
+        "We packed the car, and the kids were asleep before we hit the highway.",
+        "And then, out of nowhere, the power went out.",
+        "He tripped on the hose and went down hard.",
+        "The heat finally broke, and everybody slept through the night for once.",
+        "She missed one payment and lost the apartment.",
+        "Say that one more time and I'm leaving.",
+        "Touch that wire and you'll know about it.",
+        "Give me ten minutes and I'll have it working.",
+        "Go and see what that noise was.",
+        "Come and sit down before it gets cold.",
+        "I'll try and have it to you by six."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Plain addition — one more item of the same kind",
+          "body": [
+            "(и)"
+          ],
+          "examples": [
+            "She ordered a salad and a glass of iced tea.",
+            "Add the flour, the sugar, and a pinch of salt.",
+            "My sister and her husband are driving up from Tulsa on Friday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Sequence — and after that",
+          "body": [
+            "The order of the halves is the order of the events, so swapping them tells a different story. (и потом, и затем)"
+          ],
+          "examples": [
+            "He came home, dropped his bag, and went straight to bed.",
+            "We packed the car, and the kids were asleep before we hit the highway.",
+            "And then, out of nowhere, the power went out."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Result — and as a consequence of that",
+          "body": [
+            "(и поэтому, и в результате)"
+          ],
+          "examples": [
+            "He tripped on the hose and went down hard.",
+            "The heat finally broke, and everybody slept through the night for once.",
+            "She missed one payment and lost the apartment."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Condition, after an imperative — \"if you do that, then …\"",
+          "body": [
+            "The first half is an order only in form; it is really an if-clause, and what follows is a threat or a promise. (и тогда — на месте «если…, то…»)"
+          ],
+          "examples": [
+            "Say that one more time and I'm leaving.",
+            "Touch that wire and you'll know about it.",
+            "Give me ten minutes and I'll have it working."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "Welding two verbs into one action — go and, come and, try and",
+          "body": [
+            "Here and joins nothing: the first verb has faded to a marker of intention. American speech says try and, American editing writes try to. (пойти и…, взять и…; часто вообще не переводится)"
+          ],
+          "examples": [
+            "Go and see what that noise was.",
+            "Come and sit down before it gets cold.",
+            "I'll try and have it to you by six."
+          ]
+        }
+      ],
       "русский": "и — основной соединительный союз: добавление, последовательность, результат",
       "register": "neutral",
       "type": "coordinating",
@@ -33,12 +103,41 @@
       "examples": [
         "I called twice, but nobody picked up.",
         "The soup was bland but filling.",
-        "It's not the money but the principle.",
-        "But nobody had checked the budget.",
         "She said she'd think about it, but I could tell she had already decided.",
-        "We can go Friday but not Saturday."
+        "But nobody had checked the budget.",
+        "We can go Friday but not Saturday.",
+        "It's not the money but the principle.",
+        "They aren't delays but outright cancellations.",
+        "I didn't say she was lying, but that she was wrong."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Contrast — the second half runs against what the first led you to expect",
+          "body": [
+            "(но, а)"
+          ],
+          "examples": [
+            "I called twice, but nobody picked up.",
+            "The soup was bland but filling.",
+            "She said she'd think about it, but I could tell she had already decided.",
+            "But nobody had checked the budget.",
+            "We can go Friday but not Saturday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Correction after a negative — not this, but that instead",
+          "body": [
+            "The first element is cancelled outright rather than merely opposed, and the not in front of it is required: drop it and the correction reading disappears. (а — «не X, а Y»)"
+          ],
+          "examples": [
+            "It's not the money but the principle.",
+            "They aren't delays but outright cancellations.",
+            "I didn't say she was lying, but that she was wrong."
+          ]
+        }
+      ],
       "русский": "но, а — второе идёт вразрез с тем, чего ждёшь после первого",
       "register": "neutral",
       "type": "coordinating (also a preposition meaning \"except\", and an adverb in fixed phrases)",
@@ -104,12 +203,83 @@
         "Do you want the aisle or the window?",
         "We could drive, or we could fly.",
         "Would you rather have coffee, tea, or something cold?",
-        "Hurry up, or we'll miss the last train.",
+        "Either you tell him or I will.",
         "I don't eat meat or fish.",
+        "He never calls or writes.",
+        "There was no phone signal or wifi at the cabin.",
+        "Hurry up, or we'll miss the last train.",
+        "Write it on the calendar, or you'll forget.",
+        "The rent has to be in by Friday, or they add a late fee.",
         "She studies the humerus, or upper arm bone, in the first week of the course.",
-        "Either you tell him or I will."
+        "Trigeminal neuralgia, or tic douloureux, is often mistaken for a dental problem.",
+        "He teaches phonetics, or how speech sounds are actually made.",
+        "Give it two or three minutes to thicken.",
+        "There were twenty or so people in the room.",
+        "It's a four or five hour drive, depending on the pass."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Alternative — one of these, and usually no bar to both",
+          "body": [
+            "(или)"
+          ],
+          "examples": [
+            "Do you want the aisle or the window?",
+            "We could drive, or we could fly.",
+            "Would you rather have coffee, tea, or something cold?",
+            "Either you tell him or I will."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "After a negative — spreading the negation over both items",
+          "body": [
+            "Russian doubles the negative here; English switches and to or, because I don't eat meat and fish says something else entirely. (ни … ни)"
+          ],
+          "examples": [
+            "I don't eat meat or fish.",
+            "He never calls or writes.",
+            "There was no phone signal or wifi at the cabin."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The consequence of not doing it",
+          "body": [
+            "After an imperative or a statement of what has to happen — the same job or else does, in one word. (а то, иначе)"
+          ],
+          "examples": [
+            "Hurry up, or we'll miss the last train.",
+            "Write it on the calendar, or you'll forget.",
+            "The rent has to be in by Friday, or they add a late fee."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Renaming — another name for the same thing",
+          "body": [
+            "Fenced by commas on both sides; the two halves are one thing, not two, and the verb stays singular. (то есть, иначе называемый)"
+          ],
+          "examples": [
+            "She studies the humerus, or upper arm bone, in the first week of the course.",
+            "Trigeminal neuralgia, or tic douloureux, is often mistaken for a dental problem.",
+            "He teaches phonetics, or how speech sounds are actually made."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "Approximation between two numbers",
+          "body": [
+            "No comma, and no choice on offer — the two figures name a range. (или — приблизительность: «два-три», «минут пять»)"
+          ],
+          "examples": [
+            "Give it two or three minutes to thicken.",
+            "There were twenty or so people in the room.",
+            "It's a four or five hour drive, depending on the pass."
+          ]
+        }
+      ],
       "русский": "или — альтернатива, обычно невзаимоисключающая (можно и то и другое)",
       "register": "neutral",
       "type": "coordinating",
@@ -128,11 +298,53 @@
         "Traffic was terrible, so we missed the opening.",
         "The store was out of basil, so I used parsley.",
         "He never wrote back, so I stopped emailing.",
+        "She's allergic to cats, so we met at my place instead.",
         "I left early so I could beat the traffic.",
+        "Leave your number so they can call you back.",
+        "We moved the meeting up so nobody would have to stay late.",
         "So, what did the doctor say?",
-        "She's allergic to cats, so we met at my place instead."
+        "So anyway, we never did get the deposit back.",
+        "So you're the one who fixed the printer."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Result — cause first, effect after",
+          "body": [
+            "(поэтому, так что)"
+          ],
+          "examples": [
+            "Traffic was terrible, so we missed the opening.",
+            "The store was out of basil, so I used parsley.",
+            "He never wrote back, so I stopped emailing.",
+            "She's allergic to cats, so we met at my place instead."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Purpose — short for so that",
+          "body": [
+            "No comma in front of it, and the clause almost always carries can, could, or would: what follows is the intention, not the outcome. (чтобы)"
+          ],
+          "examples": [
+            "I left early so I could beat the traffic.",
+            "Leave your number so they can call you back.",
+            "We moved the meeting up so nobody would have to stay late."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Conversational opener — picking a topic up, or handing the floor over",
+          "body": [
+            "It links to the whole situation rather than to a previous clause, and nothing has to have been said before it. (итак, ну что ж, ну и)"
+          ],
+          "examples": [
+            "So, what did the doctor say?",
+            "So anyway, we never did get the deposit back.",
+            "So you're the one who fixed the printer."
+          ]
+        }
+      ],
       "русский": "поэтому, так что — следствие: сначала причина, потом результат",
       "register": "neutral",
       "type": "coordinating (also subordinating in so that, a degree adverb, and a discourse marker)",
@@ -219,12 +431,39 @@
       "examples": [
         "We had dinner and then walked down to the water.",
         "She read the letter twice and then put it back in the drawer.",
+        "Boil the pasta, drain it, and then toss it with the sauce.",
+        "The power flickered twice and then went out for good.",
         "First the check bounced, and then the landlord called.",
         "And then he tells me the whole thing was my idea.",
-        "Boil the pasta, drain it, and then toss it with the sauce.",
-        "The power flickered twice and then went out for good."
+        "The flight was delayed, they lost a bag, and then the rental counter had no record of us."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Sequence — and after that",
+          "body": [
+            "Fixes the order of events that plain and only implies. (а потом, и затем)"
+          ],
+          "examples": [
+            "We had dinner and then walked down to the water.",
+            "She read the letter twice and then put it back in the drawer.",
+            "Boil the pasta, drain it, and then toss it with the sauce.",
+            "The power flickered twice and then went out for good."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Stacking one grievance or one surprise on top of the last",
+          "body": [
+            "Complaint and storytelling, often in the present tense for vividness; what matters is the piling up, not the clock. (и тут ещё, и вдобавок)"
+          ],
+          "examples": [
+            "First the check bounced, and then the landlord called.",
+            "And then he tells me the whole thing was my idea.",
+            "The flight was delayed, they lost a bag, and then the rental counter had no record of us."
+          ]
+        }
+      ],
       "русский": "а потом, и затем — закрепляет порядок событий, который and лишь подразумевает",
       "register": "neutral; conversational in narrative",
       "type": "coordinating (compound)",
@@ -291,9 +530,40 @@
         "I'd like to move somewhere warm — but then, I said that last year too.",
         "But then again, he did warn us.",
         "The sequel wasn't very good, but then the first one wasn't either.",
-        "He offered to pay, but then he always does."
+        "He offered to pay, but then he always does.",
+        "He agreed to everything, but then stopped answering his phone.",
+        "The rain let up for an hour, but then it came back harder.",
+        "She got all the way to the gate, but then turned around and drove home."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A second thought that softens or half-cancels what was just said",
+          "body": [
+            "Always replaceable by but then again. (но с другой стороны, впрочем)"
+          ],
+          "examples": [
+            "The hotel was overpriced, but then everything downtown is.",
+            "She's never on time, but then neither am I.",
+            "I'd like to move somewhere warm — but then, I said that last year too.",
+            "But then again, he did warn us.",
+            "The sequel wasn't very good, but then the first one wasn't either.",
+            "He offered to pay, but then he always does."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Narrative \"and after that,\" with a reversal",
+          "body": [
+            "Plain time sequence: here then is the adverb and but then again cannot be substituted, because the sentence reports an event rather than a second opinion. (но потом, а потом вдруг)"
+          ],
+          "examples": [
+            "He agreed to everything, but then stopped answering his phone.",
+            "The rain let up for an hour, but then it came back harder.",
+            "She got all the way to the gate, but then turned around and drove home."
+          ]
+        }
+      ],
       "русский": "но с другой стороны, впрочем — вторая мысль, смягчающая сказанное; разг.",
       "register": "neutral; conversational",
       "type": "coordinating (compound)",
@@ -336,10 +606,41 @@
         "We need to leave by six, or else we'll hit rush hour.",
         "Write it down, or else you'll forget by morning.",
         "Pay the ticket by Friday or else it doubles.",
+        "Book it now, or else the fare goes up.",
         "Have the car back by ten — or else.",
-        "Book it now, or else the fare goes up."
+        "He's stuck in traffic, or else he forgot about us entirely.",
+        "You can mail the form in, or else drop it off at the county office.",
+        "Either the meter is broken or else somebody has been running the water all night."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The consequence of not doing it, up to an outright threat",
+          "body": [
+            "This is the sense that can end in mid-air, with the consequence left unnamed. (а то, иначе)"
+          ],
+          "examples": [
+            "Leave a note, or else they'll worry.",
+            "We need to leave by six, or else we'll hit rush hour.",
+            "Write it down, or else you'll forget by morning.",
+            "Pay the ticket by Friday or else it doubles.",
+            "Book it now, or else the fare goes up.",
+            "Have the car back by ten — or else."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The remaining possibility — \"or alternatively.\"",
+          "body": [
+            "No threat at all: it separates two explanations or two workable options, and else only marks the second as the one left over. (или же, либо)"
+          ],
+          "examples": [
+            "He's stuck in traffic, or else he forgot about us entirely.",
+            "You can mail the form in, or else drop it off at the county office.",
+            "Either the meter is broken or else somebody has been running the water all night."
+          ]
+        }
+      ],
       "русский": "а то, иначе — последствие или угроза при невыполнении первого",
       "register": "neutral to informal",
       "type": "coordinating (compound)",
@@ -567,9 +868,40 @@
         "She writes the newsletter as well as running the website.",
         "The storm knocked out power in Dayton as well as three counties to the south.",
         "The clinic is open Saturdays as well as weekday evenings.",
-        "The report criticizes the contractor, as well as the agency that hired him."
+        "The report criticizes the contractor, as well as the agency that hired him.",
+        "She plays as well as her brother, and she started three years later.",
+        "The new saw doesn't cut as well as the old one did.",
+        "Nobody reads a room as well as he does."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Addition — \"and also,\" with the first item left grammatically in charge",
+          "body": [
+            "The verb agrees with the first noun alone, and a verb after the phrase takes the -ing form. (а также, наряду с)"
+          ],
+          "examples": [
+            "The manager, as well as the interns, was invited to the retirement lunch.",
+            "The tuition covers books as well as lab fees.",
+            "She writes the newsletter as well as running the website.",
+            "The storm knocked out power in Dayton as well as three counties to the south.",
+            "The clinic is open Saturdays as well as weekday evenings.",
+            "The report criticizes the contractor, as well as the agency that hired him."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Comparison — \"as skillfully as,\" the ordinary as … as frame wrapped around the adverb well",
+          "body": [
+            "Not a conjunction at all, and the test is that this one can be stretched out with a verb (as well as her brother does), which the additive use cannot. (так же хорошо, как)"
+          ],
+          "examples": [
+            "She plays as well as her brother, and she started three years later.",
+            "The new saw doesn't cut as well as the old one did.",
+            "Nobody reads a room as well as he does."
+          ]
+        }
+      ],
       "русский": "а также, равно как и — добавляет второе, не делая подлежащее множественным",
       "register": "neutral to formal",
       "type": "quasi-coordinator (identical in form to the comparative as … as wrapped around the adverb well: She plays as well as her brother)",
@@ -818,12 +1150,37 @@
       "examples": [
         "Nine minus four is five.",
         "The payment is your salary minus taxes and insurance.",
+        "The final total, minus shipping, came to eighty dollars.",
         "He came back from the trip minus one suitcase.",
         "We got the whole crew, minus the two who had a wedding that weekend.",
-        "That's the same recipe minus the anchovies.",
-        "The final total, minus shipping, came to eighty dollars."
+        "That's the same recipe minus the anchovies."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Arithmetic subtraction",
+          "body": [
+            "The whole phrase counts as one quantity and takes a singular verb. (минус)"
+          ],
+          "examples": [
+            "Nine minus four is five.",
+            "The payment is your salary minus taxes and insurance.",
+            "The final total, minus shipping, came to eighty dollars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "\"And without\" — something that should have been there and isn't",
+          "body": [
+            "Casual, and almost always wry; grammars call this one a preposition. (без — разг., с иронией)"
+          ],
+          "examples": [
+            "He came back from the trip minus one suitcase.",
+            "We got the whole crew, minus the two who had a wedding that weekend.",
+            "That's the same recipe minus the anchovies."
+          ]
+        }
+      ],
       "русский": "минус; без — арифметическое вычитание; разг. «без чего-то»: явился без бороды",
       "register": "neutral in arithmetic; informal and wry in the \"without\" sense",
       "type": "quasi-coordinator (a preposition by strict analysis in the \"without\" sense; also a noun and an adjective — a minus sign, a B minus)",
@@ -1004,11 +1361,40 @@
         "He's a second cousin or something — I've never been clear on it.",
         "She said she'd be here at seven or something like that.",
         "Grab a sandwich or something on the way over.",
-        "Are you trying to get us both fired or something?",
+        "It cost eighty dollars or something, which seemed like a lot at the time.",
         "They never called, never wrote, never sent a card or anything.",
-        "It cost eighty dollars or something, which seemed like a lot at the time."
+        "Are you trying to get us both fired or something?",
+        "Are you deaf or something?",
+        "Did he think we wouldn't notice or something?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Hedging the item just named — the speaker will not be held to it",
+          "body": [
+            "After a negative the tag switches to or anything. (или что-то в этом роде)"
+          ],
+          "examples": [
+            "He's a second cousin or something — I've never been clear on it.",
+            "She said she'd be here at seven or something like that.",
+            "Grab a sandwich or something on the way over.",
+            "It cost eighty dollars or something, which seemed like a lot at the time.",
+            "They never called, never wrote, never sent a card or anything."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In a question, an accusation rather than a guess",
+          "body": [
+            "The speaker is not hedging at all — the vagueness is sarcasm, and the tone is hostile. (ты что, …?, или как?)"
+          ],
+          "examples": [
+            "Are you trying to get us both fired or something?",
+            "Are you deaf or something?",
+            "Did he think we wouldn't notice or something?"
+          ]
+        }
+      ],
       "русский": "или что-то в этом роде — разг.: говорящий не ручается за точность",
       "register": "informal; spoken",
       "type": "quasi-coordinator (a general extender — or plus a vague placeholder)",
@@ -1025,13 +1411,38 @@
       "meaning": "Closes a question with a shrug at the alternatives it declines to name, and it does one of two jobs. After a description it demands agreement (Is that a view, or what?); after a plain yes-or-no question it demands a decision (Are we ordering, or what?). Both are conversational, and neither survives into edited prose.",
       "examples": [
         "Is that a view, or what?",
-        "Are we ordering, or what?",
         "Was that the best game you've seen all year, or what?",
+        "Is this kid a natural, or what?",
+        "Are we ordering, or what?",
         "So is he coming to the wedding, or what?",
-        "Did they forget about us entirely, or what?",
-        "Is this kid a natural, or what?"
+        "Did they forget about us entirely, or what?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "After a description — demanding agreement",
+          "body": [
+            "Rhetorical: the alternative is named only to be waved away, and the expected answer is \"yes, obviously.\" (ну разве не…?, а?)"
+          ],
+          "examples": [
+            "Is that a view, or what?",
+            "Was that the best game you've seen all year, or what?",
+            "Is this kid a natural, or what?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "After a plain yes-or-no question — demanding a decision",
+          "body": [
+            "Impatient rather than rhetorical: it presses for an answer that is overdue. (или как?, так да или нет?)"
+          ],
+          "examples": [
+            "Are we ordering, or what?",
+            "So is he coming to the wedding, or what?",
+            "Did they forget about us entirely, or what?"
+          ]
+        }
+      ],
       "русский": "или как? ну разве не...? — разг. концовка вопроса: требует согласия или решения",
       "register": "informal; spoken",
       "type": "quasi-coordinator (a fixed tag — or plus the interrogative what)",
@@ -1118,12 +1529,37 @@
       "examples": [
         "Two plus two is four.",
         "The rate is ninety dollars a night, plus tax.",
+        "The job comes with health insurance plus three weeks of vacation.",
         "It's closer to the office, plus the parking is free.",
         "Plus, we already paid for the tickets.",
-        "I don't have the tools for it, plus I'd probably break something.",
-        "The job comes with health insurance plus three weeks of vacation."
+        "I don't have the tools for it, plus I'd probably break something."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Adding one quantity to another",
+          "body": [
+            "Arithmetic and pricing; the subject stays singular (two plus two is four, never are). (плюс)"
+          ],
+          "examples": [
+            "Two plus two is four.",
+            "The rate is ninety dollars a night, plus tax.",
+            "The job comes with health insurance plus three weeks of vacation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An informal and that tacks on one more argument",
+          "body": [
+            "Joins whole clauses, usually to land the clinching reason; at home in speech and email, out of place in formal writing. (да и ещё, к тому же)"
+          ],
+          "examples": [
+            "It's closer to the office, plus the parking is free.",
+            "Plus, we already paid for the tickets.",
+            "I don't have the tools for it, plus I'd probably break something."
+          ]
+        }
+      ],
       "русский": "плюс; да и ещё — арифметическое сложение; разг. союз «и» с добавочным доводом",
       "register": "neutral in arithmetic; informal as a clause connector",
       "type": "quasi-coordinator (also a noun and an adjective — that's a plus, a B plus, a plus sign)",
@@ -1255,13 +1691,38 @@
       "meaning": "Sets two things against each other as opposed alternatives — a real contest (Yankees versus Red Sox) or a choice being argued about (speed versus accuracy). Unlike or, it does not offer a choice so much as frame a comparison, and it cannot join two finite clauses.",
       "examples": [
         "Tonight it's the Yankees versus the Red Sox.",
-        "The whole debate comes down to speed versus accuracy.",
-        "We compared the cost of repairing the roof versus replacing it.",
         "Ohio State vs. Michigan is the only game he cares about.",
         "Every first-year law student reads Brown v. Board of Education.",
+        "The whole debate comes down to speed versus accuracy.",
+        "We compared the cost of repairing the roof versus replacing it.",
         "It's a question of quantity versus quality."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Two sides in an actual contest",
+          "body": [
+            "Games, elections, and lawsuits, where somebody wins; in case names it is abbreviated v. and in sports vs. (против)"
+          ],
+          "examples": [
+            "Tonight it's the Yankees versus the Red Sox.",
+            "Ohio State vs. Michigan is the only game he cares about.",
+            "Every first-year law student reads Brown v. Board of Education."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Two things weighed against each other",
+          "body": [
+            "No contest and no opponent — just a trade-off or a comparison being argued out. (в сравнении с, или же)"
+          ],
+          "examples": [
+            "The whole debate comes down to speed versus accuracy.",
+            "We compared the cost of repairing the roof versus replacing it.",
+            "It's a question of quantity versus quality."
+          ]
+        }
+      ],
       "русский": "против, в сравнении с — сталкивает две стороны; юр. и спорт.",
       "register": "neutral; fixed and formal in legal and sports citation",
       "type": "quasi-coordinator (a preposition by strict analysis)",

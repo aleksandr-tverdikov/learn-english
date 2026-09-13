@@ -314,12 +314,18 @@ Nothing; zero. A spelling variant of *naught*, and the one an American is most l
 
 Something; some amount or degree of a thing. The archaic pronoun, now alive only inside the phrase *somewhat of a*.
 
+**1. Something; some part of a thing — the archaic pronoun.** (нечто, кое-что — устар.)
+
 1. "Simon, I have *somewhat* to say unto thee." (Luke 7:40, King James Version)
 2. There is *somewhat* in his account that does not add up.
-3. He has become *somewhat* of a legend in the department.
-4. The delay was *somewhat* of a blessing, given the weather.
-5. She told him *somewhat* of what had passed, but not all.
+3. She told him *somewhat* of what had passed, but not all.
+
+**2. *Somewhat of a* — "rather a," "something of a": the frame that keeps the word alive.** (в некотором роде, своего рода)
+
+4. He has become *somewhat* of a legend in the department.
+5. The delay was *somewhat* of a blessing, given the weather.
 6. I found it *somewhat* of a relief when the offer fell through.
+7. Careful editors prefer *something of a* in this frame; *somewhat* of a is common in American speech and still gets flagged on the page.
 
 **See also:** [aught](#aught), [naught](#naught), [whatsoever](#whatsoever)
 
@@ -757,12 +763,19 @@ Everything said above. The formal pro-form that gathers up a stretch of precedin
 
 The matters aforesaid; the things already set out. The legal pronoun that turned into the ordinary word for a building.
 
+**1. The matters already set out — the legal pronoun.** (вышеизложенное, упомянутые обстоятельства — юр., устар.)
+
 1. Now therefore, in consideration of *the premises* and of the mutual covenants set forth herein, the parties agree as follows. (the standard recital)
 2. *The premises* considered, the court finds for the plaintiff.
 3. The affiant states that *the premises* set out above are true to the best of his knowledge.
 4. Upon *the premises* aforesaid, the petitioner prays for relief.
-5. The modern sense, and the only one most Americans use: the tenant agreed to vacate *the premises* by the first of the month.
-6. Also modern: there is no smoking anywhere on *the premises*.
+
+**2. A building and its grounds — the modern sense, and the only one most Americans use.** (помещение, здание с участком — совр.)
+
+5. The tenant agreed to vacate *the premises* by the first of the month.
+6. There is no smoking anywhere on *the premises*.
+7. Security escorted him off *the premises* the same afternoon.
+8. The second sense grew out of the first: a deed recited *the premises* — the property described above — and the word slid from the recital to the property itself.
 
 **See also:** [the foregoing](#the-foregoing), [the aforesaid, the aforementioned](#the-aforesaid-the-aforementioned), [the same](#the-same), [herein](#herein), [thereof](#thereof), [the within](../../09-determiners/catalog/02-demonstratives.md#the-within)
 
@@ -1146,12 +1159,18 @@ Between them; through it. The patent-claim compounds, built on demand from *ther
 
 By that means; as a result of that.
 
-1. "And *thereby* hangs a tale." (*The Taming of the Shrew*; Shakespeare uses the phrase more than once)
-2. She filed the amended complaint within the window and *thereby* preserved the claim.
-3. The statute exempts small estates from probate, *thereby* saving families several months.
-4. He signed the release without reading it and *thereby* gave up the right to sue.
-5. The company moved the servers offshore, *thereby* placing them outside the court's reach.
-6. Compare *therefore*: the release was signed; **therefore** no suit lies. (reason, not means)
+**1. By that means; as a result of that.** (тем самым, посредством этого — книжн., юр.)
+
+1. She filed the amended complaint within the window and *thereby* preserved the claim.
+2. The statute exempts small estates from probate, *thereby* saving families several months.
+3. He signed the release without reading it and *thereby* gave up the right to sue.
+4. The company moved the servers offshore, *thereby* placing them outside the court's reach.
+5. *Thereby* names the means and *therefore* names the reason: the release was signed; therefore no suit lies.
+
+**2. The fixed *and thereby hangs a tale* — "and there is a story attached to that."** (и с этим связана целая история — шекспировский оборот)
+
+6. "And *thereby* hangs a tale." (*The Taming of the Shrew*; Shakespeare uses the phrase more than once)
+7. He inherited the house from an aunt he had never met, and *thereby* hangs a tale.
 
 **See also:** [whereby](#whereby), [hereby](#hereby), [thereof](#thereof), [therewith](#therewith), [thereupon](#thereupon)
 
@@ -1212,12 +1231,19 @@ From it; from that; out of that.
 
 In it; in that place or thing.
 
+**1. In it — inside the thing, place, or document just named.** (в нём, там, внутри — юр., книжн.)
+
 1. "Whoso diggeth a pit shall fall *therein*." (Proverbs 26:27, King James Version)
 2. The house and everything contained *therein* passed to his daughter.
-3. *Therein* lies the difficulty: nobody wants to pay for the survey.
-4. The report is attached, and the figures cited *therein* have been audited.
-5. The tenant may use the parking structure and the spaces designated *therein*.
-6. She bought the old bookshop and every volume *therein*.
+3. The report is attached, and the figures cited *therein* have been audited.
+4. The tenant may use the parking structure and the spaces designated *therein*.
+5. She bought the old bookshop and every volume *therein*.
+
+**2. *Therein lies* — "that is exactly where the thing is to be found."** (в том-то и…; вот в чём)
+
+6. *Therein* lies the difficulty: nobody wants to pay for the survey.
+7. He is honest to a fault, and *therein* lies the problem.
+8. *Therein* lies the whole appeal of the scheme — it costs the county nothing.
 
 **See also:** [thereof](#thereof), [thereon](#thereon), [thereto](#thereto), [herein](#herein), [wherein](#wherein)
 
@@ -1459,12 +1485,18 @@ By which; by means of which.
 
 In which; in what.
 
+**1. In which — naming the thing, place, or document that contains something.** (в котором, в чём — книжн., юр.)
+
 1. He described a system *wherein* every vote is counted twice before certification.
 2. The paragraph *wherein* the warranty is disclaimed appears in capital letters.
-3. *Wherein* lies the difference between the two proposals?
-4. That was the year *wherein* the company nearly failed.
-5. She wrote a memoir *wherein* almost nobody is named directly.
+3. That was the year *wherein* the company nearly failed.
+4. She wrote a memoir *wherein* almost nobody is named directly.
+
+**2. In what respect — in what way a thing holds.** (в чём именно; в каком отношении)
+
+5. *Wherein* lies the difference between the two proposals?
 6. The court identified the respect *wherein* the statute is unconstitutional.
+7. *Wherein* have I offended, that you will not speak to me?
 
 **See also:** [whereof](#whereof), [therein](#therein), [herein](#herein), [which](05-relative.md#which), [by which, in which, on which](05-relative.md#by-which-in-which-on-which)
 
@@ -1525,12 +1557,18 @@ To which; to what.
 
 Immediately after which; at which point. Also, archaically, *on which*.
 
+**1. Immediately after which; at which point.** (после чего, вслед за чем — книжн., повествовательное)
+
 1. The clerk read out the verdict, *whereupon* the gallery emptied in about a minute.
 2. She asked whether anyone objected, *whereupon* three hands went up.
 3. The engine coughed twice, *whereupon* the pilot turned back toward the field.
 4. He was told the shop had closed at six, *whereupon* he sat down on the curb to wait for morning.
-5. This is the stone *whereupon* the first oath was sworn. (the archaic spatial use)
-6. Plain English: *the clerk read the verdict, **and then** the gallery emptied.*
+5. Plain English drops it: the clerk read the verdict, **and then** the gallery emptied — no *whereupon* required.
+
+**2. On which — the archaic spatial sense.** (на котором, на чём — устар.)
+
+6. This is the stone *whereupon* the first oath was sworn.
+7. The table *whereupon* the instruments were laid has not been moved since.
 
 **See also:** [whereat](#whereat), [whereby](#whereby), [thereupon](#thereupon), [thereon](#thereon), [wherein](#wherein)
 
@@ -1611,12 +1649,18 @@ From this place; from this time; therefore. The three-way pro-adverb whose only 
 
 To this place; to here. The archaic directional mate of *here*, alive inside *come-hither*.
 
+**1. To this place — movement toward the speaker.** (сюда — движение к говорящему)
+
 1. Come *hither*, boy, and let me look at you.
 2. Bring the lamp *hither* — I can't read a word of this.
 3. They were driven *hither* by the storm and stayed the winter.
-4. She sent messengers *hither* and thither, and none of them came back with anything.
-5. He gave her a *come-hither* look over the top of the menu. (the living compound)
-6. Modern English: *Come here*; *bring the lamp over here.*
+4. Modern English drops *hither* altogether: *Come here*; *bring the lamp over here.*
+
+**2. The fixed pairs *hither and thither*, *hither and yon*, and the compound *come-hither*.** (туда-сюда, взад и вперёд; come-hither — зазывный, манящий)
+
+5. She sent messengers *hither* and thither, and none of them came back with anything.
+6. The papers had been scattered *hither* and yon across the desk.
+7. He gave her a *come-hither* look over the top of the menu. (the living compound)
 
 **See also:** [thither](#thither), [whither](#whither), [hence](#hence), [yonder](04-demonstrative.md#yonder), [yon](04-demonstrative.md#yon)
 
@@ -1677,12 +1721,18 @@ To that place; to there. The archaic directional mate of *there*.
 
 From where; from which place, source, or cause.
 
+**1. From what place — physical origin.** (откуда — о месте)
+
 1. "I will lift up mine eyes unto the hills, from *whence* cometh my help." (Psalm 121:1, King James Version)
 2. Return *whence* you came, and do not come back through this valley.
-3. He never would say *whence* the money had come.
-4. She showed us the village *whence* her grandparents emigrated in 1892.
-5. *Whence* this sudden enthusiasm for committee work? (the verbless bookish question)
-6. Modern English: *the village **her grandparents came from***; *where did the money come from?*
+3. She showed us the village *whence* her grandparents emigrated in 1892.
+4. Modern English unpacks *whence*: *the village **her grandparents came from***.
+
+**2. From what source or cause — where a thing came from, in no spatial sense at all.** (откуда, отчего — об источнике или причине)
+
+5. He never would say *whence* the money had come.
+6. *Whence* this sudden enthusiasm for committee work? (the verbless bookish question)
+7. *Whence* comes the idea that the rule was ever enforced?
 
 **See also:** [whither](#whither), [hence](#hence), [thence](#thence), [wherein](#wherein), [therefrom](#therefrom), [of which](05-relative.md#of-which)
 
@@ -1699,12 +1749,19 @@ From where; from which place, source, or cause.
 
 To where; to which place. The direction-marking question word English replaced with plain *where*.
 
+**1. To what place — the direction question.** (куда — о цели движения)
+
 1. "*Whither* thou goest, I will go." (Ruth 1:16, King James Version — the wedding reading)
 2. "None of you asketh me, *Whither* goest thou?" (John 16:5)
-3. *Whither* the euro? (the magazine headline formula: "what is going to become of it?")
-4. He asked *whither* the road led, and nobody could tell him.
-5. The country *whither* she was posted had no embassy of its own.
-6. Modern English: *Where are you going?*; *where does this road go?*
+3. He asked *whither* the road led, and nobody could tell him.
+4. The country *whither* she was posted had no embassy of its own.
+5. Modern English replaces *whither* with plain *where*: *Where are you going?*; *where does this road go?*
+
+**2. The headline formula *Whither X?* — "what is going to become of it?"** (что ждёт…?, какова судьба…? — газетный заголовок)
+
+6. *Whither* the euro?
+7. *Whither* the American shopping mall? asked the cover story.
+8. *Whither* the party after November? — the formula takes no verb at all, which is what marks it as a headline rather than a question anyone would say aloud.
 
 **See also:** [whence](#whence), [hither](#hither), [thither](#thither), [whereto](#whereto), [wheresoever, whithersoever, whensoever](#wheresoever-whithersoever-whensoever), [wherein](#wherein)
 

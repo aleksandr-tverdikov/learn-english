@@ -267,14 +267,44 @@
       "meaning": "Says that not one member of a set qualifies, or that not any of a quantity is left.",
       "examples": [
         "None of the applicants had the certification.",
-        "None of the milk was left by Sunday.",
         "I looked for a charger, but there was none in the drawer.",
-        "None of the three explanations is convincing.",
-        "Of the forty seats, none were empty.",
+        "None of the three explanations is convincing. (the \"not one\" reading, with a singular verb)",
+        "Of the forty seats, none were empty. (the plural agreement, commoner in edited American prose)",
         "She read all three offers and accepted none of them.",
-        "She asked for volunteers, and none came forward."
+        "She asked for volunteers, and none came forward.",
+        "None of the milk was left by Sunday.",
+        "There was cake at noon and none by two.",
+        "None of the money has been repaid."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Not one member of a countable set",
+          "body": [
+            "(ни один)"
+          ],
+          "examples": [
+            "None of the applicants had the certification.",
+            "I looked for a charger, but there was none in the drawer.",
+            "None of the three explanations is convincing. (the \"not one\" reading, with a singular verb)",
+            "Of the forty seats, none were empty. (the plural agreement, commoner in edited American prose)",
+            "She read all three offers and accepted none of them.",
+            "She asked for volunteers, and none came forward."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Not any of a mass or a quantity",
+          "body": [
+            "(нисколько, нимало — о неисчисляемом)"
+          ],
+          "examples": [
+            "None of the milk was left by Sunday.",
+            "There was cake at noon and none by two.",
+            "None of the money has been repaid."
+          ]
+        }
+      ],
       "pronunciation note": "no weak form; a homophone of nun",
       "русский": "ни один; нисколько — ничто из множества или массы под отрицанием",
       "case": "none",
@@ -427,12 +457,40 @@
         "Each of the samples was tested twice.",
         "She handed out the folders, and each contained a different contract.",
         "Each of us has a copy of the key.",
-        "They each brought something to the potluck.",
-        "She handed a numbered folder to each of us as we came in.",
         "Each was asked to sign before leaving the building.",
-        "The tickets are forty dollars each. (adverb of distribution, not the pronoun)"
+        "She handed a numbered folder to each of us as we came in.",
+        "The tickets are forty dollars each.",
+        "They each brought something to the potluck.",
+        "Cut the board into four pieces, eighteen inches each."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The members of a known group, taken one at a time",
+          "body": [
+            "(каждый в отдельности)"
+          ],
+          "examples": [
+            "Each of the samples was tested twice.",
+            "She handed out the folders, and each contained a different contract.",
+            "Each of us has a copy of the key.",
+            "Each was asked to sign before leaving the building.",
+            "She handed a numbered folder to each of us as we came in."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Apiece — distributing a price or a quantity over the members",
+          "body": [
+            "(по штуке, за штуку, на каждого)"
+          ],
+          "examples": [
+            "The tickets are forty dollars each.",
+            "They each brought something to the potluck.",
+            "Cut the board into four pieces, eighteen inches each."
+          ]
+        }
+      ],
       "pronunciation note": "no weak form",
       "русский": "каждый в отдельности — о членах определённого множества от двух и более",
       "case": "none",
@@ -454,12 +512,41 @@
       "examples": [
         "Either of those dates works for me.",
         "I asked both lawyers, and either would take the case.",
-        "Is either of them still open on Sundays?",
         "You can take the bus or the train — either gets you there by six.",
+        "Is either of them still open on Sundays?",
+        "If either of you hears from her, call me right away.",
         "He didn't like either of the proposals.",
-        "If either of you hears from her, call me right away."
+        "She hasn't answered either of my messages.",
+        "Neither road was plowed, and the truck couldn't get up either of them."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of two, and it does not matter which",
+          "body": [
+            "(любой из двух, тот или другой)"
+          ],
+          "examples": [
+            "Either of those dates works for me.",
+            "I asked both lawyers, and either would take the case.",
+            "You can take the bus or the train — either gets you there by six.",
+            "Is either of them still open on Sundays?",
+            "If either of you hears from her, call me right away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Under a negative — neither one of the two",
+          "body": [
+            "(ни тот ни другой: not … either = neither)"
+          ],
+          "examples": [
+            "He didn't like either of the proposals.",
+            "She hasn't answered either of my messages.",
+            "Neither road was plowed, and the truck couldn't get up either of them."
+          ]
+        }
+      ],
       "pronunciation note": "/i/ is the dominant American vowel and /aɪ/ a recognized variant, neither one wrong",
       "русский": "любой из двух — один из ровно двух, безразлично какой",
       "case": "none",
@@ -714,13 +801,40 @@
       "meaning": "Names the amount or number that is sufficient for a purpose — no more and no less.",
       "examples": [
         "There's coffee left, but not enough for four people.",
-        "I've had enough of the excuses.",
         "Buy two boxes — one isn't enough.",
         "Enough of them showed up to hold the vote.",
+        "She had saved enough to cover the deposit.",
+        "I've had enough of the excuses.",
         "Enough is enough.",
-        "She had saved enough to cover the deposit."
+        "Enough — we are not having this argument again tonight."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sufficient amount or number",
+          "body": [
+            "(достаточно, довольно — сколько нужно)"
+          ],
+          "examples": [
+            "There's coffee left, but not enough for four people.",
+            "Buy two boxes — one isn't enough.",
+            "Enough of them showed up to hold the vote.",
+            "She had saved enough to cover the deposit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Calling a halt — \"this has gone far enough.\"",
+          "body": [
+            "(хватит!, довольно! — требование прекратить)"
+          ],
+          "examples": [
+            "I've had enough of the excuses.",
+            "Enough is enough.",
+            "Enough — we are not having this argument again tonight."
+          ]
+        }
+      ],
       "pronunciation note": "the first vowel is a schwa in ordinary speech and can drop entirely in the fixed phrase 'nough said",
       "русский": "достаточно, довольно — достаточное количество или число",
       "case": "none",
@@ -1194,13 +1308,40 @@
       "meaning": "A greater amount or number than what came before, or than what was expected.",
       "examples": [
         "There's coffee in the pot if you want more.",
-        "More of the guests are staying over than we planned for.",
-        "We expected fifty and got more.",
         "Half the roof is gone, and more is coming down every week.",
+        "We expected fifty and got more.",
+        "More of the guests are staying over than we planned for.",
         "She said little, but more was implied than stated.",
-        "Of the twenty crates, more were damaged than intact."
+        "Of the twenty crates, more were damaged than intact.",
+        "More was spent on the parking lot than on the building itself."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An additional amount or number — \"some more.\"",
+          "body": [
+            "(ещё — добавка к тому, что уже есть)"
+          ],
+          "examples": [
+            "There's coffee in the pot if you want more.",
+            "Half the roof is gone, and more is coming down every week.",
+            "We expected fifty and got more."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A greater amount than something else — the comparative",
+          "body": [
+            "(больше — в сравнении с чем-то)"
+          ],
+          "examples": [
+            "More of the guests are staying over than we planned for.",
+            "She said little, but more was implied than stated.",
+            "Of the twenty crates, more were damaged than intact.",
+            "More was spent on the parking lot than on the building itself."
+          ]
+        }
+      ],
       "pronunciation note": "keeps its vowel unstressed; more of them runs together as /ˈmɔrəvəm/ · MOR-uh-vum",
       "русский": "больше, ещё — большее количество или число, чем некий ориентир",
       "case": "none",
@@ -1221,12 +1362,41 @@
       "examples": [
         "Most of the paint had already peeled off.",
         "Most of them had never used the software before.",
-        "She kept most and sold the rest.",
         "Most agree that the deadline is unrealistic.",
         "Of the six proposals, most were rejected on the first pass.",
-        "He does the least talking and gets the most done."
+        "She kept most and sold the rest.",
+        "He does the least talking and gets the most done.",
+        "Twelve hundred dollars is the most I can offer.",
+        "Of everyone in the family she travels the most."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The majority of a group, or the greater part of a quantity",
+          "body": [
+            "(большинство, бо́льшая часть)"
+          ],
+          "examples": [
+            "Most of the paint had already peeled off.",
+            "Most of them had never used the software before.",
+            "Most agree that the deadline is unrealistic.",
+            "Of the six proposals, most were rejected on the first pass.",
+            "She kept most and sold the rest."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The greatest amount — the superlative the most",
+          "body": [
+            "(больше всего, максимум)"
+          ],
+          "examples": [
+            "He does the least talking and gets the most done.",
+            "Twelve hundred dollars is the most I can offer.",
+            "Of everyone in the family she travels the most."
+          ]
+        }
+      ],
       "pronunciation note": "in casual speech the final cluster reduces before a consonant: most people /ˈmoʊs ˈpipl̩/",
       "русский": "большинство, бо́льшая часть — и о счётных, и о массе",
       "case": "none",
@@ -1432,9 +1602,38 @@
         "She knows a bit about wiring, enough to be dangerous.",
         "He saved a bit every month for eleven years.",
         "I've heard a bit of it, but not the whole story.",
-        "Quite a bit of the money never reached the school."
+        "Quite a bit of the money never reached the school.",
+        "He's put on quite a bit since the wedding.",
+        "We got quite a bit done before the power went out."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small amount — some rather than none",
+          "body": [
+            "(немного, чуть-чуть)"
+          ],
+          "examples": [
+            "There's a bit left in the bottom of the pot.",
+            "A bit of the plaster had come away above the window.",
+            "She knows a bit about wiring, enough to be dangerous.",
+            "He saved a bit every month for eleven years.",
+            "I've heard a bit of it, but not the whole story."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Quite a bit — a large amount; the phrase turns the word's own meaning around",
+          "body": [
+            "(порядочно, немало — оборот quite a bit значит «много»)"
+          ],
+          "examples": [
+            "Quite a bit of the money never reached the school.",
+            "He's put on quite a bit since the wedding.",
+            "We got quite a bit done before the power went out."
+          ]
+        }
+      ],
       "pronunciation note": "the article is always reduced to /ə/ and never stressed; the final /t/ is usually unreleased or glottal at the end of a phrase, and flapped before a vowel — a bit of it /əˈbɪdəvɪt/",
       "русский": "немного, чуть-чуть — о неисчисляемом; мало, но всё же есть",
       "case": "none",
@@ -1483,10 +1682,39 @@
         "I know a few who would take that job tomorrow.",
         "There were sandwiches left, so I took a few.",
         "A few of us stayed behind to clean up.",
+        "He asked for volunteers and got a few.",
         "Quite a few of the seats were still available at showtime.",
-        "He asked for volunteers and got a few."
+        "Quite a few people in town still remember the flood of '93.",
+        "She has written quite a few of these over the years."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Several — few, but enough to count",
+          "body": [
+            "(несколько — мало, но всё же есть)"
+          ],
+          "examples": [
+            "A few of the parts were missing from the box.",
+            "I know a few who would take that job tomorrow.",
+            "There were sandwiches left, so I took a few.",
+            "A few of us stayed behind to clean up.",
+            "He asked for volunteers and got a few."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Quite a few — a good many; the phrase reverses the meaning",
+          "body": [
+            "(немало, порядочно — оборот quite a few значит «много»)"
+          ],
+          "examples": [
+            "Quite a few of the seats were still available at showtime.",
+            "Quite a few people in town still remember the flood of '93.",
+            "She has written quite a few of these over the years."
+          ]
+        }
+      ],
       "pronunciation note": "the article is always reduced to /ə/ and never stressed",
       "русский": "несколько — мало, но всё же есть; ср. few «мало, недостаточно»",
       "case": "none",
@@ -1509,11 +1737,40 @@
         "Only a handful of the invitations came back.",
         "A handful of us stayed to finish the count.",
         "She expected a crowd and got a handful.",
-        "A handful of them had done the reading.",
         "Of the sixty applicants, a handful had any experience at all.",
-        "He named a handful of the people involved and stopped there."
+        "He named a handful of the people involved and stopped there.",
+        "That middle one is a handful.",
+        "The puppy is sweet, but she's a handful on a leash.",
+        "Three toddlers at a wedding is more than a handful."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small number, named as smaller than expected",
+          "body": [
+            "(горстка, считаные единицы)"
+          ],
+          "examples": [
+            "Only a handful of the invitations came back.",
+            "A handful of us stayed to finish the count.",
+            "She expected a crowd and got a handful.",
+            "Of the sixty applicants, a handful had any experience at all.",
+            "He named a handful of the people involved and stopped there."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone — usually a child or an animal — who is hard to manage",
+          "body": [
+            "(сущее наказание, не подарок)"
+          ],
+          "examples": [
+            "That middle one is a handful.",
+            "The puppy is sweet, but she's a handful on a leash.",
+            "Three toddlers at a wedding is more than a handful."
+          ]
+        }
+      ],
       "pronunciation note": "the /d/ normally drops between the /n/ and the /f/, uh-HAN-fool; the article is always reduced to /ə/",
       "русский": "горстка, считаные единицы — небольшое число счётных, меньше ожидаемого",
       "case": "none",
@@ -1563,9 +1820,38 @@
         "Few of us had ever seen anything like it.",
         "Of the promises made that spring, few survived the summer.",
         "Few have read the report all the way through.",
-        "The few who stayed did most of the work."
+        "The few who stayed did most of the work.",
+        "Policy in that town is made by the few and paid for by everybody else.",
+        "He was one of the few to come out of it with a reputation intact."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small number, and fewer than there ought to be",
+          "body": [
+            "(мало, немногие — с оттенком «недостаточно»)"
+          ],
+          "examples": [
+            "Few of the original members are still on the board.",
+            "Many applied; few were hired.",
+            "Few of us had ever seen anything like it.",
+            "Of the promises made that spring, few survived the summer.",
+            "Few have read the report all the way through."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The few — that small group, named as a definite set",
+          "body": [
+            "(те немногие; меньшинство)"
+          ],
+          "examples": [
+            "The few who stayed did most of the work.",
+            "Policy in that town is made by the few and paid for by everybody else.",
+            "He was one of the few to come out of it with a reputation intact."
+          ]
+        }
+      ],
       "русский": "мало, немногие — с оттенком «недостаточно»; ср. a few «несколько»",
       "case": "none",
       "register": "neutral in writing; formal-sounding in speech, where not many is the usual substitute",
@@ -2010,10 +2296,39 @@
         "Those are the ones we saw at the fair.",
         "I like the ones with the wooden handles.",
         "Which ones did you end up keeping?",
+        "Take the small ones and leave the rest.",
         "The ones who complained loudest never showed up to help.",
-        "Take the small ones and leave the rest."
+        "The hospital lets patients call their loved ones twice a day.",
+        "Get the little ones into the van before it starts raining."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The plural prop-word, standing in for countable things already named",
+          "body": [
+            "(заменяет уже названные предметы во мн. ч.; без определителя невозможно)"
+          ],
+          "examples": [
+            "The red ones are on sale this week.",
+            "Those are the ones we saw at the fair.",
+            "I like the ones with the wooden handles.",
+            "Which ones did you end up keeping?",
+            "Take the small ones and leave the rest."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "People — the ones who…, and the affectionate loved ones, little ones",
+          "body": [
+            "(те, кто…; близкие; малыши)"
+          ],
+          "examples": [
+            "The ones who complained loudest never showed up to help.",
+            "The hospital lets patients call their loved ones twice a day.",
+            "Get the little ones into the van before it starts raining."
+          ]
+        }
+      ],
       "pronunciation note": "weak /wənz/ — the red ones /ðə ˈrɛd wənz/",
       "русский": "мн. ч. слова-заместителя one — вместо уже названных предметов; без определителя невозможно",
       "case": "none",
@@ -2059,13 +2374,51 @@
       "meaning": "The rest of a group, or some further members of it.",
       "examples": [
         "Some of the guests danced; others just watched.",
+        "A few complained, but others said nothing at all.",
+        "Others have tried this and failed.",
         "The others had already gone home by the time we arrived.",
         "She finished her section and helped the others with theirs.",
-        "A few complained, but others said nothing at all.",
         "Two of the engines were repaired; the others were scrapped.",
-        "Others have tried this and failed."
+        "He never could stand being laughed at by others.",
+        "The job is mostly a matter of listening to others."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Some further members, set against the ones already named — no article",
+          "body": [
+            "(другие, ещё какие-то)"
+          ],
+          "examples": [
+            "Some of the guests danced; others just watched.",
+            "A few complained, but others said nothing at all.",
+            "Others have tried this and failed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The others — all the remaining members, definite",
+          "body": [
+            "(остальные — все оставшиеся)"
+          ],
+          "examples": [
+            "The others had already gone home by the time we arrived.",
+            "She finished her section and helped the others with theirs.",
+            "Two of the engines were repaired; the others were scrapped."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Other people in general",
+          "body": [
+            "(другие люди, окружающие)"
+          ],
+          "examples": [
+            "He never could stand being laughed at by others.",
+            "The job is mostly a matter of listening to others."
+          ]
+        }
+      ],
       "русский": "другие; остальные — others «ещё какие-то», the others «все остальные»",
       "case": "none",
       "register": "neutral",
@@ -2087,11 +2440,39 @@
         "Such were the terms he insisted on.",
         "He gave no reason, and none was expected; such was his way.",
         "Delays, floods, and the like — such are the risks the policy covers.",
-        "Such as remain unsold will be auctioned in the spring.",
         "Such was the state of the roof that two tenants moved out that winter.",
+        "Such as remain unsold will be auctioned in the spring.",
+        "Such of the records as survive are kept in the county archive.",
         "She was hired as an interpreter and as such attended every meeting. (fixed adverbial, not the pronoun)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Of that kind — the fronted such is / such were frame",
+          "body": [
+            "(таков, таковы — книжн.)"
+          ],
+          "examples": [
+            "Such is life.",
+            "Such were the terms he insisted on.",
+            "He gave no reason, and none was expected; such was his way.",
+            "Delays, floods, and the like — such are the risks the policy covers.",
+            "Such was the state of the roof that two tenants moved out that winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Such as — \"those that,\" in legal and commercial drafting",
+          "body": [
+            "(те, которые — юр., канц.)"
+          ],
+          "examples": [
+            "Such as remain unsold will be auctioned in the spring.",
+            "Such of the records as survive are kept in the county archive.",
+            "She was hired as an interpreter and as such attended every meeting. (fixed adverbial, not the pronoun)"
+          ]
+        }
+      ],
       "русский": "таковой, такие — книжн. и юр., о только что описанном, часто о целой ситуации",
       "case": "none",
       "register": "formal, legal, and literary — the pronoun use is not ordinary conversational English",
@@ -2113,11 +2494,50 @@
         "She's the one who called the inspector.",
         "Of the four keys he tried, the one that worked was the oldest.",
         "That's the one — the blue folder on top of the pile.",
+        "The ones we saw at the fair were half the price. (plural)",
         "He's convinced she's the one, and they have known each other three weeks.",
+        "Her mother keeps asking whether this is the one.",
         "Tell them the one about the mule.",
-        "The ones we saw at the fair were half the price. (plural)"
+        "He started in on the one about the fishing trip and nobody could stop him."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The particular member the surrounding words identify",
+          "body": [
+            "(тот самый, тот, который)"
+          ],
+          "examples": [
+            "The one on the left has a chip in it.",
+            "She's the one who called the inspector.",
+            "Of the four keys he tried, the one that worked was the oldest.",
+            "That's the one — the blue folder on top of the pile.",
+            "The ones we saw at the fair were half the price. (plural)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The destined partner",
+          "body": [
+            "(тот единственный, та самая)"
+          ],
+          "examples": [
+            "He's convinced she's the one, and they have known each other three weeks.",
+            "Her mother keeps asking whether this is the one."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The one about… — the joke or the story",
+          "body": [
+            "(анекдот, история — «та, про…»)"
+          ],
+          "examples": [
+            "Tell them the one about the mule.",
+            "He started in on the one about the fishing trip and nobody could stop him."
+          ]
+        }
+      ],
       "pronunciation note": "one begins with the consonant /w/, so the takes its ordinary weak form /ðə/ and not the pre-vowel /ði/; the /ði/ form appears only under contrastive stress, which is exactly what he's THE one is doing",
       "русский": "тот самый — тот член множества, который выделяет следующее уточнение",
       "case": "none",

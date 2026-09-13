@@ -181,13 +181,19 @@ Asks what part or what proportion of an already identified set or mass is involv
 
 Asks for the amount, quantity, or price of something that is not counted in units.
 
+**1. Asking for an amount of something uncountable.** (сколько — о неисчисляемом: How much time? «Сколько времени?»)
+
 1. *How much* money do you have on you?
 2. *How much* time do we have before the train?
 3. She asked *how much* experience I had with Python.
 4. *How much* salt does the recipe call for?
-5. *How much* rent are you paying now?
-6. *How much* of the report did you finish?
-7. *How much* is that jacket in the window?
+5. *How much* of the report did you finish?
+
+**2. Asking the price.** (почём, сколько стоит — How much is it? «Сколько это стоит?»)
+
+6. *How much* is that jacket in the window?
+7. *How much* rent are you paying now?
+8. *How much* was the tow, all in?
 
 **See also:** [how many](#how-many), [how little](#how-little), [how many of, how much of](#how-many-of-how-much-of), [much](04-quantifiers-large.md#much)
 
@@ -439,15 +445,25 @@ Marks a high degree of the quality named by the following adjective or adverb.
 **Variants:** *such a, such an*, *no such*, *such as*, *suchlike (dialectal and dated)*
 **Contrast:** ***such* against *what*.** Both are predeterminers taking the same slot and obeying the same article rule, but *what* is confined to exclamations and questions while *such* also runs in ordinary statements: ✓ *I've never seen such enthusiasm*, ✗ *I've never seen what enthusiasm*. ***Such* against *so*:** *so* takes an adjective with no noun (*so cold*), *such* takes a noun (*such cold weather*) — hence ✗ *so cold weather* and ✗ *such cold*. The formal fused relative *such money as I had* is the older twin of [what (relative)](#what-relative).
 
-**1. Exclamative and intensifying** — marks a high degree of whatever the noun names. **2. Identifying and anaphoric** — 'of that kind,' pointing back to something already described (*no such rule exists*). **3. Result** — paired with *that*, it introduces the consequence of the degree.
+One word doing three jobs, and only context sorts them out. Bare *such* goes with plural and uncountable nouns; for a singular countable the frame is *such a / such an*, with *such* standing **in front of** the article — *such a mess*, never ✗ *a such mess*.
+
+**1. Intensifying — marking a high degree of whatever the noun names.** (такой, до того — усиление степени: such enthusiasm «такой энтузиазм»)
 
 1. I've never seen *such* enthusiasm from a jury.
-2. *Such* problems are common in older houses.
-3. There is no *such* rule in the handbook.
-4. She spoke with *such* confidence that nobody questioned her.
-5. It was done in *such* haste that half the forms came back blank.
+2. He gave me *such* good advice.
+3. It's *such* a relief to have that behind us.
+
+**2. Identifying — "of that kind," pointing back to something already described.** (такого рода, подобный — отсылка к уже названному: no such rule «никакого такого правила»)
+
+4. *Such* problems are common in older houses.
+5. There is no *such* rule in the handbook.
 6. *Such* people rarely apologize.
-7. He gave me *such* good advice.
+
+**3. Result — paired with *that*, introducing the consequence of the degree.** (такой…, что — следствие: such confidence that «такая уверенность, что»)
+
+7. She spoke with *such* confidence that nobody questioned her.
+8. It was done in *such* haste that half the forms came back blank.
+9. There was *such* noise from the street that we moved the meeting.
 
 **See also:** [such a, such an](#such-a-such-an), [such other](#such-other), [what (exclamative)](#what-exclamative), [what (relative)](#what-relative), [no such](06-distributives-negatives.md#no-such)
 
@@ -463,12 +479,19 @@ Marks a high degree of the quality named by the following adjective or adverb.
 
 Marks a single countable thing or person as extreme, remarkable, or exactly of that kind.
 
+**1. Intensifying — marking a single countable thing or person as extreme or remarkable.** (такой, до того — перед исчисляемым в ед. ч.: such a mess «такой беспорядок»)
+
 1. It was *such a* long day.
 2. He's *such an* idiot about money.
 3. *Such a* shame the weather turned.
 4. She's *such a* good listener.
-5. It was *such a* mess that we gave up and ordered takeout.
-6. I've never met *such an* honest salesman.
+5. I've never met *such an* honest salesman.
+
+**2. Result — paired with *that*, introducing the consequence.** (такой…, что — следствие: such a mess that «такой беспорядок, что»)
+
+6. It was *such a* mess that we gave up and ordered takeout.
+7. He told *such a* convincing story that two of the jurors cried.
+8. It was *such an* obvious mistake that the copy editor caught it twice.
 
 **See also:** [such](#such), [what a, what an](#what-a-what-an), [how (exclamative)](#how-exclamative), [an](01-articles.md#an)
 
@@ -527,12 +550,18 @@ Registers a strong reaction to the noun — admiration, dismay, scorn, or surpri
 
 Registers a strong reaction to a single countable thing or person.
 
-1. *What a* long day!
-2. *What an* idiot I've been.
-3. *What a* mess the kitchen is.
-4. *What a* week we've had.
-5. *What an* honor to be asked.
-6. *What a* way to find out.
+**1. Admiring — a strong positive reaction to a single countable thing or person.** (какой!, что за! — восклицание с одобрением: What an honor! «Какая честь!»)
+
+1. *What an* honor to be asked.
+2. *What a* week we've had.
+3. *What a* view from up here.
+
+**2. Dismayed or sarcastic — the same frame turned the other way.** (ну и!, вот это да! — с досадой или насмешкой: What a mess! «Ну и бардак!»)
+
+4. *What a* long day!
+5. *What an* idiot I've been.
+6. *What a* mess the kitchen is.
+7. *What a* way to find out.
 
 **See also:** [what (exclamative)](#what-exclamative), [such a, such an](#such-a-such-an), [how (exclamative)](#how-exclamative), [a](01-articles.md#a)
 
@@ -705,14 +734,30 @@ Archaic *which*, with the definite article still standing in front of it — alo
 **Variants:** *whatsoever (emphatic and archaic)*, *no matter what (the everyday spoken equivalent)*, *what ever (two words, in the emphatic question)*
 **Contrast:** ***whatever* against *whichever*** repeats the *what/which* split exactly: *whatever* leaves the set **open** (*whatever books you want* — from anywhere at all), *whichever* picks from a set already **fixed** (*whichever of these two you want*). Determiner against pronoun: a noun follows the determiner (*whatever seat*), nothing follows the pronoun (*take whatever you like*). *Whatever* also runs as a **free-choice** quantifier meaning 'any at all, it makes no difference' (*call me whatever day suits you*), which puts it next to [any](06-distributives-negatives.md#any) in meaning; the grammar is the same fused relative in every case, so the word is catalogued here.
 
-**1. Fused relative** — 'any X that,' supplying its own antecedent: *Take whatever seat you like.* **2. Concessive** — 'no matter what X': *Whatever excuse he gives, I don't believe it.* **3. Emphatic interrogative** — adds exasperation to a question (*Whatever reason could she have had?*); chiefly British in this determiner use, where Americans say *what on earth*. **4. Postposed emphasizer** after a negative — *no reason whatever*.
+A fused relative that supplies its own antecedent, and from there a concessive, an exasperated question word, and a postposed emphasizer. The test for determiner status never changes: a noun has to follow immediately — *whatever seat you like* is a determiner, *take whatever you like* is a pronoun.
+
+**1. Fused relative — "any X that," supplying its own antecedent.** (любой какой угодно, какой найдётся — take whatever seat you like «садись на любое место»)
 
 1. Take *whatever* seat you like.
-2. *Whatever* excuse he gives, I'm not covering for him again.
-3. Spend *whatever* money is left in the account.
-4. She reads *whatever* books the library has on the subject.
-5. *Whatever* problems the merger creates, they'll be somebody else's.
-6. Bring *whatever* tools you think you'll need.
+2. Spend *whatever* money is left in the account.
+3. She reads *whatever* books the library has on the subject.
+4. Bring *whatever* tools you think you'll need.
+
+**2. Concessive — "no matter what X."** (какой бы ни — whatever excuse he gives «какое бы оправдание он ни придумал»)
+
+5. *Whatever* excuse he gives, I'm not covering for him again.
+6. *Whatever* problems the merger creates, they'll be somebody else's.
+7. *Whatever* route you take, allow an extra hour.
+
+**3. Emphatic interrogative — exasperation added to a question.** (какой же вообще…? — брит. оттенок; американец скажет what on earth)
+
+8. *Whatever* reason could she have had for signing it?
+9. *Whatever* possessed him to repaint it that color?
+
+**4. Postposed emphasizer after a negative — "none at all."** (вообще никакой, ни малейшего — no reason whatever «вообще никаких причин»)
+
+10. There was no reason *whatever* to hold the check.
+11. He showed no interest *whatever* in the proposal.
 
 **See also:** [whichever](#whichever), [whatsoever](#whatsoever), [what (relative)](#what-relative), [any](06-distributives-negatives.md#any)
 
@@ -729,12 +774,18 @@ Archaic *which*, with the definite article still standing in front of it — alo
 
 Strengthens a negation to 'not the smallest amount of' — or, archaically, 'any … at all that.'
 
+**1. Strengthening a negation — "not the smallest amount of."** (вообще никакой, ни малейшего — после отрицания: no evidence whatsoever «вообще никаких доказательств»)
+
 1. There is no evidence *whatsoever* to support that claim.
 2. She has no interest *whatsoever* in running for office.
 3. I have no doubt *whatsoever* that he meant it.
-4. Do you have any objection *whatsoever*?
-5. The policy makes no exception *whatsoever* for late filings.
+4. The policy makes no exception *whatsoever* for late filings.
+5. Do you have any objection *whatsoever*?
+
+**2. Archaic — "whatever, any … at all that," in front of the noun.** (устар. какой бы ни, всё то, что — библейский и юридический оборот)
+
 6. *Whatsoever* things are true, think on these things.
+7. The grantor conveys all right and title *whatsoever* in the parcel.
 
 **See also:** [whatever](#whatever), [whichsoever](#whichsoever), [not any](06-distributives-negatives.md#not-any), [no](06-distributives-negatives.md#no)
 
@@ -773,11 +824,16 @@ Carries the antecedent — often a whole clause — forward into a following cla
 
 'Any one of the known set that' — picks freely inside a set already established, or concedes the choice to someone else.
 
+**1. Free choice inside a known set — "any one of these that."** (какой угодно из, любой из — take whichever seat you like «бери любое из этих мест»)
+
 1. Take *whichever* seat you like.
-2. *Whichever* route we take, we'll hit traffic.
-3. Use *whichever* card has room on it.
-4. *Whichever* candidate wins, the policy won't change.
-5. Pick *whichever* two days work for you.
+2. Use *whichever* card has room on it.
+3. Pick *whichever* two days work for you.
+
+**2. Concessive — "no matter which one."** (какой бы ни, который бы ни — whichever route we take «какой бы дорогой мы ни поехали»)
+
+4. *Whichever* route we take, we'll hit traffic.
+5. *Whichever* candidate wins, the policy won't change.
 6. *Whichever* of the two offers you accept, get it in writing.
 
 **See also:** [whatever](#whatever), [whichsoever](#whichsoever), [which (interrogative)](#which-interrogative), [any](06-distributives-negatives.md#any)

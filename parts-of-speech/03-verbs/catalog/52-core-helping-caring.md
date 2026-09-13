@@ -12,19 +12,27 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 ### back
 
 **Pronunciation:** /bæk/ &middot; *BAK*
-**Русский:** поддерживать, поддержать
+**Русский:** поддерживать, поддержать; сдавать назад, подавать назад (машину)
 **Forms:** *back* &middot; *backed* &middot; *backed*
 **Verb class:** regular
 **Third person:** *backs* &middot; **-ing form:** *backing*
 **Transitivity:** transitive
 
-To support a person, plan, or cause, especially with money or public approval.
+Back has 2 distinct senses.
+
+**1. To support a person, plan, or cause, especially with money or public approval.** (поддерживать, поддержать)
 
 1. Several donors *back* the food pantry.
 2. The city council *backed* her proposal last night.
 3. The shelter is *backed* by one small family foundation.
 
-**Phrasal verbs:** [back down](53-phrasal-regular-a-c.md#back-down) &middot; [back off](53-phrasal-regular-a-c.md#back-off) &middot; [back out](53-phrasal-regular-a-c.md#back-out) &middot; [back up](53-phrasal-regular-a-c.md#back-up-2) &middot; [back up](53-phrasal-regular-a-c.md#back-up-1) &middot; [back up](53-phrasal-regular-a-c.md#back-up-3) &middot; [back up](53-phrasal-regular-a-c.md#back-up)
+**2. To make a vehicle move backward.** (сдавать назад, подавать назад (машину))
+
+4. *Back* the truck a little closer to the ramp.
+5. She *backed* the car slowly down the narrow driveway.
+6. He was *backing* the van when he hit the mailbox.
+
+**Phrasal verbs:** [back down](53-phrasal-regular-a-c.md#back-down) &middot; [back off](53-phrasal-regular-a-c.md#back-off) &middot; [back out](53-phrasal-regular-a-c.md#back-out) &middot; [back up](53-phrasal-regular-a-c.md#back-up-3) &middot; [back up](53-phrasal-regular-a-c.md#back-up-1) &middot; [back up](53-phrasal-regular-a-c.md#back-up-2) &middot; [back up](53-phrasal-regular-a-c.md#back-up)
 
 ---
 
@@ -101,17 +109,31 @@ To state formally that you support someone else's proposal.
 ### shoulder
 
 **Pronunciation:** /ˈʃoʊldər/ &middot; *SHOHL-dur*
-**Русский:** брать на себя, взять на себя (расходы, ответственность)
+**Русский:** брать на себя, взять на себя (расходы, ответственность); взваливать на плечо, взвалить; нести на плече; толкать плечом, оттеснять плечом; проталкиваться
 **Forms:** *shoulder* &middot; *shouldered* &middot; *shouldered*
 **Verb class:** regular
 **Third person:** *shoulders* &middot; **-ing form:** *shouldering*
 **Transitivity:** transitive
 
-To accept a burden or cost so that other people do not have to.
+Shoulder has 3 distinct senses.
+
+**1. To accept a burden or cost so that other people do not have to.** (брать на себя, взять на себя (расходы, ответственность))
 
 1. Older siblings often *shoulder* too much at home.
 2. Her aunt *shouldered* the medical bills for a year.
 3. He has *shouldered* the care of both parents alone.
+
+**2. To lift something onto your shoulder and carry it.** (взваливать на плечо, взвалить; нести на плече)
+
+4. He *shouldered* his pack and started up the trail.
+5. Two firefighters *shouldered* the ladder.
+6. She was *shouldering* a heavy duffel bag.
+
+**3. To push someone or something with your shoulder.** (толкать плечом, оттеснять плечом; проталкиваться)
+
+7. He *shouldered* his way through the crowd.
+8. A reporter *shouldered* past us to reach the door.
+9. Don't *shoulder* people out of the line.
 
 ---
 
@@ -152,18 +174,26 @@ To care for someone in a protective, motherly way.
 ### rear
 
 **Pronunciation:** /rɪr/ &middot; *REER*
-**Русский:** растить, вырастить; воспитывать
+**Русский:** растить, вырастить; воспитывать; вставать на дыбы; вздыматься, возвышаться
 **Forms:** *rear* &middot; *reared* &middot; *reared*
 **Verb class:** regular
 **Third person:** *rears* &middot; **-ing form:** *rearing*
 **Transitivity:** transitive
 **Contrast:** *Rear* is the formal word; in everyday American speech people say *raise* a child.
 
-To raise and care for children or young animals until they grow up.
+Rear has 2 distinct senses.
+
+**1. To raise and care for children or young animals until they grow up.** (растить, вырастить; воспитывать)
 
 1. They *rear* their children on a small farm.
 2. She was *reared* by her grandmother.
 3. He spent thirty years *rearing* horses.
+
+**2. To rise up on the back legs, or to rise high above everything around.** (вставать на дыбы; вздыматься, возвышаться)
+
+4. Horses *rear* when something frightens them.
+5. The stallion *reared* when the gun went off.
+6. The snake was *rearing* up to strike.
 
 ---
 
@@ -187,17 +217,25 @@ To hold someone or something gently in your arms or hands.
 ### rock
 
 **Pronunciation:** /rɑːk/ &middot; *RAHK*
-**Русский:** качать, укачивать
+**Русский:** качать, укачивать; сотрясать, сотрясти; потрясать, потрясти (новостью, скандалом)
 **Forms:** *rock* &middot; *rocked* &middot; *rocked*
 **Verb class:** regular
 **Third person:** *rocks* &middot; **-ing form:** *rocking*
 **Transitivity:** both — transitive (rock the baby), intransitive (the chair rocks)
 
-To move someone or something gently back and forth, often to calm them.
+Rock has 2 distinct senses.
+
+**1. To move someone or something gently back and forth, often to calm them.** (качать, укачивать)
 
 1. Grandmothers *rock* babies to sleep.
 2. He *rocked* her until the crying stopped.
 3. She is *rocking* the baby in the old chair.
+
+**2. To shake something hard, or to shock a group of people badly.** (сотрясать, сотрясти; потрясать, потрясти (новостью, скандалом))
+
+4. Aftershocks *rock* the valley every few hours.
+5. The scandal *rocked* the school board.
+6. The whole building was *rocked* by the blast.
 
 ---
 
@@ -396,53 +434,83 @@ To make a place or object safe for small children.
 ### house
 
 **Pronunciation:** /haʊz/ &middot; *HOWZ*
-**Русский:** размещать, предоставлять жильё; вмещать
+**Русский:** размещать, предоставлять жильё; вмещать; вмещать, содержать в себе; размещать
 **Forms:** *house* &middot; *housed* &middot; *housed*
 **Verb class:** regular
 **Third person:** *houses* &middot; **-ing form:** *housing*
 **Transitivity:** transitive
 **Contrast:** The verb ends in a *z* sound (HOWZ); the noun *house* ends in *s* (HOWS).
 
-To give someone a place to live or stay.
+House has 2 distinct senses.
+
+**1. To give someone a place to live or stay.** (размещать, предоставлять жильё; вмещать)
 
 1. The city *houses* families in an old motel.
 2. The church *housed* twelve people that winter.
 3. Refugee families are being *housed* by volunteers.
+
+**2. To contain or hold something inside, said of a building or a case.** (вмещать, содержать в себе; размещать)
+
+4. The old mill now *houses* a museum.
+5. That building *housed* the city archives for a century.
+6. The battery is *housed* in a waterproof case.
 
 ---
 
 ### lodge
 
 **Pronunciation:** /lɑːdʒ/ &middot; *LAHJ*
-**Русский:** приютить, разместить на ночлег
+**Русский:** приютить, разместить на ночлег; застревать, застрять; подавать, подать (жалобу, протест)
 **Forms:** *lodge* &middot; *lodged* &middot; *lodged*
 **Verb class:** regular
 **Third person:** *lodges* &middot; **-ing form:** *lodging*
 **Transitivity:** transitive
 
-To give someone a temporary place to stay.
+Lodge has 3 distinct senses.
+
+**1. To give someone a temporary place to stay.** (приютить, разместить на ночлег)
 
 1. Farms sometimes *lodge* seasonal workers.
 2. A neighbor *lodged* them for three nights.
 3. The hikers were *lodged* at the ranger station.
+
+**2. To become stuck firmly in a place.** (застревать, застрять)
+
+4. A popcorn kernel can *lodge* between your teeth.
+5. The bullet *lodged* in his shoulder.
+6. A splinter had *lodged* under her nail.
+
+**3. To make a complaint or a claim formally to an authority.** (подавать, подать (жалобу, протест))
+
+7. You can *lodge* a complaint with the state board.
+8. Three neighbors *lodged* protests with the city.
+9. A formal appeal has been *lodged*.
 
 ---
 
 ### harbor
 
 **Pronunciation:** /ˈhɑːrbər/ &middot; *HAR-bur*
-**Русский:** укрывать, давать приют
+**Русский:** укрывать, давать приют; таить, питать (чувство); вынашивать
 **Forms:** *harbor* &middot; *harbored* &middot; *harbored*
 **Verb class:** regular
 **Third person:** *harbors* &middot; **-ing form:** *harboring*
 **Transitivity:** transitive
 **Contrast:** American spelling has no *u*: *harbor*; British English writes *harbour*.
 
-To give shelter to someone, often quietly or secretly.
+Harbor has 2 distinct senses.
+
+**1. To give shelter to someone, often quietly or secretly.** (укрывать, давать приют)
 
 1. Some families still *harbor* runaway teenagers.
 2. The farmhouse *harbored* refugees for months.
 3. She has *harbored* stray cats for years.
+
+**2. To keep a feeling or a thought in your mind for a long time.** (таить, питать (чувство); вынашивать)
+
+4. She still *harbors* a grudge against her old boss.
+5. He *harbored* doubts about the plan from the start.
+6. They have *harbored* hopes of moving back for years.
 
 ---
 
@@ -484,18 +552,26 @@ To check someone or something carefully before accepting or approving them.
 ### entitle
 
 **Pronunciation:** /ɪnˈtaɪtəl/ &middot; *in-TY-tuhl*
-**Русский:** давать право (на что-л.)
+**Русский:** давать право (на что-л.); озаглавливать, озаглавить; называть, давать название
 **Forms:** *entitle* &middot; *entitled* &middot; *entitled*
 **Verb class:** regular
 **Third person:** *entitles* &middot; **-ing form:** *entitling*
 **Transitivity:** transitive
 **Contrast:** *Entitle* someone **to** something: *entitled to help*, not *entitled for help*.
 
-To give someone the official right to have or do something.
+Entitle has 2 distinct senses.
+
+**1. To give someone the official right to have or do something.** (давать право (на что-л.))
 
 1. Three years of service *entitle* you to paid leave.
 2. The injury *entitled* her to free care.
 3. Families are *entitled* to one visit a week.
+
+**2. To give a book, a film, or a piece of music a particular title.** (озаглавливать, озаглавить; называть, давать название)
+
+4. She *entitled* the book "Small Hours".
+5. He read a poem *entitled* "November".
+6. What do you plan to *entitle* the last chapter?
 
 ---
 
@@ -539,17 +615,31 @@ To release someone from something that holds or limits them.
 ### spare
 
 **Pronunciation:** /spɛr/ &middot; *SPAIR*
-**Русский:** избавлять (от чего-л.), щадить; уделять
+**Русский:** избавлять (от чего-л.), щадить; уделять; уделять, уделить; выделять, выделить (время, деньги); щадить, пощадить; миловать, помиловать
 **Forms:** *spare* &middot; *spared* &middot; *spared*
 **Verb class:** regular
 **Third person:** *spares* &middot; **-ing form:** *sparing*
 **Transitivity:** transitive
 
-To protect someone from having to go through something unpleasant.
+Spare has 3 distinct senses.
+
+**1. To protect someone from having to go through something unpleasant.** (избавлять (от чего-л.), щадить; уделять)
 
 1. Good neighbors *spare* you a lot of trouble.
 2. She *spared* her mother the worst details.
 3. He has been *spared* the paperwork this time.
+
+**2. To be able to give someone time, money, or attention that you can do without.** (уделять, уделить; выделять, выделить (время, деньги))
+
+4. Can you *spare* ten minutes to look at this?
+5. She *spared* me a few dollars for the bus.
+6. They are *sparing* no expense on the new lab.
+
+**3. To let someone go free or unharmed when you could punish or kill them.** (щадить, пощадить; миловать, помиловать)
+
+7. They begged the soldiers to *spare* the village.
+8. The judge *spared* him jail time.
+9. Only one building was *spared* by the fire.
 
 ---
 
@@ -803,17 +893,25 @@ To make someone feel happier and more hopeful.
 ### galvanize
 
 **Pronunciation:** /ˈɡælvənaɪz/ &middot; *GAL-vuh-nyz*
-**Русский:** побуждать к действию, встряхнуть, воодушевить
+**Русский:** побуждать к действию, встряхнуть, воодушевить; оцинковывать, оцинковать
 **Forms:** *galvanize* &middot; *galvanized* &middot; *galvanized*
 **Verb class:** regular
 **Third person:** *galvanizes* &middot; **-ing form:** *galvanizing*
 **Transitivity:** transitive
 
-To shock or excite people into taking action.
+Galvanize has 2 distinct senses.
+
+**1. To shock or excite people into taking action.** (побуждать к действию, встряхнуть, воодушевить)
 
 1. Stories like hers *galvanize* a community.
 2. The fire *galvanized* the whole town into helping.
 3. Neighbors have been *galvanized* by the news.
+
+**2. To coat iron or steel with zinc so that it will not rust.** (оцинковывать, оцинковать)
+
+4. The plant *galvanizes* sheet metal by dipping it in molten zinc.
+5. They *galvanized* the frame before shipping it north.
+6. Use *galvanized* nails outdoors or they will streak the wood.
 
 ---
 
@@ -874,18 +972,26 @@ To encourage someone to act, or to make something happen faster.
 ### prod
 
 **Pronunciation:** /prɑːd/ &middot; *PRAHD*
-**Русский:** подталкивать, побуждать; тормошить
+**Русский:** подталкивать, побуждать; тормошить; тыкать, ткнуть; толкать, подталкивать (пальцем, палкой)
 **Forms:** *prod* &middot; *prodded* &middot; *prodded*
 **Verb class:** regular
 **Third person:** *prods* &middot; **-ing form:** *prodding*
 **Transitivity:** transitive
 **Contrast:** One syllable ending in a single consonant, so the *d* doubles: *prodded, prodding*.
 
-To keep pushing someone gently to do something they are avoiding.
+Prod has 2 distinct senses.
+
+**1. To keep pushing someone gently to do something they are avoiding.** (подталкивать, побуждать; тормошить)
 
 1. Someone has to *prod* him to take his pills.
 2. She *prodded* her husband into seeing a doctor.
 3. The nurse has been *prodding* him to walk a little each day.
+
+**2. To push someone or something with your finger or with a pointed object.** (тыкать, ткнуть; толкать, подталкивать (пальцем, палкой))
+
+4. She *prodded* him in the ribs to wake him up.
+5. The doctor kept *prodding* the sore spot to find the cause.
+6. Don't *prod* the fish with a fork or the juice runs out.
 
 ---
 
@@ -979,17 +1085,25 @@ To go from person to person asking for support, money, or opinions.
 ### endow
 
 **Pronunciation:** /ɪnˈdaʊ/ &middot; *in-DOW*
-**Русский:** жертвовать (капитал), обеспечивать средствами
+**Русский:** жертвовать (капитал), обеспечивать средствами; наделять, наделить (качеством, способностью)
 **Forms:** *endow* &middot; *endowed* &middot; *endowed*
 **Verb class:** regular
 **Third person:** *endows* &middot; **-ing form:** *endowing*
 **Transitivity:** transitive
 
-To give a large sum of money that will support something permanently.
+Endow has 2 distinct senses.
+
+**1. To give a large sum of money that will support something permanently.** (жертвовать (капитал), обеспечивать средствами)
 
 1. Alumni *endow* scholarships for local students.
 2. One family *endowed* the children's ward.
 3. The clinic is *endowed* by a small foundation.
+
+**2. To give someone a quality or an ability by nature, usually in the passive.** (наделять, наделить (качеством, способностью))
+
+4. Nature *endowed* him with a remarkable memory.
+5. She is *endowed* with enormous patience.
+6. Good soil can *endow* a wine with real character.
 
 ---
 

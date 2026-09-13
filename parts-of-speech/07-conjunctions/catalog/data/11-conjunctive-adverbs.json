@@ -35,9 +35,38 @@
         "Consider Ohio. Again, the pattern holds: turnout rose in every county that added a polling place.",
         "Her testimony, again, was never challenged by either side.",
         "Again, I want to be clear that nobody has been accused of anything.",
-        "He read the paragraph again before signing it. (time adverb — \"once more,\" not a connector)"
+        "He read the paragraph again before signing it.",
+        "The vote failed again on Tuesday.",
+        "Say that again — I didn't catch it."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Additive — \"and here is one more point.\"",
+          "body": [
+            "The again of argument, lecture, and testimony: it brings in another instance of the same claim, not the repetition of an event. Always set off by commas. (к тому же; далее; опять же)"
+          ],
+          "examples": [
+            "Again, the department had no written policy on any of this.",
+            "The first draft ignored the budget; again, so did the second.",
+            "Consider Ohio. Again, the pattern holds: turnout rose in every county that added a polling place.",
+            "Her testimony, again, was never challenged by either side.",
+            "Again, I want to be clear that nobody has been accused of anything."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ordinary time adverb — \"once more.\"",
+          "body": [
+            "Sits at the end of the predicate, takes no commas, and connects nothing. The punctuation is the whole difference: Again, the vote failed offers one more point, while The vote failed again counts a second failure. (снова; ещё раз)"
+          ],
+          "examples": [
+            "He read the paragraph again before signing it.",
+            "The vote failed again on Tuesday.",
+            "Say that again — I didn't catch it."
+          ]
+        }
+      ],
       "русский": "к тому же, далее — вводит ещё один довод, а не повторение события",
       "register": "neutral",
       "type": "conjunctive adverb",
@@ -80,9 +109,38 @@
         "\"You should apologize.\" \"For what? Besides, she started it.\"",
         "It's too late to call him. Besides, he never picks up.",
         "The job pays less, and besides, I'd have to move to Cleveland.",
-        "Besides the two of us, nobody knew the combination. (preposition — a noun phrase follows, not a clause)"
+        "Besides the two of us, nobody knew the combination.",
+        "What do you do besides teach?",
+        "Besides the deposit, there's a cleaning fee."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The clinching added reason",
+          "body": [
+            "Brings in the argument the speaker was saving — the one meant to end the discussion, with an undertone of \"and anyway, that settles it.\" Period or semicolon in front, comma after. (да и вообще; к тому же)"
+          ],
+          "examples": [
+            "I don't want to drive four hours. Besides, the tickets are sold out.",
+            "The couch won't fit through the door; besides, we can't afford it.",
+            "\"You should apologize.\" \"For what? Besides, she started it.\"",
+            "It's too late to call him. Besides, he never picks up.",
+            "The job pays less, and besides, I'd have to move to Cleveland."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Preposition — \"in addition to,\" \"apart from.\"",
+          "body": [
+            "Takes a noun phrase instead of a clause, and the only comma it gets is the one closing a fronted phrase. Beside without the s is a different word meaning \"next to.\" (кроме; помимо)"
+          ],
+          "examples": [
+            "Besides the two of us, nobody knew the combination.",
+            "What do you do besides teach?",
+            "Besides the deposit, there's a cleaning fee."
+          ]
+        }
+      ],
       "русский": "да и вообще, к тому же — разг. решающий добавочный довод («и этим всё сказано»)",
       "register": "informal",
       "type": "conjunctive adverb",
@@ -497,14 +555,69 @@
       "respell": "naht-with-STAN-ding",
       "meaning": "A formal nevertheless, still alive in contracts, statutes, and academic prose. It is much more often a preposition than a connector, and it is the only word in this family that can follow the noun it governs: objections notwithstanding.",
       "examples": [
+        "Notwithstanding the storm warnings, the ferry sailed on schedule.",
+        "Notwithstanding the cost, the board approved the purchase.",
+        "Notwithstanding her objections, the contract was signed that afternoon.",
+        "The objections of two members notwithstanding, the motion carried.",
+        "Budget cuts notwithstanding, the library kept its Sunday hours.",
+        "His age notwithstanding, he outworked everyone on the crew.",
         "The evidence was thin; notwithstanding, the jury convicted.",
         "Notwithstanding, the department went ahead with the hire.",
-        "Notwithstanding the storm warnings, the ferry sailed on schedule. (preposition — a noun phrase follows)",
-        "The objections of two members notwithstanding, the motion carried. (preposition, placed after its noun)",
         "She had no formal training; notwithstanding, she outperformed every analyst on the desk.",
-        "Notwithstanding that the deadline had passed, the clerk accepted the filing. (subordinating conjunction — a full clause follows)"
+        "Notwithstanding that the deadline had passed, the clerk accepted the filing.",
+        "Notwithstanding that the policy had lapsed, the insurer paid the claim.",
+        "The lease stands, notwithstanding that the building has changed hands twice."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Preposition — \"in spite of.\"",
+          "body": [
+            "The commonest use by a wide margin, and the shape in which Americans actually meet the word. It takes a noun phrase, and a fronted phrase closes with a comma. (несмотря на)"
+          ],
+          "examples": [
+            "Notwithstanding the storm warnings, the ferry sailed on schedule.",
+            "Notwithstanding the cost, the board approved the purchase.",
+            "Notwithstanding her objections, the contract was signed that afternoon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The same preposition placed after its noun",
+          "body": [
+            "The only word in this family that can follow the phrase it governs, and a signature of legal drafting. (невзирая на; вопреки — предлог после существительного)"
+          ],
+          "examples": [
+            "The objections of two members notwithstanding, the motion carried.",
+            "Budget cuts notwithstanding, the library kept its Sunday hours.",
+            "His age notwithstanding, he outworked everyone on the crew."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Conjunctive adverb — a formal nevertheless",
+          "body": [
+            "Rare, and it needs a semicolon or a period in front of it. (тем не менее; несмотря на это)"
+          ],
+          "examples": [
+            "The evidence was thin; notwithstanding, the jury convicted.",
+            "Notwithstanding, the department went ahead with the hire.",
+            "She had no formal training; notwithstanding, she outperformed every analyst on the desk."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "notwithstanding that — the subordinator",
+          "body": [
+            "A full clause follows, and the whole thing means although in a register nobody uses outside contracts and statutes. (несмотря на то что)"
+          ],
+          "examples": [
+            "Notwithstanding that the deadline had passed, the clerk accepted the filing.",
+            "Notwithstanding that the policy had lapsed, the insurer paid the claim.",
+            "The lease stands, notwithstanding that the building has changed hands twice."
+          ]
+        }
+      ],
       "pronunciation note": "the second form has a voiced th",
       "русский": "несмотря на это — юр., книжн.; чаще предлог, чем связка",
       "register": "formal (legal and academic)",
@@ -590,11 +703,55 @@
         "It wasn't a negotiation; rather, it was an ultimatum.",
         "The problem isn't the software. Rather, nobody was ever trained to use it.",
         "She didn't refuse — rather, she simply never answered.",
-        "We met on Tuesday, or rather, Tuesday night.",
         "The change was not sudden; rather, it took the better part of a decade.",
-        "It was rather cold, and I'd rather have stayed home. (degree adverb and preference idiom — neither one is this connector)"
+        "We met on Tuesday, or rather, Tuesday night.",
+        "It was rather cold for the end of April.",
+        "The ending is rather abrupt.",
+        "She seemed rather pleased with herself.",
+        "I'd rather have stayed home.",
+        "He'd rather pay the fine than argue about it.",
+        "Would you rather drive or take the train?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Correction — \"not that; this.\"",
+          "body": [
+            "Follows a negative and puts the accurate statement in place of the one just denied. Semicolon, period, or dash in front of it, comma after. (вернее; напротив; а точнее)"
+          ],
+          "examples": [
+            "It wasn't a negotiation; rather, it was an ultimatum.",
+            "The problem isn't the software. Rather, nobody was ever trained to use it.",
+            "She didn't refuse — rather, she simply never answered.",
+            "The change was not sudden; rather, it took the better part of a decade.",
+            "We met on Tuesday, or rather, Tuesday night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Degree adverb — \"fairly, somewhat.\"",
+          "body": [
+            "Sits inside the clause ahead of an adjective or an adverb and takes no commas at all. British English reaches for it far more freely than American, where pretty and fairly do most of this work. (довольно; весьма; несколько)"
+          ],
+          "examples": [
+            "It was rather cold for the end of April.",
+            "The ending is rather abrupt.",
+            "She seemed rather pleased with herself."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "would rather — preference",
+          "body": [
+            "A fixed idiom taking a bare verb, with than in front of the rejected option. Nothing is corrected and nothing is measured. (лучше бы; предпочёл бы)"
+          ],
+          "examples": [
+            "I'd rather have stayed home.",
+            "He'd rather pay the fine than argue about it.",
+            "Would you rather drive or take the train?"
+          ]
+        }
+      ],
       "русский": "вернее, точнее сказать — поправка: «не то, а это»",
       "register": "neutral",
       "type": "conjunctive adverb",
@@ -637,9 +794,53 @@
         "It's a long shot. Still, somebody has to try.",
         "I know she meant well. Still, she shouldn't have said it in front of everyone.",
         "The car needs a clutch and four tires. Still, it runs.",
-        "She's still asleep. (time adverb — inside the clause, no commas, not a connector)"
+        "She's still asleep.",
+        "They're still waiting on the inspection report.",
+        "Is that place still open on Sundays?",
+        "Tuesday was cold, and Wednesday was colder still.",
+        "The second estimate came in still higher than the first.",
+        "Worse still, nobody had kept the receipts."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Concession — \"all of that is true, and yet.\"",
+          "body": [
+            "The shortest and least formal member of the nevertheless family. Semicolon or period in front of it, and a comma after it that informal writing freely drops. (и всё же; всё-таки)"
+          ],
+          "examples": [
+            "The reviews were brutal. Still, I liked it.",
+            "He isn't qualified; still, he'd learn the job in a month.",
+            "It's a long shot. Still, somebody has to try.",
+            "I know she meant well. Still, she shouldn't have said it in front of everyone.",
+            "The car needs a clutch and four tires. Still, it runs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Time adverb — \"up to now, and not finished.\"",
+          "body": [
+            "Sits inside the clause with no commas anywhere and connects nothing. This is the reading Russian speakers hear first, which is exactly why the concessive one gets missed. (всё ещё; до сих пор)"
+          ],
+          "examples": [
+            "She's still asleep.",
+            "They're still waiting on the inspection report.",
+            "Is that place still open on Sundays?"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Degree adverb in front of a comparative — \"even more so.\"",
+          "body": [
+            "Intensifies a comparison: still colder, worse still, still further. (ещё — «ещё холоднее»)"
+          ],
+          "examples": [
+            "Tuesday was cold, and Wednesday was colder still.",
+            "The second estimate came in still higher than the first.",
+            "Worse still, nobody had kept the receipts."
+          ]
+        }
+      ],
       "русский": "и всё же, всё-таки — разг. уступка (не «всё ещё»)",
       "register": "neutral to informal",
       "type": "conjunctive adverb",
@@ -831,11 +1032,39 @@
       "examples": [
         "She is the executor of the estate; as such, she is the only person who can sign.",
         "The building is a registered landmark. As such, it cannot be demolished without a hearing.",
-        "The document is a draft, and as such it has not been fact-checked. (integrated \"in that capacity\" sense — no commas)",
+        "The document is a draft, and as such it has not been fact-checked.",
         "Interns are students, not staff; they are, as such, paid a stipend rather than a salary.",
-        "The vendor missed two deadlines; as such, we canceled the contract. (the loose \"therefore\" use — common, but therefore is safer in edited prose)"
+        "The vendor missed two deadlines; as such, we canceled the contract.",
+        "The part is discontinued; as such, we had to machine a new one.",
+        "Attendance has fallen every year. As such, the festival will not be held in June."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "\"In that capacity,\" \"because it is that kind of thing.\"",
+          "body": [
+            "The settled sense, and such has to point back at a noun already on the page. Linking two clauses it takes a semicolon or a period; integrated into the predicate it takes no commas at all. (в этом качестве; в силу этого)"
+          ],
+          "examples": [
+            "She is the executor of the estate; as such, she is the only person who can sign.",
+            "The building is a registered landmark. As such, it cannot be demolished without a hearing.",
+            "The document is a draft, and as such it has not been fact-checked.",
+            "Interns are students, not staff; they are, as such, paid a stipend rather than a salary."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The loose \"therefore\" — with no noun behind it",
+          "body": [
+            "Everywhere in American business prose and still flagged by careful editors. The test is simple: if you cannot say which noun such points at, the sentence wants therefore or accordingly. (поэтому; в связи с этим — разг., редакторы не одобряют)"
+          ],
+          "examples": [
+            "The vendor missed two deadlines; as such, we canceled the contract.",
+            "The part is discontinued; as such, we had to machine a new one.",
+            "Attendance has fallen every year. As such, the festival will not be held in June."
+          ]
+        }
+      ],
       "pronunciation note": "as is reduced here; the full /æz/ appears only under contrastive stress",
       "русский": "в этом качестве, в силу этого; (разг.) поэтому — второе значение редакторы не одобряют",
       "register": "neutral to formal",
@@ -1010,9 +1239,37 @@
         "The fee applies to every transaction. In effect, it is a tax on paying your rent.",
         "She was given no work and no office — in effect, she had been fired.",
         "The amendment, in effect, repeals the section it claims to clarify.",
-        "The ordinance is still in effect. (\"in force\" — the predicative phrase, not a connector)"
+        "The ordinance is still in effect.",
+        "The curfew went in effect at midnight.",
+        "Those rates remain in effect through the end of the quarter."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "\"What it amounts to in practice.\"",
+          "body": [
+            "Restates what was just said once the formalities are stripped away, usually more bluntly than the official version. It is the standard way of saying that a thing is one way on paper and another in fact. (фактически; по сути дела)"
+          ],
+          "examples": [
+            "The company stopped answering our letters; in effect, the contract was over.",
+            "The fee applies to every transaction. In effect, it is a tax on paying your rent.",
+            "She was given no work and no office — in effect, she had been fired.",
+            "The amendment, in effect, repeals the section it claims to clarify."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "\"In force\" — the predicative phrase",
+          "body": [
+            "Said of a rule, a law, or a policy that is currently operative. It sits bare at the end of the predicate, takes no commas, and connects nothing. (в силе; действует)"
+          ],
+          "examples": [
+            "The ordinance is still in effect.",
+            "The curfew went in effect at midnight.",
+            "Those rates remain in effect through the end of the quarter."
+          ]
+        }
+      ],
       "русский": "фактически, по сути дела — практический итог в отличие от формального",
       "register": "neutral",
       "type": "conjunctive adverb (phrasal)",
@@ -1032,9 +1289,37 @@
         "Fewer flights meant fewer hotel bookings. In turn, the whole downtown lost its winter business.",
         "Higher rates cool construction, which in turn softens demand for lumber.",
         "Cutting the night bus stranded the hospital's overnight staff; the hospital, in turn, started paying for cabs.",
-        "Each of the six speakers was given four minutes and answered questions in turn. (literal \"one after another\" — no commas, not a connector)"
+        "Each of the six speakers was given four minutes and answered questions in turn.",
+        "The children read a paragraph each in turn.",
+        "She thanked every one of them in turn."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The next link in a chain of consequences",
+          "body": [
+            "A causes B, and B in turn causes C. That promise of a further link is what separates it from as a result, which reports one effect and stops. (в свою очередь)"
+          ],
+          "examples": [
+            "The tariff raised the cost of steel; in turn, appliance prices climbed.",
+            "Fewer flights meant fewer hotel bookings. In turn, the whole downtown lost its winter business.",
+            "Higher rates cool construction, which in turn softens demand for lumber.",
+            "Cutting the night bus stranded the hospital's overnight staff; the hospital, in turn, started paying for cabs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Literally \"one after another.\"",
+          "body": [
+            "Sits bare in the predicate with no commas, connects nothing, and reports an order of turns rather than a chain of causes. (по очереди; поочерёдно)"
+          ],
+          "examples": [
+            "Each of the six speakers was given four minutes and answered questions in turn.",
+            "The children read a paragraph each in turn.",
+            "She thanked every one of them in turn."
+          ]
+        }
+      ],
       "русский": "в свою очередь — следующее звено цепочки: следствие само стало причиной",
       "register": "neutral",
       "type": "conjunctive adverb (phrasal)",
@@ -1896,10 +2181,38 @@
         "Let him sleep in; after all, it's Saturday.",
         "Nobody was surprised — she'd been training for a year, after all.",
         "After all, we did agree to split the cost down the middle.",
-        "The flight wasn't canceled after all. (the \"contrary to expectation\" sense)",
-        "It turned out they had a table for us after all."
+        "Don't be hard on him; after all, he's twelve.",
+        "The flight wasn't canceled after all.",
+        "It turned out they had a table for us after all.",
+        "She decided to come after all."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The reason the hearer is expected to accept already",
+          "body": [
+            "It justifies what was just said rather than adding news, and it sits behind a semicolon or a period with a comma after it. (ведь; в конце концов)"
+          ],
+          "examples": [
+            "Let him sleep in; after all, it's Saturday.",
+            "Nobody was surprised — she'd been training for a year, after all.",
+            "After all, we did agree to split the cost down the middle.",
+            "Don't be hard on him; after all, he's twelve."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "\"Contrary to what everybody expected.\"",
+          "body": [
+            "Closes the clause, takes no comma in front of it, and reports that the expected thing failed to happen — or that the unexpected one did. (всё-таки; в итоге всё же)"
+          ],
+          "examples": [
+            "The flight wasn't canceled after all.",
+            "It turned out they had a table for us after all.",
+            "She decided to come after all."
+          ]
+        }
+      ],
       "русский": "ведь, в конце концов; (в конце фразы) всё-таки — два разных значения",
       "register": "neutral",
       "type": "conjunctive adverb (phrasal)",
@@ -2003,12 +2316,40 @@
       "meaning": "Introduces something stronger, more surprising, or flatly corrective of what the listener assumed. Compare indeed, which mostly confirms and intensifies: in fact is the word you reach for when the truth turns out to be different from the expectation.",
       "examples": [
         "He said he'd never met her; in fact, they had worked together for three years.",
-        "The repair isn't difficult. In fact, you can do it with a screwdriver.",
         "She wasn't annoyed — in fact, she seemed relieved.",
         "The building is, in fact, older than the town charter.",
-        "As a matter of fact, I was just about to call you."
+        "As a matter of fact, I was just about to call you.",
+        "The repair isn't difficult. In fact, you can do it with a screwdriver.",
+        "The book is good; in fact, it's the best thing he's written.",
+        "They didn't just fix it — in fact, they replaced the whole unit at no charge."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Correcting what the listener assumed",
+          "body": [
+            "The truth turns out to be different from the expectation, and often the opposite of it. (на самом деле; а на деле)"
+          ],
+          "examples": [
+            "He said he'd never met her; in fact, they had worked together for three years.",
+            "She wasn't annoyed — in fact, she seemed relieved.",
+            "The building is, in fact, older than the town charter.",
+            "As a matter of fact, I was just about to call you."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Strengthening what was just said — \"and more than that.\"",
+          "body": [
+            "Nothing is corrected here: the second statement runs further in the same direction as the first. (более того; мало того)"
+          ],
+          "examples": [
+            "The repair isn't difficult. In fact, you can do it with a screwdriver.",
+            "The book is good; in fact, it's the best thing he's written.",
+            "They didn't just fix it — in fact, they replaced the whole unit at no charge."
+          ]
+        }
+      ],
       "русский": "на самом деле, более того — сильнее ожидаемого или вопреки ему",
       "register": "neutral",
       "type": "conjunctive adverb (phrasal)",
@@ -2027,10 +2368,38 @@
         "The book is long; indeed, it runs to nine hundred pages.",
         "She was qualified — indeed, overqualified.",
         "Indeed, the committee had warned about exactly this back in March.",
+        "The delay was costly, indeed ruinous, for the smaller vendors.",
         "\"That was quite a storm.\" \"Indeed it was.\"",
-        "The delay was costly, indeed ruinous, for the smaller vendors."
+        "\"You'll need a permit.\" \"Indeed.\"",
+        "That is indeed the address on the deed."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Confirming and then pushing further — \"yes, and more so.\"",
+          "body": [
+            "Unlike in fact, it corrects nothing; it doubles down on what was just said. Semicolon or period in front, comma after. (действительно; и в самом деле; более того)"
+          ],
+          "examples": [
+            "The book is long; indeed, it runs to nine hundred pages.",
+            "She was qualified — indeed, overqualified.",
+            "Indeed, the committee had warned about exactly this back in March.",
+            "The delay was costly, indeed ruinous, for the smaller vendors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A one-word agreement token, or a bare emphasizer inside the clause",
+          "body": [
+            "No comma at all in this use. In American speech it reads as formal, dry, or faintly ironic, where a British speaker means it plainly. (вот именно; так и есть; и правда)"
+          ],
+          "examples": [
+            "\"That was quite a storm.\" \"Indeed it was.\"",
+            "\"You'll need a permit.\" \"Indeed.\"",
+            "That is indeed the address on the deed."
+          ]
+        }
+      ],
       "русский": "действительно, и в самом деле — книжн., подтверждает и усиливает, а не поправляет",
       "register": "formal",
       "type": "conjunctive adverb",
@@ -2554,13 +2923,53 @@
       "meaning": "Three conversational jobs: returning to the main thread after a digression (Anyway, where was I?), dismissing what was just said as not changing anything (It's expensive. I'm buying it anyway), and closing a topic or a phone call (Anyway, I should let you go). Written nevertheless covers only the middle one.",
       "examples": [
         "Anyway, that's how we ended up in Tulsa.",
+        "Anyway, where was I?",
+        "\"Anyhow,\" she said, \"the roof still leaks.\"",
         "He told me not to worry about it. I worried anyway.",
         "The store was closing, but they let us in anyway.",
+        "It's probably closed by now; anyway, we don't need much.",
         "Anyway, I should let you go — it's late there.",
-        "\"Anyhow,\" she said, \"the roof still leaks.\"",
-        "It's probably closed by now; anyway, we don't need much."
+        "Anyway, thanks for calling.",
+        "Anyway, we'll sort it out Monday."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Returning to the main thread after a digression",
+          "body": [
+            "The spoken paragraph break: it drops the side topic and picks the story back up. (ну так вот; в общем)"
+          ],
+          "examples": [
+            "Anyway, that's how we ended up in Tulsa.",
+            "Anyway, where was I?",
+            "\"Anyhow,\" she said, \"the roof still leaks.\""
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Dismissing what was just granted — \"that changes nothing.\"",
+          "body": [
+            "Clause-final with no comma in front of it, or fronted behind a period. This is the only one of the three that written nevertheless covers. (всё равно; тем не менее)"
+          ],
+          "examples": [
+            "He told me not to worry about it. I worried anyway.",
+            "The store was closing, but they let us in anyway.",
+            "It's probably closed by now; anyway, we don't need much."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Closing a topic or a conversation",
+          "body": [
+            "The polite exit: it signals that the speaker is finished and is handing the floor back or hanging up. (ну ладно; в общем, так)"
+          ],
+          "examples": [
+            "Anyway, I should let you go — it's late there.",
+            "Anyway, thanks for calling.",
+            "Anyway, we'll sort it out Monday."
+          ]
+        }
+      ],
       "русский": "ну так вот; всё равно; ну ладно — возврат к теме, отмахивание, закрытие разговора",
       "register": "informal",
       "type": "conjunctive adverb",
@@ -2867,10 +3276,37 @@
         "Her father, incidentally, had held the same seat thirty years earlier.",
         "The building is being sold; incidentally, the tenants weren't told until yesterday.",
         "Incidentally, you still owe me twenty dollars.",
-        "By the way, did the package ever show up?",
-        "The compound was discovered incidentally, during a search for a better solvent. (manner adverb — \"by chance,\" not a digression marker)"
+        "The compound was discovered incidentally, during a search for a better solvent.",
+        "The survey turned up the error only incidentally.",
+        "Anything collected incidentally has to be logged the same way."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Flagging a digression — \"by the way.\"",
+          "body": [
+            "The written equivalent of by the way and, like by the way, routinely used for information the speaker considers anything but incidental. The commas are what mark it. (кстати; между прочим)"
+          ],
+          "examples": [
+            "Incidentally, the same firm audited both companies.",
+            "Her father, incidentally, had held the same seat thirty years earlier.",
+            "The building is being sold; incidentally, the tenants weren't told until yesterday.",
+            "Incidentally, you still owe me twenty dollars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Manner adverb — \"by chance,\" \"as a side effect.\"",
+          "body": [
+            "Sits bare in the predicate with no commas and flags nothing; it says how something came about. (случайно; попутно; побочно)"
+          ],
+          "examples": [
+            "The compound was discovered incidentally, during a search for a better solvent.",
+            "The survey turned up the error only incidentally.",
+            "Anything collected incidentally has to be logged the same way."
+          ]
+        }
+      ],
       "русский": "кстати, между прочим — письменное соответствие by the way",
       "register": "neutral to formal",
       "type": "conjunctive adverb",
@@ -2910,12 +3346,54 @@
       "examples": [
         "Now, the second question is harder to answer.",
         "We've settled the budget. Now, about the schedule.",
-        "Now, I'm not saying she was wrong.",
         "Brown the onions. Now add the garlic and cook it a minute longer.",
         "Now then, who wants to go first?",
-        "The office is closed now. (ordinary time adverb — not a connector)"
+        "Now, I'm not saying she was wrong.",
+        "Now, hold on — that's not what the contract says.",
+        "Now, I could be misremembering, but I thought the deadline was Friday.",
+        "The office is closed now.",
+        "She's on the other line right now.",
+        "Now is not a good time to ask him about it."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Moving to the next point — the spoken paragraph break",
+          "body": [
+            "No time content: it steps the listener along to the next stage of an argument, a recipe, or a set of instructions. (итак; так вот; а теперь)"
+          ],
+          "examples": [
+            "Now, the second question is harder to answer.",
+            "We've settled the budget. Now, about the schedule.",
+            "Brown the onions. Now add the garlic and cook it a minute longer.",
+            "Now then, who wants to go first?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Softening a coming correction or objection",
+          "body": [
+            "The throat-clearing now: what follows disagrees with something just said, and the word takes the edge off it. (ну; погодите; вот только)"
+          ],
+          "examples": [
+            "Now, I'm not saying she was wrong.",
+            "Now, hold on — that's not what the contract says.",
+            "Now, I could be misremembering, but I thought the deadline was Friday."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The ordinary time adverb — \"at this moment.\"",
+          "body": [
+            "Sits in the predicate, takes no commas, and connects nothing. (сейчас; теперь)"
+          ],
+          "examples": [
+            "The office is closed now.",
+            "She's on the other line right now.",
+            "Now is not a good time to ask him about it."
+          ]
+        }
+      ],
       "русский": "итак, так вот — не время: устный переход к следующему пункту или мягкое возражение",
       "register": "neutral (spoken and written)",
       "type": "conjunctive adverb",

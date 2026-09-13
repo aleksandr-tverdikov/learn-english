@@ -91,13 +91,20 @@ The a-fortiori frame: it takes a case the reader has already granted and argues 
 
 Asserts that the first term measures up to the second, usually with the rhetorical suggestion that people underrate it. Where *no more … than* denies the quality of both terms at once, *no less … than* affirms it of both, and the bare *no less than* before a number or a name means "and that is a lot" rather than "at most."
 
+**1. Affirming the quality of both terms — "every bit as … as."** The rhetorical point is usually that the first one is underrated. Where *no more … than* denies the quality of both at once, this one affirms it of both. (ничуть не менее …, чем)
+
 1. The sequel is *no less* ambitious *than* the original.
 2. Her second novel was *no less* well received *than* her first.
 3. He was *no less* surprised *than* I was to see her name on the list.
-4. *No less than* the mayor herself showed up to cut the ribbon.
-5. The repairs will cost *no less than* they did last spring.
-6. Two summers on a job site taught him *no less than* four years of classes had.
-7. Losing the grant was *no less a* setback *than* losing the lease had been.
+4. Losing the grant was *no less a* setback *than* losing the lease had been.
+5. Two summers on a job site taught him *no less than* four years of classes had.
+6. The repairs will cost *no less than* they did last spring.
+
+**2. In front of a number or a name — "and that is a lot."** No comparison at all: the phrase marks the quantity as impressive, or the person as unexpectedly grand. (целых; не кто иной, как)
+
+7. *No less than* the mayor herself showed up to cut the ribbon.
+8. *No less than* four hundred people signed the petition in a week.
+9. The foreword is by *no less than* the man who built the first one.
 
 **See also:** [no more than](#no-more-than), [than](#than), [as much as](#as-much-as), [as … as](#as--as)
 
@@ -113,12 +120,18 @@ Asserts that the first term measures up to the second, usually with the rhetoric
 
 In its argument frame this denies the property of both terms together: *He is no more a scientist than I am* says neither of us is one. Learners regularly read it as an ordinary "less than" comparison; it is actually a paired denial, and the second term is chosen precisely because it is obviously false. Before a bare quantity it means simply "at most."
 
+**1. Paired denial — "neither of these is that."** *He is no more a scientist than I am* says that neither of us is one, and the second term is picked precisely because it is obviously false. Learners routinely read the frame as an ordinary "less than" comparison; it is not one. (ничуть не более …, чем — отрицание сразу для обоих)
+
 1. A rented tux makes him *no more* a groom *than* a costume makes me a pilot.
 2. The committee has *no more* authority here *than* the audience does.
 3. She's *no more* to blame *than* you are.
-4. It took *no more than* twenty minutes to change the tire.
-5. He earns *no more than* he did five years ago.
-6. That was *no more* an accident *than* the fire last spring.
+4. That was *no more* an accident *than* the fire last spring.
+
+**2. In front of a quantity — "at most."** An ordinary upper bound, with none of the rhetoric of sense 1. (всего лишь; не более чем)
+
+5. It took *no more than* twenty minutes to change the tire.
+6. He earns *no more than* he did five years ago.
+7. The whole repair came to *no more than* forty dollars.
 
 **See also:** [no less than](#no-less-than), [than](#than), [not so much … as](#not-so-much--as), [as … as](#as--as)
 
@@ -284,12 +297,23 @@ Sets up an analogy: as the first proposition goes, so goes the second. This is t
 
 Limits a claim to the reach of somebody's knowledge, authority, or physical distance. In edited American prose it should keep its verb: write *as far as the budget is concerned*, not the clipped *as far as the budget*, which is common in speech but still corrected in print. Its formal twin is *insofar as*.
 
+**1. Limiting a claim to the reach of somebody's knowledge or authority.** The commonest use, and almost always fronted: *as far as I know* concedes in advance that the speaker may be wrong. (насколько — «насколько мне известно»)
+
 1. *As far as* I know, the office closes at four on Fridays.
-2. The trail runs *as far as* the old fire tower.
-3. *As far as* the budget is concerned, nothing has changed.
-4. He'll help *as far as* he's able.
-5. *As far as* anyone could tell, the machine was working fine.
-6. You can see *as far as* the state line from up here.
+2. *As far as* anyone could tell, the machine was working fine.
+3. He'll help *as far as* he's able.
+
+**2. *as far as … is concerned* — "as for," naming the topic.** No extent and no hedge on knowledge: the phrase simply announces what the sentence is about. Edited prose keeps the verb — *as far as the budget is concerned*, not the clipped *as far as the budget*, which is ordinary in speech and still corrected in print. (что касается)
+
+4. *As far as* the budget is concerned, nothing has changed.
+5. *As far as* I'm concerned, the matter is closed.
+6. *As far as* the paperwork goes, you're already approved.
+
+**3. Literal distance — "all the way to."** Prepositional, with a noun phrase: the point at which something stops. (вплоть до; до самого)
+
+7. The trail runs *as far as* the old fire tower.
+8. You can see *as far as* the state line from up here.
+9. We took the bus *as far as* Bakersfield and hitched from there.
 
 **See also:** [insofar as](#insofar-as), [as … as](#as--as), [so … as](#so--as), [according as](#according-as)
 
@@ -326,12 +350,19 @@ The Elizabethan ancestor of *would just as soon*. *Lief* is a dead adverb meanin
 
 The countable half of the equative pair: *as many as* takes plural count nouns and *as much as* takes mass nouns, and mixing them (*as much chairs*) is one of the most visible learner errors in English. Standing alone before a number it means "up to — and that is a surprising number."
 
+**1. Equal number — the countable half of the equative pair.** *As many as* takes plural count nouns and *as much as* takes mass nouns; mixing them (*as much chairs*) is one of the most visible learner errors in English. (столько же …, сколько)
+
 1. Take *as many* forms *as* you need.
 2. She's read *as many* of his books *as* I have.
-3. *As many as* two hundred people were turned away at the door.
-4. We didn't sell *as many* tickets *as* we did last spring.
-5. Bring *as many* helpers *as* will fit in the van.
-6. There were *as many* questions *as* there were answers.
+3. We didn't sell *as many* tickets *as* we did last spring.
+4. Bring *as many* helpers *as* will fit in the van.
+5. There were *as many* questions *as* there were answers.
+
+**2. Standing in front of a number — "up to, and that is a lot."** Nothing is being compared with anything: the phrase marks the figure as surprisingly high. (целых; аж)
+
+6. *As many as* two hundred people were turned away at the door.
+7. *As many as* one household in four lost power.
+8. The storm may have damaged *as many as* forty homes.
 
 **See also:** [as much as](#as-much-as), [as … as](#as--as), [no more than](#no-more-than)
 
@@ -347,12 +378,18 @@ The countable half of the equative pair: *as many as* takes plural count nouns a
 
 Measures degree, or quantity of a mass noun. It leads a second life at the front of a sentence, where *As much as I like her* means "although I like her very much" — identical words, completely different job, and only position and the comma tell you which one you are reading. The formal equivalent of that concessive use is *much as*.
 
+**1. Equal degree, or an equal quantity of a mass noun.** No comma anywhere inside the frame. (столько же, сколько; так же, как)
+
 1. He worries about the deadline *as much as* you do.
 2. Pour in *as much* stock *as* the pan will hold.
-3. *As much as* I'd like to help, I'm booked all week.
-4. The repair cost *as much as* the car was worth.
-5. She travels *as much as* her job allows.
+3. The repair cost *as much as* the car was worth.
+4. She travels *as much as* her job allows.
+
+**2. Fronted — concession, "although … very much."** Identical words, completely different job, and only the position and the comma tell you which one you are reading. Its formal equivalent is *much as*. (как ни; хотя и очень)
+
+5. *As much as* I'd like to help, I'm booked all week.
 6. *As much as* it hurt, quitting was the right call.
+7. *As much as* he complains about the drive, he has never once been late.
 
 **See also:** [as many as](#as-many-as), [as well as](#as-well-as), [much as](#much-as), [as … as](#as--as), [no less than](#no-less-than)
 
@@ -542,12 +579,24 @@ The technical register's *similarly*: it claims that the second case is built th
 
 The neutral manner subordinator, meaning "in the way that." It is the always-safe alternative to *like*, and unlike *like* it takes a full clause with no objection from anyone. Watch the overload: the same three letters also mark time (*as we walked*), cause (*as it was late*), and role (*as a teacher, she…*), and only context sorts them out — which is exactly why *as* is one of the hardest words in English for learners.
 
+**1. Manner — "in the way that."** Follows the main clause with no comma, and it modifies the verb: *Do as I say* is about how the thing is to be done. This is the always-safe alternative to *like*, and it takes a full clause without objection from anyone. (как; так, как)
+
 1. Fold the paper *as* the diagram shows.
-2. *As* I mentioned on the phone, the deposit is due Friday.
-3. Leave the room *as* you found it.
-4. She dressed *as* her mother had taught her.
-5. The bill passed, *as* everyone expected.
-6. Season the sauce *as* you like.
+2. Leave the room *as* you found it.
+3. She dressed *as* her mother had taught her.
+4. Season the sauce *as* you like.
+
+**2. A comment on the whole sentence — "as I said," "as everyone expected."** A comma is the only thing marking it. The clause says nothing about how anything was done; it says that the statement squares with something already known. Compare *She left as I asked* (in the manner I asked) with *She left, as I asked* (and I had asked her to). (как — «как я и говорил», «как и ожидалось»)
+
+5. *As* I mentioned on the phone, the deposit is due Friday.
+6. The bill passed, *as* everyone expected.
+7. The check cleared on Monday, *as* promised.
+
+**3. Role or capacity — "in the character of."** Here *as* is a preposition taking a noun phrase, and no comparison is being made at all: *She works as a nurse* says what she is, while *She works like a nurse* only says whom she resembles. (в качестве; как — о роли)
+
+8. *As* a teacher, she has heard every version of this excuse.
+9. He spent two summers *as* a line cook.
+10. The back room doubles *as* an office.
 
 **See also:** [as if](#as-if), [like](#like), [the way](#the-way), [just as](#just-as), [as … as](#as--as)
 
@@ -563,12 +612,20 @@ The neutral manner subordinator, meaning "in the way that." It is the always-saf
 
 Introduces an unreal or unverified comparison — how something looks, sounds, feels, or seems. Mood matters: when the comparison is contrary to fact, careful writing keeps the past subjunctive (*as if he were sorry*), and when the situation may well be true, the indicative is normal (*It looks as if the flight is on time*).
 
+**1. Unreal or unverified comparison — how something looks, sounds, feels, or seems.** Mood matters: contrary to fact takes the past subjunctive (*as if he were sorry*), and a situation that may well be true takes the indicative (*It looks as if the flight is on time*). (как будто; словно)
+
 1. He talks *as if* he owns the place.
 2. She looked *as if* she hadn't slept in days.
 3. It smells in here *as if* something's burning.
 4. The dog tilted its head *as if* to ask a question.
 5. *As if* nothing had happened, he sat down and ordered lunch.
 6. It sounds *as if* they're going to reschedule.
+
+**2. *As if!* — the standalone retort.** A whole turn by itself with nothing after it: it throws out what was just suggested as absurd. Informal, stamped with the 1990s, and still in wide use. (ага, щас!; как же!; да ни за что)
+
+7. "He'll probably apologize." "*As if!*"
+8. Me, up at five on a Saturday? *As if.*
+9. "They said the check's in the mail." "*As if.*"
 
 **See also:** [as though](#as-though), [like](#like), [as](#as), [the way](#the-way)
 
@@ -626,12 +683,18 @@ A fossil of Elizabethan English meaning "as one might say" or "as if to say." Th
 
 Covers both "in what manner" — an indirect question — and the plain "the way that" (*I love how she phrases things*). That second use is fully standard American English and now common in edited prose, though *the way* remains the more conservative choice in formal writing, where some editors still reserve *how* for questions.
 
-1. I like *how* you rearranged the living room.
-2. Show me *how* the latch works.
-3. *How* she found the address is still a mystery.
-4. He never explained *how* he got the job.
-5. Do it *how* you want — I don't have a preference.
-6. It's amazing *how* quickly kids pick up a language.
+**1. Indirect question — "in what manner."** The clause is the subject or the object of the main verb, and it names something not yet known. (как; каким образом)
+
+1. Show me *how* the latch works.
+2. *How* she found the address is still a mystery.
+3. He never explained *how* he got the job.
+4. It's amazing *how* quickly kids pick up a language.
+
+**2. "The way that" — a manner already known and being commented on.** Nothing is being asked here. Fully standard American English and now common in edited prose, though *the way* remains the conservative choice in formal writing. (то, как)
+
+5. I like *how* you rearranged the living room.
+6. Do it *how* you want — I don't have a preference.
+7. I can't stand *how* he chews.
 
 **See also:** [the way](#the-way), [however](#however), [as](#as), [in the same way that](#in-the-same-way-that)
 
@@ -647,12 +710,18 @@ Covers both "in what manner" — an indirect question — and the plain "the way
 
 Means "in whatever manner" or "to whatever degree," and it makes the main clause hold across every alternative. The movement test separates the two *howevers*: the conjunctive adverb slides freely around inside its own clause (*They, however, held our table*), while this one is locked to the front of the clause it introduces.
 
+**1. Manner — "in whatever way."** The main clause holds no matter which way the thing gets done. (как бы ни; как угодно)
+
 1. *However* you slice it, the numbers don't work.
 2. Arrange the chairs *however* you like.
-3. *However* hard I try, I can't parallel park.
-4. She'll finish the job *however* long it takes.
-5. *However* the vote goes, we'll need a new budget by June.
-6. Get here *however* you can.
+3. *However* the vote goes, we'll need a new budget by June.
+4. Get here *however* you can.
+
+**2. Degree — "to whatever extent," in front of an adjective or an adverb.** The word grabs the quality word right behind it, and the main clause holds no matter how far that quality goes. (насколько бы ни; как бы ни — о степени)
+
+5. *However* hard I try, I can't parallel park.
+6. She'll finish the job *however* long it takes.
+7. *However* carefully you pack it, something arrives broken.
 
 **See also:** [how](#how), [the way](#the-way), [as much as](#as-much-as), [much as](#much-as)
 
@@ -732,12 +801,26 @@ The everyday intensified comparison. Followed by a noun phrase (*just like her m
 
 **On the *like* / *as* question, the facts are these.** Clause-introducing *like* is universal in speech, standard in journalism and fiction, and still corrected in academic and formal business writing. When you need it to pass anywhere, substitute *as* for the manner sense (*as her father did*) and *as if* or *as though* for the appearance sense (*as if it's going to rain*). The substitution does not run the other way: with a bare noun phrase, *as* changes the meaning, because *She works like her father* compares her to him while *She works as her father* would mean in the role of her father.
 
-1. He drives *like* his grandfather taught him.
-2. It looks *like* we're going to need a bigger table.
-3. Nobody makes chili *like* my uncle does.
-4. She writes *like* she talks.
-5. The engine sounds *like* something's loose.
-6. *Like* I said, the store opens at ten.
+**1. Before a noun phrase — "similar to."** The prepositional use: standard in every register and never controversial. Two things are simply being compared, and nothing is said about how an action was carried out. (как; похоже на; вроде)
+
+1. She sings *like* her father.
+2. It tastes *like* burnt coffee.
+3. He came through the door *like* a man with somewhere to be.
+
+**2. Before a full clause — informal *as* and *as if*.** Universal in speech, standard in journalism and fiction, and still corrected in academic and formal business writing. Substitute *as* for the manner sense and *as if* for the appearance sense when the sentence has to pass anywhere. (как; как будто)
+
+4. He drives *like* his grandfather taught him.
+5. It looks *like* we're going to need a bigger table.
+6. Nobody makes chili *like* my uncle does.
+7. She writes *like* she talks.
+8. The engine sounds *like* something's loose.
+9. *Like* I said, the store opens at ten.
+
+**3. The quotative *be like* — introducing speech or a reaction.** Spoken American English only. It reports the gist, the tone, or even the face somebody made rather than the exact words, which is exactly what separates it from *said*. (и такой (такая): …; типа)
+
+10. So she was *like*, "I never agreed to that."
+11. He looks at the bill and he's *like*, no way.
+12. I was *like*, what am I even doing here.
 
 **See also:** [as](#as), [as if](#as-if), [as though](#as-though), [just like](#just-like), [the way](#the-way)
 
@@ -837,12 +920,18 @@ Latin for "with those things changed that need to be changed": it imports a rule
 
 The everyday manner subordinator, and the word that solves the *like*-versus-*as* problem: it is standard in every register, takes a full clause without complaint, and never sounds stiff. Note the idiomatic fronted use, where *The way he tells it* means "according to his account" and *The way prices are climbing* means "given that."
 
+**1. Manner — "in the way that."** The everyday manner subordinator, and the word that solves the *like*-versus-*as* problem: standard in every register, takes a full clause, and never sounds stiff. (так, как)
+
 1. Do it *the way* I showed you.
-2. *The way* he tells it, he practically saved the company.
-3. I didn't like *the way* she said that.
-4. The house is exactly *the way* we left it.
-5. She organizes her notes *the way* a lawyer builds a case.
+2. I didn't like *the way* she said that.
+3. The house is exactly *the way* we left it.
+4. She organizes her notes *the way* a lawyer builds a case.
+
+**2. Fronted — "given that," "by his account."** No manner left in it: the clause supplies a premise and the main clause draws a conclusion. *The way he tells it* means "according to him"; *The way prices are climbing* means "since prices are climbing." (судя по тому, как; раз уж)
+
+5. *The way* he tells it, he practically saved the company.
 6. *The way* prices are climbing, we should book the flights now.
+7. *The way* she was coughing, I'd get that looked at.
 
 **See also:** [how](#how), [as](#as), [like](#like), [in the same way that](#in-the-same-way-that)
 

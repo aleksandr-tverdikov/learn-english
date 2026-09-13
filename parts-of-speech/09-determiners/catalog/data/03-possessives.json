@@ -6,7 +6,7 @@
       "term": "her",
       "ipa": "/hɝ/, weak /hɚ/, /ɚ/",
       "respell": "HUR, weak her / er",
-      "meaning": "Marks the following noun as belonging to, produced by, or associated with a female person or animal already identified.",
+      "meaning": "Marks the following noun as belonging to, produced by, or associated with a female person or animal already identified. The form is chosen by the possessor, never by the thing possessed — her car, her keys, her patience all take the same shape, which is the single point where Russian speakers have to unlearn agreement. Beyond the ordinary possessive there is one survival worth recognizing but not imitating: the poetic her used of ships, countries, and machines, where modern American usage, AP style included, writes its.",
       "examples": [
         "Her apartment is two blocks from the office. (singular countable)",
         "Maria left her keys, her badge, and her laptop on the desk. (plural countable)",
@@ -16,14 +16,16 @@
         "I appreciated her driving me to the airport. (gerund)",
         "Isn't that her car in the driveway? (question — the determiner does not change)",
         "She hasn't returned her library books. (negative)",
-        "The ship and her crew reached port at dawn. (sense 2, dated — modern American writing uses its)"
+        "The ship and her crew reached port at dawn.",
+        "America and her allies signed the accord that spring. (period style; modern editing writes its allies)",
+        "The old locomotive was hauled out and her boiler sold for scrap."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "The ordinary possessive — belonging to, made by, or connected with a female person or animal",
           "body": [
-            "The ordinary possessive. 2. A dated and now largely poetic use for ships, countries, and machines (the ship and her crew). Modern American usage, including AP style, writes its here."
+            "(её; если владелец совпадает с подлежащим, по-русски «свой»)"
           ],
           "examples": [
             "Her apartment is two blocks from the office. (singular countable)",
@@ -33,8 +35,19 @@
             "She started the company with her own savings.",
             "I appreciated her driving me to the airport. (gerund)",
             "Isn't that her car in the driveway? (question — the determiner does not change)",
-            "She hasn't returned her library books. (negative)",
-            "The ship and her crew reached port at dawn. (sense 2, dated — modern American writing uses its)"
+            "She hasn't returned her library books. (negative)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Dated and now poetic — of ships, countries, and machines",
+          "body": [
+            "(устар. и поэт. о кораблях, странах, машинах — совр. амер. норма здесь its)"
+          ],
+          "examples": [
+            "The ship and her crew reached port at dawn.",
+            "America and her allies signed the accord that spring. (period style; modern editing writes its allies)",
+            "The old locomotive was hauled out and her boiler sold for scrap."
           ]
         }
       ],
@@ -52,23 +65,25 @@
       "term": "his",
       "ipa": "/hɪz/, weak /ɪz/",
       "respell": "HIZ, weak iz",
-      "meaning": "Marks the following noun as belonging to, produced by, or associated with a male person or animal already identified.",
+      "meaning": "Marks the following noun as belonging to, produced by, or associated with a male person or animal already identified. The form is chosen by the possessor, never by the thing possessed. The second use below — the generic masculine, covering a person of unspecified gender — was standard until the 1970s and is now avoided in American editing: replace it with singular their, with his or her, or by making the subject plural.",
       "examples": [
         "His flight lands at six. (singular countable)",
         "David forgot his wallet, his phone, and his charger. (plural countable)",
         "The airline lost his luggage in Denver. (uncountable)",
         "Both his brothers work downtown. (predeterminer both, no of)",
         "He paid the deposit out of his own savings.",
-        "Every applicant should submit his résumé by Friday. (dated generic — today, their résumé)",
         "Didn't he bring his laptop? (question)",
-        "He never answers his phone after six. (negative)"
+        "He never answers his phone after six. (negative)",
+        "Every applicant should submit his résumé by Friday. (dated — today, their résumé)",
+        "Each student must bring his own calculator. (dated — today, their own calculator)",
+        "A doctor owes his patient the truth. — standard until the 1970s, now avoided in American editing"
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "The ordinary possessive — belonging to, made by, or connected with a male person or animal",
           "body": [
-            "The ordinary possessive. 2. The generic masculine, covering a person of unspecified gender. Standard until the 1970s, now avoided in American editing — replace with singular their, with his or her, or by making the subject plural."
+            "(его; если владелец совпадает с подлежащим, по-русски «свой»)"
           ],
           "examples": [
             "His flight lands at six. (singular countable)",
@@ -76,9 +91,20 @@
             "The airline lost his luggage in Denver. (uncountable)",
             "Both his brothers work downtown. (predeterminer both, no of)",
             "He paid the deposit out of his own savings.",
-            "Every applicant should submit his résumé by Friday. (dated generic — today, their résumé)",
             "Didn't he bring his laptop? (question)",
             "He never answers his phone after six. (negative)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The generic masculine — a person of unspecified gender",
+          "body": [
+            "(устар. обобщающее «его» о человеке любого пола — сейчас пишут their или his or her)"
+          ],
+          "examples": [
+            "Every applicant should submit his résumé by Friday. (dated — today, their résumé)",
+            "Each student must bring his own calculator. (dated — today, their own calculator)",
+            "A doctor owes his patient the truth. — standard until the 1970s, now avoided in American editing"
           ]
         }
       ],
@@ -122,33 +148,59 @@
       "term": "my",
       "ipa": "/maɪ/, weak /mə/",
       "respell": "MY, weak muh",
-      "meaning": "Marks the following noun as belonging to, produced by, or associated with the speaker.",
+      "meaning": "Marks the following noun as belonging to, produced by, or associated with the speaker. Russian splits what English keeps in one word: when the possessor is also the subject of the clause, Russian reaches for «свой» and English still says my. Two further uses have nothing to do with owning anything — the vocative my of direct address, and the my that sits in front of a gerund to name who did the action.",
       "examples": [
         "My keys are in my other jacket. (plural countable, then singular countable)",
         "All my cousins live in Ohio. (predeterminer all; all of my cousins is equally correct)",
         "She was my first real boss.",
         "I paid for it with my own money. (uncountable)",
-        "They didn't appreciate my leaving early. (gerund)",
-        "My friend, that is not how this works. (vocative)",
         "Have you seen my charger anywhere? (question)",
-        "I can't find my passport. (negative)"
+        "I can't find my passport. (negative)",
+        "My friend, that is not how this works.",
+        "My dear, nobody reads the appendix.",
+        "Now see here, my good man.",
+        "They didn't appreciate my leaving early.",
+        "My forgetting the tickets is what started the argument.",
+        "Nobody objected to my sitting in on the interview."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "The ordinary possessive — belonging to or connected with the speaker",
           "body": [
-            "The ordinary possessive. 2. In direct address, marking closeness or (often) condescension: my friend, my dear, my good man. 3. Before a gerund, naming the doer of the action: They didn't appreciate my leaving early."
+            "(мой; если владелец совпадает с подлежащим, по-русски «свой»)"
           ],
           "examples": [
             "My keys are in my other jacket. (plural countable, then singular countable)",
             "All my cousins live in Ohio. (predeterminer all; all of my cousins is equally correct)",
             "She was my first real boss.",
             "I paid for it with my own money. (uncountable)",
-            "They didn't appreciate my leaving early. (gerund)",
-            "My friend, that is not how this works. (vocative)",
             "Have you seen my charger anywhere? (question)",
             "I can't find my passport. (negative)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In direct address — marking closeness, or (just as often) condescension",
+          "body": [
+            "(в обращении — близость или снисходительность: my dear «дорогая моя», my friend «любезный»)"
+          ],
+          "examples": [
+            "My friend, that is not how this works.",
+            "My dear, nobody reads the appendix.",
+            "Now see here, my good man."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Before a gerund — naming who does the action",
+          "body": [
+            "(перед герундием — называет исполнителя: my leaving «то, что я ушёл»)"
+          ],
+          "examples": [
+            "They didn't appreciate my leaving early.",
+            "My forgetting the tickets is what started the argument.",
+            "Nobody objected to my sitting in on the interview."
           ]
         }
       ],
@@ -193,33 +245,59 @@
       "term": "their",
       "ipa": "/ðɛr/, weak /ðɚ/",
       "respell": "THAIR, weak ther",
-      "meaning": "Marks the following noun as belonging to, produced by, or associated with the possessor(s) already identified.",
+      "meaning": "Marks the following noun as belonging to, produced by, or associated with the possessor(s) already identified. The plural possessive, and — since long before anyone argued about it — the repair English uses when the possessor is one person whose gender is unknown, unspecified, or nonbinary. In that singular use the noun stays singular if the referent has only one of the thing (Everyone brought their own lunch), and the verb still agrees with the subject, never with their.",
       "examples": [
         "Their flight lands before ours. (singular countable)",
         "Both their kids play soccer. (predeterminer both; both of their kids is equally correct)",
-        "Somebody left their umbrella in the lobby. (singular they)",
-        "If a patient misses their appointment, the clinic charges a fee.",
         "The Wilsons sold their house in March.",
-        "Everyone brought their own lunch. (everyone takes a singular verb — brought is neutral, but Everyone is bringing their own lunch, never ✗ Everyone are)",
         "We never did get their luggage back. (uncountable, negative)",
-        "Did the Hills sell their boat? (question)"
+        "Did the Hills sell their boat? (question)",
+        "Somebody left their umbrella in the lobby.",
+        "If a patient misses their appointment, the clinic charges a fee.",
+        "Everyone brought their own lunch. (everyone takes a singular verb — Everyone is bringing their own lunch, never ✗ Everyone are)",
+        "Ask the caller for their account number before anything else.",
+        "They raised their rates again in January.",
+        "The airline lost their nerve and cancelled the whole route. — American editing normally writes the airline lost its nerve",
+        "The union published their counterproposal on Friday."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "A plural possessor",
           "body": [
-            "A plural possessor: the Wilsons sold their house. 2. Singular they — one person of unknown, unspecified, or nonbinary gender: Somebody left their umbrella. The noun stays singular if the referent has only one (Everyone brought their own lunch), and the verb still agrees with the subject, not with their. 3. An institution treated as a group of people: They raised their rates again. American editing normally prefers its for a named organization — the company raised its rates."
+            "(их — о нескольких владельцах)"
           ],
           "examples": [
             "Their flight lands before ours. (singular countable)",
             "Both their kids play soccer. (predeterminer both; both of their kids is equally correct)",
-            "Somebody left their umbrella in the lobby. (singular they)",
-            "If a patient misses their appointment, the clinic charges a fee.",
             "The Wilsons sold their house in March.",
-            "Everyone brought their own lunch. (everyone takes a singular verb — brought is neutral, but Everyone is bringing their own lunch, never ✗ Everyone are)",
             "We never did get their luggage back. (uncountable, negative)",
             "Did the Hills sell their boat? (question)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Singular they — one person of unknown, unspecified, or nonbinary gender",
+          "body": [
+            "(его или её — об одном человеке неизвестного или небинарного пола; по-русски обычно «свой»)"
+          ],
+          "examples": [
+            "Somebody left their umbrella in the lobby.",
+            "If a patient misses their appointment, the clinic charges a fee.",
+            "Everyone brought their own lunch. (everyone takes a singular verb — Everyone is bringing their own lunch, never ✗ Everyone are)",
+            "Ask the caller for their account number before anything else."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An institution treated as a group of people",
+          "body": [
+            "(их — об организации как о людях; амер. редактура здесь предпочитает its)"
+          ],
+          "examples": [
+            "They raised their rates again in January.",
+            "The airline lost their nerve and cancelled the whole route. — American editing normally writes the airline lost its nerve",
+            "The union published their counterproposal on Friday."
           ]
         }
       ],
@@ -237,33 +315,59 @@
       "term": "your",
       "ipa": "/jʊr/, /jɔr/, weak /jɚ/",
       "respell": "YOOR / YOR, weak yer",
-      "meaning": "Marks the following noun as belonging to, produced by, or associated with the person or people addressed.",
+      "meaning": "Marks the following noun as belonging to, produced by, or associated with the person or people addressed. One form covers both «твой» and «ваш» — English gave up the singular/plural distinction in the seventeenth century and has never gotten it back. Two further uses point away from the listener entirely: the generic your that means \"people in general,\" which is informal and gives way to the or one's in formal writing, and the your that sits in front of a gerund to name who did the action.",
       "examples": [
         "Is this your seat? (question, singular countable)",
         "Your passport and your boarding pass, please.",
-        "I appreciate your coming on such short notice. (gerund)",
         "All your files were backed up overnight. (predeterminer all + plural countable)",
         "Do it your own way.",
-        "Your average commuter spends an hour a day in traffic. (generic your)",
         "Don't forget your badge. (negative imperative)",
-        "We couldn't find your baggage on the carousel. (uncountable)"
+        "We couldn't find your baggage on the carousel. (uncountable)",
+        "Your average commuter spends an hour a day in traffic.",
+        "This isn't your typical zoning fight.",
+        "Your first-time buyer has no idea what closing costs run to. — informal; formal writing uses the first-time buyer",
+        "I appreciate your coming on such short notice.",
+        "Your signing it early saved everyone a week.",
+        "Nobody minded your asking."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "The ordinary possessive — belonging to or connected with the person or people addressed",
           "body": [
-            "The ordinary possessive. 2. Generic or impersonal you, meaning \"people in general\": Your average commuter spends an hour in traffic. Informal; formal writing uses the average commuter or one's. 3. Before a gerund, naming the doer: I appreciate your coming."
+            "(твой, ваш — одна форма для одного и для многих)"
           ],
           "examples": [
             "Is this your seat? (question, singular countable)",
             "Your passport and your boarding pass, please.",
-            "I appreciate your coming on such short notice. (gerund)",
             "All your files were backed up overnight. (predeterminer all + plural countable)",
             "Do it your own way.",
-            "Your average commuter spends an hour a day in traffic. (generic your)",
             "Don't forget your badge. (negative imperative)",
             "We couldn't find your baggage on the carousel. (uncountable)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Generic your — \"people in general,\" not the listener at all",
+          "body": [
+            "(обобщающее «твой» — о людях вообще: your average commuter «среднестатистический пассажир»; разг.)"
+          ],
+          "examples": [
+            "Your average commuter spends an hour a day in traffic.",
+            "This isn't your typical zoning fight.",
+            "Your first-time buyer has no idea what closing costs run to. — informal; formal writing uses the first-time buyer"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Before a gerund — naming who does the action",
+          "body": [
+            "(перед герундием — называет исполнителя: your coming «то, что вы пришли»)"
+          ],
+          "examples": [
+            "I appreciate your coming on such short notice.",
+            "Your signing it early saved everyone a week.",
+            "Nobody minded your asking."
           ]
         }
       ],
@@ -500,33 +604,44 @@
       "term": "whose",
       "ipa": "/huz/",
       "respell": "HOOZ",
-      "meaning": "",
+      "meaning": "One spelling doing two jobs: it asks a question, and it opens a relative clause. Nothing in the form distinguishes them — the position in the sentence does. The relative whose works for non-human antecedents as freely as for human ones, which surprises writers who have been told to reach for of which.",
       "examples": [
         "Whose jacket is on my chair? (question, singular countable)",
         "I have no idea whose idea this was. (embedded question)",
-        "The engineer whose design won the contract is only 29. (relative, human antecedent)",
-        "She's the one whose flight got canceled.",
-        "It's an old house whose wiring needs replacing. (relative, non-human antecedent, uncountable)",
         "Whose keys are these, and whose car is blocking the driveway? (plural countable, then singular)",
         "Nobody remembers whose money paid for it. (negative, uncountable)",
-        "Whose is this? (pronoun — no noun follows, so not a determiner here)"
+        "Whose is this? (pronoun — no noun follows, so not a determiner here)",
+        "The engineer whose design won the contract is only 29. (human antecedent)",
+        "She's the one whose flight got canceled.",
+        "It's an old house whose wiring needs replacing. (non-human antecedent — English has no of which requirement here)",
+        "They cited a study whose authors have since retracted it."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "Interrogative — asking which person or thing the following noun belongs to",
           "body": [
-            "Interrogative — asks which person or thing the following noun belongs to. 2. Relative — introduces a relative clause and ties its noun to the antecedent, for human and non-human antecedents alike."
+            "(чей, чья, чьё — в вопросе: Whose car? «Чья машина?»)"
           ],
           "examples": [
             "Whose jacket is on my chair? (question, singular countable)",
             "I have no idea whose idea this was. (embedded question)",
-            "The engineer whose design won the contract is only 29. (relative, human antecedent)",
-            "She's the one whose flight got canceled.",
-            "It's an old house whose wiring needs replacing. (relative, non-human antecedent, uncountable)",
             "Whose keys are these, and whose car is blocking the driveway? (plural countable, then singular)",
             "Nobody remembers whose money paid for it. (negative, uncountable)",
             "Whose is this? (pronoun — no noun follows, so not a determiner here)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Relative — tying the noun to an antecedent, human or not",
+          "body": [
+            "(который, чей — в придаточном: the man whose car… «человек, чья машина…»)"
+          ],
+          "examples": [
+            "The engineer whose design won the contract is only 29. (human antecedent)",
+            "She's the one whose flight got canceled.",
+            "It's an old house whose wiring needs replacing. (non-human antecedent — English has no of which requirement here)",
+            "They cited a study whose authors have since retracted it."
           ]
         }
       ],
@@ -581,9 +696,44 @@
         "The senator's office issued a statement.",
         "I borrowed my roommate's charger.",
         "Isn't that Ana's apartment on the corner? (question)",
-        "We never got the landlord's approval. (negative)"
+        "We never got the landlord's approval. (negative)",
+        "She finished a master's degree at night.",
+        "Slide over — you're in the driver's seat.",
+        "It's a women's college, and it has been since 1837.",
+        "He works in a printer's shop off Mission Street."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A true possessor — this noun belongs to, was made by, or is connected with that one",
+          "body": [
+            "(окончание -'s: русский родительный падеж — John's car «машина Джона»)"
+          ],
+          "examples": [
+            "That's my sister's car. (singular countable)",
+            "The dog's leash is by the door.",
+            "Chicago's winters are brutal. (plural countable)",
+            "Dan's patience finally ran out. (uncountable)",
+            "The senator's office issued a statement.",
+            "I borrowed my roommate's charger.",
+            "Isn't that Ana's apartment on the corner? (question)",
+            "We never got the landlord's approval. (negative)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Classifying — naming the kind of thing, with no particular owner in sight",
+          "body": [
+            "(относительное прилагательное: a doctor's degree «докторская степень», the driver's seat «водительское место» — конкретного владельца нет)"
+          ],
+          "examples": [
+            "She finished a master's degree at night.",
+            "Slide over — you're in the driver's seat.",
+            "It's a women's college, and it has been since 1837.",
+            "He works in a printer's shop off Mission Street."
+          ]
+        }
+      ],
       "русский": "окончание -'s — притяжательность, русский родительный падеж: John's car = машина Джона",
       "position": "central — the whole genitive phrase fills the slot",
       "register": "neutral",
@@ -871,9 +1021,42 @@
         "Tonight's game starts at seven.",
         "This morning's email explains the change.",
         "Today's mail is still on the porch. (uncountable)",
-        "Next week's schedule has not gone out yet. (negative)"
+        "Next week's schedule has not gone out yet. (negative)",
+        "Today's students come in already knowing how to search.",
+        "In today's market that house would sit for a year.",
+        "In today's dollars that same repair would run four thousand."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Dated to a particular day or period — the time genitive",
+          "body": [
+            "(сегодняшний, вчерашний, завтрашний — today's paper «сегодняшняя газета»)"
+          ],
+          "examples": [
+            "Did you read today's paper? (question, singular countable)",
+            "Yesterday's storm knocked out power on the whole block.",
+            "Tomorrow's numbers will not be final until noon. (plural countable, negative)",
+            "Last year's model is on clearance.",
+            "Tonight's game starts at seven.",
+            "This morning's email explains the change.",
+            "Today's mail is still on the porch. (uncountable)",
+            "Next week's schedule has not gone out yet. (negative)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "\"Of the present era\" — the world as it now is, set against how it used to be",
+          "body": [
+            "(нынешний, современный — today's students «нынешние студенты», today's market «сегодняшний рынок»)"
+          ],
+          "examples": [
+            "Today's students come in already knowing how to search.",
+            "In today's market that house would sit for a year.",
+            "In today's dollars that same repair would run four thousand."
+          ]
+        }
+      ],
       "русский": "сегодняшний — временной родительный: today's paper = сегодняшняя газета",
       "position": "central",
       "register": "neutral",
@@ -919,14 +1102,58 @@
       "examples": [
         "The roof of the house needs replacing. (singular countable head)",
         "What's the title of the book you mentioned? (question)",
-        "The conclusion of the report that the auditors filed last spring was ignored.",
         "The members of the board have not been notified. (plural countable head, negative)",
-        "He's a friend of my brother's. (double genitive)",
         "The population of Chicago has been flat for a decade.",
         "I can't stand the smell of the paint. (uncountable head)",
-        "Each of the applicants was interviewed twice. (each of the — of is obligatory, verb singular)"
+        "The conclusion of the report that the auditors filed last spring was ignored.",
+        "He's a friend of my brother's.",
+        "That client of yours called three times this morning.",
+        "Two cousins of hers drove up from Dayton.",
+        "Each of the applicants was interviewed twice. (verb singular)",
+        "Most of the money was gone by March.",
+        "Neither of the plans survived the first review."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Possession and part-whole, expressed after the noun instead of before it",
+          "body": [
+            "(предлог принадлежности и части — русский родительный падеж: the roof of the house «крыша дома»)"
+          ],
+          "examples": [
+            "The roof of the house needs replacing. (singular countable head)",
+            "What's the title of the book you mentioned? (question)",
+            "The members of the board have not been notified. (plural countable head, negative)",
+            "The population of Chicago has been flat for a decade.",
+            "I can't stand the smell of the paint. (uncountable head)",
+            "The conclusion of the report that the auditors filed last spring was ignored."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The double genitive — of plus a second possessive, after a, this, or a number",
+          "body": [
+            "(один из — a friend of my brother's «один из друзей моего брата»; по-русски конструкция распадается)"
+          ],
+          "examples": [
+            "He's a friend of my brother's.",
+            "That client of yours called three times this morning.",
+            "Two cousins of hers drove up from Dayton."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Partitive of — obligatory after a quantifier that reaches into a determined set",
+          "body": [
+            "(из, от — обязательное of после количественного слова: each of the applicants «каждый из кандидатов»)"
+          ],
+          "examples": [
+            "Each of the applicants was interviewed twice. (verb singular)",
+            "Most of the money was gone by March.",
+            "Neither of the plans survived the first review."
+          ]
+        }
+      ],
       "русский": "предлог принадлежности, части, отношения — русский родительный падеж: the roof of the house",
       "position": "postmodifier; the head noun keeps its own determiner",
       "register": "neutral",
@@ -972,13 +1199,42 @@
         "She paid for the trip with her own money. (uncountable)",
         "Every state sets its own speed limits. (plural countable)",
         "I built the shelves with my own two hands. (before a numeral)",
-        "He'd like a place of his own someday. (singular countable, of-frame)",
-        "They finished the whole project on their own.",
         "Those were the mayor's own words, not mine. (after a genitive phrase)",
+        "Do it your own way.",
+        "He'd like a place of his own someday.",
+        "They finished the whole project on their own.",
         "Doesn't she have an office of her own yet? (question)",
         "He never had a room of his own growing up. (negative)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Reinforcing a possessive — \"belonging to that person and to nobody else.\"",
+          "body": [
+            "(собственный, свой — усилитель при притяжательном; сам определителем не является)"
+          ],
+          "examples": [
+            "She paid for the trip with her own money. (uncountable)",
+            "Every state sets its own speed limits. (plural countable)",
+            "I built the shelves with my own two hands. (before a numeral)",
+            "Those were the mayor's own words, not mine. (after a genitive phrase)",
+            "Do it your own way."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of one's own and on one's own — having it to yourself, or doing it without help",
+          "body": [
+            "(свой собственный; самостоятельно, сам по себе — a place of his own «своё жильё», on their own «сами, без посторонних»)"
+          ],
+          "examples": [
+            "He'd like a place of his own someday.",
+            "They finished the whole project on their own.",
+            "Doesn't she have an office of her own yet? (question)",
+            "He never had a room of his own growing up. (negative)"
+          ]
+        }
+      ],
       "русский": "собственный, свой — усилитель при притяжательном; сам определителем не является",
       "position": "postdeterminer, between the central determiner and the noun",
       "register": "neutral",

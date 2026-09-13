@@ -119,13 +119,26 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 > "Fine, I'll cover your shift," he said.  →  He **agreed to cover** my shift.
 > "You're right, the second draft is better."  →  She **agreed that** the second draft **was** better.
 
+**1. Say yes to a proposal.** *agree **to*** something, or *agree* + **to**-infinitive: you accept it, and with the infinitive you are the one who will act. (согласиться (сделать), принять предложение)
+
 1. He *agreed* to look at the engine before the weekend.
-2. Everyone at the meeting *agreed* that the deadline was unrealistic.
-3. She *agreed* to the terms but asked for the payment schedule in writing.
+2. She *agreed* to the terms but asked for the payment schedule in writing.
+
+**2. Share an opinion.** *agree **with*** a person or a view: you think it is right. (быть согласным (с кем-л., с чем-л.))
+
+3. Everyone at the meeting *agreed* that the deadline was unrealistic.
 4. I don't *agree* with him about much, but he was right about the roof.
+
+**3. Reach a common position.** *agree **on*** a matter still being settled: the two of you produce an answer between you. (договориться, прийти к согласию)
+
 5. We finally *agreed* on a date in early October.
 6. They couldn't *agree* where to hold the reception.
 7. It was *agreed* that the vote would be taken by secret ballot.
+
+**4. agree with — suit someone.** Of food, climate, or hours, and almost always in the negative: to sit well with a person's body. (подходить, идти на пользу (о еде, климате))
+
+8. Shellfish doesn't *agree* with me.
+9. The night shift never *agreed* with him.
 
 **See also:** [accept](#accept), [consent](#consent), [concur](#concur), [assent](#assent), [accede](#accede), [refuse](#refuse), [promise](#promise)
 
@@ -229,12 +242,22 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 
 > "We will cut delivery times by half," the company said.  →  The company **committed to cutting** delivery times by half.
 
+**1. Bind yourself publicly to a course of action.** The reporting sense, and usually institutional: *promise* is what a person says to a person, *commit* is what an organization puts on the record. (обязаться, взять на себя обязательство)
+
 1. The city *committed* to replacing every lead service line within ten years.
-2. She *committed* herself to the project before she saw the budget.
-3. Neither side would *commit* to a date.
-4. They've *committed* to a full audit, and the letter says so in writing.
-5. He was *committed* to finishing the trail before the first snow.
-6. Don't *commit* to anything until you've read the second page.
+2. Neither side would *commit* to a date.
+3. They've *committed* to a full audit, and the letter says so in writing.
+4. Don't *commit* to anything until you've read the second page.
+
+**2. Do something wrong.** The fixed frame *commit a crime / a murder / an error*, with a plain object and no undertaking at all. (совершить (преступление, ошибку))
+
+5. Nobody has been charged with *committing* the fraud.
+6. He *committed* the same error twice on the same page.
+
+**3. Hand over; set aside; entrust.** *commit to memory*, *commit to paper*, *commit funds* — to put something irreversibly somewhere. (вверять, передавать; выделять (средства); заучивать)
+
+7. She had *committed* the whole speech to memory.
+8. The board *committed* another two million to the project.
 
 **See also:** [promise](#promise), [pledge](#pledge), [undertake](#undertake), [guarantee](#guarantee), [vow](#vow)
 
@@ -320,12 +343,19 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 > "Thank you, but I'd rather not."  →  She **declined**.
 > "I have nothing to say about that."  →  He **declined to comment**.
 
+**1. Refuse politely.** The reporting sense, and the newsroom's verb: *declined to comment* implies no entitlement to an answer, where *refused* would. (вежливо отказаться, отклонить)
+
 1. The senator *declined* to say whether she had spoken to the mayor.
 2. He *declined* the invitation but sent flowers.
 3. Both witnesses *declined* to be photographed.
 4. She was offered the chairmanship twice and *declined* both times.
 5. The company *declined* to confirm the number of layoffs.
 6. I *declined*, as politely as I knew how.
+
+**2. Fall; get smaller or worse.** Intransitive, with no speech in it — the verb behind *a declining population*. (снижаться, падать, идти на убыль)
+
+7. Sales *declined* for a third straight quarter.
+8. His health *declined* quickly after the second surgery.
 
 **See also:** [refuse](#refuse), [reject](#reject), [turn down](#turn-down), [demur](#demur), [accept](#accept), [spurn](#spurn)
 
@@ -430,12 +460,23 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 
 > "If it breaks in the first year, we replace it."  →  They **guaranteed that** they **would replace** it within a year.
 
+**1. Promise with something at stake.** The reporting sense: *promise* stakes credibility, *guarantee* stakes money or a remedy. (гарантировать, обещать с гарантией)
+
 1. The shop *guarantees* that every repair is good for ninety days.
 2. She *guaranteed* us a full refund if the tour was canceled.
 3. The printer *guaranteed* to have the programs ready by Thursday morning.
-4. No coach can *guarantee* a starting position.
+4. I can't *guarantee* that anyone will be in the office on Friday.
+
+**2. Stand behind a debt.** The banking sense: a third party promises to pay if the borrower does not. (поручиться (по кредиту), выступить гарантом)
+
 5. He *guaranteed* the loan personally, which is why the bank agreed to it.
-6. I can't *guarantee* that anyone will be in the office on Friday.
+6. Her father *guaranteed* the lease.
+
+**3. Make certain.** With a thing as the subject and no promise anywhere: one fact simply makes another inevitable — or, in the negative, does not. (обеспечивать, гарантировать (делать неизбежным))
+
+7. Rain doesn't *guarantee* a cancellation.
+8. No coach can *guarantee* a starting position.
+9. A good résumé doesn't *guarantee* an interview.
 
 **See also:** [promise](#promise), [assure](#assure), [pledge](#pledge), [undertake](#undertake), [swear](#swear)
 
@@ -476,12 +517,22 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 > "I'll give you a ride to the station."  →  He **offered to give** me a ride to the station.
 > "Would you like to stay here tonight?"  →  She **offered** us **a bed** for the night.
 
+**1. Say you are willing to do something.** *offer* + **to**-infinitive always means the subject will be the one acting. (вызваться, предложить (свою помощь))
+
 1. She *offered* to look after the dog while we were away.
-2. They *offered* him the job on the spot.
-3. He *offered* no explanation for the missing hours.
-4. The airline *offered* a voucher, which nobody wanted.
-5. I *offered* to pay half and he wouldn't take it.
-6. Somebody in the back row finally *offered*.
+2. I *offered* to pay half and he wouldn't take it.
+3. Somebody in the back row finally *offered*.
+
+**2. Put something forward for somebody to take.** A thing rather than an act: a job, a voucher, a bed for the night. (предлагать (вещь, работу, деньги))
+
+4. They *offered* him the job on the spot.
+5. The airline *offered* a voucher, which nobody wanted.
+6. She *offered* us a bed for the night.
+
+**3. Provide; produce.** With an institution as the subject, *offer* is simply what is available; with an excuse or an apology as the object, it is what somebody produced. (предоставлять; приводить (объяснение), выражать (соболезнования))
+
+7. The college *offers* three courses in Russian.
+8. He *offered* no explanation for the missing hours.
 
 **See also:** [volunteer](#volunteer), [promise](#promise), [agree](#agree), [accept](#accept), [decline](#decline), [turn down](#turn-down)
 
@@ -589,12 +640,19 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 > "We're not accepting these terms."  →  They **rejected the terms**.
 > "That simply isn't what the study shows."  →  She **rejected the claim that** the study **supported** it.
 
+**1. Refuse something formally put forward.** A verdict on a thing — an offer, a bid, a manuscript, an argument — not on an action. (отвергнуть, отклонить)
+
 1. The journal *rejected* the paper without sending it out for review.
 2. Voters *rejected* the measure by a margin of two to one.
 3. He *rejected* the offer as insulting.
 4. The court *rejected* the argument that the search had been consensual.
 5. Her insurer *rejected* the claim on a technicality.
 6. Every proposal we sent was *rejected* within a week.
+
+**2. Of a machine or a body: refuse to take.** No decision and no speech: a slot spits the bill back out, an immune system attacks the new organ. (не принимать (о механизме); отторгать (о трансплантате))
+
+7. The machine kept *rejecting* the same worn bill.
+8. Her body *rejected* the first transplant within a month.
 
 **See also:** [refuse](#refuse), [decline](#decline), [turn down](#turn-down), [veto](#veto), [spurn](#spurn), [accept](#accept)
 
@@ -612,12 +670,22 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 > "That's it. I'm never doing that again."  →  He **resolved never to do** it again.
 > "The position is hereby eliminated."  →  The board **resolved that** the position **be eliminated**.
 
+**1. Decide firmly.** The reporting sense: *decide* records the choice, *resolve* records the determination not to go back on it. (твёрдо решить, принять решение)
+
 1. She *resolved* to say nothing until the lawyer arrived.
-2. The assembly *resolved* that no further funds be released.
-3. After the second breakdown, we *resolved* on selling the car.
-4. He *resolved* to be at the gym by six every morning, and lasted nine days.
-5. They *resolved* the dispute without going to court.
-6. The committee could not *resolve* how to allocate the remaining seats.
+2. After the second breakdown, we *resolved* on selling the car.
+3. He *resolved* to be at the gym by six every morning, and lasted nine days.
+
+**2. Of a meeting: pass a formal motion.** The *Resolved, that…* of parliamentary minutes, with the mandative subjunctive after it. (постановлять, принимать резолюцию)
+
+4. The assembly *resolved* that no further funds be released.
+5. *Resolved*, that the treasurer's report be accepted as read.
+
+**3. Settle; clear up.** A dispute, a complaint, a bug. This is the commonest sense in ordinary modern English, and it reports nothing anybody said. (разрешить, урегулировать (спор, проблему))
+
+6. They *resolved* the dispute without going to court.
+7. The committee could not *resolve* how to allocate the remaining seats.
+8. The ticket was marked *resolved* without anyone calling her back.
 
 **See also:** [determine](#determine), [decide](#decide), [vow](#vow), [pledge](#pledge), [undertake](#undertake)
 
@@ -703,12 +771,19 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 > "If you do that again, I'm calling the police."  →  He **threatened to call** the police.
 > "You'll be out by Friday if the rent isn't paid."  →  The landlord **threatened that** she **would be** out by Friday.
 
+**1. Say you will do something the listener does not want.** The mirror image of *promise*, and it names the speaker as the source of the harm. (угрожать, грозить (сделать что-л.))
+
 1. He *threatened* to resign if the report was published.
 2. She *threatened* the contractor with a lawsuit and he finished the job that week.
 3. The union *threatened* a strike for the first day of the season.
 4. They *threatened* that the case would go to collections.
-5. The sky *threatened* rain all afternoon and never delivered.
-6. Nobody *threatened* anyone; it was a disagreement about a parking space.
+5. Nobody *threatened* anyone; it was a disagreement about a parking space.
+
+**2. Be about to happen; put at risk.** With a non-human subject — weather, a strike, a disease — *threaten* reports an omen, not an utterance. (грозить, предвещать; ставить под угрозу)
+
+6. The sky *threatened* rain all afternoon and never delivered.
+7. The flooding *threatened* two hundred homes downstream.
+8. A second outage *threatened* to shut the plant for the week.
 
 **See also:** [warn](#warn), [promise](#promise), [swear](#swear), [vow](#vow), [insist](#insist), [refuse](#refuse)
 

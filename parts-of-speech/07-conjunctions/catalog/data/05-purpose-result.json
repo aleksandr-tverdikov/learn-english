@@ -103,12 +103,43 @@
       "examples": [
         "He whispered the address lest anyone overhear.",
         "She hid the letter lest her sister find it.",
-        "Lest we forget, the same promise was made five years ago.",
         "The committee moved carefully lest it be accused of favoritism.",
         "Keep the receipt lest there should be a dispute later.",
-        "I said nothing lest I make the argument worse."
+        "I said nothing lest I make the argument worse.",
+        "Lest we forget, the same promise was made five years ago.",
+        "She was afraid lest the noise wake the baby.",
+        "He lay awake, anxious lest the storm take the roof off.",
+        "The board feared lest word of the deal get out before Monday."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Negative purpose — \"so that … not.\"",
+          "body": [
+            "The negation is already inside the word, so a second not reverses the sense. Takes the bare subjunctive or should. (чтобы не; дабы не)"
+          ],
+          "examples": [
+            "He whispered the address lest anyone overhear.",
+            "She hid the letter lest her sister find it.",
+            "The committee moved carefully lest it be accused of favoritism.",
+            "Keep the receipt lest there should be a dispute later.",
+            "I said nothing lest I make the argument worse.",
+            "Lest we forget, the same promise was made five years ago."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "After a word of fearing — the content of the fear",
+          "body": [
+            "Not a purpose marker at all here but a complementizer, after afraid, fear, anxious, nervous, apprehensive. Nobody is doing anything in order to prevent it; the clause simply names what is dreaded. (как бы не; что)"
+          ],
+          "examples": [
+            "She was afraid lest the noise wake the baby.",
+            "He lay awake, anxious lest the storm take the roof off.",
+            "The board feared lest word of the deal get out before Monday."
+          ]
+        }
+      ],
       "русский": "чтобы не, дабы не — книжн., устар.; отрицание уже внутри слова, второе «не» лишнее",
       "register": "formal, literary",
       "type": "subordinating",
@@ -127,10 +158,39 @@
         "She sat in the front row so she could hear the questions.",
         "We left the porch light on so the sitter wouldn't have to hunt for the keyhole.",
         "Write it on the calendar so you don't forget again.",
+        "Move the couch over so there's room for the tree.",
         "The bus never came, so we walked the last mile.",
-        "Move the couch over so there's room for the tree."
+        "The store had already closed, so we ate at the gas station.",
+        "Nobody had a charger, so we navigated off a paper map."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Purpose — bare so standing in for so that",
+          "body": [
+            "No comma, and the clause normally carries a modal: what follows is the aim, not the outcome. The dropped that is completely standard in American speech. (чтобы)"
+          ],
+          "examples": [
+            "Text me when you land so I know you got there.",
+            "She sat in the front row so she could hear the questions.",
+            "We left the porch light on so the sitter wouldn't have to hunt for the keyhole.",
+            "Write it on the calendar so you don't forget again.",
+            "Move the couch over so there's room for the tree."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Result — the coordinating so of the FANBOYS",
+          "body": [
+            "A comma in front, no modal in the clause, and what follows is what actually happened rather than what anybody intended. (так что; поэтому)"
+          ],
+          "examples": [
+            "The bus never came, so we walked the last mile.",
+            "The store had already closed, so we ate at the gas station.",
+            "Nobody had a charger, so we navigated off a paper map."
+          ]
+        }
+      ],
       "русский": "чтобы — разг. замена so that; с запятой перед ним — «так что, поэтому» (результат)",
       "register": "neutral to informal",
       "type": "subordinating (reduced so that); also coordinating in the result sense",
@@ -150,10 +210,39 @@
         "I set two alarms so that I wouldn't oversleep on the first day.",
         "The city widened the sidewalk so that strollers and wheelchairs could pass each other.",
         "She froze half the soup so that there would be something ready on Thursday.",
+        "So that nobody would be left out, they made the party a potluck.",
         "The window was left open all night, so that the whole apartment smelled like rain.",
-        "So that nobody would be left out, they made the party a potluck."
+        "The road crew worked straight through, so that the lanes reopened a day early.",
+        "He read the letter twice, so that by the end he knew it almost by heart."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Purpose — the aim of the action",
+          "body": [
+            "No comma in front, and the clause carries can, could, will, would, or may. This is the default reading, and the reason to reach for so that rather than an infinitive when the two clauses have different subjects. (чтобы)"
+          ],
+          "examples": [
+            "Label the boxes so that the movers know which room each one goes in.",
+            "I set two alarms so that I wouldn't oversleep on the first day.",
+            "The city widened the sidewalk so that strollers and wheelchairs could pass each other.",
+            "She froze half the soup so that there would be something ready on Thursday.",
+            "So that nobody would be left out, they made the party a potluck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Result — what actually came of it",
+          "body": [
+            "A comma in front and no modal in the clause. Nothing was intended: the sentence reports an outcome, and that comma is the only thing marking it. (так что; и в результате)"
+          ],
+          "examples": [
+            "The window was left open all night, so that the whole apartment smelled like rain.",
+            "The road crew worked straight through, so that the lanes reopened a day early.",
+            "He read the letter twice, so that by the end he knew it almost by heart."
+          ]
+        }
+      ],
       "русский": "чтобы — основной союз цели; запятая перед ним меняет смысл на «так что» (результат)",
       "register": "neutral",
       "type": "subordinating (compound)",
@@ -315,10 +404,40 @@
         "She learned the software for the sake of keeping the job, not because she liked it.",
         "Both sides agreed to a short recess for the sake of letting tempers cool.",
         "Don't rewrite the whole chapter for the sake of one sentence.",
+        "He gave up the corner office for his partner's sake.",
         "For the sake of argument, suppose the early numbers are right.",
-        "He gave up the corner office for his partner's sake."
+        "Let's say, for the sake of argument, that the permit never comes through.",
+        "I'll grant the point for the sake of argument and still say the plan costs too much."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Purpose named through whoever or whatever benefits",
+          "body": [
+            "Takes a noun or an -ing form and never an infinitive. The possessive shortcut for the children's sake is the same construction turned inside out. (ради; для блага; в целях)"
+          ],
+          "examples": [
+            "They stayed in the same city for the sake of the kids.",
+            "For the sake of clarity, the report uses the 2019 boundaries throughout.",
+            "She learned the software for the sake of keeping the job, not because she liked it.",
+            "Both sides agreed to a short recess for the sake of letting tempers cool.",
+            "Don't rewrite the whole chapter for the sake of one sentence.",
+            "He gave up the corner office for his partner's sake."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "for the sake of argument — the frozen hedge",
+          "body": [
+            "Nobody benefits and nothing is being served: the phrase grants a premise provisionally so that the discussion can move on. (допустим; предположим; чисто теоретически)"
+          ],
+          "examples": [
+            "For the sake of argument, suppose the early numbers are right.",
+            "Let's say, for the sake of argument, that the permit never comes through.",
+            "I'll grant the point for the sake of argument and still say the plan costs too much."
+          ]
+        }
+      ],
       "русский": "ради, для блага — цель через того или то, что от неё выигрывает",
       "register": "neutral",
       "type": "quasi-subordinator (prepositional, takes a noun or a gerund)",
@@ -851,15 +970,41 @@
       "respell": "wair-BY",
       "meaning": "Means \"by means of which\" or \"as a result of which,\" and it always hangs on a preceding noun that names a mechanism — a deal, a policy, a scheme, a process. It cannot modify a whole clause and it cannot open a sentence, which is what separates it from a general result connector. If you cannot name the mechanism noun, write by which or recast the sentence.",
       "examples": [
-        "They reached an agreement whereby the city would maintain the trail.",
-        "The company has a policy whereby unused vacation days roll over one year.",
         "Congress created a program whereby borrowers could refinance at a fixed rate.",
-        "There is an unwritten rule whereby the last person out locks up.",
         "The settlement set up a process whereby claims are reviewed by an outside panel.",
         "He described a scheme whereby the same votes would be counted twice.",
+        "They reached an agreement whereby the city would maintain the trail.",
+        "The company has a policy whereby unused vacation days roll over one year.",
+        "There is an unwritten rule whereby the last person out locks up.",
         "The 1997 consent decree, whereby the state took over the fund, expires next year."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "\"By means of which\" — how the mechanism works",
+          "body": [
+            "A process, a program, a scheme: the clause explains the workings of the noun in front of it. (посредством чего; при помощи которого)"
+          ],
+          "examples": [
+            "Congress created a program whereby borrowers could refinance at a fixed rate.",
+            "The settlement set up a process whereby claims are reviewed by an outside panel.",
+            "He described a scheme whereby the same votes would be counted twice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "\"Under which, according to which\" — the terms an arrangement lays down",
+          "body": [
+            "An agreement, a rule, a decree: the clause states what was agreed, not how anything operates. (согласно которому; по которому)"
+          ],
+          "examples": [
+            "They reached an agreement whereby the city would maintain the trail.",
+            "The company has a policy whereby unused vacation days roll over one year.",
+            "There is an unwritten rule whereby the last person out locks up.",
+            "The 1997 consent decree, whereby the state took over the fund, expires next year."
+          ]
+        }
+      ],
       "русский": "посредством чего, согласно которому — книжн., юр.; всегда при существительном-механизме",
       "register": "formal, legal",
       "type": "relative adverb (subordinating)",
@@ -1043,9 +1188,41 @@
         "He grew up on the Chesapeake, hence the accent.",
         "The bridge is one lane in each direction; hence, backups are routine.",
         "Sample sizes were small, hence the wide confidence intervals.",
-        "The original files were lost in the move. Hence, the timeline had to be rebuilt from old emails."
+        "The original files were lost in the move. Hence, the timeline had to be rebuilt from old emails.",
+        "The option expires two weeks hence.",
+        "A century hence, none of this will be remembered.",
+        "The treaty is to be reviewed five years hence."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Consequence — \"for that reason.\"",
+          "body": [
+            "Drier and more compressed than therefore, and its signature move is the verbless tag, where a bare noun phrase follows instead of a clause: hence the delay. (отсюда; потому и; следовательно)"
+          ],
+          "examples": [
+            "The data was collected by volunteers; hence, some inconsistency is expected.",
+            "Both trains were canceled — hence the crowd on the platform.",
+            "The lease ends in June, hence the rush to find a subletter.",
+            "He grew up on the Chesapeake, hence the accent.",
+            "The bridge is one lane in each direction; hence, backups are routine.",
+            "Sample sizes were small, hence the wide confidence intervals.",
+            "The original files were lost in the move. Hence, the timeline had to be rebuilt from old emails."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Time — \"from now.\"",
+          "body": [
+            "A separate word wearing the same spelling: it follows a measure of time, connects nothing, and gives no reason. (спустя; через — «через две недели»)"
+          ],
+          "examples": [
+            "The option expires two weeks hence.",
+            "A century hence, none of this will be remembered.",
+            "The treaty is to be reviewed five years hence."
+          ]
+        }
+      ],
       "русский": "отсюда, потому и — книжн.; часто без глагола: hence the delay «отсюда и задержка»",
       "register": "formal, literary",
       "type": "conjunctive adverb",
@@ -1154,13 +1331,40 @@
       "meaning": "\"In this way\" and \"as a consequence\" at once. That double sense is why it can head a participial phrase, a pattern therefore cannot take: The mold was reused, thus cutting costs. It is standard in academic prose and stiff in conversation.",
       "examples": [
         "The sensor recalibrates every hour; thus, drift stays under one percent.",
-        "Two reviewers dropped out, thus leaving the panel one member short.",
-        "The mold was reused, thus cutting production costs nearly in half.",
         "The evidence was obtained without a warrant and was thus excluded at trial.",
         "Thus, the hypothesis cannot be rejected on the present data.",
-        "Enrollment fell for a third year — thus the decision to close the campus."
+        "Enrollment fell for a third year — thus the decision to close the campus.",
+        "Two reviewers dropped out, thus leaving the panel one member short.",
+        "The mold was reused, thus cutting production costs nearly in half.",
+        "The city bought the parcel outright, thus ending an argument that had run for a decade."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Consequence — \"therefore.\"",
+          "body": [
+            "Links two independent clauses, or tags a verbless noun phrase onto one. Standard in academic prose and stiff anywhere else. (следовательно; поэтому)"
+          ],
+          "examples": [
+            "The sensor recalibrates every hour; thus, drift stays under one percent.",
+            "The evidence was obtained without a warrant and was thus excluded at trial.",
+            "Thus, the hypothesis cannot be rejected on the present data.",
+            "Enrollment fell for a third year — thus the decision to close the campus."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "\"Thereby\" — heading an -ing participle",
+          "body": [
+            "Names the effect the main clause produced in the act of doing what it describes. A plain comma is enough, since no second independent clause follows, and therefore cannot be swapped in. (тем самым; чем и)"
+          ],
+          "examples": [
+            "Two reviewers dropped out, thus leaving the panel one member short.",
+            "The mold was reused, thus cutting production costs nearly in half.",
+            "The city bought the parcel outright, thus ending an argument that had run for a decade."
+          ]
+        }
+      ],
       "русский": "таким образом, тем самым — книжн., науч.: одновременно и способ, и следствие",
       "register": "formal, academic",
       "type": "conjunctive adverb",

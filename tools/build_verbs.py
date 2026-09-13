@@ -11,6 +11,7 @@ verb's full entry always beats a lean one, and a phrasal verb belongs with its
 base verb.
 """
 import glob, json, os, sys
+from collections import defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib import ROOT, parse_catalog_file
 from gen_verbs import build
@@ -40,7 +41,28 @@ ORDER = [
 REQUIRED = ('term', 'ipa', 'respell', 'ru', 'third', 'past', 'participle', 'ing', 'gloss')
 
 
+def extra_senses():
+    """term -> [(gloss, ru, examples)] written by the verb sense-expansion pass."""
+    out = defaultdict(list)
+    for src in sorted(glob.glob(os.path.join(SRC, 'senses', 'add-*.json'))):
+        try:
+            data = json.load(open(src))
+        except Exception:
+            continue
+        for row in data if isinstance(data, list) else []:
+            if not isinstance(row, dict):
+                continue
+            t = (row.get('term') or '').strip().lower()
+            for sn in row.get('senses') or []:
+                g = (sn.get('gloss') or '').strip()
+                ex = [x for x in (sn.get('examples') or []) if isinstance(x, str)][:3]
+                if t and g and len(ex) == 3:
+                    out[t].append((g, (sn.get('ru') or '').strip(), ex))
+    return out
+
+
 def main():
+    EXTRA = extra_senses()
     existing = set()
     for f in sorted(glob.glob(f'{CAT}/[0-9]*.md')):
         if '-core-' in os.path.basename(f):
@@ -76,10 +98,20 @@ def main():
             if len(ex) < 3:
                 problems.append(f'{slug}: "{t}" has {len(ex)} examples'); continue
             seen.add(low)
-            rows.append((t, e['ipa'].strip('/'), e['respell'], e['ru'], e['third'],
+            more = EXTRA.get(low, [])
+            senses = None
+            ru = e['ru']
+            if more:
+                senses = [(e['gloss'], e['ru'], ex)] + more
+                rus = []
+                for _, r, _ in senses:
+                    if r and r not in rus:
+                        rus.append(r)
+                ru = '; '.join(rus)
+            rows.append((t, e['ipa'].strip('/'), e['respell'], ru, e['third'],
                          e['past'], e['participle'], e['ing'],
                          e.get('transitivity') or '', e['gloss'], ex,
-                         e.get('contrast') or None))
+                         e.get('contrast') or None, senses))
         if not rows:
             continue
         build(os.path.join(CAT, f'{START + i}-core-{slug}.md'),
@@ -97,7 +129,10 @@ def main():
               rows)
         files += 1; total += len(rows)
 
+    multi = sum(1 for t in seen if EXTRA.get(t))
     print(f'\nwrote {files} core verb files, {total} entries')
+    if multi:
+        print(f'  {multi} carry more than one sense')
     if problems:
         print(f'dropped {len(problems)}:')
         for p in problems[:12]:

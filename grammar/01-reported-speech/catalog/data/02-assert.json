@@ -6,17 +6,55 @@
       "term": "affirm",
       "ipa": "/əˈfɜrm/",
       "respell": "uh-FURM",
-      "meaning": "---",
+      "meaning": "",
       "examples": [
         "The board affirmed that no layoffs were planned for the coming year.",
         "She quietly affirmed her belief that the study would hold up.",
-        "The witness chose to affirm rather than swear on a Bible.",
-        "The appeals court affirmed the conviction in a two-page order.",
         "The ambassador affirmed to reporters that the treaty remained in force.",
         "In his letter he affirmed that the money had been repaid in full.",
-        "Nobody at the hearing affirmed that the deadline was still in force."
+        "The appeals court affirmed the conviction in a two-page order.",
+        "Two of the three findings were affirmed on appeal.",
+        "The witness chose to affirm rather than swear on a Bible.",
+        "Jurors may affirm if they object to taking an oath."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "State firmly that something is true",
+          "body": [
+            "Usually a restatement of a position already on record; unlike claim it carries no doubt. (утверждать, заявлять официально)"
+          ],
+          "examples": [
+            "The board affirmed that no layoffs were planned for the coming year.",
+            "She quietly affirmed her belief that the study would hold up.",
+            "The ambassador affirmed to reporters that the treaty remained in force.",
+            "In his letter he affirmed that the money had been repaid in full."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of an appeals court: let a ruling stand",
+          "body": [
+            "The opposite of reverse, and a fixed term of art. (оставить в силе (решение нижестоящего суда))"
+          ],
+          "examples": [
+            "The appeals court affirmed the conviction in a two-page order.",
+            "Two of the three findings were affirmed on appeal."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Declare solemnly in place of an oath",
+          "body": [
+            "For witnesses who decline to swear; the statement carries exactly the same legal weight. (делать торжественное заявление вместо присяги)",
+            "---"
+          ],
+          "examples": [
+            "The witness chose to affirm rather than swear on a Bible.",
+            "Jurors may affirm if they object to taking an oath."
+          ]
+        }
+      ],
       "русский": "утверждать, подтверждать — официально повторять свою позицию; юр. заявлять без присяги",
       "register": "formal",
       "type": "reporting verb — statement, formally and deliberately restated",
@@ -205,16 +243,55 @@
       "term": "claim",
       "ipa": "/kleɪm/",
       "respell": "KLAYM",
-      "meaning": "---",
+      "meaning": "",
       "examples": [
         "He claims the fence was already down when he got there.",
         "She claimed to have no memory of the conversation.",
-        "Two different groups have claimed responsibility for the outage.",
         "The label claims the bottle contains no added sugar.",
+        "Two different groups have claimed responsibility for the outage.",
         "Nobody has claimed the bag left in the lobby.",
-        "They claimed a deduction that the auditor immediately disallowed."
+        "They claimed a deduction that the auditor immediately disallowed.",
+        "The fire claimed three lives before dawn.",
+        "The storm has claimed more than a hundred homes."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Assert something the writer does not vouch for",
+          "body": [
+            "The doubt marker: he claimed he was home tells the reader the writer is not standing behind it. (утверждать, заявлять («якобы»))"
+          ],
+          "examples": [
+            "He claims the fence was already down when he got there.",
+            "She claimed to have no memory of the conversation.",
+            "The label claims the bottle contains no added sugar."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Say that something is yours, or that you did it",
+          "body": [
+            "Not a belief but a right or an authorship: claim responsibility, claim a deduction, claim lost property. (заявлять права на, требовать (своё); брать на себя (ответственность))"
+          ],
+          "examples": [
+            "Two different groups have claimed responsibility for the outage.",
+            "Nobody has claimed the bag left in the lobby.",
+            "They claimed a deduction that the auditor immediately disallowed."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Of a disaster: take lives",
+          "body": [
+            "A fixed journalistic collocation, and always with a death or a loss as the object. (уносить (жизни), унести — о катастрофе)",
+            "---"
+          ],
+          "examples": [
+            "The fire claimed three lives before dawn.",
+            "The storm has claimed more than a hundred homes."
+          ]
+        }
+      ],
       "русский": "утверждать, заявлять — маркер сомнения: автор за сказанное не ручается («якобы»)",
       "register": "neutral",
       "type": "reporting verb — statement the writer does not endorse",
@@ -272,16 +349,55 @@
       "term": "declare",
       "ipa": "/dɪˈklɛr/",
       "respell": "dih-KLAIR",
-      "meaning": "---",
+      "meaning": "",
       "examples": [
         "The governor declared a state of emergency before the storm made landfall.",
         "He declared that the numbers had been checked twice.",
         "The judge declared the contract unenforceable.",
         "She declared herself satisfied and went home.",
         "You have to declare anything over ten thousand dollars at customs.",
-        "Two senators have declared against the bill in its current form."
+        "He never declared the rental income.",
+        "Two senators have declared against the bill in its current form.",
+        "She has not yet declared for either candidate."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "State formally and with standing",
+          "body": [
+            "Often performative: I declare this meeting adjourned does not describe an adjournment, it performs one. (объявлять, провозглашать)"
+          ],
+          "examples": [
+            "The governor declared a state of emergency before the storm made landfall.",
+            "He declared that the numbers had been checked twice.",
+            "The judge declared the contract unenforceable.",
+            "She declared herself satisfied and went home."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Report goods or income to an authority",
+          "body": [
+            "Customs and tax English: you declare what the law requires you to disclose. (декларировать, заявлять (на таможне, в декларации))"
+          ],
+          "examples": [
+            "You have to declare anything over ten thousand dollars at customs.",
+            "He never declared the rental income."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Come out for or against something",
+          "body": [
+            "The verb of taking a public side, with for or against. (открыто выступить за/против; заявить о своей позиции)",
+            "---"
+          ],
+          "examples": [
+            "Two senators have declared against the bill in its current form.",
+            "She has not yet declared for either candidate."
+          ]
+        }
+      ],
       "русский": "объявлять, провозглашать — официально и авторитетно, нередко перформативно",
       "register": "formal",
       "type": "reporting verb — formal public statement made with authority",
@@ -317,16 +433,57 @@
       "term": "hold",
       "ipa": "/hoʊld/",
       "respell": "HOHLD",
-      "meaning": "---",
+      "meaning": "",
       "examples": [
         "Most economists hold that the effect is too small to measure.",
-        "The Ninth Circuit held that the ordinance violated the First Amendment.",
         "She holds the view that the whole department should be restructured.",
         "It is widely held that the practice began in the 1930s.",
         "He held the study to be worthless and said so in print.",
-        "Nobody now holds that the two species are closely related."
+        "The Ninth Circuit held that the ordinance violated the First Amendment.",
+        "The court held the clause to be void.",
+        "Two circuits have held the opposite way.",
+        "Hold the ladder while I get the gutter.",
+        "The tank holds about forty gallons."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Hold a view; maintain a position",
+          "body": [
+            "The reporting sense: a belief one is settled in rather than arguing toward. (держаться мнения, считать)"
+          ],
+          "examples": [
+            "Most economists hold that the effect is too small to measure.",
+            "She holds the view that the whole department should be restructured.",
+            "It is widely held that the practice began in the 1930s.",
+            "He held the study to be worthless and said so in print."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of a court: rule",
+          "body": [
+            "The binding part of a decision, the part later courts must follow. Keep the pair straight: a court holds the law and finds the facts. (постановлять, выносить правовую позицию (о суде))"
+          ],
+          "examples": [
+            "The Ninth Circuit held that the ordinance violated the First Amendment.",
+            "The court held the clause to be void.",
+            "Two circuits have held the opposite way."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Keep, grip, contain",
+          "body": [
+            "The everyday physical verb, with no speech in it at all. (держать, удерживать; вмещать)",
+            "---"
+          ],
+          "examples": [
+            "Hold the ladder while I get the gutter.",
+            "The tank holds about forty gallons."
+          ]
+        }
+      ],
       "pronunciation note": "irregular: hold, held, held",
       "русский": "держаться мнения, считать; юр. постановлять — суд формулирует правовую позицию",
       "register": "formal",
@@ -364,16 +521,46 @@
       "term": "maintain",
       "ipa": "/meɪnˈteɪn/",
       "respell": "mayn-TAYN",
-      "meaning": "---",
+      "meaning": "",
       "examples": [
         "He has maintained from the first day that the account was not his.",
         "She maintained her innocence through two trials.",
         "The company maintains that the recall was voluntary.",
-        "Both witnesses maintained that the light had been green.",
-        "He maintained this position long after his own lawyers gave up on it.",
-        "They maintain, against all the evidence, that the map is accurate."
+        "They maintain, against all the evidence, that the map is accurate.",
+        "The county maintains about nine hundred miles of road.",
+        "The software is no longer maintained.",
+        "She maintained the same pace for the last three miles.",
+        "He was maintaining two households on one salary."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Keep asserting something against contradiction",
+          "body": [
+            "The reporting sense: the word itself says the position is under attack. (стоять на своём, продолжать утверждать)"
+          ],
+          "examples": [
+            "He has maintained from the first day that the account was not his.",
+            "She maintained her innocence through two trials.",
+            "The company maintains that the recall was voluntary.",
+            "They maintain, against all the evidence, that the map is accurate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Keep something going or in good repair",
+          "body": [
+            "Roads, machines, software, a pace, a household — the commonest sense outside argument, and no speech act at all. (поддерживать, содержать в исправности; обеспечивать)",
+            "---"
+          ],
+          "examples": [
+            "The county maintains about nine hundred miles of road.",
+            "The software is no longer maintained.",
+            "She maintained the same pace for the last three miles.",
+            "He was maintaining two households on one salary."
+          ]
+        }
+      ],
       "русский": "продолжать утверждать, стоять на своём — вопреки уже высказанным возражениям",
       "register": "neutral to formal",
       "type": "reporting verb — statement held to under pressure",
@@ -497,16 +684,55 @@
       "term": "pronounce",
       "ipa": "/prəˈnaʊns/",
       "respell": "pruh-NOWNSS",
-      "meaning": "---",
+      "meaning": "",
       "examples": [
         "She was pronounced dead at the scene.",
-        "The critic tasted three of them and pronounced the second one best.",
         "The court will pronounce sentence on Thursday morning.",
-        "He declined to pronounce on a case still under appeal.",
         "The inspector pronounced the wiring safe and signed the form.",
-        "Nobody has pronounced the project finished, but nobody is working on it either."
+        "He declined to pronounce on a case still under appeal.",
+        "The critic tasted three of them and pronounced the second one best.",
+        "Nobody has pronounced the project finished, but nobody is working on it either.",
+        "Nobody in the office can pronounce her last name.",
+        "How do you pronounce the second syllable?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Deliver an official verdict",
+          "body": [
+            "The performative core: because of who is speaking, the words create the fact. (объявлять официально, выносить вердикт)"
+          ],
+          "examples": [
+            "She was pronounced dead at the scene.",
+            "The court will pronounce sentence on Thursday morning.",
+            "The inspector pronounced the wiring safe and signed the form.",
+            "He declined to pronounce on a case still under appeal."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Declare an opinion, grandly",
+          "body": [
+            "An ordinary judgment dressed in the verdict frame, usually with a touch of irony. (объявлять (о своём мнении) — с оттенком важности)"
+          ],
+          "examples": [
+            "The critic tasted three of them and pronounced the second one best.",
+            "Nobody has pronounced the project finished, but nobody is working on it either."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Say a word aloud; articulate",
+          "body": [
+            "The same spelling, a different verb, and the one a learner meets far more often. It reports nothing. (произносить (звук, слово))",
+            "---"
+          ],
+          "examples": [
+            "Nobody in the office can pronounce her last name.",
+            "How do you pronounce the second syllable?"
+          ]
+        }
+      ],
       "русский": "выносить вердикт, официально объявлять — решение действует в силу статуса говорящего",
       "register": "formal",
       "type": "reporting verb — an authoritative verdict",
@@ -656,16 +882,57 @@
       "term": "submit",
       "ipa": "/səbˈmɪt/",
       "respell": "sub-MIT",
-      "meaning": "---",
+      "meaning": "",
       "examples": [
         "Counsel submits that the evidence was obtained without a warrant.",
         "I submit that we have been solving the wrong problem for two years.",
         "She submitted that the earlier reading of the statute could not survive.",
         "He submitted, with respect, that the committee had exceeded its authority.",
-        "It is submitted that no other reading of the clause is available.",
-        "The paper submits a simpler explanation than the one currently accepted."
+        "All applications must be submitted by the fifteenth.",
+        "He submitted his resignation the same afternoon.",
+        "The paper submits a simpler explanation than the one currently accepted.",
+        "She refused to submit to a search without a warrant.",
+        "Neither side was willing to submit to arbitration."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Put a proposition deferentially to somebody with authority",
+          "body": [
+            "The reporting sense: I submit that… defers in form while asserting in substance. (осмелюсь утверждать; почтительно заявлять (книжн., юр.))"
+          ],
+          "examples": [
+            "Counsel submits that the evidence was obtained without a warrant.",
+            "I submit that we have been solving the wrong problem for two years.",
+            "She submitted that the earlier reading of the statute could not survive.",
+            "He submitted, with respect, that the committee had exceeded its authority."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Hand in; file",
+          "body": [
+            "The everyday sense, the one on every form and portal. It takes a plain object and reports nothing anybody said. (подавать, сдавать (документ, заявку))"
+          ],
+          "examples": [
+            "All applications must be submitted by the fifteenth.",
+            "He submitted his resignation the same afternoon.",
+            "The paper submits a simpler explanation than the one currently accepted."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "submit to — give in, yield",
+          "body": [
+            "The preposition changes the verb completely: you submit a form, but you submit to a search. (подчиниться, покориться)",
+            "---"
+          ],
+          "examples": [
+            "She refused to submit to a search without a warrant.",
+            "Neither side was willing to submit to arbitration."
+          ]
+        }
+      ],
       "русский": "книжн./юр. осмелюсь утверждать — почтительно выдвигать тезис перед вышестоящей инстанцией",
       "register": "formal; legal and academic",
       "type": "reporting verb — a proposition advanced deferentially",
@@ -678,16 +945,55 @@
       "term": "swear",
       "ipa": "/swɛr/",
       "respell": "SWAIR",
-      "meaning": "---",
+      "meaning": "",
       "examples": [
         "He swore that the safe had been locked when he left.",
+        "I swear I put the keys on the hook.",
+        "She'd swear to it in court if anyone asked her.",
         "She swore to tell the truth and then said almost nothing for an hour.",
         "They swore us to secrecy before showing us the prototype.",
-        "I swear I put the keys on the hook.",
         "He was sworn in as a judge on a Tuesday afternoon.",
-        "She'd swear to it in court if anyone asked her."
+        "He swore under his breath and started over.",
+        "She swore at the driver who cut her off."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "State under oath, or with maximum personal warranty",
+          "body": [
+            "The reporting sense, formal in court and emphatic in speech. (клясться, показывать под присягой; божиться)"
+          ],
+          "examples": [
+            "He swore that the safe had been locked when he left.",
+            "I swear I put the keys on the hook.",
+            "She'd swear to it in court if anyone asked her."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Bind by oath; promise solemnly",
+          "body": [
+            "Here the oath commits somebody to a future act — the subject's own, or the person the subject binds. (давать клятву; обязывать клятвой; приводить к присяге)"
+          ],
+          "examples": [
+            "She swore to tell the truth and then said almost nothing for an hour.",
+            "They swore us to secrecy before showing us the prototype.",
+            "He was sworn in as a judge on a Tuesday afternoon."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Curse; use obscene language",
+          "body": [
+            "A separate verb sharing the form, and the preposition tells them apart: swear to something is an oath, swear at someone is abuse. (ругаться, материться)",
+            "---"
+          ],
+          "examples": [
+            "He swore under his breath and started over.",
+            "She swore at the driver who cut her off."
+          ]
+        }
+      ],
       "pronunciation note": "irregular: swear, swore, sworn",
       "русский": "клясться, показывать под присягой — или разг. божиться: клянусь, я этого не делал",
       "register": "neutral to formal",
@@ -701,16 +1007,46 @@
       "term": "testify",
       "ipa": "/ˈtɛstəfaɪ/",
       "respell": "TESS-tuh-fye",
-      "meaning": "---",
+      "meaning": "",
       "examples": [
         "Three former employees testified that the logs had been altered.",
         "She testified before the subcommittee for nearly five hours.",
         "He refused to testify against his own brother.",
         "The expert testified to the reliability of the test.",
-        "She was subpoenaed but never actually testified.",
-        "Nothing he testified to at trial matched his earlier statement to police."
+        "Nothing he testified to at trial matched his earlier statement to police.",
+        "The wreckage testifies to the force of the impact.",
+        "The state of the kitchen testified to a long night.",
+        "Every page of the ledger testifies to the same habit."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Give evidence under oath",
+          "body": [
+            "The reporting sense, and its whole point is the forum: a place where perjury is a crime. (давать показания под присягой)"
+          ],
+          "examples": [
+            "Three former employees testified that the logs had been altered.",
+            "She testified before the subcommittee for nearly five hours.",
+            "He refused to testify against his own brother.",
+            "The expert testified to the reliability of the test.",
+            "Nothing he testified to at trial matched his earlier statement to police."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "testify to — be evidence of",
+          "body": [
+            "With a thing as the subject, nobody is speaking: the object itself is the witness. (свидетельствовать о чём-л. (о предмете, факте))",
+            "---"
+          ],
+          "examples": [
+            "The wreckage testifies to the force of the impact.",
+            "The state of the kitchen testified to a long night.",
+            "Every page of the ledger testifies to the same habit."
+          ]
+        }
+      ],
       "русский": "давать показания под присягой — свидетельствовать в суде; сам глагол нейтрален",
       "register": "formal, legal",
       "type": "reporting verb — sworn statement given in a proceeding",

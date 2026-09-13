@@ -106,36 +106,52 @@ To decide what something will cost.
 ### discount
 
 **Pronunciation:** /ˈdɪskaʊnt/ &middot; *DIS-kownt*
-**Русский:** делать скидку, уценивать
+**Русский:** делать скидку, уценивать; сбрасывать со счетов, не принимать в расчёт
 **Forms:** *discount* &middot; *discounted* &middot; *discounted*
 **Verb class:** regular
 **Third person:** *discounts* &middot; **-ing form:** *discounting*
 **Transitivity:** transitive
 **Contrast:** As a verb you also hear dis-KOWNT; the noun (*a discount*) is always DIS-kownt.
 
-To lower the price of something.
+Discount has 2 distinct senses.
+
+**1. To lower the price of something.** (делать скидку, уценивать)
 
 1. Stores *discount* winter coats in February.
 2. They *discounted* the sofa by thirty percent.
 3. Everything on this rack is *discounted*.
+
+**2. To treat something as unimportant or unlikely to be true.** (сбрасывать со счетов, не принимать в расчёт)
+
+4. Don't *discount* the possibility that she was right all along.
+5. Investigators *discounted* the witness's story after checking the timeline.
+6. You shouldn't be *discounting* his experience just because he is young.
 
 ---
 
 ### raise
 
 **Pronunciation:** /reɪz/ &middot; *RAYZ*
-**Русский:** повышать (цены); собирать (деньги)
+**Русский:** повышать (цены); собирать (деньги); поднимать, поднять (вопрос); выражать (сомнение, возражение)
 **Forms:** *raise* &middot; *raised* &middot; *raised*
 **Verb class:** regular
 **Third person:** *raises* &middot; **-ing form:** *raising*
 **Transitivity:** transitive
 **Contrast:** *Raise* always takes an object (*raise prices*); the verb with no object is the irregular *rise* (*prices rise*).
 
-To make a price or an amount higher, or to collect money for a purpose.
+Raise has 2 distinct senses.
+
+**1. To make a price or an amount higher, or to collect money for a purpose.** (повышать (цены); собирать (деньги))
 
 1. Landlords *raise* the rent almost every year.
 2. They *raised* forty thousand dollars for the clinic.
 3. Gas prices have been *raised* twice this month.
+
+**2. To bring up a subject, a question, or an objection so that people will deal with it.** (поднимать, поднять (вопрос); выражать (сомнение, возражение))
+
+4. She *raised* the issue at the last meeting.
+5. Nobody wanted to *raise* the question of money.
+6. Several parents have *raised* concerns about the new schedule.
 
 ---
 
@@ -178,36 +194,52 @@ To sell something to whoever offers the most money.
 ### export
 
 **Pronunciation:** /ɪkˈspɔːrt/ &middot; *ik-SPORT*
-**Русский:** экспортировать, вывозить
+**Русский:** экспортировать, вывозить; экспортировать, выгружать (данные из программы)
 **Forms:** *export* &middot; *exported* &middot; *exported*
 **Verb class:** regular
 **Third person:** *exports* &middot; **-ing form:** *exporting*
 **Transitivity:** transitive
 **Contrast:** The verb is ik-SPORT, the noun EK-sport — the stress moves.
 
-To sell and send goods to another country.
+Export has 2 distinct senses.
+
+**1. To sell and send goods to another country.** (экспортировать, вывозить)
 
 1. They *export* almost half of what they grow.
 2. The company *exported* ten thousand units last year.
 3. Most of the coffee is *exported* to Europe.
+
+**2. To save data out of a program in a form that another program can open.** (экспортировать, выгружать (данные из программы))
+
+4. You can *export* the table as a CSV file.
+5. I *exported* my contacts to a spreadsheet.
+6. The chart has already been *exported* to PDF.
 
 ---
 
 ### import
 
 **Pronunciation:** /ɪmˈpɔːrt/ &middot; *im-PORT*
-**Русский:** импортировать, ввозить
+**Русский:** импортировать, ввозить; импортировать, загружать (данные в программу)
 **Forms:** *import* &middot; *imported* &middot; *imported*
 **Verb class:** regular
 **Third person:** *imports* &middot; **-ing form:** *importing*
 **Transitivity:** transitive
 **Contrast:** The verb is im-PORT, the noun IM-port.
 
-To buy goods from another country and bring them in.
+Import has 2 distinct senses.
+
+**1. To buy goods from another country and bring them in.** (импортировать, ввозить)
 
 1. We *import* most of our fruit in winter.
 2. The parts were *imported* from Korea.
 3. They stopped *importing* steel after the tariff.
+
+**2. To bring a file or data into a program from somewhere else.** (импортировать, загружать (данные в программу))
+
+4. You can *import* your contacts from a spreadsheet.
+5. I *imported* the photos into the editor last night.
+6. The app is *importing* your calendar now.
 
 ---
 
@@ -321,35 +353,51 @@ To send a business a written bill for goods or work.
 ### overcharge
 
 **Pronunciation:** /ˌoʊvərˈtʃɑːrdʒ/ &middot; *oh-vur-CHARJ*
-**Русский:** брать лишнее, завышать цену
+**Русский:** брать лишнее, завышать цену; перезаряжать (аккумулятор), перезарядить
 **Forms:** *overcharge* &middot; *overcharged* &middot; *overcharged*
 **Verb class:** regular
 **Third person:** *overcharges* &middot; **-ing form:** *overcharging*
 **Transitivity:** both — transitive (they overcharged me), intransitive (that shop overcharges)
 
-To make someone pay more than the correct price.
+Overcharge has 2 distinct senses.
+
+**1. To make someone pay more than the correct price.** (брать лишнее, завышать цену)
 
 1. Restaurants near the airport *overcharge* for everything.
 2. The garage *overcharged* us by a hundred dollars.
 3. I think we're being *overcharged*.
+
+**2. To put too much electricity into a battery.** (перезаряжать (аккумулятор), перезарядить)
+
+4. Don't *overcharge* the battery or it will swell.
+5. He *overcharged* the cells and ruined the pack.
+6. The batteries had been *overcharged* overnight.
 
 ---
 
 ### tax
 
 **Pronunciation:** /tæks/ &middot; *TAKS*
-**Русский:** облагать налогом
+**Русский:** облагать налогом; изматывать, утомлять; испытывать (терпение)
 **Forms:** *tax* &middot; *taxed* &middot; *taxed*
 **Verb class:** regular
 **Third person:** *taxes* &middot; **-ing form:** *taxing*
 **Transitivity:** transitive
 **Contrast:** Add *-es* after *-x*: *taxes*.
 
-To make people pay money to the government on goods, income or property.
+Tax has 2 distinct senses.
+
+**1. To make people pay money to the government on goods, income or property.** (облагать налогом)
 
 1. The state *taxes* restaurant meals.
 2. They *taxed* the sale at eight percent.
 3. Cigarettes are *taxed* heavily here.
+
+**2. To make heavy demands on someone's strength, time, or patience.** (изматывать, утомлять; испытывать (терпение))
+
+4. These meetings *tax* my patience.
+5. The long climb *taxed* her strength.
+6. Caring for a newborn alone is *taxing*.
 
 ---
 
@@ -392,17 +440,25 @@ To examine something professionally and state its value.
 ### audit
 
 **Pronunciation:** /ˈɔːdət/ &middot; *AW-dut*
-**Русский:** проводить аудит, проверять отчётность
+**Русский:** проводить аудит, проверять отчётность; слушать курс вольнослушателем, посещать без зачёта
 **Forms:** *audit* &middot; *audited* &middot; *audited*
 **Verb class:** regular
 **Third person:** *audits* &middot; **-ing form:** *auditing*
 **Transitivity:** transitive
 
-To check someone's financial records officially.
+Audit has 2 distinct senses.
+
+**1. To check someone's financial records officially.** (проводить аудит, проверять отчётность)
 
 1. The IRS can *audit* returns up to three years old.
 2. Their books were *audited* last spring.
 3. An outside firm is *auditing* the accounts.
+
+**2. To attend a college course without taking the exams or earning credit.** (слушать курс вольнослушателем, посещать без зачёта)
+
+4. You can *audit* the course for free if you don't need the credit.
+5. She *audited* two graduate seminars before she applied.
+6. I'm *auditing* a Spanish class this semester.
 
 ---
 
@@ -446,17 +502,25 @@ To spend less money than before.
 ### conserve
 
 **Pronunciation:** /kənˈsɜːrv/ &middot; *kuhn-SURV*
-**Русский:** беречь, экономно расходовать
+**Русский:** беречь, экономно расходовать; сохранять, охранять (природу, памятники), сберечь
 **Forms:** *conserve* &middot; *conserved* &middot; *conserved*
 **Verb class:** regular
 **Third person:** *conserves* &middot; **-ing form:** *conserving*
 **Transitivity:** transitive
 
-To use something carefully so that it lasts longer.
+Conserve has 2 distinct senses.
+
+**1. To use something carefully so that it lasts longer.** (беречь, экономно расходовать)
 
 1. Small shops have to *conserve* cash in the winter.
 2. They *conserved* fuel by driving less.
 3. The company is *conserving* money by not hiring.
+
+**2. To protect a natural place, a species, or an old building from harm or loss.** (сохранять, охранять (природу, памятники), сберечь)
+
+4. The trust works to *conserve* wetlands along the coast.
+5. The town *conserved* its old courthouse instead of tearing it down.
+6. Several rare species are being *conserved* in the park.
 
 ---
 
@@ -536,36 +600,52 @@ To make money out of a deal or a situation.
 ### diversify
 
 **Pronunciation:** /dəˈvɜːrsəfaɪ/ &middot; *duh-VUR-suh-fy*
-**Русский:** диверсифицировать, распределять вложения
+**Русский:** диверсифицировать, распределять вложения; расширять ассортимент, осваивать новые направления
 **Forms:** *diversify* &middot; *diversified* &middot; *diversified*
 **Verb class:** regular
 **Third person:** *diversifies* &middot; **-ing form:** *diversifying*
 **Transitivity:** both — transitive (diversify your savings), intransitive (investors should diversify)
 **Contrast:** *-y* after a consonant becomes *-ies* and *-ied*: *diversifies*, *diversified*.
 
-To put money into several different things so that one loss cannot ruin you.
+Diversify has 2 distinct senses.
+
+**1. To put money into several different things so that one loss cannot ruin you.** (диверсифицировать, распределять вложения)
 
 1. Advisers always tell you to *diversify*.
 2. She *diversified* her savings after the crash.
 3. The firm is *diversifying* into groceries.
+
+**2. For a business to start selling new kinds of products or move into new activities.** (расширять ассортимент, осваивать новые направления)
+
+4. Small stores have to *diversify* to survive.
+5. The farm *diversified* into cheese and weekend tourism.
+6. The company has been *diversifying* away from print for a decade.
 
 ---
 
 ### possess
 
 **Pronunciation:** /pəˈzɛs/ &middot; *puh-ZESS*
-**Русский:** обладать, владеть
+**Русский:** обладать, владеть; овладевать (кем-л.), овладеть; вселяться (о духе); находить (что на тебя нашло)
 **Forms:** *possess* &middot; *possessed* &middot; *possessed*
 **Verb class:** regular
 **Third person:** *possesses* &middot; **-ing form:** *possessing*
 **Transitivity:** transitive
 **Contrast:** The *ss* in the middle sounds like a *z*: puh-ZESS.
 
-To have something, especially as property.
+Possess has 2 distinct senses.
+
+**1. To have something, especially as property.** (обладать, владеть)
 
 1. Almost nobody *possesses* enough cash to buy a house outright.
 2. She *possessed* very little when she arrived.
 3. Everything *possessed* by the company was sold to pay the debt.
+
+**2. To take complete control of someone's mind or behavior, as a spirit or a strange impulse is said to do.** (овладевать (кем-л.), овладеть; вселяться (о духе); находить (что на тебя нашло))
+
+4. What *possessed* you to tell her that?
+5. In the movie a demon *possesses* the youngest child.
+6. He tore through the house like a man *possessed*.
 
 ---
 
@@ -590,17 +670,25 @@ To borrow money using your house or land as security.
 ### redeem
 
 **Pronunciation:** /rɪˈdiːm/ &middot; *ri-DEEM*
-**Русский:** погашать; отоваривать (купон)
+**Русский:** погашать; отоваривать (купон); искупать, искупить (вину); реабилитировать себя, исправить впечатление
 **Forms:** *redeem* &middot; *redeemed* &middot; *redeemed*
 **Verb class:** regular
 **Third person:** *redeems* &middot; **-ing form:** *redeeming*
 **Transitivity:** transitive
 
-To exchange a coupon, a voucher or points for goods or money.
+Redeem has 2 distinct senses.
+
+**1. To exchange a coupon, a voucher or points for goods or money.** (погашать; отоваривать (купон))
 
 1. You can *redeem* the coupon at any branch.
 2. She *redeemed* her points for a flight.
 3. The gift card has already been *redeemed*.
+
+**2. To make up for a mistake or a fault and win back people's good opinion.** (искупать, искупить (вину); реабилитировать себя, исправить впечатление)
+
+4. One good scene can't *redeem* a bad movie.
+5. He *redeemed* himself with a touchdown in the last minute.
+6. The film is *redeemed* by its final twenty minutes.
 
 ---
 
@@ -643,35 +731,69 @@ To give official permission to sell something, or to let a company use your name
 ### convert
 
 **Pronunciation:** /kənˈvɜːrt/ &middot; *kuhn-VURT*
-**Русский:** конвертировать, обменивать (валюту)
+**Русский:** конвертировать, обменивать (валюту); превращать, переделывать, преобразовать; обращать в веру; переходить в другую веру
 **Forms:** *convert* &middot; *converted* &middot; *converted*
 **Verb class:** regular
 **Third person:** *converts* &middot; **-ing form:** *converting*
 **Transitivity:** transitive
 **Contrast:** The verb is kuhn-VURT, the noun KAHN-vurt.
 
-To change money from one currency into another.
+Convert has 3 distinct senses.
+
+**1. To change money from one currency into another.** (конвертировать, обменивать (валюту))
 
 1. The app *converts* dollars to euros instantly.
 2. We *converted* the last of our cash at the airport.
 3. Prices are *converted* at yesterday's rate.
+
+**2. To change something into a different form or a different use.** (превращать, переделывать, преобразовать)
+
+4. They *converted* the garage into a bedroom.
+5. Solar panels *convert* sunlight into electricity.
+6. The old factory is being *converted* into apartments.
+
+**3. To change your religion, or to make someone else change theirs.** (обращать в веру; переходить в другую веру)
+
+7. He *converted* to Judaism before the wedding.
+8. Missionaries tried to *convert* the whole village.
+9. She was *converted* by a book she read in college.
 
 ---
 
 ### swipe
 
 **Pronunciation:** /swaɪp/ &middot; *SWYPE*
-**Русский:** проводить картой, прокатывать карту
+**Русский:** проводить картой, прокатывать карту; проводить пальцем по экрану, смахивать, листать; стащить, стянуть, украсть (по мелочи); махнуть (лапой, рукой), ударить наотмашь
 **Forms:** *swipe* &middot; *swiped* &middot; *swiped*
 **Verb class:** regular
 **Third person:** *swipes* &middot; **-ing form:** *swiping*
 **Transitivity:** transitive
 
-To pass a bank card through a machine to pay.
+Swipe has 4 distinct senses.
+
+**1. To pass a bank card through a machine to pay.** (проводить картой, прокатывать карту)
 
 1. *Swipe* your card and enter the PIN.
 2. She *swiped* the card twice by mistake.
 3. He was still *swiping* when the machine froze.
+
+**2. To slide a finger across a touchscreen.** (проводить пальцем по экрану, смахивать, листать)
+
+4. *Swipe* left to delete the message.
+5. She *swiped* through her photos the whole train ride.
+6. He kept *swiping* at the screen with wet hands.
+
+**3. To steal something small, in informal speech.** (стащить, стянуть, украсть (по мелочи))
+
+7. Someone *swiped* my umbrella from the hallway.
+8. Don't leave your phone where a kid can *swipe* it.
+9. Half the candy had been *swiped* before the party started.
+
+**4. To hit out at something with a quick sweeping movement.** (махнуть (лапой, рукой), ударить наотмашь)
+
+10. The cat *swiped* at my hand.
+11. A bear can *swipe* hard enough to break bone.
+12. He was *swiping* at flies with a dish towel.
 
 ---
 

@@ -144,13 +144,19 @@ Stands for a whole possessive noun phrase — “the one, or the ones, belonging
 
 Stands for a whole possessive noun phrase — “the one, or the ones, belonging to them.”
 
+**1. Belonging to two or more people.** (их — принадлежащее им)
+
 1. The corner office is *theirs*.
 2. Our numbers are up; *theirs* are flat. (subject, plural referent — *are*)
 3. *Theirs* was the only bid that came in under budget. (subject, singular referent — *was*)
 4. He's a client of *theirs*. (double genitive)
-5. Somebody left a phone on the seat — I think it's *theirs*. (singular *they*, standard American usage)
-6. Whose turn is it, ours or *theirs*? (question)
-7. The mistake wasn't *theirs*. (negative)
+5. Whose turn is it, ours or *theirs*? (question)
+
+**2. Belonging to one person referred to as *they*.** (его, её — об одном лице неизвестного или небинарного пола)
+
+6. Somebody left a phone on the seat — I think it's *theirs*.
+7. Robin brought a laptop, but the projector cable wasn't *theirs*.
+8. Whoever filed this signed the wrong line, so the mistake is *theirs* to fix.
 
 **See also:** [their (determiner)](../../09-determiners/catalog/03-possessives.md#their), [there's (not a possessive pronoun)](#theres-not-a-possessive-pronoun), [they're (not a possessive pronoun)](#theyre-not-a-possessive-pronoun), [ours](#ours), [his or hers](#his-or-hers), [zirs](#zirs), [they](01-personal.md#they)
 
@@ -167,13 +173,20 @@ Stands for a whole possessive noun phrase — “the one, or the ones, belonging
 
 Stands for a whole possessive noun phrase — “the one, or the ones, belonging to you.”
 
+**1. The thing belonging to the person or people addressed.** (твой, ваш — без существительного: «это твоё»)
+
 1. Is this seat *yours*?
 2. My flight is at six; *yours* is at nine. (subject, singular referent — *is*)
 3. *Yours* are the only comments I haven't read yet. (subject, plural referent — *are*)
 4. She's a big fan of *yours*. (double genitive)
 5. The choice is *yours*.
 6. That coat isn't *yours* — check the label. (negative)
-7. Sincerely *yours*, / *Yours* truly (fixed letter closings)
+
+**2. The frozen letter closings, and the jocular *yours truly*, which means “me.”** (в концовке письма — «искренне Ваш»; yours truly разг. — «ваш покорный слуга», то есть я сам)
+
+7. Sincerely *yours*, / *Yours* truly, / Very truly *yours*, (fixed closings: a comma follows, and only the first word is capitalized)
+8. Guess who got stuck cleaning up afterward? *Yours* truly.
+9. The photograph on the left was taken by *yours* truly.
 
 **See also:** [your (determiner)](../../09-determiners/catalog/03-possessives.md#your), [mine](#mine), [ours](#ours), [y'all's](#yalls), [you're (not a possessive pronoun)](#youre-not-a-possessive-pronoun)
 
@@ -577,14 +590,21 @@ The *else* frame, which pushes the genitive ending onto *else* — “belonging 
 
 Names an unspecified possessor — “belonging to any person at all,” and by extension “up for grabs.”
 
-1. With two laps to go, the race was still *anyone's*.
-2. My guess is as good as *anyone's*.
-3. Nobody claimed the wallet, so it could be *anybody's*.
-4. His chances are better than *anyone's* on that roster.
-5. Whose signature is missing? At this point it could be *anyone's*.
-6. *Anyone's* is better than nothing at this point. (subject, singular verb — *is*)
-7. Don't go by mine — go by *anyone's* on the committee. (object of a preposition)
-8. *Anyone's* welcome to try. (not the possessive — this is *anyone is*)
+**1. Belonging to any person at all.** (чей угодно — принадлежащий любому человеку)
+
+1. My guess is as good as *anyone's*.
+2. Nobody claimed the wallet, so it could be *anybody's*.
+3. His chances are better than *anyone's* on that roster.
+4. Whose signature is missing? At this point it could be *anyone's*.
+5. *Anyone's* is better than nothing at this point. (subject, singular verb — *is*)
+6. Don't go by mine — go by *anyone's* on the committee. (object of a preposition)
+
+**2. Up for grabs — still undecided, open to whoever takes it.** (ещё не решено; выиграть может кто угодно)
+
+7. With two laps to go, the race was still *anyone's*.
+8. That seat has been *anybody's* since the incumbent retired.
+9. Which way the county goes on Tuesday is still *anyone's*.
+10. *Anyone's* welcome to try. (not the possessive at all — this is *anyone is*)
 
 **See also:** [everyone's](#everyones), [nobody's](#nobodys), [somebody's](#somebodys), [somebody else's](#somebody-elses), [anyone](07-indefinite-compound.md#anyone)
 
@@ -625,13 +645,24 @@ Names the whole group as possessor — “belonging to every person in it,” an
 
 A name plus *'s*, standing in for the whole possessive noun phrase — “the one belonging to John.”
 
+**1. The thing belonging to John.** (Джона — вещь, принадлежащая Джону)
+
 1. The blue car in the driveway is *John's*.
 2. *John's* is the desk by the window. (subject, singular referent — *is*)
-3. We're having dinner at *John's* tonight. (locative genitive — *John's house*)
-4. She's a cousin of *John's*. (double genitive)
-5. Both signatures were *Maria's*, not *John's*.
-6. Is that mug *John's* or mine? (question)
-7. *John's* was the only application filed on time.
+3. Both signatures were Maria's, not *John's*.
+4. Is that mug *John's* or mine? (question)
+5. *John's* was the only application filed on time.
+
+**2. The locative genitive — *at John's*, with *house* or *place* understood.** (у Джона, к Джону — домой, в заведение)
+
+6. We're having dinner at *John's* tonight.
+7. Drop the keys off at *John's* on your way in.
+8. They met at *John's* and walked over together. (the same fused genitive behind store names like *Macy's* and *Trader Joe's*)
+
+**3. The double genitive — the possessor himself, after *of*.** (в обороте a friend of John's — «один из друзей Джона»)
+
+9. She's a cousin of *John's*.
+10. An old teacher of *John's* wrote the recommendation.
 
 **See also:** [John's (determiner)](../../09-determiners/catalog/03-possessives.md#johns), [the company's](#the-companys), [the Smiths'](#the-smiths), [of mine (the double genitive)](#of-mine-the-double-genitive), ['s (singular genitive)](../../09-determiners/catalog/03-possessives.md#s-singular-genitive)
 
@@ -674,14 +705,21 @@ Names the absence of a possessor — “belonging to no one.”
 
 A possessive plus *own*, standing where a pronoun would — “the one belonging to that person and to nobody else.”
 
+**1. Belonging to that person and to nobody else.** (свой собственный — подчёркнуто: ничей больше)
+
 1. Don't take an office pen — bring *your own*.
 2. Everyone at the potluck brought *their own*.
 3. What she wanted most was a room of *her own*. (the *of*-frame)
-4. The city has a rhythm all *its own* — the standard repair for the missing standalone *its*.
-5. *My own* is still in the shop, so I borrowed his. (subject, singular referent — *is*)
-6. He finished the whole thing on *his own*. (fixed frame — “unaided”)
-7. She held *her own* against three older players. (fixed frame — “kept up”)
-8. ✗ *The choice is one's* is not English; the repair is *the choice is one's own*.
+4. *My own* is still in the shop, so I borrowed his. (subject, singular referent — *is*)
+5. The city has a rhythm all *its own* — the standard repair for the missing standalone *its*.
+6. ✗ *The choice is one's* is not English; the repair is *the choice is one's own*.
+
+**2. The fixed frames *on one's own*, *hold one's own*, *come into one's own*.** (сам, самостоятельно; в одиночку; не уступать; наконец раскрыться)
+
+7. He finished the whole thing on *his own*. (“unaided”)
+8. She lived on *her own* for the first time that year. (“alone”)
+9. She held *her own* against three older players. (“kept up with them”)
+10. The design came into *its own* only after the building went up. (“was finally appreciated”)
 
 **See also:** [own (determiner)](../../09-determiners/catalog/03-possessives.md#own), [one's (determiner)](../../09-determiners/catalog/03-possessives.md#ones), [its](#its), [mine](#mine), [of mine (the double genitive)](#of-mine-the-double-genitive)
 
@@ -816,14 +854,20 @@ An institution's name or description plus *'s*, standing alone — “the one be
 
 A plural family name plus the plural apostrophe, standing alone — “the one, or the ones, belonging to the Smiths.”
 
+**1. The thing belonging to the family.** (Смитов — принадлежащее семье Смитов)
+
 1. The house with the red door is *the Smiths'*.
 2. That mail is *the Smiths'* — it landed in our box again.
 3. Our yard ends at the fence; everything past it is *the Smiths'*.
 4. *The Smiths'* is the only house on the block with a porch swing. (subject, singular referent — *is*)
-5. The lawn mower isn't ours; it's *the neighbors'*. (negative)
-6. Which boat is *the Joneses'*? (question — a name ending in a sibilant)
-7. Our driveway is narrower than *the Smiths'*. (comparison)
-8. She's a cousin of *the Smiths'* from out of state. (double genitive)
+5. Our driveway is narrower than *the Smiths'*. (comparison)
+6. Which boat is *the Joneses'*? (a name ending in a sibilant)
+
+**2. The locative genitive — *at the Smiths'*, meaning at their house.** (у Смитов, к Смитам — в гости, домой)
+
+7. We're eating at *the Smiths'* on Christmas Eve.
+8. The kids stayed over at *the Smiths'* while we drove back.
+9. She's a cousin of *the Smiths'* from out of state. (double genitive)
 
 **See also:** [the children's](#the-childrens), [John's](#johns), [s' (plural genitive)](../../09-determiners/catalog/03-possessives.md#s-plural-genitive), [the company's](#the-companys)
 
@@ -1090,12 +1134,19 @@ The apostrophe errors that the possessive pronouns attract — listed here only 
 
 The contraction of *it is* or *it has* — a possessive-shaped trap with no possessive function whatsoever.
 
+**1. *it is*.** (это; безличное «идёт, есть» — сокращение it is)
+
 1. *It's* going to rain all weekend.
-2. *It's* been three years since we moved. (*it has*)
-3. I think *it's* your turn.
-4. *It's* not the money, *it's* the principle. (negative)
-5. Do you think *it's* too late to call? (question — and the test still works: *do you think it is too late*)
-6. If *it's* broken, its warranty should cover the repair. (both words, one sentence)
+2. I think *it's* your turn.
+3. *It's* not the money, *it's* the principle. (negative)
+4. Do you think *it's* too late to call? (question — and the test still works: *do you think it is too late*)
+
+**2. *it has*, only in front of a past participle.** (сокращение it has — только перед причастием прошедшего времени)
+
+5. *It's* been three years since we moved.
+6. *It's* rained every day this week.
+7. *It's* got a crack down one side. (*it has got*)
+8. If *it's* broken, its warranty should cover the repair. (both words, one sentence)
 
 **See also:** [its](#its), [who's (not a possessive pronoun)](#whos-not-a-possessive-pronoun), [you're (not a possessive pronoun)](#youre-not-a-possessive-pronoun), [it's (determiner dictionary)](../../09-determiners/catalog/03-possessives.md#its-not-a-determiner)
 
@@ -1112,12 +1163,18 @@ The contraction of *it is* or *it has* — a possessive-shaped trap with no poss
 
 The contraction of existential or locative *there* with *is* or *has* — a homophone of *theirs* with no possessive meaning at all.
 
+**1. *there is*.** (есть, имеется — сокращение there is)
+
 1. *There's* a problem with the second invoice.
-2. *There's* been a mistake. (*there has*)
-3. *There's* nothing left in the fridge. (negative)
-4. *There's* three people ahead of us. (ordinary speech; formal writing takes *There are three people*)
-5. ✗ The blue car is *there's*. → ✓ The blue car is theirs.
-6. *There's* their car, and the one behind it is theirs too. (all three words, one sentence)
+2. *There's* nothing left in the fridge. (negative)
+3. *There's* three people ahead of us. (ordinary speech; formal writing takes *There are three people*)
+
+**2. *there has*, in front of a past participle.** (сокращение there has — перед причастием прошедшего времени)
+
+4. *There's* been a mistake.
+5. *There's* never been a year like this one.
+6. ✗ The blue car is *there's*. → ✓ The blue car is theirs.
+7. *There's* their car, and the one behind it is theirs too. (all three words, one sentence)
 
 **See also:** [theirs](#theirs), [they're (not a possessive pronoun)](#theyre-not-a-possessive-pronoun), [it's (not a possessive pronoun)](#its-not-a-possessive-pronoun)
 
@@ -1156,12 +1213,19 @@ The contraction of *they are* — a homophone of *their* and *there*, and no kin
 
 The contraction of *who is* or *who has* — a homophone of *whose* with no possessive function.
 
+**1. *who is*.** (кто есть — сокращение who is)
+
 1. *Who's* calling, please?
-2. *Who's* been using my charger? (*who has*)
+2. *Who's* not on the list yet? (negative)
 3. She's the one *who's* in charge of scheduling. (relative clause)
-4. *Who's* not on the list yet? (negative)
-5. ✗ *Who's* keys are these? → ✓ Whose keys are these?
-6. *Who's* the owner, and whose is the truck out front? (both words, one sentence)
+4. *Who's* the owner, and whose is the truck out front? (both words, one sentence)
+
+**2. *who has*, in front of a past participle or in *who's got*.** (сокращение who has — перед причастием прошедшего времени)
+
+5. *Who's* been using my charger?
+6. Anyone *who's* finished may leave early.
+7. *Who's* got the key to the supply closet?
+8. ✗ *Who's* keys are these? → ✓ Whose keys are these?
 
 **See also:** [whose](#whose), [who](05-relative.md#who), [it's (not a possessive pronoun)](#its-not-a-possessive-pronoun), [who's (determiner dictionary)](../../09-determiners/catalog/03-possessives.md#whos-not-a-determiner)
 

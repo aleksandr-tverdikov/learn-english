@@ -6,14 +6,43 @@
       "term": "honk",
       "ipa": "/hɑːŋk/",
       "respell": "HAHNK",
-      "meaning": "To sound a vehicle horn. ---",
+      "meaning": "Honk has 2 distinct senses.",
       "examples": [
         "Do not honk in a hospital zone.",
         "The cab behind us honked twice.",
-        "Someone has been honking at that stalled van for a minute."
+        "Someone has been honking at that stalled van for a minute.",
+        "Wild geese honk all the way down the valley.",
+        "Something honked out on the pond before dawn.",
+        "We could hear the flock honking overhead."
       ],
-      "senses": [],
-      "русский": "сигналить, бибикать, посигналить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To sound a vehicle horn",
+          "body": [
+            "(сигналить, бибикать, посигналить)"
+          ],
+          "examples": [
+            "Do not honk in a hospital zone.",
+            "The cab behind us honked twice.",
+            "Someone has been honking at that stalled van for a minute."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make the loud call of a goose",
+          "body": [
+            "(гоготать (о гусях), кричать)",
+            "---"
+          ],
+          "examples": [
+            "Wild geese honk all the way down the valley.",
+            "Something honked out on the pond before dawn.",
+            "We could hear the flock honking overhead."
+          ]
+        }
+      ],
+      "русский": "сигналить, бибикать, посигналить; гоготать (о гусях), кричать",
       "forms": "honk · honked · honked",
       "verb class": "regular",
       "third person": "honks · -ing form: honking",
@@ -40,14 +69,43 @@
       "term": "idle",
       "ipa": "/ˈaɪdəl/",
       "respell": "EYE-duhl",
-      "meaning": "To run an engine while the vehicle is not moving. ---",
+      "meaning": "Idle has 2 distinct senses.",
       "examples": [
         "Diesel engines idle louder than gas engines.",
         "The bus idled at the curb for ten minutes.",
-        "A sign asks drivers to stop idling near the school."
+        "A sign asks drivers to stop idling near the school.",
+        "The strike idled four thousand workers.",
+        "The plant has been idled since June.",
+        "A parts shortage is idling two assembly lines."
       ],
-      "senses": [],
-      "русский": "работать на холостом ходу; держать двигатель включённым",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To run an engine while the vehicle is not moving",
+          "body": [
+            "(работать на холостом ходу; держать двигатель включённым)"
+          ],
+          "examples": [
+            "Diesel engines idle louder than gas engines.",
+            "The bus idled at the curb for ten minutes.",
+            "A sign asks drivers to stop idling near the school."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To shut a factory or a workforce down for a period of time",
+          "body": [
+            "(останавливать, остановить (производство); отправлять в простой)",
+            "---"
+          ],
+          "examples": [
+            "The strike idled four thousand workers.",
+            "The plant has been idled since June.",
+            "A parts shortage is idling two assembly lines."
+          ]
+        }
+      ],
+      "русский": "работать на холостом ходу; держать двигатель включённым; останавливать, остановить (производство); отправлять в простой",
       "forms": "idle · idled · idled",
       "verb class": "regular",
       "third person": "idles · -ing form: idling",
@@ -78,14 +136,43 @@
       "term": "tailgate",
       "ipa": "/ˈteɪlɡeɪt/",
       "respell": "TAYL-gayt",
-      "meaning": "To drive too close behind another vehicle. ---",
+      "meaning": "Tailgate has 2 distinct senses.",
       "examples": [
         "Please do not tailgate on an icy road.",
         "A pickup tailgated us for ten miles.",
-        "He rear-ended her because he was tailgating."
+        "He rear-ended her because he was tailgating.",
+        "We always tailgate before home games.",
+        "They tailgated in the north lot for three hours.",
+        "Half the crowd was still tailgating at kickoff."
       ],
-      "senses": [],
-      "русский": "ехать вплотную, сидеть на хвосте",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To drive too close behind another vehicle",
+          "body": [
+            "(ехать вплотную, сидеть на хвосте)"
+          ],
+          "examples": [
+            "Please do not tailgate on an icy road.",
+            "A pickup tailgated us for ten miles.",
+            "He rear-ended her because he was tailgating."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To eat and drink in a stadium parking lot before a game",
+          "body": [
+            "(устраивать пикник на парковке перед матчем)",
+            "---"
+          ],
+          "examples": [
+            "We always tailgate before home games.",
+            "They tailgated in the north lot for three hours.",
+            "Half the crowd was still tailgating at kickoff."
+          ]
+        }
+      ],
+      "русский": "ехать вплотную, сидеть на хвосте; устраивать пикник на парковке перед матчем",
       "forms": "tailgate · tailgated · tailgated",
       "verb class": "regular",
       "third person": "tailgates · -ing form: tailgating",
@@ -113,14 +200,58 @@
       "term": "start",
       "ipa": "/stɑːrt/",
       "respell": "STAHRT",
-      "meaning": "To make an engine begin to run, or to begin to run. ---",
+      "meaning": "Start has 3 distinct senses.",
       "examples": [
         "Start the car and let it warm up.",
         "The van started on the third try.",
-        "It has not started once since the cold snap."
+        "It has not started once since the cold snap.",
+        "The movie starts at eight.",
+        "She started crying before the song ended.",
+        "We have already started packing.",
+        "They want to start a bakery downtown.",
+        "He started the company in his garage.",
+        "She has started a book club at the library."
       ],
-      "senses": [],
-      "русский": "заводить, завести (двигатель); трогаться с места",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make an engine begin to run, or to begin to run",
+          "body": [
+            "(заводить, завести (двигатель); трогаться с места)"
+          ],
+          "examples": [
+            "Start the car and let it warm up.",
+            "The van started on the third try.",
+            "It has not started once since the cold snap."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To begin doing something, or to begin happening",
+          "body": [
+            "(начинать, начать; начинаться, начаться)"
+          ],
+          "examples": [
+            "The movie starts at eight.",
+            "She started crying before the song ended.",
+            "We have already started packing."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To set up a new business, group, or project",
+          "body": [
+            "(основывать, основать; открывать, открыть (своё дело))",
+            "---"
+          ],
+          "examples": [
+            "They want to start a bakery downtown.",
+            "He started the company in his garage.",
+            "She has started a book club at the library."
+          ]
+        }
+      ],
+      "русский": "заводить, завести (двигатель); трогаться с места; начинать, начать; начинаться, начаться; основывать, основать; открывать, открыть (своё дело)",
       "forms": "start · started · started",
       "verb class": "regular",
       "third person": "starts · -ing form: starting",
@@ -131,14 +262,43 @@
       "term": "maneuver",
       "ipa": "/məˈnuːvər/",
       "respell": "muh-NOO-ver",
-      "meaning": "To move a vehicle carefully into or through a tight place. ---",
+      "meaning": "Maneuver has 2 distinct senses.",
       "examples": [
         "It takes practice to maneuver a long trailer.",
         "She maneuvered the forklift between two pallets.",
-        "He was maneuvering out of the space when the mirror caught."
+        "He was maneuvering out of the space when the mirror caught.",
+        "He knows how to maneuver around the board's objections.",
+        "She maneuvered herself into the top job in two years.",
+        "They spent the spring maneuvering for the nomination."
       ],
-      "senses": [],
-      "русский": "маневрировать, сманеврировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move a vehicle carefully into or through a tight place",
+          "body": [
+            "(маневрировать, сманеврировать)"
+          ],
+          "examples": [
+            "It takes practice to maneuver a long trailer.",
+            "She maneuvered the forklift between two pallets.",
+            "He was maneuvering out of the space when the mirror caught."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To use clever or indirect moves to get into the position you want",
+          "body": [
+            "(лавировать, маневрировать; добиваться хитростью)",
+            "---"
+          ],
+          "examples": [
+            "He knows how to maneuver around the board's objections.",
+            "She maneuvered herself into the top job in two years.",
+            "They spent the spring maneuvering for the nomination."
+          ]
+        }
+      ],
+      "русский": "маневрировать, сманеврировать; лавировать, маневрировать; добиваться хитростью",
       "forms": "maneuver · maneuvered · maneuvered",
       "verb class": "regular",
       "third person": "maneuvers · -ing form: maneuvering",
@@ -184,14 +344,43 @@
       "term": "inflate",
       "ipa": "/ɪnˈfleɪt/",
       "respell": "in-FLAYT",
-      "meaning": "To fill something with air until it is firm. ---",
+      "meaning": "Inflate has 2 distinct senses.",
       "examples": [
         "Inflate the tires to thirty-five pounds.",
         "He inflated the spare before the trip.",
-        "The airbag had already inflated when help arrived."
+        "The airbag had already inflated when help arrived.",
+        "He inflated his sales numbers to look good.",
+        "Hotels inflate prices during the festival.",
+        "The figures had been inflated for years before anyone checked."
       ],
-      "senses": [],
-      "русский": "накачивать, накачать (шину)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fill something with air until it is firm",
+          "body": [
+            "(накачивать, накачать (шину))"
+          ],
+          "examples": [
+            "Inflate the tires to thirty-five pounds.",
+            "He inflated the spare before the trip.",
+            "The airbag had already inflated when help arrived."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a number, price, or claim bigger than it really is",
+          "body": [
+            "(завышать, завысить; раздувать (цифры, цены))",
+            "---"
+          ],
+          "examples": [
+            "He inflated his sales numbers to look good.",
+            "Hotels inflate prices during the festival.",
+            "The figures had been inflated for years before anyone checked."
+          ]
+        }
+      ],
+      "русский": "накачивать, накачать (шину); завышать, завысить; раздувать (цифры, цены)",
       "forms": "inflate · inflated · inflated",
       "verb class": "regular",
       "third person": "inflates · -ing form: inflating",
@@ -239,14 +428,43 @@
       "term": "hitch",
       "ipa": "/hɪtʃ/",
       "respell": "HICH",
-      "meaning": "To attach a trailer to a vehicle that will pull it. ---",
+      "meaning": "Hitch has 2 distinct senses.",
       "examples": [
         "Hitch the trailer and check the lights.",
         "He hitched the boat to his pickup.",
-        "The camper was hitched to an old van."
+        "The camper was hitched to an old van.",
+        "We hitched a ride to the next town.",
+        "He hitches to work whenever his truck won't start.",
+        "They spent the summer hitching across the country."
       ],
-      "senses": [],
-      "русский": "прицеплять, прицепить, зацепить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To attach a trailer to a vehicle that will pull it",
+          "body": [
+            "(прицеплять, прицепить, зацепить)"
+          ],
+          "examples": [
+            "Hitch the trailer and check the lights.",
+            "He hitched the boat to his pickup.",
+            "The camper was hitched to an old van."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To get a free ride by standing at the roadside and signaling to drivers",
+          "body": [
+            "(ехать автостопом, поймать попутку)",
+            "---"
+          ],
+          "examples": [
+            "We hitched a ride to the next town.",
+            "He hitches to work whenever his truck won't start.",
+            "They spent the summer hitching across the country."
+          ]
+        }
+      ],
+      "русский": "прицеплять, прицепить, зацепить; ехать автостопом, поймать попутку",
       "forms": "hitch · hitched · hitched",
       "verb class": "regular",
       "third person": "hitches · -ing form: hitching",
@@ -312,14 +530,43 @@
       "term": "hail",
       "ipa": "/heɪl/",
       "respell": "HAYL",
-      "meaning": "To call to a taxi or driver to stop for you. ---",
+      "meaning": "Hail has 2 distinct senses.",
       "examples": [
         "It is hard to hail a cab in the rain.",
         "He hailed a taxi outside the station.",
-        "She was hailing a cab with one arm and holding her bag with the other."
+        "She was hailing a cab with one arm and holding her bag with the other.",
+        "Critics hailed the album as a masterpiece.",
+        "He was hailed as a hero for weeks.",
+        "The papers are hailing the deal as a breakthrough."
       ],
-      "senses": [],
-      "русский": "ловить (такси), подзывать, остановить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To call to a taxi or driver to stop for you",
+          "body": [
+            "(ловить (такси), подзывать, остановить)"
+          ],
+          "examples": [
+            "It is hard to hail a cab in the rain.",
+            "He hailed a taxi outside the station.",
+            "She was hailing a cab with one arm and holding her bag with the other."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To praise someone or something publicly as very good or important",
+          "body": [
+            "(превозносить, провозглашать, объявлять (кем-л.))",
+            "---"
+          ],
+          "examples": [
+            "Critics hailed the album as a masterpiece.",
+            "He was hailed as a hero for weeks.",
+            "The papers are hailing the deal as a breakthrough."
+          ]
+        }
+      ],
+      "русский": "ловить (такси), подзывать, остановить; превозносить, провозглашать, объявлять (кем-л.)",
       "forms": "hail · hailed · hailed",
       "verb class": "regular",
       "third person": "hails · -ing form: hailing",

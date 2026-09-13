@@ -22,12 +22,19 @@ The everyday words for "this is true, and it doesn't change anything." Most of t
 
 Introduces a fact that makes the main clause surprising. Unlike *but*, it subordinates — the *although* clause is the concession and the main clause carries the point, so which clause you put it on changes what the sentence is arguing. Against *though* it is the heavier, more written of the two, and it can never be tacked onto the end of a sentence as an afterthought.
 
+**1. Concession — a fact that makes the main clause surprising.** The *although* clause is the concession and the main clause carries the point, so which half of the sentence you put it on decides what is being argued. (хотя; несмотря на то что)
+
 1. *Although* the store closed at nine, they let us finish shopping.
-2. She took the job, *although* the pay was worse than what she had been making.
-3. *Although* it rained all weekend, the festival went ahead.
+2. *Although* it rained all weekend, the festival went ahead.
+3. She took the job, *although* the pay was worse than what she had been making.
 4. He never mentioned the diagnosis, *although* he must have known for months.
 5. *Although* I understand the decision, I don't agree with it.
+
+**2. A trailing afterthought that qualifies what was just said.** Nothing is contradicted here: the clause takes back a little of the claim, or adds a caveat the writer thought of late. Closer to *mind you* than to *in spite of*, and it can only follow, never front. (правда; впрочем)
+
 6. The recipe works with frozen berries, *although* fresh ones give you better color.
+7. It's a twenty-minute walk, *although* not if you're carrying groceries.
+8. We can start Monday, *although* I'd want the deposit first.
 
 **See also:** [though](#though), [even though](#even-though), [whereas](#whereas), [albeit](#albeit), [but](01-coordinating.md#but)
 
@@ -161,12 +168,18 @@ The bookish twin of *much as* — the same meaning, the same attachment to verbs
 
 The lighter, more spoken twin of *although*, and the only member of the family that also works as a stand-alone adverb meaning "however," parked at the end of a sentence. It takes the inverted concessive pattern too (*cold though it was*), which *although* cannot.
 
+**1. Concession — the lighter, more spoken twin of *although*.** It also takes the inverted pattern (*cold though it was*), which *although* cannot. (хотя)
+
 1. *Though* the recipe calls for buttermilk, regular milk works fine.
 2. We took the long way, *though* nobody was in a hurry.
-3. Cold *though* it was, we ate out on the patio.
-4. "The car's twelve years old." "It runs, *though*."
-5. *Though* she'd never admit it, the surprise party got to her.
+3. *Though* she'd never admit it, the surprise party got to her.
+4. Cold *though* it was, we ate out on the patio.
+
+**2. Clause-final adverb — "however," "all the same."** No clause of its own and nothing subordinated: it is parked at the end of a sentence behind a comma and points back at whatever was just said. Informal, and everywhere in American speech. (впрочем; всё же; зато)
+
+5. "The car's twelve years old." "It runs, *though*."
 6. It's a small apartment. The light is incredible, *though*.
+7. I wouldn't order it again. Nice room, *though*.
 
 **See also:** [although](#although), [even though](#even-though), [albeit](#albeit), [as](#as), [however](#however)
 
@@ -241,11 +254,17 @@ The same word that marks time also marks concession, and only sense tells them a
 
 *While* does three jobs as a conjunction — time, contrast, and concession — and American readers sort them by position and comma. Concessive *while* ("although") is normal at the front of a sentence; contrastive *while* ("whereas") is normal in the middle with a comma in front of it. If a sentence could be read either as time or as contrast, rewrite it. Outside the conjunction the same spelling is a noun (*it took a while*, *worth your while*) and a verb (*we whiled away the afternoon*), which is why *awhile* and *a while* trip people up: the one-word adverb modifies a verb, the two-word noun phrase follows a preposition.
 
+**1. Concession — "although."** Normal at the front of the sentence: it grants something before the main clause overrides it. (хотя; при том что)
+
 1. *While* I agree with the goal, I think the timeline is fantasy.
-2. He's methodical, *while* his partner works on instinct.
-3. *While* the paint is technically dry, I wouldn't lean on it.
-4. Our office got new chairs, *while* the warehouse crew got nothing.
-5. *While* nobody disputes the numbers, everybody disputes what they mean.
+2. *While* the paint is technically dry, I wouldn't lean on it.
+3. *While* nobody disputes the numbers, everybody disputes what they mean.
+
+**2. Contrast — "whereas."** Normal in the middle of the sentence with a comma in front of it. Nothing is conceded and nothing is overridden: two facts are set side by side because they differ. (тогда как; а вот)
+
+4. He's methodical, *while* his partner works on instinct.
+5. Our office got new chairs, *while* the warehouse crew got nothing.
+6. The east side of the county voted for the levy, *while* the west side voted it down.
 
 **See also:** [whereas](#whereas), [although](#although), [whilst](#whilst), [when](#when), [even as](#even-as)
 
@@ -748,12 +767,25 @@ Says the reason makes no difference. It is the thinnest-used member of the famil
 
 Two words in one shape. Concessive *whatever* means "no matter what" and can be lifted out without breaking the sentence; nominal *whatever* means "anything that" and cannot. The comma test above is the fastest way to tell them apart.
 
+**1. Concession — "no matter what."** An adverbial: it can be lifted out without breaking the sentence, and fronted it takes a comma. (что бы ни; какой бы ни)
+
 1. *Whatever* you do, don't touch the red switch.
-2. He finds something to complain about *whatever* we order.
-3. *Whatever* the reason, the shipment never left the warehouse.
-4. *Whatever* excuse she gave, the landlord didn't buy it.
-5. *Whatever* happens tonight, I'm proud of you.
-6. The dog eats *whatever* falls on the floor. (noun clause — no comma, no concession)
+2. *Whatever* the reason, the shipment never left the warehouse.
+3. *Whatever* excuse she gave, the landlord didn't buy it.
+4. *Whatever* happens tonight, I'm proud of you.
+5. He finds something to complain about *whatever* we order.
+
+**2. Noun clause — "anything that."** The clause is the subject or the object of the main verb, so it cannot be lifted out, and it never takes a comma. (всё, что; то, что)
+
+6. The dog eats *whatever* falls on the floor.
+7. *Whatever* you decide is fine with me.
+8. Take *whatever* you need out of the drawer.
+
+**3. The one-word dismissal.** A complete turn by itself, stressed hard on the second syllable, and rude: it closes a subject by refusing to engage with it. Speech only, and never in writing except as dialogue. (да ладно; как скажешь; без разницы)
+
+9. "You said you'd call first." "*Whatever*."
+10. He shrugged, said *whatever*, and went back to his phone.
+11. *Whatever* — I'm not arguing about a parking space.
 
 **See also:** [no matter what](#no-matter-what), [whichever](#whichever), [however](#however), [whoever](#whoever)
 
@@ -934,12 +966,19 @@ A five-word way of saying *although*, built only so that the preposition *despit
 
 "In spite of," with a shrug in it. What separates it from plain *despite* is the implication that the thing named should have been enough and wasn't: *for all his money* says the money ought to have bought something and did not. It attaches most naturally to a possessive noun phrase, and that is the shape American speech keeps alive.
 
+**1. "In spite of," with a shrug in it.** What separates it from plain *despite* is the implication that the thing named should have been enough and wasn't. It attaches most naturally to a possessive noun phrase. (при всём; несмотря на)
+
 1. *For all* his money, he drives a fifteen-year-old pickup.
 2. *For all* the noise the committee made, nothing in the budget changed.
-3. The alarm system did nothing *for all* the money we spent on it.
-4. *For all* her training, the first week on the floor nearly broke her.
-5. *For all* the talk of a rebuild, they signed two more thirty-year-olds.
+3. *For all* her training, the first week on the floor nearly broke her.
+4. *For all* the talk of a rebuild, they signed two more thirty-year-olds.
+5. The alarm system did nothing *for all* the money we spent on it.
+
+**2. The fixed dismissals — *for all I know*, *for all I care*, *for all the good it did*.** Here the phrase does take a clause, and it concedes nothing: it disclaims knowledge, interest, or any effect at all. (почём я знаю; мне-то что; толку-то)
+
 6. He might as well have stayed home, *for all* the good it did.
+7. *For all* I know, they moved to Arizona years ago.
+8. She can keep the whole set, *for all* I care.
 
 **See also:** [for all that](#for-all-that), [despite the fact that](#despite-the-fact-that), [in spite of the fact that](#in-spite-of-the-fact-that), [maugre](#maugre), [notwithstanding that](#notwithstanding-that)
 
@@ -1117,12 +1156,20 @@ A fossil of *all be it* ("although it be"), and it still behaves like one: it ta
 
 "That changes nothing." It points backward at a concession the speaker has just granted and refuses to let it govern, which puts it next to *nevertheless* — the difference is tone, since *all the same* is what people say and *nevertheless* is what they write. Keep it apart from the frozen *it's all the same to me*, where the words mean no preference rather than no surrender.
 
+**1. "That changes nothing."** Points backward at a concession the speaker has just granted and refuses to let it govern — *nevertheless* in conversational dress. (всё равно; всё-таки; тем не менее)
+
 1. The reviews were brutal. *All the same*, the theater was packed every night.
 2. He apologized, and I appreciated it; *all the same*, I'm not lending him the truck again.
 3. She knew the trail was closed. She went *all the same*.
 4. *All the same*, I'd feel better if somebody called ahead.
 5. The rent was more than we wanted to pay. We took the place, *just the same*.
 6. It's a long drive for one night; *just the same*, I'm glad we went.
+
+**2. *it's all the same to me* — indifference, not concession.** The frozen idiom, always with *to* plus a person: the options weigh the same to the speaker, and nothing is being conceded or overridden. (мне всё равно; без разницы)
+
+7. Chinese or Thai — it's *all the same* to me.
+8. Leave tonight or leave in the morning; it's *all the same* to the landlord.
+9. "Do you want the window seat?" "It's *all the same* to me."
 
 **See also:** [be that as it may](#be-that-as-it-may), [granted](#granted), [still and all](#still-and-all), [anyhow](#anyhow), [nevertheless](11-conjunctive-adverbs.md#nevertheless)
 
@@ -1159,12 +1206,24 @@ The concessive job of the *anyway* family: the fact just granted is real, and th
 
 Two senses share the shape, and only the surrounding sentence sorts them out. The common one is additive — *a used car, and an old one at that* — which belongs with *moreover*. The concessive one, "in spite of all that, contrary to what you'd expect," is older and now much rarer: *he might win at that* means the speaker has just talked themselves out of their own objection. Americans meet that sense mostly in older fiction and in regional speech.
 
-1. He may be right *at that*. (concessive — "in spite of what I just said")
-2. I laughed when he suggested walking, and then we walked, and it wasn't bad *at that*.
-3. "Nobody will notice." "They might, *at that*."
-4. The old wiring came through the storm *at that*, which is more than the new panel did.
-5. It was a two-hour meeting, and a pointless one *at that*. (the common additive sense — "and moreover")
-6. We agreed to leave it *at that*. (fixed idiom, not a connector)
+**1. Additive — "and moreover."** The common one by a wide margin. It rides on a noun phrase already introduced by *and*, usually with *one* standing in for the noun: *a long drive, and a boring one at that*. (и притом; и к тому же)
+
+1. It was a two-hour meeting, and a pointless one *at that*.
+2. She got the job on a Friday, and a better title *at that*.
+3. He paid cash for it — used, and overpriced *at that*.
+
+**2. Concessive — "in spite of what I just said."** Older, and now mostly regional: the speaker talks himself out of his own objection. Americans meet it in older fiction and in country speech rather than in print. (и всё-таки; а ведь и вправду)
+
+4. He may be right *at that*.
+5. "Nobody will notice." "They might, *at that*."
+6. The old wiring came through the storm *at that*, which is more than the new panel did.
+7. I laughed when he suggested walking, and then we walked, and it wasn't bad *at that*.
+
+**3. *leave it at that*, *let it go at that* — the frozen idioms.** Not a connector at all: *that* is an ordinary pronoun and *at* an ordinary preposition, and the phrase means "stop there." (на том и оставить; и точка)
+
+8. We agreed to leave it *at that*.
+9. He apologized once and let it go *at that*.
+10. Say you're sorry and leave it *at that*.
 
 **See also:** [even then](#even-then), [all the same](#all-the-same), [still and all](#still-and-all), [though](#though), [moreover](11-conjunctive-adverbs.md#moreover)
 

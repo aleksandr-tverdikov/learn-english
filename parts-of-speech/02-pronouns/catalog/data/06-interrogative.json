@@ -115,15 +115,44 @@
       "meaning": "Asks for the identity of a person — the one who did it, or the one it happened to.",
       "examples": [
         "Who left the porch light on all night?",
-        "Who did you talk to at the bank?",
         "Who's bringing dessert on Thursday?",
-        "I still don't know who she voted for.",
         "Who wants to go first?",
         "Who are those people in the driveway?",
         "Who didn't get their parking pass yet?",
-        "Who do you think is going to end up paying for it?"
+        "Who do you think is going to end up paying for it? (still the subject, in spite of the do you think in front of it)",
+        "Who did you talk to at the bank?",
+        "I still don't know who she voted for.",
+        "Who should I make the check out to? (formal: To whom should I make out the check?)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Subject — asking who performed the action",
+          "body": [
+            "(кто — в роли подлежащего)"
+          ],
+          "examples": [
+            "Who left the porch light on all night?",
+            "Who's bringing dessert on Thursday?",
+            "Who wants to go first?",
+            "Who are those people in the driveway?",
+            "Who didn't get their parking pass yet?",
+            "Who do you think is going to end up paying for it? (still the subject, in spite of the do you think in front of it)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Object — where formal writing would put whom",
+          "body": [
+            "(кого, кому — в разг. речи вместо whom)"
+          ],
+          "examples": [
+            "Who did you talk to at the bank?",
+            "I still don't know who she voted for.",
+            "Who should I make the check out to? (formal: To whom should I make out the check?)"
+          ]
+        }
+      ],
       "pronunciation note": "the w is silent. No true weak form — as the question word it carries the accent — but it shortens in embedded position, and the contractions are ordinary: who's /huz/, who'd /hud/, who'll /hul/, who're /ˈhuɚ/. Who's is a homophone of whose.",
       "русский": "кто — спрашивает об имени, личности человека; форма подлежащего",
       "case": "subject — and, in everyday American English, object as well (Who did you call?)",
@@ -197,14 +226,42 @@
       "meaning": "Asks for the number or the amount, leaving the thing counted or measured to be understood.",
       "examples": [
         "How many are coming to the walkthrough on Saturday?",
-        "How much is the gray one in the window?",
         "\"We'll take the shrimp.\" \"How many?\"",
         "How much of the deposit do we get back if we cancel now?",
         "Nobody could tell me how many had already shipped.",
         "How many of you have actually read the lease?",
-        "She asked how much it would run us to have the tree taken down."
+        "How much is the gray one in the window?",
+        "She asked how much it would run us to have the tree taken down.",
+        "How much did they finally settle on for the truck?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Asking the number or the amount",
+          "body": [
+            "(сколько — how many о счётных предметах, how much о количестве и мере)"
+          ],
+          "examples": [
+            "How many are coming to the walkthrough on Saturday?",
+            "\"We'll take the shrimp.\" \"How many?\"",
+            "How much of the deposit do we get back if we cancel now?",
+            "Nobody could tell me how many had already shipped.",
+            "How many of you have actually read the lease?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "How much asking the price",
+          "body": [
+            "(сколько стоит?)"
+          ],
+          "examples": [
+            "How much is the gray one in the window?",
+            "She asked how much it would run us to have the tree taken down.",
+            "How much did they finally settle on for the truck?"
+          ]
+        }
+      ],
       "pronunciation note": "standing alone the accent sits on many or much, because the noun that would otherwise carry it has been left out; put a noun back and the accent shifts forward onto how (HOW many PEOPLE came?). How keeps its full vowel everywhere and has no weak form, but the second word reduces when the phrase is unaccented in an embedded clause — I don't know how many are left runs to [haʊ məni], how much of it to [haʊ mətʃ] — and of is the weak /əv/, often bare [ə], so how many of them is [ˈhaʊ ˌmɛni ə ðəm]",
       "русский": "сколько — how many о счётных предметах, how much о количестве, мере или цене",
       "case": "none — one form for subject and object",
@@ -252,13 +309,52 @@
       "examples": [
         "What about the deposit? Do we get any of it back?",
         "We can take my car. What about the kids' seats?",
-        "What about Thursday afternoon for the walkthrough?",
+        "That covers the roof. What about the gutters?",
         "I'm fine, thanks. What about you?",
-        "\"You were an hour late.\" \"What about it?\"",
+        "What about Thursday afternoon for the walkthrough?",
         "What about asking the neighbors before we call the city?",
-        "That covers the roof. What about the gutters?"
+        "What about the blue one instead?",
+        "\"You were an hour late.\" \"What about it?\"",
+        "So the estimate is a week old. What about it?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Raising something that is being overlooked",
+          "body": [
+            "(а как же…?, а что с…?)"
+          ],
+          "examples": [
+            "What about the deposit? Do we get any of it back?",
+            "We can take my car. What about the kids' seats?",
+            "That covers the roof. What about the gutters?",
+            "I'm fine, thanks. What about you?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Proposing — putting a possibility forward for consideration",
+          "body": [
+            "(а что если…?, может, …?)"
+          ],
+          "examples": [
+            "What about Thursday afternoon for the walkthrough?",
+            "What about asking the neighbors before we call the city?",
+            "What about the blue one instead?"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "What about it? — pushing back at what was just said",
+          "body": [
+            "(и что с того?, ну и что?)"
+          ],
+          "examples": [
+            "\"You were an hour late.\" \"What about it?\"",
+            "So the estimate is a week old. What about it?"
+          ]
+        }
+      ],
       "pronunciation note": "the t flaps and the words run together, [wʌɾəˈbaʊt]; casual whaddabout",
       "русский": "а как же…?, а что насчёт…? — напоминает о забытом или предлагает вариант",
       "case": "object of about",
@@ -737,12 +833,39 @@
       "examples": [
         "The car won't start. Now what?",
         "Okay, the form is signed. What now?",
-        "Now what — we can't even get in without a badge.",
-        "\"The flight's canceled.\" \"Now what?\"",
         "What now, do we just wait for them to call us back?",
-        "Every time the phone rings I think, now what."
+        "\"The flight's canceled.\" \"Now what?\"",
+        "Now what — we can't even get in without a badge.",
+        "Every time the phone rings I think, now what.",
+        "Two steps down the hall she heard her name called again. Now what?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Asking what to do next, the plan having run out",
+          "body": [
+            "(и что теперь?, что дальше делать?)"
+          ],
+          "examples": [
+            "The car won't start. Now what?",
+            "Okay, the form is signed. What now?",
+            "What now, do we just wait for them to call us back?",
+            "\"The flight's canceled.\" \"Now what?\""
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Exasperated — \"what has gone wrong this time.\"",
+          "body": [
+            "(ну что ещё?, опять что-то)"
+          ],
+          "examples": [
+            "Now what — we can't even get in without a badge.",
+            "Every time the phone rings I think, now what.",
+            "Two steps down the hall she heard her name called again. Now what?"
+          ]
+        }
+      ],
       "pronunciation note": "the accent falls on the second word in both, and exasperation flattens the contour rather than raising it",
       "русский": "и что теперь? — разг., когда план исчерпан или случилась новая помеха",
       "case": "none",
@@ -762,13 +885,40 @@
       "meaning": "Closes a question by leaving every other possibility unnamed.",
       "examples": [
         "Are we ordering, or what?",
-        "Is that a sunset or what?",
         "So is he coming to the meeting or what?",
         "Do you want the job or what?",
         "\"Well? Are you going to tell me or what?\"",
-        "Was that the strangest interview you have ever sat through or what?"
+        "Is that a sunset or what?",
+        "Was that the strangest interview you have ever sat through or what?",
+        "Is this kid photogenic or what?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Closing a question with the alternatives left unnamed",
+          "body": [
+            "(или как?, или что? — разг., поторапливает с ответом)"
+          ],
+          "examples": [
+            "Are we ordering, or what?",
+            "So is he coming to the meeting or what?",
+            "Do you want the job or what?",
+            "\"Well? Are you going to tell me or what?\""
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The rhetorical exclamation — no answer is expected, agreement is",
+          "body": [
+            "(ну разве не…!, а?; вопрос только по форме)"
+          ],
+          "examples": [
+            "Is that a sunset or what?",
+            "Was that the strangest interview you have ever sat through or what?",
+            "Is this kid photogenic or what?"
+          ]
+        }
+      ],
       "pronunciation note": "or reduces to [ɚ] and the two run together as [ɚˈwʌt]; the accent is on what, and the tone rises sharply at the end",
       "русский": "или как?, или что? — разг., закрывает вопрос, не называя прочих возможностей",
       "case": "none",
@@ -866,15 +1016,41 @@
       "respell": "WUT↗",
       "meaning": "Repeats back the part of what was just said that the hearer missed or cannot believe.",
       "examples": [
-        "\"I sold the truck.\" \"You did what?\"",
         "She's marrying who?",
         "He said what to the officer?",
+        "Wait — you told who about the offer?",
+        "\"I sold the truck.\" \"You did what?\"",
         "You paid what for a used dishwasher?",
         "\"I quit this morning.\" \"You what?\"",
-        "Wait — you told who about the offer?",
         "The company is doing what with our data?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Asking for a word that was genuinely missed",
+          "body": [
+            "(что?, как ты сказал? — переспрос)"
+          ],
+          "examples": [
+            "She's marrying who?",
+            "He said what to the officer?",
+            "Wait — you told who about the offer?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The incredulous echo — the hearer caught it and cannot believe it",
+          "body": [
+            "(ты сделал что?!, сколько-сколько? — недоверие, а не недослышал)"
+          ],
+          "examples": [
+            "\"I sold the truck.\" \"You did what?\"",
+            "You paid what for a used dishwasher?",
+            "\"I quit this morning.\" \"You what?\"",
+            "The company is doing what with our data?"
+          ]
+        }
+      ],
       "pronunciation note": "the echoed wh- word carries the nuclear accent and the whole utterance rises hard at the end; it is often lengthened, [wʌːt]",
       "русский": "что?, как ты сказал? — переспрос-эхо: недослышал или не может поверить",
       "case": "whatever the slot requires — but see the note below on who",
@@ -898,10 +1074,38 @@
         "What's this bracket for?",
         "What are we all standing in line for?",
         "She asked what the second key was for.",
+        "\"Bring your passport.\" \"What for? It's a domestic flight.\"",
         "He came home at two in the morning and his mother gave him what for.",
-        "\"Bring your passport.\" \"What for? It's a domestic flight.\""
+        "The coach gave the whole bench what for at halftime."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Asking the purpose",
+          "body": [
+            "(зачем, для чего, с какой целью)"
+          ],
+          "examples": [
+            "\"I'll need your license.\" \"What for?\"",
+            "What did you tell her that for?",
+            "What's this bracket for?",
+            "What are we all standing in line for?",
+            "She asked what the second key was for.",
+            "\"Bring your passport.\" \"What for? It's a domestic flight.\""
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Give someone what for — scold them sharply",
+          "body": [
+            "(задать взбучку, устроить разнос)"
+          ],
+          "examples": [
+            "He came home at two in the morning and his mother gave him what for.",
+            "The coach gave the whole bench what for at halftime."
+          ]
+        }
+      ],
       "pronunciation note": "the accent on for, which keeps its full vowel because it is stranded at the end; the t of what flaps, [wʌɾ ˈfɔr]",
       "русский": "зачем, для чего, с какой целью — вопрос о цели",
       "case": "object of for",
@@ -973,14 +1177,51 @@
       "meaning": "Asks what would follow if some supposed situation came true.",
       "examples": [
         "What if the flight is delayed again?",
-        "What if we just told them the truth?",
         "What if she says no?",
-        "What if I had taken the other job?",
         "He kept asking what if the tests came back positive.",
+        "What if we just told them the truth?",
         "What if we met halfway, somewhere around Bakersfield?",
+        "What if I had taken the other job?",
+        "What if they had never moved to Phoenix in the first place?",
         "The whole proposal is a pile of what-ifs."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Worrying about a possibility, usually a bad one",
+          "body": [
+            "(а что, если…? — тревожное предположение)"
+          ],
+          "examples": [
+            "What if the flight is delayed again?",
+            "What if she says no?",
+            "He kept asking what if the tests came back positive."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Proposing — putting an idea forward as a suggestion",
+          "body": [
+            "(а что если нам…? — предложение)"
+          ],
+          "examples": [
+            "What if we just told them the truth?",
+            "What if we met halfway, somewhere around Bakersfield?"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Counterfactual — imagining a past that did not happen",
+          "body": [
+            "(а если бы… — о прошлом, которого не было)"
+          ],
+          "examples": [
+            "What if I had taken the other job?",
+            "What if they had never moved to Phoenix in the first place?",
+            "The whole proposal is a pile of what-ifs."
+          ]
+        }
+      ],
       "pronunciation note": "the t flaps and links into the vowel, [wʌˈɾɪf]",
       "русский": "а что, если… — вводит предположение и спрашивает о его последствиях",
       "case": "subject of the missing main clause",
@@ -1001,12 +1242,39 @@
       "examples": [
         "We've painted the hallway. What next?",
         "Suppose they refuse to sign. What then?",
-        "First the flood, then the furnace — what next!",
         "If we sell the house, what then?",
         "She asked me what next and I had no answer for her.",
-        "And what then, when the money runs out in March?"
+        "And what then, when the money runs out in March?",
+        "First the flood, then the furnace — what next!",
+        "Now they want the permit notarized. What next!"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Asking the next step, or the consequence of a supposition",
+          "body": [
+            "(что дальше?, а потом что?)"
+          ],
+          "examples": [
+            "We've painted the hallway. What next?",
+            "Suppose they refuse to sign. What then?",
+            "If we sell the house, what then?",
+            "She asked me what next and I had no answer for her.",
+            "And what then, when the money runs out in March?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The exclamation what next! — dismay at one more thing going wrong",
+          "body": [
+            "(ну что ещё!, дальше уж некуда!)"
+          ],
+          "examples": [
+            "First the flood, then the furnace — what next!",
+            "Now they want the permit notarized. What next!"
+          ]
+        }
+      ],
       "pronunciation note": "the accent on the second word",
       "русский": "что дальше?, а потом что? — о следующем шаге или о следствии предположения",
       "case": "none",
@@ -1079,14 +1347,42 @@
       "meaning": "Asks what is new or what is wrong — or greets, and asks nothing.",
       "examples": [
         "\"What's up?\" \"Not much — you?\"",
+        "What's up, you two? Need a hand with that?",
+        "Hey, what's up — it's been a while.",
         "What's up with the front door? It sticks now.",
         "Hey, what's up — you look upset.",
         "She stopped by to see what's up with the schedule change.",
         "I asked him what was up and he said the server had been down all morning.",
-        "Nobody would tell me what was up with the delay.",
-        "What's up, you two? Need a hand with that?"
+        "Nobody would tell me what was up with the delay."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "As a greeting, asking nothing at all",
+          "body": [
+            "(привет, как дела? — разг. приветствие, ответа по существу не ждут)"
+          ],
+          "examples": [
+            "\"What's up?\" \"Not much — you?\"",
+            "What's up, you two? Need a hand with that?",
+            "Hey, what's up — it's been a while."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Asking what is wrong, or what is going on",
+          "body": [
+            "(что случилось?, в чём дело?)"
+          ],
+          "examples": [
+            "What's up with the front door? It sticks now.",
+            "Hey, what's up — you look upset.",
+            "She stopped by to see what's up with the schedule change.",
+            "I asked him what was up and he said the server had been down all morning.",
+            "Nobody would tell me what was up with the delay."
+          ]
+        }
+      ],
       "pronunciation note": "the /t/ and /s/ form a cluster that resyllabifies onto up, [wʌˈtsʌp]; casual speech drops the /t/ altogether, giving whassup [wəˈsʌp] and, reduced further, 'sup [sʌp]",
       "русский": "что нового?, что случилось? — разг.; а также приветствие «привет, как дела?»",
       "case": "what is the subject",
@@ -1159,13 +1455,50 @@
       "examples": [
         "\"The label says organic.\" \"Who cares?\"",
         "Who cares if it rains — we're going anyway.",
+        "Who cares what the neighbors think about the fence?",
         "Who knows how long the permit will take.",
         "\"Is he coming back?\" \"Who knows.\"",
+        "Who knows what would have happened if we had left an hour earlier.",
         "He has, who knows, maybe two hundred of them out in the garage.",
-        "Who cares what the neighbors think about the fence?",
-        "Who knows what would have happened if we had left an hour earlier."
+        "It could take a month, or, who knows, the rest of the year."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Who cares — refusing to grant that something matters",
+          "body": [
+            "(кому какое дело; ну и что)"
+          ],
+          "examples": [
+            "\"The label says organic.\" \"Who cares?\"",
+            "Who cares if it rains — we're going anyway.",
+            "Who cares what the neighbors think about the fence?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Who knows — conceding that nobody has the answer",
+          "body": [
+            "(кто знает; кто его знает)"
+          ],
+          "examples": [
+            "Who knows how long the permit will take.",
+            "\"Is he coming back?\" \"Who knows.\"",
+            "Who knows what would have happened if we had left an hour earlier."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Parenthetical who knows — \"perhaps,\" dropped into the middle of a sentence",
+          "body": [
+            "(может быть, чего доброго — вводное)"
+          ],
+          "examples": [
+            "He has, who knows, maybe two hundred of them out in the garage.",
+            "It could take a month, or, who knows, the rest of the year."
+          ]
+        }
+      ],
       "pronunciation note": "the accent on the verb, and the tone falls — neither is really asking",
       "русский": "кому какое дело — пренебрежение; кто знает — признание, что ответа не знает никто",
       "case": "who is the subject",

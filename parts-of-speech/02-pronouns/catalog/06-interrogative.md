@@ -85,14 +85,20 @@ Asks the hearer to pick one member — or several — out of a set both speakers
 
 Asks for the identity of a person — the one who did it, or the one it happened to.
 
+**1. Subject — asking who performed the action.** (кто — в роли подлежащего)
+
 1. *Who* left the porch light on all night?
-2. *Who* did you talk to at the bank?
-3. *Who*'s bringing dessert on Thursday?
-4. I still don't know *who* she voted for.
-5. *Who* wants to go first?
-6. *Who* are those people in the driveway?
-7. *Who* didn't get their parking pass yet?
-8. *Who* do you think is going to end up paying for it?
+2. *Who*'s bringing dessert on Thursday?
+3. *Who* wants to go first?
+4. *Who* are those people in the driveway?
+5. *Who* didn't get their parking pass yet?
+6. *Who* do you think is going to end up paying for it? (still the subject, in spite of the *do you think* in front of it)
+
+**2. Object — where formal writing would put *whom*.** (кого, кому — в разг. речи вместо whom)
+
+7. *Who* did you talk to at the bank?
+8. I still don't know *who* she voted for.
+9. *Who* should I make the check out to? (formal: *To whom should I make out the check?*)
 
 **See also:** [whom](#whom), [whose](#whose), [what](#what), [which of](#which-of), [what else, who else](#what-else-who-else), [whoever](#whoever), [who (relative)](05-relative.md#who), [who's (not a possessive pronoun)](02-possessive.md#whos-not-a-possessive-pronoun), [me](01-personal.md#me), [they (singular *they*)](01-personal.md#they)
 
@@ -161,13 +167,19 @@ The core five rarely stand completely bare. They take a preposition in front (*t
 
 Asks for the number or the amount, leaving the thing counted or measured to be understood.
 
+**1. Asking the number or the amount.** (сколько — how many о счётных предметах, how much о количестве и мере)
+
 1. *How many* are coming to the walkthrough on Saturday?
-2. *How much* is the gray one in the window?
-3. "We'll take the shrimp." "*How many*?"
-4. *How much* of the deposit do we get back if we cancel now?
-5. Nobody could tell me *how many* had already shipped.
-6. *How many* of you have actually read the lease?
+2. "We'll take the shrimp." "*How many*?"
+3. *How much* of the deposit do we get back if we cancel now?
+4. Nobody could tell me *how many* had already shipped.
+5. *How many* of you have actually read the lease?
+
+**2. *How much* asking the price.** (сколько стоит?)
+
+6. *How much* is the gray one in the window?
 7. She asked *how much* it would run us to have the tree taken down.
+8. *How much* did they finally settle on for the truck?
 
 **See also:** [what](#what), [which of](#which-of), [what of](#what-of), [how many (determiner)](../../09-determiners/catalog/08-interrogative-exclamative-relative.md#how-many), [how much (determiner)](../../09-determiners/catalog/08-interrogative-exclamative-relative.md#how-much), [how many of, how much of (determiner dictionary)](../../09-determiners/catalog/08-interrogative-exclamative-relative.md#how-many-of-how-much-of)
 
@@ -207,13 +219,23 @@ Fronts the preposition along with its object, producing the formal version of a 
 
 Puts a person or a thing back on the table — either as something being overlooked or as a suggestion.
 
+**1. Raising something that is being overlooked.** (а как же…?, а что с…?)
+
 1. *What about* the deposit? Do we get any of it back?
 2. We can take my car. *What about* the kids' seats?
-3. *What about* Thursday afternoon for the walkthrough?
+3. That covers the roof. *What about* the gutters?
 4. I'm fine, thanks. *What about* you?
-5. "You were an hour late." "*What about* it?"
+
+**2. Proposing — putting a possibility forward for consideration.** (а что если…?, может, …?)
+
+5. *What about* Thursday afternoon for the walkthrough?
 6. *What about* asking the neighbors before we call the city?
-7. That covers the roof. *What about* the gutters?
+7. *What about* the blue one instead?
+
+**3. *What about it?* — pushing back at what was just said.** (и что с того?, ну и что?)
+
+8. "You were an hour late." "*What about* it?"
+9. So the estimate is a week old. *What about* it?
 
 **See also:** [what](#what), [what of](#what-of), [so what](#so-what), [what if](#what-if)
 
@@ -610,12 +632,18 @@ Announces news by pretending to ask for a guess.
 
 Asks what to do at a point where the plan has run out.
 
+**1. Asking what to do next, the plan having run out.** (и что теперь?, что дальше делать?)
+
 1. The car won't start. *Now what*?
 2. Okay, the form is signed. *What now*?
-3. *Now what* — we can't even get in without a badge.
+3. *What now*, do we just wait for them to call us back?
 4. "The flight's canceled." "*Now what*?"
-5. *What now*, do we just wait for them to call us back?
+
+**2. Exasperated — "what has gone wrong this time."** (ну что ещё?, опять что-то)
+
+5. *Now what* — we can't even get in without a badge.
 6. Every time the phone rings I think, *now what*.
+7. Two steps down the hall she heard her name called again. *Now what*?
 
 **See also:** [what next, what then](#what-next-what-then), [what](#what), [so what](#so-what), [what if](#what-if)
 
@@ -632,12 +660,18 @@ Asks what to do at a point where the plan has run out.
 
 Closes a question by leaving every other possibility unnamed.
 
+**1. Closing a question with the alternatives left unnamed.** (или как?, или что? — разг., поторапливает с ответом)
+
 1. Are we ordering, *or what*?
-2. Is that a sunset *or what*?
-3. So is he coming to the meeting *or what*?
-4. Do you want the job *or what*?
-5. "Well? Are you going to tell me *or what*?"
+2. So is he coming to the meeting *or what*?
+3. Do you want the job *or what*?
+4. "Well? Are you going to tell me *or what*?"
+
+**2. The rhetorical exclamation — no answer is expected, agreement is.** (ну разве не…!, а?; вопрос только по форме)
+
+5. Is that a sunset *or what*?
 6. Was that the strangest interview you have ever sat through *or what*?
+7. Is this kid photogenic *or what*?
 
 **See also:** [what](#what), [what (echo)](#what-echo), [so what](#so-what), [now what, what now](#now-what-what-now)
 
@@ -721,12 +755,17 @@ Refuses to accept that what was just said matters.
 
 Repeats back the part of what was just said that the hearer missed or cannot believe.
 
-1. "I sold the truck." "You did *what*?"
-2. She's marrying *who*?
-3. He said *what* to the officer?
-4. You paid *what* for a used dishwasher?
-5. "I quit this morning." "You *what*?"
-6. Wait — you told *who* about the offer?
+**1. Asking for a word that was genuinely missed.** (что?, как ты сказал? — переспрос)
+
+1. She's marrying *who*?
+2. He said *what* to the officer?
+3. Wait — you told *who* about the offer?
+
+**2. The incredulous echo — the hearer caught it and cannot believe it.** (ты сделал что?!, сколько-сколько? — недоверие, а не недослышал)
+
+4. "I sold the truck." "You did *what*?"
+5. You paid *what* for a used dishwasher?
+6. "I quit this morning." "You *what*?"
 7. The company is doing *what* with our data?
 
 **See also:** [what](#what), [who](#who), [say what](#say-what), [whatever](#whatever), [guess what, guess who](#guess-what-guess-who), [Reported questions](../../../grammar/01-reported-speech/05-questions.md)
@@ -744,13 +783,19 @@ Repeats back the part of what was just said that the hearer missed or cannot bel
 
 Asks what the purpose of something is.
 
+**1. Asking the purpose.** (зачем, для чего, с какой целью)
+
 1. "I'll need your license." "*What for*?"
 2. *What* did you tell her that *for*?
 3. *What*'s this bracket *for*?
 4. *What* are we all standing in line *for*?
 5. She asked *what* the second key was *for*.
-6. He came home at two in the morning and his mother gave him *what for*.
-7. "Bring your passport." "*What for*? It's a domestic flight."
+6. "Bring your passport." "*What for*? It's a domestic flight."
+
+**2. *Give someone what for* — scold them sharply.** (задать взбучку, устроить разнос)
+
+7. He came home at two in the morning and his mother gave him *what for*.
+8. The coach gave the whole bench *what for* at halftime.
 
 **See also:** [what](#what), [what about](#what-about), [to whom, for whom, with whom](#to-whom-for-whom-with-whom), [what if](#what-if)
 
@@ -811,13 +856,22 @@ Closes a list by gesturing at everything else of the same kind.
 
 Asks what would follow if some supposed situation came true.
 
+**1. Worrying about a possibility, usually a bad one.** (а что, если…? — тревожное предположение)
+
 1. *What if* the flight is delayed again?
-2. *What if* we just told them the truth?
-3. *What if* she says no?
-4. *What if* I had taken the other job?
-5. He kept asking *what if* the tests came back positive.
-6. *What if* we met halfway, somewhere around Bakersfield?
-7. The whole proposal is a pile of *what-ifs*.
+2. *What if* she says no?
+3. He kept asking *what if* the tests came back positive.
+
+**2. Proposing — putting an idea forward as a suggestion.** (а что если нам…? — предложение)
+
+4. *What if* we just told them the truth?
+5. *What if* we met halfway, somewhere around Bakersfield?
+
+**3. Counterfactual — imagining a past that did not happen.** (а если бы… — о прошлом, которого не было)
+
+6. *What if* I had taken the other job?
+7. *What if* they had never moved to Phoenix in the first place?
+8. The whole proposal is a pile of *what-ifs*.
 
 **See also:** [what](#what), [what about](#what-about), [what next, what then](#what-next-what-then), [now what, what now](#now-what-what-now)
 
@@ -834,12 +888,18 @@ Asks what would follow if some supposed situation came true.
 
 Asks what comes next in a series, or what follows from a supposition.
 
+**1. Asking the next step, or the consequence of a supposition.** (что дальше?, а потом что?)
+
 1. We've painted the hallway. *What next*?
 2. Suppose they refuse to sign. *What then*?
-3. First the flood, then the furnace — *what next*!
-4. If we sell the house, *what then*?
-5. She asked me *what next* and I had no answer for her.
-6. And *what then*, when the money runs out in March?
+3. If we sell the house, *what then*?
+4. She asked me *what next* and I had no answer for her.
+5. And *what then*, when the money runs out in March?
+
+**2. The exclamation *what next!* — dismay at one more thing going wrong.** (ну что ещё!, дальше уж некуда!)
+
+6. First the flood, then the furnace — *what next*!
+7. Now they want the permit notarized. *What next*!
 
 **See also:** [now what, what now](#now-what-what-now), [what if](#what-if), [what](#what), [so what](#so-what)
 
@@ -901,13 +961,19 @@ Refuses a question by challenging the asker's right to ask it.
 
 Asks what is new or what is wrong — or greets, and asks nothing.
 
+**1. As a greeting, asking nothing at all.** (привет, как дела? — разг. приветствие, ответа по существу не ждут)
+
 1. "*What's up*?" "Not much — you?"
-2. *What's up* with the front door? It sticks now.
-3. Hey, *what's up* — you look upset.
-4. She stopped by to see *what's up* with the schedule change.
-5. I asked him *what was up* and he said the server had been down all morning.
-6. Nobody would tell me *what was up* with the delay.
-7. *What's up*, you two? Need a hand with that?
+2. *What's up*, you two? Need a hand with that?
+3. Hey, *what's up* — it's been a while.
+
+**2. Asking what is wrong, or what is going on.** (что случилось?, в чём дело?)
+
+4. *What's up* with the front door? It sticks now.
+5. Hey, *what's up* — you look upset.
+6. She stopped by to see *what's up* with the schedule change.
+7. I asked him *what was up* and he said the server had been down all morning.
+8. Nobody would tell me *what was up* with the delay.
 
 **See also:** [what](#what), [what gives](#what-gives), [now what, what now](#now-what-what-now), [what's what](#whats-what)
 
@@ -968,13 +1034,22 @@ Names the problem of telling apart the members of a set you can label but not id
 
 Dismisses a point as unimportant, or concedes that the answer is unknown.
 
+**1. *Who cares* — refusing to grant that something matters.** (кому какое дело; ну и что)
+
 1. "The label says organic." "*Who cares*?"
 2. *Who cares* if it rains — we're going anyway.
-3. *Who knows* how long the permit will take.
-4. "Is he coming back?" "*Who knows*."
-5. He has, *who knows*, maybe two hundred of them out in the garage.
-6. *Who cares* what the neighbors think about the fence?
-7. *Who knows* what would have happened if we had left an hour earlier.
+3. *Who cares* what the neighbors think about the fence?
+
+**2. *Who knows* — conceding that nobody has the answer.** (кто знает; кто его знает)
+
+4. *Who knows* how long the permit will take.
+5. "Is he coming back?" "*Who knows*."
+6. *Who knows* what would have happened if we had left an hour earlier.
+
+**3. Parenthetical *who knows* — "perhaps," dropped into the middle of a sentence.** (может быть, чего доброго — вводное)
+
+7. He has, *who knows*, maybe two hundred of them out in the garage.
+8. It could take a month, or, *who knows*, the rest of the year.
 
 **See also:** [who](#who), [says who, who says](#says-who-who-says), [so what](#so-what), [Reported questions](../../../grammar/01-reported-speech/05-questions.md)
 

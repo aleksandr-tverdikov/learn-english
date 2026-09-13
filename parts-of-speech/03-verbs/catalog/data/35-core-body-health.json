@@ -267,14 +267,43 @@
       "term": "exercise",
       "ipa": "/ˈɛksərsaɪz/",
       "respell": "EK-sur-syz",
-      "meaning": "To move your body in order to stay fit and healthy. ---",
+      "meaning": "Exercise has 2 distinct senses.",
       "examples": [
         "Try to exercise three times a week.",
         "He exercised every morning for a year.",
-        "She has been exercising since her doctor warned her."
+        "She has been exercising since her doctor warned her.",
+        "Please exercise caution on the icy steps.",
+        "She exercised her right to remain silent.",
+        "The governor has rarely exercised the veto."
       ],
-      "senses": [],
-      "русский": "заниматься спортом, тренироваться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move your body in order to stay fit and healthy",
+          "body": [
+            "(заниматься спортом, тренироваться)"
+          ],
+          "examples": [
+            "Try to exercise three times a week.",
+            "He exercised every morning for a year.",
+            "She has been exercising since her doctor warned her."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To use a right, a power, or a quality that you have",
+          "body": [
+            "(осуществлять, использовать (право); проявлять (осторожность))",
+            "---"
+          ],
+          "examples": [
+            "Please exercise caution on the icy steps.",
+            "She exercised her right to remain silent.",
+            "The governor has rarely exercised the veto."
+          ]
+        }
+      ],
+      "русский": "заниматься спортом, тренироваться; осуществлять, использовать (право); проявлять (осторожность)",
       "forms": "exercise · exercised · exercised",
       "verb class": "regular",
       "third person": "exercises · -ing form: exercising",
@@ -301,14 +330,43 @@
       "term": "squat",
       "ipa": "/skwɑːt/",
       "respell": "SKWAHT",
-      "meaning": "To lower your body by bending your knees while keeping your back straight. ---",
+      "meaning": "Squat has 2 distinct senses.",
       "examples": [
         "Squat down and lift with your legs.",
         "He squatted beside the bed to talk to her.",
-        "She was squatting to pick up the baby when her back gave out."
+        "She was squatting to pick up the baby when her back gave out.",
+        "Several families squat in the old hotel.",
+        "He squatted in an empty warehouse for two years.",
+        "People have been squatting in the building since it closed."
       ],
-      "senses": [],
-      "русский": "приседать, присесть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To lower your body by bending your knees while keeping your back straight",
+          "body": [
+            "(приседать, присесть)"
+          ],
+          "examples": [
+            "Squat down and lift with your legs.",
+            "He squatted beside the bed to talk to her.",
+            "She was squatting to pick up the baby when her back gave out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To live in an empty building without permission and without paying rent",
+          "body": [
+            "(самовольно занимать (пустующее жильё), сквоттерствовать)",
+            "---"
+          ],
+          "examples": [
+            "Several families squat in the old hotel.",
+            "He squatted in an empty warehouse for two years.",
+            "People have been squatting in the building since it closed."
+          ]
+        }
+      ],
+      "русский": "приседать, присесть; самовольно занимать (пустующее жильё), сквоттерствовать",
       "forms": "squat · squatted · squatted",
       "verb class": "regular",
       "third person": "squats · -ing form: squatting",
@@ -319,14 +377,58 @@
       "term": "stagger",
       "ipa": "/ˈstæɡər/",
       "respell": "STAG-ur",
-      "meaning": "To walk unsteadily, as though you are about to fall. ---",
+      "meaning": "Stagger has 3 distinct senses.",
       "examples": [
         "People stagger a little when their blood pressure drops.",
         "He staggered to the couch and sat down.",
-        "She was staggering by the end of the shift."
+        "She was staggering by the end of the shift.",
+        "The repair bill will stagger you.",
+        "The size of the crowd staggered the organizers.",
+        "I was staggered by how much the house sold for.",
+        "The school will stagger start times by half an hour.",
+        "They staggered the shifts to keep the floor from getting crowded.",
+        "Boarding is staggered by row."
       ],
-      "senses": [],
-      "русский": "шататься, пошатнуться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To walk unsteadily, as though you are about to fall",
+          "body": [
+            "(шататься, пошатнуться)"
+          ],
+          "examples": [
+            "People stagger a little when their blood pressure drops.",
+            "He staggered to the couch and sat down.",
+            "She was staggering by the end of the shift."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To shock or amaze someone",
+          "body": [
+            "(потрясать, потрясти; поражать, ошеломлять)"
+          ],
+          "examples": [
+            "The repair bill will stagger you.",
+            "The size of the crowd staggered the organizers.",
+            "I was staggered by how much the house sold for."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To arrange times so that they do not all happen at once",
+          "body": [
+            "(разносить по времени, распределять (смены, время начала))",
+            "---"
+          ],
+          "examples": [
+            "The school will stagger start times by half an hour.",
+            "They staggered the shifts to keep the floor from getting crowded.",
+            "Boarding is staggered by row."
+          ]
+        }
+      ],
+      "русский": "шататься, пошатнуться; потрясать, потрясти; поражать, ошеломлять; разносить по времени, распределять (смены, время начала)",
       "forms": "stagger · staggered · staggered",
       "verb class": "regular",
       "third person": "staggers · -ing form: staggering",
@@ -461,14 +563,43 @@
       "term": "relapse",
       "ipa": "/rɪˈlæps/",
       "respell": "ri-LAPS",
-      "meaning": "To become ill again after you seemed to be getting better. ---",
+      "meaning": "Relapse has 2 distinct senses.",
       "examples": [
         "About a third of patients relapse within a year.",
         "He relapsed two months after the treatment ended.",
-        "She is terrified of relapsing again."
+        "She is terrified of relapsing again.",
+        "Most people relapse at least once.",
+        "He relapsed after eight months sober.",
+        "She has relapsed twice since the program ended."
       ],
-      "senses": [],
-      "русский": "снова заболеть, дать рецидив",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To become ill again after you seemed to be getting better",
+          "body": [
+            "(снова заболеть, дать рецидив)"
+          ],
+          "examples": [
+            "About a third of patients relapse within a year.",
+            "He relapsed two months after the treatment ended.",
+            "She is terrified of relapsing again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To start drinking, using drugs, or repeating a bad habit again after stopping",
+          "body": [
+            "(срываться, сорваться; возвращаться к прежней привычке)",
+            "---"
+          ],
+          "examples": [
+            "Most people relapse at least once.",
+            "He relapsed after eight months sober.",
+            "She has relapsed twice since the program ended."
+          ]
+        }
+      ],
+      "русский": "снова заболеть, дать рецидив; срываться, сорваться; возвращаться к прежней привычке",
       "forms": "relapse · relapsed · relapsed",
       "verb class": "regular",
       "third person": "relapses · -ing form: relapsing",
@@ -479,14 +610,43 @@
       "term": "survive",
       "ipa": "/sərˈvaɪv/",
       "respell": "sur-VYV",
-      "meaning": "To stay alive through an illness, an accident, or a dangerous situation. ---",
+      "meaning": "Survive has 2 distinct senses.",
       "examples": [
         "Most people survive this kind of surgery without trouble.",
         "He survived the crash with a broken arm.",
-        "She has survived two rounds of chemotherapy."
+        "She has survived two rounds of chemotherapy.",
+        "She is survived by two sons and a sister.",
+        "He survived his wife by ten years.",
+        "Nobody expected the youngest brother to survive them all."
       ],
-      "senses": [],
-      "русский": "выживать, выжить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To stay alive through an illness, an accident, or a dangerous situation",
+          "body": [
+            "(выживать, выжить)"
+          ],
+          "examples": [
+            "Most people survive this kind of surgery without trouble.",
+            "He survived the crash with a broken arm.",
+            "She has survived two rounds of chemotherapy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To remain alive after another person has died",
+          "body": [
+            "(пережить (кого-либо), остаться в живых после чьей-то смерти)",
+            "---"
+          ],
+          "examples": [
+            "She is survived by two sons and a sister.",
+            "He survived his wife by ten years.",
+            "Nobody expected the youngest brother to survive them all."
+          ]
+        }
+      ],
+      "русский": "выживать, выжить; пережить (кого-либо), остаться в живых после чьей-то смерти",
       "forms": "survive · survived · survived",
       "verb class": "regular",
       "third person": "survives · -ing form: surviving",
@@ -513,14 +673,43 @@
       "term": "contract",
       "ipa": "/kənˈtrækt/",
       "respell": "kuhn-TRAKT",
-      "meaning": "To catch a serious illness. ---",
+      "meaning": "Contract has 2 distinct senses.",
       "examples": [
         "Workers can contract the virus from contaminated water.",
         "He contracted pneumonia in the hospital.",
-        "She had contracted the infection weeks before any symptoms showed."
+        "She had contracted the infection weeks before any symptoms showed.",
+        "Metal contracts as it cools.",
+        "The muscle contracted sharply and he dropped the bar.",
+        "Her pupils were contracting in the bright light."
       ],
-      "senses": [],
-      "русский": "заразиться, подхватить (болезнь)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To catch a serious illness",
+          "body": [
+            "(заразиться, подхватить (болезнь))"
+          ],
+          "examples": [
+            "Workers can contract the virus from contaminated water.",
+            "He contracted pneumonia in the hospital.",
+            "She had contracted the infection weeks before any symptoms showed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To become smaller or shorter, or to make something do this",
+          "body": [
+            "(сжиматься, сокращаться; сжимать, сократить)",
+            "---"
+          ],
+          "examples": [
+            "Metal contracts as it cools.",
+            "The muscle contracted sharply and he dropped the bar.",
+            "Her pupils were contracting in the bright light."
+          ]
+        }
+      ],
+      "русский": "заразиться, подхватить (болезнь); сжиматься, сокращаться; сжимать, сократить",
       "forms": "contract · contracted · contracted",
       "verb class": "regular",
       "third person": "contracts · -ing form: contracting",
@@ -584,14 +773,43 @@
       "term": "scar",
       "ipa": "/skɑːr/",
       "respell": "SKAHR",
-      "meaning": "To leave a permanent mark on the skin after a wound heals. ---",
+      "meaning": "Scar has 2 distinct senses.",
       "examples": [
         "Deep cuts almost always scar.",
         "The burn scarred his forearm.",
-        "Her knee is badly scarred from the surgery."
+        "Her knee is badly scarred from the surgery.",
+        "Losing a parent young can scar a child for life.",
+        "The divorce scarred both of them.",
+        "He came home scarred by what he had seen overseas."
       ],
-      "senses": [],
-      "русский": "оставлять шрам, покрываться шрамами",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To leave a permanent mark on the skin after a wound heals",
+          "body": [
+            "(оставлять шрам, покрываться шрамами)"
+          ],
+          "examples": [
+            "Deep cuts almost always scar.",
+            "The burn scarred his forearm.",
+            "Her knee is badly scarred from the surgery."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To harm someone emotionally in a way that lasts for years",
+          "body": [
+            "(травмировать, оставлять глубокий след (в душе))",
+            "---"
+          ],
+          "examples": [
+            "Losing a parent young can scar a child for life.",
+            "The divorce scarred both of them.",
+            "He came home scarred by what he had seen overseas."
+          ]
+        }
+      ],
+      "русский": "оставлять шрам, покрываться шрамами; травмировать, оставлять глубокий след (в душе)",
       "forms": "scar · scarred · scarred",
       "verb class": "regular",
       "third person": "scars · -ing form: scarring",
@@ -620,14 +838,43 @@
       "term": "prescribe",
       "ipa": "/prɪˈskraɪb/",
       "respell": "pri-SKRYB",
-      "meaning": "To officially tell a patient to take a certain medicine or treatment. ---",
+      "meaning": "Prescribe has 2 distinct senses.",
       "examples": [
         "Doctors rarely prescribe antibiotics for a cold.",
         "She prescribed something for the pain.",
-        "He has been prescribed two different inhalers."
+        "He has been prescribed two different inhalers.",
+        "The law prescribes a minimum sentence of five years.",
+        "The manual prescribed exactly how the tanks were to be cleaned.",
+        "Meetings must be held at the times prescribed in the bylaws."
       ],
-      "senses": [],
-      "русский": "прописывать, выписывать (лекарство)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To officially tell a patient to take a certain medicine or treatment",
+          "body": [
+            "(прописывать, выписывать (лекарство))"
+          ],
+          "examples": [
+            "Doctors rarely prescribe antibiotics for a cold.",
+            "She prescribed something for the pain.",
+            "He has been prescribed two different inhalers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To state officially what must be done or how it must be done",
+          "body": [
+            "(предписывать, предписать; устанавливать (правила, порядок))",
+            "---"
+          ],
+          "examples": [
+            "The law prescribes a minimum sentence of five years.",
+            "The manual prescribed exactly how the tanks were to be cleaned.",
+            "Meetings must be held at the times prescribed in the bylaws."
+          ]
+        }
+      ],
+      "русский": "прописывать, выписывать (лекарство); предписывать, предписать; устанавливать (правила, порядок)",
       "forms": "prescribe · prescribed · prescribed",
       "verb class": "regular",
       "third person": "prescribes · -ing form: prescribing",
@@ -637,14 +884,43 @@
       "term": "inject",
       "ipa": "/ɪnˈdʒɛkt/",
       "respell": "in-JEKT",
-      "meaning": "To put medicine into the body with a needle. ---",
+      "meaning": "Inject has 2 distinct senses.",
       "examples": [
         "Diabetics inject insulin every day.",
         "The nurse injected the dye before the scan.",
-        "He was injecting himself in the stomach."
+        "He was injecting himself in the stomach.",
+        "She injected some humor into a very dull meeting.",
+        "The loan injected cash into the business at the right moment.",
+        "The new coach is injecting energy into the team."
       ],
-      "senses": [],
-      "русский": "вводить инъекцию, делать укол",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put medicine into the body with a needle",
+          "body": [
+            "(вводить инъекцию, делать укол)"
+          ],
+          "examples": [
+            "Diabetics inject insulin every day.",
+            "The nurse injected the dye before the scan.",
+            "He was injecting himself in the stomach."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To add a new quality or element to something",
+          "body": [
+            "(привносить, привнести; вливать (средства, энергию))",
+            "---"
+          ],
+          "examples": [
+            "She injected some humor into a very dull meeting.",
+            "The loan injected cash into the business at the right moment.",
+            "The new coach is injecting energy into the team."
+          ]
+        }
+      ],
+      "русский": "вводить инъекцию, делать укол; привносить, привнести; вливать (средства, энергию)",
       "forms": "inject · injected · injected",
       "verb class": "regular",
       "third person": "injects · -ing form: injecting",
@@ -689,14 +965,43 @@
       "term": "sterilize",
       "ipa": "/ˈstɛrəlaɪz/",
       "respell": "STER-uh-lyz",
-      "meaning": "To make equipment completely free of germs, usually with heat or chemicals. ---",
+      "meaning": "Sterilize has 2 distinct senses.",
       "examples": [
         "Boil the bottles to sterilize them.",
         "The nurse sterilized the instruments.",
-        "Everything on that tray has been sterilized."
+        "Everything on that tray has been sterilized.",
+        "The shelter will sterilize every animal before adoption.",
+        "The vet sterilized our cat last spring.",
+        "All the dogs here have been sterilized."
       ],
-      "senses": [],
-      "русский": "стерилизовать, обеззараживать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make equipment completely free of germs, usually with heat or chemicals",
+          "body": [
+            "(стерилизовать, обеззараживать)"
+          ],
+          "examples": [
+            "Boil the bottles to sterilize them.",
+            "The nurse sterilized the instruments.",
+            "Everything on that tray has been sterilized."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To operate on a person or an animal so that they cannot have young",
+          "body": [
+            "(стерилизовать (лишать способности иметь потомство))",
+            "---"
+          ],
+          "examples": [
+            "The shelter will sterilize every animal before adoption.",
+            "The vet sterilized our cat last spring.",
+            "All the dogs here have been sterilized."
+          ]
+        }
+      ],
+      "русский": "стерилизовать, обеззараживать; стерилизовать (лишать способности иметь потомство)",
       "forms": "sterilize · sterilized · sterilized",
       "verb class": "regular",
       "third person": "sterilizes · -ing form: sterilizing",
@@ -707,14 +1012,58 @@
       "term": "nurse",
       "ipa": "/nɜːrs/",
       "respell": "NURS",
-      "meaning": "To take care of someone who is sick or injured. ---",
+      "meaning": "Nurse has 3 distinct senses.",
       "examples": [
         "Somebody has to nurse him through this.",
         "She nursed her mother for two years.",
-        "He is at home nursing a broken rib."
+        "He is at home nursing a broken rib.",
+        "The puppies nurse every couple of hours.",
+        "She nursed both of her children for a year.",
+        "He fell asleep while nursing.",
+        "She still nurses a quiet hope of moving back.",
+        "He nursed a grudge against his brother for years.",
+        "They have been nursing that grievance since the merger."
       ],
-      "senses": [],
-      "русский": "ухаживать за больным, выхаживать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take care of someone who is sick or injured",
+          "body": [
+            "(ухаживать за больным, выхаживать)"
+          ],
+          "examples": [
+            "Somebody has to nurse him through this.",
+            "She nursed her mother for two years.",
+            "He is at home nursing a broken rib."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To feed a baby milk from the breast",
+          "body": [
+            "(кормить грудью; сосать грудь (о младенце))"
+          ],
+          "examples": [
+            "The puppies nurse every couple of hours.",
+            "She nursed both of her children for a year.",
+            "He fell asleep while nursing."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To hold on to a feeling for a long time",
+          "body": [
+            "(лелеять, вынашивать (чувство); затаить (обиду))",
+            "---"
+          ],
+          "examples": [
+            "She still nurses a quiet hope of moving back.",
+            "He nursed a grudge against his brother for years.",
+            "They have been nursing that grievance since the merger."
+          ]
+        }
+      ],
+      "русский": "ухаживать за больным, выхаживать; кормить грудью; сосать грудь (о младенце); лелеять, вынашивать (чувство); затаить (обиду)",
       "forms": "nurse · nursed · nursed",
       "verb class": "regular",
       "third person": "nurses · -ing form: nursing",
@@ -741,14 +1090,43 @@
       "term": "transplant",
       "ipa": "/trænsˈplænt/",
       "respell": "trans-PLANT",
-      "meaning": "To move an organ or piece of tissue from one body into another. ---",
+      "meaning": "Transplant has 2 distinct senses.",
       "examples": [
         "Surgeons can now transplant a whole face.",
         "They transplanted a kidney from his brother.",
-        "Her cornea was transplanted last year."
+        "Her cornea was transplanted last year.",
+        "Wait until fall to transplant the roses.",
+        "We transplanted the seedlings into bigger pots.",
+        "The tomatoes are ready to be transplanted outside."
       ],
-      "senses": [],
-      "русский": "пересаживать (орган), трансплантировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move an organ or piece of tissue from one body into another",
+          "body": [
+            "(пересаживать (орган), трансплантировать)"
+          ],
+          "examples": [
+            "Surgeons can now transplant a whole face.",
+            "They transplanted a kidney from his brother.",
+            "Her cornea was transplanted last year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To dig up a plant and put it in the ground somewhere else",
+          "body": [
+            "(пересаживать, пересадить (растение))",
+            "---"
+          ],
+          "examples": [
+            "Wait until fall to transplant the roses.",
+            "We transplanted the seedlings into bigger pots.",
+            "The tomatoes are ready to be transplanted outside."
+          ]
+        }
+      ],
+      "русский": "пересаживать (орган), трансплантировать; пересаживать, пересадить (растение)",
       "forms": "transplant · transplanted · transplanted",
       "verb class": "regular",
       "third person": "transplants · -ing form: transplanting",
@@ -759,14 +1137,73 @@
       "term": "discharge",
       "ipa": "/dɪsˈtʃɑːrdʒ/",
       "respell": "dis-CHAHRJ",
-      "meaning": "To officially let a patient leave the hospital. ---",
+      "meaning": "Discharge has 4 distinct senses.",
       "examples": [
         "They usually discharge you the next morning.",
         "She was discharged after two nights.",
-        "He is being discharged this afternoon."
+        "He is being discharged this afternoon.",
+        "He was discharged from the Army after four years.",
+        "A company may discharge an employee for theft.",
+        "Having been dishonorably discharged, he had trouble finding work.",
+        "The plant discharges wastewater into the river.",
+        "The factory discharged chemicals for years before anyone noticed.",
+        "Pipes along the roof were discharging steam into the cold air.",
+        "It is illegal to discharge a firearm inside city limits.",
+        "The officer discharged his weapon twice.",
+        "The rifle went off, discharging a round into the ceiling."
       ],
-      "senses": [],
-      "русский": "выписывать (из больницы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To officially let a patient leave the hospital",
+          "body": [
+            "(выписывать (из больницы))"
+          ],
+          "examples": [
+            "They usually discharge you the next morning.",
+            "She was discharged after two nights.",
+            "He is being discharged this afternoon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To dismiss someone from a job or from military service",
+          "body": [
+            "(увольнять, уволить; демобилизовать)"
+          ],
+          "examples": [
+            "He was discharged from the Army after four years.",
+            "A company may discharge an employee for theft.",
+            "Having been dishonorably discharged, he had trouble finding work."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To send out liquid, gas, or waste",
+          "body": [
+            "(сбрасывать, выбрасывать (отходы); выделять)"
+          ],
+          "examples": [
+            "The plant discharges wastewater into the river.",
+            "The factory discharged chemicals for years before anyone noticed.",
+            "Pipes along the roof were discharging steam into the cold air."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To fire a gun",
+          "body": [
+            "(стрелять, произвести выстрел)",
+            "---"
+          ],
+          "examples": [
+            "It is illegal to discharge a firearm inside city limits.",
+            "The officer discharged his weapon twice.",
+            "The rifle went off, discharging a round into the ceiling."
+          ]
+        }
+      ],
+      "русский": "выписывать (из больницы); увольнять, уволить; демобилизовать; сбрасывать, выбрасывать (отходы); выделять; стрелять, произвести выстрел",
       "forms": "discharge · discharged · discharged",
       "verb class": "regular",
       "third person": "discharges · -ing form: discharging",
@@ -777,14 +1214,43 @@
       "term": "ease",
       "ipa": "/iːz/",
       "respell": "EEZ",
-      "meaning": "To make pain or a problem less severe, or to become less severe. ---",
+      "meaning": "Ease has 2 distinct senses.",
       "examples": [
         "Ice will ease the swelling.",
         "The medication eased the pain within an hour.",
-        "His breathing is easing now."
+        "His breathing is easing now.",
+        "He eased the car into the garage.",
+        "Ease the board into the slot; don't force it.",
+        "She was easing herself out of the chair when the phone rang."
       ],
-      "senses": [],
-      "русский": "облегчать, ослаблять (боль)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make pain or a problem less severe, or to become less severe",
+          "body": [
+            "(облегчать, ослаблять (боль))"
+          ],
+          "examples": [
+            "Ice will ease the swelling.",
+            "The medication eased the pain within an hour.",
+            "His breathing is easing now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move something, or yourself, slowly and carefully into place",
+          "body": [
+            "(осторожно двигать, подводить; медленно опускаться)",
+            "---"
+          ],
+          "examples": [
+            "He eased the car into the garage.",
+            "Ease the board into the slot; don't force it.",
+            "She was easing herself out of the chair when the phone rang."
+          ]
+        }
+      ],
+      "русский": "облегчать, ослаблять (боль); осторожно двигать, подводить; медленно опускаться",
       "forms": "ease · eased · eased",
       "verb class": "regular",
       "third person": "eases · -ing form: easing",
@@ -795,14 +1261,73 @@
       "term": "screen",
       "ipa": "/skriːn/",
       "respell": "SKREEN",
-      "meaning": "To test a large group of healthy people in order to find a disease early. ---",
+      "meaning": "Screen has 4 distinct senses.",
       "examples": [
         "They screen everyone over fifty for colon cancer.",
         "The hospital screened two thousand people last year.",
-        "She was screened and cleared."
+        "She was screened and cleared.",
+        "The theater screens old westerns on Sunday nights.",
+        "They screened the documentary for the crew first.",
+        "The film has been screened at three festivals.",
+        "They screen every applicant before the interview.",
+        "Security screened all the bags at the door.",
+        "He was screening his calls all week.",
+        "Tall hedges screen the yard from the road.",
+        "A row of pines screened the house from the highway.",
+        "The patio is screened from the wind by a stone wall."
       ],
-      "senses": [],
-      "русский": "обследовать, проводить скрининг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To test a large group of healthy people in order to find a disease early",
+          "body": [
+            "(обследовать, проводить скрининг)"
+          ],
+          "examples": [
+            "They screen everyone over fifty for colon cancer.",
+            "The hospital screened two thousand people last year.",
+            "She was screened and cleared."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To show a film or a program to an audience",
+          "body": [
+            "(показывать, показать (фильм); устраивать показ)"
+          ],
+          "examples": [
+            "The theater screens old westerns on Sunday nights.",
+            "They screened the documentary for the crew first.",
+            "The film has been screened at three festivals."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To check people or things in order to decide which ones to let through",
+          "body": [
+            "(проверять, проверить; отбирать (кандидатов); досматривать (багаж))"
+          ],
+          "examples": [
+            "They screen every applicant before the interview.",
+            "Security screened all the bags at the door.",
+            "He was screening his calls all week."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To hide or protect something from view, light, or wind",
+          "body": [
+            "(заслонять, заслонить; закрывать (от вида, света); отгораживать)",
+            "---"
+          ],
+          "examples": [
+            "Tall hedges screen the yard from the road.",
+            "A row of pines screened the house from the highway.",
+            "The patio is screened from the wind by a stone wall."
+          ]
+        }
+      ],
+      "русский": "обследовать, проводить скрининг; показывать, показать (фильм); устраивать показ; проверять, проверить; отбирать (кандидатов); досматривать (багаж); заслонять, заслонить; закрывать (от вида, света); отгораживать",
       "forms": "screen · screened · screened",
       "verb class": "regular",
       "third person": "screens · -ing form: screening",
@@ -813,14 +1338,58 @@
       "term": "test",
       "ipa": "/tɛst/",
       "respell": "TEST",
-      "meaning": "To check someone's blood, body, or ability with a medical procedure. ---",
+      "meaning": "Test has 3 distinct senses.",
       "examples": [
         "They will test your blood for iron.",
         "He tested positive on Monday.",
-        "She is being tested for allergies."
+        "She is being tested for allergies.",
+        "Engineers test every battery before it ships.",
+        "They tested the brakes on a closed track.",
+        "The software is still being tested.",
+        "Those two test my patience every single day.",
+        "The delay tested everyone's good humor.",
+        "He has been testing the limits of what we will allow."
       ],
-      "senses": [],
-      "русский": "проверять, делать анализ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To check someone's blood, body, or ability with a medical procedure",
+          "body": [
+            "(проверять, делать анализ)"
+          ],
+          "examples": [
+            "They will test your blood for iron.",
+            "He tested positive on Monday.",
+            "She is being tested for allergies."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To use something in order to find out whether it works properly",
+          "body": [
+            "(испытывать, испытать; проверять (работу), тестировать)"
+          ],
+          "examples": [
+            "Engineers test every battery before it ships.",
+            "They tested the brakes on a closed track.",
+            "The software is still being tested."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To put a strain on someone's patience or on the limits of something",
+          "body": [
+            "(испытывать (терпение), проверять на прочность)",
+            "---"
+          ],
+          "examples": [
+            "Those two test my patience every single day.",
+            "The delay tested everyone's good humor.",
+            "He has been testing the limits of what we will allow."
+          ]
+        }
+      ],
+      "русский": "проверять, делать анализ; испытывать, испытать; проверять (работу), тестировать; испытывать (терпение), проверять на прочность",
       "forms": "test · tested · tested",
       "verb class": "regular",
       "third person": "tests · -ing form: testing",

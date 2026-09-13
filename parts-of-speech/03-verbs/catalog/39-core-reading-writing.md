@@ -81,36 +81,70 @@ To move text or images up or down on a screen.
 ### click
 
 **Pronunciation:** /klɪk/ &middot; *KLIK*
-**Русский:** щёлкать, кликать (мышью)
+**Русский:** щёлкать, кликать (мышью); щёлкать, щёлкнуть (о звуке); доходить, дойти (о смысле); осенять, осенить; сразу находить общий язык, сойтись (характерами)
 **Forms:** *click* &middot; *clicked* &middot; *clicked*
 **Verb class:** regular
 **Third person:** *clicks* &middot; **-ing form:** *clicking*
 **Transitivity:** both — transitive (click the link), intransitive (click on the icon)
 **Contrast:** You *click on* a link or simply *click* it; both are normal American usage.
 
-To press a button on a mouse or a spot on a screen to choose something.
+Click has 4 distinct senses.
+
+**1. To press a button on a mouse or a spot on a screen to choose something.** (щёлкать, кликать (мышью))
 
 1. *Click* the blue link at the bottom of the page.
 2. I *clicked* on the ad by mistake.
 3. Stop *clicking* — the page is still loading.
+
+**2. To make a short, sharp sound.** (щёлкать, щёлкнуть (о звуке))
+
+4. The lock *clicks* when it is fully shut.
+5. Her heels *clicked* down the hallway.
+6. Something was *clicking* under the hood the whole way home.
+
+**3. To suddenly become clear or make sense.** (доходить, дойти (о смысле); осенять, осенить)
+
+7. A rule doesn't always *click* until you use it.
+8. Then it *clicked*: I had met him at the wedding.
+9. Nothing was *clicking* for me in that class.
+
+**4. To like someone immediately and get along with them easily.** (сразу находить общий язык, сойтись (характерами))
+
+10. Some roommates just *click*.
+11. We *clicked* the first time we met.
+12. They have never really *clicked* as a team.
 
 ---
 
 ### refresh
 
 **Pronunciation:** /rɪˈfrɛʃ/ &middot; *ri-FRESH*
-**Русский:** обновлять (страницу), перезагружать
+**Русский:** обновлять (страницу), перезагружать; освежать, освежить; бодрить, придавать сил; освежать в памяти, освежить; напоминать
 **Forms:** *refresh* &middot; *refreshed* &middot; *refreshed*
 **Verb class:** regular
 **Third person:** *refreshes* &middot; **-ing form:** *refreshing*
 **Transitivity:** both — transitive (refresh the page), intransitive (the feed refreshes every minute)
 **Contrast:** Third person adds *-es* after *sh*: *refreshes*.
 
-To load the newest version of a page or a list.
+Refresh has 3 distinct senses.
+
+**1. To load the newest version of a page or a list.** (обновлять (страницу), перезагружать)
 
 1. *Refresh* the page and the table will load.
 2. I *refreshed* my inbox every five minutes.
 3. The app is *refreshing* the headlines automatically.
+
+**2. To make someone feel less tired and more comfortable.** (освежать, освежить; бодрить, придавать сил)
+
+4. A cold shower will *refresh* you.
+5. The short nap *refreshed* him completely.
+6. They came back *refreshed* after two weeks off.
+
+**3. To bring something back into someone's memory.** (освежать в памяти, освежить; напоминать)
+
+7. Let me *refresh* your memory.
+8. The photograph *refreshed* my memory of that day.
+9. She read her old notes, *refreshing* her memory before the exam.
 
 ---
 
@@ -134,34 +168,50 @@ To save a page so that you can find it again easily.
 ### highlight
 
 **Pronunciation:** /ˈhaɪlaɪt/ &middot; *HY-lyt*
-**Русский:** выделять (маркером); подчёркивать, обращать внимание на
+**Русский:** выделять (маркером); подчёркивать, обращать внимание на; мелировать; осветлять пряди
 **Forms:** *highlight* &middot; *highlighted* &middot; *highlighted*
 **Verb class:** regular
 **Third person:** *highlights* &middot; **-ing form:** *highlighting*
 **Transitivity:** transitive
 
-To mark part of a text with bright color, or to draw attention to it.
+Highlight has 2 distinct senses.
+
+**1. To mark part of a text with bright color, or to draw attention to it.** (выделять (маркером); подчёркивать, обращать внимание на)
 
 1. *Highlight* every word you don't know.
 2. She *highlighted* three paragraphs in yellow.
 3. The review kept *highlighting* the book's weak ending.
+
+**2. To dye streaks of someone's hair a lighter color.** (мелировать; осветлять пряди)
+
+4. She *highlights* her hair every spring.
+5. I got my hair *highlighted* before the wedding.
+6. The stylist is *highlighting* a few strands around her face.
 
 ---
 
 ### underline
 
 **Pronunciation:** /ˌʌndərˈlaɪn/ &middot; *un-dur-LYN*
-**Русский:** подчёркивать, подчеркнуть
+**Русский:** подчёркивать, подчеркнуть; подчёркивать, подчеркнуть (важность)
 **Forms:** *underline* &middot; *underlined* &middot; *underlined*
 **Verb class:** regular
 **Third person:** *underlines* &middot; **-ing form:** *underlining*
 **Transitivity:** transitive
 
-To draw a line under a word or a sentence.
+Underline has 2 distinct senses.
+
+**1. To draw a line under a word or a sentence.** (подчёркивать, подчеркнуть)
 
 1. *Underline* the verb in each sentence.
 2. He *underlined* his name twice.
 3. The editor is *underlining* the same mistake again.
+
+**2. To make clear that something is important.** (подчёркивать, подчеркнуть (важность))
+
+4. The accident *underlines* the need for better lighting.
+5. Her resignation *underlined* how bad things had gotten.
+6. The report has *underlined* the risks of waiting.
 
 ---
 
@@ -202,18 +252,32 @@ To repeat someone's words wrongly.
 ### cite
 
 **Pronunciation:** /saɪt/ &middot; *SYT*
-**Русский:** ссылаться на, приводить (источник)
+**Русский:** ссылаться на, приводить (источник); ссылаться на (причину), приводить как пример, указывать; выписывать штраф, привлекать к ответственности; вызывать в суд
 **Forms:** *cite* &middot; *cited* &middot; *cited*
 **Verb class:** regular
 **Third person:** *cites* &middot; **-ing form:** *citing*
 **Transitivity:** transitive
 **Contrast:** Sounds exactly like *site* (a place) and *sight* (vision).
 
-To name a book, article, or person as the source of your information.
+Cite has 3 distinct senses.
+
+**1. To name a book, article, or person as the source of your information.** (ссылаться на, приводить (источник))
 
 1. You must *cite* every source you use.
 2. The paper *cited* a study from 2019.
 3. He has *cited* the same website four times.
+
+**2. To mention something as a reason or an example.** (ссылаться на (причину), приводить как пример, указывать)
+
+4. Officials *cite* the weather as the main cause.
+5. She *cited* family reasons when she resigned.
+6. Rising rent is often *cited* as the reason small stores close.
+
+**3. To give someone an official ticket or an order to appear in court for breaking a law.** (выписывать штраф, привлекать к ответственности; вызывать в суд)
+
+7. Officers can *cite* you for parking there.
+8. The inspector *cited* the landlord twice last year.
+9. The restaurant was *cited* for three health violations.
 
 **Phrasal verbs:** [cite to](22-verb-preposition.md#cite-to)
 
@@ -360,18 +424,26 @@ To add a written translation of the speech at the bottom of a film or video.
 ### dub
 
 **Pronunciation:** /dʌb/ &middot; *DUB*
-**Русский:** дублировать (фильм), озвучивать
+**Русский:** дублировать (фильм), озвучивать; прозвать, окрестить (прозвищем)
 **Forms:** *dub* &middot; *dubbed* &middot; *dubbed*
 **Verb class:** regular
 **Third person:** *dubs* &middot; **-ing form:** *dubbing*
 **Transitivity:** transitive
 **Contrast:** Doubles the *b*: *dubbed*, *dubbing*.
 
-To replace the original speech in a film with speech in another language.
+Dub has 2 distinct senses.
+
+**1. To replace the original speech in a film with speech in another language.** (дублировать (фильм), озвучивать)
 
 1. German television *dubs* most American shows.
 2. The film was *dubbed* into Italian.
 3. The studio is *dubbing* the series for Latin America.
+
+**2. To give someone or something a nickname or label.** (прозвать, окрестить (прозвищем))
+
+4. The press *dubbed* him the Comeback Kid.
+5. Reporters *dub* every new scandal something-gate.
+6. The storm, *dubbed* Snowmageddon, shut the city down for a week.
 
 ---
 
@@ -413,17 +485,25 @@ To write a word with a capital letter at the beginning.
 ### punctuate
 
 **Pronunciation:** /ˈpʌŋktʃueɪt/ &middot; *PUNK-choo-ayt*
-**Русский:** расставлять знаки препинания
+**Русский:** расставлять знаки препинания; прерывать (время от времени), перемежать
 **Forms:** *punctuate* &middot; *punctuated* &middot; *punctuated*
 **Verb class:** regular
 **Third person:** *punctuates* &middot; **-ing form:** *punctuating*
 **Transitivity:** transitive
 
-To put commas, periods, and other marks into a piece of writing.
+Punctuate has 2 distinct senses.
+
+**1. To put commas, periods, and other marks into a piece of writing.** (расставлять знаки препинания)
 
 1. *Punctuate* the dialogue correctly.
 2. He *punctuated* the sentence with three exclamation points.
 3. The letter was badly *punctuated*.
+
+**2. To interrupt something again and again at intervals.** (прерывать (время от времени), перемежать)
+
+4. Applause *punctuated* the speech every few minutes.
+5. Long silences *punctuate* their phone calls.
+6. The night was *punctuated* by the sound of sirens.
 
 ---
 
@@ -515,17 +595,25 @@ To start a line of writing further in from the margin.
 ### number
 
 **Pronunciation:** /ˈnʌmbər/ &middot; *NUM-bur*
-**Русский:** нумеровать, пронумеровать
+**Русский:** нумеровать, пронумеровать; насчитывать, составлять (в количестве)
 **Forms:** *number* &middot; *numbered* &middot; *numbered*
 **Verb class:** regular
 **Third person:** *numbers* &middot; **-ing form:** *numbering*
 **Transitivity:** transitive
 
-To give each item in a list or a set its own number.
+Number has 2 distinct senses.
+
+**1. To give each item in a list or a set its own number.** (нумеровать, пронумеровать)
 
 1. *Number* your answers from one to ten.
 2. He *numbered* the pages by hand.
 3. The chapters are *numbered* in Roman numerals.
+
+**2. To add up to a particular total.** (насчитывать, составлять (в количестве))
+
+4. The staff now *number* fewer than twenty.
+5. The crowd *numbered* about five thousand.
+6. Protesters *numbering* in the thousands filled the square.
 
 ---
 
@@ -586,17 +674,25 @@ To type something again, usually to correct it.
 ### paste
 
 **Pronunciation:** /peɪst/ &middot; *PAYST*
-**Русский:** вставлять (скопированное)
+**Русский:** вставлять (скопированное); клеить, приклеивать, приклеить
 **Forms:** *paste* &middot; *pasted* &middot; *pasted*
 **Verb class:** regular
 **Third person:** *pastes* &middot; **-ing form:** *pasting*
 **Transitivity:** transitive
 
-To put text or an image you have copied into another place.
+Paste has 2 distinct senses.
+
+**1. To put text or an image you have copied into another place.** (вставлять (скопированное))
 
 1. Copy the link and *paste* it in the chat.
 2. I *pasted* the table into the report.
 3. He was *pasting* the same paragraph into every email.
+
+**2. To stick something onto a surface with glue or paste.** (клеить, приклеивать, приклеить)
+
+4. *Paste* the cutouts onto the poster board.
+5. She *pasted* photos into a scrapbook all evening.
+6. Old flyers had been *pasted* over the windows.
 
 ---
 
@@ -655,18 +751,26 @@ To remove text or a file from a document or a computer.
 ### format
 
 **Pronunciation:** /ˈfɔːrmæt/ &middot; *FOR-mat*
-**Русский:** форматировать, оформлять
+**Русский:** форматировать, оформлять; форматировать, отформатировать (диск, карту памяти)
 **Forms:** *format* &middot; *formatted* &middot; *formatted*
 **Verb class:** regular
 **Third person:** *formats* &middot; **-ing form:** *formatting*
 **Transitivity:** transitive
 **Contrast:** Doubles the *t*: *formatted*, *formatting*.
 
-To arrange how a text looks on the page or the screen.
+Format has 2 distinct senses.
+
+**1. To arrange how a text looks on the page or the screen.** (форматировать, оформлять)
 
 1. *Format* the list with bullet points.
 2. He *formatted* the essay in twelve-point type.
 3. The tables are *formatted* differently on every page.
+
+**2. To prepare a disk or a memory card for use, erasing everything on it.** (форматировать, отформатировать (диск, карту памяти))
+
+4. You'll need to *format* the drive first.
+5. I accidentally *formatted* the wrong card.
+6. The laptop has been *formatted* and reinstalled twice.
 
 ---
 
@@ -690,18 +794,32 @@ To give something a new name.
 ### edit
 
 **Pronunciation:** /ˈɛdɪt/ &middot; *ED-it*
-**Русский:** редактировать, править (текст)
+**Русский:** редактировать, править (текст); монтировать, смонтировать (фильм, видео); быть редактором, редактировать (издание)
 **Forms:** *edit* &middot; *edited* &middot; *edited*
 **Verb class:** regular
 **Third person:** *edits* &middot; **-ing form:** *editing*
 **Transitivity:** both — transitive (edit an essay), intransitive (she edits for a living)
 **Contrast:** One *t*: *edited*, *editing* — the stress is on the first syllable, so the *t* does not double.
 
-To correct and improve a piece of writing before it is published.
+Edit has 3 distinct senses.
+
+**1. To correct and improve a piece of writing before it is published.** (редактировать, править (текст))
 
 1. Could you *edit* my cover letter?
 2. She *edited* the story down to 800 words.
 3. He is *editing* the school magazine this year.
+
+**2. To cut and arrange film, video, or recorded sound into a finished piece.** (монтировать, смонтировать (фильм, видео))
+
+4. She *edits* documentaries for a living.
+5. The trailer was *edited* in two days.
+6. He is *editing* the wedding video this weekend.
+
+**3. To be in charge of a newspaper, magazine, or book and decide what goes in it.** (быть редактором, редактировать (издание))
+
+7. She *edits* the city's oldest weekly.
+8. He *edited* the paper for eleven years.
+9. The volume was *edited* by two historians.
 
 ---
 
@@ -727,18 +845,26 @@ To find the mistakes in something and make them right.
 ### proof
 
 **Pronunciation:** /pruːf/ &middot; *PROOF*
-**Русский:** вычитывать (текст), проверять на ошибки
+**Русский:** вычитывать (текст), проверять на ошибки; расстаивать (тесто), давать подойти; разводить дрожжи
 **Forms:** *proof* &middot; *proofed* &middot; *proofed*
 **Verb class:** regular
 **Third person:** *proofs* &middot; **-ing form:** *proofing*
 **Transitivity:** transitive
 **Contrast:** A short form of *proofread*, which is irregular: *proofread*, *proofread*.
 
-To read a text carefully for mistakes before it is printed or sent.
+Proof has 2 distinct senses.
+
+**1. To read a text carefully for mistakes before it is printed or sent.** (вычитывать (текст), проверять на ошибки)
 
 1. Could you *proof* this before I send it?
 2. He *proofed* the newsletter twice and still missed a typo.
 3. She is *proofing* the last few pages.
+
+**2. To let dough rise, or to get yeast working in warm liquid, before baking.** (расстаивать (тесто), давать подойти; разводить дрожжи)
+
+4. *Proof* the yeast in warm water for about ten minutes.
+5. I *proofed* the dough overnight in the refrigerator.
+6. The rolls are still *proofing* on top of the stove.
 
 ---
 
@@ -796,17 +922,25 @@ To change the wording of a written text without changing its meaning.
 ### condense
 
 **Pronunciation:** /kənˈdɛns/ &middot; *kuhn-DENS*
-**Русский:** сокращать, сжимать (текст)
+**Русский:** сокращать, сжимать (текст); конденсироваться, оседать каплями; сгущаться
 **Forms:** *condense* &middot; *condensed* &middot; *condensed*
 **Verb class:** regular
 **Third person:** *condenses* &middot; **-ing form:** *condensing*
 **Transitivity:** transitive
 
-To make a piece of writing shorter while keeping the main points.
+Condense has 2 distinct senses.
+
+**1. To make a piece of writing shorter while keeping the main points.** (сокращать, сжимать (текст))
 
 1. *Condense* the report to two pages.
 2. She *condensed* the chapter into a single summary.
 3. The article was *condensed* for the newsletter.
+
+**2. Of steam or a gas, to turn into liquid on a cool surface.** (конденсироваться, оседать каплями; сгущаться)
+
+4. Steam *condenses* on the bathroom mirror.
+5. Moisture *condensed* inside the windows overnight.
+6. Water had *condensed* on the cold pipe and dripped onto the floor.
 
 ---
 
@@ -954,18 +1088,26 @@ To draw little pictures without thinking, usually while doing something else.
 ### color
 
 **Pronunciation:** /ˈkʌlər/ &middot; *KUL-ur*
-**Русский:** раскрашивать, разукрашивать
+**Русский:** раскрашивать, разукрашивать; влиять на восприятие, окрашивать (мнение); искажать
 **Forms:** *color* &middot; *colored* &middot; *colored*
 **Verb class:** regular
 **Third person:** *colors* &middot; **-ing form:** *coloring*
 **Transitivity:** both — transitive (color a picture), intransitive (the kids colored quietly)
 **Contrast:** American *color*, *colored*, *coloring*; British *colour*, *coloured*, *colouring*.
 
-To fill a drawing with color using crayons or pencils.
+Color has 2 distinct senses.
+
+**1. To fill a drawing with color using crayons or pencils.** (раскрашивать, разукрашивать)
 
 1. Let the kids *color* the last page.
 2. She *colored* the whole sky purple.
 3. He is *coloring* inside the lines for once.
+
+**2. To influence the way someone sees or judges something, usually unfairly.** (влиять на восприятие, окрашивать (мнение); искажать)
+
+4. Don't let one bad review *color* your opinion.
+5. His childhood *colored* everything he wrote.
+6. The report was *colored* by the author's politics.
 
 **Phrasal verbs:** [color in](53-phrasal-regular-a-c.md#color-in)
 
@@ -1135,17 +1277,31 @@ To publish a text again, often in a new form.
 ### circulate
 
 **Pronunciation:** /ˈsɜːrkjəleɪt/ &middot; *SUR-kyuh-layt*
-**Русский:** распространять, рассылать; циркулировать
+**Русский:** распространять, рассылать; циркулировать; циркулировать, обращаться (о крови, воздухе); обходить гостей, общаться с разными людьми (на приёме)
 **Forms:** *circulate* &middot; *circulated* &middot; *circulated*
 **Verb class:** regular
 **Third person:** *circulates* &middot; **-ing form:** *circulating*
 **Transitivity:** both — transitive (circulate a draft), intransitive (rumors circulate)
 
-To pass something around so that many people see it.
+Circulate has 3 distinct senses.
+
+**1. To pass something around so that many people see it.** (распространять, рассылать; циркулировать)
 
 1. *Circulate* the draft before Friday.
 2. Someone *circulated* the memo to the whole office.
 3. Rumors were *circulating* long before the article appeared.
+
+**2. Of blood, air, or water, to move continuously through a system.** (циркулировать, обращаться (о крови, воздухе))
+
+4. Blood *circulates* through the body about once a minute.
+5. The fan *circulated* warm air into the back rooms.
+6. Cool water has been *circulating* through the pipes all night.
+
+**3. To move around a room talking to one person after another.** (обходить гостей, общаться с разными людьми (на приёме))
+
+7. A good host *circulates* instead of sitting down.
+8. She *circulated* among the guests with a tray.
+9. He spent the evening *circulating* and handing out cards.
 
 ---
 
@@ -1187,52 +1343,88 @@ To black out parts of a document before it is made public.
 ### retract
 
 **Pronunciation:** /rɪˈtrækt/ &middot; *ri-TRAKT*
-**Русский:** отзывать (заявление), опровергать
+**Русский:** отзывать (заявление), опровергать; втягивать, убирать (внутрь); втягиваться
 **Forms:** *retract* &middot; *retracted* &middot; *retracted*
 **Verb class:** regular
 **Third person:** *retracts* &middot; **-ing form:** *retracting*
 **Transitivity:** transitive
 
-To take back something you said or published because it was wrong.
+Retract has 2 distinct senses.
+
+**1. To take back something you said or published because it was wrong.** (отзывать (заявление), опровергать)
 
 1. The paper had to *retract* the story.
 2. He *retracted* the statement the next day.
 3. Two of the study's claims have been *retracted*.
+
+**2. To pull something back in, or to move back inside.** (втягивать, убирать (внутрь); втягиваться)
+
+4. A cat can *retract* its claws.
+5. The landing gear *retracted* as the plane climbed.
+6. The roof is slowly *retracting* to let in the sun.
 
 ---
 
 ### feature
 
 **Pronunciation:** /ˈfiːtʃər/ &middot; *FEE-chur*
-**Русский:** помещать на видном месте, давать (материал)
+**Русский:** помещать на видном месте, давать (материал); включать, иметь (в качестве особенности); отличаться (чем-л.)
 **Forms:** *feature* &middot; *featured* &middot; *featured*
 **Verb class:** regular
 **Third person:** *features* &middot; **-ing form:** *featuring*
 **Transitivity:** transitive
 
-To give a story, person, or work a prominent place in a publication or program.
+Feature has 2 distinct senses.
+
+**1. To give a story, person, or work a prominent place in a publication or program.** (помещать на видном месте, давать (материал))
 
 1. The magazine *features* a new poet every month.
 2. They *featured* her essay on the front page.
 3. The issue *featuring* the interview sold out.
+
+**2. To have something as an important or attractive part.** (включать, иметь (в качестве особенности); отличаться (чем-л.))
+
+4. The apartment *features* hardwood floors and a large balcony.
+5. The older model *featured* a headphone jack.
+6. It's a small hotel *featuring* a rooftop pool and a garden.
 
 ---
 
 ### pitch
 
 **Pronunciation:** /pɪtʃ/ &middot; *PICH*
-**Русский:** предлагать (идею, статью), продвигать замысел
+**Русский:** предлагать (идею, статью), продвигать замысел; бросать, бросить; подавать, подать (мяч в бейсболе); разбивать, разбить (палатку, лагерь); ставить палатку; падать вперёд, рухнуть; качать, качаться (о судне)
 **Forms:** *pitch* &middot; *pitched* &middot; *pitched*
 **Verb class:** regular
 **Third person:** *pitches* &middot; **-ing form:** *pitching*
 **Transitivity:** both — transitive (pitch a story), intransitive (pitch to an editor)
 **Contrast:** Third person adds *-es* after *ch*: *pitches*.
 
-To offer an idea for a story, book, or project to someone who might buy it.
+Pitch has 4 distinct senses.
+
+**1. To offer an idea for a story, book, or project to someone who might buy it.** (предлагать (идею, статью), продвигать замысел)
 
 1. *Pitch* the story to an editor first.
 2. She *pitched* three articles and sold two.
 3. He is *pitching* his novel to agents this month.
+
+**2. To throw something, especially to throw a baseball to the batter.** (бросать, бросить; подавать, подать (мяч в бейсболе))
+
+4. He *pitches* for a minor-league team in Ohio.
+5. She *pitched* the empty can into the trash.
+6. He has *pitched* three shutouts this season.
+
+**3. To set up a tent or a camp.** (разбивать, разбить (палатку, лагерь); ставить палатку)
+
+7. We'll *pitch* the tent before it gets dark.
+8. They *pitched* camp beside the river.
+9. The tents were *pitched* in a wide circle.
+
+**4. To fall suddenly forward, or to rock up and down the way a boat does.** (падать вперёд, рухнуть; качать, качаться (о судне))
+
+10. The boat *pitches* badly in a heavy sea.
+11. He tripped and *pitched* forward onto the gravel.
+12. The plane was *pitching* so hard that nobody could stand up.
 
 **Phrasal verbs:** [pitch in](56-phrasal-regular-m-p.md#pitch-in)
 
@@ -1241,18 +1433,32 @@ To offer an idea for a story, book, or project to someone who might buy it.
 ### adapt
 
 **Pronunciation:** /əˈdæpt/ &middot; *uh-DAPT*
-**Русский:** адаптировать, перерабатывать (для экранизации)
+**Русский:** адаптировать, перерабатывать (для экранизации); приспосабливаться, приспособиться; адаптироваться; приспосабливать, переделывать (под новое назначение)
 **Forms:** *adapt* &middot; *adapted* &middot; *adapted*
 **Verb class:** regular
 **Third person:** *adapts* &middot; **-ing form:** *adapting*
 **Transitivity:** transitive
 **Contrast:** *Adapt* (change something) is not *adopt* (take as your own).
 
-To rewrite a book or story so that it can be a film, a play, or a version for other readers.
+Adapt has 3 distinct senses.
+
+**1. To rewrite a book or story so that it can be a film, a play, or a version for other readers.** (адаптировать, перерабатывать (для экранизации))
 
 1. They plan to *adapt* the novel for television.
 2. She *adapted* the play for young audiences.
 3. The book has been *adapted* three times already.
+
+**2. To change the way you behave so that you can live or work well in a new situation.** (приспосабливаться, приспособиться; адаптироваться)
+
+4. Children *adapt* quickly to a new school.
+5. He *adapted* well to life in the city.
+6. The team is still *adapting* to the new rules.
+
+**3. To change a thing slightly so that it can be used for a new purpose.** (приспосабливать, переделывать (под новое назначение))
+
+7. You can *adapt* the recipe for a smaller pan.
+8. They *adapted* the garage into a workshop.
+9. The bathroom has been *adapted* for wheelchair users.
 
 **Phrasal verbs:** [adapt to](22-verb-preposition.md#adapt-to)
 
@@ -1347,17 +1553,25 @@ To store documents or messages for the long term instead of deleting them.
 ### compile
 
 **Pronunciation:** /kəmˈpaɪl/ &middot; *kuhm-PYL*
-**Русский:** составлять (сборник), собирать воедино
+**Русский:** составлять (сборник), собирать воедино; компилировать, скомпилировать (код)
 **Forms:** *compile* &middot; *compiled* &middot; *compiled*
 **Verb class:** regular
 **Third person:** *compiles* &middot; **-ing form:** *compiling*
 **Transitivity:** transitive
 
-To put together a book, list, or report out of many separate pieces.
+Compile has 2 distinct senses.
+
+**1. To put together a book, list, or report out of many separate pieces.** (составлять (сборник), собирать воедино)
 
 1. They *compile* a new dictionary every decade.
 2. She *compiled* his poems into one volume.
 3. He is *compiling* a list of sources.
+
+**2. To turn written code into a program that a computer can run.** (компилировать, скомпилировать (код))
+
+4. The project *compiles* in under a minute.
+5. I *compiled* it twice and got the same error.
+6. The app has to be *compiled* before you can test it.
 
 ---
 
@@ -1382,18 +1596,26 @@ To list things in order so that they can be found again.
 ### log
 
 **Pronunciation:** /lɔːɡ/ &middot; *LAWG*
-**Русский:** записывать (в журнал), фиксировать
+**Русский:** записывать (в журнал), фиксировать; вырубать лес, заготавливать лес; вести лесозаготовки
 **Forms:** *log* &middot; *logged* &middot; *logged*
 **Verb class:** regular
 **Third person:** *logs* &middot; **-ing form:** *logging*
 **Transitivity:** transitive
 **Contrast:** Doubles the *g*: *logged*, *logging*.
 
-To write down events, hours, or numbers in an official record.
+Log has 2 distinct senses.
+
+**1. To write down events, hours, or numbers in an official record.** (записывать (в журнал), фиксировать)
 
 1. Drivers *log* every trip they make.
 2. The nurse *logged* his temperature at noon.
 3. She has been *logging* her reading all year.
+
+**2. To cut down the trees in an area for timber.** (вырубать лес, заготавливать лес; вести лесозаготовки)
+
+4. Crews still *log* parts of the national forest.
+5. They *logged* this whole hillside in the 1950s.
+6. Most of the valley has already been *logged*.
 
 **Phrasal verbs:** [log in](55-phrasal-regular-g-l.md#log-in) &middot; [log off](55-phrasal-regular-g-l.md#log-off) &middot; [log on](55-phrasal-regular-g-l.md#log-on) &middot; [log out](55-phrasal-regular-g-l.md#log-out)
 
@@ -1402,18 +1624,26 @@ To write down events, hours, or numbers in an official record.
 ### flag
 
 **Pronunciation:** /flæɡ/ &middot; *FLAG*
-**Русский:** помечать, отмечать (как важное)
+**Русский:** помечать, отмечать (как важное); ослабевать, ослабеть; выдыхаться; идти на спад
 **Forms:** *flag* &middot; *flagged* &middot; *flagged*
 **Verb class:** regular
 **Third person:** *flags* &middot; **-ing form:** *flagging*
 **Transitivity:** transitive
 **Contrast:** Doubles the *g*: *flagged*, *flagging*.
 
-To mark something so that someone will notice it and deal with it.
+Flag has 2 distinct senses.
+
+**1. To mark something so that someone will notice it and deal with it.** (помечать, отмечать (как важное))
 
 1. *Flag* any sentence you don't understand.
 2. The editor *flagged* three factual errors.
 3. Two emails are *flagged* as urgent.
+
+**2. To lose strength, energy, or interest.** (ослабевать, ослабеть; выдыхаться; идти на спад)
+
+4. Attendance began to *flag* after the first week.
+5. Her enthusiasm never *flagged*.
+6. Sales have been *flagging* since spring.
 
 **Phrasal verbs:** [flag down](54-phrasal-regular-d-f.md#flag-down)
 
@@ -1422,18 +1652,26 @@ To mark something so that someone will notice it and deal with it.
 ### tag
 
 **Pronunciation:** /tæɡ/ &middot; *TAG*
-**Русский:** отмечать (в посте), помечать тегом
+**Русский:** отмечать (в посте), помечать тегом; осалить, запятнать (в игре); коснуться мячом (в бейсболе)
 **Forms:** *tag* &middot; *tagged* &middot; *tagged*
 **Verb class:** regular
 **Third person:** *tags* &middot; **-ing form:** *tagging*
 **Transitivity:** transitive
 **Contrast:** Doubles the *g*: *tagged*, *tagging*.
 
-To attach a name or a keyword to a photo, post, or file.
+Tag has 2 distinct senses.
+
+**1. To attach a name or a keyword to a photo, post, or file.** (отмечать (в посте), помечать тегом)
 
 1. Don't *tag* me in that photo.
 2. She *tagged* the post with three keywords.
 3. He is *tagging* everyone who was there.
+
+**2. To touch another player in a chasing game, or to touch a runner with the ball in baseball.** (осалить, запятнать (в игре); коснуться мячом (в бейсболе))
+
+4. *Tag* someone and then they're it.
+5. He *tagged* her and ran off laughing.
+6. The runner was *tagged* a step before he reached third.
 
 **Phrasal verbs:** [tag along](58-phrasal-regular-t-z.md#tag-along)
 
@@ -1511,18 +1749,32 @@ To publish someone else's post again on your own page.
 ### sign
 
 **Pronunciation:** /saɪn/ &middot; *SYN*
-**Русский:** подписывать, подписать
+**Русский:** подписывать, подписать; говорить на языке жестов, показывать жестами; подписывать контракт с (кем-л.), нанимать по контракту
 **Forms:** *sign* &middot; *signed* &middot; *signed*
 **Verb class:** regular
 **Third person:** *signs* &middot; **-ing form:** *signing*
 **Transitivity:** both — transitive (sign a letter), intransitive (sign at the bottom)
 **Contrast:** Silent *g*: *sign* rhymes with *fine*, but *signature* is *SIG-nuh-chur*.
 
-To write your name on a document to show that it is yours or that you agree.
+Sign has 3 distinct senses.
+
+**1. To write your name on a document to show that it is yours or that you agree.** (подписывать, подписать)
 
 1. *Sign* at the bottom of the second page.
 2. She *signed* the lease yesterday.
 3. The letter came back because it wasn't *signed*.
+
+**2. To communicate using sign language.** (говорить на языке жестов, показывать жестами)
+
+4. Both of her parents are deaf, so she *signs* fluently.
+5. An interpreter *signed* the whole ceremony.
+6. He was *signing* to a friend across the room.
+
+**3. To hire a player or performer by getting them to sign a contract.** (подписывать контракт с (кем-л.), нанимать по контракту)
+
+7. The team *signed* a new quarterback in March.
+8. The label wants to *sign* her before anyone else does.
+9. They have *signed* him for three more years.
 
 **Phrasal verbs:** [sign away](57-phrasal-regular-q-s.md#sign-away) &middot; [sign in](57-phrasal-regular-q-s.md#sign-in) &middot; [sign off](57-phrasal-regular-q-s.md#sign-off) &middot; [sign off on](57-phrasal-regular-q-s.md#sign-off-on) &middot; [sign on](57-phrasal-regular-q-s.md#sign-on) &middot; [sign out](57-phrasal-regular-q-s.md#sign-out) &middot; [sign over](57-phrasal-regular-q-s.md#sign-over) &middot; [sign up](57-phrasal-regular-q-s.md#sign-up) &middot; [sign up for](22-verb-preposition.md#sign-up-for)
 
@@ -1583,18 +1835,32 @@ To write your initials on a document to show you have read or approved it.
 ### date
 
 **Pronunciation:** /deɪt/ &middot; *DAYT*
-**Русский:** датировать, ставить дату
+**Русский:** датировать, ставить дату; встречаться (с кем-л.), ходить на свидания; датировать, определять возраст
 **Forms:** *date* &middot; *dated* &middot; *dated*
 **Verb class:** regular
 **Third person:** *dates* &middot; **-ing form:** *dating*
 **Transitivity:** transitive
 **Contrast:** The same verb also means 'go out with someone': *They dated for two years.*
 
-To write the day's date on a document.
+Date has 3 distinct senses.
+
+**1. To write the day's date on a document.** (датировать, ставить дату)
 
 1. Sign and *date* the form at the bottom.
 2. He *dated* the letter March 3.
 3. The check was *dated* last year, so the bank refused it.
+
+**2. To go out regularly with someone you are romantically interested in.** (встречаться (с кем-л.), ходить на свидания)
+
+4. They *dated* for two years before getting married.
+5. Is she *dating* anyone right now?
+6. He doesn't *date* much these days.
+
+**3. To work out how old something is.** (датировать, определять возраст)
+
+7. Scientists *dated* the bones to 10,000 BC.
+8. Experts can *date* a painting from its pigments.
+9. The wreck has been *dated* to the 1700s.
 
 **Phrasal verbs:** [date back](54-phrasal-regular-d-f.md#date-back)
 
@@ -1603,17 +1869,25 @@ To write the day's date on a document.
 ### stamp
 
 **Pronunciation:** /stæmp/ &middot; *STAMP*
-**Русский:** ставить штамп, штемпелевать; наклеивать марку
+**Русский:** ставить штамп, штемпелевать; наклеивать марку; топать, топнуть; растаптывать, растоптать
 **Forms:** *stamp* &middot; *stamped* &middot; *stamped*
 **Verb class:** regular
 **Third person:** *stamps* &middot; **-ing form:** *stamping*
 **Transitivity:** transitive
 
-To press an official mark onto a document, or to put a postage stamp on a letter.
+Stamp has 2 distinct senses.
+
+**1. To press an official mark onto a document, or to put a postage stamp on a letter.** (ставить штамп, штемпелевать; наклеивать марку)
 
 1. The clerk will *stamp* your copy.
 2. They *stamped* my passport at the border.
 3. Send a *stamped*, self-addressed envelope.
+
+**2. To bring your foot down hard on the ground or on something.** (топать, топнуть; растаптывать, растоптать)
+
+4. Don't *stamp* your feet at me.
+5. She *stamped* on the spider.
+6. He kept *stamping* his boots to knock the snow off.
 
 **Phrasal verbs:** [stamp out](57-phrasal-regular-q-s.md#stamp-out)
 
@@ -1622,17 +1896,25 @@ To press an official mark onto a document, or to put a postage stamp on a letter
 ### enclose
 
 **Pronunciation:** /ɪnˈkloʊz/ &middot; *in-KLOHZ*
-**Русский:** вкладывать (в конверт), прилагать
+**Русский:** вкладывать (в конверт), прилагать; огораживать, огородить; окружать, обносить (забором)
 **Forms:** *enclose* &middot; *enclosed* &middot; *enclosed*
 **Verb class:** regular
 **Third person:** *encloses* &middot; **-ing form:** *enclosing*
 **Transitivity:** transitive
 
-To put something into an envelope together with a letter.
+Enclose has 2 distinct senses.
+
+**1. To put something into an envelope together with a letter.** (вкладывать (в конверт), прилагать)
 
 1. Please *enclose* a copy of your ID.
 2. She *enclosed* a check with the form.
 3. A return envelope is *enclosed*.
+
+**2. To surround an area with a wall, a fence, or a border.** (огораживать, огородить; окружать, обносить (забором))
+
+4. A low stone wall *encloses* the garden.
+5. They *enclosed* the yard so the dog could run.
+6. The pool is *enclosed* by a tall fence.
 
 ---
 
@@ -1691,54 +1973,102 @@ To have a document officially witnessed and stamped by a notary.
 ### check
 
 **Pronunciation:** /tʃɛk/ &middot; *CHEK*
-**Русский:** проверять, проверить
+**Русский:** проверять, проверить; отмечать галочкой, поставить галочку; сдавать, сдать (багаж, пальто в гардероб); сдерживать, сдержать; останавливать распространение
 **Forms:** *check* &middot; *checked* &middot; *checked*
 **Verb class:** regular
 **Third person:** *checks* &middot; **-ing form:** *checking*
 **Transitivity:** both — transitive (check your spelling), intransitive (check before you send it)
 
-To look at something carefully to make sure it is correct.
+Check has 4 distinct senses.
+
+**1. To look at something carefully to make sure it is correct.** (проверять, проверить)
 
 1. *Check* your spelling before you print it.
 2. She *checked* the figures twice.
 3. He is *checking* the references at the back.
 
-**Phrasal verbs:** [check back](53-phrasal-regular-a-c.md#check-back) &middot; [check in](53-phrasal-regular-a-c.md#check-in-1) &middot; [check in](53-phrasal-regular-a-c.md#check-in) &middot; [check in on](53-phrasal-regular-a-c.md#check-in-on) &middot; [check into](53-phrasal-regular-a-c.md#check-into) &middot; [check off](53-phrasal-regular-a-c.md#check-off) &middot; [check out](53-phrasal-regular-a-c.md#check-out-2) &middot; [check out](53-phrasal-regular-a-c.md#check-out) &middot; [check out](53-phrasal-regular-a-c.md#check-out-1) &middot; [check over](53-phrasal-regular-a-c.md#check-over) &middot; [check up on](22-verb-preposition.md#check-up-on) &middot; [check with](53-phrasal-regular-a-c.md#check-with)
+**2. To mark a box or an item with a check mark.** (отмечать галочкой, поставить галочку)
+
+4. *Check* the box if you want a receipt.
+5. She *checked* each item on the list as she packed it.
+6. Two of the three boxes were already *checked*.
+
+**3. To hand a bag or a coat over to an airline, a hotel, or a cloakroom so that it is carried or kept for you.** (сдавать, сдать (багаж, пальто в гардероб))
+
+7. Do you want to *check* that bag or carry it on?
+8. We *checked* two suitcases in Denver.
+9. My coat is *checked* at the front desk.
+
+**4. To stop something from spreading or getting worse.** (сдерживать, сдержать; останавливать распространение)
+
+10. Vaccines *check* the spread of the disease.
+11. The new rules *checked* the rise in rents.
+12. The fire was finally *checked* at the ridge.
+
+**Phrasal verbs:** [check back](53-phrasal-regular-a-c.md#check-back) &middot; [check in](53-phrasal-regular-a-c.md#check-in-1) &middot; [check in](53-phrasal-regular-a-c.md#check-in) &middot; [check in on](53-phrasal-regular-a-c.md#check-in-on) &middot; [check into](53-phrasal-regular-a-c.md#check-into) &middot; [check off](53-phrasal-regular-a-c.md#check-off) &middot; [check out](53-phrasal-regular-a-c.md#check-out-1) &middot; [check out](53-phrasal-regular-a-c.md#check-out) &middot; [check out](53-phrasal-regular-a-c.md#check-out-2) &middot; [check over](53-phrasal-regular-a-c.md#check-over) &middot; [check up on](22-verb-preposition.md#check-up-on) &middot; [check with](53-phrasal-regular-a-c.md#check-with)
 
 ---
 
 ### grade
 
 **Pronunciation:** /ɡreɪd/ &middot; *GRAYD*
-**Русский:** проверять и оценивать (работы), ставить оценки
+**Русский:** проверять и оценивать (работы), ставить оценки; сортировать, классифицировать (по качеству, размеру)
 **Forms:** *grade* &middot; *graded* &middot; *graded*
 **Verb class:** regular
 **Third person:** *grades* &middot; **-ing form:** *grading*
 **Transitivity:** both — transitive (grade the essays), intransitive (she grades on weekends)
 **Contrast:** Americans *grade* papers; the British *mark* them.
 
-To read students' work and give it a score or a letter.
+Grade has 2 distinct senses.
+
+**1. To read students' work and give it a score or a letter.** (проверять и оценивать (работы), ставить оценки)
 
 1. Teachers *grade* essays on the weekend.
 2. He *graded* forty papers last night.
 3. The exams are being *graded* this week.
+
+**2. To sort products into levels of quality or size.** (сортировать, классифицировать (по качеству, размеру))
+
+4. Inspectors *grade* the beef before it leaves the plant.
+5. The eggs are *graded* by size and then packed.
+6. They *graded* the lumber into three classes.
 
 ---
 
 ### score
 
 **Pronunciation:** /skɔːr/ &middot; *SKOR*
-**Русский:** оценивать в баллах, набирать баллы
+**Русский:** оценивать в баллах, набирать баллы; раздобыть, доставать, достать; урвать; писать музыку к (фильму), сочинять саундтрек; надрезать, сделать надрезы; делать насечки
 **Forms:** *score* &middot; *scored* &middot; *scored*
 **Verb class:** regular
 **Third person:** *scores* &middot; **-ing form:** *scoring*
 **Transitivity:** both — transitive (score the tests), intransitive (she scored well)
 
-To give a test or a piece of work a number of points, or to earn those points.
+Score has 4 distinct senses.
+
+**1. To give a test or a piece of work a number of points, or to earn those points.** (оценивать в баллах, набирать баллы)
 
 1. Two readers *score* each essay.
 2. She *scored* well on the reading section.
 3. The tests are *scored* by computer.
+
+**2. To manage to get something you want, often by luck (informal).** (раздобыть, доставать, достать; урвать)
+
+4. He always *scores* the best seats somehow.
+5. We *scored* two tickets an hour before the show.
+6. She had *scored* an interview with the director.
+
+**3. To write the music for a film, a show, or a game.** (писать музыку к (фильму), сочинять саундтрек)
+
+7. He *scores* two or three films a year.
+8. A jazz trio *scored* the whole series.
+9. The movie was *scored* by a first-time composer.
+
+**4. To cut shallow lines into a surface.** (надрезать, сделать надрезы; делать насечки)
+
+10. *Score* the bread before it goes into the oven.
+11. He *scored* the drywall and snapped it along the line.
+12. The fat is *scored* so that it renders evenly.
 
 ---
 
@@ -1763,35 +2093,57 @@ To ask someone a set of short questions to test what they know.
 ### practice
 
 **Pronunciation:** /ˈpræktɪs/ &middot; *PRAK-tis*
-**Русский:** практиковаться, отрабатывать, тренироваться
+**Русский:** практиковаться, отрабатывать, тренироваться; практиковать, заниматься (врачебной, юридической практикой); исповедовать (религию), соблюдать обряды
 **Forms:** *practice* &middot; *practiced* &middot; *practiced*
 **Verb class:** regular
 **Third person:** *practices* &middot; **-ing form:** *practicing*
 **Transitivity:** both — transitive (practice your handwriting), intransitive (practice every day)
 **Contrast:** American spelling is *practice* for both noun and verb; British spells the verb *practise*.
 
-To do something again and again in order to get better at it.
+Practice has 3 distinct senses.
+
+**1. To do something again and again in order to get better at it.** (практиковаться, отрабатывать, тренироваться)
 
 1. *Practice* reading out loud.
 2. He *practiced* his handwriting every evening.
 3. She has been *practicing* her English on the phone.
+
+**2. To work in a profession such as law or medicine.** (практиковать, заниматься (врачебной, юридической практикой))
+
+4. She *practices* law in Chicago.
+5. He *practiced* medicine in the same town for forty years.
+6. You cannot *practice* here without a state license.
+
+**3. To follow the customs and rules of a religion.** (исповедовать (религию), соблюдать обряды)
+
+7. Her family has *practiced* Buddhism for three generations.
+8. Fewer young people *practice* the faith they were raised in.
+9. He was brought up Catholic but stopped *practicing* in college.
 
 ---
 
 ### profile
 
 **Pronunciation:** /ˈproʊfaɪl/ &middot; *PROH-fyl*
-**Русский:** писать очерк о ком-либо, делать портрет (в прессе)
+**Русский:** писать очерк о ком-либо, делать портрет (в прессе); выделять по расовому признаку, применять расовое профилирование
 **Forms:** *profile* &middot; *profiled* &middot; *profiled*
 **Verb class:** regular
 **Third person:** *profiles* &middot; **-ing form:** *profiling*
 **Transitivity:** transitive
 
-To write a long article describing a person's life and work.
+Profile has 2 distinct senses.
+
+**1. To write a long article describing a person's life and work.** (писать очерк о ком-либо, делать портрет (в прессе))
 
 1. The magazine *profiles* one scientist a month.
 2. She *profiled* the mayor last spring.
 3. He is being *profiled* in Sunday's paper.
+
+**2. To treat someone as a likely criminal because of their race or appearance rather than their behavior.** (выделять по расовому признаку, применять расовое профилирование)
+
+4. He says he was *profiled* because of the car he was driving.
+5. The department denies that its officers *profile* drivers.
+6. Critics accused the agency of *profiling* passengers by name and nationality.
 
 ---
 

@@ -6,14 +6,43 @@
       "term": "mop",
       "ipa": "/mɑːp/",
       "respell": "MAHP",
-      "meaning": "To wash a floor with a mop. ---",
+      "meaning": "Mop has 2 distinct senses.",
       "examples": [
         "I mop the kitchen twice a week.",
         "Someone mopped the hallway and left it wet.",
-        "He was mopping the floor when the phone rang."
+        "He was mopping the floor when the phone rang.",
+        "He mops his forehead between rounds.",
+        "She mopped her face with a paper towel.",
+        "The old man sat mopping his brow in the heat."
       ],
-      "senses": [],
-      "русский": "мыть шваброй, вымыть шваброй",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To wash a floor with a mop",
+          "body": [
+            "(мыть шваброй, вымыть шваброй)"
+          ],
+          "examples": [
+            "I mop the kitchen twice a week.",
+            "Someone mopped the hallway and left it wet.",
+            "He was mopping the floor when the phone rang."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To wipe sweat or water off your face or skin with a cloth",
+          "body": [
+            "(вытирать, вытереть (пот с лица))",
+            "---"
+          ],
+          "examples": [
+            "He mops his forehead between rounds.",
+            "She mopped her face with a paper towel.",
+            "The old man sat mopping his brow in the heat."
+          ]
+        }
+      ],
+      "русский": "мыть шваброй, вымыть шваброй; вытирать, вытереть (пот с лица)",
       "forms": "mop · mopped · mopped",
       "verb class": "regular",
       "third person": "mops · -ing form: mopping",
@@ -43,14 +72,43 @@
       "term": "dust",
       "ipa": "/dʌst/",
       "respell": "DUST",
-      "meaning": "To wipe the dust off furniture and shelves. ---",
+      "meaning": "Dust has 2 distinct senses.",
       "examples": [
         "I need to dust the bookshelves.",
         "She dusted the whole room before the guests arrived.",
-        "He's dusting the picture frames."
+        "He's dusting the picture frames.",
+        "Dust the cake with powdered sugar before serving.",
+        "She dusted the pan with flour.",
+        "Snow had dusted the fields overnight."
       ],
-      "senses": [],
-      "русский": "вытирать пыль, вытереть пыль; посыпать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To wipe the dust off furniture and shelves",
+          "body": [
+            "(вытирать пыль, вытереть пыль; посыпать)"
+          ],
+          "examples": [
+            "I need to dust the bookshelves.",
+            "She dusted the whole room before the guests arrived.",
+            "He's dusting the picture frames."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To sprinkle a fine powder lightly over something",
+          "body": [
+            "(посыпать, припорошить)",
+            "---"
+          ],
+          "examples": [
+            "Dust the cake with powdered sugar before serving.",
+            "She dusted the pan with flour.",
+            "Snow had dusted the fields overnight."
+          ]
+        }
+      ],
+      "русский": "вытирать пыль, вытереть пыль; посыпать; посыпать, припорошить",
       "forms": "dust · dusted · dusted",
       "verb class": "regular",
       "third person": "dusts · -ing form: dusting",
@@ -62,14 +120,43 @@
       "term": "scour",
       "ipa": "/ˈskaʊər/",
       "respell": "SKOW-ur",
-      "meaning": "To clean a surface by rubbing it hard with something rough. ---",
+      "meaning": "Scour has 2 distinct senses.",
       "examples": [
         "You'll have to scour the pan to get the burned rice off.",
         "He scoured the sink until it was white again.",
-        "She spent an hour scouring the grill."
+        "She spent an hour scouring the grill.",
+        "Volunteers scour the beach after every storm.",
+        "We scoured three stores looking for that part.",
+        "They have scoured every record in the archive."
       ],
-      "senses": [],
-      "русский": "отдраивать, отдраить; оттирать, оттереть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To clean a surface by rubbing it hard with something rough",
+          "body": [
+            "(отдраивать, отдраить; оттирать, оттереть)"
+          ],
+          "examples": [
+            "You'll have to scour the pan to get the burned rice off.",
+            "He scoured the sink until it was white again.",
+            "She spent an hour scouring the grill."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To search a place or a list very thoroughly",
+          "body": [
+            "(прочёсывать, прочесать; тщательно обыскивать, обыскать)",
+            "---"
+          ],
+          "examples": [
+            "Volunteers scour the beach after every storm.",
+            "We scoured three stores looking for that part.",
+            "They have scoured every record in the archive."
+          ]
+        }
+      ],
+      "русский": "отдраивать, отдраить; оттирать, оттереть; прочёсывать, прочесать; тщательно обыскивать, обыскать",
       "forms": "scour · scoured · scoured",
       "verb class": "regular",
       "third person": "scours · -ing form: scouring",
@@ -96,14 +183,43 @@
       "term": "launder",
       "ipa": "/ˈlɔːndər/",
       "respell": "LAWN-dur",
-      "meaning": "To wash and iron clothes or linens. ---",
+      "meaning": "Launder has 2 distinct senses.",
       "examples": [
         "The hotel launders the towels every day.",
         "She laundered the curtains before hanging them back up.",
-        "Freshly laundered sheets smell wonderful."
+        "Freshly laundered sheets smell wonderful.",
+        "They laundered the cash through a chain of car washes.",
+        "It is not easy to launder that much money.",
+        "He admitted laundering more than a million dollars."
       ],
-      "senses": [],
-      "русский": "стирать, постирать (и гладить)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To wash and iron clothes or linens",
+          "body": [
+            "(стирать, постирать (и гладить))"
+          ],
+          "examples": [
+            "The hotel launders the towels every day.",
+            "She laundered the curtains before hanging them back up.",
+            "Freshly laundered sheets smell wonderful."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To pass money from crime through legal businesses so that it looks honest",
+          "body": [
+            "(отмывать, отмыть (деньги))",
+            "---"
+          ],
+          "examples": [
+            "They laundered the cash through a chain of car washes.",
+            "It is not easy to launder that much money.",
+            "He admitted laundering more than a million dollars."
+          ]
+        }
+      ],
+      "русский": "стирать, постирать (и гладить); отмывать, отмыть (деньги)",
       "forms": "launder · laundered · laundered",
       "verb class": "regular",
       "third person": "launders · -ing form: laundering",
@@ -132,14 +248,43 @@
       "term": "sanitize",
       "ipa": "/ˈsænətaɪz/",
       "respell": "SAN-uh-tyze",
-      "meaning": "To clean something so that it is free of germs. ---",
+      "meaning": "Sanitize has 2 distinct senses.",
       "examples": [
         "The restaurant sanitizes the tables between customers.",
         "She sanitized the baby bottles.",
-        "They were sanitizing the carts at the door."
+        "They were sanitizing the carts at the door.",
+        "Textbooks often sanitize the ugliest parts of the war.",
+        "The agency sanitized the report before releasing it.",
+        "We only got a sanitized version of what happened that night."
       ],
-      "senses": [],
-      "русский": "дезинфицировать, обеззараживать, обеззаразить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To clean something so that it is free of germs",
+          "body": [
+            "(дезинфицировать, обеззараживать, обеззаразить)"
+          ],
+          "examples": [
+            "The restaurant sanitizes the tables between customers.",
+            "She sanitized the baby bottles.",
+            "They were sanitizing the carts at the door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To remove the parts of a story or a document that might offend or reveal too much",
+          "body": [
+            "(приглаживать, подчищать (текст, версию событий); вымарывать)",
+            "---"
+          ],
+          "examples": [
+            "Textbooks often sanitize the ugliest parts of the war.",
+            "The agency sanitized the report before releasing it.",
+            "We only got a sanitized version of what happened that night."
+          ]
+        }
+      ],
+      "русский": "дезинфицировать, обеззараживать, обеззаразить; приглаживать, подчищать (текст, версию событий); вымарывать",
       "forms": "sanitize · sanitized · sanitized",
       "verb class": "regular",
       "third person": "sanitizes · -ing form: sanitizing",
@@ -220,14 +365,43 @@
       "term": "comb",
       "ipa": "/koʊm/",
       "respell": "KOHM",
-      "meaning": "To pull a comb through hair to make it neat. ---",
+      "meaning": "Comb has 2 distinct senses.",
       "examples": [
         "Comb your hair before we leave.",
         "She combed the tangles out slowly.",
-        "He was combing the rug for a lost earring."
+        "He was combing the rug for a lost earring.",
+        "Volunteers comb the beach after every storm.",
+        "Detectives combed the apartment for fingerprints.",
+        "We have combed the records twice and found nothing."
       ],
-      "senses": [],
-      "русский": "расчёсывать, расчесать; прочёсывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pull a comb through hair to make it neat",
+          "body": [
+            "(расчёсывать, расчесать; прочёсывать)"
+          ],
+          "examples": [
+            "Comb your hair before we leave.",
+            "She combed the tangles out slowly.",
+            "He was combing the rug for a lost earring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To search a place very carefully and completely",
+          "body": [
+            "(прочёсывать, прочесать; тщательно обыскивать)",
+            "---"
+          ],
+          "examples": [
+            "Volunteers comb the beach after every storm.",
+            "Detectives combed the apartment for fingerprints.",
+            "We have combed the records twice and found nothing."
+          ]
+        }
+      ],
+      "русский": "расчёсывать, расчесать; прочёсывать; прочёсывать, прочесать; тщательно обыскивать",
       "forms": "comb · combed · combed",
       "verb class": "regular",
       "third person": "combs · -ing form: combing",
@@ -383,14 +557,43 @@
       "term": "smooth",
       "ipa": "/smuːð/",
       "respell": "SMOOTH",
-      "meaning": "To flatten something by running your hand over it. ---",
+      "meaning": "Smooth has 2 distinct senses.",
       "examples": [
         "Smooth the sheet before you tuck it in.",
         "She smoothed the wrinkles out of the tablecloth.",
-        "He was smoothing the bedspread with both hands."
+        "He was smoothing the bedspread with both hands.",
+        "A good agent smooths the way for first-time buyers.",
+        "Her recommendation smoothed his path into the program.",
+        "They are trying to smooth the transition for laid-off workers."
       ],
-      "senses": [],
-      "русский": "разглаживать, разгладить; сглаживать, сгладить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To flatten something by running your hand over it",
+          "body": [
+            "(разглаживать, разгладить; сглаживать, сгладить)"
+          ],
+          "examples": [
+            "Smooth the sheet before you tuck it in.",
+            "She smoothed the wrinkles out of the tablecloth.",
+            "He was smoothing the bedspread with both hands."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a process easier by removing the problems from it",
+          "body": [
+            "(сглаживать, облегчать (процесс); устранять препятствия)",
+            "---"
+          ],
+          "examples": [
+            "A good agent smooths the way for first-time buyers.",
+            "Her recommendation smoothed his path into the program.",
+            "They are trying to smooth the transition for laid-off workers."
+          ]
+        }
+      ],
+      "русский": "разглаживать, разгладить; сглаживать, сгладить; сглаживать, облегчать (процесс); устранять препятствия",
       "forms": "smooth · smoothed · smoothed",
       "verb class": "regular",
       "third person": "smooths · -ing form: smoothing",
@@ -437,14 +640,58 @@
       "term": "place",
       "ipa": "/pleɪs/",
       "respell": "PLAYSS",
-      "meaning": "To put something carefully in a particular spot. ---",
+      "meaning": "Place has 3 distinct senses.",
       "examples": [
         "Place the glasses upside down on the towel.",
         "He placed the vase in the center of the table.",
-        "The boxes were placed along the far wall."
+        "The boxes were placed along the far wall.",
+        "You can place an order online or by phone.",
+        "He placed a small bet on the last race.",
+        "The ad was placed in three local papers.",
+        "I know that face, but I can't place it.",
+        "It took her a minute to place his accent.",
+        "He finally placed the man as a neighbor from years ago."
       ],
-      "senses": [],
-      "русский": "класть, положить; помещать, поместить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put something carefully in a particular spot",
+          "body": [
+            "(класть, положить; помещать, поместить)"
+          ],
+          "examples": [
+            "Place the glasses upside down on the towel.",
+            "He placed the vase in the center of the table.",
+            "The boxes were placed along the far wall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To formally make an order, a bet, or an advertisement",
+          "body": [
+            "(размещать, разместить (заказ, объявление); делать, сделать (ставку))"
+          ],
+          "examples": [
+            "You can place an order online or by phone.",
+            "He placed a small bet on the last race.",
+            "The ad was placed in three local papers."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To remember where you know someone or something from",
+          "body": [
+            "(вспомнить (откуда знаешь), узнать)",
+            "---"
+          ],
+          "examples": [
+            "I know that face, but I can't place it.",
+            "It took her a minute to place his accent.",
+            "He finally placed the man as a neighbor from years ago."
+          ]
+        }
+      ],
+      "русский": "класть, положить; помещать, поместить; размещать, разместить (заказ, объявление); делать, сделать (ставку); вспомнить (откуда знаешь), узнать",
       "forms": "place · placed · placed",
       "verb class": "regular",
       "third person": "places · -ing form: placing",
@@ -454,14 +701,43 @@
       "term": "sort",
       "ipa": "/sɔːrt/",
       "respell": "SORT",
-      "meaning": "To separate things into groups of the same kind. ---",
+      "meaning": "Sort has 2 distinct senses.",
       "examples": [
         "Sort the whites from the colors.",
         "He sorted the mail into three piles.",
-        "She's sorting the recycling."
+        "She's sorting the recycling.",
+        "Sort the list by date and print it.",
+        "She sorted the emails by sender.",
+        "The files are sorted alphabetically."
       ],
-      "senses": [],
-      "русский": "сортировать, рассортировать; разбирать, разобрать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To separate things into groups of the same kind",
+          "body": [
+            "(сортировать, рассортировать; разбирать, разобрать)"
+          ],
+          "examples": [
+            "Sort the whites from the colors.",
+            "He sorted the mail into three piles.",
+            "She's sorting the recycling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To arrange things in a particular order, such as by date or alphabetically",
+          "body": [
+            "(упорядочивать, сортировать (по дате, по алфавиту))",
+            "---"
+          ],
+          "examples": [
+            "Sort the list by date and print it.",
+            "She sorted the emails by sender.",
+            "The files are sorted alphabetically."
+          ]
+        }
+      ],
+      "русский": "сортировать, рассортировать; разбирать, разобрать; упорядочивать, сортировать (по дате, по алфавиту)",
       "forms": "sort · sorted · sorted",
       "verb class": "regular",
       "third person": "sorts · -ing form: sorting",
@@ -490,14 +766,43 @@
       "term": "shelve",
       "ipa": "/ʃɛlv/",
       "respell": "SHELV",
-      "meaning": "To put things away on a shelf. ---",
+      "meaning": "Shelve has 2 distinct senses.",
       "examples": [
         "The library pays students to shelve books.",
         "She shelved the canned goods by date.",
-        "He was shelving the new arrivals all morning."
+        "He was shelving the new arrivals all morning.",
+        "The city shelved plans for a new stadium.",
+        "If the funding falls through, they will shelve the whole project.",
+        "The bill has been shelved until after the election."
       ],
-      "senses": [],
-      "русский": "ставить на полку, поставить; раскладывать по полкам",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put things away on a shelf",
+          "body": [
+            "(ставить на полку, поставить; раскладывать по полкам)"
+          ],
+          "examples": [
+            "The library pays students to shelve books.",
+            "She shelved the canned goods by date.",
+            "He was shelving the new arrivals all morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To decide not to continue with a plan or project, at least for now",
+          "body": [
+            "(откладывать, отложить (проект, план); класть под сукно)",
+            "---"
+          ],
+          "examples": [
+            "The city shelved plans for a new stadium.",
+            "If the funding falls through, they will shelve the whole project.",
+            "The bill has been shelved until after the election."
+          ]
+        }
+      ],
+      "русский": "ставить на полку, поставить; раскладывать по полкам; откладывать, отложить (проект, план); класть под сукно",
       "forms": "shelve · shelved · shelved",
       "verb class": "regular",
       "third person": "shelves · -ing form: shelving",
@@ -542,14 +847,43 @@
       "term": "box",
       "ipa": "/bɑːks/",
       "respell": "BAHKS",
-      "meaning": "To pack things into boxes. ---",
+      "meaning": "Box has 2 distinct senses.",
       "examples": [
         "We need to box the books before Friday.",
         "He boxed the china in newspaper.",
-        "Everything in the attic has been boxed and labeled."
+        "Everything in the attic has been boxed and labeled.",
+        "He boxed in college and still trains twice a week.",
+        "They box three rounds on Friday night.",
+        "She has been boxing since she was twelve."
       ],
-      "senses": [],
-      "русский": "упаковывать в коробки, упаковать; укладывать в коробку",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pack things into boxes",
+          "body": [
+            "(упаковывать в коробки, упаковать; укладывать в коробку)"
+          ],
+          "examples": [
+            "We need to box the books before Friday.",
+            "He boxed the china in newspaper.",
+            "Everything in the attic has been boxed and labeled."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fight with the fists as a sport",
+          "body": [
+            "(боксировать, заниматься боксом)",
+            "---"
+          ],
+          "examples": [
+            "He boxed in college and still trains twice a week.",
+            "They box three rounds on Friday night.",
+            "She has been boxing since she was twelve."
+          ]
+        }
+      ],
+      "русский": "упаковывать в коробки, упаковать; укладывать в коробку; боксировать, заниматься боксом",
       "forms": "box · boxed · boxed",
       "verb class": "regular",
       "third person": "boxes · -ing form: boxing",
@@ -561,14 +895,43 @@
       "term": "bag",
       "ipa": "/bæɡ/",
       "respell": "BAG",
-      "meaning": "To put something into a bag. ---",
+      "meaning": "Bag has 2 distinct senses.",
       "examples": [
         "Bag the leaves and leave them at the curb.",
         "She bagged the old clothes for donation.",
-        "He's bagging groceries at the store."
+        "He's bagging groceries at the store.",
+        "They hope to bag two turkeys this fall.",
+        "He bagged a twelve-point buck on the last day of the season.",
+        "She's bagged the biggest account in the office."
       ],
-      "senses": [],
-      "русский": "складывать в пакет, сложить; упаковывать в мешок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put something into a bag",
+          "body": [
+            "(складывать в пакет, сложить; упаковывать в мешок)"
+          ],
+          "examples": [
+            "Bag the leaves and leave them at the curb.",
+            "She bagged the old clothes for donation.",
+            "He's bagging groceries at the store."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To catch or kill an animal while hunting, or informally, to succeed in getting something",
+          "body": [
+            "(добывать (на охоте), подстрелить; заполучить, урвать (разг.))",
+            "---"
+          ],
+          "examples": [
+            "They hope to bag two turkeys this fall.",
+            "He bagged a twelve-point buck on the last day of the season.",
+            "She's bagged the biggest account in the office."
+          ]
+        }
+      ],
+      "русский": "складывать в пакет, сложить; упаковывать в мешок; добывать (на охоте), подстрелить; заполучить, урвать (разг.)",
       "forms": "bag · bagged · bagged",
       "verb class": "regular",
       "third person": "bags · -ing form: bagging",
@@ -615,14 +978,43 @@
       "term": "recycle",
       "ipa": "/riːˈsaɪkəl/",
       "respell": "ree-SY-kuhl",
-      "meaning": "To send used paper, glass, or plastic to be made into something new. ---",
+      "meaning": "Recycle has 2 distinct senses.",
       "examples": [
         "We recycle glass and cardboard.",
         "He recycled the newspapers.",
-        "This bag is made from recycled plastic."
+        "This bag is made from recycled plastic.",
+        "Don't just recycle last year's talk.",
+        "He recycled the same joke at every stop on the tour.",
+        "That plot has been recycled a dozen times."
       ],
-      "senses": [],
-      "русский": "перерабатывать, переработать; сдавать на переработку",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To send used paper, glass, or plastic to be made into something new",
+          "body": [
+            "(перерабатывать, переработать; сдавать на переработку)"
+          ],
+          "examples": [
+            "We recycle glass and cardboard.",
+            "He recycled the newspapers.",
+            "This bag is made from recycled plastic."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To use old material or old ideas again instead of making something new",
+          "body": [
+            "(использовать повторно (идеи, материал); повторять, перелицовывать)",
+            "---"
+          ],
+          "examples": [
+            "Don't just recycle last year's talk.",
+            "He recycled the same joke at every stop on the tour.",
+            "That plot has been recycled a dozen times."
+          ]
+        }
+      ],
+      "русский": "перерабатывать, переработать; сдавать на переработку; использовать повторно (идеи, материал); повторять, перелицовывать",
       "forms": "recycle · recycled · recycled",
       "verb class": "regular",
       "third person": "recycles · -ing form: recycling",
@@ -649,14 +1041,43 @@
       "term": "dump",
       "ipa": "/dʌmp/",
       "respell": "DUMP",
-      "meaning": "To empty something out quickly and carelessly. ---",
+      "meaning": "Dump has 2 distinct senses.",
       "examples": [
         "Don't dump the toys on the floor.",
         "He dumped the dirty water in the yard.",
-        "She was dumping the ashtray into the trash."
+        "She was dumping the ashtray into the trash.",
+        "She dumped him over the phone.",
+        "If he keeps lying, she will dump him.",
+        "He was dumped two weeks before the wedding."
       ],
-      "senses": [],
-      "русский": "вываливать, вывалить; сваливать, свалить; выбрасывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To empty something out quickly and carelessly",
+          "body": [
+            "(вываливать, вывалить; сваливать, свалить; выбрасывать)"
+          ],
+          "examples": [
+            "Don't dump the toys on the floor.",
+            "He dumped the dirty water in the yard.",
+            "She was dumping the ashtray into the trash."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To suddenly end a romantic relationship with someone (informal)",
+          "body": [
+            "(бросать, бросить (партнёра))",
+            "---"
+          ],
+          "examples": [
+            "She dumped him over the phone.",
+            "If he keeps lying, she will dump him.",
+            "He was dumped two weeks before the wedding."
+          ]
+        }
+      ],
+      "русский": "вываливать, вывалить; сваливать, свалить; выбрасывать; бросать, бросить (партнёра)",
       "forms": "dump · dumped · dumped",
       "verb class": "regular",
       "third person": "dumps · -ing form: dumping",
@@ -667,14 +1088,43 @@
       "term": "empty",
       "ipa": "/ˈɛmpti/",
       "respell": "EMP-tee",
-      "meaning": "To take everything out of a container. ---",
+      "meaning": "Empty has 2 distinct senses.",
       "examples": [
         "Empty the trash before you go.",
         "He emptied the vacuum bag outside.",
-        "She's emptying the dishwasher."
+        "She's emptying the dishwasher.",
+        "The Mississippi empties into the Gulf of Mexico.",
+        "Two small streams emptied into the lake behind the house.",
+        "The canal emptying into the harbor was dug in 1830."
       ],
-      "senses": [],
-      "русский": "опорожнять, опорожнить; опустошать; выносить (мусор)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take everything out of a container",
+          "body": [
+            "(опорожнять, опорожнить; опустошать; выносить (мусор))"
+          ],
+          "examples": [
+            "Empty the trash before you go.",
+            "He emptied the vacuum bag outside.",
+            "She's emptying the dishwasher."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To flow into a larger body of water, said of a river or a stream",
+          "body": [
+            "(впадать (о реке, ручье))",
+            "---"
+          ],
+          "examples": [
+            "The Mississippi empties into the Gulf of Mexico.",
+            "Two small streams emptied into the lake behind the house.",
+            "The canal emptying into the harbor was dug in 1830."
+          ]
+        }
+      ],
+      "русский": "опорожнять, опорожнить; опустошать; выносить (мусор); впадать (о реке, ручье)",
       "forms": "empty · emptied · emptied",
       "verb class": "regular",
       "third person": "empties · -ing form: emptying",
@@ -790,14 +1240,43 @@
       "term": "dampen",
       "ipa": "/ˈdæmpən/",
       "respell": "DAM-puhn",
-      "meaning": "To make something slightly wet. ---",
+      "meaning": "Dampen has 2 distinct senses.",
       "examples": [
         "Dampen the cloth before you dust.",
         "She dampened the shirt and ironed it flat.",
-        "He was dampening the sponge under the faucet."
+        "He was dampening the sponge under the faucet.",
+        "The rain didn't dampen their enthusiasm.",
+        "Higher rates dampened demand for houses.",
+        "Bad reviews are dampening ticket sales."
       ],
-      "senses": [],
-      "русский": "увлажнять, увлажнить; смачивать, смочить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make something slightly wet",
+          "body": [
+            "(увлажнять, увлажнить; смачивать, смочить)"
+          ],
+          "examples": [
+            "Dampen the cloth before you dust.",
+            "She dampened the shirt and ironed it flat.",
+            "He was dampening the sponge under the faucet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a feeling or an effect weaker",
+          "body": [
+            "(ослаблять, умерять (пыл), подпортить)",
+            "---"
+          ],
+          "examples": [
+            "The rain didn't dampen their enthusiasm.",
+            "Higher rates dampened demand for houses.",
+            "Bad reviews are dampening ticket sales."
+          ]
+        }
+      ],
+      "русский": "увлажнять, увлажнить; смачивать, смочить; ослаблять, умерять (пыл), подпортить",
       "forms": "dampen · dampened · dampened",
       "verb class": "regular",
       "third person": "dampens · -ing form: dampening",
@@ -825,14 +1304,58 @@
       "term": "absorb",
       "ipa": "/əbˈzɔːrb/",
       "respell": "ub-ZORB",
-      "meaning": "To take in liquid so that it is no longer on the surface. ---",
+      "meaning": "Absorb has 3 distinct senses.",
       "examples": [
         "These towels absorb a lot of water.",
         "The rag absorbed most of the spill.",
-        "The paper was absorbing the oil."
+        "The paper was absorbing the oil.",
+        "It takes time to absorb so much new material.",
+        "She absorbed everything the coach told her.",
+        "I was still absorbing the news when the phone rang.",
+        "Good running shoes absorb the shock of each step.",
+        "The company absorbed the extra cost instead of raising prices.",
+        "The foam panels are absorbing most of the noise from the street."
       ],
-      "senses": [],
-      "русский": "впитывать, впитать; поглощать, поглотить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take in liquid so that it is no longer on the surface",
+          "body": [
+            "(впитывать, впитать; поглощать, поглотить)"
+          ],
+          "examples": [
+            "These towels absorb a lot of water.",
+            "The rag absorbed most of the spill.",
+            "The paper was absorbing the oil."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take in information and understand it",
+          "body": [
+            "(усваивать, усвоить; воспринимать (информацию))"
+          ],
+          "examples": [
+            "It takes time to absorb so much new material.",
+            "She absorbed everything the coach told her.",
+            "I was still absorbing the news when the phone rang."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To take in force, shock, or a cost so that it does less damage",
+          "body": [
+            "(поглощать, смягчать (удар); принимать на себя (расходы))",
+            "---"
+          ],
+          "examples": [
+            "Good running shoes absorb the shock of each step.",
+            "The company absorbed the extra cost instead of raising prices.",
+            "The foam panels are absorbing most of the noise from the street."
+          ]
+        }
+      ],
+      "русский": "впитывать, впитать; поглощать, поглотить; усваивать, усвоить; воспринимать (информацию); поглощать, смягчать (удар); принимать на себя (расходы)",
       "forms": "absorb · absorbed · absorbed",
       "verb class": "regular",
       "third person": "absorbs · -ing form: absorbing",
@@ -880,14 +1403,43 @@
       "term": "immerse",
       "ipa": "/ɪˈmɜːrs/",
       "respell": "ih-MURS",
-      "meaning": "To put something completely under a liquid. ---",
+      "meaning": "Immerse has 2 distinct senses.",
       "examples": [
         "Immerse the jars in boiling water for ten minutes.",
         "She immersed the sponge and squeezed it out.",
-        "The base of the kettle must never be immersed in water."
+        "The base of the kettle must never be immersed in water.",
+        "Immerse yourself in the material before the exam.",
+        "She immersed herself in the language for a year.",
+        "He has immersed himself in local politics since he retired."
       ],
-      "senses": [],
-      "русский": "погружать, погрузить; окунать, окунуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put something completely under a liquid",
+          "body": [
+            "(погружать, погрузить; окунать, окунуть)"
+          ],
+          "examples": [
+            "Immerse the jars in boiling water for ten minutes.",
+            "She immersed the sponge and squeezed it out.",
+            "The base of the kettle must never be immersed in water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To become completely involved in an activity or a subject",
+          "body": [
+            "(погружаться, погрузиться (с головой во что-л.); уходить с головой)",
+            "---"
+          ],
+          "examples": [
+            "Immerse yourself in the material before the exam.",
+            "She immersed herself in the language for a year.",
+            "He has immersed himself in local politics since he retired."
+          ]
+        }
+      ],
+      "русский": "погружать, погрузить; окунать, окунуть; погружаться, погрузиться (с головой во что-л.); уходить с головой",
       "forms": "immerse · immersed · immersed",
       "verb class": "regular",
       "third person": "immerses · -ing form: immersing",
@@ -931,14 +1483,43 @@
       "term": "plunge",
       "ipa": "/plʌndʒ/",
       "respell": "PLUNJ",
-      "meaning": "To clear a blocked toilet or drain with a plunger, or to push something down into liquid. ---",
+      "meaning": "Plunge has 2 distinct senses.",
       "examples": [
         "You may have to plunge the toilet.",
         "He plunged the drain until the water went down.",
-        "She was plunging the sink when I walked in."
+        "She was plunging the sink when I walked in.",
+        "Temperatures plunge after sunset in the desert.",
+        "The bus skidded and plunged into the river.",
+        "Stock prices have plunged since the announcement."
       ],
-      "senses": [],
-      "русский": "прочищать вантузом; погружать, погрузить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To clear a blocked toilet or drain with a plunger, or to push something down into liquid",
+          "body": [
+            "(прочищать вантузом; погружать, погрузить)"
+          ],
+          "examples": [
+            "You may have to plunge the toilet.",
+            "He plunged the drain until the water went down.",
+            "She was plunging the sink when I walked in."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fall or drop suddenly and steeply",
+          "body": [
+            "(резко падать, обрушиться; рухнуть)",
+            "---"
+          ],
+          "examples": [
+            "Temperatures plunge after sunset in the desert.",
+            "The bus skidded and plunged into the river.",
+            "Stock prices have plunged since the announcement."
+          ]
+        }
+      ],
+      "русский": "прочищать вантузом; погружать, погрузить; резко падать, обрушиться; рухнуть",
       "forms": "plunge · plunged · plunged",
       "verb class": "regular",
       "third person": "plunges · -ing form: plunging",
@@ -948,14 +1529,43 @@
       "term": "flush",
       "ipa": "/flʌʃ/",
       "respell": "FLUSH",
-      "meaning": "To send water through something to clean it out, especially a toilet. ---",
+      "meaning": "Flush has 2 distinct senses.",
       "examples": [
         "Flush the toilet twice if you have to.",
         "He flushed the radiator hose with clean water.",
-        "The toilet won't stop flushing."
+        "The toilet won't stop flushing.",
+        "She flushed when he read her name out loud.",
+        "His face flushes whenever he has to speak in public.",
+        "Her cheeks were flushed from the cold."
       ],
-      "senses": [],
-      "русский": "смывать, смыть (в туалете); промывать, промыть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To send water through something to clean it out, especially a toilet",
+          "body": [
+            "(смывать, смыть (в туалете); промывать, промыть)"
+          ],
+          "examples": [
+            "Flush the toilet twice if you have to.",
+            "He flushed the radiator hose with clean water.",
+            "The toilet won't stop flushing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To turn red in the face from heat, embarrassment, or strong feeling",
+          "body": [
+            "(краснеть, покраснеть; заливаться румянцем, вспыхнуть)",
+            "---"
+          ],
+          "examples": [
+            "She flushed when he read her name out loud.",
+            "His face flushes whenever he has to speak in public.",
+            "Her cheeks were flushed from the cold."
+          ]
+        }
+      ],
+      "русский": "смывать, смыть (в туалете); промывать, промыть; краснеть, покраснеть; заливаться румянцем, вспыхнуть",
       "forms": "flush · flushed · flushed",
       "verb class": "regular",
       "third person": "flushes · -ing form: flushing",
@@ -966,14 +1576,43 @@
       "term": "strip",
       "ipa": "/strɪp/",
       "respell": "STRIP",
-      "meaning": "To take everything off a surface or a bed. ---",
+      "meaning": "Strip has 2 distinct senses.",
       "examples": [
         "Strip the beds and start a load of sheets.",
         "He stripped the old wax off the floor.",
-        "They're stripping the wallpaper in the hall."
+        "They're stripping the wallpaper in the hall.",
+        "The board can strip him of his license.",
+        "The court stripped her of custody.",
+        "He was stripped of the gold medal."
       ],
-      "senses": [],
-      "русский": "снимать, снять (бельё, покрытие); сдирать, содрать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take everything off a surface or a bed",
+          "body": [
+            "(снимать, снять (бельё, покрытие); сдирать, содрать)"
+          ],
+          "examples": [
+            "Strip the beds and start a load of sheets.",
+            "He stripped the old wax off the floor.",
+            "They're stripping the wallpaper in the hall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take an official title, right, or position away from someone",
+          "body": [
+            "(лишать, лишить (звания, прав, полномочий))",
+            "---"
+          ],
+          "examples": [
+            "The board can strip him of his license.",
+            "The court stripped her of custody.",
+            "He was stripped of the gold medal."
+          ]
+        }
+      ],
+      "русский": "снимать, снять (бельё, покрытие); сдирать, содрать; лишать, лишить (звания, прав, полномочий)",
       "forms": "strip · stripped · stripped",
       "verb class": "regular",
       "third person": "strips · -ing form: stripping",
@@ -985,14 +1624,43 @@
       "term": "bathe",
       "ipa": "/beɪð/",
       "respell": "BAYTH",
-      "meaning": "To wash someone, or yourself, in a tub. ---",
+      "meaning": "Bathe has 2 distinct senses.",
       "examples": [
         "It's easier to bathe the dog outside.",
         "She bathed the twins one at a time.",
-        "He was bathing the baby when the doorbell rang."
+        "He was bathing the baby when the doorbell rang.",
+        "Streetlights bathe the parking lot in a cold blue glow.",
+        "The sunset bathed the whole valley in orange.",
+        "The room was bathed in candlelight."
       ],
-      "senses": [],
-      "русский": "купать, искупать; мыться, купаться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To wash someone, or yourself, in a tub",
+          "body": [
+            "(купать, искупать; мыться, купаться)"
+          ],
+          "examples": [
+            "It's easier to bathe the dog outside.",
+            "She bathed the twins one at a time.",
+            "He was bathing the baby when the doorbell rang."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To cover something completely in light or color",
+          "body": [
+            "(заливать (светом), залить; окутывать)",
+            "---"
+          ],
+          "examples": [
+            "Streetlights bathe the parking lot in a cold blue glow.",
+            "The sunset bathed the whole valley in orange.",
+            "The room was bathed in candlelight."
+          ]
+        }
+      ],
+      "русский": "купать, искупать; мыться, купаться; заливать (светом), залить; окутывать",
       "forms": "bathe · bathed · bathed",
       "verb class": "regular",
       "third person": "bathes · -ing form: bathing",
@@ -1003,14 +1671,43 @@
       "term": "filter",
       "ipa": "/ˈfɪltər/",
       "respell": "FIL-tur",
-      "meaning": "To pass liquid or air through something that takes the dirt out. ---",
+      "meaning": "Filter has 2 distinct senses.",
       "examples": [
         "This pitcher filters the tap water.",
         "She filtered the used frying oil through a cloth.",
-        "The air is filtered before it goes back into the room."
+        "The air is filtered before it goes back into the room.",
+        "Sunlight filtered through the blinds.",
+        "News of the layoffs filtered through the office by noon.",
+        "Voices from the hallway kept filtering into the room."
       ],
-      "senses": [],
-      "русский": "фильтровать, отфильтровать; очищать, очистить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pass liquid or air through something that takes the dirt out",
+          "body": [
+            "(фильтровать, отфильтровать; очищать, очистить)"
+          ],
+          "examples": [
+            "This pitcher filters the tap water.",
+            "She filtered the used frying oil through a cloth.",
+            "The air is filtered before it goes back into the room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move slowly and in small amounts through or into a place",
+          "body": [
+            "(просачиваться, просочиться; проникать (постепенно), пробиваться)",
+            "---"
+          ],
+          "examples": [
+            "Sunlight filtered through the blinds.",
+            "News of the layoffs filtered through the office by noon.",
+            "Voices from the hallway kept filtering into the room."
+          ]
+        }
+      ],
+      "русский": "фильтровать, отфильтровать; очищать, очистить; просачиваться, просочиться; проникать (постепенно), пробиваться",
       "forms": "filter · filtered · filtered",
       "verb class": "regular",
       "third person": "filters · -ing form: filtering",

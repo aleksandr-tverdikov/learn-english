@@ -12,34 +12,50 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 ### plant
 
 **Pronunciation:** /plænt/ &middot; *PLANT*
-**Русский:** сажать, посадить; высаживать
+**Русский:** сажать, посадить; высаживать; подбрасывать, подбросить (улику); закладывать, заложить (бомбу); внедрять
 **Forms:** *plant* &middot; *planted* &middot; *planted*
 **Verb class:** regular
 **Third person:** *plants* &middot; **-ing form:** *planting*
 **Transitivity:** transitive
 
-To put a seed or a young plant into the ground so that it will grow.
+Plant has 2 distinct senses.
+
+**1. To put a seed or a young plant into the ground so that it will grow.** (сажать, посадить; высаживать)
 
 1. We *plant* tomatoes every year around Mother's Day.
 2. They *planted* two hundred apple trees last spring.
 3. The corn was *planted* too early and the frost killed it.
+
+**2. To put something somewhere secretly so that it will be found or will do harm.** (подбрасывать, подбросить (улику); закладывать, заложить (бомбу); внедрять)
+
+4. Someone *planted* drugs in his car.
+5. The bomb had been *planted* under a bench.
+6. They accused the agency of *planting* false stories in the press.
 
 ---
 
 ### cultivate
 
 **Pronunciation:** /ˈkʌltɪveɪt/ &middot; *KUL-tuh-vayt*
-**Русский:** возделывать, обрабатывать (землю); выращивать
+**Русский:** возделывать, обрабатывать (землю); выращивать; развивать, налаживать (связи), культивировать
 **Forms:** *cultivate* &middot; *cultivated* &middot; *cultivated*
 **Verb class:** regular
 **Third person:** *cultivates* &middot; **-ing form:** *cultivating*
 **Transitivity:** transitive
 
-To prepare and use land for growing crops, or to grow a particular crop.
+Cultivate has 2 distinct senses.
+
+**1. To prepare and use land for growing crops, or to grow a particular crop.** (возделывать, обрабатывать (землю); выращивать)
 
 1. Farmers in this valley *cultivate* rice and beans.
 2. His family *cultivated* the same hillside for a hundred years.
 3. Only a third of the land is being *cultivated* now.
+
+**2. To build a relationship, a skill, or an image deliberately over time.** (развивать, налаживать (связи), культивировать)
+
+4. He *cultivated* contacts at every major paper.
+5. It takes years to *cultivate* that kind of trust.
+6. She has been *cultivating* a reputation for honesty.
 
 ---
 
@@ -84,17 +100,31 @@ To turn over soil with a plow, or to push snow off a road.
 ### seed
 
 **Pronunciation:** /siːd/ &middot; *SEED*
-**Русский:** засевать, засеять; сеять
+**Русский:** засевать, засеять; сеять; сеять, посеять (в турнирной сетке); распределять по посеву; вынимать семена, очищать от семян (перец, помидоры)
 **Forms:** *seed* &middot; *seeded* &middot; *seeded*
 **Verb class:** regular
 **Third person:** *seeds* &middot; **-ing form:** *seeding*
 **Transitivity:** transitive
 
-To scatter seed over a piece of ground.
+Seed has 3 distinct senses.
+
+**1. To scatter seed over a piece of ground.** (засевать, засеять; сеять)
 
 1. We *seed* the lawn in early fall.
 2. They *seeded* the pasture with clover.
 3. The burned slope is being *seeded* by hand.
+
+**2. To rank players or teams before a tournament so that the best ones do not meet early.** (сеять, посеять (в турнирной сетке); распределять по посеву)
+
+4. The committee will *seed* the teams on Sunday.
+5. They *seeded* her second despite the injury.
+6. He is *seeded* fourth in his half of the draw.
+
+**3. To take the seeds out of a fruit or a vegetable.** (вынимать семена, очищать от семян (перец, помидоры))
+
+7. *Seed* the peppers before you slice them.
+8. He *seeded* and chopped four tomatoes.
+9. The jalapeños should be *seeded* if you want less heat.
 
 ---
 
@@ -118,18 +148,26 @@ To plant something again, or to plant new plants where old ones were.
 ### fertilize
 
 **Pronunciation:** /ˈfɜːrtəlaɪz/ &middot; *FUR-tuh-lyz*
-**Русский:** удобрять, удобрить
+**Русский:** удобрять, удобрить; оплодотворять, оплодотворить; опылять, опылить
 **Forms:** *fertilize* &middot; *fertilized* &middot; *fertilized*
 **Verb class:** regular
 **Third person:** *fertilizes* &middot; **-ing form:** *fertilizing*
 **Transitivity:** transitive
 **Contrast:** American spelling ends in -ize: fertilize, fertilized. British English writes fertilise.
 
-To add something to soil or plants to make them grow better.
+Fertilize has 2 distinct senses.
+
+**1. To add something to soil or plants to make them grow better.** (удобрять, удобрить)
 
 1. *Fertilize* the tomatoes once a month.
 2. He *fertilized* the lawn in April.
 3. The rows have been *fertilized* and watered.
+
+**2. To join a male cell with an egg so that a young animal or plant can begin to grow.** (оплодотворять, оплодотворить; опылять, опылить)
+
+4. Bees *fertilize* the blossoms in spring.
+5. Only one sperm actually *fertilized* the egg.
+6. The eggs are *fertilized* outside the body and then implanted.
 
 ---
 
@@ -171,20 +209,28 @@ To bring water to dry land through pipes or ditches so crops can grow.
 ### water
 
 **Pronunciation:** /ˈwɔːtər/ &middot; *WAW-tur*
-**Русский:** поливать, полить
+**Русский:** поливать, полить; слезиться (о глазах); наполняться слюной
 **Forms:** *water* &middot; *watered* &middot; *watered*
 **Verb class:** regular
 **Third person:** *waters* &middot; **-ing form:** *watering*
 **Transitivity:** transitive
 **Contrast:** No doubled t: watered, watering — the stress is on WAW-, so the t stays single.
 
-To pour water on plants or give water to animals.
+Water has 2 distinct senses.
+
+**1. To pour water on plants or give water to animals.** (поливать, полить)
 
 1. Please *water* the tomatoes while we're away.
 2. I *watered* the garden at sunrise.
 3. The seedlings have not been *watered* in three days.
 
-**Phrasal verbs:** [water down](58-phrasal-regular-t-z.md#water-down-1) &middot; [water down](58-phrasal-regular-t-z.md#water-down)
+**2. For the eyes to fill with tears, or for the mouth to fill with saliva.** (слезиться (о глазах); наполняться слюной)
+
+4. Onions make my eyes *water*.
+5. His eyes *watered* in the cold wind.
+6. The smell from the bakery had my mouth *watering*.
+
+**Phrasal verbs:** [water down](58-phrasal-regular-t-z.md#water-down) &middot; [water down](58-phrasal-regular-t-z.md#water-down-1)
 
 ---
 
@@ -280,35 +326,51 @@ To cut branches off a tree or bush so it grows better.
 ### graft
 
 **Pronunciation:** /ɡræft/ &middot; *GRAFT*
-**Русский:** прививать, привить (растение)
+**Русский:** прививать, привить (растение); пересаживать, пересадить (кожу, ткань)
 **Forms:** *graft* &middot; *grafted* &middot; *grafted*
 **Verb class:** regular
 **Third person:** *grafts* &middot; **-ing form:** *grafting*
 **Transitivity:** transitive
 
-To join a branch of one plant onto another so they grow as one.
+Graft has 2 distinct senses.
+
+**1. To join a branch of one plant onto another so they grow as one.** (прививать, привить (растение))
 
 1. Growers *graft* good fruit onto strong roots.
 2. He *grafted* a pear branch onto the old tree.
 3. These apples are *grafted*, not grown from seed.
+
+**2. To move skin, bone, or other living tissue from one part of the body to another in surgery.** (пересаживать, пересадить (кожу, ткань))
+
+4. Surgeons *grafted* skin from his thigh onto the burn.
+5. Doctors can *graft* bone taken from the hip.
+6. The new tissue was *grafted* in place last week.
 
 ---
 
 ### stake
 
 **Pronunciation:** /steɪk/ &middot; *STAYK*
-**Русский:** подвязывать к колышку, ставить подпорки
+**Русский:** подвязывать к колышку, ставить подпорки; ставить, поставить (на кон); рисковать (репутацией)
 **Forms:** *stake* &middot; *staked* &middot; *staked*
 **Verb class:** regular
 **Third person:** *stakes* &middot; **-ing form:** *staking*
 **Transitivity:** transitive
 **Contrast:** Sounds exactly like steak (the meat). Stake the tomatoes, grill the steak.
 
-To support a plant by tying it to a wooden or metal stick.
+Stake has 2 distinct senses.
+
+**1. To support a plant by tying it to a wooden or metal stick.** (подвязывать к колышку, ставить подпорки)
 
 1. We *stake* the tomatoes as soon as they get tall.
 2. He *staked* the young tree against the wind.
 3. Every plant in that row has been *staked*.
+
+**2. To risk money or something valuable on the result of something.** (ставить, поставить (на кон); рисковать (репутацией))
+
+4. I would not *stake* my savings on a rumor.
+5. He *staked* his reputation on the forecast.
+6. She has *staked* everything on this one deal.
 
 **Phrasal verbs:** [stake out](57-phrasal-regular-q-s.md#stake-out-1) &middot; [stake out](57-phrasal-regular-q-s.md#stake-out)
 
@@ -335,17 +397,25 @@ To plant something in a pot rather than in the ground.
 ### propagate
 
 **Pronunciation:** /ˈprɑːpəɡeɪt/ &middot; *PRAH-puh-gayt*
-**Русский:** размножать (растения); размножаться
+**Русский:** размножать (растения); размножаться; распространять(ся), распространить(ся); передавать(ся) (о волнах, сигнале, ошибке)
 **Forms:** *propagate* &middot; *propagated* &middot; *propagated*
 **Verb class:** regular
 **Third person:** *propagates* &middot; **-ing form:** *propagating*
 **Transitivity:** both — transitive (propagate mint from cuttings), intransitive (the plant propagates easily)
 
-To grow new plants from seeds, cuttings, or runners.
+Propagate has 2 distinct senses.
+
+**1. To grow new plants from seeds, cuttings, or runners.** (размножать (растения); размножаться)
 
 1. You can *propagate* mint from a single cutting.
 2. She *propagated* dozens of tomatoes over the winter.
 3. These shrubs are easily *propagated* in water.
+
+**2. To travel outward through a space or a system, or to pass something on that way.** (распространять(ся), распространить(ся); передавать(ся) (о волнах, сигнале, ошибке))
+
+4. Sound *propagates* faster in water than in air.
+5. The error *propagated* through every report built on that file.
+6. A crack can *propagate* through the metal for years before it fails.
 
 ---
 
@@ -455,17 +525,25 @@ To produce flowers.
 ### mature
 
 **Pronunciation:** /məˈtʃʊr/ &middot; *muh-CHUR*
-**Русский:** созревать, созреть; вызревать
+**Русский:** созревать, созреть; вызревать; наступать (о сроке погашения); погашаться, быть погашенным
 **Forms:** *mature* &middot; *matured* &middot; *matured*
 **Verb class:** regular
 **Third person:** *matures* &middot; **-ing form:** *maturing*
 **Transitivity:** both — transitive (the cheese is matured in a cave), intransitive (the corn matures in ninety days)
 
-To become fully grown or fully ripe.
+Mature has 2 distinct senses.
+
+**1. To become fully grown or fully ripe.** (созревать, созреть; вызревать)
 
 1. This corn *matures* in about ninety days.
 2. The calves *matured* faster on the new feed.
 3. The fruit is still *maturing* on the branch.
+
+**2. When a bond, a loan, or an investment matures, it reaches the date when it must be paid.** (наступать (о сроке погашения); погашаться, быть погашенным)
+
+4. The bond will *mature* in ten years.
+5. Her CD *matured* last month, so she reinvested it.
+6. By the time the policy has *matured*, it will be worth double.
 
 ---
 
@@ -526,54 +604,84 @@ To carry pollen to a flower so that it can produce fruit or seed.
 ### multiply
 
 **Pronunciation:** /ˈmʌltəplaɪ/ &middot; *MUL-tuh-ply*
-**Русский:** размножаться, размножиться; умножать
+**Русский:** размножаться, размножиться; умножать; умножать, умножить
 **Forms:** *multiply* &middot; *multiplied* &middot; *multiplied*
 **Verb class:** regular
 **Third person:** *multiplies* &middot; **-ing form:** *multiplying*
 **Transitivity:** both — intransitive (rabbits multiply fast), transitive (multiply the seed by hand)
 **Contrast:** The -y becomes -ie: multiplies, multiplied — but multiplying keeps the y.
 
-To increase greatly in number, especially by breeding.
+Multiply has 2 distinct senses.
+
+**1. To increase greatly in number, especially by breeding.** (размножаться, размножиться; умножать)
 
 1. Rabbits *multiply* faster than anyone expects.
 2. The aphids *multiplied* in a single week.
 3. The herd has *multiplied* since the drought ended.
+
+**2. To find the total of one number added to itself a given number of times.** (умножать, умножить)
+
+4. *Multiply* the length by the width to get the area.
+5. She *multiplied* six by seven in her head.
+6. We were *multiplying* fractions all morning.
 
 ---
 
 ### uproot
 
 **Pronunciation:** /ʌpˈruːt/ &middot; *up-ROOT*
-**Русский:** вырывать с корнем, выкорчевывать
+**Русский:** вырывать с корнем, выкорчевывать; срывать с насиженного места, вынуждать покинуть дом
 **Forms:** *uproot* &middot; *uprooted* &middot; *uprooted*
 **Verb class:** regular
 **Third person:** *uproots* &middot; **-ing form:** *uprooting*
 **Transitivity:** transitive
 
-To pull a plant out of the ground with its roots.
+Uproot has 2 distinct senses.
+
+**1. To pull a plant out of the ground with its roots.** (вырывать с корнем, выкорчевывать)
 
 1. Storms *uproot* the shallowest trees first.
 2. The wind *uprooted* two apple trees last night.
 3. Half the hedge had been *uprooted* by morning.
+
+**2. To force people to leave the home or the country where they have settled.** (срывать с насиженного места, вынуждать покинуть дом)
+
+4. The war *uprooted* thousands of families in a single week.
+5. A transfer would *uproot* the whole family again.
+6. They have been *uprooted* twice in five years.
 
 ---
 
 ### pick
 
 **Pronunciation:** /pɪk/ &middot; *PIK*
-**Русский:** собирать, собрать (урожай); рвать (ягоды)
+**Русский:** собирать, собрать (урожай); рвать (ягоды); выбирать, выбрать; отбирать, отобрать; ковырять, выковыривать, выковырять; теребить
 **Forms:** *pick* &middot; *picked* &middot; *picked*
 **Verb class:** regular
 **Third person:** *picks* &middot; **-ing form:** *picking*
 **Transitivity:** transitive
 
-To take fruit, flowers, or vegetables off the plant by hand.
+Pick has 3 distinct senses.
+
+**1. To take fruit, flowers, or vegetables off the plant by hand.** (собирать, собрать (урожай); рвать (ягоды))
 
 1. We *pick* apples the last week of September.
 2. She *picked* three quarts of blueberries before noon.
 3. These beans are *picked* by hand.
 
-**Phrasal verbs:** [pick apart](56-phrasal-regular-m-p.md#pick-apart) &middot; [pick at](56-phrasal-regular-m-p.md#pick-at) &middot; [pick off](56-phrasal-regular-m-p.md#pick-off) &middot; [pick on](56-phrasal-regular-m-p.md#pick-on) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out-1) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-5) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-7) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-3) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-8) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-6) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-10) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-4) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-1) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-9) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-2) &middot; [pick up after](56-phrasal-regular-m-p.md#pick-up-after) &middot; [pick up on](56-phrasal-regular-m-p.md#pick-up-on)
+**2. To choose one thing or person out of several.** (выбирать, выбрать; отбирать, отобрать)
+
+4. *Pick* whichever one you like.
+5. They *picked* her for the team.
+6. Have you *picked* a name for the baby yet?
+
+**3. To pull or scratch small bits off or out of something with your fingers or a point.** (ковырять, выковыривать, выковырять; теребить)
+
+7. Stop *picking* your teeth at the table.
+8. She *picked* a splinter out of her thumb with a needle.
+9. Don't *pick* that scab or it will scar.
+
+**Phrasal verbs:** [pick apart](56-phrasal-regular-m-p.md#pick-apart) &middot; [pick at](56-phrasal-regular-m-p.md#pick-at) &middot; [pick off](56-phrasal-regular-m-p.md#pick-off) &middot; [pick on](56-phrasal-regular-m-p.md#pick-on) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out-1) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-7) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-6) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-4) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-8) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-10) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-2) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-5) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-1) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-3) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-9) &middot; [pick up after](56-phrasal-regular-m-p.md#pick-up-after) &middot; [pick up on](56-phrasal-regular-m-p.md#pick-up-on)
 
 ---
 
@@ -598,52 +706,76 @@ To move a group of animals together from one place to another.
 ### milk
 
 **Pronunciation:** /mɪlk/ &middot; *MILK*
-**Русский:** доить, подоить
+**Русский:** доить, подоить; выжимать (выгоду), доить; наживаться
 **Forms:** *milk* &middot; *milked* &middot; *milked*
 **Verb class:** regular
 **Third person:** *milks* &middot; **-ing form:** *milking*
 **Transitivity:** transitive
 
-To take milk from a cow, goat, or other animal.
+Milk has 2 distinct senses.
+
+**1. To take milk from a cow, goat, or other animal.** (доить, подоить)
 
 1. We *milk* the goats twice a day.
 2. He *milked* forty cows before breakfast.
 3. The cows have already been *milked* this morning.
+
+**2. To get as much money or advantage out of something as you possibly can.** (выжимать (выгоду), доить; наживаться)
+
+4. Some comedians *milk* a joke until it dies.
+5. He *milked* the injury for two extra weeks off.
+6. They are *milking* the story for every click it is worth.
 
 ---
 
 ### hatch
 
 **Pronunciation:** /hætʃ/ &middot; *HACH*
-**Русский:** вылупляться, вылупиться; высиживать
+**Русский:** вылупляться, вылупиться; высиживать; замышлять, задумать; вынашивать (план)
 **Forms:** *hatch* &middot; *hatched* &middot; *hatched*
 **Verb class:** regular
 **Third person:** *hatches* &middot; **-ing form:** *hatching*
 **Transitivity:** both — intransitive (the chicks hatched), transitive (the hen hatched six eggs)
 **Contrast:** Third person takes -es after -ch: it hatches, not it hatchs.
 
-To come out of an egg, or to bring young out of eggs.
+Hatch has 2 distinct senses.
+
+**1. To come out of an egg, or to bring young out of eggs.** (вылупляться, вылупиться; высиживать)
 
 1. These eggs *hatch* in twenty-one days.
 2. Four chicks *hatched* overnight.
 3. The last egg has not *hatched* yet.
+
+**2. To invent a plan or a plot, usually in secret.** (замышлять, задумать; вынашивать (план))
+
+4. They *hatched* a plan to surprise her at the airport.
+5. The whole scheme was *hatched* over dinner.
+6. He is always *hatching* some new business idea.
 
 ---
 
 ### incubate
 
 **Pronunciation:** /ˈɪŋkjəbeɪt/ &middot; *ING-kyuh-bayt*
-**Русский:** высиживать (яйца), инкубировать
+**Русский:** высиживать (яйца), инкубировать; развиваться скрыто, зреть (об инфекции в инкубационный период)
 **Forms:** *incubate* &middot; *incubated* &middot; *incubated*
 **Verb class:** regular
 **Third person:** *incubates* &middot; **-ing form:** *incubating*
 **Transitivity:** transitive
 
-To keep eggs warm until the young are ready to come out.
+Incubate has 2 distinct senses.
+
+**1. To keep eggs warm until the young are ready to come out.** (высиживать (яйца), инкубировать)
 
 1. A hen *incubates* her eggs for about three weeks.
 2. We *incubated* the duck eggs in the back shed.
 3. The eggs are being *incubated* at ninety-nine degrees.
+
+**2. To develop quietly inside the body before any symptoms show, said of a disease.** (развиваться скрыто, зреть (об инфекции в инкубационный период))
+
+4. The virus *incubates* for about five days.
+5. Whatever he caught *incubated* for a week and a half.
+6. The infection had been *incubating* long before he felt sick.
 
 ---
 
@@ -721,69 +853,101 @@ To turn a wild species into one that lives with and works for people.
 ### butcher
 
 **Pronunciation:** /ˈbʊtʃər/ &middot; *BUUCH-ur*
-**Русский:** разделывать (тушу); забивать (скот)
+**Русский:** разделывать (тушу); забивать (скот); коверкать, исковеркать; портить, запороть
 **Forms:** *butcher* &middot; *butchered* &middot; *butchered*
 **Verb class:** regular
 **Third person:** *butchers* &middot; **-ing form:** *butchering*
 **Transitivity:** transitive
 
-To kill an animal and cut it up for meat.
+Butcher has 2 distinct senses.
+
+**1. To kill an animal and cut it up for meat.** (разделывать (тушу); забивать (скот))
 
 1. We *butcher* one hog every November.
 2. He *butchered* the deer that same evening.
 3. The lamb has already been *butchered* and wrapped.
+
+**2. To ruin something by doing it clumsily or badly.** (коверкать, исковеркать; портить, запороть)
+
+4. The waiter *butchered* my last name.
+5. Don't *butcher* the song — practice it first.
+6. They have *butchered* a perfectly good script.
 
 ---
 
 ### groom
 
 **Pronunciation:** /ɡruːm/ &middot; *GROOM*
-**Русский:** чистить, ухаживать (за животным)
+**Русский:** чистить, ухаживать (за животным); готовить (к должности), растить (преемника)
 **Forms:** *groom* &middot; *groomed* &middot; *groomed*
 **Verb class:** regular
 **Third person:** *grooms* &middot; **-ing form:** *grooming*
 **Transitivity:** transitive
 
-To brush and clean an animal's coat.
+Groom has 2 distinct senses.
+
+**1. To brush and clean an animal's coat.** (чистить, ухаживать (за животным))
 
 1. She *grooms* the horses every morning.
 2. He *groomed* the pony before the county fair.
 3. The dogs are *groomed* twice a year.
+
+**2. To train and prepare someone for an important job or role.** (готовить (к должности), растить (преемника))
+
+4. The party *grooms* candidates years in advance.
+5. They *groomed* her for a seat on the board.
+6. He is being *groomed* as the next CEO.
 
 ---
 
 ### tend
 
 **Pronunciation:** /tɛnd/ &middot; *TEND*
-**Русский:** ухаживать (за растениями, животными); присматривать
+**Русский:** ухаживать (за растениями, животными); присматривать; иметь склонность, обычно делать; быть склонным к
 **Forms:** *tend* &middot; *tended* &middot; *tended*
 **Verb class:** regular
 **Third person:** *tends* &middot; **-ing form:** *tending*
 **Transitivity:** transitive
 **Contrast:** You can tend the animals or tend to the animals. Do not mix it up with tend to do something, which means 'usually do'.
 
-To look after plants or animals and give them what they need.
+Tend has 2 distinct senses.
+
+**1. To look after plants or animals and give them what they need.** (ухаживать (за растениями, животными); присматривать)
 
 1. He *tends* the whole orchard by himself.
 2. She *tended* the sheep through a hard winter.
 3. That garden has been carefully *tended* for years.
+
+**2. To be likely to do something, or to do it regularly.** (иметь склонность, обычно делать; быть склонным к)
+
+4. Prices *tend* to rise in the summer.
+5. He *tended* to arrive late, so we stopped waiting for him.
+6. She has always *tended* toward caution.
 
 ---
 
 ### fence
 
 **Pronunciation:** /fɛns/ &middot; *FENS*
-**Русский:** огораживать, огородить (забором)
+**Русский:** огораживать, огородить (забором); фехтовать
 **Forms:** *fence* &middot; *fenced* &middot; *fenced*
 **Verb class:** regular
 **Third person:** *fences* &middot; **-ing form:** *fencing*
 **Transitivity:** transitive
 
-To put a fence around a piece of land.
+Fence has 2 distinct senses.
+
+**1. To put a fence around a piece of land.** (огораживать, огородить (забором))
 
 1. We *fence* the garden to keep the deer out.
 2. They *fenced* forty acres last summer.
 3. The pasture is *fenced* on three sides.
+
+**2. To fight with a long thin sword as a sport.** (фехтовать)
+
+4. She learned to *fence* in college.
+5. They *fenced* for an hour every morning.
+6. He has been *fencing* since he was ten.
 
 **Phrasal verbs:** [fence in](54-phrasal-regular-d-f.md#fence-in) &middot; [fence off](54-phrasal-regular-d-f.md#fence-off)
 
@@ -809,35 +973,51 @@ To care for something young or weak so that it grows strong.
 ### harness
 
 **Pronunciation:** /ˈhɑːrnɪs/ &middot; *HAR-nis*
-**Русский:** запрягать, запрячь
+**Русский:** запрягать, запрячь; использовать, задействовать (энергию); обуздать
 **Forms:** *harness* &middot; *harnessed* &middot; *harnessed*
 **Verb class:** regular
 **Third person:** *harnesses* &middot; **-ing form:** *harnessing*
 **Transitivity:** transitive
 **Contrast:** Third person adds -es after -ss: he harnesses the team.
 
-To put straps on a horse or other animal so it can pull something.
+Harness has 2 distinct senses.
+
+**1. To put straps on a horse or other animal so it can pull something.** (запрягать, запрячь)
 
 1. They still *harness* mules for the steepest rows.
 2. He *harnessed* the team before sunrise.
 3. The horses are already *harnessed* and waiting.
+
+**2. To bring a natural force or a resource under control so that it can be used.** (использовать, задействовать (энергию); обуздать)
+
+4. The dam *harnesses* the river to make electricity.
+5. Early settlers *harnessed* the wind to pump water.
+6. The company is *harnessing* all that data to price its loans.
 
 ---
 
 ### saddle
 
 **Pronunciation:** /ˈsædəl/ &middot; *SAD-uhl*
-**Русский:** седлать, оседлать
+**Русский:** седлать, оседлать; обременять, обременить; взваливать, взвалить (долг, обязанность)
 **Forms:** *saddle* &middot; *saddled* &middot; *saddled*
 **Verb class:** regular
 **Third person:** *saddles* &middot; **-ing form:** *saddling*
 **Transitivity:** transitive
 
-To put a saddle on a horse.
+Saddle has 2 distinct senses.
+
+**1. To put a saddle on a horse.** (седлать, оседлать)
 
 1. We *saddle* the horses right after chores.
 2. She *saddled* her mare and rode out to the herd.
 3. The ponies were *saddled* and ready by six.
+
+**2. To give someone a difficult job, debt, or responsibility they did not want.** (обременять, обременить; взваливать, взвалить (долг, обязанность))
+
+4. Don't *saddle* the new guy with all the paperwork.
+5. The deal *saddled* the company with huge debts.
+6. Many graduates are *saddled* with loans for decades.
 
 ---
 
@@ -862,17 +1042,25 @@ To come together with another animal to produce young.
 ### nest
 
 **Pronunciation:** /nɛst/ &middot; *NEST*
-**Русский:** гнездиться, вить гнездо
+**Русский:** гнездиться, вить гнездо; вкладывать один в другой, вставлять внутрь
 **Forms:** *nest* &middot; *nested* &middot; *nested*
 **Verb class:** regular
 **Third person:** *nests* &middot; **-ing form:** *nesting*
 **Transitivity:** intransitive
 
-To build a nest and live in it while raising young.
+Nest has 2 distinct senses.
+
+**1. To build a nest and live in it while raising young.** (гнездиться, вить гнездо)
 
 1. Swallows *nest* under our barn roof every year.
 2. A pair of owls *nested* in the old sycamore.
 3. The turtles are *nesting* on the beach tonight.
+
+**2. To fit one thing neatly inside another.** (вкладывать один в другой, вставлять внутрь)
+
+4. The mixing bowls *nest* inside each other.
+5. She *nested* the boxes to save room in the closet.
+6. *Nesting* folders too deeply makes files hard to find.
 
 ---
 
@@ -896,17 +1084,25 @@ To settle somewhere high for the night, said of birds.
 ### perch
 
 **Pronunciation:** /pɜːrtʃ/ &middot; *PURCH*
-**Русский:** садиться, усаживаться (о птице)
+**Русский:** садиться, усаживаться (о птице); примоститься, присесть на край; возвышаться (о доме, посёлке)
 **Forms:** *perch* &middot; *perched* &middot; *perched*
 **Verb class:** regular
 **Third person:** *perches* &middot; **-ing form:** *perching*
 **Transitivity:** intransitive
 
-To sit on a branch, wire, or post, said of a bird.
+Perch has 2 distinct senses.
+
+**1. To sit on a branch, wire, or post, said of a bird.** (садиться, усаживаться (о птице))
 
 1. Hawks *perch* on the fence posts along this road.
 2. A cardinal *perched* on the feeder for a second.
 3. Two owls were *perching* on the barn ridge.
+
+**2. To sit on the edge of something, or to stand high up in a narrow spot.** (примоститься, присесть на край; возвышаться (о доме, посёлке))
+
+4. She *perched* on the arm of the sofa.
+5. The village *perches* on a steep hillside above the river.
+6. A small chapel is *perched* on the cliff over the bay.
 
 ---
 
@@ -930,17 +1126,25 @@ To move or gather in a large crowd, said of bees and other insects.
 ### hibernate
 
 **Pronunciation:** /ˈhaɪbərneɪt/ &middot; *HY-bur-nayt*
-**Русский:** впадать в спячку, зимовать
+**Русский:** впадать в спячку, зимовать; переходить в спящий режим, уходить в гибернацию
 **Forms:** *hibernate* &middot; *hibernated* &middot; *hibernated*
 **Verb class:** regular
 **Third person:** *hibernates* &middot; **-ing form:** *hibernating*
 **Transitivity:** intransitive
 
-To sleep through the winter, said of animals like bears and groundhogs.
+Hibernate has 2 distinct senses.
+
+**1. To sleep through the winter, said of animals like bears and groundhogs.** (впадать в спячку, зимовать)
 
 1. Groundhogs *hibernate* from October to March.
 2. The bear *hibernated* in a hollow log.
 3. The frogs are *hibernating* down in the mud.
+
+**2. To put a computer into a low-power state that saves whatever is open.** (переходить в спящий режим, уходить в гибернацию)
+
+4. Set the laptop to *hibernate* instead of shutting it down.
+5. The PC *hibernated* overnight and woke up with every tab still open.
+6. It has been *hibernating* since I closed the lid.
 
 ---
 
@@ -964,17 +1168,25 @@ To dig a hole or tunnel in the ground to live in.
 ### spawn
 
 **Pronunciation:** /spɔːn/ &middot; *SPAWN*
-**Русский:** метать икру, нереститься
+**Русский:** метать икру, нереститься; порождать, породить; вызывать появление
 **Forms:** *spawn* &middot; *spawned* &middot; *spawned*
 **Verb class:** regular
 **Third person:** *spawns* &middot; **-ing form:** *spawning*
 **Transitivity:** intransitive
 
-To lay eggs in water, said of fish and frogs.
+Spawn has 2 distinct senses.
+
+**1. To lay eggs in water, said of fish and frogs.** (метать икру, нереститься)
 
 1. Salmon *spawn* in the stream where they hatched.
 2. The trout *spawned* early this year.
 3. Thousands of fish are *spawning* in the shallows.
+
+**2. To cause something new to come into existence, especially in large numbers.** (порождать, породить; вызывать появление)
+
+4. One hit movie can *spawn* a dozen imitations.
+5. The scandal *spawned* three separate investigations.
+6. The show has *spawned* two spin-offs and a video game.
 
 ---
 
@@ -1072,18 +1284,26 @@ To feed on dead animals or on food that others have left.
 ### peck
 
 **Pronunciation:** /pɛk/ &middot; *PEK*
-**Русский:** клевать, клюнуть
+**Русский:** клевать, клюнуть; чмокать, чмокнуть; целовать в щёку
 **Forms:** *peck* &middot; *pecked* &middot; *pecked*
 **Verb class:** regular
 **Third person:** *pecks* &middot; **-ing form:** *pecking*
 **Transitivity:** both — transitive (a rooster pecked my ankle), intransitive (the hens peck at the corn)
 **Contrast:** Peck at something means to take small pecks at it: the birds peck at the seed.
 
-To strike or pick up something with the beak.
+Peck has 2 distinct senses.
+
+**1. To strike or pick up something with the beak.** (клевать, клюнуть)
 
 1. The hens *peck* at the corn all day long.
 2. A rooster *pecked* my ankle when I opened the gate.
 3. The chicks are *pecking* their way out of the shells.
+
+**2. To give someone a quick, light kiss.** (чмокать, чмокнуть; целовать в щёку)
+
+4. He *pecks* his daughter on the forehead every night.
+5. She *pecked* him on the cheek and ran for the bus.
+6. Having *pecked* his wife goodbye, he hurried out the door.
 
 ---
 
@@ -1246,52 +1466,76 @@ To make a short high sound, said of small birds and insects.
 ### howl
 
 **Pronunciation:** /haʊl/ &middot; *HOWL*
-**Русский:** выть, завывать
+**Русский:** выть, завывать; хохотать, вопить; громко возмущаться
 **Forms:** *howl* &middot; *howled* &middot; *howled*
 **Verb class:** regular
 **Third person:** *howls* &middot; **-ing form:** *howling*
 **Transitivity:** intransitive
 
-To make a long loud crying sound, said of dogs, wolves, or the wind.
+Howl has 2 distinct senses.
+
+**1. To make a long loud crying sound, said of dogs, wolves, or the wind.** (выть, завывать)
 
 1. Coyotes *howl* behind the barn most nights.
 2. The dog *howled* until we let him in.
 3. Wolves have been *howling* all along the ridge.
+
+**2. To laugh, shout, or complain very loudly.** (хохотать, вопить; громко возмущаться)
+
+4. The audience *howled* at his impression of the mayor.
+5. Critics *howl* every time ticket prices go up.
+6. We were *howling* by the end of the first act.
 
 ---
 
 ### bark
 
 **Pronunciation:** /bɑːrk/ &middot; *BARK*
-**Русский:** лаять, залаять
+**Русский:** лаять, залаять; рявкать, гаркнуть; резко выкрикивать (приказы)
 **Forms:** *bark* &middot; *barked* &middot; *barked*
 **Verb class:** regular
 **Third person:** *barks* &middot; **-ing form:** *barking*
 **Transitivity:** intransitive
 **Contrast:** The noun bark also means the outer skin of a tree — same spelling, different word.
 
-To make the short loud sound a dog makes.
+Bark has 2 distinct senses.
+
+**1. To make the short loud sound a dog makes.** (лаять, залаять)
 
 1. Our dogs *bark* at every truck on the road.
 2. The collie *barked* at the coyote until it left.
 3. Something is *barking* down by the creek.
+
+**2. To say something in a loud, sharp voice, especially an order.** (рявкать, гаркнуть; резко выкрикивать (приказы))
+
+4. Don't *bark* at me; I'm doing my best.
+5. The sergeant *barked* an order and everyone stood up.
+6. She was *barking* instructions from the kitchen all evening.
 
 ---
 
 ### growl
 
 **Pronunciation:** /ɡraʊl/ &middot; *GROWL*
-**Русский:** рычать, зарычать
+**Русский:** рычать, зарычать; рычать, прорычать (сказать зло, низким голосом)
 **Forms:** *growl* &middot; *growled* &middot; *growled*
 **Verb class:** regular
 **Third person:** *growls* &middot; **-ing form:** *growling*
 **Transitivity:** intransitive
 
-To make a low threatening sound in the throat, said of an animal.
+Growl has 2 distinct senses.
+
+**1. To make a low threatening sound in the throat, said of an animal.** (рычать, зарычать)
 
 1. The old dog *growls* at anyone he doesn't know.
 2. The bear *growled* once and backed away.
 3. The pup was *growling* at his own reflection.
+
+**2. To say something in a low, angry voice.** (рычать, прорычать (сказать зло, низким голосом))
+
+4. 'Sit down,' he *growled*.
+5. She *growls* at anyone who touches her desk.
+6. He kept *growling* orders from the back of the boat.
 
 ---
 
@@ -1315,17 +1559,25 @@ To make a low steady sound of contentment, said of a cat.
 ### hoot
 
 **Pronunciation:** /huːt/ &middot; *HOOT*
-**Русский:** ухать (о сове), кричать
+**Русский:** ухать (о сове), кричать; гоготать, улюлюкать; освистывать
 **Forms:** *hoot* &middot; *hooted* &middot; *hooted*
 **Verb class:** regular
 **Third person:** *hoots* &middot; **-ing form:** *hooting*
 **Transitivity:** intransitive
 
-To make the long low call of an owl.
+Hoot has 2 distinct senses.
+
+**1. To make the long low call of an owl.** (ухать (о сове), кричать)
 
 1. Owls *hoot* from the tree line after dark.
 2. An owl *hooted* twice and then went quiet.
 3. Something has been *hooting* out there all night.
+
+**2. To shout or laugh loudly, especially in mockery or delight.** (гоготать, улюлюкать; освистывать)
+
+4. The crowd *hooted* when the mascot fell off the bench.
+5. Kids *hoot* and holler on the last day of school.
+6. We were all *hooting* with laughter by the end.
 
 ---
 
@@ -1383,18 +1635,26 @@ To make the sound a duck makes.
 ### screech
 
 **Pronunciation:** /skriːtʃ/ &middot; *SKREECH*
-**Русский:** пронзительно кричать, визжать
+**Русский:** пронзительно кричать, визжать; визжать (о шинах, тормозах); скрежетать
 **Forms:** *screech* &middot; *screeched* &middot; *screeched*
 **Verb class:** regular
 **Third person:** *screeches* &middot; **-ing form:** *screeching*
 **Transitivity:** intransitive
 **Contrast:** Third person takes -es after -ch: it screeches.
 
-To make a loud sharp high cry.
+Screech has 2 distinct senses.
+
+**1. To make a loud sharp high cry.** (пронзительно кричать, визжать)
 
 1. Barn owls *screech* instead of hooting.
 2. A hawk *screeched* over the pasture.
 3. The peacocks have been *screeching* since dawn.
+
+**2. To make a harsh, high sound, as tires or brakes do.** (визжать (о шинах, тормозах); скрежетать)
+
+4. The old brakes *screech* every time he stops.
+5. A car *screeched* to a halt at the curb.
+6. The subway came *screeching* into the station.
 
 ---
 
@@ -1419,18 +1679,26 @@ To run at the fastest pace, said of a horse.
 ### trot
 
 **Pronunciation:** /trɑːt/ &middot; *TRAHT*
-**Русский:** бежать рысью, идти рысью
+**Русский:** бежать рысью, идти рысью; бежать трусцой, семенить, подбежать
 **Forms:** *trot* &middot; *trotted* &middot; *trotted*
 **Verb class:** regular
 **Third person:** *trots* &middot; **-ing form:** *trotting*
 **Transitivity:** intransitive
 **Contrast:** Doubles the t: trot → trotted, trotting.
 
-To move at a steady pace between walking and running, said of a horse.
+Trot has 2 distinct senses.
+
+**1. To move at a steady pace between walking and running, said of a horse.** (бежать рысью, идти рысью)
 
 1. The ponies *trot* over as soon as they hear the bucket.
 2. The mare *trotted* right up to the fence.
 3. The colt was *trotting* beside its mother.
+
+**2. Of a person, to move along quickly with short steps.** (бежать трусцой, семенить, подбежать)
+
+4. She *trotted* over to say hello.
+5. The little boy *trots* after his sister everywhere she goes.
+6. He came *trotting* up the driveway, out of breath.
 
 **Phrasal verbs:** [trot out](58-phrasal-regular-t-z.md#trot-out)
 
@@ -1439,18 +1707,26 @@ To move at a steady pace between walking and running, said of a horse.
 ### hunt
 
 **Pronunciation:** /hʌnt/ &middot; *HUNT*
-**Русский:** охотиться (на)
+**Русский:** охотиться (на); искать, разыскивать; перерыть всё в поисках
 **Forms:** *hunt* &middot; *hunted* &middot; *hunted*
 **Verb class:** regular
 **Third person:** *hunts* &middot; **-ing form:** *hunting*
 **Transitivity:** both — transitive (hunt deer), intransitive (they hunt every November)
 **Contrast:** Hunt an animal, but hunt for something you have lost: I hunted for my keys.
 
-To chase and kill wild animals for food or sport.
+Hunt has 2 distinct senses.
+
+**1. To chase and kill wild animals for food or sport.** (охотиться (на))
 
 1. They *hunt* deer on that ridge every November.
 2. His father *hunted* elk in Montana for thirty years.
 3. Wolves have been *hunting* the herd all winter.
+
+**2. To search hard for something you need or have lost.** (искать, разыскивать; перерыть всё в поисках)
+
+4. I *hunted* everywhere for my keys.
+5. She *hunts* through the closet every single morning.
+6. They are *hunting* for an apartment near the school.
 
 **Phrasal verbs:** [hunt down](55-phrasal-regular-g-l.md#hunt-down)
 
@@ -1729,17 +2005,31 @@ To run in a sudden panic, said of a herd of animals.
 ### brand
 
 **Pronunciation:** /brænd/ &middot; *BRAND*
-**Русский:** клеймить, заклеймить (скот)
+**Русский:** клеймить, заклеймить (скот); клеймить, заклеймить; объявлять (лжецом и т. п.); брендировать, создавать бренд; продвигать под маркой
 **Forms:** *brand* &middot; *branded* &middot; *branded*
 **Verb class:** regular
 **Third person:** *brands* &middot; **-ing form:** *branding*
 **Transitivity:** transitive
 
-To burn a mark into an animal's hide to show who owns it.
+Brand has 3 distinct senses.
+
+**1. To burn a mark into an animal's hide to show who owns it.** (клеймить, заклеймить (скот))
 
 1. Ranchers *brand* the calves every spring.
 2. They *branded* two hundred head that weekend.
 3. Every steer here is *branded* on the left hip.
+
+**2. To label someone publicly as something bad, so that the name sticks.** (клеймить, заклеймить; объявлять (лжецом и т. п.))
+
+4. The press *branded* him a liar.
+5. One bad season can *brand* a player for years.
+6. Nobody wants to be *branded* a cheat.
+
+**3. To give a product or a company a name, a look, and an image that customers recognize.** (брендировать, создавать бренд; продвигать под маркой)
+
+7. The agency *branded* the new coffee chain.
+8. They *brand* everything in the same shade of green.
+9. The app is *branded* as a tool for teachers.
 
 ---
 
@@ -1781,34 +2071,50 @@ To scrape or touch something with a foot or hoof.
 ### wallow
 
 **Pronunciation:** /ˈwɑːloʊ/ &middot; *WAH-loh*
-**Русский:** валяться (в грязи), барахтаться
+**Русский:** валяться (в грязи), барахтаться; упиваться (жалостью к себе), погрязать (в унынии)
 **Forms:** *wallow* &middot; *wallowed* &middot; *wallowed*
 **Verb class:** regular
 **Third person:** *wallows* &middot; **-ing form:** *wallowing*
 **Transitivity:** intransitive
 
-To roll around in mud or water, said of animals.
+Wallow has 2 distinct senses.
+
+**1. To roll around in mud or water, said of animals.** (валяться (в грязи), барахтаться)
 
 1. Hogs *wallow* in the mud to stay cool.
 2. The buffalo *wallowed* in a dust hole all afternoon.
 3. Two pigs were *wallowing* by the fence.
+
+**2. To let yourself sink into a sad or self-pitying feeling instead of moving past it.** (упиваться (жалостью к себе), погрязать (в унынии))
+
+4. You can *wallow* for one more day, then get back to work.
+5. He *wallowed* in self-pity for a month after the breakup.
+6. She has been *wallowing* ever since the news came.
 
 ---
 
 ### ripple
 
 **Pronunciation:** /ˈrɪpəl/ &middot; *RIP-uhl*
-**Русский:** покрываться рябью; колыхаться волнами
+**Русский:** покрываться рябью; колыхаться волнами; прокатываться (волной), распространяться (по толпе, по рынку)
 **Forms:** *ripple* &middot; *rippled* &middot; *rippled*
 **Verb class:** regular
 **Third person:** *ripples* &middot; **-ing form:** *rippling*
 **Transitivity:** intransitive
 
-To move in small waves across a surface.
+Ripple has 2 distinct senses.
+
+**1. To move in small waves across a surface.** (покрываться рябью; колыхаться волнами)
 
 1. The wheat *ripples* whenever the wind crosses the field.
 2. The pond *rippled* where a fish came up.
 3. The tall grass was *rippling* like water.
+
+**2. For a sound, a feeling, or an effect to spread gradually through a group or a place.** (прокатываться (волной), распространяться (по толпе, по рынку))
+
+4. A laugh *rippled* through the audience.
+5. The layoffs will *ripple* through the whole town.
+6. News of the merger is still *rippling* across the industry.
 
 ---
 
@@ -1832,17 +2138,31 @@ To improve a piece of ground by planting and shaping it.
 ### thin
 
 **Pronunciation:** /θɪn/ &middot; *THIN*
-**Русский:** прореживать, проредить (всходы)
+**Русский:** прореживать, проредить (всходы); редеть, поредеть; становиться тоньше, рассеиваться; разбавлять, разбавить (краску, соус)
 **Forms:** *thin* &middot; *thinned* &middot; *thinned*
 **Verb class:** regular
 **Third person:** *thins* &middot; **-ing form:** *thinning*
 **Transitivity:** transitive
 **Contrast:** Doubles the n: thin → thinned, thinning.
 
-To pull out some young plants so the rest have room to grow.
+Thin has 3 distinct senses.
+
+**1. To pull out some young plants so the rest have room to grow.** (прореживать, проредить (всходы))
 
 1. *Thin* the carrots once they are two inches tall.
 2. We *thinned* the apples so the rest would grow bigger.
 3. The lettuce has been *thinned* twice already.
+
+**2. To become fewer or less thick.** (редеть, поредеть; становиться тоньше, рассеиваться)
+
+4. His hair started *thinning* in his thirties.
+5. The crowd *thinned* after the fireworks.
+6. Traffic *thins* once you pass the second exit.
+
+**3. To make a liquid less thick by adding water or another liquid.** (разбавлять, разбавить (краску, соус))
+
+7. *Thin* the paint with a little water.
+8. She *thinned* the sauce with a cup of stock.
+9. The glue can be *thinned* if it gets too sticky.
 
 **Phrasal verbs:** [thin out](58-phrasal-regular-t-z.md#thin-out)

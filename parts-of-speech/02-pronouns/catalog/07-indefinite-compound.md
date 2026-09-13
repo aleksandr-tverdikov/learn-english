@@ -37,13 +37,21 @@ The assertive stem. A *some-* compound claims that a person or thing actually ex
 
 Points at one person whose identity is unknown to the speaker, irrelevant to the point, or deliberately withheld. It **asserts that such a person exists**, which is precisely what its polarity partner *anybody* does not do: *somebody called* reports a call, *did anybody call* asks whether one happened at all.
 
+**1. One person, unidentified.** (кто-то, кто-нибудь — неназванное лицо)
+
 1. *Somebody* is knocking at the back door.
 2. We need *somebody* to sign for the delivery before five.
-3. She's seeing *somebody* from her old firm.
-4. *Somebody's* car is blocking the driveway again.
-5. Could *somebody* please turn the thermostat down? — a request, so *some-* survives inside a question
-6. There's *somebody* new in accounting, and I've already forgotten *their* name. — singular verb, plural-form pronoun, both standard
-7. He said *somebody* had complained, but he wouldn't say who.
+3. *Somebody's* car is blocking the driveway again.
+4. Could *somebody* please turn the thermostat down? (a request, so *some-* survives inside a question)
+5. There's *somebody* new in accounting, and I've already forgotten *their* name. (singular verb, plural-form pronoun, both standard)
+6. He said *somebody* had complained, but he wouldn't say who.
+7. She's seeing *somebody* from her old firm. (the unnamed partner — see [someone](#someone))
+
+**2. A person of consequence — one who matters.** (важная персона, «человек с именем»)
+
+8. He left town at nineteen determined to be *somebody*.
+9. She walks in there like she's *somebody*.
+10. Every third guest at that party was *somebody*, and the rest of us were the audience.
 
 **See also:** [someone](#someone), [something](#something), [anybody](#anybody), [nobody](#nobody), [somebody else](#somebody-else), [somebody else's](../../09-determiners/catalog/03-possessives.md#somebody-elses)
 
@@ -60,13 +68,21 @@ Points at one person whose identity is unknown to the speaker, irrelevant to the
 
 Names one person without identifying them. *Someone* is the written default of the four *some-* people-words and carries no implication about how many such people exist — only that at least one does.
 
+**1. One person, unidentified.** (кто-то, кто-нибудь — нейтральный письменный вариант)
+
 1. *Someone* has been reading my mail.
 2. I'd like *someone* with actual field experience on the call.
 3. The letter was addressed to *someone* named A. Reyes.
 4. *Someone's* phone kept buzzing all through the ceremony.
-5. Is there *someone* who can cover the front desk until noon? — an appeal for help, so *some-* is natural in the question
+5. Is there *someone* who can cover the front desk until noon? (an appeal for help, so *some-* is natural in the question)
 6. We hired *someone* new, and *they* start Monday.
 7. It has to be *someone* on the inside.
+
+**2. A romantic partner, left unnamed on purpose.** (кое-кто — о новых личных отношениях)
+
+8. She's been seeing *someone* since the spring.
+9. He found out there was *someone* else.
+10. "Are you with *someone*?" is how the question gets asked when the asker does not want to pry.
 
 **See also:** [somebody](#somebody), [something](#something), [anyone](#anyone), [no one](#no-one), [someone else](#someone-else), [someone else's](#someone-elses)
 
@@ -272,13 +288,20 @@ Sweeps in every person in the group under discussion. It is the universal member
 
 Takes in the whole of the relevant set of things, with nothing left out. Its negative counterpart is [nothing](#nothing) and its people counterparts are [everyone](#everyone) and [everybody](#everybody). Like the rest of the compounds it is postmodified rather than premodified — *everything valuable*, never ✗ *valuable everything*.
 
+**1. The whole of the relevant set of things.** (всё — о вещах, фактах и обстоятельствах)
+
 1. *Everything* is ready for the walkthrough.
 2. They packed *everything* into a single trailer.
 3. *Everything* valuable had already been moved to the safe.
 4. *Everything* that could go wrong that morning did.
 5. She lost *everything* but the photographs.
-6. *Everything* in those crates needs a label before Friday.
-7. Is that *everything*, or is there another box in the hall?
+6. Is that *everything*, or is there another box in the hall?
+
+**2. What matters most — the decisive thing, or the whole of what one cares about.** (самое главное; всё для кого-то)
+
+7. In that business timing is *everything*.
+8. Those kids are *everything* to her.
+9. Presentation isn't *everything*, but it is most of it.
 
 **See also:** [everybody](#everybody), [everyone](#everyone), [everything else](#everything-else), [nothing](#nothing), [anything](#anything), [something](#something)
 
@@ -322,13 +345,20 @@ Denies that any person satisfies the description. It is the written-out counterp
 
 Denies that any person at all satisfies the description. It is the negative member of the *-body* set, the mirror image of [everybody](#everybody), and unlike [anybody](#anybody) it carries its own negation and therefore works perfectly well as the subject of an ordinary positive verb.
 
+**1. Not one person.** (никто)
+
 1. *Nobody* is home on Thursdays.
 2. *Nobody* was hurt in the collision.
 3. I called twice and reached *nobody*.
 4. *Nobody* wanted to give *their* name to the reporter.
 5. It was *nobody's* fault, and the report said so.
-6. *Nobody* from the county has returned my calls.
-7. *Nobody* important is going to read this memo — the adjective follows the pronoun.
+6. *Nobody* important is going to read this memo. (the adjective follows the pronoun)
+
+**2. *A nobody* — a person of no importance, with an article in front of it.** (ничтожество, пустое место — только с артиклем)
+
+7. Two years earlier he had been *a nobody* selling storm windows door to door.
+8. She treats everyone below her pay grade like *a nobody*.
+9. The article dismissed them as *nobodies* — the only plural this word takes.
 
 **See also:** [no one](#no-one), [nobody else](#nobody-else), [no one else](#no-one-else), [nothing](#nothing), [none](#none), [anybody](#anybody), [everybody](#everybody), [nothing (negative concord)](#nothing-negative-concord), [no](../../09-determiners/catalog/06-distributives-negatives.md#no), [not a soul](#not-a-soul)
 
@@ -988,13 +1018,19 @@ Denies that any knowledge, effort, or benefit exists, in the bluntest terms the 
 
 Names the slot where a person's name goes and then leaves the slot empty, on purpose. It is the spoken equivalent of a blank line on a form, and it belongs to explanations rather than to narratives: nothing actually happened to *so-and-so*, because *so-and-so* is not anybody yet.
 
+**1. The placeholder for a name deliberately left out.** (такой-то, имярек — вместо имени)
+
 1. Call *so-and-so* in payroll and ask for the reimbursement code.
 2. The letter always reads the same: Mr. *So-and-so* agrees to pay by the first of the month.
 3. He kept telling us *so-and-so* said this and *so-and-so* said that, and never once gave a name.
-4. It is always *so-and-so's* turn to make the coffee, and it is never mine. — the genitive
-5. You sign here, *so-and-so* countersigns there, and the clerk stamps it. — walking a listener through a procedure
-6. That nosy old *so-and-so* has been reading our mail. — the insult noun, with an article in front of it
-7. Compare *such-and-such a date*, where the blank is a date instead of a person. — a determiner, catalogued in the determiner dictionary
+4. It is always *so-and-so's* turn to make the coffee, and it is never mine. (the genitive)
+5. You sign here, *so-and-so* countersigns there, and the clerk stamps it. (walking a listener through a procedure)
+
+**2. The euphemistic insult, with an article in front of it.** (такой-сякой, негодник — смягчённая брань)
+
+6. That nosy old *so-and-so* has been reading our mail.
+7. The lazy *so-and-so* never once answered the phone.
+8. *So-and-so* here stands in for a word the speaker will not say aloud, which is why it takes *old*, *lazy*, or *miserable* in front of it and never a name.
 
 **See also:** [somebody](#somebody), [someone](#someone), [something or other](#something-or-other), [what's-his-name, what's-her-name, what's-his-face](#whats-his-name-whats-her-name-whats-his-face), [you-know-who, you-know-what](#you-know-who-you-know-what), [whatchamacallit, thingamajig, whatsit](#whatchamacallit-thingamajig-whatsit), [such-and-such (a)](../../09-determiners/catalog/09-predeterminers-postdeterminers.md#such-and-such-a)
 
@@ -1159,12 +1195,18 @@ A vernacular negative construction denying that any person satisfies the descrip
 
 An archaic pronoun meaning *anything whatever*. A modern American meets it in older literature, in legal boilerplate, and in the frozen hedge *for aught I know*, which means *so far as I know* with an added shrug.
 
-1. For *aught* I know, she never left the building that night. — the surviving idiom
-2. If *aught* remains of the estate, it passes to the college. — archaic legal register
-3. He would not take *aught* but what he had earned. — *aught but* = anything except
-4. She was born in nineteen *aught* six. — the zero sense, from a misdivision of *a naught*
-5. The album came out sometime in the *aughts*. — the decade, 2000 to 2009
-6. Modern rewrite: *For all I know, she never left the building.*
+**1. Anything whatever.** (что-либо, что-нибудь — устар., книжн.)
+
+1. For *aught* I know, she never left the building that night. (the surviving idiom)
+2. If *aught* remains of the estate, it passes to the college. (archaic legal register)
+3. He would not take *aught* but what he had earned. (*aught but* = anything except)
+4. Modern rewrite: *For all I know, she never left the building* — the hedge is nearly the only place *aught* still lives.
+
+**2. Zero — in spoken years, and in the name of the decade.** (ноль — в датах: «в девятьсот шестом»; the aughts — 2000-е годы)
+
+5. She was born in nineteen *aught* six. (from a misdivision of *a naught*)
+6. His grandfather homesteaded the place in nineteen *aught* two.
+7. The album came out sometime in the *aughts*. (the decade, 2000 to 2009)
 
 **See also:** [naught](#naught), [anything](#anything), [nothing](#nothing)
 
@@ -1179,14 +1221,21 @@ An archaic pronoun meaning *anything whatever*. A modern American meets it in ol
 **Pattern:** *come to naught* &middot; *all for naught* &middot; *for naught* &middot; *set at naught* [noun] (= treat as worthless) &middot; *naught but* [noun] (= nothing but) &middot; *avail naught* / *profit naught* (archaic, verb + object)
 **Contrast:** *Naught* is *nothing*; [aught](#aught) is *anything*. **Spelling:** *naught* is the American form and *nought* the British, and British English additionally uses *nought* for the digit zero (*nought point five*), where Americans say *zero* or *oh*. Do not write ✗ *all for not* — the homophony with *not* makes this a common error, and it destroys the phrase. The living American descendant of the word is simply [nothing](#nothing), which is what a modern rewrite uses.
 
-An archaic pronoun meaning *nothing*, worn down from Old English *nā wiht*, *no thing*. It survives chiefly in a few fixed phrases about wasted effort, and secondarily as a name for the digit zero — the *noughts and crosses* of the British game Americans call tic-tac-toe, spelled with the British *nought*.
+An archaic pronoun meaning *nothing*, worn down from Old English *nā wiht*, *no thing*. It survives chiefly in a few fixed phrases about wasted effort, and secondarily as a name for the digit zero.
 
-1. Two years of negotiation came to *naught*. — the living idiom
+**1. Nothing — chiefly in the fixed phrases about wasted effort.** (ничто, ничего — устар., книжн.)
+
+1. Two years of negotiation came to *naught*. (the living idiom)
 2. All that overtime was for *naught* once the contract fell through.
-3. He set at *naught* every warning the inspector gave him. — formal and archaic
-4. They had *naught* but a tent and a week of rations. — *naught but* = nothing but
-5. The British write *nought* and say it for zero; Americans write *naught* and say *zero*.
-6. Common error: ✗ *all for not*. The word is *naught*.
+3. He set at *naught* every warning the inspector gave him. (formal and archaic)
+4. They had *naught* but a tent and a week of rations. (*naught but* = nothing but)
+5. Common error: ✗ *all for not*. The word is *naught*.
+
+**2. Zero, the digit.** (ноль — цифра; брит. пишется nought)
+
+6. The British write *nought* and say it for zero; Americans write *naught* and say *zero*.
+7. The gauge read *naught* both times he checked it.
+8. *Noughts* and crosses is the British name for the game Americans call tic-tac-toe.
 
 **See also:** [aught](#aught), [nothing](#nothing), [none](#none)
 

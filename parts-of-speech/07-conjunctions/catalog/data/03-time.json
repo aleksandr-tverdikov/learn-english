@@ -31,14 +31,41 @@
       "respell": "AZ; weak form /əz/",
       "meaning": "Sets two events side by side in time, usually with a sense that they unfold together rather than meeting at a single point. When names a moment and while spans a stretch; as is the one that runs two things in parallel, which makes it the natural choice for gradual change (as the days got shorter). It is the most overloaded word in this file: besides time it gives a reason (as it was late, we left), a manner (do as I do), a comparison (as tall as his brother), and a grudging concession (tired as he was, he finished), and with a noun phrase it is a preposition instead (as a child, works as a nurse). That crowding is exactly why as is a bad choice whenever a reader might hear \"because.\"",
       "examples": [
-        "As the bell rang, half the class was already standing.",
         "She hummed as she worked.",
         "As the years went by, the letters came less often.",
-        "Just as I sat down, the phone rang.",
         "The crowd got quieter as the speaker went on.",
-        "As we drove west, the mountains came into view."
+        "As we drove west, the mountains came into view.",
+        "Just as I sat down, the phone rang.",
+        "As the bell rang, half the class was already standing.",
+        "Just as we pulled into the driveway, the rain started."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Two things running along together, usually changing as they go",
+          "body": [
+            "The durative sense: neither event is a point, and that is why as is the natural word for gradual change. (по мере того как; когда — о двух параллельных действиях)"
+          ],
+          "examples": [
+            "She hummed as she worked.",
+            "As the years went by, the letters came less often.",
+            "The crowd got quieter as the speaker went on.",
+            "As we drove west, the mountains came into view."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Just as — the single instant at which two things coincide",
+          "body": [
+            "Punctual rather than durative: the two events meet at one point, and just is usually there to mark it. (в тот самый момент, когда; едва)"
+          ],
+          "examples": [
+            "Just as I sat down, the phone rang.",
+            "As the bell rang, half the class was already standing.",
+            "Just as we pulled into the driveway, the rain started."
+          ]
+        }
+      ],
       "pronunciation note": "uhz",
       "русский": "по мере того как, когда — два действия идут параллельно; тот же союз значит и «так как»",
       "register": "neutral",
@@ -57,12 +84,54 @@
       "examples": [
         "Before you leave, make sure the back door is locked.",
         "We got the tent up before it started raining.",
-        "He hung up before I could explain.",
         "Before the bridge was built, the trip took two hours.",
         "Call me before you buy anything.",
-        "It was a good ten minutes before anybody said a word."
+        "He hung up before I could explain.",
+        "The car was gone before anybody thought to write down the plate.",
+        "She was out the door before I had a chance to thank her.",
+        "It was a good ten minutes before anybody said a word.",
+        "It was two more winters before the road was finally paved.",
+        "It will be years before we know whether it worked."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The main clause happens first — the mirror of after",
+          "body": [
+            "(прежде чем; до того как)"
+          ],
+          "examples": [
+            "Before you leave, make sure the back door is locked.",
+            "We got the tent up before it started raining.",
+            "Before the bridge was built, the trip took two hours.",
+            "Call me before you buy anything."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "\"…and it never happened\" — the before event is the one that got cut off",
+          "body": [
+            "With could or had a chance to in the clause, English reports what the first event prevented, and Russian turns the sentence around with «не дав» or «так и не». (не дав …; так и не успев …)"
+          ],
+          "examples": [
+            "He hung up before I could explain.",
+            "The car was gone before anybody thought to write down the plate.",
+            "She was out the door before I had a chance to thank her."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "How long it took — it was [stretch of time] before …",
+          "body": [
+            "The measure phrase carries the point; the clause names what everyone was waiting for. (прошло …, прежде чем …)"
+          ],
+          "examples": [
+            "It was a good ten minutes before anybody said a word.",
+            "It was two more winters before the road was finally paved.",
+            "It will be years before we know whether it worked."
+          ]
+        }
+      ],
       "русский": "прежде чем, до того как — зеркало after: главное событие предшествует придаточному",
       "register": "neutral",
       "type": "subordinating",
@@ -127,13 +196,43 @@
       "examples": [
         "Stir it till the sugar dissolves.",
         "We stayed till the last band finished.",
-        "I didn't know he was sick till somebody told me at work.",
         "Just hold the door till I get the stroller through.",
         "Nobody moved till the coach blew the whistle.",
+        "She kept refreshing the page till the grades posted.",
         "Till I saw the bill, I had no idea how much we'd spent.",
-        "She kept refreshing the page till the grades posted."
+        "I didn't know he was sick till somebody told me at work.",
+        "The mail doesn't come till after four out here.",
+        "He didn't admit any of it till the second interview."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The endpoint of something that goes on up to it",
+          "body": [
+            "(пока не; до тех пор пока не)"
+          ],
+          "examples": [
+            "Stir it till the sugar dissolves.",
+            "We stayed till the last band finished.",
+            "Just hold the door till I get the stroller through.",
+            "Nobody moved till the coach blew the whistle.",
+            "She kept refreshing the page till the grades posted.",
+            "Till I saw the bill, I had no idea how much we'd spent."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "not … till — \"only then.\"",
+          "body": [
+            "The negative in front does not say the thing never happened; it pins down the moment it did. (только когда; не раньше чем)"
+          ],
+          "examples": [
+            "I didn't know he was sick till somebody told me at work.",
+            "The mail doesn't come till after four out here.",
+            "He didn't admit any of it till the second interview."
+          ]
+        }
+      ],
       "русский": "пока не, до тех пор пока — то же, что until, но разг. и не в начале фразы",
       "register": "neutral to informal",
       "type": "subordinating",
@@ -150,13 +249,40 @@
       "meaning": "Marks the endpoint of a situation that continues up to it. In front of a clause it is a conjunction; in front of a noun phrase (until Friday) the same word is a preposition. Keep the clause in the present for future reference (until she gets back). The most useful pattern is the negative one: not … until is how English says \"only at that point\" — The store doesn't open until ten is a statement about ten o'clock, not about the store being closed forever.",
       "examples": [
         "Wait here until I call you.",
-        "Until the results came back, nobody said anything out loud.",
-        "The store doesn't open until ten.",
         "We kept the heat on until the pipes thawed.",
+        "Until the results came back, nobody said anything out loud.",
+        "Until you've tried it yourself, don't knock it.",
+        "The store doesn't open until ten.",
         "He didn't tell his parents until the semester was over.",
-        "Until you've tried it yourself, don't knock it."
+        "We didn't hear about the layoffs until the following Monday."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The endpoint of something that goes on up to it",
+          "body": [
+            "The main clause names a situation that lasts; the until clause says where it stops. (пока не; до тех пор пока не)"
+          ],
+          "examples": [
+            "Wait here until I call you.",
+            "We kept the heat on until the pipes thawed.",
+            "Until the results came back, nobody said anything out loud.",
+            "Until you've tried it yourself, don't knock it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "not … until — \"only at that point.\"",
+          "body": [
+            "The negative main clause is not a claim that the thing never happens: it fixes the moment at which it finally does, and Russian says that with «только». (только когда; только в; не раньше чем)"
+          ],
+          "examples": [
+            "The store doesn't open until ten.",
+            "He didn't tell his parents until the semester was over.",
+            "We didn't hear about the layoffs until the following Monday."
+          ]
+        }
+      ],
       "русский": "пока не, до тех пор пока — конечная точка длящейся ситуации; not … until = «только в»",
       "register": "neutral",
       "type": "subordinating",
@@ -175,11 +301,70 @@
         "When the power went out, the whole block came outside.",
         "Call me when you get in.",
         "When I was a kid, we drove to Michigan every August.",
-        "She was halfway through the story when her phone rang.",
         "When the check finally cleared, I felt like I could breathe.",
-        "Text me when you're five minutes out."
+        "Text me when you're five minutes out.",
+        "She was halfway through the story when her phone rang.",
+        "We had just sat down to eat, when the smoke alarm went off.",
+        "I was reaching for my wallet when I realized I'd left it at home.",
+        "Nobody knows when the inspector is coming.",
+        "That was the year when the river came over the levee.",
+        "I'll let you know when it's been decided.",
+        "Why walk when you could take the bus?",
+        "He bought a second truck when he can't afford the insurance on the first.",
+        "She kept apologizing when none of it was her fault."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "At the time that — the plain adverbial clause of time",
+          "body": [
+            "Points at a moment, where while spreads over a stretch. Never will inside it: when he gets here. (когда)"
+          ],
+          "examples": [
+            "When the power went out, the whole block came outside.",
+            "Call me when you get in.",
+            "When I was a kid, we drove to Michigan every August.",
+            "When the check finally cleared, I felt like I could breathe.",
+            "Text me when you're five minutes out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The interrupting turn — \"and just then.\"",
+          "body": [
+            "The when clause comes second and carries the surprise, and the comma in front of it is the only thing marking this reading. Russian usually flips the sentence around with «как вдруг». (как вдруг; и тут)"
+          ],
+          "examples": [
+            "She was halfway through the story when her phone rang.",
+            "We had just sat down to eat, when the smoke alarm went off.",
+            "I was reaching for my wallet when I realized I'd left it at home."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Heading a noun clause or a relative clause",
+          "body": [
+            "Not an adverbial of time at all: the clause is the object of a verb, or it modifies a noun of time. (когда — в придаточном дополнительном или определительном)"
+          ],
+          "examples": [
+            "Nobody knows when the inspector is coming.",
+            "That was the year when the river came over the levee.",
+            "I'll let you know when it's been decided."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Contrastive — \"given that,\" \"although.\"",
+          "body": [
+            "No time content left: the clause states a fact that makes the main clause look unreasonable. (тогда как; хотя; раз уж)"
+          ],
+          "examples": [
+            "Why walk when you could take the bus?",
+            "He bought a second truck when he can't afford the insurance on the first.",
+            "She kept apologizing when none of it was her fault."
+          ]
+        }
+      ],
       "pronunciation note": "WEN; weak /wən/. Some Southern and older speakers keep the older /ʍɛn/ — HWEN.",
       "русский": "когда — основной временной союз: указывает на момент, а не на отрезок",
       "register": "neutral",
@@ -198,12 +383,39 @@
       "examples": [
         "Whenever it rains, that corner floods.",
         "She calls her mother whenever she has a long drive.",
-        "Whenever you're ready, we'll start.",
         "The dog hides whenever the vacuum comes out.",
         "Whenever I try to cook rice, it turns to glue.",
-        "Stop by whenever you want — we're home all weekend."
+        "Whenever you're ready, we'll start.",
+        "Stop by whenever you want — we're home all weekend.",
+        "Send it back whenever — there's no hurry."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Every time that — repeated occasions",
+          "body": [
+            "Covers all the occasions of a kind, where when points at one of them. (всякий раз когда; каждый раз как)"
+          ],
+          "examples": [
+            "Whenever it rains, that corner floods.",
+            "She calls her mother whenever she has a long drive.",
+            "The dog hides whenever the vacuum comes out.",
+            "Whenever I try to cook rice, it turns to glue."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "At whatever time — \"it doesn't matter when.\"",
+          "body": [
+            "Offers, permissions, and shrugs: the speaker is handing the choice of time over to somebody else. (когда угодно; когда бы ни)"
+          ],
+          "examples": [
+            "Whenever you're ready, we'll start.",
+            "Stop by whenever you want — we're home all weekend.",
+            "Send it back whenever — there's no hurry."
+          ]
+        }
+      ],
       "русский": "всякий раз когда; когда угодно — повторяемость или безразличие ко времени",
       "register": "neutral",
       "type": "subordinating",
@@ -224,9 +436,55 @@
         "Somebody took my seat while I was in the restroom.",
         "While I was living in Tucson, I never once used the heater.",
         "He learned Portuguese while working on a rig off Brazil.",
-        "While we waited for the tow truck, three people stopped to ask if we were okay."
+        "While we waited for the tow truck, three people stopped to ask if we were okay.",
+        "She loves horror movies, while I can't get through the trailer.",
+        "The coasts got the funding, while the middle of the state got a study.",
+        "Tuition went up eight percent, while the stipend stayed flat.",
+        "While I understand the delay, two months is too long.",
+        "While the film is beautifully shot, the script never goes anywhere.",
+        "While nobody disputes the numbers, the conclusion is another matter."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Throughout the stretch that — the time sense",
+          "body": [
+            "The main clause sits inside the span the while clause marks out. The reduced form (while waiting, while in college) belongs here and is everywhere in edited prose. (пока; в то время как)"
+          ],
+          "examples": [
+            "While the sauce simmers, chop the parsley.",
+            "She read while I cooked.",
+            "Somebody took my seat while I was in the restroom.",
+            "While I was living in Tucson, I never once used the heater.",
+            "He learned Portuguese while working on a rig off Brazil.",
+            "While we waited for the tow truck, three people stopped to ask if we were okay."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Contrast — \"whereas.\"",
+          "body": [
+            "No time content: the two clauses are set side by side precisely because they differ, and a trailing while clause in this sense takes a comma in front of it. (тогда как; а вот)"
+          ],
+          "examples": [
+            "She loves horror movies, while I can't get through the trailer.",
+            "The coasts got the funding, while the middle of the state got a study.",
+            "Tuition went up eight percent, while the stipend stayed flat."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Concession — \"although.\"",
+          "body": [
+            "Fronted, conceding something before the main clause overrides it; the standard opener in reviews, memos, and polite disagreement. (хотя; при всём том что)"
+          ],
+          "examples": [
+            "While I understand the delay, two months is too long.",
+            "While the film is beautifully shot, the script never goes anywhere.",
+            "While nobody disputes the numbers, the conclusion is another matter."
+          ]
+        }
+      ],
       "pronunciation note": "HWYLE",
       "русский": "пока, в то время как — на протяжении отрезка; также «тогда как» (противопоставление)",
       "register": "neutral",
@@ -741,10 +999,39 @@
         "She was appointed to the bench in 2014, since when she has written more dissents than opinions.",
         "The rule was suspended during the pandemic, since when nobody has bothered to reinstate it.",
         "He gave up coffee in March, since when he has been impossible to talk to before ten.",
-        "Since when do you know anything about carburetors? (rhetorical question — not a connector)",
-        "Ordinary American English: The mill closed in 1998, and since then the town has lost a third of its population."
+        "Ordinary American English: The mill closed in 1998, and since then the town has lost a third of its population.",
+        "Since when do you know anything about carburetors?",
+        "Since when is that my job?",
+        "Since when do we let the vendor write the specs?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Connective relative — \"and from that point on.\"",
+          "body": [
+            "Ties a clause to a date already named in front of it. Formal, faintly British, and uncommon in American prose, where and since then does the job. (с какового времени; и с тех пор)"
+          ],
+          "examples": [
+            "The mill closed in 1998, since when the town has lost a third of its population.",
+            "She was appointed to the bench in 2014, since when she has written more dissents than opinions.",
+            "The rule was suspended during the pandemic, since when nobody has bothered to reinstate it.",
+            "He gave up coffee in March, since when he has been impossible to talk to before ten.",
+            "Ordinary American English: The mill closed in 1998, and since then the town has lost a third of its population."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The indignant question — \"that was never true.\"",
+          "body": [
+            "Not a connector at all: it opens the sentence, inverts subject and auxiliary, takes a question mark, and expects no answer. In American speech this is far the commoner of the two. (с каких это пор?)"
+          ],
+          "examples": [
+            "Since when do you know anything about carburetors?",
+            "Since when is that my job?",
+            "Since when do we let the vendor write the specs?"
+          ]
+        }
+      ],
       "русский": "книжн. с какового времени; а также «с каких это пор?» — возмущённый вопрос без ответа",
       "register": "formal and British-leaning as a connective; sharply informal in the rhetorical question",
       "type": "subordinating (connective relative) in the linking use; interrogative adverb in the challenge use",
@@ -1344,14 +1631,41 @@
       "respell": "at-thuh-SAME-time; at reduces to /ət/",
       "meaning": "Does two jobs, and the second one has quietly taken over. Literally it means \"simultaneously,\" the way meanwhile does. In practice it far more often means \"and yet,\" conceding a point while holding the line: It's expensive; at the same time, nothing else does the job. Read the whole sentence before deciding which is meant, because the concessive use has no time content at all.",
       "examples": [
-        "The store was hiring; at the same time, corporate was closing two locations.",
-        "She wanted the promotion. At the same time, she dreaded the travel. (concessive)",
-        "He's the best writer on staff and, at the same time, the hardest to edit.",
-        "At the same time that the city was cutting bus routes, it was breaking ground on a streetcar. (subordinating variant)",
+        "She wanted the promotion. At the same time, she dreaded the travel.",
         "The proposal saves money; at the same time, it costs us a year.",
-        "At the same time, nobody wants to be the one who says no."
+        "At the same time, nobody wants to be the one who says no.",
+        "He's the best writer on staff and, at the same time, the hardest to edit.",
+        "The store was hiring; at the same time, corporate was closing two locations.",
+        "At the same time that the city was cutting bus routes, it was breaking ground on a streetcar.",
+        "The power came back on and, at the same time, every phone in the building started ringing."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Concessive — \"and yet,\" conceding a point without giving up the argument",
+          "body": [
+            "This is now the commoner reading by a wide margin, and it carries no time content at all. (вместе с тем; и всё же; при этом)"
+          ],
+          "examples": [
+            "She wanted the promotion. At the same time, she dreaded the travel.",
+            "The proposal saves money; at the same time, it costs us a year.",
+            "At the same time, nobody wants to be the one who says no.",
+            "He's the best writer on staff and, at the same time, the hardest to edit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Literally simultaneous — the meanwhile reading",
+          "body": [
+            "Two things genuinely going on at once. The subordinating variant at the same time that, which takes a clause, belongs here and nowhere else. (в то же время; одновременно)"
+          ],
+          "examples": [
+            "The store was hiring; at the same time, corporate was closing two locations.",
+            "At the same time that the city was cutting bus routes, it was breaking ground on a streetcar.",
+            "The power came back on and, at the same time, every phone in the building started ringing."
+          ]
+        }
+      ],
       "русский": "в то же время — «одновременно», но чаще «и всё же», как уступка без смысла времени",
       "register": "neutral",
       "type": "conjunctive adverb (phrasal)",
@@ -1392,13 +1706,40 @@
       "meaning": "Does two jobs, and a reader has to tell them apart. In a sequence it simply marks the last item — first … then … finally — and carries no feeling at all. In a narrative it means \"at last, after too long a wait,\" and carries relief or irritation: The line finally moved. Eventually reports the delay flatly; finally reports how the delay felt. Lastly only ever does the list job, which is why The line lastly moved is impossible.",
       "examples": [
         "We waited two hours; finally, somebody came out to explain.",
-        "Whisk the eggs, fold in the flour, and finally add the zest.",
         "She finally answered on the fourth try.",
-        "Finally, I'd like to thank the volunteers who set up the room.",
         "The permit sat in review all spring. Finally, in July, it cleared.",
-        "He said he'd call back, and after three days he finally did."
+        "He said he'd call back, and after three days he finally did.",
+        "Whisk the eggs, fold in the flour, and finally add the zest.",
+        "Finally, I'd like to thank the volunteers who set up the room.",
+        "Finally, check that the breaker is off before you touch anything."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "At last, after too long a wait",
+          "body": [
+            "Carries the feeling — relief or irritation — that eventually leaves out. This is the sense that can sit inside the clause: She finally answered. (наконец-то; в конце концов)"
+          ],
+          "examples": [
+            "We waited two hours; finally, somebody came out to explain.",
+            "She finally answered on the fourth try.",
+            "The permit sat in review all spring. Finally, in July, it cleared.",
+            "He said he'd call back, and after three days he finally did."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The last item of a list or the last of a set of steps",
+          "body": [
+            "Purely structural and entirely unemotional; lastly can stand in here and nowhere else. (наконец — последний пункт; и последнее)"
+          ],
+          "examples": [
+            "Whisk the eggs, fold in the flour, and finally add the zest.",
+            "Finally, I'd like to thank the volunteers who set up the room.",
+            "Finally, check that the breaker is off before you touch anything."
+          ]
+        }
+      ],
       "pronunciation note": "FYNE-lee in fast speech",
       "русский": "наконец — последний пункт перечисления; или «наконец-то», с облегчением или досадой",
       "register": "neutral",
@@ -1487,13 +1828,40 @@
       "meaning": "The adverb that does the job of the conjunction while: it reports that a second situation was going on at the same time, without subordinating either one. Use while when you want one clause tucked inside the other; use meanwhile when both deserve to stand as sentences.",
       "examples": [
         "The kids napped; meanwhile, I cleaned the entire kitchen.",
-        "Sales fell for the third straight quarter. Meanwhile, costs kept climbing.",
         "He was still arguing with the gate agent. His flight, meanwhile, was boarding.",
         "Meanwhile, back at the office, nobody had noticed he was gone.",
+        "She trained all winter. Meanwhile, her old teammates had moved up a division.",
+        "Sales fell for the third straight quarter. Meanwhile, costs kept climbing.",
         "The city debated the plan for two years; meanwhile, the building sat empty.",
-        "She trained all winter. Meanwhile, her old teammates had moved up a division."
+        "Executive pay doubled. Meanwhile, the plant hasn't seen a raise since 2019."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "At the same time — a second situation running in parallel",
+          "body": [
+            "Neither clause is subordinated; both stand as sentences of their own. (тем временем; а в это время)"
+          ],
+          "examples": [
+            "The kids napped; meanwhile, I cleaned the entire kitchen.",
+            "He was still arguing with the gate agent. His flight, meanwhile, was boarding.",
+            "Meanwhile, back at the office, nobody had noticed he was gone.",
+            "She trained all winter. Meanwhile, her old teammates had moved up a division."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Pointed contrast — \"and all the while, the opposite.\"",
+          "body": [
+            "The simultaneity is still there, but the work the word is doing is to set two facts against each other, the way whereas would; journalism runs on this use. (а между тем; при этом же)"
+          ],
+          "examples": [
+            "Sales fell for the third straight quarter. Meanwhile, costs kept climbing.",
+            "The city debated the plan for two years; meanwhile, the building sat empty.",
+            "Executive pay doubled. Meanwhile, the plant hasn't seen a raise since 2019."
+          ]
+        }
+      ],
       "русский": "тем временем — наречие: два события идут параллельно, но оба остаются самостоятельными",
       "register": "neutral",
       "type": "conjunctive adverb",
@@ -1606,10 +1974,39 @@
         "We finished unloading the boxes, and then somebody suggested pizza.",
         "She looked at the bill, then looked at me. (no splice — one subject, two verbs)",
         "First rinse the beans; then soak them overnight.",
+        "He was quiet for a long moment. Then he laughed.",
         "If the light's still red, then the sensor never reset.",
-        "He was quiet for a long moment. Then he laughed."
+        "You've already paid? Then there's nothing left to sort out.",
+        "If she signed it in March, then the warranty had already run out."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Sequence — and after that",
+          "body": [
+            "The workhorse sequencer of spoken English. (потом; затем)"
+          ],
+          "examples": [
+            "Brown the onions; then add the garlic.",
+            "We finished unloading the boxes, and then somebody suggested pizza.",
+            "She looked at the bill, then looked at me. (no splice — one subject, two verbs)",
+            "First rinse the beans; then soak them overnight.",
+            "He was quiet for a long moment. Then he laughed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Inference — \"in that case,\" \"it follows that.\"",
+          "body": [
+            "No time content: it draws a conclusion from what was just said, and it is this then that fills the second slot of if … then. (тогда; в таком случае; значит)"
+          ],
+          "examples": [
+            "If the light's still red, then the sensor never reset.",
+            "You've already paid? Then there's nothing left to sort out.",
+            "If she signed it in March, then the warranty had already run out."
+          ]
+        }
+      ],
       "русский": "потом, затем — главный разговорный маркер последовательности; также «тогда» в следствии",
       "register": "neutral",
       "type": "conjunctive adverb",

@@ -74,14 +74,58 @@
       "term": "form",
       "ipa": "/fɔːrm/",
       "respell": "FORM",
-      "meaning": "To give something a shape, or to come into existence as a shape. ---",
+      "meaning": "Form has 3 distinct senses.",
       "examples": [
         "Form the dough into a ball.",
         "Ice formed on the inside of the windows.",
-        "A line was forming at the door."
+        "A line was forming at the door.",
+        "We plan to form a nonprofit next year.",
+        "The band formed in Austin in 2009.",
+        "A new government is being formed this week.",
+        "Try not to form an opinion before you hear both sides.",
+        "He formed the habit of walking after dinner.",
+        "I was still forming an impression of the place."
       ],
-      "senses": [],
-      "русский": "формировать, образовывать, образовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To give something a shape, or to come into existence as a shape",
+          "body": [
+            "(формировать, образовывать, образовать)"
+          ],
+          "examples": [
+            "Form the dough into a ball.",
+            "Ice formed on the inside of the windows.",
+            "A line was forming at the door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To set up an organization, a group, or a partnership",
+          "body": [
+            "(создавать, создать (организацию); основывать; собирать (группу))"
+          ],
+          "examples": [
+            "We plan to form a nonprofit next year.",
+            "The band formed in Austin in 2009.",
+            "A new government is being formed this week."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To develop an idea, an opinion, or a habit in your mind",
+          "body": [
+            "(составлять, составить (мнение); формировать (привычку); складываться (о впечатлении))",
+            "---"
+          ],
+          "examples": [
+            "Try not to form an opinion before you hear both sides.",
+            "He formed the habit of walking after dinner.",
+            "I was still forming an impression of the place."
+          ]
+        }
+      ],
+      "русский": "формировать, образовывать, образовать; создавать, создать (организацию); основывать; собирать (группу); составлять, составить (мнение); формировать (привычку); складываться (о впечатлении)",
       "forms": "form · formed · formed",
       "verb class": "regular",
       "third person": "forms · -ing form: forming",
@@ -108,14 +152,43 @@
       "term": "fabricate",
       "ipa": "/ˈfæbrɪkeɪt/",
       "respell": "FAB-rih-kayt",
-      "meaning": "To make a part or structure out of raw material, usually metal. ---",
+      "meaning": "Fabricate has 2 distinct senses.",
       "examples": [
         "The shop can fabricate the bracket in steel.",
         "They fabricated the parts from a drawing.",
-        "The panels are being fabricated off-site."
+        "The panels are being fabricated off-site.",
+        "He had to fabricate an excuse on the spot.",
+        "The witness fabricated the whole story.",
+        "The emails were fabricated to make her look guilty."
       ],
-      "senses": [],
-      "русский": "изготавливать, изготовить (деталь); фабриковать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a part or structure out of raw material, usually metal",
+          "body": [
+            "(изготавливать, изготовить (деталь); фабриковать)"
+          ],
+          "examples": [
+            "The shop can fabricate the bracket in steel.",
+            "They fabricated the parts from a drawing.",
+            "The panels are being fabricated off-site."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To invent a story or evidence in order to deceive people",
+          "body": [
+            "(выдумывать, выдумать; фальсифицировать, сфабриковать)",
+            "---"
+          ],
+          "examples": [
+            "He had to fabricate an excuse on the spot.",
+            "The witness fabricated the whole story.",
+            "The emails were fabricated to make her look guilty."
+          ]
+        }
+      ],
+      "русский": "изготавливать, изготовить (деталь); фабриковать; выдумывать, выдумать; фальсифицировать, сфабриковать",
       "forms": "fabricate · fabricated · fabricated",
       "verb class": "regular",
       "third person": "fabricates · -ing form: fabricating",
@@ -143,14 +216,43 @@
       "term": "mold",
       "ipa": "/moʊld/",
       "respell": "MOHLD",
-      "meaning": "To press a soft material into a shape. ---",
+      "meaning": "Mold has 2 distinct senses.",
       "examples": [
         "Mold the clay while it is still soft.",
         "She molded the handle with her thumbs.",
-        "The plastic is molded in one piece."
+        "The plastic is molded in one piece.",
+        "Good coaches mold more than athletes.",
+        "Her years abroad molded the way she sees this country.",
+        "He was molded by a very strict upbringing."
       ],
-      "senses": [],
-      "русский": "формовать, лепить, вылепить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To press a soft material into a shape",
+          "body": [
+            "(формовать, лепить, вылепить)"
+          ],
+          "examples": [
+            "Mold the clay while it is still soft.",
+            "She molded the handle with her thumbs.",
+            "The plastic is molded in one piece."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To shape the way someone's character or opinions develop",
+          "body": [
+            "(формировать, сформировать (характер, взгляды); лепить (личность))",
+            "---"
+          ],
+          "examples": [
+            "Good coaches mold more than athletes.",
+            "Her years abroad molded the way she sees this country.",
+            "He was molded by a very strict upbringing."
+          ]
+        }
+      ],
+      "русский": "формовать, лепить, вылепить; формировать, сформировать (характер, взгляды); лепить (личность)",
       "forms": "mold · molded · molded",
       "verb class": "regular",
       "third person": "molds · -ing form: molding",
@@ -161,14 +263,43 @@
       "term": "sketch",
       "ipa": "/skɛtʃ/",
       "respell": "SKECH",
-      "meaning": "To draw something quickly and roughly. ---",
+      "meaning": "Sketch has 2 distinct senses.",
       "examples": [
         "Can you sketch the idea for me?",
         "He sketched the whole building on a napkin.",
-        "She was sketching the bridge from the far bank."
+        "She was sketching the bridge from the far bank.",
+        "Let me sketch the main idea before we vote.",
+        "She sketched a rough plan for the summer.",
+        "He has sketched the outline of a deal, but nothing is signed."
       ],
-      "senses": [],
-      "русский": "делать набросок, набрасывать, набросать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To draw something quickly and roughly",
+          "body": [
+            "(делать набросок, набрасывать, набросать)"
+          ],
+          "examples": [
+            "Can you sketch the idea for me?",
+            "He sketched the whole building on a napkin.",
+            "She was sketching the bridge from the far bank."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To describe something in a general way, without the details",
+          "body": [
+            "(обрисовывать, обрисовать (в общих чертах); кратко излагать)",
+            "---"
+          ],
+          "examples": [
+            "Let me sketch the main idea before we vote.",
+            "She sketched a rough plan for the summer.",
+            "He has sketched the outline of a deal, but nothing is signed."
+          ]
+        }
+      ],
+      "русский": "делать набросок, набрасывать, набросать; обрисовывать, обрисовать (в общих чертах); кратко излагать",
       "forms": "sketch · sketched · sketched",
       "verb class": "regular",
       "third person": "sketches · -ing form: sketching",
@@ -179,14 +310,43 @@
       "term": "model",
       "ipa": "/ˈmɑːdəl/",
       "respell": "MAH-duhl",
-      "meaning": "To make a small or virtual version of something in order to study it. ---",
+      "meaning": "Model has 2 distinct senses.",
       "examples": [
         "Engineers model the airflow before building anything.",
         "He modeled the house in clay.",
-        "They are modeling the new wing in 3D."
+        "They are modeling the new wing in 3D.",
+        "Parents model the manners they want to see.",
+        "The coach modeled the move slowly, step by step.",
+        "Teachers are modeling the behavior they expect in class."
       ],
-      "senses": [],
-      "русский": "моделировать, лепить модель; создавать макет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a small or virtual version of something in order to study it",
+          "body": [
+            "(моделировать, лепить модель; создавать макет)"
+          ],
+          "examples": [
+            "Engineers model the airflow before building anything.",
+            "He modeled the house in clay.",
+            "They are modeling the new wing in 3D."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To show a way of behaving so that other people can copy it",
+          "body": [
+            "(показывать пример, подавать пример; демонстрировать образец)",
+            "---"
+          ],
+          "examples": [
+            "Parents model the manners they want to see.",
+            "The coach modeled the move slowly, step by step.",
+            "Teachers are modeling the behavior they expect in class."
+          ]
+        }
+      ],
+      "русский": "моделировать, лепить модель; создавать макет; показывать пример, подавать пример; демонстрировать образец",
       "forms": "model · modeled · modeled",
       "verb class": "regular",
       "third person": "models · -ing form: modeling",
@@ -197,14 +357,43 @@
       "term": "outline",
       "ipa": "/ˈaʊtlaɪn/",
       "respell": "OWT-lyn",
-      "meaning": "To describe the main parts of a plan without the details. ---",
+      "meaning": "Outline has 2 distinct senses.",
       "examples": [
         "Let me outline the job in three steps.",
         "She outlined the project at the meeting.",
-        "The stages are outlined on page two."
+        "The stages are outlined on page two.",
+        "Outline the shape first, then fill it in.",
+        "She outlined the letters in black ink.",
+        "His figure was outlined against the window."
       ],
-      "senses": [],
-      "русский": "намечать, набрасывать в общих чертах, обрисовать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To describe the main parts of a plan without the details",
+          "body": [
+            "(намечать, набрасывать в общих чертах, обрисовать)"
+          ],
+          "examples": [
+            "Let me outline the job in three steps.",
+            "She outlined the project at the meeting.",
+            "The stages are outlined on page two."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To draw or mark the outer edge of a shape",
+          "body": [
+            "(обводить, очерчивать контур, обвести)",
+            "---"
+          ],
+          "examples": [
+            "Outline the shape first, then fill it in.",
+            "She outlined the letters in black ink.",
+            "His figure was outlined against the window."
+          ]
+        }
+      ],
+      "русский": "намечать, набрасывать в общих чертах, обрисовать; обводить, очерчивать контур, обвести",
       "forms": "outline · outlined · outlined",
       "verb class": "regular",
       "third person": "outlines · -ing form: outlining",
@@ -214,14 +403,43 @@
       "term": "install",
       "ipa": "/ɪnˈstɔːl/",
       "respell": "in-STAWL",
-      "meaning": "To put equipment in place so that it is ready to use. ---",
+      "meaning": "Install has 2 distinct senses.",
       "examples": [
         "They can install the dishwasher on Friday.",
         "We installed the shelves ourselves.",
-        "The software is still installing."
+        "The software is still installing.",
+        "The board installed a new chief executive in March.",
+        "She was installed as dean last fall.",
+        "They are installing their own people at every level of the agency."
       ],
-      "senses": [],
-      "русский": "устанавливать, установить; монтировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put equipment in place so that it is ready to use",
+          "body": [
+            "(устанавливать, установить; монтировать)"
+          ],
+          "examples": [
+            "They can install the dishwasher on Friday.",
+            "We installed the shelves ourselves.",
+            "The software is still installing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To place someone formally in an important position or office",
+          "body": [
+            "(вводить в должность, ввести; назначать, назначить (на пост))",
+            "---"
+          ],
+          "examples": [
+            "The board installed a new chief executive in March.",
+            "She was installed as dean last fall.",
+            "They are installing their own people at every level of the agency."
+          ]
+        }
+      ],
+      "русский": "устанавливать, установить; монтировать; вводить в должность, ввести; назначать, назначить (на пост)",
       "forms": "install · installed · installed",
       "verb class": "regular",
       "third person": "installs · -ing form: installing",
@@ -267,14 +485,58 @@
       "term": "nail",
       "ipa": "/neɪl/",
       "respell": "NAYL",
-      "meaning": "To fasten something with nails. ---",
+      "meaning": "Nail has 3 distinct senses.",
       "examples": [
         "Nail the board to the post.",
         "They nailed the sign above the door.",
-        "The trim was nailed in place yesterday."
+        "The trim was nailed in place yesterday.",
+        "If you nail the interview, the job is yours.",
+        "She nailed her audition and got the part.",
+        "He has nailed the accent after months of practice.",
+        "Store security nails about one shoplifter a week.",
+        "The IRS finally nailed him for tax fraud.",
+        "He was nailed by a traffic camera on Fifth Street."
       ],
-      "senses": [],
-      "русский": "прибивать гвоздями, приколотить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fasten something with nails",
+          "body": [
+            "(прибивать гвоздями, приколотить)"
+          ],
+          "examples": [
+            "Nail the board to the post.",
+            "They nailed the sign above the door.",
+            "The trim was nailed in place yesterday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To do something perfectly, in informal English",
+          "body": [
+            "(справиться блестяще, сделать безупречно)"
+          ],
+          "examples": [
+            "If you nail the interview, the job is yours.",
+            "She nailed her audition and got the part.",
+            "He has nailed the accent after months of practice."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To catch someone and prove they are guilty, in informal English",
+          "body": [
+            "(поймать, прижать, привлечь (за преступление))",
+            "---"
+          ],
+          "examples": [
+            "Store security nails about one shoplifter a week.",
+            "The IRS finally nailed him for tax fraud.",
+            "He was nailed by a traffic camera on Fifth Street."
+          ]
+        }
+      ],
+      "русский": "прибивать гвоздями, приколотить; справиться блестяще, сделать безупречно; поймать, прижать, привлечь (за преступление)",
       "forms": "nail · nailed · nailed",
       "verb class": "regular",
       "third person": "nails · -ing form: nailing",
@@ -303,14 +565,58 @@
       "term": "bolt",
       "ipa": "/boʊlt/",
       "respell": "BOHLT",
-      "meaning": "To fasten something with bolts. ---",
+      "meaning": "Bolt has 3 distinct senses.",
       "examples": [
         "We'll bolt the shelf to the studs.",
         "They bolted the frame together in an hour.",
-        "The machine is bolted to the concrete floor."
+        "The machine is bolted to the concrete floor.",
+        "Don't bolt for the door the second the bell rings.",
+        "The horse bolted at the sound of the gun.",
+        "The deer had bolted before I could raise the camera.",
+        "Don't bolt your food; you'll get a stomachache.",
+        "He bolted his breakfast and ran for the bus.",
+        "She was bolting a sandwich between meetings."
       ],
-      "senses": [],
-      "русский": "скреплять болтами, прикручивать болтами",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fasten something with bolts",
+          "body": [
+            "(скреплять болтами, прикручивать болтами)"
+          ],
+          "examples": [
+            "We'll bolt the shelf to the studs.",
+            "They bolted the frame together in an hour.",
+            "The machine is bolted to the concrete floor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To run away suddenly and fast, usually out of fear",
+          "body": [
+            "(броситься бежать, рвануть; понести (о лошади))"
+          ],
+          "examples": [
+            "Don't bolt for the door the second the bell rings.",
+            "The horse bolted at the sound of the gun.",
+            "The deer had bolted before I could raise the camera."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To swallow food very quickly, almost without chewing",
+          "body": [
+            "(глотать не жуя, есть второпях)",
+            "---"
+          ],
+          "examples": [
+            "Don't bolt your food; you'll get a stomachache.",
+            "He bolted his breakfast and ran for the bus.",
+            "She was bolting a sandwich between meetings."
+          ]
+        }
+      ],
+      "русский": "скреплять болтами, прикручивать болтами; броситься бежать, рвануть; понести (о лошади); глотать не жуя, есть второпях",
       "forms": "bolt · bolted · bolted",
       "verb class": "regular",
       "third person": "bolts · -ing form: bolting",
@@ -338,14 +644,43 @@
       "term": "tape",
       "ipa": "/teɪp/",
       "respell": "TAYP",
-      "meaning": "To stick or cover something with tape. ---",
+      "meaning": "Tape has 2 distinct senses.",
       "examples": [
         "Tape the edges before you paint.",
         "He taped the box shut.",
-        "She is taping the seams."
+        "She is taping the seams.",
+        "The show is taped in front of a live audience.",
+        "He taped the whole interview on his phone.",
+        "They are taping two episodes today."
       ],
-      "senses": [],
-      "русский": "заклеивать скотчем, приклеивать лентой",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To stick or cover something with tape",
+          "body": [
+            "(заклеивать скотчем, приклеивать лентой)"
+          ],
+          "examples": [
+            "Tape the edges before you paint.",
+            "He taped the box shut.",
+            "She is taping the seams."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To record sound or video",
+          "body": [
+            "(записывать (на видео или аудио), снимать)",
+            "---"
+          ],
+          "examples": [
+            "The show is taped in front of a live audience.",
+            "He taped the whole interview on his phone.",
+            "They are taping two episodes today."
+          ]
+        }
+      ],
+      "русский": "заклеивать скотчем, приклеивать лентой; записывать (на видео или аудио), снимать",
       "forms": "tape · taped · taped",
       "verb class": "regular",
       "third person": "tapes · -ing form: taping",
@@ -390,14 +725,43 @@
       "term": "drill",
       "ipa": "/drɪl/",
       "respell": "DRIL",
-      "meaning": "To make a round hole with a drill. ---",
+      "meaning": "Drill has 2 distinct senses.",
       "examples": [
         "Drill a small hole first.",
         "He drilled four holes in the wrong place.",
-        "She is drilling into brick."
+        "She is drilling into brick.",
+        "The teacher drills the class on irregular verbs.",
+        "Sergeants drilled the recruits for six weeks.",
+        "We have been drilling the same play all week."
       ],
-      "senses": [],
-      "русский": "сверлить, просверлить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a round hole with a drill",
+          "body": [
+            "(сверлить, просверлить)"
+          ],
+          "examples": [
+            "Drill a small hole first.",
+            "He drilled four holes in the wrong place.",
+            "She is drilling into brick."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To teach something by making people repeat it many times",
+          "body": [
+            "(натаскивать, отрабатывать (повторением); муштровать)",
+            "---"
+          ],
+          "examples": [
+            "The teacher drills the class on irregular verbs.",
+            "Sergeants drilled the recruits for six weeks.",
+            "We have been drilling the same play all week."
+          ]
+        }
+      ],
+      "русский": "сверлить, просверлить; натаскивать, отрабатывать (повторением); муштровать",
       "forms": "drill · drilled · drilled",
       "verb class": "regular",
       "third person": "drills · -ing form: drilling",
@@ -407,14 +771,43 @@
       "term": "hammer",
       "ipa": "/ˈhæmər/",
       "respell": "HAM-ur",
-      "meaning": "To hit something with a hammer, or to shape it by hitting. ---",
+      "meaning": "Hammer has 2 distinct senses.",
       "examples": [
         "Hammer the nail flush with the board.",
         "He hammered the dent out of the fender.",
-        "Someone was hammering upstairs all morning."
+        "Someone was hammering upstairs all morning.",
+        "The Lions hammered the Bears 41-7.",
+        "We got hammered in the second half.",
+        "They hammer every team they play at home."
       ],
-      "senses": [],
-      "русский": "забивать молотком, бить молотком",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To hit something with a hammer, or to shape it by hitting",
+          "body": [
+            "(забивать молотком, бить молотком)"
+          ],
+          "examples": [
+            "Hammer the nail flush with the board.",
+            "He hammered the dent out of the fender.",
+            "Someone was hammering upstairs all morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To beat an opponent by a very wide margin (informal)",
+          "body": [
+            "(разгромить, разбить наголову)",
+            "---"
+          ],
+          "examples": [
+            "The Lions hammered the Bears 41-7.",
+            "We got hammered in the second half.",
+            "They hammer every team they play at home."
+          ]
+        }
+      ],
+      "русский": "забивать молотком, бить молотком; разгромить, разбить наголову",
       "forms": "hammer · hammered · hammered",
       "verb class": "regular",
       "third person": "hammers · -ing form: hammering",
@@ -425,14 +818,43 @@
       "term": "plaster",
       "ipa": "/ˈplæstər/",
       "respell": "PLAS-tur",
-      "meaning": "To cover a wall or ceiling with a smooth layer of plaster. ---",
+      "meaning": "Plaster has 2 distinct senses.",
       "examples": [
         "They will plaster the ceiling next week.",
         "The walls were plastered and painted.",
-        "He is plastering over the old cracks."
+        "He is plastering over the old cracks.",
+        "Volunteers plaster the campus with posters every election.",
+        "His photo was plastered across every front page.",
+        "Someone had been plastering stickers all over the lamp posts."
       ],
-      "senses": [],
-      "русский": "штукатурить, оштукатурить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cover a wall or ceiling with a smooth layer of plaster",
+          "body": [
+            "(штукатурить, оштукатурить)"
+          ],
+          "examples": [
+            "They will plaster the ceiling next week.",
+            "The walls were plastered and painted.",
+            "He is plastering over the old cracks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To cover a surface thickly with something, especially with posters or pictures",
+          "body": [
+            "(обклеивать, обклеить; залеплять, покрывать сплошь)",
+            "---"
+          ],
+          "examples": [
+            "Volunteers plaster the campus with posters every election.",
+            "His photo was plastered across every front page.",
+            "Someone had been plastering stickers all over the lamp posts."
+          ]
+        }
+      ],
+      "русский": "штукатурить, оштукатурить; обклеивать, обклеить; залеплять, покрывать сплошь",
       "forms": "plaster · plastered · plastered",
       "verb class": "regular",
       "third person": "plasters · -ing form: plastering",
@@ -476,14 +898,43 @@
       "term": "wire",
       "ipa": "/ˈwaɪər/",
       "respell": "WY-ur",
-      "meaning": "To put electrical wiring into a building or a device. ---",
+      "meaning": "Wire has 2 distinct senses.",
       "examples": [
         "An electrician has to wire the new outlets.",
         "He wired the garage himself.",
-        "The house was wired in the 1950s."
+        "The house was wired in the 1950s.",
+        "I can wire you the deposit today.",
+        "They wired the money on Friday afternoon.",
+        "The funds were wired to the wrong account."
       ],
-      "senses": [],
-      "русский": "монтировать проводку, подключать провода",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put electrical wiring into a building or a device",
+          "body": [
+            "(монтировать проводку, подключать провода)"
+          ],
+          "examples": [
+            "An electrician has to wire the new outlets.",
+            "He wired the garage himself.",
+            "The house was wired in the 1950s."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To send money electronically from one bank account to another",
+          "body": [
+            "(переводить деньги, перевести (банковским переводом))",
+            "---"
+          ],
+          "examples": [
+            "I can wire you the deposit today.",
+            "They wired the money on Friday afternoon.",
+            "The funds were wired to the wrong account."
+          ]
+        }
+      ],
+      "русский": "монтировать проводку, подключать провода; переводить деньги, перевести (банковским переводом)",
       "forms": "wire · wired · wired",
       "verb class": "regular",
       "third person": "wires · -ing form: wiring",
@@ -493,14 +944,58 @@
       "term": "frame",
       "ipa": "/freɪm/",
       "respell": "FRAYM",
-      "meaning": "To build the supporting structure of something, or to put it in a frame. ---",
+      "meaning": "Frame has 3 distinct senses.",
       "examples": [
         "They will frame the walls tomorrow.",
         "The crew framed the second floor in three days.",
-        "He is framing the drawing for her birthday."
+        "He is framing the drawing for her birthday.",
+        "He says the police framed him.",
+        "Someone was trying to frame her for the theft.",
+        "He spent nine years in prison after being framed.",
+        "It depends on how you frame the question.",
+        "The campaign framed the vote as a choice about jobs.",
+        "The debate is being framed as a fight over spending."
       ],
-      "senses": [],
-      "русский": "сооружать каркас; вставлять в раму",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To build the supporting structure of something, or to put it in a frame",
+          "body": [
+            "(сооружать каркас; вставлять в раму)"
+          ],
+          "examples": [
+            "They will frame the walls tomorrow.",
+            "The crew framed the second floor in three days.",
+            "He is framing the drawing for her birthday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make an innocent person appear guilty by arranging false evidence",
+          "body": [
+            "(подставлять, подставить; ложно обвинить, сфабриковать дело против)"
+          ],
+          "examples": [
+            "He says the police framed him.",
+            "Someone was trying to frame her for the theft.",
+            "He spent nine years in prison after being framed."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To present an issue in a particular way so that people see it as you want",
+          "body": [
+            "(преподносить, подавать (вопрос определённым образом); формулировать)",
+            "---"
+          ],
+          "examples": [
+            "It depends on how you frame the question.",
+            "The campaign framed the vote as a choice about jobs.",
+            "The debate is being framed as a fight over spending."
+          ]
+        }
+      ],
+      "русский": "сооружать каркас; вставлять в раму; подставлять, подставить; ложно обвинить, сфабриковать дело против; преподносить, подавать (вопрос определённым образом); формулировать",
       "forms": "frame · framed · framed",
       "verb class": "regular",
       "third person": "frames · -ing form: framing",
@@ -510,14 +1005,43 @@
       "term": "paint",
       "ipa": "/peɪnt/",
       "respell": "PAYNT",
-      "meaning": "To cover a surface with paint, or to make a picture with paint. ---",
+      "meaning": "Paint has 2 distinct senses.",
       "examples": [
         "We should paint the porch before winter.",
         "She painted the door a deep green.",
-        "They have painted the whole apartment."
+        "They have painted the whole apartment.",
+        "The report paints a grim picture of the city's finances.",
+        "The prosecutor painted him as a con artist.",
+        "Both sides have painted the deal as a victory."
       ],
-      "senses": [],
-      "русский": "красить, покрасить; рисовать красками",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cover a surface with paint, or to make a picture with paint",
+          "body": [
+            "(красить, покрасить; рисовать красками)"
+          ],
+          "examples": [
+            "We should paint the porch before winter.",
+            "She painted the door a deep green.",
+            "They have painted the whole apartment."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To describe someone or something in a particular way with words",
+          "body": [
+            "(изображать, представлять (в определённом свете))",
+            "---"
+          ],
+          "examples": [
+            "The report paints a grim picture of the city's finances.",
+            "The prosecutor painted him as a con artist.",
+            "Both sides have painted the deal as a victory."
+          ]
+        }
+      ],
+      "русский": "красить, покрасить; рисовать красками; изображать, представлять (в определённом свете)",
       "forms": "paint · painted · painted",
       "verb class": "regular",
       "third person": "paints · -ing form: painting",
@@ -545,14 +1069,43 @@
       "term": "polish",
       "ipa": "/ˈpɑːlɪʃ/",
       "respell": "PAH-lish",
-      "meaning": "To rub a surface until it shines. ---",
+      "meaning": "Polish has 2 distinct senses.",
       "examples": [
         "Polish the brass with a soft cloth.",
         "He polished the counter until it shone.",
-        "She is polishing the finished bowl."
+        "She is polishing the finished bowl.",
+        "She spent the weekend polishing her essay.",
+        "He polished the speech until every line worked.",
+        "The script still needs to be polished."
       ],
-      "senses": [],
-      "русский": "полировать, отполировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To rub a surface until it shines",
+          "body": [
+            "(полировать, отполировать)"
+          ],
+          "examples": [
+            "Polish the brass with a soft cloth.",
+            "He polished the counter until it shone.",
+            "She is polishing the finished bowl."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To improve a piece of work with small final changes",
+          "body": [
+            "(дорабатывать, доработать; шлифовать, отшлифовать (текст, речь))",
+            "---"
+          ],
+          "examples": [
+            "She spent the weekend polishing her essay.",
+            "He polished the speech until every line worked.",
+            "The script still needs to be polished."
+          ]
+        }
+      ],
+      "русский": "полировать, отполировать; дорабатывать, доработать; шлифовать, отшлифовать (текст, речь)",
       "forms": "polish · polished · polished",
       "verb class": "regular",
       "third person": "polishes · -ing form: polishing",
@@ -581,14 +1134,43 @@
       "term": "seal",
       "ipa": "/siːl/",
       "respell": "SEEL",
-      "meaning": "To close a gap or cover a surface so that nothing gets through. ---",
+      "meaning": "Seal has 2 distinct senses.",
       "examples": [
         "Seal the gap with caulk.",
         "They sealed the concrete before winter.",
-        "The joints are sealed with silicone."
+        "The joints are sealed with silicone.",
+        "A handshake will seal the agreement.",
+        "That free throw sealed the win.",
+        "His fate was sealed the moment the tape turned up."
       ],
-      "senses": [],
-      "русский": "герметизировать, заделывать, заделать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To close a gap or cover a surface so that nothing gets through",
+          "body": [
+            "(герметизировать, заделывать, заделать)"
+          ],
+          "examples": [
+            "Seal the gap with caulk.",
+            "They sealed the concrete before winter.",
+            "The joints are sealed with silicone."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make something final and certain",
+          "body": [
+            "(скреплять, скрепить (сделку); решать, решить (исход))",
+            "---"
+          ],
+          "examples": [
+            "A handshake will seal the agreement.",
+            "That free throw sealed the win.",
+            "His fate was sealed the moment the tape turned up."
+          ]
+        }
+      ],
+      "русский": "герметизировать, заделывать, заделать; скреплять, скрепить (сделку); решать, решить (исход)",
       "forms": "seal · sealed · sealed",
       "verb class": "regular",
       "third person": "seals · -ing form: sealing",
@@ -651,14 +1233,43 @@
       "term": "insulate",
       "ipa": "/ˈɪnsəleɪt/",
       "respell": "IN-suh-layt",
-      "meaning": "To cover something so that heat, cold, or electricity cannot pass through. ---",
+      "meaning": "Insulate has 2 distinct senses.",
       "examples": [
         "They need to insulate the attic.",
         "We insulated the crawl space last year.",
-        "The pipes are insulated with foam."
+        "The pipes are insulated with foam.",
+        "Tenure insulates professors from that kind of pressure.",
+        "Their savings insulated the family from the worst of the layoffs.",
+        "No company is completely insulated from a recession."
       ],
-      "senses": [],
-      "русский": "утеплять, утеплить; изолировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cover something so that heat, cold, or electricity cannot pass through",
+          "body": [
+            "(утеплять, утеплить; изолировать)"
+          ],
+          "examples": [
+            "They need to insulate the attic.",
+            "We insulated the crawl space last year.",
+            "The pipes are insulated with foam."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To protect someone from something unpleasant that other people have to face",
+          "body": [
+            "(ограждать, оградить; защищать, защитить (от неприятностей))",
+            "---"
+          ],
+          "examples": [
+            "Tenure insulates professors from that kind of pressure.",
+            "Their savings insulated the family from the worst of the layoffs.",
+            "No company is completely insulated from a recession."
+          ]
+        }
+      ],
+      "русский": "утеплять, утеплить; изолировать; ограждать, оградить; защищать, защитить (от неприятностей)",
       "forms": "insulate · insulated · insulated",
       "verb class": "regular",
       "third person": "insulates · -ing form: insulating",
@@ -703,14 +1314,58 @@
       "term": "forge",
       "ipa": "/fɔːrdʒ/",
       "respell": "FORJ",
-      "meaning": "To shape hot metal by hammering it. ---",
+      "meaning": "Forge has 3 distinct senses.",
       "examples": [
         "They still forge the blades by hand.",
         "The hinges were forged, not cast.",
-        "He is forging a hook out of scrap steel."
+        "He is forging a hook out of scrap steel.",
+        "He tried to forge his father's signature.",
+        "She forged the prescription and got caught at the pharmacy.",
+        "The passport had been expertly forged.",
+        "The two countries are trying to forge a trade deal.",
+        "She forged close ties with local businesses.",
+        "It was a friendship forged during the worst year of the war."
       ],
-      "senses": [],
-      "русский": "ковать, выковать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To shape hot metal by hammering it",
+          "body": [
+            "(ковать, выковать)"
+          ],
+          "examples": [
+            "They still forge the blades by hand.",
+            "The hinges were forged, not cast.",
+            "He is forging a hook out of scrap steel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make an illegal copy of a document, a signature, or money",
+          "body": [
+            "(подделывать, подделать (подпись, документ); фальсифицировать)"
+          ],
+          "examples": [
+            "He tried to forge his father's signature.",
+            "She forged the prescription and got caught at the pharmacy.",
+            "The passport had been expertly forged."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To build a strong relationship or agreement through effort",
+          "body": [
+            "(налаживать, наладить (связи); выстраивать, заключать (союз))",
+            "---"
+          ],
+          "examples": [
+            "The two countries are trying to forge a trade deal.",
+            "She forged close ties with local businesses.",
+            "It was a friendship forged during the worst year of the war."
+          ]
+        }
+      ],
+      "русский": "ковать, выковать; подделывать, подделать (подпись, документ); фальсифицировать; налаживать, наладить (связи); выстраивать, заключать (союз)",
       "forms": "forge · forged · forged",
       "verb class": "regular",
       "third person": "forges · -ing form: forging",
@@ -722,14 +1377,58 @@
       "term": "fold",
       "ipa": "/foʊld/",
       "respell": "FOHLD",
-      "meaning": "To bend something over on itself. ---",
+      "meaning": "Fold has 3 distinct senses.",
       "examples": [
         "Fold the metal along the score line.",
         "She folded the sheet into a paper box.",
-        "The legs are folded flat for storage."
+        "The legs are folded flat for storage.",
+        "The magazine folded after twelve years.",
+        "Three restaurants on this block have folded since March.",
+        "If the grant doesn't come through, the program will fold.",
+        "She looked at her cards and decided to fold.",
+        "I folded before the last card.",
+        "He should have folded early and saved his chips."
       ],
-      "senses": [],
-      "русский": "складывать, сложить; сгибать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To bend something over on itself",
+          "body": [
+            "(складывать, сложить; сгибать)"
+          ],
+          "examples": [
+            "Fold the metal along the score line.",
+            "She folded the sheet into a paper box.",
+            "The legs are folded flat for storage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To close down because of losing money",
+          "body": [
+            "(закрываться, закрыться; прогореть, обанкротиться)"
+          ],
+          "examples": [
+            "The magazine folded after twelve years.",
+            "Three restaurants on this block have folded since March.",
+            "If the grant doesn't come through, the program will fold."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To stop playing your hand in a card game and give up the round",
+          "body": [
+            "(пасовать, спасовать; сбрасывать карты)",
+            "---"
+          ],
+          "examples": [
+            "She looked at her cards and decided to fold.",
+            "I folded before the last card.",
+            "He should have folded early and saved his chips."
+          ]
+        }
+      ],
+      "русский": "складывать, сложить; сгибать; закрываться, закрыться; прогореть, обанкротиться; пасовать, спасовать; сбрасывать карты",
       "forms": "fold · folded · folded",
       "verb class": "regular",
       "third person": "folds · -ing form: folding",
@@ -758,14 +1457,43 @@
       "term": "stretch",
       "ipa": "/strɛtʃ/",
       "respell": "STRECH",
-      "meaning": "To pull something so that it becomes longer or tighter. ---",
+      "meaning": "Stretch has 2 distinct senses.",
       "examples": [
         "Stretch the canvas over the frame.",
         "She stretched the fabric and stapled it down.",
-        "The screen is stretched tight."
+        "The screen is stretched tight.",
+        "The beach stretches for eleven miles.",
+        "The meeting stretched into the evening.",
+        "The line was stretching around the block by noon."
       ],
-      "senses": [],
-      "русский": "растягивать, натягивать, растянуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pull something so that it becomes longer or tighter",
+          "body": [
+            "(растягивать, натягивать, растянуть)"
+          ],
+          "examples": [
+            "Stretch the canvas over the frame.",
+            "She stretched the fabric and stapled it down.",
+            "The screen is stretched tight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To spread out over a distance or over a period of time",
+          "body": [
+            "(тянуться, простираться; растягиваться (во времени))",
+            "---"
+          ],
+          "examples": [
+            "The beach stretches for eleven miles.",
+            "The meeting stretched into the evening.",
+            "The line was stretching around the block by noon."
+          ]
+        }
+      ],
+      "русский": "растягивать, натягивать, растянуть; тянуться, простираться; растягиваться (во времени)",
       "forms": "stretch · stretched · stretched",
       "verb class": "regular",
       "third person": "stretches · -ing form: stretching",
@@ -776,14 +1504,58 @@
       "term": "crush",
       "ipa": "/krʌʃ/",
       "respell": "KRUSH",
-      "meaning": "To press something so hard that it breaks into pieces or loses its shape. ---",
+      "meaning": "Crush has 3 distinct senses.",
       "examples": [
         "The mill crushes the stone into gravel.",
         "The box was crushed in shipping.",
-        "They are crushing old concrete for the base."
+        "They are crushing old concrete for the base.",
+        "They crushed us 40-0.",
+        "Troops were sent in to crush the protest.",
+        "The rebellion was crushed within days.",
+        "The news crushed her.",
+        "Losing the scholarship would crush him.",
+        "He was crushed when they turned him down."
       ],
-      "senses": [],
-      "русский": "дробить, измельчать, раздавить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To press something so hard that it breaks into pieces or loses its shape",
+          "body": [
+            "(дробить, измельчать, раздавить)"
+          ],
+          "examples": [
+            "The mill crushes the stone into gravel.",
+            "The box was crushed in shipping.",
+            "They are crushing old concrete for the base."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To defeat someone or something completely",
+          "body": [
+            "(разгромить, сокрушить, подавлять)"
+          ],
+          "examples": [
+            "They crushed us 40-0.",
+            "Troops were sent in to crush the protest.",
+            "The rebellion was crushed within days."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To upset someone very badly",
+          "body": [
+            "(подкосить, убивать (морально), сломить)",
+            "---"
+          ],
+          "examples": [
+            "The news crushed her.",
+            "Losing the scholarship would crush him.",
+            "He was crushed when they turned him down."
+          ]
+        }
+      ],
+      "русский": "дробить, измельчать, раздавить; разгромить, сокрушить, подавлять; подкосить, убивать (морально), сломить",
       "forms": "crush · crushed · crushed",
       "verb class": "regular",
       "third person": "crushes · -ing form: crushing",
@@ -793,14 +1565,43 @@
       "term": "sharpen",
       "ipa": "/ˈʃɑːrpən/",
       "respell": "SHAR-puhn",
-      "meaning": "To make a blade or a point sharp. ---",
+      "meaning": "Sharpen has 2 distinct senses.",
       "examples": [
         "Sharpen the chisel before you start.",
         "He sharpened every blade in the shop.",
-        "She is sharpening the saw teeth by hand."
+        "She is sharpening the saw teeth by hand.",
+        "A year abroad will sharpen your Spanish.",
+        "The debate sharpened the differences between the two sides.",
+        "Competition has sharpened the company's focus on price."
       ],
-      "senses": [],
-      "русский": "точить, заточить, наточить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a blade or a point sharp",
+          "body": [
+            "(точить, заточить, наточить)"
+          ],
+          "examples": [
+            "Sharpen the chisel before you start.",
+            "He sharpened every blade in the shop.",
+            "She is sharpening the saw teeth by hand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make something clearer, stronger, or more effective",
+          "body": [
+            "(обострять, обострить; оттачивать, отточить (навык, внимание))",
+            "---"
+          ],
+          "examples": [
+            "A year abroad will sharpen your Spanish.",
+            "The debate sharpened the differences between the two sides.",
+            "Competition has sharpened the company's focus on price."
+          ]
+        }
+      ],
+      "русский": "точить, заточить, наточить; обострять, обострить; оттачивать, отточить (навык, внимание)",
       "forms": "sharpen · sharpened · sharpened",
       "verb class": "regular",
       "third person": "sharpens · -ing form: sharpening",
@@ -810,14 +1611,43 @@
       "term": "trim",
       "ipa": "/trɪm/",
       "respell": "TRIM",
-      "meaning": "To cut a small amount off something to make it neat or to make it fit. ---",
+      "meaning": "Trim has 2 distinct senses.",
       "examples": [
         "Trim the edge with a sharp knife.",
         "He trimmed the door so it would close.",
-        "She is trimming the excess off the seam."
+        "She is trimming the excess off the seam.",
+        "We trim the tree the day after Thanksgiving.",
+        "She trimmed the collar with red ribbon.",
+        "The stockings were trimmed with white fur."
       ],
-      "senses": [],
-      "русский": "подрезать, обрезать, подстричь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cut a small amount off something to make it neat or to make it fit",
+          "body": [
+            "(подрезать, обрезать, подстричь)"
+          ],
+          "examples": [
+            "Trim the edge with a sharp knife.",
+            "He trimmed the door so it would close.",
+            "She is trimming the excess off the seam."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To decorate something, especially along its edges",
+          "body": [
+            "(украшать, украсить; отделывать, отделать)",
+            "---"
+          ],
+          "examples": [
+            "We trim the tree the day after Thanksgiving.",
+            "She trimmed the collar with red ribbon.",
+            "The stockings were trimmed with white fur."
+          ]
+        }
+      ],
+      "русский": "подрезать, обрезать, подстричь; украшать, украсить; отделывать, отделать",
       "forms": "trim · trimmed · trimmed",
       "verb class": "regular",
       "third person": "trims · -ing form: trimming",
@@ -864,14 +1694,43 @@
       "term": "attach",
       "ipa": "/əˈtætʃ/",
       "respell": "uh-TACH",
-      "meaning": "To fix one thing onto another. ---",
+      "meaning": "Attach has 2 distinct senses.",
       "examples": [
         "Attach the bracket with two screws.",
         "He attached the legs to the seat.",
-        "The label is attached to the underside."
+        "The label is attached to the underside.",
+        "I don't attach much importance to rumors.",
+        "The court attached great weight to the witness's testimony.",
+        "Younger voters are attaching more significance to the issue than their parents did."
       ],
-      "senses": [],
-      "русский": "прикреплять, прикрепить; присоединять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fix one thing onto another",
+          "body": [
+            "(прикреплять, прикрепить; присоединять)"
+          ],
+          "examples": [
+            "Attach the bracket with two screws.",
+            "He attached the legs to the seat.",
+            "The label is attached to the underside."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To consider something to have a particular amount of importance or value",
+          "body": [
+            "(придавать (значение), придать)",
+            "---"
+          ],
+          "examples": [
+            "I don't attach much importance to rumors.",
+            "The court attached great weight to the witness's testimony.",
+            "Younger voters are attaching more significance to the issue than their parents did."
+          ]
+        }
+      ],
+      "русский": "прикреплять, прикрепить; присоединять; придавать (значение), придать",
       "forms": "attach · attached · attached",
       "verb class": "regular",
       "third person": "attaches · -ing form: attaching",
@@ -882,14 +1741,43 @@
       "term": "connect",
       "ipa": "/kəˈnɛkt/",
       "respell": "kuh-NEKT",
-      "meaning": "To join two things so that something can pass between them. ---",
+      "meaning": "Connect has 2 distinct senses.",
       "examples": [
         "Connect the red wire to the terminal.",
         "He connected the hose to the pump.",
-        "The two rooms are connected by a short hallway."
+        "The two rooms are connected by a short hallway.",
+        "Good teachers connect with their students.",
+        "We connected right away.",
+        "He has never really connected with his stepfather."
       ],
-      "senses": [],
-      "русский": "соединять, соединить; подключать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To join two things so that something can pass between them",
+          "body": [
+            "(соединять, соединить; подключать)"
+          ],
+          "examples": [
+            "Connect the red wire to the terminal.",
+            "He connected the hose to the pump.",
+            "The two rooms are connected by a short hallway."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To feel that you understand and like another person",
+          "body": [
+            "(находить общий язык, сближаться; устанавливать контакт)",
+            "---"
+          ],
+          "examples": [
+            "Good teachers connect with their students.",
+            "We connected right away.",
+            "He has never really connected with his stepfather."
+          ]
+        }
+      ],
+      "русский": "соединять, соединить; подключать; находить общий язык, сближаться; устанавливать контакт",
       "forms": "connect · connected · connected",
       "verb class": "regular",
       "third person": "connects · -ing form: connecting",
@@ -900,14 +1788,58 @@
       "term": "join",
       "ipa": "/dʒɔɪn/",
       "respell": "JOYN",
-      "meaning": "To put two pieces together so that they become one. ---",
+      "meaning": "Join has 3 distinct senses.",
       "examples": [
         "Join the boards with glue and dowels.",
         "The pipes were joined with a metal collar.",
-        "He is joining the two halves right now."
+        "He is joining the two halves right now.",
+        "She joined the Navy right after high school.",
+        "How much does it cost to join the gym?",
+        "He has joined three different book clubs this year.",
+        "Will you join us for dinner?",
+        "Two more reporters joined them at the table.",
+        "Thanks for joining us tonight."
       ],
-      "senses": [],
-      "русский": "соединять, соединить; скреплять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put two pieces together so that they become one",
+          "body": [
+            "(соединять, соединить; скреплять)"
+          ],
+          "examples": [
+            "Join the boards with glue and dowels.",
+            "The pipes were joined with a metal collar.",
+            "He is joining the two halves right now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To become a member of a group, a club, or an organization",
+          "body": [
+            "(вступать, вступить (в организацию); записываться, записаться)"
+          ],
+          "examples": [
+            "She joined the Navy right after high school.",
+            "How much does it cost to join the gym?",
+            "He has joined three different book clubs this year."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To come and be with someone in what they are doing",
+          "body": [
+            "(присоединяться, присоединиться (к кому-л.); составить компанию)",
+            "---"
+          ],
+          "examples": [
+            "Will you join us for dinner?",
+            "Two more reporters joined them at the table.",
+            "Thanks for joining us tonight."
+          ]
+        }
+      ],
+      "русский": "соединять, соединить; скреплять; вступать, вступить (в организацию); записываться, записаться; присоединяться, присоединиться (к кому-л.); составить компанию",
       "forms": "join · joined · joined",
       "verb class": "regular",
       "third person": "joins · -ing form: joining",
@@ -954,14 +1886,43 @@
       "term": "tighten",
       "ipa": "/ˈtaɪtən/",
       "respell": "TY-tuhn",
-      "meaning": "To make something tighter or firmer. ---",
+      "meaning": "Tighten has 2 distinct senses.",
       "examples": [
         "Tighten the screws a quarter turn.",
         "He tightened the belt until it stopped slipping.",
-        "She is tightening the last bolt."
+        "She is tightening the last bolt.",
+        "The city tightened the rules on short-term rentals.",
+        "Congress may tighten the restrictions again next year.",
+        "Security has been tightened at every airport in the country."
       ],
-      "senses": [],
-      "русский": "затягивать, подтягивать, затянуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make something tighter or firmer",
+          "body": [
+            "(затягивать, подтягивать, затянуть)"
+          ],
+          "examples": [
+            "Tighten the screws a quarter turn.",
+            "He tightened the belt until it stopped slipping.",
+            "She is tightening the last bolt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a rule, a restriction, or a budget stricter and less generous",
+          "body": [
+            "(ужесточать, ужесточить; урезать)",
+            "---"
+          ],
+          "examples": [
+            "The city tightened the rules on short-term rentals.",
+            "Congress may tighten the restrictions again next year.",
+            "Security has been tightened at every airport in the country."
+          ]
+        }
+      ],
+      "русский": "затягивать, подтягивать, затянуть; ужесточать, ужесточить; урезать",
       "forms": "tighten · tightened · tightened",
       "verb class": "regular",
       "third person": "tightens · -ing form: tightening",
@@ -991,14 +1952,73 @@
       "term": "mount",
       "ipa": "/maʊnt/",
       "respell": "MOWNT",
-      "meaning": "To fix something onto a wall, a stand, or a support. ---",
+      "meaning": "Mount has 4 distinct senses.",
       "examples": [
         "Mount the TV at eye level.",
         "They mounted the camera on a pole.",
-        "The shelf is mounted with hidden brackets."
+        "The shelf is mounted with hidden brackets.",
+        "Costs mount quickly once a project runs late.",
+        "Pressure mounted on the mayor to resign.",
+        "Evidence has been mounting for months.",
+        "She mounted the horse and rode toward the gate.",
+        "He mounts his bike and disappears down the hill.",
+        "Mounting a tall horse takes some practice.",
+        "The museum will mount a show of her early work.",
+        "The team mounted a comeback in the fourth quarter.",
+        "Neighbors are mounting a campaign against the new highway."
       ],
-      "senses": [],
-      "русский": "монтировать, устанавливать, закрепить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fix something onto a wall, a stand, or a support",
+          "body": [
+            "(монтировать, устанавливать, закрепить)"
+          ],
+          "examples": [
+            "Mount the TV at eye level.",
+            "They mounted the camera on a pole.",
+            "The shelf is mounted with hidden brackets."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To grow steadily larger or stronger",
+          "body": [
+            "(нарастать, расти; усиливаться)"
+          ],
+          "examples": [
+            "Costs mount quickly once a project runs late.",
+            "Pressure mounted on the mayor to resign.",
+            "Evidence has been mounting for months."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To get up onto a horse or a bicycle",
+          "body": [
+            "(садиться верхом, сесть (на лошадь, велосипед))"
+          ],
+          "examples": [
+            "She mounted the horse and rode toward the gate.",
+            "He mounts his bike and disappears down the hill.",
+            "Mounting a tall horse takes some practice."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To organize and carry out something large, such as a campaign or an attack",
+          "body": [
+            "(организовывать, предпринимать (кампанию, наступление); устраивать (выставку))",
+            "---"
+          ],
+          "examples": [
+            "The museum will mount a show of her early work.",
+            "The team mounted a comeback in the fourth quarter.",
+            "Neighbors are mounting a campaign against the new highway."
+          ]
+        }
+      ],
+      "русский": "монтировать, устанавливать, закрепить; нарастать, расти; усиливаться; садиться верхом, сесть (на лошадь, велосипед); организовывать, предпринимать (кампанию, наступление); устраивать (выставку)",
       "forms": "mount · mounted · mounted",
       "verb class": "regular",
       "third person": "mounts · -ing form: mounting",
@@ -1009,14 +2029,43 @@
       "term": "anchor",
       "ipa": "/ˈæŋkər/",
       "respell": "ANG-kur",
-      "meaning": "To fix something firmly so that it cannot move. ---",
+      "meaning": "Anchor has 2 distinct senses.",
       "examples": [
         "Anchor the post in concrete.",
         "The railing was anchored to the deck joists.",
-        "They are anchoring the frame to the slab."
+        "They are anchoring the frame to the slab.",
+        "She anchors the evening news.",
+        "He anchored the network's election coverage for twenty years.",
+        "They have been anchoring the morning show together since March."
       ],
-      "senses": [],
-      "русский": "закреплять, крепить анкером, зафиксировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fix something firmly so that it cannot move",
+          "body": [
+            "(закреплять, крепить анкером, зафиксировать)"
+          ],
+          "examples": [
+            "Anchor the post in concrete.",
+            "The railing was anchored to the deck joists.",
+            "They are anchoring the frame to the slab."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To present a television or radio news program",
+          "body": [
+            "(вести (новостную программу), быть ведущим)",
+            "---"
+          ],
+          "examples": [
+            "She anchors the evening news.",
+            "He anchored the network's election coverage for twenty years.",
+            "They have been anchoring the morning show together since March."
+          ]
+        }
+      ],
+      "русский": "закреплять, крепить анкером, зафиксировать; вести (новостную программу), быть ведущим",
       "forms": "anchor · anchored · anchored",
       "verb class": "regular",
       "third person": "anchors · -ing form: anchoring",
@@ -1027,14 +2076,58 @@
       "term": "secure",
       "ipa": "/sɪˈkjʊr/",
       "respell": "sih-KYUR",
-      "meaning": "To fasten something so that it stays in place. ---",
+      "meaning": "Secure has 3 distinct senses.",
       "examples": [
         "Secure the load with two straps.",
         "He secured the ladder to the roof rack.",
-        "The panels are secured with clips."
+        "The panels are secured with clips.",
+        "The team is trying to secure funding for another year.",
+        "She secured a spot in the program on her second try.",
+        "They have secured enough votes to pass the bill.",
+        "You should secure the network before the office opens.",
+        "Troops secured the airport within a day.",
+        "The site has been secured, and nobody gets in without a badge."
       ],
-      "senses": [],
-      "русский": "закреплять, закрепить, зафиксировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fasten something so that it stays in place",
+          "body": [
+            "(закреплять, закрепить, зафиксировать)"
+          ],
+          "examples": [
+            "Secure the load with two straps.",
+            "He secured the ladder to the roof rack.",
+            "The panels are secured with clips."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To get something important after effort or negotiation",
+          "body": [
+            "(добиваться, добиться; обеспечивать, обеспечить (себе))"
+          ],
+          "examples": [
+            "The team is trying to secure funding for another year.",
+            "She secured a spot in the program on her second try.",
+            "They have secured enough votes to pass the bill."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To make a place or a system safe from attack or from being broken into",
+          "body": [
+            "(обеспечивать безопасность, защищать, защитить; брать под охрану)",
+            "---"
+          ],
+          "examples": [
+            "You should secure the network before the office opens.",
+            "Troops secured the airport within a day.",
+            "The site has been secured, and nobody gets in without a badge."
+          ]
+        }
+      ],
+      "русский": "закреплять, закрепить, зафиксировать; добиваться, добиться; обеспечивать, обеспечить (себе); обеспечивать безопасность, защищать, защитить; брать под охрану",
       "forms": "secure · secured · secured",
       "verb class": "regular",
       "third person": "secures · -ing form: securing",
@@ -1099,14 +2192,43 @@
       "term": "reinforce",
       "ipa": "/ˌriːɪnˈfɔːrs/",
       "respell": "ree-in-FORS",
-      "meaning": "To make something stronger by adding material or support. ---",
+      "meaning": "Reinforce has 2 distinct senses.",
       "examples": [
         "We should reinforce the shelf with a center support.",
         "They reinforced the floor with steel beams.",
-        "The corners are reinforced with metal plates."
+        "The corners are reinforced with metal plates.",
+        "Praise reinforces good behavior better than punishment.",
+        "The trip reinforced my decision to move.",
+        "The stereotype is reinforced by every movie about the place."
       ],
-      "senses": [],
-      "русский": "укреплять, усиливать, усилить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make something stronger by adding material or support",
+          "body": [
+            "(укреплять, усиливать, усилить)"
+          ],
+          "examples": [
+            "We should reinforce the shelf with a center support.",
+            "They reinforced the floor with steel beams.",
+            "The corners are reinforced with metal plates."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a belief, a habit, or an impression stronger",
+          "body": [
+            "(подкреплять, укреплять (мнение, поведение); закреплять)",
+            "---"
+          ],
+          "examples": [
+            "Praise reinforces good behavior better than punishment.",
+            "The trip reinforced my decision to move.",
+            "The stereotype is reinforced by every movie about the place."
+          ]
+        }
+      ],
+      "русский": "укреплять, усиливать, усилить; подкреплять, укреплять (мнение, поведение); закреплять",
       "forms": "reinforce · reinforced · reinforced",
       "verb class": "regular",
       "third person": "reinforces · -ing form: reinforcing",
@@ -1116,14 +2238,73 @@
       "term": "fix",
       "ipa": "/fɪks/",
       "respell": "FIKS",
-      "meaning": "To make something work again after it has broken. ---",
+      "meaning": "Fix has 4 distinct senses.",
       "examples": [
         "Can you fix the hinge?",
         "He fixed the leak with a rubber washer.",
-        "The heater is being fixed today."
+        "The heater is being fixed today.",
+        "Let me fix you a sandwich.",
+        "He fixed himself a cup of coffee.",
+        "She was fixing dinner when the phone rang.",
+        "They fixed the wedding date for June 12.",
+        "The rent is fixed for the first two years.",
+        "The committee will fix a deadline next week.",
+        "Someone had fixed the fight.",
+        "They tried to fix the election in three counties.",
+        "The match was fixed, and two players went to prison."
       ],
-      "senses": [],
-      "русский": "чинить, починить; исправлять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make something work again after it has broken",
+          "body": [
+            "(чинить, починить; исправлять)"
+          ],
+          "examples": [
+            "Can you fix the hinge?",
+            "He fixed the leak with a rubber washer.",
+            "The heater is being fixed today."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To prepare food or a drink for someone",
+          "body": [
+            "(готовить, приготовить (еду, напиток); сделать (бутерброд))"
+          ],
+          "examples": [
+            "Let me fix you a sandwich.",
+            "He fixed himself a cup of coffee.",
+            "She was fixing dinner when the phone rang."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To decide something definitely, such as a date, a price, or a limit",
+          "body": [
+            "(назначать, назначить; устанавливать, установить (цену, дату))"
+          ],
+          "examples": [
+            "They fixed the wedding date for June 12.",
+            "The rent is fixed for the first two years.",
+            "The committee will fix a deadline next week."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To arrange a game, a race, or an election dishonestly so that a particular side wins",
+          "body": [
+            "(подтасовывать, подстраивать (результат); фальсифицировать (выборы))",
+            "---"
+          ],
+          "examples": [
+            "Someone had fixed the fight.",
+            "They tried to fix the election in three counties.",
+            "The match was fixed, and two players went to prison."
+          ]
+        }
+      ],
+      "русский": "чинить, починить; исправлять; готовить, приготовить (еду, напиток); сделать (бутерброд); назначать, назначить; устанавливать, установить (цену, дату); подтасовывать, подстраивать (результат); фальсифицировать (выборы)",
       "forms": "fix · fixed · fixed",
       "verb class": "regular",
       "third person": "fixes · -ing form: fixing",
@@ -1168,14 +2349,58 @@
       "term": "restore",
       "ipa": "/rɪˈstɔːr/",
       "respell": "rih-STOR",
-      "meaning": "To bring something old back to its original condition. ---",
+      "meaning": "Restore has 3 distinct senses.",
       "examples": [
         "They plan to restore the old mill.",
         "He restored the truck over four winters.",
-        "The windows are being restored one at a time."
+        "The windows are being restored one at a time.",
+        "Crews worked all night to restore power to the city.",
+        "The surgery restored most of his hearing.",
+        "Order had been restored by the time we arrived.",
+        "You can restore the whole folder from yesterday's backup.",
+        "I restored the phone to its factory settings.",
+        "The database is being restored right now."
       ],
-      "senses": [],
-      "русский": "реставрировать, восстанавливать, восстановить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To bring something old back to its original condition",
+          "body": [
+            "(реставрировать, восстанавливать, восстановить)"
+          ],
+          "examples": [
+            "They plan to restore the old mill.",
+            "He restored the truck over four winters.",
+            "The windows are being restored one at a time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bring back a service, a right, or a state of affairs that had stopped",
+          "body": [
+            "(восстанавливать, восстановить (порядок, связь, права))"
+          ],
+          "examples": [
+            "Crews worked all night to restore power to the city.",
+            "The surgery restored most of his hearing.",
+            "Order had been restored by the time we arrived."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To put files or settings back from a saved copy",
+          "body": [
+            "(восстанавливать (из резервной копии), откатывать)",
+            "---"
+          ],
+          "examples": [
+            "You can restore the whole folder from yesterday's backup.",
+            "I restored the phone to its factory settings.",
+            "The database is being restored right now."
+          ]
+        }
+      ],
+      "русский": "реставрировать, восстанавливать, восстановить; восстанавливать, восстановить (порядок, связь, права); восстанавливать (из резервной копии), откатывать",
       "forms": "restore · restored · restored",
       "verb class": "regular",
       "third person": "restores · -ing form: restoring",
@@ -1220,14 +2445,43 @@
       "term": "upgrade",
       "ipa": "/ˈʌpɡreɪd/",
       "respell": "UP-grayd",
-      "meaning": "To replace something with a newer or better version. ---",
+      "meaning": "Upgrade has 2 distinct senses.",
       "examples": [
         "We should upgrade the wiring.",
         "They upgraded the furnace last winter.",
-        "The kitchen has been fully upgraded."
+        "The kitchen has been fully upgraded.",
+        "They upgraded us to business class for free.",
+        "Ask at the desk whether they can upgrade your room.",
+        "We were upgraded because the hotel had overbooked."
       ],
-      "senses": [],
-      "русский": "модернизировать, обновлять, улучшить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To replace something with a newer or better version",
+          "body": [
+            "(модернизировать, обновлять, улучшить)"
+          ],
+          "examples": [
+            "We should upgrade the wiring.",
+            "They upgraded the furnace last winter.",
+            "The kitchen has been fully upgraded."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move a passenger or a guest to a better seat or room",
+          "body": [
+            "(повышать класс (места, номера), пересадить в лучший класс)",
+            "---"
+          ],
+          "examples": [
+            "They upgraded us to business class for free.",
+            "Ask at the desk whether they can upgrade your room.",
+            "We were upgraded because the hotel had overbooked."
+          ]
+        }
+      ],
+      "русский": "модернизировать, обновлять, улучшить; повышать класс (места, номера), пересадить в лучший класс",
       "forms": "upgrade · upgraded · upgraded",
       "verb class": "regular",
       "third person": "upgrades · -ing form: upgrading",
@@ -1255,14 +2509,43 @@
       "term": "modify",
       "ipa": "/ˈmɑːdɪfaɪ/",
       "respell": "MAH-dih-fy",
-      "meaning": "To change part of something so that it works differently. ---",
+      "meaning": "Modify has 2 distinct senses.",
       "examples": [
         "We can modify the design to fit.",
         "They modified the frame to take a bigger motor.",
-        "The plans are being modified again."
+        "The plans are being modified again.",
+        "Adjectives modify nouns.",
+        "In this sentence the adverb modifies the verb.",
+        "That phrase is modifying the whole clause, not just the noun."
       ],
-      "senses": [],
-      "русский": "изменять, модифицировать, видоизменить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To change part of something so that it works differently",
+          "body": [
+            "(изменять, модифицировать, видоизменить)"
+          ],
+          "examples": [
+            "We can modify the design to fit.",
+            "They modified the frame to take a bigger motor.",
+            "The plans are being modified again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In grammar, to add meaning to another word by describing or limiting it",
+          "body": [
+            "(определять, уточнять (о слове в грамматике))",
+            "---"
+          ],
+          "examples": [
+            "Adjectives modify nouns.",
+            "In this sentence the adverb modifies the verb.",
+            "That phrase is modifying the whole clause, not just the noun."
+          ]
+        }
+      ],
+      "русский": "изменять, модифицировать, видоизменить; определять, уточнять (о слове в грамматике)",
       "forms": "modify · modified · modified",
       "verb class": "regular",
       "third person": "modifies · -ing form: modifying",
@@ -1291,14 +2574,43 @@
       "term": "adjust",
       "ipa": "/əˈdʒʌst/",
       "respell": "uh-JUST",
-      "meaning": "To move or change something a little so that it is right. ---",
+      "meaning": "Adjust has 2 distinct senses.",
       "examples": [
         "Adjust the hinge until the door closes.",
         "He adjusted the legs to level the table.",
-        "She is adjusting the belt tension."
+        "She is adjusting the belt tension.",
+        "It takes a few weeks to adjust to the night shift.",
+        "He adjusted to college life faster than we expected.",
+        "My eyes were still adjusting to the dark."
       ],
-      "senses": [],
-      "русский": "регулировать, настраивать, отрегулировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move or change something a little so that it is right",
+          "body": [
+            "(регулировать, настраивать, отрегулировать)"
+          ],
+          "examples": [
+            "Adjust the hinge until the door closes.",
+            "He adjusted the legs to level the table.",
+            "She is adjusting the belt tension."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To get used to a new situation or a new place",
+          "body": [
+            "(привыкать, привыкнуть; осваиваться, освоиться)",
+            "---"
+          ],
+          "examples": [
+            "It takes a few weeks to adjust to the night shift.",
+            "He adjusted to college life faster than we expected.",
+            "My eyes were still adjusting to the dark."
+          ]
+        }
+      ],
+      "русский": "регулировать, настраивать, отрегулировать; привыкать, привыкнуть; осваиваться, освоиться",
       "forms": "adjust · adjusted · adjusted",
       "verb class": "regular",
       "third person": "adjusts · -ing form: adjusting",
@@ -1325,14 +2637,43 @@
       "term": "demolish",
       "ipa": "/dɪˈmɑːlɪʃ/",
       "respell": "dih-MAH-lish",
-      "meaning": "To knock a building down on purpose. ---",
+      "meaning": "Demolish has 2 distinct senses.",
       "examples": [
         "The city will demolish the old garage.",
         "They demolished the wall in one morning.",
-        "The building has already been demolished."
+        "The building has already been demolished.",
+        "A team like that can demolish us.",
+        "We demolished them in the second half.",
+        "The champion has demolished every challenger so far."
       ],
-      "senses": [],
-      "русский": "сносить, снести, разрушать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To knock a building down on purpose",
+          "body": [
+            "(сносить, снести, разрушать)"
+          ],
+          "examples": [
+            "The city will demolish the old garage.",
+            "They demolished the wall in one morning.",
+            "The building has already been demolished."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To beat an opponent easily and completely",
+          "body": [
+            "(разгромить, разбить наголову)",
+            "---"
+          ],
+          "examples": [
+            "A team like that can demolish us.",
+            "We demolished them in the second half.",
+            "The champion has demolished every challenger so far."
+          ]
+        }
+      ],
+      "русский": "сносить, снести, разрушать; разгромить, разбить наголову",
       "forms": "demolish · demolished · demolished",
       "verb class": "regular",
       "third person": "demolishes · -ing form: demolishing",
@@ -1342,14 +2683,43 @@
       "term": "print",
       "ipa": "/prɪnt/",
       "respell": "PRINT",
-      "meaning": "To produce words or images on paper with a machine. ---",
+      "meaning": "Print has 2 distinct senses.",
       "examples": [
         "Can you print two copies?",
         "She printed the labels this morning.",
-        "The shop is printing the posters now."
+        "The shop is printing the posters now.",
+        "Please print your name at the top of the form.",
+        "He printed the address in careful block capitals.",
+        "She was still printing every letter in second grade."
       ],
-      "senses": [],
-      "русский": "печатать, напечатать, распечатать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To produce words or images on paper with a machine",
+          "body": [
+            "(печатать, напечатать, распечатать)"
+          ],
+          "examples": [
+            "Can you print two copies?",
+            "She printed the labels this morning.",
+            "The shop is printing the posters now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To write words using separate letters rather than joined cursive",
+          "body": [
+            "(писать печатными буквами)",
+            "---"
+          ],
+          "examples": [
+            "Please print your name at the top of the form.",
+            "He printed the address in careful block capitals.",
+            "She was still printing every letter in second grade."
+          ]
+        }
+      ],
+      "русский": "печатать, напечатать, распечатать; писать печатными буквами",
       "forms": "print · printed · printed",
       "verb class": "regular",
       "third person": "prints · -ing form: printing",
@@ -1394,14 +2764,43 @@
       "term": "brew",
       "ipa": "/bruː/",
       "respell": "BROO",
-      "meaning": "To make beer, or to make coffee or tea with hot water. ---",
+      "meaning": "Brew has 2 distinct senses.",
       "examples": [
         "They brew their own beer in the garage.",
         "He brewed a batch last weekend.",
-        "The coffee is still brewing."
+        "The coffee is still brewing.",
+        "A storm was brewing over the mountains all afternoon.",
+        "Resentment brewed quietly for years before anyone spoke up.",
+        "Trouble brews every time the budget comes up."
       ],
-      "senses": [],
-      "русский": "варить (пиво), заваривать, сварить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make beer, or to make coffee or tea with hot water",
+          "body": [
+            "(варить (пиво), заваривать, сварить)"
+          ],
+          "examples": [
+            "They brew their own beer in the garage.",
+            "He brewed a batch last weekend.",
+            "The coffee is still brewing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "(of trouble or a storm) To build up slowly and be about to happen",
+          "body": [
+            "(назревать, надвигаться; зреть (о беде))",
+            "---"
+          ],
+          "examples": [
+            "A storm was brewing over the mountains all afternoon.",
+            "Resentment brewed quietly for years before anyone spoke up.",
+            "Trouble brews every time the budget comes up."
+          ]
+        }
+      ],
+      "русский": "варить (пиво), заваривать, сварить; назревать, надвигаться; зреть (о беде)",
       "forms": "brew · brewed · brewed",
       "verb class": "regular",
       "third person": "brews · -ing form: brewing",
@@ -1430,14 +2829,43 @@
       "term": "stir",
       "ipa": "/stɜːr/",
       "respell": "STUR",
-      "meaning": "To move a liquid or mixture around with a stick or spoon. ---",
+      "meaning": "Stir has 2 distinct senses.",
       "examples": [
         "Stir the paint before you use it.",
         "He stirred the mixture until it was smooth.",
-        "She is stirring the glue into the sawdust."
+        "She is stirring the glue into the sawdust.",
+        "Nobody stirs in this house before seven.",
+        "The baby stirred and went back to sleep.",
+        "The leaves were stirring in the first breeze of the morning."
       ],
-      "senses": [],
-      "русский": "размешивать, помешивать, размешать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move a liquid or mixture around with a stick or spoon",
+          "body": [
+            "(размешивать, помешивать, размешать)"
+          ],
+          "examples": [
+            "Stir the paint before you use it.",
+            "He stirred the mixture until it was smooth.",
+            "She is stirring the glue into the sawdust."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move slightly, especially after being still or asleep",
+          "body": [
+            "(шевелиться, шевельнуться; зашевелиться, просыпаться)",
+            "---"
+          ],
+          "examples": [
+            "Nobody stirs in this house before seven.",
+            "The baby stirred and went back to sleep.",
+            "The leaves were stirring in the first breeze of the morning."
+          ]
+        }
+      ],
+      "русский": "размешивать, помешивать, размешать; шевелиться, шевельнуться; зашевелиться, просыпаться",
       "forms": "stir · stirred · stirred",
       "verb class": "regular",
       "third person": "stirs · -ing form: stirring",
@@ -1484,14 +2912,43 @@
       "term": "label",
       "ipa": "/ˈleɪbəl/",
       "respell": "LAY-buhl",
-      "meaning": "To put a name or a mark on something so it can be identified. ---",
+      "meaning": "Label has 2 distinct senses.",
       "examples": [
         "Label every wire before you cut it.",
         "He labeled the boxes by room.",
-        "The jars are labeled with the date."
+        "The jars are labeled with the date.",
+        "Teachers labeled him a troublemaker in third grade.",
+        "Don't label people you've never met.",
+        "Once you have been labeled difficult, it follows you."
       ],
-      "senses": [],
-      "русский": "маркировать, подписывать, наклеивать этикетку",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put a name or a mark on something so it can be identified",
+          "body": [
+            "(маркировать, подписывать, наклеивать этикетку)"
+          ],
+          "examples": [
+            "Label every wire before you cut it.",
+            "He labeled the boxes by room.",
+            "The jars are labeled with the date."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To describe someone or something as a particular type, often unfairly",
+          "body": [
+            "(навешивать ярлык, навесить ярлык; называть, объявлять (кем-л.))",
+            "---"
+          ],
+          "examples": [
+            "Teachers labeled him a troublemaker in third grade.",
+            "Don't label people you've never met.",
+            "Once you have been labeled difficult, it follows you."
+          ]
+        }
+      ],
+      "русский": "маркировать, подписывать, наклеивать этикетку; навешивать ярлык, навесить ярлык; называть, объявлять (кем-л.)",
       "forms": "label · labeled · labeled",
       "verb class": "regular",
       "third person": "labels · -ing form: labeling",
@@ -1537,14 +2994,58 @@
       "term": "mark",
       "ipa": "/mɑːrk/",
       "respell": "MARK",
-      "meaning": "To draw a line or sign on something to show where to cut or drill. ---",
+      "meaning": "Mark has 3 distinct senses.",
       "examples": [
         "Mark the studs with a pencil.",
         "He marked the cut line with tape.",
-        "The centers are marked on the drawing."
+        "The centers are marked on the drawing.",
+        "Today's vote marks a turning point for the company.",
+        "The 1969 landing marked the end of the space race.",
+        "This election has marked a real shift in the state.",
+        "How do you plan to mark your tenth anniversary?",
+        "The town marked Memorial Day with a parade.",
+        "The date is marked every year with a moment of silence."
       ],
-      "senses": [],
-      "русский": "отмечать, размечать, разметить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To draw a line or sign on something to show where to cut or drill",
+          "body": [
+            "(отмечать, размечать, разметить)"
+          ],
+          "examples": [
+            "Mark the studs with a pencil.",
+            "He marked the cut line with tape.",
+            "The centers are marked on the drawing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be the sign that an important event, change, or stage has happened",
+          "body": [
+            "(знаменовать, ознаменовать; означать)"
+          ],
+          "examples": [
+            "Today's vote marks a turning point for the company.",
+            "The 1969 landing marked the end of the space race.",
+            "This election has marked a real shift in the state."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To do something special to celebrate or remember an occasion",
+          "body": [
+            "(отмечать, отметить (дату, событие))",
+            "---"
+          ],
+          "examples": [
+            "How do you plan to mark your tenth anniversary?",
+            "The town marked Memorial Day with a parade.",
+            "The date is marked every year with a moment of silence."
+          ]
+        }
+      ],
+      "русский": "отмечать, размечать, разметить; знаменовать, ознаменовать; означать; отмечать, отметить (дату, событие)",
       "forms": "mark · marked · marked",
       "verb class": "regular",
       "third person": "marks · -ing form: marking",
@@ -1555,14 +3056,43 @@
       "term": "align",
       "ipa": "/əˈlaɪn/",
       "respell": "uh-LYN",
-      "meaning": "To put two or more things in a straight line, or in the right position. ---",
+      "meaning": "Align has 2 distinct senses.",
       "examples": [
         "Align the holes before you push the pin in.",
         "He aligned the doors so the gaps matched.",
-        "The panels are not aligned."
+        "The panels are not aligned.",
+        "We need to align the budget with our goals.",
+        "Several senators aligned themselves with the governor.",
+        "The two departments are finally aligned on the schedule."
       ],
-      "senses": [],
-      "русский": "выравнивать, совмещать, выровнять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put two or more things in a straight line, or in the right position",
+          "body": [
+            "(выравнивать, совмещать, выровнять)"
+          ],
+          "examples": [
+            "Align the holes before you push the pin in.",
+            "He aligned the doors so the gaps matched.",
+            "The panels are not aligned."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bring people, plans, or ideas into agreement",
+          "body": [
+            "(согласовывать, согласовать; приводить в соответствие)",
+            "---"
+          ],
+          "examples": [
+            "We need to align the budget with our goals.",
+            "Several senators aligned themselves with the governor.",
+            "The two departments are finally aligned on the schedule."
+          ]
+        }
+      ],
+      "русский": "выравнивать, совмещать, выровнять; согласовывать, согласовать; приводить в соответствие",
       "forms": "align · aligned · aligned",
       "verb class": "regular",
       "third person": "aligns · -ing form: aligning",
@@ -1573,14 +3103,58 @@
       "term": "level",
       "ipa": "/ˈlɛvəl/",
       "respell": "LEV-uhl",
-      "meaning": "To make a surface flat and horizontal. ---",
+      "meaning": "Level has 3 distinct senses.",
       "examples": [
         "Level the base before you set the post.",
         "They leveled the ground with a rake.",
-        "He is leveling the washer with a wrench."
+        "He is leveling the washer with a wrench.",
+        "The tornado leveled half the town.",
+        "Crews will level the old high school this summer.",
+        "The whole block had been leveled years before I was born.",
+        "Critics leveled the same charge at her last year.",
+        "He levels his complaints at the coaching staff, not the players.",
+        "Serious accusations have been leveled against the department."
       ],
-      "senses": [],
-      "русский": "выравнивать, нивелировать, выровнять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a surface flat and horizontal",
+          "body": [
+            "(выравнивать, нивелировать, выровнять)"
+          ],
+          "examples": [
+            "Level the base before you set the post.",
+            "They leveled the ground with a rake.",
+            "He is leveling the washer with a wrench."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To knock a building or an area completely flat",
+          "body": [
+            "(сносить, снести; сравнивать с землёй, сровнять)"
+          ],
+          "examples": [
+            "The tornado leveled half the town.",
+            "Crews will level the old high school this summer.",
+            "The whole block had been leveled years before I was born."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To aim a criticism or an accusation at someone",
+          "body": [
+            "(выдвигать, выдвинуть (обвинение); обрушивать (критику))",
+            "---"
+          ],
+          "examples": [
+            "Critics leveled the same charge at her last year.",
+            "He levels his complaints at the coaching staff, not the players.",
+            "Serious accusations have been leveled against the department."
+          ]
+        }
+      ],
+      "русский": "выравнивать, нивелировать, выровнять; сносить, снести; сравнивать с землёй, сровнять; выдвигать, выдвинуть (обвинение); обрушивать (критику)",
       "forms": "level · leveled · leveled",
       "verb class": "regular",
       "third person": "levels · -ing form: leveling",
@@ -1662,14 +3236,43 @@
       "term": "decorate",
       "ipa": "/ˈdɛkəreɪt/",
       "respell": "DEK-uh-rayt",
-      "meaning": "To make something look better by adding color or ornament. ---",
+      "meaning": "Decorate has 2 distinct senses.",
       "examples": [
         "Let's decorate the room in warm colors.",
         "She decorated the cake with fresh berries.",
-        "The hall was decorated for the party."
+        "The hall was decorated for the party.",
+        "The Army decorates very few soldiers for valor.",
+        "He was decorated twice for bravery in combat.",
+        "The city plans to decorate the firefighters who went in first."
       ],
-      "senses": [],
-      "русский": "украшать, оформлять, украсить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make something look better by adding color or ornament",
+          "body": [
+            "(украшать, оформлять, украсить)"
+          ],
+          "examples": [
+            "Let's decorate the room in warm colors.",
+            "She decorated the cake with fresh berries.",
+            "The hall was decorated for the party."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give someone a medal as an official honor for bravery or service",
+          "body": [
+            "(награждать, наградить (орденом, медалью))",
+            "---"
+          ],
+          "examples": [
+            "The Army decorates very few soldiers for valor.",
+            "He was decorated twice for bravery in combat.",
+            "The city plans to decorate the firefighters who went in first."
+          ]
+        }
+      ],
+      "русский": "украшать, оформлять, украсить; награждать, наградить (орденом, медалью)",
       "forms": "decorate · decorated · decorated",
       "verb class": "regular",
       "third person": "decorates · -ing form: decorating",
@@ -1697,14 +3300,43 @@
       "term": "copy",
       "ipa": "/ˈkɑːpi/",
       "respell": "KAH-pee",
-      "meaning": "To make something exactly like an original. ---",
+      "meaning": "Copy has 2 distinct senses.",
       "examples": [
         "Copy the pattern onto stiff paper.",
         "He copied the joint from an old chair.",
-        "She is copying the drawing to scale."
+        "She is copying the drawing to scale.",
+        "Please copy me on that email.",
+        "She copied her manager on the reply.",
+        "I've been copied on every message in the thread."
       ],
-      "senses": [],
-      "русский": "копировать, скопировать; переписывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make something exactly like an original",
+          "body": [
+            "(копировать, скопировать; переписывать)"
+          ],
+          "examples": [
+            "Copy the pattern onto stiff paper.",
+            "He copied the joint from an old chair.",
+            "She is copying the drawing to scale."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To send someone a copy of a message that is mainly for someone else",
+          "body": [
+            "(ставить в копию (письма), отправить копию)",
+            "---"
+          ],
+          "examples": [
+            "Please copy me on that email.",
+            "She copied her manager on the reply.",
+            "I've been copied on every message in the thread."
+          ]
+        }
+      ],
+      "русский": "копировать, скопировать; переписывать; ставить в копию (письма), отправить копию",
       "forms": "copy · copied · copied",
       "verb class": "regular",
       "third person": "copies · -ing form: copying",
@@ -1752,14 +3384,43 @@
       "term": "refine",
       "ipa": "/rɪˈfaɪn/",
       "respell": "rih-FYN",
-      "meaning": "To improve something by making small careful changes. ---",
+      "meaning": "Refine has 2 distinct senses.",
       "examples": [
         "We can refine the shape later.",
         "She refined the prototype three times.",
-        "The process has been refined over many years."
+        "The process has been refined over many years.",
+        "It costs more to refine heavy crude oil.",
+        "The mill refined the ore right where it was mined.",
+        "White bread is made from heavily refined flour."
       ],
-      "senses": [],
-      "русский": "дорабатывать, совершенствовать, доработать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To improve something by making small careful changes",
+          "body": [
+            "(дорабатывать, совершенствовать, доработать)"
+          ],
+          "examples": [
+            "We can refine the shape later.",
+            "She refined the prototype three times.",
+            "The process has been refined over many years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To remove the unwanted parts from a raw material to make it pure",
+          "body": [
+            "(очищать, очистить; рафинировать, перерабатывать)",
+            "---"
+          ],
+          "examples": [
+            "It costs more to refine heavy crude oil.",
+            "The mill refined the ore right where it was mined.",
+            "White bread is made from heavily refined flour."
+          ]
+        }
+      ],
+      "русский": "дорабатывать, совершенствовать, доработать; очищать, очистить; рафинировать, перерабатывать",
       "forms": "refine · refined · refined",
       "verb class": "regular",
       "third person": "refines · -ing form: refining",
@@ -1769,14 +3430,58 @@
       "term": "compose",
       "ipa": "/kəmˈpoʊz/",
       "respell": "kuhm-POHZ",
-      "meaning": "To make a whole by putting parts together, especially music or writing. ---",
+      "meaning": "Compose has 3 distinct senses.",
       "examples": [
         "He can compose a tune in an hour.",
         "She composed the piece for four voices.",
-        "The image is composed of thousands of small tiles."
+        "The image is composed of thousands of small tiles.",
+        "Two small islands compose the entire country.",
+        "Farmers composed most of the population back then.",
+        "The board is composed of five parents and two teachers.",
+        "Give her a minute to compose herself.",
+        "He composed himself and started the speech again.",
+        "She spoke slowly, composing herself between sentences."
       ],
-      "senses": [],
-      "русский": "сочинять, составлять, сочинить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a whole by putting parts together, especially music or writing",
+          "body": [
+            "(сочинять, составлять, сочинить)"
+          ],
+          "examples": [
+            "He can compose a tune in an hour.",
+            "She composed the piece for four voices.",
+            "The image is composed of thousands of small tiles."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be the parts that something is made of",
+          "body": [
+            "(составлять, образовывать (целое); состоять из)"
+          ],
+          "examples": [
+            "Two small islands compose the entire country.",
+            "Farmers composed most of the population back then.",
+            "The board is composed of five parents and two teachers."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To make yourself calm again after being upset",
+          "body": [
+            "(успокаиваться, брать себя в руки, взять себя в руки)",
+            "---"
+          ],
+          "examples": [
+            "Give her a minute to compose herself.",
+            "He composed himself and started the speech again.",
+            "She spoke slowly, composing herself between sentences."
+          ]
+        }
+      ],
+      "русский": "сочинять, составлять, сочинить; составлять, образовывать (целое); состоять из; успокаиваться, брать себя в руки, взять себя в руки",
       "forms": "compose · composed · composed",
       "verb class": "regular",
       "third person": "composes · -ing form: composing",
@@ -1786,14 +3491,43 @@
       "term": "harden",
       "ipa": "/ˈhɑːrdən/",
       "respell": "HAR-duhn",
-      "meaning": "To become hard, or to make something hard. ---",
+      "meaning": "Harden has 2 distinct senses.",
       "examples": [
         "Heat will harden the steel.",
         "The resin hardened overnight.",
-        "The clay is hardening faster than we expected."
+        "The clay is hardening faster than we expected.",
+        "Two tours overseas hardened him.",
+        "Opinions have hardened on both sides since the strike.",
+        "Years of bad news harden people."
       ],
-      "senses": [],
-      "русский": "затвердевать, твердеть; закалять, закалить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To become hard, or to make something hard",
+          "body": [
+            "(затвердевать, твердеть; закалять, закалить)"
+          ],
+          "examples": [
+            "Heat will harden the steel.",
+            "The resin hardened overnight.",
+            "The clay is hardening faster than we expected."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make someone less kind or less open to feeling, or to become that way",
+          "body": [
+            "(ожесточать, ожесточаться; черстветь, очерстветь)",
+            "---"
+          ],
+          "examples": [
+            "Two tours overseas hardened him.",
+            "Opinions have hardened on both sides since the strike.",
+            "Years of bad news harden people."
+          ]
+        }
+      ],
+      "русский": "затвердевать, твердеть; закалять, закалить; ожесточать, ожесточаться; черстветь, очерстветь",
       "forms": "harden · hardened · hardened",
       "verb class": "regular",
       "third person": "hardens · -ing form: hardening",

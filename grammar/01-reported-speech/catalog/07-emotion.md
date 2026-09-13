@@ -255,12 +255,18 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 > "The heat hasn't worked in three days," she said.  →  She **complained that** the heat **hadn't** worked in three days.
 > "This coffee is cold," he said to the server.  →  He **complained to** the server **about** the cold coffee.
 
+**1. Say you are dissatisfied.** The reporting sense, addressed to somebody who might fix it, with the grievance behind *about*. (жаловаться (на неудобство), выражать недовольство)
+
 1. Three tenants *complained* that the elevator had been out since Friday.
 2. He *complained* to HR about the scheduling, and nothing changed.
-3. She came in *complaining* of a headache and a stiff neck.
-4. Passengers *complained* about being kept on the tarmac for two hours.
-5. "I'm not *complaining*," he said, complaining.
-6. Nobody *complained*, which the manager took as approval.
+3. Passengers *complained* about being kept on the tarmac for two hours.
+4. "I'm not *complaining*," he said, complaining.
+5. Nobody *complained*, which the manager took as approval.
+
+**2. complain of — report a symptom.** The medical frame, and the reason the preposition matters: *complained **of** chest pain* is what a chart says, *complained **about** the wait* is what a patient does in the lobby. (жаловаться на (боль, симптомы))
+
+6. She came in *complaining* of a headache and a stiff neck.
+7. He had been *complaining* of dizziness for a week before anyone sent him in.
 
 **See also:** [gripe](#gripe), [grumble](#grumble), [moan](#moan), [whine](#whine), [object](#object), [protest](#protest)
 
@@ -299,12 +305,23 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 > "This attack is unacceptable and we reject it," the statement said.  →  The government **condemned** the attack.
 > "What the company did was indefensible."  →  She **condemned** the company's conduct **as** indefensible.
 
+**1. Denounce publicly.** The strongest public denunciation available: *criticize* faults a decision, *condemn* declares the thing morally unacceptable. (осуждать, клеймить)
+
 1. Both senators *condemned* the ruling within the hour.
 2. The union *condemned* the layoffs as a breach of the agreement.
 3. She *condemned* the practice for putting drivers at risk.
 4. The report stops at describing the failures; it does not *condemn* anyone.
 5. "I *condemn* it in the strongest possible terms," he said, which meant nothing would happen.
-6. The building was *condemned*, in the other sense, six months later.
+
+**2. Sentence; doom.** The judicial verb, almost always passive: *condemned to* a punishment, or figuratively to a fate. (приговаривать; обрекать)
+
+6. He was *condemned* to death and the sentence was later commuted.
+7. The design *condemns* the building to a lifetime of leaks.
+
+**3. Declare a building unfit for use.** An American administrative sense: the city, not a court, and the object is a structure. (признать аварийным, негодным к эксплуатации)
+
+8. The building was *condemned*, in the other sense, six months later.
+9. The city *condemned* two houses on that block after the flood.
 
 **See also:** [criticize](#criticize), [accuse](#accuse), [blame](#blame), [rebuke](#rebuke)
 
@@ -387,12 +404,19 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 > "We beat them by twenty points!" he said, over and over.  →  He **crowed that** they had beaten them by twenty points.
 > "Told you the stock would double."  →  She **crowed about** having called the stock right.
 
+**1. Boast loudly about a win.** The reporting sense, disapproving, and it implies both noise and an audience. (торжествовать, громко похваляться)
+
 1. He *crowed* about the promotion until even his friends stopped answering.
 2. The press release *crowed* that the company had doubled its market share.
 3. She won the bet and did not *crow*, which he noticed.
 4. They were still *crowing* over the takeover three years later.
 5. "Don't *crow* until the check clears," his partner said.
 6. The mayor *crowed* about a crime drop that had started under his predecessor.
+
+**2. Of a rooster: call at dawn.** The literal verb the boast is a metaphor of. (кукарекать)
+
+7. A rooster *crowed* somewhere behind the barn.
+8. The birds start *crowing* before it's light.
 
 **See also:** [boast](#boast), [brag](#brag), [gloat](#gloat), [taunt](#taunt)
 
@@ -409,12 +433,22 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 > "Look out!" she said suddenly.  →  She **cried** a warning. / **"Look out!" she cried.**
 > "That's not fair!" the child said.  →  The child **cried that** it **wasn't** fair.
 
-1. "*Cry* all you want," he said, "but the deposit is nonrefundable."
-2. "There's someone in the water!" she *cried*.
-3. He *cried* out that the ladder was slipping.
-4. The crowd *cried* for a recount and got one.
-5. She read the last page twice and then *cried*.
-6. "Not one more word," *cried* the judge, in a novel nobody would publish now.
+**1. Call out loudly.** The reporting sense — a sudden loud utterance driven by emotion. Outside fiction it now sounds dated; a news report writes *shouted*. (вскричать, воскликнуть (книжн.))
+
+1. "There's someone in the water!" she *cried*.
+2. He *cried* out that the ladder was slipping.
+3. "Not one more word," *cried* the judge, in a novel nobody would publish now.
+
+**2. Weep.** The everyday American sense, intransitive, and the one a learner meets first. Where both readings are open the sentence is genuinely ambiguous. (плакать)
+
+4. She read the last page twice and then *cried*.
+5. "*Cry* all you want," he said, "but the deposit is nonrefundable."
+6. He *cried* for about a minute and then asked for a sandwich.
+
+**3. cry for / cry out for — call for, demand.** With a thing as the subject it means the need is obvious: *the system is crying out for a rewrite*. (требовать, взывать о)
+
+7. The crowd *cried* for a recount and got one.
+8. The whole schedule is *crying out for* somebody to simplify it.
 
 **See also:** [exclaim](#exclaim), [shout](#shout), [yell](#yell), [groan](#groan)
 
@@ -515,12 +549,22 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 > "Get out of my chair," he said, very low.  →  He **growled at** me **to** get out of his chair.
 > "Nobody leaves until this is fixed."  →  He **growled that** nobody was leaving until it was fixed.
 
+**1. Speak low and menacing.** The reporting sense, and a fiction verb: real reports say *said angrily*. (прорычать, сказать угрожающе)
+
 1. "Try it," he *growled*, and nobody tried it.
-2. The dog *growled* at the mail carrier through the screen door.
-3. She *growled* that she had asked for the report twice already.
-4. He *growled* an answer without looking up from the engine.
-5. The coach *growled* at the bench and the bench got quiet.
-6. His stomach *growled* loudly enough that the interviewer laughed.
+2. She *growled* that she had asked for the report twice already.
+3. He *growled* an answer without looking up from the engine.
+4. The coach *growled* at the bench and the bench got quiet.
+
+**2. Of an animal: make a low threatening sound.** The literal sense the reporting one borrows, and *growl **at*** is the aggressive frame in both. (рычать (о животном))
+
+5. The dog *growled* at the mail carrier through the screen door.
+6. Something *growled* in the dark and we went back inside.
+
+**3. Of a stomach or an engine: rumble.** A low continuous noise, with no threat in it. (урчать (о животе); рокотать)
+
+7. His stomach *growled* loudly enough that the interviewer laughed.
+8. The old truck *growled* up the hill in first gear.
 
 **See also:** [snap](#snap), [mutter](#mutter), [shout](#shout), [scold](#scold)
 
@@ -772,12 +816,18 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 > "But I turned it in on Tuesday!" he said.  →  He **protested that** he **had** turned it in on Tuesday.
 > "This ruling is unjust and we won't accept it."  →  They **protested** the ruling.
 
-1. Students *protested* the tuition increase for three weeks.
-2. "I never agreed to that," she *protested*.
-3. He *protested* that he had asked twice and gotten no answer.
-4. She *protested* her innocence right up to the plea deal.
-5. Thousands *protested* outside the statehouse in the rain.
-6. He signed it under *protest* and said so in writing.
+**1. Object, often in self-defense.** The reporting sense, and it carries a hint that the objection may not be believed — which is why *he protested his innocence* is always faintly skeptical. (возражать, протестовать (оправдываясь))
+
+1. "I never agreed to that," she *protested*.
+2. He *protested* that he had asked twice and gotten no answer.
+3. She *protested* her innocence right up to the plea deal.
+4. He signed it under *protest* and said so in writing.
+
+**2. Demonstrate publicly against something.** Nobody is speaking to anybody in particular here — people are in the street. American English takes the object directly: *protest the war*, where British English says *protest against*. (выступать с протестом, участвовать в акции протеста)
+
+5. Students *protested* the tuition increase for three weeks.
+6. Thousands *protested* outside the statehouse in the rain.
+7. They *protested* the ruling on the courthouse steps.
 
 **See also:** [object](#object), [complain](#complain), [insist](03-agree-refuse.md#insist), [refuse](03-agree-refuse.md#refuse)
 
@@ -910,12 +960,24 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 > "I said I'd handle it," she said sharply.  →  She **snapped that** she **had** said she'd handle it.
 > "Do you mind?"  →  He **snapped at** the man behind him in line.
 
+**1. Say something short and sharp, in irritation.** The reporting sense, and brevity is the whole point: a snapped remark is one sentence in a tone that ends the exchange. (огрызнуться, резко бросить)
+
 1. "I'm not asking again," he *snapped*.
 2. She *snapped* that she'd sent the file twice already.
 3. Sorry I *snapped* at you — it's been a long week.
 4. He *snapped* at a waiter and the whole table went quiet.
 5. She almost never *snaps*, which is why it registered.
-6. He *snapped* after the third schedule change and walked out.
+
+**2. Break suddenly; make a short sharp sound.** The literal verb behind the metaphor — the sound of something giving way or clicking shut. (треснуть, лопнуть; щёлкнуть)
+
+6. The branch *snapped* under the first step he took.
+7. He *snapped* his fingers at the server, which nobody appreciated.
+8. The lid *snaps* shut on its own.
+
+**3. Lose your self-control.** Of a person under long strain, and intransitive: not one sharp remark but the end of the rope. (сорваться, не выдержать)
+
+9. He *snapped* after the third schedule change and walked out.
+10. Something in her *snapped* and she stopped answering the phone altogether.
 
 **See also:** [yell](#yell), [growl](#growl), [mutter](#mutter), [scold](#scold), [shout](#shout)
 

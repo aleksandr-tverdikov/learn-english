@@ -79,14 +79,62 @@
       "meaning": "",
       "examples": [
         "He agreed to look at the engine before the weekend.",
-        "Everyone at the meeting agreed that the deadline was unrealistic.",
         "She agreed to the terms but asked for the payment schedule in writing.",
+        "Everyone at the meeting agreed that the deadline was unrealistic.",
         "I don't agree with him about much, but he was right about the roof.",
         "We finally agreed on a date in early October.",
         "They couldn't agree where to hold the reception.",
-        "It was agreed that the vote would be taken by secret ballot."
+        "It was agreed that the vote would be taken by secret ballot.",
+        "Shellfish doesn't agree with me.",
+        "The night shift never agreed with him."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Say yes to a proposal",
+          "body": [
+            "agree to something, or agree + to-infinitive: you accept it, and with the infinitive you are the one who will act. (согласиться (сделать), принять предложение)"
+          ],
+          "examples": [
+            "He agreed to look at the engine before the weekend.",
+            "She agreed to the terms but asked for the payment schedule in writing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Share an opinion",
+          "body": [
+            "agree with a person or a view: you think it is right. (быть согласным (с кем-л., с чем-л.))"
+          ],
+          "examples": [
+            "Everyone at the meeting agreed that the deadline was unrealistic.",
+            "I don't agree with him about much, but he was right about the roof."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Reach a common position",
+          "body": [
+            "agree on a matter still being settled: the two of you produce an answer between you. (договориться, прийти к согласию)"
+          ],
+          "examples": [
+            "We finally agreed on a date in early October.",
+            "They couldn't agree where to hold the reception.",
+            "It was agreed that the vote would be taken by secret ballot."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "agree with — suit someone",
+          "body": [
+            "Of food, climate, or hours, and almost always in the negative: to sit well with a person's body. (подходить, идти на пользу (о еде, климате))"
+          ],
+          "examples": [
+            "Shellfish doesn't agree with me.",
+            "The night shift never agreed with him."
+          ]
+        }
+      ],
       "русский": "согласиться — принять предложение или мнение; нейтральный глагол всей группы",
       "register": "neutral",
       "type": "reporting verb — agreement, acceptance of a proposal",
@@ -199,13 +247,51 @@
       "meaning": "",
       "examples": [
         "The city committed to replacing every lead service line within ten years.",
-        "She committed herself to the project before she saw the budget.",
         "Neither side would commit to a date.",
         "They've committed to a full audit, and the letter says so in writing.",
-        "He was committed to finishing the trail before the first snow.",
-        "Don't commit to anything until you've read the second page."
+        "Don't commit to anything until you've read the second page.",
+        "Nobody has been charged with committing the fraud.",
+        "He committed the same error twice on the same page.",
+        "She had committed the whole speech to memory.",
+        "The board committed another two million to the project."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Bind yourself publicly to a course of action",
+          "body": [
+            "The reporting sense, and usually institutional: promise is what a person says to a person, commit is what an organization puts on the record. (обязаться, взять на себя обязательство)"
+          ],
+          "examples": [
+            "The city committed to replacing every lead service line within ten years.",
+            "Neither side would commit to a date.",
+            "They've committed to a full audit, and the letter says so in writing.",
+            "Don't commit to anything until you've read the second page."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Do something wrong",
+          "body": [
+            "The fixed frame commit a crime / a murder / an error, with a plain object and no undertaking at all. (совершить (преступление, ошибку))"
+          ],
+          "examples": [
+            "Nobody has been charged with committing the fraud.",
+            "He committed the same error twice on the same page."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Hand over; set aside; entrust",
+          "body": [
+            "commit to memory, commit to paper, commit funds — to put something irreversibly somewhere. (вверять, передавать; выделять (средства); заучивать)"
+          ],
+          "examples": [
+            "She had committed the whole speech to memory.",
+            "The board committed another two million to the project."
+          ]
+        }
+      ],
       "русский": "обязаться, взять на себя обязательство — обычно публично и от лица организации",
       "register": "neutral, common in business and political writing",
       "type": "reporting verb — undertaking",
@@ -299,9 +385,38 @@
         "Both witnesses declined to be photographed.",
         "She was offered the chairmanship twice and declined both times.",
         "The company declined to confirm the number of layoffs.",
-        "I declined, as politely as I knew how."
+        "I declined, as politely as I knew how.",
+        "Sales declined for a third straight quarter.",
+        "His health declined quickly after the second surgery."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Refuse politely",
+          "body": [
+            "The reporting sense, and the newsroom's verb: declined to comment implies no entitlement to an answer, where refused would. (вежливо отказаться, отклонить)"
+          ],
+          "examples": [
+            "The senator declined to say whether she had spoken to the mayor.",
+            "He declined the invitation but sent flowers.",
+            "Both witnesses declined to be photographed.",
+            "She was offered the chairmanship twice and declined both times.",
+            "The company declined to confirm the number of layoffs.",
+            "I declined, as politely as I knew how."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Fall; get smaller or worse",
+          "body": [
+            "Intransitive, with no speech in it — the verb behind a declining population. (снижаться, падать, идти на убыль)"
+          ],
+          "examples": [
+            "Sales declined for a third straight quarter.",
+            "His health declined quickly after the second surgery."
+          ]
+        }
+      ],
       "русский": "вежливо отказаться, отклонить — учтивый отказ без вызова; станд. в журналистике",
       "register": "formal, polite; standard in journalism",
       "type": "reporting verb — polite refusal",
@@ -416,11 +531,51 @@
         "The shop guarantees that every repair is good for ninety days.",
         "She guaranteed us a full refund if the tour was canceled.",
         "The printer guaranteed to have the programs ready by Thursday morning.",
-        "No coach can guarantee a starting position.",
+        "I can't guarantee that anyone will be in the office on Friday.",
         "He guaranteed the loan personally, which is why the bank agreed to it.",
-        "I can't guarantee that anyone will be in the office on Friday."
+        "Her father guaranteed the lease.",
+        "Rain doesn't guarantee a cancellation.",
+        "No coach can guarantee a starting position.",
+        "A good résumé doesn't guarantee an interview."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Promise with something at stake",
+          "body": [
+            "The reporting sense: promise stakes credibility, guarantee stakes money or a remedy. (гарантировать, обещать с гарантией)"
+          ],
+          "examples": [
+            "The shop guarantees that every repair is good for ninety days.",
+            "She guaranteed us a full refund if the tour was canceled.",
+            "The printer guaranteed to have the programs ready by Thursday morning.",
+            "I can't guarantee that anyone will be in the office on Friday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Stand behind a debt",
+          "body": [
+            "The banking sense: a third party promises to pay if the borrower does not. (поручиться (по кредиту), выступить гарантом)"
+          ],
+          "examples": [
+            "He guaranteed the loan personally, which is why the bank agreed to it.",
+            "Her father guaranteed the lease."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Make certain",
+          "body": [
+            "With a thing as the subject and no promise anywhere: one fact simply makes another inevitable — or, in the negative, does not. (обеспечивать, гарантировать (делать неизбежным))"
+          ],
+          "examples": [
+            "Rain doesn't guarantee a cancellation.",
+            "No coach can guarantee a starting position.",
+            "A good résumé doesn't guarantee an interview."
+          ]
+        }
+      ],
       "русский": "гарантировать — обещать с гарантией: обещание, подкреплённое ответственностью",
       "register": "neutral; commercial and legal",
       "type": "reporting verb — promise with a warranty behind it",
@@ -462,13 +617,51 @@
       "meaning": "",
       "examples": [
         "She offered to look after the dog while we were away.",
-        "They offered him the job on the spot.",
-        "He offered no explanation for the missing hours.",
-        "The airline offered a voucher, which nobody wanted.",
         "I offered to pay half and he wouldn't take it.",
-        "Somebody in the back row finally offered."
+        "Somebody in the back row finally offered.",
+        "They offered him the job on the spot.",
+        "The airline offered a voucher, which nobody wanted.",
+        "She offered us a bed for the night.",
+        "The college offers three courses in Russian.",
+        "He offered no explanation for the missing hours."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Say you are willing to do something",
+          "body": [
+            "offer + to-infinitive always means the subject will be the one acting. (вызваться, предложить (свою помощь))"
+          ],
+          "examples": [
+            "She offered to look after the dog while we were away.",
+            "I offered to pay half and he wouldn't take it.",
+            "Somebody in the back row finally offered."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Put something forward for somebody to take",
+          "body": [
+            "A thing rather than an act: a job, a voucher, a bed for the night. (предлагать (вещь, работу, деньги))"
+          ],
+          "examples": [
+            "They offered him the job on the spot.",
+            "The airline offered a voucher, which nobody wanted.",
+            "She offered us a bed for the night."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Provide; produce",
+          "body": [
+            "With an institution as the subject, offer is simply what is available; with an excuse or an apology as the object, it is what somebody produced. (предоставлять; приводить (объяснение), выражать (соболезнования))"
+          ],
+          "examples": [
+            "The college offers three courses in Russian.",
+            "He offered no explanation for the missing hours."
+          ]
+        }
+      ],
       "русский": "предложить, вызваться — самому предложить услугу или вещь, пока не попросили",
       "register": "neutral",
       "type": "reporting verb — offer",
@@ -585,9 +778,38 @@
         "He rejected the offer as insulting.",
         "The court rejected the argument that the search had been consensual.",
         "Her insurer rejected the claim on a technicality.",
-        "Every proposal we sent was rejected within a week."
+        "Every proposal we sent was rejected within a week.",
+        "The machine kept rejecting the same worn bill.",
+        "Her body rejected the first transplant within a month."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Refuse something formally put forward",
+          "body": [
+            "A verdict on a thing — an offer, a bid, a manuscript, an argument — not on an action. (отвергнуть, отклонить)"
+          ],
+          "examples": [
+            "The journal rejected the paper without sending it out for review.",
+            "Voters rejected the measure by a margin of two to one.",
+            "He rejected the offer as insulting.",
+            "The court rejected the argument that the search had been consensual.",
+            "Her insurer rejected the claim on a technicality.",
+            "Every proposal we sent was rejected within a week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of a machine or a body: refuse to take",
+          "body": [
+            "No decision and no speech: a slot spits the bill back out, an immune system attacks the new organ. (не принимать (о механизме); отторгать (о трансплантате))"
+          ],
+          "examples": [
+            "The machine kept rejecting the same worn bill.",
+            "Her body rejected the first transplant within a month."
+          ]
+        }
+      ],
       "русский": "отвергнуть, отклонить — отказать предмету (предложению, заявке) с оценкой «негодно»",
       "register": "neutral to formal",
       "type": "reporting verb — rejection of a proposal, claim, or application",
@@ -605,13 +827,51 @@
       "meaning": "",
       "examples": [
         "She resolved to say nothing until the lawyer arrived.",
-        "The assembly resolved that no further funds be released.",
         "After the second breakdown, we resolved on selling the car.",
         "He resolved to be at the gym by six every morning, and lasted nine days.",
+        "The assembly resolved that no further funds be released.",
+        "Resolved, that the treasurer's report be accepted as read.",
         "They resolved the dispute without going to court.",
-        "The committee could not resolve how to allocate the remaining seats."
+        "The committee could not resolve how to allocate the remaining seats.",
+        "The ticket was marked resolved without anyone calling her back."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Decide firmly",
+          "body": [
+            "The reporting sense: decide records the choice, resolve records the determination not to go back on it. (твёрдо решить, принять решение)"
+          ],
+          "examples": [
+            "She resolved to say nothing until the lawyer arrived.",
+            "After the second breakdown, we resolved on selling the car.",
+            "He resolved to be at the gym by six every morning, and lasted nine days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of a meeting: pass a formal motion",
+          "body": [
+            "The Resolved, that… of parliamentary minutes, with the mandative subjunctive after it. (постановлять, принимать резолюцию)"
+          ],
+          "examples": [
+            "The assembly resolved that no further funds be released.",
+            "Resolved, that the treasurer's report be accepted as read."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Settle; clear up",
+          "body": [
+            "A dispute, a complaint, a bug. This is the commonest sense in ordinary modern English, and it reports nothing anybody said. (разрешить, урегулировать (спор, проблему))"
+          ],
+          "examples": [
+            "They resolved the dispute without going to court.",
+            "The committee could not resolve how to allocate the remaining seats.",
+            "The ticket was marked resolved without anyone calling her back."
+          ]
+        }
+      ],
       "русский": "твёрдо решить — решимость не отступать; также «постановить» (о собрании, книжн.)",
       "register": "formal, literary and parliamentary",
       "type": "reporting verb — firm decision; formal motion",
@@ -704,10 +964,39 @@
         "She threatened the contractor with a lawsuit and he finished the job that week.",
         "The union threatened a strike for the first day of the season.",
         "They threatened that the case would go to collections.",
+        "Nobody threatened anyone; it was a disagreement about a parking space.",
         "The sky threatened rain all afternoon and never delivered.",
-        "Nobody threatened anyone; it was a disagreement about a parking space."
+        "The flooding threatened two hundred homes downstream.",
+        "A second outage threatened to shut the plant for the week."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Say you will do something the listener does not want",
+          "body": [
+            "The mirror image of promise, and it names the speaker as the source of the harm. (угрожать, грозить (сделать что-л.))"
+          ],
+          "examples": [
+            "He threatened to resign if the report was published.",
+            "She threatened the contractor with a lawsuit and he finished the job that week.",
+            "The union threatened a strike for the first day of the season.",
+            "They threatened that the case would go to collections.",
+            "Nobody threatened anyone; it was a disagreement about a parking space."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Be about to happen; put at risk",
+          "body": [
+            "With a non-human subject — weather, a strike, a disease — threaten reports an omen, not an utterance. (грозить, предвещать; ставить под угрозу)"
+          ],
+          "examples": [
+            "The sky threatened rain all afternoon and never delivered.",
+            "The flooding threatened two hundred homes downstream.",
+            "A second outage threatened to shut the plant for the week."
+          ]
+        }
+      ],
       "русский": "угрожать, пригрозить — зеркало promise: обещание того, что слушателю нежелательно",
       "register": "neutral",
       "type": "reporting verb — threat",

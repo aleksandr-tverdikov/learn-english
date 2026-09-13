@@ -6,14 +6,73 @@
       "term": "open",
       "ipa": "/ˈoʊpən/",
       "respell": "OH-puhn",
-      "meaning": "To make a file, app, or window appear on a screen so you can use it. ---",
+      "meaning": "Open has 4 distinct senses.",
       "examples": [
         "Open the app and sign in with your email.",
         "I opened the attachment and my laptop froze.",
-        "The file is opening - give it a second."
+        "The file is opening - give it a second.",
+        "Open the window; it is hot in here.",
+        "She opened the letter with a kitchen knife.",
+        "The door had been opened from the inside.",
+        "The bakery opens at six in the morning.",
+        "They opened a second store downtown last spring.",
+        "A new clinic is opening on Main Street.",
+        "I want to open a savings account.",
+        "Police opened an investigation into the fire.",
+        "The committee has opened hearings on the crash."
       ],
-      "senses": [],
-      "русский": "открывать, открыть; запускать, запустить (программу)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a file, app, or window appear on a screen so you can use it",
+          "body": [
+            "(открывать, открыть; запускать, запустить (программу))"
+          ],
+          "examples": [
+            "Open the app and sign in with your email.",
+            "I opened the attachment and my laptop froze.",
+            "The file is opening - give it a second."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move a door, lid, or container so that it is no longer closed",
+          "body": [
+            "(открывать, открыть (дверь, окно, коробку))"
+          ],
+          "examples": [
+            "Open the window; it is hot in here.",
+            "She opened the letter with a kitchen knife.",
+            "The door had been opened from the inside."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To begin business for the day, or to become available to the public",
+          "body": [
+            "(открываться (о магазине), начинать работу; открывать (заведение))"
+          ],
+          "examples": [
+            "The bakery opens at six in the morning.",
+            "They opened a second store downtown last spring.",
+            "A new clinic is opening on Main Street."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To start something official, such as an account or an investigation",
+          "body": [
+            "(открывать (счёт), заводить (дело), начинать (расследование))",
+            "---"
+          ],
+          "examples": [
+            "I want to open a savings account.",
+            "Police opened an investigation into the fire.",
+            "The committee has opened hearings on the crash."
+          ]
+        }
+      ],
+      "русский": "открывать, открыть; запускать, запустить (программу); открывать, открыть (дверь, окно, коробку); открываться (о магазине), начинать работу; открывать (заведение); открывать (счёт), заводить (дело), начинать (расследование)",
       "forms": "open · opened · opened",
       "verb class": "regular",
       "third person": "opens · -ing form: opening",
@@ -25,14 +84,58 @@
       "term": "close",
       "ipa": "/kloʊz/",
       "respell": "KLOHZ",
-      "meaning": "To make a file, window, or program stop being open. ---",
+      "meaning": "Close has 3 distinct senses.",
       "examples": [
         "Close the other tabs to speed up the browser.",
         "He closed the laptop without saving the file.",
-        "The app keeps closing on its own."
+        "The app keeps closing on its own.",
+        "The pharmacy closes at nine.",
+        "The factory closed in 2008 and never reopened.",
+        "Three branches have closed since January.",
+        "A good agent can close almost any sale.",
+        "We closed on the house in June.",
+        "The deal was closed late Friday afternoon."
       ],
-      "senses": [],
-      "русский": "закрывать, закрыть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a file, window, or program stop being open",
+          "body": [
+            "(закрывать, закрыть)"
+          ],
+          "examples": [
+            "Close the other tabs to speed up the browser.",
+            "He closed the laptop without saving the file.",
+            "The app keeps closing on its own."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of a store or a business, to stop serving customers for the day, or to shut down for good",
+          "body": [
+            "(закрываться, закрыться (о магазине, предприятии))"
+          ],
+          "examples": [
+            "The pharmacy closes at nine.",
+            "The factory closed in 2008 and never reopened.",
+            "Three branches have closed since January."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To finish and settle a sale or a business deal",
+          "body": [
+            "(заключать, заключить (сделку); закрывать сделку)",
+            "---"
+          ],
+          "examples": [
+            "A good agent can close almost any sale.",
+            "We closed on the house in June.",
+            "The deal was closed late Friday afternoon."
+          ]
+        }
+      ],
+      "русский": "закрывать, закрыть; закрываться, закрыться (о магазине, предприятии); заключать, заключить (сделку); закрывать сделку",
       "forms": "close · closed · closed",
       "verb class": "regular",
       "third person": "closes · -ing form: closing",
@@ -44,14 +147,43 @@
       "term": "minimize",
       "ipa": "/ˈmɪnɪmaɪz/",
       "respell": "MIN-uh-myz",
-      "meaning": "To shrink a window down to the taskbar without closing it. ---",
+      "meaning": "Minimize has 2 distinct senses.",
       "examples": [
         "Minimize the window instead of closing it.",
         "She minimized the chat and went back to her spreadsheet.",
-        "He was minimizing every window one by one."
+        "He was minimizing every window one by one.",
+        "Don't minimize what she went through.",
+        "The company minimized the risks in its first statement.",
+        "He has a habit of minimizing his own achievements."
       ],
-      "senses": [],
-      "русский": "сворачивать, свернуть (окно); минимизировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To shrink a window down to the taskbar without closing it",
+          "body": [
+            "(сворачивать, свернуть (окно); минимизировать)"
+          ],
+          "examples": [
+            "Minimize the window instead of closing it.",
+            "She minimized the chat and went back to her spreadsheet.",
+            "He was minimizing every window one by one."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make something seem less important or less serious than it really is",
+          "body": [
+            "(преуменьшать, преуменьшить (значение); приуменьшать)",
+            "---"
+          ],
+          "examples": [
+            "Don't minimize what she went through.",
+            "The company minimized the risks in its first statement.",
+            "He has a habit of minimizing his own achievements."
+          ]
+        }
+      ],
+      "русский": "сворачивать, свернуть (окно); минимизировать; преуменьшать, преуменьшить (значение); приуменьшать",
       "forms": "minimize · minimized · minimized",
       "verb class": "regular",
       "third person": "minimizes · -ing form: minimizing",
@@ -96,14 +228,43 @@
       "term": "reload",
       "ipa": "/ˌriːˈloʊd/",
       "respell": "ree-LOHD",
-      "meaning": "To load a page or a file again. ---",
+      "meaning": "Reload has 2 distinct senses.",
       "examples": [
         "Reload the page if the video will not play.",
         "The browser reloaded and lost everything I had typed.",
-        "It has been reloading for two minutes."
+        "It has been reloading for two minutes.",
+        "He had to reload after six shots.",
+        "She reloaded and fired again.",
+        "The soldier was reloading behind the wall."
       ],
-      "senses": [],
-      "русский": "перезагружать, перезагрузить (страницу); загружать заново",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To load a page or a file again",
+          "body": [
+            "(перезагружать, перезагрузить (страницу); загружать заново)"
+          ],
+          "examples": [
+            "Reload the page if the video will not play.",
+            "The browser reloaded and lost everything I had typed.",
+            "It has been reloading for two minutes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put more ammunition into a gun",
+          "body": [
+            "(перезаряжать, перезарядить (оружие))",
+            "---"
+          ],
+          "examples": [
+            "He had to reload after six shots.",
+            "She reloaded and fired again.",
+            "The soldier was reloading behind the wall."
+          ]
+        }
+      ],
+      "русский": "перезагружать, перезагрузить (страницу); загружать заново; перезаряжать, перезарядить (оружие)",
       "forms": "reload · reloaded · reloaded",
       "verb class": "regular",
       "third person": "reloads · -ing form: reloading",
@@ -149,14 +310,58 @@
       "term": "extract",
       "ipa": "/ɪkˈstrækt/",
       "respell": "ik-STRAKT",
-      "meaning": "To pull files or data out of an archive or a larger set. ---",
+      "meaning": "Extract has 3 distinct senses.",
       "examples": [
         "Extract the folder to your desktop.",
         "The tool extracted every email address from the page.",
-        "It is extracting three thousand files."
+        "It is extracting three thousand files.",
+        "The dentist had to extract two teeth.",
+        "She extracted a splinter from his thumb with tweezers.",
+        "Oil is extracted from the seeds by pressing them.",
+        "Detectives spent all night trying to extract a confession.",
+        "He extracted a promise that she would call before midnight.",
+        "The statement was extracted under pressure and later thrown out."
       ],
-      "senses": [],
-      "русский": "извлекать, извлечь; распаковывать, распаковать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pull files or data out of an archive or a larger set",
+          "body": [
+            "(извлекать, извлечь; распаковывать, распаковать)"
+          ],
+          "examples": [
+            "Extract the folder to your desktop.",
+            "The tool extracted every email address from the page.",
+            "It is extracting three thousand files."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To pull something out with effort, or to get a substance out of a plant or the ground",
+          "body": [
+            "(извлекать, извлечь; удалять (зуб); добывать, добыть)"
+          ],
+          "examples": [
+            "The dentist had to extract two teeth.",
+            "She extracted a splinter from his thumb with tweezers.",
+            "Oil is extracted from the seeds by pressing them."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To get information, money, or a promise out of someone who does not want to give it",
+          "body": [
+            "(выпытывать, выуживать; вырывать, вырвать (признание))",
+            "---"
+          ],
+          "examples": [
+            "Detectives spent all night trying to extract a confession.",
+            "He extracted a promise that she would call before midnight.",
+            "The statement was extracted under pressure and later thrown out."
+          ]
+        }
+      ],
+      "русский": "извлекать, извлечь; распаковывать, распаковать; извлекать, извлечь; удалять (зуб); добывать, добыть; выпытывать, выуживать; вырывать, вырвать (признание)",
       "forms": "extract · extracted · extracted",
       "verb class": "regular",
       "third person": "extracts · -ing form: extracting",
@@ -201,14 +406,43 @@
       "term": "index",
       "ipa": "/ˈɪndɛks/",
       "respell": "IN-deks",
-      "meaning": "To list and organize data so that it can be searched quickly. ---",
+      "meaning": "Index has 2 distinct senses.",
       "examples": [
         "Search engines index millions of pages a day.",
         "Google indexed the new site within a week.",
-        "The database is still indexing."
+        "The database is still indexing.",
+        "The contract indexes wages to the consumer price index.",
+        "Congress indexed the credit to the cost of living.",
+        "Benefits are indexed to inflation every January."
       ],
-      "senses": [],
-      "русский": "индексировать, проиндексировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To list and organize data so that it can be searched quickly",
+          "body": [
+            "(индексировать, проиндексировать)"
+          ],
+          "examples": [
+            "Search engines index millions of pages a day.",
+            "Google indexed the new site within a week.",
+            "The database is still indexing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To tie a payment or a rate to the level of prices or to another measure",
+          "body": [
+            "(индексировать, проиндексировать (привязывать к инфляции))",
+            "---"
+          ],
+          "examples": [
+            "The contract indexes wages to the consumer price index.",
+            "Congress indexed the credit to the cost of living.",
+            "Benefits are indexed to inflation every January."
+          ]
+        }
+      ],
+      "русский": "индексировать, проиндексировать; индексировать, проиндексировать (привязывать к инфляции)",
       "forms": "index · indexed · indexed",
       "verb class": "regular",
       "third person": "indexes · -ing form: indexing",
@@ -219,14 +453,43 @@
       "term": "query",
       "ipa": "/ˈkwɪri/",
       "respell": "KWEER-ee",
-      "meaning": "To ask a database or a system for particular information. ---",
+      "meaning": "Query has 2 distinct senses.",
       "examples": [
         "You can query the database straight from the browser.",
         "He queried the server and got an empty result.",
-        "The script is querying three tables at once."
+        "The script is querying three tables at once.",
+        "She queried the extra charge on her bill.",
+        "If a number looks off, query it before you sign anything.",
+        "Two of the figures have been queried by the auditor."
       ],
-      "senses": [],
-      "русский": "запрашивать, запросить; делать запрос",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To ask a database or a system for particular information",
+          "body": [
+            "(запрашивать, запросить; делать запрос)"
+          ],
+          "examples": [
+            "You can query the database straight from the browser.",
+            "He queried the server and got an empty result.",
+            "The script is querying three tables at once."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To ask a question about something because you think it may be wrong",
+          "body": [
+            "(спрашивать, ставить под сомнение; оспаривать (счёт, цифры))",
+            "---"
+          ],
+          "examples": [
+            "She queried the extra charge on her bill.",
+            "If a number looks off, query it before you sign anything.",
+            "Two of the figures have been queried by the auditor."
+          ]
+        }
+      ],
+      "русский": "запрашивать, запросить; делать запрос; спрашивать, ставить под сомнение; оспаривать (счёт, цифры)",
       "forms": "query · queried · queried",
       "verb class": "regular",
       "third person": "queries · -ing form: querying",
@@ -237,14 +500,43 @@
       "term": "cache",
       "ipa": "/kæʃ/",
       "respell": "KASH",
-      "meaning": "To store data for a short time so that it loads faster the next time. ---",
+      "meaning": "Cache has 2 distinct senses.",
       "examples": [
         "Browsers cache images to save time.",
         "The page was cached, so I saw yesterday's price.",
-        "The app is caching the whole playlist."
+        "The app is caching the whole playlist.",
+        "Squirrels cache nuts all over the yard.",
+        "He cached a spare key under the porch.",
+        "The rebels had cached weapons in the hills."
       ],
-      "senses": [],
-      "русский": "кэшировать, закэшировать; сохранять в кэш",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To store data for a short time so that it loads faster the next time",
+          "body": [
+            "(кэшировать, закэшировать; сохранять в кэш)"
+          ],
+          "examples": [
+            "Browsers cache images to save time.",
+            "The page was cached, so I saw yesterday's price.",
+            "The app is caching the whole playlist."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To hide a supply of something in a safe or secret place",
+          "body": [
+            "(прятать, припрятать (запас); закладывать в тайник)",
+            "---"
+          ],
+          "examples": [
+            "Squirrels cache nuts all over the yard.",
+            "He cached a spare key under the porch.",
+            "The rebels had cached weapons in the hills."
+          ]
+        }
+      ],
+      "русский": "кэшировать, закэшировать; сохранять в кэш; прятать, припрятать (запас); закладывать в тайник",
       "forms": "cache · cached · cached",
       "verb class": "regular",
       "third person": "caches · -ing form: caching",
@@ -255,14 +547,43 @@
       "term": "embed",
       "ipa": "/ɪmˈbɛd/",
       "respell": "im-BED",
-      "meaning": "To put a video, a map, or a piece of code inside a page or a document. ---",
+      "meaning": "Embed has 2 distinct senses.",
       "examples": [
         "You can embed the video right in the post.",
         "She embedded a map on the contact page.",
-        "He is embedding the font in the file."
+        "He is embedding the font in the file.",
+        "A piece of glass was embedded in his heel.",
+        "The bullet embedded itself in the door frame.",
+        "Workers embed steel bars in the concrete before it sets."
       ],
-      "senses": [],
-      "русский": "встраивать, встроить (видео, код)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put a video, a map, or a piece of code inside a page or a document",
+          "body": [
+            "(встраивать, встроить (видео, код))"
+          ],
+          "examples": [
+            "You can embed the video right in the post.",
+            "She embedded a map on the contact page.",
+            "He is embedding the font in the file."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fix something firmly into a surrounding material or surface",
+          "body": [
+            "(вставлять, вделывать, закреплять (внутри чего-л.); застревать, засесть)",
+            "---"
+          ],
+          "examples": [
+            "A piece of glass was embedded in his heel.",
+            "The bullet embedded itself in the door frame.",
+            "Workers embed steel bars in the concrete before it sets."
+          ]
+        }
+      ],
+      "русский": "встраивать, встроить (видео, код); вставлять, вделывать, закреплять (внутри чего-л.); застревать, засесть",
       "forms": "embed · embedded · embedded",
       "verb class": "regular",
       "third person": "embeds · -ing form: embedding",
@@ -309,14 +630,43 @@
       "term": "reconnect",
       "ipa": "/ˌriːkəˈnɛkt/",
       "respell": "ree-kuh-NEKT",
-      "meaning": "To join a device or a call back to a network after it was cut off. ---",
+      "meaning": "Reconnect has 2 distinct senses.",
       "examples": [
         "Try to reconnect to the other network.",
         "He reconnected the printer and it worked again.",
-        "The app is reconnecting."
+        "The app is reconnecting.",
+        "He went home hoping to reconnect with his brother.",
+        "They reconnected at a class reunion after twenty years.",
+        "She has reconnected with several old friends online."
       ],
-      "senses": [],
-      "русский": "переподключать, переподключить; снова соединять, соединиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To join a device or a call back to a network after it was cut off",
+          "body": [
+            "(переподключать, переподключить; снова соединять, соединиться)"
+          ],
+          "examples": [
+            "Try to reconnect to the other network.",
+            "He reconnected the printer and it worked again.",
+            "The app is reconnecting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To build a friendship or a family tie again after a long time apart",
+          "body": [
+            "(восстанавливать связь, снова сблизиться, наладить отношения)",
+            "---"
+          ],
+          "examples": [
+            "He went home hoping to reconnect with his brother.",
+            "They reconnected at a class reunion after twenty years.",
+            "She has reconnected with several old friends online."
+          ]
+        }
+      ],
+      "русский": "переподключать, переподключить; снова соединять, соединиться; восстанавливать связь, снова сблизиться, наладить отношения",
       "forms": "reconnect · reconnected · reconnected",
       "verb class": "regular",
       "third person": "reconnects · -ing form: reconnecting",
@@ -344,14 +694,43 @@
       "term": "recharge",
       "ipa": "/ˌriːˈtʃɑːrdʒ/",
       "respell": "ree-CHARJ",
-      "meaning": "To fill a battery with power again. ---",
+      "meaning": "Recharge has 2 distinct senses.",
       "examples": [
         "Recharge the battery overnight.",
         "I recharged the headphones in the car.",
-        "The power bank is recharging."
+        "The power bank is recharging.",
+        "I need a few days off to recharge.",
+        "She recharged over the long weekend.",
+        "He came back from the trip completely recharged."
       ],
-      "senses": [],
-      "русский": "перезаряжать, перезарядить; подзаряжать, подзарядить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fill a battery with power again",
+          "body": [
+            "(перезаряжать, перезарядить; подзаряжать, подзарядить)"
+          ],
+          "examples": [
+            "Recharge the battery overnight.",
+            "I recharged the headphones in the car.",
+            "The power bank is recharging."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To rest until you get your energy back",
+          "body": [
+            "(восстанавливать силы, отдыхать, набраться сил)",
+            "---"
+          ],
+          "examples": [
+            "I need a few days off to recharge.",
+            "She recharged over the long weekend.",
+            "He came back from the trip completely recharged."
+          ]
+        }
+      ],
+      "русский": "перезаряжать, перезарядить; подзаряжать, подзарядить; восстанавливать силы, отдыхать, набраться сил",
       "forms": "recharge · recharged · recharged",
       "verb class": "regular",
       "third person": "recharges · -ing form: recharging",
@@ -400,14 +779,43 @@
       "term": "boot",
       "ipa": "/buːt/",
       "respell": "BOOT",
-      "meaning": "To start a computer so that the operating system loads. ---",
+      "meaning": "Boot has 2 distinct senses.",
       "examples": [
         "The old tower takes a full minute to boot.",
         "He booted the laptop from a USB stick.",
-        "The machine is still booting."
+        "The machine is still booting.",
+        "The kicker booted a 48-yard field goal.",
+        "He boots the ball farther than anyone on the team.",
+        "She was booting an empty can along the sidewalk."
       ],
-      "senses": [],
-      "русский": "загружаться, загрузиться (о компьютере); загружать систему",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To start a computer so that the operating system loads",
+          "body": [
+            "(загружаться, загрузиться (о компьютере); загружать систему)"
+          ],
+          "examples": [
+            "The old tower takes a full minute to boot.",
+            "He booted the laptop from a USB stick.",
+            "The machine is still booting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To kick something hard",
+          "body": [
+            "(пинать, пнуть; сильно ударять ногой)",
+            "---"
+          ],
+          "examples": [
+            "The kicker booted a 48-yard field goal.",
+            "He boots the ball farther than anyone on the team.",
+            "She was booting an empty can along the sidewalk."
+          ]
+        }
+      ],
+      "русский": "загружаться, загрузиться (о компьютере); загружать систему; пинать, пнуть; сильно ударять ногой",
       "forms": "boot · booted · booted",
       "verb class": "regular",
       "third person": "boots · -ing form: booting",
@@ -418,14 +826,43 @@
       "term": "reboot",
       "ipa": "/ˌriːˈbuːt/",
       "respell": "ree-BOOT",
-      "meaning": "To start a computer or device again after shutting it down. ---",
+      "meaning": "Reboot has 2 distinct senses.",
       "examples": [
         "Reboot the router and try again.",
         "I rebooted the laptop three times.",
-        "The server is rebooting."
+        "The server is rebooting.",
+        "The studio plans to reboot the franchise next year.",
+        "They rebooted the series with a much younger cast.",
+        "The show is being rebooted for a streaming service."
       ],
-      "senses": [],
-      "русский": "перезагружать, перезагрузить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To start a computer or device again after shutting it down",
+          "body": [
+            "(перезагружать, перезагрузить)"
+          ],
+          "examples": [
+            "Reboot the router and try again.",
+            "I rebooted the laptop three times.",
+            "The server is rebooting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To start a movie or TV series over with a new cast and a new version of the story",
+          "body": [
+            "(перезапускать, перезапустить (франшизу, сериал))",
+            "---"
+          ],
+          "examples": [
+            "The studio plans to reboot the franchise next year.",
+            "They rebooted the series with a much younger cast.",
+            "The show is being rebooted for a streaming service."
+          ]
+        }
+      ],
+      "русский": "перезагружать, перезагрузить; перезапускать, перезапустить (франшизу, сериал)",
       "forms": "reboot · rebooted · rebooted",
       "verb class": "regular",
       "third person": "reboots · -ing form: rebooting",
@@ -487,14 +924,43 @@
       "term": "lag",
       "ipa": "/læɡ/",
       "respell": "LAG",
-      "meaning": "To respond slowly, so that the picture or the sound falls behind. ---",
+      "meaning": "Lag has 2 distinct senses.",
       "examples": [
         "The video will lag on this connection.",
         "The audio lagged about half a second behind.",
-        "My screen is lagging badly today."
+        "My screen is lagging badly today.",
+        "US students lag behind much of the world in math.",
+        "Sales lagged all through the spring.",
+        "Wages have lagged behind prices for a decade."
       ],
-      "senses": [],
-      "русский": "тормозить, подтормаживать; отставать, отстать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To respond slowly, so that the picture or the sound falls behind",
+          "body": [
+            "(тормозить, подтормаживать; отставать, отстать)"
+          ],
+          "examples": [
+            "The video will lag on this connection.",
+            "The audio lagged about half a second behind.",
+            "My screen is lagging badly today."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fall behind other people or things in progress or development",
+          "body": [
+            "(отставать, отстать (по уровню, показателям))",
+            "---"
+          ],
+          "examples": [
+            "US students lag behind much of the world in math.",
+            "Sales lagged all through the spring.",
+            "Wages have lagged behind prices for a decade."
+          ]
+        }
+      ],
+      "русский": "тормозить, подтормаживать; отставать, отстать; отставать, отстать (по уровню, показателям)",
       "forms": "lag · lagged · lagged",
       "verb class": "regular",
       "third person": "lags · -ing form: lagging",
@@ -506,14 +972,43 @@
       "term": "transmit",
       "ipa": "/trænsˈmɪt/",
       "respell": "trans-MIT",
-      "meaning": "To send data or a signal from one place to another. ---",
+      "meaning": "Transmit has 2 distinct senses.",
       "examples": [
         "The sensor can transmit data over a mile.",
         "The station transmitted the warning at noon.",
-        "The device has been transmitting all night."
+        "The device has been transmitting all night.",
+        "Mosquitoes transmit the virus to humans.",
+        "The infection was transmitted through contaminated water.",
+        "Masks reduce the risk of transmitting the flu at work."
       ],
-      "senses": [],
-      "русский": "передавать, передать (сигнал, данные)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To send data or a signal from one place to another",
+          "body": [
+            "(передавать, передать (сигнал, данные))"
+          ],
+          "examples": [
+            "The sensor can transmit data over a mile.",
+            "The station transmitted the warning at noon.",
+            "The device has been transmitting all night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To pass a disease from one person or animal to another",
+          "body": [
+            "(передавать, передать (инфекцию))",
+            "---"
+          ],
+          "examples": [
+            "Mosquitoes transmit the virus to humans.",
+            "The infection was transmitted through contaminated water.",
+            "Masks reduce the risk of transmitting the flu at work."
+          ]
+        }
+      ],
+      "русский": "передавать, передать (сигнал, данные); передавать, передать (инфекцию)",
       "forms": "transmit · transmitted · transmitted",
       "verb class": "regular",
       "third person": "transmits · -ing form: transmitting",
@@ -559,14 +1054,43 @@
       "term": "mirror",
       "ipa": "/ˈmɪrər/",
       "respell": "MEER-ur",
-      "meaning": "To show the picture from one screen on another, or to keep an identical copy of data. ---",
+      "meaning": "Mirror has 2 distinct senses.",
       "examples": [
         "You can mirror your phone to the TV.",
         "He mirrored the laptop screen onto the projector.",
-        "The second drive is mirroring everything in real time."
+        "The second drive is mirroring everything in real time.",
+        "The state numbers mirror the national trend.",
+        "His career mirrored his father's almost exactly.",
+        "The mood in the room was mirrored in the voting."
       ],
-      "senses": [],
-      "русский": "дублировать (экран), зеркалировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To show the picture from one screen on another, or to keep an identical copy of data",
+          "body": [
+            "(дублировать (экран), зеркалировать)"
+          ],
+          "examples": [
+            "You can mirror your phone to the TV.",
+            "He mirrored the laptop screen onto the projector.",
+            "The second drive is mirroring everything in real time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be very similar to something else, or to reflect it closely",
+          "body": [
+            "(отражать, отразить; повторять (в точности))",
+            "---"
+          ],
+          "examples": [
+            "The state numbers mirror the national trend.",
+            "His career mirrored his father's almost exactly.",
+            "The mood in the room was mirrored in the voting."
+          ]
+        }
+      ],
+      "русский": "дублировать (экран), зеркалировать; отражать, отразить; повторять (в точности)",
       "forms": "mirror · mirrored · mirrored",
       "verb class": "regular",
       "third person": "mirrors · -ing form: mirroring",
@@ -576,14 +1100,43 @@
       "term": "tether",
       "ipa": "/ˈtɛðər/",
       "respell": "TETH-ur",
-      "meaning": "To connect a computer to the internet through a phone's data connection. ---",
+      "meaning": "Tether has 2 distinct senses.",
       "examples": [
         "You can tether the laptop to your phone.",
         "He tethered for a week while the cable was out.",
-        "She is tethering from her phone right now."
+        "She is tethering from her phone right now.",
+        "The goat was tethered to a post behind the barn.",
+        "They tether the boats to iron rings on the dock.",
+        "He tethered the horse and went inside."
       ],
-      "senses": [],
-      "русский": "раздавать интернет с телефона, использовать телефон как модем",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To connect a computer to the internet through a phone's data connection",
+          "body": [
+            "(раздавать интернет с телефона, использовать телефон как модем)"
+          ],
+          "examples": [
+            "You can tether the laptop to your phone.",
+            "He tethered for a week while the cable was out.",
+            "She is tethering from her phone right now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To tie an animal or an object to a fixed point with a rope or a chain",
+          "body": [
+            "(привязывать, привязать (на привязь))",
+            "---"
+          ],
+          "examples": [
+            "The goat was tethered to a post behind the barn.",
+            "They tether the boats to iron rings on the dock.",
+            "He tethered the horse and went inside."
+          ]
+        }
+      ],
+      "русский": "раздавать интернет с телефона, использовать телефон как модем; привязывать, привязать (на привязь)",
       "forms": "tether · tethered · tethered",
       "verb class": "regular",
       "third person": "tethers · -ing form: tethering",
@@ -629,14 +1182,43 @@
       "term": "downgrade",
       "ipa": "/ˈdaʊnɡreɪd/",
       "respell": "DOWN-grayd",
-      "meaning": "To move to a lower, cheaper, or older version of software or a plan. ---",
+      "meaning": "Downgrade has 2 distinct senses.",
       "examples": [
         "You can downgrade the plan at any time.",
         "He downgraded to the free account.",
-        "They are downgrading the software to last year's build."
+        "They are downgrading the software to last year's build.",
+        "Forecasters downgraded the hurricane to a tropical storm.",
+        "Analysts may downgrade the stock after the earnings call.",
+        "The agency has downgraded the country's credit rating twice."
       ],
-      "senses": [],
-      "русский": "понижать версию, понизить; переходить на более дешёвый тариф",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move to a lower, cheaper, or older version of software or a plan",
+          "body": [
+            "(понижать версию, понизить; переходить на более дешёвый тариф)"
+          ],
+          "examples": [
+            "You can downgrade the plan at any time.",
+            "He downgraded to the free account.",
+            "They are downgrading the software to last year's build."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To lower the official rank, rating, or classification of something",
+          "body": [
+            "(понижать, понизить (в рейтинге, в категории))",
+            "---"
+          ],
+          "examples": [
+            "Forecasters downgraded the hurricane to a tropical storm.",
+            "Analysts may downgrade the stock after the earnings call.",
+            "The agency has downgraded the country's credit rating twice."
+          ]
+        }
+      ],
+      "русский": "понижать версию, понизить; переходить на более дешёвый тариф; понижать, понизить (в рейтинге, в категории)",
       "forms": "downgrade · downgraded · downgraded",
       "verb class": "regular",
       "third person": "downgrades · -ing form: downgrading",
@@ -665,14 +1247,43 @@
       "term": "simulate",
       "ipa": "/ˈsɪmjəleɪt/",
       "respell": "SIM-yuh-layt",
-      "meaning": "To use a computer to copy the way something works in real life. ---",
+      "meaning": "Simulate has 2 distinct senses.",
       "examples": [
         "The program can simulate a whole flight.",
         "They simulated the crash a thousand times.",
-        "The lab is simulating next week's storm."
+        "The lab is simulating next week's storm.",
+        "He simulated surprise when they brought out the cake.",
+        "It is hard to simulate enthusiasm you don't feel.",
+        "She was simulating interest in his golf stories."
       ],
-      "senses": [],
-      "русский": "моделировать, смоделировать; имитировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To use a computer to copy the way something works in real life",
+          "body": [
+            "(моделировать, смоделировать; имитировать)"
+          ],
+          "examples": [
+            "The program can simulate a whole flight.",
+            "They simulated the crash a thousand times.",
+            "The lab is simulating next week's storm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To pretend to have a feeling or a condition that you do not really have",
+          "body": [
+            "(симулировать, изображать, притворяться)",
+            "---"
+          ],
+          "examples": [
+            "He simulated surprise when they brought out the cake.",
+            "It is hard to simulate enthusiasm you don't feel.",
+            "She was simulating interest in his golf stories."
+          ]
+        }
+      ],
+      "русский": "моделировать, смоделировать; имитировать; симулировать, изображать, притворяться",
       "forms": "simulate · simulated · simulated",
       "verb class": "regular",
       "third person": "simulates · -ing form: simulating",
@@ -682,14 +1293,43 @@
       "term": "emulate",
       "ipa": "/ˈɛmjəleɪt/",
       "respell": "EM-yuh-layt",
-      "meaning": "To make one system behave exactly like another. ---",
+      "meaning": "Emulate has 2 distinct senses.",
       "examples": [
         "This app can emulate an old game console.",
         "The software emulated Windows well enough to run the program.",
-        "It is emulating a printer that no longer exists."
+        "It is emulating a printer that no longer exists.",
+        "Younger players try to emulate his footwork.",
+        "She emulated her older sister in everything.",
+        "He has spent years emulating his father's work ethic."
       ],
-      "senses": [],
-      "русский": "эмулировать; имитировать работу (другой системы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make one system behave exactly like another",
+          "body": [
+            "(эмулировать; имитировать работу (другой системы))"
+          ],
+          "examples": [
+            "This app can emulate an old game console.",
+            "The software emulated Windows well enough to run the program.",
+            "It is emulating a printer that no longer exists."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To try to do as well as someone you admire by copying the way they do things",
+          "body": [
+            "(подражать; следовать примеру, равняться (на кого-л.))",
+            "---"
+          ],
+          "examples": [
+            "Younger players try to emulate his footwork.",
+            "She emulated her older sister in everything.",
+            "He has spent years emulating his father's work ethic."
+          ]
+        }
+      ],
+      "русский": "эмулировать; имитировать работу (другой системы); подражать; следовать примеру, равняться (на кого-л.)",
       "forms": "emulate · emulated · emulated",
       "verb class": "regular",
       "third person": "emulates · -ing form: emulating",
@@ -734,14 +1374,43 @@
       "term": "scale",
       "ipa": "/skeɪl/",
       "respell": "SKAYL",
-      "meaning": "To change something in size, or to grow so as to handle much more work. ---",
+      "meaning": "Scale has 2 distinct senses.",
       "examples": [
         "The design has to scale to any screen size.",
         "They scaled the service to ten million users.",
-        "The company is scaling faster than it can hire."
+        "The company is scaling faster than it can hire.",
+        "Few climbers scale that face in winter.",
+        "They scaled the fence in about three seconds.",
+        "She has scaled every major peak in the state."
       ],
-      "senses": [],
-      "русский": "масштабировать; расширять, расширить (до больших объёмов)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To change something in size, or to grow so as to handle much more work",
+          "body": [
+            "(масштабировать; расширять, расширить (до больших объёмов))"
+          ],
+          "examples": [
+            "The design has to scale to any screen size.",
+            "They scaled the service to ten million users.",
+            "The company is scaling faster than it can hire."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To climb up something high and steep",
+          "body": [
+            "(взбираться, взобраться; покорять, покорить (вершину))",
+            "---"
+          ],
+          "examples": [
+            "Few climbers scale that face in winter.",
+            "They scaled the fence in about three seconds.",
+            "She has scaled every major peak in the state."
+          ]
+        }
+      ],
+      "русский": "масштабировать; расширять, расширить (до больших объёмов); взбираться, взобраться; покорять, покорить (вершину)",
       "forms": "scale · scaled · scaled",
       "verb class": "regular",
       "third person": "scales · -ing form: scaling",
@@ -875,14 +1544,58 @@
       "term": "validate",
       "ipa": "/ˈvælɪdeɪt/",
       "respell": "VAL-uh-dayt",
-      "meaning": "To check that data or a document is correct and acceptable. ---",
+      "meaning": "Validate has 3 distinct senses.",
       "examples": [
         "The form will validate the email address.",
         "The system validated the card and charged it.",
-        "It is validating the file against the template."
+        "It is validating the file against the template.",
+        "A good friend will validate your feelings instead of arguing with them.",
+        "Her therapist validated what she had been going through for years.",
+        "He just wanted to feel validated, not fixed.",
+        "Does the restaurant validate parking?",
+        "The front desk validated our ticket, so the garage was free.",
+        "Bring your stub to the counter to have it validated."
       ],
-      "senses": [],
-      "русский": "проверять (на корректность), проверить; подтверждать, подтвердить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To check that data or a document is correct and acceptable",
+          "body": [
+            "(проверять (на корректность), проверить; подтверждать, подтвердить)"
+          ],
+          "examples": [
+            "The form will validate the email address.",
+            "The system validated the card and charged it.",
+            "It is validating the file against the template."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To show someone that their feelings or their experience are reasonable and worth taking seriously",
+          "body": [
+            "(признавать обоснованность (чувств), поддерживать)"
+          ],
+          "examples": [
+            "A good friend will validate your feelings instead of arguing with them.",
+            "Her therapist validated what she had been going through for years.",
+            "He just wanted to feel validated, not fixed."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To stamp or mark a parking ticket so that the customer pays less or nothing",
+          "body": [
+            "(подтверждать парковочный талон, отмечать талон)",
+            "---"
+          ],
+          "examples": [
+            "Does the restaurant validate parking?",
+            "The front desk validated our ticket, so the garage was free.",
+            "Bring your stub to the counter to have it validated."
+          ]
+        }
+      ],
+      "русский": "проверять (на корректность), проверить; подтверждать, подтвердить; признавать обоснованность (чувств), поддерживать; подтверждать парковочный талон, отмечать талон",
       "forms": "validate · validated · validated",
       "verb class": "regular",
       "third person": "validates · -ing form: validating",
@@ -892,14 +1605,43 @@
       "term": "lock",
       "ipa": "/lɑːk/",
       "respell": "LAHK",
-      "meaning": "To stop something from being used or changed without a key, a code, or a password. ---",
+      "meaning": "Lock has 2 distinct senses.",
       "examples": [
         "Lock your screen when you leave the desk.",
         "He locked the file so that nobody could edit it.",
-        "The phone is locking itself every thirty seconds."
+        "The phone is locking itself every thirty seconds.",
+        "Push the shelf down until the brackets lock into place.",
+        "The brakes locked and the car slid sideways.",
+        "The tray table is locked in the upright position."
       ],
-      "senses": [],
-      "русский": "блокировать, заблокировать (экран); запирать, запереть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To stop something from being used or changed without a key, a code, or a password",
+          "body": [
+            "(блокировать, заблокировать (экран); запирать, запереть)"
+          ],
+          "examples": [
+            "Lock your screen when you leave the desk.",
+            "He locked the file so that nobody could edit it.",
+            "The phone is locking itself every thirty seconds."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To become fixed firmly in one position so that it cannot move",
+          "body": [
+            "(фиксироваться, зафиксироваться; заклинивать, заклинить)",
+            "---"
+          ],
+          "examples": [
+            "Push the shelf down until the brackets lock into place.",
+            "The brakes locked and the car slid sideways.",
+            "The tray table is locked in the upright position."
+          ]
+        }
+      ],
+      "русский": "блокировать, заблокировать (экран); запирать, запереть; фиксироваться, зафиксироваться; заклинивать, заклинить",
       "forms": "lock · locked · locked",
       "verb class": "regular",
       "third person": "locks · -ing form: locking",
@@ -961,14 +1703,43 @@
       "term": "enable",
       "ipa": "/ɪˈneɪbəl/",
       "respell": "ih-NAY-buhl",
-      "meaning": "To turn a setting or a feature on. ---",
+      "meaning": "Enable has 2 distinct senses.",
       "examples": [
         "Enable two-factor login in the settings.",
         "I enabled notifications and now the phone never stops.",
-        "Location sharing has been enabled by default."
+        "Location sharing has been enabled by default.",
+        "The scholarship enabled him to finish college.",
+        "A small loan will enable us to open a second store.",
+        "The new bridge has enabled farmers to reach the market in an hour."
       ],
-      "senses": [],
-      "русский": "включать, включить (функцию); разрешать, разрешить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To turn a setting or a feature on",
+          "body": [
+            "(включать, включить (функцию); разрешать, разрешить)"
+          ],
+          "examples": [
+            "Enable two-factor login in the settings.",
+            "I enabled notifications and now the phone never stops.",
+            "Location sharing has been enabled by default."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make it possible for someone to do something",
+          "body": [
+            "(давать возможность, дать возможность; позволять, позволить)",
+            "---"
+          ],
+          "examples": [
+            "The scholarship enabled him to finish college.",
+            "A small loan will enable us to open a second store.",
+            "The new bridge has enabled farmers to reach the market in an hour."
+          ]
+        }
+      ],
+      "русский": "включать, включить (функцию); разрешать, разрешить; давать возможность, дать возможность; позволять, позволить",
       "forms": "enable · enabled · enabled",
       "verb class": "regular",
       "third person": "enables · -ing form: enabling",
@@ -979,14 +1750,43 @@
       "term": "disable",
       "ipa": "/dɪsˈeɪbəl/",
       "respell": "dis-AY-buhl",
-      "meaning": "To turn a setting or a feature off. ---",
+      "meaning": "Disable has 2 distinct senses.",
       "examples": [
         "Disable the pop-ups and the site is readable.",
         "He disabled the camera in the settings.",
-        "The update has disabled my printer."
+        "The update has disabled my printer.",
+        "A stroke can disable a person in minutes.",
+        "The accident disabled him for life.",
+        "He was disabled by an injury he got at nineteen."
       ],
-      "senses": [],
-      "русский": "отключать, отключить (функцию); выключать, выключить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To turn a setting or a feature off",
+          "body": [
+            "(отключать, отключить (функцию); выключать, выключить)"
+          ],
+          "examples": [
+            "Disable the pop-ups and the site is readable.",
+            "He disabled the camera in the settings.",
+            "The update has disabled my printer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To injure someone so badly that they can no longer use part of the body",
+          "body": [
+            "(лишать трудоспособности; калечить, покалечить)",
+            "---"
+          ],
+          "examples": [
+            "A stroke can disable a person in minutes.",
+            "The accident disabled him for life.",
+            "He was disabled by an injury he got at nineteen."
+          ]
+        }
+      ],
+      "русский": "отключать, отключить (функцию); выключать, выключить; лишать трудоспособности; калечить, покалечить",
       "forms": "disable · disabled · disabled",
       "verb class": "regular",
       "third person": "disables · -ing form: disabling",
@@ -1104,14 +1904,43 @@
       "term": "surf",
       "ipa": "/sɜːrf/",
       "respell": "SURF",
-      "meaning": "To move from page to page on the internet with no fixed goal. ---",
+      "meaning": "Surf has 2 distinct senses.",
       "examples": [
         "They surf the web instead of working.",
         "She surfed the net until two in the morning.",
-        "He has been surfing real estate listings all week."
+        "He has been surfing real estate listings all week.",
+        "They surf every morning before work.",
+        "He surfed the North Shore all summer.",
+        "She has been surfing since she was six years old."
       ],
-      "senses": [],
-      "русский": "сёрфить (в интернете), бродить по сайтам",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move from page to page on the internet with no fixed goal",
+          "body": [
+            "(сёрфить (в интернете), бродить по сайтам)"
+          ],
+          "examples": [
+            "They surf the web instead of working.",
+            "She surfed the net until two in the morning.",
+            "He has been surfing real estate listings all week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To ride ocean waves standing on a board",
+          "body": [
+            "(заниматься сёрфингом, кататься на доске по волнам)",
+            "---"
+          ],
+          "examples": [
+            "They surf every morning before work.",
+            "He surfed the North Shore all summer.",
+            "She has been surfing since she was six years old."
+          ]
+        }
+      ],
+      "русский": "сёрфить (в интернете), бродить по сайтам; заниматься сёрфингом, кататься на доске по волнам",
       "forms": "surf · surfed · surfed",
       "verb class": "regular",
       "third person": "surfs · -ing form: surfing",
@@ -1174,14 +2003,58 @@
       "term": "prompt",
       "ipa": "/prɑːmpt/",
       "respell": "PRAHMPT",
-      "meaning": "To ask a user on screen to do something, or to give a system an instruction. ---",
+      "meaning": "Prompt has 3 distinct senses.",
       "examples": [
         "The site will prompt you for a code.",
         "It prompted me to change my password.",
-        "The app keeps prompting me to rate it."
+        "The app keeps prompting me to rate it.",
+        "The letter prompted him to call his sister after ten years.",
+        "One bad review can prompt a restaurant to change its whole menu.",
+        "The crash has prompted calls for tighter rules.",
+        "Someone offstage prompted her when she froze.",
+        "The teacher had to prompt him twice during the recital.",
+        "He got through the whole speech without being prompted once."
       ],
-      "senses": [],
-      "русский": "предлагать (ввести), запрашивать; подсказывать, подсказать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To ask a user on screen to do something, or to give a system an instruction",
+          "body": [
+            "(предлагать (ввести), запрашивать; подсказывать, подсказать)"
+          ],
+          "examples": [
+            "The site will prompt you for a code.",
+            "It prompted me to change my password.",
+            "The app keeps prompting me to rate it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To cause someone to decide to do something",
+          "body": [
+            "(побуждать, побудить; подталкивать (к действию); служить поводом)"
+          ],
+          "examples": [
+            "The letter prompted him to call his sister after ten years.",
+            "One bad review can prompt a restaurant to change its whole menu.",
+            "The crash has prompted calls for tighter rules."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To remind a performer or a speaker of words they have forgotten",
+          "body": [
+            "(подсказывать, подсказать (текст, реплику))",
+            "---"
+          ],
+          "examples": [
+            "Someone offstage prompted her when she froze.",
+            "The teacher had to prompt him twice during the recital.",
+            "He got through the whole speech without being prompted once."
+          ]
+        }
+      ],
+      "русский": "предлагать (ввести), запрашивать; подсказывать, подсказать; побуждать, побудить; подталкивать (к действию); служить поводом; подсказывать, подсказать (текст, реплику)",
       "forms": "prompt · prompted · prompted",
       "verb class": "regular",
       "third person": "prompts · -ing form: prompting",
@@ -1245,14 +2118,43 @@
       "term": "eject",
       "ipa": "/ɪˈdʒɛkt/",
       "respell": "ih-JEKT",
-      "meaning": "To make a disk or a drive come out safely. ---",
+      "meaning": "Eject has 2 distinct senses.",
       "examples": [
         "Eject the drive before you pull it out.",
         "He ejected the card and the photos were gone.",
-        "The laptop is ejecting the disc."
+        "The laptop is ejecting the disc.",
+        "Security ejected two fans in the third inning.",
+        "An umpire can eject a player for arguing.",
+        "He was ejected from the building by two guards."
       ],
-      "senses": [],
-      "русский": "извлекать, извлечь (диск, флешку); безопасно отключать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a disk or a drive come out safely",
+          "body": [
+            "(извлекать, извлечь (диск, флешку); безопасно отключать)"
+          ],
+          "examples": [
+            "Eject the drive before you pull it out.",
+            "He ejected the card and the photos were gone.",
+            "The laptop is ejecting the disc."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To force someone to leave a place",
+          "body": [
+            "(выдворять, выгонять; удалять (с поля, из зала))",
+            "---"
+          ],
+          "examples": [
+            "Security ejected two fans in the third inning.",
+            "An umpire can eject a player for arguing.",
+            "He was ejected from the building by two guards."
+          ]
+        }
+      ],
+      "русский": "извлекать, извлечь (диск, флешку); безопасно отключать; выдворять, выгонять; удалять (с поля, из зала)",
       "forms": "eject · ejected · ejected",
       "verb class": "regular",
       "third person": "ejects · -ing form: ejecting",
@@ -1279,14 +2181,43 @@
       "term": "shuffle",
       "ipa": "/ˈʃʌfəl/",
       "respell": "SHUF-uhl",
-      "meaning": "To put songs, cards, or files into a random order. ---",
+      "meaning": "Shuffle has 2 distinct senses.",
       "examples": [
         "Shuffle the playlist - I know it by heart.",
         "The app shuffled the same five songs all night.",
-        "It is shuffling my whole library."
+        "It is shuffling my whole library.",
+        "The old man shuffled to the door in his slippers.",
+        "Patients shuffle up and down the hallway for exercise.",
+        "She was shuffling around the kitchen at six in the morning."
       ],
-      "senses": [],
-      "русский": "перемешивать, перемешать (в случайном порядке)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put songs, cards, or files into a random order",
+          "body": [
+            "(перемешивать, перемешать (в случайном порядке))"
+          ],
+          "examples": [
+            "Shuffle the playlist - I know it by heart.",
+            "The app shuffled the same five songs all night.",
+            "It is shuffling my whole library."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To walk slowly without lifting your feet properly off the ground",
+          "body": [
+            "(шаркать, идти шаркая; волочить ноги)",
+            "---"
+          ],
+          "examples": [
+            "The old man shuffled to the door in his slippers.",
+            "Patients shuffle up and down the hallway for exercise.",
+            "She was shuffling around the kitchen at six in the morning."
+          ]
+        }
+      ],
+      "русский": "перемешивать, перемешать (в случайном порядке); шаркать, идти шаркая; волочить ноги",
       "forms": "shuffle · shuffled · shuffled",
       "verb class": "regular",
       "third person": "shuffles · -ing form: shuffling",
@@ -1297,14 +2228,42 @@
       "term": "network",
       "ipa": "/ˈnɛtwɜːrk/",
       "respell": "NET-wurk",
-      "meaning": "To connect computers or devices so that they can share data.",
+      "meaning": "Network has 2 distinct senses.",
       "examples": [
         "We can network all four printers.",
         "They networked the two offices last year.",
-        "Every machine is networked through one switch."
+        "Every machine is networked through one switch.",
+        "She networks at every conference she attends.",
+        "He networked his way into the film business.",
+        "I spent the evening networking with other teachers."
       ],
-      "senses": [],
-      "русский": "объединять в сеть, объединить в сеть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To connect computers or devices so that they can share data",
+          "body": [
+            "(объединять в сеть, объединить в сеть)"
+          ],
+          "examples": [
+            "We can network all four printers.",
+            "They networked the two offices last year.",
+            "Every machine is networked through one switch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To meet people who may be useful to your career",
+          "body": [
+            "(налаживать связи, заводить полезные знакомства)"
+          ],
+          "examples": [
+            "She networks at every conference she attends.",
+            "He networked his way into the film business.",
+            "I spent the evening networking with other teachers."
+          ]
+        }
+      ],
+      "русский": "объединять в сеть, объединить в сеть; налаживать связи, заводить полезные знакомства",
       "forms": "network · networked · networked",
       "verb class": "regular",
       "third person": "networks · -ing form: networking",

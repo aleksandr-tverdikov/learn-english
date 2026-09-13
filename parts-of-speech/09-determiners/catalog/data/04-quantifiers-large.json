@@ -6,29 +6,42 @@
       "term": "many",
       "ipa": "/ˈmɛni/",
       "respell": "MEN-ee",
-      "meaning": "Marks a large but unspecified number of countable things.",
+      "meaning": "Marks a large but unspecified number of countable things. What slot it fills decides how it reads: in front of a bare plural it names a big number drawn from an open set, while after the, a possessive, or a demonstrative it drops into the postdeterminer slot and merely describes a set you already know about. Standing alone with no noun it is a pronoun: Many were called, few were chosen.",
       "examples": [
         "Many Americans commute more than an hour each way.",
         "How many people are coming to dinner?",
         "There aren't many seats left for the early show.",
         "She has too many projects going at once.",
         "Many of the applicants had never written a line of code.",
-        "The many delays finally cost the contractor the job."
+        "The many delays finally cost the contractor the job.",
+        "Her many kindnesses to that family went unmentioned at the service.",
+        "These many revisions have not made the contract any clearer."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "A large but unspecified number, in front of a bare plural noun",
           "body": [
-            "Before a bare plural noun it names a big number drawn from an open set — many Americans, many companies. 2. After the, a possessive, or a demonstrative it is a postdeterminer and simply describes an already-identified set as a large one — the many problems we inherited. 3. As a pronoun it stands alone with no noun: Many were called, few were chosen."
+            "(много, многие — только с исчисляемыми во мн. ч.)"
           ],
           "examples": [
             "Many Americans commute more than an hour each way.",
             "How many people are coming to dinner?",
             "There aren't many seats left for the early show.",
             "She has too many projects going at once.",
-            "Many of the applicants had never written a line of code.",
-            "The many delays finally cost the contractor the job."
+            "Many of the applicants had never written a line of code."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "After the, a possessive, or a demonstrative — describing an already-identified set as a large one",
+          "body": [
+            "(те многочисленные, все эти — the many problems «все те многочисленные проблемы»)"
+          ],
+          "examples": [
+            "The many delays finally cost the contractor the job.",
+            "Her many kindnesses to that family went unmentioned at the service.",
+            "These many revisions have not made the contract any clearer."
           ]
         }
       ],
@@ -75,15 +88,43 @@
       "respell": "MOR",
       "meaning": "Names a larger number or amount than something else — than a stated comparison, than before, or than what is already on hand. As a pronoun it stands alone with no noun after it: We need more, Would you like some more?",
       "examples": [
-        "We need more volunteers for Saturday.",
-        "Is there any more coffee in the pot?",
         "She has more patience than I do.",
-        "Give me two more days and I'll have the draft.",
         "More of the money went to overhead than to programs.",
-        "No more excuses — the report is due Friday.",
-        "There's soup on the stove if anyone wants more."
+        "We need more volunteers for Saturday.",
+        "Coffee costs more here than anywhere else on the block.",
+        "Is there any more coffee in the pot?",
+        "Give me two more days and I'll have the draft.",
+        "There's soup on the stove if anyone wants more.",
+        "No more excuses — the report is due Friday."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A larger number or amount than something else — the comparative",
+          "body": [
+            "(больше, более — сравнительная степень much и many)"
+          ],
+          "examples": [
+            "She has more patience than I do.",
+            "More of the money went to overhead than to programs.",
+            "We need more volunteers for Saturday.",
+            "Coffee costs more here than anywhere else on the block."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Additional — a further quantity on top of what is already there, with nothing being compared",
+          "body": [
+            "(ещё, ещё столько-то — two more days «ещё два дня», any more coffee «ещё кофе»)"
+          ],
+          "examples": [
+            "Is there any more coffee in the pot?",
+            "Give me two more days and I'll have the draft.",
+            "There's soup on the stove if anyone wants more.",
+            "No more excuses — the report is due Friday."
+          ]
+        }
+      ],
       "русский": "больше, ещё — сравнительная степень much и many",
       "position": "central when it opens the noun phrase (more time); postdeterminer after a determiner or a numeral (some more coffee, no more excuses, two more days, many more people)",
       "register": "neutral",
@@ -105,10 +146,39 @@
         "Most of the money is already spent.",
         "She spends most of her time on the road.",
         "Most information on that site is out of date.",
+        "Most of them had never seen snow before.",
         "Which team scored the most points?",
-        "Most of them had never seen snow before."
+        "The route with the most traffic is also the shortest one.",
+        "Whoever books the most hours gets the parking spot."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The majority — more than half, and usually well more",
+          "body": [
+            "(большинство, большая часть — больше половины)"
+          ],
+          "examples": [
+            "Most people would rather not fly on a Sunday night.",
+            "Most of the money is already spent.",
+            "She spends most of her time on the road.",
+            "Most information on that site is out of date.",
+            "Most of them had never seen snow before."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The superlative of much and many — the greatest amount or number in a compared set",
+          "body": [
+            "(наибольший, больше всех — the most points «больше всех очков»)"
+          ],
+          "examples": [
+            "Which team scored the most points?",
+            "The route with the most traffic is also the shortest one.",
+            "Whoever books the most hours gets the parking spot."
+          ]
+        }
+      ],
       "русский": "большинство, большая часть — больше половины",
       "position": "central when it opens the noun phrase (most people); after the it forms the superlative of quantity (the most points)",
       "register": "neutral",
@@ -129,11 +199,40 @@
         "We don't have much time.",
         "How much money did the repair cost?",
         "There isn't much to say about it.",
+        "I didn't get much sleep last night.",
         "She spends too much energy worrying about things she can't control.",
         "Much of the report was out of date before it was printed.",
-        "I didn't get much sleep last night."
+        "Much work remains before the building can open. — formal; in speech, a lot of work remains",
+        "There was so much paperwork that the closing ran two hours long."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large but unspecified amount of something uncountable — at home in questions and negatives",
+          "body": [
+            "(много — только с неисчисляемыми; в вопросе и отрицании)"
+          ],
+          "examples": [
+            "We don't have much time.",
+            "How much money did the repair cost?",
+            "There isn't much to say about it.",
+            "I didn't get much sleep last night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Affirmative much — bookish on its own, ordinary after too, so, as, and before of",
+          "body": [
+            "(многое, большая часть; слишком много — much of the report «большая часть отчёта», too much energy «слишком много сил»)"
+          ],
+          "examples": [
+            "She spends too much energy worrying about things she can't control.",
+            "Much of the report was out of date before it was printed.",
+            "Much work remains before the building can open. — formal; in speech, a lot of work remains",
+            "There was so much paperwork that the closing ran two hours long."
+          ]
+        }
+      ],
       "русский": "много — только с неисчисляемыми; в утверждении звучит книжно, в речи a lot of",
       "position": "central — it opens the noun phrase (much time); the identical degree adverb is a different animal (much better, thanks very much)",
       "register": "neutral in questions and negatives; in a plain affirmative statement it is formal enough to sound stilted in American speech",
@@ -156,9 +255,38 @@
         "That's going to cost a bunch of money we don't have.",
         "A bunch of the emails never went out.",
         "I've got a whole bunch of questions about the lease.",
-        "She picked up a bunch of bananas on the way home."
+        "She picked up a bunch of bananas on the way home.",
+        "He handed her a bunch of daisies wrapped in newspaper.",
+        "There's a bunch of keys hanging by the back door."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large, uncounted quantity in casual speech — the conversational a lot of",
+          "body": [
+            "(куча, полно — разг., без оценки размера)"
+          ],
+          "examples": [
+            "A bunch of us are going to the game on Saturday.",
+            "He left a bunch of dishes in the sink again.",
+            "That's going to cost a bunch of money we don't have.",
+            "A bunch of the emails never went out.",
+            "I've got a whole bunch of questions about the lease."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Literally — things growing or fastened together in a cluster",
+          "body": [
+            "(гроздь, пучок, связка — a bunch of bananas «гроздь бананов», a bunch of keys «связка ключей»)"
+          ],
+          "examples": [
+            "She picked up a bunch of bananas on the way home.",
+            "He handed her a bunch of daisies wrapped in newspaper.",
+            "There's a bunch of keys hanging by the back door."
+          ]
+        }
+      ],
       "pronunciation note": "casually /ə ˈbʌntʃə/, \"a buncha\"",
       "русский": "куча, полно — разг.: много чего угодно, без оценки размера",
       "position": "central — the whole phrase fills the determiner slot",
@@ -485,12 +613,41 @@
       "examples": [
         "He'll spend any amount of time on a problem that interests him.",
         "They would have paid any amount of money to get that tape back.",
-        "There are any number of reasons the deal could still fall apart.",
         "You can throw any amount of money at the bridge and the traffic won't improve.",
+        "She has any amount of patience with beginners.",
+        "There are any number of reasons the deal could still fall apart.",
         "No amount of explaining was going to change her mind.",
-        "She has any amount of patience with beginners."
+        "No amount of overtime is going to finish this by Friday.",
+        "No amount of salt will save that soup."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An unlimited or indefinitely large amount — \"as much as it takes.\"",
+          "body": [
+            "(сколько угодно, любое количество — говорящий не считает)"
+          ],
+          "examples": [
+            "He'll spend any amount of time on a problem that interests him.",
+            "They would have paid any amount of money to get that tape back.",
+            "You can throw any amount of money at the bridge and the traffic won't improve.",
+            "She has any amount of patience with beginners.",
+            "There are any number of reasons the deal could still fall apart."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "No amount of — the negative twin: however much there is, it changes nothing",
+          "body": [
+            "(никакие… не, сколько ни — no amount of explaining «никакие объяснения не помогут»)"
+          ],
+          "examples": [
+            "No amount of explaining was going to change her mind.",
+            "No amount of overtime is going to finish this by Friday.",
+            "No amount of salt will save that soup."
+          ]
+        }
+      ],
       "русский": "сколько угодно — неограниченно много, говорящий не считает",
       "position": "central",
       "register": "neutral",
@@ -736,13 +893,40 @@
       "meaning": "Names a large number of things, in careful use an unhelpfully large number — an oversupply rather than merely a lot.",
       "examples": [
         "The menu offers a plethora of options and no way to choose among them.",
-        "A plethora of new apps promise to do the same thing.",
-        "There is a plethora of research on the topic and very little agreement.",
         "The form asks for a plethora of details nobody will ever read.",
         "A plethora of competing standards slowed the rollout.",
-        "He answered with a plethora of statistics and no actual argument."
+        "He answered with a plethora of statistics and no actual argument.",
+        "A plethora of new apps promise to do the same thing.",
+        "There is a plethora of research on the topic and very little agreement.",
+        "The festival drew a plethora of vendors from three states."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "In careful use — an unhelpfully large number, an oversupply rather than merely a lot",
+          "body": [
+            "(переизбыток — книжн.: больше, чем нужно, и оттого только хуже)"
+          ],
+          "examples": [
+            "The menu offers a plethora of options and no way to choose among them.",
+            "The form asks for a plethora of details nobody will ever read.",
+            "A plethora of competing standards slowed the rollout.",
+            "He answered with a plethora of statistics and no actual argument."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In loose modern use — simply a great many, with no complaint attached",
+          "body": [
+            "(масса, множество — в современном расхожем употреблении просто «много»)"
+          ],
+          "examples": [
+            "A plethora of new apps promise to do the same thing.",
+            "There is a plethora of research on the topic and very little agreement.",
+            "The festival drew a plethora of vendors from three states."
+          ]
+        }
+      ],
       "pronunciation note": "stress falls on the first syllable; the common /pləˈθɔrə/ is a mispronunciation",
       "русский": "переизбыток — книжн.: не просто много, а больше, чем нужно",
       "position": "central",
@@ -865,13 +1049,42 @@
       "meaning": "Names a large number of things arriving together in a surge that rises and passes — and, with an abstract noun, a feeling that comes over someone the same way.",
       "examples": [
         "A wave of layoffs hit the industry in the second quarter.",
-        "She felt a wave of relief when the phone finally rang.",
-        "The bill set off a flurry of amendments in the last week of the session.",
         "A wave of new arrivals doubled the town's population in a decade.",
         "Waves of thunderstorms moved across the state all afternoon.",
-        "There was a flurry of activity at the front desk and then nothing for an hour."
+        "The bill set off a flurry of amendments in the last week of the session.",
+        "There was a flurry of activity at the front desk and then nothing for an hour.",
+        "She felt a wave of relief when the phone finally rang.",
+        "A wave of nausea hit him halfway up the stairs.",
+        "A wave of homesickness caught her in the middle of the grocery store."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large number of things arriving together in a surge that rises and passes",
+          "body": [
+            "(волна, наплыв — a wave of layoffs «волна увольнений»)"
+          ],
+          "examples": [
+            "A wave of layoffs hit the industry in the second quarter.",
+            "A wave of new arrivals doubled the town's population in a decade.",
+            "Waves of thunderstorms moved across the state all afternoon.",
+            "The bill set off a flurry of amendments in the last week of the session.",
+            "There was a flurry of activity at the front desk and then nothing for an hour."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "With an abstract noun — a feeling that comes over someone all at once",
+          "body": [
+            "(волна, прилив (чувства) — a wave of relief «волна облегчения»)"
+          ],
+          "examples": [
+            "She felt a wave of relief when the phone finally rang.",
+            "A wave of nausea hit him halfway up the stairs.",
+            "A wave of homesickness caught her in the middle of the grocery store."
+          ]
+        }
+      ],
       "pronunciation note": "of reduces to /ə/ in speech: /ə ˈweɪvə/",
       "русский": "волна — наплыв чего-либо; с абстрактным сущ. — нахлынувшее чувство",
       "position": "central",
@@ -993,10 +1206,39 @@
         "The cleanup has already cost millions of dollars.",
         "These formations took millions of years to build up.",
         "Millions of the old accounts were never closed out.",
+        "The company employs two million people worldwide.",
         "I've told him that a million times.",
-        "The company employs two million people worldwide."
+        "There are millions of things I'd rather be doing on a Saturday.",
+        "She has millions of excuses and not one of them holds up."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Literally — an indefinite number in the millions",
+          "body": [
+            "(миллионы — счёт действительно идёт на миллионы)"
+          ],
+          "examples": [
+            "Millions of people watched the hearing live.",
+            "The cleanup has already cost millions of dollars.",
+            "These formations took millions of years to build up.",
+            "Millions of the old accounts were never closed out.",
+            "The company employs two million people worldwide."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Hyperbole — any number the speaker wants to call enormous",
+          "body": [
+            "(уйма, тьма, миллион раз — разг. преувеличение, точное число не имеется в виду)"
+          ],
+          "examples": [
+            "I've told him that a million times.",
+            "There are millions of things I'd rather be doing on a Saturday.",
+            "She has millions of excuses and not one of them holds up."
+          ]
+        }
+      ],
       "pronunciation note": "of is unstressed and commonly reduces to /ə/",
       "русский": "миллионы — букв.; в гиперболе разг. «уйма, тьма»",
       "position": "central",
@@ -1139,13 +1381,42 @@
       "meaning": "Describes a quantity that is large enough for the purpose with room left over.",
       "examples": [
         "There's ample time to catch the connecting flight.",
-        "The lot has ample parking even on a game day.",
         "They were given ample warning that the deadline would not move.",
         "There is ample evidence in the record to support the ruling.",
         "The grant gave her ample opportunities to travel.",
-        "His patience was amply rewarded."
+        "His patience was amply rewarded.",
+        "The lot has ample parking even on a game day.",
+        "The apartment is small but the closets are ample.",
+        "He settled his ample frame into the folding chair and it held."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Large enough for the purpose, with room left over",
+          "body": [
+            "(достаточный с запасом, обильный — хватает и ещё остаётся)"
+          ],
+          "examples": [
+            "There's ample time to catch the connecting flight.",
+            "They were given ample warning that the deadline would not move.",
+            "There is ample evidence in the record to support the ruling.",
+            "The grant gave her ample opportunities to travel.",
+            "His patience was amply rewarded."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Generous in physical size or extent",
+          "body": [
+            "(просторный, обширный, объёмистый — ample parking «просторная парковка»)"
+          ],
+          "examples": [
+            "The lot has ample parking even on a game day.",
+            "The apartment is small but the closets are ample.",
+            "He settled his ample frame into the folding chair and it held."
+          ]
+        }
+      ],
       "русский": "достаточный с запасом, обильный — хватает на всё и ещё остаётся",
       "position": "attributive almost always (ample time, ample parking, the ample evidence); predicative use is possible but stiff",
       "register": "neutral to formal",
@@ -1292,11 +1563,40 @@
         "Do we have enough chairs for everyone?",
         "There isn't enough coffee left for a second round.",
         "He's finally saved enough money for the deposit.",
-        "I've had enough of these delays.",
         "Is it warm enough out there for the porch?",
-        "There's time enough to fix it before Monday."
+        "There's time enough to fix it before Monday. — postposed, slightly literary",
+        "I've had enough of these delays.",
+        "That's enough of that — put it away and come to dinner.",
+        "We've heard enough of his explanations for one week."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "As much or as many as is required — and, under negation, the standard way to report a shortfall",
+          "body": [
+            "(достаточно, хватает; not enough — не хватает)"
+          ],
+          "examples": [
+            "Do we have enough chairs for everyone?",
+            "There isn't enough coffee left for a second round.",
+            "He's finally saved enough money for the deposit.",
+            "Is it warm enough out there for the porch?",
+            "There's time enough to fix it before Monday. — postposed, slightly literary"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Enough of — as much as the speaker can stand",
+          "body": [
+            "(хватит, довольно, надоело — I've had enough of «с меня хватит»)"
+          ],
+          "examples": [
+            "I've had enough of these delays.",
+            "That's enough of that — put it away and come to dinner.",
+            "We've heard enough of his explanations for one week."
+          ]
+        }
+      ],
       "pronunciation note": "carefully /ɪˈnʌf/; the first syllable is always reduced, never /iː/",
       "русский": "достаточно, хватает — ровно столько, сколько нужно; not enough — не хватает",
       "position": "central determiner before the noun (enough time); in formal and fixed usage it may also follow the noun (time enough, reason enough, money enough), which no other determiner in English can do; as a degree adverb it follows its adjective (good enough)",
@@ -1930,29 +2230,42 @@
       "term": "a plurality of",
       "ipa": "/ə plʊˈræləɾi əv/",
       "respell": "uh pluh-RAL-uh-tee uhv",
-      "meaning": "Names the largest share of a vote or a group — and, in patent drafting, nothing grander than \"more than one.\"",
+      "meaning": "Names the largest share of a vote or a group — and, in patent drafting, nothing grander than \"more than one.\" The two uses belong to two different professions and share nothing but the spelling: the political one is about who came out ahead, and the patent one is a drafting formula that means no more than \"at least two.\" A patent examiner reading a plurality of vents is told the housing has two or more vents, not that most of something voted for them.",
       "examples": [
         "She won a plurality of the vote in a five-way primary and never came near fifty percent.",
         "A plurality of the members favored postponement, but the bylaws require a majority.",
         "Under state law the office goes to whoever takes a plurality of the votes cast.",
-        "The claim recites a housing comprising a plurality of vents.",
         "A plurality of respondents named cost as the main obstacle; no single answer drew half.",
-        "A plurality is not a majority, and a plurality of forty-two percent is the usual reason for a runoff."
+        "A plurality is not a majority, and a plurality of forty-two percent is the usual reason for a runoff.",
+        "The claim recites a housing comprising a plurality of vents.",
+        "The device includes a plurality of sensors mounted along the rail.",
+        "A plurality of fasteners secures the panel to the frame."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "",
+          "head": "The largest share of a vote or a counted body, whether or not it passes half",
           "body": [
-            "In elections and in any counted body, the largest share, whether or not it passes half — a plurality of the vote. 2. In United States patent claims, exactly \"two or more\" and no more than that — a plurality of vents."
+            "(относительное большинство — юр. и полит.: больше всех, но не обязательно больше половины)"
           ],
           "examples": [
             "She won a plurality of the vote in a five-way primary and never came near fifty percent.",
             "A plurality of the members favored postponement, but the bylaws require a majority.",
             "Under state law the office goes to whoever takes a plurality of the votes cast.",
-            "The claim recites a housing comprising a plurality of vents.",
             "A plurality of respondents named cost as the main obstacle; no single answer drew half.",
             "A plurality is not a majority, and a plurality of forty-two percent is the usual reason for a runoff."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In United States patent claims — exactly \"two or more,\" and nothing grander",
+          "body": [
+            "(два и более — патентная формулировка, никакого «большинства» тут нет)"
+          ],
+          "examples": [
+            "The claim recites a housing comprising a plurality of vents.",
+            "The device includes a plurality of sensors mounted along the rail.",
+            "A plurality of fasteners secures the panel to the frame."
           ]
         }
       ],

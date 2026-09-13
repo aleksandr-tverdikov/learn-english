@@ -237,13 +237,19 @@ The positive twin of *nor … nor*: the *either* is dropped and the coordinator 
 
 Lays out two possibilities without choosing between them. As a noun clause it names an open question; with *or not* it turns concessive, meaning both possibilities lead to the same result. Unlike *if*, *whether* can follow a preposition, take *to* + infinitive, and open a sentence — *whether to go*, never *if to go*.
 
+**1. An open question with two possibilities named.** A noun clause: it fills a slot after a verb or a preposition and names something nobody has settled yet. (… ли … или …)
+
 1. I can't tell *whether* he's serious *or* joking.
-2. *Whether* you like it *or not*, the deadline stands.
-3. She hasn't decided *whether* to fly *or* drive.
-4. It depends on *whether* the permit clears *or* the city stalls again.
-5. Ask him *whether* the store opens at eight *or* nine.
+2. She hasn't decided *whether* to fly *or* drive.
+3. It depends on *whether* the permit clears *or* the city stalls again.
+4. Ask him *whether* the store opens at eight *or* nine.
+
+**2. Concessive — both possibilities lead to the same place.** An adverbial clause, usually carrying *or not*, and this is the one that can front the sentence. (независимо от того, …; хочешь не хочешь)
+
+5. *Whether* you like it *or not*, the deadline stands.
 6. *Whether or not* they call back, I'm taking the other offer.
 7. He'll say something at the meeting *whether* anyone asks him *or not*.
+8. *Whether* it's the heat *or* the humidity, nobody sleeps here in August.
 
 **See also:** [either … or](#either--or), [if … then](#if--then), [as much … as](#as-much--as), [or](01-coordinating.md#or)
 
@@ -372,14 +378,25 @@ These pairs measure one thing against another. The second half is a genuine subo
 
 States equality of degree: the first *as* is a degree adverb, the second is the conjunction that introduces the standard. Where *more … than* ranks one thing above another, *as … as* levels them. One trap in the noun pattern: with a singular count noun the article jumps to the far side of the adjective — *as good a manager as*, never *as a good manager as*.
 
+**1. Equality of degree — the two sides come out level.** Negated, it denies that equality and says the first one falls short. (так(ой) же …, как …; not as … as — «не так(ой) …, как»)
+
 1. The sequel is *as* good *as* the original.
-2. Call me *as* soon *as* you land.
-3. It didn't cost *as* much *as* I expected.
-4. She works *as* hard *as* anyone on the floor.
-5. Get here *as* early *as* you can.
-6. He's *as* tall *as* his father is now.
-7. She's *as* good a manager *as* the company has ever had.
-8. *As* soon *as* the door closed, everyone started talking.
+2. It didn't cost *as* much *as* I expected.
+3. She works *as* hard *as* anyone on the floor.
+4. He's *as* tall *as* his father is now.
+5. She's *as* good a manager *as* the company has ever had.
+
+**2. The maximizing frame — *as … as possible*, *as … as you can*, *as … as ever*.** The second half names a limit rather than a rival, so nothing is being compared with anything: the phrase just pushes the degree as high as it will go. (как можно … — «как можно раньше», «как можно тише»)
+
+6. Get here *as* early *as* you can.
+7. Keep the incision *as* clean *as* possible for the first week.
+8. She's *as* stubborn *as* ever.
+
+**3. Frozen into fixed subordinators — *as soon as*, *as long as*, *as far as*.** The pair has stopped comparing anything and works as a single conjunction of time, condition, or extent. (как только; пока; насколько)
+
+9. Call me *as* soon *as* you land.
+10. *As* soon *as* the door closed, everyone started talking.
+11. You can stay *as* long *as* you keep the noise down.
 
 **See also:** [as much … as](#as-much--as), [not so … as](#not-so--as), [the same … as](#the-same--as), [more … than](#more--than), [so … that](#so--that)
 
@@ -523,12 +540,23 @@ The older negative of *as … as*, kept alive in careful writing and in set phra
 
 Points at a kind: *such* names the type and *as* introduces the example or standard that fixes it. Keep it apart from *such … that*, which measures a degree and reports a consequence.
 
-1. We don't stock *such* items *as* these anymore.
-2. He had never faced *such a* decision *as* this one.
-3. Bring *such* documents *as* the clerk asks for.
-4. Root vegetables, *such as* carrots and parsnips, keep all winter.
-5. Her tone was *such as to* end the discussion.
-6. I've never heard *such* nonsense *as* came out of that meeting.
+**1. Naming a kind by pointing at an example.** The commonest shape is the two-word *such as* after an already complete noun phrase, where it means "for example" and takes a comma on each side. (такой …, как …; например)
+
+1. Root vegetables, *such as* carrots and parsnips, keep all winter.
+2. We don't stock *such* items *as* these anymore.
+3. He had never faced *such a* decision *as* this one.
+
+**2. "Those … that" — *as* heading a restrictive relative clause after *such*.** Legal and administrative English keeps this one alive; ordinary English rewrites it with *whatever* or with *the … that*. (те …, которые …)
+
+4. Bring *such* documents *as* the clerk asks for.
+5. I've never heard *such* nonsense *as* came out of that meeting.
+6. The trustee may sell *such* assets *as* are needed to settle the debts.
+
+**3. *such … as to* — a degree big enough to cause something.** The formal alternative to *so … that*, with an infinitive naming the consequence. (настолько …, что; такой …, что)
+
+7. Her tone was *such as to* end the discussion.
+8. The damage was *such as to* make the building unsafe.
+9. His record is not *such as to* inspire much confidence.
 
 **See also:** [such … that](#such--that), [as … as](#as--as), [the same … as](#the-same--as), [so … as to](#so--as-to)
 
@@ -856,12 +884,23 @@ Says the main claim holds whichever of the listed possibilities turns out to be 
 
 Fixes two endpoints — of a range, a relationship, or a comparison — and *and* is the only legal second half. *Between X to Y* is always an error. *Between* is fine with more than two items when each is being paired against the others (*trade between the fifty states*), but a plain list of three usually wants *among*.
 
+**1. The two endpoints of a range or an interval.** Numbers, clock times, and places, with everything in the middle included. (между … и …; от … до …)
+
 1. The store is open *between* nine *and* six.
 2. Somewhere *between* Tulsa *and* Amarillo, the radio died.
-3. What's the difference *between* a lease *and* a rental agreement?
-4. *Between* the traffic *and* the rain, we missed the first act.
-5. The bill runs *between* forty *and* fifty dollars a month.
-6. *Between* fixing the roof *and* replacing the water heater, the savings are gone.
+3. The bill runs *between* forty *and* fifty dollars a month.
+
+**2. The two parties to a relation, a difference, or an agreement.** Nothing lies in the middle here: the two nouns are the two ends of one link. (между … и …)
+
+4. What's the difference *between* a lease *and* a rental agreement?
+5. The agreement *between* the city *and* the union runs through June.
+6. There's been bad blood *between* her family *and* his since the wedding.
+
+**3. Fronted *Between X and Y* — two causes adding up to one result.** The sense is "what with … and," not location, and the pair is the combined reason for whatever the main clause reports. (из-за … и … вместе взятых)
+
+7. *Between* the traffic *and* the rain, we missed the first act.
+8. *Between* fixing the roof *and* replacing the water heater, the savings are gone.
+9. *Between* the new baby *and* the night shifts, he hasn't slept properly since March.
 
 **See also:** [from … to](#from--to), [what with … and](#what-with--and), [both … and](#both--and), [and](01-coordinating.md#and)
 
@@ -877,12 +916,24 @@ Fixes two endpoints — of a range, a relationship, or a comparison — and *and
 
 Marks a starting point and an ending point — in space, in time, or across a spread of kinds. Where *between … and* names two endpoints as a bounded interval, *from … to* traces extent or movement across it, and only *from … to* can describe a path.
 
+**1. The start and the end of a stretch — of time, of distance, or of a scale.** (от … до …; с … до …)
+
 1. The shop is open *from* ten *to* six.
 2. We drove *from* Denver *to* Santa Fe in a day.
-3. The class covers everything *from* soldering *to* firmware.
-4. Prices dropped *from* thirty dollars *to* nineteen.
-5. She read the report *from* cover *to* cover.
-6. The permit runs *from* June *through* September.
+3. Prices dropped *from* thirty dollars *to* nineteen.
+4. The permit runs *from* June *through* September.
+
+**2. The spread of kinds a set covers — *everything from X to Y*.** The two items are not endpoints on any measurable scale; they are chosen to sound as unlike each other as possible, and the point is the variety lying between them. (от … до … — о разнообразии: «чего там только нет»)
+
+5. The class covers everything *from* soldering *to* firmware.
+6. The store sells everything *from* fishing tackle *to* wedding cakes.
+7. She'll talk to anybody, *from* the mayor *to* the kid who bags her groceries.
+
+**3. Fixed idioms of completeness — *from cover to cover*, *from top to bottom*, *from head to toe*.** Both slots take a bare noun with no article, and the phrase means "the whole of it." (от корки до корки; с головы до ног)
+
+8. She read the report *from* cover *to* cover.
+9. They searched the house *from* top *to* bottom.
+10. He came in soaked *from* head *to* toe.
 
 **See also:** [between … and](#between--and), [the … the](#the--the), [what with … and](#what-with--and)
 

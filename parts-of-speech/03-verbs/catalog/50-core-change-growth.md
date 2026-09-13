@@ -204,17 +204,25 @@ To make something bigger in size.
 ### boost
 
 **Pronunciation:** /buːst/ &middot; *BOOST*
-**Русский:** повышать, увеличивать, поднимать
+**Русский:** повышать, увеличивать, поднимать; подсаживать, подсадить; подталкивать вверх
 **Forms:** *boost* &middot; *boosted* &middot; *boosted*
 **Verb class:** regular
 **Third person:** *boosts* &middot; **-ing form:** *boosting*
 **Transitivity:** transitive
 
-To increase or improve something, often quickly.
+Boost has 2 distinct senses.
+
+**1. To increase or improve something, often quickly.** (повышать, увеличивать, поднимать)
 
 1. A discount might *boost* sales.
 2. The coach's speech *boosted* everyone's confidence.
 3. They are *boosting* production before the holidays.
+
+**2. To lift someone by pushing them from below.** (подсаживать, подсадить; подталкивать вверх)
+
+4. Her brother *boosted* her onto the wall.
+5. *Boost* me a little higher — I still can't reach the branch.
+6. He was *boosting* the kids onto his shoulders one at a time.
 
 ---
 
@@ -308,17 +316,25 @@ To make a feeling or an effect stronger, or to become stronger.
 ### surge
 
 **Pronunciation:** /sɜːrdʒ/ &middot; *SURJ*
-**Русский:** резко расти, подскакивать; хлынуть
+**Русский:** резко расти, подскакивать; хлынуть; хлынуть, устремляться вперёд; накатывать (о волне, толпе)
 **Forms:** *surge* &middot; *surged* &middot; *surged*
 **Verb class:** regular
 **Third person:** *surges* &middot; **-ing form:** *surging*
 **Transitivity:** intransitive
 
-To increase suddenly and strongly.
+Surge has 2 distinct senses.
+
+**1. To increase suddenly and strongly.** (резко расти, подскакивать; хлынуть)
 
 1. Demand tends to *surge* before the holidays.
 2. Applications *surged* after the ad ran.
 3. Energy prices have been *surging* since May.
+
+**2. To move forward suddenly as one large mass, like a crowd or a wave.** (хлынуть, устремляться вперёд; накатывать (о волне, толпе))
+
+4. The crowd *surged* toward the stage.
+5. Water *surges* through the gate the moment it opens.
+6. Fans were *surging* onto the field before the whistle blew.
 
 ---
 
@@ -552,18 +568,26 @@ To stop developing or improving.
 ### rebound
 
 **Pronunciation:** /rɪˈbaʊnd/ &middot; *rih-BOWND*
-**Русский:** восстанавливаться, идти вверх после падения; отскакивать
+**Русский:** восстанавливаться, идти вверх после падения; отскакивать; отскакивать, отскочить (от поверхности)
 **Forms:** *rebound* &middot; *rebounded* &middot; *rebounded*
 **Verb class:** regular
 **Third person:** *rebounds* &middot; **-ing form:** *rebounding*
 **Transitivity:** intransitive
 **Contrast:** Verb: rih-BOWND. The noun (*on the rebound*) is REE-bownd.
 
-To recover and rise again after a fall or a setback.
+Rebound has 2 distinct senses.
+
+**1. To recover and rise again after a fall or a setback.** (восстанавливаться, идти вверх после падения; отскакивать)
 
 1. Markets usually *rebound* after a shock.
 2. Sales *rebounded* in the fall.
 3. The team has *rebounded* from a terrible start.
+
+**2. To bounce back after hitting a surface.** (отскакивать, отскочить (от поверхности))
+
+4. Sound *rebounds* off the bare walls.
+5. The ball *rebounded* off the rim and into his hands.
+6. The puck was *rebounding* around the boards.
 
 ---
 
@@ -641,18 +665,26 @@ To make things follow one single standard or pattern.
 ### moderate
 
 **Pronunciation:** /ˈmɑːdəreɪt/ &middot; *MAH-duh-rayt*
-**Русский:** умерять, смягчать, сдерживать; ослабевать
+**Русский:** умерять, смягчать, сдерживать; ослабевать; вести (дискуссию), быть модератором; модерировать
 **Forms:** *moderate* &middot; *moderated* &middot; *moderated*
 **Verb class:** regular
 **Third person:** *moderates* &middot; **-ing form:** *moderating*
 **Transitivity:** both — transitive (moderate your tone), intransitive (the wind moderated)
 **Contrast:** Verb: MAH-duh-rayt. The adjective (*moderate prices*) is MAH-duh-rit.
 
-To make something less extreme, or to become less extreme.
+Moderate has 2 distinct senses.
+
+**1. To make something less extreme, or to become less extreme.** (умерять, смягчать, сдерживать; ослабевать)
 
 1. Try to *moderate* your expectations.
 2. He *moderated* his tone after the first question.
 3. The heat has *moderated* since Sunday.
+
+**2. To be in charge of a discussion or an online group, keeping it fair and within the rules.** (вести (дискуссию), быть модератором; модерировать)
+
+4. A local anchor will *moderate* tonight's debate.
+5. She *moderated* the panel at the conference.
+6. Volunteers have been *moderating* the forum for years.
 
 ---
 
@@ -711,18 +743,26 @@ To happen or to do something in turns, one after the other.
 ### range
 
 **Pronunciation:** /reɪndʒ/ &middot; *RAYNJ*
-**Русский:** колебаться в пределах, варьироваться (от … до …)
+**Русский:** колебаться в пределах, варьироваться (от … до …); бродить, кочевать; обитать, водиться (на территории)
 **Forms:** *range* &middot; *ranged* &middot; *ranged*
 **Verb class:** regular
 **Third person:** *ranges* &middot; **-ing form:** *ranging*
 **Transitivity:** intransitive
 **Contrast:** *Range* **from** one point **to** another.
 
-To vary between two limits.
+Range has 2 distinct senses.
+
+**1. To vary between two limits.** (колебаться в пределах, варьироваться (от … до …))
 
 1. Tickets *range* from twenty to eighty dollars.
 2. The answers *ranged* from angry to funny.
 3. We saw cars *ranging* from tiny hatchbacks to old pickups.
+
+**2. To move freely over a wide area, or to live naturally across a region.** (бродить, кочевать; обитать, водиться (на территории))
+
+4. Wild horses still *range* across parts of Nevada.
+5. Grizzlies once *ranged* as far south as Mexico.
+6. The cattle were *ranging* freely over open land.
 
 ---
 
@@ -781,14 +821,28 @@ To make something last longer.
 ### sustain
 
 **Pronunciation:** /səˈsteɪn/ &middot; *suh-STAYN*
-**Русский:** поддерживать, сохранять (на уровне); выдерживать
+**Русский:** поддерживать, сохранять (на уровне); выдерживать; получать (травму), понести (ущерб), терпеть (убытки); принимать (возражение в суде), удовлетворять (протест)
 **Forms:** *sustain* &middot; *sustained* &middot; *sustained*
 **Verb class:** regular
 **Third person:** *sustains* &middot; **-ing form:** *sustaining*
 **Transitivity:** transitive
 
-To keep something going at the same level over time.
+Sustain has 3 distinct senses.
+
+**1. To keep something going at the same level over time.** (поддерживать, сохранять (на уровне); выдерживать)
 
 1. The soil cannot *sustain* that many crops.
 2. They *sustained* the pace for two hours.
 3. Growth has been *sustained* for six quarters.
+
+**2. To suffer an injury, a loss, or damage.** (получать (травму), понести (ущерб), терпеть (убытки))
+
+4. Two passengers *sustained* minor injuries in the crash.
+5. A helmet keeps riders from *sustaining* head injuries.
+6. The company has *sustained* heavy losses this year.
+
+**3. For a judge to accept an objection or a claim as valid.** (принимать (возражение в суде), удовлетворять (протест))
+
+7. The judge *sustained* the defense's objection.
+8. If the court *sustains* the claim, the city will owe damages.
+9. Her objection was *sustained* and the question was withdrawn.

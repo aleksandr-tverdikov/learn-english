@@ -31,17 +31,31 @@ To break food up with your teeth before swallowing it.
 ### swallow
 
 **Pronunciation:** /ˈswɑːloʊ/ &middot; *SWAH-loh*
-**Русский:** глотать, проглотить
+**Русский:** глотать, проглотить; проглотить (ложь), поверить (во что-то сомнительное), купиться; подавлять (чувство), сдерживать; проглотить (обиду)
 **Forms:** *swallow* &middot; *swallowed* &middot; *swallowed*
 **Verb class:** regular
 **Third person:** *swallows* &middot; **-ing form:** *swallowing*
 **Transitivity:** both — transitive (swallow a pill), intransitive (it hurts to swallow)
 
-To make food or drink go down your throat.
+Swallow has 3 distinct senses.
+
+**1. To make food or drink go down your throat.** (глотать, проглотить)
 
 1. *Swallow* the pill with plenty of water.
 2. He *swallowed* the last bite and stood up.
 3. She winced, *swallowing* the bitter medicine.
+
+**2. To believe something that is not true.** (проглотить (ложь), поверить (во что-то сомнительное), купиться)
+
+4. I'm not going to *swallow* that excuse.
+5. They *swallowed* the whole story without asking a single question.
+6. He had *swallowed* every word of it.
+
+**3. To hold back a feeling instead of showing it.** (подавлять (чувство), сдерживать; проглотить (обиду))
+
+7. She *swallowed* her pride and asked for help.
+8. You learn to *swallow* your anger in this job.
+9. He has *swallowed* a lot of insults from that man.
 
 **Phrasal verbs:** [swallow up](57-phrasal-regular-q-s.md#swallow-up)
 
@@ -68,17 +82,25 @@ To eat something noisily and steadily, usually a crunchy snack.
 ### devour
 
 **Pronunciation:** /dɪˈvaʊər/ &middot; *di-VOW-ur*
-**Русский:** пожирать, жадно съедать
+**Русский:** пожирать, жадно съедать; проглатывать (книгу), зачитываться, поглощать
 **Forms:** *devour* &middot; *devoured* &middot; *devoured*
 **Verb class:** regular
 **Third person:** *devours* &middot; **-ing form:** *devouring*
 **Transitivity:** transitive
 
-To eat something quickly and hungrily.
+Devour has 2 distinct senses.
+
+**1. To eat something quickly and hungrily.** (пожирать, жадно съедать)
 
 1. Teenagers *devour* whatever is in the fridge.
 2. He *devoured* two plates of pasta in ten minutes.
 3. The cake had been *devoured* before I got a slice.
+
+**2. To read or watch something eagerly and quickly.** (проглатывать (книгу), зачитываться, поглощать)
+
+4. He *devours* two or three novels a week.
+5. She *devoured* the whole series in a weekend.
+6. I have *devoured* everything that author has written.
 
 ---
 
@@ -139,35 +161,63 @@ To eat dinner, especially in a restaurant or in a formal setting.
 ### digest
 
 **Pronunciation:** /daɪˈdʒɛst/ &middot; *dy-JEST*
-**Русский:** переваривать, переварить
+**Русский:** переваривать, переварить; усваивать, усвоить; осмысливать, переваривать (информацию)
 **Forms:** *digest* &middot; *digested* &middot; *digested*
 **Verb class:** regular
 **Third person:** *digests* &middot; **-ing form:** *digesting*
 **Transitivity:** transitive
 **Contrast:** The verb is stressed on the second syllable (dy-JEST); the noun *a digest* on the first.
 
-To break food down in the stomach so the body can use it.
+Digest has 2 distinct senses.
+
+**1. To break food down in the stomach so the body can use it.** (переваривать, переварить)
 
 1. Babies cannot *digest* solid food yet.
 2. He never fully *digested* that fried chicken.
 3. Sit still for a while — your body is *digesting* lunch.
+
+**2. To take in new information slowly until you understand it.** (усваивать, усвоить; осмысливать, переваривать (информацию))
+
+4. Give me a minute to *digest* that.
+5. She *digested* the report on the flight home.
+6. The team is still *digesting* the news.
 
 ---
 
 ### consume
 
 **Pronunciation:** /kənˈsuːm/ &middot; *kun-SOOM*
-**Русский:** потреблять, употреблять в пищу
+**Русский:** потреблять, употреблять в пищу; потреблять, расходовать, израсходовать; пожирать, уничтожать (об огне); поглощать, снедать (о чувстве)
 **Forms:** *consume* &middot; *consumed* &middot; *consumed*
 **Verb class:** regular
 **Third person:** *consumes* &middot; **-ing form:** *consuming*
 **Transitivity:** transitive
 
-To eat or drink something, especially in a measured amount.
+Consume has 4 distinct senses.
+
+**1. To eat or drink something, especially in a measured amount.** (потреблять, употреблять в пищу)
 
 1. Americans *consume* a lot of sugar.
 2. He *consumed* three liters of water that day.
 3. The label shows how many calories you are *consuming*.
+
+**2. To use up fuel, money, time, or other resources.** (потреблять, расходовать, израсходовать)
+
+4. The old furnace *consumes* a lot of gas.
+5. The project *consumed* most of our budget.
+6. Data centers are *consuming* more electricity every year.
+
+**3. To destroy something completely, said of fire.** (пожирать, уничтожать (об огне))
+
+7. A fire can *consume* a dry forest in hours.
+8. Flames *consumed* the warehouse in twenty minutes.
+9. The old barn was *consumed* by the blaze.
+
+**4. To fill someone's mind so completely that nothing else matters.** (поглощать, снедать (о чувстве))
+
+10. Guilt *consumed* him for years.
+11. She was *consumed* by jealousy.
+12. Work seems to *consume* his whole life.
 
 ---
 
@@ -210,18 +260,26 @@ To swallow a drink or food quickly in large mouthfuls.
 ### chug
 
 **Pronunciation:** /tʃʌɡ/ &middot; *CHUG*
-**Русский:** пить залпом, осушать одним махом
+**Русский:** пить залпом, осушать одним махом; пыхтеть, тарахтеть (о поезде, моторе)
 **Forms:** *chug* &middot; *chugged* &middot; *chugged*
 **Verb class:** regular
 **Third person:** *chugs* &middot; **-ing form:** *chugging*
 **Transitivity:** transitive
 **Contrast:** The g doubles: *chugged*, *chugging*.
 
-To drink a whole drink quickly without stopping, in informal speech.
+Chug has 2 distinct senses.
+
+**1. To drink a whole drink quickly without stopping, in informal speech.** (пить залпом, осушать одним махом)
 
 1. College kids *chug* soda at parties.
 2. He *chugged* a bottle of water after practice.
 3. They were *chugging* lemonade in the heat.
+
+**2. Of a train or an engine, to move along making a heavy, repeated sound.** (пыхтеть, тарахтеть (о поезде, моторе))
+
+4. Old tractors *chug* up that hill all summer.
+5. The train *chugged* out of the station right on time.
+6. A little boat was *chugging* across the bay.
 
 ---
 
@@ -263,18 +321,26 @@ To satisfy your thirst with a drink.
 ### starve
 
 **Pronunciation:** /stɑːrv/ &middot; *STARV*
-**Русский:** голодать, умирать с голоду
+**Русский:** голодать, умирать с голоду; лишать необходимого, недофинансировать; морить (голодом, без средств)
 **Forms:** *starve* &middot; *starved* &middot; *starved*
 **Verb class:** regular
 **Third person:** *starves* &middot; **-ing form:** *starving*
 **Transitivity:** both — transitive (starve yourself), intransitive (the cattle starved)
 **Contrast:** In everyday speech *I'm starving* just means 'very hungry'.
 
-To suffer or die from a lack of food.
+Starve has 2 distinct senses.
+
+**1. To suffer or die from a lack of food.** (голодать, умирать с голоду)
 
 1. I'm *starving* — when is dinner?
 2. Whole villages *starved* that winter.
 3. He has *starved* himself on that diet for weeks.
+
+**2. To keep a person, a place, or a thing from getting something it badly needs.** (лишать необходимого, недофинансировать; морить (голодом, без средств))
+
+4. Budget cuts *starve* rural clinics of nurses.
+5. The program was *starved* of funding for years.
+6. You are *starving* that plant of light.
 
 ---
 
@@ -334,18 +400,38 @@ To want a particular food or drink very badly.
 ### choke
 
 **Pronunciation:** /tʃoʊk/ &middot; *CHOHK*
-**Русский:** давиться, подавиться
+**Русский:** давиться, подавиться; душить, задушить; сдавать (о нервах), оплошать в решающий момент; забивать, заполнять до отказа; заглушать (о сорняках)
 **Forms:** *choke* &middot; *choked* &middot; *choked*
 **Verb class:** regular
 **Third person:** *chokes* &middot; **-ing form:** *choking*
 **Transitivity:** both — transitive (the smoke choked us), intransitive (he choked on a bone)
 **Contrast:** Takes **on** before the food: *choke on* a bone.
 
-To be unable to breathe because food or drink is blocking your throat.
+Choke has 4 distinct senses.
+
+**1. To be unable to breathe because food or drink is blocking your throat.** (давиться, подавиться)
 
 1. Cut the grapes so the baby doesn't *choke*.
 2. He *choked* on a fish bone at dinner.
 3. She started *choking* and someone slapped her back.
+
+**2. To squeeze someone's throat so that they cannot breathe.** (душить, задушить)
+
+4. Loosen that collar before it *chokes* the dog.
+5. The wrestler *choked* his opponent until the referee stepped in.
+6. The dog had been *choking* itself pulling against the leash.
+
+**3. To fail at the important moment because of nerves.** (сдавать (о нервах), оплошать в решающий момент)
+
+7. Great players don't *choke* in the last minute.
+8. He *choked* and missed both free throws.
+9. Our team has *choked* in the playoffs three years running.
+
+**4. To fill a space so completely that nothing can move through it.** (забивать, заполнять до отказа; заглушать (о сорняках))
+
+10. Weeds *choke* the flower beds every August.
+11. Traffic *choked* the tunnel for two hours.
+12. The creek was *choked* with fallen branches.
 
 **Phrasal verbs:** [choke back](53-phrasal-regular-a-c.md#choke-back) &middot; [choke down](53-phrasal-regular-a-c.md#choke-down) &middot; [choke off](53-phrasal-regular-a-c.md#choke-off) &middot; [choke up](53-phrasal-regular-a-c.md#choke-up)
 
@@ -372,17 +458,25 @@ To bring food up from the stomach and out through the mouth.
 ### burp
 
 **Pronunciation:** /bɜːrp/ &middot; *BURP*
-**Русский:** рыгать, отрыгнуть
+**Русский:** рыгать, отрыгнуть; помогать срыгнуть (ребёнку), держать столбиком
 **Forms:** *burp* &middot; *burped* &middot; *burped*
 **Verb class:** regular
 **Third person:** *burps* &middot; **-ing form:** *burping*
 **Transitivity:** both — transitive (burp the baby), intransitive (he burped loudly)
 
-To let air come up noisily from the stomach through the mouth.
+Burp has 2 distinct senses.
+
+**1. To let air come up noisily from the stomach through the mouth.** (рыгать, отрыгнуть)
 
 1. It's rude to *burp* at the table.
 2. The baby *burped* and fell asleep.
 3. She is *burping* him after his bottle.
+
+**2. To pat a baby on the back so that it brings up swallowed air.** (помогать срыгнуть (ребёнку), держать столбиком)
+
+4. *Burp* the baby before you put her down.
+5. He *burped* the twins one after the other.
+6. She was *burping* the baby when the phone rang.
 
 ---
 
@@ -424,17 +518,25 @@ To fill a food tightly with a mixture, or to fill yourself with too much food.
 ### seat
 
 **Pronunciation:** /siːt/ &middot; *SEET*
-**Русский:** усаживать, сажать за столик
+**Русский:** усаживать, сажать за столик; вмещать, быть рассчитанным на (число мест)
 **Forms:** *seat* &middot; *seated* &middot; *seated*
 **Verb class:** regular
 **Third person:** *seats* &middot; **-ing form:** *seating*
 **Transitivity:** transitive
 
-To show someone to a place to sit, especially in a restaurant.
+Seat has 2 distinct senses.
+
+**1. To show someone to a place to sit, especially in a restaurant.** (усаживать, сажать за столик)
 
 1. The host will *seat* you in a moment.
 2. They *seated* us by the window.
 3. Please wait to be *seated*.
+
+**2. To have enough seats for a particular number of people.** (вмещать, быть рассчитанным на (число мест))
+
+4. The hall *seats* about four hundred people.
+5. The original stadium *seated* only twenty thousand.
+6. Once the patio is finished, the restaurant will *seat* ninety.
 
 ---
 
@@ -461,18 +563,26 @@ To provide and serve food for an event.
 ### prepare
 
 **Pronunciation:** /prɪˈpɛr/ &middot; *pri-PAIR*
-**Русский:** готовить, приготовить
+**Русский:** готовить, приготовить; готовиться, подготовиться; готовить, подготовить (к чему-л.)
 **Forms:** *prepare* &middot; *prepared* &middot; *prepared*
 **Verb class:** regular
 **Third person:** *prepares* &middot; **-ing form:** *preparing*
 **Transitivity:** transitive
 **Contrast:** The final -e drops before -ing: *preparing*.
 
-To get food or a meal ready.
+Prepare has 2 distinct senses.
+
+**1. To get food or a meal ready.** (готовить, приготовить)
 
 1. I'll *prepare* the salad while you grill.
 2. She *prepared* dinner for twelve.
 3. The chef is *preparing* a tasting menu.
+
+**2. To get yourself or someone else ready for something that is going to happen.** (готовиться, подготовиться; готовить, подготовить (к чему-л.))
+
+4. We spent all summer *preparing* for the move.
+5. The school *prepared* the students for the state exam.
+6. Nothing can *prepare* you for news like that.
 
 **Phrasal verbs:** [prepare for](22-verb-preposition.md#prepare-for)
 
@@ -519,52 +629,76 @@ To heat a liquid until it bubbles, or to cook food in bubbling water.
 ### fry
 
 **Pronunciation:** /fraɪ/ &middot; *FRY*
-**Русский:** жарить, поджарить
+**Русский:** жарить, поджарить; сжигать, спалить (электронику)
 **Forms:** *fry* &middot; *fried* &middot; *fried*
 **Verb class:** regular
 **Third person:** *fries* &middot; **-ing form:** *frying*
 **Transitivity:** both — transitive (fry the fish), intransitive (the onions are frying)
 **Contrast:** The -y becomes -ie- in *fries* and *fried*, but stays in *frying*.
 
-To cook food in hot oil or fat.
+Fry has 2 distinct senses.
+
+**1. To cook food in hot oil or fat.** (жарить, поджарить)
 
 1. Don't *fry* the fish too long.
 2. He *fried* onions in butter.
 3. She is *frying* bacon for the sandwiches.
+
+**2. To ruin an electrical device by overheating it or running too much current through it (informal).** (сжигать, спалить (электронику))
+
+4. A power surge *fried* the router.
+5. Too much voltage will *fry* the chip.
+6. He has *fried* two laptops this year.
 
 ---
 
 ### grill
 
 **Pronunciation:** /ɡrɪl/ &middot; *GRIL*
-**Русский:** жарить на гриле
+**Русский:** жарить на гриле; допрашивать с пристрастием, засыпать вопросами
 **Forms:** *grill* &middot; *grilled* &middot; *grilled*
 **Verb class:** regular
 **Third person:** *grills* &middot; **-ing form:** *grilling*
 **Transitivity:** both — transitive (grill the burgers), intransitive (we grilled all afternoon)
 
-To cook food on a rack over direct heat, usually outdoors.
+Grill has 2 distinct senses.
+
+**1. To cook food on a rack over direct heat, usually outdoors.** (жарить на гриле)
 
 1. We *grill* burgers every Fourth of July.
 2. He *grilled* chicken and corn.
 3. They were *grilling* in the backyard when it rained.
+
+**2. To question someone long and hard.** (допрашивать с пристрастием, засыпать вопросами)
+
+4. Reporters *grilled* the mayor for an hour.
+5. Senators are *grilling* the nominee today.
+6. My parents *grill* me about my grades every Sunday.
 
 ---
 
 ### roast
 
 **Pronunciation:** /roʊst/ &middot; *ROHST*
-**Русский:** запекать, жарить в духовке
+**Русский:** запекать, жарить в духовке; высмеивать, высмеять; подкалывать; жёстко критиковать
 **Forms:** *roast* &middot; *roasted* &middot; *roasted*
 **Verb class:** regular
 **Third person:** *roasts* &middot; **-ing form:** *roasting*
 **Transitivity:** both — transitive (roast a chicken), intransitive (the beef is roasting)
 
-To cook meat, vegetables, or nuts in an oven or over a fire.
+Roast has 2 distinct senses.
+
+**1. To cook meat, vegetables, or nuts in an oven or over a fire.** (запекать, жарить в духовке)
 
 1. *Roast* the vegetables at four hundred degrees.
 2. She *roasted* a chicken with lemon.
 3. The coffee beans are *roasted* locally.
+
+**2. To make fun of someone harshly, especially in front of an audience.** (высмеивать, высмеять; подкалывать; жёстко критиковать)
+
+4. His friends *roast* him about that haircut every single year.
+5. The comedian *roasted* the mayor for twenty minutes.
+6. She got *roasted* in the comments for that post.
 
 ---
 
@@ -590,17 +724,25 @@ To cook food over boiling water, using the vapor.
 ### simmer
 
 **Pronunciation:** /ˈsɪmər/ &middot; *SIM-ur*
-**Русский:** варить на медленном огне, томить
+**Русский:** варить на медленном огне, томить; назревать, тлеть (о конфликте); кипеть внутри
 **Forms:** *simmer* &middot; *simmered* &middot; *simmered*
 **Verb class:** regular
 **Third person:** *simmers* &middot; **-ing form:** *simmering*
 **Transitivity:** both — transitive (simmer the sauce), intransitive (let it simmer)
 
-To cook something gently in liquid kept just below boiling.
+Simmer has 2 distinct senses.
+
+**1. To cook something gently in liquid kept just below boiling.** (варить на медленном огне, томить)
 
 1. Let the sauce *simmer* for an hour.
 2. She *simmered* the stock all afternoon.
 3. The beans have been *simmering* since noon.
+
+**2. To exist as anger or tension that is felt but not openly expressed.** (назревать, тлеть (о конфликте); кипеть внутри)
+
+4. Resentment *simmered* in the office for months.
+5. Tensions have been *simmering* between the two neighbors.
+6. Anger can *simmer* for years before it comes out.
 
 **Phrasal verbs:** [simmer down](57-phrasal-regular-q-s.md#simmer-down)
 
@@ -627,18 +769,32 @@ To fry food quickly in a little hot fat, stirring as it cooks.
 ### poach
 
 **Pronunciation:** /poʊtʃ/ &middot; *POHCH*
-**Русский:** варить без скорлупы, припускать
+**Русский:** варить без скорлупы, припускать; браконьерствовать, незаконно охотиться; переманивать, переманить (сотрудника, клиента)
 **Forms:** *poach* &middot; *poached* &middot; *poached*
 **Verb class:** regular
 **Third person:** *poaches* &middot; **-ing form:** *poaching*
 **Transitivity:** transitive
 **Contrast:** -ch takes -es: *poaches*.
 
-To cook food gently in barely simmering liquid.
+Poach has 3 distinct senses.
+
+**1. To cook food gently in barely simmering liquid.** (варить без скорлупы, припускать)
 
 1. *Poach* the eggs for three minutes.
 2. She *poached* salmon in white wine.
 3. He likes his eggs *poached*, not fried.
+
+**2. To hunt or catch animals illegally, or on land that is not yours.** (браконьерствовать, незаконно охотиться)
+
+4. Gangs *poach* elephants for their ivory.
+5. He was caught *poaching* deer on state land.
+6. Thousands of rhinos have been *poached* in the last decade.
+
+**3. To take an employee or a customer away from a rival company.** (переманивать, переманить (сотрудника, клиента))
+
+7. Big firms *poach* engineers with huge salaries.
+8. They *poached* our best designer last spring.
+9. Half the staff has been *poached* by competitors.
 
 ---
 
@@ -692,7 +848,7 @@ To make food or drink moderately hot.
 2. She *warmed* the rolls in the oven.
 3. He is *warming* soup on the stove.
 
-**Phrasal verbs:** [warm over](58-phrasal-regular-t-z.md#warm-over) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up-1) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up) &middot; [warm up to](58-phrasal-regular-t-z.md#warm-up-to)
+**Phrasal verbs:** [warm over](58-phrasal-regular-t-z.md#warm-over) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up-1) &middot; [warm up to](58-phrasal-regular-t-z.md#warm-up-to)
 
 ---
 
@@ -718,17 +874,25 @@ To make something hot, especially food or liquid.
 ### chill
 
 **Pronunciation:** /tʃɪl/ &middot; *CHIL*
-**Русский:** охлаждать, остудить
+**Русский:** охлаждать, остудить; отдыхать, расслабляться; бездельничать
 **Forms:** *chill* &middot; *chilled* &middot; *chilled*
 **Verb class:** regular
 **Third person:** *chills* &middot; **-ing form:** *chilling*
 **Transitivity:** both — transitive (chill the wine), intransitive (the dough chills overnight)
 
-To make food or drink cold, usually in a refrigerator.
+Chill has 2 distinct senses.
+
+**1. To make food or drink cold, usually in a refrigerator.** (охлаждать, остудить)
 
 1. *Chill* the wine for an hour.
 2. She *chilled* the dough overnight.
 3. The dessert is *chilling* in the fridge.
+
+**2. To relax and do nothing, in informal speech.** (отдыхать, расслабляться; бездельничать)
+
+4. We're just going to *chill* at home tonight.
+5. They *chilled* on the porch all afternoon.
+6. I was *chilling* in my room when she called.
 
 **Phrasal verbs:** [chill out](53-phrasal-regular-a-c.md#chill-out)
 
@@ -754,17 +918,25 @@ To keep food cold in a refrigerator so that it stays fresh.
 ### defrost
 
 **Pronunciation:** /dɪˈfrɔːst/ &middot; *di-FRAWST*
-**Русский:** размораживать, разморозить
+**Русский:** размораживать, разморозить; размораживать (морозильник); оттаивать (стекло)
 **Forms:** *defrost* &middot; *defrosted* &middot; *defrosted*
 **Verb class:** regular
 **Third person:** *defrosts* &middot; **-ing form:** *defrosting*
 **Transitivity:** both — transitive (defrost the chicken), intransitive (the steaks defrosted)
 
-To let frozen food warm up until it is no longer frozen.
+Defrost has 2 distinct senses.
+
+**1. To let frozen food warm up until it is no longer frozen.** (размораживать, разморозить)
 
 1. *Defrost* the chicken in the fridge, not on the counter.
 2. She *defrosted* the shrimp under cold water.
 3. The steaks are *defrosting* on a plate.
+
+**2. To clear ice or frost from a car window or from a freezer.** (размораживать (морозильник); оттаивать (стекло))
+
+4. *Defrost* the windshield before you pull out of the driveway.
+5. He *defrosted* the freezer over the weekend.
+6. The rear window is still *defrosting*.
 
 ---
 
@@ -808,73 +980,105 @@ To soak food in a seasoned liquid before cooking it.
 ### sprinkle
 
 **Pronunciation:** /ˈsprɪŋkəl/ &middot; *SPRING-kul*
-**Русский:** посыпать, присыпать
+**Русский:** посыпать, присыпать; накрапывать, моросить (о дожде)
 **Forms:** *sprinkle* &middot; *sprinkled* &middot; *sprinkled*
 **Verb class:** regular
 **Third person:** *sprinkles* &middot; **-ing form:** *sprinkling*
 **Transitivity:** transitive
 **Contrast:** The final -e drops before -ing: *sprinkling*.
 
-To scatter small amounts of something over food.
+Sprinkle has 2 distinct senses.
+
+**1. To scatter small amounts of something over food.** (посыпать, присыпать)
 
 1. *Sprinkle* sugar over the berries.
 2. He *sprinkled* cheese on the pasta.
 3. She is *sprinkling* salt on the fries.
+
+**2. To rain very lightly.** (накрапывать, моросить (о дожде))
+
+4. It may *sprinkle* this afternoon, but the game will go on.
+5. It *sprinkled* a little overnight.
+6. It was *sprinkling*, so we took an umbrella.
 
 ---
 
 ### garnish
 
 **Pronunciation:** /ˈɡɑːrnɪʃ/ &middot; *GAR-nish*
-**Русский:** украшать блюдо, гарнировать
+**Русский:** украшать блюдо, гарнировать; удерживать (часть зарплаты) в счёт долга, налагать арест (на счёт)
 **Forms:** *garnish* &middot; *garnished* &middot; *garnished*
 **Verb class:** regular
 **Third person:** *garnishes* &middot; **-ing form:** *garnishing*
 **Transitivity:** transitive
 **Contrast:** False friend: English *garnish* is a decoration, not Russian гарнир — that is a *side dish*. And -sh takes -es: *garnishes*.
 
-To decorate a dish or a drink with a small piece of food.
+Garnish has 2 distinct senses.
+
+**1. To decorate a dish or a drink with a small piece of food.** (украшать блюдо, гарнировать)
 
 1. *Garnish* the soup with parsley.
 2. The bartender *garnished* the drink with a lime wedge.
 3. Each plate was *garnished* with mint.
+
+**2. To take money out of someone's pay or bank account by court order to settle a debt.** (удерживать (часть зарплаты) в счёт долга, налагать арест (на счёт))
+
+4. The court *garnished* his wages for unpaid child support.
+5. Creditors can *garnish* up to a quarter of a paycheck.
+6. Her account had already been *garnished* twice.
 
 ---
 
 ### drizzle
 
 **Pronunciation:** /ˈdrɪzəl/ &middot; *DRIZ-ul*
-**Русский:** поливать тонкой струйкой, сбрызгивать
+**Русский:** поливать тонкой струйкой, сбрызгивать; моросить
 **Forms:** *drizzle* &middot; *drizzled* &middot; *drizzled*
 **Verb class:** regular
 **Third person:** *drizzles* &middot; **-ing form:** *drizzling*
 **Transitivity:** transitive
 
-To pour a thin stream of liquid slowly over food.
+Drizzle has 2 distinct senses.
+
+**1. To pour a thin stream of liquid slowly over food.** (поливать тонкой струйкой, сбрызгивать)
 
 1. *Drizzle* olive oil over the salad.
 2. She *drizzled* honey on the yogurt.
 3. He is *drizzling* melted chocolate on the cake.
+
+**2. For light rain to fall in very fine drops.** (моросить)
+
+4. It *drizzled* off and on all morning.
+5. If it *drizzles*, the game goes on anyway.
+6. It was *drizzling* when we left the stadium.
 
 ---
 
 ### top
 
 **Pronunciation:** /tɑːp/ &middot; *TAHP*
-**Русский:** покрывать сверху, класть сверху
+**Русский:** покрывать сверху, класть сверху; превышать, превысить; возглавлять (список)
 **Forms:** *top* &middot; *topped* &middot; *topped*
 **Verb class:** regular
 **Third person:** *tops* &middot; **-ing form:** *topping*
 **Transitivity:** transitive
 **Contrast:** The p doubles: *topped*, *topping*.
 
-To put something on the surface of a dish as a finishing layer.
+Top has 2 distinct senses.
+
+**1. To put something on the surface of a dish as a finishing layer.** (покрывать сверху, класть сверху)
 
 1. *Top* the pie with whipped cream.
 2. They *topped* the burger with a fried egg.
 3. The sundae came *topped* with nuts.
 
-**Phrasal verbs:** [top off](58-phrasal-regular-t-z.md#top-off-1) &middot; [top off](58-phrasal-regular-t-z.md#top-off) &middot; [top out](58-phrasal-regular-t-z.md#top-out)
+**2. To be greater than an amount, or to stand in first place on a list.** (превышать, превысить; возглавлять (список))
+
+4. No one expected the sequel to *top* the original.
+5. Sales *topped* a million dollars last quarter.
+6. The song has *topped* the charts for six straight weeks.
+
+**Phrasal verbs:** [top off](58-phrasal-regular-t-z.md#top-off) &middot; [top off](58-phrasal-regular-t-z.md#top-off-1) &middot; [top out](58-phrasal-regular-t-z.md#top-out)
 
 ---
 
@@ -936,17 +1140,25 @@ To chop food into very small pieces.
 ### peel
 
 **Pronunciation:** /piːl/ &middot; *PEEL*
-**Русский:** чистить, очищать от кожуры
+**Русский:** чистить, очищать от кожуры; облезать, облезть; шелушиться; отслаиваться, отслоиться
 **Forms:** *peel* &middot; *peeled* &middot; *peeled*
 **Verb class:** regular
 **Third person:** *peels* &middot; **-ing form:** *peeling*
 **Transitivity:** both — transitive (peel a potato), intransitive (the skin peels off easily)
 
-To remove the skin from a fruit or vegetable.
+Peel has 2 distinct senses.
+
+**1. To remove the skin from a fruit or vegetable.** (чистить, очищать от кожуры)
 
 1. *Peel* the carrots before you grate them.
 2. He *peeled* five potatoes.
 3. She is *peeling* an orange for the kids.
+
+**2. For paint, skin, or a surface layer to come away in thin pieces.** (облезать, облезть; шелушиться; отслаиваться, отслоиться)
+
+4. The paint *peels* every summer.
+5. My shoulders *peeled* after a day at the beach.
+6. The wallpaper is *peeling* near the ceiling.
 
 **Phrasal verbs:** [peel off](56-phrasal-regular-m-p.md#peel-off) &middot; [peel out](56-phrasal-regular-m-p.md#peel-out)
 
@@ -955,18 +1167,26 @@ To remove the skin from a fruit or vegetable.
 ### grate
 
 **Pronunciation:** /ɡreɪt/ &middot; *GRAYT*
-**Русский:** тереть на тёрке, натирать
+**Русский:** тереть на тёрке, натирать; скрежетать, скрипеть; раздражать (слух)
 **Forms:** *grate* &middot; *grated* &middot; *grated*
 **Verb class:** regular
 **Third person:** *grates* &middot; **-ing form:** *grating*
 **Transitivity:** transitive
 **Contrast:** Sounds exactly like *great*; the -e drops before -ing: *grating*.
 
-To rub food against a rough surface so it breaks into small shreds.
+Grate has 2 distinct senses.
+
+**1. To rub food against a rough surface so it breaks into small shreds.** (тереть на тёрке, натирать)
 
 1. *Grate* some parmesan over the pasta.
 2. She *grated* a whole block of cheese.
 3. He is *grating* carrots for the salad.
+
+**2. To rub against something with a harsh scraping sound, or to be irritating to hear.** (скрежетать, скрипеть; раздражать (слух))
+
+4. The heavy door *grated* as it swung open.
+5. His laugh *grates* after about an hour.
+6. Metal *grating* against metal woke the whole street.
 
 **Phrasal verbs:** [grate on](55-phrasal-regular-g-l.md#grate-on)
 
@@ -993,37 +1213,53 @@ To crush cooked food into a soft mass.
 ### whip
 
 **Pronunciation:** /wɪp/ &middot; *WIP*
-**Русский:** взбивать, взбить
+**Русский:** взбивать, взбить; хлестать, отхлестать; стегать, стегнуть
 **Forms:** *whip* &middot; *whipped* &middot; *whipped*
 **Verb class:** regular
 **Third person:** *whips* &middot; **-ing form:** *whipping*
 **Transitivity:** transitive
 **Contrast:** The p doubles: *whipped*, *whipping* — as in *whipped cream*.
 
-To beat cream or eggs quickly until they are light and thick.
+Whip has 2 distinct senses.
+
+**1. To beat cream or eggs quickly until they are light and thick.** (взбивать, взбить)
 
 1. *Whip* the cream until it holds peaks.
 2. She *whipped* the egg whites by hand.
 3. He is *whipping* butter and sugar together.
 
-**Phrasal verbs:** [whip out](58-phrasal-regular-t-z.md#whip-out) &middot; [whip through](58-phrasal-regular-t-z.md#whip-through) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up-1) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up)
+**2. To strike a person or an animal with a whip, or to lash at something the way a whip does.** (хлестать, отхлестать; стегать, стегнуть)
+
+4. He would never *whip* a horse to make it run faster.
+5. The rider *whipped* the horse's flank.
+6. Rain was *whipping* against the windows all night.
+
+**Phrasal verbs:** [whip out](58-phrasal-regular-t-z.md#whip-out) &middot; [whip through](58-phrasal-regular-t-z.md#whip-through) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up-1)
 
 ---
 
 ### whisk
 
 **Pronunciation:** /wɪsk/ &middot; *WISK*
-**Русский:** взбивать венчиком, размешивать
+**Русский:** взбивать венчиком, размешивать; быстро увозить, умчать; стремительно уводить
 **Forms:** *whisk* &middot; *whisked* &middot; *whisked*
 **Verb class:** regular
 **Third person:** *whisks* &middot; **-ing form:** *whisking*
 **Transitivity:** transitive
 
-To mix or beat ingredients rapidly with a wire tool or a fork.
+Whisk has 2 distinct senses.
+
+**1. To mix or beat ingredients rapidly with a wire tool or a fork.** (взбивать венчиком, размешивать)
 
 1. *Whisk* the eggs with a little milk.
 2. He *whisked* the sauce until it was smooth.
 3. She is *whisking* batter for pancakes.
+
+**2. To take someone or something somewhere very quickly.** (быстро увозить, умчать; стремительно уводить)
+
+4. A car will *whisk* you from the airport to the hotel.
+5. Guards *whisked* the senator into a waiting van.
+6. She was *whisked* to the hospital in an ambulance.
 
 **Phrasal verbs:** [whisk away](58-phrasal-regular-t-z.md#whisk-away)
 
@@ -1032,18 +1268,26 @@ To mix or beat ingredients rapidly with a wire tool or a fork.
 ### pour
 
 **Pronunciation:** /pɔːr/ &middot; *POR*
-**Русский:** наливать, налить
+**Русский:** наливать, налить; лить как из ведра, хлестать (о дожде)
 **Forms:** *pour* &middot; *poured* &middot; *poured*
 **Verb class:** regular
 **Third person:** *pours* &middot; **-ing form:** *pouring*
 **Transitivity:** both — transitive (pour the milk), intransitive (pour from the jug)
 **Contrast:** Rhymes with *more*; the sound-alike *pore* is a tiny hole in the skin.
 
-To make a liquid flow from one container into another.
+Pour has 2 distinct senses.
+
+**1. To make a liquid flow from one container into another.** (наливать, налить)
 
 1. *Pour* the milk slowly.
 2. He *poured* everyone a glass of wine.
 3. She is *pouring* coffee for the table.
+
+**2. To rain very hard.** (лить как из ведра, хлестать (о дожде))
+
+4. It *poured* all weekend.
+5. Don't go out right now — it's *pouring*.
+6. If it *pours* again tonight, the game is off.
 
 **Phrasal verbs:** [pour down](56-phrasal-regular-m-p.md#pour-down) &middot; [pour in](56-phrasal-regular-m-p.md#pour-in) &middot; [pour out](56-phrasal-regular-m-p.md#pour-out-1) &middot; [pour out](56-phrasal-regular-m-p.md#pour-out)
 
@@ -1107,34 +1351,50 @@ To leave tea or herbs in hot water so that the flavor comes out.
 ### dilute
 
 **Pronunciation:** /daɪˈluːt/ &middot; *dy-LOOT*
-**Русский:** разбавлять, разбавить
+**Русский:** разбавлять, разбавить; ослаблять, ослабить; размывать (эффект, долю)
 **Forms:** *dilute* &middot; *diluted* &middot; *diluted*
 **Verb class:** regular
 **Third person:** *dilutes* &middot; **-ing form:** *diluting*
 **Transitivity:** transitive
 
-To make a liquid weaker by adding water to it.
+Dilute has 2 distinct senses.
+
+**1. To make a liquid weaker by adding water to it.** (разбавлять, разбавить)
 
 1. *Dilute* the syrup with cold water.
 2. He *diluted* the juice for the children.
 3. The soup tasted *diluted* after all that broth.
+
+**2. To weaken the strength or effect of something by spreading it out or adding to it.** (ослаблять, ослабить; размывать (эффект, долю))
+
+4. Too many exceptions *dilute* the rule.
+5. The new shares *diluted* his stake in the company.
+6. The message has been *diluted* by endless rewrites.
 
 ---
 
 ### soak
 
 **Pronunciation:** /soʊk/ &middot; *SOHK*
-**Русский:** замачивать, вымачивать
+**Русский:** замачивать, вымачивать; промачивать насквозь, промочить; вымочить
 **Forms:** *soak* &middot; *soaked* &middot; *soaked*
 **Verb class:** regular
 **Third person:** *soaks* &middot; **-ing form:** *soaking*
 **Transitivity:** both — transitive (soak the beans), intransitive (the rice soaks for an hour)
 
-To leave food or dishes in liquid for a long time.
+Soak has 2 distinct senses.
+
+**1. To leave food or dishes in liquid for a long time.** (замачивать, вымачивать)
 
 1. *Soak* the beans overnight.
 2. She *soaked* the rice for twenty minutes.
 3. The pans are *soaking* in the sink.
+
+**2. To make something or someone completely wet.** (промачивать насквозь, промочить; вымочить)
+
+4. The rain *soaked* us on the way to the car.
+5. A broken pipe was *soaking* the carpet.
+6. One more wave like that will *soak* everything in the boat.
 
 **Phrasal verbs:** [soak up](57-phrasal-regular-q-s.md#soak-up) &middot; [soak up](57-phrasal-regular-q-s.md#soak-up-1)
 
@@ -1163,39 +1423,67 @@ To wash something quickly with clean water.
 ### wash
 
 **Pronunciation:** /wɑːʃ/ &middot; *WAHSH*
-**Русский:** мыть, вымыть
+**Русский:** мыть, вымыть; выносить (водой), прибивать к берегу; смывать, смыть
 **Forms:** *wash* &middot; *washed* &middot; *washed*
 **Verb class:** regular
 **Third person:** *washes* &middot; **-ing form:** *washing*
 **Transitivity:** both — transitive (wash the dishes), intransitive (wash before dinner)
 **Contrast:** -sh takes -es: *washes*.
 
-To clean something with water, usually with soap.
+Wash has 2 distinct senses.
+
+**1. To clean something with water, usually with soap.** (мыть, вымыть)
 
 1. *Wash* your hands before you cook.
 2. He *washed* the dishes after dinner.
 3. She is *washing* grapes at the sink.
 
-**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1)
+**2. For moving water to carry something to a place.** (выносить (водой), прибивать к берегу; смывать, смыть)
+
+4. Bottles and driftwood *wash* onto this beach after every storm.
+5. The flood *washed* topsoil into the creek.
+6. A dead whale had *washed* ashore overnight.
+
+**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1)
 
 ---
 
 ### clear
 
 **Pronunciation:** /klɪr/ &middot; *KLEER*
-**Русский:** убирать (со стола), освобождать
+**Русский:** убирать (со стола), освобождать; проясняться, проясниться; расходиться (о тучах, тумане); снимать обвинения, оправдывать, оправдать; давать разрешение, допускать; утверждать, санкционировать
 **Forms:** *clear* &middot; *cleared* &middot; *cleared*
 **Verb class:** regular
 **Third person:** *clears* &middot; **-ing form:** *clearing*
 **Transitivity:** both — transitive (clear the table), intransitive (we cleared up after dinner)
 
-To take dishes and food off a table.
+Clear has 4 distinct senses.
+
+**1. To take dishes and food off a table.** (убирать (со стола), освобождать)
 
 1. Let's *clear* the table before dessert.
 2. She *cleared* the plates while we talked.
 3. He is *clearing* the last of the glasses.
 
-**Phrasal verbs:** [clear off](53-phrasal-regular-a-c.md#clear-off) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-2) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-1)
+**2. Of the sky or the weather, to become bright and free of clouds, fog, or rain.** (проясняться, проясниться; расходиться (о тучах, тумане))
+
+4. The sky usually *clears* by noon here.
+5. The fog *cleared* just before we landed.
+6. The storm has *cleared*, and the stars are out.
+
+**3. To prove that someone is not guilty.** (снимать обвинения, оправдывать, оправдать)
+
+7. New evidence may *clear* him.
+8. The jury *cleared* her of all charges.
+9. He was *cleared* after two years in prison.
+
+**4. To give official permission or approval for something.** (давать разрешение, допускать; утверждать, санкционировать)
+
+10. A doctor has to *clear* you before you can play again.
+11. The tower *cleared* us for takeoff.
+12. The drug has not been *cleared* for children.
+
+**Phrasal verbs:** [clear off](53-phrasal-regular-a-c.md#clear-off) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out-1) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-2) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up)
 
 ---
 
@@ -1221,38 +1509,54 @@ To remove dirt or food from something.
 ### wipe
 
 **Pronunciation:** /waɪp/ &middot; *WYPE*
-**Русский:** вытирать, протирать
+**Русский:** вытирать, протирать; стирать, стереть (данные); очищать (память устройства)
 **Forms:** *wipe* &middot; *wiped* &middot; *wiped*
 **Verb class:** regular
 **Third person:** *wipes* &middot; **-ing form:** *wiping*
 **Transitivity:** transitive
 **Contrast:** The final -e drops before -ing: *wiping*.
 
-To rub a surface with a cloth to clean or dry it.
+Wipe has 2 distinct senses.
+
+**1. To rub a surface with a cloth to clean or dry it.** (вытирать, протирать)
 
 1. *Wipe* the table, please.
 2. He *wiped* his mouth with a napkin.
 3. She is *wiping* down the counter.
 
-**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
+**2. To erase everything stored on a phone, a drive, or a computer.** (стирать, стереть (данные); очищать (память устройства))
+
+4. Remember to *wipe* the phone before you sell it.
+5. The update *wiped* all my saved photos.
+6. The laptop had already been *wiped* when police got it.
+
+**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
 
 ---
 
 ### scrub
 
 **Pronunciation:** /skrʌb/ &middot; *SKRUB*
-**Русский:** тереть, оттирать
+**Русский:** тереть, оттирать; отменять, отменить (запуск, план)
 **Forms:** *scrub* &middot; *scrubbed* &middot; *scrubbed*
 **Verb class:** regular
 **Third person:** *scrubs* &middot; **-ing form:** *scrubbing*
 **Transitivity:** both — transitive (scrub the pan), intransitive (scrub harder)
 **Contrast:** The b doubles: *scrubbed*, *scrubbing*.
 
-To rub something hard with a brush or cloth to clean it.
+Scrub has 2 distinct senses.
+
+**1. To rub something hard with a brush or cloth to clean it.** (тереть, оттирать)
 
 1. *Scrub* the potatoes under cold water.
 2. He *scrubbed* the burnt pan for ten minutes.
 3. She is *scrubbing* the cutting board.
+
+**2. To cancel something that was planned, especially at the last minute.** (отменять, отменить (запуск, план))
+
+4. They may *scrub* the launch if the wind picks up.
+5. The airline *scrubbed* the flight because of ice on the wings.
+6. The mission was *scrubbed* twice in one week.
 
 ---
 
@@ -1272,27 +1576,41 @@ To remove the water from something.
 2. He washed and *dried* every glass.
 3. The herbs are *drying* by the window.
 
-**Phrasal verbs:** [dry off](54-phrasal-regular-d-f.md#dry-off) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out-1) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up-1) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up)
+**Phrasal verbs:** [dry off](54-phrasal-regular-d-f.md#dry-off) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out-1) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up-1) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up)
 
 ---
 
 ### fill
 
 **Pronunciation:** /fɪl/ &middot; *FIL*
-**Русский:** наполнять, наполнить
+**Русский:** наполнять, наполнить; заполнять (вакансию), занимать (должность), закрывать (позицию); выполнять, выполнить (заказ); отпускать (лекарство по рецепту)
 **Forms:** *fill* &middot; *filled* &middot; *filled*
 **Verb class:** regular
 **Third person:** *fills* &middot; **-ing form:** *filling*
 **Transitivity:** both — transitive (fill the pot), intransitive (the restaurant fills up by seven)
 **Contrast:** Takes **with** for the contents: *fill the glass with* water.
 
-To put enough of something into a container to make it full.
+Fill has 3 distinct senses.
+
+**1. To put enough of something into a container to make it full.** (наполнять, наполнить)
 
 1. *Fill* the pot with cold water.
 2. She *filled* our glasses to the top.
 3. He is *filling* the kettle.
 
-**Phrasal verbs:** [fill in](54-phrasal-regular-d-f.md#fill-in) &middot; [fill in](54-phrasal-regular-d-f.md#fill-in-1) &middot; [fill in for](54-phrasal-regular-d-f.md#fill-in-for) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out-1) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out) &middot; [fill up](54-phrasal-regular-d-f.md#fill-up) &middot; [fill up on](54-phrasal-regular-d-f.md#fill-up-on)
+**2. To put someone into a job or a position that is empty.** (заполнять (вакансию), занимать (должность), закрывать (позицию))
+
+4. They still haven't *filled* the manager's job.
+5. The position was *filled* internally.
+6. We're *filling* two openings this month.
+
+**3. To supply what a customer has ordered or a doctor has prescribed.** (выполнять, выполнить (заказ); отпускать (лекарство по рецепту))
+
+7. The pharmacy can *fill* your prescription in ten minutes.
+8. They *filled* the order the same day.
+9. That prescription has already been *filled* once.
+
+**Phrasal verbs:** [fill in](54-phrasal-regular-d-f.md#fill-in-1) &middot; [fill in](54-phrasal-regular-d-f.md#fill-in) &middot; [fill in for](54-phrasal-regular-d-f.md#fill-in-for) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out-1) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out) &middot; [fill up](54-phrasal-regular-d-f.md#fill-up) &middot; [fill up on](54-phrasal-regular-d-f.md#fill-up-on)
 
 ---
 
@@ -1317,18 +1635,26 @@ To keep vegetables in vinegar or salty water so that they last and taste sour.
 ### suck
 
 **Pronunciation:** /sʌk/ &middot; *SUK*
-**Русский:** сосать, посасывать
+**Русский:** сосать, посасывать; быть отстойным, никуда не годиться; «отстой»
 **Forms:** *suck* &middot; *sucked* &middot; *sucked*
 **Verb class:** regular
 **Third person:** *sucks* &middot; **-ing form:** *sucking*
 **Transitivity:** both — transitive (suck the juice out), intransitive (suck on a candy)
 **Contrast:** With candy or a straw it takes **on**: *suck on* a lozenge.
 
-To draw liquid or a piece of food into your mouth with your lips.
+Suck has 2 distinct senses.
+
+**1. To draw liquid or a piece of food into your mouth with your lips.** (сосать, посасывать)
 
 1. Don't *suck* the juice straight out of the box.
 2. She *sucked* her soda through a straw.
 3. He was *sucking* on a cough drop.
+
+**2. To be very bad or very unpleasant, in informal speech.** (быть отстойным, никуда не годиться; «отстой»)
+
+4. This weather *sucks*.
+5. The movie *sucked*, but the popcorn was good.
+6. Losing your wallet on the first day of vacation really *sucks*.
 
 **Phrasal verbs:** [suck up](57-phrasal-regular-q-s.md#suck-up) &middot; [suck up to](57-phrasal-regular-q-s.md#suck-up-to)
 
@@ -1337,18 +1663,32 @@ To draw liquid or a piece of food into your mouth with your lips.
 ### flip
 
 **Pronunciation:** /flɪp/ &middot; *FLIP*
-**Русский:** переворачивать, перевернуть
+**Русский:** переворачивать, перевернуть; подбрасывать монету, бросать жребий; перепродавать с выгодой, перепродать (быстро)
 **Forms:** *flip* &middot; *flipped* &middot; *flipped*
 **Verb class:** regular
 **Third person:** *flips* &middot; **-ing form:** *flipping*
 **Transitivity:** both — transitive (flip the pancakes), intransitive (the burger flipped onto the coals)
 **Contrast:** The p doubles: *flipped*, *flipping*.
 
-To turn food over quickly so that the other side cooks.
+Flip has 3 distinct senses.
+
+**1. To turn food over quickly so that the other side cooks.** (переворачивать, перевернуть)
 
 1. *Flip* the pancakes when they bubble.
 2. He *flipped* the burgers one by one.
 3. She is *flipping* an omelet in the pan.
+
+**2. To toss a coin in the air in order to decide something by chance.** (подбрасывать монету, бросать жребий)
+
+4. Let's *flip* a coin for it.
+5. The referee *flipped* the coin at midfield.
+6. They're *flipping* a coin to see who goes first.
+
+**3. To buy something cheaply and resell it quickly for a profit.** (перепродавать с выгодой, перепродать (быстро))
+
+7. They *flip* houses for a living.
+8. He *flipped* the tickets for twice what he paid.
+9. She's been *flipping* thrift-store furniture on the side.
 
 **Phrasal verbs:** [flip off](54-phrasal-regular-d-f.md#flip-off) &middot; [flip out](54-phrasal-regular-d-f.md#flip-out) &middot; [flip over](54-phrasal-regular-d-f.md#flip-over) &middot; [flip through](54-phrasal-regular-d-f.md#flip-through)
 
@@ -1392,19 +1732,27 @@ To cook food with strong heat coming from above, as in an American oven.
 ### cool
 
 **Pronunciation:** /kuːl/ &middot; *KOOL*
-**Русский:** остывать, охлаждать
+**Русский:** остывать, охлаждать; охладевать, остывать (о чувствах), поостыть
 **Forms:** *cool* &middot; *cooled* &middot; *cooled*
 **Verb class:** regular
 **Third person:** *cools* &middot; **-ing form:** *cooling*
 **Transitivity:** both — transitive (cool the syrup), intransitive (let the pie cool)
 
-To become less hot, or to make something less hot.
+Cool has 2 distinct senses.
+
+**1. To become less hot, or to make something less hot.** (остывать, охлаждать)
 
 1. Let the pie *cool* before you cut it.
 2. The soup *cooled* while we talked.
 3. The cookies are *cooling* on a rack.
 
-**Phrasal verbs:** [cool down](53-phrasal-regular-a-c.md#cool-down) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off-1)
+**2. To become less friendly or less enthusiastic.** (охладевать, остывать (о чувствах), поостыть)
+
+4. Relations between the two countries have *cooled*.
+5. His interest in the project began to *cool* after a month.
+6. With demand *cooling*, the store cut its prices.
+
+**Phrasal verbs:** [cool down](53-phrasal-regular-a-c.md#cool-down) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off-1) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off)
 
 ---
 
@@ -1429,17 +1777,25 @@ To add salt to food.
 ### sweeten
 
 **Pronunciation:** /ˈswiːtən/ &middot; *SWEE-tun*
-**Русский:** подслащивать, подсластить
+**Русский:** подслащивать, подсластить; делать привлекательнее (предложение), улучшать условия
 **Forms:** *sweeten* &middot; *sweetened* &middot; *sweetened*
 **Verb class:** regular
 **Third person:** *sweetens* &middot; **-ing form:** *sweetening*
 **Transitivity:** transitive
 
-To make food or drink taste sweeter.
+Sweeten has 2 distinct senses.
+
+**1. To make food or drink taste sweeter.** (подслащивать, подсластить)
 
 1. *Sweeten* the tea with honey instead of sugar.
 2. She *sweetened* the sauce with a little maple syrup.
 3. This yogurt is *sweetened* with fruit.
+
+**2. To make an offer or a deal more attractive.** (делать привлекательнее (предложение), улучшать условия)
+
+4. They *sweetened* the offer with two extra vacation days.
+5. The city may *sweeten* the deal to keep the factory.
+6. The contract was *sweetened* at the last minute.
 
 ---
 

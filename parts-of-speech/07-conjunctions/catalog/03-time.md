@@ -45,12 +45,18 @@ Marks the main clause event as following the *after* clause event. With a clause
 
 Sets two events side by side in time, usually with a sense that they unfold together rather than meeting at a single point. *When* names a moment and *while* spans a stretch; *as* is the one that runs two things in parallel, which makes it the natural choice for gradual change (*as the days got shorter*). It is the most overloaded word in this file: besides time it gives a reason (*as it was late, we left*), a manner (*do as I do*), a comparison (*as tall as his brother*), and a grudging concession (*tired as he was, he finished*), and with a noun phrase it is a preposition instead (*as a child*, *works as a nurse*). That crowding is exactly why *as* is a bad choice whenever a reader might hear "because."
 
-1. *As* the bell rang, half the class was already standing.
-2. She hummed *as* she worked.
-3. *As* the years went by, the letters came less often.
-4. Just *as* I sat down, the phone rang.
-5. The crowd got quieter *as* the speaker went on.
-6. *As* we drove west, the mountains came into view.
+**1. Two things running along together, usually changing as they go.** The durative sense: neither event is a point, and that is why *as* is the natural word for gradual change. (по мере того как; когда — о двух параллельных действиях)
+
+1. She hummed *as* she worked.
+2. *As* the years went by, the letters came less often.
+3. The crowd got quieter *as* the speaker went on.
+4. *As* we drove west, the mountains came into view.
+
+**2. *Just as* — the single instant at which two things coincide.** Punctual rather than durative: the two events meet at one point, and *just* is usually there to mark it. (в тот самый момент, когда; едва)
+
+5. Just *as* I sat down, the phone rang.
+6. *As* the bell rang, half the class was already standing.
+7. Just *as* we pulled into the driveway, the rain started.
 
 **See also:** [when](#when), [while](#while), [as soon as](#as-soon-as), [as long as](#as-long-as), [the moment](#the-moment)
 
@@ -66,12 +72,24 @@ Sets two events side by side in time, usually with a sense that they unfold toge
 
 The exact mirror of *after*: the main clause event precedes the *before* clause event. Keep the clause in the present when the reference is future (*before she gets here*). Only the clause use is the conjunction — with a noun phrase it is a preposition (*before noon*), and on its own it is an adverb (*I've seen this before*). Note the idiomatic "and it never happened" reading in sentences like *He hung up before I could thank him*, where the *before* event is exactly the one that did not occur.
 
+**1. The main clause happens first — the mirror of *after*.** (прежде чем; до того как)
+
 1. *Before* you leave, make sure the back door is locked.
 2. We got the tent up *before* it started raining.
-3. He hung up *before* I could explain.
-4. *Before* the bridge was built, the trip took two hours.
-5. Call me *before* you buy anything.
-6. It was a good ten minutes *before* anybody said a word.
+3. *Before* the bridge was built, the trip took two hours.
+4. Call me *before* you buy anything.
+
+**2. "…and it never happened" — the *before* event is the one that got cut off.** With *could* or *had a chance to* in the clause, English reports what the first event prevented, and Russian turns the sentence around with «не дав» or «так и не». (не дав …; так и не успев …)
+
+5. He hung up *before* I could explain.
+6. The car was gone *before* anybody thought to write down the plate.
+7. She was out the door *before* I had a chance to thank her.
+
+**3. How long it took — *it was* [stretch of time] *before* …** The measure phrase carries the point; the clause names what everyone was waiting for. (прошло …, прежде чем …)
+
+8. It was a good ten minutes *before* anybody said a word.
+9. It was two more winters *before* the road was finally paved.
+10. It will be years *before* we know whether it worked.
 
 **See also:** [after](#after), [until](#until), [by the time](#by-the-time), [till](#till), [previously](#previously), [ere](#ere)
 
@@ -130,13 +148,20 @@ Marks the start of a stretch that runs up to now, which is why the main clause a
 
 Means exactly what *until* means, and takes a clause or a noun phrase for the same reason *until* does — conjunction in front of a clause, preposition in front of a noun. Despite appearances *till* is the older word and not a clipping of *until*, which is why the apostrophe in *'til* is a back-formation that editors delete. Use *until* at the start of a sentence and in formal writing; *till* is at home in speech and casual prose.
 
+**1. The endpoint of something that goes on up to it.** (пока не; до тех пор пока не)
+
 1. Stir it *till* the sugar dissolves.
 2. We stayed *till* the last band finished.
-3. I didn't know he was sick *till* somebody told me at work.
-4. Just hold the door *till* I get the stroller through.
-5. Nobody moved *till* the coach blew the whistle.
+3. Just hold the door *till* I get the stroller through.
+4. Nobody moved *till* the coach blew the whistle.
+5. She kept refreshing the page *till* the grades posted.
 6. *Till* I saw the bill, I had no idea how much we'd spent.
-7. She kept refreshing the page *till* the grades posted.
+
+**2. *not … till* — "only then."** The negative in front does not say the thing never happened; it pins down the moment it did. (только когда; не раньше чем)
+
+7. I didn't know he was sick *till* somebody told me at work.
+8. The mail doesn't come *till* after four out here.
+9. He didn't admit any of it *till* the second interview.
 
 **See also:** [until](#until), [before](#before), [as long as](#as-long-as), [until such time as](#until-such-time-as)
 
@@ -152,12 +177,18 @@ Means exactly what *until* means, and takes a clause or a noun phrase for the sa
 
 Marks the endpoint of a situation that continues up to it. In front of a clause it is a conjunction; in front of a noun phrase (*until Friday*) the same word is a preposition. Keep the clause in the present for future reference (*until she gets back*). The most useful pattern is the negative one: *not … until* is how English says "only at that point" — *The store doesn't open until ten* is a statement about ten o'clock, not about the store being closed forever.
 
+**1. The endpoint of something that goes on up to it.** The main clause names a situation that lasts; the *until* clause says where it stops. (пока не; до тех пор пока не)
+
 1. Wait here *until* I call you.
-2. *Until* the results came back, nobody said anything out loud.
-3. The store doesn't open *until* ten.
-4. We kept the heat on *until* the pipes thawed.
-5. He didn't tell his parents *until* the semester was over.
-6. *Until* you've tried it yourself, don't knock it.
+2. We kept the heat on *until* the pipes thawed.
+3. *Until* the results came back, nobody said anything out loud.
+4. *Until* you've tried it yourself, don't knock it.
+
+**2. *not … until* — "only at that point."** The negative main clause is not a claim that the thing never happens: it fixes the moment at which it finally does, and Russian says that with «только». (только когда; только в; не раньше чем)
+
+5. The store doesn't open *until* ten.
+6. He didn't tell his parents *until* the semester was over.
+7. We didn't hear about the layoffs *until* the following Monday.
 
 **See also:** [till](#till), [before](#before), [as long as](#as-long-as), [by the time](#by-the-time), [until such time as](#until-such-time-as)
 
@@ -173,12 +204,31 @@ Marks the endpoint of a situation that continues up to it. In front of a clause 
 
 The default time subordinator: it puts the main clause at the point named by the *when* clause. *While* spreads the event across a stretch, *as* runs the two together, and *when* simply says "at that time." Never use *will* inside it — *when he gets here*, not *when he will get here*.
 
+**1. At the time that — the plain adverbial clause of time.** Points at a moment, where *while* spreads over a stretch. Never *will* inside it: *when he gets here*. (когда)
+
 1. *When* the power went out, the whole block came outside.
 2. Call me *when* you get in.
 3. *When* I was a kid, we drove to Michigan every August.
-4. She was halfway through the story *when* her phone rang.
-5. *When* the check finally cleared, I felt like I could breathe.
-6. Text me *when* you're five minutes out.
+4. *When* the check finally cleared, I felt like I could breathe.
+5. Text me *when* you're five minutes out.
+
+**2. The interrupting turn — "and just then."** The *when* clause comes second and carries the surprise, and the comma in front of it is the only thing marking this reading. Russian usually flips the sentence around with «как вдруг». (как вдруг; и тут)
+
+6. She was halfway through the story *when* her phone rang.
+7. We had just sat down to eat, *when* the smoke alarm went off.
+8. I was reaching for my wallet *when* I realized I'd left it at home.
+
+**3. Heading a noun clause or a relative clause.** Not an adverbial of time at all: the clause is the object of a verb, or it modifies a noun of time. (когда — в придаточном дополнительном или определительном)
+
+9. Nobody knows *when* the inspector is coming.
+10. That was the year *when* the river came over the levee.
+11. I'll let you know *when* it's been decided.
+
+**4. Contrastive — "given that," "although."** No time content left: the clause states a fact that makes the main clause look unreasonable. (тогда как; хотя; раз уж)
+
+12. Why walk *when* you could take the bus?
+13. He bought a second truck *when* he can't afford the insurance on the first.
+14. She kept apologizing *when* none of it was her fault.
 
 **See also:** [whenever](#whenever), [while](#while), [as](#as), [the moment](#the-moment), [hardly … when](#hardly--when)
 
@@ -194,12 +244,18 @@ The default time subordinator: it puts the main clause at the point named by the
 
 Means "every time that" or "at whatever time," where *when* means "at that one time." The frequency reading is the common one: *whenever it rains* covers all the rainy days, while *when it rained* points at one. The second reading — "it doesn't matter when" — shows up in offers and permissions.
 
+**1. Every time that — repeated occasions.** Covers all the occasions of a kind, where *when* points at one of them. (всякий раз когда; каждый раз как)
+
 1. *Whenever* it rains, that corner floods.
 2. She calls her mother *whenever* she has a long drive.
-3. *Whenever* you're ready, we'll start.
-4. The dog hides *whenever* the vacuum comes out.
-5. *Whenever* I try to cook rice, it turns to glue.
+3. The dog hides *whenever* the vacuum comes out.
+4. *Whenever* I try to cook rice, it turns to glue.
+
+**2. At whatever time — "it doesn't matter when."** Offers, permissions, and shrugs: the speaker is handing the choice of time over to somebody else. (когда угодно; когда бы ни)
+
+5. *Whenever* you're ready, we'll start.
 6. Stop by *whenever* you want — we're home all weekend.
+7. Send it back *whenever* — there's no hurry.
 
 **See also:** [when](#when), [every time](#every-time), [each time](#each-time), [any time](#any-time)
 
@@ -215,12 +271,26 @@ Means "every time that" or "at whatever time," where *when* means "at that one t
 
 Spans a stretch of time and puts the main clause inside it. *When* names a point and *as* runs two events together; *while* is the one that means "throughout." The reduced form (*while waiting*, *while in college*) is extremely common in edited prose, and the contrast sense is common enough that the comma rule above is worth memorizing. Beyond the conjunction, *while* is a noun (*stay a while*, *worth your while*) and a verb (*while away an afternoon*), so the clause test decides the reading here too.
 
+**1. Throughout the stretch that — the time sense.** The main clause sits inside the span the *while* clause marks out. The reduced form (*while waiting*, *while in college*) belongs here and is everywhere in edited prose. (пока; в то время как)
+
 1. *While* the sauce simmers, chop the parsley.
 2. She read *while* I cooked.
 3. Somebody took my seat *while* I was in the restroom.
 4. *While* I was living in Tucson, I never once used the heater.
 5. He learned Portuguese *while* working on a rig off Brazil.
 6. *While* we waited for the tow truck, three people stopped to ask if we were okay.
+
+**2. Contrast — "whereas."** No time content: the two clauses are set side by side precisely because they differ, and a trailing *while* clause in this sense takes a comma in front of it. (тогда как; а вот)
+
+7. She loves horror movies, *while* I can't get through the trailer.
+8. The coasts got the funding, *while* the middle of the state got a study.
+9. Tuition went up eight percent, *while* the stipend stayed flat.
+
+**3. Concession — "although."** Fronted, conceding something before the main clause overrides it; the standard opener in reviews, memos, and polite disagreement. (хотя; при всём том что)
+
+10. *While* I understand the delay, two months is too long.
+11. *While* the film is beautifully shot, the script never goes anywhere.
+12. *While* nobody disputes the numbers, the conclusion is another matter.
 
 **See also:** [as](#as), [when](#when), [as long as](#as-long-as), [the whole time](#the-whole-time), [whilst](#whilst), [meanwhile](#meanwhile)
 
@@ -682,12 +752,19 @@ Fuses time and cause: it means "from this point on, and because of it." *Since* 
 
 Two different words wearing one spelling. The connective use ties a clause to a date already given — *the mill closed in 1998, since when the town has lost a third of its population* — and it is formal, faintly British, and uncommon in American prose, where *and since then* does the job. The other use is a challenge rather than a connector: *Since when is that my job?* expects no answer and means "that was never true." Only the first belongs in a grammar of conjunctions, but the second is far more likely to reach an American ear.
 
+**1. Connective relative — "and from that point on."** Ties a clause to a date already named in front of it. Formal, faintly British, and uncommon in American prose, where *and since then* does the job. (с какового времени; и с тех пор)
+
 1. The mill closed in 1998, *since when* the town has lost a third of its population.
 2. She was appointed to the bench in 2014, *since when* she has written more dissents than opinions.
 3. The rule was suspended during the pandemic, *since when* nobody has bothered to reinstate it.
 4. He gave up coffee in March, *since when* he has been impossible to talk to before ten.
-5. *Since when* do you know anything about carburetors? *(rhetorical question — not a connector)*
-6. Ordinary American English: The mill closed in 1998, and *since then* the town has lost a third of its population.
+5. Ordinary American English: The mill closed in 1998, and *since then* the town has lost a third of its population.
+
+**2. The indignant question — "that was never true."** Not a connector at all: it opens the sentence, inverts subject and auxiliary, takes a question mark, and expects no answer. In American speech this is far the commoner of the two. (с каких это пор?)
+
+6. *Since when* do you know anything about carburetors?
+7. *Since when* is that my job?
+8. *Since when* do we let the vendor write the specs?
 
 **See also:** [since](#since), [since then](#since-then), [ever since](#ever-since), [after which](#after-which), [during which time](#during-which-time)
 
@@ -1237,12 +1314,18 @@ The opener of a two-part timeline: it plants a first state that something later 
 
 Does two jobs, and the second one has quietly taken over. Literally it means "simultaneously," the way *meanwhile* does. In practice it far more often means "and yet," conceding a point while holding the line: *It's expensive; at the same time, nothing else does the job.* Read the whole sentence before deciding which is meant, because the concessive use has no time content at all.
 
-1. The store was hiring; *at the same time*, corporate was closing two locations.
-2. She wanted the promotion. *At the same time*, she dreaded the travel. *(concessive)*
-3. He's the best writer on staff and, *at the same time*, the hardest to edit.
-4. *At the same time that* the city was cutting bus routes, it was breaking ground on a streetcar. *(subordinating variant)*
-5. The proposal saves money; *at the same time*, it costs us a year.
-6. *At the same time*, nobody wants to be the one who says no.
+**1. Concessive — "and yet," conceding a point without giving up the argument.** This is now the commoner reading by a wide margin, and it carries no time content at all. (вместе с тем; и всё же; при этом)
+
+1. She wanted the promotion. *At the same time*, she dreaded the travel.
+2. The proposal saves money; *at the same time*, it costs us a year.
+3. *At the same time*, nobody wants to be the one who says no.
+4. He's the best writer on staff and, *at the same time*, the hardest to edit.
+
+**2. Literally simultaneous — the *meanwhile* reading.** Two things genuinely going on at once. The subordinating variant *at the same time that*, which takes a clause, belongs here and nowhere else. (в то же время; одновременно)
+
+5. The store was hiring; *at the same time*, corporate was closing two locations.
+6. *At the same time that* the city was cutting bus routes, it was breaking ground on a streetcar.
+7. The power came back on and, *at the same time*, every phone in the building started ringing.
 
 **See also:** [meanwhile](#meanwhile), [in the meantime](#in-the-meantime), [while](#while), [the whole time](#the-whole-time)
 
@@ -1279,12 +1362,18 @@ Puts the second event at the far end of an unspecified delay: "after a while, an
 
 Does two jobs, and a reader has to tell them apart. In a sequence it simply marks the last item — *first … then … finally* — and carries no feeling at all. In a narrative it means "at last, after too long a wait," and carries relief or irritation: *The line finally moved.* [Eventually](#eventually) reports the delay flatly; *finally* reports how the delay felt. *Lastly* only ever does the list job, which is why *The line lastly moved* is impossible.
 
+**1. At last, after too long a wait.** Carries the feeling — relief or irritation — that *eventually* leaves out. This is the sense that can sit inside the clause: *She finally answered*. (наконец-то; в конце концов)
+
 1. We waited two hours; *finally*, somebody came out to explain.
-2. Whisk the eggs, fold in the flour, and *finally* add the zest.
-3. She *finally* answered on the fourth try.
-4. *Finally*, I'd like to thank the volunteers who set up the room.
-5. The permit sat in review all spring. *Finally*, in July, it cleared.
-6. He said he'd call back, and after three days he *finally* did.
+2. She *finally* answered on the fourth try.
+3. The permit sat in review all spring. *Finally*, in July, it cleared.
+4. He said he'd call back, and after three days he *finally* did.
+
+**2. The last item of a list or the last of a set of steps.** Purely structural and entirely unemotional; *lastly* can stand in here and nowhere else. (наконец — последний пункт; и последнее)
+
+5. Whisk the eggs, fold in the flour, and *finally* add the zest.
+6. *Finally*, I'd like to thank the volunteers who set up the room.
+7. *Finally*, check that the breaker is off before you touch anything.
 
 **See also:** [eventually](#eventually), [at first](#at-first), [then](#then), [subsequently](#subsequently), [thereafter](#thereafter)
 
@@ -1363,12 +1452,18 @@ The plainest way to put one event after another without committing to how big th
 
 The adverb that does the job of the conjunction *while*: it reports that a second situation was going on at the same time, without subordinating either one. Use *while* when you want one clause tucked inside the other; use *meanwhile* when both deserve to stand as sentences.
 
+**1. At the same time — a second situation running in parallel.** Neither clause is subordinated; both stand as sentences of their own. (тем временем; а в это время)
+
 1. The kids napped; *meanwhile*, I cleaned the entire kitchen.
-2. Sales fell for the third straight quarter. *Meanwhile*, costs kept climbing.
-3. He was still arguing with the gate agent. His flight, *meanwhile*, was boarding.
-4. *Meanwhile*, back at the office, nobody had noticed he was gone.
-5. The city debated the plan for two years; *meanwhile*, the building sat empty.
-6. She trained all winter. *Meanwhile*, her old teammates had moved up a division.
+2. He was still arguing with the gate agent. His flight, *meanwhile*, was boarding.
+3. *Meanwhile*, back at the office, nobody had noticed he was gone.
+4. She trained all winter. *Meanwhile*, her old teammates had moved up a division.
+
+**2. Pointed contrast — "and all the while, the opposite."** The simultaneity is still there, but the work the word is doing is to set two facts against each other, the way *whereas* would; journalism runs on this use. (а между тем; при этом же)
+
+5. Sales fell for the third straight quarter. *Meanwhile*, costs kept climbing.
+6. The city debated the plan for two years; *meanwhile*, the building sat empty.
+7. Executive pay doubled. *Meanwhile*, the plant hasn't seen a raise since 2019.
 
 **See also:** [while](#while), [in the meantime](#in-the-meantime), [at the same time](#at-the-same-time), [then](#then), [afterward](#afterward)
 
@@ -1468,12 +1563,19 @@ The formal-register way to say "afterward," standard in reports, case histories,
 
 The workhorse sequencer of spoken English: it puts one event after another. The comma splice with *then* is so common in speech-like prose that it barely registers, but it is still a splice, and adding *and* is the painless fix. *Then* also has a resultative use (*if that's true, then we have a problem*) and a noun-modifying one (*the then governor*).
 
+**1. Sequence — and after that.** The workhorse sequencer of spoken English. (потом; затем)
+
 1. Brown the onions; *then* add the garlic.
 2. We finished unloading the boxes, and *then* somebody suggested pizza.
 3. She looked at the bill, *then* looked at me. *(no splice — one subject, two verbs)*
 4. First rinse the beans; *then* soak them overnight.
-5. If the light's still red, *then* the sensor never reset.
-6. He was quiet for a long moment. *Then* he laughed.
+5. He was quiet for a long moment. *Then* he laughed.
+
+**2. Inference — "in that case," "it follows that."** No time content: it draws a conclusion from what was just said, and it is this *then* that fills the second slot of *if … then*. (тогда; в таком случае; значит)
+
+6. If the light's still red, *then* the sensor never reset.
+7. You've already paid? *Then* there's nothing left to sort out.
+8. If she signed it in March, *then* the warranty had already run out.
 
 **See also:** [at first](#at-first), [finally](#finally), [later](#later), [afterward](#afterward), [subsequently](#subsequently), [thereafter](#thereafter), [meanwhile](#meanwhile), [when](#when)
 

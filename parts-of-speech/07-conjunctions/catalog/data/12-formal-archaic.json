@@ -101,12 +101,52 @@
       "examples": [
         "Notwithstanding the weather, the ceremony went ahead outdoors.",
         "The contract remains in force notwithstanding any change of ownership.",
-        "Her objections notwithstanding, the board approved the merger.",
-        "Notwithstanding that the deadline had passed, the court accepted the filing.",
         "Notwithstanding anything to the contrary in Section 4, the Buyer shall pay all closing costs.",
-        "He signed the lease, his lawyer's warnings notwithstanding."
+        "Her objections notwithstanding, the board approved the merger.",
+        "He signed the lease, his lawyer's warnings notwithstanding.",
+        "The delay notwithstanding, the shipment arrived intact.",
+        "Notwithstanding that the deadline had passed, the court accepted the filing.",
+        "Notwithstanding that she had never argued an appeal, she won it outright.",
+        "The warranty stands, notwithstanding that the unit was serviced by a third party."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Preposition in front of its noun — \"in spite of.\"",
+          "body": [
+            "A fronted phrase closes with a comma; a trailing one takes none when it belongs to the predicate. This is the shape that carries notwithstanding anything to the contrary herein, the standard drafting move for making one clause override another. (несмотря на)"
+          ],
+          "examples": [
+            "Notwithstanding the weather, the ceremony went ahead outdoors.",
+            "The contract remains in force notwithstanding any change of ownership.",
+            "Notwithstanding anything to the contrary in Section 4, the Buyer shall pay all closing costs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Postposed — the noun first and the preposition behind it",
+          "body": [
+            "A word order no other English preposition allows, and a signature of legal drafting. Fronted it closes with a comma, and trailing it needs one too, because that is an absolute construction. (невзирая на; вопреки — предлог после существительного)"
+          ],
+          "examples": [
+            "Her objections notwithstanding, the board approved the merger.",
+            "He signed the lease, his lawyer's warnings notwithstanding.",
+            "The delay notwithstanding, the shipment arrived intact."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "notwithstanding that — the clause-taking subordinator",
+          "body": [
+            "A full clause follows, and the whole thing means although. (несмотря на то что)"
+          ],
+          "examples": [
+            "Notwithstanding that the deadline had passed, the court accepted the filing.",
+            "Notwithstanding that she had never argued an appeal, she won it outright.",
+            "The warranty stands, notwithstanding that the unit was serviced by a third party."
+          ]
+        }
+      ],
       "русский": "несмотря на — юр., книжн.; может стоять и после своего дополнения",
       "register": "formal, legal",
       "type": "subordinating (with that); preposition and postposition elsewhere",
@@ -122,14 +162,39 @@
       "respell": "WHYLST",
       "meaning": "A British variant of while with no difference in meaning — it covers both simultaneity and contrast exactly as while does. It is listed here because American learners meet it constantly in British books, journals, and corporate boilerplate and reasonably conclude it is the more formal English word. It is not: an American editor will change every instance to while, and using it in American prose reads as affectation. Its cousins amongst and amidst are prepositions rather than conjunctions, but carry the same British flavor and get the same treatment from an American editor. One limit worth knowing: only the conjunction has an -st form. While is also a noun (stay a while, worth your while) and a verb (while away an afternoon), and neither of those is ever whilst, in Britain or anywhere else.",
       "examples": [
-        "Whilst the report is thorough, it stops short of a recommendation. (British usage)",
         "She studied Latin whilst she was at Cambridge. (British usage)",
         "Passengers are asked to remain seated whilst the aircraft is taxiing. (British usage)",
-        "Whilst I appreciate the offer, I must decline. (British usage)",
         "He read the paper whilst his tea went cold. (British usage)",
+        "Whilst the report is thorough, it stops short of a recommendation. (British usage)",
+        "Whilst I appreciate the offer, I must decline. (British usage)",
         "The museum is open daily, whilst the archive opens only by appointment. (British usage)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Time — simultaneity, exactly as while does it",
+          "body": [
+            "No comma before a trailing clause. (пока; в то время как)"
+          ],
+          "examples": [
+            "She studied Latin whilst she was at Cambridge. (British usage)",
+            "Passengers are asked to remain seated whilst the aircraft is taxiing. (British usage)",
+            "He read the paper whilst his tea went cold. (British usage)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Contrast or concession — \"whereas,\" \"although.\"",
+          "body": [
+            "A trailing clause in this sense takes a comma in front of it, again exactly as with while. (тогда как; хотя)"
+          ],
+          "examples": [
+            "Whilst the report is thorough, it stops short of a recommendation. (British usage)",
+            "Whilst I appreciate the offer, I must decline. (British usage)",
+            "The museum is open daily, whilst the archive opens only by appointment. (British usage)"
+          ]
+        }
+      ],
       "русский": "пока; тогда как — брит. вариант while, в американском английском не пишут",
       "register": "formal — British, not American",
       "type": "subordinating",
@@ -286,13 +351,55 @@
       "meaning": "This is not the FANBOYS but — it means except, and it survives in fixed negative frames: none but, nothing but, no one but, all but, no choice but. Before a bare infinitive it is a genuine subordinator (nothing to do but wait). One old refinement is still argued over: because it was historically a conjunction, formal usage takes the nominative after it (no one but he knew), while ordinary American English treats it as a preposition and says no one but him. Few English words spread across more classes: but is a coordinating conjunction (small but sturdy), this exceptive preposition, a degree adverb meaning only (he is but a child, there were but three left), a counterfactual in the compound but for, and even a noun (no ifs, ands, or buts). Only the coordinating one takes a comma before it when it joins two independent clauses.",
       "examples": [
         "None but the brave deserves the fair. (Dryden)",
-        "There was nothing to do but wait for the tow truck.",
         "No one but a fool would sign a lease like that.",
         "All but two of the seats were already taken.",
+        "Who but a native speaker would ever catch that?",
+        "There was nothing to do but wait for the tow truck.",
         "He had no choice but to resign.",
-        "Who but a native speaker would ever catch that?"
+        "The committee could do nothing but accept the findings.",
+        "He is but a child.",
+        "There were but three of us left by midnight.",
+        "It is but a short walk from the station."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Exceptive — \"except,\" inside the fixed negative frames",
+          "body": [
+            "None but, no one but, all but, who but: it binds tightly to whatever follows and never takes a comma. Formal usage keeps the nominative after it (no one but he knew), where ordinary American English says no one but him. (кроме; за исключением)"
+          ],
+          "examples": [
+            "None but the brave deserves the fair. (Dryden)",
+            "No one but a fool would sign a lease like that.",
+            "All but two of the seats were already taken.",
+            "Who but a native speaker would ever catch that?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In front of a bare infinitive — the only course left",
+          "body": [
+            "Here it is a genuine subordinator heading a reduced clause, in the frames nothing … but, no choice but, no option but. (кроме как; ничего не оставалось, как)"
+          ],
+          "examples": [
+            "There was nothing to do but wait for the tow truck.",
+            "He had no choice but to resign.",
+            "The committee could do nothing but accept the findings."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Degree adverb — \"only, merely.\"",
+          "body": [
+            "Literary and dated: it shrinks the quantity or the claim behind it, and no exception is being made at all. (всего лишь; только)"
+          ],
+          "examples": [
+            "He is but a child.",
+            "There were but three of us left by midnight.",
+            "It is but a short walk from the station."
+          ]
+        }
+      ],
       "pronunciation note": "BUT",
       "русский": "кроме, за исключением — книжн., в оборотах none but, nothing but, no choice but",
       "register": "formal, literary",
@@ -471,12 +578,40 @@
       "meaning": "The literary except. It sits between the exhaustive word (all, every, none, nothing) and the one item pulled out of it. Save for is the commoner modern form and is the one you will actually meet in journalism and fiction. Do not confuse it with the verb save: He saved one and all save one look alike and are unrelated. Four word classes share the spelling — verb (save the file), noun (the goalie's save), this exceptive preposition, and, with that added, a full subordinating conjunction — and only the last of those takes a clause.",
       "examples": [
         "Every window on the street was dark save one.",
-        "The room was empty, save for a folding chair and a coffee can full of nails.",
         "All the passengers save the pilot survived the landing.",
         "Nothing remained of the barn save the foundation.",
-        "He told no one save his wife."
+        "He told no one save his wife.",
+        "The room was empty, save for a folding chair and a coffee can full of nails.",
+        "The street was silent, save for a dog barking two blocks over.",
+        "The plan is sound, save for the part about the parking."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Attached straight to an exhaustive word — \"except.\"",
+          "body": [
+            "It sits between all, every, none, or nothing and the single item pulled out of it, with no comma between them. (кроме; за исключением)"
+          ],
+          "examples": [
+            "Every window on the street was dark save one.",
+            "All the passengers save the pilot survived the landing.",
+            "Nothing remained of the barn save the foundation.",
+            "He told no one save his wife."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "save for, trailing the whole clause — \"if you leave out.\"",
+          "body": [
+            "The commoner modern form, and the one actually met in journalism and fiction. It follows a comma and qualifies the sentence rather than subtracting from one word inside it. (если не считать; не считая)"
+          ],
+          "examples": [
+            "The room was empty, save for a folding chair and a coffee can full of nails.",
+            "The street was silent, save for a dog barking two blocks over.",
+            "The plan is sound, save for the part about the parking."
+          ]
+        }
+      ],
       "русский": "кроме, за исключением — книжн., лит., при all, none, nothing; чаще как save for",
       "register": "formal, literary",
       "type": "quasi-coordinator — exceptive; prepositional before a noun phrase",
@@ -633,9 +768,35 @@
         "WHEREAS, the Consultant is willing to provide such services on the terms set forth herein;",
         "WHEREAS the parties entered into a Master Services Agreement dated March 3, 2021, and WHEREAS the parties now wish to amend that Agreement;",
         "Whereas it has pleased the Assembly to honor our late colleague, be it resolved that this chamber stand adjourned for the day.",
-        "Whereas the Tenant has failed to pay rent for three consecutive months, the Landlord hereby terminates the lease."
+        "Whereas the Tenant has failed to pay rent for three consecutive months, the Landlord hereby terminates the lease.",
+        "Whereas no timely objection was filed, the plan is confirmed as submitted."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The recital whereas — a background paragraph with no main clause of its own",
+          "body": [
+            "Its syntax is unique in English: each recital ends with a semicolon, the clauses stack, and the whole stack is discharged by NOW, THEREFORE. Conventionally capitalized and usually followed by a comma. (принимая во внимание, что)"
+          ],
+          "examples": [
+            "WHEREAS, the Company desires to retain the Consultant's services;",
+            "WHEREAS, the Consultant is willing to provide such services on the terms set forth herein;",
+            "WHEREAS the parties entered into a Master Services Agreement dated March 3, 2021, and WHEREAS the parties now wish to amend that Agreement;"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The resolving whereas — a fronted clause that does reach a main clause",
+          "body": [
+            "Punctuated like any other fronted subordinate clause, with a comma closing it, and the force is plainly causal: the facts recited are the grounds on which the main clause then acts. (ввиду того что; поскольку)"
+          ],
+          "examples": [
+            "Whereas it has pleased the Assembly to honor our late colleague, be it resolved that this chamber stand adjourned for the day.",
+            "Whereas the Tenant has failed to pay rent for three consecutive months, the Landlord hereby terminates the lease.",
+            "Whereas no timely objection was filed, the plan is confirmed as submitted."
+          ]
+        }
+      ],
       "pronunciation note": "wair-AZ",
       "русский": "принимая во внимание, что — юр., зачин преамбулы договора (не «тогда как»)",
       "register": "formal, legal",
@@ -1124,10 +1285,38 @@
         "Per our conversation this morning, I have attached the revised estimate.",
         "The flooring was installed per the manufacturer's written instructions.",
         "As per your request, the meeting has been moved to Thursday afternoon.",
+        "Per Section 12, notice of termination must be given in writing.",
         "Interest accrues at five percent per annum on the unpaid balance.",
-        "Per Section 12, notice of termination must be given in writing."
+        "The room runs a hundred and forty dollars per night.",
+        "Spending per student fell for the third year running."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "\"According to,\" \"in line with\" — the connective",
+          "body": [
+            "Borrowed out of legal Latin and now the workhorse of American business email. The expanded as per is entrenched and widely disliked as redundant; bare per, or plain according to, is safer in anything that will be read closely. (согласно; по)"
+          ],
+          "examples": [
+            "Per our conversation this morning, I have attached the revised estimate.",
+            "The flooring was installed per the manufacturer's written instructions.",
+            "As per your request, the meeting has been moved to Thursday afternoon.",
+            "Per Section 12, notice of termination must be given in writing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Distributive — \"for each.\"",
+          "body": [
+            "The older job, preserved in the Latin tags per annum, per diem, per capita. Nobody's authority is being cited here: the word divides a quantity. (за; на; в расчёте на)"
+          ],
+          "examples": [
+            "Interest accrues at five percent per annum on the unpaid balance.",
+            "The room runs a hundred and forty dollars per night.",
+            "Spending per student fell for the third year running."
+          ]
+        }
+      ],
       "pronunciation note": "PUR",
       "русский": "согласно, по (per Section 12); в расчёте на (per annum) — книжн., деловой жаргон",
       "register": "formal, business jargon",
@@ -1168,12 +1357,38 @@
       "meaning": "The mirror image of notwithstanding: subject to Section 4 means Section 4 wins, while notwithstanding Section 4 means this clause wins. That single pair does most of the work of resolving conflicts between provisions in an American contract, and reversing them inverts the deal. In ordinary use it simply means conditional on (subject to financing).",
       "examples": [
         "Subject to Section 4, the Company shall reimburse all reasonable travel expenses.",
+        "All payments under this Agreement are subject to withholding required by applicable law.",
+        "The lease is subject to the rights of the existing tenants.",
         "The offer is subject to financing and to a satisfactory inspection.",
         "Subject to the Board's approval, the merger will close on October 1.",
-        "All payments under this Agreement are subject to withholding required by applicable law.",
-        "The lease is subject to the rights of the existing tenants."
+        "Delivery dates are subject to the availability of parts."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Legal — \"this provision yields to that one.\"",
+          "body": [
+            "The mirror image of notwithstanding: subject to Section 4 means Section 4 wins, while notwithstanding Section 4 means this clause wins. Swapping the two inverts the deal. (с учётом; при условии соблюдения)"
+          ],
+          "examples": [
+            "Subject to Section 4, the Company shall reimburse all reasonable travel expenses.",
+            "All payments under this Agreement are subject to withholding required by applicable law.",
+            "The lease is subject to the rights of the existing tenants."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Ordinary — \"conditional on.\"",
+          "body": [
+            "No provision is being subordinated to another; the phrase just names what has to happen first for the rest to hold. (при условии; в зависимости от)"
+          ],
+          "examples": [
+            "The offer is subject to financing and to a satisfactory inspection.",
+            "Subject to the Board's approval, the merger will close on October 1.",
+            "Delivery dates are subject to the availability of parts."
+          ]
+        }
+      ],
       "pronunciation note": "SUB-jikt too",
       "русский": "с учётом, при условии соблюдения — юр.; противоположность notwithstanding",
       "register": "formal, legal",

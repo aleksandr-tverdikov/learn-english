@@ -106,12 +106,23 @@ A concessive that concedes an **intensity**: *Much as I admire her, I cannot vot
 
 The heavyweight concessive of American legal drafting, where *notwithstanding anything to the contrary herein* is the standard way to make one clause override another. Its distinguishing trick — unique among English concessives — is that it can follow its own object (*the delay notwithstanding*), a leftover word order no other preposition allows.
 
+**1. Preposition in front of its noun — "in spite of."** A fronted phrase closes with a comma; a trailing one takes none when it belongs to the predicate. This is the shape that carries *notwithstanding anything to the contrary herein*, the standard drafting move for making one clause override another. (несмотря на)
+
 1. *Notwithstanding* the weather, the ceremony went ahead outdoors.
 2. The contract remains in force *notwithstanding* any change of ownership.
-3. Her objections *notwithstanding*, the board approved the merger.
-4. *Notwithstanding that* the deadline had passed, the court accepted the filing.
-5. *Notwithstanding* anything to the contrary in Section 4, the Buyer shall pay all closing costs.
-6. He signed the lease, his lawyer's warnings *notwithstanding*.
+3. *Notwithstanding* anything to the contrary in Section 4, the Buyer shall pay all closing costs.
+
+**2. Postposed — the noun first and the preposition behind it.** A word order no other English preposition allows, and a signature of legal drafting. Fronted it closes with a comma, and trailing it needs one too, because that is an absolute construction. (невзирая на; вопреки — предлог после существительного)
+
+4. Her objections *notwithstanding*, the board approved the merger.
+5. He signed the lease, his lawyer's warnings *notwithstanding*.
+6. The delay *notwithstanding*, the shipment arrived intact.
+
+**3. *notwithstanding that* — the clause-taking subordinator.** A full clause follows, and the whole thing means *although*. (несмотря на то что)
+
+7. *Notwithstanding that* the deadline had passed, the court accepted the filing.
+8. *Notwithstanding that* she had never argued an appeal, she won it outright.
+9. The warranty stands, *notwithstanding that* the unit was serviced by a third party.
 
 **See also:** [albeit](#albeit), [be that as it may](#be-that-as-it-may), [subject to](#subject-to), [pursuant to](#pursuant-to), [howsoever](#howsoever)
 
@@ -127,11 +138,16 @@ The heavyweight concessive of American legal drafting, where *notwithstanding an
 
 A British variant of *while* with no difference in meaning — it covers both simultaneity and contrast exactly as *while* does. It is listed here because American learners meet it constantly in British books, journals, and corporate boilerplate and reasonably conclude it is the more formal English word. It is not: **an American editor will change every instance to *while***, and using it in American prose reads as affectation. Its cousins *amongst* and *amidst* are prepositions rather than conjunctions, but carry the same British flavor and get the same treatment from an American editor. One limit worth knowing: only the **conjunction** has an *-st* form. *While* is also a noun (*stay a while*, *worth your while*) and a verb (*while away an afternoon*), and neither of those is ever *whilst*, in Britain or anywhere else.
 
-1. *Whilst* the report is thorough, it stops short of a recommendation. *(British usage)*
-2. She studied Latin *whilst* she was at Cambridge. *(British usage)*
-3. Passengers are asked to remain seated *whilst* the aircraft is taxiing. *(British usage)*
-4. *Whilst* I appreciate the offer, I must decline. *(British usage)*
-5. He read the paper *whilst* his tea went cold. *(British usage)*
+**1. Time — simultaneity, exactly as *while* does it.** No comma before a trailing clause. (пока; в то время как)
+
+1. She studied Latin *whilst* she was at Cambridge. *(British usage)*
+2. Passengers are asked to remain seated *whilst* the aircraft is taxiing. *(British usage)*
+3. He read the paper *whilst* his tea went cold. *(British usage)*
+
+**2. Contrast or concession — "whereas," "although."** A trailing clause in this sense takes a comma in front of it, again exactly as with *while*. (тогда как; хотя)
+
+4. *Whilst* the report is thorough, it stops short of a recommendation. *(British usage)*
+5. *Whilst* I appreciate the offer, I must decline. *(British usage)*
 6. The museum is open daily, *whilst* the archive opens only by appointment. *(British usage)*
 
 **See also:** [albeit](#albeit), [sith](#sith), [ere](#ere)
@@ -280,12 +296,24 @@ The exceptive conjunctions: ways of saying *except* that outrank *except*. Sever
 
 This is not the FANBOYS *but* — it means **except**, and it survives in fixed negative frames: *none but*, *nothing but*, *no one but*, *all but*, *no choice but*. Before a bare infinitive it is a genuine subordinator (*nothing to do but wait*). One old refinement is still argued over: because it was historically a conjunction, formal usage takes the nominative after it (*no one but he knew*), while ordinary American English treats it as a preposition and says *no one but him*. Few English words spread across more classes: *but* is a coordinating conjunction (*small but sturdy*), this exceptive preposition, a degree adverb meaning *only* (*he is but a child*, *there were but three left*), a counterfactual in the compound **but for**, and even a noun (*no ifs, ands, or buts*). Only the coordinating one takes a comma before it when it joins two independent clauses.
 
+**1. Exceptive — "except," inside the fixed negative frames.** *None but*, *no one but*, *all but*, *who but*: it binds tightly to whatever follows and never takes a comma. Formal usage keeps the nominative after it (*no one but he knew*), where ordinary American English says *no one but him*. (кроме; за исключением)
+
 1. None *but* the brave deserves the fair. *(Dryden)*
-2. There was nothing to do *but* wait for the tow truck.
-3. No one *but* a fool would sign a lease like that.
-4. All *but* two of the seats were already taken.
-5. He had no choice *but* to resign.
-6. Who *but* a native speaker would ever catch that?
+2. No one *but* a fool would sign a lease like that.
+3. All *but* two of the seats were already taken.
+4. Who *but* a native speaker would ever catch that?
+
+**2. In front of a bare infinitive — the only course left.** Here it is a genuine subordinator heading a reduced clause, in the frames *nothing … but*, *no choice but*, *no option but*. (кроме как; ничего не оставалось, как)
+
+5. There was nothing to do *but* wait for the tow truck.
+6. He had no choice *but* to resign.
+7. The committee could do nothing *but* accept the findings.
+
+**3. Degree adverb — "only, merely."** Literary and dated: it shrinks the quantity or the claim behind it, and no exception is being made at all. (всего лишь; только)
+
+8. He is *but* a child.
+9. There were *but* three of us left by midnight.
+10. It is *but* a short walk from the station.
 
 **See also:** [but for](#but-for), [but that](#but-that), [save](#save), [except](#except), [but (coordinating)](01-coordinating.md#but)
 
@@ -444,11 +472,18 @@ The adversative proviso: *however* announces that the condition about to be stat
 
 The literary *except*. It sits between the exhaustive word (*all*, *every*, *none*, *nothing*) and the one item pulled out of it. *Save for* is the commoner modern form and is the one you will actually meet in journalism and fiction. Do not confuse it with the verb *save*: *He saved one* and *all save one* look alike and are unrelated. Four word classes share the spelling — verb (*save the file*), noun (*the goalie's save*), this exceptive preposition, and, with *that* added, a full subordinating conjunction — and only the last of those takes a clause.
 
+**1. Attached straight to an exhaustive word — "except."** It sits between *all*, *every*, *none*, or *nothing* and the single item pulled out of it, with no comma between them. (кроме; за исключением)
+
 1. Every window on the street was dark *save* one.
-2. The room was empty, *save for* a folding chair and a coffee can full of nails.
-3. All the passengers *save* the pilot survived the landing.
-4. Nothing remained of the barn *save* the foundation.
-5. He told no one *save* his wife.
+2. All the passengers *save* the pilot survived the landing.
+3. Nothing remained of the barn *save* the foundation.
+4. He told no one *save* his wife.
+
+**2. *save for*, trailing the whole clause — "if you leave out."** The commoner modern form, and the one actually met in journalism and fiction. It follows a comma and qualifies the sentence rather than subtracting from one word inside it. (если не считать; не считая)
+
+5. The room was empty, *save for* a folding chair and a coffee can full of nails.
+6. The street was silent, *save for* a dog barking two blocks over.
+7. The plan is sound, *save for* the part about the parking.
 
 **See also:** [save that](#save-that), [but](#but), [except](#except), [except that](#except-that)
 
@@ -594,11 +629,17 @@ The *-soever* form of *whenever*: *at whatever time*. Like the rest of its famil
 
 Two different words share this spelling. The everyday one is the contrastive subordinator (*I like tea, whereas he likes coffee*), which belongs with the other concessives. This entry is the **legal recital** *whereas*, meaning roughly *given that* — the word that opens each background paragraph of a contract, resolution, or preamble. Its syntax is unique: the clause never gets a main clause of its own, and the whole stack is discharged by *NOW, THEREFORE*.
 
+**1. The recital *whereas* — a background paragraph with no main clause of its own.** Its syntax is unique in English: each recital ends with a semicolon, the clauses stack, and the whole stack is discharged by *NOW, THEREFORE*. Conventionally capitalized and usually followed by a comma. (принимая во внимание, что)
+
 1. *WHEREAS*, the Company desires to retain the Consultant's services;
 2. *WHEREAS*, the Consultant is willing to provide such services on the terms set forth herein;
 3. *WHEREAS* the parties entered into a Master Services Agreement dated March 3, 2021, and *WHEREAS* the parties now wish to amend that Agreement;
+
+**2. The resolving *whereas* — a fronted clause that does reach a main clause.** Punctuated like any other fronted subordinate clause, with a comma closing it, and the force is plainly causal: the facts recited are the grounds on which the main clause then acts. (ввиду того что; поскольку)
+
 4. *Whereas* it has pleased the Assembly to honor our late colleague, be it resolved that this chamber stand adjourned for the day.
 5. *Whereas* the Tenant has failed to pay rent for three consecutive months, the Landlord hereby terminates the lease.
+6. *Whereas* no timely objection was filed, the plan is confirmed as submitted.
 
 **See also:** [now, therefore](#now-therefore), [witnesseth](#witnesseth), [forasmuch as](#forasmuch-as), [wherefore](#wherefore)
 
@@ -1043,11 +1084,18 @@ The hinge of a contract or resolution: it closes the stack of *WHEREAS* recitals
 
 Two jobs. The old distributive one is *for each* (*five percent per annum*). The connective one, borrowed from legal Latin, is *according to* — *per our conversation*, *per Section 12* — and this is the one that dominates American business email. The expanded **as per** is entrenched but widely disliked as redundant; *per* alone, or plain *according to*, is safer in anything that will be read closely.
 
+**1. "According to," "in line with" — the connective.** Borrowed out of legal Latin and now the workhorse of American business email. The expanded *as per* is entrenched and widely disliked as redundant; bare *per*, or plain *according to*, is safer in anything that will be read closely. (согласно; по)
+
 1. *Per* our conversation this morning, I have attached the revised estimate.
 2. The flooring was installed *per* the manufacturer's written instructions.
 3. *As per* your request, the meeting has been moved to Thursday afternoon.
-4. Interest accrues at five percent *per* annum on the unpaid balance.
-5. *Per* Section 12, notice of termination must be given in writing.
+4. *Per* Section 12, notice of termination must be given in writing.
+
+**2. Distributive — "for each."** The older job, preserved in the Latin tags *per annum*, *per diem*, *per capita*. Nobody's authority is being cited here: the word divides a quantity. (за; на; в расчёте на)
+
+5. Interest accrues at five percent *per* annum on the unpaid balance.
+6. The room runs a hundred and forty dollars *per* night.
+7. Spending *per* student fell for the third year running.
 
 **See also:** [pursuant to](#pursuant-to), [subject to](#subject-to), [notwithstanding](#notwithstanding)
 
@@ -1083,11 +1131,17 @@ Means *under the authority of* or *in accordance with*, and it is the standard w
 
 The mirror image of **notwithstanding**: *subject to Section 4* means Section 4 wins, while *notwithstanding Section 4* means this clause wins. That single pair does most of the work of resolving conflicts between provisions in an American contract, and reversing them inverts the deal. In ordinary use it simply means *conditional on* (*subject to financing*).
 
+**1. Legal — "this provision yields to that one."** The mirror image of *notwithstanding*: *subject to Section 4* means Section 4 wins, while *notwithstanding Section 4* means this clause wins. Swapping the two inverts the deal. (с учётом; при условии соблюдения)
+
 1. *Subject to* Section 4, the Company shall reimburse all reasonable travel expenses.
-2. The offer is *subject to* financing and to a satisfactory inspection.
-3. *Subject to* the Board's approval, the merger will close on October 1.
-4. All payments under this Agreement are *subject to* withholding required by applicable law.
-5. The lease is *subject to* the rights of the existing tenants.
+2. All payments under this Agreement are *subject to* withholding required by applicable law.
+3. The lease is *subject to* the rights of the existing tenants.
+
+**2. Ordinary — "conditional on."** No provision is being subordinated to another; the phrase just names what has to happen first for the rest to hold. (при условии; в зависимости от)
+
+4. The offer is *subject to* financing and to a satisfactory inspection.
+5. *Subject to* the Board's approval, the merger will close on October 1.
+6. Delivery dates are *subject to* the availability of parts.
 
 **See also:** [notwithstanding](#notwithstanding), [pursuant to](#pursuant-to), [provided always that](#provided-always-that), [per](#per)
 

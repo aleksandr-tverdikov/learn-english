@@ -23,14 +23,43 @@
       "term": "destroy",
       "ipa": "/dɪˈstrɔɪ/",
       "respell": "di-STROY",
-      "meaning": "To damage something so completely that it no longer exists or cannot be repaired. ---",
+      "meaning": "Destroy has 2 distinct senses.",
       "examples": [
         "The fire destroyed three houses on our street.",
         "One night of frost can destroy an entire crop.",
-        "The old bridge had been destroyed long before we got there."
+        "The old bridge had been destroyed long before we got there.",
+        "They will destroy us if we play like that.",
+        "Our team destroyed them 42-3.",
+        "He got destroyed in the debate."
       ],
-      "senses": [],
-      "русский": "разрушать, разрушить; уничтожать, уничтожить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To damage something so completely that it no longer exists or cannot be repaired",
+          "body": [
+            "(разрушать, разрушить; уничтожать, уничтожить)"
+          ],
+          "examples": [
+            "The fire destroyed three houses on our street.",
+            "One night of frost can destroy an entire crop.",
+            "The old bridge had been destroyed long before we got there."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To beat someone very badly in a game or an argument, in informal speech",
+          "body": [
+            "(разгромить, разнести (в игре, в споре))",
+            "---"
+          ],
+          "examples": [
+            "They will destroy us if we play like that.",
+            "Our team destroyed them 42-3.",
+            "He got destroyed in the debate."
+          ]
+        }
+      ],
+      "русский": "разрушать, разрушить; уничтожать, уничтожить; разгромить, разнести (в игре, в споре)",
       "forms": "destroy · destroyed · destroyed",
       "verb class": "regular",
       "third person": "destroys · -ing form: destroying",
@@ -93,14 +122,43 @@
       "term": "shatter",
       "ipa": "/ˈʃætər/",
       "respell": "SHAT-ur",
-      "meaning": "To break suddenly into many small pieces, or to break something that way. ---",
+      "meaning": "Shatter has 2 distinct senses.",
       "examples": [
         "The mirror shattered when it hit the tile.",
         "A stone off a truck can shatter a windshield.",
-        "There was shattered glass all over the sidewalk."
+        "There was shattered glass all over the sidewalk.",
+        "The injury shattered his hopes of playing again.",
+        "News like that can shatter a family.",
+        "Her confidence was completely shattered by the experience."
       ],
-      "senses": [],
-      "русский": "разбивать(ся) вдребезги, разбить(ся) вдребезги",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break suddenly into many small pieces, or to break something that way",
+          "body": [
+            "(разбивать(ся) вдребезги, разбить(ся) вдребезги)"
+          ],
+          "examples": [
+            "The mirror shattered when it hit the tile.",
+            "A stone off a truck can shatter a windshield.",
+            "There was shattered glass all over the sidewalk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To destroy someone's hopes, confidence, or peace of mind",
+          "body": [
+            "(разрушать, разрушить (надежды); подрывать, подорвать (уверенность))",
+            "---"
+          ],
+          "examples": [
+            "The injury shattered his hopes of playing again.",
+            "News like that can shatter a family.",
+            "Her confidence was completely shattered by the experience."
+          ]
+        }
+      ],
+      "русский": "разбивать(ся) вдребезги, разбить(ся) вдребезги; разрушать, разрушить (надежды); подрывать, подорвать (уверенность)",
       "forms": "shatter · shattered · shattered",
       "verb class": "regular",
       "third person": "shatters · -ing form: shattering",
@@ -128,14 +186,73 @@
       "term": "crack",
       "ipa": "/kræk/",
       "respell": "KRAK",
-      "meaning": "To break so that a line appears on the surface, without breaking into pieces. ---",
+      "meaning": "Crack has 4 distinct senses.",
       "examples": [
         "The windshield cracked in the cold.",
         "Set it down gently or you'll crack the tile.",
-        "She found a cracked pipe under the sink."
+        "She found a cracked pipe under the sink.",
+        "Thunder cracked over the lake.",
+        "The whip cracks like a gunshot.",
+        "Branches were cracking under his boots.",
+        "Detectives finally cracked the case.",
+        "No one could crack the code.",
+        "The password has never been cracked.",
+        "He cracked during the second hour of questioning.",
+        "Most people would crack under that kind of stress.",
+        "She was cracking under the workload."
       ],
-      "senses": [],
-      "русский": "трескаться, треснуть; раскалывать, расколоть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break so that a line appears on the surface, without breaking into pieces",
+          "body": [
+            "(трескаться, треснуть; раскалывать, расколоть)"
+          ],
+          "examples": [
+            "The windshield cracked in the cold.",
+            "Set it down gently or you'll crack the tile.",
+            "She found a cracked pipe under the sink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a sudden sharp sound",
+          "body": [
+            "(трещать, щёлкать, хлопнуть)"
+          ],
+          "examples": [
+            "Thunder cracked over the lake.",
+            "The whip cracks like a gunshot.",
+            "Branches were cracking under his boots."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To solve something difficult, such as a code or a criminal case",
+          "body": [
+            "(раскрывать, разгадывать, взломать (код))"
+          ],
+          "examples": [
+            "Detectives finally cracked the case.",
+            "No one could crack the code.",
+            "The password has never been cracked."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To lose control of yourself under pressure",
+          "body": [
+            "(ломаться, не выдерживать (давления), сломаться)",
+            "---"
+          ],
+          "examples": [
+            "He cracked during the second hour of questioning.",
+            "Most people would crack under that kind of stress.",
+            "She was cracking under the workload."
+          ]
+        }
+      ],
+      "русский": "трескаться, треснуть; раскалывать, расколоть; трещать, щёлкать, хлопнуть; раскрывать, разгадывать, взломать (код); ломаться, не выдерживать (давления), сломаться",
       "forms": "crack · cracked · cracked",
       "verb class": "regular",
       "third person": "cracks · -ing form: cracking",
@@ -182,14 +299,43 @@
       "term": "scrape",
       "ipa": "/skreɪp/",
       "respell": "SKRAYP",
-      "meaning": "To damage a surface by rubbing it against something rough or sharp. ---",
+      "meaning": "Scrape has 2 distinct senses.",
       "examples": [
         "He scraped the side of the van on a concrete post.",
         "I fell off the bike and scraped my knee.",
-        "She spent an hour scraping old paint off the door."
+        "She spent an hour scraping old paint off the door.",
+        "I scrape the frost from the windshield every morning.",
+        "She scraped the burned cheese from the pan.",
+        "The old paint has been scraped down to bare wood."
       ],
-      "senses": [],
-      "русский": "царапать, поцарапать; обдирать, ободрать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To damage a surface by rubbing it against something rough or sharp",
+          "body": [
+            "(царапать, поцарапать; обдирать, ободрать)"
+          ],
+          "examples": [
+            "He scraped the side of the van on a concrete post.",
+            "I fell off the bike and scraped my knee.",
+            "She spent an hour scraping old paint off the door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To remove a layer from a surface by pulling something hard or sharp across it",
+          "body": [
+            "(соскабливать, соскоблить; счищать, счистить)",
+            "---"
+          ],
+          "examples": [
+            "I scrape the frost from the windshield every morning.",
+            "She scraped the burned cheese from the pan.",
+            "The old paint has been scraped down to bare wood."
+          ]
+        }
+      ],
+      "русский": "царапать, поцарапать; обдирать, ободрать; соскабливать, соскоблить; счищать, счистить",
       "forms": "scrape · scraped · scraped",
       "verb class": "regular",
       "third person": "scrapes · -ing form: scraping",
@@ -237,14 +383,73 @@
       "term": "snap",
       "ipa": "/snæp/",
       "respell": "SNAP",
-      "meaning": "To break suddenly with a sharp sound, usually into two pieces. ---",
+      "meaning": "Snap has 4 distinct senses.",
       "examples": [
         "The rope snapped under the weight.",
         "Dry branches snap the moment you bend them.",
-        "He had snapped the pencil in half without noticing."
+        "He had snapped the pencil in half without noticing.",
+        "'Not now,' he snapped.",
+        "She has been snapping at everyone all week.",
+        "There's no need to snap.",
+        "Tourists snap pictures of the bridge all day.",
+        "She snapped a photo before the light changed.",
+        "He was snapping away with his phone.",
+        "After months of pressure, he finally snapped.",
+        "She snapped and started yelling at the whole room.",
+        "Anyone would snap under that kind of stress."
       ],
-      "senses": [],
-      "русский": "ломать(ся) с треском, сломать(ся)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break suddenly with a sharp sound, usually into two pieces",
+          "body": [
+            "(ломать(ся) с треском, сломать(ся))"
+          ],
+          "examples": [
+            "The rope snapped under the weight.",
+            "Dry branches snap the moment you bend them.",
+            "He had snapped the pencil in half without noticing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To say something in a sharp, angry way",
+          "body": [
+            "(огрызаться, огрызнуться; рявкнуть)"
+          ],
+          "examples": [
+            "'Not now,' he snapped.",
+            "She has been snapping at everyone all week.",
+            "There's no need to snap."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To take a photograph quickly",
+          "body": [
+            "(щёлкать, щёлкнуть (сфотографировать))"
+          ],
+          "examples": [
+            "Tourists snap pictures of the bridge all day.",
+            "She snapped a photo before the light changed.",
+            "He was snapping away with his phone."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To suddenly lose control of your emotions after a long strain",
+          "body": [
+            "(срываться, сорваться; не выдерживать, не выдержать)",
+            "---"
+          ],
+          "examples": [
+            "After months of pressure, he finally snapped.",
+            "She snapped and started yelling at the whole room.",
+            "Anyone would snap under that kind of stress."
+          ]
+        }
+      ],
+      "русский": "ломать(ся) с треском, сломать(ся); огрызаться, огрызнуться; рявкнуть; щёлкать, щёлкнуть (сфотографировать); срываться, сорваться; не выдерживать, не выдержать",
       "forms": "snap · snapped · snapped",
       "verb class": "regular",
       "third person": "snaps · -ing form: snapping",
@@ -256,14 +461,43 @@
       "term": "squash",
       "ipa": "/skwɑːʃ/",
       "respell": "SKWAHSH",
-      "meaning": "To press something flat so that it loses its shape. ---",
+      "meaning": "Squash has 2 distinct senses.",
       "examples": [
         "Someone squashed the cake in my bag.",
         "Don't squash the bread under the cans.",
-        "The berries were squashed at the bottom of the box."
+        "The berries were squashed at the bottom of the box.",
+        "The mayor moved quickly to squash the rumor.",
+        "Management squashed the idea in one meeting.",
+        "The revolt was squashed within a week."
       ],
-      "senses": [],
-      "русский": "расплющивать, расплющить; раздавить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To press something flat so that it loses its shape",
+          "body": [
+            "(расплющивать, расплющить; раздавить)"
+          ],
+          "examples": [
+            "Someone squashed the cake in my bag.",
+            "Don't squash the bread under the cans.",
+            "The berries were squashed at the bottom of the box."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put a stop to something before it can grow, such as a rumor or a protest",
+          "body": [
+            "(пресекать, пресечь; подавлять, подавить (слухи, бунт))",
+            "---"
+          ],
+          "examples": [
+            "The mayor moved quickly to squash the rumor.",
+            "Management squashed the idea in one meeting.",
+            "The revolt was squashed within a week."
+          ]
+        }
+      ],
+      "русский": "расплющивать, расплющить; раздавить; пресекать, пресечь; подавлять, подавить (слухи, бунт)",
       "forms": "squash · squashed · squashed",
       "verb class": "regular",
       "third person": "squashes · -ing form: squashing",
@@ -290,14 +524,43 @@
       "term": "splinter",
       "ipa": "/ˈsplɪntər/",
       "respell": "SPLIN-tur",
-      "meaning": "To break into thin, sharp pieces of wood or bone. ---",
+      "meaning": "Splinter has 2 distinct senses.",
       "examples": [
         "The old door splintered when they forced it open.",
         "Cheap plywood splinters as soon as you drill it.",
-        "He pulled a splintered board off the porch."
+        "He pulled a splintered board off the porch.",
+        "Without a leader, the movement could splinter.",
+        "The party splintered into three factions.",
+        "The opposition has splintered into rival camps."
       ],
-      "senses": [],
-      "русский": "расщеплять(ся), расщепить(ся); раскалывать(ся) на щепки",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break into thin, sharp pieces of wood or bone",
+          "body": [
+            "(расщеплять(ся), расщепить(ся); раскалывать(ся) на щепки)"
+          ],
+          "examples": [
+            "The old door splintered when they forced it open.",
+            "Cheap plywood splinters as soon as you drill it.",
+            "He pulled a splintered board off the porch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To break apart into smaller rival groups",
+          "body": [
+            "(раскалываться, расколоться (о партии, движении))",
+            "---"
+          ],
+          "examples": [
+            "Without a leader, the movement could splinter.",
+            "The party splintered into three factions.",
+            "The opposition has splintered into rival camps."
+          ]
+        }
+      ],
+      "русский": "расщеплять(ся), расщепить(ся); раскалывать(ся) на щепки; раскалываться, расколоться (о партии, движении)",
       "forms": "splinter · splintered · splintered",
       "verb class": "regular",
       "third person": "splinters · -ing form: splintering",
@@ -307,14 +570,43 @@
       "term": "crumble",
       "ipa": "/ˈkrʌmbəl/",
       "respell": "KRUM-buhl",
-      "meaning": "To break slowly into small pieces because something is old, dry, or weak. ---",
+      "meaning": "Crumble has 2 distinct senses.",
       "examples": [
         "The brick wall is crumbling at the corner.",
         "The cookie crumbled in my hand.",
-        "Years of rain had crumbled the stone steps."
+        "Years of rain had crumbled the stone steps.",
+        "The deal crumbled at the last minute.",
+        "Their defense began to crumble in the fourth quarter.",
+        "Support for the bill is crumbling."
       ],
-      "senses": [],
-      "русский": "крошиться, раскрошиться; осыпаться, осыпаться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break slowly into small pieces because something is old, dry, or weak",
+          "body": [
+            "(крошиться, раскрошиться; осыпаться, осыпаться)"
+          ],
+          "examples": [
+            "The brick wall is crumbling at the corner.",
+            "The cookie crumbled in my hand.",
+            "Years of rain had crumbled the stone steps."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fail or fall apart gradually",
+          "body": [
+            "(рушиться, разваливаться, рухнуть)",
+            "---"
+          ],
+          "examples": [
+            "The deal crumbled at the last minute.",
+            "Their defense began to crumble in the fourth quarter.",
+            "Support for the bill is crumbling."
+          ]
+        }
+      ],
+      "русский": "крошиться, раскрошиться; осыпаться, осыпаться; рушиться, разваливаться, рухнуть",
       "forms": "crumble · crumbled · crumbled",
       "verb class": "regular",
       "third person": "crumbles · -ing form: crumbling",
@@ -324,14 +616,73 @@
       "term": "collapse",
       "ipa": "/kəˈlæps/",
       "respell": "kuh-LAPS",
-      "meaning": "To fall down suddenly because the structure gives way. ---",
+      "meaning": "Collapse has 4 distinct senses.",
       "examples": [
         "The roof collapsed under the weight of the snow.",
         "Old mine tunnels can collapse without any warning.",
-        "Two walls had already collapsed by the time the crew arrived."
+        "Two walls had already collapsed by the time the crew arrived.",
+        "Runners sometimes collapse in the last mile.",
+        "He collapsed at his desk and was rushed to the hospital.",
+        "She has collapsed twice this month.",
+        "Talks can collapse over a single word.",
+        "The company collapsed after the fraud came out.",
+        "Home prices have collapsed in some cities.",
+        "The stroller collapses with one hand.",
+        "He collapsed the tripod and put it in the trunk.",
+        "The table can be collapsed and stored under the bed."
       ],
-      "senses": [],
-      "русский": "рушиться, рухнуть; обрушиваться, обрушиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fall down suddenly because the structure gives way",
+          "body": [
+            "(рушиться, рухнуть; обрушиваться, обрушиться)"
+          ],
+          "examples": [
+            "The roof collapsed under the weight of the snow.",
+            "Old mine tunnels can collapse without any warning.",
+            "Two walls had already collapsed by the time the crew arrived."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of a person, to fall down suddenly from illness or exhaustion",
+          "body": [
+            "(падать без сил, свалиться; терять сознание)"
+          ],
+          "examples": [
+            "Runners sometimes collapse in the last mile.",
+            "He collapsed at his desk and was rushed to the hospital.",
+            "She has collapsed twice this month."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Of a plan, a business, or a system, to fail suddenly and completely",
+          "body": [
+            "(рушиться, рухнуть; терпеть крах, проваливаться)"
+          ],
+          "examples": [
+            "Talks can collapse over a single word.",
+            "The company collapsed after the fraud came out.",
+            "Home prices have collapsed in some cities."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To fold something into a smaller shape for carrying or storing",
+          "body": [
+            "(складывать, сложить (складную вещь))",
+            "---"
+          ],
+          "examples": [
+            "The stroller collapses with one hand.",
+            "He collapsed the tripod and put it in the trunk.",
+            "The table can be collapsed and stored under the bed."
+          ]
+        }
+      ],
+      "русский": "рушиться, рухнуть; обрушиваться, обрушиться; падать без сил, свалиться; терять сознание; рушиться, рухнуть; терпеть крах, проваливаться; складывать, сложить (складную вещь)",
       "forms": "collapse · collapsed · collapsed",
       "verb class": "regular",
       "third person": "collapses · -ing form: collapsing",
@@ -341,14 +692,43 @@
       "term": "topple",
       "ipa": "/ˈtɑːpəl/",
       "respell": "TAH-puhl",
-      "meaning": "To fall over, or to push something over, because it loses its balance. ---",
+      "meaning": "Topple has 2 distinct senses.",
       "examples": [
         "The wind toppled the fence along the driveway.",
         "Stack them any higher and they'll topple.",
-        "A toppled streetlight was blocking both lanes."
+        "A toppled streetlight was blocking both lanes.",
+        "The protests toppled the government in a matter of weeks.",
+        "No one believed a strike could topple a president.",
+        "Three regimes in the region have been toppled since 2011."
       ],
-      "senses": [],
-      "русский": "опрокидывать(ся), опрокинуть(ся); валить, свалить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fall over, or to push something over, because it loses its balance",
+          "body": [
+            "(опрокидывать(ся), опрокинуть(ся); валить, свалить)"
+          ],
+          "examples": [
+            "The wind toppled the fence along the driveway.",
+            "Stack them any higher and they'll topple.",
+            "A toppled streetlight was blocking both lanes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To remove a leader or a government from power",
+          "body": [
+            "(свергать, свергнуть)",
+            "---"
+          ],
+          "examples": [
+            "The protests toppled the government in a matter of weeks.",
+            "No one believed a strike could topple a president.",
+            "Three regimes in the region have been toppled since 2011."
+          ]
+        }
+      ],
+      "русский": "опрокидывать(ся), опрокинуть(ся); валить, свалить; свергать, свергнуть",
       "forms": "topple · toppled · toppled",
       "verb class": "regular",
       "third person": "topples · -ing form: toppling",
@@ -358,14 +738,43 @@
       "term": "warp",
       "ipa": "/wɔːrp/",
       "respell": "WORP",
-      "meaning": "To bend or twist out of shape, usually because of heat or moisture. ---",
+      "meaning": "Warp has 2 distinct senses.",
       "examples": [
         "Damp under the floor warped the boards.",
         "Leave that vinyl in the sun and it will warp.",
-        "The back door is warped and won't close all the way."
+        "The back door is warped and won't close all the way.",
+        "Fame can warp a person's sense of what is normal.",
+        "Those years in prison warped his view of people.",
+        "He has a warped sense of humor."
       ],
-      "senses": [],
-      "русский": "коробить(ся), покоробить(ся); деформировать(ся)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To bend or twist out of shape, usually because of heat or moisture",
+          "body": [
+            "(коробить(ся), покоробить(ся); деформировать(ся))"
+          ],
+          "examples": [
+            "Damp under the floor warped the boards.",
+            "Leave that vinyl in the sun and it will warp.",
+            "The back door is warped and won't close all the way."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To damage the way a person thinks or judges, making it unfair or unhealthy",
+          "body": [
+            "(искажать, исказить (взгляды, представления))",
+            "---"
+          ],
+          "examples": [
+            "Fame can warp a person's sense of what is normal.",
+            "Those years in prison warped his view of people.",
+            "He has a warped sense of humor."
+          ]
+        }
+      ],
+      "русский": "коробить(ся), покоробить(ся); деформировать(ся); искажать, исказить (взгляды, представления)",
       "forms": "warp · warped · warped",
       "verb class": "regular",
       "third person": "warps · -ing form: warping",
@@ -409,14 +818,43 @@
       "term": "slash",
       "ipa": "/slæʃ/",
       "respell": "SLASH",
-      "meaning": "To cut something with a long, violent stroke. ---",
+      "meaning": "Slash has 2 distinct senses.",
       "examples": [
         "Someone slashed the tires overnight.",
         "He was slashing at the vines with a machete.",
-        "The seat had been slashed open with a knife."
+        "The seat had been slashed open with a knife.",
+        "The store slashed prices by half after Christmas.",
+        "The company plans to slash two hundred jobs.",
+        "Funding for the program has been slashed again."
       ],
-      "senses": [],
-      "русский": "рассекать, рассечь; полосовать, порезать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cut something with a long, violent stroke",
+          "body": [
+            "(рассекать, рассечь; полосовать, порезать)"
+          ],
+          "examples": [
+            "Someone slashed the tires overnight.",
+            "He was slashing at the vines with a machete.",
+            "The seat had been slashed open with a knife."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To reduce a price, a budget, or a number of jobs by a large amount",
+          "body": [
+            "(резко снижать, урезать (цены, бюджет, расходы))",
+            "---"
+          ],
+          "examples": [
+            "The store slashed prices by half after Christmas.",
+            "The company plans to slash two hundred jobs.",
+            "Funding for the program has been slashed again."
+          ]
+        }
+      ],
+      "русский": "рассекать, рассечь; полосовать, порезать; резко снижать, урезать (цены, бюджет, расходы)",
       "forms": "slash · slashed · slashed",
       "verb class": "regular",
       "third person": "slashes · -ing form: slashing",
@@ -444,14 +882,43 @@
       "term": "sever",
       "ipa": "/ˈsɛvər/",
       "respell": "SEV-ur",
-      "meaning": "To cut something all the way through, separating it into parts. ---",
+      "meaning": "Sever has 2 distinct senses.",
       "examples": [
         "The blade severed the cable in one pass.",
         "Ice storms often sever the power lines out here.",
-        "Surgeons reattached the severed finger."
+        "Surgeons reattached the severed finger.",
+        "The two countries may sever diplomatic ties.",
+        "The company severed its relationship with the supplier.",
+        "All contact with the group has been severed."
       ],
-      "senses": [],
-      "русский": "перерезать, перерубать; отсекать, отсечь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cut something all the way through, separating it into parts",
+          "body": [
+            "(перерезать, перерубать; отсекать, отсечь)"
+          ],
+          "examples": [
+            "The blade severed the cable in one pass.",
+            "Ice storms often sever the power lines out here.",
+            "Surgeons reattached the severed finger."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To end a connection or a relationship completely",
+          "body": [
+            "(разрывать, разорвать (связи, отношения); прекращать, прекратить)",
+            "---"
+          ],
+          "examples": [
+            "The two countries may sever diplomatic ties.",
+            "The company severed its relationship with the supplier.",
+            "All contact with the group has been severed."
+          ]
+        }
+      ],
+      "русский": "перерезать, перерубать; отсекать, отсечь; разрывать, разорвать (связи, отношения); прекращать, прекратить",
       "forms": "sever · severed · severed",
       "verb class": "regular",
       "third person": "severs · -ing form: severing",
@@ -462,14 +929,58 @@
       "term": "explode",
       "ipa": "/ɪkˈsploʊd/",
       "respell": "ik-SPLOHD",
-      "meaning": "To burst apart with great force and noise. ---",
+      "meaning": "Explode has 3 distinct senses.",
       "examples": [
         "The gas tank exploded on impact.",
         "Old fireworks can still explode years later.",
-        "A transformer had exploded two blocks away."
+        "A transformer had exploded two blocks away.",
+        "The city's population exploded in the 1990s.",
+        "Demand for the toy has exploded since Christmas.",
+        "Costs explode once you add a second warehouse.",
+        "He exploded when he saw the bill.",
+        "Don't explode at the kids over a broken glass.",
+        "She had never exploded like that in a meeting before."
       ],
-      "senses": [],
-      "русский": "взрываться, взорваться; взрывать, взорвать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To burst apart with great force and noise",
+          "body": [
+            "(взрываться, взорваться; взрывать, взорвать)"
+          ],
+          "examples": [
+            "The gas tank exploded on impact.",
+            "Old fireworks can still explode years later.",
+            "A transformer had exploded two blocks away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To increase suddenly and very quickly in number or amount",
+          "body": [
+            "(резко расти, стремительно увеличиваться)"
+          ],
+          "examples": [
+            "The city's population exploded in the 1990s.",
+            "Demand for the toy has exploded since Christmas.",
+            "Costs explode once you add a second warehouse."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To suddenly show violent anger",
+          "body": [
+            "(взрываться, взорваться (от гнева); вспылить)",
+            "---"
+          ],
+          "examples": [
+            "He exploded when he saw the bill.",
+            "Don't explode at the kids over a broken glass.",
+            "She had never exploded like that in a meeting before."
+          ]
+        }
+      ],
+      "русский": "взрываться, взорваться; взрывать, взорвать; резко расти, стремительно увеличиваться; взрываться, взорваться (от гнева); вспылить",
       "forms": "explode · exploded · exploded",
       "verb class": "regular",
       "third person": "explodes · -ing form: exploding",
@@ -479,14 +990,58 @@
       "term": "blast",
       "ipa": "/blæst/",
       "respell": "BLAST",
-      "meaning": "To break rock or a structure apart with explosives. ---",
+      "meaning": "Blast has 3 distinct senses.",
       "examples": [
         "Crews blasted a tunnel through the ridge.",
         "They blast twice a day at the quarry.",
-        "The safe had been blasted open from behind."
+        "The safe had been blasted open from behind.",
+        "The governor blasted the plan as reckless.",
+        "Critics have blasted the film for its ending.",
+        "Union leaders are blasting the company over the layoffs.",
+        "The neighbors blast their music every Saturday night.",
+        "He blasted the radio all the way to Denver.",
+        "Country music was blasting from the open windows."
       ],
-      "senses": [],
-      "русский": "взрывать, взорвать; разносить взрывом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break rock or a structure apart with explosives",
+          "body": [
+            "(взрывать, взорвать; разносить взрывом)"
+          ],
+          "examples": [
+            "Crews blasted a tunnel through the ridge.",
+            "They blast twice a day at the quarry.",
+            "The safe had been blasted open from behind."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To criticize someone or something very harshly in public",
+          "body": [
+            "(резко критиковать, раскритиковать; разносить)"
+          ],
+          "examples": [
+            "The governor blasted the plan as reckless.",
+            "Critics have blasted the film for its ending.",
+            "Union leaders are blasting the company over the layoffs."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To play music or a radio at a very high volume",
+          "body": [
+            "(врубать на всю громкость; греметь (о музыке))",
+            "---"
+          ],
+          "examples": [
+            "The neighbors blast their music every Saturday night.",
+            "He blasted the radio all the way to Denver.",
+            "Country music was blasting from the open windows."
+          ]
+        }
+      ],
+      "русский": "взрывать, взорвать; разносить взрывом; резко критиковать, раскритиковать; разносить; врубать на всю громкость; греметь (о музыке)",
       "forms": "blast · blasted · blasted",
       "verb class": "regular",
       "third person": "blasts · -ing form: blasting",
@@ -498,14 +1053,43 @@
       "term": "bomb",
       "ipa": "/bɑːm/",
       "respell": "BAHM",
-      "meaning": "To attack a place with bombs. ---",
+      "meaning": "Bomb has 2 distinct senses.",
       "examples": [
         "Planes bombed the rail bridge at dawn.",
         "The city had been bombed for six straight weeks.",
-        "They kept bombing the same stretch of track."
+        "They kept bombing the same stretch of track.",
+        "He bombed the chemistry final and had to retake the class.",
+        "Nobody wants to bomb in front of a live audience.",
+        "The movie had bombed in theaters before streaming saved it."
       ],
-      "senses": [],
-      "русский": "бомбить, разбомбить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To attack a place with bombs",
+          "body": [
+            "(бомбить, разбомбить)"
+          ],
+          "examples": [
+            "Planes bombed the rail bridge at dawn.",
+            "The city had been bombed for six straight weeks.",
+            "They kept bombing the same stretch of track."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fail badly, especially a movie, a performance, or a test (informal)",
+          "body": [
+            "(провалиться, с треском провалиться)",
+            "---"
+          ],
+          "examples": [
+            "He bombed the chemistry final and had to retake the class.",
+            "Nobody wants to bomb in front of a live audience.",
+            "The movie had bombed in theaters before streaming saved it."
+          ]
+        }
+      ],
+      "русский": "бомбить, разбомбить; провалиться, с треском провалиться",
       "forms": "bomb · bombed · bombed",
       "verb class": "regular",
       "third person": "bombs · -ing form: bombing",
@@ -533,14 +1117,43 @@
       "term": "overturn",
       "ipa": "/ˌoʊvərˈtɜːrn/",
       "respell": "oh-vur-TURN",
-      "meaning": "To turn over onto its side or roof, or to tip something over. ---",
+      "meaning": "Overturn has 2 distinct senses.",
       "examples": [
         "The tanker overturned on the exit ramp.",
         "One big wave can overturn a boat that size.",
-        "An overturned trailer blocked the road for hours."
+        "An overturned trailer blocked the road for hours.",
+        "Lawyers hope to overturn the ban this fall.",
+        "An appeals court overturned the conviction.",
+        "The ruling was overturned after new evidence appeared."
       ],
-      "senses": [],
-      "русский": "опрокидывать(ся), опрокинуть(ся)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To turn over onto its side or roof, or to tip something over",
+          "body": [
+            "(опрокидывать(ся), опрокинуть(ся))"
+          ],
+          "examples": [
+            "The tanker overturned on the exit ramp.",
+            "One big wave can overturn a boat that size.",
+            "An overturned trailer blocked the road for hours."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To officially reverse a court decision or a law",
+          "body": [
+            "(отменять, отменить (решение суда, закон))",
+            "---"
+          ],
+          "examples": [
+            "Lawyers hope to overturn the ban this fall.",
+            "An appeals court overturned the conviction.",
+            "The ruling was overturned after new evidence appeared."
+          ]
+        }
+      ],
+      "русский": "опрокидывать(ся), опрокинуть(ся); отменять, отменить (решение суда, закон)",
       "forms": "overturn · overturned · overturned",
       "verb class": "regular",
       "third person": "overturns · -ing form: overturning",
@@ -568,14 +1181,43 @@
       "term": "flood",
       "ipa": "/flʌd/",
       "respell": "FLUD",
-      "meaning": "To cover a place with water, or to be covered with water. ---",
+      "meaning": "Flood has 2 distinct senses.",
       "examples": [
         "The river flooded the whole basement.",
         "That underpass floods every spring.",
-        "We came home and found the kitchen flooded."
+        "We came home and found the kitchen flooded.",
+        "Calls flooded the station after the broadcast.",
+        "Cheap imports have flooded the market.",
+        "Volunteers kept flooding into the shelter all weekend."
       ],
-      "senses": [],
-      "русский": "затоплять, затопить; заливать, залить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cover a place with water, or to be covered with water",
+          "body": [
+            "(затоплять, затопить; заливать, залить)"
+          ],
+          "examples": [
+            "The river flooded the whole basement.",
+            "That underpass floods every spring.",
+            "We came home and found the kitchen flooded."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To arrive somewhere in overwhelming numbers, or to send something in overwhelming numbers",
+          "body": [
+            "(хлынуть, нахлынуть; заваливать, завалить (звонками, товаром); наводнять)",
+            "---"
+          ],
+          "examples": [
+            "Calls flooded the station after the broadcast.",
+            "Cheap imports have flooded the market.",
+            "Volunteers kept flooding into the shelter all weekend."
+          ]
+        }
+      ],
+      "русский": "затоплять, затопить; заливать, залить; хлынуть, нахлынуть; заваливать, завалить (звонками, товаром); наводнять",
       "forms": "flood · flooded · flooded",
       "verb class": "regular",
       "third person": "floods · -ing form: flooding",
@@ -640,14 +1282,58 @@
       "term": "trash",
       "ipa": "/træʃ/",
       "respell": "TRASH",
-      "meaning": "To wreck something or make a complete mess of it. ---",
+      "meaning": "Trash has 3 distinct senses.",
       "examples": [
         "The band trashed the hotel room.",
         "Don't let the dog trash the couch while we're out.",
-        "The kitchen was completely trashed after the party."
+        "The kitchen was completely trashed after the party.",
+        "Just trash those old magazines.",
+        "I trashed the whole first draft and started over.",
+        "Every receipt from the trip has already been trashed.",
+        "Critics trashed the movie the day it opened.",
+        "Don't trash your old company in a job interview.",
+        "He has been trashing his opponent on every talk show."
       ],
-      "senses": [],
-      "русский": "разгромить, разнести; привести в негодность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To wreck something or make a complete mess of it",
+          "body": [
+            "(разгромить, разнести; привести в негодность)"
+          ],
+          "examples": [
+            "The band trashed the hotel room.",
+            "Don't let the dog trash the couch while we're out.",
+            "The kitchen was completely trashed after the party."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To throw something away",
+          "body": [
+            "(выбрасывать, выбросить)"
+          ],
+          "examples": [
+            "Just trash those old magazines.",
+            "I trashed the whole first draft and started over.",
+            "Every receipt from the trip has already been trashed."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To criticize someone or something harshly in public",
+          "body": [
+            "(разносить, раскритиковать; поносить)",
+            "---"
+          ],
+          "examples": [
+            "Critics trashed the movie the day it opened.",
+            "Don't trash your old company in a job interview.",
+            "He has been trashing his opponent on every talk show."
+          ]
+        }
+      ],
+      "русский": "разгромить, разнести; привести в негодность; выбрасывать, выбросить; разносить, раскритиковать; поносить",
       "forms": "trash · trashed · trashed",
       "verb class": "regular",
       "third person": "trashes · -ing form: trashing",
@@ -658,14 +1344,43 @@
       "term": "total",
       "ipa": "/ˈtoʊtəl/",
       "respell": "TOH-tuhl",
-      "meaning": "To damage a car so badly that repairing it would cost more than the car is worth. ---",
+      "meaning": "Total has 2 distinct senses.",
       "examples": [
         "She totaled her truck on black ice.",
         "One bad skid can total a brand-new car.",
-        "The insurance company declared it totaled."
+        "The insurance company declared it totaled.",
+        "The repairs totaled almost four thousand dollars.",
+        "Her medical bills total more than she earns in a year.",
+        "Donations have totaled over a million dollars since May."
       ],
-      "senses": [],
-      "русский": "разбить вдребезги (машину), угробить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To damage a car so badly that repairing it would cost more than the car is worth",
+          "body": [
+            "(разбить вдребезги (машину), угробить)"
+          ],
+          "examples": [
+            "She totaled her truck on black ice.",
+            "One bad skid can total a brand-new car.",
+            "The insurance company declared it totaled."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To add up to a particular amount",
+          "body": [
+            "(составлять в сумме, достигать (суммы))",
+            "---"
+          ],
+          "examples": [
+            "The repairs totaled almost four thousand dollars.",
+            "Her medical bills total more than she earns in a year.",
+            "Donations have totaled over a million dollars since May."
+          ]
+        }
+      ],
+      "русский": "разбить вдребезги (машину), угробить; составлять в сумме, достигать (суммы)",
       "forms": "total · totaled · totaled",
       "verb class": "regular",
       "third person": "totals · -ing form: totaling",
@@ -779,14 +1494,43 @@
       "term": "wound",
       "ipa": "/wuːnd/",
       "respell": "WOOND",
-      "meaning": "To injure someone, especially with a weapon. ---",
+      "meaning": "Wound has 2 distinct senses.",
       "examples": [
         "Two officers were wounded in the blast.",
         "The shot wounded the animal but didn't kill it.",
-        "Careless words can wound worse than insults."
+        "Careless words can wound worse than insults.",
+        "That remark wounded her more than he realized.",
+        "Criticism like that can wound a young writer.",
+        "He looked genuinely wounded by the question."
       ],
-      "senses": [],
-      "русский": "ранить, поранить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To injure someone, especially with a weapon",
+          "body": [
+            "(ранить, поранить)"
+          ],
+          "examples": [
+            "Two officers were wounded in the blast.",
+            "The shot wounded the animal but didn't kill it.",
+            "Careless words can wound worse than insults."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To hurt someone's feelings deeply",
+          "body": [
+            "(ранить, уязвить (чувства); задевать)",
+            "---"
+          ],
+          "examples": [
+            "That remark wounded her more than he realized.",
+            "Criticism like that can wound a young writer.",
+            "He looked genuinely wounded by the question."
+          ]
+        }
+      ],
+      "русский": "ранить, поранить; ранить, уязвить (чувства); задевать",
       "forms": "wound · wounded · wounded",
       "verb class": "regular",
       "third person": "wounds · -ing form: wounding",
@@ -866,14 +1610,43 @@
       "term": "fracture",
       "ipa": "/ˈfræktʃər/",
       "respell": "FRAK-chur",
-      "meaning": "To crack or break a bone or a hard material. ---",
+      "meaning": "Fracture has 2 distinct senses.",
       "examples": [
         "She fractured her wrist in the fall.",
         "Freezing weather can fracture concrete.",
-        "The X-ray showed a fractured rib."
+        "The X-ray showed a fractured rib.",
+        "The party fractured over the budget.",
+        "Years of argument have fractured the movement.",
+        "The coalition is fracturing along regional lines."
       ],
-      "senses": [],
-      "русский": "ломать, сломать (кость); давать трещину",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To crack or break a bone or a hard material",
+          "body": [
+            "(ломать, сломать (кость); давать трещину)"
+          ],
+          "examples": [
+            "She fractured her wrist in the fall.",
+            "Freezing weather can fracture concrete.",
+            "The X-ray showed a fractured rib."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To break apart into rival groups because of disagreement",
+          "body": [
+            "(раскалываться, расколоться (о партии, коалиции); распадаться)",
+            "---"
+          ],
+          "examples": [
+            "The party fractured over the budget.",
+            "Years of argument have fractured the movement.",
+            "The coalition is fracturing along regional lines."
+          ]
+        }
+      ],
+      "русский": "ломать, сломать (кость); давать трещину; раскалываться, расколоться (о партии, коалиции); распадаться",
       "forms": "fracture · fractured · fractured",
       "verb class": "regular",
       "third person": "fractures · -ing form: fracturing",
@@ -900,14 +1673,43 @@
       "term": "infect",
       "ipa": "/ɪnˈfɛkt/",
       "respell": "in-FEKT",
-      "meaning": "To pass a disease to a living thing, or to fill something with harmful organisms. ---",
+      "meaning": "Infect has 2 distinct senses.",
       "examples": [
         "The cut got infected within a day.",
         "One sick bird can infect the whole flock.",
-        "The virus had infected thousands before anyone noticed."
+        "The virus had infected thousands before anyone noticed.",
+        "His enthusiasm infected the whole team.",
+        "Panic infects a trading floor in minutes.",
+        "The bad mood was infecting everyone in the room."
       ],
-      "senses": [],
-      "русский": "заражать, заразить; инфицировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pass a disease to a living thing, or to fill something with harmful organisms",
+          "body": [
+            "(заражать, заразить; инфицировать)"
+          ],
+          "examples": [
+            "The cut got infected within a day.",
+            "One sick bird can infect the whole flock.",
+            "The virus had infected thousands before anyone noticed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To spread a feeling or a mood to other people",
+          "body": [
+            "(заражать, заразить (настроением); передаваться)",
+            "---"
+          ],
+          "examples": [
+            "His enthusiasm infected the whole team.",
+            "Panic infects a trading floor in minutes.",
+            "The bad mood was infecting everyone in the room."
+          ]
+        }
+      ],
+      "русский": "заражать, заразить; инфицировать; заражать, заразить (настроением); передаваться",
       "forms": "infect · infected · infected",
       "verb class": "regular",
       "third person": "infects · -ing form: infecting",
@@ -951,14 +1753,43 @@
       "term": "smear",
       "ipa": "/smɪr/",
       "respell": "SMEER",
-      "meaning": "To spread something soft or wet over a surface, leaving dirty marks. ---",
+      "meaning": "Smear has 2 distinct senses.",
       "examples": [
         "The kids smeared jam all over the window.",
         "Don't smear the ink — it's still wet.",
-        "Every mirror in the house was smeared with fingerprints."
+        "Every mirror in the house was smeared with fingerprints.",
+        "The campaign smeared his opponent for weeks.",
+        "He says he was smeared by people who never met him.",
+        "They will smear anyone who gets in the way."
       ],
-      "senses": [],
-      "русский": "размазывать, размазать; пачкать, испачкать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To spread something soft or wet over a surface, leaving dirty marks",
+          "body": [
+            "(размазывать, размазать; пачкать, испачкать)"
+          ],
+          "examples": [
+            "The kids smeared jam all over the window.",
+            "Don't smear the ink — it's still wet.",
+            "Every mirror in the house was smeared with fingerprints."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To damage someone's reputation by spreading false or unfair accusations",
+          "body": [
+            "(порочить, очернять, оклеветать)",
+            "---"
+          ],
+          "examples": [
+            "The campaign smeared his opponent for weeks.",
+            "He says he was smeared by people who never met him.",
+            "They will smear anyone who gets in the way."
+          ]
+        }
+      ],
+      "русский": "размазывать, размазать; пачкать, испачкать; порочить, очернять, оклеветать",
       "forms": "smear · smeared · smeared",
       "verb class": "regular",
       "third person": "smears · -ing form: smearing",
@@ -1002,14 +1833,43 @@
       "term": "service",
       "ipa": "/ˈsɜːrvɪs/",
       "respell": "SUR-vis",
-      "meaning": "To check and repair a machine or vehicle as routine maintenance. ---",
+      "meaning": "Service has 2 distinct senses.",
       "examples": [
         "I had the car serviced before the trip.",
         "They service the elevators twice a year.",
-        "The furnace hasn't been serviced since we moved in."
+        "The furnace hasn't been serviced since we moved in.",
+        "Two airlines service the island.",
+        "The bus route serviced four towns before it was cut.",
+        "The whole county is serviced by a single clinic."
       ],
-      "senses": [],
-      "русский": "обслуживать, обслужить (технику); проводить техобслуживание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To check and repair a machine or vehicle as routine maintenance",
+          "body": [
+            "(обслуживать, обслужить (технику); проводить техобслуживание)"
+          ],
+          "examples": [
+            "I had the car serviced before the trip.",
+            "They service the elevators twice a year.",
+            "The furnace hasn't been serviced since we moved in."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To provide a service to a place or a group of people",
+          "body": [
+            "(обслуживать (район, маршрут); оказывать услуги)",
+            "---"
+          ],
+          "examples": [
+            "Two airlines service the island.",
+            "The bus route serviced four towns before it was cut.",
+            "The whole county is serviced by a single clinic."
+          ]
+        }
+      ],
+      "русский": "обслуживать, обслужить (технику); проводить техобслуживание; обслуживать (район, маршрут); оказывать услуги",
       "forms": "service · serviced · serviced",
       "verb class": "regular",
       "third person": "services · -ing form: servicing",
@@ -1019,14 +1879,43 @@
       "term": "plug",
       "ipa": "/plʌɡ/",
       "respell": "PLUG",
-      "meaning": "To fill a hole so that nothing can pass or leak through it. ---",
+      "meaning": "Plug has 2 distinct senses.",
       "examples": [
         "He plugged the hole with a wooden peg.",
         "A little putty will plug that gap for now.",
-        "The drain was plugged solid with hair."
+        "The drain was plugged solid with hair.",
+        "Every guest gets to plug a new project.",
+        "She plugged her restaurant twice during the interview.",
+        "He has been plugging the album on every podcast."
       ],
-      "senses": [],
-      "русский": "затыкать, заткнуть; заделывать, заделать (отверстие)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fill a hole so that nothing can pass or leak through it",
+          "body": [
+            "(затыкать, заткнуть; заделывать, заделать (отверстие))"
+          ],
+          "examples": [
+            "He plugged the hole with a wooden peg.",
+            "A little putty will plug that gap for now.",
+            "The drain was plugged solid with hair."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To mention a product, a book, or a show publicly in order to promote it",
+          "body": [
+            "(рекламировать, пиарить; продвигать (упоминанием))",
+            "---"
+          ],
+          "examples": [
+            "Every guest gets to plug a new project.",
+            "She plugged her restaurant twice during the interview.",
+            "He has been plugging the album on every podcast."
+          ]
+        }
+      ],
+      "русский": "затыкать, заткнуть; заделывать, заделать (отверстие); рекламировать, пиарить; продвигать (упоминанием)",
       "forms": "plug · plugged · plugged",
       "verb class": "regular",
       "third person": "plugs · -ing form: plugging",
@@ -1057,14 +1946,43 @@
       "term": "cure",
       "ipa": "/kjʊr/",
       "respell": "KYOOR",
-      "meaning": "To make an illness go away completely. ---",
+      "meaning": "Cure has 2 distinct senses.",
       "examples": [
         "Antibiotics cured the infection in three days.",
         "Nothing cures a cold — you just wait it out.",
-        "She was cured after the second round of treatment."
+        "She was cured after the second round of treatment.",
+        "They cure the ham for eighteen months.",
+        "The salmon was cured in salt and sugar.",
+        "He spent the fall curing venison."
       ],
-      "senses": [],
-      "русский": "лечить, вылечить; исцелять, исцелить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make an illness go away completely",
+          "body": [
+            "(лечить, вылечить; исцелять, исцелить)"
+          ],
+          "examples": [
+            "Antibiotics cured the infection in three days.",
+            "Nothing cures a cold — you just wait it out.",
+            "She was cured after the second round of treatment."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To preserve meat or fish with salt, smoke, or drying",
+          "body": [
+            "(солить, коптить, вялить (мясо, рыбу))",
+            "---"
+          ],
+          "examples": [
+            "They cure the ham for eighteen months.",
+            "The salmon was cured in salt and sugar.",
+            "He spent the fall curing venison."
+          ]
+        }
+      ],
+      "русский": "лечить, вылечить; исцелять, исцелить; солить, коптить, вялить (мясо, рыбу)",
       "forms": "cure · cured · cured",
       "verb class": "regular",
       "third person": "cures · -ing form: curing",
@@ -1109,14 +2027,43 @@
       "term": "reconstruct",
       "ipa": "/ˌriːkənˈstrʌkt/",
       "respell": "ree-kuhn-STRUKT",
-      "meaning": "To build something again after it has been damaged or destroyed. ---",
+      "meaning": "Reconstruct has 2 distinct senses.",
       "examples": [
         "The town reconstructed the bridge stone by stone.",
         "Surgeons can reconstruct a knee like that in one operation.",
-        "The church is being reconstructed from old photographs."
+        "The church is being reconstructed from old photographs.",
+        "Investigators are trying to reconstruct the last hour of the flight.",
+        "From the receipts, police reconstructed his movements that night.",
+        "The accident has been reconstructed frame by frame."
       ],
-      "senses": [],
-      "русский": "восстанавливать, восстановить; реконструировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To build something again after it has been damaged or destroyed",
+          "body": [
+            "(восстанавливать, восстановить; реконструировать)"
+          ],
+          "examples": [
+            "The town reconstructed the bridge stone by stone.",
+            "Surgeons can reconstruct a knee like that in one operation.",
+            "The church is being reconstructed from old photographs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To work out and describe how a past event happened, using the evidence that is left",
+          "body": [
+            "(восстанавливать (картину событий), воссоздавать ход событий)",
+            "---"
+          ],
+          "examples": [
+            "Investigators are trying to reconstruct the last hour of the flight.",
+            "From the receipts, police reconstructed his movements that night.",
+            "The accident has been reconstructed frame by frame."
+          ]
+        }
+      ],
+      "русский": "восстанавливать, восстановить; реконструировать; восстанавливать (картину событий), воссоздавать ход событий",
       "forms": "reconstruct · reconstructed · reconstructed",
       "verb class": "regular",
       "third person": "reconstructs · -ing form: reconstructing",
@@ -1178,14 +2125,43 @@
       "term": "degrade",
       "ipa": "/dɪˈɡreɪd/",
       "respell": "di-GRAYD",
-      "meaning": "To break down or lose quality over time, or to cause that to happen. ---",
+      "meaning": "Degrade has 2 distinct senses.",
       "examples": [
         "Sunlight degrades cheap plastic in a single season.",
         "The signal degraded the farther we drove.",
-        "All the rubber seals had degraded into powder."
+        "All the rubber seals had degraded into powder.",
+        "Jokes like that degrade everyone in the room.",
+        "He felt degraded by the way the manager spoke to him.",
+        "The report describes guards degrading prisoners."
       ],
-      "senses": [],
-      "русский": "разрушаться, разрушиться; ухудшать(ся), ухудшить(ся)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break down or lose quality over time, or to cause that to happen",
+          "body": [
+            "(разрушаться, разрушиться; ухудшать(ся), ухудшить(ся))"
+          ],
+          "examples": [
+            "Sunlight degrades cheap plastic in a single season.",
+            "The signal degraded the farther we drove.",
+            "All the rubber seals had degraded into powder."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To treat someone in a way that takes away their dignity",
+          "body": [
+            "(унижать, унизить; оскорблять достоинство)",
+            "---"
+          ],
+          "examples": [
+            "Jokes like that degrade everyone in the room.",
+            "He felt degraded by the way the manager spoke to him.",
+            "The report describes guards degrading prisoners."
+          ]
+        }
+      ],
+      "русский": "разрушаться, разрушиться; ухудшать(ся), ухудшить(ся); унижать, унизить; оскорблять достоинство",
       "forms": "degrade · degraded · degraded",
       "verb class": "regular",
       "third person": "degrades · -ing form: degrading",
@@ -1281,14 +2257,43 @@
       "term": "tarnish",
       "ipa": "/ˈtɑːrnɪʃ/",
       "respell": "TAR-nish",
-      "meaning": "To lose shine and turn dull and dark, the way silver does. ---",
+      "meaning": "Tarnish has 2 distinct senses.",
       "examples": [
         "The silverware tarnished in that damp drawer.",
         "Brass tarnishes quickly near the ocean.",
-        "The scandal had tarnished his name for good."
+        "The scandal had tarnished his name for good.",
+        "The scandal tarnished his reputation for good.",
+        "One bad review can tarnish a small restaurant's name.",
+        "Her record has been tarnished by the investigation."
       ],
-      "senses": [],
-      "русский": "тускнеть, потускнеть; пятнать, запятнать (репутацию)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To lose shine and turn dull and dark, the way silver does",
+          "body": [
+            "(тускнеть, потускнеть; пятнать, запятнать (репутацию))"
+          ],
+          "examples": [
+            "The silverware tarnished in that damp drawer.",
+            "Brass tarnishes quickly near the ocean.",
+            "The scandal had tarnished his name for good."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To damage someone's good name or reputation",
+          "body": [
+            "(пятнать, запятнать (репутацию); портить (имя))",
+            "---"
+          ],
+          "examples": [
+            "The scandal tarnished his reputation for good.",
+            "One bad review can tarnish a small restaurant's name.",
+            "Her record has been tarnished by the investigation."
+          ]
+        }
+      ],
+      "русский": "тускнеть, потускнеть; пятнать, запятнать (репутацию); пятнать, запятнать (репутацию); портить (имя)",
       "forms": "tarnish · tarnished · tarnished",
       "verb class": "regular",
       "third person": "tarnishes · -ing form: tarnishing",
@@ -1367,14 +2372,58 @@
       "term": "dissolve",
       "ipa": "/dɪˈzɑːlv/",
       "respell": "di-ZAHLV",
-      "meaning": "To break down completely in a liquid, or to make something do that. ---",
+      "meaning": "Dissolve has 3 distinct senses.",
       "examples": [
         "The tablet dissolved in warm water.",
         "Salt dissolves faster if you stir it.",
-        "The sugar had dissolved into the syrup."
+        "The sugar had dissolved into the syrup.",
+        "The two founders decided to dissolve their partnership.",
+        "The judge dissolved the order a week later.",
+        "After dissolving the company, they sold off the equipment.",
+        "She dissolved into tears when she heard the news.",
+        "The whole room dissolves into laughter whenever he tells that story.",
+        "He was dissolving into giggles in the middle of the ceremony."
       ],
-      "senses": [],
-      "русский": "растворять(ся), растворить(ся)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break down completely in a liquid, or to make something do that",
+          "body": [
+            "(растворять(ся), растворить(ся))"
+          ],
+          "examples": [
+            "The tablet dissolved in warm water.",
+            "Salt dissolves faster if you stir it.",
+            "The sugar had dissolved into the syrup."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To officially end a company, a partnership, or a legal arrangement",
+          "body": [
+            "(расторгать, расторгнуть; распускать, распустить)"
+          ],
+          "examples": [
+            "The two founders decided to dissolve their partnership.",
+            "The judge dissolved the order a week later.",
+            "After dissolving the company, they sold off the equipment."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To suddenly start crying or laughing and be unable to stop",
+          "body": [
+            "(разразиться (слезами, смехом), расплакаться)",
+            "---"
+          ],
+          "examples": [
+            "She dissolved into tears when she heard the news.",
+            "The whole room dissolves into laughter whenever he tells that story.",
+            "He was dissolving into giggles in the middle of the ceremony."
+          ]
+        }
+      ],
+      "русский": "растворять(ся), растворить(ся); расторгать, расторгнуть; распускать, распустить; разразиться (слезами, смехом), расплакаться",
       "forms": "dissolve · dissolved · dissolved",
       "verb class": "regular",
       "third person": "dissolves · -ing form: dissolving",
@@ -1439,14 +2488,58 @@
       "term": "jam",
       "ipa": "/dʒæm/",
       "respell": "JAM",
-      "meaning": "To stick so that something cannot move or work, or to make it stick. ---",
+      "meaning": "Jam has 3 distinct senses.",
       "examples": [
         "The printer jammed twice this morning.",
         "Fine sand jams the mechanism in a week.",
-        "That window has been jammed shut for years."
+        "That window has been jammed shut for years.",
+        "She jammed three sweaters into her backpack.",
+        "Don't jam the papers in like that — they'll tear.",
+        "He had jammed his hands into his pockets against the cold.",
+        "They jam in the garage every Sunday.",
+        "We jammed for three hours after the show.",
+        "The band was still jamming when I left."
       ],
-      "senses": [],
-      "русский": "заклинивать, заклинить; застревать, застрять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To stick so that something cannot move or work, or to make it stick",
+          "body": [
+            "(заклинивать, заклинить; застревать, застрять)"
+          ],
+          "examples": [
+            "The printer jammed twice this morning.",
+            "Fine sand jams the mechanism in a week.",
+            "That window has been jammed shut for years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To force something into a space that is almost too small for it",
+          "body": [
+            "(втискивать, втиснуть; запихивать, запихнуть)"
+          ],
+          "examples": [
+            "She jammed three sweaters into her backpack.",
+            "Don't jam the papers in like that — they'll tear.",
+            "He had jammed his hands into his pockets against the cold."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To play music with other people without planning it beforehand",
+          "body": [
+            "(играть джем, джемовать; импровизировать вместе)",
+            "---"
+          ],
+          "examples": [
+            "They jam in the garage every Sunday.",
+            "We jammed for three hours after the show.",
+            "The band was still jamming when I left."
+          ]
+        }
+      ],
+      "русский": "заклинивать, заклинить; застревать, застрять; втискивать, втиснуть; запихивать, запихнуть; играть джем, джемовать; импровизировать вместе",
       "forms": "jam · jammed · jammed",
       "verb class": "regular",
       "third person": "jams · -ing form: jamming",
@@ -1494,14 +2587,58 @@
       "term": "stall",
       "ipa": "/stɔːl/",
       "respell": "STAWL",
-      "meaning": "To stop running suddenly, the way an engine does. ---",
+      "meaning": "Stall has 3 distinct senses.",
       "examples": [
         "The car stalled at the light and wouldn't start.",
         "It stalls every time I shift too early.",
-        "We were stalling out on the freeway with the flashers on."
+        "We were stalling out on the freeway with the flashers on.",
+        "They will stall as long as the law allows.",
+        "He stalled until his lawyer arrived.",
+        "Stop stalling and answer the question.",
+        "Talks between the two sides stalled in March.",
+        "Sales have stalled since the spring.",
+        "The project is stalling for lack of money."
       ],
-      "senses": [],
-      "русский": "глохнуть, заглохнуть (о двигателе)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To stop running suddenly, the way an engine does",
+          "body": [
+            "(глохнуть, заглохнуть (о двигателе))"
+          ],
+          "examples": [
+            "The car stalled at the light and wouldn't start.",
+            "It stalls every time I shift too early.",
+            "We were stalling out on the freeway with the flashers on."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To delay on purpose in order to gain time",
+          "body": [
+            "(тянуть время, медлить, оттягивать)"
+          ],
+          "examples": [
+            "They will stall as long as the law allows.",
+            "He stalled until his lawyer arrived.",
+            "Stop stalling and answer the question."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To stop making progress",
+          "body": [
+            "(буксовать, застопориться, зайти в тупик)",
+            "---"
+          ],
+          "examples": [
+            "Talks between the two sides stalled in March.",
+            "Sales have stalled since the spring.",
+            "The project is stalling for lack of money."
+          ]
+        }
+      ],
+      "русский": "глохнуть, заглохнуть (о двигателе); тянуть время, медлить, оттягивать; буксовать, застопориться, зайти в тупик",
       "forms": "stall · stalled · stalled",
       "verb class": "regular",
       "third person": "stalls · -ing form: stalling",
@@ -1529,14 +2666,43 @@
       "term": "strain",
       "ipa": "/streɪn/",
       "respell": "STRAYN",
-      "meaning": "To injure a muscle, or to pull something so hard that it is close to breaking. ---",
+      "meaning": "Strain has 2 distinct senses.",
       "examples": [
         "He strained his back moving the piano.",
         "Don't strain that cable — it's already frayed.",
-        "The bolts were strained to the limit."
+        "The bolts were strained to the limit.",
+        "I had to strain to hear the announcement.",
+        "She strained to see over the crowd.",
+        "He was straining against the ropes."
       ],
-      "senses": [],
-      "русский": "растягивать, растянуть (мышцу); перенапрягать, перенапрячь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To injure a muscle, or to pull something so hard that it is close to breaking",
+          "body": [
+            "(растягивать, растянуть (мышцу); перенапрягать, перенапрячь)"
+          ],
+          "examples": [
+            "He strained his back moving the piano.",
+            "Don't strain that cable — it's already frayed.",
+            "The bolts were strained to the limit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make a great effort, especially to see or hear something",
+          "body": [
+            "(напрягаться, напрячься; напрягать (слух, зрение))",
+            "---"
+          ],
+          "examples": [
+            "I had to strain to hear the announcement.",
+            "She strained to see over the crowd.",
+            "He was straining against the ropes."
+          ]
+        }
+      ],
+      "русский": "растягивать, растянуть (мышцу); перенапрягать, перенапрячь; напрягаться, напрячься; напрягать (слух, зрение)",
       "forms": "strain · strained · strained",
       "verb class": "regular",
       "third person": "strains · -ing form: straining",
@@ -1546,14 +2712,42 @@
       "term": "age",
       "ipa": "/eɪdʒ/",
       "respell": "AYJ",
-      "meaning": "To grow old, or to change over time the way old things do.",
+      "meaning": "Age has 2 distinct senses.",
       "examples": [
         "The rubber gaskets aged and finally cracked.",
         "Cedar ages to a soft gray if you leave it bare.",
-        "The paint was aging badly on the south wall."
+        "The paint was aging badly on the south wall.",
+        "They age the cheddar for two years.",
+        "The whiskey was aged in oak barrels.",
+        "The beef has been aging in a cooler for a month."
       ],
-      "senses": [],
-      "русский": "стареть, постареть; изнашиваться со временем",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To grow old, or to change over time the way old things do",
+          "body": [
+            "(стареть, постареть; изнашиваться со временем)"
+          ],
+          "examples": [
+            "The rubber gaskets aged and finally cracked.",
+            "Cedar ages to a soft gray if you leave it bare.",
+            "The paint was aging badly on the south wall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To keep food or drink for a long time so that its flavor develops",
+          "body": [
+            "(выдерживать, выдержать (сыр, вино, мясо))"
+          ],
+          "examples": [
+            "They age the cheddar for two years.",
+            "The whiskey was aged in oak barrels.",
+            "The beef has been aging in a cooler for a month."
+          ]
+        }
+      ],
+      "русский": "стареть, постареть; изнашиваться со временем; выдерживать, выдержать (сыр, вино, мясо)",
       "forms": "age · aged · aged",
       "verb class": "regular",
       "third person": "ages · -ing form: aging",

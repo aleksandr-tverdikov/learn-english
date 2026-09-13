@@ -146,12 +146,21 @@ A second construction is entered with this group on the same footing: *as many a
 
 'Anything at all that' — the emphatic, archaic form of *whatever*.
 
+**1. Anything at all that — the archaic fused relative.** (всё, что бы то ни было — устар., библ., юр.)
+
 1. *Whatsoever* ye do, do it heartily.
 2. The trustee may sell, lease, or mortgage *whatsoever* belongs to the estate.
 3. *Whatsoever* a man soweth, that shall he also reap.
 4. He was authorized to do *whatsoever* the board directed.
 5. The license covers *whatsoever* the artist produces during the term.
 6. *Whatsoever* is not of faith is sin.
+
+**2. The emphatic tag after a negative — "at all," placed after the noun.** (совсем, вообще — усиливает отрицание: no reason whatsoever «вообще никаких причин»)
+
+7. There is no evidence *whatsoever* that the letter was ever mailed.
+8. She had no interest *whatsoever* in running for a second term.
+9. He gave us no warning *whatsoever*.
+10. This is the only use an American is likely to write today, and it always follows the noun: *none whatsoever*, never ✗ *whatsoever none*.
 
 **See also:** [whatever](#whatever), [whichsoever](#whichsoever), [whomsoever](#whomsoever), [whosoever](#whosoever), [whatsoever (determiner)](../../09-determiners/catalog/08-interrogative-exclamative-relative.md#whatsoever)
 

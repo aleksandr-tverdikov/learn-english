@@ -80,18 +80,26 @@ To catch and arrest someone who is wanted by the police.
 ### summon
 
 **Pronunciation:** /ˈsʌmən/ &middot; *SUM-uhn*
-**Русский:** вызывать (в суд), вызвать
+**Русский:** вызывать (в суд), вызвать; собирать (силы, мужество), собраться с (духом)
 **Forms:** *summon* &middot; *summoned* &middot; *summoned*
 **Verb class:** regular
 **Third person:** *summons* &middot; **-ing form:** *summoning*
 **Transitivity:** transitive
 **Contrast:** The verb form *he summons* looks like the noun *a summons* — the court paper itself.
 
-To officially order someone to appear in court or at an official place.
+Summon has 2 distinct senses.
+
+**1. To officially order someone to appear in court or at an official place.** (вызывать (в суд), вызвать)
 
 1. A judge can *summon* any witness in the case.
 2. They *summoned* her to appear on Monday.
 3. He has been *summoned* for jury duty twice this year.
+
+**2. To gather your strength, courage, or energy for something difficult.** (собирать (силы, мужество), собраться с (духом))
+
+4. It takes time to *summon* that kind of courage.
+5. She *summoned* her last bit of strength and pushed the door open.
+6. *Summoning* what patience he had left, he asked again.
 
 **Phrasal verbs:** [summon up](57-phrasal-regular-q-s.md#summon-up)
 
@@ -154,18 +162,26 @@ To state that someone has done something wrong before it has been proven.
 ### rule
 
 **Pronunciation:** /ruːl/ &middot; *ROOL*
-**Русский:** выносить решение, постановлять
+**Русский:** выносить решение, постановлять; править, управлять (страной); господствовать
 **Forms:** *rule* &middot; *ruled* &middot; *ruled*
 **Verb class:** regular
 **Third person:** *rules* &middot; **-ing form:** *ruling*
 **Transitivity:** both — transitive (the judge ruled the evidence inadmissible), intransitive (the court ruled against the city)
 **Contrast:** A court *rules* **on** a question and *rules* **for** or **against** a side.
 
-To make an official decision as a judge or a court.
+Rule has 2 distinct senses.
+
+**1. To make an official decision as a judge or a court.** (выносить решение, постановлять)
 
 1. The judge will *rule* on the motion tomorrow.
 2. The court *ruled* in favor of the tenants.
 3. Two appeals judges have *ruled* against the company.
+
+**2. To have power over a country or a people and govern them.** (править, управлять (страной); господствовать)
+
+4. Few kings *rule* without an army behind them.
+5. She *ruled* the region for nearly thirty years.
+6. The same family has *ruled* the island since 1890.
 
 **Phrasal verbs:** [rule out](57-phrasal-regular-q-s.md#rule-out)
 
@@ -210,17 +226,31 @@ To talk something over carefully before reaching a decision, as a jury does.
 ### affirm
 
 **Pronunciation:** /əˈfɜːrm/ &middot; *uh-FURM*
-**Русский:** подтверждать, оставлять в силе (решение)
+**Русский:** подтверждать, оставлять в силе (решение); утверждать, заявлять; подтверждать, подтвердить; поддерживать, ободрять; признавать значимость (чувств, личности)
 **Forms:** *affirm* &middot; *affirmed* &middot; *affirmed*
 **Verb class:** regular
 **Third person:** *affirms* &middot; **-ing form:** *affirming*
 **Transitivity:** transitive
 
-For a higher court, to let a lower court's decision stand.
+Affirm has 3 distinct senses.
+
+**1. For a higher court, to let a lower court's decision stand.** (подтверждать, оставлять в силе (решение))
 
 1. The appeals court may *affirm* the sentence.
 2. The judges *affirmed* the lower court's decision.
 3. His conviction was *affirmed* last month.
+
+**2. To state firmly and publicly that something is true.** (утверждать, заявлять; подтверждать, подтвердить)
+
+4. She *affirms* that she was at home all evening.
+5. Both sides *affirmed* their commitment to the deal.
+6. The governor has *affirmed* her support for the plan.
+
+**3. To tell people that they matter and that their feelings are valid.** (поддерживать, ободрять; признавать значимость (чувств, личности))
+
+7. Good teachers *affirm* their students.
+8. The letter *affirmed* everything she had been feeling.
+9. She felt *affirmed* by the group's warm response.
 
 ---
 
@@ -400,17 +430,25 @@ To attack someone in a public place and rob them.
 ### neglect
 
 **Pronunciation:** /nɪˈɡlɛkt/ &middot; *ni-GLEKT*
-**Русский:** пренебрегать, не заботиться, запускать
+**Русский:** пренебрегать, не заботиться, запускать; забывать сделать, упускать, не сделать
 **Forms:** *neglect* &middot; *neglected* &middot; *neglected*
 **Verb class:** regular
 **Third person:** *neglects* &middot; **-ing form:** *neglecting*
 **Transitivity:** transitive
 
-To fail to take care of someone or something you are responsible for.
+Neglect has 2 distinct senses.
+
+**1. To fail to take care of someone or something you are responsible for.** (пренебрегать, не заботиться, запускать)
 
 1. Landlords who *neglect* repairs can be fined.
 2. The court found that she had *neglected* the children.
 3. The building had been *neglected* for years.
+
+**2. To fail to do something, usually without meaning to.** (забывать сделать, упускать, не сделать)
+
+4. Don't *neglect* to sign the last page.
+5. He *neglected* to mention that he was married.
+6. She had *neglected* to renew her passport.
 
 ---
 
@@ -522,18 +560,26 @@ To make an exact copy of money or goods in order to cheat people.
 ### hack
 
 **Pronunciation:** /hæk/ &middot; *HAK*
-**Русский:** взламывать (компьютер, систему)
+**Русский:** взламывать (компьютер, систему); рубить, разрубать; прорубать
 **Forms:** *hack* &middot; *hacked* &middot; *hacked*
 **Verb class:** regular
 **Third person:** *hacks* &middot; **-ing form:** *hacking*
 **Transitivity:** both — transitive (hack a server), intransitive (hack into a system)
 **Contrast:** With no direct object, you *hack* **into** a system.
 
-To break into a computer system without permission.
+Hack has 2 distinct senses.
+
+**1. To break into a computer system without permission.** (взламывать (компьютер, систему))
 
 1. Criminals can *hack* a small bank in minutes.
 2. Someone *hacked* my email last night.
 3. The hospital's records were *hacked* in the spring.
+
+**2. To cut something roughly with heavy blows.** (рубить, разрубать; прорубать)
+
+4. He *hacked* at the frozen ground with a pick.
+5. They had to *hack* a path through the brush.
+6. She was *hacking* branches off the fallen tree.
 
 **Phrasal verbs:** [hack into](55-phrasal-regular-g-l.md#hack-into)
 
@@ -631,18 +677,26 @@ To touch or change something you have no right to touch, in order to damage or f
 ### rig
 
 **Pronunciation:** /rɪɡ/ &middot; *RIG*
-**Русский:** подтасовывать, фальсифицировать
+**Русский:** подтасовывать, фальсифицировать; оснащать, оснастить; оборудовать
 **Forms:** *rig* &middot; *rigged* &middot; *rigged*
 **Verb class:** regular
 **Third person:** *rigs* &middot; **-ing form:** *rigging*
 **Transitivity:** transitive
 **Contrast:** Double the *g*: *rigged*, *rigging*.
 
-To arrange a contest, a vote or a machine dishonestly so the result is fixed.
+Rig has 2 distinct senses.
+
+**1. To arrange a contest, a vote or a machine dishonestly so the result is fixed.** (подтасовывать, фальсифицировать)
 
 1. They tried to *rig* the bidding.
 2. He *rigged* the machines to pay out less.
 3. The contest had been *rigged* from the start.
+
+**2. To fit something out with equipment, ropes, or sails.** (оснащать, оснастить; оборудовать)
+
+4. They *rigged* the boat before dawn.
+5. The truck is *rigged* with a winch and two floodlights.
+6. The crew spent two days *rigging* the lights above the stage.
 
 ---
 
@@ -702,17 +756,25 @@ To pretend to be another person in order to deceive people.
 ### manipulate
 
 **Pronunciation:** /məˈnɪpjəleɪt/ &middot; *muh-NIP-yuh-layt*
-**Русский:** манипулировать, подтасовывать
+**Русский:** манипулировать, подтасовывать; управлять руками, ловко обращаться (с чем-л.); манипулировать (предметом)
 **Forms:** *manipulate* &middot; *manipulated* &middot; *manipulated*
 **Verb class:** regular
 **Third person:** *manipulates* &middot; **-ing form:** *manipulating*
 **Transitivity:** transitive
 
-To control people or figures dishonestly for your own advantage.
+Manipulate has 2 distinct senses.
+
+**1. To control people or figures dishonestly for your own advantage.** (манипулировать, подтасовывать)
 
 1. Traders can *manipulate* the price of a small stock.
 2. He *manipulated* the records to hide the loss.
 3. The evidence had been *manipulated*.
+
+**2. To work something skillfully with your hands or with a tool.** (управлять руками, ловко обращаться (с чем-л.); манипулировать (предметом))
+
+4. Surgeons *manipulate* the instruments through three small cuts.
+5. She *manipulated* the joystick with one hand.
+6. The robot arm is *manipulated* from the next room.
 
 ---
 
@@ -791,17 +853,25 @@ To go onto someone's land or into their property without permission.
 ### obstruct
 
 **Pronunciation:** /əbˈstrʌkt/ &middot; *uhb-STRUKT*
-**Русский:** препятствовать, чинить препятствия
+**Русский:** препятствовать, чинить препятствия; загораживать, преграждать; закупоривать
 **Forms:** *obstruct* &middot; *obstructed* &middot; *obstructed*
 **Verb class:** regular
 **Third person:** *obstructs* &middot; **-ing form:** *obstructing*
 **Transitivity:** transitive
 
-To deliberately get in the way of an official process.
+Obstruct has 2 distinct senses.
+
+**1. To deliberately get in the way of an official process.** (препятствовать, чинить препятствия)
 
 1. Lying to agents can *obstruct* an investigation.
 2. He *obstructed* the search by hiding the files.
 3. She was convicted of *obstructing* justice.
+
+**2. To block a road, a pipe, or a view.** (загораживать, преграждать; закупоривать)
+
+4. Please do not *obstruct* the doorway.
+5. A fallen tree *obstructed* the road for hours.
+6. Our view of the stage was *obstructed* by a pillar.
 
 ---
 
@@ -826,35 +896,51 @@ To urge people on to violence or disorder.
 ### gamble
 
 **Pronunciation:** /ˈɡæmbəl/ &middot; *GAM-buhl*
-**Русский:** играть в азартные игры
+**Русский:** играть в азартные игры; рисковать, рискнуть; делать ставку (на что-л.)
 **Forms:** *gamble* &middot; *gambled* &middot; *gambled*
 **Verb class:** regular
 **Third person:** *gambles* &middot; **-ing form:** *gambling*
 **Transitivity:** intransitive
 
-To play games of chance for money, which is regulated or banned in many places.
+Gamble has 2 distinct senses.
+
+**1. To play games of chance for money, which is regulated or banned in many places.** (играть в азартные игры)
 
 1. In some states you still may not *gamble* online.
 2. He *gambled* every weekend at the casino.
 3. Three men were caught *gambling* in the back room.
+
+**2. To take a risk in the hope that something will turn out well.** (рисковать, рискнуть; делать ставку (на что-л.))
+
+4. The studio *gambled* on an unknown director and it paid off.
+5. We're *gambling* that the weather holds through Saturday.
+6. You *gamble* a lot when you buy a house sight unseen.
 
 ---
 
 ### discriminate
 
 **Pronunciation:** /dɪˈskrɪmɪneɪt/ &middot; *di-SKRIM-uh-nayt*
-**Русский:** дискриминировать, проявлять дискриминацию
+**Русский:** дискриминировать, проявлять дискриминацию; различать, распознавать (тонкие различия)
 **Forms:** *discriminate* &middot; *discriminated* &middot; *discriminated*
 **Verb class:** regular
 **Third person:** *discriminates* &middot; **-ing form:** *discriminating*
 **Transitivity:** intransitive
 **Contrast:** *Discriminate* takes **against**.
 
-To treat a person worse than others because of race, sex, age or religion.
+Discriminate has 2 distinct senses.
+
+**1. To treat a person worse than others because of race, sex, age or religion.** (дискриминировать, проявлять дискриминацию)
 
 1. An employer may not *discriminate* against older workers.
 2. The bank *discriminated* against buyers in those neighborhoods.
 3. She says she was *discriminated* against because of her accent.
+
+**2. To see or make a fine difference between things that are nearly alike.** (различать, распознавать (тонкие различия))
+
+4. A trained ear can *discriminate* between the two notes.
+5. The children *discriminated* the shapes by color alone.
+6. The filter is good at *discriminating* spam from real mail.
 
 ---
 
@@ -896,17 +982,25 @@ To shut someone up in a prison or jail; a formal word common in American reporti
 ### pardon
 
 **Pronunciation:** /ˈpɑːrdən/ &middot; *PAHR-duhn*
-**Русский:** помиловать, миловать
+**Русский:** помиловать, миловать; извинять, извинить; прощать, простить
 **Forms:** *pardon* &middot; *pardoned* &middot; *pardoned*
 **Verb class:** regular
 **Third person:** *pardons* &middot; **-ing form:** *pardoning*
 **Transitivity:** transitive
 
-To officially forgive a crime and cancel the punishment.
+Pardon has 2 distinct senses.
+
+**1. To officially forgive a crime and cancel the punishment.** (помиловать, миловать)
 
 1. Only a governor can *pardon* a state prisoner.
 2. The president *pardoned* two hundred people.
 3. He was *pardoned* after serving eight years.
+
+**2. To excuse a small fault or a piece of rudeness in everyday politeness.** (извинять, извинить; прощать, простить)
+
+4. *Pardon* me — I didn't mean to interrupt.
+5. He *pardoned* my terrible Spanish and answered in English.
+6. A mistake that small is easily *pardoned*.
 
 ---
 
@@ -964,18 +1058,26 @@ To hand a suspect over to another country for trial.
 ### expel
 
 **Pronunciation:** /ɪkˈspɛl/ &middot; *ik-SPEL*
-**Русский:** исключать, выгонять; высылать
+**Русский:** исключать, выгонять; высылать; выталкивать, вытолкнуть; выпускать, извергать (воздух, жидкость)
 **Forms:** *expel* &middot; *expelled* &middot; *expelled*
 **Verb class:** regular
 **Third person:** *expels* &middot; **-ing form:** *expelling*
 **Transitivity:** transitive
 **Contrast:** Double the *l*: *expelled*, *expelling* — the stress is on the last syllable.
 
-To force someone officially to leave a school, an organization or a country.
+Expel has 2 distinct senses.
+
+**1. To force someone officially to leave a school, an organization or a country.** (исключать, выгонять; высылать)
 
 1. A school can *expel* a student for bringing a weapon.
 2. They *expelled* him in his final year.
 3. Two diplomats were *expelled* from the country.
+
+**2. To force air, liquid, or gas out of something.** (выталкивать, вытолкнуть; выпускать, извергать (воздух, жидкость))
+
+4. The whale *expelled* a spout of water.
+5. Cough hard to *expel* the water from your lungs.
+6. Air is *expelled* through a vent at the back.
 
 ---
 
@@ -999,35 +1101,51 @@ To legally force a tenant to leave a property.
 ### discipline
 
 **Pronunciation:** /ˈdɪsəplɪn/ &middot; *DIS-uh-plin*
-**Русский:** наказывать, привлекать к дисциплинарной ответственности
+**Русский:** наказывать, привлекать к дисциплинарной ответственности; приучать к дисциплине, дисциплинировать
 **Forms:** *discipline* &middot; *disciplined* &middot; *disciplined*
 **Verb class:** regular
 **Third person:** *disciplines* &middot; **-ing form:** *disciplining*
 **Transitivity:** transitive
 **Contrast:** Stress the first syllable, DIS-uh-plin; the last syllable rhymes with *pin*, not *pine*.
 
-To punish a member of an organization for breaking its rules.
+Discipline has 2 distinct senses.
+
+**1. To punish a member of an organization for breaking its rules.** (наказывать, привлекать к дисциплинарной ответственности)
 
 1. The department rarely *disciplines* its own officers.
 2. They *disciplined* two guards after the video came out.
 3. He has been *disciplined* three times this year.
+
+**2. To train someone, or yourself, to follow rules and control behavior.** (приучать к дисциплине, дисциплинировать)
+
+4. Good parents *discipline* their children with clear, steady rules.
+5. She *disciplined* herself to write for an hour every morning.
+6. He has never been good at *disciplining* his spending.
 
 ---
 
 ### rehabilitate
 
 **Pronunciation:** /ˌriːəˈbɪlɪteɪt/ &middot; *ree-uh-BIL-i-tayt*
-**Русский:** перевоспитывать, реабилитировать
+**Русский:** перевоспитывать, реабилитировать; реабилитировать, восстанавливать после травмы; разрабатывать (сустав)
 **Forms:** *rehabilitate* &middot; *rehabilitated* &middot; *rehabilitated*
 **Verb class:** regular
 **Third person:** *rehabilitates* &middot; **-ing form:** *rehabilitating*
 **Transitivity:** transitive
 
-To help an offender change so that they can live a normal life again.
+Rehabilitate has 2 distinct senses.
+
+**1. To help an offender change so that they can live a normal life again.** (перевоспитывать, реабилитировать)
 
 1. Prisons are supposed to *rehabilitate* people, not just hold them.
 2. The program *rehabilitated* hundreds of young offenders.
 3. He was *rehabilitated* and now speaks in schools.
+
+**2. To bring an injured part of the body back to full strength through treatment and exercise.** (реабилитировать, восстанавливать после травмы; разрабатывать (сустав))
+
+4. It can take a year to *rehabilitate* a knee like that.
+5. He *rehabilitated* his shoulder with daily exercises.
+6. She spent the summer *rehabilitating* a torn ligament.
 
 ---
 
@@ -1105,17 +1223,25 @@ To set limits on what someone may do or have.
 ### suspend
 
 **Pronunciation:** /səˈspɛnd/ &middot; *suh-SPEND*
-**Русский:** приостанавливать, временно отстранять
+**Русский:** приостанавливать, временно отстранять; подвешивать, подвесить
 **Forms:** *suspend* &middot; *suspended* &middot; *suspended*
 **Verb class:** regular
 **Third person:** *suspends* &middot; **-ing form:** *suspending*
 **Transitivity:** transitive
 
-To stop something for a time, or to bar someone from a job or a right temporarily.
+Suspend has 2 distinct senses.
+
+**1. To stop something for a time, or to bar someone from a job or a right temporarily.** (приостанавливать, временно отстранять)
 
 1. The board may *suspend* his license.
 2. They *suspended* the officer without pay.
 3. He got a *suspended* sentence and served no time.
+
+**2. To hang something so that it is held up from above.** (подвешивать, подвесить)
+
+4. The crew *suspended* the camera above the stage.
+5. They will *suspend* the platform from four cables.
+6. Tiny particles stay *suspended* in the liquid for hours.
 
 ---
 
@@ -1174,17 +1300,25 @@ To make something illegal.
 ### regulate
 
 **Pronunciation:** /ˈrɛɡjəleɪt/ &middot; *REG-yuh-layt*
-**Русский:** регулировать, регламентировать
+**Русский:** регулировать, регламентировать; регулировать (уровень, температуру); поддерживать в норме
 **Forms:** *regulate* &middot; *regulated* &middot; *regulated*
 **Verb class:** regular
 **Third person:** *regulates* &middot; **-ing form:** *regulating*
 **Transitivity:** transitive
 
-To control an activity by official rules.
+Regulate has 2 distinct senses.
+
+**1. To control an activity by official rules.** (регулировать, регламентировать)
 
 1. Federal agencies *regulate* the sale of firearms.
 2. Congress *regulated* the industry after the crash.
 3. Banks are heavily *regulated* in this country.
+
+**2. To keep a level, a speed, or a flow steady and correct.** (регулировать (уровень, температуру); поддерживать в норме)
+
+4. Sweating helps *regulate* body temperature.
+5. The old thermostat *regulated* the heat badly.
+6. Blood sugar is *regulated* by insulin.
 
 ---
 
@@ -1261,18 +1395,26 @@ For a president or a governor, to refuse to approve a bill.
 ### sanction
 
 **Pronunciation:** /ˈsæŋkʃən/ &middot; *SANK-shuhn*
-**Русский:** применять санкции, наказывать
+**Русский:** применять санкции, наказывать; санкционировать, официально разрешать, разрешить; одобрять
 **Forms:** *sanction* &middot; *sanctioned* &middot; *sanctioned*
 **Verb class:** regular
 **Third person:** *sanctions* &middot; **-ing form:** *sanctioning*
 **Transitivity:** transitive
 **Contrast:** *Sanction* has two opposite senses: to punish, and to approve officially. The context decides.
 
-To impose an official penalty on a person, a firm or a country.
+Sanction has 2 distinct senses.
+
+**1. To impose an official penalty on a person, a firm or a country.** (применять санкции, наказывать)
 
 1. A judge can *sanction* a lawyer who lies to the court.
 2. The court *sanctioned* the firm ten thousand dollars.
 3. Two banks were *sanctioned* last year.
+
+**2. To give official permission or approval for something.** (санкционировать, официально разрешать, разрешить; одобрять)
+
+4. The city will not *sanction* a march without a permit.
+5. The league *sanctioned* the event and sent officials.
+6. Only races *sanctioned* by the federation count for points.
 
 ---
 

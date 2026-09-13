@@ -283,12 +283,27 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 
 > "That's the first problem. The second is money," he said.  →  He named the first problem and **went on to say that** the second **was** money.
 
+**1. Carry on speaking; move to the next thing.** The reporting sense — the spoken counterpart of *continue*. (продолжить (говорить), перейти к следующему)
+
 1. He apologized, then *went on* to explain what had happened.
 2. "Anyway," she *went on*, "we found the file."
 3. The article *goes on* to argue that the policy backfired.
-4. She *went on* talking as if nothing had happened.
-5. Don't get him started — he'll *go on* about it all night.
-6. *Go on*, I'm listening.
+4. *Go on*, I'm listening.
+
+**2. Keep doing the same thing; last.** *go on* + **-ing**, the opposite of *go on* + **to**-infinitive. (продолжать делать то же самое; длиться)
+
+5. She *went on* talking as if nothing had happened.
+6. The argument *went on* for another twenty minutes.
+
+**3. Happen.** *What's going on?* is the ordinary American way to ask what is happening. (происходить, твориться)
+
+7. Nobody could tell us what was *going on* at the front of the line.
+8. Something is *going on* between those two and neither will say what.
+
+**4. go on about — talk at tedious length.** (занудно распространяться о чём-л.)
+
+9. Don't get him started — he'll *go on about* it all night.
+10. She *went on about* the parking situation for a solid ten minutes.
 
 **See also:** [continue](#continue), [add](#add), [say](#say)
 
@@ -411,12 +426,23 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 
 > "Attendance is down about nine percent," the report said.  →  The report **noted that** attendance **was** down about nine percent.
 
+**1. Say or write, calling attention to a fact.** The reporting sense, and the one that presupposes the fact is established. (отметить, обратить внимание (на факт))
+
 1. The judge *noted* that neither party had filed on time.
 2. It should be *noted* that these figures exclude part-time employees.
-3. She *noted* the discrepancy in the margin and moved on.
-4. Critics *noted* how little had changed since the first audit.
+3. Critics *noted* how little had changed since the first audit.
+4. He *noted*, correctly, that we had no budget for any of this.
+
+**2. Notice; take notice of.** Nothing is said out loud — the fact is simply registered, or the reader is told to register it. (заметить, принять к сведению)
+
 5. Please *note* that the building has no visitor parking.
-6. He *noted*, correctly, that we had no budget for any of this.
+6. *Note* the date on the second page — it doesn't match the first.
+7. He *noted* the make of the car without writing anything down.
+
+**3. Write down.** The verb behind the noun *notes*. (записать, пометить)
+
+8. She *noted* the discrepancy in the margin and moved on.
+9. He *noted* her number on the back of a receipt.
 
 **See also:** [observe](#observe), [remark](#remark), [mention](#mention), [indicate](#indicate)
 
@@ -452,12 +478,23 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 
 > "Nobody here has read the contract," he said.  →  He **observed that** nobody there **had read** the contract.
 
+**1. Say, having noticed.** The reporting sense, and the one the frames above describe — a remark presented as the product of noticing something. (заметить (вслух), высказать замечание)
+
 1. "You're up early," she *observed*.
 2. He *observed* that the two accounts contradicted each other on every important point.
 3. One reviewer *observed* how carefully the film avoids explaining itself.
-4. She *observed* the whole exchange from across the room.
-5. Visitors may *observe* the class but may not participate.
-6. It has often been *observed* that committees expand to fill the time available.
+4. It has often been *observed* that committees expand to fill the time available.
+
+**2. Watch, study, notice.** The eyes, not the mouth. This is the frame with a person plus **-ing** — *observed her leaving* — and nothing is said at all. (наблюдать, следить за; замечать)
+
+5. She *observed* the whole exchange from across the room.
+6. Visitors may *observe* the class but may not participate.
+7. The team *observed* the same reaction in every trial.
+
+**3. Keep, comply with, mark.** Of rules, treaties, holidays, and silences: to honor something by doing what it requires. (соблюдать (правило, обычай); отмечать (праздник))
+
+8. Both sides have *observed* the cease-fire since March.
+9. The office *observes* every federal holiday.
 
 **See also:** [remark](#remark), [note](#note), [comment](#comment), [say](#say)
 
@@ -494,12 +531,19 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 
 > "This deal is dead," he told reporters.  →  He **was quoted as saying** the deal **was** dead.
 
+**1. Reproduce someone's exact words.** (цитировать, приводить дословно)
+
 1. The article *quotes* two former employees who describe the same pattern.
 2. She was *quoted* as calling the decision "indefensible."
 3. Don't *quote* me on the exact number.
 4. He *quoted* his grandmother at least once an hour.
 5. The study is *quoted* far more often than it is read.
-6. Can I *quote* you on that?
+
+**2. Name a price in advance.** The trade sense — a garage, a printer, or a contractor states what the job will cost. No words are being attributed to anybody. (назначать цену, давать расценку)
+
+6. The plumber *quoted* us four hundred dollars for the same job.
+7. Every shop we called *quoted* a different price.
+8. They *quoted* a six-week lead time on the part.
 
 **See also:** [put it](#put-it), [report](#report), [state](#state), [say](#say)
 
@@ -536,12 +580,23 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 
 > "It started when the alarm didn't go off," he said.  →  He **related how** the whole day **had started** with an alarm that didn't go off.
 
+**1. Tell, give an orderly account of.** The reporting sense, and today a bookish one. (поведать, изложить (книжн.))
+
 1. She *related* the events of that morning to the investigators.
 2. He *related* that the two companies had been in talks for a year.
 3. The book *relates* the founding of the town in some detail.
-4. Strange as it may seem, he *related* the whole thing without once raising his voice.
-5. The witness *related* what she had heard through the wall.
-6. Ask him to *relate* the story about the ferry.
+4. The witness *related* what she had heard through the wall.
+5. Ask him to *relate* the story about the ferry.
+
+**2. relate to — be connected with.** A plain statement of subject matter, with no speaker in sight. (относиться к, иметь отношение к)
+
+6. All the questions *relating* to the budget were held to the end.
+7. Her research *relates* to the same period.
+
+**3. relate to — identify with, feel the same way.** Informal American English, and now far commoner in speech than the reporting sense. *I can relate* stands alone as a whole sentence. (сопереживать, понимать по себе; «мне это знакомо»)
+
+8. I can't *relate* to people who enjoy moving.
+9. "Three hours at the DMV." — "I can *relate*."
 
 **See also:** [recount](#recount), [describe](#describe), [report](#report), [tell](#tell)
 
@@ -598,12 +653,23 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 
 > "Sales fell about four percent last quarter," the company said.  →  The company **reported that** sales **had fallen** about four percent the previous quarter.
 
+**1. Pass information along.** The journalistic workhorse, scrupulously neutral about whether the information is true. (сообщать, докладывать)
+
 1. Two papers *reported* that the talks had collapsed.
-2. She *reported* the outage to the utility just after midnight.
-3. Residents *reported* hearing a loud bang around two in the morning.
-4. He is *reported* to have left the country in June.
-5. The committee *reported* on its findings in November.
-6. Nobody ever *reported* what happened to the missing equipment.
+2. Residents *reported* hearing a loud bang around two in the morning.
+3. He is *reported* to have left the country in June.
+4. The committee *reported* on its findings in November.
+
+**2. Notify an authority of a problem — or of a person.** *Report something* is a complaint about an event; *report **someone to** somebody* is a denunciation, and has nothing to do with what that person said. (заявить о (происшествии); донести, пожаловаться на кого-л.)
+
+5. She *reported* the outage to the utility just after midnight.
+6. She *reported* the theft to the police the next morning.
+7. A neighbor *reported* him to the city for burning trash.
+
+**3. report to — be answerable to; present yourself.** No speech act at all: the first is about the org chart, the second about turning up. (подчиняться кому-л.; явиться куда-л.)
+
+8. Everyone in the group *reports* to the CFO.
+9. New hires *report* to the fourth floor at nine.
 
 **See also:** [state](#state), [announce](#announce), [say](#say), [quote](#quote), [indicate](#indicate)
 
@@ -623,13 +689,24 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 > "I'm not coming," she said.  →  She **said (that) she wasn't** coming.
 > "I'll call you tomorrow," she said.  →  She said she **would** call me **the next day**.
 
+**1. Produce words.** The unmarked default — the verb that adds nothing at all to the message. (сказать, произнести)
+
 1. He *said* he'd be here by six.
 2. "That's not what I meant," she *said*.
 3. She didn't *say* a word to anyone all afternoon.
 4. What did the doctor *say*?
-5. The sign *says* the pool closes at nine.
-6. I couldn't *say* why he changed his mind.
-7. Just *say* the word and we'll leave.
+5. I couldn't *say* why he changed his mind.
+
+**2. Of a text, a sign, or a clock: state, show.** The subject is the thing that carries the words, and nobody is speaking. English uses *say* here where Russian uses «гласить» or «показывать». (гласить, показывать (о надписи, документе, часах))
+
+6. The sign *says* the pool closes at nine.
+7. My watch *says* ten past, but it runs fast.
+8. The label doesn't *say* where it was made.
+
+**3. Suppose, for the sake of argument.** Parenthetical *say*, always with a number or an example beside it. (скажем, допустим, предположим)
+
+9. *Say* it rains — do we still go?
+10. Give it, *say*, three weeks before you call again.
 
 **See also:** [tell](#tell), [state](#state), [mention](#mention), [remark](#remark), [report](#report), [The basics: say, tell, ask, speak, talk](../01-basics.md)
 
@@ -645,12 +722,19 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 
 > "I've decided to take the job," she told the group.  →  She **shared with the group that** she **had decided** to take the job.
 
+**1. Tell; pass information on.** The workplace and therapeutic sense, and the one that takes a **that**-clause. (поделиться (новостью, сведениями))
+
 1. He *shared* the news with his family before it went public.
 2. She *shared* that she'd been out of work for most of the year.
 3. Would anyone like to *share* before we wrap up?
 4. I'll *share* the document with you this afternoon.
 5. Nobody *shared* what had been discussed in the closed session.
-6. Thanks for *sharing* that with us.
+
+**2. Have, use, or divide something in common.** The older and commoner sense, with no speech in it: two people share an office, a bill, a last name. (делить, разделять; иметь общее)
+
+6. They *share* an office and, apparently, a calendar.
+7. We *shared* a cab from the airport and split the fare.
+8. The two proposals *share* one obvious weakness.
 
 **See also:** [tell](#tell), [say](#say), [mention](#mention), [communicate](#communicate), [discuss](#discuss)
 
@@ -704,13 +788,20 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 > "The road is closed," he said to me.  →  He **told me (that)** the road **was** closed.
 > "Sit down," she said.  →  She **told me to sit down**.
 
+**1. Deliver a message to a named listener.** The reporting sense: a person is required, and attaches bare. (сказать, рассказать кому-л.)
+
 1. She *told* me the meeting had moved to Thursday.
 2. Nobody *told* us where to park.
 3. He *told* the kids to stay off the ice.
 4. *Tell* me about the new place.
 5. I was *told* the check had already been mailed.
-6. You can *tell* she's done this before.
-7. To *tell* you the truth, I'd rather stay home.
+6. To *tell* you the truth, I'd rather stay home.
+
+**2. Know, make out, distinguish.** The other verb: no listener, no message, and never any reported speech. It is the *tell* inside *tell the difference*, *tell A from B*, and *you never can tell*. (определить, различить; понять, догадаться)
+
+7. You can *tell* she's done this before.
+8. I can't *tell* the difference between the two files.
+9. It might work. You never can *tell*.
 
 **See also:** [say](#say), [inform](#inform), [notify](#notify), [advise](#advise), [share](#share), [let me tell you](#let-me-tell-you), [Reported commands and requests](../06-commands-requests.md)
 

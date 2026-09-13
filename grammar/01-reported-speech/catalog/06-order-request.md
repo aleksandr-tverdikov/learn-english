@@ -96,12 +96,23 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 > "If anyone saw anything that night, please come forward."  →  Police **appealed to witnesses to come** forward.
 > "We need volunteers, urgently."  →  The shelter **appealed for volunteers**.
 
+**1. Ask urgently and publicly.** The reporting sense: a request broadcast to people under no obligation to comply, with no authority behind it at all. (обращаться с призывом, взывать)
+
 1. The mayor *appealed to* residents to conserve water through the weekend.
 2. Aid groups have *appealed for* another forty million dollars.
 3. She *appealed to* her brother for help with the mortgage.
 4. Both sides *appealed to* the union to return to the table.
-5. He *appealed to* the crowd's better instincts and got nowhere.
-6. The family *appealed to* anyone with information to call the tip line.
+5. The family *appealed to* anyone with information to call the tip line.
+
+**2. Attract; be liked by.** No request at all — the subject is the thing that draws you, and the person is the object. *It doesn't appeal to me* is the everyday way to decline an idea. (нравиться, привлекать)
+
+6. The idea of a six-hour layover doesn't *appeal to* me.
+7. The menu is designed to *appeal to* children and their parents at once.
+
+**3. Take a case to a higher court.** American English makes this one transitive — *appealed the ruling* — where British English says *appealed against the ruling*. (обжаловать (решение суда))
+
+8. She *appealed* the ruling within a week.
+9. Both convictions were *appealed* and one was overturned.
 
 **See also:** [call on](#call-on), [urge](#urge), [plead](#plead), [beg](#beg), [petition](#petition)
 
@@ -301,12 +312,22 @@ The middle row is ambiguous outside context — *charged him with theft* accuses
 > "Consider only the evidence you heard in this room."  →  The judge **charged the jury to consider** only the evidence.
 > "You'll be running the fundraiser this year."  →  She **charged him with running** the fundraiser.
 
+**1. Hand somebody a duty, solemnly.** The reporting sense — a judge to a jury, an outgoing officer to a successor. It is *instruct* with ceremony attached. (поручать, возлагать обязанность)
+
 1. The judge *charged* the jurors to disregard the last exchange entirely.
 2. The commission was *charged* with reviewing every permit issued since 2020.
 3. He *charged* his successor to finish what the department had started.
-4. She *charged* us to keep the news to ourselves until Monday.
-5. The task force is *charged* with producing recommendations by spring.
-6. In his last letter he *charged* them to look after their mother.
+4. The task force is *charged* with producing recommendations by spring.
+
+**2. Accuse formally.** With a **that**-clause, or *charge somebody **with*** an offense. Never with a personal object before the clause. (обвинять, предъявлять обвинение)
+
+5. The complaint *charges* that the company knew about the defect.
+6. He was *charged* with two counts of fraud.
+
+**3. Ask a price; bill.** The commercial verb, and the one a learner meets daily. (брать плату, выставлять счёт)
+
+7. They *charge* forty dollars just to look at it.
+8. *Charge* it to the room.
 
 **See also:** [instruct](#instruct), [direct](#direct), [command](#command), [enjoin](#enjoin), [adjure](#adjure)
 
@@ -392,12 +413,21 @@ The middle row is ambiguous outside context — *charged him with theft* accuses
 > "You'll hire whoever I tell you to hire."  →  He **dictated who** they would hire.
 > "These are the terms. There's no negotiation."  →  She **dictated the terms** and left.
 
+**1. Lay down terms; impose.** The reporting sense, and it carries an unmistakable note of resentment: nobody describes their own reasonable instruction as *dictating*. (диктовать (условия), навязывать)
+
 1. The larger firm *dictated* every clause of the merger agreement.
 2. Policy *dictates* that all incidents be logged within twenty-four hours.
 3. He isn't going to let a subcontractor *dictate to* him.
+
+**2. Decide; govern the shape of.** With a thing as the subject and no resentment at all — weather, a budget, a calendar simply settles the matter. (определять, обусловливать)
+
 4. Weather *dictated* the schedule more than anything on the whiteboard did.
 5. The budget *dictates* how many people we can bring on this year.
+
+**3. Speak words for somebody else to write down.** A separate verb: it takes only a noun phrase and reports nothing. (диктовать (текст для записи))
+
 6. She *dictated* two letters and a memo before nine.
+7. He *dictates* his notes into his phone on the drive home.
 
 **See also:** [decree](#decree), [mandate](#mandate), [order](#order), [stipulate](#stipulate), [require](#require)
 
@@ -414,12 +444,23 @@ The middle row is ambiguous outside context — *charged him with theft* accuses
 > "Produce the documents by Friday."  →  The court **directed the company to produce** the documents by Friday.
 > "The exhibits are to be returned."  →  The judge **directed that the exhibits be returned**.
 
+**1. Issue an official instruction.** The verb of court orders, agency letters, and corporate memoranda — the force of *order* without its edge. (предписывать, распоряжаться)
+
 1. The inspector *directed* us to shut the line down until the guard was replaced.
 2. Her will *directs* that the proceeds go to the county library.
 3. The memo *directed* all staff to complete the training by the fifteenth.
-4. The referee *directed* both coaches to their benches.
-5. He was *directed* to appear at ten and showed up at noon.
-6. The statute *directs* the agency to publish its findings annually.
+4. He was *directed* to appear at ten and showed up at noon.
+
+**2. Point, aim, or send somebody somewhere.** The physical sense: to show the way, or to route a letter, a question, or a complaint to the right place. (направлять; указывать дорогу)
+
+5. The referee *directed* both coaches to their benches.
+6. Could you *direct* me to the courthouse?
+7. Send it to the main desk and they'll *direct* it to the right office.
+
+**3. Be in charge of.** A film, a play, an orchestra, a department: to run the thing and decide how it goes. (режиссировать; руководить (проектом, организацией))
+
+8. She *directed* two features before she was thirty.
+9. He *directs* the county's emergency services.
 
 **See also:** [instruct](#instruct), [order](#order), [command](#command), [charge](#charge), [enjoin](#enjoin)
 
@@ -586,12 +627,19 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 > "Fill out the form in blue ink."  →  The clerk **instructed us to fill out** the form in blue ink.
 > "Nobody talks to the press."  →  We were **instructed not to talk** to the press.
 
+**1. Give a procedural directive.** Authority without emotion: a clerk instructs, a supervisor instructs, a lawyer instructs a client, and none of them is angry. (поручать, давать указание)
+
 1. The flight attendant *instructed* passengers to stow all loose items.
 2. Her attorney *instructed* her to answer only the question asked.
 3. The manual *instructs* you to disconnect the battery first.
 4. He *instructed* the desk that no calls were to be put through.
-5. She *instructed* us in how the filing system had been organized, which took an hour.
-6. The pharmacist *instructed* him not to take it on an empty stomach.
+5. The pharmacist *instructed* him not to take it on an empty stomach.
+
+**2. Teach.** *instruct somebody **in** something* — the classroom sense, formal but entirely ordinary, and the source of *instructor*. (обучать, преподавать)
+
+6. She *instructed* us in how the filing system had been organized, which took an hour.
+7. He *instructs* two sections of organic chemistry.
+8. New volunteers are *instructed* in basic first aid before their first shift.
 
 **See also:** [direct](#direct), [order](#order), [tell](#tell), [command](#command), [charge](#charge)
 
@@ -676,12 +724,23 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 > "Evacuate the building."  →  The chief **ordered us to evacuate** the building.
 > "The records are to be sealed."  →  The judge **ordered that the records be sealed**.
 
+**1. Tell somebody to do something, with authority.** The default word for an authoritative directive, and the one that takes the bare subjunctive after *that*. (приказывать, велеть)
+
 1. The captain *ordered* the crew to abandon ship.
 2. Her doctor *ordered* her to stay off the ankle for six weeks.
 3. The court *ordered* that the company turn over its internal emails.
 4. He *ordered* us out of the kitchen before the smoke alarm went off.
-5. The agency *ordered* a recall of every lot from that plant.
-6. Nobody *ordered* me to be here; I volunteered.
+
+**2. Ask for goods or food.** The everyday sense — a restaurant, a catalog, a parts counter. Nobody is being commanded; something is being requested and paid for. (заказывать (еду, товар))
+
+5. We *ordered* two coffees and sat by the window.
+6. The part was *ordered* three weeks ago and still hasn't come.
+7. She *orders* the same thing every Friday.
+
+**3. Put things in a sequence.** The verb behind *in order*: to arrange rather than to instruct. (упорядочивать, располагать в определённом порядке)
+
+8. The files are *ordered* by date, not by client.
+9. The chapters are *ordered* chronologically, which is the only mercy in the book.
 
 **See also:** [command](#command), [direct](#direct), [instruct](#instruct), [tell](#tell), [summon](#summon)
 
@@ -741,12 +800,23 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 > "Please, just hear me out."  →  He **pleaded with me to hear** him out.
 > "Give us more time — please."  →  They **pleaded for more time**.
 
+**1. Beg — appeal at length and with feeling.** The reporting sense, and before a person it needs *with*: *pleaded **with** her brother*. (умолять, упрашивать)
+
 1. She *pleaded with* her brother to see a doctor.
 2. The family *pleaded for* privacy after the verdict.
 3. He *pleaded with* the officer not to write the ticket.
 4. Neighbors *pleaded with* the city to slow traffic on the street for years.
+
+**2. Enter a plea in court.** A separate verb that reports an entry on the record, not a request. Write *pleaded guilty*, not *pled*, in edited American prose. (заявлять о признании или непризнании вины (в суде))
+
 5. He *pleaded* guilty to two counts and got probation.
-6. She *pleaded* ignorance, unconvincingly.
+6. She *pleaded* not guilty at the arraignment.
+7. He *pleaded* the Fifth and said nothing else all morning.
+
+**3. Offer something as an excuse.** *plead ignorance*, *plead a prior commitment*, *plead poverty* — to put a reason forward rather than beg for anything. (ссылаться на что-л. (в оправдание))
+
+8. She *pleaded* ignorance, unconvincingly.
+9. He *pleaded* a prior commitment and left early.
 
 **See also:** [beg](#beg), [implore](#implore), [entreat](#entreat), [beseech](#beseech), [appeal to](#appeal-to)
 
@@ -883,12 +953,22 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 > "Don't forget your passport."  →  She **reminded me to bring** my passport.
 > "The deposit's due Friday, remember."  →  He **reminded me that the deposit was** due Friday.
 
+**1. Tell somebody to do the thing they already meant to do.** *remind* + **to**-infinitive is a directive, and its whole force comes from the listener's own earlier intention. (напоминать (сделать что-л.))
+
 1. Please *remind* me to move the car before street cleaning.
 2. The dentist's office *reminds* you twice, by text and by phone.
+
+**2. Bring a fact back to somebody's attention.** *remind* + **that**-clause reports information, not an instruction — the two frames are not interchangeable. (напоминать (о факте))
+
 3. She *reminded* the committee that the vote had already been taken once.
-4. He *reminded* us of the last time somebody tried this.
-5. Nobody *reminded* me the clocks changed, and I sat in an empty room for an hour.
-6. Let me *remind* you who signed the check.
+4. Nobody *reminded* me the clocks changed, and I sat in an empty room for an hour.
+5. Let me *remind* you who signed the check.
+
+**3. remind somebody of — bring to mind; resemble.** Nothing is being said at all: a face, a smell, or a street simply calls something up. (напоминать кого-л./что-л. (быть похожим))
+
+6. He *reminded* us of the last time somebody tried this.
+7. She *reminds* me of her mother more every year.
+8. The smell *reminded* him of a kitchen he hadn't thought about in years.
 
 **See also:** [tell](#tell), [prompt](#prompt), [nag](#nag), [instruct](#instruct), [press](#press)
 
@@ -934,12 +1014,19 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 > "Every visitor has to sign in."  →  Policy **requires that every visitor sign** in. / Policy **requires every visitor to sign** in.
 > "You'll need two forms of ID."  →  The bank **requires two forms** of ID.
 
+**1. Impose an obligation.** The reporting sense: the obligation comes from a rule, a policy, or an office rather than from a person's will. (требовать, обязывать (по правилу))
+
 1. The job *requires* you to be on call one weekend a month.
 2. State law *requires* that landlords return deposits within twenty-one days.
-3. The recipe *requires* buttermilk, and nothing else works the same way.
-4. Employees are *required* to report outside income over five thousand dollars.
-5. The grant *requires* filing a progress report every six months.
-6. Nothing *requires* you to answer that question.
+3. Employees are *required* to report outside income over five thousand dollars.
+4. The grant *requires* filing a progress report every six months.
+5. Nothing *requires* you to answer that question.
+
+**2. Need; call for.** No authority anywhere: a recipe, a repair, or a job simply takes what it takes. This is the sense Russian *требоваться* covers, and it never reports speech. (нуждаться в, требовать (по необходимости))
+
+6. The recipe *requires* buttermilk, and nothing else works the same way.
+7. The repair *required* two people and most of a Saturday.
+8. This will *require* a lot more testing than anyone budgeted for.
 
 **See also:** [demand](#demand), [mandate](#mandate), [stipulate](#stipulate), [order](#order), [instruct](#instruct)
 

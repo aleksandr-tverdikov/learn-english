@@ -306,13 +306,29 @@ The *-soever* intensification of *whence*, meaning "from absolutely any place th
 
 The workhorse of the category, and the one word that belongs to both families in this file. As an adverbial subordinator it locates the whole event (*put it where I can see it*). As a relative adverb it modifies a place noun and can be swapped for *in which* (*the room where we met* = *the room in which we met*). It also drifts into abstract territory, meaning "in cases in which" (*where the law is silent, custom governs*), which is standard in legal and academic prose.
 
+**1. Adverbial clause of place — it locates the whole event.** No place noun stands in front of it; the clause itself says where. (там, где; туда, куда)
+
 1. Put the boxes back *where* you found them.
 2. *Where* the sidewalk ends, the gravel road starts.
-3. This is the diner *where* we had breakfast every Sunday for six years.
-4. We spent August in Bar Harbor, *where* my grandmother still keeps a house.
-5. Nobody could tell me *where* the registration desk was.
-6. *Where* the contract is silent, state law fills the gap.
-7. He'll argue *where* most people would just walk away.
+3. She left the key *where* the plumber could find it.
+
+**2. Relative adverb after a place noun — swappable for *in which*.** No commas when the clause narrows which place is meant; commas on both sides when the place is already identified. (где; в котором; куда)
+
+4. This is the diner *where* we had breakfast every Sunday for six years.
+5. We spent August in Bar Harbor, *where* my grandmother still keeps a house.
+6. The room *where* the hearing was held holds about forty people.
+
+**3. Noun clause — an indirect question.** The clause is the object of a verb of knowing, asking, or telling, and it never takes a comma in front of it. (где; куда — в косвенном вопросе)
+
+7. Nobody could tell me *where* the registration desk was.
+8. I have no idea *where* she put the spare fuses.
+9. Ask *where* they want the pallets unloaded.
+
+**4. Abstract — "in cases in which."** No physical place at all. Standard in legal, academic, and technical prose, and this is the sense in which *where* stands in for *when* or *if*. (в тех случаях, когда; там, где — переносно)
+
+10. *Where* the contract is silent, state law fills the gap.
+11. He'll argue *where* most people would just walk away.
+12. *Where* two readings are possible, the older one usually wins.
 
 **See also:** [wherever](#wherever), [wherein](#wherein), [when](#when), [which](#which), [whence](#whence), [whither](#whither)
 
@@ -430,11 +446,16 @@ The emphatic form of *wherever*, built with the old intensifying suffix *-soever
 
 Means "in any place that," "in every place that," or — the concessive reading — "it doesn't matter where." Where plain *where* points at one identifiable place, *wherever* leaves the place open or sweeps across all of them. It is the place member of the *-ever* fused-relative family along with *whatever*, *whoever*, and *whenever*.
 
+**1. "In any place that," "in every place that."** The fused relative: it sweeps across every place that fits, or leaves open which single one turns out to apply. (везде, где; в любом месте, где)
+
 1. *Wherever* she goes, people recognize her.
 2. Set the tripod down *wherever* the ground is level.
-3. *Wherever* you end up living, keep the heavy coat.
-4. The company will match the offer, *wherever* it comes from.
-5. He falls asleep *wherever* he sits down for more than ten minutes.
+3. He falls asleep *wherever* he sits down for more than ten minutes.
+
+**2. Concessive — "it doesn't matter where."** The place is unknown or beside the point, and the main clause holds either way; *no matter where* substitutes exactly. (где бы ни; куда бы ни)
+
+4. *Wherever* you end up living, keep the heavy coat.
+5. The company will match the offer, *wherever* it comes from.
 6. *Wherever* the money went, it certainly didn't go into the roof.
 
 **See also:** [where](#where), [wheresoever](#wheresoever), [whatever](#whatever), [whoever](#whoever), [anywhere](#anywhere)
@@ -522,12 +543,23 @@ Means "by means of which" and attaches a clause to an abstract noun that names a
 
 Means "for which reason" or, in its interrogative use, simply "why." Juliet's *Wherefore art thou Romeo?* asks **why** he has to be a Romeo, not where he is — the most consistently misread line in English. Modern American English keeps it in two places: the prayer for relief at the end of a legal pleading, and the frozen phrase *the whys and wherefores*. It is the one *where-* compound in this section that is not a subordinator, which is exactly why it takes a semicolon where *whereupon* takes a comma.
 
-1. "*Wherefore* art thou Romeo?"
-2. The defendant failed to appear; *wherefore* the court entered judgment by default.
-3. She wanted to know all the whys and *wherefores* before she signed anything.
-4. *WHEREFORE*, Plaintiff respectfully requests that the Court enter judgment in her favor and award costs.
-5. The notice went to the wrong address. *Wherefore*, the thirty-day clock never started running.
-6. *Wherefore* should any of us care what that committee thinks?
+**1. "For which reason" — the connective.** It joins two independent clauses the way *therefore* does and takes a semicolon or a period in front of it, never a bare comma. In living American English it survives chiefly in the prayer for relief that closes a legal pleading. (вследствие чего; посему)
+
+1. The defendant failed to appear; *wherefore* the court entered judgment by default.
+2. *WHEREFORE*, Plaintiff respectfully requests that the Court enter judgment in her favor and award costs.
+3. The notice went to the wrong address. *Wherefore*, the thirty-day clock never started running.
+
+**2. The archaic interrogative — plainly "why."** Juliet's *Wherefore art thou Romeo?* asks why he has to be a Romeo, not where he is: the most consistently misread line in English. Subject and verb invert, and the sentence ends in a question mark. (почему; зачем)
+
+4. "*Wherefore* art thou Romeo?"
+5. *Wherefore* should any of us care what that committee thinks?
+6. *Wherefore* dost thou trouble me?
+
+**3. *the whys and wherefores* — a frozen plural noun.** Neither a connector nor a question word but a noun meaning "the reasons behind a thing," and the only shape in which most Americans ever meet the word. (причины; подоплёка)
+
+7. She wanted to know all the whys and *wherefores* before she signed anything.
+8. Spare me the whys and *wherefores* — just tell me what it costs.
+9. Half the book is given over to the whys and *wherefores* of the merger.
 
 **See also:** [why](#why), [whereupon](#whereupon), [whereof](#whereof), [whence](#whence), [therefore](11-conjunctive-adverbs.md#therefore)
 
@@ -929,12 +961,23 @@ The *all* is not the ordinary quantifier floating loose but an exhaustiveness ma
 
 Refers to things, animals, and ideas — never to people, who take *who*. The American *that/which* convention: use *that* for a clause that narrows which thing you mean, and *which* with commas for a clause that adds a detail about a thing already identified. *Which* has one power *that* lacks: it can take an entire preceding clause as its antecedent (*He was late, which surprised no one*).
 
+**1. Nonrestrictive relative — adding a detail about a thing already identified.** Fenced by commas on both sides, and the closing comma is the one writers drop. It refers to things, animals, and ideas, never to people. (который — в неограничительном придаточном, с запятыми)
+
 1. Her first novel, *which* took eleven years to write, sold four thousand copies.
 2. The bridge, *which* was rebuilt in 2004, is closed for repairs again.
-3. He missed the filing deadline, *which* surprised absolutely no one.
+3. The recipe calls for pancetta, *which* you can replace with bacon.
+
+**2. After a preposition — restrictive, and no commas.** This is the slot *that* cannot fill: *the chair on that she sat* is impossible, so a pied-piped preposition forces *which*. The frames *at which point*, *by which time*, and *in which case* belong here. (в котором; на котором; к какому времени)
+
 4. This is the cabinet in *which* the old contracts were stored.
 5. They moved in June, by *which* time the roof was already leaking.
-6. The recipe calls for pancetta, *which* you can replace with bacon.
+6. There is a second gate, through *which* the delivery trucks come.
+
+**3. Sentential relative — the antecedent is the whole clause in front of it.** The one power *that* lacks: *which* can take an entire statement as its head, which is why the Russian here is «что» and not «который». (что — с отсылкой ко всему сказанному)
+
+7. He missed the filing deadline, *which* surprised absolutely no one.
+8. She paid for everybody's dinner, *which* was more than anyone expected.
+9. The heat went out on the coldest night of the year, *which* is about how that winter went.
 
 **See also:** [that](#that), [who](#who), [whose](#whose), [wherein](#wherein), [whichever](#whichever)
 

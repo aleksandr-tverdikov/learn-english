@@ -81,13 +81,18 @@ Eight entries live here in full, and three of them — *a hell of a*, *a whale o
 
 Marks the noun as an extreme instance of its kind, in either direction: *a hell of a mechanic* is very good and *a hell of a mess* is very bad, and only the noun tells you which. It is among the commonest intensifiers in spoken American English and among the rarest in edited writing — which is exactly why *one heck of a* exists.
 
+**1. Admiring — an outstanding instance of its kind.** (ещё какой, чертовски хороший — разг. похвала: a hell of a mechanic «отличный механик»)
+
 1. That was *a hell of a* game, right down to the last out.
 2. He is *one hell of a* mechanic — nobody else could find that leak.
-3. We got *one heck of a* storm out of that front Tuesday night.
-4. Losing the server on a Friday was *a hell of a* way to end the week.
-5. She has had *a hell of a* year, and not in a good way.
-6. That is *a helluva* view for eighty dollars a night.
-7. It would take *one hell of an* argument to change his mind now.
+3. That is *a helluva* view for eighty dollars a night.
+4. It would take *one hell of an* argument to change his mind now.
+
+**2. Disparaging — an awful instance of its kind.** (ещё тот, кошмарный — разг. с досадой: a hell of a mess «жуткий бардак»)
+
+5. Losing the server on a Friday was *a hell of a* way to end the week.
+6. She has had *a hell of a* year, and not in a good way.
+7. We got *one heck of a* storm out of that front Tuesday night.
 8. There is still *a hell of a lot of* work to do before the inspection.
 
 **See also:** [a whale of a](#a-whale-of-a), [quite a](#quite-a), [rather a](#rather-a), [something of a](#something-of-a), [such a, such an](08-interrogative-exclamative-relative.md#such-a-such-an), [what a, what an](08-interrogative-exclamative-relative.md#what-a-what-an), [a lot of](04-quantifiers-large.md#a-lot-of)
@@ -128,6 +133,8 @@ An intensifier meaning "a very big and usually very good one of these," built on
 
 Sweeps in the entire set and then carves out a named exception, which is why it feels more precise than *most* — the speaker is telling you exactly how much is left over.
 
+**1. The determiner — everything or everyone except the named exception.** (все, кроме; всё, кроме — с прямым указанием исключения)
+
 1. *All but* three of the passengers walked away from the crash.
 2. She has read *all but* the last chapter.
 3. *All but* one of the original founders have retired.
@@ -136,7 +143,12 @@ Sweeps in the entire set and then carves out a named exception, which is why it 
 6. They sold off *all but* the downtown property.
 7. We used *all but* a cup of the flour on the first batch.
 8. Has *all but* the last shipment cleared customs yet?
-9. Twelve people boarded, and *all but* three walked away.
+
+**2. The adverb — "almost, practically," in front of an adjective or a participle.** (почти, практически — all but impossible «практически невозможно»; никакого исключения тут нет)
+
+9. Getting a permit by Friday is *all but* impossible.
+10. The line was *all but* abandoned by the time the mill closed.
+11. By ten o'clock the outcome was *all but* decided.
 
 **See also:** [all](06-distributives-negatives.md#all), [most](04-quantifiers-large.md#most), [every](06-distributives-negatives.md#every), [not all](06-distributives-negatives.md#not-all), [none of](06-distributives-negatives.md#none-of), [other](07-numerals-multipliers.md#other)
 
@@ -151,17 +163,22 @@ Sweeps in the entire set and then carves out a named exception, which is why it 
 **Contrast:** *quite a* and *rather a* fill the identical slot with opposite attitudes — *quite a* is admiring and impressed, *rather a* is understated and mildly negative. American English uses *quite a* constantly and *rather a* almost never. Note also the transatlantic trap in bare *quite* + adjective: American *quite good* means "very good," while British *quite good* often means "fairly good, and not much more." Word order matters too — *quite a long while* is right and ✗ *a quite long while* is not, because the adjective belongs after the article, not after *quite*. **In the negative the word flips sense entirely**: *not quite a year* means "almost a year, and slightly short of it," the opposite of the intensifying *quite a year*. Negate the sentence and you get the intensifier back (*That wasn't quite a disaster* = almost one); negate nothing and *quite a* only ever exaggerates.
 **Variants:** *quite the*, *quite a few*, *quite a bit of*, *quite some* (as in *quite some time*), *not quite a* (= "almost")
 
-**1.** As an intensifier, marks the noun as a notable, impressive, or extreme instance of its kind — *that was quite a storm* means the storm was remarkable. **2.** With measure nouns it simply means "a considerable amount of" — *quite a while*, *quite a distance*, *quite a drive*.
+What the noun names decides which reading you get: an ordinary countable noun gets the admiring one, and a measure noun — *while*, *distance*, *drive*, *bit* — gets the plain quantitative one. Note that *quite* stands **in front of** the article, like *such* and *what*: *quite a storm*, never ✗ *a quite storm*.
+
+**1. Intensifying — a notable, impressive, or extreme instance of its kind.** (настоящий, ещё какой — восхищённая оценка: quite a storm «ну и буря»)
 
 1. That was *quite a* game last night.
-2. We waited *quite a* while before anyone came to the door.
-3. She has made *quite a* name for herself in the last two years.
-4. It is *quite a* drive from here — about four hours with traffic.
-5. He is *quite the* storyteller once he gets going.
-6. *Quite a few* of my neighbors have put solar panels on the roof.
-7. They spent *quite a bit of* money getting the roof replaced.
-8. We waited *quite some* time before the doors opened.
-9. Isn't that *quite an* improvement over last year's numbers?
+2. She has made *quite a* name for herself in the last two years.
+3. He is *quite the* storyteller once he gets going.
+4. Isn't that *quite an* improvement over last year's numbers?
+
+**2. With a measure noun — simply "a considerable amount of."** (изрядно, немало, порядочно — quite a while «довольно долго», quite a drive «неблизкий путь»)
+
+5. We waited *quite a* while before anyone came to the door.
+6. It is *quite a* drive from here — about four hours with traffic.
+7. *Quite a few* of my neighbors have put solar panels on the roof.
+8. They spent *quite a bit of* money getting the roof replaced.
+9. We waited *quite some* time before the doors opened.
 10. It has been *not quite a* year since she started — she is short by two weeks.
 
 **See also:** [rather a](#rather-a), [quite a few](04-quantifiers-large.md#quite-a-few), [quite a lot of](04-quantifiers-large.md#quite-a-lot-of), [many a](04-quantifiers-large.md#many-a), [such a, such an](08-interrogative-exclamative-relative.md#such-a-such-an), [what a, what an](08-interrogative-exclamative-relative.md#what-a-what-an), [a](01-articles.md#a)
@@ -319,14 +336,20 @@ Beyond the number or amount already counted on — one more, or some more, added
 
 Marks the noun as the single member of its class in the situation at hand: there are no others, and that absence is the point of the sentence.
 
+**1. The single member of its class in the situation at hand.** (единственный — после the или притяжательного: the only exit «единственный выход»)
+
 1. That is the *only* exit on this side of the building.
 2. She is my *only* sister.
 3. The *only* two seats left were in the back row.
 4. His *only* regret was not calling sooner.
 5. That was the *only* advice anyone gave me all week.
-6. He is an *only* child, and it shows.
-7. She is not my *only* sister — there are three of us.
-8. Is this the *only* copy of the lease you have?
+6. She is not my *only* sister — there are three of us.
+7. Is this the *only* copy of the lease you have?
+
+**2. *An only child* — the fixed phrase for having no siblings.** (единственный ребёнок — устойчивое сочетание, единственное с артиклем a)
+
+8. He is an *only* child, and it shows.
+9. Both of them were *only* children, which explains a lot about that kitchen.
 
 **See also:** [sole](#sole), [very](#very), [same](07-numerals-multipliers.md#same), [one](07-numerals-multipliers.md#one), [each](06-distributives-negatives.md#each)
 
@@ -343,13 +366,18 @@ Marks the noun as the single member of its class in the situation at hand: there
 
 Narrows the noun to one specific instance rather than the general class. Under *no* it does the opposite job and cancels the narrowing — *no particular reason* means the reason was not any specific one.
 
+**1. Narrowing the noun to one specific instance rather than the general class.** (конкретный, определённый — именно этот экземпляр: this particular case «именно этот случай»)
+
 1. I had a *particular* restaurant in mind when I suggested dinner.
-2. She left for no *particular* reason that anyone could name.
-3. This *particular* case is the one the court will hear first.
-4. Put the files back in no *particular* order.
-5. Is there any *particular* reason you are asking me this now?
-6. That *particular* model was recalled two years ago.
-7. These *particular* files were never backed up.
+2. This *particular* case is the one the court will hear first.
+3. Is there any *particular* reason you are asking me this now?
+4. That *particular* model was recalled two years ago.
+5. These *particular* files were never backed up.
+
+**2. Under *no* — cancelling the narrowing rather than doing it.** (никакой особый, без всякой причины — no particular reason «просто так, без причины»)
+
+6. She left for no *particular* reason that anyone could name.
+7. Put the files back in no *particular* order.
 8. He named no *particular* names, but everyone knew who he meant.
 
 **See also:** [certain](#certain), [given](#given), [same](07-numerals-multipliers.md#same), [only](#only), [this](02-demonstratives.md#this)
@@ -367,12 +395,19 @@ Narrows the noun to one specific instance rather than the general class. Under *
 
 Counts a span backward from the present moment, covering the period that runs right up to now rather than a period that ended and closed.
 
+**1. A span counted backward from the present moment, running right up to now.** (прошедший, последний — the past three weeks «последние три недели»)
+
 1. The *past* three weeks have been a blur.
 2. Sales are up eleven percent over the *past* year.
 3. She has been in and out of the hospital these *past* few months.
 4. This *past* weekend was the first sunny one all spring.
 5. In the *past* decade the neighborhood has changed completely.
+
+**2. Former — held or done at some earlier time and no longer.** (бывший, прежний — a past president «бывший председатель», past performance «прошлые результаты»)
+
 6. *Past* performance is no guarantee of future results.
+7. She is a *past* president of the county bar association.
+8. His *past* employers all describe him the same way.
 
 **See also:** [last](07-numerals-multipliers.md#last), [next](07-numerals-multipliers.md#next), [previous, prior, preceding](07-numerals-multipliers.md#previous-prior-preceding), [former, latter](07-numerals-multipliers.md#former-latter), [this](02-demonstratives.md#this)
 
@@ -453,17 +488,27 @@ The one and only — chosen over *only* when the exclusivity is the legally or f
 **Contrast:** This determiner *very* is a different word from the **adverb** *very*, which intensifies adjectives and adverbs (*very tired*, *very quickly*). What follows tells them apart: a noun means determiner (*the very house*), an adjective means adverb (*a very old house*). Against *same*, the two stack in *the very same day* but differ alone — *very* means "exactly this one and no other," while *same* means "identical to the one already mentioned."
 **Variants:** *the very same*, *this very*, *the very first*, *the very best*, *the very idea*
 
-**1.** Marks the noun as exactly the one in question and no other, usually with a note of surprise, irony, or emphasis. **2.** With edge nouns and superlatives it marks the extreme limit — *the very top*, *the very end*, *the very first*.
+This is not the adverb *very* of *very tired*, which grades an adjective; the determiner sits between an article and a noun and cannot be graded at all. Because it requires a determiner in front of it, it never appears with a bare noun: ✗ *very room where the treaty was signed*.
+
+**1. Exactly the one in question and no other.** (тот самый, именно этот — часто с удивлением или иронией: his very words «его собственные слова»)
 
 1. That is the *very* thing I was looking for.
 2. We are standing in the *very* room where the treaty was signed.
 3. He used my *very* words against me in the meeting.
 4. She quit on the *very* day her bonus vested.
-5. The *very* idea of moving again exhausts her.
+5. Those were his *very* words, and I wrote them down.
+
+**2. With edge nouns and superlatives — the extreme limit.** (самый — the very end «самый конец», the very bottom «самый низ»)
+
 6. Their names were at the *very* bottom of the list.
 7. Come here this *very* minute.
-8. The *very* existence of the program is now in question.
-9. Those were his *very* words, and I wrote them down.
+8. The *very* first thing she did was call a lawyer.
+
+**3. Before an abstract noun — "the mere fact of."** (сам, само — the very idea «сама мысль», the very existence «само существование»)
+
+9. The *very* idea of moving again exhausts her.
+10. The *very* existence of the program is now in question.
+11. The *very* mention of his name changed the room.
 
 **See also:** [selfsame](#selfsame), [same](07-numerals-multipliers.md#same), [only](#only), [first](07-numerals-multipliers.md#first), [this](02-demonstratives.md#this), [that](02-demonstratives.md#that)
 
@@ -480,13 +525,19 @@ The one and only — chosen over *only* when the exclusivity is the legally or f
 
 The complete extent of something with nothing missing — the same idea as *all*, differing only in which slot it occupies. Note the widespread spoken form [*a whole nother*](01-articles.md#a-whole-nother), which splits *another* around *whole*; it is **nonstandard in writing** and very common in American speech, but the written form is *a whole other*. For *whole* as the totality member of the fractions family, see [the whole (of)](07-numerals-multipliers.md#the-whole-of).
 
-1. He ate a *whole* pizza by himself.
-2. She told me the *whole* story on the drive home.
-3. I have lived in this town my *whole* life.
-4. The *whole* team showed up to help him move.
-5. It rained the *whole* three days we were there.
-6. We spent the *whole* of the summer painting the house.
+**1. The complete extent of something, with nothing missing.** (весь, целый — после артикля или притяжательного: the whole cake)
+
+1. She told me the *whole* story on the drive home.
+2. I have lived in this town my *whole* life.
+3. The *whole* team showed up to help him move.
+4. It rained the *whole* three days we were there.
+5. We spent the *whole* of the summer painting the house.
+
+**2. Emphatic *a whole* — "an entire one, no less than that."** (целый — с удивлением или упрёком: a whole pizza «целую пиццу»; a whole other «совсем другой»)
+
+6. He ate a *whole* pizza by himself.
 7. That is a *whole* other problem, and we will get to it later.
+8. We waited a *whole* hour and nobody came to the door.
 
 **See also:** [entire](#entire), [the whole (of)](07-numerals-multipliers.md#the-whole-of), [a whole nother](01-articles.md#a-whole-nother), [all](06-distributives-negatives.md#all), [half](07-numerals-multipliers.md#half), [other](07-numerals-multipliers.md#other), [most](04-quantifiers-large.md#most)
 
@@ -507,12 +558,19 @@ These words fill the central determiner slot when nothing else claims it — *va
 
 A large and varied quantity — "many, and of many different kinds," with the variety usually mattering less to the speaker than the sheer amount.
 
+**1. Many, and of many different kinds — the variety is the point.** (всякие, самые разные — и много, и разных)
+
 1. There were *all kinds of* birds at the feeder this morning.
-2. We ran into *all sorts of* problems with the building permit.
-3. He gave me *all kinds of* advice I had not asked for.
-4. The store sells *all kinds of* used camera gear.
-5. She has had *all sorts of* trouble with that car since she bought it.
-6. *All kinds of* people showed up, from students to retirees.
+2. The store sells *all kinds of* used camera gear.
+3. *All kinds of* people showed up, from students to retirees.
+4. The report cites *all sorts of* evidence, most of it circumstantial.
+
+**2. Simply "a great deal of," with no variety implied at all.** (уйма, полно — all kinds of trouble «куча неприятностей»)
+
+5. We ran into *all sorts of* problems with the building permit.
+6. He gave me *all kinds of* advice I had not asked for.
+7. She has had *all sorts of* trouble with that car since she bought it.
+8. There is *all kinds of* room in the back of that truck.
 
 **See also:** [all manner of](#all-manner-of), [some kind of](#some-kind-of), [various](#various), [all](06-distributives-negatives.md#all), [what kind of](08-interrogative-exclamative-relative.md#what-kind-of-what-sort-of-what-type-of), [this kind of](02-demonstratives.md#this-kind-of)
 
@@ -573,17 +631,25 @@ Of several different kinds mixed together, usually as a deliberate selection rat
 **Contrast:** The determiner *certain* is unstressed and means "particular, and I am not naming which"; the **adjective** *certain* is stressed and means "sure." The test is the verb *be*: *I am certain* works for the adjective, but you cannot say ✗ *the people are certain* meaning "the people are particular ones." Against *various*, *certain* points at specific members the speaker could name but declines to, while *various* only reports that there were several kinds. Against *some*, *certain* is more pointed and often insinuating: *certain people should know better* has an accusation in it that *some people should know better* softens.
 **Variants:** *a certain amount of*, *a certain number of*, *a certain someone*, *to a certain extent*
 
-**1.** Points at particular members of a set that the speaker knows but chooses not to name — *certain people should know better*. **2.** Before a personal name, marks the person as unknown to the listener — *a certain Dr. Reyes called*. **3.** In *a certain* + abstract noun, hedges a quality the speaker cannot quite pin down — *a certain charm*.
+Number decides whether the article comes along: plurals and uncountables take bare *certain* (*certain people*, *certain evidence*), while a singular countable requires the fuller frame *a certain*, which has its own entry at [a certain](01-articles.md#a-certain). Do not confuse any of this with the **adjective** *certain* meaning "sure," which is stressed, grades freely (*quite certain*), and follows *be*.
+
+**1. Particular members of a set the speaker knows and chooses not to name.** (некие, определённые — говорящий знает, о ком речь, но не называет)
 
 1. *Certain* people should know better than to bring that up.
-2. A *certain* Mr. Kowalski has been calling for you all morning.
-3. The offer is good only under *certain* conditions.
-4. There is a *certain* charm to the old station, run down as it is.
-5. *Certain* information was withheld from the final report.
-6. A *certain* amount of delay was built into the schedule.
-7. *Certain* of the members objected, but the motion carried anyway.
-8. She had a *certain* restaurant in mind but would not say which.
-9. Are *certain* departments exempt from the freeze, or is it across the board?
+2. The offer is good only under *certain* conditions.
+3. *Certain* information was withheld from the final report.
+4. Are *certain* departments exempt from the freeze, or is it across the board?
+5. *Certain* of the members objected, but the motion carried anyway. (bookish partitive)
+
+**2. Before a personal name — marking the person as unknown to the listener.** (некий, некто — a certain Mr. Kowalski «некий мистер Ковальский»)
+
+6. A *certain* Mr. Kowalski has been calling for you all morning.
+7. She had a *certain* restaurant in mind but would not say which.
+
+**3. In *a certain* + abstract noun — hedging a quality that cannot quite be pinned down.** (некоторый, какой-то — a certain charm «некое обаяние»)
+
+8. There is a *certain* charm to the old station, run down as it is.
+9. A *certain* amount of delay was built into the schedule.
 
 **See also:** [various](#various), [given](#given), [some](05-quantifiers-small.md#some), [said](02-demonstratives.md#said), [a](01-articles.md#a)
 
@@ -736,14 +802,20 @@ More than one, stated without warmth or estimate — the plain modern word for a
 
 Marks the noun as belonging to a category the speaker cannot or will not specify — "a something-or-other of this general type," with the vagueness openly admitted.
 
+**1. A category the speaker cannot or will not specify.** (какой-то, что-то вроде — тип неизвестен: some kind of animal «какой-то зверь»)
+
 1. There is *some kind of* animal living under the porch.
 2. It looked like *some kind of* mistake on the invoice.
 3. He is in *some kind of* trouble with the bank again.
 4. They put *some kind of* oil on it to stop the squeaking.
 5. She is *some sort of* consultant, but nobody knows for what.
 6. *Some kinds of* birds never migrate at all.
+
+**2. Indignant — "you can't be serious."** (это что, шутка? — с возмущением: Is this some kind of joke? «Это что, издевательство?»)
+
 7. Is this *some kind of* joke, or are you serious?
 8. It was not *some kind of* accident — somebody unplugged it.
+9. What is this, *some kind of* test?
 
 **See also:** [all kinds of, all sorts of](#all-kinds-of-all-sorts-of), [certain](#certain), [any old](06-distributives-negatives.md#any-old), [some](05-quantifiers-small.md#some), [what kind of](08-interrogative-exclamative-relative.md#what-kind-of-what-sort-of-what-type-of), [this kind of](02-demonstratives.md#this-kind-of)
 

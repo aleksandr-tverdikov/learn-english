@@ -169,17 +169,25 @@ To gradually put an attitude or a habit into someone's mind.
 ### impart
 
 **Pronunciation:** /ɪmˈpɑːrt/ &middot; *im-PART*
-**Русский:** передавать, передать (знания, опыт)
+**Русский:** передавать, передать (знания, опыт); придавать, придать (вкус, оттенок, свойство)
 **Forms:** *impart* &middot; *imparted* &middot; *imparted*
 **Verb class:** regular
 **Third person:** *imparts* &middot; **-ing form:** *imparting*
 **Transitivity:** transitive
 
-To pass knowledge or information on to other people.
+Impart has 2 distinct senses.
+
+**1. To pass knowledge or information on to other people.** (передавать, передать (знания, опыт))
 
 1. A lecture can *impart* facts but not judgment.
 2. She *imparted* everything she knew about the trade.
 3. He has *imparted* his method to a whole generation of teachers.
+
+**2. To give a quality, flavor, or feeling to something.** (придавать, придать (вкус, оттенок, свойство))
+
+4. Oak barrels *impart* a vanilla flavor to the wine.
+5. A pinch of the spice *imparted* a smoky taste.
+6. The low lamps were *imparting* a warm glow to the room.
 
 ---
 
@@ -239,18 +247,26 @@ To learn about something, or teach someone about it, until it feels familiar.
 ### orient
 
 **Pronunciation:** /ˈɔːriɛnt/ &middot; *OR-ee-ent*
-**Русский:** ориентировать, сориентировать; вводить в курс
+**Русский:** ориентировать, сориентировать; вводить в курс; ориентировать, направлять, располагать (по сторонам света)
 **Forms:** *orient* &middot; *oriented* &middot; *oriented*
 **Verb class:** regular
 **Third person:** *orients* &middot; **-ing form:** *orienting*
 **Transitivity:** transitive
 **Contrast:** Americans write *orient*; the British often write *orientate*.
 
-To help someone get used to a new place or situation.
+Orient has 2 distinct senses.
+
+**1. To help someone get used to a new place or situation.** (ориентировать, сориентировать; вводить в курс)
 
 1. A short video *orients* new students.
 2. They *oriented* us on the first day of class.
 3. I am still *orienting* myself in this building.
+
+**2. To turn or place something so that it faces a particular direction.** (ориентировать, направлять, располагать (по сторонам света))
+
+4. *Orient* the map so that north is at the top.
+5. He *oriented* the antenna toward the tower.
+6. The house is *oriented* to catch the morning sun.
 
 ---
 
@@ -292,17 +308,31 @@ To say something again so that it is understood.
 ### administer
 
 **Pronunciation:** /ədˈmɪnəstər/ &middot; *ad-MIN-uh-stur*
-**Русский:** проводить (тест, экзамен), давать
+**Русский:** проводить (тест, экзамен), давать; вводить (лекарство), давать; оказывать (помощь); управлять, руководить; распоряжаться
 **Forms:** *administer* &middot; *administered* &middot; *administered*
 **Verb class:** regular
 **Third person:** *administers* &middot; **-ing form:** *administering*
 **Transitivity:** transitive
 
-To give a test, or to carry out an official procedure.
+Administer has 3 distinct senses.
+
+**1. To give a test, or to carry out an official procedure.** (проводить (тест, экзамен), давать)
 
 1. The state *administers* the reading test every spring.
 2. A nurse *administered* the hearing screening.
 3. They are *administering* the exam in the gym.
+
+**2. To give someone a medicine or a medical treatment.** (вводить (лекарство), давать; оказывать (помощь))
+
+4. A nurse will *administer* the shot.
+5. They *administered* first aid at the scene.
+6. The vaccine is being *administered* at all county clinics.
+
+**3. To manage an organization, a fund, or a program and be responsible for it.** (управлять, руководить; распоряжаться)
+
+7. A local bank *administers* the trust.
+8. She *administered* the estate after her father died.
+9. The program has been *administered* by the state for ten years.
 
 ---
 
@@ -398,18 +428,26 @@ To help someone, especially with part of a task.
 ### help
 
 **Pronunciation:** /hɛlp/ &middot; *HELP*
-**Русский:** помогать, помочь
+**Русский:** помогать, помочь; удерживаться, удержаться; не мочь не (в обороте can't help)
 **Forms:** *help* &middot; *helped* &middot; *helped*
 **Verb class:** regular
 **Third person:** *helps* &middot; **-ing form:** *helping*
 **Transitivity:** both — transitive (help your classmate), intransitive (she always helps)
 **Contrast:** After *help*, the bare infinitive is normal: *help me study* (also possible: *help me to study*).
 
-To make it easier for someone to do something.
+Help has 2 distinct senses.
+
+**1. To make it easier for someone to do something.** (помогать, помочь)
 
 1. Can you *help* me with these verbs?
 2. She *helped* me study for the final.
 3. He has *helped* dozens of students pass the exam.
+
+**2. To be able to stop or avoid something, used in the negative.** (удерживаться, удержаться; не мочь не (в обороте can't help))
+
+4. I couldn't *help* laughing when he slipped.
+5. She can't *help* the way she sounds on the phone.
+6. The delay was awful, but it couldn't be *helped*.
 
 **Phrasal verbs:** [help out](55-phrasal-regular-g-l.md#help-out) &middot; [help yourself to](55-phrasal-regular-g-l.md#help-yourself-to)
 
@@ -435,52 +473,76 @@ To help something happen or work better.
 ### foster
 
 **Pronunciation:** /ˈfɔːstər/ &middot; *FAW-stur*
-**Русский:** развивать, поощрять (в ком-л.), способствовать
+**Русский:** развивать, поощрять (в ком-л.), способствовать; брать на воспитание (в приёмную семью); приютить (животное)
 **Forms:** *foster* &middot; *fostered* &middot; *fostered*
 **Verb class:** regular
 **Third person:** *fosters* &middot; **-ing form:** *fostering*
 **Transitivity:** transitive
 
-To encourage a skill, a feeling, or a habit to develop.
+Foster has 2 distinct senses.
+
+**1. To encourage a skill, a feeling, or a habit to develop.** (развивать, поощрять (в ком-л.), способствовать)
 
 1. Group projects *foster* cooperation.
 2. That teacher *fostered* my interest in science.
 3. The program has *fostered* real progress in reading.
+
+**2. To take a child or an animal into your home and care for them for a time without adopting them.** (брать на воспитание (в приёмную семью); приютить (животное))
+
+4. They *fostered* three kids before adopting one of them.
+5. Would you consider *fostering* a dog for a few weeks?
+6. She has *fostered* more than twenty children.
 
 ---
 
 ### stimulate
 
 **Pronunciation:** /ˈstɪmjəleɪt/ &middot; *STIM-yuh-layt*
-**Русский:** стимулировать, побуждать; возбуждать (интерес)
+**Русский:** стимулировать, побуждать; возбуждать (интерес); стимулировать, активизировать (экономику, рост, кровообращение)
 **Forms:** *stimulate* &middot; *stimulated* &middot; *stimulated*
 **Verb class:** regular
 **Third person:** *stimulates* &middot; **-ing form:** *stimulating*
 **Transitivity:** transitive
 
-To make someone more interested, active, or eager to think.
+Stimulate has 2 distinct senses.
+
+**1. To make someone more interested, active, or eager to think.** (стимулировать, побуждать; возбуждать (интерес))
 
 1. Good questions *stimulate* thinking.
 2. The film *stimulated* a long discussion.
 3. The class is *stimulating* her interest in history.
+
+**2. To make a system or a part of the body more active.** (стимулировать, активизировать (экономику, рост, кровообращение))
+
+4. Exercise *stimulates* blood flow to the muscles.
+5. The tax cut *stimulated* hiring for about a year.
+6. The grant money is *stimulating* new research across the state.
 
 ---
 
 ### engage
 
 **Pronunciation:** /ɪnˈɡeɪdʒ/ &middot; *in-GAYJ*
-**Русский:** увлекать, заинтересовывать; вовлекать
+**Русский:** увлекать, заинтересовывать; вовлекать; включаться, входить в зацепление; включать (передачу, тормоз)
 **Forms:** *engage* &middot; *engaged* &middot; *engaged*
 **Verb class:** regular
 **Third person:** *engages* &middot; **-ing form:** *engaging*
 **Transitivity:** both — transitive (engage the class), intransitive (engage with the material)
 **Contrast:** You *engage* **with** a text or a person; the -e drops before *-ing*: *engaging*.
 
-To hold someone's interest, or to get seriously involved with something.
+Engage has 2 distinct senses.
+
+**1. To hold someone's interest, or to get seriously involved with something.** (увлекать, заинтересовывать; вовлекать)
 
 1. A good lesson *engages* every student in the room.
 2. She *engaged* the class with a story about her grandmother.
 3. They are *engaging* more deeply with the text this year.
+
+**2. To fit together and lock into place, said of a mechanical part.** (включаться, входить в зацепление; включать (передачу, тормоз))
+
+4. Make sure the parking brake is *engaged*.
+5. The gears *engage* with a soft click.
+6. The lock *engaged* as soon as the door swung shut.
 
 ---
 
@@ -600,18 +662,32 @@ To officially join a school, a class, or a program.
 ### apply
 
 **Pronunciation:** /əˈplaɪ/ &middot; *uh-PLY*
-**Русский:** подавать заявление, поступать; применять (правило)
+**Русский:** подавать заявление, поступать; применять (правило); наносить, нанести (крем, краску); относиться, касаться; распространяться (на кого-л.)
 **Forms:** *apply* &middot; *applied* &middot; *applied*
 **Verb class:** regular
 **Third person:** *applies* &middot; **-ing form:** *applying*
 **Transitivity:** both — transitive (apply the rule), intransitive (apply to a college)
 **Contrast:** Consonant + *-y* changes: *applies*, *applied*, but *applying* keeps the y. You *apply* **to** a school **for** a place.
 
-To ask formally to be accepted somewhere, or to put a rule or method to use.
+Apply has 3 distinct senses.
+
+**1. To ask formally to be accepted somewhere, or to put a rule or method to use.** (подавать заявление, поступать; применять (правило))
 
 1. She wants to *apply* to three universities.
 2. He *applied* for a scholarship in December.
 3. We are *applying* what we learned last week.
+
+**2. To spread or put a substance onto a surface.** (наносить, нанести (крем, краску))
+
+4. *Apply* sunscreen every two hours.
+5. She *applied* a second coat of paint.
+6. The nurse is *applying* a bandage to his arm.
+
+**3. To be relevant to a particular person or situation.** (относиться, касаться; распространяться (на кого-л.))
+
+7. The discount *applies* to members only.
+8. That rule *applied* only to last year's students.
+9. These instructions don't *apply* to your model.
 
 **Phrasal verbs:** [apply for, apply to](22-verb-preposition.md#apply-for-apply-to)
 
@@ -620,18 +696,26 @@ To ask formally to be accepted somewhere, or to put a rule or method to use.
 ### reapply
 
 **Pronunciation:** /ˌriːəˈplaɪ/ &middot; *ree-uh-PLY*
-**Русский:** подавать заявление повторно
+**Русский:** подавать заявление повторно; наносить повторно, нанести заново (крем, слой)
 **Forms:** *reapply* &middot; *reapplied* &middot; *reapplied*
 **Verb class:** regular
 **Third person:** *reapplies* &middot; **-ing form:** *reapplying*
 **Transitivity:** intransitive
 **Contrast:** Consonant + *-y* changes: *reapplies*, *reapplied*, but *reapplying* keeps the y.
 
-To send in an application a second time.
+Reapply has 2 distinct senses.
+
+**1. To send in an application a second time.** (подавать заявление повторно)
 
 1. If they turn you down, you can *reapply* next year.
 2. She *reapplied* in the fall and got in.
 3. He is *reapplying* to the same program.
+
+**2. To put a substance on a surface again.** (наносить повторно, нанести заново (крем, слой))
+
+4. *Reapply* sunscreen every two hours.
+5. She *reapplied* her lipstick in the mirror.
+6. The wax has to be *reapplied* once the first coat dries.
 
 ---
 
@@ -694,18 +778,26 @@ To finish a course of study and receive a diploma or a degree.
 ### qualify
 
 **Pronunciation:** /ˈkwɑːləfaɪ/ &middot; *KWAH-luh-fy*
-**Русский:** получать квалификацию; давать право; проходить отбор
+**Русский:** получать квалификацию; давать право; проходить отбор; оговаривать, оговорить; уточнять, смягчать (высказывание)
 **Forms:** *qualify* &middot; *qualified* &middot; *qualified*
 **Verb class:** regular
 **Third person:** *qualifies* &middot; **-ing form:** *qualifying*
 **Transitivity:** both — transitive (the course qualifies you to teach), intransitive (she qualified as a nurse)
 **Contrast:** Consonant + *-y* changes: *qualifies*, *qualified*, but *qualifying* keeps the y. You *qualify* **for** something or **as** something.
 
-To reach the standard needed for a job, a place, or the next round.
+Qualify has 2 distinct senses.
+
+**1. To reach the standard needed for a job, a place, or the next round.** (получать квалификацию; давать право; проходить отбор)
 
 1. These two courses *qualify* you for the certificate.
 2. She *qualified* as a nurse last year.
 3. He is *qualifying* for the state finals.
+
+**2. To add something to a statement so that it is less strong or less general.** (оговаривать, оговорить; уточнять, смягчать (высказывание))
+
+4. I'd *qualify* that a little: it works, but only on new machines.
+5. He *qualified* his praise with a warning about the cost.
+6. Every promise in the letter is *qualified* by a footnote.
 
 **Phrasal verbs:** [qualify for](22-verb-preposition.md#qualify-for)
 
@@ -790,17 +882,25 @@ To work somewhere for a short time, often unpaid, in order to learn the job.
 ### shadow
 
 **Pronunciation:** /ˈʃædoʊ/ &middot; *SHAD-oh*
-**Русский:** сопровождать (специалиста) для обучения, наблюдать за работой
+**Русский:** сопровождать (специалиста) для обучения, наблюдать за работой; следить (за кем-л.), ходить по пятам; вести слежку
 **Forms:** *shadow* &middot; *shadowed* &middot; *shadowed*
 **Verb class:** regular
 **Third person:** *shadows* &middot; **-ing form:** *shadowing*
 **Transitivity:** transitive
 
-To follow someone at work for a day or two in order to learn what the job is like.
+Shadow has 2 distinct senses.
+
+**1. To follow someone at work for a day or two in order to learn what the job is like.** (сопровождать (специалиста) для обучения, наблюдать за работой)
 
 1. Juniors can *shadow* a nurse for a day.
 2. He *shadowed* an engineer last spring.
 3. She is *shadowing* a veterinarian this week.
+
+**2. To follow someone closely and secretly in order to watch what they do.** (следить (за кем-л.), ходить по пятам; вести слежку)
+
+4. Two agents *shadow* him whenever he leaves the hotel.
+5. A detective *shadowed* her for a week.
+6. He realized he was being *shadowed* by the same gray car.
 
 ---
 
@@ -843,18 +943,26 @@ To go along with a group of young people in order to look after them.
 ### cram
 
 **Pronunciation:** /kræm/ &middot; *KRAM*
-**Русский:** зубрить, зазубривать (перед экзаменом)
+**Русский:** зубрить, зазубривать (перед экзаменом); запихивать, втискивать, набить
 **Forms:** *cram* &middot; *crammed* &middot; *crammed*
 **Verb class:** regular
 **Third person:** *crams* &middot; **-ing form:** *cramming*
 **Transitivity:** both — intransitive (cram for a test), transitive (cram three chapters into one night)
 **Contrast:** The m doubles: *crammed*, *cramming*. You *cram* **for** a test.
 
-To study very hard in a short time just before a test.
+Cram has 2 distinct senses.
+
+**1. To study very hard in a short time just before a test.** (зубрить, зазубривать (перед экзаменом))
 
 1. Try not to *cram* the night before the exam.
 2. We *crammed* for six hours straight.
 3. He is *cramming* for the chemistry final.
+
+**2. To force too much into a small space.** (запихивать, втискивать, набить)
+
+4. He *crammed* his clothes into one bag.
+5. Don't *cram* so much into the drawer.
+6. Two hundred people were *crammed* into the hall.
 
 **Phrasal verbs:** [cram for](53-phrasal-regular-a-c.md#cram-for) &middot; [cram in](53-phrasal-regular-a-c.md#cram-in)
 
@@ -881,17 +989,31 @@ To get ready, or get someone ready, for something.
 ### retain
 
 **Pronunciation:** /rɪˈteɪn/ &middot; *ri-TAYN*
-**Русский:** запоминать, удерживать в памяти; сохранять
+**Русский:** запоминать, удерживать в памяти; сохранять; сохранять, сохранить; удерживать; нанимать, нанять (адвоката); приглашать (специалиста)
 **Forms:** *retain* &middot; *retained* &middot; *retained*
 **Verb class:** regular
 **Third person:** *retains* &middot; **-ing form:** *retaining*
 **Transitivity:** transitive
 
-To keep something in your memory.
+Retain has 3 distinct senses.
+
+**1. To keep something in your memory.** (запоминать, удерживать в памяти; сохранять)
 
 1. Most people *retain* very little from a long lecture.
 2. She *retained* almost everything she read.
 3. He is *retaining* far more since he started using flashcards.
+
+**2. To continue to have or keep something.** (сохранять, сохранить; удерживать)
+
+4. The jacket *retains* its shape after washing.
+5. She *retained* control of the company after the sale.
+6. The building has *retained* its original windows.
+
+**3. To hire a lawyer or another professional by paying in advance.** (нанимать, нанять (адвоката); приглашать (специалиста))
+
+7. You should *retain* a lawyer before you sign anything.
+8. The family *retained* a well-known attorney.
+9. He has *retained* the same accountant for twenty years.
 
 ---
 
@@ -916,35 +1038,51 @@ To learn something so thoroughly that it becomes automatic.
 ### revisit
 
 **Pronunciation:** /ˌriːˈvɪzɪt/ &middot; *ree-VIZ-it*
-**Русский:** возвращаться (к теме), пересматривать
+**Русский:** возвращаться (к теме), пересматривать; снова посещать, побывать снова (в каком-л. месте)
 **Forms:** *revisit* &middot; *revisited* &middot; *revisited*
 **Verb class:** regular
 **Third person:** *revisits* &middot; **-ing form:** *revisiting*
 **Transitivity:** transitive
 
-To come back to a topic in order to look at it again.
+Revisit has 2 distinct senses.
+
+**1. To come back to a topic in order to look at it again.** (возвращаться (к теме), пересматривать)
 
 1. We will *revisit* this topic in chapter nine.
 2. The class *revisited* the poem before the test.
 3. I am *revisiting* my notes from last semester.
+
+**2. To go to a place again after being away for a long time.** (снова посещать, побывать снова (в каком-л. месте))
+
+4. We'd love to *revisit* Chicago in the fall.
+5. He *revisited* the town where he grew up.
+6. I've never *revisited* the school since graduation.
 
 ---
 
 ### hone
 
 **Pronunciation:** /hoʊn/ &middot; *HOHN*
-**Русский:** оттачивать, совершенствовать (навык)
+**Русский:** оттачивать, совершенствовать (навык); точить, наточить; править (лезвие)
 **Forms:** *hone* &middot; *honed* &middot; *honed*
 **Verb class:** regular
 **Third person:** *hones* &middot; **-ing form:** *honing*
 **Transitivity:** transitive
 **Contrast:** Drop the -e before *-ing*: *honing*.
 
-To improve a skill by practicing it carefully over time.
+Hone has 2 distinct senses.
+
+**1. To improve a skill by practicing it carefully over time.** (оттачивать, совершенствовать (навык))
 
 1. Reading aloud every day *hones* your pronunciation.
 2. She *honed* her writing in a summer workshop.
 3. He has *honed* the technique over twenty years.
+
+**2. To sharpen the edge of a blade against a stone.** (точить, наточить; править (лезвие))
+
+4. He *hones* his kitchen knives every Sunday.
+5. The barber *honed* the razor on a leather strap.
+6. She was *honing* the blade while the water boiled.
 
 ---
 
@@ -968,18 +1106,26 @@ To make what you have learned firmer, or to combine several things into one.
 ### synthesize
 
 **Pronunciation:** /ˈsɪnθəsaɪz/ &middot; *SIN-thuh-syz*
-**Русский:** обобщать, синтезировать (материал)
+**Русский:** обобщать, синтезировать (материал); синтезировать (вещество), получать искусственным путём
 **Forms:** *synthesize* &middot; *synthesized* &middot; *synthesized*
 **Verb class:** regular
 **Third person:** *synthesizes* &middot; **-ing form:** *synthesizing*
 **Transitivity:** transitive
 **Contrast:** American *synthesize*, British *synthesise*.
 
-To combine ideas from several sources into one whole.
+Synthesize has 2 distinct senses.
+
+**1. To combine ideas from several sources into one whole.** (обобщать, синтезировать (материал))
 
 1. The essay asks you to *synthesize* three readings.
 2. She *synthesized* the articles into a single argument.
 3. They are *synthesizing* data from four studies.
+
+**2. To make a substance artificially by combining chemicals.** (синтезировать (вещество), получать искусственным путём)
+
+4. The lab can *synthesize* the drug in three steps.
+5. Chemists first *synthesized* the compound in 1952.
+6. Vitamin D is *synthesized* in the skin.
 
 ---
 
@@ -1022,18 +1168,26 @@ To connect one thing with another in your mind.
 ### relate
 
 **Pronunciation:** /rɪˈleɪt/ &middot; *ri-LAYT*
-**Русский:** соотносить, связывать; понимать, сопереживать
+**Русский:** соотносить, связывать; понимать, сопереживать; рассказывать, излагать; поведать
 **Forms:** *relate* &middot; *related* &middot; *related*
 **Verb class:** regular
 **Third person:** *relates* &middot; **-ing form:** *relating*
 **Transitivity:** both — transitive (relate the two ideas), intransitive (relate to a character)
 **Contrast:** *relate* **to** something means to understand it or feel connected to it.
 
-To connect two things, or to understand and feel close to something.
+Relate has 2 distinct senses.
+
+**1. To connect two things, or to understand and feel close to something.** (соотносить, связывать; понимать, сопереживать)
 
 1. Good teaching *relates* new facts to what students already know.
 2. She *related* the story to her own childhood.
 3. I could not *relate* to that character at all.
+
+**2. To tell someone about events, in order.** (рассказывать, излагать; поведать)
+
+4. *Relate* the events exactly as you remember them.
+5. He *related* the whole story over dinner.
+6. She spent an hour *relating* what had happened that night.
 
 **Phrasal verbs:** [relate to](22-verb-preposition.md#relate-to)
 
@@ -1062,18 +1216,26 @@ To say that something was caused by or made by a particular person or thing.
 ### derive
 
 **Pronunciation:** /dɪˈraɪv/ &middot; *di-RYV*
-**Русский:** выводить (формулу); происходить (от чего-л.)
+**Русский:** выводить (формулу); происходить (от чего-л.); извлекать, извлечь; получать (удовольствие, пользу)
 **Forms:** *derive* &middot; *derived* &middot; *derived*
 **Verb class:** regular
 **Third person:** *derives* &middot; **-ing form:** *deriving*
 **Transitivity:** both — transitive (derive the formula), intransitive (the word derives from Latin)
 **Contrast:** Something *derives* **from** a source; drop the -e before *-ing*: *deriving*.
 
-To work something out from a starting point, or to come originally from a source.
+Derive has 2 distinct senses.
+
+**1. To work something out from a starting point, or to come originally from a source.** (выводить (формулу); происходить (от чего-л.))
 
 1. You can *derive* the whole formula from two simple rules.
 2. The word *derived* from Latin.
 3. We are *deriving* the equation step by step.
+
+**2. To get something such as pleasure or benefit from a source.** (извлекать, извлечь; получать (удовольствие, пользу))
+
+4. She *derives* real satisfaction from teaching.
+5. He *derived* little comfort from the apology.
+6. The town has *derived* most of its income from tourism.
 
 **Phrasal verbs:** [derive from](22-verb-preposition.md#derive-from)
 
@@ -1099,18 +1261,26 @@ To break a sentence into its grammatical parts, or to work out what a hard text 
 ### search
 
 **Pronunciation:** /sɜːrtʃ/ &middot; *SURCH*
-**Русский:** искать, разыскивать
+**Русский:** искать, разыскивать; обыскивать, обыскать; досматривать, досмотреть
 **Forms:** *search* &middot; *searched* &middot; *searched*
 **Verb class:** regular
 **Third person:** *searches* &middot; **-ing form:** *searching*
 **Transitivity:** both — transitive (search the index), intransitive (search for a source)
 **Contrast:** You *search* **for** a thing, but you *search* a place: *search the library* means look through it.
 
-To look carefully for something.
+Search has 2 distinct senses.
+
+**1. To look carefully for something.** (искать, разыскивать)
 
 1. *Search* the index for the term.
 2. I *searched* for an hour and found nothing.
 3. She is *searching* the database for older studies.
+
+**2. To examine a person, a vehicle, or a place thoroughly to find something hidden.** (обыскивать, обыскать; досматривать, досмотреть)
+
+4. Officers may not *search* your car without cause.
+5. They *searched* the apartment for two hours.
+6. Every bag is *searched* at the entrance.
 
 **Phrasal verbs:** [search for](22-verb-preposition.md#search-for)
 
@@ -1190,17 +1360,25 @@ To do a piece of work again in a different or better way.
 ### replicate
 
 **Pronunciation:** /ˈrɛpləkeɪt/ &middot; *REP-luh-kayt*
-**Русский:** воспроизводить (опыт), повторять
+**Русский:** воспроизводить (опыт), повторять; размножаться, реплицироваться (о вирусе, клетке)
 **Forms:** *replicate* &middot; *replicated* &middot; *replicated*
 **Verb class:** regular
 **Third person:** *replicates* &middot; **-ing form:** *replicating*
 **Transitivity:** transitive
 
-To repeat an experiment or a result exactly.
+Replicate has 2 distinct senses.
+
+**1. To repeat an experiment or a result exactly.** (воспроизводить (опыт), повторять)
 
 1. Students *replicate* a famous experiment in week three.
 2. No one could *replicate* her results.
 3. They are *replicating* the study with older children.
+
+**2. For a cell or a virus to make copies of itself.** (размножаться, реплицироваться (о вирусе, клетке))
+
+4. The virus *replicates* quickly in the lungs.
+5. The cells *replicated* faster than the drug could stop them.
+6. The vaccine keeps the virus from *replicating*.
 
 ---
 
@@ -1295,17 +1473,25 @@ To confuse someone completely.
 ### stump
 
 **Pronunciation:** /stʌmp/ &middot; *STUMP*
-**Русский:** ставить в тупик, озадачивать
+**Русский:** ставить в тупик, озадачивать; вести предвыборную агитацию, разъезжать с выступлениями
 **Forms:** *stump* &middot; *stumped* &middot; *stumped*
 **Verb class:** regular
 **Third person:** *stumps* &middot; **-ing form:** *stumping*
 **Transitivity:** transitive
 
-To ask something so hard that the other person cannot answer.
+Stump has 2 distinct senses.
+
+**1. To ask something so hard that the other person cannot answer.** (ставить в тупик, озадачивать)
 
 1. That riddle *stumps* everyone.
 2. The last problem *stumped* me completely.
 3. She has *stumped* the whole class with one question.
+
+**2. To travel around an area making speeches in a political campaign.** (вести предвыборную агитацию, разъезжать с выступлениями)
+
+4. He plans to *stump* across Iowa in October.
+5. She *stumped* for her party in six states.
+6. They have been *stumping* in small towns all month.
 
 ---
 
@@ -1330,18 +1516,26 @@ To take someone's attention away from what they are doing.
 ### listen
 
 **Pronunciation:** /ˈlɪsən/ &middot; *LIS-uhn*
-**Русский:** слушать, послушать
+**Русский:** слушать, послушать; слушаться, послушаться; прислушиваться, прислушаться
 **Forms:** *listen* &middot; *listened* &middot; *listened*
 **Verb class:** regular
 **Third person:** *listens* &middot; **-ing form:** *listening*
 **Transitivity:** intransitive
 **Contrast:** The t is silent. You *listen* **to** something — never listen the radio.
 
-To pay attention to a sound, a person, or a recording.
+Listen has 2 distinct senses.
+
+**1. To pay attention to a sound, a person, or a recording.** (слушать, послушать)
 
 1. *Listen* to the recording twice before you answer.
 2. She *listened* to the lecture again at double speed.
 3. I have been *listening* to podcasts to train my ear.
+
+**2. To do what someone tells or advises you to do.** (слушаться, послушаться; прислушиваться, прислушаться)
+
+4. The kids never *listen* to their babysitter.
+5. We all warned him, but he wasn't *listening* to anybody.
+6. If he had *listened* to his doctor, he would not be in the hospital.
 
 **Phrasal verbs:** [listen in](55-phrasal-regular-g-l.md#listen-in) &middot; [listen to](22-verb-preposition.md#listen-to)
 
@@ -1459,18 +1653,26 @@ To pass a message or information on to someone else.
 ### detail
 
 **Pronunciation:** /dɪˈteɪl/ &middot; *di-TAYL*
-**Русский:** подробно излагать, детализировать
+**Русский:** подробно излагать, детализировать; тщательно чистить (машину), делать детейлинг
 **Forms:** *detail* &middot; *detailed* &middot; *detailed*
 **Verb class:** regular
 **Third person:** *details* &middot; **-ing form:** *detailing*
 **Transitivity:** transitive
 **Contrast:** The verb is stressed at the end: di-TAYL. The noun *a detail* is usually DEE-tayl.
 
-To describe something fully, point by point.
+Detail has 2 distinct senses.
+
+**1. To describe something fully, point by point.** (подробно излагать, детализировать)
 
 1. The syllabus *details* every assignment.
 2. She *detailed* her method in the appendix.
 3. The handbook is *detailing* the new rules for next fall.
+
+**2. To clean and polish a car thoroughly, inside and out.** (тщательно чистить (машину), делать детейлинг)
+
+4. I want to *detail* the car before we sell it.
+5. He *detailed* the truck himself on Saturday.
+6. The van is being *detailed* this afternoon.
 
 ---
 
@@ -1515,18 +1717,26 @@ To gain an advantage from something, or to do someone good.
 ### fulfill
 
 **Pronunciation:** /fʊlˈfɪl/ &middot; *fuul-FIL*
-**Русский:** выполнять, исполнять (требование, условие)
+**Русский:** выполнять, исполнять (требование, условие); приносить удовлетворение, реализовывать (способности)
 **Forms:** *fulfill* &middot; *fulfilled* &middot; *fulfilled*
 **Verb class:** regular
 **Third person:** *fulfills* &middot; **-ing form:** *fulfilling*
 **Transitivity:** transitive
 **Contrast:** American *fulfill*, British *fulfil*; both double the l before endings: *fulfilled*, *fulfilling*.
 
-To do what a rule, a promise, or a requirement asks for.
+Fulfill has 2 distinct senses.
+
+**1. To do what a rule, a promise, or a requirement asks for.** (выполнять, исполнять (требование, условие))
 
 1. Two lab courses *fulfill* the science requirement.
 2. She *fulfilled* the language requirement with Spanish.
 3. He is *fulfilling* his last credits this summer.
+
+**2. To make someone feel satisfied and complete.** (приносить удовлетворение, реализовывать (способности))
+
+4. Teaching *fulfills* her in a way that office work never did.
+5. He quit because the job no longer *fulfilled* him.
+6. Raising her kids has been the most *fulfilling* work of her life.
 
 ---
 
@@ -1588,18 +1798,32 @@ To act badly, especially in class.
 ### cheat
 
 **Pronunciation:** /tʃiːt/ &middot; *CHEET*
-**Русский:** списывать, жульничать; обманывать
+**Русский:** списывать, жульничать; обманывать; обманывать, обмануть; надувать, обжулить; изменять, изменить (супругу, партнёру)
 **Forms:** *cheat* &middot; *cheated* &middot; *cheated*
 **Verb class:** regular
 **Third person:** *cheats* &middot; **-ing form:** *cheating*
 **Transitivity:** both — intransitive (cheat on a test), transitive (cheat someone out of money)
 **Contrast:** You *cheat* **on** a test and *cheat* **at** cards.
 
-To break the rules of a test or a game in order to gain an advantage.
+Cheat has 3 distinct senses.
+
+**1. To break the rules of a test or a game in order to gain an advantage.** (списывать, жульничать; обманывать)
 
 1. Nobody needs to *cheat* on a take-home exam.
 2. He *cheated* on the final and was expelled.
 3. She was caught *cheating* in the first week.
+
+**2. To take money or an advantage from someone by tricking them.** (обманывать, обмануть; надувать, обжулить)
+
+4. That shop *cheats* tourists every summer.
+5. The broker *cheated* investors out of millions.
+6. Customers felt *cheated* when the refund never came.
+
+**3. To be unfaithful to a husband, wife, or partner.** (изменять, изменить (супругу, партнёру))
+
+7. He swore he would never *cheat*.
+8. She *cheated* on her first husband for two years.
+9. They split up after she found out he had been *cheating*.
 
 **Phrasal verbs:** [cheat on](22-verb-preposition.md#cheat-on)
 
@@ -1662,17 +1886,25 @@ To try to do something, especially something difficult.
 ### tackle
 
 **Pronunciation:** /ˈtækəl/ &middot; *TAK-uhl*
-**Русский:** браться (за задачу), взяться, решать
+**Русский:** браться (за задачу), взяться, решать; сбивать с ног, повалить; блокировать (в футболе)
 **Forms:** *tackle* &middot; *tackled* &middot; *tackled*
 **Verb class:** regular
 **Third person:** *tackles* &middot; **-ing form:** *tackling*
 **Transitivity:** transitive
 
-To start dealing with a difficult problem or task.
+Tackle has 2 distinct senses.
+
+**1. To start dealing with a difficult problem or task.** (браться (за задачу), взяться, решать)
 
 1. *Tackle* the hardest question first.
 2. She *tackled* the whole reading list over the summer.
 3. We are *tackling* fractions this week.
+
+**2. To knock or pull someone to the ground, especially in football.** (сбивать с ног, повалить; блокировать (в футболе))
+
+4. He was *tackled* a yard short of the goal line.
+5. Two officers *tackled* the man in the parking lot.
+6. She learned to *tackle* without leading with her helmet.
 
 ---
 
@@ -1699,18 +1931,26 @@ To manage successfully with something difficult.
 ### succeed
 
 **Pronunciation:** /səkˈsiːd/ &middot; *suhk-SEED*
-**Русский:** преуспевать, добиваться успеха; удаваться
+**Русский:** преуспевать, добиваться успеха; удаваться; сменять на посту, стать преемником; наследовать (престол)
 **Forms:** *succeed* &middot; *succeeded* &middot; *succeeded*
 **Verb class:** regular
 **Third person:** *succeeds* &middot; **-ing form:** *succeeding*
 **Transitivity:** intransitive
 **Contrast:** You *succeed* **in** doing something, or *succeed* **at** a subject.
 
-To achieve what you were trying to do.
+Succeed has 2 distinct senses.
+
+**1. To achieve what you were trying to do.** (преуспевать, добиваться успеха; удаваться)
 
 1. Students *succeed* when someone expects them to.
 2. She *succeeded* on her second try.
 3. He has *succeeded* in every class he has taken.
+
+**2. To take over a position or a title from the person who held it before.** (сменять на посту, стать преемником; наследовать (престол))
+
+4. She *succeeded* him as head of the department.
+5. Nobody knows who will *succeed* the current governor.
+6. He has *succeeded* his father as owner of the farm.
 
 **Phrasal verbs:** [succeed in](22-verb-preposition.md#succeed-in)
 
@@ -1888,18 +2128,26 @@ To join with another person or group in order to work together.
 ### socialize
 
 **Pronunciation:** /ˈsoʊʃəlaɪz/ &middot; *SOH-shuh-lyz*
-**Русский:** общаться, проводить время с людьми
+**Русский:** общаться, проводить время с людьми; приучать к общению, социализировать (ребёнка, щенка)
 **Forms:** *socialize* &middot; *socialized* &middot; *socialized*
 **Verb class:** regular
 **Third person:** *socializes* &middot; **-ing form:** *socializing*
 **Transitivity:** intransitive
 **Contrast:** American *socialize*, British *socialise*.
 
-To spend time with other people in a friendly way.
+Socialize has 2 distinct senses.
+
+**1. To spend time with other people in a friendly way.** (общаться, проводить время с людьми)
 
 1. Freshmen mostly *socialize* in the dorms.
 2. We *socialized* for an hour after the exam.
 3. She is *socializing* much more this year.
+
+**2. To train a child or an animal to behave comfortably around others.** (приучать к общению, социализировать (ребёнка, щенка))
+
+4. Puppies need to be *socialized* early.
+5. The shelter *socializes* every dog before adoption.
+6. We are *socializing* the kitten with our older cat.
 
 ---
 
@@ -1973,7 +2221,7 @@ To say numbers in order or find a total, or to matter toward a result.
 2. She *counted* the votes twice.
 3. I am *counting* the days until graduation.
 
-**Phrasal verbs:** [count down](53-phrasal-regular-a-c.md#count-down) &middot; [count in](53-phrasal-regular-a-c.md#count-in) &middot; [count on](22-verb-preposition.md#count-on) &middot; [count out](53-phrasal-regular-a-c.md#count-out) &middot; [count out](53-phrasal-regular-a-c.md#count-out-1) &middot; [count up](53-phrasal-regular-a-c.md#count-up)
+**Phrasal verbs:** [count down](53-phrasal-regular-a-c.md#count-down) &middot; [count in](53-phrasal-regular-a-c.md#count-in) &middot; [count on](22-verb-preposition.md#count-on) &middot; [count out](53-phrasal-regular-a-c.md#count-out-1) &middot; [count out](53-phrasal-regular-a-c.md#count-out) &middot; [count up](53-phrasal-regular-a-c.md#count-up)
 
 ---
 
@@ -1998,18 +2246,26 @@ To take one number away from another.
 ### round
 
 **Pronunciation:** /raʊnd/ &middot; *ROWND*
-**Русский:** округлять, округлить (число)
+**Русский:** округлять, округлить (число); огибать, обогнуть; поворачивать за угол
 **Forms:** *round* &middot; *rounded* &middot; *rounded*
 **Verb class:** regular
 **Third person:** *rounds* &middot; **-ing form:** *rounding*
 **Transitivity:** transitive
 **Contrast:** You *round* a number **to** the nearest ten, and *round* it up or down.
 
-To change a number to the nearest simpler one.
+Round has 2 distinct senses.
+
+**1. To change a number to the nearest simpler one.** (округлять, округлить (число))
 
 1. *Round* your answer to two decimal places.
 2. She *rounded* 4.6 up to 5.
 3. The program is *rounding* every score to the nearest whole number.
+
+**2. To go around a corner, a bend, or the edge of something.** (огибать, обогнуть; поворачивать за угол)
+
+4. *Round* the next bend and you will see the lake.
+5. A truck *rounded* the corner too fast and clipped the mirror.
+6. He was *rounding* third base when the throw came in.
 
 **Phrasal verbs:** [round down](57-phrasal-regular-q-s.md#round-down) &middot; [round off](57-phrasal-regular-q-s.md#round-off) &middot; [round off](57-phrasal-regular-q-s.md#round-off-1) &middot; [round out](57-phrasal-regular-q-s.md#round-out) &middot; [round up](57-phrasal-regular-q-s.md#round-up) &middot; [round up](57-phrasal-regular-q-s.md#round-up-1)
 
@@ -2129,17 +2385,25 @@ To draw a set of numbers as a line or a curve on axes.
 ### chart
 
 **Pronunciation:** /tʃɑːrt/ &middot; *CHART*
-**Русский:** отмечать на графике, отслеживать (прогресс)
+**Русский:** отмечать на графике, отслеживать (прогресс); прокладывать курс, проложить; намечать путь
 **Forms:** *chart* &middot; *charted* &middot; *charted*
 **Verb class:** regular
 **Third person:** *charts* &middot; **-ing form:** *charting*
 **Transitivity:** transitive
 
-To record progress or information in a table or a diagram.
+Chart has 2 distinct senses.
+
+**1. To record progress or information in a table or a diagram.** (отмечать на графике, отслеживать (прогресс))
 
 1. Teachers *chart* each student's progress every month.
 2. We *charted* the class's reading speed all year.
 3. She is *charting* her study hours in a notebook.
+
+**2. To plan a route or a course of action.** (прокладывать курс, проложить; намечать путь)
+
+4. The captain *charted* a course around the storm.
+5. The new director wants to *chart* a different course for the museum.
+6. They are still *charting* their next move.
 
 ---
 
@@ -2164,33 +2428,49 @@ To draw something as a diagram, especially the parts of a sentence.
 ### sequence
 
 **Pronunciation:** /ˈsiːkwəns/ &middot; *SEE-kwuhns*
-**Русский:** располагать по порядку, выстраивать последовательность
+**Русский:** располагать по порядку, выстраивать последовательность; секвенировать; определять последовательность (ДНК)
 **Forms:** *sequence* &middot; *sequenced* &middot; *sequenced*
 **Verb class:** regular
 **Third person:** *sequences* &middot; **-ing form:** *sequencing*
 **Transitivity:** transitive
 **Contrast:** Drop the -e before *-ing*: *sequencing*.
 
-To arrange things in the right order.
+Sequence has 2 distinct senses.
+
+**1. To arrange things in the right order.** (располагать по порядку, выстраивать последовательность)
 
 1. Second graders *sequence* the events of a story.
 2. She *sequenced* the lessons so that the hardest came last.
 3. We are *sequencing* the units differently this year.
+
+**2. To work out the exact order of the parts of a gene or a genome.** (секвенировать; определять последовательность (ДНК))
+
+4. Labs can now *sequence* a whole genome in a day.
+5. Researchers *sequenced* the virus within weeks.
+6. The sample has been *sequenced* twice to be sure.
 
 ---
 
 ### curve
 
 **Pronunciation:** /kɜːrv/ &middot; *KURV*
-**Русский:** повышать оценки по кривой (о шкале оценок)
+**Русский:** повышать оценки по кривой (о шкале оценок); изгибаться, плавно поворачивать; изгибать
 **Forms:** *curve* &middot; *curved* &middot; *curved*
 **Verb class:** regular
 **Third person:** *curves* &middot; **-ing form:** *curving*
 **Transitivity:** transitive
 **Contrast:** In American schools, to *curve* a test means to adjust everyone's score, usually upward.
 
-To raise a whole class's grades against a scale.
+Curve has 2 distinct senses.
+
+**1. To raise a whole class's grades against a scale.** (повышать оценки по кривой (о шкале оценок))
 
 1. Professors sometimes *curve* a very hard exam.
 2. She *curved* the midterm by eight points.
 3. He is *curving* the final grades this semester.
+
+**2. To bend in a smooth line instead of running straight.** (изгибаться, плавно поворачивать; изгибать)
+
+4. The road *curves* sharply to the left.
+5. The river *curved* around the hill.
+6. A path *curving* through the trees led to the lake.

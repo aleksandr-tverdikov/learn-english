@@ -12,55 +12,91 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 ### add
 
 **Pronunciation:** /æd/ &middot; *AD*
-**Русский:** добавлять, добавить (сказать ещё)
+**Русский:** добавлять, добавить (сказать ещё); складывать, сложить (числа); прибавлять, прибавить; добавлять, добавить; прибавлять
 **Forms:** *add* &middot; *added* &middot; *added*
 **Verb class:** regular
 **Third person:** *adds* &middot; **-ing form:** *adding*
 **Transitivity:** both — transitive (*add* a comment), intransitive ("That's all," he *added*)
 
-To say something more after what has already been said.
+Add has 3 distinct senses.
+
+**1. To say something more after what has already been said.** (добавлять, добавить (сказать ещё))
 
 1. "And bring your passport," she *added*.
 2. Would you like to *add* anything before we finish?
 3. He has *added* a note at the bottom of the letter.
 
-**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
+**2. To put two or more numbers together to get a total.** (складывать, сложить (числа); прибавлять, прибавить)
+
+4. If you *add* 15 and 27, you get 42.
+5. She *added* the three columns twice to be sure.
+6. He checked the bill, *adding* the figures in his head.
+
+**3. To put something with something else to make it bigger, better, or complete.** (добавлять, добавить; прибавлять)
+
+7. *Add* a little salt to the sauce.
+8. They *added* a second bathroom last year.
+9. We are *adding* two more chairs to the table.
+
+**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
 
 ---
 
 ### address
 
 **Pronunciation:** /əˈdrɛs/ &middot; *uh-DRES*
-**Русский:** обращаться, обратиться (к кому-л.); выступать перед
+**Русский:** обращаться, обратиться (к кому-л.); выступать перед; заниматься (проблемой), решать; рассматривать (вопрос); адресовать, надписывать адрес
 **Forms:** *address* &middot; *addressed* &middot; *addressed*
 **Verb class:** regular
 **Third person:** *addresses* &middot; **-ing form:** *addressing*
 **Transitivity:** transitive
 **Contrast:** The verb is always uh-DRES; the noun (where you live) is usually AD-res in American English.
 
-To speak formally to a person or a group.
+Address has 3 distinct senses.
+
+**1. To speak formally to a person or a group.** (обращаться, обратиться (к кому-л.); выступать перед)
 
 1. The mayor will *address* the city council tonight.
 2. She *addressed* the crowd from the steps of the library.
 3. He was *addressing* the students when the fire alarm went off.
+
+**2. To give attention to a problem and try to deal with it.** (заниматься (проблемой), решать; рассматривать (вопрос))
+
+4. The mayor promised to *address* the housing shortage.
+5. Your letter *addressed* none of my questions.
+6. The report has *addressed* every complaint on the list.
+
+**3. To write on a letter or package the name and place it is being sent to.** (адресовать, надписывать адрес)
+
+7. *Address* the envelope to the head office.
+8. The package was *addressed* to my old apartment.
+9. She spent the morning *addressing* holiday cards.
 
 ---
 
 ### admit
 
 **Pronunciation:** /ədˈmɪt/ &middot; *uhd-MIT*
-**Русский:** признавать, признать; сознаваться, сознаться
+**Русский:** признавать, признать; сознаваться, сознаться; впускать, впустить; принимать, принять (в больницу, в вуз)
 **Forms:** *admit* &middot; *admitted* &middot; *admitted*
 **Verb class:** regular
 **Third person:** *admits* &middot; **-ing form:** *admitting*
 **Transitivity:** transitive
 **Contrast:** The single t doubles before an ending: *admit → admitted → admitting*.
 
-To agree, often unwillingly, that something bad or embarrassing is true.
+Admit has 2 distinct senses.
+
+**1. To agree, often unwillingly, that something bad or embarrassing is true.** (признавать, признать; сознаваться, сознаться)
 
 1. I *admit* I was wrong about the date.
 2. She finally *admitted* that she had forgotten his birthday.
 3. He has never *admitted* his part in it.
+
+**2. To allow someone to enter a place, a school, or a hospital.** (впускать, впустить; принимать, принять (в больницу, в вуз))
+
+4. This ticket *admits* two people.
+5. The college *admitted* only a tenth of its applicants.
+6. She was *admitted* to the hospital overnight.
 
 **Phrasal verbs:** [admit to](22-verb-preposition.md#admit-to)
 
@@ -69,18 +105,26 @@ To agree, often unwillingly, that something bad or embarrassing is true.
 ### advise
 
 **Pronunciation:** /ədˈvaɪz/ &middot; *uhd-VYZ*
-**Русский:** советовать, посоветовать
+**Русский:** советовать, посоветовать; уведомлять, уведомить; извещать, сообщать
 **Forms:** *advise* &middot; *advised* &middot; *advised*
 **Verb class:** regular
 **Third person:** *advises* &middot; **-ing form:** *advising*
 **Transitivity:** both — transitive (*advise* students), intransitive (I would *advise* against it)
 **Contrast:** *advise* is the verb and ends in a /z/ sound; *advice* is the noun and ends in /s/: "She advised me, so I took her advice."
 
-To tell someone what you think they should do.
+Advise has 2 distinct senses.
+
+**1. To tell someone what you think they should do.** (советовать, посоветовать)
 
 1. The doctor *advised* him to rest for a week.
 2. I'd *advise* you to read the contract twice.
 3. She has been *advising* the company since January.
+
+**2. To tell someone a piece of information formally or officially.** (уведомлять, уведомить; извещать, сообщать)
+
+4. Please *advise* us of any change of address.
+5. We were *advised* that the flight had been canceled.
+6. The clerk is *advising* passengers of the delay.
 
 ---
 
@@ -164,18 +208,32 @@ To disagree with someone in words, or to give reasons for an opinion.
 ### ask
 
 **Pronunciation:** /æsk/ &middot; *ASK*
-**Русский:** спрашивать, спросить; просить, попросить
+**Русский:** спрашивать, спросить; просить, попросить; просить (цену), запрашивать; приглашать, пригласить (в гости, на праздник)
 **Forms:** *ask* &middot; *asked* &middot; *asked*
 **Verb class:** regular
 **Third person:** *asks* &middot; **-ing form:** *asking*
 **Transitivity:** both — transitive (*ask* a question), intransitive (if you don't know, *ask*)
 **Contrast:** In American English say /æsk/, not /ɑːsk/ — and *ask me*, never "ask to me".
 
-To say something to someone in order to get an answer or a favor.
+Ask has 3 distinct senses.
+
+**1. To say something to someone in order to get an answer or a favor.** (спрашивать, спросить; просить, попросить)
 
 1. Can I *ask* you something?
 2. She *asked* me where the bathroom was.
 3. Nobody has *asked* about the money yet.
+
+**2. To want a particular price for something you are selling.** (просить (цену), запрашивать)
+
+4. How much are they *asking* for the house on the corner?
+5. He *asked* too much for the old truck, so nobody bought it.
+6. Don't *ask* more than the car is actually worth.
+
+**3. To invite someone to an event or to your home.** (приглашать, пригласить (в гости, на праздник))
+
+7. They *asked* nearly a hundred people to the wedding.
+8. We're *asking* the neighbors to dinner on Saturday.
+9. I haven't *asked* him to the party yet.
 
 **Phrasal verbs:** [ask after](53-phrasal-regular-a-c.md#ask-after) &middot; [ask around](53-phrasal-regular-a-c.md#ask-around) &middot; [ask for, ask about](22-verb-preposition.md#ask-for-ask-about) &middot; [ask out](53-phrasal-regular-a-c.md#ask-out) &middot; [ask over](53-phrasal-regular-a-c.md#ask-over)
 
@@ -258,19 +316,33 @@ To talk with too much pride about what you have or what you have done.
 ### call
 
 **Pronunciation:** /kɔːl/ &middot; *KAWL*
-**Русский:** звонить, позвонить; звать, позвать; называть, назвать
+**Русский:** звонить, позвонить; звать, позвать; называть, назвать; называть, назвать; звать (по имени); созывать, созвать; объявлять, объявить (забастовку, собрание)
 **Forms:** *call* &middot; *called* &middot; *called*
 **Verb class:** regular
 **Third person:** *calls* &middot; **-ing form:** *calling*
 **Transitivity:** both — transitive (*call* your mother), intransitive (she *called* from the airport)
 
-To telephone someone, or to say someone's name loudly to get their attention.
+Call has 3 distinct senses.
+
+**1. To telephone someone, or to say someone's name loudly to get their attention.** (звонить, позвонить; звать, позвать; называть, назвать)
 
 1. *Call* me when you land.
 2. I *called* the office twice this morning.
 3. Somebody has been *calling* and hanging up.
 
-**Phrasal verbs:** [call around](53-phrasal-regular-a-c.md#call-around) &middot; [call back](53-phrasal-regular-a-c.md#call-back) &middot; [call for](53-phrasal-regular-a-c.md#call-for) &middot; [call in](53-phrasal-regular-a-c.md#call-in-1) &middot; [call in](53-phrasal-regular-a-c.md#call-in) &middot; [call off](53-phrasal-regular-a-c.md#call-off) &middot; [call on](53-phrasal-regular-a-c.md#call-on) &middot; [call out](53-phrasal-regular-a-c.md#call-out) &middot; [call up](53-phrasal-regular-a-c.md#call-up-1) &middot; [call up](53-phrasal-regular-a-c.md#call-up)
+**2. To give someone or something a name, or to use a particular name for them.** (называть, назвать; звать (по имени))
+
+4. They *called* the baby Maya.
+5. What do you *call* this in English?
+6. The street was once *called* Mill Road.
+
+**3. To order something official to take place and summon people to it.** (созывать, созвать; объявлять, объявить (забастовку, собрание))
+
+7. The governor *called* a special session.
+8. The union has *called* a strike for Monday.
+9. The coach *calls* a timeout with a minute left.
+
+**Phrasal verbs:** [call around](53-phrasal-regular-a-c.md#call-around) &middot; [call back](53-phrasal-regular-a-c.md#call-back) &middot; [call for](53-phrasal-regular-a-c.md#call-for) &middot; [call in](53-phrasal-regular-a-c.md#call-in) &middot; [call in](53-phrasal-regular-a-c.md#call-in-1) &middot; [call off](53-phrasal-regular-a-c.md#call-off) &middot; [call on](53-phrasal-regular-a-c.md#call-on) &middot; [call out](53-phrasal-regular-a-c.md#call-out) &middot; [call up](53-phrasal-regular-a-c.md#call-up) &middot; [call up](53-phrasal-regular-a-c.md#call-up-1)
 
 ---
 
@@ -295,17 +367,25 @@ To talk in a friendly, informal way.
 ### chatter
 
 **Pronunciation:** /ˈtʃætər/ &middot; *CHAT-ur*
-**Русский:** болтать, тараторить
+**Русский:** болтать, тараторить; стучать (о зубах), клацать зубами
 **Forms:** *chatter* &middot; *chattered* &middot; *chattered*
 **Verb class:** regular
 **Third person:** *chatters* &middot; **-ing form:** *chattering*
 **Transitivity:** intransitive
 
-To talk quickly and continuously about unimportant things.
+Chatter has 2 distinct senses.
+
+**1. To talk quickly and continuously about unimportant things.** (болтать, тараторить)
 
 1. The kids *chatter* the whole way to school.
 2. She *chattered* nervously while we waited.
 3. I could hear them *chattering* in the next room.
+
+**2. (of teeth) To knock together quickly because of cold or fear.** (стучать (о зубах), клацать зубами)
+
+4. His teeth were *chattering* by the time we got inside.
+5. My teeth *chattered* all the way home.
+6. Her teeth *chatter* whenever she climbs out of the pool.
 
 ---
 
@@ -331,17 +411,31 @@ To shout loudly to show support or approval.
 ### claim
 
 **Pronunciation:** /kleɪm/ &middot; *KLAYM*
-**Русский:** утверждать; заявлять, заявить
+**Русский:** утверждать; заявлять, заявить; требовать, востребовать; получать по праву, оформлять (возврат); уносить, унести (жизни)
 **Forms:** *claim* &middot; *claimed* &middot; *claimed*
 **Verb class:** regular
 **Third person:** *claims* &middot; **-ing form:** *claiming*
 **Transitivity:** transitive
 
-To say that something is true even though it has not been proved.
+Claim has 3 distinct senses.
+
+**1. To say that something is true even though it has not been proved.** (утверждать; заявлять, заявить)
 
 1. He *claims* he never got the email.
 2. She *claimed* to be a doctor.
 3. Two groups have *claimed* responsibility.
+
+**2. To officially ask for money or property that you have a right to.** (требовать, востребовать; получать по праву, оформлять (возврат))
+
+4. You can *claim* a refund within thirty days.
+5. She *claimed* the prize the next morning.
+6. Nobody has *claimed* the wallet that was turned in.
+
+**3. Of an accident or a disaster, to take someone's life.** (уносить, унести (жизни))
+
+7. House fires *claim* hundreds of lives every winter.
+8. The storm *claimed* four lives in one county.
+9. The crash has *claimed* a fifth victim.
 
 ---
 
@@ -463,17 +557,25 @@ To admit that you have done something wrong or embarrassing.
 ### confirm
 
 **Pronunciation:** /kənˈfɜːrm/ &middot; *kuhn-FURM*
-**Русский:** подтверждать, подтвердить
+**Русский:** подтверждать, подтвердить; утверждать, утвердить (в должности, кандидатуру)
 **Forms:** *confirm* &middot; *confirmed* &middot; *confirmed*
 **Verb class:** regular
 **Third person:** *confirms* &middot; **-ing form:** *confirming*
 **Transitivity:** transitive
 
-To say officially that something is true or definite.
+Confirm has 2 distinct senses.
+
+**1. To say officially that something is true or definite.** (подтверждать, подтвердить)
 
 1. Please *confirm* your appointment by Friday.
 2. The airline *confirmed* the flight this morning.
 3. The rumor has not been *confirmed*.
+
+**2. Of a legislature, to approve someone's appointment to an office.** (утверждать, утвердить (в должности, кандидатуру))
+
+4. The Senate has to *confirm* every federal judge.
+5. Lawmakers *confirmed* her as attorney general.
+6. He was *confirmed* by a single vote.
 
 ---
 
@@ -500,17 +602,25 @@ To tell someone that you are happy about their success or good luck.
 ### consult
 
 **Pronunciation:** /kənˈsʌlt/ &middot; *kuhn-SULT*
-**Русский:** советоваться, посоветоваться; консультироваться
+**Русский:** советоваться, посоветоваться; консультироваться; консультировать, работать консультантом
 **Forms:** *consult* &middot; *consulted* &middot; *consulted*
 **Verb class:** regular
 **Third person:** *consults* &middot; **-ing form:** *consulting*
 **Transitivity:** both — transitive (*consult* a lawyer), intransitive (he *consults* for two firms)
 
-To ask a person or a book for information or advice.
+Consult has 2 distinct senses.
+
+**1. To ask a person or a book for information or advice.** (советоваться, посоветоваться; консультироваться)
 
 1. You should *consult* a doctor about that cough.
 2. She *consulted* her notes before answering.
 3. They are *consulting* with the city about the permit.
+
+**2. To work as an outside expert for a company, usually for a fee.** (консультировать, работать консультантом)
+
+4. She *consults* for two hospitals in the area.
+5. After he retired, he *consulted* part-time.
+6. He has been *consulting* for startups since 2019.
 
 **Phrasal verbs:** [consult with](22-verb-preposition.md#consult-with)
 
@@ -519,17 +629,25 @@ To ask a person or a book for information or advice.
 ### contradict
 
 **Pronunciation:** /ˌkɑːntrəˈdɪkt/ &middot; *kahn-truh-DIKT*
-**Русский:** противоречить; возражать, возразить
+**Русский:** противоречить; возражать, возразить; противоречить, расходиться с (фактами)
 **Forms:** *contradict* &middot; *contradicted* &middot; *contradicted*
 **Verb class:** regular
 **Third person:** *contradicts* &middot; **-ing form:** *contradicting*
 **Transitivity:** transitive
 
-To say the opposite of what someone else has said.
+Contradict has 2 distinct senses.
+
+**1. To say the opposite of what someone else has said.** (противоречить; возражать, возразить)
 
 1. Don't *contradict* your grandmother at the table.
 2. His second story *contradicted* the first.
 3. She has been *contradicting* herself all morning.
+
+**2. To be so different from another fact or statement that both cannot be true.** (противоречить, расходиться с (фактами))
+
+4. The new figures *contradict* last year's report.
+5. His second statement *contradicted* the first.
+6. The two witnesses have *contradicted* each other on every detail.
 
 ---
 
@@ -571,17 +689,25 @@ To say what you think is wrong or bad about someone or something.
 ### debate
 
 **Pronunciation:** /dɪˈbeɪt/ &middot; *dih-BAYT*
-**Русский:** обсуждать, обсудить; спорить, дискутировать
+**Русский:** обсуждать, обсудить; спорить, дискутировать; раздумывать, колебаться, прикидывать
 **Forms:** *debate* &middot; *debated* &middot; *debated*
 **Verb class:** regular
 **Third person:** *debates* &middot; **-ing form:** *debating*
 **Transitivity:** both — transitive (they *debated* the bill), intransitive (the two sides *debated* for hours)
 
-To discuss a question formally, with people giving opposite opinions.
+Debate has 2 distinct senses.
+
+**1. To discuss a question formally, with people giving opposite opinions.** (обсуждать, обсудить; спорить, дискутировать)
 
 1. The two candidates will *debate* on Tuesday.
 2. Congress *debated* the bill for three days.
 3. The issue is still being *debated*.
+
+**2. To think something over carefully, weighing two choices.** (раздумывать, колебаться, прикидывать)
+
+4. I *debated* whether to call her.
+5. He's still *debating* which offer to take.
+6. Don't *debate* it too long — the sale ends tonight.
 
 ---
 
@@ -605,35 +731,51 @@ To say something clearly, firmly, and often officially.
 ### define
 
 **Pronunciation:** /dɪˈfaɪn/ &middot; *dih-FYN*
-**Русский:** определять, определить; давать определение
+**Русский:** определять, определить; давать определение; определять сущность, формировать облик; характеризовать
 **Forms:** *define* &middot; *defined* &middot; *defined*
 **Verb class:** regular
 **Third person:** *defines* &middot; **-ing form:** *defining*
 **Transitivity:** transitive
 
-To say exactly what a word means or what something is.
+Define has 2 distinct senses.
+
+**1. To say exactly what a word means or what something is.** (определять, определить; давать определение)
 
 1. How would you *define* "success"?
 2. The contract *defined* his duties clearly.
 3. The border has never been clearly *defined*.
+
+**2. To be the thing that gives someone or something its essential character.** (определять сущность, формировать облик; характеризовать)
+
+4. One bad season should not *define* a career.
+5. That summer *defined* their friendship.
+6. She refuses to be *defined* by her illness.
 
 ---
 
 ### demand
 
 **Pronunciation:** /dɪˈmænd/ &middot; *dih-MAND*
-**Русский:** требовать, потребовать
+**Русский:** требовать, потребовать; требовать (о работе, деле), нуждаться в
 **Forms:** *demand* &middot; *demanded* &middot; *demanded*
 **Verb class:** regular
 **Third person:** *demands* &middot; **-ing form:** *demanding*
 **Transitivity:** transitive
 **Contrast:** *demand* takes no preposition: "He demanded an explanation," not "demanded for an explanation."
 
-To ask for something very firmly, as if you have a right to it.
+Demand has 2 distinct senses.
+
+**1. To ask for something very firmly, as if you have a right to it.** (требовать, потребовать)
 
 1. The workers *demand* a written answer.
 2. She *demanded* to see the manager.
 3. They are *demanding* an apology.
+
+**2. To need something as a necessary condition.** (требовать (о работе, деле), нуждаться в)
+
+4. This job *demands* patience.
+5. The recipe *demanded* three hours of rising time.
+6. The case has *demanded* months of work.
 
 ---
 
@@ -818,17 +960,25 @@ To talk about other people's private lives, often unkindly.
 ### greet
 
 **Pronunciation:** /ɡriːt/ &middot; *GREET*
-**Русский:** приветствовать, поприветствовать; здороваться
+**Русский:** приветствовать, поприветствовать; здороваться; встречать (реакцией), принимать, воспринять
 **Forms:** *greet* &middot; *greeted* &middot; *greeted*
 **Verb class:** regular
 **Third person:** *greets* &middot; **-ing form:** *greeting*
 **Transitivity:** transitive
 
-To say hello to someone when you meet them.
+Greet has 2 distinct senses.
+
+**1. To say hello to someone when you meet them.** (приветствовать, поприветствовать; здороваться)
 
 1. He *greets* every customer by name.
 2. She *greeted* us at the door.
 3. We were *greeted* by a very loud dog.
+
+**2. To react to news or to someone's work in a particular way.** (встречать (реакцией), принимать, воспринять)
+
+4. The announcement was *greeted* with boos.
+5. Fans *greeted* the trade with relief.
+6. Voters *greet* every tax hike with anger.
 
 ---
 
@@ -888,18 +1038,26 @@ To suggest something without saying it directly.
 ### inform
 
 **Pronunciation:** /ɪnˈfɔːrm/ &middot; *in-FORM*
-**Русский:** сообщать, сообщить; информировать
+**Русский:** сообщать, сообщить; информировать; определять, формировать; лежать в основе
 **Forms:** *inform* &middot; *informed* &middot; *informed*
 **Verb class:** regular
 **Third person:** *informs* &middot; **-ing form:** *informing*
 **Transitivity:** transitive
 **Contrast:** You *inform* someone **of** or **about** something.
 
-To tell someone about something officially.
+Inform has 2 distinct senses.
+
+**1. To tell someone about something officially.** (сообщать, сообщить; информировать)
 
 1. Please *inform* the office of any change of address.
 2. They *informed* us by letter.
 3. We were never *informed* about the meeting.
+
+**2. To shape something and give it its character.** (определять, формировать; лежать в основе)
+
+4. Her years as a nurse *inform* everything she writes.
+5. The decision was *informed* by two long studies.
+6. Fresh data is *informing* every choice the team makes.
 
 **Phrasal verbs:** [inform on](55-phrasal-regular-g-l.md#inform-on)
 
@@ -948,17 +1106,25 @@ To say firmly that something must happen or is true, even when others disagree.
 ### instruct
 
 **Pronunciation:** /ɪnˈstrʌkt/ &middot; *in-STRUKT*
-**Русский:** инструктировать; давать указания; обучать
+**Русский:** инструктировать; давать указания; обучать; обучать, обучить; учить, преподавать
 **Forms:** *instruct* &middot; *instructed* &middot; *instructed*
 **Verb class:** regular
 **Third person:** *instructs* &middot; **-ing form:** *instructing*
 **Transitivity:** transitive
 
-To tell someone officially what they must do.
+Instruct has 2 distinct senses.
+
+**1. To tell someone officially what they must do.** (инструктировать; давать указания; обучать)
 
 1. The judge will *instruct* the jury this afternoon.
 2. She *instructed* the class to put their phones away.
 3. We were *instructed* to wait outside.
+
+**2. To teach a subject or a skill to someone.** (обучать, обучить; учить, преподавать)
+
+4. She *instructs* beginners in the pool on Saturday mornings.
+5. A retired pilot *instructed* our ground school class.
+6. He has been *instructing* teenagers in woodworking for twenty years.
 
 ---
 
@@ -983,18 +1149,26 @@ To say something rude that offends someone.
 ### interrupt
 
 **Pronunciation:** /ˌɪntəˈrʌpt/ &middot; *in-tuh-RUPT*
-**Русский:** перебивать, перебить; прерывать, прервать
+**Русский:** перебивать, перебить; прерывать, прервать; прерывать, прервать; приостанавливать, приостановить
 **Forms:** *interrupt* &middot; *interrupted* &middot; *interrupted*
 **Verb class:** regular
 **Third person:** *interrupts* &middot; **-ing form:** *interrupting*
 **Transitivity:** both — transitive (don't *interrupt* me), intransitive (sorry to *interrupt*)
 **Contrast:** Two r's in the middle: *inte**rr**upt*.
 
-To start speaking while someone else is still talking.
+Interrupt has 2 distinct senses.
+
+**1. To start speaking while someone else is still talking.** (перебивать, перебить; прерывать, прервать)
 
 1. Please don't *interrupt* while I'm on the phone.
 2. She *interrupted* him in the middle of a sentence.
 3. I'm sorry for *interrupting*.
+
+**2. To stop something for a while before it is finished.** (прерывать, прервать; приостанавливать, приостановить)
+
+4. Rain *interrupted* the game in the fourth inning.
+5. Nothing is allowed to *interrupt* the broadcast.
+6. Service has been *interrupted* twice this week.
 
 ---
 
@@ -1018,18 +1192,32 @@ To ask someone questions, for a job or for a news story.
 ### introduce
 
 **Pronunciation:** /ˌɪntrəˈduːs/ &middot; *in-truh-DOOS*
-**Русский:** представлять, представить (кого-л. кому-л.); знакомить
+**Русский:** представлять, представить (кого-л. кому-л.); знакомить; вводить, ввести; выпускать, выпустить (новинку); вносить (законопроект); знакомить, познакомить (с чем-л.); приобщать, приобщить
 **Forms:** *introduce* &middot; *introduced* &middot; *introduced*
 **Verb class:** regular
 **Third person:** *introduces* &middot; **-ing form:** *introducing*
 **Transitivity:** transitive
 **Contrast:** You *introduce* one person **to** another: "Introduce me to your friend."
 
-To tell people someone's name when they meet for the first time.
+Introduce has 3 distinct senses.
+
+**1. To tell people someone's name when they meet for the first time.** (представлять, представить (кого-л. кому-л.); знакомить)
 
 1. Let me *introduce* my brother.
 2. She *introduced* herself to everyone at the table.
 3. We have never been properly *introduced*.
+
+**2. To bring something into use for the first time, such as a product, a rule, or a bill.** (вводить, ввести; выпускать, выпустить (новинку); вносить (законопроект))
+
+4. The company *introduced* its first electric truck last year.
+5. Two senators plan to *introduce* the bill in January.
+6. Seat belts were *introduced* in American cars in the 1950s.
+
+**3. To give someone their first experience of something.** (знакомить, познакомить (с чем-л.); приобщать, приобщить)
+
+7. My uncle *introduced* me to jazz when I was nine.
+8. The course *introduces* students to basic statistics.
+9. He had never been *introduced* to real Mexican food before that trip.
 
 **Phrasal verbs:** [introduce to](22-verb-preposition.md#introduce-to)
 
@@ -1038,17 +1226,25 @@ To tell people someone's name when they meet for the first time.
 ### invite
 
 **Pronunciation:** /ɪnˈvaɪt/ &middot; *in-VYT*
-**Русский:** приглашать, пригласить
+**Русский:** приглашать, пригласить; навлекать, навлечь; вызывать, вызвать (критику, неприятности)
 **Forms:** *invite* &middot; *invited* &middot; *invited*
 **Verb class:** regular
 **Third person:** *invites* &middot; **-ing form:** *inviting*
 **Transitivity:** transitive
 
-To ask someone to come to an event or to do something with you.
+Invite has 2 distinct senses.
+
+**1. To ask someone to come to an event or to do something with you.** (приглашать, пригласить)
 
 1. Should we *invite* the neighbors?
 2. They *invited* us to their wedding.
 3. She wasn't *invited*, and she knows it.
+
+**2. To make an unwanted reaction more likely.** (навлекать, навлечь; вызывать, вызвать (критику, неприятности))
+
+4. Comments like that *invite* criticism.
+5. The vague wording *invited* a lawsuit.
+6. By ignoring the warnings, they were *inviting* disaster.
 
 **Phrasal verbs:** [invite along](55-phrasal-regular-g-l.md#invite-along) &middot; [invite in](55-phrasal-regular-g-l.md#invite-in) &middot; [invite out](55-phrasal-regular-g-l.md#invite-out) &middot; [invite over](55-phrasal-regular-g-l.md#invite-over) &middot; [invite to](22-verb-preposition.md#invite-to)
 
@@ -1197,18 +1393,26 @@ To keep asking or complaining about the same thing in an annoying way.
 ### name
 
 **Pronunciation:** /neɪm/ &middot; *NAYM*
-**Русский:** называть, назвать; именовать
+**Русский:** называть, назвать; именовать; назначать, назначить; включать в состав
 **Forms:** *name* &middot; *named* &middot; *named*
 **Verb class:** regular
 **Third person:** *names* &middot; **-ing form:** *naming*
 **Transitivity:** transitive
 **Contrast:** The silent e drops before *-ing*: *name → naming*.
 
-To say what someone or something is called, or to give someone a name.
+Name has 2 distinct senses.
+
+**1. To say what someone or something is called, or to give someone a name.** (называть, назвать; именовать)
 
 1. Can you *name* all fifty states?
 2. They *named* the baby after her grandmother.
 3. A new director has been *named*.
+
+**2. To appoint someone officially to a job, a team, or an honor.** (назначать, назначить; включать в состав)
+
+4. The board will *name* a new chief executive on Monday.
+5. They *named* her captain before the season started.
+6. He was *named* to the All-Star team for the third time.
 
 **Phrasal verbs:** [name after](56-phrasal-regular-m-p.md#name-after)
 
@@ -1217,34 +1421,50 @@ To say what someone or something is called, or to give someone a name.
 ### negotiate
 
 **Pronunciation:** /nɪˈɡoʊʃieɪt/ &middot; *nih-GOH-shee-ayt*
-**Русский:** вести переговоры; договариваться, договориться
+**Русский:** вести переговоры; договариваться, договориться; преодолевать, преодолеть; проходить (трудный участок)
 **Forms:** *negotiate* &middot; *negotiated* &middot; *negotiated*
 **Verb class:** regular
 **Third person:** *negotiates* &middot; **-ing form:** *negotiating*
 **Transitivity:** both — transitive (*negotiate* a contract), intransitive (the two sides are *negotiating*)
 
-To talk with someone in order to reach an agreement.
+Negotiate has 2 distinct senses.
+
+**1. To talk with someone in order to reach an agreement.** (вести переговоры; договариваться, договориться)
 
 1. The union refuses to *negotiate*.
 2. They *negotiated* a new lease last spring.
 3. A deal is being *negotiated* right now.
+
+**2. To get past or safely over something difficult.** (преодолевать, преодолеть; проходить (трудный участок))
+
+4. He *negotiates* the icy steps one at a time.
+5. The truck barely *negotiated* the narrow bridge.
+6. *Negotiating* that hairpin turn in the rain is frightening.
 
 ---
 
 ### note
 
 **Pronunciation:** /noʊt/ &middot; *NOHT*
-**Русский:** отмечать, отметить; замечать (в речи или письме)
+**Русский:** отмечать, отметить; замечать (в речи или письме); обращать внимание, принимать к сведению
 **Forms:** *note* &middot; *noted* &middot; *noted*
 **Verb class:** regular
 **Third person:** *notes* &middot; **-ing form:** *noting*
 **Transitivity:** transitive
 
-To mention something because it is important.
+Note has 2 distinct senses.
+
+**1. To mention something because it is important.** (отмечать, отметить; замечать (в речи или письме))
 
 1. Please *note* that the office closes at four.
 2. The report *noted* several errors.
 3. It should be *noted* that nobody was hurt.
+
+**2. To pay attention to something and keep it in mind.** (обращать внимание, принимать к сведению)
+
+4. Please *note* that the office closes at four.
+5. She *noted* the change in his tone right away.
+6. It should be *noted* that the data is incomplete.
 
 **Phrasal verbs:** [note down](56-phrasal-regular-m-p.md#note-down)
 
@@ -1311,17 +1531,31 @@ To say that you are willing to give something or to do something.
 ### order
 
 **Pronunciation:** /ˈɔːrdər/ &middot; *OR-dur*
-**Русский:** приказывать, приказать; велеть
+**Русский:** приказывать, приказать; велеть; заказывать, заказать; упорядочивать, располагать по порядку, расположить
 **Forms:** *order* &middot; *ordered* &middot; *ordered*
 **Verb class:** regular
 **Third person:** *orders* &middot; **-ing form:** *ordering*
 **Transitivity:** transitive
 
-To tell someone firmly that they must do something.
+Order has 3 distinct senses.
+
+**1. To tell someone firmly that they must do something.** (приказывать, приказать; велеть)
 
 1. The judge *ordered* him to pay a fine.
 2. You can't just *order* people around.
 3. We were *ordered* off the field.
+
+**2. To ask a restaurant or a store to supply something.** (заказывать, заказать)
+
+4. She always *orders* her coffee black.
+5. We *ordered* a pizza and watched the game.
+6. The parts have been *ordered* and should arrive Friday.
+
+**3. To arrange things in a particular sequence.** (упорядочивать, располагать по порядку, расположить)
+
+7. *Order* the names alphabetically, please.
+8. The photos are *ordered* by date.
+9. He spent an hour *ordering* his notes before the exam.
 
 **Phrasal verbs:** [order around](56-phrasal-regular-m-p.md#order-around) &middot; [order in](56-phrasal-regular-m-p.md#order-in)
 
@@ -1330,18 +1564,26 @@ To tell someone firmly that they must do something.
 ### persuade
 
 **Pronunciation:** /pərˈsweɪd/ &middot; *pur-SWAYD*
-**Русский:** убеждать, убедить; уговаривать, уговорить
+**Русский:** убеждать, убедить; уговаривать, уговорить; убеждать, убедить (в чём-л.)
 **Forms:** *persuade* &middot; *persuaded* &middot; *persuaded*
 **Verb class:** regular
 **Third person:** *persuades* &middot; **-ing form:** *persuading*
 **Transitivity:** transitive
 **Contrast:** *persuade* someone **to do** something — the *to* is required.
 
-To make someone decide to do something by giving them reasons.
+Persuade has 2 distinct senses.
+
+**1. To make someone decide to do something by giving them reasons.** (убеждать, убедить; уговаривать, уговорить)
 
 1. See if you can *persuade* her to come.
 2. He *persuaded* the bank to wait a month.
 3. I wasn't *persuaded* by the argument.
+
+**2. To make someone believe that something is true.** (убеждать, убедить (в чём-л.))
+
+4. Nothing you say will *persuade* me that he is innocent.
+5. The evidence *persuaded* the jury of her guilt.
+6. I am still not *persuaded* by his argument.
 
 ---
 
@@ -1453,35 +1695,51 @@ To say what you think will happen in the future.
 ### promise
 
 **Pronunciation:** /ˈprɑːməs/ &middot; *PRAH-muss*
-**Русский:** обещать, пообещать
+**Русский:** обещать, пообещать; обещать быть, сулить; предвещать
 **Forms:** *promise* &middot; *promised* &middot; *promised*
 **Verb class:** regular
 **Third person:** *promises* &middot; **-ing form:** *promising*
 **Transitivity:** both — transitive (*promise* me one thing), intransitive (I *promise*)
 
-To tell someone that you will certainly do something.
+Promise has 2 distinct senses.
+
+**1. To tell someone that you will certainly do something.** (обещать, пообещать)
 
 1. I *promise* I'll be there by six.
 2. He *promised* to call and then didn't.
 3. She has *promised* the car to her son.
+
+**2. To show signs that something is likely to happen.** (обещать быть, сулить; предвещать)
+
+4. This *promises* to be the closest election in years.
+5. The morning *promised* a hot day.
+6. Dark clouds were building over the ridge, *promising* rain by noon.
 
 ---
 
 ### pronounce
 
 **Pronunciation:** /prəˈnaʊns/ &middot; *pruh-NOWNS*
-**Русский:** произносить, произнести (звук, слово)
+**Русский:** произносить, произнести (звук, слово); объявлять, объявить (официально); признавать, признать
 **Forms:** *pronounce* &middot; *pronounced* &middot; *pronounced*
 **Verb class:** regular
 **Third person:** *pronounces* &middot; **-ing form:** *pronouncing*
 **Transitivity:** transitive
 **Contrast:** The verb has *-oun-*, but the noun loses it: *pronounce* → *pronunciation*, never "pronounciation".
 
-To make the sound of a word or a letter.
+Pronounce has 2 distinct senses.
+
+**1. To make the sound of a word or a letter.** (произносить, произнести (звук, слово))
 
 1. How do you *pronounce* your last name?
 2. She *pronounced* it the French way.
 3. I have been *pronouncing* it wrong for years.
+
+**2. To declare something officially and formally.** (объявлять, объявить (официально); признавать, признать)
+
+4. The doctor *pronounced* him dead at 3:40 a.m.
+5. I now *pronounce* you husband and wife.
+6. The building was *pronounced* unsafe and closed off.
 
 ---
 
@@ -1609,36 +1867,52 @@ To tell someone that something is good and that they should try it.
 ### refuse
 
 **Pronunciation:** /rɪˈfjuːz/ &middot; *rih-FYOOZ*
-**Русский:** отказываться, отказаться; отказывать
+**Русский:** отказываться, отказаться; отказывать; отказывать (в чём-л.), отказать; не давать
 **Forms:** *refuse* &middot; *refused* &middot; *refused*
 **Verb class:** regular
 **Third person:** *refuses* &middot; **-ing form:** *refusing*
 **Transitivity:** both — transitive (he *refused* the offer), intransitive (she simply *refused*)
 **Contrast:** The verb is rih-FYOOZ; the noun *refuse* (trash) is REF-yooss.
 
-To say firmly that you will not do or accept something.
+Refuse has 2 distinct senses.
+
+**1. To say firmly that you will not do or accept something.** (отказываться, отказаться; отказывать)
 
 1. They *refuse* to talk to reporters.
 2. He *refused* the money.
 3. She has *refused* every invitation this year.
+
+**2. To not let someone have or do something they ask for.** (отказывать (в чём-л.), отказать; не давать)
+
+4. They can't *refuse* you a lawyer.
+5. The guard *refused* us entry.
+6. She was *refused* a visa twice.
 
 ---
 
 ### reject
 
 **Pronunciation:** /rɪˈdʒɛkt/ &middot; *rih-JEKT*
-**Русский:** отвергать, отвергнуть; отклонять, отклонить
+**Русский:** отвергать, отвергнуть; отклонять, отклонить; отторгать, отторгнуть (пересаженный орган)
 **Forms:** *reject* &middot; *rejected* &middot; *rejected*
 **Verb class:** regular
 **Third person:** *rejects* &middot; **-ing form:** *rejecting*
 **Transitivity:** transitive
 **Contrast:** The verb is rih-JEKT; the noun (a faulty item) is REE-jekt.
 
-To refuse to accept an offer, an idea, or a person.
+Reject has 2 distinct senses.
+
+**1. To refuse to accept an offer, an idea, or a person.** (отвергать, отвергнуть; отклонять, отклонить)
 
 1. The board may *reject* the proposal.
 2. They *rejected* my application twice.
 3. His visa was *rejected* without explanation.
+
+**2. Of the body: to fail to accept a transplanted organ.** (отторгать, отторгнуть (пересаженный орган))
+
+4. Her body *rejected* the first kidney.
+5. These drugs keep the body from *rejecting* the new heart.
+6. The transplant was *rejected* within a week.
 
 ---
 
@@ -1662,18 +1936,26 @@ To say something as a comment, without much emphasis.
 ### remind
 
 **Pronunciation:** /rɪˈmaɪnd/ &middot; *rih-MYND*
-**Русский:** напоминать, напомнить
+**Русский:** напоминать, напомнить; напоминать, напомнить (быть похожим на кого-л.)
 **Forms:** *remind* &middot; *reminded* &middot; *reminded*
 **Verb class:** regular
 **Third person:** *reminds* &middot; **-ing form:** *reminding*
 **Transitivity:** transitive
 **Contrast:** You *remind* another person; you *remember* something yourself: "Remind me, because I never remember."
 
-To make someone remember something they have to do or know.
+Remind has 2 distinct senses.
+
+**1. To make someone remember something they have to do or know.** (напоминать, напомнить)
 
 1. *Remind* me to buy stamps.
 2. She *reminded* him about the dentist.
 3. You have *reminded* me three times already.
+
+**2. To make someone think of another person or thing because of a likeness.** (напоминать, напомнить (быть похожим на кого-л.))
+
+4. You *remind* me of my younger brother.
+5. The smell *reminded* her of her grandmother's kitchen.
+6. That song has always *reminded* me of summer camp.
 
 **Phrasal verbs:** [remind of, remind about](22-verb-preposition.md#remind-of-remind-about)
 
@@ -1717,17 +1999,37 @@ To answer someone in speech or in writing.
 ### report
 
 **Pronunciation:** /rɪˈpɔːrt/ &middot; *rih-PORT*
-**Русский:** сообщать, сообщить; докладывать, доложить
+**Русский:** сообщать, сообщить; докладывать, доложить; заявлять, заявить (в полицию); жаловаться (начальству), доносить; подчиняться (кому-л.), быть в подчинении у; являться, явиться (на службу, на место); прибыть
 **Forms:** *report* &middot; *reported* &middot; *reported*
 **Verb class:** regular
 **Third person:** *reports* &middot; **-ing form:** *reporting*
 **Transitivity:** transitive
 
-To give people information about something that has happened.
+Report has 4 distinct senses.
+
+**1. To give people information about something that has happened.** (сообщать, сообщить; докладывать, доложить)
 
 1. Please *report* any damage to the office.
 2. The paper *reported* that the school would close.
 3. Two injuries have been *reported*.
+
+**2. To tell the police or another authority about a crime or about someone's wrongdoing.** (заявлять, заявить (в полицию); жаловаться (начальству), доносить)
+
+4. You should *report* the theft right away.
+5. A neighbor *reported* him to the police.
+6. The leak was never *reported* to the authorities.
+
+**3. To work under a particular manager in a company.** (подчиняться (кому-л.), быть в подчинении у)
+
+7. She *reports* directly to the head of sales.
+8. For two years I *reported* to a manager in Chicago.
+9. The three new engineers will be *reporting* to you.
+
+**4. To go to a place and present yourself for work or duty.** (являться, явиться (на службу, на место); прибыть)
+
+10. *Report* to the front desk when you arrive.
+11. He *reported* for duty at six in the morning.
+12. All new hires are *reporting* to the training room today.
 
 **Phrasal verbs:** [report back](57-phrasal-regular-q-s.md#report-back)
 
@@ -1773,17 +2075,25 @@ To say or do something as an answer or a reaction.
 ### reveal
 
 **Pronunciation:** /rɪˈviːl/ &middot; *rih-VEEL*
-**Русский:** раскрывать, раскрыть; разглашать, разгласить
+**Русский:** раскрывать, раскрыть; разглашать, разгласить; открывать взору, обнажать; показывать, показать
 **Forms:** *reveal* &middot; *revealed* &middot; *revealed*
 **Verb class:** regular
 **Third person:** *reveals* &middot; **-ing form:** *revealing*
 **Transitivity:** transitive
 
-To tell people something that was secret or unknown.
+Reveal has 2 distinct senses.
+
+**1. To tell people something that was secret or unknown.** (раскрывать, раскрыть; разглашать, разгласить)
 
 1. He refused to *reveal* his source.
 2. The test *revealed* nothing unusual.
 3. The winner will be *revealed* at nine.
+
+**2. To uncover something so that it can be seen.** (открывать взору, обнажать; показывать, показать)
+
+4. He pulled back the sheet to *reveal* a new motorcycle.
+5. The X-ray *revealed* a hairline fracture.
+6. The curtain rose, *revealing* an empty stage.
 
 ---
 
@@ -1933,18 +2243,26 @@ To speak with difficulty, repeating sounds at the beginning of words.
 ### suggest
 
 **Pronunciation:** /səɡˈdʒɛst/ &middot; *suhg-JEST*
-**Русский:** предлагать, предложить; советовать
+**Русский:** предлагать, предложить; советовать; указывать на, свидетельствовать о; наводить на мысль
 **Forms:** *suggest* &middot; *suggested* &middot; *suggested*
 **Verb class:** regular
 **Third person:** *suggests* &middot; **-ing form:** *suggesting*
 **Transitivity:** transitive
 **Contrast:** *suggest* never takes a person as its object: "She suggested a book **to me**," not "suggested me a book."
 
-To offer an idea or a plan for someone to think about.
+Suggest has 2 distinct senses.
+
+**1. To offer an idea or a plan for someone to think about.** (предлагать, предложить; советовать)
 
 1. Can I *suggest* a different route?
 2. She *suggested* that we leave early.
 3. It has been *suggested* more than once.
+
+**2. To be a sign that something is probably true.** (указывать на, свидетельствовать о; наводить на мысль)
+
+4. The numbers *suggest* that prices will fall again.
+5. Her tone *suggested* she was not convinced.
+6. Early tests have *suggested* a link between the two drugs.
 
 ---
 
@@ -1969,18 +2287,26 @@ To give the main points of something in a short form.
 ### talk
 
 **Pronunciation:** /tɔːk/ &middot; *TAWK*
-**Русский:** говорить, разговаривать; поговорить
+**Русский:** говорить, разговаривать; поговорить; заговорить (на допросе), выдать сведения, расколоться
 **Forms:** *talk* &middot; *talked* &middot; *talked*
 **Verb class:** regular
 **Third person:** *talks* &middot; **-ing form:** *talking*
 **Transitivity:** intransitive
 **Contrast:** The l is silent: *talk* is TAWK. You *talk* **to** or **with** a person **about** a thing.
 
-To say things to someone as part of a conversation.
+Talk has 2 distinct senses.
+
+**1. To say things to someone as part of a conversation.** (говорить, разговаривать; поговорить)
 
 1. We need to *talk*.
 2. They *talked* for an hour in the driveway.
 3. She has been *talking* about moving for years.
+
+**2. To give information to the police or an enemy, especially under pressure.** (заговорить (на допросе), выдать сведения, расколоться)
+
+4. The suspect finally *talked*.
+5. They were afraid he would *talk*.
+6. Nobody in the crew has *talked* yet.
 
 **Phrasal verbs:** [talk back](58-phrasal-regular-t-z.md#talk-back) &middot; [talk down to](58-phrasal-regular-t-z.md#talk-down-to) &middot; [talk into](58-phrasal-regular-t-z.md#talk-into) &middot; [talk out of](58-phrasal-regular-t-z.md#talk-out-of) &middot; [talk over](58-phrasal-regular-t-z.md#talk-over) &middot; [talk through](58-phrasal-regular-t-z.md#talk-through) &middot; [talk to, talk with, talk about](22-verb-preposition.md#talk-to-talk-with-talk-about) &middot; [talk up](58-phrasal-regular-t-z.md#talk-up)
 
@@ -1989,17 +2315,25 @@ To say things to someone as part of a conversation.
 ### tease
 
 **Pronunciation:** /tiːz/ &middot; *TEEZ*
-**Русский:** дразнить; подшучивать, подшутить
+**Русский:** дразнить; подшучивать, подшутить; анонсировать намёками, интриговать анонсом
 **Forms:** *tease* &middot; *teased* &middot; *teased*
 **Verb class:** regular
 **Third person:** *teases* &middot; **-ing form:** *teasing*
 **Transitivity:** transitive
 
-To make jokes about someone, either in a friendly or an unkind way.
+Tease has 2 distinct senses.
+
+**1. To make jokes about someone, either in a friendly or an unkind way.** (дразнить; подшучивать, подшутить)
 
 1. His brothers *tease* him about his hair.
 2. She *teased* me for being nervous.
 3. I'm only *teasing*.
+
+**2. To give a small hint of something new in order to build interest in it.** (анонсировать намёками, интриговать анонсом)
+
+4. The band *teased* a new album on social media.
+5. Studios often *tease* a sequel at the end of a film.
+6. They have been *teasing* the announcement for weeks.
 
 ---
 
@@ -2044,18 +2378,26 @@ To tell someone that you are grateful for what they did.
 ### threaten
 
 **Pronunciation:** /ˈθrɛtən/ &middot; *THRET-uhn*
-**Русский:** угрожать, пригрозить; грозить
+**Русский:** угрожать, пригрозить; грозить; угрожать (об опасности), ставить под угрозу
 **Forms:** *threaten* &middot; *threatened* &middot; *threatened*
 **Verb class:** regular
 **Third person:** *threatens* &middot; **-ing form:** *threatening*
 **Transitivity:** transitive
 **Contrast:** The ea is short: THRET-uhn, like *bread*, not like *treat*.
 
-To say that you will hurt or punish someone if they do not do what you want.
+Threaten has 2 distinct senses.
+
+**1. To say that you will hurt or punish someone if they do not do what you want.** (угрожать, пригрозить; грозить)
 
 1. He *threatened* to call the police.
 2. Don't *threaten* me.
 3. The workers are *threatening* a strike.
+
+**2. To be likely to harm or destroy something.** (угрожать (об опасности), ставить под угрозу)
+
+4. The fire *threatens* two hundred homes.
+5. Rising water *threatened* the whole village.
+6. The species is *threatened* by the loss of its habitat.
 
 ---
 
@@ -2155,17 +2497,25 @@ To tell someone about a danger or a problem so that they can avoid it.
 ### welcome
 
 **Pronunciation:** /ˈwɛlkəm/ &middot; *WEL-kuhm*
-**Русский:** приветствовать, поприветствовать; радушно встречать
+**Русский:** приветствовать, поприветствовать; радушно встречать; приветствовать (решение), одобрять; охотно принимать
 **Forms:** *welcome* &middot; *welcomed* &middot; *welcomed*
 **Verb class:** regular
 **Third person:** *welcomes* &middot; **-ing form:** *welcoming*
 **Transitivity:** transitive
 
-To greet someone in a friendly way when they arrive.
+Welcome has 2 distinct senses.
+
+**1. To greet someone in a friendly way when they arrive.** (приветствовать, поприветствовать; радушно встречать)
 
 1. Please *welcome* our next speaker.
 2. They *welcomed* us like family.
 3. New members are always *welcomed* at the first meeting.
+
+**2. To be glad that something has happened and to say so.** (приветствовать (решение), одобрять; охотно принимать)
+
+4. We *welcome* any feedback from customers.
+5. Teachers *welcomed* the change to the schedule.
+6. The ruling has been *welcomed* by both parties.
 
 ---
 

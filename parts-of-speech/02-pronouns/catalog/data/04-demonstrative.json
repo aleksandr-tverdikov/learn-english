@@ -11,12 +11,53 @@
         "These are the files you asked for.",
         "Are these yours, or did somebody leave them behind?",
         "I'll take these and leave the rest.",
-        "These were selling for twice as much last month.",
         "These don't fit anymore.",
+        "Everything in the box is cracked except these.",
+        "These were selling for twice as much last month.",
+        "These are the three things the inspector wants fixed: the railing, the vent, and the back step.",
+        "These are my conditions, and they are not negotiable.",
         "These are my parents, Ray and Dolores.",
-        "Everything in the box is cracked except these."
+        "These are the two colleagues I was telling you about."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Things near the speaker",
+          "body": [
+            "(эти — о предметах рядом)"
+          ],
+          "examples": [
+            "These are the files you asked for.",
+            "Are these yours, or did somebody leave them behind?",
+            "I'll take these and leave the rest.",
+            "These don't fit anymore.",
+            "Everything in the box is cracked except these.",
+            "These were selling for twice as much last month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Pointing forward to a list the hearer has not heard yet",
+          "body": [
+            "(вот эти, вот что — перед перечислением)"
+          ],
+          "examples": [
+            "These are the three things the inspector wants fixed: the railing, the vent, and the back step.",
+            "These are my conditions, and they are not negotiable."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Introducing people",
+          "body": [
+            "(это — при знакомстве, о нескольких людях)"
+          ],
+          "examples": [
+            "These are my parents, Ray and Dolores.",
+            "These are the two colleagues I was telling you about."
+          ]
+        }
+      ],
       "pronunciation note": "no weak form — the vowel stays long even in fast speech, because the demonstrative carries the stress in its clause",
       "русский": "эти — указательное местоимение мн. числа о близком; ставится только с мн. числом глагола",
       "case": "none — one form serves as subject, object, and object of a preposition",
@@ -679,14 +720,42 @@
       "meaning": "Seconds what was just said, or marks a line in a list as a repeat of the line above it.",
       "examples": [
         "I'm skipping the Friday call. — Ditto.",
+        "She thinks the deadline is unrealistic. Ditto half the department.",
         "The first-quarter numbers were revised, and ditto the second quarter's.",
         "He hates the new logo, and ditto for the tagline.",
-        "She thinks the deadline is unrealistic. Ditto half the department.",
-        "In the ledger each repeated address is marked with a ditto rather than typed out again.",
         "Ditto that — I wouldn't sign it either. (conversational)",
-        "In a report, write: The same is true of the second quarter."
+        "In the ledger each repeated address is marked with a ditto rather than typed out again.",
+        "The form carries the same date on eight lines, six of them ditto marks.",
+        "A report should not use ditto at all — write The same is true of the second quarter."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Seconding what was just said, or extending it to something else",
+          "body": [
+            "(то же самое; и я тоже; и то же касается…)"
+          ],
+          "examples": [
+            "I'm skipping the Friday call. — Ditto.",
+            "She thinks the deadline is unrealistic. Ditto half the department.",
+            "The first-quarter numbers were revised, and ditto the second quarter's.",
+            "He hates the new logo, and ditto for the tagline.",
+            "Ditto that — I wouldn't sign it either. (conversational)"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The repeat mark in a column, a list, or a ledger",
+          "body": [
+            "(знак повтора 〃 в столбце или списке)"
+          ],
+          "examples": [
+            "In the ledger each repeated address is marked with a ditto rather than typed out again.",
+            "The form carries the same date on eight lines, six of them ditto marks.",
+            "A report should not use ditto at all — write The same is true of the second quarter."
+          ]
+        }
+      ],
       "pronunciation note": "the /t/ between the vowels flaps in ordinary American speech — [ˈdɪɾoʊ] — and the stress is on the first syllable; no weak form, since the word is normally a whole utterance by itself",
       "русский": "то же самое — разг.; в столбцах и списках заменяется знаком повтора 〃",
       "case": "none",
@@ -839,13 +908,63 @@
       "examples": [
         "Such is life.",
         "Such was the plan, at least until the funding fell through.",
-        "He was elected treasurer and, as such, signs every check.",
-        "The house, such as it is, has been in the family a hundred years.",
         "Such were his last words to the committee.",
-        "We stocked pens, paper, tape, and such. (informal)",
-        "The document is a draft and should be read as such."
+        "The house, such as it is, has been in the family a hundred years.",
+        "He was elected treasurer and, as such, signs every check.",
+        "The document is a draft and should be read as such.",
+        "There is no rule against it as such, only a long-standing practice.",
+        "We stocked pens, paper, tape, and such.",
+        "She handles permits, inspections, and such.",
+        "Notify the tenant, and such shall have ten days to respond. (drafting only; archaic everywhere else)"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Of that kind — the fronted such is / such was frame",
+          "body": [
+            "(таков, такова, таково — книжн.)"
+          ],
+          "examples": [
+            "Such is life.",
+            "Such was the plan, at least until the funding fell through.",
+            "Such were his last words to the committee.",
+            "The house, such as it is, has been in the family a hundred years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "As such — in that capacity, or strictly speaking",
+          "body": [
+            "(как таковой; в этом качестве)"
+          ],
+          "examples": [
+            "He was elected treasurer and, as such, signs every check.",
+            "The document is a draft and should be read as such.",
+            "There is no rule against it as such, only a long-standing practice."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "And such — informal, closing a list",
+          "body": [
+            "(и тому подобное — разг.)"
+          ],
+          "examples": [
+            "We stocked pens, paper, tape, and such.",
+            "She handles permits, inspections, and such."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Bare such as a pronoun in legal drafting",
+          "body": [
+            "(канц.: оный, таковой — вместо he или it)"
+          ],
+          "examples": [
+            "Notify the tenant, and such shall have ten days to respond. (drafting only; archaic everywhere else)"
+          ]
+        }
+      ],
       "pronunciation note": "weak /sətʃ/ whenever it is unstressed, which is most of the time in running speech",
       "русский": "таков, такое — книжн.: Such was the outcome «таков был итог»; as such «как таковой»",
       "case": "none",
@@ -895,12 +1014,51 @@
         "Bring rope, tape, zip ties, and the like.",
         "The store carries feed, fencing, hand tools, and the like.",
         "The policy covers floods, hurricanes, or the like.",
-        "He collects stamps, coins, and suchlike. (dated)",
-        "A crowd the like of which the town had never seen. (formal)",
+        "He collects stamps, coins, old postcards, and the like.",
+        "A crowd the like of which the town had never seen.",
         "Did you ever see the like? (dated exclamation)",
-        "A different idiom: that club was never meant for the likes of us."
+        "There has been nothing to match it since, and there will not be the like again.",
+        "That club was never meant for the likes of us.",
+        "The county had never dealt with the likes of a federal audit."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Closing a list — \"and other things of the kind.\"",
+          "body": [
+            "(и тому подобное — как русское «и т. п.»)"
+          ],
+          "examples": [
+            "Bring rope, tape, zip ties, and the like.",
+            "The store carries feed, fencing, hand tools, and the like.",
+            "The policy covers floods, hurricanes, or the like.",
+            "He collects stamps, coins, old postcards, and the like."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An equal, a match — in the like of which and the dated exclamation did you ever see the like?",
+          "body": [
+            "(подобное, равное: «такого ещё не видели»)"
+          ],
+          "examples": [
+            "A crowd the like of which the town had never seen.",
+            "Did you ever see the like? (dated exclamation)",
+            "There has been nothing to match it since, and there will not be the like again."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The likes of — people or things of that sort, and usually dismissive",
+          "body": [
+            "(такие, как…; ему подобные — часто пренебрежительно)"
+          ],
+          "examples": [
+            "That club was never meant for the likes of us.",
+            "The county had never dealt with the likes of a federal audit."
+          ]
+        }
+      ],
       "pronunciation note": "the is the ordinary weak /ðə/ before the consonant; like keeps its full diphthong and takes the stress, and the phrase has no reduced form",
       "русский": "и тому подобное — закрывает перечисление, как русское «и т. п.»",
       "case": "none",
@@ -925,10 +1083,51 @@
         "He left at five and expected everyone else to do the same.",
         "The same goes for anyone who shows up after the doors close.",
         "My rent is the same as it was three years ago.",
-        "Happy holidays! — Same to you. (informal)",
-        "We have received your order and will ship same on Monday. (commercial, dated)"
+        "Happy holidays! — Same to you.",
+        "I'm exhausted. — Same here.",
+        "Nice to finally meet you. — Same. (very informal)",
+        "We have received your order and will ship same on Monday.",
+        "The tenant shall repair the damage and shall bear the cost of same."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The identical thing — a fresh instance of what was already named",
+          "body": [
+            "(то же самое)"
+          ],
+          "examples": [
+            "She ordered the salmon, and I'll have the same.",
+            "The same is true of every office we surveyed.",
+            "He left at five and expected everyone else to do the same.",
+            "The same goes for anyone who shows up after the doors close.",
+            "My rent is the same as it was three years ago."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The reply formula — same to you, same here",
+          "body": [
+            "(и тебе того же; и я тоже — разг.)"
+          ],
+          "examples": [
+            "Happy holidays! — Same to you.",
+            "I'm exhausted. — Same here.",
+            "Nice to finally meet you. — Same. (very informal)"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Bare same in commercial and legal writing, standing where it or them would go",
+          "body": [
+            "(канц.: оное, таковое — вместо it или them)"
+          ],
+          "examples": [
+            "We have received your order and will ship same on Monday.",
+            "The tenant shall repair the damage and shall bear the cost of same."
+          ]
+        }
+      ],
       "pronunciation note": "the is the ordinary weak /ðə/ before a consonant sound; same carries the stress",
       "русский": "то же самое — тождество с уже названным: I'll have the same «мне то же самое»",
       "case": "none",
@@ -947,16 +1146,41 @@
       "respell": "this-MUCH, that-MUCH",
       "meaning": "Points at an amount — or, in the frame this much is clear, at the one piece of a matter the speaker is prepared to vouch for, leaving the rest of it open.",
       "examples": [
+        "We need a gallon of primer and I don't have that much.",
+        "Don't worry about it that much; the deadline moved to the fifteenth.",
+        "Countable referents take that many: ✗ that much were left over → that many were left over.",
         "This much is clear: nobody read the contract before signing it.",
         "I'll say this much for him — he showed up every single day.",
-        "We need a gallon of primer and I don't have that much.",
         "That much I do know, whatever else is in dispute. (fronted, emphatic)",
-        "Don't worry about it that much; the deadline moved to the fifteenth.",
-        "This much I can tell you: the check was cashed on the fourth.",
-        "Countable referents take that many: ✗ that much were left over → that many were left over.",
-        "A different idiom altogether: so much for the quiet weekend I had planned."
+        "This much I can tell you: the check was cashed on the fourth."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An amount, pointed at",
+          "body": [
+            "(столько — о количестве)"
+          ],
+          "examples": [
+            "We need a gallon of primer and I don't have that much.",
+            "Don't worry about it that much; the deadline moved to the fifteenth.",
+            "Countable referents take that many: ✗ that much were left over → that many were left over."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The frames this much is clear and I'll say this much — the one point the speaker will vouch for",
+          "body": [
+            "(одно ясно; одно скажу — уже не о количестве, а об одной мысли)"
+          ],
+          "examples": [
+            "This much is clear: nobody read the contract before signing it.",
+            "I'll say this much for him — he showed up every single day.",
+            "That much I do know, whatever else is in dispute. (fronted, emphatic)",
+            "This much I can tell you: the check was cashed on the fourth."
+          ]
+        }
+      ],
       "pronunciation note": "no weak form — much takes the stress and the demonstrative keeps its full vowel; in that much the /t/ is normally unreleased or a glottal stop before the /m/, [ˌðæʔˈmʌtʃ], so the two words sound welded together",
       "русский": "столько — о количестве; и в обороте this much is clear «одно ясно» — об одной мысли",
       "case": "none",
@@ -981,9 +1205,36 @@
         "It's a long drive, and an ugly one at that.",
         "He apologized once, and grudgingly at that.",
         "We agreed to disagree and left it at that.",
-        "I'd rather not argue about it — let's leave it at that."
+        "I'd rather not argue about it — let's leave it at that.",
+        "She said she'd think it over, and we left it at that."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "And what is more — a further detail added at the end of the clause",
+          "body": [
+            "(да ещё и, притом)"
+          ],
+          "examples": [
+            "He fixed it himself, and in ten minutes at that.",
+            "She found a buyer, and a cash buyer at that.",
+            "It's a long drive, and an ugly one at that.",
+            "He apologized once, and grudgingly at that."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Leave it at that — stop there and take it no further",
+          "body": [
+            "(на том и остановиться; не продолжать)"
+          ],
+          "examples": [
+            "We agreed to disagree and left it at that.",
+            "I'd rather not argue about it — let's leave it at that.",
+            "She said she'd think it over, and we left it at that."
+          ]
+        }
+      ],
       "pronunciation note": "at reduces to /ət/ and its /t/ goes unreleased against the following /ð/ — [əˈðæt]",
       "русский": "да ещё и, притом — в конце фразы; leave it at that «на том и остановиться»",
       "case": "none",
@@ -1007,9 +1258,36 @@
         "The rule covers full-time employees, that is to say, anyone scheduled for thirty hours or more.",
         "She'll be there Tuesday. If the flight lands, that is.",
         "I'd like the small one — that is, if you can spare it.",
-        "The deadline is firm, that is, unless the client asks for an extension."
+        "The deadline is firm, that is, unless the client asks for an extension.",
+        "We'll drive up Saturday. Assuming the pass is open, that is."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Introducing a restatement — \"in other words.\"",
+          "body": [
+            "(то есть — вводит уточнение)"
+          ],
+          "examples": [
+            "We'll meet on the first — that is, a week from Thursday.",
+            "He's her stepson, that is, her husband's boy from his first marriage.",
+            "The rule covers full-time employees, that is to say, anyone scheduled for thirty hours or more."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Tacked on at the end as a hedge — \"provided that,\" \"if that happens.\"",
+          "body": [
+            "(…если, конечно; при условии что)"
+          ],
+          "examples": [
+            "She'll be there Tuesday. If the flight lands, that is.",
+            "I'd like the small one — that is, if you can spare it.",
+            "The deadline is firm, that is, unless the client asks for an extension.",
+            "We'll drive up Saturday. Assuming the pass is open, that is."
+          ]
+        }
+      ],
       "pronunciation note": "the /t/ flaps between the vowels — [ˌðæɾˈɪz]; the phrase is never contracted to ✗ that's in this use",
       "русский": "то есть — связка, вводящая более точную формулировку сказанного",
       "case": "none",
@@ -1056,13 +1334,52 @@
       "examples": [
         "Is the blue folder the one you wanted? — That's it.",
         "Turn left after the church — no, wait, that's it, the brick one.",
+        "Push the tab in and twist. — Like this? — That's it.",
         "That's it for the questions; we're out of time.",
         "We sold the last two this morning, so that was it.",
-        "That's it — I'm not driving back out there again. (exasperation)",
         "Is that it, or is there another box still in the truck?",
-        "Sign at the bottom, and that's it — you're done."
+        "Sign at the bottom, and that's it — you're done.",
+        "That's it — I'm not driving back out there again.",
+        "That's it, everybody out of the pool."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Exactly right — confirming the very thing meant",
+          "body": [
+            "(вот именно; то самое)"
+          ],
+          "examples": [
+            "Is the blue folder the one you wanted? — That's it.",
+            "Turn left after the church — no, wait, that's it, the brick one.",
+            "Push the tab in and twist. — Like this? — That's it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "That is all — a supply, a list, or a process has ended",
+          "body": [
+            "(всё, это конец; больше нет)"
+          ],
+          "examples": [
+            "That's it for the questions; we're out of time.",
+            "We sold the last two this morning, so that was it.",
+            "Is that it, or is there another box still in the truck?",
+            "Sign at the bottom, and that's it — you're done."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Enough — the speaker's patience has run out",
+          "body": [
+            "(ну всё, с меня хватит)"
+          ],
+          "examples": [
+            "That's it — I'm not driving back out there again.",
+            "That's it, everybody out of the pool."
+          ]
+        }
+      ],
       "pronunciation note": "the /s/ links straight onto the vowel of it — [ˌðæˈtsɪt] — and a final /t/ before a pause is usually unreleased or glottal, [ˈɪʔ]; the stress falls on it when the phrase confirms or protests, and on that's when it reports that something has ended",
       "русский": "вот именно; всё, кончилось; ну всё, с меня хватит — разг., три разных употребления",
       "case": "none — the demonstrative has no case forms, and it is the same shape in every slot",

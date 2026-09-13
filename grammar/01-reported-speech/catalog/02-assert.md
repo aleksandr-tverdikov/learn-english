@@ -36,13 +36,22 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 > "We remain committed to the treaty," the ambassador said.  →  The ambassador **affirmed that** they **remained** committed to the treaty.
 > "Yes — the policy has not changed."  →  She **affirmed that** the policy **had** not **changed**.
 
+**1. State firmly that something is true.** Usually a restatement of a position already on record; unlike *claim* it carries no doubt. (утверждать, заявлять официально)
+
 1. The board *affirmed* that no layoffs were planned for the coming year.
 2. She quietly *affirmed* her belief that the study would hold up.
-3. The witness chose to *affirm* rather than swear on a Bible.
-4. The appeals court *affirmed* the conviction in a two-page order.
-5. The ambassador *affirmed* to reporters that the treaty remained in force.
-6. In his letter he *affirmed* that the money had been repaid in full.
-7. Nobody at the hearing *affirmed* that the deadline was still in force.
+3. The ambassador *affirmed* to reporters that the treaty remained in force.
+4. In his letter he *affirmed* that the money had been repaid in full.
+
+**2. Of an appeals court: let a ruling stand.** The opposite of *reverse*, and a fixed term of art. (оставить в силе (решение нижестоящего суда))
+
+5. The appeals court *affirmed* the conviction in a two-page order.
+6. Two of the three findings were *affirmed* on appeal.
+
+**3. Declare solemnly in place of an oath.** For witnesses who decline to swear; the statement carries exactly the same legal weight. (делать торжественное заявление вместо присяги)
+
+7. The witness chose to *affirm* rather than swear on a Bible.
+8. Jurors may *affirm* if they object to taking an oath.
 
 **See also:** [reaffirm](#reaffirm), [confirm](#confirm), [assert](#assert), [avow](#avow), [swear](#swear)
 
@@ -258,12 +267,22 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 | *claimed* | the writer does not vouch for it | He **claimed** he was home. |
 | *alleged* | it is unproven **and** accusatory | He **alleged** that she was home. |
 
+**1. Assert something the writer does not vouch for.** The doubt marker: *he claimed he was home* tells the reader the writer is not standing behind it. (утверждать, заявлять («якобы»))
+
 1. He *claims* the fence was already down when he got there.
 2. She *claimed* to have no memory of the conversation.
-3. Two different groups have *claimed* responsibility for the outage.
-4. The label *claims* the bottle contains no added sugar.
+3. The label *claims* the bottle contains no added sugar.
+
+**2. Say that something is yours, or that you did it.** Not a belief but a right or an authorship: *claim responsibility*, *claim a deduction*, *claim lost property*. (заявлять права на, требовать (своё); брать на себя (ответственность))
+
+4. Two different groups have *claimed* responsibility for the outage.
 5. Nobody has *claimed* the bag left in the lobby.
 6. They *claimed* a deduction that the auditor immediately disallowed.
+
+**3. Of a disaster: take lives.** A fixed journalistic collocation, and always with a death or a loss as the object. (уносить (жизни), унести — о катастрофе)
+
+7. The fire *claimed* three lives before dawn.
+8. The storm has *claimed* more than a hundred homes.
 
 **See also:** [allege](#allege), [purport](#purport), [profess](#profess), [assert](#assert), [maintain](#maintain)
 
@@ -327,12 +346,22 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 > "This election is void," the commission said.  →  The commission **declared** the election **void**.
 > "I'm never doing that again," she said.  →  She **declared that** she **was** never **doing** that again.
 
+**1. State formally and with standing.** Often performative: *I declare this meeting adjourned* does not describe an adjournment, it performs one. (объявлять, провозглашать)
+
 1. The governor *declared* a state of emergency before the storm made landfall.
 2. He *declared* that the numbers had been checked twice.
 3. The judge *declared* the contract unenforceable.
 4. She *declared* herself satisfied and went home.
+
+**2. Report goods or income to an authority.** Customs and tax English: you declare what the law requires you to disclose. (декларировать, заявлять (на таможне, в декларации))
+
 5. You have to *declare* anything over ten thousand dollars at customs.
-6. Two senators have *declared* against the bill in its current form.
+6. He never *declared* the rental income.
+
+**3. Come out for or against something.** The verb of taking a public side, with *for* or *against*. (открыто выступить за/против; заявить о своей позиции)
+
+7. Two senators have *declared* against the bill in its current form.
+8. She has not yet *declared* for either candidate.
 
 **See also:** [announce](#announce), [proclaim](#proclaim), [pronounce](#pronounce), [affirm](#affirm), [assert](#assert)
 
@@ -374,12 +403,23 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 > "In my view, the deadline was never binding," she said.  →  She **held that** the deadline **had** never **been** binding.
 > "The clause is void."  →  The court **held** the clause **to be** void.
 
+**1. Hold a view; maintain a position.** The reporting sense: a belief one is settled in rather than arguing toward. (держаться мнения, считать)
+
 1. Most economists *hold* that the effect is too small to measure.
-2. The Ninth Circuit *held* that the ordinance violated the First Amendment.
-3. She *holds* the view that the whole department should be restructured.
-4. It is widely *held* that the practice began in the 1930s.
-5. He *held* the study to be worthless and said so in print.
-6. Nobody now *holds* that the two species are closely related.
+2. She *holds* the view that the whole department should be restructured.
+3. It is widely *held* that the practice began in the 1930s.
+4. He *held* the study to be worthless and said so in print.
+
+**2. Of a court: rule.** The binding part of a decision, the part later courts must follow. Keep the pair straight: a court **holds** the law and **finds** the facts. (постановлять, выносить правовую позицию (о суде))
+
+5. The Ninth Circuit *held* that the ordinance violated the First Amendment.
+6. The court *held* the clause to be void.
+7. Two circuits have *held* the opposite way.
+
+**3. Keep, grip, contain.** The everyday physical verb, with no speech in it at all. (держать, удерживать; вмещать)
+
+8. *Hold* the ladder while I get the gutter.
+9. The tank *holds* about forty gallons.
 
 **See also:** [maintain](#maintain), [contend](#contend), [submit](#submit), [pronounce](#pronounce), [posit](#posit)
 
@@ -435,12 +475,19 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 > "I've said it before: I was never told," he said.  →  He **maintained that** he **had** never **been told**.
 > "The figures are correct."  →  She **maintained that** the figures **were** correct.
 
+**1. Keep asserting something against contradiction.** The reporting sense: the word itself says the position is under attack. (стоять на своём, продолжать утверждать)
+
 1. He has *maintained* from the first day that the account was not his.
 2. She *maintained* her innocence through two trials.
 3. The company *maintains* that the recall was voluntary.
-4. Both witnesses *maintained* that the light had been green.
-5. He *maintained* this position long after his own lawyers gave up on it.
-6. They *maintain*, against all the evidence, that the map is accurate.
+4. They *maintain*, against all the evidence, that the map is accurate.
+
+**2. Keep something going or in good repair.** Roads, machines, software, a pace, a household — the commonest sense outside argument, and no speech act at all. (поддерживать, содержать в исправности; обеспечивать)
+
+5. The county *maintains* about nine hundred miles of road.
+6. The software is no longer *maintained*.
+7. She *maintained* the same pace for the last three miles.
+8. He was *maintaining* two households on one salary.
 
 **See also:** [insist](#insist), [contend](#contend), [claim](#claim), [hold](#hold), [assert](#assert)
 
@@ -573,12 +620,22 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 > "The defendant is guilty on both counts."  →  The jury **pronounced** him **guilty** on both counts.
 > "In my judgment the treatment has failed."  →  The consultant **pronounced** the treatment **a failure**.
 
+**1. Deliver an official verdict.** The performative core: because of who is speaking, the words create the fact. (объявлять официально, выносить вердикт)
+
 1. She was *pronounced* dead at the scene.
-2. The critic tasted three of them and *pronounced* the second one best.
-3. The court will *pronounce* sentence on Thursday morning.
+2. The court will *pronounce* sentence on Thursday morning.
+3. The inspector *pronounced* the wiring safe and signed the form.
 4. He declined to *pronounce* on a case still under appeal.
-5. The inspector *pronounced* the wiring safe and signed the form.
+
+**2. Declare an opinion, grandly.** An ordinary judgment dressed in the verdict frame, usually with a touch of irony. (объявлять (о своём мнении) — с оттенком важности)
+
+5. The critic tasted three of them and *pronounced* the second one best.
 6. Nobody has *pronounced* the project finished, but nobody is working on it either.
+
+**3. Say a word aloud; articulate.** The same spelling, a different verb, and the one a learner meets far more often. It reports nothing. (произносить (звук, слово))
+
+7. Nobody in the office can *pronounce* her last name.
+8. How do you *pronounce* the second syllable?
 
 **See also:** [declare](#declare), [hold](#hold), [proclaim](#proclaim), [announce](#announce)
 
@@ -737,12 +794,23 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 > "In our view, the clause has never applied here," counsel said.  →  Counsel **submitted that** the clause **had** never **applied**.
 > "I'd argue the whole framework is misconceived."  →  She **submitted that** the framework **was** misconceived.
 
+**1. Put a proposition deferentially to somebody with authority.** The reporting sense: *I submit that…* defers in form while asserting in substance. (осмелюсь утверждать; почтительно заявлять (книжн., юр.))
+
 1. Counsel *submits* that the evidence was obtained without a warrant.
 2. I *submit* that we have been solving the wrong problem for two years.
 3. She *submitted* that the earlier reading of the statute could not survive.
 4. He *submitted*, with respect, that the committee had exceeded its authority.
-5. It is *submitted* that no other reading of the clause is available.
-6. The paper *submits* a simpler explanation than the one currently accepted.
+
+**2. Hand in; file.** The everyday sense, the one on every form and portal. It takes a plain object and reports nothing anybody said. (подавать, сдавать (документ, заявку))
+
+5. All applications must be *submitted* by the fifteenth.
+6. He *submitted* his resignation the same afternoon.
+7. The paper *submits* a simpler explanation than the one currently accepted.
+
+**3. submit to — give in, yield.** The preposition changes the verb completely: you submit a form, but you submit **to** a search. (подчиниться, покориться)
+
+8. She refused to *submit* to a search without a warrant.
+9. Neither side was willing to *submit* to arbitration.
 
 **See also:** [contend](#contend), [argue](#argue), [posit](#posit), [maintain](#maintain), [hold](#hold)
 
@@ -760,12 +828,22 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 > "I did not see the car at all," she said.  →  She **swore that** she **had** not **seen** the car.
 > "I'll be there, whatever happens."  →  He **swore to be** there whatever **happened**.
 
+**1. State under oath, or with maximum personal warranty.** The reporting sense, formal in court and emphatic in speech. (клясться, показывать под присягой; божиться)
+
 1. He *swore* that the safe had been locked when he left.
-2. She *swore* to tell the truth and then said almost nothing for an hour.
-3. They *swore* us to secrecy before showing us the prototype.
-4. I *swear* I put the keys on the hook.
-5. He was *sworn* in as a judge on a Tuesday afternoon.
-6. She'd *swear* to it in court if anyone asked her.
+2. I *swear* I put the keys on the hook.
+3. She'd *swear* to it in court if anyone asked her.
+
+**2. Bind by oath; promise solemnly.** Here the oath commits somebody to a future act — the subject's own, or the person the subject binds. (давать клятву; обязывать клятвой; приводить к присяге)
+
+4. She *swore* to tell the truth and then said almost nothing for an hour.
+5. They *swore* us to secrecy before showing us the prototype.
+6. He was *sworn* in as a judge on a Tuesday afternoon.
+
+**3. Curse; use obscene language.** A separate verb sharing the form, and the preposition tells them apart: *swear **to** something* is an oath, *swear **at** someone* is abuse. (ругаться, материться)
+
+7. He *swore* under his breath and started over.
+8. She *swore at* the driver who cut her off.
 
 **See also:** [vow](#vow), [testify](#testify), [attest](#attest), [affirm](#affirm), [pledge](#pledge)
 
@@ -783,12 +861,19 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 > "I was in the parking lot at the time," she said on the stand.  →  She **testified that** she **had been** in the parking lot at the time.
 > "He handed me the envelope."  →  The witness **testified that** the defendant **had handed** him the envelope.
 
+**1. Give evidence under oath.** The reporting sense, and its whole point is the forum: a place where perjury is a crime. (давать показания под присягой)
+
 1. Three former employees *testified* that the logs had been altered.
 2. She *testified* before the subcommittee for nearly five hours.
 3. He refused to *testify* against his own brother.
 4. The expert *testified* to the reliability of the test.
-5. She was subpoenaed but never actually *testified*.
-6. Nothing he *testified* to at trial matched his earlier statement to police.
+5. Nothing he *testified* to at trial matched his earlier statement to police.
+
+**2. testify to — be evidence of.** With a thing as the subject, nobody is speaking: the object itself is the witness. (свидетельствовать о чём-л. (о предмете, факте))
+
+6. The wreckage *testifies* to the force of the impact.
+7. The state of the kitchen *testified* to a long night.
+8. Every page of the ledger *testifies* to the same habit.
 
 **See also:** [attest](#attest), [swear](#swear), [affirm](#affirm), [allege](#allege), [maintain](#maintain)
 

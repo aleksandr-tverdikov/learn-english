@@ -109,12 +109,20 @@ Purpose with the confidence taken out of it. *So that* presents the goal as reac
 
 Negative purpose, equal to *so that ... not* or *for fear that*. It takes the present subjunctive — a bare verb with no *-s* (*lest he be late*, not *lest he is late*) — or *should*. The negation already sits inside the word, which is the classic trap: *lest anyone hear* means "so that nobody hears," so adding *not* reverses the sense. Everyday American speech uses *so that ... doesn't* or *in case*.
 
+**1. Negative purpose — "so that … not."** The negation is already inside the word, so a second *not* reverses the sense. Takes the bare subjunctive or *should*. (чтобы не; дабы не)
+
 1. He whispered the address *lest* anyone overhear.
 2. She hid the letter *lest* her sister find it.
-3. *Lest* we forget, the same promise was made five years ago.
-4. The committee moved carefully *lest* it be accused of favoritism.
-5. Keep the receipt *lest* there should be a dispute later.
-6. I said nothing *lest* I make the argument worse.
+3. The committee moved carefully *lest* it be accused of favoritism.
+4. Keep the receipt *lest* there should be a dispute later.
+5. I said nothing *lest* I make the argument worse.
+6. *Lest* we forget, the same promise was made five years ago.
+
+**2. After a word of fearing — the content of the fear.** Not a purpose marker at all here but a complementizer, after *afraid*, *fear*, *anxious*, *nervous*, *apprehensive*. Nobody is doing anything in order to prevent it; the clause simply names what is dreaded. (как бы не; что)
+
+7. She was afraid *lest* the noise wake the baby.
+8. He lay awake, anxious *lest* the storm take the roof off.
+9. The board feared *lest* word of the deal get out before Monday.
 
 **See also:** [for fear that](#for-fear-that), [in case](#in-case), [so that](#so-that), [in order that](#in-order-that)
 
@@ -130,12 +138,19 @@ Negative purpose, equal to *so that ... not* or *for fear that*. It takes the pr
 
 In casual American English bare *so* stands in for *so that* in the purpose sense, and the dropped *that* is completely standard in speech. The same two letters do at least four other jobs, which is why that comma has to work so hard: the coordinating conjunction of result, one of the FANBOYS (*The bus never came, so we walked*); the degree adverb of *so ... that* and of bare intensifying *so* (*I'm so tired*); the pro-form standing in for a whole clause (*I think so*, *If so, call me*); and the discourse opener that starts a turn in conversation (*So, where were we?*).
 
+**1. Purpose — bare *so* standing in for *so that*.** No comma, and the clause normally carries a modal: what follows is the aim, not the outcome. The dropped *that* is completely standard in American speech. (чтобы)
+
 1. Text me when you land *so* I know you got there.
 2. She sat in the front row *so* she could hear the questions.
 3. We left the porch light on *so* the sitter wouldn't have to hunt for the keyhole.
 4. Write it on the calendar *so* you don't forget again.
-5. The bus never came, *so* we walked the last mile.
-6. Move the couch over *so* there's room for the tree.
+5. Move the couch over *so* there's room for the tree.
+
+**2. Result — the coordinating *so* of the FANBOYS.** A comma in front, no modal in the clause, and what follows is what actually happened rather than what anybody intended. (так что; поэтому)
+
+6. The bus never came, *so* we walked the last mile.
+7. The store had already closed, *so* we ate at the gas station.
+8. Nobody had a charger, *so* we navigated off a paper map.
 
 **See also:** [so that](#so-that), [so ... that](#so--that), [so as to](#so-as-to), [so (coordinating)](01-coordinating.md#so)
 
@@ -151,12 +166,19 @@ In casual American English bare *so* stands in for *so that* in the purpose sens
 
 The default purpose subordinator of American English, and the one to reach for when the two clauses have different subjects. The purpose clause normally carries *can, could, will, would,* or *may*; drop the modal and the sentence tips toward the result reading. Compare *in order that* (formal), bare *so* (casual), and *in order to* (same subject, infinitive).
 
+**1. Purpose — the aim of the action.** No comma in front, and the clause carries *can*, *could*, *will*, *would*, or *may*. This is the default reading, and the reason to reach for *so that* rather than an infinitive when the two clauses have different subjects. (чтобы)
+
 1. Label the boxes *so that* the movers know which room each one goes in.
 2. I set two alarms *so that* I wouldn't oversleep on the first day.
 3. The city widened the sidewalk *so that* strollers and wheelchairs could pass each other.
 4. She froze half the soup *so that* there would be something ready on Thursday.
-5. The window was left open all night, *so that* the whole apartment smelled like rain.
-6. *So that* nobody would be left out, they made the party a potluck.
+5. *So that* nobody would be left out, they made the party a potluck.
+
+**2. Result — what actually came of it.** A comma in front and no modal in the clause. Nothing was intended: the sentence reports an outcome, and that comma is the only thing marking it. (так что; и в результате)
+
+6. The window was left open all night, *so that* the whole apartment smelled like rain.
+7. The road crew worked straight through, *so that* the lanes reopened a day early.
+8. He read the letter twice, *so that* by the end he knew it almost by heart.
 
 **See also:** [so](#so), [in order that](#in-order-that), [in order to](#in-order-to), [so as to](#so-as-to), [so ... that](#so--that), [lest](#lest)
 
@@ -306,13 +328,20 @@ The purpose marker of statutes, contracts, and policy documents. It takes an *-i
 
 Purpose named through the person or thing that benefits — *for the sake of the kids* — or through the quality being served, as in *for the sake of clarity*. It takes a noun or an *-ing* form and never an infinitive. Two things sit next to it and are not it: the possessive shortcut *for her own sake*, which is the same construction turned inside out, and the exasperated interjection *for heaven's sake*, which names no goal at all.
 
+**1. Purpose named through whoever or whatever benefits.** Takes a noun or an *-ing* form and never an infinitive. The possessive shortcut *for the children's sake* is the same construction turned inside out. (ради; для блага; в целях)
+
 1. They stayed in the same city *for the sake of* the kids.
 2. *For the sake of* clarity, the report uses the 2019 boundaries throughout.
 3. She learned the software *for the sake of* keeping the job, not because she liked it.
 4. Both sides agreed to a short recess *for the sake of* letting tempers cool.
 5. Don't rewrite the whole chapter *for the sake of* one sentence.
-6. *For the sake of* argument, suppose the early numbers are right.
-7. He gave up the corner office *for* his partner's *sake*.
+6. He gave up the corner office *for* his partner's *sake*.
+
+**2. *for the sake of argument* — the frozen hedge.** Nobody benefits and nothing is being served: the phrase grants a premise provisionally so that the discussion can move on. (допустим; предположим; чисто теоретически)
+
+7. *For the sake of* argument, suppose the early numbers are right.
+8. Let's say, *for the sake of* argument, that the permit never comes through.
+9. I'll grant the point *for the sake of* argument and still say the plan costs too much.
 
 **See also:** [in the interest of](#in-the-interest-of), [for the purpose of](#for-the-purpose-of), [with the aim of](#with-the-aim-of), [in order to](#in-order-to), [so that](#so-that)
 
@@ -811,12 +840,17 @@ Names a threshold the situation crossed, so the result comes across as an extrem
 
 Means "by means of which" or "as a result of which," and it always hangs on a preceding noun that names a mechanism — a deal, a policy, a scheme, a process. It cannot modify a whole clause and it cannot open a sentence, which is what separates it from a general result connector. If you cannot name the mechanism noun, write *by which* or recast the sentence.
 
-1. They reached an agreement *whereby* the city would maintain the trail.
-2. The company has a policy *whereby* unused vacation days roll over one year.
-3. Congress created a program *whereby* borrowers could refinance at a fixed rate.
-4. There is an unwritten rule *whereby* the last person out locks up.
-5. The settlement set up a process *whereby* claims are reviewed by an outside panel.
-6. He described a scheme *whereby* the same votes would be counted twice.
+**1. "By means of which" — how the mechanism works.** A process, a program, a scheme: the clause explains the workings of the noun in front of it. (посредством чего; при помощи которого)
+
+1. Congress created a program *whereby* borrowers could refinance at a fixed rate.
+2. The settlement set up a process *whereby* claims are reviewed by an outside panel.
+3. He described a scheme *whereby* the same votes would be counted twice.
+
+**2. "Under which, according to which" — the terms an arrangement lays down.** An agreement, a rule, a decree: the clause states what was agreed, not how anything operates. (согласно которому; по которому)
+
+4. They reached an agreement *whereby* the city would maintain the trail.
+5. The company has a policy *whereby* unused vacation days roll over one year.
+6. There is an unwritten rule *whereby* the last person out locks up.
 7. The 1997 consent decree, *whereby* the state took over the fund, expires next year.
 
 **See also:** [such that](#such-that), [thereby](#thereby), [with the result that](#with-the-result-that), [to the end that](#to-the-end-that)
@@ -987,6 +1021,8 @@ Marks the second clause as the effect of the first. It is interchangeable with *
 
 "For that reason, from this." Drier and more compressed than *therefore*, and its signature move is the verbless tag: *The printer jammed twice, hence the delay*. Do not confuse the result adverb with the time adverb spelled the same way, as in *two weeks hence*, which means "from now." *From hence* is redundant in both senses.
 
+**1. Consequence — "for that reason."** Drier and more compressed than *therefore*, and its signature move is the verbless tag, where a bare noun phrase follows instead of a clause: *hence the delay*. (отсюда; потому и; следовательно)
+
 1. The data was collected by volunteers; *hence*, some inconsistency is expected.
 2. Both trains were canceled — *hence* the crowd on the platform.
 3. The lease ends in June, *hence* the rush to find a subletter.
@@ -994,6 +1030,12 @@ Marks the second clause as the effect of the first. It is interchangeable with *
 5. The bridge is one lane in each direction; *hence*, backups are routine.
 6. Sample sizes were small, *hence* the wide confidence intervals.
 7. The original files were lost in the move. *Hence*, the timeline had to be rebuilt from old emails.
+
+**2. Time — "from now."** A separate word wearing the same spelling: it follows a measure of time, connects nothing, and gives no reason. (спустя; через — «через две недели»)
+
+8. The option expires two weeks *hence*.
+9. A century *hence*, none of this will be remembered.
+10. The treaty is to be reviewed five years *hence*.
 
 **See also:** [thus](#thus), [thereby](#thereby), [therefore](#therefore), [consequently](#consequently), [accordingly](#accordingly)
 
@@ -1094,11 +1136,17 @@ Draws a conclusion from what came before, and is strongest in argument, proof, a
 
 "In this way" and "as a consequence" at once. That double sense is why it can head a participial phrase, a pattern *therefore* cannot take: *The mold was reused, thus cutting costs*. It is standard in academic prose and stiff in conversation.
 
+**1. Consequence — "therefore."** Links two independent clauses, or tags a verbless noun phrase onto one. Standard in academic prose and stiff anywhere else. (следовательно; поэтому)
+
 1. The sensor recalibrates every hour; *thus*, drift stays under one percent.
-2. Two reviewers dropped out, *thus* leaving the panel one member short.
-3. The mold was reused, *thus* cutting production costs nearly in half.
-4. The evidence was obtained without a warrant and was *thus* excluded at trial.
-5. *Thus*, the hypothesis cannot be rejected on the present data.
-6. Enrollment fell for a third year — *thus* the decision to close the campus.
+2. The evidence was obtained without a warrant and was *thus* excluded at trial.
+3. *Thus*, the hypothesis cannot be rejected on the present data.
+4. Enrollment fell for a third year — *thus* the decision to close the campus.
+
+**2. "Thereby" — heading an *-ing* participle.** Names the effect the main clause produced in the act of doing what it describes. A plain comma is enough, since no second independent clause follows, and *therefore* cannot be swapped in. (тем самым; чем и)
+
+5. Two reviewers dropped out, *thus* leaving the panel one member short.
+6. The mold was reused, *thus* cutting production costs nearly in half.
+7. The city bought the parcel outright, *thus* ending an argument that had run for a decade.
 
 **See also:** [therefore](#therefore), [hence](#hence), [thereby](#thereby), [consequently](#consequently), [accordingly](#accordingly)

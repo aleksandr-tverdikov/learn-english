@@ -12,20 +12,28 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 ### mop
 
 **Pronunciation:** /mɑːp/ &middot; *MAHP*
-**Русский:** мыть шваброй, вымыть шваброй
+**Русский:** мыть шваброй, вымыть шваброй; вытирать, вытереть (пот с лица)
 **Forms:** *mop* &middot; *mopped* &middot; *mopped*
 **Verb class:** regular
 **Third person:** *mops* &middot; **-ing form:** *mopping*
 **Transitivity:** transitive
 **Contrast:** The *p* doubles: *mopped*, *mopping* — compare *hoped*, *hoping*, where the long vowel keeps one *p*.
 
-To wash a floor with a mop.
+Mop has 2 distinct senses.
+
+**1. To wash a floor with a mop.** (мыть шваброй, вымыть шваброй)
 
 1. I *mop* the kitchen twice a week.
 2. Someone *mopped* the hallway and left it wet.
 3. He was *mopping* the floor when the phone rang.
 
-**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up-1) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up)
+**2. To wipe sweat or water off your face or skin with a cloth.** (вытирать, вытереть (пот с лица))
+
+4. He *mops* his forehead between rounds.
+5. She *mopped* her face with a paper towel.
+6. The old man sat *mopping* his brow in the heat.
+
+**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up-1)
 
 ---
 
@@ -50,18 +58,26 @@ To clean a floor or a rug with a vacuum cleaner.
 ### dust
 
 **Pronunciation:** /dʌst/ &middot; *DUST*
-**Русский:** вытирать пыль, вытереть пыль; посыпать
+**Русский:** вытирать пыль, вытереть пыль; посыпать; посыпать, припорошить
 **Forms:** *dust* &middot; *dusted* &middot; *dusted*
 **Verb class:** regular
 **Third person:** *dusts* &middot; **-ing form:** *dusting*
 **Transitivity:** both — transitive (*dust the shelves*), intransitive (*she dusts every week*)
 **Contrast:** *Dust the shelf* means take dust off, but *dust the cake with sugar* means put a fine layer on — the same verb, opposite directions.
 
-To wipe the dust off furniture and shelves.
+Dust has 2 distinct senses.
+
+**1. To wipe the dust off furniture and shelves.** (вытирать пыль, вытереть пыль; посыпать)
 
 1. I need to *dust* the bookshelves.
 2. She *dusted* the whole room before the guests arrived.
 3. He's *dusting* the picture frames.
+
+**2. To sprinkle a fine powder lightly over something.** (посыпать, припорошить)
+
+4. *Dust* the cake with powdered sugar before serving.
+5. She *dusted* the pan with flour.
+6. Snow had *dusted* the fields overnight.
 
 **Phrasal verbs:** [dust off](54-phrasal-regular-d-f.md#dust-off)
 
@@ -70,17 +86,25 @@ To wipe the dust off furniture and shelves.
 ### scour
 
 **Pronunciation:** /ˈskaʊər/ &middot; *SKOW-ur*
-**Русский:** отдраивать, отдраить; оттирать, оттереть
+**Русский:** отдраивать, отдраить; оттирать, оттереть; прочёсывать, прочесать; тщательно обыскивать, обыскать
 **Forms:** *scour* &middot; *scoured* &middot; *scoured*
 **Verb class:** regular
 **Third person:** *scours* &middot; **-ing form:** *scouring*
 **Transitivity:** transitive
 
-To clean a surface by rubbing it hard with something rough.
+Scour has 2 distinct senses.
+
+**1. To clean a surface by rubbing it hard with something rough.** (отдраивать, отдраить; оттирать, оттереть)
 
 1. You'll have to *scour* the pan to get the burned rice off.
 2. He *scoured* the sink until it was white again.
 3. She spent an hour *scouring* the grill.
+
+**2. To search a place or a list very thoroughly.** (прочёсывать, прочесать; тщательно обыскивать, обыскать)
+
+4. Volunteers *scour* the beach after every storm.
+5. We *scoured* three stores looking for that part.
+6. They have *scoured* every record in the archive.
 
 ---
 
@@ -104,18 +128,26 @@ To polish something with a soft cloth until it shines.
 ### launder
 
 **Pronunciation:** /ˈlɔːndər/ &middot; *LAWN-dur*
-**Русский:** стирать, постирать (и гладить)
+**Русский:** стирать, постирать (и гладить); отмывать, отмыть (деньги)
 **Forms:** *launder* &middot; *laundered* &middot; *laundered*
 **Verb class:** regular
 **Third person:** *launders* &middot; **-ing form:** *laundering*
 **Transitivity:** transitive
 **Contrast:** In the news *launder* also means to hide dirty money — *launder money* — so context decides the sense.
 
-To wash and iron clothes or linens.
+Launder has 2 distinct senses.
+
+**1. To wash and iron clothes or linens.** (стирать, постирать (и гладить))
 
 1. The hotel *launders* the towels every day.
 2. She *laundered* the curtains before hanging them back up.
 3. Freshly *laundered* sheets smell wonderful.
+
+**2. To pass money from crime through legal businesses so that it looks honest.** (отмывать, отмыть (деньги))
+
+4. They *laundered* the cash through a chain of car washes.
+5. It is not easy to *launder* that much money.
+6. He admitted *laundering* more than a million dollars.
 
 ---
 
@@ -140,18 +172,26 @@ To make something white or lighter with a strong chemical.
 ### sanitize
 
 **Pronunciation:** /ˈsænətaɪz/ &middot; *SAN-uh-tyze*
-**Русский:** дезинфицировать, обеззараживать, обеззаразить
+**Русский:** дезинфицировать, обеззараживать, обеззаразить; приглаживать, подчищать (текст, версию событий); вымарывать
 **Forms:** *sanitize* &middot; *sanitized* &middot; *sanitized*
 **Verb class:** regular
 **Third person:** *sanitizes* &middot; **-ing form:** *sanitizing*
 **Transitivity:** transitive
 **Contrast:** American spelling *sanitize*; the British write *sanitise*.
 
-To clean something so that it is free of germs.
+Sanitize has 2 distinct senses.
+
+**1. To clean something so that it is free of germs.** (дезинфицировать, обеззараживать, обеззаразить)
 
 1. The restaurant *sanitizes* the tables between customers.
 2. She *sanitized* the baby bottles.
 3. They were *sanitizing* the carts at the door.
+
+**2. To remove the parts of a story or a document that might offend or reveal too much.** (приглаживать, подчищать (текст, версию событий); вымарывать)
+
+4. Textbooks often *sanitize* the ugliest parts of the war.
+5. The agency *sanitized* the report before releasing it.
+6. We only got a *sanitized* version of what happened that night.
 
 ---
 
@@ -229,18 +269,26 @@ To wash hair or a carpet with shampoo.
 ### comb
 
 **Pronunciation:** /koʊm/ &middot; *KOHM*
-**Русский:** расчёсывать, расчесать; прочёсывать
+**Русский:** расчёсывать, расчесать; прочёсывать; прочёсывать, прочесать; тщательно обыскивать
 **Forms:** *comb* &middot; *combed* &middot; *combed*
 **Verb class:** regular
 **Third person:** *combs* &middot; **-ing form:** *combing*
 **Transitivity:** transitive
 **Contrast:** The *b* is silent: *KOHM*, like *home* with a *k*.
 
-To pull a comb through hair to make it neat.
+Comb has 2 distinct senses.
+
+**1. To pull a comb through hair to make it neat.** (расчёсывать, расчесать; прочёсывать)
 
 1. *Comb* your hair before we leave.
 2. She *combed* the tangles out slowly.
 3. He was *combing* the rug for a lost earring.
+
+**2. To search a place very carefully and completely.** (прочёсывать, прочесать; тщательно обыскивать)
+
+4. Volunteers *comb* the beach after every storm.
+5. Detectives *combed* the apartment for fingerprints.
+6. We have *combed* the records twice and found nothing.
 
 **Phrasal verbs:** [comb through](53-phrasal-regular-a-c.md#comb-through)
 
@@ -397,18 +445,26 @@ To get rid of things you do not need so a space feels open again.
 ### smooth
 
 **Pronunciation:** /smuːð/ &middot; *SMOOTH*
-**Русский:** разглаживать, разгладить; сглаживать, сгладить
+**Русский:** разглаживать, разгладить; сглаживать, сгладить; сглаживать, облегчать (процесс); устранять препятствия
 **Forms:** *smooth* &middot; *smoothed* &middot; *smoothed*
 **Verb class:** regular
 **Third person:** *smooths* &middot; **-ing form:** *smoothing*
 **Transitivity:** transitive
 **Contrast:** The *th* is voiced, as in *this*, not as in *think*.
 
-To flatten something by running your hand over it.
+Smooth has 2 distinct senses.
+
+**1. To flatten something by running your hand over it.** (разглаживать, разгладить; сглаживать, сгладить)
 
 1. *Smooth* the sheet before you tuck it in.
 2. She *smoothed* the wrinkles out of the tablecloth.
 3. He was *smoothing* the bedspread with both hands.
+
+**2. To make a process easier by removing the problems from it.** (сглаживать, облегчать (процесс); устранять препятствия)
+
+4. A good agent *smooths* the way for first-time buyers.
+5. Her recommendation *smoothed* his path into the program.
+6. They are trying to *smooth* the transition for laid-off workers.
 
 **Phrasal verbs:** [smooth out](57-phrasal-regular-q-s.md#smooth-out) &middot; [smooth over](57-phrasal-regular-q-s.md#smooth-over)
 
@@ -453,34 +509,56 @@ To hang cloth loosely over something.
 ### place
 
 **Pronunciation:** /pleɪs/ &middot; *PLAYSS*
-**Русский:** класть, положить; помещать, поместить
+**Русский:** класть, положить; помещать, поместить; размещать, разместить (заказ, объявление); делать, сделать (ставку); вспомнить (откуда знаешь), узнать
 **Forms:** *place* &middot; *placed* &middot; *placed*
 **Verb class:** regular
 **Third person:** *places* &middot; **-ing form:** *placing*
 **Transitivity:** transitive
 
-To put something carefully in a particular spot.
+Place has 3 distinct senses.
+
+**1. To put something carefully in a particular spot.** (класть, положить; помещать, поместить)
 
 1. *Place* the glasses upside down on the towel.
 2. He *placed* the vase in the center of the table.
 3. The boxes were *placed* along the far wall.
+
+**2. To formally make an order, a bet, or an advertisement.** (размещать, разместить (заказ, объявление); делать, сделать (ставку))
+
+4. You can *place* an order online or by phone.
+5. He *placed* a small bet on the last race.
+6. The ad was *placed* in three local papers.
+
+**3. To remember where you know someone or something from.** (вспомнить (откуда знаешь), узнать)
+
+7. I know that face, but I can't *place* it.
+8. It took her a minute to *place* his accent.
+9. He finally *placed* the man as a neighbor from years ago.
 
 ---
 
 ### sort
 
 **Pronunciation:** /sɔːrt/ &middot; *SORT*
-**Русский:** сортировать, рассортировать; разбирать, разобрать
+**Русский:** сортировать, рассортировать; разбирать, разобрать; упорядочивать, сортировать (по дате, по алфавиту)
 **Forms:** *sort* &middot; *sorted* &middot; *sorted*
 **Verb class:** regular
 **Third person:** *sorts* &middot; **-ing form:** *sorting*
 **Transitivity:** both — transitive (*sort the mail*), intransitive (*we sorted for an hour*)
 
-To separate things into groups of the same kind.
+Sort has 2 distinct senses.
+
+**1. To separate things into groups of the same kind.** (сортировать, рассортировать; разбирать, разобрать)
 
 1. *Sort* the whites from the colors.
 2. He *sorted* the mail into three piles.
 3. She's *sorting* the recycling.
+
+**2. To arrange things in a particular order, such as by date or alphabetically.** (упорядочивать, сортировать (по дате, по алфавиту))
+
+4. *Sort* the list by date and print it.
+5. She *sorted* the emails by sender.
+6. The files are *sorted* alphabetically.
 
 **Phrasal verbs:** [sort out](57-phrasal-regular-q-s.md#sort-out) &middot; [sort out](57-phrasal-regular-q-s.md#sort-out-1) &middot; [sort through](57-phrasal-regular-q-s.md#sort-through)
 
@@ -508,18 +586,26 @@ To put a lot of things on top of each other, usually not neatly.
 ### shelve
 
 **Pronunciation:** /ʃɛlv/ &middot; *SHELV*
-**Русский:** ставить на полку, поставить; раскладывать по полкам
+**Русский:** ставить на полку, поставить; раскладывать по полкам; откладывать, отложить (проект, план); класть под сукно
 **Forms:** *shelve* &middot; *shelved* &middot; *shelved*
 **Verb class:** regular
 **Third person:** *shelves* &middot; **-ing form:** *shelving*
 **Transitivity:** transitive
 **Contrast:** The noun *shelf* turns its *f* into *v*: one *shelf*, two *shelves*, and the verb is *shelve*.
 
-To put things away on a shelf.
+Shelve has 2 distinct senses.
+
+**1. To put things away on a shelf.** (ставить на полку, поставить; раскладывать по полкам)
 
 1. The library pays students to *shelve* books.
 2. She *shelved* the canned goods by date.
 3. He was *shelving* the new arrivals all morning.
+
+**2. To decide not to continue with a plan or project, at least for now.** (откладывать, отложить (проект, план); класть под сукно)
+
+4. The city *shelved* plans for a new stadium.
+5. If the funding falls through, they will *shelve* the whole project.
+6. The bill has been *shelved* until after the election.
 
 ---
 
@@ -560,18 +646,26 @@ To put things together because they belong to the same set.
 ### box
 
 **Pronunciation:** /bɑːks/ &middot; *BAHKS*
-**Русский:** упаковывать в коробки, упаковать; укладывать в коробку
+**Русский:** упаковывать в коробки, упаковать; укладывать в коробку; боксировать, заниматься боксом
 **Forms:** *box* &middot; *boxed* &middot; *boxed*
 **Verb class:** regular
 **Third person:** *boxes* &middot; **-ing form:** *boxing*
 **Transitivity:** transitive
 **Contrast:** After *-x* the third person takes *-es*: *boxes*.
 
-To pack things into boxes.
+Box has 2 distinct senses.
+
+**1. To pack things into boxes.** (упаковывать в коробки, упаковать; укладывать в коробку)
 
 1. We need to *box* the books before Friday.
 2. He *boxed* the china in newspaper.
 3. Everything in the attic has been *boxed* and labeled.
+
+**2. To fight with the fists as a sport.** (боксировать, заниматься боксом)
+
+4. He *boxed* in college and still trains twice a week.
+5. They *box* three rounds on Friday night.
+6. She has been *boxing* since she was twelve.
 
 **Phrasal verbs:** [box in](53-phrasal-regular-a-c.md#box-in)
 
@@ -580,18 +674,26 @@ To pack things into boxes.
 ### bag
 
 **Pronunciation:** /bæɡ/ &middot; *BAG*
-**Русский:** складывать в пакет, сложить; упаковывать в мешок
+**Русский:** складывать в пакет, сложить; упаковывать в мешок; добывать (на охоте), подстрелить; заполучить, урвать (разг.)
 **Forms:** *bag* &middot; *bagged* &middot; *bagged*
 **Verb class:** regular
 **Third person:** *bags* &middot; **-ing form:** *bagging*
 **Transitivity:** transitive
 **Contrast:** The *g* doubles: *bagged*, *bagging*.
 
-To put something into a bag.
+Bag has 2 distinct senses.
+
+**1. To put something into a bag.** (складывать в пакет, сложить; упаковывать в мешок)
 
 1. *Bag* the leaves and leave them at the curb.
 2. She *bagged* the old clothes for donation.
 3. He's *bagging* groceries at the store.
+
+**2. To catch or kill an animal while hunting, or informally, to succeed in getting something.** (добывать (на охоте), подстрелить; заполучить, урвать (разг.))
+
+4. They hope to *bag* two turkeys this fall.
+5. He *bagged* a twelve-point buck on the last day of the season.
+6. She's *bagged* the biggest account in the office.
 
 ---
 
@@ -635,17 +737,25 @@ To throw something away because it is no longer wanted.
 ### recycle
 
 **Pronunciation:** /riːˈsaɪkəl/ &middot; *ree-SY-kuhl*
-**Русский:** перерабатывать, переработать; сдавать на переработку
+**Русский:** перерабатывать, переработать; сдавать на переработку; использовать повторно (идеи, материал); повторять, перелицовывать
 **Forms:** *recycle* &middot; *recycled* &middot; *recycled*
 **Verb class:** regular
 **Third person:** *recycles* &middot; **-ing form:** *recycling*
 **Transitivity:** both — transitive (*recycle the bottles*), intransitive (*we recycle*)
 
-To send used paper, glass, or plastic to be made into something new.
+Recycle has 2 distinct senses.
+
+**1. To send used paper, glass, or plastic to be made into something new.** (перерабатывать, переработать; сдавать на переработку)
 
 1. We *recycle* glass and cardboard.
 2. He *recycled* the newspapers.
 3. This bag is made from *recycled* plastic.
+
+**2. To use old material or old ideas again instead of making something new.** (использовать повторно (идеи, материал); повторять, перелицовывать)
+
+4. Don't just *recycle* last year's talk.
+5. He *recycled* the same joke at every stop on the tour.
+6. That plot has been *recycled* a dozen times.
 
 ---
 
@@ -669,17 +779,25 @@ To let food scraps and leaves rot so they turn into soil.
 ### dump
 
 **Pronunciation:** /dʌmp/ &middot; *DUMP*
-**Русский:** вываливать, вывалить; сваливать, свалить; выбрасывать
+**Русский:** вываливать, вывалить; сваливать, свалить; выбрасывать; бросать, бросить (партнёра)
 **Forms:** *dump* &middot; *dumped* &middot; *dumped*
 **Verb class:** regular
 **Third person:** *dumps* &middot; **-ing form:** *dumping*
 **Transitivity:** transitive
 
-To empty something out quickly and carelessly.
+Dump has 2 distinct senses.
+
+**1. To empty something out quickly and carelessly.** (вываливать, вывалить; сваливать, свалить; выбрасывать)
 
 1. Don't *dump* the toys on the floor.
 2. He *dumped* the dirty water in the yard.
 3. She was *dumping* the ashtray into the trash.
+
+**2. To suddenly end a romantic relationship with someone (informal).** (бросать, бросить (партнёра))
+
+4. She *dumped* him over the phone.
+5. If he keeps lying, she will *dump* him.
+6. He was *dumped* two weeks before the wedding.
 
 **Phrasal verbs:** [dump on](54-phrasal-regular-d-f.md#dump-on)
 
@@ -688,20 +806,28 @@ To empty something out quickly and carelessly.
 ### empty
 
 **Pronunciation:** /ˈɛmpti/ &middot; *EMP-tee*
-**Русский:** опорожнять, опорожнить; опустошать; выносить (мусор)
+**Русский:** опорожнять, опорожнить; опустошать; выносить (мусор); впадать (о реке, ручье)
 **Forms:** *empty* &middot; *emptied* &middot; *emptied*
 **Verb class:** regular
 **Third person:** *empties* &middot; **-ing form:** *emptying*
 **Transitivity:** both — transitive (*empty the trash*), intransitive (*the room emptied fast*)
 **Contrast:** Consonant + *-y*: *empties*, *emptied*, but *emptying* keeps the *y*.
 
-To take everything out of a container.
+Empty has 2 distinct senses.
+
+**1. To take everything out of a container.** (опорожнять, опорожнить; опустошать; выносить (мусор))
 
 1. *Empty* the trash before you go.
 2. He *emptied* the vacuum bag outside.
 3. She's *emptying* the dishwasher.
 
-**Phrasal verbs:** [empty out](54-phrasal-regular-d-f.md#empty-out) &middot; [empty out](54-phrasal-regular-d-f.md#empty-out-1)
+**2. To flow into a larger body of water, said of a river or a stream.** (впадать (о реке, ручье))
+
+4. The Mississippi *empties* into the Gulf of Mexico.
+5. Two small streams *emptied* into the lake behind the house.
+6. The canal *emptying* into the harbor was dug in 1830.
+
+**Phrasal verbs:** [empty out](54-phrasal-regular-d-f.md#empty-out-1) &middot; [empty out](54-phrasal-regular-d-f.md#empty-out)
 
 ---
 
@@ -812,17 +938,25 @@ To make something dirty.
 ### dampen
 
 **Pronunciation:** /ˈdæmpən/ &middot; *DAM-puhn*
-**Русский:** увлажнять, увлажнить; смачивать, смочить
+**Русский:** увлажнять, увлажнить; смачивать, смочить; ослаблять, умерять (пыл), подпортить
 **Forms:** *dampen* &middot; *dampened* &middot; *dampened*
 **Verb class:** regular
 **Third person:** *dampens* &middot; **-ing form:** *dampening*
 **Transitivity:** transitive
 
-To make something slightly wet.
+Dampen has 2 distinct senses.
+
+**1. To make something slightly wet.** (увлажнять, увлажнить; смачивать, смочить)
 
 1. *Dampen* the cloth before you dust.
 2. She *dampened* the shirt and ironed it flat.
 3. He was *dampening* the sponge under the faucet.
+
+**2. To make a feeling or an effect weaker.** (ослаблять, умерять (пыл), подпортить)
+
+4. The rain didn't *dampen* their enthusiasm.
+5. Higher rates *dampened* demand for houses.
+6. Bad reviews are *dampening* ticket sales.
 
 ---
 
@@ -847,18 +981,32 @@ To make something a little wet.
 ### absorb
 
 **Pronunciation:** /əbˈzɔːrb/ &middot; *ub-ZORB*
-**Русский:** впитывать, впитать; поглощать, поглотить
+**Русский:** впитывать, впитать; поглощать, поглотить; усваивать, усвоить; воспринимать (информацию); поглощать, смягчать (удар); принимать на себя (расходы)
 **Forms:** *absorb* &middot; *absorbed* &middot; *absorbed*
 **Verb class:** regular
 **Third person:** *absorbs* &middot; **-ing form:** *absorbing*
 **Transitivity:** transitive
 **Contrast:** The *s* is pronounced /z/: *ub-ZORB*, not *ub-SORB*.
 
-To take in liquid so that it is no longer on the surface.
+Absorb has 3 distinct senses.
+
+**1. To take in liquid so that it is no longer on the surface.** (впитывать, впитать; поглощать, поглотить)
 
 1. These towels *absorb* a lot of water.
 2. The rag *absorbed* most of the spill.
 3. The paper was *absorbing* the oil.
+
+**2. To take in information and understand it.** (усваивать, усвоить; воспринимать (информацию))
+
+4. It takes time to *absorb* so much new material.
+5. She *absorbed* everything the coach told her.
+6. I was still *absorbing* the news when the phone rang.
+
+**3. To take in force, shock, or a cost so that it does less damage.** (поглощать, смягчать (удар); принимать на себя (расходы))
+
+7. Good running shoes *absorb* the shock of each step.
+8. The company *absorbed* the extra cost instead of raising prices.
+9. The foam panels are *absorbing* most of the noise from the street.
 
 ---
 
@@ -903,17 +1051,25 @@ To touch something lightly and repeatedly with a cloth or a finger.
 ### immerse
 
 **Pronunciation:** /ɪˈmɜːrs/ &middot; *ih-MURS*
-**Русский:** погружать, погрузить; окунать, окунуть
+**Русский:** погружать, погрузить; окунать, окунуть; погружаться, погрузиться (с головой во что-л.); уходить с головой
 **Forms:** *immerse* &middot; *immersed* &middot; *immersed*
 **Verb class:** regular
 **Third person:** *immerses* &middot; **-ing form:** *immersing*
 **Transitivity:** transitive
 
-To put something completely under a liquid.
+Immerse has 2 distinct senses.
+
+**1. To put something completely under a liquid.** (погружать, погрузить; окунать, окунуть)
 
 1. *Immerse* the jars in boiling water for ten minutes.
 2. She *immersed* the sponge and squeezed it out.
 3. The base of the kettle must never be *immersed* in water.
+
+**2. To become completely involved in an activity or a subject.** (погружаться, погрузиться (с головой во что-л.); уходить с головой)
+
+4. *Immerse* yourself in the material before the exam.
+5. She *immersed* herself in the language for a year.
+6. He has *immersed* himself in local politics since he retired.
 
 ---
 
@@ -954,34 +1110,50 @@ To clear a blocked pipe or drain.
 ### plunge
 
 **Pronunciation:** /plʌndʒ/ &middot; *PLUNJ*
-**Русский:** прочищать вантузом; погружать, погрузить
+**Русский:** прочищать вантузом; погружать, погрузить; резко падать, обрушиться; рухнуть
 **Forms:** *plunge* &middot; *plunged* &middot; *plunged*
 **Verb class:** regular
 **Third person:** *plunges* &middot; **-ing form:** *plunging*
 **Transitivity:** both — transitive (*plunge the toilet*), intransitive (*he plunged for ten minutes*)
 
-To clear a blocked toilet or drain with a plunger, or to push something down into liquid.
+Plunge has 2 distinct senses.
+
+**1. To clear a blocked toilet or drain with a plunger, or to push something down into liquid.** (прочищать вантузом; погружать, погрузить)
 
 1. You may have to *plunge* the toilet.
 2. He *plunged* the drain until the water went down.
 3. She was *plunging* the sink when I walked in.
+
+**2. To fall or drop suddenly and steeply.** (резко падать, обрушиться; рухнуть)
+
+4. Temperatures *plunge* after sunset in the desert.
+5. The bus skidded and *plunged* into the river.
+6. Stock prices have *plunged* since the announcement.
 
 ---
 
 ### flush
 
 **Pronunciation:** /flʌʃ/ &middot; *FLUSH*
-**Русский:** смывать, смыть (в туалете); промывать, промыть
+**Русский:** смывать, смыть (в туалете); промывать, промыть; краснеть, покраснеть; заливаться румянцем, вспыхнуть
 **Forms:** *flush* &middot; *flushed* &middot; *flushed*
 **Verb class:** regular
 **Third person:** *flushes* &middot; **-ing form:** *flushing*
 **Transitivity:** both — transitive (*flush the toilet*), intransitive (*the toilet won't flush*)
 
-To send water through something to clean it out, especially a toilet.
+Flush has 2 distinct senses.
+
+**1. To send water through something to clean it out, especially a toilet.** (смывать, смыть (в туалете); промывать, промыть)
 
 1. *Flush* the toilet twice if you have to.
 2. He *flushed* the radiator hose with clean water.
 3. The toilet won't stop *flushing*.
+
+**2. To turn red in the face from heat, embarrassment, or strong feeling.** (краснеть, покраснеть; заливаться румянцем, вспыхнуть)
+
+4. She *flushed* when he read her name out loud.
+5. His face *flushes* whenever he has to speak in public.
+6. Her cheeks were *flushed* from the cold.
 
 **Phrasal verbs:** [flush out](54-phrasal-regular-d-f.md#flush-out)
 
@@ -990,18 +1162,26 @@ To send water through something to clean it out, especially a toilet.
 ### strip
 
 **Pronunciation:** /strɪp/ &middot; *STRIP*
-**Русский:** снимать, снять (бельё, покрытие); сдирать, содрать
+**Русский:** снимать, снять (бельё, покрытие); сдирать, содрать; лишать, лишить (звания, прав, полномочий)
 **Forms:** *strip* &middot; *stripped* &middot; *stripped*
 **Verb class:** regular
 **Third person:** *strips* &middot; **-ing form:** *stripping*
 **Transitivity:** transitive
 **Contrast:** The *p* doubles: *stripped*, *stripping* — *striped*, with one *p*, means в полоску.
 
-To take everything off a surface or a bed.
+Strip has 2 distinct senses.
+
+**1. To take everything off a surface or a bed.** (снимать, снять (бельё, покрытие); сдирать, содрать)
 
 1. *Strip* the beds and start a load of sheets.
 2. He *stripped* the old wax off the floor.
 3. They're *stripping* the wallpaper in the hall.
+
+**2. To take an official title, right, or position away from someone.** (лишать, лишить (звания, прав, полномочий))
+
+4. The board can *strip* him of his license.
+5. The court *stripped* her of custody.
+6. He was *stripped* of the gold medal.
 
 **Phrasal verbs:** [strip down](57-phrasal-regular-q-s.md#strip-down-1) &middot; [strip down](57-phrasal-regular-q-s.md#strip-down) &middot; [strip off](57-phrasal-regular-q-s.md#strip-off)
 
@@ -1010,35 +1190,51 @@ To take everything off a surface or a bed.
 ### bathe
 
 **Pronunciation:** /beɪð/ &middot; *BAYTH*
-**Русский:** купать, искупать; мыться, купаться
+**Русский:** купать, искупать; мыться, купаться; заливать (светом), залить; окутывать
 **Forms:** *bathe* &middot; *bathed* &middot; *bathed*
 **Verb class:** regular
 **Third person:** *bathes* &middot; **-ing form:** *bathing*
 **Transitivity:** both — transitive (*bathe the baby*), intransitive (*she bathes at night*)
 **Contrast:** The verb *bathe* is *BAYTH*, with a long *a* and a voiced *th*; the noun *bath* is *BATH*, short.
 
-To wash someone, or yourself, in a tub.
+Bathe has 2 distinct senses.
+
+**1. To wash someone, or yourself, in a tub.** (купать, искупать; мыться, купаться)
 
 1. It's easier to *bathe* the dog outside.
 2. She *bathed* the twins one at a time.
 3. He was *bathing* the baby when the doorbell rang.
+
+**2. To cover something completely in light or color.** (заливать (светом), залить; окутывать)
+
+4. Streetlights *bathe* the parking lot in a cold blue glow.
+5. The sunset *bathed* the whole valley in orange.
+6. The room was *bathed* in candlelight.
 
 ---
 
 ### filter
 
 **Pronunciation:** /ˈfɪltər/ &middot; *FIL-tur*
-**Русский:** фильтровать, отфильтровать; очищать, очистить
+**Русский:** фильтровать, отфильтровать; очищать, очистить; просачиваться, просочиться; проникать (постепенно), пробиваться
 **Forms:** *filter* &middot; *filtered* &middot; *filtered*
 **Verb class:** regular
 **Third person:** *filters* &middot; **-ing form:** *filtering*
 **Transitivity:** both — transitive (*filter the water*), intransitive (*light filtered through the blinds*)
 
-To pass liquid or air through something that takes the dirt out.
+Filter has 2 distinct senses.
+
+**1. To pass liquid or air through something that takes the dirt out.** (фильтровать, отфильтровать; очищать, очистить)
 
 1. This pitcher *filters* the tap water.
 2. She *filtered* the used frying oil through a cloth.
 3. The air is *filtered* before it goes back into the room.
+
+**2. To move slowly and in small amounts through or into a place.** (просачиваться, просочиться; проникать (постепенно), пробиваться)
+
+4. Sunlight *filtered* through the blinds.
+5. News of the layoffs *filtered* through the office by noon.
+6. Voices from the hallway kept *filtering* into the room.
 
 **Phrasal verbs:** [filter out](54-phrasal-regular-d-f.md#filter-out) &middot; [filter through](54-phrasal-regular-d-f.md#filter-through)
 

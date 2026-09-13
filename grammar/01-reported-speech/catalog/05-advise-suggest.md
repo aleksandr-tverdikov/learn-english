@@ -161,12 +161,18 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 
 > "Counselor, do not interrupt the witness again."  →  The judge **admonished him not to interrupt** the witness again.
 
-1. The judge *admonished* the jury to disregard the remark.
-2. Her editor *admonished* her for missing a second deadline.
-3. We were *admonished* against discussing the case outside the room.
+**1. Reprove; warn with a note of reproach.** The commoner sense: the hearer has already gone wrong, or is about to. (делать замечание, отчитывать)
+
+1. Her editor *admonished* her for missing a second deadline.
+2. We were *admonished* against discussing the case outside the room.
+3. She *admonished* me gently, and I took the point.
 4. He *admonished* the team that another lapse would mean suspension.
-5. The coach *admonished* the players to stop arguing with the referee.
-6. She *admonished* me gently, and I took the point.
+
+**2. Instruct earnestly, from the bench or the pulpit.** A formal charge to do something, with no fault implied at all — the judge's word to a jury. (увещевать, настоятельно призывать)
+
+5. The judge *admonished* the jury to disregard the remark.
+6. The court *admonished* the witness to answer only what was asked.
+7. He *admonished* us to read the whole contract before signing anything.
 
 **See also:** [caution](#caution), [warn](#warn), [counsel](#counsel), [urge](#urge), [command](06-order-request.md#command), [charge](06-order-request.md#charge)
 
@@ -270,12 +276,18 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 
 > "Look at the numbers — this can work."  →  She **convinced me that** it could work.
 
-1. It took an hour, but she *convinced* the committee to reconsider.
-2. Nothing I said *convinced* him that the check had cleared.
-3. The evidence *convinced* the jury of his innocence.
-4. I'm not *convinced* the second option is any cheaper.
-5. He *convinced* his parents to let him take a year off.
-6. She *convinced* herself that nobody had noticed.
+**1. Make somebody believe something.** The traditional job of this verb: *convince* + **that** or **of**, and it is a success verb — nobody is convinced who remains unconvinced. (убедить (в чём-л.), заставить поверить)
+
+1. Nothing I said *convinced* him that the check had cleared.
+2. The evidence *convinced* the jury of his innocence.
+3. I'm not *convinced* the second option is any cheaper.
+4. She *convinced* herself that nobody had noticed.
+
+**2. Get somebody to do something.** Traditionally *persuade*'s territory, and long treated as an error here; in current American English *convince someone to do* is entirely standard. (уговорить, убедить (сделать))
+
+5. It took an hour, but she *convinced* the committee to reconsider.
+6. He *convinced* his parents to let him take a year off.
+7. Nobody could *convince* her to see a doctor.
 
 **See also:** [persuade](#persuade), [talk into](#talk-into), [win over](#win-over), [prevail on](#prevail-on)
 
@@ -291,12 +303,19 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 
 > "I'd wait before you respond to any of this."  →  Her attorney **counseled her to wait** before responding.
 
+**1. Advise, professionally or weightily.** The reporting sense, and it prefers a bare noun phrase: *counsel patience*, *counsel restraint*, *counsel delay*. (советовать, рекомендовать (книжн., профессионально))
+
 1. His advisor *counseled* him to defer the semester rather than withdraw.
 2. The elders *counseled* patience.
 3. We were *counseled* against putting anything in writing.
-4. She *counsels* students on financial aid appeals.
+4. He *counseled* restraint, and for once everyone listened.
 5. The report *counsels* that the review be conducted by an outside firm.
-6. He *counseled* restraint, and for once everyone listened.
+
+**2. Give somebody professional counseling.** Therapy, grief work, addiction, financial aid. The object is the **person helped**, not the advice given, and no particular utterance is being reported. (консультировать, вести (психологическую) работу с кем-л.)
+
+6. She *counsels* students on financial aid appeals.
+7. He *counseled* veterans for eleven years before he retired.
+8. The family was *counseled* by the hospital's social worker.
 
 **See also:** [advise](#advise), [admonish](#admonish), [recommend](#recommend), [urge](#urge)
 
@@ -394,12 +413,22 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 
 > "You should really apply — you'd be great at it."  →  She **encouraged me to apply**.
 
+**1. Urge somebody toward something good for them.** The reporting sense: positive pressure, softer than *urge* and warmer than *advise*. It says nothing about whether it worked. (побуждать, советовать (с одобрением))
+
 1. His teacher *encouraged* him to submit the story to a magazine.
-2. The program *encourages* composting.
-3. She *encouraged* us to ask questions at any point.
-4. Low rates have *encouraged* borrowing.
-5. Nobody *encouraged* her; she just did it.
-6. I was *encouraged* to hear the schedule had not slipped.
+2. She *encouraged* us to ask questions at any point.
+3. Nobody *encouraged* her; she just did it.
+
+**2. Give somebody heart or confidence.** Nothing is asked for here — the person is simply left feeling better about the odds. (ободрять, вселять уверенность)
+
+4. I was *encouraged* to hear the schedule had not slipped.
+5. The first week's numbers *encouraged* everyone.
+6. A single kind review *encouraged* her more than the prize did.
+
+**3. Promote; make more likely.** With a policy, a price, or a condition as the subject and a bare noun after it: what makes a behavior grow. (способствовать, стимулировать)
+
+7. The program *encourages* composting.
+8. Low rates have *encouraged* borrowing.
 
 **See also:** [urge](#urge), [nudge](#nudge), [push](#push), [egg on](#egg-on), [discourage](#discourage)
 
@@ -475,12 +504,22 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 
 > "Just so everyone knows, the vendor contract expires in March."  →  She **flagged that** the vendor contract expired in March.
 
+**1. Raise something for attention.** The reporting sense, and standard workplace English: you flag a risk early, without claiming it is serious. (отметить, обратить внимание на (возможную проблему))
+
 1. He *flagged* two errors in the appendix.
-2. I *flagged* the invoice for review.
-3. She *flagged* that the numbers hadn't been reconciled yet.
-4. The system *flags* any transaction over ten thousand dollars.
-5. Legal *flagged* the indemnity clause as a problem.
-6. Nobody *flagged* what the delay would do to the launch date.
+2. She *flagged* that the numbers hadn't been reconciled yet.
+3. Legal *flagged* the indemnity clause as a problem.
+4. Nobody *flagged* what the delay would do to the launch date.
+
+**2. Mark a record so somebody looks at it.** The software sense: no speech at all, just a marker left on a file or a transaction. (помечать, ставить метку (в системе))
+
+5. I *flagged* the invoice for review.
+6. The system *flags* any transaction over ten thousand dollars.
+
+**3. flag down — signal a vehicle to stop.** An unrelated verb, from waving a flag, and always with *down*. (остановить жестом (такси, машину))
+
+7. She *flagged down* a cab on Eighth Avenue.
+8. We *flagged* a passing truck *down* and got a ride into town.
 
 **See also:** [alert](#alert), [tip off](#tip-off), [caution](#caution), [warn](#warn), [point out](08-ask-explain.md#point-out), [note](01-neutral.md#note)
 
@@ -605,12 +644,18 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 
 > "Come on, stay one more night — the roads will be clear tomorrow."  →  They **persuaded me to stay** one more night.
 
+**1. Get somebody to do something.** The core sense, and a success verb: if the person did not budge, you urged or pressed them, you did not persuade them. (уговорить, убедить (сделать))
+
 1. She *persuaded* the landlord to waive the fee.
 2. It took three phone calls to *persuade* him.
-3. He *persuaded* us that the detour would be faster, and he was wrong.
-4. They *persuaded* her into buying the extended warranty.
-5. I couldn't *persuade* anyone to come with me.
+3. They *persuaded* her into buying the extended warranty.
+4. I couldn't *persuade* anyone to come with me.
+
+**2. Make somebody believe something.** *persuade* + **that** or **of**, which is *convince*'s side of the old distinction — and where the distinction still does real work. (убедить (в чём-л.), уверить)
+
+5. He *persuaded* us that the detour would be faster, and he was wrong.
 6. The evidence *persuaded* the judge of his good faith.
+7. Nothing in the file *persuaded* me that the deadline was real.
 
 **See also:** [convince](#convince), [talk into](#talk-into), [prevail on](#prevail-on), [win over](#win-over), [dissuade](#dissuade)
 
@@ -626,12 +671,17 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 
 > "Take one of these twice a day for ten days."  →  The doctor **prescribed** a ten-day course of antibiotics.
 
+**1. Order a treatment.** The medical sense, and the commonest by far: the doctor's instruction, which the pharmacy then fills. (назначать, прописывать (лечение))
+
 1. Her doctor *prescribed* a lower dose.
-2. The statute *prescribes* a thirty-day notice period.
-3. He *prescribed* rest and a great deal of water.
-4. Nothing in the bylaws *prescribes* how the chair is chosen.
-5. The regulation *prescribes* that each unit be inspected annually.
-6. She was *prescribed* physical therapy instead of surgery.
+2. He *prescribed* rest and a great deal of water.
+3. She was *prescribed* physical therapy instead of surgery.
+
+**2. Lay down a rule.** A statute, a code, or a set of bylaws states what must be done. Do not confuse it with **proscribe**, which forbids. (предписывать (о законе, правиле))
+
+4. The statute *prescribes* a thirty-day notice period.
+5. Nothing in the bylaws *prescribes* how the chair is chosen.
+6. The regulation *prescribes* that each unit be inspected annually.
 
 **See also:** [recommend](#recommend), [advise](#advise), [counsel](#counsel), [propose](#propose), [require](06-order-request.md#require), [mandate](06-order-request.md#mandate), [proscribe](06-order-request.md#proscribe)
 
@@ -709,13 +759,23 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 
 > "I think we should extend the deadline by a week," she said.  →  She **proposed that** the deadline **be extended** by a week.
 
+**1. Put something forward for consideration.** The reporting sense: *propose **doing*** something is a suggestion to the group, and the **that**-clause takes the bare subjunctive. (предлагать (на рассмотрение))
+
 1. The committee *proposed* a two-year pilot.
 2. He *proposed* meeting halfway, in Denver.
 3. She *proposed* that the fee be waived for first-time applicants.
 4. What do you *propose* we do about it?
-5. The city *proposes* to widen the intersection next spring.
-6. Nobody *proposed* an alternative.
-7. The department *proposed* her as interim chair.
+5. Nobody *proposed* an alternative.
+
+**2. Intend; plan to do.** *propose **to** do* is the subject's own plan, not a recommendation to anybody — the one place the two frames diverge sharply. (намереваться, собираться (сделать))
+
+6. The city *proposes* to widen the intersection next spring.
+7. How do you *propose* to pay for it?
+
+**3. Put a name forward; ask somebody to marry you.** Two conventional uses: nominating a person, and the marriage proposal, which takes no complement at all. (выдвигать (кандидатуру); делать предложение (руки и сердца))
+
+8. The department *proposed* her as interim chair.
+9. He *proposed* on the last night of the trip.
 
 **See also:** [suggest](#suggest), [recommend](#recommend), [move](#move), [put forward](#put-forward), [float](#float)
 
@@ -773,13 +833,18 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 
 > "You really should try the branzino," he said.  →  He **recommended trying** the branzino. / He **recommended that I try** the branzino.
 
-1. She *recommended* a mechanic on Third Street.
-2. The panel *recommended* that the policy be rewritten from scratch.
-3. I'd *recommend* getting there half an hour early.
-4. He *recommended* the book to everyone he met that summer.
-5. The report *recommends* against expanding the program.
-6. Can you *recommend* somewhere quiet to work?
-7. Her advisor *recommended* what to take in the spring.
+**1. Advise a course of action.** The reporting sense, with a **that**-clause in the bare subjunctive or an **-ing** form after it. (рекомендовать, советовать (сделать))
+
+1. The panel *recommended* that the policy be rewritten from scratch.
+2. I'd *recommend* getting there half an hour early.
+3. The report *recommends* against expanding the program.
+4. Her advisor *recommended* what to take in the spring.
+
+**2. Speak in favor of a person or a thing.** Here the object is not an action but a restaurant, a book, a mechanic, a candidate — you are vouching for it. (рекомендовать (кого-л./что-л.), советовать как хорошее)
+
+5. She *recommended* a mechanic on Third Street.
+6. He *recommended* the book to everyone he met that summer.
+7. Can you *recommend* somewhere quiet to work?
 8. Two of her professors *recommended* her for the fellowship.
 
 **See also:** [suggest](#suggest), [advise](#advise), [propose](#propose), [prescribe](#prescribe), [endorse](#endorse)

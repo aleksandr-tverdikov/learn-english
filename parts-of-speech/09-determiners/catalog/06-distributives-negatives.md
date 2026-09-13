@@ -29,14 +29,27 @@ The words that take in a whole set — either sweeping it up at once or walking 
 
 Sweeps in the entire set or the entire quantity, with nothing left out. The verb agrees with the noun *all* is quantifying, not with *all* itself — *All the money **is** gone* but *All the coins **are** gone*. Like *both* and *each*, *all* can **float** away from its subject and land next to the verb: *All the guests have left* → *The guests have **all** left*.
 
+**1. The whole of a set or the whole of a quantity.** (весь, вся, всё, все — целиком, без остатка)
+
 1. *All* the students passed the exam.
 2. She spent *all* her savings on the down payment.
 3. *All* of them showed up an hour early.
 4. *All* this trouble started with one missed email. — a singular countable, grammatical only because *this* follows
-5. We waited *all* day for a callback from the insurance company.
-6. *All* information on this form is confidential.
-7. The guests have *all* gone home.
-8. *All* children learn to read at their own pace.
+5. *All* information on this form is confidential.
+6. *All* children learn to read at their own pace.
+7. The guests have *all* gone home. — floated away from the subject
+
+**2. A whole stretch of time, from end to end.** (весь, целый — о промежутке времени: all day «весь день», all winter «всю зиму»)
+
+8. We waited *all* day for a callback from the insurance company.
+9. The heater ran *all* night and the house was still cold.
+10. He was gone *all* summer and came back with a beard.
+
+**3. Emphatic *all the* before a comparative — "so much the."** (тем более, тем лучше — усилительное all the + сравнительная степень)
+
+11. If they're paying cash, *all* the better.
+12. He apologized, which made the whole thing *all* the more embarrassing.
+13. That's *all* the more reason to get it in writing.
 
 **See also:** [both](#both), [every](#every), [each](#each), [not all](#not-all), [none of](#none-of), [most](04-quantifiers-large.md#most)
 
@@ -97,12 +110,19 @@ Refers to the two members of a two-member set together, as a pair. The verb is a
 
 Picks out the members of a group one by one, treating them separately. The noun and the verb are both singular — *Each student **has** a locker* — but when *each* **floats** away from a plural subject and lands next to the verb, the verb goes back to plural: *The students **each have** a locker*, *We **each have** our own copy*. *Each* also survives at the end of a phrase as an adverb of price or weight: *The tickets are twenty dollars each*.
 
+**1. One member of a group at a time.** (каждый — из группы, по отдельности)
+
 1. *Each* student receives a locker and a combination.
 2. *Each* of the four applicants was interviewed twice.
 3. She wrote a note to *each* of them.
-4. The winners *each* got a check for five hundred dollars.
-5. *Each* day brought a new complication.
+4. *Each* day brought a new complication.
+5. The winners *each* got a check for five hundred dollars. — floated onto the verb, which goes back to plural
+
+**2. Postposed "apiece" — after the noun or at the end of a price.** (за штуку, по, на каждого — в постпозиции: $20 each «по 20 долларов за штуку»)
+
 6. Limes are seventy-nine cents *each* this week.
+7. The chairs weigh about forty pounds *each*.
+8. We got two tickets *each* and still had money left.
 
 **See also:** [every](#every), [each and every](#each-and-every), [either](#either), [both](#both), [every one of](#every-one-of)
 
@@ -139,14 +159,21 @@ An emphatic fusion of *each* and *every*, used when the speaker wants to insist 
 **Contrast:** *either* is the positive dual and [neither](#neither) its negation: *Either answer is acceptable* against *Neither answer is acceptable*. Against [any](#any), the difference is set size — *either* for two, *any* for three or more (*Either day works* for a weekend, *Any day works* for a week). Against [both](#both), *either* takes one of the two where *both* takes them together. As a determiner *either* precedes a noun; standing alone it is a **pronoun** (*Either will do*), and *either* at the end of a negative sentence is an **adverb** (*I don't like it either*) — three different word classes for one spelling.
 **Variants:** *either of*, *either one*, *either way*, *on either side*
 
-Two distinct uses. **(1)** *One or the other of two, it doesn't matter which* — the ordinary sense: *Either route gets you there*. **(2)** *Each of two, both* — a fossil sense surviving in fixed spatial phrases: *trees on either side of the road* means both sides, not one of them. Because sense (2) is still live, *either* is occasionally ambiguous, and careful writers switch to *each* or *both* when they mean sense (2) anywhere other than *either side*, *either end*, *either hand*. The verb is singular in careful writing — *Either of the plans **works*** — though *work* is very common in speech.
+Picks from a set of exactly two. Because the second sense below is a live fossil rather than a dead one, *either* is occasionally ambiguous, and careful writers switch to *each* or *both* when they mean "both of two" anywhere other than *either side*, *either end*, *either hand*. The verb is singular in careful writing — *Either of the plans **works*** — though *work* is very common in speech.
+
+**1. One or the other of two — it doesn't matter which.** (любой из двух, тот или другой — всё равно который)
 
 1. *Either* route will get you to the airport by six.
 2. *Either* of these applicants would do the job well.
-3. There were cornfields on *either* side of the highway.
-4. I'm happy with *either* answer.
-5. You can pay in cash or by card — *either* one is fine.
-6. Did *either* of them call you back?
+3. I'm happy with *either* answer.
+4. You can pay in cash or by card — *either* one is fine.
+5. Did *either* of them call you back?
+
+**2. Each of two — both, in fixed phrases of place.** (и тот и другой, оба — с обеих сторон: on either side, at either end)
+
+6. There were cornfields on *either* side of the highway.
+7. A guard stood at *either* end of the hallway.
+8. She had a child holding *either* hand.
 
 **See also:** [neither](#neither), [both](#both), [any](#any), [each](#each), [either … or](../../07-conjunctions/catalog/02-correlative.md#either--or)
 
@@ -163,12 +190,25 @@ Two distinct uses. **(1)** *One or the other of two, it doesn't matter which* �
 
 Covers the entire membership of a set of three or more, viewed as a complete sweep rather than as separate individuals. Both the noun and the verb are **singular** — *Every seat **is** taken* — but the pronoun that refers back is normally singular *they* in modern American usage: *Every applicant should bring **their** own laptop*. *Every* is the base for a whole family of emphatic and alternating phrases: *every single*, *every last*, *every other*, *each and every*.
 
+**1. All the members of a set, swept up one by one.** (каждый, всякий — всё множество разом)
+
 1. *Every* window on the block was broken.
-2. She checks her email *every* ten minutes.
-3. *Every* applicant has to submit two references.
-4. Almost *every* restaurant on that street closed during the pandemic.
-5. I've read *every* book he's written.
-6. *Every* one of those excuses is a lie.
+2. *Every* applicant has to submit two references.
+3. Almost *every* restaurant on that street closed during the pandemic.
+4. I've read *every* book he's written.
+5. *Every* one of those excuses is a lie.
+
+**2. At regular intervals — the frequency pattern, with a numeral and a plural noun.** (каждые — через равные промежутки: every ten minutes «каждые десять минут»)
+
+6. She checks her email *every* ten minutes.
+7. The bus comes *every* twenty minutes until nine.
+8. We repaint the trim *every* three or four years.
+
+**3. Emphatic "complete, all possible," before an abstract noun.** (полный, всяческий, все — every reason «все основания», every confidence «полная уверенность»)
+
+9. You have *every* reason to be angry about it.
+10. I have *every* confidence she'll pass on the second try.
+11. They made *every* effort to reach him before the deadline.
 
 **See also:** [each](#each), [all](#all), [every one of](#every-one-of), [every other](#every-other), [every single](#every-single), [every blessed](#every-blessed), [every third / every fourth / every nth](#every-third--every-fourth--every-nth), [every which](#every-which), [not every](#not-every)
 
@@ -272,14 +312,20 @@ The repair phrase that lets *every* do what *every* alone cannot: attach to a no
 **Contrast:** Do not confuse it with ***each other***, which is a reciprocal **pronoun**, not a determiner: *They helped each other* means mutually, and *every other* never means that. Within *every other* itself, the noun tells the two senses apart: a **time** noun gives the alternating reading (*every other Tuesday*), and any other noun in a context of comparison gives the remainder reading (*every other candidate withdrew*). Its negative and free-choice twins are [no other](#no-other) and [any other](#any-other).
 **Variants:** *every second*, *every other one*, *each other (different word — a pronoun)*
 
-Two distinct uses. **(1) Alternating — every second one, skipping one in between:** *We meet every other Thursday* means twice a month, on alternate Thursdays. **(2) All the remaining ones, everything apart from the one just named:** *Every other option was worse* means all the rest were worse. Sense (2) is what makes comparative sentences work — *She's faster than every other runner on the team* correctly excludes her from the comparison class, where *than every runner* would absurdly include her.
+The noun decides which of the two readings you get: a **time** noun gives the alternating one (*every other Tuesday*), and any other noun in a context of comparison gives the remainder one (*every other candidate withdrew*). The remainder sense is what makes comparative sentences work — *She's faster than every other runner on the team* correctly excludes her from the comparison class, where *than every runner* would absurdly include her.
+
+**1. Alternating — every second one, skipping one in between.** (каждый второй, через один: every other Tuesday «через вторник»)
 
 1. The recycling truck comes *every other* Tuesday.
 2. She calls her mother *every other* day.
-3. *Every other* candidate had already withdrawn by March.
-4. He's cheaper than *every other* contractor we called.
-5. They repainted *every other* room and left the rest.
-6. *Every other* seat was blocked off for distancing.
+3. They repainted *every other* room and left the rest.
+4. *Every other* seat was blocked off for distancing.
+
+**2. All the remaining ones — everything apart from the one just named.** (все остальные, все прочие — кроме названного)
+
+5. *Every other* candidate had already withdrawn by March.
+6. He's cheaper than *every other* contractor we called.
+7. *Every other* explanation we came up with was worse.
 
 **See also:** [every](#every), [every third / every fourth / every nth](#every-third--every-fourth--every-nth), [any other](#any-other), [no other](#no-other), [each](#each)
 
@@ -365,16 +411,22 @@ Determiners that pick a member without specifying which one, and leave the choic
 **Contrast:** *any* against *some* is a matter of **polarity**, not of meaning. [Some](05-quantifiers-small.md#some) is the default in affirmative statements (*I bought some apples*); *any* is the default in negatives and open questions (*I didn't buy any apples*, *Did you buy any apples?*). The exception that trips learners is the **polite offer**: a question that expects or invites a *yes* takes *some*, not *any* — *Would you like some coffee?*, *Could you lend me some cash?* *Would you like any coffee?* is grammatical but sounds grudging, as if you would rather not pour it. Against [no](#no), the two are alternative ways of negating and never co-occur: ✓ *I have no money*, ✓ *I don't have any money*, ✗ *I have no any money*. Against [either](#either), the difference is set size — *either* for exactly two, *any* for three or more. As a determiner *any* precedes a noun; standing alone it is a **pronoun** (*Is there any left?*).
 **Variants:** *any of*, *any old*, *any other*, *any and all*, *not any*, *any at all*, *any one of*
 
-Two distinct uses. **(1) Negative polarity** — in questions, negatives, conditionals, and after negative-flavored words (*hardly*, *rarely*, *without*, *refuse*, *doubt*, *before*), *any* marks a quantity whose existence is open or denied: *Do you have any questions?*, *He left without any explanation*. **(2) Free choice** — in **affirmative** statements, *any* takes a singular countable noun and means "it doesn't matter which one": *Any mechanic can fix that*. Sense (2) is not a negative at all, and it is the one that surprises learners taught that "*any* is for negatives." Stress separates them in speech: free-choice *any* is stressed, polarity *any* is not. After *of* + plural, the verb may be singular or plural — *If any of the files **is/are** missing, tell me*.
+Two very different things share one spelling, and **stress** is what separates them in speech: the negative-polarity *any* of questions and negatives is unstressed, while the free-choice *any* of affirmatives carries full stress. The polarity use is also triggered by negative-flavored words that are not themselves negatives — *hardly*, *rarely*, *without*, *refuse*, *doubt*, *before*. Free choice is the one that surprises learners taught that "*any* is for negatives." After *of* + plural, the verb may be singular or plural — *If any of the files **is/are** missing, tell me*.
+
+**1. In questions, negatives, and conditionals — a quantity left open or denied.** (какой-нибудь, сколько-нибудь; в отрицании — никакой, нисколько)
 
 1. Do you have *any* questions before we start?
 2. We didn't get *any* warning that the road was closed.
 3. Did you bring *any* cash, or should I stop at an ATM?
-4. *Any* student can tell you that class is a waste of time.
-5. If *any* of these numbers look wrong, flag them.
-6. He left without *any* explanation at all.
-7. Is there *any* chance you could come in on Saturday?
+4. If *any* of these numbers look wrong, flag them.
+5. He left without *any* explanation at all.
+6. Is there *any* chance you could come in on Saturday?
+
+**2. Free choice in an affirmative — "it doesn't matter which one."** (любой, какой угодно — неважно какой; в речи это any под ударением)
+
+7. *Any* student can tell you that class is a waste of time.
 8. Take *any* seat you like.
+9. *Any* mechanic in town could have caught that.
 
 **See also:** [no](#no), [not any](#not-any), [any other](#any-other), [any old](#any-old), [any such](#any-such), [any manner of / any kind of / any sort of](#any-manner-of--any-kind-of--any-sort-of), [either](#either), [none of](#none-of), [ary / ary a](#ary--ary-a), [some](05-quantifiers-small.md#some)
 
@@ -531,6 +583,8 @@ Denies both members of a two-member set at once: not the one and not the other. 
 
 Reduces the noun to zero. The verb agrees with the noun that follows, not with *no* — *No student **was** notified*, *No students **were** notified*, *No news **is** good news*. Because *no* is itself the negative it never combines with another negative in the same clause: ✗ *I have no any money* is impossible in every variety of English, and *I don't have no money* is [negative concord](#no-negative-concord) — systematic in several American dialects but nonstandard in edited writing. *No* is also the base of a large set of fixed phrases: *no doubt*, *no way*, *no idea*, *no problem*, *no such thing*, *no wonder*.
 
+**1. Not any — reduces the noun to zero.** (никакой, ни одного, нет: no money «денег нет»)
+
 1. There is *no* excuse for that email.
 2. *No* students signed up for the eight o'clock section.
 3. We have *no* time to argue about it.
@@ -538,6 +592,18 @@ Reduces the noun to zero. The verb agrees with the noun that follows, not with *
 5. She had *no* idea he was already gone.
 6. *No* news is good news.
 7. There's *no* way I'm driving in this.
+
+**2. In prohibitions — signs, rules, and notices.** (запрещено, нельзя, не — на табличках: No smoking «Не курить»)
+
+8. *No* smoking anywhere on hospital grounds.
+9. *No* parking between the hydrant and the corner.
+10. *No* refunds after thirty days, *no* exceptions.
+
+**3. "Far from being" — before a noun naming a quality or a role.** (вовсе не, далеко не, отнюдь не: he's no fool «он вовсе не дурак»)
+
+11. He's *no* fool — he had the contract read before he signed it.
+12. It was *no* accident that the report came out on a Friday.
+13. She's *no* stranger to a fourteen-hour shift.
 
 **See also:** [none of](#none-of), [not any](#not-any), [not a](#not-a), [not one](#not-one), [not all](#not-all), [neither](#neither), [any](#any), [no other](#no-other), [no such](#no-such)
 

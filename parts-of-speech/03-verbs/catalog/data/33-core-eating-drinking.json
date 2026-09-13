@@ -24,14 +24,58 @@
       "term": "swallow",
       "ipa": "/ˈswɑːloʊ/",
       "respell": "SWAH-loh",
-      "meaning": "To make food or drink go down your throat. ---",
+      "meaning": "Swallow has 3 distinct senses.",
       "examples": [
         "Swallow the pill with plenty of water.",
         "He swallowed the last bite and stood up.",
-        "She winced, swallowing the bitter medicine."
+        "She winced, swallowing the bitter medicine.",
+        "I'm not going to swallow that excuse.",
+        "They swallowed the whole story without asking a single question.",
+        "He had swallowed every word of it.",
+        "She swallowed her pride and asked for help.",
+        "You learn to swallow your anger in this job.",
+        "He has swallowed a lot of insults from that man."
       ],
-      "senses": [],
-      "русский": "глотать, проглотить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make food or drink go down your throat",
+          "body": [
+            "(глотать, проглотить)"
+          ],
+          "examples": [
+            "Swallow the pill with plenty of water.",
+            "He swallowed the last bite and stood up.",
+            "She winced, swallowing the bitter medicine."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To believe something that is not true",
+          "body": [
+            "(проглотить (ложь), поверить (во что-то сомнительное), купиться)"
+          ],
+          "examples": [
+            "I'm not going to swallow that excuse.",
+            "They swallowed the whole story without asking a single question.",
+            "He had swallowed every word of it."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To hold back a feeling instead of showing it",
+          "body": [
+            "(подавлять (чувство), сдерживать; проглотить (обиду))",
+            "---"
+          ],
+          "examples": [
+            "She swallowed her pride and asked for help.",
+            "You learn to swallow your anger in this job.",
+            "He has swallowed a lot of insults from that man."
+          ]
+        }
+      ],
+      "русский": "глотать, проглотить; проглотить (ложь), поверить (во что-то сомнительное), купиться; подавлять (чувство), сдерживать; проглотить (обиду)",
       "forms": "swallow · swallowed · swallowed",
       "verb class": "regular",
       "third person": "swallows · -ing form: swallowing",
@@ -60,14 +104,43 @@
       "term": "devour",
       "ipa": "/dɪˈvaʊər/",
       "respell": "di-VOW-ur",
-      "meaning": "To eat something quickly and hungrily. ---",
+      "meaning": "Devour has 2 distinct senses.",
       "examples": [
         "Teenagers devour whatever is in the fridge.",
         "He devoured two plates of pasta in ten minutes.",
-        "The cake had been devoured before I got a slice."
+        "The cake had been devoured before I got a slice.",
+        "He devours two or three novels a week.",
+        "She devoured the whole series in a weekend.",
+        "I have devoured everything that author has written."
       ],
-      "senses": [],
-      "русский": "пожирать, жадно съедать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To eat something quickly and hungrily",
+          "body": [
+            "(пожирать, жадно съедать)"
+          ],
+          "examples": [
+            "Teenagers devour whatever is in the fridge.",
+            "He devoured two plates of pasta in ten minutes.",
+            "The cake had been devoured before I got a slice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To read or watch something eagerly and quickly",
+          "body": [
+            "(проглатывать (книгу), зачитываться, поглощать)",
+            "---"
+          ],
+          "examples": [
+            "He devours two or three novels a week.",
+            "She devoured the whole series in a weekend.",
+            "I have devoured everything that author has written."
+          ]
+        }
+      ],
+      "русский": "пожирать, жадно съедать; проглатывать (книгу), зачитываться, поглощать",
       "forms": "devour · devoured · devoured",
       "verb class": "regular",
       "third person": "devours · -ing form: devouring",
@@ -131,14 +204,43 @@
       "term": "digest",
       "ipa": "/daɪˈdʒɛst/",
       "respell": "dy-JEST",
-      "meaning": "To break food down in the stomach so the body can use it. ---",
+      "meaning": "Digest has 2 distinct senses.",
       "examples": [
         "Babies cannot digest solid food yet.",
         "He never fully digested that fried chicken.",
-        "Sit still for a while — your body is digesting lunch."
+        "Sit still for a while — your body is digesting lunch.",
+        "Give me a minute to digest that.",
+        "She digested the report on the flight home.",
+        "The team is still digesting the news."
       ],
-      "senses": [],
-      "русский": "переваривать, переварить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break food down in the stomach so the body can use it",
+          "body": [
+            "(переваривать, переварить)"
+          ],
+          "examples": [
+            "Babies cannot digest solid food yet.",
+            "He never fully digested that fried chicken.",
+            "Sit still for a while — your body is digesting lunch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take in new information slowly until you understand it",
+          "body": [
+            "(усваивать, усвоить; осмысливать, переваривать (информацию))",
+            "---"
+          ],
+          "examples": [
+            "Give me a minute to digest that.",
+            "She digested the report on the flight home.",
+            "The team is still digesting the news."
+          ]
+        }
+      ],
+      "русский": "переваривать, переварить; усваивать, усвоить; осмысливать, переваривать (информацию)",
       "forms": "digest · digested · digested",
       "verb class": "regular",
       "third person": "digests · -ing form: digesting",
@@ -149,14 +251,73 @@
       "term": "consume",
       "ipa": "/kənˈsuːm/",
       "respell": "kun-SOOM",
-      "meaning": "To eat or drink something, especially in a measured amount. ---",
+      "meaning": "Consume has 4 distinct senses.",
       "examples": [
         "Americans consume a lot of sugar.",
         "He consumed three liters of water that day.",
-        "The label shows how many calories you are consuming."
+        "The label shows how many calories you are consuming.",
+        "The old furnace consumes a lot of gas.",
+        "The project consumed most of our budget.",
+        "Data centers are consuming more electricity every year.",
+        "A fire can consume a dry forest in hours.",
+        "Flames consumed the warehouse in twenty minutes.",
+        "The old barn was consumed by the blaze.",
+        "Guilt consumed him for years.",
+        "She was consumed by jealousy.",
+        "Work seems to consume his whole life."
       ],
-      "senses": [],
-      "русский": "потреблять, употреблять в пищу",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To eat or drink something, especially in a measured amount",
+          "body": [
+            "(потреблять, употреблять в пищу)"
+          ],
+          "examples": [
+            "Americans consume a lot of sugar.",
+            "He consumed three liters of water that day.",
+            "The label shows how many calories you are consuming."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To use up fuel, money, time, or other resources",
+          "body": [
+            "(потреблять, расходовать, израсходовать)"
+          ],
+          "examples": [
+            "The old furnace consumes a lot of gas.",
+            "The project consumed most of our budget.",
+            "Data centers are consuming more electricity every year."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To destroy something completely, said of fire",
+          "body": [
+            "(пожирать, уничтожать (об огне))"
+          ],
+          "examples": [
+            "A fire can consume a dry forest in hours.",
+            "Flames consumed the warehouse in twenty minutes.",
+            "The old barn was consumed by the blaze."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To fill someone's mind so completely that nothing else matters",
+          "body": [
+            "(поглощать, снедать (о чувстве))",
+            "---"
+          ],
+          "examples": [
+            "Guilt consumed him for years.",
+            "She was consumed by jealousy.",
+            "Work seems to consume his whole life."
+          ]
+        }
+      ],
+      "русский": "потреблять, употреблять в пищу; потреблять, расходовать, израсходовать; пожирать, уничтожать (об огне); поглощать, снедать (о чувстве)",
       "forms": "consume · consumed · consumed",
       "verb class": "regular",
       "third person": "consumes · -ing form: consuming",
@@ -201,14 +362,43 @@
       "term": "chug",
       "ipa": "/tʃʌɡ/",
       "respell": "CHUG",
-      "meaning": "To drink a whole drink quickly without stopping, in informal speech. ---",
+      "meaning": "Chug has 2 distinct senses.",
       "examples": [
         "College kids chug soda at parties.",
         "He chugged a bottle of water after practice.",
-        "They were chugging lemonade in the heat."
+        "They were chugging lemonade in the heat.",
+        "Old tractors chug up that hill all summer.",
+        "The train chugged out of the station right on time.",
+        "A little boat was chugging across the bay."
       ],
-      "senses": [],
-      "русский": "пить залпом, осушать одним махом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To drink a whole drink quickly without stopping, in informal speech",
+          "body": [
+            "(пить залпом, осушать одним махом)"
+          ],
+          "examples": [
+            "College kids chug soda at parties.",
+            "He chugged a bottle of water after practice.",
+            "They were chugging lemonade in the heat."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of a train or an engine, to move along making a heavy, repeated sound",
+          "body": [
+            "(пыхтеть, тарахтеть (о поезде, моторе))",
+            "---"
+          ],
+          "examples": [
+            "Old tractors chug up that hill all summer.",
+            "The train chugged out of the station right on time.",
+            "A little boat was chugging across the bay."
+          ]
+        }
+      ],
+      "русский": "пить залпом, осушать одним махом; пыхтеть, тарахтеть (о поезде, моторе)",
       "forms": "chug · chugged · chugged",
       "verb class": "regular",
       "third person": "chugs · -ing form: chugging",
@@ -254,14 +444,43 @@
       "term": "starve",
       "ipa": "/stɑːrv/",
       "respell": "STARV",
-      "meaning": "To suffer or die from a lack of food. ---",
+      "meaning": "Starve has 2 distinct senses.",
       "examples": [
         "I'm starving — when is dinner?",
         "Whole villages starved that winter.",
-        "He has starved himself on that diet for weeks."
+        "He has starved himself on that diet for weeks.",
+        "Budget cuts starve rural clinics of nurses.",
+        "The program was starved of funding for years.",
+        "You are starving that plant of light."
       ],
-      "senses": [],
-      "русский": "голодать, умирать с голоду",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To suffer or die from a lack of food",
+          "body": [
+            "(голодать, умирать с голоду)"
+          ],
+          "examples": [
+            "I'm starving — when is dinner?",
+            "Whole villages starved that winter.",
+            "He has starved himself on that diet for weeks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To keep a person, a place, or a thing from getting something it badly needs",
+          "body": [
+            "(лишать необходимого, недофинансировать; морить (голодом, без средств))",
+            "---"
+          ],
+          "examples": [
+            "Budget cuts starve rural clinics of nurses.",
+            "The program was starved of funding for years.",
+            "You are starving that plant of light."
+          ]
+        }
+      ],
+      "русский": "голодать, умирать с голоду; лишать необходимого, недофинансировать; морить (голодом, без средств)",
       "forms": "starve · starved · starved",
       "verb class": "regular",
       "third person": "starves · -ing form: starving",
@@ -325,14 +544,73 @@
       "term": "choke",
       "ipa": "/tʃoʊk/",
       "respell": "CHOHK",
-      "meaning": "To be unable to breathe because food or drink is blocking your throat. ---",
+      "meaning": "Choke has 4 distinct senses.",
       "examples": [
         "Cut the grapes so the baby doesn't choke.",
         "He choked on a fish bone at dinner.",
-        "She started choking and someone slapped her back."
+        "She started choking and someone slapped her back.",
+        "Loosen that collar before it chokes the dog.",
+        "The wrestler choked his opponent until the referee stepped in.",
+        "The dog had been choking itself pulling against the leash.",
+        "Great players don't choke in the last minute.",
+        "He choked and missed both free throws.",
+        "Our team has choked in the playoffs three years running.",
+        "Weeds choke the flower beds every August.",
+        "Traffic choked the tunnel for two hours.",
+        "The creek was choked with fallen branches."
       ],
-      "senses": [],
-      "русский": "давиться, подавиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To be unable to breathe because food or drink is blocking your throat",
+          "body": [
+            "(давиться, подавиться)"
+          ],
+          "examples": [
+            "Cut the grapes so the baby doesn't choke.",
+            "He choked on a fish bone at dinner.",
+            "She started choking and someone slapped her back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To squeeze someone's throat so that they cannot breathe",
+          "body": [
+            "(душить, задушить)"
+          ],
+          "examples": [
+            "Loosen that collar before it chokes the dog.",
+            "The wrestler choked his opponent until the referee stepped in.",
+            "The dog had been choking itself pulling against the leash."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To fail at the important moment because of nerves",
+          "body": [
+            "(сдавать (о нервах), оплошать в решающий момент)"
+          ],
+          "examples": [
+            "Great players don't choke in the last minute.",
+            "He choked and missed both free throws.",
+            "Our team has choked in the playoffs three years running."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To fill a space so completely that nothing can move through it",
+          "body": [
+            "(забивать, заполнять до отказа; заглушать (о сорняках))",
+            "---"
+          ],
+          "examples": [
+            "Weeds choke the flower beds every August.",
+            "Traffic choked the tunnel for two hours.",
+            "The creek was choked with fallen branches."
+          ]
+        }
+      ],
+      "русский": "давиться, подавиться; душить, задушить; сдавать (о нервах), оплошать в решающий момент; забивать, заполнять до отказа; заглушать (о сорняках)",
       "forms": "choke · choked · choked",
       "verb class": "regular",
       "third person": "chokes · -ing form: choking",
@@ -362,14 +640,43 @@
       "term": "burp",
       "ipa": "/bɜːrp/",
       "respell": "BURP",
-      "meaning": "To let air come up noisily from the stomach through the mouth. ---",
+      "meaning": "Burp has 2 distinct senses.",
       "examples": [
         "It's rude to burp at the table.",
         "The baby burped and fell asleep.",
-        "She is burping him after his bottle."
+        "She is burping him after his bottle.",
+        "Burp the baby before you put her down.",
+        "He burped the twins one after the other.",
+        "She was burping the baby when the phone rang."
       ],
-      "senses": [],
-      "русский": "рыгать, отрыгнуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To let air come up noisily from the stomach through the mouth",
+          "body": [
+            "(рыгать, отрыгнуть)"
+          ],
+          "examples": [
+            "It's rude to burp at the table.",
+            "The baby burped and fell asleep.",
+            "She is burping him after his bottle."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To pat a baby on the back so that it brings up swallowed air",
+          "body": [
+            "(помогать срыгнуть (ребёнку), держать столбиком)",
+            "---"
+          ],
+          "examples": [
+            "Burp the baby before you put her down.",
+            "He burped the twins one after the other.",
+            "She was burping the baby when the phone rang."
+          ]
+        }
+      ],
+      "русский": "рыгать, отрыгнуть; помогать срыгнуть (ребёнку), держать столбиком",
       "forms": "burp · burped · burped",
       "verb class": "regular",
       "third person": "burps · -ing form: burping",
@@ -414,14 +721,43 @@
       "term": "seat",
       "ipa": "/siːt/",
       "respell": "SEET",
-      "meaning": "To show someone to a place to sit, especially in a restaurant. ---",
+      "meaning": "Seat has 2 distinct senses.",
       "examples": [
         "The host will seat you in a moment.",
         "They seated us by the window.",
-        "Please wait to be seated."
+        "Please wait to be seated.",
+        "The hall seats about four hundred people.",
+        "The original stadium seated only twenty thousand.",
+        "Once the patio is finished, the restaurant will seat ninety."
       ],
-      "senses": [],
-      "русский": "усаживать, сажать за столик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To show someone to a place to sit, especially in a restaurant",
+          "body": [
+            "(усаживать, сажать за столик)"
+          ],
+          "examples": [
+            "The host will seat you in a moment.",
+            "They seated us by the window.",
+            "Please wait to be seated."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To have enough seats for a particular number of people",
+          "body": [
+            "(вмещать, быть рассчитанным на (число мест))",
+            "---"
+          ],
+          "examples": [
+            "The hall seats about four hundred people.",
+            "The original stadium seated only twenty thousand.",
+            "Once the patio is finished, the restaurant will seat ninety."
+          ]
+        }
+      ],
+      "русский": "усаживать, сажать за столик; вмещать, быть рассчитанным на (число мест)",
       "forms": "seat · seated · seated",
       "verb class": "regular",
       "third person": "seats · -ing form: seating",
@@ -450,14 +786,43 @@
       "term": "prepare",
       "ipa": "/prɪˈpɛr/",
       "respell": "pri-PAIR",
-      "meaning": "To get food or a meal ready. ---",
+      "meaning": "Prepare has 2 distinct senses.",
       "examples": [
         "I'll prepare the salad while you grill.",
         "She prepared dinner for twelve.",
-        "The chef is preparing a tasting menu."
+        "The chef is preparing a tasting menu.",
+        "We spent all summer preparing for the move.",
+        "The school prepared the students for the state exam.",
+        "Nothing can prepare you for news like that."
       ],
-      "senses": [],
-      "русский": "готовить, приготовить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To get food or a meal ready",
+          "body": [
+            "(готовить, приготовить)"
+          ],
+          "examples": [
+            "I'll prepare the salad while you grill.",
+            "She prepared dinner for twelve.",
+            "The chef is preparing a tasting menu."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To get yourself or someone else ready for something that is going to happen",
+          "body": [
+            "(готовиться, подготовиться; готовить, подготовить (к чему-л.))",
+            "---"
+          ],
+          "examples": [
+            "We spent all summer preparing for the move.",
+            "The school prepared the students for the state exam.",
+            "Nothing can prepare you for news like that."
+          ]
+        }
+      ],
+      "русский": "готовить, приготовить; готовиться, подготовиться; готовить, подготовить (к чему-л.)",
       "forms": "prepare · prepared · prepared",
       "verb class": "regular",
       "third person": "prepares · -ing form: preparing",
@@ -505,14 +870,43 @@
       "term": "fry",
       "ipa": "/fraɪ/",
       "respell": "FRY",
-      "meaning": "To cook food in hot oil or fat. ---",
+      "meaning": "Fry has 2 distinct senses.",
       "examples": [
         "Don't fry the fish too long.",
         "He fried onions in butter.",
-        "She is frying bacon for the sandwiches."
+        "She is frying bacon for the sandwiches.",
+        "A power surge fried the router.",
+        "Too much voltage will fry the chip.",
+        "He has fried two laptops this year."
       ],
-      "senses": [],
-      "русский": "жарить, поджарить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cook food in hot oil or fat",
+          "body": [
+            "(жарить, поджарить)"
+          ],
+          "examples": [
+            "Don't fry the fish too long.",
+            "He fried onions in butter.",
+            "She is frying bacon for the sandwiches."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To ruin an electrical device by overheating it or running too much current through it (informal)",
+          "body": [
+            "(сжигать, спалить (электронику))",
+            "---"
+          ],
+          "examples": [
+            "A power surge fried the router.",
+            "Too much voltage will fry the chip.",
+            "He has fried two laptops this year."
+          ]
+        }
+      ],
+      "русский": "жарить, поджарить; сжигать, спалить (электронику)",
       "forms": "fry · fried · fried",
       "verb class": "regular",
       "third person": "fries · -ing form: frying",
@@ -523,14 +917,43 @@
       "term": "grill",
       "ipa": "/ɡrɪl/",
       "respell": "GRIL",
-      "meaning": "To cook food on a rack over direct heat, usually outdoors. ---",
+      "meaning": "Grill has 2 distinct senses.",
       "examples": [
         "We grill burgers every Fourth of July.",
         "He grilled chicken and corn.",
-        "They were grilling in the backyard when it rained."
+        "They were grilling in the backyard when it rained.",
+        "Reporters grilled the mayor for an hour.",
+        "Senators are grilling the nominee today.",
+        "My parents grill me about my grades every Sunday."
       ],
-      "senses": [],
-      "русский": "жарить на гриле",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cook food on a rack over direct heat, usually outdoors",
+          "body": [
+            "(жарить на гриле)"
+          ],
+          "examples": [
+            "We grill burgers every Fourth of July.",
+            "He grilled chicken and corn.",
+            "They were grilling in the backyard when it rained."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To question someone long and hard",
+          "body": [
+            "(допрашивать с пристрастием, засыпать вопросами)",
+            "---"
+          ],
+          "examples": [
+            "Reporters grilled the mayor for an hour.",
+            "Senators are grilling the nominee today.",
+            "My parents grill me about my grades every Sunday."
+          ]
+        }
+      ],
+      "русский": "жарить на гриле; допрашивать с пристрастием, засыпать вопросами",
       "forms": "grill · grilled · grilled",
       "verb class": "regular",
       "third person": "grills · -ing form: grilling",
@@ -540,14 +963,43 @@
       "term": "roast",
       "ipa": "/roʊst/",
       "respell": "ROHST",
-      "meaning": "To cook meat, vegetables, or nuts in an oven or over a fire. ---",
+      "meaning": "Roast has 2 distinct senses.",
       "examples": [
         "Roast the vegetables at four hundred degrees.",
         "She roasted a chicken with lemon.",
-        "The coffee beans are roasted locally."
+        "The coffee beans are roasted locally.",
+        "His friends roast him about that haircut every single year.",
+        "The comedian roasted the mayor for twenty minutes.",
+        "She got roasted in the comments for that post."
       ],
-      "senses": [],
-      "русский": "запекать, жарить в духовке",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cook meat, vegetables, or nuts in an oven or over a fire",
+          "body": [
+            "(запекать, жарить в духовке)"
+          ],
+          "examples": [
+            "Roast the vegetables at four hundred degrees.",
+            "She roasted a chicken with lemon.",
+            "The coffee beans are roasted locally."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make fun of someone harshly, especially in front of an audience",
+          "body": [
+            "(высмеивать, высмеять; подкалывать; жёстко критиковать)",
+            "---"
+          ],
+          "examples": [
+            "His friends roast him about that haircut every single year.",
+            "The comedian roasted the mayor for twenty minutes.",
+            "She got roasted in the comments for that post."
+          ]
+        }
+      ],
+      "русский": "запекать, жарить в духовке; высмеивать, высмеять; подкалывать; жёстко критиковать",
       "forms": "roast · roasted · roasted",
       "verb class": "regular",
       "third person": "roasts · -ing form: roasting",
@@ -575,14 +1027,43 @@
       "term": "simmer",
       "ipa": "/ˈsɪmər/",
       "respell": "SIM-ur",
-      "meaning": "To cook something gently in liquid kept just below boiling. ---",
+      "meaning": "Simmer has 2 distinct senses.",
       "examples": [
         "Let the sauce simmer for an hour.",
         "She simmered the stock all afternoon.",
-        "The beans have been simmering since noon."
+        "The beans have been simmering since noon.",
+        "Resentment simmered in the office for months.",
+        "Tensions have been simmering between the two neighbors.",
+        "Anger can simmer for years before it comes out."
       ],
-      "senses": [],
-      "русский": "варить на медленном огне, томить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cook something gently in liquid kept just below boiling",
+          "body": [
+            "(варить на медленном огне, томить)"
+          ],
+          "examples": [
+            "Let the sauce simmer for an hour.",
+            "She simmered the stock all afternoon.",
+            "The beans have been simmering since noon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To exist as anger or tension that is felt but not openly expressed",
+          "body": [
+            "(назревать, тлеть (о конфликте); кипеть внутри)",
+            "---"
+          ],
+          "examples": [
+            "Resentment simmered in the office for months.",
+            "Tensions have been simmering between the two neighbors.",
+            "Anger can simmer for years before it comes out."
+          ]
+        }
+      ],
+      "русский": "варить на медленном огне, томить; назревать, тлеть (о конфликте); кипеть внутри",
       "forms": "simmer · simmered · simmered",
       "verb class": "regular",
       "third person": "simmers · -ing form: simmering",
@@ -611,14 +1092,58 @@
       "term": "poach",
       "ipa": "/poʊtʃ/",
       "respell": "POHCH",
-      "meaning": "To cook food gently in barely simmering liquid. ---",
+      "meaning": "Poach has 3 distinct senses.",
       "examples": [
         "Poach the eggs for three minutes.",
         "She poached salmon in white wine.",
-        "He likes his eggs poached, not fried."
+        "He likes his eggs poached, not fried.",
+        "Gangs poach elephants for their ivory.",
+        "He was caught poaching deer on state land.",
+        "Thousands of rhinos have been poached in the last decade.",
+        "Big firms poach engineers with huge salaries.",
+        "They poached our best designer last spring.",
+        "Half the staff has been poached by competitors."
       ],
-      "senses": [],
-      "русский": "варить без скорлупы, припускать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cook food gently in barely simmering liquid",
+          "body": [
+            "(варить без скорлупы, припускать)"
+          ],
+          "examples": [
+            "Poach the eggs for three minutes.",
+            "She poached salmon in white wine.",
+            "He likes his eggs poached, not fried."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To hunt or catch animals illegally, or on land that is not yours",
+          "body": [
+            "(браконьерствовать, незаконно охотиться)"
+          ],
+          "examples": [
+            "Gangs poach elephants for their ivory.",
+            "He was caught poaching deer on state land.",
+            "Thousands of rhinos have been poached in the last decade."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To take an employee or a customer away from a rival company",
+          "body": [
+            "(переманивать, переманить (сотрудника, клиента))",
+            "---"
+          ],
+          "examples": [
+            "Big firms poach engineers with huge salaries.",
+            "They poached our best designer last spring.",
+            "Half the staff has been poached by competitors."
+          ]
+        }
+      ],
+      "русский": "варить без скорлупы, припускать; браконьерствовать, незаконно охотиться; переманивать, переманить (сотрудника, клиента)",
       "forms": "poach · poached · poached",
       "verb class": "regular",
       "third person": "poaches · -ing form: poaching",
@@ -700,14 +1225,43 @@
       "term": "chill",
       "ipa": "/tʃɪl/",
       "respell": "CHIL",
-      "meaning": "To make food or drink cold, usually in a refrigerator. ---",
+      "meaning": "Chill has 2 distinct senses.",
       "examples": [
         "Chill the wine for an hour.",
         "She chilled the dough overnight.",
-        "The dessert is chilling in the fridge."
+        "The dessert is chilling in the fridge.",
+        "We're just going to chill at home tonight.",
+        "They chilled on the porch all afternoon.",
+        "I was chilling in my room when she called."
       ],
-      "senses": [],
-      "русский": "охлаждать, остудить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make food or drink cold, usually in a refrigerator",
+          "body": [
+            "(охлаждать, остудить)"
+          ],
+          "examples": [
+            "Chill the wine for an hour.",
+            "She chilled the dough overnight.",
+            "The dessert is chilling in the fridge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To relax and do nothing, in informal speech",
+          "body": [
+            "(отдыхать, расслабляться; бездельничать)",
+            "---"
+          ],
+          "examples": [
+            "We're just going to chill at home tonight.",
+            "They chilled on the porch all afternoon.",
+            "I was chilling in my room when she called."
+          ]
+        }
+      ],
+      "русский": "охлаждать, остудить; отдыхать, расслабляться; бездельничать",
       "forms": "chill · chilled · chilled",
       "verb class": "regular",
       "third person": "chills · -ing form: chilling",
@@ -735,14 +1289,43 @@
       "term": "defrost",
       "ipa": "/dɪˈfrɔːst/",
       "respell": "di-FRAWST",
-      "meaning": "To let frozen food warm up until it is no longer frozen. ---",
+      "meaning": "Defrost has 2 distinct senses.",
       "examples": [
         "Defrost the chicken in the fridge, not on the counter.",
         "She defrosted the shrimp under cold water.",
-        "The steaks are defrosting on a plate."
+        "The steaks are defrosting on a plate.",
+        "Defrost the windshield before you pull out of the driveway.",
+        "He defrosted the freezer over the weekend.",
+        "The rear window is still defrosting."
       ],
-      "senses": [],
-      "русский": "размораживать, разморозить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To let frozen food warm up until it is no longer frozen",
+          "body": [
+            "(размораживать, разморозить)"
+          ],
+          "examples": [
+            "Defrost the chicken in the fridge, not on the counter.",
+            "She defrosted the shrimp under cold water.",
+            "The steaks are defrosting on a plate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To clear ice or frost from a car window or from a freezer",
+          "body": [
+            "(размораживать (морозильник); оттаивать (стекло))",
+            "---"
+          ],
+          "examples": [
+            "Defrost the windshield before you pull out of the driveway.",
+            "He defrosted the freezer over the weekend.",
+            "The rear window is still defrosting."
+          ]
+        }
+      ],
+      "русский": "размораживать, разморозить; размораживать (морозильник); оттаивать (стекло)",
       "forms": "defrost · defrosted · defrosted",
       "verb class": "regular",
       "third person": "defrosts · -ing form: defrosting",
@@ -788,14 +1371,43 @@
       "term": "sprinkle",
       "ipa": "/ˈsprɪŋkəl/",
       "respell": "SPRING-kul",
-      "meaning": "To scatter small amounts of something over food. ---",
+      "meaning": "Sprinkle has 2 distinct senses.",
       "examples": [
         "Sprinkle sugar over the berries.",
         "He sprinkled cheese on the pasta.",
-        "She is sprinkling salt on the fries."
+        "She is sprinkling salt on the fries.",
+        "It may sprinkle this afternoon, but the game will go on.",
+        "It sprinkled a little overnight.",
+        "It was sprinkling, so we took an umbrella."
       ],
-      "senses": [],
-      "русский": "посыпать, присыпать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To scatter small amounts of something over food",
+          "body": [
+            "(посыпать, присыпать)"
+          ],
+          "examples": [
+            "Sprinkle sugar over the berries.",
+            "He sprinkled cheese on the pasta.",
+            "She is sprinkling salt on the fries."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To rain very lightly",
+          "body": [
+            "(накрапывать, моросить (о дожде))",
+            "---"
+          ],
+          "examples": [
+            "It may sprinkle this afternoon, but the game will go on.",
+            "It sprinkled a little overnight.",
+            "It was sprinkling, so we took an umbrella."
+          ]
+        }
+      ],
+      "русский": "посыпать, присыпать; накрапывать, моросить (о дожде)",
       "forms": "sprinkle · sprinkled · sprinkled",
       "verb class": "regular",
       "third person": "sprinkles · -ing form: sprinkling",
@@ -806,14 +1418,43 @@
       "term": "garnish",
       "ipa": "/ˈɡɑːrnɪʃ/",
       "respell": "GAR-nish",
-      "meaning": "To decorate a dish or a drink with a small piece of food. ---",
+      "meaning": "Garnish has 2 distinct senses.",
       "examples": [
         "Garnish the soup with parsley.",
         "The bartender garnished the drink with a lime wedge.",
-        "Each plate was garnished with mint."
+        "Each plate was garnished with mint.",
+        "The court garnished his wages for unpaid child support.",
+        "Creditors can garnish up to a quarter of a paycheck.",
+        "Her account had already been garnished twice."
       ],
-      "senses": [],
-      "русский": "украшать блюдо, гарнировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To decorate a dish or a drink with a small piece of food",
+          "body": [
+            "(украшать блюдо, гарнировать)"
+          ],
+          "examples": [
+            "Garnish the soup with parsley.",
+            "The bartender garnished the drink with a lime wedge.",
+            "Each plate was garnished with mint."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take money out of someone's pay or bank account by court order to settle a debt",
+          "body": [
+            "(удерживать (часть зарплаты) в счёт долга, налагать арест (на счёт))",
+            "---"
+          ],
+          "examples": [
+            "The court garnished his wages for unpaid child support.",
+            "Creditors can garnish up to a quarter of a paycheck.",
+            "Her account had already been garnished twice."
+          ]
+        }
+      ],
+      "русский": "украшать блюдо, гарнировать; удерживать (часть зарплаты) в счёт долга, налагать арест (на счёт)",
       "forms": "garnish · garnished · garnished",
       "verb class": "regular",
       "third person": "garnishes · -ing form: garnishing",
@@ -824,14 +1465,43 @@
       "term": "drizzle",
       "ipa": "/ˈdrɪzəl/",
       "respell": "DRIZ-ul",
-      "meaning": "To pour a thin stream of liquid slowly over food. ---",
+      "meaning": "Drizzle has 2 distinct senses.",
       "examples": [
         "Drizzle olive oil over the salad.",
         "She drizzled honey on the yogurt.",
-        "He is drizzling melted chocolate on the cake."
+        "He is drizzling melted chocolate on the cake.",
+        "It drizzled off and on all morning.",
+        "If it drizzles, the game goes on anyway.",
+        "It was drizzling when we left the stadium."
       ],
-      "senses": [],
-      "русский": "поливать тонкой струйкой, сбрызгивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pour a thin stream of liquid slowly over food",
+          "body": [
+            "(поливать тонкой струйкой, сбрызгивать)"
+          ],
+          "examples": [
+            "Drizzle olive oil over the salad.",
+            "She drizzled honey on the yogurt.",
+            "He is drizzling melted chocolate on the cake."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "For light rain to fall in very fine drops",
+          "body": [
+            "(моросить)",
+            "---"
+          ],
+          "examples": [
+            "It drizzled off and on all morning.",
+            "If it drizzles, the game goes on anyway.",
+            "It was drizzling when we left the stadium."
+          ]
+        }
+      ],
+      "русский": "поливать тонкой струйкой, сбрызгивать; моросить",
       "forms": "drizzle · drizzled · drizzled",
       "verb class": "regular",
       "third person": "drizzles · -ing form: drizzling",
@@ -841,14 +1511,43 @@
       "term": "top",
       "ipa": "/tɑːp/",
       "respell": "TAHP",
-      "meaning": "To put something on the surface of a dish as a finishing layer. ---",
+      "meaning": "Top has 2 distinct senses.",
       "examples": [
         "Top the pie with whipped cream.",
         "They topped the burger with a fried egg.",
-        "The sundae came topped with nuts."
+        "The sundae came topped with nuts.",
+        "No one expected the sequel to top the original.",
+        "Sales topped a million dollars last quarter.",
+        "The song has topped the charts for six straight weeks."
       ],
-      "senses": [],
-      "русский": "покрывать сверху, класть сверху",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put something on the surface of a dish as a finishing layer",
+          "body": [
+            "(покрывать сверху, класть сверху)"
+          ],
+          "examples": [
+            "Top the pie with whipped cream.",
+            "They topped the burger with a fried egg.",
+            "The sundae came topped with nuts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be greater than an amount, or to stand in first place on a list",
+          "body": [
+            "(превышать, превысить; возглавлять (список))",
+            "---"
+          ],
+          "examples": [
+            "No one expected the sequel to top the original.",
+            "Sales topped a million dollars last quarter.",
+            "The song has topped the charts for six straight weeks."
+          ]
+        }
+      ],
+      "русский": "покрывать сверху, класть сверху; превышать, превысить; возглавлять (список)",
       "forms": "top · topped · topped",
       "verb class": "regular",
       "third person": "tops · -ing form: topping",
@@ -914,14 +1613,43 @@
       "term": "peel",
       "ipa": "/piːl/",
       "respell": "PEEL",
-      "meaning": "To remove the skin from a fruit or vegetable. ---",
+      "meaning": "Peel has 2 distinct senses.",
       "examples": [
         "Peel the carrots before you grate them.",
         "He peeled five potatoes.",
-        "She is peeling an orange for the kids."
+        "She is peeling an orange for the kids.",
+        "The paint peels every summer.",
+        "My shoulders peeled after a day at the beach.",
+        "The wallpaper is peeling near the ceiling."
       ],
-      "senses": [],
-      "русский": "чистить, очищать от кожуры",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To remove the skin from a fruit or vegetable",
+          "body": [
+            "(чистить, очищать от кожуры)"
+          ],
+          "examples": [
+            "Peel the carrots before you grate them.",
+            "He peeled five potatoes.",
+            "She is peeling an orange for the kids."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "For paint, skin, or a surface layer to come away in thin pieces",
+          "body": [
+            "(облезать, облезть; шелушиться; отслаиваться, отслоиться)",
+            "---"
+          ],
+          "examples": [
+            "The paint peels every summer.",
+            "My shoulders peeled after a day at the beach.",
+            "The wallpaper is peeling near the ceiling."
+          ]
+        }
+      ],
+      "русский": "чистить, очищать от кожуры; облезать, облезть; шелушиться; отслаиваться, отслоиться",
       "forms": "peel · peeled · peeled",
       "verb class": "regular",
       "third person": "peels · -ing form: peeling",
@@ -932,14 +1660,43 @@
       "term": "grate",
       "ipa": "/ɡreɪt/",
       "respell": "GRAYT",
-      "meaning": "To rub food against a rough surface so it breaks into small shreds. ---",
+      "meaning": "Grate has 2 distinct senses.",
       "examples": [
         "Grate some parmesan over the pasta.",
         "She grated a whole block of cheese.",
-        "He is grating carrots for the salad."
+        "He is grating carrots for the salad.",
+        "The heavy door grated as it swung open.",
+        "His laugh grates after about an hour.",
+        "Metal grating against metal woke the whole street."
       ],
-      "senses": [],
-      "русский": "тереть на тёрке, натирать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To rub food against a rough surface so it breaks into small shreds",
+          "body": [
+            "(тереть на тёрке, натирать)"
+          ],
+          "examples": [
+            "Grate some parmesan over the pasta.",
+            "She grated a whole block of cheese.",
+            "He is grating carrots for the salad."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To rub against something with a harsh scraping sound, or to be irritating to hear",
+          "body": [
+            "(скрежетать, скрипеть; раздражать (слух))",
+            "---"
+          ],
+          "examples": [
+            "The heavy door grated as it swung open.",
+            "His laugh grates after about an hour.",
+            "Metal grating against metal woke the whole street."
+          ]
+        }
+      ],
+      "русский": "тереть на тёрке, натирать; скрежетать, скрипеть; раздражать (слух)",
       "forms": "grate · grated · grated",
       "verb class": "regular",
       "third person": "grates · -ing form: grating",
@@ -969,14 +1726,43 @@
       "term": "whip",
       "ipa": "/wɪp/",
       "respell": "WIP",
-      "meaning": "To beat cream or eggs quickly until they are light and thick. ---",
+      "meaning": "Whip has 2 distinct senses.",
       "examples": [
         "Whip the cream until it holds peaks.",
         "She whipped the egg whites by hand.",
-        "He is whipping butter and sugar together."
+        "He is whipping butter and sugar together.",
+        "He would never whip a horse to make it run faster.",
+        "The rider whipped the horse's flank.",
+        "Rain was whipping against the windows all night."
       ],
-      "senses": [],
-      "русский": "взбивать, взбить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To beat cream or eggs quickly until they are light and thick",
+          "body": [
+            "(взбивать, взбить)"
+          ],
+          "examples": [
+            "Whip the cream until it holds peaks.",
+            "She whipped the egg whites by hand.",
+            "He is whipping butter and sugar together."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To strike a person or an animal with a whip, or to lash at something the way a whip does",
+          "body": [
+            "(хлестать, отхлестать; стегать, стегнуть)",
+            "---"
+          ],
+          "examples": [
+            "He would never whip a horse to make it run faster.",
+            "The rider whipped the horse's flank.",
+            "Rain was whipping against the windows all night."
+          ]
+        }
+      ],
+      "русский": "взбивать, взбить; хлестать, отхлестать; стегать, стегнуть",
       "forms": "whip · whipped · whipped",
       "verb class": "regular",
       "third person": "whips · -ing form: whipping",
@@ -988,14 +1774,43 @@
       "term": "whisk",
       "ipa": "/wɪsk/",
       "respell": "WISK",
-      "meaning": "To mix or beat ingredients rapidly with a wire tool or a fork. ---",
+      "meaning": "Whisk has 2 distinct senses.",
       "examples": [
         "Whisk the eggs with a little milk.",
         "He whisked the sauce until it was smooth.",
-        "She is whisking batter for pancakes."
+        "She is whisking batter for pancakes.",
+        "A car will whisk you from the airport to the hotel.",
+        "Guards whisked the senator into a waiting van.",
+        "She was whisked to the hospital in an ambulance."
       ],
-      "senses": [],
-      "русский": "взбивать венчиком, размешивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To mix or beat ingredients rapidly with a wire tool or a fork",
+          "body": [
+            "(взбивать венчиком, размешивать)"
+          ],
+          "examples": [
+            "Whisk the eggs with a little milk.",
+            "He whisked the sauce until it was smooth.",
+            "She is whisking batter for pancakes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take someone or something somewhere very quickly",
+          "body": [
+            "(быстро увозить, умчать; стремительно уводить)",
+            "---"
+          ],
+          "examples": [
+            "A car will whisk you from the airport to the hotel.",
+            "Guards whisked the senator into a waiting van.",
+            "She was whisked to the hospital in an ambulance."
+          ]
+        }
+      ],
+      "русский": "взбивать венчиком, размешивать; быстро увозить, умчать; стремительно уводить",
       "forms": "whisk · whisked · whisked",
       "verb class": "regular",
       "third person": "whisks · -ing form: whisking",
@@ -1006,14 +1821,43 @@
       "term": "pour",
       "ipa": "/pɔːr/",
       "respell": "POR",
-      "meaning": "To make a liquid flow from one container into another. ---",
+      "meaning": "Pour has 2 distinct senses.",
       "examples": [
         "Pour the milk slowly.",
         "He poured everyone a glass of wine.",
-        "She is pouring coffee for the table."
+        "She is pouring coffee for the table.",
+        "It poured all weekend.",
+        "Don't go out right now — it's pouring.",
+        "If it pours again tonight, the game is off."
       ],
-      "senses": [],
-      "русский": "наливать, налить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a liquid flow from one container into another",
+          "body": [
+            "(наливать, налить)"
+          ],
+          "examples": [
+            "Pour the milk slowly.",
+            "He poured everyone a glass of wine.",
+            "She is pouring coffee for the table."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To rain very hard",
+          "body": [
+            "(лить как из ведра, хлестать (о дожде))",
+            "---"
+          ],
+          "examples": [
+            "It poured all weekend.",
+            "Don't go out right now — it's pouring.",
+            "If it pours again tonight, the game is off."
+          ]
+        }
+      ],
+      "русский": "наливать, налить; лить как из ведра, хлестать (о дожде)",
       "forms": "pour · poured · poured",
       "verb class": "regular",
       "third person": "pours · -ing form: pouring",
@@ -1079,14 +1923,43 @@
       "term": "dilute",
       "ipa": "/daɪˈluːt/",
       "respell": "dy-LOOT",
-      "meaning": "To make a liquid weaker by adding water to it. ---",
+      "meaning": "Dilute has 2 distinct senses.",
       "examples": [
         "Dilute the syrup with cold water.",
         "He diluted the juice for the children.",
-        "The soup tasted diluted after all that broth."
+        "The soup tasted diluted after all that broth.",
+        "Too many exceptions dilute the rule.",
+        "The new shares diluted his stake in the company.",
+        "The message has been diluted by endless rewrites."
       ],
-      "senses": [],
-      "русский": "разбавлять, разбавить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make a liquid weaker by adding water to it",
+          "body": [
+            "(разбавлять, разбавить)"
+          ],
+          "examples": [
+            "Dilute the syrup with cold water.",
+            "He diluted the juice for the children.",
+            "The soup tasted diluted after all that broth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To weaken the strength or effect of something by spreading it out or adding to it",
+          "body": [
+            "(ослаблять, ослабить; размывать (эффект, долю))",
+            "---"
+          ],
+          "examples": [
+            "Too many exceptions dilute the rule.",
+            "The new shares diluted his stake in the company.",
+            "The message has been diluted by endless rewrites."
+          ]
+        }
+      ],
+      "русский": "разбавлять, разбавить; ослаблять, ослабить; размывать (эффект, долю)",
       "forms": "dilute · diluted · diluted",
       "verb class": "regular",
       "third person": "dilutes · -ing form: diluting",
@@ -1096,14 +1969,43 @@
       "term": "soak",
       "ipa": "/soʊk/",
       "respell": "SOHK",
-      "meaning": "To leave food or dishes in liquid for a long time. ---",
+      "meaning": "Soak has 2 distinct senses.",
       "examples": [
         "Soak the beans overnight.",
         "She soaked the rice for twenty minutes.",
-        "The pans are soaking in the sink."
+        "The pans are soaking in the sink.",
+        "The rain soaked us on the way to the car.",
+        "A broken pipe was soaking the carpet.",
+        "One more wave like that will soak everything in the boat."
       ],
-      "senses": [],
-      "русский": "замачивать, вымачивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To leave food or dishes in liquid for a long time",
+          "body": [
+            "(замачивать, вымачивать)"
+          ],
+          "examples": [
+            "Soak the beans overnight.",
+            "She soaked the rice for twenty minutes.",
+            "The pans are soaking in the sink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make something or someone completely wet",
+          "body": [
+            "(промачивать насквозь, промочить; вымочить)",
+            "---"
+          ],
+          "examples": [
+            "The rain soaked us on the way to the car.",
+            "A broken pipe was soaking the carpet.",
+            "One more wave like that will soak everything in the boat."
+          ]
+        }
+      ],
+      "русский": "замачивать, вымачивать; промачивать насквозь, промочить; вымочить",
       "forms": "soak · soaked · soaked",
       "verb class": "regular",
       "third person": "soaks · -ing form: soaking",
@@ -1133,14 +2035,43 @@
       "term": "wash",
       "ipa": "/wɑːʃ/",
       "respell": "WAHSH",
-      "meaning": "To clean something with water, usually with soap. ---",
+      "meaning": "Wash has 2 distinct senses.",
       "examples": [
         "Wash your hands before you cook.",
         "He washed the dishes after dinner.",
-        "She is washing grapes at the sink."
+        "She is washing grapes at the sink.",
+        "Bottles and driftwood wash onto this beach after every storm.",
+        "The flood washed topsoil into the creek.",
+        "A dead whale had washed ashore overnight."
       ],
-      "senses": [],
-      "русский": "мыть, вымыть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To clean something with water, usually with soap",
+          "body": [
+            "(мыть, вымыть)"
+          ],
+          "examples": [
+            "Wash your hands before you cook.",
+            "He washed the dishes after dinner.",
+            "She is washing grapes at the sink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "For moving water to carry something to a place",
+          "body": [
+            "(выносить (водой), прибивать к берегу; смывать, смыть)",
+            "---"
+          ],
+          "examples": [
+            "Bottles and driftwood wash onto this beach after every storm.",
+            "The flood washed topsoil into the creek.",
+            "A dead whale had washed ashore overnight."
+          ]
+        }
+      ],
+      "русский": "мыть, вымыть; выносить (водой), прибивать к берегу; смывать, смыть",
       "forms": "wash · washed · washed",
       "verb class": "regular",
       "third person": "washes · -ing form: washing",
@@ -1152,14 +2083,73 @@
       "term": "clear",
       "ipa": "/klɪr/",
       "respell": "KLEER",
-      "meaning": "To take dishes and food off a table. ---",
+      "meaning": "Clear has 4 distinct senses.",
       "examples": [
         "Let's clear the table before dessert.",
         "She cleared the plates while we talked.",
-        "He is clearing the last of the glasses."
+        "He is clearing the last of the glasses.",
+        "The sky usually clears by noon here.",
+        "The fog cleared just before we landed.",
+        "The storm has cleared, and the stars are out.",
+        "New evidence may clear him.",
+        "The jury cleared her of all charges.",
+        "He was cleared after two years in prison.",
+        "A doctor has to clear you before you can play again.",
+        "The tower cleared us for takeoff.",
+        "The drug has not been cleared for children."
       ],
-      "senses": [],
-      "русский": "убирать (со стола), освобождать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take dishes and food off a table",
+          "body": [
+            "(убирать (со стола), освобождать)"
+          ],
+          "examples": [
+            "Let's clear the table before dessert.",
+            "She cleared the plates while we talked.",
+            "He is clearing the last of the glasses."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Of the sky or the weather, to become bright and free of clouds, fog, or rain",
+          "body": [
+            "(проясняться, проясниться; расходиться (о тучах, тумане))"
+          ],
+          "examples": [
+            "The sky usually clears by noon here.",
+            "The fog cleared just before we landed.",
+            "The storm has cleared, and the stars are out."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To prove that someone is not guilty",
+          "body": [
+            "(снимать обвинения, оправдывать, оправдать)"
+          ],
+          "examples": [
+            "New evidence may clear him.",
+            "The jury cleared her of all charges.",
+            "He was cleared after two years in prison."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To give official permission or approval for something",
+          "body": [
+            "(давать разрешение, допускать; утверждать, санкционировать)",
+            "---"
+          ],
+          "examples": [
+            "A doctor has to clear you before you can play again.",
+            "The tower cleared us for takeoff.",
+            "The drug has not been cleared for children."
+          ]
+        }
+      ],
+      "русский": "убирать (со стола), освобождать; проясняться, проясниться; расходиться (о тучах, тумане); снимать обвинения, оправдывать, оправдать; давать разрешение, допускать; утверждать, санкционировать",
       "forms": "clear · cleared · cleared",
       "verb class": "regular",
       "third person": "clears · -ing form: clearing",
@@ -1188,14 +2178,43 @@
       "term": "wipe",
       "ipa": "/waɪp/",
       "respell": "WYPE",
-      "meaning": "To rub a surface with a cloth to clean or dry it. ---",
+      "meaning": "Wipe has 2 distinct senses.",
       "examples": [
         "Wipe the table, please.",
         "He wiped his mouth with a napkin.",
-        "She is wiping down the counter."
+        "She is wiping down the counter.",
+        "Remember to wipe the phone before you sell it.",
+        "The update wiped all my saved photos.",
+        "The laptop had already been wiped when police got it."
       ],
-      "senses": [],
-      "русский": "вытирать, протирать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To rub a surface with a cloth to clean or dry it",
+          "body": [
+            "(вытирать, протирать)"
+          ],
+          "examples": [
+            "Wipe the table, please.",
+            "He wiped his mouth with a napkin.",
+            "She is wiping down the counter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To erase everything stored on a phone, a drive, or a computer",
+          "body": [
+            "(стирать, стереть (данные); очищать (память устройства))",
+            "---"
+          ],
+          "examples": [
+            "Remember to wipe the phone before you sell it.",
+            "The update wiped all my saved photos.",
+            "The laptop had already been wiped when police got it."
+          ]
+        }
+      ],
+      "русский": "вытирать, протирать; стирать, стереть (данные); очищать (память устройства)",
       "forms": "wipe · wiped · wiped",
       "verb class": "regular",
       "third person": "wipes · -ing form: wiping",
@@ -1207,14 +2226,43 @@
       "term": "scrub",
       "ipa": "/skrʌb/",
       "respell": "SKRUB",
-      "meaning": "To rub something hard with a brush or cloth to clean it. ---",
+      "meaning": "Scrub has 2 distinct senses.",
       "examples": [
         "Scrub the potatoes under cold water.",
         "He scrubbed the burnt pan for ten minutes.",
-        "She is scrubbing the cutting board."
+        "She is scrubbing the cutting board.",
+        "They may scrub the launch if the wind picks up.",
+        "The airline scrubbed the flight because of ice on the wings.",
+        "The mission was scrubbed twice in one week."
       ],
-      "senses": [],
-      "русский": "тереть, оттирать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To rub something hard with a brush or cloth to clean it",
+          "body": [
+            "(тереть, оттирать)"
+          ],
+          "examples": [
+            "Scrub the potatoes under cold water.",
+            "He scrubbed the burnt pan for ten minutes.",
+            "She is scrubbing the cutting board."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To cancel something that was planned, especially at the last minute",
+          "body": [
+            "(отменять, отменить (запуск, план))",
+            "---"
+          ],
+          "examples": [
+            "They may scrub the launch if the wind picks up.",
+            "The airline scrubbed the flight because of ice on the wings.",
+            "The mission was scrubbed twice in one week."
+          ]
+        }
+      ],
+      "русский": "тереть, оттирать; отменять, отменить (запуск, план)",
       "forms": "scrub · scrubbed · scrubbed",
       "verb class": "regular",
       "third person": "scrubs · -ing form: scrubbing",
@@ -1244,14 +2292,58 @@
       "term": "fill",
       "ipa": "/fɪl/",
       "respell": "FIL",
-      "meaning": "To put enough of something into a container to make it full. ---",
+      "meaning": "Fill has 3 distinct senses.",
       "examples": [
         "Fill the pot with cold water.",
         "She filled our glasses to the top.",
-        "He is filling the kettle."
+        "He is filling the kettle.",
+        "They still haven't filled the manager's job.",
+        "The position was filled internally.",
+        "We're filling two openings this month.",
+        "The pharmacy can fill your prescription in ten minutes.",
+        "They filled the order the same day.",
+        "That prescription has already been filled once."
       ],
-      "senses": [],
-      "русский": "наполнять, наполнить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put enough of something into a container to make it full",
+          "body": [
+            "(наполнять, наполнить)"
+          ],
+          "examples": [
+            "Fill the pot with cold water.",
+            "She filled our glasses to the top.",
+            "He is filling the kettle."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put someone into a job or a position that is empty",
+          "body": [
+            "(заполнять (вакансию), занимать (должность), закрывать (позицию))"
+          ],
+          "examples": [
+            "They still haven't filled the manager's job.",
+            "The position was filled internally.",
+            "We're filling two openings this month."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To supply what a customer has ordered or a doctor has prescribed",
+          "body": [
+            "(выполнять, выполнить (заказ); отпускать (лекарство по рецепту))",
+            "---"
+          ],
+          "examples": [
+            "The pharmacy can fill your prescription in ten minutes.",
+            "They filled the order the same day.",
+            "That prescription has already been filled once."
+          ]
+        }
+      ],
+      "русский": "наполнять, наполнить; заполнять (вакансию), занимать (должность), закрывать (позицию); выполнять, выполнить (заказ); отпускать (лекарство по рецепту)",
       "forms": "fill · filled · filled",
       "verb class": "regular",
       "third person": "fills · -ing form: filling",
@@ -1281,14 +2373,43 @@
       "term": "suck",
       "ipa": "/sʌk/",
       "respell": "SUK",
-      "meaning": "To draw liquid or a piece of food into your mouth with your lips. ---",
+      "meaning": "Suck has 2 distinct senses.",
       "examples": [
         "Don't suck the juice straight out of the box.",
         "She sucked her soda through a straw.",
-        "He was sucking on a cough drop."
+        "He was sucking on a cough drop.",
+        "This weather sucks.",
+        "The movie sucked, but the popcorn was good.",
+        "Losing your wallet on the first day of vacation really sucks."
       ],
-      "senses": [],
-      "русский": "сосать, посасывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To draw liquid or a piece of food into your mouth with your lips",
+          "body": [
+            "(сосать, посасывать)"
+          ],
+          "examples": [
+            "Don't suck the juice straight out of the box.",
+            "She sucked her soda through a straw.",
+            "He was sucking on a cough drop."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be very bad or very unpleasant, in informal speech",
+          "body": [
+            "(быть отстойным, никуда не годиться; «отстой»)",
+            "---"
+          ],
+          "examples": [
+            "This weather sucks.",
+            "The movie sucked, but the popcorn was good.",
+            "Losing your wallet on the first day of vacation really sucks."
+          ]
+        }
+      ],
+      "русский": "сосать, посасывать; быть отстойным, никуда не годиться; «отстой»",
       "forms": "suck · sucked · sucked",
       "verb class": "regular",
       "third person": "sucks · -ing form: sucking",
@@ -1300,14 +2421,58 @@
       "term": "flip",
       "ipa": "/flɪp/",
       "respell": "FLIP",
-      "meaning": "To turn food over quickly so that the other side cooks. ---",
+      "meaning": "Flip has 3 distinct senses.",
       "examples": [
         "Flip the pancakes when they bubble.",
         "He flipped the burgers one by one.",
-        "She is flipping an omelet in the pan."
+        "She is flipping an omelet in the pan.",
+        "Let's flip a coin for it.",
+        "The referee flipped the coin at midfield.",
+        "They're flipping a coin to see who goes first.",
+        "They flip houses for a living.",
+        "He flipped the tickets for twice what he paid.",
+        "She's been flipping thrift-store furniture on the side."
       ],
-      "senses": [],
-      "русский": "переворачивать, перевернуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To turn food over quickly so that the other side cooks",
+          "body": [
+            "(переворачивать, перевернуть)"
+          ],
+          "examples": [
+            "Flip the pancakes when they bubble.",
+            "He flipped the burgers one by one.",
+            "She is flipping an omelet in the pan."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To toss a coin in the air in order to decide something by chance",
+          "body": [
+            "(подбрасывать монету, бросать жребий)"
+          ],
+          "examples": [
+            "Let's flip a coin for it.",
+            "The referee flipped the coin at midfield.",
+            "They're flipping a coin to see who goes first."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To buy something cheaply and resell it quickly for a profit",
+          "body": [
+            "(перепродавать с выгодой, перепродать (быстро))",
+            "---"
+          ],
+          "examples": [
+            "They flip houses for a living.",
+            "He flipped the tickets for twice what he paid.",
+            "She's been flipping thrift-store furniture on the side."
+          ]
+        }
+      ],
+      "русский": "переворачивать, перевернуть; подбрасывать монету, бросать жребий; перепродавать с выгодой, перепродать (быстро)",
       "forms": "flip · flipped · flipped",
       "verb class": "regular",
       "third person": "flips · -ing form: flipping",
@@ -1354,14 +2519,43 @@
       "term": "cool",
       "ipa": "/kuːl/",
       "respell": "KOOL",
-      "meaning": "To become less hot, or to make something less hot. ---",
+      "meaning": "Cool has 2 distinct senses.",
       "examples": [
         "Let the pie cool before you cut it.",
         "The soup cooled while we talked.",
-        "The cookies are cooling on a rack."
+        "The cookies are cooling on a rack.",
+        "Relations between the two countries have cooled.",
+        "His interest in the project began to cool after a month.",
+        "With demand cooling, the store cut its prices."
       ],
-      "senses": [],
-      "русский": "остывать, охлаждать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To become less hot, or to make something less hot",
+          "body": [
+            "(остывать, охлаждать)"
+          ],
+          "examples": [
+            "Let the pie cool before you cut it.",
+            "The soup cooled while we talked.",
+            "The cookies are cooling on a rack."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To become less friendly or less enthusiastic",
+          "body": [
+            "(охладевать, остывать (о чувствах), поостыть)",
+            "---"
+          ],
+          "examples": [
+            "Relations between the two countries have cooled.",
+            "His interest in the project began to cool after a month.",
+            "With demand cooling, the store cut its prices."
+          ]
+        }
+      ],
+      "русский": "остывать, охлаждать; охладевать, остывать (о чувствах), поостыть",
       "forms": "cool · cooled · cooled",
       "verb class": "regular",
       "third person": "cools · -ing form: cooling",
@@ -1390,14 +2584,43 @@
       "term": "sweeten",
       "ipa": "/ˈswiːtən/",
       "respell": "SWEE-tun",
-      "meaning": "To make food or drink taste sweeter. ---",
+      "meaning": "Sweeten has 2 distinct senses.",
       "examples": [
         "Sweeten the tea with honey instead of sugar.",
         "She sweetened the sauce with a little maple syrup.",
-        "This yogurt is sweetened with fruit."
+        "This yogurt is sweetened with fruit.",
+        "They sweetened the offer with two extra vacation days.",
+        "The city may sweeten the deal to keep the factory.",
+        "The contract was sweetened at the last minute."
       ],
-      "senses": [],
-      "русский": "подслащивать, подсластить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make food or drink taste sweeter",
+          "body": [
+            "(подслащивать, подсластить)"
+          ],
+          "examples": [
+            "Sweeten the tea with honey instead of sugar.",
+            "She sweetened the sauce with a little maple syrup.",
+            "This yogurt is sweetened with fruit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make an offer or a deal more attractive",
+          "body": [
+            "(делать привлекательнее (предложение), улучшать условия)",
+            "---"
+          ],
+          "examples": [
+            "They sweetened the offer with two extra vacation days.",
+            "The city may sweeten the deal to keep the factory.",
+            "The contract was sweetened at the last minute."
+          ]
+        }
+      ],
+      "русский": "подслащивать, подсластить; делать привлекательнее (предложение), улучшать условия",
       "forms": "sweeten · sweetened · sweetened",
       "verb class": "regular",
       "third person": "sweetens · -ing form: sweetening",

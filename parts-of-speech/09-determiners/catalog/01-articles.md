@@ -25,52 +25,52 @@ Articles are the most frequent words in English and the hardest for anyone whose
 
 Marks a singular countable noun as one of a class, without claiming the listener can pick out which one.
 
-**1. First mention.** Introducing something the listener has not met yet. The next mention takes *the*.
+**1. First mention.** (первое упоминание — слушатель ещё не знает, о чём речь) Introducing something the listener has not met yet. The next mention takes *the*.
 
 1. *A* package came for you while you were out.
 2. She's dating *a* guy from her old firm.
 
-**2. Classifying.** Jobs, roles, memberships, and types. English requires the article here even where most other languages drop it: *She's engineer* is one of the commonest errors in the file.
+**2. Classifying.** (называет класс: профессию, роль, тип — по-русски артикля нет) Jobs, roles, memberships, and types. English requires the article here even where most other languages drop it: *She's engineer* is one of the commonest errors in the file.
 
 3. He's *a* paramedic in Cuyahoga County.
 4. That's *a* sedan, not *a* hatchback.
 
-**3. Any representative member.** The generic of definitions and rules, true of each member one at a time. See [Three ways to be generic](#three-ways-to-be-generic).
+**3. Any representative member.** (любой представитель класса — в определениях и правилах) The generic of definitions and rules, true of each member one at a time. See [Three ways to be generic](#three-ways-to-be-generic).
 
 5. *A* thermometer measures temperature.
 6. *A* dog will eat until it's sick.
 
-**4. Meaning "one."** Before *hundred, thousand, million, dozen, quarter, half* and in measurements of time and distance.
+**4. Meaning "one."** (в значении «один» — перед hundred, thousand, half, dozen и мерами) Before *hundred, thousand, million, dozen, quarter, half* and in measurements of time and distance.
 
 7. I'll be back in *an* hour and *a* half.
 8. There were *a* hundred people crammed into that room.
 
-**5. Meaning "per."** Rates and frequencies — treated separately at [a (per)](#a-per).
+**5. Meaning "per."** (в значении «за, в» — ставка: eighteen dollars a day «восемнадцать долларов в день») Rates and frequencies — treated separately at [a (per)](#a-per).
 
 9. The garage charges eighteen dollars *a* day.
 
-**6. A certain, unnamed one.** Before a personal name, *a* means the speaker does not know the person or expects the listener not to. The fuller frame *a certain Ms. Okonjo*, where the article is joined by a word that marks the person as known to the speaker and withheld from the listener, is a determiner in its own right and has an entry of its own at [a certain](#a-certain); the *certain* half is at [certain](09-predeterminers-postdeterminers.md#certain).
+**6. A certain, unnamed one.** (некий, некто — перед именем, которое слушателю незнакомо) Before a personal name, *a* means the speaker does not know the person or expects the listener not to. The fuller frame *a certain Ms. Okonjo*, where the article is joined by a word that marks the person as known to the speaker and withheld from the listener, is a determiner in its own right and has an entry of its own at [a certain](#a-certain); the *certain* half is at [certain](09-predeterminers-postdeterminers.md#certain).
 
 10. *A* Ms. Okonjo called about the lease.
 
-**7. A work by, or one of a family or type.** With a proper name reinterpreted as a common noun.
+**7. A work by, or one of a family or type.** (работа такого-то; один из семьи или типа — имя собственное как нарицательное) With a proper name reinterpreted as a common noun.
 
 11. They have *a* Rothko in the lobby and nobody looks at it.
 12. He's no Einstein, but he keeps the books straight.
 
-**8. After a predeterminer or a shifted adjective.** *Such, what, quite, rather, half, many* stand in front of *a*, and after *so, too, as, how,* and *that* the adjective jumps in front of it as well. This construction is only possible with a singular countable noun.
+**8. After a predeterminer or a shifted adjective.** (после such, what, quite, rather, half, many и после so/too/as/how + прилагательное) *Such, what, quite, rather, half, many* stand in front of *a*, and after *so, too, as, how,* and *that* the adjective jumps in front of it as well. This construction is only possible with a singular countable noun.
 
 13. It was *a* long meeting — no, *such* *a* long meeting that two people left. *(such a)*
 14. That's too big *a* risk for the money involved.
 15. I've never seen *quite* *a* mess like that kitchen.
 
-**9. In fixed quantity phrases.** *A few, a little, a lot of, a couple of, a great deal of, a number of, a bit of* are frozen units in which *a* is no longer doing its own work.
+**9. In fixed quantity phrases.** (в устойчивых количественных оборотах: a few, a little, a lot of, a couple of) *A few, a little, a lot of, a couple of, a great deal of, a number of, a bit of* are frozen units in which *a* is no longer doing its own work.
 
 16. Give it *a* little time and *a* lot of water.
 17. *A* couple of days later the check cleared.
 18. There were *a* number of complaints about the noise.
 
-**10. In questions and negatives.** Neither one touches *a/an* — unlike the [zero article](#zero-article-ø), which trades places with *any*. What does happen is that a negated *a* often gives way to *no*: *There isn't a problem* and *There's no problem* say the same thing, the second more flatly.
+**10. In questions and negatives.** (в вопросах и отрицаниях — a не меняется; отрицаемое a часто уступает место no) Neither one touches *a/an* — unlike the [zero article](#zero-article-ø), which trades places with *any*. What does happen is that a negated *a* often gives way to *no*: *There isn't a problem* and *There's no problem* say the same thing, the second more flatly.
 
 19. Do you have *a* pen I can borrow for one second?
 20. That isn't *a* reason, it's *an* excuse.
@@ -111,28 +111,28 @@ States a rate: so much of one thing for every one of another.
 
 Marks a singular noun as one the speaker could name and deliberately does not — indefinite to the listener, definite to the speaker.
 
-**1. One particular thing, withheld.** The core use. The speaker has a specific referent in mind and declines to identify it.
+**1. One particular thing, withheld.** (некий, один определённый — говорящий знает какой и намеренно не называет) The core use. The speaker has a specific referent in mind and declines to identify it.
 
 1. She had *a certain* restaurant in mind but wouldn't say which one.
 2. There's *a certain* member of this committee who has never once read the packet.
 
-**2. Before a personal name.** The fuller version of the plain *a* at [a](#a) sense 6: the name is supplied, and the frame says the listener is not expected to know the person. This is the shape a complaint, a report, or a piece of gossip reaches for.
+**2. Before a personal name.** (некий, некто — перед именем: a certain Mr. Kowalski «некий мистер Ковальский») The fuller version of the plain *a* at [a](#a) sense 6: the name is supplied, and the frame says the listener is not expected to know the person. This is the shape a complaint, a report, or a piece of gossip reaches for.
 
 3. *A certain* Mr. Kowalski has been calling the front desk since eight this morning.
 4. The complaint was filed by *a certain* Dr. Reyes, who then declined to be interviewed.
 
-**3. A quality that can be felt but not named.** With an abstract uncountable noun, where the article hedges instead of counting. This is the sense that keeps the frame alive in reviews, obituaries, and literary prose.
+**3. A quality that can be felt but not named.** (некоторый, какой-то — перед абстрактным неисчисляемым: a certain charm «некое обаяние») With an abstract uncountable noun, where the article hedges instead of counting. This is the sense that keeps the frame alive in reviews, obituaries, and literary prose.
 
 5. The old station has *a certain* charm, run down as it is.
 6. There was *a certain* menace in how politely he said it.
 
-**4. In the fixed quantity phrases.** *A certain amount of* before an uncountable noun and *a certain number of* before a plural, both with obligatory *of*, plus the frozen adverbial *to a certain extent*.
+**4. In the fixed quantity phrases.** (некоторое количество, известное число — a certain amount of, a certain number of, to a certain extent) *A certain amount of* before an uncountable noun and *a certain number of* before a plural, both with obligatory *of*, plus the frozen adverbial *to a certain extent*.
 
 7. *A certain* amount of delay was built into the schedule from the start.
 8. *A certain* number of claims come back rejected every month no matter who files them.
 9. To *a certain* extent that's true, but it leaves the financing out of it.
 
-**5. Coy and insinuating.** *A certain someone* and *a certain something* point at a person or a quality everyone listening can already guess at.
+**5. Coy and insinuating.** (кое-кто, кое-что — с намёком: a certain someone «кое-кто») *A certain someone* and *a certain something* point at a person or a quality everyone listening can already guess at.
 
 10. *A certain* someone forgot whose anniversary it was on Tuesday.
 11. He has *a certain* something that never shows up on the stat sheet.
@@ -198,63 +198,63 @@ Two American notes. **Herb** has a silent *h* in the United States, so *an herb 
 
 Marks a noun as one the listener can already pick out.
 
-**1. Second mention.** The noun has been introduced; *the* now says "that one."
+**1. Second mention.** (второе упоминание — «тот самый, о котором шла речь») The noun has been introduced; *the* now says "that one."
 
 1. A dog followed us home. *The* dog had no collar.
 2. She sent over a draft and a spreadsheet. *The* spreadsheet was the useful part.
 
-**2. Inferable from what came before.** No previous mention is needed if the referent follows from one — a house has a kitchen, a car has an engine, a book has an author.
+**2. Inferable from what came before.** (вытекает из уже сказанного: у дома есть кухня, у книги — автор) No previous mention is needed if the referent follows from one — a house has a kitchen, a car has an engine, a book has an author.
 
 3. We rented a house in Ypsilanti and *the* kitchen was unusable.
 4. I started the novel last night and gave up by *the* third chapter.
 
-**3. Unique in the world, or unique here.** One of a kind either globally or in the situation you and the listener share.
+**3. Unique in the world, or unique here.** (единственный в мире или единственный в этой обстановке: the sun, the door) One of a kind either globally or in the situation you and the listener share.
 
 5. *The* sun was already down by the time we got to *the* car.
 6. Can you get *the* door? I'm on *the* phone.
 
-**4. Made unique by what follows.** A relative clause, an *of*-phrase, a prepositional phrase, or a *that*-clause that narrows the noun to one.
+**4. Made unique by what follows.** (сужен тем, что идёт следом: придаточным, of-оборотом, предлогом) A relative clause, an *of*-phrase, a prepositional phrase, or a *that*-clause that narrows the noun to one.
 
 7. *The* man in the gray coat has been standing there since noon.
 8. Read *the* part of the contract that covers early termination.
 9. *The* fact that nobody flagged it is the real problem.
 
-**5. Superlatives, ordinals, and uniqueness adjectives.** *Best, worst, first, third, last, next, only, same, main, right, wrong, very* force *the* because each of them narrows to one.
+**5. Superlatives, ordinals, and uniqueness adjectives.** (превосходная степень, порядковые и слова единственности: best, first, only, same, next) *Best, worst, first, third, last, next, only, same, main, right, wrong, very* force *the* because each of them narrows to one.
 
 10. That's *the* best price you're going to find in this zip code.
 11. Get off at *the* third exit — it's *the* only one with a light.
 12. She gave me *the* wrong number twice.
 
-**6. Institutions and things everyone in the culture knows.** *The president, the mayor, the news, the DMV, the internet, the flu, the market, the interstate.*
+**6. Institutions and things everyone in the culture knows.** (общеизвестные учреждения и реалии: the president, the news, the flu, the DMV) *The president, the mayor, the news, the DMV, the internet, the flu, the market, the interstate.*
 
 13. It was on *the* news before *the* mayor's office confirmed anything.
 14. Half his department is out with *the* flu.
 
-**7. Generic — the class as a whole.** Formal, written, and restricted to singular countable nouns; also the *the* + adjective construction, which names a class of people or an abstraction and takes a plural verb for people.
+**7. Generic — the class as a whole.** (обобщающее the — класс целиком; книжн., только с исчисляемым в ед. ч.) Formal, written, and restricted to singular countable nouns; also the *the* + adjective construction, which names a class of people or an abstraction and takes a plural verb for people.
 
 15. *The* smartphone changed what an American commute looks like.
 16. *The* unemployed are the last group anyone budgets for.
 
-**8. Body parts after a preposition.** Where most languages use a possessive, English uses *the*.
+**8. Body parts after a preposition.** (части тела после предлога — там, где русский берёт притяжательное: on the head «по голове») Where most languages use a possessive, English uses *the*.
 
 17. He got hit on *the* head with a foul ball.
 18. She grabbed me by *the* arm and pointed.
 
-**9. Musical instruments.** In the playing sense, an instrument takes *the* where a sport takes nothing.
+**9. Musical instruments.** (музыкальные инструменты в значении «играть на»: play the cello «играть на виолончели») In the playing sense, an instrument takes *the* where a sport takes nothing.
 
 19. She's been playing *the* cello since she was seven.
 
-**10. Periods, decades, and centuries.**
+**10. Periods, decades, and centuries.** (эпохи, десятилетия, века: the 1920s «двадцатые годы»)
 
 20. Most of that neighborhood went up in *the* 1920s.
 21. Nothing about *the* Depression is in the curriculum anymore.
 
-**11. Proper nouns of the *the*-taking groups.** Rivers, oceans, seas, gulfs, canals, deserts, mountain ranges, island groups, plural or common-noun country names, newspapers, hotels, theaters, ships, museums, and family names in the plural. Full list at [The with proper nouns](#the-with-proper-nouns).
+**11. Proper nouns of the *the*-taking groups.** (имена собственные, требующие the: реки, океаны, горные цепи, страны во мн. ч., газеты) Rivers, oceans, seas, gulfs, canals, deserts, mountain ranges, island groups, plural or common-noun country names, newspapers, hotels, theaters, ships, museums, and family names in the plural. Full list at [The with proper nouns](#the-with-proper-nouns).
 
 22. We crossed *the* Mississippi twice before we hit *the* Ozarks.
 23. *The* Sandovals are in *the* Bahamas until Sunday.
 
-**12. Units of sale and measure after *by*.** *By the pound, by the hour, by the dozen, by the week.*
+**12. Units of sale and measure after *by*.** (единица продажи или оплаты после by: by the pound «на фунт», by the hour «почасово») *By the pound, by the hour, by the dozen, by the week.*
 
 24. They pay by *the* hour and round down.
 25. Crab legs are sold by *the* pound at the counter in back.
@@ -274,23 +274,23 @@ Marks a noun as one the listener can already pick out.
 
 Turns an adjective into a noun naming the whole class of people who have that quality, or naming the quality itself as an abstraction.
 
-**1. A class of people, with a plural verb.** The commonest use, and the one that trips up agreement.
+**1. A class of people, with a plural verb.** (класс людей — глагол во мн. ч.: the unemployed «безработные») The commonest use, and the one that trips up agreement.
 
 1. *The* unemployed are the last group anyone budgets for.
 2. *The* elderly in that county have no public transportation at all.
 3. Emergency rooms are required to stabilize *the* uninsured before they ask anything else.
 
-**2. Nationalities with no plural noun form.**
+**2. Nationalities with no plural noun form.** (национальности без формы мн. ч.: the Dutch «голландцы», the French «французы»)
 
 4. *The* Dutch build for water the way Americans build for cars.
 5. *The* French take August seriously and nobody apologizes for it.
 
-**3. An abstraction, with a singular verb.**
+**3. An abstraction, with a singular verb.** (абстракция — глагол в ед. ч.: the unknown «неведомое»)
 
 6. *The* impossible takes a little longer and costs a great deal more.
 7. He has always been drawn to *the* unknown, which is why he is broke.
 
-**4. Comparative and superlative classes.**
+**4. Comparative and superlative classes.** (классы в сравнительной и превосходной степени: the very poorest «самые бедные»)
 
 8. The pilot program was written for *the* very poorest and reaches almost none of them.
 
@@ -308,18 +308,18 @@ Turns an adjective into a noun naming the whole class of people who have that qu
 
 Measures a change in one thing against a change in another, or against a cause just mentioned.
 
-**1. The correlative pair.** Two clauses, each opened by *the* plus a comparative; the first states a condition, the second its consequence.
+**1. The correlative pair.** (чем… тем — два придаточных: the sooner, the better «чем скорее, тем лучше») Two clauses, each opened by *the* plus a comparative; the first states a condition, the second its consequence.
 
 1. *The* sooner we leave, *the* better.
 2. *The* more you practice, *the* easier it gets.
 3. *The* bigger the crowd, *the* longer the wait at the counter.
 
-**2. *All the* + comparative.** "By that much more."
+**2. *All the* + comparative.** (тем более, тем + сравнительная: all the better «тем лучше») "By that much more."
 
 4. If they cancel, *all the* better — I wasn't going anyway.
 5. The delay made him *all the* angrier.
 
-**3. *None the* + comparative.** "Not at all more," almost always with *wiser*, *worse*, *better*.
+**3. *None the* + comparative.** (ничуть не + сравнительная: none the wiser «так ничего и не понял») "Not at all more," almost always with *wiser*, *worse*, *better*.
 
 6. He explained it twice and I was *none the* wiser.
 7. She rode out the whole thing *none the* worse for it.
@@ -425,23 +425,23 @@ A few names carry *the* as part of the name itself and capitalize it: **The** Ha
 
 Leaves the determiner slot empty, which marks a plural or uncountable noun as general, unbounded, or newly introduced.
 
-**1. Generic plural and uncountable.** The default way to talk about a whole class or substance — and the **only** generic available to an uncountable noun.
+**1. Generic plural and uncountable.** (обобщение — мн. ч. и неисчисляемые: единственный способ обобщить неисчисляемое) The default way to talk about a whole class or substance — and the **only** generic available to an uncountable noun.
 
 1. *Elevators* make me nervous.
 2. *Rice* is cheaper by the bag.
 3. *Honesty* costs you something now and saves you more later.
 
-**2. Indefinite and non-generic.** The plural counterpart of *a/an*: something real but not yet identified.
+**2. Indefinite and non-generic.** (неопределённость во мн. ч. — то же, что a/an, но для множественного) The plural counterpart of *a/an*: something real but not yet identified.
 
 4. There were *police cars* parked all down the block.
 5. We bought *chairs*, *lamps*, and a rug in one afternoon.
 
-**3. Abstract nouns used absolutely.** Abstractions take Ø unless something narrows them. *Life is hard* is general; *the life of a claims adjuster* is narrowed and takes *the*.
+**3. Abstract nouns used absolutely.** (абстрактные существительные без уточнения: life is hard «жизнь тяжела») Abstractions take Ø unless something narrows them. *Life is hard* is general; *the life of a claims adjuster* is narrowed and takes *the*.
 
 6. *Life* in Phoenix takes some getting used to.
 7. She has *experience* with Medicaid billing and *patience* with the people who don't.
 
-**4. In questions and negatives.** The slot stays empty in both, and this is where the choice against *any* is live: the bare noun asks about the category in general, *any* asks whether even a little of it exists.
+**4. In questions and negatives.** (в вопросах и отрицаниях — пустой слот против any) The slot stays empty in both, and this is where the choice against *any* is live: the bare noun asks about the category in general, *any* asks whether even a little of it exists.
 
 8. Is there *parking* behind the building, or is it all permit spots?
 9. We don't have *chairs* for that many people and I'm not renting any.

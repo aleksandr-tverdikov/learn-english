@@ -31,13 +31,24 @@ The proximal pair: what is near the speaker in space, current in time, or still 
 
 Points at more than one thing near the speaker — in the room, in the present stretch of time, or in the part of the discussion currently in hand.
 
+**1. Things near the speaker.** (эти — о предметах рядом)
+
 1. *These* are the files you asked for.
 2. Are *these* yours, or did somebody leave them behind?
 3. I'll take *these* and leave the rest.
-4. *These* were selling for twice as much last month.
-5. *These* don't fit anymore.
-6. *These* are my parents, Ray and Dolores.
-7. Everything in the box is cracked except *these*.
+4. *These* don't fit anymore.
+5. Everything in the box is cracked except *these*.
+6. *These* were selling for twice as much last month.
+
+**2. Pointing forward to a list the hearer has not heard yet.** (вот эти, вот что — перед перечислением)
+
+7. *These* are the three things the inspector wants fixed: the railing, the vent, and the back step.
+8. *These* are my conditions, and they are not negotiable.
+
+**3. Introducing people.** (это — при знакомстве, о нескольких людях)
+
+9. *These* are my parents, Ray and Dolores.
+10. *These* are the two colleagues I was telling you about.
 
 **See also:** [this](#this), [those](#those), [that](#that), [those of](#those-of), [these ones / those ones](#these-ones--those-ones), [these here](#these-here), [these (determiner)](../../09-determiners/catalog/02-demonstratives.md#these)
 
@@ -525,13 +536,19 @@ Stands in for a whole statement just made or plainly implied — "that very thin
 
 Seconds what was just said, or marks a line in a list as a repeat of the line above it.
 
+**1. Seconding what was just said, or extending it to something else.** (то же самое; и я тоже; и то же касается…)
+
 1. I'm skipping the Friday call. — *Ditto*.
-2. The first-quarter numbers were revised, and *ditto* the second quarter's.
-3. He hates the new logo, and *ditto* for the tagline.
-4. She thinks the deadline is unrealistic. *Ditto* half the department.
-5. In the ledger each repeated address is marked with a *ditto* rather than typed out again.
-6. *Ditto that* — I wouldn't sign it either. (conversational)
-7. In a report, write: *The same* is true of the second quarter.
+2. She thinks the deadline is unrealistic. *Ditto* half the department.
+3. The first-quarter numbers were revised, and *ditto* the second quarter's.
+4. He hates the new logo, and *ditto* for the tagline.
+5. *Ditto that* — I wouldn't sign it either. (conversational)
+
+**2. The repeat mark in a column, a list, or a ledger.** (знак повтора 〃 в столбце или списке)
+
+6. In the ledger each repeated address is marked with a *ditto* rather than typed out again.
+7. The form carries the same date on eight lines, six of them *ditto* marks.
+8. A report should not use *ditto* at all — write *The same is true of the second quarter.*
 
 **See also:** [the same](#the-same), [one and the same](#one-and-the-same), [as much](#as-much), [so](#so), [such](#such)
 
@@ -628,13 +645,27 @@ Stands in for a whole clause that has just been said or is obvious from the situ
 
 Points back at the kind of thing or the state of affairs just described — "that, and that sort of thing."
 
+**1. Of that kind — the fronted *such is / such was* frame.** (таков, такова, таково — книжн.)
+
 1. *Such* is life.
 2. *Such* was the plan, at least until the funding fell through.
-3. He was elected treasurer and, as *such*, signs every check.
+3. *Such* were his last words to the committee.
 4. The house, *such as it is*, has been in the family a hundred years.
-5. *Such* were his last words to the committee.
-6. We stocked pens, paper, tape, and *such*. (informal)
-7. The document is a draft and should be read as *such*.
+
+**2. *As such* — in that capacity, or strictly speaking.** (как таковой; в этом качестве)
+
+5. He was elected treasurer and, as *such*, signs every check.
+6. The document is a draft and should be read as *such*.
+7. There is no rule against it as *such*, only a long-standing practice.
+
+**3. *And such* — informal, closing a list.** (и тому подобное — разг.)
+
+8. We stocked pens, paper, tape, and *such*.
+9. She handles permits, inspections, and *such*.
+
+**4. Bare *such* as a pronoun in legal drafting.** (канц.: оный, таковой — вместо he или it)
+
+10. Notify the tenant, and *such* shall have ten days to respond. (drafting only; archaic everywhere else)
 
 **See also:** [so](#so), [the same](#the-same), [such and such](#such-and-such), [the like](#the-like), [that](#that), [such (determiner)](../../09-determiners/catalog/08-interrogative-exclamative-relative.md#such)
 
@@ -676,13 +707,23 @@ Holds a slot open for a name, date, or amount the speaker will not supply — a 
 
 Closes a list by standing in for the rest of its kind — "and other things like these."
 
+**1. Closing a list — "and other things of the kind."** (и тому подобное — как русское «и т. п.»)
+
 1. Bring rope, tape, zip ties, and *the like*.
 2. The store carries feed, fencing, hand tools, and *the like*.
 3. The policy covers floods, hurricanes, or *the like*.
-4. He collects stamps, coins, and *suchlike*. (dated)
-5. A crowd *the like of which* the town had never seen. (formal)
+4. He collects stamps, coins, old postcards, and *the like*.
+
+**2. An equal, a match — in *the like of which* and the dated exclamation *did you ever see the like?*** (подобное, равное: «такого ещё не видели»)
+
+5. A crowd *the like of which* the town had never seen.
 6. Did you ever see *the like*? (dated exclamation)
-7. A different idiom: that club was never meant for *the likes of us*.
+7. There has been nothing to match it since, and there will not be *the like* again.
+
+**3. *The likes of* — people or things of that sort, and usually dismissive.** (такие, как…; ему подобные — часто пренебрежительно)
+
+8. That club was never meant for *the likes of* us.
+9. The county had never dealt with *the likes of* a federal audit.
 
 **See also:** [such](#such), [such and such](#such-and-such), [so](#so), [the same](#the-same), [this and that](#this-and-that), [suchlike (determiner)](../../09-determiners/catalog/09-predeterminers-postdeterminers.md#suchlike)
 
@@ -699,13 +740,24 @@ Closes a list by standing in for the rest of its kind — "and other things like
 
 Points back at something already named and marks the new instance as identical to it rather than merely similar.
 
+**1. The identical thing — a fresh instance of what was already named.** (то же самое)
+
 1. She ordered the salmon, and I'll have *the same*.
 2. *The same* is true of every office we surveyed.
 3. He left at five and expected everyone else to do *the same*.
 4. *The same* goes for anyone who shows up after the doors close.
 5. My rent is *the same as* it was three years ago.
-6. Happy holidays! — *Same* to you. (informal)
-7. We have received your order and will ship *same* on Monday. (commercial, dated)
+
+**2. The reply formula — *same to you*, *same here*.** (и тебе того же; и я тоже — разг.)
+
+6. Happy holidays! — *Same* to you.
+7. I'm exhausted. — *Same* here.
+8. Nice to finally meet you. — *Same*. (very informal)
+
+**3. Bare *same* in commercial and legal writing, standing where *it* or *them* would go.** (канц.: оное, таковое — вместо it или them)
+
+9. We have received your order and will ship *same* on Monday.
+10. The tenant shall repair the damage and shall bear the cost of *same*.
 
 **See also:** [such](#such), [so](#so), [one and the same](#one-and-the-same), [ditto](#ditto), [the like](#the-like), [that of](#that-of), [same (determiner)](../../09-determiners/catalog/07-numerals-multipliers.md#same)
 
@@ -723,14 +775,18 @@ Points back at something already named and marks the new instance as identical t
 
 Points at an amount — or, in the frame *this much is clear*, at the one piece of a matter the speaker is prepared to vouch for, leaving the rest of it open.
 
-1. *This much* is clear: nobody read the contract before signing it.
-2. I'll say *this much* for him — he showed up every single day.
-3. We need a gallon of primer and I don't have *that much*.
-4. *That much* I do know, whatever else is in dispute. (fronted, emphatic)
-5. Don't worry about it *that much*; the deadline moved to the fifteenth.
-6. *This much* I can tell you: the check was cashed on the fourth.
-7. Countable referents take *that many*: ✗ *that much were left over* → *that many* were left over.
-8. A different idiom altogether: *so much for* the quiet weekend I had planned.
+**1. An amount, pointed at.** (столько — о количестве)
+
+1. We need a gallon of primer and I don't have *that much*.
+2. Don't worry about it *that much*; the deadline moved to the fifteenth.
+3. Countable referents take *that many*: ✗ *that much* were left over → *that many* were left over.
+
+**2. The frames *this much is clear* and *I'll say this much* — the one point the speaker will vouch for.** (одно ясно; одно скажу — уже не о количестве, а об одной мысли)
+
+4. *This much* is clear: nobody read the contract before signing it.
+5. I'll say *this much* for him — he showed up every single day.
+6. *That much* I do know, whatever else is in dispute. (fronted, emphatic)
+7. *This much* I can tell you: the check was cashed on the fourth.
 
 **See also:** [as much](#as-much), [so](#so), [not](#not), [the same](#the-same), [this](#this), [that](#that), [much](08-indefinite-quantifying.md#much), [much (determiner)](../../09-determiners/catalog/04-quantifiers-large.md#much)
 
@@ -751,12 +807,18 @@ Frozen phrases in which *this* or *that* is doing genuine pronoun work — point
 
 Tacks a further, often surprising, detail onto what was just said — "and what is more."
 
+**1. And what is more — a further detail added at the end of the clause.** (да ещё и, притом)
+
 1. He fixed it himself, and in ten minutes *at that*.
 2. She found a buyer, and a cash buyer *at that*.
 3. It's a long drive, and an ugly one *at that*.
 4. He apologized once, and grudgingly *at that*.
+
+**2. *Leave it at that* — stop there and take it no further.** (на том и остановиться; не продолжать)
+
 5. We agreed to disagree and left it *at that*.
 6. I'd rather not argue about it — let's leave it *at that*.
+7. She said she'd think it over, and we left it *at that*.
 
 **See also:** [that](#that), [that's that](#thats-that), [with that](#with-that), [that said](#that-said)
 
@@ -773,12 +835,18 @@ Tacks a further, often surprising, detail onto what was just said — "and what 
 
 Introduces a restatement that narrows, corrects, or specifies what was just said.
 
+**1. Introducing a restatement — "in other words."** (то есть — вводит уточнение)
+
 1. We'll meet on the first — *that is*, a week from Thursday.
 2. He's her stepson, *that is*, her husband's boy from his first marriage.
 3. The rule covers full-time employees, *that is to say*, anyone scheduled for thirty hours or more.
+
+**2. Tacked on at the end as a hedge — "provided that," "if that happens."** (…если, конечно; при условии что)
+
 4. She'll be there Tuesday. If the flight lands, *that is*.
 5. I'd like the small one — *that is*, if you can spare it.
 6. The deadline is firm, *that is*, unless the client asks for an extension.
+7. We'll drive up Saturday. Assuming the pass is open, *that is*.
 
 **See also:** [that](#that), [that said](#that-said), [that's that](#thats-that), [that's it](#thats-it)
 
@@ -817,13 +885,23 @@ Concedes the point just made and then turns against it — "even so."
 
 Confirms that something is exactly the thing meant — or announces that a supply, a process, or the speaker's patience has run out.
 
+**1. Exactly right — confirming the very thing meant.** (вот именно; то самое)
+
 1. Is the blue folder the one you wanted? — *That's it*.
 2. Turn left after the church — no, wait, *that's it*, the brick one.
-3. *That's it* for the questions; we're out of time.
-4. We sold the last two this morning, so *that was it*.
-5. *That's it* — I'm not driving back out there again. (exasperation)
+3. Push the tab in and twist. — Like this? — *That's it*.
+
+**2. That is all — a supply, a list, or a process has ended.** (всё, это конец; больше нет)
+
+4. *That's it* for the questions; we're out of time.
+5. We sold the last two this morning, so *that was it*.
 6. Is *that it*, or is there another box still in the truck?
 7. Sign at the bottom, and *that's it* — you're done.
+
+**3. Enough — the speaker's patience has run out.** (ну всё, с меня хватит)
+
+8. *That's it* — I'm not driving back out there again.
+9. *That's it*, everybody out of the pool.
 
 **See also:** [that's that](#thats-that), [that is](#that-is), [that](#that), [at that](#at-that), [with that](#with-that)
 

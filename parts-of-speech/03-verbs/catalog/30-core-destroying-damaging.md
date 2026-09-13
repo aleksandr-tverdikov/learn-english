@@ -29,18 +29,26 @@ To harm something so that it works less well or looks worse.
 ### destroy
 
 **Pronunciation:** /dɪˈstrɔɪ/ &middot; *di-STROY*
-**Русский:** разрушать, разрушить; уничтожать, уничтожить
+**Русский:** разрушать, разрушить; уничтожать, уничтожить; разгромить, разнести (в игре, в споре)
 **Forms:** *destroy* &middot; *destroyed* &middot; *destroyed*
 **Verb class:** regular
 **Third person:** *destroys* &middot; **-ing form:** *destroying*
 **Transitivity:** transitive
 **Contrast:** The y after a vowel never changes: *destroyed*, *destroying* — not "destroied".
 
-To damage something so completely that it no longer exists or cannot be repaired.
+Destroy has 2 distinct senses.
+
+**1. To damage something so completely that it no longer exists or cannot be repaired.** (разрушать, разрушить; уничтожать, уничтожить)
 
 1. The fire *destroyed* three houses on our street.
 2. One night of frost can *destroy* an entire crop.
 3. The old bridge had been *destroyed* long before we got there.
+
+**2. To beat someone very badly in a game or an argument, in informal speech.** (разгромить, разнести (в игре, в споре))
+
+4. They will *destroy* us if we play like that.
+5. Our team *destroyed* them 42-3.
+6. He got *destroyed* in the debate.
 
 ---
 
@@ -99,17 +107,25 @@ To destroy a place completely, or to shock and upset someone deeply.
 ### shatter
 
 **Pronunciation:** /ˈʃætər/ &middot; *SHAT-ur*
-**Русский:** разбивать(ся) вдребезги, разбить(ся) вдребезги
+**Русский:** разбивать(ся) вдребезги, разбить(ся) вдребезги; разрушать, разрушить (надежды); подрывать, подорвать (уверенность)
 **Forms:** *shatter* &middot; *shattered* &middot; *shattered*
 **Verb class:** regular
 **Third person:** *shatters* &middot; **-ing form:** *shattering*
 **Transitivity:** both — transitive (*shatter* a window), intransitive (the glass *shattered*)
 
-To break suddenly into many small pieces, or to break something that way.
+Shatter has 2 distinct senses.
+
+**1. To break suddenly into many small pieces, or to break something that way.** (разбивать(ся) вдребезги, разбить(ся) вдребезги)
 
 1. The mirror *shattered* when it hit the tile.
 2. A stone off a truck can *shatter* a windshield.
 3. There was *shattered* glass all over the sidewalk.
+
+**2. To destroy someone's hopes, confidence, or peace of mind.** (разрушать, разрушить (надежды); подрывать, подорвать (уверенность))
+
+4. The injury *shattered* his hopes of playing again.
+5. News like that can *shatter* a family.
+6. Her confidence was completely *shattered* by the experience.
 
 ---
 
@@ -135,19 +151,39 @@ To break something violently into pieces, or to hit something with great force.
 ### crack
 
 **Pronunciation:** /kræk/ &middot; *KRAK*
-**Русский:** трескаться, треснуть; раскалывать, расколоть
+**Русский:** трескаться, треснуть; раскалывать, расколоть; трещать, щёлкать, хлопнуть; раскрывать, разгадывать, взломать (код); ломаться, не выдерживать (давления), сломаться
 **Forms:** *crack* &middot; *cracked* &middot; *cracked*
 **Verb class:** regular
 **Third person:** *cracks* &middot; **-ing form:** *cracking*
 **Transitivity:** both — transitive (*crack* a nut), intransitive (the plate *cracked*)
 
-To break so that a line appears on the surface, without breaking into pieces.
+Crack has 4 distinct senses.
+
+**1. To break so that a line appears on the surface, without breaking into pieces.** (трескаться, треснуть; раскалывать, расколоть)
 
 1. The windshield *cracked* in the cold.
 2. Set it down gently or you'll *crack* the tile.
 3. She found a *cracked* pipe under the sink.
 
-**Phrasal verbs:** [crack down](53-phrasal-regular-a-c.md#crack-down) &middot; [crack open](53-phrasal-regular-a-c.md#crack-open) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-1) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-2)
+**2. To make a sudden sharp sound.** (трещать, щёлкать, хлопнуть)
+
+4. Thunder *cracked* over the lake.
+5. The whip *cracks* like a gunshot.
+6. Branches were *cracking* under his boots.
+
+**3. To solve something difficult, such as a code or a criminal case.** (раскрывать, разгадывать, взломать (код))
+
+7. Detectives finally *cracked* the case.
+8. No one could *crack* the code.
+9. The password has never been *cracked*.
+
+**4. To lose control of yourself under pressure.** (ломаться, не выдерживать (давления), сломаться)
+
+10. He *cracked* during the second hour of questioning.
+11. Most people would *crack* under that kind of stress.
+12. She was *cracking* under the workload.
+
+**Phrasal verbs:** [crack down](53-phrasal-regular-a-c.md#crack-down) &middot; [crack open](53-phrasal-regular-a-c.md#crack-open) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-1) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-2)
 
 ---
 
@@ -191,18 +227,26 @@ To press or hit a surface so that it curves inward and leaves a hollow mark.
 ### scrape
 
 **Pronunciation:** /skreɪp/ &middot; *SKRAYP*
-**Русский:** царапать, поцарапать; обдирать, ободрать
+**Русский:** царапать, поцарапать; обдирать, ободрать; соскабливать, соскоблить; счищать, счистить
 **Forms:** *scrape* &middot; *scraped* &middot; *scraped*
 **Verb class:** regular
 **Third person:** *scrapes* &middot; **-ing form:** *scraping*
 **Transitivity:** both
 **Contrast:** Drop the silent e before -ing: *scraping*, not "scrapeing".
 
-To damage a surface by rubbing it against something rough or sharp.
+Scrape has 2 distinct senses.
+
+**1. To damage a surface by rubbing it against something rough or sharp.** (царапать, поцарапать; обдирать, ободрать)
 
 1. He *scraped* the side of the van on a concrete post.
 2. I fell off the bike and *scraped* my knee.
 3. She spent an hour *scraping* old paint off the door.
+
+**2. To remove a layer from a surface by pulling something hard or sharp across it.** (соскабливать, соскоблить; счищать, счистить)
+
+4. I *scrape* the frost from the windshield every morning.
+5. She *scraped* the burned cheese from the pan.
+6. The old paint has been *scraped* down to bare wood.
 
 **Phrasal verbs:** [scrape by](57-phrasal-regular-q-s.md#scrape-by) &middot; [scrape together](57-phrasal-regular-q-s.md#scrape-together)
 
@@ -241,25 +285,45 @@ To tear something quickly and roughly.
 2. Please don't *rip* the envelope — I need the address.
 3. The flag had been *ripped* to shreds by the wind.
 
-**Phrasal verbs:** [rip into](57-phrasal-regular-q-s.md#rip-into) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-2) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-1) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off) &middot; [rip out](57-phrasal-regular-q-s.md#rip-out) &middot; [rip through](57-phrasal-regular-q-s.md#rip-through) &middot; [rip up](57-phrasal-regular-q-s.md#rip-up)
+**Phrasal verbs:** [rip into](57-phrasal-regular-q-s.md#rip-into) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-1) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-2) &middot; [rip out](57-phrasal-regular-q-s.md#rip-out) &middot; [rip through](57-phrasal-regular-q-s.md#rip-through) &middot; [rip up](57-phrasal-regular-q-s.md#rip-up)
 
 ---
 
 ### snap
 
 **Pronunciation:** /snæp/ &middot; *SNAP*
-**Русский:** ломать(ся) с треском, сломать(ся)
+**Русский:** ломать(ся) с треском, сломать(ся); огрызаться, огрызнуться; рявкнуть; щёлкать, щёлкнуть (сфотографировать); срываться, сорваться; не выдерживать, не выдержать
 **Forms:** *snap* &middot; *snapped* &middot; *snapped*
 **Verb class:** regular
 **Third person:** *snaps* &middot; **-ing form:** *snapping*
 **Transitivity:** both — transitive (*snap* a stick), intransitive (the cable *snapped*)
 **Contrast:** The p doubles: *snapped*, *snapping*.
 
-To break suddenly with a sharp sound, usually into two pieces.
+Snap has 4 distinct senses.
+
+**1. To break suddenly with a sharp sound, usually into two pieces.** (ломать(ся) с треском, сломать(ся))
 
 1. The rope *snapped* under the weight.
 2. Dry branches *snap* the moment you bend them.
 3. He had *snapped* the pencil in half without noticing.
+
+**2. To say something in a sharp, angry way.** (огрызаться, огрызнуться; рявкнуть)
+
+4. 'Not now,' he *snapped*.
+5. She has been *snapping* at everyone all week.
+6. There's no need to *snap*.
+
+**3. To take a photograph quickly.** (щёлкать, щёлкнуть (сфотографировать))
+
+7. Tourists *snap* pictures of the bridge all day.
+8. She *snapped* a photo before the light changed.
+9. He was *snapping* away with his phone.
+
+**4. To suddenly lose control of your emotions after a long strain.** (срываться, сорваться; не выдерживать, не выдержать)
+
+10. After months of pressure, he finally *snapped*.
+11. She *snapped* and started yelling at the whole room.
+12. Anyone would *snap* under that kind of stress.
 
 **Phrasal verbs:** [snap out of](57-phrasal-regular-q-s.md#snap-out-of) &middot; [snap up](57-phrasal-regular-q-s.md#snap-up)
 
@@ -268,17 +332,25 @@ To break suddenly with a sharp sound, usually into two pieces.
 ### squash
 
 **Pronunciation:** /skwɑːʃ/ &middot; *SKWAHSH*
-**Русский:** расплющивать, расплющить; раздавить
+**Русский:** расплющивать, расплющить; раздавить; пресекать, пресечь; подавлять, подавить (слухи, бунт)
 **Forms:** *squash* &middot; *squashed* &middot; *squashed*
 **Verb class:** regular
 **Third person:** *squashes* &middot; **-ing form:** *squashing*
 **Transitivity:** transitive
 
-To press something flat so that it loses its shape.
+Squash has 2 distinct senses.
+
+**1. To press something flat so that it loses its shape.** (расплющивать, расплющить; раздавить)
 
 1. Someone *squashed* the cake in my bag.
 2. Don't *squash* the bread under the cans.
 3. The berries were *squashed* at the bottom of the box.
+
+**2. To put a stop to something before it can grow, such as a rumor or a protest.** (пресекать, пресечь; подавлять, подавить (слухи, бунт))
+
+4. The mayor moved quickly to *squash* the rumor.
+5. Management *squashed* the idea in one meeting.
+6. The revolt was *squashed* within a week.
 
 ---
 
@@ -302,85 +374,137 @@ To crush something into folds and wrinkles, or to fold up that way.
 ### splinter
 
 **Pronunciation:** /ˈsplɪntər/ &middot; *SPLIN-tur*
-**Русский:** расщеплять(ся), расщепить(ся); раскалывать(ся) на щепки
+**Русский:** расщеплять(ся), расщепить(ся); раскалывать(ся) на щепки; раскалываться, расколоться (о партии, движении)
 **Forms:** *splinter* &middot; *splintered* &middot; *splintered*
 **Verb class:** regular
 **Third person:** *splinters* &middot; **-ing form:** *splintering*
 **Transitivity:** both
 
-To break into thin, sharp pieces of wood or bone.
+Splinter has 2 distinct senses.
+
+**1. To break into thin, sharp pieces of wood or bone.** (расщеплять(ся), расщепить(ся); раскалывать(ся) на щепки)
 
 1. The old door *splintered* when they forced it open.
 2. Cheap plywood *splinters* as soon as you drill it.
 3. He pulled a *splintered* board off the porch.
+
+**2. To break apart into smaller rival groups.** (раскалываться, расколоться (о партии, движении))
+
+4. Without a leader, the movement could *splinter*.
+5. The party *splintered* into three factions.
+6. The opposition has *splintered* into rival camps.
 
 ---
 
 ### crumble
 
 **Pronunciation:** /ˈkrʌmbəl/ &middot; *KRUM-buhl*
-**Русский:** крошиться, раскрошиться; осыпаться, осыпаться
+**Русский:** крошиться, раскрошиться; осыпаться, осыпаться; рушиться, разваливаться, рухнуть
 **Forms:** *crumble* &middot; *crumbled* &middot; *crumbled*
 **Verb class:** regular
 **Third person:** *crumbles* &middot; **-ing form:** *crumbling*
 **Transitivity:** both
 
-To break slowly into small pieces because something is old, dry, or weak.
+Crumble has 2 distinct senses.
+
+**1. To break slowly into small pieces because something is old, dry, or weak.** (крошиться, раскрошиться; осыпаться, осыпаться)
 
 1. The brick wall is *crumbling* at the corner.
 2. The cookie *crumbled* in my hand.
 3. Years of rain had *crumbled* the stone steps.
+
+**2. To fail or fall apart gradually.** (рушиться, разваливаться, рухнуть)
+
+4. The deal *crumbled* at the last minute.
+5. Their defense began to *crumble* in the fourth quarter.
+6. Support for the bill is *crumbling*.
 
 ---
 
 ### collapse
 
 **Pronunciation:** /kəˈlæps/ &middot; *kuh-LAPS*
-**Русский:** рушиться, рухнуть; обрушиваться, обрушиться
+**Русский:** рушиться, рухнуть; обрушиваться, обрушиться; падать без сил, свалиться; терять сознание; рушиться, рухнуть; терпеть крах, проваливаться; складывать, сложить (складную вещь)
 **Forms:** *collapse* &middot; *collapsed* &middot; *collapsed*
 **Verb class:** regular
 **Third person:** *collapses* &middot; **-ing form:** *collapsing*
 **Transitivity:** both — transitive (*collapse* the tent), intransitive (the roof *collapsed*)
 
-To fall down suddenly because the structure gives way.
+Collapse has 4 distinct senses.
+
+**1. To fall down suddenly because the structure gives way.** (рушиться, рухнуть; обрушиваться, обрушиться)
 
 1. The roof *collapsed* under the weight of the snow.
 2. Old mine tunnels can *collapse* without any warning.
 3. Two walls had already *collapsed* by the time the crew arrived.
+
+**2. Of a person, to fall down suddenly from illness or exhaustion.** (падать без сил, свалиться; терять сознание)
+
+4. Runners sometimes *collapse* in the last mile.
+5. He *collapsed* at his desk and was rushed to the hospital.
+6. She has *collapsed* twice this month.
+
+**3. Of a plan, a business, or a system, to fail suddenly and completely.** (рушиться, рухнуть; терпеть крах, проваливаться)
+
+7. Talks can *collapse* over a single word.
+8. The company *collapsed* after the fraud came out.
+9. Home prices have *collapsed* in some cities.
+
+**4. To fold something into a smaller shape for carrying or storing.** (складывать, сложить (складную вещь))
+
+10. The stroller *collapses* with one hand.
+11. He *collapsed* the tripod and put it in the trunk.
+12. The table can be *collapsed* and stored under the bed.
 
 ---
 
 ### topple
 
 **Pronunciation:** /ˈtɑːpəl/ &middot; *TAH-puhl*
-**Русский:** опрокидывать(ся), опрокинуть(ся); валить, свалить
+**Русский:** опрокидывать(ся), опрокинуть(ся); валить, свалить; свергать, свергнуть
 **Forms:** *topple* &middot; *toppled* &middot; *toppled*
 **Verb class:** regular
 **Third person:** *topples* &middot; **-ing form:** *toppling*
 **Transitivity:** both
 
-To fall over, or to push something over, because it loses its balance.
+Topple has 2 distinct senses.
+
+**1. To fall over, or to push something over, because it loses its balance.** (опрокидывать(ся), опрокинуть(ся); валить, свалить)
 
 1. The wind *toppled* the fence along the driveway.
 2. Stack them any higher and they'll *topple*.
 3. A *toppled* streetlight was blocking both lanes.
+
+**2. To remove a leader or a government from power.** (свергать, свергнуть)
+
+4. The protests *toppled* the government in a matter of weeks.
+5. No one believed a strike could *topple* a president.
+6. Three regimes in the region have been *toppled* since 2011.
 
 ---
 
 ### warp
 
 **Pronunciation:** /wɔːrp/ &middot; *WORP*
-**Русский:** коробить(ся), покоробить(ся); деформировать(ся)
+**Русский:** коробить(ся), покоробить(ся); деформировать(ся); искажать, исказить (взгляды, представления)
 **Forms:** *warp* &middot; *warped* &middot; *warped*
 **Verb class:** regular
 **Third person:** *warps* &middot; **-ing form:** *warping*
 **Transitivity:** both
 
-To bend or twist out of shape, usually because of heat or moisture.
+Warp has 2 distinct senses.
+
+**1. To bend or twist out of shape, usually because of heat or moisture.** (коробить(ся), покоробить(ся); деформировать(ся))
 
 1. Damp under the floor *warped* the boards.
 2. Leave that vinyl in the sun and it will *warp*.
 3. The back door is *warped* and won't close all the way.
+
+**2. To damage the way a person thinks or judges, making it unfair or unhealthy.** (искажать, исказить (взгляды, представления))
+
+4. Fame can *warp* a person's sense of what is normal.
+5. Those years in prison *warped* his view of people.
+6. He has a *warped* sense of humor.
 
 ---
 
@@ -421,17 +545,25 @@ To make a hole through something with a sharp point.
 ### slash
 
 **Pronunciation:** /slæʃ/ &middot; *SLASH*
-**Русский:** рассекать, рассечь; полосовать, порезать
+**Русский:** рассекать, рассечь; полосовать, порезать; резко снижать, урезать (цены, бюджет, расходы)
 **Forms:** *slash* &middot; *slashed* &middot; *slashed*
 **Verb class:** regular
 **Third person:** *slashes* &middot; **-ing form:** *slashing*
 **Transitivity:** transitive
 
-To cut something with a long, violent stroke.
+Slash has 2 distinct senses.
+
+**1. To cut something with a long, violent stroke.** (рассекать, рассечь; полосовать, порезать)
 
 1. Someone *slashed* the tires overnight.
 2. He was *slashing* at the vines with a machete.
 3. The seat had been *slashed* open with a knife.
+
+**2. To reduce a price, a budget, or a number of jobs by a large amount.** (резко снижать, урезать (цены, бюджет, расходы))
+
+4. The store *slashed* prices by half after Christmas.
+5. The company plans to *slash* two hundred jobs.
+6. Funding for the program has been *slashed* again.
 
 ---
 
@@ -456,53 +588,89 @@ To push a knife or other sharp point into someone or something.
 ### sever
 
 **Pronunciation:** /ˈsɛvər/ &middot; *SEV-ur*
-**Русский:** перерезать, перерубать; отсекать, отсечь
+**Русский:** перерезать, перерубать; отсекать, отсечь; разрывать, разорвать (связи, отношения); прекращать, прекратить
 **Forms:** *sever* &middot; *severed* &middot; *severed*
 **Verb class:** regular
 **Third person:** *severs* &middot; **-ing form:** *severing*
 **Transitivity:** transitive
 **Contrast:** Stress on the first syllable and no doubled r: *severed*, not "severred".
 
-To cut something all the way through, separating it into parts.
+Sever has 2 distinct senses.
+
+**1. To cut something all the way through, separating it into parts.** (перерезать, перерубать; отсекать, отсечь)
 
 1. The blade *severed* the cable in one pass.
 2. Ice storms often *sever* the power lines out here.
 3. Surgeons reattached the *severed* finger.
+
+**2. To end a connection or a relationship completely.** (разрывать, разорвать (связи, отношения); прекращать, прекратить)
+
+4. The two countries may *sever* diplomatic ties.
+5. The company *severed* its relationship with the supplier.
+6. All contact with the group has been *severed*.
 
 ---
 
 ### explode
 
 **Pronunciation:** /ɪkˈsploʊd/ &middot; *ik-SPLOHD*
-**Русский:** взрываться, взорваться; взрывать, взорвать
+**Русский:** взрываться, взорваться; взрывать, взорвать; резко расти, стремительно увеличиваться; взрываться, взорваться (от гнева); вспылить
 **Forms:** *explode* &middot; *exploded* &middot; *exploded*
 **Verb class:** regular
 **Third person:** *explodes* &middot; **-ing form:** *exploding*
 **Transitivity:** both
 
-To burst apart with great force and noise.
+Explode has 3 distinct senses.
+
+**1. To burst apart with great force and noise.** (взрываться, взорваться; взрывать, взорвать)
 
 1. The gas tank *exploded* on impact.
 2. Old fireworks can still *explode* years later.
 3. A transformer had *exploded* two blocks away.
+
+**2. To increase suddenly and very quickly in number or amount.** (резко расти, стремительно увеличиваться)
+
+4. The city's population *exploded* in the 1990s.
+5. Demand for the toy has *exploded* since Christmas.
+6. Costs *explode* once you add a second warehouse.
+
+**3. To suddenly show violent anger.** (взрываться, взорваться (от гнева); вспылить)
+
+7. He *exploded* when he saw the bill.
+8. Don't *explode* at the kids over a broken glass.
+9. She had never *exploded* like that in a meeting before.
 
 ---
 
 ### blast
 
 **Pronunciation:** /blæst/ &middot; *BLAST*
-**Русский:** взрывать, взорвать; разносить взрывом
+**Русский:** взрывать, взорвать; разносить взрывом; резко критиковать, раскритиковать; разносить; врубать на всю громкость; греметь (о музыке)
 **Forms:** *blast* &middot; *blasted* &middot; *blasted*
 **Verb class:** regular
 **Third person:** *blasts* &middot; **-ing form:** *blasting*
 **Transitivity:** transitive
 **Contrast:** The American vowel is æ: *blast* rhymes with *fast* — blæst, not blɑːst.
 
-To break rock or a structure apart with explosives.
+Blast has 3 distinct senses.
+
+**1. To break rock or a structure apart with explosives.** (взрывать, взорвать; разносить взрывом)
 
 1. Crews *blasted* a tunnel through the ridge.
 2. They *blast* twice a day at the quarry.
 3. The safe had been *blasted* open from behind.
+
+**2. To criticize someone or something very harshly in public.** (резко критиковать, раскритиковать; разносить)
+
+4. The governor *blasted* the plan as reckless.
+5. Critics have *blasted* the film for its ending.
+6. Union leaders are *blasting* the company over the layoffs.
+
+**3. To play music or a radio at a very high volume.** (врубать на всю громкость; греметь (о музыке))
+
+7. The neighbors *blast* their music every Saturday night.
+8. He *blasted* the radio all the way to Denver.
+9. Country music was *blasting* from the open windows.
 
 **Phrasal verbs:** [blast off](53-phrasal-regular-a-c.md#blast-off)
 
@@ -511,18 +679,26 @@ To break rock or a structure apart with explosives.
 ### bomb
 
 **Pronunciation:** /bɑːm/ &middot; *BAHM*
-**Русский:** бомбить, разбомбить
+**Русский:** бомбить, разбомбить; провалиться, с треском провалиться
 **Forms:** *bomb* &middot; *bombed* &middot; *bombed*
 **Verb class:** regular
 **Third person:** *bombs* &middot; **-ing form:** *bombing*
 **Transitivity:** transitive
 **Contrast:** The final b is silent: *bomb* is bɑːm, rhyming with *mom*.
 
-To attack a place with bombs.
+Bomb has 2 distinct senses.
+
+**1. To attack a place with bombs.** (бомбить, разбомбить)
 
 1. Planes *bombed* the rail bridge at dawn.
 2. The city had been *bombed* for six straight weeks.
 3. They kept *bombing* the same stretch of track.
+
+**2. To fail badly, especially a movie, a performance, or a test (informal).** (провалиться, с треском провалиться)
+
+4. He *bombed* the chemistry final and had to retake the class.
+5. Nobody wants to *bomb* in front of a live audience.
+6. The movie had *bombed* in theaters before streaming saved it.
 
 ---
 
@@ -546,17 +722,25 @@ To burn a surface slightly so that it darkens or changes color.
 ### overturn
 
 **Pronunciation:** /ˌoʊvərˈtɜːrn/ &middot; *oh-vur-TURN*
-**Русский:** опрокидывать(ся), опрокинуть(ся)
+**Русский:** опрокидывать(ся), опрокинуть(ся); отменять, отменить (решение суда, закон)
 **Forms:** *overturn* &middot; *overturned* &middot; *overturned*
 **Verb class:** regular
 **Third person:** *overturns* &middot; **-ing form:** *overturning*
 **Transitivity:** both
 
-To turn over onto its side or roof, or to tip something over.
+Overturn has 2 distinct senses.
+
+**1. To turn over onto its side or roof, or to tip something over.** (опрокидывать(ся), опрокинуть(ся))
 
 1. The tanker *overturned* on the exit ramp.
 2. One big wave can *overturn* a boat that size.
 3. An *overturned* trailer blocked the road for hours.
+
+**2. To officially reverse a court decision or a law.** (отменять, отменить (решение суда, закон))
+
+4. Lawyers hope to *overturn* the ban this fall.
+5. An appeals court *overturned* the conviction.
+6. The ruling was *overturned* after new evidence appeared.
 
 ---
 
@@ -582,18 +766,26 @@ To die under water because you cannot breathe, or to kill something that way.
 ### flood
 
 **Pronunciation:** /flʌd/ &middot; *FLUD*
-**Русский:** затоплять, затопить; заливать, залить
+**Русский:** затоплять, затопить; заливать, залить; хлынуть, нахлынуть; заваливать, завалить (звонками, товаром); наводнять
 **Forms:** *flood* &middot; *flooded* &middot; *flooded*
 **Verb class:** regular
 **Third person:** *floods* &middot; **-ing form:** *flooding*
 **Transitivity:** both
 **Contrast:** *flood* rhymes with *blood*: flʌd, not fluːd.
 
-To cover a place with water, or to be covered with water.
+Flood has 2 distinct senses.
+
+**1. To cover a place with water, or to be covered with water.** (затоплять, затопить; заливать, залить)
 
 1. The river *flooded* the whole basement.
 2. That underpass *floods* every spring.
 3. We came home and found the kitchen *flooded*.
+
+**2. To arrive somewhere in overwhelming numbers, or to send something in overwhelming numbers.** (хлынуть, нахлынуть; заваливать, завалить (звонками, товаром); наводнять)
+
+4. Calls *flooded* the station after the broadcast.
+5. Cheap imports have *flooded* the market.
+6. Volunteers kept *flooding* into the shelter all weekend.
 
 **Phrasal verbs:** [flood in](54-phrasal-regular-d-f.md#flood-in)
 
@@ -655,36 +847,58 @@ To spoil the surface or appearance of something, especially by writing or drawin
 ### trash
 
 **Pronunciation:** /træʃ/ &middot; *TRASH*
-**Русский:** разгромить, разнести; привести в негодность
+**Русский:** разгромить, разнести; привести в негодность; выбрасывать, выбросить; разносить, раскритиковать; поносить
 **Forms:** *trash* &middot; *trashed* &middot; *trashed*
 **Verb class:** regular
 **Third person:** *trashes* &middot; **-ing form:** *trashing*
 **Transitivity:** transitive
 **Contrast:** Informal American English; *trash* also means "throw away": I *trashed* the old receipts.
 
-To wreck something or make a complete mess of it.
+Trash has 3 distinct senses.
+
+**1. To wreck something or make a complete mess of it.** (разгромить, разнести; привести в негодность)
 
 1. The band *trashed* the hotel room.
 2. Don't let the dog *trash* the couch while we're out.
 3. The kitchen was completely *trashed* after the party.
+
+**2. To throw something away.** (выбрасывать, выбросить)
+
+4. Just *trash* those old magazines.
+5. I *trashed* the whole first draft and started over.
+6. Every receipt from the trip has already been *trashed*.
+
+**3. To criticize someone or something harshly in public.** (разносить, раскритиковать; поносить)
+
+7. Critics *trashed* the movie the day it opened.
+8. Don't *trash* your old company in a job interview.
+9. He has been *trashing* his opponent on every talk show.
 
 ---
 
 ### total
 
 **Pronunciation:** /ˈtoʊtəl/ &middot; *TOH-tuhl*
-**Русский:** разбить вдребезги (машину), угробить
+**Русский:** разбить вдребезги (машину), угробить; составлять в сумме, достигать (суммы)
 **Forms:** *total* &middot; *totaled* &middot; *totaled*
 **Verb class:** regular
 **Third person:** *totals* &middot; **-ing form:** *totaling*
 **Transitivity:** transitive
 **Contrast:** American English keeps one l: *totaled*, *totaling*; British English writes *totalled*, *totalling*.
 
-To damage a car so badly that repairing it would cost more than the car is worth.
+Total has 2 distinct senses.
+
+**1. To damage a car so badly that repairing it would cost more than the car is worth.** (разбить вдребезги (машину), угробить)
 
 1. She *totaled* her truck on black ice.
 2. One bad skid can *total* a brand-new car.
 3. The insurance company declared it *totaled*.
+
+**2. To add up to a particular amount.** (составлять в сумме, достигать (суммы))
+
+4. The repairs *totaled* almost four thousand dollars.
+5. Her medical bills *total* more than she earns in a year.
+6. Donations have *totaled* over a million dollars since May.
 
 ---
 
@@ -794,18 +1008,26 @@ To put an end to a law, system, or practice completely and officially.
 ### wound
 
 **Pronunciation:** /wuːnd/ &middot; *WOOND*
-**Русский:** ранить, поранить
+**Русский:** ранить, поранить; ранить, уязвить (чувства); задевать
 **Forms:** *wound* &middot; *wounded* &middot; *wounded*
 **Verb class:** regular
 **Third person:** *wounds* &middot; **-ing form:** *wounding*
 **Transitivity:** transitive
 **Contrast:** The verb *wound* wuːnd (to injure) is not the past of *wind*; that *wound* rhymes with *found*.
 
-To injure someone, especially with a weapon.
+Wound has 2 distinct senses.
+
+**1. To injure someone, especially with a weapon.** (ранить, поранить)
 
 1. Two officers were *wounded* in the blast.
 2. The shot *wounded* the animal but didn't kill it.
 3. Careless words can *wound* worse than insults.
+
+**2. To hurt someone's feelings deeply.** (ранить, уязвить (чувства); задевать)
+
+4. That remark *wounded* her more than he realized.
+5. Criticism like that can *wound* a young writer.
+6. He looked genuinely *wounded* by the question.
 
 ---
 
@@ -881,17 +1103,25 @@ To injure a joint by twisting it suddenly.
 ### fracture
 
 **Pronunciation:** /ˈfræktʃər/ &middot; *FRAK-chur*
-**Русский:** ломать, сломать (кость); давать трещину
+**Русский:** ломать, сломать (кость); давать трещину; раскалываться, расколоться (о партии, коалиции); распадаться
 **Forms:** *fracture* &middot; *fractured* &middot; *fractured*
 **Verb class:** regular
 **Third person:** *fractures* &middot; **-ing form:** *fracturing*
 **Transitivity:** both
 
-To crack or break a bone or a hard material.
+Fracture has 2 distinct senses.
+
+**1. To crack or break a bone or a hard material.** (ломать, сломать (кость); давать трещину)
 
 1. She *fractured* her wrist in the fall.
 2. Freezing weather can *fracture* concrete.
 3. The X-ray showed a *fractured* rib.
+
+**2. To break apart into rival groups because of disagreement.** (раскалываться, расколоться (о партии, коалиции); распадаться)
+
+4. The party *fractured* over the budget.
+5. Years of argument have *fractured* the movement.
+6. The coalition is *fracturing* along regional lines.
 
 ---
 
@@ -915,17 +1145,25 @@ To harm or kill a living thing with a dangerous substance.
 ### infect
 
 **Pronunciation:** /ɪnˈfɛkt/ &middot; *in-FEKT*
-**Русский:** заражать, заразить; инфицировать
+**Русский:** заражать, заразить; инфицировать; заражать, заразить (настроением); передаваться
 **Forms:** *infect* &middot; *infected* &middot; *infected*
 **Verb class:** regular
 **Third person:** *infects* &middot; **-ing form:** *infecting*
 **Transitivity:** transitive
 
-To pass a disease to a living thing, or to fill something with harmful organisms.
+Infect has 2 distinct senses.
+
+**1. To pass a disease to a living thing, or to fill something with harmful organisms.** (заражать, заразить; инфицировать)
 
 1. The cut got *infected* within a day.
 2. One sick bird can *infect* the whole flock.
 3. The virus had *infected* thousands before anyone noticed.
+
+**2. To spread a feeling or a mood to other people.** (заражать, заразить (настроением); передаваться)
+
+4. His enthusiasm *infected* the whole team.
+5. Panic *infects* a trading floor in minutes.
+6. The bad mood was *infecting* everyone in the room.
 
 ---
 
@@ -966,17 +1204,25 @@ To make air, water, or land dirty and unsafe with waste or chemicals.
 ### smear
 
 **Pronunciation:** /smɪr/ &middot; *SMEER*
-**Русский:** размазывать, размазать; пачкать, испачкать
+**Русский:** размазывать, размазать; пачкать, испачкать; порочить, очернять, оклеветать
 **Forms:** *smear* &middot; *smeared* &middot; *smeared*
 **Verb class:** regular
 **Third person:** *smears* &middot; **-ing form:** *smearing*
 **Transitivity:** transitive
 
-To spread something soft or wet over a surface, leaving dirty marks.
+Smear has 2 distinct senses.
+
+**1. To spread something soft or wet over a surface, leaving dirty marks.** (размазывать, размазать; пачкать, испачкать)
 
 1. The kids *smeared* jam all over the window.
 2. Don't *smear* the ink — it's still wet.
 3. Every mirror in the house was *smeared* with fingerprints.
+
+**2. To damage someone's reputation by spreading false or unfair accusations.** (порочить, очернять, оклеветать)
+
+4. The campaign *smeared* his opponent for weeks.
+5. He says he was *smeared* by people who never met him.
+6. They will *smear* anyone who gets in the way.
 
 ---
 
@@ -1017,35 +1263,51 @@ To bring something back to life, to strength, or into use again.
 ### service
 
 **Pronunciation:** /ˈsɜːrvɪs/ &middot; *SUR-vis*
-**Русский:** обслуживать, обслужить (технику); проводить техобслуживание
+**Русский:** обслуживать, обслужить (технику); проводить техобслуживание; обслуживать (район, маршрут); оказывать услуги
 **Forms:** *service* &middot; *serviced* &middot; *serviced*
 **Verb class:** regular
 **Third person:** *services* &middot; **-ing form:** *servicing*
 **Transitivity:** transitive
 
-To check and repair a machine or vehicle as routine maintenance.
+Service has 2 distinct senses.
+
+**1. To check and repair a machine or vehicle as routine maintenance.** (обслуживать, обслужить (технику); проводить техобслуживание)
 
 1. I had the car *serviced* before the trip.
 2. They *service* the elevators twice a year.
 3. The furnace hasn't been *serviced* since we moved in.
+
+**2. To provide a service to a place or a group of people.** (обслуживать (район, маршрут); оказывать услуги)
+
+4. Two airlines *service* the island.
+5. The bus route *serviced* four towns before it was cut.
+6. The whole county is *serviced* by a single clinic.
 
 ---
 
 ### plug
 
 **Pronunciation:** /plʌɡ/ &middot; *PLUG*
-**Русский:** затыкать, заткнуть; заделывать, заделать (отверстие)
+**Русский:** затыкать, заткнуть; заделывать, заделать (отверстие); рекламировать, пиарить; продвигать (упоминанием)
 **Forms:** *plug* &middot; *plugged* &middot; *plugged*
 **Verb class:** regular
 **Third person:** *plugs* &middot; **-ing form:** *plugging*
 **Transitivity:** transitive
 **Contrast:** The g doubles: *plugged*, *plugging*.
 
-To fill a hole so that nothing can pass or leak through it.
+Plug has 2 distinct senses.
+
+**1. To fill a hole so that nothing can pass or leak through it.** (затыкать, заткнуть; заделывать, заделать (отверстие))
 
 1. He *plugged* the hole with a wooden peg.
 2. A little putty will *plug* that gap for now.
 3. The drain was *plugged* solid with hair.
+
+**2. To mention a product, a book, or a show publicly in order to promote it.** (рекламировать, пиарить; продвигать (упоминанием))
+
+4. Every guest gets to *plug* a new project.
+5. She *plugged* her restaurant twice during the interview.
+6. He has been *plugging* the album on every podcast.
 
 **Phrasal verbs:** [plug away](56-phrasal-regular-m-p.md#plug-away) &middot; [plug in](56-phrasal-regular-m-p.md#plug-in) &middot; [plug into](56-phrasal-regular-m-p.md#plug-into)
 
@@ -1074,18 +1336,26 @@ To become healthy again after an injury, or to make someone healthy again.
 ### cure
 
 **Pronunciation:** /kjʊr/ &middot; *KYOOR*
-**Русский:** лечить, вылечить; исцелять, исцелить
+**Русский:** лечить, вылечить; исцелять, исцелить; солить, коптить, вялить (мясо, рыбу)
 **Forms:** *cure* &middot; *cured* &middot; *cured*
 **Verb class:** regular
 **Third person:** *cures* &middot; **-ing form:** *curing*
 **Transitivity:** transitive
 **Contrast:** *cure* removes the illness; *heal* closes the wound.
 
-To make an illness go away completely.
+Cure has 2 distinct senses.
+
+**1. To make an illness go away completely.** (лечить, вылечить; исцелять, исцелить)
 
 1. Antibiotics *cured* the infection in three days.
 2. Nothing *cures* a cold — you just wait it out.
 3. She was *cured* after the second round of treatment.
+
+**2. To preserve meat or fish with salt, smoke, or drying.** (солить, коптить, вялить (мясо, рыбу))
+
+4. They *cure* the ham for eighteen months.
+5. The salmon was *cured* in salt and sugar.
+6. He spent the fall *curing* venison.
 
 ---
 
@@ -1126,17 +1396,25 @@ To save something usable from a wreck, a fire, or a failing situation.
 ### reconstruct
 
 **Pronunciation:** /ˌriːkənˈstrʌkt/ &middot; *ree-kuhn-STRUKT*
-**Русский:** восстанавливать, восстановить; реконструировать
+**Русский:** восстанавливать, восстановить; реконструировать; восстанавливать (картину событий), воссоздавать ход событий
 **Forms:** *reconstruct* &middot; *reconstructed* &middot; *reconstructed*
 **Verb class:** regular
 **Third person:** *reconstructs* &middot; **-ing form:** *reconstructing*
 **Transitivity:** transitive
 
-To build something again after it has been damaged or destroyed.
+Reconstruct has 2 distinct senses.
+
+**1. To build something again after it has been damaged or destroyed.** (восстанавливать, восстановить; реконструировать)
 
 1. The town *reconstructed* the bridge stone by stone.
 2. Surgeons can *reconstruct* a knee like that in one operation.
 3. The church is being *reconstructed* from old photographs.
+
+**2. To work out and describe how a past event happened, using the evidence that is left.** (восстанавливать (картину событий), воссоздавать ход событий)
+
+4. Investigators are trying to *reconstruct* the last hour of the flight.
+5. From the receipts, police *reconstructed* his movements that night.
+6. The accident has been *reconstructed* frame by frame.
 
 ---
 
@@ -1195,17 +1473,25 @@ To become gradually worse in condition or quality.
 ### degrade
 
 **Pronunciation:** /dɪˈɡreɪd/ &middot; *di-GRAYD*
-**Русский:** разрушаться, разрушиться; ухудшать(ся), ухудшить(ся)
+**Русский:** разрушаться, разрушиться; ухудшать(ся), ухудшить(ся); унижать, унизить; оскорблять достоинство
 **Forms:** *degrade* &middot; *degraded* &middot; *degraded*
 **Verb class:** regular
 **Third person:** *degrades* &middot; **-ing form:** *degrading*
 **Transitivity:** both
 
-To break down or lose quality over time, or to cause that to happen.
+Degrade has 2 distinct senses.
+
+**1. To break down or lose quality over time, or to cause that to happen.** (разрушаться, разрушиться; ухудшать(ся), ухудшить(ся))
 
 1. Sunlight *degrades* cheap plastic in a single season.
 2. The signal *degraded* the farther we drove.
 3. All the rubber seals had *degraded* into powder.
+
+**2. To treat someone in a way that takes away their dignity.** (унижать, унизить; оскорблять достоинство)
+
+4. Jokes like that *degrade* everyone in the room.
+5. He felt *degraded* by the way the manager spoke to him.
+6. The report describes guards *degrading* prisoners.
 
 ---
 
@@ -1298,17 +1584,25 @@ To become covered with the reddish-brown coating that forms on wet iron.
 ### tarnish
 
 **Pronunciation:** /ˈtɑːrnɪʃ/ &middot; *TAR-nish*
-**Русский:** тускнеть, потускнеть; пятнать, запятнать (репутацию)
+**Русский:** тускнеть, потускнеть; пятнать, запятнать (репутацию); пятнать, запятнать (репутацию); портить (имя)
 **Forms:** *tarnish* &middot; *tarnished* &middot; *tarnished*
 **Verb class:** regular
 **Third person:** *tarnishes* &middot; **-ing form:** *tarnishing*
 **Transitivity:** both
 
-To lose shine and turn dull and dark, the way silver does.
+Tarnish has 2 distinct senses.
+
+**1. To lose shine and turn dull and dark, the way silver does.** (тускнеть, потускнеть; пятнать, запятнать (репутацию))
 
 1. The silverware *tarnished* in that damp drawer.
 2. Brass *tarnishes* quickly near the ocean.
 3. The scandal had *tarnished* his name for good.
+
+**2. To damage someone's good name or reputation.** (пятнать, запятнать (репутацию); портить (имя))
+
+4. The scandal *tarnished* his reputation for good.
+5. One bad review can *tarnish* a small restaurant's name.
+6. Her record has been *tarnished* by the investigation.
 
 ---
 
@@ -1385,18 +1679,32 @@ To become limp and droop, especially of plants or greens.
 ### dissolve
 
 **Pronunciation:** /dɪˈzɑːlv/ &middot; *di-ZAHLV*
-**Русский:** растворять(ся), растворить(ся)
+**Русский:** растворять(ся), растворить(ся); расторгать, расторгнуть; распускать, распустить; разразиться (слезами, смехом), расплакаться
 **Forms:** *dissolve* &middot; *dissolved* &middot; *dissolved*
 **Verb class:** regular
 **Third person:** *dissolves* &middot; **-ing form:** *dissolving*
 **Transitivity:** both
 **Contrast:** The double s is pronounced as z: di-ZAHLV, not "di-SOLV".
 
-To break down completely in a liquid, or to make something do that.
+Dissolve has 3 distinct senses.
+
+**1. To break down completely in a liquid, or to make something do that.** (растворять(ся), растворить(ся))
 
 1. The tablet *dissolved* in warm water.
 2. Salt *dissolves* faster if you stir it.
 3. The sugar had *dissolved* into the syrup.
+
+**2. To officially end a company, a partnership, or a legal arrangement.** (расторгать, расторгнуть; распускать, распустить)
+
+4. The two founders decided to *dissolve* their partnership.
+5. The judge *dissolved* the order a week later.
+6. After *dissolving* the company, they sold off the equipment.
+
+**3. To suddenly start crying or laughing and be unable to stop.** (разразиться (слезами, смехом), расплакаться)
+
+7. She *dissolved* into tears when she heard the news.
+8. The whole room *dissolves* into laughter whenever he tells that story.
+9. He was *dissolving* into giggles in the middle of the ceremony.
 
 ---
 
@@ -1458,18 +1766,32 @@ To let liquid or gas escape through a hole or crack.
 ### jam
 
 **Pronunciation:** /dʒæm/ &middot; *JAM*
-**Русский:** заклинивать, заклинить; застревать, застрять
+**Русский:** заклинивать, заклинить; застревать, застрять; втискивать, втиснуть; запихивать, запихнуть; играть джем, джемовать; импровизировать вместе
 **Forms:** *jam* &middot; *jammed* &middot; *jammed*
 **Verb class:** regular
 **Third person:** *jams* &middot; **-ing form:** *jamming*
 **Transitivity:** both — transitive (sand *jams* the lock), intransitive (the printer *jammed*)
 **Contrast:** The m doubles: *jammed*, *jamming*.
 
-To stick so that something cannot move or work, or to make it stick.
+Jam has 3 distinct senses.
+
+**1. To stick so that something cannot move or work, or to make it stick.** (заклинивать, заклинить; застревать, застрять)
 
 1. The printer *jammed* twice this morning.
 2. Fine sand *jams* the mechanism in a week.
 3. That window has been *jammed* shut for years.
+
+**2. To force something into a space that is almost too small for it.** (втискивать, втиснуть; запихивать, запихнуть)
+
+4. She *jammed* three sweaters into her backpack.
+5. Don't *jam* the papers in like that — they'll tear.
+6. He had *jammed* his hands into his pockets against the cold.
+
+**3. To play music with other people without planning it beforehand.** (играть джем, джемовать; импровизировать вместе)
+
+7. They *jam* in the garage every Sunday.
+8. We *jammed* for three hours after the show.
+9. The band was still *jamming* when I left.
 
 **Phrasal verbs:** [jam up](55-phrasal-regular-g-l.md#jam-up)
 
@@ -1515,17 +1837,31 @@ To stop working correctly.
 ### stall
 
 **Pronunciation:** /stɔːl/ &middot; *STAWL*
-**Русский:** глохнуть, заглохнуть (о двигателе)
+**Русский:** глохнуть, заглохнуть (о двигателе); тянуть время, медлить, оттягивать; буксовать, застопориться, зайти в тупик
 **Forms:** *stall* &middot; *stalled* &middot; *stalled*
 **Verb class:** regular
 **Third person:** *stalls* &middot; **-ing form:** *stalling*
 **Transitivity:** both — transitive (he *stalled* the car), intransitive (the engine *stalled*)
 
-To stop running suddenly, the way an engine does.
+Stall has 3 distinct senses.
+
+**1. To stop running suddenly, the way an engine does.** (глохнуть, заглохнуть (о двигателе))
 
 1. The car *stalled* at the light and wouldn't start.
 2. It *stalls* every time I shift too early.
 3. We were *stalling* out on the freeway with the flashers on.
+
+**2. To delay on purpose in order to gain time.** (тянуть время, медлить, оттягивать)
+
+4. They will *stall* as long as the law allows.
+5. He *stalled* until his lawyer arrived.
+6. Stop *stalling* and answer the question.
+
+**3. To stop making progress.** (буксовать, застопориться, зайти в тупик)
+
+7. Talks between the two sides *stalled* in March.
+8. Sales have *stalled* since the spring.
+9. The project is *stalling* for lack of money.
 
 **Phrasal verbs:** [stall out](57-phrasal-regular-q-s.md#stall-out)
 
@@ -1551,32 +1887,48 @@ To reach the end of the period during which something can be used.
 ### strain
 
 **Pronunciation:** /streɪn/ &middot; *STRAYN*
-**Русский:** растягивать, растянуть (мышцу); перенапрягать, перенапрячь
+**Русский:** растягивать, растянуть (мышцу); перенапрягать, перенапрячь; напрягаться, напрячься; напрягать (слух, зрение)
 **Forms:** *strain* &middot; *strained* &middot; *strained*
 **Verb class:** regular
 **Third person:** *strains* &middot; **-ing form:** *straining*
 **Transitivity:** transitive
 
-To injure a muscle, or to pull something so hard that it is close to breaking.
+Strain has 2 distinct senses.
+
+**1. To injure a muscle, or to pull something so hard that it is close to breaking.** (растягивать, растянуть (мышцу); перенапрягать, перенапрячь)
 
 1. He *strained* his back moving the piano.
 2. Don't *strain* that cable — it's already frayed.
 3. The bolts were *strained* to the limit.
+
+**2. To make a great effort, especially to see or hear something.** (напрягаться, напрячься; напрягать (слух, зрение))
+
+4. I had to *strain* to hear the announcement.
+5. She *strained* to see over the crowd.
+6. He was *straining* against the ropes.
 
 ---
 
 ### age
 
 **Pronunciation:** /eɪdʒ/ &middot; *AYJ*
-**Русский:** стареть, постареть; изнашиваться со временем
+**Русский:** стареть, постареть; изнашиваться со временем; выдерживать, выдержать (сыр, вино, мясо)
 **Forms:** *age* &middot; *aged* &middot; *aged*
 **Verb class:** regular
 **Third person:** *ages* &middot; **-ing form:** *aging*
 **Transitivity:** both
 **Contrast:** American English writes *aging* with one e; British English writes *ageing*.
 
-To grow old, or to change over time the way old things do.
+Age has 2 distinct senses.
+
+**1. To grow old, or to change over time the way old things do.** (стареть, постареть; изнашиваться со временем)
 
 1. The rubber gaskets *aged* and finally cracked.
 2. Cedar *ages* to a soft gray if you leave it bare.
 3. The paint was *aging* badly on the south wall.
+
+**2. To keep food or drink for a long time so that its flavor develops.** (выдерживать, выдержать (сыр, вино, мясо))
+
+4. They *age* the cheddar for two years.
+5. The whiskey was *aged* in oak barrels.
+6. The beef has been *aging* in a cooler for a month.

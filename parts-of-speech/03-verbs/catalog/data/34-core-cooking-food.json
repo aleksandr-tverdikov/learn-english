@@ -93,14 +93,43 @@
       "term": "blanch",
       "ipa": "/blæntʃ/",
       "respell": "BLANCH",
-      "meaning": "To boil vegetables briefly and then drop them into cold water. ---",
+      "meaning": "Blanch has 2 distinct senses.",
       "examples": [
         "Blanch the green beans for two minutes.",
         "I blanched the tomatoes to loosen their skins.",
-        "The spinach has already been blanched."
+        "The spinach has already been blanched.",
+        "She blanches at the sight of a needle.",
+        "He blanched when he saw the hospital bill.",
+        "I could see him blanching as the numbers went up."
       ],
-      "senses": [],
-      "русский": "бланшировать, ошпарить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To boil vegetables briefly and then drop them into cold water",
+          "body": [
+            "(бланшировать, ошпарить)"
+          ],
+          "examples": [
+            "Blanch the green beans for two minutes.",
+            "I blanched the tomatoes to loosen their skins.",
+            "The spinach has already been blanched."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To turn pale suddenly from fear or shock",
+          "body": [
+            "(бледнеть, побледнеть)",
+            "---"
+          ],
+          "examples": [
+            "She blanches at the sight of a needle.",
+            "He blanched when he saw the hospital bill.",
+            "I could see him blanching as the numbers went up."
+          ]
+        }
+      ],
+      "русский": "бланшировать, ошпарить; бледнеть, побледнеть",
       "forms": "blanch · blanched · blanched",
       "verb class": "regular",
       "third person": "blanches · -ing form: blanching",
@@ -111,14 +140,43 @@
       "term": "baste",
       "ipa": "/beɪst/",
       "respell": "BAYST",
-      "meaning": "To spoon juices or melted fat over food while it roasts. ---",
+      "meaning": "Baste has 2 distinct senses.",
       "examples": [
         "Baste the turkey every half hour.",
         "He basted the chicken with herb butter.",
-        "She has been basting the roast all morning."
+        "She has been basting the roast all morning.",
+        "Baste the seam before you sew it on the machine.",
+        "She basted the hem so it wouldn't shift.",
+        "The lining had been basted in place with white thread."
       ],
-      "senses": [],
-      "русский": "поливать соком или жиром при жарке",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To spoon juices or melted fat over food while it roasts",
+          "body": [
+            "(поливать соком или жиром при жарке)"
+          ],
+          "examples": [
+            "Baste the turkey every half hour.",
+            "He basted the chicken with herb butter.",
+            "She has been basting the roast all morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To sew cloth together with long loose stitches that will be taken out later",
+          "body": [
+            "(смётывать, сметать (на живую нитку); примётывать)",
+            "---"
+          ],
+          "examples": [
+            "Baste the seam before you sew it on the machine.",
+            "She basted the hem so it wouldn't shift.",
+            "The lining had been basted in place with white thread."
+          ]
+        }
+      ],
+      "русский": "поливать соком или жиром при жарке; смётывать, сметать (на живую нитку); примётывать",
       "forms": "baste · basted · basted",
       "verb class": "regular",
       "third person": "bastes · -ing form: basting",
@@ -128,14 +186,58 @@
       "term": "scramble",
       "ipa": "/ˈskræmbəl/",
       "respell": "SKRAM-bul",
-      "meaning": "To beat eggs together and cook them in a pan while stirring. ---",
+      "meaning": "Scramble has 3 distinct senses.",
       "examples": [
         "I'll scramble a couple of eggs.",
         "He scrambled six eggs for the three of us.",
-        "She is scrambling eggs with cheese and chives."
+        "She is scrambling eggs with cheese and chives.",
+        "Kids scramble over those rocks all day long.",
+        "He scrambled up the bank to reach the road.",
+        "Teams are scrambling to sign a backup goalie.",
+        "Cheap radios don't scramble anything.",
+        "The station scrambled the broadcast for paying subscribers.",
+        "Their calls were scrambled, so no one could listen in."
       ],
-      "senses": [],
-      "русский": "взбивать и жарить (яичницу-болтунью)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To beat eggs together and cook them in a pan while stirring",
+          "body": [
+            "(взбивать и жарить (яичницу-болтунью))"
+          ],
+          "examples": [
+            "I'll scramble a couple of eggs.",
+            "He scrambled six eggs for the three of us.",
+            "She is scrambling eggs with cheese and chives."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move or act in a hurry, often climbing or struggling to get somewhere",
+          "body": [
+            "(карабкаться, вскарабкаться; суетиться, спешно бросаться)"
+          ],
+          "examples": [
+            "Kids scramble over those rocks all day long.",
+            "He scrambled up the bank to reach the road.",
+            "Teams are scrambling to sign a backup goalie."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To mix up a signal or a message so that it cannot be understood without special equipment",
+          "body": [
+            "(шифровать, зашифровать (сигнал); скремблировать)",
+            "---"
+          ],
+          "examples": [
+            "Cheap radios don't scramble anything.",
+            "The station scrambled the broadcast for paying subscribers.",
+            "Their calls were scrambled, so no one could listen in."
+          ]
+        }
+      ],
+      "русский": "взбивать и жарить (яичницу-болтунью); карабкаться, вскарабкаться; суетиться, спешно бросаться; шифровать, зашифровать (сигнал); скремблировать",
       "forms": "scramble · scrambled · scrambled",
       "verb class": "regular",
       "third person": "scrambles · -ing form: scrambling",
@@ -145,14 +247,43 @@
       "term": "sift",
       "ipa": "/sɪft/",
       "respell": "SIFT",
-      "meaning": "To pass flour or sugar through a fine mesh to remove the lumps. ---",
+      "meaning": "Sift has 2 distinct senses.",
       "examples": [
         "Sift the flour and the baking powder together.",
         "I sifted powdered sugar over the cake.",
-        "The dry ingredients have all been sifted."
+        "The dry ingredients have all been sifted.",
+        "Investigators sifted the wreckage for clues.",
+        "We are still sifting hundreds of applications.",
+        "The committee has sifted every document in the file."
       ],
-      "senses": [],
-      "русский": "просеивать, просеять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pass flour or sugar through a fine mesh to remove the lumps",
+          "body": [
+            "(просеивать, просеять)"
+          ],
+          "examples": [
+            "Sift the flour and the baking powder together.",
+            "I sifted powdered sugar over the cake.",
+            "The dry ingredients have all been sifted."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To go through a large amount of material carefully in order to find something",
+          "body": [
+            "(перебирать, тщательно изучать, просеивать (данные, улики))",
+            "---"
+          ],
+          "examples": [
+            "Investigators sifted the wreckage for clues.",
+            "We are still sifting hundreds of applications.",
+            "The committee has sifted every document in the file."
+          ]
+        }
+      ],
+      "русский": "просеивать, просеять; перебирать, тщательно изучать, просеивать (данные, улики)",
       "forms": "sift · sifted · sifted",
       "verb class": "regular",
       "third person": "sifts · -ing form: sifting",
@@ -214,14 +345,43 @@
       "term": "soften",
       "ipa": "/ˈsɔːfən/",
       "respell": "SAW-fun",
-      "meaning": "To make something soft, or to become soft. ---",
+      "meaning": "Soften has 2 distinct senses.",
       "examples": [
         "Let the butter soften on the counter.",
         "I softened the onions in oil first.",
-        "The raisins have softened in the hot water."
+        "The raisins have softened in the hot water.",
+        "He softened his tone when he saw she was crying.",
+        "The company has softened its stance on remote work.",
+        "Nothing can soften the blow of losing a job."
       ],
-      "senses": [],
-      "русский": "размягчать, размягчить; становиться мягким",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make something soft, or to become soft",
+          "body": [
+            "(размягчать, размягчить; становиться мягким)"
+          ],
+          "examples": [
+            "Let the butter soften on the counter.",
+            "I softened the onions in oil first.",
+            "The raisins have softened in the hot water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make an attitude, a tone, or an effect less harsh",
+          "body": [
+            "(смягчать, смягчить (тон, позицию, удар))",
+            "---"
+          ],
+          "examples": [
+            "He softened his tone when he saw she was crying.",
+            "The company has softened its stance on remote work.",
+            "Nothing can soften the blow of losing a job."
+          ]
+        }
+      ],
+      "русский": "размягчать, размягчить; становиться мягким; смягчать, смягчить (тон, позицию, удар)",
       "forms": "soften · softened · softened",
       "verb class": "regular",
       "third person": "softens · -ing form: softening",
@@ -233,14 +393,58 @@
       "term": "smoke",
       "ipa": "/smoʊk/",
       "respell": "SMOHK",
-      "meaning": "To flavor and preserve food by hanging it in smoke. ---",
+      "meaning": "Smoke has 3 distinct senses.",
       "examples": [
         "They smoke their own brisket out back.",
         "We smoked the ribs for six hours.",
-        "The trout has been smoked over applewood."
+        "The trout has been smoked over applewood.",
+        "He smokes about a pack a day.",
+        "She smoked for twenty years before she quit.",
+        "You can't smoke inside the building.",
+        "The engine was smoking by the time we pulled over.",
+        "The oil will smoke if the pan gets too hot.",
+        "The grill smoked for a while before it caught."
       ],
-      "senses": [],
-      "русский": "коптить, закоптить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To flavor and preserve food by hanging it in smoke",
+          "body": [
+            "(коптить, закоптить)"
+          ],
+          "examples": [
+            "They smoke their own brisket out back.",
+            "We smoked the ribs for six hours.",
+            "The trout has been smoked over applewood."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To breathe in and out the smoke of a cigarette, a cigar, or a pipe",
+          "body": [
+            "(курить, покурить)"
+          ],
+          "examples": [
+            "He smokes about a pack a day.",
+            "She smoked for twenty years before she quit.",
+            "You can't smoke inside the building."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To give off smoke",
+          "body": [
+            "(дымить, дымиться)",
+            "---"
+          ],
+          "examples": [
+            "The engine was smoking by the time we pulled over.",
+            "The oil will smoke if the pan gets too hot.",
+            "The grill smoked for a while before it caught."
+          ]
+        }
+      ],
+      "русский": "коптить, закоптить; курить, покурить; дымить, дымиться",
       "forms": "smoke · smoked · smoked",
       "verb class": "regular",
       "third person": "smokes · -ing form: smoking",
@@ -286,14 +490,43 @@
       "term": "frost",
       "ipa": "/frɔːst/",
       "respell": "FRAWST",
-      "meaning": "To spread a thick sweet icing over a cake. ---",
+      "meaning": "Frost has 2 distinct senses.",
       "examples": [
         "Let the cake cool before you frost it.",
         "She frosted the cupcakes with buttercream.",
-        "The layer cake has been frosted and decorated."
+        "The layer cake has been frosted and decorated.",
+        "Overnight the cold frosted every windshield on the block.",
+        "Ice frosts the inside of that old freezer within a week.",
+        "The shower door is frosted so no one can see through it."
       ],
-      "senses": [],
-      "русский": "покрывать глазурью (торт), украшать кремом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To spread a thick sweet icing over a cake",
+          "body": [
+            "(покрывать глазурью (торт), украшать кремом)"
+          ],
+          "examples": [
+            "Let the cake cool before you frost it.",
+            "She frosted the cupcakes with buttercream.",
+            "The layer cake has been frosted and decorated."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To cover a surface with a thin layer of ice, or to give glass a cloudy white finish",
+          "body": [
+            "(покрывать инеем, обмерзать; матировать (стекло))",
+            "---"
+          ],
+          "examples": [
+            "Overnight the cold frosted every windshield on the block.",
+            "Ice frosts the inside of that old freezer within a week.",
+            "The shower door is frosted so no one can see through it."
+          ]
+        }
+      ],
+      "русский": "покрывать глазурью (торт), украшать кремом; покрывать инеем, обмерзать; матировать (стекло)",
       "forms": "frost · frosted · frosted",
       "verb class": "regular",
       "third person": "frosts · -ing form: frosting",
@@ -357,14 +590,43 @@
       "term": "stew",
       "ipa": "/stuː/",
       "respell": "STOO",
-      "meaning": "To cook meat or fruit slowly in liquid in a covered pot. ---",
+      "meaning": "Stew has 2 distinct senses.",
       "examples": [
         "Stew the lamb with onions and carrots.",
         "She stewed apples for the pie filling.",
-        "The beef has been stewing for three hours."
+        "The beef has been stewing for three hours.",
+        "Don't stew about it all night — just call her.",
+        "He stewed for days over that email.",
+        "She left him stewing in the waiting room."
       ],
-      "senses": [],
-      "русский": "тушить, потушить; тушиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To cook meat or fruit slowly in liquid in a covered pot",
+          "body": [
+            "(тушить, потушить; тушиться)"
+          ],
+          "examples": [
+            "Stew the lamb with onions and carrots.",
+            "She stewed apples for the pie filling.",
+            "The beef has been stewing for three hours."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To keep worrying or being angry about something instead of doing anything",
+          "body": [
+            "(изводиться, переживать, кипятиться; дуться)",
+            "---"
+          ],
+          "examples": [
+            "Don't stew about it all night — just call her.",
+            "He stewed for days over that email.",
+            "She left him stewing in the waiting room."
+          ]
+        }
+      ],
+      "русский": "тушить, потушить; тушиться; изводиться, переживать, кипятиться; дуться",
       "forms": "stew · stewed · stewed",
       "verb class": "regular",
       "third person": "stews · -ing form: stewing",
@@ -375,14 +637,43 @@
       "term": "dunk",
       "ipa": "/dʌŋk/",
       "respell": "DUNGK",
-      "meaning": "To dip food quickly into a liquid. ---",
+      "meaning": "Dunk has 2 distinct senses.",
       "examples": [
         "Dunk the cookie in your milk.",
         "He dunked the bread in the olive oil.",
-        "She is dunking fries into her milkshake."
+        "She is dunking fries into her milkshake.",
+        "He dunked over two defenders.",
+        "She can dunk with either hand.",
+        "He has dunked twice already this quarter."
       ],
-      "senses": [],
-      "русский": "макать, обмакнуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To dip food quickly into a liquid",
+          "body": [
+            "(макать, обмакнуть)"
+          ],
+          "examples": [
+            "Dunk the cookie in your milk.",
+            "He dunked the bread in the olive oil.",
+            "She is dunking fries into her milkshake."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To jump up and push the ball down through the basket",
+          "body": [
+            "(забивать сверху, делать данк)",
+            "---"
+          ],
+          "examples": [
+            "He dunked over two defenders.",
+            "She can dunk with either hand.",
+            "He has dunked twice already this quarter."
+          ]
+        }
+      ],
+      "русский": "макать, обмакнуть; забивать сверху, делать данк",
       "forms": "dunk · dunked · dunked",
       "verb class": "regular",
       "third person": "dunks · -ing form: dunking",

@@ -56,11 +56,40 @@
         "We canceled the picnic because it rained all morning.",
         "Because the bridge was out, the detour added an hour.",
         "\"Why are you up so early?\" \"Because the dog decided it was time.\"",
-        "It must have frozen overnight, because the birdbath is solid.",
         "They didn't complain, because the manager comped the whole meal.",
-        "Because you asked so nicely, I'll think about it."
+        "Because you asked so nicely, I'll think about it.",
+        "It must have frozen overnight, because the birdbath is solid.",
+        "He's home, because his truck is in the driveway.",
+        "She must have read it already, because she didn't ask a single question."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The cause of what happened — a direct answer to why?",
+          "body": [
+            "The reason is the new information, which is why this because alone can stand as a whole answer to a question and why it normally takes no comma in front of it. (потому что; так как)"
+          ],
+          "examples": [
+            "We canceled the picnic because it rained all morning.",
+            "Because the bridge was out, the detour added an hour.",
+            "\"Why are you up so early?\" \"Because the dog decided it was time.\"",
+            "They didn't complain, because the manager comped the whole meal.",
+            "Because you asked so nicely, I'll think about it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The evidence for saying it — \"I can tell, because …\"",
+          "body": [
+            "The clause explains not why the thing happened but why the speaker is claiming it. The comma in front is what marks this reading, and no why question is being answered at all. (судя по тому, что — обоснование самого высказывания)"
+          ],
+          "examples": [
+            "It must have frozen overnight, because the birdbath is solid.",
+            "He's home, because his truck is in the driveway.",
+            "She must have read it already, because she didn't ask a single question."
+          ]
+        }
+      ],
       "русский": "потому что, так как — основной союз причины, прямой ответ на вопрос «почему?»",
       "register": "neutral",
       "type": "subordinating",
@@ -656,9 +685,40 @@
         "If the grant had come through we'd have hired two people. As it is, we hired nobody.",
         "She would have finished the degree, but as it is, the program closed in her second year.",
         "The plan called for four sessions; as it is, there was time for two.",
-        "I'd love to argue the point, but as it is, I have a train to catch."
+        "I'd love to argue the point, but as it is, I have a train to catch.",
+        "The rent is high enough as it is.",
+        "Leave the table as it is — she'll want to see it.",
+        "Don't tell him tonight; he's had enough bad news as it is."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The real situation, set against a hypothetical one",
+          "body": [
+            "Answers a would, an if, or a wish in the sentence in front of it — with no such setup the phrase says nothing. Always fenced by commas. (а так; но дело в том, что)"
+          ],
+          "examples": [
+            "I'd drive you, but as it is, my car is in the shop until Thursday.",
+            "We meant to hike the whole loop; as it is, we barely made the first overlook.",
+            "If the grant had come through we'd have hired two people. As it is, we hired nobody.",
+            "She would have finished the degree, but as it is, the program closed in her second year.",
+            "The plan called for four sessions; as it is, there was time for two.",
+            "I'd love to argue the point, but as it is, I have a train to catch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "\"Already,\" or \"in its present state\" — clause-final and unpunctuated",
+          "body": [
+            "No comma, no hypothetical, and no reason given: the phrase either says the situation is at its limit before anything more is added, or tells somebody to leave a thing untouched. (и так уже; в нынешнем виде)"
+          ],
+          "examples": [
+            "The rent is high enough as it is.",
+            "Leave the table as it is — she'll want to see it.",
+            "Don't tell him tonight; he's had enough bad news as it is."
+          ]
+        }
+      ],
       "русский": "а так; но дело в том, что — реальное положение дел в противовес гипотетическому",
       "register": "neutral, very common in speech",
       "type": "fixed adverbial phrase (not a conjunction — the subordinator as plus a clause, frozen into an idiom, and it takes no clause of its own)",
@@ -1023,11 +1083,40 @@
         "The Rangers won it in overtime, courtesy of a deflection off a defenseman's skate.",
         "We had front-row seats, courtesy of her brother's season tickets.",
         "Courtesy of a burst main on Sixth Street, half of downtown was dry by noon.",
-        "The map is reproduced courtesy of the state archives.",
         "Everybody got a second helping, courtesy of a neighbor who had over-ordered.",
-        "He spent the afternoon in the emergency room, courtesy of a ladder he should have replaced years ago."
+        "He spent the afternoon in the emergency room, courtesy of a ladder he should have replaced years ago.",
+        "The map is reproduced courtesy of the state archives.",
+        "Photograph courtesy of the Newberry Library.",
+        "Costumes this evening are courtesy of the university theater department."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Cause, with the credit or the blame named — the news and sports use",
+          "body": [
+            "As often sardonic as grateful: whatever produced the result is named as though it had done somebody a favor. (благодаря; по милости)"
+          ],
+          "examples": [
+            "The Rangers won it in overtime, courtesy of a deflection off a defenseman's skate.",
+            "We had front-row seats, courtesy of her brother's season tickets.",
+            "Courtesy of a burst main on Sixth Street, half of downtown was dry by noon.",
+            "Everybody got a second helping, courtesy of a neighbor who had over-ordered.",
+            "He spent the afternoon in the emergency room, courtesy of a ladder he should have replaced years ago."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The literal credit line — \"supplied by, with permission.\"",
+          "body": [
+            "Captions, acknowledgments, and program notes, where it carries no irony, takes no punctuation, and often drops the of altogether. (предоставлено — в подписи под иллюстрацией)"
+          ],
+          "examples": [
+            "The map is reproduced courtesy of the state archives.",
+            "Photograph courtesy of the Newberry Library.",
+            "Costumes this evening are courtesy of the university theater department."
+          ]
+        }
+      ],
       "русский": "благодаря кому-л.; предоставлено кем-л. — в титрах и журналистике, часто иронично",
       "register": "neutral; heavily used in journalism, sportswriting, and credit lines",
       "type": "preposition (not a conjunction)",
@@ -1044,13 +1133,55 @@
       "meaning": "Traditionally due to was an adjectival phrase modifying a noun after a form of be (The delay was due to fog), while because of modified verbs (We were delayed because of fog). Educated American usage now allows due to in both slots, but conservative editors and some standardized tests still enforce the old split, so a fronted Due to fog, we were delayed remains the version most likely to be marked.",
       "examples": [
         "The delay was due to fog on the runway.",
-        "Her recovery is due to a change in medication, not to rest.",
-        "Due to budget cuts, the branch library now closes at five.",
         "The outage was due to a squirrel in a transformer.",
         "Most of the increase is due to higher fuel costs.",
-        "Due to circumstances beyond our control, tonight's performance is canceled."
+        "Her recovery is due to a change in medication, not to rest.",
+        "Due to budget cuts, the branch library now closes at five.",
+        "Due to circumstances beyond our control, tonight's performance is canceled.",
+        "The clinic closed two hours early due to the storm.",
+        "The train is due to arrive at six.",
+        "She's due to give her notice at the end of the month.",
+        "The report was due to go to the board in April and still hasn't."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "After a form of be — \"was caused by.\"",
+          "body": [
+            "The traditional slot, where due is an adjective describing the noun in front of it and no editor objects. Russian takes a participle here rather than «из-за». (вызван, обусловлен чем-л.)"
+          ],
+          "examples": [
+            "The delay was due to fog on the runway.",
+            "The outage was due to a squirrel in a transformer.",
+            "Most of the increase is due to higher fuel costs.",
+            "Her recovery is due to a change in medication, not to rest."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Modifying a verb, or fronting the sentence — plain \"because of.\"",
+          "body": [
+            "Educated American usage accepts it; conservative editors and some standardized tests still mark a fronted Due to and want because of or owing to there. (из-за; вследствие)"
+          ],
+          "examples": [
+            "Due to budget cuts, the branch library now closes at five.",
+            "Due to circumstances beyond our control, tonight's performance is canceled.",
+            "The clinic closed two hours early due to the storm."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "be due to + verb — \"scheduled to, expected to.\"",
+          "body": [
+            "A different construction that only looks like the other two: due here is the adjective \"owed, expected\" and to is the infinitive marker, so no cause is being given at all. (должен, ожидается — по плану или расписанию)"
+          ],
+          "examples": [
+            "The train is due to arrive at six.",
+            "She's due to give her notice at the end of the month.",
+            "The report was due to go to the board in April and still hasn't."
+          ]
+        }
+      ],
       "русский": "из-за, вследствие — предлог; строгая норма допускает его лишь после форм be",
       "register": "neutral to formal",
       "type": "preposition (not a conjunction)",
@@ -1183,12 +1314,39 @@
       "examples": [
         "Thanks to a tailwind, we landed twenty minutes early.",
         "We found the place thanks to a neighbor who walked us over.",
-        "Thanks to whoever left the gate open, the dog spent the night in the woods.",
         "The team made the playoffs thanks to a rookie nobody had heard of in March.",
-        "I got there on time, no thanks to the detour signs.",
-        "Thanks to the new hire, the backlog is finally under a week."
+        "Thanks to the new hire, the backlog is finally under a week.",
+        "Thanks to whoever left the gate open, the dog spent the night in the woods.",
+        "Thanks to the geniuses in scheduling, I have two meetings at the same hour.",
+        "I got there on time, no thanks to the detour signs."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Credit where it is due — a good outcome and whoever brought it about",
+          "body": [
+            "(благодаря)"
+          ],
+          "examples": [
+            "Thanks to a tailwind, we landed twenty minutes early.",
+            "We found the place thanks to a neighbor who walked us over.",
+            "The team made the playoffs thanks to a rookie nobody had heard of in March.",
+            "Thanks to the new hire, the backlog is finally under a week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Sarcastic blame — credit handed to whoever wrecked it",
+          "body": [
+            "The irony comes from the mismatch between the grateful word and the bad outcome; no thanks to reverses the phrase outright and withholds credit from somebody who wanted it. (по милости; «спасибо» — с иронией)"
+          ],
+          "examples": [
+            "Thanks to whoever left the gate open, the dog spent the night in the woods.",
+            "Thanks to the geniuses in scheduling, I have two meetings at the same hour.",
+            "I got there on time, no thanks to the detour signs."
+          ]
+        }
+      ],
       "русский": "благодаря — с оттенком похвалы или, наоборот, иронического упрёка",
       "register": "neutral",
       "type": "preposition (not a conjunction)",

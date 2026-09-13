@@ -12,20 +12,34 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 ### dress
 
 **Pronunciation:** /drɛs/ &middot; *DRES*
-**Русский:** одеваться, одеться; одевать, одеть
+**Русский:** одеваться, одеться; одевать, одеть; перевязывать, обрабатывать (рану); заправлять, заправить (салат)
 **Forms:** *dress* &middot; *dressed* &middot; *dressed*
 **Verb class:** regular
 **Third person:** *dresses* &middot; **-ing form:** *dressing*
 **Transitivity:** both — transitive (*dress* the baby), intransitive (he *dresses* well)
 **Contrast:** About yourself Americans say *get dressed*, not *dress myself*: I got dressed in five minutes.
 
-To put clothes on yourself or on another person.
+Dress has 3 distinct senses.
+
+**1. To put clothes on yourself or on another person.** (одеваться, одеться; одевать, одеть)
 
 1. He *dresses* for the weather, not for the office.
 2. She *dressed* the twins in matching coats.
 3. I was *dressing* when the phone rang.
 
-**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up)
+**2. To clean a wound and cover it with a bandage.** (перевязывать, обрабатывать (рану))
+
+4. A nurse *dressed* the cut and sent him home.
+5. *Dress* the wound twice a day.
+6. The burn is still being *dressed* every morning.
+
+**3. To put oil, vinegar, or sauce on a salad.** (заправлять, заправить (салат))
+
+7. *Dress* the salad right before serving.
+8. She *dressed* the greens with lemon and olive oil.
+9. I like *dressing* the salad at the table so it doesn't wilt.
+
+**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up)
 
 ---
 
@@ -49,20 +63,40 @@ To take clothes off yourself or off another person.
 ### change
 
 **Pronunciation:** /tʃeɪndʒ/ &middot; *CHAYNJ*
-**Русский:** переодеваться, переодеться; менять, поменять
+**Русский:** переодеваться, переодеться; менять, поменять; меняться, измениться; менять, изменить; менять, поменять (постель, шину, подгузник); заменять, заменить; обменивать, обменять (валюту); разменивать, разменять
 **Forms:** *change* &middot; *changed* &middot; *changed*
 **Verb class:** regular
 **Third person:** *changes* &middot; **-ing form:** *changing*
 **Transitivity:** both
 **Contrast:** The final *e* drops before *-ing*: *changing*. You change **into** clothes, not *change on*.
 
-To put on different clothes, or to put different clothes on someone.
+Change has 4 distinct senses.
+
+**1. To put on different clothes, or to put different clothes on someone.** (переодеваться, переодеться; менять, поменять)
 
 1. I need to *change* before dinner.
 2. She *changed* into jeans the moment she got home.
 3. He is *changing* the baby in the back room.
 
-**Phrasal verbs:** [change around](53-phrasal-regular-a-c.md#change-around) &middot; [change into](53-phrasal-regular-a-c.md#change-into-1) &middot; [change into](53-phrasal-regular-a-c.md#change-into) &middot; [change over](53-phrasal-regular-a-c.md#change-over) &middot; [change up](53-phrasal-regular-a-c.md#change-up)
+**2. To become different, or to make something different.** (меняться, измениться; менять, изменить)
+
+4. The town has *changed* a lot in ten years.
+5. Nothing I said *changed* his mind.
+6. The climate is *changing* faster than anyone expected.
+
+**3. To take something away and put a fresh or new one in its place.** (менять, поменять (постель, шину, подгузник); заменять, заменить)
+
+7. I need to *change* the sheets.
+8. He *changed* the tire in the rain.
+9. Who's *changing* the baby?
+
+**4. To exchange money for the same value in another currency or in smaller bills.** (обменивать, обменять (валюту); разменивать, разменять)
+
+10. Where can I *change* dollars into pesos?
+11. She *changed* a twenty at the register.
+12. We had our money *changed* at the airport.
+
+**Phrasal verbs:** [change around](53-phrasal-regular-a-c.md#change-around) &middot; [change into](53-phrasal-regular-a-c.md#change-into) &middot; [change into](53-phrasal-regular-a-c.md#change-into-1) &middot; [change over](53-phrasal-regular-a-c.md#change-over) &middot; [change up](53-phrasal-regular-a-c.md#change-up)
 
 ---
 
@@ -87,20 +121,46 @@ To put on a piece of clothing or equipment.
 ### cover
 
 **Pronunciation:** /ˈkʌvər/ &middot; *KUV-ur*
-**Русский:** закрывать, прикрывать, закрыть
+**Русский:** закрывать, прикрывать, закрыть; охватывать, освещать (тему), рассматривать; покрывать, оплачивать (о страховке), покрыть; освещать (в прессе), делать репортаж; подменять, заменять (на работе), подменить
 **Forms:** *cover* &middot; *covered* &middot; *covered*
 **Verb class:** regular
 **Third person:** *covers* &middot; **-ing form:** *covering*
 **Transitivity:** transitive
 **Contrast:** You cover something **with** a scarf, a coat, a blanket.
 
-To put clothing or cloth over a part of the body.
+Cover has 5 distinct senses.
+
+**1. To put clothing or cloth over a part of the body.** (закрывать, прикрывать, закрыть)
 
 1. *Cover* your shoulders before you go inside.
 2. She *covered* her head with a thin scarf.
 3. His arms were *covered* to the wrist.
 
-**Phrasal verbs:** [cover for](53-phrasal-regular-a-c.md#cover-for-1) &middot; [cover for](53-phrasal-regular-a-c.md#cover-for) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up-1) &middot; [cover with](22-verb-preposition.md#cover-with)
+**2. To include or deal with a subject.** (охватывать, освещать (тему), рассматривать)
+
+4. The exam will *cover* chapters one through six.
+5. We *covered* that material last week.
+6. That error isn't *covered* in the manual.
+
+**3. To pay for a loss or a cost, said of insurance or of an amount of money.** (покрывать, оплачивать (о страховке), покрыть)
+
+7. Does your policy *cover* flood damage?
+8. Insurance *covered* most of the repair.
+9. Dental work isn't *covered* by this plan.
+
+**4. To report on an event or a subject as a journalist.** (освещать (в прессе), делать репортаж)
+
+10. She *covers* the White House for a wire service.
+11. He *covered* the trial for three months.
+12. Dozens of reporters were *covering* the storm.
+
+**5. To do someone's job while they are away.** (подменять, заменять (на работе), подменить)
+
+13. Can you *cover* my shift on Friday?
+14. She *covered* the front desk while I was out.
+15. Who's *covering* the phones at lunch?
+
+**Phrasal verbs:** [cover for](53-phrasal-regular-a-c.md#cover-for) &middot; [cover for](53-phrasal-regular-a-c.md#cover-for-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up) &middot; [cover with](22-verb-preposition.md#cover-with)
 
 ---
 
@@ -143,18 +203,26 @@ To add belts, jewelry, scarves, or bags to an outfit.
 ### disguise
 
 **Pronunciation:** /dɪsˈɡaɪz/ &middot; *dis-GYZ*
-**Русский:** маскировать, переодевать; маскироваться
+**Русский:** маскировать, переодевать; маскироваться; скрывать, скрыть; маскировать (чувства)
 **Forms:** *disguise* &middot; *disguised* &middot; *disguised*
 **Verb class:** regular
 **Third person:** *disguises* &middot; **-ing form:** *disguising*
 **Transitivity:** transitive
 **Contrast:** The *s* in the middle is a /z/ sound and the *u* is silent: dis-GYZ.
 
-To change clothes or appearance so that people do not recognize you.
+Disguise has 2 distinct senses.
+
+**1. To change clothes or appearance so that people do not recognize you.** (маскировать, переодевать; маскироваться)
 
 1. A wig alone will not *disguise* you.
 2. He *disguised* himself as a delivery driver.
 3. She was *disguised* in a long coat and dark glasses.
+
+**2. To hide a feeling, fact, or quality so that others do not notice it.** (скрывать, скрыть; маскировать (чувства))
+
+4. He could not *disguise* his disappointment.
+5. She *disguised* her accent for the interview.
+6. All that sauce is just *disguising* the taste of old fish.
 
 ---
 
@@ -178,18 +246,26 @@ To cover the face, or to hide something from view.
 ### veil
 
 **Pronunciation:** /veɪl/ &middot; *VAYL*
-**Русский:** закрывать вуалью, скрывать, завуалировать
+**Русский:** закрывать вуалью, скрывать, завуалировать; скрывать, скрыть; завуалировать
 **Forms:** *veil* &middot; *veiled* &middot; *veiled*
 **Verb class:** regular
 **Third person:** *veils* &middot; **-ing form:** *veiling*
 **Transitivity:** transitive
 **Contrast:** *Veil* sounds exactly like *vale*, an old word for a valley.
 
-To cover the face or head with a thin cloth.
+Veil has 2 distinct senses.
+
+**1. To cover the face or head with a thin cloth.** (закрывать вуалью, скрывать, завуалировать)
 
 1. Traditional dress *veils* the hair and the neck.
 2. She *veiled* her face before entering the shrine.
 3. The window was *veiled* with pale lace.
+
+**2. To hide something so that it cannot be clearly seen or understood.** (скрывать, скрыть; завуалировать)
+
+4. Fog *veiled* the top of the bridge all morning.
+5. The company *veils* its finances behind vague language.
+6. It was a thinly *veiled* threat.
 
 ---
 
@@ -231,17 +307,25 @@ To wrap a baby tightly in a cloth or a light blanket.
 ### bundle
 
 **Pronunciation:** /ˈbʌndəl/ &middot; *BUN-duhl*
-**Русский:** укутывать, закутать; связывать в узел
+**Русский:** укутывать, закутать; связывать в узел; продавать в комплекте, объединять в пакет
 **Forms:** *bundle* &middot; *bundled* &middot; *bundled*
 **Verb class:** regular
 **Third person:** *bundles* &middot; **-ing form:** *bundling*
 **Transitivity:** transitive
 
-To wrap someone in warm clothes, or to tie things together in a bunch.
+Bundle has 2 distinct senses.
+
+**1. To wrap someone in warm clothes, or to tie things together in a bunch.** (укутывать, закутать; связывать в узел)
 
 1. *Bundle* the kids in their snow gear before they go out.
 2. She *bundled* the baby in two blankets.
 3. The old sweaters were *bundled* and carried to the attic.
+
+**2. To sell or supply several products together as one package.** (продавать в комплекте, объединять в пакет)
+
+4. The laptop comes *bundled* with antivirus software.
+5. The cable company *bundles* internet and TV.
+6. They *bundled* the two courses and dropped the price.
 
 **Phrasal verbs:** [bundle up](53-phrasal-regular-a-c.md#bundle-up)
 
@@ -250,18 +334,38 @@ To wrap someone in warm clothes, or to tie things together in a bunch.
 ### try
 
 **Pronunciation:** /traɪ/ &middot; *TRY*
-**Русский:** примерять, примерить; пробовать, попробовать
+**Русский:** примерять, примерить; пробовать, попробовать; пытаться, попытаться; стараться, постараться; пробовать, попробовать (на вкус, в деле); судить, рассматривать дело в суде
 **Forms:** *try* &middot; *tried* &middot; *tried*
 **Verb class:** regular
 **Third person:** *tries* &middot; **-ing form:** *trying*
 **Transitivity:** both
 **Contrast:** The *y* becomes *i*: *try → tries, tried*, but *trying* keeps the *y*. In a store Americans add *on*: *try on a coat*.
 
-To put clothing on for a moment to see whether it fits or looks right.
+Try has 4 distinct senses.
+
+**1. To put clothing on for a moment to see whether it fits or looks right.** (примерять, примерить; пробовать, попробовать)
 
 1. Ask whether you can *try* the next size up.
 2. She *tried* three jackets and bought none of them.
 3. He is *trying* the boots in a wider width.
+
+**2. To make an effort to do something.** (пытаться, попытаться; стараться, постараться)
+
+4. I'll *try* to be there by six.
+5. She *tried* three times before the door opened.
+6. He has been *trying* to reach you all morning.
+
+**3. To use or taste something in order to find out whether it is good or whether it works.** (пробовать, попробовать (на вкус, в деле))
+
+7. You should *try* the soup — it's incredible.
+8. We *tried* a new route to avoid the traffic.
+9. Have you ever *tried* skiing?
+
+**4. To examine a case, or the person accused, in a court of law.** (судить, рассматривать дело в суде)
+
+10. They plan to *try* the two men separately.
+11. The judge *tried* the case without a jury.
+12. He will be *tried* in federal court next spring.
 
 **Phrasal verbs:** [try on](58-phrasal-regular-t-z.md#try-on) &middot; [try out](58-phrasal-regular-t-z.md#try-out) &middot; [try out for](58-phrasal-regular-t-z.md#try-out-for)
 
@@ -343,18 +447,32 @@ To open a shirt or coat by undoing its buttons.
 ### zip
 
 **Pronunciation:** /zɪp/ &middot; *ZIP*
-**Русский:** застёгивать на молнию, застегнуть
+**Русский:** застёгивать на молнию, застегнуть; мчаться, промчаться; носиться; архивировать, сжимать в архив (файлы)
 **Forms:** *zip* &middot; *zipped* &middot; *zipped*
 **Verb class:** regular
 **Third person:** *zips* &middot; **-ing form:** *zipping*
 **Transitivity:** both
 **Contrast:** The *p* doubles: *zip → zipped, zipping*. Americans call the fastener a *zipper*.
 
-To close something with a zipper.
+Zip has 3 distinct senses.
+
+**1. To close something with a zipper.** (застёгивать на молнию, застегнуть)
 
 1. This jacket *zips* all the way to the chin.
 2. She *zipped* her bag and ran for the bus.
 3. He is *zipping* the kids into their snowsuits.
+
+**2. To move very fast.** (мчаться, промчаться; носиться)
+
+4. Cars *zip* down this street all night.
+5. A bike *zipped* past me on the sidewalk.
+6. We were *zipping* along at eighty.
+
+**3. To compress computer files into one smaller package.** (архивировать, сжимать в архив (файлы))
+
+7. Please *zip* the folder before you email it.
+8. I *zipped* the photos into a single file.
+9. The files were *zipped* and sent overnight.
 
 **Phrasal verbs:** [zip it](58-phrasal-regular-t-z.md#zip-it) &middot; [zip through](58-phrasal-regular-t-z.md#zip-through) &middot; [zip up](58-phrasal-regular-t-z.md#zip-up)
 
@@ -363,35 +481,51 @@ To close something with a zipper.
 ### unzip
 
 **Pronunciation:** /ʌnˈzɪp/ &middot; *un-ZIP*
-**Русский:** расстёгивать молнию, расстегнуть
+**Русский:** расстёгивать молнию, расстегнуть; распаковывать, распаковать (архив); разархивировать
 **Forms:** *unzip* &middot; *unzipped* &middot; *unzipped*
 **Verb class:** regular
 **Third person:** *unzips* &middot; **-ing form:** *unzipping*
 **Transitivity:** transitive
 **Contrast:** The *p* doubles: *unzip → unzipped, unzipping*.
 
-To open a zipper.
+Unzip has 2 distinct senses.
+
+**1. To open a zipper.** (расстёгивать молнию, расстегнуть)
 
 1. *Unzip* the lining and pull it out.
 2. He *unzipped* his hoodie and sat down.
 3. The tent had been *unzipped* from the inside.
+
+**2. To open a compressed computer file and take the files out of it.** (распаковывать, распаковать (архив); разархивировать)
+
+4. You have to *unzip* the folder before you run the installer.
+5. I *unzipped* the file and found three photos inside.
+6. The attachment has already been *unzipped*.
 
 ---
 
 ### buckle
 
 **Pronunciation:** /ˈbʌkəl/ &middot; *BUK-uhl*
-**Русский:** застёгивать пряжку, пристёгивать, застегнуть
+**Русский:** застёгивать пряжку, пристёгивать, застегнуть; деформироваться, погнуться, покоробиться; подкашиваться (о ногах)
 **Forms:** *buckle* &middot; *buckled* &middot; *buckled*
 **Verb class:** regular
 **Third person:** *buckles* &middot; **-ing form:** *buckling*
 **Transitivity:** transitive
 
-To fasten a belt, a shoe, or a strap with a buckle.
+Buckle has 2 distinct senses.
+
+**1. To fasten a belt, a shoe, or a strap with a buckle.** (застёгивать пряжку, пристёгивать, застегнуть)
 
 1. *Buckle* the strap under his chin.
 2. She *buckled* her sandals and stood up.
 3. He was *buckling* the belt on the last notch.
+
+**2. To bend or give way out of shape under weight or heat.** (деформироваться, погнуться, покоробиться; подкашиваться (о ногах))
+
+4. Cheap sheet metal *buckles* in the sun.
+5. His knees *buckled* when he heard the news.
+6. The rails had *buckled* in the heat and the train stopped.
 
 **Phrasal verbs:** [buckle down](53-phrasal-regular-a-c.md#buckle-down) &middot; [buckle under](53-phrasal-regular-a-c.md#buckle-under) &middot; [buckle up](53-phrasal-regular-a-c.md#buckle-up)
 
@@ -417,36 +551,58 @@ To undo a buckle.
 ### lace
 
 **Pronunciation:** /leɪs/ &middot; *LAYS*
-**Русский:** шнуровать, зашнуровать
+**Русский:** шнуровать, зашнуровать; подмешивать, подмешать (спиртное или наркотик)
 **Forms:** *lace* &middot; *laced* &middot; *laced*
 **Verb class:** regular
 **Third person:** *laces* &middot; **-ing form:** *lacing*
 **Transitivity:** transitive
 **Contrast:** The verb *lace* and *lace*, the delicate fabric, are spelled and said the same way.
 
-To pull laces through the holes of a shoe or boot and tie them.
+Lace has 2 distinct senses.
+
+**1. To pull laces through the holes of a shoe or boot and tie them.** (шнуровать, зашнуровать)
 
 1. *Lace* the boots tight before a long hike.
 2. He *laced* his skates in a hurry.
 3. She knelt on the step, *lacing* her running shoes.
+
+**2. To add alcohol or a drug to food or a drink, usually secretly.** (подмешивать, подмешать (спиртное или наркотик))
+
+4. Somebody *laced* the punch with vodka.
+5. The pills were *laced* with fentanyl.
+6. He's been *lacing* his coffee with whiskey since noon.
 
 ---
 
 ### tie
 
 **Pronunciation:** /taɪ/ &middot; *TY*
-**Русский:** завязывать, завязать; привязывать, привязать
+**Русский:** завязывать, завязать; привязывать, привязать; сыграть вничью, сравнять счёт; связывать, увязывать (с чем-либо); устанавливать связь
 **Forms:** *tie* &middot; *tied* &middot; *tied*
 **Verb class:** regular
 **Third person:** *ties* &middot; **-ing form:** *tying*
 **Transitivity:** transitive
 **Contrast:** The *-ing* form changes its spelling: *tie → tying*, never *tieing*.
 
-To fasten something with a knot or a bow.
+Tie has 3 distinct senses.
+
+**1. To fasten something with a knot or a bow.** (завязывать, завязать; привязывать, привязать)
 
 1. He can *tie* his own shoes now.
 2. She *tied* the sash in a neat bow.
 3. The apron was *tied* so loosely that it came undone.
+
+**2. To finish a game or a contest with the same score as the other side.** (сыграть вничью, сравнять счёт)
+
+4. If we *tie*, the match goes to penalties.
+5. The teams *tied* 2-2 last night.
+6. She has *tied* the world record twice.
+
+**3. To connect a person or a thing to something else as being involved in it.** (связывать, увязывать (с чем-либо); устанавливать связь)
+
+7. DNA evidence *tied* him to the scene.
+8. Nothing *ties* the suspect to that building.
+9. Bonuses are *tied* to company profits.
 
 **Phrasal verbs:** [tie down](58-phrasal-regular-t-z.md#tie-down) &middot; [tie in](58-phrasal-regular-t-z.md#tie-in) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up-1) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up)
 
@@ -491,36 +647,58 @@ To tie something into a knot.
 ### clasp
 
 **Pronunciation:** /klæsp/ &middot; *KLASP*
-**Русский:** застёгивать застёжку, скреплять
+**Русский:** застёгивать застёжку, скреплять; сжимать, сжать; крепко держать, прижимать
 **Forms:** *clasp* &middot; *clasped* &middot; *clasped*
 **Verb class:** regular
 **Third person:** *clasps* &middot; **-ing form:** *clasping*
 **Transitivity:** transitive
 
-To fasten a necklace, a bracelet, or a bag with its clasp.
+Clasp has 2 distinct senses.
+
+**1. To fasten a necklace, a bracelet, or a bag with its clasp.** (застёгивать застёжку, скреплять)
 
 1. Can you *clasp* this necklace for me?
 2. She *clasped* the bracelet around her wrist.
 3. The purse is *clasped* with a small brass catch.
+
+**2. To hold something tightly in your hand or your arms.** (сжимать, сжать; крепко держать, прижимать)
+
+4. She *clasps* her hands whenever she is nervous.
+5. He *clasped* my hand and thanked me twice.
+6. The child was *clasping* a stuffed rabbit.
 
 ---
 
 ### hook
 
 **Pronunciation:** /hʊk/ &middot; *HUK*
-**Русский:** застёгивать на крючок, зацеплять, зацепить
+**Русский:** застёгивать на крючок, зацеплять, зацепить; ловить на крючок, поймать; подсекать (рыбу); увлекать, увлечь; зацепить; подсаживать (на что-л.)
 **Forms:** *hook* &middot; *hooked* &middot; *hooked*
 **Verb class:** regular
 **Third person:** *hooks* &middot; **-ing form:** *hooking*
 **Transitivity:** transitive
 
-To fasten something with a hook, or to hang it on one.
+Hook has 3 distinct senses.
+
+**1. To fasten something with a hook, or to hang it on one.** (застёгивать на крючок, зацеплять, зацепить)
 
 1. *Hook* the top of the dress first, then zip it.
 2. She *hooked* the strap and pulled the zipper up.
 3. His jacket was *hooked* over the back of the chair.
 
-**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-3) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-2) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-1) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up)
+**2. To catch a fish on a hook.** (ловить на крючок, поймать; подсекать (рыбу))
+
+4. He *hooked* a big trout on his second cast.
+5. She *hooks* more fish than anyone else in the boat.
+6. I've *hooked* something heavy — get the net.
+
+**3. To capture someone's interest so completely that they cannot stop.** (увлекать, увлечь; зацепить; подсаживать (на что-л.))
+
+7. The first episode *hooked* me.
+8. A good opening line *hooks* the reader.
+9. My son is completely *hooked* on chess.
+
+**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-1) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-3) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-2)
 
 ---
 
@@ -600,17 +778,25 @@ To take off a part that is made to come off.
 ### loop
 
 **Pronunciation:** /luːp/ &middot; *LOOP*
-**Русский:** продевать петлёй, обматывать, обмотать
+**Русский:** продевать петлёй, обматывать, обмотать; повторяться по кругу, зацикливаться; ставить на повтор
 **Forms:** *loop* &middot; *looped* &middot; *looped*
 **Verb class:** regular
 **Third person:** *loops* &middot; **-ing form:** *looping*
 **Transitivity:** transitive
 
-To pass something long around or through in the shape of a loop.
+Loop has 2 distinct senses.
+
+**1. To pass something long around or through in the shape of a loop.** (продевать петлёй, обматывать, обмотать)
 
 1. *Loop* the belt through every belt loop, not just the front ones.
 2. She *looped* the scarf twice around her neck.
 3. The cord is *looped* over the hook behind the door.
+
+**2. To repeat over and over from the beginning without stopping.** (повторяться по кругу, зацикливаться; ставить на повтор)
+
+4. The ad *loops* every thirty seconds on the screen.
+5. We *looped* the same song for the whole drive.
+6. A ten-second clip was *looping* above the stage.
 
 ---
 
@@ -686,36 +872,58 @@ To sew two layers of cloth together with padding between them.
 ### unravel
 
 **Pronunciation:** /ʌnˈrævəl/ &middot; *un-RAV-uhl*
-**Русский:** распускаться, распускать (вязание); распутывать
+**Русский:** распускаться, распускать (вязание); распутывать; распутывать, распутать; разгадывать, разгадать; разваливаться, развалиться; рушиться, рухнуть
 **Forms:** *unravel* &middot; *unraveled* &middot; *unraveled*
 **Verb class:** regular
 **Third person:** *unravels* &middot; **-ing form:** *unraveling*
 **Transitivity:** both
 **Contrast:** American spelling keeps one *l*: *unraveled, unraveling*; British writing doubles it.
 
-To come apart into loose threads, or to pull knitted work apart on purpose.
+Unravel has 3 distinct senses.
+
+**1. To come apart into loose threads, or to pull knitted work apart on purpose.** (распускаться, распускать (вязание); распутывать)
 
 1. Cheap sweaters *unravel* after one season.
 2. The whole sleeve *unraveled* from one loose thread.
 3. She is *unraveling* the old scarf to reuse the yarn.
+
+**2. To solve or explain something mysterious or complicated.** (распутывать, распутать; разгадывать, разгадать)
+
+4. It took investigators years to *unravel* the fraud.
+5. Researchers *unraveled* the cause of the outbreak.
+6. The mystery has never been fully *unraveled*.
+
+**3. To fall apart or begin to fail.** (разваливаться, развалиться; рушиться, рухнуть)
+
+7. The deal *unraveled* at the last minute.
+8. His life began to *unravel* after the injury.
+9. Their coalition has been *unraveling* since the election.
 
 ---
 
 ### snag
 
 **Pronunciation:** /snæɡ/ &middot; *SNAG*
-**Русский:** зацепить, порвать зацепив; делать затяжку
+**Русский:** зацепить, порвать зацепив; делать затяжку; урвать, раздобыть, ухватить
 **Forms:** *snag* &middot; *snagged* &middot; *snagged*
 **Verb class:** regular
 **Third person:** *snags* &middot; **-ing form:** *snagging*
 **Transitivity:** both
 **Contrast:** The *g* doubles: *snag → snagged, snagging*.
 
-To catch cloth on something sharp and pull a thread loose.
+Snag has 2 distinct senses.
+
+**1. To catch cloth on something sharp and pull a thread loose.** (зацепить, порвать зацепив; делать затяжку)
 
 1. Rings *snag* fine knits every time.
 2. She *snagged* her tights on the corner of the desk.
 3. He kept *snagging* the sweater on the drawer handle.
+
+**2. To get or grab something quickly, especially something hard to get (informal).** (урвать, раздобыть, ухватить)
+
+4. I *snagged* two tickets before they sold out.
+5. *Snag* a seat near the front if you can.
+6. She has *snagged* an interview with the CEO.
 
 ---
 
@@ -739,17 +947,25 @@ To fold cloth into regular flat folds and sew them in place.
 ### ruffle
 
 **Pronunciation:** /ˈrʌfəl/ &middot; *RUF-uhl*
-**Русский:** делать оборки; трепать, взъерошить
+**Русский:** делать оборки; трепать, взъерошить; смущать, смутить; выводить из себя; задевать, задеть
 **Forms:** *ruffle* &middot; *ruffled* &middot; *ruffled*
 **Verb class:** regular
 **Third person:** *ruffles* &middot; **-ing form:** *ruffling*
 **Transitivity:** transitive
 
-To gather cloth into a strip of soft folds, or to push something out of its neat shape.
+Ruffle has 2 distinct senses.
+
+**1. To gather cloth into a strip of soft folds, or to push something out of its neat shape.** (делать оборки; трепать, взъерошить)
 
 1. The wind *ruffles* her skirt every time she crosses the bridge.
 2. She *ruffled* the hem with a wide band of lace.
 3. His hair was *ruffled* and his tie was crooked.
+
+**2. To upset someone's calm or annoy them slightly.** (смущать, смутить; выводить из себя; задевать, задеть)
+
+4. Tough questions never *ruffle* her.
+5. The comment clearly *ruffled* the coach.
+6. He looked a little *ruffled* when they asked about the money.
 
 ---
 
@@ -773,18 +989,26 @@ To make something longer, or to become longer.
 ### line
 
 **Pronunciation:** /laɪn/ &middot; *LYN*
-**Русский:** подбивать подкладкой, ставить на подкладку
+**Русский:** подбивать подкладкой, ставить на подкладку; стоять вдоль, выстраиваться вдоль; тянуться вдоль
 **Forms:** *line* &middot; *lined* &middot; *lined*
 **Verb class:** regular
 **Third person:** *lines* &middot; **-ing form:** *lining*
 **Transitivity:** transitive
 **Contrast:** You line something **with** a material, and the inner layer itself is the *lining*.
 
-To cover the inside of a coat, a bag, or a box with another material.
+Line has 2 distinct senses.
+
+**1. To cover the inside of a coat, a bag, or a box with another material.** (подбивать подкладкой, ставить на подкладку)
 
 1. They *line* the winter coats with flannel.
 2. She *lined* the jacket with cheap silk.
 3. The boots are *lined* with wool.
+
+**2. To stand or be arranged in a row along something.** (стоять вдоль, выстраиваться вдоль; тянуться вдоль)
+
+4. Oak trees *line* both sides of the street.
+5. Fans *lined* the sidewalk for six blocks.
+6. The hallway is *lined* with family photos.
 
 **Phrasal verbs:** [line up](55-phrasal-regular-g-l.md#line-up-1) &middot; [line up](55-phrasal-regular-g-l.md#line-up)
 
@@ -793,17 +1017,25 @@ To cover the inside of a coat, a bag, or a box with another material.
 ### cuff
 
 **Pronunciation:** /kʌf/ &middot; *KUF*
-**Русский:** подворачивать (штанину, рукав), закатать
+**Русский:** подворачивать (штанину, рукав), закатать; надевать наручники, заковать в наручники
 **Forms:** *cuff* &middot; *cuffed* &middot; *cuffed*
 **Verb class:** regular
 **Third person:** *cuffs* &middot; **-ing form:** *cuffing*
 **Transitivity:** transitive
 
-To turn the bottom of a sleeve or a pant leg up into a fold.
+Cuff has 2 distinct senses.
+
+**1. To turn the bottom of a sleeve or a pant leg up into a fold.** (подворачивать (штанину, рукав), закатать)
 
 1. He likes to *cuff* his jeans above his boots.
 2. She *cuffed* the sleeves of his big sweater twice.
 3. The pants came back *cuffed* and pressed.
+
+**2. To put handcuffs on someone.** (надевать наручники, заковать в наручники)
+
+4. The officer *cuffed* him and read him his rights.
+5. They *cuff* everyone before the transport.
+6. He was *cuffed* and put in the back of the car.
 
 ---
 
@@ -845,17 +1077,25 @@ To press a sharp line into cloth, or to get an unwanted fold in it.
 ### unfold
 
 **Pronunciation:** /ʌnˈfoʊld/ &middot; *un-FOHLD*
-**Русский:** разворачивать, расправлять, развернуть
+**Русский:** разворачивать, расправлять, развернуть; разворачиваться, развиваться (о событиях)
 **Forms:** *unfold* &middot; *unfolded* &middot; *unfolded*
 **Verb class:** regular
 **Third person:** *unfolds* &middot; **-ing form:** *unfolding*
 **Transitivity:** both
 
-To open out something that has been folded.
+Unfold has 2 distinct senses.
+
+**1. To open out something that has been folded.** (разворачивать, расправлять, развернуть)
 
 1. *Unfold* the shirt carefully so it does not wrinkle.
 2. She *unfolded* the dress and hung it by the window.
 3. The napkin had been *unfolded* and left on the chair.
+
+**2. To develop or happen gradually over a period of time.** (разворачиваться, развиваться (о событиях))
+
+4. The scandal *unfolded* over several months.
+5. We watched the story *unfold* on live television.
+6. Events were still *unfolding* when we went to press.
 
 ---
 
@@ -882,18 +1122,32 @@ To put two things together, or to wear one item with another.
 ### separate
 
 **Pronunciation:** /ˈsɛpəreɪt/ &middot; *SEP-uh-rayt*
-**Русский:** разделять, отделять, разделить
+**Русский:** разделять, отделять, разделить; расходиться, разойтись; разъезжаться (о супругах); отличать, выделять (среди других)
 **Forms:** *separate* &middot; *separated* &middot; *separated*
 **Verb class:** regular
 **Third person:** *separates* &middot; **-ing form:** *separating*
 **Transitivity:** both
 **Contrast:** The verb ends in /eɪt/, SEP-uh-rayt; the adjective *separate* is SEP-rit. There is an *a* in the middle: sep-**a**-rate.
 
-To divide things into groups, or to keep them apart.
+Separate has 3 distinct senses.
+
+**1. To divide things into groups, or to keep them apart.** (разделять, отделять, разделить)
 
 1. *Separate* the whites from the darks.
 2. She *separated* the wool items before washing.
 3. The delicates are *separated* into a mesh bag.
+
+**2. To stop living together as a couple without being divorced yet.** (расходиться, разойтись; разъезжаться (о супругах))
+
+4. Couples who *separate* often still share the kids' schedule.
+5. They *separated* last spring after eleven years.
+6. He has been *separated* from his wife since March.
+
+**3. To be the quality that makes one person or thing different from another.** (отличать, выделять (среди других))
+
+7. Attention to detail *separates* a good cook from a great one.
+8. One point *separated* the two teams at the buzzer.
+9. The finalists were *separated* by less than a second.
 
 **Phrasal verbs:** [separate from](22-verb-preposition.md#separate-from)
 
@@ -902,38 +1156,54 @@ To divide things into groups, or to keep them apart.
 ### match
 
 **Pronunciation:** /mætʃ/ &middot; *MACH*
-**Русский:** подходить, сочетаться; подбирать в тон
+**Русский:** подходить, сочетаться; подбирать в тон; не уступать, сравняться; соответствовать (по уровню)
 **Forms:** *match* &middot; *matched* &middot; *matched*
 **Verb class:** regular
 **Third person:** *matches* &middot; **-ing form:** *matching*
 **Transitivity:** both
 **Contrast:** The third person adds *-es*: *matches*. You match one thing **to** or **with** another.
 
-To look right together, or to find something that goes with something else.
+Match has 2 distinct senses.
+
+**1. To look right together, or to find something that goes with something else.** (подходить, сочетаться; подбирать в тон)
 
 1. Those shoes do not *match* the belt.
 2. She *matched* the scarf to her coat.
 3. They showed up in *matching* sweaters.
 
-**Phrasal verbs:** [match up](56-phrasal-regular-m-p.md#match-up) &middot; [match up](56-phrasal-regular-m-p.md#match-up-1)
+**2. To be equal to something, or to do as well as it.** (не уступать, сравняться; соответствовать (по уровню))
+
+4. No other store can *match* that price.
+5. He *matched* the world record on his second try.
+6. The company has *matched* every dollar she put into her 401(k).
+
+**Phrasal verbs:** [match up](56-phrasal-regular-m-p.md#match-up-1) &middot; [match up](56-phrasal-regular-m-p.md#match-up)
 
 ---
 
 ### clash
 
 **Pronunciation:** /klæʃ/ &middot; *KLASH*
-**Русский:** не сочетаться, дисгармонировать
+**Русский:** не сочетаться, дисгармонировать; сталкиваться, вступать в конфликт; спорить
 **Forms:** *clash* &middot; *clashed* &middot; *clashed*
 **Verb class:** regular
 **Third person:** *clashes* &middot; **-ing form:** *clashing*
 **Transitivity:** intransitive
 **Contrast:** One color clashes **with** another.
 
-To look bad together, especially two colors or patterns.
+Clash has 2 distinct senses.
+
+**1. To look bad together, especially two colors or patterns.** (не сочетаться, дисгармонировать)
 
 1. Orange and pink *clash*, but she wears them anyway.
 2. The tie *clashed* with his shirt.
 3. Those two patterns are *clashing* badly.
+
+**2. To fight or argue openly with someone.** (сталкиваться, вступать в конфликт; спорить)
+
+4. The two senators *clash* over spending every year.
+5. Protesters *clashed* with police downtown.
+6. The coach and the owner have *clashed* repeatedly this season.
 
 ---
 
@@ -1013,17 +1283,25 @@ To arrange clothes or hair to create a particular look.
 ### pose
 
 **Pronunciation:** /poʊz/ &middot; *POHZ*
-**Русский:** позировать, принимать позу
+**Русский:** позировать, принимать позу; представлять (угрозу), создавать (проблему); ставить, задавать (вопрос)
 **Forms:** *pose* &middot; *posed* &middot; *posed*
 **Verb class:** regular
 **Third person:** *poses* &middot; **-ing form:** *posing*
 **Transitivity:** intransitive
 
-To hold a position so that someone can photograph or paint you.
+Pose has 2 distinct senses.
+
+**1. To hold a position so that someone can photograph or paint you.** (позировать, принимать позу)
 
 1. *Pose* by the window where the light is better.
 2. They *posed* in their graduation gowns.
 3. She was *posing* for the camera in her new coat.
+
+**2. To create a problem, a risk, or a question that someone has to deal with.** (представлять (угрозу), создавать (проблему); ставить, задавать (вопрос))
+
+4. The chemicals *pose* a serious risk to workers.
+5. She *posed* a question no one could answer.
+6. The new rules have *posed* a real problem for small farms.
 
 ---
 
@@ -1136,17 +1414,25 @@ To move loosely back and forth in the air.
 ### embellish
 
 **Pronunciation:** /ɪmˈbɛlɪʃ/ &middot; *im-BEL-ish*
-**Русский:** украшать, декорировать, украсить
+**Русский:** украшать, декорировать, украсить; приукрашивать, приукрасить (рассказ)
 **Forms:** *embellish* &middot; *embellished* &middot; *embellished*
 **Verb class:** regular
 **Third person:** *embellishes* &middot; **-ing form:** *embellishing*
 **Transitivity:** transitive
 
-To add decoration to something plain.
+Embellish has 2 distinct senses.
+
+**1. To add decoration to something plain.** (украшать, декорировать, украсить)
 
 1. They *embellish* the jackets with beads by hand.
 2. She *embellished* a plain dress with ribbon.
 3. The collar is *embellished* with tiny crystals.
+
+**2. To make a story more interesting by adding details that are not true.** (приукрашивать, приукрасить (рассказ))
+
+4. He always *embellishes* the story a little.
+5. She *embellished* her résumé and got caught.
+6. The tale has been *embellished* with every retelling.
 
 ---
 

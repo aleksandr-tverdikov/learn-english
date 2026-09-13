@@ -24,7 +24,9 @@ Seven words, one for each person and number, and each has a matching standalone 
 
 Marks the following noun as belonging to, produced by, or associated with a female person or animal already identified.
 
-**1.** The ordinary possessive. **2.** A dated and now largely poetic use for ships, countries, and machines (*the ship and her crew*). Modern American usage, including AP style, writes *its* here.
+The form is chosen by the **possessor**, never by the thing possessed — *her car*, *her keys*, *her patience* all take the same shape, which is the single point where Russian speakers have to unlearn agreement. Beyond the ordinary possessive there is one survival worth recognizing but not imitating: the poetic *her* used of ships, countries, and machines, where modern American usage, AP style included, writes *its*.
+
+**1. The ordinary possessive — belonging to, made by, or connected with a female person or animal.** (её; если владелец совпадает с подлежащим, по-русски «свой»)
 
 1. *Her* apartment is two blocks from the office. (singular countable)
 2. Maria left *her* keys, *her* badge, and *her* laptop on the desk. (plural countable)
@@ -34,7 +36,12 @@ Marks the following noun as belonging to, produced by, or associated with a fema
 6. I appreciated *her* driving me to the airport. (gerund)
 7. Isn't that *her* car in the driveway? (question — the determiner does not change)
 8. She hasn't returned *her* library books. (negative)
-9. The ship and *her* crew reached port at dawn. (sense 2, dated — modern American writing uses *its*)
+
+**2. Dated and now poetic — of ships, countries, and machines.** (устар. и поэт. о кораблях, странах, машинах — совр. амер. норма здесь its)
+
+9. The ship and *her* crew reached port at dawn.
+10. America and *her* allies signed the accord that spring. (period style; modern editing writes *its allies*)
+11. The old locomotive was hauled out and *her* boiler sold for scrap.
 
 **See also:** [his](#his), [their](#their), [my](#my), [of mine](#of-mine), [own](#own)
 
@@ -50,16 +57,23 @@ Marks the following noun as belonging to, produced by, or associated with a fema
 
 Marks the following noun as belonging to, produced by, or associated with a male person or animal already identified.
 
-**1.** The ordinary possessive. **2.** The generic masculine, covering a person of unspecified gender. Standard until the 1970s, now avoided in American editing — replace with singular *their*, with *his or her*, or by making the subject plural.
+The form is chosen by the **possessor**, never by the thing possessed. The second use below — the generic masculine, covering a person of unspecified gender — was standard until the 1970s and is now avoided in American editing: replace it with singular *their*, with *his or her*, or by making the subject plural.
+
+**1. The ordinary possessive — belonging to, made by, or connected with a male person or animal.** (его; если владелец совпадает с подлежащим, по-русски «свой»)
 
 1. *His* flight lands at six. (singular countable)
 2. David forgot *his* wallet, *his* phone, and *his* charger. (plural countable)
 3. The airline lost *his* luggage in Denver. (uncountable)
 4. Both *his* brothers work downtown. (predeterminer *both*, no *of*)
 5. He paid the deposit out of *his* own savings.
-6. Every applicant should submit *his* résumé by Friday. (dated generic — today, *their résumé*)
-7. Didn't he bring *his* laptop? (question)
-8. He never answers *his* phone after six. (negative)
+6. Didn't he bring *his* laptop? (question)
+7. He never answers *his* phone after six. (negative)
+
+**2. The generic masculine — a person of unspecified gender.** (устар. обобщающее «его» о человеке любого пола — сейчас пишут their или his or her)
+
+8. Every applicant should submit *his* résumé by Friday. (dated — today, *their résumé*)
+9. Each student must bring *his* own calculator. (dated — today, *their own calculator*)
+10. A doctor owes *his* patient the truth. — standard until the 1970s, now avoided in American editing
 
 **See also:** [her](#her), [their](#their), [his or her](#his-or-her), [his (periphrastic genitive)](#his-periphrastic-genitive), [of mine](#of-mine)
 
@@ -99,16 +113,28 @@ Marks the following noun as a part, property, product, or possession of a thing,
 
 Marks the following noun as belonging to, produced by, or associated with the speaker.
 
-**1.** The ordinary possessive. **2.** In direct address, marking closeness or (often) condescension: *my friend*, *my dear*, *my good man*. **3.** Before a gerund, naming the doer of the action: *They didn't appreciate my leaving early.*
+Russian splits what English keeps in one word: when the possessor is also the subject of the clause, Russian reaches for «свой» and English still says *my*. Two further uses have nothing to do with owning anything — the vocative *my* of direct address, and the *my* that sits in front of a gerund to name who did the action.
+
+**1. The ordinary possessive — belonging to or connected with the speaker.** (мой; если владелец совпадает с подлежащим, по-русски «свой»)
 
 1. *My* keys are in *my* other jacket. (plural countable, then singular countable)
 2. All *my* cousins live in Ohio. (predeterminer *all*; *all of my cousins* is equally correct)
 3. She was *my* first real boss.
 4. I paid for it with *my* own money. (uncountable)
-5. They didn't appreciate *my* leaving early. (gerund)
-6. *My* friend, that is not how this works. (vocative)
-7. Have you seen *my* charger anywhere? (question)
-8. I can't find *my* passport. (negative)
+5. Have you seen *my* charger anywhere? (question)
+6. I can't find *my* passport. (negative)
+
+**2. In direct address — marking closeness, or (just as often) condescension.** (в обращении — близость или снисходительность: my dear «дорогая моя», my friend «любезный»)
+
+7. *My* friend, that is not how this works.
+8. *My* dear, nobody reads the appendix.
+9. Now see here, *my* good man.
+
+**3. Before a gerund — naming who does the action.** (перед герундием — называет исполнителя: my leaving «то, что я ушёл»)
+
+10. They didn't appreciate *my* leaving early.
+11. *My* forgetting the tickets is what started the argument.
+12. Nobody objected to *my* sitting in on the interview.
 
 **See also:** [our](#our), [your](#your), [mine](#mine), [of mine](#of-mine), [own](#own)
 
@@ -147,16 +173,28 @@ Marks the following noun as belonging to, produced by, or associated with a grou
 
 Marks the following noun as belonging to, produced by, or associated with the possessor(s) already identified.
 
-**1.** A plural possessor: *the Wilsons sold their house*. **2.** **Singular *they*** — one person of unknown, unspecified, or nonbinary gender: *Somebody left their umbrella*. The noun stays singular if the referent has only one (*Everyone brought their own lunch*), and the verb still agrees with the subject, not with *their*. **3.** An institution treated as a group of people: *They raised their rates again.* American editing normally prefers *its* for a named organization — *the company raised its rates*.
+The plural possessive, and — since long before anyone argued about it — the repair English uses when the possessor is one person whose gender is unknown, unspecified, or nonbinary. In that singular use the noun stays singular if the referent has only one of the thing (*Everyone brought their own lunch*), and the verb still agrees with the subject, never with *their*.
+
+**1. A plural possessor.** (их — о нескольких владельцах)
 
 1. *Their* flight lands before ours. (singular countable)
 2. Both *their* kids play soccer. (predeterminer *both*; *both of their kids* is equally correct)
-3. Somebody left *their* umbrella in the lobby. (singular *they*)
-4. If a patient misses *their* appointment, the clinic charges a fee.
-5. The Wilsons sold *their* house in March.
-6. Everyone brought *their* own lunch. (*everyone* takes a singular verb — *brought* is neutral, but *Everyone is bringing their own lunch*, never ✗ *Everyone are*)
-7. We never did get *their* luggage back. (uncountable, negative)
-8. Did the Hills sell *their* boat? (question)
+3. The Wilsons sold *their* house in March.
+4. We never did get *their* luggage back. (uncountable, negative)
+5. Did the Hills sell *their* boat? (question)
+
+**2. Singular *they* — one person of unknown, unspecified, or nonbinary gender.** (его или её — об одном человеке неизвестного или небинарного пола; по-русски обычно «свой»)
+
+6. Somebody left *their* umbrella in the lobby.
+7. If a patient misses *their* appointment, the clinic charges a fee.
+8. Everyone brought *their* own lunch. (*everyone* takes a singular verb — *Everyone is bringing their own lunch*, never ✗ *Everyone are*)
+9. Ask the caller for *their* account number before anything else.
+
+**3. An institution treated as a group of people.** (их — об организации как о людях; амер. редактура здесь предпочитает its)
+
+10. They raised *their* rates again in January.
+11. The airline lost *their* nerve and cancelled the whole route. — American editing normally writes *the airline lost its nerve*
+12. The union published *their* counterproposal on Friday.
 
 **See also:** [they're (not a determiner)](#theyre-not-a-determiner), [his or her](#his-or-her), [its](#its), [our](#our)
 
@@ -173,16 +211,28 @@ Marks the following noun as belonging to, produced by, or associated with the po
 
 Marks the following noun as belonging to, produced by, or associated with the person or people addressed.
 
-**1.** The ordinary possessive. **2.** Generic or impersonal *you*, meaning "people in general": *Your average commuter spends an hour in traffic.* Informal; formal writing uses *the average commuter* or *one's*. **3.** Before a gerund, naming the doer: *I appreciate your coming.*
+One form covers both «твой» and «ваш» — English gave up the singular/plural distinction in the seventeenth century and has never gotten it back. Two further uses point away from the listener entirely: the generic *your* that means "people in general," which is informal and gives way to *the* or *one's* in formal writing, and the *your* that sits in front of a gerund to name who did the action.
+
+**1. The ordinary possessive — belonging to or connected with the person or people addressed.** (твой, ваш — одна форма для одного и для многих)
 
 1. Is this *your* seat? (question, singular countable)
 2. *Your* passport and *your* boarding pass, please.
-3. I appreciate *your* coming on such short notice. (gerund)
-4. All *your* files were backed up overnight. (predeterminer *all* + plural countable)
-5. Do it *your* own way.
-6. *Your* average commuter spends an hour a day in traffic. (generic *your*)
-7. Don't forget *your* badge. (negative imperative)
-8. We couldn't find *your* baggage on the carousel. (uncountable)
+3. All *your* files were backed up overnight. (predeterminer *all* + plural countable)
+4. Do it *your* own way.
+5. Don't forget *your* badge. (negative imperative)
+6. We couldn't find *your* baggage on the carousel. (uncountable)
+
+**2. Generic *your* — "people in general," not the listener at all.** (обобщающее «твой» — о людях вообще: your average commuter «среднестатистический пассажир»; разг.)
+
+7. *Your* average commuter spends an hour a day in traffic.
+8. This isn't *your* typical zoning fight.
+9. *Your* first-time buyer has no idea what closing costs run to. — informal; formal writing uses *the first-time buyer*
+
+**3. Before a gerund — naming who does the action.** (перед герундием — называет исполнителя: your coming «то, что вы пришли»)
+
+10. I appreciate *your* coming on such short notice.
+11. *Your* signing it early saved everyone a week.
+12. Nobody minded *your* asking.
 
 **See also:** [you're (not a determiner)](#youre-not-a-determiner), [y'all's](#yalls), [one's](#ones), [thy](#thy)
 
@@ -397,16 +447,22 @@ Links a relative clause to its antecedent by naming something the antecedent has
 **Pattern:** *Whose* [noun] [auxiliary] [subject] [verb]? — *Whose car is that?* &middot; [antecedent noun] *whose* [noun] [verb] … (relative) &middot; *I don't know whose* [noun] *it is.* (embedded question) &middot; *Whose is this?* (pronoun — no noun follows)
 **Contrast:** ***whose* versus *who's*.** *Whose* asks or states possession; *who's* is the contraction of *who is* or *who has*. Expand it to test: *Who's calling?* = *who is calling*, but *Whose call is it?* has no expansion, so it takes *whose*. Against *of which*: both build an inanimate genitive relative, and *whose* is the ordinary choice (*a car whose brakes failed*), *of which* the formal one. Against *which*: *which* selects an item from a set (*Which car?*), *whose* asks who owns it (*Whose car?*).
 
-**1.** **Interrogative** — asks which person or thing the following noun belongs to. **2.** **Relative** — introduces a relative clause and ties its noun to the antecedent, for human and non-human antecedents alike.
+One spelling doing two jobs: it asks a question, and it opens a relative clause. Nothing in the form distinguishes them — the position in the sentence does. The relative *whose* works for non-human antecedents as freely as for human ones, which surprises writers who have been told to reach for *of which*.
+
+**1. Interrogative — asking which person or thing the following noun belongs to.** (чей, чья, чьё — в вопросе: Whose car? «Чья машина?»)
 
 1. *Whose* jacket is on my chair? (question, singular countable)
 2. I have no idea *whose* idea this was. (embedded question)
-3. The engineer *whose* design won the contract is only 29. (relative, human antecedent)
-4. She's the one *whose* flight got canceled.
-5. It's an old house *whose* wiring needs replacing. (relative, non-human antecedent, uncountable)
-6. *Whose* keys are these, and *whose* car is blocking the driveway? (plural countable, then singular)
-7. Nobody remembers *whose* money paid for it. (negative, uncountable)
-8. *Whose* is this? (pronoun — no noun follows, so not a determiner here)
+3. *Whose* keys are these, and *whose* car is blocking the driveway? (plural countable, then singular)
+4. Nobody remembers *whose* money paid for it. (negative, uncountable)
+5. *Whose* is this? (pronoun — no noun follows, so not a determiner here)
+
+**2. Relative — tying the noun to an antecedent, human or not.** (который, чей — в придаточном: the man whose car… «человек, чья машина…»)
+
+6. The engineer *whose* design won the contract is only 29. (human antecedent)
+7. She's the one *whose* flight got canceled.
+8. It's an old house *whose* wiring needs replacing. (non-human antecedent — English has no *of which* requirement here)
+9. They cited a study *whose* authors have since retracted it.
 
 **See also:** [who's (not a determiner)](#whos-not-a-determiner), [of which](#of-which), [whosever](#whosever), [Interrogative determiners](../README.md#interrogative-determiners)
 
@@ -450,6 +506,8 @@ Any noun phrase in English can be turned into a determiner by adding the genitiv
 
 The productive genitive ending: it converts any noun phrase into a central determiner, and with a true possessor it makes the resulting phrase definite. (The measure genitive is the exception — *two weeks' notice* stays indefinite; see [two weeks'](#two-weeks).)
 
+**1. A true possessor — this noun belongs to, was made by, or is connected with that one.** (окончание -'s: русский родительный падеж — John's car «машина Джона»)
+
 1. That's *my sister's* car. (singular countable)
 2. *The dog's* leash is by the door.
 3. *Chicago's* winters are brutal. (plural countable)
@@ -458,6 +516,13 @@ The productive genitive ending: it converts any noun phrase into a central deter
 6. I borrowed *my roommate's* charger.
 7. Isn't that *Ana's* apartment on the corner? (question)
 8. We never got *the landlord's* approval. (negative)
+
+**2. Classifying — naming the kind of thing, with no particular owner in sight.** (относительное прилагательное: a doctor's degree «докторская степень», the driver's seat «водительское место» — конкретного владельца нет)
+
+9. She finished *a master's* degree at night.
+10. Slide over — you're in *the driver's* seat.
+11. It's *a women's* college, and it has been since 1837.
+12. He works in *a printer's* shop off Mission Street.
 
 **See also:** [s' (plural genitive)](#s-plural-genitive), [John's](#johns), [the company's](#the-companys), [of](#of), [the King of Spain's](#the-king-of-spains), [his (periphrastic genitive)](#his-periphrastic-genitive)
 
@@ -709,6 +774,8 @@ Turns an entire modified noun phrase — article, head, and everything that foll
 
 Marks the following noun as belonging to, occurring on, or dated to a particular time.
 
+**1. Dated to a particular day or period — the time genitive.** (сегодняшний, вчерашний, завтрашний — today's paper «сегодняшняя газета»)
+
 1. Did you read *today's* paper? (question, singular countable)
 2. *Yesterday's* storm knocked out power on the whole block.
 3. *Tomorrow's* numbers will not be final until noon. (plural countable, negative)
@@ -717,6 +784,12 @@ Marks the following noun as belonging to, occurring on, or dated to a particular
 6. *This morning's* email explains the change.
 7. *Today's* mail is still on the porch. (uncountable)
 8. *Next week's* schedule has not gone out yet. (negative)
+
+**2. "Of the present era" — the world as it now is, set against how it used to be.** (нынешний, современный — today's students «нынешние студенты», today's market «сегодняшний рынок»)
+
+9. *Today's* students come in already knowing how to search.
+10. In *today's* market that house would sit for a year.
+11. In *today's* dollars that same repair would run four thousand.
 
 **See also:** [two weeks'](#two-weeks), [the company's](#the-companys), ['s (singular genitive)](#s-singular-genitive)
 
@@ -759,14 +832,26 @@ English marks possession two ways. The s-genitive puts the possessor **before** 
 
 Builds a possessive relationship after the noun instead of before it, and takes over wherever the s-genitive is awkward.
 
+**1. Possession and part-whole, expressed after the noun instead of before it.** (предлог принадлежности и части — русский родительный падеж: the roof of the house «крыша дома»)
+
 1. The roof *of* the house needs replacing. (singular countable head)
 2. What's the title *of* the book you mentioned? (question)
-3. The conclusion *of* the report that the auditors filed last spring was ignored.
-4. The members *of* the board have not been notified. (plural countable head, negative)
-5. He's a friend *of* my brother's. (double genitive)
-6. The population *of* Chicago has been flat for a decade.
-7. I can't stand the smell *of* the paint. (uncountable head)
-8. Each *of* the applicants was interviewed twice. (*each of the* — *of* is obligatory, verb singular)
+3. The members *of* the board have not been notified. (plural countable head, negative)
+4. The population *of* Chicago has been flat for a decade.
+5. I can't stand the smell *of* the paint. (uncountable head)
+6. The conclusion *of* the report that the auditors filed last spring was ignored.
+
+**2. The double genitive — *of* plus a second possessive, after *a*, *this*, or a number.** (один из — a friend of my brother's «один из друзей моего брата»; по-русски конструкция распадается)
+
+7. He's a friend *of* my brother's.
+8. That client *of* yours called three times this morning.
+9. Two cousins *of* hers drove up from Dayton.
+
+**3. Partitive *of* — obligatory after a quantifier that reaches into a determined set.** (из, от — обязательное of после количественного слова: each of the applicants «каждый из кандидатов»)
+
+10. Each *of* the applicants was interviewed twice. (verb singular)
+11. Most *of* the money was gone by March.
+12. Neither *of* the plans survived the first review.
 
 **See also:** [of mine](#of-mine), ['s (singular genitive)](#s-singular-genitive), [the company's](#the-companys), [of which](#of-which)
 
@@ -807,14 +892,20 @@ Combines possession with an indefinite, demonstrative, or quantified determiner,
 
 Reinforces a possessive — "belonging to that person and to nobody else" — and blocks any reading in which the noun is shared.
 
+**1. Reinforcing a possessive — "belonging to that person and to nobody else."** (собственный, свой — усилитель при притяжательном; сам определителем не является)
+
 1. She paid for the trip with her *own* money. (uncountable)
 2. Every state sets its *own* speed limits. (plural countable)
 3. I built the shelves with my *own* two hands. (before a numeral)
-4. He'd like a place of his *own* someday. (singular countable, *of*-frame)
-5. They finished the whole project on their *own*.
-6. Those were the mayor's *own* words, not mine. (after a genitive phrase)
-7. Doesn't she have an office of her *own* yet? (question)
-8. He never had a room of his *own* growing up. (negative)
+4. Those were the mayor's *own* words, not mine. (after a genitive phrase)
+5. Do it your *own* way.
+
+**2. *Of one's own* and *on one's own* — having it to yourself, or doing it without help.** (свой собственный; самостоятельно, сам по себе — a place of his own «своё жильё», on their own «сами, без посторонних»)
+
+6. He'd like a place of his *own* someday.
+7. They finished the whole project on their *own*.
+8. Doesn't she have an office of her *own* yet? (question)
+9. He never had a room of his *own* growing up. (negative)
 
 **See also:** [my](#my), [its](#its), [one's](#ones), [of mine](#of-mine), [each other's](#each-others)
 

@@ -23,14 +23,58 @@
       "term": "accompany",
       "ipa": "/əˈkʌmpəni/",
       "respell": "uh-KUM-puh-nee",
-      "meaning": "To go somewhere together with someone. ---",
+      "meaning": "Accompany has 3 distinct senses.",
       "examples": [
         "A guide accompanies every group into the canyon.",
         "Her brother accompanied her to the airport.",
-        "Children under twelve must be accompanied by an adult."
+        "Children under twelve must be accompanied by an adult.",
+        "A pianist will accompany the choir.",
+        "She sang while her brother accompanied her on guitar.",
+        "He has accompanied some of the best singers in the country.",
+        "A high fever usually accompanies the flu.",
+        "Thunder accompanied the heavy rain all afternoon.",
+        "The article was accompanied by three photographs."
       ],
-      "senses": [],
-      "русский": "сопровождать, сопроводить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To go somewhere together with someone",
+          "body": [
+            "(сопровождать, сопроводить)"
+          ],
+          "examples": [
+            "A guide accompanies every group into the canyon.",
+            "Her brother accompanied her to the airport.",
+            "Children under twelve must be accompanied by an adult."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To play music that supports a singer or another musician",
+          "body": [
+            "(аккомпанировать)"
+          ],
+          "examples": [
+            "A pianist will accompany the choir.",
+            "She sang while her brother accompanied her on guitar.",
+            "He has accompanied some of the best singers in the country."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To happen or exist at the same time as something else",
+          "body": [
+            "(сопровождаться, сопутствовать)",
+            "---"
+          ],
+          "examples": [
+            "A high fever usually accompanies the flu.",
+            "Thunder accompanied the heavy rain all afternoon.",
+            "The article was accompanied by three photographs."
+          ]
+        }
+      ],
+      "русский": "сопровождать, сопроводить; аккомпанировать; сопровождаться, сопутствовать",
       "forms": "accompany · accompanied · accompanied",
       "verb class": "regular",
       "third person": "accompanies · -ing form: accompanying",
@@ -41,14 +85,43 @@
       "term": "advance",
       "ipa": "/ədˈvæns/",
       "respell": "uhd-VANSS",
-      "meaning": "To move forward, especially steadily or with effort. ---",
+      "meaning": "Advance has 2 distinct senses.",
       "examples": [
         "The line advances about one person a minute.",
         "The troops advanced under cover of darkness.",
-        "Storm clouds were advancing from the west."
+        "Storm clouds were advancing from the west.",
+        "Can you advance me fifty dollars until Friday?",
+        "The company advanced him a month's pay.",
+        "The bank has advanced the money for the repairs."
       ],
-      "senses": [],
-      "русский": "продвигаться, продвинуться; наступать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move forward, especially steadily or with effort",
+          "body": [
+            "(продвигаться, продвинуться; наступать)"
+          ],
+          "examples": [
+            "The line advances about one person a minute.",
+            "The troops advanced under cover of darkness.",
+            "Storm clouds were advancing from the west."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give someone money before the time it is normally due",
+          "body": [
+            "(выдавать аванс, авансировать; ссужать, ссудить)",
+            "---"
+          ],
+          "examples": [
+            "Can you advance me fifty dollars until Friday?",
+            "The company advanced him a month's pay.",
+            "The bank has advanced the money for the repairs."
+          ]
+        }
+      ],
+      "русский": "продвигаться, продвинуться; наступать; выдавать аванс, авансировать; ссужать, ссудить",
       "forms": "advance · advanced · advanced",
       "verb class": "regular",
       "third person": "advances · -ing form: advancing",
@@ -77,14 +150,43 @@
       "term": "ascend",
       "ipa": "/əˈsɛnd/",
       "respell": "uh-SEND",
-      "meaning": "To go up to a higher place. ---",
+      "meaning": "Ascend has 2 distinct senses.",
       "examples": [
         "The trail ascends steeply for the first mile.",
         "The balloon ascended until it disappeared.",
-        "We spent the morning ascending the ridge."
+        "We spent the morning ascending the ridge.",
+        "Few managers ascend that quickly.",
+        "He ascended the throne at nineteen.",
+        "No woman had ever ascended to the court before her."
       ],
-      "senses": [],
-      "русский": "подниматься, подняться; восходить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To go up to a higher place",
+          "body": [
+            "(подниматься, подняться; восходить)"
+          ],
+          "examples": [
+            "The trail ascends steeply for the first mile.",
+            "The balloon ascended until it disappeared.",
+            "We spent the morning ascending the ridge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To rise to a higher rank or a more powerful position",
+          "body": [
+            "(восходить, взойти (на престол); подниматься (по служебной лестнице))",
+            "---"
+          ],
+          "examples": [
+            "Few managers ascend that quickly.",
+            "He ascended the throne at nineteen.",
+            "No woman had ever ascended to the court before her."
+          ]
+        }
+      ],
+      "русский": "подниматься, подняться; восходить; восходить, взойти (на престол); подниматься (по служебной лестнице)",
       "forms": "ascend · ascended · ascended",
       "verb class": "regular",
       "third person": "ascends · -ing form: ascending",
@@ -94,14 +196,43 @@
       "term": "board",
       "ipa": "/bɔːrd/",
       "respell": "BORD",
-      "meaning": "To get on a plane, train, ship, or bus. ---",
+      "meaning": "Board has 2 distinct senses.",
       "examples": [
         "Passengers in group C may now board.",
         "We boarded the ferry just before it pulled away.",
-        "They have already boarded the plane."
+        "They have already boarded the plane.",
+        "She boards with a family near campus.",
+        "We boarded the dog for a week while we were away.",
+        "He was boarding at a house on Elm Street that winter."
       ],
-      "senses": [],
-      "русский": "садиться (в самолёт, на поезд), сесть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To get on a plane, train, ship, or bus",
+          "body": [
+            "(садиться (в самолёт, на поезд), сесть)"
+          ],
+          "examples": [
+            "Passengers in group C may now board.",
+            "We boarded the ferry just before it pulled away.",
+            "They have already boarded the plane."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To live somewhere paying for meals and a room, or to keep an animal for pay",
+          "body": [
+            "(жить на пансионе, снимать с питанием; держать (животное) за плату)",
+            "---"
+          ],
+          "examples": [
+            "She boards with a family near campus.",
+            "We boarded the dog for a week while we were away.",
+            "He was boarding at a house on Elm Street that winter."
+          ]
+        }
+      ],
+      "русский": "садиться (в самолёт, на поезд), сесть; жить на пансионе, снимать с питанием; держать (животное) за плату",
       "forms": "board · boarded · boarded",
       "verb class": "regular",
       "third person": "boards · -ing form: boarding",
@@ -112,14 +243,43 @@
       "term": "bounce",
       "ipa": "/baʊns/",
       "respell": "BOWNSS",
-      "meaning": "To spring back after hitting a surface, or to make something do that. ---",
+      "meaning": "Bounce has 2 distinct senses.",
       "examples": [
         "He bounces the ball while he thinks.",
         "The ball bounced twice and rolled into the street.",
-        "The kids have been bouncing on the bed all morning."
+        "The kids have been bouncing on the bed all morning.",
+        "His rent check bounced last month.",
+        "If a payment bounces, the bank charges a fee.",
+        "Two of their checks have bounced this year."
       ],
-      "senses": [],
-      "русский": "подпрыгивать, подпрыгнуть; отскакивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To spring back after hitting a surface, or to make something do that",
+          "body": [
+            "(подпрыгивать, подпрыгнуть; отскакивать)"
+          ],
+          "examples": [
+            "He bounces the ball while he thinks.",
+            "The ball bounced twice and rolled into the street.",
+            "The kids have been bouncing on the bed all morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "(of a check) To be sent back unpaid because there is not enough money in the account",
+          "body": [
+            "(не проходить, вернуться без оплаты (о чеке))",
+            "---"
+          ],
+          "examples": [
+            "His rent check bounced last month.",
+            "If a payment bounces, the bank charges a fee.",
+            "Two of their checks have bounced this year."
+          ]
+        }
+      ],
+      "русский": "подпрыгивать, подпрыгнуть; отскакивать; не проходить, вернуться без оплаты (о чеке)",
       "forms": "bounce · bounced · bounced",
       "verb class": "regular",
       "third person": "bounces · -ing form: bouncing",
@@ -148,14 +308,73 @@
       "term": "carry",
       "ipa": "/ˈkɛri/",
       "respell": "KER-ee",
-      "meaning": "To hold something and move it from one place to another. ---",
+      "meaning": "Carry has 4 distinct senses.",
       "examples": [
         "Let me carry that bag for you.",
         "She carried the sleeping child upstairs.",
-        "He was carrying two suitcases and a cup of coffee."
+        "He was carrying two suitcases and a cup of coffee.",
+        "Do you carry size 11?",
+        "The pharmacy carries the same brand for less.",
+        "They stopped carrying that model last year.",
+        "Mosquitoes carry the virus.",
+        "She carries the gene but has no symptoms.",
+        "The ticks were carrying Lyme disease.",
+        "The charge carries a five-year sentence.",
+        "The surgery carried a real risk of infection.",
+        "It is a felony carrying a fine of up to $10,000."
       ],
-      "senses": [],
-      "русский": "носить, нести; возить, везти",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To hold something and move it from one place to another",
+          "body": [
+            "(носить, нести; возить, везти)"
+          ],
+          "examples": [
+            "Let me carry that bag for you.",
+            "She carried the sleeping child upstairs.",
+            "He was carrying two suitcases and a cup of coffee."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "(of a store) To keep a product in stock for sale",
+          "body": [
+            "(иметь в продаже, держать в ассортименте)"
+          ],
+          "examples": [
+            "Do you carry size 11?",
+            "The pharmacy carries the same brand for less.",
+            "They stopped carrying that model last year."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To have a disease or a gene in your body and be able to pass it on",
+          "body": [
+            "(быть переносчиком, быть носителем (болезни, гена))"
+          ],
+          "examples": [
+            "Mosquitoes carry the virus.",
+            "She carries the gene but has no symptoms.",
+            "The ticks were carrying Lyme disease."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To have something as an attached result or penalty",
+          "body": [
+            "(влечь за собой, предусматривать (наказание, риск))",
+            "---"
+          ],
+          "examples": [
+            "The charge carries a five-year sentence.",
+            "The surgery carried a real risk of infection.",
+            "It is a felony carrying a fine of up to $10,000."
+          ]
+        }
+      ],
+      "русский": "носить, нести; возить, везти; иметь в продаже, держать в ассортименте; быть переносчиком, быть носителем (болезни, гена); влечь за собой, предусматривать (наказание, риск)",
       "forms": "carry · carried · carried",
       "verb class": "regular",
       "third person": "carries · -ing form: carrying",
@@ -185,14 +404,43 @@
       "term": "circle",
       "ipa": "/ˈsɜːrkəl/",
       "respell": "SUR-kuhl",
-      "meaning": "To move all the way around something. ---",
+      "meaning": "Circle has 2 distinct senses.",
       "examples": [
         "Hawks circle above that field every evening.",
         "The plane circled the airport for twenty minutes.",
-        "We kept circling the block looking for parking."
+        "We kept circling the block looking for parking.",
+        "Circle the correct answer.",
+        "She circled two dates on the calendar.",
+        "Every typo was circled in red ink."
       ],
-      "senses": [],
-      "русский": "кружить, кружиться; обводить кругом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move all the way around something",
+          "body": [
+            "(кружить, кружиться; обводить кругом)"
+          ],
+          "examples": [
+            "Hawks circle above that field every evening.",
+            "The plane circled the airport for twenty minutes.",
+            "We kept circling the block looking for parking."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To draw a ring around something on paper",
+          "body": [
+            "(обводить, обвести кружком)",
+            "---"
+          ],
+          "examples": [
+            "Circle the correct answer.",
+            "She circled two dates on the calendar.",
+            "Every typo was circled in red ink."
+          ]
+        }
+      ],
+      "русский": "кружить, кружиться; обводить кругом; обводить, обвести кружком",
       "forms": "circle · circled · circled",
       "verb class": "regular",
       "third person": "circles · -ing form: circling",
@@ -221,14 +469,43 @@
       "term": "commute",
       "ipa": "/kəˈmjuːt/",
       "respell": "kuh-MYOOT",
-      "meaning": "To travel regularly between your home and your job. ---",
+      "meaning": "Commute has 2 distinct senses.",
       "examples": [
         "I commute forty minutes each way.",
         "She commuted into the city for eleven years.",
-        "He has been commuting by train since March."
+        "He has been commuting by train since March.",
+        "Only the governor can commute a death sentence.",
+        "The president commuted her sentence to time served.",
+        "His sentence was commuted after twelve years."
       ],
-      "senses": [],
-      "русский": "ездить на работу и обратно, добираться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To travel regularly between your home and your job",
+          "body": [
+            "(ездить на работу и обратно, добираться)"
+          ],
+          "examples": [
+            "I commute forty minutes each way.",
+            "She commuted into the city for eleven years.",
+            "He has been commuting by train since March."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To change a criminal's punishment to a lighter one",
+          "body": [
+            "(смягчать наказание, заменять (приговор) более мягким)",
+            "---"
+          ],
+          "examples": [
+            "Only the governor can commute a death sentence.",
+            "The president commuted her sentence to time served.",
+            "His sentence was commuted after twelve years."
+          ]
+        }
+      ],
+      "русский": "ездить на работу и обратно, добираться; смягчать наказание, заменять (приговор) более мягким",
       "forms": "commute · commuted · commuted",
       "verb class": "regular",
       "third person": "commutes · -ing form: commuting",
@@ -238,14 +515,43 @@
       "term": "continue",
       "ipa": "/kənˈtɪnjuː/",
       "respell": "kuhn-TIN-yoo",
-      "meaning": "To keep going without stopping. ---",
+      "meaning": "Continue has 2 distinct senses.",
       "examples": [
         "Continue straight for two miles, then turn right.",
         "The road continued past the last farmhouse.",
-        "The rain has continued all night."
+        "The rain has continued all night.",
+        "\"And another thing,\" she continued, \"we open on Monday.\"",
+        "Please continue — I didn't mean to interrupt.",
+        "After continuing for another minute, he stopped to take questions."
       ],
-      "senses": [],
-      "русский": "продолжать, продолжить; продолжаться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To keep going without stopping",
+          "body": [
+            "(продолжать, продолжить; продолжаться)"
+          ],
+          "examples": [
+            "Continue straight for two miles, then turn right.",
+            "The road continued past the last farmhouse.",
+            "The rain has continued all night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To go on speaking after a pause",
+          "body": [
+            "(продолжать, продолжить (речь))",
+            "---"
+          ],
+          "examples": [
+            "\"And another thing,\" she continued, \"we open on Monday.\"",
+            "Please continue — I didn't mean to interrupt.",
+            "After continuing for another minute, he stopped to take questions."
+          ]
+        }
+      ],
+      "русский": "продолжать, продолжить; продолжаться; продолжать, продолжить (речь)",
       "forms": "continue · continued · continued",
       "verb class": "regular",
       "third person": "continues · -ing form: continuing",
@@ -255,14 +561,73 @@
       "term": "crash",
       "ipa": "/kræʃ/",
       "respell": "KRASH",
-      "meaning": "To hit something hard and be damaged, especially in a vehicle. ---",
+      "meaning": "Crash has 4 distinct senses.",
       "examples": [
         "Planes rarely crash, but people still worry.",
         "He crashed his bike into a mailbox.",
-        "A truck had crashed on the on-ramp, so we sat there for an hour."
+        "A truck had crashed on the on-ramp, so we sat there for an hour.",
+        "My laptop crashed and I lost the file.",
+        "The app crashes every time I open a photo.",
+        "The site has crashed twice today.",
+        "The market crashed in 1929.",
+        "Housing prices could crash again.",
+        "Tech stocks have crashed twice this decade.",
+        "Can I crash at your place tonight?",
+        "He crashed on the couch after the party.",
+        "We ended up crashing in the car."
       ],
-      "senses": [],
-      "русский": "разбиваться, разбиться; врезаться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To hit something hard and be damaged, especially in a vehicle",
+          "body": [
+            "(разбиваться, разбиться; врезаться)"
+          ],
+          "examples": [
+            "Planes rarely crash, but people still worry.",
+            "He crashed his bike into a mailbox.",
+            "A truck had crashed on the on-ramp, so we sat there for an hour."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To stop working suddenly, said of a computer or a program",
+          "body": [
+            "(зависать, падать (о компьютере), вылететь)"
+          ],
+          "examples": [
+            "My laptop crashed and I lost the file.",
+            "The app crashes every time I open a photo.",
+            "The site has crashed twice today."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To fall suddenly and steeply in value",
+          "body": [
+            "(обрушиваться, рухнуть (о рынке, ценах))"
+          ],
+          "examples": [
+            "The market crashed in 1929.",
+            "Housing prices could crash again.",
+            "Tech stocks have crashed twice this decade."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To sleep somewhere that is not your own home, usually for one night",
+          "body": [
+            "(переночевать, завалиться спать (разг.))",
+            "---"
+          ],
+          "examples": [
+            "Can I crash at your place tonight?",
+            "He crashed on the couch after the party.",
+            "We ended up crashing in the car."
+          ]
+        }
+      ],
+      "русский": "разбиваться, разбиться; врезаться; зависать, падать (о компьютере), вылететь; обрушиваться, рухнуть (о рынке, ценах); переночевать, завалиться спать (разг.)",
       "forms": "crash · crashed · crashed",
       "verb class": "regular",
       "third person": "crashes · -ing form: crashing",
@@ -273,14 +638,43 @@
       "term": "crawl",
       "ipa": "/krɔːl/",
       "respell": "KRAWL",
-      "meaning": "To move forward on your hands and knees, or to move very slowly. ---",
+      "meaning": "Crawl has 2 distinct senses.",
       "examples": [
         "The baby crawls everywhere now.",
         "We crawled under the fence.",
-        "Traffic was crawling along at five miles an hour."
+        "Traffic was crawling along at five miles an hour.",
+        "The kitchen was crawling with ants.",
+        "Downtown crawls with tourists in July.",
+        "The building crawled with reporters all week."
       ],
-      "senses": [],
-      "русский": "ползать, ползти, поползти",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move forward on your hands and knees, or to move very slowly",
+          "body": [
+            "(ползать, ползти, поползти)"
+          ],
+          "examples": [
+            "The baby crawls everywhere now.",
+            "We crawled under the fence.",
+            "Traffic was crawling along at five miles an hour."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be completely full of moving people or insects",
+          "body": [
+            "(кишеть (кем-л.))",
+            "---"
+          ],
+          "examples": [
+            "The kitchen was crawling with ants.",
+            "Downtown crawls with tourists in July.",
+            "The building crawled with reporters all week."
+          ]
+        }
+      ],
+      "русский": "ползать, ползти, поползти; кишеть (кем-л.)",
       "forms": "crawl · crawled · crawled",
       "verb class": "regular",
       "third person": "crawls · -ing form: crawling",
@@ -290,14 +684,43 @@
       "term": "cross",
       "ipa": "/krɔːs/",
       "respell": "KRAWSS",
-      "meaning": "To go from one side of something to the other. ---",
+      "meaning": "Cross has 2 distinct senses.",
       "examples": [
         "Look both ways before you cross.",
         "We crossed the border a little after noon.",
-        "They have crossed that river three times today."
+        "They have crossed that river three times today.",
+        "Don't cross your arms during the interview.",
+        "She crossed her legs and waited.",
+        "He listened with his arms crossed."
       ],
-      "senses": [],
-      "русский": "переходить, перейти; пересекать, пересечь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To go from one side of something to the other",
+          "body": [
+            "(переходить, перейти; пересекать, пересечь)"
+          ],
+          "examples": [
+            "Look both ways before you cross.",
+            "We crossed the border a little after noon.",
+            "They have crossed that river three times today."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put one arm or one leg over the other",
+          "body": [
+            "(скрещивать, складывать, скрестить (руки, ноги))",
+            "---"
+          ],
+          "examples": [
+            "Don't cross your arms during the interview.",
+            "She crossed her legs and waited.",
+            "He listened with his arms crossed."
+          ]
+        }
+      ],
+      "русский": "переходить, перейти; пересекать, пересечь; скрещивать, складывать, скрестить (руки, ноги)",
       "forms": "cross · crossed · crossed",
       "verb class": "regular",
       "third person": "crosses · -ing form: crossing",
@@ -309,14 +732,43 @@
       "term": "cruise",
       "ipa": "/kruːz/",
       "respell": "KROOZ",
-      "meaning": "To travel smoothly at a steady speed, especially by ship or car. ---",
+      "meaning": "Cruise has 2 distinct senses.",
       "examples": [
         "The plane cruises at thirty-five thousand feet.",
         "We cruised down the coast with the windows open.",
-        "They spent a week cruising the Caribbean."
+        "They spent a week cruising the Caribbean.",
+        "They cruised to a 5-0 win.",
+        "The favorite should cruise through the first round.",
+        "She is cruising toward re-election."
       ],
-      "senses": [],
-      "русский": "путешествовать на теплоходе; ехать не спеша",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To travel smoothly at a steady speed, especially by ship or car",
+          "body": [
+            "(путешествовать на теплоходе; ехать не спеша)"
+          ],
+          "examples": [
+            "The plane cruises at thirty-five thousand feet.",
+            "We cruised down the coast with the windows open.",
+            "They spent a week cruising the Caribbean."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To win easily, without being seriously challenged",
+          "body": [
+            "(легко побеждать, выиграть без труда)",
+            "---"
+          ],
+          "examples": [
+            "They cruised to a 5-0 win.",
+            "The favorite should cruise through the first round.",
+            "She is cruising toward re-election."
+          ]
+        }
+      ],
+      "русский": "путешествовать на теплоходе; ехать не спеша; легко побеждать, выиграть без труда",
       "forms": "cruise · cruised · cruised",
       "verb class": "regular",
       "third person": "cruises · -ing form: cruising",
@@ -326,14 +778,43 @@
       "term": "dash",
       "ipa": "/dæʃ/",
       "respell": "DASH",
-      "meaning": "To run somewhere very quickly and for a short distance. ---",
+      "meaning": "Dash has 2 distinct senses.",
       "examples": [
         "He dashes out for coffee every morning at ten.",
         "She dashed across the platform and caught the train.",
-        "I was dashing to the gate when they called my name."
+        "I was dashing to the gate when they called my name.",
+        "The injury dashed his hopes of playing.",
+        "One bad quarter can dash a whole year's plan.",
+        "Her dreams of law school were dashed."
       ],
-      "senses": [],
-      "русский": "мчаться, помчаться; броситься",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To run somewhere very quickly and for a short distance",
+          "body": [
+            "(мчаться, помчаться; броситься)"
+          ],
+          "examples": [
+            "He dashes out for coffee every morning at ten.",
+            "She dashed across the platform and caught the train.",
+            "I was dashing to the gate when they called my name."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To destroy someone's hopes or plans suddenly",
+          "body": [
+            "(разбивать, разрушать (надежды), разбить)",
+            "---"
+          ],
+          "examples": [
+            "The injury dashed his hopes of playing.",
+            "One bad quarter can dash a whole year's plan.",
+            "Her dreams of law school were dashed."
+          ]
+        }
+      ],
+      "русский": "мчаться, помчаться; броситься; разбивать, разрушать (надежды), разбить",
       "forms": "dash · dashed · dashed",
       "verb class": "regular",
       "third person": "dashes · -ing form: dashing",
@@ -344,14 +825,58 @@
       "term": "deliver",
       "ipa": "/dɪˈlɪvər/",
       "respell": "di-LIV-ur",
-      "meaning": "To take goods or mail to the place where they were sent. ---",
+      "meaning": "Deliver has 3 distinct senses.",
       "examples": [
         "They deliver between nine and noon.",
         "The driver delivered the package to the wrong door.",
-        "We are delivering the furniture on Thursday."
+        "We are delivering the furniture on Thursday.",
+        "She will deliver the opening address.",
+        "The judge delivered the verdict on Friday.",
+        "He has delivered the same lecture for ten years.",
+        "A midwife will deliver the baby at home.",
+        "The same doctor delivered both of my children.",
+        "He has delivered more than a thousand babies."
       ],
-      "senses": [],
-      "русский": "доставлять, доставить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take goods or mail to the place where they were sent",
+          "body": [
+            "(доставлять, доставить)"
+          ],
+          "examples": [
+            "They deliver between nine and noon.",
+            "The driver delivered the package to the wrong door.",
+            "We are delivering the furniture on Thursday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give a speech, a message, or a formal decision out loud",
+          "body": [
+            "(произносить, произнести (речь); выносить, вынести (приговор))"
+          ],
+          "examples": [
+            "She will deliver the opening address.",
+            "The judge delivered the verdict on Friday.",
+            "He has delivered the same lecture for ten years."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To help a baby to be born",
+          "body": [
+            "(принимать роды, принять (ребёнка))",
+            "---"
+          ],
+          "examples": [
+            "A midwife will deliver the baby at home.",
+            "The same doctor delivered both of my children.",
+            "He has delivered more than a thousand babies."
+          ]
+        }
+      ],
+      "русский": "доставлять, доставить; произносить, произнести (речь); выносить, вынести (приговор); принимать роды, принять (ребёнка)",
       "forms": "deliver · delivered · delivered",
       "verb class": "regular",
       "third person": "delivers · -ing form: delivering",
@@ -382,14 +907,43 @@
       "term": "descend",
       "ipa": "/dɪˈsɛnd/",
       "respell": "di-SEND",
-      "meaning": "To move down to a lower place. ---",
+      "meaning": "Descend has 2 distinct senses.",
       "examples": [
         "The plane began to descend over the lake.",
         "We descended the stairs in the dark.",
-        "Fog was descending on the whole valley."
+        "Fog was descending on the whole valley.",
+        "He descends from one of the first families in the valley.",
+        "They are descended from Irish immigrants.",
+        "Modern birds descended from dinosaurs."
       ],
-      "senses": [],
-      "русский": "спускаться, спуститься",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move down to a lower place",
+          "body": [
+            "(спускаться, спуститься)"
+          ],
+          "examples": [
+            "The plane began to descend over the lake.",
+            "We descended the stairs in the dark.",
+            "Fog was descending on the whole valley."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To come from a particular family or ancestor who lived long ago",
+          "body": [
+            "(происходить (от кого-л.), вести род)",
+            "---"
+          ],
+          "examples": [
+            "He descends from one of the first families in the valley.",
+            "They are descended from Irish immigrants.",
+            "Modern birds descended from dinosaurs."
+          ]
+        }
+      ],
+      "русский": "спускаться, спуститься; происходить (от кого-л.), вести род",
       "forms": "descend · descended · descended",
       "verb class": "regular",
       "third person": "descends · -ing form: descending",
@@ -400,14 +954,43 @@
       "term": "dock",
       "ipa": "/dɑːk/",
       "respell": "DAHK",
-      "meaning": "To bring a boat to a dock, or to arrive at one. ---",
+      "meaning": "Dock has 2 distinct senses.",
       "examples": [
         "The ferry docks every hour on the hour.",
         "Our ship docked in Miami at dawn.",
-        "They were still docking when the storm hit."
+        "They were still docking when the storm hit.",
+        "They docked his pay for coming in late.",
+        "The company will dock you an hour if you miss the meeting.",
+        "She complained about being docked for a sick day."
       ],
-      "senses": [],
-      "русский": "причаливать, причалить; швартоваться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To bring a boat to a dock, or to arrive at one",
+          "body": [
+            "(причаливать, причалить; швартоваться)"
+          ],
+          "examples": [
+            "The ferry docks every hour on the hour.",
+            "Our ship docked in Miami at dawn.",
+            "They were still docking when the storm hit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take money out of someone's pay as a penalty",
+          "body": [
+            "(вычитать из зарплаты, штрафовать)",
+            "---"
+          ],
+          "examples": [
+            "They docked his pay for coming in late.",
+            "The company will dock you an hour if you miss the meeting.",
+            "She complained about being docked for a sick day."
+          ]
+        }
+      ],
+      "русский": "причаливать, причалить; швартоваться; вычитать из зарплаты, штрафовать",
       "forms": "dock · docked · docked",
       "verb class": "regular",
       "third person": "docks · -ing form: docking",
@@ -417,14 +1000,58 @@
       "term": "drag",
       "ipa": "/dræɡ/",
       "respell": "DRAG",
-      "meaning": "To pull something heavy along the ground. ---",
+      "meaning": "Drag has 3 distinct senses.",
       "examples": [
         "Do not drag the couch across the floor.",
         "He dragged the trash cans out to the curb.",
-        "She was dragging a suitcase with a broken wheel."
+        "She was dragging a suitcase with a broken wheel.",
+        "Drag the file into the folder.",
+        "She dragged the photo onto the desktop.",
+        "You can reorder the list by dragging the rows.",
+        "The meeting dragged until almost seven.",
+        "Rehearsals drag when nobody is prepared.",
+        "With the storm outside, the whole afternoon was dragging."
       ],
-      "senses": [],
-      "русский": "тащить, тянуть, волочить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To pull something heavy along the ground",
+          "body": [
+            "(тащить, тянуть, волочить)"
+          ],
+          "examples": [
+            "Do not drag the couch across the floor.",
+            "He dragged the trash cans out to the curb.",
+            "She was dragging a suitcase with a broken wheel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move something on a screen by holding it down with the mouse or a finger",
+          "body": [
+            "(перетаскивать, перетащить (мышью))"
+          ],
+          "examples": [
+            "Drag the file into the folder.",
+            "She dragged the photo onto the desktop.",
+            "You can reorder the list by dragging the rows."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "For time or an event to pass slowly and tediously",
+          "body": [
+            "(тянуться, затягиваться)",
+            "---"
+          ],
+          "examples": [
+            "The meeting dragged until almost seven.",
+            "Rehearsals drag when nobody is prepared.",
+            "With the storm outside, the whole afternoon was dragging."
+          ]
+        }
+      ],
+      "русский": "тащить, тянуть, волочить; перетаскивать, перетащить (мышью); тянуться, затягиваться",
       "forms": "drag · dragged · dragged",
       "verb class": "regular",
       "third person": "drags · -ing form: dragging",
@@ -436,14 +1063,43 @@
       "term": "drift",
       "ipa": "/drɪft/",
       "respell": "DRIFT",
-      "meaning": "To be carried slowly along by water, air, or a current. ---",
+      "meaning": "Drift has 2 distinct senses.",
       "examples": [
         "We let the canoe drift for a while.",
         "The raft drifted two miles downstream overnight.",
-        "Leaves were drifting across the empty road."
+        "Leaves were drifting across the empty road.",
+        "He drifted from job to job for years.",
+        "Some students just drift through their first year of college.",
+        "She spent her twenties drifting around Europe."
       ],
-      "senses": [],
-      "русский": "дрейфовать; плыть по течению, сноситься",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To be carried slowly along by water, air, or a current",
+          "body": [
+            "(дрейфовать; плыть по течению, сноситься)"
+          ],
+          "examples": [
+            "We let the canoe drift for a while.",
+            "The raft drifted two miles downstream overnight.",
+            "Leaves were drifting across the empty road."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move through life or from place to place with no plan or purpose",
+          "body": [
+            "(плыть по течению, слоняться без цели)",
+            "---"
+          ],
+          "examples": [
+            "He drifted from job to job for years.",
+            "Some students just drift through their first year of college.",
+            "She spent her twenties drifting around Europe."
+          ]
+        }
+      ],
+      "русский": "дрейфовать; плыть по течению, сноситься; плыть по течению, слоняться без цели",
       "forms": "drift · drifted · drifted",
       "verb class": "regular",
       "third person": "drifts · -ing form: drifting",
@@ -454,14 +1110,43 @@
       "term": "drop",
       "ipa": "/drɑːp/",
       "respell": "DRAHP",
-      "meaning": "To let something fall, or to fall suddenly. ---",
+      "meaning": "Drop has 2 distinct senses.",
       "examples": [
         "Be careful not to drop the eggs.",
         "She dropped her keys through the grate.",
-        "The temperature has dropped twenty degrees since noon."
+        "The temperature has dropped twenty degrees since noon.",
+        "The prosecutor dropped the charges.",
+        "Can we drop the subject?",
+        "She is thinking about dropping her chemistry class."
       ],
-      "senses": [],
-      "русский": "ронять, уронить; падать, упасть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To let something fall, or to fall suddenly",
+          "body": [
+            "(ронять, уронить; падать, упасть)"
+          ],
+          "examples": [
+            "Be careful not to drop the eggs.",
+            "She dropped her keys through the grate.",
+            "The temperature has dropped twenty degrees since noon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To stop doing or discussing something, or to cancel it",
+          "body": [
+            "(прекращать, прекратить; снимать (обвинения); бросать (курс))",
+            "---"
+          ],
+          "examples": [
+            "The prosecutor dropped the charges.",
+            "Can we drop the subject?",
+            "She is thinking about dropping her chemistry class."
+          ]
+        }
+      ],
+      "русский": "ронять, уронить; падать, упасть; прекращать, прекратить; снимать (обвинения); бросать (курс)",
       "forms": "drop · dropped · dropped",
       "verb class": "regular",
       "third person": "drops · -ing form: dropping",
@@ -510,14 +1195,43 @@
       "term": "evade",
       "ipa": "/ɪˈveɪd/",
       "respell": "i-VAYD",
-      "meaning": "To get away from someone who is chasing or looking for you. ---",
+      "meaning": "Evade has 2 distinct senses.",
       "examples": [
         "Deer evade hunters by moving at night.",
         "The suspect evaded police for six days.",
-        "He has evaded capture twice already."
+        "He has evaded capture twice already.",
+        "He evaded every question about the money.",
+        "She was charged with evading taxes for six years.",
+        "Don't evade the issue."
       ],
-      "senses": [],
-      "русский": "уклоняться, уклониться; ускользать, ускользнуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To get away from someone who is chasing or looking for you",
+          "body": [
+            "(уклоняться, уклониться; ускользать, ускользнуть)"
+          ],
+          "examples": [
+            "Deer evade hunters by moving at night.",
+            "The suspect evaded police for six days.",
+            "He has evaded capture twice already."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To avoid dealing with a duty, a payment, or a question that you should face",
+          "body": [
+            "(уклоняться, уклониться (от уплаты, от ответа); увиливать)",
+            "---"
+          ],
+          "examples": [
+            "He evaded every question about the money.",
+            "She was charged with evading taxes for six years.",
+            "Don't evade the issue."
+          ]
+        }
+      ],
+      "русский": "уклоняться, уклониться; ускользать, ускользнуть; уклоняться, уклониться (от уплаты, от ответа); увиливать",
       "forms": "evade · evaded · evaded",
       "verb class": "regular",
       "third person": "evades · -ing form: evading",
@@ -545,14 +1259,43 @@
       "term": "explore",
       "ipa": "/ɪkˈsplɔːr/",
       "respell": "ik-SPLOR",
-      "meaning": "To travel through an unfamiliar place in order to learn about it. ---",
+      "meaning": "Explore has 2 distinct senses.",
       "examples": [
         "Let us explore the old part of town.",
         "They explored the caves with headlamps.",
-        "We spent Saturday exploring the coast road."
+        "We spent Saturday exploring the coast road.",
+        "We should explore other options before we decide.",
+        "The report explored the causes of the shortage.",
+        "They are exploring a merger with a smaller bank."
       ],
-      "senses": [],
-      "русский": "исследовать, изучать; осматривать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To travel through an unfamiliar place in order to learn about it",
+          "body": [
+            "(исследовать, изучать; осматривать)"
+          ],
+          "examples": [
+            "Let us explore the old part of town.",
+            "They explored the caves with headlamps.",
+            "We spent Saturday exploring the coast road."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To examine an idea or a possibility carefully in order to see what it offers",
+          "body": [
+            "(изучать, рассматривать (варианты); прорабатывать, проработать)",
+            "---"
+          ],
+          "examples": [
+            "We should explore other options before we decide.",
+            "The report explored the causes of the shortage.",
+            "They are exploring a merger with a smaller bank."
+          ]
+        }
+      ],
+      "русский": "исследовать, изучать; осматривать; изучать, рассматривать (варианты); прорабатывать, проработать",
       "forms": "explore · explored · explored",
       "verb class": "regular",
       "third person": "explores · -ing form: exploring",
@@ -580,14 +1323,43 @@
       "term": "float",
       "ipa": "/floʊt/",
       "respell": "FLOHT",
-      "meaning": "To stay on the surface of a liquid, or to move gently through the air. ---",
+      "meaning": "Float has 2 distinct senses.",
       "examples": [
         "Wood floats, stone does not.",
         "The raft floated downstream all afternoon.",
-        "Balloons were floating over the parking lot."
+        "Balloons were floating over the parking lot.",
+        "Let me float an idea past the team.",
+        "She floated the possibility of a four-day week.",
+        "His name has been floated as a possible replacement."
       ],
-      "senses": [],
-      "русский": "плавать, держаться на воде; парить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To stay on the surface of a liquid, or to move gently through the air",
+          "body": [
+            "(плавать, держаться на воде; парить)"
+          ],
+          "examples": [
+            "Wood floats, stone does not.",
+            "The raft floated downstream all afternoon.",
+            "Balloons were floating over the parking lot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To suggest an idea in order to see how people react to it",
+          "body": [
+            "(выдвигать (идею на пробу), предлагать; закидывать удочку)",
+            "---"
+          ],
+          "examples": [
+            "Let me float an idea past the team.",
+            "She floated the possibility of a four-day week.",
+            "His name has been floated as a possible replacement."
+          ]
+        }
+      ],
+      "русский": "плавать, держаться на воде; парить; выдвигать (идею на пробу), предлагать; закидывать удочку",
       "forms": "float · floated · floated",
       "verb class": "regular",
       "third person": "floats · -ing form: floating",
@@ -615,14 +1387,73 @@
       "term": "follow",
       "ipa": "/ˈfɑːloʊ/",
       "respell": "FAH-loh",
-      "meaning": "To go after or behind someone or something. ---",
+      "meaning": "Follow has 4 distinct senses.",
       "examples": [
         "Follow me, I know a shortcut.",
         "A gray car followed us for a few blocks.",
-        "The dog has been following him around all day."
+        "The dog has been following him around all day.",
+        "Just follow the directions on the box.",
+        "She followed the recipe exactly.",
+        "The crew has been following safety procedures to the letter.",
+        "Sorry, I don't follow.",
+        "Nobody followed his explanation of the tax rules.",
+        "Are you following me so far?",
+        "I don't really follow baseball.",
+        "She followed the trial closely.",
+        "Thousands of people are following the account."
       ],
-      "senses": [],
-      "русский": "следовать, последовать; идти за",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To go after or behind someone or something",
+          "body": [
+            "(следовать, последовать; идти за)"
+          ],
+          "examples": [
+            "Follow me, I know a shortcut.",
+            "A gray car followed us for a few blocks.",
+            "The dog has been following him around all day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To do what an instruction, a rule, or a recipe tells you to do",
+          "body": [
+            "(следовать (инструкции), соблюдать (правила); придерживаться)"
+          ],
+          "examples": [
+            "Just follow the directions on the box.",
+            "She followed the recipe exactly.",
+            "The crew has been following safety procedures to the letter."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To understand what someone is saying",
+          "body": [
+            "(понимать, улавливать (мысль); следить за ходом мысли)"
+          ],
+          "examples": [
+            "Sorry, I don't follow.",
+            "Nobody followed his explanation of the tax rules.",
+            "Are you following me so far?"
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To keep up with news about a person, a team, or a subject",
+          "body": [
+            "(следить за (новостями, командой); подписаться (на кого-л. в соцсетях))",
+            "---"
+          ],
+          "examples": [
+            "I don't really follow baseball.",
+            "She followed the trial closely.",
+            "Thousands of people are following the account."
+          ]
+        }
+      ],
+      "русский": "следовать, последовать; идти за; следовать (инструкции), соблюдать (правила); придерживаться; понимать, улавливать (мысль); следить за ходом мысли; следить за (новостями, командой); подписаться (на кого-л. в соцсетях)",
       "forms": "follow · followed · followed",
       "verb class": "regular",
       "third person": "follows · -ing form: following",
@@ -701,14 +1532,43 @@
       "term": "head",
       "ipa": "/hɛd/",
       "respell": "HED",
-      "meaning": "To go in a particular direction. ---",
+      "meaning": "Head has 2 distinct senses.",
       "examples": [
         "We head out at six tomorrow.",
         "She headed straight for the exit.",
-        "Storm clouds were heading our way."
+        "Storm clouds were heading our way.",
+        "She heads the finance committee.",
+        "He headed the department for ten years.",
+        "The task force is headed by a retired judge."
       ],
-      "senses": [],
-      "русский": "направляться, двигаться, держать путь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To go in a particular direction",
+          "body": [
+            "(направляться, двигаться, держать путь)"
+          ],
+          "examples": [
+            "We head out at six tomorrow.",
+            "She headed straight for the exit.",
+            "Storm clouds were heading our way."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be the person in charge of a group or an organization",
+          "body": [
+            "(возглавлять, возглавить; руководить)",
+            "---"
+          ],
+          "examples": [
+            "She heads the finance committee.",
+            "He headed the department for ten years.",
+            "The task force is headed by a retired judge."
+          ]
+        }
+      ],
+      "русский": "направляться, двигаться, держать путь; возглавлять, возглавить; руководить",
       "forms": "head · headed · headed",
       "verb class": "regular",
       "third person": "heads · -ing form: heading",
@@ -720,14 +1580,43 @@
       "term": "hike",
       "ipa": "/haɪk/",
       "respell": "HYK",
-      "meaning": "To take a long walk in the country or the mountains. ---",
+      "meaning": "Hike has 2 distinct senses.",
       "examples": [
         "We hike that ridge every fall.",
         "They hiked eleven miles in one day.",
-        "She has been hiking since she was a kid."
+        "She has been hiking since she was a kid.",
+        "The airline plans to hike baggage fees again.",
+        "The landlord hiked our rent by three hundred dollars.",
+        "The Fed has hiked interest rates twice this year."
       ],
-      "senses": [],
-      "русский": "ходить в поход, идти пешком (по горам, лесу)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take a long walk in the country or the mountains",
+          "body": [
+            "(ходить в поход, идти пешком (по горам, лесу))"
+          ],
+          "examples": [
+            "We hike that ridge every fall.",
+            "They hiked eleven miles in one day.",
+            "She has been hiking since she was a kid."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To raise a price, tax, or rate by a large amount",
+          "body": [
+            "(резко повышать, повысить; поднимать (цены, ставки))",
+            "---"
+          ],
+          "examples": [
+            "The airline plans to hike baggage fees again.",
+            "The landlord hiked our rent by three hundred dollars.",
+            "The Fed has hiked interest rates twice this year."
+          ]
+        }
+      ],
+      "русский": "ходить в поход, идти пешком (по горам, лесу); резко повышать, повысить; поднимать (цены, ставки)",
       "forms": "hike · hiked · hiked",
       "verb class": "regular",
       "third person": "hikes · -ing form: hiking",
@@ -755,14 +1644,58 @@
       "term": "hover",
       "ipa": "/ˈhʌvər/",
       "respell": "HUV-ur",
-      "meaning": "To stay in one place in the air. ---",
+      "meaning": "Hover has 3 distinct senses.",
       "examples": [
         "Hummingbirds hover while they feed.",
         "A helicopter hovered over the freeway.",
-        "The drone was hovering just above the roof."
+        "The drone was hovering just above the roof.",
+        "The waiter hovered by our table the whole meal.",
+        "Stop hovering — I can fold the laundry myself.",
+        "She hovers whenever her son does his homework.",
+        "Hover over the icon to see what it does.",
+        "I hovered over the link and the address popped up.",
+        "A menu opens when the cursor is hovering over the image."
       ],
-      "senses": [],
-      "русский": "парить, зависать (в воздухе)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To stay in one place in the air",
+          "body": [
+            "(парить, зависать (в воздухе))"
+          ],
+          "examples": [
+            "Hummingbirds hover while they feed.",
+            "A helicopter hovered over the freeway.",
+            "The drone was hovering just above the roof."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To stay close to someone, waiting and watching in a way that bothers them",
+          "body": [
+            "(крутиться рядом, маячить, нависать)"
+          ],
+          "examples": [
+            "The waiter hovered by our table the whole meal.",
+            "Stop hovering — I can fold the laundry myself.",
+            "She hovers whenever her son does his homework."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To hold the mouse pointer over something on a screen without clicking",
+          "body": [
+            "(наводить, навести курсор (мышью))",
+            "---"
+          ],
+          "examples": [
+            "Hover over the icon to see what it does.",
+            "I hovered over the link and the address popped up.",
+            "A menu opens when the cursor is hovering over the image."
+          ]
+        }
+      ],
+      "русский": "парить, зависать (в воздухе); крутиться рядом, маячить, нависать; наводить, навести курсор (мышью)",
       "forms": "hover · hovered · hovered",
       "verb class": "regular",
       "third person": "hovers · -ing form: hovering",
@@ -791,14 +1724,43 @@
       "term": "jog",
       "ipa": "/dʒɑːɡ/",
       "respell": "JAHG",
-      "meaning": "To run slowly and steadily for exercise. ---",
+      "meaning": "Jog has 2 distinct senses.",
       "examples": [
         "I jog three mornings a week.",
         "He jogged around the reservoir.",
-        "She was jogging when the storm started."
+        "She was jogging when the storm started.",
+        "Maybe this photo will jog your memory.",
+        "The smell of chalk jogged an old memory.",
+        "We're hoping the recording jogs his memory."
       ],
-      "senses": [],
-      "русский": "бегать трусцой",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To run slowly and steadily for exercise",
+          "body": [
+            "(бегать трусцой)"
+          ],
+          "examples": [
+            "I jog three mornings a week.",
+            "He jogged around the reservoir.",
+            "She was jogging when the storm started."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make someone remember something they had forgotten",
+          "body": [
+            "(напоминать, напомнить; освежать в памяти)",
+            "---"
+          ],
+          "examples": [
+            "Maybe this photo will jog your memory.",
+            "The smell of chalk jogged an old memory.",
+            "We're hoping the recording jogs his memory."
+          ]
+        }
+      ],
+      "русский": "бегать трусцой; напоминать, напомнить; освежать в памяти",
       "forms": "jog · jogged · jogged",
       "verb class": "regular",
       "third person": "jogs · -ing form: jogging",
@@ -809,14 +1771,73 @@
       "term": "jump",
       "ipa": "/dʒʌmp/",
       "respell": "JUMP",
-      "meaning": "To push yourself off the ground with your legs. ---",
+      "meaning": "Jump has 4 distinct senses.",
       "examples": [
         "Do not jump off that wall.",
         "He jumped over the puddle.",
-        "The kids have been jumping in the leaves."
+        "The kids have been jumping in the leaves.",
+        "Gas prices jumped forty cents overnight.",
+        "Sales jump every December.",
+        "Her score has jumped almost 200 points.",
+        "Sorry, I didn't mean to make you jump.",
+        "She jumped when the door slammed.",
+        "He was jumping at every little noise.",
+        "Three guys jumped him outside the bar.",
+        "He got jumped walking home from work.",
+        "Be careful, or somebody will jump you for that phone."
       ],
-      "senses": [],
-      "русский": "прыгать, прыгнуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To push yourself off the ground with your legs",
+          "body": [
+            "(прыгать, прыгнуть)"
+          ],
+          "examples": [
+            "Do not jump off that wall.",
+            "He jumped over the puddle.",
+            "The kids have been jumping in the leaves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To rise suddenly and by a large amount",
+          "body": [
+            "(резко расти, подскочить, взлететь (о ценах, числах))"
+          ],
+          "examples": [
+            "Gas prices jumped forty cents overnight.",
+            "Sales jump every December.",
+            "Her score has jumped almost 200 points."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To move suddenly because something has startled you",
+          "body": [
+            "(вздрагивать, вздрогнуть; подпрыгнуть от испуга)"
+          ],
+          "examples": [
+            "Sorry, I didn't mean to make you jump.",
+            "She jumped when the door slammed.",
+            "He was jumping at every little noise."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To attack someone suddenly, usually in a group (informal)",
+          "body": [
+            "(нападать, напасть (внезапно); избивать, избить)",
+            "---"
+          ],
+          "examples": [
+            "Three guys jumped him outside the bar.",
+            "He got jumped walking home from work.",
+            "Be careful, or somebody will jump you for that phone."
+          ]
+        }
+      ],
+      "русский": "прыгать, прыгнуть; резко расти, подскочить, взлететь (о ценах, числах); вздрагивать, вздрогнуть; подпрыгнуть от испуга; нападать, напасть (внезапно); избивать, избить",
       "forms": "jump · jumped · jumped",
       "verb class": "regular",
       "third person": "jumps · -ing form: jumping",
@@ -827,14 +1848,43 @@
       "term": "land",
       "ipa": "/lænd/",
       "respell": "LAND",
-      "meaning": "To come down onto the ground after being in the air. ---",
+      "meaning": "Land has 2 distinct senses.",
       "examples": [
         "The plane lands at four fifteen.",
         "We landed in Chicago in a snowstorm.",
-        "A bird was landing on the wire outside."
+        "A bird was landing on the wire outside.",
+        "She landed a job at the museum.",
+        "How did a first-year firm land that contract?",
+        "He has landed every account he went after."
       ],
-      "senses": [],
-      "русский": "приземляться, приземлиться; садиться, сесть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To come down onto the ground after being in the air",
+          "body": [
+            "(приземляться, приземлиться; садиться, сесть)"
+          ],
+          "examples": [
+            "The plane lands at four fifteen.",
+            "We landed in Chicago in a snowstorm.",
+            "A bird was landing on the wire outside."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To succeed in getting something that many people want",
+          "body": [
+            "(заполучать, заполучить; добиваться, добиться (работы, контракта))",
+            "---"
+          ],
+          "examples": [
+            "She landed a job at the museum.",
+            "How did a first-year firm land that contract?",
+            "He has landed every account he went after."
+          ]
+        }
+      ],
+      "русский": "приземляться, приземлиться; садиться, сесть; заполучать, заполучить; добиваться, добиться (работы, контракта)",
       "forms": "land · landed · landed",
       "verb class": "regular",
       "third person": "lands · -ing form: landing",
@@ -863,14 +1913,58 @@
       "term": "lift",
       "ipa": "/lɪft/",
       "respell": "LIFT",
-      "meaning": "To raise something to a higher position. ---",
+      "meaning": "Lift has 3 distinct senses.",
       "examples": [
         "Can you lift the other end?",
         "He lifted the bike onto the rack.",
-        "She was lifting boxes into the truck all morning."
+        "She was lifting boxes into the truck all morning.",
+        "The governor plans to lift the mask requirement next week.",
+        "The city lifted the curfew after three quiet nights.",
+        "Sanctions have been lifted on most farm imports.",
+        "He lifts his best jokes from old sitcoms.",
+        "Reviewers found that she had lifted whole paragraphs from a blog.",
+        "The melody was lifted straight from a 1970s hit."
       ],
-      "senses": [],
-      "русский": "поднимать, поднять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To raise something to a higher position",
+          "body": [
+            "(поднимать, поднять)"
+          ],
+          "examples": [
+            "Can you lift the other end?",
+            "He lifted the bike onto the rack.",
+            "She was lifting boxes into the truck all morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To officially end a rule, a ban, or a restriction",
+          "body": [
+            "(снимать, снять (запрет, санкции); отменять, отменить)"
+          ],
+          "examples": [
+            "The governor plans to lift the mask requirement next week.",
+            "The city lifted the curfew after three quiet nights.",
+            "Sanctions have been lifted on most farm imports."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To copy someone else's words or work without permission",
+          "body": [
+            "(красть, украсть (чужой текст); списывать, списать)",
+            "---"
+          ],
+          "examples": [
+            "He lifts his best jokes from old sitcoms.",
+            "Reviewers found that she had lifted whole paragraphs from a blog.",
+            "The melody was lifted straight from a 1970s hit."
+          ]
+        }
+      ],
+      "русский": "поднимать, поднять; снимать, снять (запрет, санкции); отменять, отменить; красть, украсть (чужой текст); списывать, списать",
       "forms": "lift · lifted · lifted",
       "verb class": "regular",
       "third person": "lifts · -ing form: lifting",
@@ -898,14 +1992,58 @@
       "term": "load",
       "ipa": "/loʊd/",
       "respell": "LOHD",
-      "meaning": "To put things into or onto a vehicle or a container. ---",
+      "meaning": "Load has 3 distinct senses.",
       "examples": [
         "Help me load the car.",
         "They loaded the truck in twenty minutes.",
-        "We were still loading when the movers arrived."
+        "We were still loading when the movers arrived.",
+        "The site takes forever to load on my phone.",
+        "The game loaded in under ten seconds.",
+        "The map is still loading.",
+        "He loads the shotgun before dawn.",
+        "She loaded the camera with black-and-white film.",
+        "The rifle was already loaded."
       ],
-      "senses": [],
-      "русский": "грузить, загружать, погрузить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put things into or onto a vehicle or a container",
+          "body": [
+            "(грузить, загружать, погрузить)"
+          ],
+          "examples": [
+            "Help me load the car.",
+            "They loaded the truck in twenty minutes.",
+            "We were still loading when the movers arrived."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bring a page, a program, or a file into a computer so that it can be used",
+          "body": [
+            "(загружаться, загрузиться; загружать, загрузить (страницу, программу))"
+          ],
+          "examples": [
+            "The site takes forever to load on my phone.",
+            "The game loaded in under ten seconds.",
+            "The map is still loading."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To put ammunition into a gun, or film into a camera",
+          "body": [
+            "(заряжать, зарядить)",
+            "---"
+          ],
+          "examples": [
+            "He loads the shotgun before dawn.",
+            "She loaded the camera with black-and-white film.",
+            "The rifle was already loaded."
+          ]
+        }
+      ],
+      "русский": "грузить, загружать, погрузить; загружаться, загрузиться; загружать, загрузить (страницу, программу); заряжать, зарядить",
       "forms": "load · loaded · loaded",
       "verb class": "regular",
       "third person": "loads · -ing form: loading",
@@ -935,14 +2073,43 @@
       "term": "march",
       "ipa": "/mɑːrtʃ/",
       "respell": "MARCH",
-      "meaning": "To walk with regular steps, especially as part of a group. ---",
+      "meaning": "March has 2 distinct senses.",
       "examples": [
         "The band marches onto the field at halftime.",
         "Thousands marched down the avenue.",
-        "Soldiers were marching past the gate."
+        "Soldiers were marching past the gate.",
+        "Don't just march into his office without knocking.",
+        "She marched straight up to the manager and demanded a refund.",
+        "He came marching down the hall waving the bill."
       ],
-      "senses": [],
-      "русский": "маршировать; шагать, идти строем",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To walk with regular steps, especially as part of a group",
+          "body": [
+            "(маршировать; шагать, идти строем)"
+          ],
+          "examples": [
+            "The band marches onto the field at halftime.",
+            "Thousands marched down the avenue.",
+            "Soldiers were marching past the gate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To walk somewhere quickly and with angry determination",
+          "body": [
+            "(решительно идти, решительно направиться; врываться, ворваться)",
+            "---"
+          ],
+          "examples": [
+            "Don't just march into his office without knocking.",
+            "She marched straight up to the manager and demanded a refund.",
+            "He came marching down the hall waving the bill."
+          ]
+        }
+      ],
+      "русский": "маршировать; шагать, идти строем; решительно идти, решительно направиться; врываться, ворваться",
       "forms": "march · marched · marched",
       "verb class": "regular",
       "third person": "marches · -ing form: marching",
@@ -971,14 +2138,43 @@
       "term": "migrate",
       "ipa": "/ˈmaɪɡreɪt/",
       "respell": "MY-grayt",
-      "meaning": "To move from one region to another, usually with the seasons. ---",
+      "meaning": "Migrate has 2 distinct senses.",
       "examples": [
         "Geese migrate south every fall.",
         "His family migrated west during the Depression.",
-        "Whales are migrating along the coast right now."
+        "Whales are migrating along the coast right now.",
+        "We migrate the last accounts tonight.",
+        "They migrated the whole database to the cloud.",
+        "All the old files have been migrated to the new server."
       ],
-      "senses": [],
-      "русский": "мигрировать; переселяться, переселиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move from one region to another, usually with the seasons",
+          "body": [
+            "(мигрировать; переселяться, переселиться)"
+          ],
+          "examples": [
+            "Geese migrate south every fall.",
+            "His family migrated west during the Depression.",
+            "Whales are migrating along the coast right now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move data, software, or users from one system to another",
+          "body": [
+            "(переносить, перенести (данные); мигрировать)",
+            "---"
+          ],
+          "examples": [
+            "We migrate the last accounts tonight.",
+            "They migrated the whole database to the cloud.",
+            "All the old files have been migrated to the new server."
+          ]
+        }
+      ],
+      "русский": "мигрировать; переселяться, переселиться; переносить, перенести (данные); мигрировать",
       "forms": "migrate · migrated · migrated",
       "verb class": "regular",
       "third person": "migrates · -ing form: migrating",
@@ -988,14 +2184,58 @@
       "term": "move",
       "ipa": "/muːv/",
       "respell": "MOOV",
-      "meaning": "To change place or position, or to go and live somewhere else. ---",
+      "meaning": "Move has 3 distinct senses.",
       "examples": [
         "Please move your car.",
         "They moved to Portland last spring.",
-        "The line has not moved in ten minutes."
+        "The line has not moved in ten minutes.",
+        "Stories like that always move me.",
+        "The ending moved her to tears.",
+        "We were deeply moved by his letter.",
+        "I move that we postpone the vote until Friday.",
+        "The defense moved to dismiss the charges.",
+        "A board member has moved for a recount."
       ],
-      "senses": [],
-      "русский": "двигать, двигаться, двинуться; переезжать, переехать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To change place or position, or to go and live somewhere else",
+          "body": [
+            "(двигать, двигаться, двинуться; переезжать, переехать)"
+          ],
+          "examples": [
+            "Please move your car.",
+            "They moved to Portland last spring.",
+            "The line has not moved in ten minutes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To affect someone's feelings deeply",
+          "body": [
+            "(трогать, растрогать; волновать)"
+          ],
+          "examples": [
+            "Stories like that always move me.",
+            "The ending moved her to tears.",
+            "We were deeply moved by his letter."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To formally propose something at a meeting or in court",
+          "body": [
+            "(вносить предложение (на собрании); ходатайствовать (в суде))",
+            "---"
+          ],
+          "examples": [
+            "I move that we postpone the vote until Friday.",
+            "The defense moved to dismiss the charges.",
+            "A board member has moved for a recount."
+          ]
+        }
+      ],
+      "русский": "двигать, двигаться, двинуться; переезжать, переехать; трогать, растрогать; волновать; вносить предложение (на собрании); ходатайствовать (в суде)",
       "forms": "move · moved · moved",
       "verb class": "regular",
       "third person": "moves · -ing form: moving",
@@ -1006,14 +2246,43 @@
       "term": "navigate",
       "ipa": "/ˈnævɪɡeɪt/",
       "respell": "NAV-uh-gayt",
-      "meaning": "To find the way when traveling, or to steer a ship or plane. ---",
+      "meaning": "Navigate has 2 distinct senses.",
       "examples": [
         "You drive and I will navigate.",
         "They navigated by the stars.",
-        "She was navigating from a paper map."
+        "She was navigating from a paper map.",
+        "It is hard to navigate the health insurance system alone.",
+        "She navigated the divorce with help from her sister.",
+        "We are still navigating the new tax rules."
       ],
-      "senses": [],
-      "русский": "ориентироваться; вести судно, прокладывать курс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To find the way when traveling, or to steer a ship or plane",
+          "body": [
+            "(ориентироваться; вести судно, прокладывать курс)"
+          ],
+          "examples": [
+            "You drive and I will navigate.",
+            "They navigated by the stars.",
+            "She was navigating from a paper map."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To deal successfully with a complicated system or situation",
+          "body": [
+            "(ориентироваться (в сложной ситуации), справляться, разобраться)",
+            "---"
+          ],
+          "examples": [
+            "It is hard to navigate the health insurance system alone.",
+            "She navigated the divorce with help from her sister.",
+            "We are still navigating the new tax rules."
+          ]
+        }
+      ],
+      "русский": "ориентироваться; вести судно, прокладывать курс; ориентироваться (в сложной ситуации), справляться, разобраться",
       "forms": "navigate · navigated · navigated",
       "verb class": "regular",
       "third person": "navigates · -ing form: navigating",
@@ -1023,14 +2292,43 @@
       "term": "pace",
       "ipa": "/peɪs/",
       "respell": "PAYS",
-      "meaning": "To walk back and forth in the same small space. ---",
+      "meaning": "Pace has 2 distinct senses.",
       "examples": [
         "She paces whenever she is on the phone.",
         "He paced the hallway outside the room.",
-        "They were pacing the waiting room for hours."
+        "They were pacing the waiting room for hours.",
+        "Pace yourself; it is a long day.",
+        "She paced the race perfectly and won.",
+        "He is pacing himself through a heavy semester."
       ],
-      "senses": [],
-      "русский": "расхаживать, шагать взад-вперёд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To walk back and forth in the same small space",
+          "body": [
+            "(расхаживать, шагать взад-вперёд)"
+          ],
+          "examples": [
+            "She paces whenever she is on the phone.",
+            "He paced the hallway outside the room.",
+            "They were pacing the waiting room for hours."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To control your speed or effort so that you do not run out of energy",
+          "body": [
+            "(распределять силы, рассчитывать темп)",
+            "---"
+          ],
+          "examples": [
+            "Pace yourself; it is a long day.",
+            "She paced the race perfectly and won.",
+            "He is pacing himself through a heavy semester."
+          ]
+        }
+      ],
+      "русский": "расхаживать, шагать взад-вперёд; распределять силы, рассчитывать темп",
       "forms": "pace · paced · paced",
       "verb class": "regular",
       "third person": "paces · -ing form: pacing",
@@ -1040,14 +2338,43 @@
       "term": "pack",
       "ipa": "/pæk/",
       "respell": "PAK",
-      "meaning": "To put your things into a bag or a box before a trip. ---",
+      "meaning": "Pack has 2 distinct senses.",
       "examples": [
         "I still have to pack.",
         "She packed two sweaters and a raincoat.",
-        "He was packing at midnight the night before the flight."
+        "He was packing at midnight the night before the flight.",
+        "Thousands pack the square every New Year's Eve.",
+        "Fans packed the stadium two hours before kickoff.",
+        "The hall was packed with worried parents."
       ],
-      "senses": [],
-      "русский": "упаковывать, упаковать; укладывать вещи",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To put your things into a bag or a box before a trip",
+          "body": [
+            "(упаковывать, упаковать; укладывать вещи)"
+          ],
+          "examples": [
+            "I still have to pack.",
+            "She packed two sweaters and a raincoat.",
+            "He was packing at midnight the night before the flight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fill a place completely with people",
+          "body": [
+            "(заполнять до отказа, набиваться (о толпе))",
+            "---"
+          ],
+          "examples": [
+            "Thousands pack the square every New Year's Eve.",
+            "Fans packed the stadium two hours before kickoff.",
+            "The hall was packed with worried parents."
+          ]
+        }
+      ],
+      "русский": "упаковывать, упаковать; укладывать вещи; заполнять до отказа, набиваться (о толпе)",
       "forms": "pack · packed · packed",
       "verb class": "regular",
       "third person": "packs · -ing form: packing",
@@ -1075,14 +2402,43 @@
       "term": "park",
       "ipa": "/pɑːrk/",
       "respell": "PARK",
-      "meaning": "To leave a vehicle somewhere for a period of time. ---",
+      "meaning": "Park has 2 distinct senses.",
       "examples": [
         "You cannot park here on Tuesdays.",
         "She parked two blocks away.",
-        "We have been parking in the garage all week."
+        "We have been parking in the garage all week.",
+        "Park your bags in the hall and come eat.",
+        "He parked himself on the couch and didn't move all afternoon.",
+        "She had parked her coffee on the windowsill and forgotten it."
       ],
-      "senses": [],
-      "русский": "парковать, припарковать; парковаться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To leave a vehicle somewhere for a period of time",
+          "body": [
+            "(парковать, припарковать; парковаться)"
+          ],
+          "examples": [
+            "You cannot park here on Tuesdays.",
+            "She parked two blocks away.",
+            "We have been parking in the garage all week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To put something, or yourself, somewhere and leave it there, in informal speech",
+          "body": [
+            "(приткнуть, пристроить; усесться, расположиться)",
+            "---"
+          ],
+          "examples": [
+            "Park your bags in the hall and come eat.",
+            "He parked himself on the couch and didn't move all afternoon.",
+            "She had parked her coffee on the windowsill and forgotten it."
+          ]
+        }
+      ],
+      "русский": "парковать, припарковать; парковаться; приткнуть, пристроить; усесться, расположиться",
       "forms": "park · parked · parked",
       "verb class": "regular",
       "third person": "parks · -ing form: parking",
@@ -1092,14 +2448,88 @@
       "term": "pass",
       "ipa": "/pæs/",
       "respell": "PASS",
-      "meaning": "To go by someone or something, or to move past it. ---",
+      "meaning": "Pass has 5 distinct senses.",
       "examples": [
         "We pass the lake on the way home.",
         "A truck passed us on the right.",
-        "They were passing through Ohio when the call came."
+        "They were passing through Ohio when the call came.",
+        "You have to pass the road test before you can drive alone.",
+        "She passed the bar exam on her first try.",
+        "He has passed every class except chemistry.",
+        "Could you pass me the salt?",
+        "The quarterback passed the ball to his left.",
+        "The note was passed from desk to desk.",
+        "The Senate is expected to pass the bill this week.",
+        "Voters passed the measure by a wide margin.",
+        "The new rules were passed without debate.",
+        "They read old magazines to pass the time.",
+        "Three hours passed before anyone noticed she was gone.",
+        "Two weeks have passed since her last message."
       ],
-      "senses": [],
-      "русский": "проходить, проезжать мимо; обгонять, обогнать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To go by someone or something, or to move past it",
+          "body": [
+            "(проходить, проезжать мимо; обгонять, обогнать)"
+          ],
+          "examples": [
+            "We pass the lake on the way home.",
+            "A truck passed us on the right.",
+            "They were passing through Ohio when the call came."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To succeed in a test or an examination",
+          "body": [
+            "(сдавать, сдать (экзамен); проходить (проверку))"
+          ],
+          "examples": [
+            "You have to pass the road test before you can drive alone.",
+            "She passed the bar exam on her first try.",
+            "He has passed every class except chemistry."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To hand or throw something to another person",
+          "body": [
+            "(передавать, передать; отдавать пас)"
+          ],
+          "examples": [
+            "Could you pass me the salt?",
+            "The quarterback passed the ball to his left.",
+            "The note was passed from desk to desk."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "To approve a law or a proposal by an official vote",
+          "body": [
+            "(принимать, принять (закон); одобрять, одобрить)"
+          ],
+          "examples": [
+            "The Senate is expected to pass the bill this week.",
+            "Voters passed the measure by a wide margin.",
+            "The new rules were passed without debate."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "To spend a period of time, or for time itself to go by",
+          "body": [
+            "(проводить, провести (время); проходить, пройти (о времени))",
+            "---"
+          ],
+          "examples": [
+            "They read old magazines to pass the time.",
+            "Three hours passed before anyone noticed she was gone.",
+            "Two weeks have passed since her last message."
+          ]
+        }
+      ],
+      "русский": "проходить, проезжать мимо; обгонять, обогнать; сдавать, сдать (экзамен); проходить (проверку); передавать, передать; отдавать пас; принимать, принять (закон); одобрять, одобрить; проводить, провести (время); проходить, пройти (о времени)",
       "forms": "pass · passed · passed",
       "verb class": "regular",
       "third person": "passes · -ing form: passing",
@@ -1111,14 +2541,43 @@
       "term": "pause",
       "ipa": "/pɔːz/",
       "respell": "PAWZ",
-      "meaning": "To stop for a short time before going on. ---",
+      "meaning": "Pause has 2 distinct senses.",
       "examples": [
         "He pauses before every answer.",
         "She paused at the top of the stairs.",
-        "They were pausing every few minutes to rest."
+        "They were pausing every few minutes to rest.",
+        "Pause the movie — I'll be right back.",
+        "He paused the recording to take a call.",
+        "I've paused the download until we get better Wi-Fi."
       ],
-      "senses": [],
-      "русский": "делать паузу, приостанавливаться, остановиться на миг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To stop for a short time before going on",
+          "body": [
+            "(делать паузу, приостанавливаться, остановиться на миг)"
+          ],
+          "examples": [
+            "He pauses before every answer.",
+            "She paused at the top of the stairs.",
+            "They were pausing every few minutes to rest."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To stop a video, a song, or a machine for a moment so that it can start again later",
+          "body": [
+            "(ставить на паузу, поставить на паузу; приостанавливать, приостановить)",
+            "---"
+          ],
+          "examples": [
+            "Pause the movie — I'll be right back.",
+            "He paused the recording to take a call.",
+            "I've paused the download until we get better Wi-Fi."
+          ]
+        }
+      ],
+      "русский": "делать паузу, приостанавливаться, остановиться на миг; ставить на паузу, поставить на паузу; приостанавливать, приостановить",
       "forms": "pause · paused · paused",
       "verb class": "regular",
       "third person": "pauses · -ing form: pausing",
@@ -1164,14 +2623,58 @@
       "term": "pull",
       "ipa": "/pʊl/",
       "respell": "PUUL",
-      "meaning": "To move something toward you by taking hold of it. ---",
+      "meaning": "Pull has 3 distinct senses.",
       "examples": [
         "Pull the door, do not push it.",
         "He pulled the sled up the hill.",
-        "She was pulling a wagon full of kids."
+        "She was pulling a wagon full of kids.",
+        "He pulled a hamstring in the first inning.",
+        "Bend your knees or you'll pull something.",
+        "She has pulled the same muscle twice this season.",
+        "Don't ever pull a stunt like that again.",
+        "He pulled a prank on his roommate the first night.",
+        "The kids are always pulling something on the substitute teacher."
       ],
-      "senses": [],
-      "русский": "тянуть, потянуть; тащить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move something toward you by taking hold of it",
+          "body": [
+            "(тянуть, потянуть; тащить)"
+          ],
+          "examples": [
+            "Pull the door, do not push it.",
+            "He pulled the sled up the hill.",
+            "She was pulling a wagon full of kids."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To injure a muscle by stretching it too far",
+          "body": [
+            "(потянуть, растянуть (мышцу))"
+          ],
+          "examples": [
+            "He pulled a hamstring in the first inning.",
+            "Bend your knees or you'll pull something.",
+            "She has pulled the same muscle twice this season."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To carry out something sneaky, risky, or surprising",
+          "body": [
+            "(выкидывать, выкинуть (номер); откалывать, отколоть (шутку))",
+            "---"
+          ],
+          "examples": [
+            "Don't ever pull a stunt like that again.",
+            "He pulled a prank on his roommate the first night.",
+            "The kids are always pulling something on the substitute teacher."
+          ]
+        }
+      ],
+      "русский": "тянуть, потянуть; тащить; потянуть, растянуть (мышцу); выкидывать, выкинуть (номер); откалывать, отколоть (шутку)",
       "forms": "pull · pulled · pulled",
       "verb class": "regular",
       "third person": "pulls · -ing form: pulling",
@@ -1182,14 +2685,43 @@
       "term": "pursue",
       "ipa": "/pərˈsuː/",
       "respell": "pur-SOO",
-      "meaning": "To follow someone in order to catch or reach them. ---",
+      "meaning": "Pursue has 2 distinct senses.",
       "examples": [
         "Wolves pursue a herd for miles.",
         "Two patrol cars pursued the van across town.",
-        "Officers were pursuing the suspect on foot."
+        "Officers were pursuing the suspect on foot.",
+        "She left the firm to pursue a degree in nursing.",
+        "He pursued a career in music for a decade before giving it up.",
+        "The family is pursuing legal action against the hospital."
       ],
-      "senses": [],
-      "русский": "преследовать, гнаться за",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To follow someone in order to catch or reach them",
+          "body": [
+            "(преследовать, гнаться за)"
+          ],
+          "examples": [
+            "Wolves pursue a herd for miles.",
+            "Two patrol cars pursued the van across town.",
+            "Officers were pursuing the suspect on foot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To work steadily at something you want to achieve over a long time",
+          "body": [
+            "(добиваться, стремиться к; заниматься (карьерой, образованием))",
+            "---"
+          ],
+          "examples": [
+            "She left the firm to pursue a degree in nursing.",
+            "He pursued a career in music for a decade before giving it up.",
+            "The family is pursuing legal action against the hospital."
+          ]
+        }
+      ],
+      "русский": "преследовать, гнаться за; добиваться, стремиться к; заниматься (карьерой, образованием)",
       "forms": "pursue · pursued · pursued",
       "verb class": "regular",
       "third person": "pursues · -ing form: pursuing",
@@ -1199,14 +2731,58 @@
       "term": "push",
       "ipa": "/pʊʃ/",
       "respell": "PUUSH",
-      "meaning": "To move something away from you by pressing on it. ---",
+      "meaning": "Push has 3 distinct senses.",
       "examples": [
         "Push the cart over here.",
         "He pushed the stalled car off the road.",
-        "She was pushing a stroller up the hill."
+        "She was pushing a stroller up the hill.",
+        "My parents pushed me to apply to medical school.",
+        "A good coach knows how hard to push a player.",
+        "She felt pushed into a decision she wasn't ready to make.",
+        "He was arrested for pushing heroin.",
+        "They pushed pills out of a rented garage for two years.",
+        "Nobody would dare push drugs that close to a school."
       ],
-      "senses": [],
-      "русский": "толкать, толкнуть; нажимать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move something away from you by pressing on it",
+          "body": [
+            "(толкать, толкнуть; нажимать)"
+          ],
+          "examples": [
+            "Push the cart over here.",
+            "He pushed the stalled car off the road.",
+            "She was pushing a stroller up the hill."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To urge someone hard to do something, often harder than they want",
+          "body": [
+            "(настаивать, подталкивать (к чему-л.); заставлять, вынуждать)"
+          ],
+          "examples": [
+            "My parents pushed me to apply to medical school.",
+            "A good coach knows how hard to push a player.",
+            "She felt pushed into a decision she wasn't ready to make."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To sell illegal drugs",
+          "body": [
+            "(торговать наркотиками, толкать (наркотики))",
+            "---"
+          ],
+          "examples": [
+            "He was arrested for pushing heroin.",
+            "They pushed pills out of a rented garage for two years.",
+            "Nobody would dare push drugs that close to a school."
+          ]
+        }
+      ],
+      "русский": "толкать, толкнуть; нажимать; настаивать, подталкивать (к чему-л.); заставлять, вынуждать; торговать наркотиками, толкать (наркотики)",
       "forms": "push · pushed · pushed",
       "verb class": "regular",
       "third person": "pushes · -ing form: pushing",
@@ -1218,14 +2794,43 @@
       "term": "race",
       "ipa": "/reɪs/",
       "respell": "RAYS",
-      "meaning": "To move very fast, or to compete for speed. ---",
+      "meaning": "Race has 2 distinct senses.",
       "examples": [
         "Do not race down the stairs.",
         "He raced to the gate and just made it.",
-        "They were racing each other to the mailbox."
+        "They were racing each other to the mailbox.",
+        "My heart was racing by the time I reached the door.",
+        "His mind raced through everything that could go wrong.",
+        "Coffee that late makes my pulse race."
       ],
-      "senses": [],
-      "русский": "мчаться, помчаться; состязаться в скорости",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move very fast, or to compete for speed",
+          "body": [
+            "(мчаться, помчаться; состязаться в скорости)"
+          ],
+          "examples": [
+            "Do not race down the stairs.",
+            "He raced to the gate and just made it.",
+            "They were racing each other to the mailbox."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To beat very fast, said of your heart, or to run wildly, said of your thoughts",
+          "body": [
+            "(колотиться, бешено биться (о сердце); лихорадочно работать (о мыслях))",
+            "---"
+          ],
+          "examples": [
+            "My heart was racing by the time I reached the door.",
+            "His mind raced through everything that could go wrong.",
+            "Coffee that late makes my pulse race."
+          ]
+        }
+      ],
+      "русский": "мчаться, помчаться; состязаться в скорости; колотиться, бешено биться (о сердце); лихорадочно работать (о мыслях)",
       "forms": "race · raced · raced",
       "verb class": "regular",
       "third person": "races · -ing form: racing",
@@ -1252,14 +2857,58 @@
       "term": "remain",
       "ipa": "/rɪˈmeɪn/",
       "respell": "ri-MAYN",
-      "meaning": "To stay in the same place instead of leaving. ---",
+      "meaning": "Remain has 3 distinct senses.",
       "examples": [
         "Please remain seated until we reach the gate.",
         "She remained on the platform until the train was out of sight.",
-        "Only three passengers have remained on board."
+        "Only three passengers have remained on board.",
+        "Please remain seated until the plane comes to a stop.",
+        "She remained calm through the whole flight.",
+        "The cause of the fire has remained a mystery.",
+        "Only three tickets remain.",
+        "Little remained of the house after the fire.",
+        "The stone foundation is all that has remained of the mill."
       ],
-      "senses": [],
-      "русский": "оставаться, остаться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To stay in the same place instead of leaving",
+          "body": [
+            "(оставаться, остаться)"
+          ],
+          "examples": [
+            "Please remain seated until we reach the gate.",
+            "She remained on the platform until the train was out of sight.",
+            "Only three passengers have remained on board."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To continue to be in the same state or condition",
+          "body": [
+            "(оставаться (каким-л.), сохраняться в том же состоянии)"
+          ],
+          "examples": [
+            "Please remain seated until the plane comes to a stop.",
+            "She remained calm through the whole flight.",
+            "The cause of the fire has remained a mystery."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To be left after the rest is gone or used up",
+          "body": [
+            "(оставаться, остаться (в наличии); сохраниться)",
+            "---"
+          ],
+          "examples": [
+            "Only three tickets remain.",
+            "Little remained of the house after the fire.",
+            "The stone foundation is all that has remained of the mill."
+          ]
+        }
+      ],
+      "русский": "оставаться, остаться; оставаться (каким-л.), сохраняться в том же состоянии; оставаться, остаться (в наличии); сохраниться",
       "forms": "remain · remained · remained",
       "verb class": "regular",
       "third person": "remains · -ing form: remaining",
@@ -1269,14 +2918,43 @@
       "term": "remove",
       "ipa": "/rɪˈmuːv/",
       "respell": "ri-MOOV",
-      "meaning": "To take something away from a place. ---",
+      "meaning": "Remove has 2 distinct senses.",
       "examples": [
         "Please remove your bags from the aisle.",
         "They removed the roadblock at noon.",
-        "Snow has been removed from the main roads."
+        "Snow has been removed from the main roads.",
+        "The board voted to remove the chief executive.",
+        "Two officers were removed from duty during the investigation.",
+        "Congress has removed only a handful of federal judges."
       ],
-      "senses": [],
-      "русский": "убирать, убрать; снимать, удалять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take something away from a place",
+          "body": [
+            "(убирать, убрать; снимать, удалять)"
+          ],
+          "examples": [
+            "Please remove your bags from the aisle.",
+            "They removed the roadblock at noon.",
+            "Snow has been removed from the main roads."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To force someone out of a job or an official position",
+          "body": [
+            "(отстранять, отстранить (от должности); смещать, сместить)",
+            "---"
+          ],
+          "examples": [
+            "The board voted to remove the chief executive.",
+            "Two officers were removed from duty during the investigation.",
+            "Congress has removed only a handful of federal judges."
+          ]
+        }
+      ],
+      "русский": "убирать, убрать; снимать, удалять; отстранять, отстранить (от должности); смещать, сместить",
       "forms": "remove · removed · removed",
       "verb class": "regular",
       "third person": "removes · -ing form: removing",
@@ -1303,14 +2981,58 @@
       "term": "return",
       "ipa": "/rɪˈtɜːrn/",
       "respell": "ri-TURN",
-      "meaning": "To come or go back to a place, or to give something back. ---",
+      "meaning": "Return has 3 distinct senses.",
       "examples": [
         "They return from Spain on Sunday.",
         "He returned to the same hotel every summer.",
-        "She has not returned my call."
+        "She has not returned my call.",
+        "I'll return the favor someday.",
+        "He waved, and she returned the wave.",
+        "Thanks for returning my call so quickly.",
+        "The fund returned eight percent last year.",
+        "These bonds return very little at the moment.",
+        "The project is returning less than we hoped."
       ],
-      "senses": [],
-      "русский": "возвращаться, вернуться; возвращать, вернуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To come or go back to a place, or to give something back",
+          "body": [
+            "(возвращаться, вернуться; возвращать, вернуть)"
+          ],
+          "examples": [
+            "They return from Spain on Sunday.",
+            "He returned to the same hotel every summer.",
+            "She has not returned my call."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To do the same thing back to someone",
+          "body": [
+            "(отвечать тем же, отплатить (тем же))"
+          ],
+          "examples": [
+            "I'll return the favor someday.",
+            "He waved, and she returned the wave.",
+            "Thanks for returning my call so quickly."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To produce a profit for the money that was invested",
+          "body": [
+            "(приносить (доход), давать прибыль)",
+            "---"
+          ],
+          "examples": [
+            "The fund returned eight percent last year.",
+            "These bonds return very little at the moment.",
+            "The project is returning less than we hoped."
+          ]
+        }
+      ],
+      "русский": "возвращаться, вернуться; возвращать, вернуть; отвечать тем же, отплатить (тем же); приносить (доход), давать прибыль",
       "forms": "return · returned · returned",
       "verb class": "regular",
       "third person": "returns · -ing form: returning",
@@ -1320,14 +3042,43 @@
       "term": "reverse",
       "ipa": "/rɪˈvɜːrs/",
       "respell": "ri-VURSS",
-      "meaning": "To drive backward, or to turn something the opposite way. ---",
+      "meaning": "Reverse has 2 distinct senses.",
       "examples": [
         "Reverse slowly, the driveway is narrow.",
         "He reversed into a parking space.",
-        "The truck was reversing when it hit the pole."
+        "The truck was reversing when it hit the pole.",
+        "The appeals court reversed the conviction.",
+        "The school board may reverse the policy next month.",
+        "That ruling has since been reversed."
       ],
-      "senses": [],
-      "русский": "ехать задним ходом, сдавать назад; менять на противоположное",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To drive backward, or to turn something the opposite way",
+          "body": [
+            "(ехать задним ходом, сдавать назад; менять на противоположное)"
+          ],
+          "examples": [
+            "Reverse slowly, the driveway is narrow.",
+            "He reversed into a parking space.",
+            "The truck was reversing when it hit the pole."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To officially change an earlier decision or ruling to the opposite",
+          "body": [
+            "(отменять, отменить (решение суда); пересматривать)",
+            "---"
+          ],
+          "examples": [
+            "The appeals court reversed the conviction.",
+            "The school board may reverse the policy next month.",
+            "That ruling has since been reversed."
+          ]
+        }
+      ],
+      "русский": "ехать задним ходом, сдавать назад; менять на противоположное; отменять, отменить (решение суда); пересматривать",
       "forms": "reverse · reversed · reversed",
       "verb class": "regular",
       "third person": "reverses · -ing form: reversing",
@@ -1337,14 +3088,43 @@
       "term": "roam",
       "ipa": "/roʊm/",
       "respell": "ROHM",
-      "meaning": "To move around a wide area without a fixed direction. ---",
+      "meaning": "Roam has 2 distinct senses.",
       "examples": [
         "Cattle roam the whole valley.",
         "We roamed the old city for hours.",
-        "A stray dog had been roaming the neighborhood for weeks."
+        "A stray dog had been roaming the neighborhood for weeks.",
+        "My phone roams on a Mexican network near the border.",
+        "We roamed on a local carrier the whole trip.",
+        "Check the rates before your phone starts roaming overseas."
       ],
-      "senses": [],
-      "русский": "бродить, скитаться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move around a wide area without a fixed direction",
+          "body": [
+            "(бродить, скитаться)"
+          ],
+          "examples": [
+            "Cattle roam the whole valley.",
+            "We roamed the old city for hours.",
+            "A stray dog had been roaming the neighborhood for weeks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "For a phone to use another company's network while you are away from home",
+          "body": [
+            "(работать в роуминге, находиться в роуминге)",
+            "---"
+          ],
+          "examples": [
+            "My phone roams on a Mexican network near the border.",
+            "We roamed on a local carrier the whole trip.",
+            "Check the rates before your phone starts roaming overseas."
+          ]
+        }
+      ],
+      "русский": "бродить, скитаться; работать в роуминге, находиться в роуминге",
       "forms": "roam · roamed · roamed",
       "verb class": "regular",
       "third person": "roams · -ing form: roaming",
@@ -1354,14 +3134,43 @@
       "term": "roll",
       "ipa": "/roʊl/",
       "respell": "ROHL",
-      "meaning": "To move by turning over and over, or to make something do that. ---",
+      "meaning": "Roll has 2 distinct senses.",
       "examples": [
         "Waves roll in all afternoon.",
         "The ball rolled under the car.",
-        "He was rolling the barrel toward the truck."
+        "He was rolling the barrel toward the truck.",
+        "Roll the dough into small balls.",
+        "He rolled the poster carefully and slid it into a tube.",
+        "She was rolling tortillas while the beans cooked."
       ],
-      "senses": [],
-      "русский": "катить, катиться, покатиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move by turning over and over, or to make something do that",
+          "body": [
+            "(катить, катиться, покатиться)"
+          ],
+          "examples": [
+            "Waves roll in all afternoon.",
+            "The ball rolled under the car.",
+            "He was rolling the barrel toward the truck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To wrap or shape something into a tube or a ball",
+          "body": [
+            "(скатывать, скатать; сворачивать, свернуть (в рулон, в трубочку))",
+            "---"
+          ],
+          "examples": [
+            "Roll the dough into small balls.",
+            "He rolled the poster carefully and slid it into a tube.",
+            "She was rolling tortillas while the beans cooked."
+          ]
+        }
+      ],
+      "русский": "катить, катиться, покатиться; скатывать, скатать; сворачивать, свернуть (в рулон, в трубочку)",
       "forms": "roll · rolled · rolled",
       "verb class": "regular",
       "third person": "rolls · -ing form: rolling",
@@ -1373,14 +3182,43 @@
       "term": "rotate",
       "ipa": "/ˈroʊteɪt/",
       "respell": "ROH-tayt",
-      "meaning": "To turn around a center point. ---",
+      "meaning": "Rotate has 2 distinct senses.",
       "examples": [
         "The Earth rotates once a day.",
         "He rotated the tires before the trip.",
-        "The beam was rotating slowly above the harbor."
+        "The beam was rotating slowly above the harbor.",
+        "The nurses rotate between the day shift and the night shift.",
+        "We rotated the chores every week.",
+        "Farmers have rotated these crops for generations."
       ],
-      "senses": [],
-      "русский": "вращать, вращаться; поворачивать, повернуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To turn around a center point",
+          "body": [
+            "(вращать, вращаться; поворачивать, повернуть)"
+          ],
+          "examples": [
+            "The Earth rotates once a day.",
+            "He rotated the tires before the trip.",
+            "The beam was rotating slowly above the harbor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take turns doing something, or to change things in a fixed order",
+          "body": [
+            "(чередовать, чередоваться; работать посменно)",
+            "---"
+          ],
+          "examples": [
+            "The nurses rotate between the day shift and the night shift.",
+            "We rotated the chores every week.",
+            "Farmers have rotated these crops for generations."
+          ]
+        }
+      ],
+      "русский": "вращать, вращаться; поворачивать, повернуть; чередовать, чередоваться; работать посменно",
       "forms": "rotate · rotated · rotated",
       "verb class": "regular",
       "third person": "rotates · -ing form: rotating",
@@ -1408,14 +3246,43 @@
       "term": "rush",
       "ipa": "/rʌʃ/",
       "respell": "RUSH",
-      "meaning": "To go somewhere or do something very quickly. ---",
+      "meaning": "Rush has 2 distinct senses.",
       "examples": [
         "Do not rush, we have time.",
         "They rushed him to the hospital.",
-        "Everyone was rushing for the last train."
+        "Everyone was rushing for the last train.",
+        "Fans rush the field every time the team wins at home.",
+        "Two men rushed the stage before security caught them.",
+        "The crowd was rushing the gates an hour before the doors opened."
       ],
-      "senses": [],
-      "русский": "спешить, торопиться, мчаться; торопить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To go somewhere or do something very quickly",
+          "body": [
+            "(спешить, торопиться, мчаться; торопить)"
+          ],
+          "examples": [
+            "Do not rush, we have time.",
+            "They rushed him to the hospital.",
+            "Everyone was rushing for the last train."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move suddenly toward someone or something in order to attack or take it",
+          "body": [
+            "(бросаться, броситься (на); идти на штурм, штурмовать)",
+            "---"
+          ],
+          "examples": [
+            "Fans rush the field every time the team wins at home.",
+            "Two men rushed the stage before security caught them.",
+            "The crowd was rushing the gates an hour before the doors opened."
+          ]
+        }
+      ],
+      "русский": "спешить, торопиться, мчаться; торопить; бросаться, броситься (на); идти на штурм, штурмовать",
       "forms": "rush · rushed · rushed",
       "verb class": "regular",
       "third person": "rushes · -ing form: rushing",
@@ -1426,14 +3293,43 @@
       "term": "sail",
       "ipa": "/seɪl/",
       "respell": "SAYL",
-      "meaning": "To travel on water in a boat or a ship. ---",
+      "meaning": "Sail has 2 distinct senses.",
       "examples": [
         "We sail at first light.",
         "The ferry sailed without us.",
-        "They have been sailing the coast all summer."
+        "They have been sailing the coast all summer.",
+        "Fly balls sail out of that park all summer.",
+        "The ball sailed over the fence and into the parking lot.",
+        "A paper plane came sailing past my desk."
       ],
-      "senses": [],
-      "русский": "плыть на судне, идти под парусом; отплывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To travel on water in a boat or a ship",
+          "body": [
+            "(плыть на судне, идти под парусом; отплывать)"
+          ],
+          "examples": [
+            "We sail at first light.",
+            "The ferry sailed without us.",
+            "They have been sailing the coast all summer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move smoothly and easily through the air or across a space",
+          "body": [
+            "(лететь, пролететь; плавно нестись)",
+            "---"
+          ],
+          "examples": [
+            "Fly balls sail out of that park all summer.",
+            "The ball sailed over the fence and into the parking lot.",
+            "A paper plane came sailing past my desk."
+          ]
+        }
+      ],
+      "русский": "плыть на судне, идти под парусом; отплывать; лететь, пролететь; плавно нестись",
       "forms": "sail · sailed · sailed",
       "verb class": "regular",
       "third person": "sails · -ing form: sailing",
@@ -1462,14 +3358,43 @@
       "term": "shift",
       "ipa": "/ʃɪft/",
       "respell": "SHIFT",
-      "meaning": "To move something a short distance, or to change position. ---",
+      "meaning": "Shift has 2 distinct senses.",
       "examples": [
         "Can you shift the couch a little to the left?",
         "The wind shifted to the north overnight.",
-        "He kept shifting the box from arm to arm."
+        "He kept shifting the box from arm to arm.",
+        "Don't try to shift the blame onto me.",
+        "The new rules shifted the cost to employers.",
+        "The company has shifted responsibility for repairs to the tenants."
       ],
-      "senses": [],
-      "русский": "перемещать, сдвигать, сдвинуть; переключать передачу",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move something a short distance, or to change position",
+          "body": [
+            "(перемещать, сдвигать, сдвинуть; переключать передачу)"
+          ],
+          "examples": [
+            "Can you shift the couch a little to the left?",
+            "The wind shifted to the north overnight.",
+            "He kept shifting the box from arm to arm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To move blame, cost, or responsibility onto someone else",
+          "body": [
+            "(перекладывать, переложить (вину, расходы, ответственность))",
+            "---"
+          ],
+          "examples": [
+            "Don't try to shift the blame onto me.",
+            "The new rules shifted the cost to employers.",
+            "The company has shifted responsibility for repairs to the tenants."
+          ]
+        }
+      ],
+      "русский": "перемещать, сдвигать, сдвинуть; переключать передачу; перекладывать, переложить (вину, расходы, ответственность)",
       "forms": "shift · shifted · shifted",
       "verb class": "regular",
       "third person": "shifts · -ing form: shifting",
@@ -1515,14 +3440,43 @@
       "term": "signal",
       "ipa": "/ˈsɪɡnəl/",
       "respell": "SIG-nuhl",
-      "meaning": "To show which way you are turning, or to give someone a sign. ---",
+      "meaning": "Signal has 2 distinct senses.",
       "examples": [
         "Always signal before you change lanes.",
         "She signaled left and slowed down.",
-        "The officer was signaling us to pull over."
+        "The officer was signaling us to pull over.",
+        "The decision signals a major change in policy.",
+        "His resignation signaled trouble at the top.",
+        "The company has signaled that layoffs are coming."
       ],
-      "senses": [],
-      "русский": "подавать сигнал, сигнализировать; включать поворотник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To show which way you are turning, or to give someone a sign",
+          "body": [
+            "(подавать сигнал, сигнализировать; включать поворотник)"
+          ],
+          "examples": [
+            "Always signal before you change lanes.",
+            "She signaled left and slowed down.",
+            "The officer was signaling us to pull over."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To show clearly that something is true or is going to happen",
+          "body": [
+            "(свидетельствовать о, сигнализировать (о намерении); давать понять)",
+            "---"
+          ],
+          "examples": [
+            "The decision signals a major change in policy.",
+            "His resignation signaled trouble at the top.",
+            "The company has signaled that layoffs are coming."
+          ]
+        }
+      ],
+      "русский": "подавать сигнал, сигнализировать; включать поворотник; свидетельствовать о, сигнализировать (о намерении); давать понять",
       "forms": "signal · signaled · signaled",
       "verb class": "regular",
       "third person": "signals · -ing form: signaling",
@@ -1551,14 +3505,58 @@
       "term": "skip",
       "ipa": "/skɪp/",
       "respell": "SKIP",
-      "meaning": "To move along with light hops from one foot to the other. ---",
+      "meaning": "Skip has 3 distinct senses.",
       "examples": [
         "Kids skip when they are happy.",
         "She skipped down the sidewalk.",
-        "He was skipping stones across the water."
+        "He was skipping stones across the water.",
+        "I skipped breakfast and regretted it by ten.",
+        "Don't skip your medication.",
+        "He has skipped class three times this week.",
+        "We used to skip stones across the pond.",
+        "He skipped a flat rock four times.",
+        "The ball skipped off the pavement and into the street."
       ],
-      "senses": [],
-      "русский": "скакать, идти вприпрыжку",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move along with light hops from one foot to the other",
+          "body": [
+            "(скакать, идти вприпрыжку)"
+          ],
+          "examples": [
+            "Kids skip when they are happy.",
+            "She skipped down the sidewalk.",
+            "He was skipping stones across the water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To leave something out, or not do something you would normally do",
+          "body": [
+            "(пропускать, пропустить (приём пищи, занятие); прогуливать)"
+          ],
+          "examples": [
+            "I skipped breakfast and regretted it by ten.",
+            "Don't skip your medication.",
+            "He has skipped class three times this week."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To bounce something along a surface, or to bounce that way",
+          "body": [
+            "(пускать блинчики (по воде); подпрыгивать, скакать по поверхности)",
+            "---"
+          ],
+          "examples": [
+            "We used to skip stones across the pond.",
+            "He skipped a flat rock four times.",
+            "The ball skipped off the pavement and into the street."
+          ]
+        }
+      ],
+      "русский": "скакать, идти вприпрыжку; пропускать, пропустить (приём пищи, занятие); прогуливать; пускать блинчики (по воде); подпрыгивать, скакать по поверхности",
       "forms": "skip · skipped · skipped",
       "verb class": "regular",
       "third person": "skips · -ing form: skipping",
@@ -1570,14 +3568,43 @@
       "term": "slip",
       "ipa": "/slɪp/",
       "respell": "SLIP",
-      "meaning": "To slide by accident and lose your balance, or to move quietly. ---",
+      "meaning": "Slip has 2 distinct senses.",
       "examples": [
         "Be careful, you could slip.",
         "He slipped on the wet steps.",
-        "She was slipping out the back door when we saw her."
+        "She was slipping out the back door when we saw her.",
+        "Sales slipped three percent last quarter.",
+        "His grades have slipped since September.",
+        "If the ratings slip again, the show will be canceled."
       ],
-      "senses": [],
-      "русский": "скользить, поскользнуться; проскользнуть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To slide by accident and lose your balance, or to move quietly",
+          "body": [
+            "(скользить, поскользнуться; проскользнуть)"
+          ],
+          "examples": [
+            "Be careful, you could slip.",
+            "He slipped on the wet steps.",
+            "She was slipping out the back door when we saw her."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fall to a lower level, or to get slightly worse",
+          "body": [
+            "(снижаться, упасть; ухудшаться, ухудшиться)",
+            "---"
+          ],
+          "examples": [
+            "Sales slipped three percent last quarter.",
+            "His grades have slipped since September.",
+            "If the ratings slip again, the show will be canceled."
+          ]
+        }
+      ],
+      "русский": "скользить, поскользнуться; проскользнуть; снижаться, упасть; ухудшаться, ухудшиться",
       "forms": "slip · slipped · slipped",
       "verb class": "regular",
       "third person": "slips · -ing form: slipping",
@@ -1589,14 +3616,43 @@
       "term": "soar",
       "ipa": "/sɔːr/",
       "respell": "SOR",
-      "meaning": "To fly high in the air without much effort. ---",
+      "meaning": "Soar has 2 distinct senses.",
       "examples": [
         "Eagles soar over the canyon.",
         "The kite soared above the beach.",
-        "Gulls were soaring on the wind off the water."
+        "Gulls were soaring on the wind off the water.",
+        "Gas prices soared after the storm.",
+        "Temperatures will soar into the nineties tomorrow.",
+        "Costs have been soaring all year."
       ],
-      "senses": [],
-      "русский": "парить, взмывать, взлетать высоко",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fly high in the air without much effort",
+          "body": [
+            "(парить, взмывать, взлетать высоко)"
+          ],
+          "examples": [
+            "Eagles soar over the canyon.",
+            "The kite soared above the beach.",
+            "Gulls were soaring on the wind off the water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To rise quickly to a much higher level",
+          "body": [
+            "(резко расти, взлетать (о ценах, температуре), взлететь)",
+            "---"
+          ],
+          "examples": [
+            "Gas prices soared after the storm.",
+            "Temperatures will soar into the nineties tomorrow.",
+            "Costs have been soaring all year."
+          ]
+        }
+      ],
+      "русский": "парить, взмывать, взлетать высоко; резко расти, взлетать (о ценах, температуре), взлететь",
       "forms": "soar · soared · soared",
       "verb class": "regular",
       "third person": "soars · -ing form: soaring",
@@ -1624,14 +3680,43 @@
       "term": "stalk",
       "ipa": "/stɔːk/",
       "respell": "STAWK",
-      "meaning": "To follow a person or an animal quietly in order to catch or watch them. ---",
+      "meaning": "Stalk has 2 distinct senses.",
       "examples": [
         "Lions stalk their prey for hours.",
         "The cat stalked a bird across the lawn.",
-        "He had been stalking the herd since dawn."
+        "He had been stalking the herd since dawn.",
+        "Don't stalk around the house all evening just because you lost.",
+        "She stalked past me without a word.",
+        "He came stalking into the meeting twenty minutes late."
       ],
-      "senses": [],
-      "русский": "выслеживать, преследовать, красться за",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To follow a person or an animal quietly in order to catch or watch them",
+          "body": [
+            "(выслеживать, преследовать, красться за)"
+          ],
+          "examples": [
+            "Lions stalk their prey for hours.",
+            "The cat stalked a bird across the lawn.",
+            "He had been stalking the herd since dawn."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To walk stiffly and angrily so that everyone notices",
+          "body": [
+            "(уходить в гневе, гордо шагать, вышагивать со злостью)",
+            "---"
+          ],
+          "examples": [
+            "Don't stalk around the house all evening just because you lost.",
+            "She stalked past me without a word.",
+            "He came stalking into the meeting twenty minutes late."
+          ]
+        }
+      ],
+      "русский": "выслеживать, преследовать, красться за; уходить в гневе, гордо шагать, вышагивать со злостью",
       "forms": "stalk · stalked · stalked",
       "verb class": "regular",
       "third person": "stalks · -ing form: stalking",
@@ -1642,14 +3727,58 @@
       "term": "stay",
       "ipa": "/steɪ/",
       "respell": "STAY",
-      "meaning": "To remain in a place instead of leaving. ---",
+      "meaning": "Stay has 3 distinct senses.",
       "examples": [
         "Stay here while I get the car.",
         "We stayed in a motel outside town.",
-        "They have been staying with friends since the flood."
+        "They have been staying with friends since the flood.",
+        "Try to stay calm.",
+        "The store stayed open until midnight.",
+        "Prices have stayed low all year.",
+        "We usually stay at a motel near the airport.",
+        "They stayed with my sister for a week.",
+        "I have stayed in that hotel twice."
       ],
-      "senses": [],
-      "русский": "оставаться, остаться; останавливаться (в гостинице)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To remain in a place instead of leaving",
+          "body": [
+            "(оставаться, остаться; останавливаться (в гостинице))"
+          ],
+          "examples": [
+            "Stay here while I get the car.",
+            "We stayed in a motel outside town.",
+            "They have been staying with friends since the flood."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To continue to be in a particular state or condition",
+          "body": [
+            "(оставаться, остаться (каким-л.); сохранять состояние)"
+          ],
+          "examples": [
+            "Try to stay calm.",
+            "The store stayed open until midnight.",
+            "Prices have stayed low all year."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To live somewhere for a short time as a guest",
+          "body": [
+            "(останавливаться, остановиться (в гостинице); гостить)",
+            "---"
+          ],
+          "examples": [
+            "We usually stay at a motel near the airport.",
+            "They stayed with my sister for a week.",
+            "I have stayed in that hotel twice."
+          ]
+        }
+      ],
+      "русский": "оставаться, остаться; останавливаться (в гостинице); оставаться, остаться (каким-л.); сохранять состояние; останавливаться, остановиться (в гостинице); гостить",
       "forms": "stay · stayed · stayed",
       "verb class": "regular",
       "third person": "stays · -ing form: staying",
@@ -1661,14 +3790,43 @@
       "term": "steer",
       "ipa": "/stɪr/",
       "respell": "STEER",
-      "meaning": "To control the direction of a vehicle or a boat. ---",
+      "meaning": "Steer has 2 distinct senses.",
       "examples": [
         "This boat steers better with two people aboard.",
         "He steered with one hand.",
-        "She was steering while he read the map."
+        "She was steering while he read the map.",
+        "A good teacher can steer students toward the right question.",
+        "She steered the conversation away from money.",
+        "He has been steering his son toward engineering for years."
       ],
-      "senses": [],
-      "русский": "рулить, управлять (машиной, судном); направлять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To control the direction of a vehicle or a boat",
+          "body": [
+            "(рулить, управлять (машиной, судном); направлять)"
+          ],
+          "examples": [
+            "This boat steers better with two people aboard.",
+            "He steered with one hand.",
+            "She was steering while he read the map."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To guide a person or a conversation in a particular direction",
+          "body": [
+            "(направлять, направить; подводить (к чему-л.), уводить (разговор))",
+            "---"
+          ],
+          "examples": [
+            "A good teacher can steer students toward the right question.",
+            "She steered the conversation away from money.",
+            "He has been steering his son toward engineering for years."
+          ]
+        }
+      ],
+      "русский": "рулить, управлять (машиной, судном); направлять; направлять, направить; подводить (к чему-л.), уводить (разговор)",
       "forms": "steer · steered · steered",
       "verb class": "regular",
       "third person": "steers · -ing form: steering",
@@ -1697,14 +3855,43 @@
       "term": "stop",
       "ipa": "/stɑːp/",
       "respell": "STAHP",
-      "meaning": "To end movement, or to make something end. ---",
+      "meaning": "Stop has 2 distinct senses.",
       "examples": [
         "The bus stops at every corner.",
         "We stopped for gas outside Barstow.",
-        "It has not stopped raining since Tuesday."
+        "It has not stopped raining since Tuesday.",
+        "Nothing will stop her from trying again.",
+        "The rain stopped us from finishing the roof.",
+        "What is stopping you from applying?"
       ],
-      "senses": [],
-      "русский": "останавливать, остановить; останавливаться, прекращать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To end movement, or to make something end",
+          "body": [
+            "(останавливать, остановить; останавливаться, прекращать)"
+          ],
+          "examples": [
+            "The bus stops at every corner.",
+            "We stopped for gas outside Barstow.",
+            "It has not stopped raining since Tuesday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To prevent someone from doing something",
+          "body": [
+            "(мешать, помешать; не давать (сделать), удерживать)",
+            "---"
+          ],
+          "examples": [
+            "Nothing will stop her from trying again.",
+            "The rain stopped us from finishing the roof.",
+            "What is stopping you from applying?"
+          ]
+        }
+      ],
+      "русский": "останавливать, остановить; останавливаться, прекращать; мешать, помешать; не давать (сделать), удерживать",
       "forms": "stop · stopped · stopped",
       "verb class": "regular",
       "third person": "stops · -ing form: stopping",
@@ -1820,14 +4007,43 @@
       "term": "tour",
       "ipa": "/tʊr/",
       "respell": "TOOR",
-      "meaning": "To travel around a place, visiting the interesting parts. ---",
+      "meaning": "Tour has 2 distinct senses.",
       "examples": [
         "The band tours every summer.",
         "We toured the old mission in the morning.",
-        "They are touring the national parks in a camper."
+        "They are touring the national parks in a camper.",
+        "The band tours every summer.",
+        "They toured Europe with a new drummer.",
+        "She is touring the country with her one-woman show."
       ],
-      "senses": [],
-      "русский": "путешествовать, объезжать; ездить на гастроли",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To travel around a place, visiting the interesting parts",
+          "body": [
+            "(путешествовать, объезжать; ездить на гастроли)"
+          ],
+          "examples": [
+            "The band tours every summer.",
+            "We toured the old mission in the morning.",
+            "They are touring the national parks in a camper."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To travel from city to city giving performances",
+          "body": [
+            "(гастролировать, ездить на гастроли)",
+            "---"
+          ],
+          "examples": [
+            "The band tours every summer.",
+            "They toured Europe with a new drummer.",
+            "She is touring the country with her one-woman show."
+          ]
+        }
+      ],
+      "русский": "путешествовать, объезжать; ездить на гастроли; гастролировать, ездить на гастроли",
       "forms": "tour · toured · toured",
       "verb class": "regular",
       "third person": "tours · -ing form: touring",
@@ -1856,14 +4072,43 @@
       "term": "track",
       "ipa": "/træk/",
       "respell": "TRAK",
-      "meaning": "To follow the marks or signals that show where someone or something has gone. ---",
+      "meaning": "Track has 2 distinct senses.",
       "examples": [
         "You can track the package online.",
         "Rangers tracked the bear for two days.",
-        "We were tracking the storm all evening."
+        "We were tracking the storm all evening.",
+        "Don't track mud through the kitchen!",
+        "The dog tracked wet leaves all over the carpet.",
+        "Someone has tracked snow into the hallway again."
       ],
-      "senses": [],
-      "русский": "отслеживать, выслеживать, проследить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To follow the marks or signals that show where someone or something has gone",
+          "body": [
+            "(отслеживать, выслеживать, проследить)"
+          ],
+          "examples": [
+            "You can track the package online.",
+            "Rangers tracked the bear for two days.",
+            "We were tracking the storm all evening."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To carry dirt, snow, or water into a place on the bottom of your shoes",
+          "body": [
+            "(наносить (грязь) на обуви, натоптать)",
+            "---"
+          ],
+          "examples": [
+            "Don't track mud through the kitchen!",
+            "The dog tracked wet leaves all over the carpet.",
+            "Someone has tracked snow into the hallway again."
+          ]
+        }
+      ],
+      "русский": "отслеживать, выслеживать, проследить; наносить (грязь) на обуви, натоптать",
       "forms": "track · tracked · tracked",
       "verb class": "regular",
       "third person": "tracks · -ing form: tracking",
@@ -1874,14 +4119,43 @@
       "term": "trail",
       "ipa": "/treɪl/",
       "respell": "TRAYL",
-      "meaning": "To follow slowly behind someone, or to hang down and drag along. ---",
+      "meaning": "Trail has 2 distinct senses.",
       "examples": [
         "The youngest kid always trails the group.",
         "Two reporters trailed the bus all day.",
-        "Her scarf was trailing in the snow."
+        "Her scarf was trailing in the snow.",
+        "The Celtics trailed by twelve at halftime.",
+        "She trails the front-runner by six points in the polls.",
+        "They have trailed all season and still made the playoffs."
       ],
-      "senses": [],
-      "русский": "тащиться, плестись; идти по следу",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To follow slowly behind someone, or to hang down and drag along",
+          "body": [
+            "(тащиться, плестись; идти по следу)"
+          ],
+          "examples": [
+            "The youngest kid always trails the group.",
+            "Two reporters trailed the bus all day.",
+            "Her scarf was trailing in the snow."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To be losing in a game, a race, or an election",
+          "body": [
+            "(отставать, уступать (в счёте, в опросах))",
+            "---"
+          ],
+          "examples": [
+            "The Celtics trailed by twelve at halftime.",
+            "She trails the front-runner by six points in the polls.",
+            "They have trailed all season and still made the playoffs."
+          ]
+        }
+      ],
+      "русский": "тащиться, плестись; идти по следу; отставать, уступать (в счёте, в опросах)",
       "forms": "trail · trailed · trailed",
       "verb class": "regular",
       "third person": "trails · -ing form: trailing",
@@ -1910,14 +4184,43 @@
       "term": "transport",
       "ipa": "/trænsˈpɔːrt/",
       "respell": "trans-PORT",
-      "meaning": "To carry people or goods from one place to another. ---",
+      "meaning": "Transport has 2 distinct senses.",
       "examples": [
         "Trucks transport most of the grain.",
         "The injured were transported by helicopter.",
-        "They are transporting the sculpture in three pieces."
+        "They are transporting the sculpture in three pieces.",
+        "The smell of pine transports me back to my grandmother's kitchen.",
+        "The novel transported her to nineteenth-century Paris.",
+        "For two hours we were transported to another world."
       ],
-      "senses": [],
-      "русский": "перевозить, перевезти; транспортировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To carry people or goods from one place to another",
+          "body": [
+            "(перевозить, перевезти; транспортировать)"
+          ],
+          "examples": [
+            "Trucks transport most of the grain.",
+            "The injured were transported by helicopter.",
+            "They are transporting the sculpture in three pieces."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To make someone feel that they are in a different place or time",
+          "body": [
+            "(переносить, перенести (мысленно); уносить)",
+            "---"
+          ],
+          "examples": [
+            "The smell of pine transports me back to my grandmother's kitchen.",
+            "The novel transported her to nineteenth-century Paris.",
+            "For two hours we were transported to another world."
+          ]
+        }
+      ],
+      "русский": "перевозить, перевезти; транспортировать; переносить, перенести (мысленно); уносить",
       "forms": "transport · transported · transported",
       "verb class": "regular",
       "third person": "transports · -ing form: transporting",
@@ -1946,14 +4249,43 @@
       "term": "trip",
       "ipa": "/trɪp/",
       "respell": "TRIP",
-      "meaning": "To catch your foot on something and lose your balance. ---",
+      "meaning": "Trip has 2 distinct senses.",
       "examples": [
         "Watch out or you will trip.",
         "He tripped over the doorframe.",
-        "She was tripping on the hem of her coat all evening."
+        "She was tripping on the hem of her coat all evening.",
+        "The space heater trips the breaker every time.",
+        "A cat tripped the motion sensor at three in the morning.",
+        "The alarm was tripped by a gust of wind."
       ],
-      "senses": [],
-      "русский": "спотыкаться, споткнуться; подставить подножку",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To catch your foot on something and lose your balance",
+          "body": [
+            "(спотыкаться, споткнуться; подставить подножку)"
+          ],
+          "examples": [
+            "Watch out or you will trip.",
+            "He tripped over the doorframe.",
+            "She was tripping on the hem of her coat all evening."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To set off a switch, an alarm, or a circuit breaker, usually by accident",
+          "body": [
+            "(включать (сигнализацию); вырубать (автомат), сработать)",
+            "---"
+          ],
+          "examples": [
+            "The space heater trips the breaker every time.",
+            "A cat tripped the motion sensor at three in the morning.",
+            "The alarm was tripped by a gust of wind."
+          ]
+        }
+      ],
+      "русский": "спотыкаться, споткнуться; подставить подножку; включать (сигнализацию); вырубать (автомат), сработать",
       "forms": "trip · tripped · tripped",
       "verb class": "regular",
       "third person": "trips · -ing form: tripping",
@@ -1965,14 +4297,43 @@
       "term": "tumble",
       "ipa": "/ˈtʌmbəl/",
       "respell": "TUM-buhl",
-      "meaning": "To fall or roll over suddenly and helplessly. ---",
+      "meaning": "Tumble has 2 distinct senses.",
       "examples": [
         "Kids tumble down that hill all summer.",
         "A rock tumbled down the slope.",
-        "Bags were tumbling off the cart."
+        "Bags were tumbling off the cart.",
+        "Stocks tumbled after the announcement.",
+        "If rates rise again, the market could tumble.",
+        "Home prices have tumbled since the spring."
       ],
-      "senses": [],
-      "русский": "падать, упасть, кубарем катиться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fall or roll over suddenly and helplessly",
+          "body": [
+            "(падать, упасть, кубарем катиться)"
+          ],
+          "examples": [
+            "Kids tumble down that hill all summer.",
+            "A rock tumbled down the slope.",
+            "Bags were tumbling off the cart."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fall quickly and sharply in value",
+          "body": [
+            "(резко падать, обвалиться (о ценах, курсах))",
+            "---"
+          ],
+          "examples": [
+            "Stocks tumbled after the announcement.",
+            "If rates rise again, the market could tumble.",
+            "Home prices have tumbled since the spring."
+          ]
+        }
+      ],
+      "русский": "падать, упасть, кубарем катиться; резко падать, обвалиться (о ценах, курсах)",
       "forms": "tumble · tumbled · tumbled",
       "verb class": "regular",
       "third person": "tumbles · -ing form: tumbling",
@@ -1982,14 +4343,58 @@
       "term": "turn",
       "ipa": "/tɜːrn/",
       "respell": "TURN",
-      "meaning": "To change direction, or to move something around a point. ---",
+      "meaning": "Turn has 3 distinct senses.",
       "examples": [
         "Turn left at the second light.",
         "She turned the corner and disappeared.",
-        "The car ahead was turning without signaling."
+        "The car ahead was turning without signaling.",
+        "The leaves turn red in October.",
+        "The milk turned sour overnight.",
+        "His face had turned white before he said a word.",
+        "She turns thirty in June.",
+        "He turned sixty last week.",
+        "It had just turned midnight when the phone rang."
       ],
-      "senses": [],
-      "русский": "поворачивать, повернуть; поворачиваться, разворачиваться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To change direction, or to move something around a point",
+          "body": [
+            "(поворачивать, повернуть; поворачиваться, разворачиваться)"
+          ],
+          "examples": [
+            "Turn left at the second light.",
+            "She turned the corner and disappeared.",
+            "The car ahead was turning without signaling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To become something different, especially in color, taste, or condition",
+          "body": [
+            "(становиться, стать; превращаться, превратиться)"
+          ],
+          "examples": [
+            "The leaves turn red in October.",
+            "The milk turned sour overnight.",
+            "His face had turned white before he said a word."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To reach a particular age or hour",
+          "body": [
+            "(исполняться, исполниться (о возрасте))",
+            "---"
+          ],
+          "examples": [
+            "She turns thirty in June.",
+            "He turned sixty last week.",
+            "It had just turned midnight when the phone rang."
+          ]
+        }
+      ],
+      "русский": "поворачивать, повернуть; поворачиваться, разворачиваться; становиться, стать; превращаться, превратиться; исполняться, исполниться (о возрасте)",
       "forms": "turn · turned · turned",
       "verb class": "regular",
       "third person": "turns · -ing form: turning",
@@ -2000,14 +4405,58 @@
       "term": "twist",
       "ipa": "/twɪst/",
       "respell": "TWIST",
-      "meaning": "To bend or curve in a changing direction, or to turn something with your hand. ---",
+      "meaning": "Twist has 3 distinct senses.",
       "examples": [
         "The road twists through the hills.",
         "He twisted his ankle on the trail.",
-        "The path was twisting back on itself."
+        "The path was twisting back on itself.",
+        "I twisted my ankle on the stairs.",
+        "Don't twist your knee getting out of the car.",
+        "He has twisted the same wrist twice this season.",
+        "Stop twisting my words.",
+        "The article twisted everything she said.",
+        "His quote had been twisted by the time it reached print."
       ],
-      "senses": [],
-      "русский": "извиваться, виться; крутить, скручивать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To bend or curve in a changing direction, or to turn something with your hand",
+          "body": [
+            "(извиваться, виться; крутить, скручивать)"
+          ],
+          "examples": [
+            "The road twists through the hills.",
+            "He twisted his ankle on the trail.",
+            "The path was twisting back on itself."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To hurt a joint by turning it the wrong way",
+          "body": [
+            "(подворачивать, подвернуть (ногу); вывихнуть)"
+          ],
+          "examples": [
+            "I twisted my ankle on the stairs.",
+            "Don't twist your knee getting out of the car.",
+            "He has twisted the same wrist twice this season."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To change the meaning of what someone said in an unfair way",
+          "body": [
+            "(искажать, исказить (слова); перевирать)",
+            "---"
+          ],
+          "examples": [
+            "Stop twisting my words.",
+            "The article twisted everything she said.",
+            "His quote had been twisted by the time it reached print."
+          ]
+        }
+      ],
+      "русский": "извиваться, виться; крутить, скручивать; подворачивать, подвернуть (ногу); вывихнуть; искажать, исказить (слова); перевирать",
       "forms": "twist · twisted · twisted",
       "verb class": "regular",
       "third person": "twists · -ing form: twisting",
@@ -2035,14 +4484,43 @@
       "term": "unpack",
       "ipa": "/ʌnˈpæk/",
       "respell": "un-PAK",
-      "meaning": "To take things out of a bag or a box after a trip. ---",
+      "meaning": "Unpack has 2 distinct senses.",
       "examples": [
         "I have not had time to unpack.",
         "She unpacked as soon as we got in.",
-        "He was unpacking when the phone rang."
+        "He was unpacking when the phone rang.",
+        "Let's unpack that argument piece by piece.",
+        "The professor unpacked the theory over two lectures.",
+        "She spent the whole hour unpacking one sentence from the ruling."
       ],
-      "senses": [],
-      "русский": "распаковывать, распаковать; разбирать вещи",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To take things out of a bag or a box after a trip",
+          "body": [
+            "(распаковывать, распаковать; разбирать вещи)"
+          ],
+          "examples": [
+            "I have not had time to unpack.",
+            "She unpacked as soon as we got in.",
+            "He was unpacking when the phone rang."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To examine a complicated idea or statement piece by piece",
+          "body": [
+            "(разбирать, разобрать (по частям); подробно анализировать)",
+            "---"
+          ],
+          "examples": [
+            "Let's unpack that argument piece by piece.",
+            "The professor unpacked the theory over two lectures.",
+            "She spent the whole hour unpacking one sentence from the ruling."
+          ]
+        }
+      ],
+      "русский": "распаковывать, распаковать; разбирать вещи; разбирать, разобрать (по частям); подробно анализировать",
       "forms": "unpack · unpacked · unpacked",
       "verb class": "regular",
       "third person": "unpacks · -ing form: unpacking",
@@ -2106,14 +4584,43 @@
       "term": "walk",
       "ipa": "/wɔːk/",
       "respell": "WAWK",
-      "meaning": "To move on foot at a normal speed. ---",
+      "meaning": "Walk has 2 distinct senses.",
       "examples": [
         "I walk to work when it is dry.",
         "We walked the last half mile.",
-        "He has been walking for two hours."
+        "He has been walking for two hours.",
+        "I walk the dog before breakfast every day.",
+        "He walked her home after the movie.",
+        "Our neighbor has been walking the puppy while we're at work."
       ],
-      "senses": [],
-      "русский": "ходить, идти пешком; гулять, выгуливать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To move on foot at a normal speed",
+          "body": [
+            "(ходить, идти пешком; гулять, выгуливать)"
+          ],
+          "examples": [
+            "I walk to work when it is dry.",
+            "We walked the last half mile.",
+            "He has been walking for two hours."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take a person or an animal somewhere on foot, going along with them",
+          "body": [
+            "(выгуливать, выгулять (собаку); провожать (пешком))",
+            "---"
+          ],
+          "examples": [
+            "I walk the dog before breakfast every day.",
+            "He walked her home after the movie.",
+            "Our neighbor has been walking the puppy while we're at work."
+          ]
+        }
+      ],
+      "русский": "ходить, идти пешком; гулять, выгуливать; выгуливать, выгулять (собаку); провожать (пешком)",
       "forms": "walk · walked · walked",
       "verb class": "regular",
       "third person": "walks · -ing form: walking",
@@ -2125,14 +4632,43 @@
       "term": "wander",
       "ipa": "/ˈwɑːndər/",
       "respell": "WAHN-dur",
-      "meaning": "To walk around slowly with no particular destination. ---",
+      "meaning": "Wander has 2 distinct senses.",
       "examples": [
         "He wanders off whenever we stop.",
         "We wandered through the market all morning.",
-        "Tourists were wandering around the square."
+        "Tourists were wandering around the square.",
+        "My mind wanders whenever a meeting runs long.",
+        "His attention wandered halfway through the lecture.",
+        "I caught my thoughts wandering again."
       ],
-      "senses": [],
-      "русский": "бродить, блуждать, слоняться",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To walk around slowly with no particular destination",
+          "body": [
+            "(бродить, блуждать, слоняться)"
+          ],
+          "examples": [
+            "He wanders off whenever we stop.",
+            "We wandered through the market all morning.",
+            "Tourists were wandering around the square."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "For your mind or your attention to drift away from what you should be thinking about",
+          "body": [
+            "(блуждать (о мыслях), отвлекаться, рассеиваться)",
+            "---"
+          ],
+          "examples": [
+            "My mind wanders whenever a meeting runs long.",
+            "His attention wandered halfway through the lecture.",
+            "I caught my thoughts wandering again."
+          ]
+        }
+      ],
+      "русский": "бродить, блуждать, слоняться; блуждать (о мыслях), отвлекаться, рассеиваться",
       "forms": "wander · wandered · wandered",
       "verb class": "regular",
       "third person": "wanders · -ing form: wandering",
@@ -2144,14 +4680,57 @@
       "term": "yield",
       "ipa": "/jiːld/",
       "respell": "YEELD",
-      "meaning": "To let other traffic go first.",
+      "meaning": "Yield has 3 distinct senses.",
       "examples": [
         "Yield to cars already in the circle.",
         "He yielded to the truck coming down the ramp.",
-        "Drivers were not yielding at the crosswalk."
+        "Drivers were not yielding at the crosswalk.",
+        "These bonds yield about four percent.",
+        "The search yielded nothing useful.",
+        "Those two acres have yielded more corn than the rest of the farm.",
+        "He refused to yield to the pressure.",
+        "The old door yielded after a hard shove.",
+        "The company has yielded on almost every demand."
       ],
-      "senses": [],
-      "русский": "уступать дорогу, уступить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To let other traffic go first",
+          "body": [
+            "(уступать дорогу, уступить)"
+          ],
+          "examples": [
+            "Yield to cars already in the circle.",
+            "He yielded to the truck coming down the ramp.",
+            "Drivers were not yielding at the crosswalk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To produce a result, a crop, or an amount of money",
+          "body": [
+            "(приносить, принести (результат, доход); давать (урожай))"
+          ],
+          "examples": [
+            "These bonds yield about four percent.",
+            "The search yielded nothing useful.",
+            "Those two acres have yielded more corn than the rest of the farm."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To stop resisting and give in to pressure or force",
+          "body": [
+            "(уступать, уступить (давлению); поддаваться, сдаваться)"
+          ],
+          "examples": [
+            "He refused to yield to the pressure.",
+            "The old door yielded after a hard shove.",
+            "The company has yielded on almost every demand."
+          ]
+        }
+      ],
+      "русский": "уступать дорогу, уступить; приносить, принести (результат, доход); давать (урожай); уступать, уступить (давлению); поддаваться, сдаваться",
       "forms": "yield · yielded · yielded",
       "verb class": "regular",
       "third person": "yields · -ing form: yielding",

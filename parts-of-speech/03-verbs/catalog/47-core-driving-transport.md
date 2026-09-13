@@ -12,17 +12,25 @@ Regular does not mean effortless. The forms are still where learners fail: *carr
 ### honk
 
 **Pronunciation:** /hɑːŋk/ &middot; *HAHNK*
-**Русский:** сигналить, бибикать, посигналить
+**Русский:** сигналить, бибикать, посигналить; гоготать (о гусях), кричать
 **Forms:** *honk* &middot; *honked* &middot; *honked*
 **Verb class:** regular
 **Third person:** *honks* &middot; **-ing form:** *honking*
 **Transitivity:** both — transitive (honk the horn), intransitive (the taxi honked at me)
 
-To sound a vehicle horn.
+Honk has 2 distinct senses.
+
+**1. To sound a vehicle horn.** (сигналить, бибикать, посигналить)
 
 1. Do not *honk* in a hospital zone.
 2. The cab behind us *honked* twice.
 3. Someone has been *honking* at that stalled van for a minute.
+
+**2. To make the loud call of a goose.** (гоготать (о гусях), кричать)
+
+4. Wild geese *honk* all the way down the valley.
+5. Something *honked* out on the pond before dawn.
+6. We could hear the flock *honking* overhead.
 
 ---
 
@@ -46,18 +54,26 @@ To keep moving without power, using only momentum or the slope.
 ### idle
 
 **Pronunciation:** /ˈaɪdəl/ &middot; *EYE-duhl*
-**Русский:** работать на холостом ходу; держать двигатель включённым
+**Русский:** работать на холостом ходу; держать двигатель включённым; останавливать, остановить (производство); отправлять в простой
 **Forms:** *idle* &middot; *idled* &middot; *idled*
 **Verb class:** regular
 **Third person:** *idles* &middot; **-ing form:** *idling*
 **Transitivity:** both — transitive (do not idle your engine), intransitive (the bus idled at the curb)
 **Contrast:** Sounds like *idol*; the silent *-e* drops before *-ing*: *idling*.
 
-To run an engine while the vehicle is not moving.
+Idle has 2 distinct senses.
+
+**1. To run an engine while the vehicle is not moving.** (работать на холостом ходу; держать двигатель включённым)
 
 1. Diesel engines *idle* louder than gas engines.
 2. The bus *idled* at the curb for ten minutes.
 3. A sign asks drivers to stop *idling* near the school.
+
+**2. To shut a factory or a workforce down for a period of time.** (останавливать, остановить (производство); отправлять в простой)
+
+4. The strike *idled* four thousand workers.
+5. The plant has been *idled* since June.
+6. A parts shortage is *idling* two assembly lines.
 
 **Phrasal verbs:** [idle away](55-phrasal-regular-g-l.md#idle-away)
 
@@ -86,17 +102,25 @@ To make an engine turn faster and louder.
 ### tailgate
 
 **Pronunciation:** /ˈteɪlɡeɪt/ &middot; *TAYL-gayt*
-**Русский:** ехать вплотную, сидеть на хвосте
+**Русский:** ехать вплотную, сидеть на хвосте; устраивать пикник на парковке перед матчем
 **Forms:** *tailgate* &middot; *tailgated* &middot; *tailgated*
 **Verb class:** regular
 **Third person:** *tailgates* &middot; **-ing form:** *tailgating*
 **Transitivity:** both — transitive (tailgate the car ahead), intransitive (stop tailgating)
 
-To drive too close behind another vehicle.
+Tailgate has 2 distinct senses.
+
+**1. To drive too close behind another vehicle.** (ехать вплотную, сидеть на хвосте)
 
 1. Please do not *tailgate* on an icy road.
 2. A pickup *tailgated* us for ten miles.
 3. He rear-ended her because he was *tailgating*.
+
+**2. To eat and drink in a stadium parking lot before a game.** (устраивать пикник на парковке перед матчем)
+
+4. We always *tailgate* before home games.
+5. They *tailgated* in the north lot for three hours.
+6. Half the crowd was still *tailgating* at kickoff.
 
 ---
 
@@ -122,37 +146,59 @@ To move more slowly, or to make something move more slowly.
 ### start
 
 **Pronunciation:** /stɑːrt/ &middot; *STAHRT*
-**Русский:** заводить, завести (двигатель); трогаться с места
+**Русский:** заводить, завести (двигатель); трогаться с места; начинать, начать; начинаться, начаться; основывать, основать; открывать, открыть (своё дело)
 **Forms:** *start* &middot; *started* &middot; *started*
 **Verb class:** regular
 **Third person:** *starts* &middot; **-ing form:** *starting*
 **Transitivity:** both — transitive (start the engine), intransitive (the truck would not start)
 
-To make an engine begin to run, or to begin to run.
+Start has 3 distinct senses.
+
+**1. To make an engine begin to run, or to begin to run.** (заводить, завести (двигатель); трогаться с места)
 
 1. *Start* the car and let it warm up.
 2. The van *started* on the third try.
 3. It has not *started* once since the cold snap.
 
-**Phrasal verbs:** [start off](57-phrasal-regular-q-s.md#start-off) &middot; [start on](57-phrasal-regular-q-s.md#start-on) &middot; [start out](57-phrasal-regular-q-s.md#start-out) &middot; [start over](57-phrasal-regular-q-s.md#start-over) &middot; [start up](57-phrasal-regular-q-s.md#start-up) &middot; [start up](57-phrasal-regular-q-s.md#start-up-1)
+**2. To begin doing something, or to begin happening.** (начинать, начать; начинаться, начаться)
+
+4. The movie *starts* at eight.
+5. She *started* crying before the song ended.
+6. We have already *started* packing.
+
+**3. To set up a new business, group, or project.** (основывать, основать; открывать, открыть (своё дело))
+
+7. They want to *start* a bakery downtown.
+8. He *started* the company in his garage.
+9. She has *started* a book club at the library.
+
+**Phrasal verbs:** [start off](57-phrasal-regular-q-s.md#start-off) &middot; [start on](57-phrasal-regular-q-s.md#start-on) &middot; [start out](57-phrasal-regular-q-s.md#start-out) &middot; [start over](57-phrasal-regular-q-s.md#start-over) &middot; [start up](57-phrasal-regular-q-s.md#start-up-1) &middot; [start up](57-phrasal-regular-q-s.md#start-up)
 
 ---
 
 ### maneuver
 
 **Pronunciation:** /məˈnuːvər/ &middot; *muh-NOO-ver*
-**Русский:** маневрировать, сманеврировать
+**Русский:** маневрировать, сманеврировать; лавировать, маневрировать; добиваться хитростью
 **Forms:** *maneuver* &middot; *maneuvered* &middot; *maneuvered*
 **Verb class:** regular
 **Third person:** *maneuvers* &middot; **-ing form:** *maneuvering*
 **Transitivity:** both — transitive (maneuver the trailer), intransitive (maneuver around the crates)
 **Contrast:** American spelling *maneuver*; British *manoeuvre*.
 
-To move a vehicle carefully into or through a tight place.
+Maneuver has 2 distinct senses.
+
+**1. To move a vehicle carefully into or through a tight place.** (маневрировать, сманеврировать)
 
 1. It takes practice to *maneuver* a long trailer.
 2. She *maneuvered* the forklift between two pallets.
 3. He was *maneuvering* out of the space when the mirror caught.
+
+**2. To use clever or indirect moves to get into the position you want.** (лавировать, маневрировать; добиваться хитростью)
+
+4. He knows how to *maneuver* around the board's objections.
+5. She *maneuvered* herself into the top job in two years.
+6. They spent the spring *maneuvering* for the nomination.
 
 ---
 
@@ -194,17 +240,25 @@ To put more fuel into a vehicle.
 ### inflate
 
 **Pronunciation:** /ɪnˈfleɪt/ &middot; *in-FLAYT*
-**Русский:** накачивать, накачать (шину)
+**Русский:** накачивать, накачать (шину); завышать, завысить; раздувать (цифры, цены)
 **Forms:** *inflate* &middot; *inflated* &middot; *inflated*
 **Verb class:** regular
 **Third person:** *inflates* &middot; **-ing form:** *inflating*
 **Transitivity:** both — transitive (inflate the tires), intransitive (the airbag inflates instantly)
 
-To fill something with air until it is firm.
+Inflate has 2 distinct senses.
+
+**1. To fill something with air until it is firm.** (накачивать, накачать (шину))
 
 1. *Inflate* the tires to thirty-five pounds.
 2. He *inflated* the spare before the trip.
 3. The airbag had already *inflated* when help arrived.
+
+**2. To make a number, price, or claim bigger than it really is.** (завышать, завысить; раздувать (цифры, цены))
+
+4. He *inflated* his sales numbers to look good.
+5. Hotels *inflate* prices during the festival.
+6. The figures had been *inflated* for years before anyone checked.
 
 ---
 
@@ -251,18 +305,26 @@ To put something away neatly in a space made for it.
 ### hitch
 
 **Pronunciation:** /hɪtʃ/ &middot; *HICH*
-**Русский:** прицеплять, прицепить, зацепить
+**Русский:** прицеплять, прицепить, зацепить; ехать автостопом, поймать попутку
 **Forms:** *hitch* &middot; *hitched* &middot; *hitched*
 **Verb class:** regular
 **Third person:** *hitches* &middot; **-ing form:** *hitching*
 **Transitivity:** transitive
 **Contrast:** Ends in *-ch*, so the third person adds *-es*: *hitches*.
 
-To attach a trailer to a vehicle that will pull it.
+Hitch has 2 distinct senses.
+
+**1. To attach a trailer to a vehicle that will pull it.** (прицеплять, прицепить, зацепить)
 
 1. *Hitch* the trailer and check the lights.
 2. He *hitched* the boat to his pickup.
 3. The camper was *hitched* to an old van.
+
+**2. To get a free ride by standing at the roadside and signaling to drivers.** (ехать автостопом, поймать попутку)
+
+4. We *hitched* a ride to the next town.
+5. He *hitches* to work whenever his truck won't start.
+6. They spent the summer *hitching* across the country.
 
 **Phrasal verbs:** [hitch up](55-phrasal-regular-g-l.md#hitch-up)
 
@@ -326,17 +388,25 @@ To move slowly along the ground, said of an airplane.
 ### hail
 
 **Pronunciation:** /heɪl/ &middot; *HAYL*
-**Русский:** ловить (такси), подзывать, остановить
+**Русский:** ловить (такси), подзывать, остановить; превозносить, провозглашать, объявлять (кем-л.)
 **Forms:** *hail* &middot; *hailed* &middot; *hailed*
 **Verb class:** regular
 **Third person:** *hails* &middot; **-ing form:** *hailing*
 **Transitivity:** transitive
 
-To call to a taxi or driver to stop for you.
+Hail has 2 distinct senses.
+
+**1. To call to a taxi or driver to stop for you.** (ловить (такси), подзывать, остановить)
 
 1. It is hard to *hail* a cab in the rain.
 2. He *hailed* a taxi outside the station.
 3. She was *hailing* a cab with one arm and holding her bag with the other.
+
+**2. To praise someone or something publicly as very good or important.** (превозносить, провозглашать, объявлять (кем-л.))
+
+4. Critics *hailed* the album as a masterpiece.
+5. He was *hailed* as a hero for weeks.
+6. The papers are *hailing* the deal as a breakthrough.
 
 **Phrasal verbs:** [hail from](55-phrasal-regular-g-l.md#hail-from)
 

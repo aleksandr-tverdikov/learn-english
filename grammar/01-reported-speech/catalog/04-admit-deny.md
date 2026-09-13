@@ -38,12 +38,23 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 
 > "Yes, we were late filing," the company said.  →  The company **acknowledged that** it **had been** late filing.
 
+**1. Admit that something is so.** The lightest verb in the family: you can acknowledge a debt, a favor, or a mistake with nothing at stake. (признать (что нечто так))
+
 1. The mayor *acknowledged* that the city had missed the deadline.
-2. She *acknowledged* receiving the letter but said she never opened it.
-3. He *acknowledged* the mistake without apologizing for it.
-4. The study *acknowledges* what the earlier work got right.
-5. It is widely *acknowledged* that the original estimate was too low.
-6. He *acknowledged* to the committee that no one had read the contract.
+2. He *acknowledged* the mistake without apologizing for it.
+3. The study *acknowledges* what the earlier work got right.
+4. It is widely *acknowledged* that the original estimate was too low.
+5. He *acknowledged* to the committee that no one had read the contract.
+
+**2. Confirm that something arrived.** Business English: the object is a letter, an email, or an order, and the point is receipt, not truth. (подтвердить получение)
+
+6. She *acknowledged* receiving the letter but said she never opened it.
+7. Please *acknowledge* this email so I know it went through.
+
+**3. Show that you have noticed a person or a contribution.** A nod in the hallway, or a name in the credits. (поздороваться, показать, что заметил; отметить (в благодарностях))
+
+8. He walked past without *acknowledging* either of us.
+9. The credits *acknowledge* everyone who lent equipment.
 
 **See also:** [accept](#accept), [admit](#admit), [concede](#concede), [grant](#grant)
 
@@ -71,13 +82,24 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 
 > "Okay, I took the money," he said.  →  He **admitted taking** the money. / He **admitted that** he **had taken** the money.
 
+**1. Own up to something that counts against you.** The reporting sense, and it presupposes fault: *admitted* is unfair attribution for a fact the speaker volunteered freely. (признать, сознаться)
+
 1. She *admitted* that she had never read the contract.
 2. He *admitted* to me that the whole story was secondhand.
 3. The airline *admitted* overbooking the flight.
 4. Two of them *admitted* to falsifying the timesheets.
 5. I'll *admit* it — I forgot the appointment completely.
-6. He would never *admit* how much the repair actually cost.
-7. Nobody *admitted* to being in the building after six.
+
+**2. Let in.** Of a hospital, a school, a club, a ticket. This is why *admitted to* has to be read twice: *admitted to the clinic* was let in, *admitted to taking it* owned up. (впускать, принимать (в больницу, в вуз))
+
+6. She was *admitted* to the hospital just after midnight.
+7. Only forty applicants were *admitted* that year.
+8. The ticket *admits* two.
+
+**3. admit of — leave room for.** Formal, and almost always negative. (допускать (возможность) — книжн.)
+
+9. The wording *admits of* no other reading.
+10. The schedule *admits of* one delay and no more.
 
 **See also:** [acknowledge](#acknowledge), [concede](#concede), [confess](#confess), [own up to](#own-up-to), [deny](#deny)
 
@@ -136,12 +158,19 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 
 > "I'm fine, really," she said.  →  Her voice **betrayed** how little she **meant** it.
 
+**1. Let something show without meaning to.** The reporting sense, and the subject is usually a sign rather than a speaker: a voice, a face, an accent, a pause. (выдать, невольно обнаружить)
+
 1. His accent *betrayed* him within about five words.
 2. Her expression *betrayed* nothing at all.
-3. The letter *betrays* the fact that he already knew about the sale.
-4. He *betrayed* no surprise when the verdict was read out.
-5. A pause on the line *betrayed* how bad the news was going to be.
-6. She *betrayed* herself by asking about a detail nobody had told her.
+3. A pause on the line *betrayed* how bad the news was going to be.
+4. She *betrayed* herself by asking about a detail nobody had told her.
+5. The letter *betrays* the fact that he already knew about the sale.
+
+**2. Turn on somebody; break faith.** The other verb, and the reason the first one always carries a faint suggestion that the revealer was on the wrong side of the secret. (предать, изменить)
+
+6. He *betrayed* the people who had hired him.
+7. She felt *betrayed* by a decision nobody had told her about.
+8. Two of them *betrayed* the group to the police.
 
 **See also:** [give away](#give-away), [let slip](#let-slip), [let on](#let-on), [reveal](#reveal)
 
@@ -199,13 +228,23 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 
 > "All right, your figures are better than mine," she said.  →  She **conceded that** my figures **were** better than hers.
 
+**1. Give up a point under pressure.** What it presupposes is not fault but resistance: there has to have been a dispute for anything to be conceded. (уступить, признать (в споре))
+
 1. He *conceded* that the first draft had been rushed.
 2. She *conceded* the point but not the argument.
-3. The senator *conceded* the race a little after midnight.
-4. Even the study's authors *concede* that the sample was small.
-5. She would not *concede* that any part of it had been her idea.
-6. The company *conceded* two of the five claims and fought the rest.
-7. He *conceded* to reporters that the campaign had run out of money.
+3. Even the study's authors *concede* that the sample was small.
+4. She would not *concede* that any part of it had been her idea.
+5. He *conceded* to reporters that the campaign had run out of money.
+
+**2. Admit defeat.** The election-night sense: a candidate concedes the race, usually in a speech, before the count is finished. (признать поражение (на выборах, в матче))
+
+6. The senator *conceded* the race a little after midnight.
+7. He *conceded* with two counties still counting.
+
+**3. Let the other side have something.** In sport a team *concedes* a goal; in a negotiation a side *concedes* a clause. Nothing is admitted — something is given up. (пропустить (гол); уступить (пункт в договоре))
+
+8. They have *conceded* only four goals all season.
+9. The company *conceded* two of the five claims and fought the rest.
 
 **See also:** [accept](#accept), [acknowledge](#acknowledge), [grant](#grant), [admit](#admit), [dispute](#dispute)
 
@@ -414,12 +453,23 @@ Only the first reports speech. *They denied her access to the file* reports no s
 
 > "These credentials are fake," the reporter wrote.  →  The reporter **exposed** the credentials **as** forgeries.
 
+**1. Reveal what somebody was hiding.** Hostile by definition: *reveal* is neutral about whose interest is served, *expose* always serves the reader against the person exposed. (разоблачить, вскрыть)
+
 1. The investigation *exposed* a decade of falsified inspections.
 2. He was *exposed* as the author of the anonymous memo.
-3. The audit *exposed* the fact that nobody had signed off on the payments.
-4. Her testimony *exposed* how the contracts were awarded.
-5. A single email *exposed* the whole arrangement.
-6. The documentary *exposed* conditions the company had denied for years.
+3. Her testimony *exposed* how the contracts were awarded.
+4. The documentary *exposed* conditions the company had denied for years.
+
+**2. Leave something uncovered or unprotected.** The physical sense, and the one behind *exposed to* a chemical, a risk, or the weather. (обнажать, оставлять незащищённым; подвергать (воздействию))
+
+5. The tide went out and *exposed* the whole reef.
+6. Hundreds of workers were *exposed* to the fumes before anyone shut the line down.
+7. Signing that *exposes* you to a lawsuit.
+
+**3. Introduce somebody to something new.** Always *expose someone **to*** something, and entirely positive in tone, unlike every other use of the verb. (знакомить с чем-л., давать соприкоснуться)
+
+8. The program *exposes* students to four languages in two years.
+9. She was never *exposed* to any of this growing up.
 
 **See also:** [reveal](#reveal), [leak](#leak), [betray](#betray), [disclose](#disclose)
 
@@ -456,12 +506,23 @@ Only the first reports speech. *They denied her access to the file* reports no s
 
 > "I don't know anything about a party," she said, smiling.  →  Her smile **gave her away**.
 
+**1. Reveal a secret, usually by accident.** The reporting sense: a sign rather than a statement lets it out. It is also the ordinary verb for spoiling a plot. (выдать, проболтаться; заспойлерить)
+
 1. Don't *give away* the ending.
 2. His accent *gave him away* before he finished the sentence.
 3. She *gave away* the surprise a week early.
 4. One glance at the schedule *gave away* what they were planning.
 5. He *gave* the whole thing *away* by congratulating her too soon.
-6. Nothing in the report *gives away* who wrote it.
+
+**2. Hand over for nothing.** The literal sense — to donate or part with something at no charge. (раздать, отдать даром)
+
+6. They *gave away* every piece of furniture in the house.
+7. The station is *giving away* tickets all week.
+
+**3. Escort a bride at a wedding.** A fixed ceremonial use, and the only one where the object is a person who consents. (вести невесту к алтарю)
+
+8. Her uncle *gave her away* at the wedding.
+9. He asked his daughter who she wanted to *give her away*.
 
 **See also:** [betray](#betray), [let slip](#let-slip), [blurt out](#blurt-out), [spill](#spill)
 
@@ -476,12 +537,19 @@ Only the first reports speech. *They denied her access to the file* reports no s
 
 > "Yes, all right, the price is fair," he said.  →  He **granted that** the price **was** fair.
 
+**1. Concede a point.** Almost always a step toward a *but*, and usually in a fixed frame: *I'll grant that…*, *Granted, …* (признать, согласиться (уступить в споре))
+
 1. I'll *grant* that the timing was unlucky.
 2. She *grants* the point and moves straight past it.
 3. *Granted*, nobody expected the road to be closed.
-4. I'll *grant* you that much and no more.
-5. He *granted* that the earlier version had been clearer.
-6. Even *granting* that the data are old, the trend is hard to miss.
+4. He *granted* that the earlier version had been clearer.
+5. Even *granting* that the data are old, the trend is hard to miss.
+
+**2. Give or award formally.** An authority hands something over — permission, a visa, an extension, money — and nothing is being conceded to anybody. (предоставлять, выдавать (разрешение, визу, субсидию))
+
+6. The judge *granted* a two-week extension.
+7. Her visa was *granted* in eleven days.
+8. The foundation *granted* them enough to finish the survey.
 
 **See also:** [concede](#concede), [allow](#allow), [accept](#accept), [acknowledge](#acknowledge)
 
@@ -604,12 +672,19 @@ Only the first reports speech. *They denied her access to the file* reports no s
 
 > "Here — the draft you've been asking about," the aide told the reporter.  →  The aide **leaked** the draft **to** the reporter.
 
+**1. Release information without authorization.** The unauthorized part is the whole meaning: what an official body puts out is announced, never leaked. (сливать (информацию), допускать утечку)
+
 1. Someone *leaked* the draft budget two days before the vote.
 2. The memo was *leaked* to three outlets at once.
 3. He *leaked* that the plant would close by summer.
 4. Nobody has figured out who *leaked* it.
 5. The findings were *leaked* before the study had been peer-reviewed.
-6. She *leaked* the roster to a rival team's staff.
+
+**2. Let liquid or gas escape.** The literal verb the metaphor comes from: a pipe, a roof, a valve. (течь, протекать; подтекать)
+
+6. The radiator has been *leaking* since November.
+7. Water was *leaking* through the ceiling by the time we got home.
+8. The valve *leaks* a little under pressure.
 
 **See also:** [disclose](#disclose), [reveal](#reveal), [divulge](#divulge), [expose](#expose)
 

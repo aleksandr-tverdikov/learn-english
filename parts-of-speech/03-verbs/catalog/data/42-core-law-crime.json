@@ -74,14 +74,43 @@
       "term": "summon",
       "ipa": "/ˈsʌmən/",
       "respell": "SUM-uhn",
-      "meaning": "To officially order someone to appear in court or at an official place. ---",
+      "meaning": "Summon has 2 distinct senses.",
       "examples": [
         "A judge can summon any witness in the case.",
         "They summoned her to appear on Monday.",
-        "He has been summoned for jury duty twice this year."
+        "He has been summoned for jury duty twice this year.",
+        "It takes time to summon that kind of courage.",
+        "She summoned her last bit of strength and pushed the door open.",
+        "Summoning what patience he had left, he asked again."
       ],
-      "senses": [],
-      "русский": "вызывать (в суд), вызвать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To officially order someone to appear in court or at an official place",
+          "body": [
+            "(вызывать (в суд), вызвать)"
+          ],
+          "examples": [
+            "A judge can summon any witness in the case.",
+            "They summoned her to appear on Monday.",
+            "He has been summoned for jury duty twice this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To gather your strength, courage, or energy for something difficult",
+          "body": [
+            "(собирать (силы, мужество), собраться с (духом))",
+            "---"
+          ],
+          "examples": [
+            "It takes time to summon that kind of courage.",
+            "She summoned her last bit of strength and pushed the door open.",
+            "Summoning what patience he had left, he asked again."
+          ]
+        }
+      ],
+      "русский": "вызывать (в суд), вызвать; собирать (силы, мужество), собраться с (духом)",
       "forms": "summon · summoned · summoned",
       "verb class": "regular",
       "third person": "summons · -ing form: summoning",
@@ -147,14 +176,43 @@
       "term": "rule",
       "ipa": "/ruːl/",
       "respell": "ROOL",
-      "meaning": "To make an official decision as a judge or a court. ---",
+      "meaning": "Rule has 2 distinct senses.",
       "examples": [
         "The judge will rule on the motion tomorrow.",
         "The court ruled in favor of the tenants.",
-        "Two appeals judges have ruled against the company."
+        "Two appeals judges have ruled against the company.",
+        "Few kings rule without an army behind them.",
+        "She ruled the region for nearly thirty years.",
+        "The same family has ruled the island since 1890."
       ],
-      "senses": [],
-      "русский": "выносить решение, постановлять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To make an official decision as a judge or a court",
+          "body": [
+            "(выносить решение, постановлять)"
+          ],
+          "examples": [
+            "The judge will rule on the motion tomorrow.",
+            "The court ruled in favor of the tenants.",
+            "Two appeals judges have ruled against the company."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To have power over a country or a people and govern them",
+          "body": [
+            "(править, управлять (страной); господствовать)",
+            "---"
+          ],
+          "examples": [
+            "Few kings rule without an army behind them.",
+            "She ruled the region for nearly thirty years.",
+            "The same family has ruled the island since 1890."
+          ]
+        }
+      ],
+      "русский": "выносить решение, постановлять; править, управлять (страной); господствовать",
       "forms": "rule · ruled · ruled",
       "verb class": "regular",
       "third person": "rules · -ing form: ruling",
@@ -202,14 +260,58 @@
       "term": "affirm",
       "ipa": "/əˈfɜːrm/",
       "respell": "uh-FURM",
-      "meaning": "For a higher court, to let a lower court's decision stand. ---",
+      "meaning": "Affirm has 3 distinct senses.",
       "examples": [
         "The appeals court may affirm the sentence.",
         "The judges affirmed the lower court's decision.",
-        "His conviction was affirmed last month."
+        "His conviction was affirmed last month.",
+        "She affirms that she was at home all evening.",
+        "Both sides affirmed their commitment to the deal.",
+        "The governor has affirmed her support for the plan.",
+        "Good teachers affirm their students.",
+        "The letter affirmed everything she had been feeling.",
+        "She felt affirmed by the group's warm response."
       ],
-      "senses": [],
-      "русский": "подтверждать, оставлять в силе (решение)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "For a higher court, to let a lower court's decision stand",
+          "body": [
+            "(подтверждать, оставлять в силе (решение))"
+          ],
+          "examples": [
+            "The appeals court may affirm the sentence.",
+            "The judges affirmed the lower court's decision.",
+            "His conviction was affirmed last month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To state firmly and publicly that something is true",
+          "body": [
+            "(утверждать, заявлять; подтверждать, подтвердить)"
+          ],
+          "examples": [
+            "She affirms that she was at home all evening.",
+            "Both sides affirmed their commitment to the deal.",
+            "The governor has affirmed her support for the plan."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "To tell people that they matter and that their feelings are valid",
+          "body": [
+            "(поддерживать, ободрять; признавать значимость (чувств, личности))",
+            "---"
+          ],
+          "examples": [
+            "Good teachers affirm their students.",
+            "The letter affirmed everything she had been feeling.",
+            "She felt affirmed by the group's warm response."
+          ]
+        }
+      ],
+      "русский": "подтверждать, оставлять в силе (решение); утверждать, заявлять; подтверждать, подтвердить; поддерживать, ободрять; признавать значимость (чувств, личности)",
       "forms": "affirm · affirmed · affirmed",
       "verb class": "regular",
       "third person": "affirms · -ing form: affirming",
@@ -392,14 +494,43 @@
       "term": "neglect",
       "ipa": "/nɪˈɡlɛkt/",
       "respell": "ni-GLEKT",
-      "meaning": "To fail to take care of someone or something you are responsible for. ---",
+      "meaning": "Neglect has 2 distinct senses.",
       "examples": [
         "Landlords who neglect repairs can be fined.",
         "The court found that she had neglected the children.",
-        "The building had been neglected for years."
+        "The building had been neglected for years.",
+        "Don't neglect to sign the last page.",
+        "He neglected to mention that he was married.",
+        "She had neglected to renew her passport."
       ],
-      "senses": [],
-      "русский": "пренебрегать, не заботиться, запускать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To fail to take care of someone or something you are responsible for",
+          "body": [
+            "(пренебрегать, не заботиться, запускать)"
+          ],
+          "examples": [
+            "Landlords who neglect repairs can be fined.",
+            "The court found that she had neglected the children.",
+            "The building had been neglected for years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fail to do something, usually without meaning to",
+          "body": [
+            "(забывать сделать, упускать, не сделать)",
+            "---"
+          ],
+          "examples": [
+            "Don't neglect to sign the last page.",
+            "He neglected to mention that he was married.",
+            "She had neglected to renew her passport."
+          ]
+        }
+      ],
+      "русский": "пренебрегать, не заботиться, запускать; забывать сделать, упускать, не сделать",
       "forms": "neglect · neglected · neglected",
       "verb class": "regular",
       "third person": "neglects · -ing form: neglecting",
@@ -514,14 +645,43 @@
       "term": "hack",
       "ipa": "/hæk/",
       "respell": "HAK",
-      "meaning": "To break into a computer system without permission. ---",
+      "meaning": "Hack has 2 distinct senses.",
       "examples": [
         "Criminals can hack a small bank in minutes.",
         "Someone hacked my email last night.",
-        "The hospital's records were hacked in the spring."
+        "The hospital's records were hacked in the spring.",
+        "He hacked at the frozen ground with a pick.",
+        "They had to hack a path through the brush.",
+        "She was hacking branches off the fallen tree."
       ],
-      "senses": [],
-      "русский": "взламывать (компьютер, систему)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To break into a computer system without permission",
+          "body": [
+            "(взламывать (компьютер, систему))"
+          ],
+          "examples": [
+            "Criminals can hack a small bank in minutes.",
+            "Someone hacked my email last night.",
+            "The hospital's records were hacked in the spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To cut something roughly with heavy blows",
+          "body": [
+            "(рубить, разрубать; прорубать)",
+            "---"
+          ],
+          "examples": [
+            "He hacked at the frozen ground with a pick.",
+            "They had to hack a path through the brush.",
+            "She was hacking branches off the fallen tree."
+          ]
+        }
+      ],
+      "русский": "взламывать (компьютер, систему); рубить, разрубать; прорубать",
       "forms": "hack · hacked · hacked",
       "verb class": "regular",
       "third person": "hacks · -ing form: hacking",
@@ -622,14 +782,43 @@
       "term": "rig",
       "ipa": "/rɪɡ/",
       "respell": "RIG",
-      "meaning": "To arrange a contest, a vote or a machine dishonestly so the result is fixed. ---",
+      "meaning": "Rig has 2 distinct senses.",
       "examples": [
         "They tried to rig the bidding.",
         "He rigged the machines to pay out less.",
-        "The contest had been rigged from the start."
+        "The contest had been rigged from the start.",
+        "They rigged the boat before dawn.",
+        "The truck is rigged with a winch and two floodlights.",
+        "The crew spent two days rigging the lights above the stage."
       ],
-      "senses": [],
-      "русский": "подтасовывать, фальсифицировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To arrange a contest, a vote or a machine dishonestly so the result is fixed",
+          "body": [
+            "(подтасовывать, фальсифицировать)"
+          ],
+          "examples": [
+            "They tried to rig the bidding.",
+            "He rigged the machines to pay out less.",
+            "The contest had been rigged from the start."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To fit something out with equipment, ropes, or sails",
+          "body": [
+            "(оснащать, оснастить; оборудовать)",
+            "---"
+          ],
+          "examples": [
+            "They rigged the boat before dawn.",
+            "The truck is rigged with a winch and two floodlights.",
+            "The crew spent two days rigging the lights above the stage."
+          ]
+        }
+      ],
+      "русский": "подтасовывать, фальсифицировать; оснащать, оснастить; оборудовать",
       "forms": "rig · rigged · rigged",
       "verb class": "regular",
       "third person": "rigs · -ing form: rigging",
@@ -693,14 +882,43 @@
       "term": "manipulate",
       "ipa": "/məˈnɪpjəleɪt/",
       "respell": "muh-NIP-yuh-layt",
-      "meaning": "To control people or figures dishonestly for your own advantage. ---",
+      "meaning": "Manipulate has 2 distinct senses.",
       "examples": [
         "Traders can manipulate the price of a small stock.",
         "He manipulated the records to hide the loss.",
-        "The evidence had been manipulated."
+        "The evidence had been manipulated.",
+        "Surgeons manipulate the instruments through three small cuts.",
+        "She manipulated the joystick with one hand.",
+        "The robot arm is manipulated from the next room."
       ],
-      "senses": [],
-      "русский": "манипулировать, подтасовывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To control people or figures dishonestly for your own advantage",
+          "body": [
+            "(манипулировать, подтасовывать)"
+          ],
+          "examples": [
+            "Traders can manipulate the price of a small stock.",
+            "He manipulated the records to hide the loss.",
+            "The evidence had been manipulated."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To work something skillfully with your hands or with a tool",
+          "body": [
+            "(управлять руками, ловко обращаться (с чем-л.); манипулировать (предметом))",
+            "---"
+          ],
+          "examples": [
+            "Surgeons manipulate the instruments through three small cuts.",
+            "She manipulated the joystick with one hand.",
+            "The robot arm is manipulated from the next room."
+          ]
+        }
+      ],
+      "русский": "манипулировать, подтасовывать; управлять руками, ловко обращаться (с чем-л.); манипулировать (предметом)",
       "forms": "manipulate · manipulated · manipulated",
       "verb class": "regular",
       "third person": "manipulates · -ing form: manipulating",
@@ -782,14 +1000,43 @@
       "term": "obstruct",
       "ipa": "/əbˈstrʌkt/",
       "respell": "uhb-STRUKT",
-      "meaning": "To deliberately get in the way of an official process. ---",
+      "meaning": "Obstruct has 2 distinct senses.",
       "examples": [
         "Lying to agents can obstruct an investigation.",
         "He obstructed the search by hiding the files.",
-        "She was convicted of obstructing justice."
+        "She was convicted of obstructing justice.",
+        "Please do not obstruct the doorway.",
+        "A fallen tree obstructed the road for hours.",
+        "Our view of the stage was obstructed by a pillar."
       ],
-      "senses": [],
-      "русский": "препятствовать, чинить препятствия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To deliberately get in the way of an official process",
+          "body": [
+            "(препятствовать, чинить препятствия)"
+          ],
+          "examples": [
+            "Lying to agents can obstruct an investigation.",
+            "He obstructed the search by hiding the files.",
+            "She was convicted of obstructing justice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To block a road, a pipe, or a view",
+          "body": [
+            "(загораживать, преграждать; закупоривать)",
+            "---"
+          ],
+          "examples": [
+            "Please do not obstruct the doorway.",
+            "A fallen tree obstructed the road for hours.",
+            "Our view of the stage was obstructed by a pillar."
+          ]
+        }
+      ],
+      "русский": "препятствовать, чинить препятствия; загораживать, преграждать; закупоривать",
       "forms": "obstruct · obstructed · obstructed",
       "verb class": "regular",
       "third person": "obstructs · -ing form: obstructing",
@@ -817,14 +1064,43 @@
       "term": "gamble",
       "ipa": "/ˈɡæmbəl/",
       "respell": "GAM-buhl",
-      "meaning": "To play games of chance for money, which is regulated or banned in many places. ---",
+      "meaning": "Gamble has 2 distinct senses.",
       "examples": [
         "In some states you still may not gamble online.",
         "He gambled every weekend at the casino.",
-        "Three men were caught gambling in the back room."
+        "Three men were caught gambling in the back room.",
+        "The studio gambled on an unknown director and it paid off.",
+        "We're gambling that the weather holds through Saturday.",
+        "You gamble a lot when you buy a house sight unseen."
       ],
-      "senses": [],
-      "русский": "играть в азартные игры",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To play games of chance for money, which is regulated or banned in many places",
+          "body": [
+            "(играть в азартные игры)"
+          ],
+          "examples": [
+            "In some states you still may not gamble online.",
+            "He gambled every weekend at the casino.",
+            "Three men were caught gambling in the back room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To take a risk in the hope that something will turn out well",
+          "body": [
+            "(рисковать, рискнуть; делать ставку (на что-л.))",
+            "---"
+          ],
+          "examples": [
+            "The studio gambled on an unknown director and it paid off.",
+            "We're gambling that the weather holds through Saturday.",
+            "You gamble a lot when you buy a house sight unseen."
+          ]
+        }
+      ],
+      "русский": "играть в азартные игры; рисковать, рискнуть; делать ставку (на что-л.)",
       "forms": "gamble · gambled · gambled",
       "verb class": "regular",
       "third person": "gambles · -ing form: gambling",
@@ -834,14 +1110,43 @@
       "term": "discriminate",
       "ipa": "/dɪˈskrɪmɪneɪt/",
       "respell": "di-SKRIM-uh-nayt",
-      "meaning": "To treat a person worse than others because of race, sex, age or religion. ---",
+      "meaning": "Discriminate has 2 distinct senses.",
       "examples": [
         "An employer may not discriminate against older workers.",
         "The bank discriminated against buyers in those neighborhoods.",
-        "She says she was discriminated against because of her accent."
+        "She says she was discriminated against because of her accent.",
+        "A trained ear can discriminate between the two notes.",
+        "The children discriminated the shapes by color alone.",
+        "The filter is good at discriminating spam from real mail."
       ],
-      "senses": [],
-      "русский": "дискриминировать, проявлять дискриминацию",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To treat a person worse than others because of race, sex, age or religion",
+          "body": [
+            "(дискриминировать, проявлять дискриминацию)"
+          ],
+          "examples": [
+            "An employer may not discriminate against older workers.",
+            "The bank discriminated against buyers in those neighborhoods.",
+            "She says she was discriminated against because of her accent."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To see or make a fine difference between things that are nearly alike",
+          "body": [
+            "(различать, распознавать (тонкие различия))",
+            "---"
+          ],
+          "examples": [
+            "A trained ear can discriminate between the two notes.",
+            "The children discriminated the shapes by color alone.",
+            "The filter is good at discriminating spam from real mail."
+          ]
+        }
+      ],
+      "русский": "дискриминировать, проявлять дискриминацию; различать, распознавать (тонкие различия)",
       "forms": "discriminate · discriminated · discriminated",
       "verb class": "regular",
       "third person": "discriminates · -ing form: discriminating",
@@ -887,14 +1192,43 @@
       "term": "pardon",
       "ipa": "/ˈpɑːrdən/",
       "respell": "PAHR-duhn",
-      "meaning": "To officially forgive a crime and cancel the punishment. ---",
+      "meaning": "Pardon has 2 distinct senses.",
       "examples": [
         "Only a governor can pardon a state prisoner.",
         "The president pardoned two hundred people.",
-        "He was pardoned after serving eight years."
+        "He was pardoned after serving eight years.",
+        "Pardon me — I didn't mean to interrupt.",
+        "He pardoned my terrible Spanish and answered in English.",
+        "A mistake that small is easily pardoned."
       ],
-      "senses": [],
-      "русский": "помиловать, миловать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To officially forgive a crime and cancel the punishment",
+          "body": [
+            "(помиловать, миловать)"
+          ],
+          "examples": [
+            "Only a governor can pardon a state prisoner.",
+            "The president pardoned two hundred people.",
+            "He was pardoned after serving eight years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To excuse a small fault or a piece of rudeness in everyday politeness",
+          "body": [
+            "(извинять, извинить; прощать, простить)",
+            "---"
+          ],
+          "examples": [
+            "Pardon me — I didn't mean to interrupt.",
+            "He pardoned my terrible Spanish and answered in English.",
+            "A mistake that small is easily pardoned."
+          ]
+        }
+      ],
+      "русский": "помиловать, миловать; извинять, извинить; прощать, простить",
       "forms": "pardon · pardoned · pardoned",
       "verb class": "regular",
       "third person": "pardons · -ing form: pardoning",
@@ -955,14 +1289,43 @@
       "term": "expel",
       "ipa": "/ɪkˈspɛl/",
       "respell": "ik-SPEL",
-      "meaning": "To force someone officially to leave a school, an organization or a country. ---",
+      "meaning": "Expel has 2 distinct senses.",
       "examples": [
         "A school can expel a student for bringing a weapon.",
         "They expelled him in his final year.",
-        "Two diplomats were expelled from the country."
+        "Two diplomats were expelled from the country.",
+        "The whale expelled a spout of water.",
+        "Cough hard to expel the water from your lungs.",
+        "Air is expelled through a vent at the back."
       ],
-      "senses": [],
-      "русский": "исключать, выгонять; высылать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To force someone officially to leave a school, an organization or a country",
+          "body": [
+            "(исключать, выгонять; высылать)"
+          ],
+          "examples": [
+            "A school can expel a student for bringing a weapon.",
+            "They expelled him in his final year.",
+            "Two diplomats were expelled from the country."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To force air, liquid, or gas out of something",
+          "body": [
+            "(выталкивать, вытолкнуть; выпускать, извергать (воздух, жидкость))",
+            "---"
+          ],
+          "examples": [
+            "The whale expelled a spout of water.",
+            "Cough hard to expel the water from your lungs.",
+            "Air is expelled through a vent at the back."
+          ]
+        }
+      ],
+      "русский": "исключать, выгонять; высылать; выталкивать, вытолкнуть; выпускать, извергать (воздух, жидкость)",
       "forms": "expel · expelled · expelled",
       "verb class": "regular",
       "third person": "expels · -ing form: expelling",
@@ -990,14 +1353,43 @@
       "term": "discipline",
       "ipa": "/ˈdɪsəplɪn/",
       "respell": "DIS-uh-plin",
-      "meaning": "To punish a member of an organization for breaking its rules. ---",
+      "meaning": "Discipline has 2 distinct senses.",
       "examples": [
         "The department rarely disciplines its own officers.",
         "They disciplined two guards after the video came out.",
-        "He has been disciplined three times this year."
+        "He has been disciplined three times this year.",
+        "Good parents discipline their children with clear, steady rules.",
+        "She disciplined herself to write for an hour every morning.",
+        "He has never been good at disciplining his spending."
       ],
-      "senses": [],
-      "русский": "наказывать, привлекать к дисциплинарной ответственности",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To punish a member of an organization for breaking its rules",
+          "body": [
+            "(наказывать, привлекать к дисциплинарной ответственности)"
+          ],
+          "examples": [
+            "The department rarely disciplines its own officers.",
+            "They disciplined two guards after the video came out.",
+            "He has been disciplined three times this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To train someone, or yourself, to follow rules and control behavior",
+          "body": [
+            "(приучать к дисциплине, дисциплинировать)",
+            "---"
+          ],
+          "examples": [
+            "Good parents discipline their children with clear, steady rules.",
+            "She disciplined herself to write for an hour every morning.",
+            "He has never been good at disciplining his spending."
+          ]
+        }
+      ],
+      "русский": "наказывать, привлекать к дисциплинарной ответственности; приучать к дисциплине, дисциплинировать",
       "forms": "discipline · disciplined · disciplined",
       "verb class": "regular",
       "third person": "disciplines · -ing form: disciplining",
@@ -1008,14 +1400,43 @@
       "term": "rehabilitate",
       "ipa": "/ˌriːəˈbɪlɪteɪt/",
       "respell": "ree-uh-BIL-i-tayt",
-      "meaning": "To help an offender change so that they can live a normal life again. ---",
+      "meaning": "Rehabilitate has 2 distinct senses.",
       "examples": [
         "Prisons are supposed to rehabilitate people, not just hold them.",
         "The program rehabilitated hundreds of young offenders.",
-        "He was rehabilitated and now speaks in schools."
+        "He was rehabilitated and now speaks in schools.",
+        "It can take a year to rehabilitate a knee like that.",
+        "He rehabilitated his shoulder with daily exercises.",
+        "She spent the summer rehabilitating a torn ligament."
       ],
-      "senses": [],
-      "русский": "перевоспитывать, реабилитировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To help an offender change so that they can live a normal life again",
+          "body": [
+            "(перевоспитывать, реабилитировать)"
+          ],
+          "examples": [
+            "Prisons are supposed to rehabilitate people, not just hold them.",
+            "The program rehabilitated hundreds of young offenders.",
+            "He was rehabilitated and now speaks in schools."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To bring an injured part of the body back to full strength through treatment and exercise",
+          "body": [
+            "(реабилитировать, восстанавливать после травмы; разрабатывать (сустав))",
+            "---"
+          ],
+          "examples": [
+            "It can take a year to rehabilitate a knee like that.",
+            "He rehabilitated his shoulder with daily exercises.",
+            "She spent the summer rehabilitating a torn ligament."
+          ]
+        }
+      ],
+      "русский": "перевоспитывать, реабилитировать; реабилитировать, восстанавливать после травмы; разрабатывать (сустав)",
       "forms": "rehabilitate · rehabilitated · rehabilitated",
       "verb class": "regular",
       "third person": "rehabilitates · -ing form: rehabilitating",
@@ -1096,14 +1517,43 @@
       "term": "suspend",
       "ipa": "/səˈspɛnd/",
       "respell": "suh-SPEND",
-      "meaning": "To stop something for a time, or to bar someone from a job or a right temporarily. ---",
+      "meaning": "Suspend has 2 distinct senses.",
       "examples": [
         "The board may suspend his license.",
         "They suspended the officer without pay.",
-        "He got a suspended sentence and served no time."
+        "He got a suspended sentence and served no time.",
+        "The crew suspended the camera above the stage.",
+        "They will suspend the platform from four cables.",
+        "Tiny particles stay suspended in the liquid for hours."
       ],
-      "senses": [],
-      "русский": "приостанавливать, временно отстранять",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To stop something for a time, or to bar someone from a job or a right temporarily",
+          "body": [
+            "(приостанавливать, временно отстранять)"
+          ],
+          "examples": [
+            "The board may suspend his license.",
+            "They suspended the officer without pay.",
+            "He got a suspended sentence and served no time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To hang something so that it is held up from above",
+          "body": [
+            "(подвешивать, подвесить)",
+            "---"
+          ],
+          "examples": [
+            "The crew suspended the camera above the stage.",
+            "They will suspend the platform from four cables.",
+            "Tiny particles stay suspended in the liquid for hours."
+          ]
+        }
+      ],
+      "русский": "приостанавливать, временно отстранять; подвешивать, подвесить",
       "forms": "suspend · suspended · suspended",
       "verb class": "regular",
       "third person": "suspends · -ing form: suspending",
@@ -1165,14 +1615,43 @@
       "term": "regulate",
       "ipa": "/ˈrɛɡjəleɪt/",
       "respell": "REG-yuh-layt",
-      "meaning": "To control an activity by official rules. ---",
+      "meaning": "Regulate has 2 distinct senses.",
       "examples": [
         "Federal agencies regulate the sale of firearms.",
         "Congress regulated the industry after the crash.",
-        "Banks are heavily regulated in this country."
+        "Banks are heavily regulated in this country.",
+        "Sweating helps regulate body temperature.",
+        "The old thermostat regulated the heat badly.",
+        "Blood sugar is regulated by insulin."
       ],
-      "senses": [],
-      "русский": "регулировать, регламентировать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To control an activity by official rules",
+          "body": [
+            "(регулировать, регламентировать)"
+          ],
+          "examples": [
+            "Federal agencies regulate the sale of firearms.",
+            "Congress regulated the industry after the crash.",
+            "Banks are heavily regulated in this country."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To keep a level, a speed, or a flow steady and correct",
+          "body": [
+            "(регулировать (уровень, температуру); поддерживать в норме)",
+            "---"
+          ],
+          "examples": [
+            "Sweating helps regulate body temperature.",
+            "The old thermostat regulated the heat badly.",
+            "Blood sugar is regulated by insulin."
+          ]
+        }
+      ],
+      "русский": "регулировать, регламентировать; регулировать (уровень, температуру); поддерживать в норме",
       "forms": "regulate · regulated · regulated",
       "verb class": "regular",
       "third person": "regulates · -ing form: regulating",
@@ -1252,14 +1731,43 @@
       "term": "sanction",
       "ipa": "/ˈsæŋkʃən/",
       "respell": "SANK-shuhn",
-      "meaning": "To impose an official penalty on a person, a firm or a country. ---",
+      "meaning": "Sanction has 2 distinct senses.",
       "examples": [
         "A judge can sanction a lawyer who lies to the court.",
         "The court sanctioned the firm ten thousand dollars.",
-        "Two banks were sanctioned last year."
+        "Two banks were sanctioned last year.",
+        "The city will not sanction a march without a permit.",
+        "The league sanctioned the event and sent officials.",
+        "Only races sanctioned by the federation count for points."
       ],
-      "senses": [],
-      "русский": "применять санкции, наказывать",
+      "senses": [
+        {
+          "n": "1",
+          "head": "To impose an official penalty on a person, a firm or a country",
+          "body": [
+            "(применять санкции, наказывать)"
+          ],
+          "examples": [
+            "A judge can sanction a lawyer who lies to the court.",
+            "The court sanctioned the firm ten thousand dollars.",
+            "Two banks were sanctioned last year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "To give official permission or approval for something",
+          "body": [
+            "(санкционировать, официально разрешать, разрешить; одобрять)",
+            "---"
+          ],
+          "examples": [
+            "The city will not sanction a march without a permit.",
+            "The league sanctioned the event and sent officials.",
+            "Only races sanctioned by the federation count for points."
+          ]
+        }
+      ],
+      "русский": "применять санкции, наказывать; санкционировать, официально разрешать, разрешить; одобрять",
       "forms": "sanction · sanctioned · sanctioned",
       "verb class": "regular",
       "third person": "sanctions · -ing form: sanctioning",

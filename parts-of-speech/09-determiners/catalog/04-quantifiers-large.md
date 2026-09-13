@@ -31,14 +31,21 @@ One note on scope, since every determiner has exactly one home in this catalog. 
 
 Marks a large but unspecified number of countable things.
 
-**1.** Before a bare plural noun it names a big number drawn from an open set — *many Americans*, *many companies*. **2.** After *the*, a possessive, or a demonstrative it is a postdeterminer and simply describes an already-identified set as a large one — *the many problems we inherited*. **3.** As a pronoun it stands alone with no noun: *Many were called, few were chosen.*
+What slot it fills decides how it reads: in front of a bare plural it names a big number drawn from an open set, while after *the*, a possessive, or a demonstrative it drops into the postdeterminer slot and merely describes a set you already know about. Standing alone with no noun it is a **pronoun**: *Many were called, few were chosen.*
+
+**1. A large but unspecified number, in front of a bare plural noun.** (много, многие — только с исчисляемыми во мн. ч.)
 
 1. *Many* Americans commute more than an hour each way.
 2. How *many* people are coming to dinner?
 3. There aren't *many* seats left for the early show.
 4. She has too *many* projects going at once.
 5. *Many* of the applicants had never written a line of code.
+
+**2. After *the*, a possessive, or a demonstrative — describing an already-identified set as a large one.** (те многочисленные, все эти — the many problems «все те многочисленные проблемы»)
+
 6. The *many* delays finally cost the contractor the job.
+7. Her *many* kindnesses to that family went unmentioned at the service.
+8. These *many* revisions have not made the contract any clearer.
 
 **See also:** [much](#much), [more](#more), [a lot of](#a-lot-of), [a great many](#a-great-many), [quite a few](#quite-a-few), [few](05-quantifiers-small.md#few), [how many](08-interrogative-exclamative-relative.md#how-many)
 
@@ -77,13 +84,19 @@ Names a large number of countable things while treating them grammatically one a
 
 Names a larger number or amount than something else — than a stated comparison, than before, or than what is already on hand. As a pronoun it stands alone with no noun after it: *We need more*, *Would you like some more?*
 
-1. We need *more* volunteers for Saturday.
-2. Is there any *more* coffee in the pot?
-3. She has *more* patience than I do.
-4. Give me two *more* days and I'll have the draft.
-5. *More* of the money went to overhead than to programs.
-6. *No more* excuses — the report is due Friday.
+**1. A larger number or amount than something else — the comparative.** (больше, более — сравнительная степень much и many)
+
+1. She has *more* patience than I do.
+2. *More* of the money went to overhead than to programs.
+3. We need *more* volunteers for Saturday.
+4. Coffee costs *more* here than anywhere else on the block.
+
+**2. Additional — a further quantity on top of what is already there, with nothing being compared.** (ещё, ещё столько-то — two more days «ещё два дня», any more coffee «ещё кофе»)
+
+5. Is there any *more* coffee in the pot?
+6. Give me two *more* days and I'll have the draft.
 7. There's soup on the stove if anyone wants *more*.
+8. *No more* excuses — the report is due Friday.
 
 **See also:** [most](#most), [many](#many), [much](#much), [fewer](05-quantifiers-small.md#fewer), [less](05-quantifiers-small.md#less), [how many more](08-interrogative-exclamative-relative.md#how-many-more)
 
@@ -100,12 +113,19 @@ Names a larger number or amount than something else — than a stated comparison
 
 Names the majority — more than half, and usually a good deal more than half. Bare *most* generalizes about a whole class; *most of* picks the larger part out of a specific set. As a pronoun it stands alone: *Most had already gone home.*
 
+**1. The majority — more than half, and usually well more.** (большинство, большая часть — больше половины)
+
 1. *Most* people would rather not fly on a Sunday night.
 2. *Most* of the money is already spent.
 3. She spends *most* of her time on the road.
 4. *Most* information on that site is out of date.
-5. Which team scored the *most* points?
-6. *Most* of them had never seen snow before.
+5. *Most* of them had never seen snow before.
+
+**2. The superlative of *much* and *many* — the greatest amount or number in a compared set.** (наибольший, больше всех — the most points «больше всех очков»)
+
+6. Which team scored the *most* points?
+7. The route with the *most* traffic is also the shortest one.
+8. Whoever books the *most* hours gets the parking spot.
 
 **See also:** [more](#more), [many](#many), [much](#much), [a majority of](#a-majority-of), [the majority of, the minority of](07-numerals-multipliers.md#the-majority-of-the-minority-of), [least](05-quantifiers-small.md#least), [all](06-distributives-negatives.md#all)
 
@@ -122,12 +142,19 @@ Names the majority — more than half, and usually a good deal more than half. B
 
 Marks a large but unspecified amount of something that cannot be counted. As a pronoun it stands alone: *There isn't much to say.*
 
+**1. A large but unspecified amount of something uncountable — at home in questions and negatives.** (много — только с неисчисляемыми; в вопросе и отрицании)
+
 1. We don't have *much* time.
 2. How *much* money did the repair cost?
 3. There isn't *much* to say about it.
-4. She spends too *much* energy worrying about things she can't control.
-5. *Much* of the report was out of date before it was printed.
-6. I didn't get *much* sleep last night.
+4. I didn't get *much* sleep last night.
+
+**2. Affirmative *much* — bookish on its own, ordinary after *too*, *so*, *as*, and before *of*.** (многое, большая часть; слишком много — much of the report «большая часть отчёта», too much energy «слишком много сил»)
+
+5. She spends too *much* energy worrying about things she can't control.
+6. *Much* of the report was out of date before it was printed.
+7. *Much* work remains before the building can open. — formal; in speech, *a lot of work remains*
+8. There was so *much* paperwork that the closing ran two hours long.
 
 **See also:** [many](#many), [more](#more), [a lot of](#a-lot-of), [a great deal of](#a-great-deal-of), [quite a bit of](#quite-a-bit-of), [little](05-quantifiers-small.md#little), [not much](05-quantifiers-small.md#not-much), [how much](08-interrogative-exclamative-relative.md#how-much)
 
@@ -148,12 +175,19 @@ These are the phrases that actually carry large quantity in American conversatio
 
 Names a large, uncounted quantity in casual speech — the conversational equivalent of *a lot of*, with no claim about how large.
 
+**1. A large, uncounted quantity in casual speech — the conversational *a lot of*.** (куча, полно — разг., без оценки размера)
+
 1. *A bunch of* us are going to the game on Saturday.
 2. He left *a bunch of* dishes in the sink again.
 3. That's going to cost *a bunch of* money we don't have.
 4. *A bunch of* the emails never went out.
 5. I've got *a whole bunch of* questions about the lease.
+
+**2. Literally — things growing or fastened together in a cluster.** (гроздь, пучок, связка — a bunch of bananas «гроздь бананов», a bunch of keys «связка ключей»)
+
 6. She picked up *a bunch of* bananas on the way home.
+7. He handed her *a bunch of* daisies wrapped in newspaper.
+8. There's *a bunch of* keys hanging by the back door.
 
 **See also:** [a lot of](#a-lot-of), [lots of](#lots-of), [tons of](#tons-of), [a slew of](#a-slew-of), [a couple of](05-quantifiers-small.md#a-couple-of), [a handful of](05-quantifiers-small.md#a-handful-of)
 
@@ -438,12 +472,19 @@ Names a quantity past the right one — large, and larger than it should be.
 
 Names an unlimited or indefinitely large amount — "as much as it takes, and the speaker is not counting."
 
+**1. An unlimited or indefinitely large amount — "as much as it takes."** (сколько угодно, любое количество — говорящий не считает)
+
 1. He'll spend *any amount of* time on a problem that interests him.
 2. They would have paid *any amount of* money to get that tape back.
-3. There are *any number of* reasons the deal could still fall apart.
-4. You can throw *any amount of* money at the bridge and the traffic won't improve.
-5. *No amount of* explaining was going to change her mind.
-6. She has *any amount of* patience with beginners.
+3. You can throw *any amount of* money at the bridge and the traffic won't improve.
+4. She has *any amount of* patience with beginners.
+5. There are *any number of* reasons the deal could still fall apart.
+
+**2. *No amount of* — the negative twin: however much there is, it changes nothing.** (никакие… не, сколько ни — no amount of explaining «никакие объяснения не помогут»)
+
+6. *No amount of* explaining was going to change her mind.
+7. *No amount of* overtime is going to finish this by Friday.
+8. *No amount of* salt will save that soup.
 
 **See also:** [any](06-distributives-negatives.md#any), [a great deal of](#a-great-deal-of), [a large number of](#a-large-number-of), [no end of](#no-end-of), [countless](#countless)
 
@@ -662,12 +703,18 @@ Names a very large number of countable things, viewed as a crowd rather than a l
 
 Names a large number of things, in careful use an unhelpfully large number — an oversupply rather than merely a lot.
 
+**1. In careful use — an unhelpfully large number, an oversupply rather than merely a lot.** (переизбыток — книжн.: больше, чем нужно, и оттого только хуже)
+
 1. The menu offers *a plethora of* options and no way to choose among them.
-2. *A plethora of* new apps promise to do the same thing.
-3. There is *a plethora of* research on the topic and very little agreement.
-4. The form asks for *a plethora of* details nobody will ever read.
-5. *A plethora of* competing standards slowed the rollout.
-6. He answered with *a plethora of* statistics and no actual argument.
+2. The form asks for *a plethora of* details nobody will ever read.
+3. *A plethora of* competing standards slowed the rollout.
+4. He answered with *a plethora of* statistics and no actual argument.
+
+**2. In loose modern use — simply a great many, with no complaint attached.** (масса, множество — в современном расхожем употреблении просто «много»)
+
+5. *A plethora of* new apps promise to do the same thing.
+6. There is *a plethora of* research on the topic and very little agreement.
+7. The festival drew *a plethora of* vendors from three states.
 
 **See also:** [a multitude of](#a-multitude-of), [a host of](#a-host-of), [myriad](#myriad), [numerous](#numerous), [countless](#countless)
 
@@ -772,12 +819,19 @@ Names a number of things of different kinds — diversity first, quantity second
 
 Names a large number of things arriving together in a surge that rises and passes — and, with an abstract noun, a feeling that comes over someone the same way.
 
+**1. A large number of things arriving together in a surge that rises and passes.** (волна, наплыв — a wave of layoffs «волна увольнений»)
+
 1. *A wave of* layoffs hit the industry in the second quarter.
-2. She felt *a wave of* relief when the phone finally rang.
-3. The bill set off *a flurry of* amendments in the last week of the session.
-4. *A wave of* new arrivals doubled the town's population in a decade.
-5. *Waves of* thunderstorms moved across the state all afternoon.
-6. There was *a flurry of* activity at the front desk and then nothing for an hour.
+2. *A wave of* new arrivals doubled the town's population in a decade.
+3. *Waves of* thunderstorms moved across the state all afternoon.
+4. The bill set off *a flurry of* amendments in the last week of the session.
+5. There was *a flurry of* activity at the front desk and then nothing for an hour.
+
+**2. With an abstract noun — a feeling that comes over someone all at once.** (волна, прилив (чувства) — a wave of relief «волна облегчения»)
+
+6. She felt *a wave of* relief when the phone finally rang.
+7. *A wave of* nausea hit him halfway up the stairs.
+8. *A wave of* homesickness caught her in the middle of the grocery store.
 
 **See also:** [a series of](#a-series-of), [a slew of](#a-slew-of), [a host of](#a-host-of), [droves of](#droves-of), [a bevy of](#a-bevy-of)
 
@@ -882,12 +936,19 @@ Names an indefinite number in the hundreds, presented as a large one.
 
 Names an indefinite number in the millions — and, loosely, any number the speaker wants to call enormous.
 
+**1. Literally — an indefinite number in the millions.** (миллионы — счёт действительно идёт на миллионы)
+
 1. *Millions of* people watched the hearing live.
 2. The cleanup has already cost *millions of* dollars.
 3. These formations took *millions of* years to build up.
 4. *Millions of* the old accounts were never closed out.
-5. I've told him that *a million* times.
-6. The company employs two *million* people worldwide.
+5. The company employs two *million* people worldwide.
+
+**2. Hyperbole — any number the speaker wants to call enormous.** (уйма, тьма, миллион раз — разг. преувеличение, точное число не имеется в виду)
+
+6. I've told him that *a million* times.
+7. There are *millions of* things I'd rather be doing on a Saturday.
+8. She has *millions of* excuses and not one of them holds up.
 
 **See also:** [thousands of](#thousands-of), [hundreds of](#hundreds-of), [dozens of](#dozens-of), [hundred, thousand, million, billion](07-numerals-multipliers.md#hundred-thousand-million-billion), [countless](#countless)
 
@@ -1018,12 +1079,19 @@ Describes a supply that is large and easily had. Unlike the *of*-phrases in this
 
 Describes a quantity that is large enough for the purpose with room left over.
 
+**1. Large enough for the purpose, with room left over.** (достаточный с запасом, обильный — хватает и ещё остаётся)
+
 1. There's *ample* time to catch the connecting flight.
-2. The lot has *ample* parking even on a game day.
-3. They were given *ample* warning that the deadline would not move.
-4. There is *ample* evidence in the record to support the ruling.
-5. The grant gave her *ample* opportunities to travel.
-6. His patience was *amply* rewarded.
+2. They were given *ample* warning that the deadline would not move.
+3. There is *ample* evidence in the record to support the ruling.
+4. The grant gave her *ample* opportunities to travel.
+5. His patience was *amply* rewarded.
+
+**2. Generous in physical size or extent.** (просторный, обширный, объёмистый — ample parking «просторная парковка»)
+
+6. The lot has *ample* parking even on a game day.
+7. The apartment is small but the closets are *ample*.
+8. He settled his *ample* frame into the folding chair and it held.
 
 **See also:** [plenty of](#plenty-of), [enough](#enough), [sufficient](#sufficient), [abundant](#abundant), [a wealth of](#a-wealth-of)
 
@@ -1154,12 +1222,19 @@ Sufficiency is a large quantity measured against a need rather than against zero
 
 Marks a quantity that meets the need exactly — as much or as many as is required, and no claim beyond that. Under negation it becomes the standard way to report a shortfall: *not enough chairs*, *not enough time*.
 
+**1. As much or as many as is required — and, under negation, the standard way to report a shortfall.** (достаточно, хватает; not enough — не хватает)
+
 1. Do we have *enough* chairs for everyone?
 2. There isn't *enough* coffee left for a second round.
 3. He's finally saved *enough* money for the deposit.
-4. I've had *enough* of these delays.
-5. Is it warm *enough* out there for the porch?
-6. There's time *enough* to fix it before Monday.
+4. Is it warm *enough* out there for the porch?
+5. There's time *enough* to fix it before Monday. — postposed, slightly literary
+
+**2. *Enough of* — as much as the speaker can stand.** (хватит, довольно, надоело — I've had enough of «с меня хватит»)
+
+6. I've had *enough* of these delays.
+7. That's *enough* of that — put it away and come to dinner.
+8. We've heard *enough* of his explanations for one week.
 
 **See also:** [sufficient](#sufficient), [plenty of](#plenty-of), [ample](#ample), [much](#much), [not much](05-quantifiers-small.md#not-much), [little](05-quantifiers-small.md#little), [enow](#enow)
 
@@ -1724,14 +1799,21 @@ Three of the four phrases here name a **threshold** rather than an impression. A
 
 Names the largest share of a vote or a group — and, in patent drafting, nothing grander than "more than one."
 
-**1.** In elections and in any counted body, the largest share, whether or not it passes half — *a plurality of the vote*. **2.** In United States patent claims, exactly "two or more" and no more than that — *a plurality of vents*.
+The two uses belong to two different professions and share nothing but the spelling: the political one is about who came out ahead, and the patent one is a drafting formula that means no more than "at least two." A patent examiner reading *a plurality of vents* is told the housing has two or more vents, not that most of something voted for them.
+
+**1. The largest share of a vote or a counted body, whether or not it passes half.** (относительное большинство — юр. и полит.: больше всех, но не обязательно больше половины)
 
 1. She won *a plurality of* the vote in a five-way primary and never came near fifty percent.
 2. *A plurality of* the members favored postponement, but the bylaws require a majority.
 3. Under state law the office goes to whoever takes *a plurality of* the votes cast.
-4. The claim recites a housing comprising *a plurality of* vents.
-5. *A plurality of* respondents named cost as the main obstacle; no single answer drew half.
-6. A plurality is not a majority, and *a plurality of* forty-two percent is the usual reason for a runoff.
+4. *A plurality of* respondents named cost as the main obstacle; no single answer drew half.
+5. A plurality is not a majority, and *a plurality of* forty-two percent is the usual reason for a runoff.
+
+**2. In United States patent claims — exactly "two or more," and nothing grander.** (два и более — патентная формулировка, никакого «большинства» тут нет)
+
+6. The claim recites a housing comprising *a plurality of* vents.
+7. The device includes *a plurality of* sensors mounted along the rail.
+8. *A plurality of* fasteners secures the panel to the frame.
 
 **See also:** [a majority of](#a-majority-of), [a supermajority of](#a-supermajority-of), [a quorum of](#a-quorum-of), [most](#most), [the majority of, the minority of](07-numerals-multipliers.md#the-majority-of-the-minority-of)
 

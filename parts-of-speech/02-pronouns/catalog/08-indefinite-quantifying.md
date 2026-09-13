@@ -228,13 +228,20 @@ Not a single one — the old rural negative, still alive in Southern and Appalac
 
 Says that not one member of a set qualifies, or that not any of a quantity is left.
 
+**1. Not one member of a countable set.** (ни один)
+
 1. *None* of the applicants had the certification.
-2. *None* of the milk was left by Sunday.
-3. I looked for a charger, but there was *none* in the drawer.
-4. *None* of the three explanations is convincing.
-5. Of the forty seats, *none* were empty.
-6. She read all three offers and accepted *none* of them.
-7. She asked for volunteers, and *none* came forward.
+2. I looked for a charger, but there was *none* in the drawer.
+3. *None* of the three explanations is convincing. (the "not one" reading, with a singular verb)
+4. Of the forty seats, *none* were empty. (the plural agreement, commoner in edited American prose)
+5. She read all three offers and accepted *none* of them.
+6. She asked for volunteers, and *none* came forward.
+
+**2. Not any of a mass or a quantity.** (нисколько, нимало — о неисчисляемом)
+
+7. *None* of the milk was left by Sunday.
+8. There was cake at noon and *none* by two.
+9. *None* of the money has been repaid.
 
 **See also:** [all](#all), [half](#half), [any](#any), [neither](#neither), [some](#some), [no one](07-indefinite-compound.md#no-one), [nobody](07-indefinite-compound.md#nobody), [nothing](07-indefinite-compound.md#nothing), [no (determiner)](../../09-determiners/catalog/06-distributives-negatives.md#no)
 
@@ -368,13 +375,19 @@ A thing taken entire, set against the parts it is made of.
 
 Picks the members of a known group out one at a time, so that whatever is said applies to every member separately.
 
+**1. The members of a known group, taken one at a time.** (каждый в отдельности)
+
 1. *Each* of the samples was tested twice.
 2. She handed out the folders, and *each* contained a different contract.
 3. *Each* of us has a copy of the key.
-4. They *each* brought something to the potluck.
+4. *Each* was asked to sign before leaving the building.
 5. She handed a numbered folder to *each* of us as we came in.
-6. *Each* was asked to sign before leaving the building.
-7. The tickets are forty dollars *each*. (adverb of distribution, not the pronoun)
+
+**2. Apiece — distributing a price or a quantity over the members.** (по штуке, за штуку, на каждого)
+
+6. The tickets are forty dollars *each*.
+7. They *each* brought something to the potluck.
+8. Cut the board into four pieces, eighteen inches *each*.
 
 **See also:** [every one](#every-one), [either](#either), [neither](#neither), [both](#both), [all](#all), [one](#one), [each other](03-reflexive-reciprocal.md#each-other), [each (determiner)](../../09-determiners/catalog/06-distributives-negatives.md#each), [every (determiner)](../../09-determiners/catalog/06-distributives-negatives.md#every)
 
@@ -391,12 +404,19 @@ Picks the members of a known group out one at a time, so that whatever is said a
 
 Names one of two possibilities without saying which, usually because either one would do.
 
+**1. One of two, and it does not matter which.** (любой из двух, тот или другой)
+
 1. *Either* of those dates works for me.
 2. I asked both lawyers, and *either* would take the case.
-3. Is *either* of them still open on Sundays?
-4. You can take the bus or the train — *either* gets you there by six.
-5. He didn't like *either* of the proposals.
-6. If *either* of you hears from her, call me right away.
+3. You can take the bus or the train — *either* gets you there by six.
+4. Is *either* of them still open on Sundays?
+5. If *either* of you hears from her, call me right away.
+
+**2. Under a negative — neither one of the two.** (ни тот ни другой: not … either = neither)
+
+6. He didn't like *either* of the proposals.
+7. She hasn't answered *either* of my messages.
+8. Neither road was plowed, and the truck couldn't get up *either* of them.
 
 **See also:** [neither](#neither), [each](#each), [both](#both), [any](#any), [none](#none), [either (determiner)](../../09-determiners/catalog/06-distributives-negatives.md#either)
 
@@ -602,12 +622,18 @@ Some particular members of a group, unnamed on purpose.
 
 Names the amount or number that is sufficient for a purpose — no more and no less.
 
+**1. A sufficient amount or number.** (достаточно, довольно — сколько нужно)
+
 1. There's coffee left, but not *enough* for four people.
-2. I've had *enough* of the excuses.
-3. Buy two boxes — one isn't *enough*.
-4. *Enough* of them showed up to hold the vote.
-5. *Enough* is *enough*.
-6. She had saved *enough* to cover the deposit.
+2. Buy two boxes — one isn't *enough*.
+3. *Enough* of them showed up to hold the vote.
+4. She had saved *enough* to cover the deposit.
+
+**2. Calling a halt — "this has gone far enough."** (хватит!, довольно! — требование прекратить)
+
+5. I've had *enough* of the excuses.
+6. *Enough* is *enough*.
+7. *Enough* — we are not having this argument again tonight.
 
 **See also:** [plenty](#plenty), [a lot](#a-lot), [much](#much), [many](#many), [more](#more), [enough (determiner)](../../09-determiners/catalog/04-quantifiers-large.md#enough)
 
@@ -994,12 +1020,18 @@ A large number of countable things, presented as large.
 
 A greater amount or number than what came before, or than what was expected.
 
+**1. An additional amount or number — "some more."** (ещё — добавка к тому, что уже есть)
+
 1. There's coffee in the pot if you want *more*.
-2. *More* of the guests are staying over than we planned for.
+2. Half the roof is gone, and *more* is coming down every week.
 3. We expected fifty and got *more*.
-4. Half the roof is gone, and *more* is coming down every week.
+
+**2. A greater amount than something else — the comparative.** (больше — в сравнении с чем-то)
+
+4. *More* of the guests are staying over than we planned for.
 5. She said little, but *more* was implied than stated.
 6. Of the twenty crates, *more* were damaged than intact.
+7. *More* was spent on the parking lot than on the building itself.
 
 **See also:** [most](#most), [less](#less), [fewer](#fewer), [much](#much), [many](#many), [another](#another), [more (determiner)](../../09-determiners/catalog/04-quantifiers-large.md#more)
 
@@ -1016,12 +1048,19 @@ A greater amount or number than what came before, or than what was expected.
 
 The majority of a group, or the greater part of a quantity.
 
+**1. The majority of a group, or the greater part of a quantity.** (большинство, бо́льшая часть)
+
 1. *Most* of the paint had already peeled off.
 2. *Most* of them had never used the software before.
-3. She kept *most* and sold the rest.
-4. *Most* agree that the deadline is unrealistic.
-5. Of the six proposals, *most* were rejected on the first pass.
+3. *Most* agree that the deadline is unrealistic.
+4. Of the six proposals, *most* were rejected on the first pass.
+5. She kept *most* and sold the rest.
+
+**2. The greatest amount — the superlative *the most*.** (больше всего, максимум)
+
 6. He does the least talking and gets *the most* done.
+7. Twelve hundred dollars is *the most* I can offer.
+8. Of everyone in the family she travels *the most*.
 
 **See also:** [more](#more), [all](#all), [many](#many), [much](#much), [some](#some), [least](#least), [most (determiner)](../../09-determiners/catalog/04-quantifiers-large.md#most)
 
@@ -1198,12 +1237,19 @@ The small-amount words, plus the comparatives and superlatives that go down inst
 
 A small amount of something measured, offered as some rather than none.
 
+**1. A small amount — some rather than none.** (немного, чуть-чуть)
+
 1. There's *a bit* left in the bottom of the pot.
 2. *A bit* of the plaster had come away above the window.
 3. She knows *a bit* about wiring, enough to be dangerous.
 4. He saved *a bit* every month for eleven years.
 5. I've heard *a bit* of it, but not the whole story.
+
+**2. *Quite a bit* — a large amount; the phrase turns the word's own meaning around.** (порядочно, немало — оборот quite a bit значит «много»)
+
 6. Quite *a bit* of the money never reached the school.
+7. He's put on quite *a bit* since the wedding.
+8. We got quite *a bit* done before the power went out.
 
 **See also:** [a little](#a-little), [little](#little), [a few](#a-few), [a handful](#a-handful), [less](#less), [some](#some), [a bit of (determiner)](../../09-determiners/catalog/05-quantifiers-small.md#a-bit-of)
 
@@ -1242,12 +1288,19 @@ A small number of countable things, normally two and loosely two or three.
 
 A small number of countable things, offered as enough to matter.
 
+**1. Several — few, but enough to count.** (несколько — мало, но всё же есть)
+
 1. *A few* of the parts were missing from the box.
 2. I know *a few* who would take that job tomorrow.
 3. There were sandwiches left, so I took *a few*.
 4. *A few* of us stayed behind to clean up.
-5. Quite *a few* of the seats were still available at showtime.
-6. He asked for volunteers and got *a few*.
+5. He asked for volunteers and got *a few*.
+
+**2. *Quite a few* — a good many; the phrase reverses the meaning.** (немало, порядочно — оборот quite a few значит «много»)
+
+6. Quite *a few* of the seats were still available at showtime.
+7. Quite *a few* people in town still remember the flood of '93.
+8. She has written quite *a few* of these over the years.
 
 **See also:** [few](#few), [a couple](#a-couple), [a little](#a-little), [several](#several), [some](#some), [fewer](#fewer), [a few (determiner)](../../09-determiners/catalog/05-quantifiers-small.md#a-few)
 
@@ -1264,12 +1317,19 @@ A small number of countable things, offered as enough to matter.
 
 A small number of countable things, named as smaller than expected.
 
+**1. A small number, named as smaller than expected.** (горстка, считаные единицы)
+
 1. Only *a handful* of the invitations came back.
 2. *A handful* of us stayed to finish the count.
 3. She expected a crowd and got *a handful*.
-4. *A handful* of them had done the reading.
-5. Of the sixty applicants, *a handful* had any experience at all.
-6. He named *a handful* of the people involved and stopped there.
+4. Of the sixty applicants, *a handful* had any experience at all.
+5. He named *a handful* of the people involved and stopped there.
+
+**2. Someone — usually a child or an animal — who is hard to manage.** (сущее наказание, не подарок)
+
+6. That middle one is *a handful*.
+7. The puppy is sweet, but she's *a handful* on a leash.
+8. Three toddlers at a wedding is more than *a handful*.
 
 **See also:** [a few](#a-few), [a couple](#a-couple), [several](#several), [few](#few), [some](#some), [a bit](#a-bit), [a handful of (determiner)](../../09-determiners/catalog/05-quantifiers-small.md#a-handful-of)
 
@@ -1308,12 +1368,19 @@ A small amount of something measured, presented as some rather than none.
 
 A small number, presented as smaller than it should be.
 
+**1. A small number, and fewer than there ought to be.** (мало, немногие — с оттенком «недостаточно»)
+
 1. *Few* of the original members are still on the board.
 2. Many applied; *few* were hired.
 3. *Few* of us had ever seen anything like it.
 4. Of the promises made that spring, *few* survived the summer.
 5. *Few* have read the report all the way through.
+
+**2. *The few* — that small group, named as a definite set.** (те немногие; меньшинство)
+
 6. The *few* who stayed did most of the work.
+7. Policy in that town is made by *the few* and paid for by everybody else.
+8. He was one of *the few* to come out of it with a reputation intact.
 
 **See also:** [a few](#a-few), [a couple](#a-couple), [fewer](#fewer), [fewest](#fewest), [little](#little), [many](#many), [several](#several), [none](#none), [few (determiner)](../../09-determiners/catalog/05-quantifiers-small.md#few)
 
@@ -1661,12 +1728,19 @@ Everything or everyone that is left.
 **Pattern:** [determiner / adjective] *ones* (*the small ones*, *these ones*) &middot; *the ones that / who* [clause] &middot; *which ones* &middot; *the little ones*, *the loved ones* (semi-lexicalized)
 **Contrast:** **Ones cannot stand alone**, where *one* can — *Do you have one?* is fine and ✗*Do you have ones?* is not; the plural slot is filled by *some* or *any*. **These ones / those ones** are standard in British and Canadian speech but are marked as redundant in American usage, where *these* and *those* stand alone: *I'll take these*, not *I'll take these ones*. Keep it apart from *one's*, the possessive of the generic *one* (*one's own business*), and from the plural of the numeral (*the ones column*).
 
+**1. The plural prop-word, standing in for countable things already named.** (заменяет уже названные предметы во мн. ч.; без определителя невозможно)
+
 1. The red *ones* are on sale this week.
 2. Those are the *ones* we saw at the fair.
 3. I like the *ones* with the wooden handles.
 4. Which *ones* did you end up keeping?
-5. The *ones* who complained loudest never showed up to help.
-6. Take the small *ones* and leave the rest.
+5. Take the small *ones* and leave the rest.
+
+**2. People — *the ones who…*, and the affectionate *loved ones*, *little ones*.** (те, кто…; близкие; малыши)
+
+6. The *ones* who complained loudest never showed up to help.
+7. The hospital lets patients call their loved *ones* twice a day.
+8. Get the little *ones* into the van before it starts raining.
 
 **See also:** [one](#one), [others](#others), [these](04-demonstrative.md#these), [those](04-demonstrative.md#those), [one (determiner)](../../09-determiners/catalog/07-numerals-multipliers.md#one)
 
@@ -1705,12 +1779,22 @@ The second of two, or the one that is left when the first has been accounted for
 
 The rest of a group, or some further members of it.
 
+**1. Some further members, set against the ones already named — no article.** (другие, ещё какие-то)
+
 1. Some of the guests danced; *others* just watched.
-2. *The others* had already gone home by the time we arrived.
-3. She finished her section and helped *the others* with theirs.
-4. A few complained, but *others* said nothing at all.
-5. Two of the engines were repaired; *the others* were scrapped.
-6. *Others* have tried this and failed.
+2. A few complained, but *others* said nothing at all.
+3. *Others* have tried this and failed.
+
+**2. *The others* — all the remaining members, definite.** (остальные — все оставшиеся)
+
+4. *The others* had already gone home by the time we arrived.
+5. She finished her section and helped *the others* with theirs.
+6. Two of the engines were repaired; *the others* were scrapped.
+
+**3. Other people in general.** (другие люди, окружающие)
+
+7. He never could stand being laughed at by *others*.
+8. The job is mostly a matter of listening to *others*.
 
 **See also:** [other](#other), [another](#another), [ones](#ones), [some](#some), [each other](03-reflexive-reciprocal.md#each-other), [other (determiner)](../../09-determiners/catalog/07-numerals-multipliers.md#other)
 
@@ -1727,13 +1811,19 @@ The rest of a group, or some further members of it.
 
 Points back at a kind of thing just described, or at the situation as a whole.
 
+**1. Of that kind — the fronted *such is / such were* frame.** (таков, таковы — книжн.)
+
 1. *Such* is life.
 2. *Such* were the terms he insisted on.
 3. He gave no reason, and none was expected; *such* was his way.
 4. Delays, floods, and the like — *such* are the risks the policy covers.
-5. *Such* as remain unsold will be auctioned in the spring.
-6. *Such* was the state of the roof that two tenants moved out that winter.
-7. She was hired as an interpreter and *as such* attended every meeting. (fixed adverbial, not the pronoun)
+5. *Such* was the state of the roof that two tenants moved out that winter.
+
+**2. *Such as* — "those that," in legal and commercial drafting.** (те, которые — юр., канц.)
+
+6. *Such* as remain unsold will be auctioned in the spring.
+7. *Such* of the records as survive are kept in the county archive.
+8. She was hired as an interpreter and *as such* attended every meeting. (fixed adverbial, not the pronoun)
 
 **See also:** [so](04-demonstrative.md#so), [that](04-demonstrative.md#that), [those](04-demonstrative.md#those), [others](#others), [such (determiner)](../../09-determiners/catalog/08-interrogative-exclamative-relative.md#such)
 
@@ -1751,13 +1841,23 @@ Points back at a kind of thing just described, or at the situation as a whole.
 
 The particular member that the words around it identify — the definite half of the prop-word *one*.
 
+**1. The particular member the surrounding words identify.** (тот самый, тот, который)
+
 1. *The one* on the left has a chip in it.
 2. She's *the one* who called the inspector.
 3. Of the four keys he tried, *the one* that worked was the oldest.
 4. That's *the one* — the blue folder on top of the pile.
-5. He's convinced she's *the one*, and they have known each other three weeks.
-6. Tell them *the one* about the mule.
-7. *The ones* we saw at the fair were half the price. (plural)
+5. *The ones* we saw at the fair were half the price. (plural)
+
+**2. The destined partner.** (тот единственный, та самая)
+
+6. He's convinced she's *the one*, and they have known each other three weeks.
+7. Her mother keeps asking whether this is *the one*.
+
+**3. *The one about…* — the joke or the story.** (анекдот, история — «та, про…»)
+
+8. Tell them *the one* about the mule.
+9. He started in on *the one* about the fishing trip and nobody could stop him.
 
 **See also:** [one](#one), [ones](#ones), [another](#another), [other](#other), [the usual](#the-usual), [this one / that one](04-demonstrative.md#this-one--that-one), [those who](04-demonstrative.md#those-who), [he who, he that, she who, they that](09-fused-generic-dummy.md#he-who-he-that-she-who-they-that), [one (determiner)](../../09-determiners/catalog/07-numerals-multipliers.md#one)
 

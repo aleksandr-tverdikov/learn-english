@@ -190,11 +190,39 @@
         "How much time do we have before the train?",
         "She asked how much experience I had with Python.",
         "How much salt does the recipe call for?",
-        "How much rent are you paying now?",
         "How much of the report did you finish?",
-        "How much is that jacket in the window?"
+        "How much is that jacket in the window?",
+        "How much rent are you paying now?",
+        "How much was the tow, all in?"
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Asking for an amount of something uncountable",
+          "body": [
+            "(сколько — о неисчисляемом: How much time? «Сколько времени?»)"
+          ],
+          "examples": [
+            "How much money do you have on you?",
+            "How much time do we have before the train?",
+            "She asked how much experience I had with Python.",
+            "How much salt does the recipe call for?",
+            "How much of the report did you finish?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Asking the price",
+          "body": [
+            "(почём, сколько стоит — How much is it? «Сколько это стоит?»)"
+          ],
+          "examples": [
+            "How much is that jacket in the window?",
+            "How much rent are you paying now?",
+            "How much was the tow, all in?"
+          ]
+        }
+      ],
       "pronunciation note": "how takes the accent when a noun follows; standing alone as a price question the phrase is usually how MUCH?",
       "русский": "сколько (о неисчисляемом), почём — вопрос об объёме, количестве или цене",
       "position": "central — the two words fill one slot",
@@ -467,31 +495,53 @@
       "term": "such",
       "ipa": "/sʌtʃ/",
       "respell": "SUCH",
-      "meaning": "",
+      "meaning": "One word doing three jobs, and only context sorts them out. Bare such goes with plural and uncountable nouns; for a singular countable the frame is such a / such an, with such standing in front of the article — such a mess, never ✗ a such mess.",
       "examples": [
         "I've never seen such enthusiasm from a jury.",
+        "He gave me such good advice.",
+        "It's such a relief to have that behind us.",
         "Such problems are common in older houses.",
         "There is no such rule in the handbook.",
+        "Such people rarely apologize.",
         "She spoke with such confidence that nobody questioned her.",
         "It was done in such haste that half the forms came back blank.",
-        "Such people rarely apologize.",
-        "He gave me such good advice."
+        "There was such noise from the street that we moved the meeting."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Exclamative and intensifying",
+          "head": "Intensifying — marking a high degree of whatever the noun names",
           "body": [
-            "— marks a high degree of whatever the noun names. 2. Identifying and anaphoric — 'of that kind,' pointing back to something already described (no such rule exists). 3. Result — paired with that, it introduces the consequence of the degree."
+            "(такой, до того — усиление степени: such enthusiasm «такой энтузиазм»)"
           ],
           "examples": [
             "I've never seen such enthusiasm from a jury.",
+            "He gave me such good advice.",
+            "It's such a relief to have that behind us."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Identifying — \"of that kind,\" pointing back to something already described",
+          "body": [
+            "(такого рода, подобный — отсылка к уже названному: no such rule «никакого такого правила»)"
+          ],
+          "examples": [
             "Such problems are common in older houses.",
             "There is no such rule in the handbook.",
+            "Such people rarely apologize."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Result — paired with that, introducing the consequence of the degree",
+          "body": [
+            "(такой…, что — следствие: such confidence that «такая уверенность, что»)"
+          ],
+          "examples": [
             "She spoke with such confidence that nobody questioned her.",
             "It was done in such haste that half the forms came back blank.",
-            "Such people rarely apologize.",
-            "He gave me such good advice."
+            "There was such noise from the street that we moved the meeting."
           ]
         }
       ],
@@ -517,10 +567,39 @@
         "He's such an idiot about money.",
         "Such a shame the weather turned.",
         "She's such a good listener.",
+        "I've never met such an honest salesman.",
         "It was such a mess that we gave up and ordered takeout.",
-        "I've never met such an honest salesman."
+        "He told such a convincing story that two of the jurors cried.",
+        "It was such an obvious mistake that the copy editor caught it twice."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Intensifying — marking a single countable thing or person as extreme or remarkable",
+          "body": [
+            "(такой, до того — перед исчисляемым в ед. ч.: such a mess «такой беспорядок»)"
+          ],
+          "examples": [
+            "It was such a long day.",
+            "He's such an idiot about money.",
+            "Such a shame the weather turned.",
+            "She's such a good listener.",
+            "I've never met such an honest salesman."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Result — paired with that, introducing the consequence",
+          "body": [
+            "(такой…, что — следствие: such a mess that «такой беспорядок, что»)"
+          ],
+          "examples": [
+            "It was such a mess that we gave up and ordered takeout.",
+            "He told such a convincing story that two of the jurors cried.",
+            "It was such an obvious mistake that the copy editor caught it twice."
+          ]
+        }
+      ],
       "pronunciation note": "both words normally reduce: such a [sətʃə], such an [sətʃən]",
       "русский": "такой — усиление перед исчисляемым ед. ч.; such стоит перед a/an: such a mess",
       "position": "predeterminer — such stands in front of the indefinite article, which then does its ordinary job on the noun",
@@ -590,14 +669,41 @@
       "respell": "wuht-UH, wuht-UHN",
       "meaning": "Registers a strong reaction to a single countable thing or person.",
       "examples": [
+        "What an honor to be asked.",
+        "What a week we've had.",
+        "What a view from up here.",
         "What a long day!",
         "What an idiot I've been.",
         "What a mess the kitchen is.",
-        "What a week we've had.",
-        "What an honor to be asked.",
         "What a way to find out."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Admiring — a strong positive reaction to a single countable thing or person",
+          "body": [
+            "(какой!, что за! — восклицание с одобрением: What an honor! «Какая честь!»)"
+          ],
+          "examples": [
+            "What an honor to be asked.",
+            "What a week we've had.",
+            "What a view from up here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Dismayed or sarcastic — the same frame turned the other way",
+          "body": [
+            "(ну и!, вот это да! — с досадой или насмешкой: What a mess! «Ну и бардак!»)"
+          ],
+          "examples": [
+            "What a long day!",
+            "What an idiot I've been.",
+            "What a mess the kitchen is.",
+            "What a way to find out."
+          ]
+        }
+      ],
       "pronunciation note": "almost always flapped in running speech: [ˈwʌɾə], [ˈwʌɾən] — what a mess is [wʌɾəˈmɛs]",
       "русский": "какой!, что за! — восклицание об исчисляемом ед. ч.; what стоит перед a/an",
       "position": "predeterminer — what stands in front of a/an",
@@ -796,29 +902,66 @@
       "term": "whatever",
       "ipa": "/wʌtˈɛvɚ/",
       "respell": "wuht-EV-er",
-      "meaning": "",
+      "meaning": "A fused relative that supplies its own antecedent, and from there a concessive, an exasperated question word, and a postposed emphasizer. The test for determiner status never changes: a noun has to follow immediately — whatever seat you like is a determiner, take whatever you like is a pronoun.",
       "examples": [
         "Take whatever seat you like.",
-        "Whatever excuse he gives, I'm not covering for him again.",
         "Spend whatever money is left in the account.",
         "She reads whatever books the library has on the subject.",
+        "Bring whatever tools you think you'll need.",
+        "Whatever excuse he gives, I'm not covering for him again.",
         "Whatever problems the merger creates, they'll be somebody else's.",
-        "Bring whatever tools you think you'll need."
+        "Whatever route you take, allow an extra hour.",
+        "Whatever reason could she have had for signing it?",
+        "Whatever possessed him to repaint it that color?",
+        "There was no reason whatever to hold the check.",
+        "He showed no interest whatever in the proposal."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Fused relative",
+          "head": "Fused relative — \"any X that,\" supplying its own antecedent",
           "body": [
-            "— 'any X that,' supplying its own antecedent: Take whatever seat you like. 2. Concessive — 'no matter what X': Whatever excuse he gives, I don't believe it. 3. Emphatic interrogative — adds exasperation to a question (Whatever reason could she have had?); chiefly British in this determiner use, where Americans say what on earth. 4. Postposed emphasizer after a negative — no reason whatever."
+            "(любой какой угодно, какой найдётся — take whatever seat you like «садись на любое место»)"
           ],
           "examples": [
             "Take whatever seat you like.",
-            "Whatever excuse he gives, I'm not covering for him again.",
             "Spend whatever money is left in the account.",
             "She reads whatever books the library has on the subject.",
-            "Whatever problems the merger creates, they'll be somebody else's.",
             "Bring whatever tools you think you'll need."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Concessive — \"no matter what X.\"",
+          "body": [
+            "(какой бы ни — whatever excuse he gives «какое бы оправдание он ни придумал»)"
+          ],
+          "examples": [
+            "Whatever excuse he gives, I'm not covering for him again.",
+            "Whatever problems the merger creates, they'll be somebody else's.",
+            "Whatever route you take, allow an extra hour."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Emphatic interrogative — exasperation added to a question",
+          "body": [
+            "(какой же вообще…? — брит. оттенок; американец скажет what on earth)"
+          ],
+          "examples": [
+            "Whatever reason could she have had for signing it?",
+            "Whatever possessed him to repaint it that color?"
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Postposed emphasizer after a negative — \"none at all.\"",
+          "body": [
+            "(вообще никакой, ни малейшего — no reason whatever «вообще никаких причин»)"
+          ],
+          "examples": [
+            "There was no reason whatever to hold the check.",
+            "He showed no interest whatever in the proposal."
           ]
         }
       ],
@@ -843,11 +986,38 @@
         "There is no evidence whatsoever to support that claim.",
         "She has no interest whatsoever in running for office.",
         "I have no doubt whatsoever that he meant it.",
-        "Do you have any objection whatsoever?",
         "The policy makes no exception whatsoever for late filings.",
-        "Whatsoever things are true, think on these things."
+        "Do you have any objection whatsoever?",
+        "Whatsoever things are true, think on these things.",
+        "The grantor conveys all right and title whatsoever in the parcel."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Strengthening a negation — \"not the smallest amount of.\"",
+          "body": [
+            "(вообще никакой, ни малейшего — после отрицания: no evidence whatsoever «вообще никаких доказательств»)"
+          ],
+          "examples": [
+            "There is no evidence whatsoever to support that claim.",
+            "She has no interest whatsoever in running for office.",
+            "I have no doubt whatsoever that he meant it.",
+            "The policy makes no exception whatsoever for late filings.",
+            "Do you have any objection whatsoever?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Archaic — \"whatever, any … at all that,\" in front of the noun",
+          "body": [
+            "(устар. какой бы ни, всё то, что — библейский и юридический оборот)"
+          ],
+          "examples": [
+            "Whatsoever things are true, think on these things.",
+            "The grantor conveys all right and title whatsoever in the parcel."
+          ]
+        }
+      ],
       "pronunciation note": "four syllables, accent on ev; the t does not flap here because /s/ follows",
       "русский": "вообще никакой, ни малейшего — усилитель после отрицания; устар. «какой бы ни»",
       "position": "postposed in the modern use — it follows the noun it strengthens and therefore never occupies the determiner slot at all. In the archaic relative use it precedes the noun",
@@ -893,13 +1063,38 @@
       "meaning": "'Any one of the known set that' — picks freely inside a set already established, or concedes the choice to someone else.",
       "examples": [
         "Take whichever seat you like.",
-        "Whichever route we take, we'll hit traffic.",
         "Use whichever card has room on it.",
-        "Whichever candidate wins, the policy won't change.",
         "Pick whichever two days work for you.",
+        "Whichever route we take, we'll hit traffic.",
+        "Whichever candidate wins, the policy won't change.",
         "Whichever of the two offers you accept, get it in writing."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Free choice inside a known set — \"any one of these that.\"",
+          "body": [
+            "(какой угодно из, любой из — take whichever seat you like «бери любое из этих мест»)"
+          ],
+          "examples": [
+            "Take whichever seat you like.",
+            "Use whichever card has room on it.",
+            "Pick whichever two days work for you."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Concessive — \"no matter which one.\"",
+          "body": [
+            "(какой бы ни, который бы ни — whichever route we take «какой бы дорогой мы ни поехали»)"
+          ],
+          "examples": [
+            "Whichever route we take, we'll hit traffic.",
+            "Whichever candidate wins, the policy won't change.",
+            "Whichever of the two offers you accept, get it in writing."
+          ]
+        }
+      ],
       "pronunciation note": "three syllables, accent on ev; the two-word which ever (emphatic interrogative) is chiefly British",
       "русский": "какой угодно из; какой бы ни — свободный выбор внутри уже известного набора",
       "position": "central",

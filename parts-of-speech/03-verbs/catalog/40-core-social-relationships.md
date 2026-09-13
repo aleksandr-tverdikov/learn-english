@@ -187,17 +187,25 @@ To exchange light, friendly jokes with someone.
 ### beckon
 
 **Pronunciation:** /ˈbɛkən/ &middot; *BEK-uhn*
-**Русский:** манить, поманить; подзывать жестом
+**Русский:** манить, поманить; подзывать жестом; манить, привлекать (о перспективе); сулить
 **Forms:** *beckon* &middot; *beckoned* &middot; *beckoned*
 **Verb class:** regular
 **Third person:** *beckons* &middot; **-ing form:** *beckoning*
 **Transitivity:** both — transitive (*beckon* the waiter), intransitive (she *beckoned* to me)
 
-To signal someone to come toward you, usually with your hand.
+Beckon has 2 distinct senses.
+
+**1. To signal someone to come toward you, usually with your hand.** (манить, поманить; подзывать жестом)
 
 1. The doorman will *beckon* you when the car arrives.
 2. She *beckoned* me over with one finger.
 3. He stood at the gate, *beckoning* to the children.
+
+**2. To seem very attractive or inviting to someone.** (манить, привлекать (о перспективе); сулить)
+
+4. After a long winter, the beach *beckons*.
+5. A career in medicine *beckoned*, but she chose music instead.
+6. The open road was *beckoning*, so we packed the car and left.
 
 ---
 
@@ -256,36 +264,52 @@ To tell a secret that you were supposed to keep (informal).
 ### bond
 
 **Pronunciation:** /bɑːnd/ &middot; *BAHND*
-**Русский:** сближаться, сблизиться
+**Русский:** сближаться, сблизиться; скреплять, склеивать; сцепляться, схватываться
 **Forms:** *bond* &middot; *bonded* &middot; *bonded*
 **Verb class:** regular
 **Third person:** *bonds* &middot; **-ing form:** *bonding*
 **Transitivity:** both — transitive (the trip *bonded* the group), intransitive (they *bonded* quickly)
 **Contrast:** *bond with someone* — the preposition is almost always *with*.
 
-To form a close personal connection with someone.
+Bond has 2 distinct senses.
+
+**1. To form a close personal connection with someone.** (сближаться, сблизиться)
 
 1. New parents often *bond* with other new parents.
 2. The two men *bonded* over their love of fishing.
 3. The team has *bonded* since the coach changed.
+
+**2. To join two surfaces firmly, or to stick fast to a material.** (скреплять, склеивать; сцепляться, схватываться)
+
+4. This glue *bonds* metal to plastic in about a minute.
+5. The layers are *bonded* with heat, not stitching.
+6. The resin hadn't *bonded* properly, so the handle came off.
 
 ---
 
 ### bug
 
 **Pronunciation:** /bʌɡ/ &middot; *BUG*
-**Русский:** доставать, раздражать
+**Русский:** доставать, раздражать; прослушивать; ставить жучок, устанавливать подслушивающее устройство
 **Forms:** *bug* &middot; *bugged* &middot; *bugged*
 **Verb class:** regular
 **Third person:** *bugs* &middot; **-ing form:** *bugging*
 **Transitivity:** transitive
 **Contrast:** The single g doubles: *bug → bugged → bugging*.
 
-To annoy someone, especially by not leaving them alone (informal).
+Bug has 2 distinct senses.
+
+**1. To annoy someone, especially by not leaving them alone (informal).** (доставать, раздражать)
 
 1. Stop *bugging* me about the car.
 2. His whistling *bugged* everyone on the bus.
 3. It has *bugged* me for years that she never called back.
+
+**2. To hide a small microphone somewhere in order to listen in secret.** (прослушивать; ставить жучок, устанавливать подслушивающее устройство)
+
+4. The FBI *bugged* the hotel room.
+5. He was sure someone had *bugged* his phone.
+6. They spent weeks *bugging* the suspect's office.
 
 ---
 
@@ -571,18 +595,26 @@ To feel that someone cannot be trusted.
 ### ditch
 
 **Pronunciation:** /dɪtʃ/ &middot; *DICH*
-**Русский:** бросать, бросить (кого-л.), кинуть
+**Русский:** бросать, бросить (кого-л.), кинуть; прогуливать, прогулять (урок), сбегать
 **Forms:** *ditch* &middot; *ditched* &middot; *ditched*
 **Verb class:** regular
 **Third person:** *ditches* &middot; **-ing form:** *ditching*
 **Transitivity:** transitive
 **Contrast:** Ends in -ch, so the third person adds -es: *ditches*.
 
-To leave a person you are with, suddenly and without warning (informal).
+Ditch has 2 distinct senses.
+
+**1. To leave a person you are with, suddenly and without warning (informal).** (бросать, бросить (кого-л.), кинуть)
 
 1. Don't *ditch* your friends for a new boyfriend.
 2. She *ditched* us at the mall and went home.
 3. He has been *ditching* class to see her.
+
+**2. To skip a class or an obligation you are supposed to attend (informal).** (прогуливать, прогулять (урок), сбегать)
+
+4. They *ditched* class and drove out to the lake.
+5. Don't *ditch* practice again.
+6. He got caught *ditching* school twice in April.
 
 ---
 
@@ -696,36 +728,52 @@ To cause people who were close to become distant from each other.
 ### exclude
 
 **Pronunciation:** /ɪkˈskluːd/ &middot; *ik-SKLOOD*
-**Русский:** исключать, не допускать
+**Русский:** исключать, не допускать; не включать, исключать (из суммы, из перечня)
 **Forms:** *exclude* &middot; *excluded* &middot; *excluded*
 **Verb class:** regular
 **Third person:** *excludes* &middot; **-ing form:** *excluding*
 **Transitivity:** transitive
 **Contrast:** *exclude someone from something* — the preposition is *from*.
 
-To deliberately keep someone out of a group or an activity.
+Exclude has 2 distinct senses.
+
+**1. To deliberately keep someone out of a group or an activity.** (исключать, не допускать)
 
 1. Please don't *exclude* the younger kids.
 2. They *excluded* him from the group chat.
 3. She has felt *excluded* ever since the move.
+
+**2. To leave something out so that it is not part of a total or a set.** (не включать, исключать (из суммы, из перечня))
+
+4. The price *excludes* tax and tip.
+5. The first estimate *excluded* labor costs.
+6. Meals are *excluded* from the package.
 
 ---
 
 ### exploit
 
 **Pronunciation:** /ɪkˈsplɔɪt/ &middot; *ik-SPLOYT*
-**Русский:** эксплуатировать, использовать в своих целях
+**Русский:** эксплуатировать, использовать в своих целях; использовать (в полной мере), воспользоваться; разрабатывать (месторождение)
 **Forms:** *exploit* &middot; *exploited* &middot; *exploited*
 **Verb class:** regular
 **Third person:** *exploits* &middot; **-ing form:** *exploiting*
 **Transitivity:** transitive
 **Contrast:** The verb is ik-SPLOYT; the noun *exploit* (a brave deed) is EK-sployt.
 
-To use a person unfairly for your own benefit.
+Exploit has 2 distinct senses.
+
+**1. To use a person unfairly for your own benefit.** (эксплуатировать, использовать в своих целях)
 
 1. Some employers *exploit* workers who are new to the country.
 2. He *exploited* his sister's kindness for years.
 3. She felt *exploited* by her so-called friends.
+
+**2. To make full use of a resource or an opportunity.** (использовать (в полной мере), воспользоваться; разрабатывать (месторождение))
+
+4. The company plans to *exploit* the new oil field.
+5. She *exploited* every weakness in her opponent's defense.
+6. Farmers here have been *exploiting* solar power for years.
 
 ---
 
@@ -797,7 +845,7 @@ To trick someone into believing something that is not true.
 2. He *fooled* us all with that story about his uncle.
 3. She has been *fooling* people for years.
 
-**Phrasal verbs:** [fool around](54-phrasal-regular-d-f.md#fool-around) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with-1)
+**Phrasal verbs:** [fool around](54-phrasal-regular-d-f.md#fool-around) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with-1) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with)
 
 ---
 
@@ -842,18 +890,26 @@ To smile very widely, showing your teeth.
 ### ground
 
 **Pronunciation:** /ɡraʊnd/ &middot; *GROWND*
-**Русский:** наказывать домашним арестом, запрещать выходить
+**Русский:** наказывать домашним арестом, запрещать выходить; заземлять, заземлить
 **Forms:** *ground* &middot; *grounded* &middot; *grounded*
 **Verb class:** regular
 **Third person:** *grounds* &middot; **-ing form:** *grounding*
 **Transitivity:** transitive
 **Contrast:** This verb is regular — *grounded*. The identical form *ground* is also the past of the different verb *grind*.
 
-To punish a child by not letting them go out with friends.
+Ground has 2 distinct senses.
+
+**1. To punish a child by not letting them go out with friends.** (наказывать домашним арестом, запрещать выходить)
 
 1. If you lie to me again, I will *ground* you.
 2. His parents *grounded* him for two weeks.
 3. She has been *grounded* since the party.
+
+**2. To connect electrical equipment to the earth so that it is safe to use.** (заземлять, заземлить)
+
+4. Always *ground* the equipment before you test it.
+5. The old outlet was never *grounded*.
+6. A copper rod *grounds* the whole system.
 
 ---
 
@@ -948,18 +1004,26 @@ To admire someone so much that you see no faults in them.
 ### include
 
 **Pronunciation:** /ɪnˈkluːd/ &middot; *in-KLOOD*
-**Русский:** включать, включить (в круг)
+**Русский:** включать, включить (в круг); включать в себя, содержать; входить в состав
 **Forms:** *include* &middot; *included* &middot; *included*
 **Verb class:** regular
 **Third person:** *includes* &middot; **-ing form:** *including*
 **Transitivity:** transitive
 **Contrast:** *include someone in something* — the preposition is *in*.
 
-To make someone part of a group or an activity.
+Include has 2 distinct senses.
+
+**1. To make someone part of a group or an activity.** (включать, включить (в круг))
 
 1. Be sure to *include* the new kid in the game.
 2. They *included* us in every family holiday.
 3. She has *included* her stepson in all the plans.
+
+**2. To have something as one of its parts.** (включать в себя, содержать; входить в состав)
+
+4. The price *includes* tax and delivery.
+5. The kit *included* batteries and a charger.
+6. Breakfast is *included* in the room rate.
 
 ---
 
@@ -1043,17 +1107,25 @@ To annoy someone in a small but persistent way.
 ### isolate
 
 **Pronunciation:** /ˈaɪsəleɪt/ &middot; *EYE-suh-layt*
-**Русский:** изолировать, отдалять
+**Русский:** изолировать, отдалять; выделять, выделить; вычленять, вычленить; локализовать
 **Forms:** *isolate* &middot; *isolated* &middot; *isolated*
 **Verb class:** regular
 **Third person:** *isolates* &middot; **-ing form:** *isolating*
 **Transitivity:** transitive
 
-To keep a person apart from other people.
+Isolate has 2 distinct senses.
+
+**1. To keep a person apart from other people.** (изолировать, отдалять)
 
 1. Don't *isolate* yourself from your friends.
 2. Shyness *isolated* him all through high school.
 3. She has been *isolating* herself since the breakup.
+
+**2. To separate one thing from everything around it so that it can be examined or dealt with on its own.** (выделять, выделить; вычленять, вычленить; локализовать)
+
+4. Engineers are trying to *isolate* the cause of the failure.
+5. The lab *isolated* the virus within a week.
+6. Once we had *isolated* the bad cable, the network came back up.
 
 ---
 
@@ -1115,18 +1187,26 @@ To interfere in matters that are none of your business.
 ### mingle
 
 **Pronunciation:** /ˈmɪŋɡəl/ &middot; *MING-guhl*
-**Русский:** общаться (с гостями), смешиваться с толпой
+**Русский:** общаться (с гостями), смешиваться с толпой; смешиваться, смешаться; переплетаться
 **Forms:** *mingle* &middot; *mingled* &middot; *mingled*
 **Verb class:** regular
 **Third person:** *mingles* &middot; **-ing form:** *mingling*
 **Transitivity:** both — transitive (*mingle* the two groups), intransitive (she *mingled* with the guests)
 **Contrast:** *mingle with someone* — the preposition is *with*.
 
-To move around at a party talking to many different people.
+Mingle has 2 distinct senses.
+
+**1. To move around at a party talking to many different people.** (общаться (с гостями), смешиваться с толпой)
 
 1. Try to *mingle* instead of standing by the door.
 2. The host *mingled* with her guests all evening.
 3. They were *mingling* near the bar when we arrived.
+
+**2. To mix together so that the separate parts are hard to tell apart.** (смешиваться, смешаться; переплетаться)
+
+4. Smoke and fog *mingle* over the valley on cold mornings.
+5. The smell of coffee *mingled* with fresh bread.
+6. Cheers were *mingling* with the sound of the band.
 
 ---
 
@@ -1273,18 +1353,26 @@ To enjoy yourself at a party, usually late into the night.
 ### patronize
 
 **Pronunciation:** /ˈpeɪtrənaɪz/ &middot; *PAY-truh-nyz*
-**Русский:** относиться свысока, говорить покровительственно
+**Русский:** относиться свысока, говорить покровительственно; быть постоянным клиентом, пользоваться услугами; покровительствовать
 **Forms:** *patronize* &middot; *patronized* &middot; *patronized*
 **Verb class:** regular
 **Third person:** *patronizes* &middot; **-ing form:** *patronizing*
 **Transitivity:** transitive
 **Contrast:** American PAY-truh-nyz; British PAT-ruh-nyz. It also means *to be a regular customer of a business*.
 
-To speak to someone as if they were less intelligent than you.
+Patronize has 2 distinct senses.
+
+**1. To speak to someone as if they were less intelligent than you.** (относиться свысока, говорить покровительственно)
 
 1. Don't *patronize* me — I have done this longer than you have.
 2. He *patronized* everyone who asked a simple question.
 3. She felt *patronized* by her younger colleagues.
+
+**2. To be a regular customer of a business, or to support it with your money.** (быть постоянным клиентом, пользоваться услугами; покровительствовать)
+
+4. Locals still *patronize* the old diner on Main Street.
+5. She *patronized* the same bookstore for twenty years.
+6. The theater is *patronized* mostly by students.
 
 ---
 
@@ -1325,18 +1413,26 @@ To play a trick on someone for fun.
 ### pry
 
 **Pronunciation:** /praɪ/ &middot; *PRY*
-**Русский:** совать нос (в чужие дела), выведывать
+**Русский:** совать нос (в чужие дела), выведывать; поддевать, поддеть (рычагом); отрывать, вскрывать (с усилием)
 **Forms:** *pry* &middot; *pried* &middot; *pried*
 **Verb class:** regular
 **Third person:** *pries* &middot; **-ing form:** *prying*
 **Transitivity:** intransitive
 **Contrast:** The -y becomes -ies and -ied (*pries, pried*), but the -ing keeps the y: *prying*.
 
-To ask about things that are private and none of your business.
+Pry has 2 distinct senses.
+
+**1. To ask about things that are private and none of your business.** (совать нос (в чужие дела), выведывать)
 
 1. I don't mean to *pry*, but are you two still together?
 2. She *pried* until he told her everything.
 3. He is always *prying* into other people's business.
+
+**2. To force something open or loose with a tool or with your fingers.** (поддевать, поддеть (рычагом); отрывать, вскрывать (с усилием))
+
+4. He *pried* the lid off with a screwdriver.
+5. Firefighters had to *pry* the door open.
+6. One board had been *pried* loose from the fence.
 
 **Phrasal verbs:** [pry into](56-phrasal-regular-m-p.md#pry-into) &middot; [pry out of](56-phrasal-regular-m-p.md#pry-out-of)
 
@@ -1733,18 +1829,32 @@ To remove someone from your list of friends on a social network.
 ### wave
 
 **Pronunciation:** /weɪv/ &middot; *WAYV*
-**Русский:** махать, помахать (рукой)
+**Русский:** махать, помахать (рукой); показывать жестом, махнуть (направляя); подавать знак рукой; развеваться, колыхаться
 **Forms:** *wave* &middot; *waved* &middot; *waved*
 **Verb class:** regular
 **Third person:** *waves* &middot; **-ing form:** *waving*
 **Transitivity:** both — transitive (*wave* your hand), intransitive (she *waved* from the car)
 **Contrast:** The silent -e drops before -ing: *wave → waving*. You *wave to* or *wave at* a person.
 
-To move your hand in the air to greet someone or say goodbye.
+Wave has 3 distinct senses.
+
+**1. To move your hand in the air to greet someone or say goodbye.** (махать, помахать (рукой))
 
 1. *Wave* goodbye to Grandma.
 2. She *waved* to us from the train window.
 3. He was *waving* his arms to get our attention.
+
+**2. To move your hand to signal to someone where to go or what to do.** (показывать жестом, махнуть (направляя); подавать знак рукой)
+
+4. Just *wave* the next car forward.
+5. A guard *waved* us toward the side entrance.
+6. The officer was *waving* traffic past the accident.
+
+**3. For a flag or something light to move back and forth in the wind.** (развеваться, колыхаться)
+
+7. Flags *wave* over the courthouse on holidays.
+8. The wheat *waved* in the breeze.
+9. A banner was *waving* from the balcony.
 
 **Phrasal verbs:** [wave down](58-phrasal-regular-t-z.md#wave-down) &middot; [wave off](58-phrasal-regular-t-z.md#wave-off)
 
@@ -1771,15 +1881,23 @@ To try to win someone's love, support, or business.
 ### worship
 
 **Pronunciation:** /ˈwɜːrʃɪp/ &middot; *WUR-ship*
-**Русский:** боготворить, преклоняться; поклоняться
+**Русский:** боготворить, преклоняться; поклоняться; поклоняться, молиться; совершать богослужение
 **Forms:** *worship* &middot; *worshiped* &middot; *worshiped*
 **Verb class:** regular
 **Third person:** *worships* &middot; **-ing form:** *worshiping*
 **Transitivity:** both — transitive (*worship* a hero), intransitive (they *worship* on Sunday)
 **Contrast:** American *worshiped, worshiping* (one p); British *worshipped, worshipping*.
 
-To love and admire someone so deeply that you treat them as perfect.
+Worship has 2 distinct senses.
+
+**1. To love and admire someone so deeply that you treat them as perfect.** (боготворить, преклоняться; поклоняться)
 
 1. She *worships* her older sister.
 2. He *worshiped* his father when he was a boy.
 3. They have *worshiped* at the same church for years.
+
+**2. To honor a god, especially by taking part in a religious service.** (поклоняться, молиться; совершать богослужение)
+
+4. The family *worships* at a small church downtown.
+5. They *worshiped* in secret for years.
+6. People have *worshiped* at this spring for centuries.

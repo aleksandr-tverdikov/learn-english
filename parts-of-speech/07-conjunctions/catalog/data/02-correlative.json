@@ -244,14 +244,42 @@
       "meaning": "Lays out two possibilities without choosing between them. As a noun clause it names an open question; with or not it turns concessive, meaning both possibilities lead to the same result. Unlike if, whether can follow a preposition, take to + infinitive, and open a sentence — whether to go, never if to go.",
       "examples": [
         "I can't tell whether he's serious or joking.",
-        "Whether you like it or not, the deadline stands.",
         "She hasn't decided whether to fly or drive.",
         "It depends on whether the permit clears or the city stalls again.",
         "Ask him whether the store opens at eight or nine.",
+        "Whether you like it or not, the deadline stands.",
         "Whether or not they call back, I'm taking the other offer.",
-        "He'll say something at the meeting whether anyone asks him or not."
+        "He'll say something at the meeting whether anyone asks him or not.",
+        "Whether it's the heat or the humidity, nobody sleeps here in August."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An open question with two possibilities named",
+          "body": [
+            "A noun clause: it fills a slot after a verb or a preposition and names something nobody has settled yet. (… ли … или …)"
+          ],
+          "examples": [
+            "I can't tell whether he's serious or joking.",
+            "She hasn't decided whether to fly or drive.",
+            "It depends on whether the permit clears or the city stalls again.",
+            "Ask him whether the store opens at eight or nine."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Concessive — both possibilities lead to the same place",
+          "body": [
+            "An adverbial clause, usually carrying or not, and this is the one that can front the sentence. (независимо от того, …; хочешь не хочешь)"
+          ],
+          "examples": [
+            "Whether you like it or not, the deadline stands.",
+            "Whether or not they call back, I'm taking the other offer.",
+            "He'll say something at the meeting whether anyone asks him or not.",
+            "Whether it's the heat or the humidity, nobody sleeps here in August."
+          ]
+        }
+      ],
       "pronunciation note": "WEH-thur … OR, er (a homophone of weather for most Americans)",
       "русский": "… ли … или … — две возможности без выбора; с or not — «хочешь не хочешь»",
       "register": "neutral",
@@ -384,15 +412,57 @@
       "meaning": "States equality of degree: the first as is a degree adverb, the second is the conjunction that introduces the standard. Where more … than ranks one thing above another, as … as levels them. One trap in the noun pattern: with a singular count noun the article jumps to the far side of the adjective — as good a manager as, never as a good manager as.",
       "examples": [
         "The sequel is as good as the original.",
-        "Call me as soon as you land.",
         "It didn't cost as much as I expected.",
         "She works as hard as anyone on the floor.",
-        "Get here as early as you can.",
         "He's as tall as his father is now.",
         "She's as good a manager as the company has ever had.",
-        "As soon as the door closed, everyone started talking."
+        "Get here as early as you can.",
+        "Keep the incision as clean as possible for the first week.",
+        "She's as stubborn as ever.",
+        "Call me as soon as you land.",
+        "As soon as the door closed, everyone started talking.",
+        "You can stay as long as you keep the noise down."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Equality of degree — the two sides come out level",
+          "body": [
+            "Negated, it denies that equality and says the first one falls short. (так(ой) же …, как …; not as … as — «не так(ой) …, как»)"
+          ],
+          "examples": [
+            "The sequel is as good as the original.",
+            "It didn't cost as much as I expected.",
+            "She works as hard as anyone on the floor.",
+            "He's as tall as his father is now.",
+            "She's as good a manager as the company has ever had."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The maximizing frame — as … as possible, as … as you can, as … as ever",
+          "body": [
+            "The second half names a limit rather than a rival, so nothing is being compared with anything: the phrase just pushes the degree as high as it will go. (как можно … — «как можно раньше», «как можно тише»)"
+          ],
+          "examples": [
+            "Get here as early as you can.",
+            "Keep the incision as clean as possible for the first week.",
+            "She's as stubborn as ever."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Frozen into fixed subordinators — as soon as, as long as, as far as",
+          "body": [
+            "The pair has stopped comparing anything and works as a single conjunction of time, condition, or extent. (как только; пока; насколько)"
+          ],
+          "examples": [
+            "Call me as soon as you land.",
+            "As soon as the door closed, everyone started talking.",
+            "You can stay as long as you keep the noise down."
+          ]
+        }
+      ],
       "pronunciation note": "AZ … AZ (both halves usually flatten to uhz in running speech)",
       "русский": "так(ой) же …, как … — равенство степени; not as … as — «не так(ой) …, как»",
       "register": "neutral",
@@ -550,14 +620,54 @@
       "respell": "SUCH … AZ, uhz",
       "meaning": "Points at a kind: such names the type and as introduces the example or standard that fixes it. Keep it apart from such … that, which measures a degree and reports a consequence.",
       "examples": [
+        "Root vegetables, such as carrots and parsnips, keep all winter.",
         "We don't stock such items as these anymore.",
         "He had never faced such a decision as this one.",
         "Bring such documents as the clerk asks for.",
-        "Root vegetables, such as carrots and parsnips, keep all winter.",
+        "I've never heard such nonsense as came out of that meeting.",
+        "The trustee may sell such assets as are needed to settle the debts.",
         "Her tone was such as to end the discussion.",
-        "I've never heard such nonsense as came out of that meeting."
+        "The damage was such as to make the building unsafe.",
+        "His record is not such as to inspire much confidence."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Naming a kind by pointing at an example",
+          "body": [
+            "The commonest shape is the two-word such as after an already complete noun phrase, where it means \"for example\" and takes a comma on each side. (такой …, как …; например)"
+          ],
+          "examples": [
+            "Root vegetables, such as carrots and parsnips, keep all winter.",
+            "We don't stock such items as these anymore.",
+            "He had never faced such a decision as this one."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "\"Those … that\" — as heading a restrictive relative clause after such",
+          "body": [
+            "Legal and administrative English keeps this one alive; ordinary English rewrites it with whatever or with the … that. (те …, которые …)"
+          ],
+          "examples": [
+            "Bring such documents as the clerk asks for.",
+            "I've never heard such nonsense as came out of that meeting.",
+            "The trustee may sell such assets as are needed to settle the debts."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "such … as to — a degree big enough to cause something",
+          "body": [
+            "The formal alternative to so … that, with an infinitive naming the consequence. (настолько …, что; такой …, что)"
+          ],
+          "examples": [
+            "Her tone was such as to end the discussion.",
+            "The damage was such as to make the building unsafe.",
+            "His record is not such as to inspire much confidence."
+          ]
+        }
+      ],
       "русский": "такой …, как … — указывает на разновидность: вводит пример или образец",
       "register": "neutral to formal",
       "type": "correlative (such is a determiner, not a conjunction — only as is; as is elsewhere a preposition and a subordinator of time, reason, and manner)",
@@ -902,12 +1012,52 @@
       "examples": [
         "The store is open between nine and six.",
         "Somewhere between Tulsa and Amarillo, the radio died.",
-        "What's the difference between a lease and a rental agreement?",
-        "Between the traffic and the rain, we missed the first act.",
         "The bill runs between forty and fifty dollars a month.",
-        "Between fixing the roof and replacing the water heater, the savings are gone."
+        "What's the difference between a lease and a rental agreement?",
+        "The agreement between the city and the union runs through June.",
+        "There's been bad blood between her family and his since the wedding.",
+        "Between the traffic and the rain, we missed the first act.",
+        "Between fixing the roof and replacing the water heater, the savings are gone.",
+        "Between the new baby and the night shifts, he hasn't slept properly since March."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The two endpoints of a range or an interval",
+          "body": [
+            "Numbers, clock times, and places, with everything in the middle included. (между … и …; от … до …)"
+          ],
+          "examples": [
+            "The store is open between nine and six.",
+            "Somewhere between Tulsa and Amarillo, the radio died.",
+            "The bill runs between forty and fifty dollars a month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The two parties to a relation, a difference, or an agreement",
+          "body": [
+            "Nothing lies in the middle here: the two nouns are the two ends of one link. (между … и …)"
+          ],
+          "examples": [
+            "What's the difference between a lease and a rental agreement?",
+            "The agreement between the city and the union runs through June.",
+            "There's been bad blood between her family and his since the wedding."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Fronted Between X and Y — two causes adding up to one result",
+          "body": [
+            "The sense is \"what with … and,\" not location, and the pair is the combined reason for whatever the main clause reports. (из-за … и … вместе взятых)"
+          ],
+          "examples": [
+            "Between the traffic and the rain, we missed the first act.",
+            "Between fixing the roof and replacing the water heater, the savings are gone.",
+            "Between the new baby and the night shifts, he hasn't slept properly since March."
+          ]
+        }
+      ],
       "русский": "между … и … — две границы промежутка; between … to всегда ошибка",
       "register": "neutral",
       "type": "correlative frame (between is a preposition, not a conjunction — only and is, and that and is the ordinary coordinator; between is also an adverb in in between)",
@@ -925,12 +1075,54 @@
       "examples": [
         "The shop is open from ten to six.",
         "We drove from Denver to Santa Fe in a day.",
-        "The class covers everything from soldering to firmware.",
         "Prices dropped from thirty dollars to nineteen.",
+        "The permit runs from June through September.",
+        "The class covers everything from soldering to firmware.",
+        "The store sells everything from fishing tackle to wedding cakes.",
+        "She'll talk to anybody, from the mayor to the kid who bags her groceries.",
         "She read the report from cover to cover.",
-        "The permit runs from June through September."
+        "They searched the house from top to bottom.",
+        "He came in soaked from head to toe."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The start and the end of a stretch — of time, of distance, or of a scale",
+          "body": [
+            "(от … до …; с … до …)"
+          ],
+          "examples": [
+            "The shop is open from ten to six.",
+            "We drove from Denver to Santa Fe in a day.",
+            "Prices dropped from thirty dollars to nineteen.",
+            "The permit runs from June through September."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The spread of kinds a set covers — everything from X to Y",
+          "body": [
+            "The two items are not endpoints on any measurable scale; they are chosen to sound as unlike each other as possible, and the point is the variety lying between them. (от … до … — о разнообразии: «чего там только нет»)"
+          ],
+          "examples": [
+            "The class covers everything from soldering to firmware.",
+            "The store sells everything from fishing tackle to wedding cakes.",
+            "She'll talk to anybody, from the mayor to the kid who bags her groceries."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Fixed idioms of completeness — from cover to cover, from top to bottom, from head to toe",
+          "body": [
+            "Both slots take a bare noun with no article, and the phrase means \"the whole of it.\" (от корки до корки; с головы до ног)"
+          ],
+          "examples": [
+            "She read the report from cover to cover.",
+            "They searched the house from top to bottom.",
+            "He came in soaked from head to toe."
+          ]
+        }
+      ],
       "русский": "от … до …; с … до … — начало и конец пути, срока или разброса",
       "register": "neutral",
       "type": "correlative frame (both halves are prepositions, not conjunctions; the to here is the preposition, not the infinitive marker of too … to)",

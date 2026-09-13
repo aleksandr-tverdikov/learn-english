@@ -60,11 +60,39 @@
         "The estimate assumes that materials arrive by the first of the month.",
         "She wrongly assumed the fee covered parking.",
         "Let's not assume he saw the email — it's easy to miss.",
-        "The report assumed the plant to be operating at full capacity.",
         "It is generally assumed that the two cases are related.",
-        "\"Is the deal still on?\" — \"I assume so, but nobody has confirmed it.\""
+        "She assumed the role of interim director in March.",
+        "The buyer assumes the remaining debt.",
+        "He assumed an innocence nobody in the room believed."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Take something as true without checking",
+          "body": [
+            "The reporting sense, and the judgment it carries is that the evidence was skipped: you assumed I'd say yes is a complaint. (предполагать, исходить из того что)"
+          ],
+          "examples": [
+            "I assumed the meeting was still on, since nobody said otherwise.",
+            "The estimate assumes that materials arrive by the first of the month.",
+            "She wrongly assumed the fee covered parking.",
+            "Let's not assume he saw the email — it's easy to miss.",
+            "It is generally assumed that the two cases are related."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Take on — a duty, an office, a name, an expression",
+          "body": [
+            "Nothing is believed here: something is picked up and carried. This is the assume of assume responsibility and assume control. (принимать на себя (обязанности, пост); напускать на себя)"
+          ],
+          "examples": [
+            "She assumed the role of interim director in March.",
+            "The buyer assumes the remaining debt.",
+            "He assumed an innocence nobody in the room believed."
+          ]
+        }
+      ],
       "pronunciation note": "American English drops the y glide; British uh-SYOOM",
       "русский": "предполагать, исходить из того что — принять без проверки (в отличие от conclude)",
       "register": "neutral",
@@ -130,10 +158,50 @@
         "The judge cited an 1897 ruling that nobody in the room had read.",
         "He turned down the offer, citing the commute.",
         "The article cites an anonymous source close to the negotiations.",
-        "Both reports cite the same faulty sensor as the cause.",
-        "You have to cite every source you paraphrase, not just the ones you quote."
+        "You have to cite every source you paraphrase, not just the ones you quote.",
+        "He was cited for driving without a license.",
+        "The restaurant was cited twice for the same violation.",
+        "She was cited for bravery after the second fire.",
+        "Three of the crew were cited in the commander's report."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Name a source or a reason",
+          "body": [
+            "The reporting sense: quote reproduces the words, cite names where they came from or what they support. (ссылаться на, приводить (источник, причину))"
+          ],
+          "examples": [
+            "She cited three studies, none of which said what she claimed.",
+            "The judge cited an 1897 ruling that nobody in the room had read.",
+            "He turned down the offer, citing the commute.",
+            "The article cites an anonymous source close to the negotiations.",
+            "You have to cite every source you paraphrase, not just the ones you quote."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Issue a citation; summon officially",
+          "body": [
+            "The enforcement sense, nearly always passive: a ticket, a code violation, an order to appear. (выписать штраф или предписание; вызвать в суд)"
+          ],
+          "examples": [
+            "He was cited for driving without a license.",
+            "The restaurant was cited twice for the same violation."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Name somebody for an honor",
+          "body": [
+            "The military and civic sense, also passive, and the exact opposite in tone to the last one. (отметить, объявить благодарность (официально))"
+          ],
+          "examples": [
+            "She was cited for bravery after the second fire.",
+            "Three of the crew were cited in the commander's report."
+          ]
+        }
+      ],
       "pronunciation note": "a homophone of site and sight",
       "русский": "ссылаться на, приводить — офиц./юр.: назвать источник или причину, а не сами слова",
       "register": "formal; standard in journalism, law, and academic writing",
@@ -175,10 +243,50 @@
         "From the tone of the email I concluded we weren't getting the contract.",
         "Two separate reviews concluded the same thing.",
         "The inspector concluded that the crack was cosmetic.",
+        "It would be premature to conclude that the trend is permanent.",
         "She concluded her remarks by thanking the outgoing treasurer.",
-        "It would be premature to conclude that the trend is permanent."
+        "The series concludes on Sunday.",
+        "The two governments concluded a trade agreement in June.",
+        "The sale was concluded the same week."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Reach a judgment from evidence",
+          "body": [
+            "The reporting sense: assume skips the evidence, conclude claims it has been weighed. (заключить, прийти к выводу)"
+          ],
+          "examples": [
+            "The board concluded that no policy had been violated.",
+            "From the tone of the email I concluded we weren't getting the contract.",
+            "Two separate reviews concluded the same thing.",
+            "The inspector concluded that the crack was cosmetic.",
+            "It would be premature to conclude that the trend is permanent."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Bring to an end; end",
+          "body": [
+            "Transitive or intransitive, and no reasoning in it at all — the opposite of begin. (завершить, закончить(ся))"
+          ],
+          "examples": [
+            "She concluded her remarks by thanking the outgoing treasurer.",
+            "The series concludes on Sunday."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Settle an agreement formally",
+          "body": [
+            "Diplomatic and commercial: conclude a treaty, conclude a deal — to finish negotiating and sign. (заключить (договор, сделку))"
+          ],
+          "examples": [
+            "The two governments concluded a trade agreement in June.",
+            "The sale was concluded the same week."
+          ]
+        }
+      ],
       "русский": "заключить, прийти к выводу — вывод подан как итог взвешенных доводов",
       "register": "neutral to formal",
       "type": "reporting verb — judgment reached from evidence",
@@ -261,13 +369,51 @@
       "meaning": "",
       "examples": [
         "The trial demonstrated that the drug worked no better than a placebo.",
-        "She demonstrated to the committee how easily the lock could be picked.",
-        "The instructor demonstrated the technique twice before letting anyone try.",
         "These numbers demonstrate what happens when maintenance gets deferred.",
         "Nothing in the audit demonstrates fraud — only sloppiness.",
-        "He demonstrated to us that the software had been logging keystrokes."
+        "He demonstrated to us that the software had been logging keystrokes.",
+        "The instructor demonstrated the technique twice before letting anyone try.",
+        "She demonstrated to the committee how easily the lock could be picked.",
+        "Several hundred people demonstrated outside the ministry.",
+        "They demonstrated against the closure for a week."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Prove by making something visible",
+          "body": [
+            "The formal counterpart of show, and factive: the trial demonstrated that the drug worked states in your own voice that it worked. (доказать наглядно, показать)"
+          ],
+          "examples": [
+            "The trial demonstrated that the drug worked no better than a placebo.",
+            "These numbers demonstrate what happens when maintenance gets deferred.",
+            "Nothing in the audit demonstrates fraud — only sloppiness.",
+            "He demonstrated to us that the software had been logging keystrokes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Show how something is done",
+          "body": [
+            "The teaching sense: a technique, a product, a procedure performed in front of somebody. (продемонстрировать, показать как)"
+          ],
+          "examples": [
+            "The instructor demonstrated the technique twice before letting anyone try.",
+            "She demonstrated to the committee how easily the lock could be picked."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Take part in a public protest",
+          "body": [
+            "Intransitive, and a completely separate verb: the people in the street are demonstrators. (участвовать в демонстрации, выйти на протест)"
+          ],
+          "examples": [
+            "Several hundred people demonstrated outside the ministry.",
+            "They demonstrated against the closure for a week."
+          ]
+        }
+      ],
       "русский": "показать, продемонстрировать — книжн.: доказать наглядно; фактивный глагол",
       "register": "formal",
       "type": "reporting verb — proof by showing",
@@ -381,10 +527,48 @@
         "He figured her for a reporter the moment she pulled out a notebook.",
         "It took the mechanic ten minutes to figure out what was rattling.",
         "Go ahead and start — we'll figure out who's paying later.",
+        "She finally figured out that the two invoices were for the same job.",
         "With both starters hurt, the game figures to be low-scoring.",
-        "She finally figured out that the two invoices were for the same job."
+        "His name figures in every version of the story."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Reckon; suppose",
+          "body": [
+            "The everyday American equivalent of reckon and suppose — a working assumption offered without much weight behind it. (прикинуть, смекнуть (разг., амер.))"
+          ],
+          "examples": [
+            "I figured you'd want the window seat.",
+            "She figured the store would be closed by the time they got there.",
+            "We figured on about an hour of traffic and got two.",
+            "He figured her for a reporter the moment she pulled out a notebook."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "figure out — work out; solve",
+          "body": [
+            "With out the guess becomes a result: the thing was unclear and now it is not. (разобраться, понять; вычислить)"
+          ],
+          "examples": [
+            "It took the mechanic ten minutes to figure out what was rattling.",
+            "Go ahead and start — we'll figure out who's paying later.",
+            "She finally figured out that the two invoices were for the same job."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Appear; play a part; look likely",
+          "body": [
+            "Nobody is thinking anything here: a name figures in a story, an outcome figures to happen. (фигурировать, занимать место; «похоже, что»)"
+          ],
+          "examples": [
+            "With both starters hurt, the game figures to be low-scoring.",
+            "His name figures in every version of the story."
+          ]
+        }
+      ],
       "pronunciation note": "American English keeps the y glide; British FIG-uh",
       "русский": "прикинуть, смекнуть — разг., амер.: быстрое рабочее предположение; аналог reckon и suppose",
       "register": "informal; distinctly American",
@@ -426,12 +610,39 @@
       "examples": [
         "I gather you've already spoken to legal about this.",
         "From the silence in the room she gathered that the news was bad.",
-        "He gathered the position had been filled weeks earlier.",
         "\"They're not coming.\" — \"So I gathered.\"",
         "From what I gather, the lease runs through next spring.",
-        "We gathered from her tone that the conversation was over."
+        "She spent a month gathering material for the piece.",
+        "A crowd had gathered by the time the police arrived.",
+        "Gather everything you'll need before you start."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Understand from what you have picked up",
+          "body": [
+            "The reporting sense: someone told me, I am not saying who, and I am giving you room to correct it. (понять, заключить (из услышанного))"
+          ],
+          "examples": [
+            "I gather you've already spoken to legal about this.",
+            "From the silence in the room she gathered that the news was bad.",
+            "\"They're not coming.\" — \"So I gathered.\"",
+            "From what I gather, the lease runs through next spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Collect; come together",
+          "body": [
+            "The literal verb, with a thing or a crowd rather than a belief: to bring things into one place, or to arrive in one. (собирать; собираться)"
+          ],
+          "examples": [
+            "She spent a month gathering material for the piece.",
+            "A crowd had gathered by the time the police arrived.",
+            "Gather everything you'll need before you start."
+          ]
+        }
+      ],
       "русский": "понять, заключить из услышанного — «насколько я понял»: источник не назван",
       "register": "neutral, leaning conversational and polite",
       "type": "reporting verb — secondhand understanding",
@@ -607,13 +818,51 @@
         "The receipts prove that the payment cleared in March.",
         "Nothing in the record proves intent.",
         "She set out to prove to the board that the process could be automated.",
-        "He proved everyone wrong within a season.",
-        "The rumor proved to be false, though it took a month to die.",
+        "Two of the three signatures were later proved to be forgeries.",
         "You can't prove a negative, as the saying goes.",
+        "The rumor proved to be false, though it took a month to die.",
+        "The shortcut proved slower than the highway.",
         "She proved herself capable of running the department in about six weeks.",
-        "Two of the three signatures were later proved to be forgeries."
+        "He proved everyone wrong within a season."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Establish beyond dispute",
+          "body": [
+            "The strongest claim in the group, and fully factive: write it and you have asserted the content in your own voice. (доказать)"
+          ],
+          "examples": [
+            "The receipts prove that the payment cleared in March.",
+            "Nothing in the record proves intent.",
+            "She set out to prove to the board that the process could be automated.",
+            "Two of the three signatures were later proved to be forgeries.",
+            "You can't prove a negative, as the saying goes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Turn out to be",
+          "body": [
+            "prove + (to be) + a complement. Nobody is proving anything: the thing simply showed itself over time, and the subject is not a person. (оказаться (в итоге))"
+          ],
+          "examples": [
+            "The rumor proved to be false, though it took a month to die.",
+            "The shortcut proved slower than the highway."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Show yourself to be",
+          "body": [
+            "Reflexive, or with a person as the object: to demonstrate by performance rather than by argument. (показать себя, зарекомендовать себя)"
+          ],
+          "examples": [
+            "She proved herself capable of running the department in about six weeks.",
+            "He proved everyone wrong within a season."
+          ]
+        }
+      ],
       "pronunciation note": "past participle proved or proven; American English prefers proved as a verb (has proved) and proven as an adjective (a proven method)",
       "русский": "доказать — самое сильное в группе: вопрос закрыт; фактивный глагол",
       "register": "neutral to formal",
@@ -653,14 +902,40 @@
       "meaning": "",
       "examples": [
         "Police questioned three witnesses at the scene.",
-        "She questioned whether the committee had the authority to do that.",
         "Reporters questioned the mayor about the missing emails for twenty minutes.",
-        "Nobody questioned the budget until it was already approved.",
         "He questioned why the same vendor kept winning every contract.",
+        "She questioned whether the committee had the authority to do that.",
+        "Nobody questioned the budget until it was already approved.",
         "I don't question her motives — only her arithmetic.",
         "Nobody questions that the program works; the argument is over what it costs."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Put questions to somebody",
+          "body": [
+            "The object is a person, and the topic goes behind about. This is the police and press verb. (расспрашивать, допрашивать)"
+          ],
+          "examples": [
+            "Police questioned three witnesses at the scene.",
+            "Reporters questioned the mayor about the missing emails for twenty minutes.",
+            "He questioned why the same vendor kept winning every contract."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Doubt; challenge",
+          "body": [
+            "The object is a claim, a motive, or a whether-clause, and no question is actually asked of anybody. The frame carries the meaning here more than the word does. (ставить под сомнение, оспаривать)"
+          ],
+          "examples": [
+            "She questioned whether the committee had the authority to do that.",
+            "Nobody questioned the budget until it was already approved.",
+            "I don't question her motives — only her arithmetic.",
+            "Nobody questions that the program works; the argument is over what it costs."
+          ]
+        }
+      ],
       "русский": "допрашивать, расспрашивать (о человеке); ставить под сомнение (о деле или с whether)",
       "register": "neutral to formal",
       "type": "reporting verb — sustained questioning, or expressed doubt",
@@ -860,10 +1135,36 @@
         "Neighbors speculated for weeks about who had bought the place.",
         "I don't want to speculate on motives without more information.",
         "The article speculates that a second site was under consideration.",
-        "It's pointless to speculate about what he would have wanted.",
-        "The memo speculates as to which of the three sites the company actually preferred."
+        "He speculated in farmland and lost most of it.",
+        "She made and lost two fortunes speculating on currencies."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Guess out loud, and say it is a guess",
+          "body": [
+            "The weakest claim in the group: conclude says the evidence settles it, speculate explicitly declines to. (строить догадки, гадать)"
+          ],
+          "examples": [
+            "Analysts speculated that the merger had fallen apart over price.",
+            "She refused to speculate about an investigation she wasn't part of.",
+            "Neighbors speculated for weeks about who had bought the place.",
+            "I don't want to speculate on motives without more information.",
+            "The article speculates that a second site was under consideration."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Invest in the hope of a quick profit",
+          "body": [
+            "The financial verb, with in or on, and no speech in it at all — the source of speculator and speculative. (спекулировать, играть на бирже)"
+          ],
+          "examples": [
+            "He speculated in farmland and lost most of it.",
+            "She made and lost two fortunes speculating on currencies."
+          ]
+        }
+      ],
       "русский": "строить догадки — предположение, прямо заявленное как догадка, без доказательств",
       "register": "neutral to formal",
       "type": "reporting verb — guess offered as a guess",
@@ -883,9 +1184,38 @@
         "Do I have to spell it out for you?",
         "The policy never spells out who is responsible for the deductible.",
         "He spelled out that no exceptions would be made, for anyone, ever.",
-        "Somebody needs to spell the consequences out before the vote."
+        "Somebody needs to spell the consequences out before the vote.",
+        "She spelled out her last name twice for the clerk.",
+        "He had to spell the street name out over the phone."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "State something in plain, unmissable terms",
+          "body": [
+            "The reporting sense: explain fills a gap in the hearer's knowledge, spell out removes their room to pretend not to have understood. (разъяснить открытым текстом, разжевать)"
+          ],
+          "examples": [
+            "The email spelled out exactly what would happen if the balance went unpaid.",
+            "She spelled out the terms twice, and he signed anyway.",
+            "Do I have to spell it out for you?",
+            "The policy never spells out who is responsible for the deductible.",
+            "He spelled out that no exceptions would be made, for anyone, ever.",
+            "Somebody needs to spell the consequences out before the vote."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Say or write a word letter by letter",
+          "body": [
+            "The literal sense, and the one you need at a counter or on the phone. (произнести или написать по буквам)"
+          ],
+          "examples": [
+            "She spelled out her last name twice for the clerk.",
+            "He had to spell the street name out over the phone."
+          ]
+        }
+      ],
       "русский": "разжевать, изложить открытым текстом — сказать прямо то, что было лишь подразумеваемо",
       "register": "neutral, leaning informal",
       "type": "reporting verb — explanation made explicit",
@@ -972,12 +1302,52 @@
       "examples": [
         "I understand the building changed hands last month.",
         "We understand that no charges have been filed.",
-        "She understood the deposit to be refundable, and it wasn't.",
         "It is understood that the two sides met privately on Tuesday.",
+        "She understood the deposit to be refundable, and it wasn't.",
         "I understand why they did it; I just don't agree with it.",
-        "Am I right in understanding that the fee covers both years?"
+        "Am I right in understanding that the fee covers both years?",
+        "Nobody in the room understood the second slide.",
+        "If you can't make it, they'll understand.",
+        "She said she understood, and she meant it."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Have been told; be given to believe",
+          "body": [
+            "The reporting sense: a hedge that passes a claim along without vouching for it or naming the source. (слышать, знать по слухам («насколько мне известно»))"
+          ],
+          "examples": [
+            "I understand the building changed hands last month.",
+            "We understand that no charges have been filed.",
+            "It is understood that the two sides met privately on Tuesday.",
+            "She understood the deposit to be refundable, and it wasn't."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Grasp the meaning of",
+          "body": [
+            "The first sense a learner meets, and the one that has nothing to do with reporting. (понимать, разбираться)"
+          ],
+          "examples": [
+            "I understand why they did it; I just don't agree with it.",
+            "Am I right in understanding that the fee covers both years?",
+            "Nobody in the room understood the second slide."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Be sympathetic",
+          "body": [
+            "Intransitive and absolute: to take somebody's side without needing the explanation. (войти в положение, отнестись с пониманием)"
+          ],
+          "examples": [
+            "If you can't make it, they'll understand.",
+            "She said she understood, and she meant it."
+          ]
+        }
+      ],
       "русский": "слышать, знать по слухам — «насколько мне известно», без ручательства за источник",
       "register": "neutral to formal; a staple of careful journalism and polite business writing",
       "type": "reporting verb — belief acquired from an unnamed source",
