@@ -183,7 +183,7 @@ Crack has 4 distinct senses.
 11. Most people would *crack* under that kind of stress.
 12. She was *cracking* under the workload.
 
-**Phrasal verbs:** [crack down](53-phrasal-regular-a-c.md#crack-down) &middot; [crack open](53-phrasal-regular-a-c.md#crack-open) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-1) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-2)
+**Phrasal verbs:** [crack down](53-phrasal-regular-a-c.md#crack-down) &middot; [crack open](53-phrasal-regular-a-c.md#crack-open) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-1) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-2) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up)
 
 ---
 
@@ -285,7 +285,7 @@ To tear something quickly and roughly.
 2. Please don't *rip* the envelope — I need the address.
 3. The flag had been *ripped* to shreds by the wind.
 
-**Phrasal verbs:** [rip into](57-phrasal-regular-q-s.md#rip-into) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-1) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-2) &middot; [rip out](57-phrasal-regular-q-s.md#rip-out) &middot; [rip through](57-phrasal-regular-q-s.md#rip-through) &middot; [rip up](57-phrasal-regular-q-s.md#rip-up)
+**Phrasal verbs:** [rip into](57-phrasal-regular-q-s.md#rip-into) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-1) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-2) &middot; [rip out](57-phrasal-regular-q-s.md#rip-out) &middot; [rip through](57-phrasal-regular-q-s.md#rip-through) &middot; [rip up](57-phrasal-regular-q-s.md#rip-up)
 
 ---
 

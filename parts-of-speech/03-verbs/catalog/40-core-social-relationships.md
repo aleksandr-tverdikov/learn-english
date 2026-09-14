@@ -845,7 +845,7 @@ To trick someone into believing something that is not true.
 2. He *fooled* us all with that story about his uncle.
 3. She has been *fooling* people for years.
 
-**Phrasal verbs:** [fool around](54-phrasal-regular-d-f.md#fool-around) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with-1)
+**Phrasal verbs:** [fool around](54-phrasal-regular-d-f.md#fool-around) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with-1) &middot; [fool around with](54-phrasal-regular-d-f.md#fool-around-with)
 
 ---
 

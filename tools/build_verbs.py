@@ -186,10 +186,12 @@ def build_gap(existing, seen, problems):
     if cur:
         groups.append(cur)
 
-    num = 59
+    num = 70   # 64-69 reserved: modals and other hand-written groups
+    written = set()
     for g in groups:
         lo, hi = g[0][0][0].upper(), g[-1][0][0].upper()
         span = lo if lo == hi else f'{lo}-{hi}'
+        written.add(f'{num}-core-more-verbs-{span.lower()}.md')
         build(os.path.join(CAT, f'{num}-core-more-verbs-{span.lower()}.md'),
               f'More verbs {span}',
               f'Further verbs {span} — what a coverage check against two large verb lists '
@@ -203,6 +205,17 @@ def build_gap(existing, seen, problems):
               g)
         print(f'{num}-core-more-verbs-{span.lower()}.md  {len(g)} entries')
         num += 1
+
+    # The band names are derived from content, so a grown pool renames the files.
+    # Without this the previous generation is left on disk as a silent duplicate:
+    # 59-core-more-verbs-a-e.md once shadowed a-d.md for 254 entries.
+    for f in glob.glob(os.path.join(CAT, '*-core-more-verbs-*.md')):
+        if os.path.basename(f) not in written:
+            os.remove(f)
+            html = f[:-3] + '.html'
+            if os.path.exists(html):
+                os.remove(html)
+            print(f'removed stale {os.path.basename(f)}')
     return len(groups), len(kept)
 
 

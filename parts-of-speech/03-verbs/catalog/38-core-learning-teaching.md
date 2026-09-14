@@ -2267,7 +2267,7 @@ Round has 2 distinct senses.
 5. A truck *rounded* the corner too fast and clipped the mirror.
 6. He was *rounding* third base when the throw came in.
 
-**Phrasal verbs:** [round down](57-phrasal-regular-q-s.md#round-down) &middot; [round off](57-phrasal-regular-q-s.md#round-off) &middot; [round off](57-phrasal-regular-q-s.md#round-off-1) &middot; [round out](57-phrasal-regular-q-s.md#round-out) &middot; [round up](57-phrasal-regular-q-s.md#round-up) &middot; [round up](57-phrasal-regular-q-s.md#round-up-1)
+**Phrasal verbs:** [round down](57-phrasal-regular-q-s.md#round-down) &middot; [round off](57-phrasal-regular-q-s.md#round-off-1) &middot; [round off](57-phrasal-regular-q-s.md#round-off) &middot; [round out](57-phrasal-regular-q-s.md#round-out) &middot; [round up](57-phrasal-regular-q-s.md#round-up-1) &middot; [round up](57-phrasal-regular-q-s.md#round-up)
 
 ---
 

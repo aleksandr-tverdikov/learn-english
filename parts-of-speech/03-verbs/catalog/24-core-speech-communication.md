@@ -38,7 +38,7 @@ Add has 3 distinct senses.
 8. They *added* a second bathroom last year.
 9. We are *adding* two more chairs to the table.
 
-**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
+**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
 
 ---
 

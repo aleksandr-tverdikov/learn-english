@@ -243,7 +243,7 @@ To put something briefly into a liquid, and by extension to drop, to slope downw
 14. She *dipped* water from the barrel with a tin cup.
 15. The boys *had dipped* the trough dry by noon.
 
-**Phrasal verbs:** [dip into](54-phrasal-regular-d-f.md#dip-into) &middot; [dip into](54-phrasal-regular-d-f.md#dip-into-1)
+**Phrasal verbs:** [dip into](54-phrasal-regular-d-f.md#dip-into-1) &middot; [dip into](54-phrasal-regular-d-f.md#dip-into)
 
 **See also:** [nip](#nip), [spill](#spill)
 
@@ -609,7 +609,7 @@ To give the letters of a word in order — and, figuratively, to mean or signal 
 16. Two neighbors *spelled* her at the hospital so she could sleep.
 17. Volunteers *have spelled* the crew every four hours.
 
-**Phrasal verbs:** [spell out](57-phrasal-regular-q-s.md#spell-out) &middot; [spell out](57-phrasal-regular-q-s.md#spell-out-1)
+**Phrasal verbs:** [spell out](57-phrasal-regular-q-s.md#spell-out-1) &middot; [spell out](57-phrasal-regular-q-s.md#spell-out)
 
 **See also:** [misspell](#misspell), [smell](#smell)
 
@@ -932,6 +932,6 @@ To cover something by folding material around it — and figuratively, to finish
 18. He *wrapped* his truck around a utility pole on the county road.
 19. Two kids *had wrapped* a car around that same tree the year before.
 
-**Phrasal verbs:** [wrap up](58-phrasal-regular-t-z.md#wrap-up) &middot; [wrap up](58-phrasal-regular-t-z.md#wrap-up-2) &middot; [wrap up](58-phrasal-regular-t-z.md#wrap-up-1)
+**Phrasal verbs:** [wrap up](58-phrasal-regular-t-z.md#wrap-up-1) &middot; [wrap up](58-phrasal-regular-t-z.md#wrap-up-2) &middot; [wrap up](58-phrasal-regular-t-z.md#wrap-up)
 
 **See also:** [enwrap](#enwrap), [toss](#toss)

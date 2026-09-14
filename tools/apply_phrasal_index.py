@@ -25,7 +25,8 @@ BASE_FILES = sorted(glob.glob(f'{CAT}/0[0-9]-*.md') + glob.glob(f'{CAT}/1[0-3]-*
                        if 23 <= int(re.match(r'(\d+)', os.path.basename(f)).group(1)) <= 52])
 DERIVED = sorted(glob.glob(f'{CAT}/1[4-9]-phrasal*.md') + glob.glob(f'{CAT}/2[01]-phrasal*.md')
                  + glob.glob(f'{CAT}/22-*.md')
-                 + glob.glob(f'{CAT}/5[3-8]-phrasal-regular*.md'))
+                 + glob.glob(f'{CAT}/5[3-8]-phrasal-regular*.md')
+                 + glob.glob(f'{CAT}/6[5-9]-phrasal-irregular-more*.md'))
 
 PHRASAL_LINE = re.compile(r'^\*\*Phrasal verbs:\*\*.*$')
 SEE_ALSO = re.compile(r'^\*\*See also:\*\*')

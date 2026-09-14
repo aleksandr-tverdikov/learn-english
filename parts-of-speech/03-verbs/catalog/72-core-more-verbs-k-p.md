@@ -2502,6 +2502,24 @@ To make something necessary.
 
 ---
 
+### need
+
+**Pronunciation:** /niːd/ &middot; *NEED*
+**Русский:** нуждаться, требоваться; быть нужным
+**Forms:** *need* &middot; *needed* &middot; *needed*
+**Third person:** *needs* &middot; **-ing form:** *needing*
+**Verb class:** regular
+**Transitivity:** both — transitive (*I need a break*), intransitive only in the semi-modal *need not*
+**Contrast:** Russian says *мне нужно* with the thing as subject; English makes the person the subject — *I need a visa*, not ✗ *to me needs a visa*. *Need* also has a rarer **semi-modal** use in negatives and questions, with no *-s* and a bare infinitive: *You needn't wait*, *Need I say more?* That form is formal and mostly British; Americans say *You don't need to wait*. The ordinary verb takes *to*: *You need to wait*. Note also *need* + *-ing* as a passive — *the car needs washing* means it needs **to be** washed.
+
+To require something because without it you cannot manage or continue.
+
+1. I *need* a few more minutes before we start.
+2. She *needed* three signatures and only got two.
+3. We have *needed* a second car ever since the move.
+
+---
+
 ### needle
 
 **Pronunciation:** /ˈniːdəl/ &middot; *NEE-duhl*
