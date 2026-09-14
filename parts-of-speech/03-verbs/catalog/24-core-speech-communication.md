@@ -38,7 +38,7 @@ Add has 3 distinct senses.
 8. They *added* a second bathroom last year.
 9. We are *adding* two more chairs to the table.
 
-**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
+**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
 
 ---
 
@@ -342,7 +342,7 @@ Call has 3 distinct senses.
 8. The union has *called* a strike for Monday.
 9. The coach *calls* a timeout with a minute left.
 
-**Phrasal verbs:** [call around](53-phrasal-regular-a-c.md#call-around) &middot; [call back](53-phrasal-regular-a-c.md#call-back) &middot; [call for](53-phrasal-regular-a-c.md#call-for) &middot; [call in](53-phrasal-regular-a-c.md#call-in) &middot; [call in](53-phrasal-regular-a-c.md#call-in-1) &middot; [call off](53-phrasal-regular-a-c.md#call-off) &middot; [call on](53-phrasal-regular-a-c.md#call-on) &middot; [call out](53-phrasal-regular-a-c.md#call-out) &middot; [call up](53-phrasal-regular-a-c.md#call-up) &middot; [call up](53-phrasal-regular-a-c.md#call-up-1)
+**Phrasal verbs:** [call around](53-phrasal-regular-a-c.md#call-around) &middot; [call back](53-phrasal-regular-a-c.md#call-back) &middot; [call for](53-phrasal-regular-a-c.md#call-for) &middot; [call in](53-phrasal-regular-a-c.md#call-in-1) &middot; [call in](53-phrasal-regular-a-c.md#call-in) &middot; [call off](53-phrasal-regular-a-c.md#call-off) &middot; [call on](53-phrasal-regular-a-c.md#call-on) &middot; [call out](53-phrasal-regular-a-c.md#call-out) &middot; [call up](53-phrasal-regular-a-c.md#call-up-1) &middot; [call up](53-phrasal-regular-a-c.md#call-up)
 
 ---
 

@@ -1841,7 +1841,7 @@ Flare has 3 distinct senses.
 8. His arthritis *flares* whenever the weather turns.
 9. Fighting has *flared* along the border again.
 
-**Phrasal verbs:** [flare up](54-phrasal-regular-d-f.md#flare-up-1) &middot; [flare up](54-phrasal-regular-d-f.md#flare-up)
+**Phrasal verbs:** [flare up](54-phrasal-regular-d-f.md#flare-up) &middot; [flare up](54-phrasal-regular-d-f.md#flare-up-1)
 
 ---
 

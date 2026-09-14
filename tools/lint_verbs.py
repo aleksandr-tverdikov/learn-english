@@ -48,7 +48,9 @@ def undo_diphthong_damage(ipa):
 def main():
     n_ipa = n_rs = 0
     manual = []
-    for p in sorted(glob.glob(os.path.join(SRC, '*.json'))):
+    srcs = sorted(glob.glob(os.path.join(SRC, '*.json')) +
+                  glob.glob(os.path.join(SRC, 'gap', 'add-*.json')))
+    for p in srcs:
         if p.endswith('existing-terms.json'):
             continue
         try:

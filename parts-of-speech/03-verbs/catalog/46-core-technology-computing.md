@@ -45,7 +45,7 @@ Open has 4 distinct senses.
 11. Police *opened* an investigation into the fire.
 12. The committee has *opened* hearings on the crash.
 
-**Phrasal verbs:** [open up](56-phrasal-regular-m-p.md#open-up) &middot; [open up](56-phrasal-regular-m-p.md#open-up-1) &middot; [open up](56-phrasal-regular-m-p.md#open-up-3) &middot; [open up](56-phrasal-regular-m-p.md#open-up-4) &middot; [open up](56-phrasal-regular-m-p.md#open-up-2)
+**Phrasal verbs:** [open up](56-phrasal-regular-m-p.md#open-up-2) &middot; [open up](56-phrasal-regular-m-p.md#open-up-3) &middot; [open up](56-phrasal-regular-m-p.md#open-up) &middot; [open up](56-phrasal-regular-m-p.md#open-up-1) &middot; [open up](56-phrasal-regular-m-p.md#open-up-4)
 
 ---
 
@@ -515,7 +515,7 @@ To change from one thing, setting, or service to another.
 2. We *switched* to a cheaper carrier last year.
 3. She is *switching* between four browser tabs.
 
-**Phrasal verbs:** [switch off](57-phrasal-regular-q-s.md#switch-off) &middot; [switch off](57-phrasal-regular-q-s.md#switch-off-1) &middot; [switch on](57-phrasal-regular-q-s.md#switch-on) &middot; [switch out](57-phrasal-regular-q-s.md#switch-out) &middot; [switch over](57-phrasal-regular-q-s.md#switch-over) &middot; [switch up](57-phrasal-regular-q-s.md#switch-up)
+**Phrasal verbs:** [switch off](57-phrasal-regular-q-s.md#switch-off-1) &middot; [switch off](57-phrasal-regular-q-s.md#switch-off) &middot; [switch on](57-phrasal-regular-q-s.md#switch-on) &middot; [switch out](57-phrasal-regular-q-s.md#switch-out) &middot; [switch over](57-phrasal-regular-q-s.md#switch-over) &middot; [switch up](57-phrasal-regular-q-s.md#switch-up)
 
 ---
 
@@ -1324,7 +1324,7 @@ To enter a phone number in order to make a call.
 2. He *dialed* the wrong number twice.
 3. She is *dialing* in from the airport.
 
-**Phrasal verbs:** [dial back](54-phrasal-regular-d-f.md#dial-back) &middot; [dial down](54-phrasal-regular-d-f.md#dial-down) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in-1) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in) &middot; [dial up](54-phrasal-regular-d-f.md#dial-up)
+**Phrasal verbs:** [dial back](54-phrasal-regular-d-f.md#dial-back) &middot; [dial down](54-phrasal-regular-d-f.md#dial-down) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in) &middot; [dial in](54-phrasal-regular-d-f.md#dial-in-1) &middot; [dial up](54-phrasal-regular-d-f.md#dial-up)
 
 ---
 

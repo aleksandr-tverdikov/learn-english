@@ -130,13 +130,80 @@ def main():
         files += 1; total += len(rows)
 
     multi = sum(1 for t in seen if EXTRA.get(t))
+    gf, ge = build_gap(existing, seen, problems)
+    files += gf; total += ge
     print(f'\nwrote {files} core verb files, {total} entries')
+    if ge:
+        print(f'  of which {gf} A-Z files hold {ge} verbs from the gap pass')
     if multi:
         print(f'  {multi} carry more than one sense')
     if problems:
         print(f'dropped {len(problems)}:')
         for p in problems[:12]:
             print('   ', p)
+
+
+def build_gap(existing, seen, problems):
+    """Fold the judged verb-gap slices into a few readable A-Z files.
+
+    These came from checking the catalog against two scraped verb lists of ~21,000
+    lemmas. Most of that was archaic, technical, British-only or not a verb at all,
+    so these are the survivors of a rejection pass, not the list itself.
+    """
+    pool = []
+    for src in sorted(glob.glob(os.path.join(SRC, 'gap', 'add-*.json'))):
+        try:
+            data = json.load(open(src))
+        except Exception as exc:
+            problems.append(f'{os.path.basename(src)}: BAD JSON ({exc})'); continue
+        pool += [e for e in (data if isinstance(data, list) else []) if isinstance(e, dict)]
+
+    kept = []
+    for e in sorted(pool, key=lambda x: (x.get('term') or '').lower()):
+        t = (e.get('term') or '').strip()
+        low = t.lower()
+        if not t or low in existing or low in seen:
+            continue
+        if any(not (e.get(k) or '').strip() for k in REQUIRED):
+            problems.append(f'gap: "{t}" missing a required field'); continue
+        ex = [x for x in (e.get('examples') or []) if isinstance(x, str)][:3]
+        if len(ex) < 3:
+            problems.append(f'gap: "{t}" has {len(ex)} examples'); continue
+        seen.add(low)
+        kept.append((t, e['ipa'].strip('/'), e['respell'], e['ru'], e['third'], e['past'],
+                     e['participle'], e['ing'], e.get('transitivity') or '', e['gloss'], ex,
+                     e.get('contrast') or None, None))
+    if not kept:
+        return 0, 0
+
+    groups, cur, letter = [], [], kept[0][0][0].lower()
+    for row in kept:
+        l = row[0][0].lower()
+        if l != letter and len(cur) >= 350:
+            groups.append(cur); cur = []
+        letter = l
+        cur.append(row)
+    if cur:
+        groups.append(cur)
+
+    num = 59
+    for g in groups:
+        lo, hi = g[0][0][0].upper(), g[-1][0][0].upper()
+        span = lo if lo == hi else f'{lo}-{hi}'
+        build(os.path.join(CAT, f'{num}-core-more-verbs-{span.lower()}.md'),
+              f'More verbs {span}',
+              f'Further verbs {span} — what a coverage check against two large verb lists '
+              'showed was still missing.',
+              'Gathered by checking the catalog against roughly 21,000 scraped verb lemmas and '
+              'writing entries for what was genuinely absent.\n\n'
+              'Most of that list was not worth writing — archaic verbs no living American uses, '
+              'British-only spellings, narrow technical coinages, and a fair number of words that '
+              'were not verbs at all — so these are the survivors of a deliberate rejection pass '
+              'that threw out roughly nine of every ten candidates.',
+              g)
+        print(f'{num}-core-more-verbs-{span.lower()}.md  {len(g)} entries')
+        num += 1
+    return len(groups), len(kept)
 
 
 if __name__ == '__main__':
