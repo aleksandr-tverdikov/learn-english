@@ -39,7 +39,7 @@ Dress has 3 distinct senses.
 8. She *dressed* the greens with lemon and olive oil.
 9. I like *dressing* the salad at the table so it doesn't wilt.
 
-**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1)
+**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2)
 
 ---
 
@@ -160,7 +160,7 @@ Cover has 5 distinct senses.
 14. She *covered* the front desk while I was out.
 15. Who's *covering* the phones at lunch?
 
-**Phrasal verbs:** [cover for](53-phrasal-regular-a-c.md#cover-for) &middot; [cover for](53-phrasal-regular-a-c.md#cover-for-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up-1) &middot; [cover with](22-verb-preposition.md#cover-with)
+**Phrasal verbs:** [cover for](53-phrasal-regular-a-c.md#cover-for) &middot; [cover for](53-phrasal-regular-a-c.md#cover-for-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up) &middot; [cover with](22-verb-preposition.md#cover-with)
 
 ---
 
@@ -700,7 +700,7 @@ Hook has 3 distinct senses.
 8. A good opening line *hooks* the reader.
 9. My son is completely *hooked* on chess.
 
-**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-1) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-2) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-3) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up)
+**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-2) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-3) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-1)
 
 ---
 
@@ -1012,7 +1012,7 @@ Line has 2 distinct senses.
 5. Fans *lined* the sidewalk for six blocks.
 6. The hallway is *lined* with family photos.
 
-**Phrasal verbs:** [line up](55-phrasal-regular-g-l.md#line-up) &middot; [line up](55-phrasal-regular-g-l.md#line-up-1)
+**Phrasal verbs:** [line up](55-phrasal-regular-g-l.md#line-up-1) &middot; [line up](55-phrasal-regular-g-l.md#line-up)
 
 ---
 

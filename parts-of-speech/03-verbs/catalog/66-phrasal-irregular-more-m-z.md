@@ -32,7 +32,7 @@ To pretend that something is true, especially as a game.
 **Pronunciation:** /ˈpeɪ ˌɪn/ &middot; *PAY in*
 **Русский:** вносить, внести (деньги); отчислять, отчислить; делать взносы
 **Base verb:** *pay*
-**Separable:** separable, but it very often stands alone: *you pay in for forty years*. With an amount both orders work — *pay in two hundred a month*, *pay it in*
+**Separable:** usually stands alone — *you pay in for forty years* — or takes the amount right after: *pay in two hundred a month*. It does split around an object: *paid the whole amount in*, *pay it in*
 **Forms:** *pay in* &middot; *paid in* &middot; *paid in*
 **Third person:** *pays in* &middot; **-ing form:** *paying in*
 **Transitivity:** both — intransitive (*we both pay in every month*), transitive (*paid in another five hundred*)
@@ -41,7 +41,7 @@ To put money into a fund, a plan, or a shared pot.
 
 1. Everybody in the office *pays in* ten dollars a week.
 2. He *paid in* for thirty years and drew his first check at sixty-five.
-3. By then she had *paid in* more than the policy was ever going to return.
+3. She had *paid* the whole amount *in* before she turned fifty.
 
 ---
 
@@ -201,7 +201,7 @@ To settle something completely so that the outcome is no longer in doubt.
 
 To destroy something by shooting at it.
 
-1. Somebody *shot out* the streetlights on our block.
+1. Kids around here *shoot out* the streetlights every summer.
 2. The deputy *shot* the tires *out* and the truck slid to a stop.
 3. Two windows had been *shot out* during the night.
 
@@ -419,7 +419,7 @@ To obtain a legal document such as a warrant by making a sworn statement.
 
 1. She *swore out* a complaint against her landlord the next morning.
 2. A warrant had already been *sworn out* for his arrest.
-3. If he comes anywhere near the house, we'll *swear out* a restraining order.
+3. As soon as the paperwork is ready, we'll *swear* it *out* at the courthouse.
 
 ---
 
@@ -455,7 +455,7 @@ To wait anxiously through something you cannot control.
 
 1. We *sweated out* the last two minutes of the game.
 2. She's still *sweating out* the results of the blood test.
-3. There's nothing to do now but *sweat it out*.
+3. There's nothing to do now but *sweat* it *out*.
 
 ---
 
@@ -491,7 +491,7 @@ To drink something quickly, in one swallow.
 
 1. He *tossed off* the whiskey and reached for his coat.
 2. She *tossed* the last of the coffee *off* and headed for the door.
-3. Two shots had been *tossed off* before the toast even finished.
+3. Watch him *toss off* a shot of bourbon without blinking.
 
 ---
 
@@ -508,5 +508,5 @@ To drink something quickly, in one swallow.
 To produce something quickly and without much effort.
 
 1. He *tossed off* a two-page reply in about ten minutes.
-2. She can *toss off* a watercolor between classes.
+2. She can *toss* a watercolor *off* between classes.
 3. The song was *tossed off* in one afternoon and it sold a million copies.

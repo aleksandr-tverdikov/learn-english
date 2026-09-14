@@ -2198,7 +2198,7 @@ To give off moisture through the skin, and by extension to worry or to work very
 12. *Sweat* the onions in butter for about five minutes.
 13. He *sweated* the leeks before adding the stock.
 
-**Phrasal verbs:** [sweat out](66-phrasal-irregular-more-m-z.md#sweat-out-1) &middot; [sweat out](66-phrasal-irregular-more-m-z.md#sweat-out)
+**Phrasal verbs:** [sweat out](66-phrasal-irregular-more-m-z.md#sweat-out) &middot; [sweat out](66-phrasal-irregular-more-m-z.md#sweat-out-1)
 
 **See also:** [wet](#wet), [shed](#shed), [hurt](#hurt)
 
