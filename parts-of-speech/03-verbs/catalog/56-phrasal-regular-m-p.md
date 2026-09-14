@@ -171,6 +171,42 @@ To raise the price of something well above what it cost.
 
 ---
 
+### marry into
+
+**Pronunciation:** /ˈmɛri ˌɪntuː/ &middot; *MER-ee in-too*
+**Русский:** входить, войти (в семью, в круг — через брак)
+**Base verb:** *marry*
+**Separable:** inseparable — the family or the money follows *into*: *marry into a fortune*.
+**Forms:** *marry into* &middot; *married into* &middot; *married into*
+**Third person:** *marries into* &middot; **-ing form:** *marrying into*
+**Transitivity:** transitive
+
+To become part of a family, class, or fortune by marrying someone who already belongs to it.
+
+1. She *married into* one of the oldest families in the state.
+2. Having *married into* a farming family, he learned to drive a tractor at forty.
+3. You don't just *marry into* that kind of money.
+
+---
+
+### marry off
+
+**Pronunciation:** /ˈmɛri ˌɔːf/ &middot; *MER-ee awf*
+**Русский:** выдавать замуж, выдать замуж; женить
+**Base verb:** *marry*
+**Separable:** separable — *marry off their daughters*, and *marry them off*; with a pronoun it must split: *marry her off*, never ✗ *marry off her*.
+**Forms:** *marry off* &middot; *married off* &middot; *married off*
+**Third person:** *marries off* &middot; **-ing form:** *marrying off*
+**Transitivity:** transitive
+
+To arrange a marriage for someone, usually your own child.
+
+1. Her parents *married* her *off* at eighteen.
+2. The family was determined to *marry off* all four daughters.
+3. He's *marrying* his niece *off* to a business partner.
+
+---
+
 ### match up
 
 **Pronunciation:** /ˈmætʃ ˌʌp/ &middot; *MACH up*
@@ -1701,6 +1737,24 @@ To be accepted as something or someone you are not.
 
 ---
 
+### pass off
+
+**Pronunciation:** /ˈpæs ˌɔːf/ &middot; *PAS awf*
+**Русский:** сбывать, сбыть (подделку); всучивать, всучить
+**Base verb:** *pass*
+**Separable:** separable — *pass off bad checks*, and *pass them off*; with a pronoun it must split: *pass it off*, never ✗ *pass off it*.
+**Forms:** *pass off* &middot; *passed off* &middot; *passed off*
+**Third person:** *passes off* &middot; **-ing form:** *passing off*
+**Transitivity:** transitive
+
+To get rid of something fake or worthless by giving it to someone who takes it as genuine.
+
+1. He *passed off* counterfeit twenties at three different stores.
+2. The dealer *passes* his worst cars *off* on first-time buyers.
+3. Somebody's been *passing off* bad checks all over town.
+
+---
+
 ### pass off as
 
 **Pronunciation:** /ˈpæs ˌɔːf ˌæz/ &middot; *PAS awf az*
@@ -2709,6 +2763,42 @@ To make something seem less important or less serious than it is.
 
 ---
 
+### play off
+
+**Pronunciation:** /ˈpleɪ ˌɔːf/ &middot; *PLAY awf*
+**Русский:** отталкиваться от (игры, реплик партнёра); подыгрывать, взаимодействовать
+**Base verb:** *play*
+**Separable:** inseparable here, and often with an extra *of*: *play off each other* or *play off of each other*, never ✗ *play each other off*
+**Forms:** *play off* &middot; *played off* &middot; *played off*
+**Third person:** *plays off* &middot; **-ing form:** *playing off*
+**Transitivity:** transitive
+
+To react to what another performer or speaker is doing and build on it.
+
+1. The two leads *play off* each other beautifully.
+2. Her solo *played off* the bass line in the first verse.
+3. They have been *playing off* each other's jokes all evening.
+
+---
+
+### play off
+
+**Pronunciation:** /ˈpleɪ ˌɔːf/ &middot; *PLAY awf*
+**Русский:** стравливать, стравить (кого-л. с кем-л.); настраивать друг против друга
+**Base verb:** *play*
+**Separable:** separable, and nearly always with *against* — *play one buyer off against another*, *play them off against each other*; a pronoun must split it: *play you off*, never ✗ *play off you*
+**Forms:** *play off* &middot; *played off* &middot; *played off*
+**Third person:** *plays off* &middot; **-ing form:** *playing off*
+**Transitivity:** transitive
+
+To set two people or groups against each other so that you gain from the conflict.
+
+1. She *played* the two dealers *off* against each other and got a better price.
+2. Do not let him *play* you *off* against your sister.
+3. For years the company has *played off* one union against another.
+
+---
+
 ### play on
 
 **Pronunciation:** /ˈpleɪ ˌɑːn/ &middot; *PLAY on*
@@ -2799,6 +2889,24 @@ To work your way through something long or tedious until it is finished.
 
 ---
 
+### pluck up
+
+**Pronunciation:** /ˈplʌk ˌʌp/ &middot; *PLUK up*
+**Русский:** набираться, набраться (смелости); собираться, собраться с духом
+**Base verb:** *pluck*
+**Separable:** fixed in practice — the object is almost always *the courage* or *the nerve*, and it stays after the particle: *pluck up the courage to call*, not ✗ *pluck the courage up*
+**Forms:** *pluck up* &middot; *plucked up* &middot; *plucked up*
+**Third person:** *plucks up* &middot; **-ing form:** *plucking up*
+**Transitivity:** transitive
+
+To force yourself to find the courage to do something frightening.
+
+1. It took him a month to *pluck up* the courage to ask her out.
+2. She finally *plucked up* the nerve to tell her boss she was leaving.
+3. I still have not *plucked up* the courage to open the letter.
+
+---
+
 ### plug away
 
 **Pronunciation:** /ˈplʌɡ əˌweɪ/ &middot; *PLUG uh-way*
@@ -2886,6 +2994,24 @@ To tell someone about a fact they seem not to have noticed.
 1. She *pointed out* that the deadline had already passed.
 2. Somebody should *point out* the mistake before this goes to print.
 3. He is always *pointing out* other people's typos.
+
+---
+
+### point up
+
+**Pronunciation:** /ˈpɔɪnt ˌʌp/ &middot; *POYNT up*
+**Русский:** подчёркивать, подчеркнуть; выявлять, выявить; обращать внимание на
+**Base verb:** *point*
+**Separable:** separable — *point up the difference*, *point the difference up*, *point it up*; slightly formal, and far commoner in writing than in speech
+**Forms:** *point up* &middot; *pointed up* &middot; *pointed up*
+**Third person:** *points up* &middot; **-ing form:** *pointing up*
+**Transitivity:** transitive
+
+To draw attention to something and make it stand out more clearly.
+
+1. The report *points up* the gap between the two schools.
+2. One line in the memo *pointed* it *up* better than any chart could.
+3. The crash has *pointed up* the need for better signals.
 
 ---
 
@@ -2994,6 +3120,24 @@ To visit somewhere for a very short time, usually without planning it.
 1. She *popped in* to say hello on her way home.
 2. I will *pop in* after work if there is time.
 3. He keeps *popping in* to check on the baby.
+
+---
+
+### pop off
+
+**Pronunciation:** /ˈpɑːp ˌɔːf/ &middot; *PAHP awf*
+**Русский:** срываться, сорваться (на крик); возмущаться; трепать языком
+**Base verb:** *pop*
+**Separable:** inseparable — the person you are angry at takes *at* (*popped off at the umpire*), the subject takes *about* (*popping off about taxes*)
+**Forms:** *pop off* &middot; *popped off* &middot; *popped off*
+**Third person:** *pops off* &middot; **-ing form:** *popping off*
+**Transitivity:** intransitive
+
+To speak loudly and angrily, or to say more than you should.
+
+1. He *popped off* at the referee and got thrown out of the game.
+2. Do not *pop off* about the layoffs until the memo goes out.
+3. She is always *popping off* about how much better the old system was.
 
 ---
 
@@ -3627,6 +3771,24 @@ To manage to do something difficult that people doubted you could do.
 
 ---
 
+### pull on
+
+**Pronunciation:** /ˈpʊl ˌɑːn/ &middot; *PUUL ahn*
+**Русский:** натягивать, натянуть (одежду); надевать, надеть
+**Base verb:** *pull*
+**Separable:** separable — *pull on your boots*, *pull your boots on*, *pull them on*; never ✗ *pull on them*
+**Forms:** *pull on* &middot; *pulled on* &middot; *pulled on*
+**Third person:** *pulls on* &middot; **-ing form:** *pulling on*
+**Transitivity:** transitive
+
+To put on a piece of clothing with a quick tug.
+
+1. He *pulled on* a sweater and headed out into the cold.
+2. *Pull* your boots *on* — the yard is still muddy.
+3. She was *pulling on* her gloves as the elevator doors closed.
+
+---
+
 ### pull out
 
 **Pronunciation:** /ˈpʊl ˌaʊt/ &middot; *PUUL owt*
@@ -4020,6 +4182,24 @@ To argue and campaign hard to get something done.
 1. Teachers are *pushing for* smaller classes.
 2. She *pushed for* an independent review and got one.
 3. They have *pushed for* this change for years.
+
+---
+
+### push off
+
+**Pronunciation:** /ˈpʊʃ ˌɔːf/ &middot; *PUUSH awf*
+**Русский:** отчаливать, отчалить; отправляться, отправиться (в путь)
+**Base verb:** *push*
+**Separable:** inseparable and intransitive — the place you leave takes *from*: *pushed off from the dock*
+**Forms:** *push off* &middot; *pushed off* &middot; *pushed off*
+**Third person:** *pushes off* &middot; **-ing form:** *pushing off*
+**Transitivity:** intransitive
+
+To leave and set out on a journey, especially in a boat.
+
+1. We *pushed off* from the dock just after sunrise.
+2. We can *push off* as soon as everyone is aboard.
+3. They were *pushing off* before the rest of us had finished breakfast.
 
 ---
 

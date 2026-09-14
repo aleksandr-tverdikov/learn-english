@@ -698,6 +698,8 @@ Rig has 2 distinct senses.
 5. The truck is *rigged* with a winch and two floodlights.
 6. The crew spent two days *rigging* the lights above the stage.
 
+**Phrasal verbs:** [rig up](57-phrasal-regular-q-s.md#rig-up)
+
 ---
 
 ### trick
@@ -715,6 +717,8 @@ To deceive someone into doing or believing something.
 1. Scammers *trick* people into sharing their passwords.
 2. They *tricked* her into signing the papers.
 3. He felt *tricked* by the whole agreement.
+
+**Phrasal verbs:** [trick out](58-phrasal-regular-t-z.md#trick-out)
 
 ---
 

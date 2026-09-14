@@ -335,7 +335,7 @@ Punch has 2 distinct senses.
 5. *Punch* three holes along the side of the box.
 6. The card had been *punched* in the wrong place.
 
-**Phrasal verbs:** [punch in](56-phrasal-regular-m-p.md#punch-in-1) &middot; [punch in](56-phrasal-regular-m-p.md#punch-in) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out-1) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out) &middot; [punch up](56-phrasal-regular-m-p.md#punch-up)
+**Phrasal verbs:** [punch in](56-phrasal-regular-m-p.md#punch-in) &middot; [punch in](56-phrasal-regular-m-p.md#punch-in-1) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out) &middot; [punch out](56-phrasal-regular-m-p.md#punch-out-1) &middot; [punch up](56-phrasal-regular-m-p.md#punch-up)
 
 ---
 
@@ -362,7 +362,7 @@ Kick has 2 distinct senses.
 5. It took her two years to *kick* her soda habit.
 6. He has *kicked* worse addictions than this one.
 
-**Phrasal verbs:** [kick around](55-phrasal-regular-g-l.md#kick-around) &middot; [kick back](55-phrasal-regular-g-l.md#kick-back) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in-1) &middot; [kick off](55-phrasal-regular-g-l.md#kick-off) &middot; [kick out](55-phrasal-regular-g-l.md#kick-out)
+**Phrasal verbs:** [kick around](55-phrasal-regular-g-l.md#kick-around) &middot; [kick back](55-phrasal-regular-g-l.md#kick-back) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in-1) &middot; [kick off](55-phrasal-regular-g-l.md#kick-off) &middot; [kick out](55-phrasal-regular-g-l.md#kick-out) &middot; [kick up](55-phrasal-regular-g-l.md#kick-up-1) &middot; [kick up](55-phrasal-regular-g-l.md#kick-up) &middot; [kick upstairs](55-phrasal-regular-g-l.md#kick-upstairs)
 
 ---
 
@@ -389,6 +389,8 @@ Slap has 2 distinct senses.
 4. Regulators *slapped* the bank with a record fine.
 5. The city will *slap* a fee on plastic bags.
 6. He has been *slapped* with a lawsuit.
+
+**Phrasal verbs:** [slap down](57-phrasal-regular-q-s.md#slap-down)
 
 ---
 
@@ -424,6 +426,8 @@ To push someone or something roughly and suddenly.
 1. Someone *shoved* me from behind in the crowd.
 2. Don't *shove* — there is room for everybody.
 3. They were pushing and *shoving* in front of the gate.
+
+**Phrasal verbs:** [shove off](57-phrasal-regular-q-s.md#shove-off)
 
 ---
 

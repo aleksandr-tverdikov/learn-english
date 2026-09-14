@@ -45,6 +45,96 @@ To go somewhere with other people who did not really invite you.
 
 ---
 
+### tail off
+
+**Pronunciation:** /ˈteɪl ˌɔːf/ &middot; *TAYL awf*
+**Русский:** убывать, убыть; идти на убыль; сходить на нет
+**Base verb:** *tail*
+**Separable:** no object — intransitive: *sales tailed off*. Nothing can sit between the two words.
+**Forms:** *tail off* &middot; *tailed off* &middot; *tailed off*
+**Third person:** *tails off* &middot; **-ing form:** *tailing off*
+**Transitivity:** intransitive
+
+To become gradually smaller or weaker until it nearly stops.
+
+1. Ticket sales *tailed off* right after the holidays.
+2. Donations always *tail off* in February.
+3. Applications have been *tailing off* since the fee went up.
+
+---
+
+### talk about
+
+**Pronunciation:** /ˈtɔːk əˌbaʊt/ &middot; *TAWK uh-bowt*
+**Русский:** говорить, поговорить (о чём-л.); обсуждать, обсудить
+**Base verb:** *talk*
+**Separable:** inseparable — *talk about the budget*, never ✗ *talk the budget about*. English needs the *about*: ✗ *talk the problem*, and the same trap in reverse with *discuss*, which takes no preposition: *discuss the budget*.
+**Forms:** *talk about* &middot; *talked about* &middot; *talked about*
+**Third person:** *talks about* &middot; **-ing form:** *talking about*
+**Transitivity:** transitive
+
+To say things to someone on a particular subject.
+
+1. Can we *talk about* this tomorrow?
+2. They *talked about* moving to Denver for the better part of an hour.
+3. Everyone at work is *talking about* the merger.
+
+---
+
+### talk around
+
+**Pronunciation:** /ˈtɔːk əˌraʊnd/ &middot; *TAWK uh-rownd*
+**Русский:** обходить тему, говорить вокруг да около
+**Base verb:** *talk*
+**Separable:** inseparable in this sense — *talk around the issue*, never ✗ *talk the issue around*
+**Forms:** *talk around* &middot; *talked around* &middot; *talked around*
+**Third person:** *talks around* &middot; **-ing form:** *talking around*
+**Transitivity:** transitive
+
+To keep discussing a subject without ever addressing it directly.
+
+1. He *talked around* the question for twenty minutes.
+2. They kept *talking around* the real problem.
+3. We have *talked around* this long enough — say it plainly.
+
+---
+
+### talk around
+
+**Pronunciation:** /ˈtɔːk əˌraʊnd/ &middot; *TAWK uh-rownd*
+**Русский:** уговаривать, переубедить; обходить тему
+**Base verb:** *talk*
+**Separable:** separable — *talk her around*, and *talk around the problem* (different sense, inseparable)
+**Forms:** *talk around* &middot; *talked around* &middot; *talked around*
+**Third person:** *talks around* &middot; **-ing form:** *talking around*
+**Transitivity:** transitive
+
+To persuade someone to change their mind by talking to them.
+
+1. She was against it, but he *talked* her *around*.
+2. Give me ten minutes and I'll *talk* him *around*.
+3. They had *talked* the whole committee *around* by lunch.
+
+---
+
+### talk at
+
+**Pronunciation:** /ˈtɔːk ət/ &middot; *TAWK uht*
+**Русский:** говорить, не слушая собеседника; вещать; отчитывать
+**Base verb:** *talk*
+**Separable:** inseparable — the person follows the particle: *talk at me*, never ✗ *talk me at*. Compare *talk to*, which is a two-way conversation.
+**Forms:** *talk at* &middot; *talked at* &middot; *talked at*
+**Third person:** *talks at* &middot; **-ing form:** *talking at*
+**Transitivity:** transitive
+
+To speak to someone without listening to anything they say back.
+
+1. He *talks at* you for an hour and calls it a meeting.
+2. The consultant *talked at* us for ninety minutes straight.
+3. I'm tired of being *talked at* in these trainings.
+
+---
+
 ### talk back
 
 **Pronunciation:** /ˈtɔːk ˌbæk/ &middot; *TAWK bak*
@@ -60,6 +150,60 @@ To answer someone in authority rudely.
 1. Don't *talk back* to your teacher.
 2. He *talked back* once and lost his phone for a week.
 3. She's been *talking back* to everybody since she turned thirteen.
+
+---
+
+### talk down
+
+**Pronunciation:** /ˈtɔːk ˌdaʊn/ &middot; *TAWK down*
+**Русский:** уговаривать, уговорить (успокоиться); отговаривать, отговорить
+**Base verb:** *talk*
+**Separable:** separable — *talk down the gunman*, *talk the gunman down*; with a pronoun it must split: *talk her down*, never ✗ *talk down her*.
+**Forms:** *talk down* &middot; *talked down* &middot; *talked down*
+**Third person:** *talks down* &middot; **-ing form:** *talking down*
+**Transitivity:** transitive
+
+To calm someone or persuade them to give up a dangerous plan by talking to them.
+
+1. A negotiator *talked* the man *down* from the bridge.
+2. Her sister can usually *talk* her *down* when she starts panicking.
+3. He was *talked down* by a dispatcher who stayed on the line for an hour.
+
+---
+
+### talk down
+
+**Pronunciation:** /ˈtɔːk ˌdaʊn/ &middot; *TAWK down*
+**Русский:** сбивать, сбить (цену); уговаривать, уговорить снизить цену
+**Base verb:** *talk*
+**Separable:** separable — *talk down the price*, *talk the price down*, *talk him down to four hundred*; never ✗ *talk down him*.
+**Forms:** *talk down* &middot; *talked down* &middot; *talked down*
+**Third person:** *talks down* &middot; **-ing form:** *talking down*
+**Transitivity:** transitive
+
+To persuade a seller to accept a lower price.
+
+1. I *talked* the dealer *down* to nine thousand.
+2. You can usually *talk down* the asking price on a used bike.
+3. She is very good at *talking* landlords *down* a hundred dollars a month.
+
+---
+
+### talk down
+
+**Pronunciation:** /ˈtɔːk ˌdaʊn/ &middot; *TAWK down*
+**Русский:** говорить свысока, снисходительно; разговаривать покровительственно
+**Base verb:** *talk*
+**Separable:** inseparable in this sense, and it needs *to*: *talk down to the audience*, never ✗ *talk the audience down to*.
+**Forms:** *talk down* &middot; *talked down* &middot; *talked down*
+**Third person:** *talks down* &middot; **-ing form:** *talking down*
+**Transitivity:** intransitive
+
+To speak to someone as though they were less intelligent than you.
+
+1. Don't *talk down to* me — I read the same report you did.
+2. The specialist *talked down to* her for the whole visit.
+3. Nobody learns much from a teacher who is always *talking down to* the class.
 
 ---
 
@@ -96,6 +240,24 @@ To persuade someone to do something they were not planning to do.
 1. Don't let him *talk* you *into* another timeshare.
 2. She *talked* her parents *into* letting her go.
 3. I got *talked into* running the half marathon.
+
+---
+
+### talk out
+
+**Pronunciation:** /ˈtɔːk ˌaʊt/ &middot; *TAWK owt*
+**Русский:** обсуждать, обсудить до конца; выяснять, выяснить отношения; проговаривать, проговорить
+**Base verb:** *talk*
+**Separable:** separable — *talk out the problem*, *talk the problem out*; with a pronoun it must split, and *talk it out* is the commonest form of all.
+**Forms:** *talk out* &middot; *talked out* &middot; *talked out*
+**Third person:** *talks out* &middot; **-ing form:** *talking out*
+**Transitivity:** transitive
+
+To discuss a problem thoroughly until it is settled.
+
+1. They sat on the porch and *talked* the whole thing *out*.
+2. It's better to *talk it out* than to trade angry texts.
+3. We've been *talking out* the details all week.
 
 ---
 
@@ -945,6 +1107,24 @@ To give something old to a seller as part of the payment for something new.
 
 ---
 
+### trade on
+
+**Pronunciation:** /ˈtreɪd ˌɑːn/ &middot; *TRAYD on*
+**Русский:** пользоваться, воспользоваться (в своих интересах); спекулировать (на чём-л.)
+**Base verb:** *trade*
+**Separable:** inseparable — *trade on his reputation*, never ✗ *trade his reputation on*.
+**Forms:** *trade on* &middot; *traded on* &middot; *traded on*
+**Third person:** *trades on* &middot; **-ing form:** *trading on*
+**Transitivity:** transitive
+
+To use something, often unfairly, to get an advantage for yourself.
+
+1. He *trades on* his father's name every chance he gets.
+2. The company *traded on* its reputation long after the quality slipped.
+3. She got the job without *trading on* anyone's connections.
+
+---
+
 ### trade up
 
 **Pronunciation:** /ˈtreɪd ˌʌp/ &middot; *TRAYD up*
@@ -978,6 +1158,24 @@ To get quieter and quieter until it stops, especially a voice.
 1. He starts a story and then just *trails off*.
 2. Her voice *trailed off* when she saw who was listening.
 3. The applause was *trailing off* by the time she reached the stage.
+
+---
+
+### trick out
+
+**Pronunciation:** /ˈtrɪk ˌaʊt/ &middot; *TRIK owt*
+**Русский:** украшать, украсить; оснащать, оснастить (наворотами); тюнинговать
+**Base verb:** *trick*
+**Separable:** separable — *trick out the truck*, *trick the truck out*, *trick it out*; never ✗ *trick out it*. The participle is very common as an adjective: *a tricked-out van*.
+**Forms:** *trick out* &middot; *tricked out* &middot; *tricked out*
+**Third person:** *tricks out* &middot; **-ing form:** *tricking out*
+**Transitivity:** transitive
+
+To fit something out with a lot of showy extras.
+
+1. He *tricked out* his pickup with light bars and chrome.
+2. They *trick* these vans *out* for weekend camping.
+3. The studio came *tricked out* with gear he never once used.
 
 ---
 
@@ -1971,6 +2169,42 @@ To stay somewhere doing nothing while you wait for something to happen.
 
 ---
 
+### wait on
+
+**Pronunciation:** /ˈweɪt ˌɑːn/ &middot; *WAYT on*
+**Русский:** обслуживать, обслужить (за столом); прислуживать
+**Base verb:** *wait*
+**Separable:** inseparable — *wait on customers*, *wait on tables*, never ✗ *wait customers on*.
+**Forms:** *wait on* &middot; *waited on* &middot; *waited on*
+**Third person:** *waits on* &middot; **-ing form:** *waiting on*
+**Transitivity:** transitive
+
+To serve food and drinks to customers, or to look after someone's every need.
+
+1. The same server *waits on* us every Sunday.
+2. She *waited on* tables for six years to pay for school.
+3. He has been *waiting on* the corner booth all night.
+
+---
+
+### wait on
+
+**Pronunciation:** /ˈweɪt ˌɑːn/ &middot; *WAYT on*
+**Русский:** ждать, дождаться (чего-л.); ожидать
+**Base verb:** *wait*
+**Separable:** inseparable — *wait on the results*, never ✗ *wait the results on*. In American English this is interchangeable with *wait for* when you are waiting for something to arrive or happen.
+**Forms:** *wait on* &middot; *waited on* &middot; *waited on*
+**Third person:** *waits on* &middot; **-ing form:** *waiting on*
+**Transitivity:** transitive
+
+To wait for something or someone to arrive or to happen.
+
+1. We're still *waiting on* the lab results.
+2. I *waited on* him for forty minutes outside the theater.
+3. Half the office *waits on* one slow printer.
+
+---
+
 ### wait out
 
 **Pronunciation:** /ˈweɪt ˌaʊt/ &middot; *WAYT owt*
@@ -2025,6 +2259,24 @@ To stop or slow down so that a person behind you can catch up.
 
 ---
 
+### walk away
+
+**Pronunciation:** /ˈwɔːk əˌweɪ/ &middot; *WAWK uh-way*
+**Русский:** уходить, уйти (от проблемы); бросать, бросить; отказываться, отказаться
+**Base verb:** *walk*
+**Separable:** no object — intransitive; what you leave behind follows *from*: *walk away from the deal*.
+**Forms:** *walk away* &middot; *walked away* &middot; *walked away*
+**Third person:** *walks away* &middot; **-ing form:** *walking away*
+**Transitivity:** intransitive
+
+To leave a difficult situation or relationship instead of dealing with it.
+
+1. Sometimes the smart move is to *walk away*.
+2. He *walked away* from a twelve-year marriage and never explained why.
+3. She's *walking away* from the offer even though the money is good.
+
+---
+
 ### walk away from
 
 **Pronunciation:** /ˈwɔːk əˌweɪ frʌm/ &middot; *WAWK uh-way fruhm*
@@ -2076,6 +2328,24 @@ To enter a room and accidentally interrupt something private.
 1. I *walked in on* them arguing about money.
 2. She's terrified of *walking in on* her boss again.
 3. He *walks in on* every conversation without knocking.
+
+---
+
+### walk into
+
+**Pronunciation:** /ˈwɔːk ˌɪntuː/ &middot; *WAWK in-too*
+**Русский:** попадать, попасть (в ловушку); нарываться, нарваться; влипать, влипнуть
+**Base verb:** *walk*
+**Separable:** inseparable — *walk into a trap*, never ✗ *walk a trap into*. Often strengthened with *right* or *straight*: *walked right into it*.
+**Forms:** *walk into* &middot; *walked into* &middot; *walked into*
+**Third person:** *walks into* &middot; **-ing form:** *walking into*
+**Transitivity:** transitive
+
+To get yourself into a bad situation without seeing it coming.
+
+1. He *walked into* an ambush of reporters outside the courthouse.
+2. Ask him that and you'll *walk into* a lecture about taxes.
+3. She had no idea what she was *walking into* when she took the job.
 
 ---
 
@@ -2673,6 +2943,24 @@ To refuse or dismiss something with a small gesture, as if brushing it aside.
 
 ---
 
+### weasel out
+
+**Pronunciation:** /ˈwiːzəl ˌaʊt/ &middot; *WEE-zuhl owt*
+**Русский:** увиливать, увильнуть; отвиливать, отвертеться (от чего-л.)
+**Base verb:** *weasel*
+**Separable:** no object — intransitive; what you escape follows *of*: *weasel out of the contract*.
+**Forms:** *weasel out* &middot; *weaseled out* &middot; *weaseled out*
+**Third person:** *weasels out* &middot; **-ing form:** *weaseling out*
+**Transitivity:** intransitive
+
+To avoid a duty or a promise by being dishonest or too clever.
+
+1. He *weaseled out* of paying his share again.
+2. Don't try to *weasel out* of it now.
+3. She's always *weaseling out* of the early shift.
+
+---
+
 ### weasel out of
 
 **Pronunciation:** /ˈwiːzəl ˌaʊt əv/ &middot; *WEE-zul owt uhv*
@@ -2943,6 +3231,24 @@ To decide at the last minute that you are too afraid to do something.
 
 ---
 
+### wink at
+
+**Pronunciation:** /ˈwɪŋk ət/ &middot; *WINGK uht*
+**Русский:** смотреть сквозь пальцы (на что-л.); закрывать, закрыть глаза (на что-л.)
+**Base verb:** *wink*
+**Separable:** inseparable — *wink at the violations*, never ✗ *wink the violations at*.
+**Forms:** *wink at* &middot; *winked at* &middot; *winked at*
+**Third person:** *winks at* &middot; **-ing form:** *winking at*
+**Transitivity:** transitive
+
+To pretend not to notice something wrong so that it can go on.
+
+1. Inspectors *winked at* the violations for years.
+2. A city that *winks at* bad landlords ends up with bad housing.
+3. The firm was accused of *winking at* cheating on the trading floor.
+
+---
+
 ### wipe away
 
 **Pronunciation:** /ˈwaɪp əˌweɪ/ &middot; *WYP uh-way*
@@ -3087,6 +3393,24 @@ To finally understand the truth about a situation and stop being fooled.
 
 ---
 
+### wish on
+
+**Pronunciation:** /ˈwɪʃ ˌɑːn/ &middot; *WISH on*
+**Русский:** желать, пожелать (кому-л. чего-л. плохого); навязывать, навязать (кому-л.)
+**Base verb:** *wish*
+**Separable:** always split — the thing comes first and the person follows *on*: *wish that job on somebody*, never ✗ *wish on somebody that job*. The everyday frame is *I wouldn't wish it on my worst enemy*.
+**Forms:** *wish on* &middot; *wished on* &middot; *wished on*
+**Third person:** *wishes on* &middot; **-ing form:** *wishing on*
+**Transitivity:** transitive
+
+To want something bad to happen to someone, or to push something unwanted onto them.
+
+1. I wouldn't *wish* that commute *on* my worst enemy.
+2. They *wished* their broken copier *on* the new branch.
+3. He spends his evenings *wishing* his own bad luck *on* everybody else.
+
+---
+
 ### wolf down
 
 **Pronunciation:** /ˈwʊlf ˌdaʊn/ &middot; *WULF down*
@@ -3156,6 +3480,42 @@ To get rid of a debt, extra weight, or a bad mood by working or exercising.
 1. He *worked off* the loan in two years.
 2. She goes running to *work off* stress.
 3. They're out in the yard *working* dinner *off*.
+
+---
+
+### work on
+
+**Pronunciation:** /ˈwɜːrk ˌɑːn/ &middot; *WURK on*
+**Русский:** уговаривать, обрабатывать (кого-л.); воздействовать (на кого-л.)
+**Base verb:** *work*
+**Separable:** inseparable — the person follows the particle: *work on him*, never ✗ *work him on*.
+**Forms:** *work on* &middot; *worked on* &middot; *worked on*
+**Third person:** *works on* &middot; **-ing form:** *working on*
+**Transitivity:** transitive
+
+To keep trying to persuade someone to change their mind.
+
+1. He doesn't want to come, but I'm *working on* him.
+2. The lobbyists *worked on* two senators for a month.
+3. She has *worked on* her parents since the day the brochure arrived.
+
+---
+
+### work on
+
+**Pronunciation:** /ˈwɜːrk ˌɑːn/ &middot; *WURK on*
+**Русский:** работать (над чем-л.); заниматься (чем-л.); чинить, починить
+**Base verb:** *work*
+**Separable:** inseparable — *work on the car*, never ✗ *work the car on*.
+**Forms:** *work on* &middot; *worked on* &middot; *worked on*
+**Third person:** *works on* &middot; **-ing form:** *working on*
+**Transitivity:** transitive
+
+To spend time repairing something or making it better.
+
+1. I need to *work on* my Spanish before the trip.
+2. He *worked on* that engine every weekend all winter.
+3. She's been *working on* the same chapter since March.
 
 ---
 
@@ -3246,6 +3606,24 @@ To add up to a particular amount when you calculate it.
 1. With tip, it *works out to* about twelve dollars a person.
 2. The raise *worked out to* less than a dollar an hour.
 3. After fees their offer has *worked out to* almost nothing.
+
+---
+
+### work over
+
+**Pronunciation:** /ˈwɜːrk ˌoʊvər/ &middot; *WURK oh-vur*
+**Русский:** избивать, избить; отделать, поколотить
+**Base verb:** *work*
+**Separable:** separable — *work over the witness*, *work the witness over*; with a pronoun it must split: *work him over*, never ✗ *work over him*.
+**Forms:** *work over* &middot; *worked over* &middot; *worked over*
+**Third person:** *works over* &middot; **-ing form:** *working over*
+**Transitivity:** transitive
+
+To beat someone up badly.
+
+1. Two guys *worked* him *over* in the parking lot.
+2. They threatened to *work over* anyone who talked to the police.
+3. He came back looking like somebody had *worked* him *over*.
 
 ---
 

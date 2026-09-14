@@ -3577,6 +3577,24 @@ To eat something quickly and greedily.
 
 ---
 
+### goof
+
+**Pronunciation:** /ɡuːf/ &middot; *GOOF*
+**Русский:** напортачить, облажаться; валять дурака
+**Forms:** *goof* &middot; *goofed* &middot; *goofed*
+**Third person:** *goofs* &middot; **-ing form:** *goofing*
+**Verb class:** regular
+**Transitivity:** intransitive — usually with *up*, *off*, or *around*
+**Contrast:** Informal. The particle changes the meaning completely: *goof **up*** is to make a mistake, *goof **off*** is to shirk work, and *goof **around*** is to fool about harmlessly. The noun *a goof* is both the mistake and the person who makes it.
+
+To make a careless mistake, or to waste time instead of working.
+
+1. I *goofed* — I sent it to the wrong address.
+2. They were *goofing* around in the parking lot.
+3. He has *goofed* off all week.
+
+---
+
 ### gore
 
 **Pronunciation:** /ɡɔːr/ &middot; *GOR*
@@ -5113,6 +5131,24 @@ To teach someone a set of beliefs so thoroughly that they accept them without qu
 
 ---
 
+### induce
+
+**Pronunciation:** /ɪnˈduːs/ &middot; *in-DOOS*
+**Русский:** побуждать, побудить; вызывать, вызвать
+**Forms:** *induce* &middot; *induced* &middot; *induced*
+**Third person:** *induces* &middot; **-ing form:** *inducing*
+**Verb class:** regular
+**Transitivity:** transitive
+**Contrast:** Two quite different senses share one verb: persuasion (*induce someone **to do*** something, with a *to*-infinitive) and causation (*induce sleep*, *induce vomiting*), the second common in medicine. The noun is *inducement* for the first and *induction* for the second. Do not confuse it with *deduce*, which is to reason out.
+
+To persuade someone to act, or to cause a physical state to begin.
+
+1. Nothing could *induce* her to sell the house.
+2. The drug *induced* a deep sleep within minutes.
+3. Labor was *induced* two weeks early.
+
+---
+
 ### industrialize
 
 **Pronunciation:** /ɪnˈdʌstriəlaɪz/ &middot; *in-DUS-tree-uh-lyz*
@@ -5702,6 +5738,24 @@ To turn something upside down or reverse its order or position.
 1. *Invert* the pan over a plate and lift it straight off.
 2. The question *inverted* the usual order of subject and verb.
 3. The image is *inverted* by the lens.
+
+---
+
+### invest
+
+**Pronunciation:** /ɪnˈvɛst/ &middot; *in-VEST*
+**Русский:** вкладывать, вложить; инвестировать
+**Forms:** *invest* &middot; *invested* &middot; *invested*
+**Third person:** *invests* &middot; **-ing form:** *investing*
+**Verb class:** regular
+**Transitivity:** both — transitive (*invest the money*), intransitive (*invest in bonds*)
+**Contrast:** The preposition is **in**: *invest in a company*, never ✗ *invest to a company*. It works for time and effort as readily as for money, and the emotional sense is usually passive — *I'm invested in how this turns out*. Note the different noun forms: *investment* for the money, *investor* for the person.
+
+To put money, time, or effort into something in the hope of a return.
+
+1. They *invest* a fixed amount every month.
+2. We *invested* four years in that project.
+3. She has *invested* heavily in solar.
 
 ---
 

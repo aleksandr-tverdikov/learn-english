@@ -351,6 +351,42 @@ To ask several different people about something, hoping one of them knows.
 
 ---
 
+### ask for
+
+**Pronunciation:** /ˈæsk ˌfɔːr/ &middot; *ASK for*
+**Русский:** напрашиваться, напроситься
+**Base verb:** *ask*
+**Separable:** inseparable — the trouble follows the particle: *asking for trouble*, and in the fixed line *you asked for it*
+**Forms:** *ask for* &middot; *asked for* &middot; *asked for*
+**Third person:** *asks for* &middot; **-ing form:** *asking for*
+**Transitivity:** transitive
+
+To behave in a way that makes trouble certain to come.
+
+1. Riding at night with no lights is *asking for* trouble.
+2. Nobody felt sorry for him — he *asked for* it.
+3. She had *asked for* trouble the moment she took that shortcut.
+
+---
+
+### ask for
+
+**Pronunciation:** /ˈæsk ˌfɔːr/ &middot; *ASK for*
+**Русский:** просить, попросить
+**Base verb:** *ask*
+**Separable:** inseparable — *ask for the check*, never ✗ *ask the check for*; the person you ask goes before the particle: *ask him for help*
+**Forms:** *ask for* &middot; *asked for* &middot; *asked for*
+**Third person:** *asks for* &middot; **-ing form:** *asking for*
+**Transitivity:** transitive
+
+To say that you want someone to give you something.
+
+1. *Ask for* a receipt when you pay.
+2. She *asked for* two more days to finish the drawings.
+3. He's *asking for* a raise at the review tomorrow.
+
+---
+
 ### ask out
 
 **Pronunciation:** /ˈæsk ˌaʊt/ &middot; *ASK owt*
@@ -747,6 +783,24 @@ To enter or interrupt rudely, without being invited.
 
 ---
 
+### bat around
+
+**Pronunciation:** /ˈbæt əˌraʊnd/ &middot; *BAT uh-rownd*
+**Русский:** обсуждать, обсудить; прикидывать, прикинуть (идеи)
+**Base verb:** *bat*
+**Separable:** separable — *bat around a few ideas*, or *bat a few ideas around*; with a pronoun it must split: *bat it around*
+**Forms:** *bat around* &middot; *batted around* &middot; *batted around*
+**Third person:** *bats around* &middot; **-ing form:** *batting around*
+**Transitivity:** transitive
+
+To discuss an idea informally, without deciding anything yet.
+
+1. Let's *bat around* a few names for the new shop.
+2. We *batted* the idea *around* for an hour and got nowhere.
+3. They're still *batting around* possible dates for the trip.
+
+---
+
 ### bawl out
 
 **Pronunciation:** /ˈbɔːl ˌaʊt/ &middot; *BAWL owt*
@@ -780,6 +834,24 @@ To make something stronger, bigger, or more effective.
 1. They *beefed up* security after the break-in.
 2. We need to *beef* the ending *up*.
 3. The airline is *beefing up* its winter schedule.
+
+---
+
+### beg off
+
+**Pronunciation:** /ˈbɛɡ ˌɔːf/ &middot; *BEG awf*
+**Русский:** отказываться, отказаться (от приглашения, обязательства); отпрашиваться, отпроситься
+**Base verb:** *beg*
+**Separable:** inseparable — *beg off the meeting*, never ✗ *beg the meeting off*; most often it takes no object at all: *he begged off*
+**Forms:** *beg off* &middot; *begged off* &middot; *begged off*
+**Third person:** *begs off* &middot; **-ing form:** *begging off*
+**Transitivity:** both — intransitive (she begged off), transitive (he begged off the trip)
+
+To politely get out of something you had already agreed to do.
+
+1. He said he'd come, then *begged off* at the last minute.
+2. I had to *beg off* the dinner because of work.
+3. She has *begged off* three weekends in a row.
 
 ---
 
@@ -1053,6 +1125,60 @@ To get stuck in detail or difficulty so that no progress is made.
 
 ---
 
+### boil away
+
+**Pronunciation:** /ˈbɔɪl əˌweɪ/ &middot; *BOYL uh-way*
+**Русский:** выкипать, выкипеть; испаряться, испариться при кипении
+**Base verb:** *boil*
+**Separable:** separable when it takes an object — *boil away the liquid*, *boil the liquid away*; most often it takes none: *the water boiled away*
+**Forms:** *boil away* &middot; *boiled away* &middot; *boiled away*
+**Third person:** *boils away* &middot; **-ing form:** *boiling away*
+**Transitivity:** both — intransitive (the water boiled away), transitive (boil the extra liquid away)
+
+To disappear completely by turning to steam.
+
+1. Turn the heat up and *boil* the extra liquid *away*.
+2. Half the stock had *boiled away* by the time I came back.
+3. The last of the water is *boiling away* now.
+
+---
+
+### boil down
+
+**Pronunciation:** /ˈbɔɪl ˌdaʊn/ &middot; *BOYL down*
+**Русский:** уваривать, уварить; выпаривать, выпарить
+**Base verb:** *boil*
+**Separable:** separable — *boil down the sauce*, or *boil the sauce down*; with a pronoun it must split: *boil it down*
+**Forms:** *boil down* &middot; *boiled down* &middot; *boiled down*
+**Third person:** *boils down* &middot; **-ing form:** *boiling down*
+**Transitivity:** transitive
+
+To cook a liquid until much of it evaporates and what is left is thicker.
+
+1. *Boil down* the syrup until it coats the back of a spoon.
+2. She *boiled* the cream *down* by half.
+3. The sauce has been *boiling down* for twenty minutes.
+
+---
+
+### boil down
+
+**Pronunciation:** /ˈbɔɪl ˌdaʊn/ &middot; *BOYL down*
+**Русский:** сокращать, сократить; сжимать, сжать (текст)
+**Base verb:** *boil*
+**Separable:** separable — *boil down the report*, or *boil the report down*; with a pronoun it must split: *boil it down*
+**Forms:** *boil down* &middot; *boiled down* &middot; *boiled down*
+**Third person:** *boils down* &middot; **-ing form:** *boiling down*
+**Transitivity:** transitive
+
+To shorten a long piece of writing or speech to its main points.
+
+1. Can you *boil down* this report for the board?
+2. He *boiled* the whole argument *down* into three sentences.
+3. I've *boiled down* my notes for you.
+
+---
+
 ### boil down to
 
 **Pronunciation:** /ˈbɔɪl ˌdaʊn tə/ &middot; *BOYL down tuh*
@@ -1086,6 +1212,42 @@ For anger or tension to break out into open conflict.
 1. The argument *boiled over* in the parking lot.
 2. Tensions *boil over* every August.
 3. Things had been *boiling over* long before anyone called the police.
+
+---
+
+### boil up
+
+**Pronunciation:** /ˈbɔɪl ˌʌp/ &middot; *BOYL up*
+**Русский:** закипать, закипеть (о чувствах); нарастать, нарасти
+**Base verb:** *boil*
+**Separable:** inseparable — the feeling is the subject, not an object: *anger boiled up in him*, never ✗ *boil anger up*
+**Forms:** *boil up* &middot; *boiled up* &middot; *boiled up*
+**Third person:** *boils up* &middot; **-ing form:** *boiling up*
+**Transitivity:** intransitive
+
+For a strong feeling or a quarrel to grow and rise until it is hard to hold in.
+
+1. She could feel the anger *boil up* again.
+2. Resentment *boiled up* between the two departments.
+3. Something has been *boiling up* in that office for months.
+
+---
+
+### bomb out
+
+**Pronunciation:** /ˈbɑːm ˌaʊt/ &middot; *BAHM owt*
+**Русский:** проваливаться, провалиться; вылетать, вылететь (из соревнования)
+**Base verb:** *bomb*
+**Separable:** inseparable — *bomb out of the first round*, never ✗ *bomb the round out*
+**Forms:** *bomb out* &middot; *bombed out* &middot; *bombed out*
+**Third person:** *bombs out* &middot; **-ing form:** *bombing out*
+**Transitivity:** intransitive
+
+To fail badly and drop out of something, especially a contest.
+
+1. He *bombed out* in the first round of the tournament.
+2. If we *bomb out* here, the season is over.
+3. Two of the favorites have *bombed out* already.
 
 ---
 
@@ -1413,6 +1575,24 @@ To practice something you once knew well so that it comes back.
 
 ---
 
+### buck up
+
+**Pronunciation:** /ˈbʌk ˌʌp/ &middot; *BUK up*
+**Русский:** приободряться, приободриться; взбодриться; приободрять, приободрить
+**Base verb:** *buck*
+**Separable:** separable when it takes an object — *buck up the team*, and with a pronoun it must split: *buck them up*; most often it takes none: *buck up, it'll be fine*
+**Forms:** *buck up* &middot; *bucked up* &middot; *bucked up*
+**Third person:** *bucks up* &middot; **-ing form:** *bucking up*
+**Transitivity:** both — intransitive (buck up!), transitive (the news bucked us up)
+
+To become more cheerful and determined, or to make someone feel that way.
+
+1. *Buck up* — the worst of it is behind us.
+2. A phone call from his sister *bucked* him *up*.
+3. The whole team has *bucked up* since the new coach arrived.
+
+---
+
 ### buckle down
 
 **Pronunciation:** /ˈbʌkəl ˌdaʊn/ &middot; *BUK-uhl down*
@@ -1683,6 +1863,24 @@ To open a locked building door for someone by pressing a button inside.
 
 ---
 
+### buzz off
+
+**Pronunciation:** /ˈbʌz ˌɔːf/ &middot; *BUZ awf*
+**Русский:** убираться, убраться; отваливать, отвалить
+**Base verb:** *buzz*
+**Separable:** inseparable — it takes no object at all: *tell him to buzz off*, never ✗ *buzz him off*
+**Forms:** *buzz off* &middot; *buzzed off* &middot; *buzzed off*
+**Third person:** *buzzes off* &middot; **-ing form:** *buzzing off*
+**Transitivity:** intransitive
+
+To go away, said rudely to someone you want to leave you alone.
+
+1. *Buzz off* and let me finish this.
+2. The kids *buzzed off* as soon as the neighbor came outside.
+3. I wish those two had *buzzed off* an hour ago.
+
+---
+
 ### call around
 
 **Pronunciation:** /ˈkɔːl əˌraʊnd/ &middot; *KAWL uh-rownd*
@@ -1734,6 +1932,24 @@ To need or publicly demand something.
 1. This *calls for* a celebration.
 2. The recipe *called for* buttermilk, so I used yogurt.
 3. Senators have been *calling for* an investigation.
+
+---
+
+### call forth
+
+**Pronunciation:** /ˈkɔːl ˌfɔːrθ/ &middot; *KAWL forth*
+**Русский:** вызывать, вызвать (реакцию, чувства); пробуждать, пробудить
+**Base verb:** *call*
+**Separable:** inseparable — *call forth a response*, not ✗ *call a response forth*
+**Forms:** *call forth* &middot; *called forth* &middot; *called forth*
+**Third person:** *calls forth* &middot; **-ing form:** *calling forth*
+**Transitivity:** transitive
+
+To cause a feeling or a reaction to appear.
+
+1. The photograph *called forth* memories he had buried for years.
+2. A charge like that should *call forth* a full investigation.
+3. The speech has *called forth* praise from both parties.
 
 ---
 
@@ -2040,6 +2256,60 @@ To move something into the next period, or to continue into a new situation.
 1. You can *carry over* five vacation days into January.
 2. The balance *carried over* to the next statement.
 3. Her confidence from the first game is *carrying over*.
+
+---
+
+### carry through
+
+**Pronunciation:** /ˈkæri ˌθruː/ &middot; *KAR-ee throo*
+**Русский:** поддерживать, поддержать; помогать выстоять, помочь выстоять
+**Base verb:** *carry*
+**Separable:** separable — the person goes in the middle: *carried her through*, *carried him through the worst of it*
+**Forms:** *carry through* &middot; *carried through* &middot; *carried through*
+**Third person:** *carries through* &middot; **-ing form:** *carrying through*
+**Transitivity:** transitive
+
+For something to keep a person going through a hard time.
+
+1. Her sense of humor *carried* her *through* the whole ordeal.
+2. A little savings will *carry* us *through* until payday.
+3. That small pension is *carrying* them *through* the winter.
+
+---
+
+### carry through
+
+**Pronunciation:** /ˈkæri ˌθruː/ &middot; *KAR-ee throo*
+**Русский:** доводить до конца, довести до конца; осуществлять, осуществить
+**Base verb:** *carry*
+**Separable:** separable — *carry through the reform*, or *carry the reform through*; with a pronoun it must split: *carry it through*
+**Forms:** *carry through* &middot; *carried through* &middot; *carried through*
+**Third person:** *carries through* &middot; **-ing form:** *carrying through*
+**Transitivity:** transitive
+
+To finish something you started, all the way to the end.
+
+1. The mayor promised the plan but never *carried* it *through*.
+2. It takes stubbornness to *carry through* a project this long.
+3. The reforms were finally *carried through* last spring.
+
+---
+
+### cart off
+
+**Pronunciation:** /ˈkɑːrt ˌɔːf/ &middot; *KART awf*
+**Русский:** увозить, увезти; утаскивать, утащить
+**Base verb:** *cart*
+**Separable:** separable — *cart off the old desks*, or *cart the old desks off*; with a pronoun it must split: *cart him off*
+**Forms:** *cart off* &middot; *carted off* &middot; *carted off*
+**Third person:** *carts off* &middot; **-ing form:** *carting off*
+**Transitivity:** transitive
+
+To take someone or something away roughly and without ceremony.
+
+1. The police *carted* him *off* in handcuffs.
+2. Movers came at seven to *cart off* the old desks.
+3. Everything of value had already been *carted off*.
 
 ---
 
@@ -2979,6 +3249,24 @@ To act firmly in order to stop or limit something you consider harmful.
 
 ---
 
+### claw back
+
+**Pronunciation:** /ˈklɔː ˌbæk/ &middot; *KLAW bak*
+**Русский:** возвращать себе, вернуть себе; отбирать обратно, отобрать обратно
+**Base verb:** *claw*
+**Separable:** separable — *claw back the bonuses*, or *claw the bonuses back*; with a pronoun it must split: *claw it back*
+**Forms:** *claw back* &middot; *clawed back* &middot; *clawed back*
+**Third person:** *claws back* &middot; **-ing form:** *clawing back*
+**Transitivity:** transitive
+
+To get back money or ground that you had lost, and only with real effort.
+
+1. The company wants to *claw back* the bonuses it paid out.
+2. We *clawed* most of the deficit *back* in the second half.
+3. The state has *clawed back* millions in overpayments.
+
+---
+
 ### clean off
 
 **Pronunciation:** /ˈkliːn ˌɔːf/ &middot; *KLEEN awf*
@@ -3048,6 +3336,24 @@ To tidy the mess that someone or something else has made.
 1. I'm tired of *cleaning up after* everyone.
 2. She *cleaned up after* the party by herself.
 3. Somebody has to *clean up after* the dog.
+
+---
+
+### clear away
+
+**Pronunciation:** /ˈklɪr əˌweɪ/ &middot; *KLEER uh-way*
+**Русский:** убирать, убрать (со стола); расчищать, расчистить
+**Base verb:** *clear*
+**Separable:** separable — *clear away the plates*, or *clear the plates away*; with a pronoun it must split: *clear them away*
+**Forms:** *clear away* &middot; *cleared away* &middot; *cleared away*
+**Third person:** *clears away* &middot; **-ing form:** *clearing away*
+**Transitivity:** transitive
+
+To take things off a surface and put them where they belong.
+
+1. I'll *clear away* the dishes if you make the coffee.
+2. She *cleared* the papers *away* before the guests arrived.
+3. The tables had all been *cleared away* by ten.
 
 ---
 
@@ -3663,6 +3969,24 @@ To close off an area with barriers or tape so that people cannot enter.
 
 ---
 
+### cotton to
+
+**Pronunciation:** /ˈkɑːtən ˌtuː/ &middot; *KAH-tuhn too*
+**Русский:** проникаться симпатией, проникнуться (к кому-л.); одобрять, одобрить (идею)
+**Base verb:** *cotton*
+**Separable:** inseparable — what you take to follows *to*: *cotton to the idea*, never ✗ *cotton the idea to*.
+**Forms:** *cotton to* &middot; *cottoned to* &middot; *cottoned to*
+**Third person:** *cottons to* &middot; **-ing form:** *cottoning to*
+**Transitivity:** transitive
+
+To take a liking to someone, or to warm to an idea.
+
+1. The neighbors never *cottoned to* the new fence.
+2. He does not *cotton to* being told what to do.
+3. Investors have not *cottoned to* the idea at all.
+
+---
+
 ### cough up
 
 **Pronunciation:** /ˈkɔːf ˌʌp/ &middot; *KAWF up*
@@ -3678,6 +4002,24 @@ To hand over money or information that you did not want to give.
 1. We had to *cough up* two hundred dollars for the tow.
 2. He finally *coughed up* the name of his supplier.
 3. Nobody enjoys *coughing up* extra fees at checkout.
+
+---
+
+### count against
+
+**Pronunciation:** /ˈkaʊnt əˌɡɛnst/ &middot; *KOWNT uh-genst*
+**Русский:** идти в минус, быть минусом; вредить, повредить (при оценке)
+**Base verb:** *count*
+**Separable:** inseparable — the person it hurts follows *against*: *counted against him*, never ✗ *counted him against*.
+**Forms:** *count against* &middot; *counted against* &middot; *counted against*
+**Third person:** *counts against* &middot; **-ing form:** *counting against*
+**Transitivity:** transitive
+
+To be treated as a mark against someone who is being judged.
+
+1. A gap in your résumé should not *count against* you.
+2. The late payments *counted against* her loan application.
+3. Two missed shifts have already *counted against* his review.
 
 ---
 
@@ -4038,6 +4380,24 @@ To start a machine or an engine.
 1. He *cranked up* the generator when the power went out.
 2. I'll *crank* the grill *up* in a few minutes.
 3. She was *cranking up* the old tractor when we pulled in.
+
+---
+
+### crash out
+
+**Pronunciation:** /ˈkræʃ ˌaʊt/ &middot; *KRASH owt*
+**Русский:** вырубаться, вырубиться (заснуть); заваливаться спать, завалиться
+**Base verb:** *crash*
+**Separable:** no object — intransitive; the place follows the whole phrase: *crashed out on the couch*.
+**Forms:** *crash out* &middot; *crashed out* &middot; *crashed out*
+**Third person:** *crashes out* &middot; **-ing form:** *crashing out*
+**Transitivity:** intransitive
+
+To fall asleep suddenly from exhaustion, usually not in your own bed.
+
+1. He *crashed out* on the couch with his shoes still on.
+2. I will *crash out* the second we get back to the hotel.
+3. Half the crew was *crashing out* in the van between shoots.
 
 ---
 

@@ -38,7 +38,7 @@ Add has 3 distinct senses.
 8. They *added* a second bathroom last year.
 9. We are *adding* two more chairs to the table.
 
-**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
+**Phrasal verbs:** [add in](53-phrasal-regular-a-c.md#add-in) &middot; [add on](53-phrasal-regular-a-c.md#add-on) &middot; [add to](22-verb-preposition.md#add-to) &middot; [add up](53-phrasal-regular-a-c.md#add-up-1) &middot; [add up](53-phrasal-regular-a-c.md#add-up) &middot; [add up](53-phrasal-regular-a-c.md#add-up-2) &middot; [add up to](53-phrasal-regular-a-c.md#add-up-to)
 
 ---
 
@@ -235,7 +235,7 @@ Ask has 3 distinct senses.
 8. We're *asking* the neighbors to dinner on Saturday.
 9. I haven't *asked* him to the party yet.
 
-**Phrasal verbs:** [ask after](53-phrasal-regular-a-c.md#ask-after) &middot; [ask around](53-phrasal-regular-a-c.md#ask-around) &middot; [ask for, ask about](22-verb-preposition.md#ask-for-ask-about) &middot; [ask out](53-phrasal-regular-a-c.md#ask-out) &middot; [ask over](53-phrasal-regular-a-c.md#ask-over)
+**Phrasal verbs:** [ask after](53-phrasal-regular-a-c.md#ask-after) &middot; [ask around](53-phrasal-regular-a-c.md#ask-around) &middot; [ask for](53-phrasal-regular-a-c.md#ask-for) &middot; [ask for](53-phrasal-regular-a-c.md#ask-for-1) &middot; [ask for, ask about](22-verb-preposition.md#ask-for-ask-about) &middot; [ask out](53-phrasal-regular-a-c.md#ask-out) &middot; [ask over](53-phrasal-regular-a-c.md#ask-over)
 
 ---
 
@@ -272,6 +272,8 @@ To ask for something in a very urgent, humble way.
 1. Don't make me *beg*.
 2. He *begged* her not to tell anyone.
 3. The dog sat *begging* under the table.
+
+**Phrasal verbs:** [beg off](53-phrasal-regular-a-c.md#beg-off)
 
 ---
 
@@ -342,7 +344,7 @@ Call has 3 distinct senses.
 8. The union has *called* a strike for Monday.
 9. The coach *calls* a timeout with a minute left.
 
-**Phrasal verbs:** [call around](53-phrasal-regular-a-c.md#call-around) &middot; [call back](53-phrasal-regular-a-c.md#call-back) &middot; [call for](53-phrasal-regular-a-c.md#call-for) &middot; [call in](53-phrasal-regular-a-c.md#call-in) &middot; [call in](53-phrasal-regular-a-c.md#call-in-1) &middot; [call off](53-phrasal-regular-a-c.md#call-off) &middot; [call on](53-phrasal-regular-a-c.md#call-on) &middot; [call out](53-phrasal-regular-a-c.md#call-out) &middot; [call up](53-phrasal-regular-a-c.md#call-up) &middot; [call up](53-phrasal-regular-a-c.md#call-up-1)
+**Phrasal verbs:** [call around](53-phrasal-regular-a-c.md#call-around) &middot; [call back](53-phrasal-regular-a-c.md#call-back) &middot; [call for](53-phrasal-regular-a-c.md#call-for) &middot; [call forth](53-phrasal-regular-a-c.md#call-forth) &middot; [call in](53-phrasal-regular-a-c.md#call-in-1) &middot; [call in](53-phrasal-regular-a-c.md#call-in) &middot; [call off](53-phrasal-regular-a-c.md#call-off) &middot; [call on](53-phrasal-regular-a-c.md#call-on) &middot; [call out](53-phrasal-regular-a-c.md#call-out) &middot; [call up](53-phrasal-regular-a-c.md#call-up) &middot; [call up](53-phrasal-regular-a-c.md#call-up-1)
 
 ---
 
@@ -2308,7 +2310,7 @@ Talk has 2 distinct senses.
 5. They were afraid he would *talk*.
 6. Nobody in the crew has *talked* yet.
 
-**Phrasal verbs:** [talk back](58-phrasal-regular-t-z.md#talk-back) &middot; [talk down to](58-phrasal-regular-t-z.md#talk-down-to) &middot; [talk into](58-phrasal-regular-t-z.md#talk-into) &middot; [talk out of](58-phrasal-regular-t-z.md#talk-out-of) &middot; [talk over](58-phrasal-regular-t-z.md#talk-over) &middot; [talk through](58-phrasal-regular-t-z.md#talk-through) &middot; [talk to, talk with, talk about](22-verb-preposition.md#talk-to-talk-with-talk-about) &middot; [talk up](58-phrasal-regular-t-z.md#talk-up)
+**Phrasal verbs:** [talk about](58-phrasal-regular-t-z.md#talk-about) &middot; [talk around](58-phrasal-regular-t-z.md#talk-around) &middot; [talk around](58-phrasal-regular-t-z.md#talk-around-1) &middot; [talk at](58-phrasal-regular-t-z.md#talk-at) &middot; [talk back](58-phrasal-regular-t-z.md#talk-back) &middot; [talk down](58-phrasal-regular-t-z.md#talk-down-1) &middot; [talk down](58-phrasal-regular-t-z.md#talk-down) &middot; [talk down](58-phrasal-regular-t-z.md#talk-down-2) &middot; [talk down to](58-phrasal-regular-t-z.md#talk-down-to) &middot; [talk into](58-phrasal-regular-t-z.md#talk-into) &middot; [talk out](58-phrasal-regular-t-z.md#talk-out) &middot; [talk out of](58-phrasal-regular-t-z.md#talk-out-of) &middot; [talk over](58-phrasal-regular-t-z.md#talk-over) &middot; [talk through](58-phrasal-regular-t-z.md#talk-through) &middot; [talk to, talk with, talk about](22-verb-preposition.md#talk-to-talk-with-talk-about) &middot; [talk up](58-phrasal-regular-t-z.md#talk-up)
 
 ---
 

@@ -297,6 +297,24 @@ To disappear completely over time, leaving nothing of its kind.
 
 ---
 
+### dine out
+
+**Pronunciation:** /ˈdaɪn ˌaʊt/ &middot; *DYN owt*
+**Русский:** ужинать вне дома, поужинать в ресторане
+**Base verb:** *dine*
+**Separable:** no object — intransitive; nothing comes between the two words.
+**Forms:** *dine out* &middot; *dined out* &middot; *dined out*
+**Third person:** *dines out* &middot; **-ing form:** *dining out*
+**Transitivity:** intransitive
+
+To eat a meal at a restaurant instead of at home.
+
+1. They *dine out* twice a month, always on a Friday.
+2. We *dined out* every night of the trip.
+3. Families have been *dining out* less since prices went up.
+
+---
+
 ### dip into
 
 **Pronunciation:** /ˈdɪp ˌɪntuː/ &middot; *DIP in-too*
@@ -675,6 +693,24 @@ To make something last much longer than it needs to.
 
 ---
 
+### drag out of
+
+**Pronunciation:** /ˈdræɡ ˌaʊt əv/ &middot; *DRAG owt uhv*
+**Русский:** вытягивать, вытянуть (из кого-л.); выпытывать, выпытать
+**Base verb:** *drag*
+**Separable:** separable, and it must split — what you extract sits in the middle: *drag the truth out of him*, *drag it out of her*; ✗ *drag out of him the truth* is impossible.
+**Forms:** *drag out of* &middot; *dragged out of* &middot; *dragged out of*
+**Third person:** *drags out of* &middot; **-ing form:** *dragging out of*
+**Transitivity:** transitive
+
+To get information or an admission from someone who does not want to give it.
+
+1. It took an hour to *drag* the whole story *out of* him.
+2. She *dragged* an apology *out of* her brother at the table.
+3. I am tired of *dragging* answers *out of* that office.
+
+---
+
 ### drag up
 
 **Pronunciation:** /ˈdræɡ ˌʌp/ &middot; *DRAG up*
@@ -978,6 +1014,24 @@ To be so loud that another sound cannot be heard.
 1. The band *drowned out* the announcement.
 2. Traffic *drowns* him *out* on that corner.
 3. Her voice was *drowned out* by the crowd.
+
+---
+
+### drum out
+
+**Pronunciation:** /ˈdrʌm ˌaʊt/ &middot; *DRUM owt*
+**Русский:** изгонять, изгнать (с позором); исключать, исключить
+**Base verb:** *drum*
+**Separable:** separable — *drum out the troublemakers* or *drum the troublemakers out*; with a pronoun it must split: *drummed him out*.
+**Forms:** *drum out* &middot; *drummed out* &middot; *drummed out*
+**Third person:** *drums out* &middot; **-ing form:** *drumming out*
+**Transitivity:** transitive
+
+To force someone out of a group or a profession in disgrace.
+
+1. Two officers were *drummed out* of the department after the hearing.
+2. The party is trying to *drum* her *out* before the convention.
+3. They *drummed* him *out* for taking money from a contractor.
 
 ---
 
@@ -2745,6 +2799,42 @@ To force a person or an animal out of a hiding place.
 
 ---
 
+### fob off
+
+**Pronunciation:** /ˈfɑːb ˌɔːf/ &middot; *FAHB awf*
+**Русский:** отделываться, отделаться (от кого-л. отговоркой); отфутболивать, отфутболить
+**Base verb:** *fob*
+**Separable:** separable — the person goes in the middle: *fob him off*, *fob the customer off with a coupon*.
+**Forms:** *fob off* &middot; *fobbed off* &middot; *fobbed off*
+**Third person:** *fobs off* &middot; **-ing form:** *fobbing off*
+**Transitivity:** transitive
+
+To get rid of someone by offering an excuse instead of real help.
+
+1. The airline *fobbed* us *off* with a ten-dollar meal voucher.
+2. Do not let them *fob* you *off* again.
+3. She has been *fobbed off* by three different departments.
+
+---
+
+### fob off
+
+**Pronunciation:** /ˈfɑːb ˌɔːf/ &middot; *FAHB awf*
+**Русский:** сбывать, сбыть (некачественное); всучивать, всучить
+**Base verb:** *fob*
+**Separable:** separable — *fob off a fake* or *fob the fake off*; the buyer follows *on*: *fob it off on a tourist*.
+**Forms:** *fob off* &middot; *fobbed off* &middot; *fobbed off*
+**Third person:** *fobs off* &middot; **-ing form:** *fobbing off*
+**Transitivity:** transitive
+
+To pass something worthless to someone by making it look better than it is.
+
+1. The dealer *fobbed off* a rebuilt engine as new.
+2. He tried to *fob* the broken mower *off* on his neighbor.
+3. Counterfeits are being *fobbed off* on collectors online.
+
+---
+
 ### fold in
 
 **Pronunciation:** /ˈfoʊld ˌɪn/ &middot; *FOHLD in*
@@ -3012,6 +3102,24 @@ To keep moving forward with determination in spite of difficulty.
 1. The city is *forging ahead* with the bridge project.
 2. They *forged ahead* even after the funding fell through.
 3. He *forges ahead* while everyone else is still arguing.
+
+---
+
+### fork out
+
+**Pronunciation:** /ˈfɔːrk ˌaʊt/ &middot; *FORK owt*
+**Русский:** выкладывать, выложить (деньги); раскошеливаться, раскошелиться
+**Base verb:** *fork*
+**Separable:** separable — *fork out the deposit* and *fork it out*; with no object it takes *for*: *fork out for a new roof*.
+**Forms:** *fork out* &middot; *forked out* &middot; *forked out*
+**Third person:** *forks out* &middot; **-ing form:** *forking out*
+**Transitivity:** both — transitive (*fork out four hundred dollars*), intransitive (*fork out for a new roof*)
+
+To pay money for something, usually more than you would like to.
+
+1. We *forked out* almost two thousand dollars for that repair.
+2. He will *fork* it *out* eventually, but he will grumble for a week.
+3. Her parents have been *forking out* for tuition since September.
 
 ---
 

@@ -2005,7 +2005,7 @@ Check has 4 distinct senses.
 11. The new rules *checked* the rise in rents.
 12. The fire was finally *checked* at the ridge.
 
-**Phrasal verbs:** [check back](53-phrasal-regular-a-c.md#check-back) &middot; [check in](53-phrasal-regular-a-c.md#check-in) &middot; [check in](53-phrasal-regular-a-c.md#check-in-1) &middot; [check in on](53-phrasal-regular-a-c.md#check-in-on) &middot; [check into](53-phrasal-regular-a-c.md#check-into) &middot; [check off](53-phrasal-regular-a-c.md#check-off) &middot; [check out](53-phrasal-regular-a-c.md#check-out-2) &middot; [check out](53-phrasal-regular-a-c.md#check-out-1) &middot; [check out](53-phrasal-regular-a-c.md#check-out) &middot; [check over](53-phrasal-regular-a-c.md#check-over) &middot; [check up on](22-verb-preposition.md#check-up-on) &middot; [check with](53-phrasal-regular-a-c.md#check-with)
+**Phrasal verbs:** [check back](53-phrasal-regular-a-c.md#check-back) &middot; [check in](53-phrasal-regular-a-c.md#check-in) &middot; [check in](53-phrasal-regular-a-c.md#check-in-1) &middot; [check in on](53-phrasal-regular-a-c.md#check-in-on) &middot; [check into](53-phrasal-regular-a-c.md#check-into) &middot; [check off](53-phrasal-regular-a-c.md#check-off) &middot; [check out](53-phrasal-regular-a-c.md#check-out-1) &middot; [check out](53-phrasal-regular-a-c.md#check-out) &middot; [check out](53-phrasal-regular-a-c.md#check-out-2) &middot; [check over](53-phrasal-regular-a-c.md#check-over) &middot; [check up on](22-verb-preposition.md#check-up-on) &middot; [check with](53-phrasal-regular-a-c.md#check-with)
 
 ---
 

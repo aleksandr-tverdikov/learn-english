@@ -568,6 +568,8 @@ To go up something using hands and feet, or simply to rise.
 13. The plane *climbs* to cruising altitude in about twelve minutes.
 14. We *had climbed* to thirty thousand feet before the seatbelt sign went off.
 
+**Phrasal verbs:** [climb down](65-phrasal-irregular-more-a-l.md#climb-down-1) &middot; [climb down](65-phrasal-irregular-more-a-l.md#climb-down)
+
 **See also:** [strike](#strike), [stick](#stick)
 
 ### cling
@@ -1128,7 +1130,7 @@ To obtain or receive something, to become something, or to arrive somewhere — 
 33. He *has* never *gotten along* with his landlord.
 
 
-**Phrasal verbs:** [get across](17-phrasal-g.md#get-across) &middot; [get after](17-phrasal-g.md#get-after) &middot; [get ahead](17-phrasal-g.md#get-ahead) &middot; [get along](17-phrasal-g.md#get-along) &middot; [get along with](22-verb-preposition.md#get-along-with) &middot; [get around](17-phrasal-g.md#get-around) &middot; [get around to](17-phrasal-g.md#get-around-to) &middot; [get at](17-phrasal-g.md#get-at) &middot; [get away](17-phrasal-g.md#get-away) &middot; [get away with](17-phrasal-g.md#get-away-with) &middot; [get back](17-phrasal-g.md#get-back) &middot; [get back at](17-phrasal-g.md#get-back-at) &middot; [get back to](17-phrasal-g.md#get-back-to) &middot; [get behind](17-phrasal-g.md#get-behind) &middot; [get by](17-phrasal-g.md#get-by) &middot; [get down](17-phrasal-g.md#get-down) &middot; [get down to](17-phrasal-g.md#get-down-to) &middot; [get in](17-phrasal-g.md#get-in) &middot; [get in on](17-phrasal-g.md#get-in-on) &middot; [get into](17-phrasal-g.md#get-into) &middot; [get off](17-phrasal-g.md#get-off) &middot; [get off on](17-phrasal-g.md#get-off-on) &middot; [get on](17-phrasal-g.md#get-on) &middot; [get on with](17-phrasal-g.md#get-on-with) &middot; [get out](17-phrasal-g.md#get-out) &middot; [get out of](17-phrasal-g.md#get-out-of) &middot; [get over](17-phrasal-g.md#get-over) &middot; [get over with](17-phrasal-g.md#get-over-with) &middot; [get rid of](22-verb-preposition.md#get-rid-of) &middot; [get through](17-phrasal-g.md#get-through) &middot; [get through to](17-phrasal-g.md#get-through-to) &middot; [get to](17-phrasal-g.md#get-to) &middot; [get together](17-phrasal-g.md#get-together) &middot; [get up](17-phrasal-g.md#get-up) &middot; [get up to](17-phrasal-g.md#get-up-to) &middot; [get used to, get accustomed to](22-verb-preposition.md#get-used-to-get-accustomed-to)
+**Phrasal verbs:** [get about](65-phrasal-irregular-more-a-l.md#get-about) &middot; [get across](17-phrasal-g.md#get-across) &middot; [get after](17-phrasal-g.md#get-after) &middot; [get ahead](17-phrasal-g.md#get-ahead) &middot; [get along](17-phrasal-g.md#get-along) &middot; [get along with](22-verb-preposition.md#get-along-with) &middot; [get around](17-phrasal-g.md#get-around) &middot; [get around to](17-phrasal-g.md#get-around-to) &middot; [get at](17-phrasal-g.md#get-at) &middot; [get away](17-phrasal-g.md#get-away) &middot; [get away with](17-phrasal-g.md#get-away-with) &middot; [get back](17-phrasal-g.md#get-back) &middot; [get back at](17-phrasal-g.md#get-back-at) &middot; [get back to](17-phrasal-g.md#get-back-to) &middot; [get behind](17-phrasal-g.md#get-behind) &middot; [get by](17-phrasal-g.md#get-by) &middot; [get down](17-phrasal-g.md#get-down) &middot; [get down to](17-phrasal-g.md#get-down-to) &middot; [get in](17-phrasal-g.md#get-in) &middot; [get in on](17-phrasal-g.md#get-in-on) &middot; [get into](17-phrasal-g.md#get-into) &middot; [get off](17-phrasal-g.md#get-off) &middot; [get off on](17-phrasal-g.md#get-off-on) &middot; [get on](17-phrasal-g.md#get-on) &middot; [get on with](17-phrasal-g.md#get-on-with) &middot; [get onto](65-phrasal-irregular-more-a-l.md#get-onto) &middot; [get onto](65-phrasal-irregular-more-a-l.md#get-onto-1) &middot; [get out](17-phrasal-g.md#get-out) &middot; [get out of](17-phrasal-g.md#get-out-of) &middot; [get over](17-phrasal-g.md#get-over) &middot; [get over with](17-phrasal-g.md#get-over-with) &middot; [get rid of](22-verb-preposition.md#get-rid-of) &middot; [get round](65-phrasal-irregular-more-a-l.md#get-round) &middot; [get through](17-phrasal-g.md#get-through) &middot; [get through to](17-phrasal-g.md#get-through-to) &middot; [get to](17-phrasal-g.md#get-to) &middot; [get together](17-phrasal-g.md#get-together) &middot; [get up](17-phrasal-g.md#get-up) &middot; [get up to](17-phrasal-g.md#get-up-to) &middot; [get used to, get accustomed to](22-verb-preposition.md#get-used-to-get-accustomed-to)
 
 **See also:** [beget](#beget), [tread](#tread)
 
@@ -1244,7 +1246,7 @@ To fasten something so that it dangles, or to be suspended.
 18. The terminal *had hung* for ten minutes before I killed it.
 
 
-**Phrasal verbs:** [hang around](18-phrasal-h-l.md#hang-around) &middot; [hang back](18-phrasal-h-l.md#hang-back) &middot; [hang in](18-phrasal-h-l.md#hang-in) &middot; [hang on](18-phrasal-h-l.md#hang-on) &middot; [hang on to](18-phrasal-h-l.md#hang-on-to) &middot; [hang out](18-phrasal-h-l.md#hang-out) &middot; [hang out with](22-verb-preposition.md#hang-out-with) &middot; [hang over](18-phrasal-h-l.md#hang-over) &middot; [hang together](18-phrasal-h-l.md#hang-together) &middot; [hang up](18-phrasal-h-l.md#hang-up)
+**Phrasal verbs:** [hang about](65-phrasal-irregular-more-a-l.md#hang-about) &middot; [hang around](18-phrasal-h-l.md#hang-around) &middot; [hang back](18-phrasal-h-l.md#hang-back) &middot; [hang in](18-phrasal-h-l.md#hang-in) &middot; [hang on](18-phrasal-h-l.md#hang-on) &middot; [hang on to](18-phrasal-h-l.md#hang-on-to) &middot; [hang out](18-phrasal-h-l.md#hang-out) &middot; [hang out with](22-verb-preposition.md#hang-out-with) &middot; [hang over](18-phrasal-h-l.md#hang-over) &middot; [hang together](18-phrasal-h-l.md#hang-together) &middot; [hang up](18-phrasal-h-l.md#hang-up)
 
 **See also:** [overhang](#overhang), [cling](#cling), [sling](#sling), [swing](#swing)
 
@@ -1368,7 +1370,7 @@ To keep something in your hands, or to keep anything at all in a fixed state.
 25. She *has held off* on buying anything until spring.
 
 
-**Phrasal verbs:** [hold against](18-phrasal-h-l.md#hold-against) &middot; [hold back](18-phrasal-h-l.md#hold-back) &middot; [hold down](18-phrasal-h-l.md#hold-down) &middot; [hold forth](18-phrasal-h-l.md#hold-forth) &middot; [hold off](18-phrasal-h-l.md#hold-off) &middot; [hold on](18-phrasal-h-l.md#hold-on) &middot; [hold on to](18-phrasal-h-l.md#hold-on-to) &middot; [hold out](18-phrasal-h-l.md#hold-out) &middot; [hold out for](18-phrasal-h-l.md#hold-out-for) &middot; [hold out on](18-phrasal-h-l.md#hold-out-on) &middot; [hold over](18-phrasal-h-l.md#hold-over) &middot; [hold together](18-phrasal-h-l.md#hold-together) &middot; [hold up](18-phrasal-h-l.md#hold-up) &middot; [hold with](18-phrasal-h-l.md#hold-with)
+**Phrasal verbs:** [hold against](18-phrasal-h-l.md#hold-against) &middot; [hold back](18-phrasal-h-l.md#hold-back) &middot; [hold down](18-phrasal-h-l.md#hold-down) &middot; [hold forth](18-phrasal-h-l.md#hold-forth) &middot; [hold in](65-phrasal-irregular-more-a-l.md#hold-in) &middot; [hold off](18-phrasal-h-l.md#hold-off) &middot; [hold on](18-phrasal-h-l.md#hold-on) &middot; [hold on to](18-phrasal-h-l.md#hold-on-to) &middot; [hold out](18-phrasal-h-l.md#hold-out) &middot; [hold out for](18-phrasal-h-l.md#hold-out-for) &middot; [hold out on](18-phrasal-h-l.md#hold-out-on) &middot; [hold over](18-phrasal-h-l.md#hold-over) &middot; [hold together](18-phrasal-h-l.md#hold-together) &middot; [hold up](18-phrasal-h-l.md#hold-up) &middot; [hold with](18-phrasal-h-l.md#hold-with)
 
 **See also:** [behold](#behold), [uphold](#uphold), [withhold](#withhold)
 
@@ -1517,7 +1519,7 @@ To set something burning, or to fill a place with light.
 13. He *had lit out* before anyone noticed he was gone.
 
 
-**Phrasal verbs:** [light on](18-phrasal-h-l.md#light-on) &middot; [light out](18-phrasal-h-l.md#light-out) &middot; [light up](18-phrasal-h-l.md#light-up)
+**Phrasal verbs:** [light into](65-phrasal-irregular-more-a-l.md#light-into) &middot; [light on](18-phrasal-h-l.md#light-on) &middot; [light out](18-phrasal-h-l.md#light-out) &middot; [light up](18-phrasal-h-l.md#light-up)
 
 **See also:** [alight](#alight), [backlight](#backlight), [floodlight](#floodlight), [spotlight](#spotlight)
 
@@ -2040,7 +2042,7 @@ To fire a weapon, to send something moving fast, or to record images with a came
 27. The seed potatoes *have shot* in the bag.
 
 
-**Phrasal verbs:** [shoot down](20-phrasal-s.md#shoot-down) &middot; [shoot for](20-phrasal-s.md#shoot-for) &middot; [shoot up](20-phrasal-s.md#shoot-up)
+**Phrasal verbs:** [shoot down](20-phrasal-s.md#shoot-down) &middot; [shoot for](20-phrasal-s.md#shoot-for) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out-2) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out-1) &middot; [shoot through](66-phrasal-irregular-more-m-z.md#shoot-through) &middot; [shoot up](20-phrasal-s.md#shoot-up)
 
 **See also:** [overshoot](#overshoot), [reshoot](#reshoot), [troubleshoot](#troubleshoot)
 
@@ -2115,7 +2117,7 @@ To rest on your seat, to be positioned somewhere, or to serve as a member of a b
 27. The patient *has sat up* on her own since Tuesday.
 
 
-**Phrasal verbs:** [sit around](20-phrasal-s.md#sit-around) &middot; [sit back](20-phrasal-s.md#sit-back) &middot; [sit in](20-phrasal-s.md#sit-in) &middot; [sit in for](20-phrasal-s.md#sit-in-for) &middot; [sit in on](20-phrasal-s.md#sit-in-on) &middot; [sit on](20-phrasal-s.md#sit-on) &middot; [sit out](20-phrasal-s.md#sit-out) &middot; [sit through](20-phrasal-s.md#sit-through) &middot; [sit up](20-phrasal-s.md#sit-up)
+**Phrasal verbs:** [sit around](20-phrasal-s.md#sit-around) &middot; [sit back](20-phrasal-s.md#sit-back) &middot; [sit down](66-phrasal-irregular-more-m-z.md#sit-down-1) &middot; [sit down](66-phrasal-irregular-more-m-z.md#sit-down) &middot; [sit in](20-phrasal-s.md#sit-in) &middot; [sit in for](20-phrasal-s.md#sit-in-for) &middot; [sit in on](20-phrasal-s.md#sit-in-on) &middot; [sit on](20-phrasal-s.md#sit-on) &middot; [sit out](20-phrasal-s.md#sit-out) &middot; [sit through](20-phrasal-s.md#sit-through) &middot; [sit up](20-phrasal-s.md#sit-up)
 
 **See also:** [baby-sit](#baby-sit), [spit](#spit), [stand](#stand)
 
@@ -2164,6 +2166,8 @@ To move smoothly over a surface, or to decline gradually.
 13. I'll *let* it *slide* this time.
 14. They *let* the maintenance *slide* for years.
 15. He *has let* his training *slide* since the injury.
+
+**Phrasal verbs:** [slide over](66-phrasal-irregular-more-m-z.md#slide-over-1) &middot; [slide over](66-phrasal-irregular-more-m-z.md#slide-over)
 
 **See also:** [backslide](#backslide)
 
@@ -2565,7 +2569,7 @@ To be on your feet, to be positioned or situated somewhere, or to remain in forc
 36. He *has stood up for* that kid since day one.
 
 
-**Phrasal verbs:** [stand around](20-phrasal-s.md#stand-around) &middot; [stand aside](20-phrasal-s.md#stand-aside) &middot; [stand back](20-phrasal-s.md#stand-back) &middot; [stand by](20-phrasal-s.md#stand-by) &middot; [stand down](20-phrasal-s.md#stand-down) &middot; [stand for](20-phrasal-s.md#stand-for) &middot; [stand in](20-phrasal-s.md#stand-in) &middot; [stand in for](20-phrasal-s.md#stand-in-for) &middot; [stand out](20-phrasal-s.md#stand-out) &middot; [stand up](20-phrasal-s.md#stand-up) &middot; [stand up for](20-phrasal-s.md#stand-up-for) &middot; [stand up to](20-phrasal-s.md#stand-up-to)
+**Phrasal verbs:** [stand around](20-phrasal-s.md#stand-around) &middot; [stand aside](20-phrasal-s.md#stand-aside) &middot; [stand back](20-phrasal-s.md#stand-back) &middot; [stand by](20-phrasal-s.md#stand-by) &middot; [stand down](20-phrasal-s.md#stand-down) &middot; [stand for](20-phrasal-s.md#stand-for) &middot; [stand in](20-phrasal-s.md#stand-in) &middot; [stand in for](20-phrasal-s.md#stand-in-for) &middot; [stand on](66-phrasal-irregular-more-m-z.md#stand-on) &middot; [stand out](20-phrasal-s.md#stand-out) &middot; [stand over](66-phrasal-irregular-more-m-z.md#stand-over) &middot; [stand up](20-phrasal-s.md#stand-up) &middot; [stand up for](20-phrasal-s.md#stand-up-for) &middot; [stand up to](20-phrasal-s.md#stand-up-to)
 
 **See also:** [understand](#understand), [misunderstand](#misunderstand), [withstand](#withstand), [sit](#sit)
 
@@ -2678,7 +2682,7 @@ To attach or adhere, to push something pointed into something, or to become fixe
 30. He *has stuck up for* his brother his whole life.
 
 
-**Phrasal verbs:** [stick around](20-phrasal-s.md#stick-around) &middot; [stick at](20-phrasal-s.md#stick-at) &middot; [stick by](20-phrasal-s.md#stick-by) &middot; [stick out](20-phrasal-s.md#stick-out) &middot; [stick to](20-phrasal-s.md#stick-to) &middot; [stick together](20-phrasal-s.md#stick-together) &middot; [stick up](20-phrasal-s.md#stick-up) &middot; [stick up for](20-phrasal-s.md#stick-up-for) &middot; [stick with](20-phrasal-s.md#stick-with)
+**Phrasal verbs:** [stick around](20-phrasal-s.md#stick-around) &middot; [stick at](20-phrasal-s.md#stick-at) &middot; [stick by](20-phrasal-s.md#stick-by) &middot; [stick down](66-phrasal-irregular-more-m-z.md#stick-down) &middot; [stick out](20-phrasal-s.md#stick-out) &middot; [stick to](20-phrasal-s.md#stick-to) &middot; [stick together](20-phrasal-s.md#stick-together) &middot; [stick up](20-phrasal-s.md#stick-up) &middot; [stick up for](20-phrasal-s.md#stick-up-for) &middot; [stick with](20-phrasal-s.md#stick-with)
 
 **See also:** [strike](#strike), [dig](#dig), [sneak](#sneak)
 
@@ -2807,7 +2811,7 @@ To hit something, to stop work in protest, or to produce a sudden and forceful e
 33. The band *has struck up* the same tune three times tonight.
 
 
-**Phrasal verbs:** [strike back](20-phrasal-s.md#strike-back) &middot; [strike down](20-phrasal-s.md#strike-down) &middot; [strike off](20-phrasal-s.md#strike-off) &middot; [strike on](20-phrasal-s.md#strike-on) &middot; [strike out](20-phrasal-s.md#strike-out) &middot; [strike up](20-phrasal-s.md#strike-up)
+**Phrasal verbs:** [strike back](20-phrasal-s.md#strike-back) &middot; [strike down](20-phrasal-s.md#strike-down) &middot; [strike off](20-phrasal-s.md#strike-off) &middot; [strike on](20-phrasal-s.md#strike-on) &middot; [strike out](20-phrasal-s.md#strike-out) &middot; [strike through](66-phrasal-irregular-more-m-z.md#strike-through) &middot; [strike up](20-phrasal-s.md#strike-up)
 
 **See also:** [stick](#stick), [sneak](#sneak), [climb](#climb)
 

@@ -433,6 +433,24 @@ To rise and float in the air with no visible support.
 
 ---
 
+### liaise
+
+**Pronunciation:** /liˈeɪz/ &middot; *lee-AYZ*
+**Русский:** поддерживать связь, координировать действия
+**Forms:** *liaise* &middot; *liaised* &middot; *liaised*
+**Third person:** *liaises* &middot; **-ing form:** *liaising*
+**Verb class:** regular
+**Transitivity:** intransitive — with *with* and often *between*
+**Contrast:** A back-formation from the noun *liaison*, and the spelling trips everyone: **lia-ise**, three vowels in a row. Commoner in British and corporate English than in ordinary American speech, where *coordinate with* or *work with* usually replaces it. Takes *with*, never a bare object.
+
+To act as the link between two groups so that each knows what the other is doing.
+
+1. She *liaises* with the vendors on delivery dates.
+2. He *liaised* between the two departments for a year.
+3. We have been *liaising* with the county since spring.
+
+---
+
 ### liberalize
 
 **Pronunciation:** /ˈlɪbərəlaɪz/ &middot; *LIB-ur-uh-lyz*
@@ -2884,6 +2902,24 @@ To leave something out, on purpose or by mistake.
 1. *Omit* the middle name if the form has no room for it.
 2. The report *omitted* the cost of repairs.
 3. Two witnesses were *omitted* from the list.
+
+---
+
+### onboard
+
+**Pronunciation:** /ˈɑːnˌbɔːrd/ &middot; *AHN-bord*
+**Русский:** вводить в должность, адаптировать нового сотрудника; подключать клиента
+**Forms:** *onboard* &middot; *onboarded* &middot; *onboarded*
+**Third person:** *onboards* &middot; **-ing form:** *onboarding*
+**Verb class:** regular
+**Transitivity:** transitive
+**Contrast:** Business jargon, and recent — it is a verb made from the phrase *on board*, which is still two words as an adverb: *welcome on board*. Write the verb solid (*onboard*, *onboarding*) and the adverb open. Outside the workplace this will sound like jargon, because it is.
+
+To take a new employee or customer through the steps that get them set up and working.
+
+1. We *onboard* new hires the first Monday of the month.
+2. They *onboarded* four hundred customers in a quarter.
+3. She is still being *onboarded*.
 
 ---
 

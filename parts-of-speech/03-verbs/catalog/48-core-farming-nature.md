@@ -230,7 +230,7 @@ Water has 2 distinct senses.
 5. His eyes *watered* in the cold wind.
 6. The smell from the bakery had my mouth *watering*.
 
-**Phrasal verbs:** [water down](58-phrasal-regular-t-z.md#water-down) &middot; [water down](58-phrasal-regular-t-z.md#water-down-1)
+**Phrasal verbs:** [water down](58-phrasal-regular-t-z.md#water-down-1) &middot; [water down](58-phrasal-regular-t-z.md#water-down)
 
 ---
 
@@ -285,6 +285,8 @@ To gather or smooth something with a rake.
 1. We *rake* the leaves every November.
 2. He *raked* the gravel smooth.
 3. The kids are *raking* the back yard.
+
+**Phrasal verbs:** [rake in](57-phrasal-regular-q-s.md#rake-in) &middot; [rake up](57-phrasal-regular-q-s.md#rake-up)
 
 ---
 
@@ -681,7 +683,7 @@ Pick has 3 distinct senses.
 8. She *picked* a splinter out of her thumb with a needle.
 9. Don't *pick* that scab or it will scar.
 
-**Phrasal verbs:** [pick apart](56-phrasal-regular-m-p.md#pick-apart) &middot; [pick at](56-phrasal-regular-m-p.md#pick-at) &middot; [pick off](56-phrasal-regular-m-p.md#pick-off) &middot; [pick on](56-phrasal-regular-m-p.md#pick-on) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out-1) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-4) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-5) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-6) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-8) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-1) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-3) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-10) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-7) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-2) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-9) &middot; [pick up after](56-phrasal-regular-m-p.md#pick-up-after) &middot; [pick up on](56-phrasal-regular-m-p.md#pick-up-on)
+**Phrasal verbs:** [pick apart](56-phrasal-regular-m-p.md#pick-apart) &middot; [pick at](56-phrasal-regular-m-p.md#pick-at) &middot; [pick off](56-phrasal-regular-m-p.md#pick-off) &middot; [pick on](56-phrasal-regular-m-p.md#pick-on) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out) &middot; [pick out](56-phrasal-regular-m-p.md#pick-out-1) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-9) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-3) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-10) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-7) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-6) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-1) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-4) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-8) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-2) &middot; [pick up](56-phrasal-regular-m-p.md#pick-up-5) &middot; [pick up after](56-phrasal-regular-m-p.md#pick-up-after) &middot; [pick up on](56-phrasal-regular-m-p.md#pick-up-on)
 
 ---
 

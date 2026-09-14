@@ -32,7 +32,7 @@ Back has 2 distinct senses.
 5. She *backed* the car slowly down the narrow driveway.
 6. He was *backing* the van when he hit the mailbox.
 
-**Phrasal verbs:** [back down](53-phrasal-regular-a-c.md#back-down) &middot; [back off](53-phrasal-regular-a-c.md#back-off) &middot; [back out](53-phrasal-regular-a-c.md#back-out) &middot; [back up](53-phrasal-regular-a-c.md#back-up-3) &middot; [back up](53-phrasal-regular-a-c.md#back-up-1) &middot; [back up](53-phrasal-regular-a-c.md#back-up-2) &middot; [back up](53-phrasal-regular-a-c.md#back-up)
+**Phrasal verbs:** [back down](53-phrasal-regular-a-c.md#back-down) &middot; [back off](53-phrasal-regular-a-c.md#back-off) &middot; [back out](53-phrasal-regular-a-c.md#back-out) &middot; [back up](53-phrasal-regular-a-c.md#back-up-1) &middot; [back up](53-phrasal-regular-a-c.md#back-up-3) &middot; [back up](53-phrasal-regular-a-c.md#back-up) &middot; [back up](53-phrasal-regular-a-c.md#back-up-2)
 
 ---
 

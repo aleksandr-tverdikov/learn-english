@@ -39,7 +39,7 @@ Dress has 3 distinct senses.
 8. She *dressed* the greens with lemon and olive oil.
 9. I like *dressing* the salad at the table so it doesn't wilt.
 
-**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up)
+**Phrasal verbs:** [dress down](54-phrasal-regular-d-f.md#dress-down) &middot; [dress down](54-phrasal-regular-d-f.md#dress-down-1) &middot; [dress in](22-verb-preposition.md#dress-in) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-2) &middot; [dress up](54-phrasal-regular-d-f.md#dress-up-1)
 
 ---
 
@@ -96,7 +96,7 @@ Change has 4 distinct senses.
 11. She *changed* a twenty at the register.
 12. We had our money *changed* at the airport.
 
-**Phrasal verbs:** [change around](53-phrasal-regular-a-c.md#change-around) &middot; [change into](53-phrasal-regular-a-c.md#change-into) &middot; [change into](53-phrasal-regular-a-c.md#change-into-1) &middot; [change over](53-phrasal-regular-a-c.md#change-over) &middot; [change up](53-phrasal-regular-a-c.md#change-up)
+**Phrasal verbs:** [change around](53-phrasal-regular-a-c.md#change-around) &middot; [change into](53-phrasal-regular-a-c.md#change-into-1) &middot; [change into](53-phrasal-regular-a-c.md#change-into) &middot; [change over](53-phrasal-regular-a-c.md#change-over) &middot; [change up](53-phrasal-regular-a-c.md#change-up)
 
 ---
 
@@ -160,7 +160,7 @@ Cover has 5 distinct senses.
 14. She *covered* the front desk while I was out.
 15. Who's *covering* the phones at lunch?
 
-**Phrasal verbs:** [cover for](53-phrasal-regular-a-c.md#cover-for) &middot; [cover for](53-phrasal-regular-a-c.md#cover-for-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up) &middot; [cover with](22-verb-preposition.md#cover-with)
+**Phrasal verbs:** [cover for](53-phrasal-regular-a-c.md#cover-for) &middot; [cover for](53-phrasal-regular-a-c.md#cover-for-1) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up) &middot; [cover up](53-phrasal-regular-a-c.md#cover-up-1) &middot; [cover with](22-verb-preposition.md#cover-with)
 
 ---
 
@@ -572,6 +572,8 @@ Lace has 2 distinct senses.
 5. The pills were *laced* with fentanyl.
 6. He's been *lacing* his coffee with whiskey since noon.
 
+**Phrasal verbs:** [lace into](55-phrasal-regular-g-l.md#lace-into) &middot; [lace up](55-phrasal-regular-g-l.md#lace-up)
+
 ---
 
 ### tie
@@ -604,7 +606,7 @@ Tie has 3 distinct senses.
 8. Nothing *ties* the suspect to that building.
 9. Bonuses are *tied* to company profits.
 
-**Phrasal verbs:** [tie down](58-phrasal-regular-t-z.md#tie-down) &middot; [tie in](58-phrasal-regular-t-z.md#tie-in) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up-1) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up)
+**Phrasal verbs:** [tie down](58-phrasal-regular-t-z.md#tie-down) &middot; [tie in](58-phrasal-regular-t-z.md#tie-in) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up) &middot; [tie up](58-phrasal-regular-t-z.md#tie-up-1)
 
 ---
 
@@ -698,7 +700,7 @@ Hook has 3 distinct senses.
 8. A good opening line *hooks* the reader.
 9. My son is completely *hooked* on chess.
 
-**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-2) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-3) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-1)
+**Phrasal verbs:** [hook up](55-phrasal-regular-g-l.md#hook-up-1) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-2) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up-3) &middot; [hook up](55-phrasal-regular-g-l.md#hook-up)
 
 ---
 
@@ -1010,7 +1012,7 @@ Line has 2 distinct senses.
 5. Fans *lined* the sidewalk for six blocks.
 6. The hallway is *lined* with family photos.
 
-**Phrasal verbs:** [line up](55-phrasal-regular-g-l.md#line-up-1) &middot; [line up](55-phrasal-regular-g-l.md#line-up)
+**Phrasal verbs:** [line up](55-phrasal-regular-g-l.md#line-up) &middot; [line up](55-phrasal-regular-g-l.md#line-up-1)
 
 ---
 
@@ -1177,7 +1179,7 @@ Match has 2 distinct senses.
 5. He *matched* the world record on his second try.
 6. The company has *matched* every dollar she put into her 401(k).
 
-**Phrasal verbs:** [match up](56-phrasal-regular-m-p.md#match-up) &middot; [match up](56-phrasal-regular-m-p.md#match-up-1)
+**Phrasal verbs:** [match up](56-phrasal-regular-m-p.md#match-up-1) &middot; [match up](56-phrasal-regular-m-p.md#match-up)
 
 ---
 

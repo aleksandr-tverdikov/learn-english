@@ -183,7 +183,7 @@ Crack has 4 distinct senses.
 11. Most people would *crack* under that kind of stress.
 12. She was *cracking* under the workload.
 
-**Phrasal verbs:** [crack down](53-phrasal-regular-a-c.md#crack-down) &middot; [crack open](53-phrasal-regular-a-c.md#crack-open) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-1) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-2) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up)
+**Phrasal verbs:** [crack down](53-phrasal-regular-a-c.md#crack-down) &middot; [crack open](53-phrasal-regular-a-c.md#crack-open) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-1) &middot; [crack up](53-phrasal-regular-a-c.md#crack-up-2)
 
 ---
 
@@ -248,7 +248,7 @@ Scrape has 2 distinct senses.
 5. She *scraped* the burned cheese from the pan.
 6. The old paint has been *scraped* down to bare wood.
 
-**Phrasal verbs:** [scrape by](57-phrasal-regular-q-s.md#scrape-by) &middot; [scrape together](57-phrasal-regular-q-s.md#scrape-together)
+**Phrasal verbs:** [scrape by](57-phrasal-regular-q-s.md#scrape-by) &middot; [scrape through](57-phrasal-regular-q-s.md#scrape-through) &middot; [scrape together](57-phrasal-regular-q-s.md#scrape-together)
 
 ---
 
@@ -285,7 +285,7 @@ To tear something quickly and roughly.
 2. Please don't *rip* the envelope — I need the address.
 3. The flag had been *ripped* to shreds by the wind.
 
-**Phrasal verbs:** [rip into](57-phrasal-regular-q-s.md#rip-into) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-1) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-2) &middot; [rip out](57-phrasal-regular-q-s.md#rip-out) &middot; [rip through](57-phrasal-regular-q-s.md#rip-through) &middot; [rip up](57-phrasal-regular-q-s.md#rip-up)
+**Phrasal verbs:** [rip into](57-phrasal-regular-q-s.md#rip-into) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-2) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off-1) &middot; [rip off](57-phrasal-regular-q-s.md#rip-off) &middot; [rip out](57-phrasal-regular-q-s.md#rip-out) &middot; [rip through](57-phrasal-regular-q-s.md#rip-through) &middot; [rip up](57-phrasal-regular-q-s.md#rip-up)
 
 ---
 
@@ -699,6 +699,8 @@ Bomb has 2 distinct senses.
 4. He *bombed* the chemistry final and had to retake the class.
 5. Nobody wants to *bomb* in front of a live audience.
 6. The movie had *bombed* in theaters before streaming saved it.
+
+**Phrasal verbs:** [bomb out](53-phrasal-regular-a-c.md#bomb-out)
 
 ---
 

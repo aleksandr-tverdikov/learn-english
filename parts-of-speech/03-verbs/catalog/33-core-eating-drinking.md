@@ -156,6 +156,8 @@ To eat dinner, especially in a restaurant or in a formal setting.
 2. We *dined* on the terrace as the sun went down.
 3. We were *dining* when the power went out.
 
+**Phrasal verbs:** [dine out](54-phrasal-regular-d-f.md#dine-out)
+
 ---
 
 ### digest
@@ -603,7 +605,7 @@ To prepare food using heat.
 2. She *cooked* rice and beans for everyone.
 3. Something is *cooking* — I can smell it.
 
-**Phrasal verbs:** [cook up](53-phrasal-regular-a-c.md#cook-up) &middot; [cook up](53-phrasal-regular-a-c.md#cook-up-1)
+**Phrasal verbs:** [cook up](53-phrasal-regular-a-c.md#cook-up-1) &middot; [cook up](53-phrasal-regular-a-c.md#cook-up)
 
 ---
 
@@ -622,7 +624,7 @@ To heat a liquid until it bubbles, or to cook food in bubbling water.
 2. I *boiled* two eggs for breakfast.
 3. The soup has been *boiling* for ten minutes.
 
-**Phrasal verbs:** [boil down to](53-phrasal-regular-a-c.md#boil-down-to) &middot; [boil over](53-phrasal-regular-a-c.md#boil-over)
+**Phrasal verbs:** [boil away](53-phrasal-regular-a-c.md#boil-away) &middot; [boil down](53-phrasal-regular-a-c.md#boil-down) &middot; [boil down](53-phrasal-regular-a-c.md#boil-down-1) &middot; [boil down to](53-phrasal-regular-a-c.md#boil-down-to) &middot; [boil over](53-phrasal-regular-a-c.md#boil-over) &middot; [boil up](53-phrasal-regular-a-c.md#boil-up)
 
 ---
 
@@ -867,7 +869,7 @@ To make something hot, especially food or liquid.
 2. I *heated* the leftovers in a pan.
 3. The skillet is *heating* now.
 
-**Phrasal verbs:** [heat up](55-phrasal-regular-g-l.md#heat-up-1) &middot; [heat up](55-phrasal-regular-g-l.md#heat-up)
+**Phrasal verbs:** [heat up](55-phrasal-regular-g-l.md#heat-up) &middot; [heat up](55-phrasal-regular-g-l.md#heat-up-1)
 
 ---
 
@@ -1078,7 +1080,7 @@ Top has 2 distinct senses.
 5. Sales *topped* a million dollars last quarter.
 6. The song has *topped* the charts for six straight weeks.
 
-**Phrasal verbs:** [top off](58-phrasal-regular-t-z.md#top-off-1) &middot; [top off](58-phrasal-regular-t-z.md#top-off) &middot; [top out](58-phrasal-regular-t-z.md#top-out)
+**Phrasal verbs:** [top off](58-phrasal-regular-t-z.md#top-off) &middot; [top off](58-phrasal-regular-t-z.md#top-off-1) &middot; [top out](58-phrasal-regular-t-z.md#top-out)
 
 ---
 
@@ -1234,7 +1236,7 @@ Whip has 2 distinct senses.
 5. The rider *whipped* the horse's flank.
 6. Rain was *whipping* against the windows all night.
 
-**Phrasal verbs:** [whip out](58-phrasal-regular-t-z.md#whip-out) &middot; [whip through](58-phrasal-regular-t-z.md#whip-through) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up-1)
+**Phrasal verbs:** [whip out](58-phrasal-regular-t-z.md#whip-out) &middot; [whip through](58-phrasal-regular-t-z.md#whip-through) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up-1) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up)
 
 ---
 
@@ -1396,7 +1398,7 @@ Soak has 2 distinct senses.
 5. A broken pipe was *soaking* the carpet.
 6. One more wave like that will *soak* everything in the boat.
 
-**Phrasal verbs:** [soak up](57-phrasal-regular-q-s.md#soak-up-1) &middot; [soak up](57-phrasal-regular-q-s.md#soak-up)
+**Phrasal verbs:** [soak up](57-phrasal-regular-q-s.md#soak-up) &middot; [soak up](57-phrasal-regular-q-s.md#soak-up-1)
 
 ---
 
@@ -1444,7 +1446,7 @@ Wash has 2 distinct senses.
 5. The flood *washed* topsoil into the creek.
 6. A dead whale had *washed* ashore overnight.
 
-**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1)
+**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1)
 
 ---
 
@@ -1483,7 +1485,7 @@ Clear has 4 distinct senses.
 11. The tower *cleared* us for takeoff.
 12. The drug has not been *cleared* for children.
 
-**Phrasal verbs:** [clear off](53-phrasal-regular-a-c.md#clear-off) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-2) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-1)
+**Phrasal verbs:** [clear away](53-phrasal-regular-a-c.md#clear-away) &middot; [clear off](53-phrasal-regular-a-c.md#clear-off) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out-1) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-2) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up)
 
 ---
 
@@ -1530,7 +1532,7 @@ Wipe has 2 distinct senses.
 5. The update *wiped* all my saved photos.
 6. The laptop had already been *wiped* when police got it.
 
-**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
+**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
 
 ---
 
@@ -1610,7 +1612,7 @@ Fill has 3 distinct senses.
 8. They *filled* the order the same day.
 9. That prescription has already been *filled* once.
 
-**Phrasal verbs:** [fill in](54-phrasal-regular-d-f.md#fill-in) &middot; [fill in](54-phrasal-regular-d-f.md#fill-in-1) &middot; [fill in for](54-phrasal-regular-d-f.md#fill-in-for) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out-1) &middot; [fill up](54-phrasal-regular-d-f.md#fill-up) &middot; [fill up on](54-phrasal-regular-d-f.md#fill-up-on)
+**Phrasal verbs:** [fill in](54-phrasal-regular-d-f.md#fill-in-1) &middot; [fill in](54-phrasal-regular-d-f.md#fill-in) &middot; [fill in for](54-phrasal-regular-d-f.md#fill-in-for) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out) &middot; [fill out](54-phrasal-regular-d-f.md#fill-out-1) &middot; [fill up](54-phrasal-regular-d-f.md#fill-up) &middot; [fill up on](54-phrasal-regular-d-f.md#fill-up-on)
 
 ---
 
@@ -1656,7 +1658,7 @@ Suck has 2 distinct senses.
 5. The movie *sucked*, but the popcorn was good.
 6. Losing your wallet on the first day of vacation really *sucks*.
 
-**Phrasal verbs:** [suck up](57-phrasal-regular-q-s.md#suck-up) &middot; [suck up to](57-phrasal-regular-q-s.md#suck-up-to)
+**Phrasal verbs:** [suck in](57-phrasal-regular-q-s.md#suck-in-1) &middot; [suck in](57-phrasal-regular-q-s.md#suck-in) &middot; [suck up](57-phrasal-regular-q-s.md#suck-up) &middot; [suck up to](57-phrasal-regular-q-s.md#suck-up-to)
 
 ---
 
@@ -1771,6 +1773,8 @@ To add salt to food.
 1. *Salt* the water before the pasta goes in.
 2. He *salted* the fries twice.
 3. She is *salting* the meat before it goes on the grill.
+
+**Phrasal verbs:** [salt away](57-phrasal-regular-q-s.md#salt-away)
 
 ---
 

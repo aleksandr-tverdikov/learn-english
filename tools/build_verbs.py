@@ -169,6 +169,14 @@ def build_gap(existing, seen, problems):
         ex = [x for x in (e.get('examples') or []) if isinstance(x, str)][:3]
         if len(ex) < 3:
             problems.append(f'gap: "{t}" has {len(ex)} examples'); continue
+        # gen_verbs labels this whole tier "regular", so a form set that is not
+        # regular would be silently mislabeled. beware/beware/beware got through
+        # once; make it loud instead.
+        if not (e['past'].strip().endswith(('ed', 'd'))
+                and e['participle'].strip().endswith(('ed', 'd'))):
+            problems.append(f'gap: "{t}" is not a regular verb '
+                            f'({e["past"]}/{e["participle"]}) - it cannot go in this tier')
+            continue
         seen.add(low)
         kept.append((t, e['ipa'].strip('/'), e['respell'], e['ru'], e['third'], e['past'],
                      e['participle'], e['ing'], e.get('transitivity') or '', e['gloss'], ex,

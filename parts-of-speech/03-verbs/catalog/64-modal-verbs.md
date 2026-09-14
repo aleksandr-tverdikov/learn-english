@@ -1,6 +1,6 @@
-# Modal and semi-modal verbs
+# Modal, semi-modal and defective verbs
 
-> The eleven verbs that carry mood rather than action — and the reason half of them have no participle.
+> The verbs that carry mood rather than action — and the reason most of them have no participle.
 
 [← The grammar of verbs](../README.md) &middot; [All groups](README.md)
 
@@ -9,6 +9,36 @@ A modal is not a verb that does something; it is a verb that says how the speake
 The second trap is that the "past" forms are barely past. *Would*, *should*, *could* and *might* began as the past tenses of *will*, *shall*, *can* and *may*, and they still do that job in reported speech — but in ordinary American English they far more often mark politeness, distance or hypothesis in the **present**: *Could you repeat that?* is now, not yesterday. That is why each of them has an entry of its own below rather than a line inside its parent.
 
 *Can* and *may* live with the irregular groups they inflect like — [*can*](04-past-equals-participle-plus-d.md#can) in group 4 and [*may*](05-past-equals-participle-plus-t.md#may) in group 5 — and the grammar behind all of this is in [§2.5 and §5.5 of the verb reference](../README.md).
+
+---
+
+### beware
+
+**Pronunciation:** /bɪˈwɛr/ &middot; *bih-WAIR*
+**Русский:** остерегаться, беречься
+**Forms:** *beware* &middot; — &middot; — (no past, no participle)
+**Verb class:** defective
+**Register:** everyday, but almost always on a sign or in a warning
+**Pattern:** defective (imperative and bare infinitive only) &middot; **Group:** 64
+**Third person:** *beware* — no -s, ✗ *he bewares* &middot; **-ing form:** none
+**Contrast:** Not a modal — an ordinary lexical verb that happens to have lost every form but two. There is no ✗ *bewares*, ✗ *bewared*, ✗ *bewaring*, and it cannot follow *is* or *have*: ✗ *I have bewared*. It survives as an imperative (*Beware of the dog*) and as a bare infinitive after a modal or *should* (*travelers should beware*). Anywhere else, English switches to *watch out for* or *be careful of*.
+**Verb type:** **defective lexical verb** — full meaning, almost no forms. It is the clearest non-modal example of the same gap the modals have.
+**Transitivity:** **both** — with *of* (*beware of unmarked taxis*), or with a clause (*beware that the lock sticks*), or absolutely (*Beware!*).
+**Passive:** **no** — it has no participle, so it cannot form one.
+
+A full verb with two forms and no tenses — the shortest answer to why English grammar keeps a category called *defective*.
+
+**1. Warning about a danger.** The imperative, and by far the commonest use. Takes *of* before a noun. (остерегайся, берегись)
+
+1. *Beware* of the dog.
+2. *Beware* of anyone who promises a guaranteed return.
+3. *Beware* — the bottom step is loose.
+
+**2. After a modal or *should*.** The bare infinitive, the only other form it has. (следует остерегаться)
+
+4. Travelers should *beware* of unmarked taxis.
+5. Buyers must *beware*: the sale is final.
+6. You would do well to *beware* of his advice.
 
 ---
 

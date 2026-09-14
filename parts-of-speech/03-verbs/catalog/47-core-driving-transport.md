@@ -139,7 +139,7 @@ To move more slowly, or to make something move more slowly.
 2. Traffic *slowed* to a crawl near the tunnel.
 3. The train was *slowing* as it entered the yard.
 
-**Phrasal verbs:** [slow down](57-phrasal-regular-q-s.md#slow-down-1) &middot; [slow down](57-phrasal-regular-q-s.md#slow-down)
+**Phrasal verbs:** [slow down](57-phrasal-regular-q-s.md#slow-down) &middot; [slow down](57-phrasal-regular-q-s.md#slow-down-1)
 
 ---
 
@@ -172,7 +172,7 @@ Start has 3 distinct senses.
 8. He *started* the company in his garage.
 9. She has *started* a book club at the library.
 
-**Phrasal verbs:** [start off](57-phrasal-regular-q-s.md#start-off) &middot; [start on](57-phrasal-regular-q-s.md#start-on) &middot; [start out](57-phrasal-regular-q-s.md#start-out) &middot; [start over](57-phrasal-regular-q-s.md#start-over) &middot; [start up](57-phrasal-regular-q-s.md#start-up-1) &middot; [start up](57-phrasal-regular-q-s.md#start-up)
+**Phrasal verbs:** [start in](57-phrasal-regular-q-s.md#start-in) &middot; [start off](57-phrasal-regular-q-s.md#start-off) &middot; [start on](57-phrasal-regular-q-s.md#start-on) &middot; [start out](57-phrasal-regular-q-s.md#start-out) &middot; [start over](57-phrasal-regular-q-s.md#start-over) &middot; [start up](57-phrasal-regular-q-s.md#start-up-1) &middot; [start up](57-phrasal-regular-q-s.md#start-up)
 
 ---
 

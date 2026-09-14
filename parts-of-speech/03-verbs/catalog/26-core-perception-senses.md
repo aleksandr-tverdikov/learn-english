@@ -354,6 +354,8 @@ To close and open one eye quickly as a friendly or secret signal.
 2. She *winked* at me across the table.
 3. He kept *winking* to show that he was joking.
 
+**Phrasal verbs:** [wink at](58-phrasal-regular-t-z.md#wink-at)
+
 ---
 
 ### eye
@@ -421,7 +423,7 @@ Skim has 3 distinct senses.
 8. Swallows *skim* the water at dusk.
 9. The plane was *skimming* the treetops.
 
-**Phrasal verbs:** [skim through](57-phrasal-regular-q-s.md#skim-through)
+**Phrasal verbs:** [skim off](57-phrasal-regular-q-s.md#skim-off) &middot; [skim off](57-phrasal-regular-q-s.md#skim-off-1) &middot; [skim through](57-phrasal-regular-q-s.md#skim-through)
 
 ---
 
@@ -1026,7 +1028,7 @@ Buzz has 2 distinct senses.
 5. The newsroom *buzzed* with rumors all morning.
 6. Downtown *buzzes* until two in the morning.
 
-**Phrasal verbs:** [buzz in](53-phrasal-regular-a-c.md#buzz-in)
+**Phrasal verbs:** [buzz in](53-phrasal-regular-a-c.md#buzz-in) &middot; [buzz off](53-phrasal-regular-a-c.md#buzz-off)
 
 ---
 
@@ -1662,7 +1664,7 @@ To move your hand or a cloth back and forth over a surface with pressure.
 2. He *rubbed* the stain with a wet cloth.
 3. She was *rubbing* her sore shoulder.
 
-**Phrasal verbs:** [rub in](57-phrasal-regular-q-s.md#rub-in) &middot; [rub off on](57-phrasal-regular-q-s.md#rub-off-on)
+**Phrasal verbs:** [rub down](57-phrasal-regular-q-s.md#rub-down) &middot; [rub in](57-phrasal-regular-q-s.md#rub-in) &middot; [rub off](57-phrasal-regular-q-s.md#rub-off) &middot; [rub off](57-phrasal-regular-q-s.md#rub-off-1) &middot; [rub off on](57-phrasal-regular-q-s.md#rub-off-on) &middot; [rub out](57-phrasal-regular-q-s.md#rub-out) &middot; [rub out](57-phrasal-regular-q-s.md#rub-out-1)
 
 ---
 

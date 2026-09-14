@@ -1397,7 +1397,7 @@ To take in written words, and by extension to interpret, to state, or to display
 27. He *has read* classics for three years now.
 
 
-**Phrasal verbs:** [read back](19-phrasal-m-r.md#read-back) &middot; [read into](19-phrasal-m-r.md#read-into) &middot; [read off](19-phrasal-m-r.md#read-off) &middot; [read out](19-phrasal-m-r.md#read-out) &middot; [read over](19-phrasal-m-r.md#read-over) &middot; [read through](19-phrasal-m-r.md#read-through) &middot; [read up on](19-phrasal-m-r.md#read-up-on)
+**Phrasal verbs:** [read back](19-phrasal-m-r.md#read-back) &middot; [read in](66-phrasal-irregular-more-m-z.md#read-in) &middot; [read into](19-phrasal-m-r.md#read-into) &middot; [read off](19-phrasal-m-r.md#read-off) &middot; [read out](19-phrasal-m-r.md#read-out) &middot; [read over](19-phrasal-m-r.md#read-over) &middot; [read through](19-phrasal-m-r.md#read-through) &middot; [read up](66-phrasal-irregular-more-m-z.md#read-up) &middot; [read up on](19-phrasal-m-r.md#read-up-on)
 
 **See also:** [reread](#reread), [misread](#misread), [proofread](#proofread), [sight-read](#sight-read)
 
@@ -2197,6 +2197,8 @@ To give off moisture through the skin, and by extension to worry or to work very
 
 12. *Sweat* the onions in butter for about five minutes.
 13. He *sweated* the leeks before adding the stock.
+
+**Phrasal verbs:** [sweat out](66-phrasal-irregular-more-m-z.md#sweat-out-1) &middot; [sweat out](66-phrasal-irregular-more-m-z.md#sweat-out)
 
 **See also:** [wet](#wet), [shed](#shed), [hurt](#hurt)
 

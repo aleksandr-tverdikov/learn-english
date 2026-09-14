@@ -79,6 +79,8 @@ To suddenly blow air out through your nose and mouth in a way you cannot control
 2. She *sneezed* three times in a row.
 3. He kept *sneezing* all through the meeting.
 
+**Phrasal verbs:** [sneeze at](57-phrasal-regular-q-s.md#sneeze-at)
+
 ---
 
 ### yawn
