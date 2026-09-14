@@ -4696,6 +4696,24 @@ To hand something or someone over, especially to an unwanted place or fate.
 
 ---
 
+### consist
+
+**Pronunciation:** /kənˈsɪst/ &middot; *kuhn-SIST*
+**Русский:** состоять (из), заключаться (в)
+**Forms:** *consist* &middot; *consisted* &middot; *consisted*
+**Third person:** *consists* &middot; **-ing form:** *consisting*
+**Verb class:** regular
+**Transitivity:** intransitive — always with *of* or *in*, never with a bare object
+**Contrast:** *Consist* never takes a plain object and is **never passive**: ✗ *the team is consisted of* — say *the team consists of* or *the team is made up of*. Two prepositions, two meanings: *consist **of*** lists the physical parts (*water consists of hydrogen and oxygen*), while *consist **in*** names where something's essence lies (*her charm consists in never trying*). It also has no progressive — ✗ *is consisting of*.
+
+To be made up of the parts that are then listed.
+
+1. The test *consists* of forty questions and one essay.
+2. Breakfast *consisted* of coffee and whatever was left in the fridge.
+3. The course has always *consisted* of a lecture plus a lab.
+
+---
+
 ### constitute
 
 **Pronunciation:** /ˈkɑːnstətuːt/ &middot; *KAHN-stuh-toot*

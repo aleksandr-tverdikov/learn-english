@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modal and semi-modal verbs</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">03-verbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="modal-and-semi-modal-verbs">Modal and semi-modal verbs<a class="hash" href="#modal-and-semi-modal-verbs" aria-label="link">#</a></h1>
+<blockquote><p>The eleven verbs that carry mood rather than action — and the reason half of them have no participle.</p></blockquote>
+<p><a href="../README.html">← The grammar of verbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>A modal is not a verb that does something; it is a verb that says how the speaker stands toward something else being done. <em>He left</em> is a fact. <em>He must have left</em>, <em>he might leave</em>, <em>he would leave</em> — same departure, three different stances. Because modals carry mood instead of action, English stripped them of nearly everything a verb normally has: <strong>no -s in the third person</strong> (✗ <em>she musts</em>), <strong>no -ing</strong>, <strong>no participle</strong>, <strong>no infinitive</strong> (✗ <em>to must</em>). What is left is one form, sometimes two, and a bare infinitive after it — <em>must go</em>, never ✗ <em>must to go</em>. Where a missing form is genuinely needed, a full verb steps in: <em>be able to</em> for <em>can</em>, <em>have to</em> for <em>must</em>, <em>be allowed to</em> for <em>may</em>.</p>
+<p>The second trap is that the "past" forms are barely past. <em>Would</em>, <em>should</em>, <em>could</em> and <em>might</em> began as the past tenses of <em>will</em>, <em>shall</em>, <em>can</em> and <em>may</em>, and they still do that job in reported speech — but in ordinary American English they far more often mark politeness, distance or hypothesis in the <strong>present</strong>: <em>Could you repeat that?</em> is now, not yesterday. That is why each of them has an entry of its own below rather than a line inside its parent.</p>
+<p><em>Can</em> and <em>may</em> live with the irregular groups they inflect like — <a href="04-past-equals-participle-plus-d.html#can"><em>can</em></a> in group 4 and <a href="05-past-equals-participle-plus-t.html#may"><em>may</em></a> in group 5 — and the grammar behind all of this is in <a href="../README.html">§2.5 and §5.5 of the verb reference</a>.</p>
+<hr>
+<h3 id="will">will<a class="hash" href="#will" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪl/ &middot; <em>WIL</em> &middot; weak form /wəl/, contracted <em>'ll</em> /l/ in <em>I'll go</em></dd><dt>Русский</dt><dd>вспомогательный глагол будущего времени; выражает согласие, обещание</dd><dt>Forms</dt><dd><em>will</em> /wɪl/ &middot; <em>would</em> /wʊd/ &middot; — (no participle)</dd><dt>Verb class</dt><dd>modal</dd><dt>Register</dt><dd>everyday — the most common modal in the language</dd><dt>Pattern</dt><dd>i — ou (a modal, not an ordinary verb)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>will</em> — no -s, ✗ <em>he wills</em> &middot; <strong>-ing form:</strong> none; modals have no <em>-ing</em> and no infinitive</dd><dt>Contrast</dt><dd>English has no future tense — it has <em>will</em> plus a bare infinitive, which is why <em>will</em> is a modal and not an ending. Russian speakers reach for it too often: after <em>when</em>, <em>if</em>, <em>as soon as</em>, <em>until</em> and <em>before</em>, English uses the <strong>present</strong>, ✗ <em>when I will arrive</em> → <em>when I arrive</em>. A separate and fully regular verb <em>will</em> means "leave by will" (<em>she willed the house to her niece</em>), and the noun <em>will</em> means both "testament" and "willpower".</dd><dt>Verb type</dt><dd><strong>modal auxiliary</strong> — takes a bare infinitive (<em>will go</em>), has no <em>-s</em>, no <em>-ing</em>, no participle (✗ <em>he wills go</em>, ✗ <em>I have would</em>, ✗ <em>to will</em>). <em>Be going to</em> and the present progressive fill in where a stance about the future is not wanted.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — a modal takes a bare-infinitive complement, not an object. Bare <em>will</em> with a noun (<em>I will it to happen</em>) is the separate regular verb.</dd><dt>Passive</dt><dd><strong>no</strong> — the verb it supports carries the voice: <em>the letter will be sent</em>, never <em>will</em> itself.</dd></dl>
+<p>The modal of future time, willingness and prediction — and the one that contracts to <em>'ll</em> so reliably that learners stop hearing it.</p>
+<p><strong>1. Future time.</strong> The neutral way to put an event after now. With <em>'ll</em> in speech almost always. (буду, будет)</p>
+<ol><li>The package <em>will</em> arrive on Thursday.</li><li>She said the meeting <em>would</em> run long, and it did.</li><li>I <em>will</em> be at the airport by six.</li></ol>
+<p><strong>2. Willingness, offers and promises.</strong> Not time at all — consent. The negative <em>won't</em> is a refusal, and it is used of objects too. (соглашаться; обещать)</p>
+<ol start="4"><li>I <em>'ll</em> carry that for you.</li><li>The car <em>won't</em> start in this cold.</li><li>He promised he <em>would</em> call the moment he landed.</li></ol>
+<p><strong>3. Requests — <em>Will you…?</em>.</strong> A direct request. <em>Would you</em> is the softer version, which is why it is far commoner. (не могли бы вы)</p>
+<ol start="7"><li><em>Will</em> you hold the elevator?</li><li><em>Would</em> you mind closing the window?</li><li><em>Will</em> you please stop doing that.</li></ol>
+<p><strong>4. Characteristic behavior.</strong> A habit presented as typical rather than scheduled — often mildly critical when stressed. (бывает, имеет обыкновение)</p>
+<ol start="10"><li>He <em>will</em> sit there for hours without saying a word.</li><li>Accidents <em>will</em> happen.</li><li>She <em>would</em> always bring something from her garden.</li></ol>
+<hr>
+<h3 id="would">would<a class="hash" href="#would" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wʊd/ &middot; <em>WUUD</em> &middot; weak form /wəd/, contracted <em>'d</em> /d/ in <em>I'd go</em> &middot; the l is silent</dd><dt>Русский</dt><dd>бы (условное наклонение); бывало (о прошлой привычке)</dd><dt>Forms</dt><dd><em>would</em> /wʊd/ &middot; — &middot; — (historically the past of <em>will</em>)</dd><dt>Verb class</dt><dd>modal</dd><dt>Register</dt><dd>everyday — and the single most important modal for sounding polite</dd><dt>Pattern</dt><dd>defective (a modal, not an ordinary verb)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>would</em> — no -s, ✗ <em>he woulds</em> &middot; <strong>-ing form:</strong> none; modals have no <em>-ing</em> and no infinitive</dd><dt>Contrast</dt><dd><em>Would</em> is the past of <em>will</em> only in reported speech; everywhere else it is present-tense politeness or hypothesis, so a <em>would</em> in front of you is usually <strong>not</strong> about the past. It is a homophone of <em>wood</em>. Russian's <strong>бы</strong> covers most of it, but not the past-habit sense, where Russian uses <strong>бывало</strong> — and English then also allows <em>used to</em>. Never ✗ <em>if I would have time</em>: the <em>if</em>-clause takes the past, <em>if I had time, I would call</em>.</dd><dt>Verb type</dt><dd><strong>modal auxiliary</strong> — bare infinitive after it (<em>would go</em>), no <em>-s</em>, no <em>-ing</em>, no participle. For a past hypothetical it stacks with <em>have</em>: <em>would have gone</em>.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — it takes a bare-infinitive complement, not an object.</dd><dt>Passive</dt><dd><strong>no</strong> — voice sits on the supported verb: <em>it would be finished by Friday</em>.</dd></dl>
+<p>The workhorse of conditionals, polite requests and remembered habit — and the reason <em>I would like</em> sounds courteous where <em>I want</em> sounds blunt.</p>
+<p><strong>1. The hypothetical result.</strong> The main clause of a conditional: <em>if</em> + past, then <em>would</em> + bare infinitive. (бы)</p>
+<ol><li>If I had the money, I <em>would</em> buy it outright.</li><li>She <em>would</em> have told you if she had known.</li><li>What <em>would</em> you do in my place?</li></ol>
+<p><strong>2. Polite requests and offers.</strong> Present time, not past. <em>Would you</em> and <em>I would like</em> are the two politest frames in everyday English. (не могли бы; хотел бы)</p>
+<ol start="4"><li><em>Would</em> you pass me the salt?</li><li>I <em>would</em> like a table by the window, please.</li><li><em>Would</em> you rather wait outside?</li></ol>
+<p><strong>3. Past habit.</strong> A repeated action in a finished stretch of the past. Unlike <em>used to</em>, <em>would</em> cannot describe a past <strong>state</strong> — ✗ <em>I would live in Boston</em>. (бывало, обычно)</p>
+<ol start="7"><li>Every summer we <em>would</em> drive up to the lake.</li><li>My grandfather <em>would</em> read the paper cover to cover.</li><li>She <em>would</em> never admit she was tired.</li></ol>
+<p><strong>4. The past of <em>will</em> in reported speech.</strong> Backshift: <em>will</em> inside a past-tense report becomes <em>would</em>. (что будет — в косвенной речи)</p>
+<ol start="10"><li>He said he <em>would</em> be late.</li><li>They promised the parts <em>would</em> ship on Monday.</li><li>I knew she <em>would</em> say that.</li></ol>
+<hr>
+<h3 id="shall">shall<a class="hash" href="#shall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃæl/ &middot; <em>SHAL</em> &middot; weak form /ʃəl/</dd><dt>Русский</dt><dd>вспомогательный глагол (предложение, обязательство)</dd><dt>Forms</dt><dd><em>shall</em> /ʃæl/ &middot; <em>should</em> /ʃʊd/ &middot; — (no participle)</dd><dt>Verb class</dt><dd>modal</dd><dt>Register</dt><dd>formal or fixed — in American English it survives mainly in <em>Shall I…?</em> and in legal writing</dd><dt>Pattern</dt><dd>a — ou (a modal, not an ordinary verb)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>shall</em> — no -s, ✗ <em>he shalls</em> &middot; <strong>-ing form:</strong> none; modals have no <em>-ing</em> and no infinitive</dd><dt>Contrast</dt><dd>The old textbook rule that <em>shall</em> marks the first-person future (<em>I shall go</em>) is dead in American speech — use <em>will</em>. What survives is the <strong>question</strong> <em>Shall I…?</em> / <em>Shall we…?</em>, offering to do something, where <em>will</em> would be wrong: ✗ <em>Will I open the window?</em> asks a prediction, not an offer. In contracts <em>shall</em> means "is required to", which is why drafters now often replace it with <em>must</em>.</dd><dt>Verb type</dt><dd><strong>modal auxiliary</strong> — bare infinitive after it, no <em>-s</em>, no <em>-ing</em>, no participle.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — bare-infinitive complement only.</dd><dt>Passive</dt><dd><strong>no</strong> — the supported verb carries voice: <em>the fee shall be paid in advance</em>.</dd></dl>
+<p>Nearly gone from American speech except in one construction — but that construction has no substitute.</p>
+<p><strong>1. Offers and suggestions — <em>Shall I…?</em> / <em>Shall we…?</em>.</strong> The living use. It asks the listener to decide whether the speaker should act. (давай…?; мне …?)</p>
+<ol><li><em>Shall</em> I open a window?</li><li><em>Shall</em> we start without him?</li><li>What <em>shall</em> I tell them?</li></ol>
+<p><strong>2. Obligation in legal and formal writing.</strong> "Is required to." Common in contracts, statutes and specifications. (обязан, должен)</p>
+<ol start="4"><li>The tenant <em>shall</em> give thirty days' notice.</li><li>Each party <em>shall</em> bear its own costs.</li><li>Applications <em>shall</em> be submitted in writing.</li></ol>
+<p><strong>3. Dated first-person future.</strong> Old-fashioned in America, still current in British English and in set phrases. (буду, будем)</p>
+<ol start="7"><li>We <em>shall</em> see.</li><li>I <em>shall</em> never forget it.</li><li>They said they <em>should</em> be glad to help.</li></ol>
+<hr>
+<h3 id="should">should<a class="hash" href="#should" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃʊd/ &middot; <em>SHUUD</em> &middot; weak form /ʃəd/ &middot; the l is silent</dd><dt>Русский</dt><dd>следует, должен бы; должно быть</dd><dt>Forms</dt><dd><em>should</em> /ʃʊd/ &middot; — &middot; — (historically the past of <em>shall</em>)</dd><dt>Verb class</dt><dd>modal</dd><dt>Register</dt><dd>everyday — the ordinary way to give advice</dd><dt>Pattern</dt><dd>defective (a modal, not an ordinary verb)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>should</em> — no -s, ✗ <em>he shoulds</em> &middot; <strong>-ing form:</strong> none; modals have no <em>-ing</em> and no infinitive</dd><dt>Contrast</dt><dd><em>Should</em> is advice; <em>must</em> and <em>have to</em> are obligation. Russian <strong>должен</strong> covers both, so learners overuse <em>must</em> and sound commanding — <em>you should see a doctor</em> is advice, <em>you must see a doctor</em> is an order. For the past, <em>should</em> does <strong>not</strong> become anything: use <em>should have</em> + participle, which always carries regret or reproach (<em>I should have called</em>). Spoken <em>should've</em> /ˈʃʊdəv/ is heard as "should of" — but never written that way.</dd><dt>Verb type</dt><dd><strong>modal auxiliary</strong> — bare infinitive after it, no <em>-s</em>, no <em>-ing</em>, no participle. Stacks with <em>have</em> for the past: <em>should have gone</em>.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — bare-infinitive complement only.</dd><dt>Passive</dt><dd><strong>no</strong> — voice sits on the supported verb: <em>the form should be signed</em>.</dd></dl>
+<p>Advice, expectation, and — in <em>should have</em> — one of the few grammatical ways English has of expressing regret.</p>
+<p><strong>1. Advice and recommendation.</strong> The core sense. Weaker than <em>must</em>, stronger than <em>could</em>. (следует, стоит)</p>
+<ol><li>You <em>should</em> get that looked at.</li><li>We <em>should</em> have left earlier.</li><li>He <em>should</em> apologize, and he knows it.</li></ol>
+<p><strong>2. Expectation and probability.</strong> Not duty — a reasonable guess about how things will turn out. (должно быть, должен по идее)</p>
+<ol start="4"><li>The train <em>should</em> be here any minute.</li><li>That <em>should</em> be enough flour for two loaves.</li><li>She <em>should</em> have landed by now.</li></ol>
+<p><strong>3. Regret and reproach — <em>should have</em>.</strong> Something that did not happen and ought to have. Always with the participle, never ✗ <em>should had</em>. (надо было бы)</p>
+<ol start="7"><li>I <em>should</em> have listened to you.</li><li>They <em>should</em> never have signed it.</li><li>You <em>shouldn't</em> have gone alone.</li></ol>
+<p><strong>4. The past of <em>shall</em> in reported speech.</strong> Backshift, and in formal conditionals. (— в косвенной речи)</p>
+<ol start="10"><li>He asked whether he <em>should</em> wait.</li><li><em>Should</em> you need anything, the front desk is open all night.</li><li>She wondered what she <em>should</em> say.</li></ol>
+<hr>
+<h3 id="must">must<a class="hash" href="#must" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mʌst/ &middot; <em>MUHST</em> &middot; weak form /məst/</dd><dt>Русский</dt><dd>должен, обязан; должно быть</dd><dt>Forms</dt><dd><em>must</em> /mʌst/ &middot; — &middot; — (no past, no participle)</dd><dt>Verb class</dt><dd>modal</dd><dt>Register</dt><dd>everyday — though <em>have to</em> has largely taken over the obligation sense in American speech</dd><dt>Pattern</dt><dd>defective (a modal, not an ordinary verb)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>must</em> — no -s, ✗ <em>he musts</em> &middot; <strong>-ing form:</strong> none; modals have no <em>-ing</em> and no infinitive</dd><dt>Contrast</dt><dd>The trap is the negative. <em>Mustn't</em> is a <strong>prohibition</strong> — <em>you mustn't tell anyone</em> — while <em>don't have to</em> is the <strong>absence</strong> of obligation: <em>you don't have to tell anyone</em>. They are opposites, and Russian <strong>не должен</strong> sits between them. <em>Must</em> also has no past: for past obligation use <em>had to</em> (<em>I had to leave early</em>), and reserve <em>must have</em> for deduction about the past (<em>he must have left early</em>).</dd><dt>Verb type</dt><dd><strong>modal auxiliary</strong> — bare infinitive after it, no <em>-s</em>, no <em>-ing</em>, no participle, no infinitive (✗ <em>to must</em>). <em>Have to</em> supplies every missing form.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — bare-infinitive complement only. The noun <em>a must</em> ("something essential") is a separate word.</dd><dt>Passive</dt><dd><strong>no</strong> — voice sits on the supported verb: <em>the door must be locked</em>.</dd></dl>
+<p>Obligation and deduction in one form — and the negative means something entirely different from the negative of <em>have to</em>.</p>
+<p><strong>1. Obligation and necessity.</strong> A requirement, usually from a rule or from the speaker. Stronger and more impersonal than <em>should</em>. (должен, обязан)</p>
+<ol><li>All passengers <em>must</em> show a boarding pass.</li><li>I <em>must</em> remember to water the plants.</li><li>You <em>must</em> be eighteen or older to apply.</li></ol>
+<p><strong>2. Logical deduction.</strong> Not duty at all — the speaker's certainty, reasoned from evidence. The opposite is <em>can't</em>, not <em>mustn't</em>. (должно быть)</p>
+<ol start="4"><li>She <em>must</em> be exhausted after that flight.</li><li>There's no car in the drive — they <em>must</em> have left.</li><li>You <em>must</em> be joking.</li></ol>
+<p><strong>3. Prohibition — <em>mustn't</em>.</strong> Forbidden. Note that this is not the negative of sense 1's <em>must</em> in Russian terms. (нельзя)</p>
+<ol start="7"><li>You <em>mustn't</em> say a word about this.</li><li>Visitors <em>must not</em> feed the animals.</li><li>We <em>mustn't</em> be late again.</li></ol>
+<hr>
+<h3 id="might">might<a class="hash" href="#might" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maɪt/ &middot; <em>MYT</em></dd><dt>Русский</dt><dd>может быть, возможно; мог бы</dd><dt>Forms</dt><dd><em>might</em> /maɪt/ &middot; — &middot; — (historically the past of <em>may</em>)</dd><dt>Verb class</dt><dd>modal</dd><dt>Register</dt><dd>everyday — the ordinary way to hedge</dd><dt>Pattern</dt><dd>defective (a modal, not an ordinary verb)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>might</em> — no -s, ✗ <em>he mights</em> &middot; <strong>-ing form:</strong> none; modals have no <em>-ing</em> and no infinitive</dd><dt>Contrast</dt><dd><em>Might</em> and <a href="05-past-equals-participle-plus-t.html#may"><em>may</em></a> are near-identical in American English for possibility; <em>might</em> is slightly more tentative and far commoner in speech. It is <strong>not</strong> usually past — <em>he might come</em> is about now. For the past, <em>might have</em> + participle (<em>he might have missed the train</em>). It is a homograph of the noun <em>might</em> ("strength"), as in <em>with all his might</em>.</dd><dt>Verb type</dt><dd><strong>modal auxiliary</strong> — bare infinitive after it, no <em>-s</em>, no <em>-ing</em>, no participle. Stacks with <em>have</em> for the past: <em>might have gone</em>.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — bare-infinitive complement only.</dd><dt>Passive</dt><dd><strong>no</strong> — voice sits on the supported verb: <em>it might be canceled</em>.</dd></dl>
+<p>The hedge: possible but not asserted — and the reason English speakers sound noncommittal to Russian ears.</p>
+<p><strong>1. Possibility.</strong> Something may or may not be or become true. The workhorse sense. (может быть, возможно)</p>
+<ol><li>It <em>might</em> rain later.</li><li>She <em>might</em> already know.</li><li>I <em>might</em> not make it to dinner.</li></ol>
+<p><strong>2. Past possibility — <em>might have</em>.</strong> A guess about something already settled. (мог бы; возможно, …)</p>
+<ol start="4"><li>He <em>might</em> have taken the earlier train.</li><li>We <em>might</em> have met before — you look familiar.</li><li>It <em>might</em> have been worse.</li></ol>
+<p><strong>3. Tentative suggestions and reproach.</strong> Softening a proposal, or — with stress — complaining that something was not done. (мог бы)</p>
+<ol start="7"><li>You <em>might</em> try turning it off and on again.</li><li>You <em>might</em> have told me.</li><li>I thought we <em>might</em> walk instead.</li></ol>
+<p><strong>4. The past of <em>may</em> in reported speech.</strong> Backshift. (— в косвенной речи)</p>
+<ol start="10"><li>She said she <em>might</em> be late.</li><li>He asked whether he <em>might</em> leave early.</li><li>They warned us the road <em>might</em> be closed.</li></ol>
+<hr>
+<h3 id="could">could<a class="hash" href="#could" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʊd/ &middot; <em>KUUD</em> &middot; weak form /kəd/ &middot; the l is silent</dd><dt>Русский</dt><dd>мог бы, мог; не могли бы вы</dd><dt>Forms</dt><dd><em>could</em> /kʊd/ &middot; — &middot; — (historically the past of <em>can</em>)</dd><dt>Verb class</dt><dd>modal</dd><dt>Register</dt><dd>everyday — the standard polite request</dd><dt>Pattern</dt><dd>defective (a modal, not an ordinary verb)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>could</em> — no -s, ✗ <em>he coulds</em> &middot; <strong>-ing form:</strong> none; modals have no <em>-ing</em> and no infinitive</dd><dt>Contrast</dt><dd><em>Could</em> is the past of <a href="04-past-equals-participle-plus-d.html#can"><em>can</em></a> only for <strong>general</strong> past ability (<em>I could swim at four</em>). For a single past success English switches to <em>was able to</em> or <em>managed to</em>: ✗ <em>I could catch the train yesterday</em> → <em>I managed to catch it</em>. And most <em>coulds</em> are not past at all — <em>Could you help me?</em> is a present request. There is no participle: ✗ <em>I have could</em>.</dd><dt>Verb type</dt><dd><strong>modal auxiliary</strong> — bare infinitive after it, no <em>-s</em>, no <em>-ing</em>, no participle. Stacks with <em>have</em>: <em>could have gone</em>.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — bare-infinitive complement only.</dd><dt>Passive</dt><dd><strong>no</strong> — voice sits on the supported verb: <em>it could be repaired</em>.</dd></dl>
+<p>The politeness modal — and the one whose past-tense form misleads learners most, because three of its four senses are about the present.</p>
+<p><strong>1. Polite requests.</strong> Present time. The most frequent use of the word, and the safest register for a stranger. (не могли бы вы)</p>
+<ol><li><em>Could</em> you hold this for a second?</li><li><em>Could</em> I ask you something?</li><li><em>Could</em> we move the meeting to Thursday?</li></ol>
+<p><strong>2. Possibility and suggestion.</strong> Weaker than <em>will</em>, close to <em>might</em>, and the ordinary way to float an idea. (мог бы, можно бы)</p>
+<ol start="4"><li>We <em>could</em> take the coast road instead.</li><li>That <em>could</em> be the mail carrier.</li><li>You <em>could</em> always ask her yourself.</li></ol>
+<p><strong>3. Past ability.</strong> A general capacity in the past, not a one-time success. (мог, умел)</p>
+<ol start="7"><li>She <em>could</em> read before she started school.</li><li>We <em>couldn't</em> see the stage from where we sat.</li><li>He <em>could</em> run a mile in under six minutes back then.</li></ol>
+<p><strong>4. Unreal past — <em>could have</em>.</strong> Something possible that did not happen, often with reproach or relief. (мог бы)</p>
+<ol start="10"><li>You <em>could</em> have been hurt.</li><li>I <em>could</em> have sworn I locked it.</li><li>They <em>couldn't</em> have known.</li></ol>
+<hr>
+<h3 id="ought-to">ought to<a class="hash" href="#ought-to" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːt tə/ &middot; <em>AWT-tuh</em> &middot; often /ˈɔːtə/ in fast speech</dd><dt>Русский</dt><dd>следует, должен бы</dd><dt>Forms</dt><dd><em>ought to</em> /ˈɔːt tə/ &middot; — &middot; — (no past, no participle)</dd><dt>Verb class</dt><dd>modal</dd><dt>Register</dt><dd>everyday but slightly old-fashioned — <em>should</em> has largely replaced it</dd><dt>Pattern</dt><dd>defective (a modal, not an ordinary verb)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>ought to</em> — no -s, ✗ <em>he oughts</em> &middot; <strong>-ing form:</strong> none; modals have no <em>-ing</em> and no infinitive</dd><dt>Contrast</dt><dd>The one modal that keeps its <em>to</em> — <em>ought <strong>to</strong> go</em>, where every other modal takes a bare infinitive. Meaning is all but identical to <em>should</em>, and <em>should</em> is commoner in American English; <em>ought to</em> leans a little more toward moral duty. The negative <em>oughtn't</em> and the question <em>Ought I…?</em> both sound stiff — Americans switch to <em>shouldn't</em> and <em>Should I…?</em></dd><dt>Verb type</dt><dd><strong>modal auxiliary</strong> — but with a <em>to</em>-infinitive, not a bare one. No <em>-s</em>, no <em>-ing</em>, no participle. Stacks with <em>have</em>: <em>ought to have gone</em>.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — infinitival complement only.</dd><dt>Passive</dt><dd><strong>no</strong> — voice sits on the supported verb: <em>it ought to be reported</em>.</dd></dl>
+<p>The only modal that keeps <em>to</em> — and a near-twin of <em>should</em> that survives mostly in speech.</p>
+<p><strong>1. Duty and advice.</strong> What is right or sensible to do. (следует, надо бы)</p>
+<ol><li>You <em>ought to</em> tell her the truth.</li><li>We <em>ought to</em> leave a tip.</li><li>Somebody <em>ought to</em> fix that step.</li></ol>
+<p><strong>2. Expectation.</strong> A reasonable prediction, exactly like <em>should</em>. (должно быть, по идее)</p>
+<ol start="4"><li>That <em>ought to</em> be enough for four people.</li><li>The paint <em>ought to</em> be dry by morning.</li><li>This <em>ought to</em> only take a minute.</li></ol>
+<p><strong>3. Unfulfilled duty — <em>ought to have</em>.</strong> Regret, identical in force to <em>should have</em>. (надо было бы)</p>
+<ol start="7"><li>I <em>ought to</em> have said something.</li><li>They <em>ought to</em> have warned us.</li><li>You <em>oughtn't</em> to have gone alone.</li></ol>
+<hr>
+<h3 id="used-to">used to<a class="hash" href="#used-to" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːst tə/ &middot; <em>YOOST-tuh</em> &middot; note the /s/, not /z/ — unlike the verb <em>used</em> /juːzd/</dd><dt>Русский</dt><dd>раньше, бывало (о прошлой привычке или состоянии)</dd><dt>Forms</dt><dd><em>used to</em> /ˈjuːst tə/ &middot; — &middot; — (past only; there is no present <em>use to</em>)</dd><dt>Verb class</dt><dd>semi-modal</dd><dt>Register</dt><dd>everyday — the standard way to mark a discontinued past</dd><dt>Pattern</dt><dd>defective (a semi-modal: past tense only)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>used to</em> — no change, ✗ <em>he uses to</em> &middot; <strong>-ing form:</strong> none</dd><dt>Contrast</dt><dd>Two different words are spelled <em>used</em>. The semi-modal here is /juːst/ with an <strong>s</strong> and means "formerly"; the ordinary verb <em>use</em> /juːz/ → <em>used</em> /juːzd/ means "employ". A third, <em>be used to</em> /juːst/ + <em>-ing</em>, means "be accustomed to" — <em>I'm used to waking early</em> is not the same as <em>I used to wake early</em>. In questions and negatives the <em>-d</em> disappears: <em>Did you use to live here?</em>, <em>I didn't use to like it</em>. Unlike <em>would</em>, <em>used to</em> works with <strong>states</strong>: <em>I used to have long hair</em> is fine, ✗ <em>I would have long hair</em> is not.</dd><dt>Verb type</dt><dd><strong>semi-modal</strong> — takes a <em>to</em>-infinitive and exists only in the past. <em>Would</em> covers the repeated-action half of its meaning but not the state half.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — infinitival complement only.</dd><dt>Passive</dt><dd><strong>no</strong> — voice sits on the supported verb: <em>the building used to be a school</em>.</dd></dl>
+<p>Past habit and past state, both marked as over — the construction that says "and not anymore" without saying it.</p>
+<p><strong>1. Discontinued habit.</strong> Something done repeatedly then, not now. (раньше, бывало)</p>
+<ol><li>We <em>used to</em> eat dinner at six sharp.</li><li>She <em>used to</em> walk to work before the office moved.</li><li>I <em>used to</em> smoke, but I quit years ago.</li></ol>
+<p><strong>2. Discontinued state.</strong> A condition that has since changed — where <em>would</em> cannot be substituted. (раньше был, когда-то)</p>
+<ol start="4"><li>There <em>used to</em> be a bakery on this corner.</li><li>He <em>used to</em> be much heavier.</li><li>This <em>used to</em> be farmland.</li></ol>
+<p><strong>3. Questions and negatives — <em>use to</em>.</strong> The <em>-d</em> is carried by <em>did</em>, so the main form loses it. (раньше …? раньше не …)</p>
+<ol start="7"><li><em>Did</em> you <em>use to</em> play an instrument?</li><li>It <em>didn't use to</em> cost this much.</li><li><em>Didn't</em> she <em>use to</em> work here?</li></ol>
+<hr>
+<h3 id="had-better">had better<a class="hash" href="#had-better" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hæd ˈbɛtər/ &middot; <em>had-BET-ur</em> &middot; usually contracted to <em>'d better</em> /d ˈbɛtər/, and in fast speech to <em>better</em></dd><dt>Русский</dt><dd>лучше бы, следовало бы (с оттенком предупреждения)</dd><dt>Forms</dt><dd><em>had better</em> /hæd ˈbɛtər/ &middot; — &middot; — (one form only, despite the <em>had</em>)</dd><dt>Verb class</dt><dd>semi-modal</dd><dt>Register</dt><dd>everyday — but carries a warning, so not neutral advice</dd><dt>Pattern</dt><dd>defective (a semi-modal: fixed form)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>had better</em> — no change, ✗ <em>he has better</em> &middot; <strong>-ing form:</strong> none</dd><dt>Contrast</dt><dd>The <em>had</em> is frozen — it is <strong>not</strong> a past tense, and <em>had better</em> refers to the present or future: <em>you'd better hurry</em> means now. It takes a <strong>bare</strong> infinitive, never <em>to</em>: ✗ <em>you'd better to go</em>. The negative puts <em>not</em> after <em>better</em>: <em>you'd better not say anything</em>, not ✗ <em>you hadn't better</em>. And it is stronger than <em>should</em> — it implies a bad consequence if ignored, which makes it a poor choice for gentle advice.</dd><dt>Verb type</dt><dd><strong>semi-modal</strong> — bare infinitive after it, no inflection at all.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — bare-infinitive complement only.</dd><dt>Passive</dt><dd><strong>no</strong> — voice sits on the supported verb: <em>this had better be fixed by Monday</em>.</dd></dl>
+<p>Advice with a threat behind it — the <em>had</em> is not past, and the negative goes in a place learners never guess.</p>
+<p><strong>1. Urgent advice or warning.</strong> Present or future. The implied clause is "or something bad happens". (лучше бы)</p>
+<ol><li>You <em>'d better</em> leave now if you want a seat.</li><li>We <em>'d better</em> check the gate number again.</li><li>He <em>'d better</em> have a good explanation.</li></ol>
+<p><strong>2. The negative — <em>had better not</em>.</strong> <em>Not</em> follows <em>better</em>, never <em>had</em>. (лучше не)</p>
+<ol start="4"><li>You <em>'d better not</em> be late.</li><li>They <em>'d better not</em> find out from someone else.</li><li>I <em>'d better not</em> say anything.</li></ol>
+<hr>
+<h3 id="would-rather">would rather<a class="hash" href="#would-rather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wʊd ˈræðər/ &middot; <em>wuud-RA-thur</em> &middot; usually contracted to <em>'d rather</em> /d ˈræðər/</dd><dt>Русский</dt><dd>предпочёл бы, лучше бы</dd><dt>Forms</dt><dd><em>would rather</em> /wʊd ˈræðər/ &middot; — &middot; — (one form only)</dd><dt>Verb class</dt><dd>semi-modal</dd><dt>Register</dt><dd>everyday — the standard way to state a preference politely</dd><dt>Pattern</dt><dd>defective (a semi-modal: fixed form)</dd><dt>Group</dt><dd>64</dd><dt>Third person</dt><dd><em>would rather</em> — no change, ✗ <em>he woulds rather</em> &middot; <strong>-ing form:</strong> none</dd><dt>Contrast</dt><dd>Bare infinitive, never <em>to</em>: ✗ <em>I'd rather to stay</em>. Comparison uses <strong>than</strong>, not <em>that</em>: <em>I'd rather walk than drive</em>. The real trap is the two-subject form — when the preference is about <strong>someone else</strong>, English switches to a past-tense clause: <em>I'd rather you didn't</em> (not ✗ <em>I'd rather you don't</em>), and for the past, <em>I'd rather you hadn't</em>. <em>Would prefer</em> is the close synonym but takes <em>to</em>: <em>I'd prefer to walk</em>.</dd><dt>Verb type</dt><dd><strong>semi-modal</strong> — bare infinitive when the subject is the same, a past-tense clause when it differs.</dd><dt>Transitivity</dt><dd><strong>neither transitive nor intransitive</strong> — bare-infinitive or clausal complement.</dd><dt>Passive</dt><dd><strong>no</strong> — voice sits on the supported verb: <em>I'd rather be told directly</em>.</dd></dl>
+<p>Preference — and the construction where English suddenly demands a past tense for a present wish.</p>
+<p><strong>1. Simple preference.</strong> Same subject, bare infinitive, <em>than</em> for the comparison. (предпочёл бы)</p>
+<ol><li>I <em>'d rather</em> stay in tonight.</li><li>She <em>'d rather</em> walk than wait for the bus.</li><li><em>Would</em> you <em>rather</em> sit inside or out?</li></ol>
+<p><strong>2. Preference about someone else.</strong> Different subject, and the verb goes into the <strong>past</strong> although the meaning is present. (я бы предпочёл, чтобы…)</p>
+<ol start="4"><li>I <em>'d rather</em> you didn't mention it.</li><li>She <em>'d rather</em> we came on Sunday.</li><li>They <em>'d rather</em> nobody knew yet.</li></ol>
+<p><strong>3. Preference about the past.</strong> <em>Would rather have</em> + participle, or a past-perfect clause. (лучше бы)</p>
+<ol start="7"><li>I <em>'d rather</em> have heard it from you.</li><li>He <em>'d rather</em> you hadn't told her.</li><li>We <em>'d rather</em> have paid more and gotten it right.</li></ol>
+<hr></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

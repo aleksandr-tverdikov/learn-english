@@ -83,14 +83,16 @@ CATALOGS = [
         dir='parts-of-speech/03-verbs/catalog',
         title='The Verb Dictionary',
         eyebrow='03 &middot; Verbs',
-        lede='irregular verbs grouped by how their forms change, the regular verbs, and every phrasal verb built on either',
+        lede='irregular verbs grouped by how their forms change, the regular verbs, the modals, and every phrasal verb built on any of them',
         accent='#8a5a2b', accent_dark='#dda96b',
         # files whose entries are built ON a base verb: listed inside the base
         # entry rather than as their own rows in the A-Z list
         # 14-22 are the phrasal verbs on irregular bases; 53-58 the ones on regular
         # bases. Both are listed inside their base verb rather than as their own rows.
+        # 65-69 are the phrasal verbs on irregular bases that groups 14-22 missed
         derived_prefixes=('14-', '15-', '16-', '17-', '18-', '19-', '20-', '21-', '22-',
-                          '53-', '54-', '55-', '56-', '57-', '58-'),
+                          '53-', '54-', '55-', '56-', '57-', '58-',
+                          '65-', '66-', '67-', '68-', '69-'),
         tag_fields=['verb class'],
         fields=[('verb class', 'Verb class'), ('forms', 'Forms'), ('separable', 'Separable'), ('base verb', 'Base verb'),
                 ('transitive', 'Transitive'), ('verb type', 'Verb type'),
