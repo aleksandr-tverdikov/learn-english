@@ -1827,7 +1827,7 @@ To touch someone with your lips to show love or greeting.
 2. He *kissed* her goodbye at the airport.
 3. She was *kissing* the top of the baby's head.
 
-**Phrasal verbs:** [kiss up to](55-phrasal-regular-g-l.md#kiss-up-to)
+**Phrasal verbs:** [kiss off](55-phrasal-regular-g-l.md#kiss-off) &middot; [kiss up to](55-phrasal-regular-g-l.md#kiss-up-to)
 
 ---
 

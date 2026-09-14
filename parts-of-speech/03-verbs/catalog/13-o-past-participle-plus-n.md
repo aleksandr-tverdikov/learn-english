@@ -970,7 +970,7 @@ To make a solemn promise or take an oath — and, in the everyday sense, to use 
 18. Runners *have sworn* by these shoes for a decade.
 
 
-**Phrasal verbs:** [swear at](20-phrasal-s.md#swear-at) &middot; [swear by](20-phrasal-s.md#swear-by) &middot; [swear in](20-phrasal-s.md#swear-in) &middot; [swear off](20-phrasal-s.md#swear-off) &middot; [swear to](20-phrasal-s.md#swear-to)
+**Phrasal verbs:** [swear at](20-phrasal-s.md#swear-at) &middot; [swear by](20-phrasal-s.md#swear-by) &middot; [swear in](20-phrasal-s.md#swear-in) &middot; [swear off](20-phrasal-s.md#swear-off) &middot; [swear out](66-phrasal-irregular-more-m-z.md#swear-out) &middot; [swear to](20-phrasal-s.md#swear-to)
 
 **See also:** [forswear](#forswear), [wear](#wear), [tear](#tear), [bear](#bear)
 

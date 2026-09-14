@@ -4209,6 +4209,24 @@ To push a pointed stick through food, or to attack someone sharply in words.
 
 ---
 
+### skimp
+
+**Pronunciation:** /skɪmp/ &middot; *SKIMP*
+**Русский:** скупиться, экономить (на чём-то)
+**Forms:** *skimp* &middot; *skimped* &middot; *skimped*
+**Third person:** *skimps* &middot; **-ing form:** *skimping*
+**Verb class:** regular
+**Transitivity:** intransitive — with *on*
+**Contrast:** Takes *on*: ✗ *skimp the budget* → *skimp on the budget*. It always implies the shortfall was a bad idea, so it is a criticism, not a neutral word for saving money — for that, use *economize* or *cut back*. The adjective *skimpy* describes the result.
+
+To spend less money, time, or material on something than it really needs.
+
+1. Don't *skimp* on the insulation.
+2. They *skimped* on the foundation and paid for it later.
+3. We have never *skimped* on ingredients.
+
+---
+
 ### skin
 
 **Pronunciation:** /skɪn/ &middot; *SKIN*

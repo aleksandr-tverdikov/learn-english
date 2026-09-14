@@ -107,7 +107,7 @@ To carry or take someone or something to the place where you are or are going; a
 27. The state *has brought* three cases against the company.
 
 
-**Phrasal verbs:** [bring about](14-phrasal-b.md#bring-about) &middot; [bring along](14-phrasal-b.md#bring-along) &middot; [bring around](14-phrasal-b.md#bring-around) &middot; [bring back](14-phrasal-b.md#bring-back) &middot; [bring down](14-phrasal-b.md#bring-down) &middot; [bring forward](14-phrasal-b.md#bring-forward) &middot; [bring in](14-phrasal-b.md#bring-in) &middot; [bring off](14-phrasal-b.md#bring-off) &middot; [bring on](14-phrasal-b.md#bring-on) &middot; [bring out](14-phrasal-b.md#bring-out) &middot; [bring to](14-phrasal-b.md#bring-to) &middot; [bring up](14-phrasal-b.md#bring-up)
+**Phrasal verbs:** [bring about](14-phrasal-b.md#bring-about) &middot; [bring along](14-phrasal-b.md#bring-along) &middot; [bring around](14-phrasal-b.md#bring-around) &middot; [bring back](14-phrasal-b.md#bring-back) &middot; [bring down](14-phrasal-b.md#bring-down) &middot; [bring forward](14-phrasal-b.md#bring-forward) &middot; [bring in](14-phrasal-b.md#bring-in) &middot; [bring off](14-phrasal-b.md#bring-off) &middot; [bring on](14-phrasal-b.md#bring-on) &middot; [bring out](14-phrasal-b.md#bring-out) &middot; [bring over](65-phrasal-irregular-more-a-l.md#bring-over-1) &middot; [bring over](65-phrasal-irregular-more-a-l.md#bring-over) &middot; [bring to](14-phrasal-b.md#bring-to) &middot; [bring up](14-phrasal-b.md#bring-up)
 
 **See also:** [buy](#buy), [catch](#catch), [think](#think), [teach](#teach)
 

@@ -99,6 +99,42 @@ To force a game or an outdoor event to be canceled or stopped because of rain.
 
 ---
 
+### rake in
+
+**Pronunciation:** /ˈreɪk ˌɪn/ &middot; *RAYK in*
+**Русский:** загребать, грести лопатой (деньги); сколачивать, сколотить (состояние)
+**Base verb:** *rake*
+**Separable:** separable — *rake in the cash*, *rake the cash in*, *rake it in*; the bare *raking it in* needs no real object at all
+**Forms:** *rake in* &middot; *raked in* &middot; *raked in*
+**Third person:** *rakes in* &middot; **-ing form:** *raking in*
+**Transitivity:** transitive
+
+To earn or collect a large amount of money quickly and easily.
+
+1. The movie *raked in* forty million on its first weekend.
+2. That food truck must be *raking* it *in* on game days.
+3. They have *raked in* millions from a single app.
+
+---
+
+### rake up
+
+**Pronunciation:** /ˈreɪk ˌʌp/ &middot; *RAYK up*
+**Русский:** ворошить (прошлое); вытаскивать на свет, припоминать (старое)
+**Base verb:** *rake*
+**Separable:** separable — *rake up the past*, *rake the past up*, *rake it all up again*; never ✗ *rake up it*
+**Forms:** *rake up* &middot; *raked up* &middot; *raked up*
+**Third person:** *rakes up* &middot; **-ing form:** *raking up*
+**Transitivity:** transitive
+
+To bring up something unpleasant from the past that people would rather forget.
+
+1. Why *rake up* a quarrel that everyone has forgotten?
+2. The article *raked up* an old scandal from his college years.
+3. Every election someone comes along *raking* that rumor *up* again.
+
+---
+
 ### rally around
 
 **Pronunciation:** /ˈræli əˌraʊnd/ &middot; *RAL-ee uh-rownd*
@@ -405,6 +441,24 @@ To make someone or something more excited or more active, or to become that way.
 
 ---
 
+### rig up
+
+**Pronunciation:** /ˈrɪɡ ˌʌp/ &middot; *RIG up*
+**Русский:** сооружать, соорудить (на скорую руку); мастерить, смастерить
+**Base verb:** *rig*
+**Separable:** separable — *rig up a shelter*, *rig a shelter up*, *rig it up*; never ✗ *rig up it*
+**Forms:** *rig up* &middot; *rigged up* &middot; *rigged up*
+**Third person:** *rigs up* &middot; **-ing form:** *rigging up*
+**Transitivity:** transitive
+
+To put something together quickly out of whatever materials are at hand.
+
+1. Dad *rigged up* a shower with a garden hose and a bucket.
+2. We can *rig* something *up* with duct tape until the part arrives.
+3. They had *rigged up* lights over the whole driveway.
+
+---
+
 ### rinse off
 
 **Pronunciation:** /ˈrɪns ˌɔːf/ &middot; *RINS awf*
@@ -675,6 +729,42 @@ To stop resisting and give in without a fight.
 
 ---
 
+### roll up
+
+**Pronunciation:** /ˈroʊl ˌʌp/ &middot; *ROHL up*
+**Русский:** подъезжать, подъехать; заявляться, заявиться (с опозданием)
+**Base verb:** *roll*
+**Separable:** inseparable and intransitive here — *roll up in a taxi*, *roll up at eleven*; never ✗ *roll something up*
+**Forms:** *roll up* &middot; *rolled up* &middot; *rolled up*
+**Third person:** *rolls up* &middot; **-ing form:** *rolling up*
+**Transitivity:** intransitive
+
+To arrive somewhere in a vehicle, often late or in no hurry.
+
+1. They *rolled up* two hours late in a borrowed van.
+2. Guests kept *rolling up* long after the food was gone.
+3. He will *roll up* around noon, the way he always does.
+
+---
+
+### roll up
+
+**Pronunciation:** /ˈroʊl ˌʌp/ &middot; *ROHL up*
+**Русский:** сворачивать, свернуть (в трубку); закатывать, закатать (рукава); поднимать (стекло)
+**Base verb:** *roll*
+**Separable:** separable — *roll up the map*, *roll the map up*, *roll it up*; never ✗ *roll up it*
+**Forms:** *roll up* &middot; *rolled up* &middot; *rolled up*
+**Third person:** *rolls up* &middot; **-ing form:** *rolling up*
+**Transitivity:** transitive
+
+To turn something flat into a tube, or to wind something upward.
+
+1. *Roll up* your sleeves — this is going to get messy.
+2. He *rolled* the poster *up* and slid it into a tube.
+3. She had *rolled up* the car window before the rain started.
+
+---
+
 ### root out
 
 **Pronunciation:** /ˈruːt ˌaʊt/ &middot; *ROOT owt*
@@ -855,6 +945,24 @@ To raise a number to the next whole or convenient figure.
 
 ---
 
+### rub down
+
+**Pronunciation:** /ˈrʌb ˌdaʊn/ &middot; *RUB down*
+**Русский:** растирать, растереть; обтирать, обтереть (насухо); массировать
+**Base verb:** *rub*
+**Separable:** separable — *rub down the horse*, *rub the horse down*, *rub him down*; never ✗ *rub down him*
+**Forms:** *rub down* &middot; *rubbed down* &middot; *rubbed down*
+**Third person:** *rubs down* &middot; **-ing form:** *rubbing down*
+**Transitivity:** transitive
+
+To dry or massage a person or animal by rubbing them hard all over.
+
+1. The trainer *rubbed* the pitcher's shoulder *down* with ice.
+2. Always *rub down* a horse after a long ride.
+3. She was *rubbing* the dog *down* with an old beach towel.
+
+---
+
 ### rub in
 
 **Pronunciation:** /ˈrʌb ˌɪn/ &middot; *RUB in*
@@ -873,6 +981,42 @@ To keep mentioning something that embarrasses or upsets another person.
 
 ---
 
+### rub off
+
+**Pronunciation:** /ˈrʌb ˌɔːf/ &middot; *RUB awf*
+**Русский:** стираться, стереться; сходить, сойти (о краске, надписи)
+**Base verb:** *rub*
+**Separable:** intransitive here, so nothing comes between; where the mark lands takes *on*: *rubbed off on my sleeve*
+**Forms:** *rub off* &middot; *rubbed off* &middot; *rubbed off*
+**Third person:** *rubs off* &middot; **-ing form:** *rubbing off*
+**Transitivity:** intransitive
+
+To come away from a surface because something has rubbed against it.
+
+1. The price sticker *rubbed off* in my pocket.
+2. Fresh ink will *rub off* if you close the book too soon.
+3. Half the paint had *rubbed off* the railing over the winter.
+
+---
+
+### rub off
+
+**Pronunciation:** /ˈrʌb ˌɔːf/ &middot; *RUB awf*
+**Русский:** стирать, стереть (трением); оттирать, оттереть
+**Base verb:** *rub*
+**Separable:** separable — *rub off the chalk*, *rub the chalk off*, *rub it off*; never ✗ *rub off it*
+**Forms:** *rub off* &middot; *rubbed off* &middot; *rubbed off*
+**Third person:** *rubs off* &middot; **-ing form:** *rubbing off*
+**Transitivity:** transitive
+
+To remove a mark or a coating by rubbing it.
+
+1. *Rub* the chalk *off* the board before the next class.
+2. He *rubbed off* the pencil line and started the drawing again.
+3. The engraving has been *rubbed off* by a century of hands.
+
+---
+
 ### rub off on
 
 **Pronunciation:** /ˈrʌb ˌɔːf ɑːn/ &middot; *RUB awf ahn*
@@ -888,6 +1032,42 @@ To pass from one person to another, of a habit, mood, or quality.
 1. Her optimism *rubs off on* everyone in the room.
 2. Some of his bad habits have *rubbed off on* me.
 3. You can see the coach's style *rubbing off on* the younger players.
+
+---
+
+### rub out
+
+**Pronunciation:** /ˈrʌb ˌaʊt/ &middot; *RUB owt*
+**Русский:** убивать, убить; приканчивать, прикончить (сленг)
+**Base verb:** *rub*
+**Separable:** separable — *rub out a witness*, *rub him out*; old crime-movie slang, and always about a person
+**Forms:** *rub out* &middot; *rubbed out* &middot; *rubbed out*
+**Third person:** *rubs out* &middot; **-ing form:** *rubbing out*
+**Transitivity:** transitive
+
+To murder someone, in gangster slang.
+
+1. The boss had him *rubbed out* before he could testify.
+2. They *rubbed out* two rivals in the same week.
+3. Nobody would dare *rub* him *out* in his own club.
+
+---
+
+### rub out
+
+**Pronunciation:** /ˈrʌb ˌaʊt/ &middot; *RUB owt*
+**Русский:** стирать, стереть (ластиком); вычёркивать, вычеркнуть
+**Base verb:** *rub*
+**Separable:** separable — *rub out the answer*, *rub the answer out*, *rub it out*; never ✗ *rub out it*. For pencil marks Americans more often say *erase*
+**Forms:** *rub out* &middot; *rubbed out* &middot; *rubbed out*
+**Third person:** *rubs out* &middot; **-ing form:** *rubbing out*
+**Transitivity:** transitive
+
+To remove writing or pencil marks by rubbing them away.
+
+1. *Rub* that line *out* and try the sum again.
+2. She *rubbed out* the wrong date and wrote the right one above it.
+3. Someone had *rubbed out* half the names on the list.
 
 ---
 
@@ -978,6 +1158,24 @@ To get through a test, a task, or a hard stretch of time easily and with no trou
 1. She *sails through* every exam without studying.
 2. The bill *sailed through* the Senate in a day.
 3. He's *sailing through* his first semester.
+
+---
+
+### salt away
+
+**Pronunciation:** /ˈsɔːlt əˌweɪ/ &middot; *SAWLT uh-way*
+**Русский:** откладывать, отложить (деньги); припрятывать, припрятать
+**Base verb:** *salt*
+**Separable:** separable — *salt away money*, *salt the money away*, *salt it away*; never ✗ *salt away it*
+**Forms:** *salt away* &middot; *salted away* &middot; *salted away*
+**Third person:** *salts away* &middot; **-ing form:** *salting away*
+**Transitivity:** transitive
+
+To save money quietly over a long time, or hide it where no one will look.
+
+1. He had *salted away* enough to buy the place outright.
+2. She *salts* a little *away* from every paycheck.
+3. They spent years quietly *salting away* cash in offshore accounts.
 
 ---
 
@@ -1194,6 +1392,24 @@ To manage to live or succeed with barely enough money or barely enough ability.
 1. They *scrape by* on one paycheck.
 2. We *scraped by* that first winter.
 3. He's been *scraping by* since the layoff.
+
+---
+
+### scrape through
+
+**Pronunciation:** /ˈskreɪp ˌθruː/ &middot; *SKRAYP throo*
+**Русский:** еле сдавать, сдать; с трудом проходить, пройти; еле-еле справляться
+**Base verb:** *scrape*
+**Separable:** inseparable — *scrape through the exam*, or with no object at all: *he just scraped through*; never ✗ *scrape the exam through*
+**Forms:** *scrape through* &middot; *scraped through* &middot; *scraped through*
+**Third person:** *scrapes through* &middot; **-ing form:** *scraping through*
+**Transitivity:** both — transitive (*scraped through the test*), intransitive (*he just scraped through*)
+
+To succeed at something by the smallest possible margin.
+
+1. He *scraped through* the final with a sixty-one.
+2. If I study tonight, I might *scrape through*.
+3. The bill has *scraped through* the Senate by two votes.
 
 ---
 
@@ -1449,6 +1665,24 @@ To pay what you owe so that nobody owes anybody anything.
 
 ---
 
+### shack up
+
+**Pronunciation:** /ˈʃæk ˌʌp/ &middot; *SHAK up*
+**Русский:** сожительствовать, жить вместе (без брака); съезжаться, съехаться
+**Base verb:** *shack*
+**Separable:** inseparable and intransitive — the partner takes *with*: *shacked up with her boyfriend*; informal, and often faintly disapproving
+**Forms:** *shack up* &middot; *shacked up* &middot; *shacked up*
+**Third person:** *shacks up* &middot; **-ing form:** *shacking up*
+**Transitivity:** intransitive
+
+To move in and live with a romantic partner without being married.
+
+1. They *shacked up* a month after they met.
+2. Her parents were not thrilled that she wanted to *shack up* with him.
+3. The two of them have been *shacked up* in a cabin all winter.
+
+---
+
 ### shape up
 
 **Pronunciation:** /ˈʃeɪp ˌʌp/ &middot; *SHAYP up*
@@ -1626,6 +1860,24 @@ To say something loudly so that everyone can hear it.
 1. Kids were *shouting out* answers before she finished the question.
 2. Someone *shouted out* my name in the crowd.
 3. *Shout out* if you can't hear me in the back.
+
+---
+
+### shove off
+
+**Pronunciation:** /ˈʃʌv ˌɔːf/ &middot; *SHUV awf*
+**Русский:** убираться, убраться; проваливать; отчаливать, отчалить
+**Base verb:** *shove*
+**Separable:** inseparable and intransitive, and often a blunt order: *shove off!*
+**Forms:** *shove off* &middot; *shoved off* &middot; *shoved off*
+**Third person:** *shoves off* &middot; **-ing form:** *shoving off*
+**Transitivity:** intransitive
+
+To leave or go away, often said as a rude order to someone you want rid of.
+
+1. He told the photographers to *shove off*.
+2. The kid *shoved off* the moment he saw the manager coming.
+3. We were *shoving off* just as the rain started.
 
 ---
 
@@ -1917,6 +2169,42 @@ To describe or draw the main points of something without the details.
 
 ---
 
+### skim off
+
+**Pronunciation:** /ˈskɪm ˌɔːf/ &middot; *SKIM awf*
+**Русский:** снимать, снять (пену, жир, сливки с поверхности)
+**Base verb:** *skim*
+**Separable:** separable — *skim off the fat*, *skim the fat off*, *skim it off*; never ✗ *skim off it*
+**Forms:** *skim off* &middot; *skimmed off* &middot; *skimmed off*
+**Third person:** *skims off* &middot; **-ing form:** *skimming off*
+**Transitivity:** transitive
+
+To lift fat, foam, or cream from the surface of a liquid.
+
+1. *Skim* the foam *off* the top before you add the beans.
+2. He *skimmed off* the fat with a wide spoon.
+3. Once the stock has cooled, the grease can be *skimmed off* in one piece.
+
+---
+
+### skim off
+
+**Pronunciation:** /ˈskɪm ˌɔːf/ &middot; *SKIM awf*
+**Русский:** присваивать, присвоить (часть денег); отщипывать от выручки
+**Base verb:** *skim*
+**Separable:** separable — *skim off a percentage*, *skim it off*; the source takes *from*, or the fixed phrase *off the top*
+**Forms:** *skim off* &middot; *skimmed off* &middot; *skimmed off*
+**Third person:** *skims off* &middot; **-ing form:** *skimming off*
+**Transitivity:** transitive
+
+To take part of a sum of money dishonestly for yourself.
+
+1. A manager had been *skimming off* a few dollars from every shift.
+2. They *skimmed* thousands *off* the building fund before anyone noticed.
+3. He *skims off* a cut of every contract he signs.
+
+---
+
 ### skim through
 
 **Pronunciation:** /ˈskɪm ˌθruː/ &middot; *SKIM throo*
@@ -2025,6 +2313,24 @@ To start putting less effort into work than you should.
 
 ---
 
+### slap down
+
+**Pronunciation:** /ˈslæp ˌdaʊn/ &middot; *SLAP down*
+**Русский:** резко осаживать, осадить; давать отпор; пресекать, пресечь
+**Base verb:** *slap*
+**Separable:** separable — *slap down the idea*, *slap the idea down*, *slap him down*; never ✗ *slap down him*
+**Forms:** *slap down* &middot; *slapped down* &middot; *slapped down*
+**Third person:** *slaps down* &middot; **-ing form:** *slapping down*
+**Transitivity:** transitive
+
+To reject an idea or rebuke a person sharply, putting them in their place.
+
+1. The court *slapped down* the governor's order within a week.
+2. Every suggestion he made got *slapped down* in the meeting.
+3. Say it carefully, or she will *slap* you *down* in front of everyone.
+
+---
+
 ### slave away
 
 **Pronunciation:** /ˈsleɪv əˌweɪ/ &middot; *SLAYV uh-way*
@@ -2130,6 +2436,42 @@ To make a small careless mistake.
 1. I *slipped up* and called him by the wrong name.
 2. Everybody *slips up* once in a while.
 3. They're *slipping up* on the small details.
+
+---
+
+### slough off
+
+**Pronunciation:** /ˈslʌf ˌɔːf/ &middot; *SLUF awf*
+**Русский:** избавляться, избавиться от; сбрасывать, сбросить (с себя)
+**Base verb:** *slough*
+**Separable:** separable — *slough off the old habits*, *slough them off*; never ✗ *slough off them*
+**Forms:** *slough off* &middot; *sloughed off* &middot; *sloughed off*
+**Third person:** *sloughs off* &middot; **-ing form:** *sloughing off*
+**Transitivity:** transitive
+
+To get rid of something you no longer want to carry.
+
+1. He *sloughed off* his old job title and never mentioned it again.
+2. The company is trying to *slough off* three unprofitable divisions.
+3. She has *sloughed* most of that anger *off* since the move.
+
+---
+
+### slough off
+
+**Pronunciation:** /ˈslʌf ˌɔːf/ &middot; *SLUF awf*
+**Русский:** сбрасывать, сбросить (кожу); отшелушиваться, отслаиваться
+**Base verb:** *slough*
+**Separable:** separable when it has an object — *slough off dead skin*, *slough it off*; written *slough* but said SLUF, nothing like *slow* or *slouch*
+**Forms:** *slough off* &middot; *sloughed off* &middot; *sloughed off*
+**Third person:** *sloughs off* &middot; **-ing form:** *sloughing off*
+**Transitivity:** both — transitive (*snakes slough off their skin*), intransitive (*the dead layer sloughs off*)
+
+To shed a layer of dead skin, or to fall away as such a layer does.
+
+1. A snake grows a new skin and *sloughs* the old one *off*.
+2. The burned tissue *sloughed off* over the next few days.
+3. This scrub is good for *sloughing off* dead cells.
 
 ---
 
@@ -2349,6 +2691,24 @@ To come close to someone quietly so that they do not notice until you are there.
 
 ---
 
+### sneeze at
+
+**Pronunciation:** /ˈsniːz ət/ &middot; *SNEEZ uht*
+**Русский:** пренебрегать, пренебречь; недооценивать, недооценить
+**Base verb:** *sneeze*
+**Separable:** inseparable — *sneeze at the offer*, never ✗ *sneeze the offer at*. In practice it is almost always negative: *nothing to sneeze at*, *not to be sneezed at*.
+**Forms:** *sneeze at* &middot; *sneezed at* &middot; *sneezed at*
+**Third person:** *sneezes at* &middot; **-ing form:** *sneezing at*
+**Transitivity:** transitive
+
+To treat something as too small or unimportant to be worth having.
+
+1. A ten percent raise is nothing to *sneeze at*.
+2. Nobody *sneezed at* the offer once they saw the numbers.
+3. He spent two years *sneezing at* jobs that paid less than six figures.
+
+---
+
 ### sniff around
 
 **Pronunciation:** /ˈsnɪf əˌraʊnd/ &middot; *SNIF uh-rownd*
@@ -2493,6 +2853,24 @@ To stop being drunk, or to make someone stop being drunk.
 
 ---
 
+### sock away
+
+**Pronunciation:** /ˈsɑːk əˌweɪ/ &middot; *SAHK uh-way*
+**Русский:** откладывать, отложить (деньги); копить, накопить
+**Base verb:** *sock*
+**Separable:** separable — *sock away money*, *sock money away*, *sock it away*; a pronoun has to sit in the middle, never ✗ *sock away it*.
+**Forms:** *sock away* &middot; *socked away* &middot; *socked away*
+**Third person:** *socks away* &middot; **-ing form:** *socking away*
+**Transitivity:** transitive
+
+To save money steadily and keep it somewhere safe for the future.
+
+1. They *sock away* three hundred dollars every month.
+2. By forty she had *socked away* enough to stop worrying.
+3. He *socks* a little *away* out of every paycheck.
+
+---
+
 ### soften up
 
 **Pronunciation:** /ˈsɔːfən ˌʌp/ &middot; *SAWF-uhn up*
@@ -2508,6 +2886,24 @@ To make someone more willing to agree, usually by being nice to them first.
 1. Take her to dinner and *soften her up* before you ask.
 2. The salesman *softened us up* with free samples.
 3. He's been *softening up* his parents all week.
+
+---
+
+### sop up
+
+**Pronunciation:** /ˈsɑːp ˌʌp/ &middot; *SAHP up*
+**Русский:** впитывать, впитать; вымакивать, вымакать (хлебом); собирать, собрать (жидкость)
+**Base verb:** *sop*
+**Separable:** separable — *sop up the gravy*, *sop the gravy up*, *sop it up*; never ✗ *sop up it*. The p doubles: *sopped*, *sopping*.
+**Forms:** *sop up* &middot; *sopped up* &middot; *sopped up*
+**Third person:** *sops up* &middot; **-ing form:** *sopping up*
+**Transitivity:** transitive
+
+To soak up a liquid with bread, a cloth, or a sponge.
+
+1. He *sopped up* the last of the gravy with a biscuit.
+2. Use a paper towel to *sop up* the spill.
+3. She was *sopping* the grease *up* with an old rag.
 
 ---
 
@@ -2598,6 +2994,24 @@ To find out carefully what someone thinks before you make a decision public.
 1. *Sound out* the team before you announce anything.
 2. He *sounded out* a few donors last month.
 3. She's *sounding out* investors quietly.
+
+---
+
+### soup up
+
+**Pronunciation:** /ˈsuːp ˌʌp/ &middot; *SOOP up*
+**Русский:** форсировать (двигатель); дорабатывать, доработать; тюнинговать
+**Base verb:** *soup*
+**Separable:** separable — *soup up the engine*, *soup the engine up*, *soup it up*; never ✗ *soup up it*. The participle is a common adjective: *a souped-up Civic*.
+**Forms:** *soup up* &middot; *souped up* &middot; *souped up*
+**Third person:** *soups up* &middot; **-ing form:** *souping up*
+**Transitivity:** transitive
+
+To make an engine or a machine more powerful than it was built to be.
+
+1. He *souped up* an old Civic in his father's garage.
+2. They *soup up* the delivery vans so they can keep up on the highway.
+3. The shop is *souping* the motor *up* for Saturday's race.
 
 ---
 
@@ -2871,6 +3285,24 @@ To hide money or supplies somewhere safe so you can use them later.
 
 ---
 
+### stack against
+
+**Pronunciation:** /ˈstæk əˌɡɛnst/ &middot; *STAK uh-genst*
+**Русский:** настраивать, настроить против; складываться, сложиться не в пользу (кого-л.)
+**Base verb:** *stack*
+**Separable:** always split — what gets stacked goes in the middle: *stack the odds against him*, never ✗ *stack against him the odds*. The passive is commonest of all: *the odds are stacked against us*.
+**Forms:** *stack against* &middot; *stacked against* &middot; *stacked against*
+**Third person:** *stacks against* &middot; **-ing form:** *stacking against*
+**Transitivity:** transitive
+
+To arrange things so that someone is at a disadvantage from the start.
+
+1. The lending rules were *stacked against* first-time buyers.
+2. A late start and bad weather *stacked* everything *against* the climbers.
+3. Every change to the funding formula keeps *stacking* the deck *against* rural schools.
+
+---
+
 ### stack up
 
 **Pronunciation:** /ˈstæk ˌʌp/ &middot; *STAK up*
@@ -2994,6 +3426,24 @@ To look steadily at someone until they give in or look away.
 1. The pitcher *stared down* the batter.
 2. She *stares down* anyone who questions her numbers.
 3. He was *staring the whole room down*.
+
+---
+
+### start in
+
+**Pronunciation:** /ˈstɑːrt ˌɪn/ &middot; *STAHRT in*
+**Русский:** приниматься, приняться (за); набрасываться, наброситься (с упрёками)
+**Base verb:** *start*
+**Separable:** no object of its own — what you start in on follows *on*: *start in on the leftovers*, *start in on me about the car*.
+**Forms:** *start in* &middot; *started in* &middot; *started in*
+**Third person:** *starts in* &middot; **-ing form:** *starting in*
+**Transitivity:** intransitive
+
+To begin something with a lot of energy, especially criticizing someone or eating.
+
+1. Don't *start in* on me — I already apologized.
+2. She *started in* on her brother the moment he walked through the door.
+3. He was *starting in* on a second plate before anyone else sat down.
 
 ---
 
@@ -3354,6 +3804,42 @@ To get involved in a situation in order to help or to stop trouble.
 1. A teacher *stepped in* before the fight started.
 2. The state *steps in* when a district runs out of money.
 3. His lawyer is *stepping in* to handle the negotiation.
+
+---
+
+### step on
+
+**Pronunciation:** /ˈstɛp ˌɑːn/ &middot; *STEP on*
+**Русский:** нажимать, нажать (на педаль); прибавлять, прибавить газу; поторапливаться
+**Base verb:** *step*
+**Separable:** inseparable — what you press follows the particle: *step on the gas*, *step on the brake*, never ✗ *step the brake on*. The fixed phrase *step on it* means hurry.
+**Forms:** *step on* &middot; *stepped on* &middot; *stepped on*
+**Third person:** *steps on* &middot; **-ing form:** *stepping on*
+**Transitivity:** transitive
+
+To press a pedal down with your foot, especially to make a car go faster.
+
+1. *Step on it* — the flight leaves in forty minutes.
+2. He *stepped on* the gas and the truck jumped forward.
+3. She kept *stepping on* the brake all the way down the hill.
+
+---
+
+### step on
+
+**Pronunciation:** /ˈstɛp ˌɑːn/ &middot; *STEP on*
+**Русский:** помыкать, унижать; идти по головам
+**Base verb:** *step*
+**Separable:** inseparable — the person follows the particle: *step on people*, never ✗ *step people on*.
+**Forms:** *step on* &middot; *stepped on* &middot; *stepped on*
+**Third person:** *steps on* &middot; **-ing form:** *stepping on*
+**Transitivity:** transitive
+
+To treat people badly or ignore their feelings in order to get what you want.
+
+1. He *stepped on* a lot of people on his way to that corner office.
+2. Managers who *step on* their staff don't keep them long.
+3. You can get promoted here without *stepping on* anyone.
 
 ---
 
@@ -3804,6 +4290,42 @@ To discover something by chance.
 1. He *stumbled upon* the answer while doing something else entirely.
 2. We *stumble upon* good bands this way all the time.
 3. She had *stumbled upon* a letter dated 1943.
+
+---
+
+### suck in
+
+**Pronunciation:** /ˈsʌk ˌɪn/ &middot; *SUK in*
+**Русский:** втягивать, втянуть (в историю); обманывать, обмануть, облапошить
+**Base verb:** *suck*
+**Separable:** separable — *suck in new investors*, *suck him in*; with a pronoun it must split, never ✗ *suck in him*. Very often passive: *I got sucked in*.
+**Forms:** *suck in* &middot; *sucked in* &middot; *sucked in*
+**Third person:** *sucks in* &middot; **-ing form:** *sucking in*
+**Transitivity:** transitive
+
+To draw someone into a situation or a scam they never meant to join.
+
+1. The free trial *sucked in* thousands of subscribers.
+2. Don't let those ads *suck* you *in*.
+3. He got *sucked in* by a guy selling fake playoff tickets.
+
+---
+
+### suck in
+
+**Pronunciation:** /ˈsʌk ˌɪn/ &middot; *SUK in*
+**Русский:** втягивать, втянуть (живот, воздух); всасывать, всосать
+**Base verb:** *suck*
+**Separable:** separable — *suck in your stomach*, *suck your stomach in*, *suck it in*; never ✗ *suck in it*.
+**Forms:** *suck in* &middot; *sucked in* &middot; *sucked in*
+**Third person:** *sucks in* &middot; **-ing form:** *sucking in*
+**Transitivity:** transitive
+
+To pull air, or a part of your body, inward.
+
+1. He *sucked in* a long breath before he answered.
+2. *Suck* your gut *in* and the pants will button.
+3. She was *sucking in* air through her teeth the whole time.
 
 ---
 

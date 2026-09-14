@@ -638,7 +638,7 @@ Trade has 2 distinct senses.
 5. The stock *traded* below ten dollars all week.
 6. Oil has been *trading* near record highs.
 
-**Phrasal verbs:** [trade in](58-phrasal-regular-t-z.md#trade-in) &middot; [trade up](58-phrasal-regular-t-z.md#trade-up)
+**Phrasal verbs:** [trade in](58-phrasal-regular-t-z.md#trade-in) &middot; [trade on](58-phrasal-regular-t-z.md#trade-on) &middot; [trade up](58-phrasal-regular-t-z.md#trade-up)
 
 ---
 

@@ -33,7 +33,7 @@ Mop has 2 distinct senses.
 5. She *mopped* her face with a paper towel.
 6. The old man sat *mopping* his brow in the heat.
 
-**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up-1)
+**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up-1) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up)
 
 ---
 
@@ -404,7 +404,7 @@ To make something straight or neat.
 2. He *straightened* the chairs after the meeting.
 3. She's *straightening* the shelves in the hall closet.
 
-**Phrasal verbs:** [straighten out](57-phrasal-regular-q-s.md#straighten-out) &middot; [straighten out](57-phrasal-regular-q-s.md#straighten-out-1) &middot; [straighten up](57-phrasal-regular-q-s.md#straighten-up)
+**Phrasal verbs:** [straighten out](57-phrasal-regular-q-s.md#straighten-out-1) &middot; [straighten out](57-phrasal-regular-q-s.md#straighten-out) &middot; [straighten up](57-phrasal-regular-q-s.md#straighten-up)
 
 ---
 
@@ -560,7 +560,7 @@ Sort has 2 distinct senses.
 5. She *sorted* the emails by sender.
 6. The files are *sorted* alphabetically.
 
-**Phrasal verbs:** [sort out](57-phrasal-regular-q-s.md#sort-out-1) &middot; [sort out](57-phrasal-regular-q-s.md#sort-out) &middot; [sort through](57-phrasal-regular-q-s.md#sort-through)
+**Phrasal verbs:** [sort out](57-phrasal-regular-q-s.md#sort-out) &middot; [sort out](57-phrasal-regular-q-s.md#sort-out-1) &middot; [sort through](57-phrasal-regular-q-s.md#sort-through)
 
 ---
 
@@ -1183,7 +1183,7 @@ Strip has 2 distinct senses.
 5. The court *stripped* her of custody.
 6. He was *stripped* of the gold medal.
 
-**Phrasal verbs:** [strip down](57-phrasal-regular-q-s.md#strip-down) &middot; [strip down](57-phrasal-regular-q-s.md#strip-down-1) &middot; [strip off](57-phrasal-regular-q-s.md#strip-off)
+**Phrasal verbs:** [strip down](57-phrasal-regular-q-s.md#strip-down-1) &middot; [strip down](57-phrasal-regular-q-s.md#strip-down) &middot; [strip off](57-phrasal-regular-q-s.md#strip-off)
 
 ---
 

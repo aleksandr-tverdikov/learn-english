@@ -873,7 +873,7 @@ To recognize who or what someone or something is.
 2. Witnesses *identified* the car right away.
 3. The victims have not been *identified*.
 
-**Phrasal verbs:** [identify with](55-phrasal-regular-g-l.md#identify-with) &middot; [identify with](55-phrasal-regular-g-l.md#identify-with-1)
+**Phrasal verbs:** [identify with](55-phrasal-regular-g-l.md#identify-with-1) &middot; [identify with](55-phrasal-regular-g-l.md#identify-with)
 
 ---
 
@@ -1954,7 +1954,7 @@ Wish has 2 distinct senses.
 5. He *wished* us a safe trip.
 6. I have already *wished* him a happy birthday.
 
-**Phrasal verbs:** [wish for](22-verb-preposition.md#wish-for)
+**Phrasal verbs:** [wish for](22-verb-preposition.md#wish-for) &middot; [wish on](58-phrasal-regular-t-z.md#wish-on)
 
 ---
 

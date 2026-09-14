@@ -133,6 +133,24 @@ To leave quickly and secretly, usually after stealing something or to avoid arre
 
 ---
 
+### abstain
+
+**Pronunciation:** /əbˈsteɪn/ &middot; *uhb-STAYN*
+**Русский:** воздерживаться, воздержаться
+**Forms:** *abstain* &middot; *abstained* &middot; *abstained*
+**Third person:** *abstains* &middot; **-ing form:** *abstaining*
+**Verb class:** regular
+**Transitivity:** intransitive — always with *from*, or absolutely in the voting sense
+**Contrast:** Takes *from*, never a bare object: ✗ *abstain alcohol* → *abstain from alcohol*. In a vote it stands alone — *three members abstained* — and means neither yes nor no, which is not the same as not voting at all.
+
+To hold back deliberately from something you could have done or taken.
+
+1. Two senators *abstained* rather than vote either way.
+2. She *abstains* from caffeine after noon.
+3. He has *abstained* from alcohol for six years.
+
+---
+
 ### abut
 
 **Pronunciation:** /əˈbʌt/ &middot; *uh-BUT*
@@ -219,6 +237,24 @@ To go up to a stranger and speak to them in a bold or threatening way.
 1. Panhandlers sometimes *accost* tourists outside the station.
 2. A reporter *accosted* him as he left the courthouse.
 3. She was *accosted* by two men in the parking garage.
+
+---
+
+### accuse
+
+**Pronunciation:** /əˈkjuːz/ &middot; *uh-KYOOZ*
+**Русский:** обвинять, обвинить
+**Forms:** *accuse* &middot; *accused* &middot; *accused*
+**Third person:** *accuses* &middot; **-ing form:** *accusing*
+**Verb class:** regular
+**Transitivity:** transitive — *accuse someone **of** something*
+**Contrast:** The preposition is **of**, and it takes a noun or *-ing*, never an infinitive: ✗ *accused him to steal* → *accused him of stealing*. Compare *charge someone **with*** and *blame someone **for***, which take different prepositions for much the same idea. *The accused* as a noun means the defendant.
+
+To say that someone has done something wrong or illegal.
+
+1. They *accused* him of leaking the report.
+2. She was *accused* of cheating and cleared a week later.
+3. I'm not *accusing* anyone — I'm asking.
 
 ---
 
@@ -576,6 +612,24 @@ To make someone's fear, doubt, or anger less strong.
 1. The mayor tried to *allay* fears about the water supply.
 2. His calm answers *allayed* most of the criticism.
 3. Nothing the company has said has *allayed* investors' doubts.
+
+---
+
+### allude
+
+**Pronunciation:** /əˈluːd/ &middot; *uh-LOOD*
+**Русский:** намекать, намекнуть; ссылаться
+**Forms:** *allude* &middot; *alluded* &middot; *alluded*
+**Third person:** *alludes* &middot; **-ing form:** *alluding*
+**Verb class:** regular
+**Transitivity:** intransitive — always with *to*
+**Contrast:** Needs *to* and cannot take an object: ✗ *he alluded the problem* → *alluded to the problem*. It means to hint, not to mention — if the thing is named outright, the verb is *refer to* or *mention*. Do not confuse it with *elude* (to escape) or *delude* (to deceive), which sound close and mean nothing like it.
+
+To refer to something indirectly, without naming it outright.
+
+1. She *alluded* to the argument but never described it.
+2. He keeps *alluding* to some earlier version of the plan.
+3. The report has *alluded* to cost overruns twice already.
 
 ---
 
@@ -985,6 +1039,24 @@ To find something out for certain by checking the facts.
 1. We need to *ascertain* who was in the building that night.
 2. Investigators *ascertained* the cause of the fire within a week.
 3. The police have not yet *ascertained* how the thieves got in.
+
+---
+
+### ascribe
+
+**Pronunciation:** /əˈskraɪb/ &middot; *uh-SKRYB*
+**Русский:** приписывать, приписать
+**Forms:** *ascribe* &middot; *ascribed* &middot; *ascribed*
+**Third person:** *ascribes* &middot; **-ing form:** *ascribing*
+**Verb class:** regular
+**Transitivity:** transitive — *ascribe something **to** someone or something*
+**Contrast:** The preposition is **to**, and the order is thing-first: *ascribe the delay to the weather*, never ✗ *ascribe the weather the delay*. *Attribute* is the commoner everyday synonym and behaves identically. The near-twin *subscribe to* means to agree with, which is a different verb entirely.
+
+To say that something was caused by, or belongs to, a particular person or thing.
+
+1. Historians *ascribe* the collapse to a single bad harvest.
+2. The painting was long *ascribed* to a student of Rembrandt.
+3. She is *ascribing* motives he never had.
 
 ---
 
@@ -2472,6 +2544,24 @@ To make something less sharp, less strong or less effective.
 
 ---
 
+### blurt
+
+**Pronunciation:** /blɜːrt/ &middot; *BLURT*
+**Русский:** выпалить, ляпнуть, сболтнуть
+**Forms:** *blurt* &middot; *blurted* &middot; *blurted*
+**Third person:** *blurts* &middot; **-ing form:** *blurting*
+**Verb class:** regular
+**Transitivity:** transitive — nearly always with *out*
+**Contrast:** Almost always *blurt **out***; bare *blurt* sounds incomplete. It carries regret built in — you blurt what you wish you had not said, so it is not a neutral way to report speech.
+
+To say something suddenly and without thinking, usually something you meant to keep quiet.
+
+1. He *blurted* out the answer before anyone else had finished reading.
+2. I *blurt* things out when I'm nervous.
+3. She had *blurted* the whole story to a stranger on the train.
+
+---
+
 ### bluster
 
 **Pronunciation:** /ˈblʌstər/ &middot; *BLUS-tur*
@@ -2905,6 +2995,24 @@ To knock down or clear something with heavy machinery, or to force something thr
 1. The city plans to *bulldoze* the old stadium.
 2. Developers *bulldozed* the orchard in a single weekend.
 3. The bill was *bulldozed* through the legislature in two days.
+
+---
+
+### bum
+
+**Pronunciation:** /bʌm/ &middot; *BUM*
+**Русский:** клянчить, стрелять (сигарету); бездельничать
+**Forms:** *bum* &middot; *bummed* &middot; *bummed*
+**Third person:** *bums* &middot; **-ing form:** *bumming*
+**Verb class:** regular
+**Transitivity:** both — transitive (*bum a cigarette*), intransitive with *around* (*bum around*)
+**Contrast:** Informal, and the doubled **m** matters: *bummed*, *bumming*. Three separate uses live here — *bum something off someone* (cadge), *bum around* (drift), and *be bummed* (be disappointed). In British English the noun *bum* means a part of the body, which makes this a word to place carefully.
+
+To get something small from someone by asking, without paying for it.
+
+1. Can I *bum* a ride to the station?
+2. He *bummed* a cigarette off a guy outside.
+3. They spent the summer *bumming* around the coast.
 
 ---
 
@@ -4522,6 +4630,24 @@ To clash with something else, or to be in opposition to it.
 
 ---
 
+### conform
+
+**Pronunciation:** /kənˈfɔːrm/ &middot; *kuhn-FORM*
+**Русский:** соответствовать; подчиняться, следовать правилам
+**Forms:** *conform* &middot; *conformed* &middot; *conformed*
+**Third person:** *conforms* &middot; **-ing form:** *conforming*
+**Verb class:** regular
+**Transitivity:** intransitive — with *to* or *with*
+**Contrast:** Takes *to* (or, for agreements, *with*) and never a bare object: ✗ *conform the rules* → *conform to the rules*. Do not confuse it with *confirm* /kənˈfɜːrm/, which means to verify — one letter apart, and a mistake spellcheckers will not catch.
+
+To follow a rule, a standard, or what everyone else does.
+
+1. The wiring *conforms* to the current code.
+2. He never *conformed*, and it cost him the job.
+3. All units shipped since March have *conformed* to the new spec.
+
+---
+
 ### confound
 
 **Pronunciation:** /kənˈfaʊnd/ &middot; *kuhn-FOWND*
@@ -4902,6 +5028,24 @@ To rest and slowly get your strength back after an illness or an operation.
 1. Patients *convalesce* faster at home than on a ward.
 2. She *convalesced* at her sister's place for a month.
 3. He is still *convalescing* and cannot travel.
+
+---
+
+### converge
+
+**Pronunciation:** /kənˈvɜːrdʒ/ &middot; *kuhn-VURJ*
+**Русский:** сходиться, сойтись; сближаться
+**Forms:** *converge* &middot; *converged* &middot; *converged*
+**Third person:** *converges* &middot; **-ing form:** *converging*
+**Verb class:** regular
+**Transitivity:** intransitive — often with *on* or *at*
+**Contrast:** The opposite is *diverge*. It is intransitive: things converge, but you do not ✗ *converge them* — for that use *bring together* or *merge*. With *on*, it carries a sense of closing in from all sides, which is why it suits crowds and search parties.
+
+To come together from different directions toward one point or one result.
+
+1. Three trails *converge* at the summit.
+2. Reporters *converged* on the courthouse by noon.
+3. The two estimates have slowly *converged*.
 
 ---
 
@@ -8560,6 +8704,24 @@ To make something seem less important or serious than it really is.
 1. Officials tend to *downplay* early warnings.
 2. She *downplayed* her role in the discovery.
 3. The risks were *downplayed* in the summary.
+
+---
+
+### downshift
+
+**Pronunciation:** /ˈdaʊnˌʃɪft/ &middot; *DOWN-shift*
+**Русский:** переключаться на пониженную передачу; сбавлять темп жизни
+**Forms:** *downshift* &middot; *downshifted* &middot; *downshifted*
+**Third person:** *downshifts* &middot; **-ing form:** *downshifting*
+**Verb class:** regular
+**Transitivity:** both — intransitive (*downshift before the curve*), transitive (*downshift the car into second*)
+**Contrast:** The American term; British English says *change down*. The life sense — leaving a demanding job for a quieter life — is common enough in writing about work that it is worth knowing, and it gives the noun *downshifter*. The opposite is *upshift* for gears, but there is no matching life sense.
+
+To change to a lower gear, or to deliberately move to a slower, simpler way of living.
+
+1. *Downshift* before you reach the curve, not in it.
+2. He *downshifted* into second and the engine caught.
+3. They have *downshifted* to one income and a smaller house.
 
 ---
 

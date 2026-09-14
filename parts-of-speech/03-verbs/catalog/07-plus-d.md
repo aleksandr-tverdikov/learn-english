@@ -417,7 +417,7 @@ To create or produce something — and, in its many extended uses, to force, ear
 36. She *had made up* her mind long before the meeting started.
 
 
-**Phrasal verbs:** [make for](19-phrasal-m-r.md#make-for) &middot; [make of](19-phrasal-m-r.md#make-of) &middot; [make off](19-phrasal-m-r.md#make-off) &middot; [make off with](19-phrasal-m-r.md#make-off-with) &middot; [make out](19-phrasal-m-r.md#make-out) &middot; [make over](19-phrasal-m-r.md#make-over) &middot; [make up](19-phrasal-m-r.md#make-up) &middot; [make up for](19-phrasal-m-r.md#make-up-for) &middot; [make up to](19-phrasal-m-r.md#make-up-to)
+**Phrasal verbs:** [make believe](66-phrasal-irregular-more-m-z.md#make-believe) &middot; [make for](19-phrasal-m-r.md#make-for) &middot; [make of](19-phrasal-m-r.md#make-of) &middot; [make off](19-phrasal-m-r.md#make-off) &middot; [make off with](19-phrasal-m-r.md#make-off-with) &middot; [make out](19-phrasal-m-r.md#make-out) &middot; [make over](19-phrasal-m-r.md#make-over) &middot; [make up](19-phrasal-m-r.md#make-up) &middot; [make up for](19-phrasal-m-r.md#make-up-for) &middot; [make up to](19-phrasal-m-r.md#make-up-to)
 
 **See also:** [remake](#remake), [unmake](#unmake)
 
@@ -639,7 +639,7 @@ To give money for goods, work, or a debt — and, in its wider senses, to be wor
 30. They *payed* out the anchor chain slowly.
 
 
-**Phrasal verbs:** [pay back](19-phrasal-m-r.md#pay-back) &middot; [pay down](19-phrasal-m-r.md#pay-down) &middot; [pay for](19-phrasal-m-r.md#pay-for) &middot; [pay off](19-phrasal-m-r.md#pay-off) &middot; [pay out](19-phrasal-m-r.md#pay-out) &middot; [pay up](19-phrasal-m-r.md#pay-up)
+**Phrasal verbs:** [pay back](19-phrasal-m-r.md#pay-back) &middot; [pay down](19-phrasal-m-r.md#pay-down) &middot; [pay for](19-phrasal-m-r.md#pay-for) &middot; [pay in](66-phrasal-irregular-more-m-z.md#pay-in) &middot; [pay off](19-phrasal-m-r.md#pay-off) &middot; [pay out](19-phrasal-m-r.md#pay-out) &middot; [pay up](19-phrasal-m-r.md#pay-up)
 
 **See also:** [overpay](#overpay), [prepay](#prepay), [repay](#repay), [underpay](#underpay), [spend](06-d-becomes-t.md#spend)
 

@@ -711,6 +711,60 @@ To give something or someone to another person, usually because you have no choi
 
 ---
 
+### happen by
+
+**Pronunciation:** /ˈhæpən ˌbaɪ/ &middot; *HAP-uhn by*
+**Русский:** заходить, зайти (случайно); заглядывать, заглянуть мимоходом
+**Base verb:** *happen*
+**Separable:** inseparable — it usually stands alone (*a neighbor happened by*), and a place can follow the whole phrase: *happened by the shop*, never ✗ *happened the shop by*.
+**Forms:** *happen by* &middot; *happened by* &middot; *happened by*
+**Third person:** *happens by* &middot; **-ing form:** *happening by*
+**Transitivity:** both — intransitive (*a neighbor happened by*), transitive (*she happened by the office*)
+
+To come to a place by chance rather than by plan.
+
+1. Dad *happened by* just as we were loading the truck.
+2. If you *happen by* before six, the door is open.
+3. She has *happened by* twice this week with eggs from her hens.
+
+---
+
+### happen on
+
+**Pronunciation:** /ˈhæpən ˌɑːn/ &middot; *HAP-uhn ahn*
+**Русский:** натыкаться, наткнуться (на что-л.); случайно находить, найти
+**Base verb:** *happen*
+**Separable:** inseparable — what you find follows *on*: *happened on a diner*, never ✗ *happened a diner on*.
+**Forms:** *happen on* &middot; *happened on* &middot; *happened on*
+**Third person:** *happens on* &middot; **-ing form:** *happening on*
+**Transitivity:** transitive
+
+To find or meet something by chance.
+
+1. We *happened on* a diner that was still serving pie at midnight.
+2. You sometimes *happen on* a good bookstore that way.
+3. He had *happened on* the letters while clearing out the attic.
+
+---
+
+### hark back
+
+**Pronunciation:** /ˈhɑːrk ˌbæk/ &middot; *HAHRK bak*
+**Русский:** восходить (к чему-л.), напоминать о прошлом; возвращаться, вернуться (к прежнему)
+**Base verb:** *hark*
+**Separable:** inseparable — no object; what it recalls follows *to*: *harks back to the fifties*.
+**Forms:** *hark back* &middot; *harked back* &middot; *harked back*
+**Third person:** *harks back* &middot; **-ing form:** *harking back*
+**Transitivity:** intransitive
+
+To bring to mind or deliberately imitate something from an earlier time.
+
+1. Designs like this *hark back* to the company's first delivery trucks.
+2. His speech *harked back* to the strikes of the thirties.
+3. Every episode keeps *harking back* to that first summer.
+
+---
+
 ### harp on
 
 **Pronunciation:** /ˈhɑːrp ˌɑːn/ &middot; *HARP ahn*
@@ -744,6 +798,24 @@ To talk something through at length until the details are settled.
 1. Let's *hash out* the schedule over lunch.
 2. They *hashed out* their differences in the parking lot.
 3. We're still *hashing out* who drives.
+
+---
+
+### haul off
+
+**Pronunciation:** /ˈhɔːl ˌɔːf/ &middot; *HAWL awf*
+**Русский:** размахиваться, размахнуться (перед ударом); замахиваться, замахнуться
+**Base verb:** *haul*
+**Separable:** no object — a fixed run-up to a second verb: *hauled off and hit him*; nothing comes between the two words.
+**Forms:** *haul off* &middot; *hauled off* &middot; *hauled off*
+**Third person:** *hauls off* &middot; **-ing form:** *hauling off*
+**Transitivity:** intransitive
+
+To draw back suddenly and then hit or lash out at someone.
+
+1. He *hauled off* and punched the guy in the parking lot.
+2. If you *haul off* and yell at her now, you will lose her for good.
+3. She had *hauled off* and slapped him before anyone could move.
 
 ---
 
@@ -1104,6 +1176,42 @@ To meet someone informally, usually by arrangement.
 1. Let's *hook up* after the game.
 2. We *hooked up* with the others at the trailhead.
 3. I'm *hooking up* with my cousins in Denver.
+
+---
+
+### hop into
+
+**Pronunciation:** /ˈhɑːp ˌɪntuː/ &middot; *HAHP in-too*
+**Русский:** запрыгивать, запрыгнуть (в машину); быстро забираться, забраться
+**Base verb:** *hop*
+**Separable:** inseparable — what you get into follows the phrase: *hop into the car*, never ✗ *hop the car into*; with no object it is simply *hop in*.
+**Forms:** *hop into* &middot; *hopped into* &middot; *hopped into*
+**Third person:** *hops into* &middot; **-ing form:** *hopping into*
+**Transitivity:** transitive
+
+To get into a car, a bed, or a shower quickly and without ceremony.
+
+1. *Hop into* the back seat — there is more room there.
+2. She *hopped into* the shower before anyone else was up.
+3. He was already *hopping into* his truck when I called after him.
+
+---
+
+### horn in
+
+**Pronunciation:** /ˈhɔːrn ˌɪn/ &middot; *HORN in*
+**Русский:** встревать, встрять; вмешиваться, вмешаться (без приглашения)
+**Base verb:** *horn*
+**Separable:** no object — what you intrude on follows *on*: *horn in on the deal*, never ✗ *horn the deal in*.
+**Forms:** *horn in* &middot; *horned in* &middot; *horned in*
+**Third person:** *horns in* &middot; **-ing form:** *horning in*
+**Transitivity:** intransitive
+
+To push your way into something that is none of your business.
+
+1. A bigger firm is trying to *horn in* on our contract.
+2. Her cousin *horned in* on the business after the first good year.
+3. He has a habit of *horning in* whenever there is money involved.
 
 ---
 
@@ -1935,6 +2043,24 @@ To type numbers or information into a keypad or a computer.
 
 ---
 
+### key up
+
+**Pronunciation:** /ˈkiː ˌʌp/ &middot; *KEE up*
+**Русский:** взвинчивать, взвинтить; будоражить, взбудоражить
+**Base verb:** *key*
+**Separable:** separable — *key up the team*, and *key them up*; with a pronoun it must split: *key him up*, never ✗ *key up him*. Most often passive: *he was keyed up*.
+**Forms:** *key up* &middot; *keyed up* &middot; *keyed up*
+**Third person:** *keys up* &middot; **-ing form:** *keying up*
+**Transitivity:** transitive
+
+To make someone tense and over-excited before something important.
+
+1. She was so *keyed up* before the interview that she couldn't eat.
+2. The coach's speech *keyed* the whole team *up* for the second half.
+3. Too much coffee *keys* him *up* and ruins his sleep.
+
+---
+
 ### kick around
 
 **Pronunciation:** /ˈkɪk əˌraʊnd/ &middot; *KIK uh-rownd*
@@ -2043,6 +2169,60 @@ To force someone to leave a place, a school, or a group.
 
 ---
 
+### kick up
+
+**Pronunciation:** /ˈkɪk ˌʌp/ &middot; *KIK up*
+**Русский:** устраивать, устроить (скандал); поднимать, поднять (шум)
+**Base verb:** *kick*
+**Separable:** inseparable in this sense — the object is a set noun that never moves: *kick up a fuss*, never ✗ *kick a fuss up*.
+**Forms:** *kick up* &middot; *kicked up* &middot; *kicked up*
+**Third person:** *kicks up* &middot; **-ing form:** *kicking up*
+**Transitivity:** transitive
+
+To make a loud, angry fuss about something.
+
+1. Parents *kicked up* a fuss when the school cut the music program.
+2. If you *kick up* a stink about the bill, they usually waive it.
+3. The neighbors have been *kicking up* a racket since midnight.
+
+---
+
+### kick up
+
+**Pronunciation:** /ˈkɪk ˌʌp/ &middot; *KIK up*
+**Русский:** поднимать, поднять (пыль, брызги)
+**Base verb:** *kick*
+**Separable:** separable — *kick up dust*, and *kick it up*; with a pronoun it must split: *kick it up*, never ✗ *kick up it*.
+**Forms:** *kick up* &middot; *kicked up* &middot; *kicked up*
+**Third person:** *kicks up* &middot; **-ing form:** *kicking up*
+**Transitivity:** transitive
+
+To send dust, dirt, or spray flying into the air.
+
+1. The truck *kicked up* a cloud of dust on the gravel road.
+2. The dust settles for a minute, and then another car *kicks* it *up* again.
+3. The horses were *kicking up* mud all over the track.
+
+---
+
+### kick upstairs
+
+**Pronunciation:** /ˌkɪk ʌpˈstɛrz/ &middot; *kik up-STAIRZ*
+**Русский:** отстранять, отстранить от дел (повысив в должности)
+**Base verb:** *kick*
+**Separable:** separable — the person goes in the middle: *kick him upstairs*, *kick the manager upstairs*.
+**Forms:** *kick upstairs* &middot; *kicked upstairs* &middot; *kicked upstairs*
+**Third person:** *kicks upstairs* &middot; **-ing form:** *kicking upstairs*
+**Transitivity:** transitive
+
+To move someone into a job with a grander title but less real power.
+
+1. When they couldn't fire him, they *kicked* him *upstairs*.
+2. She was *kicked upstairs* to vice president of special projects.
+3. The board is *kicking* the old guard *upstairs* one by one.
+
+---
+
 ### kid around
 
 **Pronunciation:** /ˈkɪd əˌraʊnd/ &middot; *KID uh-rownd*
@@ -2061,6 +2241,24 @@ To joke and fool around instead of being serious.
 
 ---
 
+### kiss off
+
+**Pronunciation:** /ˈkɪs ˌɔːf/ &middot; *KIS awf*
+**Русский:** отшивать, отшить; избавляться, избавиться (от кого-л.)
+**Base verb:** *kiss*
+**Separable:** separable — *kiss off the whole staff*, and *kiss them off*; with a pronoun it must split: *kiss him off*, never ✗ *kiss off him*.
+**Forms:** *kiss off* &middot; *kissed off* &middot; *kissed off*
+**Third person:** *kisses off* &middot; **-ing form:** *kissing off*
+**Transitivity:** transitive
+
+To get rid of someone abruptly and rudely.
+
+1. Management decided to *kiss off* the entire night shift.
+2. She *kissed* him *off* with a two-line text.
+3. He's been *kissing off* his old friends ever since the promotion.
+
+---
+
 ### kiss up to
 
 **Pronunciation:** /ˈkɪs ˌʌp tə/ &middot; *KIS up tuh*
@@ -2076,6 +2274,60 @@ To flatter someone in authority in order to get something from them.
 1. He's been *kissing up to* the boss all quarter.
 2. She *kissed up to* the coach and still didn't start.
 3. Don't *kiss up to* them — just do the work.
+
+---
+
+### knock around
+
+**Pronunciation:** /ˈnɑːk əˌraʊnd/ &middot; *NAHK uh-rownd*
+**Русский:** обсуждать (неформально), прикидывать
+**Base verb:** *knock*
+**Separable:** separable — *knock it around*, and *knock around an idea* or *knock an idea around*
+**Forms:** *knock around* &middot; *knocked around* &middot; *knocked around*
+**Third person:** *knocks around* &middot; **-ing form:** *knocking around*
+**Transitivity:** transitive
+
+To discuss an idea informally, without committing to it.
+
+1. We *knocked around* a few names for the project.
+2. They had *knocked* the proposal *around* before anyone wrote it down.
+3. Let's *knock* some ideas *around* on Monday.
+
+---
+
+### knock around
+
+**Pronunciation:** /ˈnɑːk əˌraʊnd/ &middot; *NAHK uh-rownd*
+**Русский:** слоняться, болтаться; обсуждать вскользь
+**Base verb:** *knock*
+**Separable:** inseparable in the *wander* sense; separable in the *discuss* sense — *knock an idea around*
+**Forms:** *knock around* &middot; *knocked around* &middot; *knocked around*
+**Third person:** *knocks around* &middot; **-ing form:** *knocking around*
+**Transitivity:** both — intransitive (*knock around Europe*), transitive (*knock an idea around*)
+
+To spend time somewhere without a fixed plan.
+
+1. They *knocked around* Europe for most of that summer.
+2. He's been *knocking around* the office all morning.
+3. I'll just *knock around* here until you're ready.
+
+---
+
+### knock back
+
+**Pronunciation:** /ˈnɑːk ˌbæk/ &middot; *NAHK bak*
+**Русский:** опрокидывать, опрокинуть (рюмку); выпивать залпом, выпить залпом
+**Base verb:** *knock*
+**Separable:** separable — *knock back a shot*, and *knock it back*; with a pronoun it must split: *knock it back*, never ✗ *knock back it*.
+**Forms:** *knock back* &middot; *knocked back* &middot; *knocked back*
+**Third person:** *knocks back* &middot; **-ing form:** *knocking back*
+**Transitivity:** transitive
+
+To drink something, usually alcohol, quickly and in one go.
+
+1. He *knocks back* a beer the minute he gets home.
+2. She poured the whiskey and *knocked* it *back* in one swallow.
+3. They were *knocking back* margaritas all afternoon.
 
 ---
 
@@ -2223,6 +2475,24 @@ To produce or finish something quickly, without much fuss.
 
 ---
 
+### knock up
+
+**Pronunciation:** /ˈnɑːk ˌʌp/ &middot; *NAHK up*
+**Русский:** делать беременной, сделать беременной; обрюхатить (груб.)
+**Base verb:** *knock*
+**Separable:** separable — *knock up his girlfriend*, and *knock her up*; with a pronoun it must split: *knock her up*, never ✗ *knock up her*.
+**Forms:** *knock up* &middot; *knocked up* &middot; *knocked up*
+**Third person:** *knocks up* &middot; **-ing form:** *knocking up*
+**Transitivity:** transitive
+
+To make a woman pregnant — crude slang, and offensive in most company.
+
+1. He *knocked up* his girlfriend their senior year.
+2. Everyone assumed someone had *knocked* her *up*.
+3. Back then, *knocking* a girl *up* meant you got married.
+
+---
+
 ### knuckle down
 
 **Pronunciation:** /ˈnʌkəl ˌdaʊn/ &middot; *NUK-uhl down*
@@ -2238,6 +2508,60 @@ To start working hard and seriously at something.
 1. You'll have to *knuckle down* if you want to pass.
 2. He finally *knuckled down* two weeks before the exam.
 3. She's *knuckling down* on the thesis this month.
+
+---
+
+### knuckle under
+
+**Pronunciation:** /ˈnʌkəl ˌʌndər/ &middot; *NUK-uhl un-dur*
+**Русский:** уступать, уступить; покоряться, покориться
+**Base verb:** *knuckle*
+**Separable:** inseparable — nothing comes between; the pressure follows *to*: *knuckle under to the board*.
+**Forms:** *knuckle under* &middot; *knuckled under* &middot; *knuckled under*
+**Third person:** *knuckles under* &middot; **-ing form:** *knuckling under*
+**Transitivity:** intransitive
+
+To stop resisting and give in to pressure or authority.
+
+1. The union refused to *knuckle under* to the new contract terms.
+2. After six weeks on strike, management finally *knuckled under*.
+3. He's not *knuckling under* without a fight.
+
+---
+
+### lace into
+
+**Pronunciation:** /ˈleɪs ˌɪntuː/ &middot; *LAYSS in-too*
+**Русский:** набрасываться, наброситься (с критикой); отчитывать, отчитать
+**Base verb:** *lace*
+**Separable:** inseparable — the target always follows *into*: *lace into him*, never ✗ *lace him into*.
+**Forms:** *lace into* &middot; *laced into* &middot; *laced into*
+**Third person:** *laces into* &middot; **-ing form:** *lacing into*
+**Transitivity:** transitive
+
+To attack someone fiercely, usually with angry words.
+
+1. His father *laced into* him for wrecking the car.
+2. She *laces into* anyone who shows up unprepared.
+3. The senator kept *lacing into* the press all afternoon.
+
+---
+
+### lace up
+
+**Pronunciation:** /ˈleɪs ˌʌp/ &middot; *LAYSS up*
+**Русский:** шнуровать, зашнуровать
+**Base verb:** *lace*
+**Separable:** separable — *lace up your boots*, and *lace them up*; with a pronoun it must split: *lace them up*, never ✗ *lace up them*.
+**Forms:** *lace up* &middot; *laced up* &middot; *laced up*
+**Third person:** *laces up* &middot; **-ing form:** *lacing up*
+**Transitivity:** both — transitive (*lace up your skates*), intransitive (*lace up and get on the ice*)
+
+To fasten shoes or boots by pulling the laces tight and tying them.
+
+1. *Lace up* your boots — the trail is all mud today.
+2. He *laced* his skates *up* and stepped onto the ice.
+3. She's been *lacing up* every morning since she started training.
 
 ---
 
@@ -2292,6 +2616,24 @@ To suddenly attack someone with angry words.
 1. He *lashed out* at the reporters on the courthouse steps.
 2. She *lashes out* when she's tired.
 3. They've been *lashing out* at each other all week.
+
+---
+
+### latch on
+
+**Pronunciation:** /ˈlætʃ ˌɑːn/ &middot; *LACH ahn*
+**Русский:** цепляться, зацепиться; присасываться, присосаться
+**Base verb:** *latch*
+**Separable:** inseparable — nothing splits it; what is gripped follows *to*: *latch on to the railing*.
+**Forms:** *latch on* &middot; *latched on* &middot; *latched on*
+**Third person:** *latches on* &middot; **-ing form:** *latching on*
+**Transitivity:** intransitive
+
+To take hold of something and stay firmly attached to it.
+
+1. The baby wouldn't *latch on* for the first two days.
+2. A burr *latched on* to my sock and rode all the way home.
+3. Once an idea *latches on*, he won't let it go.
 
 ---
 
@@ -2529,6 +2871,24 @@ To join with someone or something, or to connect two things together.
 
 ---
 
+### liquor up
+
+**Pronunciation:** /ˈlɪkər ˌʌp/ &middot; *LIK-ur up*
+**Русский:** напиваться, напиться; подпаивать, подпоить
+**Base verb:** *liquor*
+**Separable:** separable — *liquor up the groomsmen*, and *liquor them up*; very common in the passive, *get liquored up*.
+**Forms:** *liquor up* &middot; *liquored up* &middot; *liquored up*
+**Third person:** *liquors up* &middot; **-ing form:** *liquoring up*
+**Transitivity:** both — transitive (*they liquored him up*), intransitive (*we liquored up before the show*)
+
+To get drunk, or to get someone else drunk.
+
+1. They all got *liquored up* before the tailgate.
+2. His buddies *liquored* him *up* and put him on the wrong flight.
+3. Nobody's *liquoring up* on a Tuesday night.
+
+---
+
 ### listen in
 
 **Pronunciation:** /ˈlɪsən ˌɪn/ &middot; *LIS-uhn in*
@@ -2634,6 +2994,24 @@ To experience a hard period and survive it.
 1. My grandmother *lived through* the siege.
 2. We've *lived through* worse than this.
 3. Nobody wants to *live through* that again.
+
+---
+
+### live up
+
+**Pronunciation:** /ˈlɪv ˌʌp/ &middot; *LIV up*
+**Русский:** кутить, гулять; шиковать, пошиковать
+**Base verb:** *live*
+**Separable:** always split, and the object is always *it*: *live it up*, never ✗ *live up it* and never with any other object.
+**Forms:** *live up* &middot; *lived it up* &middot; *lived it up*
+**Third person:** *lives it up* &middot; **-ing form:** *living it up*
+**Transitivity:** transitive
+
+To enjoy yourself in an extravagant, carefree way.
+
+1. They *lived* it *up* in Vegas for four days straight.
+2. He's *living* it *up* on his severance check.
+3. You only turn thirty once, so *live* it *up*.
 
 ---
 
@@ -2835,6 +3213,24 @@ To end your session on a computer system.
 
 ---
 
+### look after
+
+**Pronunciation:** /ˈlʊk ˌæftər/ &middot; *LUUK af-tur*
+**Русский:** заботиться, позаботиться (о ком-л.); присматривать, присмотреть (за кем-л.)
+**Base verb:** *look*
+**Separable:** inseparable — the object always follows *after*: *look after the kids*, *look after them*, never ✗ *look them after*.
+**Forms:** *look after* &middot; *looked after* &middot; *looked after*
+**Third person:** *looks after* &middot; **-ing form:** *looking after*
+**Transitivity:** transitive
+
+To take care of someone or something.
+
+1. Could you *look after* the dog while we're away?
+2. She *looked after* her grandmother for three years.
+3. Who's *looking after* the store this weekend?
+
+---
+
 ### look ahead
 
 **Pronunciation:** /ˈlʊk əˌhɛd/ &middot; *LUUK uh-hed*
@@ -2886,6 +3282,24 @@ To think about something that happened in the past.
 1. *Looking back*, I should have taken the job.
 2. She *looked back* on those years as the best of her life.
 3. He never *looks back* — that's how he stays sane.
+
+---
+
+### look down on
+
+**Pronunciation:** /ˈlʊk ˌdaʊn ˌɑːn/ &middot; *LUUK down ahn*
+**Русский:** смотреть свысока, презирать
+**Base verb:** *look*
+**Separable:** inseparable — the person follows *on*: *look down on him*, never ✗ *look him down on*.
+**Forms:** *look down on* &middot; *looked down on* &middot; *looked down on*
+**Third person:** *looks down on* &middot; **-ing form:** *looking down on*
+**Transitivity:** transitive
+
+To regard someone as inferior and not worth respect.
+
+1. He *looks down on* anyone who didn't go to college.
+2. They *looked down on* her accent for years.
+3. I'm tired of being *looked down on* for where I grew up.
 
 ---
 

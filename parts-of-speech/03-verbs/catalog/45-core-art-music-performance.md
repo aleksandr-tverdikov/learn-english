@@ -109,7 +109,7 @@ Play has 4 distinct senses.
 11. The DJ *played* the same song three times.
 12. He was *playing* the voicemail for everyone in the office.
 
-**Phrasal verbs:** [play along](56-phrasal-regular-m-p.md#play-along) &middot; [play around](56-phrasal-regular-m-p.md#play-around) &middot; [play around with](56-phrasal-regular-m-p.md#play-around-with) &middot; [play back](56-phrasal-regular-m-p.md#play-back) &middot; [play down](56-phrasal-regular-m-p.md#play-down) &middot; [play on](56-phrasal-regular-m-p.md#play-on) &middot; [play out](56-phrasal-regular-m-p.md#play-out) &middot; [play up](56-phrasal-regular-m-p.md#play-up)
+**Phrasal verbs:** [play along](56-phrasal-regular-m-p.md#play-along) &middot; [play around](56-phrasal-regular-m-p.md#play-around) &middot; [play around with](56-phrasal-regular-m-p.md#play-around-with) &middot; [play back](56-phrasal-regular-m-p.md#play-back) &middot; [play down](56-phrasal-regular-m-p.md#play-down) &middot; [play off](56-phrasal-regular-m-p.md#play-off-1) &middot; [play off](56-phrasal-regular-m-p.md#play-off) &middot; [play on](56-phrasal-regular-m-p.md#play-on) &middot; [play out](56-phrasal-regular-m-p.md#play-out) &middot; [play up](56-phrasal-regular-m-p.md#play-up)
 
 ---
 
@@ -741,6 +741,8 @@ Pluck has 2 distinct senses.
 5. He *plucked* a gray hair out of his beard.
 6. The chicken had already been *plucked* and cleaned.
 
+**Phrasal verbs:** [pluck up](56-phrasal-regular-m-p.md#pluck-up)
+
 ---
 
 ### drum
@@ -759,7 +761,7 @@ To beat a drum, or to tap out a rhythm.
 2. She *drummed* on the table with a pencil.
 3. Rain was *drumming* on the roof of the tent.
 
-**Phrasal verbs:** [drum up](54-phrasal-regular-d-f.md#drum-up)
+**Phrasal verbs:** [drum out](54-phrasal-regular-d-f.md#drum-out) &middot; [drum up](54-phrasal-regular-d-f.md#drum-up)
 
 ---
 

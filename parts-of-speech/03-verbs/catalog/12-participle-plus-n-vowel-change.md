@@ -191,6 +191,8 @@ To offer a price, at auction or for a contract; in an older and more formal sens
 14. The host *had bidden* the guests to arrive at seven.
 15. Only those *bidden* to the feast came through the gate.
 
+**Phrasal verbs:** [bid up](65-phrasal-irregular-more-a-l.md#bid-up)
+
 **See also:** [forbid](#forbid), [underbid](#underbid)
 
 ### blow
@@ -271,7 +273,7 @@ Of air, to move or to move something; of a person, to force air out of the mouth
 31. The controversy *had blown over* long before he got back.
 
 
-**Phrasal verbs:** [blow away](14-phrasal-b.md#blow-away) &middot; [blow in](14-phrasal-b.md#blow-in) &middot; [blow off](14-phrasal-b.md#blow-off) &middot; [blow out](14-phrasal-b.md#blow-out) &middot; [blow over](14-phrasal-b.md#blow-over) &middot; [blow through](14-phrasal-b.md#blow-through) &middot; [blow up](14-phrasal-b.md#blow-up)
+**Phrasal verbs:** [blow away](14-phrasal-b.md#blow-away) &middot; [blow in](14-phrasal-b.md#blow-in) &middot; [blow into](65-phrasal-irregular-more-a-l.md#blow-into) &middot; [blow off](14-phrasal-b.md#blow-off) &middot; [blow out](14-phrasal-b.md#blow-out) &middot; [blow over](14-phrasal-b.md#blow-over) &middot; [blow through](14-phrasal-b.md#blow-through) &middot; [blow up](14-phrasal-b.md#blow-up)
 
 **See also:** [grow](#grow), [know](#know), [throw](#throw), [fly](#fly)
 
@@ -517,7 +519,7 @@ To make a picture with lines; to pull; and, by extension, to attract, to take ou
 33. The season *has drawn* to a close.
 
 
-**Phrasal verbs:** [draw back](16-phrasal-d-f.md#draw-back) &middot; [draw down](16-phrasal-d-f.md#draw-down) &middot; [draw in](16-phrasal-d-f.md#draw-in) &middot; [draw on](16-phrasal-d-f.md#draw-on) &middot; [draw on, draw upon](22-verb-preposition.md#draw-on-draw-upon) &middot; [draw out](16-phrasal-d-f.md#draw-out) &middot; [draw up](16-phrasal-d-f.md#draw-up)
+**Phrasal verbs:** [draw back](16-phrasal-d-f.md#draw-back) &middot; [draw down](16-phrasal-d-f.md#draw-down) &middot; [draw in](16-phrasal-d-f.md#draw-in) &middot; [draw off](65-phrasal-irregular-more-a-l.md#draw-off) &middot; [draw on](16-phrasal-d-f.md#draw-on) &middot; [draw on, draw upon](22-verb-preposition.md#draw-on-draw-upon) &middot; [draw out](16-phrasal-d-f.md#draw-out) &middot; [draw up](16-phrasal-d-f.md#draw-up)
 
 **See also:** [withdraw](#withdraw), [redraw](#redraw), [overdraw](#overdraw)
 
@@ -738,7 +740,7 @@ To drop toward the ground; to decrease; to pass into a state; and, of cities and
 34. They *have fallen back on* the same excuse all year.
 
 
-**Phrasal verbs:** [fall apart](16-phrasal-d-f.md#fall-apart) &middot; [fall back](16-phrasal-d-f.md#fall-back) &middot; [fall back on](16-phrasal-d-f.md#fall-back-on) &middot; [fall behind](16-phrasal-d-f.md#fall-behind) &middot; [fall down](16-phrasal-d-f.md#fall-down) &middot; [fall for](16-phrasal-d-f.md#fall-for) &middot; [fall in](16-phrasal-d-f.md#fall-in) &middot; [fall in with](16-phrasal-d-f.md#fall-in-with) &middot; [fall off](16-phrasal-d-f.md#fall-off) &middot; [fall on](16-phrasal-d-f.md#fall-on) &middot; [fall out](16-phrasal-d-f.md#fall-out) &middot; [fall through](16-phrasal-d-f.md#fall-through) &middot; [fall under](16-phrasal-d-f.md#fall-under)
+**Phrasal verbs:** [fall apart](16-phrasal-d-f.md#fall-apart) &middot; [fall away](65-phrasal-irregular-more-a-l.md#fall-away) &middot; [fall away](65-phrasal-irregular-more-a-l.md#fall-away-1) &middot; [fall back](16-phrasal-d-f.md#fall-back) &middot; [fall back on](16-phrasal-d-f.md#fall-back-on) &middot; [fall behind](16-phrasal-d-f.md#fall-behind) &middot; [fall down](16-phrasal-d-f.md#fall-down) &middot; [fall for](16-phrasal-d-f.md#fall-for) &middot; [fall in](16-phrasal-d-f.md#fall-in) &middot; [fall in with](16-phrasal-d-f.md#fall-in-with) &middot; [fall off](16-phrasal-d-f.md#fall-off) &middot; [fall on](16-phrasal-d-f.md#fall-on) &middot; [fall out](16-phrasal-d-f.md#fall-out) &middot; [fall over](65-phrasal-irregular-more-a-l.md#fall-over) &middot; [fall through](16-phrasal-d-f.md#fall-through) &middot; [fall to](65-phrasal-irregular-more-a-l.md#fall-to) &middot; [fall under](16-phrasal-d-f.md#fall-under)
 
 **See also:** [befall](#befall), [rise](#rise)
 
@@ -1213,7 +1215,7 @@ To be, or move into, a flat resting position; also, to be situated, and to consi
 16. Whatever *had lain* behind the delay, no one explained it.
 
 
-**Phrasal verbs:** [lie around](18-phrasal-h-l.md#lie-around) &middot; [lie behind](18-phrasal-h-l.md#lie-behind) &middot; [lie in](18-phrasal-h-l.md#lie-in) &middot; [lie low](18-phrasal-h-l.md#lie-low) &middot; [lie with](18-phrasal-h-l.md#lie-with)
+**Phrasal verbs:** [lie around](18-phrasal-h-l.md#lie-around) &middot; [lie behind](18-phrasal-h-l.md#lie-behind) &middot; [lie down](65-phrasal-irregular-more-a-l.md#lie-down) &middot; [lie in](18-phrasal-h-l.md#lie-in) &middot; [lie low](18-phrasal-h-l.md#lie-low) &middot; [lie with](18-phrasal-h-l.md#lie-with)
 
 **See also:** [underlie](#underlie), [overlie](#overlie)
 
@@ -2079,7 +2081,7 @@ To perceive with the eyes, and, by extension, to understand, to meet, to experie
 32. Investors *have seen* real potential *in* the smaller markets.
 
 
-**Phrasal verbs:** [see about](20-phrasal-s.md#see-about) &middot; [see off](20-phrasal-s.md#see-off) &middot; [see out](20-phrasal-s.md#see-out) &middot; [see through](20-phrasal-s.md#see-through) &middot; [see to](20-phrasal-s.md#see-to)
+**Phrasal verbs:** [see about](20-phrasal-s.md#see-about) &middot; [see into](66-phrasal-irregular-more-m-z.md#see-into) &middot; [see off](20-phrasal-s.md#see-off) &middot; [see out](20-phrasal-s.md#see-out) &middot; [see over](66-phrasal-irregular-more-m-z.md#see-over) &middot; [see through](20-phrasal-s.md#see-through) &middot; [see to](20-phrasal-s.md#see-to)
 
 **See also:** [foresee](#foresee), [oversee](#oversee)
 
@@ -2516,7 +2518,7 @@ To send something through the air from your hand, and, figuratively, to put, hos
 25. After the third rejection he *had thrown in* the towel.
 
 
-**Phrasal verbs:** [throw away](21-phrasal-t-w.md#throw-away) &middot; [throw back](21-phrasal-t-w.md#throw-back) &middot; [throw in](21-phrasal-t-w.md#throw-in) &middot; [throw off](21-phrasal-t-w.md#throw-off) &middot; [throw on](21-phrasal-t-w.md#throw-on) &middot; [throw out](21-phrasal-t-w.md#throw-out) &middot; [throw over](21-phrasal-t-w.md#throw-over) &middot; [throw together](21-phrasal-t-w.md#throw-together) &middot; [throw up](21-phrasal-t-w.md#throw-up)
+**Phrasal verbs:** [throw about](66-phrasal-irregular-more-m-z.md#throw-about) &middot; [throw away](21-phrasal-t-w.md#throw-away) &middot; [throw back](21-phrasal-t-w.md#throw-back) &middot; [throw in](21-phrasal-t-w.md#throw-in) &middot; [throw off](21-phrasal-t-w.md#throw-off) &middot; [throw on](21-phrasal-t-w.md#throw-on) &middot; [throw out](21-phrasal-t-w.md#throw-out) &middot; [throw over](21-phrasal-t-w.md#throw-over) &middot; [throw together](21-phrasal-t-w.md#throw-together) &middot; [throw up](21-phrasal-t-w.md#throw-up)
 
 **See also:** [overthrow](#overthrow), [blow](#blow), [grow](#grow), [know](#know)
 

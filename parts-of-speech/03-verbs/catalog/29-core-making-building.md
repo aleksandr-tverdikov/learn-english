@@ -362,7 +362,7 @@ Nail has 3 distinct senses.
 8. The IRS finally *nailed* him for tax fraud.
 9. He was *nailed* by a traffic camera on Fifth Street.
 
-**Phrasal verbs:** [nail down](56-phrasal-regular-m-p.md#nail-down) &middot; [nail down](56-phrasal-regular-m-p.md#nail-down-2) &middot; [nail down](56-phrasal-regular-m-p.md#nail-down-1)
+**Phrasal verbs:** [nail down](56-phrasal-regular-m-p.md#nail-down-2) &middot; [nail down](56-phrasal-regular-m-p.md#nail-down) &middot; [nail down](56-phrasal-regular-m-p.md#nail-down-1)
 
 ---
 
@@ -1648,7 +1648,7 @@ To cover a hole with a piece of material.
 2. He *patched* the drywall with mesh tape.
 3. The roof has been *patched* three times.
 
-**Phrasal verbs:** [patch through](56-phrasal-regular-m-p.md#patch-through) &middot; [patch up](56-phrasal-regular-m-p.md#patch-up-1) &middot; [patch up](56-phrasal-regular-m-p.md#patch-up)
+**Phrasal verbs:** [patch through](56-phrasal-regular-m-p.md#patch-through) &middot; [patch up](56-phrasal-regular-m-p.md#patch-up) &middot; [patch up](56-phrasal-regular-m-p.md#patch-up-1)
 
 ---
 
@@ -1865,7 +1865,7 @@ To put substances together so that they become one.
 2. He *mixed* the paint by hand.
 3. She is *mixing* the mortar now.
 
-**Phrasal verbs:** [mix in](56-phrasal-regular-m-p.md#mix-in) &middot; [mix it up](56-phrasal-regular-m-p.md#mix-it-up) &middot; [mix up](56-phrasal-regular-m-p.md#mix-up) &middot; [mix up](56-phrasal-regular-m-p.md#mix-up-1)
+**Phrasal verbs:** [mix in](56-phrasal-regular-m-p.md#mix-in) &middot; [mix it up](56-phrasal-regular-m-p.md#mix-it-up) &middot; [mix up](56-phrasal-regular-m-p.md#mix-up-1) &middot; [mix up](56-phrasal-regular-m-p.md#mix-up)
 
 ---
 
@@ -2022,7 +2022,7 @@ Mark has 3 distinct senses.
 8. The town *marked* Memorial Day with a parade.
 9. The date is *marked* every year with a moment of silence.
 
-**Phrasal verbs:** [mark down](56-phrasal-regular-m-p.md#mark-down-1) &middot; [mark down](56-phrasal-regular-m-p.md#mark-down) &middot; [mark off](56-phrasal-regular-m-p.md#mark-off) &middot; [mark up](56-phrasal-regular-m-p.md#mark-up-1) &middot; [mark up](56-phrasal-regular-m-p.md#mark-up)
+**Phrasal verbs:** [mark down](56-phrasal-regular-m-p.md#mark-down) &middot; [mark down](56-phrasal-regular-m-p.md#mark-down-1) &middot; [mark off](56-phrasal-regular-m-p.md#mark-off) &middot; [mark up](56-phrasal-regular-m-p.md#mark-up-1) &middot; [mark up](56-phrasal-regular-m-p.md#mark-up)
 
 ---
 
@@ -2118,7 +2118,7 @@ To put things one on top of another.
 2. He *stacked* the bricks along the wall.
 3. The crates are *stacked* three high.
 
-**Phrasal verbs:** [stack up](57-phrasal-regular-q-s.md#stack-up-1) &middot; [stack up](57-phrasal-regular-q-s.md#stack-up)
+**Phrasal verbs:** [stack against](57-phrasal-regular-q-s.md#stack-against) &middot; [stack up](57-phrasal-regular-q-s.md#stack-up) &middot; [stack up](57-phrasal-regular-q-s.md#stack-up-1)
 
 ---
 

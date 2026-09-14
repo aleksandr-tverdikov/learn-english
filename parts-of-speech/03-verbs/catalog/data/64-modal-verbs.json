@@ -1,7 +1,59 @@
 {
-  "category": "Modal and semi-modal verbs",
+  "category": "Modal, semi-modal and defective verbs",
   "slug": "64-modal-verbs",
   "entries": [
+    {
+      "term": "beware",
+      "ipa": "/bɪˈwɛr/",
+      "respell": "bih-WAIR",
+      "meaning": "A full verb with two forms and no tenses — the shortest answer to why English grammar keeps a category called defective.",
+      "examples": [
+        "Beware of the dog.",
+        "Beware of anyone who promises a guaranteed return.",
+        "Beware — the bottom step is loose.",
+        "Travelers should beware of unmarked taxis.",
+        "Buyers must beware: the sale is final.",
+        "You would do well to beware of his advice."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Warning about a danger",
+          "body": [
+            "The imperative, and by far the commonest use. Takes of before a noun. (остерегайся, берегись)"
+          ],
+          "examples": [
+            "Beware of the dog.",
+            "Beware of anyone who promises a guaranteed return.",
+            "Beware — the bottom step is loose."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "After a modal or should",
+          "body": [
+            "The bare infinitive, the only other form it has. (следует остерегаться)",
+            "---"
+          ],
+          "examples": [
+            "Travelers should beware of unmarked taxis.",
+            "Buyers must beware: the sale is final.",
+            "You would do well to beware of his advice."
+          ]
+        }
+      ],
+      "русский": "остерегаться, беречься",
+      "forms": "beware · — · — (no past, no participle)",
+      "verb class": "defective",
+      "register": "everyday, but almost always on a sign or in a warning",
+      "group": "64",
+      "pattern": "defective (imperative and bare infinitive only)",
+      "third person": "beware — no -s, ✗ he bewares · -ing form: none",
+      "contrast": "Not a modal — an ordinary lexical verb that happens to have lost every form but two. There is no ✗ bewares, ✗ bewared, ✗ bewaring, and it cannot follow is or have: ✗ I have bewared. It survives as an imperative (Beware of the dog) and as a bare infinitive after a modal or should (travelers should beware). Anywhere else, English switches to watch out for or be careful of.",
+      "verb type": "defective lexical verb — full meaning, almost no forms. It is the clearest non-modal example of the same gap the modals have.",
+      "transitivity": "both — with of (beware of unmarked taxis), or with a clause (beware that the lock sticks), or absolutely (Beware!).",
+      "passive": "no — it has no participle, so it cannot form one."
+    },
     {
       "term": "will",
       "ipa": "/wɪl/",
