@@ -568,7 +568,7 @@ To go up something using hands and feet, or simply to rise.
 13. The plane *climbs* to cruising altitude in about twelve minutes.
 14. We *had climbed* to thirty thousand feet before the seatbelt sign went off.
 
-**Phrasal verbs:** [climb down](65-phrasal-irregular-more-a-l.md#climb-down-1) &middot; [climb down](65-phrasal-irregular-more-a-l.md#climb-down)
+**Phrasal verbs:** [climb down](65-phrasal-irregular-more-a-l.md#climb-down) &middot; [climb down](65-phrasal-irregular-more-a-l.md#climb-down-1)
 
 **See also:** [strike](#strike), [stick](#stick)
 
@@ -2042,7 +2042,7 @@ To fire a weapon, to send something moving fast, or to record images with a came
 27. The seed potatoes *have shot* in the bag.
 
 
-**Phrasal verbs:** [shoot down](20-phrasal-s.md#shoot-down) &middot; [shoot for](20-phrasal-s.md#shoot-for) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out-2) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out-1) &middot; [shoot through](66-phrasal-irregular-more-m-z.md#shoot-through) &middot; [shoot up](20-phrasal-s.md#shoot-up)
+**Phrasal verbs:** [shoot down](20-phrasal-s.md#shoot-down) &middot; [shoot for](20-phrasal-s.md#shoot-for) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out-1) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out-2) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out) &middot; [shoot through](66-phrasal-irregular-more-m-z.md#shoot-through) &middot; [shoot up](20-phrasal-s.md#shoot-up)
 
 **See also:** [overshoot](#overshoot), [reshoot](#reshoot), [troubleshoot](#troubleshoot)
 
@@ -2117,7 +2117,7 @@ To rest on your seat, to be positioned somewhere, or to serve as a member of a b
 27. The patient *has sat up* on her own since Tuesday.
 
 
-**Phrasal verbs:** [sit around](20-phrasal-s.md#sit-around) &middot; [sit back](20-phrasal-s.md#sit-back) &middot; [sit down](66-phrasal-irregular-more-m-z.md#sit-down-1) &middot; [sit down](66-phrasal-irregular-more-m-z.md#sit-down) &middot; [sit in](20-phrasal-s.md#sit-in) &middot; [sit in for](20-phrasal-s.md#sit-in-for) &middot; [sit in on](20-phrasal-s.md#sit-in-on) &middot; [sit on](20-phrasal-s.md#sit-on) &middot; [sit out](20-phrasal-s.md#sit-out) &middot; [sit through](20-phrasal-s.md#sit-through) &middot; [sit up](20-phrasal-s.md#sit-up)
+**Phrasal verbs:** [sit around](20-phrasal-s.md#sit-around) &middot; [sit back](20-phrasal-s.md#sit-back) &middot; [sit down](66-phrasal-irregular-more-m-z.md#sit-down) &middot; [sit down](66-phrasal-irregular-more-m-z.md#sit-down-1) &middot; [sit in](20-phrasal-s.md#sit-in) &middot; [sit in for](20-phrasal-s.md#sit-in-for) &middot; [sit in on](20-phrasal-s.md#sit-in-on) &middot; [sit on](20-phrasal-s.md#sit-on) &middot; [sit out](20-phrasal-s.md#sit-out) &middot; [sit through](20-phrasal-s.md#sit-through) &middot; [sit up](20-phrasal-s.md#sit-up)
 
 **See also:** [baby-sit](#baby-sit), [spit](#spit), [stand](#stand)
 
@@ -2167,7 +2167,7 @@ To move smoothly over a surface, or to decline gradually.
 14. They *let* the maintenance *slide* for years.
 15. He *has let* his training *slide* since the injury.
 
-**Phrasal verbs:** [slide over](66-phrasal-irregular-more-m-z.md#slide-over-1) &middot; [slide over](66-phrasal-irregular-more-m-z.md#slide-over)
+**Phrasal verbs:** [slide over](66-phrasal-irregular-more-m-z.md#slide-over) &middot; [slide over](66-phrasal-irregular-more-m-z.md#slide-over-1)
 
 **See also:** [backslide](#backslide)
 
@@ -2289,7 +2289,7 @@ To go, take, or do something quietly so that nobody notices.
 11. She *snuck* a peek at the price tag.
 12. He *has snuck* a look at every present under the tree.
 
-**Phrasal verbs:** [sneak in](57-phrasal-regular-q-s.md#sneak-in-1) &middot; [sneak in](57-phrasal-regular-q-s.md#sneak-in) &middot; [sneak out](57-phrasal-regular-q-s.md#sneak-out) &middot; [sneak up on](57-phrasal-regular-q-s.md#sneak-up-on)
+**Phrasal verbs:** [sneak in](57-phrasal-regular-q-s.md#sneak-in) &middot; [sneak in](57-phrasal-regular-q-s.md#sneak-in-1) &middot; [sneak out](57-phrasal-regular-q-s.md#sneak-out) &middot; [sneak up on](57-phrasal-regular-q-s.md#sneak-up-on)
 
 **See also:** [slink](#slink), [stick](#stick), [strike](#strike)
 

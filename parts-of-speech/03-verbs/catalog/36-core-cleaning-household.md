@@ -33,7 +33,7 @@ Mop has 2 distinct senses.
 5. She *mopped* her face with a paper towel.
 6. The old man sat *mopping* his brow in the heat.
 
-**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up-1) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up)
+**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up-1)
 
 ---
 

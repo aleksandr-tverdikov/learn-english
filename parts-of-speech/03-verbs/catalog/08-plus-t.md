@@ -243,7 +243,7 @@ To put something briefly into a liquid, and by extension to drop, to slope downw
 14. She *dipped* water from the barrel with a tin cup.
 15. The boys *had dipped* the trough dry by noon.
 
-**Phrasal verbs:** [dip into](54-phrasal-regular-d-f.md#dip-into) &middot; [dip into](54-phrasal-regular-d-f.md#dip-into-1)
+**Phrasal verbs:** [dip into](54-phrasal-regular-d-f.md#dip-into-1) &middot; [dip into](54-phrasal-regular-d-f.md#dip-into)
 
 **See also:** [nip](#nip), [spill](#spill)
 
@@ -804,7 +804,7 @@ To throw something lightly, and by extension to discard it, mix it, or move it a
 17. We *tossed* around a few names for the shop.
 18. They *have tossed* that idea around for years and never acted on it.
 
-**Phrasal verbs:** [toss around](58-phrasal-regular-t-z.md#toss-around) &middot; [toss off](66-phrasal-irregular-more-m-z.md#toss-off) &middot; [toss off](66-phrasal-irregular-more-m-z.md#toss-off-1) &middot; [toss out](58-phrasal-regular-t-z.md#toss-out) &middot; [toss out](58-phrasal-regular-t-z.md#toss-out-1)
+**Phrasal verbs:** [toss around](58-phrasal-regular-t-z.md#toss-around) &middot; [toss off](66-phrasal-irregular-more-m-z.md#toss-off) &middot; [toss off](66-phrasal-irregular-more-m-z.md#toss-off-1) &middot; [toss out](58-phrasal-regular-t-z.md#toss-out-1) &middot; [toss out](58-phrasal-regular-t-z.md#toss-out)
 
 **See also:** [dip](#dip), [wrap](#wrap)
 
