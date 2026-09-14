@@ -603,7 +603,7 @@ To prepare food using heat.
 2. She *cooked* rice and beans for everyone.
 3. Something is *cooking* — I can smell it.
 
-**Phrasal verbs:** [cook up](53-phrasal-regular-a-c.md#cook-up) &middot; [cook up](53-phrasal-regular-a-c.md#cook-up-1)
+**Phrasal verbs:** [cook up](53-phrasal-regular-a-c.md#cook-up-1) &middot; [cook up](53-phrasal-regular-a-c.md#cook-up)
 
 ---
 
@@ -1078,7 +1078,7 @@ Top has 2 distinct senses.
 5. Sales *topped* a million dollars last quarter.
 6. The song has *topped* the charts for six straight weeks.
 
-**Phrasal verbs:** [top off](58-phrasal-regular-t-z.md#top-off) &middot; [top off](58-phrasal-regular-t-z.md#top-off-1) &middot; [top out](58-phrasal-regular-t-z.md#top-out)
+**Phrasal verbs:** [top off](58-phrasal-regular-t-z.md#top-off-1) &middot; [top off](58-phrasal-regular-t-z.md#top-off) &middot; [top out](58-phrasal-regular-t-z.md#top-out)
 
 ---
 
@@ -1234,7 +1234,7 @@ Whip has 2 distinct senses.
 5. The rider *whipped* the horse's flank.
 6. Rain was *whipping* against the windows all night.
 
-**Phrasal verbs:** [whip out](58-phrasal-regular-t-z.md#whip-out) &middot; [whip through](58-phrasal-regular-t-z.md#whip-through) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up-1)
+**Phrasal verbs:** [whip out](58-phrasal-regular-t-z.md#whip-out) &middot; [whip through](58-phrasal-regular-t-z.md#whip-through) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up-1) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up)
 
 ---
 
@@ -1444,7 +1444,7 @@ Wash has 2 distinct senses.
 5. The flood *washed* topsoil into the creek.
 6. A dead whale had *washed* ashore overnight.
 
-**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up)
+**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up)
 
 ---
 
@@ -1483,7 +1483,7 @@ Clear has 4 distinct senses.
 11. The tower *cleared* us for takeoff.
 12. The drug has not been *cleared* for children.
 
-**Phrasal verbs:** [clear off](53-phrasal-regular-a-c.md#clear-off) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out-1) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-2)
+**Phrasal verbs:** [clear off](53-phrasal-regular-a-c.md#clear-off) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out-1) &middot; [clear out](53-phrasal-regular-a-c.md#clear-out) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-1) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up-2) &middot; [clear up](53-phrasal-regular-a-c.md#clear-up)
 
 ---
 
@@ -1530,7 +1530,7 @@ Wipe has 2 distinct senses.
 5. The update *wiped* all my saved photos.
 6. The laptop had already been *wiped* when police got it.
 
-**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
+**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
 
 ---
 
@@ -1576,7 +1576,7 @@ To remove the water from something.
 2. He washed and *dried* every glass.
 3. The herbs are *drying* by the window.
 
-**Phrasal verbs:** [dry off](54-phrasal-regular-d-f.md#dry-off) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out-1) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up-1)
+**Phrasal verbs:** [dry off](54-phrasal-regular-d-f.md#dry-off) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out-1) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up-1) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up)
 
 ---
 

@@ -89,7 +89,7 @@ To pass something to someone using your hands.
 2. He *handed* the keys to his brother without a word.
 3. The waiter is *handing* each guest a menu.
 
-**Phrasal verbs:** [hand down](55-phrasal-regular-g-l.md#hand-down-1) &middot; [hand down](55-phrasal-regular-g-l.md#hand-down) &middot; [hand in](55-phrasal-regular-g-l.md#hand-in) &middot; [hand it to](55-phrasal-regular-g-l.md#hand-it-to) &middot; [hand off](55-phrasal-regular-g-l.md#hand-off) &middot; [hand out](55-phrasal-regular-g-l.md#hand-out) &middot; [hand over](55-phrasal-regular-g-l.md#hand-over)
+**Phrasal verbs:** [hand down](55-phrasal-regular-g-l.md#hand-down) &middot; [hand down](55-phrasal-regular-g-l.md#hand-down-1) &middot; [hand in](55-phrasal-regular-g-l.md#hand-in) &middot; [hand it to](55-phrasal-regular-g-l.md#hand-it-to) &middot; [hand off](55-phrasal-regular-g-l.md#hand-off) &middot; [hand out](55-phrasal-regular-g-l.md#hand-out) &middot; [hand over](55-phrasal-regular-g-l.md#hand-over)
 
 ---
 

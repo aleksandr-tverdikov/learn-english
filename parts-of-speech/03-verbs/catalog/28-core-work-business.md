@@ -39,7 +39,7 @@ Work has 3 distinct senses.
 8. She *worked* the register while the manager was out.
 9. He has been *working* that crane for twenty years.
 
-**Phrasal verbs:** [work around](58-phrasal-regular-t-z.md#work-around) &middot; [work in](58-phrasal-regular-t-z.md#work-in) &middot; [work off](58-phrasal-regular-t-z.md#work-off) &middot; [work on, work for, work with](22-verb-preposition.md#work-on-work-for-work-with) &middot; [work out](58-phrasal-regular-t-z.md#work-out-2) &middot; [work out](58-phrasal-regular-t-z.md#work-out-1) &middot; [work out](58-phrasal-regular-t-z.md#work-out) &middot; [work out](58-phrasal-regular-t-z.md#work-out-3) &middot; [work out to](58-phrasal-regular-t-z.md#work-out-to) &middot; [work through](58-phrasal-regular-t-z.md#work-through) &middot; [work up](58-phrasal-regular-t-z.md#work-up) &middot; [work up](58-phrasal-regular-t-z.md#work-up-1) &middot; [work up to](58-phrasal-regular-t-z.md#work-up-to)
+**Phrasal verbs:** [work around](58-phrasal-regular-t-z.md#work-around) &middot; [work in](58-phrasal-regular-t-z.md#work-in) &middot; [work off](58-phrasal-regular-t-z.md#work-off) &middot; [work on, work for, work with](22-verb-preposition.md#work-on-work-for-work-with) &middot; [work out](58-phrasal-regular-t-z.md#work-out) &middot; [work out](58-phrasal-regular-t-z.md#work-out-3) &middot; [work out](58-phrasal-regular-t-z.md#work-out-2) &middot; [work out](58-phrasal-regular-t-z.md#work-out-1) &middot; [work out to](58-phrasal-regular-t-z.md#work-out-to) &middot; [work through](58-phrasal-regular-t-z.md#work-through) &middot; [work up](58-phrasal-regular-t-z.md#work-up) &middot; [work up](58-phrasal-regular-t-z.md#work-up-1) &middot; [work up to](58-phrasal-regular-t-z.md#work-up-to)
 
 ---
 
@@ -244,7 +244,7 @@ Fire has 3 distinct senses.
 8. She *fired* her first bowl last weekend.
 9. These tiles are *fired* at 2,200 degrees.
 
-**Phrasal verbs:** [fire away](54-phrasal-regular-d-f.md#fire-away) &middot; [fire back](54-phrasal-regular-d-f.md#fire-back) &middot; [fire off](54-phrasal-regular-d-f.md#fire-off) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up-1) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up)
+**Phrasal verbs:** [fire away](54-phrasal-regular-d-f.md#fire-away) &middot; [fire back](54-phrasal-regular-d-f.md#fire-back) &middot; [fire off](54-phrasal-regular-d-f.md#fire-off) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up) &middot; [fire up](54-phrasal-regular-d-f.md#fire-up-1)
 
 ---
 

@@ -33,7 +33,7 @@ Mop has 2 distinct senses.
 5. She *mopped* her face with a paper towel.
 6. The old man sat *mopping* his brow in the heat.
 
-**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up-1) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up)
+**Phrasal verbs:** [mop up](56-phrasal-regular-m-p.md#mop-up) &middot; [mop up](56-phrasal-regular-m-p.md#mop-up-1)
 
 ---
 
@@ -404,7 +404,7 @@ To make something straight or neat.
 2. He *straightened* the chairs after the meeting.
 3. She's *straightening* the shelves in the hall closet.
 
-**Phrasal verbs:** [straighten out](57-phrasal-regular-q-s.md#straighten-out) &middot; [straighten out](57-phrasal-regular-q-s.md#straighten-out-1) &middot; [straighten up](57-phrasal-regular-q-s.md#straighten-up)
+**Phrasal verbs:** [straighten out](57-phrasal-regular-q-s.md#straighten-out-1) &middot; [straighten out](57-phrasal-regular-q-s.md#straighten-out) &middot; [straighten up](57-phrasal-regular-q-s.md#straighten-up)
 
 ---
 

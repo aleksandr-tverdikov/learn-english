@@ -580,7 +580,7 @@ To give something a form with your hands or by force, or to influence how someth
 11. This *is shaping up* to be the driest June on record.
 12. The season *shaped up* better than anyone expected.
 
-**Phrasal verbs:** [shape up](57-phrasal-regular-q-s.md#shape-up-1) &middot; [shape up](57-phrasal-regular-q-s.md#shape-up)
+**Phrasal verbs:** [shape up](57-phrasal-regular-q-s.md#shape-up) &middot; [shape up](57-phrasal-regular-q-s.md#shape-up-1)
 
 **See also:** [grave](#grave), [engrave](#engrave), [shave](#shave)
 

@@ -1926,7 +1926,7 @@ Weigh has 2 distinct senses.
 5. The nurse *weighed* the baby at every visit.
 6. Have the bags been *weighed* yet?
 
-**Phrasal verbs:** [weigh down](58-phrasal-regular-t-z.md#weigh-down) &middot; [weigh in](58-phrasal-regular-t-z.md#weigh-in) &middot; [weigh in](58-phrasal-regular-t-z.md#weigh-in-1) &middot; [weigh on](58-phrasal-regular-t-z.md#weigh-on)
+**Phrasal verbs:** [weigh down](58-phrasal-regular-t-z.md#weigh-down) &middot; [weigh in](58-phrasal-regular-t-z.md#weigh-in-1) &middot; [weigh in](58-phrasal-regular-t-z.md#weigh-in) &middot; [weigh on](58-phrasal-regular-t-z.md#weigh-on)
 
 ---
 
