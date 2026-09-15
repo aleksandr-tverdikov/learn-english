@@ -39,7 +39,7 @@ Work has 3 distinct senses.
 8. She *worked* the register while the manager was out.
 9. He has been *working* that crane for twenty years.
 
-**Phrasal verbs:** [work around](58-phrasal-regular-t-z.md#work-around) &middot; [work in](58-phrasal-regular-t-z.md#work-in) &middot; [work off](58-phrasal-regular-t-z.md#work-off) &middot; [work on](58-phrasal-regular-t-z.md#work-on) &middot; [work on](58-phrasal-regular-t-z.md#work-on-1) &middot; [work on, work for, work with](22-verb-preposition.md#work-on-work-for-work-with) &middot; [work out](58-phrasal-regular-t-z.md#work-out-3) &middot; [work out](58-phrasal-regular-t-z.md#work-out) &middot; [work out](58-phrasal-regular-t-z.md#work-out-2) &middot; [work out](58-phrasal-regular-t-z.md#work-out-1) &middot; [work out to](58-phrasal-regular-t-z.md#work-out-to) &middot; [work over](58-phrasal-regular-t-z.md#work-over) &middot; [work through](58-phrasal-regular-t-z.md#work-through) &middot; [work up](58-phrasal-regular-t-z.md#work-up) &middot; [work up](58-phrasal-regular-t-z.md#work-up-1) &middot; [work up to](58-phrasal-regular-t-z.md#work-up-to)
+**Phrasal verbs:** [work around](58-phrasal-regular-t-z.md#work-around) &middot; [work in](58-phrasal-regular-t-z.md#work-in) &middot; [work off](58-phrasal-regular-t-z.md#work-off) &middot; [work on](58-phrasal-regular-t-z.md#work-on) &middot; [work on](58-phrasal-regular-t-z.md#work-on-1) &middot; [work on, work for, work with](22-verb-preposition.md#work-on-work-for-work-with) &middot; [work out](58-phrasal-regular-t-z.md#work-out) &middot; [work out](58-phrasal-regular-t-z.md#work-out-1) &middot; [work out](58-phrasal-regular-t-z.md#work-out-2) &middot; [work out](58-phrasal-regular-t-z.md#work-out-3) &middot; [work out to](58-phrasal-regular-t-z.md#work-out-to) &middot; [work over](58-phrasal-regular-t-z.md#work-over) &middot; [work through](58-phrasal-regular-t-z.md#work-through) &middot; [work up](58-phrasal-regular-t-z.md#work-up) &middot; [work up](58-phrasal-regular-t-z.md#work-up-1) &middot; [work up to](58-phrasal-regular-t-z.md#work-up-to)
 
 ---
 
@@ -776,7 +776,7 @@ Settle has 3 distinct senses.
 8. Dust *settled* on every surface after the drywall work.
 9. Sand has *settled* at the bottom of the jar.
 
-**Phrasal verbs:** [settle down](57-phrasal-regular-q-s.md#settle-down-1) &middot; [settle down](57-phrasal-regular-q-s.md#settle-down) &middot; [settle for](57-phrasal-regular-q-s.md#settle-for) &middot; [settle in](57-phrasal-regular-q-s.md#settle-in) &middot; [settle on](57-phrasal-regular-q-s.md#settle-on) &middot; [settle up](57-phrasal-regular-q-s.md#settle-up)
+**Phrasal verbs:** [settle down](57-phrasal-regular-q-s.md#settle-down) &middot; [settle down](57-phrasal-regular-q-s.md#settle-down-1) &middot; [settle for](57-phrasal-regular-q-s.md#settle-for) &middot; [settle in](57-phrasal-regular-q-s.md#settle-in) &middot; [settle on](57-phrasal-regular-q-s.md#settle-on) &middot; [settle up](57-phrasal-regular-q-s.md#settle-up)
 
 ---
 
@@ -1433,7 +1433,7 @@ To bring something to an end, or to come to an end.
 2. She *finished* the report on the train.
 3. We are *finishing* the last section today.
 
-**Phrasal verbs:** [finish off](54-phrasal-regular-d-f.md#finish-off-1) &middot; [finish off](54-phrasal-regular-d-f.md#finish-off) &middot; [finish up](54-phrasal-regular-d-f.md#finish-up)
+**Phrasal verbs:** [finish off](54-phrasal-regular-d-f.md#finish-off) &middot; [finish off](54-phrasal-regular-d-f.md#finish-off-1) &middot; [finish up](54-phrasal-regular-d-f.md#finish-up)
 
 ---
 

@@ -109,7 +109,7 @@ Play has 4 distinct senses.
 11. The DJ *played* the same song three times.
 12. He was *playing* the voicemail for everyone in the office.
 
-**Phrasal verbs:** [play along](56-phrasal-regular-m-p.md#play-along) &middot; [play around](56-phrasal-regular-m-p.md#play-around) &middot; [play around with](56-phrasal-regular-m-p.md#play-around-with) &middot; [play back](56-phrasal-regular-m-p.md#play-back) &middot; [play down](56-phrasal-regular-m-p.md#play-down) &middot; [play off](56-phrasal-regular-m-p.md#play-off-1) &middot; [play off](56-phrasal-regular-m-p.md#play-off) &middot; [play on](56-phrasal-regular-m-p.md#play-on) &middot; [play out](56-phrasal-regular-m-p.md#play-out) &middot; [play up](56-phrasal-regular-m-p.md#play-up)
+**Phrasal verbs:** [play along](56-phrasal-regular-m-p.md#play-along) &middot; [play around](56-phrasal-regular-m-p.md#play-around) &middot; [play around with](56-phrasal-regular-m-p.md#play-around-with) &middot; [play back](56-phrasal-regular-m-p.md#play-back) &middot; [play down](56-phrasal-regular-m-p.md#play-down) &middot; [play off](56-phrasal-regular-m-p.md#play-off) &middot; [play off](56-phrasal-regular-m-p.md#play-off-1) &middot; [play on](56-phrasal-regular-m-p.md#play-on) &middot; [play out](56-phrasal-regular-m-p.md#play-out) &middot; [play up](56-phrasal-regular-m-p.md#play-up)
 
 ---
 

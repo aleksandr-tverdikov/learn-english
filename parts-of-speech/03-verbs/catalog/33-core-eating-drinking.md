@@ -624,7 +624,7 @@ To heat a liquid until it bubbles, or to cook food in bubbling water.
 2. I *boiled* two eggs for breakfast.
 3. The soup has been *boiling* for ten minutes.
 
-**Phrasal verbs:** [boil away](53-phrasal-regular-a-c.md#boil-away) &middot; [boil down](53-phrasal-regular-a-c.md#boil-down-1) &middot; [boil down](53-phrasal-regular-a-c.md#boil-down) &middot; [boil down to](53-phrasal-regular-a-c.md#boil-down-to) &middot; [boil over](53-phrasal-regular-a-c.md#boil-over) &middot; [boil up](53-phrasal-regular-a-c.md#boil-up)
+**Phrasal verbs:** [boil away](53-phrasal-regular-a-c.md#boil-away) &middot; [boil down](53-phrasal-regular-a-c.md#boil-down) &middot; [boil down](53-phrasal-regular-a-c.md#boil-down-1) &middot; [boil down to](53-phrasal-regular-a-c.md#boil-down-to) &middot; [boil over](53-phrasal-regular-a-c.md#boil-over) &middot; [boil up](53-phrasal-regular-a-c.md#boil-up)
 
 ---
 
@@ -850,7 +850,7 @@ To make food or drink moderately hot.
 2. She *warmed* the rolls in the oven.
 3. He is *warming* soup on the stove.
 
-**Phrasal verbs:** [warm over](58-phrasal-regular-t-z.md#warm-over) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up-1) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up) &middot; [warm up to](58-phrasal-regular-t-z.md#warm-up-to)
+**Phrasal verbs:** [warm over](58-phrasal-regular-t-z.md#warm-over) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up) &middot; [warm up](58-phrasal-regular-t-z.md#warm-up-1) &middot; [warm up to](58-phrasal-regular-t-z.md#warm-up-to)
 
 ---
 
@@ -869,7 +869,7 @@ To make something hot, especially food or liquid.
 2. I *heated* the leftovers in a pan.
 3. The skillet is *heating* now.
 
-**Phrasal verbs:** [heat up](55-phrasal-regular-g-l.md#heat-up-1) &middot; [heat up](55-phrasal-regular-g-l.md#heat-up)
+**Phrasal verbs:** [heat up](55-phrasal-regular-g-l.md#heat-up) &middot; [heat up](55-phrasal-regular-g-l.md#heat-up-1)
 
 ---
 
@@ -1236,7 +1236,7 @@ Whip has 2 distinct senses.
 5. The rider *whipped* the horse's flank.
 6. Rain was *whipping* against the windows all night.
 
-**Phrasal verbs:** [whip out](58-phrasal-regular-t-z.md#whip-out) &middot; [whip through](58-phrasal-regular-t-z.md#whip-through) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up-1) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up)
+**Phrasal verbs:** [whip out](58-phrasal-regular-t-z.md#whip-out) &middot; [whip through](58-phrasal-regular-t-z.md#whip-through) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up) &middot; [whip up](58-phrasal-regular-t-z.md#whip-up-1)
 
 ---
 
@@ -1291,7 +1291,7 @@ Pour has 2 distinct senses.
 5. Don't go out right now — it's *pouring*.
 6. If it *pours* again tonight, the game is off.
 
-**Phrasal verbs:** [pour down](56-phrasal-regular-m-p.md#pour-down) &middot; [pour in](56-phrasal-regular-m-p.md#pour-in) &middot; [pour out](56-phrasal-regular-m-p.md#pour-out-1) &middot; [pour out](56-phrasal-regular-m-p.md#pour-out)
+**Phrasal verbs:** [pour down](56-phrasal-regular-m-p.md#pour-down) &middot; [pour in](56-phrasal-regular-m-p.md#pour-in) &middot; [pour out](56-phrasal-regular-m-p.md#pour-out) &middot; [pour out](56-phrasal-regular-m-p.md#pour-out-1)
 
 ---
 
@@ -1446,7 +1446,7 @@ Wash has 2 distinct senses.
 5. The flood *washed* topsoil into the creek.
 6. A dead whale had *washed* ashore overnight.
 
-**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1)
+**Phrasal verbs:** [wash away](58-phrasal-regular-t-z.md#wash-away) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down) &middot; [wash down](58-phrasal-regular-t-z.md#wash-down-1) &middot; [wash off](58-phrasal-regular-t-z.md#wash-off) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out) &middot; [wash out](58-phrasal-regular-t-z.md#wash-out-1) &middot; [wash over](58-phrasal-regular-t-z.md#wash-over) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up) &middot; [wash up](58-phrasal-regular-t-z.md#wash-up-1)
 
 ---
 
@@ -1532,7 +1532,7 @@ Wipe has 2 distinct senses.
 5. The update *wiped* all my saved photos.
 6. The laptop had already been *wiped* when police got it.
 
-**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
+**Phrasal verbs:** [wipe away](58-phrasal-regular-t-z.md#wipe-away) &middot; [wipe down](58-phrasal-regular-t-z.md#wipe-down) &middot; [wipe off](58-phrasal-regular-t-z.md#wipe-off) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-1) &middot; [wipe out](58-phrasal-regular-t-z.md#wipe-out-2) &middot; [wipe up](58-phrasal-regular-t-z.md#wipe-up)
 
 ---
 
@@ -1578,7 +1578,7 @@ To remove the water from something.
 2. He washed and *dried* every glass.
 3. The herbs are *drying* by the window.
 
-**Phrasal verbs:** [dry off](54-phrasal-regular-d-f.md#dry-off) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out-1) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up-1)
+**Phrasal verbs:** [dry off](54-phrasal-regular-d-f.md#dry-off) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out) &middot; [dry out](54-phrasal-regular-d-f.md#dry-out-1) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up) &middot; [dry up](54-phrasal-regular-d-f.md#dry-up-1)
 
 ---
 
@@ -1658,7 +1658,7 @@ Suck has 2 distinct senses.
 5. The movie *sucked*, but the popcorn was good.
 6. Losing your wallet on the first day of vacation really *sucks*.
 
-**Phrasal verbs:** [suck in](57-phrasal-regular-q-s.md#suck-in-1) &middot; [suck in](57-phrasal-regular-q-s.md#suck-in) &middot; [suck up](57-phrasal-regular-q-s.md#suck-up) &middot; [suck up to](57-phrasal-regular-q-s.md#suck-up-to)
+**Phrasal verbs:** [suck in](57-phrasal-regular-q-s.md#suck-in) &middot; [suck in](57-phrasal-regular-q-s.md#suck-in-1) &middot; [suck up](57-phrasal-regular-q-s.md#suck-up) &middot; [suck up to](57-phrasal-regular-q-s.md#suck-up-to)
 
 ---
 
@@ -1754,7 +1754,7 @@ Cool has 2 distinct senses.
 5. His interest in the project began to *cool* after a month.
 6. With demand *cooling*, the store cut its prices.
 
-**Phrasal verbs:** [cool down](53-phrasal-regular-a-c.md#cool-down) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off-1) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off)
+**Phrasal verbs:** [cool down](53-phrasal-regular-a-c.md#cool-down) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off) &middot; [cool off](53-phrasal-regular-a-c.md#cool-off-1)
 
 ---
 

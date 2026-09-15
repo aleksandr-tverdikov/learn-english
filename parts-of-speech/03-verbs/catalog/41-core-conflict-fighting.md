@@ -362,7 +362,7 @@ Kick has 2 distinct senses.
 5. It took her two years to *kick* her soda habit.
 6. He has *kicked* worse addictions than this one.
 
-**Phrasal verbs:** [kick around](55-phrasal-regular-g-l.md#kick-around) &middot; [kick back](55-phrasal-regular-g-l.md#kick-back) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in-1) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in) &middot; [kick off](55-phrasal-regular-g-l.md#kick-off) &middot; [kick out](55-phrasal-regular-g-l.md#kick-out) &middot; [kick up](55-phrasal-regular-g-l.md#kick-up) &middot; [kick up](55-phrasal-regular-g-l.md#kick-up-1) &middot; [kick upstairs](55-phrasal-regular-g-l.md#kick-upstairs)
+**Phrasal verbs:** [kick around](55-phrasal-regular-g-l.md#kick-around) &middot; [kick back](55-phrasal-regular-g-l.md#kick-back) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in) &middot; [kick in](55-phrasal-regular-g-l.md#kick-in-1) &middot; [kick off](55-phrasal-regular-g-l.md#kick-off) &middot; [kick out](55-phrasal-regular-g-l.md#kick-out) &middot; [kick up](55-phrasal-regular-g-l.md#kick-up) &middot; [kick up](55-phrasal-regular-g-l.md#kick-up-1) &middot; [kick upstairs](55-phrasal-regular-g-l.md#kick-upstairs)
 
 ---
 
@@ -968,7 +968,7 @@ To stop someone or something from passing or from succeeding.
 2. One senator can *block* the whole bill.
 3. The road has been *blocked* since the fighting started.
 
-**Phrasal verbs:** [block in](53-phrasal-regular-a-c.md#block-in) &middot; [block off](53-phrasal-regular-a-c.md#block-off) &middot; [block out](53-phrasal-regular-a-c.md#block-out-1) &middot; [block out](53-phrasal-regular-a-c.md#block-out)
+**Phrasal verbs:** [block in](53-phrasal-regular-a-c.md#block-in) &middot; [block off](53-phrasal-regular-a-c.md#block-off) &middot; [block out](53-phrasal-regular-a-c.md#block-out) &middot; [block out](53-phrasal-regular-a-c.md#block-out-1)
 
 ---
 

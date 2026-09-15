@@ -95,7 +95,7 @@ To make an engine turn faster and louder.
 2. The kid next to us *revved* his motor at every light.
 3. Someone has been *revving* a dirt bike since six.
 
-**Phrasal verbs:** [rev up](57-phrasal-regular-q-s.md#rev-up-1) &middot; [rev up](57-phrasal-regular-q-s.md#rev-up)
+**Phrasal verbs:** [rev up](57-phrasal-regular-q-s.md#rev-up) &middot; [rev up](57-phrasal-regular-q-s.md#rev-up-1)
 
 ---
 
@@ -172,7 +172,7 @@ Start has 3 distinct senses.
 8. He *started* the company in his garage.
 9. She has *started* a book club at the library.
 
-**Phrasal verbs:** [start in](57-phrasal-regular-q-s.md#start-in) &middot; [start off](57-phrasal-regular-q-s.md#start-off) &middot; [start on](57-phrasal-regular-q-s.md#start-on) &middot; [start out](57-phrasal-regular-q-s.md#start-out) &middot; [start over](57-phrasal-regular-q-s.md#start-over) &middot; [start up](57-phrasal-regular-q-s.md#start-up-1) &middot; [start up](57-phrasal-regular-q-s.md#start-up)
+**Phrasal verbs:** [start in](57-phrasal-regular-q-s.md#start-in) &middot; [start off](57-phrasal-regular-q-s.md#start-off) &middot; [start on](57-phrasal-regular-q-s.md#start-on) &middot; [start out](57-phrasal-regular-q-s.md#start-out) &middot; [start over](57-phrasal-regular-q-s.md#start-over) &middot; [start up](57-phrasal-regular-q-s.md#start-up) &middot; [start up](57-phrasal-regular-q-s.md#start-up-1)
 
 ---
 
