@@ -2042,7 +2042,7 @@ To fire a weapon, to send something moving fast, or to record images with a came
 27. The seed potatoes *have shot* in the bag.
 
 
-**Phrasal verbs:** [shoot down](20-phrasal-s.md#shoot-down) &middot; [shoot for](20-phrasal-s.md#shoot-for) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out-1) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out-2) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out) &middot; [shoot through](66-phrasal-irregular-more-m-z.md#shoot-through) &middot; [shoot up](20-phrasal-s.md#shoot-up)
+**Phrasal verbs:** [shoot down](20-phrasal-s.md#shoot-down) &middot; [shoot for](20-phrasal-s.md#shoot-for) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out-1) &middot; [shoot out](66-phrasal-irregular-more-m-z.md#shoot-out-2) &middot; [shoot through](66-phrasal-irregular-more-m-z.md#shoot-through) &middot; [shoot up](20-phrasal-s.md#shoot-up)
 
 **See also:** [overshoot](#overshoot), [reshoot](#reshoot), [troubleshoot](#troubleshoot)
 

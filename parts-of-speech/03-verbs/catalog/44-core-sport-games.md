@@ -1493,7 +1493,7 @@ Knock has 3 distinct senses.
 8. Critics *knocked* the plan as too expensive.
 9. He's always *knocking* somebody else's work.
 
-**Phrasal verbs:** [knock around](55-phrasal-regular-g-l.md#knock-around-1) &middot; [knock around](55-phrasal-regular-g-l.md#knock-around) &middot; [knock back](55-phrasal-regular-g-l.md#knock-back) &middot; [knock down](55-phrasal-regular-g-l.md#knock-down) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off-1) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off-2) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-2) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-1) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-3) &middot; [knock up](55-phrasal-regular-g-l.md#knock-up)
+**Phrasal verbs:** [knock around](55-phrasal-regular-g-l.md#knock-around) &middot; [knock around](55-phrasal-regular-g-l.md#knock-around-1) &middot; [knock back](55-phrasal-regular-g-l.md#knock-back) &middot; [knock down](55-phrasal-regular-g-l.md#knock-down) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off-1) &middot; [knock off](55-phrasal-regular-g-l.md#knock-off-2) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-1) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-2) &middot; [knock out](55-phrasal-regular-g-l.md#knock-out-3) &middot; [knock up](55-phrasal-regular-g-l.md#knock-up)
 
 ---
 

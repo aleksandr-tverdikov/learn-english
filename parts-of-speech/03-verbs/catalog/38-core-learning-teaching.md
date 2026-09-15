@@ -2221,7 +2221,7 @@ To say numbers in order or find a total, or to matter toward a result.
 2. She *counted* the votes twice.
 3. I am *counting* the days until graduation.
 
-**Phrasal verbs:** [count against](53-phrasal-regular-a-c.md#count-against) &middot; [count down](53-phrasal-regular-a-c.md#count-down) &middot; [count in](53-phrasal-regular-a-c.md#count-in) &middot; [count on](22-verb-preposition.md#count-on) &middot; [count out](53-phrasal-regular-a-c.md#count-out-1) &middot; [count out](53-phrasal-regular-a-c.md#count-out) &middot; [count up](53-phrasal-regular-a-c.md#count-up)
+**Phrasal verbs:** [count against](53-phrasal-regular-a-c.md#count-against) &middot; [count down](53-phrasal-regular-a-c.md#count-down) &middot; [count in](53-phrasal-regular-a-c.md#count-in) &middot; [count on](22-verb-preposition.md#count-on) &middot; [count out](53-phrasal-regular-a-c.md#count-out) &middot; [count out](53-phrasal-regular-a-c.md#count-out-1) &middot; [count up](53-phrasal-regular-a-c.md#count-up)
 
 ---
 
@@ -2267,7 +2267,7 @@ Round has 2 distinct senses.
 5. A truck *rounded* the corner too fast and clipped the mirror.
 6. He was *rounding* third base when the throw came in.
 
-**Phrasal verbs:** [round down](57-phrasal-regular-q-s.md#round-down) &middot; [round off](57-phrasal-regular-q-s.md#round-off-1) &middot; [round off](57-phrasal-regular-q-s.md#round-off) &middot; [round out](57-phrasal-regular-q-s.md#round-out) &middot; [round up](57-phrasal-regular-q-s.md#round-up-1) &middot; [round up](57-phrasal-regular-q-s.md#round-up)
+**Phrasal verbs:** [round down](57-phrasal-regular-q-s.md#round-down) &middot; [round off](57-phrasal-regular-q-s.md#round-off) &middot; [round off](57-phrasal-regular-q-s.md#round-off-1) &middot; [round out](57-phrasal-regular-q-s.md#round-out) &middot; [round up](57-phrasal-regular-q-s.md#round-up) &middot; [round up](57-phrasal-regular-q-s.md#round-up-1)
 
 ---
 

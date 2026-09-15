@@ -43,8 +43,13 @@ def build_index():
             declared = re.sub(r'\s*\(.*\)$', '', declared).strip().lower()
             base = declared.split()[0] if declared else e['term'].split()[0].lower()
             idx[base].append((e['term'], f'{base_name}#{e["anchor"]}'))
+    # Sort by term, then by anchor. A phrasal verb with several senses has several
+    # entries of the same term (climb-down, climb-down-1), and sorting by term alone
+    # left those ties in set order - which Python randomizes per process, so every
+    # build reshuffled them and rewrote 51 verb files with no real change.
+    natural = lambda href: re.sub(r'\d+', lambda m: f'{int(m.group()):06d}', href)
     for k in idx:
-        idx[k] = sorted(set(idx[k]), key=lambda x: x[0].lower())
+        idx[k] = sorted(set(idx[k]), key=lambda x: (x[0].lower(), natural(x[1])))
     return idx
 
 

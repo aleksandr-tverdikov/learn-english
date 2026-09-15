@@ -1478,7 +1478,7 @@ Wait has 2 distinct senses.
 5. She *waited* tables all through college.
 6. I have *waited* tables at two different diners.
 
-**Phrasal verbs:** [wait around](58-phrasal-regular-t-z.md#wait-around) &middot; [wait for, wait on](22-verb-preposition.md#wait-for-wait-on) &middot; [wait on](58-phrasal-regular-t-z.md#wait-on-1) &middot; [wait on](58-phrasal-regular-t-z.md#wait-on) &middot; [wait out](58-phrasal-regular-t-z.md#wait-out) &middot; [wait up](58-phrasal-regular-t-z.md#wait-up-1) &middot; [wait up](58-phrasal-regular-t-z.md#wait-up)
+**Phrasal verbs:** [wait around](58-phrasal-regular-t-z.md#wait-around) &middot; [wait for, wait on](22-verb-preposition.md#wait-for-wait-on) &middot; [wait on](58-phrasal-regular-t-z.md#wait-on) &middot; [wait on](58-phrasal-regular-t-z.md#wait-on-1) &middot; [wait out](58-phrasal-regular-t-z.md#wait-out) &middot; [wait up](58-phrasal-regular-t-z.md#wait-up) &middot; [wait up](58-phrasal-regular-t-z.md#wait-up-1)
 
 ---
 

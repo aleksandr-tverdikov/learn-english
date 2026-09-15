@@ -538,7 +538,7 @@ To join, make, or mend things with a needle and thread.
 13. One more win *sews up* the division.
 14. The defense *had sewed up* the case by Wednesday.
 
-**Phrasal verbs:** [sew up](66-phrasal-irregular-more-m-z.md#sew-up-1) &middot; [sew up](66-phrasal-irregular-more-m-z.md#sew-up)
+**Phrasal verbs:** [sew up](66-phrasal-irregular-more-m-z.md#sew-up) &middot; [sew up](66-phrasal-irregular-more-m-z.md#sew-up-1)
 
 **See also:** [sow](#sow), [mow](#mow), [show](#show)
 
@@ -582,7 +582,7 @@ To give something a form with your hands or by force, or to influence how someth
 11. This *is shaping up* to be the driest June on record.
 12. The season *shaped up* better than anyone expected.
 
-**Phrasal verbs:** [shape up](57-phrasal-regular-q-s.md#shape-up-1) &middot; [shape up](57-phrasal-regular-q-s.md#shape-up)
+**Phrasal verbs:** [shape up](57-phrasal-regular-q-s.md#shape-up) &middot; [shape up](57-phrasal-regular-q-s.md#shape-up-1)
 
 **See also:** [grave](#grave), [engrave](#engrave), [shave](#shave)
 

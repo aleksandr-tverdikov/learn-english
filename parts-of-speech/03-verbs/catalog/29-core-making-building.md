@@ -362,7 +362,7 @@ Nail has 3 distinct senses.
 8. The IRS finally *nailed* him for tax fraud.
 9. He was *nailed* by a traffic camera on Fifth Street.
 
-**Phrasal verbs:** [nail down](56-phrasal-regular-m-p.md#nail-down-1) &middot; [nail down](56-phrasal-regular-m-p.md#nail-down-2) &middot; [nail down](56-phrasal-regular-m-p.md#nail-down)
+**Phrasal verbs:** [nail down](56-phrasal-regular-m-p.md#nail-down) &middot; [nail down](56-phrasal-regular-m-p.md#nail-down-1) &middot; [nail down](56-phrasal-regular-m-p.md#nail-down-2)
 
 ---
 
@@ -1648,7 +1648,7 @@ To cover a hole with a piece of material.
 2. He *patched* the drywall with mesh tape.
 3. The roof has been *patched* three times.
 
-**Phrasal verbs:** [patch through](56-phrasal-regular-m-p.md#patch-through) &middot; [patch up](56-phrasal-regular-m-p.md#patch-up-1) &middot; [patch up](56-phrasal-regular-m-p.md#patch-up)
+**Phrasal verbs:** [patch through](56-phrasal-regular-m-p.md#patch-through) &middot; [patch up](56-phrasal-regular-m-p.md#patch-up) &middot; [patch up](56-phrasal-regular-m-p.md#patch-up-1)
 
 ---
 
