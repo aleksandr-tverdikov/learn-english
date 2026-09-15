@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Focusing adverbs</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="focusing-adverbs">Focusing adverbs<a class="hash" href="#focusing-adverbs" aria-label="link">#</a></h1>
+<blockquote><p>Only this, also that — <em>only</em>, <em>also</em>, <em>even</em>, <em>merely</em>, <em>especially</em>, <em>mainly</em>, <em>either</em>, <em>as well</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>A focusing adverb points at one part of the sentence and either restricts attention to it (<em>only</em>, <em>merely</em>, <em>especially</em>) or adds it to something already said (<em>also</em>, <em>too</em>, <em>even</em>). Moving one changes the meaning — <em>Only Ana saw it</em> and <em>Ana only saw it</em> say different things — so every entry here gives its position rule with a pair of examples. <em>Either</em> replaces <em>too</em> in negative sentences: <em>I don’t like it either</em>.</p>
+<hr>
+<h3 id="only">only<a class="hash" href="#only" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊnli/ &middot; <em>OHN-lee</em></dd><dt>Русский</dt><dd>только, лишь, всего лишь</dd><dt>Type</dt><dd>focusing; also time and degree</dd><dt>Position</dt><dd>before its word — directly before the word or phrase it focuses; in speech usually mid, before the main verb, with stress on the focused word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>nouns, pronouns, numbers, verbs, adjectives, adverbs, phrases and clauses</dd><dt>Contrast</dt><dd>Position changes the meaning: <em>Only</em> Ana saw the email (no one else saw it); Ana <em>only</em> saw the email (she saw it but did not read or answer it); Ana saw <em>only</em> the email (nothing else). Fronted <em>only</em> + a time phrase or clause brings inversion: <em>Only then did I understand</em>, not <em>Only then I understood</em>. <em>Not only … but also</em> inverts too when it opens the sentence: <em>Not only did she win, but she also set a record</em>. The adjective (<em>the only child</em> — единственный) and the informal conjunction (<em>I'd go, only I'm busy</em> — но) are other words. Russian <em>только что</em> is <em>just</em>, not <em>only</em>: <em>He has just left</em>. <em>If only</em> takes a past form for a wish about now and the past perfect for regret about the past: <em>If only I knew</em> (если бы я знал), <em>If only I had known</em> (если бы я тогда знал).</dd></dl>
+<p>Only has 6 distinct senses.</p>
+<p><strong>1. Nothing or no one else; exclusively.</strong> (только (и никто, ничто больше))</p>
+<ol><li><em>Only</em> Ana knew the password.</li><li>This parking lot is for employees <em>only</em>.</li><li>You can <em>only</em> pay by card here.</li></ol>
+<p><strong>2. No more than; just — used to make an amount, a person or a problem sound small or unimportant.</strong> (всего, всего лишь)</p>
+<ol start="4"><li>The ride <em>only</em> takes ten minutes.</li><li>Don't worry, it's <em>only</em> a scratch.</li><li>She was <em>only</em> sixteen when she moved to New York.</li></ol>
+<p><strong>3. As recently as; not until — with a time word, showing that something happened very recently or later than expected.</strong> (только, лишь (не раньше чем))</p>
+<ol start="7"><li>I <em>only</em> found out about it yesterday.</li><li>We met <em>only</em> last month, but it feels like years.</li><li>I <em>only</em> realized my mistake when I got home.</li></ol>
+<p><strong>4. With the result, often disappointing, that; in the end merely — in <em>only to</em> and before verbs like <em>make</em> and <em>cause</em>.</strong> (лишь, только; а в итоге)</p>
+<ol start="10"><li>He ran to the gate, <em>only</em> to find that the flight had closed.</li><li>Yelling at him will <em>only</em> make things worse.</li><li>Cutting prices would <em>only</em> hurt the brand.</li></ol>
+<p><strong>5. Very, completely — in <em>only too</em>, often with <em>happy</em>, <em>glad</em>, <em>well</em> or <em>true</em>.</strong> (только (рад), очень; слишком (хорошо))</p>
+<ol start="13"><li>I'd be <em>only</em> too happy to help.</li><li>She knew <em>only</em> too well what could go wrong.</li><li>The rumors turned out to be <em>only</em> too true.</li></ol>
+<p><strong>6. Used in <em>if only</em> to express a strong wish or regret about something that is not true.</strong> (если бы (только))</p>
+<ol start="16"><li><em>If only</em> I'd listened to you!</li><li><em>If only</em> we had more time.</li><li><em>If only</em> he would call back.</li></ol>
+<hr>
+<h3 id="merely">merely<a class="hash" href="#merely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪrli/ &middot; <em>MEER-lee</em></dd><dt>Русский</dt><dd>всего лишь, просто, лишь</dd><dt>Type</dt><dd>focusing — restricts and plays down</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; or before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, nouns and noun phrases, adjectives, prepositional phrases</dd><dt>Form</dt><dd>-ly from the adjective <em>mere</em></dd><dt>Contrast</dt><dd><em>Merely</em> means 'no more than', never 'no one else': <em>Only Ana came</em> (nobody else came), not <em>Merely Ana came</em>. It is more formal than <em>just</em> and <em>only</em>. In <em>not merely … but (also)</em> it works like <em>not only … but also</em>: <em>He was not merely late but rude</em>.</dd></dl>
+<p>Only; no more than — used to say that something is small, simple or less important than it might seem.</p>
+<ol><li>I was <em>merely</em> asking a question.</li><li>The delay is <em>merely</em> a few days.</li><li>This is not <em>merely</em> a technical problem; it's a legal one.</li></ol>
+<hr>
+<h3 id="simply">simply<a class="hash" href="#simply" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmpli/ &middot; <em>SIM-plee</em></dd><dt>Русский</dt><dd>просто</dd><dt>Type</dt><dd>focusing; also degree and manner</dd><dt>Position</dt><dd>mid — before the main verb or before its word in the focusing and degree senses; end in the manner sense</dd><dt>Comparison</dt><dd>not gradable — except in the manner sense (<em>more simply</em>, <em>most simply</em>)</dd><dt>Modifies</dt><dd>verbs, adjectives, nouns and noun phrases, clauses</dd><dt>Form</dt><dd>-ly from <em>simple</em>: the -le becomes -ly</dd><dt>Contrast</dt><dd>Position changes the meaning: She explained it <em>simply</em> (in an easy, clear way) vs. She <em>simply</em> explained it (she just explained it and did nothing more). Russian <em>просто</em> as a sentence opener (<em>Просто я устал</em>) is not <em>Simply, I'm tired</em> but <em>It's just that I'm tired</em> or <em>I'm just tired</em>.</dd></dl>
+<p>Simply has 3 distinct senses.</p>
+<p><strong>1. Just; only; nothing more than.</strong> (просто, всего лишь)</p>
+<ol><li>It's <em>simply</em> a matter of time.</li><li>To register, <em>simply</em> fill out this form.</li><li>He didn't mean any harm — he was <em>simply</em> trying to help.</li></ol>
+<p><strong>2. Absolutely; really — used to give strong emphasis, often with a negative.</strong> (просто, совершенно)</p>
+<ol start="4"><li>The view from the top was <em>simply</em> amazing.</li><li>I <em>simply</em> can't believe she said that.</li><li>We <em>simply</em> don't have the money.</li></ol>
+<p><strong>3. In a simple, plain or easy-to-understand way.</strong> (просто, скромно, понятно)</p>
+<ol start="7"><li>The teacher explained the rule <em>simply</em> and clearly.</li><li>They live <em>simply</em>, without a car or a TV.</li><li>Put <em>more simply</em>, we're out of cash.</li></ol>
+<hr>
+<h3 id="purely">purely<a class="hash" href="#purely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpjʊrli/ &middot; <em>PYUUR-lee</em></dd><dt>Русский</dt><dd>чисто, исключительно, сугубо</dd><dt>Type</dt><dd>focusing — restricts to one kind, cause or purpose</dd><dt>Position</dt><dd>before its word — usually before an adjective or a prepositional phrase</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, prepositional phrases, nouns</dd><dt>Form</dt><dd>-ly from <em>pure</em>: keeps the <em>e</em></dd><dt>Contrast</dt><dd>Russian <em>чисто</em> has two sides: 'purely, only' is <em>purely</em> (<em>purely by chance</em>), but 'cleanly, without mistakes' is not — <em>She speaks English perfectly</em> or <em>without an accent</em>, not <em>She speaks English purely</em>. The fixed pair <em>purely and simply</em> means 'only and for no other reason'.</dd></dl>
+<p>Only; entirely — for this reason, or of this kind, and no other.</p>
+<ol><li>We met <em>purely</em> by chance.</li><li>I do it <em>purely</em> for fun.</li><li>Their relationship is <em>purely</em> professional.</li></ol>
+<hr>
+<h3 id="solely">solely<a class="hash" href="#solely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊlli/ &middot; <em>SOHL-lee</em></dd><dt>Русский</dt><dd>исключительно, единственно, только</dd><dt>Type</dt><dd>focusing — restricts to one person, cause or purpose</dd><dt>Position</dt><dd>before its word — or mid, before the main verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, prepositional phrases, verbs, nouns</dd><dt>Form</dt><dd>-ly from <em>sole</em> 'single, only': keeps the <em>e</em> — <em>solely</em>, not <em>soly</em></dd><dt>Contrast</dt><dd><em>Solely</em> means 'with no other person or cause involved', not 'without company': <em>She lives alone</em> (одна), not <em>She lives solely</em>. It is formal; in conversation Americans say <em>only</em> or <em>just</em>. <em>Solely responsible</em> is a common fixed phrase — несёт полную (единоличную) ответственность.</dd></dl>
+<p>Only; not involving anyone or anything else.</p>
+<ol><li>The driver was <em>solely</em> responsible for the accident.</li><li>The money will be used <em>solely</em> for research.</li><li>Don't judge a school <em>solely</em> on its test scores.</li></ol>
+<hr>
+<h3 id="exclusively">exclusively<a class="hash" href="#exclusively" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈskluːsɪvli/ &middot; <em>ik-SKLOO-siv-lee</em></dd><dt>Русский</dt><dd>исключительно; эксклюзивно</dd><dt>Type</dt><dd>focusing — restricts to one person, group or place</dd><dt>Position</dt><dd>before its word — or end, after the verb and its object</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, prepositional phrases, adjectives</dd><dt>Form</dt><dd>-ly from <em>exclusive</em></dd><dt>Contrast</dt><dd>False friend: Russian <em>исключительно</em> also means 'extremely' (<em>исключительно красивый</em>), but English <em>exclusively</em> never does — say <em>exceptionally beautiful</em>, not <em>exclusively beautiful</em>. <em>Exclusively</em> only ever means 'and nothing or no one else'.</dd></dl>
+<p>Exclusively has 2 distinct senses.</p>
+<p><strong>1. Only; with nothing or no one else included.</strong> (исключительно, только)</p>
+<ol><li>The course is taught <em>exclusively</em> in Spanish.</li><li>For three months he ate <em>exclusively</em> plant-based food.</li><li>The group focuses <em>exclusively</em> on small businesses.</li></ol>
+<p><strong>2. Given, sold or shown to one person, company or outlet and no other.</strong> (эксклюзивно)</p>
+<ol start="4"><li>The singer spoke <em>exclusively</em> to NBC about her divorce.</li><li>These sneakers are sold <em>exclusively</em> on our website.</li><li>The series streams <em>exclusively</em> on one platform.</li></ol>
+<hr>
+<h3 id="particularly">particularly<a class="hash" href="#particularly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈtɪkjələrli/ &middot; <em>pur-TIK-yuh-lur-lee</em></dd><dt>Русский</dt><dd>особенно</dd><dt>Type</dt><dd>focusing; also degree</dd><dt>Position</dt><dd>before its word — before the noun, phrase or adjective it points at; or mid, before the main verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>nouns and noun phrases, adjectives, adverbs, verbs, clauses</dd><dt>Form</dt><dd>-ly from <em>particular</em></dd><dt>Contrast</dt><dd><em>Particularly</em> goes before the word it focuses; <em>in particular</em> usually goes after it: <em>particularly the South</em> = <em>the South in particular</em>. <em>Not particularly</em> is a softener — 'not very', не особо: <em>I'm not particularly hungry</em>. As with <em>especially</em>, do not open a sentence with it to mean 'most of all': <em>I particularly like jazz</em>, not <em>Particularly I like jazz</em>.</dd></dl>
+<p>Particularly has 3 distinct senses.</p>
+<p><strong>1. More than others; especially — pointing at one member of a group.</strong> (особенно, в частности)</p>
+<ol><li>The storm hit coastal towns, <em>particularly</em> in the South.</li><li>I love old movies, <em>particularly</em> westerns.</li><li>Traffic is bad, <em>particularly</em> on Friday afternoons.</li></ol>
+<p><strong>2. Very; to an unusual degree — and with <em>not</em>, 'not very'.</strong> (особенно, очень; не особо)</p>
+<ol start="4"><li>It was a <em>particularly</em> cold winter.</li><li>The food wasn't <em>particularly</em> good.</li><li>She seemed <em>particularly</em> happy that morning.</li></ol>
+<p><strong>3. Specifically; for a clear, deliberate reason.</strong> (особо, специально)</p>
+<ol start="7"><li>He <em>particularly</em> asked to see you.</li><li>I <em>particularly</em> wanted you to hear this.</li></ol>
+<hr>
+<h3 id="especially">especially<a class="hash" href="#especially" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈspɛʃəli/ &middot; <em>ih-SPESH-uh-lee</em></dd><dt>Русский</dt><dd>особенно</dd><dt>Type</dt><dd>focusing; also degree</dd><dt>Position</dt><dd>before its word — before the noun, phrase, clause or adjective it points at; or mid, before the main verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>nouns and noun phrases, prepositional phrases, clauses, adjectives, verbs</dd><dt>Form</dt><dd>-ly from the rare adjective <em>especial</em>, related to <em>special</em></dd><dt>Contrast</dt><dd>Do not open a sentence with <em>especially</em> the way Russian opens with <em>особенно</em>: <em>I especially like apples</em> or <em>I like fruit, especially apples</em>, not <em>Especially I like apples</em>. <em>Especially</em> and <em>specially</em> share the 'for a purpose' sense (<em>made especially for you</em>), but only <em>especially</em> means 'above all': <em>I love fruit, especially apples</em>, not <em>specially apples</em>.</dd></dl>
+<p>Especially has 3 distinct senses.</p>
+<p><strong>1. Above all; more than others.</strong> (особенно)</p>
+<ol><li>Kids, <em>especially</em> toddlers, need a lot of sleep.</li><li>I <em>especially</em> liked the ending.</li><li>Drive carefully, <em>especially</em> when it's raining.</li></ol>
+<p><strong>2. Very; to a great degree — and with <em>not</em>, 'not very'.</strong> (особенно, очень; не особо)</p>
+<ol start="4"><li>This has been an <em>especially</em> hard year.</li><li>I'm not <em>especially</em> interested in politics.</li><li>The soup was <em>especially</em> good today.</li></ol>
+<p><strong>3. For one particular purpose or person; specially.</strong> (специально)</p>
+<ol start="7"><li>I baked this cake <em>especially</em> for you.</li><li>The app was designed <em>especially</em> for older users.</li></ol>
+<hr>
+<h3 id="mainly">mainly<a class="hash" href="#mainly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪnli/ &middot; <em>MAYN-lee</em></dd><dt>Русский</dt><dd>главным образом, в основном</dd><dt>Type</dt><dd>focusing — picks out the largest part or the chief reason</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; or before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, nouns and noun phrases, prepositional phrases, clauses</dd><dt>Form</dt><dd>-ly from <em>main</em></dd><dt>Contrast</dt><dd><em>Mainly</em> does not usually go at the end: <em>They mainly eat fish</em> or <em>They eat mainly fish</em>, not <em>They eat fish mainly</em>. <em>Mainly</em> and <em>mostly</em> are close, but only <em>mostly</em> means 'most of the time': <em>I mostly work from home</em> is more natural than <em>mainly</em> for habits. Russian <em>в основном</em> as 'on the whole' (<em>В основном всё хорошо</em>) is <em>Overall, everything is fine</em> or <em>Things are mostly fine</em>.</dd></dl>
+<p>More than anything else; for the most part.</p>
+<ol><li>The audience was <em>mainly</em> college students.</li><li>We moved here <em>mainly</em> because of the schools.</li><li>Their customers are <em>mainly</em> in the Midwest.</li></ol>
+<hr>
+<h3 id="chiefly">chiefly<a class="hash" href="#chiefly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃiːfli/ &middot; <em>CHEEF-lee</em></dd><dt>Русский</dt><dd>главным образом, преимущественно</dd><dt>Type</dt><dd>focusing — picks out the largest part or the chief reason</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; or before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, nouns and noun phrases, prepositional phrases, clauses</dd><dt>Form</dt><dd>-ly from the adjective <em>chief</em></dd><dt>Contrast</dt><dd><em>Chiefly</em> means 'mainly', not 'as a chief' or 'like a boss'. It is formal and written; in conversation Americans say <em>mainly</em> or <em>mostly</em>.</dd></dl>
+<p>Mainly; more than anything else.</p>
+<ol><li>The disease <em>chiefly</em> affects older adults.</li><li>The town is known <em>chiefly</em> for its wine.</li><li>His novels were written <em>chiefly</em> for young readers.</li></ol>
+<hr>
+<h3 id="primarily">primarily<a class="hash" href="#primarily" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/praɪˈmɛrəli/ &middot; <em>pry-MAIR-uh-lee</em></dd><dt>Русский</dt><dd>главным образом, в первую очередь</dd><dt>Type</dt><dd>focusing — picks out the main part, purpose or reason</dd><dt>Position</dt><dd>before its word — or mid, before the main verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>prepositional phrases, clauses, verbs, adjectives, nouns</dd><dt>Form</dt><dd>-ly from <em>primary</em></dd><dt>Contrast</dt><dd><em>Primarily</em> is 'mainly', not 'first in time' as Russian <em>первично</em> or <em>изначально</em> suggests: <em>The house was originally a school</em>, not <em>primarily a school</em> (which means 'mainly a school'). US/UK split: American stress is usually on the second syllable, <em>pry-MAIR-uh-lee</em>; British is <em>PRY-muh-ruh-lee</em>.</dd></dl>
+<p>Mainly; more than anything else.</p>
+<ol><li>The app is designed <em>primarily</em> for teachers.</li><li>We are <em>primarily</em> a family business.</li><li>The problem is <em>primarily</em> a financial one.</li></ol>
+<hr>
+<h3 id="also">also<a class="hash" href="#also" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːlsoʊ/ &middot; <em>AWL-soh</em></dd><dt>Русский</dt><dd>также, тоже; кроме того</dd><dt>Type</dt><dd>focusing — additive; also linking</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; front as a linker</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, whole clauses, nouns and phrases</dd><dt>Contrast</dt><dd><em>Too</em> and <em>also</em> at the end of a negative become <em>either</em>: <em>I don't like it either</em> ('тоже не'), not <em>I don't like it too</em> or <em>I don't like it also</em>. Mid <em>also</em> before a negative is fine when it adds a new point: <em>The room was small, and it also didn't have a window</em>. Russian speakers put <em>also</em> at the end (<em>I like it also</em>); American English puts it mid (<em>I also like it</em>) and uses <em>too</em> at the end. In short replies say <em>Me too</em>, not <em>Me also</em>. <em>Not only … but also</em> splits around the two things joined: <em>She not only sings but also dances</em>.</dd></dl>
+<p>Also has 2 distinct senses.</p>
+<p><strong>1. In addition; too.</strong> (также, тоже)</p>
+<ol><li>She speaks Spanish, and she <em>also</em> speaks French.</li><li>The hotel is <em>also</em> close to the beach.</li><li>He's not only smart but <em>also</em> very kind.</li></ol>
+<p><strong>2. Besides; and another thing — at the start of a sentence, adding a new point.</strong> (кроме того, и ещё)</p>
+<ol start="4"><li>The rent is too high. <em>Also</em>, it's far from work.</li><li><em>Also</em>, don't forget to lock the back door.</li></ol>
+<hr>
+<h3 id="either">either<a class="hash" href="#either" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːðər/ &middot; <em>EE-thur</em></dd><dt>Русский</dt><dd>тоже (не), также (не)</dd><dt>Type</dt><dd>focusing — additive, in negative clauses</dd><dt>Position</dt><dd>end — at the end of the negative clause</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole negative clause</dd><dt>Contrast</dt><dd><em>Either</em> is the negative partner of <em>too</em>: <em>I like it too</em> but <em>I don't like it either</em>, not <em>I don't like it too</em>. In replies, <em>Me neither</em> is standard; <em>Me either</em> is very common in American speech but still marked as informal. The determiner and pronoun (<em>either side</em>, <em>either of them</em> — любой из двух) and the conjunction <em>either … or</em> (или … или) are different words. The pronunciation <em>EYE-thur</em> is also heard in the US.</dd></dl>
+<p>Either has 2 distinct senses.</p>
+<p><strong>1. Also; too — used after a negative statement.</strong> (тоже (не))</p>
+<ol><li>I don't eat meat, and my husband doesn't <em>either</em>.</li><li>If you're not going, I won't go <em>either</em>.</li><li>"I've never been to Texas." "I haven't <em>either</em>."</li></ol>
+<p><strong>2. Moreover; for that matter — adding a negative point that makes what was said stronger.</strong> (к тому же (и не), и притом (не))</p>
+<ol start="4"><li>There's a great taco place nearby, and it's not expensive <em>either</em>.</li><li>It's a great little car, and it doesn't use much gas <em>either</em>.</li></ol>
+<hr>
+<h3 id="neither">neither<a class="hash" href="#neither" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈniːðər/ &middot; <em>NEE-thur</em></dd><dt>Русский</dt><dd>тоже не, также не</dd><dt>Type</dt><dd>focusing — additive, in negative clauses; also negative</dd><dt>Position</dt><dd>front — opens the clause, and the auxiliary comes before the subject; alone after a pronoun in <em>Me neither</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause, answering or adding to a negative one</dd><dt>Contrast</dt><dd><em>Neither</em> brings inversion: <em>Neither do I</em>, <em>Neither can she</em>, not <em>Neither I do</em>. It already carries the negative, so no <em>not</em>: <em>Neither did he</em>, not <em>Neither didn't he</em>. <em>Neither do I</em> = <em>I don't either</em>; after a positive statement use <em>So do I</em>. The determiner and pronoun (<em>neither answer</em>, <em>neither of them</em> — ни один из двух) and the conjunction <em>neither … nor</em> (ни … ни) are different words. The pronunciation <em>NY-thur</em> is also heard in the US.</dd></dl>
+<p>Also not — used after a negative statement to say the same is true of another person or thing.</p>
+<ol><li>"I can't swim." "<em>Neither</em> can I."</li><li>She didn't call, and <em>neither</em> did her brother.</li><li>"I don't like horror movies." "Me <em>neither</em>."</li></ol>
+<hr>
+<h3 id="notably">notably<a class="hash" href="#notably" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnoʊtəbli/ &middot; <em>NOH-tuh-blee</em></dd><dt>Русский</dt><dd>в частности, особенно; примечательно</dd><dt>Type</dt><dd>focusing; also degree and stance</dd><dt>Position</dt><dd>before its word — before the example it introduces or the adjective it strengthens; front as a comment on the whole sentence</dd><dt>Comparison</dt><dd>more/most — mostly in <em>most notably</em>, 'above all'</dd><dt>Modifies</dt><dd>nouns and noun phrases, adjectives, whole sentences</dd><dt>Form</dt><dd>-ly from <em>notable</em></dd><dt>Contrast</dt><dd><em>Notably</em> is 'remarkably, in a way worth noting', not 'visibly': something you can see is <em>noticeably</em> — <em>She's noticeably thinner</em>, not <em>notably thinner</em>. Introducing an example, it is close to <em>especially</em> and <em>in particular</em>, and the most common form is <em>most notably</em>.</dd></dl>
+<p>Notably has 3 distinct senses.</p>
+<p><strong>1. Especially; in particular — introducing an important example.</strong> (в частности, особенно)</p>
+<ol><li>Several cities, <em>notably</em> Denver and Austin, have grown fast.</li><li>The band had many hits, <em>most notably</em> "Hotel California."</li><li>Some groups, <em>notably</em> farmers, opposed the plan.</li></ol>
+<p><strong>2. In a way that is remarkable or easy to notice.</strong> (на редкость, примечательно)</p>
+<ol start="4"><li>It was a <em>notably</em> successful year for the company.</li><li>The senator was <em>notably</em> absent from the meeting.</li></ol>
+<p><strong>3. It is worth pointing out that — commenting on the whole sentence.</strong> (примечательно, что)</p>
+<ol start="6"><li><em>Notably</em>, no one on the board objected.</li><li><em>Notably</em>, the report says nothing about costs.</li></ol>
+<hr>
+<h3 id="specifically">specifically<a class="hash" href="#specifically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spəˈsɪfɪkli/ &middot; <em>spuh-SIF-ik-lee</em></dd><dt>Русский</dt><dd>конкретно, именно, специально</dd><dt>Type</dt><dd>focusing; also manner and linking</dd><dt>Position</dt><dd>before its word — or mid, before the main verb; front as <em>more specifically</em> or <em>specifically</em>, 'to be exact'</dd><dt>Comparison</dt><dd>more/most — mainly in <em>more specifically</em>, 'to be more exact'</dd><dt>Modifies</dt><dd>verbs, prepositional phrases, nouns and noun phrases, whole sentences</dd><dt>Form</dt><dd>-ly from <em>specific</em>: -ic adds -ally, pronounced /ɪkli/</dd><dt>Contrast</dt><dd>False friend: Russian <em>специфически</em> / <em>специфично</em> means 'peculiarly, in a distinctive way', which English <em>specifically</em> never means — <em>It tastes unusual</em> or <em>It has a distinctive taste</em>, not <em>It tastes specifically</em>. <em>Specifically</em> is about exactness and a clear purpose.</dd></dl>
+<p>Specifically has 3 distinct senses.</p>
+<p><strong>1. For one particular purpose, person or group and no other.</strong> (специально)</p>
+<ol><li>The program was created <em>specifically</em> for veterans.</li><li>These shoes are made <em>specifically</em> for running.</li><li>The law <em>specifically</em> targets online lenders.</li></ol>
+<p><strong>2. Clearly and directly; in a way that leaves no doubt.</strong> (прямо, чётко, ясно)</p>
+<ol start="4"><li>I <em>specifically</em> told you not to touch my laptop.</li><li>The contract <em>specifically</em> says no pets.</li></ol>
+<p><strong>3. To be exact; namely — narrowing down what was just said.</strong> (а именно, конкретно, точнее)</p>
+<ol start="6"><li>We need help with marketing — <em>specifically</em>, social media.</li><li>The problem is the software, or, <em>more specifically</em>, the billing module.</li><li>What <em>specifically</em> don't you like about it?</li></ol>
+<hr>
+<h3 id="exactly">exactly<a class="hash" href="#exactly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzæktli/ &middot; <em>ig-ZAKT-lee</em></dd><dt>Русский</dt><dd>точно, ровно, именно</dd><dt>Type</dt><dd>focusing; also degree and manner</dd><dt>Position</dt><dd>before its word — before the word, number or phrase it makes precise; end in the manner sense; alone as a reply</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>nouns and noun phrases, numbers and times, wh-words and clauses, adjectives, verbs</dd><dt>Form</dt><dd>-ly from <em>exact</em></dd><dt>Contrast</dt><dd><em>Exactly!</em> agrees with what someone just said (вот именно). Russian <em>Точно!</em> also means 'Oh right, I forgot' — that is <em>Oh, right!</em> or <em>That's right!</em>, not <em>Exactly!</em>. Russian <em>точно</em> as 'definitely' (<em>Он точно придёт</em>) is <em>He'll definitely come</em>, not <em>He'll exactly come</em>. <em>Not exactly</em> is often a polite or ironic 'not at all'.</dd></dl>
+<p>Exactly has 6 distinct senses.</p>
+<p><strong>1. Just; in every way — stressing that something is the very thing meant.</strong> (именно, точно, в точности)</p>
+<ol><li>That's <em>exactly</em> what I was going to say.</li><li>The twins look <em>exactly</em> alike.</li><li>The house is <em>exactly</em> the way we left it.</li></ol>
+<p><strong>2. No more and no less — with numbers, amounts and times.</strong> (ровно, точно)</p>
+<ol start="4"><li>The bill came to <em>exactly</em> $50.</li><li>The meeting starts at <em>exactly</em> nine.</li><li>It's been <em>exactly</em> a year since we met.</li></ol>
+<p><strong>3. Accurately and carefully, with no mistakes.</strong> (точно, в точности)</p>
+<ol start="7"><li>Follow the instructions <em>exactly</em>.</li><li>Copy the code <em>exactly</em> as it appears on the screen.</li></ol>
+<p><strong>4. In questions, asking for the precise detail, often with some impatience.</strong> (конкретно, всё-таки, именно)</p>
+<ol start="9"><li>What <em>exactly</em> do you want from me?</li><li>Where <em>exactly</em> did you park the car?</li></ol>
+<p><strong>5. Not really; not at all — in <em>not exactly</em>, used to soften a negative or to be ironic.</strong> (не то чтобы, не совсем)</p>
+<ol start="11"><li>He's not <em>exactly</em> a genius.</li><li>"Were you surprised?" "Not <em>exactly</em>."</li><li>Five hours in traffic isn't <em>exactly</em> my idea of fun.</li></ol>
+<p><strong>6. Yes, that's right — used alone as a reply to show strong agreement.</strong> (вот именно, точно)</p>
+<ol start="14"><li>"So the real problem is the price?" "<em>Exactly</em>."</li><li>"We should have left earlier." "<em>Exactly</em>!"</li></ol>
+<hr>
+<h3 id="precisely">precisely<a class="hash" href="#precisely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈsaɪsli/ &middot; <em>prih-SYS-lee</em></dd><dt>Русский</dt><dd>точно, именно, ровно</dd><dt>Type</dt><dd>focusing; also degree and manner</dd><dt>Position</dt><dd>before its word — before the word, number or phrase it makes precise; end in the manner sense; alone as a reply</dd><dt>Comparison</dt><dd>more/most — in the manner sense and in <em>more precisely</em>, 'to be more exact'</dd><dt>Modifies</dt><dd>nouns and noun phrases, numbers and times, clauses, verbs</dd><dt>Form</dt><dd>-ly from <em>precise</em>: keeps the <em>e</em></dd><dt>Contrast</dt><dd><em>Precisely</em> is a more formal <em>exactly</em>. <em>Or, more precisely,</em> corrects what was just said — точнее, and <em>precisely because</em> stresses that the reason is surprising: <em>I trust him precisely because he disagrees with me</em>. Russian <em>точно</em> meaning 'definitely' is not <em>precisely</em>: <em>I'll definitely be there</em>.</dd></dl>
+<p>Precisely has 5 distinct senses.</p>
+<p><strong>1. Exactly; just — stressing that something is the very thing or reason meant.</strong> (именно, как раз)</p>
+<ol><li>That's <em>precisely</em> the point I was trying to make.</li><li>People came <em>precisely</em> because the event was free.</li><li>That's <em>precisely</em> why I called you.</li></ol>
+<p><strong>2. No more and no less — with numbers, amounts and times.</strong> (ровно, точно)</p>
+<ol start="4"><li>The train left at <em>precisely</em> 7:15.</li><li>The box measures <em>precisely</em> two feet across.</li></ol>
+<p><strong>3. Accurately and with great care over detail.</strong> (точно, аккуратно)</p>
+<ol start="6"><li>The parts must be cut <em>precisely</em>.</li><li>She describes the city <em>more precisely</em> than any other writer.</li></ol>
+<p><strong>4. To be exact — in <em>more precisely</em>, correcting or narrowing down what was just said.</strong> (точнее, а точнее)</p>
+<ol start="8"><li>The store opened in early 2020 — or, <em>more precisely</em>, in January.</li><li>The problem is the car — <em>more precisely</em>, the brakes.</li></ol>
+<p><strong>5. Yes, that's right — used alone as a reply to show agreement.</strong> (вот именно, совершенно верно)</p>
+<ol start="10"><li>"So you want us to wait?" "<em>Precisely</em>."</li><li>"It's cheaper in the long run." "<em>Precisely</em>."</li></ol>
+<hr>
+<h3 id="likewise">likewise<a class="hash" href="#likewise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪkwaɪz/ &middot; <em>LYK-wyz</em></dd><dt>Русский</dt><dd>так же, тоже, аналогично; взаимно</dd><dt>Type</dt><dd>focusing — additive; also linking</dd><dt>Position</dt><dd>end — in <em>do likewise</em>; front as a linker; alone as a reply</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs (<em>do likewise</em>), whole clauses</dd><dt>Form</dt><dd>compound of <em>like</em> + <em>-wise</em> 'way', written as one word</dd><dt>Contrast</dt><dd><em>Do likewise</em> means 'do the same thing', not 'do it like someone'. As a reply, <em>Likewise</em> returns a polite wish or feeling (<em>Nice to meet you. — Likewise.</em>), close to Russian <em>взаимно</em>; for a simple fact say <em>Me too</em>: <em>I'm hungry. — Me too</em>, not <em>Likewise</em>.</dd></dl>
+<p>Likewise has 3 distinct senses.</p>
+<p><strong>1. In the same way; the same thing.</strong> (так же, то же самое)</p>
+<ol><li>Watch what I do, and then do <em>likewise</em>.</li><li>She stood up to leave, and the others did <em>likewise</em>.</li><li>He treats everyone with respect and expects to be treated <em>likewise</em>.</li></ol>
+<p><strong>2. Also; similarly — linking a new point to the one before.</strong> (аналогично, также)</p>
+<ol start="4"><li>Parents should read to their kids every day. Teachers, <em>likewise</em>, should make time to read aloud.</li><li>Prices rose in March. <em>Likewise</em>, wages went up slightly.</li></ol>
+<p><strong>3. The same to you — used alone as a reply to a polite remark.</strong> (взаимно, мне тоже)</p>
+<ol start="6"><li>"It was great to meet you." "<em>Likewise</em>."</li><li>"Have a good weekend!" "<em>Likewise</em>!"</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

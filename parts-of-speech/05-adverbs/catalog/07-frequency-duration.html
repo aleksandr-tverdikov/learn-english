@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adverbs of frequency and duration</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="adverbs-of-frequency-and-duration">Adverbs of frequency and duration<a class="hash" href="#adverbs-of-frequency-and-duration" aria-label="link">#</a></h1>
+<blockquote><p>How often and how long? — <em>always</em>, <em>usually</em>, <em>sometimes</em>, <em>never</em>, <em>daily</em>, <em>twice</em>, <em>forever</em>, <em>briefly</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Indefinite frequency adverbs sit on a scale from <em>always</em> to <em>never</em> and take mid-position: after <em>be</em>, before the main verb, after the first auxiliary. Definite frequency adverbs (<em>daily</em>, <em>weekly</em>, <em>twice</em>) go at the end instead. Duration adverbs answer <em>how long?</em>. Getting the position right matters more here than anywhere else in the dictionary, because <em>I go always</em> is the error every teacher hears.</p>
+<hr>
+<h3 id="always">always<a class="hash" href="#always" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːlweɪz/ &middot; <em>AWL-wayz</em></dd><dt>Русский</dt><dd>всегда</dd><dt>Type</dt><dd>frequency — the top of the scale; also duration (<em>I'll always remember</em>)</dd><dt>Position</dt><dd>mid — after <em>be</em> and the first auxiliary, before the main verb; front only in commands (<em>Always lock the door</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Form</dt><dd>old compound of <em>all</em> + <em>way</em> with adverbial <em>-s</em></dd><dt>Contrast</dt><dd>Position: <em>I always walk to work</em>, not <em>I walk always to work</em>; after <em>be</em> it follows the verb: <em>She is always late</em>. <em>Not always</em> is 'не всегда' (<em>He's not always right</em>); <em>always not</em> is wrong — say <em>never</em>. With a continuous tense it turns into a complaint: <em>He's always complaining</em> (вечно жалуется), not a neutral habit. 'Всегда' reaching up to now takes the present perfect: <em>I've always lived here</em>, not <em>I always live here since childhood</em>.</dd></dl>
+<p>Always has 4 distinct senses.</p>
+<p><strong>1. At all times; on every occasion.</strong> (всегда)</p>
+<ol><li>She <em>always</em> takes the bus to work.</li><li>The store is <em>always</em> busy on Saturdays.</li><li>Do you <em>always</em> eat lunch at your desk?</li></ol>
+<p><strong>2. For all time, as far back as one remembers or into the future.</strong> (всегда, вечно)</p>
+<ol start="4"><li>I'll <em>always</em> remember that trip.</li><li>I've <em>always</em> wanted to see the Grand Canyon.</li><li>No matter what happens, we'll <em>always</em> be friends.</li></ol>
+<p><strong>3. Again and again, in an annoying way — with a continuous tense.</strong> (вечно, постоянно)</p>
+<ol start="7"><li>He's <em>always</em> borrowing money and never paying it back.</li><li>Why are you <em>always</em> interrupting me?</li></ol>
+<p><strong>4. As a possible choice if nothing else works — usually with <em>can</em> or <em>could</em>.</strong> (всегда можно, в крайнем случае)</p>
+<ol start="9"><li>If you miss the bus, you can <em>always</em> call a cab.</li><li>We can <em>always</em> try again tomorrow.</li><li>Too expensive? Well, you could <em>always</em> rent one.</li></ol>
+<hr>
+<h3 id="usually">usually<a class="hash" href="#usually" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːʒuəli/ &middot; <em>YOO-zhoo-uh-lee</em></dd><dt>Русский</dt><dd>обычно</dd><dt>Type</dt><dd>frequency — high on the scale, just below <em>always</em></dd><dt>Position</dt><dd>mid — after <em>be</em> and the first auxiliary, before the main verb; also front or end for emphasis</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Form</dt><dd>-ly from <em>usual</em></dd><dt>Contrast</dt><dd>A habit that has stopped is <em>used to</em>, not <em>usually</em> + past: <em>I used to walk to school</em> (раньше ходил), while <em>I usually walked</em> only describes the typical case back then. 'Как обычно' is <em>as usual</em>, never <em>as usually</em>. Do not mix it up with <em>be used to</em> (привыкнуть): <em>I'm used to the noise</em>.</dd></dl>
+<p>In most cases; as a rule.</p>
+<ol><li>I <em>usually</em> get up at seven.</li><li>Traffic is <em>usually</em> light on Sundays.</li><li><em>Usually</em>, the meeting ends by noon.</li></ol>
+<hr>
+<h3 id="normally">normally<a class="hash" href="#normally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɔːrməli/ &middot; <em>NOR-muh-lee</em></dd><dt>Русский</dt><dd>обычно; нормально</dd><dt>Type</dt><dd>frequency; also manner</dd><dt>Position</dt><dd>mid — also front in the sense 'usually'; end in the sense 'in a normal way'</dd><dt>Comparison</dt><dd>not gradable — in the sense 'usually'; <em>more normally</em> is possible in the sense 'in a normal way'</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Form</dt><dd>-ly from <em>normal</em></dd><dt>Contrast</dt><dd>Russian <em>нормально</em> meaning 'fine, OK' is not <em>normally</em>: <em>How are you? — Fine</em> (or <em>OK</em>), not <em>Normally</em>; <em>Everything's fine</em>, not <em>Everything is normally</em>. In American English <em>normally</em> means 'обычно' far more often than 'нормально'.</dd></dl>
+<p>Normally has 2 distinct senses.</p>
+<p><strong>1. Usually; under ordinary conditions.</strong> (обычно)</p>
+<ol><li>I <em>normally</em> walk to work, but it's raining today.</li><li>The drive <em>normally</em> takes about an hour.</li><li><em>Normally</em>, we'd be closed by now.</li></ol>
+<p><strong>2. In a normal way; as expected, with nothing wrong.</strong> (нормально, как положено)</p>
+<ol start="4"><li>The patient is breathing <em>normally</em> again.</li><li>Just act <em>normally</em> and nobody will notice.</li><li>Is the engine running <em>normally</em> now?</li></ol>
+<hr>
+<h3 id="generally">generally<a class="hash" href="#generally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛnərəli/ &middot; <em>JEN-ur-uh-lee</em></dd><dt>Русский</dt><dd>обычно; в целом</dd><dt>Type</dt><dd>frequency; also viewpoint (<em>generally speaking</em>)</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em>; also front, especially in <em>generally speaking</em></dd><dt>Comparison</dt><dd>not gradable — <em>more generally</em> means 'in broader terms'</dd><dt>Modifies</dt><dd>verbs, adjectives, participles and whole clauses</dd><dt>Form</dt><dd>-ly from <em>general</em></dd><dt>Contrast</dt><dd><em>Generally</em> is 'обычно' or 'в целом', not the emphatic 'вообще' of negatives and questions: <em>Я вообще не пью</em> is <em>I don't drink at all</em>; <em>А ты вообще кто?</em> is <em>Who are you, anyway?</em> The set phrase <em>generally speaking</em> is 'вообще говоря'.</dd></dl>
+<p>Generally has 3 distinct senses.</p>
+<p><strong>1. Usually; in most cases.</strong> (обычно, как правило)</p>
+<ol><li>I <em>generally</em> skip breakfast.</li><li>Flights are <em>generally</em> cheaper on Tuesdays.</li><li>The weather here is <em>generally</em> mild in the fall.</li></ol>
+<p><strong>2. By most people; widely.</strong> (повсеместно, широко, всеми)</p>
+<ol start="4"><li>It is <em>generally</em> accepted that smoking causes cancer.</li><li>The new mayor is <em>generally</em> well liked.</li><li>The drug is not yet <em>generally</em> available.</li></ol>
+<p><strong>3. In broad terms, without going into details.</strong> (в целом, в общем)</p>
+<ol start="7"><li><em>Generally</em> speaking, the reviews were positive.</li><li>She talked about the economy <em>generally</em>, not about any one company.</li></ol>
+<hr>
+<h3 id="frequently">frequently<a class="hash" href="#frequently" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfriːkwəntli/ &middot; <em>FREE-kwuhnt-lee</em></dd><dt>Русский</dt><dd>часто</dd><dt>Type</dt><dd>frequency — high on the scale</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>more/most — <em>more frequently</em>, <em>most frequently</em></dd><dt>Modifies</dt><dd>verbs and participles (<em>frequently asked</em>)</dd><dt>Form</dt><dd>-ly from <em>frequent</em></dd><dt>Contrast</dt><dd><em>Frequently</em> is more formal than <em>often</em>; the everyday question is <em>How often…?</em>, not <em>How frequently…?</em> It sits comfortably at the end: <em>It happens frequently</em>.</dd></dl>
+<p>Often; many times.</p>
+<ol><li>He travels <em>frequently</em> for work.</li><li>Check the list of <em>frequently</em> asked questions first.</li><li>Buses run <em>more frequently</em> during rush hour.</li></ol>
+<hr>
+<h3 id="often">often<a class="hash" href="#often" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːfən/ &middot; <em>AW-fuhn</em></dd><dt>Русский</dt><dd>часто</dd><dt>Type</dt><dd>frequency — high on the scale</dd><dt>Position</dt><dd>mid — after <em>be</em> and the first auxiliary, before the main verb; also end, especially with <em>very</em>, <em>quite</em> or <em>too</em></dd><dt>Comparison</dt><dd>more/most — <em>more often</em>, <em>most often</em>; <em>oftener</em> is rare</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Contrast</dt><dd>Position: <em>I often go there</em>, not <em>I go often there</em>; at the end it is most natural with a partner: <em>We don't eat out very often</em>. The t is normally silent (AW-fuhn), though AWF-tuhn is also heard. <em>Every so often</em> means 'время от времени' (not often), and <em>more often than not</em> means 'обычно'.</dd></dl>
+<p>Many times; in many cases.</p>
+<ol><li>We <em>often</em> eat dinner on the porch in the summer.</li><li>How <em>often</em> do you go to the gym?</li><li>I wish we could visit <em>more often</em>.</li></ol>
+<hr>
+<h3 id="sometimes">sometimes<a class="hash" href="#sometimes" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmtaɪmz/ &middot; <em>SUHM-tymz</em></dd><dt>Русский</dt><dd>иногда</dd><dt>Type</dt><dd>frequency — the middle of the scale</dd><dt>Position</dt><dd>any position — front, mid and end are all natural</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Form</dt><dd><em>sometime</em> + adverbial <em>-s</em></dd><dt>Contrast</dt><dd>Three different words: <em>sometimes</em> (иногда — <em>I sometimes work late</em>), <em>sometime</em> (когда-нибудь, в какой-то момент — <em>Let's have lunch sometime</em>) and <em>some time</em> (некоторое время — <em>It took some time</em>).</dd></dl>
+<p>On some occasions, but not always.</p>
+<ol><li><em>Sometimes</em> I just need a quiet day at home.</li><li>My sister <em>sometimes</em> works from home.</li><li>The subway gets really crowded <em>sometimes</em>.</li></ol>
+<hr>
+<h3 id="occasionally">occasionally<a class="hash" href="#occasionally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkeɪʒənəli/ &middot; <em>uh-KAY-zhuh-nuh-lee</em></dd><dt>Русский</dt><dd>иногда, время от времени</dd><dt>Type</dt><dd>frequency — below <em>sometimes</em> on the scale</dd><dt>Position</dt><dd>mid or end — also front</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Form</dt><dd>-ly from <em>occasional</em></dd><dt>Contrast</dt><dd>It means 'now and then', not 'by chance': 'случайно' is <em>by chance</em> or <em>accidentally</em>. Spelled with double c and single s. It suggests fewer times than <em>sometimes</em> — roughly <em>once in a while</em>.</dd></dl>
+<p>Now and then; not often.</p>
+<ol><li>We <em>occasionally</em> go out for Mexican food.</li><li>I run into him at the gym <em>occasionally</em>.</li><li>The trail is <em>occasionally</em> closed after heavy rain.</li></ol>
+<hr>
+<h3 id="seldom">seldom<a class="hash" href="#seldom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛldəm/ &middot; <em>SEL-duhm</em></dd><dt>Русский</dt><dd>редко</dd><dt>Type</dt><dd>frequency; also negative</dd><dt>Position</dt><dd>mid — after <em>be</em> and the first auxiliary; front only with inversion (<em>Seldom do we…</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Contrast</dt><dd>It is already negative, so no <em>not</em>: <em>I seldom go</em>, not <em>I don't seldom go</em>; the question tag is positive: <em>He seldom calls, does he?</em> Fronted for emphasis, it inverts: <em>Seldom have I seen such a mess</em>, not <em>Seldom I have seen</em>. In everyday American speech <em>rarely</em> or <em>not often</em> is more usual; <em>seldom</em> sounds formal or bookish.</dd></dl>
+<p>Not often; almost never.</p>
+<ol><li>We <em>seldom</em> see snow this far south.</li><li>He <em>seldom</em> talks about his time in the Army.</li><li><em>Seldom</em> have I heard such a moving speech.</li></ol>
+<hr>
+<h3 id="rarely">rarely<a class="hash" href="#rarely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛrli/ &middot; <em>RAIR-lee</em></dd><dt>Русский</dt><dd>редко</dd><dt>Type</dt><dd>frequency; also negative</dd><dt>Position</dt><dd>mid — after <em>be</em> and the first auxiliary; front only with inversion (<em>Rarely does it…</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more rarely</em>, <em>most rarely</em></dd><dt>Modifies</dt><dd>verbs, participles and whole clauses</dd><dt>Form</dt><dd>-ly from <em>rare</em></dd><dt>Contrast</dt><dd>Already negative, so no <em>not</em>: <em>I rarely eat meat</em>; the question tag is positive: <em>She rarely complains, does she?</em> Fronted, it inverts: <em>Rarely does it snow here</em>, not <em>Rarely it snows here</em>. <em>Rarely if ever</em> and <em>hardly ever</em> are standard; <em>rarely ever</em> is informal.</dd></dl>
+<p>Not often; hardly ever.</p>
+<ol><li>I <em>rarely</em> watch TV anymore.</li><li>She is <em>rarely</em> late for work.</li><li><em>Rarely</em> does a rookie play this well.</li></ol>
+<hr>
+<h3 id="never">never<a class="hash" href="#never" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɛvər/ &middot; <em>NEV-ur</em></dd><dt>Русский</dt><dd>никогда</dd><dt>Type</dt><dd>frequency — the bottom of the scale; also negative</dd><dt>Position</dt><dd>mid — after <em>be</em> and the first auxiliary; front only with inversion (<em>Never have I…</em>) or in commands (<em>Never give up</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Form</dt><dd>old <em>ne</em> 'not' + <em>ever</em> — negative in itself</dd><dt>Contrast</dt><dd>English allows one negative: <em>I never eat meat</em>, not <em>I don't never eat meat</em> (Russian <em>никогда не</em> doubles it). Fronted, it inverts: <em>Never have I felt so tired</em>. For experience use the present perfect: <em>I've never been to Chicago</em>. In questions use <em>ever</em>: <em>Have you ever…?</em>, not <em>Have you never…?</em> unless you are surprised. Informal <em>I never took it</em> is about one occasion and means 'I didn't take it'.</dd></dl>
+<p>Never has 2 distinct senses.</p>
+<p><strong>1. At no time; not once.</strong> (никогда)</p>
+<ol><li>I've <em>never</em> been to Alaska.</li><li>She <em>never</em> drinks coffee after lunch.</li><li><em>Never</em> have I felt so welcome.</li></ol>
+<p><strong>2. Not, said with emphasis — often about a single occasion.</strong> (так и не, вовсе не)</p>
+<ol start="4"><li>He <em>never</em> even said goodbye.</li><li>I <em>never</em> touched your phone, I swear.</li><li>The package <em>never</em> arrived.</li></ol>
+<hr>
+<h3 id="ever">ever<a class="hash" href="#ever" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛvər/ &middot; <em>EV-ur</em></dd><dt>Русский</dt><dd>когда-нибудь, когда-либо</dd><dt>Type</dt><dd>frequency; also time and degree</dd><dt>Position</dt><dd>mid — after the subject in questions (<em>Have you ever…?</em>) and after the negative word (<em>nobody ever</em>); after its word after a superlative (<em>the best ever</em>); before its word in <em>ever higher</em> and <em>ever so</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, superlatives, comparatives, <em>so</em> and whole clauses</dd><dt>Contrast</dt><dd>Not in a plain affirmative statement: 'я когда-то был в Париже' is <em>I've been to Paris</em> or <em>I was once in Paris</em>, never <em>I have ever been to Paris</em>. Use it in questions (<em>Have you ever…?</em>), negatives (<em>nobody ever</em>, <em>hardly ever</em>), conditions (<em>if you ever…</em>) and after superlatives (<em>the best ever</em>). 'Как никогда' after a comparative is <em>than ever</em>: <em>I need you more than ever</em>, not <em>like never</em>. <em>Ever so</em> (<em>ever so slightly</em>) is informal and more British, but common in American writing. <em>Ever since</em> is 'с тех пор'; <em>forever</em> is written as one word in American English.</dd></dl>
+<p>Ever has 6 distinct senses.</p>
+<p><strong>1. At any time — in questions, negatives and conditions.</strong> (когда-нибудь, когда-либо)</p>
+<ol><li>Have you <em>ever</em> tried sushi?</li><li>Nobody <em>ever</em> calls the landline.</li><li>If you're <em>ever</em> in Denver, look us up.</li></ol>
+<p><strong>2. Of all time — after a superlative, after <em>first</em> or <em>only</em>, and in <em>than ever</em>.</strong> (когда-либо, за всю историю; как никогда)</p>
+<ol start="4"><li>This is the best pizza I've <em>ever</em> had.</li><li>She was the first woman <em>ever</em> to run the company.</li><li>Gas prices are higher than <em>ever</em> this summer.</li></ol>
+<p><strong>3. Always; all the time — in fixed phrases such as <em>ever since</em>, <em>ever after</em> and <em>as ever</em>.</strong> (всегда, неизменно; с тех пор)</p>
+<ol start="7"><li>He's been sad <em>ever</em> since his dog died.</li><li>And they lived happily <em>ever</em> after.</li><li>She was, as <em>ever</em>, the last one to leave.</li></ol>
+<p><strong>4. More and more — before a comparative.</strong> (всё (больше, выше))</p>
+<ol start="10"><li>Prices keep climbing to <em>ever</em> higher levels.</li><li>The suburbs are spreading <em>ever</em> farther from the city.</li></ol>
+<p><strong>5. Used for emphasis — in informal American exclamations with inversion, and after <em>how</em> or <em>why</em> in questions.</strong> (ну и, ещё как; же)</p>
+<ol start="12"><li>Boy, was she <em>ever</em> mad!</li><li>Did we <em>ever</em> have fun at that concert!</li><li>How can I <em>ever</em> thank you?</li></ol>
+<p><strong>6. Very; in the smallest or gentlest way — in <em>ever so</em> before an adverb or adjective.</strong> (очень, совсем (чуть-чуть))</p>
+<ol start="15"><li>She opened the door <em>ever</em> so slightly.</li><li>He lifted the sleeping baby <em>ever</em> so gently.</li></ol>
+<hr>
+<h3 id="daily">daily<a class="hash" href="#daily" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪli/ &middot; <em>DAY-lee</em></dd><dt>Русский</dt><dd>ежедневно</dd><dt>Type</dt><dd>frequency — definite</dd><dt>Position</dt><dd>end — not mid (<em>The paper comes out daily</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ly from <em>day</em>; the same form as the adjective <em>daily</em></dd><dt>Contrast</dt><dd>The same spelling is an adjective (<em>a daily newspaper</em>) and a noun (<em>a daily</em> — ежедневная газета); only 'every day' after a verb is the adverb. Keep it at the end: <em>We exercise daily</em>, not <em>We daily exercise</em>. Also do not confuse the phrase <em>every day</em> (каждый день) with the adjective <em>everyday</em> (повседневный).</dd></dl>
+<p>Every day; once a day.</p>
+<ol><li>The museum is open <em>daily</em> from 9 to 5.</li><li>Take this pill twice <em>daily</em> with food.</li><li>The list of volunteers is growing <em>daily</em>.</li></ol>
+<hr>
+<h3 id="weekly">weekly<a class="hash" href="#weekly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːkli/ &middot; <em>WEEK-lee</em></dd><dt>Русский</dt><dd>еженедельно</dd><dt>Type</dt><dd>frequency — definite</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ly from <em>week</em>; the same form as the adjective <em>weekly</em></dd><dt>Contrast</dt><dd>Also an adjective (<em>a weekly meeting</em>) and a noun (<em>a weekly</em> — еженедельник). <em>Biweekly</em> is ambiguous — it can mean twice a week or every two weeks — so Americans often say <em>every other week</em> to be clear.</dd></dl>
+<p>Once a week; every week.</p>
+<ol><li>The team meets <em>weekly</em> to review progress.</li><li>The newsletter goes out <em>weekly</em>.</li><li>At this job we get paid <em>weekly</em>.</li></ol>
+<hr>
+<h3 id="monthly">monthly<a class="hash" href="#monthly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌnθli/ &middot; <em>MUHNTH-lee</em></dd><dt>Русский</dt><dd>ежемесячно</dd><dt>Type</dt><dd>frequency — definite</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ly from <em>month</em>; the same form as the adjective <em>monthly</em></dd><dt>Contrast</dt><dd>Also an adjective (<em>a monthly payment</em>) and a noun (<em>a monthly</em> — ежемесячный журнал). <em>Bimonthly</em> can mean twice a month or every two months; <em>every other month</em> avoids the doubt.</dd></dl>
+<p>Once a month; every month.</p>
+<ol><li>Rent is due <em>monthly</em>, on the first.</li><li>The book club meets <em>monthly</em> at the library.</li><li>Interest on the account is paid <em>monthly</em>.</li></ol>
+<hr>
+<h3 id="quarterly">quarterly<a class="hash" href="#quarterly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɔːrtərli/ &middot; <em>KWOR-tur-lee</em></dd><dt>Русский</dt><dd>ежеквартально</dd><dt>Type</dt><dd>frequency — definite</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ly from <em>quarter</em>; the same form as the adjective <em>quarterly</em></dd><dt>Contrast</dt><dd>It means every three months — a quarter of a year — not every quarter of an hour. Also an adjective (<em>quarterly earnings</em>) and a noun (<em>a quarterly</em> — ежеквартальный журнал).</dd></dl>
+<p>Once every three months.</p>
+<ol><li>The company reports its earnings <em>quarterly</em>.</li><li>Freelancers pay estimated taxes <em>quarterly</em>.</li><li>The board meets <em>quarterly</em>.</li></ol>
+<hr>
+<h3 id="annually">annually<a class="hash" href="#annually" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænjuəli/ &middot; <em>AN-yoo-uh-lee</em></dd><dt>Русский</dt><dd>ежегодно</dd><dt>Type</dt><dd>frequency — definite</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ly from <em>annual</em></dd><dt>Contrast</dt><dd>Formal and financial; everyday speech says <em>every year</em> or <em>once a year</em>. <em>Biannually</em> means twice a year, <em>biennially</em> every two years. Spelled with double n and double l.</dd></dl>
+<p>Once a year; every year.</p>
+<ol><li>The festival is held <em>annually</em> in June.</li><li>About two million people visit the park <em>annually</em>.</li><li>Salaries are reviewed <em>annually</em>.</li></ol>
+<hr>
+<h3 id="yearly">yearly<a class="hash" href="#yearly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɪrli/ &middot; <em>YEER-lee</em></dd><dt>Русский</dt><dd>ежегодно</dd><dt>Type</dt><dd>frequency — definite</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ly from <em>year</em>; the same form as the adjective <em>yearly</em></dd><dt>Contrast</dt><dd>The everyday counterpart of <em>annually</em>; also an adjective (<em>a yearly checkup</em>). The vowel is the one in <em>year</em> (YEER-lee), not the one in <em>early</em> (UR-lee).</dd></dl>
+<p>Once a year; every year.</p>
+<ol><li>We see the dentist twice <em>yearly</em>.</li><li>The membership fee is paid <em>yearly</em>.</li><li>The town holds the parade <em>yearly</em> on the Fourth of July.</li></ol>
+<hr>
+<h3 id="hourly">hourly<a class="hash" href="#hourly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊərli/ &middot; <em>OW-ur-lee</em></dd><dt>Русский</dt><dd>ежечасно; почасово</dd><dt>Type</dt><dd>frequency — definite</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ly from <em>hour</em>; the same form as the adjective <em>hourly</em></dd><dt>Contrast</dt><dd>The h is silent, so the adjective takes <em>an</em>: <em>an hourly bus</em>, <em>an hourly wage</em>. American <em>hourly</em> workers are paid by the hour, as opposed to <em>salaried</em> ones.</dd></dl>
+<p>Hourly has 2 distinct senses.</p>
+<p><strong>1. Once an hour; every hour.</strong> (ежечасно, каждый час)</p>
+<ol><li>Trains leave for the city <em>hourly</em>.</li><li>The nurse checks his temperature <em>hourly</em>.</li></ol>
+<p><strong>2. By the hour; for each hour worked.</strong> (почасово)</p>
+<ol start="3"><li>Most of the store staff are paid <em>hourly</em>.</li><li>Lawyers usually bill <em>hourly</em>.</li></ol>
+<hr>
+<h3 id="nightly">nightly<a class="hash" href="#nightly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪtli/ &middot; <em>NYT-lee</em></dd><dt>Русский</dt><dd>каждый вечер, каждую ночь</dd><dt>Type</dt><dd>frequency — definite</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ly from <em>night</em>; the same form as the adjective <em>nightly</em></dd><dt>Contrast</dt><dd>It usually means every evening — shows and TV news run <em>nightly</em> — and never simply 'ночью': for that say <em>at night</em> (<em>Owls hunt at night</em>). Also an adjective (<em>the nightly news</em>).</dd></dl>
+<p>Every night or every evening.</p>
+<ol><li>The show runs <em>nightly</em> at eight.</li><li>The kitchen is open <em>nightly</em> until eleven.</li><li>She checks the locks <em>nightly</em> before bed.</li></ol>
+<hr>
+<h3 id="twice">twice<a class="hash" href="#twice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/twaɪs/ &middot; <em>TWYS</em></dd><dt>Русский</dt><dd>дважды, два раза</dd><dt>Type</dt><dd>frequency — definite; also degree (<em>twice as big</em>)</dd><dt>Position</dt><dd>end — before its word in <em>twice as … as</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; <em>as</em> + adjective or adverb</dd><dt>Form</dt><dd><em>two</em> + old adverbial <em>-ce</em>, like <em>once</em>; the series goes <em>once</em>, <em>twice</em>, then <em>three times</em></dd><dt>Contrast</dt><dd>'В два раза больше' is <em>twice as big (as)</em> or <em>twice the size (of)</em>; <em>two times bigger</em> is heard but criticized. Frequency takes no preposition: <em>twice a week</em>, not <em>twice in a week</em> (unless you mean 'within one week'). <em>Thrice</em> is archaic — say <em>three times</em>.</dd></dl>
+<p>Twice has 2 distinct senses.</p>
+<p><strong>1. Two times; on two occasions.</strong> (дважды, два раза)</p>
+<ol><li>I've been to Chicago <em>twice</em>.</li><li>Brush your teeth <em>twice</em> a day.</li><li>The phone rang <em>twice</em> and then stopped.</li></ol>
+<p><strong>2. Two times as much — in comparisons.</strong> (вдвое, в два раза)</p>
+<ol start="4"><li>Their house is <em>twice</em> as big as ours.</li><li>The repairs took <em>twice</em> as long as we planned.</li></ol>
+<hr>
+<h3 id="again">again<a class="hash" href="#again" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈɡɛn/ &middot; <em>uh-GEN</em></dd><dt>Русский</dt><dd>снова, опять, ещё раз</dd><dt>Type</dt><dd>frequency; also linking</dd><dt>Position</dt><dd>end — mid in formal writing; front in <em>Again, …</em> and <em>Then again, …</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Contrast</dt><dd>English <em>again</em> is neutral; Russian <em>опять</em> can sound annoyed, and English shows that with <em>yet again</em> or <em>Not again!</em> <em>What's his name again?</em> is not 'ещё раз' in the sense of doing something over — it means 'напомни, как его зовут'. 'Повторно' is <em>again</em> or <em>a second time</em>, not <em>repeatedly</em> (много раз). Most Americans say uh-GEN; uh-GAYN is also heard.</dd></dl>
+<p>Again has 5 distinct senses.</p>
+<p><strong>1. One more time; once more.</strong> (снова, ещё раз, опять)</p>
+<ol><li>Could you say that <em>again</em>?</li><li>I failed the test, so I'll take it <em>again</em> in May.</li><li>Oh no, it's raining <em>again</em>.</li></ol>
+<p><strong>2. Back to an earlier place or condition.</strong> (снова, обратно)</p>
+<ol start="4"><li>It's good to be home <em>again</em>.</li><li>She's feeling well <em>again</em> after the surgery.</li></ol>
+<p><strong>3. Used to ask for information that you were told but have forgotten.</strong> (напомни(те), ещё раз)</p>
+<ol start="6"><li>What was your name <em>again</em>?</li><li>Where are we meeting <em>again</em>?</li></ol>
+<p><strong>4. Used to repeat or stress a point already made.</strong> (опять же, ещё раз)</p>
+<ol start="8"><li><em>Again</em>, I want to thank everyone for coming.</li><li><em>Again</em>, the problem is money, not time.</li></ol>
+<p><strong>5. On the other hand — in <em>then again</em> and <em>but then again</em>.</strong> (с другой стороны)</p>
+<ol start="10"><li>It's expensive. <em>Then again</em>, it'll last for years.</li><li>I might go. <em>But then again</em>, I might not.</li></ol>
+<hr>
+<h3 id="constantly">constantly<a class="hash" href="#constantly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnstəntli/ &middot; <em>KAHN-stuhnt-lee</em></dd><dt>Русский</dt><dd>постоянно, всё время</dd><dt>Type</dt><dd>frequency; also duration</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, participles and adjectives</dd><dt>Form</dt><dd>-ly from <em>constant</em></dd><dt>Contrast</dt><dd><em>Constantly</em> (постоянно, всё время) is not <em>consistently</em> (неизменно, стабильно): <em>He's constantly late</em> means he is late all the time; <em>Her work is consistently good</em> means it is reliably good. With a continuous tense it signals irritation: <em>You're constantly checking your phone</em>.</dd></dl>
+<p>All the time, or so often that it seems like all the time.</p>
+<ol><li>The baby cried <em>constantly</em> the first week.</li><li>Technology is <em>constantly</em> changing.</li><li>He's <em>constantly</em> checking his phone during dinner.</li></ol>
+<hr>
+<h3 id="regularly">regularly<a class="hash" href="#regularly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛɡjələrli/ &middot; <em>REG-yuh-lur-lee</em></dd><dt>Русский</dt><dd>регулярно</dd><dt>Type</dt><dd>frequency; also manner</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>more/most — <em>more regularly</em>, <em>most regularly</em></dd><dt>Modifies</dt><dd>verbs, participles and prices</dd><dt>Form</dt><dd>-ly from <em>regular</em></dd><dt>Contrast</dt><dd><em>Regularly</em> stresses a steady pattern, so it is not always <em>often</em>: <em>I see him regularly</em> suggests a routine (every Tuesday); <em>I see him often</em> just means many times. On American price tags <em>regularly</em> means 'at the usual price': <em>regularly $50, now $35</em>.</dd></dl>
+<p>Regularly has 3 distinct senses.</p>
+<p><strong>1. Often and as a habit, or at fixed intervals.</strong> (регулярно)</p>
+<ol><li>She exercises <em>regularly</em>.</li><li>Change your passwords <em>regularly</em>.</li><li>I wish the buses ran <em>more regularly</em> out here.</li></ol>
+<p><strong>2. Evenly; in an even pattern or rhythm.</strong> (равномерно, ровно)</p>
+<ol start="4"><li>The fence posts are <em>regularly</em> spaced, ten feet apart.</li><li>His heart is beating <em>regularly</em> now.</li></ol>
+<p><strong>3. At the usual price — in American stores and ads.</strong> (по обычной цене, обычно)</p>
+<ol start="6"><li>These jeans are <em>regularly</em> $60, now on sale for $40.</li><li>All <em>regularly</em> priced items are 20% off today.</li></ol>
+<hr>
+<h3 id="repeatedly">repeatedly<a class="hash" href="#repeatedly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈpiːtɪdli/ &middot; <em>rih-PEE-tid-lee</em></dd><dt>Русский</dt><dd>неоднократно, много раз</dd><dt>Type</dt><dd>frequency</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and participles</dd><dt>Form</dt><dd>-ly from <em>repeated</em></dd><dt>Contrast</dt><dd><em>Repeatedly</em> means many times, not one more time: <em>I asked him again</em> (ещё раз) vs <em>I asked him repeatedly</em> (много раз). Russian <em>повторно</em> (a second time) is <em>again</em> or <em>a second time</em>.</dd></dl>
+<p>Many times; again and again.</p>
+<ol><li>I <em>repeatedly</em> asked him to turn the music down.</li><li>The company had been warned <em>repeatedly</em>.</li><li>She pressed the button <em>repeatedly</em>, but nothing happened.</li></ol>
+<hr>
+<h3 id="continually">continually<a class="hash" href="#continually" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtɪnjuəli/ &middot; <em>kuhn-TIN-yoo-uh-lee</em></dd><dt>Русский</dt><dd>постоянно, то и дело</dd><dt>Type</dt><dd>frequency; also duration</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and participles</dd><dt>Form</dt><dd>-ly from <em>continual</em></dd><dt>Contrast</dt><dd>Careful writers split the pair: <em>continually</em> is 'again and again, with breaks' (<em>The phone rang continually</em>), <em>continuously</em> is 'with no break at all' (<em>The engine ran continuously for ten hours</em>). Everyday American usage also lets <em>continually</em> mean 'without stopping', so choose <em>continuously</em> when the absence of breaks matters.</dd></dl>
+<p>Continually has 2 distinct senses.</p>
+<p><strong>1. Again and again over a period of time, often annoyingly.</strong> (постоянно, то и дело)</p>
+<ol><li>He <em>continually</em> interrupts when other people are talking.</li><li>The office printer <em>continually</em> jams.</li></ol>
+<p><strong>2. Without stopping; all the time.</strong> (непрерывно, всё время)</p>
+<ol start="3"><li>The city's population has grown <em>continually</em> since 1950.</li><li>Our software is <em>continually</em> being improved.</li></ol>
+<hr>
+<h3 id="continuously">continuously<a class="hash" href="#continuously" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtɪnjuəsli/ &middot; <em>kuhn-TIN-yoo-uhs-lee</em></dd><dt>Русский</dt><dd>непрерывно, без перерыва</dd><dt>Type</dt><dd>duration</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and participles</dd><dt>Form</dt><dd>-ly from <em>continuous</em></dd><dt>Contrast</dt><dd>Not the same as <em>continually</em>: <em>It rained continuously</em> means it never stopped; <em>It rained continually</em> means it kept raining on and off.</dd></dl>
+<p>Without a pause or break.</p>
+<ol><li>It rained <em>continuously</em> for three days.</li><li>The machines run <em>continuously</em>, twenty-four hours a day.</li><li>She has lived in the same town <em>continuously</em> since birth.</li></ol>
+<hr>
+<h3 id="periodically">periodically<a class="hash" href="#periodically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɪriˈɑːdɪkli/ &middot; <em>peer-ee-AH-dik-lee</em></dd><dt>Русский</dt><dd>периодически, время от времени</dd><dt>Type</dt><dd>frequency</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and participles</dd><dt>Form</dt><dd>-ally from <em>periodic</em></dd></dl>
+<p>From time to time, often at more or less regular intervals.</p>
+<ol><li>Check the tire pressure <em>periodically</em>.</li><li>The website is updated <em>periodically</em>.</li><li>He <em>periodically</em> glanced at the clock.</li></ol>
+<hr>
+<h3 id="routinely">routinely<a class="hash" href="#routinely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ruːˈtiːnli/ &middot; <em>roo-TEEN-lee</em></dd><dt>Русский</dt><dd>как правило, регулярно, в обычном порядке</dd><dt>Type</dt><dd>frequency</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and participles</dd><dt>Form</dt><dd>-ly from <em>routine</em></dd><dt>Contrast</dt><dd>Russian <em>рутинно</em> sounds dull and mechanical; English <em>routinely</em> is neutral — 'as standard practice': <em>Newborns are routinely tested</em> means every newborn is tested as a matter of course. It can also mean 'so often that it is no longer surprising': <em>He routinely ignores my emails</em>.</dd></dl>
+<p>As a normal, regular part of a procedure or of life; as a matter of course.</p>
+<ol><li>Bags are <em>routinely</em> checked at the entrance.</li><li>Doctors <em>routinely</em> test newborns for hearing problems.</li><li>He <em>routinely</em> works sixty-hour weeks.</li></ol>
+<hr>
+<h3 id="sporadically">sporadically<a class="hash" href="#sporadically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spəˈrædɪkli/ &middot; <em>spuh-RAD-ik-lee</em></dd><dt>Русский</dt><dd>время от времени, эпизодически</dd><dt>Type</dt><dd>frequency</dd><dt>Position</dt><dd>end — also mid</dd><dt>Comparison</dt><dd>more/most — <em>more sporadically</em>, <em>most sporadically</em></dd><dt>Modifies</dt><dd>verbs and participles</dd><dt>Form</dt><dd>-ally from <em>sporadic</em></dd><dt>Contrast</dt><dd>Not the same as <em>periodically</em>: <em>sporadically</em> stresses irregular, scattered occurrences with no pattern, while <em>periodically</em> suggests intervals.</dd></dl>
+<p>Now and then, irregularly and with no pattern.</p>
+<ol><li>Fighting continued <em>sporadically</em> through the night.</li><li>He attended class only <em>sporadically</em>.</li><li>The Wi-Fi in this hotel works <em>sporadically</em> at best.</li></ol>
+<hr>
+<h3 id="forever">forever<a class="hash" href="#forever" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fərˈɛvər/ &middot; <em>fur-EV-ur</em></dd><dt>Русский</dt><dd>навсегда, вечно</dd><dt>Type</dt><dd>duration; also frequency (<em>forever complaining</em>)</dd><dt>Position</dt><dd>end — mid in <em>be forever doing</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>compound of <em>for</em> + <em>ever</em>, written as one word in American English</dd><dt>Contrast</dt><dd>American English writes <em>forever</em> as one word in every sense; <em>for ever</em> is British. With a continuous tense it means 'constantly' and sounds annoyed: <em>He's forever losing his keys</em> (вечно теряет). <em>Take forever</em> is informal exaggeration, not literal. <em>For good</em> is a common informal synonym of 'навсегда'.</dd></dl>
+<p>Forever has 3 distinct senses.</p>
+<p><strong>1. For all future time; permanently.</strong> (навсегда)</p>
+<ol><li>I wish this summer could last <em>forever</em>.</li><li>Once you post it online, it's there <em>forever</em>.</li><li>The accident changed their lives <em>forever</em>.</li></ol>
+<p><strong>2. For a very long time — an informal exaggeration.</strong> (целую вечность, очень долго)</p>
+<ol start="4"><li>The line at the DMV took <em>forever</em>.</li><li>I've known her <em>forever</em>.</li></ol>
+<p><strong>3. Constantly; all the time — with a continuous tense.</strong> (вечно, постоянно)</p>
+<ol start="6"><li>He's <em>forever</em> losing his glasses.</li><li>My neighbors are <em>forever</em> complaining about something.</li></ol>
+<hr>
+<h3 id="briefly">briefly<a class="hash" href="#briefly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbriːfli/ &middot; <em>BREEF-lee</em></dd><dt>Русский</dt><dd>ненадолго; кратко</dd><dt>Type</dt><dd>duration; also manner</dd><dt>Position</dt><dd>mid or end — front in <em>Briefly, …</em> (in short)</dd><dt>Comparison</dt><dd>more/most — <em>more briefly</em>, <em>most briefly</em></dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Form</dt><dd>-ly from <em>brief</em></dd><dt>Contrast</dt><dd><em>Briefly</em> is about length (ненадолго, кратко); <em>shortly</em> means 'soon' (вскоре): <em>I'll speak briefly</em> means the speech will be short, <em>I'll speak shortly</em> means it will start soon.</dd></dl>
+<p>Briefly has 2 distinct senses.</p>
+<p><strong>1. For a short time.</strong> (ненадолго, на короткое время)</p>
+<ol><li>She <em>briefly</em> worked as a waitress in college.</li><li>The power went out <em>briefly</em> during the storm.</li><li>We stopped <em>briefly</em> in Memphis.</li></ol>
+<p><strong>2. In a few words; in short.</strong> (кратко, вкратце)</p>
+<ol start="4"><li>Let me explain <em>briefly</em> how it works.</li><li><em>Briefly</em>, the answer is no.</li><li>Could you put that <em>more briefly</em>?</li></ol>
+<hr>
+<h3 id="indefinitely">indefinitely<a class="hash" href="#indefinitely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdɛfənətli/ &middot; <em>in-DEF-uh-nuht-lee</em></dd><dt>Русский</dt><dd>на неопределённый срок, бессрочно</dd><dt>Type</dt><dd>duration</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and participles</dd><dt>Form</dt><dd><em>in-</em> + <em>definite</em> + <em>-ly</em></dd><dt>Contrast</dt><dd>It means 'with no end date fixed', not 'endlessly': a concert <em>postponed indefinitely</em> may still happen. 'Бесконечно' is <em>endlessly</em> or <em>infinitely</em>, and vague 'неопределённо' is <em>vaguely</em>.</dd></dl>
+<p>For a period of time with no fixed end.</p>
+<ol><li>The concert has been postponed <em>indefinitely</em>.</li><li>You can't keep living with your parents <em>indefinitely</em>.</li><li>The plant will stay closed <em>indefinitely</em>.</li></ol>
+<hr>
+<h3 id="momentarily">momentarily<a class="hash" href="#momentarily" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmoʊmənˈtɛrəli/ &middot; <em>moh-muhn-TAIR-uh-lee</em></dd><dt>Русский</dt><dd>на мгновение; сейчас, через минуту</dd><dt>Type</dt><dd>duration; also time</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, participles and adjectives</dd><dt>Form</dt><dd>-ly from <em>momentary</em></dd><dt>Contrast</dt><dd>US/UK split: in British English it means only 'for a moment'; in American English it very often means 'in a moment, very soon' — the flight attendant's <em>We'll be landing momentarily</em>. Context decides: past events and states (<em>was momentarily confused</em>) mean 'for a moment', future ones (<em>will be here momentarily</em>) mean 'soon'. American stress falls on the third syllable. False friend: Russian <em>моментально</em> (instantly) is <em>instantly</em> or <em>right away</em>, not <em>momentarily</em>.</dd></dl>
+<p>Momentarily has 2 distinct senses.</p>
+<p><strong>1. For a moment; very briefly.</strong> (на мгновение, на миг)</p>
+<ol><li>I was <em>momentarily</em> blinded by the headlights.</li><li>She paused <em>momentarily</em> before answering.</li></ol>
+<p><strong>2. In a moment; very soon — mainly American.</strong> (сейчас, через минуту, вот-вот)</p>
+<ol start="3"><li>The doctor will be with you <em>momentarily</em>.</li><li>We will be landing <em>momentarily</em>.</li></ol>
+<hr>
+<h3 id="overnight">overnight<a class="hash" href="#overnight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈnaɪt/ &middot; <em>oh-vur-NYT</em></dd><dt>Русский</dt><dd>за ночь, на ночь; в одночасье</dd><dt>Type</dt><dd>duration; also time</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>compound of <em>over</em> + <em>night</em>; the same form as the adjective <em>overnight</em></dd><dt>Contrast</dt><dd>The adverb is stressed on <em>-night</em> (oh-vur-NYT); the adjective before a noun (<em>an overnight bag</em>, <em>an overnight success</em>) often moves the stress to the first syllable and belongs to the adjective dictionary. <em>Stay overnight</em> means 'остаться на ночь', not 'не спать всю ночь' (<em>stay up all night</em>).</dd></dl>
+<p>Overnight has 2 distinct senses.</p>
+<p><strong>1. During the night, or for the whole night.</strong> (за ночь, на ночь)</p>
+<ol><li>Let the dough rise <em>overnight</em>.</li><li>Can I stay <em>overnight</em> at your place?</li><li>It snowed <em>overnight</em>, and the roads are icy.</li></ol>
+<p><strong>2. Very suddenly or quickly.</strong> (в одночасье, мгновенно)</p>
+<ol start="4"><li>The video made her famous <em>overnight</em>.</li><li>You won't learn a language <em>overnight</em>.</li></ol>
+<hr>
+<h3 id="permanently">permanently<a class="hash" href="#permanently" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrmənəntli/ &middot; <em>PUR-muh-nuhnt-lee</em></dd><dt>Русский</dt><dd>навсегда; постоянно</dd><dt>Type</dt><dd>duration</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>more/most — <em>more permanently</em>, <em>most permanently</em></dd><dt>Modifies</dt><dd>verbs, participles and adjectives</dd><dt>Form</dt><dd>-ly from <em>permanent</em></dd><dt>Contrast</dt><dd>Russian <em>постоянно</em> meaning 'all the time' is <em>constantly</em> or <em>always</em>, not <em>permanently</em>: <em>He constantly calls me</em>, not <em>He permanently calls me</em>. <em>Permanently</em> is about lasting: <em>permanently closed</em> (закрыто навсегда), <em>live here permanently</em> (жить здесь постоянно).</dd></dl>
+<p>Permanently has 2 distinct senses.</p>
+<p><strong>1. For all time; in a way that will not change or cannot be undone.</strong> (навсегда, окончательно)</p>
+<ol><li>The store is <em>permanently</em> closed.</li><li>The fire <em>permanently</em> damaged the old church.</li><li>Those files were <em>permanently</em> deleted.</li></ol>
+<p><strong>2. On a lasting basis rather than for a limited time — about where one lives or works.</strong> (постоянно, на постоянной основе)</p>
+<ol start="4"><li>He's now <em>permanently</em> based in our Denver office.</li><li>She's <em>permanently</em> employed now, not on a contract.</li><li>Is he in town <em>permanently</em>, or just visiting?</li></ol>
+<hr>
+<h3 id="temporarily">temporarily<a class="hash" href="#temporarily" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌtɛmpəˈrɛrəli/ &middot; <em>tem-puh-RAIR-uh-lee</em></dd><dt>Русский</dt><dd>временно</dd><dt>Type</dt><dd>duration</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, participles and adjectives</dd><dt>Form</dt><dd>-ly from <em>temporary</em>, with y changed to i</dd><dt>Contrast</dt><dd>American stress falls on the third syllable (tem-puh-RAIR-uh-lee); British English often stresses the first. Do not confuse it with <em>temporally</em> (во времени, 'relating to time').</dd></dl>
+<p>For a limited time; not permanently.</p>
+<ol><li>The road is <em>temporarily</em> closed for repairs.</li><li>I'm <em>temporarily</em> staying with my brother.</li><li>The website is <em>temporarily</em> unavailable.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

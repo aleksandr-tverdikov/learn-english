@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Viewpoint and domain adverbs</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="viewpoint-and-domain-adverbs">Viewpoint and domain adverbs<a class="hash" href="#viewpoint-and-domain-adverbs" aria-label="link">#</a></h1>
+<blockquote><p>From this point of view — <em>financially</em>, <em>technically</em>, <em>legally</em>, <em>personally</em>, <em>ideally</em>, <em>strictly speaking</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Viewpoint adverbs narrow the frame in which a statement is true: <em>Financially, it makes sense</em> claims nothing about whether it makes sense in any other way. They usually open the sentence with a comma. The pattern is productive — almost any <em>-al</em> adjective can do it — so this group lists the frequent ones and the ones whose viewpoint sense differs from their manner sense (<em>technically</em>, <em>practically</em>, <em>personally</em>).</p>
+<hr>
+<h3 id="financially">financially<a class="hash" href="#financially" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fəˈnænʃəli/ &middot; <em>fuh-NAN-shuh-lee</em></dd><dt>Русский</dt><dd>финансово, в финансовом отношении</dd><dt>Type</dt><dd>viewpoint; also manner — in terms of money</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint (<em>Financially, it works</em>); before an adjective (<em>financially stable</em>); end after a verb (<em>support them financially</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles, verbs</dd><dt>Form</dt><dd>-ly from <em>financial</em>; the first syllable is also said <em>fy-</em></dd><dt>Contrast</dt><dd>Russian <em>материально помогать</em> is <em>help financially</em>, not <em>materially</em> — English <em>materially</em> means significantly (<em>it did not materially change the result</em>).</dd></dl>
+<p>Financially has 2 distinct senses.</p>
+<p><strong>1. From the point of view of money; when money is considered.</strong> (с финансовой точки зрения, в финансовом плане)</p>
+<ol><li><em>Financially</em>, the move to Texas made a lot of sense.</li><li>The plan looks good <em>financially</em>, but it will take years.</li><li><em>Financially</em>, we're in much better shape than last year.</li></ol>
+<p><strong>2. In a way that concerns money — having it, earning it, or giving it.</strong> (материально, финансово)</p>
+<ol start="4"><li>My parents still support me <em>financially</em>.</li><li>She wants to be <em>financially</em> independent by thirty.</li><li>A lot of families are struggling <em>financially</em> right now.</li></ol>
+<hr>
+<h3 id="politically">politically<a class="hash" href="#politically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈlɪtɪkli/ &middot; <em>puh-LIT-ik-lee</em></dd><dt>Русский</dt><dd>политически, с политической точки зрения</dd><dt>Type</dt><dd>viewpoint; also manner — in terms of politics</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective or participle (<em>politically active</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles, verbs</dd><dt>Form</dt><dd>-ly from <em>political</em>; the <em>-al-</em> is usually not pronounced: <em>puh-LIT-ik-lee</em></dd><dt>Contrast</dt><dd><em>Politically correct</em> is a fixed phrase: avoiding words that could offend a group, often said with irony. It does not mean correct from a political point of view. Its opposite is <em>politically incorrect</em>.</dd></dl>
+<p>Politically has 2 distinct senses.</p>
+<p><strong>1. From a political point of view; when politics or public opinion is considered.</strong> (с политической точки зрения)</p>
+<ol><li><em>Politically</em>, raising taxes right before an election would be suicide.</li><li>The plan makes sense on paper, but <em>politically</em> it's a nonstarter.</li><li><em>Politically</em>, the governor can't afford to lose the suburbs.</li></ol>
+<p><strong>2. In a way connected with politics, government, or political parties.</strong> (политически)</p>
+<ol start="4"><li>My grandmother was <em>politically</em> active her whole life.</li><li>Police say the attack was <em>politically</em> motivated.</li><li>It's one of the most <em>politically</em> divided states in the country.</li></ol>
+<hr>
+<h3 id="technically">technically<a class="hash" href="#technically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛknɪkli/ &middot; <em>TEK-nik-lee</em></dd><dt>Русский</dt><dd>формально, строго говоря; технически</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma for 'strictly speaking' (<em>Technically, …</em>); mid (<em>it's technically legal</em>); before an adjective (<em>technically difficult</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, verbs, adjectives</dd><dt>Form</dt><dd>-ly from <em>technical</em>; the <em>-al-</em> is usually not pronounced: <em>TEK-nik-lee</em></dd><dt>Contrast</dt><dd>The most common American sense has nothing to do with technology: <em>Technically, he's still my boss</em> means формально — the rules say so, though real life may differ, and a <em>but</em> often follows. Russian <em>технически</em> covers only sense 2. Don't confuse it with <em>practically</em> or <em>virtually</em>, which mean almost.</dd></dl>
+<p>Technically has 2 distinct senses.</p>
+<p><strong>1. According to the exact rules or the strict meaning of words, even if not in reality.</strong> (формально, строго говоря)</p>
+<ol><li><em>Technically</em>, you're still married until the judge signs the papers.</li><li>It's <em>technically</em> legal, but it's a terrible idea.</li><li><em>Technically</em>, the store closes at nine, but they let people finish shopping.</li></ol>
+<p><strong>2. In terms of technology or technique — the equipment and methods involved, or the skill shown in an art, sport, or craft.</strong> (технически, с технической точки зрения, в плане техники)</p>
+<ol start="4"><li><em>Technically</em>, the new phone is a big step forward.</li><li>The bridge was <em>technically</em> difficult to build.</li><li>She's a <em>technically</em> brilliant pianist, but her playing feels cold.</li></ol>
+<hr>
+<h3 id="legally">legally<a class="hash" href="#legally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːɡəli/ &middot; <em>LEE-guh-lee</em></dd><dt>Русский</dt><dd>юридически; законно</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective (<em>legally binding</em>); end after a verb (<em>buy it legally</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles, verbs</dd><dt>Form</dt><dd>-ly from <em>legal</em></dd><dt>Contrast</dt><dd><em>Legally blind</em> is an American legal category — sight so poor (20/200 or worse with glasses) that a person qualifies for benefits — not total blindness. Where Russian says <em>юридически</em>, English says <em>legally</em>: <em>legally binding</em> is юридически обязывающий.</dd></dl>
+<p>Legally has 2 distinct senses.</p>
+<p><strong>1. From the point of view of the law; as far as the law is concerned.</strong> (юридически, с юридической точки зрения)</p>
+<ol><li><em>Legally</em>, the landlord has to return your deposit within 30 days.</li><li>Once you sign it, the contract is <em>legally</em> binding.</li><li>Parents are <em>legally</em> responsible for getting their kids to school.</li></ol>
+<p><strong>2. In a way that is allowed by law.</strong> (законно, легально)</p>
+<ol start="4"><li>You can't <em>legally</em> park here after 6 p.m.</li><li>You have to be 21 to buy alcohol <em>legally</em>.</li><li>He came into the country <em>legally</em>.</li></ol>
+<hr>
+<h3 id="medically">medically<a class="hash" href="#medically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛdɪkli/ &middot; <em>MED-ik-lee</em></dd><dt>Русский</dt><dd>с медицинской точки зрения; медикаментозно</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective or participle (<em>medically necessary</em>); end after a verb (<em>treated medically</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles, verbs</dd><dt>Form</dt><dd>-ly from <em>medical</em>; the <em>-al-</em> is usually not pronounced: <em>MED-ik-lee</em></dd><dt>Contrast</dt><dd><em>Medically</em> is about medicine as a field; <em>medicinally</em> means as a medicine (<em>herbs used medicinally</em>). In American health insurance, <em>medically necessary</em> is a fixed term for the care a plan has to pay for.</dd></dl>
+<p>Medically has 2 distinct senses.</p>
+<p><strong>1. From a medical point of view; in terms of health and medicine.</strong> (с медицинской точки зрения, медицински)</p>
+<ol><li><em>Medically</em>, there's nothing wrong with him — the pain may be stress.</li><li>Insurance only covers the surgery if it's <em>medically</em> necessary.</li><li>She was <em>medically</em> cleared to play on Saturday.</li></ol>
+<p><strong>2. By means of medical treatment, especially drugs rather than surgery.</strong> (медикаментозно, с помощью медицины)</p>
+<ol start="4"><li>Most cases can be managed <em>medically</em> without an operation.</li><li>The patient was put in a <em>medically</em> induced coma.</li></ol>
+<hr>
+<h3 id="personally">personally<a class="hash" href="#personally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrsənəli/ &middot; <em>PUR-suh-nuh-lee</em></dd><dt>Русский</dt><dd>лично; по-моему</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma for an opinion (<em>Personally, I…</em>); mid before the verb for 'yourself' (<em>she personally called</em>); end after <em>take it</em> or <em>know someone</em></dd><dt>Comparison</dt><dd>not gradable — except <em>take it very personally</em></dd><dt>Modifies</dt><dd>whole clauses, verbs, adjectives (<em>personally responsible</em>)</dd><dt>Form</dt><dd>-ly from <em>personal</em>; double <em>l</em></dd><dt>Contrast</dt><dd><em>Personally</em> is not <em>in person</em>: <em>I met him in person</em> means face to face; <em>I know him personally</em> means we are acquainted, not just by name. <em>Take it personally</em> is the set phrase for принимать на свой счёт. The opinion sense almost always goes with <em>I</em> or <em>we</em>: <em>Personally, I think…</em>.</dd></dl>
+<p>Personally has 4 distinct senses.</p>
+<p><strong>1. Used to show that you are giving your own opinion.</strong> (лично я, по-моему)</p>
+<ol><li><em>Personally</em>, I think the first movie was better.</li><li>I don't care for sushi <em>personally</em>, but the kids love it.</li><li><em>Personally</em>, I'd wait until the price drops.</li></ol>
+<p><strong>2. By yourself, not through someone else.</strong> (лично, сам)</p>
+<ol start="4"><li>The mayor <em>personally</em> called to apologize.</li><li>I'll deliver the check <em>personally</em>.</li><li>You'll be <em>personally</em> responsible for the equipment.</li></ol>
+<p><strong>3. As a person — in terms of character or a private relationship, not a professional or public role.</strong> (лично, как человек)</p>
+<ol start="7"><li>I don't know the senator <em>personally</em>, only from the news.</li><li>The two candidates dislike each other <em>personally</em>, not just politically.</li></ol>
+<p><strong>4. As an attack on or criticism of yourself, especially in <em>take something personally</em>.</strong> (на свой счёт)</p>
+<ol start="9"><li>Don't take it <em>personally</em> — he's rude to everyone.</li><li>She took the rejection very <em>personally</em>.</li></ol>
+<hr>
+<h3 id="theoretically">theoretically<a class="hash" href="#theoretically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌθiːəˈrɛtɪkli/ &middot; <em>thee-uh-RET-ik-lee</em></dd><dt>Русский</dt><dd>теоретически, в теории</dd><dt>Type</dt><dd>viewpoint</dd><dt>Position</dt><dd>any position — front with a comma; mid (<em>you could theoretically</em>); before an adjective (<em>it's theoretically possible</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives, verbs</dd><dt>Form</dt><dd>-ly from <em>theoretical</em>; the <em>-al-</em> is usually not pronounced</dd><dt>Contrast</dt><dd>Like <em>technically</em>, sense 1 hints that reality is different: <em>Theoretically, it's possible</em> usually means don't count on it. The natural partner is <em>in practice</em>: <em>Theoretically…, but in practice…</em>.</dd></dl>
+<p>Theoretically has 2 distinct senses.</p>
+<p><strong>1. In theory — according to what should happen, though it may not happen in practice.</strong> (теоретически, в теории)</p>
+<ol><li><em>Theoretically</em>, the drive takes three hours, but not with Friday traffic.</li><li>It's <em>theoretically</em> possible to see the northern lights from Chicago.</li><li><em>Theoretically</em>, anyone can apply for the job.</li></ol>
+<p><strong>2. In terms of theory; from the standpoint of an academic or scientific theory.</strong> (в теоретическом плане)</p>
+<ol start="4"><li>The paper is <em>theoretically</em> interesting but has very little data.</li><li>Her research is <em>theoretically</em> grounded in behavioral economics.</li></ol>
+<hr>
+<h3 id="statistically">statistically<a class="hash" href="#statistically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stəˈtɪstɪkli/ &middot; <em>stuh-TIS-tik-lee</em></dd><dt>Русский</dt><dd>статистически, по статистике</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective (<em>statistically significant</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles</dd><dt>Form</dt><dd>-ly from <em>statistical</em>; the <em>-al-</em> is usually not pronounced</dd><dt>Contrast</dt><dd><em>Statistically significant</em> is a technical term — unlikely to be the result of chance. It is not a synonym of large or important: a tiny difference can be statistically significant.</dd></dl>
+<p>Statistically has 2 distinct senses.</p>
+<p><strong>1. According to statistics; when you look at the numbers.</strong> (по статистике, статистически)</p>
+<ol><li><em>Statistically</em>, flying is much safer than driving.</li><li><em>Statistically</em>, most new restaurants close within a few years.</li><li>Young men are <em>statistically</em> more likely to get into car accidents.</li></ol>
+<p><strong>2. By the methods of statistics.</strong> (статистически)</p>
+<ol start="4"><li>The difference between the two groups was not <em>statistically</em> significant.</li><li>The survey results were analyzed <em>statistically</em>.</li></ol>
+<hr>
+<h3 id="historically">historically<a class="hash" href="#historically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪˈstɔːrɪkli/ &middot; <em>hih-STOR-ik-lee</em></dd><dt>Русский</dt><dd>исторически, традиционно</dd><dt>Type</dt><dd>viewpoint; also time</dd><dt>Position</dt><dd>any position — front with a comma for 'in the past'; mid (<em>have historically outperformed</em>); before an adjective (<em>historically accurate</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, verbs, adjectives</dd><dt>Form</dt><dd>-ly from both <em>historic</em> and <em>historical</em>; the <em>-al-</em> is usually not pronounced</dd><dt>Contrast</dt><dd>One adverb serves two adjectives: <em>historic</em> (important in history) and <em>historical</em> (about history), so both <em>historically important</em> and <em>historically accurate</em>. In sense 1 the tense shows whether the pattern goes on: present perfect if it still does (<em>Historically, the state has voted Democratic</em>), past simple if it has ended (<em>Historically, women were paid less</em>). In American English the article is <em>a</em>, not <em>an</em>: <em>a historically important building</em>.</dd></dl>
+<p>Historically has 2 distinct senses.</p>
+<p><strong>1. In the past, over a long period; traditionally; also compared with the past (<em>historically low</em>).</strong> (исторически, традиционно, издавна)</p>
+<ol><li><em>Historically</em>, this neighborhood has been home to Italian immigrants.</li><li>Mortgage rates hit <em>historically</em> low levels during the pandemic.</li><li><em>Historically</em>, women were paid less for the same work.</li></ol>
+<p><strong>2. In terms of history; from the point of view of a historian.</strong> (исторически, с исторической точки зрения)</p>
+<ol start="4"><li>The movie isn't very <em>historically</em> accurate.</li><li>It's a <em>historically</em> important building — the treaty was signed here.</li><li><em>Historically</em>, the Battle of Gettysburg was the turning point of the Civil War.</li></ol>
+<hr>
+<h3 id="culturally">culturally<a class="hash" href="#culturally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌltʃərəli/ &middot; <em>KUHL-chur-uh-lee</em></dd><dt>Русский</dt><dd>в культурном отношении</dd><dt>Type</dt><dd>viewpoint</dd><dt>Position</dt><dd>any position — front with a comma; before an adjective (<em>culturally diverse</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives</dd><dt>Form</dt><dd>-ly from <em>cultural</em>; double <em>l</em></dd><dt>Contrast</dt><dd>False friend: Russian <em>культурно</em> (вести себя культурно) means politely, with good manners — English <em>politely</em>, <em>decently</em>. <em>Culturally</em> only means in terms of culture.</dd></dl>
+<p>Culturally has 2 distinct senses.</p>
+<p><strong>1. In terms of a society's customs, traditions, and beliefs.</strong> (в культурном отношении, с точки зрения культуры)</p>
+<ol><li><em>Culturally</em>, the two countries have a lot in common.</li><li>Our school is <em>culturally</em> diverse — the kids speak twenty languages at home.</li><li>In some places it isn't <em>culturally</em> acceptable to refuse food from a host.</li></ol>
+<p><strong>2. In terms of the arts — music, theater, museums, and literature.</strong> (в плане культурной жизни)</p>
+<ol start="4"><li><em>Culturally</em>, Chicago has as much to offer as New York.</li><li>The town is small but <em>culturally</em> rich, with two theaters and a jazz club.</li></ol>
+<hr>
+<h3 id="economically">economically<a class="hash" href="#economically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛkəˈnɑːmɪkli/ &middot; <em>ek-uh-NAHM-ik-lee</em></dd><dt>Русский</dt><dd>экономически; экономно</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective (<em>economically viable</em>); end after a verb for 'thriftily' (<em>live economically</em>)</dd><dt>Comparison</dt><dd>more/most — only in the 'thriftily' sense (<em>more economically</em>); not gradable as a viewpoint</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles, verbs</dd><dt>Form</dt><dd>-ly from both <em>economic</em> (about the economy) and <em>economical</em> (saving money); also said <em>ee-kuh-NAHM-ik-lee</em></dd><dt>Contrast</dt><dd>The two senses belong to two adjectives: <em>economic growth</em> (экономический) but <em>an economical car</em> (экономичный). The adverb is the same word, so context decides: <em>economically weak</em> is экономически слабый; <em>use it economically</em> is экономно.</dd></dl>
+<p>Economically has 2 distinct senses.</p>
+<p><strong>1. In terms of the economy, trade, or wealth.</strong> (экономически, в экономическом отношении)</p>
+<ol><li><em>Economically</em>, the town never recovered after the plant closed.</li><li>The project isn't <em>economically</em> viable without federal money.</li><li>Kids from <em>economically</em> disadvantaged families get free lunch.</li></ol>
+<p><strong>2. In a way that uses little money, time, or material, without waste.</strong> (экономно, бережливо)</p>
+<ol start="4"><li>We're trying to live more <em>economically</em> until I find a new job.</li><li>Use the paint <em>economically</em> — it's all we have.</li><li>She writes <em>economically</em>, never wasting a word.</li></ol>
+<hr>
+<h3 id="logistically">logistically<a class="hash" href="#logistically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ləˈdʒɪstɪkli/ &middot; <em>luh-JIS-tik-lee</em></dd><dt>Русский</dt><dd>с организационной точки зрения, логистически</dd><dt>Type</dt><dd>viewpoint</dd><dt>Position</dt><dd>any position — front with a comma; before an adjective (<em>logistically difficult</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives</dd><dt>Form</dt><dd>-ly from <em>logistical</em>; the first syllable is also said <em>loh-</em></dd><dt>Contrast</dt><dd>Not related to logic: <em>logically</em> is логично, по логике; <em>logistically</em> is about planning, transport, and supplies. <em>Logistically impossible</em> means it can't be organized, not that it makes no sense.</dd></dl>
+<p>In terms of the practical planning and organization of people, transport, and supplies.</p>
+<ol><li><em>Logistically</em>, getting 200 guests to an island is a nightmare.</li><li>The move was <em>logistically</em> complicated, with three trucks and two dogs.</li><li>It's a great idea, but <em>logistically</em> we can't pull it off by June.</li></ol>
+<hr>
+<h3 id="structurally">structurally<a class="hash" href="#structurally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstrʌktʃərəli/ &middot; <em>STRUHK-chur-uh-lee</em></dd><dt>Русский</dt><dd>структурно; по конструкции</dd><dt>Type</dt><dd>viewpoint</dd><dt>Position</dt><dd>any position — front with a comma; before an adjective (<em>structurally sound</em>); end after a verb (<em>changed structurally</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives, verbs</dd><dt>Form</dt><dd>-ly from <em>structural</em>; double <em>l</em></dd><dt>Contrast</dt><dd>In engineering Russian, <em>конструктивно</em> (по конструкции) is <em>structurally</em> or <em>in design</em> — not <em>constructively</em>, which in English only means in a helpful way (<em>constructive criticism</em>). <em>Structurally sound</em> is the set phrase for a building that is safe and not about to fall down.</dd></dl>
+<p>Structurally has 2 distinct senses.</p>
+<p><strong>1. In terms of how a building, bridge, or object is built and holds together.</strong> (по конструкции, в плане прочности)</p>
+<ol><li>The inspector said the house is <em>structurally</em> sound.</li><li>The bridge was <em>structurally</em> damaged in the earthquake.</li><li><em>Structurally</em>, the old barn is in better shape than it looks.</li></ol>
+<p><strong>2. In terms of the way the parts of a system, text, or organization are arranged.</strong> (структурно, по структуре)</p>
+<ol start="4"><li><em>Structurally</em>, the novel moves between three timelines.</li><li>English and German are <em>structurally</em> similar.</li><li>The economy has changed <em>structurally</em> since the 1980s.</li></ol>
+<hr>
+<h3 id="scientifically">scientifically<a class="hash" href="#scientifically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsaɪənˈtɪfɪkli/ &middot; <em>sy-uhn-TIF-ik-lee</em></dd><dt>Русский</dt><dd>научно, с научной точки зрения</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective or participle (<em>scientifically proven</em>); end after a verb (<em>test it scientifically</em>)</dd><dt>Comparison</dt><dd>more/most — in the 'by scientific methods' sense (<em>more scientifically</em>); not gradable as a viewpoint</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles, verbs</dd><dt>Form</dt><dd>-ally from <em>scientific</em> (there is no <em>scientifical</em>); the ending is said <em>-ik-lee</em></dd></dl>
+<p>Scientifically has 2 distinct senses.</p>
+<p><strong>1. According to science; from a scientific point of view.</strong> (с научной точки зрения, научно)</p>
+<ol><li><em>Scientifically</em>, there's no evidence that the diet works.</li><li>It's <em>scientifically</em> proven that smoking causes cancer.</li><li>The ad's claims aren't <em>scientifically</em> accurate.</li></ol>
+<p><strong>2. Using the careful, systematic methods of science.</strong> (научно, по научной методике)</p>
+<ol start="4"><li>The drug has never been <em>scientifically</em> tested on children.</li><li>We need to approach the problem more <em>scientifically</em>, one variable at a time.</li></ol>
+<hr>
+<h3 id="morally">morally<a class="hash" href="#morally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɔːrəli/ &middot; <em>MOR-uh-lee</em></dd><dt>Русский</dt><dd>морально, с нравственной точки зрения</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective (<em>morally wrong</em>); end after a verb (<em>act morally</em>)</dd><dt>Comparison</dt><dd>more/most — in the 'rightly' sense (<em>more morally</em>); not gradable as a viewpoint</dd><dt>Modifies</dt><dd>whole clauses, adjectives, verbs</dd><dt>Form</dt><dd>-ly from <em>moral</em>; double <em>l</em></dd><dt>Contrast</dt><dd>False friend: Russian <em>морально</em> often means emotionally or mentally — <em>морально тяжело</em> is <em>emotionally draining</em>, <em>морально подготовиться</em> is <em>prepare mentally</em>, <em>морально устал</em> is <em>mentally exhausted</em>, and <em>морально устаревший</em> is <em>outdated</em> or <em>obsolete</em>. English <em>morally</em> is only about right and wrong; <em>moral support</em> is the one place the two languages match.</dd></dl>
+<p>Morally has 2 distinct senses.</p>
+<p><strong>1. From the point of view of right and wrong.</strong> (морально, с нравственной точки зрения)</p>
+<ol><li><em>Morally</em>, what he did was wrong, even if it was legal.</li><li>I think it's <em>morally</em> unacceptable to lie to a patient.</li><li>Is the company <em>morally</em> responsible for the spill?</li></ol>
+<p><strong>2. In a way that is right and good; by high moral standards.</strong> (нравственно, порядочно)</p>
+<ol start="4"><li>She tried to live <em>morally</em> in a business full of cheats.</li><li>Most people believe they behave more <em>morally</em> than their neighbors.</li></ol>
+<hr>
+<h3 id="socially">socially<a class="hash" href="#socially" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊʃəli/ &middot; <em>SOH-shuh-lee</em></dd><dt>Русский</dt><dd>социально; в компании; в общении</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective (<em>socially acceptable</em>); end after a verb (<em>see someone socially</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives, verbs</dd><dt>Form</dt><dd>-ly from <em>social</em>; double <em>l</em></dd><dt>Contrast</dt><dd><em>I drink socially</em> means only at parties and dinners with friends, not alone and not much — it has nothing to do with drinking in public. Don't confuse <em>socially</em> with <em>sociably</em> (in a friendly, outgoing way).</dd></dl>
+<p>Socially has 3 distinct senses.</p>
+<p><strong>1. In terms of society, social class, or what people in general accept.</strong> (социально, в социальном отношении)</p>
+<ol><li>Smoking indoors is no longer <em>socially</em> acceptable.</li><li><em>Socially</em>, smartphones have changed how teenagers date.</li><li>The program helps <em>socially</em> disadvantaged kids get into college.</li></ol>
+<p><strong>2. In situations where people meet for pleasure, outside work or duty.</strong> (в компании, в неформальной обстановке, вне работы)</p>
+<ol start="4"><li>We work together, but we never see each other <em>socially</em>.</li><li>I only drink <em>socially</em>, maybe a beer at a barbecue.</li><li>It's hard to meet people <em>socially</em> after you move to a new city.</li></ol>
+<p><strong>3. In terms of relationships with other people and the ability to get along with them.</strong> (в общении, в плане общения)</p>
+<ol start="7"><li>He's brilliant but <em>socially</em> awkward.</li><li>Our daughter did fine academically but struggled <em>socially</em> in middle school.</li></ol>
+<hr>
+<h3 id="emotionally">emotionally<a class="hash" href="#emotionally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmoʊʃənəli/ &middot; <em>ih-MOH-shuh-nuh-lee</em></dd><dt>Русский</dt><dd>эмоционально, морально</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — before an adjective (<em>emotionally exhausted</em>); front with a comma as a viewpoint; end after a verb (<em>speak emotionally</em>)</dd><dt>Comparison</dt><dd>more/most — in the 'with strong feeling' sense (<em>more emotionally</em>); not gradable as a viewpoint</dd><dt>Modifies</dt><dd>adjectives and participles, whole clauses, verbs</dd><dt>Form</dt><dd>-ly from <em>emotional</em>; double <em>l</em></dd><dt>Contrast</dt><dd>This is where Russian <em>морально</em> usually belongs: <em>морально тяжело</em> is <em>emotionally hard</em> or <em>draining</em>, <em>моральная травма</em> is <em>emotional trauma</em>. Translating it as <em>morally</em> turns it into a question of right and wrong.</dd></dl>
+<p>Emotionally has 2 distinct senses.</p>
+<p><strong>1. In terms of feelings; with regard to a person's emotional state.</strong> (эмоционально, морально, психологически)</p>
+<ol><li>After the funeral I was <em>emotionally</em> exhausted.</li><li><em>Emotionally</em>, she's still not ready to date again.</li><li>Caring for a sick parent is <em>emotionally</em> draining.</li></ol>
+<p><strong>2. In a way that shows strong feelings.</strong> (эмоционально, взволнованно)</p>
+<ol start="4"><li>He spoke <em>emotionally</em> about his late father.</li><li>Fans reacted <em>emotionally</em> when the team finally won the title.</li></ol>
+<hr>
+<h3 id="physically">physically<a class="hash" href="#physically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪzɪkli/ &middot; <em>FIZ-ik-lee</em></dd><dt>Русский</dt><dd>физически</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — before an adjective (<em>physically fit</em>); front with a comma as a viewpoint; mid before a verb (<em>physically attacked</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives and participles, whole clauses, verbs</dd><dt>Form</dt><dd>-ly from <em>physical</em>; the <em>-al-</em> is usually not pronounced: <em>FIZ-ik-lee</em></dd><dt>Contrast</dt><dd>In everyday English <em>physically</em> is about the body or the material world; for the school subject say <em>in terms of physics</em>. In casual American speech <em>I physically can't</em> is an exaggeration for I really can't.</dd></dl>
+<p>Physically has 3 distinct senses.</p>
+<p><strong>1. In terms of the body rather than the mind.</strong> (физически)</p>
+<ol><li>You need to be <em>physically</em> fit to join the fire department.</li><li><em>Physically</em>, he's fine — it's his mental health we're worried about.</li><li>Construction work is <em>physically</em> demanding.</li></ol>
+<p><strong>2. In terms of material things or actual presence, as opposed to online, on paper, or in the mind.</strong> (физически, реально, фактически)</p>
+<ol start="4"><li>The company is registered in Delaware but <em>physically</em> located in Denver.</li><li>Students must be <em>physically</em> present to take the exam.</li></ol>
+<p><strong>3. According to the laws of nature; in reality at all.</strong> (физически (невозможно), никак)</p>
+<ol start="6"><li>It's <em>physically</em> impossible to be in two places at once.</li><li>There's no way — I <em>physically</em> can't finish this by Friday.</li></ol>
+<hr>
+<h3 id="mentally">mentally<a class="hash" href="#mentally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛntəli/ &middot; <em>MEN-tuh-lee</em></dd><dt>Русский</dt><dd>психически, умственно; мысленно</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — before an adjective (<em>mentally ill</em>); front with a comma as a viewpoint; mid before a verb for 'in your head' (<em>mentally calculated</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives and participles, whole clauses, verbs</dd><dt>Form</dt><dd>-ly from <em>mental</em>; double <em>l</em></dd><dt>Contrast</dt><dd>Russian <em>морально готов</em> and <em>морально устал</em> are <em>mentally ready</em> and <em>mentally exhausted</em>, not <em>morally</em>. Avoid <em>mentally retarded</em>: it is now offensive; American English says <em>intellectual disability</em>.</dd></dl>
+<p>Mentally has 2 distinct senses.</p>
+<p><strong>1. In terms of the mind or mental health.</strong> (психически, умственно, морально)</p>
+<ol><li>Marathon runners have to be <em>mentally</em> tough.</li><li>He was <em>mentally</em> ill for years before anyone noticed.</li><li><em>Mentally</em>, I'm ready for the exam; I just need some sleep.</li></ol>
+<p><strong>2. In your mind, without speaking, writing, or doing anything.</strong> (мысленно, в уме)</p>
+<ol start="4"><li>I <em>mentally</em> added up the bill while the waiter talked.</li><li>She <em>mentally</em> went over her speech one more time.</li></ol>
+<hr>
+<h3 id="officially">officially<a class="hash" href="#officially" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈfɪʃəli/ &middot; <em>uh-FISH-uh-lee</em></dd><dt>Русский</dt><dd>официально</dd><dt>Type</dt><dd>viewpoint; also manner and stance</dd><dt>Position</dt><dd>any position — mid before the verb (<em>officially opens</em>); front with a comma for the public version (<em>Officially, …</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, whole clauses, adjectives and participles</dd><dt>Form</dt><dd>-ly from <em>official</em>; double <em>l</em></dd><dt>Contrast</dt><dd>Russian <em>официально</em> also means formal in style — <em>официально одет</em> is <em>formally dressed</em>, <em>официальный тон</em> is <em>a formal tone</em>. English <em>officially</em> only means by authority or for the record. Sense 3 (<em>It's officially summer</em>) is informal but very common in American speech.</dd></dl>
+<p>Officially has 3 distinct senses.</p>
+<p><strong>1. By people in authority or according to the rules; for the record.</strong> (официально)</p>
+<ol><li>The new bridge <em>officially</em> opens on Monday.</li><li>The White House has not <em>officially</em> confirmed the report.</li><li>You aren't <em>officially</em> enrolled until you pay the fee.</li></ol>
+<p><strong>2. According to what is said publicly, which may not be the whole truth.</strong> (официально, по официальной версии)</p>
+<ol start="4"><li><em>Officially</em>, he resigned; everyone knows he was fired.</li><li><em>Officially</em>, the trip was about trade, but the senator spent most of it on the beach.</li></ol>
+<p><strong>3. Informal: now definitely, beyond any doubt.</strong> (окончательно, теперь уже точно)</p>
+<ol start="6"><li>It's ninety degrees — summer is <em>officially</em> here.</li><li>I'm <em>officially</em> addicted to this show.</li></ol>
+<hr>
+<h3 id="ideally">ideally<a class="hash" href="#ideally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aɪˈdiːəli/ &middot; <em>eye-DEE-uh-lee</em></dd><dt>Русский</dt><dd>в идеале; идеально</dd><dt>Type</dt><dd>viewpoint; also degree</dd><dt>Position</dt><dd>any position — front with a comma for 'in an ideal world' (<em>Ideally, …</em>); mid (<em>you should ideally</em>); before a participle for 'perfectly' (<em>ideally located</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, verbs, participles (<em>suited</em>, <em>located</em>)</dd><dt>Form</dt><dd>-ly from <em>ideal</em>; double <em>l</em></dd><dt>Contrast</dt><dd>Russian <em>идеально</em> is usually <em>perfectly</em>: <em>идеально убрано</em> is <em>perfectly clean</em>, <em>всё прошло идеально</em> is <em>everything went perfectly</em>. English <em>ideally</em> in that sense goes only with a few participles — <em>suited</em>, <em>located</em>, <em>placed</em>, <em>positioned</em>, <em>situated</em>. Otherwise <em>ideally</em> means in an ideal world.</dd></dl>
+<p>Ideally has 2 distinct senses.</p>
+<p><strong>1. In the best possible situation; if things were exactly as you want them.</strong> (в идеале, в идеальном случае)</p>
+<ol><li><em>Ideally</em>, we'd leave by six to beat the traffic.</li><li><em>Ideally</em>, the new hire would speak Spanish.</li><li>You should <em>ideally</em> get seven to eight hours of sleep.</li></ol>
+<p><strong>2. Perfectly; in the best possible way, used with a few participles.</strong> (идеально, прекрасно)</p>
+<ol start="4"><li>The hotel is <em>ideally</em> located, two blocks from the beach.</li><li>With all that patience, she's <em>ideally</em> suited to teaching.</li></ol>
+<hr>
+<h3 id="ethically">ethically<a class="hash" href="#ethically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛθɪkli/ &middot; <em>ETH-ik-lee</em></dd><dt>Русский</dt><dd>этически, этично</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective or participle (<em>ethically sourced</em>); end after a verb (<em>act ethically</em>)</dd><dt>Comparison</dt><dd>more/most — in the 'fairly and honestly' sense (<em>more ethically</em>); not gradable as a viewpoint</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles, verbs</dd><dt>Form</dt><dd>-ly from <em>ethical</em>; the <em>-al-</em> is usually not pronounced: <em>ETH-ik-lee</em></dd><dt>Contrast</dt><dd>Russian splits <em>этически</em> (from the point of view of ethics) and <em>этично</em> (in an ethical way); English uses <em>ethically</em> for both. <em>Ethically</em> is the usual word for professional rules — medicine, law, business, journalism — where <em>morally</em> would sound personal or religious.</dd></dl>
+<p>Ethically has 2 distinct senses.</p>
+<p><strong>1. From the point of view of moral rules, especially the rules of a profession.</strong> (с этической точки зрения, этически)</p>
+<ol><li><em>Ethically</em>, a therapist can't date a patient.</li><li>Paying people for five-star reviews is <em>ethically</em> questionable.</li><li>The study raises <em>ethically</em> difficult questions about privacy.</li></ol>
+<p><strong>2. In a morally correct and fair way.</strong> (этично, честно)</p>
+<ol start="4"><li>We only buy <em>ethically</em> sourced coffee.</li><li>Companies are under pressure to behave more <em>ethically</em>.</li></ol>
+<hr>
+<h3 id="geographically">geographically<a class="hash" href="#geographically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdʒiːəˈɡræfɪkli/ &middot; <em>jee-uh-GRAF-ik-lee</em></dd><dt>Русский</dt><dd>географически, по расположению</dd><dt>Type</dt><dd>viewpoint</dd><dt>Position</dt><dd>any position — front with a comma; before an adjective (<em>geographically close</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles</dd><dt>Form</dt><dd>-ly from <em>geographical</em> or <em>geographic</em>; the <em>-al-</em> is usually not pronounced</dd></dl>
+<p>In terms of location, distance, or the physical features of an area.</p>
+<ol><li><em>Geographically</em>, Alaska is closer to Russia than to the rest of the United States.</li><li>The two towns are <em>geographically</em> close but very different culturally.</li><li>Our sales team is <em>geographically</em> spread out across four time zones.</li></ol>
+<hr>
+<h3 id="biologically">biologically<a class="hash" href="#biologically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbaɪəˈlɑːdʒɪkli/ &middot; <em>by-uh-LAHJ-ik-lee</em></dd><dt>Русский</dt><dd>биологически; по крови</dd><dt>Type</dt><dd>viewpoint</dd><dt>Position</dt><dd>any position — front with a comma; before an adjective (<em>biologically related</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles</dd><dt>Form</dt><dd>-ly from <em>biological</em>; the <em>-al-</em> is usually not pronounced</dd><dt>Contrast</dt><dd>Russian <em>био-</em> on food labels (биопродукты) is <em>organic</em> in English, not <em>biologically grown</em>. Sense 2 is the everyday American use in family talk: <em>biologically related</em>, as opposed to adopted or step-.</dd></dl>
+<p>Biologically has 2 distinct senses.</p>
+<p><strong>1. In terms of biology; from the point of view of how living things work.</strong> (биологически, с биологической точки зрения)</p>
+<ol><li><em>Biologically</em>, whales are mammals, not fish.</li><li>Teenagers are <em>biologically</em> wired to stay up late.</li><li>Some of these chemicals stay <em>biologically</em> active for years.</li></ol>
+<p><strong>2. By birth; in terms of genes rather than adoption or marriage.</strong> (по крови, генетически)</p>
+<ol start="4"><li>We're not <em>biologically</em> related — my dad married her mom.</li><li>He raised the boy, though he wasn't <em>biologically</em> his father.</li></ol>
+<hr>
+<h3 id="commercially">commercially<a class="hash" href="#commercially" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmɜːrʃəli/ &middot; <em>kuh-MUR-shuh-lee</em></dd><dt>Русский</dt><dd>коммерчески; в продаже</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective or participle (<em>commercially available</em>); end after a verb (<em>failed commercially</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles, verbs</dd><dt>Form</dt><dd>-ly from <em>commercial</em>; double <em>l</em></dd><dt>Contrast</dt><dd><em>Commercially available</em> means anyone can buy it in stores or online — not that it is expensive, advertised, or sold by a private company. Russian <em>коммерческий</em> in the sense of paid or private (<em>коммерческий вуз</em>) is <em>private</em> or <em>for-profit</em>, not <em>commercial</em>.</dd></dl>
+<p>Commercially has 2 distinct senses.</p>
+<p><strong>1. In terms of making money; as a business.</strong> (коммерчески, с коммерческой точки зрения)</p>
+<ol><li>The film was loved by critics but failed <em>commercially</em>.</li><li><em>Commercially</em>, it was the band's biggest album.</li><li>It's a great invention, but is it <em>commercially</em> viable?</li></ol>
+<p><strong>2. Made, grown, or offered for sale to the public, rather than privately or for research.</strong> (в продаже, в промышленных масштабах)</p>
+<ol start="4"><li>The vaccine won't be <em>commercially</em> available until next year.</li><li>Most <em>commercially</em> grown tomatoes are picked before they're ripe.</li></ol>
+<hr>
+<h3 id="environmentally">environmentally<a class="hash" href="#environmentally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˌvaɪrənˈmɛntəli/ &middot; <em>in-vy-ruhn-MEN-tuh-lee</em></dd><dt>Русский</dt><dd>экологически, с экологической точки зрения</dd><dt>Type</dt><dd>viewpoint</dd><dt>Position</dt><dd>any position — before an adjective (<em>environmentally friendly</em>); front with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives and participles, whole clauses</dd><dt>Form</dt><dd>-ly from <em>environmental</em>; double <em>l</em></dd><dt>Contrast</dt><dd>Russian <em>экологически чистый</em> is <em>environmentally friendly</em> for a product and <em>clean</em> or <em>organic</em> for food or a place; <em>плохая экология</em> is <em>pollution</em>, not <em>bad ecology</em>. In everyday American English <em>environmentally</em> is far more common than <em>ecologically</em>, which sounds scientific.</dd></dl>
+<p>Environmentally has 2 distinct senses.</p>
+<p><strong>1. In terms of the natural world and its protection.</strong> (экологически, с точки зрения экологии)</p>
+<ol><li>Paper straws are more <em>environmentally</em> friendly than plastic ones.</li><li><em>Environmentally</em>, the new pipeline is a disaster waiting to happen.</li><li>The wetlands are <em>environmentally</em> sensitive, so building there is restricted.</li></ol>
+<p><strong>2. Caused by surroundings and living conditions rather than by genes.</strong> (под влиянием окружающей среды)</p>
+<ol start="4"><li>Doctors don't know whether the disease is inherited or <em>environmentally</em> caused.</li><li>Some asthma attacks are <em>environmentally</em> triggered.</li></ol>
+<hr>
+<h3 id="visually">visually<a class="hash" href="#visually" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪʒuəli/ &middot; <em>VIZH-oo-uh-lee</em></dd><dt>Русский</dt><dd>визуально, внешне</dd><dt>Type</dt><dd>viewpoint; also manner</dd><dt>Position</dt><dd>any position — front with a comma as a viewpoint; before an adjective (<em>visually stunning</em>); end after a verb (<em>inspected visually</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives and participles, verbs</dd><dt>Form</dt><dd>-ly from <em>visual</em>; double <em>l</em></dd><dt>Contrast</dt><dd>Russian <em>визуально</em> is often everyday speech for by the look of it — <em>визуально всё в порядке</em> is <em>it looks fine</em>, and <em>знать визуально</em> is <em>know by sight</em>. English <em>visually</em> is more formal and technical. <em>Visually impaired</em> is the polite American term for people who are blind or partly blind.</dd></dl>
+<p>Visually has 2 distinct senses.</p>
+<p><strong>1. In terms of how something looks.</strong> (визуально, внешне, на вид)</p>
+<ol><li><em>Visually</em>, the movie is stunning, but the story is thin.</li><li>The new website is much more <em>visually</em> appealing.</li><li>The two apps are <em>visually</em> almost identical.</li></ol>
+<p><strong>2. By looking, or in terms of the ability to see.</strong> (визуально, зрительно, на глаз)</p>
+<ol start="4"><li>The mechanic checked the brakes <em>visually</em> before the test drive.</li><li>The software helps <em>visually</em> impaired students read their textbooks.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

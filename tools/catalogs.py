@@ -103,6 +103,17 @@ CATALOGS = [
                 ('phrasal verbs', 'Phrasal verbs built on this'), ('variants', 'Variants')],
     ),
     dict(
+        slug='05-adverbs',
+        dir='parts-of-speech/05-adverbs/catalog',
+        title='The Adverb Dictionary',
+        eyebrow='05 &middot; Adverbs',
+        lede='adverbs — where each one goes in the sentence, how it compares, and every meaning it has',
+        accent='#8a6d1f', accent_dark='#dcc06a',
+        tag_fields=['type', 'position', 'comparison'],
+        fields=[('type', 'Type'), ('position', 'Position'), ('comparison', 'Comparison'),
+                ('modifies', 'Modifies'), ('form', 'Form'), ('contrast', 'Contrast')],
+    ),
+    dict(
         slug='reporting-verbs',
         dir='grammar/01-reported-speech/catalog',
         title='Reporting Verbs',

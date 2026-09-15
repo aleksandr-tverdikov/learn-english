@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stance and comment adverbs</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="stance-and-comment-adverbs">Stance and comment adverbs<a class="hash" href="#stance-and-comment-adverbs" aria-label="link">#</a></h1>
+<blockquote><p>What the speaker thinks of it — <em>probably</em>, <em>maybe</em>, <em>obviously</em>, <em>luckily</em>, <em>frankly</em>, <em>actually</em>, <em>of course</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Stance adverbs comment on the whole statement rather than on the verb: how certain it is (<em>probably</em>, <em>definitely</em>), how the speaker feels about it (<em>unfortunately</em>, <em>luckily</em>), or how it is being said (<em>frankly</em>, <em>honestly</em>). Most go at the front with a comma or in mid-position. Two are false friends for Russian speakers — <em>actually</em> means <em>in fact</em>, not <em>актуально</em>, and <em>eventually</em> means <em>in the end</em>, not <em>возможно</em>.</p>
+<hr>
+<h3 id="certainly">certainly<a class="hash" href="#certainly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrtnli/ &middot; <em>SURT-n-lee</em></dd><dt>Русский</dt><dd>конечно, несомненно</dd><dt>Type</dt><dd>stance — certainty</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; also alone as an answer</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives (<em>certainly true</em>)</dd><dt>Form</dt><dd>-ly from <em>certain</em></dd><dt>Contrast</dt><dd><em>Surely</em> is not a synonym: <em>Certainly he knows</em> states a fact, but <em>Surely you know him</em> means “I'd be amazed if you didn't” and asks for agreement. As a reply, <em>Certainly</em> is polite and a little formal; everyday American speech says <em>Sure</em>.</dd></dl>
+<p>Certainly has 2 distinct senses.</p>
+<p><strong>1. Without any doubt; definitely.</strong> (несомненно, безусловно)</p>
+<ol><li>She <em>certainly</em> knows how to throw a party.</li><li>It's <em>certainly</em> not the cheapest option, but it's the best.</li><li>Things will <em>certainly</em> get busier after the holidays.</li></ol>
+<p><strong>2. Used as a polite answer to agree or give permission: yes, of course; <em>certainly not</em> is a firm no.</strong> (конечно, разумеется)</p>
+<ol start="4"><li>“Could you help me with this box?” “<em>Certainly</em>.”</li><li>“Can I pay by card?” “<em>Certainly</em> — right over here.”</li><li>“May I borrow your car tonight?” “<em>Certainly</em> not.”</li></ol>
+<hr>
+<h3 id="definitely">definitely<a class="hash" href="#definitely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛfənətli/ &middot; <em>DEF-uh-nuht-lee</em></dd><dt>Русский</dt><dd>определённо, точно</dd><dt>Type</dt><dd>stance — certainty</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; also alone as an answer</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives</dd><dt>Form</dt><dd>-ly from <em>definite</em>; spelled -ite-, never <em>definately</em></dd><dt>Contrast</dt><dd>Order with <em>not</em> changes the meaning: <em>It's definitely not true</em> = точно неправда, but <em>It's not definitely true</em> = не факт, что правда. Do not use it for Russian <em>определённый</em> = “certain, particular”: <em>в определённой степени</em> is <em>to a certain extent</em>, not <em>definitely to some degree</em>.</dd></dl>
+<p>Definitely has 3 distinct senses.</p>
+<p><strong>1. Without any doubt; for sure.</strong> (определённо, точно)</p>
+<ol><li>I'm <em>definitely</em> coming to your party.</li><li>That was <em>definitely</em> the best pizza I've ever had.</li><li>We <em>definitely</em> need more chairs for Saturday.</li></ol>
+<p><strong>2. Used as an answer to say a strong yes or no.</strong> (конечно, безусловно)</p>
+<ol start="4"><li>“Are you going to vote?” “<em>Definitely</em>.”</li><li>“Would you go back to that hotel?” “<em>Definitely</em> not.”</li></ol>
+<p><strong>3. In a fixed, final way, so that there is no more doubt or change.</strong> (окончательно, точно)</p>
+<ol start="6"><li>Nothing has been <em>definitely</em> decided yet.</li><li>We can't say <em>definitely</em> when the store will reopen.</li></ol>
+<hr>
+<h3 id="obviously">obviously<a class="hash" href="#obviously" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːbviəsli/ &middot; <em>AHB-vee-uhs-lee</em></dd><dt>Русский</dt><dd>очевидно, конечно; явно</dd><dt>Type</dt><dd>stance — what everyone should know; also manner</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; also front with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives</dd><dt>Form</dt><dd>-ly from <em>obvious</em></dd><dt>Contrast</dt><dd>False friend: Russian <em>очевидно</em> often means “probably, it seems” (<em>Очевидно, он опоздал на поезд</em>) — that is <em>apparently</em> or <em>evidently</em> in English. <em>Obviously</em> means “as anyone can see” and can sound rude if the listener did not know: <em>Obviously, the meeting is at three.</em></dd></dl>
+<p>Obviously has 2 distinct senses.</p>
+<p><strong>1. Used to say that something is clear or expected and should need no explanation.</strong> (конечно, само собой, очевидно)</p>
+<ol><li><em>Obviously</em>, we can't leave the kids home alone.</li><li>“Did you tell her?” “<em>Obviously</em> not.”</li><li>We'll <em>obviously</em> pay you back as soon as we can.</li></ol>
+<p><strong>2. In a way that is easy to see or notice.</strong> (явно, заметно)</p>
+<ol start="4"><li>She was <em>obviously</em> upset about something.</li><li>He'd <em>obviously</em> never cooked a turkey before.</li><li>The dog was <em>obviously</em> hungry.</li></ol>
+<hr>
+<h3 id="evidently">evidently<a class="hash" href="#evidently" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛvədəntli/ &middot; <em>EV-uh-duhnt-lee</em></dd><dt>Русский</dt><dd>по-видимому, очевидно</dd><dt>Type</dt><dd>stance — a conclusion from evidence</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; also front with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives</dd><dt>Form</dt><dd>-ly from <em>evident</em></dd><dt>Contrast</dt><dd><em>Evidently</em> is closer to Russian <em>очевидно, по-видимому</em> (a conclusion) than <em>obviously</em> is. It is a little more formal than <em>apparently</em>, and like <em>apparently</em> it can also pass on what the speaker has heard: <em>Evidently, she quit last week</em> = судя по всему (говорят), она уволилась.</dd></dl>
+<p>Evidently has 2 distinct senses.</p>
+<p><strong>1. Based on what you can see or have found out; apparently.</strong> (по-видимому, судя по всему)</p>
+<ol><li>The owners had <em>evidently</em> left in a hurry.</li><li><em>Evidently</em>, nobody told him about the schedule change.</li><li>“Did the package come?” “<em>Evidently</em> not.”</li></ol>
+<p><strong>2. In a way that is plain to see; clearly.</strong> (явно)</p>
+<ol start="4"><li>He was <em>evidently</em> nervous — his hands were shaking.</li><li>She was <em>evidently</em> pleased with the results.</li></ol>
+<hr>
+<h3 id="apparently">apparently<a class="hash" href="#apparently" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpɛrəntli/ &middot; <em>uh-PAIR-uhnt-lee</em></dd><dt>Русский</dt><dd>по-видимому, говорят, судя по всему</dd><dt>Type</dt><dd>stance — what the speaker has heard or what seems true</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; also front with a comma, and end in speech</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives (<em>apparently harmless</em>)</dd><dt>Form</dt><dd>-ly from <em>apparent</em></dd><dt>Contrast</dt><dd>False friend: <em>apparently</em> does not mean <em>явно, очевидно</em>. The adjective can (<em>for no apparent reason</em> = без видимой причины), but the adverb almost always means “I heard” or “it seems”: <em>Apparently he's rich</em> = говорят, он богат.</dd></dl>
+<p>Apparently has 2 distinct senses.</p>
+<p><strong>1. According to what you have heard or read, though you cannot be sure.</strong> (говорят, судя по всему)</p>
+<ol><li><em>Apparently</em>, the restaurant is closing next month.</li><li>He's <em>apparently</em> moving to Denver.</li><li>The meeting got canceled, <em>apparently</em>.</li></ol>
+<p><strong>2. Seeming to be true from what you can see, though it may not be.</strong> (по-видимому, на первый взгляд)</p>
+<ol start="4"><li>The back door had <em>apparently</em> been forced open.</li><li>It started as an <em>apparently</em> harmless joke.</li></ol>
+<hr>
+<h3 id="presumably">presumably<a class="hash" href="#presumably" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈzuːməbli/ &middot; <em>prih-ZOO-muh-blee</em></dd><dt>Русский</dt><dd>надо полагать, вероятно</dd><dt>Type</dt><dd>stance — a reasonable assumption</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; also front with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives</dd><dt>Form</dt><dd>-ably from <em>presume</em></dd><dt>Contrast</dt><dd><em>Presumably</em> is the speaker's own reasonable guess, which they expect to be right. Russian news style <em>предположительно</em> (<em>предположительно, преступник</em>) is <em>allegedly</em> or <em>suspected</em> in English, not <em>presumably</em>.</dd></dl>
+<p>Used to say that you think something is very likely true, based on what you know.</p>
+<ol><li>You're <em>presumably</em> tired after such a long flight.</li><li><em>Presumably</em>, the package will arrive tomorrow.</li><li>He left early, <em>presumably</em> to beat the traffic.</li></ol>
+<hr>
+<h3 id="probably">probably<a class="hash" href="#probably" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːbəbli/ &middot; <em>PRAHB-uh-blee</em></dd><dt>Русский</dt><dd>вероятно, наверное</dd><dt>Type</dt><dd>stance — likelihood</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary, and before a negative auxiliary (<em>probably won't</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives</dd><dt>Form</dt><dd>-ably from <em>probable</em></dd><dt>Contrast</dt><dd>Position with a negative: <em>He probably won't come</em>, not <em>He won't probably come</em>. Russian <em>наверное</em> is often a polite hedge; <em>probably</em> really means “more likely than not”, so <em>I'll probably come</em> is a weak promise.</dd></dl>
+<p>Very likely; more likely than not.</p>
+<ol><li>It'll <em>probably</em> rain this afternoon.</li><li>She <em>probably</em> won't remember me.</li><li>“Are you coming tonight?” “<em>Probably</em>.”</li></ol>
+<hr>
+<h3 id="possibly">possibly<a class="hash" href="#possibly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːsəbli/ &middot; <em>PAHS-uh-blee</em></dd><dt>Русский</dt><dd>возможно; никак (не)</dd><dt>Type</dt><dd>stance — possibility; also degree</dd><dt>Position</dt><dd>mid — before the main verb, after the modal (<em>can't possibly</em>); also alone as an answer</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives, numbers</dd><dt>Form</dt><dd>-ibly from <em>possible</em></dd><dt>Contrast</dt><dd><em>Can't possibly</em> is not “maybe can't” — it means “there is no way”: <em>I can't possibly finish by Friday</em> = я никак не успею к пятнице. In a request, <em>Could you possibly…?</em> is extra polite, not doubtful.</dd></dl>
+<p>Possibly has 3 distinct senses.</p>
+<p><strong>1. Perhaps; used when something could be true but is not certain.</strong> (возможно)</p>
+<ol><li>The drive could take three hours, <em>possibly</em> more.</li><li>It was <em>possibly</em> the worst movie I've ever seen.</li><li>“Will you finish today?” “<em>Possibly</em>.”</li></ol>
+<p><strong>2. Used with <em>can</em> or <em>could</em> for emphasis: in any way at all.</strong> (никак; всё, что возможно)</p>
+<ol start="4"><li>I can't <em>possibly</em> eat all that.</li><li>How could anyone <em>possibly</em> believe him?</li><li>We did everything we <em>possibly</em> could.</li></ol>
+<p><strong>3. Used to make a request more polite.</strong> (не могли бы вы)</p>
+<ol start="7"><li>Could you <em>possibly</em> turn the music down a little?</li><li>Could I <em>possibly</em> borrow your notes from Tuesday?</li></ol>
+<hr>
+<h3 id="maybe">maybe<a class="hash" href="#maybe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪbi/ &middot; <em>MAY-bee</em></dd><dt>Русский</dt><dd>может быть, возможно</dd><dt>Type</dt><dd>stance — possibility</dd><dt>Position</dt><dd>front — usually at the start of the clause; also before a number, and alone as an answer</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, numbers (<em>maybe fifty</em>)</dd><dt>Form</dt><dd>one word, from <em>may</em> + <em>be</em></dd><dt>Contrast</dt><dd><em>Maybe</em> (one word) is the adverb; <em>may be</em> (two words) is a modal and a verb: <em>Maybe he is right</em> = <em>He may be right</em>. Never <em>He maybe right</em>. <em>Maybe</em> is informal; in writing <em>perhaps</em> is more common.</dd></dl>
+<p>Maybe has 3 distinct senses.</p>
+<p><strong>1. Perhaps; possibly.</strong> (может быть, возможно)</p>
+<ol><li><em>Maybe</em> she's stuck in traffic.</li><li>We could go to the beach, or <em>maybe</em> the lake.</li><li>“Are you coming with us?” “<em>Maybe</em>.”</li></ol>
+<p><strong>2. Used to make a suggestion politely.</strong> (может, (давай))</p>
+<ol start="4"><li><em>Maybe</em> we should call a plumber.</li><li><em>Maybe</em> you could ask your dad for help.</li></ol>
+<p><strong>3. Used before a number: about, approximately.</strong> (примерно, где-то)</p>
+<ol start="6"><li>There were <em>maybe</em> fifty people at the meeting.</li><li>It's <em>maybe</em> a ten-minute walk from here.</li></ol>
+<hr>
+<h3 id="perhaps">perhaps<a class="hash" href="#perhaps" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈhæps/ &middot; <em>pur-HAPS</em></dd><dt>Русский</dt><dd>возможно, может быть</dd><dt>Type</dt><dd>stance — possibility</dd><dt>Position</dt><dd>front — at the start of the clause; also mid, especially before an adjective or noun phrase</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives, numbers</dd><dt>Contrast</dt><dd><em>Perhaps</em> is more formal than <em>maybe</em>; in everyday American conversation <em>maybe</em> is far more common. Unlike <em>maybe</em>, <em>perhaps</em> sits easily in mid position: <em>It was perhaps her best book</em>.</dd></dl>
+<p>Perhaps has 3 distinct senses.</p>
+<p><strong>1. Possibly; maybe.</strong> (возможно, может быть)</p>
+<ol><li><em>Perhaps</em> the letter got lost in the mail.</li><li>It was <em>perhaps</em> the most important decision of her career.</li><li>“Will he agree?” “<em>Perhaps</em>.”</li></ol>
+<p><strong>2. Used to make a suggestion, offer or request more polite.</strong> (может быть, не хотите ли)</p>
+<ol start="4"><li><em>Perhaps</em> you'd like to wait in the lobby.</li><li><em>Perhaps</em> we could discuss this after lunch?</li></ol>
+<p><strong>3. Used before a number: about, approximately.</strong> (примерно, около)</p>
+<ol start="6"><li><em>Perhaps</em> two hundred people showed up.</li><li>The house is <em>perhaps</em> a mile from the highway.</li></ol>
+<hr>
+<h3 id="undoubtedly">undoubtedly<a class="hash" href="#undoubtedly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈdaʊtɪdli/ &middot; <em>uhn-DOW-tid-lee</em></dd><dt>Русский</dt><dd>несомненно, бесспорно</dd><dt>Type</dt><dd>stance — certainty</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; also front with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives</dd><dt>Form</dt><dd>un- + <em>doubted</em> + -ly; the <em>b</em> is silent and the -ed is a full syllable</dd><dt>Contrast</dt><dd><em>Undoubtedly</em> means full certainty; <em>doubtless</em>, despite its look, often means only “probably”.</dd></dl>
+<p>Without any doubt; certainly.</p>
+<ol><li>She is <em>undoubtedly</em> the best player on the team.</li><li>Prices will <em>undoubtedly</em> go up again next year.</li><li><em>Undoubtedly</em>, the new law will be challenged in court.</li></ol>
+<hr>
+<h3 id="arguably">arguably<a class="hash" href="#arguably" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrɡjuəbli/ &middot; <em>AHR-gyoo-uh-blee</em></dd><dt>Русский</dt><dd>пожалуй, можно сказать</dd><dt>Type</dt><dd>stance — a claim the speaker supports</dd><dt>Position</dt><dd>mid — usually right before the adjective or noun phrase it comments on; also front with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, superlatives, noun phrases, clauses</dd><dt>Form</dt><dd>-ably from <em>argue</em></dd><dt>Contrast</dt><dd>False friend: the adjective <em>arguable</em> often means “спорный”, but <em>arguably</em> supports the claim — <em>He is arguably the best</em> = пожалуй, он лучший (and the speaker thinks so). It is not doubt and not <em>доказуемо</em>.</dd></dl>
+<p>Used to say that something can reasonably be claimed, and the speaker believes it, though others may disagree.</p>
+<ol><li>He is <em>arguably</em> the greatest basketball player of all time.</li><li>It was <em>arguably</em> the most important invention of the century.</li><li><em>Arguably</em>, the city's best food is found in its smallest restaurants.</li></ol>
+<hr>
+<h3 id="allegedly">allegedly<a class="hash" href="#allegedly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlɛdʒɪdli/ &middot; <em>uh-LEJ-id-lee</em></dd><dt>Русский</dt><dd>якобы, предположительно</dd><dt>Type</dt><dd>stance — a claim that has not been proved</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, clauses</dd><dt>Form</dt><dd>-ly from <em>alleged</em>; the -ed is a full syllable</dd><dt>Contrast</dt><dd>In news reports <em>allegedly</em> protects the writer: someone has made the claim, usually an accusation, but it is not proved. It is not the speaker's own guess — that is <em>presumably</em>.</dd></dl>
+<p>According to what someone has said, especially in an accusation that has not been proved.</p>
+<ol><li>The suspect <em>allegedly</em> stole more than $10,000 from his employer.</li><li>He was <em>allegedly</em> driving over 90 miles an hour.</li><li>The company <em>allegedly</em> hid the test results from regulators.</li></ol>
+<hr>
+<h3 id="supposedly">supposedly<a class="hash" href="#supposedly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈpoʊzɪdli/ &middot; <em>suh-POH-zid-lee</em></dd><dt>Русский</dt><dd>якобы, будто бы</dd><dt>Type</dt><dd>stance — what people say, with doubt</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; also front with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, adjectives, clauses</dd><dt>Form</dt><dd>-ly from <em>supposed</em>; the -ed is a full syllable: /zɪd/</dd><dt>Contrast</dt><dd><em>Supposedly</em> signals that the speaker doubts the claim (якобы), unlike <em>presumably</em> (the speaker believes it). The form <em>supposably</em> is heard but counts as an error.</dd></dl>
+<p>According to what people say or believe, though the speaker doubts it is true.</p>
+<ol><li>The old house is <em>supposedly</em> haunted.</li><li>This cream <em>supposedly</em> makes you look ten years younger.</li><li>He was <em>supposedly</em> sick, but I saw him at the game.</li></ol>
+<hr>
+<h3 id="reportedly">reportedly<a class="hash" href="#reportedly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈpɔːrtɪdli/ &middot; <em>rih-POR-tid-lee</em></dd><dt>Русский</dt><dd>по сообщениям, как сообщается</dd><dt>Type</dt><dd>stance — information from reports</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; also front with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, clauses</dd><dt>Form</dt><dd>-ly from <em>reported</em>; the -ed is a full syllable</dd><dt>Contrast</dt><dd><em>Reportedly</em> only says the news comes from reports and is not confirmed; <em>allegedly</em> says someone has been accused of something.</dd></dl>
+<p>According to what has been reported, though it is not confirmed.</p>
+<ol><li>The singer is <em>reportedly</em> planning a world tour.</li><li><em>Reportedly</em>, the two companies have been in talks for months.</li><li>The storm <em>reportedly</em> left thousands without power.</li></ol>
+<hr>
+<h3 id="seemingly">seemingly<a class="hash" href="#seemingly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːmɪŋli/ &middot; <em>SEE-ming-lee</em></dd><dt>Русский</dt><dd>казалось бы, на вид; по-видимому</dd><dt>Type</dt><dd>stance — how things appear</dd><dt>Position</dt><dd>before its word — usually before an adjective; also front with a comma, or mid</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives (<em>seemingly endless</em>), verbs, clauses</dd><dt>Form</dt><dd>-ly from the participle <em>seeming</em></dd><dt>Contrast</dt><dd>Before an adjective, <em>seemingly</em> hints that the look is false: <em>a seemingly simple question</em> = казалось бы, простой вопрос. At the front it is closer to <em>apparently</em>: <em>Seemingly, nobody noticed</em> = судя по всему, никто не заметил.</dd></dl>
+<p>Seemingly has 2 distinct senses.</p>
+<p><strong>1. Appearing to be something, especially when this may not be true.</strong> (казалось бы, на вид)</p>
+<ol><li>It was a <em>seemingly</em> simple question, but nobody could answer it.</li><li>We waited in a <em>seemingly</em> endless line of cars.</li><li>The <em>seemingly</em> quiet town had a lot of secrets.</li></ol>
+<p><strong>2. As far as anyone can tell; apparently.</strong> (по-видимому, судя по всему)</p>
+<ol start="4"><li><em>Seemingly</em>, nobody noticed the mistake.</li><li>The two men were <em>seemingly</em> unaware of each other.</li></ol>
+<hr>
+<h3 id="fortunately">fortunately<a class="hash" href="#fortunately" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrtʃənətli/ &middot; <em>FOR-chuh-nuht-lee</em></dd><dt>Русский</dt><dd>к счастью</dd><dt>Type</dt><dd>stance — the speaker's feeling about it</dd><dt>Position</dt><dd>front — with a comma; also mid, or end after a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses</dd><dt>Form</dt><dd>-ly from <em>fortunate</em></dd></dl>
+<p>Used to say that something good happened, or something bad was avoided, by good luck.</p>
+<ol><li><em>Fortunately</em>, no one was hurt in the accident.</li><li>We <em>fortunately</em> had an umbrella in the car.</li><li><em>Fortunately</em> for us, the store was still open.</li></ol>
+<hr>
+<h3 id="unfortunately">unfortunately<a class="hash" href="#unfortunately" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈfɔːrtʃənətli/ &middot; <em>uhn-FOR-chuh-nuht-lee</em></dd><dt>Русский</dt><dd>к сожалению</dd><dt>Type</dt><dd>stance — the speaker's feeling about it</dd><dt>Position</dt><dd>front — with a comma; also mid, or end after a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses</dd><dt>Form</dt><dd>un- + <em>fortunate</em> + -ly</dd><dt>Contrast</dt><dd><em>Unfortunately</em> is the everyday English for <em>к сожалению</em> — in emails, refusals and bad news. <em>Regrettably</em> is formal and official, <em>sadly</em> adds real emotion, and <em>to my regret</em> sounds stiff.</dd></dl>
+<p>Used to say that something is bad news or not what you wanted.</p>
+<ol><li><em>Unfortunately</em>, the concert is sold out.</li><li>I <em>unfortunately</em> won't be able to make it on Friday.</li><li>The package went to the wrong address, <em>unfortunately</em>.</li></ol>
+<hr>
+<h3 id="luckily">luckily<a class="hash" href="#luckily" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌkəli/ &middot; <em>LUHK-uh-lee</em></dd><dt>Русский</dt><dd>к счастью, по счастью</dd><dt>Type</dt><dd>stance — the speaker's feeling about it</dd><dt>Position</dt><dd>front — with a comma; also mid</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses</dd><dt>Form</dt><dd>-ly from <em>lucky</em>, with <em>y</em> changed to <em>i</em></dd></dl>
+<p>Used to say that something good happened because of good luck.</p>
+<ol><li><em>Luckily</em>, I had my phone with me.</li><li>We <em>luckily</em> found a parking spot right outside.</li><li><em>Luckily</em> for him, the police officer let him go with a warning.</li></ol>
+<hr>
+<h3 id="sadly">sadly<a class="hash" href="#sadly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsædli/ &middot; <em>SAD-lee</em></dd><dt>Русский</dt><dd>к сожалению; грустно, печально</dd><dt>Type</dt><dd>stance — the speaker's feeling about it; also manner and degree</dd><dt>Position</dt><dd>front — with a comma as a stance adverb; end or mid in the manner sense; before its word in the degree sense</dd><dt>Comparison</dt><dd>more/most — in the manner sense only (<em>more sadly</em>); not gradable as a stance adverb</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives and participles (<em>sadly mistaken</em>)</dd><dt>Form</dt><dd>-ly from <em>sad</em></dd><dt>Contrast</dt><dd>Position changes the meaning: <em>Sadly, she left</em> = к сожалению, она ушла; <em>She left sadly</em> = она ушла грустная. <em>Sadly mistaken</em> is degree: “very wrong”, with no sadness at all.</dd></dl>
+<p>Sadly has 3 distinct senses.</p>
+<p><strong>1. Used to say that something is sad or regrettable; unfortunately.</strong> (к сожалению, увы)</p>
+<ol><li><em>Sadly</em>, the old theater was torn down in 2015.</li><li>Her grandfather <em>sadly</em> passed away last spring.</li><li><em>Sadly</em>, the museum is closed on Mondays.</li></ol>
+<p><strong>2. In a sad way.</strong> (грустно, печально)</p>
+<ol start="4"><li>She smiled <em>sadly</em> and waved goodbye.</li><li>He shook his head <em>sadly</em>.</li></ol>
+<p><strong>3. Very much or completely, in a bad way — before a few adjectives and participles.</strong> (глубоко, совсем, прискорбно)</p>
+<ol start="6"><li>If you think I'll pay for that, you're <em>sadly</em> mistaken.</li><li>The old park has been <em>sadly</em> neglected.</li></ol>
+<hr>
+<h3 id="regrettably">regrettably<a class="hash" href="#regrettably" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈɡrɛtəbli/ &middot; <em>rih-GRET-uh-blee</em></dd><dt>Русский</dt><dd>к сожалению, прискорбно</dd><dt>Type</dt><dd>stance — the speaker's feeling about it; also degree</dd><dt>Position</dt><dd>front — with a comma; mid; before its word in the degree sense</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, adjectives (<em>regrettably slow</em>), quantifiers (<em>regrettably few</em>)</dd><dt>Form</dt><dd>-ably from <em>regret</em>, with the <em>t</em> doubled</dd><dt>Contrast</dt><dd><em>Regrettably</em> means “it is a pity”; <em>regretfully</em> means “with regret, feeling sorry” (<em>She regretfully declined</em>). Many Americans use <em>regretfully</em> for both, but careful writing keeps them apart. <em>Regrettably</em> is formal — in conversation say <em>unfortunately</em>.</dd></dl>
+<p>Regrettably has 2 distinct senses.</p>
+<p><strong>1. Used in formal speech or writing to say that something is unfortunate.</strong> (к сожалению)</p>
+<ol><li><em>Regrettably</em>, we are unable to offer you a position at this time.</li><li>The event has <em>regrettably</em> been canceled.</li></ol>
+<p><strong>2. To a degree that is a pity — before an adjective or quantifier.</strong> (прискорбно, досадно)</p>
+<ol start="3"><li><em>Regrettably</em> few students signed up for the program.</li><li>The city's response to the flooding was <em>regrettably</em> slow.</li></ol>
+<hr>
+<h3 id="amazingly">amazingly<a class="hash" href="#amazingly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmeɪzɪŋli/ &middot; <em>uh-MAY-zing-lee</em></dd><dt>Русский</dt><dd>удивительно, поразительно</dd><dt>Type</dt><dd>stance — surprise; also degree</dd><dt>Position</dt><dd>before its word — before an adjective or adverb; front with a comma as a stance adverb</dd><dt>Comparison</dt><dd>more/most — <em>even more amazingly</em>, at the front</dd><dt>Modifies</dt><dd>adjectives, adverbs, clauses</dd><dt>Form</dt><dd>-ly from <em>amazing</em></dd><dt>Contrast</dt><dd>Position changes the meaning: <em>Amazingly, she sang well</em> = удивительно, что она хорошо спела; <em>She sang amazingly well</em> = она пела потрясающе.</dd></dl>
+<p>Amazingly has 2 distinct senses.</p>
+<p><strong>1. To a very great or surprising degree; extremely.</strong> (удивительно, невероятно)</p>
+<ol><li>The food was <em>amazingly</em> good.</li><li>She handled the bad news <em>amazingly</em> well.</li><li>The tickets were <em>amazingly</em> cheap.</li></ol>
+<p><strong>2. Used to say that something is very surprising.</strong> (как ни удивительно, поразительно, но)</p>
+<ol start="4"><li><em>Amazingly</em>, nobody was hurt in the crash.</li><li>The old car <em>amazingly</em> still runs.</li><li>Even <em>more amazingly</em>, the dog found its way home.</li></ol>
+<hr>
+<h3 id="surprisingly">surprisingly<a class="hash" href="#surprisingly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈpraɪzɪŋli/ &middot; <em>sur-PRY-zing-lee</em></dd><dt>Русский</dt><dd>на удивление, удивительно</dd><dt>Type</dt><dd>stance — surprise; also degree</dd><dt>Position</dt><dd>before its word — before an adjective or adverb; front with a comma as a stance adverb</dd><dt>Comparison</dt><dd>more/most — <em>even more surprisingly</em>, <em>most surprisingly</em>, at the front</dd><dt>Modifies</dt><dd>adjectives, adverbs, clauses</dd><dt>Form</dt><dd>-ly from <em>surprising</em></dd><dt>Contrast</dt><dd>False friend: Russian <em>неожиданно</em> often means “suddenly” (<em>Неожиданно он встал</em>) — that is <em>suddenly</em>, not <em>surprisingly</em>. <em>Surprisingly</em> only says the fact was not expected. <em>Not surprisingly</em> at the front means “as expected”.</dd></dl>
+<p>Surprisingly has 2 distinct senses.</p>
+<p><strong>1. To a degree that you would not expect.</strong> (на удивление)</p>
+<ol><li>The test was <em>surprisingly</em> easy.</li><li>The hotel was <em>surprisingly</em> cheap for Manhattan.</li><li>He took the news <em>surprisingly</em> well.</li></ol>
+<p><strong>2. Used to say that a fact or event is not what you expected.</strong> (как ни странно, удивительно, но)</p>
+<ol start="4"><li><em>Surprisingly</em>, the youngest runner won the race.</li><li><em>Not surprisingly</em>, the plan failed.</li><li><em>Most surprisingly</em>, nobody complained about the price.</li></ol>
+<hr>
+<h3 id="thankfully">thankfully<a class="hash" href="#thankfully" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθæŋkfəli/ &middot; <em>THANGK-fuh-lee</em></dd><dt>Русский</dt><dd>к счастью, слава богу; с благодарностью</dd><dt>Type</dt><dd>stance — relief; also manner</dd><dt>Position</dt><dd>front — with a comma as a stance adverb; mid or end in the manner sense</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs</dd><dt>Form</dt><dd>-ly from <em>thankful</em></dd><dt>Contrast</dt><dd>Position changes the meaning: <em>Thankfully, he took the money</em> = слава богу, он взял деньги; <em>He took the money thankfully</em> = взял деньги с благодарностью. The stance use is standard American English.</dd></dl>
+<p>Thankfully has 2 distinct senses.</p>
+<p><strong>1. Used to say you are glad and relieved that something happened or did not happen.</strong> (к счастью, слава богу)</p>
+<ol><li><em>Thankfully</em>, the rain stopped before the wedding.</li><li>The surgery was <em>thankfully</em> a success.</li><li><em>Thankfully</em>, nobody was home when the tree fell.</li></ol>
+<p><strong>2. In a grateful way.</strong> (с благодарностью)</p>
+<ol start="4"><li>He smiled <em>thankfully</em> at the nurse.</li><li>She sank <em>thankfully</em> into the hot bath.</li></ol>
+<hr>
+<h3 id="ironically">ironically<a class="hash" href="#ironically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aɪˈrɑːnɪkli/ &middot; <em>eye-RAHN-ik-lee</em></dd><dt>Русский</dt><dd>по иронии судьбы; иронично</dd><dt>Type</dt><dd>stance — an unexpected reversal; also manner</dd><dt>Position</dt><dd>front — with a comma as a stance adverb; end in the manner sense</dd><dt>Comparison</dt><dd>more/most — <em>even more ironically</em>, <em>most ironically</em>, at the front; <em>more ironically</em> in the manner sense</dd><dt>Modifies</dt><dd>clauses, verbs</dd><dt>Form</dt><dd>-ally from <em>ironic</em>; spelled -ically, said /-ɪkli/</dd><dt>Contrast</dt><dd>Strictly, <em>ironically</em> needs a result opposite to what you would expect (<em>по иронии судьбы</em>); Americans often use it loosely for any coincidence or bad luck, which careful writers dislike.</dd></dl>
+<p>Ironically has 2 distinct senses.</p>
+<p><strong>1. Used to say that something happened in the opposite way to what you would expect, in a strange or funny way.</strong> (по иронии судьбы)</p>
+<ol><li><em>Ironically</em>, the fire station burned down.</li><li>The anti-smoking ad was, <em>ironically</em>, paid for by a tobacco company.</li><li><em>Ironically</em>, the more he tried to relax, the more stressed he got.</li></ol>
+<p><strong>2. In an ironic way, meaning the opposite of what you say.</strong> (иронично, с иронией)</p>
+<ol start="4"><li>“Great job,” he said <em>ironically</em>, looking at the broken vase.</li><li>She smiled <em>ironically</em> when he called it a small problem.</li></ol>
+<hr>
+<h3 id="predictably">predictably<a class="hash" href="#predictably" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈdɪktəbli/ &middot; <em>prih-DIK-tuh-blee</em></dd><dt>Русский</dt><dd>как и следовало ожидать; предсказуемо</dd><dt>Type</dt><dd>stance — as expected; also manner</dd><dt>Position</dt><dd>front — with a comma as a stance adverb; mid before a verb or adjective (<em>predictably dull</em>); end in the manner sense</dd><dt>Comparison</dt><dd>more/most — in the manner sense (<em>more predictably</em>); not gradable as a stance adverb</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives (<em>predictably dull</em>)</dd><dt>Form</dt><dd>-ably from <em>predict</em></dd><dt>Contrast</dt><dd>Position changes the meaning: <em>Predictably, he lost</em> = как и следовало ожидать, он проиграл; <em>He played predictably</em> = он играл предсказуемо.</dd></dl>
+<p>Predictably has 2 distinct senses.</p>
+<p><strong>1. Used to say that something happened exactly as people expected.</strong> (как и следовало ожидать)</p>
+<ol><li><em>Predictably</em>, the kids got bored after ten minutes.</li><li>Gas prices, <em>predictably</em>, went up before the holiday weekend.</li><li>The proposal was <em>predictably</em> rejected by the board.</li></ol>
+<p><strong>2. In a way that can be predicted, often too easily.</strong> (предсказуемо)</p>
+<ol start="4"><li>The movie ended <em>predictably</em>, with a big wedding.</li><li>The new software behaves <em>more predictably</em> than the old version.</li></ol>
+<hr>
+<h3 id="curiously">curiously<a class="hash" href="#curiously" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkjʊriəsli/ &middot; <em>KYUUR-ee-uhs-lee</em></dd><dt>Русский</dt><dd>с любопытством; как ни странно</dd><dt>Type</dt><dd>stance — something odd; also manner and degree</dd><dt>Position</dt><dd>end — in the manner sense; front with a comma as a stance adverb; before its word before an adjective</dd><dt>Comparison</dt><dd>more/most — in the manner sense (<em>more curiously</em>); not gradable as a stance adverb</dd><dt>Modifies</dt><dd>verbs, clauses, adjectives (<em>curiously quiet</em>)</dd><dt>Form</dt><dd>-ly from <em>curious</em></dd><dt>Contrast</dt><dd>Position changes the meaning: <em>She asked about him curiously</em> = спросила с любопытством; <em>Curiously, she asked about him</em> = странно, что она спросила. It is not <em>курьёзно</em> (funny, absurd).</dd></dl>
+<p>Curiously has 3 distinct senses.</p>
+<p><strong>1. In a way that shows you want to know about something.</strong> (с любопытством)</p>
+<ol><li>The cat watched the puppy <em>curiously</em>.</li><li>She looked at me <em>curiously</em>, as if trying to remember my name.</li></ol>
+<p><strong>2. Used to say that a fact is strange or hard to explain.</strong> (как ни странно, любопытно, что)</p>
+<ol start="3"><li><em>Curiously</em>, nobody heard the alarm.</li><li><em>Curiously</em> enough, the letter had no return address.</li></ol>
+<p><strong>3. Strangely, in a way that is hard to explain — before an adjective.</strong> (странно, необычно)</p>
+<ol start="5"><li>The street was <em>curiously</em> empty for a Saturday night.</li><li>He seemed <em>curiously</em> calm after the accident.</li></ol>
+<hr>
+<h3 id="understandably">understandably<a class="hash" href="#understandably" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌndərˈstændəbli/ &middot; <em>uhn-dur-STAN-duh-blee</em></dd><dt>Русский</dt><dd>что вполне понятно, по понятным причинам</dd><dt>Type</dt><dd>stance — a natural reaction</dd><dt>Position</dt><dd>mid — before the adjective or main verb, after <em>be</em>; also front with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives (<em>understandably upset</em>), clauses</dd><dt>Form</dt><dd>-ably from <em>understand</em></dd><dt>Contrast</dt><dd><em>Understandably</em> does not mean “in a way that is easy to understand” (<em>понятно объяснить</em> = <em>explain clearly</em>). It means “and it is easy to see why”: <em>She was understandably upset</em> = она расстроилась, что вполне понятно.</dd></dl>
+<p>Used to say that a feeling or reaction is natural and easy to understand.</p>
+<ol><li>She was <em>understandably</em> upset about losing her job.</li><li><em>Understandably</em>, many parents are worried about the new policy.</li><li>He's <em>understandably</em> nervous before the surgery.</li></ol>
+<hr>
+<h3 id="hopefully">hopefully<a class="hash" href="#hopefully" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊpfəli/ &middot; <em>HOHP-fuh-lee</em></dd><dt>Русский</dt><dd>надеюсь, будем надеяться; с надеждой</dd><dt>Type</dt><dd>stance — the speaker's hope; also manner</dd><dt>Position</dt><dd>front — with a comma as a stance adverb; also mid; end in the manner sense</dd><dt>Comparison</dt><dd>more/most — in the manner sense (<em>more hopefully</em>); not gradable as a stance adverb</dd><dt>Modifies</dt><dd>clauses, verbs</dd><dt>Form</dt><dd>-ly from <em>hopeful</em></dd><dt>Contrast</dt><dd>Russian speakers tend to say <em>I hope</em> every time; <em>Hopefully</em> is the natural spoken choice and fully standard in American English. Position changes the meaning: <em>Hopefully, he'll call</em> = надеюсь, он позвонит; <em>He looked at the phone hopefully</em> = он с надеждой смотрел на телефон.</dd></dl>
+<p>Hopefully has 2 distinct senses.</p>
+<p><strong>1. Used to say what you hope will happen.</strong> (надеюсь, будем надеяться)</p>
+<ol><li><em>Hopefully</em>, we'll be home before dark.</li><li>The package should <em>hopefully</em> arrive by Friday.</li><li>“Will it be fixed soon?” “<em>Hopefully</em>.”</li></ol>
+<p><strong>2. In a hopeful way.</strong> (с надеждой)</p>
+<ol start="4"><li>The dog looked up at me <em>hopefully</em>.</li><li>She glanced <em>hopefully</em> at her phone.</li></ol>
+<hr>
+<h3 id="interestingly">interestingly<a class="hash" href="#interestingly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntrəstɪŋli/ &middot; <em>IN-truh-sting-lee</em></dd><dt>Русский</dt><dd>интересно, что; любопытно, что</dd><dt>Type</dt><dd>stance — a fact worth noticing</dd><dt>Position</dt><dd>front — with a comma; also mid after a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses</dd><dt>Form</dt><dd>-ly from <em>interesting</em></dd><dt>Contrast</dt><dd><em>Interestingly</em> introduces a fact; it is not a reply like <em>Интересно!</em> (say <em>Interesting!</em> or <em>That's interesting</em>), and it never means “I wonder”: <em>Интересно, придёт ли он</em> = <em>I wonder if he'll come</em>.</dd></dl>
+<p>Used to introduce a fact that the speaker finds interesting or unexpected.</p>
+<ol><li><em>Interestingly</em>, the town has more dogs than people.</li><li><em>Interestingly</em> enough, she never learned to drive.</li><li>The study, <em>interestingly</em>, found no link between the two.</li></ol>
+<hr>
+<h3 id="naturally">naturally<a class="hash" href="#naturally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnætʃərəli/ &middot; <em>NACH-ur-uh-lee</em></dd><dt>Русский</dt><dd>естественно, конечно; от природы</dd><dt>Type</dt><dd>stance — as expected; also manner</dd><dt>Position</dt><dd>front — with a comma as a stance adverb; mid; end in the manner sense</dd><dt>Comparison</dt><dd>more/most — in the manner sense (<em>more naturally</em>); not gradable as a stance adverb</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives (<em>naturally curly</em>)</dd><dt>Form</dt><dd>-ly from <em>natural</em></dd><dt>Contrast</dt><dd>Position changes the meaning: <em>Naturally, she smiled</em> = конечно, она улыбнулась; <em>She smiled naturally</em> = она улыбнулась непринуждённо. In <em>Just act natural</em>, Americans use the adjective, not <em>naturally</em>.</dd></dl>
+<p>Naturally has 4 distinct senses.</p>
+<p><strong>1. Used to say that something is expected or normal; of course.</strong> (естественно, конечно)</p>
+<ol><li><em>Naturally</em>, we want the best for our kids.</li><li>He was <em>naturally</em> disappointed with the result.</li><li>“Are you coming to the wedding?” “<em>Naturally</em>.”</li></ol>
+<p><strong>2. Because of the qualities someone or something is born with.</strong> (от природы; легко (даётся))</p>
+<ol start="4"><li>Her hair is <em>naturally</em> curly.</li><li>Some people are just <em>naturally</em> good at math.</li><li>Public speaking doesn't come <em>naturally</em> to me.</li></ol>
+<p><strong>3. By nature, without chemicals, medicine or other outside help.</strong> (естественным путём)</p>
+<ol start="7"><li>The cut will heal <em>naturally</em> in a few days.</li><li>Radon is a <em>naturally</em> occurring gas.</li></ol>
+<p><strong>4. In a relaxed, normal way that is not forced.</strong> (естественно, непринуждённо)</p>
+<ol start="9"><li>Try to smile <em>naturally</em> for the camera.</li><li>After a year in Chicago, she speaks English <em>more naturally</em>.</li></ol>
+<hr>
+<h3 id="frankly">frankly<a class="hash" href="#frankly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfræŋkli/ &middot; <em>FRANGK-lee</em></dd><dt>Русский</dt><dd>откровенно говоря; откровенно</dd><dt>Type</dt><dd>stance — how it is being said; also manner</dd><dt>Position</dt><dd>front — with a comma as a stance adverb; also mid after a comma; end in the manner sense</dd><dt>Comparison</dt><dd>more/most — in the manner sense (<em>more frankly</em>); not gradable as a stance adverb</dd><dt>Modifies</dt><dd>clauses, verbs</dd><dt>Form</dt><dd>-ly from <em>frank</em></dd><dt>Contrast</dt><dd><em>Frankly</em> usually warns that a blunt or critical opinion is coming, so it is sharper than <em>откровенно говоря</em>. <em>Frankly speaking</em> is understood but sounds non-native in American English — say <em>Frankly</em> or <em>To be honest</em>.</dd></dl>
+<p>Frankly has 2 distinct senses.</p>
+<p><strong>1. Used to show that you are giving your honest opinion, even if it is not welcome.</strong> (откровенно говоря, честно говоря)</p>
+<ol><li><em>Frankly</em>, I don't care what he thinks.</li><li>The service was, <em>frankly</em>, terrible.</li><li><em>Quite frankly</em>, the plan is a disaster.</li></ol>
+<p><strong>2. In an open and honest way.</strong> (откровенно, прямо)</p>
+<ol start="4"><li>She spoke <em>frankly</em> about her struggle with depression.</li><li>Can I talk to you <em>frankly</em> for a minute?</li></ol>
+<hr>
+<h3 id="honestly">honestly<a class="hash" href="#honestly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːnəstli/ &middot; <em>AHN-uhst-lee</em></dd><dt>Русский</dt><dd>честно говоря; честно</dd><dt>Type</dt><dd>stance — how it is being said; also manner</dd><dt>Position</dt><dd>front — with a comma as a stance adverb; mid before a verb (<em>I honestly thought</em>); end in the manner sense</dd><dt>Comparison</dt><dd>more/most — in the manner sense (<em>more honestly</em>); not gradable as a stance adverb</dd><dt>Modifies</dt><dd>clauses, verbs</dd><dt>Form</dt><dd>-ly from <em>honest</em>; the <em>h</em> is silent</dd><dt>Contrast</dt><dd>Position changes the meaning: <em>Honestly, I don't know</em> comments on what you are saying (честно говоря, не знаю); <em>Answer the questions honestly</em> describes how (отвечайте честно). At the front with an annoyed tone, <em>Honestly!</em> means “ну честное слово!”.</dd></dl>
+<p>Honestly has 3 distinct senses.</p>
+<p><strong>1. Used to stress that you are telling the truth or giving your real opinion.</strong> (честно говоря, правда)</p>
+<ol><li><em>Honestly</em>, I don't remember what I said.</li><li>I <em>honestly</em> thought the store was open.</li><li>“Did you like the movie?” “<em>Honestly</em>? Not really.”</li></ol>
+<p><strong>2. In an honest way, without lying or cheating.</strong> (честно)</p>
+<ol start="4"><li>He made his money <em>honestly</em>.</li><li>Please answer every question <em>honestly</em>.</li></ol>
+<p><strong>3. Used to show that you are annoyed or disapprove.</strong> (ну честное слово, ну правда же)</p>
+<ol start="6"><li><em>Honestly</em>, can't you ever be on time?</li><li>Oh, <em>honestly</em> — who leaves the milk out all night?</li></ol>
+<hr>
+<h3 id="seriously">seriously<a class="hash" href="#seriously" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪriəsli/ &middot; <em>SEER-ee-uhs-lee</em></dd><dt>Русский</dt><dd>серьёзно; тяжело</dd><dt>Type</dt><dd>stance — speaking in earnest; also manner and degree</dd><dt>Position</dt><dd>end — in the manner sense (<em>take it seriously</em>); before its word in the degree sense; front with a comma as a stance adverb</dd><dt>Comparison</dt><dd>more/most — <em>more seriously</em>, <em>most seriously</em></dd><dt>Modifies</dt><dd>verbs, adjectives and participles (<em>seriously injured</em>), clauses</dd><dt>Form</dt><dd>-ly from <em>serious</em></dd><dt>Contrast</dt><dd><em>Seriously ill</em> or <em>seriously injured</em> means тяжело болен, тяжело ранен — nothing about attitude. In American speech <em>Seriously?</em> means “Are you kidding me?” (Да ладно?), often with annoyance.</dd></dl>
+<p>Seriously has 4 distinct senses.</p>
+<p><strong>1. In a serious way, with careful thought and not as a joke.</strong> (серьёзно)</p>
+<ol><li>You need to take your health <em>more seriously</em>.</li><li>We're <em>seriously</em> thinking about moving to Texas.</li><li>Nobody took his threats <em>seriously</em>.</li></ol>
+<p><strong>2. Badly; to a dangerous degree.</strong> (тяжело, серьёзно)</p>
+<ol start="4"><li>Two people were <em>seriously</em> injured in the crash.</li><li>Her father is <em>seriously</em> ill.</li></ol>
+<p><strong>3. Used to show you mean what you say, or, as a question, to ask whether someone really means it.</strong> (если серьёзно, кроме шуток; серьёзно?)</p>
+<ol start="6"><li><em>Seriously</em>, though, are you okay?</li><li>You spent $500 on sneakers? <em>Seriously</em>?</li></ol>
+<p><strong>4. Informal: very, really.</strong> (реально, очень)</p>
+<ol start="8"><li>That pizza was <em>seriously</em> good.</li><li>I'm <em>seriously</em> tired of this weather.</li></ol>
+<hr>
+<h3 id="admittedly">admittedly<a class="hash" href="#admittedly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈmɪtɪdli/ &middot; <em>uhd-MIT-id-lee</em></dd><dt>Русский</dt><dd>правда, надо признать</dd><dt>Type</dt><dd>stance — a concession</dd><dt>Position</dt><dd>front — with a comma; also mid</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, adjectives</dd><dt>Form</dt><dd>-ly from <em>admitted</em>; the -ed is a full syllable</dd><dt>Contrast</dt><dd><em>Admittedly</em> concedes a weak point and is normally followed by <em>but</em>. It does not mean <em>по общему признанию</em> (widely recognized) — that is <em>by all accounts</em> or <em>widely</em>.</dd></dl>
+<p>Used to admit that something is true, usually before a point that goes against it.</p>
+<ol><li><em>Admittedly</em>, the hotel was expensive, but the view was worth it.</li><li>The movie was, <em>admittedly</em>, a bit too long.</li><li>It's <em>admittedly</em> not a perfect solution, but it will work for now.</li></ol>
+<hr>
+<h3 id="basically">basically<a class="hash" href="#basically" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪsɪkli/ &middot; <em>BAY-sik-lee</em></dd><dt>Русский</dt><dd>по сути, в основном; в общем; практически</dd><dt>Type</dt><dd>stance — summing up or simplifying; also degree</dd><dt>Position</dt><dd>mid — before the main verb or adjective, after <em>be</em>; front with a comma when summing up</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives</dd><dt>Form</dt><dd>-ally from <em>basic</em>; spelled -ically, never <em>basicly</em></dd><dt>Contrast</dt><dd>Russian <em>в принципе</em> is often <em>in principle</em> (in theory), not <em>basically</em>: <em>In principle I agree, but…</em>. Used as a filler in every sentence, <em>basically</em> sounds sloppy, especially in writing.</dd></dl>
+<p>Basically has 3 distinct senses.</p>
+<p><strong>1. In the most important ways; fundamentally.</strong> (по сути, в основном)</p>
+<ol><li>The two phones are <em>basically</em> the same.</li><li>Her story is <em>basically</em> true, though she left out some details.</li><li>He's <em>basically</em> a nice guy.</li></ol>
+<p><strong>2. Used to sum something up in a simple way.</strong> (в общем, короче)</p>
+<ol start="4"><li><em>Basically</em>, we ran out of money.</li><li>So <em>basically</em>, you're telling me I'm fired?</li></ol>
+<p><strong>3. Almost completely; practically.</strong> (практически, почти)</p>
+<ol start="6"><li>I'm <em>basically</em> done — just a few emails left.</li><li>He <em>basically</em> lives at his girlfriend's apartment.</li></ol>
+<hr>
+<h3 id="actually">actually<a class="hash" href="#actually" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæktʃuəli/ &middot; <em>AK-choo-uh-lee</em></dd><dt>Русский</dt><dd>на самом деле, вообще-то</dd><dt>Type</dt><dd>stance — what is really true</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; front with a comma when correcting</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives</dd><dt>Form</dt><dd>-ly from <em>actual</em></dd><dt>Contrast</dt><dd>False friend: <em>actually</em> never means <em>актуально</em> (relevant, up to date — say <em>relevant</em> or <em>current</em>), and <em>actual</em> is not <em>актуальный</em>. <em>В настоящее время</em> is <em>currently</em>, not <em>actually</em>.</dd></dl>
+<p>Actually has 4 distinct senses.</p>
+<p><strong>1. In fact; really — often in contrast to what was expected or what seems true.</strong> (на самом деле, в действительности)</p>
+<ol><li>The restaurant looks small, but it's <em>actually</em> pretty big inside.</li><li>What <em>actually</em> happened that night?</li><li>I <em>actually</em> enjoyed the movie more than the book.</li></ol>
+<p><strong>2. Used to correct someone or to disagree politely.</strong> (вообще-то)</p>
+<ol start="4"><li>“You're from Ohio, right?” “<em>Actually</em>, I'm from Indiana.”</li><li><em>Actually</em>, that's not quite what I said.</li></ol>
+<p><strong>3. Used when you change your mind or add a new request.</strong> (хотя нет, знаешь что)</p>
+<ol start="6"><li><em>Actually</em>, I'll have the salmon instead.</li><li><em>Actually</em>, could you pick up some milk on the way home?</li></ol>
+<p><strong>4. Used to show that something is surprising.</strong> (даже, надо же)</p>
+<ol start="8"><li>He <em>actually</em> apologized — I couldn't believe it.</li><li>The kids <em>actually</em> cleaned their rooms without being asked.</li></ol>
+<hr>
+<h3 id="literally">literally<a class="hash" href="#literally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪtərəli/ &middot; <em>LIT-ur-uh-lee</em></dd><dt>Русский</dt><dd>буквально; дословно</dd><dt>Type</dt><dd>stance — exactness of the words; also degree</dd><dt>Position</dt><dd>mid — before the main verb or the word it stresses; end in the translation sense</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, numbers (<em>literally thousands</em>), adjectives, phrases</dd><dt>Form</dt><dd>-ly from <em>literal</em></dd><dt>Contrast</dt><dd>Informal <em>literally</em> for emphasis (<em>I literally died laughing</em>) is very common but annoys many listeners; in writing keep it for things that are really true. <em>Take something literally</em> = понимать буквально.</dd></dl>
+<p>Literally has 3 distinct senses.</p>
+<p><strong>1. In the real, exact sense of the words, not as an exaggeration.</strong> (буквально, в прямом смысле)</p>
+<ol><li>He <em>literally</em> lives next door to his boss.</li><li>There were <em>literally</em> thousands of people in the square.</li><li>Don't take everything he says so <em>literally</em>.</li></ol>
+<p><strong>2. Word for word, in a translation or explanation of a name.</strong> (дословно)</p>
+<ol start="4"><li>The name <em>literally</em> means “red river.”</li><li>You can't translate this idiom <em>literally</em>.</li></ol>
+<p><strong>3. Informal: used for emphasis, even when the words are not really true.</strong> (буквально, прямо, реально)</p>
+<ol start="6"><li>I <em>literally</em> died laughing.</li><li>My phone is <em>literally</em> glued to my hand.</li></ol>
+<hr>
+<h3 id="indeed">indeed<a class="hash" href="#indeed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdiːd/ &middot; <em>in-DEED</em></dd><dt>Русский</dt><dd>действительно, в самом деле</dd><dt>Type</dt><dd>stance — confirming or strengthening; also linking and degree</dd><dt>Position</dt><dd>mid — after <em>be</em> and the first auxiliary; after its word in <em>very … indeed</em>; front before a stronger point</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, <em>very</em> + adjective or adverb</dd><dt>Form</dt><dd>in + deed, written as one word</dd><dt>Contrast</dt><dd><em>Indeed</em> is formal in American English; in conversation <em>really</em> or <em>yes</em> is more natural, and <em>very good indeed</em> sounds British. A surprised <em>Действительно?</em> is <em>Really?</em>, not <em>Indeed?</em>.</dd></dl>
+<p>Indeed has 4 distinct senses.</p>
+<p><strong>1. Used to confirm or agree that something is true.</strong> (действительно, в самом деле)</p>
+<ol><li>The results were <em>indeed</em> impressive.</li><li>“Is this your car?” “It is <em>indeed</em>.”</li><li>We did <em>indeed</em> receive your letter.</li></ol>
+<p><strong>2. Used to add a stronger point to what was just said.</strong> (более того, и даже)</p>
+<ol start="4"><li>The plan is risky; <em>indeed</em>, it may be impossible.</li><li>Many students, <em>indeed</em> most of them, passed the test.</li></ol>
+<p><strong>3. Used after <em>very</em> and an adjective or adverb for extra emphasis.</strong> (очень, весьма)</p>
+<ol start="6"><li>Thank you very much <em>indeed</em>.</li><li>It was a very good meal <em>indeed</em>.</li></ol>
+<p><strong>4. Used to repeat a question and show that you also wonder about it, or find it odd.</strong> (и правда, вот и я думаю)</p>
+<ol start="8"><li>“Why would anyone do that?” “Why <em>indeed</em>?”</li><li>“Who's paying for all this?” “Who <em>indeed</em>.”</li></ol>
+<hr>
+<h3 id="doubtless">doubtless<a class="hash" href="#doubtless" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaʊtləs/ &middot; <em>DOWT-luhs</em></dd><dt>Русский</dt><dd>наверняка, несомненно</dd><dt>Type</dt><dd>stance — strong likelihood</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; also front</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs</dd><dt>Form</dt><dd>-less, with no -ly (<em>doubtlessly</em> exists but is rarer)</dd><dt>Contrast</dt><dd>Despite its look, <em>doubtless</em> often means only “probably”: <em>You have doubtless heard the news</em> = вы, наверное, уже слышали. For full certainty use <em>undoubtedly</em> or <em>without a doubt</em>. It is formal and mostly written.</dd></dl>
+<p>Doubtless has 2 distinct senses.</p>
+<p><strong>1. Very probably; the speaker is fairly sure.</strong> (наверняка, вероятно)</p>
+<ol><li>You have <em>doubtless</em> heard the news by now.</li><li>He will <em>doubtless</em> complain about the price.</li></ol>
+<p><strong>2. Without doubt; certainly.</strong> (несомненно)</p>
+<ol start="3"><li>It was <em>doubtless</em> the right decision.</li><li>Her talent is <em>doubtless</em> real, but she needs more practice.</li></ol>
+<hr>
+<h3 id="essentially">essentially<a class="hash" href="#essentially" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈsɛnʃəli/ &middot; <em>ih-SEN-shuh-lee</em></dd><dt>Русский</dt><dd>по сути, в сущности</dd><dt>Type</dt><dd>stance — summing up; also degree</dd><dt>Position</dt><dd>mid — before the main verb or adjective, after <em>be</em>; front with a comma when summing up</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, verbs, adjectives</dd><dt>Form</dt><dd>-ly from <em>essential</em></dd><dt>Contrast</dt><dd>False friend: <em>essentially</em> is not <em>существенно</em> (considerably): <em>Prices rose significantly</em>, not <em>essentially</em>. It means “in essence”, and is a more formal <em>basically</em>.</dd></dl>
+<p>Essentially has 2 distinct senses.</p>
+<p><strong>1. In the most basic and important way; fundamentally.</strong> (по сути, в своей основе)</p>
+<ol><li>The two plans are <em>essentially</em> the same.</li><li>She is <em>essentially</em> a shy person.</li><li>The rules have stayed <em>essentially</em> unchanged since 1990.</li></ol>
+<p><strong>2. In effect; almost completely.</strong> (фактически, практически)</p>
+<ol start="4"><li>The work is <em>essentially</em> finished — we just need to paint.</li><li><em>Essentially</em>, what he's saying is no.</li></ol>
+<hr>
+<h3 id="truly">truly<a class="hash" href="#truly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtruːli/ &middot; <em>TROO-lee</em></dd><dt>Русский</dt><dd>по-настоящему, поистине; искренне</dd><dt>Type</dt><dd>stance — sincerity and emphasis; also degree</dd><dt>Position</dt><dd>before its word — before an adjective; mid before a verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, verbs</dd><dt>Form</dt><dd>-ly from <em>true</em>, dropping the <em>e</em>; never <em>truely</em></dd><dt>Contrast</dt><dd><em>Truly</em> is more formal and emotional than <em>really</em>. <em>Yours truly</em> at the end of a letter is formal (искренне ваш); in speech <em>yours truly</em> is a fixed phrase that jokingly means “me” (ваш покорный слуга).</dd></dl>
+<p>Truly has 3 distinct senses.</p>
+<p><strong>1. Really; to a very great degree — before an adjective.</strong> (поистине, по-настоящему)</p>
+<ol><li>It was a <em>truly</em> beautiful wedding.</li><li>The view from the top is <em>truly</em> amazing.</li></ol>
+<p><strong>2. Sincerely; with real feeling.</strong> (искренне)</p>
+<ol start="3"><li>I'm <em>truly</em> sorry for your loss.</li><li>She <em>truly</em> loves her job.</li></ol>
+<p><strong>3. In fact and completely, not just in name or appearance.</strong> (действительно, на самом деле)</p>
+<ol start="5"><li>Nobody <em>truly</em> understands how the brain works.</li><li>Is he <em>truly</em> happy, or just pretending?</li></ol>
+<hr>
+<h3 id="genuinely">genuinely<a class="hash" href="#genuinely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛnjuɪnli/ &middot; <em>JEN-yoo-in-lee</em></dd><dt>Русский</dt><dd>искренне; действительно, по-настоящему</dd><dt>Type</dt><dd>stance — sincerity; also degree</dd><dt>Position</dt><dd>before its word — before an adjective; mid before a verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, verbs</dd><dt>Form</dt><dd>-ly from <em>genuine</em></dd><dt>Contrast</dt><dd>Pronunciation trap: the last syllable of <em>genuine</em> is /ɪn/, not /aɪn/ like <em>wine</em>, so <em>genuinely</em> is JEN-yoo-in-lee.</dd></dl>
+<p>Genuinely has 2 distinct senses.</p>
+<p><strong>1. With real feeling; sincerely.</strong> (искренне)</p>
+<ol><li>She <em>genuinely</em> cares about her students.</li><li>I was <em>genuinely</em> happy for him.</li><li>He seemed <em>genuinely</em> surprised by the party.</li></ol>
+<p><strong>2. Really, and not just seeming to be.</strong> (действительно, по-настоящему)</p>
+<ol start="4"><li>This is a <em>genuinely</em> new approach to the problem.</li><li>Is the painting <em>genuinely</em> old, or is it a copy?</li></ol>
+<hr>
+<h3 id="likely">likely<a class="hash" href="#likely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪkli/ &middot; <em>LYK-lee</em></dd><dt>Русский</dt><dd>вероятно, скорее всего</dd><dt>Type</dt><dd>stance — likelihood</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; <em>most likely</em> also front</dd><dt>Comparison</dt><dd>more/most — <em>more likely</em>, <em>most likely</em>; also <em>more than likely</em> and <em>very likely</em></dd><dt>Modifies</dt><dd>verbs, clauses</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>likely</em> (<em>a likely result</em>)</dd><dt>Contrast</dt><dd>Word-class trap: in <em>He is likely to win</em>, <em>likely</em> is an adjective (with <em>to</em>); the adverb has no <em>to</em>: <em>He will likely win</em>. US/UK split: bare <em>He'll likely win</em> is normal American English, while British English prefers <em>He'll probably win</em> or <em>most likely</em>.</dd></dl>
+<p>Probably.</p>
+<ol><li>She'll <em>likely</em> be late again.</li><li><em>Most likely</em>, the flight will be delayed.</li><li>Prices will <em>more than likely</em> go up next year.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

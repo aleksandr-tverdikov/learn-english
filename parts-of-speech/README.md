@@ -1,6 +1,6 @@
 # Parts of Speech
 
-The nine word classes of American English, one folder each. Every folder holds a grammar reference; seven of them also hold a dictionary of the words in that class.
+The nine word classes of American English, one folder each. Every folder holds a grammar reference; eight of them also hold a dictionary of the words in that class.
 
 [← Back to the library](../README.md) &middot; [Pronunciation guide](../10-pronunciation/README.md)
 
@@ -12,7 +12,7 @@ The nine word classes of American English, one folder each. Every folder holds a
 | 2 | Pronouns | [02-pronouns](02-pronouns/README.md) | **[512 entries](02-pronouns/catalog/README.md)** &middot; [browse](02-pronouns/catalog/browse.html) |
 | 3 | Verbs | [03-verbs](03-verbs/README.md) | **[6,940 verbs](03-verbs/catalog/README.md)** &middot; [browse](03-verbs/catalog/browse.html) |
 | 4 | Adjectives | [04-adjectives](04-adjectives/README.md) | — |
-| 5 | Adverbs | [05-adverbs](05-adverbs/README.md) | — |
+| 5 | Adverbs | [05-adverbs](05-adverbs/README.md) | **[2,590 entries](05-adverbs/catalog/README.md)** &middot; [browse](05-adverbs/catalog/browse.html) |
 | 6 | Prepositions | [06-prepositions](06-prepositions/README.md) | **[1,297 entries](06-prepositions/catalog/README.md)** &middot; [browse](06-prepositions/catalog/browse.html) |
 | 7 | Conjunctions | [07-conjunctions](07-conjunctions/README.md) | **[816 entries](07-conjunctions/catalog/README.md)** &middot; [browse](07-conjunctions/catalog/browse.html) |
 | 8 | Interjections | [08-interjections](08-interjections/README.md) | **[1,602 entries](08-interjections/catalog/README.md)** &middot; [browse](08-interjections/catalog/browse.html) |
@@ -24,7 +24,7 @@ Traditional grammar counts eight parts of speech and files *the*, *my*, *some*, 
 
 Every folder has a `README.md` covering the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice exercises with answers.
 
-Seven folders also have a `catalog/` subfolder — the **lexicon** rather than the grammar. Five of them are the **closed classes**, where the full list of words is finite and can actually be written down:
+Eight folders also have a `catalog/` subfolder — the **lexicon** rather than the grammar. Five of them are the **closed classes**, where the full list of words is finite and can actually be written down:
 
 ```
 07-conjunctions/
@@ -36,7 +36,7 @@ Seven folders also have a `catalog/` subfolder — the **lexicon** rather than t
     data/            the same entries as JSON
 ```
 
-Adjectives and adverbs get no dictionary because they are **open classes** — new ones enter the language constantly, so no list could ever be complete. **Verbs** and **nouns** are open classes too, but the parts of them that *misbehave* are finite, and those are exactly what a learner has to memorize. So each gets a catalog of that finite part: for verbs, the irregular ones; for nouns, the irregular plurals, the uncountables, and the sets that force their own verb agreement. Neither catalog tries to list every verb or every noun, because neither could.
+**Nouns**, **verbs** and **adverbs** are **open classes** — new ones enter the language constantly, so no list of them could ever be complete. Their dictionaries are built in two tiers. First, the part that *misbehaves*, written out in full because it is exactly what a learner has to memorize: the irregular plurals, uncountables and nouns that force their own agreement; the irregular verbs, modals and phrasal verbs; the flat adverbs, irregular comparisons, and the closed sets of place, time, frequency, degree, focus and linking. Second, a large core of everyday words, checked against WordNet so that an ordinary word a learner looks up is there — the survivors of a deliberate rejection pass, not the whole list. **Adjectives** are the one class without a dictionary yet.
 
 ## Suggested reading order
 

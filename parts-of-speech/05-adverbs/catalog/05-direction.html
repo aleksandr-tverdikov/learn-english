@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adverbs of direction and adverbial particles</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="adverbs-of-direction-and-adverbial-particles">Adverbs of direction and adverbial particles<a class="hash" href="#adverbs-of-direction-and-adverbial-particles" aria-label="link">#</a></h1>
+<blockquote><p>Where to? — <em>up</em>, <em>down</em>, <em>back</em>, <em>forward</em>, <em>sideways</em>, <em>clockwise</em>, and the particles that complete phrasal verbs.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Direction adverbs answer <em>where to?</em> or <em>which way?</em>. A large part of this group doubles as the particles of phrasal verbs — <em>turn <strong>off</strong></em>, <em>give <strong>up</strong></em>, <em>come <strong>back</strong></em> — which is where their meaning stops being about direction at all. Each entry lists the literal directional sense first and then the most important non-literal ones; the phrasal verbs themselves are in the verb dictionary.</p>
+<hr>
+<h3 id="up">up<a class="hash" href="#up" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌp/ &middot; <em>UHP</em></dd><dt>Русский</dt><dd>вверх, наверх</dd><dt>Type</dt><dd>direction; also particle — the second word of many phrasal verbs (<em>give up</em>, <em>eat up</em>)</dd><dt>Position</dt><dd>end — after the verb; with a phrasal verb, before or after a noun object but always after a pronoun (<em>pick it up</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, especially verbs of motion; phrasal verbs</dd><dt>Contrast</dt><dd>With an object after it, <em>up</em> is a preposition (<em>walk up the hill</em>); with none, it is the adverb (<em>look up</em>). As a particle it can come before or after a noun object (<em>pick up the box</em>, <em>pick the box up</em>) but must follow a pronoun: <em>pick it up</em>, never <em>pick up it</em>. Very often <em>up</em> does not mean вверх at all but ‘completely’, like a Russian perfective prefix: <em>eat up</em> = съесть, <em>use up</em> = израсходовать, <em>drink up</em> = допить. <em>What's up?</em> and <em>Time's up</em> are adjective uses.</dd></dl>
+<p>Up has 11 distinct senses.</p>
+<p><strong>1. Toward a higher place or position.</strong> (вверх, наверх)</p>
+<ol><li>She looked <em>up</em> at the sky.</li><li>Pick your clothes <em>up</em> off the floor.</li><li>Is this elevator going <em>up</em>?</li></ol>
+<p><strong>2. Into an upright position, standing or sitting straight.</strong> (прямо; встать)</p>
+<ol start="4"><li>Please stand <em>up</em> when the judge comes in.</li><li>Sit <em>up</em> straight at the table.</li><li>He helped the old man <em>up</em> after he slipped.</li></ol>
+<p><strong>3. Out of bed; awake.</strong> (не спать, на ногах)</p>
+<ol start="7"><li>Are the kids <em>up</em> yet?</li><li>We stayed <em>up</em> until two watching the game.</li><li>I got <em>up</em> at six this morning.</li></ol>
+<p><strong>4. To a higher amount, level, volume, or intensity.</strong> (выше, больше, громче)</p>
+<ol start="10"><li>Gas prices went <em>up</em> again this week.</li><li>Can you turn the volume <em>up</em>?</li><li>Speak <em>up</em>, please; I can't hear you.</li></ol>
+<p><strong>5. Completely, so that nothing is left or the action is finished.</strong> (полностью, до конца)</p>
+<ol start="13"><li>Eat <em>up</em> your vegetables.</li><li>Somebody used <em>up</em> all the hot water.</li><li>Clean <em>up</em> your room before dinner.</li></ol>
+<p><strong>6. So as to be closed, fastened, or tied together.</strong> ((застегнуть, завязать, закрыть))</p>
+<ol start="16"><li>Zip <em>up</em> your jacket; it's freezing.</li><li>Don't forget to lock <em>up</em> when you leave.</li><li>Tie <em>up</em> the garbage bag before you take it out.</li></ol>
+<p><strong>7. Into pieces or small parts.</strong> (на куски, на части)</p>
+<ol start="19"><li>She tore the letter <em>up</em> and threw it away.</li><li>Cut the chicken <em>up</em> into small pieces.</li></ol>
+<p><strong>8. Into existence, view, or attention.</strong> (возникнуть, появиться)</p>
+<ol start="21"><li>Your name came <em>up</em> at the meeting.</li><li>Sorry, something came <em>up</em> and I can't make it.</li><li>He didn't show <em>up</em> until nine.</li></ol>
+<p><strong>9. Close to a person or place, approaching.</strong> ((подойти) близко, вплотную)</p>
+<ol start="24"><li>A stranger came <em>up</em> and asked for directions.</li><li>A black car pulled <em>up</em> outside the house.</li><li>Go ahead, I'll catch <em>up</em>.</li></ol>
+<p><strong>10. To or in the north, or to a place thought of as more important or central.</strong> (на север; в город, в центр)</p>
+<ol start="27"><li>We're driving <em>up</em> to Maine for the weekend.</li><li>They moved <em>up</em> north after they retired.</li></ol>
+<p><strong>11. Ahead of an opponent by a stated score.</strong> (впереди (по счету))</p>
+<ol start="29"><li>We were ten points <em>up</em> at halftime.</li><li>The Yankees were two runs <em>up</em> going into the ninth.</li></ol>
+<hr>
+<h3 id="down">down<a class="hash" href="#down" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/daʊn/ &middot; <em>DOWN</em></dd><dt>Русский</dt><dd>вниз</dd><dt>Type</dt><dd>direction; also particle — the second word of many phrasal verbs (<em>calm down</em>, <em>break down</em>)</dd><dt>Position</dt><dd>end — after the verb; with a phrasal verb, before or after a noun object but always after a pronoun (<em>write it down</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, especially verbs of motion; phrasal verbs</dd><dt>Contrast</dt><dd><em>down the street</em> is the preposition and means ‘along, по улице’, not ‘downhill’. The pronoun goes before the particle: <em>write it down</em>, never <em>write down it</em>. <em>I feel down</em> (мне грустно) is an adjective. <em>Down to Texas</em> and <em>up to Chicago</em> for south and north are everyday American speech, even across flat land.</dd></dl>
+<p>Down has 9 distinct senses.</p>
+<p><strong>1. Toward a lower place or position.</strong> (вниз)</p>
+<ol><li>Sit <em>down</em> and make yourself at home.</li><li>She looked <em>down</em> at her shoes.</li><li>The sun goes <em>down</em> around eight in the summer.</li></ol>
+<p><strong>2. To a lower amount, level, volume, speed, or intensity.</strong> (ниже, меньше, тише)</p>
+<ol start="4"><li>Turn the music <em>down</em>; the baby's asleep.</li><li>Prices have finally come <em>down</em>.</li><li>Slow <em>down</em>, you're driving too fast.</li></ol>
+<p><strong>3. So as to stop working or operating.</strong> ((сломаться, закрыться))</p>
+<ol start="7"><li>My car broke <em>down</em> on the highway.</li><li>The factory shut <em>down</em> last year.</li><li>The website went <em>down</em> for an hour this morning.</li></ol>
+<p><strong>4. On paper; in writing.</strong> (записать, на бумаге)</p>
+<ol start="10"><li>Write the address <em>down</em> before you forget it.</li><li>Did you get all of that <em>down</em>?</li></ol>
+<p><strong>5. Firmly in place, or so as to be found or caught.</strong> (прочно; (выследить, поймать))</p>
+<ol start="12"><li>Tie the tarp <em>down</em> so it doesn't blow away.</li><li>Nail the boards <em>down</em> before the storm hits.</li><li>The police finally tracked him <em>down</em>.</li></ol>
+<p><strong>6. To or in the south, or away from the center of things.</strong> (на юг; на юге)</p>
+<ol start="15"><li>We drove <em>down</em> to Florida for spring break.</li><li>My grandparents live <em>down</em> south.</li></ol>
+<p><strong>7. From an earlier generation or time to a later one.</strong> (из поколения в поколение)</p>
+<ol start="17"><li>The ring was handed <em>down</em> from my grandmother.</li><li>These stories have been passed <em>down</em> for centuries.</li></ol>
+<p><strong>8. As a first payment, with the rest paid later.</strong> (первоначальным взносом)</p>
+<ol start="19"><li>We put ten percent <em>down</em> on the house.</li><li>Drive it home today with no money <em>down</em>.</li></ol>
+<p><strong>9. Behind an opponent by a stated score.</strong> (позади (по счету))</p>
+<ol start="21"><li>We were <em>down</em> by six at halftime.</li><li>They came back from three goals <em>down</em>.</li></ol>
+<hr>
+<h3 id="in">in<a class="hash" href="#in" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪn/ &middot; <em>IN</em></dd><dt>Русский</dt><dd>внутрь, в</dd><dt>Type</dt><dd>direction; also place and particle (<em>fill in</em>, <em>give in</em>)</dd><dt>Position</dt><dd>end — after the verb; with a phrasal verb, before or after a noun object but after a pronoun (<em>hand it in</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, especially verbs of motion; phrasal verbs</dd><dt>Contrast</dt><dd>Russian <em>в</em> covers three English forms: <em>come in</em> (adverb, no object), <em>come into the room</em> (preposition <em>into</em>, movement) and <em>be in the room</em> (preposition <em>in</em>, location). <em>Come in the house</em> is common in American speech, but <em>into</em> is the standard for movement. <em>in</em> meaning ‘fashionable’ (<em>Wide jeans are in</em>) is an adjective.</dd></dl>
+<p>In has 6 distinct senses.</p>
+<p><strong>1. Into or toward the inside of a place, container, or vehicle.</strong> (внутрь)</p>
+<ol><li>Come <em>in</em> and sit down.</li><li>Get <em>in</em>, I'll give you a ride.</li><li>The roof caved <em>in</em> under the snow.</li></ol>
+<p><strong>2. At home or at one's place of work.</strong> (дома; на месте, на работе)</p>
+<ol start="4"><li>Is Dr. Patel <em>in</em> today?</li><li>I'm not coming <em>in</em> tomorrow; I'm sick.</li><li>We stayed <em>in</em> and watched a movie.</li></ol>
+<p><strong>3. Arriving, or received at the place where it is expected.</strong> (прибывать, поступать)</p>
+<ol start="7"><li>What time does your flight get <em>in</em>?</li><li>The election results are starting to come <em>in</em>.</li></ol>
+<p><strong>4. To a person or organization in authority, handed over.</strong> (сдать, подать)</p>
+<ol start="9"><li>Please hand your essays <em>in</em> by Friday.</li><li>Viewers sent <em>in</em> thousands of photos.</li></ol>
+<p><strong>5. Taking part, included with others.</strong> (участвуя, вместе со всеми)</p>
+<ol start="11"><li>If you're ordering pizza, count me <em>in</em>.</li><li>Everyone joined <em>in</em> on the chorus.</li></ol>
+<p><strong>6. Into a space, so as to fill or complete it.</strong> (вписать, заполнить)</p>
+<ol start="13"><li>Fill <em>in</em> the blanks with the correct word.</li><li>The kids colored <em>in</em> the pictures.</li></ol>
+<hr>
+<h3 id="out">out<a class="hash" href="#out" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aʊt/ &middot; <em>OWT</em></dd><dt>Русский</dt><dd>наружу, вон</dd><dt>Type</dt><dd>direction; also place and particle (<em>find out</em>, <em>run out</em>)</dd><dt>Position</dt><dd>end — after the verb; with a phrasal verb, before or after a noun object but after a pronoun (<em>take it out</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, especially verbs of motion; phrasal verbs</dd><dt>Contrast</dt><dd>Before a place, standard English uses <em>out of</em>: <em>get out of the car</em>. American English drops <em>of</em> before <em>door</em> and <em>window</em> (<em>look out the window</em>, <em>run out the door</em>), where British keeps it. The pictures can run opposite ways: <em>the lights went out</em> = погасли, but <em>the stars came out</em> = появились. <em>out</em> in baseball (<em>he's out</em>) is an adjective.</dd></dl>
+<p>Out has 11 distinct senses.</p>
+<p><strong>1. Away from the inside of a place or container.</strong> (наружу, вон)</p>
+<ol><li>The kids ran <em>out</em> into the yard.</li><li>Can you take the trash <em>out</em>?</li><li>Get <em>out</em>!</li></ol>
+<p><strong>2. Away from home or work, often for a social activity.</strong> (не дома, вне дома)</p>
+<ol start="4"><li>Sorry, she's <em>out</em> for lunch.</li><li>Let's eat <em>out</em> tonight.</li><li>We went <em>out</em> on Friday night.</li></ol>
+<p><strong>3. So as to be found, understood, or solved.</strong> ((выяснить, разобраться))</p>
+<ol start="7"><li>Did you ever find <em>out</em> who sent the flowers?</li><li>I can't figure <em>out</em> this remote.</li><li>Don't worry, we'll work it <em>out</em>.</li></ol>
+<p><strong>4. So as to stop burning or shining.</strong> ((погаснуть, потушить))</p>
+<ol start="10"><li>The lights went <em>out</em> during the storm.</li><li>Put your cigarette <em>out</em>, please.</li></ol>
+<p><strong>5. Until finished, or until nothing is left.</strong> (до конца; кончиться)</p>
+<ol start="12"><li>Our money ran <em>out</em> in the second week.</li><li>Hear me <em>out</em> before you decide.</li><li>The concert sold <em>out</em> in ten minutes.</li></ol>
+<p><strong>6. Aloud, so as to be clearly heard.</strong> (вслух, громко)</p>
+<ol start="15"><li>Read the list <em>out</em> loud.</li><li>She cried <em>out</em> in pain.</li></ol>
+<p><strong>7. Into view, or into public knowledge or sale.</strong> (появиться; выйти в свет)</p>
+<ol start="17"><li>The sun came <em>out</em> after lunch.</li><li>Her new album comes <em>out</em> next month.</li><li>Sooner or later, the truth will come <em>out</em>.</li></ol>
+<p><strong>8. So as to be removed or left out.</strong> (исключить, вычеркнуть)</p>
+<ol start="20"><li>Cross <em>out</em> the wrong answer.</li><li>Leave the onions <em>out</em>, please.</li></ol>
+<p><strong>9. To many people, distributed.</strong> (раздать)</p>
+<ol start="22"><li>The teacher handed <em>out</em> the tests.</li><li>They're giving <em>out</em> free samples at the store.</li></ol>
+<p><strong>10. Into unconsciousness.</strong> (без сознания)</p>
+<ol start="24"><li>He passed <em>out</em> from the heat.</li><li>The boxer was knocked <em>out</em> in the third round.</li></ol>
+<p><strong>11. Far away from land, a town, or the center.</strong> (далеко (от берега, города))</p>
+<ol start="26"><li>They live way <em>out</em> in the country.</li><li>The boat was a mile <em>out</em> when the storm hit.</li></ol>
+<hr>
+<h3 id="back">back<a class="hash" href="#back" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæk/ &middot; <em>BAK</em></dd><dt>Русский</dt><dd>назад, обратно</dd><dt>Type</dt><dd>direction; also time (<em>back in 2010</em>) and particle (<em>pay back</em>, <em>hold back</em>)</dd><dt>Position</dt><dd>end — after the verb; with a phrasal verb, before or after a noun object but after a pronoun (<em>give it back</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; phrasal verbs; time phrases (<em>back in the day</em>)</dd><dt>Contrast</dt><dd><em>back</em> is not ‘again’: <em>come back</em> = вернуться, <em>come again</em> = прийти ещё раз. With a pronoun: <em>give it back</em>, never <em>give back it</em>. <em>a few years back</em> is informal American for <em>ago</em>. <em>Push a meeting back</em> makes it later; <em>move it forward</em> usually means earlier — say the date if it matters.</dd></dl>
+<p>Back has 6 distinct senses.</p>
+<p><strong>1. To the place, person, or condition where someone or something was before.</strong> (обратно, назад)</p>
+<ol><li>I'll be <em>back</em> in five minutes.</li><li>Put the milk <em>back</em> in the fridge.</li><li>She went <em>back</em> to sleep.</li></ol>
+<p><strong>2. In return or in reply.</strong> (в ответ)</p>
+<ol start="4"><li>Can I call you <em>back</em> in an hour?</li><li>He never paid me <em>back</em>.</li><li>She smiled <em>back</em> at him.</li></ol>
+<p><strong>3. Toward the rear, away from the front.</strong> (назад)</p>
+<ol start="7"><li>Step <em>back</em> from the edge.</li><li>Lean <em>back</em> and relax.</li><li>Don't look <em>back</em>.</li></ol>
+<p><strong>4. In or into the past; ago.</strong> ((тому) назад, в прошлом)</p>
+<ol start="10"><li><em>Back</em> in the 1990s, few people had a cell phone.</li><li>I met her a few years <em>back</em>.</li></ol>
+<p><strong>5. Under control, kept from moving forward or coming out.</strong> (сдерживать)</p>
+<ol start="12"><li>The police held the crowd <em>back</em>.</li><li>She fought <em>back</em> tears.</li></ol>
+<p><strong>6. To a later time, or to an earlier setting on a clock.</strong> (на более позднее время; (часы) назад)</p>
+<ol start="14"><li>The meeting was pushed <em>back</em> to Friday.</li><li>Remember to set your clocks <em>back</em> on Sunday.</li></ol>
+<hr>
+<h3 id="forward">forward<a class="hash" href="#forward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrwərd/ &middot; <em>FOR-wurd</em></dd><dt>Русский</dt><dd>вперёд</dd><dt>Type</dt><dd>direction; also time and particle (<em>come forward</em>, <em>put forward</em>)</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>not gradable — <em>further forward</em> does the comparing</dd><dt>Modifies</dt><dd>verbs, especially verbs of motion</dd><dt>Form</dt><dd>-ward from <em>fore</em>; British also <em>forwards</em></dd><dt>Contrast</dt><dd>American English says <em>forward</em>; British also <em>forwards</em>. <em>Move the meeting forward</em> usually means earlier, but some Americans hear later — name the day. <em>look forward to</em> takes a noun or <em>-ing</em>: <em>I look forward to seeing you</em>, never <em>to see you</em>. <em>forward</em> is also a verb (<em>forward an email</em>).</dd></dl>
+<p>Forward has 4 distinct senses.</p>
+<p><strong>1. Toward the front, or in the direction one is facing.</strong> (вперёд)</p>
+<ol><li>Take one step <em>forward</em>.</li><li>She leaned <em>forward</em> to hear better.</li><li>The car jerked <em>forward</em> and stalled.</li></ol>
+<p><strong>2. Toward the future or toward progress.</strong> (вперёд, дальше)</p>
+<ol start="4"><li>It's time to move <em>forward</em> with the plan.</li><li>From this day <em>forward</em>, things will be different.</li></ol>
+<p><strong>3. Into view or public attention, so as to be offered or known.</strong> (выступить; выдвинуть)</p>
+<ol start="6"><li>Two witnesses have come <em>forward</em>.</li><li>She put <em>forward</em> a new proposal.</li></ol>
+<p><strong>4. To an earlier date, or to a later setting on a clock.</strong> (на более ранний срок; (часы) вперёд)</p>
+<ol start="8"><li>Set your clocks <em>forward</em> one hour tonight.</li><li>We moved the deadline <em>forward</em> to Monday.</li></ol>
+<hr>
+<h3 id="backward">backward<a class="hash" href="#backward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækwərd/ &middot; <em>BAK-wurd</em></dd><dt>Русский</dt><dd>назад</dd><dt>Type</dt><dd>direction; also manner (<em>count backward</em>)</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ward from <em>back</em>; American English uses <em>backward</em> and <em>backwards</em> alike</dd><dt>Contrast</dt><dd>Both <em>backward</em> and <em>backwards</em> are American; the adjective is only <em>backward</em> (<em>a backward glance</em>; <em>a backward country</em> = отсталая). Three Russian phrases, three English ones: задом наперёд = <em>backward</em> (<em>your shirt is on backward</em>), наизнанку = <em>inside out</em>, вверх ногами = <em>upside down</em>.</dd></dl>
+<p>Backward has 5 distinct senses.</p>
+<p><strong>1. Toward the back, or in the direction behind one.</strong> (назад; навзничь)</p>
+<ol><li>He took a step <em>backward</em>.</li><li>She fell <em>backward</em> into the pool.</li></ol>
+<p><strong>2. In reverse order, from the end to the beginning.</strong> (в обратном порядке)</p>
+<ol start="3"><li>Can you say the alphabet <em>backward</em>?</li><li>Count <em>backward</em> from ten.</li></ol>
+<p><strong>3. With the back part in front.</strong> (задом наперёд)</p>
+<ol start="5"><li>You have your shirt on <em>backward</em>.</li><li>He wears his baseball cap <em>backward</em>.</li></ol>
+<p><strong>4. Toward the past, or to a worse state.</strong> (назад (в прошлое, к худшему))</p>
+<ol start="7"><li>Critics say the new law takes the country <em>backward</em>.</li><li>Critics called the decision a big step <em>backward</em>.</li></ol>
+<p><strong>5. Thoroughly, in every detail (in <em>backward and forward</em>).</strong> (вдоль и поперёк)</p>
+<ol start="9"><li>She knows the rules <em>backward</em> and forward.</li><li>I've read that contract <em>backward</em> and forward.</li></ol>
+<hr>
+<h3 id="upward">upward<a class="hash" href="#upward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌpwərd/ &middot; <em>UHP-wurd</em></dd><dt>Русский</dt><dd>вверх</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end; <em>upward of</em> goes before a number</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; numbers (<em>upward of 500</em>)</dd><dt>Form</dt><dd>-ward from <em>up</em>; British usually <em>upwards</em></dd><dt>Contrast</dt><dd>American English prefers <em>upward</em>, British <em>upwards</em>, though Americans often say <em>upwards of</em> too. <em>upward of 50</em> means ‘more than 50’ (свыше), not ‘up to 50’. The adjective goes before a noun: <em>an upward trend</em>.</dd></dl>
+<p>Upward has 3 distinct senses.</p>
+<p><strong>1. Toward a higher place.</strong> (вверх)</p>
+<ol><li>The balloon floated <em>upward</em> into the clouds.</li><li>Point the camera <em>upward</em>.</li></ol>
+<p><strong>2. Toward a higher amount, level, or rank.</strong> (в сторону повышения)</p>
+<ol start="3"><li>Home prices are moving <em>upward</em> again.</li><li>The forecast was revised <em>upward</em>.</li></ol>
+<p><strong>3. More than a stated number (in <em>upward of</em>).</strong> (свыше, более)</p>
+<ol start="5"><li><em>Upward of</em> 500 people showed up.</li><li>The repairs could cost <em>upward of</em> $10,000.</li></ol>
+<hr>
+<h3 id="downward">downward<a class="hash" href="#downward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaʊnwərd/ &middot; <em>DOWN-wurd</em></dd><dt>Русский</dt><dd>вниз</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb, or after <em>from</em> + a rank (<em>from the CEO downward</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; ranks and levels after <em>from</em></dd><dt>Form</dt><dd>-ward from <em>down</em>; British usually <em>downwards</em></dd><dt>Contrast</dt><dd>American <em>downward</em>, British <em>downwards</em>. The adjective sits before a noun (<em>a downward spiral</em>). For лицом вниз the everyday phrase is <em>face down</em>, not <em>face downward</em>.</dd></dl>
+<p>Downward has 3 distinct senses.</p>
+<p><strong>1. Toward a lower place.</strong> (вниз)</p>
+<ol><li>The path slopes <em>downward</em> to the beach.</li><li>She glanced <em>downward</em> at her phone.</li></ol>
+<p><strong>2. Toward a lower amount or level.</strong> (в сторону понижения)</p>
+<ol start="3"><li>Sales estimates were revised <em>downward</em>.</li><li>Interest rates are heading <em>downward</em>.</li></ol>
+<p><strong>3. From a higher rank or level to all the lower ones.</strong> (и ниже (по должности, уровню))</p>
+<ol start="5"><li>Everyone from the CEO <em>downward</em> took a pay cut.</li><li>The rule applies to all staff, from managers <em>downward</em>.</li></ol>
+<hr>
+<h3 id="inward">inward<a class="hash" href="#inward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnwərd/ &middot; <em>IN-wurd</em></dd><dt>Русский</dt><dd>внутрь</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ward from <em>in</em>; British also <em>inwards</em></dd><dt>Contrast</dt><dd>Don't confuse with <em>inwardly</em>, which means ‘privately, in one's mind’: <em>Inwardly, she was furious</em> = в душе. The adjective goes before a noun: <em>inward calm</em>. American <em>inward</em>, British also <em>inwards</em>.</dd></dl>
+<p>Inward has 2 distinct senses.</p>
+<p><strong>1. Toward the inside or the center.</strong> (внутрь)</p>
+<ol><li>The door opens <em>inward</em>.</li><li>The walls began to bend <em>inward</em>.</li></ol>
+<p><strong>2. Toward one's own mind and feelings.</strong> (в себя, внутрь себя)</p>
+<ol start="3"><li>After the loss, he turned <em>inward</em> and stopped calling friends.</li><li>Meditation asks you to look <em>inward</em>.</li></ol>
+<hr>
+<h3 id="outward">outward<a class="hash" href="#outward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtwərd/ &middot; <em>OWT-wurd</em></dd><dt>Русский</dt><dd>наружу</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>-ward from <em>out</em>; British also <em>outwards</em></dd><dt>Contrast</dt><dd>For внешне use <em>outwardly</em>: <em>He was outwardly calm</em>, never <em>He was outward calm</em>. The adjective goes before a noun: <em>outward appearance</em>. American <em>outward</em>, British also <em>outwards</em>.</dd></dl>
+<p>Outward has 2 distinct senses.</p>
+<p><strong>1. Toward the outside, or away from the center.</strong> (наружу; в стороны)</p>
+<ol><li>The door opens <em>outward</em>.</li><li>The city keeps spreading <em>outward</em>.</li></ol>
+<p><strong>2. Toward other people or the world outside oneself or one's group.</strong> (вовне, на внешний мир)</p>
+<ol start="3"><li>The company needs to look <em>outward</em> for new ideas.</li><li>Try to focus <em>outward</em> instead of worrying about yourself.</li></ol>
+<hr>
+<h3 id="northward">northward<a class="hash" href="#northward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɔːrθwərd/ &middot; <em>NORTH-wurd</em></dd><dt>Русский</dt><dd>на север</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion and extent</dd><dt>Form</dt><dd>-ward from <em>north</em>; British also <em>northwards</em></dd><dt>Contrast</dt><dd>In everyday American speech the plain compass word is the adverb: <em>drive north</em>, <em>head north</em>, <em>up north</em>. <em>northward</em> sounds written or technical. No <em>to</em> before the bare word: <em>go north</em>, but <em>to the north</em>.</dd></dl>
+<p>Toward the north.</p>
+<ol><li>The storm is moving <em>northward</em> along the coast.</li><li>Many birds fly <em>northward</em> in the spring.</li><li>The highway runs <em>northward</em> to the Canadian border.</li></ol>
+<hr>
+<h3 id="southward">southward<a class="hash" href="#southward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaʊθwərd/ &middot; <em>SOWTH-wurd</em></dd><dt>Русский</dt><dd>на юг</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion and extent</dd><dt>Form</dt><dd>-ward from <em>south</em>; British also <em>southwards</em></dd><dt>Contrast</dt><dd>Everyday American speech says <em>go south</em>, <em>head south</em>, <em>down south</em>; <em>southward</em> belongs to writing and weather reports. No <em>to</em> before the bare word: <em>go south</em>, but <em>to the south</em>.</dd></dl>
+<p>Toward the south.</p>
+<ol><li>The river flows <em>southward</em> to the Gulf of Mexico.</li><li>Every fall, the geese head <em>southward</em>.</li><li>The hurricane turned <em>southward</em> overnight.</li></ol>
+<hr>
+<h3 id="eastward">eastward<a class="hash" href="#eastward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːstwərd/ &middot; <em>EEST-wurd</em></dd><dt>Русский</dt><dd>на восток</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion and extent</dd><dt>Form</dt><dd>-ward from <em>east</em>; British also <em>eastwards</em></dd><dt>Contrast</dt><dd>In speech Americans say <em>drive east</em>, <em>head east</em>; <em>eastward</em> sounds written. <em>back East</em> in American speech means ‘in the eastern United States’. No <em>to</em> before the bare word: <em>go east</em>, but <em>to the east</em>.</dd></dl>
+<p>Toward the east.</p>
+<ol><li>The storm system is moving <em>eastward</em> across the plains.</li><li>They sailed <em>eastward</em> toward Europe.</li><li>The city has grown <em>eastward</em> over the years.</li></ol>
+<hr>
+<h3 id="westward">westward<a class="hash" href="#westward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛstwərd/ &middot; <em>WEST-wurd</em></dd><dt>Русский</dt><dd>на запад</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion and extent</dd><dt>Form</dt><dd>-ward from <em>west</em>; British also <em>westwards</em></dd><dt>Contrast</dt><dd>In speech Americans say <em>drive west</em>, <em>head west</em>; <em>westward</em> is written and historical (<em>westward expansion</em>, the 19th-century settlement of the American West, uses the adjective). No <em>to</em> before the bare word: <em>go west</em>, but <em>to the west</em>.</dd></dl>
+<p>Toward the west.</p>
+<ol><li>Settlers pushed <em>westward</em> in the 1800s.</li><li>The flight headed <em>westward</em> over the Pacific.</li><li>The wildfire spread <em>westward</em> overnight.</li></ol>
+<hr>
+<h3 id="homeward">homeward<a class="hash" href="#homeward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmwərd/ &middot; <em>HOHM-wurd</em></dd><dt>Русский</dt><dd>домой</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion</dd><dt>Form</dt><dd>-ward from <em>home</em>; British also <em>homewards</em></dd><dt>Contrast</dt><dd>The everyday adverb is <em>home</em> with no <em>to</em>: <em>go home</em>, <em>head home</em>. <em>homeward</em> is literary; <em>homeward bound</em> (на пути домой) is a fixed phrase.</dd></dl>
+<p>Toward home.</p>
+<ol><li>We finally started <em>homeward</em> after midnight.</li><li>The birds flew <em>homeward</em> as the sun set.</li><li>At last the soldiers turned <em>homeward</em>.</li></ol>
+<hr>
+<h3 id="sideways">sideways<a class="hash" href="#sideways" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪdweɪz/ &middot; <em>SYD-wayz</em></dd><dt>Русский</dt><dd>вбок, боком</dd><dt>Type</dt><dd>direction; also manner (<em>sideways</em> = боком)</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>side</em> + <em>-ways</em>; <em>sidewise</em> is a rare American variant</dd><dt>Contrast</dt><dd>Always with <em>-s</em>; there is no adverb <em>sideway</em>. In informal American English <em>go sideways</em> means ‘go wrong’, not a literal direction. A <em>sideways move</em> at work is neither a promotion nor a demotion.</dd></dl>
+<p>Sideways has 4 distinct senses.</p>
+<p><strong>1. To or toward one side.</strong> (вбок, в сторону)</p>
+<ol><li>The crab scuttled <em>sideways</em> across the sand.</li><li>She stepped <em>sideways</em> to let him pass.</li><li>The car skidded <em>sideways</em> on the ice.</li></ol>
+<p><strong>2. With one side facing forward or up.</strong> (боком)</p>
+<ol start="4"><li>Turn the couch <em>sideways</em> to get it through the door.</li><li>He sat <em>sideways</em> in the chair.</li></ol>
+<p><strong>3. To a job or position of about the same rank.</strong> (на равноценную должность)</p>
+<ol start="6"><li>She moved <em>sideways</em> into marketing.</li><li>He didn't get promoted; he was shifted <em>sideways</em>.</li></ol>
+<p><strong>4. Informally, into a bad or unexpected state; wrong.</strong> (пойти не так)</p>
+<ol start="8"><li>The deal went <em>sideways</em> at the last minute.</li><li>Things went <em>sideways</em> when the power went out.</li></ol>
+<hr>
+<h3 id="clockwise">clockwise<a class="hash" href="#clockwise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɑːkwaɪz/ &middot; <em>KLAHK-wyz</em></dd><dt>Русский</dt><dd>по часовой стрелке</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of turning and motion</dd><dt>Form</dt><dd><em>clock</em> + <em>-wise</em> (‘in the manner of’)</dd><dt>Contrast</dt><dd>The opposite is American <em>counterclockwise</em>, British <em>anticlockwise</em>. The same form is an adjective before a noun: <em>a clockwise direction</em>.</dd></dl>
+<p>In the direction the hands of a clock move.</p>
+<ol><li>Turn the lid <em>clockwise</em> to close it.</li><li>The numbers on the dial go <em>clockwise</em> from zero to ten.</li><li>Stir the sauce <em>clockwise</em> for two minutes.</li></ol>
+<hr>
+<h3 id="counterclockwise">counterclockwise<a class="hash" href="#counterclockwise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkaʊntərˈklɑːkwaɪz/ &middot; <em>kown-tur-KLAHK-wyz</em></dd><dt>Русский</dt><dd>против часовой стрелки</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of turning and motion</dd><dt>Form</dt><dd><em>counter-</em> (‘against’) + <em>clockwise</em></dd><dt>Contrast</dt><dd>American <em>counterclockwise</em> is British <em>anticlockwise</em>; Americans understand the British word but don't use it. The same form is an adjective: <em>a counterclockwise turn</em>.</dd></dl>
+<p>In the direction opposite to the way the hands of a clock move.</p>
+<ol><li>Turn the knob <em>counterclockwise</em> to open the valve.</li><li>The skaters moved <em>counterclockwise</em> around the rink.</li><li>Loosen the bolt by turning it <em>counterclockwise</em>.</li></ol>
+<hr>
+<h3 id="left">left<a class="hash" href="#left" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɛft/ &middot; <em>LEFT</em></dd><dt>Русский</dt><dd>налево, влево</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — right after the verb (<em>turn left</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion and turning</dd><dt>Contrast</dt><dd>No preposition after <em>turn</em>: <em>turn left</em>, never <em>turn to left</em>; with the noun it is <em>turn to the left</em> or American <em>take a left</em>. Don't confuse it with <em>left</em>, the past tense of <em>leave</em> (<em>She left early</em>). <em>right</em> works the same way and is in the flat-adverb group.</dd></dl>
+<p>Left has 2 distinct senses.</p>
+<p><strong>1. Toward or on the left side.</strong> (налево, влево)</p>
+<ol><li>Turn <em>left</em> at the light.</li><li>Look <em>left</em>, then right, before you cross.</li><li>Scoot <em>left</em> a little so I can sit down.</li></ol>
+<p><strong>2. Toward liberal or left-wing political views.</strong> (влево (в политике))</p>
+<ol start="4"><li>The party has moved <em>left</em> on climate policy.</li><li>Voters in the city lean <em>left</em>.</li></ol>
+<hr>
+<h3 id="along">along<a class="hash" href="#along" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlɔːŋ/ &middot; <em>uh-LAWNG</em></dd><dt>Русский</dt><dd>вперёд; с собой</dd><dt>Type</dt><dd>direction; also particle (<em>get along</em>, <em>go along with</em>)</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; phrasal verbs</dd><dt>Contrast</dt><dd>With an object <em>along</em> is a preposition meaning вдоль (<em>walk along the river</em>); without one it is the adverb (<em>walk along</em>). <em>along with</em> means ‘together with’. <em>get along</em> = ладить; British also <em>get on</em>. <em>all along</em> means ‘the whole time’, not ‘all the way along something’.</dd></dl>
+<p>Along has 5 distinct senses.</p>
+<p><strong>1. Forward, onward, on one's way.</strong> (вперёд, дальше)</p>
+<ol><li>A police officer told the crowd to move <em>along</em>.</li><li>We were driving <em>along</em> when a tire blew.</li></ol>
+<p><strong>2. With oneself or with someone else.</strong> (с собой, вместе)</p>
+<ol start="3"><li>Bring your sister <em>along</em>.</li><li>Can I come <em>along</em>?</li><li>Take an umbrella <em>along</em> just in case.</li></ol>
+<p><strong>3. Making progress toward completion.</strong> (продвигаться)</p>
+<ol start="6"><li>How's your essay coming <em>along</em>?</li><li>The new house is coming <em>along</em> nicely.</li></ol>
+<p><strong>4. The whole time, from the beginning (in <em>all along</em>).</strong> (всё время, с самого начала)</p>
+<ol start="8"><li>I knew <em>all along</em> that he was lying.</li><li>The keys were in my pocket <em>all along</em>.</li></ol>
+<p><strong>5. In agreement or on good terms with others.</strong> (в согласии; ладить)</p>
+<ol start="10"><li>I didn't agree, but I went <em>along</em> with it.</li><li>My sister and I get <em>along</em> great.</li><li>Just play <em>along</em> for now.</li></ol>
+<hr>
+<h3 id="across">across<a class="hash" href="#across" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkrɔːs/ &middot; <em>uh-KRAWS</em></dd><dt>Русский</dt><dd>на ту сторону; поперёк</dd><dt>Type</dt><dd>direction; also particle (<em>get across</em>, <em>come across</em>)</dd><dt>Position</dt><dd>end — after the verb or after a measurement (<em>a mile across</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; measurements of width</dd><dt>Form</dt><dd><em>a-</em> + <em>cross</em></dd><dt>Contrast</dt><dd>Russian через splits in two: <em>across</em> is over a surface or a line (<em>across the street</em>, <em>across the bridge</em>); <em>through</em> is inside something (<em>through the forest</em>, <em>through the tunnel</em>). Both of those are prepositions; the adverb has no object (<em>swim across</em>). <em>across from</em> is American for напротив. <em>acrost</em> is nonstandard.</dd></dl>
+<p>Across has 5 distinct senses.</p>
+<p><strong>1. From one side to the other.</strong> (на другую сторону)</p>
+<ol><li>The river was too wide to swim <em>across</em>.</li><li>Wait for the light before you walk <em>across</em>.</li></ol>
+<p><strong>2. Measured from one side to the other.</strong> (в ширину, в поперечнике)</p>
+<ol start="3"><li>The crater is about a mile <em>across</em>.</li><li>Order the pizza that's sixteen inches <em>across</em>.</li></ol>
+<p><strong>3. So as to be understood.</strong> (донести (мысль))</p>
+<ol start="5"><li>She had trouble getting her point <em>across</em>.</li><li>The ad gets the message <em>across</em> in ten seconds.</li></ol>
+<p><strong>4. Giving a particular impression (in <em>come across</em>).</strong> (производить впечатление)</p>
+<ol start="7"><li>He comes <em>across</em> as shy, but he isn't.</li><li>Did I come <em>across</em> as rude?</li></ol>
+<p><strong>5. In a crossword, reading from left to right.</strong> (по горизонтали)</p>
+<ol start="9"><li>What's the answer to 12 <em>across</em>?</li><li>I got 4 <em>across</em> but not 7 down.</li></ol>
+<hr>
+<h3 id="around">around<a class="hash" href="#around" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈraʊnd/ &middot; <em>uh-ROWND</em></dd><dt>Русский</dt><dd>вокруг; кругом</dd><dt>Type</dt><dd>direction; also place, degree (<em>around 50</em>) and particle</dd><dt>Position</dt><dd>end; before a number when it means ‘about’</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; numbers and amounts (<em>around 200</em>)</dd><dt>Form</dt><dd><em>a-</em> + <em>round</em></dd><dt>Contrast</dt><dd>American English uses <em>around</em> where British often says <em>round</em> (<em>turn around</em>, <em>go around</em>) or <em>about</em> (<em>around 50 people</em>, <em>walk around</em>). Meaning ‘about’, it goes before the number: <em>around six</em>, never <em>six around</em>. With an object it is a preposition: <em>around the corner</em>.</dd></dl>
+<p>Around has 13 distinct senses.</p>
+<p><strong>1. From place to place, here and there.</strong> (по разным местам, повсюду)</p>
+<ol><li>We walked <em>around</em> downtown for an hour.</li><li>Mind if I look <em>around</em>?</li><li>She travels <em>around</em> a lot for work.</li></ol>
+<p><strong>2. So as to face the opposite direction.</strong> (обернуться, развернуться)</p>
+<ol start="4"><li>Turn <em>around</em> and look at me.</li><li>He spun <em>around</em> when he heard his name.</li></ol>
+<p><strong>3. Approximately.</strong> (около, примерно)</p>
+<ol start="6"><li><em>Around</em> 200 people came to the wedding.</li><li>The tickets cost <em>around</em> forty dollars.</li></ol>
+<p><strong>4. Nearby; present and available.</strong> (поблизости, рядом)</p>
+<ol start="8"><li>Is Mike <em>around</em>?</li><li>There was nobody <em>around</em> to help.</li></ol>
+<p><strong>5. In a circle, or turning about a center.</strong> (по кругу, кругом)</p>
+<ol start="10"><li>The fan turned slowly <em>around</em>.</li><li>The kids spun <em>around</em> until they got dizzy.</li></ol>
+<p><strong>6. On every side; surrounding.</strong> (вокруг)</p>
+<ol start="12"><li>The cabin has mountains all <em>around</em>.</li><li>A crowd gathered <em>around</em> to watch.</li></ol>
+<p><strong>7. In the reverse way (in <em>the other way around</em>).</strong> (наоборот)</p>
+<ol start="14"><li>I don't owe you money; it's the other way <em>around</em>.</li><li>I thought the dog was chasing the cat, but it was the other way <em>around</em>.</li></ol>
+<p><strong>8. In existence or in use.</strong> (существовать)</p>
+<ol start="16"><li>Vinyl records have been <em>around</em> for over a century.</li><li>Smartphones weren't <em>around</em> when I was a kid.</li></ol>
+<p><strong>9. Without a purpose, doing nothing useful.</strong> (без дела)</p>
+<ol start="18"><li>We just sat <em>around</em> all afternoon.</li><li>Stop fooling <em>around</em> and do your homework.</li></ol>
+<p><strong>10. By a longer route, not directly.</strong> (в обход)</p>
+<ol start="20"><li>The bridge was closed, so we had to go <em>around</em>.</li><li>We took the long way <em>around</em>.</li></ol>
+<p><strong>11. So that each person gets a share.</strong> (на всех)</p>
+<ol start="22"><li>Is there enough cake to go <em>around</em>?</li><li>They passed the photos <em>around</em>.</li></ol>
+<p><strong>12. To a new opinion, especially one first rejected (in <em>come around</em>).</strong> (передумать, согласиться)</p>
+<ol start="24"><li>She hated the idea at first, but she came <em>around</em>.</li><li>Give him time; he'll come <em>around</em>.</li></ol>
+<p><strong>13. In circumference, measured all the way around.</strong> (в обхвате, в окружности)</p>
+<ol start="26"><li>The trunk of the old oak is nearly ten feet <em>around</em>.</li><li>How big <em>around</em> is your wrist?</li></ol>
+<hr>
+<h3 id="over">over<a class="hash" href="#over" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvər/ &middot; <em>OH-vur</em></dd><dt>Русский</dt><dd>через; заново</dd><dt>Type</dt><dd>direction; also frequency (<em>start over</em>) and particle</dd><dt>Position</dt><dd>end — after the verb; with a phrasal verb, before or after a noun object but after a pronoun (<em>think it over</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; phrasal verbs; numbers (<em>65 and over</em>)</dd><dt>Contrast</dt><dd>American <em>start over</em> and <em>do it over</em> mean ‘again, заново’ — British says <em>start again</em>. <em>The game is over</em> (закончилась) is an adjective. With an object <em>over</em> is a preposition (<em>over the bridge</em>). <em>come over</em> means ‘come to visit’, not перейти.</dd></dl>
+<p>Over has 9 distinct senses.</p>
+<p><strong>1. Across or above something, from one side to the other.</strong> (над; через)</p>
+<ol><li>A helicopter flew <em>over</em> at dawn.</li><li>The fence was too high to climb <em>over</em>.</li></ol>
+<p><strong>2. To or at a place, especially someone's home, or across a short distance.</strong> (в гости; сюда, туда)</p>
+<ol start="3"><li>Come <em>over</em> for dinner on Saturday.</li><li>We had some friends <em>over</em> last night.</li><li>Bring that chair <em>over</em> here.</li></ol>
+<p><strong>3. Down from an upright position, or so that the other side faces up.</strong> (опрокинуть(ся); перевернуть(ся))</p>
+<ol start="6"><li>The glass tipped <em>over</em>.</li><li>Turn the pancake <em>over</em> when it bubbles.</li><li>He rolled <em>over</em> and went back to sleep.</li></ol>
+<p><strong>4. Again, from the beginning.</strong> (заново, снова)</p>
+<ol start="9"><li>I made a mistake, so I had to start <em>over</em>.</li><li>Can I do the test <em>over</em>?</li><li>She said the same thing <em>over</em> and <em>over</em>.</li></ol>
+<p><strong>5. Remaining, not used.</strong> (в остатке, лишний)</p>
+<ol start="12"><li>There's plenty of food left <em>over</em>.</li><li>Ten divided by three is three, with one left <em>over</em>.</li></ol>
+<p><strong>6. More than a stated amount, age, or time.</strong> (и старше; сверх)</p>
+<ol start="14"><li>The discount is for people 65 and <em>over</em>.</li><li>The meeting ran twenty minutes <em>over</em>.</li></ol>
+<p><strong>7. Carefully, from beginning to end.</strong> (как следует (обдумать, просмотреть))</p>
+<ol start="16"><li>Think it <em>over</em> and let me know.</li><li>Look the contract <em>over</em> before you sign.</li></ol>
+<p><strong>8. To another person, side, or system.</strong> (передать; перейти)</p>
+<ol start="18"><li>Hand <em>over</em> the keys.</li><li>We switched <em>over</em> to a new phone plan.</li></ol>
+<p><strong>9. Everywhere (in <em>all over</em>).</strong> (повсюду)</p>
+<ol start="20"><li>I've looked all <em>over</em> for my glasses.</li><li>Students came from all <em>over</em> to study there.</li></ol>
+<hr>
+<h3 id="through">through<a class="hash" href="#through" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θruː/ &middot; <em>THROO</em></dd><dt>Русский</dt><dd>насквозь; до конца</dd><dt>Type</dt><dd>direction; also particle (<em>think through</em>, <em>get through</em>)</dd><dt>Position</dt><dd>end — after the verb; with a phrasal verb, before or after a noun object but after a pronoun (<em>think it through</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; phrasal verbs</dd><dt>Contrast</dt><dd>American <em>Monday through Friday</em> is a preposition meaning ‘up to and including’ (по пятницу включительно); British says <em>to</em>. <em>I'm through</em> (American) is an adjective meaning ‘I'm finished’. Spelling trap: <em>through</em> θruː, <em>though</em> ðoʊ, <em>thorough</em> ˈθɜːroʊ; <em>thru</em> is informal American. For через over a surface, use <em>across</em>.</dd></dl>
+<p>Through has 5 distinct senses.</p>
+<p><strong>1. In at one side or end and out at the other.</strong> (насквозь, сквозь)</p>
+<ol><li>The gate was open, so we walked right <em>through</em>.</li><li>Move over and let the ambulance <em>through</em>.</li><li>Is the road still closed, or can we get <em>through</em>?</li></ol>
+<p><strong>2. From the beginning to the end.</strong> (до конца, от начала до конца)</p>
+<ol start="4"><li>Read the contract <em>through</em> before you sign.</li><li>You didn't think this <em>through</em>.</li><li>The baby slept <em>through</em> until six.</li></ol>
+<p><strong>3. Successfully past a test, stage, or obstacle.</strong> (пройти, быть принятым)</p>
+<ol start="7"><li>The deal finally went <em>through</em>.</li><li>Only four teams made it <em>through</em> to the finals.</li></ol>
+<p><strong>4. Connected by telephone.</strong> (дозвониться; соединить)</p>
+<ol start="9"><li>I tried calling, but I couldn't get <em>through</em>.</li><li>Hold on, I'll put you <em>through</em>.</li></ol>
+<p><strong>5. All the way to the final destination, without changing.</strong> (без пересадки, до конечной)</p>
+<ol start="11"><li>This bus goes <em>through</em> to Boston.</li><li>Your bags are checked <em>through</em> to Denver.</li></ol>
+<hr>
+<h3 id="off">off<a class="hash" href="#off" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːf/ &middot; <em>AWF</em></dd><dt>Русский</dt><dd>прочь; выключено</dd><dt>Type</dt><dd>direction; also particle (<em>turn off</em>, <em>pay off</em>)</dd><dt>Position</dt><dd>end — after the verb; with a phrasal verb, before or after a noun object but after a pronoun (<em>turn it off</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; phrasal verbs; amounts (<em>30% off</em>)</dd><dt>Contrast</dt><dd><em>off</em> ɔːf and <em>of</em> əv are different words. American speech often says <em>off of</em> (<em>get off of the couch</em>), but careful writing uses <em>off</em> alone. <em>turn off</em> = выключить, <em>turn down</em> = убавить or отказать. <em>I'm off</em> means ‘I'm leaving’; <em>off</em> meaning ‘not fresh’ or ‘wrong’ (<em>The milk is off</em>) is an adjective.</dd></dl>
+<p>Off has 10 distinct senses.</p>
+<p><strong>1. Away from a place; leaving.</strong> (прочь; уйти, уехать)</p>
+<ol><li>She waved and drove <em>off</em>.</li><li>The thief ran <em>off</em> with my bag.</li><li>I'm <em>off</em> to work; see you tonight.</li></ol>
+<p><strong>2. So as to be removed or no longer attached.</strong> ((снять, оторвать))</p>
+<ol start="4"><li>Take your shoes <em>off</em> at the door.</li><li>A button came <em>off</em> my coat.</li><li>Wipe the dust <em>off</em> before you paint.</li></ol>
+<p><strong>3. So as to stop working or be disconnected.</strong> (выключить)</p>
+<ol start="7"><li>Turn <em>off</em> the lights when you leave.</li><li>Please switch your phones <em>off</em>.</li></ol>
+<p><strong>4. Away from work or duty.</strong> (выходной, отгул)</p>
+<ol start="9"><li>I'm taking Friday <em>off</em>.</li><li>She has two weeks <em>off</em> in August.</li></ol>
+<p><strong>5. As a reduction in price.</strong> (скидка)</p>
+<ol start="11"><li>Everything in the store is 30 percent <em>off</em>.</li><li>They took fifty dollars <em>off</em> because of the scratch.</li></ol>
+<p><strong>6. At a distance in space or time.</strong> (впереди; вдали)</p>
+<ol start="13"><li>Summer is still months <em>off</em>.</li><li>An island lay a few miles <em>off</em>.</li></ol>
+<p><strong>7. Completely, to the end.</strong> (до конца, полностью)</p>
+<ol start="15"><li>Let's finish <em>off</em> the pizza.</li><li>We finally paid <em>off</em> the car.</li></ol>
+<p><strong>8. So as to be canceled or ended.</strong> (отменить, прекратить)</p>
+<ol start="17"><li>The game was called <em>off</em> because of rain.</li><li>They broke <em>off</em> the engagement.</li></ol>
+<p><strong>9. So as to be separated or closed to others.</strong> ((отгородить, перекрыть))</p>
+<ol start="19"><li>Police blocked <em>off</em> the street after the accident.</li><li>They fenced <em>off</em> the pool so the kids can't get in.</li></ol>
+<p><strong>10. Into sudden noise or explosion.</strong> (сработать, взорваться)</p>
+<ol start="21"><li>My alarm went <em>off</em> at six.</li><li>Someone set <em>off</em> the fire alarm.</li></ol>
+<hr>
+<h3 id="on">on<a class="hash" href="#on" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːn/ &middot; <em>AHN</em></dd><dt>Русский</dt><dd>дальше; включено</dd><dt>Type</dt><dd>direction; also time (<em>from now on</em>) and particle</dd><dt>Position</dt><dd>end — after the verb; with a phrasal verb, before or after a noun object but after a pronoun (<em>put it on</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; phrasal verbs; time phrases</dd><dt>Contrast</dt><dd><em>put on</em> is the action (надеть); <em>wear</em> or <em>have on</em> is the state (быть в чём-то): <em>She put on a coat</em>, <em>She had a coat on</em>. <em>from now on</em> needs the <em>on</em>: never <em>from now I'll…</em>. <em>What's on tonight?</em> and <em>The game is still on</em> are adjective uses. With an object <em>on</em> is a preposition: <em>on the table</em>.</dd></dl>
+<p>On has 7 distinct senses.</p>
+<p><strong>1. So as to work or be operating.</strong> (включить, включено)</p>
+<ol><li>Turn the lights <em>on</em>, please.</li><li>Did you leave the stove <em>on</em>?</li></ol>
+<p><strong>2. On the body, as clothing.</strong> ((надеть), на себе)</p>
+<ol start="3"><li>Put your jacket <em>on</em>; it's cold.</li><li>She had a blue dress <em>on</em>.</li><li>Can I try these jeans <em>on</em>?</li></ol>
+<p><strong>3. Continuing, without stopping.</strong> (дальше, продолжать)</p>
+<ol start="6"><li>Keep <em>on</em> trying.</li><li>Go <em>on</em>, I'm listening.</li><li>He talked <em>on</em> and <em>on</em> about his car.</li></ol>
+<p><strong>4. Forward from a point in time.</strong> (отныне, с тех пор; позже)</p>
+<ol start="9"><li>From now <em>on</em>, please call before you come.</li><li>Later <em>on</em>, we'll talk about the budget.</li></ol>
+<p><strong>5. Onto or into a bus, train, plane, or ship.</strong> (сесть (в транспорт))</p>
+<ol start="11"><li>The bus stopped and we got <em>on</em>.</li><li>Hop <em>on</em>, I'll give you a ride.</li></ol>
+<p><strong>6. Attached, covering, or in position.</strong> ((закрыть, закрепить) на месте)</p>
+<ol start="13"><li>Screw the lid <em>on</em> tight.</li><li>Is the cap still <em>on</em>?</li></ol>
+<p><strong>7. To the next person.</strong> ((передать) дальше)</p>
+<ol start="15"><li>Please pass the message <em>on</em>.</li><li>When you're done reading it, pass it <em>on</em> to Mike.</li></ol>
+<hr>
+<h3 id="by">by<a class="hash" href="#by" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baɪ/ &middot; <em>BY</em></dd><dt>Русский</dt><dd>мимо</dd><dt>Type</dt><dd>direction; also place and particle (<em>stop by</em>, <em>stand by</em>)</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion; phrasal verbs</dd><dt>Contrast</dt><dd><em>by</em> is far more often a preposition (<em>by bus</em>, <em>by Friday</em>, <em>written by</em>); the adverb has no object after it. <em>stop by</em> and <em>come by</em> mean a short visit, not ‘stop nearby’. <em>stand by</em> can mean ‘wait, ready’ (<em>Please stand by</em>) or ‘watch without acting’. Homophones: <em>buy</em>, <em>bye</em>.</dd></dl>
+<p>By has 5 distinct senses.</p>
+<p><strong>1. Past, going beyond someone or something.</strong> (мимо)</p>
+<ol><li>A truck roared <em>by</em>.</li><li>Days went <em>by</em> and still no news.</li><li>Excuse me, can I get <em>by</em>?</li></ol>
+<p><strong>2. To someone's home or office, for a short visit.</strong> (заглянуть, зайти)</p>
+<ol start="4"><li>Stop <em>by</em> my office after lunch.</li><li>Come <em>by</em> anytime.</li></ol>
+<p><strong>3. Managing to live or cope with what one has (in <em>get by</em>).</strong> (обходиться, сводить концы с концами)</p>
+<ol start="6"><li>We get <em>by</em> on one income.</li><li>My Spanish is good enough to get <em>by</em>.</li><li>How does anyone get <em>by</em> on minimum wage?</li></ol>
+<p><strong>4. Near, close at hand.</strong> (рядом, поблизости)</p>
+<ol start="9"><li>Is there a gas station close <em>by</em>?</li><li>She stood <em>by</em>, watching.</li></ol>
+<p><strong>5. Ready and waiting (in <em>stand by</em>).</strong> (наготове)</p>
+<ol start="11"><li>Please stand <em>by</em> for further instructions.</li><li>Rescue crews are standing <em>by</em>.</li></ol>
+<hr>
+<h3 id="past">past<a class="hash" href="#past" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pæst/ &middot; <em>PAST</em></dd><dt>Русский</dt><dd>мимо</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after a verb of motion or of time passing</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion and of time passing</dd><dt>Contrast</dt><dd>Spelling trap: <em>passed</em> is the past tense of <em>pass</em> (<em>A car passed us</em>); <em>past</em> is the adverb or preposition (<em>A car went past</em>). Both sound the same. <em>half past two</em> and <em>past the bank</em> are prepositions.</dd></dl>
+<p>Going by and beyond a person or place without stopping.</p>
+<ol><li>A bus went <em>past</em> without stopping.</li><li>He walked right <em>past</em> and didn't say hi.</li><li>Summer flew <em>past</em>, and the kids were back in school.</li></ol>
+<hr>
+<h3 id="round">round<a class="hash" href="#round" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raʊnd/ &middot; <em>ROWND</em></dd><dt>Русский</dt><dd>кругом; круглый год</dd><dt>Type</dt><dd>direction; also time (<em>all year round</em>)</dd><dt>Position</dt><dd>end — after the verb or at the end of a set phrase</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; set phrases (<em>all year round</em>)</dd><dt>Form</dt><dd>the short form of <em>around</em>, kept in a few set phrases</dd><dt>Contrast</dt><dd>In American English <em>around</em> is the normal adverb: <em>turn around</em>, <em>go around</em>, <em>come around</em>, <em>the other way around</em>. <em>round</em> survives in <em>round and round</em> and <em>all year round</em> (also <em>year-round</em>); <em>the other way round</em> is still met in American reading but sounds British. British <em>come round for dinner</em> is American <em>come over</em>.</dd></dl>
+<p>Round has 3 distinct senses.</p>
+<p><strong>1. In a circle, turning again and again (in <em>round and round</em>).</strong> (по кругу, кругом)</p>
+<ol><li>The kids spun <em>round</em> and <em>round</em> on the carousel.</li><li>My thoughts kept going <em>round</em> and <em>round</em>.</li></ol>
+<p><strong>2. Through the whole year (in <em>all year round</em>).</strong> (круглый год)</p>
+<ol start="3"><li>The pool is open all year <em>round</em>.</li><li>We grow herbs on the windowsill all year <em>round</em>.</li></ol>
+<p><strong>3. In the reverse way (in <em>the other way round</em>).</strong> (наоборот)</p>
+<ol start="5"><li>It wasn't his fault; it was the other way <em>round</em>.</li><li>I thought she hired him, but it was the other way <em>round</em>.</li></ol>
+<hr>
+<h3 id="onward">onward<a class="hash" href="#onward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːnwərd/ &middot; <em>AHN-wurd</em></dd><dt>Русский</dt><dd>вперёд, дальше</dd><dt>Type</dt><dd>direction; also time (<em>from 1990 onward</em>)</dd><dt>Position</dt><dd>end — after a verb of motion, or after <em>from</em> + a time</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion; time phrases after <em>from</em></dd><dt>Form</dt><dd>-ward from <em>on</em>; British usually <em>onwards</em></dd><dt>Contrast</dt><dd>American <em>onward</em>, British <em>onwards</em>. <em>from 2010 on</em> and <em>from 2010 onward</em> mean the same; don't stack them. <em>Onward and upward!</em> is a set cheer meaning ‘keep going and improving’.</dd></dl>
+<p>Onward has 2 distinct senses.</p>
+<p><strong>1. Forward, farther along a route.</strong> (вперёд, дальше)</p>
+<ol><li>The hikers pushed <em>onward</em> through the snow.</li><li>After lunch we drove <em>onward</em> to Denver.</li></ol>
+<p><strong>2. Forward in time from a stated point.</strong> (начиная с, и далее)</p>
+<ol start="3"><li>From the 1990s <em>onward</em>, the city grew fast.</li><li>The museum is open from 9 a.m. <em>onward</em>.</li></ol>
+<hr>
+<h3 id="uphill">uphill<a class="hash" href="#uphill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌpˈhɪl/ &middot; <em>uhp-HIL</em></dd><dt>Русский</dt><dd>в гору</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion and extent</dd><dt>Form</dt><dd><em>up</em> + <em>hill</em></dd><dt>Contrast</dt><dd>As an adverb the stress falls on <em>hill</em>; as an adjective before a noun it moves forward, and the adjective is also the figurative one: <em>an uphill battle</em> (тяжёлая борьба).</dd></dl>
+<p>Up a slope, toward the top of a hill.</p>
+<ol><li>We pushed our bikes <em>uphill</em>.</li><li>The trail climbs <em>uphill</em> for two miles.</li><li>Water doesn't flow <em>uphill</em>.</li></ol>
+<hr>
+<h3 id="downhill">downhill<a class="hash" href="#downhill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdaʊnˈhɪl/ &middot; <em>down-HIL</em></dd><dt>Русский</dt><dd>под гору, вниз</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion and change</dd><dt>Form</dt><dd><em>down</em> + <em>hill</em></dd><dt>Contrast</dt><dd><em>It's all downhill from here</em> is an adjective use after <em>be</em>, and it can mean ‘it gets easier now’ or ‘it only gets worse now’ — context decides. <em>go downhill</em> on its own always means ‘get worse’. As an adjective before a noun the stress moves forward: <em>downhill skiing</em>.</dd></dl>
+<p>Downhill has 2 distinct senses.</p>
+<p><strong>1. Down a slope.</strong> (под гору, вниз)</p>
+<ol><li>The kids raced <em>downhill</em> on their sleds.</li><li>The road runs <em>downhill</em> to the lake.</li></ol>
+<p><strong>2. Into a worse condition.</strong> (ухудшаться, катиться вниз)</p>
+<ol start="3"><li>After he lost his job, things went <em>downhill</em> fast.</li><li>The restaurant has gone <em>downhill</em> since the new owners took over.</li></ol>
+<hr>
+<h3 id="upstream">upstream<a class="hash" href="#upstream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌpˈstriːm/ &middot; <em>uhp-STREEM</em></dd><dt>Русский</dt><dd>вверх по течению</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion and location</dd><dt>Form</dt><dd><em>up</em> + <em>stream</em></dd><dt>Contrast</dt><dd>In American business and software writing <em>upstream</em> means ‘at an earlier stage’ or ‘at the source a project comes from’, and <em>downstream</em> ‘at a later stage’; the river picture is usually gone.</dd></dl>
+<p>Upstream has 2 distinct senses.</p>
+<p><strong>1. Against the current, toward the source of a river.</strong> (вверх по течению)</p>
+<ol><li>Salmon swim <em>upstream</em> to spawn.</li><li>We paddled <em>upstream</em> for an hour.</li></ol>
+<p><strong>2. At or toward an earlier stage of a process or supply chain.</strong> (на более ранней стадии)</p>
+<ol start="3"><li>It's cheaper to fix the problem <em>upstream</em>, before the parts reach the factory.</li><li>Most of these errors start further <em>upstream</em>.</li></ol>
+<hr>
+<h3 id="downstream">downstream<a class="hash" href="#downstream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdaʊnˈstriːm/ &middot; <em>down-STREEM</em></dd><dt>Русский</dt><dd>вниз по течению</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion and location</dd><dt>Form</dt><dd><em>down</em> + <em>stream</em></dd><dt>Contrast</dt><dd>In American business and software writing <em>downstream</em> means ‘at a later stage’ or ‘affected by an earlier step’, the opposite of <em>upstream</em>; the river picture is usually gone.</dd></dl>
+<p>Downstream has 2 distinct senses.</p>
+<p><strong>1. With the current, away from the source of a river.</strong> (вниз по течению)</p>
+<ol><li>The canoe drifted <em>downstream</em>.</li><li>The town is ten miles <em>downstream</em>.</li></ol>
+<p><strong>2. At or toward a later stage of a process.</strong> (на последующих этапах)</p>
+<ol start="3"><li>A mistake in the design causes bigger problems <em>downstream</em>.</li><li>Delays here ripple <em>downstream</em> to every other team.</li></ol>
+<hr>
+<h3 id="astray">astray<a class="hash" href="#astray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈstreɪ/ &middot; <em>uh-STRAY</em></dd><dt>Русский</dt><dd>с пути; мимо цели</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after <em>go</em> or <em>lead someone</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>the verbs <em>go</em> and <em>lead</em></dd><dt>Form</dt><dd><em>a-</em> (‘on, in’) + <em>stray</em></dd><dt>Contrast</dt><dd>Used almost only in <em>go astray</em> and <em>lead someone astray</em>. <em>stray</em> alone is a verb or adjective (<em>a stray dog</em>), not the adverb.</dd></dl>
+<p>Astray has 2 distinct senses.</p>
+<p><strong>1. Away from the right path or place, so as to get lost.</strong> (потеряться, сбиться с пути)</p>
+<ol><li>My package went <em>astray</em> in the mail.</li><li>The hikers went <em>astray</em> in the fog.</li></ol>
+<p><strong>2. Into wrong behavior or a wrong belief.</strong> (сбить с пути (истинного); ввести в заблуждение)</p>
+<ol start="3"><li>Some older boys led him <em>astray</em>.</li><li>Don't let a single study lead you <em>astray</em>.</li></ol>
+<hr>
+<h3 id="aground">aground<a class="hash" href="#aground" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈɡraʊnd/ &middot; <em>uh-GROWND</em></dd><dt>Русский</dt><dd>на мель</dd><dt>Type</dt><dd>direction</dd><dt>Position</dt><dd>end — after <em>run</em> or <em>go</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>the verbs <em>run</em>, <em>go</em> and <em>drive</em></dd><dt>Form</dt><dd><em>a-</em> (‘on’) + <em>ground</em></dd><dt>Contrast</dt><dd>Only about ships: <em>run aground</em>, <em>go aground</em> = сесть на мель. It does not mean <em>on the ground</em> (на земле).</dd></dl>
+<p>Onto the shore or the bottom of shallow water, so that a ship cannot move.</p>
+<ol><li>The tanker ran <em>aground</em> off the coast of Alaska.</li><li>A cargo ship went <em>aground</em> in the fog.</li><li>The storm drove three fishing boats <em>aground</em>.</li></ol>
+<hr>
+<h3 id="overboard">overboard<a class="hash" href="#overboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərˌbɔːrd/ &middot; <em>OH-vur-bord</em></dd><dt>Русский</dt><dd>через край; за борт</dd><dt>Type</dt><dd>direction; also degree (<em>go overboard</em>)</dd><dt>Position</dt><dd>end — after the verb</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion; <em>go</em> and <em>throw</em></dd><dt>Form</dt><dd><em>over</em> + <em>board</em> (the side of a ship)</dd><dt>Contrast</dt><dd><em>go overboard</em> is everyday informal English for doing too much (перебарщивать), and is far more common than the literal sense.</dd></dl>
+<p>Overboard has 3 distinct senses.</p>
+<p><strong>1. To excess, further than is sensible (in <em>go overboard</em>).</strong> (перебарщивать)</p>
+<ol><li>Don't go <em>overboard</em> with the decorations.</li><li>I went a little <em>overboard</em> on snacks for the party.</li></ol>
+<p><strong>2. Over the side of a boat or ship into the water.</strong> (за борт)</p>
+<ol start="3"><li>He fell <em>overboard</em> and had to be rescued.</li><li>Man <em>overboard</em>!</li></ol>
+<p><strong>3. Aside, so as to be abandoned (in <em>throw overboard</em>).</strong> (отбросить, отказаться)</p>
+<ol start="5"><li>The plan was thrown <em>overboard</em> when the budget was cut.</li><li>They tossed their principles <em>overboard</em> to win.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
