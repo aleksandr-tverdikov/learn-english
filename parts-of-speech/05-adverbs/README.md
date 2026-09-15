@@ -2,6 +2,8 @@
 
 > An adverb is a word that modifies a verb, an adjective, another adverb, or a whole clause, telling us how, when, where, how often, how much, or with what attitude something happens.
 
+> **📖 Looking for a specific adverb?** This file covers the *grammar*. The *lexicon* — **[2,590 entries](catalog/README.md)**, each with its **type**, where it goes in the sentence, how it compares, and every meaning with its Russian translation — lives in the **[Adverb Dictionary](catalog/README.md)**. There is also an **[audio browser](catalog/browse.html)** you can search and listen to.
+
 ## 1. What it does
 
 An adverb adds circumstantial or evaluative information to something else in the sentence. Its most familiar job is modifying a verb — describing the manner, time, place, frequency, or degree of the action. But adverbs modify far more than verbs, and that breadth is what makes the class hard to pin down.

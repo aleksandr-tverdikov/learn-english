@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The -ly form that means something else</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="the--ly-form-that-means-something-else">The -ly form that means something else<a class="hash" href="#the--ly-form-that-means-something-else" aria-label="link">#</a></h1>
+<blockquote><p><em>hardly</em>, <em>lately</em>, <em>nearly</em>, <em>highly</em> — the <em>-ly</em> forms whose meaning drifted away from the flat adverb they look like.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Adding <em>-ly</em> to <em>hard</em> does not give a more formal way of saying <em>with effort</em> — it gives <em>hardly</em>, which means <em>almost not</em>. The same drift happened to <em>late</em>/<em>lately</em>, <em>near</em>/<em>nearly</em>, <em>high</em>/<em>highly</em> and a dozen more. These are among the most frequent errors in learner English, because the spelling promises a relationship the meaning no longer has. Every entry names its flat partner and says exactly how they differ.</p>
+<hr>
+<h3 id="hardly">hardly<a class="hash" href="#hardly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrdli/ &middot; <em>HAHRD-lee</em></dd><dt>Русский</dt><dd>едва, почти не; вряд ли</dd><dt>Type</dt><dd>degree — a downtoner with negative force; also stance and time (<em>hardly … when</em>)</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; front with inversion (<em>Hardly had…</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, adjectives, adverbs, nouns and quantifiers (<em>hardly anyone</em>, <em>hardly ever</em>)</dd><dt>Form</dt><dd>-ly from <em>hard</em>, but not its meaning</dd><dt>Contrast</dt><dd><em>hard</em> (flat) = with effort or force: <em>She works hard</em> (много, усердно работает). <em>hardly</em> = almost not: <em>She hardly works</em> (почти не работает). <em>hardly</em> is already negative — <em>I can hardly see</em>, not <em>I can't hardly see</em> — and takes <em>any</em> and <em>ever</em>: <em>hardly anyone</em>, <em>hardly ever</em>, not <em>hardly nobody</em>. Fronted, it inverts and pairs with <em>when</em> (not <em>than</em>): <em>Hardly had we left when it started to rain</em>.</dd></dl>
+<p>Hardly has 3 distinct senses.</p>
+<p><strong>1. Almost not; only a very small amount or degree.</strong> (едва, почти не)</p>
+<ol><li>I could <em>hardly</em> hear her over the music.</li><li>There's <em>hardly</em> any coffee left.</li><li>We <em>hardly</em> ever see each other now that she lives in Denver.</li></ol>
+<p><strong>2. Certainly not — used to say that something is obviously untrue, unreasonable or unsuitable.</strong> (вряд ли, едва ли, никак не)</p>
+<ol start="4"><li>It's <em>hardly</em> surprising that he quit.</li><li>This is <em>hardly</em> the time to talk about money.</li><li>"Did you enjoy the meeting?" "<em>Hardly</em>."</li></ol>
+<p><strong>3. Only just, a moment before something else happened — in <em>hardly … when</em>.</strong> (едва (как), только… как)</p>
+<ol start="7"><li>We had <em>hardly</em> sat down when the lights went out.</li><li><em>Hardly</em> had the game started when it began to pour.</li></ol>
+<hr>
+<h3 id="lately">lately<a class="hash" href="#lately" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪtli/ &middot; <em>LAYT-lee</em></dd><dt>Русский</dt><dd>в последнее время</dd><dt>Type</dt><dd>time — recently, over a period up to now</dd><dt>Position</dt><dd>front or end — usually at the end; mid in formal writing (<em>has lately been</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Form</dt><dd>-ly from <em>late</em>, but it means <em>recently</em></dd><dt>Contrast</dt><dd><em>late</em> (flat) = after the usual or expected time: <em>She got up late</em> (поздно). <em>lately</em> = recently, over a stretch of time up to now: <em>She's been getting up late lately</em>. Because it covers a period up to now, <em>lately</em> goes with the present perfect — <em>I haven't seen him lately</em> — and not with one finished event: <em>I saw him recently</em>, not <em>I saw him lately</em>. Russian <em>поздно</em> is always <em>late</em>, never <em>lately</em>.</dd></dl>
+<p>Recently; during the period of time up to now.</p>
+<ol><li>Have you talked to Mike <em>lately</em>?</li><li>I've been feeling really tired <em>lately</em>.</li><li><em>Lately</em>, prices at our grocery store have gone way up.</li></ol>
+<hr>
+<h3 id="nearly">nearly<a class="hash" href="#nearly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɪrli/ &middot; <em>NEER-lee</em></dd><dt>Русский</dt><dd>почти, чуть не</dd><dt>Type</dt><dd>degree — almost, but not quite</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; before its word with adjectives, numbers and quantifiers (<em>nearly empty</em>, <em>nearly 300</em>)</dd><dt>Comparison</dt><dd>not gradable — though <em>very nearly</em> occurs</dd><dt>Modifies</dt><dd>verbs, adjectives, adverbs, numbers and quantifiers (<em>nearly all</em>, <em>nearly everyone</em>)</dd><dt>Form</dt><dd>-ly from <em>near</em>, but it means <em>almost</em>, not <em>close by</em></dd><dt>Contrast</dt><dd><em>near</em> (flat) = close in space or time: <em>Don't sit so near</em>; <em>The exam is getting near</em>. <em>nearly</em> = almost: <em>I nearly fell</em> (чуть не упал). <em>nearly the station</em> is wrong — <em>near the station</em>, where <em>near</em> is a preposition. <em>nearly</em> and <em>almost</em> swap freely with numbers and verbs, but only <em>almost</em> goes with <em>no</em>, <em>never</em> and <em>nobody</em>: <em>almost nobody came</em>, not <em>nearly nobody</em>. And <em>not nearly</em> (далеко не) has no <em>almost</em> version.</dd></dl>
+<p>Nearly has 2 distinct senses.</p>
+<p><strong>1. Almost; not completely, or very close to happening.</strong> (почти; чуть не)</p>
+<ol><li>It's <em>nearly</em> midnight — we should go.</li><li>I <em>nearly</em> missed my flight.</li><li><em>Nearly</em> 40 percent of the students commute to campus.</li></ol>
+<p><strong>2. In <em>not nearly</em>: far from; much less than.</strong> (далеко не, совсем не)</p>
+<ol start="4"><li>There aren't <em>nearly</em> enough chairs for everyone.</li><li>The sequel is <em>not nearly</em> as good as the original.</li></ol>
+<hr>
+<h3 id="highly">highly<a class="hash" href="#highly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪli/ &middot; <em>HY-lee</em></dd><dt>Русский</dt><dd>весьма, крайне; высоко</dd><dt>Type</dt><dd>degree — very, to a high level; also manner (<em>speak highly of</em>)</dd><dt>Position</dt><dd>before its word — before an adjective or participle (<em>highly unlikely</em>); mid before <em>recommend</em> (<em>I highly recommend it</em>); end after verbs of judging (<em>think highly of</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more highly</em>, <em>most highly</em></dd><dt>Modifies</dt><dd>adjectives and past participles; verbs of judging (<em>think</em>, <em>speak</em>, <em>rate</em>, <em>regard</em>)</dd><dt>Form</dt><dd>-ly from <em>high</em>, but not its meaning of height</dd><dt>Contrast</dt><dd><em>high</em> (flat) = at or to a high point in space: <em>fly high</em>, <em>jump high</em>, <em>aim high</em>. <em>highly</em> = very, or with a good opinion: <em>highly intelligent</em>, <em>think highly of her</em>. <em>The plane flew highly</em> and <em>jump highly</em> are wrong. <em>highly</em> keeps to fixed partners — <em>highly unlikely</em>, <em>highly recommended</em>, <em>highly qualified</em>, <em>highly paid</em> — and does not replace <em>very</em> with everyday adjectives: <em>very tall</em>, not <em>highly tall</em>.</dd></dl>
+<p>Highly has 3 distinct senses.</p>
+<p><strong>1. Very; to a high degree.</strong> (весьма, крайне, очень)</p>
+<ol><li>It's <em>highly</em> unlikely that the store is open on Thanksgiving.</li><li>She's a <em>highly</em> skilled surgeon.</li><li>I <em>highly</em> recommend the fish tacos.</li></ol>
+<p><strong>2. With approval; with a good opinion of someone or something.</strong> (высоко, хорошо (отзываться, ценить))</p>
+<ol start="4"><li>Everyone at work speaks <em>highly</em> of her.</li><li>I don't think very <em>highly</em> of his plan.</li><li>The book was <em>highly</em> praised by critics.</li></ol>
+<p><strong>3. At a high level of pay, rank or importance.</strong> (высоко (оплачиваемый, поставленный))</p>
+<ol start="7"><li>Doctors are <em>more highly</em> paid than teachers.</li><li>The story came from a <em>highly</em> placed source in the White House.</li></ol>
+<hr>
+<h3 id="deeply">deeply<a class="hash" href="#deeply" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːpli/ &middot; <em>DEEP-lee</em></dd><dt>Русский</dt><dd>глубоко, очень</dd><dt>Type</dt><dd>degree — very strongly, of feelings and beliefs; also manner</dd><dt>Position</dt><dd>mid or end — before a verb or participle (<em>deeply regret</em>, <em>deeply moved</em>), after the verb (<em>breathe deeply</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more deeply</em>, <em>most deeply</em></dd><dt>Modifies</dt><dd>verbs and past participles of feeling and belief; verbs like <em>breathe</em>, <em>sleep</em>, <em>think</em></dd><dt>Form</dt><dd>-ly from <em>deep</em></dd><dt>Contrast</dt><dd><em>deep</em> (flat) = far down or far into, mostly with verbs of movement and in fixed phrases: <em>dig deep</em>, <em>go deep into the woods</em>, <em>still waters run deep</em>, and in the comparative <em>dig deeper</em>. <em>deeply</em> = intensely: <em>deeply moved</em>, <em>deeply regret</em>; it also goes with <em>breathe</em>, <em>sleep</em> and <em>think</em>. <em>I deep regret</em> is wrong — <em>I deeply regret</em>. For a real hole, <em>They dug deep</em>, not <em>dug deeply</em>.</dd></dl>
+<p>Deeply has 2 distinct senses.</p>
+<p><strong>1. Very much; strongly or seriously — of feelings and beliefs, and of states like <em>flawed</em>, <em>unpopular</em> and <em>in debt</em>.</strong> (глубоко, очень, искренне; крайне)</p>
+<ol><li>We are <em>deeply</em> sorry for your loss.</li><li>The plan is <em>deeply</em> flawed.</li><li>Many Americans feel <em>deeply</em> about gun laws.</li></ol>
+<p><strong>2. Far down or far in; to a great depth — also of breathing, sleep and serious thought.</strong> (глубоко; крепко (спать))</p>
+<ol start="4"><li>Close your eyes and breathe <em>deeply</em>.</li><li>A piece of glass cut <em>deeply</em> into his hand.</li><li>I haven't thought <em>deeply</em> about it yet.</li></ol>
+<hr>
+<h3 id="closely">closely<a class="hash" href="#closely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkloʊsli/ &middot; <em>KLOHS-lee</em></dd><dt>Русский</dt><dd>внимательно; тесно; близко</dd><dt>Type</dt><dd>manner — carefully; also degree (<em>closely related</em>)</dd><dt>Position</dt><dd>end — after the verb and object (<em>watch closely</em>); before its word with participles (<em>closely related</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more closely</em>, <em>most closely</em></dd><dt>Modifies</dt><dd>verbs of watching, working and following; participles like <em>related</em>, <em>linked</em>, <em>guarded</em></dd><dt>Form</dt><dd>-ly from the adjective <em>close</em> (near), said with /s/</dd><dt>Contrast</dt><dd><em>close</em> (flat) = near: <em>Come close</em>, <em>Stay close to me</em>, <em>We live close to the school</em>. <em>closely</em> = carefully, or tightly connected: <em>Watch closely</em>, <em>closely related</em>. <em>Stay closely to me</em> is wrong. Both are said with /s/ like the adjective <em>close</em>, not /z/ like the verb <em>close</em> (закрывать).</dd></dl>
+<p>Closely has 4 distinct senses.</p>
+<p><strong>1. Carefully, paying close attention.</strong> (внимательно, пристально, тщательно)</p>
+<ol><li>Listen <em>closely</em> — I'm only going to say this once.</li><li>Police are watching the situation <em>closely</em>.</li><li>The recipe is a <em>closely</em> guarded family secret.</li></ol>
+<p><strong>2. In a close relationship or with a strong connection; working together a lot.</strong> (тесно)</p>
+<ol start="4"><li>We work <em>closely</em> with local schools.</li><li>Stress and poor sleep are <em>closely</em> linked.</li></ol>
+<p><strong>3. Near in space or time, with little distance or gap.</strong> (близко, вплотную, плотно)</p>
+<ol start="6"><li>A black SUV was following <em>closely</em> behind us.</li><li>The houses on our street are <em>closely</em> packed together.</li><li>The storm was <em>closely</em> followed by a heat wave.</li></ol>
+<p><strong>4. Very nearly; with only a small difference.</strong> (очень (похоже), почти в точности; с небольшим перевесом)</p>
+<ol start="9"><li>The copy <em>closely</em> resembles the original.</li><li>It was one of the <em>most closely</em> contested elections in the state's history.</li></ol>
+<hr>
+<h3 id="freely">freely<a class="hash" href="#freely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfriːli/ &middot; <em>FREE-lee</em></dd><dt>Русский</dt><dd>свободно; открыто; щедро</dd><dt>Type</dt><dd>manner — without limits or control</dd><dt>Position</dt><dd>end — after the verb and object; mid before <em>admit</em> and <em>give</em> (<em>freely admits</em>); before its word with participles and adjectives (<em>freely available</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more freely</em>, <em>most freely</em></dd><dt>Modifies</dt><dd>verbs of movement, speech and giving; adjectives like <em>available</em></dd><dt>Form</dt><dd>-ly from <em>free</em>, but without its <em>no cost</em> meaning</dd><dt>Contrast</dt><dd><em>free</em> (flat) = without paying: <em>Kids under five ride free</em> (бесплатно). <em>freely</em> = without limits: <em>Kids can move freely around the museum</em> (свободно). Mixing them changes the meaning. And Russian <em>свободно говорить по-английски</em> is <em>speak English fluently</em>, not <em>freely</em> — <em>speak freely</em> means to say openly what you think.</dd></dl>
+<p>Freely has 4 distinct senses.</p>
+<p><strong>1. Without being controlled, stopped or limited.</strong> (свободно, беспрепятственно)</p>
+<ol><li>Once the cast came off, I could move my arm <em>freely</em>.</li><li>The information is <em>freely</em> available online.</li><li>Traffic is moving <em>more freely</em> now that the accident has been cleared.</li></ol>
+<p><strong>2. Openly and honestly, without fear; willingly.</strong> (открыто, откровенно; охотно)</p>
+<ol start="4"><li>You can speak <em>freely</em> — nobody here will repeat it.</li><li>He <em>freely</em> admits he made mistakes.</li></ol>
+<p><strong>3. Generously; in large amounts.</strong> (щедро, обильно)</p>
+<ol start="6"><li>The wine flowed <em>freely</em> at the wedding.</li><li>They gave <em>freely</em> to the church and the food bank.</li></ol>
+<p><strong>4. Loosely, not exactly — of translating or adapting a text.</strong> (вольно, нестрого)</p>
+<ol start="8"><li>The movie is <em>freely</em> adapted from a nineteenth-century novel.</li><li>The poem was <em>freely</em> translated from Spanish.</li></ol>
+<hr>
+<h3 id="widely">widely<a class="hash" href="#widely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪdli/ &middot; <em>WYD-lee</em></dd><dt>Русский</dt><dd>широко, повсеместно; сильно</dd><dt>Type</dt><dd>degree — by many people, or by a lot; also place and manner</dd><dt>Position</dt><dd>before its word — before a participle (<em>widely used</em>); end after verbs (<em>vary widely</em>, <em>travel widely</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more widely</em>, <em>most widely</em></dd><dt>Modifies</dt><dd>past participles (<em>used</em>, <em>known</em>, <em>spaced</em>); verbs like <em>vary</em>, <em>differ</em>, <em>travel</em>, <em>grin</em></dd><dt>Form</dt><dd>-ly from <em>wide</em></dd><dt>Contrast</dt><dd><em>wide</em> (flat) = fully, to the full extent: <em>open wide</em>, <em>wide awake</em>, <em>wide open</em>, <em>far and wide</em>. <em>widely</em> = by many people, or a lot: <em>widely known</em>, <em>vary widely</em>. <em>Open your mouth widely</em> is wrong — <em>open wide</em>; <em>a wide known fact</em> is wrong — <em>a widely known fact</em>.</dd></dl>
+<p>Widely has 4 distinct senses.</p>
+<p><strong>1. By a lot of people or in a lot of places.</strong> (широко, повсеместно)</p>
+<ol><li>It's <em>widely</em> believed that the policy failed.</li><li>The app is <em>widely</em> used by small businesses.</li><li>Spanish is the <em>most widely</em> spoken language in the U.S. after English.</li></ol>
+<p><strong>2. Over a large area; to many different places.</strong> (много, повсюду (путешествовать, распространяться))</p>
+<ol start="4"><li>She has traveled <em>widely</em> in Asia.</li><li>The seeds are <em>widely</em> scattered by the wind.</li></ol>
+<p><strong>3. By a large amount; very differently.</strong> (сильно, значительно)</p>
+<ol start="6"><li>Prices vary <em>widely</em> from store to store.</li><li>The two reports come to <em>widely</em> different conclusions.</li></ol>
+<p><strong>4. With a wide opening or a big gap — of smiling, and of things set far apart.</strong> (широко; далеко (друг от друга))</p>
+<ol start="8"><li>He grinned <em>widely</em> when he saw his test score.</li><li>The trees are <em>widely</em> spaced so the grass gets plenty of sun.</li></ol>
+<hr>
+<h3 id="mostly">mostly<a class="hash" href="#mostly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊstli/ &middot; <em>MOHST-lee</em></dd><dt>Русский</dt><dd>в основном; обычно</dd><dt>Type</dt><dd>degree — mainly, for the most part; also frequency</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em>; before its word (<em>mostly students</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, adjectives, nouns and phrases (<em>mostly in the evening</em>)</dd><dt>Form</dt><dd>-ly from <em>most</em>, but without its superlative meaning</dd><dt>Contrast</dt><dd><em>most</em> (flat) = more than anything else, and the superlative marker: <em>What I miss most is the food</em>; <em>the most expensive</em>. <em>mostly</em> = mainly: <em>The food was mostly vegetarian</em>. <em>What I miss mostly</em> and <em>the mostly expensive</em> are errors. Russian <em>больше всего</em> → <em>most</em>; <em>в основном</em> → <em>mostly</em>. Don't confuse it with <em>most of</em>: <em>Most of the guests were teachers</em> = <em>The guests were mostly teachers</em>.</dd></dl>
+<p>Mostly has 2 distinct senses.</p>
+<p><strong>1. Mainly; for the most part.</strong> (в основном, преимущественно)</p>
+<ol><li>The crowd was <em>mostly</em> college students.</li><li>The sauce is <em>mostly</em> butter and garlic.</li><li>I agree with you — <em>mostly</em>.</li></ol>
+<p><strong>2. Usually; most of the time.</strong> (обычно, чаще всего)</p>
+<ol start="4"><li>We <em>mostly</em> eat dinner at home.</li><li>On weekends I <em>mostly</em> just sleep in.</li></ol>
+<hr>
+<h3 id="shortly">shortly<a class="hash" href="#shortly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɔːrtli/ &middot; <em>SHORT-lee</em></dd><dt>Русский</dt><dd>вскоре, скоро; резко</dd><dt>Type</dt><dd>time — soon; also manner</dd><dt>Position</dt><dd>mid or end — at the end (<em>see you shortly</em>) or after the first auxiliary (<em>will shortly arrive</em>); before <em>after</em> and <em>before</em> (<em>shortly after noon</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; the words <em>after</em> and <em>before</em></dd><dt>Form</dt><dd>-ly from <em>short</em>, but it means <em>soon</em>, not <em>briefly</em></dd><dt>Contrast</dt><dd><em>short</em> (flat) = suddenly, or before the end: <em>stop short</em>, <em>cut the meeting short</em> (прервать), <em>fall short</em>, <em>run short of cash</em>. <em>shortly</em> = soon: <em>I'll call you shortly</em>. <em>cut shortly</em> is wrong. <em>shortly</em> is not <em>briefly</em>: <em>speak briefly</em> = говорить коротко, but <em>She'll speak shortly</em> = она скоро выступит, and only after a quote does it mean резко: <em>"No," she said shortly</em>. <em>shortly ago</em> is wrong — use <em>a short time ago</em> or <em>recently</em>.</dd></dl>
+<p>Shortly has 2 distinct senses.</p>
+<p><strong>1. Soon; in a short time, or a short time before or after something.</strong> (вскоре, скоро)</p>
+<ol><li>The doctor will be with you <em>shortly</em>.</li><li><em>Shortly</em> after we moved to Chicago, I found a job.</li><li>The last train leaves <em>shortly</em> before midnight.</li></ol>
+<p><strong>2. In a short, impatient or unfriendly way.</strong> (резко, отрывисто, сухо)</p>
+<ol start="4"><li>"I'm busy," she said <em>shortly</em>.</li><li>The clerk answered <em>shortly</em>, without looking up from her phone.</li></ol>
+<hr>
+<h3 id="fairly">fairly<a class="hash" href="#fairly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛrli/ &middot; <em>FAIR-lee</em></dd><dt>Русский</dt><dd>довольно; честно, справедливо</dd><dt>Type</dt><dd>degree — moderately; also manner (<em>in a fair way</em>)</dd><dt>Position</dt><dd>before its word — before an adjective or adverb (<em>fairly easy</em>); end after the verb in the <em>justly</em> sense (<em>treat people fairly</em>)</dd><dt>Comparison</dt><dd>more/most — only in the <em>justly</em> sense (<em>more fairly</em>, <em>most fairly</em>); the degree sense is not gradable</dd><dt>Modifies</dt><dd>adjectives and adverbs (degree); verbs (manner)</dd><dt>Form</dt><dd>-ly from <em>fair</em>; the two main meanings are unrelated</dd><dt>Contrast</dt><dd><em>fair</em> (flat) = by the rules: <em>play fair</em>, <em>fight fair</em>. <em>fairly</em> means either that (<em>treat people fairly</em>) or <em>moderately</em> (<em>fairly good</em>) — position tells you which: right before an adjective it is degree. In American speech <em>fairly good</em> is a cool, limited compliment, weaker than <em>pretty good</em>; <em>quite good</em> is stronger in AmE than in BrE. <em>fairly</em> does not go before <em>too</em> or a comparative: <em>a bit too big</em>, <em>a little bigger</em>, not <em>fairly too big</em> or <em>fairly bigger</em>.</dd></dl>
+<p>Fairly has 3 distinct senses.</p>
+<p><strong>1. More than a little but less than very; to a moderate degree.</strong> (довольно, достаточно)</p>
+<ol><li>The test was <em>fairly</em> easy.</li><li>I know him <em>fairly</em> well.</li><li>We live in a <em>fairly</em> quiet neighborhood.</li></ol>
+<p><strong>2. In a fair, honest or equal way; with good reason.</strong> (честно, справедливо; по праву)</p>
+<ol start="4"><li>All employees must be treated <em>fairly</em>.</li><li>The work was divided <em>fairly</em> among the team.</li><li>It can <em>fairly</em> be said that she saved the company.</li></ol>
+<p><strong>3. Actually, almost literally — a literary intensifier before a strong verb.</strong> (буквально, прямо-таки)</p>
+<ol start="7"><li>The whole house <em>fairly</em> shook when the train went by.</li><li>She was <em>fairly</em> bursting with pride.</li></ol>
+<hr>
+<h3 id="rightly">rightly<a class="hash" href="#rightly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraɪtli/ &middot; <em>RYT-lee</em></dd><dt>Русский</dt><dd>справедливо, по праву; верно</dd><dt>Type</dt><dd>stance — with good reason; also manner</dd><dt>Position</dt><dd>mid — before the main verb or participle, after <em>be</em>; also in <em>and rightly so</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, adjectives and whole clauses</dd><dt>Form</dt><dd>-ly from <em>right</em></dd><dt>Contrast</dt><dd><em>right</em> (flat) = correctly, after the verb: <em>You guessed right</em>, <em>spell it right</em>, <em>Nothing goes right</em>. <em>rightly</em> comes before the verb or participle and judges the action as justified or accurate: <em>You rightly guessed that…</em>. <em>right</em> also means <em>exactly</em>, <em>directly</em> and <em>immediately</em> (<em>right here</em>, <em>right away</em>) — <em>rightly</em> never does: <em>rightly now</em> is wrong. <em>I don't rightly know</em> is informal, heard mostly in the South and rural US.</dd></dl>
+<p>Rightly has 3 distinct senses.</p>
+<p><strong>1. With good reason; justly.</strong> (справедливо, по праву, не зря)</p>
+<ol><li>Parents are <em>rightly</em> worried about screen time.</li><li>She was angry, and <em>rightly</em> so.</li><li><em>Rightly</em> or wrongly, he blamed himself.</li></ol>
+<p><strong>2. Correctly; accurately.</strong> (верно, правильно)</p>
+<ol start="4"><li>As you <em>rightly</em> pointed out, the numbers don't add up.</li><li>The doctor <em>rightly</em> suspected a food allergy.</li></ol>
+<p><strong>3. For sure, with certainty — informal, with a negative.</strong> (толком, точно)</p>
+<ol start="6"><li>I don't <em>rightly</em> know where he went.</li><li>I can't <em>rightly</em> say when they'll be back.</li></ol>
+<hr>
+<h3 id="justly">justly<a class="hash" href="#justly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʌstli/ &middot; <em>JUHST-lee</em></dd><dt>Русский</dt><dd>справедливо; заслуженно</dd><dt>Type</dt><dd>manner — fairly; also stance (<em>justly famous</em>)</dd><dt>Position</dt><dd>end — after the verb (<em>treated justly</em>); before its word with adjectives and participles (<em>justly famous</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more justly</em>, <em>most justly</em></dd><dt>Modifies</dt><dd>verbs; adjectives like <em>famous</em>, <em>proud</em>, <em>celebrated</em></dd><dt>Form</dt><dd>-ly from the adjective <em>just</em> (fair), not from the adverb <em>just</em></dd><dt>Contrast</dt><dd>The flat <em>just</em> is unrelated in meaning: <em>just</em> = только что, только, как раз, просто. <em>justly</em> comes from the adjective <em>just</em> = справедливый. <em>He was just punished</em> = его только что наказали; <em>He was justly punished</em> = его наказали справедливо. <em>justly</em> is formal; everyday speech says <em>fairly</em> or <em>rightly</em>.</dd></dl>
+<p>Justly has 2 distinct senses.</p>
+<p><strong>1. In a fair way; according to what is morally right.</strong> (справедливо)</p>
+<ol><li>A good judge treats everyone <em>justly</em>.</li><li>The land was <em>justly</em> divided among the heirs.</li><li>People want leaders who will govern <em>justly</em>.</li></ol>
+<p><strong>2. Deservedly; with good reason.</strong> (по праву, заслуженно)</p>
+<ol start="4"><li>The restaurant is <em>justly</em> famous for its barbecue.</li><li>She is <em>justly</em> proud of her students.</li></ol>
+<hr>
+<h3 id="prettily">prettily<a class="hash" href="#prettily" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪtəli/ &middot; <em>PRIT-uh-lee</em></dd><dt>Русский</dt><dd>мило, изящно</dd><dt>Type</dt><dd>manner — in a pretty, charming way</dd><dt>Position</dt><dd>end — after the verb (<em>smiled prettily</em>); before its word with participles (<em>prettily decorated</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more prettily</em>, <em>most prettily</em></dd><dt>Modifies</dt><dd>verbs; past participles like <em>decorated</em>, <em>arranged</em></dd><dt>Form</dt><dd>-ly from the adjective <em>pretty</em>, with <em>y</em> changed to <em>i</em></dd><dt>Contrast</dt><dd><em>pretty</em> (flat) = fairly, quite — one of the most common degree adverbs in American speech: <em>pretty good</em>, <em>pretty fast</em> (довольно). <em>prettily</em> keeps the adjective's meaning, <em>charmingly</em> (мило). <em>She sings pretty well</em> = она поёт довольно хорошо; <em>She sings prettily</em> = она мило поёт. Before another adjective or an adverb, <em>pretty</em> almost always means <em>fairly</em>, not <em>attractive</em>: <em>pretty ugly</em> = довольно некрасивый.</dd></dl>
+<p>In a pretty, charming or pleasantly neat way.</p>
+<ol><li>The little girl smiled <em>prettily</em> for the camera.</li><li>The cake was <em>prettily</em> decorated with fresh flowers.</li><li>She asked so <em>prettily</em> that nobody could say no.</li></ol>
+<hr>
+<h3 id="surely">surely<a class="hash" href="#surely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʊrli/ &middot; <em>SHUUR-lee</em></dd><dt>Русский</dt><dd>неужели; наверняка; верно</dd><dt>Type</dt><dd>stance — the speaker expects agreement or is surprised; also manner (<em>slowly but surely</em>)</dd><dt>Position</dt><dd>any position — front to ask for agreement (<em>Surely you…</em>), mid for <em>certainly</em> (<em>will surely win</em>), end in <em>slowly but surely</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses; verbs</dd><dt>Form</dt><dd>-ly from <em>sure</em>; the flat <em>sure</em> is the everyday American adverb</dd><dt>Contrast</dt><dd>At the front of a sentence, <em>surely</em> is not a calm <em>certainly</em>: <em>Surely you know him?</em> shows surprise or a hope for agreement (неужели не знаешь? / ты же его знаешь?) — to open with a plain fact use <em>certainly</em> or <em>definitely</em>. Only in mid position does it mean наверняка: <em>The plan will surely fail</em>. In everyday American speech the flat <em>sure</em> does the rest: <em>Sure, I'll help</em> (конечно), <em>It sure is hot</em> (ну и жара). As a one-word yes, <em>Surely.</em> sounds old-fashioned — say <em>Sure.</em></dd></dl>
+<p>Surely has 3 distinct senses.</p>
+<p><strong>1. Used to show that you believe something is true and want agreement, or are surprised that it might not be.</strong> (неужели; ведь, конечно же)</p>
+<ol><li><em>Surely</em> you don't expect me to pay for that?</li><li><em>Surely</em> someone at the front desk can help us.</li><li>"I lost the tickets." "<em>Surely</em> not!"</li></ol>
+<p><strong>2. Certainly; without any doubt.</strong> (наверняка, несомненно)</p>
+<ol start="4"><li>Without more funding, the program will <em>surely</em> fail.</li><li>This is <em>surely</em> one of the best pizzas in New York.</li></ol>
+<p><strong>3. Steadily and without failing — mostly in <em>slowly but surely</em>.</strong> (верно, уверенно)</p>
+<ol start="6"><li><em>Slowly but surely</em>, the team climbed back into the game.</li><li>Her English is improving <em>slowly but surely</em>.</li></ol>
+<hr>
+<h3 id="scarcely">scarcely<a class="hash" href="#scarcely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskɛrsli/ &middot; <em>SKAIRS-lee</em></dd><dt>Русский</dt><dd>едва, почти не; вряд ли</dd><dt>Type</dt><dd>degree — almost not, with negative force; also stance and time (<em>scarcely … when</em>)</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; front with inversion (<em>Scarcely had…</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, adjectives, numbers and quantifiers (<em>scarcely anyone</em>)</dd><dt>Form</dt><dd>-ly from <em>scarce</em>, but it does not mean <em>rare</em></dd><dt>Contrast</dt><dd><em>scarcely</em> already carries the negative: <em>I could scarcely breathe</em>, not <em>I couldn't scarcely breathe</em>; it takes <em>any</em> and <em>ever</em>: <em>scarcely anyone</em>, <em>scarcely ever</em>. Fronted, it inverts the subject and verb, and the pair is <em>scarcely … when</em> (not <em>than</em>): <em>Scarcely had she sat down when…</em>. It does not mean <em>in short supply</em> — that is the adjective <em>scarce</em>: <em>Jobs are scarce</em> (рабочих мест мало), not <em>Jobs are scarcely</em>. More formal than <em>hardly</em>.</dd></dl>
+<p>Scarcely has 3 distinct senses.</p>
+<p><strong>1. Almost not; only just.</strong> (едва, почти не)</p>
+<ol><li>I could <em>scarcely</em> believe my eyes.</li><li>There was <em>scarcely</em> anyone on the beach.</li><li>He was <em>scarcely</em> twenty when he started his first company.</li></ol>
+<p><strong>2. Certainly not — used to say that something is obviously untrue, unreasonable or unsuitable.</strong> (вряд ли, едва ли)</p>
+<ol start="4"><li>It's <em>scarcely</em> a secret that they don't get along.</li><li>A parking ticket is <em>scarcely</em> a reason to move to another state.</li></ol>
+<p><strong>3. Only just before something else happened — in <em>scarcely … when</em>.</strong> (едва (как), только… как)</p>
+<ol start="6"><li><em>Scarcely</em> had we arrived when it started to snow.</li><li>She had <em>scarcely</em> hung up when the phone rang again.</li></ol>
+<hr>
+<h3 id="evenly">evenly<a class="hash" href="#evenly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːvənli/ &middot; <em>EE-vuhn-lee</em></dd><dt>Русский</dt><dd>поровну, равномерно; ровно</dd><dt>Type</dt><dd>manner — equally or steadily</dd><dt>Position</dt><dd>end — after the verb and object; before its word with participles (<em>evenly spaced</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more evenly</em>, <em>most evenly</em></dd><dt>Modifies</dt><dd>verbs of spreading, dividing, breathing and speaking; participles like <em>matched</em>, <em>spaced</em></dd><dt>Form</dt><dd>-ly from the adjective <em>even</em> (level, equal), not from the adverb <em>even</em></dd><dt>Contrast</dt><dd><em>even</em> (flat) = даже: <em>She even paid for dinner</em>. <em>evenly</em> = поровну or ровно: <em>They split the check evenly</em>. Same spelling, unrelated meanings. The idiom <em>break even</em> (выйти в ноль) uses the flat form.</dd></dl>
+<p>Evenly has 3 distinct senses.</p>
+<p><strong>1. In equal amounts or parts; spread the same everywhere.</strong> (поровну, равномерно)</p>
+<ol><li>We split the bill <em>evenly</em> between the four of us.</li><li>Spread the frosting <em>evenly</em> over the cake.</li><li>The two teams were <em>evenly</em> matched.</li></ol>
+<p><strong>2. In a calm, steady voice, without showing emotion.</strong> (ровно, спокойно)</p>
+<ol start="4"><li>"Put the phone down," he said <em>evenly</em>.</li><li>She answered <em>evenly</em>, though she was clearly upset.</li></ol>
+<p><strong>3. Smoothly and regularly, at a steady rate.</strong> (ровно, размеренно)</p>
+<ol start="6"><li>The baby was finally breathing <em>evenly</em>.</li><li>The ceiling fan turned slowly and <em>evenly</em>.</li></ol>
+<hr>
+<h3 id="lastly">lastly<a class="hash" href="#lastly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlæstli/ &middot; <em>LAST-lee</em></dd><dt>Русский</dt><dd>наконец, в заключение</dd><dt>Type</dt><dd>linking — introduces the last point in a list</dd><dt>Position</dt><dd>front — at the start of the sentence, usually with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole sentences</dd><dt>Form</dt><dd>-ly from <em>last</em></dd><dt>Contrast</dt><dd><em>last</em> (flat) = at the end, or the most recent time: <em>He finished last</em> (последним), <em>When did you last see her?</em> (в последний раз). <em>lastly</em> only introduces the final item of a list. Russian <em>наконец</em> has three English partners: <em>lastly</em> (the last point), <em>finally</em> (the last point, or after a long time) and <em>at last</em> (наконец-то, after waiting): <em>At last the bus came</em>, not <em>Lastly the bus came</em>. Don't confuse it with <em>lately</em> (в последнее время).</dd></dl>
+<p>As the final point or item in a list.</p>
+<ol><li><em>Lastly</em>, I'd like to thank my parents.</li><li>First, preheat the oven; next, mix the dry ingredients; and <em>lastly</em>, add the eggs.</li><li><em>Lastly</em>, remember to sign and date the form.</li></ol>
+<hr>
+<h3 id="directly">directly<a class="hash" href="#directly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dəˈrɛktli/ &middot; <em>duh-REKT-lee</em></dd><dt>Русский</dt><dd>напрямую, непосредственно; прямо; сразу</dd><dt>Type</dt><dd>manner — without anything in between; also place and time</dd><dt>Position</dt><dd>end — after the verb and object; mid before some verbs (<em>directly affect</em>); before its word with prepositions and participles (<em>directly above</em>, <em>directly affected</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more directly</em>, <em>most directly</em></dd><dt>Modifies</dt><dd>verbs; prepositions of place and time (<em>directly behind</em>, <em>directly after</em>); participles</dd><dt>Form</dt><dd>-ly from <em>direct</em></dd><dt>Contrast</dt><dd><em>direct</em> (flat) = straight, without stopping or a go-between: <em>fly direct to Denver</em>, <em>buy direct from the farm</em>. <em>directly</em> can say that too, but only <em>directly</em> means <em>exactly</em> or <em>immediately</em>: <em>directly opposite</em>, <em>directly after lunch</em> — not <em>direct opposite</em>. In the US South, <em>I'll be there directly</em> means <em>soon</em> (скоро), not <em>this second</em>. British English also uses <em>directly</em> as a conjunction (<em>Directly he left, we began</em> = as soon as); that use is rare in American English.</dd></dl>
+<p>Directly has 5 distinct senses.</p>
+<p><strong>1. Without anyone or anything in between; straight from one person or thing to another.</strong> (напрямую, непосредственно)</p>
+<ol><li>You can buy tickets <em>directly</em> from the theater.</li><li>The new law will <em>directly</em> affect small businesses.</li><li>I need to speak <em>directly</em> to your manager.</li></ol>
+<p><strong>2. Exactly in a particular position, or straight toward something.</strong> (прямо, точно)</p>
+<ol start="4"><li>The bank is <em>directly</em> across from the post office.</li><li>Don't look <em>directly</em> at the sun.</li><li>After school, go <em>directly</em> home.</li></ol>
+<p><strong>3. Honestly and clearly, without avoiding the subject.</strong> (прямо, откровенно)</p>
+<ol start="7"><li>She asked me <em>directly</em> whether I was quitting.</li><li>Politicians rarely answer questions <em>directly</em>.</li></ol>
+<p><strong>4. Immediately; right after or right before something.</strong> (сразу, тотчас)</p>
+<ol start="9"><li>Call me <em>directly</em> after the meeting.</li><li>The ceremony will be followed <em>directly</em> by a reception in the church hall.</li><li>The patient was taken <em>directly</em> into surgery.</li></ol>
+<p><strong>5. Soon; in a little while — informal, mostly Southern American speech.</strong> (скоро, сейчас (приду))</p>
+<ol start="12"><li>Y'all go ahead — I'll be there <em>directly</em>.</li><li>Supper will be ready <em>directly</em>, so go wash up.</li></ol>
+<hr>
+<h3 id="sharply">sharply<a class="hash" href="#sharply" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːrpli/ &middot; <em>SHAHRP-lee</em></dd><dt>Русский</dt><dd>резко; чётко</dd><dt>Type</dt><dd>manner — suddenly, severely or clearly; also degree</dd><dt>Position</dt><dd>end — after the verb; mid before verbs of criticizing (<em>sharply criticized</em>); before its word with participles and adjectives (<em>sharply different</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more sharply</em>, <em>most sharply</em></dd><dt>Modifies</dt><dd>verbs of change and speaking; participles and adjectives</dd><dt>Form</dt><dd>-ly from <em>sharp</em></dd><dt>Contrast</dt><dd><em>sharp</em> (flat) = exactly at a time, or abruptly: <em>at six o'clock sharp</em> (ровно в шесть), <em>turn sharp left</em>, <em>Look sharp!</em> (живее!). <em>sharply</em> is the general adverb: <em>Prices fell sharply</em>. <em>at six sharply</em> and <em>prices rose sharp</em> are both errors.</dd></dl>
+<p>Sharply has 4 distinct senses.</p>
+<p><strong>1. Suddenly and by a large amount.</strong> (резко)</p>
+<ol><li>Gas prices rose <em>sharply</em> this summer.</li><li>The road turns <em>sharply</em> to the left.</li><li>Home sales fell <em>more sharply</em> than expected.</li></ol>
+<p><strong>2. Severely or angrily; in a critical way.</strong> (резко, строго)</p>
+<ol start="4"><li>The senator <em>sharply</em> criticized the plan.</li><li>"Sit down," the teacher said <em>sharply</em>.</li></ol>
+<p><strong>3. Clearly and distinctly, with obvious differences.</strong> (чётко, резко)</p>
+<ol start="6"><li>Their views on taxes differ <em>sharply</em>.</li><li>The photo is <em>sharply</em> focused.</li></ol>
+<p><strong>4. Stylishly, in neat, well-fitting clothes.</strong> (элегантно, щегольски)</p>
+<ol start="8"><li>He showed up <em>sharply</em> dressed in a navy suit.</li><li>She wore a <em>sharply</em> tailored blazer to the interview.</li></ol>
+<hr>
+<h3 id="largely">largely<a class="hash" href="#largely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːrdʒli/ &middot; <em>LAHRJ-lee</em></dd><dt>Русский</dt><dd>в основном, в значительной степени</dd><dt>Type</dt><dd>degree — to a great extent</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em>; before its word (<em>largely because</em>, <em>largely ignored</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, adjectives, participles and phrases (<em>largely due to</em>)</dd><dt>Form</dt><dd>-ly from <em>large</em>, but not about size</dd><dt>Contrast</dt><dd>False friend: <em>largely</em> has nothing to do with size and does not mean <em>widely</em> or <em>on a large scale</em> (широко, масштабно). It means <em>mostly</em> (в основном): <em>The movie was largely filmed in Georgia</em>. The flat <em>large</em> is an adverb only in fixed phrases: <em>loom large</em>, <em>writ large</em>, <em>by and large</em> (в целом).</dd></dl>
+<p>Mostly; to a great extent.</p>
+<ol><li>The delay was <em>largely</em> due to bad weather.</li><li>His warnings were <em>largely</em> ignored.</li><li>The town's economy depends <em>largely</em> on tourism.</li></ol>
+<hr>
+<h3 id="firstly">firstly<a class="hash" href="#firstly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrstli/ &middot; <em>FURST-lee</em></dd><dt>Русский</dt><dd>во-первых</dd><dt>Type</dt><dd>linking — introduces the first point in a list</dd><dt>Position</dt><dd>front — at the start of the sentence, usually with a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole sentences</dd><dt>Form</dt><dd>-ly from <em>first</em>; <em>first</em> itself is the usual adverb</dd><dt>Contrast</dt><dd>American writers usually prefer <em>first</em> (<em>First, … Second, … Finally, …</em>); <em>firstly</em> sounds British or stiff to many Americans, though it is still met. <em>firstly</em> only opens a list of points. It never means <em>for the first time</em> or <em>before anything else</em>: <em>When I first came to Boston</em> (впервые), <em>Wash your hands first</em> (сначала), not <em>firstly</em>. <em>At first</em> (сначала, а потом всё изменилось) is different again.</dd></dl>
+<p>As the first point in a list of reasons or ideas.</p>
+<ol><li><em>Firstly</em>, the plan is too expensive; secondly, it won't work.</li><li>There are two problems: <em>firstly</em>, we're out of time, and secondly, we're out of money.</li><li><em>Firstly</em>, I want to thank everyone for coming.</li></ol>
+<hr>
+<h3 id="fully">fully<a class="hash" href="#fully" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊli/ &middot; <em>FUU-lee</em></dd><dt>Русский</dt><dd>полностью, вполне</dd><dt>Type</dt><dd>degree — completely</dd><dt>Position</dt><dd>mid or end — before the main verb or participle, after <em>be</em> (<em>fully understand</em>, <em>is fully aware</em>); end after verbs (<em>recover fully</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more fully</em>, <em>most fully</em></dd><dt>Modifies</dt><dd>verbs, adjectives, participles and numbers (<em>fully half</em>)</dd><dt>Form</dt><dd>-ly from <em>full</em>, with one <em>l</em> dropped</dd><dt>Contrast</dt><dd><em>full</em> (flat) = directly, straight, and in the set phrase <em>full well</em>: <em>The ball hit him full in the face</em>, <em>You know full well what I mean</em> (прекрасно знаешь). <em>fully</em> = completely: <em>fully charged</em>, not <em>full charged</em>. Before a number <em>fully</em> is not <em>completely</em> but <em>as many as</em>: <em>fully 40 percent</em> = целых 40 процентов.</dd></dl>
+<p>Fully has 3 distinct senses.</p>
+<p><strong>1. Completely; entirely.</strong> (полностью, вполне)</p>
+<ol><li>I'm <em>fully</em> aware of the risks.</li><li>The hotel is <em>fully</em> booked for the holiday weekend.</li><li>It took her six months to recover <em>fully</em>.</li></ol>
+<p><strong>2. In detail; thoroughly.</strong> (подробно, обстоятельно)</p>
+<ol start="4"><li>The side effects are <em>fully</em> described on the label.</li><li>Could you explain that <em>more fully</em>?</li></ol>
+<p><strong>3. At least; no less than — before a number, for emphasis.</strong> (целых, не менее)</p>
+<ol start="6"><li><em>Fully</em> half the students failed the test.</li><li>The project took <em>fully</em> ten years to complete.</li></ol>
+<hr>
+<h3 id="cleanly">cleanly<a class="hash" href="#cleanly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkliːnli/ &middot; <em>KLEEN-lee</em></dd><dt>Русский</dt><dd>ровно, аккуратно; чисто</dd><dt>Type</dt><dd>manner — neatly, without mess or pollution</dd><dt>Position</dt><dd>end — after the verb and object</dd><dt>Comparison</dt><dd>more/most — <em>more cleanly</em>, <em>most cleanly</em></dd><dt>Modifies</dt><dd>verbs of cutting, breaking, burning and moving</dd><dt>Form</dt><dd>-ly from <em>clean</em></dd><dt>Contrast</dt><dd><em>clean</em> (flat) = completely: <em>I clean forgot her birthday</em> (начисто забыл), <em>The bullet went clean through the door</em>; also <em>come clean</em> (признаться). <em>cleanly</em> = neatly, smoothly or without pollution: <em>The bone broke cleanly</em>. Pronunciation trap: the adverb is /ˈkliːnli/; the rare adjective <em>cleanly</em> (чистоплотный) is /ˈklɛnli/, like <em>cleanliness</em>.</dd></dl>
+<p>Cleanly has 3 distinct senses.</p>
+<p><strong>1. Neatly and smoothly, leaving a straight, clear edge.</strong> (ровно, аккуратно)</p>
+<ol><li>The bone broke <em>cleanly</em>, so it should heal fast.</li><li>A sharp knife slices the tomato <em>cleanly</em>.</li></ol>
+<p><strong>2. Without producing dirt, smoke or pollution.</strong> (чисто, без загрязнения)</p>
+<ol start="3"><li>Natural gas burns <em>more cleanly</em> than coal.</li><li>The new buses run <em>cleanly</em> on electricity.</li></ol>
+<p><strong>3. Smoothly and without errors, problems or fouls.</strong> (чисто, безупречно, без помех)</p>
+<ol start="5"><li>The shortstop fielded the ball <em>cleanly</em> and threw to first.</li><li>The update installed <em>cleanly</em> on every computer.</li></ol>
+<hr>
+<h3 id="clearly">clearly<a class="hash" href="#clearly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɪrli/ &middot; <em>KLEER-lee</em></dd><dt>Русский</dt><dd>ясно, чётко; очевидно</dd><dt>Type</dt><dd>stance — obviously; also manner (<em>speak clearly</em>, <em>think clearly</em>)</dd><dt>Position</dt><dd>any position — front or mid in the stance sense (<em>Clearly, …</em>; <em>He was clearly upset</em>); end in the manner senses (<em>speak clearly</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more clearly</em>, <em>most clearly</em>, in the manner senses only; the stance sense is not gradable</dd><dt>Modifies</dt><dd>whole clauses, adjectives and verbs (stance); verbs and participles (manner)</dd><dt>Form</dt><dd>-ly from <em>clear</em></dd><dt>Contrast</dt><dd><em>clear</em> (flat) = away, or all the way: <em>Stand clear of the doors</em>, <em>steer clear of him</em> (держись подальше), <em>The ball went clear over the fence</em>. <em>clearly</em> = in a clear way, or obviously: <em>speak clearly</em> (<em>loud and clear</em> is a fixed exception). Position changes the meaning: <em>He didn't explain clearly</em> = объяснил нечётко; <em>He clearly didn't explain</em> = очевидно, он не объяснил.</dd></dl>
+<p>Clearly has 3 distinct senses.</p>
+<p><strong>1. Obviously; without any doubt.</strong> (очевидно, явно)</p>
+<ol><li><em>Clearly</em>, something went wrong.</li><li>He was <em>clearly</em> upset about the game.</li><li>She <em>clearly</em> didn't read my email.</li></ol>
+<p><strong>2. In a way that is easy to see, hear or understand.</strong> (ясно, чётко, отчётливо)</p>
+<ol start="4"><li>Please speak <em>clearly</em> into the microphone.</li><li>The exits are <em>clearly</em> marked.</li><li>On a sunny day you can see the mountains <em>more clearly</em>.</li></ol>
+<p><strong>3. Sensibly and logically, without confusion.</strong> (ясно, здраво, трезво (мыслить))</p>
+<ol start="7"><li>I was too tired to think <em>clearly</em>.</li><li>She has trouble thinking <em>clearly</em> under pressure.</li></ol>
+<hr>
+<h3 id="wrongly">wrongly<a class="hash" href="#wrongly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɔːŋli/ &middot; <em>RAWNG-lee</em></dd><dt>Русский</dt><dd>неправильно, ошибочно; несправедливо</dd><dt>Type</dt><dd>manner — incorrectly or unfairly; also stance (<em>rightly or wrongly</em>)</dd><dt>Position</dt><dd>mid — before the main verb or participle (<em>wrongly accused</em>); end only with a few verbs (<em>acted wrongly</em>), since after the verb the flat <em>wrong</em> is more usual</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and past participles</dd><dt>Form</dt><dd>-ly from <em>wrong</em></dd><dt>Contrast</dt><dd><em>wrong</em> (flat) comes after the verb in everyday speech: <em>You spelled it wrong</em>, <em>Everything went wrong</em>, <em>I guessed wrong</em>. <em>wrongly</em> comes before a verb or participle: <em>She was wrongly accused</em>, <em>He wrongly assumed…</em>. <em>went wrongly</em> and <em>a wrong accused man</em> are both errors.</dd></dl>
+<p>Wrongly has 2 distinct senses.</p>
+<p><strong>1. Incorrectly; by mistake.</strong> (неправильно, ошибочно)</p>
+<ol><li>He spent ten years in prison after being <em>wrongly</em> convicted.</li><li>Many people <em>wrongly</em> believe that bats are blind.</li><li>My name was <em>wrongly</em> spelled on the diploma.</li></ol>
+<p><strong>2. Unfairly, or in a morally wrong way.</strong> (несправедливо, дурно)</p>
+<ol start="4"><li>She knew she had acted <em>wrongly</em>, and she apologized.</li><li><em>Rightly or wrongly</em>, they decided to sell the farm.</li></ol>
+<hr>
+<h3 id="dearly">dearly<a class="hash" href="#dearly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪrli/ &middot; <em>DEER-lee</em></dd><dt>Русский</dt><dd>нежно, очень; дорого</dd><dt>Type</dt><dd>degree — very much; also manner</dd><dt>Position</dt><dd>end — after the verb and object (<em>love her dearly</em>, <em>pay dearly</em>); mid with <em>would love</em> and <em>want</em> (<em>would dearly love</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more dearly</em>, <em>most dearly</em></dd><dt>Modifies</dt><dd>verbs of loving and wishing; <em>pay</em> and <em>cost</em></dd><dt>Form</dt><dd>-ly from <em>dear</em></dd><dt>Contrast</dt><dd><em>dear</em> (flat, old-fashioned) = at a high price: <em>buy cheap and sell dear</em>. <em>dearly</em> is the normal form: <em>pay dearly</em>, <em>cost dearly</em> — and it is usually about suffering, not money: <em>He paid dearly for his mistake</em> = дорого поплатился. <em>dearly</em> does not mean <em>expensively</em>: <em>an expensively dressed woman</em>, not <em>a dearly dressed woman</em>.</dd></dl>
+<p>Dearly has 3 distinct senses.</p>
+<p><strong>1. With deep love and affection.</strong> (нежно, горячо (любить))</p>
+<ol><li>She loved her grandfather <em>dearly</em>.</li><li>We miss him <em>dearly</em>.</li><li><em>Dearly</em> beloved, we are gathered here today to celebrate this couple.</li></ol>
+<p><strong>2. Very much — with <em>would love</em>, <em>wish</em>, <em>want</em> and similar verbs.</strong> (очень, страстно)</p>
+<ol start="4"><li>I would <em>dearly</em> love to see Paris again.</li><li>He <em>dearly</em> wanted to make the team.</li></ol>
+<p><strong>3. At a high cost, with suffering or loss.</strong> (дорого (заплатить, обойтись))</p>
+<ol start="6"><li>The team paid <em>dearly</em> for that mistake.</li><li>Ignoring the warning signs cost them <em>dearly</em>.</li></ol>
+<hr>
+<h3 id="flatly">flatly<a class="hash" href="#flatly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflætli/ &middot; <em>FLAT-lee</em></dd><dt>Русский</dt><dd>наотрез, категорически; бесстрастно</dd><dt>Type</dt><dd>manner — firmly, or without emotion; also degree (<em>flatly refuse</em>)</dd><dt>Position</dt><dd>mid or end — before the main verb (<em>flatly refused</em>); end after verbs of saying (<em>said flatly</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of refusing, denying, contradicting and saying</dd><dt>Form</dt><dd>-ly from <em>flat</em></dd><dt>Contrast</dt><dd><em>flat</em> (flat adverb) = completely, exactly, or lying level: <em>flat broke</em> (без гроша), <em>in ten seconds flat</em> (ровно за десять секунд), <em>fall flat</em> (провалиться), <em>lie flat on your back</em>, <em>turn someone down flat</em>. <em>flatly</em> does the refusing and denying: <em>flatly refused</em>. <em>Lie flatly on the floor</em> is wrong — <em>lie flat</em>. In music, <em>sing flat</em> = петь ниже тона.</dd></dl>
+<p>Flatly has 2 distinct senses.</p>
+<p><strong>1. Completely and firmly, with no room for discussion.</strong> (наотрез, категорически)</p>
+<ol><li>The mayor <em>flatly</em> denied the rumors.</li><li>She <em>flatly</em> refused to apologize.</li><li>The two reports <em>flatly</em> contradict each other.</li></ol>
+<p><strong>2. Without emotion or interest, in a dull voice.</strong> (бесстрастно, монотонно)</p>
+<ol start="4"><li>"We lost," he said <em>flatly</em>.</li><li>She read the list of names <em>flatly</em>, one by one.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

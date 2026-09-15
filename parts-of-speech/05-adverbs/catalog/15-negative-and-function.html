@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Negative and function adverbs</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="negative-and-function-adverbs">Negative and function adverbs<a class="hash" href="#negative-and-function-adverbs" aria-label="link">#</a></h1>
+<blockquote><p><em>not</em>, <em>no</em>, <em>any</em>, <em>as</em>, <em>else</em>, <em>together</em> — the small grammatical adverbs that everything else leans on.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p><em>Not</em> is an adverb, and the most frequent one in the language. With it here are the function adverbs that do grammatical work rather than adding meaning: <em>no</em> and <em>any</em> before a comparative (<em>no better</em>, <em>any faster</em>), <em>as</em> in comparisons of equality (<em>as tall as</em>), <em>else</em> after a question word or indefinite (<em>who else</em>, <em>something else</em>), and <em>together</em> and <em>all</em> in their adverb uses (<em>all alone</em>).</p>
+<hr>
+<h3 id="not">not<a class="hash" href="#not" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɑːt/ &middot; <em>NAHT</em></dd><dt>Русский</dt><dd>не</dd><dt>Type</dt><dd>negative; also focusing in <em>not only</em></dd><dt>Position</dt><dd>mid — after <em>be</em> and the first auxiliary; before <em>to</em> and -ing forms; before its word when it negates one word or phrase</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses, infinitives and -ing forms, adjectives, adverbs, noun phrases, quantifiers; stands for a whole clause in <em>I hope not</em></dd><dt>Form</dt><dd>contracts to <em>n't</em> after <em>be</em>, <em>have</em>, <em>do</em> and the modals: <em>isn't</em>, <em>doesn't</em>, <em>can't</em>, <em>won't</em> (from <em>will</em>)</dd><dt>Contrast</dt><dd><em>Not</em> negates verbs, adjectives and adverbs; before a noun use the determiner <em>no</em> or <em>not any</em>: <em>I have no time</em> or <em>I don't have any time</em>, not <em>I have not time</em>. A main verb needs <em>do</em>: <em>I don't know</em>, not <em>I not know</em> or the archaic <em>I know not</em>. One negative per clause: Russian <em>Я никогда ничего не видел</em> is <em>I have never seen anything</em>, not <em>I haven't never seen nothing</em>. English moves the negative up to <em>think</em>, <em>believe</em>, <em>expect</em>: <em>Я думаю, он не прав</em> is naturally <em>I don't think he's right</em>. Position changes the meaning with infinitives: <em>I decided not to go</em> (I stayed home) vs. <em>I didn't decide to go</em> (I made no decision). <em>Not all the students passed</em> (some failed) is clear; <em>All the students didn't pass</em> is ambiguous. A fronted <em>not</em> phrase inverts: <em>Not once did he call</em>; <em>Not until Friday will we know</em>. In short replies say <em>I hope not</em>, <em>I guess not</em>, <em>probably not</em> — but <em>I don't think so</em>; <em>I think not</em> is formal.</dd></dl>
+<p>Not has 7 distinct senses.</p>
+<p><strong>1. Used to make a verb or a whole clause negative.</strong> (не)</p>
+<ol><li>I do <em>not</em> agree with you.</li><li>She's <em>not</em> coming tonight.</li><li>Try <em>not</em> to wake the baby.</li></ol>
+<p><strong>2. Used before a single word or phrase to make only that part negative.</strong> (не (перед словом или фразой))</p>
+<ol start="4"><li><em>Not</em> everyone likes jazz.</li><li>Call me, <em>not</em> my assistant.</li><li>She's a colleague, <em>not</em> a friend.</li></ol>
+<p><strong>3. Used instead of a whole negative clause — after <em>hope</em>, <em>guess</em>, <em>be afraid</em>, and after <em>if</em>, <em>or</em> and <em>probably</em>.</strong> (нет; не)</p>
+<ol start="7"><li>Is it going to rain? — I hope <em>not</em>.</li><li>Take the job if you like it; if <em>not</em>, keep looking.</li><li>Ready or <em>not</em>, here I come.</li></ol>
+<p><strong>4. Not a single one; none at all — emphatic, in <em>not a</em>, <em>not one</em>, <em>not a single</em>.</strong> (ни (один), ни (слова))</p>
+<ol start="10"><li><em>Not</em> one person showed up.</li><li>There wasn't a cloud in the sky — <em>not</em> a single one.</li><li><em>Not</em> a word to anyone about this.</li></ol>
+<p><strong>5. Not just this, and that as well — in <em>not only … but (also)</em>.</strong> (не только… но и)</p>
+<ol start="13"><li>She <em>not</em> only wrote the song but also sang it.</li><li><em>Not</em> only is it cheaper, it's faster too.</li></ol>
+<p><strong>6. Used before a negative word to say something positive in a modest, understated way.</strong> (не- (неплохо, нередко — смягчённое утверждение))</p>
+<ol start="15"><li>Honestly, the pizza was <em>not</em> bad.</li><li>It's a <em>not</em> unreasonable request.</li><li>Delays like this are <em>not</em> uncommon in winter.</li></ol>
+<p><strong>7. In <em>not that</em>, used to deny a reason or meaning someone might read into what you just said.</strong> (не то чтобы)</p>
+<ol start="18"><li>He's moving to Denver — <em>not</em> that I care.</li><li><em>Not</em> that it matters now, but I was right.</li></ol>
+<hr>
+<h3 id="no">no<a class="hash" href="#no" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/noʊ/ &middot; <em>NOH</em></dd><dt>Русский</dt><dd>больше не; ничуть не</dd><dt>Type</dt><dd>negative — before comparatives and a few adjectives; also degree</dd><dt>Position</dt><dd>before its word — before a comparative, <em>longer</em>, <em>sooner</em>, <em>more</em>, <em>less</em>, <em>different</em> or <em>good</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>comparative adjectives and adverbs, <em>more</em>, <em>less</em>, <em>longer</em>, <em>sooner</em>; the adjectives <em>different</em> and <em>good</em></dd><dt>Contrast</dt><dd>The adverb <em>no</em> goes only before a comparative and a few words like <em>different</em> and <em>good</em>: <em>no better</em>, <em>no longer</em>, <em>no different</em>. Before an ordinary adjective use <em>not</em>: <em>He's not tall</em>, not <em>He's no tall</em>. Before a noun <em>no</em> is a determiner (<em>no money</em>), and <em>No.</em> as an answer is an interjection — both are in those dictionaries. <em>No more than</em> means 'only' (<em>It costs no more than $10</em> — всего лишь), while <em>not more than</em> means 'at most' (не больше); <em>no less than</em> stresses a large amount (целых). Russian <em>больше не</em> is <em>no longer</em> or <em>not … anymore</em>: <em>I no longer work there</em> or <em>I don't work there anymore</em>, not <em>I don't work there more</em> — and never both in one clause. <em>No longer</em> goes mid, <em>anymore</em> at the end. Fronted <em>no sooner</em> inverts and takes <em>than</em>, not <em>when</em>: <em>No sooner had we sat down than the phone rang</em>. <em>He's no more a doctor than I am</em> means neither of us is a doctor (он такой же врач, как я), not that he is a better one.</dd></dl>
+<p>No has 6 distinct senses.</p>
+<p><strong>1. Not now, though it was before — in <em>no longer</em> and, in formal or literary use, <em>no more</em>.</strong> (больше не, уже не)</p>
+<ol><li>He <em>no</em> longer works here.</li><li>We can <em>no</em> longer afford to wait.</li><li>The old theater is <em>no</em> more; it closed in 2019.</li></ol>
+<p><strong>2. Not at all; in no way — before a comparative, <em>different</em> or <em>good</em>, to say there is no difference in degree.</strong> (ничуть не, нисколько не)</p>
+<ol start="4"><li>The new model is <em>no</em> faster than the old one.</li><li>Her second book is <em>no</em> different from her first.</li><li>This old phone charger is <em>no</em> good anymore.</li></ol>
+<p><strong>3. Only, or as much as — before <em>more than</em> or <em>less than</em> and an amount, to stress how small or how large it is.</strong> (не более, всего лишь; не менее, целых)</p>
+<ol start="7"><li>The walk takes <em>no</em> more than ten minutes.</li><li>He paid <em>no</em> less than $2,000 for the ticket.</li><li>The storm dumped <em>no</em> less than two feet of snow on the city.</li></ol>
+<p><strong>4. Used after a name or fact to stress that it is surprising or impressive — in <em>no less</em> at the end of a phrase.</strong> (не кто-нибудь, а; ни много ни мало)</p>
+<ol start="10"><li>She got a thank-you note from the governor, <em>no</em> less.</li><li>He showed up in a tuxedo, <em>no</em> less.</li></ol>
+<p><strong>5. Immediately after; as soon as — in <em>no sooner … than</em>.</strong> (едва… как; не успел… как)</p>
+<ol start="12"><li><em>No</em> sooner had I left than it started to pour.</li><li>I had <em>no</em> sooner paid than I saw a better deal online.</li></ol>
+<p><strong>6. Used to take back a word you just said and replace it with a stronger or more exact one.</strong> (нет, даже; вернее)</p>
+<ol start="14"><li>Hundreds, <em>no</em>, thousands of fans lined the street.</li><li>It was a good year — <em>no</em>, a great year.</li></ol>
+<hr>
+<h3 id="any">any<a class="hash" href="#any" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛni/ &middot; <em>EN-ee</em></dd><dt>Русский</dt><dd>хоть немного; ничуть не</dd><dt>Type</dt><dd>degree — in questions, negatives and <em>if</em> clauses</dd><dt>Position</dt><dd>before its word — before a comparative, <em>good</em> or <em>different</em>; end in informal American <em>didn't help any</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>comparative adjectives and adverbs, <em>longer</em>, <em>more</em>, and the adjectives <em>good</em> and <em>different</em>; a verb phrase in informal speech</dd><dt>Contrast</dt><dd>The adverb <em>any</em> works only in questions, negatives and <em>if</em> clauses, and only before a comparative, <em>good</em> or <em>different</em>: <em>Is it any cheaper?</em> is fine, <em>Is it any cheap?</em> is not — say <em>Is it cheap at all?</em> In an affirmative sentence use <em>a little</em> or <em>a bit</em>: <em>It's a little better</em>, not <em>It's any better</em>. <em>Not any</em> + comparative equals <em>no</em> + comparative: <em>It's not any better</em> = <em>It's no better</em>. Russian <em>любой</em> is the determiner <em>any</em> (<em>any size</em>, <em>any time</em>), which is in the determiner dictionary, not this adverb. American spelling splits <em>anymore</em> (time: <em>I don't live there anymore</em> — больше не) from <em>any more</em> (amount: <em>I don't want any more</em> — determiner). <em>It didn't help any</em> is informal American; in writing use <em>at all</em>.</dd></dl>
+<p>Any has 3 distinct senses.</p>
+<p><strong>1. At all; to any degree — before a comparative, <em>good</em> or <em>different</em>.</strong> (хоть немного, хоть сколько-нибудь; (в отрицании) ничуть не)</p>
+<ol><li>Do you feel <em>any</em> better today?</li><li>Is the sequel <em>any</em> good?</li><li>The traffic isn't <em>any</em> worse than usual.</li></ol>
+<p><strong>2. For more time; still — in <em>any longer</em>, in negatives, questions and <em>if</em> clauses.</strong> (больше (не), дольше)</p>
+<ol start="4"><li>I can't wait <em>any</em> longer.</li><li>If this takes <em>any</em> longer, we'll miss the train.</li></ol>
+<p><strong>3. At all — at the end of a negative sentence or a question; informal American.</strong> (нисколько, вообще, хоть сколько-то)</p>
+<ol start="6"><li>The medicine didn't help <em>any</em>.</li><li>Did you sleep <em>any</em> last night?</li><li>That kid hasn't grown <em>any</em> since June.</li></ol>
+<hr>
+<h3 id="none">none<a class="hash" href="#none" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nʌn/ &middot; <em>NUHN</em></dd><dt>Русский</dt><dd>ничуть не, не слишком</dd><dt>Type</dt><dd>degree — negative, in <em>none too</em> and <em>none the</em> + comparative</dd><dt>Position</dt><dd>before its word — before <em>too</em> or <em>the</em> + a comparative</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd><em>too</em> + an adjective or adverb; <em>the</em> + a comparative</dd><dt>Form</dt><dd>fixed patterns only: <em>none too</em> + adjective or adverb, <em>none the</em> + comparative</dd><dt>Contrast</dt><dd>The pronoun <em>none</em> (<em>none of us</em>) is in the pronoun dictionary; the adverb lives only in <em>none too</em> and <em>none the</em> + comparative. <em>None the</em> needs <em>the</em>: <em>none the wiser</em>, not <em>none wiser</em>. A Russian reader can take <em>She was none too pleased</em> as 'никто не был доволен' — it means she was not pleased at all, said as understatement, usually about annoyance. <em>And none too soon</em> means 'and not a moment too early' (давно пора), not 'too early'. <em>No wiser than</em> compares with someone else; <em>none the wiser</em> compares with before — you learned nothing. <em>Nonetheless</em> (однако) is one word in American spelling and is in the linking group.</dd></dl>
+<p>None has 2 distinct senses.</p>
+<p><strong>1. Not at all; not very — in <em>none too</em>, usually as understatement.</strong> (не слишком, не очень-то)</p>
+<ol><li>The clerk looked <em>none</em> too happy to see us.</li><li>The motel was <em>none</em> too clean.</li><li>The ambulance finally arrived, and <em>none</em> too soon.</li></ol>
+<p><strong>2. Not at all; in no way — in <em>none the</em> + comparative, often with <em>for</em>.</strong> (ничуть не, нисколько не)</p>
+<ol start="4"><li>I read the manual twice and was <em>none</em> the wiser.</li><li>The car was <em>none</em> the worse for the long trip.</li><li>She was <em>none</em> the happier for all her money.</li></ol>
+<hr>
+<h3 id="as">as<a class="hash" href="#as" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æz/ &middot; <em>AZ</em></dd><dt>Русский</dt><dd>так же, столь же</dd><dt>Type</dt><dd>degree — equality, the first <em>as</em> in <em>as … as</em></dd><dt>Position</dt><dd>before its word — before the adjective, adverb, <em>much</em> or <em>many</em> being compared</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, adverbs, <em>much</em>, <em>many</em>, <em>little</em>, <em>few</em>; an adjective with <em>a</em> + noun in <em>as good a cook</em></dd><dt>Form</dt><dd>the same spelling as the conjunction and preposition <em>as</em> (the second <em>as</em> in <em>as … as</em>); both are usually weak, əz, in connected speech and full æz only when stressed</dd><dt>Contrast</dt><dd>Only the first <em>as</em> in <em>as … as</em> is this adverb; the second <em>as</em>, and <em>as</em> meaning 'like', 'because', 'while' or 'in the role of', are in the conjunction and preposition dictionaries. Use the plain form, not the comparative: <em>as tall as</em>, not <em>as taller as</em>. For multiples say <em>twice as expensive as</em>, not <em>twice expensive as</em>. The everyday American negative is <em>not as … as</em>; <em>not so … as</em> is formal. Russian <em>такой же высокий, как</em> is <em>as tall as</em>, but <em>такого же роста, как</em> is <em>the same height as</em> — never <em>the same tall as</em>. After the second <em>as</em>, speech uses <em>me</em> and careful writing <em>I am</em>: <em>She's as tall as me</em> / <em>as tall as I am</em>. With a singular noun the article moves: <em>as good a cook as</em>, not <em>as a good cook as</em>. <em>As well</em> ('too' — тоже) is a separate phrase.</dd></dl>
+<p>As has 4 distinct senses.</p>
+<p><strong>1. To the same degree; equally — the first <em>as</em> in <em>as … as</em>, or alone when the comparison is understood.</strong> (так же, такой же (… как); столь же)</p>
+<ol><li>Nobody works <em>as</em> hard as Dana.</li><li>It's not <em>as</em> expensive as I thought.</li><li>I used to run every day, but I'm not <em>as</em> fit now.</li></ol>
+<p><strong>2. After <em>twice</em>, <em>three times</em>, <em>half</em> and similar words: that many times the size, amount or degree.</strong> (в (два, три) раза; вдвое)</p>
+<ol start="4"><li>The new apartment is twice <em>as</em> big.</li><li>Tickets cost three times <em>as</em> much as last year.</li><li>My commute is half <em>as</em> long now.</li></ol>
+<p><strong>3. Before <em>many</em>, <em>much</em>, <em>long</em>, <em>little</em> or <em>few</em> and a number: to stress how large or how small an amount is.</strong> (целых, аж, до; всего)</p>
+<ol start="7"><li><em>As</em> many as 300 homes lost power.</li><li>A good hearing aid can cost <em>as</em> much as $6,000.</li><li>You can get there in <em>as</em> little as an hour.</li></ol>
+<p><strong>4. In <em>as much</em>: the same thing, just that — when something confirms what you already suspected.</strong> (так (я и думал); то же самое)</p>
+<ol start="10"><li>The store's closed? I thought <em>as</em> much.</li><li>Everyone suspected <em>as</em> much, but nobody said it.</li></ol>
+<hr>
+<h3 id="else">else<a class="hash" href="#else" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛls/ &middot; <em>ELS</em></dd><dt>Русский</dt><dd>ещё; другой, иначе</dd><dt>Type</dt><dd>focusing — additive (<em>what else</em>) or excluding (<em>someone else</em>); also linking in <em>or else</em></dd><dt>Position</dt><dd>after its word — after <em>who</em>, <em>what</em>, <em>where</em>, <em>how</em>, <em>why</em>, the <em>some-</em>, <em>any-</em>, <em>no-</em>, <em>every-</em> words, and <em>little</em> and <em>much</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>question words; indefinite pronouns and adverbs (<em>someone</em>, <em>anything</em>, <em>nowhere</em>, <em>everybody</em>); <em>little</em>, <em>much</em></dd><dt>Form</dt><dd>the possessive goes on <em>else</em>: <em>someone else's</em>, <em>nobody else's</em></dd><dt>Contrast</dt><dd><em>Else</em> never stands before a noun and never after <em>which</em> or an ordinary noun: <em>another person</em> or <em>other people</em>, not <em>else person</em>; <em>which other book</em>, not <em>which else book</em>. Russian <em>ещё</em> splits several ways: <em>What else do you need?</em> (after a question word), <em>Do you want more coffee?</em> (with a noun), <em>one more time</em> or <em>another day</em>; and <em>ещё не</em> is <em>not yet</em>. The possessive <em>'s</em> goes on <em>else</em>: <em>someone else's phone</em>, not <em>someone's else phone</em>. <em>Somewhere else</em> and <em>elsewhere</em> mean the same; <em>elsewhere</em> is in the place group. <em>Or else</em> as a threat can end the sentence: <em>Pay up, or else!</em></dd></dl>
+<p>Else has 3 distinct senses.</p>
+<p><strong>1. Other; different — a person, thing, place or way instead of the one mentioned.</strong> (другой; (кто-то) другой, (где-то) ещё, иначе)</p>
+<ol><li>This isn't my jacket — it must be someone <em>else</em>'s.</li><li>Let's eat somewhere <em>else</em> tonight.</li><li>How <em>else</em> could we have done it?</li></ol>
+<p><strong>2. In addition; more — besides what was already mentioned.</strong> (ещё)</p>
+<ol start="4"><li>What <em>else</em> do you need from the store?</li><li>Is anyone <em>else</em> coming?</li><li>There's not much <em>else</em> we can do.</li></ol>
+<p><strong>3. Otherwise; if not — in <em>or else</em>, often as a warning or a threat.</strong> (иначе, а то)</p>
+<ol start="7"><li>Hurry up, or <em>else</em> we'll miss the bus.</li><li>You'd better return it by Friday — or <em>else</em>!</li></ol>
+<hr>
+<h3 id="together">together<a class="hash" href="#together" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈɡɛðər/ &middot; <em>tuh-GETH-ur</em></dd><dt>Русский</dt><dd>вместе</dd><dt>Type</dt><dd>manner — with each other or into one; also time</dd><dt>Position</dt><dd>end — after the verb or its object; after the particle in phrasal verbs (<em>put it together</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Contrast</dt><dd><em>All together</em> (everyone at once, in one group — все вместе) is not <em>altogether</em> (completely; in total — совсем, всего): <em>Let's sing it all together</em> / <em>That's $40 altogether</em>. Russian <em>вместе</em> for the total of a bill or a count is <em>altogether</em> or <em>in all</em>, not <em>together</em>; <em>together</em> adds things up only as <em>put together</em> or <em>taken together</em> (вместе взятые): <em>He earns more than the two of us put together</em>. <em>Together with</em> does not make a singular subject plural: <em>The manager, together with two assistants, is on the way</em>. Russian <em>Мы с Анной пошли вместе</em> is <em>Anna and I went together</em> or <em>I went with Anna</em>, not <em>We with Anna went together</em>. The informal adjective <em>together</em> (<em>She's so together</em> — собранная) is in the adjective dictionary.</dd></dl>
+<p>Together has 6 distinct senses.</p>
+<p><strong>1. With each other; in a group or as a team.</strong> (вместе, сообща)</p>
+<ol><li>We grew up <em>together</em> in Ohio.</li><li>Let's work on this <em>together</em>.</li><li>The whole family had dinner <em>together</em>.</li></ol>
+<p><strong>2. Into one place, piece or whole; so that things are joined or combined.</strong> (вместе, воедино; (соединить) друг с другом)</p>
+<ol start="4"><li>Mix the flour and sugar <em>together</em>.</li><li>Tape the two pieces <em>together</em>.</li><li>Add these numbers <em>together</em>.</li></ol>
+<p><strong>3. In a romantic relationship; as a couple.</strong> (вместе (как пара))</p>
+<ol start="7"><li>They've been <em>together</em> for twelve years.</li><li>Are Mike and Jen still <em>together</em>?</li></ol>
+<p><strong>4. Combined; counted or considered as a whole — often in <em>put together</em> and <em>taken together</em>.</strong> (вместе взятые, в сумме)</p>
+<ol start="9"><li>He earns more than the two of us put <em>together</em>.</li><li><em>Together</em>, the three stores employ about 200 people.</li><li>Taken <em>together</em>, these studies point to the same cause.</li></ol>
+<p><strong>5. So that they suit or match each other — mainly with <em>go</em> and <em>fit</em>.</strong> ((сочетаться) друг с другом)</p>
+<ol start="12"><li>Those colors don't really go <em>together</em>.</li><li>Wine and chocolate go <em>together</em> surprisingly well.</li></ol>
+<p><strong>6. At the same time; at once.</strong> (одновременно, разом)</p>
+<ol start="14"><li>The two runners crossed the finish line <em>together</em>.</li><li>The two alarms went off <em>together</em>.</li></ol>
+<hr>
+<h3 id="all">all<a class="hash" href="#all" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːl/ &middot; <em>AWL</em></dd><dt>Русский</dt><dd>совсем, совершенно</dd><dt>Type</dt><dd>degree — completely; also in tied scores</dd><dt>Position</dt><dd>before its word — before an adjective, adverb, prepositional phrase, <em>the</em> + comparative, <em>too</em> or <em>but</em>; after the number in scores</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, adverbs, prepositional phrases (<em>all over</em>, <em>all through</em>), <em>the</em> + comparative, <em>too</em>; numbers in scores</dd><dt>Contrast</dt><dd>The determiner and pronoun <em>all</em> (<em>all the students</em>, <em>We all agree</em>) are in those dictionaries; the adverb modifies adjectives and phrases. <em>All but</em> has two readings: before an adjective or verb it means 'almost' (<em>all but impossible</em> — почти невозможно); before a noun or number it means 'everyone except' (<em>all but one</em> — все, кроме одного). <em>All the better</em> needs <em>the</em>. Watch the one-word look-alikes: <em>all ready</em> (everyone ready) vs. <em>already</em> (уже); <em>all together</em> vs. <em>altogether</em> (совсем, всего); <em>all right</em> is standard in American writing, <em>alright</em> informal. Russian <em>всё</em> meaning 'still' is <em>still</em>, not <em>all</em>: <em>Он всё ждёт</em> is <em>He's still waiting</em>; <em>всё равно</em> is <em>anyway</em>. In informal American speech <em>be all</em> introduces a quote (<em>And he's all, 'No way'</em>) — keep it out of writing.</dd></dl>
+<p>All has 7 distinct senses.</p>
+<p><strong>1. Completely; entirely — and, informally, very.</strong> (совсем, совершенно, весь)</p>
+<ol><li>She lives <em>all</em> alone in that big house.</li><li>You're <em>all</em> wet — did you walk here?</li><li>The kids got <em>all</em> excited about the snow.</li></ol>
+<p><strong>2. Throughout; in every part of a place or a period of time — before <em>over</em>, <em>around</em>, <em>through</em> and <em>along</em>.</strong> (по всему, повсюду; всё (время))</p>
+<ol start="4"><li>There were toys <em>all</em> over the floor.</li><li>The baby cried <em>all</em> through the night.</li><li>I knew it <em>all</em> along.</li></ol>
+<p><strong>3. Very; so — in <em>not all that</em> + adjective or adverb, to say something is less than people might expect.</strong> (не так уж, не очень-то)</p>
+<ol start="7"><li>The movie wasn't <em>all</em> that good.</li><li>It's not <em>all</em> that far — maybe ten minutes on foot.</li><li>Nobody was <em>all</em> that surprised when he quit.</li></ol>
+<p><strong>4. Almost; very nearly — in <em>all but</em> before an adjective, participle or verb.</strong> (почти, практически)</p>
+<ol start="10"><li>The project is <em>all</em> but finished.</li><li>By noon the snow had <em>all</em> but melted.</li><li>It was <em>all</em> but impossible to find parking.</li></ol>
+<p><strong>5. Even more, for a reason just given — in <em>all the</em> + comparative.</strong> (тем более, ещё (лучше))</p>
+<ol start="13"><li>If you can come early, <em>all</em> the better.</li><li>The win was <em>all</em> the sweeter after last year's loss.</li><li>That's <em>all</em> the more reason to call her.</li></ol>
+<p><strong>6. Much more than is good or wanted — in <em>all too</em>.</strong> (слишком (уж))</p>
+<ol start="16"><li>Accidents like this happen <em>all</em> too often.</li><li>The ending was <em>all</em> too predictable.</li></ol>
+<p><strong>7. Each; for each side — in a tied score, as in tennis or baseball.</strong> (по, поровну (о равном счёте: 3:3))</p>
+<ol start="18"><li>It's three-<em>all</em> going into the ninth inning.</li><li>At thirty-<em>all</em>, she served an ace.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

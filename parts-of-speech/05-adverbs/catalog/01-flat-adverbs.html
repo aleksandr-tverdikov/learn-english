@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flat adverbs: the same form as the adjective</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="flat-adverbs-the-same-form-as-the-adjective">Flat adverbs: the same form as the adjective<a class="hash" href="#flat-adverbs-the-same-form-as-the-adjective" aria-label="link">#</a></h1>
+<blockquote><p>Adverbs with no <em>-ly</em> — <em>fast</em>, <em>hard</em>, <em>late</em>, <em>straight</em> — that look like adjectives and are not mistakes.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>A flat adverb has the same form as its adjective. These are the older English adverbs that survived the spread of <em>-ly</em>, and they are fully standard: <em>drive fast</em>, <em>work hard</em>, <em>arrive late</em>. The trap is the reverse assumption — that adding <em>-ly</em> always gives the same meaning. For many of these words it gives a different word entirely, and that partner is in group 3. American speech also uses many informal flat adverbs (<em>drive slow</em>, <em>come quick</em>, <em>hold tight</em>) that formal writing avoids; each entry says which kind it is.</p>
+<hr>
+<h3 id="fast">fast<a class="hash" href="#fast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fæst/ &middot; <em>FAST</em></dd><dt>Русский</dt><dd>быстро; крепко</dd><dt>Type</dt><dd>manner; also degree (<em>fast asleep</em>)</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>-er/-est — <em>faster</em>, <em>fastest</em></dd><dt>Modifies</dt><dd>verbs; <em>asleep</em> in <em>fast asleep</em></dd><dt>Form</dt><dd>flat — the same form as the adjective <em>fast</em>; there is no <em>fastly</em></dd><dt>Contrast</dt><dd>There is no <em>fastly</em>: <em>He drives fast</em>, never <em>He drives fastly</em>. The old sense 'firmly' survives in set phrases and has nothing to do with speed: <em>hold fast</em> means hold on tight, <em>stuck fast</em> means it will not move, and <em>fast asleep</em> means deeply asleep, not that someone fell asleep quickly.</dd></dl>
+<p>Fast has 4 distinct senses.</p>
+<p><strong>1. Quickly; at high speed.</strong> (быстро)</p>
+<ol><li>Don't talk so <em>fast</em> — I can't follow you.</li><li>She ran <em>faster</em> than anyone else on the team.</li><li>Prices are rising <em>fast</em> this year.</li></ol>
+<p><strong>2. Firmly, so that it cannot move or come loose.</strong> (крепко, прочно, намертво)</p>
+<ol start="4"><li>The truck was stuck <em>fast</em> in the mud.</li><li>Hold <em>fast</em> to the railing when the boat turns.</li><li>The senator stood <em>fast</em> and refused to change her vote.</li></ol>
+<p><strong>3. Deeply, in <em>fast asleep</em>.</strong> (крепко (спать))</p>
+<ol start="7"><li>By nine o'clock the kids were <em>fast</em> asleep.</li><li>He was so <em>fast</em> asleep that he didn't hear the alarm.</li></ol>
+<p><strong>4. Ahead of the correct time, of a clock or watch.</strong> (вперёд (часы спешат))</p>
+<ol start="9"><li>The clock in the kitchen runs five minutes <em>fast</em>.</li><li>My watch has been running <em>fast</em> ever since I dropped it.</li></ol>
+<hr>
+<h3 id="hard">hard<a class="hash" href="#hard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɑːrd/ &middot; <em>HAHRD</em></dd><dt>Русский</dt><dd>усердно; сильно</dd><dt>Type</dt><dd>manner; also degree</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>-er/-est — <em>harder</em>, <em>hardest</em></dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>hard</em>; <em>hardly</em> is a different word</dd><dt>Contrast</dt><dd><em>Hardly</em> is not the adverb of <em>hard</em> in meaning: it means 'almost not' (group 3). <em>She works hard</em> = она много работает; <em>She hardly works</em> = она почти не работает. Russian <em>тяжело</em> about bad news is also <em>hard</em>: <em>He took it hard</em>.</dd></dl>
+<p>Hard has 5 distinct senses.</p>
+<p><strong>1. With a lot of effort, energy or attention.</strong> (усердно, упорно; как следует)</p>
+<ol><li>She worked <em>hard</em> to pay off her student loans.</li><li>Think <em>hard</em> before you sign that contract.</li><li>If you try <em>harder</em>, you'll make the team next year.</li></ol>
+<p><strong>2. With force; strongly or heavily.</strong> (сильно)</p>
+<ol start="4"><li>It was raining <em>hard</em> when we left.</li><li>He hit the ball <em>hard</em> toward left field.</li><li>Press <em>hard</em> on the cut to stop the bleeding.</li></ol>
+<p><strong>3. With pain or distress, about news or a loss.</strong> (тяжело (переживать))</p>
+<ol start="7"><li>She took her father's death very <em>hard</em>.</li><li>Don't take it so <em>hard</em> — everyone fails a test sometimes.</li></ol>
+<p><strong>4. As far as possible in one direction; sharply.</strong> (круто, до упора)</p>
+<ol start="9"><li>Turn the wheel <em>hard</em> to the right.</li><li>The pilot banked <em>hard</em> left to avoid the storm.</li></ol>
+<p><strong>5. Closely following; right after, in <em>hard on the heels of</em>.</strong> (сразу же, вслед за)</p>
+<ol start="11"><li>The second storm came <em>hard</em> on the heels of the first.</li><li>The announcement came <em>hard</em> on the heels of a bad quarter.</li></ol>
+<hr>
+<h3 id="late">late<a class="hash" href="#late" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/leɪt/ &middot; <em>LAYT</em></dd><dt>Русский</dt><dd>поздно, с опозданием</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>end — after the verb or its object; before <em>in</em>, <em>at</em>, <em>next</em> in <em>late at night</em></dd><dt>Comparison</dt><dd>-er/-est — <em>later</em>, <em>latest</em></dd><dt>Modifies</dt><dd>verbs; time phrases (<em>late in the day</em>)</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>late</em></dd><dt>Contrast</dt><dd><em>Lately</em> is a different word: it means 'recently, в последнее время' (group 3). <em>I got home late</em> = я поздно пришёл домой; <em>I haven't slept well lately</em> = в последнее время я плохо сплю. <em>Later</em> meaning 'afterward' (<em>See you later</em>) is a time adverb of its own (group 6).</dd></dl>
+<p>Late has 3 distinct senses.</p>
+<p><strong>1. After the expected, usual or proper time.</strong> (поздно, с опозданием)</p>
+<ol><li>The train got in forty minutes <em>late</em>.</li><li>Sorry, I'm running <em>late</em> — start without me.</li><li>She stayed <em>later</em> than everyone else to finish the report.</li></ol>
+<p><strong>2. Near the end of a period of time.</strong> (в конце; поздно)</p>
+<ol start="4"><li>The accident happened <em>late</em> at night.</li><li>He started painting <em>late</em> in life.</li><li>The package should arrive <em>late</em> next week.</li></ol>
+<p><strong>3. Recently, in <em>as late as</em> and <em>of late</em>.</strong> (ещё (совсем недавно))</p>
+<ol start="7"><li>As <em>late</em> as 2010, the town had no traffic lights.</li><li>The house was lived in until as <em>late</em> as the 1980s.</li><li>The senator has been unusually quiet of <em>late</em>.</li></ol>
+<hr>
+<h3 id="early">early<a class="hash" href="#early" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɜːrli/ &middot; <em>UR-lee</em></dd><dt>Русский</dt><dd>рано, заранее</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>end — after the verb or its object; before <em>in</em>, <em>on</em> in <em>early in the morning</em></dd><dt>Comparison</dt><dd>-er/-est — <em>earlier</em>, <em>earliest</em></dd><dt>Modifies</dt><dd>verbs; time phrases (<em>early in the year</em>)</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>early</em>; the <em>-ly</em> is part of the word, so there is no <em>earlily</em></dd><dt>Contrast</dt><dd><em>Early</em> is about the clock or calendar — before the usual time (рано, раньше срока); <em>soon</em> is about how long from now (скоро). <em>Come early</em> = приходите пораньше; <em>Come soon</em> = приходите поскорее. Russian <em>раньше</em> meaning 'in the past' is <em>before</em> or <em>used to</em>, not <em>earlier</em>: <em>I used to smoke</em>. <em>Earlier</em> meaning 'ранее, сегодня уже' (<em>I called you earlier</em>) has its own entry (group 6).</dd></dl>
+<p>Early has 2 distinct senses.</p>
+<p><strong>1. Before the usual, expected or planned time.</strong> (рано, раньше срока, заранее)</p>
+<ol><li>We got to the airport two hours <em>early</em>.</li><li>The baby was born three weeks <em>early</em>.</li><li>Can you come in <em>earlier</em> tomorrow?</li></ol>
+<p><strong>2. Near the beginning of a period of time.</strong> (рано; в начале)</p>
+<ol start="4"><li>I get up <em>early</em> in the morning.</li><li><em>Early</em> in her career, she worked as a waitress.</li><li>We knew <em>early</em> on that the plan wouldn't work.</li></ol>
+<hr>
+<h3 id="straight">straight<a class="hash" href="#straight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/streɪt/ &middot; <em>STRAYT</em></dd><dt>Русский</dt><dd>прямо; сразу; подряд</dd><dt>Type</dt><dd>manner; also direction, time (<em>straight home</em>) and duration (<em>three days straight</em>)</dd><dt>Position</dt><dd>end — after the verb; before <em>home</em>, <em>ahead</em>, <em>to</em>; after a time phrase in <em>three days straight</em></dd><dt>Comparison</dt><dd>-er/-est — <em>straighter</em>, <em>straightest</em>; only in the line and posture sense</dd><dt>Modifies</dt><dd>verbs; place words (<em>straight ahead</em>); time phrases (<em>five days straight</em>)</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>straight</em>; <em>straightly</em> is almost never used</dd><dt>Contrast</dt><dd>Russian <em>прямо</em> as an intensifier is <em>right</em>, not <em>straight</em>: <em>прямо сейчас</em> = <em>right now</em>, <em>прямо здесь</em> = <em>right here</em>. <em>Straight</em> means in a line, without stopping, or honestly: <em>go straight home</em>. <em>Straight away</em> (сразу) is heard in the US, but <em>right away</em> is far more common.</dd></dl>
+<p>Straight has 6 distinct senses.</p>
+<p><strong>1. In a straight line or upright position; not curving or bending.</strong> (прямо, ровно)</p>
+<ol><li>Go <em>straight</em> for two blocks and turn left at the light.</li><li>Sit up <em>straight</em> and look at the camera.</li><li>Can you stand a little <em>straighter</em>?</li></ol>
+<p><strong>2. Directly, without stopping or delay.</strong> (сразу, прямиком)</p>
+<ol start="4"><li>I went <em>straight</em> home after work.</li><li>He walked <em>straight</em> into a glass door.</li><li>The kids went <em>straight</em> to bed.</li></ol>
+<p><strong>3. Honestly; without hiding anything, or, in <em>go straight</em>, without breaking the law.</strong> (прямо, откровенно, начистоту; завязать (с криминалом))</p>
+<ol start="7"><li>Just tell me <em>straight</em> — am I getting fired?</li><li>I'll give it to you <em>straight</em>: the car isn't worth fixing.</li><li>After prison he went <em>straight</em> and opened a bakery.</li></ol>
+<p><strong>4. Without a break; in a row, after a number and a time word.</strong> (подряд)</p>
+<ol start="10"><li>It rained for five days <em>straight</em>.</li><li>The Yankees have won six games <em>straight</em>.</li></ol>
+<p><strong>5. Clearly, in <em>think straight</em> and <em>see straight</em>.</strong> (ясно, нормально (соображать))</p>
+<ol start="12"><li>I'm so tired I can't think <em>straight</em>.</li><li>After three drinks he couldn't see <em>straight</em>.</li></ol>
+<p><strong>6. Without water, ice or anything mixed in, of a drink.</strong> (неразбавленным, в чистом виде)</p>
+<ol start="14"><li>He drinks his whiskey <em>straight</em>.</li><li>Do you want your bourbon <em>straight</em> or on the rocks?</li></ol>
+<hr>
+<h3 id="long">long<a class="hash" href="#long" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɔːŋ/ &middot; <em>LAWNG</em></dd><dt>Русский</dt><dd>долго; давно</dd><dt>Type</dt><dd>duration; also time (<em>long ago</em>)</dd><dt>Position</dt><dd>end — <em>Did you wait long?</em>; mid in <em>have long suspected</em>; before <em>ago</em>, <em>before</em>, <em>after</em></dd><dt>Comparison</dt><dd>-er/-est — <em>longer</em>, <em>longest</em></dd><dt>Modifies</dt><dd>verbs; <em>ago</em>, <em>before</em>, <em>after</em>, <em>since</em></dd><dt>Form</dt><dd>flat — the same form as the adjective <em>long</em></dd><dt>Contrast</dt><dd>In affirmative statements American English says <em>a long time</em>, not bare <em>long</em>: <em>I waited a long time</em>, not <em>I waited long</em>. Bare <em>long</em> is normal in questions and negatives (<em>Did you wait long?</em>, <em>It won't take long</em>) and after <em>too</em>, <em>so</em>, <em>as</em> (<em>I stayed too long</em>). <em>Long</em> is about time; for distance use <em>far</em> or <em>a long way</em> — sports talk is the exception (<em>throw long</em>, <em>the putt went long</em>). <em>As long as</em> (если только; пока) is a conjunction.</dd></dl>
+<p>Long has 4 distinct senses.</p>
+<p><strong>1. For a long time.</strong> (долго)</p>
+<ol><li>Have you been waiting <em>long</em>?</li><li>It won't take <em>long</em> to fix.</li><li>Can you stay a little <em>longer</em>?</li></ol>
+<p><strong>2. A long time before or after a point, or for a long time up to now.</strong> (давно; задолго)</p>
+<ol start="4"><li>The house was built <em>long</em> ago.</li><li>We were friends <em>long</em> before we started dating.</li><li>Scientists have <em>long</em> suspected a link between the two.</li></ol>
+<p><strong>3. Throughout a whole period, in <em>all day long</em>, <em>all year long</em>.</strong> (весь (день) напролёт)</p>
+<ol start="7"><li>The baby cried all night <em>long</em>.</li><li>The pool is open all summer <em>long</em>.</li></ol>
+<p><strong>4. Any more, in <em>no longer</em> and <em>not any longer</em>.</strong> (больше не, уже не)</p>
+<ol start="9"><li>She no <em>longer</em> works here.</li><li>I can't wait any <em>longer</em>.</li></ol>
+<hr>
+<h3 id="high">high<a class="hash" href="#high" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haɪ/ &middot; <em>HY</em></dd><dt>Русский</dt><dd>высоко</dd><dt>Type</dt><dd>place; also degree (<em>aim high</em>)</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>-er/-est — <em>higher</em>, <em>highest</em></dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>high</em></dd><dt>Contrast</dt><dd><em>Highly</em> does not mean 'at a great height': it means 'very' or 'very well' (<em>highly recommended</em>, <em>think highly of</em> — group 3). <em>The kite flew high</em>, never <em>flew highly</em>; <em>a highly successful company</em>, never <em>a high successful company</em>.</dd></dl>
+<p>High has 3 distinct senses.</p>
+<p><strong>1. At or to a great height.</strong> (высоко)</p>
+<ol><li>The eagle circled <em>high</em> above the canyon.</li><li>Throw the ball <em>higher</em> so I can catch it.</li><li>Our office is <em>high</em> up on the fortieth floor.</li></ol>
+<p><strong>2. At a high level, rank, amount or pitch.</strong> (высоко; на высоком уровне)</p>
+<ol start="4"><li>Aim <em>high</em> and don't settle for less.</li><li>The company ranks <em>high</em> on lists of the best places to work.</li><li>She can sing much <em>higher</em> than her sister.</li></ol>
+<p><strong>3. Everywhere, in <em>high and low</em>.</strong> (повсюду, везде)</p>
+<ol start="7"><li>We searched <em>high</em> and low for the keys.</li><li>They looked <em>high</em> and low but never found the dog.</li></ol>
+<hr>
+<h3 id="low">low<a class="hash" href="#low" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/loʊ/ &middot; <em>LOH</em></dd><dt>Русский</dt><dd>низко</dd><dt>Type</dt><dd>place; also degree (<em>buy low</em>)</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>-er/-est — <em>lower</em>, <em>lowest</em></dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>low</em></dd><dt>Contrast</dt><dd><em>Lowly</em> is an adjective meaning 'humble, of low rank' (<em>a lowly clerk</em>), not the adverb of <em>low</em>. <em>Lower</em> is also a verb: <em>Lower your voice</em> = говорите тише.</dd></dl>
+<p>Low has 4 distinct senses.</p>
+<p><strong>1. At or to a low position; near the ground.</strong> (низко)</p>
+<ol><li>The plane flew <em>low</em> over the fields.</li><li>Bend <em>lower</em> and keep your back straight.</li><li>The sun hung <em>low</em> in the sky.</li></ol>
+<p><strong>2. At a low level, amount, price or setting.</strong> (низко; дёшево; на малом огне)</p>
+<ol start="4"><li>Buy <em>low</em> and sell high.</li><li>Turn the heat down <em>low</em> and let it simmer.</li><li>Cook the ribs <em>low</em> and slow for about six hours.</li></ol>
+<p><strong>3. Quietly, or at a deep pitch.</strong> (тихо; низко (о голосе))</p>
+<ol start="7"><li>They talked <em>low</em> so the kids wouldn't hear.</li><li>He can sing <em>lower</em> than anyone in the choir.</li></ol>
+<p><strong>4. Out of sight, so as not to attract attention, in <em>lie low</em>.</strong> (затаиться, залечь на дно)</p>
+<ol start="9"><li>The suspect is probably lying <em>low</em> until things calm down.</li><li>Stay home and lie <em>low</em> for a couple of days.</li></ol>
+<hr>
+<h3 id="deep">deep<a class="hash" href="#deep" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diːp/ &middot; <em>DEEP</em></dd><dt>Русский</dt><dd>глубоко</dd><dt>Type</dt><dd>place; also time (<em>deep into the night</em>) and degree</dd><dt>Position</dt><dd>end — after the verb; before <em>into</em>, <em>under</em> phrases</dd><dt>Comparison</dt><dd>-er/-est — <em>deeper</em>, <em>deepest</em></dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>deep</em></dd><dt>Contrast</dt><dd>For feelings and degree use <em>deeply</em>: <em>deeply sorry</em>, <em>deeply moved</em>, <em>I deeply regret it</em> — never <em>deep sorry</em> (group 3). Flat <em>deep</em> is for physical depth or distance and a few set phrases: <em>dig deep</em>, <em>deep into the night</em>, <em>run deep</em>. With <em>breathe</em> both work: <em>breathe deep</em>, <em>breathe deeply</em>.</dd></dl>
+<p>Deep has 3 distinct senses.</p>
+<p><strong>1. Far down, far in, or far from the front or surface.</strong> (глубоко; далеко)</p>
+<ol><li>The roots go <em>deep</em> into the soil.</li><li>They hiked <em>deeper</em> into the woods.</li><li>The quarterback threw <em>deep</em> to the end zone.</li></ol>
+<p><strong>2. Far into a period of time.</strong> (до поздней (ночи), до самого (конца))</p>
+<ol start="4"><li>We talked <em>deep</em> into the night.</li><li>The game went <em>deep</em> into overtime.</li></ol>
+<p><strong>3. At a deep level of feeling or effort, in <em>dig deep</em> and <em>run deep</em>.</strong> (изо всех сил; глубоко (укоренившись))</p>
+<ol start="6"><li>The team had to dig <em>deep</em> to win in the final minutes.</li><li>Old grudges run <em>deep</em> in this town.</li></ol>
+<hr>
+<h3 id="near">near<a class="hash" href="#near" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɪr/ &middot; <em>NEER</em></dd><dt>Русский</dt><dd>близко, рядом; почти</dd><dt>Type</dt><dd>place; also time and degree (<em>near perfect</em>)</dd><dt>Position</dt><dd>end — after the verb; before its word in <em>near perfect</em></dd><dt>Comparison</dt><dd>-er/-est — <em>nearer</em>, <em>nearest</em></dd><dt>Modifies</dt><dd>verbs; adjectives (<em>near impossible</em>)</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>near</em></dd><dt>Contrast</dt><dd><em>Near</em> is usually a preposition (<em>near the station</em>); it is an adverb only when no noun follows (<em>come near</em>). For location, everyday American speech prefers <em>nearby</em>: <em>They live nearby</em>. For 'almost', formal writing uses <em>nearly</em> (group 3): <em>nearly impossible</em>, not <em>near impossible</em>. <em>Nowhere near</em> (далеко не) is informal but standard.</dd></dl>
+<p>Near has 3 distinct senses.</p>
+<p><strong>1. At or to a short distance in space or time.</strong> (близко, рядом)</p>
+<ol><li>Don't come any <em>nearer</em> — the dog bites.</li><li>As the wedding drew <em>near</em>, she got more nervous.</li><li>The deer came <em>near</em> enough to eat from my hand.</li></ol>
+<p><strong>2. Almost; very nearly, informal, before an adjective.</strong> (почти)</p>
+<ol start="4"><li>It was <em>near</em> impossible to find parking.</li><li>The team played a <em>near</em> perfect game.</li></ol>
+<p><strong>3. Not at all, in <em>nowhere near</em> and <em>not anywhere near</em>.</strong> (далеко не, и близко не)</p>
+<ol start="6"><li>The house is nowhere <em>near</em> finished.</li><li>We don't have anywhere <em>near</em> enough chairs.</li></ol>
+<hr>
+<h3 id="far">far<a class="hash" href="#far" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɑːr/ &middot; <em>FAHR</em></dd><dt>Русский</dt><dd>далеко; намного</dd><dt>Type</dt><dd>place; also degree (<em>far better</em>) and time (<em>so far</em>)</dd><dt>Position</dt><dd>end — after the verb; before its word in <em>far better</em>, <em>far too</em></dd><dt>Comparison</dt><dd>irregular — <em>farther</em>, <em>farthest</em>; also <em>further</em>, <em>furthest</em></dd><dt>Modifies</dt><dd>verbs; comparatives and <em>too</em> (<em>far better</em>, <em>far too</em>)</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>far</em>; compares irregularly</dd><dt>Contrast</dt><dd>In affirmative statements bare <em>far</em> sounds formal; Americans say <em>a long way</em>: <em>We walked a long way</em>. <em>Far</em> is normal in questions and negatives (<em>Is it far?</em>, <em>It's not far</em>) and with <em>too</em>, <em>so</em>, <em>away</em>, <em>from</em>. Before a comparative use <em>far</em> or <em>much</em>, never <em>very</em>: <em>far better</em>, not <em>very better</em>. <em>Far from</em> + adjective means 'not at all': <em>far from perfect</em> = далеко не идеальный. For distance American English prefers <em>farther</em>; <em>further</em> also means 'more, in addition' (group 2).</dd></dl>
+<p>Far has 5 distinct senses.</p>
+<p><strong>1. At or to a great distance.</strong> (далеко)</p>
+<ol><li>How <em>far</em> is the airport from here?</li><li>They don't live <em>far</em> from us.</li><li>We drove <em>farther</em> than we'd planned.</li></ol>
+<p><strong>2. Much; by a large amount, before a comparative or <em>too</em>, and in <em>by far</em>.</strong> (намного, гораздо; слишком)</p>
+<ol start="4"><li>This version is <em>far</em> better than the last one.</li><li>The rent is <em>far</em> too high.</li><li>She's by <em>far</em> the best player on the team.</li></ol>
+<p><strong>3. To a particular point, degree or stage.</strong> (насколько; далеко (зайти))</p>
+<ol start="7"><li>How <em>far</em> did you get with the reading?</li><li>This time he's gone too <em>far</em>.</li><li>As <em>far</em> as I know, the store is still open.</li></ol>
+<p><strong>4. Up to now, in <em>so far</em> and <em>thus far</em>.</strong> (пока, до сих пор)</p>
+<ol start="10"><li>So <em>far</em>, nobody has complained.</li><li>Thus <em>far</em> the plan is working.</li></ol>
+<p><strong>5. A long way in time, before <em>into</em>, <em>back</em> and <em>ahead</em>.</strong> (далеко (во времени); до поздней (ночи); ещё (в))</p>
+<ol start="12"><li>The party went on <em>far</em> into the night.</li><li>Her family's roots go as <em>far</em> back as the 1700s.</li><li>It's too early to plan that <em>far</em> ahead.</li></ol>
+<hr>
+<h3 id="wrong">wrong<a class="hash" href="#wrong" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɔːŋ/ &middot; <em>RAWNG</em></dd><dt>Русский</dt><dd>неправильно</dd><dt>Type</dt><dd>manner</dd><dt>Position</dt><dd>end — only after the verb or its object</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>wrong</em></dd><dt>Contrast</dt><dd>Flat <em>wrong</em> goes only after the verb or object: <em>You spelled it wrong</em>. Before a verb or participle use <em>wrongly</em>: <em>He was wrongly accused</em>. <em>Wrongly</em> also carries the idea of 'unfairly, by mistake' (group 3). <em>Don't get me wrong</em> = не поймите меня неправильно.</dd></dl>
+<p>Wrong has 2 distinct senses.</p>
+<p><strong>1. Incorrectly; in a mistaken way.</strong> (неправильно, не так)</p>
+<ol><li>You spelled my name <em>wrong</em>.</li><li>I guessed <em>wrong</em> about the weather.</li><li>Don't get me <em>wrong</em> — I like her a lot.</li></ol>
+<p><strong>2. Badly, so that a problem happens, in <em>go wrong</em>.</strong> (не так (пойти); сломаться)</p>
+<ol start="4"><li>Something went <em>wrong</em> with the engine.</li><li>What could possibly go <em>wrong</em>?</li><li>Where did we go <em>wrong</em> with this project?</li></ol>
+<hr>
+<h3 id="right">right<a class="hash" href="#right" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raɪt/ &middot; <em>RYT</em></dd><dt>Русский</dt><dd>прямо, как раз; сразу; правильно</dd><dt>Type</dt><dd>focusing; also time (<em>right away</em>), manner (<em>do it right</em>), degree (<em>right to the end</em>) and direction (<em>turn right</em>)</dd><dt>Position</dt><dd>before its word — <em>right here</em>, <em>right after lunch</em>; end in <em>do it right</em>, <em>turn right</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>place and time words and phrases; verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>right</em></dd><dt>Contrast</dt><dd>Russian <em>прямо</em> before a place or time word is <em>right</em>, not <em>straight</em>: <em>right now</em>, <em>right here</em>, <em>right in front of you</em>. <em>Right now</em> means 'at this moment'; <em>just now</em> means 'a moment ago'. <em>Rightly</em> (group 3) means 'justifiably': <em>She was rightly proud</em>; <em>You guessed right</em> uses the flat form. <em>Right?</em> at the end of a sentence is a question tag, and <em>Right.</em> alone is an interjection.</dd></dl>
+<p>Right has 5 distinct senses.</p>
+<p><strong>1. Exactly; directly, before a place or time word.</strong> (прямо, как раз, точно)</p>
+<ol><li>The keys were <em>right</em> here on the table.</li><li>She was sitting <em>right</em> in front of me.</li><li>Call me <em>right</em> after the meeting.</li></ol>
+<p><strong>2. Immediately; without delay, in <em>right away</em>, <em>right now</em>, <em>right back</em>.</strong> (сразу, сейчас же)</p>
+<ol start="4"><li>I need those files <em>right</em> away.</li><li>Hold on, I'll be <em>right</em> back.</li><li>Stop that <em>right</em> now!</li></ol>
+<p><strong>3. Correctly; as it should be.</strong> (правильно, как надо)</p>
+<ol start="7"><li>Did I pronounce that <em>right</em>?</li><li>Nothing is going <em>right</em> today.</li><li>If I remember <em>right</em>, the party starts at eight.</li></ol>
+<p><strong>4. All the way; completely.</strong> (до конца, насквозь, совсем)</p>
+<ol start="10"><li>The nail went <em>right</em> through the board.</li><li>Read the contract <em>right</em> to the end.</li><li>He turned <em>right</em> around and walked out.</li></ol>
+<p><strong>5. To or toward the right side.</strong> (направо)</p>
+<ol start="13"><li>Turn <em>right</em> at the second light.</li><li>Look left and <em>right</em> before you cross.</li></ol>
+<hr>
+<h3 id="direct">direct<a class="hash" href="#direct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dəˈrɛkt/ &middot; <em>duh-REKT</em></dd><dt>Русский</dt><dd>прямо, напрямую</dd><dt>Type</dt><dd>manner; also direction</dd><dt>Position</dt><dd>end — after the verb (<em>fly direct</em>, <em>buy direct</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of travel, buying and contact</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>direct</em></dd><dt>Contrast</dt><dd>Flat <em>direct</em> is used mainly after verbs of travel and dealing: <em>fly direct</em>, <em>buy direct</em>, <em>call direct</em>. <em>Directly</em> covers everything else and is the only choice before an adjective or verb: <em>directly affected</em>, <em>directly opposite</em>. <em>Directly</em> can also mean 'very soon' (<em>I'll be there directly</em>, older and Southern US). Both /dəˈrɛkt/ and /daɪˈrɛkt/ are standard American pronunciations.</dd></dl>
+<p>Direct has 2 distinct senses.</p>
+<p><strong>1. Without stopping or changing along the way.</strong> (прямым рейсом, без пересадок)</p>
+<ol><li>You can fly <em>direct</em> from Chicago to Tokyo.</li><li>This bus goes <em>direct</em> to the airport.</li></ol>
+<p><strong>2. Without anyone or anything in between.</strong> (напрямую, без посредников)</p>
+<ol start="3"><li>We buy our coffee <em>direct</em> from the farmers.</li><li>If there's a problem, contact me <em>direct</em>.</li><li>The payment goes <em>direct</em> into your account.</li></ol>
+<hr>
+<h3 id="fair">fair<a class="hash" href="#fair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɛr/ &middot; <em>FAIR</em></dd><dt>Русский</dt><dd>честно, по правилам</dd><dt>Type</dt><dd>manner</dd><dt>Position</dt><dd>end — after the verb (<em>play fair</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs (<em>play</em>, <em>fight</em>, <em>win</em>)</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>fair</em></dd><dt>Contrast</dt><dd>Flat <em>fair</em> lives in a few phrases: <em>play fair</em>, <em>fight fair</em>, <em>fair and square</em>. Elsewhere use <em>fairly</em>, which usually means 'rather' (<em>fairly good</em> = довольно хороший) and only sometimes 'justly' (<em>treat people fairly</em>) — group 3. Russian <em>честно говоря</em> is <em>honestly</em> or <em>to be fair</em>, not <em>fair</em>.</dd></dl>
+<p>According to the rules; honestly and without cheating.</p>
+<ol><li>You have to play <em>fair</em>, even when you're losing.</li><li>They won the election <em>fair</em> and square.</li><li>Couples therapy taught them how to fight <em>fair</em>.</li></ol>
+<hr>
+<h3 id="free">free<a class="hash" href="#free" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/friː/ &middot; <em>FREE</em></dd><dt>Русский</dt><dd>бесплатно; на свободу</dd><dt>Type</dt><dd>manner</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>free</em></dd><dt>Contrast</dt><dd><em>Free</em> after a verb means 'for no money': <em>Kids eat free</em>. <em>Freely</em> means 'without limits or control': <em>speak freely</em> (говорить открыто), <em>freely available</em> (group 3). Russian <em>свободно говорить по-английски</em> is <em>speak English fluently</em>, not <em>freely</em>. <em>For free</em> is informal but normal in American English; <em>free of charge</em> is formal.</dd></dl>
+<p>Free has 2 distinct senses.</p>
+<p><strong>1. Without payment.</strong> (бесплатно)</p>
+<ol><li>Children under five ride <em>free</em>.</li><li>I got these tickets <em>free</em> from work.</li><li>Seniors get in <em>free</em> on Tuesdays.</li></ol>
+<p><strong>2. Out of a hold or away from a restraint; loose.</strong> (на свободу; свободно)</p>
+<ol start="4"><li>The dog pulled <em>free</em> of its leash.</li><li>She finally broke <em>free</em> of the crowd.</li><li>Wild horses run <em>free</em> on the island.</li></ol>
+<hr>
+<h3 id="wide">wide<a class="hash" href="#wide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪd/ &middot; <em>WYD</em></dd><dt>Русский</dt><dd>широко; настежь; мимо</dd><dt>Type</dt><dd>degree; also place (<em>far and wide</em>)</dd><dt>Position</dt><dd>end — <em>open wide</em>; before its word in <em>wide open</em>, <em>wide awake</em></dd><dt>Comparison</dt><dd>-er/-est — <em>wider</em>, <em>widest</em></dd><dt>Modifies</dt><dd>verbs; <em>open</em>, <em>awake</em>, <em>apart</em></dd><dt>Form</dt><dd>flat — the same form as the adjective <em>wide</em></dd><dt>Contrast</dt><dd>Flat <em>wide</em> is physical: <em>open wide</em>, <em>wide open</em>, <em>wide awake</em>. For how many people or how much, use <em>widely</em>: <em>widely known</em>, <em>widely used</em>, <em>prices vary widely</em> — never <em>wide known</em> (group 3). <em>Wide open</em> can also mean 'undecided': <em>The race is wide open</em>.</dd></dl>
+<p>Wide has 3 distinct senses.</p>
+<p><strong>1. Fully; to the full extent.</strong> (широко; настежь; полностью)</p>
+<ol><li>Open <em>wider</em>, please — I can't see the tooth.</li><li>The front door was <em>wide</em> open.</li><li>At three in the morning I was still <em>wide</em> awake.</li></ol>
+<p><strong>2. Away from the target; off to one side.</strong> (мимо (цели))</p>
+<ol start="4"><li>His kick went <em>wide</em>, and the game ended in a tie.</li><li>The shot sailed <em>wide</em> of the net.</li></ol>
+<p><strong>3. Over a large area, in <em>far and wide</em>.</strong> (повсюду, отовсюду)</p>
+<ol start="6"><li>People came from far and <em>wide</em> to hear her speak.</li><li>The news spread far and <em>wide</em>.</li></ol>
+<hr>
+<h3 id="close">close<a class="hash" href="#close" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kloʊs/ &middot; <em>KLOHS</em></dd><dt>Русский</dt><dd>близко; почти</dd><dt>Type</dt><dd>place; also degree (<em>close to 500</em>) and manner (<em>listen close</em>)</dd><dt>Position</dt><dd>end — after the verb; before <em>to</em>, <em>by</em>, <em>behind</em></dd><dt>Comparison</dt><dd>-er/-est — <em>closer</em>, <em>closest</em></dd><dt>Modifies</dt><dd>verbs; <em>to</em>, <em>by</em>, <em>behind</em> phrases</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>close</em></dd><dt>Contrast</dt><dd>The adverb and adjective <em>close</em> end in /s/: /kloʊs/. The verb <em>close</em> ends in /z/: /kloʊz/. <em>Closely</em> means 'carefully' or 'in a close relationship': <em>watch closely</em>, <em>closely related</em> (group 3); flat <em>close</em> is mainly physical distance: <em>stand close</em>. <em>Close to</em> + a number means 'almost': <em>close to 500</em>.</dd></dl>
+<p>Close has 3 distinct senses.</p>
+<p><strong>1. Near in space or time.</strong> (близко, рядом)</p>
+<ol><li>Stay <em>close</em> to me in the crowd.</li><li>Come <em>closer</em> so I can see you.</li><li>She held the baby <em>close</em> and rocked him to sleep.</li></ol>
+<p><strong>2. Almost; nearly, in <em>close to</em> + a number or time and <em>come close</em>.</strong> (почти, около; чуть не)</p>
+<ol start="4"><li><em>Close</em> to 500 people showed up.</li><li>I came <em>close</em> to quitting last year.</li><li>It was <em>close</em> to midnight when they got home.</li></ol>
+<p><strong>3. Carefully; with attention, informal.</strong> (внимательно)</p>
+<ol start="7"><li>Listen <em>close</em>, because I'm only saying this once.</li><li>Watch <em>close</em> and you'll see how he does the trick.</li></ol>
+<hr>
+<h3 id="short">short<a class="hash" href="#short" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɔːrt/ &middot; <em>SHORT</em></dd><dt>Русский</dt><dd>не дотянуть; резко</dd><dt>Type</dt><dd>manner; also degree (<em>fall short</em>)</dd><dt>Position</dt><dd>end — after the verb or its object (<em>stop short</em>, <em>cut it short</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs (<em>fall</em>, <em>come up</em>, <em>stop</em>, <em>cut</em>, <em>sell</em>)</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>short</em></dd><dt>Contrast</dt><dd><em>Shortly</em> means 'soon' (скоро): <em>I'll be there shortly</em> (group 3) — it has nothing to do with length. <em>Short of</em> works like a preposition meaning 'except, without going as far as': <em>Short of a miracle, we'll lose</em>. <em>In short</em> (короче говоря) is a linking phrase.</dd></dl>
+<p>Short has 4 distinct senses.</p>
+<p><strong>1. Before reaching a goal, target or amount, in <em>fall short</em> and <em>come up short</em>.</strong> (не дотянуть, не хватить)</p>
+<ol><li>The ball landed <em>short</em> of the green.</li><li>Sales fell <em>short</em> of expectations.</li><li>Our team came up <em>short</em> in the final round.</li></ol>
+<p><strong>2. Suddenly and abruptly, in <em>stop short</em> and <em>pull up short</em>.</strong> (резко, внезапно)</p>
+<ol start="4"><li>She stopped <em>short</em> when she saw the snake.</li><li>The driver pulled up <em>short</em> at the crosswalk.</li></ol>
+<p><strong>3. Earlier than planned, in <em>cut short</em>.</strong> (досрочно (прервать))</p>
+<ol start="6"><li>We had to cut our vacation <em>short</em>.</li><li>His career was cut <em>short</em> by a knee injury.</li></ol>
+<p><strong>4. Below its real worth, in <em>sell short</em>.</strong> (недооценивать)</p>
+<ol start="8"><li>Don't sell yourself <em>short</em> — you're great at this.</li><li>Critics sold the movie <em>short</em>, but it became a hit.</li></ol>
+<hr>
+<h3 id="sure">sure<a class="hash" href="#sure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃʊr/ &middot; <em>SHUUR</em></dd><dt>Русский</dt><dd>конечно; точно</dd><dt>Type</dt><dd>stance; also degree (<em>It sure is hot</em>)</dd><dt>Position</dt><dd>front — alone as a reply or before a clause; mid in <em>It sure is hot</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses; verbs</dd><dt>Contrast</dt><dd>Adverb <em>sure</em> is informal American English; in writing use <em>certainly</em>. <em>Surely</em> is not a neutral 'certainly': <em>Surely you're not serious?</em> expresses surprise or disbelief — неужели, не может быть (group 3). <em>For sure</em> (наверняка) is a set phrase: <em>I don't know for sure</em>. <em>I'm sure</em> is the adjective.</dd></dl>
+<p>Sure has 5 distinct senses.</p>
+<p><strong>1. Yes; certainly, as a reply or agreement.</strong> (конечно, да)</p>
+<ol><li>'Can I borrow your pen?' '<em>Sure</em>, go ahead.'</li><li><em>Sure</em>, I'll give you a ride.</li><li>'Want to grab lunch?' '<em>Sure</em>.'</li></ol>
+<p><strong>2. Really; certainly, for emphasis before the verb.</strong> (ну и, действительно, точно)</p>
+<ol start="4"><li>It <em>sure</em> is hot today.</li><li>I <em>sure</em> hope they win.</li><li>You <em>sure</em> know how to throw a party.</li></ol>
+<p><strong>3. Admittedly, before a <em>but</em>.</strong> (конечно, допустим (…, но))</p>
+<ol start="7"><li><em>Sure</em>, it's expensive, but it'll last twenty years.</li><li>The job pays well, <em>sure</em>, but the hours are terrible.</li></ol>
+<p><strong>4. You're welcome, in reply to thanks.</strong> (пожалуйста, не за что)</p>
+<ol start="9"><li>'Thanks for the help.' '<em>Sure</em>.'</li><li>'Thanks for waiting.' 'Oh, <em>sure</em>, no problem.'</li></ol>
+<p><strong>5. As expected, in <em>sure enough</em>.</strong> (и действительно, как и ожидалось)</p>
+<ol start="11"><li>I said it would rain, and <em>sure</em> enough, it did.</li><li><em>Sure</em> enough, the store was closed when we got there.</li></ol>
+<hr>
+<h3 id="quick">quick<a class="hash" href="#quick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɪk/ &middot; <em>KWIK</em></dd><dt>Русский</dt><dd>быстро</dd><dt>Type</dt><dd>manner</dd><dt>Position</dt><dd>end — after the verb; never before the verb</dd><dt>Comparison</dt><dd>-er/-est — <em>quicker</em>, <em>quickest</em></dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>quick</em>; the regular adverb is <em>quickly</em></dd><dt>Contrast</dt><dd>Flat <em>quick</em> is informal and mostly appears after the verb in commands and set phrases: <em>Come quick!</em>, <em>get rich quick</em>. Before the verb only <em>quickly</em> works: <em>She quickly agreed</em>, never <em>She quick agreed</em>. The comparative <em>quicker</em> is normal even in careful speech: <em>You'll get there quicker</em>.</dd></dl>
+<p>Quickly; fast, informal.</p>
+<ol><li>Come <em>quick</em> — the kitchen's on fire!</li><li>Nobody gets rich <em>quick</em> by playing the lottery.</li><li>Take the highway — you'll get there <em>quicker</em>.</li></ol>
+<hr>
+<h3 id="slow">slow<a class="hash" href="#slow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sloʊ/ &middot; <em>SLOH</em></dd><dt>Русский</dt><dd>медленно</dd><dt>Type</dt><dd>manner</dd><dt>Position</dt><dd>end — after the verb; never before the verb</dd><dt>Comparison</dt><dd>-er/-est — <em>slower</em>, <em>slowest</em></dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>slow</em>; the regular adverb is <em>slowly</em></dd><dt>Contrast</dt><dd>Flat <em>slow</em> is informal outside a few uses: <em>go slow</em>, <em>drive slow</em>, <em>take it slow</em> and the road sign SLOW. In writing and before the verb use <em>slowly</em>: <em>She slowly opened the door</em>. <em>Slower</em> and <em>more slowly</em> are both fine.</dd></dl>
+<p>Slow has 2 distinct senses.</p>
+<p><strong>1. Slowly; at low speed.</strong> (медленно)</p>
+<ol><li>Drive <em>slow</em> — the roads are icy.</li><li>Let's take it <em>slow</em> and see how things go.</li><li>Could you talk a little <em>slower</em>?</li></ol>
+<p><strong>2. Behind the correct time, of a clock or watch.</strong> (отставать (о часах))</p>
+<ol start="4"><li>The clock in the hallway runs ten minutes <em>slow</em>.</li><li>My watch is running <em>slow</em> again.</li></ol>
+<hr>
+<h3 id="loud">loud<a class="hash" href="#loud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laʊd/ &middot; <em>LOWD</em></dd><dt>Русский</dt><dd>громко; вслух</dd><dt>Type</dt><dd>manner</dd><dt>Position</dt><dd>end — after the verb; never before the verb</dd><dt>Comparison</dt><dd>-er/-est — <em>louder</em>, <em>loudest</em></dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>loud</em>; the regular adverb is <em>loudly</em></dd><dt>Contrast</dt><dd><em>Out loud</em> means 'вслух' — so that others can hear — not 'громко': you can read <em>out loud</em> in a quiet voice. <em>Aloud</em> is the formal equivalent. Before the verb use <em>loudly</em>: <em>He loudly complained</em>. <em>Louder</em> and <em>more loudly</em> are both correct.</dd></dl>
+<p>Loud has 2 distinct senses.</p>
+<p><strong>1. Loudly; with a lot of sound.</strong> (громко)</p>
+<ol><li>Can you talk <em>louder</em>? I can't hear you.</li><li>The band played so <em>loud</em> our ears were ringing.</li><li>Our neighbors play their music way too <em>loud</em>.</li></ol>
+<p><strong>2. Aloud, so that others can hear, in <em>out loud</em>.</strong> (вслух)</p>
+<ol start="4"><li>Read the first paragraph out <em>loud</em>, please.</li><li>Sorry, I was just thinking out <em>loud</em>.</li><li>She laughed out <em>loud</em> at the email.</li></ol>
+<hr>
+<h3 id="tight">tight<a class="hash" href="#tight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪt/ &middot; <em>TYT</em></dd><dt>Русский</dt><dd>крепко, плотно</dd><dt>Type</dt><dd>manner</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>-er/-est — <em>tighter</em>, <em>tightest</em></dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>tight</em>; the regular adverb is <em>tightly</em></dd><dt>Contrast</dt><dd>Flat <em>tight</em> follows the verb: <em>hold tight</em>, <em>shut tight</em>, <em>packed tight</em>. Before a verb or participle use <em>tightly</em>: <em>tightly packed</em>, <em>She tightly gripped the rail</em>. <em>Sit tight</em> and <em>hang tight</em> do not describe how you sit or hang — they mean 'wait patiently'.</dd></dl>
+<p>Tight has 2 distinct senses.</p>
+<p><strong>1. Firmly; closely, so there is no space or movement.</strong> (крепко, плотно)</p>
+<ol><li>Hold on <em>tight</em> — the road gets bumpy.</li><li>He squeezed her hand <em>tighter</em>.</li><li>Good night, sleep <em>tight</em>!</li></ol>
+<p><strong>2. Without moving or acting; patiently, in <em>sit tight</em> and <em>hang tight</em>.</strong> (подождать, потерпеть)</p>
+<ol start="4"><li>Sit <em>tight</em> — the doctor will be with you in a minute.</li><li>Hang <em>tight</em>, we're almost there.</li></ol>
+<hr>
+<h3 id="cheap">cheap<a class="hash" href="#cheap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃiːp/ &middot; <em>CHEEP</em></dd><dt>Русский</dt><dd>дёшево</dd><dt>Type</dt><dd>manner</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>-er/-est — <em>cheaper</em>, <em>cheapest</em></dd><dt>Modifies</dt><dd>verbs of buying, selling and getting</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>cheap</em>; the regular adverb is <em>cheaply</em></dd><dt>Contrast</dt><dd>Flat <em>cheap</em> goes only with verbs of buying, selling and getting: <em>buy cheap</em>, <em>sell it cheap</em>, <em>doesn't come cheap</em>. <em>Cheaply</em> describes how something is done and often sounds negative: <em>cheaply made</em> = дёшево и некачественно сделанный.</dd></dl>
+<p>At a low price.</p>
+<ol><li>I got this jacket <em>cheap</em> at a thrift store.</li><li>Good lawyers don't come <em>cheap</em>.</li><li>You can find the same TV <em>cheaper</em> online.</li></ol>
+<hr>
+<h3 id="easy">easy<a class="hash" href="#easy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːzi/ &middot; <em>EE-zee</em></dd><dt>Русский</dt><dd>спокойно; полегче; легко</dd><dt>Type</dt><dd>manner</dd><dt>Position</dt><dd>end — after the verb or its object</dd><dt>Comparison</dt><dd>-er/-est — <em>easier</em>, <em>easiest</em></dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>easy</em>; the regular adverb is <em>easily</em></dd><dt>Contrast</dt><dd>With most verbs use <em>easily</em>: <em>She won easily</em>, not <em>won easy</em>. Flat <em>easy</em> lives in set phrases: <em>take it easy</em>, <em>go easy on</em>, <em>rest easy</em>, <em>easier said than done</em>, <em>easy come, easy go</em>. <em>Take it easy</em> is also a casual American goodbye.</dd></dl>
+<p>Easy has 3 distinct senses.</p>
+<p><strong>1. In a relaxed way, without worry or effort, in <em>take it easy</em>, <em>rest easy</em>, <em>breathe easy</em>.</strong> (спокойно, не напрягаясь)</p>
+<ol><li>The doctor told him to take it <em>easy</em> for a week.</li><li>You can rest <em>easy</em> — the kids are safe.</li><li>Now that the loan is paid off, we can breathe <em>easier</em>.</li></ol>
+<p><strong>2. Gently; not too strictly or heavily, in <em>go easy on</em>.</strong> (помягче; поменьше)</p>
+<ol start="4"><li>Go <em>easy</em> on him — it's his first day.</li><li>Go <em>easy</em> on the salt.</li></ol>
+<p><strong>3. Without difficulty, informal.</strong> (легко)</p>
+<ol start="6"><li>That's <em>easier</em> said than done.</li><li>Money never came <em>easy</em> for their family.</li><li><em>Easy</em> come, <em>easy</em> go.</li></ol>
+<hr>
+<h3 id="clean">clean<a class="hash" href="#clean" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kliːn/ &middot; <em>KLEEN</em></dd><dt>Русский</dt><dd>совсем, начисто; честно</dd><dt>Type</dt><dd>degree — completely (<em>clean through</em>); also manner (<em>play clean</em>)</dd><dt>Position</dt><dd>before its word — <em>clean through</em>, <em>clean forgot</em>; end in <em>play clean</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>prepositions and particles (<em>through</em>, <em>off</em>); verbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>clean</em></dd><dt>Contrast</dt><dd>Flat <em>clean</em> before a preposition means 'completely': <em>clean through</em>, <em>clean off</em>. <em>Cleanly</em> (group 3) means 'neatly, without mess': <em>The bone broke cleanly</em>. In <em>wipe the table clean</em> the word is an adjective — it describes the table after wiping.</dd></dl>
+<p>Clean has 3 distinct senses.</p>
+<p><strong>1. Completely; all the way, informal, before <em>through</em>, <em>off</em>, <em>out of</em>.</strong> (совсем, начисто, насквозь)</p>
+<ol><li>The bullet went <em>clean</em> through the door.</li><li>The branch snapped <em>clean</em> off.</li><li>I <em>clean</em> forgot about your birthday.</li></ol>
+<p><strong>2. Fairly; by the rules.</strong> (честно, по правилам)</p>
+<ol start="4"><li>Both teams played <em>clean</em> all season.</li><li>The old boxer always fought <em>clean</em>.</li></ol>
+<p><strong>3. Honestly, admitting what you had hidden, in <em>come clean</em>.</strong> (признаться, во всём сознаться)</p>
+<ol start="6"><li>He finally came <em>clean</em> about the money.</li><li>It's time to come <em>clean</em> with your parents.</li></ol>
+<hr>
+<h3 id="clear">clear<a class="hash" href="#clear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɪr/ &middot; <em>KLEER</em></dd><dt>Русский</dt><dd>в сторону; до самого</dd><dt>Type</dt><dd>place — away (<em>stand clear</em>); also degree (<em>clear across town</em>) and manner (<em>loud and clear</em>)</dd><dt>Position</dt><dd>end — <em>stand clear</em>; before its word in <em>clear across town</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; <em>of</em> phrases; place phrases (<em>clear across</em>)</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>clear</em></dd><dt>Contrast</dt><dd><em>Clearly</em> means 'obviously' or 'distinctly': <em>Clearly, he's lying</em>; <em>speak clearly</em> (group 3). Flat <em>clear</em> means 'away from' (<em>stand clear of the doors</em>) or, informally, 'all the way' (<em>clear across town</em>). <em>Steer clear of</em> = избегать, держаться подальше.</dd></dl>
+<p>Clear has 3 distinct senses.</p>
+<p><strong>1. Away from something; out of the way, not touching.</strong> (в сторону, подальше)</p>
+<ol><li>Stand <em>clear</em> of the closing doors.</li><li>The driver jumped <em>clear</em> just before the crash.</li><li>I'd steer <em>clear</em> of that neighborhood at night.</li></ol>
+<p><strong>2. All the way; completely, informal.</strong> (аж, до самого)</p>
+<ol start="4"><li>She drove <em>clear</em> across town to pick me up.</li><li>On a good day you can see <em>clear</em> to the mountains.</li></ol>
+<p><strong>3. Clearly; distinctly, in <em>loud and clear</em>.</strong> (ясно, чётко)</p>
+<ol start="6"><li>I hear you loud and <em>clear</em>.</li><li>The message came through loud and <em>clear</em>: no more overtime.</li></ol>
+<hr>
+<h3 id="dead">dead<a class="hash" href="#dead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɛd/ &middot; <em>DED</em></dd><dt>Русский</dt><dd>совершенно; точно</dd><dt>Type</dt><dd>degree</dd><dt>Position</dt><dd>before its word — <em>dead serious</em>, <em>dead ahead</em>; end in <em>stop dead</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a few adjectives (<em>serious</em>, <em>wrong</em>, <em>tired</em>, <em>certain</em>); place words (<em>ahead</em>, <em>center</em>)</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>dead</em></dd><dt>Contrast</dt><dd>In American English <em>dead</em> intensifies only a few words: <em>dead serious</em>, <em>dead wrong</em>, <em>dead tired</em>, <em>dead certain</em>, <em>dead set against</em>. British <em>dead good</em>, <em>dead easy</em> sound foreign to most Americans. <em>Deadly</em> is mainly an adjective (смертельный); <em>deadly serious</em> is close to <em>dead serious</em>.</dd></dl>
+<p>Dead has 3 distinct senses.</p>
+<p><strong>1. Completely; absolutely, informal, before an adjective.</strong> (совершенно, абсолютно)</p>
+<ol><li>I'm <em>dead</em> serious — don't touch that.</li><li>The experts were <em>dead</em> wrong about the election.</li><li>By Friday night I was <em>dead</em> tired.</li></ol>
+<p><strong>2. Exactly; directly.</strong> (точно, прямо)</p>
+<ol start="4"><li>There's a truck <em>dead</em> ahead.</li><li>The arrow hit <em>dead</em> center.</li><li>Your guess was <em>dead</em> on.</li></ol>
+<p><strong>3. Suddenly and completely, in <em>stop dead</em>.</strong> (как вкопанный, резко)</p>
+<ol start="7"><li>The deer stopped <em>dead</em> in the road.</li><li>She stopped <em>dead</em> in her tracks when she saw him.</li></ol>
+<hr>
+<h3 id="first">first<a class="hash" href="#first" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɜːrst/ &middot; <em>FURST</em></dd><dt>Русский</dt><dd>сначала; первым; впервые</dd><dt>Type</dt><dd>time; also linking (<em>First, …</em>)</dd><dt>Position</dt><dd>front or end — <em>First, …</em>; <em>finish first</em>; mid in <em>when we first met</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; clauses</dd><dt>Form</dt><dd>flat — the same form as the ordinal and adjective <em>first</em></dd><dt>Contrast</dt><dd><em>At first</em> means 'at the beginning, before things changed' (поначалу): <em>At first I hated the city, but now I love it</em>. <em>First</em> means 'before anything else' or introduces the first point (сначала, во-первых): <em>First, read the instructions</em>. American English prefers <em>first</em> to <em>firstly</em> (group 3) in lists. <em>First of all</em> = прежде всего.</dd></dl>
+<p>First has 4 distinct senses.</p>
+<p><strong>1. Before doing anything else.</strong> (сначала, сперва; во-первых)</p>
+<ol><li>Wash your hands <em>first</em>.</li><li><em>First</em>, preheat the oven to 350 degrees.</li><li>Let me finish my coffee <em>first</em>.</li></ol>
+<p><strong>2. Before all others in order, time or importance.</strong> (первым, на первом месте)</p>
+<ol start="4"><li>She crossed the finish line <em>first</em>.</li><li>You go <em>first</em> — I'll wait.</li><li>Safety always comes <em>first</em>.</li></ol>
+<p><strong>3. For the first time.</strong> (впервые)</p>
+<ol start="7"><li>I <em>first</em> met my wife in college.</li><li>When did you <em>first</em> notice the pain?</li><li>The song was <em>first</em> recorded in 1965.</li></ol>
+<p><strong>4. Rather; in preference, in refusals.</strong> (скорее (…, чем))</p>
+<ol start="10"><li>Apologize to him? I'd quit <em>first</em>.</li><li>Borrow money from him? I'd sleep in my car <em>first</em>.</li></ol>
+<hr>
+<h3 id="last">last<a class="hash" href="#last" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læst/ &middot; <em>LAST</em></dd><dt>Русский</dt><dd>последним; в последний раз</dd><dt>Type</dt><dd>time; also linking (<em>Last, …</em>)</dd><dt>Position</dt><dd>end — <em>came last</em>; mid in <em>I last saw</em>; front in <em>Last, …</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; clauses</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>last</em></dd><dt>Contrast</dt><dd><em>At last</em> means 'finally, after a long wait' (наконец-то): <em>At last we're home!</em> Bare <em>last</em> means 'after everyone else' (последним) or 'the most recent time' (в последний раз). <em>Lastly</em> (group 3) introduces the final point, like <em>last</em>. Russian <em>последний раз</em> is <em>the last time</em> or mid-position <em>last</em>: <em>When did you last see him?</em></dd></dl>
+<p>Last has 3 distinct senses.</p>
+<p><strong>1. After all others in order or time.</strong> (последним, в последнюю очередь)</p>
+<ol><li>Our team finished <em>last</em> again.</li><li>Add the cheese <em>last</em> so it doesn't burn.</li><li>He always arrives first and leaves <em>last</em>.</li></ol>
+<p><strong>2. Most recently; on the latest occasion.</strong> (в последний раз)</p>
+<ol start="4"><li>When did you <em>last</em> see your wallet?</li><li>I <em>last</em> spoke to her in March.</li><li>The bridge was <em>last</em> repaired in 1998.</li></ol>
+<p><strong>3. Finally, as the last point in a list.</strong> (наконец, в заключение)</p>
+<ol start="7"><li><em>Last</em>, I want to thank my parents.</li><li>And <em>last</em> but not least, our wonderful volunteers.</li></ol>
+<hr>
+<h3 id="even">even<a class="hash" href="#even" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːvən/ &middot; <em>EE-vuhn</em></dd><dt>Русский</dt><dd>даже; ещё (более)</dd><dt>Type</dt><dd>focusing; also degree (<em>even better</em>) and linking (<em>even so</em>)</dd><dt>Position</dt><dd>before its word — the word it focuses on; mid in <em>He didn't even call</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>any word or phrase it focuses on; comparatives</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>even</em> (ровный), with a different meaning</dd><dt>Contrast</dt><dd>Position changes the meaning: <em>Even Tom laughed</em> (даже Том засмеялся) vs <em>Tom even laughed</em> (Том даже засмеялся). With a comparative, Russian <em>ещё</em> is <em>even</em>, not <em>more</em>: <em>even better</em>, never <em>more better</em>. <em>Even if</em> (даже если) and <em>even though</em> (хотя) are conjunctions, and Russian speakers mix them: <em>Even though it rained, we went</em> — it did rain. <em>Evenly</em> (group 3) means 'equally, smoothly'.</dd></dl>
+<p>Even has 3 distinct senses.</p>
+<p><strong>1. Used to show that something is surprising or more than expected.</strong> (даже)</p>
+<ol><li><em>Even</em> a child could do this.</li><li>He didn't <em>even</em> say goodbye.</li><li>The restaurant was full, <em>even</em> on a Monday.</li></ol>
+<p><strong>2. Still more, before a comparative.</strong> (ещё (более))</p>
+<ol start="4"><li>The second movie was <em>even</em> better than the first.</li><li>It's going to get <em>even</em> colder tonight.</li></ol>
+<p><strong>3. In spite of that, in <em>even so</em>.</strong> (и всё же, тем не менее)</p>
+<ol start="6"><li>The hotel was expensive. <em>Even</em> so, we'd stay there again.</li><li>It's a long shot. <em>Even</em> so, it's worth a try.</li></ol>
+<hr>
+<h3 id="pretty">pretty<a class="hash" href="#pretty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪti/ &middot; <em>PRIT-ee</em></dd><dt>Русский</dt><dd>довольно; почти</dd><dt>Type</dt><dd>degree</dd><dt>Position</dt><dd>before its word — adjectives and adverbs</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, adverbs; <em>much</em>, <em>well</em></dd><dt>Form</dt><dd>flat — the same form as the adjective <em>pretty</em> (красивый), but unrelated in meaning</dd><dt>Contrast</dt><dd>The adverb has nothing to do with beauty: <em>pretty ugly</em> = довольно уродливый. It is weaker than <em>very</em> and very common in American speech, less so in formal writing. <em>Pretty good</em> often means only 'OK'. <em>Prettily</em> (group 3) means 'in a pretty way'.</dd></dl>
+<p>Pretty has 3 distinct senses.</p>
+<p><strong>1. Fairly; rather; quite.</strong> (довольно, вполне)</p>
+<ol><li>The movie was <em>pretty</em> good.</li><li>I'm <em>pretty</em> sure I locked the door.</li><li>She speaks Spanish <em>pretty</em> well.</li></ol>
+<p><strong>2. Almost; nearly, in <em>pretty much</em> and <em>pretty well</em>.</strong> (почти, практически)</p>
+<ol start="4"><li>I'm <em>pretty</em> much done with the project.</li><li>That's <em>pretty</em> much all I know.</li><li>The storm <em>pretty</em> well destroyed the barn.</li></ol>
+<p><strong>3. In a good or comfortable position, in <em>sitting pretty</em>.</strong> (в выгодном положении)</p>
+<ol start="7"><li>With two job offers, she's sitting <em>pretty</em>.</li><li>If the stock keeps rising, we'll be sitting <em>pretty</em>.</li></ol>
+<hr>
+<h3 id="just">just<a class="hash" href="#just" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒʌst/ &middot; <em>JUHST</em></dd><dt>Русский</dt><dd>только; только что; как раз; едва</dd><dt>Type</dt><dd>focusing; also time (<em>just left</em>) and degree (<em>just in time</em>)</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em> and the first auxiliary; before its word in <em>just a minute</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, nouns, adjectives, adverbs, phrases</dd><dt>Form</dt><dd>same spelling as the adjective <em>just</em> (справедливый), but a different word</dd><dt>Contrast</dt><dd>American English uses <em>just</em> with the simple past as easily as with the present perfect: <em>I just ate</em> and <em>I've just eaten</em> are both correct. <em>Just now</em> means 'a moment ago' — for Russian <em>прямо сейчас</em> say <em>right now</em>. <em>Justly</em> (group 3) means 'fairly' and comes from the adjective, not from this adverb.</dd></dl>
+<p>Just has 8 distinct senses.</p>
+<p><strong>1. Only; simply; no more than.</strong> (только, просто, всего лишь)</p>
+<ol><li>It's <em>just</em> a game — relax.</li><li>I <em>just</em> want to sleep.</li><li><em>Just</em> a minute, please.</li></ol>
+<p><strong>2. A moment ago; very recently.</strong> (только что)</p>
+<ol start="4"><li>I <em>just</em> got home.</li><li>She's <em>just</em> left the office.</li><li>We <em>just</em> now heard the news.</li></ol>
+<p><strong>3. Exactly.</strong> (как раз, именно, точно)</p>
+<ol start="7"><li>That's <em>just</em> what I needed.</li><li>He looks <em>just</em> like his father.</li><li>The soup is <em>just</em> right.</li></ol>
+<p><strong>4. Barely; by a very small amount.</strong> (едва, еле-еле, чуть)</p>
+<ol start="10"><li>We got to the station <em>just</em> in time.</li><li>I <em>just</em> missed the bus.</li><li>The box <em>just</em> barely fit in the trunk.</li></ol>
+<p><strong>5. Really; absolutely, for emphasis.</strong> (просто, ну просто)</p>
+<ol start="13"><li>The view was <em>just</em> amazing.</li><li><em>Just</em> listen to me for a second!</li><li>I <em>just</em> love this song.</li></ol>
+<p><strong>6. At this very moment; about to happen.</strong> (как раз (сейчас), вот-вот)</p>
+<ol start="16"><li>I was <em>just</em> about to call you.</li><li>Dinner's <em>just</em> coming out of the oven.</li></ol>
+<p><strong>7. Almost, in <em>just about</em>.</strong> (почти)</p>
+<ol start="18"><li><em>Just</em> about everyone came to the party.</li><li>I'm <em>just</em> about ready.</li></ol>
+<p><strong>8. Possibly; perhaps, with <em>might</em>, <em>may</em> or <em>could</em>.</strong> (а вдруг, вполне может)</p>
+<ol start="20"><li>This crazy plan might <em>just</em> work.</li><li>You may <em>just</em> be right.</li></ol>
+<hr>
+<h3 id="sharp">sharp<a class="hash" href="#sharp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɑːrp/ &middot; <em>SHAHRP</em></dd><dt>Русский</dt><dd>ровно; резко</dd><dt>Type</dt><dd>time; also direction (<em>turn sharp left</em>) and manner (<em>sing sharp</em>)</dd><dt>Position</dt><dd>after its word — <em>at six sharp</em>; before <em>left</em> or <em>right</em>; end in <em>sing sharp</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clock times; <em>left</em>, <em>right</em>; verbs of singing and playing</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>sharp</em></dd><dt>Contrast</dt><dd>Flat <em>sharp</em> has three narrow uses: clock time (<em>at six sharp</em>), turning (<em>turn sharp left</em>) and music (<em>sing sharp</em>). For 'suddenly, by a lot' or 'harshly' use <em>sharply</em>: <em>Prices rose sharply</em>; <em>she spoke sharply</em> (group 3). <em>Look sharp</em> is British for 'hurry up'; in American English <em>You look sharp</em> is the adjective — you look stylish.</dd></dl>
+<p>Sharp has 3 distinct senses.</p>
+<p><strong>1. Exactly, after a clock time.</strong> (ровно)</p>
+<ol><li>The meeting starts at nine <em>sharp</em>.</li><li>Be here at noon <em>sharp</em> or we leave without you.</li><li>The store opens at 8 a.m. <em>sharp</em>.</li></ol>
+<p><strong>2. Suddenly and at a steep angle, of turning.</strong> (резко, круто)</p>
+<ol start="4"><li>Turn <em>sharp</em> left after the bridge.</li><li>The trail bends <em>sharp</em> right at the creek.</li></ol>
+<p><strong>3. Above the correct pitch, in music.</strong> (выше тона, завышая)</p>
+<ol start="6"><li>The violins were playing slightly <em>sharp</em>.</li><li>He tends to sing <em>sharp</em> when he's nervous.</li></ol>
+<hr>
+<h3 id="flat">flat<a class="hash" href="#flat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flæt/ &middot; <em>FLAT</em></dd><dt>Русский</dt><dd>плашмя; ровно; наотрез</dd><dt>Type</dt><dd>manner; also degree (<em>flat broke</em>) and time (<em>ten seconds flat</em>)</dd><dt>Position</dt><dd>end — after the verb or a time phrase; before its word in <em>flat broke</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; time phrases; <em>broke</em>, <em>out</em></dd><dt>Form</dt><dd>flat — the same form as the adjective <em>flat</em></dd><dt>Contrast</dt><dd>Flat <em>flat</em> follows the verb: <em>turned me down flat</em>, <em>lie flat</em>. <em>Flatly</em> goes before the verb and is used for refusing, denying and speaking without emotion: <em>He flatly refused</em> (group 3). <em>Flat out</em> is informal American for 'completely, openly' (<em>He flat out lied</em>) or 'at top speed' (<em>working flat out</em>).</dd></dl>
+<p>Flat has 5 distinct senses.</p>
+<p><strong>1. In a level, horizontal position.</strong> (плашмя, ровно)</p>
+<ol><li>Lie <em>flat</em> on your back and relax.</li><li>Store the posters <em>flat</em>, not rolled.</li><li>He fell <em>flat</em> on his face.</li></ol>
+<p><strong>2. Exactly; no more, after a length of time.</strong> (ровно, всего за)</p>
+<ol start="4"><li>She ran the mile in five minutes <em>flat</em>.</li><li>The crew changed the tires in ten seconds <em>flat</em>.</li></ol>
+<p><strong>3. Completely; directly and firmly.</strong> (совсем; наотрез)</p>
+<ol start="6"><li>I'm <em>flat</em> broke until payday.</li><li>She turned him down <em>flat</em>.</li><li>He <em>flat</em> out lied to me.</li></ol>
+<p><strong>4. Without the effect intended, in <em>fall flat</em>.</strong> (провалиться, не произвести впечатления)</p>
+<ol start="9"><li>His jokes fell <em>flat</em> with the audience.</li><li>The new ad campaign fell <em>flat</em>.</li></ol>
+<p><strong>5. Below the correct pitch, in music.</strong> (ниже тона, занижая)</p>
+<ol start="11"><li>She sang a little <em>flat</em> on the high notes.</li><li>The trumpets came in <em>flat</em> in the second verse.</li></ol>
+<hr>
+<h3 id="full">full<a class="hash" href="#full" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fʊl/ &middot; <em>FUUL</em></dd><dt>Русский</dt><dd>прекрасно; прямо</dd><dt>Type</dt><dd>degree; also manner (<em>full in the face</em>)</dd><dt>Position</dt><dd>before its word — <em>full well</em>; end in <em>hit him full in the face</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd><em>well</em>; <em>in the face</em>, <em>in the eye</em></dd><dt>Form</dt><dd>flat — the same form as the adjective <em>full</em></dd><dt>Contrast</dt><dd>The everyday adverb is <em>fully</em>: <em>fully booked</em>, <em>I fully agree</em> — never <em>I full agree</em> (group 3). Flat <em>full</em> survives only in a few fixed phrases: <em>know full well</em>, <em>full in the face</em>. <em>I'm full</em> (я наелся) is the adjective.</dd></dl>
+<p>Full has 2 distinct senses.</p>
+<p><strong>1. Very well; perfectly, in <em>full well</em>.</strong> (прекрасно, отлично (знать))</p>
+<ol><li>You know <em>full</em> well what I mean.</li><li>She knew <em>full</em> well that the check would bounce.</li></ol>
+<p><strong>2. Directly; squarely.</strong> (прямо)</p>
+<ol start="3"><li>The ball hit him <em>full</em> in the face.</li><li>She looked him <em>full</em> in the eye and said no.</li></ol>
+<hr>
+<h3 id="alike">alike<a class="hash" href="#alike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlaɪk/ &middot; <em>uh-LYK</em></dd><dt>Русский</dt><dd>одинаково; как…, так и</dd><dt>Type</dt><dd>manner; also focusing (<em>young and old alike</em>)</dd><dt>Position</dt><dd>end — after the verb, or after a pair of nouns</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; pairs of nouns (<em>kids and adults alike</em>)</dd><dt>Form</dt><dd>a- word — like <em>alone</em> and <em>asleep</em>, never used before a noun</dd><dt>Contrast</dt><dd><em>Alike</em> never stands before a noun: <em>similar houses</em>, not <em>alike houses</em>. After <em>look</em> or <em>be</em> it is the adjective: <em>The twins look alike</em>. Compare <em>like</em>, a preposition that needs an object: <em>She looks like her mother</em>, but <em>She and her mother look alike</em>.</dd></dl>
+<p>Alike has 2 distinct senses.</p>
+<p><strong>1. In the same or a very similar way.</strong> (одинаково)</p>
+<ol><li>The twins always dress <em>alike</em>.</li><li>Great minds think <em>alike</em>.</li><li>The teacher treats all her students <em>alike</em>.</li></ol>
+<p><strong>2. Equally; both, after two or more nouns.</strong> (как…, так и; в равной мере)</p>
+<ol start="4"><li>The show is popular with kids and adults <em>alike</em>.</li><li>Rich and poor <em>alike</em> were hit by the recession.</li></ol>
+<hr>
+<h3 id="alone">alone<a class="hash" href="#alone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈloʊn/ &middot; <em>uh-LOHN</em></dd><dt>Русский</dt><dd>один, в одиночку; только</dd><dt>Type</dt><dd>manner; also focusing (<em>you alone</em>)</dd><dt>Position</dt><dd>end — <em>live alone</em>; after its word in <em>you alone</em>, <em>money alone</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; nouns and pronouns (<em>money alone</em>)</dd><dt>Form</dt><dd>a- word — never used before a noun (<em>a lone rider</em>, <em>a lonely house</em>)</dd><dt>Contrast</dt><dd><em>Alone</em> means 'without other people' with no feeling attached; <em>lonely</em> is an adjective meaning 'sad because you are alone': <em>I live alone, but I'm not lonely</em>. <em>Leave me alone</em> = оставь меня в покое. <em>Let alone</em> (не говоря уже о) links two phrases: <em>He can't boil an egg, let alone cook dinner</em>.</dd></dl>
+<p>Alone has 2 distinct senses.</p>
+<p><strong>1. Without other people.</strong> (один, в одиночку)</p>
+<ol><li>She has lived <em>alone</em> since her husband died.</li><li>I don't like walking home <em>alone</em> at night.</li><li>You shouldn't try to move that couch <em>alone</em>.</li></ol>
+<p><strong>2. Only; and nobody or nothing else, after a noun or pronoun.</strong> (только, лишь; одно только)</p>
+<ol start="4"><li>You <em>alone</em> can make that decision.</li><li>Money <em>alone</em> won't solve the problem.</li><li>In July <em>alone</em>, the company hired 300 people.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

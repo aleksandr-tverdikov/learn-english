@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Degree adverbs that turn it up</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="degree-adverbs-that-turn-it-up">Degree adverbs that turn it up<a class="hash" href="#degree-adverbs-that-turn-it-up" aria-label="link">#</a></h1>
+<blockquote><p>How much? — <em>very</em>, <em>really</em>, <em>so</em>, <em>too</em>, <em>quite</em>, <em>extremely</em>, <em>totally</em>, <em>absolutely</em> and the other intensifiers.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Intensifiers strengthen an adjective, an adverb or a verb. The key distinction is gradable versus extreme: <em>very</em> goes with gradable adjectives (<em>very cold</em>) and <em>absolutely</em> with extreme ones (<em>absolutely freezing</em>), and mixing them (<em>very freezing</em>, <em>absolutely cold</em>) sounds wrong to a native ear. <em>Too</em> means <em>more than is wanted</em>, not <em>very</em> — <em>too expensive</em> is a complaint. And <em>quite</em> means <em>very</em> in American English but often only <em>fairly</em> in British English.</p>
+<hr>
+<h3 id="very">very<a class="hash" href="#very" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɛri/ &middot; <em>VAIR-ee</em></dd><dt>Русский</dt><dd>очень</dd><dt>Type</dt><dd>degree — the basic intensifier for gradable adjectives and adverbs</dd><dt>Position</dt><dd>before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>gradable adjectives and adverbs, <em>much</em> and <em>many</em>, superlatives and <em>own</em></dd><dt>Contrast</dt><dd><em>Very</em> cannot modify a verb: say <em>I like it very much</em> or <em>I really like it</em>, never <em>I very like it</em> (Russian <em>очень нравится</em>). It does not go with extreme adjectives either — <em>absolutely freezing</em>, not <em>very freezing</em> — or before a comparative: <em>much better</em>, not <em>very better</em>. With verb-like past participles English uses <em>much</em> or <em>greatly</em>: <em>much appreciated</em>, not <em>very appreciated</em> (but <em>very interested</em> and <em>very tired</em> are fine). <em>Not very</em> is a polite way of saying the opposite: <em>not very good</em> means fairly bad. In <em>at the very end</em> and <em>this very moment</em>, <em>very</em> is an adjective meaning <em>exactly this</em>.</dd></dl>
+<p>Very has 2 distinct senses.</p>
+<p><strong>1. To a high degree; extremely.</strong> (очень)</p>
+<ol><li>It's <em>very</em> cold outside today.</li><li>She speaks English <em>very</em> well.</li><li>Thank you <em>very</em> much for coming.</li></ol>
+<p><strong>2. Used to stress a superlative or the words own, same, next, first and last.</strong> (самый; же (на следующий же день))</p>
+<ol start="4"><li>This is the <em>very</em> best pizza in town.</li><li>She finally has her <em>very</em> own room.</li><li>He called me back the <em>very</em> next day.</li></ol>
+<hr>
+<h3 id="really">really<a class="hash" href="#really" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːəli/ &middot; <em>REE-uh-lee</em></dd><dt>Русский</dt><dd>очень; действительно, на самом деле</dd><dt>Type</dt><dd>degree — the everyday spoken intensifier; also stance (<em>in fact</em>)</dd><dt>Position</dt><dd>mid — before the main verb (<em>I really like it</em>), and before its word with adjectives (<em>really good</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, adverbs, verbs, and whole statements</dd><dt>Form</dt><dd>-ly from <em>real</em></dd><dt>Contrast</dt><dd>Where <em>really</em> goes changes the meaning: <em>I really don't like him</em> is strong dislike, while <em>I don't really like him</em> is a mild <em>не особо</em>. Unlike <em>very</em>, <em>really</em> can modify a verb: <em>I really want to go</em>. <em>Really?</em> said alone as a reply (<em>Правда?</em>) works as an interjection. In casual American speech <em>real</em> replaces it before adjectives (<em>real good</em>), but not in writing.</dd></dl>
+<p>Really has 4 distinct senses.</p>
+<p><strong>1. Very; very much — adding force to an adjective, an adverb or a verb.</strong> (очень, правда)</p>
+<ol><li>That was a <em>really</em> good movie.</li><li>She drives <em>really</em> fast.</li><li>I <em>really</em> like your new haircut.</li></ol>
+<p><strong>2. In fact; in reality, as opposed to what seems true.</strong> (на самом деле, в действительности)</p>
+<ol start="4"><li>What <em>really</em> happened that night?</li><li>He looks forty, but he's <em>really</em> almost sixty.</li><li>Nobody <em>really</em> believed her story.</li></ol>
+<p><strong>3. With not: not much or not exactly — a soft way of saying no.</strong> (не особо, не совсем)</p>
+<ol start="7"><li>“Are you hungry?” “Not <em>really</em>.”</li><li>I don't <em>really</em> understand how it works.</li><li>It's not <em>really</em> my kind of music.</li></ol>
+<p><strong>4. Used to add force to a protest, reassurance or apology; honestly.</strong> (право, честное слово, ну правда)</p>
+<ol start="10"><li>It's no trouble at all, <em>really</em>.</li><li><em>Really</em>, Tom, you could have called first.</li></ol>
+<hr>
+<h3 id="extremely">extremely<a class="hash" href="#extremely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstriːmli/ &middot; <em>ik-STREEM-lee</em></dd><dt>Русский</dt><dd>крайне, чрезвычайно</dd><dt>Type</dt><dd>degree — a strong intensifier for gradable adjectives and adverbs</dd><dt>Position</dt><dd>before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>gradable adjectives and adverbs</dd><dt>Form</dt><dd>-ly from <em>extreme</em></dd><dt>Contrast</dt><dd>Like <em>very</em>, <em>extremely</em> goes with gradable words (<em>extremely cold</em>, <em>extremely difficult</em>), not with extreme ones: <em>absolutely freezing</em>, <em>absolutely perfect</em>, not <em>extremely freezing</em> or <em>extremely perfect</em>. It does not modify a verb on its own: <em>I liked it very much</em>, not <em>I extremely liked it</em>. It is more formal than <em>really</em> or <em>so</em>.</dd></dl>
+<p>To a very high degree; very.</p>
+<ol><li>The test was <em>extremely</em> difficult.</li><li>He was <em>extremely</em> lucky to survive the crash.</li><li>She handled the situation <em>extremely</em> well.</li></ol>
+<hr>
+<h3 id="incredibly">incredibly<a class="hash" href="#incredibly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈkrɛdəbli/ &middot; <em>in-KRED-uh-blee</em></dd><dt>Русский</dt><dd>невероятно</dd><dt>Type</dt><dd>degree — a strong intensifier; also stance, as a sentence adverb</dd><dt>Position</dt><dd>before its word — front when it comments on the whole sentence</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, adverbs, and whole sentences</dd><dt>Form</dt><dd>-ly from <em>incredible</em></dd><dt>Contrast</dt><dd>Before an adjective <em>incredibly</em> just means <em>very, very</em> (<em>incredibly tired</em>) and says nothing about belief. At the front of a sentence, with a comma, it means <em>it is hard to believe that</em>: <em>Incredibly, he won</em> is <em>как ни удивительно, он победил</em>.</dd></dl>
+<p>Incredibly has 2 distinct senses.</p>
+<p><strong>1. Extremely; to a very great degree.</strong> (невероятно, чрезвычайно)</p>
+<ol><li>The view from the top was <em>incredibly</em> beautiful.</li><li>I'm <em>incredibly</em> grateful for your help.</li><li>She works <em>incredibly</em> hard.</li></ol>
+<p><strong>2. In a way that is hard to believe — commenting on a whole fact.</strong> (как ни удивительно, невероятно, но)</p>
+<ol start="4"><li><em>Incredibly</em>, nobody was hurt in the fire.</li><li><em>Incredibly</em>, the old car still runs.</li></ol>
+<hr>
+<h3 id="terribly">terribly<a class="hash" href="#terribly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛrəbli/ &middot; <em>TAIR-uh-blee</em></dd><dt>Русский</dt><dd>ужасно, очень</dd><dt>Type</dt><dd>degree — an intensifier; also manner (<em>very badly</em>)</dd><dt>Position</dt><dd>before its word — for <em>very</em>; end for <em>very badly</em> (<em>played terribly</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, adverbs, and verbs of feeling (<em>miss</em>, <em>suffer</em>)</dd><dt>Form</dt><dd>-ly from <em>terrible</em></dd><dt>Contrast</dt><dd>Position shows the meaning. Before an adjective <em>terribly</em> only means <em>very</em>, even about good things: <em>terribly kind</em>, <em>terribly important</em>. After a verb it means <em>very badly</em>: <em>He sang terribly</em>. <em>Not terribly</em> is a polite <em>not very</em>: <em>not terribly interesting</em> is <em>не особенно интересный</em>. <em>I'm terribly sorry</em> is a set phrase for a strong apology.</dd></dl>
+<p>Terribly has 2 distinct senses.</p>
+<p><strong>1. Very; extremely.</strong> (ужасно, очень)</p>
+<ol><li>I'm <em>terribly</em> sorry to hear about your father.</li><li>The movie wasn't <em>terribly</em> exciting.</li><li>The kids miss you <em>terribly</em>.</li></ol>
+<p><strong>2. Very badly.</strong> (ужасно, отвратительно)</p>
+<ol start="4"><li>Our team played <em>terribly</em> last night.</li><li>I slept <em>terribly</em> last night.</li><li>She treated him <em>terribly</em>.</li></ol>
+<hr>
+<h3 id="awfully">awfully<a class="hash" href="#awfully" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːfəli/ &middot; <em>AW-fuh-lee</em></dd><dt>Русский</dt><dd>ужасно, очень</dd><dt>Type</dt><dd>degree — an informal intensifier; also manner (<em>very badly</em>)</dd><dt>Position</dt><dd>before its word — for <em>very</em>; end for <em>badly</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives and adverbs; verbs in the <em>badly</em> sense</dd><dt>Form</dt><dd>-ly from <em>awful</em></dd><dt>Contrast</dt><dd>Before an adjective <em>awfully</em> means <em>very</em> and carries no bad sense: <em>That's awfully nice of you</em> is a compliment. The meaning <em>badly</em> comes only after a verb, and even there <em>terribly</em> or <em>badly</em> is more usual. In casual American speech <em>awful</em> itself is used this way (<em>awful good</em>), but that is nonstandard in writing.</dd></dl>
+<p>Awfully has 2 distinct senses.</p>
+<p><strong>1. Very; extremely.</strong> (очень, ужасно)</p>
+<ol><li>That's <em>awfully</em> kind of you.</li><li>You're up <em>awfully</em> early.</li><li>It's <em>awfully</em> quiet in here.</li></ol>
+<p><strong>2. Very badly; in an unpleasant way.</strong> (ужасно, скверно)</p>
+<ol start="4"><li>He behaved <em>awfully</em> at the wedding.</li><li>The band played <em>awfully</em> that night.</li></ol>
+<hr>
+<h3 id="so">so<a class="hash" href="#so" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/soʊ/ &middot; <em>SOH</em></dd><dt>Русский</dt><dd>так, настолько, очень</dd><dt>Type</dt><dd>degree — an intensifier; also manner, linking, and a stand-in for a clause (<em>I think so</em>)</dd><dt>Position</dt><dd>before its word — for degree; front in <em>So do I</em>, end in <em>I think so</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, adverbs, <em>much</em> and <em>many</em>, verbs; replaces a whole clause</dd><dt>Contrast</dt><dd><em>So</em> goes before an adjective with no noun; before <em>a</em> + adjective + noun use <em>such</em>: <em>so nice</em>, but <em>such a nice day</em>, not <em>a so nice day</em>. <em>So</em>, not <em>very</em>, starts a result: <em>so tired that I fell asleep</em>. After <em>think</em>, <em>hope</em>, <em>guess</em> and <em>be afraid</em>, English needs <em>so</em> where Russian has <em>так</em> or nothing: <em>I think so</em>, <em>I hope so</em>, never <em>I think it</em>. <em>So do I</em> (with inversion) means <em>и я тоже</em>; for a negative use <em>Neither do I</em>. <em>So it is</em> (no inversion) means <em>and that is true</em>. At the start of a clause (<em>It rained, so we stayed home</em>) and in <em>so that</em> (purpose) it is a conjunction.</dd></dl>
+<p>So has 10 distinct senses.</p>
+<p><strong>1. Very; to a great degree — often emotional or exclamatory.</strong> (так, очень)</p>
+<ol><li>I'm <em>so</em> happy for you!</li><li>Thank you <em>so</em> much.</li><li>Why are you driving <em>so</em> fast?</li></ol>
+<p><strong>2. Used instead of repeating a clause, after verbs like think, hope and say, and in if so.</strong> (так; да (думаю, да))</p>
+<ol start="4"><li>“Will it rain?” “I don't think <em>so</em>.”</li><li>I told you <em>so</em>!</li><li>Are you coming? If <em>so</em>, bring a jacket.</li></ol>
+<p><strong>3. To the degree stated or shown, especially with that for a result, or in only so much.</strong> (настолько, так)</p>
+<ol start="7"><li>She was <em>so</em> tired that she fell asleep at her desk.</li><li>The fish was about <em>so</em> big.</li><li>There's only <em>so</em> much I can do.</li></ol>
+<p><strong>4. Also; in the same way — with inversion: so + auxiliary + subject.</strong> (тоже, так же)</p>
+<ol start="10"><li>“I'm starving.” “<em>So</em> am I.”</li><li>Tom passed the exam, and <em>so</em> did his sister.</li></ol>
+<p><strong>5. Approximately — in or so, after a number or amount.</strong> (примерно, или около того)</p>
+<ol start="12"><li>I'll be back in an hour or <em>so</em>.</li><li>There were twenty or <em>so</em> people at the meeting.</li></ol>
+<p><strong>6. For that reason; therefore — after and.</strong> (поэтому, так что)</p>
+<ol start="14"><li>The store was closed, and <em>so</em> we went home.</li><li>He was sick and <em>so</em> missed the game.</li></ol>
+<p><strong>7. In this way; like this — also in and so on.</strong> (так, таким образом)</p>
+<ol start="16"><li>Hold the bat like <em>so</em>, with your hands together.</li><li>It <em>so</em> happened that we were in town that week.</li><li>Bring pens, paper, tape and <em>so</em> on.</li></ol>
+<p><strong>8. Informal: definitely, completely — before a verb, not, or a noun phrase.</strong> (совершенно, точно)</p>
+<ol start="19"><li>I am <em>so</em> not going to that party.</li><li>That jacket is <em>so</em> last year.</li><li>You are <em>so</em> getting grounded for this.</li></ol>
+<p><strong>9. Used to agree with something you notice or have just been told.</strong> (и правда, действительно)</p>
+<ol start="22"><li>“Look, it's snowing.” “<em>So</em> it is!”</li><li>“The baby's asleep.” “<em>So</em> she is.”</li></ol>
+<p><strong>10. Informal: used to contradict a negative statement.</strong> (ещё как, да)</p>
+<ol start="24"><li>“You didn't clean your room.” “I did <em>so</em>!”</li><li>“You can't swim.” “Can <em>so</em>!”</li></ol>
+<hr>
+<h3 id="too">too<a class="hash" href="#too" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tuː/ &middot; <em>TOO</em></dd><dt>Русский</dt><dd>слишком; тоже</dd><dt>Type</dt><dd>degree — more than is wanted; also focusing (<em>also</em>)</dd><dt>Position</dt><dd>before its word — for <em>more than wanted</em>; end for <em>also</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, adverbs, <em>much</em> and <em>many</em>; a whole clause in the sense <em>also</em></dd><dt>Contrast</dt><dd><em>Too</em> is not <em>very</em>: <em>too expensive</em> means <em>more than I can or want to pay</em> and is a complaint (<em>слишком</em>), while <em>very expensive</em> only describes. Before a noun the order is <em>too big a car</em>, never <em>a too big car</em>; and it is <em>much too hot</em>, not <em>too much hot</em>. In the sense <em>also</em> it ends an affirmative clause (in formal writing it can follow the subject between commas: <em>I, too, was surprised</em>); after a negative use <em>either</em>: <em>I don't like it either</em>, not <em>I don't like it too</em>. Do not confuse it with <em>to</em> and <em>two</em>, which sound the same.</dd></dl>
+<p>Too has 5 distinct senses.</p>
+<p><strong>1. More than is needed, wanted or possible.</strong> (слишком)</p>
+<ol><li>This coffee is <em>too</em> hot to drink.</li><li>You're driving <em>too</em> fast.</li><li>There were <em>too</em> many people at the beach.</li></ol>
+<p><strong>2. Also; as well — at the end of a clause.</strong> (тоже, также)</p>
+<ol start="4"><li>“I love pizza.” “Me <em>too</em>.”</li><li>Bring a jacket, and an umbrella <em>too</em>.</li><li>She speaks French, and German <em>too</em>.</li></ol>
+<p><strong>3. Very — in negatives and in polite set phrases.</strong> (очень, не очень)</p>
+<ol start="7"><li>I'm not <em>too</em> sure about that.</li><li>You're <em>too</em> kind.</li><li>We'd be only <em>too</em> happy to help.</li></ol>
+<p><strong>4. And what is more — adding a surprising or annoying fact.</strong> (к тому же, да ещё)</p>
+<ol start="10"><li>He lost his wallet, and on his birthday <em>too</em>.</li><li>She got a raise, and in her first year <em>too</em>.</li></ol>
+<p><strong>5. Informal: used to contradict a negative statement.</strong> (ещё как, да)</p>
+<ol start="12"><li>“You didn't feed the dog.” “I did <em>too</em>!”</li><li>“That's not true.” “It is <em>too</em>!”</li></ol>
+<hr>
+<h3 id="quite">quite<a class="hash" href="#quite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwaɪt/ &middot; <em>KWYT</em></dd><dt>Русский</dt><dd>довольно, весьма; совсем</dd><dt>Type</dt><dd>degree — an intensifier in American English; also a maximizer (<em>quite right</em>)</dd><dt>Position</dt><dd>before its word — and before <em>a</em> or <em>an</em> (<em>quite a party</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, adverbs, verbs, and <em>a</em> + noun</dd><dt>Contrast</dt><dd>US/UK split: in American English <em>quite good</em> usually means <em>really good</em>; in British English, said flatly, it often means only <em>fairly good</em> — remember this when reading British texts. With words that cannot be graded (<em>right</em>, <em>sure</em>, <em>finished</em>) it means <em>completely</em> in both. <em>Not quite</em> means <em>not completely</em> (<em>не совсем</em>), not <em>not at all</em>. The word order is <em>quite a big house</em>, and the British one-word reply <em>Quite.</em> (<em>именно</em>) is rare in the US. Do not confuse it with <em>quiet</em> (<em>KWY-uht</em>).</dd></dl>
+<p>Quite has 3 distinct senses.</p>
+<p><strong>1. Very; to a considerable degree — also in quite a few and quite a lot.</strong> (довольно, весьма, очень; немало)</p>
+<ol><li>The food there is <em>quite</em> good.</li><li>We waited <em>quite</em> a long time.</li><li><em>Quite</em> a few people left early.</li></ol>
+<p><strong>2. Completely; entirely — with words that cannot be graded, and in not quite.</strong> (совсем, вполне, совершенно)</p>
+<ol start="4"><li>You're <em>quite</em> right.</li><li>I'm not <em>quite</em> ready yet.</li><li>Are you <em>quite</em> sure you want to leave?</li></ol>
+<p><strong>3. Before a, an or the + noun: a remarkable or unusual example of.</strong> (настоящий, что надо, ну и)</p>
+<ol start="7"><li>That was <em>quite</em> a party last night!</li><li>She's <em>quite</em> the cook.</li><li>It's been <em>quite</em> a day.</li></ol>
+<hr>
+<h3 id="totally">totally<a class="hash" href="#totally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊtəli/ &middot; <em>TOH-tuh-lee</em></dd><dt>Русский</dt><dd>полностью, совершенно</dd><dt>Type</dt><dd>degree — a maximizer; also stance (<em>definitely</em>) in informal speech</dd><dt>Position</dt><dd>before its word — also mid, before a verb (<em>I totally forgot</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives and verbs; alone as a reply</dd><dt>Form</dt><dd>-ly from <em>total</em></dd><dt>Contrast</dt><dd>False friend: <em>totally</em> never means <em>в общем, итого</em>. For a sum use <em>in total</em>: <em>In total, we spent $50</em>, not <em>Totally we spent $50</em>. In casual American speech <em>totally</em> is also a strong <em>yes</em> and a plain intensifier (<em>totally awesome</em>); in writing prefer <em>completely</em>.</dd></dl>
+<p>Totally has 2 distinct senses.</p>
+<p><strong>1. Completely; entirely.</strong> (полностью, совершенно)</p>
+<ol><li>The two plans are <em>totally</em> different.</li><li>I <em>totally</em> forgot about the meeting.</li><li>The town was <em>totally</em> destroyed by the storm.</li></ol>
+<p><strong>2. Informal: definitely — used to agree or to add emphasis.</strong> (точно, конечно, ещё как)</p>
+<ol start="4"><li>“That was a great show.” “<em>Totally</em>.”</li><li>I'm <em>totally</em> going to win this time.</li><li>You should <em>totally</em> come with us.</li></ol>
+<hr>
+<h3 id="completely">completely<a class="hash" href="#completely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpliːtli/ &middot; <em>kuhm-PLEET-lee</em></dd><dt>Русский</dt><dd>полностью, совершенно</dd><dt>Type</dt><dd>degree — a maximizer</dd><dt>Position</dt><dd>mid or end — before a verb (<em>I completely forgot</em>) or after it; before its word with adjectives</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>non-gradable adjectives, verbs, and past participles</dd><dt>Form</dt><dd>-ly from <em>complete</em></dd><dt>Contrast</dt><dd>Russian <em>совсем не</em> is <em>not ... at all</em>, not <em>completely not</em>: <em>I don't understand it at all</em>, not <em>I completely don't understand it</em>. <em>Not completely</em> means <em>partly</em>: <em>The work isn't completely finished</em>. Like other maximizers it sounds wrong with gradable adjectives: <em>completely empty</em>, but <em>very tall</em>, not <em>completely tall</em>.</dd></dl>
+<p>To the fullest degree; totally.</p>
+<ol><li>The theater was <em>completely</em> empty.</li><li>I <em>completely</em> forgot your birthday.</li><li>She has recovered <em>completely</em> from the surgery.</li></ol>
+<hr>
+<h3 id="absolutely">absolutely<a class="hash" href="#absolutely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌæbsəˈluːtli/ &middot; <em>ab-suh-LOOT-lee</em></dd><dt>Русский</dt><dd>совершенно, абсолютно; безусловно</dd><dt>Type</dt><dd>degree — a maximizer for extreme and non-gradable adjectives; also stance (<em>Absolutely!</em> as a reply)</dd><dt>Position</dt><dd>before its word — mid before a verb (<em>I absolutely love it</em>); alone as a reply</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>extreme and non-gradable adjectives, verbs, <em>no</em> and <em>nothing</em>; alone as a reply</dd><dt>Form</dt><dd>-ly from <em>absolute</em></dd><dt>Contrast</dt><dd>The gradable/extreme split: <em>absolutely</em> goes with extreme or yes-or-no words — <em>absolutely freezing</em>, <em>absolutely exhausted</em>, <em>absolutely right</em> — and sounds wrong with plain gradable ones: <em>very cold</em>, not <em>absolutely cold</em>. A few strong positive words take both (<em>absolutely beautiful</em>). As a one-word reply <em>Absolutely</em> is a warm <em>yes</em>, and <em>Absolutely not</em> is a firm <em>no</em>.</dd></dl>
+<p>Absolutely has 3 distinct senses.</p>
+<p><strong>1. Completely; totally.</strong> (совершенно, абсолютно)</p>
+<ol><li>I'm <em>absolutely</em> exhausted.</li><li>You're <em>absolutely</em> right.</li><li>There's <em>absolutely</em> nothing to eat in this house.</li></ol>
+<p><strong>2. Without any doubt — used to add strong emphasis to a verb or statement.</strong> (обязательно, безусловно, определённо)</p>
+<ol start="4"><li>You <em>absolutely</em> have to see this movie.</li><li>I <em>absolutely</em> love your new apartment.</li><li>It was <em>absolutely</em> the best meal I've ever had.</li></ol>
+<p><strong>3. Used alone as a reply: yes, certainly — or, with not, certainly not.</strong> (конечно, безусловно; ни в коем случае)</p>
+<ol start="7"><li>“Can I borrow your pen?” “<em>Absolutely</em>.”</li><li>“Should we give up?” “<em>Absolutely</em> not.”</li></ol>
+<hr>
+<h3 id="utterly">utterly<a class="hash" href="#utterly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌtərli/ &middot; <em>UH-tur-lee</em></dd><dt>Русский</dt><dd>совершенно, крайне</dd><dt>Type</dt><dd>degree — a maximizer, mostly for negative ideas</dd><dt>Position</dt><dd>before its word — also end with verbs (<em>failed utterly</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, verbs, and past participles</dd><dt>Form</dt><dd>-ly from the adjective <em>utter</em></dd><dt>Contrast</dt><dd><em>Utterly</em> leans negative: <em>utterly exhausted</em>, <em>utterly ridiculous</em>, <em>failed utterly</em>. With good qualities it is rarer and literary (<em>utterly charming</em>), and like other maximizers it does not fit plain gradable words: not <em>utterly good</em>.</dd></dl>
+<p>Completely; to the highest degree.</p>
+<ol><li>By midnight we were <em>utterly</em> exhausted.</li><li>The idea is <em>utterly</em> ridiculous.</li><li>The plan failed <em>utterly</em>.</li></ol>
+<hr>
+<h3 id="entirely">entirely<a class="hash" href="#entirely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtaɪərli/ &middot; <em>in-TY-ur-lee</em></dd><dt>Русский</dt><dd>полностью, целиком; исключительно</dd><dt>Type</dt><dd>degree — a maximizer; also focusing (<em>only</em>, <em>solely</em>)</dd><dt>Position</dt><dd>before its word — with adjectives; end with verbs (<em>I agree entirely</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, verbs, and phrases (<em>entirely by accident</em>)</dd><dt>Form</dt><dd>-ly from <em>entire</em></dd><dt>Contrast</dt><dd><em>Not entirely</em> is a polite hedge: <em>I'm not entirely sure</em> means <em>I have doubts</em> (<em>не совсем уверен</em>), not <em>I'm not sure at all</em>. With a verb it usually goes at the end (<em>I agree entirely</em>) or just before the verb (<em>I entirely agree</em>).</dd></dl>
+<p>Entirely has 2 distinct senses.</p>
+<p><strong>1. Completely; fully.</strong> (полностью, совершенно)</p>
+<ol><li>The two cases are <em>entirely</em> different.</li><li>I agree with you <em>entirely</em>.</li><li>I'm not <em>entirely</em> sure what she meant.</li></ol>
+<p><strong>2. Only; solely — with no other cause or person involved.</strong> (исключительно, целиком)</p>
+<ol start="4"><li>The decision is <em>entirely</em> up to you.</li><li>The accident was <em>entirely</em> my fault.</li><li>The shelter is run <em>entirely</em> by volunteers.</li></ol>
+<hr>
+<h3 id="thoroughly">thoroughly<a class="hash" href="#thoroughly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɜːroʊli/ &middot; <em>THUR-oh-lee</em></dd><dt>Русский</dt><dd>тщательно; совершенно</dd><dt>Type</dt><dd>degree — a maximizer (<em>thoroughly enjoyed</em>); also manner (<em>carefully and completely</em>)</dd><dt>Position</dt><dd>mid or end — end for <em>carefully</em> (<em>check it thoroughly</em>); mid for degree (<em>I thoroughly enjoyed it</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more thoroughly</em>, <em>most thoroughly</em></dd><dt>Modifies</dt><dd>verbs and past participles; a few adjectives (<em>thoroughly modern</em>)</dd><dt>Form</dt><dd>-ly from <em>thorough</em></dd><dt>Contrast</dt><dd>Spelling trap: <em>thoroughly</em> comes from <em>thorough</em> — keep it apart from <em>through</em> and <em>though</em>. As a degree word it goes with a short list — <em>enjoy</em>, <em>deserve</em>, <em>disgusted</em>, <em>ashamed</em>, <em>modern</em> — and is not a general <em>very</em>: not <em>thoroughly tall</em>.</dd></dl>
+<p>Thoroughly has 2 distinct senses.</p>
+<p><strong>1. Carefully and completely, paying attention to every detail.</strong> (тщательно, досконально)</p>
+<ol><li>Wash the vegetables <em>thoroughly</em> before cooking.</li><li>The new drug was <em>thoroughly</em> tested.</li><li>Police searched the house <em>more thoroughly</em> the second time.</li></ol>
+<p><strong>2. Completely; very much.</strong> (очень, совершенно, от души)</p>
+<ol start="4"><li>We <em>thoroughly</em> enjoyed the concert.</li><li>I was <em>thoroughly</em> disgusted by his behavior.</li><li>She <em>thoroughly</em> deserved the award.</li></ol>
+<hr>
+<h3 id="perfectly">perfectly<a class="hash" href="#perfectly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrfɪktli/ &middot; <em>PUR-fikt-lee</em></dd><dt>Русский</dt><dd>совершенно, вполне; идеально</dd><dt>Type</dt><dd>degree — a maximizer, often insistent; also manner (<em>without fault</em>)</dd><dt>Position</dt><dd>before its word — for degree; end for manner (<em>fits perfectly</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, <em>well</em>, and verbs</dd><dt>Form</dt><dd>-ly from <em>perfect</em></dd><dt>Contrast</dt><dd>As a degree word <em>perfectly</em> often defends something rather than praising it: <em>a perfectly good sandwich</em> is one with nothing wrong with it (<em>вполне нормальный</em>), not an excellent one. <em>You know perfectly well</em> is a reproach (<em>ты прекрасно знаешь</em>). The meaning <em>without any fault</em> comes after the verb: <em>She sang perfectly</em>.</dd></dl>
+<p>Perfectly has 2 distinct senses.</p>
+<p><strong>1. Completely; quite — often used to insist.</strong> (совершенно, вполне)</p>
+<ol><li>It's <em>perfectly</em> normal to feel nervous.</li><li>Don't throw it out; it's <em>perfectly</em> good.</li><li>You know <em>perfectly</em> well what I mean.</li></ol>
+<p><strong>2. In a perfect way; without any mistakes or faults.</strong> (идеально, безупречно, прекрасно)</p>
+<ol start="4"><li>The dress fits <em>perfectly</em>.</li><li>She played the piece <em>perfectly</em>.</li><li>Everything went <em>perfectly</em>.</li></ol>
+<hr>
+<h3 id="remarkably">remarkably<a class="hash" href="#remarkably" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈmɑːrkəbli/ &middot; <em>rih-MAHR-kuh-blee</em></dd><dt>Русский</dt><dd>удивительно, поразительно</dd><dt>Type</dt><dd>degree — an intensifier with surprise; also stance, as a sentence adverb</dd><dt>Position</dt><dd>before its word — front when it comments on the whole sentence</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, adverbs, and whole sentences</dd><dt>Form</dt><dd>-ly from <em>remarkable</em></dd><dt>Contrast</dt><dd>False friend: <em>remarkably</em> is not Russian <em>замечательно</em>. It means <em>surprisingly, unusually</em> (<em>remarkably calm</em>) and is not a reply meaning <em>great</em> — for <em>Замечательно!</em> say <em>Great!</em> or <em>Wonderful!</em> At the front with a comma it comments on the whole fact: <em>Remarkably, no one noticed</em>.</dd></dl>
+<p>Remarkably has 2 distinct senses.</p>
+<p><strong>1. Unusually; to a surprising degree.</strong> (удивительно, необычайно)</p>
+<ol><li>She stayed <em>remarkably</em> calm during the interview.</li><li>The twins look <em>remarkably</em> alike.</li><li>The old house is in <em>remarkably</em> good condition.</li></ol>
+<p><strong>2. Surprisingly — commenting on a whole fact.</strong> (удивительно, но; как ни странно)</p>
+<ol start="4"><li><em>Remarkably</em>, the vase survived the fall.</li><li><em>Remarkably</em>, nobody complained.</li></ol>
+<hr>
+<h3 id="exceptionally">exceptionally<a class="hash" href="#exceptionally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsɛpʃənəli/ &middot; <em>ik-SEP-shuh-nuh-lee</em></dd><dt>Русский</dt><dd>исключительно, необычайно</dd><dt>Type</dt><dd>degree — an intensifier meaning <em>unusually</em></dd><dt>Position</dt><dd>before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives and adverbs</dd><dt>Form</dt><dd>-ly from <em>exceptional</em></dd><dt>Contrast</dt><dd>False friend: Russian <em>исключительно</em> also means <em>only</em>, but <em>exceptionally</em> never does. <em>Исключительно для членов клуба</em> is <em>exclusively for members</em> or <em>only for members</em>, not <em>exceptionally for members</em>. <em>Exceptionally</em> means <em>much more than normal</em>: <em>exceptionally talented</em>. In formal British English it can also mean <em>as an exception</em> (<em>Exceptionally, the office will open on Sunday</em>); American English rarely uses it that way.</dd></dl>
+<p>Unusually; to a degree much greater than normal.</p>
+<ol><li>She is an <em>exceptionally</em> talented pianist.</li><li>It was an <em>exceptionally</em> cold winter.</li><li>The team played <em>exceptionally</em> well.</li></ol>
+<hr>
+<h3 id="bitterly">bitterly<a class="hash" href="#bitterly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪtərli/ &middot; <em>BIT-ur-lee</em></dd><dt>Русский</dt><dd>горько; ужасно, резко</dd><dt>Type</dt><dd>degree — with a few words (<em>cold</em>, <em>disappointed</em>, <em>opposed</em>); also manner (<em>with bitterness</em>)</dd><dt>Position</dt><dd>before its word — for degree; end for manner (<em>complained bitterly</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more bitterly</em>, <em>most bitterly</em></dd><dt>Modifies</dt><dd>a small set of adjectives and past participles; verbs of speaking and feeling</dd><dt>Form</dt><dd>-ly from <em>bitter</em></dd><dt>Contrast</dt><dd>As a degree word <em>bitterly</em> works only with unpleasant things from a short list — <em>bitterly cold</em>, <em>bitterly disappointed</em>, <em>bitterly opposed</em>, <em>bitterly regret</em> — so there is no <em>bitterly hot</em> or <em>bitterly happy</em>. Russian <em>горько плакать</em> is <em>cry bitterly</em>, but for taste English uses the adjective: <em>It tastes bitter</em>, not <em>It tastes bitterly</em>.</dd></dl>
+<p>Bitterly has 2 distinct senses.</p>
+<p><strong>1. Very, in a painful or unpleasant way — with cold, disappointment and opposition.</strong> (ужасно, крайне, резко)</p>
+<ol><li>It was <em>bitterly</em> cold in Chicago that week.</li><li>The fans were <em>bitterly</em> disappointed by the loss.</li><li>The new law is <em>bitterly</em> opposed by farmers.</li></ol>
+<p><strong>2. With anger, pain or resentment.</strong> (горько, с горечью)</p>
+<ol start="4"><li>She wept <em>bitterly</em> at the news.</li><li>He complained <em>bitterly</em> about the service.</li><li>The two brothers argued <em>more bitterly</em> every year.</li></ol>
+<hr>
+<h3 id="enormously">enormously<a class="hash" href="#enormously" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈnɔːrməsli/ &middot; <em>ih-NOR-muhs-lee</em></dd><dt>Русский</dt><dd>чрезвычайно, очень сильно</dd><dt>Type</dt><dd>degree — a strong intensifier</dd><dt>Position</dt><dd>before its word — with adjectives; end with verbs (<em>helped enormously</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives (<em>popular</em>, <em>successful</em>), verbs of change and effect, past participles</dd><dt>Form</dt><dd>-ly from <em>enormous</em></dd><dt>Contrast</dt><dd><em>Enormously</em> means <em>very much</em>, not <em>physically big</em>: <em>enormously popular</em>, <em>helped enormously</em> — but a big building is <em>huge</em> or <em>enormous</em>, not <em>enormously big</em>. With verbs it usually goes at the end: <em>Prices vary enormously</em>.</dd></dl>
+<p>To a very great degree; very much.</p>
+<ol><li>The show was <em>enormously</em> popular with teenagers.</li><li>Your advice helped me <em>enormously</em>.</li><li>Prices vary <em>enormously</em> from store to store.</li></ol>
+<hr>
+<h3 id="hugely">hugely<a class="hash" href="#hugely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhjuːdʒli/ &middot; <em>HYOOJ-lee</em></dd><dt>Русский</dt><dd>чрезвычайно, очень</dd><dt>Type</dt><dd>degree — a strong intensifier, common in news and business writing</dd><dt>Position</dt><dd>before its word — also end with verbs (<em>grew hugely</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives (<em>successful</em>, <em>popular</em>, <em>important</em>), verbs and participles</dd><dt>Form</dt><dd>-ly from <em>huge</em></dd><dt>Contrast</dt><dd>Like <em>enormously</em>, <em>hugely</em> measures degree, not size: <em>hugely successful</em>, <em>hugely influential</em>, but <em>a huge house</em>, not <em>a hugely big house</em>.</dd></dl>
+<p>Very; to a very great degree.</p>
+<ol><li>The movie was <em>hugely</em> successful.</li><li>She has been <em>hugely</em> influential in the field.</li><li>Our sales have grown <em>hugely</em> this year.</li></ol>
+<hr>
+<h3 id="super">super<a class="hash" href="#super" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːpər/ &middot; <em>SOO-pur</em></dd><dt>Русский</dt><dd>очень, супер</dd><dt>Type</dt><dd>degree — an informal American intensifier</dd><dt>Position</dt><dd>before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives and adverbs; in slang, some verbs</dd><dt>Form</dt><dd>flat — the same form as the informal adjective <em>super</em></dd><dt>Contrast</dt><dd>Keep three uses apart. The adverb <em>super</em> means <em>very</em> and is a separate word: <em>super easy</em>, <em>super nice</em> (hyphenated before a noun: <em>a super-nice guy</em>). The adjective <em>super</em> means <em>excellent</em> (<em>That's super!</em>) and sounds a little old-fashioned. The prefix <em>super-</em> is written solid: <em>supermarket</em>, <em>superhero</em>. The adverb belongs to casual speech and texting, not formal writing.</dd></dl>
+<p>Very; extremely.</p>
+<ol><li>The test was <em>super</em> easy.</li><li>Everyone at the party was <em>super</em> friendly.</li><li>I'm <em>super</em> excited about the trip.</li></ol>
+<hr>
+<h3 id="way">way<a class="hash" href="#way" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪ/ &middot; <em>WAY</em></dd><dt>Русский</dt><dd>намного, гораздо; далеко</dd><dt>Type</dt><dd>degree — informal, before comparatives and <em>too</em>; also place and time (<em>way back</em>)</dd><dt>Position</dt><dd>before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>comparatives, <em>too</em>, <em>more</em> and <em>less</em>, words of place and time</dd><dt>Form</dt><dd>flat — the same form as the noun <em>way</em></dd><dt>Contrast</dt><dd><em>Very</em> cannot go before a comparative: say <em>way better</em>, <em>much better</em> or <em>far better</em>, never <em>very better</em>. <em>Way</em> is the informal choice; use <em>much</em> or <em>far</em> in writing. The order is <em>way too expensive</em>, not <em>too way expensive</em>. The replies <em>No way!</em> and <em>Way!</em> are interjections, and <em>away</em> is a different word: <em>He lives far away</em>, but <em>way back in 1995</em>.</dd></dl>
+<p>Way has 3 distinct senses.</p>
+<p><strong>1. Much; a lot — before comparatives, too, more and less.</strong> (намного, гораздо)</p>
+<ol><li>This phone is <em>way</em> better than my old one.</li><li>The tickets were <em>way</em> too expensive.</li><li>We brought <em>way</em> more food than we needed.</li></ol>
+<p><strong>2. Far — before words of place or time.</strong> (далеко, задолго, аж)</p>
+<ol start="4"><li>They live <em>way</em> out in the country.</li><li>I met him <em>way</em> back in high school.</li><li>We're <em>way</em> behind schedule.</li></ol>
+<p><strong>3. Slang: very — before an adjective.</strong> (очень, реально)</p>
+<ol start="7"><li>That movie was <em>way</em> cool.</li><li>That test was <em>way</em> hard.</li></ol>
+<hr>
+<h3 id="real">real<a class="hash" href="#real" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːəl/ &middot; <em>REE-uhl</em></dd><dt>Русский</dt><dd>очень, реально</dd><dt>Type</dt><dd>degree — an informal American intensifier</dd><dt>Position</dt><dd>before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives and adverbs</dd><dt>Form</dt><dd>flat — the same form as the adjective <em>real</em></dd><dt>Contrast</dt><dd><em>Real</em> for <em>really</em> (<em>real good</em>, <em>real quick</em>) is everyday American speech but counts as nonstandard: in writing and formal speech use <em>really</em> or <em>very</em>. It replaces only the <em>very</em> sense, so not <em>I real like it</em> or <em>What real happened?</em> Everywhere else <em>real</em> is the adjective: <em>a real diamond</em>.</dd></dl>
+<p>Very; really.</p>
+<ol><li>That was <em>real</em> nice of you.</li><li>I'll be back <em>real</em> quick.</li><li>She did <em>real</em> well on the test.</li></ol>
+<hr>
+<h3 id="exceedingly">exceedingly<a class="hash" href="#exceedingly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsiːdɪŋli/ &middot; <em>ik-SEE-ding-lee</em></dd><dt>Русский</dt><dd>чрезвычайно, крайне</dd><dt>Type</dt><dd>degree — a formal strong intensifier</dd><dt>Position</dt><dd>before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives and adverbs</dd><dt>Form</dt><dd>-ly from the participle <em>exceeding</em></dd><dt>Contrast</dt><dd>Do not mix it up with <em>excessively</em>. <em>Exceedingly</em> means <em>very</em> (<em>чрезвычайно</em>): <em>exceedingly rare</em>. <em>Excessively</em> means <em>too much</em> (<em>чрезмерно</em>) and is a criticism: <em>excessively long</em>. <em>Exceedingly</em> sounds formal or old-fashioned; in speech Americans say <em>extremely</em>.</dd></dl>
+<p>Extremely; to an unusually high degree.</p>
+<ol><li>Such cases are <em>exceedingly</em> rare.</li><li>The instructions were <em>exceedingly</em> difficult to follow.</li><li>He was <em>exceedingly</em> polite to everyone.</li></ol>
+<hr>
+<h3 id="extraordinarily">extraordinarily<a class="hash" href="#extraordinarily" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˌstrɔːrdəˈnɛrəli/ &middot; <em>ik-stror-duh-NAIR-uh-lee</em></dd><dt>Русский</dt><dd>необычайно, чрезвычайно</dd><dt>Type</dt><dd>degree — a strong intensifier meaning <em>unusually</em></dd><dt>Position</dt><dd>before its word</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives and adverbs</dd><dt>Form</dt><dd>-ly from <em>extraordinary</em> (<em>extra</em> + <em>ordinary</em>)</dd><dt>Contrast</dt><dd>Pronunciation trap: the <em>a</em> of <em>extra-</em> is usually swallowed (<em>ik-stror-</em>), so it is rarely said as <em>extra</em> + <em>ordinarily</em>, and Americans put the main stress on <em>-nar-</em>.</dd></dl>
+<p>Unusually; to a very great degree.</p>
+<ol><li>She is an <em>extraordinarily</em> gifted writer.</li><li>The operation was <em>extraordinarily</em> difficult.</li><li>He recovered <em>extraordinarily</em> quickly.</li></ol>
+<hr>
+<h3 id="tremendously">tremendously<a class="hash" href="#tremendously" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trɪˈmɛndəsli/ &middot; <em>trih-MEN-duhs-lee</em></dd><dt>Русский</dt><dd>чрезвычайно, невероятно</dd><dt>Type</dt><dd>degree — a strong intensifier</dd><dt>Position</dt><dd>before its word — end with verbs (<em>helped tremendously</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, verbs, and participles</dd><dt>Form</dt><dd>-ly from <em>tremendous</em></dd></dl>
+<p>Very; to a very great degree.</p>
+<ol><li>The book was <em>tremendously</em> popular.</li><li>Your support has helped us <em>tremendously</em>.</li><li>I'm <em>tremendously</em> proud of you.</li></ol>
+<hr>
+<h3 id="immensely">immensely<a class="hash" href="#immensely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɛnsli/ &middot; <em>ih-MENS-lee</em></dd><dt>Русский</dt><dd>безмерно, чрезвычайно</dd><dt>Type</dt><dd>degree — a strong intensifier</dd><dt>Position</dt><dd>before its word — end with verbs (<em>enjoyed it immensely</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>adjectives, verbs, and participles</dd><dt>Form</dt><dd>-ly from <em>immense</em></dd></dl>
+<p>To a very great degree; enormously.</p>
+<ol><li>The game is <em>immensely</em> popular in Brazil.</li><li>We enjoyed the trip <em>immensely</em>.</li><li>She was <em>immensely</em> relieved to hear the news.</li></ol>
+<hr>
+<h3 id="profoundly">profoundly<a class="hash" href="#profoundly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈfaʊndli/ &middot; <em>pruh-FOWND-lee</em></dd><dt>Русский</dt><dd>глубоко, коренным образом</dd><dt>Type</dt><dd>degree — a formal intensifier for change, effect and feeling</dd><dt>Position</dt><dd>before its word — mid before a verb (<em>profoundly changed</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more profoundly</em>, <em>most profoundly</em></dd><dt>Modifies</dt><dd>verbs and participles of change and effect; adjectives of feeling</dd><dt>Form</dt><dd>-ly from <em>profound</em></dd><dt>Contrast</dt><dd>Russian <em>глубоко</em> is usually <em>deeply</em> in everyday English: <em>deeply grateful</em>, <em>deeply sorry</em>. <em>Profoundly</em> is more formal and goes most often with change and effect (<em>profoundly changed</em>, <em>profoundly affected</em>). It never means physical depth — that is <em>deep</em> (<em>dig deep</em>). <em>Profoundly deaf</em> means <em>completely deaf</em>.</dd></dl>
+<p>To a very great and serious degree; deeply.</p>
+<ol><li>The war <em>profoundly</em> changed the country.</li><li>I was <em>profoundly</em> moved by her speech.</li><li>The child was born <em>profoundly</em> deaf.</li></ol>
+<hr>
+<h3 id="strongly">strongly<a class="hash" href="#strongly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstrɔːŋli/ &middot; <em>STRAWNG-lee</em></dd><dt>Русский</dt><dd>решительно, настоятельно; сильно</dd><dt>Type</dt><dd>degree — with verbs of opinion and feeling; also manner (<em>with strength</em>)</dd><dt>Position</dt><dd>mid or end — <em>I strongly agree</em>, <em>I feel strongly</em></dd><dt>Comparison</dt><dd>more/most — <em>more strongly</em>, <em>most strongly</em></dd><dt>Modifies</dt><dd>verbs of opinion (<em>agree</em>, <em>believe</em>, <em>recommend</em>, <em>oppose</em>), participles, some adjectives</dd><dt>Form</dt><dd>-ly from <em>strong</em></dd><dt>Contrast</dt><dd>Russian <em>сильно</em> is wider than <em>strongly</em>. <em>Strongly</em> goes with opinion and advice — <em>strongly agree</em>, <em>strongly recommend</em>, <em>strongly oppose</em>, <em>feel strongly about</em> — not with liking, wanting or missing: <em>I really want it</em>, <em>I miss you very much</em>, not <em>I strongly want it</em> or <em>I strongly miss you</em>. Heavy rain is <em>raining hard</em>, not <em>raining strongly</em>.</dd></dl>
+<p>Strongly has 2 distinct senses.</p>
+<p><strong>1. Very much and firmly — about an opinion, belief or feeling.</strong> (решительно, настоятельно, твёрдо)</p>
+<ol><li>I <em>strongly</em> disagree with that decision.</li><li>We <em>strongly</em> recommend booking in advance.</li><li>She feels <em>more strongly</em> about it than I do.</li></ol>
+<p><strong>2. With strength, force or intensity; powerfully.</strong> (сильно, крепко, мощно)</p>
+<ol start="4"><li>The room smelled <em>strongly</em> of paint.</li><li>He is tall and <em>strongly</em> built.</li><li>The economy grew <em>strongly</em> last year.</li></ol>
+<hr>
+<h3 id="greatly">greatly<a class="hash" href="#greatly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪtli/ &middot; <em>GRAYT-lee</em></dd><dt>Русский</dt><dd>значительно, очень, сильно</dd><dt>Type</dt><dd>degree — a formal intensifier for verbs and participles</dd><dt>Position</dt><dd>mid or end — <em>greatly improved</em>, <em>has improved greatly</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and past participles</dd><dt>Form</dt><dd>-ly from <em>great</em></dd><dt>Contrast</dt><dd><em>Greatly</em> is not a general <em>very</em>: it goes with verbs and participles (<em>greatly appreciated</em>, <em>differ greatly</em>), not with plain adjectives — <em>very happy</em>, not <em>greatly happy</em>. It is also too formal for liking: <em>I like it very much</em>, not <em>I greatly like it</em>. In casual American speech <em>great</em> itself works as an adverb meaning <em>very well</em> (<em>It works great</em>), which is a different meaning.</dd></dl>
+<p>Very much; to a large degree.</p>
+<ol><li>Your help is <em>greatly</em> appreciated.</li><li>Her English has improved <em>greatly</em> since last year.</li><li>The two versions differ <em>greatly</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

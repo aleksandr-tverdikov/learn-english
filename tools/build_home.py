@@ -25,6 +25,7 @@ BLURBS = {
     '06-prepositions': 'The most polysemous class in English. Senses are numbered, and every entry says what may and may not follow it.',
     '09-determiners': 'The tightest closed class, where one wrong choice is instantly ungrammatical. Each entry names the noun types it may precede.',
     '03-verbs': 'Irregular verbs grouped by how their three forms change rather than alphabetically, so you can hear <em>read</em>, <em>read</em> and <em>read</em> differ — plus the regular verbs, and every phrasal verb built on either, listed inside its base verb with the thing learners actually need: whether it can be split.',
+    '05-adverbs': 'Organized by the job each adverb does — place, time, frequency, degree, focus, stance, linking — with where it goes in the sentence, whether it takes <em>-er</em> or <em>more</em>, and the <em>hard</em>/<em>hardly</em> pairs that look related and are not.',
     '02-pronouns': 'Where case errors are most visible. Every entry gives its case, what it can refer to, and the verb agreement it forces.',
     'reporting-verbs': 'How to say what someone else said: every frame a reporting verb takes, the frames it refuses, and the judgment it quietly carries.',
 }
@@ -184,9 +185,9 @@ border-radius:99px;padding:9px 16px;color:var(--text)}}
 <header><div class="wrap">
   <p class="eyebrow">Reference Library</p>
   <h1>American English</h1>
-  <p class="lede">The nine word classes, five complete dictionaries of the closed classes, the grammar of
-  reported speech, and the full sound system — with a pronunciation, a register label, and at least five
-  example sentences for every single entry.</p>
+  <p class="lede">The nine word classes, {len(WORD_DICTS)} dictionaries of them, the grammar of reported
+  speech, and the full sound system — every entry with a pronunciation you can hear and example sentences
+  that show it in use.</p>
   <div class="stats ui">
     <div class="stat"><b>{total_entries:,}</b><span>dictionary entries</span></div>
     <div class="stat"><b>{total_examples:,}</b><span>example sentences</span></div>
@@ -200,10 +201,12 @@ border-radius:99px;padding:9px 16px;color:var(--text)}}
 <h2>Dictionaries</h2>
 <div class="dicts">{''.join(cards)}
 </div>
-<p class="note"><strong>Why these five?</strong> They are the <strong>closed classes</strong> — finite lists
-that can actually be written down. Nouns, verbs, adjectives, and adverbs are open classes that gain new
-members constantly, so no dictionary of them could ever be complete. Every entry is clickable: your browser
-speaks it aloud, so nothing is downloaded and nothing leaves the page.</p>
+<p class="note"><strong>What the dictionaries cover.</strong> Pronouns, prepositions, conjunctions,
+determiners and interjections are <strong>closed classes</strong> — finite lists, written out in full.
+Nouns, verbs and adverbs are <strong>open classes</strong> that gain new members constantly, so no list of
+them is ever complete: their dictionaries give every word whose grammar misbehaves in full, then a large
+core of everyday words checked against WordNet. Adjectives are the one class without a dictionary yet.
+Every entry is clickable: your browser speaks it aloud, so nothing is downloaded and nothing leaves the page.</p>
 
 <h2>Grammar</h2>
 <div class="dicts">{grammar_cards}

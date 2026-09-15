@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adverbs with irregular comparison</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="adverbs-with-irregular-comparison">Adverbs with irregular comparison<a class="hash" href="#adverbs-with-irregular-comparison" aria-label="link">#</a></h1>
+<blockquote><p>The handful of adverbs that do not take <em>-er</em> or <em>more</em>: <em>well</em>, <em>badly</em>, <em>much</em>, <em>little</em>, <em>far</em> and their forms.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Almost every gradable adverb compares with <em>-er/-est</em> (<em>faster</em>) or <em>more/most</em> (<em>more carefully</em>). A few do neither and have forms that must simply be learned — <em>well</em>, <em>better</em>, <em>best</em>; <em>badly</em>, <em>worse</em>, <em>worst</em>. Each comparative and superlative has its own entry, because <em>better</em> and <em>further</em> do work of their own (<em>you had better go</em>, <em>discuss it further</em>) that the base word never does.</p>
+<hr>
+<h3 id="well">well<a class="hash" href="#well" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛl/ &middot; <em>WEL</em></dd><dt>Русский</dt><dd>хорошо</dd><dt>Type</dt><dd>manner; also degree</dd><dt>Position</dt><dd>end — after the verb and its object (<em>She speaks French well</em>); before its word as a degree adverb (<em>well over</em>, <em>well aware</em>); mid after <em>may</em>, <em>might</em>, <em>could</em> and <em>can</em> (<em>You may well be right</em>)</dd><dt>Comparison</dt><dd>irregular — <em>better</em>, <em>best</em></dd><dt>Modifies</dt><dd>verbs; as a degree word, prepositions, adverbs, numbers and a few adjectives (<em>well after</em>, <em>well worth</em>)</dd><dt>Form</dt><dd>suppletive — the adverb of the adjective <em>good</em></dd><dt>Contrast</dt><dd><em>Good</em> is the adjective, <em>well</em> the adverb: <em>She's a good singer</em> / <em>She sings well</em> — <em>She sings good</em> is heard in casual American speech but is marked as wrong in careful English. <em>I'm well</em> (healthy) is the adjective, and <em>Well, I don't know</em> is the interjection; neither is this adverb. <em>As well</em> goes at the end of the clause (<em>I'll have a coffee as well</em>), not in the middle like Russian <em>тоже</em>. Before a past participle <em>well</em> makes a compound adjective that is hyphenated before a noun: <em>a well-known writer</em>, but <em>The writer is well known</em>.</dd></dl>
+<p>Well has 11 distinct senses.</p>
+<p><strong>1. In a good, skillful or successful way.</strong> (хорошо)</p>
+<ol><li>She speaks Spanish really <em>well</em>.</li><li>The interview went <em>well</em>, I think.</li><li>He plays guitar <em>better</em> than anyone else in the band.</li></ol>
+<p><strong>2. as well: also; too.</strong> (тоже, также)</p>
+<ol start="4"><li>I'd like a side salad <em>as well</em>.</li><li>She's a singer, and she writes her own songs <em>as well</em>.</li></ol>
+<p><strong>3. Thoroughly and carefully; completely.</strong> (как следует, тщательно, хорошо)</p>
+<ol start="6"><li>Shake <em>well</em> before using.</li><li>I don't know him very <em>well</em>.</li><li>Make sure you dry your hair <em>well</em> before you go out.</li></ol>
+<p><strong>4. By a large amount; far — before prepositions, adverbs and numbers.</strong> (намного, значительно, далеко)</p>
+<ol start="9"><li>The party went on <em>well</em> after midnight.</li><li>The repairs cost <em>well</em> over $2,000.</li><li>Stand <em>well</em> back from the grill.</li></ol>
+<p><strong>5. Fully; quite — with <em>aware</em> and <em>worth</em>, and after <em>can</em> or <em>could</em> with <em>imagine</em>, <em>believe</em> or <em>afford</em>.</strong> (вполне, прекрасно)</p>
+<ol start="12"><li>I'm <em>well</em> aware of the risks.</li><li>The museum is <em>well</em> worth a visit.</li><li>I can <em>well</em> imagine how upset she was.</li></ol>
+<p><strong>6. Quite possibly; very likely — after <em>may</em>, <em>might</em> and <em>could</em>.</strong> (вполне возможно, очень может быть)</p>
+<ol start="15"><li>You may <em>well</em> be right.</li><li>It could <em>well</em> rain tomorrow, so bring a jacket.</li></ol>
+<p><strong>7. might as well, may as well: there is no good reason not to; it would be just as good to.</strong> (можно и, лучше уж)</p>
+<ol start="17"><li>There's nothing on TV, so we <em>might as well</em> go to bed.</li><li>You <em>may as well</em> take the umbrella — it's by the door anyway.</li></ol>
+<p><strong>8. Kindly or with approval.</strong> (хорошо (отзываться, обращаться))</p>
+<ol start="19"><li>Everyone at the office speaks <em>well</em> of her.</li><li>They treated us very <em>well</em> at the hotel.</li></ol>
+<p><strong>9. With enough money; in comfort.</strong> (в достатке, хорошо)</p>
+<ol start="21"><li>They live <em>well</em> on two teachers' salaries.</li><li>The job doesn't pay <em>well</em>, but I love it.</li></ol>
+<p><strong>10. Reasonably or properly — in <em>can't very well</em>, meaning that it would be wrong or awkward to do something.</strong> (никак (не), не ... же)</p>
+<ol start="23"><li>I can't very <em>well</em> say no to my own sister.</li><li>We couldn't very <em>well</em> leave before the speeches were over.</li></ol>
+<p><strong>11. Wisely — in <em>would do well to</em>.</strong> (стоит, разумно)</p>
+<ol start="25"><li>You would do <em>well</em> to listen to her advice.</li><li>New drivers would do <em>well</em> to stay off the highway at rush hour.</li></ol>
+<hr>
+<h3 id="badly">badly<a class="hash" href="#badly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbædli/ &middot; <em>BAD-lee</em></dd><dt>Русский</dt><dd>плохо; сильно, очень</dd><dt>Type</dt><dd>manner; also degree</dd><dt>Position</dt><dd>end — after the verb and its object (<em>He sang badly</em>); mid with <em>need</em>, <em>want</em> and before past participles (<em>I badly need</em>, <em>badly damaged</em>)</dd><dt>Comparison</dt><dd>irregular — <em>worse</em>, <em>worst</em></dd><dt>Modifies</dt><dd>verbs and past participles</dd><dt>Form</dt><dd>-ly from <em>bad</em></dd><dt>Contrast</dt><dd><em>Bad</em> is the adjective: <em>I feel bad</em> (sorry, guilty or sick) is the standard form, and <em>I feel badly</em> is common in American speech but often corrected. In casual American English <em>bad</em> also stands in for <em>badly</em> in the 'very much' sense (<em>I want it so bad</em>) — normal to hear, but avoid it in writing. When the meaning is 'less well', the comparative is <em>worse</em>, never <em>more badly</em>. Russian <em>мне плохо</em> is <em>I feel sick</em> or <em>I don't feel well</em>, not <em>I feel badly</em>.</dd></dl>
+<p>Badly has 4 distinct senses.</p>
+<p><strong>1. In a poor, unskillful or unsuccessful way.</strong> (плохо)</p>
+<ol><li>I did <em>badly</em> on the chemistry test.</li><li>The negotiations went <em>badly</em> from the start.</li><li>Our team played even <em>worse</em> in the second half.</li></ol>
+<p><strong>2. Seriously; causing a lot of harm or damage.</strong> (сильно, тяжело, серьёзно)</p>
+<ol start="4"><li>Two people were <em>badly</em> hurt in the crash.</li><li>The roof was <em>badly</em> damaged by the storm.</li><li>The towns <em>worst</em> hit by the flooding are still without power.</li></ol>
+<p><strong>3. Very much — with <em>need</em>, <em>want</em> and <em>miss</em>.</strong> (очень, крайне)</p>
+<ol start="7"><li>The house <em>badly</em> needs a coat of paint.</li><li>She wanted that job so <em>badly</em>.</li></ol>
+<p><strong>4. Unkindly, unfairly or in a way that is not acceptable.</strong> (плохо, дурно, несправедливо)</p>
+<ol start="9"><li>The company treated its workers <em>badly</em>.</li><li>The kids behaved <em>badly</em> at the restaurant.</li><li>Please don't think <em>badly</em> of me.</li></ol>
+<hr>
+<h3 id="much">much<a class="hash" href="#much" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mʌtʃ/ &middot; <em>MUHCH</em></dd><dt>Русский</dt><dd>очень, намного; часто</dd><dt>Type</dt><dd>degree; also frequency</dd><dt>Position</dt><dd>end — after the verb and its object (<em>I don't like it much</em>); before its word with comparatives and <em>too</em> (<em>much bigger</em>, <em>much too big</em>); mid with <em>prefer</em>, <em>appreciate</em> and <em>enjoy</em> (<em>I much prefer tea</em>)</dd><dt>Comparison</dt><dd>irregular — <em>more</em>, <em>most</em></dd><dt>Modifies</dt><dd>verbs, comparatives, <em>too</em>, past participles and <em>the same</em></dd><dt>Contrast</dt><dd>Bare <em>much</em> after a verb in an affirmative statement sounds wrong: say <em>I like it a lot</em> or <em>I like it very much</em>, not <em>I like it much</em> — but <em>much</em> is natural in questions and negatives (<em>Do you like it much?</em>, <em>I don't like it much</em>). <em>Much</em> goes before comparatives and <em>very</em> before plain adjectives: <em>much bigger</em>, <em>very big</em>, never <em>very bigger</em>. Russian <em>много</em> after a verb is <em>a lot</em> in speech (<em>He works a lot</em>), and <em>гораздо</em> or <em>намного</em> is <em>much</em> or <em>a lot</em> before a comparative. <em>Much</em> before a noun (<em>much money</em>) is the determiner and belongs to that dictionary.</dd></dl>
+<p>Much has 6 distinct senses.</p>
+<p><strong>1. To a great degree; a lot — mostly in questions and negatives, after <em>very</em> and <em>so</em>, and before past participles.</strong> (очень, сильно)</p>
+<ol><li>I don't like horror movies <em>much</em>.</li><li>Thank you so <em>much</em> for coming.</li><li>Your help is very <em>much</em> appreciated.</li></ol>
+<p><strong>2. Far; a lot — before comparatives, <em>too</em> and <em>different</em>.</strong> (намного, гораздо)</p>
+<ol start="4"><li>The new apartment is <em>much</em> bigger than the old one.</li><li>This coffee is <em>much</em> too sweet.</li><li>The new phone isn't <em>much</em> different from the old one.</li></ol>
+<p><strong>3. Often; a lot of the time — in questions and negatives.</strong> (часто, много)</p>
+<ol start="7"><li>Do you get out <em>much</em>?</li><li>We don't eat out <em>much</em> anymore.</li><li>We travel <em>more</em> now that the kids are grown.</li></ol>
+<p><strong>4. Nearly; about — in <em>much the same</em> and <em>pretty much</em>.</strong> (почти, примерно)</p>
+<ol start="10"><li>The town looks <em>much</em> the same as it did twenty years ago.</li><li>That's <em>pretty much</em> all I know about it.</li></ol>
+<p><strong>5. not so much ... as: not really one thing but rather another — correcting how something is described.</strong> (не столько ..., сколько)</p>
+<ol start="12"><li>It's <em>not so much</em> the money — it's the principle.</li><li>He's <em>not so much</em> lazy as bored at school.</li><li>The problem wasn't <em>so much</em> the price as the delivery time.</li></ol>
+<p><strong>6. much less: and certainly not; let alone — after a negative.</strong> (не говоря уже о, тем более не)</p>
+<ol start="15"><li>He can't boil an egg, <em>much less</em> cook a whole dinner.</li><li>I've never even met her, <em>much less</em> gone out with her.</li></ol>
+<hr>
+<h3 id="little">little<a class="hash" href="#little" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪtəl/ &middot; <em>LIT-uhl</em></dd><dt>Русский</dt><dd>немного; мало, почти не</dd><dt>Type</dt><dd>degree; also frequency</dd><dt>Position</dt><dd>before its word — in <em>a little</em> before adjectives, adverbs and comparatives (<em>a little tired</em>); end after the verb (<em>She slept little</em>); front with inversion in <em>Little did I know</em></dd><dt>Comparison</dt><dd>irregular — <em>less</em>, <em>least</em></dd><dt>Modifies</dt><dd>verbs, adjectives, adverbs and comparatives (<em>a little faster</em>)</dd><dt>Contrast</dt><dd><em>A little</em> and bare <em>little</em> point in opposite directions: <em>I slept a little</em> (немного — I did get some sleep) vs <em>I slept little</em> (мало — not enough). In everyday American speech bare <em>little</em> sounds formal, and people say <em>not much</em> instead (<em>I didn't sleep much</em>). When <em>little</em> opens a clause it means 'not at all' and needs question word order: <em>Little did we know</em>, never <em>Little we knew</em>. The comparative is <em>less</em>, <em>least</em>; <em>littler</em> and <em>littlest</em> exist only for the adjective meaning small (<em>my littlest sister</em>), which belongs to the adjective dictionary.</dd></dl>
+<p>Little has 4 distinct senses.</p>
+<p><strong>1. a little: to a small degree; slightly.</strong> (немного, слегка)</p>
+<ol><li>I'm <em>a little</em> tired tonight.</li><li>Could you turn the music down <em>a little</em>?</li><li>Drive <em>a little</em> slower through the school zone.</li></ol>
+<p><strong>2. Not much; hardly at all — without <em>a</em>, often after <em>very</em>.</strong> (мало, почти не)</p>
+<ol start="4"><li>The neighborhood has changed very <em>little</em>.</li><li>He ate <em>little</em> and said even <em>less</em>.</li><li>We see them very <em>little</em> these days.</li></ol>
+<p><strong>3. Not at all — before <em>know</em>, <em>think</em>, <em>realize</em> and <em>suspect</em>, usually at the front with inversion.</strong> (совсем не, и не (подозревать))</p>
+<ol start="7"><li><em>Little</em> did I know that she was going to be my new boss.</li><li><em>Little</em> did they realize how much the trip would cost.</li></ol>
+<p><strong>4. little by little: gradually; a bit at a time.</strong> (постепенно, понемногу)</p>
+<ol start="9"><li><em>Little by little</em>, the town recovered from the flood.</li><li>She paid off the loan <em>little by little</em>.</li></ol>
+<hr>
+<h3 id="better">better<a class="hash" href="#better" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛtər/ &middot; <em>BET-ur</em></dd><dt>Русский</dt><dd>лучше; больше</dd><dt>Type</dt><dd>manner; also degree and linking</dd><dt>Position</dt><dd>end — after the verb and its object (<em>She sings better</em>); mid in <em>had better</em> (<em>You'd better go</em>) and before a past participle (<em>better known</em>)</dd><dt>Comparison</dt><dd>irregular — the comparative of <em>well</em>: <em>well</em>, <em>better</em>, <em>best</em></dd><dt>Modifies</dt><dd>verbs and past participles</dd><dt>Form</dt><dd>suppletive — the comparative of <em>well</em></dd><dt>Contrast</dt><dd><em>Had better</em> is not a past tense and takes the bare verb: <em>You'd better go</em>, never <em>You'd better to go</em> or <em>You had better went</em>; the negative is <em>You'd better not</em>. It is stronger than <em>should</em> and can sound like a warning, so it is odd when advising a boss or a stranger. In casual American speech the <em>had</em> often drops out (<em>You better call her</em>), but keep it in writing. Russian <em>лучше</em> in a preference or suggestion is <em>I'd rather</em> or <em>let's</em>, not <em>better</em>: <em>Лучше я пойду пешком</em> is <em>I'd rather walk</em>. Americans often say <em>I like the blue one better</em> where British speakers tend to say <em>more</em>. <em>I feel better</em> (healthier) is the adjective.</dd></dl>
+<p>Better has 6 distinct senses.</p>
+<p><strong>1. In a more skillful, successful or satisfactory way — the comparative of <em>well</em>.</strong> (лучше)</p>
+<ol><li>She speaks French <em>better</em> than I do.</li><li>The second interview went much <em>better</em>.</li><li>Things are going <em>better</em> at work now.</li></ol>
+<p><strong>2. More; to a greater degree — with <em>like</em>, <em>know</em> and <em>understand</em>, before past participles, and informally in <em>better than</em> before a number.</strong> (больше, лучше; больше чем)</p>
+<ol start="4"><li>Which do you like <em>better</em>, the mountains or the beach?</li><li>He's <em>better</em> known as a painter than as a writer.</li><li>The drive took <em>better</em> than three hours.</li></ol>
+<p><strong>3. had better: ought to; should — often as a warning.</strong> (лучше (бы), следует)</p>
+<ol start="7"><li>You'd <em>better</em> take an umbrella.</li><li>We <em>had better</em> leave before the traffic gets bad.</li><li>You <em>better</em> not tell Mom about this.</li></ol>
+<p><strong>4. know better: to be old enough or wise enough not to do something.</strong> (понимать (что так нельзя), соображать)</p>
+<ol start="10"><li>You're twenty years old — you should <em>know better</em>.</li><li>She <em>knew better</em> than to argue with her father.</li></ol>
+<p><strong>5. think better of: to decide not to do something after thinking about it again.</strong> (передумать, одуматься)</p>
+<ol start="12"><li>He opened his mouth to argue, then <em>thought better</em> of it.</li><li>I almost sent the angry email, but I <em>thought better</em> of it.</li></ol>
+<p><strong>6. better yet, better still: an even better idea is.</strong> (а ещё лучше)</p>
+<ol start="14"><li>Call her tonight — or <em>better yet</em>, go see her.</li><li>Text me when you land, or <em>better still</em>, just come straight over.</li></ol>
+<hr>
+<h3 id="best">best<a class="hash" href="#best" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɛst/ &middot; <em>BEST</em></dd><dt>Русский</dt><dd>лучше всего; больше всего</dd><dt>Type</dt><dd>manner; also degree</dd><dt>Position</dt><dd>end — after the verb and its object (<em>She sings best</em>); before its word with past participles (<em>best known</em>)</dd><dt>Comparison</dt><dd>irregular — the superlative of <em>well</em>: <em>well</em>, <em>better</em>, <em>best</em></dd><dt>Modifies</dt><dd>verbs and past participles</dd><dt>Form</dt><dd>suppletive — the superlative of <em>well</em></dd><dt>Contrast</dt><dd>After a verb, American English uses <em>best</em> with or without <em>the</em>: <em>Which song do you like best?</em> and <em>Which song do you like the best?</em> are both normal. Before a noun, <em>best</em> is the adjective (<em>my best friend</em>) and belongs to that dictionary. <em>At best</em> (в лучшем случае) is not <em>at its best</em> (в лучшей форме): <em>The team was at its best in the final</em>. <em>Had best</em> (<em>You had best leave</em>) is an old-fashioned or regional form of <em>had better</em>.</dd></dl>
+<p>Best has 4 distinct senses.</p>
+<p><strong>1. In the most skillful, successful or satisfactory way — the superlative of <em>well</em>.</strong> (лучше всего)</p>
+<ol><li>She works <em>best</em> under pressure.</li><li>Which of the three cars handled <em>best</em> in the snow?</li><li>We fixed the fence as <em>best</em> we could.</li></ol>
+<p><strong>2. Most; to the greatest degree — with <em>like</em> and <em>know</em>, and before past participles.</strong> (больше всего)</p>
+<ol start="4"><li>What did you like <em>best</em> about Chicago?</li><li>He's <em>best</em> known for his early films.</li><li>You know her <em>best</em> — what should I get her for her birthday?</li></ol>
+<p><strong>3. In the most suitable or sensible way — before past participles such as <em>done</em>, <em>left</em> and <em>avoided</em>.</strong> (лучше всего, разумнее всего)</p>
+<ol start="7"><li>Some things are <em>best</em> left unsaid.</li><li>Pie dough is <em>best</em> made the day before.</li><li>Downtown is <em>best</em> avoided during rush hour.</li></ol>
+<p><strong>4. at best: even in the most favorable view — used to show that something is small, poor or limited.</strong> (в лучшем случае)</p>
+<ol start="10"><li>The plan will save us fifty dollars <em>at best</em>.</li><li>His Spanish is basic <em>at best</em>.</li><li>We'll finish in June <em>at best</em>, and more likely July.</li></ol>
+<hr>
+<h3 id="worse">worse<a class="hash" href="#worse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɜːrs/ &middot; <em>WURS</em></dd><dt>Русский</dt><dd>хуже; сильнее</dd><dt>Type</dt><dd>manner; also degree and linking</dd><dt>Position</dt><dd>end — after the verb and its object (<em>He played worse</em>); front as a linker (<em>Worse, nobody told us</em>)</dd><dt>Comparison</dt><dd>irregular — the comparative of <em>badly</em>: <em>badly</em>, <em>worse</em>, <em>worst</em></dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Form</dt><dd>suppletive — the comparative of <em>badly</em> and of the adjective <em>bad</em></dd><dt>Contrast</dt><dd>Never <em>badder</em> or <em>more bad</em>: <em>She did worse than last time</em>. Do not mix up <em>worse</em> (the comparative, used with <em>than</em>) and <em>worst</em> (the superlative, used with <em>the</em> or <em>of all</em>). <em>The weather is worse today</em> is the adjective. In casual American English <em>worse</em> also means 'more badly' with <em>want</em> and <em>need</em> (<em>I want it worse than you do</em>) — fine in speech, not in writing.</dd></dl>
+<p>Worse has 3 distinct senses.</p>
+<p><strong>1. In a poorer or less successful way; less well.</strong> (хуже)</p>
+<ol><li>I did <em>worse</em> on the final than on the midterm.</li><li>The team played even <em>worse</em> after halftime.</li><li>Things turned out <em>worse</em> than we expected.</li></ol>
+<p><strong>2. More severely or seriously; to a greater degree.</strong> (сильнее, хуже)</p>
+<ol start="4"><li>My knee hurts <em>worse</em> today.</li><li>The Gulf Coast was hit <em>worse</em> than anyone expected.</li><li>Nobody wants this job <em>worse</em> than I do.</li></ol>
+<p><strong>3. worse, worse still, even worse: and what is more serious — adding a further bad fact.</strong> (хуже того, что ещё хуже)</p>
+<ol start="7"><li>We missed the train, and <em>worse still</em>, it was the last one that night.</li><li>The company lost money. <em>Worse</em>, it hid the losses from investors.</li></ol>
+<hr>
+<h3 id="worst">worst<a class="hash" href="#worst" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɜːrst/ &middot; <em>WURST</em></dd><dt>Русский</dt><dd>хуже всего; сильнее всего</dd><dt>Type</dt><dd>manner; also degree and linking</dd><dt>Position</dt><dd>end — after the verb (<em>Who played worst?</em>); before its word with past participles (<em>worst affected</em>); front in <em>worst of all</em> and <em>at worst</em></dd><dt>Comparison</dt><dd>irregular — the superlative of <em>badly</em>: <em>badly</em>, <em>worse</em>, <em>worst</em></dd><dt>Modifies</dt><dd>verbs, past participles and whole clauses</dd><dt>Form</dt><dd>suppletive — the superlative of <em>badly</em> and of the adjective <em>bad</em></dd><dt>Contrast</dt><dd>American English says <em>if worse comes to worst</em> (на худой конец), and many Americans also say <em>if worst comes to worst</em>; British English says <em>if the worst comes to the worst</em>. <em>The worst</em> before a noun or after <em>be</em> (<em>the worst day</em>, <em>That was the worst</em>) is the adjective and belongs to that dictionary.</dd></dl>
+<p>Worst has 4 distinct senses.</p>
+<p><strong>1. In the poorest or least successful way.</strong> (хуже всего)</p>
+<ol><li>Of all the kids in the class, I did <em>worst</em> in math.</li><li>The players who performed <em>worst</em> in camp were cut from the team.</li></ol>
+<p><strong>2. Most severely or seriously — often before past participles such as <em>hit</em> and <em>affected</em>.</strong> (сильнее всего)</p>
+<ol start="3"><li>The coastal towns were <em>worst</em> hit by the hurricane.</li><li>Older patients were the ones <em>worst</em> affected by the virus.</li></ol>
+<p><strong>3. worst of all: and the most serious thing is.</strong> (хуже всего (то, что))</p>
+<ol start="5"><li>The food was cold, the service was slow, and <em>worst of all</em>, they overcharged us.</li><li><em>Worst of all</em>, I lost every photo from the trip.</li></ol>
+<p><strong>4. at worst: if the worst happens; in the least favorable view.</strong> (в худшем случае)</p>
+<ol start="7"><li><em>At worst</em>, we'll have to pay a small late fee.</li><li>The mistake was careless <em>at worst</em> — nobody thinks it was dishonest.</li></ol>
+<hr>
+<h3 id="more">more<a class="hash" href="#more" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɔːr/ &middot; <em>MOR</em></dd><dt>Русский</dt><dd>больше, более; ещё</dd><dt>Type</dt><dd>degree; also linking</dd><dt>Position</dt><dd>before its word — before adjectives and adverbs (<em>more careful</em>); end after the verb (<em>You should sleep more</em>)</dd><dt>Comparison</dt><dd>irregular — the comparative of <em>much</em>: <em>much</em>, <em>more</em>, <em>most</em></dd><dt>Modifies</dt><dd>verbs, adjectives and adverbs</dd><dt>Contrast</dt><dd>Short adjectives and adverbs take <em>-er</em>, not <em>more</em>: <em>faster</em>, <em>harder</em>, never <em>more fast</em> — and never both at once (<em>more better</em>, <em>more easier</em>). Russian <em>больше не</em> is <em>not anymore</em> or <em>no longer</em>, never <em>more not</em>: <em>Он здесь больше не живёт</em> is <em>He doesn't live here anymore</em>; American English writes <em>anymore</em> as one word in that sense. Russian <em>ещё</em> is <em>more</em> after a number (<em>once more</em>, <em>two more times</em>), but <em>ещё не</em> is <em>not yet</em>, <em>всё ещё</em> is <em>still</em>, and <em>ещё</em> before a comparative is <em>even</em> (<em>even bigger</em>), never <em>more bigger</em>. <em>More</em> before a noun (<em>more time</em>) is the determiner and belongs to that dictionary.</dd></dl>
+<p>More has 8 distinct senses.</p>
+<p><strong>1. Used before adjectives and adverbs to form the comparative.</strong> (более (или форма на -ее))</p>
+<ol><li>The second test was <em>more</em> difficult than the first.</li><li>Could you speak <em>more</em> slowly, please?</li><li>Flights are getting <em>more and more</em> expensive.</li></ol>
+<p><strong>2. To a greater degree or extent — with verbs.</strong> (больше, сильнее)</p>
+<ol start="4"><li>You need to sleep <em>more</em>.</li><li>I like him <em>more</em> every time I see him.</li><li>The <em>more</em> you practice, the easier it gets.</li></ol>
+<p><strong>3. Again; in addition — in <em>once more</em>, <em>twice more</em> and similar phrases.</strong> (ещё (раз))</p>
+<ol start="7"><li>Let's try it once <em>more</em>.</li><li>The phone rang twice <em>more</em> before anyone picked up.</li></ol>
+<p><strong>4. more or less: approximately; almost.</strong> (более или менее, примерно)</p>
+<ol start="9"><li>The kitchen is <em>more or less</em> finished.</li><li>It'll cost about three hundred dollars, <em>more or less</em>.</li></ol>
+<p><strong>5. Rather; more accurately — in <em>more ... than</em>, comparing two descriptions of the same thing.</strong> (скорее)</p>
+<ol start="11"><li>She was <em>more</em> surprised than angry.</li><li>He's <em>more</em> shy than rude — give him time.</li><li>For us, the trip was <em>more</em> about family than sightseeing.</li></ol>
+<p><strong>6. more than: very; extremely — before adjectives.</strong> (более чем, очень)</p>
+<ol start="14"><li>I'd be <em>more than</em> happy to help.</li><li>The results were <em>more than</em> satisfactory.</li></ol>
+<p><strong>7. what's more: in addition, and this matters even more.</strong> (более того, к тому же)</p>
+<ol start="16"><li>The apartment is cheap, and <em>what's more</em>, it's close to work.</li><li>He was late again. <em>What's more</em>, he didn't apologize.</li></ol>
+<p><strong>8. no more than: only; not over.</strong> (не более, всего лишь)</p>
+<ol start="18"><li>The drive takes <em>no more than</em> twenty minutes.</li><li>She was <em>no more than</em> a child when she left home.</li></ol>
+<hr>
+<h3 id="most">most<a class="hash" href="#most" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/moʊst/ &middot; <em>MOHST</em></dd><dt>Русский</dt><dd>самый, наиболее; больше всего</dd><dt>Type</dt><dd>degree</dd><dt>Position</dt><dd>before its word — before adjectives and adverbs (<em>most useful</em>); end after the verb (<em>what I miss most</em>)</dd><dt>Comparison</dt><dd>irregular — the superlative of <em>much</em>: <em>much</em>, <em>more</em>, <em>most</em></dd><dt>Modifies</dt><dd>verbs, adjectives, adverbs, and in informal American speech <em>every</em>, <em>all</em> and <em>everyone</em></dd><dt>Contrast</dt><dd><em>The most</em> + adjective is the superlative (<em>the most interesting book</em> — самая интересная); <em>a most</em> + adjective, or <em>most</em> with nothing being compared (<em>That's most kind of you</em>), is formal and means <em>very</em> (<em>a most interesting book</em> — весьма интересная). Do not confuse the adverb with <em>mostly</em> (mainly): <em>What I like most is the food</em> vs <em>The audience was mostly students</em>. <em>Most people</em> (большинство людей) is the determiner; in that meaning it is never <em>most of people</em> (only <em>most of the people</em>), and <em>the most people</em> means 'the largest number of people'. <em>Most</em> meaning <em>almost</em> (<em>most everyone</em>) is informal American — avoid it in writing. One-syllable words take <em>-est</em>: <em>fastest</em>, never <em>most fast</em>.</dd></dl>
+<p>Most has 5 distinct senses.</p>
+<p><strong>1. Used before adjectives and adverbs to form the superlative.</strong> (самый, наиболее)</p>
+<ol><li>It's the <em>most</em> beautiful park in the city.</li><li>Of all the drivers, she drove <em>most</em> carefully.</li><li>Which of these plans is <em>most</em> likely to work?</li></ol>
+<p><strong>2. To the greatest degree; more than anything else — with verbs.</strong> (больше всего)</p>
+<ol start="4"><li>What I miss <em>most</em> is my mom's cooking.</li><li>The people who need help the <em>most</em> are often the last to ask for it.</li><li><em>Most of all</em>, I want to thank my parents.</li></ol>
+<p><strong>3. at most, at the most: not more than; at the maximum.</strong> (самое большее, не более)</p>
+<ol start="7"><li>The drive takes an hour <em>at most</em>.</li><li>There were twenty people there, thirty <em>at the most</em>.</li><li>I can stay a week <em>at most</em>.</li></ol>
+<p><strong>4. Very; extremely — formal, often after <em>a</em>.</strong> (весьма, чрезвычайно)</p>
+<ol start="10"><li>That's <em>most</em> kind of you.</li><li>It was a <em>most</em> unusual evening.</li></ol>
+<p><strong>5. Almost — before <em>every</em>, <em>all</em>, <em>everyone</em> and <em>anyone</em>; informal American.</strong> (почти)</p>
+<ol start="12"><li><em>Most</em> everyone in town came to the game.</li><li>We eat there <em>most</em> every Friday.</li></ol>
+<hr>
+<h3 id="less">less<a class="hash" href="#less" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɛs/ &middot; <em>LES</em></dd><dt>Русский</dt><dd>меньше, менее</dd><dt>Type</dt><dd>degree</dd><dt>Position</dt><dd>before its word — before adjectives and adverbs (<em>less expensive</em>); end after the verb (<em>I worry less now</em>)</dd><dt>Comparison</dt><dd>irregular — the comparative of <em>little</em>: <em>little</em>, <em>less</em>, <em>least</em></dd><dt>Modifies</dt><dd>verbs, adjectives and adverbs</dd><dt>Contrast</dt><dd>Everyday speech prefers <em>not as ... as</em> to <em>less</em> with short adjectives: <em>He's not as tall as his brother</em> sounds natural, <em>He's less tall than his brother</em> does not — and Russian <em>менее</em> before an adjective is often best translated that way. <em>Less</em> before a plural noun (<em>less people</em>) is a determiner use that careful writing replaces with <em>fewer</em>. <em>Less than happy</em> is a polite way to say <em>unhappy</em>, not a comparison. <em>Lesser</em> is an adjective (<em>the lesser evil</em>), not a comparative adverb.</dd></dl>
+<p>Less has 4 distinct senses.</p>
+<p><strong>1. Used before adjectives and adverbs: not as; to a smaller degree.</strong> (менее, не так)</p>
+<ol><li>The second hotel was <em>less</em> expensive.</li><li>I see her <em>less</em> often now that she's moved.</li><li>The trail is <em>less</em> crowded on weekdays.</li></ol>
+<p><strong>2. To a smaller degree; a smaller amount — with verbs.</strong> (меньше)</p>
+<ol start="4"><li>Try to worry <em>less</em> and sleep more.</li><li>I've been driving <em>less and less</em> since I started biking to work.</li><li>My new job pays <em>less</em>, but I'm much happier.</li></ol>
+<p><strong>3. less than: not at all; far from — a polite understatement before an adjective.</strong> (далеко не, не слишком)</p>
+<ol start="7"><li>She was <em>less than</em> thrilled with the news.</li><li>The service at the hotel was <em>less than</em> perfect.</li></ol>
+<p><strong>4. no less: used to stress that an amount is surprisingly large or a person surprisingly important.</strong> (не менее, целых, не кто иной, как)</p>
+<ol start="9"><li>The house sold for <em>no less</em> than three million dollars.</li><li>The award was presented by the governor, <em>no less</em>.</li></ol>
+<hr>
+<h3 id="least">least<a class="hash" href="#least" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːst/ &middot; <em>LEEST</em></dd><dt>Русский</dt><dd>меньше всего, наименее</dd><dt>Type</dt><dd>degree; also focusing</dd><dt>Position</dt><dd>before its word — before adjectives and adverbs (<em>the least expensive</em>); mid or end with verbs (<em>when you least expect it</em>)</dd><dt>Comparison</dt><dd>irregular — the superlative of <em>little</em>: <em>little</em>, <em>less</em>, <em>least</em></dd><dt>Modifies</dt><dd>verbs, adjectives, adverbs, numbers and whole clauses (<em>at least</em>)</dd><dt>Contrast</dt><dd>Do not mix up <em>at least</em> (по крайней мере, хотя бы) and <em>at last</em> (наконец): <em>At last you're here!</em> is relief after waiting. <em>At least</em> before a number means 'no fewer than', and after a complaint it means 'still, one good thing is': <em>At least nobody got hurt</em>. <em>Not in the least</em> (ничуть) is emphatic and a little formal. <em>The least</em> before a noun (<em>the least money</em>) is the determiner and belongs to that dictionary.</dd></dl>
+<p>Least has 6 distinct senses.</p>
+<p><strong>1. at least: not less than; at the minimum.</strong> (по крайней мере, не менее)</p>
+<ol><li>The drive takes <em>at least</em> four hours.</li><li>You should brush your teeth <em>at least</em> twice a day.</li></ol>
+<p><strong>2. at least: anyway; even if nothing else is true or is done.</strong> (хотя бы, по крайней мере)</p>
+<ol start="3"><li>The food was bad, but <em>at least</em> it was cheap.</li><li>You could <em>at least</em> call if you're going to be late.</li></ol>
+<p><strong>3. at least: or to put it more exactly — used to correct or limit what you have just said.</strong> (во всяком случае, по крайней мере)</p>
+<ol start="5"><li>She's coming to the party — <em>at least</em>, she said she was.</li><li>Nobody saw anything, or <em>at least</em> nobody's saying so.</li></ol>
+<p><strong>4. Used before adjectives and adverbs: to the smallest degree.</strong> (наименее)</p>
+<ol start="7"><li>This is the <em>least</em> expensive hotel in the area.</li><li>Math is the subject I'm <em>least</em> interested in.</li></ol>
+<p><strong>5. To the smallest degree; less than anything else — with verbs, and in <em>least of all</em>.</strong> (меньше всего)</p>
+<ol start="9"><li>Trouble always comes when you <em>least</em> expect it.</li><li>Nobody wanted to move, <em>least of all</em> my kids.</li></ol>
+<p><strong>6. not in the least: not at all.</strong> (ничуть, нисколько)</p>
+<ol start="11"><li>I'm not <em>in the least</em> surprised.</li><li>She didn't seem <em>in the least</em> worried about the exam.</li></ol>
+<hr>
+<h3 id="farther">farther<a class="hash" href="#farther" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrðər/ &middot; <em>FAHR-thur</em></dd><dt>Русский</dt><dd>дальше</dd><dt>Type</dt><dd>place; also degree</dd><dt>Position</dt><dd>end — after the verb (<em>We walked farther</em>); before its word with <em>away</em>, <em>down</em>, <em>north</em> and similar words (<em>farther down the road</em>)</dd><dt>Comparison</dt><dd>irregular — a comparative of <em>far</em>: <em>far</em>, <em>farther</em>, <em>farthest</em></dd><dt>Modifies</dt><dd>verbs, and adverbs and prepositions of place (<em>farther away</em>, <em>farther from</em>)</dd><dt>Form</dt><dd>suppletive — a comparative of <em>far</em>, alongside <em>further</em></dd><dt>Contrast</dt><dd>Careful American usage keeps <em>farther</em> for physical distance and <em>further</em> for degree and addition: <em>We drove farther</em>, but <em>Let's discuss it further</em>. In speech <em>further</em> is used for distance too, but <em>farther</em> never means 'more' or 'in addition' — <em>Farther, the report found...</em> is wrong. Never <em>farer</em> or <em>more far</em>. <em>The farther shore</em> is the adjective.</dd></dl>
+<p>Farther has 2 distinct senses.</p>
+<p><strong>1. At or to a greater distance in space.</strong> (дальше)</p>
+<ol><li>I can't walk any <em>farther</em>.</li><li>Their house is a little <em>farther</em> down the road.</li><li>The <em>farther</em> north you go, the colder it gets.</li></ol>
+<p><strong>2. At or to a more distant point in time, or to a greater extent.</strong> (дальше, далее)</p>
+<ol start="4"><li>We can trace the family <em>farther</em> back than 1800.</li><li>Nothing could be <em>farther</em> from the truth.</li></ol>
+<hr>
+<h3 id="farthest">farthest<a class="hash" href="#farthest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrðəst/ &middot; <em>FAHR-thuhst</em></dd><dt>Русский</dt><dd>дальше всего</dd><dt>Type</dt><dd>place</dd><dt>Position</dt><dd>end — after the verb (<em>Who lives farthest?</em>)</dd><dt>Comparison</dt><dd>irregular — a superlative of <em>far</em>: <em>far</em>, <em>farther</em>, <em>farthest</em></dd><dt>Modifies</dt><dd>verbs, and adverbs and prepositions of place (<em>farthest away</em>, <em>farthest from</em>)</dd><dt>Form</dt><dd>suppletive — a superlative of <em>far</em>, alongside <em>furthest</em></dd><dt>Contrast</dt><dd>Careful American usage keeps <em>farthest</em> for physical distance and prefers <em>furthest</em> for degree: <em>She lives farthest from school</em>, but <em>His proposal goes furthest toward fixing the problem</em>. Never <em>farest</em> or <em>most far</em>.</dd></dl>
+<p>At or to the greatest distance in space or time.</p>
+<ol><li>Let's see who can throw the ball <em>farthest</em>.</li><li>The kids who live <em>farthest</em> from school take the bus.</li><li>This is the <em>farthest</em> north I've ever been.</li></ol>
+<hr>
+<h3 id="further">further<a class="hash" href="#further" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrðər/ &middot; <em>FUR-thur</em></dd><dt>Русский</dt><dd>дальше; подробнее; кроме того</dd><dt>Type</dt><dd>degree; also place and linking</dd><dt>Position</dt><dd>end — after the verb and its object (<em>discuss it further</em>); front as a linker (<em>Further, the study found...</em>)</dd><dt>Comparison</dt><dd>irregular — a comparative of <em>far</em>: <em>far</em>, <em>further</em>, <em>furthest</em></dd><dt>Modifies</dt><dd>verbs, whole clauses, and adverbs and prepositions of place (<em>further down</em>)</dd><dt>Form</dt><dd>suppletive — a comparative of <em>far</em>, alongside <em>farther</em></dd><dt>Contrast</dt><dd><em>Further</em> covers everything <em>farther</em> does and more: only <em>further</em> means 'to a greater degree' (<em>Prices fell further</em>) or 'in addition' (<em>Further, the report found...</em>), though careful American writing still gives physical distance to <em>farther</em>. <em>Further</em> is also an adjective (<em>further information</em> — дополнительная информация) and a verb (<em>to further your career</em> — продвигать), both in other dictionaries; the linker <em>furthermore</em> is its own word. Russian <em>и так далее</em> is <em>and so on</em>, not <em>and so further</em>.</dd></dl>
+<p>Further has 3 distinct senses.</p>
+<p><strong>1. To a greater degree or extent; more.</strong> (дальше, ещё больше, подробнее)</p>
+<ol><li>We need to look into this <em>further</em>.</li><li>Prices dropped <em>further</em> in March.</li><li>I don't want to discuss it any <em>further</em>.</li></ol>
+<p><strong>2. At or to a greater distance in space or time, or later in a text.</strong> (дальше, далее)</p>
+<ol start="4"><li>The gas station is a mile <em>further</em> down the road.</li><li>Let's walk a little <em>further</em> before we turn back.</li><li>See the chart <em>further</em> down the page.</li></ol>
+<p><strong>3. In addition; moreover — at the start of a sentence, formal.</strong> (кроме того, более того)</p>
+<ol start="7"><li><em>Further</em>, the study found no link between the two.</li><li>The plan is expensive. <em>Further</em>, it would take years to finish.</li></ol>
+<hr>
+<h3 id="furthest">furthest<a class="hash" href="#furthest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrðəst/ &middot; <em>FUR-thuhst</em></dd><dt>Русский</dt><dd>дальше всего; больше всего</dd><dt>Type</dt><dd>place; also degree</dd><dt>Position</dt><dd>end — after the verb (<em>Who traveled furthest?</em>)</dd><dt>Comparison</dt><dd>irregular — a superlative of <em>far</em>: <em>far</em>, <em>further</em>, <em>furthest</em></dd><dt>Modifies</dt><dd>verbs, and adverbs and prepositions of place (<em>furthest away</em>, <em>furthest from</em>)</dd><dt>Form</dt><dd>suppletive — a superlative of <em>far</em>, alongside <em>farthest</em></dd><dt>Contrast</dt><dd>Careful American writing uses <em>farthest</em> for physical distance, but <em>furthest</em> is common for distance in speech and is the only choice for degree: <em>the country that has gone furthest in cutting emissions</em>. <em>The furthest point</em> before a noun is the adjective.</dd></dl>
+<p>Furthest has 2 distinct senses.</p>
+<p><strong>1. At or to the greatest distance in space or time.</strong> (дальше всего)</p>
+<ol><li>Of the three of us, I live <em>furthest</em> from the office.</li><li>The <em>furthest</em> back I can remember is our old house in Ohio.</li></ol>
+<p><strong>2. To the greatest degree or extent.</strong> (больше всего, дальше всех)</p>
+<ol start="3"><li>Of all the candidates, she has gone <em>furthest</em> in promising tax cuts.</li><li>California has pushed <em>furthest</em> toward banning gas-powered cars.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

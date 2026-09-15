@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Question and relative adverbs</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="question-and-relative-adverbs">Question and relative adverbs<a class="hash" href="#question-and-relative-adverbs" aria-label="link">#</a></h1>
+<blockquote><p><em>when</em>, <em>where</em>, <em>why</em>, <em>how</em> — asking about circumstances, and introducing clauses about time, place and reason.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>The same four words ask questions (<em>Where did you park?</em>) and introduce relative clauses (<em>the lot where I parked</em>). In indirect questions the word order returns to normal — <em>Do you know where I parked?</em>, not <em>where did I park</em> — which is the most persistent error with this group. The <em>-ever</em> compounds (<em>wherever</em>, <em>whenever</em>, <em>however</em>) mean <em>no matter where/when/how</em>.</p>
+<hr>
+<h3 id="when">when<a class="hash" href="#when" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛn/ &middot; <em>WEN</em></dd><dt>Русский</dt><dd>когда</dd><dt>Type</dt><dd>interrogative; also relative</dd><dt>Position</dt><dd>front — first in a question, or first in its own clause after a time noun (<em>the day when…</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause — asks for or names a time</dd><dt>Contrast</dt><dd>Tense: a <em>when</em> question asks for a point in time, so it takes the past simple, not the present perfect — <em>When did you arrive?</em>, never <em>When have you arrived?</em> Word order: an indirect question keeps statement order — <em>Do you know when the store opens?</em>, not <em>when does the store open</em>. <em>Will</em> after <em>when</em> is fine in an indirect question (<em>I don't know when she'll call</em>) but wrong in a time clause (<em>Call me when you land</em>, not <em>when you will land</em>); that time-clause use, and <em>when</em> meaning <em>considering that</em> or <em>although</em> (<em>Why buy it when you can borrow it?</em>), are the conjunction <em>when</em>, covered in the conjunctions dictionary. Right after a time noun, a relative <em>when</em> can be replaced by <em>that</em> or dropped: <em>the day (that) we met</em>; after a comma (<em>in 2019, when prices were low</em>) it cannot.</dd></dl>
+<p>When has 3 distinct senses.</p>
+<p><strong>1. At what time; on what occasion — in direct and indirect questions.</strong> (когда)</p>
+<ol><li><em>When</em> does the pharmacy close tonight?</li><li>Do you know <em>when</em> the next bus comes?</li><li><em>When</em> did you move to Denver?</li></ol>
+<p><strong>2. At or on which — after a time noun, or after a time already named, and in <em>that's when</em>.</strong> (когда (в который))</p>
+<ol start="4"><li>I'll never forget the day <em>when</em> you were born.</li><li>We bought the house in 2019, <em>when</em> prices were still low.</li><li>That's <em>when</em> I realized I'd left my wallet at the gym.</li></ol>
+<p><strong>3. In what circumstances; in what cases — asking about conditions rather than a clock time.</strong> (в каких случаях, когда)</p>
+<ol start="7"><li><em>When</em> is it OK to use a semicolon?</li><li><em>When</em> would I ever need to know calculus?</li><li><em>When</em> do you need a permit to build a fence?</li></ol>
+<hr>
+<h3 id="where">where<a class="hash" href="#where" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛr/ &middot; <em>WAIR</em></dd><dt>Русский</dt><dd>где, куда, откуда</dd><dt>Type</dt><dd>interrogative; also relative</dd><dt>Position</dt><dd>front — first in a question, or first in its own clause after a place or situation noun (<em>the town where…</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause — asks for or names a place or a situation</dd><dt>Contrast</dt><dd>Russian splits <em>где</em>, <em>куда</em> and <em>откуда</em>; English uses <em>where</em> for all three and lets a final preposition do the rest — <em>Where are you from?</em> (откуда), never <em>From where are you?</em>; <em>Where are you going?</em> needs no <em>to</em>, and <em>Where are you at?</em> is informal. As a relative, <em>where</em> already contains the preposition: <em>the house where I grew up</em> or <em>the house I grew up in</em>, never <em>where I grew up in</em>. A verb that takes a direct object needs <em>that</em> or <em>which</em>, not <em>where</em>: <em>the city that we visited</em>, not <em>the city where we visited</em>. Indirect questions keep statement order: <em>Do you know where she lives?</em>, not <em>where does she live</em>. A clause that asks nothing and follows no noun or <em>that's</em> (<em>Sit where you like</em>, <em>Where there's smoke, there's fire</em>) is the conjunction <em>where</em>. Spelling: <em>where</em> sounds like <em>wear</em>; <em>were</em> rhymes with <em>her</em>.</dd></dl>
+<p>Where has 4 distinct senses.</p>
+<p><strong>1. In, at, to or from what place — in direct and indirect questions.</strong> (где, куда, откуда)</p>
+<ol><li><em>Where</em> did you park the car?</li><li><em>Where</em> are you from originally?</li><li>Can you tell me <em>where</em> the restrooms are?</li></ol>
+<p><strong>2. In what situation, at what stage or in what respect — in questions.</strong> (где, в чём, на каком этапе)</p>
+<ol start="4"><li><em>Where</em> do you stand on working from home?</li><li><em>Where</em> did we go wrong with this project?</li><li><em>Where</em> are we on the budget?</li></ol>
+<p><strong>3. At, in or to which place — after a place noun or a place already named, and in <em>that's where</em>.</strong> (где, в котором, куда)</p>
+<ol start="7"><li>This is the diner <em>where</em> we had our first date.</li><li>They moved to Austin, <em>where</em> her sister lives.</li><li>That's <em>where</em> I left my keys.</li></ol>
+<p><strong>4. In which situation, case or stage — after nouns like <em>point</em>, <em>case</em> and <em>situation</em>.</strong> (когда, в котором, при котором)</p>
+<ol start="10"><li>We've reached the point <em>where</em> nobody is listening anymore.</li><li>There are cases <em>where</em> the rule doesn't apply.</li><li>It's a situation <em>where</em> everybody loses.</li></ol>
+<hr>
+<h3 id="why">why<a class="hash" href="#why" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪ/ &middot; <em>WY</em></dd><dt>Русский</dt><dd>почему, зачем</dd><dt>Type</dt><dd>interrogative; also relative</dd><dt>Position</dt><dd>front — first in a question, or first in its own clause after <em>reason</em> or <em>that's</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause — asks for or names a reason or purpose</dd><dt>Contrast</dt><dd><em>Why don't you…?</em> and <em>Why don't we…?</em> are usually suggestions, not questions about a reason, so an answer starting <em>Because…</em> misses the point. <em>Why not</em> takes a bare verb: <em>Why not ask her?</em>, never <em>Why not to ask her?</em> Unlike <em>how</em> and <em>where</em>, <em>why</em> takes no <em>to</em>-infinitive: <em>I don't know why I should go</em>, not <em>why to go</em>. <em>Why</em> covers both <em>почему</em> and <em>зачем</em>; for purpose, speech also uses <em>What for?</em> (<em>What did you buy that for?</em>). Say <em>the reason why</em> or <em>the reason that</em>, and in careful writing <em>The reason is that…</em>, not <em>The reason is because…</em>. Indirect questions keep statement order: <em>Tell me why you left</em>, not <em>why did you leave</em>. <em>Why, hello!</em> is an old-fashioned interjection, not this adverb.</dd></dl>
+<p>Why has 3 distinct senses.</p>
+<p><strong>1. For what reason or purpose — in direct and indirect questions.</strong> (почему, зачем)</p>
+<ol><li><em>Why</em> are you so late?</li><li>I have no idea <em>why</em> she quit.</li><li><em>Why</em> would anyone pay that much for a parking spot?</li></ol>
+<p><strong>2. For which — after <em>reason</em>, and in <em>that's why</em> and <em>this is why</em>.</strong> ((вот) почему, по которой)</p>
+<ol start="4"><li>That's <em>why</em> I called you first.</li><li>The reason <em>why</em> rents keep rising is simple: there aren't enough apartments.</li><li>Nobody told us the reason <em>why</em> the bridge was closed.</li></ol>
+<p><strong>3. In suggestions — in <em>Why not…?</em> and <em>Why don't you/we…?</em> questions.</strong> (почему бы не)</p>
+<ol start="7"><li><em>Why</em> not take the train instead?</li><li><em>Why</em> don't we just order a pizza?</li><li><em>Why</em> don't you ask your manager about it?</li></ol>
+<hr>
+<h3 id="how">how<a class="hash" href="#how" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haʊ/ &middot; <em>HOW</em></dd><dt>Русский</dt><dd>как</dd><dt>Type</dt><dd>interrogative; also relative (<em>that's how</em>) and degree (<em>How nice!</em>)</dd><dt>Position</dt><dd>front — first in a question, exclamation or clause; before its adjective or adverb in <em>how old</em>, <em>how fast</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses; adjectives, adverbs and <em>much</em>/<em>many</em> (<em>how old</em>, <em>how often</em>)</dd><dt>Contrast</dt><dd>Russian <em>как</em> often wants <em>what</em> in English: <em>What do you call this in English?</em> (not <em>How do you call it</em>), <em>What is it called?</em>, <em>What do you think?</em> (not <em>How do you think?</em>), <em>What does she look like?</em> (not <em>How does she look like?</em>). <em>How is he?</em> asks about health or mood; <em>What is he like?</em> asks about character. Exclamations use <em>how</em> with an adjective or adverb but <em>what (a)</em> with a noun — <em>How beautiful!</em>, but <em>What a beautiful house!</em> — and no inversion: <em>How tall you've gotten!</em>, not <em>How tall have you gotten!</em> <em>How come</em> keeps statement order: <em>How come you're late?</em> <em>How do you do?</em> is a formal greeting, not a question. Never <em>the way how</em> — say <em>the way</em> or <em>how</em>. Indirect questions keep statement order: <em>I don't know how it works</em>, not <em>how does it work</em>.</dd></dl>
+<p>How has 7 distinct senses.</p>
+<p><strong>1. In what way; by what means.</strong> (как, каким образом)</p>
+<ol><li><em>How</em> did you get here so fast?</li><li>Can you show me <em>how</em> this app works?</li><li>I never learned <em>how</em> to swim.</li></ol>
+<p><strong>2. In what state or condition; with what result — asking about health, mood or how something went.</strong> (как)</p>
+<ol start="4"><li><em>How</em> are you doing?</li><li><em>How</em> was your flight?</li><li><em>How</em> did the interview go?</li></ol>
+<p><strong>3. To what degree, amount or extent — before an adjective, an adverb, or <em>much</em>/<em>many</em>.</strong> (насколько, сколько)</p>
+<ol start="7"><li><em>How</em> old is your son?</li><li><em>How</em> much did the tickets cost?</li><li><em>How</em> often do you work out?</li></ol>
+<p><strong>4. The way in which — in <em>that's how</em>, <em>this is how</em>, and after verbs like <em>love</em> or <em>remember</em>.</strong> ((вот) как, то, как)</p>
+<ol start="10"><li>That's <em>how</em> we met.</li><li>I love <em>how</em> you decorated the living room.</li><li>This is <em>how</em> you fold a fitted sheet.</li></ol>
+<p><strong>5. In <em>How about…?</em> — making a suggestion or an offer, or turning the same question back to someone.</strong> (как насчёт, а (ты))</p>
+<ol start="13"><li><em>How</em> about a cup of coffee?</li><li><em>How</em> about we leave at seven?</li><li>I'm free on Friday. <em>How</em> about you?</li></ol>
+<p><strong>6. Why; for what reason — in <em>how come</em>, and in <em>How could…?</em> or <em>How dare…?</em> expressing surprise or protest.</strong> (как (же), почему, как так)</p>
+<ol start="16"><li><em>How</em> could you forget her birthday?</li><li><em>How come</em> you're still awake?</li><li><em>How</em> dare he talk to you like that?</li></ol>
+<p><strong>7. To a very great degree — in exclamations.</strong> (как, какой)</p>
+<ol start="19"><li><em>How</em> nice of you to come!</li><li><em>How</em> quickly the summer went by!</li><li>Look <em>how</em> big your puppy has gotten!</li></ol>
+<hr>
+<h3 id="whereby">whereby<a class="hash" href="#whereby" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛrˈbaɪ/ &middot; <em>wair-BY</em></dd><dt>Русский</dt><dd>посредством которого, согласно которому</dd><dt>Type</dt><dd>relative — formal</dd><dt>Position</dt><dd>front — first in its own clause, right after a noun of method or arrangement</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a clause that follows a noun such as <em>system</em>, <em>process</em>, <em>agreement</em></dd><dt>Form</dt><dd>compound — <em>where</em> + <em>by</em>, meaning <em>by which</em></dd><dt>Contrast</dt><dd>Formal — contracts, policy and news writing; in speech say <em>in which</em>, <em>under which</em>, or just <em>that</em> (<em>a system that checks every claim twice</em>). Despite the spelling it has nothing to do with place: <em>the town where I live</em>, never <em>the town whereby I live</em>. It always follows a noun naming a method or an arrangement, and in modern English it cannot open a question. Do not confuse it with the conjunction <em>whereas</em> (тогда как).</dd></dl>
+<p>Whereby has 2 distinct senses.</p>
+<p><strong>1. By means of which — explaining how a method or process works.</strong> (посредством которого, при котором)</p>
+<ol><li>The bank uses a system <em>whereby</em> every transfer is checked twice.</li><li>They developed a process <em>whereby</em> old plastic is turned back into fuel.</li></ol>
+<p><strong>2. Under which; according to which — stating the terms of an agreement or rule.</strong> (согласно которому, по которому)</p>
+<ol start="3"><li>The two cities signed an agreement <em>whereby</em> they share one water supply.</li><li>The company has a policy <em>whereby</em> employees can't accept gifts worth more than $50.</li></ol>
+<hr>
+<h3 id="wherever">wherever<a class="hash" href="#wherever" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛrˈɛvər/ &middot; <em>wair-EV-ur</em></dd><dt>Русский</dt><dd>где угодно, куда угодно</dd><dt>Type</dt><dd>place — bare <em>or wherever</em>; also interrogative (the emphatic <em>Wherever did…?</em>)</dd><dt>Position</dt><dd>front or end — bare <em>wherever</em> closes a list or a clause; <em>Wherever did…?</em> opens a question</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a verb, or stands at the end of a list of places</dd><dt>Form</dt><dd><em>where</em> + <em>-ever</em> — <em>no matter where</em>, <em>any place at all</em></dd><dt>Contrast</dt><dd>Its most common use takes a whole clause — <em>Wherever you go, I'll follow</em> (куда бы ни), <em>Sit wherever you like</em> (где хотите) — and that is the conjunction, covered in the conjunctions dictionary; as with <em>when</em>, no <em>will</em> inside it: <em>wherever you go</em>, not <em>wherever you will go</em>. Russian <em>где бы ни</em> has a <em>ни</em>, but English adds no negative: <em>wherever you look</em>, not <em>wherever you don't look</em>. <em>Wherever</em> is not <em>everywhere</em> (везде): <em>I looked everywhere</em>, not <em>I looked wherever</em>. The emphatic question sounds somewhat old-fashioned in American English and is often written as two words: <em>Where ever did you find it?</em></dd></dl>
+<p>Wherever has 2 distinct senses.</p>
+<p><strong>1. Any place at all; somewhere or other — used bare, often at the end of a list.</strong> (где угодно, куда угодно)</p>
+<ol><li>We could go to Miami, San Diego, or <em>wherever</em> — I just need a beach.</li><li>Just put your bags down <em>wherever</em>.</li><li>You can buy it at Target, Walmart, <em>wherever</em>.</li></ol>
+<p><strong>2. Where — in questions, stressing surprise or impatience.</strong> (где же, куда же)</p>
+<ol start="4"><li><em>Wherever</em> did you find that old photo?</li><li><em>Wherever</em> have you been? We were worried sick.</li></ol>
+<hr>
+<h3 id="whenever">whenever<a class="hash" href="#whenever" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛnˈɛvər/ &middot; <em>wen-EV-ur</em></dd><dt>Русский</dt><dd>когда угодно, когда-нибудь</dd><dt>Type</dt><dd>time — bare <em>or whenever</em>; also interrogative (the emphatic <em>Whenever did…?</em>)</dd><dt>Position</dt><dd>front or end — bare <em>whenever</em> closes a list or a reply; <em>Whenever did…?</em> opens a question</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a verb, or stands at the end of a list of times</dd><dt>Form</dt><dd><em>when</em> + <em>-ever</em> — <em>no matter when</em>, <em>any time at all</em></dd><dt>Contrast</dt><dd>Its most common use takes a whole clause — <em>Whenever it rains, the basement floods</em> (всякий раз, когда), <em>Come whenever you want</em> (когда угодно) — and that is the conjunction, covered in the conjunctions dictionary; no <em>will</em> inside it: <em>whenever you're ready</em>, not <em>whenever you will be ready</em>. Russian <em>когда бы ни</em> has a <em>ни</em>, but English adds no negative: <em>whenever I call</em>, not <em>whenever I don't call</em>. For one single occasion use <em>when</em>: <em>when I was born</em>, never <em>whenever I was born</em>. Bare <em>Whenever.</em> as a reply can sound offhand, as if the speaker doesn't care. The emphatic question is dated and often written <em>when ever</em>.</dd></dl>
+<p>Whenever has 2 distinct senses.</p>
+<p><strong>1. At any time at all; at some time or other — used bare, often at the end of a list or as a reply.</strong> (когда угодно, когда-нибудь)</p>
+<ol><li>Call me tomorrow, next week, or <em>whenever</em>.</li><li>"When should I stop by?" "<em>Whenever</em> — I'm home all day."</li><li>We'll repaint the deck this summer or <em>whenever</em>.</li></ol>
+<p><strong>2. When — in questions, stressing surprise or impatience.</strong> (когда же)</p>
+<ol start="4"><li><em>Whenever</em> did you find the time to paint all these?</li><li><em>Whenever</em> is he going to grow up?</li></ol>
+<hr>
+<h3 id="wherein">wherein<a class="hash" href="#wherein" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛrˈɪn/ &middot; <em>wair-IN</em></dd><dt>Русский</dt><dd>в котором, в чём</dd><dt>Type</dt><dd>relative — formal; also interrogative (<em>Wherein lies…?</em>)</dd><dt>Position</dt><dd>front — first in its own clause after a noun, or first in a question</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a clause that follows a noun, or a whole question</dd><dt>Form</dt><dd>compound — <em>where</em> + <em>in</em>, meaning <em>in which</em></dd><dt>Contrast</dt><dd>Legal and literary; in ordinary English say <em>in which</em>, <em>where</em>, or <em>in what way</em>. <em>Therein lies the problem</em> (вот в чём проблема) points back at something already said, while <em>wherein</em> relates or asks — and neither is the two-word <em>where in</em> of <em>Where in the world is my phone?</em></dd></dl>
+<p>Wherein has 2 distinct senses.</p>
+<p><strong>1. In which — after a noun, usually in legal or formal writing.</strong> (в котором)</p>
+<ol><li>The lease has a clause <em>wherein</em> the tenant agrees to pay for all repairs.</li><li>She described a future <em>wherein</em> nobody owns a car.</li></ol>
+<p><strong>2. In what; in what respect — in direct and indirect questions, mostly <em>Wherein lies…?</em>.</strong> (в чём)</p>
+<ol start="3"><li><em>Wherein</em> lies the appeal of a four-hour movie?</li><li>The report never explains <em>wherein</em> the two proposals really differ.</li></ol>
+<hr>
+<h3 id="whereupon">whereupon<a class="hash" href="#whereupon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwɛrəˈpɑːn/ &middot; <em>wair-uh-PAHN</em></dd><dt>Русский</dt><dd>после чего, вслед за чем</dd><dt>Type</dt><dd>relative — formal, linking to the whole clause before it</dd><dt>Position</dt><dd>front — first in its own clause, after the main clause and a comma</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>the whole preceding clause</dd><dt>Form</dt><dd>compound — <em>where</em> + <em>upon</em>, meaning <em>upon which</em></dd><dt>Contrast</dt><dd>Formal and narrative — police reports, court records, storytelling. It follows the main clause after a comma and means <em>and right then, because of that</em>; in conversation say <em>and then</em> or <em>at which point</em>. A new sentence opening with <em>Whereupon</em> belongs to meeting minutes and court transcripts (<em>Whereupon, the meeting was adjourned</em>); elsewhere keep it inside the sentence. Do not confuse it with <em>whereas</em> (тогда как), which contrasts two facts instead of putting events in order. Many learner's dictionaries label it a conjunction; it works like <em>whereby</em> and <em>wherein</em>, a relative word standing for <em>upon which</em>.</dd></dl>
+<p>Immediately after which, and usually because of it.</p>
+<ol><li>The reporter called him a liar, <em>whereupon</em> he stood up and walked out.</li><li>She mentioned the word "bonus," <em>whereupon</em> everyone suddenly paid attention.</li><li>The judge read the verdict, <em>whereupon</em> the courtroom erupted.</li></ol>
+<hr>
+<h3 id="somehow">somehow<a class="hash" href="#somehow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmhaʊ/ &middot; <em>SUM-how</em></dd><dt>Русский</dt><dd>как-нибудь, каким-то образом, почему-то</dd><dt>Type</dt><dd>manner — the indefinite of <em>how</em>; also stance (<em>for some reason</em>)</dd><dt>Position</dt><dd>any position — <em>Somehow, we…</em>, <em>we somehow…</em>, <em>…somehow</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses; sometimes an adjective (<em>somehow different</em>)</dd><dt>Form</dt><dd><em>some</em> + <em>how</em> — the indefinite of <em>how</em>, like <em>somewhere</em> from <em>where</em></dd><dt>Contrast</dt><dd>Russian <em>как-то</em> and <em>как-нибудь</em> cover more than <em>somehow</em>. <em>Как-то раз</em> is <em>once</em> or <em>one day</em>, not <em>somehow</em>; <em>зайду как-нибудь</em> is <em>I'll drop by sometime</em>, not <em>somehow</em>; <em>как-то странно</em> is usually <em>kind of strange</em>. Use <em>somehow</em> only for an unknown means (<em>We'll manage somehow</em>) or an unexplained feeling (<em>Somehow I don't trust him</em>). <em>Somehow</em> is not <em>somewhat</em> (немного) and not <em>anyhow</em> (в любом случае); <em>somehow or other</em> is an informal, stronger <em>somehow</em>.</dd></dl>
+<p>Somehow has 2 distinct senses.</p>
+<p><strong>1. In some way that is not known or not explained.</strong> (как-нибудь, каким-то образом)</p>
+<ol><li>Don't worry, we'll come up with the money <em>somehow</em>.</li><li><em>Somehow</em> the dog got out of the yard again.</li><li>She <em>somehow</em> finished the marathon on a broken toe.</li></ol>
+<p><strong>2. For a reason, or in a way, that you cannot explain.</strong> (почему-то, как-то)</p>
+<ol start="4"><li><em>Somehow</em> I just don't believe him.</li><li>The house felt <em>somehow</em> different after the renovation.</li><li>It <em>somehow</em> seems wrong to throw these letters away.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adverbs of time</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="adverbs-of-time">Adverbs of time<a class="hash" href="#adverbs-of-time" aria-label="link">#</a></h1>
+<blockquote><p>When? — <em>now</em>, <em>soon</em>, <em>already</em>, <em>yet</em>, <em>still</em>, <em>recently</em>, <em>ago</em>, and the words that place an event on the timeline.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Time adverbs locate an event relative to now or to another event. Several of them are tied to a tense: <em>already</em>, <em>yet</em> and <em>just</em> pull toward the present perfect in American and British English alike, although American speech also allows the simple past (<em>Did you eat yet?</em>). <em>Ago</em> is the odd one out — it follows its time phrase (<em>three days ago</em>) and cannot be used with the present perfect.</p>
+<hr>
+<h3 id="now">now<a class="hash" href="#now" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/naʊ/ &middot; <em>NOW</em></dd><dt>Русский</dt><dd>сейчас, теперь</dd><dt>Type</dt><dd>time; also linking (a discourse marker: <em>Now, listen…</em>)</dd><dt>Position</dt><dd>any position — usually end; front for contrast or as a discourse marker; mid in formal writing (<em>We now turn to…</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses; also <em>just now</em>, <em>right now</em>, <em>by now</em></dd><dt>Contrast</dt><dd>Russian <em>сейчас</em> also means 'in a moment' (<em>сейчас приду</em>); English does not use <em>now</em> for that: <em>I'll be right there</em> or <em>I'm coming</em>, not <em>I come now</em>. <em>Now that…</em> (<em>Now that you're here, we can start</em>) is a conjunction and belongs to another dictionary. <em>Right now</em> is 'at this very moment' or 'immediately', never 'just a moment ago' — that is <em>just now</em>. With a length of time, <em>now</em> is Russian <em>уже</em>: <em>We've lived here ten years now</em> (<em>мы живём здесь уже десять лет</em>), not <em>already ten years</em>.</dd></dl>
+<p>Now has 9 distinct senses.</p>
+<p><strong>1. At the present moment.</strong> (сейчас)</p>
+<ol><li>I can't talk <em>now</em> — I'm driving.</li><li>She's in a meeting right <em>now</em>.</li><li>Where are you living <em>now</em>?</li></ol>
+<p><strong>2. At this period of time, in contrast with the past.</strong> (теперь, в наше время)</p>
+<ol start="4"><li>I used to hate coffee, but <em>now</em> I drink three cups a day.</li><li>Most people <em>now</em> pay with their phones.</li><li>Prices are much higher <em>now</em> than when I was a kid.</li></ol>
+<p><strong>3. In the situation that exists after what has just happened; as a result.</strong> (теперь)</p>
+<ol start="7"><li>You missed the last bus — how are you getting home <em>now</em>?</li><li>She read the letter, so <em>now</em> she knows the truth.</li><li>We've come this far; we can't turn back <em>now</em>.</li></ol>
+<p><strong>4. Immediately; without any delay.</strong> (сейчас же, немедленно)</p>
+<ol start="10"><li>Leave <em>now</em> or you'll miss the bus.</li><li>I need that report <em>now</em>, not tomorrow.</li><li>Call her right <em>now</em>, before she goes to bed.</li></ol>
+<p><strong>5. With a length of time: up to the present, counting from when something began.</strong> (уже)</p>
+<ol start="13"><li>We've been married twenty years <em>now</em>.</li><li>It's been three weeks <em>now</em>, and she still hasn't called.</li><li>I've lived in Texas for a long time <em>now</em>.</li></ol>
+<p><strong>6. At the point in a past story being told; by that time.</strong> (теперь, уже, тут)</p>
+<ol start="16"><li>It was <em>now</em> completely dark, and we were lost.</li><li>The crowd was <em>now</em> chanting his name.</li></ol>
+<p><strong>7. Only a moment ago (<em>just now</em>).</strong> (только что)</p>
+<ol start="18"><li>Your mom called <em>just now</em>.</li><li>Who was that at the door <em>just now</em>?</li></ol>
+<p><strong>8. Occasionally, from time to time (<em>now and then</em>, <em>now and again</em>).</strong> (время от времени, иногда)</p>
+<ol start="20"><li>We still see each other every <em>now and then</em>.</li><li><em>Now and again</em> he sends me a postcard.</li></ol>
+<p><strong>9. Used to get attention, move to a new point, or soften a warning or comfort.</strong> (итак, ну, так вот; ну-ну (успокаивая))</p>
+<ol start="22"><li><em>Now</em>, let's look at the second question.</li><li><em>Now</em>, <em>now</em>, don't cry — it's only a scratch.</li><li><em>Now</em> listen to me carefully.</li></ol>
+<hr>
+<h3 id="then">then<a class="hash" href="#then" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ðɛn/ &middot; <em>THEN</em></dd><dt>Русский</dt><dd>тогда, потом, затем</dd><dt>Type</dt><dd>time; also linking (<em>in that case</em>, <em>but then</em>)</dd><dt>Position</dt><dd>any position — 'next' front, after <em>and</em>, or mid (<em>she then left</em>); 'at that time' usually end; 'in that case' front or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and whole clauses</dd><dt>Contrast</dt><dd><em>then</em> is not <em>than</em>: <em>She's taller than me</em>, never <em>taller then me</em> — the two sound almost the same in fast speech and native speakers misspell them too. <em>then</em> is an adverb, not a conjunction, so careful writing joins two clauses with <em>and then</em>: <em>I finished my work, and then I went home</em>, not <em>I finished my work, then I went home</em>. The adjective use (<em>the then president</em>) belongs to another dictionary.</dd></dl>
+<p>Then has 5 distinct senses.</p>
+<p><strong>1. After that; next in time or in order.</strong> (потом, затем)</p>
+<ol><li>We had dinner, and <em>then</em> we went to a movie.</li><li>First add the flour, <em>then</em> the eggs.</li><li>Turn left at the light, and <em>then</em> it's the second house on the right.</li></ol>
+<p><strong>2. At that time, in the past or the future.</strong> (тогда, в то время)</p>
+<ol start="4"><li>We were living in Chicago <em>then</em>.</li><li>Call me Friday — I'll know more <em>then</em>.</li><li>Back <em>then</em>, nobody had a cell phone.</li></ol>
+<p><strong>3. In that case; so; as a result.</strong> (тогда, значит, в таком случае)</p>
+<ol start="7"><li>If you're tired, <em>then</em> go to bed.</li><li>"I don't have a car." "<em>Then</em> how did you get here?"</li><li>Okay <em>then</em>, I'll see you tomorrow.</li></ol>
+<p><strong>4. In addition; on top of that (<em>and then</em>).</strong> (а ещё, к тому же)</p>
+<ol start="10"><li>The rent is high, and <em>then</em> there's parking to pay for.</li><li>I have to finish this report, and <em>then</em> there are all those emails.</li></ol>
+<p><strong>5. On the other hand; considering this (<em>but then</em>, <em>then again</em>).</strong> (впрочем, с другой стороны)</p>
+<ol start="12"><li>He's very quiet, but <em>then</em> his father was the same way.</li><li>I might go to the party. <em>Then again</em>, I might just stay home.</li></ol>
+<hr>
+<h3 id="today">today<a class="hash" href="#today" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈdeɪ/ &middot; <em>tuh-DAY</em></dd><dt>Русский</dt><dd>сегодня; в наши дни</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>front or end — usually end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Contrast</dt><dd>No preposition: <em>I'm working today</em>, not <em>on today</em>. Russian <em>сегодня утром / сегодня вечером</em> is <em>this morning / this evening</em> or <em>tonight</em> — never <em>today morning</em> or <em>today evening</em>. When <em>today</em> is the subject (<em>Today is Monday</em>) it is a noun and belongs to another dictionary.</dd></dl>
+<p>Today has 2 distinct senses.</p>
+<p><strong>1. On this day.</strong> (сегодня)</p>
+<ol><li>I have a dentist appointment <em>today</em>.</li><li>What are you doing <em>today</em>?</li><li>The store closes early <em>today</em>.</li></ol>
+<p><strong>2. At the present period; nowadays.</strong> (в наши дни, сегодня)</p>
+<ol start="4"><li>Kids <em>today</em> spend hours online.</li><li><em>Today</em>, most homes in the US have internet access.</li><li>Few people <em>today</em> remember how to use a paper map.</li></ol>
+<hr>
+<h3 id="tomorrow">tomorrow<a class="hash" href="#tomorrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈmɑːroʊ/ &middot; <em>tuh-MAHR-oh</em></dd><dt>Русский</dt><dd>завтра</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>front or end — usually end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Contrast</dt><dd>No preposition: <em>See you tomorrow</em>, not <em>on tomorrow</em>. <em>Завтра утром</em> is usually <em>tomorrow morning</em> (<em>tomorrow in the morning</em> sounds clumsy); <em>послезавтра</em> is <em>the day after tomorrow</em>. A timetable takes the present simple: <em>The flight leaves at seven tomorrow</em>. As a subject (<em>Tomorrow is Friday</em>) it is a noun and belongs to another dictionary.</dd></dl>
+<p>On the day after today.</p>
+<ol><li>I'll call you <em>tomorrow</em>.</li><li><em>Tomorrow</em> we're driving up to the lake.</li><li>The package should arrive <em>tomorrow</em> morning.</li></ol>
+<hr>
+<h3 id="yesterday">yesterday<a class="hash" href="#yesterday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɛstərdeɪ/ &middot; <em>YES-tur-day</em></dd><dt>Русский</dt><dd>вчера</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>front or end — usually end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Contrast</dt><dd>Past simple, not the present perfect: <em>I saw her yesterday</em>, not <em>I have seen her yesterday</em>. <em>Вчера вечером</em> is <em>yesterday evening</em> or <em>last night</em>; <em>вчера ночью</em> is <em>last night</em>, never <em>yesterday night</em>. <em>Позавчера</em> is <em>the day before yesterday</em>. As a subject (<em>Yesterday was cold</em>) it is a noun and belongs to another dictionary.</dd></dl>
+<p>Yesterday has 2 distinct senses.</p>
+<p><strong>1. On the day before today.</strong> (вчера)</p>
+<ol><li>I ran into your sister <em>yesterday</em>.</li><li>It rained all day <em>yesterday</em>.</li><li><em>Yesterday</em> afternoon we finally finished the project.</li></ol>
+<p><strong>2. Very recently, as it seems (<em>only yesterday</em>).</strong> (совсем недавно)</p>
+<ol start="4"><li>It seems like only <em>yesterday</em> that we moved in.</li><li>I remember it as if it happened <em>yesterday</em>.</li></ol>
+<hr>
+<h3 id="tonight">tonight<a class="hash" href="#tonight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈnaɪt/ &middot; <em>tuh-NYT</em></dd><dt>Русский</dt><dd>сегодня вечером, сегодня ночью</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>front or end — usually end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Contrast</dt><dd>Russian splits <em>сегодня вечером</em> and <em>сегодня ночью</em>; English <em>tonight</em> covers both, from about sunset on. The night that has just ended is <em>last night</em>, not <em>tonight</em> or <em>this night</em>. No preposition: <em>Are you free tonight?</em>, not <em>at tonight</em>.</dd></dl>
+<p>On the evening or night of today.</p>
+<ol><li>Are you free <em>tonight</em>?</li><li>It's supposed to snow <em>tonight</em>.</li><li><em>Tonight</em> we're having pizza and watching a movie.</li></ol>
+<hr>
+<h3 id="soon">soon<a class="hash" href="#soon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/suːn/ &middot; <em>SOON</em></dd><dt>Русский</dt><dd>скоро, вскоре</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid or end — end is most common; mid after an auxiliary (<em>will soon be</em>); front for a new stage in a story</dd><dt>Comparison</dt><dd>-er/-est — <em>sooner</em>, <em>soonest</em></dd><dt>Modifies</dt><dd>verbs; also <em>too soon</em>, <em>how soon</em>, <em>soon after</em></dd><dt>Contrast</dt><dd><em>No sooner</em> fronted forces inversion and takes <em>than</em>, not <em>when</em>: <em>No sooner had we sat down than the phone rang</em>. <em>As soon as</em> takes the present for a future event: <em>Call me as soon as you arrive</em>, not <em>as soon as you will arrive</em>. <em>soon</em> is not <em>early</em>: <em>I got up early</em>, not <em>I got up soon</em>.</dd></dl>
+<p>Soon has 3 distinct senses.</p>
+<p><strong>1. In a short time from now or from the time mentioned.</strong> (скоро, вскоре)</p>
+<ol><li>Dinner will be ready <em>soon</em>.</li><li><em>Soon</em> after we arrived, it started to rain.</li><li>We'll <em>soon</em> find out who won.</li></ol>
+<p><strong>2. Early or quickly; before the time expected.</strong> (рано, быстро)</p>
+<ol start="4"><li>How <em>soon</em> can you get here?</li><li>It's too <em>soon</em> to say whether the treatment is working.</li><li>The <em>sooner</em> we leave, the <em>sooner</em> we'll get there.</li></ol>
+<p><strong>3. Rather; preferably (<em>would sooner</em>, <em>would just as soon</em>).</strong> (скорее, лучше, охотнее)</p>
+<ol start="7"><li>I'd <em>sooner</em> walk than wait an hour for the bus.</li><li>She would <em>sooner</em> quit than apologize to him.</li><li>I'd just as <em>soon</em> stay home tonight.</li></ol>
+<hr>
+<h3 id="later">later<a class="hash" href="#later" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪtər/ &middot; <em>LAY-tur</em></dd><dt>Русский</dt><dd>позже, потом</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>end — also front (<em>Later, …</em>) and mid (<em>she later became…</em>)</dd><dt>Comparison</dt><dd>not gradable — it is already the comparative of <em>late</em> (<em>much later</em>, <em>a little later</em>)</dd><dt>Modifies</dt><dd>verbs; follows a time phrase (<em>two years later</em>)</dd><dt>Form</dt><dd>comparative of <em>late</em>, used as a time adverb in its own right</dd><dt>Contrast</dt><dd><em>two days later</em> counts forward from a past event (<em>спустя два дня</em>); counting forward from now is <em>in two days</em>: <em>I'll be back in two days</em>, not <em>two days later</em>. Standing alone, <em>later</em> or <em>afterward</em> is safe; <em>after</em> at the end (<em>I'll do it after</em>) is casual. Do not confuse with <em>latter</em> (the second of two).</dd></dl>
+<p>Later has 3 distinct senses.</p>
+<p><strong>1. At some time after now; afterward.</strong> (позже, потом)</p>
+<ol><li>I'll call you <em>later</em>.</li><li>Can we talk about this <em>later</em>?</li><li>See you <em>later</em>!</li></ol>
+<p><strong>2. After the past time or event mentioned.</strong> (позже, впоследствии, (три года) спустя)</p>
+<ol start="4"><li>Three years <em>later</em>, they got married.</li><li>She <em>later</em> became a federal judge.</li><li><em>Later</em> that night, the power went out.</li></ol>
+<p><strong>3. At a time after the usual, expected or stated time.</strong> (позже, позднее)</p>
+<ol start="7"><li>Can we meet <em>later</em> than six?</li><li>The kids stayed up <em>later</em> than usual.</li></ol>
+<hr>
+<h3 id="recently">recently<a class="hash" href="#recently" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːsəntli/ &middot; <em>REE-sunt-lee</em></dd><dt>Русский</dt><dd>недавно; в последнее время</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid or end — also front</dd><dt>Comparison</dt><dd>more/most — <em>more recently</em>, <em>most recently</em></dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Form</dt><dd>-ly from <em>recent</em></dd><dt>Contrast</dt><dd>The tense follows the meaning: one event 'not long ago' takes the past simple (<em>I recently bought a car</em>); a period 'lately' takes the present perfect (<em>I've been busy recently</em>). <em>lately</em> covers only the second meaning: <em>I recently met her</em>, not <em>I lately met her</em>.</dd></dl>
+<p>Recently has 2 distinct senses.</p>
+<p><strong>1. Not long ago.</strong> (недавно)</p>
+<ol><li>We <em>recently</em> moved to Austin.</li><li>The bridge was <em>recently</em> repainted.</li><li><em>Most recently</em>, she ran a small bakery in Denver.</li></ol>
+<p><strong>2. During the period up to now.</strong> (в последнее время)</p>
+<ol start="4"><li>Have you seen any good movies <em>recently</em>?</li><li>I haven't been sleeping well <em>recently</em>.</li></ol>
+<hr>
+<h3 id="already">already<a class="hash" href="#already" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːlˈrɛdi/ &middot; <em>awl-RED-ee</em></dd><dt>Русский</dt><dd>уже</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid or end — mid is neutral (<em>I've already seen it</em>); end adds emphasis or surprise</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses; also time expressions (<em>already midnight</em>)</dd><dt>Contrast</dt><dd><em>already</em> goes in affirmative sentences; negatives and ordinary questions take <em>yet</em> (<em>Have you finished yet?</em>); <em>already</em> in a question shows surprise. The present perfect is standard, but American English freely uses the past simple: <em>I already ate</em>. Russian <em>уже не</em> is <em>not … anymore</em> or <em>no longer</em>: <em>He doesn't work here anymore</em>, not <em>He already doesn't work here</em>. <em>all ready</em> is two words meaning 'fully prepared': <em>We're all ready to go</em>.</dd></dl>
+<p>Already has 2 distinct senses.</p>
+<p><strong>1. Before now or before a particular time, often sooner than expected (in a question, with surprise: so soon?).</strong> (уже)</p>
+<ol><li>I've <em>already</em> eaten, thanks.</li><li>By the time we got there, the movie had <em>already</em> started.</li><li>You're leaving <em>already</em>?</li></ol>
+<p><strong>2. Informal American: used after a command or complaint to show impatience.</strong> (уже, ну же (с нетерпением))</p>
+<ol start="4"><li>Enough <em>already</em>! We get it.</li><li>Just make up your mind <em>already</em>.</li></ol>
+<hr>
+<h3 id="yet">yet<a class="hash" href="#yet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jɛt/ &middot; <em>YET</em></dd><dt>Русский</dt><dd>ещё (не), уже (в вопросах)</dd><dt>Type</dt><dd>time; also degree (<em>yet another</em>) and linking (<em>and yet</em>)</dd><dt>Position</dt><dd>end — in negatives and questions; mid in <em>have yet to</em>, <em>may yet</em>; before its word in <em>yet another</em>, <em>yet again</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses; comparatives and <em>another</em>, <em>again</em></dd><dt>Contrast</dt><dd>Russian <em>ещё</em> is both <em>yet</em> and <em>still</em>: <em>I haven't decided yet</em> (<em>ещё не решил</em>) but <em>I still live there</em> (<em>всё ещё живу</em>); <em>still</em> goes before a negative auxiliary (<em>He still hasn't called</em>), <em>yet</em> at the end (<em>He hasn't called yet</em>). In questions <em>yet</em> is Russian <em>уже</em>: <em>Has the mail come yet?</em> American English allows the past simple: <em>Did you eat yet?</em> <em>have yet to</em> looks affirmative but is negative. The conjunction <em>yet</em> (<em>simple yet effective</em>) belongs to another dictionary.</dd></dl>
+<p>Yet has 5 distinct senses.</p>
+<p><strong>1. Up to now; so far (in negatives and questions, and after a superlative).</strong> (ещё (не); уже (в вопросах); на сегодняшний день)</p>
+<ol><li>I haven't finished <em>yet</em>.</li><li>"Are we there <em>yet</em>?" "Not <em>yet</em>."</li><li>That was her best album <em>yet</em>.</li></ol>
+<p><strong>2. Not so far, although it is expected (<em>have yet to</em>, <em>be yet to</em>).</strong> (ещё не, пока не)</p>
+<ol start="4"><li>The winner has <em>yet</em> to be announced.</li><li>I have <em>yet</em> to meet anyone who actually likes that show.</li></ol>
+<p><strong>3. Still; even now; at some time in the future.</strong> (ещё, всё ещё, всё-таки)</p>
+<ol start="6"><li>We may <em>yet</em> win this game.</li><li>There's hope for him <em>yet</em>.</li><li>Don't give up — this plan could <em>yet</em> work.</li></ol>
+<p><strong>4. Even more; one more time (<em>yet another</em>, <em>yet again</em>, before a comparative).</strong> (ещё (один, раз, более))</p>
+<ol start="9"><li>The flight was delayed <em>yet</em> again.</li><li>That's <em>yet</em> another reason to stay home.</li><li>We got <em>yet</em> more snow overnight.</li></ol>
+<p><strong>5. Nevertheless; in spite of that (<em>and yet</em>).</strong> (и всё же, однако)</p>
+<ol start="12"><li>It's a tiny town, and <em>yet</em> it has three bookstores.</li><li>He knew it was risky, and <em>yet</em> he went ahead anyway.</li></ol>
+<hr>
+<h3 id="still">still<a class="hash" href="#still" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɪl/ &middot; <em>STIL</em></dd><dt>Русский</dt><dd>всё ещё, до сих пор; всё же</dd><dt>Type</dt><dd>time; also linking (<em>nevertheless</em>) and degree (<em>still better</em>)</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em>, before a negative auxiliary; front for 'nevertheless'</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses; comparatives (<em>still more</em>)</dd><dt>Contrast</dt><dd>Before a negative auxiliary: <em>He still hasn't called</em> (<em>всё ещё не</em>), not <em>He hasn't still called</em>. <em>still</em> is for something continuing, <em>not yet</em> for something not started, <em>not anymore</em> for something that stopped. Russian <em>ещё один</em> is <em>another</em> or <em>one more</em>, not <em>still one</em>. The adjective 'not moving' (<em>still water</em>, and also <em>sit still</em>, <em>hold still</em>, <em>keep still</em>) belongs to another dictionary.</dd></dl>
+<p>Still has 3 distinct senses.</p>
+<p><strong>1. Continuing up to now or up to the time mentioned.</strong> (всё ещё, до сих пор)</p>
+<ol><li>She <em>still</em> lives with her parents.</li><li>Are you <em>still</em> at work?</li><li>It was midnight, and he <em>still</em> hadn't called.</li></ol>
+<p><strong>2. Nevertheless; even so.</strong> (всё же, тем не менее)</p>
+<ol start="4"><li>It rained all weekend. <em>Still</em>, we had a great time.</li><li>He drives me crazy, but he's <em>still</em> my brother.</li><li>The hotel was expensive, but it was <em>still</em> worth it.</li></ol>
+<p><strong>3. Even; to a greater degree (with comparatives and <em>another</em>, <em>more</em>).</strong> (ещё (более))</p>
+<ol start="7"><li>The next day was hotter <em>still</em>.</li><li>Ten minutes is good; five is <em>still</em> better.</li><li>Better <em>still</em>, call ahead and reserve a table.</li></ol>
+<hr>
+<h3 id="immediately">immediately<a class="hash" href="#immediately" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmiːdiətli/ &middot; <em>ih-MEE-dee-ut-lee</em></dd><dt>Русский</dt><dd>немедленно, сразу</dd><dt>Type</dt><dd>time; also place (<em>immediately behind</em>)</dd><dt>Position</dt><dd>end — also mid (<em>she immediately called</em>) and before its word (<em>immediately after</em>, <em>immediately below</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; prepositions and adverbs of time and place (<em>immediately after</em>)</dd><dt>Form</dt><dd>-ly from <em>immediate</em></dd><dt>Contrast</dt><dd>British English also uses <em>immediately</em> as a conjunction (<em>Immediately I saw her, I knew</em>); American English says <em>as soon as</em> or <em>the moment</em>: <em>As soon as I saw her, I knew</em>.</dd></dl>
+<p>Immediately has 2 distinct senses.</p>
+<p><strong>1. At once; without any delay.</strong> (немедленно, сразу)</p>
+<ol><li>Please call 911 <em>immediately</em>.</li><li>She <em>immediately</em> recognized his voice.</li><li>The new rules take effect <em>immediately</em>.</li></ol>
+<p><strong>2. Directly next in time, place or relationship, with nothing between.</strong> (сразу, непосредственно)</p>
+<ol start="4"><li>We left <em>immediately</em> after the ceremony.</li><li>The restrooms are <em>immediately</em> to your left.</li><li>Only the people <em>immediately</em> affected were told.</li></ol>
+<hr>
+<h3 id="eventually">eventually<a class="hash" href="#eventually" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈvɛntʃuəli/ &middot; <em>ih-VEN-choo-uh-lee</em></dd><dt>Русский</dt><dd>в конце концов, со временем</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid or end — also front</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Form</dt><dd>-ly from <em>eventual</em></dd><dt>Contrast</dt><dd>False friend: <em>eventually</em> never means 'possibly, if need be' (<em>эвентуально</em>, German <em>eventuell</em>). It says the thing did or will happen in the end, usually after a delay: <em>He eventually agreed</em> = <em>в конце концов согласился</em>. For 'possibly' use <em>possibly</em> or <em>potentially</em>. Unlike <em>finally</em>, it cannot introduce the last point of a list.</dd></dl>
+<p>In the end, after a long time, a delay or a series of events.</p>
+<ol><li>We waited two hours, and the bus <em>eventually</em> came.</li><li>You'll get used to the cold <em>eventually</em>.</li><li><em>Eventually</em>, they sold the house and moved to Florida.</li></ol>
+<hr>
+<h3 id="finally">finally<a class="hash" href="#finally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪnəli/ &middot; <em>FYN-uh-lee</em></dd><dt>Русский</dt><dd>наконец; окончательно</dd><dt>Type</dt><dd>time; also linking (the last point)</dd><dt>Position</dt><dd>mid — front when it introduces the last point</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Form</dt><dd>-ly from <em>final</em></dd><dt>Contrast</dt><dd><em>finally</em>, <em>at last</em> and <em>eventually</em> differ: <em>at last</em> stresses relief and cannot begin a last point in a list; <em>eventually</em> is neutral 'in the end' and also cannot list; <em>lastly</em> only lists. Mid position for 'after a long time' (<em>We finally got home</em>), front with a comma for the last point (<em>Finally, …</em>).</dd></dl>
+<p>Finally has 3 distinct senses.</p>
+<p><strong>1. After a long time, often with relief or impatience.</strong> (наконец)</p>
+<ol><li>We <em>finally</em> got home at two in the morning.</li><li>After six years, she <em>finally</em> finished her degree.</li><li><em>Finally</em>! I thought you'd never get here.</li></ol>
+<p><strong>2. As the last in a series of points or actions.</strong> (наконец, в заключение)</p>
+<ol start="4"><li><em>Finally</em>, I'd like to thank my parents.</li><li>Mix the dry ingredients, add the eggs, and <em>finally</em> pour in the milk.</li></ol>
+<p><strong>3. In a way that settles something for good.</strong> (окончательно)</p>
+<ol start="6"><li>The lawsuit was <em>finally</em> settled out of court.</li><li>Nothing has been <em>finally</em> decided yet.</li></ol>
+<hr>
+<h3 id="afterward">afterward<a class="hash" href="#afterward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæftərwərd/ &middot; <em>AF-tur-wurd</em></dd><dt>Русский</dt><dd>потом, после этого, впоследствии</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>end — also front (<em>Afterward, …</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses; <em>soon afterward</em>, <em>shortly afterward</em></dd><dt>Form</dt><dd>-ward — from <em>after</em>; <em>afterwards</em> is the British form, also common in the US</dd><dt>Contrast</dt><dd>Russian <em>после</em> is both a preposition and an adverb; in English the adverb is <em>afterward</em> or <em>later</em>, while <em>after</em> normally needs an object: <em>We went for coffee afterward</em>, but <em>after the movie</em>. <em>afterward</em> never takes an object: <em>after dinner</em>, not <em>afterward dinner</em>.</dd></dl>
+<p>After the time or event mentioned; later.</p>
+<ol><li>We saw a play and went out for dessert <em>afterward</em>.</li><li>Shortly <em>afterward</em>, the police arrived.</li><li>I felt terrible about it <em>afterward</em>.</li></ol>
+<hr>
+<h3 id="beforehand">beforehand<a class="hash" href="#beforehand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈfɔːrhænd/ &middot; <em>bih-FOR-hand</em></dd><dt>Русский</dt><dd>заранее</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd>compound — <em>before</em> + <em>hand</em></dd><dt>Contrast</dt><dd>Russian <em>заранее</em> is <em>beforehand</em>, <em>in advance</em> or <em>ahead of time</em>, not <em>before</em> alone: <em>Let me know beforehand</em>. <em>beforehand</em> never takes an object: <em>before the meeting</em>, not <em>beforehand the meeting</em>.</dd></dl>
+<p>Before a particular event; in advance.</p>
+<ol><li>Let me know <em>beforehand</em> if you can't come.</li><li>We bought the tickets online <em>beforehand</em>.</li><li>I wish someone had warned me <em>beforehand</em>.</li></ol>
+<hr>
+<h3 id="nowadays">nowadays<a class="hash" href="#nowadays" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaʊədeɪz/ &middot; <em>NOW-uh-dayz</em></dd><dt>Русский</dt><dd>в наши дни, сейчас</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>front or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>clauses, usually in the present simple</dd><dt>Form</dt><dd>compound — <em>now</em> + <em>a</em> + <em>days</em></dd><dt>Contrast</dt><dd>For a general situation compared with the past, not a single moment: <em>Nowadays people rarely write letters</em>, but <em>She's in the shower now</em>, not <em>She's in the shower nowadays</em>. In everyday American speech <em>these days</em> is more common.</dd></dl>
+<p>At the present time, compared with the past.</p>
+<ol><li><em>Nowadays</em>, almost everyone has a smartphone.</li><li>Hardly anyone pays by check <em>nowadays</em>.</li><li>Kids <em>nowadays</em> don't know what a cassette is.</li></ol>
+<hr>
+<h3 id="currently">currently<a class="hash" href="#currently" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrəntli/ &middot; <em>KUR-unt-lee</em></dd><dt>Русский</dt><dd>в настоящее время, сейчас</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid — before the main verb, after <em>be</em>; also front</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Form</dt><dd>-ly from <em>current</em></dd><dt>Contrast</dt><dd>False friend: <em>actually</em> looks like Russian <em>актуально</em> / <em>актуальный</em>, but it means 'in fact' (<em>на самом деле</em>), never 'at the moment' or 'relevant'. 'At the moment' is <em>currently</em>: <em>She is currently working in Boston</em>; 'relevant, topical' is <em>relevant</em> or <em>current</em>.</dd></dl>
+<p>At the present time.</p>
+<ol><li>She's <em>currently</em> working on her second novel.</li><li>The position is <em>currently</em> unfilled.</li><li><em>Currently</em>, about forty people work at the plant.</li></ol>
+<hr>
+<h3 id="formerly">formerly<a class="hash" href="#formerly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrmərli/ &middot; <em>FOR-mur-lee</em></dd><dt>Русский</dt><dd>раньше, прежде, ранее</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid — also before its word (<em>formerly known as</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, participles and names (<em>Myanmar, formerly Burma</em>)</dd><dt>Form</dt><dd>-ly from <em>former</em></dd><dt>Contrast</dt><dd><em>formerly</em> (in the past) and <em>formally</em> (officially, in a formal way) sound almost the same in American speech. For <em>бывший</em> before a noun, English uses the adjective <em>former</em> (<em>a former teacher</em>); <em>formerly</em> goes with a verb or a name.</dd></dl>
+<p>In the past, but not any longer.</p>
+<ol><li>The restaurant was <em>formerly</em> a bank.</li><li>He <em>formerly</em> worked as a nurse in Ohio.</li><li>Myanmar, <em>formerly</em> known as Burma, is in Southeast Asia.</li></ol>
+<hr>
+<h3 id="previously">previously<a class="hash" href="#previously" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpriːviəsli/ &middot; <em>PREE-vee-us-lee</em></dd><dt>Русский</dt><dd>ранее, прежде</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid — also front, and after a time phrase (<em>two days previously</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, participles; follows a time phrase</dd><dt>Form</dt><dd>-ly from <em>previous</em></dd><dt>Contrast</dt><dd><em>two years previously</em> (or <em>earlier</em>, <em>before</em>) counts back from a past point; counting back from now is <em>two years ago</em>. <em>previously</em> is formal — in speech, <em>before</em> or <em>earlier</em> is more natural.</dd></dl>
+<p>Before now or before the time mentioned, also after a time phrase (<em>three months previously</em>).</p>
+<ol><li>She had <em>previously</em> worked for the city.</li><li>As <em>previously</em> mentioned, the office is closed on Monday.</li><li>He had left the company three months <em>previously</em>.</li></ol>
+<hr>
+<h3 id="once">once<a class="hash" href="#once" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wʌns/ &middot; <em>WUNS</em></dd><dt>Русский</dt><dd>один раз; когда-то</dd><dt>Type</dt><dd>time; also frequency (<em>once a week</em>)</dd><dt>Position</dt><dd>mid or end — mid for 'at one time in the past' (<em>I once lived there</em>); end for 'one time' (<em>I've been there once</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; <em>once a week</em>, <em>once more</em>, <em>at once</em></dd><dt>Contrast</dt><dd>Position changes the meaning: <em>I once lived in Ohio</em> (<em>когда-то</em>) against <em>I've been to Ohio once</em> (<em>один раз</em>). <em>at once</em> is 'immediately' or 'at the same time'; <em>all at once</em> is usually 'suddenly'. The conjunction <em>once</em> (<em>Once you start, you can't stop</em> = <em>как только</em>) belongs to another dictionary.</dd></dl>
+<p>Once has 7 distinct senses.</p>
+<p><strong>1. One time; on one occasion.</strong> (один раз)</p>
+<ol><li>I've only been to New York <em>once</em>.</li><li>We meet <em>once</em> a week.</li><li>Take one pill <em>once</em> a day with food.</li></ol>
+<p><strong>2. At some time in the past, but no longer.</strong> (когда-то, однажды)</p>
+<ol start="4"><li>This town was <em>once</em> a busy port.</li><li>I <em>once</em> met him at an airport in Dallas.</li><li>The house <em>once</em> belonged to a famous writer.</li></ol>
+<p><strong>3. Ever; even one time (after a negative).</strong> (ни разу; хоть раз)</p>
+<ol start="7"><li>He never <em>once</em> said thank you.</li><li>Not <em>once</em> did she complain about the pain.</li></ol>
+<p><strong>4. Again; one more time (<em>once more</em>, <em>once again</em>).</strong> (ещё раз, снова)</p>
+<ol start="9"><li>Let's try it <em>once more</em> from the top.</li><li><em>Once again</em>, the team lost at home.</li></ol>
+<p><strong>5. Immediately (<em>at once</em>).</strong> (сразу, немедленно)</p>
+<ol start="11"><li>Come here <em>at once</em>!</li><li>The doctor saw me <em>at once</em>.</li></ol>
+<p><strong>6. At the same time (<em>at once</em>).</strong> (одновременно, сразу)</p>
+<ol start="13"><li>Don't all talk <em>at once</em>.</li><li>I can't do three things <em>at once</em>.</li></ol>
+<p><strong>7. Suddenly (<em>all at once</em>).</strong> (вдруг, внезапно)</p>
+<ol start="15"><li><em>All at once</em>, the lights went out.</li><li><em>All at once</em> she started laughing.</li></ol>
+<hr>
+<h3 id="someday">someday<a class="hash" href="#someday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmdeɪ/ &middot; <em>SUM-day</em></dd><dt>Русский</dt><dd>когда-нибудь</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>front or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses, about the future</dd><dt>Form</dt><dd>compound — <em>some</em> + <em>day</em>, written as one word</dd><dt>Contrast</dt><dd>Future only: for the past use <em>one day</em> or <em>once</em> (<em>One day last spring, I met him</em>); <em>one day</em> works for both. <em>someday</em> is one word; <em>some day</em> is two when it means an unnamed particular day: <em>Let's have lunch some day next week</em>.</dd></dl>
+<p>At some unknown time in the future.</p>
+<ol><li>I want to visit Japan <em>someday</em>.</li><li><em>Someday</em> you'll understand why I did it.</li><li>Maybe <em>someday</em> we'll live by the ocean.</li></ol>
+<hr>
+<h3 id="meanwhile">meanwhile<a class="hash" href="#meanwhile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːnwaɪl/ &middot; <em>MEEN-wyl</em></dd><dt>Русский</dt><dd>тем временем, между тем</dd><dt>Type</dt><dd>time; also linking (contrast)</dd><dt>Position</dt><dd>front — usually followed by a comma; also end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>whole clauses</dd><dt>Contrast</dt><dd><em>meanwhile</em> is an adverb, not a conjunction: <em>I cooked; meanwhile, he set the table</em>, or <em>I cooked while he set the table</em> — not <em>I cooked meanwhile he set the table</em>. <em>in the meantime</em> can replace it for 'until then', but not for contrast.</dd></dl>
+<p>Meanwhile has 3 distinct senses.</p>
+<p><strong>1. At the same time as something else is happening.</strong> (тем временем)</p>
+<ol><li>I'll make the salad. <em>Meanwhile</em>, you can set the table.</li><li>The police searched the house; <em>meanwhile</em>, the suspect was already in Mexico.</li></ol>
+<p><strong>2. In the time before something expected happens.</strong> (пока, а пока что)</p>
+<ol start="3"><li>The new office opens in May. <em>Meanwhile</em>, we're working from home.</li><li>Your passport will take six weeks; <em>meanwhile</em>, don't book any flights.</li></ol>
+<p><strong>3. Used to contrast two situations.</strong> (между тем, в то же время)</p>
+<ol start="5"><li>Rents keep going up. <em>Meanwhile</em>, wages have barely moved.</li><li>The city spends millions on stadiums; <em>meanwhile</em>, schools are falling apart.</li></ol>
+<hr>
+<h3 id="ago">ago<a class="hash" href="#ago" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈɡoʊ/ &middot; <em>uh-GOH</em></dd><dt>Русский</dt><dd>назад, тому назад</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>after its word — <em>three days ago</em>, never <em>ago three days</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a preceding time phrase (<em>two hours ago</em>, <em>long ago</em>, <em>a while ago</em>)</dd><dt>Contrast</dt><dd>Past simple only: <em>I saw it two weeks ago</em>, not <em>I have seen it two weeks ago</em>. <em>ago</em> counts back from now; from a past point use <em>before</em>, <em>earlier</em> or <em>previously</em>: <em>She said she had met him two years before</em>. <em>ten years ago</em> answers 'when?' (<em>десять лет назад</em>); <em>for ten years</em> answers 'how long?' (<em>уже десять лет</em>).</dd></dl>
+<p>Back in time from now.</p>
+<ol><li>She moved to Seattle three years <em>ago</em>.</li><li>How long <em>ago</em> did this happen?</li><li>I talked to him just a few minutes <em>ago</em>.</li></ol>
+<hr>
+<h3 id="before">before<a class="hash" href="#before" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈfɔːr/ &middot; <em>bih-FOR</em></dd><dt>Русский</dt><dd>раньше, прежде; до этого</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; follows a time phrase (<em>the day before</em>)</dd><dt>Contrast</dt><dd>As an adverb <em>before</em> stands alone at the end; the preposition (<em>before lunch</em>) and the conjunction (<em>before you go</em>) belong to other dictionaries. For 'ever in the past' use the present perfect: <em>Have we met before?</em> Counting back from now is <em>ago</em>: <em>three days ago</em>, not <em>three days before</em>. <em>the day before</em> is <em>накануне</em>.</dd></dl>
+<p>Before has 2 distinct senses.</p>
+<p><strong>1. At an earlier time; in the past.</strong> (раньше, прежде)</p>
+<ol><li>Have we met <em>before</em>?</li><li>I've never seen anything like it <em>before</em>.</li><li>She had been to Paris twice <em>before</em>.</li></ol>
+<p><strong>2. After a time phrase: earlier than a past time.</strong> (до этого, раньше, накануне)</p>
+<ol start="4"><li>I'd seen him the week <em>before</em>.</li><li>The storm hit on Tuesday; the day <em>before</em>, the sky was perfectly clear.</li><li>He had left two hours <em>before</em>.</li></ol>
+<hr>
+<h3 id="since">since<a class="hash" href="#since" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪns/ &middot; <em>SINS</em></dd><dt>Русский</dt><dd>с тех пор</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid or end — end in <em>ever since</em>; mid in <em>has since been</em>, <em>long since</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs, usually in the present or past perfect</dd><dt>Contrast</dt><dd>The preposition (<em>since Monday</em>) and the conjunction (<em>since I was ten</em>; <em>since</em> meaning 'because') belong to other dictionaries. With <em>since</em>, the verb goes in the perfect, unlike Russian: <em>I've known her since college</em>, not <em>I know her since college</em>. <em>since</em> marks the start, <em>for</em> the length: <em>for three years</em>, not <em>since three years</em>.</dd></dl>
+<p>Since has 3 distinct senses.</p>
+<p><strong>1. From that time until now or until the time mentioned (often <em>ever since</em>).</strong> (с тех пор)</p>
+<ol><li>She moved to Denver in 2015 and has lived there ever <em>since</em>.</li><li>I saw him in May, but I haven't heard from him <em>since</em>.</li><li>They met at a party and have been friends ever <em>since</em>.</li></ol>
+<p><strong>2. At some time between then and now.</strong> (с тех пор, впоследствии)</p>
+<ol start="4"><li>The house has <em>since</em> been sold.</li><li>He left the band and has <em>since</em> started his own label.</li></ol>
+<p><strong>3. A long time before now (<em>long since</em>).</strong> (давно (уже))</p>
+<ol start="6"><li>The factory has long <em>since</em> closed.</li><li>Those old rules have long <em>since</em> been forgotten.</li></ol>
+<hr>
+<h3 id="instantly">instantly<a class="hash" href="#instantly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnstəntli/ &middot; <em>IN-stunt-lee</em></dd><dt>Русский</dt><dd>мгновенно, сразу</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and participles (<em>instantly recognizable</em>)</dd><dt>Form</dt><dd>-ly from <em>instant</em></dd></dl>
+<p>At once; with no delay at all.</p>
+<ol><li>The driver was killed <em>instantly</em>.</li><li>I <em>instantly</em> regretted saying it.</li><li>Her voice is <em>instantly</em> recognizable.</li></ol>
+<hr>
+<h3 id="presently">presently<a class="hash" href="#presently" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɛzəntli/ &middot; <em>PREZ-unt-lee</em></dd><dt>Русский</dt><dd>в настоящее время; вскоре</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid — for 'now'; end or front for 'soon'</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Form</dt><dd>-ly from <em>present</em></dd><dt>Contrast</dt><dd>Two meanings that point in opposite directions. In American English <em>presently</em> most often means 'now' (<em>She is presently in Brazil</em>); the older 'soon' meaning (<em>I'll be with you presently</em>) is still met in fiction and formal speech. Mid position usually means 'now', end position usually means 'soon'.</dd></dl>
+<p>Presently has 2 distinct senses.</p>
+<p><strong>1. At the present time; now.</strong> (в настоящее время, сейчас)</p>
+<ol><li>The senator is <em>presently</em> on a trip overseas.</li><li>There are <em>presently</em> no plans to close the school.</li></ol>
+<p><strong>2. Soon; after a short time.</strong> (вскоре, скоро)</p>
+<ol start="3"><li>The doctor will be with you <em>presently</em>.</li><li><em>Presently</em> the door opened, and a young man came in.</li></ol>
+<hr>
+<h3 id="next">next<a class="hash" href="#next" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɛkst/ &middot; <em>NEKST</em></dd><dt>Русский</dt><dd>потом, затем; в следующий раз</dd><dt>Type</dt><dd>time; also degree (<em>next to impossible</em>)</dd><dt>Position</dt><dd>front or end — front when ordering steps; mid in <em>when I next see…</em>; before its word in <em>next best</em>, <em>next to</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; superlatives (<em>the next largest</em>); adjectives after <em>next to</em></dd><dt>Contrast</dt><dd><em>next week</em>, <em>next year</em> use the determiner, with no <em>the</em> and no preposition: <em>See you next week</em>, not <em>on the next week</em>; <em>the next week</em> means 'the following week' from a past point. The preposition <em>next to</em> 'beside' (<em>Sit next to me</em>) belongs to another dictionary; before an adjective the adverb <em>next to</em> means 'almost'.</dd></dl>
+<p>Next has 4 distinct senses.</p>
+<p><strong>1. Immediately after this or that; then.</strong> (потом, затем, дальше)</p>
+<ol><li>What should we do <em>next</em>?</li><li><em>Next</em>, add the sugar and stir.</li><li>Guess who walked in <em>next</em>?</li></ol>
+<p><strong>2. On the first occasion after this one.</strong> (в следующий раз)</p>
+<ol start="4"><li>When I <em>next</em> see him, I'll ask him about it.</li><li>When are you <em>next</em> in town?</li></ol>
+<p><strong>3. Following in order of size or rank (before a superlative).</strong> (следующий (по величине, качеству))</p>
+<ol start="6"><li>Texas is the <em>next</em> largest state after Alaska.</li><li>If you can't get the real thing, this is the <em>next</em> best option.</li></ol>
+<p><strong>4. Almost (<em>next to</em>, before an adjective or <em>nothing</em>).</strong> (почти)</p>
+<ol start="8"><li>Finding parking downtown is <em>next</em> to impossible.</li><li>They sold the car for <em>next</em> to nothing.</li></ol>
+<hr>
+<h3 id="originally">originally<a class="hash" href="#originally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈrɪdʒənəli/ &middot; <em>uh-RIJ-uh-nuh-lee</em></dd><dt>Русский</dt><dd>изначально; родом</dd><dt>Type</dt><dd>time; also manner (the rare 'creatively' sense)</dd><dt>Position</dt><dd>mid or end — mid or front for 'at first'; end for 'by origin' (<em>Where are you from originally?</em>)</dd><dt>Comparison</dt><dd>not gradable — except the rare 'creatively' sense (<em>more originally</em>)</dd><dt>Modifies</dt><dd>verbs and participles</dd><dt>Form</dt><dd>-ly from <em>original</em></dd><dt>Contrast</dt><dd>False friend: Russian <em>оригинально</em> usually means 'unusually, creatively', but English <em>originally</em> almost always means 'at first' or 'by origin'. <em>The house was originally designed as a school</em> = <em>изначально</em>. For the Russian sense say <em>creatively</em>, <em>unusually</em> or <em>in an original way</em>.</dd></dl>
+<p>Originally has 3 distinct senses.</p>
+<p><strong>1. At first; before something changed.</strong> (изначально, первоначально)</p>
+<ol><li>The building was <em>originally</em> a school.</li><li><em>Originally</em>, we planned to drive, but we flew instead.</li><li>The song was <em>originally</em> recorded in 1965.</li></ol>
+<p><strong>2. As far as someone's or something's origin is concerned.</strong> (родом, по происхождению)</p>
+<ol start="4"><li>Where are you from <em>originally</em>?</li><li>My family is <em>originally</em> from Ukraine.</li></ol>
+<p><strong>3. In a new and creative way.</strong> (оригинально, творчески)</p>
+<ol start="6"><li>Few writers think as <em>originally</em> as she does.</li><li>Her dresses are simple but very <em>originally</em> designed.</li></ol>
+<hr>
+<h3 id="initially">initially<a class="hash" href="#initially" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈnɪʃəli/ &middot; <em>ih-NISH-uh-lee</em></dd><dt>Русский</dt><dd>сначала, первоначально</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>mid — also front</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Form</dt><dd>-ly from <em>initial</em></dd><dt>Contrast</dt><dd><em>initially</em> and <em>at first</em> suggest that things changed later (<em>Initially I hated it, but…</em>); <em>first</em> and <em>firstly</em> put points or steps in order. <em>initially</em> is somewhat formal; in speech <em>at first</em> is more common.</dd></dl>
+<p>At the beginning, usually before a change.</p>
+<ol><li><em>Initially</em>, the project was supposed to take six months.</li><li>I was <em>initially</em> skeptical, but the plan worked.</li><li>The injury was worse than doctors <em>initially</em> thought.</li></ol>
+<hr>
+<h3 id="suddenly">suddenly<a class="hash" href="#suddenly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌdənli/ &middot; <em>SUD-un-lee</em></dd><dt>Русский</dt><dd>вдруг, внезапно</dd><dt>Type</dt><dd>time; also manner</dd><dt>Position</dt><dd>any position — front for a dramatic turn (<em>Suddenly, …</em>), mid or end</dd><dt>Comparison</dt><dd>more/most — rare (<em>more suddenly than expected</em>)</dd><dt>Modifies</dt><dd>verbs and clauses</dd><dt>Form</dt><dd>-ly from <em>sudden</em></dd><dt>Contrast</dt><dd>Russian <em>а вдруг…?</em> ('what if') is not <em>suddenly</em>: <em>What if he doesn't come?</em>, not <em>And suddenly he doesn't come?</em>. <em>вдруг</em> in 'by chance' is <em>by any chance</em>: <em>Do you by any chance have a charger?</em></dd></dl>
+<p>Quickly and unexpectedly.</p>
+<ol><li><em>Suddenly</em>, the lights went out.</li><li>He <em>suddenly</em> realized he'd left his wallet at home.</li><li>The weather changed <em>more suddenly</em> than anyone expected.</li></ol>
+<hr>
+<h3 id="anymore">anymore<a class="hash" href="#anymore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛniˈmɔːr/ &middot; <em>en-ee-MOR</em></dd><dt>Русский</dt><dd>больше не, уже не</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>negative or interrogative clauses</dd><dt>Form</dt><dd>compound — <em>any</em> + <em>more</em>, written as one word in American English</dd><dt>Contrast</dt><dd>Russian <em>уже не</em> / <em>больше не</em> is <em>not … anymore</em> or <em>no longer</em>: <em>He doesn't work here anymore</em> or <em>He no longer works here</em>, not <em>He already doesn't work here</em>. Standard English uses it only with a negative or in a question; the positive 'nowadays' use (<em>Anymore, gas is so expensive</em>) is regional Midland American speech and is best not copied. Two words, <em>any more</em>, is a quantity in both British and American English: <em>I don't want any more cake</em>.</dd></dl>
+<p>No longer; not now, as before (with a negative or in a question).</p>
+<ol><li>We don't go to that restaurant <em>anymore</em>.</li><li>She doesn't live here <em>anymore</em>.</li><li>Does anyone even use fax machines <em>anymore</em>?</li></ol>
+<hr>
+<h3 id="earlier">earlier<a class="hash" href="#earlier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɜːrliər/ &middot; <em>UR-lee-ur</em></dd><dt>Русский</dt><dd>раньше, ранее</dd><dt>Type</dt><dd>time</dd><dt>Position</dt><dd>end — also front (<em>Earlier, …</em>) and after a time phrase (<em>two days earlier</em>)</dd><dt>Comparison</dt><dd>not gradable — it is already the comparative of <em>early</em> (<em>much earlier</em>)</dd><dt>Modifies</dt><dd>verbs; follows a time phrase (<em>an hour earlier</em>)</dd><dt>Form</dt><dd>comparative of <em>early</em>, used as a time adverb in its own right</dd><dt>Contrast</dt><dd><em>two hours ago</em> counts back from now; <em>two hours earlier</em> counts back from a past point. For an earlier moment today, <em>earlier</em> is the natural word: <em>I called you earlier</em> (<em>я тебе сегодня уже звонил</em>); <em>before</em> alone sounds unfinished there.</dd></dl>
+<p>Earlier has 3 distinct senses.</p>
+<p><strong>1. At a previous time, especially earlier today or in the same text or conversation.</strong> (раньше, ранее)</p>
+<ol><li>I saw your brother <em>earlier</em>.</li><li>As I mentioned <em>earlier</em>, the office is closed on Friday.</li><li><em>Earlier</em> this year, the company opened a store in Miami.</li></ol>
+<p><strong>2. After a time phrase: before a past point.</strong> (раньше, до этого)</p>
+<ol start="4"><li>He had arrived two days <em>earlier</em>.</li><li>A week <em>earlier</em>, nobody had even heard of her.</li></ol>
+<p><strong>3. Sooner than another time or than usual.</strong> (раньше)</p>
+<ol start="6"><li>Can you come in <em>earlier</em> tomorrow?</li><li>I got up <em>earlier</em> than usual to beat the traffic.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -6,7 +6,7 @@ Traditional grammar counts **eight parts of speech**: nouns, pronouns, verbs, ad
 
 The nine word-class folders live under **[parts-of-speech/](parts-of-speech/README.md)**; the [pronunciation guide](10-pronunciation/README.md) sits alongside them, since how English sounds is not a word class.
 
-Each class folder is a self-contained README with the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice. The five **closed classes** — pronouns, prepositions, conjunctions, interjections, determiners — additionally have a `catalog/` holding a complete dictionary of that class. **Verbs** and **nouns** are open classes, but each has a catalog covering the finite part that has to be memorized: the irregular verbs, and the irregular plurals and uncountables.
+Each class folder is a self-contained README with the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice. The five **closed classes** — pronouns, prepositions, conjunctions, interjections, determiners — additionally have a `catalog/` holding a complete dictionary of that class. **Nouns**, **verbs** and **adverbs** are open classes, so no list of them is ever complete; each has a catalog in two tiers — every word whose grammar has to be memorized (irregular plurals and uncountables; irregular, modal and phrasal verbs; flat adverbs, irregular comparison and the closed adverb sets), then a large core of everyday words checked against WordNet. **Adjectives** are the one class without a catalog yet.
 
 ## The nine classes
 
@@ -54,7 +54,26 @@ Traps are called out where they exist: ✗ *I begun*, ✗ *I have went*, ✗ *I 
 
 The verb + preposition patterns (*depend on*, *abide by*, *account for*) moved here from the preposition catalog — they are verbs, and this is where you look them up.
 
-**[Open the audio browser](parts-of-speech/03-verbs/catalog/browse.html)** — all 1,291, searchable, click any verb to hear it.
+**[Open the audio browser](parts-of-speech/03-verbs/catalog/browse.html)** — every verb, searchable, click any one to hear it.
+
+## The Adverb Dictionary
+
+**[05-adverbs/catalog/](parts-of-speech/05-adverbs/catalog/README.md)** — **[2,590 entries](parts-of-speech/05-adverbs/catalog/README.md)** in **two tiers**, because adverbs are an open class for manner and a closed class nearly everywhere else.
+
+- **The grammar tier** — 15 groups by the job the adverb does: flat adverbs (*fast*, *hard*), irregular comparison (*well*, *better*, *best*), the *-ly* forms that drifted away from the flat word they look like (*hardly*, *lately*, *nearly*), and the closed sets of place, direction, time, frequency, degree, focus, stance, viewpoint, linking, question words and negation. Every adverb sense, most common first — *just*, *so* and *well* each have more than half a dozen — and a contrast note wherever there is a trap.
+- **The core tier** — A–Z, the adverbs that a check against WordNet's 4,481 adverb lemmas showed a learner still needs: mostly *-ly* manner adverbs, plus the multi-word ones (*by and large*, *on purpose*). About half of WordNet's list was rejected — archaic, technical, British-only, or *-ly* forms nobody uses.
+
+Every entry gives:
+
+- **Type** — the job it does, and the other jobs it also does (*still* is time, linking and degree)
+- **Position** — front, mid or end, which is where learners actually go wrong: ✗ *I go always*, ✗ *enough old*
+- **Comparison** — *-er/-est*, *more/most*, irregular, or not gradable
+- **Русский** — for the entry and for every sense
+- **Examples** — three for a single-sense adverb, two or three per sense otherwise
+
+Traps are called out where they exist: *hard* vs *hardly*, *late* vs *lately*; *actually* is not *актуально* and *eventually* is not *возможно*; *ago* refuses the present perfect; *only* changes the meaning of the sentence depending on where it sits.
+
+**[Open the audio browser](parts-of-speech/05-adverbs/catalog/browse.html)** — every adverb, searchable, click any one to hear it.
 
 ## The Pronoun Dictionary
 

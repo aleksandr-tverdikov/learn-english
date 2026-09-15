@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adverbs of place</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="adverbs-of-place">Adverbs of place<a class="hash" href="#adverbs-of-place" aria-label="link">#</a></h1>
+<blockquote><p>Where? — <em>here</em>, <em>there</em>, <em>everywhere</em>, <em>upstairs</em>, <em>abroad</em>, <em>home</em>, and the words that locate without an object.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Place adverbs answer <em>where?</em> and normally go at the end of the clause. Many of them look like prepositions (<em>inside</em>, <em>above</em>, <em>behind</em>) and become adverbs simply by dropping the object: <em>wait inside the car</em> is a preposition, <em>wait inside</em> is an adverb. The one that catches Russian speakers is <em>home</em>, which takes no preposition after verbs of motion — <em>go home</em>, never <em>go to home</em>.</p>
+<hr>
+<h3 id="here">here<a class="hash" href="#here" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɪr/ &middot; <em>HEER</em></dd><dt>Русский</dt><dd>здесь, сюда, вот</dd><dt>Type</dt><dd>place; also direction and time</dd><dt>Position</dt><dd>end — or front with inversion: <em>Here comes the bus</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; also follows a noun (<em>the people here</em>)</dd><dt>Contrast</dt><dd>Russian has two words, <em>здесь</em> (where?) and <em>сюда</em> (where to?); English uses <em>here</em> for both, with no preposition: <em>Come here</em>, never <em>come to here</em>. In the presenting use a noun subject comes after the verb (<em>Here comes the bus</em>, <em>Here are your keys</em>), but a pronoun does not (<em>Here it comes</em>, <em>Here they are</em>).</dd></dl>
+<p>Here has 5 distinct senses.</p>
+<p><strong>1. In or at this place.</strong> (здесь, тут)</p>
+<ol><li>Sit <em>here</em> next to me.</li><li>Is Anna <em>here</em> today?</li><li>It's really cold in <em>here</em>.</li></ol>
+<p><strong>2. To this place.</strong> (сюда)</p>
+<ol start="4"><li>Come <em>here</em> for a second.</li><li>How long did it take you to get <em>here</em>?</li><li>We moved <em>here</em> from Ohio in 2019.</li></ol>
+<p><strong>3. At this point in a process, discussion or piece of writing; in this matter or situation.</strong> (в этом месте, на этом этапе, в данном случае)</p>
+<ol start="7"><li>Let's stop <em>here</em> for today.</li><li><em>Here</em> the author changes her argument.</li><li>The real problem <em>here</em> is the cost.</li></ol>
+<p><strong>4. Used to present, offer or point out something, or to say that someone or something has arrived.</strong> (вот)</p>
+<ol start="10"><li><em>Here</em> are your keys.</li><li><em>Here</em> comes the bus.</li><li><em>Here</em> you go — one coffee, no sugar.</li></ol>
+<p><strong>5. Used when raising a glass to someone in a toast.</strong> (за (кого-то, что-то))</p>
+<ol start="13"><li><em>Here</em>'s to the happy couple!</li><li><em>Here</em>'s to a great year.</li></ol>
+<hr>
+<h3 id="there">there<a class="hash" href="#there" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈðɛr/ &middot; <em>THAIR</em></dd><dt>Русский</dt><dd>там, туда, вот</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end — or front with inversion: <em>There goes the last train</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; also follows a noun (<em>that man there</em>)</dd><dt>Contrast</dt><dd>The <em>there</em> of <em>there is / there are</em> is a dummy subject, not this adverb, and does not mean <em>там</em>: <em>There is a pharmacy there</em> uses both. Like <em>here</em>, it covers both <em>там</em> and <em>туда</em> with no preposition: <em>go there</em>, never <em>go to there</em>. With a noun subject the verb comes first (<em>There goes my bus</em>), with a pronoun it does not (<em>There it goes</em>). Do not confuse it with <em>their</em> and <em>they're</em>, which sound the same.</dd></dl>
+<p>There has 8 distinct senses.</p>
+<p><strong>1. In or at that place.</strong> (там)</p>
+<ol><li>I left my bag over <em>there</em>.</li><li>Were you <em>there</em> when it happened?</li><li>Put the boxes down <em>there</em>, by the door.</li></ol>
+<p><strong>2. To that place.</strong> (туда)</p>
+<ol start="4"><li>We drove <em>there</em> in two hours.</li><li>I've never been <em>there</em>, but I'd love to go.</li><li>Wait for me — I'll be <em>there</em> in five minutes.</li></ol>
+<p><strong>3. At that point in a process, discussion or story; in that respect.</strong> (на этом, в этом (месте, отношении))</p>
+<ol start="7"><li>I'll stop <em>there</em> and take questions.</li><li><em>There</em> I have to disagree with you.</li><li>The story could have ended <em>there</em>, but it didn't.</li></ol>
+<p><strong>4. Used to point out or draw attention to someone or something, or to show that you have found them.</strong> (вот)</p>
+<ol start="10"><li><em>There</em> goes the last train.</li><li><em>There</em> you are — I've been looking everywhere for you.</li><li><em>There</em> she is — right on time.</li></ol>
+<p><strong>5. Used after a greeting or to call someone's attention.</strong> ((не переводится); эй)</p>
+<ol start="13"><li>Hi <em>there</em>! How's it going?</li><li>Hello <em>there</em> — can I help you find something?</li></ol>
+<p><strong>6. Available to help and support someone, especially emotionally.</strong> (рядом (быть опорой))</p>
+<ol start="15"><li>My sister was always <em>there</em> for me.</li><li>Whatever happens, I'll be <em>there</em> for you.</li></ol>
+<p><strong>7. Existing or available, even if not yet used or noticed.</strong> (есть, имеется)</p>
+<ol start="17"><li>The talent is <em>there</em> — he just needs to work harder.</li><li>The money is <em>there</em> if we need it.</li><li>The demand is clearly <em>there</em>, so why not open a second store?</li></ol>
+<p><strong>8. At the goal or the result that you want; succeeding.</strong> (у цели; (добиться) своего)</p>
+<ol start="20"><li>The design isn't quite <em>there</em> yet.</li><li>It took years of practice, but she finally got <em>there</em>.</li></ol>
+<hr>
+<h3 id="everywhere">everywhere<a class="hash" href="#everywhere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛvriˌwɛr/ &middot; <em>EV-ree-wair</em></dd><dt>Русский</dt><dd>везде, всюду</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end — or front for emphasis</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>every</em> + <em>where</em>, like <em>somewhere</em>, <em>anywhere</em>, <em>nowhere</em></dd><dt>Contrast</dt><dd><em>Not everywhere</em> means <em>не везде</em> (only some places). For <em>нигде</em> after a negative verb use <em>anywhere</em>: <em>I can't find it anywhere</em>, not <em>everywhere</em>. Before a clause it works as a conjunction meaning <em>wherever</em>: <em>Everywhere we went, people were friendly</em>.</dd></dl>
+<p>In, at or to every place.</p>
+<ol><li>I've looked <em>everywhere</em> for my glasses.</li><li>There were people <em>everywhere</em> downtown.</li><li>My little brother follows me <em>everywhere</em>.</li></ol>
+<hr>
+<h3 id="nowhere">nowhere<a class="hash" href="#nowhere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnoʊˌwɛr/ &middot; <em>NOH-wair</em></dd><dt>Русский</dt><dd>нигде, никуда</dd><dt>Type</dt><dd>place; also direction, negative and degree</dd><dt>Position</dt><dd>end — front only with inversion: <em>Nowhere is this clearer than…</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; <em>nowhere near</em> modifies adjectives, numbers and phrases</dd><dt>Form</dt><dd><em>no</em> + <em>where</em>; the negative of <em>somewhere</em> and <em>anywhere</em></dd><dt>Contrast</dt><dd>English allows one negative per clause. Russian <em>Я никуда не иду</em> is <em>I'm not going anywhere</em> or <em>I'm going nowhere</em>, never <em>I'm not going nowhere</em>. Fronted, it forces inversion: <em>Nowhere have I seen such beautiful beaches</em>. <em>The middle of nowhere</em> and <em>out of nowhere</em> use <em>nowhere</em> as a noun.</dd></dl>
+<p>Nowhere has 4 distinct senses.</p>
+<p><strong>1. Not in or at any place.</strong> (нигде)</p>
+<ol><li>My keys were <em>nowhere</em> to be found.</li><li><em>Nowhere</em> in the contract does it mention overtime.</li><li>The kids were <em>nowhere</em> in sight.</li></ol>
+<p><strong>2. Not to any place.</strong> (никуда)</p>
+<ol start="4"><li>After the fire, the family had <em>nowhere</em> else to go.</li><li>I'm going <em>nowhere</em> until you tell me the truth.</li></ol>
+<p><strong>3. To no progress, result or success, especially with <em>get</em>, <em>go</em> or <em>be</em>.</strong> (ни к чему (не привести), ни с места, ничего не добиться)</p>
+<ol start="6"><li>We talked for hours and got <em>nowhere</em>.</li><li>This relationship is going <em>nowhere</em>.</li><li>Without my first coach, I'd be <em>nowhere</em> today.</li></ol>
+<p><strong>4. In <em>nowhere near</em>: not at all; far from.</strong> (далеко не, совсем не)</p>
+<ol start="9"><li>The report is <em>nowhere near</em> finished.</li><li>The sequel is <em>nowhere near</em> as good as the original.</li><li>We have <em>nowhere near</em> enough chairs.</li></ol>
+<hr>
+<h3 id="somewhere">somewhere<a class="hash" href="#somewhere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmˌwɛr/ &middot; <em>SUM-wair</em></dd><dt>Русский</dt><dd>где-то, куда-то</dd><dt>Type</dt><dd>place; also direction and degree</dd><dt>Position</dt><dd>end — before a number or time in the approximate sense: <em>somewhere around fifty</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; numbers after <em>around</em> or <em>between</em></dd><dt>Form</dt><dd><em>some</em> + <em>where</em>; American informal <em>someplace</em> means the same</dd><dt>Contrast</dt><dd>Use <em>somewhere</em> in statements, and in offers and requests that expect <em>yes</em> (<em>Would you like to go somewhere?</em>); use <em>anywhere</em> in negatives and most questions (<em>I didn't go anywhere</em>). An adjective follows it: <em>somewhere quiet</em>, not <em>quiet somewhere</em>.</dd></dl>
+<p>Somewhere has 4 distinct senses.</p>
+<p><strong>1. In or at a place that is not known or not named.</strong> (где-то, где-нибудь)</p>
+<ol><li>I left my phone <em>somewhere</em> in the car.</li><li>Let's sit <em>somewhere</em> quiet.</li><li>He lives <em>somewhere</em> near Boston.</li></ol>
+<p><strong>2. To a place that is not known or not named.</strong> (куда-то, куда-нибудь)</p>
+<ol start="4"><li>Are you going <em>somewhere</em>?</li><li>Let's go <em>somewhere</em> warm this winter.</li></ol>
+<p><strong>3. About; approximately, with a number, a time or a range.</strong> (примерно, где-то)</p>
+<ol start="6"><li>She's <em>somewhere</em> around fifty.</li><li>We got home <em>somewhere</em> around midnight.</li><li>A good laptop costs <em>somewhere</em> between $800 and $1,200.</li></ol>
+<p><strong>4. In <em>get somewhere</em>: to make progress.</strong> (сдвинуться с места, добиться чего-то)</p>
+<ol start="9"><li>Now we're getting <em>somewhere</em>!</li><li>After three meetings we finally got <em>somewhere</em> on the budget.</li></ol>
+<hr>
+<h3 id="anywhere">anywhere<a class="hash" href="#anywhere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛniˌwɛr/ &middot; <em>EN-ee-wair</em></dd><dt>Русский</dt><dd>где-нибудь, куда-нибудь, где угодно</dd><dt>Type</dt><dd>place; also direction and degree</dd><dt>Position</dt><dd>end — before a number in the range sense: <em>anywhere from three to five hours</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; numbers after <em>from</em> or <em>between</em></dd><dt>Form</dt><dd><em>any</em> + <em>where</em>; American informal <em>anyplace</em> means the same</dd><dt>Contrast</dt><dd>In a statement <em>anywhere</em> means <em>где угодно</em> (any place at all), not <em>где-то</em>: <em>I left it somewhere</em>, not <em>I left it anywhere</em>. After a negative verb it gives <em>нигде / никуда</em>: <em>I can't find it anywhere</em>. Do not add a second negative (<em>not … nowhere</em>).</dd></dl>
+<p>Anywhere has 5 distinct senses.</p>
+<p><strong>1. In negatives and questions: in, at or to any place.</strong> (где-нибудь, куда-нибудь; (с отрицанием) нигде, никуда)</p>
+<ol><li>I can't find my keys <em>anywhere</em>.</li><li>Did you go <em>anywhere</em> last weekend?</li><li>Is there a pharmacy <em>anywhere</em> near here?</li></ol>
+<p><strong>2. In or to any place at all; it does not matter where.</strong> (где угодно, куда угодно)</p>
+<ol start="4"><li>Sit <em>anywhere</em> you like.</li><li>You can buy these batteries <em>anywhere</em>.</li><li>I'd go <em>anywhere</em> with you.</li></ol>
+<p><strong>3. Any amount within a range, with <em>from … to</em> or <em>between</em>.</strong> (где-то (от … до))</p>
+<ol start="7"><li>The drive takes <em>anywhere</em> from three to five hours.</li><li>Tickets cost <em>anywhere</em> between $50 and $500.</li></ol>
+<p><strong>4. In <em>not anywhere near</em>: not at all; far from.</strong> (далеко не, совсем не)</p>
+<ol start="9"><li>I'm not <em>anywhere near</em> ready.</li><li>The new stadium isn't <em>anywhere near</em> as big as the old one.</li></ol>
+<p><strong>5. In negatives and questions with <em>get</em>: to any progress or result.</strong> (ни к чему (не привести))</p>
+<ol start="11"><li>Arguing with him won't get you <em>anywhere</em>.</li><li>Are we getting <em>anywhere</em> with this plan?</li></ol>
+<hr>
+<h3 id="elsewhere">elsewhere<a class="hash" href="#elsewhere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛlsˌwɛr/ &middot; <em>ELS-wair</em></dd><dt>Русский</dt><dd>в другом месте, в другое место</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end — or front, especially in news: <em>Elsewhere, stocks fell</em>; also after a noun: <em>people elsewhere</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; also follows a noun</dd><dt>Form</dt><dd><em>else</em> + <em>where</em></dd><dt>Contrast</dt><dd><em>Elsewhere</em> is a little more formal than <em>somewhere else</em>; in negatives and questions everyday speech uses <em>anywhere else</em>: <em>We couldn't find it anywhere else</em>.</dd></dl>
+<p>In, at or to another place or other places.</p>
+<ol><li>If you don't like the prices, shop <em>elsewhere</em>.</li><li><em>Elsewhere</em> in the state, rents are much lower.</li><li>As I mentioned <em>elsewhere</em> in the report, costs are rising.</li></ol>
+<hr>
+<h3 id="upstairs">upstairs<a class="hash" href="#upstairs" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌpˈstɛrz/ &middot; <em>up-STAIRZ</em></dd><dt>Русский</dt><dd>наверху, наверх</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end — or after a noun: <em>the neighbors upstairs</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; also follows a noun</dd><dt>Form</dt><dd><em>up</em> + <em>stairs</em>; the final -s belongs to the adverb, it is not a plural</dd><dt>Contrast</dt><dd>No preposition after a verb of motion: <em>go upstairs</em>, not <em>go to upstairs</em>. Before a noun it is an adjective, stressed on the first syllable (<em>the UPstairs bathroom</em>).</dd></dl>
+<p>Upstairs has 2 distinct senses.</p>
+<p><strong>1. On a higher floor of a building.</strong> (наверху, этажом выше)</p>
+<ol><li>My office is <em>upstairs</em>.</li><li>The kids are playing <em>upstairs</em>.</li><li>We can hear the neighbors <em>upstairs</em> every night.</li></ol>
+<p><strong>2. Up the stairs to a higher floor.</strong> (наверх)</p>
+<ol start="4"><li>She ran <em>upstairs</em> to get her coat.</li><li>Can you take these bags <em>upstairs</em>?</li></ol>
+<hr>
+<h3 id="downstairs">downstairs<a class="hash" href="#downstairs" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdaʊnˈstɛrz/ &middot; <em>down-STAIRZ</em></dd><dt>Русский</dt><dd>внизу, вниз</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end — or after a noun: <em>the apartment downstairs</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; also follows a noun</dd><dt>Form</dt><dd><em>down</em> + <em>stairs</em>; the final -s belongs to the adverb, it is not a plural</dd><dt>Contrast</dt><dd>No preposition after a verb of motion: <em>come downstairs</em>, not <em>come to downstairs</em>. Before a noun it is an adjective, stressed on the first syllable (<em>a DOWNstairs bedroom</em>).</dd></dl>
+<p>Downstairs has 2 distinct senses.</p>
+<p><strong>1. On a lower floor of a building, especially the ground floor.</strong> (внизу, этажом ниже)</p>
+<ol><li>Breakfast is served <em>downstairs</em>.</li><li>I'll wait for you <em>downstairs</em> in the lobby.</li><li>The people <em>downstairs</em> complained about the noise.</li></ol>
+<p><strong>2. Down the stairs to a lower floor.</strong> (вниз)</p>
+<ol start="4"><li>He hurried <em>downstairs</em> to answer the door.</li><li>Carry the laundry <em>downstairs</em> for me, please.</li></ol>
+<hr>
+<h3 id="outside">outside<a class="hash" href="#outside" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtˈsaɪd/ &middot; <em>owt-SYD</em></dd><dt>Русский</dt><dd>на улице, снаружи, наружу</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end — or front: <em>Outside, it was snowing</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; also follows a noun (<em>the noise outside</em>)</dd><dt>Contrast</dt><dd>Russian <em>на улице</em> about weather or being out of the house is <em>outside</em>, not <em>on the street</em>: <em>It's cold outside</em>, <em>The kids are playing outside</em>. With an object it is a preposition (<em>outside the house</em>); American English also says <em>outside of the house</em>.</dd></dl>
+<p>Outside has 3 distinct senses.</p>
+<p><strong>1. Not in a building; in the open air.</strong> (на улице, на дворе)</p>
+<ol><li>It's freezing <em>outside</em>.</li><li>The kids are playing <em>outside</em>.</li><li>Let's eat <em>outside</em> tonight.</li></ol>
+<p><strong>2. Out of a building or room, to the outside.</strong> (на улицу, наружу)</p>
+<ol start="4"><li>Could you step <em>outside</em> for a minute?</li><li>I'll take the dog <em>outside</em>.</li></ol>
+<p><strong>3. On the outer side or surface of something.</strong> (снаружи)</p>
+<ol start="6"><li>The house looks old <em>outside</em>, but it's modern inside.</li><li>We're having the house painted <em>outside</em> this summer.</li></ol>
+<hr>
+<h3 id="inside">inside<a class="hash" href="#inside" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnˈsaɪd/ &middot; <em>in-SYD</em></dd><dt>Русский</dt><dd>внутри, внутрь, в доме</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end — front for the feelings sense: <em>Inside, she was furious</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Contrast</dt><dd>With an object it is a preposition (<em>inside the car</em>); American English also says <em>inside of the car</em>, and <em>inside of an hour</em> means <em>within an hour</em>. <em>Inside out</em> means <em>наизнанку</em>, not <em>изнутри наружу</em>.</dd></dl>
+<p>Inside has 3 distinct senses.</p>
+<p><strong>1. In a building, room or container.</strong> (внутри, в доме)</p>
+<ol><li>Let's wait <em>inside</em> until the rain stops.</li><li>It's much warmer <em>inside</em>.</li><li>The box had a note <em>inside</em>.</li></ol>
+<p><strong>2. Into a building, room or container.</strong> (внутрь, в дом)</p>
+<ol start="4"><li>Come <em>inside</em> — it's getting dark.</li><li>She opened the envelope and looked <em>inside</em>.</li></ol>
+<p><strong>3. In your mind or feelings, often hidden from others.</strong> (в душе, внутри)</p>
+<ol start="6"><li>She smiled, but <em>inside</em> she was furious.</li><li>After the breakup, I felt empty <em>inside</em>.</li></ol>
+<hr>
+<h3 id="indoors">indoors<a class="hash" href="#indoors" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnˈdɔːrz/ &middot; <em>in-DORZ</em></dd><dt>Русский</dt><dd>в помещении, в дом</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>in</em> + <em>doors</em>; the adjective is <em>indoor</em>, with no -s</dd><dt>Contrast</dt><dd>The adverb ends in -s and the adjective does not: <em>We played indoors</em> but <em>an indoor pool</em>, never <em>an indoors pool</em> or <em>played indoor</em>.</dd></dl>
+<p>Indoors has 2 distinct senses.</p>
+<p><strong>1. In a building rather than outside.</strong> (в помещении, дома)</p>
+<ol><li>The kids stayed <em>indoors</em> all day because of the rain.</li><li>Smoking <em>indoors</em> is not allowed.</li></ol>
+<p><strong>2. Into a building.</strong> (в дом, в помещение)</p>
+<ol start="3"><li>We went <em>indoors</em> when it started to rain.</li><li>Bring the plants <em>indoors</em> before the first frost.</li></ol>
+<hr>
+<h3 id="outdoors">outdoors<a class="hash" href="#outdoors" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtˈdɔːrz/ &middot; <em>owt-DORZ</em></dd><dt>Русский</dt><dd>на улице, на открытом воздухе</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>out</em> + <em>doors</em>; the adjective is <em>outdoor</em>, with no -s</dd><dt>Contrast</dt><dd>The adverb ends in -s and the adjective does not: <em>We ate outdoors</em> but <em>an outdoor café</em>. <em>The great outdoors</em> is a noun (природа, дикая местность).</dd></dl>
+<p>Outdoors has 2 distinct senses.</p>
+<p><strong>1. Outside a building; in the open air.</strong> (на улице, на свежем воздухе)</p>
+<ol><li>We ate <em>outdoors</em> on the patio.</li><li>He works <em>outdoors</em> all year round.</li></ol>
+<p><strong>2. Out of a building into the open air.</strong> (на улицу)</p>
+<ol start="3"><li>Let's take the kids <em>outdoors</em> for some fresh air.</li><li>When the rain stopped, we moved the party <em>outdoors</em>.</li></ol>
+<hr>
+<h3 id="nearby">nearby<a class="hash" href="#nearby" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnɪrˈbaɪ/ &middot; <em>neer-BY</em></dd><dt>Русский</dt><dd>поблизости, рядом</dd><dt>Type</dt><dd>place</dd><dt>Position</dt><dd>end — or after a noun: <em>a café nearby</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; also follows a noun</dd><dt>Form</dt><dd><em>near</em> + <em>by</em>, written as one word</dd><dt>Contrast</dt><dd>With an object use <em>near</em>: <em>near the school</em>; <em>nearby the school</em> also occurs but is much less common and sounds awkward to many speakers. Before a noun it is an adjective (<em>a nearby town</em>); after a noun it is the adverb (<em>a town nearby</em>).</dd></dl>
+<p>Not far away; close by.</p>
+<ol><li>Do you live <em>nearby</em>?</li><li>There's a gas station <em>nearby</em> if you need one.</li><li>A police officer was standing <em>nearby</em> and saw everything.</li></ol>
+<hr>
+<h3 id="abroad">abroad<a class="hash" href="#abroad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈbrɔːd/ &middot; <em>uh-BRAWD</em></dd><dt>Русский</dt><dd>за границей, за границу</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; also follows a noun (<em>news from abroad</em>)</dd><dt>Form</dt><dd><em>a-</em> + <em>broad</em></dd><dt>Contrast</dt><dd>No preposition before it after a verb: <em>go abroad</em>, <em>live abroad</em>, not <em>go to abroad</em> or <em>in abroad</em> (but <em>from abroad</em> is fine). Do not confuse it with <em>aboard</em> (<em>на борту</em>). In everyday American speech <em>overseas</em> is often used instead, though <em>study abroad</em> is the fixed phrase.</dd></dl>
+<p>Abroad has 3 distinct senses.</p>
+<p><strong>1. In a foreign country.</strong> (за границей)</p>
+<ol><li>She lived <em>abroad</em> for ten years.</li><li>Many students spend a semester studying <em>abroad</em>.</li></ol>
+<p><strong>2. To a foreign country.</strong> (за границу)</p>
+<ol start="3"><li>We're going <em>abroad</em> this summer.</li><li>He moved <em>abroad</em> right after college.</li></ol>
+<p><strong>3. Formal: spreading widely among people; in circulation.</strong> (ходить (о слухах), распространяться)</p>
+<ol start="5"><li>Rumors were <em>abroad</em> that the plant would close.</li><li>There is a new mood of anger <em>abroad</em> in the country.</li></ol>
+<hr>
+<h3 id="overseas">overseas<a class="hash" href="#overseas" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈsiːz/ &middot; <em>oh-vur-SEEZ</em></dd><dt>Русский</dt><dd>за границей, за границу, за океаном</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>over</em> + <em>seas</em></dd><dt>Contrast</dt><dd>No preposition after a verb: <em>go overseas</em>, not <em>go to overseas</em>. Before a noun it is an adjective (<em>overseas markets</em>). Americans use it for almost any trip abroad except to Canada or Mexico.</dd></dl>
+<p>Overseas has 2 distinct senses.</p>
+<p><strong>1. In a foreign country, especially one across an ocean.</strong> (за границей, за океаном)</p>
+<ol><li>My brother is serving <em>overseas</em> with the Army.</li><li>The company makes most of its money <em>overseas</em>.</li></ol>
+<p><strong>2. To a foreign country across an ocean.</strong> (за границу, за океан)</p>
+<ol start="3"><li>She moved <em>overseas</em> for a job in Tokyo.</li><li>We ship our products <em>overseas</em> every week.</li></ol>
+<hr>
+<h3 id="overhead">overhead<a class="hash" href="#overhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈhɛd/ &middot; <em>oh-vur-HED</em></dd><dt>Русский</dt><dd>над головой, наверху</dd><dt>Type</dt><dd>place</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>over</em> + <em>head</em></dd><dt>Contrast</dt><dd>The adverb is stressed on the last syllable (<em>planes flew overHEAD</em>); the adjective and noun are stressed on the first (<em>OVERhead bin</em>, <em>OVERhead costs</em>). The noun <em>overhead</em> means <em>накладные расходы</em>.</dd></dl>
+<p>Above your head; in the sky.</p>
+<ol><li>Planes flew <em>overhead</em> all night.</li><li>A hawk was circling <em>overhead</em>.</li><li>A single bulb swung <em>overhead</em> in the basement.</li></ol>
+<hr>
+<h3 id="underground">underground<a class="hash" href="#underground" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌndərˈɡraʊnd/ &middot; <em>un-dur-GROWND</em></dd><dt>Русский</dt><dd>под землёй, в подполье</dd><dt>Type</dt><dd>place; also direction and manner</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>under</em> + <em>ground</em></dd><dt>Contrast</dt><dd>The adverb is stressed on the last syllable; the adjective on the first (<em>an UNderground garage</em>). <em>The Underground</em> is the London subway — in the US say <em>subway</em>.</dd></dl>
+<p>Underground has 2 distinct senses.</p>
+<p><strong>1. Below the surface of the ground.</strong> (под землёй)</p>
+<ol><li>The power lines run <em>underground</em>.</li><li>Moles spend most of their lives <em>underground</em>.</li><li>The miners work almost a mile <em>underground</em>.</li></ol>
+<p><strong>2. In or into secret, hiding from the authorities.</strong> (в подполье, на нелегальном положении)</p>
+<ol start="4"><li>The group went <em>underground</em> after it was banned.</li><li>He lived <em>underground</em> for years under a false name.</li></ol>
+<hr>
+<h3 id="downtown">downtown<a class="hash" href="#downtown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdaʊnˈtaʊn/ &middot; <em>down-TOWN</em></dd><dt>Русский</dt><dd>в центре города, в центр</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>down</em> + <em>town</em></dd><dt>Contrast</dt><dd>An American word: <em>downtown</em> is the central business district, not the lower part of town (British English says <em>in town</em> or <em>the city centre</em>). No preposition after a verb: <em>go downtown</em>, not <em>go to downtown</em> — <em>to downtown Chicago</em> uses it as a noun. In Manhattan it also means the southern part.</dd></dl>
+<p>Downtown has 2 distinct senses.</p>
+<p><strong>1. In the center or main business district of a city.</strong> (в центре города)</p>
+<ol><li>She works <em>downtown</em> at a bank.</li><li>Parking <em>downtown</em> costs a fortune.</li></ol>
+<p><strong>2. To or toward the center of a city.</strong> (в центр города)</p>
+<ol start="3"><li>Let's take the train <em>downtown</em>.</li><li>We drove <em>downtown</em> for dinner and a show.</li></ol>
+<hr>
+<h3 id="uptown">uptown<a class="hash" href="#uptown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌpˈtaʊn/ &middot; <em>up-TOWN</em></dd><dt>Русский</dt><dd>в северной части города, в жилые кварталы</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>up</em> + <em>town</em></dd><dt>Contrast</dt><dd>An American word with no British equivalent: the part of a city away from downtown, usually residential, and in Manhattan the northern part. The adjective <em>uptown</em> can also mean <em>upscale</em> (<em>an uptown restaurant</em>). No preposition after a verb: <em>go uptown</em>.</dd></dl>
+<p>Uptown has 2 distinct senses.</p>
+<p><strong>1. In the part of a city away from the center, usually residential, or in New York the northern part.</strong> (в северной части города, в жилом районе)</p>
+<ol><li>My grandparents live <em>uptown</em>.</li><li>The museum is <em>uptown</em>, near the park.</li></ol>
+<p><strong>2. To or toward that part of a city.</strong> (в северную часть города)</p>
+<ol start="3"><li>Take the express train <em>uptown</em> to 110th Street.</li><li>After the show, we headed <em>uptown</em>.</li></ol>
+<hr>
+<h3 id="ahead">ahead<a class="hash" href="#ahead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈhɛd/ &middot; <em>uh-HED</em></dd><dt>Русский</dt><dd>впереди, вперёд, заранее</dd><dt>Type</dt><dd>place; also direction and time</dd><dt>Position</dt><dd>end — or after a noun: <em>the road ahead</em></dd><dt>Comparison</dt><dd>not gradable — use <em>further</em>: <em>further ahead</em></dd><dt>Modifies</dt><dd>verbs; also follows a noun (<em>the road ahead</em>)</dd><dt>Form</dt><dd><em>a-</em> + <em>head</em></dd><dt>Contrast</dt><dd>With an object it becomes <em>ahead of</em> (<em>ahead of me</em>, <em>ahead of time</em>). <em>Go ahead</em> usually means <em>давай, пожалуйста</em> (permission), not <em>иди вперёд</em>. For the direction of a single step say <em>forward</em>: <em>step forward</em>, not <em>step ahead</em>.</dd></dl>
+<p>Ahead has 6 distinct senses.</p>
+<p><strong>1. In front; further forward in space.</strong> (впереди)</p>
+<ol><li>The road <em>ahead</em> is closed.</li><li>There's a gas station a mile <em>ahead</em>.</li><li>Keep your eyes straight <em>ahead</em>.</li></ol>
+<p><strong>2. Forward, in the direction you are facing or going.</strong> (вперёд)</p>
+<ol start="4"><li>She ran <em>ahead</em> to get us a table.</li><li>The kids raced <em>ahead</em> down the trail.</li></ol>
+<p><strong>3. In or into the future.</strong> (впереди, на будущее)</p>
+<ol start="6"><li>We have a busy week <em>ahead</em>.</li><li>It's time to look <em>ahead</em> and make a plan.</li></ol>
+<p><strong>4. Before the time something happens; in advance.</strong> (заранее)</p>
+<ol start="8"><li>Call <em>ahead</em> to reserve a table.</li><li>If you plan <em>ahead</em>, the move will be easy.</li></ol>
+<p><strong>5. Winning, leading, or in a better position than others.</strong> (впереди (по очкам), в выигрыше)</p>
+<ol start="10"><li>Our team was <em>ahead</em> by ten points at halftime.</li><li>If you buy now, you'll come out <em>ahead</em> in the long run.</li></ol>
+<p><strong>6. In <em>go ahead</em>: to start or continue doing something; used to give permission.</strong> (давай(те), приступать, состояться)</p>
+<ol start="12"><li>"Can I ask a question?" "Sure, go <em>ahead</em>."</li><li>Go <em>ahead</em> and start eating — don't wait for me.</li><li>The concert will go <em>ahead</em> despite the rain.</li></ol>
+<hr>
+<h3 id="behind">behind<a class="hash" href="#behind" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈhaɪnd/ &middot; <em>bih-HYND</em></dd><dt>Русский</dt><dd>сзади, позади</dd><dt>Type</dt><dd>place; also direction and time</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable — use <em>further</em>: <em>further behind</em></dd><dt>Modifies</dt><dd>verbs</dd><dt>Contrast</dt><dd>Russian speakers copy <em>in front of</em> and say <em>behind of the house</em>; the preposition is just <em>behind the house</em>, with no <em>of</em>. <em>Stay behind</em> means <em>остаться (на месте)</em>, not <em>отстать</em> — that is <em>fall behind</em>. The noun <em>behind</em> is informal for <em>зад, попа</em>.</dd></dl>
+<p>Behind has 3 distinct senses.</p>
+<p><strong>1. At or toward the back; following someone or something.</strong> (сзади, позади)</p>
+<ol><li>She walked ahead, and I followed <em>behind</em>.</li><li>A police car was following close <em>behind</em>.</li><li>The rest of the hikers were a long way <em>behind</em>.</li></ol>
+<p><strong>2. Remaining in the place you are leaving, or still there after someone has gone or died.</strong> ((оставить, остаться) на месте, позади)</p>
+<ol start="4"><li>I left my wallet <em>behind</em> at the restaurant.</li><li>He stayed <em>behind</em> after class to help clean up.</li><li>He leaves <em>behind</em> a wife and two children.</li></ol>
+<p><strong>3. Late, slower than planned, or losing; not keeping up.</strong> (с отставанием, (отставать))</p>
+<ol start="7"><li>I fell <em>behind</em> in chemistry after I got sick.</li><li>We're three months <em>behind</em> on the rent.</li><li>The Yankees were <em>behind</em> by two runs in the ninth.</li></ol>
+<hr>
+<h3 id="above">above<a class="hash" href="#above" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈbʌv/ &middot; <em>uh-BUV</em></dd><dt>Русский</dt><dd>наверху, выше</dd><dt>Type</dt><dd>place; also direction and degree</dd><dt>Position</dt><dd>end — or after a noun: <em>the chart above</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; follows a noun or a number</dd><dt>Contrast</dt><dd>For earlier text Russian says <em>выше</em>, but English says <em>above</em>, not <em>higher</em>: <em>see above</em>, <em>the example above</em>. With an object it is a preposition (<em>above the door</em>); <em>the above</em> (<em>the above address</em>) is a formal adjective or noun use.</dd></dl>
+<p>Above has 4 distinct senses.</p>
+<p><strong>1. At or to a higher place; overhead.</strong> (наверху, вверху, сверху)</p>
+<ol><li>The people in the apartment <em>above</em> are really loud.</li><li>Seen from <em>above</em>, the city looks like a map.</li><li>Dark clouds gathered <em>above</em>.</li></ol>
+<p><strong>2. Earlier in a piece of writing.</strong> (выше)</p>
+<ol start="4"><li>See the chart <em>above</em> for details.</li><li>As mentioned <em>above</em>, the deadline is Friday.</li></ol>
+<p><strong>3. More than a stated number, amount or level.</strong> (и выше, и больше)</p>
+<ol start="6"><li>The class is for kids aged 12 and <em>above</em>.</li><li>Any grade of 90 or <em>above</em> is an A.</li></ol>
+<p><strong>4. In a higher position of authority, or in heaven.</strong> (сверху, свыше)</p>
+<ol start="8"><li>The order came from <em>above</em>.</li><li>She believed the help was sent from <em>above</em>.</li></ol>
+<hr>
+<h3 id="below">below<a class="hash" href="#below" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈloʊ/ &middot; <em>bih-LOH</em></dd><dt>Русский</dt><dd>внизу, ниже</dd><dt>Type</dt><dd>place; also direction and degree</dd><dt>Position</dt><dd>end — or after a noun: <em>the table below</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; follows a noun or a number</dd><dt>Contrast</dt><dd>For later text say <em>below</em>, not <em>lower</em>: <em>see below</em>. In American weather talk <em>ten below</em> means ten degrees below zero Fahrenheit. With an object it is a preposition (<em>below the window</em>).</dd></dl>
+<p>Below has 4 distinct senses.</p>
+<p><strong>1. At or to a lower place.</strong> (внизу, вниз)</p>
+<ol><li>From the bridge we watched the river <em>below</em>.</li><li>The apartment <em>below</em> has been empty for months.</li><li>The pot fell to the sidewalk <em>below</em>.</li></ol>
+<p><strong>2. Later in a piece of writing.</strong> (ниже)</p>
+<ol start="4"><li>See the table <em>below</em>.</li><li>Sign your name in the space <em>below</em>.</li></ol>
+<p><strong>3. Less than a stated number or level, including below zero on a thermometer.</strong> (и ниже, ниже нуля)</p>
+<ol start="6"><li>Anyone who scores 60 or <em>below</em> has to retake the test.</li><li>It was fifteen <em>below</em> in Minneapolis last night.</li></ol>
+<p><strong>4. On or to a lower deck of a ship.</strong> (вниз (в каюту, в трюм))</p>
+<ol start="8"><li>The captain ordered the passengers to go <em>below</em>.</li><li>Two sailors were sleeping <em>below</em>.</li></ol>
+<hr>
+<h3 id="beneath">beneath<a class="hash" href="#beneath" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈniːθ/ &middot; <em>bih-NEETH</em></dd><dt>Русский</dt><dd>внизу, под этим</dd><dt>Type</dt><dd>place</dd><dt>Position</dt><dd>end — or after a noun: <em>the valley beneath</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; also follows a noun</dd><dt>Contrast</dt><dd>Mostly a preposition (<em>beneath the bridge</em>); the adverb is formal or literary, and everyday speech uses <em>below</em> or <em>underneath</em>. <em>It's beneath me</em> (<em>ниже моего достоинства</em>) is the preposition, not this adverb.</dd></dl>
+<p>Directly below; underneath.</p>
+<ol><li>They stood on the cliff and looked at the waves <em>beneath</em>.</li><li>The paint had peeled, and bare wood showed <em>beneath</em>.</li><li>From the plane we could see the whole valley <em>beneath</em>.</li></ol>
+<hr>
+<h3 id="underneath">underneath<a class="hash" href="#underneath" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌndərˈniːθ/ &middot; <em>un-dur-NEETH</em></dd><dt>Русский</dt><dd>внизу, под низом, снизу</dd><dt>Type</dt><dd>place</dd><dt>Position</dt><dd>front or end — front for the hidden-feelings sense</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; whole clauses in the second sense</dd><dt>Form</dt><dd><em>under</em> + <em>neath</em> (an old word for <em>below</em>)</dd><dt>Contrast</dt><dd>With an object it is a preposition (<em>underneath the bed</em>). In the second sense it opens the clause and means <em>в глубине души</em>, not a physical place.</dd></dl>
+<p>Underneath has 2 distinct senses.</p>
+<p><strong>1. Directly under something, or on its lower side.</strong> (под этим, внизу, снизу)</p>
+<ol><li>I lifted the rug and found the keys <em>underneath</em>.</li><li>She wore a sweater with a T-shirt <em>underneath</em>.</li><li>The car looks fine but is rusting <em>underneath</em>.</li></ol>
+<p><strong>2. Behind the way someone looks or acts; in reality.</strong> (в глубине души, на самом деле)</p>
+<ol start="4"><li>He seems tough, but <em>underneath</em> he's very kind.</li><li><em>Underneath</em>, she was terrified.</li></ol>
+<hr>
+<h3 id="home">home<a class="hash" href="#home" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊm/ &middot; <em>HOHM</em></dd><dt>Русский</dt><dd>домой, дома</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs of motion, and <em>be</em> and <em>stay</em></dd><dt>Contrast</dt><dd>After verbs of motion <em>home</em> takes no preposition: <em>go home</em>, <em>get home</em>, <em>arrive home</em>, never <em>go to home</em> or <em>arrive to home</em>. For location American English says both <em>stay home</em> and <em>stay at home</em>, <em>Is Dad home?</em> and <em>Is Dad at home?</em>; British English prefers <em>at home</em>. With a possessive it is a noun and needs the preposition: <em>go to my home</em>.</dd></dl>
+<p>Home has 5 distinct senses.</p>
+<p><strong>1. To the place where you live.</strong> (домой)</p>
+<ol><li>I'm going <em>home</em> — I'm exhausted.</li><li>What time did you get <em>home</em> last night?</li><li>Can you drive me <em>home</em> after the party?</li></ol>
+<p><strong>2. At the place where you live.</strong> (дома)</p>
+<ol start="4"><li>Is your dad <em>home</em>?</li><li>I stayed <em>home</em> all weekend.</li><li>Nobody's <em>home</em> right now.</li></ol>
+<p><strong>3. To or in your own country or hometown.</strong> (на родину, домой)</p>
+<ol start="7"><li>After ten years in Europe, she came <em>home</em> to Texas.</li><li>It's time to bring the troops <em>home</em>.</li></ol>
+<p><strong>4. So that something is fully felt or understood.</strong> ((дойти) до сознания, в полной мере)</p>
+<ol start="9"><li>The reality of losing her job finally hit <em>home</em>.</li><li>The ad drives <em>home</em> the message that speeding kills.</li><li>Seeing his empty room really brought it <em>home</em> to me that he was gone.</li></ol>
+<p><strong>5. Fully into the right place, as far as it will go.</strong> (до упора, до конца)</p>
+<ol start="12"><li>He hammered the nail <em>home</em>.</li><li>Push the cartridge <em>home</em> until it clicks.</li></ol>
+<hr>
+<h3 id="away">away<a class="hash" href="#away" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈweɪ/ &middot; <em>uh-WAY</em></dd><dt>Русский</dt><dd>прочь, в сторону, на расстоянии</dd><dt>Type</dt><dd>place; also direction, time and particle</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable — use <em>farther</em> or <em>further</em>: <em>farther away</em></dd><dt>Modifies</dt><dd>verbs; follows a distance or a length of time (<em>two miles away</em>)</dd><dt>Form</dt><dd><em>a-</em> + <em>way</em></dd><dt>Contrast</dt><dd>Distance and time go before <em>away</em>: <em>The station is five minutes away</em>, never <em>five minutes far</em> or <em>far in five minutes</em>. <em>She's out</em> means she has left for a short time; <em>she's away</em> means she is traveling for days. <em>Way</em> in <em>way too expensive</em> is a separate informal degree adverb. In phrasal verbs (<em>throw away</em>, <em>give away</em>, <em>put away</em>) it is a particle whose meaning is part of the verb.</dd></dl>
+<p>Away has 10 distinct senses.</p>
+<p><strong>1. From a place; leaving or moving to a different place.</strong> (прочь, (уйти, уехать))</p>
+<ol><li>Go <em>away</em> and leave me alone!</li><li>He turned and walked <em>away</em> without a word.</li><li>The bird flew <em>away</em>.</li></ol>
+<p><strong>2. At a distance from someone or something, often a stated one.</strong> (на расстоянии, (в двух милях) отсюда)</p>
+<ol start="4"><li>The beach is only two miles <em>away</em>.</li><li>The nearest hospital is an hour <em>away</em>.</li><li>Stay <em>away</em> from the edge!</li></ol>
+<p><strong>3. Not at home or at work; out of town for a period of time.</strong> (в отъезде, нет на месте)</p>
+<ol start="7"><li>She's <em>away</em> on business this week.</li><li>We'll be <em>away</em> until Monday.</li></ol>
+<p><strong>4. Turning in another direction.</strong> (в сторону)</p>
+<ol start="9"><li>She looked <em>away</em> when I smiled at her.</li><li>He turned <em>away</em> from the window.</li></ol>
+<p><strong>5. Into a safe or proper place, especially to store or save something.</strong> (на место, (убрать, отложить))</p>
+<ol start="11"><li>Put your toys <em>away</em> before dinner.</li><li>They've been putting money <em>away</em> for college.</li></ol>
+<p><strong>6. So that you no longer have something; out of your possession.</strong> ((отдать, выбросить, продать))</p>
+<ol start="13"><li>Don't throw that box <em>away</em> — I need it.</li><li>We gave most of our furniture <em>away</em> before the move.</li><li>The store is giving <em>away</em> free samples today.</li></ol>
+<p><strong>7. So that something gets smaller and disappears.</strong> (совсем, до конца (исчезнуть))</p>
+<ol start="16"><li>The snow melted <em>away</em> by noon.</li><li>The music slowly faded <em>away</em>.</li></ol>
+<p><strong>8. Continuously and busily, without stopping.</strong> (не переставая, вовсю)</p>
+<ol start="18"><li>She was typing <em>away</em> at her laptop all night.</li><li>You have questions? Ask <em>away</em>.</li></ol>
+<p><strong>9. In the future, at a stated distance in time.</strong> ((осталось) до, через)</p>
+<ol start="20"><li>Christmas is only two weeks <em>away</em>.</li><li>The election is still a year <em>away</em>.</li></ol>
+<p><strong>10. In <em>right away</em>: immediately.</strong> (сразу, немедленно)</p>
+<ol start="22"><li>I'll call you back <em>right away</em>.</li><li>She knew <em>right away</em> that something was wrong.</li></ol>
+<hr>
+<h3 id="apart">apart<a class="hash" href="#apart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpɑːrt/ &middot; <em>uh-PAHRT</em></dd><dt>Русский</dt><dd>отдельно, врозь, на части</dd><dt>Type</dt><dd>place; also manner and particle</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable — use <em>farther</em> or <em>further</em>: <em>farther apart</em></dd><dt>Modifies</dt><dd>verbs; follows a distance or a length of time (<em>three days apart</em>)</dd><dt>Form</dt><dd><em>a-</em> + <em>part</em></dd><dt>Contrast</dt><dd><em>Apart</em> (one word) means separated; <em>a part</em> (two words) means <em>часть</em>: <em>She is a part of the team</em> vs <em>They live apart</em>. <em>Apart from</em> is a preposition meaning <em>кроме</em> (American English also says <em>aside from</em>).</dd></dl>
+<p>Apart has 4 distinct senses.</p>
+<p><strong>1. Separated by a stated distance or time.</strong> (на расстоянии (друг от друга), с разницей в)</p>
+<ol><li>The two towns are ten miles <em>apart</em>.</li><li>Our birthdays are just three days <em>apart</em>.</li><li>Stand with your feet shoulder-width <em>apart</em>.</li></ol>
+<p><strong>2. Not together; separately.</strong> (врозь, отдельно)</p>
+<ol start="4"><li>My parents have lived <em>apart</em> for years.</li><li>The twins had never spent a night <em>apart</em>.</li></ol>
+<p><strong>3. Into pieces.</strong> (на части, на куски)</p>
+<ol start="6"><li>The old book fell <em>apart</em> in my hands.</li><li>He took the engine <em>apart</em> to fix it.</li></ol>
+<p><strong>4. Different from or kept separate from others.</strong> (особняком, (выделять))</p>
+<ol start="8"><li>Her voice sets her <em>apart</em> from other singers.</li><li>He always kept himself <em>apart</em> from the other kids.</li></ol>
+<hr>
+<h3 id="aside">aside<a class="hash" href="#aside" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsaɪd/ &middot; <em>uh-SYD</em></dd><dt>Русский</dt><dd>в сторону, в стороне</dd><dt>Type</dt><dd>place; also direction and particle</dd><dt>Position</dt><dd>end — or after a noun: <em>jokes aside</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; follows a noun in the sense <em>not counting</em></dd><dt>Form</dt><dd><em>a-</em> + <em>side</em></dd><dt>Contrast</dt><dd><em>Aside from</em> is a preposition meaning <em>кроме</em> (the American form of <em>apart from</em>). Do not confuse it with <em>beside</em> (<em>рядом с</em>) or <em>besides</em> (<em>кроме того</em>). The noun <em>an aside</em> is a remark made in passing.</dd></dl>
+<p>Aside has 3 distinct senses.</p>
+<p><strong>1. To one side; out of the way.</strong> (в сторону)</p>
+<ol><li>She stepped <em>aside</em> to let me pass.</li><li>He pushed his plate <em>aside</em> and stood up.</li><li>Can I take you <em>aside</em> for a minute?</li></ol>
+<p><strong>2. Saved or kept for later use.</strong> (про запас, (отложить))</p>
+<ol start="4"><li>I put <em>aside</em> $50 a week for vacation.</li><li>Set <em>aside</em> an hour at the end for questions.</li></ol>
+<p><strong>3. Not counted or considered for the moment, after a noun.</strong> (не считая, если не считать)</p>
+<ol start="6"><li>Jokes <em>aside</em>, we really need to talk.</li><li>Cost <em>aside</em>, it's a great idea.</li></ol>
+<hr>
+<h3 id="ashore">ashore<a class="hash" href="#ashore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈʃɔːr/ &middot; <em>uh-SHOR</em></dd><dt>Русский</dt><dd>на берег, на берегу</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>a-</em> + <em>shore</em>, like <em>aboard</em> and <em>afloat</em></dd><dt>Contrast</dt><dd>No preposition after a verb: <em>come ashore</em>, not <em>come to ashore</em>. Like other <em>a-</em> words it never goes before a noun; say <em>the crew on shore</em>, not <em>the ashore crew</em>.</dd></dl>
+<p>Ashore has 2 distinct senses.</p>
+<p><strong>1. From the water onto the land.</strong> (на берег)</p>
+<ol><li>The sailors rowed <em>ashore</em> at dawn.</li><li>Tons of plastic wash <em>ashore</em> every year.</li></ol>
+<p><strong>2. On land, not on a ship.</strong> (на берегу, на суше)</p>
+<ol start="3"><li>The crew spent the night <em>ashore</em>.</li><li>Cruise passengers get four hours <em>ashore</em> in Nassau.</li></ol>
+<hr>
+<h3 id="aboard">aboard<a class="hash" href="#aboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈbɔːrd/ &middot; <em>uh-BORD</em></dd><dt>Русский</dt><dd>на борту, на борт</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>a-</em> + <em>board</em></dd><dt>Contrast</dt><dd>Do not confuse <em>aboard</em> (<em>на борту</em>) with <em>abroad</em> (<em>за границей</em>). With an object it is a preposition and takes no <em>of</em>: <em>aboard the ship</em>. <em>On board</em> means the same and is more common in speech.</dd></dl>
+<p>Aboard has 3 distinct senses.</p>
+<p><strong>1. On a ship, plane, train or bus.</strong> (на борту)</p>
+<ol><li>There were 180 passengers <em>aboard</em>.</li><li>Is everyone <em>aboard</em>?</li></ol>
+<p><strong>2. Onto a ship, plane, train or bus.</strong> (на борт)</p>
+<ol start="3"><li>We climbed <em>aboard</em> just before the doors closed.</li><li>"All <em>aboard</em>!" the conductor shouted.</li></ol>
+<p><strong>3. Into a company, team or group as a new member.</strong> (в команду, в коллектив)</p>
+<ol start="5"><li>Welcome <em>aboard</em> — we're glad to have you.</li><li>We brought a new designer <em>aboard</em> last month.</li></ol>
+<hr>
+<h3 id="offshore">offshore<a class="hash" href="#offshore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːfˈʃɔːr/ &middot; <em>awf-SHOR</em></dd><dt>Русский</dt><dd>в море, вдали от берега; за рубежом</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs</dd><dt>Form</dt><dd><em>off</em> + <em>shore</em>; the opposite is <em>onshore</em></dd><dt>Contrast</dt><dd>Russian <em>офшор</em> is a noun; English <em>offshore</em> is an adjective or adverb, so say <em>an offshore company</em> or <em>an offshore account</em>, not <em>an offshore</em>. Do not confuse it with <em>ashore</em> (<em>на берег</em>), which means the opposite direction.</dd></dl>
+<p>Offshore has 3 distinct senses.</p>
+<p><strong>1. At sea, some distance from the coast.</strong> (в море, недалеко от берега)</p>
+<ol><li>The ship anchored a mile <em>offshore</em>.</li><li>Much of the oil is now drilled <em>offshore</em>.</li></ol>
+<p><strong>2. Away from the land and toward the sea.</strong> (с берега, в сторону моря)</p>
+<ol start="3"><li>The wind was blowing <em>offshore</em>.</li><li>A strong current pulled the swimmer <em>offshore</em>.</li></ol>
+<p><strong>3. In or to another country, especially to pay lower taxes or wages.</strong> (за рубеж(ом), в офшор(е))</p>
+<ol start="5"><li>The company moved thousands of jobs <em>offshore</em>.</li><li>He kept most of his money <em>offshore</em>.</li></ol>
+<hr>
+<h3 id="inland">inland<a class="hash" href="#inland" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnˌlænd/ &middot; <em>IN-land</em></dd><dt>Русский</dt><dd>в глубине страны, вглубь страны</dd><dt>Type</dt><dd>place; also direction</dd><dt>Position</dt><dd>end</dd><dt>Comparison</dt><dd>not gradable — use <em>further</em>: <em>further inland</em></dd><dt>Modifies</dt><dd>verbs; follows a distance (<em>fifty miles inland</em>)</dd><dt>Form</dt><dd><em>in</em> + <em>land</em></dd><dt>Contrast</dt><dd>Russian <em>внутренний</em> about travel within a country is <em>domestic</em>, not <em>inland</em>: <em>domestic flights</em>. <em>Inland</em> is about distance from the sea or coast.</dd></dl>
+<p>Inland has 2 distinct senses.</p>
+<p><strong>1. In an area away from the coast.</strong> (в глубине страны, вдали от моря)</p>
+<ol><li>The town is about fifty miles <em>inland</em>.</li><li>It's much hotter <em>inland</em> in the summer.</li></ol>
+<p><strong>2. Away from the coast toward the middle of a country.</strong> (вглубь страны)</p>
+<ol start="3"><li>The hurricane moved <em>inland</em> overnight.</li><li>The settlers traveled <em>inland</em> along the river.</li></ol>
+<hr>
+<h3 id="midway">midway<a class="hash" href="#midway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɪdˈweɪ/ &middot; <em>mid-WAY</em></dd><dt>Русский</dt><dd>на полпути, посередине</dd><dt>Type</dt><dd>place; also time</dd><dt>Position</dt><dd>front or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; phrases with <em>between</em> and <em>through</em></dd><dt>Form</dt><dd><em>mid</em> + <em>way</em></dd><dt>Contrast</dt><dd>In American English <em>the midway</em> is also a noun: the part of a fair with games and rides. <em>Midway</em> is a little more formal than <em>halfway</em>, and has no degree sense (<em>halfway decent</em>, not <em>midway decent</em>).</dd></dl>
+<p>Midway has 2 distinct senses.</p>
+<p><strong>1. In the middle of the distance between two places.</strong> (на полпути, посередине)</p>
+<ol><li>The town lies <em>midway</em> between Denver and Salt Lake City.</li><li>We stopped <em>midway</em> for lunch.</li></ol>
+<p><strong>2. In the middle of a period of time or an event.</strong> (в середине, посреди)</p>
+<ol start="3"><li>He walked out <em>midway</em> through the movie.</li><li><em>Midway</em> through the season, the coach was fired.</li></ol>
+<hr>
+<h3 id="halfway">halfway<a class="hash" href="#halfway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhæfˈweɪ/ &middot; <em>haf-WAY</em></dd><dt>Русский</dt><dd>на полпути, наполовину</dd><dt>Type</dt><dd>place; also time and degree</dd><dt>Position</dt><dd>mid or end — mid in the degree sense: <em>I halfway believed him</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>verbs; adjectives in the degree sense (<em>halfway decent</em>); phrases with <em>through</em>, <em>up</em>, <em>between</em></dd><dt>Form</dt><dd><em>half</em> + <em>way</em>; older writing has <em>half way</em> or <em>half-way</em></dd><dt>Contrast</dt><dd>For a physical amount English uses <em>half</em> (<em>half empty</em>, <em>half a glass</em>); <em>halfway</em> is for progress through distance or time (<em>halfway home</em>, <em>halfway through the book</em>). <em>Halfway decent</em> is informal for <em>более-менее приличный</em>, not <em>наполовину приличный</em>.</dd></dl>
+<p>Halfway has 4 distinct senses.</p>
+<p><strong>1. At or to the middle point between two places.</strong> (на полпути, посередине)</p>
+<ol><li>We're <em>halfway</em> there — keep going.</li><li>She stopped <em>halfway</em> up the stairs.</li><li>The gas station is <em>halfway</em> between the two towns.</li></ol>
+<p><strong>2. In the middle of a period of time, activity or process.</strong> (на середине, наполовину)</p>
+<ol start="4"><li>I fell asleep <em>halfway</em> through the movie.</li><li>We're about <em>halfway</em> done with the renovation.</li></ol>
+<p><strong>3. Informal: partly, or to an acceptable degree.</strong> (отчасти; более-менее)</p>
+<ol start="6"><li>I <em>halfway</em> believed his story.</li><li>Anything <em>halfway</em> decent in this neighborhood costs a fortune.</li></ol>
+<p><strong>4. In <em>meet someone halfway</em>: to compromise by giving up part of what you want.</strong> (пойти навстречу, найти компромисс)</p>
+<ol start="8"><li>I can't pay $500, but I'll meet you <em>halfway</em>.</li><li>If both sides met <em>halfway</em>, the strike could end tomorrow.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

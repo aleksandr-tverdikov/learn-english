@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linking adverbs</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">05-adverbs</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="linking-adverbs">Linking adverbs<a class="hash" href="#linking-adverbs" aria-label="link">#</a></h1>
+<blockquote><p>How this sentence relates to the last one — <em>however</em>, <em>therefore</em>, <em>moreover</em>, <em>instead</em>, <em>otherwise</em>, <em>anyway</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of adverbs</a> &middot; <a href="README.html">All groups</a></p>
+<p>Linking (conjunctive) adverbs connect a sentence to the one before it, but grammatically they are adverbs, not conjunctions — which is why <em>It rained, however we went</em> is a punctuation error: two sentences joined only by a comma. Use a period or a semicolon before them. The conjunction dictionary covers them as connectors; these entries cover them as adverbs, with the positions they can take inside a clause.</p>
+<hr>
+<h3 id="however">however<a class="hash" href="#however" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haʊˈɛvər/ &middot; <em>how-EV-ur</em></dd><dt>Русский</dt><dd>однако; как бы ни</dd><dt>Type</dt><dd>linking; also degree and manner</dd><dt>Position</dt><dd>any position — front with a comma (<em>However, …</em>), mid between commas (<em>The plan, however, failed</em>) or end; as <em>no matter how</em>, at the front of its clause</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause as a link; an adjective, adverb or <em>much</em>/<em>many</em> in <em>however hard</em>, <em>however much</em></dd><dt>Form</dt><dd>how + ever, written as one word</dd><dt>Contrast</dt><dd><em>However</em> is an adverb, not a conjunction like <em>but</em>: <em>It rained, however we went</em> is a comma splice. Write <em>It rained; however, we went</em> or <em>It rained. However, we went.</em> Russian <em>однако</em> can follow a comma, so this is the classic learner error. The comma also changes the meaning: <em>However, hard work pays off</em> (однако) vs <em>However hard you work, …</em> (как бы ни), with no comma after <em>however</em> when it means <em>no matter how</em>. <em>However did you find us?</em> (= how on earth) is mainly British; Americans say <em>How on earth did you find us?</em></dd></dl>
+<p>However has 3 distinct senses.</p>
+<p><strong>1. But; in spite of what was just said.</strong> (однако, тем не менее)</p>
+<ol><li>The hotel was expensive. <em>However</em>, the service was excellent.</li><li>Most of the team agreed; the manager, <em>however</em>, had doubts.</li><li>I'd love to come. I have to work that night, <em>however</em>.</li></ol>
+<p><strong>2. To whatever degree or extent; no matter how.</strong> (как бы ни, сколько бы ни)</p>
+<ol start="4"><li><em>However</em> hard I try, I can't get up before seven.</li><li>We'll buy it, <em>however</em> much it costs.</li><li>Call me when you land, <em>however</em> late it is.</li></ol>
+<p><strong>3. In whatever way; no matter how something is done.</strong> (как бы ни, каким бы образом ни)</p>
+<ol start="7"><li><em>However</em> you look at it, the numbers don't add up.</li><li><em>However</em> we get there, we need to arrive by noon.</li></ol>
+<hr>
+<h3 id="nevertheless">nevertheless<a class="hash" href="#nevertheless" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnɛvərðəˈlɛs/ &middot; <em>nev-ur-thuh-LES</em></dd><dt>Русский</dt><dd>тем не менее, всё же</dd><dt>Type</dt><dd>linking — contrast: despite what was just said</dd><dt>Position</dt><dd>any position — mostly front (<em>Nevertheless, …</em>) or mid (<em>was nevertheless</em>); end is less common</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause</dd><dt>Form</dt><dd>never + the + less, written as one word</dd><dt>Contrast</dt><dd>Stronger and more formal than <em>however</em> or <em>still</em>; in conversation Americans more often say <em>still</em> or <em>even so</em>. Like <em>however</em>, it cannot join two sentences with only a comma: <em>It was late, nevertheless we kept working</em> needs a semicolon or a period. It often follows <em>but</em> or <em>and</em>: <em>risky but nevertheless worth it</em>.</dd></dl>
+<p>In spite of that; even so.</p>
+<ol><li>The test was hard. <em>Nevertheless</em>, almost everyone passed.</li><li>She was exhausted but <em>nevertheless</em> finished the race.</li><li>The plan had flaws; it was, <em>nevertheless</em>, the best we had.</li></ol>
+<hr>
+<h3 id="nonetheless">nonetheless<a class="hash" href="#nonetheless" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnʌnðəˈlɛs/ &middot; <em>nun-thuh-LES</em></dd><dt>Русский</dt><dd>тем не менее, всё же</dd><dt>Type</dt><dd>linking — contrast: despite what was just said</dd><dt>Position</dt><dd>any position — front, mid (<em>was nonetheless</em>) or end</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause</dd><dt>Form</dt><dd>none + the + less; the American spelling is one word</dd><dt>Contrast</dt><dd>Means the same as <em>nevertheless</em>; <em>nonetheless</em> is at least as common in current American English and sits more easily at the end of a clause (<em>It was a long shot, but we tried nonetheless</em>). The spaced <em>none the less</em> is older and mostly British. It is not a conjunction: when it opens a new sentence, put a period or a semicolon before it, not just a comma.</dd></dl>
+<p>In spite of that; even so.</p>
+<ol><li>The movie got bad reviews. <em>Nonetheless</em>, it made a lot of money.</li><li>It's a small gesture, but it's <em>nonetheless</em> important.</li><li>We knew the odds were against us, but we tried <em>nonetheless</em>.</li></ol>
+<hr>
+<h3 id="conversely">conversely<a class="hash" href="#conversely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈvɜːrsli/ &middot; <em>kuhn-VURS-lee</em></dd><dt>Русский</dt><dd>наоборот, и наоборот</dd><dt>Type</dt><dd>linking — the reverse relation</dd><dt>Position</dt><dd>front — also mid between commas (<em>and, conversely, …</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause</dd><dt>Form</dt><dd>-ly from <em>converse</em> (the reverse)</dd><dt>Contrast</dt><dd><em>Conversely</em> states the reverse of a relation that is also true (<em>Cold weather raises heating bills; conversely, warm weather lowers them</em>). It does not reject what someone said; that is <em>on the contrary</em>: <em>You're not bothering me. On the contrary, I'm glad you came.</em> Russian <em>наоборот</em> covers both jobs, so learners use <em>conversely</em> where <em>on the contrary</em> is needed. For <em>и наоборот</em> at the end of a sentence, say <em>and vice versa</em>.</dd></dl>
+<p>In the opposite way; used to introduce the reverse of what was just said.</p>
+<ol><li>Some people work better in the morning; <em>conversely</em>, others do their best work at night.</li><li>When interest rates rise, bond prices fall. <em>Conversely</em>, when rates fall, bond prices rise.</li><li>A small company moves fast but has few resources. <em>Conversely</em>, a large company has plenty of resources but moves slowly.</li></ol>
+<hr>
+<h3 id="instead">instead<a class="hash" href="#instead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈstɛd/ &middot; <em>in-STED</em></dd><dt>Русский</dt><dd>вместо этого</dd><dt>Type</dt><dd>linking — replacement: one thing in place of another</dd><dt>Position</dt><dd>front or end — end is the usual place (<em>Let's walk instead</em>); front with a comma when what happened replaces what was expected (<em>Instead, he laughed</em>); also mid (<em>She instead chose law</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a verb phrase or a whole clause</dd><dt>Form</dt><dd>in + stead (place)</dd><dt>Contrast</dt><dd>Alone, <em>instead</em> is an adverb and takes no object: <em>I had tea instead</em>, not <em>instead of it</em>. With an object you need the preposition <em>instead of</em>: <em>tea instead of coffee</em>, <em>instead of waiting</em>. Russian <em>вместо</em> always takes a noun, so learners write <em>instead coffee</em>; the <em>of</em> is required. <em>Instead of</em> + verb uses <em>-ing</em>: <em>instead of calling</em>, never <em>instead to call</em>.</dd></dl>
+<p>In place of that; as a substitute or an alternative.</p>
+<ol><li>We didn't have any rice, so I made pasta <em>instead</em>.</li><li>Don't text him. Call him <em>instead</em>.</li><li>He didn't apologize. <em>Instead</em>, he blamed everyone else.</li></ol>
+<hr>
+<h3 id="otherwise">otherwise<a class="hash" href="#otherwise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌðərwaɪz/ &middot; <em>UTH-ur-wyz</em></dd><dt>Русский</dt><dd>иначе; в остальном; по-другому</dd><dt>Type</dt><dd>linking; also manner</dd><dt>Position</dt><dd>any position — front or mid as <em>if not</em>, mid for <em>apart from that</em> (<em>an otherwise quiet day</em>), end in <em>think otherwise</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a clause; an adjective (<em>an otherwise good film</em>); a verb (<em>think otherwise</em>)</dd><dt>Form</dt><dd>other + -wise (way)</dd><dt>Contrast</dt><dd>As a link, <em>otherwise</em> is an adverb, so careful writing does not join two clauses with it and a comma alone: <em>Hurry, otherwise we'll miss the bus</em> is common in speech, but write <em>Hurry, or we'll miss the bus</em> or <em>Hurry; otherwise, we'll miss the bus</em>. Russian <em>иначе</em> covers both <em>if not</em> and <em>differently</em>; <em>otherwise</em> means <em>differently</em> mainly after <em>think</em>, <em>say</em>, <em>decide</em>, <em>suggest</em> and in <em>unless told otherwise</em>. For <em>сделай иначе</em>, say <em>do it differently</em>, not <em>do it otherwise</em>.</dd></dl>
+<p>Otherwise has 3 distinct senses.</p>
+<p><strong>1. If not; or else.</strong> (иначе, а то, в противном случае)</p>
+<ol><li>Take an umbrella; <em>otherwise</em> you'll get soaked.</li><li>I'm glad you called. <em>Otherwise</em>, I would have waited all day.</li><li>You have to register by Friday. <em>Otherwise</em>, you can't take the class.</li></ol>
+<p><strong>2. Apart from that; in other respects.</strong> (в остальном, а так)</p>
+<ol start="4"><li>The room was a bit small, but <em>otherwise</em> it was perfect.</li><li>It was an <em>otherwise</em> quiet afternoon.</li><li>Her arm was broken, but she was <em>otherwise</em> unhurt.</li></ol>
+<p><strong>3. In a different way; differently.</strong> (по-другому, иначе)</p>
+<ol start="7"><li>Everyone says it's a good idea, but I think <em>otherwise</em>.</li><li>Unless you hear <em>otherwise</em>, the meeting is at ten.</li><li>He claims he was home, but the evidence suggests <em>otherwise</em>.</li></ol>
+<hr>
+<h3 id="though">though<a class="hash" href="#though" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ðoʊ/ &middot; <em>THOH</em></dd><dt>Русский</dt><dd>впрочем, однако, всё же</dd><dt>Type</dt><dd>linking — contrast, informal</dd><dt>Position</dt><dd>end — also mid after the first phrase (<em>The ending, though, was great</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause</dd><dt>Contrast</dt><dd><em>Though</em> is both a conjunction and an adverb. As a conjunction it opens a clause (<em>Though it was late, we stayed</em>); as an adverb it comes at the end or in the middle and means <em>however</em>: <em>It was late. We stayed, though.</em> The adverb never opens its sentence, and <em>although</em> cannot be used this way: <em>We stayed, although</em> is wrong. In speech it is the usual way to say <em>однако</em>; <em>however</em> sounds formal in conversation.</dd></dl>
+<p>However; used to add a contrast to what was just said.</p>
+<ol><li>The apartment is small. I love the location, <em>though</em>.</li><li>Thanks for the offer. I think I'll pass, <em>though</em>.</li><li>The first half was slow. The ending, <em>though</em>, was fantastic.</li></ol>
+<hr>
+<h3 id="moreover">moreover<a class="hash" href="#moreover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɔːrˈoʊvər/ &middot; <em>mor-OH-vur</em></dd><dt>Русский</dt><dd>более того, кроме того</dd><dt>Type</dt><dd>linking — adding a stronger point</dd><dt>Position</dt><dd>front — also mid between commas (<em>It is, moreover, …</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause</dd><dt>Form</dt><dd>more + over, written as one word</dd><dt>Contrast</dt><dd>Formal and written; in conversation Americans say <em>also</em>, <em>plus</em> or <em>what's more</em>. It adds a point that supports the one before, usually a stronger one; it never introduces a contrast. It is an adverb, not a conjunction, so it needs a period or a semicolon before it, not just a comma.</dd></dl>
+<p>In addition to what has been said, and more importantly.</p>
+<ol><li>The plan is too expensive. <em>Moreover</em>, it would take years to complete.</li><li>The drug is effective; <em>moreover</em>, it has few side effects.</li><li>The witness was far away and, <em>moreover</em>, it was dark.</li></ol>
+<hr>
+<h3 id="furthermore">furthermore<a class="hash" href="#furthermore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrðərmɔːr/ &middot; <em>FUR-thur-mor</em></dd><dt>Русский</dt><dd>кроме того, более того</dd><dt>Type</dt><dd>linking — adding a further point</dd><dt>Position</dt><dd>front — also mid between commas</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause</dd><dt>Form</dt><dd>further + more, written as one word</dd><dt>Contrast</dt><dd>Formal, like <em>moreover</em>; in speech use <em>also</em>, <em>besides</em> or <em>plus</em>. It has nothing to do with distance: <em>We can't go any further</em> (дальше) uses the comparative <em>further</em>, not <em>furthermore</em>. It needs a period or a semicolon before it, not a comma alone.</dd></dl>
+<p>In addition; used to add another point to an argument.</p>
+<ol><li>The report was late. <em>Furthermore</em>, it was full of errors.</li><li>Exercise improves your mood; <em>furthermore</em>, it helps you sleep.</li><li>Applicants must be 18 or older. <em>Furthermore</em>, they need a valid driver's license.</li></ol>
+<hr>
+<h3 id="additionally">additionally<a class="hash" href="#additionally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdɪʃənəli/ &middot; <em>uh-DISH-uh-nuh-lee</em></dd><dt>Русский</dt><dd>кроме того; дополнительно</dd><dt>Type</dt><dd>linking; also manner</dd><dt>Position</dt><dd>front — as a link; mid before a verb or participle in the <em>as an extra</em> sense (<em>were additionally treated</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause; a verb or participle</dd><dt>Form</dt><dd>-ly from <em>additional</em></dd><dt>Contrast</dt><dd><em>Additionally</em> is formal and overused in learner writing; in conversation <em>also</em> or <em>plus</em> is more natural. It does not join two clauses with only a comma. Russian <em>дополнительно</em> in <em>оплачивается дополнительно</em> is usually <em>extra</em> or <em>separately</em> in everyday American English: <em>Parking costs extra</em>, <em>Drinks are sold separately</em>.</dd></dl>
+<p>Additionally has 2 distinct senses.</p>
+<p><strong>1. In addition; also.</strong> (кроме того, также)</p>
+<ol><li>The job pays well. <em>Additionally</em>, it offers good health insurance.</li><li><em>Additionally</em>, all guests will receive a free breakfast.</li><li>You'll need a passport; <em>additionally</em>, some countries require a visa.</li></ol>
+<p><strong>2. As an extra; on top of what was already done or given.</strong> (дополнительно)</p>
+<ol start="4"><li>Some patients were <em>additionally</em> treated with antibiotics.</li><li>Clearance items are <em>additionally</em> discounted at checkout.</li></ol>
+<hr>
+<h3 id="besides">besides<a class="hash" href="#besides" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈsaɪdz/ &middot; <em>bih-SYDZ</em></dd><dt>Русский</dt><dd>кроме того, к тому же</dd><dt>Type</dt><dd>linking — adding another reason</dd><dt>Position</dt><dd>front or end — front for another reason (<em>Besides, …</em>), end for <em>as well</em> (<em>and more besides</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause</dd><dt>Form</dt><dd>beside + -s</dd><dt>Contrast</dt><dd><em>Besides</em> (кроме того) is not <em>beside</em> (рядом с): <em>Sit beside me</em>, but <em>Besides, it's too late</em>. As a preposition, <em>besides</em> means <em>in addition to</em> and <em>except</em> means <em>not including</em>: <em>Who came besides Tom?</em> (Tom came too) vs <em>Everyone came except Tom</em> (Tom did not). Russian <em>кроме</em> covers both, so learners confuse them. The adverb takes no object and usually adds a casual, often decisive extra reason.</dd></dl>
+<p>Besides has 2 distinct senses.</p>
+<p><strong>1. Also, and more importantly; used to add another reason.</strong> (к тому же, да и, кроме того)</p>
+<ol><li>I don't feel like going out. <em>Besides</em>, it's supposed to rain.</li><li>We can't afford a new car, and <em>besides</em>, the old one still runs fine.</li><li>Don't worry about the money. <em>Besides</em>, you'd do the same for me.</li></ol>
+<p><strong>2. In addition; as well.</strong> (помимо этого, ещё)</p>
+<ol start="4"><li>She speaks French and Spanish and a little Italian <em>besides</em>.</li><li>He lost his job, his car, and a lot more <em>besides</em>.</li></ol>
+<hr>
+<h3 id="similarly">similarly<a class="hash" href="#similarly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmələrli/ &middot; <em>SIM-uh-lur-lee</em></dd><dt>Русский</dt><dd>аналогично, точно так же</dd><dt>Type</dt><dd>linking; also manner</dd><dt>Position</dt><dd>front — as a link (<em>Similarly, …</em>); in the manner sense before an adjective or participle (<em>similarly priced</em>) or at the end (<em>answered similarly</em>)</dd><dt>Comparison</dt><dd>more/most — only in the manner sense (<em>more similarly</em>, <em>most similarly</em>); the linking sense is not gradable</dd><dt>Modifies</dt><dd>a whole clause; an adjective, participle or verb</dd><dt>Form</dt><dd>-ly from <em>similar</em></dd><dt>Contrast</dt><dd>At the front, <em>similarly</em> links a second case that works the same way as the first; before an adjective or participle it means <em>in a similar way</em> (<em>similarly dressed</em>). Russian colloquial <em>Аналогично!</em> as a reply (= me too, same here) is not <em>Similarly!</em> in English: say <em>Me too</em>, <em>Same here</em> or, to return a wish, <em>You too</em>.</dd></dl>
+<p>Similarly has 2 distinct senses.</p>
+<p><strong>1. In the same way; used to show that a second point is like the first.</strong> (аналогично, точно так же)</p>
+<ol><li>Children need structure. <em>Similarly</em>, pets do better with a routine.</li><li>Home prices rose sharply in Texas. <em>Similarly</em>, Arizona saw big increases.</li><li>Doctors must report every case to the state. <em>Similarly</em>, schools must tell parents about any outbreak.</li></ol>
+<p><strong>2. In a similar manner; almost the same.</strong> (схожим образом, одинаково)</p>
+<ol start="4"><li>The two brothers were <em>similarly</em> dressed in jeans and white shirts.</li><li>The two phones are <em>similarly</em> priced.</li><li>Identical twins raised apart often behave more <em>similarly</em> than ordinary siblings.</li></ol>
+<hr>
+<h3 id="therefore">therefore<a class="hash" href="#therefore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈðɛrfɔːr/ &middot; <em>THAIR-for</em></dd><dt>Русский</dt><dd>поэтому, следовательно</dd><dt>Type</dt><dd>linking — result or conclusion</dd><dt>Position</dt><dd>mid — after <em>be</em> or the first auxiliary (<em>It is therefore…</em>); also front after a period, a semicolon or <em>and</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause or a verb phrase</dd><dt>Form</dt><dd>there + fore, written as one word</dd><dt>Contrast</dt><dd><em>Therefore</em> is formal; in conversation Americans say <em>so</em>. It is an adverb, not a conjunction, so <em>He was sick, therefore he stayed home</em> is a comma splice: write <em>He was sick; therefore, he stayed home</em> or <em>He was sick, so he stayed home</em>. Russian <em>поэтому</em> is neutral and follows a comma freely; its everyday English match is <em>so</em>, and <em>therefore</em> is the written one.</dd></dl>
+<p>For that reason; as a result.</p>
+<ol><li>The road is closed. <em>Therefore</em>, we'll have to take the long way.</li><li>She is under 18 and <em>therefore</em> cannot sign the contract.</li><li>The data is incomplete; the results are <em>therefore</em> unreliable.</li></ol>
+<hr>
+<h3 id="thus">thus<a class="hash" href="#thus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ðʌs/ &middot; <em>THUS</em></dd><dt>Русский</dt><dd>таким образом; так</dd><dt>Type</dt><dd>linking; also manner and degree</dd><dt>Position</dt><dd>front — also mid (<em>and thus avoided</em>), before an <em>-ing</em> phrase (<em>…, thus saving time</em>), and end in the <em>in this way</em> sense (<em>began thus</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a clause, a verb phrase or an <em>-ing</em> phrase; <em>far</em> in <em>thus far</em></dd><dt>Contrast</dt><dd><em>Thus</em> is formal and written; in speech Americans say <em>so</em> or <em>like this</em>. A common written pattern is <em>thus</em> + <em>-ing</em>: <em>The new road cuts the trip in half, thus saving drivers time</em>, with no second subject. <em>Thusly</em> exists but is widely considered nonstandard; use <em>thus</em>. Like <em>therefore</em>, it does not join two full sentences with just a comma.</dd></dl>
+<p>Thus has 3 distinct senses.</p>
+<p><strong>1. As a result; therefore.</strong> (таким образом, следовательно)</p>
+<ol><li>The company cut costs and <em>thus</em> avoided layoffs.</li><li>Oil prices went up; <em>thus</em>, shipping became more expensive.</li><li>The bridge was repaired, <em>thus</em> reopening the main route into town.</li></ol>
+<p><strong>2. In this way; like this.</strong> (так, таким образом)</p>
+<ol start="4"><li>The letter began <em>thus</em>: 'Dear friends, I have bad news.'</li><li>Arranged <em>thus</em>, the chairs leave room for a wheelchair.</li></ol>
+<p><strong>3. To this point; used mainly in <em>thus far</em>.</strong> (до сих пор, пока что)</p>
+<ol start="6"><li><em>Thus far</em>, no one has claimed the prize.</li><li>The project has gone well <em>thus far</em>.</li></ol>
+<hr>
+<h3 id="hence">hence<a class="hash" href="#hence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɛns/ &middot; <em>HENS</em></dd><dt>Русский</dt><dd>поэтому, отсюда</dd><dt>Type</dt><dd>linking; also time</dd><dt>Position</dt><dd>front — of its clause or verbless phrase (<em>hence the name</em>); after its word in the time sense (<em>two years hence</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a clause or a noun phrase (<em>hence the delay</em>); a time expression</dd><dt>Contrast</dt><dd><em>Hence</em> often takes no verb at all: <em>The bus broke down, hence the delay</em>. It is formal; in speech say <em>that's why</em>. It gives the result, not the reason, so it does not mean <em>since</em> or <em>because</em>. <em>From hence</em> is redundant, because <em>hence</em> already contains <em>from</em>. The old sense <em>from this place</em> (<em>Get thee hence</em>) survives only in old texts.</dd></dl>
+<p>Hence has 2 distinct senses.</p>
+<p><strong>1. For this reason; that is why.</strong> (поэтому, отсюда)</p>
+<ol><li>The town sits on a hot spring; <em>hence</em> its name, Hot Springs.</li><li>The flight was canceled, <em>hence</em> the long lines at the desk.</li><li>The survey used a small sample and is <em>hence</em> unreliable.</li></ol>
+<p><strong>2. From now; later than the present by the stated time.</strong> (через (такое-то время), книжн.)</p>
+<ol start="4"><li>Five years <em>hence</em>, few people will remember this debate.</li><li>What will this city look like a century <em>hence</em>?</li></ol>
+<hr>
+<h3 id="consequently">consequently<a class="hash" href="#consequently" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnsəkwɛntli/ &middot; <em>KAHN-suh-kwent-lee</em></dd><dt>Русский</dt><dd>следовательно, в результате</dd><dt>Type</dt><dd>linking — result</dd><dt>Position</dt><dd>front — also mid (<em>was consequently delayed</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause or a verb phrase</dd><dt>Form</dt><dd>-ly from <em>consequent</em></dd><dt>Contrast</dt><dd><em>Consequently</em> (as a result) is easy to confuse with <em>subsequently</em> (later): <em>He was injured and consequently missed the game</em> gives a cause; <em>He was injured and subsequently retired</em> only gives an order. It is an adverb, not a conjunction, so it needs a semicolon or a period before it, not a comma alone. In speech <em>so</em> or <em>as a result</em> is more natural.</dd></dl>
+<p>As a result; because of that.</p>
+<ol><li>He missed the bus and <em>consequently</em> was late for work.</li><li>The factory closed. <em>Consequently</em>, hundreds of people lost their jobs.</li><li>Demand has grown; prices have <em>consequently</em> gone up.</li></ol>
+<hr>
+<h3 id="accordingly">accordingly<a class="hash" href="#accordingly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkɔːrdɪŋli/ &middot; <em>uh-KOR-ding-lee</em></dd><dt>Русский</dt><dd>соответственно; поэтому</dd><dt>Type</dt><dd>linking; also manner</dd><dt>Position</dt><dd>front or end — end for <em>in a suitable way</em> (<em>act accordingly</em>), front for <em>therefore</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a verb phrase; a whole clause</dd><dt>Form</dt><dd>-ly from <em>according</em></dd><dt>Contrast</dt><dd><em>Accordingly</em> is not <em>according to</em>: <em>according to the report</em> (по данным) is a preposition, while <em>accordingly</em> stands alone and means <em>in a way that fits</em> or <em>therefore</em>. Russian <em>соответственно</em> also means <em>respectively</em>, which English says only with <em>respectively</em>: <em>Tom and Ann are 10 and 12, respectively</em>, never <em>accordingly</em>.</dd></dl>
+<p>Accordingly has 2 distinct senses.</p>
+<p><strong>1. In a way that suits what was just said; appropriately.</strong> (соответственно, как следует)</p>
+<ol><li>The dress code is formal, so please dress <em>accordingly</em>.</li><li>We'll look at the results and adjust the plan <em>accordingly</em>.</li><li>You're an adult now, so act <em>accordingly</em>.</li></ol>
+<p><strong>2. For that reason; therefore.</strong> (поэтому, следовательно)</p>
+<ol start="4"><li>The store's lease ends in June. <em>Accordingly</em>, everything is 50 percent off.</li><li>The storm is expected to hit tonight; <em>accordingly</em>, schools will close early.</li></ol>
+<hr>
+<h3 id="subsequently">subsequently<a class="hash" href="#subsequently" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbsəkwəntli/ &middot; <em>SUB-suh-kwuhnt-lee</em></dd><dt>Русский</dt><dd>впоследствии, затем</dd><dt>Type</dt><dd>linking; also time</dd><dt>Position</dt><dd>mid — before the main verb (<em>was subsequently arrested</em>); also front</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a verb phrase or a whole clause</dd><dt>Form</dt><dd>-ly from <em>subsequent</em></dd><dt>Contrast</dt><dd><em>Subsequently</em> means <em>later, after that</em>; it does not state a cause, which is <em>consequently</em>. Russian <em>последовательно</em> (consistently, one after another) is <em>consistently</em> or <em>in sequence</em>, not <em>subsequently</em>. It is formal; in speech say <em>later</em> or <em>after that</em>. Before a noun, use <em>after</em> or the formal <em>subsequent to</em>.</dd></dl>
+<p>Afterward; at a later time.</p>
+<ol><li>The suspect was <em>subsequently</em> arrested in Ohio.</li><li>She joined the company in 2015 and <em>subsequently</em> became its CEO.</li><li>The first test failed. <em>Subsequently</em>, the team redesigned the engine.</li></ol>
+<hr>
+<h3 id="namely">namely<a class="hash" href="#namely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪmli/ &middot; <em>NAYM-lee</em></dd><dt>Русский</dt><dd>а именно</dd><dt>Type</dt><dd>linking — naming exactly what was just mentioned</dd><dt>Position</dt><dd>front — of the words it introduces, usually after a comma (<em>two cities, namely Boston and Denver</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a noun phrase, list or clause that specifies what came before</dd><dt>Form</dt><dd>-ly from <em>name</em></dd><dt>Contrast</dt><dd><em>Namely</em> only introduces the exact items or details you just referred to. Russian <em>именно</em> in <em>именно так</em> or <em>именно он</em> means <em>exactly</em> or <em>precisely</em>, not <em>namely</em>: <em>That's exactly what I meant</em>, <em>He's exactly the person we need</em>. Compare <em>that is</em> (<em>i.e.</em>), which restates rather than names the items.</dd></dl>
+<p>That is to say; used to name the specific people or things just referred to.</p>
+<ol><li>Two of our best players, <em>namely</em> Jones and Rivera, are out with injuries.</li><li>We need to fix the biggest problem, <em>namely</em> the lack of funding.</li><li>The job requires two things, <em>namely</em> patience and a good sense of humor.</li></ol>
+<hr>
+<h3 id="anyway">anyway<a class="hash" href="#anyway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛniweɪ/ &middot; <em>EN-ee-way</em></dd><dt>Русский</dt><dd>всё равно; ну ладно; в любом случае</dd><dt>Type</dt><dd>linking — conceding, dismissing or returning to the point</dd><dt>Position</dt><dd>front or end — front to change or return to a topic (<em>Anyway, …</em>), end for <em>despite that</em> (<em>We went anyway</em>) and in questions (<em>Who are you, anyway?</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause</dd><dt>Form</dt><dd>any + way, written as one word</dd><dt>Contrast</dt><dd><em>Anyway</em> (всё равно, в любом случае) is not <em>any way</em> (любой способ): <em>Is there any way to fix it?</em> <em>Anyways</em> is common in casual American speech but is nonstandard; do not write it. <em>Anyway</em> is informal; in formal writing prefer <em>nevertheless</em> or <em>in any case</em>.</dd></dl>
+<p>Anyway has 5 distinct senses.</p>
+<p><strong>1. Despite that; all the same.</strong> (всё равно)</p>
+<ol><li>The tickets were expensive, but we bought them <em>anyway</em>.</li><li>I told him not to call, but he called <em>anyway</em>.</li><li>It probably won't work, but let's try <em>anyway</em>.</li></ol>
+<p><strong>2. Used to change the subject, return to the main point, or end a conversation.</strong> (ну ладно, так вот, в общем)</p>
+<ol start="4"><li><em>Anyway</em>, what were we talking about?</li><li>So that's what happened. <em>Anyway</em>, I should get going.</li></ol>
+<p><strong>3. In any case; used to add a fact that makes what was just said matter less.</strong> (да и вообще, всё равно)</p>
+<ol start="6"><li>Don't buy me a gift. I don't need anything <em>anyway</em>.</li><li>It doesn't matter if we're late; the movie always starts late <em>anyway</em>.</li></ol>
+<p><strong>4. Used at the end of a question to ask what is really going on, often with impatience.</strong> (вообще, всё-таки)</p>
+<ol start="8"><li>Who are you, <em>anyway</em>?</li><li>What's the point of all this, <em>anyway</em>?</li><li>Why do you care what he thinks <em>anyway</em>?</li></ol>
+<p><strong>5. At least; used to correct or limit what was just said.</strong> (по крайней мере, во всяком случае)</p>
+<ol start="11"><li>She's coming tomorrow. That's what she said, <em>anyway</em>.</li><li>No one noticed, or no one said anything, <em>anyway</em>.</li></ol>
+<hr>
+<h3 id="anyhow">anyhow<a class="hash" href="#anyhow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛnihaʊ/ &middot; <em>EN-ee-how</em></dd><dt>Русский</dt><dd>всё равно; ну ладно; кое-как</dd><dt>Type</dt><dd>linking; also manner</dd><dt>Position</dt><dd>front or end — front to change the topic, end for <em>despite that</em> or <em>carelessly</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause; a verb (<em>piled anyhow</em>)</dd><dt>Form</dt><dd>any + how, written as one word</dd><dt>Contrast</dt><dd>In the linking senses <em>anyhow</em> means the same as <em>anyway</em> but is less common and sounds more casual or old-fashioned. The <em>carelessly</em> sense (<em>clothes thrown anyhow</em>) is mainly British and is met in American reading rather than speech. It is not <em>somehow</em> (как-нибудь, каким-то образом): <em>We'll finish it somehow</em>.</dd></dl>
+<p>Anyhow has 3 distinct senses.</p>
+<p><strong>1. Despite that; anyway.</strong> (всё равно)</p>
+<ol><li>It was raining, but we went for a walk <em>anyhow</em>.</li><li>I knew he'd say no, but I asked him <em>anyhow</em>.</li></ol>
+<p><strong>2. Used to change the subject or return to the main point.</strong> (ну ладно, так вот)</p>
+<ol start="3"><li><em>Anyhow</em>, enough about me. How's your new job?</li><li><em>Anyhow</em>, the point is that we need more time.</li></ol>
+<p><strong>3. Carelessly; without any order.</strong> (кое-как, как попало)</p>
+<ol start="5"><li>Books were piled <em>anyhow</em> on the shelves.</li><li>He tossed his clothes on the chair <em>anyhow</em> and went to bed.</li></ol>
+<hr>
+<h3 id="incidentally">incidentally<a class="hash" href="#incidentally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnsəˈdɛntəli/ &middot; <em>in-suh-DEN-tuh-lee</em></dd><dt>Русский</dt><dd>кстати, между прочим</dd><dt>Type</dt><dd>linking; also manner</dd><dt>Position</dt><dd>front — as <em>by the way</em>, or mid between commas; mid before the verb in the <em>as a side effect</em> sense</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause; a verb or participle</dd><dt>Form</dt><dd>-ly from <em>incidental</em></dd><dt>Contrast</dt><dd><em>Incidentally</em> (кстати) is not <em>accidentally</em> (случайно, нечаянно): <em>I accidentally deleted the file</em>, never <em>incidentally</em>. Russian <em>кстати</em> also means <em>at the right moment</em> (<em>Ты пришёл кстати</em>), which English says with <em>at just the right time</em>, not <em>incidentally</em>. In conversation <em>by the way</em> is more common.</dd></dl>
+<p>Incidentally has 2 distinct senses.</p>
+<p><strong>1. By the way; used to add something that is not the main topic.</strong> (кстати, между прочим)</p>
+<ol><li><em>Incidentally</em>, have you seen my keys anywhere?</li><li>The new manager is, <em>incidentally</em>, an old friend of my brother's.</li><li>I saw Lisa yesterday. <em>Incidentally</em>, she's moving to Chicago.</li></ol>
+<p><strong>2. As a minor or unplanned side effect; not as the main purpose.</strong> (попутно, заодно, как побочный результат)</p>
+<ol start="4"><li>The turtles were caught <em>incidentally</em> by boats fishing for shrimp.</li><li>The study was about sleep, but it <em>incidentally</em> revealed a link to diet.</li></ol>
+<hr>
+<h3 id="alternatively">alternatively<a class="hash" href="#alternatively" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːlˈtɜːrnətɪvli/ &middot; <em>awl-TUR-nuh-tiv-lee</em></dd><dt>Русский</dt><dd>как вариант, или же</dd><dt>Type</dt><dd>linking — offering another option</dd><dt>Position</dt><dd>front — also mid after <em>or</em> (<em>or, alternatively, …</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a whole clause</dd><dt>Form</dt><dd>-ly from <em>alternative</em></dd><dt>Contrast</dt><dd><em>Alternatively</em> (или же, как вариант) is not <em>alternately</em> (по очереди, попеременно): <em>They alternately laughed and cried</em>. In speech plain <em>or</em> is more natural: <em>We could take a cab, or we could walk</em>.</dd></dl>
+<p>As another possibility; used to suggest a second choice.</p>
+<ol><li>You can pay online. <em>Alternatively</em>, you can pay in person at the office.</li><li>We could drive; <em>alternatively</em>, we could take the train.</li><li>Call the help desk or, <em>alternatively</em>, send us an email.</li></ol>
+<hr>
+<h3 id="regardless">regardless<a class="hash" href="#regardless" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈɡɑːrdləs/ &middot; <em>rih-GAHRD-luhs</em></dd><dt>Русский</dt><dd>несмотря ни на что, всё равно</dd><dt>Type</dt><dd>linking — despite what was just said</dd><dt>Position</dt><dd>end — also front with a comma in informal writing</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Modifies</dt><dd>a verb phrase or a whole clause</dd><dt>Form</dt><dd>regard + -less</dd><dt>Contrast</dt><dd>Alone, <em>regardless</em> is an adverb meaning <em>anyway</em>: <em>We went regardless</em>. With an object it is the preposition <em>regardless of</em>: <em>regardless of the weather</em>, <em>regardless of what he says</em>. <em>Irregardless</em> is heard in American speech but is widely treated as nonstandard; use <em>regardless</em>.</dd></dl>
+<p>Despite everything; anyway.</p>
+<ol><li>The weather was terrible, but we held the wedding outdoors <em>regardless</em>.</li><li>I know it's risky. I'm going to do it <em>regardless</em>.</li><li>Some people will complain <em>regardless</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
