@@ -49,6 +49,9 @@ for cfg in CATALOGS:
 
 RS = os.path.join(ROOT, 'grammar/01-reported-speech')
 rs_secs = len(glob.glob(f'{RS}/[0-9]*.md'))
+TN = os.path.join(ROOT, 'grammar/04-tenses')
+tn_secs = len(glob.glob(f'{TN}/[0-9]*.md'))
+tn_lines = sum(len(open(f, errors='ignore').read().split('\n')) for f in glob.glob(f'{TN}/[0-9]*.md'))
 CD = os.path.join(ROOT, 'grammar/03-conditionals')
 cd_secs = len(glob.glob(f'{CD}/[0-9]*.md'))
 cd_lines = sum(len(open(f, errors='ignore').read().split('\n')) for f in glob.glob(f'{CD}/[0-9]*.md'))
@@ -107,6 +110,16 @@ if rv:
     <div class="acts">
       <a class="btn" href="grammar/02-contractions/catalog/browse.html">Browse the forms</a>
       <a class="btn ghost" href="grammar/02-contractions/README.html">Read the topic</a>
+      <a class="btn ghost" href="grammar/README.html">All grammar</a>
+    </div>
+  </article>
+  <article class="dict" style="--c:#7a5c9e;--cd:#bfa3e0">
+    <div class="dict-head"><h3>Tenses</h3><span class="n">{tn_secs}</span></div>
+    <p>All twelve tense–aspect combinations one at a time — forms, spelling and ending pronunciation, state verbs, the passive of each — plus every way English talks about the future, and a section on <em>choosing</em> rather than forming.</p>
+    <p class="meta">{tn_secs} sections &middot; {tn_lines:,} lines &middot; twelve tenses, ten futures, and the Russian aspect problem</p>
+    <div class="acts">
+      <a class="btn" href="grammar/04-tenses/README.html">Read the topic</a>
+      <a class="btn ghost" href="grammar/04-tenses/12-reference-and-practice.html">Tables &amp; practice</a>
       <a class="btn ghost" href="grammar/README.html">All grammar</a>
     </div>
   </article>

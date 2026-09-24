@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tenses</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../index.html">Learn English</a><span class="sep">/</span><a href="../README.html">Grammar</a><span class="sep">/</span><span>04-tenses</span></div></nav>
+<main><div class="wrap"><h1 id="tenses">Tenses<a class="hash" href="#tenses" aria-label="link">#</a></h1>
+<blockquote><p>All twelve tense–aspect combinations, every way English talks about the future, and the one question that decides between them.</p></blockquote>
+<p><a href="../README.html">← All grammar topics</a> &middot; <a href="../../README.html">Library home</a></p>
+<p>English does not have twelve tenses. It has <strong>three times</strong> — past, present, future — and <strong>four aspects</strong> — simple, continuous, perfect, perfect continuous. Twelve is what you get when you multiply them.</p>
+<pre><code>              simple          continuous        perfect            perfect continuous
+present       I work          I am working      I have worked      I have been working
+past          I worked        I was working     I had worked       I had been working
+future        I will work     I will be working I will have worked I will have been working</code></pre>
+<p>The <strong>time</strong> says when. The <strong>aspect</strong> says how you are looking at it: as a whole (simple), as something in progress (continuous), as something finished with a result that matters now (perfect), or as duration leading up to a point (perfect continuous). Every choice in this topic is a choice of viewpoint, not of when something happened.</p>
+<p>For a Russian speaker the difficulty is not learning twelve forms. It is that <strong>Russian divides the same ground differently</strong>: two aspects, perfective and imperfective, marked on the verb itself and running through past, present and future alike. So one Russian past covers <em>I did</em>, <em>I was doing</em>, <em>I have done</em> and <em>I had done</em>, and one Russian future covers all ten English ways of talking about what comes next. Nothing in a Russian sentence tells you which English form to reach for; that information has to come from the situation, and this topic is about how to read it.</p>
+<p>Note also that English has <strong>no future tense</strong> at all — no ending, no inflection. What it has is a set of constructions (<em>will</em>, <em>be going to</em>, the present continuous, the present simple, <em>be about to</em>, <em>be to</em>) that each say something slightly different about how settled the future is. <a href="09-the-future.html">Section 9</a> covers them all.</p>
+<h2 id="the-sections">The sections<a class="hash" href="#the-sections" aria-label="link">#</a></h2>
+<div class="tw"><table><thead><tr><th style="text-align:left">#</th><th style="text-align:left">Section</th><th style="text-align:left">What it covers</th></tr></thead><tbody><tr><td style="text-align:left">1</td><td style="text-align:left"><a href="01-present-simple.html">Present simple</a></td><td style="text-align:left">Habits, facts, schedules and the narrative present — plus the third-person <em>-s</em> and how it is pronounced</td></tr><tr><td style="text-align:left">2</td><td style="text-align:left"><a href="02-present-continuous.html">Present continuous</a></td><td style="text-align:left">Now, around now, temporary, changing, and arranged — with the full <em>-ing</em> spelling rules and the state verbs that change meaning in it</td></tr><tr><td style="text-align:left">3</td><td style="text-align:left"><a href="03-present-perfect.html">Present perfect</a></td><td style="text-align:left">The hardest tense for a Russian speaker: experience, unfinished time, <em>for</em> and <em>since</em>, and the honest American picture of <em>Did you eat yet?</em></td></tr><tr><td style="text-align:left">4</td><td style="text-align:left"><a href="04-present-perfect-continuous.html">Present perfect continuous</a></td><td style="text-align:left">Duration up to now, visible results, and when a stated quantity forces the simple instead</td></tr><tr><td style="text-align:left">5</td><td style="text-align:left"><a href="05-past-simple.html">Past simple</a></td><td style="text-align:left">Finished events, narrative sequence, past habits — with <em>-ed</em> spelling, the three <em>-ed</em> pronunciations, and the irregular traps</td></tr><tr><td style="text-align:left">6</td><td style="text-align:left"><a href="06-past-continuous.html">Past continuous</a></td><td style="text-align:left">Interrupted actions, background scenery, <em>when</em> versus <em>while</em></td></tr><tr><td style="text-align:left">7</td><td style="text-align:left"><a href="07-past-perfect.html">Past perfect</a></td><td style="text-align:left">The earlier of two past events — and the more common error of using it when you do not need it</td></tr><tr><td style="text-align:left">8</td><td style="text-align:left"><a href="08-past-perfect-continuous.html">Past perfect continuous</a></td><td style="text-align:left">Duration up to a point in the past, and its results seen from there</td></tr><tr><td style="text-align:left">9</td><td style="text-align:left"><a href="09-the-future.html">The future</a></td><td style="text-align:left"><em>will</em>, <em>be going to</em>, present continuous, present simple, the future perfect and continuous, <em>be about to</em>, <em>be to</em>, and the future in the past</td></tr><tr><td style="text-align:left">10</td><td style="text-align:left"><a href="10-choosing-the-right-tense.html">Choosing the right tense</a></td><td style="text-align:left">The contrasts that actually decide it, time expressions as signals, narrative tense choice, and a decision flowchart</td></tr><tr><td style="text-align:left">11</td><td style="text-align:left"><a href="11-passive-questions-and-clauses.html">Passive, questions and clauses</a></td><td style="text-align:left">The passive of all twelve, questions and negatives in every tense, and what tense to use in a subordinate clause</td></tr><tr><td style="text-align:left">12</td><td style="text-align:left"><a href="12-reference-and-practice.html">Reference and practice</a></td><td style="text-align:left">Every table in one place — forms, passives, spelling, endings, timelines — then practice with answers</td></tr></tbody></table></div>
+<h2 id="where-to-start">Where to start<a class="hash" href="#where-to-start" aria-label="link">#</a></h2>
+<p><strong>If you are working through it in order</strong>, sections 1–9 each stand alone; read the one you need.</p>
+<p><strong>If your forms are fine but your choices are not</strong>, go straight to <a href="10-choosing-the-right-tense.html">section 10</a>. That is the section this topic exists for.</p>
+<p><strong>If you want a single page to keep open</strong>, that is <a href="12-reference-and-practice.html">section 12</a>.</p>
+<h2 id="see-also">See also<a class="hash" href="#see-also" aria-label="link">#</a></h2>
+<ul><li><a href="../../parts-of-speech/03-verbs/README.html">Verbs</a> — the grammar of the verb itself: tense, aspect, voice, mood, and the auxiliaries these forms are built from</li><li><a href="../../parts-of-speech/03-verbs/catalog/README.html">The verb dictionary</a> — every irregular verb grouped by how its three forms change, plus the modals</li><li><a href="../03-conditionals/README.html">Conditionals</a> — where a past tense stops meaning past time</li><li><a href="../01-reported-speech/README.html">Reported speech</a> — what each tense becomes inside a report</li><li><a href="../02-contractions/README.html">Contractions</a> — <em>I've</em>, <em>he'd</em>, <em>won't</em> and the rest of the forms these tenses are actually spoken in</li></ul></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
