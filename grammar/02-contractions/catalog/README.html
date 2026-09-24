@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contractions</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Grammar</a><span class="sep">/</span><a href="../README.html">02-contractions</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="contractions">Contractions<a class="hash" href="#contractions" aria-label="link">#</a></h1>
+<blockquote><p><strong>93 entries</strong> across 5 categories.</p></blockquote>
+<p><strong><a href="browse.html">Open the audio browser</a></strong> to search all 93 and hear any of them spoken.</p>
+<hr>
+<h2 id="categories">Categories<a class="hash" href="#categories" aria-label="link">#</a></h2>
+<div class="tw"><table><thead><tr><th style="text-align:left">#</th><th style="text-align:left">Category</th><th style="text-align:left">What it covers</th><th style="text-align:left">Entries</th></tr></thead><tbody><tr><td style="text-align:left">1</td><td style="text-align:left"><a href="01-be.html">Contractions of be</a></td><td style="text-align:left">I'm, you're, it's, that's — the commonest contractions in the language, and the ones that hide an apostrophe trap.</td><td style="text-align:left">15</td></tr><tr><td style="text-align:left">2</td><td style="text-align:left"><a href="02-have-and-had.html">Contractions of have and had</a></td><td style="text-align:left">I've, could've, I'd — including the 'd that is sometimes had and sometimes would.</td><td style="text-align:left">20</td></tr><tr><td style="text-align:left">3</td><td style="text-align:left"><a href="03-will.html">Contractions of will</a></td><td style="text-align:left">I'll, it'll, there'll — the future contracted onto the subject.</td><td style="text-align:left">11</td></tr><tr><td style="text-align:left">4</td><td style="text-align:left"><a href="04-negative.html">Negative contractions</a></td><td style="text-align:left">don't, isn't, won't, can't — not joined to the verb, and the forms English does not have.</td><td style="text-align:left">23</td></tr><tr><td style="text-align:left">5</td><td style="text-align:left"><a href="05-informal-spoken.html">Spoken reductions and informal forms</a></td><td style="text-align:left">gonna, wanna, y'all, 'em — what English actually sounds like, and where you may write it.</td><td style="text-align:left">24</td></tr><tr><td style="text-align:left"></td><td style="text-align:left"><strong>Total</strong></td><td style="text-align:left"></td><td style="text-align:left"><strong>93</strong></td></tr></tbody></table></div>
+<h2 id="fields-in-each-entry">Fields in each entry<a class="hash" href="#fields-in-each-entry" aria-label="link">#</a></h2>
+<div class="tw"><table><thead><tr><th style="text-align:left">Field</th><th style="text-align:left">What it tells you</th></tr></thead><tbody><tr><td style="text-align:left">Pronunciation</td><td style="text-align:left">IPA, a stress-marked respelling, and the weak form where one exists</td></tr><tr><td style="text-align:left">Expands to</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Type</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Register</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Ambiguity</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Question form</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Contrast</td><td style="text-align:left"></td></tr></tbody></table></div>
+<hr>
+<h2 id="az-index">A–Z index<a class="hash" href="#az-index" aria-label="link">#</a></h2>
+<p>All 93 headwords.</p>
+<h3 id="a">A<a class="hash" href="#a" aria-label="link">#</a></h3>
+<p><a href="04-negative.html#aint">ain't</a> &middot; <a href="04-negative.html#arent">aren't</a></p>
+<h3 id="b">B<a class="hash" href="#b" aria-label="link">#</a></h3>
+<p><a href="05-informal-spoken.html#betcha">betcha</a></p>
+<h3 id="c">C<a class="hash" href="#c" aria-label="link">#</a></h3>
+<p><a href="04-negative.html#cant">can't</a> &middot; <a href="04-negative.html#cannot">cannot</a> &middot; <a href="02-have-and-had.html#couldve">could've</a> &middot; <a href="05-informal-spoken.html#coulda">coulda</a> &middot; <a href="04-negative.html#couldnt">couldn't</a> &middot; <a href="05-informal-spoken.html#cuz">cuz</a></p>
+<h3 id="d">D<a class="hash" href="#d" aria-label="link">#</a></h3>
+<p><a href="04-negative.html#darent">daren't</a> &middot; <a href="04-negative.html#didnt">didn't</a> &middot; <a href="04-negative.html#doesnt">doesn't</a> &middot; <a href="04-negative.html#dont">don't</a> &middot; <a href="05-informal-spoken.html#dunno">dunno</a></p>
+<h3 id="g">G<a class="hash" href="#g" aria-label="link">#</a></h3>
+<p><a href="05-informal-spoken.html#gimme">gimme</a> &middot; <a href="05-informal-spoken.html#gonna">gonna</a> &middot; <a href="05-informal-spoken.html#gotta">gotta</a></p>
+<h3 id="h">H<a class="hash" href="#h" aria-label="link">#</a></h3>
+<p><a href="04-negative.html#hadnt">hadn't</a> &middot; <a href="05-informal-spoken.html#hafta">hafta</a> &middot; <a href="04-negative.html#hasnt">hasn't</a> &middot; <a href="04-negative.html#havent">haven't</a> &middot; <a href="02-have-and-had.html#hed">he'd</a> &middot; <a href="03-will.html#hell">he'll</a> &middot; <a href="01-be.html#hes">he's</a> &middot; <a href="01-be.html#heres">here's</a> &middot; <a href="01-be.html#hows">how's</a></p>
+<h3 id="i">I<a class="hash" href="#i" aria-label="link">#</a></h3>
+<p><a href="02-have-and-had.html#id">I'd</a> &middot; <a href="03-will.html#ill">I'll</a> &middot; <a href="01-be.html#im">I'm</a> &middot; <a href="02-have-and-had.html#ive">I've</a> &middot; <a href="04-negative.html#isnt">isn't</a> &middot; <a href="02-have-and-had.html#itd">it'd</a> &middot; <a href="03-will.html#itll">it'll</a> &middot; <a href="01-be.html#its">it's</a></p>
+<h3 id="k">K<a class="hash" href="#k" aria-label="link">#</a></h3>
+<p><a href="05-informal-spoken.html#kinda">kinda</a></p>
+<h3 id="l">L<a class="hash" href="#l" aria-label="link">#</a></h3>
+<p><a href="05-informal-spoken.html#lemme">lemme</a> &middot; <a href="01-be.html#lets">let's</a> &middot; <a href="05-informal-spoken.html#lotta">lotta</a></p>
+<h3 id="m">M<a class="hash" href="#m" aria-label="link">#</a></h3>
+<p><a href="05-informal-spoken.html#maam">ma'am</a> &middot; <a href="02-have-and-had.html#mightve">might've</a> &middot; <a href="04-negative.html#mightnt">mightn't</a> &middot; <a href="02-have-and-had.html#mustve">must've</a> &middot; <a href="04-negative.html#mustnt">mustn't</a></p>
+<h3 id="n">N<a class="hash" href="#n" aria-label="link">#</a></h3>
+<p><a href="04-negative.html#neednt">needn't</a></p>
+<h3 id="o">O<a class="hash" href="#o" aria-label="link">#</a></h3>
+<p><a href="05-informal-spoken.html#oclock">o'clock</a> &middot; <a href="04-negative.html#oughtnt">oughtn't</a> &middot; <a href="05-informal-spoken.html#outta">outta</a></p>
+<h3 id="s">S<a class="hash" href="#s" aria-label="link">#</a></h3>
+<p><a href="05-informal-spoken.html#spose">s'pose</a> &middot; <a href="04-negative.html#shant">shan't</a> &middot; <a href="02-have-and-had.html#shed">she'd</a> &middot; <a href="03-will.html#shell">she'll</a> &middot; <a href="01-be.html#shes">she's</a> &middot; <a href="02-have-and-had.html#shouldve">should've</a> &middot; <a href="05-informal-spoken.html#shoulda">shoulda</a> &middot; <a href="04-negative.html#shouldnt">shouldn't</a> &middot; <a href="05-informal-spoken.html#sorta">sorta</a></p>
+<h3 id="t">T<a class="hash" href="#t" aria-label="link">#</a></h3>
+<p><a href="02-have-and-had.html#thatd">that'd</a> &middot; <a href="03-will.html#thatll">that'll</a> &middot; <a href="01-be.html#thats">that's</a> &middot; <a href="02-have-and-had.html#thered">there'd</a> &middot; <a href="03-will.html#therell">there'll</a> &middot; <a href="01-be.html#theres">there's</a> &middot; <a href="02-have-and-had.html#theyd">they'd</a> &middot; <a href="03-will.html#theyll">they'll</a> &middot; <a href="01-be.html#theyre">they're</a> &middot; <a href="02-have-and-had.html#theyve">they've</a></p>
+<h3 id="w">W<a class="hash" href="#w" aria-label="link">#</a></h3>
+<p><a href="05-informal-spoken.html#wanna">wanna</a> &middot; <a href="04-negative.html#wasnt">wasn't</a> &middot; <a href="02-have-and-had.html#wed">we'd</a> &middot; <a href="03-will.html#well">we'll</a> &middot; <a href="01-be.html#were">we're</a> &middot; <a href="02-have-and-had.html#weve">we've</a> &middot; <a href="04-negative.html#werent">weren't</a> &middot; <a href="03-will.html#whatll">what'll</a> &middot; <a href="01-be.html#whats">what's</a> &middot; <a href="05-informal-spoken.html#whatcha">whatcha</a> &middot; <a href="01-be.html#wheres">where's</a> &middot; <a href="02-have-and-had.html#whod">who'd</a> &middot; <a href="03-will.html#wholl">who'll</a> &middot; <a href="01-be.html#whos">who's</a> &middot; <a href="02-have-and-had.html#whove">who've</a> &middot; <a href="04-negative.html#wont">won't</a> &middot; <a href="02-have-and-had.html#wouldve">would've</a> &middot; <a href="05-informal-spoken.html#woulda">woulda</a> &middot; <a href="04-negative.html#wouldnt">wouldn't</a></p>
+<h3 id="y">Y<a class="hash" href="#y" aria-label="link">#</a></h3>
+<p><a href="05-informal-spoken.html#yall">y'all</a> &middot; <a href="05-informal-spoken.html#ya">ya</a> &middot; <a href="02-have-and-had.html#youd">you'd</a> &middot; <a href="03-will.html#youll">you'll</a> &middot; <a href="01-be.html#youre">you're</a> &middot; <a href="02-have-and-had.html#youve">you've</a></p>
+<h3 id="">#<a class="hash" href="#" aria-label="link">#</a></h3>
+<p><a href="05-informal-spoken.html#cause">'cause</a> &middot; <a href="05-informal-spoken.html#em">'em</a></p></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

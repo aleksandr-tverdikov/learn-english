@@ -1,0 +1,404 @@
+[
+ {
+  "term": "I'm",
+  "ipa": "aɪm",
+  "respell": "YM",
+  "ru": "я (сокращение от I am)",
+  "expands": "*I am*",
+  "type": "be — the pronoun *I* + *am*",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "contrast": "A contraction can never end a clause. *Are you ready?* — *Yes, I am*, never ✗ *Yes, I'm*. The same rule blocks ✗ *I don't know where he's* and ✗ *Tell me what it's*: with nothing after it, the verb has to be written out in full.",
+  "senses": [
+   {
+    "gloss": "The contraction of *I am*.",
+    "ru": "я",
+    "examples": [
+     "*I'm* from Chicago, but I live in Austin now.",
+     "*I'm* not sure that's the right address.",
+     "Sorry, *I'm* going to be about ten minutes late."
+    ]
+   }
+  ]
+ },
+ {
+  "term": "you're",
+  "ipa": "jʊr",
+  "respell": "YOOR",
+  "ru": "ты, вы (сокращение от you are)",
+  "expands": "*you are*",
+  "type": "be — the pronoun *you* + *are*",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "contrast": "*you're* vs *your*. If you can expand it to two words, it takes an apostrophe: *You're late* works as *You are late*, so it is *you're*; *your flight* cannot become *you are flight*, so it is *your* (твой, ваш). One sentence holds both: *You're going to miss your flight.* And *yours* never takes an apostrophe at all.",
+  "senses": [
+   {
+    "gloss": "The contraction of *you are*.",
+    "ru": "ты, вы (есть)",
+    "examples": [
+     "*You're* the only one who noticed.",
+     "*You're* going to need a bigger box.",
+     "I think *you're* right about that."
+    ]
+   }
+  ]
+ },
+ {
+  "term": "he's",
+  "ipa": "hiːz",
+  "respell": "HEEZ",
+  "ru": "он есть, он уже (сокращение от he is или he has)",
+  "expands": "*he is* or *he has*",
+  "type": "be — the pronoun *he* + *is* (or + the auxiliary *has*)",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "ambiguity": "The *'s* is *is* or *has*, and the word after it decides. Before a noun, an adjective or an *-ing* form it is *is*: *He's tired*, *He's working*. Before a past participle it is *has*: *He's gone*, *He's finished*. Plain *has* meaning possession does not contract — *He has a car*, never ✗ *He's a car*, which would be read as *he is a car*. Possession does contract in *has got*: *He's got a car*.",
+  "senses": [
+   {
+    "gloss": "The contraction of *he is*.",
+    "ru": "он (есть)",
+    "examples": [
+     "*He's* tired — he worked a double shift.",
+     "*He's* a pediatrician at the children's hospital.",
+     "*He's* waiting for you downstairs."
+    ]
+   },
+   {
+    "gloss": "The contraction of *he has*, before a past participle.",
+    "ru": "он уже (+ причастие)",
+    "examples": [
+     "*He's* already left for the airport.",
+     "*He's* been sick all week.",
+     "*He's* got a new car."
+    ]
+   }
+  ]
+ },
+ {
+  "term": "she's",
+  "ipa": "ʃiːz",
+  "respell": "SHEEZ",
+  "ru": "она есть, она уже (сокращение от she is или she has)",
+  "expands": "*she is* or *she has*",
+  "type": "be — the pronoun *she* + *is* (or + the auxiliary *has*)",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "ambiguity": "The *'s* is *is* or *has*. *She's ready* and *She's leaving* are *is*; *She's left* and *She's been here* are *has*. The test is the word after it: a past participle means *has*, anything else means *is*.",
+  "senses": [
+   {
+    "gloss": "The contraction of *she is*.",
+    "ru": "она (есть)",
+    "examples": [
+     "*She's* my sister's roommate.",
+     "*She's* really good at math.",
+     "*She's* running late again."
+    ]
+   },
+   {
+    "gloss": "The contraction of *she has*, before a past participle.",
+    "ru": "она уже (+ причастие)",
+    "examples": [
+     "*She's* gone back to school.",
+     "*She's* just finished her shift.",
+     "*She's* had a rough year."
+    ]
+   }
+  ]
+ },
+ {
+  "term": "it's",
+  "ipa": "ɪts",
+  "respell": "ITS",
+  "ru": "это есть, оно уже (сокращение от it is или it has)",
+  "expands": "*it is* or *it has*",
+  "type": "be — the pronoun *it* + *is* (or + the auxiliary *has*)",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "ambiguity": "The *'s* is *is* or *has*: *It's cold* is *is*, *It's been cold* is *has*. It is never a possessive.",
+  "contrast": "*it's* vs *its* — the most-corrected pair in English. If you can expand it to two words, it takes an apostrophe: *It's cold* works as *It is cold*, so *it's*; *the dog wagged its tail* cannot become *it is tail*, so *its* (его, её). Possessives made from pronouns never take an apostrophe — *its*, *his*, *hers*, *ours*, *yours*, *theirs*. And there is no word *its'*.",
+  "senses": [
+   {
+    "gloss": "The contraction of *it is*.",
+    "ru": "это, оно (есть)",
+    "examples": [
+     "*It's* colder than the forecast said.",
+     "*It's* a twenty-minute walk from here.",
+     "*It's* raining again."
+    ]
+   },
+   {
+    "gloss": "The contraction of *it has*, before a past participle.",
+    "ru": "оно уже (+ причастие)",
+    "examples": [
+     "*It's* been three years since we moved.",
+     "*It's* stopped raining, so we can walk.",
+     "*It's* gotten a lot worse since Monday."
+    ]
+   }
+  ]
+ },
+ {
+  "term": "we're",
+  "ipa": "wɪr",
+  "respell": "WEER",
+  "ru": "мы (сокращение от we are)",
+  "expands": "*we are*",
+  "type": "be — the pronoun *we* + *are*",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "contrast": "*we're* vs *were*. *We're* is *we are*, the present; *were* with no apostrophe is the past of *be*: *We were ready then, and we're ready now.* Many Americans reduce *we're* until it sounds just like *were*, so in writing the apostrophe is what carries the tense.",
+  "senses": [
+   {
+    "gloss": "The contraction of *we are*.",
+    "ru": "мы (есть)",
+    "examples": [
+     "*We're* almost out of coffee.",
+     "*We're* leaving at six sharp.",
+     "*We're* the ones who called you."
+    ]
+   }
+  ]
+ },
+ {
+  "term": "they're",
+  "ipa": "ðɛr",
+  "respell": "THAIR",
+  "ru": "они (сокращение от they are)",
+  "expands": "*they are*",
+  "type": "be — the pronoun *they* + *are*",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "contrast": "*they're* vs *their* vs *there* — all three sound the same in American English. If you can expand it to two words, it takes an apostrophe: *They're late* works as *They are late*. *Their* is the possessive (их): *their house*. *There* is the place word and the empty subject of *there is*: *over there*, *There are two left*. One sentence with all three: *They're over there with their kids.*",
+  "senses": [
+   {
+    "gloss": "The contraction of *they are*.",
+    "ru": "они (есть)",
+    "examples": [
+     "*They're* the ones who organized the whole thing.",
+     "*They're* not answering their phones.",
+     "*They're* over there with their kids."
+    ]
+   }
+  ]
+ },
+ {
+  "term": "that's",
+  "ipa": "ðæts",
+  "respell": "THATS",
+  "ru": "это (сокращение от that is или that has)",
+  "expands": "*that is* or *that has*",
+  "type": "be — the pronoun *that* + *is* (or + the auxiliary *has*)",
+  "register": "standard — normal in speech and in all but the most formal writing; one of the commonest words in spoken American English",
+  "ambiguity": "The *'s* is *is* or *has*. *That's a problem* is *is*; *That's been a problem* is *has*. As usual, a past participle after it means *has*.",
+  "senses": [
+   {
+    "gloss": "The contraction of *that is*.",
+    "ru": "это (есть)",
+    "examples": [
+     "*That's* the last train until morning.",
+     "*That's* not what I meant.",
+     "*That's* why I called you."
+    ]
+   },
+   {
+    "gloss": "The contraction of *that has*, before a past participle.",
+    "ru": "это уже (+ причастие)",
+    "examples": [
+     "*That's* been true for years.",
+     "*That's* always struck me as odd.",
+     "*That's* turned out to be the hard part."
+    ]
+   }
+  ]
+ },
+ {
+  "term": "there's",
+  "ipa": "ðɛrz",
+  "respell": "THAIRZ",
+  "ru": "есть, имеется (сокращение от there is или there has)",
+  "expands": "*there is* or *there has*",
+  "type": "be — the empty subject *there* + *is* (or + the auxiliary *has*)",
+  "register": "standard — normal in speech and in writing, with one catch: *there's* in front of a plural (*There's two seats left*, *There's a lot of people here*) is everyday spoken American English but is marked wrong in school and in edited prose, which want *There are two seats left*",
+  "ambiguity": "The *'s* is *is* or *has*. Before a noun it is *is*: *There's a problem*. Before a past participle it is *has*: *There's been a problem*.",
+  "contrast": "*there's* vs *theirs*. *Theirs* is the possessive pronoun (*The blue car is theirs*) and never takes an apostrophe. Note also that the *there* of *there's* is not the place word: it is the empty subject that lets a sentence introduce something new.",
+  "senses": [
+   {
+    "gloss": "The contraction of *there is*.",
+    "ru": "есть, имеется",
+    "examples": [
+     "*There's* someone at the door.",
+     "*There's* no easy answer to that.",
+     "*There's* a gas station two blocks up."
+    ]
+   },
+   {
+    "gloss": "The contraction of *there has*, before a past participle.",
+    "ru": "уже было, произошло",
+    "examples": [
+     "*There's* been an accident on the highway.",
+     "*There's* never been a better time to buy.",
+     "*There's* been talk of closing the plant."
+    ]
+   }
+  ]
+ },
+ {
+  "term": "here's",
+  "ipa": "hɪrz",
+  "respell": "HEERZ",
+  "ru": "вот (сокращение от here is)",
+  "expands": "*here is*",
+  "type": "be — the adverb *here* + *is*",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "ambiguity": "Unlike *there's*, *that's* and *he's*, this *'s* is only ever *is*. *There has been a delay* contracts to *There's been a delay*, but *here has been* is not English, so *here's* has a single expansion. In speech it is also used in front of a plural — *Here's your keys* — which writing corrects to *Here are your keys*.",
+  "senses": [
+   {
+    "gloss": "The contraction of *here is*, used to hand something over or to announce what comes next.",
+    "ru": "вот",
+    "examples": [
+     "*Here's* your receipt — have a good one.",
+     "*Here's* what I think we should do.",
+     "*Here's* the thing: nobody told the client."
+    ]
+   }
+  ]
+ },
+ {
+  "term": "what's",
+  "ipa": "wʌts",
+  "respell": "WUTS",
+  "ru": "что есть, что случилось (сокращение от what is или what has)",
+  "expands": "*what is* or *what has*",
+  "type": "be — the question word *what* + *is* (or + the auxiliary *has*)",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "ambiguity": "The *'s* is *is* or *has*: *What's the problem?* is *is*, *What's happened?* is *has*. In casual speech it can also stand for *does* — *What's it cost?*, *What's he do for a living?* — but that one belongs to speech only and is not written outside dialogue.",
+  "senses": [
+   {
+    "gloss": "The contraction of *what is*.",
+    "ru": "что (есть), какой",
+    "examples": [
+     "*What's* your last name again?",
+     "*What's* the matter?",
+     "*What's* on TV tonight?"
+    ]
+   },
+   {
+    "gloss": "The contraction of *what has*, before a past participle.",
+    "ru": "что произошло, что случилось",
+    "examples": [
+     "*What's* happened to the printer?",
+     "*What's* gotten into you?",
+     "*What's* he done now?"
+    ]
+   }
+  ]
+ },
+ {
+  "term": "where's",
+  "ipa": "wɛrz",
+  "respell": "WAIRZ",
+  "ru": "где (сокращение от where is или where has)",
+  "expands": "*where is* or *where has*",
+  "type": "be — the question word *where* + *is* (or + the auxiliary *has*)",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "ambiguity": "The *'s* is *is* or *has*. *Where's my phone?* is *is*; *Where's she been all morning?* is *has*, because a past participle follows.",
+  "contrast": "*where's* sounds exactly like *wears* (*he wears glasses*) and *wares* (goods for sale). Only the apostrophe form is a contraction, and there is no word *wheres*.",
+  "senses": [
+   {
+    "gloss": "The contraction of *where is*.",
+    "ru": "где (находится)",
+    "examples": [
+     "*Where's* the nearest pharmacy?",
+     "*Where's* my charger?",
+     "*Where's* that noise coming from?"
+    ]
+   },
+   {
+    "gloss": "The contraction of *where has*, before a past participle.",
+    "ru": "где был, куда делся",
+    "examples": [
+     "*Where's* she been all morning?",
+     "*Where's* the time gone?",
+     "*Where's* he run off to now?"
+    ]
+   }
+  ]
+ },
+ {
+  "term": "who's",
+  "ipa": "huːz",
+  "respell": "HOOZ",
+  "ru": "кто (сокращение от who is или who has)",
+  "expands": "*who is* or *who has*",
+  "type": "be — the question word *who* + *is* (or + the auxiliary *has*)",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "ambiguity": "The *'s* is *is* or *has*. *Who's coming?* is *is*; *Who's taken my coat?* is *has*.",
+  "contrast": "*who's* vs *whose*. If you can expand it to two words, it takes an apostrophe: *Who's coming?* works as *Who is coming?* *Whose* is the possessive (чей) and cannot be expanded — *Whose keys are these?* is not ✗ *Who is keys are these?* The two often land in one sentence: *Who's the guy whose car is blocking mine?*",
+  "senses": [
+   {
+    "gloss": "The contraction of *who is*.",
+    "ru": "кто (есть)",
+    "examples": [
+     "*Who's* at the door?",
+     "*Who's* in charge here?",
+     "*Who's* coming with us?"
+    ]
+   },
+   {
+    "gloss": "The contraction of *who has*, before a past participle.",
+    "ru": "кто уже (+ причастие)",
+    "examples": [
+     "*Who's* been using my laptop?",
+     "*Who's* got the keys?",
+     "*Who's* finished the test?"
+    ]
+   }
+  ]
+ },
+ {
+  "term": "how's",
+  "ipa": "haʊz",
+  "respell": "HOWZ",
+  "ru": "как (сокращение от how is или how has)",
+  "expands": "*how is* or *how has*",
+  "type": "be — the question word *how* + *is* (or + the auxiliary *has*)",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "ambiguity": "The *'s* is *is* or *has*. *How's the new job?* is *is*; *How's it been?* is *has*. *How's* is also the standard American greeting frame — *How's it going?* — where nobody expects a detailed answer.",
+  "senses": [
+   {
+    "gloss": "The contraction of *how is*.",
+    "ru": "как (есть), как дела",
+    "examples": [
+     "*How's* the new job treating you?",
+     "*How's* your mom doing?",
+     "*How's* the weather out there?"
+    ]
+   },
+   {
+    "gloss": "The contraction of *how has*, before a past participle.",
+    "ru": "как прошло, как было",
+    "examples": [
+     "*How's* your week been so far?",
+     "*How's* she been since the surgery?",
+     "*How's* that worked out for you?"
+    ]
+   }
+  ]
+ },
+ {
+  "term": "let's",
+  "ipa": "lɛts",
+  "respell": "LETS",
+  "ru": "давай, давайте (сокращение от let us)",
+  "expands": "*let us*",
+  "type": "fixed — the *'s* is *us*, not *is*: the one contraction built on an object pronoun",
+  "register": "standard — normal in speech and in all but the most formal writing",
+  "ambiguity": "The *'s* of *let's* is *us*, the object pronoun — the one contraction in English where it is neither *is* nor *has*. And *let's* has no everyday full form: written out, *let us* is either formal and old-fashioned (*Let us pray*) or a literal request for permission (*Let us in*, *Let us know when you land*), and neither of those contracts — ✗ *Let's in*, ✗ *Let's know*.",
+  "question": "*Let's go, shall we?* — the tag on a *let's* sentence is *shall we?*, never *don't we?* or *won't we?* The negative is *let's not*: *Let's not argue about it.* The British *don't let's* sounds odd in American English.",
+  "contrast": "*let's* vs *lets*. *Lets* with no apostrophe is the ordinary third-person verb — *She lets the dog out at seven*, *This ticket lets you in twice*. *Let's* is always a proposal to do something together, so the apostrophe marks the missing *us*.",
+  "senses": [
+   {
+    "gloss": "The contraction of *let us*, used to propose doing something together.",
+    "ru": "давай, давайте",
+    "examples": [
+     "*Let's* grab lunch before the meeting.",
+     "*Let's* not talk about work tonight.",
+     "*Let's* say it takes three hours — we'd still get there by six."
+    ]
+   }
+  ]
+ }
+]

@@ -137,6 +137,8 @@ Three fields specific to this class:
 
 Beyond the word classes, **[grammar/](grammar/README.md)** covers grammatical *systems* — organized by topic rather than by part of speech.
 
+**[Contractions](grammar/02-contractions/README.md)** — what each of about ninety contractions expands to, the pronunciations you cannot predict from the parts (*won't* is /woʊnt/, not *will* plus *not*), the two ambiguous written forms (*'s* is *is* or *has*; *'d* is *would* or *had*), the forms English does not have (✗ *amn't*, and why the question is *aren't I?*), when a contraction is impossible (✗ *Yes, I'm*), and the spoken reductions every American says but few write — *gonna*, *wanna*, *y'all*. With a dictionary of **[93 entries](grammar/02-contractions/catalog/README.md)** ([browse](grammar/02-contractions/catalog/browse.html)).
+
 **[Reported speech](grammar/01-reported-speech/README.md)** — 8 sections covering backshift, the pronoun and time shifts, reported questions, commands and requests, modals, free indirect speech, and news and academic attribution. With a dictionary of **[313 reporting verbs](grammar/01-reported-speech/catalog/README.md)** ([browse](grammar/01-reported-speech/catalog/browse.html)), each giving every grammatical frame the verb takes, the frames it refuses (✗ *suggested me to go*, ✗ *explain me*), and the judgment it carries — *claim* signals doubt, *admit* presupposes fault, *point out* presupposes truth.
 
 ## The Conjunction Dictionary

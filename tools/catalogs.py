@@ -126,6 +126,18 @@ CATALOGS = [
                 ('modifies', 'Modifies'), ('form', 'Form'), ('contrast', 'Contrast')],
     ),
     dict(
+        slug='contractions',
+        dir='grammar/02-contractions/catalog',
+        title='Contractions',
+        eyebrow='Grammar &middot; Contractions',
+        lede='contractions — what each one expands to, how it sounds, and where you may write it',
+        accent='#a14a78', accent_dark='#e39ac2',
+        tag_fields=['type', 'register'],
+        fields=[('expands to', 'Expands to'), ('type', 'Type'), ('register', 'Register'),
+                ('ambiguity', 'Ambiguity'), ('question form', 'Question form'),
+                ('contrast', 'Contrast')],
+    ),
+    dict(
         slug='reporting-verbs',
         dir='grammar/01-reported-speech/catalog',
         title='Reporting Verbs',

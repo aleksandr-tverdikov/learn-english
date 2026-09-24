@@ -5,7 +5,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 # generate every catalog file from its source JSON first, then run the injectors that
 # add cross-references into them. Reversing this silently discards the injected lines
 # on the next build.
-for step in ['build_core.py', 'build_verbs.py', 'build_phrasal.py', 'build_adverbs.py', 'build_adjectives.py',
+for step in ['build_core.py', 'build_verbs.py', 'build_phrasal.py', 'build_adverbs.py', 'build_adjectives.py', 'build_contractions.py',
              'apply_verb_type.py', 'apply_verb_class.py', 'apply_phrasal_index.py',
              'apply_ru.py', 'build_browsers.py', 'sync_counts.py', 'build_site.py', 'build_home.py', 'check_links.py']:
     print(f'\n=== {step} ===')

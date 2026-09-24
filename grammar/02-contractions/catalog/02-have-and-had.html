@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contractions of have and had</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Grammar</a><span class="sep">/</span><a href="../README.html">02-contractions</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="contractions-of-have-and-had">Contractions of <em>have</em> and <em>had</em><a class="hash" href="#contractions-of-have-and-had" aria-label="link">#</a></h1>
+<blockquote><p><em>I've</em>, <em>could've</em>, <em>I'd</em> — including the <em>'d</em> that is sometimes <em>had</em> and sometimes <em>would</em>.</p></blockquote>
+<p><a href="../README.html">← Contractions</a> &middot; <a href="README.html">All groups</a></p>
+<p><em>'ve</em> is always <em>have</em>. <em>'d</em> is the ambiguous one: <em>I'd gone</em> is <em>had</em>, <em>I'd go</em> is <em>would</em>, and only the verb that follows tells you which. The <em>-'ve</em> of <em>could've</em> sounds exactly like <em>of</em>, which is why <em>could of</em> is the most common spelling error in written American English — it is never correct.</p>
+<hr>
+<h3 id="ive">I've<a class="hash" href="#ive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aɪv/ &middot; <em>YV</em></dd><dt>Русский</dt><dd>я уже (сделал) — сокращение от I have</dd><dt>Expands to</dt><dd><em>I have</em></dd><dt>Type</dt><dd>have — a subject plus the auxiliary <em>have</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Contrast</dt><dd><em>'ve</em> contracts the auxiliary only. American English does not contract <em>have</em> meaning 'own': <em>I have a car</em>, never ✗ <em>I've a car</em> (that is British and dated). And no contraction can end a clause: <em>Yes, I have</em>, never ✗ <em>Yes, I've</em>.</dd></dl>
+<p>The contraction of <em>I have</em>, the auxiliary of the present perfect.</p>
+<ol><li><em>I've</em> lived in Chicago since 2015.</li><li><em>I've</em> already eaten, thanks.</li><li><em>I've</em> got to leave by six.</li></ol>
+<hr>
+<h3 id="youve">you've<a class="hash" href="#youve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːv/ &middot; <em>YOOV</em></dd><dt>Русский</dt><dd>ты/вы уже (сделал) — сокращение от you have</dd><dt>Expands to</dt><dd><em>you have</em></dd><dt>Type</dt><dd>have — a subject plus the auxiliary <em>have</em></dd><dt>Register</dt><dd>standard — normal in speech and in ordinary writing</dd><dt>Contrast</dt><dd>Unstressed, <em>you've</em> is said /jəv/ and the <em>'ve</em> is easy to miss: <em>You've seen it</em> and <em>You saw it</em> differ by one weak syllable. The written trap is the pronoun — <em>you've</em> is <em>you have</em>, <em>you're</em> is <em>you are</em>, and <em>your</em> is the possessive.</dd></dl>
+<p>The contraction of <em>you have</em>, the auxiliary of the present perfect.</p>
+<ol><li><em>You've</em> been working too hard lately.</li><li><em>You've</em> got mail.</li><li>If <em>you've</em> finished the form, bring it to the window.</li></ol>
+<hr>
+<h3 id="weve">we've<a class="hash" href="#weve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wiːv/ &middot; <em>WEEV</em></dd><dt>Русский</dt><dd>мы уже (сделали) — сокращение от we have</dd><dt>Expands to</dt><dd><em>we have</em></dd><dt>Type</dt><dd>have — a subject plus the auxiliary <em>have</em></dd><dt>Register</dt><dd>standard — normal in speech and in ordinary writing</dd><dt>Contrast</dt><dd><em>We've</em> is pronounced exactly like <em>weave</em>. Do not confuse it with <em>we'd</em> (<em>we would</em> or <em>we had</em>) or <em>we're</em> (<em>we are</em>).</dd></dl>
+<p>The contraction of <em>we have</em>, the auxiliary of the present perfect.</p>
+<ol><li><em>We've</em> known each other since college.</li><li><em>We've</em> got a problem with the heater.</li><li><em>We've</em> never been to Texas.</li></ol>
+<hr>
+<h3 id="theyve">they've<a class="hash" href="#theyve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ðeɪv/ &middot; <em>THAYV</em></dd><dt>Русский</dt><dd>они уже (сделали) — сокращение от they have</dd><dt>Expands to</dt><dd><em>they have</em></dd><dt>Type</dt><dd>have — a subject plus the auxiliary <em>have</em></dd><dt>Register</dt><dd>standard — normal in speech and in ordinary writing</dd><dt>Contrast</dt><dd>The three <em>they</em> contractions are different words: <em>they're</em> is <em>they are</em>, <em>they'd</em> is <em>they would</em> or <em>they had</em>, and <em>they've</em> is <em>they have</em>. None of them is <em>their</em>.</dd></dl>
+<p>The contraction of <em>they have</em>, the auxiliary of the present perfect.</p>
+<ol><li><em>They've</em> lived in that house for thirty years.</li><li><em>They've</em> already left for the airport.</li><li>I don't think <em>they've</em> met before.</li></ol>
+<hr>
+<h3 id="whove">who've<a class="hash" href="#whove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/huːv/ &middot; <em>HOOV</em></dd><dt>Русский</dt><dd>которые уже (сделали) — сокращение от who have</dd><dt>Expands to</dt><dd><em>who have</em></dd><dt>Type</dt><dd>have — the relative or question word <em>who</em> plus the auxiliary <em>have</em></dd><dt>Register</dt><dd>standard — but far rarer than <em>who's</em>, and mostly heard rather than written</dd><dt>Question form</dt><dd><em>Who've you told?</em> is normal in speech; in writing most Americans spell it out — <em>Who have you told?</em></dd><dt>Contrast</dt><dd><em>Who've</em> is <em>who have</em>; <em>who's</em> is <em>who is</em> or <em>who has</em>; <em>whose</em> is the possessive and takes no apostrophe.</dd></dl>
+<p>The contraction of <em>who have</em>.</p>
+<ol><li>Students <em>who've</em> missed three classes can't take the final.</li><li>There are plenty of people <em>who've</em> never heard of him.</li><li><em>Who've</em> you been talking to?</li></ol>
+<hr>
+<h3 id="couldve">could've<a class="hash" href="#couldve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊdəv/ &middot; <em>KUUD-uhv</em></dd><dt>Русский</dt><dd>мог бы (тогда) — сокращение от could have</dd><dt>Expands to</dt><dd><em>could have</em></dd><dt>Type</dt><dd>modal — <em>could</em> plus a contracted <em>have</em></dd><dt>Register</dt><dd>informal — normal in speech; formal writing spells it out as <em>could have</em></dd><dt>Question form</dt><dd>There is no contracted question: <em>Could you have known?</em>, never ✗ <em>Could've you known?</em></dd><dt>Contrast</dt><dd>The <em>-'ve</em> is unstressed /əv/ and sounds exactly like <em>of</em>, which is why ✗ <em>could of</em> is the most common spelling error in written American English. It is never correct, in any register — if you cannot hear which it is, expand it to <em>could have</em>.</dd></dl>
+<p>The contraction of <em>could have</em>: what was possible but did not happen.</p>
+<ol><li>You <em>could've</em> told me you were bringing someone.</li><li>The whole thing <em>could've</em> been avoided.</li><li>I <em>could've</em> sworn I left my keys on the table.</li></ol>
+<hr>
+<h3 id="wouldve">would've<a class="hash" href="#wouldve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊdəv/ &middot; <em>WUUD-uhv</em></dd><dt>Русский</dt><dd>сделал бы (тогда) — сокращение от would have</dd><dt>Expands to</dt><dd><em>would have</em></dd><dt>Type</dt><dd>modal — <em>would</em> plus a contracted <em>have</em></dd><dt>Register</dt><dd>informal — normal in speech; formal writing spells it out as <em>would have</em></dd><dt>Question form</dt><dd>There is no contracted question: <em>Would you have come?</em>, never ✗ <em>Would've you come?</em></dd><dt>Contrast</dt><dd>✗ <em>would of</em> is never correct — the <em>-'ve</em> is unstressed /əv/ and only sounds like <em>of</em>. Watch the halves of the third conditional: <em>If I'd known, I would've called</em> — <em>had</em> in the <em>if</em> clause, <em>would have</em> in the main clause, never ✗ <em>If I would've known</em>.</dd></dl>
+<p>The contraction of <em>would have</em>: what was going to be true but was not.</p>
+<ol><li>I <em>would've</em> called, but my phone was dead.</li><li>She <em>would've</em> made a great teacher.</li><li>Nobody <em>would've</em> guessed he was nervous.</li></ol>
+<hr>
+<h3 id="shouldve">should've<a class="hash" href="#shouldve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʊdəv/ &middot; <em>SHUUD-uhv</em></dd><dt>Русский</dt><dd>надо было (сделать) — сокращение от should have</dd><dt>Expands to</dt><dd><em>should have</em></dd><dt>Type</dt><dd>modal — <em>should</em> plus a contracted <em>have</em></dd><dt>Register</dt><dd>informal — normal in speech; formal writing spells it out as <em>should have</em></dd><dt>Question form</dt><dd>There is no contracted question: <em>Should I have said something?</em>, never ✗ <em>Should've I said something?</em></dd><dt>Contrast</dt><dd>✗ <em>should of</em> is never correct, however much the <em>-'ve</em> sounds like <em>of</em>. Note what the form means: <em>should've</em> is always a reproach or a regret about the past — <em>You should've called</em> says that you did not call.</dd></dl>
+<p>The contraction of <em>should have</em>: what was the right thing to do and was not done.</p>
+<ol><li>I <em>should've</em> studied more for that test.</li><li>You <em>should've</em> seen the look on his face.</li><li>We <em>should've</em> left an hour ago.</li></ol>
+<hr>
+<h3 id="mightve">might've<a class="hash" href="#mightve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪtəv/ &middot; <em>MYT-uhv</em></dd><dt>Русский</dt><dd>возможно, сделал — сокращение от might have</dd><dt>Expands to</dt><dd><em>might have</em></dd><dt>Type</dt><dd>modal — <em>might</em> plus a contracted <em>have</em></dd><dt>Register</dt><dd>informal — normal in speech; formal writing spells it out as <em>might have</em></dd><dt>Contrast</dt><dd>✗ <em>might of</em> is never correct. Keep the two deductions apart: <em>might've</em> is a guess (<em>He might've left</em> — maybe, maybe not), while <em>must've</em> is a conclusion (<em>He must've left</em> — I am sure of it).</dd></dl>
+<p>The contraction of <em>might have</em>: a guess about the past, or about what nearly happened.</p>
+<ol><li>He <em>might've</em> left already — his car is gone.</li><li>I <em>might've</em> put it in the other drawer.</li><li>You <em>might've</em> warned me before I signed it.</li></ol>
+<hr>
+<h3 id="mustve">must've<a class="hash" href="#mustve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌstəv/ &middot; <em>MUHST-uhv</em></dd><dt>Русский</dt><dd>наверняка сделал — сокращение от must have</dd><dt>Expands to</dt><dd><em>must have</em></dd><dt>Type</dt><dd>modal — <em>must</em> plus a contracted <em>have</em></dd><dt>Register</dt><dd>informal — normal in speech; formal writing spells it out as <em>must have</em></dd><dt>Contrast</dt><dd>✗ <em>must of</em> is never correct. And <em>must've</em> is never obligation in the past: <em>He must've left</em> means 'I am sure he left'; for obligation you say <em>he had to leave</em>.</dd></dl>
+<p>The contraction of <em>must have</em>: a confident conclusion about the past.</p>
+<ol><li>He <em>must've</em> left — the lights are off.</li><li>You <em>must've</em> been exhausted after that drive.</li><li>I <em>must've</em> missed the turn somewhere.</li></ol>
+<hr>
+<h3 id="id">I'd<a class="hash" href="#id" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aɪd/ &middot; <em>YD</em></dd><dt>Русский</dt><dd>я бы; я уже — сокращение от I would или I had</dd><dt>Expands to</dt><dd><em>I would</em> or <em>I had</em></dd><dt>Type</dt><dd>would — or <em>had</em>; the verb that follows tells you which</dd><dt>Register</dt><dd>standard — normal in speech and in ordinary writing</dd><dt>Ambiguity</dt><dd><em>I'd</em> is <em>I would</em> before a bare verb (<em>I'd go</em>) and <em>I had</em> before a past participle (<em>I'd gone</em>). Two fixed phrases settle it by themselves: <em>I'd better</em> is always <em>had</em>, <em>I'd rather</em> is always <em>would</em>.</dd><dt>Contrast</dt><dd>The third conditional uses both in one sentence: <em>If I'd known, I'd have said something</em> — the first <em>I'd</em> is <em>had</em>, the second is <em>would</em>.</dd></dl>
+<p>I'd stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>I would</em>.</strong> (я бы)</p>
+<ol><li><em>I'd</em> love to come to the party.</li><li><em>I'd</em> rather stay home tonight.</li><li>If I had the money, <em>I'd</em> buy it.</li></ol>
+<p><strong>2. The contraction of <em>I had</em>, the auxiliary of the past perfect.</strong> (я уже (сделал))</p>
+<ol start="4"><li>By the time she called, <em>I'd</em> already gone to bed.</li><li><em>I'd</em> never seen snow before that winter.</li><li><em>I'd</em> better get going.</li></ol>
+<hr>
+<h3 id="youd">you'd<a class="hash" href="#youd" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːd/ &middot; <em>YOOD</em></dd><dt>Русский</dt><dd>ты бы; ты уже — сокращение от you would или you had</dd><dt>Expands to</dt><dd><em>you would</em> or <em>you had</em></dd><dt>Type</dt><dd>would — or <em>had</em>; the verb that follows tells you which</dd><dt>Register</dt><dd>standard — normal in speech and in ordinary writing</dd><dt>Ambiguity</dt><dd><em>You'd like it</em> is <em>would</em>; <em>You'd finished</em> is <em>had</em>. <em>You'd better</em> is <em>had</em> — and in speech it shrinks further, to <em>you better</em> or even a bare <em>better</em>.</dd><dt>Contrast</dt><dd><em>You'd</em> is <em>you would</em> or <em>you had</em>, never <em>you are</em> — that is <em>you're</em>.</dd></dl>
+<p>you'd stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>you would</em>.</strong> (ты бы, вы бы)</p>
+<ol><li><em>You'd</em> like her — everybody does.</li><li><em>You'd</em> be surprised how often that happens.</li><li>If you asked him, <em>you'd</em> get the same answer.</li></ol>
+<p><strong>2. The contraction of <em>you had</em>, the auxiliary of the past perfect.</strong> (ты уже (сделал))</p>
+<ol start="4"><li><em>You'd</em> better call your mother.</li><li>She said <em>you'd</em> already paid for the tickets.</li><li>By then <em>you'd</em> been waiting almost an hour.</li></ol>
+<hr>
+<h3 id="hed">he'd<a class="hash" href="#hed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hiːd/ &middot; <em>HEED</em></dd><dt>Русский</dt><dd>он бы; он уже — сокращение от he would или he had</dd><dt>Expands to</dt><dd><em>he would</em> or <em>he had</em></dd><dt>Type</dt><dd>would — or <em>had</em>; the verb that follows tells you which</dd><dt>Register</dt><dd>standard — normal in speech and in ordinary writing</dd><dt>Ambiguity</dt><dd><em>He'd go</em> is <em>would</em>; <em>He'd gone</em> is <em>had</em>. <em>He'd better</em> is <em>had</em>, <em>he'd rather</em> is <em>would</em>.</dd><dt>Contrast</dt><dd><em>He'd</em> is a homophone of <em>heed</em>, and in the middle of a sentence the <em>h</em> often drops, so <em>what he'd said</em> runs together as one word. Do not confuse it with <em>he's</em>, which is <em>he is</em> or <em>he has</em>.</dd></dl>
+<p>he'd stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>he would</em>.</strong> (он бы)</p>
+<ol><li><em>He'd</em> never admit it, but he was scared.</li><li>I asked if <em>he'd</em> help us move.</li><li><em>He'd</em> rather walk than wait for the bus.</li></ol>
+<p><strong>2. The contraction of <em>he had</em>, the auxiliary of the past perfect.</strong> (он уже (сделал))</p>
+<ol start="4"><li>By the time we got there, <em>he'd</em> eaten.</li><li>She told me <em>he'd</em> been sick all week.</li><li><em>He'd</em> better have a good excuse.</li></ol>
+<hr>
+<h3 id="shed">she'd<a class="hash" href="#shed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃiːd/ &middot; <em>SHEED</em></dd><dt>Русский</dt><dd>она бы; она уже — сокращение от she would или she had</dd><dt>Expands to</dt><dd><em>she would</em> or <em>she had</em></dd><dt>Type</dt><dd>would — or <em>had</em>; the verb that follows tells you which</dd><dt>Register</dt><dd>standard — normal in speech and in ordinary writing</dd><dt>Ambiguity</dt><dd><em>She'd like it</em> is <em>would</em>; <em>She'd liked it</em> is <em>had</em>. The participle is the whole test: <em>she'd take it</em> (would) against <em>she'd taken it</em> (had).</dd><dt>Contrast</dt><dd><em>She'd</em> is <em>she would</em> or <em>she had</em>, never <em>she is</em> or <em>she has</em> — those are <em>she's</em>.</dd></dl>
+<p>she'd stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>she would</em>.</strong> (она бы)</p>
+<ol><li><em>She'd</em> like to meet you sometime.</li><li><em>She'd</em> rather not talk about it.</li><li>I knew <em>she'd</em> say no.</li></ol>
+<p><strong>2. The contraction of <em>she had</em>, the auxiliary of the past perfect.</strong> (она уже (сделала))</p>
+<ol start="4"><li><em>She'd</em> already left when I got there.</li><li><em>She'd</em> never flown before that trip.</li><li>He mentioned that <em>she'd</em> been promoted twice.</li></ol>
+<hr>
+<h3 id="itd">it'd<a class="hash" href="#itd" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪtəd/ &middot; <em>IT-uhd</em></dd><dt>Русский</dt><dd>это было бы; это уже — сокращение от it would или it had</dd><dt>Expands to</dt><dd><em>it would</em> or <em>it had</em></dd><dt>Type</dt><dd>would — or <em>had</em>, though the <em>had</em> reading is rare</dd><dt>Register</dt><dd>informal — common in speech, seldom written outside dialogue; in print, spell out <em>it would</em></dd><dt>Ambiguity</dt><dd><em>It'd take an hour</em> is <em>would</em>; <em>It'd rained all night</em> is <em>had</em>. With <em>it</em>, the <em>would</em> reading is far commoner.</dd><dt>Contrast</dt><dd>Unlike the one-syllable <em>it's</em>, <em>it'd</em> has two syllables, and the American flapped <em>t</em> makes it sound close to 'id-ud'. It is a spoken form: write <em>it would</em>.</dd></dl>
+<p>it'd stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>it would</em>.</strong> (это было бы)</p>
+<ol><li><em>It'd</em> be great if you could come.</li><li><em>It'd</em> take about two hours to drive there.</li><li>I thought <em>it'd</em> be colder than this.</li></ol>
+<p><strong>2. The contraction of <em>it had</em>, the auxiliary of the past perfect.</strong> (это уже (было))</p>
+<ol start="4"><li>The ground was soaked — <em>it'd</em> rained all night.</li><li>By morning <em>it'd</em> stopped snowing.</li></ol>
+<hr>
+<h3 id="wed">we'd<a class="hash" href="#wed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wiːd/ &middot; <em>WEED</em></dd><dt>Русский</dt><dd>мы бы; мы уже — сокращение от we would или we had</dd><dt>Expands to</dt><dd><em>we would</em> or <em>we had</em></dd><dt>Type</dt><dd>would — or <em>had</em>; the verb that follows tells you which</dd><dt>Register</dt><dd>standard — normal in speech and in ordinary writing</dd><dt>Ambiguity</dt><dd><em>We'd go</em> is <em>would</em>; <em>We'd gone</em> is <em>had</em>. <em>We'd better</em> is <em>had</em>, <em>we'd rather</em> is <em>would</em>.</dd><dt>Contrast</dt><dd><em>We'd</em> sounds exactly like <em>weed</em>. Keep it apart from <em>we've</em> (<em>we have</em>) and <em>we're</em> (<em>we are</em>).</dd></dl>
+<p>we'd stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>we would</em>.</strong> (мы бы)</p>
+<ol><li><em>We'd</em> love to have you over for dinner.</li><li><em>We'd</em> rather leave before the traffic starts.</li><li>If it were cheaper, <em>we'd</em> buy it.</li></ol>
+<p><strong>2. The contraction of <em>we had</em>, the auxiliary of the past perfect.</strong> (мы уже (сделали))</p>
+<ol start="4"><li><em>We'd</em> already eaten by the time she showed up.</li><li>They told us <em>we'd</em> missed the deadline.</li><li><em>We'd</em> better hurry.</li></ol>
+<hr>
+<h3 id="theyd">they'd<a class="hash" href="#theyd" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ðeɪd/ &middot; <em>THAYD</em></dd><dt>Русский</dt><dd>они бы; они уже — сокращение от they would или they had</dd><dt>Expands to</dt><dd><em>they would</em> or <em>they had</em></dd><dt>Type</dt><dd>would — or <em>had</em>; the verb that follows tells you which</dd><dt>Register</dt><dd>standard — normal in speech and in ordinary writing</dd><dt>Ambiguity</dt><dd><em>They'd agree</em> is <em>would</em>; <em>They'd agreed</em> is <em>had</em> — and here the two differ by one consonant, so listen for the <em>-ed</em>.</dd><dt>Contrast</dt><dd><em>They'd</em> is <em>they would</em> or <em>they had</em>; <em>they've</em> is <em>they have</em>; <em>they're</em> is <em>they are</em>; <em>their</em> and <em>there</em> are not contractions at all.</dd></dl>
+<p>they'd stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>they would</em>.</strong> (они бы)</p>
+<ol><li><em>They'd</em> never agree to that.</li><li>I figured <em>they'd</em> call back by now.</li><li><em>They'd</em> rather pay cash.</li></ol>
+<p><strong>2. The contraction of <em>they had</em>, the auxiliary of the past perfect.</strong> (они уже (сделали))</p>
+<ol start="4"><li><em>They'd</em> already sold the house when we called.</li><li>She said <em>they'd</em> been friends since high school.</li></ol>
+<hr>
+<h3 id="thered">there'd<a class="hash" href="#thered" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ðɛrd/ &middot; <em>THAIRD</em></dd><dt>Русский</dt><dd>было бы; уже было — сокращение от there would или there had</dd><dt>Expands to</dt><dd><em>there would</em> or <em>there had</em></dd><dt>Type</dt><dd>would — or <em>had</em>; with the existential <em>there</em></dd><dt>Register</dt><dd>standard — much commoner in speech than in writing</dd><dt>Ambiguity</dt><dd><em>There'd be trouble</em> is <em>would</em>; <em>There'd been trouble</em> is <em>had</em>. After <em>there</em>, the <em>had</em> reading is always followed by <em>been</em>.</dd><dt>Contrast</dt><dd>This is the existential <em>there</em> of <em>there is</em> and <em>there was</em>, not the place word — and never <em>their</em> or <em>they're</em>.</dd></dl>
+<p>there'd stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>there would</em>.</strong> (было бы, нашлось бы)</p>
+<ol><li><em>There'd</em> be a lot less traffic if we left at six.</li><li>Nobody warned us <em>there'd</em> be a fee.</li><li>If we canceled now, <em>there'd</em> be no refund.</li></ol>
+<p><strong>2. The contraction of <em>there had</em>, always before <em>been</em>.</strong> (уже было)</p>
+<ol start="4"><li><em>There'd</em> been a fire in the building the week before.</li><li>She had no idea <em>there'd</em> been any complaints.</li></ol>
+<hr>
+<h3 id="whod">who'd<a class="hash" href="#whod" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/huːd/ &middot; <em>HOOD</em></dd><dt>Русский</dt><dd>кто бы; который уже — сокращение от who would или who had</dd><dt>Expands to</dt><dd><em>who would</em> or <em>who had</em></dd><dt>Type</dt><dd>would — or <em>had</em>; the verb that follows tells you which</dd><dt>Register</dt><dd>standard — normal in speech and in ordinary writing</dd><dt>Ambiguity</dt><dd><em>Who'd want that?</em> is <em>would</em>; <em>the man who'd left</em> is <em>had</em>. Casual speech adds a third reading that is never written outside dialogue: <em>Who'd you call?</em> is <em>who did</em>.</dd><dt>Contrast</dt><dd><em>Who'd</em> is a homophone of <em>hood</em>. It is not <em>who's</em> (<em>who is</em> or <em>who has</em>), and not <em>whose</em>, the possessive, which takes no apostrophe.</dd></dl>
+<p>who'd stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>who would</em>.</strong> (кто бы)</p>
+<ol><li><em>Who'd</em> have thought it would end like that?</li><li><em>Who'd</em> want to drive four hours for one meeting?</li></ol>
+<p><strong>2. The contraction of <em>who had</em>, the auxiliary of the past perfect.</strong> (который уже (сделал))</p>
+<ol start="3"><li>The witness <em>who'd</em> seen the car never came forward.</li><li>He introduced me to a cousin <em>who'd</em> just moved to town.</li></ol>
+<hr>
+<h3 id="thatd">that'd<a class="hash" href="#thatd" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈðætəd/ &middot; <em>THAT-uhd</em></dd><dt>Русский</dt><dd>это было бы — сокращение от that would или that had</dd><dt>Expands to</dt><dd><em>that would</em> or <em>that had</em></dd><dt>Type</dt><dd>would — or <em>had</em>, though the <em>had</em> reading is rare</dd><dt>Register</dt><dd>informal — speech and dialogue only; in writing, spell out <em>that would</em></dd><dt>Ambiguity</dt><dd><em>That'd be great</em> is <em>would</em>; <em>that'd been settled</em> is <em>had</em>. With <em>that</em>, <em>'d</em> is almost always <em>would</em>.</dd><dt>Contrast</dt><dd>Two syllables, with the American flapped <em>t</em>, so it sounds close to 'thad-ud'. It is not <em>that's</em>, which is <em>that is</em> or <em>that has</em>.</dd></dl>
+<p>that'd stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>that would</em>.</strong> (это было бы)</p>
+<ol><li><em>That'd</em> be great, thanks.</li><li><em>That'd</em> cost more than the car is worth.</li><li>I didn't think <em>that'd</em> work.</li></ol>
+<p><strong>2. The contraction of <em>that had</em>, the auxiliary of the past perfect.</strong> (это уже (было))</p>
+<ol start="4"><li>He said <em>that'd</em> already been decided.</li><li>We assumed <em>that'd</em> been taken care of.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

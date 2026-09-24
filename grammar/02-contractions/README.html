@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contractions</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../index.html">Learn English</a><span class="sep">/</span><a href="../README.html">Grammar</a><span class="sep">/</span><span>02-contractions</span></div></nav>
+<main><div class="wrap"><div class="toc"><b>On this page</b><a href="#1-what-a-contraction-is">1. What a contraction is</a><a href="#2-the-four-families">2. The four families</a><a href="#3-the-two-ambiguous-forms">3. The two ambiguous forms</a><a href="#4-the-apostrophe-rule">4. The apostrophe rule</a><a href="#5-forms-english-does-not-have">5. Forms English does not have</a><a href="#6-when-not-to-contract">6. When not to contract</a><a href="#7-isnt-or-s-not">7. isn&#x27;t or &#x27;s not?</a><a href="#8-questions">8. Questions</a><a href="#9-spoken-reductions">9. Spoken reductions</a><a href="#10-what-russian-speakers-get-wrong-most">10. What Russian speakers get wrong most</a><a href="#see-also">See also</a></div><h1 id="contractions">Contractions<a class="hash" href="#contractions" aria-label="link">#</a></h1>
+<blockquote><p>Two words pushed into one, with an apostrophe marking what fell out — and a set of rules about which ones you may write down.</p></blockquote>
+<blockquote><p><strong>📖 Looking for a specific contraction?</strong> This file covers the <em>grammar</em>. The <em>lexicon</em> — <strong><a href="catalog/README.html">93 entries</a></strong>, each with its pronunciation, what it expands to, whether the written form is ambiguous, and where you may use it — lives in the <strong><a href="catalog/README.html">Contraction Dictionary</a></strong>. There is also an <strong><a href="catalog/browse.html">audio browser</a></strong> you can search and listen to.</p></blockquote>
+<p><a href="../README.html">← Grammar</a> &middot; <a href="../../README.html">Library home</a> &middot; <a href="../../parts-of-speech/README.html">Parts of speech</a></p>
+<h2 id="1-what-a-contraction-is">1. What a contraction is<a class="hash" href="#1-what-a-contraction-is" aria-label="link">#</a></h2>
+<p>A contraction joins two words and drops one or more sounds, marking the gap with an apostrophe: <em>I am</em> → <em>I'm</em>, <em>will not</em> → <em>won't</em>, <em>of the clock</em> → <em>o'clock</em>. English has about ninety of them in ordinary use.</p>
+<p>They are not a word class. <em>I'm</em> is a pronoun plus a verb, <em>won't</em> is a modal plus an adverb, <em>let's</em> is a verb plus a pronoun — which is why they live here, under grammar, rather than in any one dictionary of parts of speech.</p>
+<p>Two things make them worth a chapter. First, <strong>the apostrophe marks a missing sound, never possession</strong> — and the four commonest spelling errors in English come from confusing the two. Second, <strong>contractions are not optional decoration</strong>: in speech they are the default, and a sentence full of uncontracted forms sounds stiff or angry rather than polite. <em>I do not think that is right</em> is not more correct than <em>I don't think that's right</em>; it is differently pitched.</p>
+<h2 id="2-the-four-families">2. The four families<a class="hash" href="#2-the-four-families" aria-label="link">#</a></h2>
+<div class="tw"><table><thead><tr><th style="text-align:left">Family</th><th style="text-align:left">Joined to</th><th style="text-align:left">Forms</th></tr></thead><tbody><tr><td style="text-align:left"><strong>be</strong></td><td style="text-align:left">subject</td><td style="text-align:left"><em>I'm, you're, he's, she's, it's, we're, they're, that's, there's, here's, what's, who's</em></td></tr><tr><td style="text-align:left"><strong>have / had</strong></td><td style="text-align:left">subject or modal</td><td style="text-align:left"><em>I've, you've, we've, they've, could've, would've, should've</em>; <em>I'd, you'd, he'd, she'd, we'd, they'd</em></td></tr><tr><td style="text-align:left"><strong>will</strong></td><td style="text-align:left">subject</td><td style="text-align:left"><em>I'll, you'll, he'll, she'll, it'll, we'll, they'll, there'll, that'll</em></td></tr><tr><td style="text-align:left"><strong>not</strong></td><td style="text-align:left">auxiliary or modal</td><td style="text-align:left"><em>isn't, aren't, wasn't, weren't, don't, doesn't, didn't, haven't, hasn't, hadn't, won't, can't, couldn't, wouldn't, shouldn't, mustn't</em></td></tr></tbody></table></div>
+<h2 id="3-the-two-ambiguous-forms">3. The two ambiguous forms<a class="hash" href="#3-the-two-ambiguous-forms" aria-label="link">#</a></h2>
+<p>Written English has two contractions that each stand for more than one word. Only what follows tells you which.</p>
+<div class="tw"><table><thead><tr><th style="text-align:left">Written</th><th style="text-align:left">Can be</th><th style="text-align:left">Test</th></tr></thead><tbody><tr><td style="text-align:left"><strong><em>'s</em></strong></td><td style="text-align:left"><em>is</em> / <em>has</em> / <em>us</em></td><td style="text-align:left"><em>He's <strong>tired</strong></em> = is &middot; <em>He's <strong>gone</strong></em> = has &middot; <em>Let's</em> = us</td></tr><tr><td style="text-align:left"><strong><em>'d</em></strong></td><td style="text-align:left"><em>would</em> / <em>had</em></td><td style="text-align:left"><em>I'd <strong>go</strong></em> (bare verb) = would &middot; <em>I'd <strong>gone</strong></em> (participle) = had</td></tr></tbody></table></div>
+<p>Two fixed phrases settle themselves: <em>I'd <strong>better</strong> go</em> is always <em>had</em>, and <em>I'd <strong>rather</strong> go</em> is always <em>would</em>.</p>
+<h2 id="4-the-apostrophe-rule">4. The apostrophe rule<a class="hash" href="#4-the-apostrophe-rule" aria-label="link">#</a></h2>
+<p><strong>If you can expand it into two words, it takes an apostrophe. If it is a possessive pronoun, it never does.</strong></p>
+<div class="tw"><table><thead><tr><th style="text-align:left">Contraction</th><th style="text-align:left">Possessive</th><th style="text-align:left">Test</th></tr></thead><tbody><tr><td style="text-align:left"><em>it's</em> = it is / it has</td><td style="text-align:left"><em>its</em></td><td style="text-align:left"><em>It's raining</em> → <em>It is raining</em> ✓</td></tr><tr><td style="text-align:left"><em>you're</em> = you are</td><td style="text-align:left"><em>your</em></td><td style="text-align:left"><em>You're late</em> → <em>You are late</em> ✓</td></tr><tr><td style="text-align:left"><em>they're</em> = they are</td><td style="text-align:left"><em>their</em> (and <em>there</em> = place)</td><td style="text-align:left"><em>They're here</em> → <em>They are here</em> ✓</td></tr><tr><td style="text-align:left"><em>who's</em> = who is / who has</td><td style="text-align:left"><em>whose</em></td><td style="text-align:left"><em>Who's calling?</em> → <em>Who is calling?</em> ✓</td></tr></tbody></table></div>
+<p>Possessive pronouns — <em>its, yours, hers, ours, theirs, whose</em> — never take an apostrophe. Only nouns do: <em>the dog's bowl</em>.</p>
+<h2 id="5-forms-english-does-not-have">5. Forms English does not have<a class="hash" href="#5-forms-english-does-not-have" aria-label="link">#</a></h2>
+<ul><li>✗ <strong><em>amn't</em></strong>. English has no contraction for <em>am not</em>. In a statement, use <em>I'm not</em>. In a question, the form is <strong><em>aren't I?</em></strong> — historically odd, completely standard today.</li><li>✗ <strong><em>mayn't</em></strong>, ✗ <strong><em>shalln't</em></strong>. Not American English. <em>Shan't</em> exists but has all but vanished here; Americans say <em>won't</em>.</li><li>✗ <strong><em>I'mn't</em></strong>, ✗ <strong><em>willn't</em></strong>. English contracts once per pair, and <em>will not</em> is irregular: <em>won't</em>.</li><li><strong>Double contractions</strong> — <em>shouldn't've</em>, <em>I'd've</em> — are said constantly and written almost never, outside dialogue.</li></ul>
+<h2 id="6-when-not-to-contract">6. When not to contract<a class="hash" href="#6-when-not-to-contract" aria-label="link">#</a></h2>
+<ol><li><strong>At the end of a clause.</strong> A contraction cannot carry the stress a final word needs: <em>Yes, I <strong>am</strong></em>, never ✗ <em>Yes, I'm</em>. Likewise <em>I know he <strong>is</strong></em>, ✗ <em>I know he's</em>.</li><li><strong>Under emphasis.</strong> <em>I <strong>did not</strong> say that</em> denies more firmly than <em>I didn't say that</em>.</li><li><strong>In formal writing</strong> — academic papers, contracts, official letters. Though modern American style guides accept contractions in journalism, business writing and most nonfiction.</li><li><strong>Where the reader may misread the ambiguity</strong> — if <em>he'd</em> could be <em>had</em> or <em>would</em> and the sentence does not settle it, write the full form.</li></ol>
+<h2 id="7-isnt-or-s-not">7. <em>isn't</em> or <em>'s not</em>?<a class="hash" href="#7-isnt-or-s-not" aria-label="link">#</a></h2>
+<p>Where the verb is <em>be</em> or <em>have</em>, English gives you two contractions and lets you choose which word to shorten:</p>
+<blockquote><p><em>He <strong>isn't</strong> coming.</em> / <em>He<strong>'s not</strong> coming.</em> <em>They <strong>haven't</strong> finished.</em> / <em>They<strong>'ve not</strong> finished.</em></p></blockquote>
+<p>Both are standard. The <em>-n't</em> form is the American default; the <em>'s not</em> form throws slightly more weight onto the negative. After <em>I</em>, only one is available: <em>I'm not</em>, never ✗ <em>I amn't</em>.</p>
+<h2 id="8-questions">8. Questions<a class="hash" href="#8-questions" aria-label="link">#</a></h2>
+<p>The negative contraction inverts as a single word, which is what makes it useful:</p>
+<blockquote><p><em><strong>Isn't</strong> he coming?</em> &middot; <em><strong>Don't</strong> you want it?</em> &middot; <em><strong>Won't</strong> you sit down?</em></p></blockquote>
+<p>The uncontracted version separates the two parts and sounds formal or indignant: <em>Is he <strong>not</strong> coming?</em> Tag questions run on the same machinery: <em>You're coming, <strong>aren't you</strong>?</em>, <em>He didn't call, <strong>did he</strong>?</em></p>
+<h2 id="9-spoken-reductions">9. Spoken reductions<a class="hash" href="#9-spoken-reductions" aria-label="link">#</a></h2>
+<p>Beyond the apostrophe forms, ordinary American speech reduces common word pairs further. These have spellings, but the spellings belong to dialogue, song lyrics and text messages — not to essays.</p>
+<div class="tw"><table><thead><tr><th style="text-align:left">Spoken</th><th style="text-align:left">From</th><th style="text-align:left">Note</th></tr></thead><tbody><tr><td style="text-align:left"><em>gonna</em></td><td style="text-align:left">going to</td><td style="text-align:left"><strong>future only</strong>: <em>I'm gonna leave</em> ✓, ✗ <em>I'm gonna the store</em></td></tr><tr><td style="text-align:left"><em>wanna</em></td><td style="text-align:left">want to</td><td style="text-align:left">never before a noun: ✗ <em>I wanna a coffee</em></td></tr><tr><td style="text-align:left"><em>gotta</em></td><td style="text-align:left">(have) got to</td><td style="text-align:left">obligation: <em>I gotta go</em></td></tr><tr><td style="text-align:left"><em>hafta, outta, lotta, kinda, sorta</em></td><td style="text-align:left">have to, out of, lot of, kind of, sort of</td><td style="text-align:left"></td></tr><tr><td style="text-align:left"><em>coulda, woulda, shoulda</em></td><td style="text-align:left">could have, would have, should have</td><td style="text-align:left"></td></tr><tr><td style="text-align:left"><em>y'all</em></td><td style="text-align:left">you all</td><td style="text-align:left">the plural <em>you</em> standard English lacks; Southern, now widespread</td></tr><tr><td style="text-align:left"><em>'em, ya, 'cause</em></td><td style="text-align:left">them, you, because</td><td style="text-align:left"></td></tr></tbody></table></div>
+<p>Learning to <em>hear</em> these matters more than learning to write them: a learner who expects <em>going to</em> will not catch /ɡənə/ in real speech.</p>
+<h2 id="10-what-russian-speakers-get-wrong-most">10. What Russian speakers get wrong most<a class="hash" href="#10-what-russian-speakers-get-wrong-most" aria-label="link">#</a></h2>
+<ol><li><strong>✗ <em>could of</em>.</strong> <em>Could've</em> sounds exactly like <em>could of</em>, but <em>of</em> is never a verb. Also ✗ <em>would of</em>, ✗ <em>should of</em>, ✗ <em>must of</em>.</li><li><strong>✗ <em>It's color is red</em>.</strong> <em>It's</em> = <em>it is</em>. The possessive is <em>its</em>, with no apostrophe.</li><li><strong>Missing the future.</strong> <em>'ll</em> is nearly inaudible, so <em>I'll call you</em> is heard as <em>I call you</em>. Russian has no auxiliary here, which makes the gap easy to miss.</li><li><strong>Over-contracting at the end.</strong> ✗ <em>Yes, I'm.</em> → <em>Yes, I am.</em></li><li><strong>Under-contracting everywhere else.</strong> Full forms in casual speech sound cold. <em>I am not sure that is a good idea</em> reads as displeasure; <em>I'm not sure that's a good idea</em> is the neutral sentence.</li><li><strong>✗ <em>He no is coming</em></strong> or ✗ <em>He not coming</em> — the negative needs an auxiliary to attach to: <em>He isn't coming</em>.</li></ol>
+<h2 id="see-also">See also<a class="hash" href="#see-also" aria-label="link">#</a></h2>
+<ul><li><strong><a href="catalog/README.html">The Contraction Dictionary</a></strong> — every form, with pronunciation, expansion and register</li><li><a href="../../parts-of-speech/03-verbs/README.html">Verbs</a> — auxiliaries and modals, which is what contractions attach to</li><li><a href="../../parts-of-speech/02-pronouns/README.html">Pronouns</a> — <em>y'all</em>, <em>'em</em> and <em>ya</em> as pronouns</li><li><a href="../01-reported-speech/README.html">Reported speech</a> — the other grammar topic</li></ul></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

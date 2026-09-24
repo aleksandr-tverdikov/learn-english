@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Negative contractions</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Grammar</a><span class="sep">/</span><a href="../README.html">02-contractions</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="negative-contractions">Negative contractions<a class="hash" href="#negative-contractions" aria-label="link">#</a></h1>
+<blockquote><p><em>don't</em>, <em>isn't</em>, <em>won't</em>, <em>can't</em> — <em>not</em> joined to the verb, and the forms English does not have.</p></blockquote>
+<p><a href="../README.html">← Contractions</a> &middot; <a href="README.html">All groups</a></p>
+<p>These join <em>not</em> to an auxiliary or modal. Three are irregular in sound or spelling: <strong><em>won't</em></strong> (not <em>willn't</em>), <strong><em>can't</em></strong>, and <strong><em>shan't</em></strong>, which has all but vanished from American English. The question form is where learners slip: the contraction inverts as one word — <em>Isn't he coming?</em> — and the first-person question is <strong><em>aren't I?</em></strong>, since English has no <em>amn't</em>.</p>
+<hr>
+<h3 id="isnt">isn't<a class="hash" href="#isnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪzənt/ &middot; <em>IZ-uhnt</em></dd><dt>Русский</dt><dd>не является, не (сокращение от is not)</dd><dt>Expands to</dt><dd><em>is not</em></dd><dt>Type</dt><dd>negative — <em>is</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Question form</dt><dd><em>Isn't he coming?</em> — the contraction inverts as one word, in front of the subject. ✗ <em>Is not he coming?</em> is not English, and <em>Is he not coming?</em> is formal and emphatic.</dd><dt>Contrast</dt><dd>Two syllables: the <em>-n't</em> is a syllabic /ənt/, IZ-uhnt. And <em>He isn't ready</em> and <em>He's not ready</em> say the same thing — the second puts the weight on <em>not</em>. Both are standard.</dd></dl>
+<p>The contraction of <em>is not</em>.</p>
+<ol><li>This <em>isn't</em> the right address.</li><li><em>Isn't</em> it strange that nobody called?</li><li>It's cold in here, <em>isn't</em> it?</li></ol>
+<hr>
+<h3 id="arent">aren't<a class="hash" href="#arent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːrnt/ &middot; <em>ARNT</em></dd><dt>Русский</dt><dd>не являются, не (сокращение от are not; в вопросе aren't I? — от am not)</dd><dt>Expands to</dt><dd><em>are not</em> — and, in the question <em>aren't I?</em>, <em>am not</em></dd><dt>Type</dt><dd>negative — <em>are</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Ambiguity</dt><dd>Nearly always <em>are not</em>. Only in the first-person question does it stand for <em>am not</em>: <em>I'm late, aren't I?</em> The statement stays <em>I'm not late</em> — never ✗ <em>I aren't late</em>.</dd><dt>Question form</dt><dd>The first-person tag is <em>aren't I?</em>, because English has no <em>amn't</em>. <em>Am I not?</em> exists but is formal.</dd><dt>Contrast</dt><dd>One syllable, ARNT — the <em>-n't</em> adds no extra syllable here, unlike the two-syllable <em>isn't</em> and <em>wasn't</em>. Keep it apart from the nonstandard <em>ain't</em> /eɪnt/, which is a different word entirely.</dd></dl>
+<p>aren't stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>are not</em>.</strong> (не являются, не)</p>
+<ol><li>These <em>aren't</em> my keys.</li><li><em>Aren't</em> you cold in that jacket?</li><li>We <em>aren't</em> going to make it on time.</li></ol>
+<p><strong>2. In the first-person question, the contraction of <em>am not</em>.</strong> (разве я не)</p>
+<ol start="4"><li>I'm on the list too, <em>aren't</em> I?</li><li><em>Aren't</em> I supposed to sign this part?</li></ol>
+<hr>
+<h3 id="wasnt">wasn't<a class="hash" href="#wasnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʌzənt/ &middot; <em>WUZ-uhnt</em></dd><dt>Русский</dt><dd>не был, не была, не было (сокращение от was not)</dd><dt>Expands to</dt><dd><em>was not</em></dd><dt>Type</dt><dd>negative — <em>was</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Contrast</dt><dd><em>wasn't</em> goes with <em>I</em>, <em>he</em>, <em>she</em> and <em>it</em>; after <em>you</em>, <em>we</em> and <em>they</em> it is <em>weren't</em>.</dd></dl>
+<p>The contraction of <em>was not</em>.</p>
+<ol><li>It <em>wasn't</em> my fault.</li><li>She <em>wasn't</em> home when I called.</li><li>That <em>wasn't</em> what I meant to say.</li></ol>
+<hr>
+<h3 id="werent">weren't<a class="hash" href="#werent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɜːrnt/ &middot; <em>WURNT</em></dd><dt>Русский</dt><dd>не были (сокращение от were not)</dd><dt>Expands to</dt><dd><em>were not</em></dd><dt>Type</dt><dd>negative — <em>were</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Contrast</dt><dd>One syllable, WURNT — unlike most of these, there is no <em>-uhnt</em>. In the unreal conditional the verb is <em>were</em> for every subject, so the negative is <em>weren't</em>: <em>If I weren't so tired, I'd come.</em> <em>If I wasn't</em> is common in speech and avoided in writing.</dd></dl>
+<p>The contraction of <em>were not</em>.</p>
+<ol><li>They <em>weren't</em> expecting us.</li><li><em>Weren't</em> you supposed to call me?</li><li>If it <em>weren't</em> so late, I'd stay for another coffee.</li></ol>
+<hr>
+<h3 id="dont">don't<a class="hash" href="#dont" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/doʊnt/ &middot; <em>DOHNT</em></dd><dt>Русский</dt><dd>не делаю, не делают; не надо (сокращение от do not)</dd><dt>Expands to</dt><dd><em>do not</em></dd><dt>Type</dt><dd>negative — <em>do</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Question form</dt><dd><em>Don't you like it?</em> — one word in front of the subject. ✗ <em>Do not you like it?</em> is not English; <em>Do you not like it?</em> is formal.</dd><dt>Contrast</dt><dd>One syllable, /doʊnt/, rhyming with <em>won't</em>. Use it with <em>I</em>, <em>you</em>, <em>we</em> and <em>they</em>; with <em>he</em>, <em>she</em> and <em>it</em> the form is <em>doesn't</em>. <em>He don't care</em> is everywhere in speech and song and still counts as an error in writing.</dd></dl>
+<p>The contraction of <em>do not</em> — the ordinary negative of the present tense and of the imperative.</p>
+<ol><li>I <em>don't</em> know what happened.</li><li><em>Don't</em> touch that — it's hot.</li><li>We <em>don't</em> have to leave yet.</li></ol>
+<hr>
+<h3 id="doesnt">doesn't<a class="hash" href="#doesnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌzənt/ &middot; <em>DUZ-uhnt</em></dd><dt>Русский</dt><dd>не делает (сокращение от does not, 3-е лицо ед. ч.)</dd><dt>Expands to</dt><dd><em>does not</em></dd><dt>Type</dt><dd>negative — <em>does</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Question form</dt><dd><em>Doesn't she know?</em> — the contraction inverts as one word, and the main verb stays bare: ✗ <em>Doesn't she knows?</em></dd><dt>Contrast</dt><dd>Spelled from <em>does</em>, but said with the vowel of <em>was</em>: DUZ-uhnt, never 'DOZE-uhnt'. The verb after it loses its <em>-s</em>: <em>She doesn't work here</em>, not ✗ <em>She doesn't works here</em>.</dd></dl>
+<p>The contraction of <em>does not</em>.</p>
+<ol><li>He <em>doesn't</em> speak Spanish.</li><li>It <em>doesn't</em> matter now.</li><li><em>Doesn't</em> the store close at nine?</li></ol>
+<hr>
+<h3 id="didnt">didn't<a class="hash" href="#didnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪdənt/ &middot; <em>DID-uhnt</em></dd><dt>Русский</dt><dd>не делал, не сделал (сокращение от did not)</dd><dt>Expands to</dt><dd><em>did not</em></dd><dt>Type</dt><dd>negative — <em>did</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Contrast</dt><dd>The past is already marked in <em>didn't</em>, so the verb that follows stays in its bare form: <em>I didn't go</em>, never ✗ <em>I didn't went</em>.</dd></dl>
+<p>The contraction of <em>did not</em> — the negative of the simple past.</p>
+<ol><li>I <em>didn't</em> see your message.</li><li>We <em>didn't</em> mean to wake you.</li><li><em>Didn't</em> you get my email?</li></ol>
+<hr>
+<h3 id="havent">haven't<a class="hash" href="#havent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhævənt/ &middot; <em>HAV-uhnt</em></dd><dt>Русский</dt><dd>не имею, не имеют; ещё не (сокращение от have not)</dd><dt>Expands to</dt><dd><em>have not</em></dd><dt>Type</dt><dd>negative — <em>have</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Contrast</dt><dd>As an auxiliary it makes the negative perfect: <em>I haven't finished</em>. For possession, American English says <em>I don't have a car</em>; <em>I haven't got a car</em> is understood but sounds British.</dd></dl>
+<p>The contraction of <em>have not</em>.</p>
+<ol><li>I <em>haven't</em> finished the report yet.</li><li>We <em>haven't</em> seen each other since college.</li><li><em>Haven't</em> you heard the news?</li></ol>
+<hr>
+<h3 id="hasnt">hasn't<a class="hash" href="#hasnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæzənt/ &middot; <em>HAZ-uhnt</em></dd><dt>Русский</dt><dd>не имеет; ещё не (сокращение от has not)</dd><dt>Expands to</dt><dd><em>has not</em></dd><dt>Type</dt><dd>negative — <em>has</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Contrast</dt><dd><em>He's gone</em> has two negatives: <em>He hasn't gone</em> and <em>He's not gone</em>. Both are standard, and the second stresses the <em>not</em>.</dd></dl>
+<p>The contraction of <em>has not</em>.</p>
+<ol><li>She <em>hasn't</em> called me back.</li><li>The package <em>hasn't</em> arrived yet.</li><li><em>Hasn't</em> he told you already?</li></ol>
+<hr>
+<h3 id="hadnt">hadn't<a class="hash" href="#hadnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhædənt/ &middot; <em>HAD-uhnt</em></dd><dt>Русский</dt><dd>не имел; ещё не (сокращение от had not)</dd><dt>Expands to</dt><dd><em>had not</em></dd><dt>Type</dt><dd>negative — <em>had</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Contrast</dt><dd>The negative of <em>had better</em> is <em>had better not</em>, never ✗ <em>hadn't better</em>: <em>You'd better not be late.</em></dd></dl>
+<p>The contraction of <em>had not</em> — the negative of the past perfect.</p>
+<ol><li>I <em>hadn't</em> met her before that evening.</li><li>If we <em>hadn't</em> left early, we'd have missed the flight.</li><li>He said he <em>hadn't</em> heard anything about it.</li></ol>
+<hr>
+<h3 id="wont">won't<a class="hash" href="#wont" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/woʊnt/ &middot; <em>WOHNT</em></dd><dt>Русский</dt><dd>не буду, не будет; не хочет (сокращение от will not)</dd><dt>Expands to</dt><dd><em>will not</em></dd><dt>Type</dt><dd>negative — <em>will</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Question form</dt><dd><em>Won't you sit down?</em> — the contracted question is the natural one; <em>Will you not sit down?</em> is stiff and marked.</dd><dt>Contrast</dt><dd>The sound has nothing of <em>will</em> in it: /woʊnt/, one syllable, rhyming with <em>don't</em>, not 'will-not' run together. Keep it apart from <em>want</em> /wɑːnt/ — <em>He won't eat</em> and <em>He wants to eat</em> are opposites.</dd></dl>
+<p>The contraction of <em>will not</em>.</p>
+<ol><li>I <em>won't</em> be at the meeting on Thursday.</li><li>The car <em>won't</em> start in this cold.</li><li>She <em>won't</em> answer her phone.</li></ol>
+<hr>
+<h3 id="wouldnt">wouldn't<a class="hash" href="#wouldnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊdənt/ &middot; <em>WOOD-uhnt</em></dd><dt>Русский</dt><dd>не стал бы, не хотел (сокращение от would not)</dd><dt>Expands to</dt><dd><em>would not</em></dd><dt>Type</dt><dd>negative — <em>would</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Contrast</dt><dd>The <em>l</em> is silent and the <em>-n't</em> is a syllabic /ənt/: WOOD-uhnt, two syllables. In fast speech the final <em>t</em> is barely there, so it can sound like <em>wooden</em> with something after it.</dd></dl>
+<p>The contraction of <em>would not</em>.</p>
+<ol><li>I <em>wouldn't</em> do that if I were you.</li><li>The door <em>wouldn't</em> open.</li><li>She said she <em>wouldn't</em> be late.</li></ol>
+<hr>
+<h3 id="cant">can't<a class="hash" href="#cant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kænt/ &middot; <em>KANT</em></dd><dt>Русский</dt><dd>не могу, не может; нельзя (сокращение от cannot)</dd><dt>Expands to</dt><dd><em>cannot</em> — that is, <em>can</em> plus <em>not</em></dd><dt>Type</dt><dd>negative — <em>can</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Question form</dt><dd><em>Can't you hear me?</em> — one word in front of the subject. ✗ <em>Cannot you hear me?</em> is not English; the formal version is <em>Can you not hear me?</em></dd><dt>Contrast</dt><dd>American /kænt/ rhymes with <em>ant</em>; the British /kɑːnt/ is the other vowel. In American speech the real difference between <em>can</em> and <em>can't</em> is not the final <em>t</em>, which often becomes a catch in the throat, but the vowel: <em>I can go</em> reduces <em>can</em> to /kən/, while <em>can't</em> keeps its full vowel and takes the stress.</dd></dl>
+<p>The contraction of <em>cannot</em>.</p>
+<ol><li>I <em>can't</em> hear you — there's too much noise.</li><li>We <em>can't</em> afford that right now.</li><li><em>Can't</em> you come a little earlier?</li></ol>
+<hr>
+<h3 id="cannot">cannot<a class="hash" href="#cannot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkænɑːt/ &middot; <em>KAN-aht</em></dd><dt>Русский</dt><dd>не могу, не может; нельзя (can + not, пишется слитно)</dd><dt>Expands to</dt><dd><em>can not</em>, written solid as one word</dd><dt>Type</dt><dd>negative — one word, and not a contraction: it is simply how <em>can</em> plus <em>not</em> is written</dd><dt>Register</dt><dd>standard — the full written form; <em>can't</em> is the everyday spoken one</dd><dt>Question form</dt><dd>There is no question form. The question is <em>Can't you…?</em>, or the formal <em>Can you not…?</em>; ✗ <em>Cannot you…?</em> is not English.</dd><dt>Contrast</dt><dd>Write it solid. Two words, <em>can not</em>, is correct only when the <em>not</em> belongs to what follows: <em>You can not only sing but also dance.</em> Everywhere else ✗ <em>I can not swim</em> is an error for <em>I cannot swim</em>. Of the modals, only <em>can</em> does this — <em>will not</em> and <em>should not</em> stay two words.</dd></dl>
+<p>The negative of <em>can</em>, written as one word.</p>
+<ol><li>I <em>cannot</em> accept these terms.</li><li>The committee <em>cannot</em> meet before Friday.</li><li>Applicants who <em>cannot</em> attend in person may send a representative.</li></ol>
+<hr>
+<h3 id="couldnt">couldn't<a class="hash" href="#couldnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊdənt/ &middot; <em>KOOD-uhnt</em></dd><dt>Русский</dt><dd>не мог, не смог; не мог бы (сокращение от could not)</dd><dt>Expands to</dt><dd><em>could not</em></dd><dt>Type</dt><dd>negative — <em>could</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Contrast</dt><dd>The <em>l</em> is silent: KOOD-uhnt. The idiom is <em>I couldn't care less</em>; Americans say <em>I could care less</em> constantly and mean the same thing, but it is illogical and gets corrected in writing.</dd></dl>
+<p>The contraction of <em>could not</em>.</p>
+<ol><li>I <em>couldn't</em> find your house.</li><li>We <em>couldn't</em> believe our eyes.</li><li><em>Couldn't</em> you have told me earlier?</li></ol>
+<hr>
+<h3 id="shouldnt">shouldn't<a class="hash" href="#shouldnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʊdənt/ &middot; <em>SHOOD-uhnt</em></dd><dt>Русский</dt><dd>не следует, не должен (сокращение от should not)</dd><dt>Expands to</dt><dd><em>should not</em></dd><dt>Type</dt><dd>negative — <em>should</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — normal in speech and in all but the most formal writing</dd><dt>Contrast</dt><dd><em>shouldn't</em> plus a past participle is a reproach or a regret about something already done: <em>You shouldn't have told him.</em> It is also the everyday American replacement for <em>oughtn't</em> and, in prohibitions, for <em>mustn't</em>.</dd></dl>
+<p>The contraction of <em>should not</em>.</p>
+<ol><li>You <em>shouldn't</em> work so late.</li><li>I <em>shouldn't</em> have said that.</li><li><em>Shouldn't</em> we ask first?</li></ol>
+<hr>
+<h3 id="mustnt">mustn't<a class="hash" href="#mustnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌsənt/ &middot; <em>MUS-uhnt</em></dd><dt>Русский</dt><dd>нельзя, не должен (сокращение от must not; запрет)</dd><dt>Expands to</dt><dd><em>must not</em></dd><dt>Type</dt><dd>negative — <em>must</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — correct, but uncommon in American English, which says <em>can't</em>, <em>don't</em> or <em>not allowed to</em></dd><dt>Question form</dt><dd>Americans do not ask <em>Mustn't we?</em> The question is <em>Don't we have to?</em> or <em>Can't we?</em></dd><dt>Contrast</dt><dd>The first <em>t</em> is silent: MUS-uhnt. And <em>mustn't</em> and <em>don't have to</em> are opposites — <em>You mustn't tell her</em> forbids it, <em>You don't have to tell her</em> leaves it up to you. American English usually reaches for <em>can't</em> instead: <em>You can't tell her.</em></dd></dl>
+<p>The contraction of <em>must not</em> — a prohibition, not a lack of obligation.</p>
+<ol><li>You <em>mustn't</em> say anything to your sister.</li><li>We <em>mustn't</em> lose this chance.</li><li>Visitors <em>mustn't</em> feed the animals.</li></ol>
+<hr>
+<h3 id="shant">shan't<a class="hash" href="#shant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃænt/ &middot; <em>SHANT</em></dd><dt>Русский</dt><dd>не буду (сокращение от shall not; британское и устаревшее)</dd><dt>Expands to</dt><dd><em>shall not</em></dd><dt>Type</dt><dd>negative — <em>shall</em> plus <em>not</em></dd><dt>Register</dt><dd>dated — British and old-fashioned; in American English use <em>won't</em></dd><dt>Question form</dt><dd>There is no American question form. <em>Shan't we?</em> is British; the American tag is <em>Won't we?</em>, and the offer is <em>Shall we?</em> with no negative at all.</dd><dt>Contrast</dt><dd>In American English <em>shall</em> itself has almost disappeared outside <em>Shall we?</em> and legal writing, so <em>shan't</em> reads as a quotation, a period piece or a joke. Say <em>won't</em>. British /ʃɑːnt/, American /ʃænt/ on the rare occasions it is said.</dd></dl>
+<p>The contraction of <em>shall not</em> — rare in American English.</p>
+<ol><li>'I <em>shan't</em> be a moment,' she called from the hallway.</li><li>We <em>shan't</em> be seeing them again this summer.</li><li>He <em>shan't</em> have the satisfaction of hearing me complain.</li></ol>
+<hr>
+<h3 id="neednt">needn't<a class="hash" href="#neednt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈniːdənt/ &middot; <em>NEED-uhnt</em></dd><dt>Русский</dt><dd>не нужно, не обязательно (сокращение от need not)</dd><dt>Expands to</dt><dd><em>need not</em></dd><dt>Type</dt><dd>negative — semi-modal <em>need</em> plus <em>not</em></dd><dt>Register</dt><dd>standard — correct but formal and uncommon in American English, which says <em>don't need to</em> or <em>don't have to</em></dd><dt>Question form</dt><dd>Americans do not ask <em>Needn't we?</em> The question is <em>Don't we need to?</em></dd><dt>Contrast</dt><dd>Semi-modal, so the verb after it is a bare infinitive: <em>You needn't wait</em>, never ✗ <em>You needn't to wait</em>. Used as an ordinary verb, <em>need</em> takes <em>to</em> and the <em>do</em> forms instead: <em>You don't need to wait.</em></dd></dl>
+<p>The contraction of <em>need not</em> — it is not necessary.</p>
+<ol><li>You <em>needn't</em> wait for me.</li><li>We <em>needn't</em> have hurried — the train was late.</li><li>She <em>needn't</em> know about any of this.</li></ol>
+<hr>
+<h3 id="oughtnt">oughtn't<a class="hash" href="#oughtnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːtənt/ &middot; <em>AWT-uhnt</em></dd><dt>Русский</dt><dd>не следует (сокращение от ought not)</dd><dt>Expands to</dt><dd><em>ought not</em></dd><dt>Type</dt><dd>negative — <em>ought</em> plus <em>not</em></dd><dt>Register</dt><dd>dated — rare in American English, which says <em>shouldn't</em></dd><dt>Question form</dt><dd><em>Oughtn't we?</em> sounds British and bookish; the American tag is <em>Shouldn't we?</em></dd><dt>Contrast</dt><dd><em>ought</em> keeps <em>to</em> before the verb: <em>You oughtn't to say that</em>, not ✗ <em>You oughtn't say that</em> — though the <em>to</em> is often dropped in speech, which is one more reason Americans simply say <em>You shouldn't say that</em>.</dd></dl>
+<p>The contraction of <em>ought not</em> — rare in American English.</p>
+<ol><li>You <em>oughtn't</em> to speak to her like that.</li><li>We <em>oughtn't</em> to have left him alone.</li><li><em>Oughtn't</em> somebody to tell him?</li></ol>
+<hr>
+<h3 id="darent">daren't<a class="hash" href="#darent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɛrnt/ &middot; <em>DAIRNT</em></dd><dt>Русский</dt><dd>не смею, не осмеливается (сокращение от dare not)</dd><dt>Expands to</dt><dd><em>dare not</em></dd><dt>Type</dt><dd>negative — semi-modal <em>dare</em> plus <em>not</em></dd><dt>Register</dt><dd>dated — chiefly British and literary; American English says <em>doesn't dare</em></dd><dt>Question form</dt><dd><em>Daren't we?</em> does not occur in American English; the question is <em>Do we dare?</em></dd><dt>Contrast</dt><dd>Semi-modal, so a bare infinitive follows and there is no <em>-s</em> in the third person: <em>She daren't ask</em>, never ✗ <em>She daren't to ask</em> or ✗ <em>She daren'ts ask</em>. The ordinary American sentence is <em>She doesn't dare ask</em> or <em>She doesn't dare to ask</em>.</dd></dl>
+<p>The contraction of <em>dare not</em> — to lack the nerve to do something.</p>
+<ol><li>I <em>daren't</em> tell him what it cost.</li><li>She <em>daren't</em> look down.</li><li>We <em>daren't</em> move until the noise stopped.</li></ol>
+<hr>
+<h3 id="mightnt">mightn't<a class="hash" href="#mightnt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪtənt/ &middot; <em>MITE-uhnt</em></dd><dt>Русский</dt><dd>может не, вряд ли (сокращение от might not)</dd><dt>Expands to</dt><dd><em>might not</em></dd><dt>Type</dt><dd>negative — modal <em>might</em> plus <em>not</em></dd><dt>Register</dt><dd>dated — chiefly British; American English writes the two words <em>might not</em></dd><dt>Question form</dt><dd><em>Mightn't it be simpler to ask?</em> is British. An American asks <em>Wouldn't it be simpler to ask?</em> — and there is no ✗ <em>mayn't</em> in any variety.</dd><dt>Contrast</dt><dd>American English leaves <em>might not</em> uncontracted: <em>He might not come.</em> Note the meaning too — <em>mightn't</em> is uncertainty, not prohibition; <em>mustn't</em> is the prohibition.</dd></dl>
+<p>The contraction of <em>might not</em> — rare in American English.</p>
+<ol><li><em>Mightn't</em> it be better to wait?</li><li>She <em>mightn't</em> have heard you.</li><li>I thought you <em>mightn't</em> come.</li></ol>
+<hr>
+<h3 id="aint">ain't<a class="hash" href="#aint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eɪnt/ &middot; <em>AYNT</em></dd><dt>Русский</dt><dd>не есть, не является; не имеет (просторечное сокращение от am/is/are/has/have not)</dd><dt>Expands to</dt><dd><em>am not</em>, <em>is not</em>, <em>are not</em>, <em>has not</em> or <em>have not</em></dd><dt>Type</dt><dd>negative — <em>be</em> or <em>have</em> plus <em>not</em></dd><dt>Register</dt><dd>nonstandard — everywhere in speech, song and dialogue, and marked as an error in school and in any formal writing</dd><dt>Ambiguity</dt><dd>One form for five. With a subject alone it is <em>be</em>: <em>I ain't</em> is <em>am not</em>, <em>he ain't</em> is <em>is not</em>, <em>they ain't</em> is <em>are not</em>. Before a past participle it is <em>have</em>: <em>He ain't finished</em> is <em>hasn't finished</em>. Only the rest of the sentence tells you which.</dd><dt>Question form</dt><dd><em>Ain't I?</em> and <em>Ain't he?</em> both occur in speech; the standard equivalents are <em>Aren't I?</em> and <em>Isn't he?</em></dd><dt>Contrast</dt><dd>Recognize it; do not write it. In an essay, an email to a stranger or an exam it will be counted wrong, while in song lyrics, dialogue and everyday talk it is completely ordinary. It also travels with a second negative — <em>I ain't got no money</em> — where standard English has <em>I don't have any money</em>. The library also lists the fixed expressions <em>ain't no</em>, <em>ain't nobody</em> and <em>ain't that the truth</em>.</dd></dl>
+<p>ain't stands for 2 different things.</p>
+<p><strong>1. The contraction of <em>am not</em>, <em>is not</em> or <em>are not</em>.</strong> (не есть, не является)</p>
+<ol><li>I <em>ain't</em> going anywhere.</li><li>That <em>ain't</em> what I heard.</li><li>They <em>ain't</em> from around here.</li></ol>
+<p><strong>2. The contraction of <em>has not</em> or <em>have not</em>, before a past participle.</strong> (не имеет, ещё не)</p>
+<ol start="4"><li>You <em>ain't</em> seen nothing yet.</li><li>He <em>ain't</em> finished yet.</li><li>I <em>ain't</em> had a day off in weeks.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

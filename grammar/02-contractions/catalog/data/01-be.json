@@ -1,0 +1,528 @@
+{
+  "category": "Contractions of be",
+  "slug": "01-be",
+  "entries": [
+    {
+      "term": "I'm",
+      "ipa": "/aɪm/",
+      "respell": "YM",
+      "meaning": "The contraction of I am. ---",
+      "examples": [
+        "I'm from Chicago, but I live in Austin now.",
+        "I'm not sure that's the right address.",
+        "Sorry, I'm going to be about ten minutes late."
+      ],
+      "senses": [],
+      "русский": "я (сокращение от I am)",
+      "expands to": "I am",
+      "type": "be — the pronoun I + am",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "contrast": "A contraction can never end a clause. Are you ready? — Yes, I am, never ✗ Yes, I'm. The same rule blocks ✗ I don't know where he's and ✗ Tell me what it's: with nothing after it, the verb has to be written out in full."
+    },
+    {
+      "term": "you're",
+      "ipa": "/jʊr/",
+      "respell": "YOOR",
+      "meaning": "The contraction of you are. ---",
+      "examples": [
+        "You're the only one who noticed.",
+        "You're going to need a bigger box.",
+        "I think you're right about that."
+      ],
+      "senses": [],
+      "русский": "ты, вы (сокращение от you are)",
+      "expands to": "you are",
+      "type": "be — the pronoun you + are",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "contrast": "you're vs your. If you can expand it to two words, it takes an apostrophe: You're late works as You are late, so it is you're; your flight cannot become you are flight, so it is your (твой, ваш). One sentence holds both: You're going to miss your flight. And yours never takes an apostrophe at all."
+    },
+    {
+      "term": "he's",
+      "ipa": "/hiːz/",
+      "respell": "HEEZ",
+      "meaning": "he's stands for 2 different things.",
+      "examples": [
+        "He's tired — he worked a double shift.",
+        "He's a pediatrician at the children's hospital.",
+        "He's waiting for you downstairs.",
+        "He's already left for the airport.",
+        "He's been sick all week.",
+        "He's got a new car."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The contraction of he is",
+          "body": [
+            "(он (есть))"
+          ],
+          "examples": [
+            "He's tired — he worked a double shift.",
+            "He's a pediatrician at the children's hospital.",
+            "He's waiting for you downstairs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The contraction of he has, before a past participle",
+          "body": [
+            "(он уже (+ причастие))",
+            "---"
+          ],
+          "examples": [
+            "He's already left for the airport.",
+            "He's been sick all week.",
+            "He's got a new car."
+          ]
+        }
+      ],
+      "русский": "он есть, он уже (сокращение от he is или he has)",
+      "expands to": "he is or he has",
+      "type": "be — the pronoun he + is (or + the auxiliary has)",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "ambiguity": "The 's is is or has, and the word after it decides. Before a noun, an adjective or an -ing form it is is: He's tired, He's working. Before a past participle it is has: He's gone, He's finished. Plain has meaning possession does not contract — He has a car, never ✗ He's a car, which would be read as he is a car. Possession does contract in has got: He's got a car."
+    },
+    {
+      "term": "she's",
+      "ipa": "/ʃiːz/",
+      "respell": "SHEEZ",
+      "meaning": "she's stands for 2 different things.",
+      "examples": [
+        "She's my sister's roommate.",
+        "She's really good at math.",
+        "She's running late again.",
+        "She's gone back to school.",
+        "She's just finished her shift.",
+        "She's had a rough year."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The contraction of she is",
+          "body": [
+            "(она (есть))"
+          ],
+          "examples": [
+            "She's my sister's roommate.",
+            "She's really good at math.",
+            "She's running late again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The contraction of she has, before a past participle",
+          "body": [
+            "(она уже (+ причастие))",
+            "---"
+          ],
+          "examples": [
+            "She's gone back to school.",
+            "She's just finished her shift.",
+            "She's had a rough year."
+          ]
+        }
+      ],
+      "русский": "она есть, она уже (сокращение от she is или she has)",
+      "expands to": "she is or she has",
+      "type": "be — the pronoun she + is (or + the auxiliary has)",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "ambiguity": "The 's is is or has. She's ready and She's leaving are is; She's left and She's been here are has. The test is the word after it: a past participle means has, anything else means is."
+    },
+    {
+      "term": "it's",
+      "ipa": "/ɪts/",
+      "respell": "ITS",
+      "meaning": "it's stands for 2 different things.",
+      "examples": [
+        "It's colder than the forecast said.",
+        "It's a twenty-minute walk from here.",
+        "It's raining again.",
+        "It's been three years since we moved.",
+        "It's stopped raining, so we can walk.",
+        "It's gotten a lot worse since Monday."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The contraction of it is",
+          "body": [
+            "(это, оно (есть))"
+          ],
+          "examples": [
+            "It's colder than the forecast said.",
+            "It's a twenty-minute walk from here.",
+            "It's raining again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The contraction of it has, before a past participle",
+          "body": [
+            "(оно уже (+ причастие))",
+            "---"
+          ],
+          "examples": [
+            "It's been three years since we moved.",
+            "It's stopped raining, so we can walk.",
+            "It's gotten a lot worse since Monday."
+          ]
+        }
+      ],
+      "русский": "это есть, оно уже (сокращение от it is или it has)",
+      "expands to": "it is or it has",
+      "type": "be — the pronoun it + is (or + the auxiliary has)",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "ambiguity": "The 's is is or has: It's cold is is, It's been cold is has. It is never a possessive.",
+      "contrast": "it's vs its — the most-corrected pair in English. If you can expand it to two words, it takes an apostrophe: It's cold works as It is cold, so it's; the dog wagged its tail cannot become it is tail, so its (его, её). Possessives made from pronouns never take an apostrophe — its, his, hers, ours, yours, theirs. And there is no word its'."
+    },
+    {
+      "term": "we're",
+      "ipa": "/wɪr/",
+      "respell": "WEER",
+      "meaning": "The contraction of we are. ---",
+      "examples": [
+        "We're almost out of coffee.",
+        "We're leaving at six sharp.",
+        "We're the ones who called you."
+      ],
+      "senses": [],
+      "русский": "мы (сокращение от we are)",
+      "expands to": "we are",
+      "type": "be — the pronoun we + are",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "contrast": "we're vs were. We're is we are, the present; were with no apostrophe is the past of be: We were ready then, and we're ready now. Many Americans reduce we're until it sounds just like were, so in writing the apostrophe is what carries the tense."
+    },
+    {
+      "term": "they're",
+      "ipa": "/ðɛr/",
+      "respell": "THAIR",
+      "meaning": "The contraction of they are. ---",
+      "examples": [
+        "They're the ones who organized the whole thing.",
+        "They're not answering their phones.",
+        "They're over there with their kids."
+      ],
+      "senses": [],
+      "русский": "они (сокращение от they are)",
+      "expands to": "they are",
+      "type": "be — the pronoun they + are",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "contrast": "they're vs their vs there — all three sound the same in American English. If you can expand it to two words, it takes an apostrophe: They're late works as They are late. Their is the possessive (их): their house. There is the place word and the empty subject of there is: over there, There are two left. One sentence with all three: They're over there with their kids."
+    },
+    {
+      "term": "that's",
+      "ipa": "/ðæts/",
+      "respell": "THATS",
+      "meaning": "that's stands for 2 different things.",
+      "examples": [
+        "That's the last train until morning.",
+        "That's not what I meant.",
+        "That's why I called you.",
+        "That's been true for years.",
+        "That's always struck me as odd.",
+        "That's turned out to be the hard part."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The contraction of that is",
+          "body": [
+            "(это (есть))"
+          ],
+          "examples": [
+            "That's the last train until morning.",
+            "That's not what I meant.",
+            "That's why I called you."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The contraction of that has, before a past participle",
+          "body": [
+            "(это уже (+ причастие))",
+            "---"
+          ],
+          "examples": [
+            "That's been true for years.",
+            "That's always struck me as odd.",
+            "That's turned out to be the hard part."
+          ]
+        }
+      ],
+      "русский": "это (сокращение от that is или that has)",
+      "expands to": "that is or that has",
+      "type": "be — the pronoun that + is (or + the auxiliary has)",
+      "register": "standard — normal in speech and in all but the most formal writing; one of the commonest words in spoken American English",
+      "ambiguity": "The 's is is or has. That's a problem is is; That's been a problem is has. As usual, a past participle after it means has."
+    },
+    {
+      "term": "there's",
+      "ipa": "/ðɛrz/",
+      "respell": "THAIRZ",
+      "meaning": "there's stands for 2 different things.",
+      "examples": [
+        "There's someone at the door.",
+        "There's no easy answer to that.",
+        "There's a gas station two blocks up.",
+        "There's been an accident on the highway.",
+        "There's never been a better time to buy.",
+        "There's been talk of closing the plant."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The contraction of there is",
+          "body": [
+            "(есть, имеется)"
+          ],
+          "examples": [
+            "There's someone at the door.",
+            "There's no easy answer to that.",
+            "There's a gas station two blocks up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The contraction of there has, before a past participle",
+          "body": [
+            "(уже было, произошло)",
+            "---"
+          ],
+          "examples": [
+            "There's been an accident on the highway.",
+            "There's never been a better time to buy.",
+            "There's been talk of closing the plant."
+          ]
+        }
+      ],
+      "русский": "есть, имеется (сокращение от there is или there has)",
+      "expands to": "there is or there has",
+      "type": "be — the empty subject there + is (or + the auxiliary has)",
+      "register": "standard — normal in speech and in writing, with one catch: there's in front of a plural (There's two seats left, There's a lot of people here) is everyday spoken American English but is marked wrong in school and in edited prose, which want There are two seats left",
+      "ambiguity": "The 's is is or has. Before a noun it is is: There's a problem. Before a past participle it is has: There's been a problem.",
+      "contrast": "there's vs theirs. Theirs is the possessive pronoun (The blue car is theirs) and never takes an apostrophe. Note also that the there of there's is not the place word: it is the empty subject that lets a sentence introduce something new."
+    },
+    {
+      "term": "here's",
+      "ipa": "/hɪrz/",
+      "respell": "HEERZ",
+      "meaning": "The contraction of here is, used to hand something over or to announce what comes next. ---",
+      "examples": [
+        "Here's your receipt — have a good one.",
+        "Here's what I think we should do.",
+        "Here's the thing: nobody told the client."
+      ],
+      "senses": [],
+      "русский": "вот (сокращение от here is)",
+      "expands to": "here is",
+      "type": "be — the adverb here + is",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "ambiguity": "Unlike there's, that's and he's, this 's is only ever is. There has been a delay contracts to There's been a delay, but here has been is not English, so here's has a single expansion. In speech it is also used in front of a plural — Here's your keys — which writing corrects to Here are your keys."
+    },
+    {
+      "term": "what's",
+      "ipa": "/wʌts/",
+      "respell": "WUTS",
+      "meaning": "what's stands for 2 different things.",
+      "examples": [
+        "What's your last name again?",
+        "What's the matter?",
+        "What's on TV tonight?",
+        "What's happened to the printer?",
+        "What's gotten into you?",
+        "What's he done now?"
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The contraction of what is",
+          "body": [
+            "(что (есть), какой)"
+          ],
+          "examples": [
+            "What's your last name again?",
+            "What's the matter?",
+            "What's on TV tonight?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The contraction of what has, before a past participle",
+          "body": [
+            "(что произошло, что случилось)",
+            "---"
+          ],
+          "examples": [
+            "What's happened to the printer?",
+            "What's gotten into you?",
+            "What's he done now?"
+          ]
+        }
+      ],
+      "русский": "что есть, что случилось (сокращение от what is или what has)",
+      "expands to": "what is or what has",
+      "type": "be — the question word what + is (or + the auxiliary has)",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "ambiguity": "The 's is is or has: What's the problem? is is, What's happened? is has. In casual speech it can also stand for does — What's it cost?, What's he do for a living? — but that one belongs to speech only and is not written outside dialogue."
+    },
+    {
+      "term": "where's",
+      "ipa": "/wɛrz/",
+      "respell": "WAIRZ",
+      "meaning": "where's stands for 2 different things.",
+      "examples": [
+        "Where's the nearest pharmacy?",
+        "Where's my charger?",
+        "Where's that noise coming from?",
+        "Where's she been all morning?",
+        "Where's the time gone?",
+        "Where's he run off to now?"
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The contraction of where is",
+          "body": [
+            "(где (находится))"
+          ],
+          "examples": [
+            "Where's the nearest pharmacy?",
+            "Where's my charger?",
+            "Where's that noise coming from?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The contraction of where has, before a past participle",
+          "body": [
+            "(где был, куда делся)",
+            "---"
+          ],
+          "examples": [
+            "Where's she been all morning?",
+            "Where's the time gone?",
+            "Where's he run off to now?"
+          ]
+        }
+      ],
+      "русский": "где (сокращение от where is или where has)",
+      "expands to": "where is or where has",
+      "type": "be — the question word where + is (or + the auxiliary has)",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "ambiguity": "The 's is is or has. Where's my phone? is is; Where's she been all morning? is has, because a past participle follows.",
+      "contrast": "where's sounds exactly like wears (he wears glasses) and wares (goods for sale). Only the apostrophe form is a contraction, and there is no word wheres."
+    },
+    {
+      "term": "who's",
+      "ipa": "/huːz/",
+      "respell": "HOOZ",
+      "meaning": "who's stands for 2 different things.",
+      "examples": [
+        "Who's at the door?",
+        "Who's in charge here?",
+        "Who's coming with us?",
+        "Who's been using my laptop?",
+        "Who's got the keys?",
+        "Who's finished the test?"
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The contraction of who is",
+          "body": [
+            "(кто (есть))"
+          ],
+          "examples": [
+            "Who's at the door?",
+            "Who's in charge here?",
+            "Who's coming with us?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The contraction of who has, before a past participle",
+          "body": [
+            "(кто уже (+ причастие))",
+            "---"
+          ],
+          "examples": [
+            "Who's been using my laptop?",
+            "Who's got the keys?",
+            "Who's finished the test?"
+          ]
+        }
+      ],
+      "русский": "кто (сокращение от who is или who has)",
+      "expands to": "who is or who has",
+      "type": "be — the question word who + is (or + the auxiliary has)",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "ambiguity": "The 's is is or has. Who's coming? is is; Who's taken my coat? is has.",
+      "contrast": "who's vs whose. If you can expand it to two words, it takes an apostrophe: Who's coming? works as Who is coming? Whose is the possessive (чей) and cannot be expanded — Whose keys are these? is not ✗ Who is keys are these? The two often land in one sentence: Who's the guy whose car is blocking mine?"
+    },
+    {
+      "term": "how's",
+      "ipa": "/haʊz/",
+      "respell": "HOWZ",
+      "meaning": "how's stands for 2 different things.",
+      "examples": [
+        "How's the new job treating you?",
+        "How's your mom doing?",
+        "How's the weather out there?",
+        "How's your week been so far?",
+        "How's she been since the surgery?",
+        "How's that worked out for you?"
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The contraction of how is",
+          "body": [
+            "(как (есть), как дела)"
+          ],
+          "examples": [
+            "How's the new job treating you?",
+            "How's your mom doing?",
+            "How's the weather out there?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The contraction of how has, before a past participle",
+          "body": [
+            "(как прошло, как было)",
+            "---"
+          ],
+          "examples": [
+            "How's your week been so far?",
+            "How's she been since the surgery?",
+            "How's that worked out for you?"
+          ]
+        }
+      ],
+      "русский": "как (сокращение от how is или how has)",
+      "expands to": "how is or how has",
+      "type": "be — the question word how + is (or + the auxiliary has)",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "ambiguity": "The 's is is or has. How's the new job? is is; How's it been? is has. How's is also the standard American greeting frame — How's it going? — where nobody expects a detailed answer."
+    },
+    {
+      "term": "let's",
+      "ipa": "/lɛts/",
+      "respell": "LETS",
+      "meaning": "The contraction of let us, used to propose doing something together.",
+      "examples": [
+        "Let's grab lunch before the meeting.",
+        "Let's not talk about work tonight.",
+        "Let's say it takes three hours — we'd still get there by six."
+      ],
+      "senses": [],
+      "русский": "давай, давайте (сокращение от let us)",
+      "expands to": "let us",
+      "type": "fixed — the 's is us, not is: the one contraction built on an object pronoun",
+      "register": "standard — normal in speech and in all but the most formal writing",
+      "ambiguity": "The 's of let's is us, the object pronoun — the one contraction in English where it is neither is nor has. And let's has no everyday full form: written out, let us is either formal and old-fashioned (Let us pray) or a literal request for permission (Let us in, Let us know when you land), and neither of those contracts — ✗ Let's in, ✗ Let's know.",
+      "question form": "Let's go, shall we? — the tag on a let's sentence is shall we?, never don't we? or won't we? The negative is let's not: Let's not argue about it. The British don't let's sounds odd in American English.",
+      "contrast": "let's vs lets. Lets with no apostrophe is the ordinary third-person verb — She lets the dog out at seven, This ticket lets you in twice. Let's is always a proposal to do something together, so the apostrophe marks the missing us."
+    }
+  ]
+}

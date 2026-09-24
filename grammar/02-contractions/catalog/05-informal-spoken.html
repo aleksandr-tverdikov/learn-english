@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spoken reductions and informal forms</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Grammar</a><span class="sep">/</span><a href="../README.html">02-contractions</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="spoken-reductions-and-informal-forms">Spoken reductions and informal forms<a class="hash" href="#spoken-reductions-and-informal-forms" aria-label="link">#</a></h1>
+<blockquote><p><em>gonna</em>, <em>wanna</em>, <em>y'all</em>, <em>'em</em> — what English actually sounds like, and where you may write it.</p></blockquote>
+<p><a href="../README.html">← Contractions</a> &middot; <a href="README.html">All groups</a></p>
+<p>These are not contractions of the neat kind: they are spellings of ordinary fast speech. Every American says <em>gonna</em> and <em>wanna</em>; almost nobody writes them outside dialogue and text messages. They are worth knowing because you will hear them constantly and because a few have grammar of their own — <em>gonna</em> only works for the future, never for movement: <em>I'm gonna leave</em> is fine, but <em>I'm gonna the store</em> is not English.</p>
+<hr>
+<h3 id="gonna">gonna<a class="hash" href="#gonna" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌnə/ &middot; <em>GUH-nuh</em></dd><dt>Русский</dt><dd>собираюсь, буду (сокращение от going to — только о будущем)</dd><dt>Expands to</dt><dd><em>going to</em>, the future marker only</dd><dt>Type</dt><dd>informal — a spoken reduction, written only in dialogue, texts and lyrics</dd><dt>Register</dt><dd>informal — universal in American speech, out of place in anything edited</dd><dt>Question form</dt><dd><em>You gonna eat that?</em> — in a casual question the <em>are</em> vanishes along with the reduction; the full form is <em>Are you going to eat that?</em></dd><dt>Contrast</dt><dd><em>Gonna</em> is only the future <em>going to</em>. When <em>going to</em> means literal movement it never reduces: <em>I'm going to the store</em> stays as it is, and ✗ <em>I'm gonna the store</em> is not English. The test is simple — a verb has to follow (<em>gonna leave</em>, <em>gonna rain</em>, <em>gonna be fine</em>), never a noun or a place. Compare <em>wanna</em>, which has the mirror-image rule.</dd></dl>
+<p>The reduced <em>going to</em> of the future.</p>
+<ol><li>I'm <em>gonna</em> call her back in a minute.</li><li>It's <em>gonna</em> rain before we get home.</li><li>What are you <em>gonna</em> do about it?</li></ol>
+<hr>
+<h3 id="wanna">wanna<a class="hash" href="#wanna" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːnə/ &middot; <em>WAH-nuh</em></dd><dt>Русский</dt><dd>хочу, хочешь (сокращение от want to)</dd><dt>Expands to</dt><dd><em>want to</em></dd><dt>Type</dt><dd>informal — a spoken reduction, written only in dialogue, texts and lyrics</dd><dt>Register</dt><dd>informal — heard in nearly every conversation, never used in edited prose</dd><dt>Question form</dt><dd><em>Wanna grab lunch?</em> — the whole <em>Do you</em> is dropped, which is the ordinary American way of proposing something.</dd><dt>Contrast</dt><dd><em>Wanna</em> is <em>want to</em> and nothing else, so a verb has to follow: <em>I wanna go</em>, but ✗ <em>I wanna a coffee</em>. In speech <em>I want a coffee</em> reduces to almost the same sound, yet it is written <em>want a</em> — the noun version has no <em>wanna</em> spelling. There is a second, subtler block: when a subject stands between the two words, the reduction is impossible. <em>Who do you want to win?</em> cannot become ✗ <em>Who do you wanna win?</em>, because <em>who</em> is the subject of <em>win</em>.</dd></dl>
+<p>The reduced <em>want to</em> before a verb.</p>
+<ol><li>I <em>wanna</em> leave before the traffic starts.</li><li>Do you <em>wanna</em> come with us?</li><li>She doesn't <em>wanna</em> talk about it yet.</li></ol>
+<hr>
+<h3 id="gotta">gotta<a class="hash" href="#gotta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːɾə/ &middot; <em>GAH-duh</em></dd><dt>Русский</dt><dd>надо, должен; а также «есть у меня» (от have got to и have got a)</dd><dt>Expands to</dt><dd><em>have got to</em> or <em>have got a</em></dd><dt>Type</dt><dd>informal — a spoken reduction of the two uses of <em>have got</em></dd><dt>Register</dt><dd>informal — normal in speech, written only in dialogue and texts</dd><dt>Ambiguity</dt><dd>Two different sentences reduce to the same <em>gotta</em>. Before a verb it is <em>got to</em> and means obligation: <em>I gotta go</em> is <em>I have got to go</em>. Before a noun the final <em>-a</em> is itself the article <em>a</em>: <em>I gotta minute</em> is <em>I have got a minute</em>. That is why ✗ <em>I gotta a minute?</em> is wrong — it writes the article twice.</dd><dt>Question form</dt><dd><em>Gotta minute?</em> — the <em>Have you</em> is dropped completely. The full form is <em>Have you got a minute?</em></dd><dt>Contrast</dt><dd><em>Gotta</em> reduces <em>have got</em>, never the past tense <em>got</em>: <em>I got a letter yesterday</em> has nothing to do with it. Americans usually drop the <em>have</em> as well (<em>I gotta go</em>, rarely <em>I've gotta go</em>), which is fine in speech; in writing use <em>have to</em> or <em>have got to</em>. Compare <em>hafta</em>, which carries the same obligation through <em>have to</em>.</dd></dl>
+<p>gotta stands for 2 different things.</p>
+<p><strong>1. Obligation — the reduced <em>have got to</em>.</strong> (надо, должен)</p>
+<ol><li>I <em>gotta</em> go — my bus leaves in five minutes.</li><li>You <em>gotta</em> see the new place, it's enormous.</li><li>We <em>gotta</em> be at the airport by six.</li></ol>
+<p><strong>2. Possession — the reduced <em>have got a</em>, with the article already inside it.</strong> (у меня есть)</p>
+<ol start="4"><li>I <em>gotta</em> friend who does exactly this kind of work.</li><li>You <em>gotta</em> minute? I need to ask you something.</li><li>He's <em>gotta</em> new job downtown.</li></ol>
+<hr>
+<h3 id="gimme">gimme<a class="hash" href="#gimme" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪmi/ &middot; <em>GIM-ee</em></dd><dt>Русский</dt><dd>дай, дай мне (сокращение от give me)</dd><dt>Expands to</dt><dd><em>give me</em></dd><dt>Type</dt><dd>informal — a verb fused with its object pronoun</dd><dt>Register</dt><dd>informal — normal in speech, blunt on paper</dd><dt>Contrast</dt><dd>Only <em>me</em> fuses this way: there is no ✗ <em>gimme him</em> or ✗ <em>gimme you</em>. <em>Gimme</em> has also hardened into set expressions — <em>gimme a break</em> is disbelief, not a request for rest, and in sports talk <em>a gimme</em> is a noun meaning something so easy it is granted without being played. Written out, <em>give me</em> is always correct.</dd></dl>
+<p>The reduced <em>give me</em>.</p>
+<ol><li><em>Gimme</em> a call when you land.</li><li><em>Gimme</em> that wrench — I can reach it from here.</li><li><em>Gimme</em> a second, I'm almost done.</li></ol>
+<hr>
+<h3 id="lemme">lemme<a class="hash" href="#lemme" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛmi/ &middot; <em>LEM-ee</em></dd><dt>Русский</dt><dd>дай мне, дай-ка (сокращение от let me)</dd><dt>Expands to</dt><dd><em>let me</em></dd><dt>Type</dt><dd>informal — a verb fused with its object pronoun</dd><dt>Register</dt><dd>informal — normal in speech, out of place in edited writing</dd><dt>Contrast</dt><dd>Only <em>let me</em> reduces this way; <em>let him</em> and <em>let her</em> do not. <em>Let us</em> has its own contraction, <em>let's</em>, and that one is fully standard writing. <em>Lemme</em> is always followed by a bare verb: <em>lemme know</em>, <em>lemme see</em>, <em>lemme think</em>.</dd></dl>
+<p>The reduced <em>let me</em>.</p>
+<ol><li><em>Lemme</em> know what time you're getting in.</li><li><em>Lemme</em> see that picture again.</li><li><em>Lemme</em> think about it overnight.</li></ol>
+<hr>
+<h3 id="dunno">dunno<a class="hash" href="#dunno" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dəˈnoʊ/ &middot; <em>duh-NOH</em></dd><dt>Русский</dt><dd>не знаю (сокращение от (I) don't know)</dd><dt>Expands to</dt><dd><em>don't know</em>, usually with the <em>I</em> swallowed into it</dd><dt>Type</dt><dd>informal — a whole clause reduced to two syllables</dd><dt>Register</dt><dd>informal — speech and text messages only</dd><dt>Contrast</dt><dd><em>Dunno</em> normally stands for the entire sentence <em>I don't know</em>: the subject is gone, not merely reduced. It does not conjugate, so ✗ <em>he dunno</em> is not the pattern in General American — for a third person say <em>he doesn't know</em>. In writing it reads as a shrug, which is sometimes exactly wrong in an email.</dd></dl>
+<p>The reduced <em>(I) don't know</em>.</p>
+<ol><li><em>Dunno</em> — ask Marcy, she was there.</li><li>I <em>dunno</em> if the store is still open.</li><li>I <em>dunno</em> what he wants me to say.</li></ol>
+<hr>
+<h3 id="kinda">kinda<a class="hash" href="#kinda" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaɪndə/ &middot; <em>KYN-duh</em></dd><dt>Русский</dt><dd>вроде, как бы, довольно (сокращение от kind of)</dd><dt>Expands to</dt><dd><em>kind of</em></dd><dt>Type</dt><dd>informal — a preposition swallowed into the noun before it</dd><dt>Register</dt><dd>informal — texts and casual writing, not essays or business email</dd><dt>Contrast</dt><dd>The library also lists <em>kinda</em> as an adverb of degree, and that softening use is the commoner one: <em>kinda tired</em>, <em>I kinda like him</em>. The literal <em>kind of</em> reduces the same way after a noun or a question word: <em>what kinda car is that?</em> In edited writing, use <em>kind of</em>, <em>somewhat</em> or <em>a little</em>. Its twin is <em>sorta</em>.</dd></dl>
+<p>The reduced <em>kind of</em>, both as a hedge and in its literal sense.</p>
+<ol><li>I'm <em>kinda</em> tired — can we do this tomorrow?</li><li>That's <em>kinda</em> what I was afraid of.</li><li>What <em>kinda</em> car did she end up buying?</li></ol>
+<hr>
+<h3 id="sorta">sorta<a class="hash" href="#sorta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːrtə/ &middot; <em>SOR-tuh</em></dd><dt>Русский</dt><dd>вроде, отчасти (сокращение от sort of)</dd><dt>Expands to</dt><dd><em>sort of</em></dd><dt>Type</dt><dd>informal — a preposition swallowed into the noun before it</dd><dt>Register</dt><dd>informal — texts and casual writing only</dd><dt>Contrast</dt><dd><em>Sorta</em> and <em>kinda</em> are interchangeable as hedges, with <em>kinda</em> the commoner of the two in American speech. Neither belongs in edited prose — write <em>sort of</em>, <em>somewhat</em>, or drop the hedge altogether.</dd></dl>
+<p>The reduced <em>sort of</em>.</p>
+<ol><li>It <em>sorta</em> works, but not the way we planned.</li><li>I <em>sorta</em> promised I'd be there.</li><li>She's <em>sorta</em> my boss and <em>sorta</em> not.</li></ol>
+<hr>
+<h3 id="outta">outta<a class="hash" href="#outta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊɾə/ &middot; <em>OW-duh</em></dd><dt>Русский</dt><dd>из, вон из (сокращение от out of)</dd><dt>Expands to</dt><dd><em>out of</em></dd><dt>Type</dt><dd>informal — a two-word preposition run together</dd><dt>Register</dt><dd>informal — speech, dialogue and lyrics</dd><dt>Contrast</dt><dd><em>Outta</em> is <em>out of</em>, not <em>ought to</em> — that one is spelled <em>oughta</em> and is a different word. It lives mostly in fixed phrases: <em>get outta here</em>, <em>outta luck</em>, <em>outta nowhere</em>, <em>outta my way</em>. Written <em>out of</em> is always available and always safe.</dd></dl>
+<p>The reduced <em>out of</em>.</p>
+<ol><li>Get <em>outta</em> here before he sees you.</li><li>We're <em>outta</em> milk again.</li><li>That came <em>outta</em> nowhere.</li></ol>
+<hr>
+<h3 id="lotta">lotta<a class="hash" href="#lotta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːɾə/ &middot; <em>LAH-duh</em></dd><dt>Русский</dt><dd>много (сокращение от lot of в обороте a lot of)</dd><dt>Expands to</dt><dd><em>lot of</em>, always after <em>a</em></dd><dt>Type</dt><dd>informal — a quantifier phrase run together</dd><dt>Register</dt><dd>informal — speech and casual writing</dd><dt>Contrast</dt><dd><em>Lotta</em> carries only the <em>lot of</em> part, so the article in front stays: <em>a lotta people</em>, not ✗ <em>lotta people</em>. The plural <em>lots of</em> reduces the same way, to <em>lotsa</em>. Both are speech spellings; <em>a lot of</em> is the written form, and <em>alot</em> is never a word.</dd></dl>
+<p>The reduced <em>lot of</em> inside <em>a lot of</em>.</p>
+<ol><li>There were a <em>lotta</em> people at the funeral.</li><li>That's a <em>lotta</em> money for a used car.</li><li>He's got a <em>lotta</em> nerve showing up here.</li></ol>
+<hr>
+<h3 id="hafta">hafta<a class="hash" href="#hafta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæftə/ &middot; <em>HAF-tuh</em></dd><dt>Русский</dt><dd>надо, должен (сокращение от have to)</dd><dt>Expands to</dt><dd><em>have to</em></dd><dt>Type</dt><dd>informal — the obligation <em>have to</em> run together</dd><dt>Register</dt><dd>informal — the spelling is casual, the pronunciation is universal</dd><dt>Contrast</dt><dd>Listen for the /f/: the obligation <em>have to</em> is pronounced with a voiceless /f/ and /t/, which is why it is spelled <em>hafta</em> and not ✗ <em>havta</em>. The possessive <em>have</em> keeps its /v/ — <em>I hafta go</em> but <em>I have a car</em>. The third person reduces the same way, to <em>hasta</em>. Compare <em>gotta</em>, which delivers the same obligation through <em>have got to</em>.</dd></dl>
+<p>The reduced <em>have to</em> of obligation.</p>
+<ol><li>I <em>hafta</em> be up at five tomorrow.</li><li>Do you <em>hafta</em> leave so early?</li><li>You don't <em>hafta</em> answer that.</li></ol>
+<hr>
+<h3 id="coulda">coulda<a class="hash" href="#coulda" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊdə/ &middot; <em>KUUD-uh</em></dd><dt>Русский</dt><dd>мог бы (сокращение от could have)</dd><dt>Expands to</dt><dd><em>could have</em></dd><dt>Type</dt><dd>informal — a modal plus a reduced <em>have</em></dd><dt>Register</dt><dd>informal — speech and dialogue; in writing use <em>could have</em> or <em>could've</em></dd><dt>Contrast</dt><dd><em>Coulda</em> is what <em>could've</em> actually sounds like, and it is the source of the commonest spelling mistake in American English: ✗ <em>could of</em>. There is no <em>of</em> in it — the <em>-a</em> is a reduced <em>have</em>, which is why the participle follows (<em>coulda gone</em>, <em>coulda known</em>). The set <em>woulda, coulda, shoulda</em> is a fixed phrase for pointless hindsight.</dd></dl>
+<p>The reduced <em>could have</em> before a past participle.</p>
+<ol><li>I <em>coulda</em> told you that a week ago.</li><li>We <em>coulda</em> been there by now if we'd left on time.</li><li>You <em>coulda</em> gotten hurt doing that.</li></ol>
+<hr>
+<h3 id="woulda">woulda<a class="hash" href="#woulda" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊdə/ &middot; <em>WUUD-uh</em></dd><dt>Русский</dt><dd>сделал бы (сокращение от would have)</dd><dt>Expands to</dt><dd><em>would have</em></dd><dt>Type</dt><dd>informal — a modal plus a reduced <em>have</em></dd><dt>Register</dt><dd>informal — speech and dialogue; in writing use <em>would have</em> or <em>would've</em></dd><dt>Contrast</dt><dd>Same trap as <em>coulda</em>: the <em>-a</em> is <em>have</em>, never <em>of</em>, so ✗ <em>would of</em> is always an error. <em>Woulda</em> belongs to the unreal past — it needs a condition somewhere, stated or understood: <em>I woulda called</em> implies <em>if I could have</em>. Written out it is <em>would have</em> or <em>would've</em>.</dd></dl>
+<p>The reduced <em>would have</em> before a past participle.</p>
+<ol><li>I <em>woulda</em> called, but my phone was dead.</li><li>She <em>woulda</em> said something if she'd known.</li><li>That <em>woulda</em> been a lot easier.</li></ol>
+<hr>
+<h3 id="shoulda">shoulda<a class="hash" href="#shoulda" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʊdə/ &middot; <em>SHUUD-uh</em></dd><dt>Русский</dt><dd>надо было, следовало (сокращение от should have)</dd><dt>Expands to</dt><dd><em>should have</em></dd><dt>Type</dt><dd>informal — a modal plus a reduced <em>have</em></dd><dt>Register</dt><dd>informal — speech and dialogue; in writing use <em>should have</em> or <em>should've</em></dd><dt>Contrast</dt><dd>The <em>-a</em> is <em>have</em>, so ✗ <em>should of</em> is an error here too. <em>Shoulda</em> is almost always regret about something that did not happen: <em>I shoulda known</em> means I did not know and wish I had. Regret about someone else's behavior comes out as blame — <em>You shoulda called</em>.</dd></dl>
+<p>The reduced <em>should have</em> before a past participle.</p>
+<ol><li>I <em>shoulda</em> known better than to trust him.</li><li>You <em>shoulda</em> seen his face.</li><li>We <em>shoulda</em> booked the earlier flight.</li></ol>
+<hr>
+<h3 id="cause">'cause<a class="hash" href="#cause" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəz/ &middot; <em>KUHZ</em></dd><dt>Русский</dt><dd>потому что (сокращение от because)</dd><dt>Expands to</dt><dd><em>because</em></dd><dt>Type</dt><dd>informal — a conjunction with its first syllable gone</dd><dt>Register</dt><dd>informal — dialogue, lyrics and texts; write <em>because</em> in anything edited</dd><dt>Contrast</dt><dd>The apostrophe stands for the missing <em>be-</em>, so the careful spelling is <em>'cause</em>. The same word is also written <em>cuz</em>, and both are equally informal. Do not confuse it with the noun <em>cause</em> (a reason, a purpose), which rhymes with <em>laws</em> and is a different word entirely: <em>the cause of the fire</em> has nothing to do with <em>'cause it was cold</em>.</dd></dl>
+<p>The reduced <em>because</em>.</p>
+<ol><li>I left early <em>'cause</em> I had a headache.</li><li>We're not going, <em>'cause</em> the roads are bad.</li><li>Just <em>'cause</em> he said it doesn't make it true.</li></ol>
+<hr>
+<h3 id="cuz">cuz<a class="hash" href="#cuz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʌz/ &middot; <em>KUHZ</em></dd><dt>Русский</dt><dd>потому что (разговорное написание because)</dd><dt>Expands to</dt><dd><em>because</em></dd><dt>Type</dt><dd>informal — a conjunction with its first syllable gone</dd><dt>Register</dt><dd>informal — texting and lyrics above all</dd><dt>Ambiguity</dt><dd><em>Cuz</em> also writes the clipped <em>cousin</em> — <em>my cuz</em> is a relative, not a reason, and in some circles it is a friendly term of address. What follows tells you which: the conjunction takes a whole clause, the noun takes nothing.</dd><dt>Contrast</dt><dd><em>Cuz</em>, <em>'cause</em> and the British <em>cos</em> are three spellings of one reduced <em>because</em>. <em>Cuz</em> is the texting spelling; <em>'cause</em> keeps the apostrophe that marks the missing syllable and looks slightly more careful on the page. Neither belongs in school or business writing, where the full <em>because</em> is the only option.</dd></dl>
+<p>The reduced <em>because</em>, spelled as it sounds.</p>
+<ol><li>I'm staying in <em>cuz</em> it's freezing out.</li><li>He quit <em>cuz</em> they wouldn't give him weekends off.</li><li>Not <em>cuz</em> I want to — <em>cuz</em> I have to.</li></ol>
+<hr>
+<h3 id="yall">y'all<a class="hash" href="#yall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jɔːl/ &middot; <em>YAWL</em></dd><dt>Русский</dt><dd>вы, вы все (сокращение от you all; южное и афроамер.)</dd><dt>Expands to</dt><dd><em>you all</em></dd><dt>Type</dt><dd>dialect — the second-person plural that standard English lacks</dd><dt>Register</dt><dd>regional — Southern and African American English, and now widely used far beyond them</dd><dt>Contrast</dt><dd>The apostrophe replaces the missing letters of <em>you</em>, so the spelling is <em>y'all</em>, never ✗ <em>ya'll</em>. English lost its plural <em>you</em> when <em>thou</em> died, and <em>y'all</em> is the most successful of the forms that fill the hole, beside <em>you guys</em> (national), <em>youse</em> (northeastern) and <em>you'uns</em> or <em>yinz</em> (Pittsburgh). <em>All y'all</em> is not redundant: it forces the reading 'every single one of you'. The possessive is <em>y'all's</em>. The library also lists <em>y'all</em> as a personal pronoun, where its associative use — <em>Is y'all coming Sunday?</em> said to one person but meaning her whole household — is treated in full.</dd></dl>
+<p>The contracted <em>you all</em>, used as a plural <em>you</em>.</p>
+<ol><li><em>Y'all</em> want to grab something to eat after?</li><li>I'll see <em>y'all</em> at the game on Saturday.</li><li>All <em>y'all</em> need to be on the bus by seven.</li></ol>
+<hr>
+<h3 id="ya">ya<a class="hash" href="#ya" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jə/ &middot; <em>YUH</em></dd><dt>Русский</dt><dd>ты, вы (редуцированное you)</dd><dt>Expands to</dt><dd><em>you</em></dd><dt>Type</dt><dd>informal — the weak form of a pronoun, not a dialect form</dd><dt>Register</dt><dd>informal — the spelling is casual, though the sound is what everyone produces</dd><dt>Contrast</dt><dd><em>Ya</em> is nothing but unstressed <em>you</em> written down: not Southern, not plural, not uneducated. After a /t/ or /d/ it stops being a separate syllable at all and fuses with the word before it — <em>got you</em> becomes <em>gotcha</em>, <em>did you</em> becomes <em>didja</em>, <em>what are you</em> becomes <em>whatcha</em>, <em>bet you</em> becomes <em>betcha</em>. It is never a possessive; the reduced <em>your</em> is <em>yer</em>. The library also lists <em>ya</em> among the personal pronouns.</dd></dl>
+<p>The reduced <em>you</em>, subject or object alike.</p>
+<ol><li>See <em>ya</em> Monday — I'll leave the keys at the desk.</li><li>I'll call <em>ya</em> as soon as I land.</li><li><em>Ya</em> never know, it might clear up by noon.</li></ol>
+<hr>
+<h3 id="em">'em<a class="hash" href="#em" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əm/ &middot; <em>UHM</em></dd><dt>Русский</dt><dd>их, им (редуцированное them)</dd><dt>Expands to</dt><dd><em>them</em></dd><dt>Type</dt><dd>informal — a reduced object pronoun, leaning on the verb before it</dd><dt>Register</dt><dd>informal — in writing only; in speech it is simply the normal unstressed form</dd><dt>Contrast</dt><dd>The surprise is that <em>'em</em> is not a clipping of <em>them</em> at all. It descends from Middle English <em>hem</em>, the native plural object pronoun that the Norse-borrowed <em>them</em> pushed out of the written language while the old form survived in the mouth. The apostrophe writes down a history nobody remembers. Fixed phrases keep it: <em>give 'em hell</em>, <em>knock 'em dead</em>, <em>round 'em up</em>, <em>you can't win 'em all</em>. When the pronoun carries stress it is always <em>them</em>. The library also lists <em>'em</em> among the personal pronouns.</dd></dl>
+<p>The unstressed <em>them</em>, written as it sounds.</p>
+<ol><li>Just tell <em>'em</em> we'll be ten minutes late.</li><li>I saw <em>'em</em> leaving as I pulled in.</li><li>Round <em>'em</em> up and load <em>'em</em> on the truck.</li></ol>
+<hr>
+<h3 id="oclock">o'clock<a class="hash" href="#oclock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈklɑːk/ &middot; <em>uh-KLAHK</em></dd><dt>Русский</dt><dd>час, часов (о времени по часам; из of the clock)</dd><dt>Expands to</dt><dd><em>of the clock</em></dd><dt>Type</dt><dd>fixed — frozen from <em>of the clock</em>, the last survivor of a whole family</dd><dt>Register</dt><dd>standard — fully standard everywhere, in speech and in the most formal writing</dd><dt>Contrast</dt><dd>The apostrophe does exactly what it does in <em>can't</em>: it marks something missing, here the whole of <em>of the</em>. Nothing else survives of the old pattern — <em>five of the clock</em> has been gone for two centuries. Use it only with whole hours from one to twelve: <em>at six o'clock</em>, but <em>at 6:30</em> and never ✗ <em>6:30 o'clock</em>. Never combine it with <em>a.m.</em> or <em>p.m.</em> (✗ <em>seven o'clock p.m.</em>); say <em>seven p.m.</em> or <em>seven o'clock in the evening</em>. Russian <em>в шесть часов</em> is <em>at six o'clock</em> or simply <em>at six</em>. The library also lists <em>o'clock</em> as an adverb of time.</dd></dl>
+<p>The contracted <em>of the clock</em>, used after a number to name a whole hour.</p>
+<ol><li>The store opens at nine <em>o'clock</em>.</li><li>It's almost three <em>o'clock</em> — we should get going.</li><li>I'll meet you at the station at six <em>o'clock</em>.</li></ol>
+<hr>
+<h3 id="maam">ma'am<a class="hash" href="#maam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæm/ &middot; <em>MAM</em></dd><dt>Русский</dt><dd>мэм, мадам (вежливое обращение; сокращение от madam)</dd><dt>Expands to</dt><dd><em>madam</em></dd><dt>Type</dt><dd>fixed — frozen from <em>madam</em></dd><dt>Register</dt><dd>standard — polite address, near-obligatory in the South and in the military</dd><dt>Contrast</dt><dd>The apostrophe replaces the <em>-d-</em> of <em>madam</em>, so the spelling is <em>ma'am</em>, not ✗ <em>mam</em> or ✗ <em>maam</em>. Its counterpart is <em>sir</em>, which is not a contraction of anything. <em>Yes, ma'am</em> is plain courtesy in the South, in the armed forces and in service work; in the Northeast and on the West Coast it can land badly on a younger woman, who may hear it as a comment on her age. The unreduced <em>madam</em> now survives only in titles like <em>Madam President</em> and in the salutation <em>Dear Madam</em>.</dd></dl>
+<p>The contracted <em>madam</em>, used to address a woman politely.</p>
+<ol><li>Yes, <em>ma'am</em>, I'll have that ready by Friday.</li><li>Excuse me, <em>ma'am</em> — you dropped your scarf.</li><li>Can I get you anything else, <em>ma'am</em>?</li></ol>
+<hr>
+<h3 id="spose">s'pose<a class="hash" href="#spose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spoʊz/ &middot; <em>SPOHZ</em></dd><dt>Русский</dt><dd>полагаю, наверное (сокращение от suppose)</dd><dt>Expands to</dt><dd><em>suppose</em></dd><dt>Type</dt><dd>informal — a verb with its first syllable gone</dd><dt>Register</dt><dd>informal — dialogue and casual speech; write <em>suppose</em> otherwise</dd><dt>Contrast</dt><dd><em>S'pose</em> loses the whole first syllable of <em>suppose</em>. It turns up in two places above all: the lukewarm agreement <em>I s'pose so</em>, and <em>s'posed to</em>, which is how <em>supposed to</em> actually sounds — note that the <em>-d</em> goes silent too. Do not mix <em>s'posed to</em> up with <em>hafta</em> and <em>gotta</em>: <em>supposed to</em> reports a rule or expectation somebody else set, and often hints that it was broken.</dd></dl>
+<p>The reduced <em>suppose</em>, including the <em>supposed to</em> of expectation.</p>
+<ol><li>I <em>s'pose</em> so, if there's no other way.</li><li>You're not <em>s'posed</em> to park there.</li><li>What am I <em>s'posed</em> to tell her?</li></ol>
+<hr>
+<h3 id="whatcha">whatcha<a class="hash" href="#whatcha" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʌtʃə/ &middot; <em>WUH-chuh</em></dd><dt>Русский</dt><dd>что ты…? (сокращение от what are you или what do you)</dd><dt>Expands to</dt><dd><em>what are you</em> or <em>what do you</em></dd><dt>Type</dt><dd>informal — a question word fused with its auxiliary and pronoun</dd><dt>Register</dt><dd>informal — speech, dialogue and lyrics only</dd><dt>Ambiguity</dt><dd>The same <em>whatcha</em> hides two different auxiliaries. Before an <em>-ing</em> form it is <em>what are you</em>: <em>Whatcha doing?</em> Before a bare verb it is <em>what do you</em>: <em>Whatcha want?</em> Nothing in the spelling tells you which — only the verb that follows.</dd><dt>Question form</dt><dd><em>Whatcha</em> exists only in questions; there is no statement form. The full versions are <em>What are you…?</em> and <em>What do you…?</em>, and the <em>ya</em> inside it is the reduced <em>you</em> fusing with the /t/ before it.</dd></dl>
+<p>whatcha stands for 2 different things.</p>
+<p><strong>1. Standing for <em>what are you</em>, before an <em>-ing</em> form.</strong> (что ты (делаешь)…?)</p>
+<ol><li><em>Whatcha</em> doing this weekend?</li><li><em>Whatcha</em> looking at?</li><li><em>Whatcha</em> laughing about?</li></ol>
+<p><strong>2. Standing for <em>what do you</em>, before a bare verb.</strong> (что ты (хочешь)…?)</p>
+<ol start="4"><li><em>Whatcha</em> want on your burger?</li><li><em>Whatcha</em> think of the new place?</li></ol>
+<hr>
+<h3 id="betcha">betcha<a class="hash" href="#betcha" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛtʃə/ &middot; <em>BECH-uh</em></dd><dt>Русский</dt><dd>спорим, точно (сокращение от bet you)</dd><dt>Expands to</dt><dd><em>bet you</em></dd><dt>Type</dt><dd>informal — a verb fused with a reduced <em>you</em></dd><dt>Register</dt><dd>informal — speech and dialogue</dd><dt>Contrast</dt><dd><em>Betcha</em> is <em>bet you</em> with the /t/ and the /j/ of <em>ya</em> fused into a /tʃ/ — the same change that turns <em>got you</em> into <em>gotcha</em> and <em>what are you</em> into <em>whatcha</em>. Two patterns account for nearly all its uses: <em>I betcha</em> introduces a prediction, and <em>You betcha</em> is a fixed interjection meaning an emphatic yes, associated with the Upper Midwest and with nobody's actual wager.</dd></dl>
+<p>The reduced <em>bet you</em>, in predictions and in the fixed <em>You betcha</em>.</p>
+<ol><li>I <em>betcha</em> he shows up twenty minutes late.</li><li>You <em>betcha</em> I'll be there.</li><li><em>Betcha</em> can't guess who I ran into today.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

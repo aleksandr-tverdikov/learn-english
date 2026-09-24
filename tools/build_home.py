@@ -27,6 +27,7 @@ BLURBS = {
     '03-verbs': 'Irregular verbs grouped by how their three forms change rather than alphabetically, so you can hear <em>read</em>, <em>read</em> and <em>read</em> differ — plus the regular verbs, and every phrasal verb built on either, listed inside its base verb with the thing learners actually need: whether it can be split.',
     '04-adjectives': 'Built around what goes wrong: the <em>bored</em>/<em>boring</em> pairs, adjectives that only go before a noun or only after a verb, the preposition each one drags along, false friends like <em>actual</em> and <em>sympathetic</em> — and whether it takes <em>-er</em> or <em>more</em>.',
     '05-adverbs': 'Organized by the job each adverb does — place, time, frequency, degree, focus, stance, linking — with where it goes in the sentence, whether it takes <em>-er</em> or <em>more</em>, and the <em>hard</em>/<em>hardly</em> pairs that look related and are not.',
+    'contractions': 'Every contraction in ordinary use, with the pronunciation that is not predictable from its parts (<em>won\'t</em> is /woʊnt/), what the ambiguous ones expand to (<em>\'s</em> is <em>is</em> or <em>has</em>; <em>\'d</em> is <em>would</em> or <em>had</em>), and whether you may write it down.',
     '02-pronouns': 'Where case errors are most visible. Every entry gives its case, what it can refer to, and the verb agreement it forces.',
     'reporting-verbs': 'How to say what someone else said: every frame a reporting verb takes, the frames it refuses, and the judgment it quietly carries.',
 }
@@ -80,6 +81,8 @@ for slug in WORD_DICTS:
     </article>''')
 
 rv = stats.get('reporting-verbs')
+cs = stats.get('contractions')
+cs_n, cs_ex, cs_accent, cs_accent_dark = (cs[0], cs[1], cs[3]['accent'], cs[3]['accent_dark']) if cs else (0, 0, '#a14a78', '#e39ac2')
 grammar_cards = ''
 if rv:
     n, ex, nf, cfg = rv
@@ -91,6 +94,16 @@ if rv:
     <div class="acts">
       <a class="btn" href="{cfg['dir']}/browse.html">Browse the verbs</a>
       <a class="btn ghost" href="grammar/01-reported-speech/README.html">Read the topic</a>
+      <a class="btn ghost" href="grammar/README.html">All grammar</a>
+    </div>
+  </article>
+  <article class="dict" style="--c:{cs_accent};--cd:{cs_accent_dark}">
+    <div class="dict-head"><h3>Contractions</h3><span class="n">{cs_n:,}</span></div>
+    <p>{BLURBS['contractions']}</p>
+    <p class="meta">{cs_n:,} contractions &middot; {cs_ex:,} examples &middot; the apostrophe rule, the two ambiguous forms, and the spoken reductions</p>
+    <div class="acts">
+      <a class="btn" href="grammar/02-contractions/catalog/browse.html">Browse the forms</a>
+      <a class="btn ghost" href="grammar/02-contractions/README.html">Read the topic</a>
       <a class="btn ghost" href="grammar/README.html">All grammar</a>
     </div>
   </article>

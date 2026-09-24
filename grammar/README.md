@@ -11,6 +11,7 @@ The [parts of speech](../parts-of-speech/README.md) section is organized by **wo
 | # | Topic | Covers | Dictionary |
 |---|---|---|---|
 | 1 | **[Reported speech](01-reported-speech/README.md)** | Backshift, pronoun and time shifts, reported questions, commands, modals, free indirect speech, and news and academic attribution | **[313 reporting verbs](01-reported-speech/catalog/README.md)** &middot; [browse](01-reported-speech/catalog/browse.html) |
+| 2 | **[Contractions](02-contractions/README.md)** | The apostrophe rule, the two ambiguous forms (*'s*, *'d*), the forms English lacks (*amn't*), when not to contract, and the spoken reductions (*gonna*, *wanna*, *y'all*) | **[93 entries](02-contractions/catalog/README.md)** &middot; [browse](02-contractions/catalog/browse.html) |
 
 ## What a topic contains
 
