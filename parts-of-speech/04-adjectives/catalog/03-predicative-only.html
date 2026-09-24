@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adjectives that only follow a verb</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="adjectives-that-only-follow-a-verb">Adjectives that only follow a verb<a class="hash" href="#adjectives-that-only-follow-a-verb" aria-label="link">#</a></h1>
+<blockquote><p><em>afraid</em>, <em>asleep</em>, <em>alive</em>, <em>alone</em> — adjectives that can come after <em>be</em> but never before a noun.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>These adjectives can follow a verb — <em>the baby is asleep</em> — but cannot stand before a noun: never <em>an asleep baby</em>. Most of them begin with <em>a-</em> because they grew out of old prepositional phrases (<em>asleep</em> was once <em>on sleep</em>), and each entry gives the word that does the job before a noun instead: <em>a sleeping baby</em>, <em>a living animal</em>, <em>a frightened child</em>.</p>
+<hr>
+<h3 id="afraid">afraid<a class="hash" href="#afraid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈfreɪd/ &middot; <em>uh-FRAYD</em></dd><dt>Русский</dt><dd>испуганный; боящийся</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>predicative only — also after a noun when it has its own phrase (<em>a kid afraid of the dark</em>); before a noun use <em>frightened</em> or <em>scared</em>: <em>a frightened child</em></dd><dt>Comparison</dt><dd>more/most — <em>more afraid</em>, <em>most afraid</em></dd><dt>Takes</dt><dd><em>of</em> + noun or <em>-ing</em> (what you fear); <em>for</em> + person (fear for their safety); <em>to</em>-infinitive; <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#afraid-of">afraid of</a></dd><dt>Form</dt><dd>a- adjective, from an old participle</dd><dt>Opposite</dt><dd><em>unafraid</em></dd><dt>Contrast</dt><dd>Never directly before a noun: <em>a frightened child</em>, <em>a scared dog</em>, not <em>an afraid child</em>. <em>Afraid of</em> + <em>-ing</em> is fear that something will happen (<em>afraid of falling</em>); <em>afraid to</em> + verb is being too scared to do it (<em>afraid to jump</em>). <em>Afraid for</em> is fear on someone else's behalf (<em>afraid for her son</em>). <em>I'm afraid</em> often has nothing to do with fear: it softens bad news, like Russian <em>боюсь, что</em> or <em>к сожалению</em>, and the short answers are <em>I'm afraid so</em> and <em>I'm afraid not</em>. Strengthen it with <em>very</em>, <em>really</em> or <em>terribly</em>, not <em>much</em>.</dd></dl>
+<p>Afraid has 4 distinct senses.</p>
+<p><strong>1. Feeling fear of someone or something.</strong> (испуганный, боящийся)</p>
+<ol><li>The kids were <em>afraid</em> of the dog next door.</li><li>He was too <em>afraid</em> to move.</li><li>As a kid, I was more <em>afraid</em> of the dark than of anything else.</li></ol>
+<p><strong>2. Worried that something bad will happen, or worried about someone's safety.</strong> (опасающийся, беспокоящийся)</p>
+<ol start="4"><li>She was <em>afraid</em> that nobody would show up.</li><li>He's <em>afraid</em> of losing his job.</li><li>We were <em>afraid</em> for our daughter when the storm hit.</li></ol>
+<p><strong>3. I'm afraid: used to say politely that something is unwelcome or disappointing.</strong> (боюсь, что; к сожалению)</p>
+<ol start="7"><li>I'm <em>afraid</em> we're out of the large size.</li><li>"Is it serious?" "I'm <em>afraid</em> so."</li><li>I'm <em>afraid</em> I can't make it on Friday.</li></ol>
+<p><strong>4. not afraid of, not afraid to: willing to do or face something hard, unpleasant or unpopular.</strong> (не боящийся (трудностей), готовый (на))</p>
+<ol start="10"><li>He's not <em>afraid</em> of hard work.</li><li>Don't be <em>afraid</em> to ask questions.</li><li>She's never been <em>afraid</em> to speak her mind.</li></ol>
+<hr>
+<h3 id="alive">alive<a class="hash" href="#alive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlaɪv/ &middot; <em>uh-LYV</em></dd><dt>Русский</dt><dd>живой</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — also right after a noun (<em>the happiest man alive</em>) or an object (<em>keep hope alive</em>); before a noun use <em>living</em> or <em>live</em>: <em>living things</em>, <em>live lobsters</em></dd><dt>Comparison</dt><dd>more/most — <em>more alive</em>, <em>most alive</em>, in the 'full of energy' sense</dd><dt>Takes</dt><dd><em>with</em> + noun (full of); <em>to</em> + noun (aware of)</dd><dt>Form</dt><dd>a- adjective, from Old English <em>on life</em></dd><dt>Opposite</dt><dd><em>dead</em></dd><dt>Contrast</dt><dd>Never before a noun: <em>a live fish</em> (/laɪv/) or <em>a living animal</em>, not <em>an alive fish</em>. Russian <em>живой</em> splits three ways: <em>alive</em> after a verb (<em>The fish is still alive</em>), <em>live</em> before a noun for animals, music and broadcasts (<em>live music</em>, <em>a live broadcast</em>), and <em>lively</em> for a person or place full of energy (<em>a lively kid</em>, <em>a lively bar</em>). <em>Living</em> describes people and languages that exist now (<em>living relatives</em>, <em>a living language</em>). <em>Alive with</em> means full of (<em>alive with birds</em>); <em>alive to</em> means aware of.</dd></dl>
+<p>Alive has 5 distinct senses.</p>
+<p><strong>1. Living; not dead.</strong> (живой)</p>
+<ol><li>Is the fish still <em>alive</em>?</li><li>He was lucky to be <em>alive</em> after the crash.</li><li>At 97, she's the oldest woman <em>alive</em> in the county.</li></ol>
+<p><strong>2. Still existing or in use; not forgotten or lost.</strong> (живой, сохраняющийся)</p>
+<ol start="4"><li>The family keeps the old traditions <em>alive</em>.</li><li>The team's playoff hopes are still <em>alive</em>.</li></ol>
+<p><strong>3. Full of energy, interest and feeling.</strong> (полный жизни, оживлённый)</p>
+<ol start="6"><li>I've never felt more <em>alive</em> than on that trip.</li><li>She really comes <em>alive</em> on stage.</li><li>The neighborhood is most <em>alive</em> after dark.</li></ol>
+<p><strong>4. alive with: full of moving things, sounds or activity.</strong> (полный (чего-то), кишащий)</p>
+<ol start="9"><li>The pond was <em>alive</em> with frogs.</li><li>By nine o'clock the streets were <em>alive</em> with music.</li></ol>
+<p><strong>5. alive to: aware of something and ready to act on it.</strong> (осознающий, чуткий (к))</p>
+<ol start="11"><li>The mayor seems fully <em>alive</em> to the risks.</li><li>Good teachers are <em>alive</em> to every student's needs.</li></ol>
+<hr>
+<h3 id="alone">alone<a class="hash" href="#alone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈloʊn/ &middot; <em>uh-LOHN</em></dd><dt>Русский</dt><dd>один; одинокий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — also right after a noun or pronoun in the sense 'only' (<em>you alone</em>, <em>the fee alone</em>); before a noun use <em>lone</em> or <em>solitary</em>: <em>a lone rider</em></dd><dt>Comparison</dt><dd>more/most — <em>more alone</em>, <em>most alone</em>, in the 'lonely' sense; for emphasis <em>all alone</em></dd><dt>Takes</dt><dd><em>with</em> + person (nobody else there); <em>in</em> + noun or <em>-ing</em> (the only one who thinks or feels so)</dd><dt>Contrast</dt><dd>Never before a noun: <em>a lone traveler</em> or <em>a woman on her own</em>, not <em>an alone woman</em>. <em>Alone</em> means with nobody else and can be neutral or even pleasant (<em>I like being alone</em>); <em>lonely</em> means sad about it and goes in both positions (<em>a lonely old man</em>). In <em>She lives alone</em> and <em>He did it alone</em> the word is an adverb. <em>Let alone</em> is a fixed phrase meaning 'and certainly not' (<em>I can't boil an egg, let alone cook dinner</em>), Russian <em>не говоря уже о</em>. <em>Leave me alone</em> is <em>оставь меня в покое</em>, not literally <em>оставь меня одного</em>.</dd></dl>
+<p>Alone has 5 distinct senses.</p>
+<p><strong>1. Without other people; by yourself.</strong> (один, в одиночестве)</p>
+<ol><li>Were you <em>alone</em> in the house last night?</li><li>I need to be <em>alone</em> for a while.</li><li>The two of them were <em>alone</em> in the elevator.</li></ol>
+<p><strong>2. Feeling lonely and without support.</strong> (одинокий)</p>
+<ol start="4"><li>After the divorce, she felt completely <em>alone</em>.</li><li>I've never felt more <em>alone</em> than in that huge city.</li></ol>
+<p><strong>3. Being the only person who has a certain feeling, view or problem — often in <em>not alone</em>.</strong> (единственный (кто); не одинок)</p>
+<ol start="6"><li>If you're struggling with this, you're not <em>alone</em>.</li><li>She was <em>alone</em> in thinking the plan would fail.</li></ol>
+<p><strong>4. Right after a noun or pronoun: only; and nobody or nothing else.</strong> (только, лишь; один (только))</p>
+<ol start="8"><li>You <em>alone</em> can make that decision.</li><li>The shipping <em>alone</em> costs fifty dollars.</li></ol>
+<p><strong>5. leave alone: not bothered, touched or changed by anyone.</strong> (в покое)</p>
+<ol start="10"><li>Leave your brother <em>alone</em>!</li><li>Leave the thermostat <em>alone</em> — I just set it.</li></ol>
+<hr>
+<h3 id="asleep">asleep<a class="hash" href="#asleep" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsliːp/ &middot; <em>uh-SLEEP</em></dd><dt>Русский</dt><dd>спящий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — before a noun use <em>sleeping</em>: <em>a sleeping baby</em></dd><dt>Comparison</dt><dd>not gradable — strengthen with <em>fast</em>, <em>sound</em> or <em>half</em>: <em>fast asleep</em>, <em>half asleep</em></dd><dt>Form</dt><dd>a- adjective, from <em>on sleep</em></dd><dt>Opposite</dt><dd><em>awake</em></dd><dt>Contrast</dt><dd>Never before a noun, and not <em>very asleep</em>: <em>a sleeping child</em>, <em>sound asleep</em>. Russian <em>заснуть</em> is <em>fall asleep</em> (the moment), <em>спать</em> is <em>be asleep</em> (the state), and <em>ложиться спать</em> is <em>go to bed</em> or <em>go to sleep</em>: <em>I fell asleep at ten</em>, <em>At ten I was already asleep</em>. <em>Sleepy</em> is <em>сонный</em> — wanting to sleep, not sleeping. <em>My foot is asleep</em> is the everyday way to say a leg or arm has gone numb (<em>затекла</em>).</dd></dl>
+<p>Asleep has 3 distinct senses.</p>
+<p><strong>1. Sleeping.</strong> (спящий)</p>
+<ol><li>Don't make any noise — the baby's <em>asleep</em>.</li><li>I fell <em>asleep</em> on the couch watching TV.</li><li>By the time we got home, the kids were <em>fast asleep</em>.</li></ol>
+<p><strong>2. Of an arm, leg, hand or foot: numb from staying in one position.</strong> (затёкший, онемевший)</p>
+<ol start="4"><li>I can't stand up yet — my foot is <em>asleep</em>.</li><li>My arm fell <em>asleep</em> during the movie.</li></ol>
+<p><strong>3. Not paying attention when you should be; not reacting — often <em>asleep at the wheel</em> or <em>asleep at the switch</em>.</strong> (невнимательный, бездействующий)</p>
+<ol start="6"><li>The regulators were <em>asleep</em> at the switch while the bank took huge risks.</li><li>Our defense was <em>asleep</em> on that play.</li></ol>
+<hr>
+<h3 id="awake">awake<a class="hash" href="#awake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈweɪk/ &middot; <em>uh-WAYK</em></dd><dt>Русский</dt><dd>не спящий, бодрствующий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — before a noun use a relative clause: <em>children who are still awake</em></dd><dt>Comparison</dt><dd>more/most — <em>more awake</em>, <em>most awake</em></dd><dt>Takes</dt><dd><em>to</em> + noun (aware of)</dd><dt>Form</dt><dd>a- adjective, related to the verb <em>wake</em></dd><dt>Opposite</dt><dd><em>asleep</em></dd><dt>Contrast</dt><dd><em>Awake</em> is the state; <em>wake up</em> is the change: <em>I woke up at six</em> (<em>проснулся</em>), but <em>I was awake at six</em> (<em>не спал</em>). <em>Awake</em> (<em>awoke</em>, <em>awoken</em>) and <em>awaken</em> (<em>awakened</em>) are also formal verbs, but everyday American English uses <em>wake up</em>. Strengthen the adjective with <em>wide</em> or <em>fully</em> (<em>wide awake</em>). <em>Stay awake</em> is <em>не спать</em>, and <em>lie awake</em> is <em>лежать без сна</em>.</dd></dl>
+<p>Awake has 3 distinct senses.</p>
+<p><strong>1. Not sleeping.</strong> (не спящий, бодрствующий)</p>
+<ol><li>Are you still <em>awake</em>?</li><li>I lay <em>awake</em> half the night worrying about the test.</li><li>Two cups of coffee and I'm <em>wide awake</em>.</li></ol>
+<p><strong>2. Alert and able to think clearly; not sleepy.</strong> (бодрый)</p>
+<ol start="4"><li>I feel much more <em>awake</em> after a shower.</li><li>Nobody is fully <em>awake</em> at a 7 a.m. meeting.</li></ol>
+<p><strong>3. awake to: aware of something and ready to deal with it.</strong> (осознающий)</p>
+<ol start="6"><li>Few people were <em>awake</em> to the risks back then.</li><li>Parents are finally <em>awake</em> to the dangers of vaping.</li></ol>
+<hr>
+<h3 id="aware">aware<a class="hash" href="#aware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈwɛr/ &middot; <em>uh-WAIR</em></dd><dt>Русский</dt><dd>знающий, осведомлённый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — also after a noun with its own phrase (<em>people aware of the risks</em>); before a noun only with an adverb in front: <em>a politically aware student</em></dd><dt>Comparison</dt><dd>more/most — <em>more aware</em>, <em>most aware</em></dd><dt>Takes</dt><dd><em>of</em> + noun or <em>-ing</em>; <em>that</em>-clause; <em>how</em>, <em>what</em>, <em>who</em> and other wh-clauses</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#aware-of">aware of</a></dd><dt>Opposite</dt><dd><em>unaware</em></dd><dt>Contrast</dt><dd>The preposition is <em>of</em>, not <em>about</em>: <em>aware of the problem</em>. <em>Be aware</em> is the state (<em>знать, быть в курсе</em>); <em>become aware</em> or <em>realize</em> is the moment you notice. <em>Well aware</em> stresses that someone knows perfectly well (<em>I'm well aware of that</em>). Before a noun <em>aware</em> needs an adverb (<em>an environmentally aware company</em>); <em>an aware person</em> sounds odd — say <em>an informed person</em>. <em>Conscious</em> overlaps in the 'knowing' sense but also means <em>в сознании</em>, which <em>aware</em> never does.</dd></dl>
+<p>Aware has 3 distinct senses.</p>
+<p><strong>1. Knowing that something exists or is happening.</strong> (знающий, осведомлённый; в курсе)</p>
+<ol><li>Are you <em>aware</em> of the new parking rules?</li><li>I'm <em>aware</em> that the deadline is tight.</li><li>People are much more <em>aware</em> of the risks than they used to be.</li></ol>
+<p><strong>2. Noticing something through your senses at the moment it happens.</strong> (замечающий, ощущающий)</p>
+<ol start="4"><li>I suddenly became <em>aware</em> of someone standing behind me.</li><li>She was <em>aware</em> of a strange smell in the kitchen.</li></ol>
+<p><strong>3. Informed about and interested in a subject — usually after an adverb such as <em>politically</em> or <em>environmentally</em>.</strong> (сознательный, хорошо разбирающийся)</p>
+<ol start="6"><li>Young voters today are very politically <em>aware</em>.</li><li>We want to raise an environmentally <em>aware</em> generation.</li></ol>
+<hr>
+<h3 id="ashamed">ashamed<a class="hash" href="#ashamed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈʃeɪmd/ &middot; <em>uh-SHAYMD</em></dd><dt>Русский</dt><dd>пристыжённый; (мне) стыдно</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>predicative only — before a noun use <em>shamefaced</em> or <em>embarrassed</em>: <em>a shamefaced grin</em></dd><dt>Comparison</dt><dd>more/most — <em>more ashamed</em>, <em>most ashamed</em></dd><dt>Takes</dt><dd><em>of</em> + noun, <em>-ing</em> or <em>yourself</em>; <em>to</em>-infinitive; <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#ashamed-of">ashamed of</a></dd><dt>Form</dt><dd>old past participle of the verb <em>ashame</em>; the <em>-ed</em> is /d/, not /ɪd/</dd><dt>Opposite</dt><dd><em>proud</em>; <em>unashamed</em></dd><dt>Contrast</dt><dd><em>Ashamed</em> is guilt about something wrong or bad (<em>ashamed of lying</em>); <em>embarrassed</em> is awkwardness about something silly or public (<em>embarrassed when I tripped</em>). Russian <em>стыдно</em> covers both, so choose carefully: <em>I'm ashamed</em> after spilling coffee on your boss sounds far too strong. <em>Ashamed to</em> + verb means you do not want to do it because of shame (<em>too ashamed to ask</em>). <em>Shameful</em> describes the act (<em>shameful behavior</em>), and <em>It's a shame</em> means <em>жаль</em>, not <em>стыдно</em>.</dd></dl>
+<p>Ashamed has 2 distinct senses.</p>
+<p><strong>1. Feeling guilty or embarrassed because of something you did, or because of someone or something connected with you.</strong> (пристыжённый; (мне) стыдно)</p>
+<ol><li>You should be <em>ashamed</em> of yourself.</li><li>He was <em>ashamed</em> that he had lied to his parents.</li><li>I've never been more <em>ashamed</em> of my own behavior.</li></ol>
+<p><strong>2. Unwilling to do something because you feel shame.</strong> (стыдящийся (сделать что-то))</p>
+<ol start="4"><li>I'm <em>ashamed</em> to admit that I've never read it.</li><li>She was too <em>ashamed</em> to ask for help.</li></ol>
+<hr>
+<h3 id="alike">alike<a class="hash" href="#alike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlaɪk/ &middot; <em>uh-LYK</em></dd><dt>Русский</dt><dd>похожие, одинаковые</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — needs a plural subject or <em>look alike</em>; before a noun use <em>similar</em> or <em>identical</em>: <em>similar houses</em></dd><dt>Comparison</dt><dd>more/most — <em>more alike</em>, <em>most alike</em></dd><dt>Form</dt><dd>a- + <em>like</em></dd><dt>Opposite</dt><dd><em>different</em></dd><dt>Contrast</dt><dd><em>Alike</em> joins two or more things and takes no preposition: <em>The sisters are alike</em>, not <em>She is alike her sister</em>. For one thing compared with another use <em>like</em> or <em>similar to</em> (<em>She is like her sister</em>). Never before a noun: <em>similar cars</em>, not <em>alike cars</em>. In <em>teachers and students alike</em> and <em>treat everyone alike</em> the word is an adverb meaning 'equally'. <em>A lookalike</em> is a noun (<em>двойник</em>).</dd></dl>
+<p>Very similar; like each other.</p>
+<ol><li>My brother and I are nothing <em>alike</em>.</li><li>No two snowflakes are exactly <em>alike</em>.</li><li>The twins look more <em>alike</em> every year.</li></ol>
+<hr>
+<h3 id="ablaze">ablaze<a class="hash" href="#ablaze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈbleɪz/ &middot; <em>uh-BLAYZ</em></dd><dt>Русский</dt><dd>пылающий, охваченный огнём</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — also after an object (<em>set the barn ablaze</em>); before a noun use <em>blazing</em> or <em>burning</em>: <em>a burning building</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Takes</dt><dd><em>with</em> + light, color or feeling</dd><dt>Form</dt><dd>a- + <em>blaze</em></dd><dt>Contrast</dt><dd>Mostly written and news English; in speech Americans say <em>on fire</em>: <em>The car was on fire</em>. Never before a noun: <em>a burning car</em>, not <em>an ablaze car</em>. <em>Set something ablaze</em> is the same as <em>set fire to something</em>. The figurative senses take <em>with</em>: <em>ablaze with lights</em>, <em>eyes ablaze with anger</em>.</dd></dl>
+<p>Ablaze has 3 distinct senses.</p>
+<p><strong>1. Burning strongly.</strong> (пылающий, охваченный огнём)</p>
+<ol><li>Within minutes the whole warehouse was <em>ablaze</em>.</li><li>Rioters set two police cars <em>ablaze</em>.</li></ol>
+<p><strong>2. Very bright with lights or colors.</strong> (сияющий, сверкающий)</p>
+<ol start="3"><li>The hills were <em>ablaze</em> with fall colors.</li><li>The stadium was <em>ablaze</em> with lights.</li></ol>
+<p><strong>3. Full of strong feeling or excitement.</strong> (горящий (гневом, страстью))</p>
+<ol start="5"><li>Her eyes were <em>ablaze</em> with anger.</li><li>The whole town was <em>ablaze</em> with excitement before the big game.</li></ol>
+<hr>
+<h3 id="adrift">adrift<a class="hash" href="#adrift" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdrɪft/ &middot; <em>uh-DRIFT</em></dd><dt>Русский</dt><dd>дрейфующий; без цели</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — also after an object (<em>cast adrift</em>, <em>set adrift</em>); before a noun use <em>drifting</em>: <em>a drifting boat</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>a- + <em>drift</em></dd><dt>Contrast</dt><dd>Never before a noun: <em>a drifting raft</em>, not <em>an adrift raft</em>. <em>Cast adrift</em> and <em>set adrift</em> mean to leave someone or something with no control or support. In British sports reports <em>adrift</em> means behind (<em>five points adrift</em>); Americans say <em>behind</em>. Russian <em>дрейфовать</em> is the verb <em>drift</em>: <em>The boat drifted</em>, or <em>The boat was adrift</em>.</dd></dl>
+<p>Adrift has 2 distinct senses.</p>
+<p><strong>1. Of a boat or a person at sea: floating without being steered or tied to anything.</strong> (дрейфующий, носимый по волнам)</p>
+<ol><li>The fishermen were <em>adrift</em> for three days before a Coast Guard helicopter found them.</li><li>The storm snapped the rope, and the canoe was <em>adrift</em>.</li></ol>
+<p><strong>2. Without direction, purpose or support.</strong> (потерянный, без цели и опоры)</p>
+<ol start="3"><li>After college, I felt completely <em>adrift</em>.</li><li>Laid-off workers were left <em>adrift</em> with no plan for retraining.</li></ol>
+<hr>
+<h3 id="afloat">afloat<a class="hash" href="#afloat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈfloʊt/ &middot; <em>uh-FLOHT</em></dd><dt>Русский</dt><dd>на плаву</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — also after an object (<em>keep the boat afloat</em>); before a noun use <em>floating</em>: <em>a floating dock</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>a- + <em>float</em></dd><dt>Contrast</dt><dd>Never before a noun: <em>a floating log</em>, not <em>an afloat log</em>. Russian <em>на плаву</em> fits both main senses (<em>keep a company afloat</em>). In the money sense the usual verbs are <em>stay</em>, <em>keep</em> and <em>remain</em>. <em>Float</em> is the verb (<em>Wood floats</em>); <em>afloat</em> describes the state.</dd></dl>
+<p>Afloat has 3 distinct senses.</p>
+<p><strong>1. Floating on water; not sinking.</strong> (на плаву, держащийся на воде)</p>
+<ol><li>The boat was damaged but still <em>afloat</em>.</li><li>She grabbed a cooler to keep herself <em>afloat</em>.</li></ol>
+<p><strong>2. Having enough money to keep operating or to pay your bills.</strong> (на плаву, платёжеспособный)</p>
+<ol start="3"><li>The restaurant barely stayed <em>afloat</em> during the pandemic.</li><li>A second job kept us <em>afloat</em> that year.</li></ol>
+<p><strong>3. Of a rumor or idea: going around; being talked about.</strong> (ходящий (о слухах))</p>
+<ol start="5"><li>Rumors were <em>afloat</em> that the coach would quit.</li><li>There are a lot of wild theories <em>afloat</em> right now.</li></ol>
+<hr>
+<h3 id="aghast">aghast<a class="hash" href="#aghast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈɡæst/ &middot; <em>uh-GAST</em></dd><dt>Русский</dt><dd>потрясённый, в ужасе</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>predicative only — also set off by commas (<em>She stared, aghast</em>); before a noun use <em>horrified</em> or <em>shocked</em>: <em>a horrified look</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Takes</dt><dd><em>at</em> + noun</dd><dt>Form</dt><dd>old past participle of <em>agast</em> 'to frighten'; the <em>h</em> is silent</dd><dt>Contrast</dt><dd>Formal and written; in conversation say <em>horrified</em> or <em>shocked</em>. The preposition is <em>at</em>: <em>aghast at the news</em>, not <em>aghast of</em>. Never before a noun: <em>a shocked crowd</em>, not <em>an aghast crowd</em>.</dd></dl>
+<p>Shocked and horrified.</p>
+<ol><li>Her parents were <em>aghast</em> at the size of the bill.</li><li>We watched, <em>aghast</em>, as the bridge collapsed.</li><li>Fans were <em>aghast</em> when the team traded its best player.</li></ol>
+<hr>
+<h3 id="akin">akin<a class="hash" href="#akin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkɪn/ &middot; <em>uh-KIN</em></dd><dt>Русский</dt><dd>сродни, похожий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — also right after a noun (<em>something akin to panic</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more akin</em>, <em>most akin</em></dd><dt>Takes</dt><dd><em>to</em> + noun or <em>-ing</em></dd><dt>Form</dt><dd>a- 'of' + <em>kin</em> 'family'</dd><dt>Contrast</dt><dd>Formal; in speech say <em>like</em> or <em>similar to</em>. The preposition is always <em>to</em>: <em>akin to</em>, not <em>akin with</em>. Never before a noun. Russian <em>сродни</em> is a close match in both meaning and register.</dd></dl>
+<p>Similar to something; of the same kind.</p>
+<ol><li>What she felt was <em>akin</em> to panic.</li><li>Learning a language is <em>akin</em> to learning a musical instrument.</li><li>The meeting was more <em>akin</em> to a pep rally than a planning session.</li></ol>
+<hr>
+<h3 id="averse">averse<a class="hash" href="#averse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈvɜːrs/ &middot; <em>uh-VURS</em></dd><dt>Русский</dt><dd>не склонный, питающий неприязнь (к)</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>predicative only — before a noun only in compounds: <em>risk-averse investors</em></dd><dt>Comparison</dt><dd>more/most — <em>more averse</em>, <em>most averse</em></dd><dt>Takes</dt><dd><em>to</em> + noun or <em>-ing</em></dd><dt>Contrast</dt><dd>Do not confuse with <em>adverse</em> (harmful, both positions): <em>adverse effects</em>, <em>adverse weather</em>. <em>Averse</em> describes a person who dislikes something: <em>averse to risk</em>. It takes <em>to</em> + <em>-ing</em>, not an infinitive: <em>not averse to working late</em>. It most often appears as <em>not averse to</em>, a polite way of saying <em>не прочь</em>: <em>I'm not averse to a second helping</em>. Before a noun use the compound: <em>a risk-averse company</em>.</dd></dl>
+<p>Strongly disliking or opposed to something.</p>
+<ol><li>My dad is <em>averse</em> to paying for anything he can fix himself.</li><li>Older investors tend to be more <em>averse</em> to risk.</li><li>I'm not <em>averse</em> to a little hard work.</li></ol>
+<hr>
+<h3 id="content">content<a class="hash" href="#content" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtɛnt/ &middot; <em>kuhn-TENT</em></dd><dt>Русский</dt><dd>довольный</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>predicative only — before a noun use <em>contented</em>: <em>a contented smile</em></dd><dt>Comparison</dt><dd>more/most — <em>more content</em>, <em>most content</em></dd><dt>Takes</dt><dd><em>with</em> + noun (satisfied with); <em>to</em>-infinitive (willing to)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#content-with">content with</a></dd><dt>Opposite</dt><dd><em>discontented</em>; <em>dissatisfied</em></dd><dt>Contrast</dt><dd>The adjective is stressed on the second syllable, /kənˈtɛnt/, like the verb (<em>content yourself with</em>). The noun <em>content</em> (<em>содержание</em>, <em>контент</em>) is /ˈkɑːntɛnt/, stressed on the first. Before a noun use <em>contented</em>: <em>a contented cat</em>, not <em>a content cat</em>. <em>Content</em> is quieter than <em>happy</em>: it means you want nothing more, Russian <em>довольный</em>. <em>Content to</em> + verb means willing to accept something, not delighted by it.</dd></dl>
+<p>Content has 2 distinct senses.</p>
+<p><strong>1. Happy and satisfied with what you have, and not wanting more.</strong> (довольный)</p>
+<ol><li>He's perfectly <em>content</em> with his small apartment.</li><li>After years of moving around, she finally seems <em>content</em>.</li><li>I've never been more <em>content</em> than I am now.</li></ol>
+<p><strong>2. Willing to accept or do something, even if it is not ideal.</strong> (готовый, согласный (довольствоваться))</p>
+<ol start="4"><li>I'm <em>content</em> to let the lawyers handle it.</li><li>She was <em>content</em> to stay in the background.</li></ol>
+<hr>
+<h3 id="glad">glad<a class="hash" href="#glad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡlæd/ &middot; <em>GLAD</em></dd><dt>Русский</dt><dd>рад, довольный</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>predicative only — except in a few literary set phrases (<em>glad tidings</em>); before a noun use <em>happy</em> or <em>pleased</em>: <em>a happy face</em></dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>gladder</em>, <em>gladdest</em>; also <em>more glad</em></dd><dt>Takes</dt><dd><em>about</em> + thing; <em>for</em> + person (glad for someone); <em>that</em>-clause; <em>to</em>-infinitive; <em>of</em> + noun (grateful for)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#glad-about">glad about</a></dd><dt>Opposite</dt><dd><em>sorry</em></dd><dt>Contrast</dt><dd><em>Glad</em> reacts to a particular event (<em>I'm glad you came</em>); <em>happy</em> also describes a lasting state and goes before a noun (<em>a happy kid</em>, not <em>a glad kid</em>). <em>I'd be glad to</em> is a polite yes, like Russian <em>с радостью</em>. <em>Glad for someone</em> is <em>рад за кого-то</em>; <em>glad of something</em> means grateful to have it. <em>Gladder</em> and <em>gladdest</em> exist, but <em>more glad</em> is common too.</dd></dl>
+<p>Glad has 4 distinct senses.</p>
+<p><strong>1. Pleased and happy about something.</strong> (рад, довольный)</p>
+<ol><li>I'm so <em>glad</em> you could make it.</li><li>I'm really <em>glad</em> for you two.</li><li>I've never been <em>gladder</em> to see anyone in my life.</li></ol>
+<p><strong>2. Very willing to do something.</strong> (охотно готовый, с радостью)</p>
+<ol start="4"><li>I'd be <em>glad</em> to help you move.</li><li>If you need a ride, I'm <em>glad</em> to drive.</li></ol>
+<p><strong>3. Grateful for something.</strong> (благодарный (за), рад (чему-то))</p>
+<ol start="6"><li>I was <em>glad</em> of the extra blanket that night.</li><li>She was <em>glad</em> of the company on the long drive.</li></ol>
+<p><strong>4. Before a noun, in old or literary set phrases: bringing or showing joy.</strong> (радостный)</p>
+<ol start="8"><li>The Christmas card promised <em>glad</em> tidings to all.</li><li>The old hymn tells of a <em>glad</em> morning.</li></ol>
+<hr>
+<h3 id="unable">unable<a class="hash" href="#unable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈeɪbəl/ &middot; <em>uhn-AY-buhl</em></dd><dt>Русский</dt><dd>неспособный; не в состоянии</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — always followed by a <em>to</em>-infinitive; before a noun use a relative clause: <em>people who are unable to work</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Takes</dt><dd><em>to</em>-infinitive (required)</dd><dt>Form</dt><dd>un- + <em>able</em></dd><dt>Opposite</dt><dd><em>able</em></dd><dt>Contrast</dt><dd><em>Unable</em> always needs <em>to</em> + verb: <em>unable to sleep</em>, not <em>unable of sleeping</em> — that pattern belongs to <em>incapable of</em> + <em>-ing</em>. It is more formal than <em>can't</em> or <em>couldn't</em> and is the usual word in notices and emails (<em>We are unable to process your request</em>). The noun is <em>inability</em>, not <em>unability</em>. For a lasting physical or mental condition American English says <em>disabled</em>, not <em>unable</em>.</dd></dl>
+<p>Not able to do something, because you lack the power, skill, time or opportunity.</p>
+<ol><li>I was <em>unable</em> to sleep after the phone call.</li><li>The airline was <em>unable</em> to find my bag.</li><li>We regret that we are <em>unable</em> to offer refunds.</li></ol>
+<hr>
+<h3 id="unaware">unaware<a class="hash" href="#unaware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌnəˈwɛr/ &middot; <em>uhn-uh-WAIR</em></dd><dt>Русский</dt><dd>не знающий, не подозревающий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — also set off by commas (<em>She kept dancing, unaware</em>); before a noun use <em>unsuspecting</em>: <em>unsuspecting tourists</em></dd><dt>Comparison</dt><dd>not gradable — strengthen with <em>completely</em>, <em>totally</em> or <em>blissfully</em></dd><dt>Takes</dt><dd><em>of</em> + noun or <em>-ing</em>; <em>that</em>-clause</dd><dt>Form</dt><dd>un- + <em>aware</em></dd><dt>Opposite</dt><dd><em>aware</em></dd><dt>Contrast</dt><dd>The preposition is <em>of</em>, not <em>about</em>: <em>unaware of the change</em>. Do not confuse it with the adverb <em>unawares</em>, used in <em>catch</em> or <em>take someone unawares</em> (<em>застать врасплох</em>). <em>Blissfully unaware</em> is a common phrase for someone happily ignorant of a problem.</dd></dl>
+<p>Not knowing about something, or not noticing it.</p>
+<ol><li>Most customers are <em>unaware</em> of the fee.</li><li>He was <em>unaware</em> that anyone was listening.</li><li>She kept dancing, blissfully <em>unaware</em> of the stain on her dress.</li></ol>
+<hr>
+<h3 id="fond">fond<a class="hash" href="#fond" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɑːnd/ &middot; <em>FAHND</em></dd><dt>Русский</dt><dd>любящий; нежный</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>both — but in the 'liking' sense only after a verb (<em>She's fond of cats</em>); before a noun it means affectionate (<em>a fond smile</em>) or, of a hope, unlikely (<em>a fond hope</em>)</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>fonder</em>, <em>fondest</em>; also <em>more fond</em></dd><dt>Takes</dt><dd><em>of</em> + noun or <em>-ing</em></dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#fond-of">fond of</a></dd><dt>Contrast</dt><dd><em>Be fond of</em> is softer than <em>love</em> and warmer than <em>like</em>, and it takes <em>of</em> + noun or <em>-ing</em>, never an infinitive: <em>fond of cooking</em>, not <em>fond to cook</em>. The meaning changes with position: <em>She's fond of her grandfather</em> means she likes him, but <em>a fond look</em> is a loving one, and <em>a fond hope</em> is a cherished and often naive one. <em>Grow fond of</em> is the usual way to say you came to like someone. The noun is <em>fondness</em>.</dd></dl>
+<p>Fond has 4 distinct senses.</p>
+<p><strong>1. fond of: liking someone or something, often after knowing them for a long time.</strong> (любящий, питающий симпатию (к))</p>
+<ol><li>I've grown very <em>fond</em> of my neighbors.</li><li>She's especially <em>fond</em> of old movies.</li><li>Absence makes the heart grow <em>fonder</em>.</li></ol>
+<p><strong>2. fond of doing: in the habit of doing something, often something other people find annoying.</strong> (любящий (делать что-то), имеющий привычку)</p>
+<ol start="4"><li>My uncle is <em>fond</em> of telling everyone how he once met the president.</li><li>Politicians are <em>fond</em> of quoting that line.</li></ol>
+<p><strong>3. Before a noun: loving and affectionate, or pleasant to remember.</strong> (нежный, ласковый; тёплый (о воспоминаниях))</p>
+<ol start="6"><li>She gave her son a <em>fond</em> smile.</li><li>I have <em>fond</em> memories of those summers at the lake.</li><li>Some of my <em>fondest</em> memories are from that camp.</li></ol>
+<p><strong>4. Of a hope, wish or belief: deeply felt and long held, often naively, when it is unlikely to come true.</strong> (заветный; наивный, несбыточный)</p>
+<ol start="9"><li>Her <em>fondest</em> wish was to see all her grandkids graduate.</li><li>He had the <em>fond</em> hope that the problem would just go away.</li><li>Their <em>fond</em> belief that prices would keep rising proved wrong.</li></ol>
+<hr>
+<h3 id="sorry">sorry<a class="hash" href="#sorry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːri/ &middot; <em>SAH-ree</em></dd><dt>Русский</dt><dd>(мне) жаль; извините; жалкий</dd><dt>Type</dt><dd>emotion; also evaluative</dd><dt>Position</dt><dd>both — after a verb for the feelings (<em>I'm sorry</em>); before a noun it means pitiful or poor (<em>a sorry state</em>)</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>sorrier</em>, <em>sorriest</em>; also <em>more sorry</em></dd><dt>Takes</dt><dd><em>about</em> + thing; <em>for</em> + what you did, or + person you pity; <em>to</em>-infinitive; <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#sorry-for">sorry for</a></dd><dt>Opposite</dt><dd><em>glad</em></dd><dt>Contrast</dt><dd><em>Sorry about</em> goes with a situation (<em>sorry about the mess</em>, <em>sorry about your dad</em>); <em>sorry for</em> goes with your own action (<em>sorry for yelling</em>) or, after <em>feel</em>, with a person you pity (<em>I feel sorry for him</em>, <em>мне его жалко</em>). <em>I'm sorry to hear</em> is sympathy; <em>I'm sorry to say</em> introduces bad news. Before a noun the meaning changes: <em>a sorry excuse</em> is a poor one, not an apologetic one. To get a stranger's attention use <em>Excuse me</em>, not <em>Sorry</em> — Russian <em>извините</em> covers both. A standalone <em>Sorry!</em> or <em>Sorry?</em> is an interjection.</dd></dl>
+<p>Sorry has 6 distinct senses.</p>
+<p><strong>1. Feeling regret or guilt about something you did; apologizing.</strong> (виноватый; простите, (мне) жаль)</p>
+<ol><li>I'm really <em>sorry</em> I'm late.</li><li>She said she was <em>sorry</em> for what she'd said.</li><li>Nobody was <em>sorrier</em> than Mike when the vase broke.</li></ol>
+<p><strong>2. Feeling sad or sympathetic about something bad that happened to someone else.</strong> ((мне) жаль, сочувствую)</p>
+<ol start="4"><li>I'm so <em>sorry</em> about your dad.</li><li>We were <em>sorry</em> to hear that you'd been sick.</li></ol>
+<p><strong>3. Disappointed about a situation or regretting a choice, when no apology is involved — often <em>you'll be sorry</em>.</strong> ((мне) жаль; пожалеть)</p>
+<ol start="6"><li>I'm <em>sorry</em> I didn't take that job when I had the chance.</li><li>Don't buy that car — you'll be <em>sorry</em>.</li></ol>
+<p><strong>4. Used politely to refuse, disagree, give bad news or ask someone to repeat something.</strong> (простите; к сожалению)</p>
+<ol start="8"><li>I'm <em>sorry</em>, but you can't park here.</li><li>I'm <em>sorry</em>, I didn't catch your name.</li><li>I'm <em>sorry</em> to say the store is closing.</li></ol>
+<p><strong>5. feel sorry for: feeling pity for someone.</strong> (жалеть (кого-то))</p>
+<ol start="11"><li>I feel really <em>sorry</em> for the new kid.</li><li>Stop feeling <em>sorry</em> for yourself.</li></ol>
+<p><strong>6. Before a noun: poor, pitiful or in bad condition.</strong> (жалкий, плачевный)</p>
+<ol start="13"><li>The old house was in a <em>sorry</em> state.</li><li>That's the <em>sorriest</em> excuse I've ever heard.</li><li>After the frost, the garden was a <em>sorry</em> sight.</li></ol>
+<hr>
+<h3 id="worth">worth<a class="hash" href="#worth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɜːrθ/ &middot; <em>WURTH</em></dd><dt>Русский</dt><dd>стоящий; стоит</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>predicative only — also right after a noun with its complement (<em>a book worth reading</em>, <em>a ring worth $5,000</em>); before a noun use <em>worthwhile</em> or <em>valuable</em>: <em>a worthwhile trip</em></dd><dt>Comparison</dt><dd>not gradable — strengthen with <em>well</em>, <em>really</em> or <em>definitely</em>: <em>well worth it</em></dd><dt>Takes</dt><dd>a noun, amount or pronoun (<em>worth $50</em>, <em>worth it</em>); <em>-ing</em> (<em>worth seeing</em>) — never a <em>to</em>-infinitive</dd><dt>Contrast</dt><dd><em>Worth</em> must have something after it: <em>The book is worth reading</em>, not <em>worth to read</em> and not <em>worth being read</em> — the active <em>-ing</em> carries the passive meaning. Russian <em>стоит</em> + infinitive becomes <em>it's worth</em> + <em>-ing</em>: <em>It's worth trying</em> (<em>стоит попробовать</em>). <em>Worth it</em> stands in for the rest: <em>Was the trip worth it?</em> Before a noun use <em>worthwhile</em> (<em>a worthwhile project</em>); <em>worthy of</em> means deserving (<em>worthy of respect</em>). Because it takes an object, Merriam-Webster and some grammars call <em>worth</em> a preposition. The noun <em>worth</em> is a separate word: <em>a dollar's worth</em>, <em>self-worth</em>.</dd></dl>
+<p>Worth has 3 distinct senses.</p>
+<p><strong>1. Having a certain value in money.</strong> (стоящий (столько-то), стоит)</p>
+<ol><li>The ring is <em>worth</em> about $5,000.</li><li>How much is your car <em>worth</em>?</li><li>Our house is <em>worth</em> twice what we paid for it.</li></ol>
+<p><strong>2. Good, useful or enjoyable enough to justify the time, money or effort.</strong> (стоящий, заслуживающий (того, чтобы))</p>
+<ol start="4"><li>The museum is well <em>worth</em> a visit.</li><li>Is it <em>worth</em> fixing, or should we just buy a new one?</li><li>It was a long drive, but it was totally <em>worth</em> it.</li></ol>
+<p><strong>3. Of a person: owning money and property of a certain value.</strong> (обладающий состоянием (в столько-то))</p>
+<ol start="7"><li>By forty she was <em>worth</em> over a billion dollars.</li><li>Nobody knows exactly how much he's <em>worth</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

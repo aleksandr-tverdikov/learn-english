@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adjectives with a to-infinitive or that-clause</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="adjectives-with-a-to-infinitive-or-that-clause">Adjectives with a to-infinitive or that-clause<a class="hash" href="#adjectives-with-a-to-infinitive-or-that-clause" aria-label="link">#</a></h1>
+<blockquote><p><em>easy to use</em>, <em>likely to rain</em>, <em>glad that you came</em>, <em>kind of you to help</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>These adjectives take a <em>to</em>-infinitive or a <em>that</em>-clause: <em>easy to use</em>, <em>likely to rain</em>, <em>glad that you came</em>. Two traps run through the group. <em>It is kind of you</em> judges a person but <em>it is important for you</em> states a need, and a few adjectives — <em>essential</em>, <em>vital</em>, <em>imperative</em> — take the bare verb in their <em>that</em>-clause: <em>it is essential that he be there</em>.</p>
+<hr>
+<h3 id="easy">easy<a class="hash" href="#easy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːzi/ &middot; <em>EE-zee</em></dd><dt>Русский</dt><dd>лёгкий; простой; спокойный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>easier</em>, <em>easiest</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive, where the subject is what you act on (<em>easy to use</em>, <em>easy to talk to</em>); <em>for</em> + person (<em>easy for me</em>); <em>on</em> + person (not strict) or + thing (pleasant for: <em>easy on the eyes</em>)</dd><dt>Opposite</dt><dd><em>difficult</em>, <em>hard</em></dd><dt>Contrast</dt><dd>Russian <em>мне легко</em> is <em>It's easy for me</em>, never <em>I am easy</em>. In <em>This app is easy to use</em> the subject is the thing you use, so <em>He is easy to talk to</em> means people find it easy to talk to him. The adverb is <em>easily</em> (<em>She won easily</em>), but fixed phrases keep <em>easy</em>: <em>take it easy</em>, <em>go easy on him</em>, <em>easier said than done</em>, <em>easy come, easy go</em>. Said of a woman, <em>easy</em> is an insulting old slang word for 'promiscuous'; the compliment for a relaxed person is <em>easygoing</em>.</dd></dl>
+<p>Easy has 4 distinct senses.</p>
+<p><strong>1. Not difficult; done or understood without much effort.</strong> (лёгкий, простой)</p>
+<ol><li>The first test was pretty <em>easy</em>.</li><li>This camera is <em>easy</em> to use, even for kids.</li><li>It's <em>easier</em> to take the subway than to find parking.</li></ol>
+<p><strong>2. Relaxed and comfortable; free from worry or stiffness.</strong> (непринуждённый, спокойный)</p>
+<ol start="4"><li>She has an <em>easy</em>, friendly way with customers.</li><li>We walked at an <em>easy</em> pace along the beach.</li><li>The two of them fell into an <em>easy</em> silence.</li></ol>
+<p><strong>3. easy on + person, or before a noun: not strict; not demanding much.</strong> (мягкий, снисходительный)</p>
+<ol start="7"><li>The coach was <em>easy</em> on the new players at first.</li><li>Her grandparents are much <em>easier</em> on her than her parents are.</li><li>Mr. Alvarez is an <em>easy</em> grader.</li></ol>
+<p><strong>4. easy on + the eyes, ears, stomach or budget: pleasant, not harsh or costly.</strong> (приятный; щадящий)</p>
+<ol start="10"><li>The new font is much <em>easier</em> on the eyes.</li><li>The lunch menu is <em>easy</em> on the wallet.</li></ol>
+<hr>
+<h3 id="hard">hard<a class="hash" href="#hard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɑːrd/ &middot; <em>HAHRD</em></dd><dt>Русский</dt><dd>трудный; твёрдый; тяжёлый; строгий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>harder</em>, <em>hardest</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive, where the subject is what you act on (<em>hard to believe</em>, <em>hard to please</em>); <em>for</em> + person (<em>hard for me</em>); <em>on</em> + person (strict with) or + thing (causing wear: <em>hard on your knees</em>)</dd><dt>Opposite</dt><dd><em>easy</em> (difficult); <em>soft</em> (solid)</dd><dt>Contrast</dt><dd><em>Hard</em> is also an adverb with the same form: <em>work hard</em> (усердно), <em>try hard</em>, <em>It's raining hard</em>. <em>Hardly</em> is a different word meaning 'almost not' (едва): <em>She hardly works</em> is the opposite of <em>She works hard</em>. As with <em>easy</em>, Russian <em>мне трудно</em> is <em>It's hard for me</em>, not <em>I am hard</em>. <em>Hard water</em> has a lot of minerals (жёсткая вода); <em>hard liquor</em> is strong alcohol such as vodka or whiskey, and <em>hard cider</em> is the American name for alcoholic cider. For character, Russian <em>твёрдый</em> is usually <em>firm</em>; <em>a hard person</em> sounds cold and unkind. <em>No hard feelings</em> is 'no resentment', said after an argument or a loss.</dd></dl>
+<p>Hard has 9 distinct senses.</p>
+<p><strong>1. Difficult to do, understand or deal with.</strong> (трудный, тяжёлый)</p>
+<ol><li>It's <em>hard</em> to believe she's only twelve.</li><li>The <em>hardest</em> part was waiting for the results.</li><li>That's a <em>hard</em> question to answer.</li></ol>
+<p><strong>2. Solid and firm; not easy to bend, cut or press.</strong> (твёрдый, жёсткий)</p>
+<ol start="4"><li>The mattress in the hotel was too <em>hard</em>.</li><li>Let the caramel cool until it's <em>hard</em>.</li><li>Diamonds are <em>harder</em> than any other natural material.</li></ol>
+<p><strong>3. Needing or using a lot of effort or energy.</strong> (тяжёлый; усердный)</p>
+<ol start="7"><li>Moving furniture is <em>hard</em> work.</li><li>She's the <em>hardest</em> worker on the team.</li><li>After a <em>hard</em> day at the office, I just want to sleep.</li></ol>
+<p><strong>4. Full of problems and suffering; harsh.</strong> (тяжёлый, суровый)</p>
+<ol start="10"><li>Times were <em>hard</em> during the Great Depression.</li><li>It was the <em>hardest</em> winter the town had seen in decades.</li><li>He's had a <em>hard</em> life.</li></ol>
+<p><strong>5. Strict, severe or unfriendly.</strong> (строгий, суровый)</p>
+<ol start="13"><li>Don't be so <em>hard</em> on yourself.</li><li>Her father was a <em>hard</em> man who rarely smiled.</li><li>She gave him a <em>hard</em> look and said nothing.</li></ol>
+<p><strong>6. Done with a lot of force.</strong> (сильный)</p>
+<ol start="16"><li>He gave the door a <em>hard</em> push.</li><li>She took a <em>hard</em> fall on the ice.</li></ol>
+<p><strong>7. Definite and based on facts that can be proved.</strong> (точный, неопровержимый)</p>
+<ol start="18"><li>The police have no <em>hard</em> evidence against him.</li><li>We need <em>hard</em> numbers, not guesses.</li></ol>
+<p><strong>8. Of drinks and drugs: very strong; containing a lot of alcohol, or highly addictive.</strong> (крепкий (об алкоголе); тяжёлый (о наркотиках))</p>
+<ol start="20"><li>The bar serves beer and wine but no <em>hard</em> liquor.</li><li>He never touched <em>hard</em> drugs.</li></ol>
+<p><strong>9. Of water: containing a lot of minerals, so that soap does not lather well.</strong> (жёсткий (о воде))</p>
+<ol start="22"><li>The water here is so <em>hard</em> it leaves spots on the glasses.</li><li><em>Hard</em> water can damage your pipes over time.</li></ol>
+<hr>
+<h3 id="difficult">difficult<a class="hash" href="#difficult" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪfɪkəlt/ &middot; <em>DIF-ih-kuhlt</em></dd><dt>Русский</dt><dd>трудный; сложный; несговорчивый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more difficult</em>, <em>most difficult</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive, where the subject is what you act on (<em>difficult to explain</em>); <em>for</em> + person (<em>difficult for me</em>); <em>about</em> + noun, of a person (making trouble over it)</dd><dt>Opposite</dt><dd><em>easy</em></dd><dt>Contrast</dt><dd>Never <em>difficulter</em>: the forms are <em>more difficult</em> and <em>most difficult</em>. Russian <em>мне трудно</em> is <em>It's difficult for me to…</em>, not <em>I am difficult</em>, which means that I am hard to deal with. Russian <em>сложный</em> meaning 'made of many parts' is <em>complicated</em> or <em>complex</em> (<em>a complicated plan</em>), not always <em>difficult</em>. For tasks, everyday American speech prefers <em>hard</em> (<em>a hard test</em>); <em>difficult</em> sounds a little more formal.</dd></dl>
+<p>Difficult has 3 distinct senses.</p>
+<p><strong>1. Not easy; needing a lot of effort, skill or thought.</strong> (трудный, сложный)</p>
+<ol><li>The exam was more <em>difficult</em> than I expected.</li><li>It's <em>difficult</em> to explain over the phone.</li><li>Choosing a college was the most <em>difficult</em> decision of her life.</li></ol>
+<p><strong>2. Full of problems; causing worry or trouble.</strong> (тяжёлый, трудный)</p>
+<ol start="4"><li>The family is going through a <em>difficult</em> time.</li><li>His question put me in a <em>difficult</em> position.</li></ol>
+<p><strong>3. Of a person: not easy to please or deal with; unwilling to cooperate.</strong> (трудный, несговорчивый, капризный)</p>
+<ol start="6"><li>Stop being <em>difficult</em> and just get in the car.</li><li>He can be <em>difficult</em> about money.</li><li>She's one of our more <em>difficult</em> clients.</li></ol>
+<hr>
+<h3 id="tough">tough<a class="hash" href="#tough" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʌf/ &middot; <em>TUHF</em></dd><dt>Русский</dt><dd>трудный; крепкий; строгий; жёсткий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>tougher</em>, <em>toughest</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive, where the subject is what you act on (<em>tough to beat</em>); <em>for</em> + person (<em>tough for her</em>); <em>on</em> + person or problem (strict with: <em>tough on crime</em>; hard for: <em>tough on the kids</em>)</dd><dt>Opposite</dt><dd><em>easy</em> (difficult); <em>weak</em> (strong); <em>tender</em> (of meat)</dd><dt>Contrast</dt><dd>In American speech <em>tough</em> is the everyday word for 'difficult' (<em>a tough week</em>, <em>a tough call</em>), more common than <em>difficult</em>. Russian <em>жёсткий</em> covers several English words: <em>tough</em> for meat and for strict rules, <em>hard</em> for a surface, <em>harsh</em> for criticism. <em>Tough luck!</em> and <em>Tough!</em> are not sympathy but the opposite: 'too bad, deal with it'. <em>Tough</em> rhymes with <em>stuff</em>; do not confuse it with <em>though</em> or <em>through</em>.</dd></dl>
+<p>Tough has 7 distinct senses.</p>
+<p><strong>1. Difficult; full of problems or needing a lot of effort.</strong> (трудный, тяжёлый)</p>
+<ol><li>It's been a <em>tough</em> year for the business.</li><li>The Yankees will be <em>tough</em> to beat.</li><li>That was the <em>toughest</em> exam I've ever taken.</li></ol>
+<p><strong>2. Strong and able to deal with pain, hard work or trouble.</strong> (крепкий, выносливый, стойкий)</p>
+<ol start="4"><li>She's <em>tougher</em> than she looks.</li><li>You have to be <em>tough</em> to survive in this business.</li></ol>
+<p><strong>3. Strict and firm; not willing to give way.</strong> (строгий, жёсткий)</p>
+<ol start="6"><li>The senator promised to be <em>tough</em> on crime.</li><li>Our math teacher was <em>tough</em> but fair.</li><li>The city passed <em>tough</em> new rules on short-term rentals.</li></ol>
+<p><strong>4. Of food, especially meat: hard to cut or chew.</strong> (жёсткий)</p>
+<ol start="9"><li>The steak was overcooked and <em>tough</em>.</li><li>Older chickens have <em>tougher</em> meat.</li></ol>
+<p><strong>5. Of a material: strong and not easily broken or torn.</strong> (прочный)</p>
+<ol start="11"><li>These boots are made of <em>tough</em> leather.</li><li>The phone case is made of <em>tough</em> plastic.</li></ol>
+<p><strong>6. Of a place or person: rough and likely to be violent.</strong> (опасный, неблагополучный; крутой)</p>
+<ol start="13"><li>He grew up in a <em>tough</em> neighborhood.</li><li>He likes to act <em>tough</em> in front of his friends.</li></ol>
+<p><strong>7. Unfortunate or unfair; as <em>Tough!</em> or <em>tough luck</em>, said without sympathy.</strong> (неудачный; не повезло)</p>
+<ol start="15"><li>"I don't want to go." "<em>Tough</em>. You're going."</li><li>Losing your job right before the holidays is <em>tough</em>.</li><li>You missed the deadline? <em>Tough</em> luck.</li></ol>
+<hr>
+<h3 id="likely">likely<a class="hash" href="#likely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪkli/ &middot; <em>LYK-lee</em></dd><dt>Русский</dt><dd>вероятный; подходящий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>more likely</em>, <em>most likely</em>; <em>likelier</em>, <em>likeliest</em> in writing</dd><dt>Takes</dt><dd><em>to</em>-infinitive with a person or thing as subject (<em>She's likely to win</em>); <em>that</em>-clause after <em>it</em> (<em>It's likely that she'll win</em>)</dd><dt>Form</dt><dd>-ly from <em>like</em> in its old sense 'similar', so it is an adjective, not a manner adverb</dd><dt>Opposite</dt><dd><em>unlikely</em></dd><dt>Contrast</dt><dd>Although it ends in <em>-ly</em>, <em>likely</em> is an adjective: <em>a likely result</em>, <em>Rain is likely</em>. American English also uses it as an adverb meaning 'probably', usually with <em>most</em>, <em>very</em> or <em>quite</em> or right before the verb: <em>They'll most likely be late</em>, <em>She will likely win</em>. Russian <em>вероятно</em> is safest as <em>probably</em>. <em>Likely</em> allows a personal subject (<em>He is likely to call</em>), but <em>probable</em> does not: say <em>It is probable that he will call</em>, never <em>He is probable to call</em>. <em>Not likely!</em> is a spoken way to say 'no chance'.</dd></dl>
+<p>Likely has 3 distinct senses.</p>
+<p><strong>1. Probably going to happen or be true.</strong> (вероятный)</p>
+<ol><li>Snow is <em>likely</em> later tonight.</li><li>She's <em>likely</em> to win the election.</li><li>It's <em>more likely</em> that he just forgot.</li></ol>
+<p><strong>2. Seeming right for a purpose; promising.</strong> (подходящий, многообещающий)</p>
+<ol start="4"><li>We searched every <em>likely</em> hiding place.</li><li>The bend in the river looked like a <em>likely</em> spot for trout.</li></ol>
+<p><strong>3. A likely story: used to say you do not believe what someone has told you.</strong> (так я и поверил)</p>
+<ol start="6"><li>He says the dog ate his homework. A <em>likely</em> story!</li><li>"I was at the library all night." "A <em>likely</em> story."</li></ol>
+<hr>
+<h3 id="unlikely">unlikely<a class="hash" href="#unlikely" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈlaɪkli/ &middot; <em>uhn-LYK-lee</em></dd><dt>Русский</dt><dd>маловероятный; неожиданный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>more unlikely</em>, <em>most unlikely</em>; <em>unlikeliest</em> before a noun</dd><dt>Takes</dt><dd><em>to</em>-infinitive (<em>He's unlikely to call</em>); <em>that</em>-clause after <em>it</em> (<em>It's unlikely that he'll call</em>)</dd><dt>Form</dt><dd>un- + <em>likely</em></dd><dt>Opposite</dt><dd><em>likely</em></dd><dt>Contrast</dt><dd>Unlike <em>likely</em>, <em>unlikely</em> is never an adverb: <em>He probably won't come</em> or <em>He is unlikely to come</em>, not <em>He will unlikely come</em>. Do not confuse it with the preposition <em>unlike</em> (в отличие от): <em>Unlike his brother, he's quiet</em>. <em>Most unlikely</em> can be a true superlative or just mean 'very unlikely' (<em>That's most unlikely</em>).</dd></dl>
+<p>Unlikely has 2 distinct senses.</p>
+<p><strong>1. Not probably going to happen or be true.</strong> (маловероятный)</p>
+<ol><li>He's <em>unlikely</em> to call back before Monday.</li><li>It's <em>unlikely</em> that the store is still open.</li><li>A deal now seems <em>more unlikely</em> than ever.</li></ol>
+<p><strong>2. Not what you would expect; surprising.</strong> (неожиданный, странный)</p>
+<ol start="4"><li>The two men formed an <em>unlikely</em> friendship.</li><li>She became the <em>unlikeliest</em> of heroes.</li><li>The idea came from an <em>unlikely</em> source.</li></ol>
+<hr>
+<h3 id="able">able<a class="hash" href="#able" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪbəl/ &middot; <em>AY-buhl</em></dd><dt>Русский</dt><dd>в состоянии; способный, умелый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>able to</em> + verb only after a verb; before a noun <em>able</em> means 'skilled': <em>an able student</em></dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>abler</em>, <em>ablest</em>, <em>more able</em>; with <em>to</em> + verb, <em>better able</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive (required in the 'can' sense: <em>able to swim</em>)</dd><dt>Opposite</dt><dd><em>unable</em> (can't); <em>incompetent</em> (skilled)</dd><dt>Contrast</dt><dd><em>Be able to</em> fills the gaps where <em>can</em> has no form: <em>will be able to</em>, <em>have been able to</em>, <em>might be able to</em> (never <em>will can</em>). For one success in the past, use <em>was able to</em> or <em>managed to</em>, not <em>could</em>: <em>I was able to get two tickets</em>. Russian <em>способный на</em> + noun or verb is <em>capable of</em> + noun or <em>-ing</em>: <em>capable of lying</em>, not <em>able of lying</em>. The noun is <em>ability</em>; <em>disabled</em> is a different word, about a lasting physical or mental condition.</dd></dl>
+<p>Able has 2 distinct senses.</p>
+<p><strong>1. able to: having the skill, strength, time or chance to do something.</strong> (в состоянии, способный (сделать))</p>
+<ol><li>Will you be <em>able</em> to come on Saturday?</li><li>I've never been <em>able</em> to whistle.</li><li>With the new software, we're <em>better able</em> to track orders.</li></ol>
+<p><strong>2. Clever and good at what you do; skilled.</strong> (способный, умелый)</p>
+<ol start="4"><li>She's a very <em>able</em> student.</li><li>He was one of the <em>ablest</em> lawyers in the state.</li></ol>
+<hr>
+<h3 id="willing">willing<a class="hash" href="#willing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪlɪŋ/ &middot; <em>WIL-ing</em></dd><dt>Русский</dt><dd>готовый, согласный; охотный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — with <em>to</em> + verb only after a verb; before a noun it means 'glad to help': <em>a willing helper</em></dd><dt>Comparison</dt><dd>more/most — <em>more willing</em>, <em>most willing</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive (<em>willing to help</em>)</dd><dt>Form</dt><dd>-ing from the old verb <em>will</em> 'want'</dd><dt>Opposite</dt><dd><em>unwilling</em>, <em>reluctant</em></dd><dt>Contrast</dt><dd><em>Willing</em> means you will do it if needed, not that you want to: <em>I'm willing to drive</em> is <em>я не против</em> or <em>я готов</em>, while <em>хочу</em> is <em>want</em> and <em>очень хочу</em> is <em>eager</em> or <em>can't wait</em>. <em>Willing</em> is not a verb form and is not followed by <em>for</em> + verb: <em>willing to help</em>, not <em>willing for helping</em>. <em>God willing</em> is a fixed phrase, <em>если Бог даст</em>.</dd></dl>
+<p>Willing has 2 distinct senses.</p>
+<p><strong>1. willing to: ready to do something if it is needed or asked; not objecting.</strong> (готовый, согласный (сделать))</p>
+<ol><li>Are you <em>willing</em> to work weekends?</li><li>How much are you <em>willing</em> to pay?</li><li>After the strike, management seemed more <em>willing</em> to talk.</li></ol>
+<p><strong>2. Doing something gladly and by choice.</strong> (охотный, добровольный)</p>
+<ol start="4"><li>There was no shortage of <em>willing</em> volunteers.</li><li>She was a <em>willing</em> participant in the experiment.</li></ol>
+<hr>
+<h3 id="unwilling">unwilling<a class="hash" href="#unwilling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈwɪlɪŋ/ &middot; <em>uhn-WIL-ing</em></dd><dt>Русский</dt><dd>не желающий; невольный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — with <em>to</em> + verb only after a verb; before a noun it means 'forced, against your will': <em>an unwilling witness</em></dd><dt>Comparison</dt><dd>more/most — <em>more unwilling</em>, <em>most unwilling</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive (<em>unwilling to help</em>)</dd><dt>Form</dt><dd>un- + <em>willing</em></dd><dt>Opposite</dt><dd><em>willing</em></dd><dt>Contrast</dt><dd><em>Unwilling</em> means you refuse and will not do it; <em>reluctant</em> means you do not want to and hesitate, but may do it in the end. <em>He was unwilling to sign</em> suggests he did not sign; <em>He was reluctant to sign</em> leaves it open. In everyday speech Russian <em>не хочу</em> is <em>I don't want to</em>; <em>unwilling</em> is more formal.</dd></dl>
+<p>Unwilling has 2 distinct senses.</p>
+<p><strong>1. unwilling to: not ready to do something; refusing.</strong> (не желающий, не готовый)</p>
+<ol><li>He was <em>unwilling</em> to talk about what happened.</li><li>Many banks are <em>unwilling</em> to lend to new businesses.</li><li>Voters seem more <em>unwilling</em> than ever to pay higher taxes.</li></ol>
+<p><strong>2. Made to do something or be part of something against your will.</strong> (невольный, вынужденный)</p>
+<ol start="4"><li>She became an <em>unwilling</em> celebrity after the video went viral.</li><li>The prosecutor called him as an <em>unwilling</em> witness.</li></ol>
+<hr>
+<h3 id="ready">ready<a class="hash" href="#ready" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛdi/ &middot; <em>RED-ee</em></dd><dt>Русский</dt><dd>готовый; быстрый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — in the 'prepared', 'willing' and 'about to' senses usually after a verb; before a noun it can mean 'quick' or 'available': <em>a ready answer</em>, <em>ready cash</em></dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>readier</em>, <em>readiest</em>, <em>more ready</em></dd><dt>Takes</dt><dd><em>for</em> + noun (prepared for: <em>ready for the test</em>; wanting: <em>ready for bed</em>); <em>to</em>-infinitive (prepared, willing or about to: <em>ready to go</em>, <em>ready to help</em>, <em>ready to cry</em>)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#ready-for">ready for</a></dd><dt>Contrast</dt><dd><em>Ready</em> is not <em>already</em> (уже): <em>Dinner is ready</em> (готов) vs <em>Dinner is already on the table</em>. Russian <em>Готово!</em> about finished work is <em>Done!</em> or <em>All set!</em>. Before a noun the meaning shifts: <em>a ready answer</em> is a quick answer, not a prepared one (that is <em>a canned answer</em>), and <em>ready cash</em> is money you have on hand. The everyday phrase for preparing yourself is <em>get ready</em>: <em>Go get ready for school</em>. <em>Ready-made</em> is a compound: <em>ready-made curtains</em>.</dd></dl>
+<p>Ready has 5 distinct senses.</p>
+<p><strong>1. Prepared for something; or finished and available to use or eat.</strong> (готовый)</p>
+<ol><li>Dinner's <em>ready</em>!</li><li>Are you <em>ready</em> for the test tomorrow?</li><li>Some kids are <em>readier</em> for kindergarten than others.</li></ol>
+<p><strong>2. ready to: willing and glad to do something.</strong> (готовый (охотно))</p>
+<ol start="4"><li>She's always <em>ready</em> to help a friend.</li><li>I'm not <em>ready</em> to forgive him yet.</li></ol>
+<p><strong>3. ready to: so upset, tired or excited that you are about to do something.</strong> (готовый (вот-вот))</p>
+<ol start="6"><li>By the end of the meeting I was <em>ready</em> to scream.</li><li>He looked <em>ready</em> to cry.</li></ol>
+<p><strong>4. ready for: wanting or needing something soon.</strong> (которому хочется, пора)</p>
+<ol start="8"><li>I'm <em>ready</em> for bed.</li><li>After six months without a break, we're more than <em>ready</em> for a vacation.</li></ol>
+<p><strong>5. Quick; or easy to get and use when needed.</strong> (быстрый; имеющийся под рукой)</p>
+<ol start="10"><li>He always has a <em>ready</em> excuse.</li><li>Students have <em>ready</em> access to computers in the library.</li></ol>
+<hr>
+<h3 id="reluctant">reluctant<a class="hash" href="#reluctant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈlʌktənt/ &middot; <em>rih-LUHK-tuhnt</em></dd><dt>Русский</dt><dd>неохотный; вынужденный</dd><dt>Type</dt><dd>quality; also emotion</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more reluctant</em>, <em>most reluctant</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive (<em>reluctant to leave</em>)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#reluctant-to">reluctant to</a></dd><dt>Opposite</dt><dd><em>willing</em>, <em>eager</em></dd><dt>Contrast</dt><dd>Russian <em>неохотно</em> is usually the adverb <em>reluctantly</em>: <em>She agreed reluctantly</em>, not <em>She agreed reluctant</em>. <em>Reluctant</em> means you hesitate and do not want to, but may still do it; <em>unwilling</em> means you will not. It takes a <em>to</em>-infinitive, not <em>about</em> or <em>for</em> + <em>-ing</em>: <em>reluctant to ask</em>, not <em>reluctant for asking</em>.</dd></dl>
+<p>Reluctant has 2 distinct senses.</p>
+<p><strong>1. Not wanting to do something, and slow or hesitant to do it.</strong> (неохотно делающий, не желающий)</p>
+<ol><li>He was <em>reluctant</em> to admit he'd made a mistake.</li><li>Young people are more <em>reluctant</em> to buy houses than their parents were.</li><li>I was <em>reluctant</em> to leave the kids with a new sitter.</li></ol>
+<p><strong>2. Taking part in something, or given, without real willingness.</strong> (вынужденный, неохотный)</p>
+<ol start="4"><li>He became a <em>reluctant</em> hero after pulling a child from the river.</li><li>She gave a <em>reluctant</em> nod.</li></ol>
+<hr>
+<h3 id="bound">bound<a class="hash" href="#bound" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baʊnd/ &middot; <em>BOWND</em></dd><dt>Русский</dt><dd>обязательный, непременный; обязанный; направляющийся</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — also after a noun in the 'heading for' sense (<em>a flight bound for Denver</em>); before a noun only in compounds: <em>a Denver-bound flight</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Takes</dt><dd><em>to</em>-infinitive (certain to; obliged to); <em>by</em> + noun (a law, promise or contract); <em>for</em> + place (traveling toward); <em>up with</em> or <em>up in</em> + noun (closely connected with)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#bound-by">bound by</a></dd><dt>Form</dt><dd>past participle of <em>bind</em> 'tie'</dd><dt>Contrast</dt><dd><em>Bound to</em> usually means 'certain to', not 'obliged to': <em>He's bound to be late</em> is <em>он наверняка опоздает</em>, not <em>он обязан опоздать</em>. The 'obliged' sense mostly comes with <em>legally</em>, <em>by law</em>, <em>by contract</em> or <em>duty-bound</em>. This <em>bound</em> has nothing to do with the verb and noun <em>bound</em> 'jump' or with <em>out of bounds</em>. The suffix <em>-bound</em> has two meanings: <em>Chicago-bound</em> is heading to Chicago, but <em>snowbound</em> and <em>housebound</em> mean unable to leave. <em>The prisoner was bound</em> is the passive of <em>bind</em> (связан), a verb form.</dd></dl>
+<p>Bound has 4 distinct senses.</p>
+<p><strong>1. bound to: certain or very likely to happen or to do something.</strong> (обязательно, непременно, наверняка)</p>
+<ol><li>It's <em>bound</em> to rain the day we go to the beach.</li><li>You're <em>bound</em> to feel nervous on your first day.</li><li>With so many people involved, there are <em>bound</em> to be mistakes.</li></ol>
+<p><strong>2. Required to do something by a law, a promise or duty.</strong> (обязанный, связанный (обязательством))</p>
+<ol start="4"><li>The company is legally <em>bound</em> to refund your money.</li><li>We're <em>bound</em> by the terms of the contract.</li><li>I felt <em>bound</em> to tell her the truth.</li></ol>
+<p><strong>3. bound for: traveling toward a place.</strong> (направляющийся (в))</p>
+<ol start="7"><li>The plane was <em>bound</em> for Seattle.</li><li>Passengers <em>bound</em> for Newark should change trains here.</li></ol>
+<p><strong>4. bound up with: closely connected with something.</strong> (тесно связанный (с))</p>
+<ol start="9"><li>Her sense of self is <em>bound</em> up with her job.</li><li>The town's history is <em>bound</em> up with the railroad.</li></ol>
+<hr>
+<h3 id="due">due<a class="hash" href="#due" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/duː/ &middot; <em>DOO</em></dd><dt>Русский</dt><dd>ожидаемый; причитающийся; вызванный; должный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — the 'proper' sense only before a noun (<em>due care</em>, <em>in due course</em>); the other senses after a verb or noun (<em>The rent is due</em>, <em>the money due to her</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Takes</dt><dd><em>to</em>-infinitive (scheduled to: <em>due to arrive</em>); <em>to</em> + noun (caused by: <em>due to the weather</em>; owed to: <em>the credit due to her</em>); <em>for</em> + noun (going to need soon: <em>due for a checkup</em>)</dd><dt>Contrast</dt><dd><em>Due to</em> has two patterns with different meanings: <em>due to</em> + verb is 'scheduled' (<em>The plane is due to land at six</em>, по расписанию), and <em>due to</em> + noun is 'caused by' (<em>The delay was due to fog</em>, из-за). It does not mean Russian <em>должен</em> in the sense of duty: <em>You are due to pay on Monday</em> means payment is scheduled; for obligation use <em>have to</em> or <em>should</em>. Careful writers keep <em>due to</em> after <em>be</em> and start a sentence with <em>Because of</em>, though <em>Due to the storm, the game was canceled</em> is everywhere in American English. <em>Past due</em> and <em>overdue</em> mean late. The plural noun <em>dues</em> is a membership fee (членские взносы), and in <em>due north</em> the word is an adverb.</dd></dl>
+<p>Due has 5 distinct senses.</p>
+<p><strong>1. Expected or planned to happen or arrive at a certain time.</strong> (ожидаемый (по плану, по расписанию))</p>
+<ol><li>The baby is <em>due</em> in March.</li><li>The next train is <em>due</em> at 6:15.</li><li>The report is <em>due</em> to come out next week.</li></ol>
+<p><strong>2. Owed; that must be paid, returned or handed in by a certain time.</strong> (подлежащий уплате, сдаче; причитающийся)</p>
+<ol start="4"><li>The rent is <em>due</em> on the first of the month.</li><li>Your library books are <em>due</em> back on Friday.</li><li>She finally got the credit she was <em>due</em>.</li></ol>
+<p><strong>3. due to: caused by.</strong> (вызванный (чем-то), из-за)</p>
+<ol start="7"><li>The delay was <em>due</em> to bad weather.</li><li>Most of the damage was <em>due</em> to water, not fire.</li></ol>
+<p><strong>4. due for: going to need or get something soon.</strong> (которому пора)</p>
+<ol start="9"><li>I'm <em>due</em> for a haircut.</li><li>After three losing seasons, the team is <em>due</em> for some luck.</li></ol>
+<p><strong>5. Proper and appropriate; as much as is needed.</strong> (должный, надлежащий)</p>
+<ol start="11"><li>Drive with <em>due</em> care on wet roads.</li><li>With all <em>due</em> respect, I think you're wrong.</li><li>You'll hear from us in <em>due</em> course.</li></ol>
+<hr>
+<h3 id="apt">apt<a class="hash" href="#apt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æpt/ &middot; <em>APT</em></dd><dt>Русский</dt><dd>склонный; уместный, меткий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>apt to</em> + verb only after a verb; the 'fitting' sense before or after a noun: <em>an apt description</em>, <em>The name is apt</em></dd><dt>Comparison</dt><dd>more/most — <em>more apt</em>, <em>most apt</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive (<em>apt to forget</em>)</dd><dt>Form</dt><dd>from Latin <em>aptus</em> 'fitted', the root of <em>aptitude</em></dd><dt>Contrast</dt><dd><em>Apt to</em>, <em>likely to</em>, <em>liable to</em> and <em>prone to</em> all mean 'tending to'. <em>Apt to</em> describes a habit or natural tendency (<em>He's apt to exaggerate</em>); <em>liable to</em> and <em>prone to</em> point to something bad; <em>likely to</em> is the neutral, most common choice and can be about a single event (<em>It's likely to rain</em>). In American apartment listings <em>apt.</em> is short for <em>apartment</em>, a different word.</dd></dl>
+<p>Apt has 3 distinct senses.</p>
+<p><strong>1. apt to: tending to do something, as a habit or by nature.</strong> (склонный)</p>
+<ol><li>He's <em>apt</em> to lose his temper when he's tired.</li><li>Cheap shoes are <em>apt</em> to fall apart in the rain.</li><li>Shoppers are more <em>apt</em> to buy when prices end in 99 cents.</li></ol>
+<p><strong>2. Exactly right for the situation; well chosen.</strong> (уместный, меткий, подходящий)</p>
+<ol start="4"><li>'Chaos' is an <em>apt</em> description of our first week.</li><li>I can't think of a more <em>apt</em> word for it.</li></ol>
+<p><strong>3. Quick to learn; used mostly in formal or older writing.</strong> (способный, смышлёный)</p>
+<ol start="6"><li>She was an <em>apt</em> pupil and learned to read at four.</li><li>He proved an <em>apt</em> student of the game.</li></ol>
+<hr>
+<h3 id="liable">liable<a class="hash" href="#liable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪəbəl/ &middot; <em>LY-uh-buhl</em></dd><dt>Русский</dt><dd>склонный (к плохому); ответственный; подлежащий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — also after a noun (<em>the driver liable for the damage</em>); rare before a noun outside legal writing</dd><dt>Comparison</dt><dd>more/most — <em>more liable</em>, <em>most liable</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive (likely to, usually something bad: <em>liable to crack</em>); <em>for</em> + noun (legally responsible for); <em>to</em> + noun (legally subject to: <em>liable to a fine</em>)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#liable-for-liable-to">liable for</a> &middot; <a href="../../06-prepositions/catalog/15-dependent-adjectives.html#liable-for-liable-to">liable to</a></dd><dt>Contrast</dt><dd><em>Liable to</em> + verb is for bad or unwanted things (<em>The roof is liable to leak</em>); for neutral or good things use <em>likely to</em>. <em>Liable for</em> is legal responsibility, often with <em>hold</em> (<em>The court held the landlord liable</em>). Do not confuse it with <em>libel</em> (клевета), which sounds almost the same; <em>liable</em> has three syllables, LY-uh-buhl. The noun <em>liability</em> also means a debt in business (обязательство, пассив).</dd></dl>
+<p>Liable has 3 distinct senses.</p>
+<p><strong>1. liable to: likely to do or suffer something bad.</strong> (склонный, могущий (о плохом))</p>
+<ol><li>The ice is <em>liable</em> to crack if you walk on it.</li><li>Older cars are more <em>liable</em> to break down.</li><li>He's <em>liable</em> to say something he'll regret.</li></ol>
+<p><strong>2. Legally responsible for paying for something or for damage.</strong> ((юридически) ответственный)</p>
+<ol start="4"><li>The landlord is <em>liable</em> for repairs to the building.</li><li>You could be held <em>liable</em> if someone gets hurt on your property.</li></ol>
+<p><strong>3. liable to + noun: legally subject to a punishment, tax or rule.</strong> (подлежащий, облагаемый)</p>
+<ol start="6"><li>Violators are <em>liable</em> to a fine of up to $500.</li><li>Anyone who lies under oath is <em>liable</em> to prosecution.</li></ol>
+<hr>
+<h3 id="prone">prone<a class="hash" href="#prone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/proʊn/ &middot; <em>PROHN</em></dd><dt>Русский</dt><dd>склонный, подверженный; лежащий ничком</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — the 'tending to' sense only after a verb, or before a noun in compounds (<em>accident-prone</em>, <em>an injury-prone player</em>); the 'face down' sense after <em>lie</em> or before a noun (<em>a prone position</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more prone</em>, <em>most prone</em></dd><dt>Takes</dt><dd><em>to</em> + noun or <em>-ing</em> (<em>prone to injury</em>, <em>prone to flooding</em>); <em>to</em>-infinitive (<em>prone to exaggerate</em>)</dd><dt>Opposite</dt><dd><em>supine</em> (lying face up)</dd><dt>Contrast</dt><dd><em>Prone to</em> is for bad or unwanted tendencies: <em>prone to colds</em>, <em>prone to mistakes</em>; for good ones say <em>inclined to</em> or <em>tend to</em>. Russian <em>склонный к</em> + noun is often <em>prone to</em> + noun, but with a verb English usually prefers <em>tend to</em>: <em>He tends to exaggerate</em>. The hyphenated compounds are very common: <em>accident-prone</em>, <em>earthquake-prone</em>, <em>error-prone</em>. In medical and police language <em>prone</em> is face down and <em>supine</em> is face up.</dd></dl>
+<p>Prone has 2 distinct senses.</p>
+<p><strong>1. prone to: likely to suffer from something or to do something bad, often.</strong> (склонный, подверженный)</p>
+<ol><li>She's <em>prone</em> to migraines.</li><li>This part of the coast is <em>prone</em> to flooding.</li><li>Teenagers are more <em>prone</em> to take risks than adults.</li></ol>
+<p><strong>2. Lying flat with the face down.</strong> (лежащий ничком)</p>
+<ol start="4"><li>The paramedics found him lying <em>prone</em> on the kitchen floor.</li><li>Do this exercise in a <em>prone</em> position, with your arms at your sides.</li></ol>
+<hr>
+<h3 id="lucky">lucky<a class="hash" href="#lucky" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌki/ &middot; <em>LUHK-ee</em></dd><dt>Русский</dt><dd>везучий, удачливый; удачный; счастливый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>luckier</em>, <em>luckiest</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive (<em>lucky to be alive</em>); <em>that</em>-clause (<em>lucky that nobody was hurt</em>); <em>with</em> + noun (<em>lucky with the weather</em>)</dd><dt>Form</dt><dd>-y from <em>luck</em></dd><dt>Opposite</dt><dd><em>unlucky</em></dd><dt>Contrast</dt><dd>Russian <em>счастливый</em> is two English words: <em>happy</em> for the feeling and <em>lucky</em> for good luck. <em>I'm lucky</em> means удача is on my side, not that I feel joy; <em>a lucky number</em> brings luck. <em>Lucky to</em> + verb often means you escaped something bad (<em>You're lucky to be alive</em>). <em>Lucky you!</em> is envy or teasing, and informal <em>Lucky for you,</em> means <em>luckily</em>. <em>Fortunate</em> is the more formal word.</dd></dl>
+<p>Lucky has 3 distinct senses.</p>
+<p><strong>1. Having good luck; having something good happen by chance.</strong> (везучий, удачливый; которому повезло)</p>
+<ol><li>You're so <em>lucky</em>! You never have to wait in line.</li><li>We were <em>lucky</em> with the weather.</li><li>I'm the <em>luckiest</em> guy in the world.</li></ol>
+<p><strong>2. Happening by chance and bringing a good result.</strong> (удачный, счастливый (случайный))</p>
+<ol start="4"><li>It was just a <em>lucky</em> guess.</li><li>Getting that job was a <em>lucky</em> break.</li><li>It's <em>lucky</em> that nobody was home when the tree fell.</li></ol>
+<p><strong>3. Believed to bring good luck.</strong> (счастливый (приносящий удачу))</p>
+<ol start="7"><li>Seven is my <em>lucky</em> number.</li><li>He wore his <em>lucky</em> socks to every game.</li></ol>
+<hr>
+<h3 id="necessary">necessary<a class="hash" href="#necessary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɛsəˌsɛri/ &middot; <em>NES-uh-ser-ee</em></dd><dt>Русский</dt><dd>необходимый, нужный; неизбежный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more necessary</em>, <em>most necessary</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive after <em>it</em> (<em>It's necessary to book</em>); <em>for</em> + person or thing + <em>to</em>-infinitive (<em>necessary for you to sign</em>); <em>for</em> or <em>to</em> + noun (<em>necessary for growth</em>); <em>that</em>-clause, in formal style with the base verb (<em>necessary that he be told</em>)</dd><dt>Opposite</dt><dd><em>unnecessary</em></dd><dt>Contrast</dt><dd>Russian <em>мне необходимо</em> is <em>I need to</em> or <em>It's necessary for me to</em>, never <em>I am necessary</em>, which means that others need me. It takes <em>for</em>, not <em>of</em>: <em>necessary for you to sign</em>. In speech <em>need</em> is far more natural: <em>You need to sign here</em> sounds friendlier than <em>It is necessary for you to sign here</em>. After <em>It is necessary that</em>, formal American English uses the base verb: <em>It's necessary that every form be signed</em>. Spelling: one <em>c</em>, double <em>s</em>. <em>If necessary</em> is a fixed phrase, <em>при необходимости</em>.</dd></dl>
+<p>Necessary has 2 distinct senses.</p>
+<p><strong>1. Needed; that must be done or had.</strong> (необходимый, нужный)</p>
+<ol><li>Is all this paperwork really <em>necessary</em>?</li><li>It's <em>necessary</em> to book at least a month in advance.</li><li>For a growing kid, sleep is more <em>necessary</em> than homework.</li></ol>
+<p><strong>2. Unavoidable; that must happen as a result.</strong> (неизбежный)</p>
+<ol start="4"><li>Higher prices are a <em>necessary</em> result of the shortage.</li><li>For most people in this town, a car is a <em>necessary</em> evil.</li></ol>
+<hr>
+<h3 id="important">important<a class="hash" href="#important" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈpɔːrtənt/ &middot; <em>im-POR-tuhnt</em></dd><dt>Русский</dt><dd>важный; влиятельный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more important</em>, <em>most important</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive after <em>it</em> (<em>It's important to rest</em>); <em>for</em> + person + <em>to</em>-infinitive (<em>important for you to rest</em>); <em>to</em> + person (what they care about); <em>for</em> + noun (good or needed for); <em>that</em>-clause, with the base verb in formal style (<em>important that he be told</em>)</dd><dt>Opposite</dt><dd><em>unimportant</em></dd><dt>Contrast</dt><dd>Two prepositions, two meanings: <em>important to me</em> is what I care about (<em>Family is important to me</em>), <em>important for me</em> is what is good or needed for me (<em>Exercise is important for my back</em>). It takes <em>for</em>, never <em>of</em>: <em>It's important for you to rest</em>, not <em>important of you</em>; <em>of you</em> belongs to adjectives that judge a person's action (<em>kind of you</em>, <em>stupid of you</em>). After <em>It's important that</em>, formal American English uses the base verb: <em>It's important that she take her medicine</em>. Russian <em>важный</em> meaning 'pompous' (<em>важный вид</em>) is <em>self-important</em> or <em>pompous</em>, not <em>important</em>. <em>The most important thing is</em> is a natural way to say <em>главное</em>.</dd></dl>
+<p>Important has 2 distinct senses.</p>
+<p><strong>1. Mattering a lot; having a big effect or value.</strong> (важный)</p>
+<ol><li>It's <em>important</em> to drink plenty of water.</li><li>Family has always been very <em>important</em> to her.</li><li>The most <em>important</em> thing is that nobody got hurt.</li></ol>
+<p><strong>2. Of a person: powerful or respected, with a lot of influence.</strong> (влиятельный, важный)</p>
+<ol start="4"><li>She's an <em>important</em> figure in the state party.</li><li>He loves to feel <em>important</em>.</li></ol>
+<hr>
+<h3 id="vital">vital<a class="hash" href="#vital" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvaɪtəl/ &middot; <em>VY-tuhl</em></dd><dt>Русский</dt><dd>жизненно важный; энергичный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more vital</em>, <em>most vital</em></dd><dt>Takes</dt><dd><em>to</em> or <em>for</em> + noun (<em>vital to success</em>, <em>vital for health</em>); <em>to</em>-infinitive after <em>it</em> (<em>It's vital to act now</em>); <em>for</em> + person + <em>to</em>-infinitive; <em>that</em>-clause with the base verb (<em>vital that she get the message</em>)</dd><dt>Contrast</dt><dd><em>Vital</em> is stronger than <em>important</em>: without it, something fails or dies. It is usually strengthened with <em>absolutely</em>, not <em>very</em>. After <em>It is vital that</em>, formal American English uses the base verb: <em>It's vital that everyone arrive on time</em>, not <em>arrives</em>; British English often says <em>should arrive</em>. It takes <em>for</em>, never <em>of</em>: <em>vital for you to know</em>. <em>Vital signs</em> are pulse, breathing and blood pressure (жизненные показатели).</dd></dl>
+<p>Vital has 3 distinct senses.</p>
+<p><strong>1. Extremely important; necessary for something to succeed or exist.</strong> (жизненно важный, крайне необходимый)</p>
+<ol><li>It's <em>vital</em> that she get this message today.</li><li>Tourism is <em>vital</em> to the island's economy.</li><li>Nothing is more <em>vital</em> to a small business than cash flow.</li></ol>
+<p><strong>2. Of the body: needed to stay alive, or showing that a person is alive.</strong> (жизненно важный (об органах))</p>
+<ol start="4"><li>The bullet missed all his <em>vital</em> organs.</li><li>The nurse checked her <em>vital</em> signs every hour.</li></ol>
+<p><strong>3. Full of energy and life.</strong> (энергичный, полный жизни)</p>
+<ol start="6"><li>At 85, she's still a <em>vital</em>, active woman.</li><li>After years of decline, downtown feels <em>vital</em> again.</li></ol>
+<hr>
+<h3 id="crucial">crucial<a class="hash" href="#crucial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkruːʃəl/ &middot; <em>KROO-shuhl</em></dd><dt>Русский</dt><dd>решающий, ключевой, критически важный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more crucial</em>, <em>most crucial</em></dd><dt>Takes</dt><dd><em>to</em> or <em>for</em> + noun (<em>crucial to the plan</em>); <em>to</em>-infinitive after <em>it</em> (<em>It's crucial to act fast</em>); <em>for</em> + person + <em>to</em>-infinitive; <em>that</em>-clause, with the base verb in formal style (<em>crucial that he be there</em>)</dd><dt>Contrast</dt><dd><em>Crucial</em> means the result depends on it (решающий), which is more than <em>important</em>; it is strengthened with <em>absolutely</em>, not <em>very</em>. After <em>It is crucial that</em>, formal American English uses the base verb: <em>It's crucial that the patient rest</em>. It takes <em>for</em>, not <em>of</em>: <em>crucial for us to win</em>. The middle sound is /ʃ/: KROO-shuhl.</dd></dl>
+<p>Extremely important, because what happens next depends on it.</p>
+<ol><li>The next 48 hours will be <em>crucial</em>.</li><li>Her testimony was <em>crucial</em> to the case.</li><li>This is the most <em>crucial</em> game of the season.</li></ol>
+<hr>
+<h3 id="imperative">imperative<a class="hash" href="#imperative" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈpɛrətɪv/ &middot; <em>im-PER-uh-tiv</em></dd><dt>Русский</dt><dd>крайне необходимый; повелительный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — the 'urgent' sense mostly after <em>it is</em> (<em>It is imperative that…</em>); the 'commanding' sense before a noun (<em>an imperative tone</em>, <em>the imperative mood</em>)</dd><dt>Comparison</dt><dd>not gradable — strengthen with <em>absolutely</em>: <em>absolutely imperative</em></dd><dt>Takes</dt><dd><em>that</em>-clause with the base verb (<em>imperative that he leave</em>); <em>to</em>-infinitive after <em>it</em> (<em>imperative to act</em>); <em>for</em> + person + <em>to</em>-infinitive (<em>imperative for us to leave</em>)</dd><dt>Form</dt><dd>from Latin <em>imperare</em> 'to command'</dd><dt>Contrast</dt><dd><em>Imperative</em> is the strongest word in this group and always formal: in speech say <em>We have to</em> or <em>We really need to</em>. After <em>It is imperative that</em>, American English uses the base verb: <em>It is imperative that he be there</em> and <em>that she call us</em>, not <em>is</em> or <em>calls</em>. It takes <em>for</em>, not <em>of</em>: <em>imperative for us to leave</em>. A person cannot be <em>imperative</em>: <em>It is imperative for me</em>, not <em>I am imperative</em>. The noun <em>the imperative</em> is the command form in grammar (повелительное наклонение), and <em>a moral imperative</em> is a duty.</dd></dl>
+<p>Imperative has 2 distinct senses.</p>
+<p><strong>1. Extremely important and urgent; that must be done.</strong> (крайне необходимый, настоятельный)</p>
+<ol><li>It is <em>imperative</em> that we leave the building now.</li><li>It's <em>imperative</em> to keep the wound clean.</li><li>Speed is <em>imperative</em> in an emergency.</li></ol>
+<p><strong>2. Expressing a command: of a voice or tone, or of the verb form used for orders.</strong> (повелительный, властный)</p>
+<ol start="4"><li>She spoke in an <em>imperative</em> tone that nobody questioned.</li><li>In "Sit down!" the verb is in the <em>imperative</em> mood.</li></ol>
+<hr>
+<h3 id="advisable">advisable<a class="hash" href="#advisable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈvaɪzəbəl/ &middot; <em>uhd-VY-zuh-buhl</em></dd><dt>Русский</dt><dd>рекомендуемый, целесообразный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — almost always <em>it is advisable to</em> or <em>X is advisable</em>; before a noun say <em>recommended</em>: <em>the recommended dose</em></dd><dt>Comparison</dt><dd>more/most — <em>more advisable</em>, <em>most advisable</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive after <em>it</em> (<em>It is advisable to book early</em>); <em>for</em> + person + <em>to</em>-infinitive; <em>that</em>-clause, with the base verb in formal style (<em>advisable that guests arrive early</em>)</dd><dt>Form</dt><dd><em>advise</em> + -able</dd><dt>Opposite</dt><dd><em>inadvisable</em>, <em>unwise</em></dd><dt>Contrast</dt><dd><em>Advisable</em> is formal and belongs to notices and instructions (<em>Reservations are advisable</em>); in conversation say <em>It's a good idea to</em> or <em>You should</em>. It describes the action, not the person: <em>It is advisable for you to wait</em>, not <em>You are advisable to wait</em>. Spelling follows the verb <em>advise</em>, with <em>s</em>, not the noun <em>advice</em>.</dd></dl>
+<p>Sensible and recommended in a particular situation.</p>
+<ol><li>Reservations are <em>advisable</em> on weekends.</li><li>It is <em>advisable</em> to wear a helmet on the mountain trails.</li><li>Getting there early is <em>advisable</em> if you want a seat.</li></ol>
+<hr>
+<h3 id="strange">strange<a class="hash" href="#strange" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/streɪndʒ/ &middot; <em>STRAYNJ</em></dd><dt>Русский</dt><dd>странный; незнакомый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>stranger</em>, <em>strangest</em></dd><dt>Takes</dt><dd><em>that</em>-clause after <em>it</em> (<em>It's strange that she left</em>); <em>to</em>-infinitive after <em>it</em> (<em>strange to see him here</em>); <em>for</em> + person + <em>to</em>-infinitive (unusual for them); <em>to</em> + person (how it seems to them)</dd><dt>Opposite</dt><dd><em>normal</em>; <em>familiar</em></dd><dt>Contrast</dt><dd><em>Strange</em> has nothing to do with <em>страна</em>: Russian <em>иностранный</em> is <em>foreign</em> (<em>a foreign language</em>), and <em>a strange country</em> means a weird or unfamiliar one. <em>Stranger</em> is both the comparative and a noun meaning <em>незнакомец</em>: <em>Truth is stranger than fiction</em> vs <em>Don't talk to strangers</em>. <em>Strange to me</em> is how it seems to me (<em>It seems strange to me</em>); <em>strange for her</em> is unusual for her (<em>It's strange for her to be late</em>). <em>It's strange that she should say that</em>, with <em>should</em>, stresses surprise.</dd></dl>
+<p>Strange has 3 distinct senses.</p>
+<p><strong>1. Unusual or surprising; hard to explain.</strong> (странный)</p>
+<ol><li>It's <em>strange</em> that she hasn't called back.</li><li>The <em>strangest</em> thing happened on my way to work.</li><li>Isn't it <em>strange</em> to see the city so empty?</li></ol>
+<p><strong>2. Not known or met before; unfamiliar.</strong> (незнакомый, чужой)</p>
+<ol start="4"><li>Never get into a car with a <em>strange</em> man.</li><li>It's hard to sleep in a <em>strange</em> bed.</li></ol>
+<p><strong>3. Feeling slightly ill, uneasy or not yourself.</strong> (не по себе, странно)</p>
+<ol start="6"><li>I felt a little <em>strange</em> after taking the pills.</li><li>The heat made her feel <em>strange</em> and dizzy.</li></ol>
+<hr>
+<h3 id="odd">odd<a class="hash" href="#odd" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːd/ &middot; <em>AHD</em></dd><dt>Русский</dt><dd>странный; нечётный; непарный; случайный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — the 'occasional' and 'left over' senses only before a noun (<em>odd jobs</em>); the 'a little more than' sense only after a number, usually with a hyphen (<em>forty-odd</em>)</dd><dt>Comparison</dt><dd>-er/-est — <em>odder</em>, <em>oddest</em>; the number senses are not gradable</dd><dt>Takes</dt><dd><em>that</em>-clause after <em>it</em> (<em>It's odd that</em>); <em>to</em>-infinitive after <em>it</em> (<em>odd to hear</em>); <em>for</em> + person + <em>to</em>-infinitive</dd><dt>Opposite</dt><dd><em>even</em> (of numbers); <em>normal</em></dd><dt>Contrast</dt><dd>Do not confuse <em>odd</em> with the noun <em>odds</em> (шансы): <em>The odds are good</em>. <em>Odd</em> 'strange' is a little milder than <em>strange</em> or <em>weird</em>, and <em>the odd one out</em> is the one that does not fit a group. <em>Odd jobs</em> and <em>at odd hours</em> are common in American English, but <em>the odd beer</em> for 'an occasional beer' and <em>odd socks</em> for <em>mismatched socks</em> sound British. <em>Odd</em> numbers are <em>нечётные</em>, <em>even</em> numbers <em>чётные</em>.</dd></dl>
+<p>Odd has 5 distinct senses.</p>
+<p><strong>1. Strange or unusual.</strong> (странный)</p>
+<ol><li>It's <em>odd</em> that nobody noticed the door was open.</li><li>What an <em>odd</em> thing to say.</li><li>I had the <em>oddest</em> dream last night.</li></ol>
+<p><strong>2. Of a number: that cannot be divided exactly by two.</strong> (нечётный)</p>
+<ol start="4"><li>Three, five and seven are <em>odd</em> numbers.</li><li>The <em>odd</em> pages are on the right.</li></ol>
+<p><strong>3. Left over from a pair or set; not matching the rest.</strong> (непарный, разрозненный)</p>
+<ol start="6"><li>He built the shed from <em>odd</em> pieces of lumber.</li><li>The dish rack was full of <em>odd</em> plates and cups.</li></ol>
+<p><strong>4. Of jobs and times: various and irregular, not fixed or regular.</strong> (случайный, разовый; нерегулярный)</p>
+<ol start="8"><li>He does <em>odd</em> jobs around the neighborhood.</li><li>My roommate comes and goes at <em>odd</em> hours.</li></ol>
+<p><strong>5. After a number: a little more than.</strong> (с лишним, с небольшим)</p>
+<ol start="10"><li>The house is a hundred-<em>odd</em> years old.</li><li>Forty-<em>odd</em> people showed up for the meeting.</li></ol>
+<hr>
+<h3 id="obvious">obvious<a class="hash" href="#obvious" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːbviəs/ &middot; <em>AHB-vee-uhs</em></dd><dt>Русский</dt><dd>очевидный, явный; слишком заметный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more obvious</em>, <em>most obvious</em></dd><dt>Takes</dt><dd><em>that</em>-clause after <em>it</em> (<em>It's obvious that</em>); <em>to</em> + person (<em>obvious to everyone</em>)</dd><dt>Opposite</dt><dd><em>unclear</em>; <em>subtle</em></dd><dt>Contrast</dt><dd>It is obvious <em>to</em> someone, not <em>for</em> someone: <em>It was obvious to everyone that he was lying</em>. Russian <em>очевидно</em> at the start of a sentence is the adverb <em>obviously</em> or <em>clearly</em>. Said of a person or a joke, <em>obvious</em> is criticism: <em>Don't be so obvious</em> means you are not hiding what you want or think. In <em>state the obvious</em> (говорить очевидное) it works as a noun.</dd></dl>
+<p>Obvious has 2 distinct senses.</p>
+<p><strong>1. Easy to see or understand; clear to everyone.</strong> (очевидный, явный)</p>
+<ol><li>It's <em>obvious</em> that he's not telling the truth.</li><li>For <em>obvious</em> reasons, we can't give out his address.</li><li>The problem became more <em>obvious</em> after a few weeks.</li></ol>
+<p><strong>2. Too easy to notice or predict; not subtle or original.</strong> (слишком заметный, банальный)</p>
+<ol start="4"><li>The twist at the end was a little <em>obvious</em>.</li><li>Stop staring at him; you're being so <em>obvious</em>.</li></ol>
+<hr>
+<h3 id="clear">clear<a class="hash" href="#clear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɪr/ &middot; <em>KLEER</em></dd><dt>Русский</dt><dd>ясный; понятный; прозрачный; свободный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>clearer</em>, <em>clearest</em></dd><dt>Takes</dt><dd><em>that</em>-clause after <em>it</em> (<em>It's clear that</em>); <em>to</em> + person (<em>clear to me</em>); <em>about</em> or <em>on</em> + noun (sure about: <em>clear about the rules</em>); <em>of</em> + noun (free of: <em>clear of snow</em>; away from: <em>stand clear of the doors</em>)</dd><dt>Opposite</dt><dd><em>unclear</em>; <em>cloudy</em></dd><dt>Contrast</dt><dd>Russian <em>чистый</em> is two words: <em>clean</em> is not dirty, <em>clear</em> is transparent or free of things. <em>Clean water</em> is safe to use; <em>clear water</em> is water you can see through. <em>Clear skin</em> has no pimples, and <em>a clear conscience</em> is <em>чистая совесть</em>. It is clear <em>to</em> someone, not <em>for</em> someone: <em>It's clear to me</em>. <em>Clear</em> is also a verb (<em>clear the table</em>) and, in informal American English, an adverb meaning 'all the way' (<em>clear across the country</em>). The adverb for 'in a clear way' is <em>clearly</em>: <em>Speak clearly</em>.</dd></dl>
+<p>Clear has 8 distinct senses.</p>
+<p><strong>1. Easy to understand, see or hear.</strong> (понятный, ясный, чёткий)</p>
+<ol><li>The instructions were short and <em>clear</em>.</li><li>The picture on the new TV is much <em>clearer</em>.</li><li>Is that <em>clear</em>?</li></ol>
+<p><strong>2. Certain; leaving no doubt.</strong> (очевидный, явный)</p>
+<ol start="4"><li>It's <em>clear</em> that she's upset about something.</li><li>She was the <em>clear</em> winner.</li><li>It became <em>clearer</em> every day that the plan wouldn't work.</li></ol>
+<p><strong>3. Of a person: sure that you understand something.</strong> (ясно понимающий, уверенный)</p>
+<ol start="7"><li>I'm not <em>clear</em> about what you want me to do.</li><li>Are we <em>clear</em> on who's picking up the kids?</li></ol>
+<p><strong>4. Easy to see through; transparent.</strong> (прозрачный)</p>
+<ol start="9"><li>The water was so <em>clear</em> we could see the bottom.</li><li>Put your liquids in a <em>clear</em> plastic bag.</li></ol>
+<p><strong>5. Of the sky or weather: without clouds, fog or rain.</strong> (ясный, безоблачный)</p>
+<ol start="11"><li>It was a cold, <em>clear</em> night.</li><li>The forecast calls for <em>clear</em> skies all weekend.</li></ol>
+<p><strong>6. Free from things that block the way; or not touching something.</strong> (свободный; на расстоянии)</p>
+<ol start="13"><li>The road is <em>clear</em> of snow now.</li><li>Stand <em>clear</em> of the closing doors, please.</li><li>Wait until the intersection is <em>clear</em>.</li></ol>
+<p><strong>7. Of skin: without spots or pimples.</strong> (чистый (о коже))</p>
+<ol start="16"><li>She has beautiful <em>clear</em> skin.</li><li>His skin got <em>clearer</em> once he changed his diet.</li></ol>
+<p><strong>8. Of the mind or conscience: not confused; not feeling guilty.</strong> (ясный; чистый (о совести))</p>
+<ol start="18"><li>I need a <em>clear</em> head before I decide.</li><li>I have a <em>clear</em> conscience; I didn't do anything wrong.</li></ol>
+<hr>
+<h3 id="evident">evident<a class="hash" href="#evident" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛvɪdənt/ &middot; <em>EV-ih-duhnt</em></dd><dt>Русский</dt><dd>очевидный, явный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — mostly after a verb (<em>It was evident that…</em>); before a noun it is formal: <em>with evident pleasure</em></dd><dt>Comparison</dt><dd>more/most — <em>more evident</em>, <em>most evident</em></dd><dt>Takes</dt><dd><em>that</em>-clause after <em>it</em> (<em>It was evident that</em>); <em>to</em> + person (<em>evident to everyone</em>); <em>in</em> or <em>from</em> + noun (where it shows: <em>evident in her voice</em>, <em>evident from the data</em>)</dd><dt>Contrast</dt><dd><em>Evident</em> is formal; in speech <em>obvious</em> or <em>clear</em> is more natural. It is evident <em>to</em> someone, not <em>for</em> someone. Do not mix it up with the noun <em>evidence</em> (доказательства, улики), which is uncountable: <em>evidence</em>, not <em>an evidence</em> or <em>evidences</em>. <em>Self-evident</em> means so obvious that no proof is needed. Russian <em>очевидец</em> is <em>eyewitness</em>.</dd></dl>
+<p>Easy to see or understand; clearly shown.</p>
+<ol><li>It was <em>evident</em> from her face that something was wrong.</li><li>His love of music is <em>evident</em> in everything he writes.</li><li>The damage was most <em>evident</em> on the north side of the house.</li></ol>
+<hr>
+<h3 id="normal">normal<a class="hash" href="#normal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɔːrməl/ &middot; <em>NOR-muhl</em></dd><dt>Русский</dt><dd>обычный, нормальный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more normal</em>, <em>most normal</em></dd><dt>Takes</dt><dd><em>for</em> + person or thing, often + <em>to</em>-infinitive (<em>normal for a baby to cry</em>); <em>to</em>-infinitive after <em>it</em> (<em>It's normal to feel nervous</em>)</dd><dt>Opposite</dt><dd><em>abnormal</em>, <em>unusual</em></dd><dt>Contrast</dt><dd>Russian <em>нормально</em> as an answer is not <em>normal</em>: to <em>How are you?</em> say <em>Fine</em>, <em>Okay</em> or <em>Not bad</em>. Russian <em>нормальный</em> meaning 'decent, good enough' is <em>decent</em>, <em>good</em> or <em>okay</em>: <em>нормальная зарплата</em> is <em>a decent salary</em>, <em>нормальный парень</em> is <em>a decent guy</em>. In English <em>normal</em> only means 'usual' or 'healthy', and calling a person <em>not normal</em> is an insult. The adverb <em>normally</em> means 'usually'. In <em>above normal</em> and <em>back to normal</em> the word is a noun.</dd></dl>
+<p>Normal has 2 distinct senses.</p>
+<p><strong>1. Usual, ordinary and expected.</strong> (обычный, нормальный)</p>
+<ol><li>It's perfectly <em>normal</em> to feel nervous before surgery.</li><li>Under <em>normal</em> conditions, the drive takes two hours.</li><li>After the holidays, the office felt more <em>normal</em> again.</li></ol>
+<p><strong>2. Healthy in body or mind; developing in the expected way.</strong> (нормальный, здоровый)</p>
+<ol start="4"><li>All her test results came back <em>normal</em>.</li><li>The ultrasound showed a healthy, <em>normal</em> baby.</li></ol>
+<hr>
+<h3 id="generous">generous<a class="hash" href="#generous" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛnərəs/ &middot; <em>JEN-ur-uhs</em></dd><dt>Русский</dt><dd>щедрый; обильный; великодушный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more generous</em>, <em>most generous</em></dd><dt>Takes</dt><dd><em>of</em> + person + <em>to</em>-infinitive (<em>generous of you to pay</em>); <em>with</em> + noun (what you give: <em>generous with his time</em>); <em>to</em> or <em>toward</em> + person (who gets it); <em>in</em> + noun (<em>generous in her praise</em>)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#generous-with">generous with</a></dd><dt>Opposite</dt><dd><em>stingy</em>, <em>cheap</em></dd><dt>Contrast</dt><dd>Adjectives that judge someone's action take <em>of</em>, not <em>for</em>: <em>It was generous of you to lend me the car</em>, not <em>generous for you</em>. Compare <em>It was important for you to be there</em>, which states a need, not a judgment. <em>Generous with</em> is what you give (<em>generous with money</em>), <em>generous to</em> is who gets it. The everyday American opposite is <em>cheap</em> or <em>stingy</em>; <em>mean</em> in American English usually means <em>unkind</em>, not <em>жадный</em>.</dd></dl>
+<p>Generous has 3 distinct senses.</p>
+<p><strong>1. Giving money, time or help freely and willingly.</strong> (щедрый)</p>
+<ol><li>It was very <em>generous</em> of you to pay for dinner.</li><li>Her grandparents are <em>generous</em> with their time.</li><li>He's the most <em>generous</em> person I know.</li></ol>
+<p><strong>2. Larger or more than usual.</strong> (щедрый, обильный, большой)</p>
+<ol start="4"><li>The restaurant serves <em>generous</em> portions.</li><li>He got a <em>generous</em> offer from a tech company.</li><li>The new seats have a more <em>generous</em> amount of legroom.</li></ol>
+<p><strong>3. Kind and fair in judging other people.</strong> (великодушный, благородный)</p>
+<ol start="7"><li>She was <em>generous</em> in her praise of her rival.</li><li>That's a <em>generous</em> way of looking at what he did.</li></ol>
+<hr>
+<h3 id="stupid">stupid<a class="hash" href="#stupid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstuːpɪd/ &middot; <em>STOO-pid</em></dd><dt>Русский</dt><dd>глупый, тупой; дурацкий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>stupider</em>, <em>stupidest</em>, <em>more stupid</em></dd><dt>Takes</dt><dd><em>of</em> + person + <em>to</em>-infinitive (<em>stupid of me to forget</em>); <em>to</em>-infinitive (<em>stupid to believe him</em>)</dd><dt>Opposite</dt><dd><em>smart</em>, <em>intelligent</em></dd><dt>Contrast</dt><dd>It takes <em>of</em>, not <em>for</em>, when you judge an action: <em>It was stupid of me to leave the door open</em>, not <em>stupid for me</em>. Calling a person <em>stupid</em> is rude; <em>silly</em> and <em>foolish</em> are softer, and <em>dumb</em> is common in informal American speech. Russian <em>тупой</em> for a knife is <em>dull</em>, not <em>stupid</em>. Both <em>stupider</em> and <em>more stupid</em> are correct.</dd></dl>
+<p>Stupid has 2 distinct senses.</p>
+<p><strong>1. Not intelligent; showing poor judgment.</strong> (глупый, тупой)</p>
+<ol><li>That was a <em>stupid</em> mistake.</li><li>It was <em>stupid</em> of me to leave my phone in the car.</li><li>It's the <em>stupidest</em> idea I've ever heard.</li></ol>
+<p><strong>2. Informal: used to show that something annoys you.</strong> (дурацкий)</p>
+<ol start="4"><li>I can't get this <em>stupid</em> printer to work.</li><li>The <em>stupid</em> car won't start again.</li></ol>
+<hr>
+<h3 id="careless">careless<a class="hash" href="#careless" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɛrləs/ &middot; <em>KAIR-luhs</em></dd><dt>Русский</dt><dd>небрежный, неосторожный; непринуждённый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more careless</em>, <em>most careless</em></dd><dt>Takes</dt><dd><em>with</em> + noun (<em>careless with money</em>); <em>about</em> + noun (<em>careless about details</em>); <em>of</em> + person + <em>to</em>-infinitive (<em>careless of me to lose it</em>)</dd><dt>Form</dt><dd><em>care</em> + -less 'without'</dd><dt>Opposite</dt><dd><em>careful</em></dd><dt>Contrast</dt><dd><em>Careless</em> is not <em>беззаботный</em>: that is <em>carefree</em> (<em>a carefree summer</em>), a happy word, while <em>careless</em> is criticism (небрежный, неосторожный). Judging an action takes <em>of</em>, not <em>for</em>: <em>It was careless of me to lose the keys</em>. The adverb is <em>carelessly</em>: <em>He drives carelessly</em>, not <em>He drives careless</em>.</dd></dl>
+<p>Careless has 2 distinct senses.</p>
+<p><strong>1. Not paying enough attention, so that mistakes, damage or accidents happen.</strong> (небрежный, невнимательный, неосторожный)</p>
+<ol><li>The test was full of <em>careless</em> mistakes.</li><li>It was <em>careless</em> of me to leave the gate open.</li><li>I've never met anyone more <em>careless</em> with money.</li></ol>
+<p><strong>2. Relaxed and natural; done without effort or worry.</strong> (непринуждённый, беспечный)</p>
+<ol start="4"><li>She moved with <em>careless</em> grace.</li><li>He gave a <em>careless</em> shrug.</li></ol>
+<hr>
+<h3 id="wise">wise<a class="hash" href="#wise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪz/ &middot; <em>WYZ</em></dd><dt>Русский</dt><dd>мудрый; разумный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>wiser</em>, <em>wisest</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive after <em>it</em> (<em>wise to wait</em>); <em>of</em> + person + <em>to</em>-infinitive (<em>wise of you to call</em>); <em>to</em> + noun (informal, aware of a trick: <em>wise to his lies</em>); <em>with</em> + person (US informal, rude to)</dd><dt>Opposite</dt><dd><em>foolish</em>, <em>unwise</em></dd><dt>Contrast</dt><dd>Russian <em>умный</em> is usually <em>smart</em>; <em>wise</em> means good judgment from experience (мудрый). Judging an action takes <em>of</em>: <em>It was wise of you to wait</em>. <em>None the wiser</em> means not understanding any better (<em>I read the manual and was none the wiser</em>). <em>Get wise to</em> means realize someone is tricking you; <em>get wise with</em> means be rude. <em>A wise guy</em> (a noun) is someone who acts smart in an annoying way, or a mobster. The suffix <em>-wise</em> (<em>clockwise</em>, <em>moneywise</em>) makes adverbs.</dd></dl>
+<p>Wise has 4 distinct senses.</p>
+<p><strong>1. Having good judgment and knowledge from experience.</strong> (мудрый)</p>
+<ol><li>My grandmother was a very <em>wise</em> woman.</li><li>I came back from that trip older and <em>wiser</em>.</li></ol>
+<p><strong>2. Of an action or choice: sensible and likely to have a good result.</strong> (разумный, благоразумный)</p>
+<ol start="3"><li>It would be <em>wise</em> to call before you go.</li><li>Buying the house before prices rose was a <em>wise</em> move.</li><li>It was <em>wise</em> of you to bring an umbrella.</li></ol>
+<p><strong>3. Informal, wise to: aware of someone's tricks or dishonest plans.</strong> (раскусивший (кого-то))</p>
+<ol start="6"><li>The teachers got <em>wise</em> to his excuses.</li><li>Shoppers are <em>wise</em> to that kind of scam now.</li></ol>
+<p><strong>4. US informal, wise with: rude and disrespectful.</strong> (дерзкий)</p>
+<ol start="8"><li>Don't get <em>wise</em> with me, young man.</li><li>He got <em>wise</em> with the officer and ended up with a bigger ticket.</li></ol>
+<hr>
+<h3 id="foolish">foolish<a class="hash" href="#foolish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːlɪʃ/ &middot; <em>FOO-lish</em></dd><dt>Русский</dt><dd>глупый, неразумный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more foolish</em>, <em>most foolish</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive after <em>it</em> (<em>foolish to ignore it</em>); <em>of</em> + person + <em>to</em>-infinitive (<em>foolish of me to believe him</em>)</dd><dt>Form</dt><dd><em>fool</em> + -ish 'like'</dd><dt>Opposite</dt><dd><em>wise</em>, <em>sensible</em></dd><dt>Contrast</dt><dd>Here <em>-ish</em> means 'like' (<em>like a fool</em>), not 'somewhat' as in <em>reddish</em> or <em>sixish</em>. Judging an action takes <em>of</em>, not <em>for</em>: <em>It was foolish of me to trust him</em>. <em>Foolish</em> is softer and a bit more formal than <em>stupid</em>; <em>silly</em> is lighter still and often friendly. <em>Feel foolish</em> is to feel embarrassed (чувствовать себя глупо).</dd></dl>
+<p>Foolish has 2 distinct senses.</p>
+<p><strong>1. Not sensible; showing bad judgment.</strong> (глупый, неразумный, безрассудный)</p>
+<ol><li>It would be <em>foolish</em> to ignore the doctor's advice.</li><li>It was <em>foolish</em> of me to believe him.</li><li>Driving through a blizzard for a party was the most <em>foolish</em> thing he'd ever done.</li></ol>
+<p><strong>2. Feeling or looking silly and embarrassed.</strong> (глупый (о виде); неловкий)</p>
+<ol start="4"><li>I felt <em>foolish</em> when I realized I'd gone to the wrong building.</li><li>He looked a little <em>foolish</em> in his brother's suit.</li></ol>
+<hr>
+<h3 id="right">right<a class="hash" href="#right" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raɪt/ &middot; <em>RYT</em></dd><dt>Русский</dt><dd>правильный; правый; подходящий</dd><dt>Type</dt><dd>evaluative; also quality</dd><dt>Position</dt><dd>both — the side sense and the geometry sense only before a noun (<em>my right hand</em>, <em>a right angle</em>); the sense 'correct in what you think' only after a verb (<em>You're right</em>)</dd><dt>Comparison</dt><dd>not gradable — strengthen with <em>exactly</em>, <em>absolutely</em> or <em>just</em> (<em>You're absolutely right</em>)</dd><dt>Takes</dt><dd><em>about</em> + noun (correct about); <em>to</em>-infinitive (<em>right to worry</em>); <em>of</em> + person + <em>to</em>-infinitive (morally right: <em>right of you to tell me</em>); <em>for</em> + person or job (suitable: <em>right for you</em>); <em>with</em> + noun (in order: <em>not right with the car</em>)</dd><dt>Opposite</dt><dd><em>wrong</em>; <em>left</em> (side)</dd><dt>Contrast</dt><dd>Russian <em>ты прав</em> is <em>You're right</em>, with <em>be</em>, not <em>You have right</em>: <em>have the right to</em> uses the noun (иметь право). <em>Right of you to</em> judges an action (<em>It was right of you to call the police</em>); <em>right for you</em> means suitable (<em>This job isn't right for you</em>). <em>Right</em> is also an adverb (<em>turn right</em>, <em>right now</em>), a noun (<em>human rights</em>, <em>on the right</em>) and a verb (<em>right a wrong</em>). It sounds like <em>write</em>. In geometry Russian <em>прямой угол</em> is a <em>right angle</em>, ninety degrees — never a 'straight' one.</dd></dl>
+<p>Right has 7 distinct senses.</p>
+<p><strong>1. Correct or true.</strong> (правильный, верный)</p>
+<ol><li>Is this the <em>right</em> answer?</li><li>"Your name is Sam?" "That's <em>right</em>."</li><li>Make sure you have the <em>right</em> address.</li></ol>
+<p><strong>2. Of a person: correct in what you think, say or do.</strong> (правый (прав))</p>
+<ol start="4"><li>You were <em>right</em> about the weather.</li><li>She was <em>right</em> to worry about him.</li></ol>
+<p><strong>3. Morally good or fair.</strong> (правильный, справедливый)</p>
+<ol start="6"><li>It's not <em>right</em> to take credit for someone else's work.</li><li>I hope I did the <em>right</em> thing.</li><li>It was <em>right</em> of you to tell me the truth.</li></ol>
+<p><strong>4. Best or most suitable for a situation.</strong> (подходящий, нужный)</p>
+<ol start="9"><li>He's the <em>right</em> person for the job.</li><li>Wait for the <em>right</em> moment to ask.</li></ol>
+<p><strong>5. On the side of the body that is toward the east when you face north.</strong> (правый)</p>
+<ol start="11"><li>She writes with her <em>right</em> hand.</li><li>Stay in the <em>right</em> lane until the exit.</li></ol>
+<p><strong>6. Healthy, or working as it should.</strong> (в порядке)</p>
+<ol start="13"><li>Something isn't <em>right</em> with the car; it's making a strange noise.</li><li>I haven't felt <em>right</em> since the flu.</li></ol>
+<p><strong>7. In geometry: of an angle, exactly ninety degrees.</strong> (прямой (об угле))</p>
+<ol start="15"><li>Check that the corners form a <em>right</em> angle before you nail them.</li><li>The two hallways meet at a <em>right</em> angle.</li></ol>
+<hr>
+<h3 id="wrong">wrong<a class="hash" href="#wrong" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɔːŋ/ &middot; <em>RAWNG</em></dd><dt>Русский</dt><dd>неправильный; не тот; нехороший</dd><dt>Type</dt><dd>evaluative; also quality</dd><dt>Position</dt><dd>both — the sense 'not working properly' only after a verb (<em>What's wrong?</em>, <em>Something is wrong with it</em>)</dd><dt>Comparison</dt><dd>not gradable — strengthen with <em>completely</em>, <em>totally</em> or <em>dead</em> (<em>dead wrong</em>)</dd><dt>Takes</dt><dd><em>about</em> + noun (mistaken about); <em>with</em> + noun (having a problem: <em>wrong with the car</em>); <em>to</em>-infinitive (<em>wrong to lie</em>); <em>of</em> + person + <em>to</em>-infinitive (<em>wrong of him to yell</em>); <em>for</em> + person or job (not suitable)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#wrong-with">wrong with</a></dd><dt>Opposite</dt><dd><em>right</em>, <em>correct</em></dd><dt>Contrast</dt><dd><em>Wrong</em> is also an adverb after a verb: <em>go wrong</em>, <em>get it wrong</em>, <em>spell it wrong</em>; the adverb <em>wrongly</em> goes before a past participle (<em>wrongly accused</em>). Russian <em>не тот</em> is <em>the wrong</em>: <em>We took the wrong bus</em>, not <em>We took not that bus</em>, and <em>You have the wrong number</em> is <em>Вы ошиблись номером</em>. <em>What's wrong?</em> is <em>Что случилось?</em>, but <em>What's wrong with you?</em> can sound rude. Judging an action takes <em>of</em>: <em>It was wrong of him to yell</em>.</dd></dl>
+<p>Wrong has 5 distinct senses.</p>
+<p><strong>1. Not correct or true.</strong> (неправильный, неверный)</p>
+<ol><li>Two of my answers were <em>wrong</em>.</li><li>That's the <em>wrong</em> date; the party is on Saturday.</li></ol>
+<p><strong>2. Of a person: mistaken in what you think or say.</strong> (неправый (не прав), ошибающийся)</p>
+<ol start="3"><li>You're <em>wrong</em> about her; she's really nice.</li><li>I was <em>wrong</em> to doubt you.</li></ol>
+<p><strong>3. Morally bad or unfair.</strong> (нехороший, дурной, несправедливый)</p>
+<ol start="5"><li>Stealing is <em>wrong</em>.</li><li>It was <em>wrong</em> of him to yell at the kids.</li></ol>
+<p><strong>4. Not the one you need or want; not suitable.</strong> (не тот, неподходящий)</p>
+<ol start="7"><li>We got on the <em>wrong</em> bus.</li><li>Sorry, you have the <em>wrong</em> number.</li><li>It's the <em>wrong</em> time to ask for a raise.</li></ol>
+<p><strong>5. Not working properly; causing a problem.</strong> (неладный, не в порядке)</p>
+<ol start="10"><li>What's <em>wrong</em>? You look upset.</li><li>Something is <em>wrong</em> with my laptop.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

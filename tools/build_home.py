@@ -25,6 +25,7 @@ BLURBS = {
     '06-prepositions': 'The most polysemous class in English. Senses are numbered, and every entry says what may and may not follow it.',
     '09-determiners': 'The tightest closed class, where one wrong choice is instantly ungrammatical. Each entry names the noun types it may precede.',
     '03-verbs': 'Irregular verbs grouped by how their three forms change rather than alphabetically, so you can hear <em>read</em>, <em>read</em> and <em>read</em> differ — plus the regular verbs, and every phrasal verb built on either, listed inside its base verb with the thing learners actually need: whether it can be split.',
+    '04-adjectives': 'Built around what goes wrong: the <em>bored</em>/<em>boring</em> pairs, adjectives that only go before a noun or only after a verb, the preposition each one drags along, false friends like <em>actual</em> and <em>sympathetic</em> — and whether it takes <em>-er</em> or <em>more</em>.',
     '05-adverbs': 'Organized by the job each adverb does — place, time, frequency, degree, focus, stance, linking — with where it goes in the sentence, whether it takes <em>-er</em> or <em>more</em>, and the <em>hard</em>/<em>hardly</em> pairs that look related and are not.',
     '02-pronouns': 'Where case errors are most visible. Every entry gives its case, what it can refer to, and the verb agreement it forces.',
     'reporting-verbs': 'How to say what someone else said: every frame a reporting verb takes, the frames it refuses, and the judgment it quietly carries.',
@@ -203,9 +204,9 @@ border-radius:99px;padding:9px 16px;color:var(--text)}}
 </div>
 <p class="note"><strong>What the dictionaries cover.</strong> Pronouns, prepositions, conjunctions,
 determiners and interjections are <strong>closed classes</strong> — finite lists, written out in full.
-Nouns, verbs and adverbs are <strong>open classes</strong> that gain new members constantly, so no list of
-them is ever complete: their dictionaries give every word whose grammar misbehaves in full, then a large
-core of everyday words checked against WordNet. Adjectives are the one class without a dictionary yet.
+Nouns, verbs, adjectives and adverbs are <strong>open classes</strong> that gain new members constantly, so
+no list of them is ever complete: their dictionaries give every word whose grammar misbehaves in full, then
+a large core of everyday words checked against WordNet.
 Every entry is clickable: your browser speaks it aloud, so nothing is downloaded and nothing leaves the page.</p>
 
 <h2>Grammar</h2>

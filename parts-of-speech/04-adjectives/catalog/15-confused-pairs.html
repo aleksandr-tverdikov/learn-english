@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adjectives that are easily confused</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="adjectives-that-are-easily-confused">Adjectives that are easily confused<a class="hash" href="#adjectives-that-are-easily-confused" aria-label="link">#</a></h1>
+<blockquote><p><em>economic</em> and <em>economical</em>, <em>historic</em> and <em>historical</em>, <em>continual</em> and <em>continuous</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>Pairs built on the same root that mean different things: <em>economic</em> is about the economy, <em>economical</em> is about saving money; <em>historic</em> means <em>important in history</em>, <em>historical</em> means <em>about the past</em>. Native speakers mix some of these up too, but in writing they matter, and each entry names its partner and the test that separates them.</p>
+<hr>
+<h3 id="economic">economic<a class="hash" href="#economic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛkəˈnɑːmɪk/ &middot; <em>ek-uh-NAH-mik</em></dd><dt>Русский</dt><dd>экономический; рентабельный</dd><dt>Type</dt><dd>classifying — about the economy; also quality in the <em>profitable</em> sense</dd><dt>Position</dt><dd>both — mostly before a noun (<em>economic growth</em>); after <em>be</em> to name the kind of problem (<em>The reasons were economic</em>) and in the <em>profitable</em> sense (<em>It isn't economic to repair it</em>)</dd><dt>Comparison</dt><dd>not gradable — in the <em>economy</em> sense; <em>more economic</em> occurs only in the <em>profitable</em> sense</dd><dt>Opposite</dt><dd><em>uneconomic</em> (in the <em>profitable</em> sense)</dd><dt>Contrast</dt><dd><em>economic</em> is about the economy; <em>economical</em> is about spending little. Test: if you can say <em>cheap to run</em> or <em>saves money</em>, use <em>economical</em>: <em>an economical car</em> (экономичный автомобиль), not <em>an economic car</em>. <em>economic growth</em>, <em>an economic crisis</em> (экономический кризис), never <em>an economical crisis</em>. Russian <em>экономический</em> = <em>economic</em>; <em>экономичный</em> and <em>экономный</em> = <em>economical</em>. The <em>profitable</em> sense (<em>It isn't economic to fix it</em>) is the one place the two come close. Russian <em>экономика</em> is two English nouns: <em>the economy</em> (экономика страны) and <em>economics</em> (экономика как наука). Both first syllables are heard in American speech: ek-uh- and ee-kuh-.</dd></dl>
+<p>Economic has 2 distinct senses.</p>
+<p><strong>1. Relating to the economy of a country or region — trade, industry, jobs and money — or to economics as a subject.</strong> (экономический)</p>
+<ol><li>The country is going through a period of slow <em>economic</em> growth.</li><li>Many families left the town for <em>economic</em> reasons.</li><li>Their problems are <em>economic</em>, not political.</li></ol>
+<p><strong>2. Making enough money to be worth doing; profitable — mostly in business and energy writing.</strong> (рентабельный, выгодный)</p>
+<ol start="4"><li>The mine closed because it was no longer <em>economic</em> to run.</li><li>At today's prices, it isn't <em>economic</em> to repair an old TV.</li><li>Solar power is getting <em>more economic</em> every year.</li></ol>
+<hr>
+<h3 id="economical">economical<a class="hash" href="#economical" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛkəˈnɑːmɪkəl/ &middot; <em>ek-uh-NAH-mih-kuhl</em></dd><dt>Русский</dt><dd>экономичный; экономный, бережливый</dd><dt>Type</dt><dd>quality; also evaluative</dd><dt>Position</dt><dd>both — <em>an economical car</em>, <em>The car is economical</em></dd><dt>Comparison</dt><dd>more/most — <em>more economical</em>, <em>most economical</em></dd><dt>Takes</dt><dd><em>with</em> + noun = using little of (<em>economical with words</em>); <em>it's economical to</em> + verb</dd><dt>Form</dt><dd>-al from <em>economic</em></dd><dt>Opposite</dt><dd><em>uneconomical</em>, <em>wasteful</em></dd><dt>Contrast</dt><dd>See <em>economic</em>. <em>economical</em> never means <em>about the economy</em>: <em>economic policy</em>, not <em>economical policy</em>; <em>economic reforms</em> (экономические реформы), not <em>economical reforms</em>. In everyday American speech people often say <em>cheap to run</em> or <em>fuel-efficient</em> about machines and <em>thrifty</em> or <em>careful with money</em> about people. <em>economical with the truth</em> (не договаривающий, лукавящий) is a polite, originally British way to say someone is lying by leaving things out.</dd></dl>
+<p>Economical has 3 distinct senses.</p>
+<p><strong>1. Cheap to use or run, because it uses little money, fuel or other resources.</strong> (экономичный, выгодный)</p>
+<ol><li>Small cars are usually <em>more economical</em> to run.</li><li>Buying rice in bulk is the <em>most economical</em> way to shop.</li><li>The new furnace is quiet and <em>economical</em>.</li></ol>
+<p><strong>2. Of a person: careful not to spend or waste money.</strong> (экономный, бережливый)</p>
+<ol start="4"><li>My grandmother was an <em>economical</em> cook who wasted nothing.</li><li>We have to be <em>economical</em> until I find a new job.</li></ol>
+<p><strong>3. Using no more words, movements or effort than are needed.</strong> (сжатый, лаконичный; скупой (о движениях))</p>
+<ol start="6"><li>He writes in a clean, <em>economical</em> style.</li><li>The pitcher has a smooth, <em>economical</em> delivery.</li><li>Her essay is short and <em>economical</em>: every sentence does a job.</li></ol>
+<hr>
+<h3 id="historic">historic<a class="hash" href="#historic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪˈstɔːrɪk/ &middot; <em>hih-STOR-ik</em></dd><dt>Русский</dt><dd>исторический, знаменательный; старинный</dd><dt>Type</dt><dd>evaluative; also classifying</dd><dt>Position</dt><dd>both — mostly before a noun (<em>a historic day</em>); after <em>be</em> too (<em>This moment is historic</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more historic</em>, <em>most historic</em></dd><dt>Contrast</dt><dd><em>historic</em> = important in history, or famous for its past: <em>a historic victory</em> (историческая победа), <em>a historic building</em>. <em>historical</em> = about the past or the study of it: <em>historical records</em> (исторические документы), <em>a historical novel</em> (исторический роман). Test: if you can say <em>famous</em> or <em>memorable</em>, use <em>historic</em>; if you can say <em>from the past</em> or <em>about the past</em>, use <em>historical</em>. <em>a historical event</em> simply happened; <em>a historic event</em> changed things. Russian <em>исторический</em> covers both, so decide each time. Americans say <em>a historic</em> with the h pronounced; <em>an historic</em> sounds old-fashioned or British. In <em>historic lows</em> and <em>historic times</em> the two words overlap, and both are used.</dd></dl>
+<p>Historic has 4 distinct senses.</p>
+<p><strong>1. Important in history, or likely to be remembered as important.</strong> (исторический, знаменательный)</p>
+<ol><li>The two leaders signed a <em>historic</em> peace agreement.</li><li>It was a <em>historic</em> day for the city when the team finally won.</li><li>Fans called it the <em>most historic</em> game they had ever seen.</li></ol>
+<p><strong>2. Old and interesting because of its past, and worth preserving.</strong> (старинный, исторический (о зданиях, районах))</p>
+<ol start="4"><li>We stayed at a <em>historic</em> inn built in 1790.</li><li>The <em>historic</em> district is full of brick row houses.</li><li>Charleston is famous for its <em>historic</em> homes.</li></ol>
+<p><strong>3. Of a level or amount: the highest or lowest ever recorded.</strong> (рекордный)</p>
+<ol start="7"><li>Mortgage rates fell to <em>historic</em> lows that spring.</li><li>Home prices reached <em>historic</em> highs last year.</li></ol>
+<p><strong>4. Belonging to the time of written history, as opposed to prehistoric times — mostly in <em>historic times</em>.</strong> (исторический (в отличие от доисторического))</p>
+<ol start="9"><li>The lake has never dried up in <em>historic</em> times.</li><li>Only two volcanoes in the region have erupted in <em>historic</em> times.</li></ol>
+<hr>
+<h3 id="historical">historical<a class="hash" href="#historical" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪˈstɔːrɪkəl/ &middot; <em>hih-STOR-ih-kuhl</em></dd><dt>Русский</dt><dd>исторический (относящийся к прошлому)</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both — almost always before a noun (<em>historical records</em>); after <em>be</em> mainly in the <em>really existed</em> sense (<em>Is the story historical or made up?</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd>See <em>historic</em>. <em>historical</em> is the neutral word for anything connected with the past or with history as a subject; it never means <em>famous</em> or <em>memorable</em>: <em>a historic moment</em> (исторический момент), not <em>a historical moment</em>. <em>historical</em> before <em>data</em>, <em>prices</em> or <em>trends</em> just means <em>from past years</em>. Russian <em>исторический</em> covers both words.</dd></dl>
+<p>Historical has 4 distinct senses.</p>
+<p><strong>1. Relating to history or the study of history; about the past.</strong> (исторический)</p>
+<ol><li>The museum has a large collection of <em>historical</em> documents.</li><li>She's doing <em>historical</em> research on the Civil War.</li><li>The town's <em>historical</em> society runs tours every Saturday.</li></ol>
+<p><strong>2. Of a book, movie or painting: telling a story set in the past.</strong> (исторический (о жанре))</p>
+<ol start="4"><li>My mom loves <em>historical</em> novels set in the Old West.</li><li>The show is a <em>historical</em> drama about the first English settlers.</li></ol>
+<p><strong>3. Really having lived or happened in the past, not only in stories.</strong> (реально существовавший, исторически достоверный)</p>
+<ol start="6"><li>Scholars still argue about whether King Arthur was a <em>historical</em> figure.</li><li>The movie mixes <em>historical</em> fact with fiction.</li><li>Is the story <em>historical</em>, or did the author make it up?</li></ol>
+<p><strong>4. Based on figures from past years, as opposed to current ones.</strong> (прошлый, за прошлые периоды; ретроспективный)</p>
+<ol start="9"><li><em>Historical</em> data shows that prices rise every December.</li><li>The model predicts sales from <em>historical</em> trends.</li></ol>
+<hr>
+<h3 id="classic">classic<a class="hash" href="#classic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklæsɪk/ &middot; <em>KLAS-ik</em></dd><dt>Русский</dt><dd>классический, образцовый; типичный</dd><dt>Type</dt><dd>evaluative; also quality</dd><dt>Position</dt><dd>both — mostly before a noun (<em>a classic mistake</em>); after <em>be</em> in the <em>style</em> and informal senses (<em>Her look is classic</em>, <em>That's classic!</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more classic</em>, <em>most classic</em></dd><dt>Contrast</dt><dd><em>classic</em> = excellent and lasting, typical, or traditional in style: <em>a classic movie</em>, <em>a classic mistake</em> (типичная ошибка), <em>a classic suit</em>. <em>classical</em> = of ancient Greece and Rome, of serious Western music, or of an old established system: <em>classical architecture</em>, <em>classical music</em> (классическая музыка), <em>classical ballet</em>. Test: if you can say <em>typical</em> or <em>great and lasting</em>, use <em>classic</em>; if you can say <em>ancient</em> or <em>traditional art form</em>, use <em>classical</em>. <em>classic music</em> is a mistake for <em>classical music</em>, and <em>a classical example</em> for <em>a classic example</em>. Russian <em>классический</em> covers both. <em>a classic</em> (a great book or movie) and <em>the classics</em> (Greek and Latin literature) are nouns.</dd></dl>
+<p>Classic has 5 distinct senses.</p>
+<p><strong>1. Of the highest quality and admired for a long time; one of the best of its kind.</strong> (классический, признанный, образцовый)</p>
+<ol><li>It's a <em>classic</em> American novel that every teenager reads.</li><li>The band played all their <em>classic</em> hits.</li><li>We watched a <em>classic</em> Hitchcock movie last night.</li></ol>
+<p><strong>2. Very typical; a perfect example of its kind.</strong> (типичный, хрестоматийный)</p>
+<ol start="4"><li>Forgetting to back up your files is a <em>classic</em> mistake.</li><li>He showed all the <em>classic</em> signs of a heart attack.</li><li>It's a <em>classic</em> case of too little, too late.</li></ol>
+<p><strong>3. Simple and traditional in style, so it does not go out of fashion.</strong> (классический (о стиле), строгий)</p>
+<ol start="7"><li>You can't go wrong with a <em>classic</em> white shirt.</li><li>Her style is <em>more classic</em> than her sister's.</li></ol>
+<p><strong>4. Of cars, music or TV shows: from an earlier period and still loved today.</strong> (ретро, винтажный, классический)</p>
+<ol start="9"><li>He spends every weekend restoring <em>classic</em> cars.</li><li>The station plays <em>classic</em> rock all day.</li><li>We grew up watching <em>classic</em> cartoons on Saturday mornings.</li></ol>
+<p><strong>5. Informal: very funny, or exactly what you would expect of someone.</strong> (в своём репертуаре; ну это классика (разг.))</p>
+<ol start="12"><li>He fell asleep at his own party? That's <em>classic</em>.</li><li>Showing up an hour late is <em>classic</em> Mike.</li></ol>
+<hr>
+<h3 id="classical">classical<a class="hash" href="#classical" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklæsɪkəl/ &middot; <em>KLAS-ih-kuhl</em></dd><dt>Русский</dt><dd>классический; античный; академический</dd><dt>Type</dt><dd>classifying; also quality</dd><dt>Position</dt><dd>both — almost always before a noun (<em>classical music</em>); after <em>be</em> mostly in the <em>style</em> sense (<em>The lines of the building are classical</em>)</dd><dt>Comparison</dt><dd>not gradable — except in the <em>style</em> sense: <em>more classical</em></dd><dt>Contrast</dt><dd>See <em>classic</em>. <em>classical music</em> covers everything from Bach to modern concert music, not only the Classical period of Haydn and Mozart. <em>classical</em> never means <em>typical</em>: <em>a classic example</em>, not <em>a classical example</em>. Nor does it mean <em>old and still loved</em> about cars or rock: <em>classic cars</em>, <em>classic rock</em>.</dd></dl>
+<p>Classical has 4 distinct senses.</p>
+<p><strong>1. Relating to ancient Greece and Rome, their languages, art and ideas.</strong> (античный, классический)</p>
+<ol><li>She studied <em>classical</em> Greek and Latin in college.</li><li>The Capitol is built in the <em>classical</em> style, with tall columns.</li><li>Many <em>classical</em> writers told stories about the gods of Olympus.</li></ol>
+<p><strong>2. Of music: in the serious Western tradition of composers like Bach and Beethoven, not pop, rock or jazz.</strong> (классический (о музыке), академический)</p>
+<ol start="4"><li>He listens to <em>classical</em> music while he works.</li><li>She trained as a <em>classical</em> pianist.</li><li>The <em>classical</em> station plays Mozart every morning.</li></ol>
+<p><strong>3. Traditional and long established, as opposed to newer or modern forms.</strong> (классический, традиционный)</p>
+<ol start="7"><li>She trained in <em>classical</em> ballet before switching to jazz dance.</li><li><em>Classical</em> physics can't explain how atoms behave.</li><li>Modern Arabic grew out of <em>Classical</em> Arabic.</li></ol>
+<p><strong>4. Simple, balanced and elegant, like the art of ancient Greece.</strong> (классический, строгий, гармоничный)</p>
+<ol start="10"><li>The actress was known for her <em>classical</em> beauty.</li><li>The new library is <em>more classical</em> in design than the old one.</li></ol>
+<hr>
+<h3 id="electric">electric<a class="hash" href="#electric" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlɛktrɪk/ &middot; <em>ih-LEK-trik</em></dd><dt>Русский</dt><dd>электрический; наэлектризованный, волнующий</dd><dt>Type</dt><dd>classifying; also quality</dd><dt>Position</dt><dd>both — before a noun or after <em>be</em> in the <em>powered by electricity</em> sense (<em>an electric stove</em>, <em>Is the stove gas or electric?</em>); mostly after a verb in the <em>exciting</em> sense (<em>The mood was electric</em>)</dd><dt>Comparison</dt><dd>not gradable — except in the <em>exciting</em> sense: <em>more electric</em>, <em>most electric</em></dd><dt>Contrast</dt><dd><em>electric</em> is for a thing that runs on electricity or carries it: <em>an electric toothbrush</em>, <em>an electric shock</em>. <em>electrical</em> is the general word for electricity as a system, a subject or a kind of fault: <em>electrical wiring</em>, <em>an electrical engineer</em>, <em>an electrical fire</em>. Test: name one machine and use <em>electric</em>; name a category, a job or a problem and use <em>electrical</em>. Many phrases take only one: <em>electric guitar</em>, <em>electric chair</em>; <em>electrical engineering</em>, <em>electrical storm</em>. Only <em>electric</em> has the <em>exciting</em> sense. Americans say <em>the electric bill</em> and <em>the electric company</em>, where British English says <em>the electricity bill</em>. Neither is <em>electronic</em> (электронный: using chips, as in <em>electronic devices</em>). Russian <em>электрик</em> (the worker) is <em>electrician</em>; the color <em>электрик</em> is <em>electric blue</em>.</dd></dl>
+<p>Electric has 4 distinct senses.</p>
+<p><strong>1. Working by electricity, or carrying or producing it.</strong> (электрический, электро-)</p>
+<ol><li>We just bought an <em>electric</em> car.</li><li>The dog got a shock from the <em>electric</em> fence.</li><li>Is your stove gas or <em>electric</em>?</li></ol>
+<p><strong>2. Relating to the supply of electricity to homes and businesses.</strong> (за электричество; энергетический (о компании))</p>
+<ol start="4"><li>Our <em>electric</em> bill doubled in July.</li><li>The <em>electric</em> company shut off their power.</li></ol>
+<p><strong>3. Full of excitement and energy; thrilling.</strong> (наэлектризованный, волнующий, захватывающий)</p>
+<ol start="6"><li>The atmosphere in the stadium was <em>electric</em>.</li><li>The crowd was even <em>more electric</em> in the second half.</li><li>She gave an <em>electric</em> performance on opening night.</li></ol>
+<p><strong>4. Of a color: very bright and strong.</strong> (яркий; (цвет) электрик)</p>
+<ol start="9"><li>She wore an <em>electric</em> blue dress to the prom.</li><li>The walls were painted an <em>electric</em> green.</li></ol>
+<hr>
+<h3 id="electrical">electrical<a class="hash" href="#electrical" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlɛktrɪkəl/ &middot; <em>ih-LEK-trih-kuhl</em></dd><dt>Русский</dt><dd>электрический; электротехнический</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both — almost always before a noun (<em>electrical wiring</em>); after <em>be</em> to name the kind of fault (<em>The problem is electrical</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd>See <em>electric</em>. <em>electrical</em> usually names a category (<em>electrical equipment</em>) or a field (<em>electrical engineering</em>); <em>electric</em> names the machine (<em>an electric heater</em>). <em>an electrical heater</em> is not wrong, but <em>an electric heater</em> is what people say, and <em>electrical engineering</em> is fixed: never <em>electric engineering</em>. <em>electrical</em> has no <em>exciting</em> sense: <em>an electric atmosphere</em>, not <em>an electrical atmosphere</em>.</dd></dl>
+<p>Electrical has 2 distinct senses.</p>
+<p><strong>1. Using, carrying or involving electricity; relating to electricity in general.</strong> (электрический, электро-)</p>
+<ol><li>Unplug all <em>electrical</em> appliances before you leave.</li><li>An <em>electrical</em> fire started in the basement.</li><li>The problem with the car turned out to be <em>electrical</em>.</li></ol>
+<p><strong>2. Relating to the science of electricity or to work with it as a job.</strong> (электротехнический)</p>
+<ol start="4"><li>He has a degree in <em>electrical</em> engineering.</li><li>Hire a licensed <em>electrical</em> contractor to move the outlet.</li></ol>
+<hr>
+<h3 id="alternate">alternate<a class="hash" href="#alternate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːltərnət/ &middot; <em>AWL-tur-nuht</em></dd><dt>Русский</dt><dd>запасной, другой; каждый второй; чередующийся</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — <em>on alternate days</em>, <em>an alternate route</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>from the verb <em>alternate</em></dd><dt>Contrast</dt><dd>Pronunciation: the adjective is AWL-tur-nuht; the verb <em>to alternate</em> is AWL-tur-nayt. Only <em>alternate</em> means <em>every other</em>: <em>on alternate days</em> (через день). Only <em>alternative</em> means <em>unconventional</em>: <em>alternative medicine</em>, <em>alternative rock</em>, never <em>alternate medicine</em>. For <em>another choice</em> American English uses both: <em>an alternate route</em> and <em>an alternative route</em>; some editors and British readers accept only <em>alternative</em>, so prefer it in formal writing. <em>an alternate</em> is also a noun: a substitute juror, delegate or player. Russian <em>альтернативный</em> is usually <em>alternative</em>; <em>через день</em> is <em>every other day</em> or <em>on alternate days</em>.</dd></dl>
+<p>Alternate has 4 distinct senses.</p>
+<p><strong>1. Available as another choice, in place of the usual or planned one.</strong> (запасной, другой, альтернативный)</p>
+<ol><li>Take an <em>alternate</em> route if the bridge is closed.</li><li>We need an <em>alternate</em> plan in case it rains.</li><li>The judge replaced the sick juror with an <em>alternate</em> juror.</li></ol>
+<p><strong>2. Happening on every second day, week or other unit; every other.</strong> (каждый второй, через один)</p>
+<ol start="4"><li>The class meets on <em>alternate</em> Tuesdays.</li><li>The kids spend <em>alternate</em> weekends with their dad.</li><li>Write your answers on <em>alternate</em> lines.</li></ol>
+<p><strong>3. Of two things: coming one after the other, again and again.</strong> (чередующийся, перемежающийся)</p>
+<ol start="7"><li>Arrange <em>alternate</em> layers of pasta and cheese in the dish.</li><li>The flag has <em>alternate</em> red and white stripes.</li></ol>
+<p><strong>4. Existing as another version of events or of the world.</strong> (параллельный, альтернативный)</p>
+<ol start="9"><li>The show is set in an <em>alternate</em> universe where dinosaurs never died out.</li><li>She writes <em>alternate</em> history novels.</li></ol>
+<hr>
+<h3 id="alternative">alternative<a class="hash" href="#alternative" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːlˈtɜːrnətɪv/ &middot; <em>awl-TUR-nuh-tiv</em></dd><dt>Русский</dt><dd>альтернативный, другой; нетрадиционный</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both — almost always before a noun (<em>an alternative plan</em>); after a verb only in the informal <em>unconventional</em> sense (<em>Her taste in music is pretty alternative</em>)</dd><dt>Comparison</dt><dd>not gradable — except in the informal <em>unconventional</em> sense: <em>more alternative</em></dd><dt>Contrast</dt><dd>See <em>alternate</em>. The noun <em>an alternative</em> (вариант, выбор) is more common than the adjective: <em>There's no alternative</em>, <em>an alternative to surgery</em>; the <em>to</em> belongs to the noun. <em>alternative</em> never means <em>every other</em>: <em>on alternate days</em>, not <em>on alternative days</em>. The stress is on the second syllable: awl-TUR-nuh-tiv.</dd></dl>
+<p>Alternative has 3 distinct senses.</p>
+<p><strong>1. Available as another choice; able to be used instead of something else.</strong> (альтернативный, другой, запасной)</p>
+<ol><li>If the flight is canceled, the airline will book you on an <em>alternative</em> flight.</li><li>We need to find an <em>alternative</em> way to pay for the project.</li><li>Police posted <em>alternative</em> routes around the parade.</li></ol>
+<p><strong>2. Different from what is usual or traditional, and often chosen as a rejection of it.</strong> (альтернативный, нетрадиционный, неформальный)</p>
+<ol start="4"><li>More patients are trying <em>alternative</em> medicine like acupuncture.</li><li>She listened to <em>alternative</em> rock in high school.</li><li>Her taste in music is pretty <em>alternative</em>.</li></ol>
+<p><strong>3. Of energy or fuel: not coming from oil, coal or natural gas.</strong> (альтернативный, возобновляемый)</p>
+<ol start="7"><li>The state is investing in <em>alternative</em> energy such as wind and solar.</li><li>City buses run on <em>alternative</em> fuels.</li></ol>
+<hr>
+<h3 id="childish">childish<a class="hash" href="#childish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃaɪldɪʃ/ &middot; <em>CHYL-dish</em></dd><dt>Русский</dt><dd>ребяческий, инфантильный; детский</dd><dt>Type</dt><dd>quality; also evaluative</dd><dt>Position</dt><dd>both — <em>a childish remark</em>, <em>Don't be childish</em></dd><dt>Comparison</dt><dd>more/most — <em>more childish</em>, <em>most childish</em></dd><dt>Form</dt><dd>-ish from <em>child</em> — like a child, in a bad way</dd><dt>Opposite</dt><dd><em>mature</em>, <em>grown-up</em></dd><dt>Contrast</dt><dd><em>childish</em> criticizes: an older person acting like a small child (ребячество). <em>childlike</em> praises or describes: the good qualities of a child, such as trust and wonder (детская непосредственность). Test: <em>Don't be childish</em> is a reproach; <em>childlike wonder</em> is a compliment. Neither is the word for things made for children: Russian <em>детские книги</em> is <em>children's books</em>, <em>детская одежда</em> is <em>kids' clothes</em>, <em>детская площадка</em> is <em>a playground</em>.</dd></dl>
+<p>Childish has 2 distinct senses.</p>
+<p><strong>1. Of an older person or their behavior: silly and immature, like a small child.</strong> (ребяческий, инфантильный, детский (неодобр.))</p>
+<ol><li>Stop being so <em>childish</em> and apologize to your sister.</li><li>It was a <em>childish</em> thing to do.</li><li>The argument got <em>more childish</em> by the minute.</li></ol>
+<p><strong>2. Typical of a child or of childhood.</strong> (детский)</p>
+<ol start="4"><li>The note was written in big, <em>childish</em> handwriting.</li><li>We could hear <em>childish</em> voices coming from the yard.</li></ol>
+<hr>
+<h3 id="childlike">childlike<a class="hash" href="#childlike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃaɪldlaɪk/ &middot; <em>CHYLD-lyk</em></dd><dt>Русский</dt><dd>по-детски непосредственный; похожий на ребёнка</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>childlike wonder</em>, <em>Her voice sounded childlike</em></dd><dt>Comparison</dt><dd>more/most — <em>more childlike</em>, <em>most childlike</em></dd><dt>Form</dt><dd>compound — <em>child</em> + <em>-like</em></dd><dt>Contrast</dt><dd>See <em>childish</em>. <em>childlike</em> is usually positive or neutral; <em>childish</em> is negative. Said about an adult's mind or judgment, <em>childlike</em> can sound patronizing (<em>a childlike understanding of money</em>), so use it with care.</dd></dl>
+<p>Childlike has 2 distinct senses.</p>
+<p><strong>1. Having the good qualities of a child, such as innocence, trust and enthusiasm.</strong> (по-детски непосредственный, простодушный, наивный)</p>
+<ol><li>My grandfather never lost his <em>childlike</em> sense of wonder.</li><li>She has an almost <em>childlike</em> trust in people.</li><li>He was <em>more childlike</em> than any of the kids he taught.</li></ol>
+<p><strong>2. Looking, sounding or moving like a child.</strong> (детский, похожий на ребёнка)</p>
+<ol start="4"><li>The robot has a <em>childlike</em> face with big round eyes.</li><li>She spoke in a soft, <em>childlike</em> voice.</li></ol>
+<hr>
+<h3 id="continual">continual<a class="hash" href="#continual" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtɪnjuəl/ &middot; <em>kuhn-TIN-yoo-uhl</em></dd><dt>Русский</dt><dd>постоянный, беспрестанный (с перерывами)</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>attributive only — <em>continual delays</em>; after <em>be</em> it sounds odd, so use <em>constant</em>: <em>The noise was constant</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-al from <em>continue</em></dd><dt>Contrast</dt><dd><em>continual</em> = happening again and again, with breaks: <em>continual phone calls</em> (звонки один за другим). <em>continuous</em> = without any break: <em>continuous rain</em> (непрерывный дождь). Test: a dripping faucet is <em>continual</em>; a running faucet is <em>continuous</em>. Careful writers keep this line; in general use <em>continual</em> also covers <em>without stopping</em> (sense 2), and <em>constant</em> covers both. Only <em>continuous</em> works for space (<em>a continuous line</em>) and grammar (<em>the present continuous</em>). Russian <em>постоянный</em> is most often <em>constant</em>.</dd></dl>
+<p>Continual has 2 distinct senses.</p>
+<p><strong>1. Happening again and again, often in an annoying way.</strong> (постоянный, беспрестанный, повторяющийся)</p>
+<ol><li>I'm tired of your <em>continual</em> complaining.</li><li>The project suffered from <em>continual</em> delays.</li><li><em>Continual</em> interruptions made it impossible to work.</li></ol>
+<p><strong>2. Going on for a long time without stopping.</strong> (непрерывный, непрекращающийся)</p>
+<ol start="4"><li>He lived in <em>continual</em> pain after the accident.</li><li>The city was under <em>continual</em> attack for three months.</li></ol>
+<hr>
+<h3 id="continuous">continuous<a class="hash" href="#continuous" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtɪnjuəs/ &middot; <em>kuhn-TIN-yoo-uhs</em></dd><dt>Русский</dt><dd>непрерывный, сплошной</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>continuous rain</em>, <em>The noise was continuous</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ous from <em>continue</em></dd><dt>Opposite</dt><dd><em>intermittent</em>; <em>broken</em></dd><dt>Contrast</dt><dd>See <em>continual</em>. <em>continuous</em> never means <em>repeated with breaks</em>: <em>continual interruptions</em>, not <em>continuous interruptions</em>, unless there was no pause at all. In grammar, American textbooks usually say <em>progressive</em> (<em>the present progressive</em>) where British ones say <em>continuous</em>; both mean the <em>be</em> + <em>-ing</em> form.</dd></dl>
+<p>Continuous has 3 distinct senses.</p>
+<p><strong>1. Going on without a pause or break.</strong> (непрерывный, беспрерывный)</p>
+<ol><li>Patients in the ICU need <em>continuous</em> monitoring.</li><li>The noise from the highway is <em>continuous</em>, day and night.</li><li>The company is committed to <em>continuous</em> improvement.</li></ol>
+<p><strong>2. Without gaps in space; forming an unbroken line or surface.</strong> (сплошной, непрерывный)</p>
+<ol start="4"><li>Draw one <em>continuous</em> line without lifting your pen.</li><li>A <em>continuous</em> fence runs along the highway.</li></ol>
+<p><strong>3. In grammar: formed with <em>be</em> + <em>-ing</em> to show an action in progress; progressive.</strong> (продолженный (о времени))</p>
+<ol start="6"><li><em>I am reading</em> is in the present <em>continuous</em>.</li><li>The past <em>continuous</em> describes what was happening at a moment in the past.</li></ol>
+<hr>
+<h3 id="efficient">efficient<a class="hash" href="#efficient" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈfɪʃənt/ &middot; <em>ih-FISH-uhnt</em></dd><dt>Русский</dt><dd>эффективный (без потерь), экономичный; расторопный</dd><dt>Type</dt><dd>quality; also evaluative</dd><dt>Position</dt><dd>both — <em>an efficient system</em>, <em>The system is efficient</em></dd><dt>Comparison</dt><dd>more/most — <em>more efficient</em>, <em>most efficient</em></dd><dt>Form</dt><dd>also in compounds: <em>energy-efficient</em>, <em>fuel-efficient</em>, <em>cost-efficient</em></dd><dt>Opposite</dt><dd><em>inefficient</em></dd><dt>Contrast</dt><dd><em>efficient</em> = doing something without wasting time, money or energy; <em>effective</em> = getting the result you want. Test: a medicine that cures you is <em>effective</em>; a factory that makes more cars with less power is <em>efficient</em>. A thing can be one without the other: a sledgehammer is an <em>effective</em> way to crack a nut, but not an <em>efficient</em> one. Russian <em>эффективный</em> covers both, so ask whether you mean <em>it works</em> (<em>effective</em>) or <em>it works without waste</em> (<em>efficient</em>).</dd></dl>
+<p>Efficient has 2 distinct senses.</p>
+<p><strong>1. Working well without wasting time, money or energy.</strong> (эффективный (без потерь), экономичный, производительный)</p>
+<ol><li>LED bulbs are much <em>more efficient</em> than old light bulbs.</li><li>We need an <em>efficient</em> way to handle all these orders.</li><li>The new trains are fast and <em>efficient</em>.</li></ol>
+<p><strong>2. Of a person: organized and able to get work done quickly and well.</strong> (расторопный, толковый, деловитый)</p>
+<ol start="4"><li>Our office manager is incredibly <em>efficient</em>.</li><li>An <em>efficient</em> waiter kept our glasses full all night.</li></ol>
+<hr>
+<h3 id="effective">effective<a class="hash" href="#effective" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈfɛktɪv/ &middot; <em>ih-FEK-tiv</em></dd><dt>Русский</dt><dd>эффективный, действенный; фактический; вступающий в силу</dd><dt>Type</dt><dd>evaluative; also classifying</dd><dt>Position</dt><dd>both — <em>an effective drug</em>, <em>The drug is effective</em>; before a noun only in the <em>actual</em> sense (<em>in effective control</em>); after <em>be</em>, or opening a phrase, in the <em>starting</em> sense (<em>effective immediately</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more effective</em>, <em>most effective</em></dd><dt>Takes</dt><dd><em>in</em> or <em>at</em> + <em>-ing</em> (<em>effective in reducing pain</em>); <em>against</em> + disease or pest (<em>effective against the flu</em>); <em>for</em> + a problem (<em>effective for back pain</em>); in the <em>starting</em> sense <em>as of</em> + date, or a bare date (<em>effective May 1</em>)</dd><dt>Opposite</dt><dd><em>ineffective</em></dd><dt>Contrast</dt><dd>See <em>efficient</em>: <em>effective</em> is about the result, <em>efficient</em> about the waste. Russian <em>эффектный</em> (showy, striking) is usually <em>striking</em>, <em>impressive</em> or <em>eye-catching</em>: <em>an eye-catching dress</em> (эффектное платье); <em>effective</em> in that sense (sense 2) is limited to how something works in a design or a picture. <em>effective immediately</em>, <em>effective May 1</em>, with no <em>from</em>, is the usual American way to give a start date. The adverb <em>effectively</em> often means <em>in effect</em>, <em>actually</em>: <em>He effectively ran the company</em>.</dd></dl>
+<p>Effective has 4 distinct senses.</p>
+<p><strong>1. Producing the result that is wanted; working well.</strong> (эффективный, действенный, результативный)</p>
+<ol><li>Exercise is one of the <em>most effective</em> ways to reduce stress.</li><li>The vaccine is highly <em>effective</em> against the virus.</li><li>She's a very <em>effective</em> teacher.</li></ol>
+<p><strong>2. Making a strong and pleasing impression; striking.</strong> (эффектный, производящий впечатление)</p>
+<ol start="4"><li>The red door looks very <em>effective</em> against the gray brick.</li><li>The dark walls make an <em>effective</em> background for the paintings.</li></ol>
+<p><strong>3. Real in practice, though not in name or on paper.</strong> (фактический, реальный)</p>
+<ol start="6"><li>The general was the <em>effective</em> ruler of the country.</li><li>Rebels are in <em>effective</em> control of the north.</li><li>After deductions, their <em>effective</em> tax rate was 12 percent.</li></ol>
+<p><strong>4. Officially in use or in force, starting from a stated time.</strong> (вступающий в силу, действующий)</p>
+<ol start="9"><li>The new rules are <em>effective</em> as of January 1.</li><li>She resigned, <em>effective</em> immediately.</li><li>The price increase becomes <em>effective</em> next month.</li></ol>
+<hr>
+<h3 id="imaginary">imaginary<a class="hash" href="#imaginary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmædʒənɛri/ &middot; <em>ih-MAJ-uh-nair-ee</em></dd><dt>Русский</dt><dd>воображаемый, вымышленный, мнимый</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both — <em>an imaginary friend</em>, <em>The danger was imaginary</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Opposite</dt><dd><em>real</em></dd><dt>Contrast</dt><dd><em>imaginary</em> = not real: <em>an imaginary enemy</em> (воображаемый враг). <em>imaginative</em> = good at imagining, creative: <em>an imaginative writer</em> (писатель с богатым воображением). Test: an <em>imaginary</em> story isn't true; an <em>imaginative</em> story is original. <em>imaginable</em> = possible to imagine, and it often follows its noun or a superlative: <em>every color imaginable</em>, <em>the worst thing imaginable</em>. Russian <em>мнимый</em> in the sense <em>supposed</em> can be <em>imaginary</em> (<em>an imaginary threat</em>), but <em>мнимый друг</em> is <em>a false friend</em>.</dd></dl>
+<p>Imaginary has 2 distinct senses.</p>
+<p><strong>1. Existing only in the mind; not real.</strong> (воображаемый, вымышленный, мнимый)</p>
+<ol><li>Our daughter had an <em>imaginary</em> friend named Blue.</li><li>The equator is an <em>imaginary</em> line around the earth.</li><li>His illness was <em>imaginary</em>, but his fear was real.</li></ol>
+<p><strong>2. In math, of a number: a real number multiplied by the square root of minus one.</strong> (мнимый (о числе))</p>
+<ol start="4"><li>An <em>imaginary</em> number squared gives a negative result.</li><li>Every complex number has a real part and an <em>imaginary</em> part.</li></ol>
+<hr>
+<h3 id="imaginative">imaginative<a class="hash" href="#imaginative" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmædʒənətɪv/ &middot; <em>ih-MAJ-uh-nuh-tiv</em></dd><dt>Русский</dt><dd>с богатым воображением, изобретательный; оригинальный</dd><dt>Type</dt><dd>quality; also evaluative</dd><dt>Position</dt><dd>both — <em>an imaginative child</em>, <em>The design is imaginative</em></dd><dt>Comparison</dt><dd>more/most — <em>more imaginative</em>, <em>most imaginative</em></dd><dt>Form</dt><dd>-ive from <em>imagine</em></dd><dt>Opposite</dt><dd><em>unimaginative</em></dd><dt>Contrast</dt><dd>See <em>imaginary</em>. <em>imaginative</em> praises a mind or a piece of work; it never means <em>not real</em>: <em>an imaginary friend</em>, not <em>an imaginative friend</em> (that would be a creative friend).</dd></dl>
+<p>Imaginative has 3 distinct senses.</p>
+<p><strong>1. Of a person: good at thinking of new and interesting ideas; creative.</strong> (с богатым воображением, изобретательный, творческий)</p>
+<ol><li>She's the <em>most imaginative</em> kid in her class.</li><li>We need an <em>imaginative</em> designer for this project.</li></ol>
+<p><strong>2. Of an idea, plan or piece of work: new, clever and original.</strong> (оригинальный, изобретательный, творческий)</p>
+<ol start="3"><li>The school came up with an <em>imaginative</em> solution to the parking problem.</li><li>The movie's special effects are wildly <em>imaginative</em>.</li><li>It's an <em>imaginative</em> retelling of an old fairy tale.</li></ol>
+<p><strong>3. Relating to the imagination, or done by using it.</strong> (основанный на воображении; художественный)</p>
+<ol start="6"><li>Blocks and dolls encourage <em>imaginative</em> play.</li><li>It takes an <em>imaginative</em> leap to picture the city in 1850.</li></ol>
+<hr>
+<h3 id="comprehensible">comprehensible<a class="hash" href="#comprehensible" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːmprɪˈhɛnsəbəl/ &middot; <em>kahm-prih-HEN-suh-buhl</em></dd><dt>Русский</dt><dd>понятный, постижимый, вразумительный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — usually after a verb (<em>barely comprehensible</em>); before a noun less often (<em>in comprehensible English</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more comprehensible</em>, <em>most comprehensible</em></dd><dt>Takes</dt><dd><em>to</em> + person (<em>comprehensible to beginners</em>)</dd><dt>Form</dt><dd>-ible from <em>comprehend</em></dd><dt>Opposite</dt><dd><em>incomprehensible</em></dd><dt>Contrast</dt><dd><em>comprehensible</em> = possible to understand: <em>a comprehensible explanation</em> (понятное объяснение). Don't confuse it with <em>comprehensive</em> = covering everything: <em>comprehensive insurance</em> (полное страхование), <em>a comprehensive study</em> (всестороннее исследование). Test: <em>comprehensible</em> asks whether you can understand it; <em>comprehensive</em> asks whether anything is left out. In everyday speech Americans say <em>understandable</em> or <em>easy to understand</em>. <em>understandable</em> also means <em>forgivable</em> (<em>His anger is understandable</em> — вполне понятно, простительно); <em>comprehensible</em> never does.</dd></dl>
+<p>Able to be understood.</p>
+<ol><li>The manual is barely <em>comprehensible</em> to anyone without a tech background.</li><li>She explained the new tax law in clear, <em>comprehensible</em> English.</li><li>His speech became <em>more comprehensible</em> once he slowed down.</li></ol>
+<hr>
+<h3 id="respectful">respectful<a class="hash" href="#respectful" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈspɛktfəl/ &middot; <em>rih-SPEKT-fuhl</em></dd><dt>Русский</dt><dd>почтительный, уважительный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>a respectful silence</em>, <em>Be respectful</em></dd><dt>Comparison</dt><dd>more/most — <em>more respectful</em>, <em>most respectful</em></dd><dt>Takes</dt><dd><em>of</em> + noun (<em>respectful of their privacy</em>); <em>to</em> or <em>toward</em> + person (<em>respectful toward her elders</em>)</dd><dt>Form</dt><dd>-ful from <em>respect</em> — showing respect</dd><dt>Opposite</dt><dd><em>disrespectful</em></dd><dt>Contrast</dt><dd><em>respectful</em> describes how you treat others: you show respect (уважительный, почтительный). <em>respectable</em> describes how others see you: you deserve respect, or you are socially acceptable (порядочный, приличный). Test: a <em>respectful</em> student is polite to the teacher; a <em>respectable</em> student has a good reputation. <em>respective</em> (соответствующий) is a third word: <em>They went back to their respective homes</em>.</dd></dl>
+<p>Showing respect and politeness toward someone or something.</p>
+<ol><li>The crowd stood in <em>respectful</em> silence during the anthem.</li><li>Please be <em>respectful</em> of your neighbors and keep the noise down.</li><li>He's been <em>more respectful</em> toward his teachers this year.</li></ol>
+<hr>
+<h3 id="respectable">respectable<a class="hash" href="#respectable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈspɛktəbəl/ &middot; <em>rih-SPEK-tuh-buhl</em></dd><dt>Русский</dt><dd>порядочный, приличный; неплохой; достойный уважения</dd><dt>Type</dt><dd>evaluative; also quality</dd><dt>Position</dt><dd>both — <em>a respectable family</em>, <em>He looked respectable</em></dd><dt>Comparison</dt><dd>more/most — <em>more respectable</em>, <em>most respectable</em></dd><dt>Form</dt><dd>-able from <em>respect</em> — deserving respect</dd><dt>Opposite</dt><dd><em>disreputable</em></dd><dt>Contrast</dt><dd>See <em>respectful</em>. Russian <em>респектабельный</em> suggests money and an expensive look; English <em>respectable</em> means <em>proper</em> or <em>good enough</em>, not rich: <em>a respectable neighborhood</em> is safe and decent, not necessarily wealthy. For the expensive look say <em>upscale</em> or <em>high-end</em>. <em>a respectable score</em> is good, not great.</dd></dl>
+<p>Respectable has 4 distinct senses.</p>
+<p><strong>1. Considered by society to be good, proper or correct.</strong> (порядочный, приличный)</p>
+<ol><li>She came from a <em>respectable</em> family in Boston.</li><li>He had a steady, <em>respectable</em> job at the bank.</li><li>They wanted to move to a <em>more respectable</em> neighborhood.</li></ol>
+<p><strong>2. Good enough in appearance to be seen in public.</strong> (приличный, пристойный)</p>
+<ol start="4"><li>Put on something <em>respectable</em> — we're having dinner with your grandparents.</li><li>I need a <em>respectable</em> suit for the interview.</li></ol>
+<p><strong>3. Fairly good or fairly large; good enough.</strong> (неплохой, приличный, достойный)</p>
+<ol start="6"><li>The team finished the season with a <em>respectable</em> 9-7 record.</li><li>She earns a <em>respectable</em> salary.</li><li>Their first album sold a <em>respectable</em> 50,000 copies.</li></ol>
+<p><strong>4. Deserving respect, or deserving to be taken seriously.</strong> (достойный уважения, солидный)</p>
+<ol start="9"><li>There are <em>respectable</em> arguments on both sides.</li><li>He was a <em>respectable</em> scholar, widely cited in his field.</li></ol>
+<hr>
+<h3 id="industrial">industrial<a class="hash" href="#industrial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdʌstriəl/ &middot; <em>in-DUHS-tree-uhl</em></dd><dt>Русский</dt><dd>промышленный, индустриальный, производственный</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both — mostly before a noun (<em>industrial waste</em>); after <em>be</em> about places and style (<em>The area is mostly industrial</em>)</dd><dt>Comparison</dt><dd>not gradable — except about places and style: <em>more industrial</em></dd><dt>Form</dt><dd>-al from <em>industry</em></dd><dt>Contrast</dt><dd><em>industrial</em> = about industry: <em>an industrial town</em> (промышленный город). <em>industrious</em> = hardworking: <em>an industrious student</em> (трудолюбивый студент). Test: machines, waste and places are <em>industrial</em>; people are <em>industrious</em>. British <em>industrial action</em> (a strike or slowdown) is not used in the US: Americans say <em>a strike</em> or <em>a work stoppage</em>; American <em>labor relations</em> is British <em>industrial relations</em>. Russian <em>индустриальный</em> and <em>промышленный</em> are both <em>industrial</em>.</dd></dl>
+<p>Industrial has 4 distinct senses.</p>
+<p><strong>1. Relating to industry and the making of goods in factories.</strong> (промышленный, производственный)</p>
+<ol><li><em>Industrial</em> waste was dumped in the river for decades.</li><li>He was badly hurt in an <em>industrial</em> accident.</li><li><em>Industrial</em> production rose 2 percent last month.</li></ol>
+<p><strong>2. Of a place: having a lot of factories and industry.</strong> (промышленный, индустриальный)</p>
+<ol start="4"><li>Pittsburgh grew into a major <em>industrial</em> city.</li><li>The company moved to an <em>industrial</em> park outside town.</li><li>The east side of the river is <em>more industrial</em> than the west.</li></ol>
+<p><strong>3. Made for use in factories or businesses, not at home; very strong.</strong> (промышленный, для промышленного использования)</p>
+<ol start="7"><li>The restaurant has an <em>industrial</em> dishwasher.</li><li>You'll need an <em>industrial</em>-strength cleaner for that stain.</li></ol>
+<p><strong>4. In a style that copies old factories, with bare brick, metal and concrete.</strong> (индустриальный, в стиле лофт)</p>
+<ol start="9"><li>The coffee shop has an <em>industrial</em> look, with exposed pipes and steel beams.</li><li>They bought a downtown loft with an <em>industrial</em> feel.</li></ol>
+<hr>
+<h3 id="industrious">industrious<a class="hash" href="#industrious" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdʌstriəs/ &middot; <em>in-DUHS-tree-uhs</em></dd><dt>Русский</dt><dd>трудолюбивый, усердный, прилежный</dd><dt>Type</dt><dd>quality; also evaluative</dd><dt>Position</dt><dd>both — <em>an industrious student</em>, <em>She's very industrious</em></dd><dt>Comparison</dt><dd>more/most — <em>more industrious</em>, <em>most industrious</em></dd><dt>Form</dt><dd>-ous from <em>industry</em> in its old meaning, <em>hard work</em></dd><dt>Opposite</dt><dd><em>lazy</em>, <em>idle</em></dd><dt>Contrast</dt><dd>See <em>industrial</em>. <em>industrious</em> is a formal, written word; in conversation Americans say <em>hardworking</em>. It never describes factories or cities: <em>an industrial city</em>, not <em>an industrious city</em>, unless you mean its people work hard.</dd></dl>
+<p>Working hard and steadily.</p>
+<ol><li>The <em>industrious</em> students stayed after class to finish their projects.</li><li>Ants are famous for being <em>industrious</em>.</li><li>She's the <em>most industrious</em> person on the team.</li></ol>
+<hr>
+<h3 id="uninterested">uninterested<a class="hash" href="#uninterested" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈɪntrəstɪd/ &middot; <em>uhn-IN-truh-stid</em></dd><dt>Русский</dt><dd>безразличный, равнодушный, не проявляющий интереса</dd><dt>Type</dt><dd>emotion; also participial</dd><dt>Position</dt><dd>both — <em>an uninterested look</em>, <em>He seemed uninterested</em></dd><dt>Comparison</dt><dd>more/most — <em>more uninterested</em>, <em>most uninterested</em>; <em>less interested</em> often sounds more natural</dd><dt>Takes</dt><dd><em>in</em> + noun or <em>-ing</em> (<em>uninterested in politics</em>)</dd><dt>Form</dt><dd>un- + <em>interested</em></dd><dt>Opposite</dt><dd><em>interested</em></dd><dt>Contrast</dt><dd><em>uninterested</em> = not interested, bored (безразличный). <em>disinterested</em> = having nothing to gain, fair (беспристрастный): <em>a disinterested judge</em>. Test: an <em>uninterested</em> referee isn't watching the game; a <em>disinterested</em> referee doesn't care who wins. Many Americans say <em>disinterested</em> for <em>uninterested</em>, and teachers and editors often mark it wrong, so keep them apart in writing. In speech the natural phrase is <em>not interested</em>: <em>I'm not interested</em>. Don't confuse <em>uninterested</em> (a person who feels no interest) with <em>uninteresting</em> (a thing that causes none — скучный). Russian <em>незаинтересованный</em> can mean either: <em>незаинтересованная сторона</em> is <em>a disinterested party</em>.</dd></dl>
+<p>Not interested; not wanting to know about something or take part in it.</p>
+<ol><li>My son is completely <em>uninterested</em> in sports.</li><li>The cat gave the new toy an <em>uninterested</em> look.</li><li>The longer the lecture went on, the <em>more uninterested</em> the students looked.</li></ol>
+<hr>
+<h3 id="disinterested">disinterested<a class="hash" href="#disinterested" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈɪntrəstɪd/ &middot; <em>dis-IN-truh-stid</em></dd><dt>Русский</dt><dd>беспристрастный, бескорыстный; безразличный (разг.)</dd><dt>Type</dt><dd>quality; also participial</dd><dt>Position</dt><dd>both — <em>a disinterested observer</em>, <em>Her advice was disinterested</em></dd><dt>Comparison</dt><dd>more/most — <em>more disinterested</em>, <em>most disinterested</em></dd><dt>Takes</dt><dd><em>in</em> + noun or <em>-ing</em> — only in the <em>not interested</em> sense (<em>disinterested in school</em>)</dd><dt>Form</dt><dd>dis- + <em>interested</em>, where <em>interest</em> means a personal stake</dd><dt>Opposite</dt><dd><em>biased</em>, <em>partial</em></dd><dt>Contrast</dt><dd>See <em>uninterested</em>. The <em>impartial</em> sense is the one careful writers keep and the one tests check; the <em>not interested</em> sense is old and widespread, but a reader may think you've made a mistake. With <em>in</em> after it, <em>disinterested</em> can only mean <em>not interested</em>. Russian <em>бескорыстный</em> about a person who helps for nothing is usually <em>selfless</em> or <em>unselfish</em>: <em>a selfless volunteer</em>.</dd></dl>
+<p>Disinterested has 2 distinct senses.</p>
+<p><strong>1. Not influenced by any personal advantage; fair and impartial.</strong> (беспристрастный, бескорыстный, незаинтересованный)</p>
+<ol><li>We need a <em>disinterested</em> third party to settle the dispute.</li><li>Her advice was completely <em>disinterested</em> — she had nothing to gain.</li><li>The panel wanted the <em>most disinterested</em> experts it could find.</li></ol>
+<p><strong>2. Not interested; showing no interest — common in speech, but many editors call it a mistake for <em>uninterested</em>.</strong> (безразличный, равнодушный)</p>
+<ol start="4"><li>The kids looked totally <em>disinterested</em> in the museum tour.</li><li>He seemed <em>disinterested</em> in anything I had to say.</li></ol>
+<hr>
+<h3 id="compulsory">compulsory<a class="hash" href="#compulsory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpʌlsəri/ &middot; <em>kuhm-PUHL-suh-ree</em></dd><dt>Русский</dt><dd>обязательный, принудительный</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both — <em>compulsory voting</em>, <em>Attendance is compulsory</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ory from <em>compel</em></dd><dt>Opposite</dt><dd><em>optional</em>, <em>voluntary</em></dd><dt>Contrast</dt><dd><em>compulsory</em> = required by a rule (обязательный). <em>compulsive</em> = unable to stop yourself (навязчивый): <em>a compulsive gambler</em>. Test: laws, courses and exams are <em>compulsory</em>; habits and people are <em>compulsive</em>. In American English <em>compulsory</em> sounds formal or foreign; the everyday words are <em>required</em> (<em>a required course</em>) and <em>mandatory</em> (<em>a mandatory evacuation</em>, <em>mandatory drug testing</em>). Russian <em>обязательный</em> about a person means <em>reliable</em> or <em>dependable</em>: <em>a reliable employee</em> (обязательный сотрудник), never <em>a compulsory employee</em>. <em>Обязательно приходи!</em> is <em>Be sure to come!</em></dd></dl>
+<p>Required by a law or a rule; that must be done.</p>
+<ol><li>School attendance is <em>compulsory</em> for children in every state.</li><li>Some countries have <em>compulsory</em> voting.</li><li>Gym class was <em>compulsory</em> at my high school.</li></ol>
+<hr>
+<h3 id="compulsive">compulsive<a class="hash" href="#compulsive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpʌlsɪv/ &middot; <em>kuhm-PUHL-siv</em></dd><dt>Русский</dt><dd>навязчивый, компульсивный; патологический, заядлый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>a compulsive liar</em>, <em>His shopping became compulsive</em></dd><dt>Comparison</dt><dd>more/most — <em>more compulsive</em>, <em>most compulsive</em></dd><dt>Form</dt><dd>-ive from <em>compel</em></dd><dt>Contrast</dt><dd>See <em>compulsory</em>. Before a person noun, <em>compulsive</em> means the habit controls the person: <em>a compulsive shopper</em> (шопоголик), <em>a compulsive liar</em> (патологический лжец). <em>obsessive-compulsive</em> is the medical term (OCD). British reviewers call a gripping show <em>compulsive viewing</em>; Americans usually say <em>addictive</em> or <em>binge-worthy</em>. Russian <em>компульсивный</em> is a clinical word; English <em>compulsive</em> is common in everyday talk.</dd></dl>
+<p>Compulsive has 2 distinct senses.</p>
+<p><strong>1. Of behavior: caused by a strong urge that is hard or impossible to control.</strong> (навязчивый, компульсивный, неудержимый)</p>
+<ol><li>She struggled with <em>compulsive</em> eating for years.</li><li>His hand-washing became <em>more compulsive</em> over time.</li><li>Checking your phone every few minutes can become <em>compulsive</em>.</li></ol>
+<p><strong>2. Of a person: unable to stop doing something, usually something bad.</strong> (патологический, заядлый, неисправимый)</p>
+<ol start="4"><li>He's a <em>compulsive</em> liar.</li><li>Her father was a <em>compulsive</em> gambler who lost the family house.</li></ol>
+<hr>
+<h3 id="healthy">healthy<a class="hash" href="#healthy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛlθi/ &middot; <em>HEL-thee</em></dd><dt>Русский</dt><dd>здоровый; полезный; крепкий; солидный</dd><dt>Type</dt><dd>quality; also evaluative</dd><dt>Position</dt><dd>both — <em>a healthy baby</em>, <em>The baby is healthy</em></dd><dt>Comparison</dt><dd>-er/-est — <em>healthier</em>, <em>healthiest</em></dd><dt>Form</dt><dd>-y from <em>health</em></dd><dt>Opposite</dt><dd><em>unhealthy</em>; <em>sick</em> (in the <em>not ill</em> sense)</dd><dt>Contrast</dt><dd><em>healthy</em> is the everyday American word for both <em>not sick</em> and <em>good for you</em>: <em>healthy kids</em>, <em>healthy food</em>. <em>healthful</em> means only <em>good for you</em> and sounds formal; some teachers say food must be <em>healthful</em>, not <em>healthy</em>, but <em>healthy food</em> is standard. Test: a person can be <em>healthy</em> but never <em>healthful</em>. Russian <em>здоровый</em> meaning <em>big</em> or <em>strong</em> (<em>здоровый парень</em>) is <em>big</em> or <em>hefty</em>, not <em>healthy</em>: <em>a big guy</em>. Before nouns about medicine use the noun <em>health</em>: <em>health insurance</em>, <em>health care</em>, <em>a health problem</em>, not <em>healthy insurance</em>.</dd></dl>
+<p>Healthy has 6 distinct senses.</p>
+<p><strong>1. Physically or mentally well; not sick.</strong> (здоровый)</p>
+<ol><li>The baby was born <em>healthy</em> and strong.</li><li>She's the <em>healthiest</em> she's been in years.</li><li>Regular checkups keep your pets <em>healthy</em>.</li></ol>
+<p><strong>2. Good for your health.</strong> (полезный (для здоровья), здоровый)</p>
+<ol start="4"><li>Try to eat a <em>healthy</em> breakfast every morning.</li><li>Walking to work is <em>healthier</em> than driving.</li><li>They're trying to live a <em>healthy</em> lifestyle.</li></ol>
+<p><strong>3. Showing that someone is in good health.</strong> (здоровый, цветущий; хороший (об аппетите))</p>
+<ol start="7"><li>Her skin has a <em>healthy</em> glow.</li><li>The boy has a <em>healthy</em> appetite.</li></ol>
+<p><strong>4. Of a business, an economy or a relationship: strong and working well.</strong> (крепкий, благополучный, устойчивый)</p>
+<ol start="9"><li>The company is in <em>healthy</em> financial shape.</li><li>They have a <em>healthy</em> marriage.</li><li>The economy is <em>healthier</em> than it was a year ago.</li></ol>
+<p><strong>5. Normal and sensible; showing good judgment.</strong> (здравый, разумный, здоровый)</p>
+<ol start="12"><li>Swimmers should have a <em>healthy</em> respect for the ocean.</li><li>A little <em>healthy</em> competition is good for the team.</li><li>Keep a <em>healthy</em> skepticism about online reviews.</li></ol>
+<p><strong>6. Fairly large.</strong> (солидный, значительный, приличный)</p>
+<ol start="15"><li>The team built a <em>healthy</em> lead in the first half.</li><li>They sold the house for a <em>healthy</em> profit.</li></ol>
+<hr>
+<h3 id="healthful">healthful<a class="hash" href="#healthful" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛlθfəl/ &middot; <em>HELTH-fuhl</em></dd><dt>Русский</dt><dd>полезный для здоровья, целебный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>a healthful diet</em>, <em>The food is healthful</em></dd><dt>Comparison</dt><dd>more/most — <em>more healthful</em>, <em>most healthful</em></dd><dt>Form</dt><dd>-ful from <em>health</em></dd><dt>Opposite</dt><dd><em>unhealthful</em></dd><dt>Contrast</dt><dd>See <em>healthy</em>. <em>healthful</em> appears in food labels, health articles and government guidelines: <em>a healthful diet</em>. It never describes a person's condition: <em>a healthy child</em>, not <em>a healthful child</em>.</dd></dl>
+<p>Good for your health.</p>
+<ol><li>The school cafeteria now serves <em>more healthful</em> meals.</li><li>People once moved to Arizona for its dry, <em>healthful</em> climate.</li><li>The report lists the <em>most healthful</em> snacks for kids.</li></ol>
+<hr>
+<h3 id="definite">definite<a class="hash" href="#definite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛfənət/ &middot; <em>DEF-uh-nuht</em></dd><dt>Русский</dt><dd>определённый, точный; явный; уверенный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>a definite answer</em>, <em>Nothing is definite yet</em></dd><dt>Comparison</dt><dd>more/most — <em>more definite</em>, <em>most definite</em></dd><dt>Takes</dt><dd><em>about</em> + noun, <em>-ing</em> or <em>wh</em>-clause — in the <em>sure</em> sense (<em>She was definite about the date</em>)</dd><dt>Opposite</dt><dd><em>indefinite</em>; <em>vague</em></dd><dt>Contrast</dt><dd><em>definite</em> = clear and fixed: <em>a definite plan</em> (конкретный план). <em>definitive</em> = final and authoritative, the last word on something: <em>the definitive book on jazz</em> (лучшая, исчерпывающая книга о джазе). Test: <em>definite</em> answers <em>Is it certain?</em>; <em>definitive</em> answers <em>Is this the final, best version?</em> Don't use <em>definitive</em> just to sound formal: <em>a definite yes</em>, not <em>a definitive yes</em>. Russian <em>определённый</em> meaning <em>a certain</em> is not <em>definite</em>: <em>to a certain extent</em> (в определённой степени), <em>a certain kind of person</em>. Spelling: <em>definite</em>, never <em>definate</em>.</dd></dl>
+<p>Definite has 4 distinct senses.</p>
+<p><strong>1. Fixed, clear and not likely to change.</strong> (определённый, точный, конкретный)</p>
+<ol><li>We don't have a <em>definite</em> date for the wedding yet.</li><li>Nothing is <em>definite</em> until we sign the contract.</li><li>I need a <em>more definite</em> answer by Friday.</li></ol>
+<p><strong>2. Clearly seen, felt or noticed; real.</strong> (явный, заметный, несомненный)</p>
+<ol start="4"><li>There's been a <em>definite</em> improvement in his grades.</li><li>Speaking Spanish is a <em>definite</em> advantage in this job.</li><li>There's a <em>definite</em> chill in the air tonight.</li></ol>
+<p><strong>3. Of a person: sure and firm about something.</strong> (уверенный, категоричный)</p>
+<ol start="7"><li>She was very <em>definite</em> about not wanting to move.</li><li>He wasn't <em>definite</em> about when he'd be back.</li></ol>
+<p><strong>4. In grammar: showing that a noun refers to something already known — in <em>the definite article</em>.</strong> (определённый (об артикле))</p>
+<ol start="9"><li><em>The</em> is the <em>definite</em> article in English.</li><li>Russian has no <em>definite</em> article.</li></ol>
+<hr>
+<h3 id="definitive">definitive<a class="hash" href="#definitive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈfɪnətɪv/ &middot; <em>dih-FIN-uh-tiv</em></dd><dt>Русский</dt><dd>окончательный, бесспорный; авторитетный, лучший</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both — <em>a definitive answer</em>, <em>The results were definitive</em></dd><dt>Comparison</dt><dd>more/most — <em>more definitive</em>, <em>most definitive</em></dd><dt>Opposite</dt><dd><em>inconclusive</em>, <em>tentative</em></dd><dt>Contrast</dt><dd>See <em>definite</em>. <em>definitive</em> is formal and strong; <em>definite</em> is the everyday word. <em>a definite answer</em> is simply clear; <em>a definitive answer</em> settles the question for good. Russian <em>дефинитивный</em> is rare; think <em>окончательный</em> or <em>эталонный</em>.</dd></dl>
+<p>Definitive has 2 distinct senses.</p>
+<p><strong>1. Final and settling a question, so that it cannot be doubted or changed.</strong> (окончательный, решающий, бесспорный)</p>
+<ol><li>The DNA test gave a <em>definitive</em> answer.</li><li>The Supreme Court's ruling was <em>definitive</em>.</li><li>We need <em>more definitive</em> evidence before we act.</li></ol>
+<p><strong>2. The most complete and reliable of its kind, so that it becomes the standard.</strong> (авторитетный, лучший, исчерпывающий)</p>
+<ol start="4"><li>It's considered the <em>definitive</em> biography of Lincoln.</li><li>This is the <em>definitive</em> guide to the national parks.</li><li>Critics call it the <em>definitive</em> recording of the song.</li></ol>
+<hr>
+<h3 id="exhaustive">exhaustive<a class="hash" href="#exhaustive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɔːstɪv/ &middot; <em>ig-ZAWS-tiv</em></dd><dt>Русский</dt><dd>исчерпывающий, всесторонний, полный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>an exhaustive search</em>, <em>The list is not exhaustive</em></dd><dt>Comparison</dt><dd>more/most — <em>more exhaustive</em>, <em>most exhaustive</em></dd><dt>Form</dt><dd>-ive from <em>exhaust</em> — using up every possibility</dd><dt>Opposite</dt><dd><em>partial</em>, <em>incomplete</em></dd><dt>Contrast</dt><dd><em>exhaustive</em> = complete, leaving nothing out (исчерпывающий). <em>exhausting</em> = making you very tired (утомительный, изнурительный): <em>an exhausting day</em>. <em>exhausted</em> = very tired (измученный): <em>I'm exhausted</em>. Test: an <em>exhaustive</em> search looks everywhere; an <em>exhausting</em> search wears you out. <em>comprehensive</em> is the close synonym and is more common for coverage: <em>a comprehensive plan</em>. Russian <em>исчерпывающий ответ</em> in conversation is usually <em>a complete answer</em> or <em>a full answer</em>; <em>exhaustive</em> belongs to searches, lists, studies and reviews.</dd></dl>
+<p>Including every possible detail or possibility; very thorough.</p>
+<ol><li>Police carried out an <em>exhaustive</em> search of the woods.</li><li>This list is not <em>exhaustive</em> — it's just a starting point.</li><li>The second study was even <em>more exhaustive</em> than the first.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

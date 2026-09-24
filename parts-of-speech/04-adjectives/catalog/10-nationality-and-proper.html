@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nationalities and other proper adjectives</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="nationalities-and-other-proper-adjectives">Nationalities and other proper adjectives<a class="hash" href="#nationalities-and-other-proper-adjectives" aria-label="link">#</a></h1>
+<blockquote><p><em>Russian</em>, <em>American</em>, <em>Catholic</em>, <em>Victorian</em> — the adjectives English always capitalizes.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>In English, adjectives of nationality, religion and origin are always capitalized — <em>Russian</em>, <em>American</em>, <em>Catholic</em> — where Russian writes them in lowercase. Many of them also work as nouns for a person (<em>a Russian</em>) or a language (<em>Russian</em>), and a few have a separate noun altogether (<em>Polish</em>, but <em>a Pole</em>; <em>Dutch</em>, but <em>a Dutchman</em>). These entries cover the adjective and flag the nouns that differ.</p>
+<hr>
+<h3 id="american">American<a class="hash" href="#american" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmɛrɪkən/ &middot; <em>uh-MAIR-i-kuhn</em></dd><dt>Русский</dt><dd>американский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>an American company</em>, <em>The company is American</em></dd><dt>Comparison</dt><dd>not gradable — but <em>very American</em>, <em>more American</em> when it means 'typical of the US'</dd><dt>Form</dt><dd>-an from <em>America</em></dd><dt>Contrast</dt><dd>In American usage <em>American</em> means 'of the United States'. For the continents English says <em>North American</em>, <em>South American</em> or <em>Latin American</em>, and Canadians and Mexicans do not call themselves <em>American</em>. <em>She's American</em> (adjective) and <em>She's an American</em> (noun) both work, and the adjective is more usual. Ancestry compounds take no hyphen in current American style: <em>Mexican American</em>, <em>Italian American</em>, <em>African American</em>. Always a capital <em>A</em>, unlike Russian <em>американский</em>.</dd></dl>
+<p>American has 2 distinct senses.</p>
+<p><strong>1. Of or from the United States, its people or its culture.</strong> (американский (о США))</p>
+<ol><li>My grandfather became an <em>American</em> citizen in 1962.</li><li>Is your car <em>American</em> or Japanese?</li><li>Tipping 20 percent is a very <em>American</em> habit.</li></ol>
+<p><strong>2. Of North, Central and South America as a whole.</strong> (американский (об обеих Америках))</p>
+<ol start="4"><li>The Organization of <em>American</em> States includes both Canada and Brazil.</li><li>Corn, potatoes and tomatoes were first grown by the native peoples of the <em>American</em> continents.</li></ol>
+<hr>
+<h3 id="british">British<a class="hash" href="#british" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɪtɪʃ/ &middot; <em>BRIT-ish</em></dd><dt>Русский</dt><dd>британский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a British passport</em>, <em>Her accent is British</em></dd><dt>Comparison</dt><dd>not gradable — but <em>very British</em> when it means 'typical of Britain'</dd><dt>Contrast</dt><dd><em>British</em> covers the whole United Kingdom: England, Scotland, Wales and Northern Ireland. <em>English</em> is England only, so a Scot is British but not English. The person is not <em>a British</em> but <em>a British person</em>, <em>a Briton</em> (formal, in the news) or informally <em>a Brit</em>. <em>The British</em> (the people) takes a plural verb: <em>The British drink a lot of tea</em>. Americans often say <em>English</em> when they mean <em>British</em>, and Scots and Welsh people notice.</dd></dl>
+<p>British has 2 distinct senses.</p>
+<p><strong>1. Of or from the United Kingdom, its people or its government.</strong> (британский)</p>
+<ol><li>She has dual <em>British</em> and American citizenship.</li><li>The <em>British</em> government announced new visa rules on Monday.</li><li>Waiting patiently in line is supposed to be very <em>British</em>.</li></ol>
+<p><strong>2. Of the English used in the United Kingdom, as opposed to American English.</strong> (британский (о варианте английского языка))</p>
+<ol start="4"><li>In <em>British</em> English, a truck is a lorry.</li><li>His spelling is <em>British</em> because he went to school in London.</li></ol>
+<hr>
+<h3 id="english">English<a class="hash" href="#english" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪŋɡlɪʃ/ &middot; <em>ING-glish</em></dd><dt>Русский</dt><dd>английский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>an English village</em>, <em>The village is English</em></dd><dt>Comparison</dt><dd>not gradable — but <em>very English</em> when it means 'typical of England'</dd><dt>Contrast</dt><dd><em>English</em> means England only; for the whole United Kingdom the adjective is <em>British</em>, so it is <em>a British passport</em>, not <em>an English passport</em>. The person is <em>an Englishman</em>, <em>an Englishwoman</em> or <em>an English person</em>, never <em>an English</em>; <em>the English</em> (the people) takes a plural verb. <em>An English teacher</em> is usually someone who teaches English, and only sometimes a teacher from England. The capital stays even for a school subject: <em>English class</em>, not <em>english class</em>.</dd></dl>
+<p>English has 2 distinct senses.</p>
+<p><strong>1. Of the English language.</strong> (английский (о языке))</p>
+<ol><li>I have an <em>English</em> test tomorrow.</li><li>Some <em>English</em> spellings make no sense at all.</li><li>Our <em>English</em> teacher makes us read a novel a month.</li></ol>
+<p><strong>2. Of or from England, its people or its culture.</strong> (английский (об Англии))</p>
+<ol start="4"><li>We rented a cottage in the <em>English</em> countryside.</li><li>Afternoon tea is an old <em>English</em> tradition.</li><li>The house has a very <em>English</em> garden, full of roses.</li></ol>
+<hr>
+<h3 id="french">French<a class="hash" href="#french" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/frɛntʃ/ &middot; <em>FRENCH</em></dd><dt>Русский</dt><dd>французский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>French wine</em>, <em>The wine is French</em></dd><dt>Comparison</dt><dd>not gradable — but <em>very French</em> when it means 'typical of France'</dd><dt>Contrast</dt><dd>The person is <em>a Frenchman</em>, <em>a Frenchwoman</em> or <em>a French person</em>, never <em>a French</em>; <em>the French</em> (the people) takes a plural verb. <em>A French teacher</em> is usually someone who teaches French. Like every origin adjective, <em>French</em> comes late in a string of adjectives, after opinion, size, age and color: <em>a lovely old French farmhouse</em>, not <em>a French lovely old farmhouse</em>. <em>French fries</em>, <em>French toast</em> and <em>French doors</em> are fixed names, not claims about France.</dd></dl>
+<p>French has 2 distinct senses.</p>
+<p><strong>1. Of or from France, its people or its culture.</strong> (французский (о Франции))</p>
+<ol><li>We had a bottle of <em>French</em> wine with dinner.</li><li>Her husband is <em>French</em>, so the kids are bilingual.</li><li>The café felt very <em>French</em>, with tiny tables out on the sidewalk.</li></ol>
+<p><strong>2. Of the French language.</strong> (французский (о языке))</p>
+<ol start="4"><li>My <em>French</em> class meets on Tuesdays and Thursdays.</li><li><em>French</em> verbs have far more endings than English ones.</li></ol>
+<hr>
+<h3 id="german">German<a class="hash" href="#german" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɜːrmən/ &middot; <em>JUR-muhn</em></dd><dt>Русский</dt><dd>немецкий; германский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a German car</em>, <em>The car is German</em></dd><dt>Comparison</dt><dd>not gradable — but <em>very German</em> when it means 'typical of Germany'</dd><dt>Contrast</dt><dd><em>German</em> is Germany and its language. For the language family, Russian <em>германский</em> is <em>Germanic</em>: English, Dutch and Swedish are <em>Germanic</em> languages, not <em>German</em> ones. The country is <em>Germany</em>, never <em>German</em>. <em>Dutch</em> means the Netherlands, not Germany, despite the German word <em>Deutsch</em>. The person is the noun <em>a German</em>.</dd></dl>
+<p>German has 2 distinct senses.</p>
+<p><strong>1. Of or from Germany, its people or its culture.</strong> (немецкий, германский (о Германии))</p>
+<ol><li>He drives a <em>German</em> car.</li><li>My great-grandparents were <em>German</em>.</li><li>The <em>German</em> economy is the largest in Europe.</li></ol>
+<p><strong>2. Of the German language.</strong> (немецкий (о языке))</p>
+<ol start="4"><li><em>German</em> nouns are always written with a capital letter.</li><li>The <em>German</em> word for 'car' is 'Auto.'</li></ol>
+<hr>
+<h3 id="italian">Italian<a class="hash" href="#italian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈtæljən/ &middot; <em>ih-TAL-yuhn</em></dd><dt>Русский</dt><dd>итальянский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Italian food</em>, <em>The chef is Italian</em></dd><dt>Comparison</dt><dd>not gradable — but <em>very Italian</em> when it means 'typical of Italy'</dd><dt>Contrast</dt><dd>Say ih-TAL-yuhn, with the stress on the second syllable, unlike <em>Italy</em> (IT-uh-lee); <em>EYE-talian</em> is heard in parts of the US, but many people hear it as nonstandard or even mocking. The person is the noun <em>an Italian</em>. In the US <em>Italian</em> often means ancestry rather than citizenship: <em>My family is Italian</em> usually means <em>Italian American</em>.</dd></dl>
+<p>Italian has 2 distinct senses.</p>
+<p><strong>1. Of or from Italy, its people or its culture.</strong> (итальянский (об Италии))</p>
+<ol><li>Let's get <em>Italian</em> food tonight.</li><li>The designer is <em>Italian</em>, but she lives in New York.</li><li>My grandmother's family is <em>Italian</em> — they came from Sicily in 1910.</li></ol>
+<p><strong>2. Of the Italian language.</strong> (итальянский (о языке))</p>
+<ol start="4"><li>Musical terms like 'piano' and 'forte' are <em>Italian</em> words.</li><li>She's taking an <em>Italian</em> class before her trip to Rome.</li></ol>
+<hr>
+<h3 id="spanish">Spanish<a class="hash" href="#spanish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspænɪʃ/ &middot; <em>SPAN-ish</em></dd><dt>Русский</dt><dd>испанский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Spanish class</em>, <em>The painter was Spanish</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ish from <em>Spain</em>, with the vowel changed</dd><dt>Contrast</dt><dd><em>Spanish</em> is Spain and the Spanish language, so a Mexican or a Colombian speaks Spanish but is not <em>Spanish</em>. For people from Spanish-speaking countries Americans say <em>Hispanic</em>, <em>Latino</em> or <em>Latina</em>, or name the country. The person from Spain is <em>a Spaniard</em> or <em>a Spanish person</em>, never <em>a Spanish</em>; <em>the Spanish</em> (the people) takes a plural verb. <em>Spanish-speaking</em> is hyphenated before a noun: <em>Spanish-speaking countries</em>.</dd></dl>
+<p>Spanish has 2 distinct senses.</p>
+<p><strong>1. Of the Spanish language.</strong> (испанский (о языке))</p>
+<ol><li>Our school has a <em>Spanish</em> teacher from Puerto Rico.</li><li>My <em>Spanish</em> homework took all evening.</li><li><em>Spanish</em> spelling is much more regular than English spelling.</li></ol>
+<p><strong>2. Of or from Spain, its people or its culture.</strong> (испанский (об Испании))</p>
+<ol start="4"><li>Paella is a <em>Spanish</em> rice dish.</li><li>Picasso was <em>Spanish</em>, but he spent most of his life in France.</li><li><em>Spanish</em> missions were built across California in the 1700s.</li></ol>
+<hr>
+<h3 id="russian">Russian<a class="hash" href="#russian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌʃən/ &middot; <em>RUSH-uhn</em></dd><dt>Русский</dt><dd>русский; российский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Russian literature</em>, <em>My neighbor is Russian</em></dd><dt>Comparison</dt><dd>not gradable — but <em>very Russian</em> when it means 'typical of Russia'</dd><dt>Contrast</dt><dd>English has one word for both <em>русский</em> and <em>российский</em>: <em>Russian</em> covers the language and culture (<em>Russian literature</em>), ethnicity, and the state and its citizens (<em>the Russian government</em>, <em>a Russian passport</em>). To stress citizenship, say <em>a citizen of Russia</em>; to stress the language, <em>Russian-speaking</em>: <em>a Russian-speaking family from Kyiv</em>. The capital <em>R</em> is required: <em>russian</em> is a spelling error. The person is the noun <em>a Russian</em>.</dd></dl>
+<p>Russian has 2 distinct senses.</p>
+<p><strong>1. Of or from Russia, its people, its culture or its government.</strong> (русский, российский)</p>
+<ol><li>She grew up reading <em>Russian</em> novels.</li><li>The <em>Russian</em> team won three gold medals.</li><li>My neighbor is <em>Russian</em> — she moved here from Novosibirsk.</li></ol>
+<p><strong>2. Of the Russian language.</strong> (русский (о языке))</p>
+<ol start="4"><li><em>Russian</em> grammar has six cases.</li><li>The <em>Russian</em> alphabet takes about a week to learn.</li></ol>
+<hr>
+<h3 id="ukrainian">Ukrainian<a class="hash" href="#ukrainian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːˈkreɪniən/ &middot; <em>yoo-KRAY-nee-uhn</em></dd><dt>Русский</dt><dd>украинский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>the Ukrainian flag</em>, <em>Her parents are Ukrainian</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd>The country is <em>Ukraine</em>, not <em>the Ukraine</em>; the article is outdated, and many Ukrainians find it offensive. Stress the second syllable: yoo-KRAY-nee-uhn. Write <em>a Ukrainian</em>, not <em>an Ukrainian</em>, because the word begins with a /j/ sound. The person is the noun <em>a Ukrainian</em>.</dd></dl>
+<p>Ukrainian has 2 distinct senses.</p>
+<p><strong>1. Of or from Ukraine, its people or its culture.</strong> (украинский (об Украине))</p>
+<ol><li>There's a <em>Ukrainian</em> church two blocks from our house.</li><li>Both of her parents are <em>Ukrainian</em>.</li><li>The <em>Ukrainian</em> flag is blue and yellow.</li></ol>
+<p><strong>2. Of the Ukrainian language.</strong> (украинский (о языке))</p>
+<ol start="4"><li>The <em>Ukrainian</em> alphabet has several letters the Russian one lacks, such as ї.</li><li>He translates <em>Ukrainian</em> poetry into English.</li></ol>
+<hr>
+<h3 id="chinese">Chinese<a class="hash" href="#chinese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃaɪˈniːz/ &middot; <em>chy-NEEZ</em></dd><dt>Русский</dt><dd>китайский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Chinese food</em>, <em>Her husband is Chinese</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ese from <em>China</em></dd><dt>Contrast</dt><dd>Words in <em>-ese</em> add no <em>-s</em> for people: <em>two Chinese students</em>, and <em>the Chinese</em> (the people) with a plural verb. <em>A Chinese</em> for one person sounds rude to many Americans; say <em>a Chinese person</em> or <em>a Chinese woman</em>. The language usually means Mandarin, but Cantonese is <em>Chinese</em> too. Before a stressed noun the stress often moves forward: CHY-neez FOOD. For Americans of Chinese descent the term is <em>Chinese American</em>.</dd></dl>
+<p>Chinese has 2 distinct senses.</p>
+<p><strong>1. Of or from China, its people or its culture.</strong> (китайский (о Китае))</p>
+<ol><li>Let's order <em>Chinese</em> food tonight.</li><li><em>Chinese</em> New Year falls in late January or February.</li><li>Her husband is <em>Chinese</em>, from Shanghai.</li></ol>
+<p><strong>2. Of the Chinese languages, especially Mandarin, or of their writing system.</strong> (китайский (о языке, иероглифах))</p>
+<ol start="4"><li>You need about 3,000 <em>Chinese</em> characters to read a newspaper.</li><li><em>Chinese</em> tones are the hardest part for English speakers.</li></ol>
+<hr>
+<h3 id="japanese">Japanese<a class="hash" href="#japanese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdʒæpəˈniːz/ &middot; <em>jap-uh-NEEZ</em></dd><dt>Русский</dt><dd>японский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a Japanese garden</em>, <em>My roommate is Japanese</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ese from <em>Japan</em></dd><dt>Contrast</dt><dd>Like all <em>-ese</em> words it adds no <em>-s</em> for people: <em>three Japanese tourists</em>. <em>A Japanese</em> for one person sounds rude; say <em>a Japanese person</em>. <em>Jap</em> is an ethnic slur, never a short form. Before a stressed noun the stress often moves forward: JAP-uh-neez GAR-duhn.</dd></dl>
+<p>Japanese has 2 distinct senses.</p>
+<p><strong>1. Of or from Japan, its people or its culture.</strong> (японский (о Японии))</p>
+<ol><li>We visited a <em>Japanese</em> garden in Portland.</li><li>My roommate is <em>Japanese</em>.</li><li><em>Japanese</em> high-speed trains are famous for leaving exactly on time.</li></ol>
+<p><strong>2. Of the Japanese language.</strong> (японский (о языке))</p>
+<ol start="4"><li><em>Japanese</em> writing uses three different scripts.</li><li>She's been studying <em>Japanese</em> grammar for two years.</li></ol>
+<hr>
+<h3 id="korean">Korean<a class="hash" href="#korean" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈriːən/ &middot; <em>kuh-REE-uhn</em></dd><dt>Русский</dt><dd>корейский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Korean barbecue</em>, <em>Her mom is Korean</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd>In American usage <em>Korean</em> nearly always means South Korean: <em>Korean food</em>, <em>a Korean company</em>. For the North, say <em>North Korean</em>. Stress the second syllable: kuh-REE-uhn. The person is the noun <em>a Korean</em>; for Americans of Korean descent, <em>Korean American</em>.</dd></dl>
+<p>Korean has 2 distinct senses.</p>
+<p><strong>1. Of or from Korea, especially South Korea, or its people or culture.</strong> (корейский (о Корее))</p>
+<ol><li>Have you tried <em>Korean</em> barbecue?</li><li>Their phone is made by a <em>Korean</em> company.</li><li>Her mom is <em>Korean</em> and her dad is Irish.</li></ol>
+<p><strong>2. Of the Korean language.</strong> (корейский (о языке))</p>
+<ol start="4"><li>The <em>Korean</em> alphabet was invented in the 1400s.</li><li><em>Korean</em> verbs change depending on how polite you are being.</li></ol>
+<hr>
+<h3 id="mexican">Mexican<a class="hash" href="#mexican" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛksɪkən/ &middot; <em>MEK-si-kuhn</em></dd><dt>Русский</dt><dd>мексиканский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a Mexican restaurant</em>, <em>My coworker is Mexican</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd>There is no Mexican language. Mexicans speak Spanish, so <em>He speaks Mexican</em> is wrong. Don't call every Spanish speaker in the US <em>Mexican</em>: name the country, or use <em>Hispanic</em> or <em>Latino</em>. For Americans of Mexican descent the term is <em>Mexican American</em>, with no hyphen in current style. <em>Mexican food</em> in the US often means Tex-Mex.</dd></dl>
+<p>Of or from Mexico, its people or its culture.</p>
+<ol><li>There's a great <em>Mexican</em> restaurant on Main Street.</li><li>My coworker is <em>Mexican</em> — she grew up in Guadalajara.</li><li>The <em>Mexican</em> peso fell against the dollar this week.</li></ol>
+<hr>
+<h3 id="canadian">Canadian<a class="hash" href="#canadian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈneɪdiən/ &middot; <em>kuh-NAY-dee-uhn</em></dd><dt>Русский</dt><dd>канадский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Canadian winters</em>, <em>Our neighbors are Canadian</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ian from <em>Canada</em>, with the stress moved</dd><dt>Contrast</dt><dd>The stress moves: KAN-uh-duh, but kuh-NAY-dee-uhn. A Canadian is <em>North American</em> but never <em>American</em>, which means the United States. <em>French Canadian</em> is a Canadian whose first language is French, while <em>Canadian French</em> is the language as spoken in Canada. <em>Canadian bacon</em> in the US is lean smoked pork loin, sliced like ham.</dd></dl>
+<p>Of or from Canada, its people or its culture.</p>
+<ol><li>She has <em>Canadian</em> and American citizenship.</li><li>Our new neighbors are <em>Canadian</em>, from Toronto.</li><li><em>Canadian</em> winters are longer and colder than ours.</li></ol>
+<hr>
+<h3 id="indian">Indian<a class="hash" href="#indian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪndiən/ &middot; <em>IN-dee-uhn</em></dd><dt>Русский</dt><dd>индийский; индейский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Indian food</em>, <em>Her parents are Indian</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Indian</em> has two unrelated meanings, <em>индийский</em> and <em>индейский</em>, and only context tells them apart. For the native peoples of the Americas, <em>Native American</em> is the usual neutral term. <em>American Indian</em> is still used in law, in names (<em>the National Museum of the American Indian</em>) and by many Native people themselves, but <em>Indian</em> alone in this sense can sound dated. For Americans whose families came from India, say <em>Indian American</em>. <em>Indian</em> is not <em>Hindu</em>: India also has large Muslim, Christian and Sikh communities. <em>Indian summer</em> (warm weather in the fall) is <em>бабье лето</em>.</dd></dl>
+<p>Indian has 2 distinct senses.</p>
+<p><strong>1. Of or from India, its people or its culture.</strong> (индийский)</p>
+<ol><li>We ordered <em>Indian</em> food — chicken tikka and naan.</li><li>Her parents are <em>Indian</em>, but she was born in New Jersey.</li><li>The <em>Indian</em> economy is growing fast.</li></ol>
+<p><strong>2. Of the native peoples of North or South America.</strong> (индейский)</p>
+<ol start="4"><li>The museum has a large collection of <em>American Indian</em> art.</li><li>Many towns in Oklahoma were built on former <em>Indian</em> land.</li><li>The area is part of an <em>Indian</em> reservation.</li></ol>
+<hr>
+<h3 id="irish">Irish<a class="hash" href="#irish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪrɪʃ/ &middot; <em>Y-rish</em></dd><dt>Русский</dt><dd>ирландский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>an Irish pub</em>, <em>Is he really Irish?</em></dd><dt>Comparison</dt><dd>not gradable — but <em>very Irish</em> when it means 'typical of Ireland'</dd><dt>Contrast</dt><dd><em>Irish</em> covers the Republic of Ireland and often the whole island. Northern Ireland is part of the United Kingdom, so people there may call themselves <em>Irish</em>, <em>British</em> or both. The person is <em>an Irishman</em>, <em>an Irishwoman</em> or <em>an Irish person</em>, not <em>an Irish</em>; <em>the Irish</em> (the people) takes a plural verb. In the US <em>I'm Irish</em> usually means Irish ancestry, not a passport.</dd></dl>
+<p>Irish has 2 distinct senses.</p>
+<p><strong>1. Of or from Ireland, its people or its culture, or of Irish descent.</strong> (ирландский (об Ирландии))</p>
+<ol><li>There's an <em>Irish</em> pub near the office.</li><li>Her whole family is <em>Irish</em> Catholic from Boston.</li><li>Is he really <em>Irish</em>, or does he just have an <em>Irish</em> name?</li></ol>
+<p><strong>2. Of the Irish language, also called Irish Gaelic.</strong> (ирландский (о языке))</p>
+<ol start="4"><li>Many <em>Irish</em> words have no English equivalent.</li><li>She took an <em>Irish</em> language course in Galway.</li></ol>
+<hr>
+<h3 id="scottish">Scottish<a class="hash" href="#scottish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskɑːtɪʃ/ &middot; <em>SKAH-tish</em></dd><dt>Русский</dt><dd>шотландский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a Scottish accent</em>, <em>My great-grandfather was Scottish</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Scottish</em> is the everyday adjective for Scotland and its people: <em>a Scottish accent</em>, <em>Scottish history</em>. <em>Scotch</em> is used almost only for whisky and in fixed names like <em>Scotch tape</em>, and many Scots dislike it for people. <em>Scots</em> is used for law and the Scots language (<em>Scots law</em>, <em>a Scots word</em>) and is also a plural noun for the people. Scotland is part of Britain, so a Scottish person is <em>British</em> but not <em>English</em>. The person is <em>a Scot</em> or <em>a Scottish person</em>.</dd></dl>
+<p>Of or from Scotland, its people or its culture.</p>
+<ol><li>He has a strong <em>Scottish</em> accent.</li><li>My great-grandfather was <em>Scottish</em>.</li><li>We drove through the <em>Scottish</em> Highlands in the rain.</li></ol>
+<hr>
+<h3 id="welsh">Welsh<a class="hash" href="#welsh" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛlʃ/ &middot; <em>WELSH</em></dd><dt>Русский</dt><dd>валлийский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>the Welsh flag</em>, <em>Her father was Welsh</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Welsh</em> is Wales, which is part of Britain but not England, so a Welsh person is <em>British</em> but not <em>English</em>. The person is <em>a Welshman</em>, <em>a Welshwoman</em> or <em>a Welsh person</em>, not <em>a Welsh</em>; <em>the Welsh</em> (the people) takes a plural verb. Lowercase <em>welsh</em> (<em>to welsh on a bet</em>, not pay a debt) is a verb that many people find offensive, so avoid it.</dd></dl>
+<p>Welsh has 2 distinct senses.</p>
+<p><strong>1. Of or from Wales, its people or its culture.</strong> (валлийский (об Уэльсе))</p>
+<ol><li>The <em>Welsh</em> flag has a red dragon on it.</li><li>Her father was <em>Welsh</em>, from a mining town near Cardiff.</li><li><em>Welsh</em> choirs are famous all over the world.</li></ol>
+<p><strong>2. Of the Welsh language.</strong> (валлийский (о языке))</p>
+<ol start="4"><li>Many <em>Welsh</em> place names, like Llanelli, begin with a double l.</li><li>She sang a <em>Welsh</em> lullaby her grandmother taught her.</li></ol>
+<hr>
+<h3 id="dutch">Dutch<a class="hash" href="#dutch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʌtʃ/ &middot; <em>DUHCH</em></dd><dt>Русский</dt><dd>нидерландский; голландский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Dutch cheese</em>, <em>The ship's captain was Dutch</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Dutch</em> means the Netherlands (often called Holland), not Germany. The German word <em>Deutsch</em> misleads English speakers, and the <em>Pennsylvania Dutch</em> are in fact of German descent. The person is <em>a Dutchman</em>, <em>a Dutchwoman</em> or <em>a Dutch person</em>, not <em>a Dutch</em>; <em>the Dutch</em> (the people) takes a plural verb. In <em>go Dutch</em> (each person pays for themselves) the word says nothing about the Netherlands.</dd></dl>
+<p>Dutch has 2 distinct senses.</p>
+<p><strong>1. Of or from the Netherlands, its people or its culture.</strong> (нидерландский, голландский)</p>
+<ol><li><em>Dutch</em> cyclists ride in any weather.</li><li>The ship's captain was <em>Dutch</em>.</li><li>New York was a <em>Dutch</em> colony called New Amsterdam until 1664.</li></ol>
+<p><strong>2. Of the Dutch language.</strong> (нидерландский (о языке))</p>
+<ol start="4"><li>Afrikaans grew out of the <em>Dutch</em> dialects spoken in South Africa.</li><li>'Cookie' and 'boss' are <em>Dutch</em> words that entered American English.</li></ol>
+<hr>
+<h3 id="greek">Greek<a class="hash" href="#greek" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡriːk/ &middot; <em>GREEK</em></dd><dt>Русский</dt><dd>греческий</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a Greek salad</em>, <em>Her husband is Greek</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Greek</em> is both modern and ancient Greece: Russian <em>древнегреческий</em> is usually just <em>ancient Greek</em>, and <em>Grecian</em> survives only for style (<em>a Grecian urn</em>). The person is the noun <em>a Greek</em>. On an American campus <em>Greek</em> means fraternities and sororities, whose names are Greek letters: <em>Greek life</em>, <em>going Greek</em>. <em>It's all Greek to me</em> (a noun) means <em>это для меня китайская грамота</em>.</dd></dl>
+<p>Greek has 3 distinct senses.</p>
+<p><strong>1. Of or from Greece, ancient or modern, its people or its culture.</strong> (греческий; древнегреческий (о Греции))</p>
+<ol><li>We ordered a <em>Greek</em> salad with extra feta.</li><li>Her husband is <em>Greek</em>, so they spend every summer on Crete.</li><li>We're reading <em>Greek</em> myths in sixth grade.</li></ol>
+<p><strong>2. Of the Greek language or alphabet.</strong> (греческий (о языке, алфавите))</p>
+<ol start="4"><li>Alpha and omega are the first and last letters of the <em>Greek</em> alphabet.</li><li>Many medical terms come from <em>Greek</em> roots.</li></ol>
+<p><strong>3. Of college fraternities and sororities, whose names are made of Greek letters.</strong> (относящийся к студенческим братствам и женским клубам)</p>
+<ol start="6"><li>About a third of the students belong to <em>Greek</em> organizations.</li><li><em>Greek</em> life is a big part of campus culture at many state schools.</li></ol>
+<hr>
+<h3 id="turkish">Turkish<a class="hash" href="#turkish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrkɪʃ/ &middot; <em>TUR-kish</em></dd><dt>Русский</dt><dd>турецкий</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Turkish coffee</em>, <em>Her boyfriend is Turkish</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ish from <em>Turk</em></dd><dt>Contrast</dt><dd><em>Turkish</em> is <em>турецкий</em>. <em>Тюркский</em>, the language family that includes Kazakh, Uzbek and Tatar, is <em>Turkic</em>. The person is <em>a Turk</em> or <em>a Turkish person</em>, not <em>a Turkish</em>. The country is <em>Turkey</em>, and since 2022 its government has used <em>Türkiye</em> in English; <em>turkey</em>, the bird, is lowercase.</dd></dl>
+<p>Turkish has 2 distinct senses.</p>
+<p><strong>1. Of or from Turkey, its people or its culture.</strong> (турецкий (о Турции))</p>
+<ol><li>We had <em>Turkish</em> coffee after dinner.</li><li>The <em>Turkish</em> coast is popular with tourists.</li><li>Her boyfriend is <em>Turkish</em>.</li></ol>
+<p><strong>2. Of the Turkish language.</strong> (турецкий (о языке))</p>
+<ol start="4"><li><em>Turkish</em> has used the Latin alphabet since 1928.</li><li><em>Turkish</em> words can get very long because of all the endings.</li></ol>
+<hr>
+<h3 id="polish">Polish<a class="hash" href="#polish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊlɪʃ/ &middot; <em>POH-lish</em></dd><dt>Русский</dt><dd>польский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Polish food</em>, <em>My grandmother was Polish</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ish from <em>Pole</em></dd><dt>Contrast</dt><dd>Capitalized <em>Polish</em> (POH-lish, of Poland) and lowercase <em>polish</em> (PAH-lish, to make something shine, or <em>shoe polish</em>) are different words. In writing the capital letter tells them apart, and in speech the vowel does. The person is <em>a Pole</em> or <em>a Polish person</em>, not <em>a Polish</em>; the people are <em>Poles</em> or <em>the Polish</em>.</dd></dl>
+<p>Polish has 2 distinct senses.</p>
+<p><strong>1. Of or from Poland, its people or its culture.</strong> (польский (о Польше))</p>
+<ol><li>Chicago has one of the largest <em>Polish</em> communities outside Poland.</li><li>My grandmother was <em>Polish</em>, and she made pierogi every Christmas.</li><li>The <em>Polish</em> border is only a few hours' drive from Berlin.</li></ol>
+<p><strong>2. Of the Polish language.</strong> (польский (о языке))</p>
+<ol start="4"><li><em>Polish</em> spelling uses letters such as ł, ż and ś.</li><li><em>Polish</em> nouns have seven cases, one more than Russian.</li></ol>
+<hr>
+<h3 id="swedish">Swedish<a class="hash" href="#swedish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswiːdɪʃ/ &middot; <em>SWEE-dish</em></dd><dt>Русский</dt><dd>шведский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Swedish furniture</em>, <em>The company is Swedish</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ish from <em>Swede</em></dd><dt>Contrast</dt><dd>The person is <em>a Swede</em> or <em>a Swedish person</em>, not <em>a Swedish</em>; the people are <em>Swedes</em> or <em>the Swedish</em>. <em>Swedish</em> is Sweden only; don't mix it up with <em>Swiss</em> (Switzerland). <em>Swedish meatballs</em> and <em>Swedish massage</em> are fixed names.</dd></dl>
+<p>Swedish has 2 distinct senses.</p>
+<p><strong>1. Of or from Sweden, its people or its culture.</strong> (шведский (о Швеции))</p>
+<ol><li><em>Swedish</em> furniture is known for its simple design.</li><li>The company is <em>Swedish</em>, but its US office is in Chicago.</li><li>My great-grandparents were <em>Swedish</em> farmers in Minnesota.</li></ol>
+<p><strong>2. Of the Swedish language.</strong> (шведский (о языке))</p>
+<ol start="4"><li><em>Swedish</em> and Norwegian speakers can usually understand each other.</li><li><em>Swedish</em> vowels like å and ö are hard for Americans.</li></ol>
+<hr>
+<h3 id="norwegian">Norwegian<a class="hash" href="#norwegian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɔːrˈwiːdʒən/ &middot; <em>nor-WEE-juhn</em></dd><dt>Русский</dt><dd>норвежский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>the Norwegian fjords</em>, <em>Her father is Norwegian</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ian from <em>Norway</em>, with the stress moved</dd><dt>Contrast</dt><dd>The stress moves: NOR-way, but nor-WEE-juhn. The person is the noun <em>a Norwegian</em>. <em>Norwegian</em> is Norway only; for the region as a whole the words are <em>Scandinavian</em> or <em>Nordic</em>.</dd></dl>
+<p>Norwegian has 2 distinct senses.</p>
+<p><strong>1. Of or from Norway, its people or its culture.</strong> (норвежский (о Норвегии))</p>
+<ol><li>The <em>Norwegian</em> fjords are among the most beautiful sights in Europe.</li><li>Her father is <em>Norwegian</em>, so she has two passports.</li><li>Many <em>Norwegian</em> immigrants settled in Minnesota and North Dakota.</li></ol>
+<p><strong>2. Of the Norwegian language.</strong> (норвежский (о языке))</p>
+<ol start="4"><li><em>Norwegian</em> has two official written forms.</li><li>Many <em>Norwegian</em> words look a lot like English ones.</li></ol>
+<hr>
+<h3 id="danish">Danish<a class="hash" href="#danish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪnɪʃ/ &middot; <em>DAY-nish</em></dd><dt>Русский</dt><dd>датский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Danish design</em>, <em>Our exchange student was Danish</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ish from <em>Dane</em></dd><dt>Contrast</dt><dd>The person is <em>a Dane</em> or <em>a Danish person</em>, not <em>a Danish</em>. In American English <em>a Danish</em> (also written <em>a danish</em>) is a noun for a sweet pastry: <em>a cheese Danish</em>. <em>Danish</em> is Denmark; <em>Dutch</em> is the Netherlands.</dd></dl>
+<p>Danish has 2 distinct senses.</p>
+<p><strong>1. Of or from Denmark, its people or its culture.</strong> (датский (о Дании))</p>
+<ol><li>LEGO is a <em>Danish</em> company.</li><li><em>Danish</em> design is known for clean lines and light wood.</li><li>Our exchange student was <em>Danish</em>.</li></ol>
+<p><strong>2. Of the Danish language.</strong> (датский (о языке))</p>
+<ol start="4"><li><em>Danish</em> pronunciation is famously hard for learners.</li><li>The <em>Danish</em> word hygge is now used in English too.</li></ol>
+<hr>
+<h3 id="swiss">Swiss<a class="hash" href="#swiss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɪs/ &middot; <em>SWIS</em></dd><dt>Русский</dt><dd>швейцарский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a Swiss watch</em>, <em>Our guide was Swiss</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd>There is no Swiss language. Switzerland has four official languages (German, French, Italian and Romansh), so <em>He speaks Swiss</em> is wrong. The noun is the same word (<em>a Swiss</em>, <em>the Swiss</em>), but <em>a Swiss person</em> is more common. <em>Swiss</em> is Switzerland; <em>Swedish</em> is Sweden. In the US <em>Swiss</em> or <em>Swiss cheese</em> is any pale cheese with holes: <em>ham and Swiss on rye</em>.</dd></dl>
+<p>Of or from Switzerland, its people or its culture.</p>
+<ol><li>She wears an old <em>Swiss</em> watch that belonged to her father.</li><li>Our guide was <em>Swiss</em>, and she spoke four languages.</li><li>They took a train through the <em>Swiss</em> Alps.</li></ol>
+<hr>
+<h3 id="brazilian">Brazilian<a class="hash" href="#brazilian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brəˈzɪljən/ &middot; <em>bruh-ZIL-yuhn</em></dd><dt>Русский</dt><dd>бразильский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Brazilian coffee</em>, <em>The team's best player is Brazilian</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ian from <em>Brazil</em></dd><dt>Contrast</dt><dd>There is no Brazilian language. Brazilians speak Portuguese, so the language is <em>Portuguese</em> or <em>Brazilian Portuguese</em>, never <em>Brazilian</em>. Brazilians are <em>Latino</em> but not really <em>Hispanic</em>, a word that points to Spanish. The person is the noun <em>a Brazilian</em>.</dd></dl>
+<p>Of or from Brazil, its people or its culture.</p>
+<ol><li>We went to a <em>Brazilian</em> steakhouse for her birthday.</li><li>The team's best player is <em>Brazilian</em>.</li><li><em>Brazilian</em> coffee is sold all over the world.</li></ol>
+<hr>
+<h3 id="vietnamese">Vietnamese<a class="hash" href="#vietnamese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/viˌɛtnəˈmiːz/ &middot; <em>vee-et-nuh-MEEZ</em></dd><dt>Русский</dt><dd>вьетнамский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Vietnamese coffee</em>, <em>Her parents are Vietnamese</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ese from <em>Vietnam</em></dd><dt>Contrast</dt><dd>Like all <em>-ese</em> words it adds no <em>-s</em> for people: <em>two Vietnamese students</em>, <em>the Vietnamese</em>. Say <em>a Vietnamese person</em> rather than <em>a Vietnamese</em>. In American spelling <em>Vietnam</em> is one word.</dd></dl>
+<p>Vietnamese has 2 distinct senses.</p>
+<p><strong>1. Of or from Vietnam, its people or its culture.</strong> (вьетнамский (о Вьетнаме))</p>
+<ol><li>There's a <em>Vietnamese</em> restaurant downtown that makes great pho.</li><li>Her parents are <em>Vietnamese</em> and came to California in the 1980s.</li><li><em>Vietnamese</em> coffee is made with sweetened condensed milk.</li></ol>
+<p><strong>2. Of the Vietnamese language.</strong> (вьетнамский (о языке))</p>
+<ol start="4"><li><em>Vietnamese</em> uses the Latin alphabet with a lot of accent marks.</li><li><em>Vietnamese</em> has six tones, so one syllable can have six meanings.</li></ol>
+<hr>
+<h3 id="arab">Arab<a class="hash" href="#arab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈærəb/ &middot; <em>AIR-uhb</em></dd><dt>Русский</dt><dd>арабский (о народе, странах)</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Arab countries</em>, <em>Her father is Arab</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Arab</em> describes people and countries: <em>Arab countries</em>, <em>the Arab world</em>, <em>Arab Americans</em>. <em>Arabic</em> is the language and writing (<em>Arabic script</em>, <em>Arabic numerals</em>), so <em>an Arabic country</em> is wrong. <em>Arabian</em> is mostly geography and a few fixed names: <em>the Arabian Peninsula</em>, <em>an Arabian horse</em>. <em>Arab</em> is not <em>Muslim</em>: Iranians, Turks and most of the world's Muslims are not Arabs, and many Arabs are Christian. Say AIR-uhb; <em>AY-rab</em> is an insult.</dd></dl>
+<p>Of the Arabs, the peoples whose main language is Arabic, or of their countries.</p>
+<ol><li>Egypt has the largest population in the <em>Arab</em> world.</li><li>Dearborn, Michigan, has a large <em>Arab</em> American community.</li><li>Her father is <em>Arab</em>, from Lebanon, and her mother is from Ohio.</li></ol>
+<hr>
+<h3 id="arabic">Arabic<a class="hash" href="#arabic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈærəbɪk/ &middot; <em>AIR-uh-bik</em></dd><dt>Русский</dt><dd>арабский (о языке, письме)</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — mostly before a noun: <em>Arabic script</em>; after a verb mostly of words: <em>The word 'algebra' is Arabic</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Arabic</em> is for the language and its writing, <em>Arab</em> for people and countries: <em>an Arabic newspaper</em>, but <em>an Arab country</em>. For culture both occur: <em>Arab music</em> or <em>Arabic music</em>. <em>Arabian</em> is for geography and a few fixed names (<em>the Arabian Peninsula</em>, <em>Arabian horses</em>). <em>Arabic numerals</em> are the ordinary digits 0 to 9 (<em>арабские цифры</em>), as opposed to <em>Roman numerals</em>. Stress the first syllable: AIR-uh-bik.</dd></dl>
+<p>Arabic has 3 distinct senses.</p>
+<p><strong>1. Of the Arabic language or the alphabet it is written in.</strong> (арабский (о языке, письме))</p>
+<ol><li><em>Arabic</em> script is written from right to left.</li><li>Words like 'algebra' and 'coffee' are <em>Arabic</em> in origin.</li><li>She teaches <em>Arabic</em> grammar at the university.</li></ol>
+<p><strong>2. Of the digits 0 to 9, as opposed to Roman numerals.</strong> (арабский (о цифрах))</p>
+<ol start="4"><li>The page numbers are in <em>Arabic</em> numerals, except in the introduction.</li><li>Clocks with <em>Arabic</em> numerals are easier for kids to read.</li></ol>
+<p><strong>3. Of the culture of Arabic-speaking peoples, especially their music, food and poetry.</strong> (арабский (о культуре))</p>
+<ol start="6"><li>The restaurant plays traditional <em>Arabic</em> music on weekends.</li><li>Our host served <em>Arabic</em> coffee flavored with cardamom.</li></ol>
+<hr>
+<h3 id="israeli">Israeli<a class="hash" href="#israeli" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪzˈreɪli/ &middot; <em>iz-RAY-lee</em></dd><dt>Русский</dt><dd>израильский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>the Israeli government</em>, <em>My roommate was Israeli</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-i from <em>Israel</em></dd><dt>Contrast</dt><dd><em>Israeli</em> is the modern state and its citizens. It is not the same as <em>Jewish</em> (<em>еврейский</em>): about a fifth of Israelis are Arab, and most Jewish people live outside Israel. <em>Israelite</em> is for the ancient people of the Bible. The language is <em>Hebrew</em>; there is no Israeli language.</dd></dl>
+<p>Of or from the modern state of Israel, its people or its government.</p>
+<ol><li>The <em>Israeli</em> government held a press conference on Tuesday.</li><li>My college roommate was <em>Israeli</em>, from Haifa.</li><li><em>Israeli</em> food has become very popular in American cities.</li></ol>
+<hr>
+<h3 id="jewish">Jewish<a class="hash" href="#jewish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒuːɪʃ/ &middot; <em>JOO-ish</em></dd><dt>Русский</dt><dd>еврейский; иудейский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a Jewish holiday</em>, <em>Both of his parents are Jewish</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ish from <em>Jew</em></dd><dt>Contrast</dt><dd><em>Jewish</em> covers both <em>еврейский</em> (the people) and <em>иудейский</em> (the religion), and many Jewish Americans are Jewish by family and culture without being religious. Use <em>Jewish</em> as the adjective: <em>Jew</em> before a noun (<em>a Jew lawyer</em>) is an insult. Even the noun <em>a Jew</em> can sound blunt, so <em>a Jewish person</em> or <em>He's Jewish</em> is safer. <em>Jewish</em> is not <em>Israeli</em> (a citizen of Israel). The languages are <em>Hebrew</em> and <em>Yiddish</em>, never <em>Jewish</em>.</dd></dl>
+<p>Jewish has 2 distinct senses.</p>
+<p><strong>1. Of Jews as a people, or of Jewish descent or culture.</strong> (еврейский)</p>
+<ol><li>She grew up in a <em>Jewish</em> family in Brooklyn.</li><li>Both of his parents are <em>Jewish</em>.</li><li>The neighborhood still has a <em>Jewish</em> deli from the 1920s.</li></ol>
+<p><strong>2. Of Judaism, the religion.</strong> (иудейский, еврейский (о религии))</p>
+<ol start="4"><li>Passover is one of the most important <em>Jewish</em> holidays.</li><li><em>Jewish</em> law forbids eating pork.</li></ol>
+<hr>
+<h3 id="christian">Christian<a class="hash" href="#christian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪstʃən/ &middot; <em>KRIS-chuhn</em></dd><dt>Русский</dt><dd>христианский</dd><dt>Type</dt><dd>origin; also quality</dd><dt>Position</dt><dd>both — <em>a Christian school</em>, <em>Most of the town is Christian</em></dd><dt>Comparison</dt><dd>not gradable — but the 'kind and forgiving' sense grades: <em>very Christian</em>, <em>more Christian</em></dd><dt>Form</dt><dd>from <em>Christ</em></dd><dt>Contrast</dt><dd>In everyday American speech <em>Christian</em> is often used to mean Protestant or evangelical: <em>Christian music</em>, <em>a Christian school</em>, even <em>Are you Catholic or Christian?</em> Catholics and Orthodox believers are Christians too. The person is the noun <em>a Christian</em>. <em>Christian name</em> (first name) is British and old-fashioned; Americans say <em>first name</em>. The <em>t</em> sounds like <em>ch</em>: KRIS-chuhn.</dd></dl>
+<p>Christian has 2 distinct senses.</p>
+<p><strong>1. Of Christianity or the people who follow it.</strong> (христианский)</p>
+<ol><li>They send their kids to a <em>Christian</em> school.</li><li>Most of the town's residents are <em>Christian</em>.</li><li>Christmas and Easter are the main <em>Christian</em> holidays.</li></ol>
+<p><strong>2. Kind, generous and forgiving, as Christianity teaches people to be.</strong> (по-христиански милосердный, великодушный)</p>
+<ol start="4"><li>Forgiving him was the <em>Christian</em> thing to do.</li><li>It would have been more <em>Christian</em> to invite her in.</li></ol>
+<hr>
+<h3 id="muslim">Muslim<a class="hash" href="#muslim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌzlɪm/ &middot; <em>MUHZ-lim</em></dd><dt>Русский</dt><dd>мусульманский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a Muslim family</em>, <em>My coworker is Muslim</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Muslim</em> is mainly for people and communities (<em>a Muslim family</em>, <em>Muslim voters</em>); <em>Islamic</em> is mainly for the religion itself, its law, art and history (<em>Islamic law</em>, <em>Islamic architecture</em>). <em>Islamist</em> means political Islam, not simply Muslim. <em>Moslem</em> and <em>Mohammedan</em> are outdated and offensive. <em>Muslim</em> is not <em>Arab</em>: most Muslims live in Asia. Americans say MUHZ-lim; MUUZ-lim and MUUS-lim are also heard.</dd></dl>
+<p>Of Islam, or of the people who follow it.</p>
+<ol><li>Indonesia has the largest <em>Muslim</em> population in the world.</li><li>My coworker is <em>Muslim</em>, so she fasts during Ramadan.</li><li>The city has a growing <em>Muslim</em> community.</li></ol>
+<hr>
+<h3 id="catholic">Catholic<a class="hash" href="#catholic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæθlɪk/ &middot; <em>KATH-lik</em></dd><dt>Русский</dt><dd>католический</dd><dt>Type</dt><dd>origin; also quality</dd><dt>Position</dt><dd>both — <em>a Catholic school</em>, <em>My whole family is Catholic</em></dd><dt>Comparison</dt><dd>not gradable — but lowercase <em>catholic</em>, 'broad', grades: <em>very catholic</em>, <em>more catholic</em></dd><dt>Contrast</dt><dd>Capital <em>Catholic</em> is the church. Lowercase <em>catholic</em> (<em>catholic tastes</em>) means broad and wide-ranging, has nothing to do with religion and is mostly written, not spoken. In the US <em>Catholic</em> alone means Roman Catholic. Orthodox Christians are not <em>Catholic</em>, although <em>Greek Catholic</em> (<em>грекокатолический</em>) churches are. Say KATH-lik or KATH-uh-lik.</dd></dl>
+<p>Catholic has 3 distinct senses.</p>
+<p><strong>1. Of the Roman Catholic Church or its members.</strong> (католический)</p>
+<ol><li>She went to <em>Catholic</em> school through twelfth grade.</li><li>My whole family is <em>Catholic</em>.</li><li>The <em>Catholic</em> Church has more than a billion members.</li></ol>
+<p><strong>2. catholic: including a wide variety of things; broad.</strong> (разносторонний, широкий)</p>
+<ol start="4"><li>His taste in music is <em>catholic</em> — everything from Bach to hip-hop.</li><li>Her reading has become more <em>catholic</em> since she retired.</li></ol>
+<p><strong>3. catholic: of the whole Christian church, not one branch of it — mostly in old creeds.</strong> (вселенский, соборный)</p>
+<ol start="6"><li>The creed speaks of 'one holy <em>catholic</em> and apostolic Church.'</li><li>Many Protestants recite that creed, and for them <em>catholic</em> does not mean Roman Catholic.</li></ol>
+<hr>
+<h3 id="protestant">Protestant<a class="hash" href="#protestant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːtəstənt/ &middot; <em>PRAH-tuh-stuhnt</em></dd><dt>Русский</dt><dd>протестантский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a Protestant church</em>, <em>The early settlers were Protestant</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>from <em>protest</em></dd><dt>Contrast</dt><dd>Stress the first syllable, as in the noun <em>protest</em>: PRAH-tuh-stuhnt. <em>Protestant</em> has nothing to do with today's <em>protesters</em>. Orthodox churches are neither <em>Catholic</em> nor <em>Protestant</em>. Americans often name the church instead (<em>Baptist</em>, <em>Methodist</em>, <em>Lutheran</em>) or just say <em>Christian</em>, which in everyday American speech often means Protestant.</dd></dl>
+<p>Of the Christian churches that separated from the Roman Catholic Church in the 1500s, or of their members.</p>
+<ol><li>Most of the early settlers in New England were <em>Protestant</em>.</li><li>Baptists and Methodists are the two biggest <em>Protestant</em> groups in the South.</li><li>He grew up with a strong <em>Protestant</em> work ethic.</li></ol>
+<hr>
+<h3 id="buddhist">Buddhist<a class="hash" href="#buddhist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːdɪst/ &middot; <em>BOO-dist</em></dd><dt>Русский</dt><dd>буддийский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a Buddhist temple</em>, <em>He's been Buddhist since college</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ist from <em>Buddha</em></dd><dt>Contrast</dt><dd>The adjective and the person are the same word: <em>a Buddhist temple</em>, <em>a Buddhist</em>, <em>She's Buddhist</em>. The <em>dh</em> is just a <em>d</em>: BOO-dist, also BUU-dist. Russian has <em>буддийский</em> and <em>буддистский</em>; English <em>Buddhist</em> covers both.</dd></dl>
+<p>Of Buddhism or the people who follow it.</p>
+<ol><li>We visited a <em>Buddhist</em> temple in Kyoto.</li><li>He's been <em>Buddhist</em> since college.</li><li><em>Buddhist</em> monks in Thailand wear orange robes.</li></ol>
+<hr>
+<h3 id="hindu">Hindu<a class="hash" href="#hindu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɪnduː/ &middot; <em>HIN-doo</em></dd><dt>Русский</dt><dd>индуистский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>a Hindu temple</em>, <em>Her family is Hindu</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Hindu</em> is the religion; <em>Hindi</em> is a language of India; <em>Indian</em> is the country. Not all Indians are Hindu, and Hindus also live in Nepal, Bali and around the world. Russian <em>индусский</em> is sometimes used loosely for <em>Indian</em>, but English <em>Hindu</em> never means <em>Indian</em>. The adjective and the person are the same word: <em>a Hindu temple</em>, <em>a Hindu</em>.</dd></dl>
+<p>Of Hinduism or the people who follow it.</p>
+<ol><li>Diwali is one of the biggest <em>Hindu</em> festivals.</li><li>Her family is <em>Hindu</em>, so they don't eat beef.</li><li>The <em>Hindu</em> temple in our town opened in 2005.</li></ol>
+<hr>
+<h3 id="african">African<a class="hash" href="#african" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæfrɪkən/ &middot; <em>AF-ri-kuhn</em></dd><dt>Русский</dt><dd>африканский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>an African country</em>, <em>Her doctor is African</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-an from <em>Africa</em></dd><dt>Contrast</dt><dd>Africa is a continent of more than fifty countries, so there is no <em>African language</em> in the singular; name it: <em>Swahili</em>, <em>Amharic</em>, <em>Yoruba</em>. <em>A Nigerian</em> or <em>a Kenyan</em> is more precise than <em>an African</em>. For Black Americans the terms are <em>African American</em> (no hyphen in current style) and <em>Black</em>, while <em>African</em> alone means from Africa.</dd></dl>
+<p>African has 2 distinct senses.</p>
+<p><strong>1. Of or from Africa, its countries or its peoples.</strong> (африканский)</p>
+<ol><li>Nigeria has the largest population of any <em>African</em> country.</li><li>We saw lions and elephants on an <em>African</em> safari.</li><li>Her doctor is <em>African</em>, from Ghana.</li></ol>
+<p><strong>2. Of Black people whose ancestors came from Africa.</strong> (африканского происхождения (об афроамериканцах))</p>
+<ol start="4"><li>The museum tells the story of the <em>African</em> diaspora in the Americas.</li><li>Kwanzaa is a holiday that celebrates <em>African</em> heritage among Black Americans.</li></ol>
+<hr>
+<h3 id="european">European<a class="hash" href="#european" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌjʊrəˈpiːən/ &middot; <em>yur-uh-PEE-uhn</em></dd><dt>Русский</dt><dd>европейский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>European capitals</em>, <em>Her accent sounds European</em></dd><dt>Comparison</dt><dd>not gradable — but <em>very European</em> when it means 'typical of Europe'</dd><dt>Form</dt><dd>-an from <em>Europe</em>, with the stress moved</dd><dt>Contrast</dt><dd>Write <em>a European</em>, not <em>an European</em>: the word starts with a /j/ sound, like <em>a university</em>. The stress moves from YUR-uhp to yur-uh-PEE-uhn. <em>European</em> can mean the continent or the European Union. <em>European countries</em> includes Norway and Switzerland, but <em>European regulators</em> usually means the EU.</dd></dl>
+<p>European has 2 distinct senses.</p>
+<p><strong>1. Of or from Europe, its countries or its peoples.</strong> (европейский (о Европе))</p>
+<ol><li>We spent two weeks visiting <em>European</em> capitals.</li><li>Her accent sounds <em>European</em>, but I can't tell where from.</li><li>The town square feels very <em>European</em>, with cafés spilling onto the street.</li></ol>
+<p><strong>2. Of the European Union.</strong> (европейский (о Евросоюзе))</p>
+<ol start="4"><li><em>European</em> regulators fined the company $4 billion.</li><li>With a <em>European</em> passport you can work anywhere in the EU.</li></ol>
+<hr>
+<h3 id="asian">Asian<a class="hash" href="#asian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪʒən/ &middot; <em>AY-zhuhn</em></dd><dt>Русский</dt><dd>азиатский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — <em>Asian markets</em>, <em>Her family is Asian</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd>In the US <em>Asian</em> usually means East or Southeast Asian (Chinese, Korean, Vietnamese, Filipino), while in Britain it usually means South Asian (Indian, Pakistani). <em>Asian American</em> has no hyphen in current style. <em>Oriental</em> for people is outdated and offensive, and survives only for rugs and a few names. The sound in the middle is <em>zh</em>: AY-zhuhn.</dd></dl>
+<p>Asian has 2 distinct senses.</p>
+<p><strong>1. Of or from Asia, its countries or its peoples.</strong> (азиатский (об Азии))</p>
+<ol><li>Tokyo and Seoul are among the largest <em>Asian</em> cities.</li><li><em>Asian</em> markets fell sharply overnight.</li><li>The <em>Asian</em> elephant is smaller than the African one.</li></ol>
+<p><strong>2. Of Americans whose families came from East, Southeast or South Asia.</strong> (азиатского происхождения (об американцах))</p>
+<ol start="4"><li>The city has a large <em>Asian</em> American population.</li><li>She was one of only two <em>Asian</em> kids in her high school in Ohio.</li></ol>
+<hr>
+<h3 id="latin">Latin<a class="hash" href="#latin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlætn̩/ &middot; <em>LAT-n</em></dd><dt>Русский</dt><dd>латинский; латиноамериканский</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — mostly before a noun: <em>Latin music</em>; after a verb mostly of words: <em>The phrase is Latin</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd>For a person, Americans say <em>Latino</em> or <em>Latina</em> (also <em>Latine</em> or <em>Latinx</em>) or <em>Hispanic</em>: <em>She's Latina</em>, rarely <em>She's Latin</em>. <em>Latin</em> is most natural for music, dance and food, and in <em>Latin America</em> and <em>Latin American</em>. <em>Hispanic</em> points to the Spanish language, so Brazilians are <em>Latino</em> but not really <em>Hispanic</em>. Russian <em>латиница</em> is <em>the Latin alphabet</em>, or <em>Latin letters</em>.</dd></dl>
+<p>Latin has 3 distinct senses.</p>
+<p><strong>1. Of Latin, the language of ancient Rome, or of its alphabet.</strong> (латинский)</p>
+<ol><li>Scientists give every plant a <em>Latin</em> name.</li><li>Turkish switched to the <em>Latin</em> alphabet in 1928.</li><li>Many English legal terms are <em>Latin</em> phrases.</li></ol>
+<p><strong>2. Of Latin America, or of its people and culture.</strong> (латиноамериканский)</p>
+<ol start="4"><li>We took <em>Latin</em> dance classes — salsa and bachata.</li><li>The station plays <em>Latin</em> pop all day.</li><li>Miami has a huge <em>Latin</em> community.</li></ol>
+<p><strong>3. Of the peoples of southern Europe whose languages come from Latin, such as the Italians and Spanish.</strong> (романский, южноевропейский)</p>
+<ol start="7"><li>The movie leans on the old stereotype of the passionate <em>Latin</em> lover.</li><li>Italy, Spain and Portugal share a <em>Latin</em> heritage that goes back to Rome.</li></ol>
+<hr>
+<h3 id="western">Western<a class="hash" href="#western" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛstərn/ &middot; <em>WES-turn</em></dd><dt>Русский</dt><dd>западный</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — before a noun in the direction sense: <em>western Oregon</em>; after a verb only in the 'of the West' senses: <em>Their values are very Western</em></dd><dt>Comparison</dt><dd>not gradable — but the 'of the West' sense grades: <em>more Western</em>; the farthest west is <em>westernmost</em></dd><dt>Form</dt><dd>-ern from <em>west</em></dd><dt>Opposite</dt><dd><em>Eastern</em></dd><dt>Contrast</dt><dd>Capital <em>Western</em> is for the West as a culture (<em>Western democracies</em>, <em>Western medicine</em>), for the American West (<em>Western boots</em>) and in names (<em>Western Europe</em>, <em>the Western Hemisphere</em>). Plain direction is lowercase: <em>western Kansas</em>, <em>the western shore of the lake</em>. <em>Oregon is western</em> is not English; say <em>Oregon is in the West</em>. <em>A western</em> (a noun) is a cowboy movie or book. For the wind, <em>a west wind</em> or <em>a westerly wind</em> is more usual.</dd></dl>
+<p>Western has 3 distinct senses.</p>
+<p><strong>1. Of Europe and North America, or of their culture, politics and values.</strong> (западный (о Западе))</p>
+<ol><li>Most <em>Western</em> countries imposed sanctions.</li><li>Acupuncture is now used alongside <em>Western</em> medicine.</li><li>The city has become more <em>Western</em> over the last twenty years.</li></ol>
+<p><strong>2. In, from or facing the west of a place.</strong> (западный (о части, направлении))</p>
+<ol start="4"><li>They own a ranch in <em>western</em> Montana.</li><li>The <em>western</em> side of the house gets the afternoon sun.</li></ol>
+<p><strong>3. Of the American West, or in the style of its cowboys.</strong> (ковбойский, в стиле Дикого Запада)</p>
+<ol start="6"><li>He always wears <em>Western</em> boots and a big belt buckle.</li><li>The store sells <em>Western</em> wear and saddles.</li></ol>
+<hr>
+<h3 id="eastern">Eastern<a class="hash" href="#eastern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːstərn/ &middot; <em>EE-sturn</em></dd><dt>Русский</dt><dd>восточный</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — before a noun in the direction sense: <em>eastern Ohio</em>; after a verb only in the 'of the East' sense: <em>The design looks very Eastern</em></dd><dt>Comparison</dt><dd>not gradable — but the 'of the East' sense grades: <em>more Eastern</em>; the farthest east is <em>easternmost</em></dd><dt>Form</dt><dd>-ern from <em>east</em></dd><dt>Opposite</dt><dd><em>Western</em></dd><dt>Contrast</dt><dd>Capital <em>Eastern</em> is for Asian cultures (<em>Eastern philosophy</em>), for the former Communist countries (<em>Eastern Europe</em>, <em>Eastern European</em>), for the Orthodox churches and for the US time zone (<em>Eastern time</em>, the time in New York). Plain direction is lowercase: <em>eastern Ohio</em>, <em>the eastern shore</em>. The Middle East has its own adjective: <em>Middle Eastern food</em>. <em>Oriental</em> is outdated for people.</dd></dl>
+<p>Eastern has 5 distinct senses.</p>
+<p><strong>1. In, from or facing the east of a place.</strong> (восточный (о части, направлении))</p>
+<ol><li>Her family farms in <em>eastern</em> Washington.</li><li>The storm will reach the <em>eastern</em> part of the state by evening.</li></ol>
+<p><strong>2. Of Eastern Europe, especially the countries once under Soviet control.</strong> (восточноевропейский)</p>
+<ol start="3"><li>Many <em>Eastern</em> European immigrants settled in Chicago.</li><li>The <em>Eastern</em> bloc fell apart after 1989.</li></ol>
+<p><strong>3. Of the eastern United States, especially its time zone.</strong> (восточный (о востоке США))</p>
+<ol start="5"><li>The game starts at 8 p.m. <em>Eastern</em> time.</li><li>A snowstorm shut down airports up and down the <em>Eastern</em> Seaboard.</li></ol>
+<p><strong>4. Of Asia, or of its cultures, religions and ways of thinking.</strong> (восточный (об Азии))</p>
+<ol start="7"><li>She's interested in <em>Eastern</em> philosophy and meditation.</li><li>Her paintings have become more <em>Eastern</em> in style since she moved to Kyoto.</li></ol>
+<p><strong>5. Of the Orthodox churches of Eastern Europe and the Middle East.</strong> (восточный (о православной церкви))</p>
+<ol start="9"><li>Many <em>Eastern</em> Orthodox churches celebrate Christmas on January 7.</li><li>The <em>Eastern</em> and Western churches split in 1054.</li></ol>
+<hr>
+<h3 id="northern">Northern<a class="hash" href="#northern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɔːrðərn/ &middot; <em>NOR-thurn</em></dd><dt>Русский</dt><dd>северный</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — mostly before a noun: <em>northern Minnesota</em>; after a verb of the US North: <em>His accent is Northern</em></dd><dt>Comparison</dt><dd>not gradable — the farthest north is <em>northernmost</em></dd><dt>Form</dt><dd>-ern from <em>north</em></dd><dt>Opposite</dt><dd><em>Southern</em></dd><dt>Contrast</dt><dd>Lowercase for plain direction (<em>northern California</em>, <em>the northern lights</em>), capital for names and for the US North as a region: <em>Northern Ireland</em>, <em>the Northern Hemisphere</em>, <em>a Northern accent</em>. In US history <em>Northern</em> means the states that fought for the Union in the Civil War. The <em>th</em> is voiced, as in <em>other</em>: NOR-thurn.</dd></dl>
+<p>Northern has 2 distinct senses.</p>
+<p><strong>1. In, from or facing the north of a place.</strong> (северный)</p>
+<ol><li>We saw the <em>northern</em> lights in Alaska.</li><li>Winters in <em>northern</em> Minnesota are brutal.</li><li>The <em>northern</em> half of the state is mostly forest.</li></ol>
+<p><strong>2. Of the northern states of the US, or typical of them.</strong> (северный (о северных штатах США))</p>
+<ol start="4"><li><em>Northern</em> troops captured Atlanta in 1864.</li><li>After ten years in Georgia, she still has a <em>Northern</em> accent.</li></ol>
+<hr>
+<h3 id="southern">Southern<a class="hash" href="#southern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌðərn/ &middot; <em>SUH-thurn</em></dd><dt>Русский</dt><dd>южный</dd><dt>Type</dt><dd>origin</dd><dt>Position</dt><dd>both — before a noun in the direction sense: <em>southern Italy</em>; after a verb in the 'American South' sense: <em>Her family is very Southern</em></dd><dt>Comparison</dt><dd>not gradable — but the 'American South' sense grades: <em>very Southern</em>, <em>more Southern</em>; the farthest south is <em>southernmost</em></dd><dt>Form</dt><dd>-ern from <em>south</em>, with the vowel changed</dd><dt>Opposite</dt><dd><em>Northern</em></dd><dt>Contrast</dt><dd>The vowel changes: <em>south</em> is SOWTH, but <em>Southern</em> is SUH-thurn, and the SOW- vowel is the most common mistake with this word. Capital <em>Southern</em> means the American South, roughly from Texas and Virginia down to Florida: <em>Southern hospitality</em>, <em>Southern cooking</em>, <em>a Southern accent</em>. Plain direction is lowercase: <em>southern Italy</em>, <em>the southern tip of Florida</em>. The person is <em>a Southerner</em>.</dd></dl>
+<p>Southern has 2 distinct senses.</p>
+<p><strong>1. In, from or facing the south of a place.</strong> (южный)</p>
+<ol><li>We spent a week in <em>southern</em> Spain.</li><li>The <em>southern</em> half of the country is much drier.</li><li>Australia is in the <em>Southern</em> Hemisphere.</li></ol>
+<p><strong>2. Of the American South, or typical of its people and way of life.</strong> (южный (о юге США))</p>
+<ol start="4"><li>Grits and fried chicken are <em>Southern</em> classics.</li><li>She has a soft <em>Southern</em> accent.</li><li>After twenty years in Atlanta, he's more <em>Southern</em> than the locals.</li></ol>
+<hr>
+<h3 id="victorian">Victorian<a class="hash" href="#victorian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɪkˈtɔːriən/ &middot; <em>vik-TOR-ee-uhn</em></dd><dt>Русский</dt><dd>викторианский</dd><dt>Type</dt><dd>classifying; also quality</dd><dt>Position</dt><dd>both — <em>a Victorian house</em>, <em>Their ideas about dating are very Victorian</em></dd><dt>Comparison</dt><dd>not gradable — but the 'strict about morals' sense grades: <em>very Victorian</em>, <em>more Victorian</em></dd><dt>Form</dt><dd>-an from Queen <em>Victoria</em></dd><dt>Contrast</dt><dd>In American English <em>a Victorian</em> (a noun) is usually a house built in that period: <em>They bought a Victorian on Elm Street</em>. The word names a British queen, but Americans use it for their own late 19th-century houses and manners too. The 'prudish' sense is critical, and it sounds a little old-fashioned itself.</dd></dl>
+<p>Victorian has 2 distinct senses.</p>
+<p><strong>1. Of the time when Queen Victoria ruled Britain, 1837 to 1901, or in the ornate style of its houses and furniture.</strong> (викторианский)</p>
+<ol><li>We're reading a <em>Victorian</em> novel by Charles Dickens.</li><li>They restored a <em>Victorian</em> house with a wraparound porch.</li><li>San Francisco is famous for its painted <em>Victorian</em> row houses.</li></ol>
+<p><strong>2. Strict and old-fashioned about morals, especially about sex.</strong> (чопорный, ханжеский)</p>
+<ol start="4"><li>My grandparents had very <em>Victorian</em> ideas about dating.</li><li>The school's dress code is more <em>Victorian</em> than anyone expected.</li></ol>
+<hr>
+<h3 id="shakespearean">Shakespearean<a class="hash" href="#shakespearean" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃeɪkˈspɪriən/ &middot; <em>shayk-SPEER-ee-uhn</em></dd><dt>Русский</dt><dd>шекспировский</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both — mostly before a noun: <em>a Shakespearean actor</em>; after a verb in the 'grand and tragic' sense: <em>His downfall was almost Shakespearean</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ean from <em>Shakespeare</em></dd><dt>Contrast</dt><dd>American spelling is <em>Shakespearean</em>; <em>Shakespearian</em> is a British variant. <em>A Shakespearean actor</em> is one who often plays Shakespeare, not a character from the plays. Russian <em>шекспировские страсти</em> is <em>a drama of Shakespearean proportions</em>.</dd></dl>
+<p>Shakespearean has 2 distinct senses.</p>
+<p><strong>1. Of William Shakespeare or his plays and poems.</strong> (шекспировский)</p>
+<ol><li>She's a trained <em>Shakespearean</em> actor.</li><li>A <em>Shakespearean</em> sonnet has fourteen lines.</li><li>Students struggle with <em>Shakespearean</em> English at first.</li></ol>
+<p><strong>2. Like the events of Shakespeare's plays, especially tragic on a grand scale.</strong> (шекспировский (о страстях, трагедии))</p>
+<ol start="4"><li>The family feud had become a tragedy of <em>Shakespearean</em> proportions.</li><li>The senator's downfall was almost <em>Shakespearean</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

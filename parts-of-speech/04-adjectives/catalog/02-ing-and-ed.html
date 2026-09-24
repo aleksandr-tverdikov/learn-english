@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The -ing and -ed pairs</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="the--ing-and--ed-pairs">The -ing and -ed pairs<a class="hash" href="#the--ing-and--ed-pairs" aria-label="link">#</a></h1>
+<blockquote><p><em>boring</em> and <em>bored</em>, <em>interesting</em> and <em>interested</em> — what causes a feeling, and who has it.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>The <em>-ing</em> adjective describes what causes a feeling; the <em>-ed</em> adjective describes the person who has it. <em>The movie was boring</em>, and so <em>I was bored</em>. Russian often uses one word for both, and <em>I am boring</em> — which says something unkind about the speaker — is one of the most common mistakes in learner English. Both members of each pair are here, next to each other, with examples that make the difference impossible to miss.</p>
+<hr>
+<h3 id="interesting">interesting<a class="hash" href="#interesting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntrəstɪŋ/ &middot; <em>IN-truh-sting</em></dd><dt>Русский</dt><dd>интересный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an interesting book</em>, <em>the book was interesting</em></dd><dt>Comparison</dt><dd>more/most — <em>more interesting</em>, <em>most interesting</em></dd><dt>Takes</dt><dd>often <em>it's interesting</em> + <em>to</em>-infinitive or <em>that</em>-clause: <em>It's interesting to see how kids learn</em>, <em>It's interesting that nobody noticed</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Opposite</dt><dd><em>uninteresting</em>, <em>boring</em></dd><dt>Contrast</dt><dd><em>interesting</em> describes the thing that holds your attention; <em>interested</em> describes the person. <em>I'm interesting</em> praises yourself; <em>I'm interested</em> is almost always what you mean. Russian <em>мне интересно</em> is <em>I'm interested</em> or <em>I wonder</em>, never <em>it's interesting for me</em>. Said in a flat voice, <em>That's interesting</em> is often a polite way of not saying you disagree.</dd></dl>
+<p>Interesting has 2 distinct senses.</p>
+<p><strong>1. Holding your attention because it is new, unusual or makes you want to know more.</strong> (интересный)</p>
+<ol><li>We had a really <em>interesting</em> conversation about the election.</li><li>Her new book is <em>more interesting</em> than her first one.</li><li>The <em>most interesting</em> part of the tour was the old jail.</li></ol>
+<p><strong>2. Strange or unexpected; used politely instead of saying something is odd or bad.</strong> (странный; своеобразный)</p>
+<ol start="4"><li>Pineapple on a hot dog? That's an <em>interesting</em> choice.</li><li>Well, that was an <em>interesting</em> meeting — nobody agreed on anything.</li></ol>
+<hr>
+<h3 id="interested">interested<a class="hash" href="#interested" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntrəstɪd/ &middot; <em>IN-truh-stid</em></dd><dt>Русский</dt><dd>заинтересованный; интересующийся</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>interested students</em>, <em>the students were interested</em>; in the sense 'personally involved' almost always before a noun: <em>an interested party</em></dd><dt>Comparison</dt><dd>more/most — <em>more interested</em>, <em>most interested</em></dd><dt>Takes</dt><dd><em>in</em> + noun or <em>-ing</em>: <em>interested in history</em>, <em>interested in buying</em>; <em>to</em>-infinitive with verbs of learning: <em>interested to hear</em>, <em>interested to know</em></dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#interested-in">interested in</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Opposite</dt><dd><em>uninterested</em></dd><dt>Contrast</dt><dd>The preposition is <em>in</em> — not <em>interested about</em>, <em>for</em> or <em>by</em>. <em>I'm interested in learning Spanish</em> means you want to; <em>I'd be interested to hear what you think</em> means you would like to find out. <em>uninterested</em> is not interested; <em>disinterested</em> traditionally means fair, with nothing to gain, although many Americans use it for both. <em>I'm interesting</em> means you think you are fascinating — say <em>I'm interested</em>.</dd></dl>
+<p>Interested has 3 distinct senses.</p>
+<p><strong>1. Wanting to know or learn more about something, and giving it your attention.</strong> (интересующийся; заинтересованный)</p>
+<ol><li>My son is really <em>interested</em> in dinosaurs.</li><li>I'm not <em>interested</em> in politics.</li><li>The kids seemed <em>more interested</em> in the snacks than in the movie.</li></ol>
+<p><strong>2. Wanting to do, have or take part in something.</strong> (желающий; заинтересованный (в чём-то))</p>
+<ol start="4"><li>Are you <em>interested</em> in joining our team?</li><li>We already have three <em>interested</em> buyers for the house.</li><li>If you're <em>interested</em>, call me before Friday.</li></ol>
+<p><strong>3. Personally involved in a situation and likely to be affected by the result.</strong> (заинтересованный (о стороне))</p>
+<ol start="7"><li>The city will hear from all <em>interested</em> parties before it votes.</li><li>Copies of the report went to every <em>interested</em> group.</li></ol>
+<hr>
+<h3 id="boring">boring<a class="hash" href="#boring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔːrɪŋ/ &middot; <em>BOR-ing</em></dd><dt>Русский</dt><dd>скучный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a boring class</em>, <em>the class was boring</em></dd><dt>Comparison</dt><dd>more/most — <em>more boring</em>, <em>most boring</em>; never <em>boringer</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Opposite</dt><dd><em>interesting</em></dd><dt>Contrast</dt><dd><em>boring</em> is the cause, <em>bored</em> is the feeling. <em>I'm boring</em> means other people find you dull (я скучный); <em>I'm bored</em> is Russian <em>мне скучно</em>. In the same way: <em>The class was boring</em>, so <em>the students were bored</em>.</dd></dl>
+<p>Not interesting; making you feel tired and impatient.</p>
+<ol><li>The first hour of the movie was so <em>boring</em> that I fell asleep.</li><li>He's a nice guy, but his stories are kind of <em>boring</em>.</li><li>Doing taxes is the <em>most boring</em> job of the year.</li></ol>
+<hr>
+<h3 id="bored">bored<a class="hash" href="#bored" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɔːrd/ &middot; <em>BORD</em></dd><dt>Русский</dt><dd>скучающий; (мне) скучно</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>bored kids</em>, <em>the kids were bored</em></dd><dt>Comparison</dt><dd>more/most — <em>more bored</em>, <em>most bored</em></dd><dt>Takes</dt><dd><em>with</em> + noun or <em>-ing</em>: <em>bored with my job</em>; <em>by</em> + noun: <em>bored by the lecture</em>; <em>bored of</em> is common in casual speech, but many teachers mark it wrong</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#bored-with">bored with</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Opposite</dt><dd><em>interested</em></dd><dt>Contrast</dt><dd><em>I'm bored</em> (мне скучно) is about how you feel; <em>I'm boring</em> (я скучный) is about how others see you. <em>bored with</em> something that has gone on too long is closer to Russian <em>надоело</em>: <em>I'm bored with my job</em>. Common intensifiers: <em>bored to death</em>, <em>bored to tears</em>, <em>bored stiff</em>.</dd></dl>
+<p>Bored has 2 distinct senses.</p>
+<p><strong>1. Tired and impatient because you have nothing interesting to do.</strong> (скучающий; (мне) скучно)</p>
+<ol><li>The kids get <em>bored</em> on long car trips.</li><li>A <em>bored</em> teenager is often a teenager looking for trouble.</li><li>Nobody at that meeting looked <em>more bored</em> than the boss.</li></ol>
+<p><strong>2. Tired of something because it has gone on too long or never changes.</strong> (которому надоело; уставший (от))</p>
+<ol start="4"><li>She was <em>bored</em> with her job and started looking for a new one.</li><li>After ten years in the same town, he was <em>bored</em> with small-town life.</li></ol>
+<hr>
+<h3 id="exciting">exciting<a class="hash" href="#exciting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsaɪtɪŋ/ &middot; <em>ik-SY-ting</em></dd><dt>Русский</dt><dd>захватывающий; увлекательный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an exciting game</em>, <em>the game was exciting</em></dd><dt>Comparison</dt><dd>more/most — <em>more exciting</em>, <em>most exciting</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Opposite</dt><dd><em>dull</em>, <em>boring</em></dd><dt>Contrast</dt><dd><em>exciting</em> is about the thing, <em>excited</em> about the person: <em>an exciting game</em>, <em>excited fans</em>. It is always positive, never Russian <em>волнующий</em> in the sense of worrying: for <em>я волнуюсь перед экзаменом</em> say <em>I'm nervous about the exam</em>.</dd></dl>
+<p>Making you feel eager, happy and full of energy.</p>
+<ol><li>Moving to New York was the <em>most exciting</em> thing I've ever done.</li><li>It was an <em>exciting</em> game right up to the last second.</li><li>We have some <em>exciting</em> news — we're having a baby!</li></ol>
+<hr>
+<h3 id="excited">excited<a class="hash" href="#excited" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsaɪtɪd/ &middot; <em>ik-SY-tid</em></dd><dt>Русский</dt><dd>радостно взволнованный; в предвкушении</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>excited fans</em>, <em>the fans were excited</em>; the physics sense mostly before a noun: <em>an excited atom</em></dd><dt>Comparison</dt><dd>more/most — <em>more excited</em>, <em>most excited</em></dd><dt>Takes</dt><dd><em>about</em> + noun or <em>-ing</em>: <em>excited about the trip</em>; <em>to</em>-infinitive: <em>excited to see you</em>; <em>that</em>-clause; <em>for</em> + person or event, especially in American speech: <em>I'm so excited for you</em>, <em>excited for the weekend</em></dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#excited-about">excited about</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>I'm excited</em> is Russian <em>я жду не дождусь</em>, <em>я в предвкушении</em> or <em>я так рад</em>, not <em>возбуждённый</em>, which in Russian often sounds agitated or sexual. <em>I'm exciting</em> is wrong. <em>Don't get excited</em> can mean <em>calm down</em>, and <em>Don't get too excited</em> means don't expect too much. You are <em>excited about</em> a thing and <em>excited for</em> a person who has good news.</dd></dl>
+<p>Excited has 4 distinct senses.</p>
+<p><strong>1. Very happy and eager about something that is happening or will happen.</strong> (радостно взволнованный; в предвкушении)</p>
+<ol><li>The kids are so <em>excited</em> about Christmas.</li><li>I'm really <em>excited</em> to start my new job.</li><li>I've never seen him <em>more excited</em> than the day he got his first car.</li></ol>
+<p><strong>2. Nervous, upset or unable to stay calm.</strong> (возбуждённый; взбудораженный)</p>
+<ol start="4"><li>Calm down — there's no need to get <em>excited</em>.</li><li>The dog gets <em>excited</em> and barks whenever someone knocks.</li></ol>
+<p><strong>3. Sexually aroused.</strong> (возбуждённый (сексуально))</p>
+<ol start="6"><li>The study measured heart rate when subjects were sexually <em>excited</em>.</li><li>Doctors say it can take longer for older adults to become sexually <em>excited</em>.</li></ol>
+<p><strong>4. In physics, having more energy than the normal, lowest state.</strong> (возбуждённый (о частице))</p>
+<ol start="8"><li>An <em>excited</em> electron gives off light as it drops to a lower energy level.</li><li>The laser works by pumping atoms into an <em>excited</em> state.</li></ol>
+<hr>
+<h3 id="surprising">surprising<a class="hash" href="#surprising" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈpraɪzɪŋ/ &middot; <em>sur-PRY-zing</em></dd><dt>Русский</dt><dd>неожиданный; удивительный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a surprising result</em>, <em>the result was surprising</em></dd><dt>Comparison</dt><dd>more/most — <em>more surprising</em>, <em>most surprising</em></dd><dt>Takes</dt><dd>often <em>it's surprising</em> + <em>that</em>-clause or <em>how</em>-clause: <em>It's surprising that she said no</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Opposite</dt><dd><em>unsurprising</em>, <em>predictable</em></dd><dt>Contrast</dt><dd><em>surprising</em> only means unexpected, good or bad. Russian <em>удивительный</em> in the sense of wonderful is <em>amazing</em>: <em>an amazing view</em> (удивительный вид), not <em>a surprising view</em>. <em>It's not surprising</em> and <em>hardly surprising</em> are the usual ways to say <em>неудивительно</em>. The person is <em>surprised</em>.</dd></dl>
+<p>Unexpected, and so causing surprise.</p>
+<ol><li>The results of the survey were <em>surprising</em>.</li><li>It's <em>surprising</em> how many people still don't wear seat belts.</li><li>The <em>most surprising</em> thing about the trip was how cheap it was.</li></ol>
+<hr>
+<h3 id="surprised">surprised<a class="hash" href="#surprised" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈpraɪzd/ &middot; <em>sur-PRYZD</em></dd><dt>Русский</dt><dd>удивлённый</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — mostly after a verb: <em>I was surprised</em>; before a noun mainly with look, face, expression: <em>a surprised look</em></dd><dt>Comparison</dt><dd>more/most — <em>more surprised</em>, <em>most surprised</em></dd><dt>Takes</dt><dd><em>at</em> or <em>by</em> + noun: <em>surprised at the price</em>, <em>surprised by the news</em>; <em>to</em>-infinitive: <em>surprised to see you</em>; <em>that</em>-clause; <em>at</em> + person, disapproving: <em>I'm surprised at you</em></dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#surprised-at">surprised at</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd>The person is <em>surprised</em>, the cause is <em>surprising</em>: <em>I was surprised</em>; <em>The news was surprising</em>. Not <em>surprised of</em>. <em>I wouldn't be surprised if</em> is Russian <em>не удивлюсь, если</em>. <em>I'm surprised at you</em> is not neutral — like <em>ты меня удивляешь</em>, it scolds someone for behaving worse than you expected: <em>Cheating on a test? I'm surprised at you</em>.</dd></dl>
+<p>Feeling surprise because something happened that you did not expect.</p>
+<ol><li>I was <em>surprised</em> to see her at the party.</li><li>Nobody was <em>more surprised</em> by the win than the coach.</li><li>She gave me a <em>surprised</em> look.</li></ol>
+<hr>
+<h3 id="confusing">confusing<a class="hash" href="#confusing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈfjuːzɪŋ/ &middot; <em>kuhn-FYOO-zing</em></dd><dt>Русский</dt><dd>запутанный; непонятный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>confusing instructions</em>, <em>the instructions were confusing</em></dd><dt>Comparison</dt><dd>more/most — <em>more confusing</em>, <em>most confusing</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Opposite</dt><dd><em>clear</em></dd><dt>Contrast</dt><dd><em>confusing</em> is what makes you lose track; <em>confused</em> is how you feel: <em>The instructions were confusing, and I was confused</em>. <em>I'm confusing</em> means you confuse other people.</dd></dl>
+<p>Difficult to understand; not clear.</p>
+<ol><li>The tax forms are really <em>confusing</em>.</li><li>The ending of the movie was <em>more confusing</em> than the rest of it.</li><li>It's <em>confusing</em> when two people on the team have the same name.</li></ol>
+<hr>
+<h3 id="confused">confused<a class="hash" href="#confused" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈfjuːzd/ &middot; <em>kuhn-FYOOZD</em></dd><dt>Русский</dt><dd>растерянный; сбитый с толку</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>a confused student</em>, <em>the student was confused</em></dd><dt>Comparison</dt><dd>more/most — <em>more confused</em>, <em>most confused</em></dd><dt>Takes</dt><dd><em>about</em> + noun or <em>wh</em>-clause: <em>confused about the rules</em>, <em>confused about what to do</em>; <em>by</em> + the cause: <em>confused by the signs</em></dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#confused-about">confused about</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd>False friend: <em>confused</em> is <em>растерянный</em> or <em>сбитый с толку</em>, not <em>сконфуженный</em> — that is <em>embarrassed</em>. The person is <em>confused</em>; the cause is <em>confusing</em>. <em>confused with</em> is usually the verb: <em>He is often confused with his brother</em> (его путают с братом).</dd></dl>
+<p>Confused has 3 distinct senses.</p>
+<p><strong>1. Unable to understand something or to decide what to do.</strong> (растерянный; сбитый с толку)</p>
+<ol><li>I'm <em>confused</em> — which bus do I take?</li><li>Students were <em>confused</em> about the new schedule.</li><li>I was even <em>more confused</em> after he explained it.</li></ol>
+<p><strong>2. Unable to think clearly or know where you are, because of illness, age or an injury.</strong> (в спутанном сознании; дезориентированный)</p>
+<ol start="4"><li>After the fall, the patient was <em>confused</em> and couldn't remember his address.</li><li>Call a doctor if an older person suddenly seems <em>confused</em>.</li></ol>
+<p><strong>3. Mixed up and not clear or orderly.</strong> (путаный; сбивчивый; неясный)</p>
+<ol start="6"><li>The witness gave a <em>confused</em> account of the accident.</li><li>The message from the campaign was <em>confused</em> and contradictory.</li></ol>
+<hr>
+<h3 id="tiring">tiring<a class="hash" href="#tiring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪərɪŋ/ &middot; <em>TY-uh-ring</em></dd><dt>Русский</dt><dd>утомительный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a tiring day</em>, <em>the day was tiring</em></dd><dt>Comparison</dt><dd>more/most — <em>more tiring</em>, <em>most tiring</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd><em>tiring</em> wears out your body; <em>tiresome</em> is boring or annoying: <em>a tiring hike</em>, <em>a tiresome neighbor</em>. <em>I'm tiring</em> is the verb and means <em>I'm getting tired</em>; for <em>я устал</em> say <em>I'm tired</em>.</dd></dl>
+<p>Making you feel tired.</p>
+<ol><li>It was a long, <em>tiring</em> day at work.</li><li>Driving at night is <em>more tiring</em> than driving during the day.</li><li>Taking care of twins is <em>tiring</em>.</li></ol>
+<hr>
+<h3 id="tired">tired<a class="hash" href="#tired" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪərd/ &middot; <em>TY-urd</em></dd><dt>Русский</dt><dd>уставший; усталый</dd><dt>Type</dt><dd>participial; also quality</dd><dt>Position</dt><dd>both — <em>tired kids</em>, <em>the kids were tired</em>; <em>tired of</em> only after a verb</dd><dt>Comparison</dt><dd>more/most — <em>more tired</em>, <em>most tired</em>; <em>tireder</em> is rare</dd><dt>Takes</dt><dd><em>of</em> + noun or <em>-ing</em> — fed up: <em>tired of waiting</em>; <em>from</em> + noun or <em>-ing</em> — the physical cause: <em>tired from the trip</em></dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#tired-of">tired of</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Opposite</dt><dd><em>rested</em></dd><dt>Contrast</dt><dd>Russian <em>устал от</em> splits in English: <em>I'm tired from work</em> (устал после работы) but <em>I'm tired of work</em> (работа надоела). <em>sick and tired of</em> is a strong <em>надоело</em>. The person is <em>tired</em>; the cause is <em>tiring</em>.</dd></dl>
+<p>Tired has 3 distinct senses.</p>
+<p><strong>1. Needing rest or sleep.</strong> (уставший; усталый)</p>
+<ol><li>I'm too <em>tired</em> to cook tonight.</li><li>She came home <em>tired</em> from a twelve-hour shift.</li><li>You look <em>more tired</em> than usual — are you OK?</li></ol>
+<p><strong>2. No longer interested in or patient with something because it has gone on too long.</strong> (которому надоело)</p>
+<ol start="4"><li>I'm <em>tired</em> of hearing the same excuses.</li><li>People are getting <em>tired</em> of all the political ads.</li></ol>
+<p><strong>3. Used too often or too long, and so no longer fresh or interesting.</strong> (избитый; заезженный; потрёпанный)</p>
+<ol start="6"><li>He told the same <em>tired</em> old jokes at every party.</li><li>The hotel lobby looked a little <em>tired</em>, with worn carpet and faded chairs.</li></ol>
+<hr>
+<h3 id="terrifying">terrifying<a class="hash" href="#terrifying" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛrəfaɪɪŋ/ &middot; <em>TER-uh-fy-ing</em></dd><dt>Русский</dt><dd>ужасающий; жуткий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a terrifying moment</em>, <em>the moment was terrifying</em></dd><dt>Comparison</dt><dd>more/most — <em>more terrifying</em>, <em>most terrifying</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>A strong word: <em>absolutely</em> or <em>really terrifying</em> sounds more natural than <em>very terrifying</em>. Do not confuse it with <em>terrific</em>, which means <em>great</em>: <em>You did a terrific job</em> (отличная работа). The thing is <em>terrifying</em>; the person is <em>terrified</em>.</dd></dl>
+<p>So frightening that it fills you with fear.</p>
+<ol><li>Being stuck in the elevator was <em>terrifying</em>.</li><li>It was the <em>most terrifying</em> movie I've ever seen.</li><li>There was one <em>terrifying</em> moment when the plane suddenly dropped.</li></ol>
+<hr>
+<h3 id="terrified">terrified<a class="hash" href="#terrified" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛrəfaɪd/ &middot; <em>TER-uh-fyd</em></dd><dt>Русский</dt><dd>перепуганный; в ужасе</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>a terrified child</em>, <em>the child was terrified</em></dd><dt>Comparison</dt><dd>more/most — <em>more terrified</em>, <em>most terrified</em></dd><dt>Takes</dt><dd><em>of</em> + noun or <em>-ing</em>: <em>terrified of spiders</em>; <em>to</em>-infinitive: <em>terrified to go outside</em>; <em>that</em>-clause</dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd>A strong word: <em>absolutely</em> or <em>completely terrified</em> sounds more natural than <em>very terrified</em>. Not <em>terrified from</em>. The person is <em>terrified</em>; the thing is <em>terrifying</em>.</dd></dl>
+<p>Extremely frightened.</p>
+<ol><li>My little sister is <em>terrified</em> of dogs.</li><li>The <em>terrified</em> passengers screamed as the bus slid on the ice.</li><li>I was <em>terrified</em> that I would fail the exam.</li></ol>
+<hr>
+<h3 id="amazing">amazing<a class="hash" href="#amazing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmeɪzɪŋ/ &middot; <em>uh-MAY-zing</em></dd><dt>Русский</dt><dd>потрясающий; удивительный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an amazing view</em>, <em>the view was amazing</em></dd><dt>Comparison</dt><dd>more/most — <em>more amazing</em>, <em>most amazing</em></dd><dt>Takes</dt><dd>often <em>it's amazing</em> + <em>that</em>-clause or <em>how</em>-clause: <em>It's amazing how fast kids grow</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>In everyday American speech <em>amazing</em> mostly just means <em>great</em> — <em>The food was amazing</em> — and it is used so often it can sound empty. A strong word: <em>absolutely</em> or <em>really amazing</em>, rather than <em>very amazing</em>. Russian <em>удивительный</em> meaning simply unexpected is <em>surprising</em>. The person is <em>amazed</em>.</dd></dl>
+<p>Amazing has 2 distinct senses.</p>
+<p><strong>1. Extremely good; wonderful.</strong> (потрясающий; классный; замечательный)</p>
+<ol><li>We had an <em>amazing</em> time in Hawaii.</li><li>Your mom's lasagna is <em>amazing</em>.</li><li>That was the <em>most amazing</em> concert I've ever been to.</li></ol>
+<p><strong>2. So unusual or unexpected that it causes great surprise.</strong> (удивительный; поразительный)</p>
+<ol start="4"><li>It's <em>amazing</em> how fast kids pick up languages.</li><li>It's <em>amazing</em> that nobody was hurt in the crash.</li></ol>
+<hr>
+<h3 id="amazed">amazed<a class="hash" href="#amazed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmeɪzd/ &middot; <em>uh-MAYZD</em></dd><dt>Русский</dt><dd>поражённый; изумлённый</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — mostly after a verb: <em>I was amazed</em>; before a noun mainly with look, face, crowd: <em>an amazed look</em></dd><dt>Comparison</dt><dd>more/most — <em>more amazed</em>, <em>most amazed</em></dd><dt>Takes</dt><dd><em>at</em> or <em>by</em> + noun: <em>amazed at the view</em>, <em>amazed by her talent</em>; <em>to</em>-infinitive: <em>amazed to find</em>; <em>that</em>-clause; <em>how</em>-clause</dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>amazed</em> is stronger than <em>surprised</em> and usually pleasant. Not <em>amazed of</em>. The person is <em>amazed</em>; <em>I'm amazing</em> is bragging.</dd></dl>
+<p>Very surprised, often in a pleasant way.</p>
+<ol><li>I was <em>amazed</em> at how much the city had changed.</li><li>We were <em>amazed</em> to find the store still open at midnight.</li><li>The <em>amazed</em> crowd watched the rocket climb into the sky.</li></ol>
+<hr>
+<h3 id="disappointing">disappointing<a class="hash" href="#disappointing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪsəˈpɔɪntɪŋ/ &middot; <em>dis-uh-POYN-ting</em></dd><dt>Русский</dt><dd>неутешительный; разочаровывающий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>disappointing results</em>, <em>the results were disappointing</em></dd><dt>Comparison</dt><dd>more/most — <em>more disappointing</em>, <em>most disappointing</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>Russian often says <em>не оправдал ожиданий</em>; English simply uses the adjective: <em>The results were disappointing</em>. Spelling: one <em>s</em>, two <em>p</em>s. The thing is <em>disappointing</em>; the person is <em>disappointed</em>.</dd></dl>
+<p>Not as good as you hoped or expected.</p>
+<ol><li>The movie got great reviews, but I found it <em>disappointing</em>.</li><li>Sales this quarter were <em>more disappointing</em> than expected.</li><li>It's <em>disappointing</em> that the park is closed again.</li></ol>
+<hr>
+<h3 id="disappointed">disappointed<a class="hash" href="#disappointed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪsəˈpɔɪntɪd/ &middot; <em>dis-uh-POYN-tid</em></dd><dt>Русский</dt><dd>разочарованный</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>disappointed fans</em>, <em>the fans were disappointed</em></dd><dt>Comparison</dt><dd>more/most — <em>more disappointed</em>, <em>most disappointed</em></dd><dt>Takes</dt><dd><em>in</em> + person: <em>disappointed in you</em>; <em>with</em> or <em>by</em> + thing: <em>disappointed with the service</em>; <em>about</em> + event: <em>disappointed about the loss</em>; <em>to</em>-infinitive: <em>disappointed to hear</em>; <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#disappointed-with">disappointed with</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>disappointed in</em> someone is personal and it hurts: <em>I'm disappointed in you</em> (ты меня разочаровал). For a result or a service use <em>with</em> or <em>by</em>. Not <em>disappointed of</em>. <em>I'm disappointing</em> means you let others down — say <em>I'm disappointed</em>.</dd></dl>
+<p>Unhappy because something was not as good as you hoped or did not happen.</p>
+<ol><li>I was <em>disappointed</em> with the hotel.</li><li>The coach said he was <em>disappointed</em> in the team's effort.</li><li>Thousands of <em>disappointed</em> fans left before the game ended.</li></ol>
+<hr>
+<h3 id="relaxing">relaxing<a class="hash" href="#relaxing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈlæksɪŋ/ &middot; <em>ri-LAK-sing</em></dd><dt>Русский</dt><dd>расслабляющий; успокаивающий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a relaxing bath</em>, <em>the bath was relaxing</em></dd><dt>Comparison</dt><dd>more/most — <em>more relaxing</em>, <em>most relaxing</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Opposite</dt><dd><em>stressful</em></dd><dt>Contrast</dt><dd><em>relaxing</em> is the thing that calms you: <em>a relaxing vacation</em>. <em>relaxed</em> is usually the person, but it can also describe a place or style: <em>a relaxed atmosphere</em> (непринуждённая атмосфера). <em>I'm relaxing</em> is the verb — <em>я отдыхаю</em>.</dd></dl>
+<p>Making you feel calm and rested.</p>
+<ol><li>We spent a <em>relaxing</em> week at the lake.</li><li>A hot shower is <em>relaxing</em> after a long day.</li><li>Fishing is <em>more relaxing</em> than you might think.</li></ol>
+<hr>
+<h3 id="relaxed">relaxed<a class="hash" href="#relaxed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈlækst/ &middot; <em>ri-LAKST</em></dd><dt>Русский</dt><dd>расслабленный; непринуждённый</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>a relaxed atmosphere</em>, <em>she seemed relaxed</em></dd><dt>Comparison</dt><dd>more/most — <em>more relaxed</em>, <em>most relaxed</em></dd><dt>Takes</dt><dd><em>about</em> + noun or <em>-ing</em>: <em>relaxed about the deadline</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Opposite</dt><dd><em>tense</em></dd><dt>Contrast</dt><dd>Unlike most <em>-ed</em> adjectives, <em>relaxed</em> describes places, events and rules as well as people: <em>a relaxed restaurant</em> (непринуждённый), <em>relaxed rules</em> (нестрогие). What makes you calm is <em>relaxing</em>. <em>I'm relaxed</em> is how you feel; <em>I'm relaxing</em> is what you are doing.</dd></dl>
+<p>Relaxed has 3 distinct senses.</p>
+<p><strong>1. Calm and not worried or tense.</strong> (расслабленный; спокойный)</p>
+<ol><li>You seem much <em>more relaxed</em> since you changed jobs.</li><li>She was <em>relaxed</em> and smiling during the interview.</li><li>Keep your shoulders <em>relaxed</em> while you type.</li></ol>
+<p><strong>2. Informal and comfortable, not stiff.</strong> (непринуждённый; неформальный)</p>
+<ol start="4"><li>The restaurant has a <em>relaxed</em> atmosphere and a great patio.</li><li>The dress code at the office is pretty <em>relaxed</em>.</li></ol>
+<p><strong>3. Not strict or firmly controlled.</strong> (нестрогий; смягчённый)</p>
+<ol start="6"><li>Some schools have a <em>relaxed</em> attitude toward phones in class.</li><li>Under the <em>relaxed</em> guidelines, restaurants could seat more people.</li></ol>
+<hr>
+<h3 id="embarrassing">embarrassing<a class="hash" href="#embarrassing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈbɛrəsɪŋ/ &middot; <em>im-BER-uh-sing</em></dd><dt>Русский</dt><dd>неловкий; стыдный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an embarrassing mistake</em>, <em>the mistake was embarrassing</em></dd><dt>Comparison</dt><dd>more/most — <em>more embarrassing</em>, <em>most embarrassing</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>Spelling: two <em>r</em>s and two <em>s</em>s. The thing is <em>embarrassing</em>; the person is <em>embarrassed</em>. <em>It's embarrassing</em> (неловко, стыдно) is about looking foolish, not about guilt — for moral shame English uses <em>shameful</em>.</dd></dl>
+<p>Embarrassing has 2 distinct senses.</p>
+<p><strong>1. Making you feel awkward, silly or ashamed in front of other people.</strong> (неловкий; стыдный; конфузный)</p>
+<ol><li>It was so <em>embarrassing</em> when I called my teacher 'Mom.'</li><li>My dad tells the <em>most embarrassing</em> stories about me.</li><li>Forgetting his name was really <em>embarrassing</em>.</li></ol>
+<p><strong>2. Causing problems for someone's public image or position.</strong> (компрометирующий; неудобный)</p>
+<ol start="4"><li>The leaked emails were <em>embarrassing</em> for the senator.</li><li>The mistake was politically <em>embarrassing</em> for the mayor.</li></ol>
+<hr>
+<h3 id="embarrassed">embarrassed<a class="hash" href="#embarrassed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈbɛrəst/ &middot; <em>im-BER-uhst</em></dd><dt>Русский</dt><dd>смущённый; (мне) неловко</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>an embarrassed laugh</em>, <em>he was embarrassed</em></dd><dt>Comparison</dt><dd>more/most — <em>more embarrassed</em>, <em>most embarrassed</em></dd><dt>Takes</dt><dd><em>about</em> or <em>by</em> + noun or <em>-ing</em>: <em>embarrassed about my accent</em>; <em>to</em>-infinitive: <em>embarrassed to ask</em>; <em>that</em>-clause; <em>for</em> + person — awkward on someone else's behalf: <em>I was embarrassed for him</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd>False friend: <em>сконфуженный</em> is <em>embarrassed</em>, not <em>confused</em>. <em>embarrassed</em> (неловко, стыдно) is about looking foolish; <em>ashamed</em> is about having done something wrong. <em>embarrassed for</em> someone is what Russian calls <em>испанский стыд</em>. Spelling: two <em>r</em>s, two <em>s</em>s.</dd></dl>
+<p>Embarrassed has 2 distinct senses.</p>
+<p><strong>1. Feeling awkward, shy or ashamed because of how you look to other people.</strong> (смущённый; (мне) неловко, стыдно)</p>
+<ol><li>I was too <em>embarrassed</em> to tell anyone.</li><li>He gave an <em>embarrassed</em> laugh and turned red.</li><li>I've never been <em>more embarrassed</em> in my life.</li></ol>
+<p><strong>2. Short of money; used formally or humorously in <em>financially embarrassed</em>.</strong> (в стеснённых обстоятельствах)</p>
+<ol start="4"><li>The company was financially <em>embarrassed</em> and couldn't pay its suppliers.</li><li>I'm a little financially <em>embarrassed</em> until payday.</li></ol>
+<hr>
+<h3 id="satisfying">satisfying<a class="hash" href="#satisfying" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsætɪsfaɪɪŋ/ &middot; <em>SAT-is-fy-ing</em></dd><dt>Русский</dt><dd>приносящий удовлетворение; сытный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a satisfying job</em>, <em>the job was satisfying</em></dd><dt>Comparison</dt><dd>more/most — <em>more satisfying</em>, <em>most satisfying</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Opposite</dt><dd><em>unsatisfying</em></dd><dt>Contrast</dt><dd>Do not mix up <em>satisfying</em> (it feels good) with <em>satisfactory</em> (удовлетворительный — only good enough): <em>a satisfying meal</em> is a good one; <em>a satisfactory grade</em> is just OK. The person is <em>satisfied</em>.</dd></dl>
+<p>Satisfying has 3 distinct senses.</p>
+<p><strong>1. Giving you pleasure because it is what you wanted, or because you did it well.</strong> (приносящий удовлетворение; приятный)</p>
+<ol><li>Teaching is hard but very <em>satisfying</em> work.</li><li>There's nothing <em>more satisfying</em> than finishing a big project.</li><li>It was <em>satisfying</em> to finally beat them.</li></ol>
+<p><strong>2. Of food, filling enough that you are no longer hungry.</strong> (сытный)</p>
+<ol start="4"><li>Oatmeal makes a cheap, <em>satisfying</em> breakfast.</li><li>The soup was hot and <em>satisfying</em>.</li></ol>
+<p><strong>3. Of an answer or explanation, good enough to accept.</strong> (вразумительный; убедительный)</p>
+<ol start="6"><li>Nobody could give me a <em>satisfying</em> answer.</li><li>Scientists still don't have a <em>satisfying</em> explanation for why we dream.</li></ol>
+<hr>
+<h3 id="satisfied">satisfied<a class="hash" href="#satisfied" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsætɪsfaɪd/ &middot; <em>SAT-is-fyd</em></dd><dt>Русский</dt><dd>довольный; удовлетворённый</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>satisfied customers</em>, <em>the customers were satisfied</em></dd><dt>Comparison</dt><dd>more/most — <em>more satisfied</em>, <em>most satisfied</em></dd><dt>Takes</dt><dd><em>with</em> + noun: <em>satisfied with the result</em>; <em>that</em>-clause — convinced: <em>satisfied that he was telling the truth</em></dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#satisfied-with">satisfied with</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Opposite</dt><dd><em>dissatisfied</em></dd><dt>Contrast</dt><dd>Say <em>satisfied with</em> when you mean happy with something — not <em>satisfied of</em>. <em>self-satisfied</em> is too pleased with yourself. The opposite is <em>dissatisfied</em>; <em>unsatisfied</em> means a need is still not met: <em>unsatisfied demand</em>. The cause is <em>satisfying</em>.</dd></dl>
+<p>Satisfied has 2 distinct senses.</p>
+<p><strong>1. Pleased because you got what you wanted or something was done well.</strong> (довольный; удовлетворённый)</p>
+<ol><li>Are you <em>satisfied</em> with your new car?</li><li>We want every customer to leave <em>satisfied</em>.</li><li>Our <em>most satisfied</em> customers are the ones who come back.</li></ol>
+<p><strong>2. Sure that something is true, especially after checking.</strong> (убеждённый; уверенный)</p>
+<ol start="4"><li>The police were <em>satisfied</em> that the fire was an accident.</li><li>I'm <em>satisfied</em> the numbers are correct.</li></ol>
+<hr>
+<h3 id="annoying">annoying<a class="hash" href="#annoying" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈnɔɪɪŋ/ &middot; <em>uh-NOY-ing</em></dd><dt>Русский</dt><dd>раздражающий; надоедливый</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an annoying noise</em>, <em>the noise was annoying</em></dd><dt>Comparison</dt><dd>more/most — <em>more annoying</em>, <em>most annoying</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd><em>He's so annoying</em> (он такой надоедливый, бесит) is about the person who causes it; <em>I'm annoyed</em> (я раздражён) is how you feel. <em>I'm annoying</em> says that you bother people.</dd></dl>
+<p>Making you a little angry or impatient.</p>
+<ol><li>That car alarm is really <em>annoying</em>.</li><li>My little brother is the <em>most annoying</em> person in the world.</li><li>It's <em>annoying</em> when people talk during a movie.</li></ol>
+<hr>
+<h3 id="annoyed">annoyed<a class="hash" href="#annoyed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈnɔɪd/ &middot; <em>uh-NOYD</em></dd><dt>Русский</dt><dd>раздражённый; недовольный</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>an annoyed customer</em>, <em>the customer was annoyed</em></dd><dt>Comparison</dt><dd>more/most — <em>more annoyed</em>, <em>most annoyed</em></dd><dt>Takes</dt><dd><em>with</em> or <em>at</em> + person: <em>annoyed with me</em>; <em>at</em> or <em>about</em> + thing: <em>annoyed about the delay</em>; <em>that</em>-clause; <em>to</em>-infinitive: <em>annoyed to find</em></dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#annoyed-with">annoyed with</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>annoyed</em> is milder than <em>angry</em>. The person is <em>annoyed</em>; the cause is <em>annoying</em>: <em>I'm annoyed</em> (я раздражён, меня это злит), <em>It's annoying</em> (это раздражает).</dd></dl>
+<p>Slightly angry or impatient.</p>
+<ol><li>She was <em>annoyed</em> with me for being late.</li><li>I get <em>annoyed</em> when people don't return my calls.</li><li>The <em>annoyed</em> driver behind us kept honking.</li></ol>
+<hr>
+<h3 id="shocking">shocking<a class="hash" href="#shocking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːkɪŋ/ &middot; <em>SHAH-king</em></dd><dt>Русский</dt><dd>шокирующий; возмутительный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>shocking news</em>, <em>the news was shocking</em></dd><dt>Comparison</dt><dd>more/most — <em>more shocking</em>, <em>most shocking</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>British English also uses <em>shocking</em> for simply very bad (<em>shocking weather</em>); Americans say <em>terrible</em> or <em>awful</em>. The thing is <em>shocking</em>; the person is <em>shocked</em>.</dd></dl>
+<p>Shocking has 2 distinct senses.</p>
+<p><strong>1. Very surprising and upsetting.</strong> (шокирующий; ошеломляющий)</p>
+<ol><li>The news of his death was <em>shocking</em>.</li><li>The report reveals some <em>shocking</em> numbers about child poverty.</li><li>The <em>most shocking</em> part was that nobody called the police.</li></ol>
+<p><strong>2. Morally wrong or offensive.</strong> (возмутительный; вопиющий)</p>
+<ol start="4"><li>The way they treated those workers was <em>shocking</em>.</li><li>The judge called it a <em>shocking</em> abuse of power.</li></ol>
+<hr>
+<h3 id="shocked">shocked<a class="hash" href="#shocked" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɑːkt/ &middot; <em>SHAHKT</em></dd><dt>Русский</dt><dd>потрясённый; в шоке</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>shocked neighbors</em>, <em>the neighbors were shocked</em></dd><dt>Comparison</dt><dd>more/most — <em>more shocked</em>, <em>most shocked</em></dd><dt>Takes</dt><dd><em>at</em> or <em>by</em> + noun: <em>shocked at the price</em>, <em>shocked by the news</em>; <em>to</em>-infinitive: <em>shocked to learn</em>; <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#shocked-at">shocked at</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>shocked</em> is the feeling; the medical condition is <em>in shock</em>: <em>She was in shock after the crash</em> (в шоковом состоянии). In American speech <em>I got shocked</em> usually means an electric shock — that is the verb. The cause is <em>shocking</em>.</dd></dl>
+<p>Shocked has 2 distinct senses.</p>
+<p><strong>1. Very surprised and upset by something unexpected.</strong> (потрясённый; в шоке)</p>
+<ol><li>We were <em>shocked</em> to hear about the accident.</li><li>Neighbors said they were <em>shocked</em> by the arrest.</li><li>I've never seen him look <em>more shocked</em>.</li></ol>
+<p><strong>2. Offended because something seems morally wrong or rude.</strong> (возмущённый; шокированный)</p>
+<ol start="4"><li>Some viewers were <em>shocked</em> by the language in the show.</li><li>She pretended to be <em>shocked</em>, but she was laughing.</li></ol>
+<hr>
+<h3 id="frightening">frightening<a class="hash" href="#frightening" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfraɪtənɪŋ/ &middot; <em>FRY-tuh-ning</em></dd><dt>Русский</dt><dd>пугающий; страшный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a frightening experience</em>, <em>the experience was frightening</em></dd><dt>Comparison</dt><dd>more/most — <em>more frightening</em>, <em>most frightening</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>Russian <em>страшно</em> is two things in English: <em>It's frightening</em> (это страшно) and <em>I'm frightened</em> or <em>I'm scared</em> (мне страшно). In everyday American speech <em>scary</em> is more common: <em>a scary movie</em>. The person is <em>frightened</em>.</dd></dl>
+<p>Making you feel afraid.</p>
+<ol><li>Hearing footsteps behind you at night is <em>frightening</em>.</li><li>Prices are rising at a <em>frightening</em> rate.</li><li>It was <em>more frightening</em> than any horror movie.</li></ol>
+<hr>
+<h3 id="frightened">frightened<a class="hash" href="#frightened" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfraɪtənd/ &middot; <em>FRY-tuhnd</em></dd><dt>Русский</dt><dd>испуганный; напуганный</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>a frightened child</em>, <em>the child was frightened</em></dd><dt>Comparison</dt><dd>more/most — <em>more frightened</em>, <em>most frightened</em></dd><dt>Takes</dt><dd><em>of</em> + noun or <em>-ing</em>: <em>frightened of the dark</em>; <em>by</em> + a particular event: <em>frightened by the noise</em>; <em>to</em>-infinitive: <em>frightened to go out</em>; <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#frightened-of">frightened of</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>frightened of</em> is a general fear (боится темноты); <em>frightened by</em> is a reaction to one event (испугался шума). In speech Americans usually say <em>scared</em>. Unlike <em>afraid</em>, <em>frightened</em> goes before a noun: <em>a frightened animal</em>, never <em>an afraid animal</em>.</dd></dl>
+<p>Feeling fear; afraid.</p>
+<ol><li>The <em>frightened</em> cat hid under the bed.</li><li>She's <em>frightened</em> of flying.</li><li>I was <em>more frightened</em> than I let the kids see.</li></ol>
+<hr>
+<h3 id="worrying">worrying<a class="hash" href="#worrying" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːriɪŋ/ &middot; <em>WUR-ee-ing</em></dd><dt>Русский</dt><dd>тревожный; вызывающий беспокойство</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a worrying trend</em>, <em>the trend is worrying</em></dd><dt>Comparison</dt><dd>more/most — <em>more worrying</em>, <em>most worrying</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>As an adjective <em>worrying</em> is more British. Americans more often say <em>worrisome</em>, <em>troubling</em> or, in news and business, <em>concerning</em>: <em>a worrisome trend</em>. <em>Stop worrying</em> is the verb (перестань волноваться), not the adjective. The person is <em>worried</em>.</dd></dl>
+<p>Making you anxious that something bad may happen.</p>
+<ol><li>Doctors say the rise in cases is <em>worrying</em>.</li><li>There's been a <em>worrying</em> drop in reading scores.</li><li>The <em>most worrying</em> thing is that nobody knows where he is.</li></ol>
+<hr>
+<h3 id="worried">worried<a class="hash" href="#worried" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrid/ &middot; <em>WUR-eed</em></dd><dt>Русский</dt><dd>обеспокоенный; встревоженный</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>worried parents</em>, <em>the parents were worried</em></dd><dt>Comparison</dt><dd>more/most — <em>more worried</em>, <em>most worried</em></dd><dt>Takes</dt><dd><em>about</em> + noun or <em>-ing</em>: <em>worried about money</em>; <em>that</em>-clause: <em>worried that he'd get lost</em>; <em>for</em> + person or their safety: <em>worried for her</em>; <em>by</em> + a particular cause: <em>worried by the news</em></dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#worried-about">worried about</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>I'm worried</em> is a feeling now (я волнуюсь, беспокоюсь); <em>I worry</em> is a habit (я вечно переживаю). To comfort someone, the usual phrase is <em>Don't worry</em>. Not <em>worried of</em>. The cause is <em>worrying</em>, or in American English more often <em>worrisome</em>.</dd></dl>
+<p>Anxious because you think something bad has happened or may happen.</p>
+<ol><li>My mom gets <em>worried</em> if I don't call.</li><li>I'm <em>more worried</em> about the test than I was last week.</li><li>The doctor had a <em>worried</em> look on her face.</li></ol>
+<hr>
+<h3 id="exhausting">exhausting<a class="hash" href="#exhausting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɔːstɪŋ/ &middot; <em>ig-ZAWS-ting</em></dd><dt>Русский</dt><dd>изнурительный; изматывающий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an exhausting trip</em>, <em>the trip was exhausting</em></dd><dt>Comparison</dt><dd>more/most — <em>more exhausting</em>, <em>most exhausting</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>False friend: <em>исчерпывающий</em> is <em>exhaustive</em> (<em>an exhaustive list</em>), not <em>exhausting</em>. <em>exhausting</em> is what wears you out; the person is <em>exhausted</em>.</dd></dl>
+<p>Making you extremely tired.</p>
+<ol><li>Moving across the country was <em>exhausting</em>.</li><li>The <em>most exhausting</em> part of the job is the commute.</li><li>After an <em>exhausting</em> week, we slept until noon.</li></ol>
+<hr>
+<h3 id="exhausted">exhausted<a class="hash" href="#exhausted" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɔːstɪd/ &middot; <em>ig-ZAWS-tid</em></dd><dt>Русский</dt><dd>измученный; исчерпанный</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>exhausted firefighters</em>, <em>the firefighters were exhausted</em></dd><dt>Comparison</dt><dd>more/most — <em>more exhausted</em>, <em>most exhausted</em></dd><dt>Takes</dt><dd><em>from</em> + noun or <em>-ing</em>: <em>exhausted from the trip</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd>A strong word: <em>completely</em> or <em>absolutely exhausted</em> sounds more natural than <em>very exhausted</em>. It is much stronger than <em>tired</em> — not just <em>устал</em>, but <em>вымотан</em>. <em>exhausted</em> supplies are used up (исчерпаны); <em>exhaustive</em> means complete (исчерпывающий).</dd></dl>
+<p>Exhausted has 2 distinct senses.</p>
+<p><strong>1. Extremely tired.</strong> (измученный; вымотанный; обессиленный)</p>
+<ol><li>I was completely <em>exhausted</em> after the race.</li><li>The <em>exhausted</em> firefighters finally got some sleep.</li><li>She looked even <em>more exhausted</em> than the day before.</li></ol>
+<p><strong>2. Completely used up, with nothing left.</strong> (исчерпанный; истощённый)</p>
+<ol start="4"><li>The land was dry and <em>exhausted</em> after years of growing cotton.</li><li>Crews sealed the <em>exhausted</em> mine in the 1950s.</li></ol>
+<hr>
+<h3 id="fascinating">fascinating<a class="hash" href="#fascinating" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæsəneɪtɪŋ/ &middot; <em>FAS-uh-nay-ting</em></dd><dt>Русский</dt><dd>увлекательный; захватывающий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a fascinating story</em>, <em>the story was fascinating</em></dd><dt>Comparison</dt><dd>more/most — <em>more fascinating</em>, <em>most fascinating</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd><em>fascinating</em> is much stronger than <em>interesting</em>, so it goes more naturally with <em>absolutely</em> or <em>really</em> than with <em>very</em>. The person is <em>fascinated</em>.</dd></dl>
+<p>Extremely interesting.</p>
+<ol><li>The museum has a <em>fascinating</em> exhibit on ancient Egypt.</li><li>I find his ideas absolutely <em>fascinating</em>.</li><li>It was the <em>most fascinating</em> class I took in college.</li></ol>
+<hr>
+<h3 id="fascinated">fascinated<a class="hash" href="#fascinated" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæsəneɪtɪd/ &middot; <em>FAS-uh-nay-tid</em></dd><dt>Русский</dt><dd>очарованный; заворожённый</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>fascinated kids</em>, <em>the kids were fascinated</em></dd><dt>Comparison</dt><dd>more/most — <em>more fascinated</em>, <em>most fascinated</em></dd><dt>Takes</dt><dd><em>by</em> or <em>with</em> + noun: <em>fascinated by insects</em>, <em>fascinated with old maps</em>; <em>to</em>-infinitive: <em>fascinated to learn</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>interested in</em>, but <em>fascinated by</em> or <em>with</em> — not <em>fascinated in</em>. <em>fascinated</em> is much stronger than <em>interested</em>. The thing is <em>fascinating</em>.</dd></dl>
+<p>Extremely interested, and unable to stop watching or thinking about something.</p>
+<ol><li>The kids were <em>fascinated</em> by the sharks.</li><li>He's always been <em>fascinated</em> with old maps.</li><li>She was <em>fascinated</em> to learn that her family came from Ireland.</li></ol>
+<hr>
+<h3 id="depressing">depressing<a class="hash" href="#depressing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈprɛsɪŋ/ &middot; <em>di-PRES-ing</em></dd><dt>Русский</dt><dd>угнетающий; удручающий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>depressing news</em>, <em>the news was depressing</em></dd><dt>Comparison</dt><dd>more/most — <em>more depressing</em>, <em>most depressing</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd><em>depressing</em> is the thing that makes you sad (угнетающий, тоскливый); the person is <em>depressed</em>. Russian <em>депрессивный</em> covers both, so <em>депрессивный фильм</em> is <em>a depressing movie</em>, never <em>a depressed movie</em>. <em>I'm depressing</em> means you make other people sad.</dd></dl>
+<p>Making you feel sad and without hope.</p>
+<ol><li>The news is so <em>depressing</em> these days.</li><li>Winter here is long, gray and <em>depressing</em>.</li><li>It's the <em>most depressing</em> movie I've ever seen.</li></ol>
+<hr>
+<h3 id="depressed">depressed<a class="hash" href="#depressed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈprɛst/ &middot; <em>di-PREST</em></dd><dt>Русский</dt><dd>подавленный; в депрессии</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>a depressed teenager</em>, <em>she seemed depressed</em>; the economic sense is common before a noun: <em>a depressed area</em></dd><dt>Comparison</dt><dd>more/most — <em>more depressed</em>, <em>most depressed</em></dd><dt>Takes</dt><dd><em>about</em> + noun or <em>-ing</em>: <em>depressed about losing the job</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd>In everyday speech <em>depressed</em> can just mean <em>very sad</em>, but it is also the medical word for clinical depression, so use it with care. <em>a depressed area</em> is not sad but poor, with few jobs. The cause is <em>depressing</em>.</dd></dl>
+<p>Depressed has 3 distinct senses.</p>
+<p><strong>1. Very sad and without hope, especially for a long time.</strong> (подавленный; в унынии)</p>
+<ol><li>He's been <em>depressed</em> since his dog died.</li><li>I get kind of <em>depressed</em> when it rains all week.</li><li>She felt <em>more depressed</em> than ever after the holidays.</li></ol>
+<p><strong>2. Suffering from depression as a medical condition.</strong> (страдающий депрессией)</p>
+<ol start="4"><li>Clinically <em>depressed</em> patients often have trouble sleeping.</li><li>Talk to a doctor if you think you might be <em>depressed</em>.</li></ol>
+<p><strong>3. Having little business activity, few jobs or lower prices than usual.</strong> (депрессивный; в упадке; пониженный (о ценах))</p>
+<ol start="6"><li>The factory closing left the town economically <em>depressed</em>.</li><li>Home prices are still <em>depressed</em> in parts of the Midwest.</li></ol>
+<hr>
+<h3 id="frustrating">frustrating<a class="hash" href="#frustrating" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrʌstreɪtɪŋ/ &middot; <em>FRUHS-tray-ting</em></dd><dt>Русский</dt><dd>досадный; раздражающий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a frustrating problem</em>, <em>the problem was frustrating</em></dd><dt>Comparison</dt><dd>more/most — <em>more frustrating</em>, <em>most frustrating</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>Russian has no single word: <em>frustrating</em> is what makes you feel <em>досадно</em>, <em>бесит</em> or <em>руки опускаются</em> because you can't get something done. It is an everyday word, not the psychology term <em>фрустрирующий</em>. The person is <em>frustrated</em>.</dd></dl>
+<p>Making you feel annoyed and discouraged because you cannot do or get what you want.</p>
+<ol><li>It's <em>frustrating</em> when the website keeps crashing.</li><li>Losing in the last minute was the <em>most frustrating</em> part.</li><li>Learning to drive a stick shift can be really <em>frustrating</em>.</li></ol>
+<hr>
+<h3 id="frustrated">frustrated<a class="hash" href="#frustrated" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrʌstreɪtɪd/ &middot; <em>FRUHS-tray-tid</em></dd><dt>Русский</dt><dd>раздосадованный; несостоявшийся</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>frustrated voters</em>, <em>the voters were frustrated</em>; in the sense 'never became what they wanted' only before a noun: <em>a frustrated writer</em></dd><dt>Comparison</dt><dd>more/most — <em>more frustrated</em>, <em>most frustrated</em></dd><dt>Takes</dt><dd><em>with</em> or <em>by</em> + noun: <em>frustrated with the software</em>, <em>frustrated by the delays</em>; <em>at</em> + thing: <em>frustrated at the lack of progress</em>; <em>that</em>-clause</dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>frustrated</em> is an everyday word (раздосадован, злюсь, что не получается), not a psychology term like <em>фрустрированный</em>. It is not <em>upset</em> (расстроен) or <em>disappointed</em>: <em>frustrated</em> means you keep trying and it still doesn't work. Before a noun it can mean someone who never became what they wanted: <em>a frustrated actor</em>.</dd></dl>
+<p>Frustrated has 2 distinct senses.</p>
+<p><strong>1. Annoyed and discouraged because you cannot do or get what you want.</strong> (раздосадованный; раздражённый)</p>
+<ol><li>I get so <em>frustrated</em> when my computer freezes.</li><li>Voters are <em>frustrated</em> with both parties.</li><li>The longer we waited, the <em>more frustrated</em> we got.</li></ol>
+<p><strong>2. Wanting to be a particular kind of person, such as an artist, but never having managed it.</strong> (несостоявшийся; нереализовавшийся)</p>
+<ol start="4"><li>He's a <em>frustrated</em> actor who ended up selling insurance.</li><li>Every <em>frustrated</em> novelist in the office wanted to write the newsletter.</li></ol>
+<hr>
+<h3 id="amusing">amusing<a class="hash" href="#amusing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmjuːzɪŋ/ &middot; <em>uh-MYOO-zing</em></dd><dt>Русский</dt><dd>забавный; занятный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an amusing story</em>, <em>the story was amusing</em></dd><dt>Comparison</dt><dd>more/most — <em>more amusing</em>, <em>most amusing</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd><em>amusing</em> is milder than <em>funny</em> — it makes you smile rather than laugh out loud. The person is <em>amused</em>.</dd></dl>
+<p>Funny and entertaining in a way that makes you smile.</p>
+<ol><li>He told an <em>amusing</em> story about his first day at work.</li><li>I didn't find his jokes very <em>amusing</em>.</li><li>Her speech was <em>more amusing</em> than I expected.</li></ol>
+<hr>
+<h3 id="amused">amused<a class="hash" href="#amused" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmjuːzd/ &middot; <em>uh-MYOOZD</em></dd><dt>Русский</dt><dd>которому смешно; позабавленный</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>an amused smile</em>, <em>she looked amused</em></dd><dt>Comparison</dt><dd>more/most — <em>more amused</em>, <em>most amused</em></dd><dt>Takes</dt><dd><em>by</em> or <em>at</em> + noun: <em>amused by the puppy</em>; <em>to</em>-infinitive: <em>amused to see</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>not amused</em> is a polite way to say someone was annoyed: <em>The boss was not amused</em> (шефу было не до смеха). <em>keep someone amused</em> means keep them busy and entertained. The cause is <em>amusing</em>.</dd></dl>
+<p>Amused has 2 distinct senses.</p>
+<p><strong>1. Finding something funny.</strong> (которому смешно; позабавленный)</p>
+<ol><li>She seemed <em>amused</em> by my accent.</li><li>He watched us with an <em>amused</em> smile.</li><li>My teacher was not <em>amused</em> when I fell asleep in class.</li></ol>
+<p><strong>2. Busy and entertained, so that you are not bored.</strong> (занятый; развлечённый)</p>
+<ol start="4"><li>Coloring books kept the kids <em>amused</em> on the flight.</li><li>There's plenty in the city to keep you <em>amused</em>.</li></ol>
+<hr>
+<h3 id="astonishing">astonishing<a class="hash" href="#astonishing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈstɑːnɪʃɪŋ/ &middot; <em>uh-STAH-ni-shing</em></dd><dt>Русский</dt><dd>поразительный; изумительный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an astonishing comeback</em>, <em>the comeback was astonishing</em></dd><dt>Comparison</dt><dd>more/most — <em>more astonishing</em>, <em>most astonishing</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>Stronger and more formal than <em>surprising</em>. Close to <em>amazing</em>, but it never just means <em>great</em> the way <em>amazing</em> does in speech. The person is <em>astonished</em>.</dd></dl>
+<p>So surprising that it is hard to believe.</p>
+<ol><li>The team made an <em>astonishing</em> comeback in the fourth quarter.</li><li>It's <em>astonishing</em> how little the town has changed.</li><li>The <em>most astonishing</em> thing is that he survived.</li></ol>
+<hr>
+<h3 id="astonished">astonished<a class="hash" href="#astonished" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈstɑːnɪʃt/ &middot; <em>uh-STAH-nisht</em></dd><dt>Русский</dt><dd>изумлённый; поражённый</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>an astonished expression</em>, <em>we were astonished</em></dd><dt>Comparison</dt><dd>more/most — <em>more astonished</em>, <em>most astonished</em></dd><dt>Takes</dt><dd><em>at</em> or <em>by</em> + noun: <em>astonished at the news</em>; <em>to</em>-infinitive: <em>astonished to find</em>; <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#astonished-at">astonished at</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd>Stronger than <em>surprised</em> and a little formal. Not <em>astonished of</em>. The cause is <em>astonishing</em>.</dd></dl>
+<p>Extremely surprised.</p>
+<ol><li>I was <em>astonished</em> to see how big the kids had gotten.</li><li>Doctors were <em>astonished</em> by her recovery.</li><li>He stared at me with an <em>astonished</em> expression.</li></ol>
+<hr>
+<h3 id="pleasing">pleasing<a class="hash" href="#pleasing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpliːzɪŋ/ &middot; <em>PLEE-zing</em></dd><dt>Русский</dt><dd>приятный; радующий (глаз, слух)</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a pleasing design</em>, <em>the design is pleasing</em></dd><dt>Comparison</dt><dd>more/most — <em>more pleasing</em>, <em>most pleasing</em></dd><dt>Takes</dt><dd><em>to</em> + person or sense: <em>pleasing to the eye</em>, <em>pleasing to customers</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Opposite</dt><dd><em>displeasing</em></dd><dt>Contrast</dt><dd><em>pleasing</em> is formal and usually describes how something looks or sounds: <em>a pleasing color</em>. In conversation Americans say <em>nice</em> or <em>pleasant</em>. The person who feels the pleasure is <em>pleased</em>.</dd></dl>
+<p>Giving pleasure or satisfaction; attractive.</p>
+<ol><li>The colors are <em>pleasing</em> to the eye.</li><li>The new park is a <em>pleasing</em> addition to downtown.</li><li>The second design was <em>more pleasing</em> than the first.</li></ol>
+<hr>
+<h3 id="pleased">pleased<a class="hash" href="#pleased" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pliːzd/ &middot; <em>PLEEZD</em></dd><dt>Русский</dt><dd>довольный; рад</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — mostly after a verb: <em>I was pleased</em>; before a noun mainly with smile, look, expression: <em>a pleased smile</em></dd><dt>Comparison</dt><dd>more/most — <em>more pleased</em>, <em>most pleased</em></dd><dt>Takes</dt><dd><em>with</em> + noun: <em>pleased with the results</em>; <em>about</em> + noun; <em>for</em> + person: <em>pleased for you</em>; <em>to</em>-infinitive: <em>pleased to meet you</em>; <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#pleased-with">pleased with</a></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Opposite</dt><dd><em>displeased</em></dd><dt>Contrast</dt><dd><em>pleased with</em> something is being satisfied with it (доволен); <em>pleased for</em> someone is being happy about their good news (рад за тебя). <em>pleased with yourself</em> often means too proud of yourself. <em>Pleased to meet you</em> is correct but formal; Americans usually say <em>Nice to meet you</em>.</dd></dl>
+<p>Pleased has 2 distinct senses.</p>
+<p><strong>1. Happy and satisfied with something.</strong> (довольный)</p>
+<ol><li>The coach was <em>pleased</em> with how the team played.</li><li>She looked very <em>pleased</em> with herself.</li><li>I've never been <em>more pleased</em> with a haircut.</li></ol>
+<p><strong>2. Glad to do or hear something; used especially in polite phrases.</strong> (рад)</p>
+<ol start="4"><li>We are <em>pleased</em> to announce the opening of our new store.</li><li>I'm <em>pleased</em> that you could come.</li></ol>
+<hr>
+<h3 id="thrilling">thrilling<a class="hash" href="#thrilling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθrɪlɪŋ/ &middot; <em>THRIL-ing</em></dd><dt>Русский</dt><dd>захватывающий; волнующий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a thrilling finish</em>, <em>the finish was thrilling</em></dd><dt>Comparison</dt><dd>more/most — <em>more thrilling</em>, <em>most thrilling</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd><em>thrilling</em> is stronger than <em>exciting</em> and usually describes events: <em>a thrilling finish</em>. The person is <em>thrilled</em>. A <em>thriller</em> is the noun for a suspense book or movie.</dd></dl>
+<p>Extremely exciting.</p>
+<ol><li>The game had a <em>thrilling</em> finish.</li><li>Riding a roller coaster for the first time was <em>thrilling</em>.</li><li>It was the <em>most thrilling</em> race of the season.</li></ol>
+<hr>
+<h3 id="thrilled">thrilled<a class="hash" href="#thrilled" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θrɪld/ &middot; <em>THRILD</em></dd><dt>Русский</dt><dd>в восторге; очень рад</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>predicative only — <em>I'm thrilled</em>, <em>she was thrilled</em>; not normally before a noun</dd><dt>Comparison</dt><dd>more/most — <em>more thrilled</em>, <em>most thrilled</em></dd><dt>Takes</dt><dd><em>with</em> or <em>about</em> + noun: <em>thrilled with the gift</em>; <em>to</em>-infinitive: <em>thrilled to be here</em>; <em>that</em>-clause; <em>for</em> + person: <em>thrilled for you</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd>Very strong — Russian <em>в восторге</em>, <em>безумно рад</em>. <em>not thrilled</em> is understatement for unhappy: <em>She wasn't thrilled about the idea</em> (ей идея не понравилась). The cause is <em>thrilling</em>.</dd></dl>
+<p>Extremely happy and excited.</p>
+<ol><li>We're <em>thrilled</em> to have you here.</li><li>My parents were <em>thrilled</em> with the news.</li><li>I wasn't exactly <em>thrilled</em> about working on Sunday.</li></ol>
+<hr>
+<h3 id="overwhelming">overwhelming<a class="hash" href="#overwhelming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈwɛlmɪŋ/ &middot; <em>oh-vur-WEL-ming</em></dd><dt>Русский</dt><dd>подавляющий; ошеломляющий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>overwhelming support</em>, <em>the job felt overwhelming</em></dd><dt>Comparison</dt><dd>more/most — <em>more overwhelming</em>, <em>most overwhelming</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd><em>an overwhelming majority</em> is <em>подавляющее большинство</em>, but Russian <em>подавляющий</em> fits only that sense; for feelings and workload use <em>ошеломляющий</em> or <em>непосильный</em>. The person who can't cope is <em>overwhelmed</em>.</dd></dl>
+<p>Overwhelming has 2 distinct senses.</p>
+<p><strong>1. Very great in amount or strength, so that nothing can compete with it.</strong> (подавляющий; неопровержимый)</p>
+<ol><li>The bill passed with <em>overwhelming</em> support.</li><li>The evidence against him was <em>overwhelming</em>.</li><li>An <em>overwhelming</em> majority of voters said yes.</li></ol>
+<p><strong>2. So strong or so much that it is hard to deal with.</strong> (ошеломляющий; непреодолимый; непосильный)</p>
+<ol start="4"><li>The first week at a new job can be <em>overwhelming</em>.</li><li>She felt an <em>overwhelming</em> urge to cry.</li><li>College applications are <em>more overwhelming</em> than most parents remember.</li></ol>
+<hr>
+<h3 id="overwhelmed">overwhelmed<a class="hash" href="#overwhelmed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈwɛlmd/ &middot; <em>oh-vur-WELMD</em></dd><dt>Русский</dt><dd>перегруженный; переполненный (чувствами)</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>overwhelmed nurses</em>, <em>the nurses were overwhelmed</em></dd><dt>Comparison</dt><dd>more/most — <em>more overwhelmed</em>, <em>most overwhelmed</em></dd><dt>Takes</dt><dd><em>by</em> or <em>with</em> + noun: <em>overwhelmed with work</em>, <em>overwhelmed by grief</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>overwhelmed</em> is not only negative: <em>overwhelmed with gratitude</em> (переполнен благодарностью) is a good feeling. For <em>я не справляюсь</em> say <em>I'm overwhelmed</em>, not <em>I'm overwhelming</em>.</dd></dl>
+<p>Overwhelmed has 2 distinct senses.</p>
+<p><strong>1. Having too much to do or deal with, so that you cannot cope.</strong> (перегруженный; заваленный (работой))</p>
+<ol><li>Nurses are <em>overwhelmed</em> with patients this winter.</li><li>I feel totally <em>overwhelmed</em> right now.</li><li>The <em>overwhelmed</em> staff couldn't answer every call.</li></ol>
+<p><strong>2. Deeply affected by a strong emotion.</strong> (потрясённый; переполненный (чувствами))</p>
+<ol start="4"><li>She was <em>overwhelmed</em> with joy when she saw her son.</li><li>We were <em>overwhelmed</em> by the kindness of strangers.</li></ol>
+<hr>
+<h3 id="alarming">alarming<a class="hash" href="#alarming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlɑːrmɪŋ/ &middot; <em>uh-LAR-ming</em></dd><dt>Русский</dt><dd>тревожный; вызывающий тревогу</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an alarming rate</em>, <em>the numbers are alarming</em></dd><dt>Comparison</dt><dd>more/most — <em>more alarming</em>, <em>most alarming</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd><em>alarming</em> is what makes you worried (тревожный): <em>at an alarming rate</em>. The person is <em>alarmed</em>.</dd></dl>
+<p>Causing worry or fear that something bad is happening.</p>
+<ol><li>Glaciers are melting at an <em>alarming</em> rate.</li><li>The number of cases is <em>alarming</em>.</li><li>The <em>most alarming</em> part of the report was about drinking water.</li></ol>
+<hr>
+<h3 id="alarmed">alarmed<a class="hash" href="#alarmed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlɑːrmd/ &middot; <em>uh-LARMD</em></dd><dt>Русский</dt><dd>встревоженный; на сигнализации</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>an alarmed look</em>, <em>they were alarmed</em>; in the sense 'fitted with an alarm' mostly after a verb: <em>the door is alarmed</em></dd><dt>Comparison</dt><dd>more/most — <em>more alarmed</em>, <em>most alarmed</em></dd><dt>Takes</dt><dd><em>at</em> or <em>by</em> + noun: <em>alarmed at the news</em>; <em>to</em>-infinitive: <em>alarmed to find</em>; <em>that</em>-clause</dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>alarmed</em> is worried, not panicked — Russian <em>встревожен</em>. On a sign, <em>This door is alarmed</em> means it has an alarm, not that the door is scared. The cause is <em>alarming</em>.</dd></dl>
+<p>Alarmed has 2 distinct senses.</p>
+<p><strong>1. Worried or frightened that something dangerous or bad might happen.</strong> (встревоженный; обеспокоенный)</p>
+<ol><li>Parents are <em>alarmed</em> by the rise in vaping.</li><li>Don't be <em>alarmed</em> — it's only a fire drill.</li><li>Neighbors grew <em>more alarmed</em> as the smoke got thicker.</li></ol>
+<p><strong>2. Fitted with an alarm that goes off if it is opened.</strong> (на сигнализации)</p>
+<ol start="4"><li>Emergency exit only — door is <em>alarmed</em>.</li><li>All the windows on the ground floor are <em>alarmed</em>.</li></ol>
+<hr>
+<h3 id="puzzling">puzzling<a class="hash" href="#puzzling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌzlɪŋ/ &middot; <em>PUHZ-ling</em></dd><dt>Русский</dt><dd>загадочный; озадачивающий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a puzzling question</em>, <em>the question was puzzling</em></dd><dt>Comparison</dt><dd>more/most — <em>more puzzling</em>, <em>most puzzling</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>The cause is <em>puzzling</em> (непонятный, загадочный); the person is <em>puzzled</em> (озадачен). <em>puzzling</em> is about something you can't explain; <em>confusing</em> is about something badly organized or unclear.</dd></dl>
+<p>Hard to understand or explain.</p>
+<ol><li>His sudden decision to quit is <em>puzzling</em>.</li><li>There's something <em>puzzling</em> about the timeline.</li><li>The <em>most puzzling</em> thing is why nobody noticed.</li></ol>
+<hr>
+<h3 id="puzzled">puzzled<a class="hash" href="#puzzled" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌzəld/ &middot; <em>PUHZ-uhld</em></dd><dt>Русский</dt><dd>озадаченный; недоумевающий</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>a puzzled look</em>, <em>she looked puzzled</em></dd><dt>Comparison</dt><dd>more/most — <em>more puzzled</em>, <em>most puzzled</em></dd><dt>Takes</dt><dd><em>by</em> + noun: <em>puzzled by his answer</em>; <em>about</em> or <em>as to</em> + noun or <em>wh</em>-clause: <em>puzzled about why she left</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>puzzled</em> means you are thinking hard about something you can't explain; <em>confused</em> means you have lost track. The cause is <em>puzzling</em>.</dd></dl>
+<p>Confused because you cannot understand or explain something.</p>
+<ol><li>He gave me a <em>puzzled</em> look.</li><li>Scientists are <em>puzzled</em> by the strange signals.</li><li>I'm still <em>puzzled</em> about why she left so early.</li></ol>
+<hr>
+<h3 id="irritating">irritating<a class="hash" href="#irritating" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrəteɪtɪŋ/ &middot; <em>IR-uh-tay-ting</em></dd><dt>Русский</dt><dd>раздражающий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an irritating habit</em>, <em>the habit is irritating</em></dd><dt>Comparison</dt><dd>more/most — <em>more irritating</em>, <em>most irritating</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd><em>irritating</em> is close to <em>annoying</em>, often about something that keeps happening. The person is <em>irritated</em>. Like Russian <em>раздражающий</em>, it also describes what makes skin or eyes sore.</dd></dl>
+<p>Irritating has 2 distinct senses.</p>
+<p><strong>1. Annoying, especially because it keeps happening.</strong> (раздражающий; действующий на нервы)</p>
+<ol><li>He has an <em>irritating</em> habit of cracking his knuckles.</li><li>The <em>most irritating</em> thing about the app is the pop-up ads.</li><li>That buzzing noise is so <em>irritating</em>.</li></ol>
+<p><strong>2. Making skin, eyes or another part of the body sore or red.</strong> (раздражающий (кожу, глаза))</p>
+<ol start="4"><li>Some soaps are <em>irritating</em> to sensitive skin.</li><li>Smoke can be <em>irritating</em> to the eyes and throat.</li></ol>
+<hr>
+<h3 id="irritated">irritated<a class="hash" href="#irritated" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrəteɪtɪd/ &middot; <em>IR-uh-tay-tid</em></dd><dt>Русский</dt><dd>раздражённый</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>an irritated voice</em>, <em>she sounded irritated</em></dd><dt>Comparison</dt><dd>more/most — <em>more irritated</em>, <em>most irritated</em></dd><dt>Takes</dt><dd><em>with</em> + person: <em>irritated with him</em>; <em>at</em> or <em>by</em> + thing: <em>irritated by the noise</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd><em>irritated</em> is about as strong as <em>annoyed</em> and weaker than <em>angry</em>. The cause is <em>irritating</em>. For skin and eyes, <em>irritated</em> means sore or red, not angry.</dd></dl>
+<p>Irritated has 2 distinct senses.</p>
+<p><strong>1. Annoyed and impatient.</strong> (раздражённый)</p>
+<ol><li>She sounded <em>irritated</em> on the phone.</li><li>I get <em>irritated</em> when people cut in line.</li><li>He was <em>more irritated</em> by the delay than by the price.</li></ol>
+<p><strong>2. Of skin or eyes, sore, red or itchy.</strong> (воспалённый; раздражённый (о коже))</p>
+<ol start="4"><li>My eyes get <em>irritated</em> from the chlorine.</li><li>Use a gentle cream on <em>irritated</em> skin.</li></ol>
+<hr>
+<h3 id="disgusting">disgusting<a class="hash" href="#disgusting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈɡʌstɪŋ/ &middot; <em>dis-GUHS-ting</em></dd><dt>Русский</dt><dd>отвратительный; мерзкий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a disgusting smell</em>, <em>the smell was disgusting</em></dd><dt>Comparison</dt><dd>more/most — <em>more disgusting</em>, <em>most disgusting</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd>A strong word: <em>absolutely</em> or <em>really disgusting</em>. Russian <em>отвратительный</em> is often used for bad weather or bad service; <em>disgusting</em> is stronger and suggests something makes you feel sick. The person is <em>disgusted</em>.</dd></dl>
+<p>Disgusting has 2 distinct senses.</p>
+<p><strong>1. Extremely unpleasant to smell, taste, look at or touch.</strong> (отвратительный; мерзкий)</p>
+<ol><li>The bathroom at the gas station was <em>disgusting</em>.</li><li>This coffee tastes <em>disgusting</em>.</li><li>That's the <em>most disgusting</em> thing I've ever eaten.</li></ol>
+<p><strong>2. Morally shocking and unacceptable.</strong> (возмутительный; омерзительный)</p>
+<ol start="4"><li>What they did to those animals is <em>disgusting</em>.</li><li>It's <em>disgusting</em> that the executives got bonuses while workers lost their jobs.</li></ol>
+<hr>
+<h3 id="disgusted">disgusted<a class="hash" href="#disgusted" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈɡʌstɪd/ &middot; <em>dis-GUHS-tid</em></dd><dt>Русский</dt><dd>испытывающий отвращение; возмущённый</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>both — <em>a disgusted look</em>, <em>I was disgusted</em></dd><dt>Comparison</dt><dd>more/most — <em>more disgusted</em>, <em>most disgusted</em></dd><dt>Takes</dt><dd><em>with</em> + person or yourself: <em>disgusted with himself</em>; <em>by</em> or <em>at</em> + thing: <em>disgusted by the smell</em>, <em>disgusted at the waste</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd>The person is <em>disgusted</em>; the thing is <em>disgusting</em> — <em>I'm disgusting</em> insults yourself. <em>disgusted</em> covers both physical revulsion (испытываю отвращение) and moral anger (возмущён).</dd></dl>
+<p>Feeling strong dislike or disapproval because something is unpleasant or wrong.</p>
+<ol><li>I was <em>disgusted</em> by the smell in the fridge.</li><li>Many voters are <em>disgusted</em> with the whole campaign.</li><li>She walked out with a <em>disgusted</em> look on her face.</li></ol>
+<hr>
+<h3 id="encouraging">encouraging<a class="hash" href="#encouraging" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈkɜːrɪdʒɪŋ/ &middot; <em>in-KUR-ij-ing</em></dd><dt>Русский</dt><dd>обнадёживающий; ободряющий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>encouraging news</em>, <em>the news is encouraging</em></dd><dt>Comparison</dt><dd>more/most — <em>more encouraging</em>, <em>most encouraging</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Opposite</dt><dd><em>discouraging</em></dd><dt>Contrast</dt><dd><em>encouraging</em> news gives hope (обнадёживающий); an <em>encouraging</em> person gives support (ободряющий). The person who feels hopeful is <em>encouraged</em>.</dd></dl>
+<p>Encouraging has 2 distinct senses.</p>
+<p><strong>1. Giving you hope that something will go well.</strong> (обнадёживающий; многообещающий)</p>
+<ol><li>The early test results are very <em>encouraging</em>.</li><li>Sales this month were <em>more encouraging</em> than last month.</li><li>It's <em>encouraging</em> to see so many young people vote.</li></ol>
+<p><strong>2. Giving someone support, praise or confidence.</strong> (ободряющий; поддерживающий)</p>
+<ol start="4"><li>My coach was always <em>encouraging</em>.</li><li>She gave me an <em>encouraging</em> smile.</li></ol>
+<hr>
+<h3 id="encouraged">encouraged<a class="hash" href="#encouraged" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈkɜːrɪdʒd/ &middot; <em>in-KUR-ijd</em></dd><dt>Русский</dt><dd>обнадёженный; воодушевлённый</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>predicative only — after <em>be</em>, <em>feel</em> or <em>seem</em>: <em>We felt encouraged</em></dd><dt>Comparison</dt><dd>more/most — <em>more encouraged</em>, <em>most encouraged</em></dd><dt>Takes</dt><dd><em>by</em> + noun: <em>encouraged by the results</em>; <em>to</em>-infinitive: <em>encouraged to see</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Opposite</dt><dd><em>discouraged</em></dd><dt>Contrast</dt><dd><em>be encouraged to do something</em> is usually the verb in the passive: <em>Students are encouraged to ask questions</em> (студентам предлагают задавать вопросы) — nobody is feeling hopeful. The adjective is a feeling: <em>I'm encouraged by the news</em> (меня это обнадёживает). The cause is <em>encouraging</em>.</dd></dl>
+<p>Feeling more hopeful or confident.</p>
+<ol><li>We're <em>encouraged</em> by the progress so far.</li><li>After the meeting, I felt <em>more encouraged</em> about the project.</li><li>Doctors were <em>encouraged</em> to see her walking again.</li></ol>
+<hr>
+<h3 id="inspiring">inspiring<a class="hash" href="#inspiring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈspaɪərɪŋ/ &middot; <em>in-SPY-uh-ring</em></dd><dt>Русский</dt><dd>вдохновляющий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>an inspiring speech</em>, <em>the speech was inspiring</em></dd><dt>Comparison</dt><dd>more/most — <em>more inspiring</em>, <em>most inspiring</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Opposite</dt><dd><em>uninspiring</em></dd><dt>Contrast</dt><dd><em>inspiring</em> is what makes you want to act (вдохновляющий). <em>inspired</em> can describe the person, but before a noun it usually means <em>brilliant</em>: <em>an inspired idea</em>, not <em>an idea that inspires</em>. <em>uninspiring</em> means dull.</dd></dl>
+<p>Making people want to do something good, creative or brave.</p>
+<ol><li>Her speech at graduation was really <em>inspiring</em>.</li><li>He's one of the <em>most inspiring</em> teachers I've had.</li><li>It's an <em>inspiring</em> story of a family that never gave up.</li></ol>
+<hr>
+<h3 id="inspired">inspired<a class="hash" href="#inspired" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈspaɪərd/ &middot; <em>in-SPY-urd</em></dd><dt>Русский</dt><dd>вдохновлённый; блестящий</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>I feel inspired</em>; before a noun it usually means very good: <em>an inspired choice</em></dd><dt>Comparison</dt><dd>more/most — <em>more inspired</em>, <em>most inspired</em></dd><dt>Takes</dt><dd><em>by</em> + noun: <em>inspired by her story</em>; <em>to</em>-infinitive: <em>inspired to write</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Opposite</dt><dd><em>uninspired</em></dd><dt>Contrast</dt><dd>The meaning changes with position: <em>She felt inspired</em> (вдохновлённая) is about the person, but <em>an inspired choice</em> or <em>an inspired performance</em> means brilliant (блестящий, удачный). <em>inspired by</em> + a source after a noun is often the verb: <em>a movie inspired by true events</em> (по мотивам реальных событий). The thing that inspires is <em>inspiring</em>.</dd></dl>
+<p>Inspired has 3 distinct senses.</p>
+<p><strong>1. Feeling eager and excited to do something, especially something creative.</strong> (вдохновлённый; воодушевлённый)</p>
+<ol><li>After the trip, I felt <em>inspired</em> to start painting again.</li><li>Kids come out of the science museum totally <em>inspired</em>.</li><li>I've never felt <em>more inspired</em> than I did that summer.</li></ol>
+<p><strong>2. Extremely good or clever, as if done with special talent.</strong> (блестящий; гениальный; вдохновенный)</p>
+<ol start="4"><li>Hiring her was an <em>inspired</em> choice.</li><li>The band gave an <em>inspired</em> performance.</li></ol>
+<p><strong>3. Influenced by a particular style, place or idea; usually joined to another word with a hyphen.</strong> (в стиле; навеянный; по мотивам)</p>
+<ol start="6"><li>The restaurant serves <em>Mexican-inspired</em> dishes.</li><li>Police believe the attack was politically <em>inspired</em>.</li></ol>
+<hr>
+<h3 id="touching">touching<a class="hash" href="#touching" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʌtʃɪŋ/ &middot; <em>TUHCH-ing</em></dd><dt>Русский</dt><dd>трогательный</dd><dt>Type</dt><dd>participial; also evaluative</dd><dt>Position</dt><dd>both — <em>a touching moment</em>, <em>the moment was touching</em></dd><dt>Comparison</dt><dd>more/most — <em>more touching</em>, <em>most touching</em></dd><dt>Form</dt><dd>-ing — what causes the feeling</dd><dt>Contrast</dt><dd><em>touching</em> (трогательный) is not <em>touchy</em> (обидчивый): <em>a touching letter</em>, but <em>a touchy subject</em>. The person who feels it is <em>touched</em>.</dd></dl>
+<p>Making you feel sympathy, sadness or tenderness.</p>
+<ol><li>It was a <em>touching</em> moment when the soldier hugged his daughter.</li><li>His letter to his grandmother was very <em>touching</em>.</li><li>It's one of the <em>most touching</em> movies I've seen.</li></ol>
+<hr>
+<h3 id="touched">touched<a class="hash" href="#touched" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʌtʃt/ &middot; <em>TUHCHT</em></dd><dt>Русский</dt><dd>тронутый</dd><dt>Type</dt><dd>participial; also emotion</dd><dt>Position</dt><dd>predicative only — <em>I was touched</em>, <em>she seemed touched</em>; not before a noun</dd><dt>Comparison</dt><dd>more/most — <em>more touched</em>, <em>most touched</em></dd><dt>Takes</dt><dd><em>by</em> + noun: <em>touched by your kindness</em>; <em>that</em>-clause: <em>touched that you remembered</em>; <em>to</em>-infinitive: <em>touched to receive</em></dd><dt>Form</dt><dd>-ed — the person who has the feeling</dd><dt>Contrast</dt><dd>Like Russian <em>тронутый</em>, it can mean emotionally moved or, in old-fashioned speech, a little crazy; context makes it clear. It goes only after a verb: <em>I was really touched</em>. The thing that moves you is <em>touching</em>.</dd></dl>
+<p>Touched has 2 distinct senses.</p>
+<p><strong>1. Feeling grateful and emotional because someone was kind.</strong> (тронутый)</p>
+<ol><li>I was really <em>touched</em> that you remembered my birthday.</li><li>She was <em>touched</em> by all the cards from her students.</li><li>I've never been <em>more touched</em> by a gift.</li></ol>
+<p><strong>2. Old-fashioned and informal: slightly crazy.</strong> (чокнутый; тронутый)</p>
+<ol start="4"><li>Folks in town thought the old man was a little <em>touched</em>.</li><li>You'd have to be <em>touched</em> in the head to go out in this storm.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

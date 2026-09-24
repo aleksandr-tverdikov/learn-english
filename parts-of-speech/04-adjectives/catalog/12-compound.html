@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compound adjectives</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="compound-adjectives">Compound adjectives<a class="hash" href="#compound-adjectives" aria-label="link">#</a></h1>
+<blockquote><p><em>well-known</em>, <em>part-time</em>, <em>old-fashioned</em>, <em>a five-year plan</em> — two words working as one.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>Compound adjectives join two or more words into a single modifier, and the hyphen is part of the grammar: <em>a well-known author</em>, but <em>the author is well known</em>. Number compounds take a singular noun — <em>a five-year plan</em>, never <em>a five-years plan</em> — which is the error a Russian speaker is most likely to make with this group.</p>
+<hr>
+<h3 id="well-known">well-known<a class="hash" href="#well-known" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwɛlˈnoʊn/ &middot; <em>wel-NOHN</em></dd><dt>Русский</dt><dd>известный; общеизвестный</dd><dt>Type</dt><dd>compound — adverb + past participle</dd><dt>Position</dt><dd>both — always hyphenated before a noun (<em>a well-known writer</em>); after a verb often written open (<em>she is well known</em>)</dd><dt>Comparison</dt><dd>irregular — <em>better-known</em>, <em>best-known</em>; after a verb <em>better known</em>, <em>best known</em></dd><dt>Takes</dt><dd><em>for</em> + noun or <em>-ing</em> (the reason people know it); <em>as</em> + noun (the role it is known in); <em>to</em> + person (who knows it); <em>that</em>-clause in <em>it is well known that</em></dd><dt>Form</dt><dd>compound — <em>well</em> + past participle <em>known</em></dd><dt>Opposite</dt><dd><em>unknown</em>; <em>little-known</em></dd><dt>Contrast</dt><dd>The comparative is <em>better-known</em>, <em>best-known</em>, not <em>weller-known</em>; <em>more well-known</em> is common in speech but is avoided in careful writing. The preposition changes the meaning: <em>well known for her novels</em> (the reason), <em>well known as a novelist</em> (the role), <em>well known to the police</em> (who knows her). A <em>well-known</em> fact is общеизвестный, not just известный, so it needs no <em>famous</em>: say <em>a well-known fact</em>, never <em>a famous fact</em>.</dd></dl>
+<p>Well-known has 2 distinct senses.</p>
+<p><strong>1. Known about by many people; famous.</strong> (известный)</p>
+<ol><li>The restaurant is owned by a <em>well-known</em> chef from Chicago.</li><li>She is <em>well known</em> for her work on climate policy.</li><li>He is <em>better known</em> as a songwriter than as a singer.</li></ol>
+<p><strong>2. Of a fact or idea: known to most people, so that nobody needs to explain it.</strong> (общеизвестный, всем известный)</p>
+<ol start="4"><li>It's a <em>well-known</em> fact that smoking causes cancer.</li><li>It is <em>well known</em> that the first year of a startup is the hardest.</li></ol>
+<hr>
+<h3 id="well-behaved">well-behaved<a class="hash" href="#well-behaved" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwɛlbɪˈheɪvd/ &middot; <em>wel-bi-HAYVD</em></dd><dt>Русский</dt><dd>послушный; хорошо себя ведущий</dd><dt>Type</dt><dd>compound — adverb + past participle</dd><dt>Position</dt><dd>both — hyphenated before a noun (<em>a well-behaved dog</em>); after a verb often written open (<em>the kids were well behaved</em>)</dd><dt>Comparison</dt><dd>irregular — <em>better-behaved</em>, <em>best-behaved</em>; after a verb <em>better behaved</em></dd><dt>Form</dt><dd>compound — <em>well</em> + past participle of <em>behave</em></dd><dt>Opposite</dt><dd><em>badly behaved</em></dd><dt>Contrast</dt><dd>Russian <em>воспитанный</em> about an adult is usually <em>polite</em> or <em>well-mannered</em>; <em>well-behaved</em> is mostly said of children, pets and students, and describes how they act, not their upbringing. The comparative is <em>better-behaved</em>, not <em>more well-behaved</em> in careful writing.</dd></dl>
+<p>Well-behaved has 2 distinct senses.</p>
+<p><strong>1. Of a child, student or animal: behaving politely and doing what they are told.</strong> (послушный, хорошо себя ведущий)</p>
+<ol><li>Our neighbors have three very <em>well-behaved</em> kids.</li><li>The dog was surprisingly <em>well behaved</em> at the vet.</li><li>This year's class is the <em>best-behaved</em> group I've ever taught.</li></ol>
+<p><strong>2. Of a machine, program or process: working in a predictable way, without surprises.</strong> (предсказуемый, работающий без сбоев)</p>
+<ol start="4"><li>A <em>well-behaved</em> app doesn't drain your battery in the background.</li><li>The function is <em>well behaved</em> for all positive values of x.</li></ol>
+<hr>
+<h3 id="well-off">well-off<a class="hash" href="#well-off" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwɛlˈɔːf/ &middot; <em>wel-AWF</em></dd><dt>Русский</dt><dd>обеспеченный, состоятельный</dd><dt>Type</dt><dd>compound — adverb + adverb particle</dd><dt>Position</dt><dd>both — hyphenated before a noun (<em>a well-off family</em>); more often after a verb and written open (<em>they're well off</em>); the 'in a good situation' sense only after a verb</dd><dt>Comparison</dt><dd>irregular — <em>better-off</em>, <em>best-off</em>; after a verb <em>better off</em>, <em>best off</em></dd><dt>Takes</dt><dd>in the 'in a good situation' sense, <em>better off</em> often takes <em>-ing</em> or <em>without</em> + noun: <em>You'd be better off taking the bus</em>; <em>She's better off without him</em></dd><dt>Form</dt><dd>compound — <em>well</em> + <em>off</em></dd><dt>Opposite</dt><dd><em>badly off</em>; <em>poor</em></dd><dt>Contrast</dt><dd><em>Better off</em> is the everyday comparative and usually means 'in a better situation', not 'richer': <em>You'd be better off asking your boss</em> = тебе лучше спросить начальника. <em>Well-off</em> is politer than <em>rich</em> and a little less than <em>wealthy</em>. The British <em>well off for</em> (well supplied with: <em>well off for cash</em>) is rare in American English.</dd></dl>
+<p>Well-off has 2 distinct senses.</p>
+<p><strong>1. Having plenty of money; comfortably rich.</strong> (обеспеченный, состоятельный)</p>
+<ol><li>She grew up in a <em>well-off</em> suburb outside Boston.</li><li>His parents are pretty <em>well off</em>, so he graduated without loans.</li><li>The tax cut mostly helps the <em>best-off</em> households.</li></ol>
+<p><strong>2. In a good or lucky situation.</strong> (в хорошем положении; которому повезло)</p>
+<ol start="4"><li>You don't know how <em>well off</em> you are with a boss like that.</li><li>We'd be <em>better off</em> leaving before the traffic starts.</li><li>Honestly, she's <em>better off</em> without him.</li></ol>
+<hr>
+<h3 id="well-dressed">well-dressed<a class="hash" href="#well-dressed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwɛlˈdrɛst/ &middot; <em>wel-DREST</em></dd><dt>Русский</dt><dd>хорошо одетый, элегантный</dd><dt>Type</dt><dd>compound — adverb + past participle</dd><dt>Position</dt><dd>both — hyphenated before a noun (<em>a well-dressed man</em>); after a verb often written open (<em>he was well dressed</em>)</dd><dt>Comparison</dt><dd>irregular — <em>better-dressed</em>, <em>best-dressed</em>; after a verb <em>better dressed</em></dd><dt>Form</dt><dd>compound — <em>well</em> + past participle <em>dressed</em></dd><dt>Opposite</dt><dd><em>badly dressed</em>; <em>shabby</em></dd><dt>Contrast</dt><dd><em>Dressed</em> alone only means 'wearing clothes' (<em>Are you dressed yet?</em> = ты оделся?); <em>well-dressed</em> means wearing good, stylish clothes. Say <em>the best-dressed guest</em>, not <em>the most well-dressed guest</em> in careful writing.</dd></dl>
+<p>Wearing attractive, stylish or expensive clothes.</p>
+<ol><li>A <em>well-dressed</em> woman in a gray suit walked into the lobby.</li><li>Everyone at the wedding was <em>well dressed</em> except the groom's brother.</li><li>The magazine publishes a list of the year's <em>best-dressed</em> celebrities.</li></ol>
+<hr>
+<h3 id="well-paid">well-paid<a class="hash" href="#well-paid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwɛlˈpeɪd/ &middot; <em>wel-PAYD</em></dd><dt>Русский</dt><dd>высокооплачиваемый, хорошо оплачиваемый</dd><dt>Type</dt><dd>compound — adverb + past participle</dd><dt>Position</dt><dd>both — hyphenated before a noun (<em>a well-paid job</em>); after a verb often written open (<em>nurses aren't well paid</em>)</dd><dt>Comparison</dt><dd>irregular — <em>better-paid</em>, <em>best-paid</em>; after a verb <em>better paid</em></dd><dt>Form</dt><dd>compound — <em>well</em> + past participle <em>paid</em></dd><dt>Opposite</dt><dd><em>poorly paid</em>; <em>low-paid</em></dd><dt>Contrast</dt><dd><em>Well-paid</em> describes both the job and the person doing it. <em>Well-paying</em> describes only the job or the employer: <em>a well-paying job</em>, but not <em>a well-paying lawyer</em>. <em>Highly paid</em> means the same as <em>well-paid</em> and is common for people: <em>highly paid executives</em>.</dd></dl>
+<p>Of a job or a person: earning or paying a lot of money.</p>
+<ol><li>He left teaching for a <em>well-paid</em> job in software.</li><li>Truck drivers are fairly <em>well paid</em> in North Dakota.</li><li>Surgeons are among the <em>best-paid</em> workers in the country.</li></ol>
+<hr>
+<h3 id="high-speed">high-speed<a class="hash" href="#high-speed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhaɪˈspiːd/ &middot; <em>hy-SPEED</em></dd><dt>Русский</dt><dd>скоростной, высокоскоростной</dd><dt>Type</dt><dd>compound — adjective + noun; also classifying</dd><dt>Position</dt><dd>attributive only — after a verb use <em>fast</em>: <em>a high-speed train</em>, but <em>the train is fast</em></dd><dt>Comparison</dt><dd>not gradable — technical writing has <em>higher-speed</em>, but in everyday English compare with <em>faster</em></dd><dt>Form</dt><dd>compound — <em>high</em> + <em>speed</em></dd><dt>Contrast</dt><dd>It goes before a noun: <em>a high-speed chase</em>, not <em>the chase was high-speed</em>, which sounds odd — say <em>the chase was fast</em>. <em>Speed</em> stays singular inside the compound. Russian <em>скоростной интернет</em> is <em>high-speed internet</em> or <em>broadband</em>, never <em>speed internet</em>.</dd></dl>
+<p>High-speed has 2 distinct senses.</p>
+<p><strong>1. Moving, working or sending data very fast.</strong> (скоростной, высокоскоростной)</p>
+<ol><li>California has been trying to build <em>high-speed</em> rail for years.</li><li>The suspect led police on a <em>high-speed</em> chase down the interstate.</li><li>Every room in the hotel has free <em>high-speed</em> internet.</li></ol>
+<p><strong>2. Of a camera or photography: recording in a very short time, so that fast motion can be seen.</strong> (скоростной (о съёмке, камере))</p>
+<ol start="4"><li>A <em>high-speed</em> camera caught the moment the balloon burst.</li><li>The scientists used <em>high-speed</em> video to study how the bird lands.</li></ol>
+<hr>
+<h3 id="part-time">part-time<a class="hash" href="#part-time" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɑːrtˈtaɪm/ &middot; <em>pahrt-TYM</em></dd><dt>Русский</dt><dd>с неполной занятостью; на неполный рабочий день</dd><dt>Type</dt><dd>compound — noun + noun; also classifying</dd><dt>Position</dt><dd>both — <em>a part-time job</em>; <em>the job is part-time</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>part</em> + <em>time</em></dd><dt>Opposite</dt><dd><em>full-time</em></dd><dt>Contrast</dt><dd>In <em>She works part-time</em> the word is an adverb, not an adjective. Russian <em>полставки</em> is <em>part-time</em> or <em>half-time</em> in a job, but <em>halftime</em> on its own is the break in a sports game. The job is <em>part-time</em>, never <em>part-timed</em>; a person who works part-time is <em>a part-timer</em> (noun).</dd></dl>
+<p>Part-time has 2 distinct senses.</p>
+<p><strong>1. Of a job, course or schedule: for only part of the usual working or study hours.</strong> (с неполной занятостью, неполный (рабочий день))</p>
+<ol><li>I had a <em>part-time</em> job at a pizza place all through college.</li><li>The position is <em>part-time</em>, about twenty hours a week.</li></ol>
+<p><strong>2. Of a person: working or studying fewer than the usual hours, or doing something in addition to a main job.</strong> (работающий неполный день; по совместительству)</p>
+<ol start="3"><li>The store hired three <em>part-time</em> workers for the holidays.</li><li>He's an accountant by day and a <em>part-time</em> musician on weekends.</li><li>She was a <em>part-time</em> student while her kids were small.</li></ol>
+<hr>
+<h3 id="full-time">full-time<a class="hash" href="#full-time" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfʊlˈtaɪm/ &middot; <em>fuul-TYM</em></dd><dt>Русский</dt><dd>с полной занятостью; штатный</dd><dt>Type</dt><dd>compound — adjective + noun; also classifying</dd><dt>Position</dt><dd>both — <em>a full-time job</em>; <em>the job is full-time</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>full</em> + <em>time</em></dd><dt>Opposite</dt><dd><em>part-time</em></dd><dt>Contrast</dt><dd>In <em>She works full-time</em> the word is an adverb, not an adjective. <em>Full time</em> as a noun is British sports talk for the end of a match; Americans say <em>the end of regulation</em> or <em>the final whistle</em>. Russian <em>штатный сотрудник</em> is usually <em>a full-time employee</em> or <em>staff member</em>.</dd></dl>
+<p>Full-time has 3 distinct senses.</p>
+<p><strong>1. Of a job, course or schedule: for the whole of the normal working or study week.</strong> (с полной занятостью, на полный рабочий день)</p>
+<ol><li>After the internship, they offered her a <em>full-time</em> position.</li><li>The program is <em>full-time</em>, so most students don't work.</li></ol>
+<p><strong>2. Of a person: working or studying the full number of hours, or doing something as their main activity.</strong> (штатный, постоянный; занятый полный день)</p>
+<ol start="3"><li>The company has forty <em>full-time</em> employees.</li><li>She became a <em>full-time</em> mom after the twins were born.</li></ol>
+<p><strong>3. Taking up all your time and energy, in <em>a full-time job</em>.</strong> (отнимающий всё время)</p>
+<ol start="5"><li>Taking care of my dad has become a <em>full-time</em> job.</li><li>Keeping that old house in shape is practically <em>full-time</em> work.</li></ol>
+<hr>
+<h3 id="long-term">long-term<a class="hash" href="#long-term" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlɔːŋˈtɜːrm/ &middot; <em>lawng-TURM</em></dd><dt>Русский</dt><dd>долгосрочный; длительный</dd><dt>Type</dt><dd>compound — adjective + noun; also classifying</dd><dt>Position</dt><dd>both — mostly before a noun: <em>long-term goals</em>; after a verb: <em>the damage could be long-term</em></dd><dt>Comparison</dt><dd>not gradable — but <em>longer-term</em> is common: <em>a longer-term plan</em></dd><dt>Form</dt><dd>compound — <em>long</em> + <em>term</em></dd><dt>Opposite</dt><dd><em>short-term</em></dd><dt>Contrast</dt><dd><em>In the long term</em> is a noun phrase; Americans more often say <em>in the long run</em>. <em>Long-term</em> is about time into the future or over a long period; <em>long-lasting</em> is about how long a thing keeps working (<em>a long-lasting battery</em>, not <em>a long-term battery</em>). <em>Term</em> stays singular: never <em>long-terms plans</em>.</dd></dl>
+<p>Long-term has 3 distinct senses.</p>
+<p><strong>1. Planned for, or having effects over, a long time into the future.</strong> (долгосрочный)</p>
+<ol><li>Nobody really knows the <em>long-term</em> effects of the drug.</li><li>We need a <em>long-term</em> solution, not another quick fix.</li><li>The board wants a <em>longer-term</em> strategy for the company.</li></ol>
+<p><strong>2. Lasting or having existed for a long time.</strong> (длительный, давний; хронический)</p>
+<ol start="4"><li>They've been in a <em>long-term</em> relationship for eight years.</li><li>Her grandmother lives in a <em>long-term</em> care facility.</li><li>The problem isn't temporary; it's <em>long-term</em>.</li></ol>
+<p><strong>3. In finance: lasting more than a year before it must be paid or sold.</strong> (долгосрочный (о кредите, инвестиции))</p>
+<ol start="7"><li><em>Long-term</em> capital gains are taxed at a lower rate.</li><li>The city took out a <em>long-term</em> loan to fix the bridge.</li></ol>
+<hr>
+<h3 id="short-term">short-term<a class="hash" href="#short-term" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʃɔːrtˈtɜːrm/ &middot; <em>short-TURM</em></dd><dt>Русский</dt><dd>краткосрочный; кратковременный</dd><dt>Type</dt><dd>compound — adjective + noun; also classifying</dd><dt>Position</dt><dd>both — mostly before a noun: <em>a short-term contract</em>; after a verb: <em>the effect is only short-term</em></dd><dt>Comparison</dt><dd>not gradable — but <em>shorter-term</em> is used: <em>shorter-term goals</em></dd><dt>Form</dt><dd>compound — <em>short</em> + <em>term</em></dd><dt>Opposite</dt><dd><em>long-term</em></dd><dt>Contrast</dt><dd><em>Short-term</em> describes something planned or meant to last a short time; <em>short-lived</em> describes something that ended sooner than expected (<em>a short-lived marriage</em>). Russian <em>кратковременная память</em> is <em>short-term memory</em>, never <em>short memory</em>.</dd></dl>
+<p>Short-term has 3 distinct senses.</p>
+<p><strong>1. Planned for, or having effects over, only the near future.</strong> (краткосрочный)</p>
+<ol><li>Cutting prices is only a <em>short-term</em> fix.</li><li>The layoffs brought a <em>short-term</em> boost in profits but hurt morale.</li><li>Most investors care more about <em>shorter-term</em> returns.</li></ol>
+<p><strong>2. Lasting only a short time.</strong> (кратковременный, временный)</p>
+<ol start="4"><li>The city is cracking down on <em>short-term</em> rentals.</li><li>Alcohol affects your <em>short-term</em> memory.</li><li>The side effects are usually mild and <em>short-term</em>.</li></ol>
+<p><strong>3. In finance: lasting a year or less before it must be paid or sold.</strong> (краткосрочный (о кредите, инвестиции))</p>
+<ol start="7"><li>The company borrowed money with a <em>short-term</em> loan.</li><li><em>Short-term</em> interest rates went up again this month.</li></ol>
+<hr>
+<h3 id="world-famous">world-famous<a class="hash" href="#world-famous" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwɜːrldˈfeɪməs/ &middot; <em>wurld-FAY-muhs</em></dd><dt>Русский</dt><dd>всемирно известный</dd><dt>Type</dt><dd>compound — noun + adjective</dd><dt>Position</dt><dd>both — <em>a world-famous pianist</em>; <em>the bakery is world-famous</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Takes</dt><dd><em>for</em> + noun or <em>-ing</em> (what it is famous for)</dd><dt>Form</dt><dd>compound — <em>world</em> + <em>famous</em></dd><dt>Contrast</dt><dd>Learners often say <em>worldwide famous</em> or <em>world famous by</em> — say <em>world-famous for</em>. It is also used jokingly about something only locally known: <em>Joe's world-famous chili</em>.</dd></dl>
+<p>Known by people in many countries.</p>
+<ol><li>The Grand Canyon is a <em>world-famous</em> natural wonder.</li><li>The city is <em>world-famous</em> for its jazz clubs.</li><li>Stop by Rosa's for her <em>world-famous</em> pecan pie.</li></ol>
+<hr>
+<h3 id="sugar-free">sugar-free<a class="hash" href="#sugar-free" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʃʊɡərˈfriː/ &middot; <em>shuug-ur-FREE</em></dd><dt>Русский</dt><dd>без сахара, не содержащий сахара</dd><dt>Type</dt><dd>compound — noun + <em>-free</em>; also classifying</dd><dt>Position</dt><dd>both — <em>sugar-free gum</em>; <em>the soda is sugar-free</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — noun + <em>-free</em> ('without')</dd><dt>Contrast</dt><dd>In compounds <em>-free</em> means 'without', not 'at no cost': <em>sugar-free</em> = без сахара, <em>tax-free</em> = без налога. <em>Sugar-free</em> food is usually sweetened with something else; <em>unsweetened</em> means nothing sweet was added, and <em>no sugar added</em> means the food may still contain natural sugar.</dd></dl>
+<p>Containing no sugar, often sweetened with something artificial instead.</p>
+<ol><li>Could I get a <em>sugar-free</em> vanilla latte?</li><li>The label says the candy is <em>sugar-free</em>, but it still has calories.</li><li>Chewing <em>sugar-free</em> gum after meals is good for your teeth.</li></ol>
+<hr>
+<h3 id="state-of-the-art">state-of-the-art<a class="hash" href="#state-of-the-art" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsteɪt əv ði ˈɑːrt/ &middot; <em>stayt uhv thee AHRT</em></dd><dt>Русский</dt><dd>новейший, передовой, самый современный</dd><dt>Type</dt><dd>compound — phrase used as an adjective</dd><dt>Position</dt><dd>both — hyphenated before a noun (<em>a state-of-the-art lab</em>); after a verb often written open (<em>the equipment is state of the art</em>)</dd><dt>Comparison</dt><dd>not gradable — <em>the most state-of-the-art</em> is heard in advertising but avoided in careful writing</dd><dt>Form</dt><dd>compound — noun phrase <em>the state of the art</em> turned into a modifier</dd><dt>Contrast</dt><dd>The noun phrase <em>the state of the art</em> means the current level of development in a field: <em>the state of the art in cancer research</em>. The adjective means 'the newest and best'. Russian <em>последнее слово техники</em> is usually <em>state-of-the-art</em> or <em>cutting-edge</em>.</dd></dl>
+<p>Using the newest and most advanced ideas, methods or technology.</p>
+<ol><li>The hospital just opened a <em>state-of-the-art</em> cancer center.</li><li>The gym's equipment is <em>state of the art</em>.</li><li>The team trains in a <em>state-of-the-art</em> facility outside Dallas.</li></ol>
+<hr>
+<h3 id="up-to-date">up-to-date<a class="hash" href="#up-to-date" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌp tə ˈdeɪt/ &middot; <em>up tuh DAYT</em></dd><dt>Русский</dt><dd>актуальный, свежий; современный; в курсе</dd><dt>Type</dt><dd>compound — phrase used as an adjective</dd><dt>Position</dt><dd>both — hyphenated before a noun (<em>up-to-date information</em>); after a verb usually written open (<em>the list is up to date</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more up-to-date</em>, <em>most up-to-date</em></dd><dt>Takes</dt><dd><em>on</em> or <em>with</em> + noun: <em>up to date on the news</em> (informed about), <em>up to date with your payments</em> or <em>on your shots</em> (not behind)</dd><dt>Form</dt><dd>compound — prepositional phrase <em>up to date</em> used as a modifier</dd><dt>Opposite</dt><dd><em>out-of-date</em></dd><dt>Contrast</dt><dd>Russian <em>актуальный</em> is <em>up-to-date</em> or <em>current</em>, never <em>actual</em>: <em>actual</em> means 'real' (<em>the actual price</em> = реальная цена). Common verb patterns: <em>keep someone up to date</em>, <em>bring something up to date</em>, <em>stay up to date on</em>.</dd></dl>
+<p>Up-to-date has 4 distinct senses.</p>
+<p><strong>1. Containing the latest information.</strong> (актуальный, свежий)</p>
+<ol><li>Make sure your résumé is <em>up to date</em> before you apply.</li><li>The app gives you <em>up-to-date</em> traffic reports.</li><li>This is the <em>most up-to-date</em> map we have.</li></ol>
+<p><strong>2. Of a person: knowing the latest news or developments.</strong> (в курсе, осведомлённый)</p>
+<ol start="4"><li>I try to stay <em>up to date</em> on local politics.</li><li>Keep me <em>up to date</em> on how the surgery goes.</li></ol>
+<p><strong>3. Done or paid when due, with nothing left overdue.</strong> (без задолженности; сделанный вовремя)</p>
+<ol start="6"><li>Is your dog <em>up to date</em> on its shots?</li><li>We're <em>up to date</em> with the rent now.</li></ol>
+<p><strong>4. Modern; using the newest methods, styles or equipment.</strong> (современный)</p>
+<ol start="8"><li>The kitchen needs <em>more up-to-date</em> appliances.</li><li>The school uses fairly <em>up-to-date</em> teaching methods.</li></ol>
+<hr>
+<h3 id="out-of-date">out-of-date<a class="hash" href="#out-of-date" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊt əv ˈdeɪt/ &middot; <em>owt uhv DAYT</em></dd><dt>Русский</dt><dd>устаревший; просроченный</dd><dt>Type</dt><dd>compound — phrase used as an adjective</dd><dt>Position</dt><dd>both — hyphenated before a noun (<em>out-of-date software</em>); after a verb usually written open (<em>the software is out of date</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more out-of-date</em>, <em>most out-of-date</em></dd><dt>Form</dt><dd>compound — prepositional phrase <em>out of date</em> used as a modifier</dd><dt>Opposite</dt><dd><em>up-to-date</em></dd><dt>Contrast</dt><dd>For passports, credit cards, licenses and food, Americans usually say <em>expired</em>: <em>expired milk</em>, <em>an expired passport</em>; <em>out-of-date milk</em> sounds British. <em>Outdated</em> is a close synonym of the first sense. Russian <em>просроченный</em> is therefore most often <em>expired</em>.</dd></dl>
+<p>Out-of-date has 2 distinct senses.</p>
+<p><strong>1. No longer modern, useful or correct because things have changed.</strong> (устаревший, неактуальный)</p>
+<ol><li>Our office still runs on <em>out-of-date</em> computers.</li><li>The phone number on the website is <em>out of date</em>.</li><li>This guidebook is even <em>more out of date</em> than the last one.</li></ol>
+<p><strong>2. Of a document or ticket: no longer valid because the date on it has passed.</strong> (просроченный, недействительный)</p>
+<ol start="4"><li>You can't fly with an <em>out-of-date</em> ID.</li><li>His license was <em>out of date</em>, so he got a ticket.</li></ol>
+<hr>
+<h3 id="last-minute">last-minute<a class="hash" href="#last-minute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlæstˈmɪnɪt/ &middot; <em>last-MIN-it</em></dd><dt>Русский</dt><dd>сделанный в последний момент; горящий (о туре)</dd><dt>Type</dt><dd>compound — adjective + noun</dd><dt>Position</dt><dd>attributive only — after a verb use <em>at the last minute</em>: <em>a last-minute change</em>, but <em>the plans changed at the last minute</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>last</em> + <em>minute</em></dd><dt>Contrast</dt><dd>After a verb, careful English uses the phrase <em>at the last minute</em>: <em>the plans changed at the last minute</em>; <em>it was all very last-minute</em> is casual speech. Russian <em>горящая путёвка</em> is <em>a last-minute deal</em>. <em>The last minute of the game</em> is an ordinary noun phrase meaning the final sixty seconds.</dd></dl>
+<p>Done, made, bought or happening at the latest possible time.</p>
+<ol><li>The mall is full of <em>last-minute</em> Christmas shoppers.</li><li>There were a few <em>last-minute</em> changes to the schedule.</li><li>We found a <em>last-minute</em> deal on a cruise to Mexico.</li></ol>
+<hr>
+<h3 id="middle-aged">middle-aged<a class="hash" href="#middle-aged" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɪdəlˈeɪdʒd/ &middot; <em>mid-uhl-AYJD</em></dd><dt>Русский</dt><dd>средних лет; для людей средних лет</dd><dt>Type</dt><dd>compound — adjective + <em>-ed</em> from <em>age</em>; also age</dd><dt>Position</dt><dd>both — <em>a middle-aged man</em>; <em>my parents are middle-aged</em></dd><dt>Comparison</dt><dd>not gradable — informal <em>more middle-aged</em> is possible in the 'unexciting' sense</dd><dt>Form</dt><dd>compound — <em>middle</em> + <em>aged</em> (adjective from the noun <em>age</em>)</dd><dt>Contrast</dt><dd><em>Middle-aged</em> has nothing to do with <em>the Middle Ages</em>: Russian <em>средневековый</em> is <em>medieval</em>. Here <em>aged</em> is one syllable /eɪdʒd/; the separate adjective <em>aged</em> meaning 'very old' (<em>aged parents</em>) is two syllables /ˈeɪdʒɪd/. <em>Middle-aged</em> usually means about 45 to 65.</dd></dl>
+<p>Middle-aged has 2 distinct senses.</p>
+<p><strong>1. Of a person: no longer young but not yet old, roughly between 45 and 65.</strong> (средних лет)</p>
+<ol><li>A <em>middle-aged</em> couple bought the house next door.</li><li>Most of the people at the concert were <em>middle-aged</em>.</li><li>The drug is tested mainly on <em>middle-aged</em> adults.</li></ol>
+<p><strong>2. Typical of middle-aged people, especially in being dull or conservative.</strong> (как у немолодых людей; скучный, консервативный)</p>
+<ol start="4"><li>Minivans have a <em>middle-aged</em> image he wanted to avoid.</li><li>Staying home on Friday night feels so <em>middle-aged</em>.</li></ol>
+<hr>
+<h3 id="left-handed">left-handed<a class="hash" href="#left-handed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlɛftˈhændɪd/ &middot; <em>left-HAN-did</em></dd><dt>Русский</dt><dd>леворукий; для левшей</dd><dt>Type</dt><dd>compound — adjective + noun + <em>-ed</em></dd><dt>Position</dt><dd>both — <em>a left-handed pitcher</em>; <em>she is left-handed</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>left</em> + <em>hand</em> + <em>-ed</em></dd><dt>Opposite</dt><dd><em>right-handed</em></dd><dt>Contrast</dt><dd>Russian <em>левша</em> is a noun, but English usually uses the adjective: <em>She is left-handed</em>, not <em>She is a left-handed</em>; the nouns are <em>a left-hander</em> or informal <em>a lefty</em>. <em>Left-hand</em> without <em>-ed</em> means 'on the left': <em>the left-hand lane</em>. A <em>left-handed compliment</em> (US) is a remark that sounds nice but is really an insult.</dd></dl>
+<p>Left-handed has 4 distinct senses.</p>
+<p><strong>1. Of a person: using the left hand more easily than the right.</strong> (леворукий, левша)</p>
+<ol><li>About one in ten people is <em>left-handed</em>.</li><li>The Dodgers need another <em>left-handed</em> pitcher.</li></ol>
+<p><strong>2. Made for, or done with, the left hand.</strong> (для левой руки, для левшей; левой рукой)</p>
+<ol start="3"><li>Do you have any <em>left-handed</em> scissors?</li><li>He learned to play on a <em>left-handed</em> guitar.</li></ol>
+<p><strong>3. Of a compliment: seeming to praise but really meant as criticism.</strong> (сомнительный, двусмысленный (о комплименте))</p>
+<ol start="5"><li>"You look great for your age" is a <em>left-handed</em> compliment.</li><li>Calling her essay "surprisingly good" was a pretty <em>left-handed</em> compliment.</li></ol>
+<p><strong>4. Of a screw thread: tightened by turning counterclockwise.</strong> (с левой резьбой)</p>
+<ol start="7"><li>The left pedal has a <em>left-handed</em> thread, so you loosen it clockwise.</li><li>Some gas fittings use <em>left-handed</em> threads so they can't be mixed up.</li></ol>
+<hr>
+<h3 id="right-handed">right-handed<a class="hash" href="#right-handed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌraɪtˈhændɪd/ &middot; <em>ryt-HAN-did</em></dd><dt>Русский</dt><dd>праворукий; для правой руки</dd><dt>Type</dt><dd>compound — adjective + noun + <em>-ed</em></dd><dt>Position</dt><dd>both — <em>a right-handed batter</em>; <em>most people are right-handed</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>right</em> + <em>hand</em> + <em>-ed</em></dd><dt>Opposite</dt><dd><em>left-handed</em></dd><dt>Contrast</dt><dd><em>Right-hand</em> without <em>-ed</em> means 'on the right' (<em>the right-hand side</em>), and <em>your right-hand man</em> is your most trusted helper, not someone who uses the right hand. Russian <em>правша</em> is a noun, but English says <em>He is right-handed</em>; the noun <em>a right-hander</em> is used mostly in sports.</dd></dl>
+<p>Right-handed has 3 distinct senses.</p>
+<p><strong>1. Of a person: using the right hand more easily than the left.</strong> (праворукий, правша)</p>
+<ol><li>I'm <em>right-handed</em>, but I kick with my left foot.</li><li>The Cubs are facing a <em>right-handed</em> pitcher tonight.</li></ol>
+<p><strong>2. Made for, or done with, the right hand.</strong> (для правой руки; правой рукой)</p>
+<ol start="3"><li>Most golf clubs in the store are <em>right-handed</em>.</li><li>Desks with a <em>right-handed</em> writing surface are hard for lefties.</li></ol>
+<p><strong>3. Of a screw thread: tightened by turning clockwise, as most are.</strong> (с правой резьбой)</p>
+<ol start="5"><li>Almost every bolt you buy has a <em>right-handed</em> thread.</li><li>The right pedal is <em>right-handed</em>, so it loosens counterclockwise.</li></ol>
+<hr>
+<h3 id="good-looking">good-looking<a class="hash" href="#good-looking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɡʊdˈlʊkɪŋ/ &middot; <em>guud-LUUK-ing</em></dd><dt>Русский</dt><dd>красивый, симпатичный, привлекательный</dd><dt>Type</dt><dd>compound — adjective + present participle; also evaluative</dd><dt>Position</dt><dd>both — <em>a good-looking guy</em>; <em>he's really good-looking</em></dd><dt>Comparison</dt><dd>irregular — <em>better-looking</em>, <em>best-looking</em></dd><dt>Form</dt><dd>compound — <em>good</em> + <em>looking</em></dd><dt>Opposite</dt><dd><em>unattractive</em>; <em>ugly</em></dd><dt>Contrast</dt><dd><em>Good-looking</em> is about how attractive someone is by nature; <em>looking good</em> (verb + adjective) is about how they look right now: <em>You're looking good!</em> = отлично выглядишь. <em>Good-looking</em> suits men and women; <em>handsome</em> is mostly for men and <em>pretty</em> mostly for women. The comparative is <em>better-looking</em>, not <em>more good-looking</em>.</dd></dl>
+<p>Attractive in appearance, of a person or sometimes a thing.</p>
+<ol><li>Her brother is a very <em>good-looking</em> guy.</li><li>That's a <em>good-looking</em> truck — is it new?</li><li>He's even <em>better-looking</em> in person than on TV.</li></ol>
+<hr>
+<h3 id="easy-going">easy-going<a class="hash" href="#easy-going" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌiːziˈɡoʊɪŋ/ &middot; <em>ee-zee-GOH-ing</em></dd><dt>Русский</dt><dd>покладистый, спокойный; непринуждённый</dd><dt>Type</dt><dd>compound — adjective + present participle; also quality</dd><dt>Position</dt><dd>both — <em>an easy-going boss</em>; <em>my roommate is pretty easy-going</em></dd><dt>Comparison</dt><dd>more/most — <em>more easy-going</em>, <em>most easy-going</em></dd><dt>Form</dt><dd>compound — <em>easy</em> + <em>going</em></dd><dt>Opposite</dt><dd><em>uptight</em>; <em>demanding</em></dd><dt>Contrast</dt><dd>American dictionaries usually spell it as one word, <em>easygoing</em>; the hyphen is also seen. Russian <em>лёгкий человек</em> is <em>easy-going</em> or <em>easy to get along with</em>, never <em>an easy person</em> or <em>she is easy</em>, which can sound insulting about a woman.</dd></dl>
+<p>Easy-going has 2 distinct senses.</p>
+<p><strong>1. Of a person: relaxed, not easily upset, worried or annoyed.</strong> (покладистый, спокойный, лёгкий в общении)</p>
+<ol><li>My dad is <em>easy-going</em> about most things except grades.</li><li>She's one of the <em>most easy-going</em> people I've ever worked with.</li><li>We need an <em>easy-going</em> dog that's good with kids.</li></ol>
+<p><strong>2. Of a place, pace or style: relaxed and informal.</strong> (непринуждённый, неторопливый)</p>
+<ol start="4"><li>The town has an <em>easy-going</em> beach atmosphere.</li><li>The office is <em>easy-going</em>, and nobody wears a tie.</li></ol>
+<hr>
+<h3 id="open-minded">open-minded<a class="hash" href="#open-minded" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊpənˈmaɪndɪd/ &middot; <em>oh-puhn-MYN-did</em></dd><dt>Русский</dt><dd>непредубеждённый, широких взглядов, открытый новому</dd><dt>Type</dt><dd>compound — adjective + noun + <em>-ed</em>; also quality</dd><dt>Position</dt><dd>both — <em>an open-minded teacher</em>; <em>try to be open-minded</em></dd><dt>Comparison</dt><dd>more/most — <em>more open-minded</em>, <em>most open-minded</em></dd><dt>Takes</dt><dd><em>about</em> + noun or <em>-ing</em> (the subject); <em>toward</em> + noun (people or ideas)</dd><dt>Form</dt><dd>compound — <em>open</em> + <em>mind</em> + <em>-ed</em></dd><dt>Opposite</dt><dd><em>narrow-minded</em>; <em>closed-minded</em></dd><dt>Contrast</dt><dd>Russian <em>открытый человек</em> usually means sociable or frank: <em>outgoing</em>, <em>open</em> or <em>friendly</em>. <em>Open-minded</em> means willing to accept new ideas and people without prejudice.</dd></dl>
+<p>Willing to listen to and consider ideas and ways of life different from your own.</p>
+<ol><li>My grandparents are surprisingly <em>open-minded</em> about politics.</li><li>An <em>open-minded</em> hiring manager will look past the gap in your résumé.</li><li>Travel has made her <em>more open-minded</em> toward other cultures.</li></ol>
+<hr>
+<h3 id="absent-minded">absent-minded<a class="hash" href="#absent-minded" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌæbsəntˈmaɪndɪd/ &middot; <em>ab-suhnt-MYN-did</em></dd><dt>Русский</dt><dd>рассеянный</dd><dt>Type</dt><dd>compound — adjective + noun + <em>-ed</em>; also quality</dd><dt>Position</dt><dd>both — <em>an absent-minded professor</em>; <em>he's getting absent-minded</em></dd><dt>Comparison</dt><dd>more/most — <em>more absent-minded</em>, <em>most absent-minded</em></dd><dt>Form</dt><dd>compound — <em>absent</em> + <em>mind</em> + <em>-ed</em></dd><dt>Contrast</dt><dd><em>Absent</em> alone means 'not present' (отсутствующий): <em>absent from school</em>. Russian <em>рассеянный</em> about a person is <em>absent-minded</em>; about light it is <em>diffuse</em> or <em>scattered</em>.</dd></dl>
+<p>Tending to forget things or not notice what you are doing because you are thinking about something else.</p>
+<ol><li>My <em>absent-minded</em> uncle once drove home without his wife.</li><li>I'm so <em>absent-minded</em> lately that I left my keys in the fridge.</li><li>He's gotten <em>more absent-minded</em> since he started the new job.</li></ol>
+<hr>
+<h3 id="broken-hearted">broken-hearted<a class="hash" href="#broken-hearted" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbroʊkənˈhɑːrtɪd/ &middot; <em>broh-kuhn-HAHR-tid</em></dd><dt>Русский</dt><dd>убитый горем, с разбитым сердцем</dd><dt>Type</dt><dd>compound — past participle + noun + <em>-ed</em>; also emotion</dd><dt>Position</dt><dd>both — <em>a broken-hearted widow</em>; <em>she was broken-hearted</em></dd><dt>Comparison</dt><dd>more/most — <em>more broken-hearted</em>, <em>most broken-hearted</em>; rare — usually strengthened with <em>completely</em> or <em>absolutely</em></dd><dt>Takes</dt><dd><em>about</em> or <em>over</em> + noun (the cause)</dd><dt>Form</dt><dd>compound — <em>broken</em> + <em>heart</em> + <em>-ed</em></dd><dt>Contrast</dt><dd><em>Heartbroken</em> means the same and is more common in everyday American English; <em>broken-hearted</em> sounds a little more literary. The noun phrase is <em>a broken heart</em>: <em>He has a broken heart</em> = <em>He is broken-hearted</em>.</dd></dl>
+<p>Extremely sad, especially because someone you love has left you or died.</p>
+<ol><li>She was <em>broken-hearted</em> when her dog died.</li><li>The song is about a <em>broken-hearted</em> cowboy.</li><li>Fans were <em>broken-hearted</em> over the team's move to another city.</li></ol>
+<hr>
+<h3 id="kind-hearted">kind-hearted<a class="hash" href="#kind-hearted" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkaɪndˈhɑːrtɪd/ &middot; <em>kynd-HAHR-tid</em></dd><dt>Русский</dt><dd>добросердечный, добрый</dd><dt>Type</dt><dd>compound — adjective + noun + <em>-ed</em>; also quality</dd><dt>Position</dt><dd>both — <em>a kind-hearted nurse</em>; <em>he's kind-hearted</em></dd><dt>Comparison</dt><dd>more/most — <em>more kind-hearted</em>, <em>most kind-hearted</em></dd><dt>Form</dt><dd>compound — <em>kind</em> + <em>heart</em> + <em>-ed</em></dd><dt>Opposite</dt><dd><em>cruel</em>; <em>hard-hearted</em></dd><dt>Contrast</dt><dd><em>Kind</em> can describe one action (<em>That was kind of you</em>); <em>kind-hearted</em> describes a person's character. Do not confuse either with <em>kind of</em>, which means 'somewhat' (<em>kind of tired</em>).</dd></dl>
+<p>Having a kind and caring nature.</p>
+<ol><li>A <em>kind-hearted</em> stranger paid for our groceries.</li><li>Deep down, he's gentle and <em>kind-hearted</em>.</li><li>She's the <em>most kind-hearted</em> person in our family.</li></ol>
+<hr>
+<h3 id="old-fashioned">old-fashioned<a class="hash" href="#old-fashioned" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊldˈfæʃənd/ &middot; <em>ohld-FASH-uhnd</em></dd><dt>Русский</dt><dd>старомодный; традиционный</dd><dt>Type</dt><dd>compound — adjective + past participle; also evaluative</dd><dt>Position</dt><dd>both — <em>an old-fashioned phone</em>; <em>his ideas are old-fashioned</em></dd><dt>Comparison</dt><dd>more/most — <em>more old-fashioned</em>, <em>most old-fashioned</em></dd><dt>Form</dt><dd>compound — <em>old</em> + <em>fashioned</em></dd><dt>Opposite</dt><dd><em>modern</em>; <em>fashionable</em></dd><dt>Contrast</dt><dd>It can be praise: <em>good old-fashioned hard work</em> = старый добрый упорный труд. <em>An Old Fashioned</em> (no hyphen, capitalized) is a noun — a whiskey cocktail. <em>Old</em> alone is about age; <em>old-fashioned</em> is about style or ideas.</dd></dl>
+<p>Old-fashioned has 3 distinct senses.</p>
+<p><strong>1. No longer modern or in fashion.</strong> (старомодный, устаревший)</p>
+<ol><li>Her parents still have an <em>old-fashioned</em> TV with an antenna.</li><li>That hairstyle looks a little <em>old-fashioned</em> now.</li></ol>
+<p><strong>2. Of a person or their views: following traditional ideas about how people should live and behave.</strong> (старомодный, консервативный)</p>
+<ol start="3"><li>Call me <em>old-fashioned</em>, but I think you should write a thank-you note.</li><li>My grandfather is <em>more old-fashioned</em> about dating than my dad.</li></ol>
+<p><strong>3. Traditional in a good way, like things used to be.</strong> (старый добрый, традиционный)</p>
+<ol start="5"><li>The diner still makes <em>old-fashioned</em> milkshakes.</li><li>What this team needs is some good <em>old-fashioned</em> defense.</li></ol>
+<hr>
+<h3 id="brand-new">brand-new<a class="hash" href="#brand-new" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbrændˈnuː/ &middot; <em>brand-NOO</em></dd><dt>Русский</dt><dd>совершенно новый, новенький</dd><dt>Type</dt><dd>compound — noun + adjective; also age</dd><dt>Position</dt><dd>both — hyphenated before a noun (<em>a brand-new car</em>); after a verb often written open (<em>the car is brand new</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>brand</em> + <em>new</em></dd><dt>Contrast</dt><dd>Word order matters: <em>a brand-new car</em> = новенькая машина; <em>a new brand of car</em> = новая марка машины. <em>Brand</em> here is the old word for a burning piece of wood (as new as metal fresh from the fire), not the modern 'company brand'.</dd></dl>
+<p>Brand-new has 2 distinct senses.</p>
+<p><strong>1. Completely new: never used before, or only just made or launched.</strong> (новенький, с иголочки; совершенно новый)</p>
+<ol><li>He showed up in a <em>brand-new</em> pickup truck.</li><li>The shoes are <em>brand new</em> — I've never worn them.</li><li>The network is launching a <em>brand-new</em> comedy series this fall.</li></ol>
+<p><strong>2. Of a person: having only just started or arrived.</strong> (только что пришедший, новенький)</p>
+<ol start="4"><li>Go easy on her; she's <em>brand new</em> here.</li><li>The <em>brand-new</em> coach hasn't picked a starting quarterback yet.</li></ol>
+<hr>
+<h3 id="so-called">so-called<a class="hash" href="#so-called" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsoʊˈkɔːld/ &middot; <em>soh-KAWLD</em></dd><dt>Русский</dt><dd>так называемый</dd><dt>Type</dt><dd>compound — adverb + past participle; also evaluative</dd><dt>Position</dt><dd>attributive only — <em>my so-called friends</em>; after a verb say <em>what is called</em> or <em>known as</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>so</em> + past participle <em>called</em></dd><dt>Contrast</dt><dd>Russian <em>так называемый</em> is often neutral, but English <em>so-called</em> usually shows doubt or sarcasm: <em>the so-called experts</em> means you don't think they are experts. For a neutral term, <em>known as</em> or <em>what is called</em> is safer. Do not add quotation marks as well: <em>the so-called experts</em>, not <em>the so-called "experts"</em>.</dd></dl>
+<p>So-called has 2 distinct senses.</p>
+<p><strong>1. Used to show that you think a name or description is wrong or not deserved.</strong> (так называемый (с иронией, недоверием))</p>
+<ol><li>My <em>so-called</em> best friend didn't even come to my party.</li><li>These <em>so-called</em> diet pills are a waste of money.</li><li>The <em>so-called</em> experts got the election completely wrong.</li></ol>
+<p><strong>2. Used neutrally to introduce the name that is commonly used for something.</strong> (так называемый)</p>
+<ol start="4"><li>The disease hits hardest in the <em>so-called</em> Stroke Belt of the South.</li><li>The bill targets <em>so-called</em> forever chemicals in drinking water.</li></ol>
+<hr>
+<h3 id="one-way">one-way<a class="hash" href="#one-way" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwʌnˈweɪ/ &middot; <em>wun-WAY</em></dd><dt>Русский</dt><dd>односторонний; в один конец</dd><dt>Type</dt><dd>compound — number + noun; also classifying</dd><dt>Position</dt><dd>both — mostly before a noun: <em>a one-way street</em>; after a verb: <em>this street is one-way</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>one</em> + <em>way</em></dd><dt>Opposite</dt><dd><em>two-way</em> (street, communication); <em>round-trip</em> (ticket)</dd><dt>Contrast</dt><dd>Americans buy <em>a one-way ticket</em> and <em>a round-trip ticket</em>; the British <em>single</em> and <em>return</em> sound foreign in the US. Like every number compound, the noun inside stays singular: <em>a one-way street</em>, <em>a five-year plan</em>, <em>a ten-dollar bill</em>, never <em>a five-years plan</em>. <em>A one-way street</em> is also a noun phrase for a relationship where only one side gives.</dd></dl>
+<p>One-way has 3 distinct senses.</p>
+<p><strong>1. Of a street or traffic: moving in only one direction.</strong> (с односторонним движением)</p>
+<ol><li>You can't turn left there; it's a <em>one-way</em> street.</li><li>Most of the streets downtown are <em>one-way</em>.</li></ol>
+<p><strong>2. Of a ticket, fare or trip: for traveling to a place but not back.</strong> (в один конец)</p>
+<ol start="3"><li>A <em>one-way</em> ticket to Denver costs almost as much as a round trip.</li><li>She booked a <em>one-way</em> flight and never came back.</li></ol>
+<p><strong>3. Going or working in one direction only; not shared by both sides.</strong> (односторонний)</p>
+<ol start="5"><li>The meeting was a <em>one-way</em> conversation — the boss talked and we listened.</li><li>Police watched the interview through a <em>one-way</em> mirror.</li></ol>
+<hr>
+<h3 id="first-class">first-class<a class="hash" href="#first-class" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfɜːrstˈklæs/ &middot; <em>furst-KLAS</em></dd><dt>Русский</dt><dd>первоклассный; первого класса</dd><dt>Type</dt><dd>compound — ordinal + noun; also evaluative</dd><dt>Position</dt><dd>both — the travel and mail senses mostly before a noun (<em>a first-class seat</em>); 'excellent' in both positions (<em>the service was first-class</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>first</em> + <em>class</em></dd><dt>Contrast</dt><dd>In <em>We flew first class</em> the words are an adverb phrase, usually without a hyphen. Russian <em>первоклассник</em> is <em>a first grader</em>, not <em>a first-class student</em>, which would mean an excellent student. <em>First-rate</em> is a synonym of the 'excellent' sense.</dd></dl>
+<p>First-class has 3 distinct senses.</p>
+<p><strong>1. Of travel: in the most expensive and comfortable section of a plane or train.</strong> (первого класса)</p>
+<ol><li>He got a free upgrade to a <em>first-class</em> seat.</li><li><em>First-class</em> passengers board before everyone else.</li></ol>
+<p><strong>2. Excellent; of the highest quality.</strong> (первоклассный, превосходный)</p>
+<ol start="3"><li>The hospital has a <em>first-class</em> heart surgery team.</li><li>The food was good, but the service was <em>first-class</em>.</li></ol>
+<p><strong>3. Of US mail: in the standard class used for letters and small packages.</strong> (первого класса (о почтовом отправлении))</p>
+<ol start="5"><li>A <em>first-class</em> stamp covers a letter up to one ounce.</li><li>Send the check by <em>first-class</em> mail.</li></ol>
+<hr>
+<h3 id="second-hand">second-hand<a class="hash" href="#second-hand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛkəndˈhænd/ &middot; <em>sek-uhnd-HAND</em></dd><dt>Русский</dt><dd>подержанный, б/у; из вторых рук</dd><dt>Type</dt><dd>compound — ordinal + noun; also classifying</dd><dt>Position</dt><dd>both — <em>a second-hand car</em>; <em>all her furniture is second-hand</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>second</em> + <em>hand</em></dd><dt>Opposite</dt><dd><em>new</em>; <em>firsthand</em> (information)</dd><dt>Contrast</dt><dd>American dictionaries and most US writing spell it as one word, <em>secondhand</em>. In <em>I bought it second-hand</em> it is an adverb. Russian <em>секонд-хенд</em> (the store) is <em>a thrift store</em> or <em>a secondhand store</em> in American English — <em>a second-hand</em> alone is not a noun. <em>The second hand</em> (two words) is the hand on a clock that counts seconds.</dd></dl>
+<p>Second-hand has 3 distinct senses.</p>
+<p><strong>1. Owned or used by someone else before; not new.</strong> (подержанный, б/у)</p>
+<ol><li>We furnished our first apartment with <em>second-hand</em> furniture.</li><li>Most of the textbooks I bought were <em>second-hand</em>.</li><li>There's a great <em>second-hand</em> bookstore near campus.</li></ol>
+<p><strong>2. Of information: heard from other people, not seen or learned directly.</strong> (из вторых рук, с чужих слов)</p>
+<ol start="4"><li>The report is based on <em>second-hand</em> accounts from neighbors.</li><li>My knowledge of the war is all <em>second-hand</em>.</li></ol>
+<p><strong>3. Reaching you because of what other people do, especially in <em>second-hand smoke</em>.</strong> (пассивный (о курении); испанский (о стыде))</p>
+<ol start="6"><li><em>Second-hand</em> smoke is dangerous for young children.</li><li>Watching his awkward speech gave me <em>second-hand</em> embarrassment.</li></ol>
+<hr>
+<h3 id="long-distance">long-distance<a class="hash" href="#long-distance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlɔːŋˈdɪstəns/ &middot; <em>lawng-DIS-tuhns</em></dd><dt>Русский</dt><dd>дальний, на большие расстояния; междугородний</dd><dt>Type</dt><dd>compound — adjective + noun; also classifying</dd><dt>Position</dt><dd>both — mostly before a noun: <em>a long-distance runner</em>; after a verb in US speech: <em>Is the call long-distance?</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>long</em> + <em>distance</em></dd><dt>Contrast</dt><dd>In <em>call long-distance</em> it is an adverb. Russian <em>дальнобойщик</em> is <em>a long-haul trucker</em> or <em>long-distance trucker</em>. Working from home far away is <em>remote work</em>, not <em>long-distance work</em>. Russian <em>отношения на расстоянии</em> is <em>a long-distance relationship</em>.</dd></dl>
+<p>Long-distance has 3 distinct senses.</p>
+<p><strong>1. Traveling or covering a long distance.</strong> (дальний, на большие расстояния)</p>
+<ol><li>He trained for years as a <em>long-distance</em> runner.</li><li><em>Long-distance</em> truck drivers spend weeks away from home.</li><li>The airline is adding more <em>long-distance</em> flights to Asia.</li></ol>
+<p><strong>2. Of a phone call: between places far apart, usually costing more.</strong> (междугородний)</p>
+<ol start="4"><li>In the '80s, a <em>long-distance</em> call to Grandma was a big deal.</li><li>Is it still <em>long-distance</em> if you call from a cell phone?</li></ol>
+<p><strong>3. Of a relationship: between people who live far away from each other.</strong> (на расстоянии)</p>
+<ol start="6"><li>They had a <em>long-distance</em> relationship all through college.</li><li>Keeping a <em>long-distance</em> friendship going takes effort.</li></ol>
+<hr>
+<h3 id="self-confident">self-confident<a class="hash" href="#self-confident" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛlfˈkɑːnfɪdənt/ &middot; <em>self-KAHN-fi-duhnt</em></dd><dt>Русский</dt><dd>уверенный в себе</dd><dt>Type</dt><dd>compound — <em>self-</em> + adjective; also quality</dd><dt>Position</dt><dd>both — <em>a self-confident speaker</em>; <em>she's very self-confident</em></dd><dt>Comparison</dt><dd>more/most — <em>more self-confident</em>, <em>most self-confident</em></dd><dt>Form</dt><dd><em>self-</em> + <em>confident</em></dd><dt>Opposite</dt><dd><em>insecure</em>; <em>unsure of yourself</em></dd><dt>Contrast</dt><dd><em>Self-confident</em> is praise = уверенный в себе. Russian <em>самоуверенный</em> is criticism and is <em>overconfident</em>, <em>cocky</em> or <em>arrogant</em> in English. Do not confuse it with <em>self-conscious</em>, which means shy and worried about how you look to others (стеснительный).</dd></dl>
+<p>Sure of your own abilities and value.</p>
+<ol><li>She's a <em>self-confident</em> young woman who isn't afraid to speak up.</li><li>He seemed relaxed and <em>self-confident</em> in the interview.</li><li>Playing on a team made my son much <em>more self-confident</em>.</li></ol>
+<hr>
+<h3 id="time-consuming">time-consuming<a class="hash" href="#time-consuming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪmkənˌsuːmɪŋ/ &middot; <em>TYM-kuhn-soo-ming</em></dd><dt>Русский</dt><dd>отнимающий много времени, трудоёмкий</dd><dt>Type</dt><dd>compound — noun + present participle</dd><dt>Position</dt><dd>both — <em>a time-consuming process</em>; <em>the paperwork is time-consuming</em></dd><dt>Comparison</dt><dd>more/most — <em>more time-consuming</em>, <em>most time-consuming</em></dd><dt>Form</dt><dd>compound — noun <em>time</em> + <em>consuming</em> (what it uses up)</dd><dt>Contrast</dt><dd>It means 'taking a lot of time', not 'wasting time': a <em>time-consuming</em> job can be worth it. It often comes in <em>it is time-consuming to</em> + verb. Russian <em>трудоёмкий</em> stresses effort, and English may need <em>labor-intensive</em> instead.</dd></dl>
+<p>Taking a lot of time to do.</p>
+<ol><li>Refinishing the floors was a long, <em>time-consuming</em> job.</li><li>Applying for a visa is expensive and <em>time-consuming</em>.</li><li>Grading essays is the <em>most time-consuming</em> part of teaching.</li></ol>
+<hr>
+<h3 id="hard-working">hard-working<a class="hash" href="#hard-working" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhɑːrdˈwɜːrkɪŋ/ &middot; <em>hahrd-WUR-king</em></dd><dt>Русский</dt><dd>трудолюбивый, работящий</dd><dt>Type</dt><dd>compound — adjective + present participle; also quality</dd><dt>Position</dt><dd>both — <em>a hard-working student</em>; <em>her parents are hard-working</em></dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>harder-working</em>, <em>hardest-working</em>; <em>more hard-working</em>, <em>most hard-working</em></dd><dt>Form</dt><dd>compound — <em>hard</em> + <em>working</em></dd><dt>Opposite</dt><dd><em>lazy</em></dd><dt>Contrast</dt><dd>American dictionaries usually spell it as one word, <em>hardworking</em>. The superlative is usually <em>hardest-working</em> (<em>the hardest-working man in show business</em>), though <em>most hardworking</em> is also correct. The adjective describes a person; the verb phrase is <em>work hard</em> (adverb): <em>She works hard</em> = <em>She is hard-working</em> = <em>She is a hard worker</em>. <em>Hardly working</em> is a joke meaning 'almost not working'.</dd></dl>
+<p>Putting a lot of effort and care into work.</p>
+<ol><li>The town is full of <em>hard-working</em> families.</li><li>My grandmother was honest and <em>hard-working</em> her whole life.</li><li>He's the <em>hardest-working</em> guy on the crew.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

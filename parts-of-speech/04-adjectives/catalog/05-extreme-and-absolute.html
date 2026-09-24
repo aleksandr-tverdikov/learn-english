@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Extreme and absolute adjectives</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="extreme-and-absolute-adjectives">Extreme and absolute adjectives<a class="hash" href="#extreme-and-absolute-adjectives" aria-label="link">#</a></h1>
+<blockquote><p><em>freezing</em>, <em>huge</em>, <em>delicious</em>, <em>unique</em>, <em>dead</em> — adjectives that already mean <em>very</em>, or that are simply true or not.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>Extreme adjectives already contain <em>very</em> — <em>freezing</em> means <em>very cold</em> — so they take <em>absolutely</em>, <em>completely</em> or <em>really</em>, never <em>very</em>: <em>absolutely freezing</em>, not <em>very freezing</em>. Absolute adjectives name a state that is either true or not (<em>dead</em>, <em>unique</em>, <em>pregnant</em>) and resist comparison, although real American usage bends that rule, and the entries say where.</p>
+<hr>
+<h3 id="huge">huge<a class="hash" href="#huge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hjuːdʒ/ &middot; <em>HYOOJ</em></dd><dt>Русский</dt><dd>огромный</dd><dt>Type</dt><dd>size</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — extreme, it already means <em>very big</em>: <em>absolutely huge</em>, <em>really huge</em>; <em>huger</em> and <em>hugest</em> exist but are rare — say <em>much bigger</em> or <em>the biggest</em></dd><dt>Contrast</dt><dd><em>Huge</em> already contains <em>very</em>, so <em>very huge</em> sounds like a learner: say <em>really huge</em>, <em>absolutely huge</em> or simply <em>very big</em>. <em>A huge fan</em> is someone who likes something a lot, not a large person.</dd></dl>
+<p>Huge has 2 distinct senses.</p>
+<p><strong>1. Extremely large in size, amount or degree.</strong> (огромный, громадный)</p>
+<ol><li>They live in a <em>huge</em> house outside Dallas.</li><li>The difference in price was <em>huge</em>.</li><li>Thanks — that's a <em>huge</em> help.</li></ol>
+<p><strong>2. Very popular, successful or important, informal.</strong> (очень популярный; очень важный)</p>
+<ol start="4"><li>The band is still <em>huge</em> in Japan.</li><li>Podcasts got <em>huge</em> in just a few years.</li><li>Winning that contract is <em>huge</em> for a small company like ours.</li></ol>
+<hr>
+<h3 id="tiny">tiny<a class="hash" href="#tiny" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪni/ &middot; <em>TY-nee</em></dd><dt>Русский</dt><dd>крошечный</dd><dt>Type</dt><dd>size</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>tinier</em>, <em>tiniest</em></dd><dt>Contrast</dt><dd><em>Tiny</em> is the extreme of <em>small</em>, so it goes more naturally with <em>really</em> or <em>absolutely</em> than with <em>very</em>, though <em>very tiny</em> is heard in speech. Americans often double it for effect: <em>a tiny little dog</em>, <em>teeny-tiny</em>. The <em>y</em> changes to <em>i</em> before <em>-er</em> and <em>-est</em>: <em>tinier</em>, <em>tiniest</em>.</dd></dl>
+<p>Extremely small.</p>
+<ol><li>They rented a <em>tiny</em> apartment in Manhattan.</li><li>The print on the label was <em>tiny</em>.</li><li>She noticed even the <em>tiniest</em> mistake.</li></ol>
+<hr>
+<h3 id="enormous">enormous<a class="hash" href="#enormous" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈnɔːrməs/ &middot; <em>ih-NOR-muhs</em></dd><dt>Русский</dt><dd>огромный</dd><dt>Type</dt><dd>size</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>absolutely enormous</em>, not <em>very enormous</em>; <em>more enormous</em> is rare — say <em>even bigger</em></dd><dt>Contrast</dt><dd>Extreme, so not <em>very enormous</em>: say <em>absolutely enormous</em> or <em>really enormous</em>, and use the adverb <em>enormously</em> to intensify other words (<em>enormously popular</em>). The noun <em>enormity</em> is a trap: careful writers keep it for great wickedness (<em>the enormity of the crime</em>) and object to <em>the enormity of the task</em> when only size is meant.</dd></dl>
+<p>Extremely large in size, amount or degree.</p>
+<ol><li>An <em>enormous</em> truck blocked the whole street.</li><li>The pressure on the team was <em>enormous</em>.</li><li>She's made an <em>enormous</em> difference at this school.</li></ol>
+<hr>
+<h3 id="gigantic">gigantic<a class="hash" href="#gigantic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒaɪˈɡæntɪk/ &middot; <em>jy-GAN-tik</em></dd><dt>Русский</dt><dd>гигантский</dd><dt>Type</dt><dd>size</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>absolutely gigantic</em>, not <em>very gigantic</em></dd><dt>Contrast</dt><dd>Extreme, so not <em>very gigantic</em>. <em>Giant</em> also works as an adjective, but only before a noun (<em>a giant step</em>, <em>giant waves</em>); after <em>be</em> use <em>gigantic</em> or <em>huge</em>: <em>The waves were gigantic</em>, not <em>The waves were giant</em>.</dd></dl>
+<p>Extremely large; much bigger than usual.</p>
+<ol><li>A <em>gigantic</em> wave crashed over the pier.</li><li>The new mall is <em>gigantic</em>.</li><li>We ordered a <em>gigantic</em> pizza for the whole team.</li></ol>
+<hr>
+<h3 id="freezing">freezing<a class="hash" href="#freezing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfriːzɪŋ/ &middot; <em>FREE-zing</em></dd><dt>Русский</dt><dd>ледяной; очень холодный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — sense 3 only before a noun (<em>freezing rain</em>, <em>freezing temperatures</em>)</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>absolutely freezing</em>, not <em>very freezing</em></dd><dt>Form</dt><dd>-ing form of <em>freeze</em></dd><dt>Contrast</dt><dd>Extreme, so <em>It's absolutely freezing</em>, not <em>very freezing</em>. <em>I'm freezing</em> means I feel very cold; <em>frozen</em> food or a <em>frozen</em> lake has actually turned to ice. In <em>freezing cold</em> the word works like an adverb meaning <em>extremely</em> (<em>freezing cold water</em>). In the United States the freezing point in a forecast is 32°F.</dd></dl>
+<p>Freezing has 3 distinct senses.</p>
+<p><strong>1. Extremely cold, of the weather, a place, water or a part of the body.</strong> (ледяной, морозный, очень холодный)</p>
+<ol><li>It's <em>freezing</em> out there — wear a hat.</li><li>We jumped into the <em>freezing</em> water of Lake Superior.</li><li>My hands are <em>freezing</em>.</li></ol>
+<p><strong>2. Feeling very cold, of a person.</strong> (замёрзший (мне очень холодно))</p>
+<ol start="4"><li>Can you close the window? I'm <em>freezing</em>.</li><li>The kids came in from the snow <em>freezing</em> and hungry.</li></ol>
+<p><strong>3. At or below 32°F (0°C), the temperature at which water turns to ice.</strong> (минусовой; ледяной (о дожде))</p>
+<ol start="6"><li><em>Freezing</em> temperatures are expected in Atlanta tonight.</li><li>Drive carefully — there's <em>freezing</em> rain on the roads.</li></ol>
+<hr>
+<h3 id="boiling">boiling<a class="hash" href="#boiling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔɪlɪŋ/ &middot; <em>BOY-ling</em></dd><dt>Русский</dt><dd>очень горячий; кипящий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — the heat sense usually after <em>be</em> (<em>It's boiling in here</em>); the sense of water or oil at boiling point only before a noun (<em>boiling water</em>)</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>absolutely boiling</em>, not <em>very boiling</em></dd><dt>Form</dt><dd>-ing form of <em>boil</em></dd><dt>Contrast</dt><dd>Extreme, so not <em>very boiling</em>. <em>Boiling water</em> is still bubbling (Russian <em>кипяток</em>); <em>boiled water</em> has been boiled and may have cooled (<em>кипячёная вода</em>), and a <em>boiled egg</em> is cooked. In <em>boiling hot</em> and <em>boiling mad</em> the word works like an adverb meaning <em>extremely</em>.</dd></dl>
+<p>Boiling has 2 distinct senses.</p>
+<p><strong>1. Extremely hot, of the weather, a place or a person, informal.</strong> (очень жаркий, раскалённый (мне жарко))</p>
+<ol><li>It's <em>boiling</em> in here — can we turn on the AC?</li><li>I was <em>boiling</em> in that wool sweater.</li><li>We waited two hours on a <em>boiling</em> sidewalk in Phoenix.</li></ol>
+<p><strong>2. Heated to the point where it bubbles and turns to steam.</strong> (кипящий)</p>
+<ol start="4"><li>Drop the pasta into <em>boiling</em> water.</li><li>Pour the <em>boiling</em> water over the tea bags and wait three minutes.</li></ol>
+<hr>
+<h3 id="starving">starving<a class="hash" href="#starving" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːrvɪŋ/ &middot; <em>STAHR-ving</em></dd><dt>Русский</dt><dd>умирающий с голоду; голодающий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>absolutely starving</em>, not <em>very starving</em></dd><dt>Takes</dt><dd><em>for</em> + noun — wanting something badly (<em>starving for attention</em>)</dd><dt>Form</dt><dd>-ing form of <em>starve</em></dd><dt>Contrast</dt><dd><em>I'm starving</em> is everyday American for <em>I'm very hungry</em>, and nobody takes it literally. It is extreme, so not <em>very starving</em>: say <em>I'm starving</em> or <em>I'm so hungry</em>. For sense 3 the past participle is at least as common: <em>starved for attention</em>.</dd></dl>
+<p>Starving has 3 distinct senses.</p>
+<p><strong>1. Very hungry, informal.</strong> (умирающий с голоду, очень голодный)</p>
+<ol><li>What's for dinner? I'm <em>starving</em>.</li><li>The kids were <em>starving</em> after soccer practice.</li></ol>
+<p><strong>2. Suffering or dying because there is not enough food.</strong> (голодающий)</p>
+<ol start="3"><li>The charity sends food to <em>starving</em> families in the region.</li><li>Rescuers found the dogs cold and <em>starving</em>.</li></ol>
+<p><strong>3. Wanting something very much because you have not had enough of it.</strong> (изголодавшийся (по чему-либо))</p>
+<ol start="5"><li>Small towns are <em>starving</em> for good jobs.</li><li>He was <em>starving</em> for someone to talk to.</li></ol>
+<hr>
+<h3 id="furious">furious<a class="hash" href="#furious" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjʊriəs/ &middot; <em>FYUUR-ee-uhs</em></dd><dt>Русский</dt><dd>разъярённый; бешеный</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more furious</em>, <em>most furious</em>; extreme, so <em>absolutely furious</em> rather than <em>very furious</em></dd><dt>Takes</dt><dd><em>at</em> or <em>with</em> a person; <em>about</em>, <em>over</em> or <em>at</em> a thing; <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#furious-with">furious with</a></dd><dt>Contrast</dt><dd><em>Furious</em> already means <em>very angry</em>, so say <em>absolutely furious</em> or <em>really furious</em>, not <em>very furious</em>. The prepositions follow <em>angry</em>: <em>furious at</em> or <em>with</em> someone, <em>furious about</em> or <em>over</em> something. Sense 2 has nothing to do with anger — <em>a furious pace</em> is simply a very fast one.</dd></dl>
+<p>Furious has 2 distinct senses.</p>
+<p><strong>1. Extremely angry.</strong> (разъярённый, взбешённый)</p>
+<ol><li>My dad was <em>furious</em> when he saw the dent in the car.</li><li>She's <em>furious</em> with her brother for telling everyone.</li><li>Voters grew <em>more furious</em> about the tax increase every week.</li></ol>
+<p><strong>2. Very fast, energetic or violent.</strong> (бешеный, неистовый)</p>
+<ol start="4"><li>The workers kept up a <em>furious</em> pace all week.</li><li>The storm hit the coast with <em>furious</em> force.</li><li>A <em>furious</em> debate broke out online.</li></ol>
+<hr>
+<h3 id="delicious">delicious<a class="hash" href="#delicious" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈlɪʃəs/ &middot; <em>dih-LISH-uhs</em></dd><dt>Русский</dt><dd>очень вкусный</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more delicious</em>, <em>most delicious</em>; extreme, so <em>absolutely delicious</em> rather than <em>very delicious</em></dd><dt>Contrast</dt><dd><em>Delicious</em> is much stronger than <em>tasty</em> or <em>good</em>. Because it already means <em>very tasty</em>, <em>really delicious</em> and <em>absolutely delicious</em> sound natural and <em>very delicious</em> sounds like a learner.</dd></dl>
+<p>Delicious has 2 distinct senses.</p>
+<p><strong>1. Having a very pleasant taste or smell.</strong> (очень вкусный, аппетитный)</p>
+<ol><li>Thanks for dinner — the lasagna was <em>delicious</em>.</li><li>A <em>delicious</em> smell was coming from the kitchen.</li><li>That's the <em>most delicious</em> pie I've ever had.</li></ol>
+<p><strong>2. Very pleasant or enjoyable.</strong> (восхитительный, упоительный)</p>
+<ol start="4"><li>There was a <em>delicious</em> irony in losing to his old team.</li><li>She had a <em>delicious</em> secret she couldn't wait to share.</li></ol>
+<hr>
+<h3 id="hilarious">hilarious<a class="hash" href="#hilarious" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪˈlɛriəs/ &middot; <em>hih-LAIR-ee-uhs</em></dd><dt>Русский</dt><dd>уморительный</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more hilarious</em>, <em>most hilarious</em>; extreme, so <em>absolutely hilarious</em>, not <em>very hilarious</em></dd><dt>Contrast</dt><dd><em>Hilarious</em> means <em>extremely funny</em>, so <em>very hilarious</em> is wrong — say <em>really hilarious</em> or <em>absolutely hilarious</em>, or just <em>very funny</em>. It describes what makes people laugh, not how a person feels: <em>The movie was hilarious</em>, not <em>I felt hilarious</em>.</dd></dl>
+<p>Extremely funny.</p>
+<ol><li>Her impression of our boss was <em>hilarious</em>.</li><li>We watched a <em>hilarious</em> video of a cat stealing a taco.</li><li>It was the <em>most hilarious</em> thing I'd seen all year.</li></ol>
+<hr>
+<h3 id="awful">awful<a class="hash" href="#awful" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːfəl/ &middot; <em>AW-fuhl</em></dd><dt>Русский</dt><dd>ужасный</dd><dt>Type</dt><dd>evaluative; also emphasizing</dd><dt>Position</dt><dd>both — the 'very great' sense only before a noun (<em>an awful lot</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more awful</em>, <em>most awful</em>; <em>really awful</em> or <em>absolutely awful</em> rather than <em>very awful</em></dd><dt>Takes</dt><dd><em>about</em> + noun or <em>-ing</em> — guilty or sorry (<em>feel awful about it</em>); <em>to</em> a person — unkind (<em>awful to her</em>); <em>that</em>-clause after <em>it</em> (<em>It's awful that he lost his job</em>)</dd><dt>Form</dt><dd><em>awe</em> + <em>-ful</em>, with the <em>e</em> dropped</dd><dt>Contrast</dt><dd><em>Awful</em> and <em>awesome</em> both come from <em>awe</em> but now mean opposite things: <em>awful</em> is very bad, <em>awesome</em> is great. Americans also use <em>awful</em> as an adverb in speech (<em>awful tired</em>, <em>awful nice</em>); that is informal — in writing use <em>awfully</em> or <em>really</em>. <em>An awful lot</em> just means a very large amount and is not negative. Spelling: <em>awful</em>, never <em>aweful</em>.</dd></dl>
+<p>Awful has 4 distinct senses.</p>
+<p><strong>1. Very bad or unpleasant.</strong> (ужасный, отвратительный)</p>
+<ol><li>The traffic on I-95 was <em>awful</em> this morning.</li><li>He was <em>awful</em> to his little sister.</li><li>It was the <em>most awful</em> week of my life.</li></ol>
+<p><strong>2. Ill; not well.</strong> (плохо (о самочувствии))</p>
+<ol start="4"><li>I feel <em>awful</em> — I think I'm getting the flu.</li><li>You look <em>awful</em>. Go home and rest.</li></ol>
+<p><strong>3. Guilty or sorry about something.</strong> (ужасно стыдно, неловко)</p>
+<ol start="6"><li>I feel <em>awful</em> about forgetting your birthday.</li><li>She felt <em>awful</em> that she couldn't help.</li></ol>
+<p><strong>4. Very great in amount or degree, used for emphasis before a noun.</strong> (ужасно много; страшный)</p>
+<ol start="8"><li>That's an <em>awful</em> lot of money for a used car.</li><li>He's gone to an <em>awful</em> lot of trouble for us.</li></ol>
+<hr>
+<h3 id="terrible">terrible<a class="hash" href="#terrible" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛrəbəl/ &middot; <em>TER-uh-buhl</em></dd><dt>Русский</dt><dd>ужасный</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more terrible</em>, <em>most terrible</em>; <em>really terrible</em> rather than <em>very terrible</em></dd><dt>Takes</dt><dd><em>at</em> + noun or <em>-ing</em> — bad at doing something (<em>terrible at math</em>); <em>about</em> — guilty or sorry (<em>feel terrible about it</em>); <em>to</em> a person — unkind</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#terrible-at">terrible at</a></dd><dt>Contrast</dt><dd>The adverb <em>terribly</em> usually just means <em>very</em> and is not negative (<em>terribly sorry</em>, <em>terribly important</em>). Don't confuse <em>terrible</em> with <em>terrific</em>, which in American English means <em>great</em> (<em>You did a terrific job</em>), even though it looks related to <em>terror</em>. For skill use <em>at</em>: <em>I'm terrible at math</em>, not <em>in math</em>.</dd></dl>
+<p>Terrible has 4 distinct senses.</p>
+<p><strong>1. Very bad, unpleasant or serious; causing great harm, pain or fear.</strong> (ужасный, страшный)</p>
+<ol><li>There was a <em>terrible</em> accident on the highway last night.</li><li>The food at that place is <em>terrible</em>.</li><li>It was the <em>most terrible</em> storm the town had ever seen.</li></ol>
+<p><strong>2. Very bad at doing something; lacking skill.</strong> (никудышный, бездарный)</p>
+<ol start="4"><li>I'm <em>terrible</em> at remembering names.</li><li>He's a <em>terrible</em> driver.</li></ol>
+<p><strong>3. Ill; not well.</strong> (плохо (о самочувствии))</p>
+<ol start="6"><li>I feel <em>terrible</em> — I didn't sleep at all.</li><li>She looked <em>terrible</em> after the long flight.</li></ol>
+<p><strong>4. Guilty or sorry about something.</strong> (ужасно стыдно, неловко)</p>
+<ol start="8"><li>I feel <em>terrible</em> about what I said to you.</li><li>He felt <em>terrible</em> that he'd missed her game.</li></ol>
+<hr>
+<h3 id="fantastic">fantastic<a class="hash" href="#fantastic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fænˈtæstɪk/ &middot; <em>fan-TAS-tik</em></dd><dt>Русский</dt><dd>потрясающий; фантастический</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — extreme in the 'excellent' sense: <em>absolutely fantastic</em>, not <em>very fantastic</em></dd><dt>Contrast</dt><dd>False friend: Russian <em>фантастика</em> is <em>science fiction</em> or <em>fantasy</em> — a sci-fi book is <em>a science fiction novel</em>, while <em>a fantastic novel</em> is just a wonderful one. In everyday American English <em>fantastic</em> almost always means <em>excellent</em>; sense 3 belongs to books, art and ideas. Extreme, so <em>absolutely fantastic</em>, not <em>very fantastic</em>.</dd></dl>
+<p>Fantastic has 3 distinct senses.</p>
+<p><strong>1. Extremely good; wonderful.</strong> (потрясающий, великолепный)</p>
+<ol><li>You look <em>fantastic</em>!</li><li>We had a <em>fantastic</em> time in New Orleans.</li><li>Your presentation was <em>fantastic</em>.</li></ol>
+<p><strong>2. Extremely large, of an amount.</strong> (баснословный, огромный)</p>
+<ol start="4"><li>Some players earn <em>fantastic</em> sums of money.</li><li>The company grew at a <em>fantastic</em> rate.</li></ol>
+<p><strong>3. Strange and imaginative, or too strange to be believed.</strong> (фантастический, причудливый, невероятный)</p>
+<ol start="6"><li>The book is full of <em>fantastic</em> creatures and talking animals.</li><li>He told some <em>fantastic</em> story about being chased by a bear.</li></ol>
+<hr>
+<h3 id="excellent">excellent<a class="hash" href="#excellent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛksələnt/ &middot; <em>EK-suh-luhnt</em></dd><dt>Русский</dt><dd>отличный</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>absolutely excellent</em> or <em>truly excellent</em>, not <em>very excellent</em>; <em>most excellent</em> is a joke or a formal title</dd><dt>Takes</dt><dd><em>at</em> + noun or <em>-ing</em> — very good at (<em>excellent at chess</em>); <em>for</em> — very well suited to (<em>excellent for beginners</em>)</dd><dt>Contrast</dt><dd><em>Excellent</em> is already the top of <em>good</em>, so <em>very excellent</em> and <em>more excellent</em> are learner errors; to rank two excellent things, say one is <em>even better</em>. <em>Excellent!</em> on its own is a reply meaning <em>great</em>. Spelling: double <em>l</em> and <em>-ent</em>, not <em>-ant</em>.</dd></dl>
+<p>Extremely good; of very high quality.</p>
+<ol><li>She speaks <em>excellent</em> Spanish.</li><li>The service at the hotel was <em>excellent</em>.</li><li>This park is <em>excellent</em> for little kids.</li></ol>
+<hr>
+<h3 id="gorgeous">gorgeous<a class="hash" href="#gorgeous" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɔːrdʒəs/ &middot; <em>GOR-juhs</em></dd><dt>Русский</dt><dd>великолепный; очень красивый</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more gorgeous</em>, <em>most gorgeous</em>; extreme, so <em>absolutely gorgeous</em> rather than <em>very gorgeous</em></dd><dt>Contrast</dt><dd><em>Gorgeous</em> is much stronger than <em>pretty</em> and is used for men as well as women (<em>a gorgeous guy</em>). Americans use it just as freely for weather, places and food, where it means <em>wonderful</em>. Extreme, so <em>absolutely gorgeous</em> or <em>so gorgeous</em>, not <em>very gorgeous</em>.</dd></dl>
+<p>Gorgeous has 2 distinct senses.</p>
+<p><strong>1. Very beautiful or attractive.</strong> (очень красивый, великолепный)</p>
+<ol><li>The bride looked <em>gorgeous</em>.</li><li>They have a <em>gorgeous</em> view of the bay.</li><li>She's the <em>most gorgeous</em> baby I've ever seen.</li></ol>
+<p><strong>2. Very pleasant, of the weather, food or an experience.</strong> (чудесный, дивный)</p>
+<ol start="4"><li>It's a <em>gorgeous</em> day — let's eat outside.</li><li>The weather in San Diego was <em>gorgeous</em> all week.</li></ol>
+<hr>
+<h3 id="filthy">filthy<a class="hash" href="#filthy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪlθi/ &middot; <em>FIL-thee</em></dd><dt>Русский</dt><dd>грязный; мерзкий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>filthier</em>, <em>filthiest</em></dd><dt>Contrast</dt><dd><em>Filthy</em> is the extreme of <em>dirty</em>, so <em>absolutely filthy</em>, not <em>very filthy</em>. In <em>filthy rich</em> it works as an adverb meaning <em>extremely</em> and says nothing about dirt. For jokes and language the neutral word is <em>dirty</em> (<em>a dirty joke</em>); <em>filthy</em> is much stronger.</dd></dl>
+<p>Filthy has 3 distinct senses.</p>
+<p><strong>1. Extremely dirty.</strong> (очень грязный)</p>
+<ol><li>Take off those <em>filthy</em> boots before you come in.</li><li>The bathroom at the gas station was <em>filthy</em>.</li><li>It was the <em>filthiest</em> kitchen the inspector had ever seen.</li></ol>
+<p><strong>2. Obscene or offensive, of words, jokes or pictures.</strong> (непристойный, похабный)</p>
+<ol start="4"><li>His mom told him to stop using such <em>filthy</em> language.</li><li>The comedian's jokes got <em>filthier</em> as the night went on.</li></ol>
+<p><strong>3. Very unpleasant or morally disgusting.</strong> (мерзкий, гнусный)</p>
+<ol start="6"><li>Smoking is a <em>filthy</em> habit.</li><li>Get out of my house, you <em>filthy</em> liar!</li></ol>
+<hr>
+<h3 id="spotless">spotless<a class="hash" href="#spotless" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɑːtləs/ &middot; <em>SPAHT-luhs</em></dd><dt>Русский</dt><dd>безупречно чистый; безупречный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — absolute: <em>completely spotless</em>, <em>absolutely spotless</em>, not <em>very spotless</em></dd><dt>Form</dt><dd><em>spot</em> + <em>-less</em> — without a single spot</dd><dt>Contrast</dt><dd>Absolute, so <em>very spotless</em> is wrong — say <em>spotless</em> or <em>spotlessly clean</em>. Sense 2 goes mostly with <em>record</em> and <em>reputation</em>: <em>a spotless driving record</em> means no tickets and no accidents.</dd></dl>
+<p>Spotless has 2 distinct senses.</p>
+<p><strong>1. Perfectly clean.</strong> (безупречно чистый, сверкающий чистотой)</p>
+<ol><li>Her kitchen is always <em>spotless</em>.</li><li>He wore a <em>spotless</em> white shirt to the interview.</li><li>The hotel room was <em>spotless</em>.</li></ol>
+<p><strong>2. Without any fault or bad mark.</strong> (безупречный, незапятнанный)</p>
+<ol start="4"><li>She has a <em>spotless</em> driving record.</li><li>The senator's reputation was <em>spotless</em> until the scandal.</li></ol>
+<hr>
+<h3 id="ancient">ancient<a class="hash" href="#ancient" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪnʃənt/ &middot; <em>AYN-shuhnt</em></dd><dt>Русский</dt><dd>древний; античный</dd><dt>Type</dt><dd>age</dd><dt>Position</dt><dd>both — sense 1 only before a noun (<em>ancient Rome</em>)</dd><dt>Comparison</dt><dd>more/most — <em>more ancient</em>, <em>most ancient</em></dd><dt>Contrast</dt><dd>False friend: Russian <em>античный</em> is English <em>ancient</em> or <em>classical</em> (<em>ancient Greece</em>, <em>classical art</em>), while English <em>antique</em> means old and valuable, like furniture (<em>антикварный</em>). <em>Ancient</em> is not the everyday word for an old person — <em>old</em> or <em>elderly</em> is; calling someone <em>ancient</em> is a joke or an insult.</dd></dl>
+<p>Ancient has 3 distinct senses.</p>
+<p><strong>1. Belonging to the very distant past, especially to the civilizations before the fall of Rome.</strong> (древний, античный)</p>
+<ol><li>We studied <em>ancient</em> Greece and Rome in sixth grade.</li><li>The museum has a room full of <em>ancient</em> Egyptian jewelry.</li></ol>
+<p><strong>2. Having existed for a very long time.</strong> (древний, старинный)</p>
+<ol start="3"><li>The town is built around an <em>ancient</em> oak tree.</li><li>These are some of the <em>most ancient</em> rocks on Earth.</li><li>The custom is <em>ancient</em>.</li></ol>
+<p><strong>3. Very old or old-fashioned, humorous.</strong> (допотопный, древний (шутл.))</p>
+<ol start="6"><li>My laptop is <em>ancient</em> — it takes five minutes to start.</li><li>Don't ask him about TikTok; he's <em>ancient</em>.</li></ol>
+<hr>
+<h3 id="packed">packed<a class="hash" href="#packed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pækt/ &middot; <em>PAKT</em></dd><dt>Русский</dt><dd>переполненный; набитый</dd><dt>Type</dt><dd>participial</dd><dt>Position</dt><dd>both — sense 3 only after a verb (<em>I'm all packed</em>)</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>completely packed</em>, <em>absolutely packed</em> or <em>jam-packed</em>, not <em>very packed</em></dd><dt>Takes</dt><dd><em>with</em> + noun — full of (<em>packed with tourists</em>, <em>packed with vitamins</em>)</dd><dt>Form</dt><dd>past participle of <em>pack</em></dd><dt>Contrast</dt><dd><em>Packed</em> already means <em>very crowded</em>, so <em>very packed</em> sounds wrong; Americans say <em>packed</em>, <em>jam-packed</em> or <em>completely packed</em>. <em>Are you packed?</em> asks whether someone has finished packing a suitcase, not whether they are in a crowd. Don't confuse it with <em>packaged</em> (<em>packaged food</em>, sold in a package).</dd></dl>
+<p>Packed has 4 distinct senses.</p>
+<p><strong>1. Extremely crowded.</strong> (переполненный, битком набитый)</p>
+<ol><li>The subway was <em>packed</em> at 8 a.m.</li><li>The band played to a <em>packed</em> stadium.</li><li>The restaurant is always <em>packed</em> on Fridays.</li></ol>
+<p><strong>2. Containing a lot of something.</strong> (полный, насыщенный (чем-либо))</p>
+<ol start="4"><li>The guidebook is <em>packed</em> with useful tips.</li><li>The movie is <em>packed</em> with action from start to finish.</li></ol>
+<p><strong>3. Having finished putting your things into bags for a trip.</strong> (собравшийся, с собранными вещами)</p>
+<ol start="6"><li>Are you <em>packed</em> yet? The cab's coming at six.</li><li>I'm all <em>packed</em> and ready to go.</li></ol>
+<p><strong>4. Pressed down hard, of snow, soil or earth.</strong> (утрамбованный, плотный)</p>
+<ol start="8"><li>Cars kept sliding on the <em>packed</em> snow.</li><li>The trail was <em>packed</em> dirt, hard as concrete.</li></ol>
+<hr>
+<h3 id="soaked">soaked<a class="hash" href="#soaked" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/soʊkt/ &middot; <em>SOHKT</em></dd><dt>Русский</dt><dd>промокший насквозь; пропитанный</dd><dt>Type</dt><dd>participial</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>completely soaked</em>, <em>soaked through</em>, not <em>very soaked</em></dd><dt>Takes</dt><dd><em>through</em> or <em>to the skin</em> — completely wet; <em>in</em> or <em>with</em> a liquid or a quality (<em>soaked in sweat</em>, <em>soaked in history</em>)</dd><dt>Form</dt><dd>past participle of <em>soak</em></dd><dt>Contrast</dt><dd><em>Soaked</em> is the extreme of <em>wet</em>, so not <em>very soaked</em>: say <em>soaked</em>, <em>soaked through</em> or <em>soaking wet</em>. In <em>soaking wet</em> the <em>-ing</em> form works like an adverb meaning <em>completely</em>. Before a noun it often forms a hyphenated compound: <em>a blood-soaked shirt</em>, <em>a rain-soaked field</em>.</dd></dl>
+<p>Soaked has 2 distinct senses.</p>
+<p><strong>1. Completely wet.</strong> (промокший насквозь, мокрый до нитки)</p>
+<ol><li>We got caught in the storm and came home <em>soaked</em>.</li><li>Take off those <em>soaked</em> socks.</li><li>His shirt was <em>soaked</em> through with sweat.</li></ol>
+<p><strong>2. Full of a quality or feeling, literary.</strong> (пропитанный, проникнутый)</p>
+<ol start="4"><li>The film is <em>soaked</em> in nostalgia for the 1980s.</li><li>Boston is a city <em>soaked</em> in history.</li></ol>
+<hr>
+<h3 id="devastated">devastated<a class="hash" href="#devastated" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛvəsteɪtɪd/ &middot; <em>DEV-uh-stay-tid</em></dd><dt>Русский</dt><dd>убитый горем; опустошённый</dd><dt>Type</dt><dd>emotion; also participial</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>absolutely devastated</em>, <em>completely devastated</em>, not <em>very devastated</em></dd><dt>Takes</dt><dd><em>by</em> or <em>at</em> + noun — the cause (<em>devastated by the news</em>); <em>to</em>-infinitive (<em>devastated to learn</em>); <em>that</em>-clause</dd><dt>Form</dt><dd>past participle of <em>devastate</em></dd><dt>Contrast</dt><dd><em>-ed/-ing</em> pair: the person is <em>devastated</em>; the news, loss or storm is <em>devastating</em>. <em>Devastated</em> means shocked and deeply hurt, far stronger than <em>disappointed</em> or <em>sad</em> — used about losing a game it is an exaggeration. Extreme, so not <em>very devastated</em>.</dd></dl>
+<p>Devastated has 2 distinct senses.</p>
+<p><strong>1. Extremely shocked and upset.</strong> (убитый горем, потрясённый)</p>
+<ol><li>She was <em>devastated</em> by her father's death.</li><li>The players were <em>devastated</em> to lose in the final seconds.</li><li>Fans were <em>devastated</em> that the show was canceled.</li></ol>
+<p><strong>2. Badly damaged or destroyed, of a place.</strong> (опустошённый, разорённый)</p>
+<ol start="4"><li>Volunteers brought water to the <em>devastated</em> town.</li><li>After the hurricane, the whole coast looked <em>devastated</em>.</li></ol>
+<hr>
+<h3 id="ecstatic">ecstatic<a class="hash" href="#ecstatic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstætɪk/ &middot; <em>ik-STAT-ik</em></dd><dt>Русский</dt><dd>в восторге; экстатический</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>absolutely ecstatic</em>, not <em>very ecstatic</em></dd><dt>Takes</dt><dd><em>about</em>, <em>over</em> or <em>at</em> + noun; <em>to</em>-infinitive; <em>that</em>-clause</dd><dt>Contrast</dt><dd>Russian <em>экстатический</em> suggests a trance or religious rapture; everyday American <em>ecstatic</em> just means <em>thrilled</em>: <em>I'm ecstatic about the new job</em>. Extreme, so <em>absolutely ecstatic</em> rather than <em>very ecstatic</em>.</dd></dl>
+<p>Ecstatic has 2 distinct senses.</p>
+<p><strong>1. Extremely happy and excited.</strong> (в восторге, вне себя от радости)</p>
+<ol><li>My parents were <em>ecstatic</em> when I got into college.</li><li>She was <em>ecstatic</em> about the promotion.</li><li>Fans were <em>ecstatic</em> to see the band back together.</li></ol>
+<p><strong>2. Relating to a state of intense religious or spiritual feeling, like a trance.</strong> (экстатический)</p>
+<ol start="4"><li>The saint wrote about his <em>ecstatic</em> visions.</li><li>The dancers moved in an <em>ecstatic</em> trance.</li></ol>
+<hr>
+<h3 id="petrified">petrified<a class="hash" href="#petrified" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛtrəfaɪd/ &middot; <em>PET-ruh-fyd</em></dd><dt>Русский</dt><dd>оцепеневший от страха; окаменевший</dd><dt>Type</dt><dd>emotion; also participial</dd><dt>Position</dt><dd>both — the fear sense mostly after <em>be</em>; before a noun it usually means turned to stone (<em>petrified wood</em>)</dd><dt>Comparison</dt><dd>not gradable — extreme: <em>absolutely petrified</em>, not <em>very petrified</em></dd><dt>Takes</dt><dd><em>of</em> + noun or <em>-ing</em>; <em>to</em>-infinitive; <em>that</em>-clause</dd><dt>Form</dt><dd>past participle of <em>petrify</em></dd><dt>Contrast</dt><dd><em>Petrified</em> is the extreme of <em>scared</em> — so frightened you cannot move — so <em>very petrified</em> is wrong. The person is <em>petrified</em>; the experience is <em>petrifying</em> or <em>terrifying</em>.</dd></dl>
+<p>Petrified has 2 distinct senses.</p>
+<p><strong>1. Extremely frightened, often too frightened to move.</strong> (оцепеневший от страха, в ужасе)</p>
+<ol><li>I'm <em>petrified</em> of snakes.</li><li>She was <em>petrified</em> to walk home alone after dark.</li><li>He stood there, <em>petrified</em>, as the bear came closer.</li></ol>
+<p><strong>2. Turned slowly into stone over a very long time.</strong> (окаменелый, окаменевший)</p>
+<ol start="4"><li>Arizona's <em>Petrified</em> Forest is full of ancient logs turned to stone.</li><li>The kids found a piece of <em>petrified</em> wood near the river.</li></ol>
+<hr>
+<h3 id="dead">dead<a class="hash" href="#dead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɛd/ &middot; <em>DED</em></dd><dt>Русский</dt><dd>мёртвый</dd><dt>Type</dt><dd>quality; also emphasizing</dd><dt>Position</dt><dd>both — the 'complete, exact' sense only before a noun (<em>dead silence</em>)</dd><dt>Comparison</dt><dd>not gradable — absolute: <em>completely dead</em>, <em>almost dead</em>; <em>deader</em> appears only in jokes</dd><dt>Contrast</dt><dd><em>Dead</em> is the adjective, <em>died</em> the past of the verb, <em>death</em> the noun: <em>He is dead</em> or <em>He died last year</em>, never <em>He is died</em>. Something that kills is <em>deadly</em>, not <em>dead</em> (<em>a deadly disease</em>). As an adverb <em>dead</em> means <em>completely</em> or <em>exactly</em> — <em>dead tired</em>, <em>dead serious</em>, <em>dead ahead</em> — and has nothing to do with death. For a leg or foot that has lost feeling Americans more often say it <em>fell asleep</em>.</dd></dl>
+<p>Dead has 8 distinct senses.</p>
+<p><strong>1. No longer alive.</strong> (мёртвый, умерший)</p>
+<ol><li>Her grandfather has been <em>dead</em> for ten years.</li><li>We found a <em>dead</em> bird on the porch.</li><li>Water the plants or they'll be <em>dead</em> by Friday.</li></ol>
+<p><strong>2. Not working, especially because there is no power.</strong> (разряженный; не работающий)</p>
+<ol start="4"><li>My phone's <em>dead</em> — can I borrow your charger?</li><li>The car wouldn't start because the battery was <em>dead</em>.</li><li>The line suddenly went <em>dead</em>.</li></ol>
+<p><strong>3. Very quiet, with no activity, energy or feeling.</strong> (вымерший, безжизненный)</p>
+<ol start="7"><li>Downtown is <em>dead</em> after six o'clock.</li><li>Business has been <em>dead</em> all week.</li><li>He answered in a flat, <em>dead</em> voice.</li></ol>
+<p><strong>4. No longer used, active or likely to happen.</strong> (мёртвый, отживший, провалившийся)</p>
+<ol start="10"><li>Latin is a <em>dead</em> language.</li><li>After the vote, the bill is <em>dead</em>.</li></ol>
+<p><strong>5. Unable to feel anything, of a part of the body.</strong> (онемевший)</p>
+<ol start="12"><li>I slept on my arm, and now it's completely <em>dead</em>.</li><li>My legs went <em>dead</em> from sitting on the floor.</li></ol>
+<p><strong>6. Complete or exact, used before a noun.</strong> (полный, абсолютный; точный)</p>
+<ol start="14"><li>There was <em>dead</em> silence in the courtroom.</li><li>The arrow hit the <em>dead</em> center of the target.</li><li>The train came to a <em>dead</em> stop.</li></ol>
+<p><strong>7. In serious trouble, informal.</strong> ((тебе) конец, крышка)</p>
+<ol start="17"><li>If Mom sees this mess, we're <em>dead</em>.</li><li>You're <em>dead</em> when Coach finds out.</li></ol>
+<p><strong>8. Extremely tired, informal.</strong> (смертельно уставший)</p>
+<ol start="19"><li>After the double shift I was <em>dead</em>.</li><li>We were <em>dead</em> on our feet by the time the movers left.</li></ol>
+<hr>
+<h3 id="unique">unique<a class="hash" href="#unique" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juˈniːk/ &middot; <em>yoo-NEEK</em></dd><dt>Русский</dt><dd>уникальный, единственный в своём роде</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — absolute in careful use: <em>completely unique</em>, <em>almost unique</em>; <em>very unique</em> and <em>more unique</em> are common in speech in sense 2, but editors and exams mark them wrong</dd><dt>Takes</dt><dd><em>to</em> + noun — found only in or with (<em>unique to Hawaii</em>)</dd><dt>Contrast</dt><dd><em>Unique</em> begins with a <em>y</em> sound, so it takes <em>a</em>: <em>a unique chance</em>, not <em>an unique chance</em>. In careful writing it means <em>the only one of its kind</em>, which cannot be more or less true, so <em>very unique</em> and <em>rather unique</em> are marked as errors; when you mean <em>special</em>, say <em>unusual</em>, <em>rare</em> or <em>distinctive</em>.</dd></dl>
+<p>Unique has 3 distinct senses.</p>
+<p><strong>1. Being the only one of its kind; unlike anything else.</strong> (единственный в своём роде, уникальный)</p>
+<ol><li>Every snowflake is <em>unique</em>.</li><li>Each user gets a <em>unique</em> password.</li><li>This is a <em>unique</em> opportunity to work with NASA scientists.</li></ol>
+<p><strong>2. Unusual or special, informal.</strong> (необычный, особенный)</p>
+<ol start="4"><li>The restaurant has a really <em>unique</em> atmosphere.</li><li>Her sense of style is pretty <em>unique</em>.</li></ol>
+<p><strong>3. Belonging only to one particular person, place, group or thing.</strong> (свойственный только (кому-либо, чему-либо))</p>
+<ol start="6"><li>These birds are <em>unique</em> to the Galápagos Islands.</li><li>The problem isn't <em>unique</em> to our school.</li></ol>
+<hr>
+<h3 id="perfect">perfect<a class="hash" href="#perfect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrfɪkt/ &middot; <em>PUR-fikt</em></dd><dt>Русский</dt><dd>идеальный; совершенный</dd><dt>Type</dt><dd>evaluative; also emphasizing</dd><dt>Position</dt><dd>both — senses 3 and 4 only before a noun (<em>a perfect stranger</em>, <em>the perfect tenses</em>)</dd><dt>Comparison</dt><dd>not gradable — absolute in careful use: <em>absolutely perfect</em>, <em>almost perfect</em>; <em>more perfect</em> has a long history (<em>a more perfect Union</em>, in the U.S. Constitution)</dd><dt>Takes</dt><dd><em>for</em> + noun or <em>-ing</em> — exactly right for (<em>perfect for a picnic</em>)</dd><dt>Contrast</dt><dd>The adjective is stressed on the first syllable (PUR-fikt); the verb <em>to perfect</em> is stressed on the second (pur-FEKT). <em>Perfect</em> already means <em>as good as possible</em>, so <em>very perfect</em> is wrong; <em>almost perfect</em> and <em>absolutely perfect</em> are fine. In <em>a perfect stranger</em> and <em>perfect sense</em> it only adds emphasis — a <em>perfect stranger</em> is someone you have never met, not an ideal one.</dd></dl>
+<p>Perfect has 4 distinct senses.</p>
+<p><strong>1. Having no mistakes or faults; as good as it can be.</strong> (идеальный, безупречный)</p>
+<ol><li>She got a <em>perfect</em> score on the SAT.</li><li>Nobody's <em>perfect</em>.</li><li>It was a <em>perfect</em> fall day.</li></ol>
+<p><strong>2. Exactly right for a particular person, purpose or situation.</strong> (идеально подходящий)</p>
+<ol start="4"><li>This dress is <em>perfect</em> for the wedding.</li><li>You'd be <em>perfect</em> for the job.</li><li>Six o'clock? That's <em>perfect</em> — thanks!</li></ol>
+<p><strong>3. Complete, used for emphasis before a noun.</strong> (совершенный, полный)</p>
+<ol start="7"><li>I told my life story to a <em>perfect</em> stranger on the plane.</li><li>What he said makes <em>perfect</em> sense.</li></ol>
+<p><strong>4. In grammar, describing a verb tense made with a form of <em>have</em> and a past participle, which shows a completed action.</strong> (перфектный)</p>
+<ol start="9"><li>English has three <em>perfect</em> tenses: past, present and future.</li><li>In <em>perfect</em> verb forms the helping verb is always a form of have.</li></ol>
+<hr>
+<h3 id="impossible">impossible<a class="hash" href="#impossible" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈpɑːsəbəl/ &middot; <em>im-PAH-suh-buhl</em></dd><dt>Русский</dt><dd>невозможный; невыносимый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — absolute: <em>completely impossible</em>, <em>almost impossible</em>, <em>nearly impossible</em>, not <em>very impossible</em></dd><dt>Takes</dt><dd><em>to</em>-infinitive (<em>impossible to find</em>); <em>for</em> someone + <em>to</em>-infinitive (<em>impossible for me to leave</em>); <em>that</em>-clause after <em>it</em> (<em>It's impossible that she knew</em>)</dd><dt>Form</dt><dd><em>im-</em> + <em>possible</em></dd><dt>Contrast</dt><dd>The situation, not the person, is impossible: <em>It's impossible for me to come</em>, not <em>I am impossible to come</em>. A person can be the subject only when the infinitive is about dealing with them (<em>He's impossible to talk to</em>), or on its own in sense 2 (<em>My brother is impossible</em>). <em>Almost</em> and <em>nearly impossible</em> are the natural way to soften it; <em>very impossible</em> is wrong.</dd></dl>
+<p>Impossible has 2 distinct senses.</p>
+<p><strong>1. Not able to happen, exist or be done.</strong> (невозможный)</p>
+<ol><li>It's <em>impossible</em> to find parking downtown on Saturdays.</li><li>Finishing the whole report by Friday is <em>impossible</em>.</li><li>The snow made travel almost <em>impossible</em>.</li></ol>
+<p><strong>2. Very difficult to deal with or bear, of a person or situation.</strong> (невыносимый, несносный)</p>
+<ol start="4"><li>The kids have been <em>impossible</em> all day.</li><li>Her boss put her in an <em>impossible</em> position.</li></ol>
+<hr>
+<h3 id="essential">essential<a class="hash" href="#essential" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈsɛnʃəl/ &middot; <em>ih-SEN-shuhl</em></dd><dt>Русский</dt><dd>необходимый; существенный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — sense 2 mostly before a noun; sense 3 only in <em>essential oil</em></dd><dt>Comparison</dt><dd>not gradable — <em>absolutely essential</em>, not <em>very essential</em>; <em>most essential</em> is common in speech in the sense 'most basic'</dd><dt>Takes</dt><dd><em>to</em> or <em>for</em> + noun (<em>essential to success</em>, <em>essential for growth</em>); <em>to</em>-infinitive after <em>it</em> (<em>It's essential to book early</em>); <em>that</em>-clause, often with the base form of the verb (<em>It's essential that he be there</em>)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#essential-to">essential to</a></dd><dt>Contrast</dt><dd><em>Essential</em> is much stronger than <em>important</em>: it means you cannot do without it. After <em>It is essential that</em>, formal American English uses the base verb: <em>It's essential that every student attend</em>, not <em>attends</em>. <em>Essential oil</em> is Russian <em>эфирное масло</em>, and <em>the essentials</em> (a noun) are the basic things you need.</dd></dl>
+<p>Essential has 3 distinct senses.</p>
+<p><strong>1. Completely necessary.</strong> (необходимый, крайне важный)</p>
+<ol><li>Water is <em>essential</em> for life.</li><li><em>Essential</em> workers like nurses and grocery clerks kept working through the pandemic.</li><li>It's <em>essential</em> that you bring your passport.</li></ol>
+<p><strong>2. Basic and most important; forming the central part of something.</strong> (основной, существенный)</p>
+<ol start="4"><li>The <em>essential</em> difference between the two plans is cost.</li><li>Honesty is an <em>essential</em> part of her character.</li></ol>
+<p><strong>3. Taken from a plant and carrying its smell or flavor, of an oil.</strong> (эфирный (о масле))</p>
+<ol start="6"><li>She adds a few drops of lavender <em>essential</em> oil to her bath.</li><li><em>Essential</em> oils should never be swallowed.</li></ol>
+<hr>
+<h3 id="pregnant">pregnant<a class="hash" href="#pregnant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɛɡnənt/ &middot; <em>PREG-nuhnt</em></dd><dt>Русский</dt><dd>беременная</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — absolute: <em>six months pregnant</em>; <em>very pregnant</em> is a joke meaning late in pregnancy and clearly showing</dd><dt>Takes</dt><dd><em>with</em> a baby (<em>pregnant with twins</em>); <em>by</em> the father; <em>with</em> meaning or feeling, literary (sense 2)</dd><dt>Contrast</dt><dd>Say <em>She is pregnant</em> or <em>She is expecting</em>, not <em>She is in pregnancy</em>; for becoming pregnant Americans say <em>get pregnant</em>. The length of time goes before the adjective: <em>She's seven months pregnant</em>. Absolute, so <em>very pregnant</em> is only a joke.</dd></dl>
+<p>Pregnant has 2 distinct senses.</p>
+<p><strong>1. Carrying a developing baby inside the body.</strong> (беременная)</p>
+<ol><li>My sister is <em>pregnant</em> with twins.</li><li><em>Pregnant</em> women should check with a doctor before taking any medicine.</li><li>She got <em>pregnant</em> right after the wedding.</li></ol>
+<p><strong>2. Full of meaning or unspoken feeling.</strong> (многозначительный; полный (смысла))</p>
+<ol start="4"><li>There was a <em>pregnant</em> pause before she answered.</li><li>His silence was <em>pregnant</em> with meaning.</li></ol>
+<hr>
+<h3 id="married">married<a class="hash" href="#married" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛrid/ &middot; <em>MAIR-eed</em></dd><dt>Русский</dt><dd>женатый; замужем</dd><dt>Type</dt><dd>classifying; also participial</dd><dt>Position</dt><dd>both — sense 2 only before a noun (<em>married life</em>)</dd><dt>Comparison</dt><dd>not gradable — absolute: <em>happily married</em>, <em>newly married</em>, not <em>more married</em></dd><dt>Takes</dt><dd><em>to</em> a person — never <em>with</em> or <em>on</em> (<em>married to a doctor</em>); <em>to</em> a job or an idea — devoted to it</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#married-to">married to</a></dd><dt>Form</dt><dd>past participle of <em>marry</em></dd><dt>Contrast</dt><dd>Use <em>to</em>: <em>She's married to a teacher</em>, not <em>with</em> or <em>on</em> (Russian <em>замужем за</em>, <em>женат на</em>). <em>Married with children</em> is a different pattern — married and having children. <em>Be married</em> is the state and <em>get married</em> the event: <em>We got married in 2019</em> and <em>We've been married for five years</em>, not <em>We are married for five years</em>. English has one word for both <em>женат</em> and <em>замужем</em>.</dd></dl>
+<p>Married has 3 distinct senses.</p>
+<p><strong>1. Having a husband or wife.</strong> (женатый, замужем)</p>
+<ol><li>Are you <em>married</em>?</li><li>They've been <em>married</em> for thirty years.</li><li>A young <em>married</em> couple lives next door.</li></ol>
+<p><strong>2. Relating to marriage or to a husband and wife.</strong> (супружеский, семейный)</p>
+<ol start="4"><li>They were still getting used to <em>married</em> life.</li><li>She kept her <em>married</em> name after the divorce.</li></ol>
+<p><strong>3. Completely devoted to something and unwilling to give it up.</strong> (всецело преданный (чему-либо))</p>
+<ol start="6"><li>He's <em>married</em> to his job.</li><li>The mayor isn't <em>married</em> to the plan; she's open to changes.</li></ol>
+<hr>
+<h3 id="correct">correct<a class="hash" href="#correct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈrɛkt/ &middot; <em>kuh-REKT</em></dd><dt>Русский</dt><dd>правильный; надлежащий</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — absolute in the 'right' sense, but <em>more correct</em> and <em>most correct</em> are common when comparing how accurate something is (<em>the most correct answer</em>)</dd><dt>Takes</dt><dd><em>in</em> + <em>-ing</em> — right to think so (<em>correct in assuming</em>); <em>to</em>-infinitive (<em>You were correct to call</em>)</dd><dt>Contrast</dt><dd>False friend: Russian <em>корректный</em> usually means <em>polite</em> or <em>tactful</em> — in English say <em>polite</em>, <em>courteous</em> or <em>respectful</em>. English <em>correct</em> behavior means following the accepted rules, as in <em>politically correct</em>. <em>You're correct</em> is more formal than <em>You're right</em>. The verb <em>correct</em> (to fix mistakes) looks and sounds the same.</dd></dl>
+<p>Correct has 3 distinct senses.</p>
+<p><strong>1. Right or true; without mistakes.</strong> (правильный, верный)</p>
+<ol><li>Is this the <em>correct</em> address?</li><li>Your answer is <em>correct</em>.</li><li>Choose the <em>most correct</em> answer from the list.</li></ol>
+<p><strong>2. Right in what you think or say, of a person.</strong> (прав)</p>
+<ol start="4"><li>You're absolutely <em>correct</em>.</li><li>Am I <em>correct</em> in thinking you two have met?</li></ol>
+<p><strong>3. Following the accepted rules of behavior or of a situation.</strong> (подобающий, надлежащий)</p>
+<ol start="6"><li>What's the <em>correct</em> way to address a senator?</li><li>His manners were always <em>correct</em> but cold.</li></ol>
+<hr>
+<h3 id="complete">complete<a class="hash" href="#complete" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpliːt/ &middot; <em>kuhm-PLEET</em></dd><dt>Русский</dt><dd>полный; законченный</dd><dt>Type</dt><dd>quality; also emphasizing</dd><dt>Position</dt><dd>both — sense 3 only before a noun (<em>a complete stranger</em>); <em>complete with</em> follows its noun</dd><dt>Comparison</dt><dd>not gradable — absolute when it means finished, but <em>more complete</em> and <em>most complete</em> are normal for having more of the parts (<em>a more complete list</em>)</dd><dt>Takes</dt><dd><em>with</em> + noun — including something extra (<em>a kitchen complete with dishwasher</em>)</dd><dt>Contrast</dt><dd><em>Complete</em> is both an adjective and a verb: <em>The work is complete</em> (done) and <em>They completed the work</em>. A <em>completed</em> form is one someone has filled out. In <em>a complete idiot</em> or <em>complete nonsense</em> it only adds emphasis, like <em>total</em>. <em>Complete with</em> is a description pattern that comes after the noun: <em>a house complete with a pool</em>.</dd></dl>
+<p>Complete has 4 distinct senses.</p>
+<p><strong>1. Having all the parts it should have; whole.</strong> (полный, целый, комплектный)</p>
+<ol><li>We finally have a <em>complete</em> set of the Harry Potter books.</li><li>The list isn't <em>complete</em> — we're missing three names.</li><li>This is the <em>most complete</em> collection of her letters.</li></ol>
+<p><strong>2. Finished.</strong> (законченный, завершённый)</p>
+<ol start="4"><li>Work on the new bridge is almost <em>complete</em>.</li><li>Your registration is not <em>complete</em> until you pay the fee.</li></ol>
+<p><strong>3. Total, used for emphasis before a noun.</strong> (полный, совершенный, абсолютный)</p>
+<ol start="6"><li>The meeting was a <em>complete</em> waste of time.</li><li>I felt like a <em>complete</em> idiot.</li><li>She's a <em>complete</em> stranger to me.</li></ol>
+<p><strong>4. Including something as an extra part, after a noun.</strong> (в комплекте с, вместе с)</p>
+<ol start="9"><li>The apartment comes <em>complete</em> with a washer and dryer.</li><li>He showed up dressed as Santa, <em>complete</em> with a white beard.</li></ol>
+<hr>
+<h3 id="total">total<a class="hash" href="#total" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊtəl/ &middot; <em>TOH-tuhl</em></dd><dt>Русский</dt><dd>общий; полный</dd><dt>Type</dt><dd>quantity; also emphasizing</dd><dt>Position</dt><dd>attributive only — in both senses; after <em>be</em> only in formal writing about sense 2 (<em>The destruction was total</em>)</dd><dt>Comparison</dt><dd>not gradable — absolute</dd><dt>Contrast</dt><dd><em>Total</em> goes before its noun: <em>The total cost is $50</em>, not <em>The cost is total $50</em>. After a verb Americans use the noun or the verb: <em>The total is $50</em>, <em>The bill totals $50</em>. In informal American English the verb <em>total</em> also means to wreck a car completely: <em>He totaled his car</em> (one <em>l</em>). The adverb <em>totally</em> in speech often just means <em>completely</em> or <em>yes</em>: <em>I totally agree</em>.</dd></dl>
+<p>Total has 2 distinct senses.</p>
+<p><strong>1. Including everything; being the whole amount.</strong> (общий, суммарный, итоговый)</p>
+<ol><li>The <em>total</em> cost of the trip was about $3,000.</li><li>What's the <em>total</em> number of students in the program?</li></ol>
+<p><strong>2. Complete, used for emphasis.</strong> (полный, абсолютный)</p>
+<ol start="3"><li>The party was a <em>total</em> disaster.</li><li>There was <em>total</em> silence in the room.</li><li>I felt like a <em>total</em> fool.</li></ol>
+<hr>
+<h3 id="empty">empty<a class="hash" href="#empty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛmpti/ &middot; <em>EMP-tee</em></dd><dt>Русский</dt><dd>пустой</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>emptier</em>, <em>emptiest</em></dd><dt>Takes</dt><dd><em>of</em> + noun — formal, without (<em>streets empty of cars</em>)</dd><dt>Contrast</dt><dd>Russian <em>пустой</em> covers more than English <em>empty</em>. A page or form with nothing written on it is <em>blank</em>; a seat nobody is using is <em>free</em> (<em>Is this seat taken?</em>); an apartment or a job with nobody in it is <em>vacant</em>. <em>Empty</em> is also a verb (<em>empty the dishwasher</em>). Although it sounds absolute, <em>almost empty</em>, <em>emptier</em> and <em>emptiest</em> are all normal.</dd></dl>
+<p>Empty has 3 distinct senses.</p>
+<p><strong>1. Containing nothing, or with no people in it.</strong> (пустой, порожний)</p>
+<ol><li>The fridge is <em>empty</em> — we need to go shopping.</li><li>We walked through the <em>empty</em> streets at dawn.</li><li>The stadium was <em>emptier</em> than usual for a playoff game.</li></ol>
+<p><strong>2. Without meaning, value or real intention.</strong> (пустой, бессодержательный)</p>
+<ol start="4"><li>Voters are tired of <em>empty</em> promises.</li><li>His threats turned out to be <em>empty</em>.</li></ol>
+<p><strong>3. Feeling that life has no meaning or purpose, of a person.</strong> (опустошённый)</p>
+<ol start="6"><li>She felt <em>empty</em> for months after the divorce.</li><li>Winning didn't make him happy; he just felt <em>empty</em>.</li></ol>
+<hr>
+<h3 id="full">full<a class="hash" href="#full" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fʊl/ &middot; <em>FUUL</em></dd><dt>Русский</dt><dd>полный; сытый</dd><dt>Type</dt><dd>quality; also quantity</dd><dt>Position</dt><dd>both — with <em>of</em> it can follow the noun (<em>a room full of people</em>)</dd><dt>Comparison</dt><dd>-er/-est — <em>fuller</em>, <em>fullest</em></dd><dt>Takes</dt><dd><em>of</em> + noun — containing a lot (<em>full of water</em>, <em>full of ideas</em>); <em>of</em> oneself — too proud</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#full-of">full of</a></dd><dt>Contrast</dt><dd>False friend: Russian <em>полный</em> about a person often means <em>overweight</em>, but English <em>I'm full</em> means <em>I'm not hungry any more</em>: <em>No dessert, thanks — I'm full</em>. For weight say <em>heavy</em> or <em>overweight</em>; <em>a fuller figure</em> is only a polite fashion phrase. <em>Full of</em> follows its noun naturally: <em>a box full of toys</em>. The suffix <em>-ful</em> has one <em>l</em>: <em>careful</em>, <em>spoonful</em>. <em>To the fullest</em> means <em>as much as possible</em> (<em>live life to the fullest</em>).</dd></dl>
+<p>Full has 6 distinct senses.</p>
+<p><strong>1. Containing as much or as many as it can hold, or a lot of something.</strong> (полный, заполненный)</p>
+<ol><li>The parking lot was <em>full</em>, so we parked on the street.</li><li>She handed me a glass <em>full</em> of ice water.</li><li>The kids were <em>full</em> of energy.</li></ol>
+<p><strong>2. Having eaten enough; not hungry.</strong> (сытый)</p>
+<ol start="4"><li>I'm <em>full</em> — I can't eat another bite.</li><li>Eat slowly and you'll feel <em>full</em> sooner.</li></ol>
+<p><strong>3. Complete, whole or as great as possible.</strong> (полный, целый; максимальный)</p>
+<ol start="6"><li>Please write your <em>full</em> name.</li><li>The train was moving at <em>full</em> speed.</li><li>We got a <em>full</em> refund.</li></ol>
+<p><strong>4. Busy, with a lot of activities.</strong> (насыщенный, загруженный)</p>
+<ol start="9"><li>I have a really <em>full</em> schedule this week.</li><li>She lived a long and <em>full</em> life.</li></ol>
+<p><strong>5. Round and large, of the face, lips or body; wide, of clothing.</strong> (пухлый, округлый; широкий (об одежде))</p>
+<ol start="11"><li>She has <em>full</em> lips and dark eyes.</li><li>The dress has a <em>full</em> skirt.</li><li>The brand makes jeans for a <em>fuller</em> figure.</li></ol>
+<p><strong>6. Rich and strong, of a sound, taste or color.</strong> (насыщенный, сочный)</p>
+<ol start="14"><li>The wine has a <em>full</em>, fruity flavor.</li><li>The cello has a <em>fuller</em> sound than the viola.</li></ol>
+<hr>
+<h3 id="final">final<a class="hash" href="#final" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪnəl/ &middot; <em>FY-nuhl</em></dd><dt>Русский</dt><dd>последний; окончательный</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both — sense 1 only before a noun (<em>the final chapter</em>)</dd><dt>Comparison</dt><dd>not gradable — absolute</dd><dt>Contrast</dt><dd><em>Final</em> and <em>last</em> overlap in sense 1, but <em>final</em> stresses that nothing comes after: <em>the final episode</em>. After <em>be</em>, <em>final</em> has sense 2: <em>The decision is final</em> means it cannot be changed, not that it came last. The adverb <em>finally</em> usually means <em>after a long time</em> (<em>She finally called</em>). <em>The finals</em> (a noun) are the last games of a tournament or end-of-term exams.</dd></dl>
+<p>Final has 2 distinct senses.</p>
+<p><strong>1. Coming at the end; last in a series.</strong> (последний, заключительный, финальный)</p>
+<ol><li>The <em>final</em> chapter surprised everyone.</li><li>She scored in the <em>final</em> minute of the game.</li><li>This is your <em>final</em> warning.</li></ol>
+<p><strong>2. Not able to be changed or argued about.</strong> (окончательный)</p>
+<ol start="4"><li>The judge's decision is <em>final</em>.</li><li>Is that your <em>final</em> answer?</li></ol>
+<hr>
+<h3 id="universal">universal<a class="hash" href="#universal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌjuːnɪˈvɜːrsəl/ &middot; <em>yoo-nih-VUR-suhl</em></dd><dt>Русский</dt><dd>всеобщий; универсальный</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — absolute: <em>almost universal</em>, <em>nearly universal</em>; <em>more universal</em> occurs, meaning more widespread</dd><dt>Contrast</dt><dd>Russian <em>универсальный</em> often means <em>versatile</em> — for a person or tool that can do many things say <em>versatile</em> or <em>all-purpose</em> (<em>a versatile actor</em>, <em>an all-purpose cleaner</em>), not <em>universal</em>. English <em>universal</em> means <em>for everyone</em> or <em>everywhere</em>; the 'fits everything' sense lives in a few set phrases: <em>universal remote</em>, <em>universal adapter</em>.</dd></dl>
+<p>Universal has 3 distinct senses.</p>
+<p><strong>1. Involving or done by everyone in a group or in the world.</strong> (всеобщий)</p>
+<ol><li>The plan has <em>universal</em> support among the teachers.</li><li>Canada has <em>universal</em> health care.</li><li>Cell phone ownership is now nearly <em>universal</em>.</li></ol>
+<p><strong>2. True or found everywhere and in every case.</strong> (универсальный, всеобщий)</p>
+<ol start="4"><li>Music is a <em>universal</em> language.</li><li>The love of parents for their children is <em>universal</em>.</li></ol>
+<p><strong>3. Able to be used with all or most types of something, of a device.</strong> (универсальный (о приборе))</p>
+<ol start="6"><li>I lost the <em>universal</em> remote again.</li><li>Pack a <em>universal</em> adapter for the trip.</li></ol>
+<hr>
+<h3 id="infinite">infinite<a class="hash" href="#infinite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnfənət/ &middot; <em>IN-fuh-nuht</em></dd><dt>Русский</dt><dd>бесконечный; безграничный</dd><dt>Type</dt><dd>quantity</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — absolute; to compare, use the adverb: <em>infinitely better</em></dd><dt>Form</dt><dd><em>in-</em> + <em>finite</em></dd><dt>Contrast</dt><dd>Pronunciation trap: <em>finite</em> is FY-nyt, but <em>infinite</em> is IN-fuh-nuht — the stress moves and both vowels change. Don't confuse it with the grammar term <em>infinitive</em> (<em>to go</em>). <em>Infinite</em> is absolute, so <em>very infinite</em> is wrong; to compare use <em>infinitely</em> (<em>infinitely more complicated</em>).</dd></dl>
+<p>Infinite has 2 distinct senses.</p>
+<p><strong>1. Without limits or an end.</strong> (бесконечный)</p>
+<ol><li>Is the universe <em>infinite</em>?</li><li>There are an <em>infinite</em> number of points on a line.</li><li>The set of whole numbers is <em>infinite</em>.</li></ol>
+<p><strong>2. Very great, as if without limit.</strong> (безграничный, беспредельный)</p>
+<ol start="4"><li>The teacher showed <em>infinite</em> patience with the class.</li><li>She wrapped the old photos with <em>infinite</em> care.</li></ol>
+<hr>
+<h3 id="equal">equal<a class="hash" href="#equal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːkwəl/ &middot; <em>EE-kwuhl</em></dd><dt>Русский</dt><dd>равный</dd><dt>Type</dt><dd>quantity</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>not gradable — absolute; <em>more equal</em> is a famous joke from Orwell's <em>Animal Farm</em> (<em>some animals are more equal than others</em>)</dd><dt>Takes</dt><dd><em>to</em> + noun — the same as (<em>equal to one mile</em>); <em>to</em> a task — able to do it; <em>in</em> + noun — the way they are the same (<em>equal in size</em>)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#equal-to">equal to</a></dd><dt>Contrast</dt><dd>Use <em>equal to</em>, not <em>equal with</em>, for amounts: <em>One yard is equal to three feet</em>. In math Americans usually use the verb: <em>Two plus two equals four</em>. <em>Equal</em> is about size, value or rights; for things that are exactly alike use <em>the same</em>: <em>We have the same car</em>, not <em>equal cars</em>. As a noun, <em>an equal</em> is a person of the same rank (<em>She treated us as equals</em>).</dd></dl>
+<p>Equal has 3 distinct senses.</p>
+<p><strong>1. The same in size, amount, number or value.</strong> (равный, одинаковый)</p>
+<ol><li>Cut the cake into eight <em>equal</em> pieces.</li><li>One kilometer is <em>equal</em> to about 0.62 miles.</li><li>The two bedrooms are <em>equal</em> in size.</li></ol>
+<p><strong>2. Having the same rights, status or opportunities.</strong> (равноправный, равный)</p>
+<ol start="4"><li>The Declaration of Independence says that all men are created <em>equal</em>.</li><li>Women are still fighting for <em>equal</em> pay.</li><li>They're <em>equal</em> partners in the business.</li></ol>
+<p><strong>3. Having the ability or strength to deal with something.</strong> (способный справиться (с задачей))</p>
+<ol start="7"><li>She proved <em>equal</em> to the challenge.</li><li>I wasn't sure he was <em>equal</em> to the job.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

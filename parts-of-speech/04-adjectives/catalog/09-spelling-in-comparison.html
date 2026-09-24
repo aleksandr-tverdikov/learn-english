@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spelling changes in comparison</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="spelling-changes-in-comparison">Spelling changes in comparison<a class="hash" href="#spelling-changes-in-comparison" aria-label="link">#</a></h1>
+<blockquote><p><em>big</em>, <em>bigger</em>; <em>happy</em>, <em>happier</em>; <em>simple</em>, <em>simpler</em> — regular comparison with irregular spelling.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>The comparative and superlative are regular, but the spelling is not. One-syllable adjectives ending in consonant–vowel–consonant double the last letter (<em>big</em>, <em>bigger</em>); a final <em>-y</em> becomes <em>-i-</em> (<em>happy</em>, <em>happier</em>); a final <em>-e</em> just takes <em>-r</em> (<em>nice</em>, <em>nicer</em>); and a few two-syllable words take <em>-er</em> where learners expect <em>more</em> (<em>simpler</em>, <em>narrower</em>, <em>quieter</em>). Each entry spells both forms out.</p>
+<hr>
+<h3 id="big">big<a class="hash" href="#big" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪɡ/ &middot; <em>BIG</em></dd><dt>Русский</dt><dd>большой; крупный; важный</dd><dt>Type</dt><dd>size; also evaluative</dd><dt>Position</dt><dd>both — but <em>big</em> meaning older (<em>my big sister</em>) only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>bigger</em>, <em>biggest</em></dd><dt>Takes</dt><dd><em>on</em> + noun or <em>-ing</em> (informal: very enthusiastic about); <em>of</em> + person in <em>That's big of you</em></dd><dt>Opposite</dt><dd><em>small</em>, <em>little</em></dd><dt>Contrast</dt><dd>Double the <em>g</em>: <em>bigger</em>, <em>biggest</em>, never <em>biger</em>. <em>Big</em> and <em>large</em> both mean большой, but <em>large</em> is more formal and goes with <em>amount</em>, <em>number</em>, <em>quantity</em> and sizes; only <em>big</em> means important (<em>a big decision</em>), older (<em>my big brother</em>) or popular (<em>big in Japan</em>), so <em>a large mistake</em> and <em>my large brother</em> are wrong. In <em>think big</em> and <em>talk big</em>, <em>big</em> is an adverb.</dd></dl>
+<p>Big has 6 distinct senses.</p>
+<p><strong>1. Large in size, number or amount.</strong> (большой, крупный)</p>
+<ol><li>They live in a <em>big</em> house outside Denver.</li><li>Texas is <em>bigger</em> than France.</li><li>That was the <em>biggest</em> pizza I've ever seen.</li></ol>
+<p><strong>2. Important, serious or significant.</strong> (важный, серьёзный)</p>
+<ol start="4"><li>Getting married is a <em>big</em> decision.</li><li>It's no <em>big</em> deal, so don't worry about it.</li><li>The <em>biggest</em> problem is money.</li></ol>
+<p><strong>3. Older or grown-up; used mainly with children and about brothers and sisters.</strong> (старший; взрослый)</p>
+<ol start="7"><li>My <em>big</em> sister taught me to drive.</li><li>You're a <em>big</em> boy now, so you can tie your own shoes.</li></ol>
+<p><strong>4. Very popular or successful.</strong> (популярный, успешный)</p>
+<ol start="9"><li>The band is still <em>big</em> in Japan.</li><li>Podcasts got really <em>big</em> during the pandemic.</li><li>He was one of the <em>biggest</em> stars of the '80s.</li></ol>
+<p><strong>5. Doing something a lot or with great enthusiasm; informal <em>big on</em>: very enthusiastic about.</strong> (большой (любитель), заядлый; увлечённый)</p>
+<ol start="12"><li>I'm a <em>big</em> fan of her early work.</li><li>He's never been a <em>big</em> eater.</li><li>My dad is <em>big</em> on camping.</li></ol>
+<p><strong>6. Generous or kind; often said with irony.</strong> (великодушный, благородный)</p>
+<ol start="15"><li>It was <em>big</em> of him to admit he was wrong.</li><li>You're lending me a dollar? That's really <em>big</em> of you.</li></ol>
+<hr>
+<h3 id="fat">fat<a class="hash" href="#fat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fæt/ &middot; <em>FAT</em></dd><dt>Русский</dt><dd>толстый; жирный; крупный</dd><dt>Type</dt><dd>size; also quality</dd><dt>Position</dt><dd>both — but <em>fat</em> about money (<em>a fat bonus</em>) and in <em>fat chance</em> only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>fatter</em>, <em>fattest</em></dd><dt>Opposite</dt><dd><em>thin</em></dd><dt>Contrast</dt><dd>Double the <em>t</em>: <em>fatter</em>, <em>fattest</em>. Calling a person <em>fat</em> is rude in American English; say <em>overweight</em>, <em>heavy</em> or <em>big</em>. For food with a lot of fat, use <em>fatty</em> or <em>rich</em> (<em>fatty meat</em>), not <em>fat meat</em>; <em>low-fat</em> and <em>fat-free</em> use the noun <em>fat</em> (жир). <em>Fat chance</em> means the opposite of what it seems: almost no chance.</dd></dl>
+<p>Fat has 4 distinct senses.</p>
+<p><strong>1. Having a lot of extra flesh on the body.</strong> (толстый, полный)</p>
+<ol><li>The cat got <em>fat</em> after we moved to the city.</li><li>He was a <em>fat</em> kid, but he lost the weight in high school.</li><li>Our dog is <em>fatter</em> than the neighbor's.</li></ol>
+<p><strong>2. Thick, full or swollen.</strong> (толстый, пухлый, распухший)</p>
+<ol start="4"><li>She pulled a <em>fat</em> envelope out of her bag.</li><li>He came home from the game with a <em>fat</em> lip.</li><li>It's the <em>fattest</em> book on the reading list.</li></ol>
+<p><strong>3. Of money: large.</strong> (крупный, солидный)</p>
+<ol start="7"><li>She signed a <em>fat</em> contract with a big law firm.</li><li>The company lost money, but the CEO still got a <em>fat</em> bonus.</li></ol>
+<p><strong>4. Informal and ironic: very little or none, in <em>fat chance</em> and <em>a fat lot of good</em>.</strong> (никакой, ничтожный)</p>
+<ol start="9"><li>Will he pay you back? <em>Fat</em> chance.</li><li>A <em>fat</em> lot of good that did us.</li></ol>
+<hr>
+<h3 id="hot">hot<a class="hash" href="#hot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɑːt/ &middot; <em>HAHT</em></dd><dt>Русский</dt><dd>горячий; жаркий; острый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>hotter</em>, <em>hottest</em></dd><dt>Opposite</dt><dd><em>cold</em>; <em>mild</em> (food)</dd><dt>Contrast</dt><dd>Double the <em>t</em>: <em>hotter</em>, <em>hottest</em>. Russian splits heat in two, жаркий for weather and rooms and горячий for things you touch; English uses <em>hot</em> for both. <em>I'm hot</em> = мне жарко, never <em>It's hot to me</em>. Weather that is only pleasant is <em>warm</em> (тепло); <em>hot</em> is too much. <em>Hot</em> food can mean spicy (острый), so say <em>spicy</em> when you mean pepper. <em>Hot</em> about a person is informal and means sexy, so be careful with it.</dd></dl>
+<p>Hot has 10 distinct senses.</p>
+<p><strong>1. Of weather, a place or a time: having a high temperature.</strong> (жаркий)</p>
+<ol><li>It was a <em>hot</em> day in July.</li><li>Phoenix is one of the <em>hottest</em> cities in the country.</li><li>Why is it so <em>hot</em> in here?</li></ol>
+<p><strong>2. Of food, drink or an object: at a high temperature.</strong> (горячий)</p>
+<ol start="4"><li>Careful, the pan is <em>hot</em>.</li><li>I'd love a cup of <em>hot</em> coffee.</li><li>The water for tea should be <em>hotter</em> than that.</li></ol>
+<p><strong>3. Of a person: feeling too warm.</strong> ((кому-то) жарко)</p>
+<ol start="7"><li>I'm <em>hot</em>. Can we turn on the AC?</li><li>The kids were <em>hot</em> and tired after the hike.</li></ol>
+<p><strong>4. Spicy, with a burning taste.</strong> (острый)</p>
+<ol start="9"><li>This salsa is really <em>hot</em>.</li><li>Do you want the mild sauce or the <em>hot</em> one?</li><li>Their wings are the <em>hottest</em> in town.</li></ol>
+<p><strong>5. Very popular, successful or in demand at the moment.</strong> (модный, популярный, актуальный)</p>
+<ol start="12"><li>It's the <em>hottest</em> restaurant in Brooklyn right now.</li><li>Immigration was a <em>hot</em> topic in the debate.</li><li>The Celtics are <em>hot</em> and have won eight straight games.</li></ol>
+<p><strong>6. Full of strong feeling, especially anger or excitement.</strong> (горячий, бурный, вспыльчивый)</p>
+<ol start="15"><li>The meeting turned into a <em>hot</em> argument.</li><li>He has a <em>hot</em> temper.</li></ol>
+<p><strong>7. Informal: sexually attractive.</strong> (сексуальный, привлекательный)</p>
+<ol start="17"><li>All her friends thought the new lifeguard was <em>hot</em>.</li><li>He's even <em>hotter</em> in person.</li></ol>
+<p><strong>8. Informal: stolen.</strong> (краденый)</p>
+<ol start="19"><li>He didn't know the watch was <em>hot</em>.</li><li>The police traced the <em>hot</em> TVs to a warehouse.</li></ol>
+<p><strong>9. Of an electrical wire: carrying current.</strong> (под напряжением)</p>
+<ol start="21"><li>Don't touch the black wire; it's <em>hot</em>.</li><li>Connect the <em>hot</em> wire to the brass screw.</li></ol>
+<p><strong>10. In guessing and hiding games: very close to the answer.</strong> (горячо (в игре))</p>
+<ol start="23"><li>You're getting <em>hotter</em>. It's somewhere near the couch.</li><li>Now you're <em>hot</em>! Look under the pillow.</li></ol>
+<hr>
+<h3 id="sad">sad<a class="hash" href="#sad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sæd/ &middot; <em>SAD</em></dd><dt>Русский</dt><dd>грустный; печальный</dd><dt>Type</dt><dd>emotion; also evaluative</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>sadder</em>, <em>saddest</em></dd><dt>Takes</dt><dd><em>about</em> + noun or <em>-ing</em>; <em>for</em> + person (sad on their behalf); <em>to</em>-infinitive (<em>sad to hear</em>); <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#sad-about">sad about</a></dd><dt>Opposite</dt><dd><em>happy</em></dd><dt>Contrast</dt><dd>Double the <em>d</em>: <em>sadder</em>, <em>saddest</em>. The same word describes the person and the cause: <em>I'm sad</em> (мне грустно) and <em>a sad movie</em> (грустный фильм), with no <em>-ing/-ed</em> pair to choose from. Russian мне грустно is <em>I'm sad</em> or <em>I feel sad</em>, never <em>It's sad to me</em>. <em>A sad excuse for</em> is informal and scornful: a very bad example of something.</dd></dl>
+<p>Sad has 4 distinct senses.</p>
+<p><strong>1. Feeling unhappy.</strong> (грустный, печальный)</p>
+<ol><li>She was <em>sad</em> to leave her friends behind.</li><li>Don't look so <em>sad</em>. It's only a week.</li><li>I've never felt <em>sadder</em> than on the day we sold the farm.</li></ol>
+<p><strong>2. Making people feel unhappy.</strong> (грустный, печальный)</p>
+<ol start="4"><li>It's a <em>sad</em> movie, so bring tissues.</li><li>The <em>saddest</em> part is that nobody called her.</li></ol>
+<p><strong>3. Unfortunate and deserving regret or blame.</strong> (прискорбный, плачевный)</p>
+<ol start="6"><li>It's <em>sad</em> that so many kids go to school hungry.</li><li>The old theater is in a <em>sad</em> state.</li></ol>
+<p><strong>4. Informal: poor, pathetic or embarrassing.</strong> (жалкий)</p>
+<ol start="8"><li>That's a <em>sad</em> excuse for a burger.</li><li>I spent Saturday night alone with my laptop. How <em>sad</em> is that?</li></ol>
+<hr>
+<h3 id="thin">thin<a class="hash" href="#thin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θɪn/ &middot; <em>THIN</em></dd><dt>Русский</dt><dd>тонкий; худой; жидкий; редкий</dd><dt>Type</dt><dd>size; also quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>thinner</em>, <em>thinnest</em></dd><dt>Opposite</dt><dd><em>thick</em>; <em>fat</em></dd><dt>Contrast</dt><dd>Double the <em>n</em>: <em>thinner</em>, <em>thinnest</em>. Russian splits what English calls <em>thin</em>: тонкий (a slice, a wall), худой (a person), жидкий (soup, hair). About people, <em>thin</em> is neutral or slightly negative, <em>slim</em> is a compliment, and <em>skinny</em> is often negative. Russian тонкий about taste, humor or a difference is <em>subtle</em>, not <em>thin</em>: <em>a subtle joke</em>.</dd></dl>
+<p>Thin has 6 distinct senses.</p>
+<p><strong>1. Having a small distance between the two sides or surfaces.</strong> (тонкий)</p>
+<ol><li>Cut the cucumber into <em>thin</em> slices.</li><li>The walls in this apartment are really <em>thin</em>.</li><li>The ice is <em>thinner</em> near the middle of the lake.</li></ol>
+<p><strong>2. Of a person or animal: having little fat on the body.</strong> (худой)</p>
+<ol start="4"><li>He was tall and <em>thin</em>, with glasses.</li><li>She looked <em>thinner</em> after being sick.</li></ol>
+<p><strong>3. Of a liquid: watery, not thick.</strong> (жидкий)</p>
+<ol start="6"><li>The soup was too <em>thin</em> and bland.</li><li>Add water until the paint is <em>thin</em> enough to spray.</li></ol>
+<p><strong>4. Not dense; with few people, hairs or things, or with little oxygen in the air.</strong> (редкий, жидкий, немногочисленный; разреженный)</p>
+<ol start="8"><li>His hair is getting <em>thin</em> on top.</li><li>The crowd was <em>thin</em> for a Friday night.</li><li>The air is <em>thinner</em> up in the mountains.</li></ol>
+<p><strong>5. Weak and not convincing.</strong> (неубедительный, слабый)</p>
+<ol start="11"><li>The evidence against him is pretty <em>thin</em>.</li><li>That's a <em>thin</em> excuse.</li></ol>
+<p><strong>6. Of a voice or sound: high and weak.</strong> (тонкий, слабый)</p>
+<ol start="13"><li>She answered in a <em>thin</em>, shaky voice.</li><li>The cheap speakers sounded <em>thin</em>.</li></ol>
+<hr>
+<h3 id="wet">wet<a class="hash" href="#wet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛt/ &middot; <em>WET</em></dd><dt>Русский</dt><dd>мокрый; сырой; дождливый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>wetter</em>, <em>wettest</em></dd><dt>Opposite</dt><dd><em>dry</em></dd><dt>Contrast</dt><dd>Double the <em>t</em>: <em>wetter</em>, <em>wettest</em>. Russian влажный is usually not <em>wet</em>: say <em>damp</em> for clothes or walls, <em>humid</em> for air, <em>moist</em> for cake or skin; <em>wet</em> means really covered with water (мокрый). <em>Wet</em> is also a verb whose past form is usually <em>wet</em> (<em>The baby wet the bed</em>).</dd></dl>
+<p>Wet has 4 distinct senses.</p>
+<p><strong>1. Covered with or full of water or another liquid.</strong> (мокрый)</p>
+<ol><li>Take off those <em>wet</em> shoes before you come in.</li><li>My hair is still <em>wet</em>.</li><li>The grass was <em>wetter</em> than it looked.</li></ol>
+<p><strong>2. Of paint, ink or cement: not yet dry.</strong> (невысохший, непросохший)</p>
+<ol start="4"><li><em>Wet</em> paint. Do not touch.</li><li>Don't walk there; the concrete is still <em>wet</em>.</li></ol>
+<p><strong>3. Of weather or a season: rainy.</strong> (дождливый, сырой)</p>
+<ol start="6"><li>It's been a cold, <em>wet</em> spring.</li><li>November is usually the <em>wettest</em> month here.</li></ol>
+<p><strong>4. US: of a town or county: allowing the sale of alcohol.</strong> (где разрешена продажа алкоголя)</p>
+<ol start="8"><li>The county voted to go <em>wet</em> in 2012.</li><li>You have to drive to the next <em>wet</em> county to buy beer.</li></ol>
+<hr>
+<h3 id="fit">fit<a class="hash" href="#fit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪt/ &middot; <em>FIT</em></dd><dt>Русский</dt><dd>в хорошей форме; подходящий; пригодный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — but <em>fit for</em> and <em>fit to</em> (suitable) mostly after a verb</dd><dt>Comparison</dt><dd>-er/-est — <em>fitter</em>, <em>fittest</em></dd><dt>Takes</dt><dd><em>for</em> + noun (<em>fit for work</em>); <em>to</em>-infinitive (<em>fit to drive</em>)</dd><dt>Opposite</dt><dd><em>unfit</em>; <em>out of shape</em></dd><dt>Contrast</dt><dd>Double the <em>t</em>: <em>fitter</em>, <em>fittest</em> (<em>survival of the fittest</em>). Russian подходить по размеру is the verb <em>fit</em> (<em>The jacket fits</em>; past <em>fit</em> in American English), not the adjective, so <em>The jacket is fit</em> is wrong. The adjective means healthy, or good enough in quality (<em>fit to eat</em>). In everyday American speech <em>in shape</em> is often more natural: <em>I'm out of shape</em>. British slang <em>fit</em> (attractive) is not American.</dd></dl>
+<p>Fit has 3 distinct senses.</p>
+<p><strong>1. Healthy and strong, especially from exercise.</strong> (в хорошей форме, спортивный)</p>
+<ol><li>My grandmother is really <em>fit</em> for her age.</li><li>He's a <em>fit</em>, athletic guy who runs every morning.</li><li>I'm <em>fitter</em> now than I was in college.</li></ol>
+<p><strong>2. Good enough or suitable for a purpose.</strong> (подходящий, пригодный)</p>
+<ol start="4"><li>The water isn't <em>fit</em> to drink.</li><li>After the flood, the house was no longer <em>fit</em> for people to live in.</li><li>He'd had three beers and wasn't <em>fit</em> to drive.</li></ol>
+<p><strong>3. Right or proper, in <em>see fit</em>: to decide that something is right.</strong> ((считать) нужным, уместным)</p>
+<ol start="7"><li>Spend the money however you see <em>fit</em>.</li><li>The judge can give whatever sentence she sees <em>fit</em>.</li></ol>
+<hr>
+<h3 id="flat">flat<a class="hash" href="#flat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flæt/ &middot; <em>FLAT</em></dd><dt>Русский</dt><dd>плоский; ровный; спущенный; фиксированный</dd><dt>Type</dt><dd>shape; also quality</dd><dt>Position</dt><dd>both — but <em>flat</em> meaning fixed (<em>a flat fee</em>) or complete (<em>a flat refusal</em>) only before a noun, and after the note name in <em>B flat</em></dd><dt>Comparison</dt><dd>-er/-est — <em>flatter</em>, <em>flattest</em></dd><dt>Opposite</dt><dd><em>hilly</em>, <em>bumpy</em>; <em>sharp</em> (music)</dd><dt>Contrast</dt><dd>Double the <em>t</em>: <em>flatter</em>, <em>flattest</em>, spelled like the verb <em>flatter</em> (льстить). <em>A flat</em> meaning an apartment is British; Americans say <em>apartment</em>, and in American speech <em>a flat</em> is usually a flat tire. An empty battery is <em>dead</em> in American English, not <em>flat</em>. In <em>lie flat</em>, <em>fall flat</em> and <em>in ten seconds flat</em>, <em>flat</em> is an adverb.</dd></dl>
+<p>Flat has 10 distinct senses.</p>
+<p><strong>1. Level and smooth, without hills, bumps or holes.</strong> (ровный, плоский)</p>
+<ol><li>Kansas is famously <em>flat</em>.</li><li>Lay the map on a <em>flat</em> surface.</li><li>The land gets <em>flatter</em> as you drive east.</li></ol>
+<p><strong>2. Wide but not deep or high; of shoes: without a raised heel.</strong> (плоский; без каблука)</p>
+<ol start="4"><li>She keeps her jewelry in a <em>flat</em> wooden box.</li><li>Wear <em>flat</em> shoes, because we'll be walking a lot.</li></ol>
+<p><strong>3. Of a tire or ball: without enough air in it.</strong> (спущенный)</p>
+<ol start="6"><li>We got a <em>flat</em> tire on the way to the airport.</li><li>The basketball is <em>flat</em> again.</li></ol>
+<p><strong>4. Of a drink: no longer fizzy.</strong> (выдохшийся)</p>
+<ol start="8"><li>The soda went <em>flat</em> because someone left the cap off.</li><li>This beer tastes <em>flat</em>.</li></ol>
+<p><strong>5. Of paint or a surface finish: not shiny.</strong> (матовый)</p>
+<ol start="10"><li>We used <em>flat</em> paint on the ceiling.</li><li>A <em>flat</em> finish hides small dents in the wall better than a glossy one.</li></ol>
+<p><strong>6. Dull, without feeling, energy or interest.</strong> (монотонный, безжизненный, вялый)</p>
+<ol start="12"><li>He spoke in a <em>flat</em>, tired voice.</li><li>The second half of the movie felt <em>flat</em>.</li></ol>
+<p><strong>7. Of sales, prices or growth: not rising.</strong> (без изменений, на одном уровне)</p>
+<ol start="14"><li>Sales were <em>flat</em> in the third quarter.</li><li>Wages have stayed <em>flat</em> for years.</li></ol>
+<p><strong>8. Of a price or charge: the same in every case.</strong> (фиксированный)</p>
+<ol start="16"><li>The lawyer charges a <em>flat</em> fee of $500.</li><li>They offer a <em>flat</em> rate for shipping.</li></ol>
+<p><strong>9. Complete and firm, with no discussion.</strong> (категорический)</p>
+<ol start="18"><li>Her answer was a <em>flat</em> no.</li><li>The senator issued a <em>flat</em> denial.</li></ol>
+<p><strong>10. In music: lower than the correct note; after a note name, a half step lower.</strong> (ниже нужного тона; бемоль)</p>
+<ol start="20"><li>The piece is in B <em>flat</em>.</li><li>The violins sounded a little <em>flat</em>.</li></ol>
+<hr>
+<h3 id="slim">slim<a class="hash" href="#slim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slɪm/ &middot; <em>SLIM</em></dd><dt>Русский</dt><dd>стройный; тонкий; небольшой</dd><dt>Type</dt><dd>size; also quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>slimmer</em>, <em>slimmest</em></dd><dt>Opposite</dt><dd><em>heavy</em>; <em>good</em> (a good chance)</dd><dt>Contrast</dt><dd>Double the <em>m</em>: <em>slimmer</em>, <em>slimmest</em>. About people, <em>slim</em> is a compliment, <em>thin</em> is neutral and <em>skinny</em> often is not. <em>A slim chance</em> and <em>slim hopes</em> are very small ones (мало шансов) and have nothing to do with shape. <em>Slim down</em> is a phrasal verb (худеть).</dd></dl>
+<p>Slim has 3 distinct senses.</p>
+<p><strong>1. Of a person: thin in an attractive way.</strong> (стройный)</p>
+<ol><li>She's tall and <em>slim</em>, with short dark hair.</li><li>He looks <em>slimmer</em> since he started cycling.</li></ol>
+<p><strong>2. Of an object: thin or narrow.</strong> (тонкий, узкий)</p>
+<ol start="3"><li>The new phone is <em>slimmer</em> and lighter.</li><li>He published a <em>slim</em> book of poems.</li><li>These jeans have a <em>slim</em> fit.</li></ol>
+<p><strong>3. Of a chance, amount or difference: very small.</strong> (небольшой, незначительный)</p>
+<ol start="6"><li>There's only a <em>slim</em> chance of finding survivors.</li><li>She won by the <em>slimmest</em> of margins.</li><li>Pickings are <em>slim</em> this late in the season.</li></ol>
+<hr>
+<h3 id="grim">grim<a class="hash" href="#grim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrɪm/ &middot; <em>GRIM</em></dd><dt>Русский</dt><dd>мрачный; суровый; удручающий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — but <em>grim</em> meaning determined (<em>grim determination</em>) only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>grimmer</em>, <em>grimmest</em></dd><dt>Contrast</dt><dd>Double the <em>m</em>: <em>grimmer</em>, <em>grimmest</em>. <em>Grim</em> is not simply dark: about a face it means serious and stern (суровый), about news or a situation very bad and worrying (мрачный, удручающий). A room with little light is <em>dark</em> or <em>dim</em>, not <em>grim</em>; a <em>grim</em> room is depressing to be in. <em>The Grim Reaper</em> is the figure of Death.</dd></dl>
+<p>Grim has 4 distinct senses.</p>
+<p><strong>1. Of a face or expression: very serious and stern.</strong> (суровый, мрачный)</p>
+<ol><li>The doctor came out with a <em>grim</em> look on her face.</li><li>His expression grew <em>grimmer</em> as he read the letter.</li></ol>
+<p><strong>2. Very bad, worrying or depressing.</strong> (мрачный, удручающий, безрадостный)</p>
+<ol start="3"><li>The economic news is <em>grim</em>.</li><li>Things look <em>grim</em> for the home team.</li><li>It was the <em>grimmest</em> winter anyone could remember.</li></ol>
+<p><strong>3. Of a place: unpleasant and depressing to be in.</strong> (унылый, мрачный)</p>
+<ol start="6"><li>They spent the night in a <em>grim</em> motel off the highway.</li><li>The waiting room was gray and <em>grim</em>.</li></ol>
+<p><strong>4. Determined and not giving up, even when things are hard.</strong> (упорный, отчаянный)</p>
+<ol start="8"><li>She held on with <em>grim</em> determination.</li><li>The workers fought a <em>grim</em> battle to keep the factory open.</li></ol>
+<hr>
+<h3 id="dim">dim<a class="hash" href="#dim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪm/ &middot; <em>DIM</em></dd><dt>Русский</dt><dd>тусклый; смутный; туповатый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — but <em>dim</em> in <em>take a dim view</em> only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>dimmer</em>, <em>dimmest</em></dd><dt>Opposite</dt><dd><em>bright</em></dd><dt>Contrast</dt><dd>Double the <em>m</em>: <em>dimmer</em>, <em>dimmest</em>. <em>A dimmer</em> is also a noun, a switch that makes lights less bright (диммер). <em>Take a dim view of</em> means disapprove of (относиться неодобрительно), not see badly. Calling a person <em>dim</em> is informal and unkind. <em>Dim</em> is also a verb: <em>dim the lights</em>.</dd></dl>
+<p>Dim has 5 distinct senses.</p>
+<p><strong>1. Not bright; with little light.</strong> (тусклый, полутёмный)</p>
+<ol><li>The bar was <em>dim</em> and smoky.</li><li>She read by the <em>dim</em> light of a candle.</li><li>The lights get <em>dimmer</em> when the AC turns on.</li></ol>
+<p><strong>2. Hard to see, hear or remember clearly.</strong> (смутный, неясный)</p>
+<ol start="4"><li>I have only a <em>dim</em> memory of my grandfather.</li><li>We saw a <em>dim</em> shape moving in the fog.</li></ol>
+<p><strong>3. Of chances or prospects: not hopeful.</strong> (слабый, призрачный)</p>
+<ol start="6"><li>Prospects for a deal look <em>dim</em>.</li><li>His chances of winning grow <em>dimmer</em> every day.</li></ol>
+<p><strong>4. Informal: not intelligent.</strong> (туповатый, недалёкий)</p>
+<ol start="8"><li>He's nice, but a little <em>dim</em>.</li><li>He's not <em>dim</em>, just a little lazy.</li></ol>
+<p><strong>5. Disapproving, in <em>take a dim view of</em>.</strong> (неодобрительный)</p>
+<ol start="10"><li>The school takes a <em>dim</em> view of cheating.</li><li>My parents took a <em>dim</em> view of my new boyfriend.</li></ol>
+<hr>
+<h3 id="red">red<a class="hash" href="#red" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɛd/ &middot; <em>RED</em></dd><dt>Русский</dt><dd>красный; рыжий</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>redder</em>, <em>reddest</em></dd><dt>Contrast</dt><dd>Double the <em>d</em>: <em>redder</em>, <em>reddest</em>. Red hair is <em>red</em> (рыжий) in American English; <em>ginger</em> is mainly British and <em>orange hair</em> means dyed. In US politics <em>red</em> means Republican and <em>blue</em> means Democratic, the opposite of the old link between red and the left, so <em>a red state</em> is a conservative one. <em>In the red</em> (в минусе) uses the noun.</dd></dl>
+<p>Red has 4 distinct senses.</p>
+<p><strong>1. Having the color of blood or ripe tomatoes.</strong> (красный)</p>
+<ol><li>She wore a <em>red</em> dress to the party.</li><li>Stop when the light turns <em>red</em>.</li><li>These tomatoes are <em>redder</em> than the ones from the store.</li></ol>
+<p><strong>2. Of hair or fur: orange-brown.</strong> (рыжий)</p>
+<ol start="4"><li>Both of their kids have <em>red</em> hair.</li><li>A <em>red</em> fox ran across the road.</li></ol>
+<p><strong>3. Of the face or eyes: red because of anger, embarrassment, crying or tiredness.</strong> (покрасневший, красный)</p>
+<ol start="6"><li>He turned <em>red</em> when she mentioned his name.</li><li>Her eyes were <em>red</em> from crying.</li><li>His face got <em>redder</em> and <em>redder</em>.</li></ol>
+<p><strong>4. US politics: voting mostly for the Republican Party.</strong> (республиканский (о штате, округе))</p>
+<ol start="9"><li>Wyoming is one of the <em>reddest</em> states in the country.</li><li>The rural counties are deep <em>red</em>.</li></ol>
+<hr>
+<h3 id="happy">happy<a class="hash" href="#happy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæpi/ &middot; <em>HAP-ee</em></dd><dt>Русский</dt><dd>счастливый; довольный; радостный</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>both — but <em>happy</em> in greetings (<em>Happy birthday</em>) and meaning lucky (<em>a happy accident</em>) only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>happier</em>, <em>happiest</em></dd><dt>Takes</dt><dd><em>with</em> or <em>about</em> + noun (satisfied); <em>for</em> + person (glad for their sake); <em>to</em>-infinitive (glad, willing); <em>that</em>-clause</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#happy-about">happy about</a></dd><dt>Opposite</dt><dd><em>unhappy</em>, <em>sad</em></dd><dt>Contrast</dt><dd><em>y</em> becomes <em>i</em>: <em>happier</em>, <em>happiest</em>, <em>happily</em>, <em>happiness</em>; <em>more happy</em> is rare. <em>Happy to</em> often means willing (<em>I'm happy to help</em> = охотно помогу), not счастлив. <em>Happy for you</em> = рад за тебя; <em>happy with</em> = доволен (<em>I'm happy with my new car</em>). Russian счастливый meaning lucky (<em>счастливый билет</em>) is <em>lucky</em>, not <em>happy</em>.</dd></dl>
+<p>Happy has 7 distinct senses.</p>
+<p><strong>1. Feeling pleasure, joy or contentment.</strong> (счастливый, радостный)</p>
+<ol><li>The kids looked so <em>happy</em> on Christmas morning.</li><li>We're very <em>happy</em> together.</li><li>I've never been <em>happier</em>.</li></ol>
+<p><strong>2. Satisfied with something.</strong> (довольный)</p>
+<ol start="4"><li>Are you <em>happy</em> with the service?</li><li>My boss wasn't <em>happy</em> about the delay.</li></ol>
+<p><strong>3. Pleased about something, or willing to do something.</strong> (рад; охотно готов)</p>
+<ol start="6"><li>I'd be <em>happy</em> to show you around.</li><li>We're <em>happy</em> that you could come.</li></ol>
+<p><strong>4. Glad because something good has happened to someone else.</strong> (рад (за кого-то))</p>
+<ol start="8"><li>I'm so <em>happy</em> for you both!</li><li>We were <em>happy</em> for her when she got the job.</li></ol>
+<p><strong>5. Bringing or showing happiness.</strong> (счастливый, радостный)</p>
+<ol start="10"><li>The movie has a <em>happy</em> ending.</li><li>That was the <em>happiest</em> day of my life.</li></ol>
+<p><strong>6. Used in good wishes for a holiday or special day.</strong> (с (праздником, днём рождения))</p>
+<ol start="12"><li><em>Happy</em> birthday, Mom!</li><li><em>Happy</em> holidays from all of us.</li></ol>
+<p><strong>7. Lucky and fortunate.</strong> (удачный, счастливый)</p>
+<ol start="14"><li>Meeting her there was a <em>happy</em> accident.</li><li>By a <em>happy</em> coincidence, we were on the same flight.</li></ol>
+<hr>
+<h3 id="funny">funny<a class="hash" href="#funny" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʌni/ &middot; <em>FUHN-ee</em></dd><dt>Русский</dt><dd>смешной; забавный; странный</dd><dt>Type</dt><dd>evaluative; also quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>funnier</em>, <em>funniest</em></dd><dt>Contrast</dt><dd><em>y</em> becomes <em>i</em>: <em>funnier</em>, <em>funniest</em>. <em>Funny</em> is not <em>fun</em>: <em>funny</em> makes you laugh (смешной) or is strange (странный), while <em>fun</em> means enjoyable (весёлый, <em>a fun party</em>). <em>The trip was funny</em> means something made you laugh, not that you had a good time. Because <em>funny</em> can also mean odd, Americans sometimes ask <em>funny ha-ha or funny weird?</em></dd></dl>
+<p>Funny has 4 distinct senses.</p>
+<p><strong>1. Making you laugh.</strong> (смешной, забавный)</p>
+<ol><li>He told a really <em>funny</em> story about his first job.</li><li>She's the <em>funniest</em> person I know.</li><li>The sequel is even <em>funnier</em> than the original.</li></ol>
+<p><strong>2. Strange or surprising.</strong> (странный, чудной)</p>
+<ol start="4"><li>The car is making a <em>funny</em> noise.</li><li>That's <em>funny</em>. I'm sure I left my keys on the table.</li><li>It's <em>funny</em> how things work out.</li></ol>
+<p><strong>3. Informal: slightly ill, or not working normally.</strong> (нехорошо, не по себе)</p>
+<ol start="7"><li>I feel a little <em>funny</em>, so I think I'll sit down.</li><li>My knee has been <em>funny</em> since I fell.</li></ol>
+<p><strong>4. Informal: dishonest or suspicious.</strong> (подозрительный, нечестный)</p>
+<ol start="9"><li>Don't try anything <em>funny</em>.</li><li>The auditors noticed something <em>funny</em> in the accounts.</li></ol>
+<hr>
+<h3 id="heavy">heavy<a class="hash" href="#heavy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛvi/ &middot; <em>HEV-ee</em></dd><dt>Русский</dt><dd>тяжёлый; сильный; плотный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — but <em>heavy</em> meaning doing a lot (<em>a heavy smoker</em>) only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>heavier</em>, <em>heaviest</em></dd><dt>Takes</dt><dd><em>with</em> + noun (full of, loaded with)</dd><dt>Opposite</dt><dd><em>light</em></dd><dt>Contrast</dt><dd><em>y</em> becomes <em>i</em>: <em>heavier</em>, <em>heaviest</em>. Russian сильный with rain, snow, traffic, drinking or smoking is <em>heavy</em> in English: <em>heavy rain</em>, <em>heavy traffic</em>, <em>a heavy smoker</em>, never <em>strong rain</em> or <em>big traffic</em>. About a person, <em>heavy</em> is a polite word for fat. <em>Heavy cream</em> is the American name for whipping cream (жирные сливки).</dd></dl>
+<p>Heavy has 10 distinct senses.</p>
+<p><strong>1. Weighing a lot; hard to lift or move.</strong> (тяжёлый)</p>
+<ol><li>This suitcase is too <em>heavy</em> to carry up the stairs.</li><li>Gold is <em>heavier</em> than silver.</li><li>Jupiter is the <em>heaviest</em> planet.</li></ol>
+<p><strong>2. Of a person: large and fat.</strong> (полный, грузный)</p>
+<ol start="4"><li>He was a <em>heavy</em> man with a gray beard.</li><li>She got <em>heavier</em> after she quit smoking.</li></ol>
+<p><strong>3. Greater in amount or force than usual.</strong> (сильный, интенсивный, большой)</p>
+<ol start="6"><li><em>Heavy</em> rain is expected tonight.</li><li>Traffic on I-95 was <em>heavy</em> this morning.</li><li>The storm caused <em>heavy</em> damage.</li></ol>
+<p><strong>4. Doing something a lot.</strong> (заядлый; сильно (пьющий, курящий))</p>
+<ol start="9"><li>My uncle was a <em>heavy</em> smoker.</li><li>He's a <em>heavy</em> user of social media.</li></ol>
+<p><strong>5. Serious, sad or hard to deal with.</strong> (тяжёлый, серьёзный, гнетущий)</p>
+<ol start="11"><li>The movie is pretty <em>heavy</em> for a Friday night.</li><li>She left with a <em>heavy</em> heart.</li><li>Things got <em>heavy</em> when we started talking about money.</li></ol>
+<p><strong>6. Thick, strong or dense.</strong> (плотный, толстый)</p>
+<ol start="14"><li>Bring a <em>heavy</em> coat, because it's cold up there.</li><li>Whip the <em>heavy</em> cream until it forms peaks.</li></ol>
+<p><strong>7. Of food: rich and hard to digest.</strong> (тяжёлый, сытный)</p>
+<ol start="16"><li>I had a <em>heavy</em> lunch and now I'm sleepy.</li><li>The sauce is too <em>heavy</em> for summer.</li></ol>
+<p><strong>8. Of air or weather: warm, humid and unpleasant.</strong> (душный, тяжёлый)</p>
+<ol start="18"><li>The air was hot and <em>heavy</em> before the storm.</li><li>It feels <em>heavier</em> today, like it's going to rain.</li></ol>
+<p><strong>9. Full of or loaded with something.</strong> (полный, отягощённый)</p>
+<ol start="20"><li>The trees were <em>heavy</em> with apples.</li><li>Her voice was <em>heavy</em> with sarcasm.</li></ol>
+<p><strong>10. Slow, loud or needing a lot of effort.</strong> (тяжёлый, грузный)</p>
+<ol start="22"><li>We heard <em>heavy</em> footsteps on the stairs.</li><li>My legs felt <em>heavy</em> after the run.</li></ol>
+<hr>
+<h3 id="lazy">lazy<a class="hash" href="#lazy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪzi/ &middot; <em>LAY-zee</em></dd><dt>Русский</dt><dd>ленивый; неторопливый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>lazier</em>, <em>laziest</em></dd><dt>Opposite</dt><dd><em>hardworking</em></dd><dt>Contrast</dt><dd><em>y</em> becomes <em>i</em>: <em>lazier</em>, <em>laziest</em>, <em>lazily</em>. About a person, <em>lazy</em> is a criticism (ленивый); about an afternoon or a river it is pleasant: slow and relaxed (неторопливый). <em>Lazy</em> work or thinking shows too little effort (халтурный), which is harsher than <em>careless</em>.</dd></dl>
+<p>Lazy has 3 distinct senses.</p>
+<p><strong>1. Not willing to work or make an effort.</strong> (ленивый)</p>
+<ol><li>He's too <em>lazy</em> to cook, so he orders pizza.</li><li>My brother is even <em>lazier</em> than I am.</li><li>Don't be so <em>lazy</em>. Get up and help.</li></ol>
+<p><strong>2. Slow and relaxed, with little activity.</strong> (неторопливый, расслабленный)</p>
+<ol start="4"><li>We spent a <em>lazy</em> Sunday afternoon at the lake.</li><li>The river moved in <em>lazy</em> curves through the valley.</li></ol>
+<p><strong>3. Showing too little care, effort or thought.</strong> (небрежный, халтурный)</p>
+<ol start="6"><li>That's just <em>lazy</em> writing.</li><li>Blaming the players is the <em>laziest</em> explanation.</li></ol>
+<hr>
+<h3 id="pretty">pretty<a class="hash" href="#pretty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪti/ &middot; <em>PRIT-ee</em></dd><dt>Русский</dt><dd>хорошенький; миловидный; красивый</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both — but <em>pretty</em> in <em>a pretty penny</em> only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>prettier</em>, <em>prettiest</em></dd><dt>Opposite</dt><dd><em>ugly</em>, <em>plain</em></dd><dt>Contrast</dt><dd><em>y</em> becomes <em>i</em>: <em>prettier</em>, <em>prettiest</em>. The adverb <em>pretty</em> (довольно) is more common in American speech than the adjective and has nothing to do with beauty: <em>pretty ugly</em> = довольно уродливый. The adjective is weaker than <em>beautiful</em> and is used for women, children and things; for a man, say <em>handsome</em> or <em>good-looking</em>.</dd></dl>
+<p>Pretty has 3 distinct senses.</p>
+<p><strong>1. Of a woman, girl or child: attractive in a delicate way.</strong> (хорошенький, миловидный)</p>
+<ol><li>She was a <em>pretty</em> girl with long curly hair.</li><li>Your daughter gets <em>prettier</em> every year.</li></ol>
+<p><strong>2. Of a thing or place: pleasant to look at or listen to.</strong> (красивый, милый)</p>
+<ol start="3"><li>They live in a <em>pretty</em> little town in Vermont.</li><li>What a <em>pretty</em> dress!</li><li>It's the <em>prettiest</em> beach on the island.</li></ol>
+<p><strong>3. Informal, in fixed phrases: large, in <em>a pretty penny</em>, or unpleasant, in <em>not a pretty sight</em>.</strong> (немалый; неприглядный)</p>
+<ol start="6"><li>That house must have cost a <em>pretty</em> penny.</li><li>After the storm, the yard was not a <em>pretty</em> sight.</li></ol>
+<hr>
+<h3 id="tidy">tidy<a class="hash" href="#tidy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪdi/ &middot; <em>TY-dee</em></dd><dt>Русский</dt><dd>аккуратный; опрятный; прибранный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — but <em>tidy</em> meaning large (<em>a tidy sum</em>) only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>tidier</em>, <em>tidiest</em></dd><dt>Opposite</dt><dd><em>messy</em>, <em>untidy</em></dd><dt>Contrast</dt><dd><em>y</em> becomes <em>i</em>: <em>tidier</em>, <em>tidiest</em>. <em>Tidy</em> sounds a little British; Americans more often call a room <em>neat</em> or <em>clean</em>, and <em>clean up</em> or <em>straighten up</em> a room more often than they <em>tidy it up</em>. <em>A tidy sum</em> has nothing to do with order: it means a lot of money (кругленькая сумма).</dd></dl>
+<p>Tidy has 4 distinct senses.</p>
+<p><strong>1. Of a place or thing: neat and in order.</strong> (аккуратный, прибранный)</p>
+<ol><li>Her desk is always <em>tidy</em>.</li><li>The kitchen looks <em>tidier</em> than it did this morning.</li><li>They keep a <em>tidy</em> little garden.</li></ol>
+<p><strong>2. Of a person: liking to keep things neat.</strong> (аккуратный, опрятный)</p>
+<ol start="4"><li>My roommate is much <em>tidier</em> than I am.</li><li>He's a <em>tidy</em> dresser.</li></ol>
+<p><strong>3. Neat, simple and well organized.</strong> (чёткий, аккуратный)</p>
+<ol start="6"><li>The show wraps everything up in a <em>tidy</em> ending.</li><li>Real life is rarely that <em>tidy</em>.</li></ol>
+<p><strong>4. Informal, of money: fairly large.</strong> (кругленький, изрядный)</p>
+<ol start="8"><li>They sold the house for a <em>tidy</em> profit.</li><li>She earns a <em>tidy</em> sum as a consultant.</li></ol>
+<hr>
+<h3 id="angry">angry<a class="hash" href="#angry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋɡri/ &middot; <em>ANG-gree</em></dd><dt>Русский</dt><dd>сердитый; злой; разгневанный</dd><dt>Type</dt><dd>emotion</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>angrier</em>, <em>angriest</em></dd><dt>Takes</dt><dd><em>at</em> or <em>with</em> + person; <em>about</em> or <em>over</em> + thing or situation; <em>that</em>-clause; <em>to</em>-infinitive (<em>angry to hear</em>)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#angry-with">angry with</a></dd><dt>Opposite</dt><dd><em>calm</em></dd><dt>Contrast</dt><dd><em>y</em> becomes <em>i</em>: <em>angrier</em>, <em>angriest</em>; <em>more angry</em> is also heard. The preposition depends on the target: <em>angry at</em> or <em>with</em> someone, <em>angry about</em> or <em>over</em> something, never <em>angry on</em>. Russian злой about a person's or a dog's nature is <em>mean</em> or <em>vicious</em>, not <em>angry</em>: <em>angry</em> is a feeling at a given moment. <em>Mad</em> is the everyday American word (<em>She's mad at me</em>).</dd></dl>
+<p>Angry has 3 distinct senses.</p>
+<p><strong>1. Feeling or showing strong annoyance.</strong> (сердитый, злой)</p>
+<ol><li>She was <em>angry</em> with me for forgetting her birthday.</li><li>An <em>angry</em> crowd gathered outside city hall.</li><li>Voters are <em>angrier</em> about prices than about crime.</li></ol>
+<p><strong>2. Of a wound or rash: red, swollen and painful.</strong> (воспалённый)</p>
+<ol start="4"><li>He had an <em>angry</em> red scar on his arm.</li><li>The bite turned into an <em>angry</em> rash.</li></ol>
+<p><strong>3. Of the sky or sea: dark and stormy.</strong> (грозный, бурный)</p>
+<ol start="6"><li><em>Angry</em> clouds rolled in from the west.</li><li>The sea looked gray and <em>angry</em>.</li></ol>
+<hr>
+<h3 id="hungry">hungry<a class="hash" href="#hungry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌŋɡri/ &middot; <em>HUHNG-gree</em></dd><dt>Русский</dt><dd>голодный; жаждущий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>hungrier</em>, <em>hungriest</em></dd><dt>Takes</dt><dd><em>for</em> + noun (wanting something strongly)</dd><dt>Opposite</dt><dd><em>full</em></dd><dt>Contrast</dt><dd><em>y</em> becomes <em>i</em>: <em>hungrier</em>, <em>hungriest</em>. <em>I'm hungry</em> = я голоден, хочу есть. <em>Very hungry</em> is fine, but <em>starving</em> is already extreme: <em>I'm starving</em>, not <em>very starving</em>. In <em>hungry for success</em>, <em>hungry</em> means eager (жаждущий), and a <em>hungry</em> player is an ambitious one. <em>The hungry</em> means people who do not have enough food.</dd></dl>
+<p>Hungry has 3 distinct senses.</p>
+<p><strong>1. Wanting or needing food.</strong> (голодный)</p>
+<ol><li>I'm <em>hungry</em>. Let's get something to eat.</li><li>The <em>hungry</em> kids ate everything on the table.</li><li>I was <em>hungrier</em> than I thought.</li></ol>
+<p><strong>2. Not having enough food to live on, over a long time.</strong> (голодающий)</p>
+<ol start="4"><li>The food bank feeds <em>hungry</em> families across the city.</li><li>Millions of children still go to bed <em>hungry</em>.</li></ol>
+<p><strong>3. Having a strong wish for something; eager and ambitious.</strong> (жаждущий; честолюбивый)</p>
+<ol start="6"><li>The team is <em>hungry</em> for a championship.</li><li>They hired a young, <em>hungry</em> sales team.</li><li>After losing last year, she's <em>hungrier</em> than ever.</li></ol>
+<hr>
+<h3 id="noisy">noisy<a class="hash" href="#noisy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɔɪzi/ &middot; <em>NOY-zee</em></dd><dt>Русский</dt><dd>шумный; крикливый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>noisier</em>, <em>noisiest</em></dd><dt>Opposite</dt><dd><em>quiet</em></dd><dt>Contrast</dt><dd><em>y</em> becomes <em>i</em>: <em>noisier</em>, <em>noisiest</em>. <em>Loud</em> describes the sound itself (громкий: <em>loud music</em>, <em>a loud voice</em>); <em>noisy</em> describes the people, machines or places that make too much noise (<em>noisy neighbors</em>, <em>a noisy bar</em>). <em>Noisy music</em> is wrong; say <em>loud music</em>.</dd></dl>
+<p>Noisy has 3 distinct senses.</p>
+<p><strong>1. Making a lot of noise, or full of noise.</strong> (шумный)</p>
+<ol><li>Our upstairs neighbors are really <em>noisy</em>.</li><li>We couldn't talk in such a <em>noisy</em> restaurant.</li><li>The new dishwasher is <em>noisier</em> than the old one.</li></ol>
+<p><strong>2. Loudly demanding attention or complaining.</strong> (крикливый, шумный)</p>
+<ol start="4"><li>A small but <em>noisy</em> group opposed the plan.</li><li>The protests got <em>noisier</em> after the vote.</li></ol>
+<p><strong>3. Of data or a signal: mixed with unwanted random information.</strong> (зашумлённый)</p>
+<ol start="6"><li>The data from the sensor was too <em>noisy</em> to use.</li><li>The recording is <em>noisy</em>, but you can hear the words.</li></ol>
+<hr>
+<h3 id="dirty">dirty<a class="hash" href="#dirty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɜːrti/ &middot; <em>DUR-tee</em></dd><dt>Русский</dt><dd>грязный; нечестный; неприличный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — but <em>dirty</em> about a look (<em>a dirty look</em>) or a color (<em>dirty blond</em>) only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>dirtier</em>, <em>dirtiest</em></dd><dt>Opposite</dt><dd><em>clean</em></dd><dt>Contrast</dt><dd><em>y</em> becomes <em>i</em>: <em>dirtier</em>, <em>dirtiest</em>. Russian грязный covers more than <em>dirty</em>: a road covered in mud is <em>muddy</em>, and very dirty is <em>filthy</em>. <em>A dirty look</em> is an angry glance (злой взгляд), not an unwashed face; <em>dirty blond</em> is a dull, darker blond. <em>Dirty</em> is also a verb (<em>Don't dirty the carpet</em>).</dd></dl>
+<p>Dirty has 7 distinct senses.</p>
+<p><strong>1. Not clean.</strong> (грязный)</p>
+<ol><li>Put your <em>dirty</em> clothes in the basket.</li><li>The kitchen floor is <em>dirty</em> again.</li><li>This is the <em>dirtiest</em> car I've ever seen.</li></ol>
+<p><strong>2. Dishonest, unfair or illegal.</strong> (нечестный, грязный)</p>
+<ol start="4"><li>The campaign used <em>dirty</em> tricks to win.</li><li>He was accused of being a <em>dirty</em> cop.</li><li>Politics is getting <em>dirtier</em> every year.</li></ol>
+<p><strong>3. About sex in a rude way.</strong> (неприличный, пошлый)</p>
+<ol start="7"><li>He told a <em>dirty</em> joke at dinner.</li><li>You have a <em>dirty</em> mind!</li></ol>
+<p><strong>4. Unpleasant or hard, and often not respected.</strong> (грязный, чёрный (о работе))</p>
+<ol start="9"><li>She let other people do the <em>dirty</em> work.</li><li>Mining is hard, <em>dirty</em> work.</li></ol>
+<p><strong>5. Angry or disapproving, in <em>a dirty look</em>.</strong> (злой, неодобрительный (взгляд))</p>
+<ol start="11"><li>She gave me a <em>dirty</em> look when I laughed.</li><li>Why are you giving me <em>dirty</em> looks?</li></ol>
+<p><strong>6. Of a color: dull and not bright.</strong> (грязно-, тусклый)</p>
+<ol start="13"><li>He has <em>dirty</em> blond hair.</li><li>The walls were a <em>dirty</em> white.</li></ol>
+<p><strong>7. Causing a lot of pollution.</strong> (загрязняющий, грязный)</p>
+<ol start="15"><li>Coal is one of the <em>dirtiest</em> sources of energy.</li><li>The old plant still burns <em>dirty</em> fuel.</li></ol>
+<hr>
+<h3 id="dry">dry<a class="hash" href="#dry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/draɪ/ &middot; <em>DRY</em></dd><dt>Русский</dt><dd>сухой; засушливый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>drier</em>, <em>driest</em></dd><dt>Opposite</dt><dd><em>wet</em>; <em>sweet</em> (wine)</dd><dt>Contrast</dt><dd>The comparative changes <em>y</em> to <em>i</em>: <em>drier</em>, <em>driest</em>. <em>Dryer</em> is also accepted as the comparative, but in American English <em>dryer</em> usually means the machine (сушилка: <em>a clothes dryer</em>, <em>a hair dryer</em>). The adverb keeps the <em>y</em>: <em>dryly</em>. Dry wine is сухое, but <em>dry humor</em> is deadpan (невозмутимый), not cold. <em>A dry county</em> bans the sale of alcohol.</dd></dl>
+<p>Dry has 8 distinct senses.</p>
+<p><strong>1. Without water or other liquid; not wet.</strong> (сухой)</p>
+<ol><li>Keep the matches in a <em>dry</em> place.</li><li>Are the towels <em>dry</em> yet?</li><li>My mouth was <em>dry</em> and my hands were shaking.</li></ol>
+<p><strong>2. Of weather or a place: with little or no rain.</strong> (сухой, засушливый)</p>
+<ol start="4"><li>Arizona has a hot, <em>dry</em> climate.</li><li>This has been the <em>driest</em> summer on record.</li><li>It's <em>drier</em> inland than on the coast.</li></ol>
+<p><strong>3. Of skin or hair: without enough natural oil.</strong> (сухой)</p>
+<ol start="7"><li>My skin gets really <em>dry</em> in winter.</li><li>This shampoo is for <em>dry</em> hair.</li></ol>
+<p><strong>4. Of food: without enough moisture.</strong> (сухой, пересушенный, чёрствый)</p>
+<ol start="9"><li>The chicken was overcooked and <em>dry</em>.</li><li>This cake is <em>drier</em> than last time.</li></ol>
+<p><strong>5. Of wine: not sweet.</strong> (сухой)</p>
+<ol start="11"><li>I'd like a glass of <em>dry</em> white wine.</li><li>Do you prefer <em>dry</em> or sweet?</li></ol>
+<p><strong>6. Of humor: said seriously, as if not meant to be funny.</strong> (невозмутимый, суховатый)</p>
+<ol start="13"><li>He has a very <em>dry</em> sense of humor.</li><li>Her <em>dry</em> comments had the whole room laughing.</li></ol>
+<p><strong>7. Boring and without interest.</strong> (скучный, сухой)</p>
+<ol start="15"><li>The lecture was long and <em>dry</em>.</li><li>The textbook is <em>drier</em> than dust.</li></ol>
+<p><strong>8. Without alcohol: where alcohol is not sold, or of a person who no longer drinks.</strong> (безалкогольный; где запрещён алкоголь; непьющий)</p>
+<ol start="17"><li>It's a <em>dry</em> county, so you can't buy beer here.</li><li>The wedding was completely <em>dry</em>.</li><li>He's been <em>dry</em> for two years.</li></ol>
+<hr>
+<h3 id="shy">shy<a class="hash" href="#shy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃaɪ/ &middot; <em>SHY</em></dd><dt>Русский</dt><dd>застенчивый; робкий; пугливый</dd><dt>Type</dt><dd>quality; also emotion</dd><dt>Position</dt><dd>both — but <em>shy of</em> meaning a little less than (<em>just shy of 40</em>) only after a verb or an amount (<em>two points shy</em>)</dd><dt>Comparison</dt><dd>-er/-est — <em>shyer</em>, <em>shyest</em> (also <em>shier</em>, <em>shiest</em>)</dd><dt>Takes</dt><dd><em>about</em> or <em>of</em> + noun or <em>-ing</em> (unwilling); <em>of</em> + an amount, time or age (a little less than)</dd><dt>Opposite</dt><dd><em>outgoing</em>, <em>confident</em></dd><dt>Contrast</dt><dd>Unlike <em>dry</em>, the <em>y</em> usually stays: <em>shyer</em>, <em>shyest</em> are the common American forms, though dictionaries also give <em>shier</em>, <em>shiest</em>; <em>shyly</em> and <em>shyness</em> keep it too. Russian стесняться is often <em>be shy</em>, but feeling bad about something you did is <em>ashamed</em> or <em>embarrassed</em>. <em>Just shy of</em> is American and means a little less than (чуть меньше, не хватает до): <em>just shy of $1 million</em>.</dd></dl>
+<p>Shy has 4 distinct senses.</p>
+<p><strong>1. Nervous and uncomfortable with other people, especially new ones.</strong> (застенчивый, робкий)</p>
+<ol><li>He was a <em>shy</em> kid who hardly talked in class.</li><li>Don't be <em>shy</em>. Come say hi.</li><li>She's <em>shyer</em> than her older sister.</li></ol>
+<p><strong>2. Of an animal: easily frightened and staying away from people.</strong> (пугливый)</p>
+<ol start="4"><li>Deer are <em>shy</em> animals.</li><li>The <em>shyest</em> birds stay deep in the woods.</li></ol>
+<p><strong>3. Unwilling or nervous about doing something.</strong> (стесняющийся, не решающийся)</p>
+<ol start="6"><li>Don't be <em>shy</em> about asking for help.</li><li>He's never been <em>shy</em> of giving his opinion.</li></ol>
+<p><strong>4. Chiefly US: a little less than a certain amount, time or age.</strong> (чуть меньше; не хватает до)</p>
+<ol start="8"><li>She died just <em>shy</em> of her 100th birthday.</li><li>The team finished two points <em>shy</em> of the record.</li></ol>
+<hr>
+<h3 id="sly">sly<a class="hash" href="#sly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slaɪ/ &middot; <em>SLY</em></dd><dt>Русский</dt><dd>хитрый; лукавый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>slyer</em>, <em>slyest</em> (also <em>slier</em>, <em>sliest</em>); <em>more sly</em></dd><dt>Opposite</dt><dd><em>honest</em>, <em>open</em></dd><dt>Contrast</dt><dd>Like <em>shy</em>, the <em>y</em> usually stays: <em>slyer</em>, <em>slyest</em>, <em>slyly</em>, though <em>slier</em> and <em>sliest</em> also appear. <em>Sly</em> can be bad (хитрый, коварный: <em>a sly liar</em>) or friendly (лукавый: <em>a sly smile</em>); <em>cunning</em> is about deceiving, and <em>clever</em> is usually praise. <em>On the sly</em> (тайком) uses <em>sly</em> as a noun.</dd></dl>
+<p>Sly has 2 distinct senses.</p>
+<p><strong>1. Clever at tricking people and hiding what you intend.</strong> (хитрый, коварный)</p>
+<ol><li>He's a <em>sly</em> old fox, so don't trust him.</li><li>It was a <em>sly</em> move to get us to pay.</li><li>The <em>slyest</em> players never look like they're cheating.</li></ol>
+<p><strong>2. Showing that you know a secret or are making a quiet joke.</strong> (лукавый, озорной)</p>
+<ol start="4"><li>She gave me a <em>sly</em> smile.</li><li>The show is full of <em>sly</em> jokes about Hollywood.</li></ol>
+<hr>
+<h3 id="simple">simple<a class="hash" href="#simple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmpəl/ &middot; <em>SIM-puhl</em></dd><dt>Русский</dt><dd>простой; несложный; скромный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — but <em>simple</em> meaning nothing more than (<em>the simple truth</em>) only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>simpler</em>, <em>simplest</em></dd><dt>Opposite</dt><dd><em>complicated</em>, <em>difficult</em>; <em>elaborate</em></dd><dt>Contrast</dt><dd>Drop the <em>e</em> and add <em>-r</em>: <em>simpler</em>, <em>simplest</em>. <em>More simple</em> is possible but less common, and <em>simplier</em> does not exist. The adverb is <em>simply</em> (просто), which also means just: <em>I simply forgot</em>. For a task, <em>easy</em> is often more natural; <em>simple</em> suits things with few parts or steps. Calling a person <em>simple</em> can mean not intelligent, so be careful.</dd></dl>
+<p>Simple has 6 distinct senses.</p>
+<p><strong>1. Easy to understand or do.</strong> (простой, несложный)</p>
+<ol><li>The instructions are <em>simple</em>.</li><li>There's a <em>simpler</em> way to do this.</li><li>It's not as <em>simple</em> as it sounds.</li></ol>
+<p><strong>2. Plain, without extra decoration or detail.</strong> (простой, скромный)</p>
+<ol start="4"><li>She wore a <em>simple</em> black dress.</li><li>We had a <em>simple</em> meal of bread and soup.</li><li>The <em>simplest</em> designs are often the best.</li></ol>
+<p><strong>3. Nothing more than; used for emphasis.</strong> (обыкновенный, чистый (о правде))</p>
+<ol start="7"><li>The <em>simple</em> truth is that we can't afford it.</li><li>He was late for the <em>simple</em> reason that he overslept.</li></ol>
+<p><strong>4. Made of one part or only a few parts; not complex in structure.</strong> (простой, элементарный)</p>
+<ol start="9"><li>Bacteria are <em>simple</em> organisms.</li><li>'I left' is a <em>simple</em> sentence.</li></ol>
+<p><strong>5. Ordinary; not rich or important.</strong> (простой, обыкновенный)</p>
+<ol start="11"><li>My grandparents were <em>simple</em> farmers.</li><li>He enjoyed the <em>simple</em> pleasures of life.</li></ol>
+<p><strong>6. Old-fashioned and offensive: not very intelligent.</strong> (простоватый, недалёкий)</p>
+<ol start="13"><li>The neighbors thought he was a little <em>simple</em>.</li><li>Don't talk to me like I'm <em>simple</em>.</li></ol>
+<hr>
+<h3 id="gentle">gentle<a class="hash" href="#gentle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛntəl/ &middot; <em>JEN-tuhl</em></dd><dt>Русский</dt><dd>мягкий; ласковый; лёгкий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>gentler</em>, <em>gentlest</em></dd><dt>Takes</dt><dd><em>with</em> + person or thing (careful not to hurt)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#gentle-with">gentle with</a></dd><dt>Opposite</dt><dd><em>rough</em>, <em>harsh</em></dd><dt>Contrast</dt><dd>Drop the <em>e</em> and add <em>-r</em>: <em>gentler</em>, <em>gentlest</em>, not <em>gentlier</em>; the adverb is <em>gently</em>. Russian нежный is often <em>tender</em>, <em>soft</em> or <em>delicate</em> rather than <em>gentle</em>: <em>gentle</em> is about kindness and lack of force. Russian мягкий about climate is <em>mild</em>, not <em>gentle</em>.</dd></dl>
+<p>Gentle has 5 distinct senses.</p>
+<p><strong>1. Kind, calm and careful not to hurt anyone.</strong> (мягкий, добрый, ласковый)</p>
+<ol><li>He's a big man, but very <em>gentle</em>.</li><li>Be <em>gentle</em> with the baby.</li><li>She has a <em>gentle</em> voice.</li></ol>
+<p><strong>2. Not strong or violent.</strong> (лёгкий, слабый)</p>
+<ol start="4"><li>A <em>gentle</em> breeze came off the lake.</li><li>Give the door a <em>gentle</em> push.</li><li>The rain was <em>gentler</em> by morning.</li></ol>
+<p><strong>3. Of a slope or curve: not steep or sharp.</strong> (пологий, плавный)</p>
+<ol start="7"><li>The trail climbs a <em>gentle</em> slope.</li><li>The road makes a <em>gentle</em> curve to the left.</li></ol>
+<p><strong>4. Mild and not harmful to the body.</strong> (мягкий, щадящий)</p>
+<ol start="9"><li>Use a <em>gentle</em> soap for sensitive skin.</li><li>Swimming is one of the <em>gentlest</em> forms of exercise.</li></ol>
+<p><strong>5. Of a hint or criticism: tactful and polite.</strong> (тактичный, деликатный)</p>
+<ol start="11"><li>This is just a <em>gentle</em> reminder that rent is due.</li><li>She gave him a <em>gentle</em> hint that it was time to leave.</li></ol>
+<hr>
+<h3 id="humble">humble<a class="hash" href="#humble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌmbəl/ &middot; <em>HUHM-buhl</em></dd><dt>Русский</dt><dd>скромный; смиренный; простой</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — but <em>humble</em> about origins, things and politeness (<em>humble beginnings</em>, <em>my humble apologies</em>) mostly before a noun</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>humbler</em>, <em>humblest</em>; <em>more humble</em></dd><dt>Opposite</dt><dd><em>proud</em>, <em>arrogant</em></dd><dt>Contrast</dt><dd>Drop the <em>e</em> and add <em>-r</em>: <em>humbler</em>, <em>humblest</em>, though <em>more humble</em> is at least as common in speech. Russian скромный about a price, salary or success is <em>modest</em> (<em>a modest salary</em>, <em>modest about her success</em>), not <em>humble</em>; <em>humble</em> is about not thinking yourself more important than others. <em>Humbled</em> and <em>humbling</em> come from the verb <em>humble</em>.</dd></dl>
+<p>Humble has 4 distinct senses.</p>
+<p><strong>1. Not proud; not thinking you are better than others.</strong> (скромный, смиренный)</p>
+<ol><li>Despite her fame, she stayed <em>humble</em>.</li><li>He's one of the <em>humblest</em> people I've ever met.</li><li>Losing made him a <em>humbler</em> man.</li></ol>
+<p><strong>2. Low in social position or money.</strong> (скромный, простой)</p>
+<ol start="4"><li>He rose from <em>humble</em> beginnings to become a senator.</li><li>They grew up in a <em>humble</em> house in rural Ohio.</li></ol>
+<p><strong>3. Simple and ordinary, not special or important.</strong> (скромный, простой, обычный)</p>
+<ol start="6"><li>The <em>humble</em> potato has fed millions of people.</li><li>Jeans started out as <em>humble</em> work clothes.</li></ol>
+<p><strong>4. Used to show respect or politeness when speaking of yourself.</strong> (покорный, скромный)</p>
+<ol start="8"><li>Please accept my <em>humble</em> apology.</li><li>In my <em>humble</em> opinion, the movie was too long.</li></ol>
+<hr>
+<h3 id="noble">noble<a class="hash" href="#noble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnoʊbəl/ &middot; <em>NOH-buhl</em></dd><dt>Русский</dt><dd>благородный; знатный; величественный</dd><dt>Type</dt><dd>quality; also classifying</dd><dt>Position</dt><dd>both — but <em>noble</em> in chemistry (<em>noble gases</em>) only before a noun</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>nobler</em>, <em>noblest</em>; <em>more noble</em></dd><dt>Opposite</dt><dd><em>ignoble</em>; <em>common</em></dd><dt>Contrast</dt><dd>Drop the <em>e</em> and add <em>-r</em>: <em>nobler</em>, <em>noblest</em>, the forms learners forget, though <em>more noble</em> is also correct. Russian благородный about a person's character is <em>noble</em>, but about manners or looks it is often <em>refined</em> or <em>elegant</em>. <em>A noble</em> is also a noun (дворянин).</dd></dl>
+<p>Noble has 4 distinct senses.</p>
+<p><strong>1. Morally good, brave or unselfish.</strong> (благородный)</p>
+<ol><li>Teaching is a <em>noble</em> profession.</li><li>It was a <em>noble</em> thing to do.</li><li>Is there a <em>nobler</em> cause than feeding the hungry?</li></ol>
+<p><strong>2. Belonging to a family of high social rank.</strong> (знатный, дворянский)</p>
+<ol start="4"><li>She was born into a <em>noble</em> family in Spain.</li><li>His ancestors were of <em>noble</em> birth.</li></ol>
+<p><strong>3. Impressive in size or appearance.</strong> (величественный, благородный)</p>
+<ol start="6"><li>The lion is a <em>noble</em> animal.</li><li>The <em>noblest</em> building on campus is the old library.</li></ol>
+<p><strong>4. Chemistry: not reacting easily with other substances.</strong> (благородный (о газах, металлах))</p>
+<ol start="8"><li>Helium and neon are <em>noble</em> gases.</li><li>Gold and platinum are <em>noble</em> metals.</li></ol>
+<hr>
+<h3 id="subtle">subtle<a class="hash" href="#subtle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌtəl/ &middot; <em>SUHT-uhl</em></dd><dt>Русский</dt><dd>тонкий; едва заметный; ненавязчивый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>subtler</em>, <em>subtlest</em>; <em>more subtle</em></dd><dt>Opposite</dt><dd><em>obvious</em></dd><dt>Contrast</dt><dd>The <em>b</em> is silent: /ˈsʌtəl/. Drop the <em>e</em> and add <em>-r</em>: <em>subtler</em>, <em>subtlest</em>; <em>more subtle</em> is also common. The adverb is <em>subtly</em>, with no <em>e</em>. Russian тонкий is <em>subtle</em> only for small, clever or delicate things (<em>a subtle difference</em>, <em>subtle humor</em>); a thin slice or wire is <em>thin</em>. <em>Not very subtle</em> about a person means obvious or tactless.</dd></dl>
+<p>Subtle has 4 distinct senses.</p>
+<p><strong>1. Small and not obvious, but important.</strong> (тонкий, едва заметный)</p>
+<ol><li>There's a <em>subtle</em> difference between the two words.</li><li>The changes were <em>subtle</em> but real.</li><li>The <em>subtlest</em> signs of illness are the easiest to miss.</li></ol>
+<p><strong>2. Of a taste, smell or color: delicate and pleasant, not strong.</strong> (тонкий, нежный)</p>
+<ol start="4"><li>The wine has a <em>subtle</em> taste of cherry.</li><li>She wore a <em>subtle</em> shade of lipstick.</li></ol>
+<p><strong>3. Clever and indirect; not stated openly.</strong> (тонкий, ненавязчивый, деликатный)</p>
+<ol start="6"><li>He dropped a <em>subtle</em> hint about his birthday.</li><li>You could try a <em>subtler</em> approach.</li><li>My mom isn't very <em>subtle</em> when she wants grandchildren.</li></ol>
+<p><strong>4. Able to notice and understand small differences.</strong> (проницательный, тонкий)</p>
+<ol start="9"><li>She has a <em>subtle</em> mind and a sharp eye.</li><li>It takes a <em>subtle</em> reader to catch the irony.</li></ol>
+<hr>
+<h3 id="narrow">narrow<a class="hash" href="#narrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnæroʊ/ &middot; <em>NAR-oh</em></dd><dt>Русский</dt><dd>узкий; ограниченный; незначительный</dd><dt>Type</dt><dd>size; also quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>narrower</em>, <em>narrowest</em></dd><dt>Opposite</dt><dd><em>wide</em>; <em>broad</em></dd><dt>Contrast</dt><dd>It has two syllables, but it takes <em>-er</em>: <em>narrower</em>, <em>narrowest</em>; <em>more narrow</em> is possible but less common. Russian узкий about clothes is usually <em>tight</em> or <em>slim</em> (<em>tight jeans</em>, <em>skinny jeans</em>), not <em>narrow</em>. <em>A narrow win</em> and <em>a narrow escape</em> mean something only just happened (едва, с трудом).</dd></dl>
+<p>Narrow has 3 distinct senses.</p>
+<p><strong>1. Small in width compared with length.</strong> (узкий)</p>
+<ol><li>The streets in the old town are <em>narrow</em> and steep.</li><li>The river gets <em>narrower</em> farther north.</li><li>We squeezed through a <em>narrow</em> opening.</li></ol>
+<p><strong>2. Limited in range, ideas or experience.</strong> (узкий, ограниченный)</p>
+<ol start="4"><li>The law uses a very <em>narrow</em> definition of 'family.'</li><li>He has pretty <em>narrow</em> views about women.</li></ol>
+<p><strong>3. Only just achieved; by a small amount.</strong> (незначительный, с небольшим перевесом)</p>
+<ol start="6"><li>She won by a <em>narrow</em> margin.</li><li>It was the <em>narrowest</em> victory in the state's history.</li><li>We had a <em>narrow</em> escape when the tree fell.</li></ol>
+<hr>
+<h3 id="shallow">shallow<a class="hash" href="#shallow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃæloʊ/ &middot; <em>SHAL-oh</em></dd><dt>Русский</dt><dd>мелкий; неглубокий; поверхностный</dd><dt>Type</dt><dd>size; also quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>shallower</em>, <em>shallowest</em></dd><dt>Opposite</dt><dd><em>deep</em></dd><dt>Contrast</dt><dd>It has two syllables, but it takes <em>-er</em>: <em>shallower</em>, <em>shallowest</em>. Russian мелкий meaning small is not <em>shallow</em>: мелкие деньги is <em>change</em>, мелкий шрифт is <em>small print</em>, мелкий дождь is <em>drizzle</em>. About people and ideas, <em>shallow</em> is a criticism (поверхностный, пустой).</dd></dl>
+<p>Shallow has 3 distinct senses.</p>
+<p><strong>1. Not deep; with only a short distance from top to bottom.</strong> (мелкий, неглубокий)</p>
+<ol><li>The kids played in the <em>shallow</em> end of the pool.</li><li>The creek is <em>shallow</em> enough to walk across.</li><li>The water gets <em>shallower</em> near the shore.</li></ol>
+<p><strong>2. Not serious; not caring about or understanding important things.</strong> (поверхностный, пустой)</p>
+<ol start="4"><li>He's handsome but kind of <em>shallow</em>.</li><li>The characters in the movie are <em>shallow</em>.</li><li>It was the <em>shallowest</em> conversation I've had all year.</li></ol>
+<p><strong>3. Of breathing: taking in only a little air.</strong> (неглубокий, поверхностный)</p>
+<ol start="7"><li>His breathing was fast and <em>shallow</em>.</li><li>She took a few <em>shallow</em> breaths.</li></ol>
+<hr>
+<h3 id="clever">clever<a class="hash" href="#clever" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɛvər/ &middot; <em>KLEV-ur</em></dd><dt>Русский</dt><dd>умный; сообразительный; ловкий; остроумный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>cleverer</em>, <em>cleverest</em>; <em>more clever</em></dd><dt>Takes</dt><dd><em>with</em> + noun (<em>clever with money</em>, <em>with her hands</em>); <em>at</em> + noun or <em>-ing</em>; <em>of</em> + person + <em>to</em>-infinitive (<em>clever of you to</em>)</dd><dt>Opposite</dt><dd><em>stupid</em></dd><dt>Contrast</dt><dd>It has two syllables, but it takes <em>-er</em>: <em>cleverer</em>, <em>cleverest</em>; Americans also say <em>more clever</em>. In American English <em>smart</em> is the everyday word for умный; <em>clever</em> often means ingenious or a little cunning (хитроумный), so <em>a clever lawyer</em> is not always praise. <em>Clever of you</em> judges an action: <em>That was clever of you</em>.</dd></dl>
+<p>Clever has 4 distinct senses.</p>
+<p><strong>1. Quick to learn and understand.</strong> (умный, сообразительный)</p>
+<ol><li>She's a <em>clever</em> kid who taught herself to read.</li><li>Crows are <em>cleverer</em> than most people think.</li></ol>
+<p><strong>2. Skillful at doing something.</strong> (ловкий, умелый)</p>
+<ol start="3"><li>He's very <em>clever</em> with his hands.</li><li>She's <em>clever</em> at getting people to talk.</li></ol>
+<p><strong>3. Of an idea, plan or thing: showing intelligence and original thinking.</strong> (остроумный, хитроумный)</p>
+<ol start="5"><li>What a <em>clever</em> idea!</li><li>It was the <em>cleverest</em> ad of the Super Bowl.</li><li>It was <em>clever</em> of you to bring an extra charger.</li></ol>
+<p><strong>4. Quick with words in a way that is not sincere or respectful.</strong> (хитрый, изворотливый; дерзкий)</p>
+<ol start="8"><li>Don't get <em>clever</em> with me, young man.</li><li>His answers were <em>clever</em> but didn't really say anything.</li></ol>
+<hr>
+<h3 id="quiet">quiet<a class="hash" href="#quiet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwaɪət/ &middot; <em>KWY-uht</em></dd><dt>Русский</dt><dd>тихий; спокойный; молчаливый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>quieter</em>, <em>quietest</em></dd><dt>Opposite</dt><dd><em>loud</em>, <em>noisy</em>; <em>busy</em></dd><dt>Contrast</dt><dd>Do not confuse <em>quiet</em> /ˈkwaɪət/ (two syllables, тихий) with <em>quite</em> /kwaɪt/ (one syllable, довольно): the <em>e</em> and the <em>t</em> swap places. Though it has two syllables, <em>quiet</em> takes <em>-er</em>: <em>quieter</em>, <em>quietest</em>. <em>Be quiet!</em> means stop talking (замолчи), and <em>a quiet day</em> at work is one with little to do, not only one without noise.</dd></dl>
+<p>Quiet has 5 distinct senses.</p>
+<p><strong>1. Making little or no noise.</strong> (тихий)</p>
+<ol><li>The house was <em>quiet</em> after the kids left.</li><li>Could you be a little <em>quieter</em>? The baby's asleep.</li><li>She spoke in a <em>quiet</em> voice.</li></ol>
+<p><strong>2. Calm and peaceful, with little activity.</strong> (спокойный, тихий)</p>
+<ol start="4"><li>We live on a <em>quiet</em> street.</li><li>It's been a <em>quiet</em> week at the office.</li><li>Mondays are usually our <em>quietest</em> day.</li></ol>
+<p><strong>3. Of a person: not talking much.</strong> (тихий, молчаливый, сдержанный)</p>
+<ol start="7"><li>He's a <em>quiet</em> guy, but he's funny once you know him.</li><li>You're very <em>quiet</em> tonight. Is something wrong?</li></ol>
+<p><strong>4. Not showy or loud, but still felt.</strong> (неброский, спокойный)</p>
+<ol start="9"><li>She has a <em>quiet</em> confidence.</li><li>The hotel has a <em>quiet</em> elegance.</li></ol>
+<p><strong>5. Private and not told to other people.</strong> (негласный, по секрету)</p>
+<ol start="11"><li>Keep it <em>quiet</em> until we tell the family.</li><li>The company kept the layoffs <em>quiet</em> for weeks.</li></ol>
+<hr>
+<h3 id="large">large<a class="hash" href="#large" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɑːrdʒ/ &middot; <em>LAHRJ</em></dd><dt>Русский</dt><dd>большой; крупный</dd><dt>Type</dt><dd>size</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>-er/-est — <em>larger</em>, <em>largest</em></dd><dt>Opposite</dt><dd><em>small</em></dd><dt>Contrast</dt><dd>Drop the <em>e</em> and add <em>-r</em>: <em>larger</em>, <em>largest</em>. <em>Large</em> is more formal than <em>big</em> and is the normal word with <em>amount</em>, <em>number</em>, <em>quantity</em>, <em>scale</em> and sizes (<em>a large amount</em>, <em>a large coffee</em>). It cannot mean important, older or popular: <em>a big mistake</em>, <em>my big brother</em>, never <em>a large mistake</em> or <em>my large brother</em>. <em>At large</em> is a set phrase: <em>still at large</em> = на свободе, <em>the public at large</em> = в целом. The adverb <em>largely</em> means mostly, not on a large scale.</dd></dl>
+<p>Large has 4 distinct senses.</p>
+<p><strong>1. Big in size, number or amount.</strong> (большой, крупный)</p>
+<ol><li>They need a <em>larger</em> apartment now that the baby's here.</li><li>A <em>large</em> number of people signed the petition.</li><li>Alaska is the <em>largest</em> state.</li></ol>
+<p><strong>2. Of a size of clothes, food or drink: bigger than medium.</strong> (большой (размер L))</p>
+<ol start="4"><li>Can I get a <em>large</em> coffee?</li><li>The <em>large</em> T-shirts sold out first.</li></ol>
+<p><strong>3. Of a person: tall and heavy; a polite word.</strong> (крупный, полный)</p>
+<ol start="6"><li>He was a <em>large</em> man with a deep voice.</li><li>The dress looks good on <em>larger</em> women too.</li></ol>
+<p><strong>4. Wide in scope; general.</strong> (более широкий, общий)</p>
+<ol start="8"><li>This case raises <em>larger</em> questions about free speech.</li><li>We need to look at the <em>larger</em> picture.</li></ol>
+<hr>
+<h3 id="wide">wide<a class="hash" href="#wide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪd/ &middot; <em>WYD</em></dd><dt>Русский</dt><dd>широкий; разнообразный</dd><dt>Type</dt><dd>size</dd><dt>Position</dt><dd>both — and after a measurement: <em>six feet wide</em></dd><dt>Comparison</dt><dd>-er/-est — <em>wider</em>, <em>widest</em></dd><dt>Takes</dt><dd><em>of</em> + noun (missing: <em>wide of the goal</em>)</dd><dt>Opposite</dt><dd><em>narrow</em></dd><dt>Contrast</dt><dd>Drop the <em>e</em> and add <em>-r</em>: <em>wider</em>, <em>widest</em>. Russian широкий for shoulders or a general idea is usually <em>broad</em>: <em>broad shoulders</em>, <em>in broad terms</em>. In <em>wide open</em> and <em>wide awake</em>, <em>wide</em> is an adverb, and <em>widely</em> means by many people (<em>widely known</em>). The suffix <em>-wide</em> means across a whole area (<em>nationwide</em>).</dd></dl>
+<p>Wide has 6 distinct senses.</p>
+<p><strong>1. Measuring a large distance from side to side.</strong> (широкий)</p>
+<ol><li>The road is <em>wide</em> enough for two trucks.</li><li>They sat on a <em>wide</em> front porch.</li><li>The Mississippi is <em>wider</em> than I expected.</li></ol>
+<p><strong>2. Measuring a given distance from side to side.</strong> (шириной)</p>
+<ol start="4"><li>The river is about 200 yards <em>wide</em> here.</li><li>How <em>wide</em> is the doorway?</li></ol>
+<p><strong>3. Including many different things or people.</strong> (широкий, разнообразный)</p>
+<ol start="6"><li>The store sells a <em>wide</em> range of products.</li><li>The show appeals to a <em>wide</em> audience.</li><li>This school offers the <em>widest</em> choice of classes in the district.</li></ol>
+<p><strong>4. Large in degree or difference.</strong> (большой, значительный)</p>
+<ol start="9"><li>There is a <em>wide</em> gap between rich and poor.</li><li>She won by a <em>wide</em> margin.</li></ol>
+<p><strong>5. Of eyes: fully open.</strong> (широко раскрытый)</p>
+<ol start="11"><li>The children watched with <em>wide</em> eyes.</li><li>His eyes went <em>wide</em> with surprise.</li></ol>
+<p><strong>6. Of a shot or throw: missing the target to one side.</strong> (мимо (цели))</p>
+<ol start="13"><li>The kick was <em>wide</em> to the right.</li><li>His first shot was just <em>wide</em> of the goal.</li></ol>
+<hr>
+<h3 id="true">true<a class="hash" href="#true" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/truː/ &middot; <em>TROO</em></dd><dt>Русский</dt><dd>верный; правдивый; настоящий</dd><dt>Type</dt><dd>quality; also evaluative</dd><dt>Position</dt><dd>both — but <em>true</em> meaning real (<em>a true friend</em>) mostly before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>truer</em>, <em>truest</em></dd><dt>Takes</dt><dd><em>to</em> + noun (loyal, faithful: <em>true to his word</em>); <em>of</em> or <em>for</em> + noun (applies to); <em>that</em>-clause (<em>It's true that</em>)</dd><dt>Opposite</dt><dd><em>false</em>, <em>untrue</em></dd><dt>Contrast</dt><dd>Drop the <em>e</em> and add <em>-r</em>: <em>truer</em>, <em>truest</em>, but the adverb <em>truly</em> loses the <em>e</em> completely (not <em>truely</em>). Russian верно! or правда! as an answer is <em>That's true</em> or <em>That's right</em>; about a person, say <em>You're right</em>, never <em>You're true</em>. <em>True of</em> or <em>true for</em> means applies to (справедливо для): <em>The same is true of cats</em>.</dd></dl>
+<p>True has 5 distinct senses.</p>
+<p><strong>1. Based on facts; not false.</strong> (правдивый, верный)</p>
+<ol><li>Is it <em>true</em> that you're moving to Denver?</li><li>The movie is based on a <em>true</em> story.</li><li>Nothing could be <em>truer</em>.</li></ol>
+<p><strong>2. Real and genuine.</strong> (настоящий, истинный)</p>
+<ol start="4"><li>She's a <em>true</em> friend.</li><li>Nobody knew his <em>true</em> feelings.</li><li>Their dream finally came <em>true</em>.</li></ol>
+<p><strong>3. Loyal and faithful.</strong> (верный)</p>
+<ol start="7"><li>He stayed <em>true</em> to his word.</li><li>The band has remained <em>true</em> to its roots.</li><li>Be <em>true</em> to yourself.</li></ol>
+<p><strong>4. Accurate; exactly matching the real thing.</strong> (точный)</p>
+<ol start="10"><li>The painting is <em>true</em> to life.</li><li>A compass doesn't point to <em>true</em> north.</li></ol>
+<p><strong>5. Applying to someone or something.</strong> (справедливый (для), верный)</p>
+<ol start="12"><li>The same is <em>true</em> of most big cities.</li><li>That's especially <em>true</em> for older workers.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

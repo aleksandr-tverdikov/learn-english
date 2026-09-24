@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adjectives with irregular comparison</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="adjectives-with-irregular-comparison">Adjectives with irregular comparison<a class="hash" href="#adjectives-with-irregular-comparison" aria-label="link">#</a></h1>
+<blockquote><p><em>good</em>, <em>better</em>, <em>best</em> — and the adjectives whose comparative splits into two words with different jobs.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>Almost every gradable adjective compares with <em>-er/-est</em> (<em>taller</em>) or <em>more/most</em> (<em>more careful</em>). A handful do neither, and their forms have to be learned: <em>good</em>, <em>better</em>, <em>best</em>; <em>bad</em>, <em>worse</em>, <em>worst</em>. Several also split into two words with different jobs — <em>farther</em> for distance and <em>further</em> for degree, <em>older</em> for age and <em>elder</em> for family rank, <em>later</em> for time and <em>latter</em> for the second of two — so each form has its own entry.</p>
+<hr>
+<h3 id="good">good<a class="hash" href="#good" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡʊd/ &middot; <em>GUUD</em></dd><dt>Русский</dt><dd>хороший</dd><dt>Type</dt><dd>evaluative; also quality</dd><dt>Position</dt><dd>both — <em>a good book</em>, <em>The book is good</em>; in the senses 'large in amount' and 'complete and thorough' only before a noun (<em>a good hour</em>, <em>a good look</em>)</dd><dt>Comparison</dt><dd>irregular — <em>better</em>, <em>best</em></dd><dt>Takes</dt><dd><em>at</em> + noun or <em>-ing</em> for skill (<em>good at chess</em>); <em>with</em> + people or things you handle (<em>good with kids</em>); <em>for</em> + the person or thing it helps (<em>good for your heart</em>); <em>to</em> + a person for kindness (<em>good to me</em>); <em>of</em> + person + <em>to</em>-infinitive (<em>good of you to come</em>); <em>about</em> after <em>feel</em> (<em>feel good about it</em>); <em>to</em>-infinitive (<em>good to know</em>); <em>that</em>-clause (<em>It's good that you called</em>)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#good-at">good at</a></dd><dt>Opposite</dt><dd><em>bad</em></dd><dt>Contrast</dt><dd><em>Good</em> is the adjective and <em>well</em> the adverb: <em>She's a good driver</em> / <em>She drives well</em> — <em>She drives good</em> is heard in casual speech but is marked wrong in careful English. After linking verbs use <em>good</em>: <em>It looks good</em>, <em>That smells good</em>. <em>I feel good</em> means happy or in good shape; <em>I feel well</em> means not sick. In American English <em>I'm good</em> means <em>I'm fine</em> and, when you are offered something, <em>No, thanks</em>. Skill is <em>good at</em> (not <em>good in</em>), kindness is <em>good to</em>, benefit is <em>good for</em>: <em>She's good at math</em>, <em>He was good to me</em>, <em>Fish is good for you</em>. The forms are <em>better</em> and <em>best</em>, never <em>gooder</em> or <em>more good</em>. Russian <em>добрый</em> about a person is usually <em>kind</em>, not <em>good</em>.</dd></dl>
+<p>Good has 16 distinct senses.</p>
+<p><strong>1. Of high quality; done or made well.</strong> (хороший, качественный)</p>
+<ol><li>That was a really <em>good</em> movie.</li><li>The food here is <em>good</em>, but the service is slow.</li><li>Her second novel is even <em>better</em> than the first.</li></ol>
+<p><strong>2. Skillful; able to do something well.</strong> (умелый, способный)</p>
+<ol start="4"><li>She's <em>good</em> at math.</li><li>He's a <em>good</em> driver — I always feel safe with him.</li><li>My dad is really <em>good</em> with his hands.</li></ol>
+<p><strong>3. Pleasant or enjoyable.</strong> (приятный, хороший)</p>
+<ol start="7"><li>Did you have a <em>good</em> time at the party?</li><li>I've got some <em>good</em> news.</li><li>The weather should be <em>better</em> this weekend.</li></ol>
+<p><strong>4. Morally right; kind and honest.</strong> (хороший, порядочный; добрый (к кому-то))</p>
+<ol start="10"><li>He's a <em>good</em> man who would never lie to you.</li><li>It was <em>good</em> of you to drive me home.</li><li>She's always been <em>good</em> to her neighbors.</li></ol>
+<p><strong>5. Well-behaved — of a child or an animal.</strong> (послушный)</p>
+<ol start="13"><li>Be <em>good</em> for the babysitter, okay?</li><li>The kids were very <em>good</em> on the flight.</li><li>Who's a <em>good</em> dog?</li></ol>
+<p><strong>6. Beneficial; having a good effect on your health or well-being.</strong> (полезный)</p>
+<ol start="16"><li>Walking every day is <em>good</em> for you.</li><li>Too much soda isn't <em>good</em> for your teeth.</li><li>Getting out of the city was <em>good</em> for her.</li></ol>
+<p><strong>7. Suitable or convenient.</strong> (подходящий, удобный)</p>
+<ol start="19"><li>Is this a <em>good</em> time to talk?</li><li>Tuesday is <em>good</em> for me.</li><li>What's the <em>best</em> way to get to the airport?</li></ol>
+<p><strong>8. Acceptable; good enough for what is needed.</strong> (годный, приемлемый; ладно)</p>
+<ol start="22"><li>"Let's meet at seven." "Sounds <em>good</em>."</li><li>The photo isn't perfect, but it's <em>good</em> enough for the website.</li><li>Your English is <em>good</em> enough for the job.</li></ol>
+<p><strong>9. Attractive or pleasing to look at.</strong> (привлекательный; (хорошо) выглядящий)</p>
+<ol start="25"><li>You look <em>good</em> in that jacket.</li><li>The new kitchen looks really <em>good</em>.</li></ol>
+<p><strong>10. Valid; still able to be used.</strong> (действительный)</p>
+<ol start="27"><li>This ticket is <em>good</em> for one ride.</li><li>The coupon is <em>good</em> until the end of the month.</li></ol>
+<p><strong>11. Still fresh; not spoiled.</strong> (свежий, неиспорченный)</p>
+<ol start="29"><li>Is this milk still <em>good</em>?</li><li>The bread should be <em>good</em> for another day or two.</li></ol>
+<p><strong>12. Strong or sensible enough to be accepted.</strong> (веский, уважительный)</p>
+<ol start="31"><li>Do you have a <em>good</em> reason for being late?</li><li>That's a <em>good</em> point.</li><li>She had a <em>good</em> excuse for missing the meeting.</li></ol>
+<p><strong>13. Fine; satisfied and not needing anything — informal American.</strong> (в порядке; не нужно, спасибо)</p>
+<ol start="34"><li>"How are you?" "<em>Good</em>, thanks."</li><li>"Do you want more coffee?" "No, I'm <em>good</em>."</li><li>We're <em>good</em> — you don't owe me anything.</li></ol>
+<p><strong>14. Large in amount; at least as much as stated.</strong> (изрядный; добрый (о количестве))</p>
+<ol start="37"><li>The hotel is a <em>good</em> ten miles from the beach.</li><li>We spent a <em>good</em> deal of money on repairs.</li><li>It took a <em>good</em> hour to get there.</li></ol>
+<p><strong>15. Complete and thorough.</strong> (основательный; как следует)</p>
+<ol start="40"><li>Take a <em>good</em> look before you sign anything.</li><li>What I need is a <em>good</em> night's sleep.</li><li>She had a <em>good</em> cry and felt a lot better.</li></ol>
+<p><strong>16. Sure to pay back money owed — in <em>good for</em>.</strong> (надёжный (о должнике))</p>
+<ol start="43"><li>I'll lend you fifty bucks — I know you're <em>good</em> for it.</li><li>Don't worry, his brother is <em>good</em> for the money.</li></ol>
+<hr>
+<h3 id="bad">bad<a class="hash" href="#bad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæd/ &middot; <em>BAD</em></dd><dt>Русский</dt><dd>плохой</dd><dt>Type</dt><dd>evaluative; also quality</dd><dt>Position</dt><dd>both — <em>a bad idea</em>, <em>The idea is bad</em></dd><dt>Comparison</dt><dd>irregular — <em>worse</em>, <em>worst</em></dd><dt>Takes</dt><dd><em>at</em> + noun or <em>-ing</em> for skill (<em>bad at math</em>); <em>with</em> + things you handle (<em>bad with names</em>); <em>for</em> + the person or thing harmed (<em>bad for your back</em>); <em>about</em> after <em>feel</em> for guilt (<em>feel bad about it</em>); <em>for</em> after <em>feel</em> for pity (<em>feel bad for him</em>); <em>to</em>-infinitive (<em>It's bad to skip breakfast</em>); <em>that</em>-clause (<em>It's bad that nobody told her</em>)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#bad-at">bad at</a></dd><dt>Opposite</dt><dd><em>good</em></dd><dt>Contrast</dt><dd><em>Bad</em> is the adjective and <em>badly</em> the adverb: <em>a bad singer</em> / <em>She sings badly</em>. After linking verbs use <em>bad</em>: <em>It smells bad</em>, <em>I feel bad</em>. <em>I feel bad about it</em> means guilty; <em>I feel bad for him</em> means sorry for him; <em>I feel badly</em> is common in American speech but disliked by careful writers. The forms are <em>worse</em> and <em>worst</em> — <em>more bad</em> is wrong, and <em>badder</em> is only slang. <em>Not bad</em> is praise: it means <em>pretty good</em>. Russian <em>мне плохо</em> is <em>I feel sick</em> or <em>I feel bad</em>, not <em>I'm bad</em>, which means <em>I behave badly</em>. <em>My bad</em> (my mistake) is a slang noun, not this adjective.</dd></dl>
+<p>Bad has 15 distinct senses.</p>
+<p><strong>1. Of low quality; not good.</strong> (плохой, некачественный)</p>
+<ol><li>The service at that restaurant is really <em>bad</em>.</li><li>His handwriting is so <em>bad</em> I can't read it.</li><li>That was the <em>worst</em> movie I've ever seen.</li></ol>
+<p><strong>2. Unpleasant or unwelcome.</strong> (плохой, неприятный)</p>
+<ol start="4"><li>I'm afraid I have some <em>bad</em> news.</li><li>It's been a <em>bad</em> day.</li><li>The weather got <em>worse</em> in the afternoon.</li></ol>
+<p><strong>3. Serious or severe.</strong> (сильный, тяжёлый)</p>
+<ol start="7"><li>She has a <em>bad</em> cold.</li><li>There was a <em>bad</em> accident on the interstate.</li><li>Traffic is <em>worst</em> on Friday afternoons.</li></ol>
+<p><strong>4. Harmful.</strong> (вредный)</p>
+<ol start="10"><li>Smoking is <em>bad</em> for you.</li><li>Is coffee <em>bad</em> for kids?</li><li>Sitting all day is <em>bad</em> for your back.</li></ol>
+<p><strong>5. Not suitable or convenient.</strong> (неподходящий, неудобный)</p>
+<ol start="13"><li>Is this a <em>bad</em> time to talk?</li><li>Friday is <em>bad</em> for me — how about Monday?</li><li>He picked the <em>worst</em> possible moment to ask for a raise.</li></ol>
+<p><strong>6. Not skillful.</strong> (неумелый, слабый)</p>
+<ol start="16"><li>I'm <em>bad</em> at math.</li><li>He's terrible with names, and I'm even <em>worse</em>.</li><li>She's a <em>bad</em> driver.</li></ol>
+<p><strong>7. Morally wrong; evil.</strong> (дурной, нехороший, злой)</p>
+<ol start="19"><li>He's not a <em>bad</em> person — he just made a mistake.</li><li>Lying to her was a <em>bad</em> thing to do.</li></ol>
+<p><strong>8. Naughty — of a child or an animal.</strong> (непослушный)</p>
+<ol start="21"><li><em>Bad</em> dog! Get off the couch!</li><li>Were the kids <em>bad</em> for the sitter?</li></ol>
+<p><strong>9. Rude or offensive — of words and language.</strong> (неприличный, грубый)</p>
+<ol start="23"><li>Mom, he said a <em>bad</em> word!</li><li>The movie is rated R for <em>bad</em> language.</li></ol>
+<p><strong>10. Spoiled or rotten.</strong> (испорченный, тухлый)</p>
+<ol start="25"><li>The milk has gone <em>bad</em>.</li><li>Throw out any <em>bad</em> apples.</li></ol>
+<p><strong>11. Guilty or embarrassed about something you did — with <em>feel</em>.</strong> (стыдно, неловко)</p>
+<ol start="27"><li>I feel <em>bad</em> about forgetting your birthday.</li><li>Don't feel <em>bad</em> — it wasn't your fault.</li></ol>
+<p><strong>12. Sorry about someone else's trouble — in <em>feel bad for</em>.</strong> (жалко (кого-то))</p>
+<ol start="29"><li>I feel <em>bad</em> for her — she worked so hard for that job.</li><li>We all felt <em>bad</em> for the new guy.</li></ol>
+<p><strong>13. Unwell; or injured and painful.</strong> (больной; плохо (о самочувствии))</p>
+<ol start="31"><li>I've had a <em>bad</em> back for years.</li><li>He has a <em>bad</em> knee, so he can't run.</li><li>She was feeling <em>worse</em> by evening, so we called the doctor.</li></ol>
+<p><strong>14. Unfortunate; a pity — in <em>too bad</em>.</strong> (жаль)</p>
+<ol start="34"><li>It's too <em>bad</em> you can't come.</li><li>Too <em>bad</em> — the store's already closed.</li></ol>
+<p><strong>15. Not valid; not able to be paid or collected.</strong> (недействительный, фальшивый; безнадёжный (о долге))</p>
+<ol start="36"><li>He paid for the car with a <em>bad</em> check.</li><li>The bank lost millions on <em>bad</em> loans.</li></ol>
+<hr>
+<h3 id="far">far<a class="hash" href="#far" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɑːr/ &middot; <em>FAHR</em></dd><dt>Русский</dt><dd>дальний; далёкий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>attributive only — <em>the far end</em>, <em>the far right</em>; in <em>It isn't far</em> and <em>How far is it?</em> the word is the adverb</dd><dt>Comparison</dt><dd>irregular — <em>farther</em>, <em>farthest</em> for distance; <em>further</em>, <em>furthest</em> for distance or degree</dd><dt>Opposite</dt><dd><em>near</em></dd><dt>Contrast</dt><dd>As an adjective <em>far</em> stands before a noun and usually means the more distant of two sides or ends: <em>the far side of the lake</em>. It is not the everyday word for <em>далёкий</em> — say <em>a distant country</em> or <em>a faraway place</em>; <em>a far country</em> sounds literary. <em>It's not far</em> and <em>How far is it?</em> are adverb uses, and plain <em>It's far</em> is informal — <em>It's a long way</em> is safer. The comparison splits: <em>farther</em> and <em>farthest</em> are for physical distance; <em>further</em> and <em>furthest</em> work for distance too and are the only choice for <em>additional</em> (<em>further questions</em>). <em>The far right</em> is a political label (<em>крайне правые</em>), not a direction.</dd></dl>
+<p>Far has 5 distinct senses.</p>
+<p><strong>1. Being the more distant of two sides, ends or edges.</strong> (дальний, противоположный)</p>
+<ol><li>Our room was at the <em>far</em> end of the hall.</li><li>They live on the <em>far</em> side of town.</li><li>We took the <em>farthest</em> table from the kitchen because it was quieter.</li></ol>
+<p><strong>2. At the most distant part of a region.</strong> (крайний)</p>
+<ol start="4"><li>She grew up in the <em>far</em> north of the state, near the Canadian border.</li><li>The storm hit the <em>far</em> western part of the state.</li></ol>
+<p><strong>3. Holding the most extreme political views — in <em>far left</em> and <em>far right</em>.</strong> (крайний (левый, правый))</p>
+<ol start="6"><li>The party has moved toward the <em>far</em> right.</li><li><em>Far</em>-left groups organized the protest.</li></ol>
+<p><strong>4. Distant in space or time — mostly literary, and in <em>the far future</em>.</strong> (далёкий)</p>
+<ol start="8"><li>Robots may do that kind of work in the <em>far</em> future.</li><li>Pilgrims came from <em>far</em> lands to see the shrine.</li></ol>
+<p><strong>5. Very different from something — in <em>a far cry from</em>.</strong> (совсем не то, что; далеко не)</p>
+<ol start="10"><li>The new apartment is a <em>far</em> cry from our old place.</li><li>The final product was a <em>far</em> cry from what they promised.</li></ol>
+<hr>
+<h3 id="little">little<a class="hash" href="#little" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪtəl/ &middot; <em>LIT-uhl</em></dd><dt>Русский</dt><dd>маленький; мало</dd><dt>Type</dt><dd>size; also quantity</dd><dt>Position</dt><dd>both — before a noun in every sense (<em>a little house</em>); after a verb mainly for age (<em>when I was little</em>), since <em>small</em> sounds more natural there for size (<em>The house is small</em>)</dd><dt>Comparison</dt><dd>irregular — <em>less</em>, <em>least</em> for amount; for size <em>smaller</em>, <em>smallest</em>, with <em>littler</em>, <em>littlest</em> in informal speech</dd><dt>Opposite</dt><dd><em>big</em>; <em>much</em> for amount</dd><dt>Contrast</dt><dd><em>Little</em> often carries feeling (<em>a cute little house</em>, <em>a nasty little man</em>); <em>small</em> is neutral and is the word to compare: <em>a smaller room</em>, rarely <em>a littler room</em>. For amount, <em>little</em> with an uncountable noun is negative, like <em>мало</em>: <em>We have little time</em>; <em>a little</em> is positive, like <em>немного</em>: <em>We have a little time</em>. Many grammars call this amount use a determiner, and its forms are <em>less</em> and <em>least</em>. With countable nouns use <em>few</em>: <em>few friends</em>, not <em>little friends</em>. In <em>a little tired</em> the word is an adverb, and in <em>I speak a little</em> a pronoun.</dd></dl>
+<p>Little has 7 distinct senses.</p>
+<p><strong>1. Small in size.</strong> (маленький, небольшой)</p>
+<ol><li>They live in a <em>little</em> house by the lake.</li><li>Cut the potatoes into <em>little</em> pieces.</li><li>That's the <em>littlest</em> puppy I've ever seen.</li></ol>
+<p><strong>2. Young.</strong> (маленький (о возрасте))</p>
+<ol start="4"><li>We have two <em>little</em> kids.</li><li>I lived in Ohio when I was <em>little</em>.</li></ol>
+<p><strong>3. Younger — of a brother or sister.</strong> (младший)</p>
+<ol start="6"><li>This is my <em>little</em> brother, Sam.</li><li>Her <em>little</em> sister just started college.</li></ol>
+<p><strong>4. Short in time or distance.</strong> (недолгий, короткий)</p>
+<ol start="8"><li>Can you wait a <em>little</em> while?</li><li>Let's take a <em>little</em> walk after dinner.</li></ol>
+<p><strong>5. Not important; minor.</strong> (незначительный, мелкий)</p>
+<ol start="10"><li>It's just a <em>little</em> problem — don't worry about it.</li><li>She always notices the <em>little</em> things.</li></ol>
+<p><strong>6. Not much; hardly any — before uncountable nouns.</strong> (мало)</p>
+<ol start="12"><li>There's <em>little</em> hope of finding them now.</li><li>He showed <em>little</em> interest in the job.</li><li>We had <em>less</em> time than we expected.</li></ol>
+<p><strong>7. Used to show affection or annoyance.</strong> (маленький (ласкательно или пренебрежительно))</p>
+<ol start="15"><li>What a sweet <em>little</em> baby!</li><li>Get out of my room, you <em>little</em> brat!</li></ol>
+<hr>
+<h3 id="old">old<a class="hash" href="#old" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊld/ &middot; <em>OHLD</em></dd><dt>Русский</dt><dd>старый</dd><dt>Type</dt><dd>age</dd><dt>Position</dt><dd>both — <em>an old house</em>, <em>The house is old</em>; in the senses 'former' and 'known for a long time' only before a noun (<em>my old boss</em>, <em>an old friend</em>)</dd><dt>Comparison</dt><dd>-er/-est — <em>older</em>, <em>oldest</em>; <em>elder</em>, <em>eldest</em> only for rank in a family</dd><dt>Opposite</dt><dd><em>young</em>; <em>new</em></dd><dt>Contrast</dt><dd>Age is <em>be</em> + number + <em>years old</em>, never <em>have</em>: <em>She is ten years old</em>, not <em>She has ten years</em>. Before a noun the phrase is hyphenated and singular: <em>a ten-year-old girl</em>. Position changes the meaning: <em>an old friend</em> is a friend you have known for years, not an elderly one, and <em>my old job</em> is my former job. <em>Older</em> and <em>oldest</em> are the normal forms, in families too (<em>my older brother</em>); <em>elder</em> and <em>eldest</em> go only before a noun and never take <em>than</em>. About people, <em>old</em> can sound blunt — <em>older</em> or <em>elderly</em> is politer.</dd></dl>
+<p>Old has 8 distinct senses.</p>
+<p><strong>1. Having lived for a long time; not young.</strong> (старый, пожилой)</p>
+<ol><li>An <em>old</em> man was feeding the pigeons.</li><li>My grandparents are getting <em>old</em>.</li><li>She's the <em>oldest</em> person in our town.</li></ol>
+<p><strong>2. Of a particular age.</strong> (в возрасте (… лет))</p>
+<ol start="4"><li>How <em>old</em> are you?</li><li>Our son is six years <em>old</em>.</li><li>My sister is two years <em>older</em> than me.</li></ol>
+<p><strong>3. Having existed or been used for a long time; not new.</strong> (старый, поношенный)</p>
+<ol start="7"><li>I wear my <em>old</em> sneakers for yard work.</li><li>They bought an <em>old</em> farmhouse and fixed it up.</li><li>This is the <em>oldest</em> building in the city.</li></ol>
+<p><strong>4. Belonging to the distant past; traditional.</strong> (старинный, древний)</p>
+<ol start="10"><li>It's an <em>old</em> family recipe.</li><li>The town has kept many of its <em>old</em> customs.</li></ol>
+<p><strong>5. Former; from an earlier time in your life.</strong> (бывший, прежний)</p>
+<ol start="12"><li>I ran into my <em>old</em> boss at the mall.</li><li>Do you miss your <em>old</em> school?</li><li>In the <em>old</em> days, nobody locked their doors.</li></ol>
+<p><strong>6. Known for a long time.</strong> (давний, старый)</p>
+<ol start="15"><li>Mike is an <em>old</em> friend from college.</li><li>The two teams are <em>old</em> rivals.</li></ol>
+<p><strong>7. Boring because it keeps happening — in <em>get old</em> and <em>the same old</em>.</strong> (надоевший)</p>
+<ol start="17"><li>His jokes are getting <em>old</em>.</li><li>It's the same <em>old</em> story every Monday.</li></ol>
+<p><strong>8. Used informally to show affection or for emphasis.</strong> (старый добрый; какой угодно)</p>
+<ol start="19"><li>Good <em>old</em> Dave — he always shows up.</li><li>Just grab any <em>old</em> shirt.</li><li>He drives a big <em>old</em> pickup truck.</li></ol>
+<hr>
+<h3 id="late">late<a class="hash" href="#late" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/leɪt/ &middot; <em>LAYT</em></dd><dt>Русский</dt><dd>опоздавший; поздний</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>a late train</em>, <em>The train is late</em>; in the sense 'dead' only before a noun (<em>her late husband</em>)</dd><dt>Comparison</dt><dd>-er/-est — <em>later</em>, <em>latest</em>; <em>latter</em> and <em>last</em> are separate words</dd><dt>Takes</dt><dd><em>for</em> + an event (<em>late for work</em>); <em>to</em> + an event or place, common in American speech (<em>late to class</em>); <em>with</em> + something owed or due (<em>late with the rent</em>)</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#late-for">late for</a></dd><dt>Opposite</dt><dd><em>early</em>; <em>on time</em></dd><dt>Contrast</dt><dd>Position changes the meaning: <em>her late husband</em> is dead, but <em>Her husband is late</em> means he has not arrived yet. <em>Lately</em> is not the adverb of this word — it means <em>recently</em>: <em>I've been busy lately</em>; <em>He arrived late</em> uses the adverb <em>late</em>. Russian <em>уже поздно</em> is <em>It's late</em>, with the adjective. <em>Later</em> is the comparative (<em>a later flight</em>) and <em>latest</em> the superlative, which also means <em>newest</em>; <em>latter</em> (the second of two) and <em>last</em> (final) have their own entries.</dd></dl>
+<p>Late has 4 distinct senses.</p>
+<p><strong>1. Arriving or happening after the expected or arranged time.</strong> (опоздавший; запоздалый)</p>
+<ol><li>Sorry I'm <em>late</em> — the traffic was terrible.</li><li>The bus was twenty minutes <em>late</em>.</li><li>Don't be <em>late</em> for your interview.</li></ol>
+<p><strong>2. Happening after the usual time.</strong> (поздний)</p>
+<ol start="4"><li>We had a <em>late</em> lunch.</li><li>Spring was <em>late</em> this year.</li><li>Is there a <em>later</em> flight to Denver?</li></ol>
+<p><strong>3. Near the end of a day or of a period of time.</strong> (поздний; конец (периода))</p>
+<ol start="7"><li>It's getting <em>late</em> — let's go home.</li><li>The house was built in the <em>late</em> 1800s.</li><li>She's in her <em>late</em> thirties.</li></ol>
+<p><strong>4. Dead, especially recently.</strong> (покойный)</p>
+<ol start="10"><li>The book is dedicated to her <em>late</em> husband.</li><li>The foundation was started by the <em>late</em> senator.</li></ol>
+<hr>
+<h3 id="near">near<a class="hash" href="#near" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɪr/ &middot; <em>NEER</em></dd><dt>Русский</dt><dd>близкий; ближний</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — after a verb for distance and time (<em>The station is near</em>); before a noun only in set uses (<em>the near future</em>, <em>a near miss</em>) and in the comparative and superlative (<em>the nearest store</em>)</dd><dt>Comparison</dt><dd>-er/-est — <em>nearer</em>, <em>nearest</em></dd><dt>Opposite</dt><dd><em>far</em></dd><dt>Contrast</dt><dd>Do not put plain <em>near</em> before a noun to mean <em>close by</em>: say <em>a nearby store</em> or <em>a store nearby</em>, not <em>a near store</em> — though <em>the nearest store</em> is correct. <em>Near the park</em> is the preposition and <em>Come near</em> the adverb; neither is this adjective. American English says <em>near the beach</em>, rarely <em>near to the beach</em>. <em>A near miss</em> is an accident that almost happened. For family, <em>a close relative</em> is far more common in the US than <em>a near relative</em>.</dd></dl>
+<p>Near has 5 distinct senses.</p>
+<p><strong>1. Only a short distance away.</strong> (близкий, недалёкий)</p>
+<ol><li>The hotel is quite <em>near</em> — we can walk.</li><li>Is the subway station very <em>near</em>?</li><li>Let's eat at the <em>nearest</em> diner.</li></ol>
+<p><strong>2. Soon in time.</strong> (близкий, ближайший)</p>
+<ol start="4"><li>Prices will rise in the <em>near</em> future.</li><li>The holidays are <em>near</em>, and the stores are packed.</li></ol>
+<p><strong>3. Almost happening or almost complete.</strong> (едва не случившийся; почти полный)</p>
+<ol start="6"><li>That was a <em>near</em> miss — the truck almost hit us.</li><li>The game ended in <em>near</em> silence.</li><li>The flood was a <em>near</em> disaster for the town.</li></ol>
+<p><strong>4. Being the closer of two sides.</strong> (ближний)</p>
+<ol start="9"><li>Park on the <em>near</em> side of the street.</li><li>We swam from the <em>near</em> bank to the island.</li></ol>
+<p><strong>5. Closely related — formal.</strong> (близкий (о родстве))</p>
+<ol start="11"><li>Only <em>near</em> relatives can inherit under the will.</li><li>She has no <em>near</em> family left.</li></ol>
+<hr>
+<h3 id="ill">ill<a class="hash" href="#ill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪl/ &middot; <em>IL</em></dd><dt>Русский</dt><dd>больной</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — in the sense 'sick' mostly after a verb (<em>She's ill</em>) or with an adverb before a noun (<em>seriously ill patients</em>); in the senses 'bad' and 'hostile' only before a noun (<em>ill effects</em>, <em>ill will</em>)</dd><dt>Comparison</dt><dd>irregular — <em>worse</em>, <em>worst</em></dd><dt>Takes</dt><dd><em>with</em> + an illness (<em>ill with the flu</em>)</dd><dt>Opposite</dt><dd><em>well</em>; <em>healthy</em></dd><dt>Contrast</dt><dd>In everyday American English <em>sick</em> is the usual word and <em>ill</em> is more formal: <em>I'm sick</em> / <em>She is seriously ill</em>. <em>An ill child</em> sounds stiff — say <em>a sick child</em> — but an adverb makes <em>ill</em> normal before a noun (<em>terminally ill patients</em>). In British English <em>sick</em> often means <em>vomiting</em>; in American English it means <em>ill</em>. Before a noun <em>ill</em> usually means <em>bad</em>, not <em>sick</em>: <em>ill effects</em>, <em>ill will</em>. The forms <em>worse</em> and <em>worst</em> belong to both <em>ill</em> and <em>bad</em>: <em>She got worse</em>. <em>Ill-</em> in compounds (<em>ill-advised</em>, <em>ill-treated</em>) is the adverb, and <em>the ills of society</em> is a noun.</dd></dl>
+<p>Ill has 4 distinct senses.</p>
+<p><strong>1. Sick; not in good health.</strong> (больной)</p>
+<ol><li>Her father is seriously <em>ill</em>.</li><li>I felt <em>ill</em> after the long bus ride.</li><li>By Tuesday she was <em>worse</em>, so we took her to the ER.</li></ol>
+<p><strong>2. Bad or harmful.</strong> (плохой, вредный)</p>
+<ol start="4"><li>The drug has no known <em>ill</em> effects.</li><li>He retired early because of <em>ill</em> health.</li></ol>
+<p><strong>3. Unfriendly or hostile.</strong> (недобрый, враждебный)</p>
+<ol start="6"><li>I bear him no <em>ill</em> will.</li><li>There was a lot of <em>ill</em> feeling after the vote.</li></ol>
+<p><strong>4. Nervous and uncomfortable — in <em>ill at ease</em>.</strong> (не по себе, неловко)</p>
+<ol start="8"><li>He looked <em>ill</em> at ease in a suit and tie.</li><li>Big parties make me feel <em>ill</em> at ease.</li></ol>
+<hr>
+<h3 id="well">well<a class="hash" href="#well" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛl/ &middot; <em>WEL</em></dd><dt>Русский</dt><dd>здоровый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>predicative only — <em>I'm not well</em>; before a noun only in medical phrases like <em>a well-baby visit</em></dd><dt>Comparison</dt><dd>irregular — <em>better</em>, <em>best</em></dd><dt>Opposite</dt><dd><em>ill</em>; <em>sick</em></dd><dt>Contrast</dt><dd>The adjective <em>well</em> means <em>healthy</em>; the adverb <em>well</em> means <em>in a good way</em>: <em>I'm well</em> (not sick) / <em>She sings well</em>. <em>I feel well</em> is about health; <em>I feel good</em> is about health or mood, and in casual American English <em>I'm good</em> is the usual answer to <em>How are you?</em> The comparative is <em>better</em>: <em>I feel better</em>, not <em>more well</em>. Because it only follows a verb, <em>a well man</em> is wrong — say <em>a healthy man</em>. <em>Well</em> the noun (<em>колодец</em>) and the interjection (<em>Well, maybe</em>) are other words.</dd></dl>
+<p>Well has 4 distinct senses.</p>
+<p><strong>1. Healthy; not sick.</strong> (здоровый)</p>
+<ol><li>I'm not feeling <em>well</em> today.</li><li>Is your mother <em>well</em>?</li><li>She was sick last week, but she's <em>better</em> now.</li></ol>
+<p><strong>2. In a good or satisfactory state.</strong> (в порядке, хорошо)</p>
+<ol start="4"><li>All is <em>well</em> at home.</li><li>I hope all is <em>well</em> with you and your family.</li></ol>
+<p><strong>3. Lucky or a good thing, considering what happened — in <em>just as well</em>.</strong> (к лучшему; и хорошо, что)</p>
+<ol start="6"><li>It's just as <em>well</em> we left early — the roads got icy.</li><li>She didn't get the job, which was just as <em>well</em>, since she hated the commute.</li></ol>
+<p><strong>4. Sensible or advisable — formal.</strong> (разумно, желательно)</p>
+<ol start="8"><li>It would be <em>well</em> to get a second opinion.</li><li>It might be <em>well</em> to call ahead before you go.</li></ol>
+<hr>
+<h3 id="better">better<a class="hash" href="#better" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛtər/ &middot; <em>BET-ur</em></dd><dt>Русский</dt><dd>лучший; лучше</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both — <em>a better job</em>, <em>This one is better</em></dd><dt>Comparison</dt><dd>irregular — <em>better</em> is the comparative of <em>good</em> and <em>well</em>; the superlative is <em>best</em></dd><dt>Takes</dt><dd><em>than</em> + noun or clause; <em>at</em> + noun or <em>-ing</em> (<em>better at math</em>); <em>with</em> + people or things you handle; <em>for</em> + the person or thing it helps; <em>to</em>-infinitive (<em>It's better to wait</em>)</dd><dt>Opposite</dt><dd><em>worse</em></dd><dt>Contrast</dt><dd><em>Better</em> is already comparative, so it never takes <em>more</em> or <em>very</em>: <em>much better</em>, <em>even better</em>, <em>a lot better</em>, not <em>more better</em> or <em>very better</em>. <em>I'm better</em> means <em>I have recovered</em>; <em>I'm good</em> only means <em>I'm fine</em>. <em>You'd better go</em> (<em>had better</em>) is a modal phrase, and <em>She sings better</em> is the adverb. <em>Better off</em> means <em>in a better situation, richer</em>: <em>We're better off without him</em>. Russian <em>лучший</em> is <em>better</em> when two things are compared (<em>a better car</em>) and <em>the best</em> for all others; careful English says <em>the better of the two</em>.</dd></dl>
+<p>Better has 5 distinct senses.</p>
+<p><strong>1. Of higher quality, more pleasant or more suitable than someone or something else.</strong> (лучше, лучший)</p>
+<ol><li>This laptop is much <em>better</em> than my old one.</li><li>The weather is <em>better</em> today.</li><li>Would Friday be <em>better</em> for you?</li></ol>
+<p><strong>2. More skillful.</strong> (лучше (умеющий), сильнее)</p>
+<ol start="4"><li>She's <em>better</em> at chess than her brother.</li><li>He's <em>better</em> with kids than I am.</li></ol>
+<p><strong>3. Less sick; or fully recovered.</strong> (лучше (о здоровье); выздоровевший)</p>
+<ol start="6"><li>Are you feeling <em>better</em> today?</li><li>My cold is <em>better</em>, but I still have a cough.</li><li>Stay home until you're completely <em>better</em>.</li></ol>
+<p><strong>4. More sensible or advisable.</strong> (лучше, разумнее)</p>
+<ol start="9"><li>It's <em>better</em> to ask than to guess.</li><li>It would be <em>better</em> if you told her yourself.</li></ol>
+<p><strong>5. Most of something — in <em>the better part of</em>.</strong> (бо́льшая (часть))</p>
+<ol start="11"><li>I waited the <em>better</em> part of an hour.</li><li>They spent the <em>better</em> part of the day at the beach.</li></ol>
+<hr>
+<h3 id="best">best<a class="hash" href="#best" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɛst/ &middot; <em>BEST</em></dd><dt>Русский</dt><dd>лучший; самый лучший</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both — <em>the best pizza in town</em>, <em>Which one is best?</em>; before a noun it needs <em>the</em> or a possessive (<em>my best friend</em>)</dd><dt>Comparison</dt><dd>irregular — <em>best</em> is the superlative of <em>good</em> and <em>well</em>; the comparative is <em>better</em></dd><dt>Takes</dt><dd><em>at</em> + noun or <em>-ing</em> (<em>best at math</em>); <em>for</em> + the person or purpose it suits; <em>to</em>-infinitive (<em>It's best to wait</em>)</dd><dt>Opposite</dt><dd><em>worst</em></dd><dt>Contrast</dt><dd><em>Best</em> is already superlative: <em>the best</em>, <em>the very best</em>, never <em>most best</em>. Before a noun it needs <em>the</em> or a possessive — <em>She's the best student</em>, not <em>She's best student</em>. Without <em>the</em> it often means <em>most sensible</em>: <em>It's best to call first</em>. When only two things are compared, careful English uses <em>better</em>: <em>the better of the two</em>, though <em>the best of the two</em> is common in speech. <em>Do your best</em> and <em>at best</em> use the noun, and <em>She sings best</em> is the adverb.</dd></dl>
+<p>Best has 3 distinct senses.</p>
+<p><strong>1. Of the highest quality; better than all others.</strong> (лучший, самый лучший)</p>
+<ol><li>This is the <em>best</em> pizza in town.</li><li>Emma has been my <em>best</em> friend since third grade.</li><li>It was the <em>best</em> day of my life.</li></ol>
+<p><strong>2. Most skillful.</strong> (лучший, самый сильный)</p>
+<ol start="4"><li>She's the <em>best</em> player on the team.</li><li>Who's <em>best</em> at math in your class?</li></ol>
+<p><strong>3. Most suitable or advisable.</strong> (лучше всего; самый подходящий)</p>
+<ol start="6"><li>It's <em>best</em> to book early.</li><li>What's the <em>best</em> way to get downtown?</li><li>Do whatever you think is <em>best</em>.</li></ol>
+<hr>
+<h3 id="worse">worse<a class="hash" href="#worse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɜːrs/ &middot; <em>WURS</em></dd><dt>Русский</dt><dd>худший; хуже</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both — <em>a worse problem</em>, <em>The problem is worse</em></dd><dt>Comparison</dt><dd>irregular — <em>worse</em> is the comparative of <em>bad</em> and <em>ill</em>; the superlative is <em>worst</em></dd><dt>Takes</dt><dd><em>than</em> + noun or clause; <em>at</em> + noun or <em>-ing</em> (<em>worse at math</em>); <em>for</em> + the person or thing harmed</dd><dt>Opposite</dt><dd><em>better</em></dd><dt>Contrast</dt><dd><em>Worse</em> is already comparative: <em>much worse</em>, <em>even worse</em>, never <em>more worse</em> or <em>badder</em>. Do not mix it up with <em>worst</em>: <em>This is worse than yesterday</em> (two things) / <em>This is the worst day ever</em> (all others). <em>Worse</em> ends in an s sound, <em>worst</em> in st. <em>Worse off</em> means in a worse situation, poorer. <em>She sings worse than I do</em> is the adverb.</dd></dl>
+<p>Worse has 4 distinct senses.</p>
+<p><strong>1. Of lower quality or less pleasant than someone or something else.</strong> (хуже, худший)</p>
+<ol><li>The sequel is <em>worse</em> than the original.</li><li>The food was <em>worse</em> than I expected.</li><li>We couldn't have picked a <em>worse</em> day for a picnic.</li></ol>
+<p><strong>2. More serious or severe.</strong> (сильнее, серьёзнее)</p>
+<ol start="4"><li>The pain is <em>worse</em> at night.</li><li>Traffic is <em>worse</em> than usual today.</li><li>The problem is <em>worse</em> than we thought.</li></ol>
+<p><strong>3. Less skillful.</strong> (слабее, хуже (умеющий))</p>
+<ol start="7"><li>I'm even <em>worse</em> at math than my brother.</li><li>He's <em>worse</em> with money than anyone I know.</li></ol>
+<p><strong>4. More sick; in poorer health.</strong> (хуже (о здоровье))</p>
+<ol start="9"><li>Grandpa got <em>worse</em> overnight.</li><li>If your fever gets <em>worse</em>, call the doctor.</li></ol>
+<hr>
+<h3 id="worst">worst<a class="hash" href="#worst" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɜːrst/ &middot; <em>WURST</em></dd><dt>Русский</dt><dd>худший; самый плохой</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both — <em>the worst day</em>, <em>Allergies are worst in spring</em>; before a noun it needs <em>the</em> or a possessive (<em>my worst fear</em>)</dd><dt>Comparison</dt><dd>irregular — <em>worst</em> is the superlative of <em>bad</em> and <em>ill</em>; the comparative is <em>worse</em></dd><dt>Takes</dt><dd><em>at</em> + noun or <em>-ing</em> (<em>worst at spelling</em>)</dd><dt>Opposite</dt><dd><em>best</em></dd><dt>Contrast</dt><dd><em>Worst</em> compares something with all others; <em>worse</em> compares two: <em>the worst movie of the year</em> / <em>worse than the book</em>. Never <em>most worst</em>, and <em>baddest</em> is only slang. <em>The worst is over</em> and <em>at worst</em> use the noun. American English says both <em>if worse comes to worst</em> and <em>if worst comes to worst</em>.</dd></dl>
+<p>Worst has 4 distinct senses.</p>
+<p><strong>1. Of the lowest quality; worse than all others.</strong> (худший, самый плохой)</p>
+<ol><li>That was the <em>worst</em> meal I've ever had.</li><li>He's the <em>worst</em> boss I've ever worked for.</li><li>It was the <em>worst</em> decision of her career.</li></ol>
+<p><strong>2. Most serious, severe or harmful.</strong> (самый сильный, самый тяжёлый)</p>
+<ol start="4"><li>It was the <em>worst</em> storm in fifty years.</li><li>The <em>worst</em> part was waiting for the results.</li><li>Allergies are <em>worst</em> in the spring.</li></ol>
+<p><strong>3. Least suitable or convenient.</strong> (самый неподходящий)</p>
+<ol start="7"><li>This is the <em>worst</em> time to buy a house.</li><li>You picked the <em>worst</em> possible moment to call.</li></ol>
+<p><strong>4. Least skillful.</strong> (самый слабый)</p>
+<ol start="9"><li>I was the <em>worst</em> player on the team.</li><li>She's the <em>worst</em> at remembering birthdays.</li></ol>
+<hr>
+<h3 id="farther">farther<a class="hash" href="#farther" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrðər/ &middot; <em>FAHR-thur</em></dd><dt>Русский</dt><dd>более далёкий; дальний</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>the farther shore</em>, <em>The lake was farther than we thought</em></dd><dt>Comparison</dt><dd>irregular — <em>farther</em> is the comparative of <em>far</em>; the superlative is <em>farthest</em></dd><dt>Takes</dt><dd><em>than</em> + noun or clause; <em>from</em> + a place</dd><dt>Opposite</dt><dd><em>nearer</em></dd><dt>Contrast</dt><dd>In American English <em>farther</em> is for physical distance and <em>further</em> for distance or degree: <em>The school is farther than the library</em> (<em>further</em> is also fine here) / <em>further questions</em> (only <em>further</em>). Never use <em>farther</em> for <em>additional</em> — <em>farther information</em> is wrong. <em>We walked farther</em> is the adverb. Russian <em>дальнейший</em> is <em>further</em>, not <em>farther</em>.</dd></dl>
+<p>Farther has 2 distinct senses.</p>
+<p><strong>1. More distant.</strong> (более далёкий)</p>
+<ol><li>The beach was <em>farther</em> than it looked on the map.</li><li>Our new office is <em>farther</em> from home, so I leave earlier.</li></ol>
+<p><strong>2. Being the more distant of two sides or ends.</strong> (дальний, противоположный)</p>
+<ol start="3"><li>They built a cabin on the <em>farther</em> shore of the lake.</li><li>The <em>farther</em> end of the field was flooded.</li></ol>
+<hr>
+<h3 id="farthest">farthest<a class="hash" href="#farthest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrðəst/ &middot; <em>FAHR-thuhst</em></dd><dt>Русский</dt><dd>самый дальний</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>the farthest point</em>, <em>Which planet is farthest from the sun?</em></dd><dt>Comparison</dt><dd>irregular — <em>farthest</em> is the superlative of <em>far</em>; the comparative is <em>farther</em></dd><dt>Takes</dt><dd><em>from</em> + a place</dd><dt>Opposite</dt><dd><em>nearest</em></dd><dt>Contrast</dt><dd><em>Farthest</em> is only for physical distance; <em>furthest</em> covers distance and also degree (<em>the furthest thing from my mind</em>). Before a noun it needs <em>the</em> or a possessive: <em>the farthest table</em>. <em>Who can throw the ball farthest?</em> is the adverb.</dd></dl>
+<p>Most distant.</p>
+<ol><li>We sat at the <em>farthest</em> table from the stage.</li><li>Neptune is the <em>farthest</em> planet from the sun.</li><li>The <em>farthest</em> town on the route is about 200 miles away.</li></ol>
+<hr>
+<h3 id="further">further<a class="hash" href="#further" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrðər/ &middot; <em>FUR-thur</em></dd><dt>Русский</dt><dd>дальнейший; дополнительный</dd><dt>Type</dt><dd>quantity; also quality</dd><dt>Position</dt><dd>both — in the sense 'additional' only before a noun (<em>further details</em>); in the sense 'more distant' also after a verb (<em>The store is further than I thought</em>, <em>Nothing could be further from the truth</em>)</dd><dt>Comparison</dt><dd>irregular — <em>further</em> is a comparative of <em>far</em>; the superlative is <em>furthest</em></dd><dt>Takes</dt><dd><em>than</em> + noun or clause; <em>from</em> + a place or an idea, in the sense 'more distant'</dd><dt>Contrast</dt><dd><em>Further</em> in the sense <em>additional</em> has no <em>farther</em> twin: <em>further information</em>, <em>until further notice</em>, never <em>farther information</em>. For physical distance careful American writing prefers <em>farther</em>, but <em>further</em> is common and correct. <em>Let's discuss it further</em> is the adverb, and <em>to further your career</em> is the verb. Russian <em>дальнейший</em> and <em>дополнительный</em> are both <em>further</em>: <em>further steps</em>, <em>further questions</em>. <em>More further</em> is wrong.</dd></dl>
+<p>Further has 2 distinct senses.</p>
+<p><strong>1. Additional; more.</strong> (дополнительный, дальнейший)</p>
+<ol><li>Call us if you have any <em>further</em> questions.</li><li>The office is closed until <em>further</em> notice.</li><li>Police are waiting for <em>further</em> information.</li></ol>
+<p><strong>2. More distant, in space or in degree.</strong> (более далёкий, дальний)</p>
+<ol start="4"><li>The hospital is <em>further</em> than the fire station.</li><li>The campsite was <em>further</em> from the lake than the website said.</li><li>Nothing could be <em>further</em> from the truth.</li></ol>
+<hr>
+<h3 id="furthest">furthest<a class="hash" href="#furthest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrðəst/ &middot; <em>FUR-thuhst</em></dd><dt>Русский</dt><dd>самый дальний</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>the furthest house</em>, <em>Which town is furthest?</em></dd><dt>Comparison</dt><dd>irregular — <em>furthest</em> is a superlative of <em>far</em>; the comparative is <em>further</em></dd><dt>Takes</dt><dd><em>from</em> + a place</dd><dt>Opposite</dt><dd><em>nearest</em></dd><dt>Contrast</dt><dd>For physical distance <em>furthest</em> and <em>farthest</em> both work, with <em>farthest</em> preferred in careful American writing. Only <em>furthest</em> is used for degree: <em>the furthest thing from my mind</em>. Before a noun it needs <em>the</em> or a possessive. <em>He went furthest in the tournament</em> is the adverb.</dd></dl>
+<p>Furthest has 2 distinct senses.</p>
+<p><strong>1. Most distant.</strong> (самый дальний)</p>
+<ol><li>They live in the <em>furthest</em> house on the road.</li><li>Which of the moons is <em>furthest</em> from Jupiter?</li></ol>
+<p><strong>2. Least likely or least true — in <em>the furthest thing from</em>.</strong> (последнее (о чём думаешь); совсем не)</p>
+<ol start="3"><li>Retirement is the <em>furthest</em> thing from my mind.</li><li>What he told the reporters was the <em>furthest</em> thing from the truth.</li></ol>
+<hr>
+<h3 id="elder">elder<a class="hash" href="#elder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛldər/ &middot; <em>EL-dur</em></dd><dt>Русский</dt><dd>старший</dd><dt>Type</dt><dd>age</dd><dt>Position</dt><dd>attributive only — <em>my elder sister</em>; after a verb only in <em>the elder of the two</em>, never <em>She is elder than me</em></dd><dt>Comparison</dt><dd>irregular — <em>elder</em> is a comparative of <em>old</em> used for rank in a family; the superlative is <em>eldest</em></dd><dt>Opposite</dt><dd><em>younger</em></dd><dt>Contrast</dt><dd><em>Elder</em> goes only before a noun and never takes <em>than</em>: <em>my elder brother</em>, but <em>My brother is older than me</em>, not <em>elder than me</em>. American English uses <em>older brother</em> far more often; <em>elder</em> sounds formal. It is only for people, mostly in a family: <em>an older car</em>, not <em>an elder car</em>. <em>An elder</em> (a respected old person, a church leader) and <em>respect your elders</em> are noun uses. <em>Elderly</em> means <em>old</em>, not <em>older</em>.</dd></dl>
+<p>Elder has 3 distinct senses.</p>
+<p><strong>1. Older — of one of two members of a family.</strong> (старший)</p>
+<ol><li>Her <em>elder</em> sister lives in Seattle.</li><li>He's the <em>elder</em> of the two brothers.</li><li>My <em>elder</em> son is in college now.</li></ol>
+<p><strong>2. Used to tell apart two well-known people with the same name, usually a father and son.</strong> (старший)</p>
+<ol start="4"><li>The <em>elder</em> Bush was president from 1989 to 1993.</li><li>The <em>elder</em> Dumas wrote The Three Musketeers.</li></ol>
+<p><strong>3. Senior and respected because of age and experience — mainly in <em>elder statesman</em>.</strong> (маститый, авторитетный)</p>
+<ol start="6"><li>At eighty, he is the party's <em>elder</em> statesman.</li><li>She has become an <em>elder</em> stateswoman of the tech industry.</li></ol>
+<hr>
+<h3 id="eldest">eldest<a class="hash" href="#eldest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛldəst/ &middot; <em>EL-duhst</em></dd><dt>Русский</dt><dd>самый старший</dd><dt>Type</dt><dd>age</dd><dt>Position</dt><dd>attributive only — <em>my eldest daughter</em>; also <em>the eldest</em> standing alone (<em>She's the eldest of four</em>)</dd><dt>Comparison</dt><dd>irregular — <em>eldest</em> is a superlative of <em>old</em> used for rank in a family; the comparative is <em>elder</em></dd><dt>Opposite</dt><dd><em>youngest</em></dd><dt>Contrast</dt><dd><em>Eldest</em> is only for people, almost always in a family: <em>my eldest son</em>, but <em>the oldest building</em>, never <em>the eldest building</em>. <em>Oldest</em> works everywhere and is more common in American English. With only two children, <em>elder</em> is traditional (<em>the elder of the two</em>), though <em>eldest</em> is common in speech.</dd></dl>
+<p>Oldest — of three or more members of a family.</p>
+<ol><li>Their <em>eldest</em> daughter just got married.</li><li>I'm the <em>eldest</em> of five kids.</li><li>As the <em>eldest</em> son, he took over the family farm.</li></ol>
+<hr>
+<h3 id="latter">latter<a class="hash" href="#latter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlætər/ &middot; <em>LAT-ur</em></dd><dt>Русский</dt><dd>второй (из двух); последний</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — after <em>the</em>, <em>this</em> or a possessive (<em>the latter option</em>); <em>the latter</em> also stands alone for the second of two</dd><dt>Comparison</dt><dd>not gradable — once a comparative of <em>late</em>, now fixed in meaning</dd><dt>Opposite</dt><dd><em>former</em></dd><dt>Contrast</dt><dd><em>Latter</em> (rhymes with <em>matter</em>) and <em>later</em> (rhymes with <em>waiter</em>) are different words: <em>the latter half</em> is the second half; <em>a later date</em> is a date further in the future. Use <em>the former</em> and <em>the latter</em> only for two things; for three or more say <em>the last</em>. It is formal and mostly written — in speech Americans usually say <em>the second one</em>. <em>The latter</em> often stands alone: <em>Of the two plans, the latter is cheaper</em>.</dd></dl>
+<p>Latter has 2 distinct senses.</p>
+<p><strong>1. Being the second of two people or things already mentioned.</strong> (второй (из названных), последний)</p>
+<ol><li>In the <em>latter</em> case, you'll need to apply for a new passport.</li><li>Customers can pay online or by phone, and most choose the <em>latter</em> option.</li></ol>
+<p><strong>2. Nearer the end of a period of time.</strong> (последний, поздний; вторая (половина))</p>
+<ol start="3"><li>Sales picked up in the <em>latter</em> half of the year.</li><li>He spent his <em>latter</em> years in Florida.</li><li>The project is in its <em>latter</em> stages.</li></ol>
+<hr>
+<h3 id="last">last<a class="hash" href="#last" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læst/ &middot; <em>LAST</em></dd><dt>Русский</dt><dd>последний; прошлый</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both — mostly before a noun (<em>the last page</em>); after a verb in <em>be last</em> (<em>She was last in line</em>)</dd><dt>Comparison</dt><dd>not gradable — once a superlative of <em>late</em>; <em>the very last</em> adds emphasis</dd><dt>Takes</dt><dd><em>to</em>-infinitive (<em>the last to leave</em>)</dd><dt>Opposite</dt><dd><em>first</em>; <em>next</em> for time</dd><dt>Contrast</dt><dd><em>Last week</em>, <em>last year</em> and <em>last Friday</em> take no article and mean the one before this one: <em>I saw her last week</em>. <em>The last week</em> means the past seven days, or the final week of something: <em>The last week has been crazy</em> / <em>the last week of June</em>. <em>Last</em> means <em>final</em> or <em>the one before now</em>, while <em>latest</em> means <em>newest</em>: <em>his last book</em> may be his final one, <em>his latest book</em> is his newest, with more to come. For news and updates say <em>the latest</em>, not <em>the last</em>. <em>At last</em> is an adverb phrase, <em>He finished last</em> uses the adverb, and <em>to last</em> is the verb.</dd></dl>
+<p>Last has 5 distinct senses.</p>
+<p><strong>1. Coming after all others; final.</strong> (последний)</p>
+<ol><li>Don't skip the <em>last</em> chapter.</li><li>She was the <em>last</em> person to leave the office.</li><li>The <em>last</em> train leaves at midnight.</li></ol>
+<p><strong>2. Just before this one — with <em>week</em>, <em>month</em>, <em>year</em>, <em>night</em> and days of the week, without <em>the</em>.</strong> (прошлый)</p>
+<ol start="4"><li>We went to Boston <em>last</em> weekend.</li><li><em>Last</em> night's game went into overtime.</li><li>I saw him <em>last</em> Tuesday.</li></ol>
+<p><strong>3. Most recent.</strong> (последний (недавний))</p>
+<ol start="7"><li>The <em>last</em> time I saw her, she was still in high school.</li><li>Prices have doubled over the <em>last</em> few years.</li><li>His <em>last</em> email was pretty rude.</li></ol>
+<p><strong>4. Only remaining.</strong> (последний, оставшийся)</p>
+<ol start="10"><li>Can I have the <em>last</em> cookie?</li><li>I spent my <em>last</em> ten dollars on gas.</li></ol>
+<p><strong>5. Least likely or least wanted.</strong> (последний (о ком или чём меньше всего ожидаешь))</p>
+<ol start="12"><li>He's the <em>last</em> person I expected to see here.</li><li>A flat tire is the <em>last</em> thing I need right now.</li></ol>
+<hr>
+<h3 id="latest">latest<a class="hash" href="#latest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪtəst/ &middot; <em>LAY-tuhst</em></dd><dt>Русский</dt><dd>последний; новейший</dd><dt>Type</dt><dd>age</dd><dt>Position</dt><dd>attributive only — after <em>the</em> or a possessive (<em>the latest news</em>); <em>the latest</em> standing alone (<em>Have you heard the latest?</em>) is a noun use</dd><dt>Comparison</dt><dd>-er/-est — <em>latest</em> is the superlative of <em>late</em>; the comparative is <em>later</em></dd><dt>Opposite</dt><dd><em>earliest</em></dd><dt>Contrast</dt><dd><em>Latest</em> means <em>newest, most recent</em>, and more may follow: <em>her latest album</em>. <em>Last</em> means <em>final</em>, or the one before now: <em>her last album</em> may be her final one. For news, trends and versions English says <em>latest</em>, not <em>last</em>: <em>the latest news</em>, <em>the latest update</em>. <em>At the latest</em> means <em>no later than</em>: <em>by Friday at the latest</em>. <em>Late</em> in the sense <em>dead</em> has no <em>latest</em>.</dd></dl>
+<p>Latest has 2 distinct senses.</p>
+<p><strong>1. Newest; most recent.</strong> (последний, новейший)</p>
+<ol><li>Have you seen her <em>latest</em> movie?</li><li>Download the <em>latest</em> version of the app.</li><li>The <em>latest</em> polls show a close race.</li></ol>
+<p><strong>2. Happening after all others in time.</strong> (самый поздний)</p>
+<ol start="4"><li>What's the <em>latest</em> time we can check out?</li><li>The <em>latest</em> flight to Miami leaves at 10:40.</li><li>Friday is the <em>latest</em> date we can accept your application.</li></ol>
+<hr>
+<h3 id="next">next<a class="hash" href="#next" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɛkst/ &middot; <em>NEKST</em></dd><dt>Русский</dt><dd>следующий</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>both — mostly before a noun (<em>the next day</em>); after a verb in <em>be next</em> (<em>You're next</em>)</dd><dt>Comparison</dt><dd>not gradable — once the superlative of <em>nigh</em>, an old word for <em>near</em></dd><dt>Opposite</dt><dd><em>last</em>; <em>previous</em></dd><dt>Contrast</dt><dd><em>Next week</em>, <em>next year</em> and <em>next Monday</em> take no article and mean the one after this one: <em>See you next week</em>. With <em>the</em>, <em>next</em> counts from some other time: <em>We arrived on Monday and left the next day</em>. <em>Next Friday</em> can be unclear in American speech — some people mean the coming Friday, others the Friday after — so <em>this Friday</em> is safer for the coming one. <em>Next</em> is about order and <em>nearest</em> about distance: <em>the next gas station</em> is the next one on your route, <em>the nearest gas station</em> the closest in any direction. <em>Next to</em> (<em>рядом с</em>) is a preposition, and <em>What happened next?</em> is the adverb.</dd></dl>
+<p>Next has 3 distinct senses.</p>
+<p><strong>1. Coming right after this one in time or order.</strong> (следующий)</p>
+<ol><li>We'll cover that in the <em>next</em> chapter.</li><li>The <em>next</em> day, it snowed.</li><li>Who's <em>next</em> in line?</li></ol>
+<p><strong>2. Just after this one — with <em>week</em>, <em>month</em>, <em>year</em> and days of the week, without <em>the</em>.</strong> (следующий, будущий)</p>
+<ol start="4"><li>My parents are visiting <em>next</em> month.</li><li><em>Next</em> summer we're going to Maine.</li><li>I have a dentist appointment <em>next</em> Thursday.</li></ol>
+<p><strong>3. Nearest in place; right beside.</strong> (соседний)</p>
+<ol start="7"><li>The music from the <em>next</em> room kept me awake.</li><li>She lives in the <em>next</em> town over.</li><li>The couple at the <em>next</em> table were arguing.</li></ol>
+<hr>
+<h3 id="nearest">nearest<a class="hash" href="#nearest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɪrəst/ &middot; <em>NEER-uhst</em></dd><dt>Русский</dt><dd>ближайший</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — <em>the nearest hospital</em>, <em>Which exit is nearest?</em></dd><dt>Comparison</dt><dd>-er/-est — <em>nearest</em> is the superlative of <em>near</em>; the comparative is <em>nearer</em></dd><dt>Takes</dt><dd><em>to</em> + noun (<em>the seat nearest to the door</em>)</dd><dt>Opposite</dt><dd><em>farthest</em></dd><dt>Contrast</dt><dd><em>Nearest</em> is about distance, <em>next</em> about order: <em>the nearest exit</em> is the closest one, <em>the next exit</em> is the one you reach after this one on the highway. Unlike plain <em>near</em>, <em>nearest</em> stands freely before a noun: <em>the nearest store</em>, never <em>a near store</em>. In everyday American speech <em>closest</em> is more common. <em>To the nearest dollar</em> means rounded (<em>с точностью до доллара</em>).</dd></dl>
+<p>Nearest has 3 distinct senses.</p>
+<p><strong>1. Closest in distance.</strong> (ближайший)</p>
+<ol><li>Where's the <em>nearest</em> gas station?</li><li>The <em>nearest</em> hospital is forty miles away.</li><li>Take the seat <em>nearest</em> to the door.</li></ol>
+<p><strong>2. Closest in relationship or likeness.</strong> (самый близкий, самый похожий)</p>
+<ol start="4"><li>This is the <em>nearest</em> thing to real Mexican food in town.</li><li>His <em>nearest</em> relative is a cousin in Ohio.</li></ol>
+<p><strong>3. Rounded to a given unit — in <em>to the nearest</em>.</strong> (с точностью до)</p>
+<ol start="6"><li>Round the answer to the <em>nearest</em> whole number.</li><li>Prices are rounded to the <em>nearest</em> dollar.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

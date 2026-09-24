@@ -6,7 +6,7 @@ Traditional grammar counts **eight parts of speech**: nouns, pronouns, verbs, ad
 
 The nine word-class folders live under **[parts-of-speech/](parts-of-speech/README.md)**; the [pronunciation guide](10-pronunciation/README.md) sits alongside them, since how English sounds is not a word class.
 
-Each class folder is a self-contained README with the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice. The five **closed classes** — pronouns, prepositions, conjunctions, interjections, determiners — additionally have a `catalog/` holding a complete dictionary of that class. **Nouns**, **verbs** and **adverbs** are open classes, so no list of them is ever complete; each has a catalog in two tiers — every word whose grammar has to be memorized (irregular plurals and uncountables; irregular, modal and phrasal verbs; flat adverbs, irregular comparison and the closed adverb sets), then a large core of everyday words checked against WordNet. **Adjectives** are the one class without a catalog yet.
+Each class folder is a self-contained README with the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice. The five **closed classes** — pronouns, prepositions, conjunctions, interjections, determiners — additionally have a `catalog/` holding a complete dictionary of that class. **Nouns**, **verbs**, **adjectives** and **adverbs** are open classes, so no list of them is ever complete; each has a catalog in two tiers — every word whose grammar has to be memorized (irregular plurals and uncountables; irregular, modal and phrasal verbs; irregular comparison, *-ing*/*-ed* pairs and position-restricted adjectives; flat adverbs, irregular comparison and the closed adverb sets), then a large core of everyday words checked against WordNet.
 
 ## The nine classes
 
@@ -55,6 +55,22 @@ Traps are called out where they exist: ✗ *I begun*, ✗ *I have went*, ✗ *I 
 The verb + preposition patterns (*depend on*, *abide by*, *account for*) moved here from the preposition catalog — they are verbs, and this is where you look them up.
 
 **[Open the audio browser](parts-of-speech/03-verbs/catalog/browse.html)** — every verb, searchable, click any one to hear it.
+
+## The Adjective Dictionary
+
+**[04-adjectives/catalog/](parts-of-speech/04-adjectives/catalog/README.md)** — **[7,610 entries](parts-of-speech/04-adjectives/catalog/README.md)** in **two tiers**, because the adjectives that cause errors are a small set and the ones a learner simply needs to look up are thousands.
+
+- **The grammar tier** — 16 groups built around what goes wrong: irregular comparison (*good*, *better*, *best*), the *-ing*/*-ed* pairs (*boring*, *bored*), adjectives that only follow a verb (*afraid*, *asleep*) or only go before a noun (*main*, *mere*), extreme and absolute adjectives (*freezing*, *unique*), adjectives that change meaning after the noun (*the people involved*), fixed prepositions and *to*-infinitives, spelling changes in comparison (*big*, *bigger*), nationalities, compounds, *-ly* adjectives (*friendly*), false friends for Russian speakers (*actual*, *sympathetic*) and confused pairs (*economic*, *economical*). Every adjective sense, most common first; each group was written and then adversarially reviewed.
+- **The core tier** — A–Z, the everyday adjectives from a triage of WordNet's 21,479 adjective lemmas. Of the 10,311 that occur in WordNet's tagged corpus or in a 50,000-word frequency list, 5,781 were kept; of the 10,645 that do neither, 1,263 were rescued — *cantankerous*, *capacious*, *choosy* — and the rest left out as technical, archaic or British-only.
+
+Every entry gives:
+
+- **Position** — before a noun, after a verb, or both: ✗ *an asleep baby*, ✗ *the reason is main*
+- **Comparison** — *-er/-est*, *more/most*, irregular, or not gradable, with the spelling (*bigger*, *happier*, *more tired*)
+- **Takes** — the preposition, infinitive or *that*-clause it requires, with a link to the full pattern in the [preposition dictionary](parts-of-speech/06-prepositions/catalog/15-dependent-adjectives.md)
+- **Type**, **form** and **opposite** where they help, and **Русский** for the entry and for every sense
+
+**[Open the audio browser](parts-of-speech/04-adjectives/catalog/browse.html)** — every adjective, searchable, click any one to hear it.
 
 ## The Adverb Dictionary
 

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adjectives that only go before a noun</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="adjectives-that-only-go-before-a-noun">Adjectives that only go before a noun<a class="hash" href="#adjectives-that-only-go-before-a-noun" aria-label="link">#</a></h1>
+<blockquote><p><em>main</em>, <em>mere</em>, <em>former</em>, <em>utter</em> — adjectives that stand before a noun and cannot follow a verb.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>The mirror image of the previous group: these go before a noun and cannot follow a verb. <em>The main reason</em> is English; <em>the reason is main</em> is not. Several of them are emphasizers that add force rather than a quality (<em>a mere child</em>, <em>sheer luck</em>, <em>an utter disaster</em>), and a few change meaning when they do appear after a verb, which each entry points out.</p>
+<hr>
+<h3 id="main">main<a class="hash" href="#main" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/meɪn/ &middot; <em>MAYN</em></dd><dt>Русский</dt><dd>главный, основной</dd><dt>Type</dt><dd>classifying — picks out the most important one of a group</dd><dt>Position</dt><dd>attributive only — never after a verb: <em>the main problem is cost</em>, not <em>the problem is main</em></dd><dt>Comparison</dt><dd>not gradable — no <em>mainer</em>, no <em>more main</em></dd><dt>Opposite</dt><dd><em>minor</em>, <em>secondary</em></dd><dt>Contrast</dt><dd>Russian <em>главный</em> can stand after a verb; <em>main</em> cannot. <em>Что здесь главное?</em> is <em>What matters most here?</em> and <em>Кто здесь главный?</em> is <em>Who's in charge here?</em>, never <em>Who is main here?</em> After a verb, use <em>the main one</em> or <em>most important</em>: <em>Price is the main thing</em>. The noun <em>main</em> is a large pipe or cable (<em>a water main burst</em>), and the adverb is <em>mainly</em> (<em>mainly on weekends</em>). The old sense 'full, all one's' survives only in the literary <em>by main force</em>.</dd></dl>
+<p>Largest, most important or most central of its kind.</p>
+<ol><li>The <em>main</em> reason I moved here was the job.</li><li>The <em>main</em> entrance is on the other side of the building.</li><li>Do you want chicken or fish for the <em>main</em> course?</li></ol>
+<hr>
+<h3 id="chief">chief<a class="hash" href="#chief" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃiːf/ &middot; <em>CHEEF</em></dd><dt>Русский</dt><dd>главный; старший (по должности)</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — never after a verb: <em>the chief problem</em>, not <em>the problem is chief</em>; the one exception is the fronted phrase <em>chief among</em>: <em>Chief among our worries was money</em></dd><dt>Comparison</dt><dd>not gradable — no <em>chiefer</em>; <em>chiefest</em> is archaic</dd><dt>Opposite</dt><dd><em>minor</em>, <em>secondary</em></dd><dt>Contrast</dt><dd>The noun <em>chief</em> is the head of a group: <em>the police chief</em>, <em>the fire chief</em>. Do not confuse it with <em>chef</em> (шеф-повар). Russian <em>шеф</em> in the sense 'boss' is <em>boss</em> in everyday American English: <em>My boss is on vacation</em>; <em>my chief</em> sounds military or old-fashioned. After a verb the adjective does not work: say <em>Cost is the chief concern</em>, not <em>The concern is chief</em>. The adverb is <em>chiefly</em> (<em>chiefly in the summer</em>).</dd></dl>
+<p>Chief has 2 distinct senses.</p>
+<p><strong>1. Most important; main.</strong> (главный, основной)</p>
+<ol><li>The <em>chief</em> problem with the plan is that nobody can afford it.</li><li>Safety is our <em>chief</em> concern on the job site.</li><li>The <em>chief</em> complaint from customers is the long wait on the phone.</li></ol>
+<p><strong>2. Highest in rank or authority; at the head of a team or organization.</strong> (главный, старший (по должности))</p>
+<ol start="4"><li>She was promoted to <em>chief</em> engineer last spring.</li><li>The <em>chief</em> executive officer announced the layoffs in an email.</li><li>The <em>chief</em> financial officer will present the budget on Friday.</li></ol>
+<hr>
+<h3 id="principal">principal<a class="hash" href="#principal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪnsəpəl/ &middot; <em>PRIN-suh-puhl</em></dd><dt>Русский</dt><dd>главный, основной; ведущий</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — never after a verb: <em>the principal cause</em>, not <em>the cause was principal</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Opposite</dt><dd><em>minor</em>, <em>secondary</em></dd><dt>Contrast</dt><dd><em>Principal</em> and <em>principle</em> sound exactly the same. <em>Principal</em> is the adjective 'main', and also a noun: the head of a school (директор школы) or the money you borrowed, not counting interest. <em>Principle</em> is only a noun, 'a basic rule or belief' (принцип): <em>a matter of principle</em>, <em>the principles of physics</em>. <em>Principal</em> is more formal than <em>main</em>; in conversation <em>the main reason</em> is more natural than <em>the principal reason</em>. The adverb is <em>principally</em>.</dd></dl>
+<p>Principal has 2 distinct senses.</p>
+<p><strong>1. Most important; main.</strong> (главный, основной)</p>
+<ol><li>Tourism is the <em>principal</em> source of income for the island.</li><li>The <em>principal</em> cause of the fire was faulty wiring.</li><li>Denver and Colorado Springs are the state's two <em>principal</em> cities.</li></ol>
+<p><strong>2. First in rank among a group of performers or researchers; leading.</strong> (ведущий, первый (солист))</p>
+<ol start="4"><li>She was a <em>principal</em> dancer with the New York City Ballet for ten years.</li><li>He is the <em>principal</em> investigator on a federal research grant.</li><li>The <em>principal</em> cellist played the solo beautifully.</li></ol>
+<hr>
+<h3 id="mere">mere<a class="hash" href="#mere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪr/ &middot; <em>MEER</em></dd><dt>Русский</dt><dd>всего лишь, простой; один только</dd><dt>Type</dt><dd>emphasizing</dd><dt>Position</dt><dd>attributive only — right before the noun, after <em>a</em>, <em>the</em> or a possessive if there is one: <em>a mere child</em>, <em>mere seconds</em>; never <em>the child was mere</em></dd><dt>Comparison</dt><dd>not gradable — there is no <em>merer</em>, but the superlative <em>merest</em> adds extra emphasis: <em>the merest hint</em></dd><dt>Contrast</dt><dd><em>Mere</em> stresses how small or unimportant something is. A singular noun or an amount takes <em>a</em> or <em>the</em> before it: <em>a mere $5</em>, <em>the mere fact</em>, not <em>mere $5</em>; a plural can stand alone: <em>mere minutes later</em>. After a verb use <em>only</em> or <em>just</em>: <em>The difference is only $5</em>, not <em>The difference is mere</em>. The adverb is <em>merely</em> (<em>I was merely asking</em>). <em>The mere</em> + noun says that this alone is enough: <em>the mere mention of his name</em> = одно только упоминание его имени.</dd></dl>
+<p>Mere has 2 distinct senses.</p>
+<p><strong>1. Nothing more than; only, used to stress that something is small or unimportant.</strong> (всего лишь, простой)</p>
+<ol><li>She was a <em>mere</em> child when her family moved to Texas.</li><li>The tickets cost a <em>mere</em> $12, so the show sold out in hours.</li><li>The fire spread through the building in <em>mere</em> minutes.</li></ol>
+<p><strong>2. Even by itself, without anything more, used to say that something small has a big effect.</strong> (один только, одна лишь; само)</p>
+<ol start="4"><li>The <em>mere</em> thought of flying makes him nervous.</li><li>The <em>merest</em> hint of criticism upsets her for days.</li><li>The <em>mere</em> fact that he called shows he's sorry.</li></ol>
+<hr>
+<h3 id="sheer">sheer<a class="hash" href="#sheer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɪr/ &middot; <em>SHEER</em></dd><dt>Русский</dt><dd>чистый, сущий; отвесный; прозрачный</dd><dt>Type</dt><dd>emphasizing; also quality</dd><dt>Position</dt><dd>both — attributive only in the main sense 'nothing but' (<em>sheer luck</em>); the senses 'very steep' and 'very thin' also follow a verb (<em>the drop is sheer</em>, <em>the curtains are sheer</em>)</dd><dt>Comparison</dt><dd>not gradable — in the main sense 'nothing but'; but the 'thin' sense grades: <em>very sheer</em>, <em>sheerer</em>, <em>sheerest</em></dd><dt>Contrast</dt><dd>In its main sense <em>sheer</em> goes only before a noun and adds force: <em>sheer luck</em> = чистое везение, <em>the sheer size</em> = один только размер. <em>The luck was sheer</em> is not English. Do not confuse it with <em>shear</em> (same sound), a verb meaning 'to cut' (<em>shear sheep</em>); <em>shears</em> are large scissors. The verb <em>sheer</em> (<em>sheer off</em>, 'to swerve') and the noun <em>sheers</em> (thin curtains) are separate words.</dd></dl>
+<p>Sheer has 3 distinct senses.</p>
+<p><strong>1. Nothing but; complete and total, used to stress how great something is.</strong> (чистый, сущий, явный)</p>
+<ol><li>We found the place by <em>sheer</em> luck.</li><li>The <em>sheer</em> size of the Grand Canyon is hard to take in.</li><li>She finished the marathon through <em>sheer</em> willpower.</li></ol>
+<p><strong>2. Extremely steep; almost vertical.</strong> (отвесный, крутой)</p>
+<ol start="4"><li>The trail runs along a <em>sheer</em> cliff with no railing.</li><li>On the north side, the drop to the river is <em>sheer</em>.</li></ol>
+<p><strong>3. Very thin and light, so that you can see through it.</strong> (прозрачный, тонкий (о ткани))</p>
+<ol start="6"><li>She wore a <em>sheer</em> black blouse over a camisole.</li><li>The curtains are <em>sheer</em>, so the room gets plenty of light.</li><li>For summer she wanted something <em>sheerer</em> than her winter tights.</li></ol>
+<hr>
+<h3 id="utter">utter<a class="hash" href="#utter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌtər/ &middot; <em>UHT-ur</em></dd><dt>Русский</dt><dd>полный, совершенный, абсолютный</dd><dt>Type</dt><dd>emphasizing</dd><dt>Position</dt><dd>attributive only — never after a verb: <em>an utter disaster</em>, not <em>the disaster was utter</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Utter</em> goes mostly with bad or extreme nouns: <em>utter nonsense</em>, <em>utter chaos</em>, <em>utter silence</em>, <em>an utter failure</em>. For good things, <em>a complete success</em> or <em>a total success</em> is what people say. After a verb use <em>complete</em> or <em>total</em>: <em>The chaos was complete</em>. The verb <em>utter</em> is a different word, 'to say' (<em>She didn't utter a word</em> = не произнесла ни слова), and the adverb is <em>utterly</em> (<em>utterly exhausted</em>).</dd></dl>
+<p>Complete and total, used mostly to stress something bad or extreme.</p>
+<ol><li>The first day of the move was an <em>utter</em> disaster.</li><li>That's <em>utter</em> nonsense, and you know it.</li><li>When the power went out, the house fell into <em>utter</em> darkness.</li></ol>
+<hr>
+<h3 id="former">former<a class="hash" href="#former" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrmər/ &middot; <em>FOR-mur</em></dd><dt>Русский</dt><dd>бывший; прежний</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — never after a verb: <em>a former teacher</em>, not <em>the teacher is former</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>an old comparative meaning 'earlier'; the adverb is <em>formerly</em></dd><dt>Opposite</dt><dd><em>current</em>, <em>present</em>; <em>latter</em> (of two)</dd><dt>Contrast</dt><dd>Russian <em>бывший</em> also works alone as a noun (<em>мой бывший</em>); English uses <em>ex</em>: <em>my ex</em>, <em>my ex-husband</em>, not <em>my former</em>. <em>The former</em> standing alone is a pronoun-like noun, paired with <em>the latter</em>: <em>Of tea and coffee, I prefer the former</em> (the first one named). To say something is no longer true, use <em>used to</em> or <em>no longer</em>: <em>He used to be a teacher</em>, not <em>He is former</em>. Do not mix up <em>former</em> and <em>formal</em> (официальный).</dd></dl>
+<p>Former has 3 distinct senses.</p>
+<p><strong>1. Having been a particular thing in the past, but not now.</strong> (бывший)</p>
+<ol><li>Two <em>former</em> presidents spoke at the funeral.</li><li>I ran into my <em>former</em> boss at the grocery store.</li><li>The museum is in a <em>former</em> train station.</li></ol>
+<p><strong>2. Belonging to an earlier time.</strong> (прежний, былой)</p>
+<ol start="4"><li>After the fire, the old theater was restored to its <em>former</em> glory.</li><li>Since the illness he's been a shadow of his <em>former</em> self.</li><li>In <em>former</em> times, the river was the only road into the valley.</li></ol>
+<p><strong>3. First of two things just mentioned.</strong> (первый (из двух названных))</p>
+<ol start="7"><li>Some students commute and some live on campus; the <em>former</em> group spends far less on rent.</li><li>You can pay now or in installments, but the <em>former</em> option saves you about $200.</li></ol>
+<hr>
+<h3 id="outright">outright<a class="hash" href="#outright" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtraɪt/ &middot; <em>OWT-ryt</em></dd><dt>Русский</dt><dd>полный; откровенный; безоговорочный</dd><dt>Type</dt><dd>emphasizing</dd><dt>Position</dt><dd>attributive only — as an adjective it goes before the noun: <em>an outright lie</em>; after a verb <em>outright</em> is the adverb (<em>she refused outright</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>out</em> + <em>right</em></dd><dt>Contrast</dt><dd>The adjective is stressed on the first syllable, OWT-ryt: <em>an outright ban</em>. The adverb, which follows the verb, is stressed on the second, owt-RYT: <em>refuse outright</em>, <em>buy a car outright</em> (for the full price at once), <em>killed outright</em> (instantly), <em>laugh outright</em> (openly). So <em>The ban is outright</em> is wrong; say <em>The ban is total</em> or <em>They banned it outright</em>.</dd></dl>
+<p>Outright has 4 distinct senses.</p>
+<p><strong>1. Complete and total, with no limits or exceptions.</strong> (полный, категорический)</p>
+<ol><li>Several cities have passed an <em>outright</em> ban on fireworks.</li><li>The committee's answer was an <em>outright</em> rejection of the plan.</li></ol>
+<p><strong>2. Open and direct; not hidden or softened.</strong> (откровенный, неприкрытый)</p>
+<ol start="3"><li>That wasn't a mistake — it was an <em>outright</em> lie.</li><li>The meeting started politely and ended in <em>outright</em> hostility.</li></ol>
+<p><strong>3. Clear and unquestioned, with no need to share or count again.</strong> (абсолютный, безоговорочный)</p>
+<ol start="5"><li>No candidate won an <em>outright</em> majority, so there will be a runoff.</li><li>She was the <em>outright</em> winner, ten points ahead of anyone else.</li></ol>
+<p><strong>4. Paid or given in full at once, with no conditions or installments.</strong> (полный, единовременный (о покупке))</p>
+<ol start="7"><li>An <em>outright</em> purchase costs more up front than a lease.</li><li>Her grandparents gave her the house as an <em>outright</em> gift.</li></ol>
+<hr>
+<h3 id="indoor">indoor<a class="hash" href="#indoor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪndɔːr/ &middot; <em>IN-dor</em></dd><dt>Русский</dt><dd>крытый; комнатный, домашний</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — after a verb use the adverb <em>indoors</em>: <em>The party is indoors</em>, not <em>The party is indoor</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd><em>in</em> + <em>door</em>; the adverb is <em>indoors</em></dd><dt>Opposite</dt><dd><em>outdoor</em></dd><dt>Contrast</dt><dd><em>Indoor</em> goes before a noun (<em>an indoor pool</em>); <em>indoors</em> goes after a verb (<em>Let's eat indoors</em>, <em>The kids stayed indoors all day</em>). In everyday speech <em>inside</em> is more common than <em>indoors</em>: <em>Come inside, it's raining</em>. Russian <em>комнатная температура</em> is <em>room temperature</em>, not <em>indoor temperature</em>, which means the temperature inside a building.</dd></dl>
+<p>Indoor has 2 distinct senses.</p>
+<p><strong>1. Built, located or done inside a building, not in the open air.</strong> (крытый; в помещении)</p>
+<ol><li>The hotel has an <em>indoor</em> pool and a gym.</li><li>Our high school plays <em>indoor</em> soccer in the winter.</li><li><em>Indoor</em> smoking is banned in bars across the state.</li></ol>
+<p><strong>2. Kept, used or suitable inside a home.</strong> (комнатный, домашний)</p>
+<ol start="4"><li><em>Indoor</em> cats usually live longer than cats that go outside.</li><li>Most <em>indoor</em> plants need less water in winter.</li><li>Kids, use your <em>indoor</em> voices, please.</li></ol>
+<hr>
+<h3 id="outdoor">outdoor<a class="hash" href="#outdoor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtdɔːr/ &middot; <em>OWT-dor</em></dd><dt>Русский</dt><dd>уличный, на открытом воздухе</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — after a verb use the adverb <em>outdoors</em>: <em>The concert is outdoors</em>, not <em>The concert is outdoor</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd><em>out</em> + <em>door</em>; the adverb is <em>outdoors</em></dd><dt>Opposite</dt><dd><em>indoor</em></dd><dt>Contrast</dt><dd><em>Outdoor</em> goes before a noun (<em>outdoor seating</em>); <em>outdoors</em> goes after a verb (<em>We ate outdoors</em>) and is also a noun in <em>the great outdoors</em> (природа, дикая природа). For a person who loves hiking and camping, Americans use the informal adjective <em>outdoorsy</em>, which can follow a verb: <em>She's very outdoorsy</em>, not <em>She's very outdoor</em>.</dd></dl>
+<p>Outdoor has 2 distinct senses.</p>
+<p><strong>1. Located, happening or used outside, not in a building.</strong> (уличный, на открытом воздухе)</p>
+<ol><li>The restaurant added <em>outdoor</em> seating for the summer.</li><li>They held the wedding at an <em>outdoor</em> venue by the lake.</li><li>Put the <em>outdoor</em> furniture in the garage before the first frost.</li></ol>
+<p><strong>2. Connected with or fond of activities in nature, such as hiking and camping.</strong> (для активного отдыха, туристический; любящий природу)</p>
+<ol start="4"><li>He's never been the <em>outdoor</em> type.</li><li>The store sells <em>outdoor</em> gear like tents and hiking boots.</li></ol>
+<hr>
+<h3 id="lone">lone<a class="hash" href="#lone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/loʊn/ &middot; <em>LOHN</em></dd><dt>Русский</dt><dd>одинокий; единственный</dd><dt>Type</dt><dd>quantity</dd><dt>Position</dt><dd>attributive only — after a verb use <em>alone</em>: <em>a lone rider</em>, but <em>The rider was alone</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>shortened from <em>alone</em></dd><dt>Contrast</dt><dd>Three words, three jobs. <em>Lone</em> goes before a noun and says there is only one: <em>a lone tree</em>. <em>Alone</em> goes after a verb: <em>She lives alone</em>. <em>Lonely</em> is the sad feeling (одинокий, тоскующий) and works in both positions: <em>a lonely old man</em>, <em>I felt lonely</em>. So <em>He was lone</em> is wrong. British <em>lone parent</em> is <em>single parent</em> in American English; <em>a lone wolf</em> is a person who prefers to act alone.</dd></dl>
+<p>Lone has 2 distinct senses.</p>
+<p><strong>1. Alone; with no other people or things nearby.</strong> (одинокий)</p>
+<ol><li>A <em>lone</em> hiker was walking along the ridge.</li><li>There was a <em>lone</em> tree in the middle of the field.</li><li>The police believe a <em>lone</em> gunman fired the shots.</li></ol>
+<p><strong>2. Being the only one.</strong> (единственный)</p>
+<ol start="4"><li>She was the <em>lone</em> survivor of the crash.</li><li>The senator cast the <em>lone</em> vote against the bill.</li><li>Their <em>lone</em> goal came in the final minute.</li></ol>
+<hr>
+<h3 id="upper">upper<a class="hash" href="#upper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌpər/ &middot; <em>UHP-ur</em></dd><dt>Русский</dt><dd>верхний; высший</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — after a verb use <em>higher</em> or <em>on top</em>: <em>the upper shelf</em>, but <em>That shelf is higher</em></dd><dt>Comparison</dt><dd>not gradable — <em>upper</em> is itself an old comparative of <em>up</em>, so there is no <em>more upper</em> and no <em>upper than</em>; the related superlative is <em>uppermost</em></dd><dt>Form</dt><dd>an old comparative of <em>up</em></dd><dt>Opposite</dt><dd><em>lower</em></dd><dt>Contrast</dt><dd>Although <em>upper</em> looks like a comparative, it never takes <em>than</em>: <em>The attic is higher than the second floor</em>, not <em>upper than</em>. <em>Upper</em> names one of two or more levels: <em>the upper floors</em>, <em>the upper lip</em>. Idioms: <em>have the upper hand</em> (иметь преимущество), <em>keep a stiff upper lip</em> (не показывать чувств). The noun <em>upper</em> is the top part of a shoe, or slang for a stimulant drug.</dd></dl>
+<p>Upper has 3 distinct senses.</p>
+<p><strong>1. Higher in position; above another part.</strong> (верхний)</p>
+<ol><li>The <em>upper</em> floors of the building have the best views.</li><li>He has a small scar on his <em>upper</em> lip.</li><li>Most of this workout is for your <em>upper</em> body.</li></ol>
+<p><strong>2. Higher in rank, level or amount.</strong> (высший; старший; верхний (предел))</p>
+<ol start="4"><li>The report went to <em>upper</em> management for approval.</li><li>Is there an <em>upper</em> age limit for the program?</li><li>The Senate is often called the <em>upper</em> house of Congress.</li></ol>
+<p><strong>3. Farther upstream, farther inland or farther north.</strong> (верхний (по течению); северный)</p>
+<ol start="7"><li>Barges carry grain down from the <em>upper</em> Mississippi.</li><li>They moved from Brooklyn to <em>upper</em> Manhattan.</li></ol>
+<hr>
+<h3 id="inner">inner<a class="hash" href="#inner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnər/ &middot; <em>IN-ur</em></dd><dt>Русский</dt><dd>внутренний</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — after a verb use <em>inside</em>: <em>the inner door</em>, but <em>The door is inside</em></dd><dt>Comparison</dt><dd>not gradable — no <em>more inner</em>; the related superlative is <em>innermost</em>: <em>my innermost thoughts</em></dd><dt>Form</dt><dd>an old comparative of <em>in</em></dd><dt>Opposite</dt><dd><em>outer</em></dd><dt>Contrast</dt><dd><em>Inner city</em> in American English is not the historic center (центр города): it means poorer, crowded neighborhoods near the center, as in <em>inner-city schools</em>. For the business center of a city, say <em>downtown</em>. After a verb <em>inner</em> does not work: use <em>inside</em> or rephrase. <em>Inner</em> feelings are private ones: <em>inner peace</em> = душевный покой.</dd></dl>
+<p>Inner has 3 distinct senses.</p>
+<p><strong>1. Inside; closer to the center of something.</strong> (внутренний)</p>
+<ol><li>The <em>inner</em> walls of the house are made of drywall.</li><li>An infection of the <em>inner</em> ear can affect your balance.</li><li>Runners in the <em>inner</em> lane have the shortest distance to cover.</li></ol>
+<p><strong>2. Private and not shown to other people; of the mind or spirit.</strong> (внутренний, душевный)</p>
+<ol start="4"><li>Meditation helped her find some <em>inner</em> peace.</li><li>He rarely talks about his <em>inner</em> life.</li><li>It took real <em>inner</em> strength to walk away.</li></ol>
+<p><strong>3. Closest to the center of power and trusted with its secrets.</strong> (узкий, ближайший (круг))</p>
+<ol start="7"><li>Only a few people in the governor's <em>inner</em> circle knew about the plan.</li><li>She was never part of the company's <em>inner</em> circle.</li></ol>
+<hr>
+<h3 id="outer">outer<a class="hash" href="#outer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtər/ &middot; <em>OW-tur</em></dd><dt>Русский</dt><dd>внешний, наружный</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — after a verb use <em>outside</em> or <em>on the outside</em>: <em>the outer wall</em>, but <em>The wall is on the outside</em></dd><dt>Comparison</dt><dd>not gradable — no <em>more outer</em>; the related superlative is <em>outermost</em>: <em>the outermost planets</em></dd><dt>Form</dt><dd>an old comparative of <em>out</em></dd><dt>Opposite</dt><dd><em>inner</em></dd><dt>Contrast</dt><dd><em>Outer</em> always needs a noun after it; after a verb use <em>outside</em> or <em>on the outside</em>. <em>Outer space</em> is космос. On medicine labels English says <em>external</em>, not <em>outer</em>: <em>For external use only</em> (для наружного применения).</dd></dl>
+<p>Outer has 3 distinct senses.</p>
+<p><strong>1. On the outside; farther from the center.</strong> (внешний, наружный)</p>
+<ol><li>Peel off the tough <em>outer</em> leaves of the cabbage.</li><li>The <em>outer</em> layer of the jacket is waterproof.</li><li>Comets come from the <em>outer</em> edges of the solar system.</li></ol>
+<p><strong>2. Farther from the center of a city or region.</strong> (отдалённый, окраинный)</p>
+<ol start="4"><li>Rents are cheaper in the <em>outer</em> boroughs of New York.</li><li>We live in one of the <em>outer</em> suburbs, an hour from downtown.</li></ol>
+<p><strong>3. Seen from outside; showing on the surface rather than what someone really feels.</strong> (внешний (показной))</p>
+<ol start="6"><li>Her <em>outer</em> calm hid how nervous she really was.</li><li>Don't judge people by their <em>outer</em> appearance.</li></ol>
+<hr>
+<h3 id="sole">sole<a class="hash" href="#sole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/soʊl/ &middot; <em>SOHL</em></dd><dt>Русский</dt><dd>единственный; единоличный</dd><dt>Type</dt><dd>quantity</dd><dt>Position</dt><dd>attributive only — after a verb use <em>the only one</em>: <em>the sole witness</em>, but <em>She was the only one who saw it</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Sole</em> is more formal than <em>only</em> and needs <em>the</em>, <em>a</em> or a possessive before it: <em>the sole reason</em>, <em>her sole goal</em>. The noun <em>sole</em> is the bottom of a shoe or foot (подошва, ступня) and a flatfish (морской язык), and <em>soul</em> (душа) sounds exactly the same. The adverb is <em>solely</em> (<em>solely responsible</em>). Legal phrases: <em>sole custody</em> (опека одного родителя), <em>sole proprietor</em> (индивидуальный предприниматель).</dd></dl>
+<p>Sole has 2 distinct senses.</p>
+<p><strong>1. Being the only one.</strong> (единственный)</p>
+<ol><li>His <em>sole</em> purpose in coming was to see his daughter.</li><li>The <em>sole</em> witness to the accident was a mail carrier.</li><li>Money was not the <em>sole</em> reason she took the job.</li></ol>
+<p><strong>2. Belonging to one person or group only; not shared.</strong> (единоличный, исключительный)</p>
+<ol start="4"><li>After the divorce, she was granted <em>sole</em> custody of the kids.</li><li>He is the <em>sole</em> owner of the business.</li><li>The company has <em>sole</em> rights to sell the drug in the U.S.</li></ol>
+<hr>
+<h3 id="downright">downright<a class="hash" href="#downright" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaʊnraɪt/ &middot; <em>DOWN-ryt</em></dd><dt>Русский</dt><dd>явный, сущий, откровенный</dd><dt>Type</dt><dd>emphasizing</dd><dt>Position</dt><dd>attributive only — as an adjective only before a noun: <em>a downright lie</em>; before another adjective it is the adverb (<em>downright rude</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>compound — <em>down</em> + <em>right</em></dd><dt>Contrast</dt><dd>In American English <em>downright</em> is far more common as an adverb before an adjective: <em>downright rude</em>, <em>downright dangerous</em>, <em>It was downright cold</em>. As an adjective it goes only before a noun, usually a bad one: <em>a downright lie</em>, <em>downright nonsense</em>. <em>The lie was downright</em> is not English. The old sense 'blunt, frank' (<em>a downright man</em>) is now rare.</dd></dl>
+<p>Complete and total, used to stress something bad.</p>
+<ol><li>What he told the jury was a <em>downright</em> lie.</li><li>Calling that car a bargain is <em>downright</em> nonsense.</li><li>The way they treated the new hire was a <em>downright</em> disgrace.</li></ol>
+<hr>
+<h3 id="entire">entire<a class="hash" href="#entire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtaɪər/ &middot; <em>in-TY-ur</em></dd><dt>Русский</dt><dd>весь, целый; полный</dd><dt>Type</dt><dd>quantity</dd><dt>Position</dt><dd>attributive only — after <em>the</em>, <em>an</em>, <em>this</em> or a possessive with a singular noun: <em>the entire day</em>; after a verb use <em>whole</em> or <em>intact</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd>Russian <em>весь</em> is often <em>all</em> in English, but the patterns differ: <em>all day</em> or <em>the entire day</em>, not <em>all the day</em> or <em>entire day</em>. With a singular noun <em>entire</em> needs <em>the</em>, <em>an</em>, <em>this</em> or a possessive: <em>the entire class</em>, <em>my entire life</em>, <em>an entire week</em>. With a plural it means 'whole groups of' and can stand alone: <em>Entire families lost their homes</em>. After a verb use <em>whole</em> or <em>intact</em>: <em>The vase was still whole</em>; <em>still entire</em> is formal and rare. The adverb is <em>entirely</em>.</dd></dl>
+<p>Entire has 2 distinct senses.</p>
+<p><strong>1. Whole; with no part left out.</strong> (весь, целый)</p>
+<ol><li>We spent the <em>entire</em> day at the beach.</li><li>I've lived in this town my <em>entire</em> life.</li><li><em>Entire</em> neighborhoods were flooded after the storm.</li></ol>
+<p><strong>2. Complete in degree; total and without any doubt.</strong> (полный, безраздельный)</p>
+<ol start="4"><li>The new baby has her <em>entire</em> attention these days.</li><li>After the injury, he put his <em>entire</em> focus on getting well.</li></ol>
+<hr>
+<h3 id="very">very<a class="hash" href="#very" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɛri/ &middot; <em>VAIR-ee</em></dd><dt>Русский</dt><dd>тот самый; самый; само</dd><dt>Type</dt><dd>emphasizing</dd><dt>Position</dt><dd>attributive only — always after <em>the</em>, <em>this</em>, <em>that</em> or a possessive: <em>the very moment</em>, <em>her very words</em></dd><dt>Comparison</dt><dd>not gradable — the old superlative <em>veriest</em> is archaic</dd><dt>Form</dt><dd>from Old French <em>verai</em>, 'true'</dd><dt>Contrast</dt><dd>The everyday <em>very</em> is the adverb 'очень' (<em>very good</em>). The adjective <em>very</em> stands right before a noun, always after <em>the</em>, <em>this</em>, <em>that</em> or a possessive, and means 'exactly this' or 'the extreme': <em>the very day</em>, <em>the very top</em>. Russian <em>самый</em> is the trap: <em>самый конец</em> is <em>the very end</em>, but <em>самый красивый</em> is <em>the most beautiful</em>, never <em>the very beautiful</em>. In <em>the very best</em> and <em>the very first</em>, <em>very</em> is the adverb again, strengthening <em>best</em> or <em>first</em>. The adjective can never follow a verb.</dd></dl>
+<p>Very has 3 distinct senses.</p>
+<p><strong>1. Exactly this one and no other.</strong> (тот самый, именно этот)</p>
+<ol><li>That's the <em>very</em> book I was looking for!</li><li>At that <em>very</em> moment, the lights went out.</li><li>They got married in the <em>very</em> church where they first met.</li></ol>
+<p><strong>2. At the extreme point of something: right at the beginning, end, top or bottom.</strong> (самый (конец, верх))</p>
+<ol start="4"><li>Read the note at the <em>very</em> bottom of the page.</li><li>We stayed until the <em>very</em> end of the game.</li><li>The problem was clear from the <em>very</em> beginning.</li></ol>
+<p><strong>3. Just the thing itself, used to stress that it alone matters or has an effect.</strong> (один только; само)</p>
+<ol start="7"><li>The <em>very</em> thought of public speaking makes me sweat.</li><li>Budget cuts threaten the <em>very</em> existence of the program.</li><li>The <em>very</em> idea of moving again made her tired.</li></ol>
+<hr>
+<h3 id="live">live<a class="hash" href="#live" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laɪv/ &middot; <em>LYV</em></dd><dt>Русский</dt><dd>живой; прямой (эфир); под напряжением; боевой</dd><dt>Type</dt><dd>classifying; also quality</dd><dt>Position</dt><dd>both — but in the sense 'not dead' only before a noun (<em>a live lobster</em>, but <em>The lobster is still alive</em>); and in <em>real live</em> ('real, in person'); <em>live</em> follows a verb in the senses 'not recorded', 'carrying current' and 'working' (<em>The show is live</em>, <em>The wire is live</em>, <em>The site is live</em>)</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Opposite</dt><dd><em>recorded</em> (of a performance); <em>dead</em></dd><dt>Contrast</dt><dd>The adjective rhymes with <em>five</em> (laɪv); the verb <em>live</em> rhymes with <em>give</em> (lɪv). In the sense 'not dead', <em>live</em> goes only before a noun; after a verb use <em>alive</em>: <em>They caught a live snake</em>, but <em>The snake was still alive</em>, not <em>still live</em>. <em>Living</em> works in both positions (<em>living things</em>, <em>Is he still living?</em>). <em>Live</em> is also an adverb after verbs of broadcasting and performing: <em>The game is shown live</em>, <em>She has never played live</em>. Do not confuse it with <em>lively</em> (оживлённый, энергичный): <em>a lively party</em> is fun and busy; <em>a live band</em> plays in front of you.</dd></dl>
+<p>Live has 8 distinct senses.</p>
+<p><strong>1. Happening in front of an audience, or broadcast while it happens, not recorded.</strong> (живой (о музыке); прямой (эфир))</p>
+<ol><li>The bar has <em>live</em> music every Friday night.</li><li>All the major networks carried the debate as a <em>live</em> broadcast.</li><li>The show is <em>live</em>, so the hosts can't fix any mistakes.</li></ol>
+<p><strong>2. Living; not dead.</strong> (живой)</p>
+<ol start="4"><li>You can pick out a <em>live</em> lobster from the tank.</li><li>The company says it does not test its products on <em>live</em> animals.</li><li>He fishes with <em>live</em> bait.</li></ol>
+<p><strong>3. Carrying electric current.</strong> (под напряжением)</p>
+<ol start="7"><li>Don't touch that cable — it could still be <em>live</em>.</li><li>The third rail is <em>live</em>, so stay off the subway tracks.</li></ol>
+<p><strong>4. Able to explode or fire; not a blank or a dud.</strong> (боевой; неразорвавшийся)</p>
+<ol start="9"><li>The soldiers trained with <em>live</em> ammunition for the first time.</li><li>Construction workers dug up a <em>live</em> bomb from World War II.</li></ol>
+<p><strong>5. Working and available for people to use, of a website, app or system.</strong> (запущенный, работающий)</p>
+<ol start="11"><li>The new website goes <em>live</em> on Monday.</li><li>The update is <em>live</em> for all users now.</li></ol>
+<p><strong>6. Still burning or glowing.</strong> (горящий, тлеющий)</p>
+<ol start="13"><li>Spread the <em>live</em> coals evenly under the grill.</li><li>Never dump <em>live</em> ashes into a trash can.</li></ol>
+<p><strong>7. Still being discussed and not yet settled; of current interest.</strong> (актуальный, нерешённый)</p>
+<ol start="15"><li>Whether to build a new stadium is still a <em>live</em> issue in the city.</li><li>A four-day workweek remains a <em>live</em> possibility at the company.</li></ol>
+<p><strong>8. Real and in person, used in the informal phrase real live to show surprise or excitement.</strong> (настоящий, самый настоящий)</p>
+<ol start="17"><li>The kids were thrilled to meet a real <em>live</em> astronaut.</li><li>I'd never seen a real <em>live</em> movie star before.</li></ol>
+<hr>
+<h3 id="drunken">drunken<a class="hash" href="#drunken" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrʌŋkən/ &middot; <em>DRUHNG-kuhn</em></dd><dt>Русский</dt><dd>пьяный; пьющий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>attributive only — after a verb always <em>drunk</em>: <em>a drunken fan</em>, but <em>The fan was drunk</em></dd><dt>Comparison</dt><dd>more/most — rare: <em>more drunken</em>, <em>most drunken</em></dd><dt>Form</dt><dd>the old past participle of <em>drink</em>, with -en</dd><dt>Opposite</dt><dd><em>sober</em></dd><dt>Contrast</dt><dd>After a verb the word is <em>drunk</em>, never <em>drunken</em>: <em>He was drunk</em>, not <em>He was drunken</em>. Before a noun both occur, but they lean different ways: <em>drunk</em> is usual for people (<em>a drunk driver</em>; <em>drunk driving</em> is the everyday American term), while <em>drunken</em> is usual for actions and events (<em>a drunken brawl</em>, <em>a drunken rant</em>). <em>A drunk</em> is also a noun, a person who is often drunk (пьяница). The past participle of the verb is <em>drunk</em>: <em>I have drunk</em>, not <em>I have drunken</em>.</dd></dl>
+<p>Drunken has 2 distinct senses.</p>
+<p><strong>1. Drunk, or often drunk, of a person.</strong> (пьяный; пьющий)</p>
+<ol><li>A <em>drunken</em> fan ran onto the field in the ninth inning.</li><li>The movie is about a <em>drunken</em> ex-cop trying to get sober.</li></ol>
+<p><strong>2. Caused by or showing the effects of too much alcohol.</strong> (пьяный (о поведении), разгульный)</p>
+<ol start="3"><li>Police broke up a <em>drunken</em> fight outside the bar.</li><li>It was the <em>most drunken</em> party the fraternity had ever thrown.</li><li>He left a <em>drunken</em> voicemail he regretted the next morning.</li></ol>
+<hr>
+<h3 id="maiden">maiden<a class="hash" href="#maiden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪdən/ &middot; <em>MAY-duhn</em></dd><dt>Русский</dt><dd>первый; девичий</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — never after a verb: <em>the ship's maiden voyage</em>, not <em>the voyage was maiden</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>from the old noun <em>maiden</em>, 'young unmarried woman'</dd><dt>Contrast</dt><dd><em>Maiden</em> as a noun (девушка, дева) is old-fashioned and poetic. The adjective lives on in fixed phrases: <em>maiden voyage</em>, <em>maiden flight</em>, <em>maiden speech</em> (the first of a kind) and <em>maiden name</em> (девичья фамилия). American forms often ask for <em>last name at birth</em> instead, and a man's earlier surname is never his <em>maiden name</em>. <em>A maiden aunt</em> (an older unmarried woman) sounds dated and can be unkind.</dd></dl>
+<p>Maiden has 2 distinct senses.</p>
+<p><strong>1. First of its kind, used for a first trip, flight or speech.</strong> (первый)</p>
+<ol><li>The Titanic sank on its <em>maiden</em> voyage in 1912.</li><li>The new rocket completed its <em>maiden</em> flight without a problem.</li><li>The senator gave her <em>maiden</em> speech on health care.</li></ol>
+<p><strong>2. Relating to a woman before she married.</strong> (девичий)</p>
+<ol start="4"><li>She kept her <em>maiden</em> name after the wedding.</li><li>Your mother's <em>maiden</em> name is a common security question at banks.</li></ol>
+<hr>
+<h3 id="mock">mock<a class="hash" href="#mock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːk/ &middot; <em>MAHK</em></dd><dt>Русский</dt><dd>учебный; притворный; поддельный</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — never after a verb: <em>a mock trial</em>, not <em>the trial was mock</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Opposite</dt><dd><em>real</em>, <em>genuine</em></dd><dt>Contrast</dt><dd>The verb <em>mock</em> (насмехаться, передразнивать) is more common than the adjective: <em>The other kids mocked his accent</em>. The adjective always means 'not real'. A practice exam at school is <em>a mock exam</em> in British English but usually <em>a practice test</em> in American English; <em>mock trial</em> (a school competition that acts out a court case) and <em>mock election</em> are common in the US. A <em>mock-up</em> (noun) is a model of something that will be built.</dd></dl>
+<p>Mock has 3 distinct senses.</p>
+<p><strong>1. Done as practice, as an imitation of a real event.</strong> (учебный, пробный)</p>
+<ol><li>Our high school's <em>mock</em> trial team made it to the state finals.</li><li>The career center runs <em>mock</em> interviews for seniors.</li><li>The class held a <em>mock</em> election the week before the real one.</li></ol>
+<p><strong>2. Pretended, not sincere, usually as a joke.</strong> (притворный, шутливый)</p>
+<ol start="4"><li>She threw up her hands in <em>mock</em> horror.</li><li>He raised an eyebrow in <em>mock</em> surprise when I showed up on time.</li></ol>
+<p><strong>3. Made to look like something else.</strong> (имитирующий, под (что-то))</p>
+<ol start="6"><li>He wore a black <em>mock</em> turtleneck under his blazer.</li><li>Her grandmother's <em>mock</em> apple pie uses crackers instead of apples.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

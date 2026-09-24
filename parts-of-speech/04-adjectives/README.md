@@ -2,6 +2,8 @@
 
 > An adjective is a word that describes or limits a noun or pronoun, telling us what kind, which one, how many, or whose.
 
+> **📖 Looking for a specific adjective?** This file covers the *grammar*. The *lexicon* — **[7,610 entries](catalog/README.md)**, each with where it can stand, how it compares, the preposition or infinitive it takes, and every meaning with its Russian translation — lives in the **[Adjective Dictionary](catalog/README.md)**. There is also an **[audio browser](catalog/browse.html)** you can search and listen to.
+
 ## 1. What it does
 
 An adjective's job is to add information to a noun. It narrows the noun down: *a car* becomes *a red car*, then *a fast red car*, then *a fast red Italian car*. Each adjective cuts the set of possible referents smaller. Grammarians call this **modification** — the adjective modifies the noun.

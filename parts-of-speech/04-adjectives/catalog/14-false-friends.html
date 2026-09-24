@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>False friends for Russian speakers</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="false-friends-for-russian-speakers">False friends for Russian speakers<a class="hash" href="#false-friends-for-russian-speakers" aria-label="link">#</a></h1>
+<blockquote><p><em>actual</em>, <em>sympathetic</em>, <em>accurate</em>, <em>intelligent</em> — English adjectives that look Russian and mean something else.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>These look like Russian words and mean something else. <em>Actual</em> is not <em>актуальный</em> — it means <em>real</em> — and <em>sympathetic</em> is not <em>симпатичный</em>, it means <em>understanding</em>. <em>Accurate</em> means <em>precise</em>, not <em>аккуратный</em>; <em>intelligent</em> means <em>clever</em>, not <em>интеллигентный</em>. Each entry puts the trap first and gives the English word that does mean what the Russian one does.</p>
+<hr>
+<h3 id="actual">actual<a class="hash" href="#actual" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæktʃuəl/ &middot; <em>AK-choo-uhl</em></dd><dt>Русский</dt><dd>действительный, фактический</dd><dt>Type</dt><dd>classifying; also emphasizing (<em>the actual ceremony</em>)</dd><dt>Position</dt><dd>attributive only — <em>the actual cost</em>; not <em>the cost was actual</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-al from <em>act</em>; the adverb <em>actually</em> means на самом деле</dd><dt>Contrast</dt><dd>Not <em>актуальный</em>. <em>actual</em> = real, the one that exists or happened, as opposed to what was planned, expected or imagined (действительный, фактический). For <em>актуальный</em> say <em>relevant</em>, <em>current</em>, <em>timely</em> or <em>pressing</em>: <em>актуальная тема</em> = <em>a timely (relevant) topic</em>, <em>актуальная информация</em> = <em>up-to-date information</em>, <em>это уже не актуально</em> = <em>that's no longer relevant</em>. The adverb <em>actually</em> is на самом деле, вообще-то — never актуально. <em>In actual fact</em> sounds British and formal; Americans say <em>in fact</em> or <em>actually</em>. <em>actual</em> goes only before a noun.</dd></dl>
+<p>Actual has 2 distinct senses.</p>
+<p><strong>1. Real; existing or happening in fact, as opposed to what was planned, expected or imagined.</strong> (действительный, фактический, реальный)</p>
+<ol><li>The <em>actual</em> cost of the repairs was almost twice the estimate.</li><li>Is that based on an <em>actual</em> study, or did you just read it online?</li><li>The movie is loosely based on <em>actual</em> events.</li></ol>
+<p><strong>2. The thing itself — the exact or main one, as opposed to what comes before it or around it.</strong> (сам, самый; настоящий)</p>
+<ol start="4"><li>The reception lasted all night, but the <em>actual</em> ceremony took twenty minutes.</li><li>Those were his <em>actual</em> words — I'm not making this up.</li><li>We drove around for an hour before we found the <em>actual</em> entrance.</li></ol>
+<hr>
+<h3 id="sympathetic">sympathetic<a class="hash" href="#sympathetic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɪmpəˈθɛtɪk/ &middot; <em>sim-puh-THET-ik</em></dd><dt>Русский</dt><dd>сочувствующий, отзывчивый</dd><dt>Type</dt><dd>emotion; also evaluative (<em>a sympathetic character</em>)</dd><dt>Position</dt><dd>both — the nervous-system sense is attributive only: <em>the sympathetic nervous system</em></dd><dt>Comparison</dt><dd>more/most — <em>more sympathetic</em>, <em>most sympathetic</em></dd><dt>Takes</dt><dd><em>to</em> or <em>toward</em> + a person or their trouble (понимающий); <em>to</em> or <em>toward</em> + an idea or cause (поддерживающий); <em>about</em> + a problem</dd><dt>Preposition patterns</dt><dd><a href="../../06-prepositions/catalog/15-dependent-adjectives.html#sympathetic-to">sympathetic to</a></dd><dt>Form</dt><dd>-etic from <em>sympathy</em></dd><dt>Opposite</dt><dd><em>unsympathetic</em></dd><dt>Contrast</dt><dd>Not <em>симпатичный</em>. <em>sympathetic</em> = understanding and kind about someone's problems (сочувствующий, отзывчивый), or in favor of an idea. <em>He's very sympathetic</em> does not mean he is good-looking or nice to be around. For <em>симпатичный</em> say <em>cute</em>, <em>attractive</em> or <em>good-looking</em> (о внешности) and <em>nice</em> or <em>likable</em> (о человеке). What follows <em>to</em> changes the meaning: <em>sympathetic to her</em> (сочувствует ей) but <em>sympathetic to the plan</em> (одобряет план). In a movie or novel, <em>a sympathetic character</em> is one the audience likes and cares about — the one place where it comes close to симпатичный.</dd></dl>
+<p>Sympathetic has 4 distinct senses.</p>
+<p><strong>1. Showing that you understand and care about someone's problems or pain.</strong> (сочувствующий, отзывчивый, участливый)</p>
+<ol><li>My boss was really <em>sympathetic</em> when my dad got sick.</li><li>She gave me a <em>sympathetic</em> smile.</li><li>The nurses couldn't have been <em>more sympathetic</em>.</li></ol>
+<p><strong>2. Agreeing with or supporting an idea, a group or a cause.</strong> (благосклонный, поддерживающий)</p>
+<ol start="4"><li>Several senators are <em>sympathetic</em> to the proposal.</li><li>The judge seemed <em>sympathetic</em> toward the union's side.</li></ol>
+<p><strong>3. Of a character in a story, movie or show: easy to like, so that you care what happens to them.</strong> (вызывающий симпатию, располагающий)</p>
+<ol start="6"><li>The writers made the villain surprisingly <em>sympathetic</em>.</li><li>It's hard to write a <em>sympathetic</em> hero who lies to everyone.</li></ol>
+<p><strong>4. In medicine: relating to the part of the nervous system that gets the body ready for action.</strong> (симпатический)</p>
+<ol start="8"><li>Stress switches on the <em>sympathetic</em> nervous system.</li><li>The drug blocks <em>sympathetic</em> nerve signals to the heart.</li></ol>
+<hr>
+<h3 id="accurate">accurate<a class="hash" href="#accurate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈækjərət/ &middot; <em>AK-yur-uht</em></dd><dt>Русский</dt><dd>точный, верный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more accurate</em>, <em>most accurate</em></dd><dt>Form</dt><dd>from Latin <em>accuratus</em> 'done with care' — English kept 'exact', Russian kept 'neat'</dd><dt>Opposite</dt><dd><em>inaccurate</em></dd><dt>Contrast</dt><dd>Not <em>аккуратный</em>. <em>accurate</em> = correct and exact, without mistakes (точный, верный). For <em>аккуратный</em> say <em>neat</em> or <em>tidy</em> (о вещах, почерке, внешности) and <em>careful</em> (о работе и человеке): <em>аккуратный почерк</em> = <em>neat handwriting</em>, <em>аккуратный водитель</em> = <em>a careful driver</em>, <em>он очень аккуратный</em> = <em>he's very neat</em>. <em>She's very accurate</em> would mean her answers or her aim are exact, not that she keeps things tidy. The noun is <em>accuracy</em> (точность).</dd></dl>
+<p>Accurate has 2 distinct senses.</p>
+<p><strong>1. Correct and true in every detail; free from mistakes.</strong> (точный, верный, правильный)</p>
+<ol><li>Is this map still <em>accurate</em>?</li><li>The article gives an <em>accurate</em> picture of life in a small town.</li><li>The new tests are much <em>more accurate</em> than the old ones.</li></ol>
+<p><strong>2. Able to hit a target or to measure something exactly.</strong> (точный, меткий)</p>
+<ol start="4"><li>He's the <em>most accurate</em> passer in the league.</li><li>My kitchen scale isn't very <em>accurate</em>.</li><li>You need an <em>accurate</em> throw to get the runner out at first.</li></ol>
+<hr>
+<h3 id="decent">decent<a class="hash" href="#decent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːsənt/ &middot; <em>DEE-suhnt</em></dd><dt>Русский</dt><dd>приличный, порядочный</dd><dt>Type</dt><dd>evaluative; also quality</dd><dt>Position</dt><dd>both — the 'dressed' sense is predicative only: <em>Are you decent?</em></dd><dt>Comparison</dt><dd>more/most — <em>more decent</em>, <em>most decent</em></dd><dt>Takes</dt><dd><em>of</em> + person + <em>to</em>-infinitive (<em>decent of you to call</em>); <em>to</em> + person (<em>He's been decent to me</em>)</dd><dt>Opposite</dt><dd><em>indecent</em> (only for the 'proper' sense — непристойный)</dd><dt>Contrast</dt><dd><em>decent</em> is praise with a limit. <em>The food was decent</em> means неплохая, вполне нормальная — acceptable, not excellent; for отличная say <em>great</em> or <em>excellent</em>. <em>A decent salary</em> is one you can live on, not a big one. Said of a person, <em>decent</em> is порядочный — honest and kind — not <em>достойный</em> in the sense of 'distinguished'. The opposite <em>indecent</em> is only непристойный: a mediocre meal is not <em>indecent</em>. Do not mix up <em>decent</em> (DEE-suhnt) with the noun <em>descent</em> (dih-SENT, спуск, происхождение).</dd></dl>
+<p>Decent has 4 distinct senses.</p>
+<p><strong>1. Good enough; of an acceptable or fairly good quality, size or amount.</strong> (приличный, неплохой, нормальный)</p>
+<ol><li>Is there a <em>decent</em> coffee shop around here?</li><li>He makes a <em>decent</em> living as a plumber.</li><li>The seats were pretty <em>decent</em> for the price.</li></ol>
+<p><strong>2. Honest, fair and kind; morally good.</strong> (порядочный, честный, хороший)</p>
+<ol start="4"><li>Her father is a <em>decent</em>, hardworking man.</li><li>It was <em>decent</em> of you to drive me all the way home.</li><li>He's the <em>most decent</em> guy I've ever worked for.</li></ol>
+<p><strong>3. Proper and socially acceptable; not likely to shock or offend.</strong> (приличный, пристойный)</p>
+<ol start="7"><li>He was told to wear something <em>decent</em> to court.</li><li>Wait until a <em>decent</em> hour to call them — don't wake them up at six.</li></ol>
+<p><strong>4. Informal: dressed enough to be seen by other people.</strong> (одетый, в приличном виде)</p>
+<ol start="9"><li>Can I come in? Are you <em>decent</em>?</li><li>Give me a minute — I'm not <em>decent</em> yet.</li></ol>
+<hr>
+<h3 id="intelligent">intelligent<a class="hash" href="#intelligent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtɛlɪdʒənt/ &middot; <em>in-TEL-ih-juhnt</em></dd><dt>Русский</dt><dd>умный, сообразительный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more intelligent</em>, <em>most intelligent</em></dd><dt>Form</dt><dd>noun <em>intelligence</em></dd><dt>Opposite</dt><dd><em>unintelligent</em>, <em>stupid</em></dd><dt>Contrast</dt><dd>Not <em>интеллигентный</em>. <em>intelligent</em> = smart, quick to learn and understand (умный). It says nothing about manners, education or culture — a rude, uneducated person can be very <em>intelligent</em>. For <em>интеллигентный</em> say <em>cultured</em>, <em>well-educated</em>, <em>refined</em> or <em>well-mannered</em>; <em>интеллигенция</em> is <em>the intelligentsia</em> or <em>educated people</em>. <em>intellectual</em> is someone who lives by ideas and books (интеллектуал). In everyday American speech <em>smart</em> is more common than <em>intelligent</em>.</dd></dl>
+<p>Intelligent has 4 distinct senses.</p>
+<p><strong>1. Good at learning, understanding and thinking; clever.</strong> (умный, сообразительный)</p>
+<ol><li>She's one of the <em>most intelligent</em> students I've ever taught.</li><li>Dolphins are highly <em>intelligent</em> animals.</li><li>He's <em>intelligent</em> but lazy.</li></ol>
+<p><strong>2. Of a question, choice or remark: showing good thinking or judgment.</strong> (разумный, толковый, умный)</p>
+<ol start="4"><li>That's a very <em>intelligent</em> question.</li><li>Selling the house before prices dropped was an <em>intelligent</em> move.</li></ol>
+<p><strong>3. Able to think and understand, as humans can.</strong> (разумный)</p>
+<ol start="6"><li>Are we the only <em>intelligent</em> species in the universe?</li><li>Scientists are still looking for signs of <em>intelligent</em> life in space.</li></ol>
+<p><strong>4. Of a machine or system: using a computer to react to conditions and make simple decisions on its own.</strong> (интеллектуальный, «умный»)</p>
+<ol start="8"><li>The car has an <em>intelligent</em> braking system that stops it before a crash.</li><li><em>Intelligent</em> thermostats learn when you're usually home.</li></ol>
+<hr>
+<h3 id="sensible">sensible<a class="hash" href="#sensible" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛnsəbəl/ &middot; <em>SEN-suh-buhl</em></dd><dt>Русский</dt><dd>разумный, благоразумный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more sensible</em>, <em>most sensible</em></dd><dt>Takes</dt><dd><em>It is sensible</em> + <em>to</em>-infinitive; <em>of</em> + person + <em>to</em>-infinitive (<em>sensible of you to wait</em>)</dd><dt>Form</dt><dd>-ible from <em>sense</em> 'good judgment'</dd><dt>Opposite</dt><dd><em>foolish</em>, <em>silly</em></dd><dt>Contrast</dt><dd><em>sensible</em> is not <em>sensitive</em>. <em>sensible</em> = reasonable and practical, showing good sense (разумный, благоразумный); <em>чувствительный</em> is <em>sensitive</em>: <em>sensitive skin</em>, <em>a sensitive child</em>. <em>He's very sensible</em> means he makes wise, practical choices, not that he is easily hurt. The nouns split the same way: <em>sense</em> (здравый смысл) goes with <em>sensible</em>, <em>sensitivity</em> with <em>sensitive</em>; <em>sensibility</em> is taste and feeling (<em>an artistic sensibility</em>). In old or very formal writing, <em>sensible of</em> means <em>aware of</em> (<em>sensible of the honor</em>); do not use it in everyday English.</dd></dl>
+<p>Sensible has 2 distinct senses.</p>
+<p><strong>1. Showing good judgment; reasonable and practical.</strong> (разумный, благоразумный, здравый)</p>
+<ol><li>Wearing a helmet is the <em>sensible</em> thing to do.</li><li>She's a <em>sensible</em> kid — she won't do anything stupid.</li><li>It would be <em>more sensible</em> to wait until spring.</li></ol>
+<p><strong>2. Of clothes and shoes: practical and comfortable rather than fashionable.</strong> (практичный, удобный)</p>
+<ol start="4"><li>Wear <em>sensible</em> shoes — we'll be walking all day.</li><li>She traded her heels for a pair of <em>sensible</em> flats.</li></ol>
+<hr>
+<h3 id="ambitious">ambitious<a class="hash" href="#ambitious" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æmˈbɪʃəs/ &middot; <em>am-BISH-uhs</em></dd><dt>Русский</dt><dd>целеустремлённый, честолюбивый; масштабный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more ambitious</em>, <em>most ambitious</em></dd><dt>Takes</dt><dd><em>for</em> + person (<em>ambitious for her son</em>) or thing (<em>ambitious for power</em>); <em>to</em>-infinitive (<em>ambitious to succeed</em>)</dd><dt>Form</dt><dd>-ous from <em>ambition</em></dd><dt>Opposite</dt><dd><em>unambitious</em>; <em>modest</em> (a plan)</dd><dt>Contrast</dt><dd>Russian <em>амбициозный</em> often sounds negative — proud, touchy, full of oneself — and <em>с амбициями</em> can mean vain. English <em>ambitious</em> is usually positive or neutral: it means wanting to achieve a lot (целеустремлённый). For the negative Russian sense say <em>arrogant</em>, <em>conceited</em>, <em>full of himself</em> or <em>self-important</em>. <em>An ambitious plan</em> is about size, not vanity — it is big and hard to carry out; <em>too ambitious</em> or <em>overly ambitious</em> means it probably can't be done.</dd></dl>
+<p>Ambitious has 2 distinct senses.</p>
+<p><strong>1. Having a strong wish to succeed, to become important, or to get rich or powerful.</strong> (целеустремлённый, честолюбивый)</p>
+<ol><li>She's smart and <em>ambitious</em>, and she wants to run her own company someday.</li><li><em>Ambitious</em> young lawyers often work eighty hours a week.</li><li>His parents are very <em>ambitious</em> for him.</li></ol>
+<p><strong>2. Of a plan, goal or project: large and needing a lot of effort, money or skill to succeed.</strong> (масштабный, смелый, грандиозный)</p>
+<ol start="4"><li>The city has an <em>ambitious</em> plan to plant a million trees.</li><li>Finishing the whole house in a month was probably too <em>ambitious</em>.</li><li>This is the band's <em>most ambitious</em> album yet.</li></ol>
+<hr>
+<h3 id="pathetic">pathetic<a class="hash" href="#pathetic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈθɛtɪk/ &middot; <em>puh-THET-ik</em></dd><dt>Русский</dt><dd>жалкий</dd><dt>Type</dt><dd>evaluative; also emotion</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more pathetic</em>, <em>most pathetic</em></dd><dt>Form</dt><dd>-etic from Greek <em>pathos</em> 'suffering'</dd><dt>Contrast</dt><dd>Not <em>патетический</em> and not <em>пафосный</em>. <em>pathetic</em> = pitiful (жалкий), and in everyday American speech it is usually an insult: <em>That's pathetic!</em> = Жалкое зрелище! Позорище! For <em>патетический</em> (passionate, lofty, solemn) say <em>impassioned</em>, <em>passionate</em> or <em>solemn</em>: <em>патетическая речь</em> = <em>an impassioned speech</em>. For <em>пафосный</em> (showy, pretentious) say <em>pompous</em>, <em>pretentious</em> or <em>over the top</em>. Calling a speech <em>pathetic</em> says it was terrible, not emotional.</dd></dl>
+<p>Pathetic has 2 distinct senses.</p>
+<p><strong>1. Informal: so bad, weak or useless that it makes you feel contempt or annoyance.</strong> (жалкий, никудышный, позорный)</p>
+<ol><li>That's the <em>most pathetic</em> excuse I've ever heard.</li><li>Our defense was <em>pathetic</em> last night.</li><li>Only three people showed up? That's <em>pathetic</em>.</li></ol>
+<p><strong>2. Making you feel pity or sadness.</strong> (жалкий, вызывающий жалость, жалобный)</p>
+<ol start="4"><li>The <em>pathetic</em> little puppy was shaking in the rain.</li><li>There was something <em>pathetic</em> about the old man eating alone every night.</li></ol>
+<hr>
+<h3 id="dramatic">dramatic<a class="hash" href="#dramatic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drəˈmætɪk/ &middot; <em>druh-MAT-ik</em></dd><dt>Русский</dt><dd>резкий, разительный; эффектный; театральный</dd><dt>Type</dt><dd>quality; also classifying (<em>dramatic arts</em>)</dd><dt>Position</dt><dd>both — the theater sense is attributive only: <em>dramatic arts</em></dd><dt>Comparison</dt><dd>more/most — <em>more dramatic</em>, <em>most dramatic</em></dd><dt>Form</dt><dd>-ic from <em>drama</em></dd><dt>Contrast</dt><dd>Russian <em>драматический</em> and <em>драматичный</em> often mean tragic or full of suffering. English <em>dramatic</em> most often means sudden and big — <em>a dramatic change</em> (резкое, разительное изменение), <em>a dramatic improvement</em> — and the change can be a good one. For <em>драматическая ситуация</em> say <em>a tragic</em>, <em>dire</em> or <em>desperate situation</em>. <em>Don't be so dramatic</em> = Не устраивай драму, не преувеличивай. <em>драматический театр</em> is simply <em>a theater</em>.</dd></dl>
+<p>Dramatic has 4 distinct senses.</p>
+<p><strong>1. Of a change or event: sudden, large and very noticeable.</strong> (резкий, разительный, значительный)</p>
+<ol><li>There's been a <em>dramatic</em> drop in crime downtown.</li><li>The new coach made a <em>dramatic</em> difference.</li><li>The rise in rents has been <em>more dramatic</em> here than anywhere else in the state.</li></ol>
+<p><strong>2. Exciting and impressive to watch or look at.</strong> (захватывающий, эффектный)</p>
+<ol start="4"><li>The movie ends with a <em>dramatic</em> rescue at sea.</li><li>The house has <em>dramatic</em> views of the canyon.</li></ol>
+<p><strong>3. Of a person or behavior: showing feelings in an exaggerated way, to get attention.</strong> (театральный, показной)</p>
+<ol start="6"><li>Stop being so <em>dramatic</em> — it's just a scratch.</li><li>She made a <em>dramatic</em> exit, slamming the door behind her.</li></ol>
+<p><strong>4. Relating to plays, acting or the theater.</strong> (драматический, театральный)</p>
+<ol start="8"><li>He studied <em>dramatic</em> arts in college.</li><li>The festival includes <em>dramatic</em> readings of new plays.</li></ol>
+<hr>
+<h3 id="concrete">concrete<a class="hash" href="#concrete" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnkriːt, kɑːnˈkriːt/ &middot; <em>KAHN-kreet, kahn-KREET</em></dd><dt>Русский</dt><dd>конкретный, определённый</dd><dt>Type</dt><dd>quality; also classifying (<em>a concrete noun</em>)</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more concrete</em>, <em>most concrete</em></dd><dt>Opposite</dt><dd><em>vague</em> (sense 1); <em>abstract</em> (sense 2)</dd><dt>Contrast</dt><dd>Russian <em>конкретный</em> is much wider than <em>concrete</em>. Use <em>concrete</em> with <em>evidence</em>, <em>proof</em>, <em>plans</em>, <em>proposals</em>, <em>steps</em>, <em>examples</em> and <em>results</em> — things that are definite instead of vague. For one particular thing or person say <em>specific</em> or <em>particular</em>: <em>конкретная дата</em> = <em>a specific date</em>, <em>конкретный человек</em> = <em>a particular person</em>, <em>в конкретном случае</em> = <em>in this particular case</em>, <em>конкретно</em> = <em>specifically</em>. Slang <em>конкретный</em> ('real, serious') has no match in <em>concrete</em>. In <em>a concrete wall</em> (бетонная стена) the word is the noun <em>concrete</em> used as a modifier, not this adjective.</dd></dl>
+<p>Concrete has 2 distinct senses.</p>
+<p><strong>1. Based on facts, clearly stated and definite; not vague or general.</strong> (конкретный, определённый, реальный)</p>
+<ol><li>The police have no <em>concrete</em> evidence against him.</li><li>Our plans for the summer aren't <em>concrete</em> yet.</li><li>Could you give me a <em>more concrete</em> example?</li></ol>
+<p><strong>2. Existing as a real thing that can be seen and touched; not abstract.</strong> (материальный, вещественный, конкретный)</p>
+<ol start="4"><li>Young children learn math faster with <em>concrete</em> objects like blocks.</li><li>A <em>concrete</em> noun names something you can see or touch, like a chair or a dog.</li></ol>
+<hr>
+<h3 id="delicate">delicate<a class="hash" href="#delicate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛlɪkət/ &middot; <em>DEL-ih-kuht</em></dd><dt>Русский</dt><dd>хрупкий, нежный; щекотливый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more delicate</em>, <em>most delicate</em></dd><dt>Opposite</dt><dd><em>sturdy</em>, <em>robust</em></dd><dt>Contrast</dt><dd>Not <em>деликатный</em> about a person. <em>a delicate person</em> is physically weak or easily hurt (хрупкий, болезненный), not tactful. For <em>деликатный человек</em> say <em>tactful</em>, <em>considerate</em> or <em>discreet</em>: <em>он очень деликатный</em> = <em>he's very tactful</em>. The words overlap only for situations: <em>a delicate matter</em> = деликатный, щекотливый вопрос. <em>деликатес</em> is the noun <em>a delicacy</em>.</dd></dl>
+<p>Delicate has 6 distinct senses.</p>
+<p><strong>1. Easily broken or damaged; needing careful handling.</strong> (хрупкий, нежный)</p>
+<ol><li>Wash <em>delicate</em> fabrics by hand.</li><li>Babies have very <em>delicate</em> skin.</li><li>These old photos are too <em>delicate</em> to touch.</li></ol>
+<p><strong>2. Of a person or their health: weak and likely to get sick.</strong> (слабый, болезненный, хрупкий)</p>
+<ol start="4"><li>She was a <em>delicate</em> child who missed a lot of school.</li><li>Grandpa's health is <em>delicate</em>, so we keep our visits short.</li></ol>
+<p><strong>3. Of a situation or subject: needing tact and care, because it could easily cause trouble or hurt feelings.</strong> (деликатный, щекотливый)</p>
+<ol start="6"><li>Money is a <em>delicate</em> subject in our family.</li><li>The peace talks are at a <em>delicate</em> stage.</li><li>This is going to need a <em>more delicate</em> approach.</li></ol>
+<p><strong>4. Small, fine and graceful.</strong> (изящный, тонкий)</p>
+<ol start="9"><li>She has <em>delicate</em> features and dark eyes.</li><li>The earrings hang from a <em>delicate</em> gold chain.</li></ol>
+<p><strong>5. Of a taste, smell or color: light and pleasant, not strong.</strong> (тонкий, нежный, мягкий)</p>
+<ol start="11"><li>This fish has a <em>delicate</em> flavor, so go easy on the sauce.</li><li>The bedroom is painted a <em>delicate</em> shade of blue.</li></ol>
+<p><strong>6. Of work or an instrument: needing great skill and precision, or precise enough to notice very small changes.</strong> (тонкий, точный, чувствительный)</p>
+<ol start="13"><li>Removing the tumor was a <em>delicate</em> operation.</li><li>These <em>delicate</em> instruments can detect the smallest movement.</li></ol>
+<hr>
+<h3 id="spectacular">spectacular<a class="hash" href="#spectacular" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɛkˈtækjələr/ &middot; <em>spek-TAK-yuh-lur</em></dd><dt>Русский</dt><dd>потрясающий, зрелищный</dd><dt>Type</dt><dd>evaluative</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more spectacular</em>, <em>most spectacular</em></dd><dt>Form</dt><dd>-ar from <em>spectacle</em></dd><dt>Contrast</dt><dd>It has nothing to do with <em>спектакль</em>, which is <em>a play</em>, <em>a show</em> or <em>a performance</em>. <em>spectacular</em> = amazing, stunning, very impressive to see (потрясающий, зрелищный). <em>The play was spectacular</em> means it was wonderful, not that it was theatrical. <em>A spectacular failure</em> is a huge, very public one. As a noun, <em>a spectacular</em> is a big, showy TV or stage show.</dd></dl>
+<p>Spectacular has 2 distinct senses.</p>
+<p><strong>1. Very impressive and exciting to see; stunning.</strong> (потрясающий, зрелищный, эффектный)</p>
+<ol><li>The view from the top of the trail is <em>spectacular</em>.</li><li>This year's Fourth of July fireworks were <em>more spectacular</em> than ever.</li><li>She scored a <em>spectacular</em> goal from midfield.</li></ol>
+<p><strong>2. Unusually great in size or degree, often suddenly so.</strong> (ошеломительный, грандиозный)</p>
+<ol start="4"><li>The company's first year was a <em>spectacular</em> success.</li><li>His run for mayor ended in <em>spectacular</em> failure.</li><li>The town has seen <em>spectacular</em> growth since the factory opened.</li></ol>
+<hr>
+<h3 id="prospective">prospective<a class="hash" href="#prospective" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈspɛktɪv/ &middot; <em>pruh-SPEK-tiv</em></dd><dt>Русский</dt><dd>будущий, потенциальный</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — <em>prospective buyers</em>; not <em>the buyers are prospective</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ive from <em>prospect</em></dd><dt>Contrast</dt><dd>Not <em>перспективный</em>. <em>prospective</em> = likely to become something or to happen in the future (будущий, потенциальный): <em>a prospective student</em> is someone thinking of applying, not a promising one. For <em>перспективный</em> say <em>promising</em>, <em>up-and-coming</em> or <em>with a future</em>: <em>перспективный молодой игрок</em> = <em>a promising young player</em>, <em>перспективное направление</em> = <em>a promising field</em>. Do not confuse it with the noun <em>perspective</em> (точка зрения; перспектива в рисунке).</dd></dl>
+<p>Prospective has 2 distinct senses.</p>
+<p><strong>1. Likely or expected to become a particular kind of person in the future.</strong> (будущий, потенциальный)</p>
+<ol><li>The realtor is showing the house to <em>prospective</em> buyers this weekend.</li><li><em>Prospective</em> students can tour the campus on Fridays.</li><li>She met her <em>prospective</em> in-laws for the first time at Thanksgiving.</li></ol>
+<p><strong>2. Expected or likely to happen; relating to the future.</strong> (предполагаемый, ожидаемый, предстоящий)</p>
+<ol start="4"><li>The report looks at the <em>prospective</em> costs of a new stadium.</li><li>Researchers ran a <em>prospective</em> study that followed 5,000 patients for ten years.</li></ol>
+<hr>
+<h3 id="genial">genial<a class="hash" href="#genial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒiːniəl/ &middot; <em>JEE-nee-uhl</em></dd><dt>Русский</dt><dd>добродушный, приветливый</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more genial</em>, <em>most genial</em></dd><dt>Contrast</dt><dd>Not <em>гениальный</em>. <em>genial</em> = friendly and cheerful (добродушный, приветливый), and it describes people and their manner, not ideas. For <em>гениальный</em> say <em>brilliant</em> or <em>ingenious</em>: <em>гениальная идея</em> = <em>a brilliant idea</em>, <em>гениальный изобретатель</em> = <em>a brilliant (ingenious) inventor</em>; informally, <em>That's genius!</em> <em>A genial idea</em> is not English. The first syllable is JEE, not GEN.</dd></dl>
+<p>Genial has 2 distinct senses.</p>
+<p><strong>1. Friendly, cheerful and pleasant to be with.</strong> (добродушный, приветливый, радушный)</p>
+<ol><li>Our <em>genial</em> host made sure everyone had a drink.</li><li>He has a <em>genial</em> smile and a firm handshake.</li><li>Her husband is <em>more genial</em> than she is, and everyone likes him.</li></ol>
+<p><strong>2. Literary: of weather or a climate, pleasantly mild and warm.</strong> (мягкий, тёплый)</p>
+<ol start="4"><li>They moved to Arizona for its <em>genial</em> climate.</li><li>The <em>genial</em> spring sun brought everyone out to the park.</li></ol>
+<hr>
+<h3 id="artistic">artistic<a class="hash" href="#artistic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːrˈtɪstɪk/ &middot; <em>ahr-TIS-tik</em></dd><dt>Русский</dt><dd>художественный; творчески одарённый</dd><dt>Type</dt><dd>classifying; also quality (<em>a very artistic child</em>)</dd><dt>Position</dt><dd>both — the 'relating to art' sense is attributive only: <em>artistic director</em></dd><dt>Comparison</dt><dd>more/most — <em>more artistic</em>, <em>most artistic</em></dd><dt>Form</dt><dd>-ic from <em>artist</em></dd><dt>Contrast</dt><dd>Russian <em>артистичный</em> and <em>артистический</em> come from <em>артист</em> — a performer or actor. English <em>artistic</em> comes from <em>artist</em> — above all a painter, sculptor or other creative person — and means good at art or creative. For <em>артистичный</em> say <em>theatrical</em>, <em>a natural performer</em> or <em>has stage presence</em>; <em>артистическая уборная</em> is <em>a dressing room</em>. Informal <em>artsy</em> (American) is often mocking: <em>an artsy coffee shop</em>.</dd></dl>
+<p>Artistic has 3 distinct senses.</p>
+<p><strong>1. Relating to art or artists.</strong> (художественный, творческий)</p>
+<ol><li>The director was given complete <em>artistic</em> freedom.</li><li>The painting has more <em>artistic</em> value than market value.</li></ol>
+<p><strong>2. Of a person: naturally good at art, or creative in other ways.</strong> (художественно одарённый, творческий)</p>
+<ol start="3"><li>Both of her kids are very <em>artistic</em> — they're always drawing.</li><li>I'm not <em>artistic</em> at all; I can't even draw a straight line.</li><li>He's <em>more artistic</em> than his brother, who's into math.</li></ol>
+<p><strong>3. Made or arranged with skill and good taste; attractive.</strong> (художественный, изящный, со вкусом)</p>
+<ol start="6"><li>The cake had an <em>artistic</em> design of sugar flowers.</li><li>The chef arranges every plate in an <em>artistic</em> way.</li></ol>
+<hr>
+<h3 id="sophisticated">sophisticated<a class="hash" href="#sophisticated" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈfɪstɪkeɪtɪd/ &middot; <em>suh-FIS-tih-kay-tid</em></dd><dt>Русский</dt><dd>искушённый, утончённый; сложный, современный</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more sophisticated</em>, <em>most sophisticated</em></dd><dt>Form</dt><dd>-ed adjective, pronounced /ɪd/; there is no everyday verb <em>sophisticate</em></dd><dt>Opposite</dt><dd><em>unsophisticated</em>, <em>naive</em> (senses 1 and 3); <em>primitive</em>, <em>crude</em> (sense 2)</dd><dt>Contrast</dt><dd>It is not about <em>софистика</em> (sophistry — clever but dishonest arguing), and it is not simply <em>complicated</em>. <em>sophisticated</em> is usually praise: of a person, worldly and cultured (искушённый, утончённый); of technology, advanced and well designed (сложный, современный). <em>sophisticated software</em> is advanced; <em>complicated software</em> is hard to use. For the negative <em>изощрённый</em> (<em>изощрённая жестокость</em>) say <em>elaborate</em> or <em>calculated</em>, not <em>sophisticated</em>. The noun <em>a sophisticate</em> means a sophisticated person.</dd></dl>
+<p>Sophisticated has 3 distinct senses.</p>
+<p><strong>1. Of a person, place or style: knowing a lot about the world, culture and fashion; elegant.</strong> (искушённый, утончённый, изысканный)</p>
+<ol><li>She was the <em>most sophisticated</em> woman in our small town.</li><li>The restaurant has a <em>sophisticated</em>, grown-up feel.</li><li>Four years in New York made him a lot <em>more sophisticated</em>.</li></ol>
+<p><strong>2. Of a machine, system or method: advanced and complex.</strong> (сложный, передовой, современный)</p>
+<ol start="4"><li>The bank uses <em>sophisticated</em> software to spot fraud.</li><li>Today's phones are far <em>more sophisticated</em> than the computers that went to the moon.</li></ol>
+<p><strong>3. Of a person's thinking or an audience: able to understand difficult ideas; not simple or naive.</strong> (тонкий, глубокий; подготовленный)</p>
+<ol start="6"><li>Voters are more <em>sophisticated</em> than politicians think.</li><li>The novel offers a <em>sophisticated</em> look at race and class.</li></ol>
+<hr>
+<h3 id="extravagant">extravagant<a class="hash" href="#extravagant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstrævəɡənt/ &middot; <em>ik-STRAV-uh-guhnt</em></dd><dt>Русский</dt><dd>расточительный; непомерный; пышный</dd><dt>Type</dt><dd>quality; also evaluative</dd><dt>Position</dt><dd>both</dd><dt>Comparison</dt><dd>more/most — <em>more extravagant</em>, <em>most extravagant</em></dd><dt>Takes</dt><dd><em>with</em> + money or time (<em>extravagant with money</em>); <em>in</em> + praise or claims (<em>extravagant in their praise</em>)</dd><dt>Form</dt><dd><em>extra-</em> 'beyond' + Latin <em>vagari</em> 'to wander'</dd><dt>Opposite</dt><dd><em>thrifty</em>, <em>frugal</em> (sense 1)</dd><dt>Contrast</dt><dd>Not <em>экстравагантный</em> in its usual Russian sense — eccentric, unusual, outlandish. English <em>extravagant</em> is mainly about money and excess: <em>an extravagant gift</em> costs too much, <em>an extravagant person</em> spends too much (расточительный). For <em>экстравагантный</em> say <em>eccentric</em>, <em>flamboyant</em>, <em>outlandish</em> or <em>unconventional</em>: <em>экстравагантный наряд</em> = <em>a flamboyant (outlandish) outfit</em>, <em>экстравагантный человек</em> = <em>an eccentric</em>. The two words meet only in sense 3, where a party or costume is both costly and showy.</dd></dl>
+<p>Extravagant has 3 distinct senses.</p>
+<p><strong>1. Spending much more money than is wise, or costing much more than is wise.</strong> (расточительный; дорогостоящий)</p>
+<ol><li>They live an <em>extravagant</em> lifestyle on a teacher's salary.</li><li>A new car is an <em>extravagant</em> birthday present for a sixteen-year-old.</li><li>He was never <em>extravagant</em> with money.</li></ol>
+<p><strong>2. Of claims, praise or promises: far more than is reasonable or true.</strong> (непомерный, преувеличенный)</p>
+<ol start="4"><li>Be careful of <em>extravagant</em> claims about weight-loss pills.</li><li>The critics were <em>extravagant</em> in their praise.</li></ol>
+<p><strong>3. Very elaborate and showy.</strong> (пышный, роскошный, броский)</p>
+<ol start="6"><li>It was the <em>most extravagant</em> wedding I've ever been to.</li><li>She wore an <em>extravagant</em> hat covered in feathers.</li></ol>
+<hr>
+<h3 id="comprehensive">comprehensive<a class="hash" href="#comprehensive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːmprɪˈhɛnsɪv/ &middot; <em>kahm-prih-HEN-siv</em></dd><dt>Русский</dt><dd>всеобъемлющий, исчерпывающий</dd><dt>Type</dt><dd>quality</dd><dt>Position</dt><dd>both — the insurance sense is attributive only: <em>comprehensive coverage</em></dd><dt>Comparison</dt><dd>more/most — <em>more comprehensive</em>, <em>most comprehensive</em></dd><dt>Form</dt><dd>-ive from <em>comprehend</em> in its old sense 'take in, include'</dd><dt>Opposite</dt><dd><em>partial</em>, <em>limited</em></dd><dt>Contrast</dt><dd>Not <em>comprehensible</em> (понятный). <em>comprehensive</em> = complete, covering everything (всеобъемлющий, исчерпывающий): <em>a comprehensive report</em> is long and thorough, not easy to understand. Russian <em>комплексный</em> is often <em>comprehensive</em> in English — <em>комплексный подход</em> = <em>a comprehensive approach</em>, <em>комплексное обследование</em> = <em>a comprehensive checkup</em> — and not <em>complex</em>, which means сложный. In American car insurance, <em>comprehensive coverage</em> pays for damage that does not come from a collision: theft, hail, a falling tree.</dd></dl>
+<p>Comprehensive has 2 distinct senses.</p>
+<p><strong>1. Including all or almost all the facts, parts or details; complete and thorough.</strong> (всеобъемлющий, исчерпывающий, полный)</p>
+<ol><li>The list of trails on the website isn't <em>comprehensive</em>, but it covers the popular ones.</li><li>Graduate students take <em>comprehensive</em> exams at the end of their second year.</li><li>It's the <em>most comprehensive</em> guide to the city I've seen.</li></ol>
+<p><strong>2. Of insurance: covering most kinds of loss; in American car insurance, covering damage not caused by a collision.</strong> (полный, комплексный (о страховке))</p>
+<ol start="4"><li>My <em>comprehensive</em> coverage paid for the hail damage on the car.</li><li>If the car is stolen, you'll only get paid if you have <em>comprehensive</em> insurance.</li></ol>
+<hr>
+<h3 id="complex">complex<a class="hash" href="#complex" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmplɛks, kɑːmˈplɛks/ &middot; <em>KAHM-pleks, kahm-PLEKS</em></dd><dt>Русский</dt><dd>сложный</dd><dt>Type</dt><dd>quality; also classifying (<em>complex numbers</em>)</dd><dt>Position</dt><dd>both — the technical sense is attributive only: <em>complex numbers</em></dd><dt>Comparison</dt><dd>more/most — <em>more complex</em>, <em>most complex</em></dd><dt>Opposite</dt><dd><em>simple</em></dd><dt>Contrast</dt><dd>Not <em>комплексный</em>. <em>complex</em> = made of many parts and hard to understand (сложный). For <em>комплексный</em> say <em>comprehensive</em>, <em>integrated</em> or <em>combined</em>: <em>комплексный подход</em> = <em>a comprehensive approach</em>, <em>комплексные меры</em> = <em>a package of measures</em>, <em>комплексный обед</em> = <em>a lunch special</em>. Only in math is <em>complex number</em> = комплексное число. As a noun, <em>a complex</em> is a group of buildings (<em>a sports complex</em>) or a psychological problem (<em>an inferiority complex</em>); <em>у него комплексы</em> is more naturally <em>he's insecure</em> or <em>he has hang-ups</em>. <em>complex</em> and <em>complicated</em> are close: <em>complicated</em> is more everyday and suggests confusion; <em>complex</em> is more neutral and formal. Never <em>complexer</em>.</dd></dl>
+<p>Complex has 2 distinct senses.</p>
+<p><strong>1. Made of many connected parts, and so difficult to understand or deal with.</strong> (сложный, запутанный)</p>
+<ol><li>Climate change is a <em>complex</em> problem with no easy answer.</li><li>The tax code gets <em>more complex</em> every year.</li><li>The human brain is the <em>most complex</em> thing we know of.</li></ol>
+<p><strong>2. In science, math and grammar: made of two or more parts joined together, as in <em>complex numbers</em> or <em>complex sentences</em>.</strong> (комплексный, сложный, составной)</p>
+<ol start="4"><li>Whole grains are full of <em>complex</em> carbohydrates.</li><li>A <em>complex</em> sentence has a main clause and at least one dependent clause.</li></ol>
+<hr>
+<h3 id="eventual">eventual<a class="hash" href="#eventual" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈvɛntʃuəl/ &middot; <em>ih-VEN-choo-uhl</em></dd><dt>Русский</dt><dd>окончательный, конечный, итоговый</dd><dt>Type</dt><dd>classifying</dd><dt>Position</dt><dd>attributive only — <em>the eventual winner</em>; not <em>the winner was eventual</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-al from <em>event</em> in its old sense 'outcome'</dd><dt>Contrast</dt><dd>Not <em>эвентуальный</em> (possible, in case something happens). <em>eventual</em> = final, coming at the end of a long process: <em>the eventual winner</em> is the one who won in the end. For <em>эвентуальный</em> or <em>возможный</em> say <em>possible</em> or <em>potential</em>: <em>эвентуальные риски</em> = <em>possible risks</em>. The adverb has the same trap: <em>eventually</em> = в конце концов, в итоге — never возможно (<em>possibly</em>).</dd></dl>
+<p>Happening or existing at the end of a process or a period of time.</p>
+<ol><li>The Giants, the <em>eventual</em> champions, lost their first three games.</li><li>The <em>eventual</em> cost of the bridge was three times the original budget.</li><li>Doctors hope the drug will lead to an <em>eventual</em> cure.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

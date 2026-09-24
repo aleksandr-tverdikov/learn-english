@@ -103,6 +103,18 @@ CATALOGS = [
                 ('phrasal verbs', 'Phrasal verbs built on this'), ('variants', 'Variants')],
     ),
     dict(
+        slug='04-adjectives',
+        dir='parts-of-speech/04-adjectives/catalog',
+        title='The Adjective Dictionary',
+        eyebrow='04 &middot; Adjectives',
+        lede='adjectives — where each one can stand, how it compares, what it takes, and every meaning it has',
+        accent='#5f7a2e', accent_dark='#b5d37a',
+        tag_fields=['type', 'position', 'comparison'],
+        fields=[('type', 'Type'), ('position', 'Position'), ('comparison', 'Comparison'),
+                ('takes', 'Takes'), ('preposition patterns', 'Preposition patterns'),
+                ('form', 'Form'), ('opposite', 'Opposite'), ('contrast', 'Contrast')],
+    ),
+    dict(
         slug='05-adverbs',
         dir='parts-of-speech/05-adverbs/catalog',
         title='The Adverb Dictionary',

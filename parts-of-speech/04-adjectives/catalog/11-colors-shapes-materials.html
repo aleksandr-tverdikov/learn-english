@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colors, shapes and materials</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">04-adjectives</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="colors-shapes-and-materials">Colors, shapes and materials<a class="hash" href="#colors-shapes-and-materials" aria-label="link">#</a></h1>
+<blockquote><p><em>gray</em>, <em>navy</em>, <em>oval</em>, <em>wooden</em> — the adjectives that sit last before the noun.</p></blockquote>
+<p><a href="../README.html">← The grammar of adjectives</a> &middot; <a href="README.html">All groups</a></p>
+<p>Colors, shapes and materials sit near the end of the adjective order, just before the noun: <em>a big round wooden table</em>. Colors compare, and some shapes only loosely (<em>rounder</em> is fine; <em>more square</em> is common). For materials, English often uses the noun itself (<em>a cotton shirt</em>, <em>a glass door</em>) rather than an adjective; the entries here are the true adjectives, such as <em>wooden</em> and <em>woolen</em>, and they note where the noun is the normal choice.</p>
+<hr>
+<h3 id="black">black<a class="hash" href="#black" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blæk/ &middot; <em>BLAK</em></dd><dt>Русский</dt><dd>чёрный; чернокожий; мрачный</dd><dt>Type</dt><dd>color; also classifying (people)</dd><dt>Position</dt><dd>both — <em>a black car</em>, <em>The car is black</em></dd><dt>Comparison</dt><dd>-er/-est — <em>blacker</em>, <em>blackest</em></dd><dt>Opposite</dt><dd><em>white</em></dd><dt>Contrast</dt><dd>For people, American newspapers now capitalize <em>Black</em>: <em>Black voters</em>. Use it as an adjective, never as a noun: <em>a Black man</em>, not <em>a black</em>, which sounds offensive; <em>Negro</em> is outdated and offensive too, so Russian <em>негр</em> has no neutral English equivalent. <em>A black eye</em> is a bruised eye (синяк под глазом), and <em>black and blue</em> means covered in bruises. For humor, <em>dark</em> is now more common than <em>black</em>: <em>dark humor</em>.</dd></dl>
+<p>Black has 7 distinct senses.</p>
+<p><strong>1. Of the darkest color, like coal or the night sky.</strong> (чёрный)</p>
+<ol><li>She wore a long <em>black</em> dress to the gala.</li><li>My car is <em>black</em>, so it shows every speck of dust.</li><li>Her hair looked even <em>blacker</em> under the stage lights.</li></ol>
+<p><strong>2. Having little or no light; completely dark.</strong> (тёмный, кромешный)</p>
+<ol start="4"><li>It was pitch <em>black</em> in the basement.</li><li>The windows were <em>black</em> — nobody was home.</li><li>The <em>blackest</em> skies are in the desert, far from city lights.</li></ol>
+<p><strong>3. Belonging to a group of people with dark skin, especially of African descent; usually written <em>Black</em>.</strong> (чернокожий)</p>
+<ol start="7"><li>She was the first <em>Black</em> woman elected to the city council.</li><li>The museum tells the story of <em>Black</em> families in Chicago.</li></ol>
+<p><strong>4. Of coffee or tea: served without milk or cream.</strong> (чёрный (без молока и сливок))</p>
+<ol start="9"><li>I take my coffee <em>black</em>, no sugar.</li><li>A <em>black</em> coffee and a blueberry muffin, please.</li></ol>
+<p><strong>5. Angry, gloomy or without hope; full of bad feeling.</strong> (мрачный, злой, безнадёжный)</p>
+<ol start="11"><li>He's been in a <em>black</em> mood all morning.</li><li>She gave me a <em>black</em> look when I mentioned her ex.</li><li>After the plant closed, the town's future looked <em>black</em>.</li></ol>
+<p><strong>6. Evil or harmful; connected with the devil.</strong> (чёрный, злой)</p>
+<ol start="14"><li>The villagers believed she practiced <em>black</em> magic.</li><li>The villain is a man with a <em>black</em> heart.</li></ol>
+<p><strong>7. Of humor or comedy: finding something funny in death, suffering or disaster.</strong> (чёрный (о юморе))</p>
+<ol start="16"><li>The show is a <em>black</em> comedy about a family funeral home.</li><li>The play mixes <em>black</em> humor with real grief.</li></ol>
+<hr>
+<h3 id="white">white<a class="hash" href="#white" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪt/ &middot; <em>WYT</em></dd><dt>Русский</dt><dd>белый; бледный; седой</dd><dt>Type</dt><dd>color; also classifying (people)</dd><dt>Position</dt><dd>both — <em>a white shirt</em>, <em>The shirt is white</em>; <em>a white lie</em> only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>whiter</em>, <em>whitest</em></dd><dt>Opposite</dt><dd><em>black</em></dd><dt>Contrast</dt><dd><em>White hair</em> is седые волосы, and <em>go white</em> means turn pale from shock. <em>A white lie</em> is a small, polite lie (невинная ложь), not a serious one. Americans say <em>coffee with cream</em> or <em>coffee with milk</em>; <em>white coffee</em> is British. For people, American style usually writes <em>white</em> in lowercase.</dd></dl>
+<p>White has 7 distinct senses.</p>
+<p><strong>1. Of the color of snow or milk.</strong> (белый)</p>
+<ol><li>We painted the kitchen <em>white</em> to make it look bigger.</li><li>He was wearing a <em>white</em> T-shirt and jeans.</li><li>This toothpaste promises <em>whiter</em> teeth in two weeks.</li></ol>
+<p><strong>2. Belonging to a group of people with light skin, especially of European descent.</strong> (белый (о расе))</p>
+<ol start="4"><li>Most of the town's residents are <em>white</em>.</li><li>The survey asked <em>white</em> voters and Black voters the same questions.</li></ol>
+<p><strong>3. Pale in the face from fear, shock or illness.</strong> (бледный, побелевший)</p>
+<ol start="6"><li>He went <em>white</em> when he saw the bill.</li><li>She was <em>white</em> as a sheet after the accident.</li></ol>
+<p><strong>4. Of hair: completely gray from age.</strong> (седой)</p>
+<ol start="8"><li>My grandfather's hair turned <em>white</em> in his sixties.</li><li>A woman with short <em>white</em> hair answered the door.</li></ol>
+<p><strong>5. Of wine, bread or meat: lighter in color than other kinds.</strong> (белый, светлый)</p>
+<ol start="10"><li>Would you like red or <em>white</em> wine with the fish?</li><li>Chicken breast is <em>white</em> meat.</li><li>The kids will only eat <em>white</em> bread.</li></ol>
+<p><strong>6. Harmless and told to be kind or polite, in <em>a white lie</em>.</strong> (невинный (о лжи))</p>
+<ol start="13"><li>I told a <em>white</em> lie and said I loved the sweater.</li><li>Everyone tells a <em>white</em> lie now and then.</li></ol>
+<p><strong>7. Of a holiday or season: with snow on the ground.</strong> (снежный)</p>
+<ol start="15"><li>Denver hasn't had a <em>white</em> Christmas in years.</li><li>The kids were hoping for a <em>white</em> Christmas.</li></ol>
+<hr>
+<h3 id="gray">gray<a class="hash" href="#gray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡreɪ/ &middot; <em>GRAY</em></dd><dt>Русский</dt><dd>серый; седой; пасмурный</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>a gray sky</em>, <em>The sky is gray</em></dd><dt>Comparison</dt><dd>-er/-est — <em>grayer</em>, <em>grayest</em></dd><dt>Contrast</dt><dd>American spelling is <em>gray</em>; <em>grey</em> is British, though it survives in names (<em>Greyhound</em>, <em>Earl Grey</em>). <em>Gray hair</em> is седые волосы, not серые, and <em>go gray</em> means поседеть. <em>A gray area</em> is a situation where the rules are unclear, not a place.</dd></dl>
+<p>Gray has 6 distinct senses.</p>
+<p><strong>1. Of the color between black and white, like ash or rain clouds.</strong> (серый)</p>
+<ol><li>He wore a <em>gray</em> suit to the interview.</li><li>The paint dried <em>grayer</em> than it looked in the can.</li><li>Her eyes are <em>gray</em>, not blue.</li></ol>
+<p><strong>2. Of hair: turning white with age; of a person: having such hair.</strong> (седой)</p>
+<ol start="4"><li>My dad started going <em>gray</em> at forty.</li><li>She has a few <em>gray</em> hairs and doesn't care.</li></ol>
+<p><strong>3. Of weather or the sky: cloudy, dull and without sun.</strong> (пасмурный, хмурый)</p>
+<ol start="6"><li>It was a cold, <em>gray</em> morning in Seattle.</li><li>The sky has been <em>gray</em> all week.</li></ol>
+<p><strong>4. Of the face or skin: pale and unhealthy from illness, tiredness or shock.</strong> (серый, землистый, бледный)</p>
+<ol start="8"><li>He looked <em>gray</em> and exhausted after the night shift.</li><li>Her face went <em>gray</em> when the doctor walked in.</li></ol>
+<p><strong>5. Dull and without interest or personality.</strong> (серый, скучный, безликий)</p>
+<ol start="10"><li>Life in the suburbs felt <em>gray</em> after New York.</li><li>The hero is a <em>gray</em> little clerk who never takes a risk.</li></ol>
+<p><strong>6. Not clearly right or wrong, or not clearly defined.</strong> (неопределённый, спорный)</p>
+<ol start="12"><li>Cash tips are a <em>gray</em> area for a lot of workers.</li><li>The law is pretty <em>gray</em> on this point.</li></ol>
+<hr>
+<h3 id="brown">brown<a class="hash" href="#brown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/braʊn/ &middot; <em>BROWN</em></dd><dt>Русский</dt><dd>коричневый; карий; смуглый; загорелый</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>brown shoes</em>, <em>The shoes are brown</em></dd><dt>Comparison</dt><dd>-er/-est — <em>browner</em>, <em>brownest</em></dd><dt>Contrast</dt><dd><em>Brown eyes</em> are карие глаза — English has no separate word. <em>Brown hair</em> is каштановые or тёмно-русые волосы; Russian <em>русые</em> is usually <em>light brown</em> or <em>dark blond</em>. <em>Brown rice</em> and <em>brown sugar</em> are about how the food is processed, not only about the color. About people, <em>brown</em> is an adjective, mostly in phrases like <em>Black and brown communities</em>; never use it as a noun for a person.</dd></dl>
+<p>Brown has 5 distinct senses.</p>
+<p><strong>1. Of the color of wood, soil or coffee.</strong> (коричневый)</p>
+<ol><li>He bought a <em>brown</em> leather jacket.</li><li>The lawn turns <em>brown</em> every August.</li><li>The leaves get <em>browner</em> as fall goes on.</li></ol>
+<p><strong>2. Of eyes: dark; of hair: any shade from light to dark brown.</strong> (карий (о глазах); каштановый, тёмно-русый (о волосах))</p>
+<ol start="4"><li>The baby has big <em>brown</em> eyes.</li><li>His hair is light <em>brown</em> with a little gray.</li></ol>
+<p><strong>3. Belonging to a group of people with light to moderately dark skin, especially Latino, Middle Eastern or South Asian; sometimes written <em>Brown</em>.</strong> (смуглый, темнокожий (о латиноамериканцах, выходцах из Южной Азии и др.))</p>
+<ol start="6"><li>The program mostly serves Black and <em>brown</em> students.</li><li>Advocates say <em>brown</em> and Black neighborhoods get fewer parks.</li></ol>
+<p><strong>4. Of skin: darkened by the sun; tanned.</strong> (загорелый, смуглый)</p>
+<ol start="8"><li>The kids came back from camp <em>brown</em> from the sun.</li><li>By August he was as <em>brown</em> as a lifeguard.</li></ol>
+<p><strong>5. Of rice, bread or sugar: not fully refined, keeping more of the grain or the dark syrup.</strong> (бурый (о рисе), из муки грубого помола; коричневый (о сахаре))</p>
+<ol start="10"><li>I'll have the chicken with <em>brown</em> rice.</li><li>Add a cup of packed <em>brown</em> sugar.</li></ol>
+<hr>
+<h3 id="pink">pink<a class="hash" href="#pink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪŋk/ &middot; <em>PINK</em></dd><dt>Русский</dt><dd>розовый; раскрасневшийся</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>a pink dress</em>, <em>The dress is pink</em></dd><dt>Comparison</dt><dd>-er/-est — <em>pinker</em>, <em>pinkest</em></dd><dt>Contrast</dt><dd><em>Tickled pink</em> means very pleased, not ticklish. <em>A pink slip</em> (a noun) is a notice that you have lost your job. For a face red from embarrassment, <em>pink</em> is milder than <em>red</em>: <em>She went pink</em> is a light blush.</dd></dl>
+<p>Pink has 2 distinct senses.</p>
+<p><strong>1. Of a pale red color.</strong> (розовый)</p>
+<ol><li>She painted her nails bright <em>pink</em>.</li><li>My daughter wanted a <em>pink</em> bike for her birthday.</li><li>The sky got <em>pinker</em> as the sun went down.</li></ol>
+<p><strong>2. Of the face or skin: slightly red from health, heat or embarrassment.</strong> (розовый, румяный, раскрасневшийся)</p>
+<ol start="4"><li>His cheeks went <em>pink</em> when she thanked him.</li><li>The baby's skin was soft and <em>pink</em>.</li></ol>
+<hr>
+<h3 id="purple">purple<a class="hash" href="#purple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrpəl/ &middot; <em>PUR-puhl</em></dd><dt>Русский</dt><dd>фиолетовый, лиловый; багровый</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>a purple scarf</em>, <em>The scarf is purple</em>; <em>purple prose</em> only before a noun</dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>purpler</em>, <em>purplest</em>, <em>more purple</em></dd><dt>Contrast</dt><dd>False friend: Russian <em>пурпурный</em> leans toward crimson, while <em>purple</em> is фиолетовый or лиловый — the color of eggplant and grape juice. <em>Violet</em> is a bluer purple; <em>lavender</em> and <em>lilac</em> are pale purples. In US politics <em>red</em> is Republican and <em>blue</em> is Democratic, so a <em>purple</em> state is split between them.</dd></dl>
+<p>Purple has 4 distinct senses.</p>
+<p><strong>1. Of a color between red and blue.</strong> (фиолетовый, лиловый)</p>
+<ol><li>The grapes were dark <em>purple</em> and very sweet.</li><li>She dyed her hair <em>purple</em> for the concert.</li><li>The bruise turned <em>more purple</em> overnight.</li></ol>
+<p><strong>2. Of the face or skin: dark red from anger, cold or effort.</strong> (багровый)</p>
+<ol start="4"><li>He turned <em>purple</em> with rage.</li><li>Her hands were <em>purple</em> from the cold.</li></ol>
+<p><strong>3. Of writing: too elaborate, full of fancy words and emotion.</strong> (напыщенный, цветистый)</p>
+<ol start="6"><li>The novel is full of <em>purple</em> prose about sunsets.</li><li>Cut the <em>purple</em> passages and get to the point.</li></ol>
+<p><strong>4. Of a US state or area: with about equal support for Republicans and Democrats.</strong> (колеблющийся (о штате, округе))</p>
+<ol start="8"><li>Colorado used to be a <em>purple</em> state.</li><li>The suburbs around Atlanta are turning <em>purple</em>.</li></ol>
+<hr>
+<h3 id="orange">orange<a class="hash" href="#orange" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrɪndʒ/ &middot; <em>OR-inj</em></dd><dt>Русский</dt><dd>оранжевый; рыжий</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>an orange vest</em>, <em>The vest is orange</em></dd><dt>Comparison</dt><dd>more/most — <em>more orange</em>, <em>most orange</em></dd><dt>Contrast</dt><dd>Red human hair is <em>red</em> in English, not <em>orange</em>: a рыжий человек is <em>a redhead</em>. For animals, <em>orange</em> is normal: <em>an orange cat</em>. In <em>orange juice</em> the modifier is the noun <em>orange</em> (the fruit), not the color adjective.</dd></dl>
+<p>Orange has 2 distinct senses.</p>
+<p><strong>1. Of a color between red and yellow.</strong> (оранжевый)</p>
+<ol><li>Hunters wear <em>orange</em> vests in the woods.</li><li>The maple leaves turn <em>orange</em> in October.</li><li>The sunset got <em>more orange</em> as we watched.</li></ol>
+<p><strong>2. Of an animal's fur: reddish yellow.</strong> (рыжий)</p>
+<ol start="4"><li>We adopted an <em>orange</em> tabby from the shelter.</li><li>Our dog is white with <em>orange</em> patches on her back.</li></ol>
+<hr>
+<h3 id="yellow">yellow<a class="hash" href="#yellow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɛloʊ/ &middot; <em>YEL-oh</em></dd><dt>Русский</dt><dd>жёлтый; трусливый</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>a yellow bus</em>, <em>The bus is yellow</em></dd><dt>Comparison</dt><dd>-er/-est — <em>yellower</em>, <em>yellowest</em></dd><dt>Contrast</dt><dd>Russian <em>жёлтая пресса</em> is <em>the tabloids</em> or <em>tabloid journalism</em> in modern American English; <em>yellow journalism</em> is mainly a historical term for the 1890s newspaper wars. <em>Yellow</em> meaning cowardly is informal and old-fashioned. The middle traffic light is <em>yellow</em> in American English (<em>run a yellow light</em>); <em>amber</em> is British. Never use <em>yellow</em> to describe people of East Asian descent: it is a racial slur.</dd></dl>
+<p>Yellow has 3 distinct senses.</p>
+<p><strong>1. Of the color of lemons or butter.</strong> (жёлтый)</p>
+<ol><li>The kids ran out to the <em>yellow</em> school bus.</li><li>Our house is <em>yellow</em> with white trim.</li><li>The old photos have gotten <em>yellower</em> with age.</li></ol>
+<p><strong>2. Cowardly — informal and old-fashioned.</strong> (трусливый)</p>
+<ol start="4"><li>He was too <em>yellow</em> to stand up to his boss.</li><li>Don't be <em>yellow</em> — just go talk to her.</li></ol>
+<p><strong>3. Of news reporting: shocking and exaggerated to sell papers, in <em>yellow journalism</em>.</strong> (жёлтый, бульварный (о прессе))</p>
+<ol start="6"><li>Hearst's papers were famous for <em>yellow</em> journalism.</li><li>Critics called the cable coverage a new kind of <em>yellow</em> journalism.</li></ol>
+<hr>
+<h3 id="green">green<a class="hash" href="#green" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡriːn/ &middot; <em>GREEN</em></dd><dt>Русский</dt><dd>зелёный; незрелый; неопытный; экологичный</dd><dt>Type</dt><dd>color; also quality</dd><dt>Position</dt><dd>both — <em>green eyes</em>, <em>Her eyes are green</em></dd><dt>Comparison</dt><dd>-er/-est — <em>greener</em>, <em>greenest</em></dd><dt>Takes</dt><dd><em>with envy</em> — only in the 'jealous' sense: <em>green with envy</em></dd><dt>Contrast</dt><dd><em>Green</em> for 'inexperienced' matches Russian <em>зелёный</em>. Envy is <em>green with envy</em>, not <em>green from envy</em>. <em>Green</em> in <em>green energy</em> or <em>go green</em> means good for the environment, not the color. <em>A green card</em> is the US permanent resident card, and <em>greens</em> (a noun) are leafy vegetables.</dd></dl>
+<p>Green has 8 distinct senses.</p>
+<p><strong>1. Of the color of grass and leaves.</strong> (зелёный)</p>
+<ol><li>She has bright <em>green</em> eyes.</li><li>Wait until the light turns <em>green</em>.</li><li>The grass is always <em>greener</em> on the other side.</li></ol>
+<p><strong>2. Covered with grass, trees or other plants.</strong> (зелёный, озеленённый)</p>
+<ol start="4"><li>Portland has a lot of <em>green</em> space for a big city.</li><li>The hills are <em>green</em> after the spring rains.</li></ol>
+<p><strong>3. Of fruit: not yet ripe.</strong> (незрелый, зелёный)</p>
+<ol start="6"><li>These bananas are still <em>green</em>.</li><li>Don't pick the tomatoes while they're <em>green</em>.</li></ol>
+<p><strong>4. Young and without experience.</strong> (неопытный, зелёный)</p>
+<ol start="8"><li>The new hires are pretty <em>green</em>, so be patient with them.</li><li>I was <em>green</em> when I started, and I made every mistake.</li></ol>
+<p><strong>5. Good for the environment, or supporting its protection.</strong> (экологичный, зелёный)</p>
+<ol start="10"><li>The company is trying to go <em>green</em>.</li><li><em>Green</em> energy now powers half the city.</li><li>Stores are switching to <em>greener</em> packaging.</li></ol>
+<p><strong>6. Pale and sick-looking, as if about to vomit.</strong> (позеленевший, бледный (от тошноты))</p>
+<ol start="13"><li>He looked a little <em>green</em> after the roller coaster.</li><li>She turned <em>green</em> as soon as the boat left the dock.</li></ol>
+<p><strong>7. Very jealous, in <em>green with envy</em>.</strong> (завидующий)</p>
+<ol start="15"><li>My friends were <em>green</em> with envy when they saw my new car.</li><li>His success left the other writers <em>green</em> with envy.</li></ol>
+<p><strong>8. Of wood: freshly cut and not yet dried.</strong> (сырой (о древесине))</p>
+<ol start="17"><li><em>Green</em> wood smokes a lot when you burn it.</li><li>Don't build the deck with <em>green</em> lumber.</li></ol>
+<hr>
+<h3 id="blue">blue<a class="hash" href="#blue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bluː/ &middot; <em>BLOO</em></dd><dt>Русский</dt><dd>синий, голубой; грустный</dd><dt>Type</dt><dd>color; also emotion</dd><dt>Position</dt><dd>both — <em>blue eyes</em>, <em>Her eyes are blue</em>; 'sad' mostly after a verb: <em>feeling blue</em></dd><dt>Comparison</dt><dd>-er/-est — <em>bluer</em>, <em>bluest</em></dd><dt>Contrast</dt><dd>English has one basic word, <em>blue</em>, for both синий and голубой: say <em>light blue</em> for голубой and <em>dark blue</em> or <em>navy</em> for тёмно-синий. Russian slang <em>голубой</em> ('gay') does not carry over — <em>blue</em> never means gay. In US politics <em>blue</em> is Democratic and <em>red</em> is Republican, the reverse of most European party colors. Spelling: <em>bluer</em>, <em>bluest</em>, with no extra <em>e</em>.</dd></dl>
+<p>Blue has 5 distinct senses.</p>
+<p><strong>1. Of the color of a clear sky or the sea.</strong> (синий, голубой)</p>
+<ol><li>She has bright <em>blue</em> eyes.</li><li>The sky was <em>blue</em> all weekend.</li><li>The water gets <em>bluer</em> the farther out you go.</li></ol>
+<p><strong>2. Sad or depressed — informal.</strong> (грустный, подавленный)</p>
+<ol start="4"><li>I've been feeling kind of <em>blue</em> since the holidays.</li><li>Rainy Sundays always make me <em>blue</em>.</li></ol>
+<p><strong>3. In US politics: voting for or controlled by Democrats.</strong> (демократический (о штате, округе))</p>
+<ol start="6"><li>California is a solidly <em>blue</em> state.</li><li>The district turned <em>blue</em> in the last election.</li></ol>
+<p><strong>4. Of the skin or lips: bluish from cold or lack of air.</strong> (посиневший)</p>
+<ol start="8"><li>The kids' lips were <em>blue</em> after swimming in the lake.</li><li>His fingers were <em>blue</em> with cold.</li></ol>
+<p><strong>5. Of jokes or language: rude, especially about sex.</strong> (неприличный, непристойный)</p>
+<ol start="10"><li>The comedian's act was a little too <em>blue</em> for TV.</li><li>He told some <em>blue</em> jokes at the bachelor party.</li></ol>
+<hr>
+<h3 id="beige">beige<a class="hash" href="#beige" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/beɪʒ/ &middot; <em>BAYZH</em></dd><dt>Русский</dt><dd>бежевый</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>a beige sofa</em>, <em>The sofa is beige</em></dd><dt>Comparison</dt><dd>more/most — <em>more beige</em>, <em>most beige</em></dd><dt>Contrast</dt><dd>The word ends in the soft <em>zh</em> sound of <em>garage</em>, not the <em>j</em> sound of <em>badge</em>. Americans also say <em>tan</em> for a darker beige and <em>khaki</em> for the light brownish color of casual pants. <em>Beige</em> meaning 'boring' is informal.</dd></dl>
+<p>Beige has 2 distinct senses.</p>
+<p><strong>1. Of a pale sandy brown color.</strong> (бежевый)</p>
+<ol><li>We picked a <em>beige</em> sofa that goes with everything.</li><li>The walls in the rental are all <em>beige</em>.</li><li>The new carpet is even <em>more beige</em> than the old one.</li></ol>
+<p><strong>2. Boring and without character — informal.</strong> (скучный, безликий)</p>
+<ol start="4"><li>The hotel was clean but completely <em>beige</em>.</li><li>Their music is pleasant but a little <em>beige</em>.</li></ol>
+<hr>
+<h3 id="navy">navy<a class="hash" href="#navy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪvi/ &middot; <em>NAY-vee</em></dd><dt>Русский</dt><dd>тёмно-синий</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>a navy blazer</em>, <em>The blazer is navy</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd><em>Navy</em> alone as a color means <em>navy blue</em>. Before nouns like <em>officer</em> or <em>base</em>, <em>Navy</em> is the noun (<em>a Navy officer</em>); the adjective for 'relating to a navy' is <em>naval</em> (военно-морской): <em>a naval base</em>.</dd></dl>
+<p>Of a very dark blue color.</p>
+<ol><li>He wore a <em>navy</em> blazer with khakis.</li><li>The team's uniforms are <em>navy</em> with gold numbers.</li><li>She painted the front door <em>navy</em>.</li></ol>
+<hr>
+<h3 id="maroon">maroon<a class="hash" href="#maroon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈruːn/ &middot; <em>muh-ROON</em></dd><dt>Русский</dt><dd>тёмно-бордовый</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>a maroon sweater</em>, <em>The sweater is maroon</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Contrast</dt><dd>Russian <em>бордовый</em> is usually <em>maroon</em> (browner) or <em>burgundy</em> (more purple-red). Do not confuse the color with the verb <em>maroon</em>: <em>marooned on an island</em> means left stranded there.</dd></dl>
+<p>Of a dark brownish-red color.</p>
+<ol><li>The school colors are <em>maroon</em> and white.</li><li>He showed up in a <em>maroon</em> sweater.</li><li>Her new car is <em>maroon</em>, not red.</li></ol>
+<hr>
+<h3 id="turquoise">turquoise<a class="hash" href="#turquoise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrkwɔɪz/ &middot; <em>TUR-kwoyz</em></dd><dt>Русский</dt><dd>бирюзовый</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>turquoise water</em>, <em>The water is turquoise</em></dd><dt>Comparison</dt><dd>more/most — <em>more turquoise</em>, <em>most turquoise</em></dd><dt>Contrast</dt><dd>The stress is on the first syllable: TUR-kwoyz. <em>Turquoise</em> is also the noun for the stone, so <em>a turquoise ring</em> can mean a ring set with turquoise, not only a ring of that color.</dd></dl>
+<p>Of a bright greenish-blue color.</p>
+<ol><li>We snorkeled in the <em>turquoise</em> water off Key West.</li><li>The tiles in her kitchen are <em>turquoise</em>.</li><li>The lake looked <em>more turquoise</em> in the afternoon sun.</li></ol>
+<hr>
+<h3 id="golden">golden<a class="hash" href="#golden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡoʊldən/ &middot; <em>GOHL-duhn</em></dd><dt>Русский</dt><dd>золотистый; золотой</dd><dt>Type</dt><dd>color; also evaluative</dd><dt>Position</dt><dd>both — the color and <em>you're golden</em> after a verb; <em>a golden opportunity</em>, <em>golden age</em>, <em>golden anniversary</em> only before a noun</dd><dt>Comparison</dt><dd>more/most — <em>more golden</em>, <em>most golden</em></dd><dt>Form</dt><dd>-en from <em>gold</em></dd><dt>Contrast</dt><dd><em>Gold</em> (the noun) is the usual word for things made of gold: <em>a gold ring</em>, <em>gold earrings</em>. <em>Golden</em> is mostly the color (<em>golden hair</em>, <em>golden brown</em>) and the figurative senses (<em>a golden opportunity</em>); <em>a golden ring</em> sounds like a fairy tale. <em>You're golden</em> is informal American English for 'you're all set'.</dd></dl>
+<p>Golden has 7 distinct senses.</p>
+<p><strong>1. Having the color of gold; shiny yellow.</strong> (золотистый)</p>
+<ol><li>Bake the pie until the crust is <em>golden</em> brown.</li><li>She has long <em>golden</em> hair.</li><li>The fields looked <em>more golden</em> in the evening light.</li></ol>
+<p><strong>2. Made of gold — literary or old-fashioned.</strong> (золотой)</p>
+<ol start="4"><li>The king wore a <em>golden</em> crown.</li><li>In the story, the goose lays <em>golden</em> eggs.</li></ol>
+<p><strong>3. Of a period: very happy, successful or prosperous.</strong> (золотой (о времени))</p>
+<ol start="6"><li>The 1930s and '40s were the <em>golden</em> age of Hollywood.</li><li>They spent their <em>golden</em> years traveling the country.</li></ol>
+<p><strong>4. Very good and likely to bring success, of a chance or opportunity.</strong> (прекрасный, уникальный (о возможности))</p>
+<ol start="8"><li>This is a <em>golden</em> opportunity to meet investors.</li><li>He missed a <em>golden</em> chance to tie the game.</li></ol>
+<p><strong>5. Admired by everyone and expected to succeed, in <em>golden boy</em> and <em>golden girl</em>.</strong> (всеобщий любимец, баловень судьбы)</p>
+<ol start="10"><li>He was the <em>golden</em> boy of Silicon Valley.</li><li>In high school she was the <em>golden</em> girl who could do no wrong.</li></ol>
+<p><strong>6. Of an anniversary: the fiftieth.</strong> (золотой (о юбилее))</p>
+<ol start="12"><li>My parents celebrated their <em>golden</em> anniversary in June.</li><li>A <em>golden</em> anniversary calls for a big party.</li></ol>
+<p><strong>7. In a good position, with nothing to worry about — informal, after a verb.</strong> (всё в порядке, в шоколаде)</p>
+<ol start="14"><li>Get a B on the final and you're <em>golden</em>.</li><li>Once the paperwork is signed, we're <em>golden</em>.</li></ol>
+<hr>
+<h3 id="silver">silver<a class="hash" href="#silver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪlvər/ &middot; <em>SIL-vur</em></dd><dt>Русский</dt><dd>серебристый; седой; серебряный (о юбилее)</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>a silver car</em>, <em>The car is silver</em>; the anniversary sense only before a noun</dd><dt>Comparison</dt><dd>not gradable — <em>silvery</em> is the word for 'somewhat silver'</dd><dt>Contrast</dt><dd><em>A silver ring</em> (серебряное кольцо) uses the noun <em>silver</em> for the material, like <em>a gold ring</em>, so 'made of silver' is not a sense here. The adjective is the color: <em>a silver car</em> is серебристая машина. <em>Silvery</em> means 'somewhat silver' and also describes a soft, clear sound: <em>a silvery voice</em>. <em>Silver hair</em> is a flattering way to say gray hair.</dd></dl>
+<p>Silver has 3 distinct senses.</p>
+<p><strong>1. Having the shiny gray color of silver.</strong> (серебристый)</p>
+<ol><li>She drives a <em>silver</em> Honda.</li><li>Her dress was <em>silver</em> and covered in sequins.</li><li>The <em>silver</em> balloons matched the tablecloths.</li></ol>
+<p><strong>2. Of hair: gray or white in a shiny, attractive way.</strong> (седой, серебристый)</p>
+<ol start="4"><li>The anchor was a handsome man with <em>silver</em> hair.</li><li>Her hair went <em>silver</em> in her fifties, and she loved it.</li></ol>
+<p><strong>3. Of an anniversary: the twenty-fifth.</strong> (серебряный (о юбилее))</p>
+<ol start="6"><li>They threw a party for their <em>silver</em> anniversary.</li><li>The theater celebrates its <em>silver</em> jubilee this year.</li></ol>
+<hr>
+<h3 id="blond">blond<a class="hash" href="#blond" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɑːnd/ &middot; <em>BLAHND</em></dd><dt>Русский</dt><dd>светлый (о волосах); светловолосый</dd><dt>Type</dt><dd>color</dd><dt>Position</dt><dd>both — <em>blond hair</em>, <em>His hair is blond</em></dd><dt>Comparison</dt><dd>-er/-est — <em>blonder</em>, <em>blondest</em></dd><dt>Contrast</dt><dd>American style usually writes <em>blond</em> for the adjective, whoever it describes; <em>blonde</em> is also common, especially about women and for the noun <em>a blonde</em>. <em>Blond hair</em> is светлые волосы; Russian <em>русые</em> is usually <em>light brown</em> or <em>dark blond</em>. <em>Fair</em> also means light hair or skin and sounds more literary.</dd></dl>
+<p>Blond has 3 distinct senses.</p>
+<p><strong>1. Of hair: pale yellow or light in color.</strong> (светлый, белокурый (о волосах))</p>
+<ol><li>Her hair is naturally <em>blond</em>.</li><li>He has short <em>blond</em> hair and a beard.</li><li>My hair gets <em>blonder</em> every summer.</li></ol>
+<p><strong>2. Of a person: having light-colored hair.</strong> (светловолосый)</p>
+<ol start="4"><li>Their son is <em>blond</em> like his mother.</li><li>A tall <em>blond</em> guy in a red jacket was waiting outside.</li></ol>
+<p><strong>3. Of wood, beer and some other things: light in color.</strong> (светлый)</p>
+<ol start="6"><li>The table is made of <em>blond</em> oak.</li><li>The brewery's <em>blond</em> ale is light and crisp.</li></ol>
+<hr>
+<h3 id="pale">pale<a class="hash" href="#pale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/peɪl/ &middot; <em>PAYL</em></dd><dt>Русский</dt><dd>бледный; светлый</dd><dt>Type</dt><dd>color; also quality</dd><dt>Position</dt><dd>both — <em>a pale face</em>, <em>You look pale</em>; <em>a pale imitation</em> only before a noun</dd><dt>Comparison</dt><dd>-er/-est — <em>paler</em>, <em>palest</em></dd><dt>Opposite</dt><dd><em>dark</em> (color); <em>flushed</em> (face)</dd><dt>Contrast</dt><dd><em>Pale</em> skin often suggests illness or too little sun; <em>fair</em> skin is neutral or flattering. Before a color word, <em>pale</em> means light: <em>pale blue</em>, <em>pale pink</em>. Spelling: <em>paler</em>, <em>palest</em>, adding only <em>-r</em> and <em>-st</em>. <em>Beyond the pale</em> (unacceptable) uses an old noun, not this adjective.</dd></dl>
+<p>Pale has 4 distinct senses.</p>
+<p><strong>1. Of the face or skin: having less color than usual, from illness, shock or little sun.</strong> (бледный)</p>
+<ol><li>You look <em>pale</em> — are you OK?</li><li>She's naturally <em>pale</em> and burns easily.</li><li>He looked even <em>paler</em> after the second round of tests.</li></ol>
+<p><strong>2. Of a color: light, with a lot of white in it.</strong> (бледный, светлый, бледно-)</p>
+<ol start="4"><li>He wore a <em>pale</em> blue shirt and a dark tie.</li><li>We chose the <em>palest</em> shade of yellow for the nursery.</li></ol>
+<p><strong>3. Of light: weak and not bright.</strong> (тусклый, слабый)</p>
+<ol start="6"><li>We left in the <em>pale</em> light of early morning.</li><li>A <em>pale</em> moon hung over the lake.</li></ol>
+<p><strong>4. Weaker or worse than the original, in <em>a pale imitation</em> or <em>a pale shadow</em>.</strong> (жалкий, бледный (о подобии))</p>
+<ol start="8"><li>The sequel is a <em>pale</em> imitation of the first movie.</li><li>The team is a <em>pale</em> shadow of what it was ten years ago.</li></ol>
+<hr>
+<h3 id="dark">dark<a class="hash" href="#dark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɑːrk/ &middot; <em>DAHRK</em></dd><dt>Русский</dt><dd>тёмный; мрачный</dd><dt>Type</dt><dd>color; also quality</dd><dt>Position</dt><dd>both — <em>a dark room</em>, <em>The room is dark</em></dd><dt>Comparison</dt><dd>-er/-est — <em>darker</em>, <em>darkest</em></dd><dt>Opposite</dt><dd><em>light</em> (light and color); <em>bright</em></dd><dt>Contrast</dt><dd>Russian <em>темно</em> is <em>It's dark</em>, with the adjective, not <em>It's darkly</em>. <em>Dark chocolate</em> is горький шоколад, and <em>dark meat</em> is the meat of chicken legs and thighs. <em>Dark skin</em> is тёмная or смуглая кожа. Russian <em>тёмная личность</em> is <em>a shady character</em>, not <em>a dark person</em>. <em>In the dark</em> (не в курсе) is a noun phrase.</dd></dl>
+<p>Dark has 7 distinct senses.</p>
+<p><strong>1. With little or no light.</strong> (тёмный)</p>
+<ol><li>It gets <em>dark</em> around five in December.</li><li>The hallway was <em>dark</em> and quiet.</li><li>The sky got <em>darker</em> as the storm rolled in.</li></ol>
+<p><strong>2. Of a color: deep and closer to black.</strong> (тёмный, тёмно-)</p>
+<ol start="4"><li>He wore a <em>dark</em> blue suit to the funeral.</li><li>Her car is <em>dark</em> green.</li></ol>
+<p><strong>3. Of hair, eyes or skin: brown or black.</strong> (тёмный, смуглый)</p>
+<ol start="6"><li>He has <em>dark</em> hair and <em>dark</em> eyes.</li><li>She's tall, with <em>dark</em> skin and short hair.</li></ol>
+<p><strong>4. Sad, frightening or unpleasant; without hope.</strong> (мрачный, тяжёлый)</p>
+<ol start="8"><li>Those were <em>dark</em> days for the company.</li><li>The movie takes a <em>dark</em> turn halfway through.</li><li>The book's humor is <em>darker</em> than I expected.</li></ol>
+<p><strong>5. Evil or threatening.</strong> (тёмный, зловещий)</p>
+<ol start="11"><li>The novel explores the <em>darkest</em> parts of human nature.</li><li>There's a <em>dark</em> side to his charm.</li></ol>
+<p><strong>6. Of a theater, TV station or website: closed or not operating.</strong> (закрытый, не работающий)</p>
+<ol start="13"><li>Most Broadway theaters are <em>dark</em> on Mondays.</li><li>The station went <em>dark</em> after it lost its license.</li></ol>
+<p><strong>7. Of food or drink: darker than others of its kind and usually stronger in flavor.</strong> (горький (о шоколаде); тёмный)</p>
+<ol start="15"><li><em>Dark</em> chocolate has less sugar than milk chocolate.</li><li>Do you want white meat or <em>dark</em> meat?</li><li>She likes a <em>dark</em> roast in the morning.</li></ol>
+<hr>
+<h3 id="light">light<a class="hash" href="#light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laɪt/ &middot; <em>LYT</em></dd><dt>Русский</dt><dd>лёгкий; светлый; слабый</dd><dt>Type</dt><dd>quality; also color</dd><dt>Position</dt><dd>both — <em>a light bag</em>, <em>The bag is light</em>; <em>light on</em> only after a verb</dd><dt>Comparison</dt><dd>-er/-est — <em>lighter</em>, <em>lightest</em></dd><dt>Takes</dt><dd><em>on</em> + noun — having too little of something: <em>light on details</em></dd><dt>Opposite</dt><dd><em>heavy</em> (weight, amount, food); <em>dark</em> (color, light)</dd><dt>Contrast</dt><dd><em>Light</em> covers two unrelated ideas: 'not heavy' (лёгкий) and 'not dark' (светлый). But Russian <em>лёгкий</em> meaning 'not difficult' is <em>easy</em>: <em>an easy test</em>, not <em>a light test</em>. <em>A light sleeper</em> wakes easily (чутко спит). <em>Lite</em> is a spelling used on food labels (<em>lite beer</em>). <em>Light on your feet</em> means moving easily and gracefully, not 'lacking' like <em>light on details</em>. <em>Travel light</em> and <em>sleep light</em> use the adverb, and <em>a lighter</em> is a noun (зажигалка).</dd></dl>
+<p>Light has 10 distinct senses.</p>
+<p><strong>1. Not heavy; weighing little.</strong> (лёгкий)</p>
+<ol><li>This laptop is really <em>light</em>.</li><li>Aluminum bikes are <em>lighter</em> than steel ones.</li><li>Bring a <em>light</em> jacket for the evening.</li></ol>
+<p><strong>2. Of a color: pale, not deep.</strong> (светлый, светло-)</p>
+<ol start="4"><li>She has <em>light</em> brown hair.</li><li>Choose a <em>lighter</em> shade of paint for a small room.</li></ol>
+<p><strong>3. Full of natural light; not dark.</strong> (светлый)</p>
+<ol start="6"><li>In June it's still <em>light</em> outside at nine.</li><li>The apartment is big and <em>light</em>.</li></ol>
+<p><strong>4. Small in amount, force or number.</strong> (небольшой, слабый)</p>
+<ol start="8"><li>A <em>light</em> rain fell all afternoon.</li><li>Traffic is <em>light</em> on Sunday mornings.</li></ol>
+<p><strong>5. Not needing much physical effort.</strong> (лёгкий, нетрудный)</p>
+<ol start="10"><li>After surgery, he was on <em>light</em> duty for a month.</li><li>Do some <em>light</em> stretching before you run.</li></ol>
+<p><strong>6. Not serious; meant to entertain.</strong> (лёгкий, развлекательный)</p>
+<ol start="12"><li>I want some <em>light</em> reading for the beach.</li><li>The conversation stayed <em>light</em> and friendly.</li></ol>
+<p><strong>7. Of food or drink: small, easy to digest, or low in fat, calories or alcohol.</strong> (лёгкий, низкокалорийный)</p>
+<ol start="14"><li>We had a <em>light</em> lunch of soup and salad.</li><li>Can I get a <em>light</em> beer?</li></ol>
+<p><strong>8. Gentle, with little pressure.</strong> (лёгкий, мягкий)</p>
+<ol start="16"><li>She felt a <em>light</em> touch on her shoulder.</li><li>We heard <em>light</em> footsteps on the stairs.</li></ol>
+<p><strong>9. Of sleep: easily broken; of a sleeper: waking easily.</strong> (чуткий (о сне))</p>
+<ol start="18"><li>I'm a <em>light</em> sleeper, so the dog wakes me up.</li><li>He fell into a <em>light</em> sleep on the couch.</li></ol>
+<p><strong>10. Having too little of something — in <em>light on</em>.</strong> (бедный (чем-либо), с недостатком)</p>
+<ol start="20"><li>The report is <em>light</em> on details.</li><li>The menu is a little <em>light</em> on vegetarian options.</li></ol>
+<hr>
+<h3 id="bright">bright<a class="hash" href="#bright" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/braɪt/ &middot; <em>BRYT</em></dd><dt>Русский</dt><dd>яркий; светлый; умный</dd><dt>Type</dt><dd>quality; also color</dd><dt>Position</dt><dd>both — <em>a bright light</em>, <em>The light is bright</em></dd><dt>Comparison</dt><dd>-er/-est — <em>brighter</em>, <em>brightest</em></dd><dt>Opposite</dt><dd><em>dark</em>, <em>dim</em> (light); <em>dull</em> (color, mind)</dd><dt>Contrast</dt><dd><em>A bright person</em> is smart (умный, способный), not яркий: Russian <em>яркая личность</em> is <em>a colorful personality</em> or <em>a striking person</em>. <em>A bright idea</em> is often sarcastic. After verbs like <em>shine</em>, careful writing uses the adverb <em>brightly</em>, although <em>shine bright</em> is common in songs and speech.</dd></dl>
+<p>Bright has 7 distinct senses.</p>
+<p><strong>1. Giving out or full of strong light.</strong> (яркий, светлый)</p>
+<ol><li>The <em>bright</em> lights of Las Vegas never go off.</li><li>The kitchen is <em>bright</em> and sunny.</li><li>The new phone's screen is much <em>brighter</em> than my old one.</li></ol>
+<p><strong>2. Of a color: strong and vivid.</strong> (яркий)</p>
+<ol start="4"><li>He bought a <em>bright</em> red pickup.</li><li>She always wears <em>bright</em> colors.</li></ol>
+<p><strong>3. Of weather or a day: sunny and clear.</strong> (ясный, солнечный)</p>
+<ol start="6"><li>It was a <em>bright</em>, cold morning.</li><li>The day was <em>bright</em> but windy.</li></ol>
+<p><strong>4. Intelligent and quick to learn.</strong> (умный, способный, сообразительный)</p>
+<ol start="8"><li>She's one of the <em>brightest</em> kids in her class.</li><li>He's a <em>bright</em> guy, but he never studies.</li></ol>
+<p><strong>5. Of an idea: clever — often used sarcastically.</strong> (удачный, толковый (часто иронически))</p>
+<ol start="10"><li>Whose <em>bright</em> idea was it to drive in this snow?</li><li>Then I had a <em>bright</em> idea: call the landlord.</li></ol>
+<p><strong>6. Cheerful and lively.</strong> (весёлый, жизнерадостный)</p>
+<ol start="12"><li>She greeted us with a <em>bright</em> smile.</li><li>His voice sounded <em>bright</em> and happy on the phone.</li></ol>
+<p><strong>7. Likely to be successful or good.</strong> (светлый, многообещающий)</p>
+<ol start="14"><li>You have a <em>bright</em> future ahead of you.</li><li>The outlook for the economy isn't very <em>bright</em>.</li></ol>
+<hr>
+<h3 id="round">round<a class="hash" href="#round" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raʊnd/ &middot; <em>ROWND</em></dd><dt>Русский</dt><dd>круглый</dd><dt>Type</dt><dd>shape</dd><dt>Position</dt><dd>both — <em>a round table</em>, <em>The table is round</em></dd><dt>Comparison</dt><dd>-er/-est — <em>rounder</em>, <em>roundest</em></dd><dt>Contrast</dt><dd>Russian <em>круглый</em> in set phrases is not <em>round</em>: <em>круглый год</em> is <em>all year round</em> (an adverb), <em>круглые сутки</em> is <em>around the clock</em>, <em>круглый отличник</em> is <em>a straight-A student</em>. <em>A round-trip ticket</em> (туда и обратно) is a compound adjective. <em>Round</em> as a preposition (<em>round the corner</em>) is British; Americans say <em>around</em>. <em>A round</em> (noun) is a раунд or a round of drinks.</dd></dl>
+<p>Round has 4 distinct senses.</p>
+<p><strong>1. Shaped like a circle or a ball.</strong> (круглый)</p>
+<ol><li>We sat at a big <em>round</em> table.</li><li>The earth is <em>round</em>, not flat.</li><li>This pumpkin is <em>rounder</em> than the other one.</li></ol>
+<p><strong>2. Of a face or body: full and curved.</strong> (круглый, пухлый)</p>
+<ol start="4"><li>The baby has a <em>round</em> face and big eyes.</li><li>She has <em>round</em> cheeks and a big smile.</li></ol>
+<p><strong>3. Of a number: whole, not exact, usually ending in zero.</strong> (круглый (о числе))</p>
+<ol start="6"><li>Just give me a <em>round</em> number — I don't need it to the penny.</li><li>In <em>round</em> numbers, the project will cost a million.</li></ol>
+<p><strong>4. Of a sound or flavor: full and smooth.</strong> (насыщенный, мягкий (о звуке, вкусе))</p>
+<ol start="8"><li>The wine has a <em>round</em>, soft finish.</li><li>She has a warm, <em>round</em> singing voice.</li></ol>
+<hr>
+<h3 id="square">square<a class="hash" href="#square" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skwɛr/ &middot; <em>SKWAIR</em></dd><dt>Русский</dt><dd>квадратный; честный; в расчёте</dd><dt>Type</dt><dd>shape; also quality</dd><dt>Position</dt><dd>both — <em>a square box</em>, <em>The box is square</em>; after a measurement for each side: <em>ten feet square</em></dd><dt>Comparison</dt><dd>-er/-est or more/most — <em>squarer</em>, <em>squarest</em>, <em>more square</em></dd><dt>Contrast</dt><dd>Word order changes the meaning: <em>100 square feet</em> is an area, but <em>a room ten feet square</em> measures ten feet on each side (100 square feet in all). <em>Square</em> also means 'even, owing nothing' (<em>We're square</em> = мы в расчёте). <em>A square</em> (noun) is a площадь in a city: <em>Times Square</em>. <em>More square</em> is as common as <em>squarer</em>.</dd></dl>
+<p>Square has 7 distinct senses.</p>
+<p><strong>1. Having four equal sides and four right angles.</strong> (квадратный)</p>
+<ol><li>Cut the dough into <em>square</em> pieces.</li><li>The napkins are <em>square</em>, not round.</li><li>Her new glasses have <em>more square</em> frames than her old ones.</li></ol>
+<p><strong>2. Of a jaw or shoulders: broad and solid, with strong angles.</strong> (квадратный, широкий)</p>
+<ol start="4"><li>The actor has a strong, <em>square</em> jaw.</li><li>He stood with his shoulders <em>square</em> and his head up.</li></ol>
+<p><strong>3. Used in measurements of area (<em>square feet</em>), or after a length to give each side of a square.</strong> (квадратный (о мере площади); со стороной (о размере))</p>
+<ol start="6"><li>The apartment is 800 <em>square</em> feet.</li><li>The rug is six feet <em>square</em>.</li></ol>
+<p><strong>4. Fair and honest.</strong> (честный)</p>
+<ol start="8"><li>The dealer gave us a <em>square</em> deal.</li><li>I've always been <em>square</em> with you.</li></ol>
+<p><strong>5. Even: owing nothing, or having the same score.</strong> (в расчёте, квиты; с равным счётом)</p>
+<ol start="10"><li>You paid for lunch, so now we're <em>square</em>.</li><li>The match was all <em>square</em> after nine holes.</li></ol>
+<p><strong>6. Of a meal: full and satisfying.</strong> (полноценный, сытный)</p>
+<ol start="12"><li>The shelter serves three <em>square</em> meals a day.</li><li>When did you last eat a <em>square</em> meal?</li></ol>
+<p><strong>7. Old-fashioned and boring — dated slang.</strong> (старомодный, скучный)</p>
+<ol start="14"><li>My parents were so <em>square</em> in the '80s.</li><li>Don't be <em>square</em> — come to the party.</li></ol>
+<hr>
+<h3 id="oval">oval<a class="hash" href="#oval" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvəl/ &middot; <em>OH-vuhl</em></dd><dt>Русский</dt><dd>овальный</dd><dt>Type</dt><dd>shape</dd><dt>Position</dt><dd>both — <em>an oval mirror</em>, <em>The mirror is oval</em></dd><dt>Comparison</dt><dd>more/most — <em>more oval</em>, <em>most oval</em></dd><dt>Contrast</dt><dd><em>Oval</em> is both the adjective (овальный) and the noun (овал), so no ending changes: <em>an oval table</em>, <em>shaped like an oval</em>. <em>The Oval Office</em> is the president's office in the White House.</dd></dl>
+<p>Shaped like an egg or a stretched circle.</p>
+<ol><li>An <em>oval</em> mirror hung over the sink.</li><li>The track around the field is <em>oval</em>.</li><li>Her face is <em>more oval</em> than round.</li></ol>
+<hr>
+<h3 id="triangular">triangular<a class="hash" href="#triangular" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/traɪˈæŋɡjələr/ &middot; <em>try-ANG-gyuh-lur</em></dd><dt>Русский</dt><dd>треугольный; трёхсторонний</dd><dt>Type</dt><dd>shape; also classifying</dd><dt>Position</dt><dd>both — <em>a triangular sign</em>, <em>The sign is triangular</em>; the 'three parties' sense only before a noun</dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ular from <em>triangle</em></dd><dt>Contrast</dt><dd><em>Triangular</em> sounds a little formal; in casual speech Americans often say <em>triangle-shaped</em> or use the noun: <em>Cut it into triangles</em>. <em>A triangular relationship</em> is what everyday English calls <em>a love triangle</em> (любовный треугольник).</dd></dl>
+<p>Triangular has 2 distinct senses.</p>
+<p><strong>1. Shaped like a triangle.</strong> (треугольный)</p>
+<ol><li>Yield signs in the US are <em>triangular</em>.</li><li>Cut the sandwiches into <em>triangular</em> pieces.</li><li>The park sits on a small <em>triangular</em> lot.</li></ol>
+<p><strong>2. Involving three people, groups or places.</strong> (трёхсторонний)</p>
+<ol start="4"><li>The novel is about a <em>triangular</em> relationship between two sisters and one man.</li><li><em>Triangular</em> trade linked Europe, Africa and the Americas.</li></ol>
+<hr>
+<h3 id="rectangular">rectangular<a class="hash" href="#rectangular" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɛkˈtæŋɡjələr/ &middot; <em>rek-TANG-gyuh-lur</em></dd><dt>Русский</dt><dd>прямоугольный</dd><dt>Type</dt><dd>shape</dd><dt>Position</dt><dd>both — <em>a rectangular table</em>, <em>The table is rectangular</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ular from <em>rectangle</em></dd><dt>Contrast</dt><dd>False friend: <em>rectangular</em> describes only four-sided shapes. Russian <em>прямоугольный треугольник</em> is <em>a right triangle</em> in American English (<em>right-angled triangle</em> in British), and <em>прямой угол</em> is <em>a right angle</em>.</dd></dl>
+<p>Shaped like a rectangle: four straight sides and four right angles, usually with two sides longer.</p>
+<ol><li>We need a <em>rectangular</em> table that seats eight.</li><li>The pool in the backyard is <em>rectangular</em>.</li><li>Most phone screens are <em>rectangular</em> with rounded corners.</li></ol>
+<hr>
+<h3 id="circular">circular<a class="hash" href="#circular" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrkjələr/ &middot; <em>SUR-kyuh-lur</em></dd><dt>Русский</dt><dd>круглый; круговой</dd><dt>Type</dt><dd>shape; also quality</dd><dt>Position</dt><dd>both — <em>a circular window</em>, <em>The window is circular</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-ular from <em>circle</em></dd><dt>Contrast</dt><dd>In everyday speech Americans say <em>round</em> for most objects (<em>a round table</em>); <em>circular</em> sounds more formal or technical and suits flat shapes, routes and movement. <em>Circular reasoning</em> is рассуждение по кругу. <em>A circular</em> (noun) is a printed ad or flyer.</dd></dl>
+<p>Circular has 3 distinct senses.</p>
+<p><strong>1. Shaped like a circle.</strong> (круглый)</p>
+<ol><li>The church has a large <em>circular</em> window over the door.</li><li>The main room of the museum is <em>circular</em>.</li></ol>
+<p><strong>2. Moving in a circle, or ending where it began.</strong> (круговой)</p>
+<ol start="3"><li>There's a <em>circular</em> trail around the lake.</li><li>Rub the cream in with small <em>circular</em> motions.</li></ol>
+<p><strong>3. Of an argument: using what it wants to prove as its proof.</strong> (замкнутый, построенный по кругу (о рассуждении))</p>
+<ol start="5"><li>That's <em>circular</em> reasoning, and it won't convince anyone.</li><li>Her argument is <em>circular</em>: the book is true because the book says so.</li></ol>
+<hr>
+<h3 id="curved">curved<a class="hash" href="#curved" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɜːrvd/ &middot; <em>KURVD</em></dd><dt>Русский</dt><dd>изогнутый</dd><dt>Type</dt><dd>shape; also participial</dd><dt>Position</dt><dd>both — <em>a curved blade</em>, <em>The blade is curved</em></dd><dt>Comparison</dt><dd>more/most — <em>more curved</em>, <em>most curved</em></dd><dt>Form</dt><dd>-ed from the verb <em>curve</em></dd><dt>Opposite</dt><dd><em>straight</em></dd><dt>Contrast</dt><dd><em>Curved</em> means bending smoothly (изогнутый). Russian <em>кривой</em> in the sense 'not straight as it should be' is <em>crooked</em>: <em>a crooked picture</em>, <em>crooked teeth</em>. <em>Curvy</em> means having many curves, like a mountain road, or describes a full, shapely figure.</dd></dl>
+<p>Bent in a smooth line, not straight.</p>
+<ol><li>The chef uses a knife with a <em>curved</em> blade.</li><li>The front of the building is <em>curved</em> like a wave.</li><li>This year's gaming monitors are <em>more curved</em> than last year's.</li></ol>
+<hr>
+<h3 id="wooden">wooden<a class="hash" href="#wooden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊdən/ &middot; <em>WUU-duhn</em></dd><dt>Русский</dt><dd>деревянный; скованный</dd><dt>Type</dt><dd>material; also quality</dd><dt>Position</dt><dd>both — <em>a wooden spoon</em>, <em>The floors are wooden</em></dd><dt>Comparison</dt><dd>more/most — only in the 'stiff' sense: <em>more wooden</em>, <em>most wooden</em></dd><dt>Form</dt><dd>-en from <em>wood</em></dd><dt>Contrast</dt><dd>For the material, Americans use the noun as often as the adjective: <em>wood floors</em> and <em>a wood table</em> are as common as <em>wooden floors</em>. Only <em>wooden</em> has the figurative sense 'stiff, without expression': <em>wooden acting</em>, never <em>wood acting</em>.</dd></dl>
+<p>Wooden has 2 distinct senses.</p>
+<p><strong>1. Made of wood.</strong> (деревянный)</p>
+<ol><li>We crossed an old <em>wooden</em> bridge over the creek.</li><li>Stir the sauce with a <em>wooden</em> spoon.</li><li>All the floors in the house are <em>wooden</em>.</li></ol>
+<p><strong>2. Stiff and awkward, without natural feeling or expression.</strong> (деревянный, скованный, невыразительный)</p>
+<ol start="4"><li>The lead actor's performance was <em>wooden</em>.</li><li>His second speech was even <em>more wooden</em> than the first.</li></ol>
+<hr>
+<h3 id="woolen">woolen<a class="hash" href="#woolen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊlən/ &middot; <em>WUU-luhn</em></dd><dt>Русский</dt><dd>шерстяной</dd><dt>Type</dt><dd>material; also classifying</dd><dt>Position</dt><dd>both — mostly before a noun; after a verb the noun is more natural: <em>The scarf is wool</em></dd><dt>Comparison</dt><dd>not gradable</dd><dt>Form</dt><dd>-en from <em>wool</em></dd><dt>Contrast</dt><dd>American spelling has one <em>l</em>: <em>woolen</em>; <em>woollen</em> is British. In everyday speech the noun is more common: <em>a wool sweater</em>, <em>The scarf is 100% wool</em>. The noun <em>woolens</em> means wool clothes.</dd></dl>
+<p>Woolen has 2 distinct senses.</p>
+<p><strong>1. Made of wool.</strong> (шерстяной)</p>
+<ol><li>Pack <em>woolen</em> socks for the camping trip.</li><li>She knitted a <em>woolen</em> hat for the baby.</li><li>Everything she wore that winter was <em>woolen</em>, from her hat to her socks.</li></ol>
+<p><strong>2. Relating to making or selling wool cloth.</strong> (суконный, шерстяной (о производстве))</p>
+<ol start="4"><li>The town grew up around a <em>woolen</em> mill.</li><li>New England's <em>woolen</em> industry declined in the twentieth century.</li></ol>
+<hr>
+<h3 id="plastic">plastic<a class="hash" href="#plastic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæstɪk/ &middot; <em>PLAS-tik</em></dd><dt>Русский</dt><dd>пластический; фальшивый, искусственный; пластичный</dd><dt>Type</dt><dd>classifying; also quality</dd><dt>Position</dt><dd>both — <em>a plastic smile</em>, <em>Everything there felt plastic</em>; <em>plastic surgery</em> only before a noun</dd><dt>Comparison</dt><dd>more/most — in the 'fake' sense: <em>more plastic</em>, <em>most plastic</em></dd><dt>Contrast</dt><dd><em>A plastic bag</em> and <em>plastic cups</em> (пластиковые) use the noun <em>plastic</em> as a modifier, like <em>a glass door</em>, so 'made of plastic' is not a sense here. False friend: Russian <em>пластичный</em> about a dancer is <em>graceful</em> or <em>fluid</em>, not <em>plastic</em>; <em>plastic</em> about a person means fake. <em>Plastic</em> (a noun, informal) also means credit cards: <em>Do you take plastic?</em></dd></dl>
+<p>Plastic has 3 distinct senses.</p>
+<p><strong>1. Relating to shaping or repairing forms, in <em>plastic surgery</em> and <em>plastic arts</em>.</strong> (пластический)</p>
+<ol><li>She's a <em>plastic</em> surgeon in Miami.</li><li>He needed <em>plastic</em> surgery on his face after the accident.</li><li>Sculpture and ceramics are <em>plastic</em> arts.</li></ol>
+<p><strong>2. Artificial and insincere; fake.</strong> (фальшивый, искусственный)</p>
+<ol start="4"><li>The flight attendant gave us a <em>plastic</em> smile.</li><li>The whole resort felt fake and <em>plastic</em>.</li><li>The remake looks even <em>more plastic</em> than the original.</li></ol>
+<p><strong>3. Easily shaped or changed.</strong> (пластичный, податливый)</p>
+<ol start="7"><li>Wet clay is <em>plastic</em> and easy to mold.</li><li>A young child's brain is highly <em>plastic</em>.</li></ol>
+<hr>
+<h3 id="metallic">metallic<a class="hash" href="#metallic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈtælɪk/ &middot; <em>muh-TAL-ik</em></dd><dt>Русский</dt><dd>металлический; блестящий, металлик</dd><dt>Type</dt><dd>material; also quality</dd><dt>Position</dt><dd>both — <em>metallic paint</em>, <em>The paint is metallic</em></dd><dt>Comparison</dt><dd>more/most — <em>more metallic</em>, <em>most metallic</em></dd><dt>Form</dt><dd>-ic from <em>metal</em></dd><dt>Contrast</dt><dd>For everyday objects made of metal, use the noun: <em>a metal door</em>, <em>a metal box</em> (металлическая дверь, коробка). <em>Metallic</em> usually describes how something looks, sounds or tastes: <em>metallic paint</em>, <em>a metallic taste</em>, or is a science word: <em>metallic elements</em>.</dd></dl>
+<p>Metallic has 3 distinct senses.</p>
+<p><strong>1. Shiny, like metal.</strong> (блестящий, металлик)</p>
+<ol><li>The car comes in <em>metallic</em> gray.</li><li>She wore a <em>metallic</em> gold dress to the party.</li><li>The fabric looks <em>more metallic</em> under bright lights.</li></ol>
+<p><strong>2. Tasting or sounding like metal.</strong> (металлический (о привкусе, звуке))</p>
+<ol start="4"><li>The tap water has a <em>metallic</em> taste.</li><li>We heard a loud <em>metallic</em> clang from the garage.</li></ol>
+<p><strong>3. Containing metal, or having the properties of a metal.</strong> (металлический, содержащий металл)</p>
+<ol start="6"><li>Airport scanners detect <em>metallic</em> objects.</li><li>Sodium is a soft, <em>metallic</em> element.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
