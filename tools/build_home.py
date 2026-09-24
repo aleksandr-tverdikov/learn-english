@@ -49,6 +49,9 @@ for cfg in CATALOGS:
 
 RS = os.path.join(ROOT, 'grammar/01-reported-speech')
 rs_secs = len(glob.glob(f'{RS}/[0-9]*.md'))
+CD = os.path.join(ROOT, 'grammar/03-conditionals')
+cd_secs = len(glob.glob(f'{CD}/[0-9]*.md'))
+cd_lines = sum(len(open(f, errors='ignore').read().split('\n')) for f in glob.glob(f'{CD}/[0-9]*.md'))
 rs_lines = sum(len(open(f).read().split('\n')) for f in glob.glob(f'{RS}/[0-9]*.md'))
 
 total_entries = sum(v[0] for v in stats.values())
@@ -104,6 +107,16 @@ if rv:
     <div class="acts">
       <a class="btn" href="grammar/02-contractions/catalog/browse.html">Browse the forms</a>
       <a class="btn ghost" href="grammar/02-contractions/README.html">Read the topic</a>
+      <a class="btn ghost" href="grammar/README.html">All grammar</a>
+    </div>
+  </article>
+  <article class="dict" style="--c:#4f7a8a;--cd:#8fc3d4">
+    <div class="dict-head"><h3>Conditionals</h3><span class="n">{cd_secs}</span></div>
+    <p>Everything English does with <em>if</em>: the four types and the mixed ones, the conditions carried without <em>if</em> at all (<em>unless</em>, <em>in case</em>, <em>Had I known</em>), wishes and regrets, and the one idea underneath them — a past tense here marks distance from fact, not past time.</p>
+    <p class="meta">{cd_secs} sections &middot; {cd_lines:,} lines &middot; the four types, mixed, inversion, wishes, and every alternative to <em>if</em></p>
+    <div class="acts">
+      <a class="btn" href="grammar/03-conditionals/README.html">Read the topic</a>
+      <a class="btn ghost" href="grammar/03-conditionals/08-reference-and-practice.html">Tables &amp; practice</a>
       <a class="btn ghost" href="grammar/README.html">All grammar</a>
     </div>
   </article>
