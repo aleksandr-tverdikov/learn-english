@@ -49,6 +49,8 @@ for cfg in CATALOGS:
 
 RS = os.path.join(ROOT, 'grammar/01-reported-speech')
 rs_secs = len(glob.glob(f'{RS}/[0-9]*.md'))
+GO = os.path.join(ROOT, 'grammar/06-gerund-only/README.md')
+go_lines = len(open(GO, errors='ignore').read().split('\n')) if os.path.exists(GO) else 0
 TM = os.path.join(ROOT, 'grammar/05-time')
 tm_secs = len(glob.glob(f'{TM}/[0-9]*.md'))
 tm_lines = sum(len(open(f, errors='ignore').read().split('\n')) for f in glob.glob(f'{TM}/[0-9]*.md'))
@@ -113,6 +115,15 @@ if rv:
     <div class="acts">
       <a class="btn" href="grammar/02-contractions/catalog/browse.html">Browse the forms</a>
       <a class="btn ghost" href="grammar/02-contractions/README.html">Read the topic</a>
+      <a class="btn ghost" href="grammar/README.html">All grammar</a>
+    </div>
+  </article>
+  <article class="dict" style="--c:#8a4b2a;--cd:#e09a70">
+    <div class="dict-head"><h3>Only <em>-ing</em></h3></div>
+    <p>The lookup page for <em>can I say</em> to do <em>here?</em> — every verb, preposition, adjective, noun and fixed expression that forces the gerund, the <em>to</em> that is a preposition rather than an infinitive marker, and the short list of words that take both forms with different meanings.</p>
+    <p class="meta">{go_lines:,} lines &middot; one reference page &middot; verbs, prepositions, adjectives, nouns, fixed expressions</p>
+    <div class="acts">
+      <a class="btn" href="grammar/06-gerund-only/README.html">Open the page</a>
       <a class="btn ghost" href="grammar/README.html">All grammar</a>
     </div>
   </article>
