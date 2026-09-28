@@ -49,6 +49,9 @@ for cfg in CATALOGS:
 
 RS = os.path.join(ROOT, 'grammar/01-reported-speech')
 rs_secs = len(glob.glob(f'{RS}/[0-9]*.md'))
+TM = os.path.join(ROOT, 'grammar/05-time')
+tm_secs = len(glob.glob(f'{TM}/[0-9]*.md'))
+tm_lines = sum(len(open(f, errors='ignore').read().split('\n')) for f in glob.glob(f'{TM}/[0-9]*.md'))
 TN = os.path.join(ROOT, 'grammar/04-tenses')
 tn_secs = len(glob.glob(f'{TN}/[0-9]*.md'))
 tn_lines = sum(len(open(f, errors='ignore').read().split('\n')) for f in glob.glob(f'{TN}/[0-9]*.md'))
@@ -110,6 +113,16 @@ if rv:
     <div class="acts">
       <a class="btn" href="grammar/02-contractions/catalog/browse.html">Browse the forms</a>
       <a class="btn ghost" href="grammar/02-contractions/README.html">Read the topic</a>
+      <a class="btn ghost" href="grammar/README.html">All grammar</a>
+    </div>
+  </article>
+  <article class="dict" style="--c:#2f7a63;--cd:#79c9ac">
+    <div class="dict-head"><h3>Time</h3><span class="n">{tm_secs}</span></div>
+    <p>Saying <em>when</em>: telling the time, dates the American way, the prepositions that place an event, duration and frequency, the phrasal verbs and idioms, scheduling and deadlines, time zones, and age.</p>
+    <p class="meta">{tm_secs} sections &middot; {tm_lines:,} lines &middot; clock, calendar, prepositions, phrasal verbs, idioms, schedules</p>
+    <div class="acts">
+      <a class="btn" href="grammar/05-time/README.html">Read the topic</a>
+      <a class="btn ghost" href="grammar/05-time/12-reference-and-practice.html">Tables &amp; practice</a>
       <a class="btn ghost" href="grammar/README.html">All grammar</a>
     </div>
   </article>

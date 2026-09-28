@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Time</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../index.html">Learn English</a><span class="sep">/</span><a href="../README.html">Grammar</a><span class="sep">/</span><span>05-time</span></div></nav>
+<main><div class="wrap"><h1 id="time">Time<a class="hash" href="#time" aria-label="link">#</a></h1>
+<blockquote><p>Telling the time, saying the date, every preposition that places an event, the phrasal verbs, the idioms, and the American conventions nobody writes down.</p></blockquote>
+<p><a href="../README.html">← All grammar topics</a> &middot; <a href="../../README.html">Library home</a></p>
+<p>Time is not a word class, which is exactly why it is hard to look up. The pieces are scattered: <em>at</em> and <em>by</em> are prepositions, <em>already</em> and <em>soon</em> are adverbs, <em>hour</em> and <em>deadline</em> are nouns, <em>put off</em> and <em>wrap up</em> are verbs, and <em>in the nick of time</em> belongs to no class at all. A learner who wants to say when something happens has to assemble a sentence out of five different chapters.</p>
+<p>This topic gathers them in one place, organized by <strong>what you are trying to say</strong> rather than by what part of speech the word turns out to be.</p>
+<pre><code>What time is it?        →  quarter after six, six fifteen, ten of seven
+When is it?             →  on Monday, in March, at six, last week (no preposition)
+How long?               →  for two hours, since Monday, all day long
+How often?              →  twice a week, every other day, once in a blue moon
+When, relative to now?  →  already, yet, still, ago, soon, by then
+Moving it               →  push it back, move it up, reschedule, pencil me in</code></pre>
+<p>Three things make American time language specific, and each gets its own treatment:</p>
+<ul><li><strong>The date order is reversed.</strong> <em>3/7/2026</em> is March 7 in the United States and July 3 in most of the world, Russia included.</li><li><strong>The clock is read two ways.</strong> <em>Six forty-five</em> and <em>quarter to seven</em> are both ordinary, and Americans add <em>of</em> and <em>till</em> (<em>ten of seven</em>) where British English does not.</li><li><strong>Some words are genuinely ambiguous</strong>, and pretending otherwise does not help: <em>biweekly</em>, <em>next Friday</em>, <em>momentarily</em>, and <em>12 a.m.</em> all have two readings in real American use. The sections say so and tell you what to write instead.</li></ul>
+<p>For a Russian speaker the recurring problems are structural rather than lexical: <em>в</em> splits into <em>at</em>, <em>on</em> and <em>in</em>; <em>через час</em> is <em>in an hour</em>, not <em>through</em> one; <em>уже</em> and <em>ещё</em> fan out into <em>already</em>, <em>yet</em>, <em>still</em> and <em>anymore</em>; <em>до пяти</em> is <em>until five</em> for duration but <em>by five</em> for a deadline; and <em>полседьмого</em> means 6:30 while <em>half seven</em> means 7:30 — the inversion that produces the most confident wrong answer in the whole topic.</p>
+<h2 id="the-sections">The sections<a class="hash" href="#the-sections" aria-label="link">#</a></h2>
+<div class="tw"><table><thead><tr><th style="text-align:left">#</th><th style="text-align:left">Section</th><th style="text-align:left">What it covers</th></tr></thead><tbody><tr><td style="text-align:left">1</td><td style="text-align:left"><a href="01-telling-the-time.html">Telling the time</a></td><td style="text-align:left">Every clock position in both readings, a.m./p.m., noon and midnight, military time, approximations, and how to write a time</td></tr><tr><td style="text-align:left">2</td><td style="text-align:left"><a href="02-dates-days-and-years.html">Dates, days and years</a></td><td style="text-align:left">Days, months, the American month/day/year order, ordinals, decades, centuries, BC/AD, and holidays</td></tr><tr><td style="text-align:left">3</td><td style="text-align:left"><a href="03-prepositions-of-time.html">Prepositions of time</a></td><td style="text-align:left"><em>at/on/in</em>, the zero-preposition rule, <em>by</em> versus <em>until</em>, and every multi-word time preposition</td></tr><tr><td style="text-align:left">4</td><td style="text-align:left"><a href="04-duration-and-frequency.html">Duration and frequency</a></td><td style="text-align:left"><em>for</em>/<em>since</em>/<em>during</em>, <em>How long does it take?</em>, <em>spend time doing</em>, the frequency scale, and the <em>biweekly</em> problem</td></tr><tr><td style="text-align:left">5</td><td style="text-align:left"><a href="05-adverbs-and-sequence.html">Adverbs and sequence</a></td><td style="text-align:left"><em>already</em>, <em>yet</em>, <em>still</em>, <em>anymore</em>, <em>ago</em> versus <em>before</em>, and the words that order a narrative</td></tr><tr><td style="text-align:left">6</td><td style="text-align:left"><a href="06-phrasal-verbs-of-time.html">Phrasal verbs of time</a></td><td style="text-align:left">Delaying, advancing, starting, finishing, catching up, scheduling, sleeping — grouped by what they do</td></tr><tr><td style="text-align:left">7</td><td style="text-align:left"><a href="07-idioms-and-set-phrases.html">Idioms and set phrases</a></td><td style="text-align:left"><em>in the nick of time</em>, <em>around the clock</em>, <em>down to the wire</em>, <em>on time</em> versus <em>in time</em>, with registers</td></tr><tr><td style="text-align:left">8</td><td style="text-align:left"><a href="08-schedules-appointments-and-deadlines.html">Schedules, appointments and deadlines</a></td><td style="text-align:left">Making, changing and canceling; deadline vocabulary; <em>EOD</em>, <em>COB</em>, <em>lead time</em>; model emails</td></tr><tr><td style="text-align:left">9</td><td style="text-align:left"><a href="09-time-zones-and-american-conventions.html">Time zones and American conventions</a></td><td style="text-align:left">US zones, daylight saving, fiscal quarters, business days, and the American/British differences</td></tr><tr><td style="text-align:left">10</td><td style="text-align:left"><a href="10-age-life-stages-and-eras.html">Age, life stages and eras</a></td><td style="text-align:left"><em>I'm thirty</em> (never ✗ <em>I have thirty years</em>), life stages, the American school years, generations, historical periods</td></tr><tr><td style="text-align:left">11</td><td style="text-align:left"><a href="11-common-mistakes.html">Common mistakes</a></td><td style="text-align:left">Every time error a Russian speaker makes, grouped by cause, with a diagnostic table</td></tr><tr><td style="text-align:left">12</td><td style="text-align:left"><a href="12-reference-and-practice.html">Reference and practice</a></td><td style="text-align:left">Every table in one place, then practice with answers</td></tr></tbody></table></div>
+<h2 id="where-to-start">Where to start<a class="hash" href="#where-to-start" aria-label="link">#</a></h2>
+<p><strong>To say what time it is</strong>, <a href="01-telling-the-time.html">section 1</a>. <strong>To place an event</strong>, <a href="03-prepositions-of-time.html">section 3</a> — the zero-preposition rule alone removes a whole class of error. <strong>To sound like you work here</strong>, <a href="08-schedules-appointments-and-deadlines.html">section 8</a>. <strong>If something you wrote came back corrected</strong>, <a href="11-common-mistakes.html">section 11</a>.</p>
+<h2 id="the-words-themselves">The words themselves<a class="hash" href="#the-words-themselves" aria-label="link">#</a></h2>
+<p>This topic explains how the pieces fit together; the dictionaries hold the entries, each with pronunciation, Russian and examples:</p>
+<ul><li><a href="../../parts-of-speech/06-prepositions/catalog/05-time.html">Time prepositions</a> — <em>at</em>, <em>by</em>, <em>until</em>, <em>within</em>, <em>as of</em>, and the rest</li><li><a href="../../parts-of-speech/05-adverbs/catalog/06-time.html">Time adverbs</a> and <a href="../../parts-of-speech/05-adverbs/catalog/07-frequency-duration.html">frequency adverbs</a></li><li><a href="../../parts-of-speech/01-nouns/catalog/46-core-time-calendar.html">Time and calendar nouns</a></li><li><a href="../../parts-of-speech/07-conjunctions/catalog/03-time.html">Time conjunctions</a> — <em>when</em>, <em>while</em>, <em>as soon as</em>, <em>by the time</em></li><li><a href="../../parts-of-speech/03-verbs/catalog/README.html">The verb dictionary</a> — the phrasal verbs in section 6, each with its own entry</li></ul>
+<h2 id="see-also">See also<a class="hash" href="#see-also" aria-label="link">#</a></h2>
+<ul><li><a href="../04-tenses/README.html">Tenses</a> — when to use which verb form; this topic is about the time words around it</li><li><a href="../03-conditionals/README.html">Conditionals</a> — why the future is forbidden after <em>when</em> and <em>if</em></li><li><a href="../01-reported-speech/README.html">Reported speech</a> — what <em>tomorrow</em> and <em>here</em> become inside a report</li></ul></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
