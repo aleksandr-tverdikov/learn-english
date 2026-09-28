@@ -49,6 +49,8 @@ for cfg in CATALOGS:
 
 RS = os.path.join(ROOT, 'grammar/01-reported-speech')
 rs_secs = len(glob.glob(f'{RS}/[0-9]*.md'))
+IO = os.path.join(ROOT, 'grammar/07-infinitive-only/README.md')
+io_lines = len(open(IO, errors='ignore').read().split('\n')) if os.path.exists(IO) else 0
 GO = os.path.join(ROOT, 'grammar/06-gerund-only/README.md')
 go_lines = len(open(GO, errors='ignore').read().split('\n')) if os.path.exists(GO) else 0
 TM = os.path.join(ROOT, 'grammar/05-time')
@@ -115,6 +117,16 @@ if rv:
     <div class="acts">
       <a class="btn" href="grammar/02-contractions/catalog/browse.html">Browse the forms</a>
       <a class="btn ghost" href="grammar/02-contractions/README.html">Read the topic</a>
+      <a class="btn ghost" href="grammar/README.html">All grammar</a>
+    </div>
+  </article>
+  <article class="dict" style="--c:#4a5f8a;--cd:#9db0dd">
+    <div class="dict-head"><h3>Only an infinitive</h3></div>
+    <p>The companion list, in two halves: what takes <em>to do</em> — verbs, verb + object, adjectives, nouns, purpose, the <em>be to</em> family — and what takes the bare <em>do</em>: modals, <em>let</em>, <em>make</em>, <em>have</em>, the perception verbs, <em>had better</em>. Including the trap that <em>make</em> takes <em>to</em> in the passive.</p>
+    <p class="meta">{io_lines:,} lines &middot; one reference page &middot; with <em>to</em> and without, kept apart</p>
+    <div class="acts">
+      <a class="btn" href="grammar/07-infinitive-only/README.html">Open the page</a>
+      <a class="btn ghost" href="grammar/06-gerund-only/README.html">The <em>-ing</em> list</a>
       <a class="btn ghost" href="grammar/README.html">All grammar</a>
     </div>
   </article>

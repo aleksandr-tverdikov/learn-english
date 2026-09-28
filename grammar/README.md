@@ -16,6 +16,7 @@ The [parts of speech](../parts-of-speech/README.md) section is organized by **wo
 | 4 | **[Tenses](04-tenses/README.md)** | All twelve tense–aspect combinations one by one, every way English expresses the future, how to choose between them, the passive and questions in each, and the tense rules for subordinate clauses | — the irregular verbs are in the **[verb dictionary](../parts-of-speech/03-verbs/catalog/README.md)** |
 | 5 | **[Time](05-time/README.md)** | Telling the time, dates the American way, the prepositions that place an event, duration and frequency, the phrasal verbs and idioms, scheduling and deadlines, time zones, and age | — the words are in the **[preposition](../parts-of-speech/06-prepositions/catalog/05-time.md)**, **[adverb](../parts-of-speech/05-adverbs/catalog/06-time.md)** and **[noun](../parts-of-speech/01-nouns/catalog/46-core-time-calendar.md)** dictionaries |
 | 6 | **[Words that take only *-ing*](06-gerund-only/README.md)** | Every verb, preposition, adjective, noun and fixed expression after which English allows only the gerund — and the short list of words that take both forms with a change of meaning | — one reference page |
+| 7 | **[Words that take only an infinitive](07-infinitive-only/README.md)** | Every trigger that requires *to do* — verbs, verb + object, adjectives, nouns, purpose and *be to* frames — kept strictly apart from the ones that require the bare *do*: modals, *let*, *make*, *have*, the perception verbs, and *had better* | — one reference page |
 
 ## What a topic contains
 
